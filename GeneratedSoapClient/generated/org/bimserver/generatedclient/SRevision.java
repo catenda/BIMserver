@@ -21,21 +21,21 @@ import javax.xml.datatype.XMLGregorianCalendar;
  *   &lt;complexContent>
  *     &lt;restriction base="{http://www.w3.org/2001/XMLSchema}anyType">
  *       &lt;sequence>
- *         &lt;element name="bmi" type="{http://www.w3.org/2001/XMLSchema}int"/>
+ *         &lt;element name="bmi" type="{http://www.w3.org/2001/XMLSchema}int" minOccurs="0"/>
  *         &lt;element name="checkouts" type="{http://www.w3.org/2001/XMLSchema}long" maxOccurs="unbounded" minOccurs="0"/>
  *         &lt;element name="comment" type="{http://www.w3.org/2001/XMLSchema}string" minOccurs="0"/>
  *         &lt;element name="concreteRevisions" type="{http://www.w3.org/2001/XMLSchema}long" maxOccurs="unbounded" minOccurs="0"/>
  *         &lt;element name="date" type="{http://www.w3.org/2001/XMLSchema}dateTime" minOccurs="0"/>
- *         &lt;element name="id" type="{http://www.w3.org/2001/XMLSchema}int"/>
- *         &lt;element name="laid" type="{http://www.w3.org/2001/XMLSchema}long"/>
+ *         &lt;element name="extendedData" type="{http://www.w3.org/2001/XMLSchema}long" maxOccurs="unbounded" minOccurs="0"/>
+ *         &lt;element name="id" type="{http://www.w3.org/2001/XMLSchema}int" minOccurs="0"/>
+ *         &lt;element name="laid" type="{http://www.w3.org/2001/XMLSchema}long" minOccurs="0"/>
  *         &lt;element name="lastClashes" type="{http://www.w3.org/2001/XMLSchema}long" maxOccurs="unbounded" minOccurs="0"/>
  *         &lt;element name="lastConcreteRevisionId" type="{http://www.w3.org/2001/XMLSchema}long"/>
  *         &lt;element name="lastError" type="{http://www.w3.org/2001/XMLSchema}string" minOccurs="0"/>
- *         &lt;element name="nrClashes" type="{http://www.w3.org/2001/XMLSchema}int"/>
+ *         &lt;element name="nrClashes" type="{http://www.w3.org/2001/XMLSchema}int" minOccurs="0"/>
  *         &lt;element name="oid" type="{http://www.w3.org/2001/XMLSchema}long"/>
  *         &lt;element name="projectId" type="{http://www.w3.org/2001/XMLSchema}long"/>
- *         &lt;element name="size" type="{http://www.w3.org/2001/XMLSchema}long"/>
- *         &lt;element name="state" type="{http://shared.bimserver.org/}sCheckinState" minOccurs="0"/>
+ *         &lt;element name="size" type="{http://www.w3.org/2001/XMLSchema}long" minOccurs="0"/>
  *         &lt;element name="tag" type="{http://www.w3.org/2001/XMLSchema}string" minOccurs="0"/>
  *         &lt;element name="userId" type="{http://www.w3.org/2001/XMLSchema}long"/>
  *       &lt;/sequence>
@@ -53,6 +53,7 @@ import javax.xml.datatype.XMLGregorianCalendar;
     "comment",
     "concreteRevisions",
     "date",
+    "extendedData",
     "id",
     "laid",
     "lastClashes",
@@ -62,13 +63,12 @@ import javax.xml.datatype.XMLGregorianCalendar;
     "oid",
     "projectId",
     "size",
-    "state",
     "tag",
     "userId"
 })
 public class SRevision {
 
-    protected int bmi;
+    protected Integer bmi;
     @XmlElement(nillable = true)
     protected List<Long> checkouts;
     protected String comment;
@@ -76,33 +76,42 @@ public class SRevision {
     protected List<Long> concreteRevisions;
     @XmlSchemaType(name = "dateTime")
     protected XMLGregorianCalendar date;
-    protected int id;
-    protected long laid;
+    @XmlElement(nillable = true)
+    protected List<Long> extendedData;
+    protected Integer id;
+    protected Long laid;
     @XmlElement(nillable = true)
     protected List<Long> lastClashes;
     protected long lastConcreteRevisionId;
     protected String lastError;
-    protected int nrClashes;
+    protected Integer nrClashes;
     protected long oid;
     protected long projectId;
-    protected long size;
-    protected SCheckinState state;
+    protected Long size;
     protected String tag;
     protected long userId;
 
     /**
      * Gets the value of the bmi property.
      * 
+     * @return
+     *     possible object is
+     *     {@link Integer }
+     *     
      */
-    public int getBmi() {
+    public Integer getBmi() {
         return bmi;
     }
 
     /**
      * Sets the value of the bmi property.
      * 
+     * @param value
+     *     allowed object is
+     *     {@link Integer }
+     *     
      */
-    public void setBmi(int value) {
+    public void setBmi(Integer value) {
         this.bmi = value;
     }
 
@@ -213,34 +222,79 @@ public class SRevision {
     }
 
     /**
-     * Gets the value of the id property.
+     * Gets the value of the extendedData property.
+     * 
+     * <p>
+     * This accessor method returns a reference to the live list,
+     * not a snapshot. Therefore any modification you make to the
+     * returned list will be present inside the JAXB object.
+     * This is why there is not a <CODE>set</CODE> method for the extendedData property.
+     * 
+     * <p>
+     * For example, to add a new item, do as follows:
+     * <pre>
+     *    getExtendedData().add(newItem);
+     * </pre>
+     * 
+     * 
+     * <p>
+     * Objects of the following type(s) are allowed in the list
+     * {@link Long }
+     * 
      * 
      */
-    public int getId() {
+    public List<Long> getExtendedData() {
+        if (extendedData == null) {
+            extendedData = new ArrayList<Long>();
+        }
+        return this.extendedData;
+    }
+
+    /**
+     * Gets the value of the id property.
+     * 
+     * @return
+     *     possible object is
+     *     {@link Integer }
+     *     
+     */
+    public Integer getId() {
         return id;
     }
 
     /**
      * Sets the value of the id property.
      * 
+     * @param value
+     *     allowed object is
+     *     {@link Integer }
+     *     
      */
-    public void setId(int value) {
+    public void setId(Integer value) {
         this.id = value;
     }
 
     /**
      * Gets the value of the laid property.
      * 
+     * @return
+     *     possible object is
+     *     {@link Long }
+     *     
      */
-    public long getLaid() {
+    public Long getLaid() {
         return laid;
     }
 
     /**
      * Sets the value of the laid property.
      * 
+     * @param value
+     *     allowed object is
+     *     {@link Long }
+     *     
      */
-    public void setLaid(long value) {
+    public void setLaid(Long value) {
         this.laid = value;
     }
 
@@ -316,16 +370,24 @@ public class SRevision {
     /**
      * Gets the value of the nrClashes property.
      * 
+     * @return
+     *     possible object is
+     *     {@link Integer }
+     *     
      */
-    public int getNrClashes() {
+    public Integer getNrClashes() {
         return nrClashes;
     }
 
     /**
      * Sets the value of the nrClashes property.
      * 
+     * @param value
+     *     allowed object is
+     *     {@link Integer }
+     *     
      */
-    public void setNrClashes(int value) {
+    public void setNrClashes(Integer value) {
         this.nrClashes = value;
     }
 
@@ -364,41 +426,25 @@ public class SRevision {
     /**
      * Gets the value of the size property.
      * 
+     * @return
+     *     possible object is
+     *     {@link Long }
+     *     
      */
-    public long getSize() {
+    public Long getSize() {
         return size;
     }
 
     /**
      * Sets the value of the size property.
      * 
-     */
-    public void setSize(long value) {
-        this.size = value;
-    }
-
-    /**
-     * Gets the value of the state property.
-     * 
-     * @return
-     *     possible object is
-     *     {@link SCheckinState }
-     *     
-     */
-    public SCheckinState getState() {
-        return state;
-    }
-
-    /**
-     * Sets the value of the state property.
-     * 
      * @param value
      *     allowed object is
-     *     {@link SCheckinState }
+     *     {@link Long }
      *     
      */
-    public void setState(SCheckinState value) {
-        this.state = value;
+    public void setSize(Long value) {
+        this.size = value;
     }
 
     /**

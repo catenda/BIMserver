@@ -16,7 +16,7 @@ import javax.xml.bind.annotation.XmlType;
  *   &lt;complexContent>
  *     &lt;restriction base="{http://www.w3.org/2001/XMLSchema}anyType">
  *       &lt;sequence>
- *         &lt;element name="count" type="{http://www.w3.org/2001/XMLSchema}int"/>
+ *         &lt;element name="count" type="{http://www.w3.org/2001/XMLSchema}int" minOccurs="0"/>
  *         &lt;element name="name" type="{http://www.w3.org/2001/XMLSchema}string" minOccurs="0"/>
  *         &lt;element name="oid" type="{http://www.w3.org/2001/XMLSchema}long"/>
  *       &lt;/sequence>
@@ -35,23 +35,31 @@ import javax.xml.bind.annotation.XmlType;
 })
 public class SRevisionSummaryType {
 
-    protected int count;
+    protected Integer count;
     protected String name;
     protected long oid;
 
     /**
      * Gets the value of the count property.
      * 
+     * @return
+     *     possible object is
+     *     {@link Integer }
+     *     
      */
-    public int getCount() {
+    public Integer getCount() {
         return count;
     }
 
     /**
      * Sets the value of the count property.
      * 
+     * @param value
+     *     allowed object is
+     *     {@link Integer }
+     *     
      */
-    public void setCount(int value) {
+    public void setCount(Integer value) {
         this.count = value;
     }
 

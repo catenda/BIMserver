@@ -20,10 +20,10 @@ import javax.xml.datatype.XMLGregorianCalendar;
  *       &lt;sequence>
  *         &lt;element name="date" type="{http://www.w3.org/2001/XMLSchema}dateTime" minOccurs="0"/>
  *         &lt;element name="downloadUrl" type="{http://www.w3.org/2001/XMLSchema}string" minOccurs="0"/>
- *         &lt;element name="major" type="{http://www.w3.org/2001/XMLSchema}int"/>
- *         &lt;element name="minor" type="{http://www.w3.org/2001/XMLSchema}int"/>
+ *         &lt;element name="major" type="{http://www.w3.org/2001/XMLSchema}int" minOccurs="0"/>
+ *         &lt;element name="minor" type="{http://www.w3.org/2001/XMLSchema}int" minOccurs="0"/>
  *         &lt;element name="oid" type="{http://www.w3.org/2001/XMLSchema}long"/>
- *         &lt;element name="revision" type="{http://www.w3.org/2001/XMLSchema}int"/>
+ *         &lt;element name="revision" type="{http://www.w3.org/2001/XMLSchema}int" minOccurs="0"/>
  *         &lt;element name="supportEmail" type="{http://www.w3.org/2001/XMLSchema}string" minOccurs="0"/>
  *         &lt;element name="supportUrl" type="{http://www.w3.org/2001/XMLSchema}string" minOccurs="0"/>
  *       &lt;/sequence>
@@ -50,10 +50,10 @@ public class SVersion {
     @XmlSchemaType(name = "dateTime")
     protected XMLGregorianCalendar date;
     protected String downloadUrl;
-    protected int major;
-    protected int minor;
+    protected Integer major;
+    protected Integer minor;
     protected long oid;
-    protected int revision;
+    protected Integer revision;
     protected String supportEmail;
     protected String supportUrl;
 
@@ -108,32 +108,48 @@ public class SVersion {
     /**
      * Gets the value of the major property.
      * 
+     * @return
+     *     possible object is
+     *     {@link Integer }
+     *     
      */
-    public int getMajor() {
+    public Integer getMajor() {
         return major;
     }
 
     /**
      * Sets the value of the major property.
      * 
+     * @param value
+     *     allowed object is
+     *     {@link Integer }
+     *     
      */
-    public void setMajor(int value) {
+    public void setMajor(Integer value) {
         this.major = value;
     }
 
     /**
      * Gets the value of the minor property.
      * 
+     * @return
+     *     possible object is
+     *     {@link Integer }
+     *     
      */
-    public int getMinor() {
+    public Integer getMinor() {
         return minor;
     }
 
     /**
      * Sets the value of the minor property.
      * 
+     * @param value
+     *     allowed object is
+     *     {@link Integer }
+     *     
      */
-    public void setMinor(int value) {
+    public void setMinor(Integer value) {
         this.minor = value;
     }
 
@@ -156,16 +172,24 @@ public class SVersion {
     /**
      * Gets the value of the revision property.
      * 
+     * @return
+     *     possible object is
+     *     {@link Integer }
+     *     
      */
-    public int getRevision() {
+    public Integer getRevision() {
         return revision;
     }
 
     /**
      * Sets the value of the revision property.
      * 
+     * @param value
+     *     allowed object is
+     *     {@link Integer }
+     *     
      */
-    public void setRevision(int value) {
+    public void setRevision(Integer value) {
         this.revision = value;
     }
 

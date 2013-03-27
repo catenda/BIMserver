@@ -34,9 +34,12 @@ public class ObjectFactory {
     private final static QName _CheckoutResponse_QNAME = new QName("http://shared.bimserver.org/", "checkoutResponse");
     private final static QName _SetHttpCallback_QNAME = new QName("http://shared.bimserver.org/", "setHttpCallback");
     private final static QName _AddDeserializer_QNAME = new QName("http://shared.bimserver.org/", "addDeserializer");
+    private final static QName _AddUserToExtendedDataSchemaResponse_QNAME = new QName("http://shared.bimserver.org/", "addUserToExtendedDataSchemaResponse");
     private final static QName _GetSettingSmtpServer_QNAME = new QName("http://shared.bimserver.org/", "getSettingSmtpServer");
     private final static QName _GetSerializerByNameResponse_QNAME = new QName("http://shared.bimserver.org/", "getSerializerByNameResponse");
+    private final static QName _GetAllExtendedDataSchemasResponse_QNAME = new QName("http://shared.bimserver.org/", "getAllExtendedDataSchemasResponse");
     private final static QName _SRevisionUpdated_QNAME = new QName("http://shared.bimserver.org/", "sRevisionUpdated");
+    private final static QName _GetCheckinWarnings_QNAME = new QName("http://shared.bimserver.org/", "getCheckinWarnings");
     private final static QName _SUserUndeleted_QNAME = new QName("http://shared.bimserver.org/", "sUserUndeleted");
     private final static QName _UpdateClashDetectionSettings_QNAME = new QName("http://shared.bimserver.org/", "updateClashDetectionSettings");
     private final static QName _SSettingsSaved_QNAME = new QName("http://shared.bimserver.org/", "sSettingsSaved");
@@ -47,22 +50,25 @@ public class ObjectFactory {
     private final static QName _SPasswordReset_QNAME = new QName("http://shared.bimserver.org/", "sPasswordReset");
     private final static QName _GetAllObjectIDMPluginDescriptorsResponse_QNAME = new QName("http://shared.bimserver.org/", "getAllObjectIDMPluginDescriptorsResponse");
     private final static QName _SClashDetectionSettings_QNAME = new QName("http://shared.bimserver.org/", "sClashDetectionSettings");
+    private final static QName _AddIfcEngine_QNAME = new QName("http://shared.bimserver.org/", "addIfcEngine");
     private final static QName _GetAllNonAuthorizedUsersOfProjectResponse_QNAME = new QName("http://shared.bimserver.org/", "getAllNonAuthorizedUsersOfProjectResponse");
+    private final static QName _GetAllIfcEnginePluginDescriptorsResponse_QNAME = new QName("http://shared.bimserver.org/", "getAllIfcEnginePluginDescriptorsResponse");
     private final static QName _SendCompareEmail_QNAME = new QName("http://shared.bimserver.org/", "sendCompareEmail");
-    private final static QName _IsSettingSendConfirmationEmailAfterRegistration_QNAME = new QName("http://shared.bimserver.org/", "isSettingSendConfirmationEmailAfterRegistration");
     private final static QName _SendClashesEmailResponse_QNAME = new QName("http://shared.bimserver.org/", "sendClashesEmailResponse");
+    private final static QName _IsSettingSendConfirmationEmailAfterRegistration_QNAME = new QName("http://shared.bimserver.org/", "isSettingSendConfirmationEmailAfterRegistration");
     private final static QName _GetAvailableClassesInRevision_QNAME = new QName("http://shared.bimserver.org/", "getAvailableClassesInRevision");
     private final static QName _DeleteProject_QNAME = new QName("http://shared.bimserver.org/", "deleteProject");
+    private final static QName _RemoveUserFromExtendedDataSchema_QNAME = new QName("http://shared.bimserver.org/", "removeUserFromExtendedDataSchema");
     private final static QName _GetActiveUserSessionsResponse_QNAME = new QName("http://shared.bimserver.org/", "getActiveUserSessionsResponse");
     private final static QName _GetActiveSinceResponse_QNAME = new QName("http://shared.bimserver.org/", "getActiveSinceResponse");
+    private final static QName _AddIfcEngineResponse_QNAME = new QName("http://shared.bimserver.org/", "addIfcEngineResponse");
     private final static QName _GetAvailableClassesResponse_QNAME = new QName("http://shared.bimserver.org/", "getAvailableClassesResponse");
     private final static QName _UpdateClashDetectionSettingsResponse_QNAME = new QName("http://shared.bimserver.org/", "updateClashDetectionSettingsResponse");
-    private final static QName _CommitTransactionResponse_QNAME = new QName("http://shared.bimserver.org/", "commitTransactionResponse");
     private final static QName _HasActiveSerializerResponse_QNAME = new QName("http://shared.bimserver.org/", "hasActiveSerializerResponse");
+    private final static QName _CommitTransactionResponse_QNAME = new QName("http://shared.bimserver.org/", "commitTransactionResponse");
     private final static QName _SetSettingProtocolBuffersPort_QNAME = new QName("http://shared.bimserver.org/", "setSettingProtocolBuffersPort");
     private final static QName _GetLoggedInUser_QNAME = new QName("http://shared.bimserver.org/", "getLoggedInUser");
     private final static QName _UpdateSerializerResponse_QNAME = new QName("http://shared.bimserver.org/", "updateSerializerResponse");
-    private final static QName _SetSettingAutoTestClashesResponse_QNAME = new QName("http://shared.bimserver.org/", "setSettingAutoTestClashesResponse");
     private final static QName _SetSettingSmtpServerResponse_QNAME = new QName("http://shared.bimserver.org/", "setSettingSmtpServerResponse");
     private final static QName _GetSettingFooterAdditionResponse_QNAME = new QName("http://shared.bimserver.org/", "getSettingFooterAdditionResponse");
     private final static QName _GetSerializerByIdResponse_QNAME = new QName("http://shared.bimserver.org/", "getSerializerByIdResponse");
@@ -75,6 +81,7 @@ public class ObjectFactory {
     private final static QName _GetAllSerializerPluginDescriptorsResponse_QNAME = new QName("http://shared.bimserver.org/", "getAllSerializerPluginDescriptorsResponse");
     private final static QName _SCompileResult_QNAME = new QName("http://shared.bimserver.org/", "sCompileResult");
     private final static QName _DeleteProjectResponse_QNAME = new QName("http://shared.bimserver.org/", "deleteProjectResponse");
+    private final static QName _GetIfcEngineById_QNAME = new QName("http://shared.bimserver.org/", "getIfcEngineById");
     private final static QName _SRevisionBranched_QNAME = new QName("http://shared.bimserver.org/", "sRevisionBranched");
     private final static QName _IsSettingAllowSelfRegistrationResponse_QNAME = new QName("http://shared.bimserver.org/", "isSettingAllowSelfRegistrationResponse");
     private final static QName _AddObjectIDM_QNAME = new QName("http://shared.bimserver.org/", "addObjectIDM");
@@ -85,28 +92,31 @@ public class ObjectFactory {
     private final static QName _GetAllDeserializersResponse_QNAME = new QName("http://shared.bimserver.org/", "getAllDeserializersResponse");
     private final static QName _CommitTransaction_QNAME = new QName("http://shared.bimserver.org/", "commitTransaction");
     private final static QName _GetAllCheckoutsOfProjectAndSubProjectsResponse_QNAME = new QName("http://shared.bimserver.org/", "getAllCheckoutsOfProjectAndSubProjectsResponse");
+    private final static QName _AddExtendedDataToRevisionResponse_QNAME = new QName("http://shared.bimserver.org/", "addExtendedDataToRevisionResponse");
     private final static QName _GetSerializerById_QNAME = new QName("http://shared.bimserver.org/", "getSerializerById");
-    private final static QName _DeleteObjectIDMResponse_QNAME = new QName("http://shared.bimserver.org/", "deleteObjectIDMResponse");
     private final static QName _SetReferenceResponse_QNAME = new QName("http://shared.bimserver.org/", "setReferenceResponse");
+    private final static QName _DeleteObjectIDMResponse_QNAME = new QName("http://shared.bimserver.org/", "deleteObjectIDMResponse");
     private final static QName _SRevisionSummary_QNAME = new QName("http://shared.bimserver.org/", "sRevisionSummary");
     private final static QName _SetSettingMergeIdentifierResponse_QNAME = new QName("http://shared.bimserver.org/", "setSettingMergeIdentifierResponse");
-    private final static QName _DownloadCompareResults_QNAME = new QName("http://shared.bimserver.org/", "downloadCompareResults");
     private final static QName _SetSettingCustomLogoAddress_QNAME = new QName("http://shared.bimserver.org/", "setSettingCustomLogoAddress");
+    private final static QName _DownloadCompareResults_QNAME = new QName("http://shared.bimserver.org/", "downloadCompareResults");
     private final static QName _IsSettingHideUserListForNonAdminResponse_QNAME = new QName("http://shared.bimserver.org/", "isSettingHideUserListForNonAdminResponse");
     private final static QName _SetSettingAllowUsersToCreateTopLevelProjectsResponse_QNAME = new QName("http://shared.bimserver.org/", "setSettingAllowUsersToCreateTopLevelProjectsResponse");
-    private final static QName _GetSettingProtocolBuffersPort_QNAME = new QName("http://shared.bimserver.org/", "getSettingProtocolBuffersPort");
     private final static QName _GetRevision_QNAME = new QName("http://shared.bimserver.org/", "getRevision");
-    private final static QName _SLongActionState_QNAME = new QName("http://shared.bimserver.org/", "sLongActionState");
-    private final static QName _GetSettingHeaderAdditionResponse_QNAME = new QName("http://shared.bimserver.org/", "getSettingHeaderAdditionResponse");
+    private final static QName _GetSettingProtocolBuffersPort_QNAME = new QName("http://shared.bimserver.org/", "getSettingProtocolBuffersPort");
     private final static QName _DownloadByGuids_QNAME = new QName("http://shared.bimserver.org/", "downloadByGuids");
+    private final static QName _GetSettingHeaderAdditionResponse_QNAME = new QName("http://shared.bimserver.org/", "getSettingHeaderAdditionResponse");
+    private final static QName _SLongActionState_QNAME = new QName("http://shared.bimserver.org/", "sLongActionState");
     private final static QName _UserHasCheckinRightsResponse_QNAME = new QName("http://shared.bimserver.org/", "userHasCheckinRightsResponse");
-    private final static QName _LoginResponse_QNAME = new QName("http://shared.bimserver.org/", "loginResponse");
     private final static QName _GetUserByUoid_QNAME = new QName("http://shared.bimserver.org/", "getUserByUoid");
-    private final static QName _GetAllCheckoutsOfRevision_QNAME = new QName("http://shared.bimserver.org/", "getAllCheckoutsOfRevision");
+    private final static QName _LoginResponse_QNAME = new QName("http://shared.bimserver.org/", "loginResponse");
     private final static QName _GetDeserializerByName_QNAME = new QName("http://shared.bimserver.org/", "getDeserializerByName");
+    private final static QName _GetAllCheckoutsOfRevision_QNAME = new QName("http://shared.bimserver.org/", "getAllCheckoutsOfRevision");
     private final static QName _GetVersion_QNAME = new QName("http://shared.bimserver.org/", "getVersion");
     private final static QName _GetAllDeserializerPluginDescriptors_QNAME = new QName("http://shared.bimserver.org/", "getAllDeserializerPluginDescriptors");
+    private final static QName _DeleteIfcEngineResponse_QNAME = new QName("http://shared.bimserver.org/", "deleteIfcEngineResponse");
     private final static QName _SLogAction_QNAME = new QName("http://shared.bimserver.org/", "sLogAction");
+    private final static QName _AddExtendedDataToProject_QNAME = new QName("http://shared.bimserver.org/", "addExtendedDataToProject");
     private final static QName _UndeleteProject_QNAME = new QName("http://shared.bimserver.org/", "undeleteProject");
     private final static QName _SetSettingSiteAddressResponse_QNAME = new QName("http://shared.bimserver.org/", "setSettingSiteAddressResponse");
     private final static QName _IsSettingCacheOutputFiles_QNAME = new QName("http://shared.bimserver.org/", "isSettingCacheOutputFiles");
@@ -115,6 +125,7 @@ public class ObjectFactory {
     private final static QName _GetAllDeserializerPluginDescriptorsResponse_QNAME = new QName("http://shared.bimserver.org/", "getAllDeserializerPluginDescriptorsResponse");
     private final static QName _SSimpleDataValue_QNAME = new QName("http://shared.bimserver.org/", "sSimpleDataValue");
     private final static QName _Checkin_QNAME = new QName("http://shared.bimserver.org/", "checkin");
+    private final static QName _AddUserToExtendedDataSchema_QNAME = new QName("http://shared.bimserver.org/", "addUserToExtendedDataSchema");
     private final static QName _SetupResponse_QNAME = new QName("http://shared.bimserver.org/", "setupResponse");
     private final static QName _GetSettingRegistrationAddition_QNAME = new QName("http://shared.bimserver.org/", "getSettingRegistrationAddition");
     private final static QName _GetRevisionSummaryResponse_QNAME = new QName("http://shared.bimserver.org/", "getRevisionSummaryResponse");
@@ -123,11 +134,14 @@ public class ObjectFactory {
     private final static QName _SListDataValue_QNAME = new QName("http://shared.bimserver.org/", "sListDataValue");
     private final static QName _GetSettingCustomLogoAddress_QNAME = new QName("http://shared.bimserver.org/", "getSettingCustomLogoAddress");
     private final static QName _SCheckout_QNAME = new QName("http://shared.bimserver.org/", "sCheckout");
+    private final static QName _UpdateIfcEngineResponse_QNAME = new QName("http://shared.bimserver.org/", "updateIfcEngineResponse");
+    private final static QName _GetExtendedDataSchemaById_QNAME = new QName("http://shared.bimserver.org/", "getExtendedDataSchemaById");
     private final static QName _DownloadRevisionsResponse_QNAME = new QName("http://shared.bimserver.org/", "downloadRevisionsResponse");
     private final static QName _ChangeUserTypeResponse_QNAME = new QName("http://shared.bimserver.org/", "changeUserTypeResponse");
     private final static QName _SNewRevisionAdded_QNAME = new QName("http://shared.bimserver.org/", "sNewRevisionAdded");
     private final static QName _GetLatestVersion_QNAME = new QName("http://shared.bimserver.org/", "getLatestVersion");
     private final static QName _GetAllCheckoutsOfRevisionResponse_QNAME = new QName("http://shared.bimserver.org/", "getAllCheckoutsOfRevisionResponse");
+    private final static QName _AddExtendedDataSchemaResponse_QNAME = new QName("http://shared.bimserver.org/", "addExtendedDataSchemaResponse");
     private final static QName _SProjectUpdated_QNAME = new QName("http://shared.bimserver.org/", "sProjectUpdated");
     private final static QName _GetAllRevisionsOfProject_QNAME = new QName("http://shared.bimserver.org/", "getAllRevisionsOfProject");
     private final static QName _GetObjectIDMByIdResponse_QNAME = new QName("http://shared.bimserver.org/", "getObjectIDMByIdResponse");
@@ -138,6 +152,7 @@ public class ObjectFactory {
     private final static QName _SGuidClash_QNAME = new QName("http://shared.bimserver.org/", "sGuidClash");
     private final static QName _SDeserializerPluginDescriptor_QNAME = new QName("http://shared.bimserver.org/", "sDeserializerPluginDescriptor");
     private final static QName _AddUserResponse_QNAME = new QName("http://shared.bimserver.org/", "addUserResponse");
+    private final static QName _UpdateIfcEngine_QNAME = new QName("http://shared.bimserver.org/", "updateIfcEngine");
     private final static QName _AddUser_QNAME = new QName("http://shared.bimserver.org/", "addUser");
     private final static QName _SProjectDeleted_QNAME = new QName("http://shared.bimserver.org/", "sProjectDeleted");
     private final static QName _SPasswordChanged_QNAME = new QName("http://shared.bimserver.org/", "sPasswordChanged");
@@ -165,26 +180,25 @@ public class ObjectFactory {
     private final static QName _RequestPasswordChangeResponse_QNAME = new QName("http://shared.bimserver.org/", "requestPasswordChangeResponse");
     private final static QName _GetServerStartTime_QNAME = new QName("http://shared.bimserver.org/", "getServerStartTime");
     private final static QName _SObjectIDMPluginDescriptor_QNAME = new QName("http://shared.bimserver.org/", "sObjectIDMPluginDescriptor");
-    private final static QName _SVersion_QNAME = new QName("http://shared.bimserver.org/", "sVersion");
     private final static QName _GetProjectsByNameResponse_QNAME = new QName("http://shared.bimserver.org/", "getProjectsByNameResponse");
-    private final static QName _GetAllNonAuthorizedProjectsOfUserResponse_QNAME = new QName("http://shared.bimserver.org/", "getAllNonAuthorizedProjectsOfUserResponse");
+    private final static QName _SVersion_QNAME = new QName("http://shared.bimserver.org/", "sVersion");
     private final static QName _GetAllRevisionsByUserResponse_QNAME = new QName("http://shared.bimserver.org/", "getAllRevisionsByUserResponse");
+    private final static QName _GetAllNonAuthorizedProjectsOfUserResponse_QNAME = new QName("http://shared.bimserver.org/", "getAllNonAuthorizedProjectsOfUserResponse");
     private final static QName _GetDatabaseInformation_QNAME = new QName("http://shared.bimserver.org/", "getDatabaseInformation");
     private final static QName _AddProjectAsSubProjectResponse_QNAME = new QName("http://shared.bimserver.org/", "addProjectAsSubProjectResponse");
-    private final static QName _IsSettingSendConfirmationEmailAfterRegistrationResponse_QNAME = new QName("http://shared.bimserver.org/", "isSettingSendConfirmationEmailAfterRegistrationResponse");
     private final static QName _UndeleteProjectResponse_QNAME = new QName("http://shared.bimserver.org/", "undeleteProjectResponse");
-    private final static QName _IsSettingAutoTestClashes_QNAME = new QName("http://shared.bimserver.org/", "isSettingAutoTestClashes");
+    private final static QName _IsSettingSendConfirmationEmailAfterRegistrationResponse_QNAME = new QName("http://shared.bimserver.org/", "isSettingSendConfirmationEmailAfterRegistrationResponse");
     private final static QName _UndeleteUser_QNAME = new QName("http://shared.bimserver.org/", "undeleteUser");
-    private final static QName _SLongCheckinAction_QNAME = new QName("http://shared.bimserver.org/", "sLongCheckinAction");
     private final static QName _AddDoubleAttribute_QNAME = new QName("http://shared.bimserver.org/", "addDoubleAttribute");
+    private final static QName _SLongCheckinAction_QNAME = new QName("http://shared.bimserver.org/", "sLongCheckinAction");
     private final static QName _GetSerializerByContentType_QNAME = new QName("http://shared.bimserver.org/", "getSerializerByContentType");
     private final static QName _DeleteUser_QNAME = new QName("http://shared.bimserver.org/", "deleteUser");
     private final static QName _UserHasRightsResponse_QNAME = new QName("http://shared.bimserver.org/", "userHasRightsResponse");
     private final static QName _GetAllDeserializers_QNAME = new QName("http://shared.bimserver.org/", "getAllDeserializers");
     private final static QName _CreateObjectResponse_QNAME = new QName("http://shared.bimserver.org/", "createObjectResponse");
     private final static QName _GetClashDetectionSettingsResponse_QNAME = new QName("http://shared.bimserver.org/", "getClashDetectionSettingsResponse");
-    private final static QName _DeleteDeserializer_QNAME = new QName("http://shared.bimserver.org/", "deleteDeserializer");
     private final static QName _AddStringAttributeResponse_QNAME = new QName("http://shared.bimserver.org/", "addStringAttributeResponse");
+    private final static QName _DeleteDeserializer_QNAME = new QName("http://shared.bimserver.org/", "deleteDeserializer");
     private final static QName _GetSerializerByContentTypeResponse_QNAME = new QName("http://shared.bimserver.org/", "getSerializerByContentTypeResponse");
     private final static QName _GetAllProjects_QNAME = new QName("http://shared.bimserver.org/", "getAllProjects");
     private final static QName _GetAllUsersResponse_QNAME = new QName("http://shared.bimserver.org/", "getAllUsersResponse");
@@ -203,11 +217,13 @@ public class ObjectFactory {
     private final static QName _MigrateDatabaseResponse_QNAME = new QName("http://shared.bimserver.org/", "migrateDatabaseResponse");
     private final static QName _GetAllCheckoutsOfProjectAndSubProjects_QNAME = new QName("http://shared.bimserver.org/", "getAllCheckoutsOfProjectAndSubProjects");
     private final static QName _GetDataObjectByGuid_QNAME = new QName("http://shared.bimserver.org/", "getDataObjectByGuid");
+    private final static QName _SIfcEngine_QNAME = new QName("http://shared.bimserver.org/", "sIfcEngine");
     private final static QName _GetAllReadableProjectsResponse_QNAME = new QName("http://shared.bimserver.org/", "getAllReadableProjectsResponse");
     private final static QName _SetSettingSiteAddress_QNAME = new QName("http://shared.bimserver.org/", "setSettingSiteAddress");
     private final static QName _GetActiveLongActions_QNAME = new QName("http://shared.bimserver.org/", "getActiveLongActions");
     private final static QName _GetAllObjectIDMs_QNAME = new QName("http://shared.bimserver.org/", "getAllObjectIDMs");
     private final static QName _PingResponse_QNAME = new QName("http://shared.bimserver.org/", "pingResponse");
+    private final static QName _GetExtendedData_QNAME = new QName("http://shared.bimserver.org/", "getExtendedData");
     private final static QName _SetReference_QNAME = new QName("http://shared.bimserver.org/", "setReference");
     private final static QName _RemoveUserFromProject_QNAME = new QName("http://shared.bimserver.org/", "removeUserFromProject");
     private final static QName _SetSettingHeaderAddition_QNAME = new QName("http://shared.bimserver.org/", "setSettingHeaderAddition");
@@ -217,10 +233,12 @@ public class ObjectFactory {
     private final static QName _SRevision_QNAME = new QName("http://shared.bimserver.org/", "sRevision");
     private final static QName _BranchToExistingProjectResponse_QNAME = new QName("http://shared.bimserver.org/", "branchToExistingProjectResponse");
     private final static QName _SUserChanged_QNAME = new QName("http://shared.bimserver.org/", "sUserChanged");
+    private final static QName _SExtendedDataSchema_QNAME = new QName("http://shared.bimserver.org/", "sExtendedDataSchema");
     private final static QName _SetDoubleAttribute_QNAME = new QName("http://shared.bimserver.org/", "setDoubleAttribute");
     private final static QName _GetCheckinState_QNAME = new QName("http://shared.bimserver.org/", "getCheckinState");
     private final static QName _GetAvailableClasses_QNAME = new QName("http://shared.bimserver.org/", "getAvailableClasses");
     private final static QName _GetAllCheckoutsByUser_QNAME = new QName("http://shared.bimserver.org/", "getAllCheckoutsByUser");
+    private final static QName _SIfcEnginePluginDescriptor_QNAME = new QName("http://shared.bimserver.org/", "sIfcEnginePluginDescriptor");
     private final static QName _GetDownloadStateResponse_QNAME = new QName("http://shared.bimserver.org/", "getDownloadStateResponse");
     private final static QName _GetObjectIDMByNameResponse_QNAME = new QName("http://shared.bimserver.org/", "getObjectIDMByNameResponse");
     private final static QName _GetSettingMergeIdentifierResponse_QNAME = new QName("http://shared.bimserver.org/", "getSettingMergeIdentifierResponse");
@@ -231,10 +249,12 @@ public class ObjectFactory {
     private final static QName _SObjectAdded_QNAME = new QName("http://shared.bimserver.org/", "sObjectAdded");
     private final static QName _GetAllReadableProjects_QNAME = new QName("http://shared.bimserver.org/", "getAllReadableProjects");
     private final static QName _FindClashesByGuid_QNAME = new QName("http://shared.bimserver.org/", "findClashesByGuid");
+    private final static QName _GetAllExtendedDataSchemas_QNAME = new QName("http://shared.bimserver.org/", "getAllExtendedDataSchemas");
     private final static QName _ChangeUserType_QNAME = new QName("http://shared.bimserver.org/", "changeUserType");
     private final static QName _GetDataObjects_QNAME = new QName("http://shared.bimserver.org/", "getDataObjects");
     private final static QName _ValidateAccount_QNAME = new QName("http://shared.bimserver.org/", "validateAccount");
     private final static QName _DownloadByGuidsResponse_QNAME = new QName("http://shared.bimserver.org/", "downloadByGuidsResponse");
+    private final static QName _AddExtendedDataToRevision_QNAME = new QName("http://shared.bimserver.org/", "addExtendedDataToRevision");
     private final static QName _SetSettingSendConfirmationEmailAfterRegistration_QNAME = new QName("http://shared.bimserver.org/", "setSettingSendConfirmationEmailAfterRegistration");
     private final static QName _GetSerializerPluginDescriptor_QNAME = new QName("http://shared.bimserver.org/", "getSerializerPluginDescriptor");
     private final static QName _UpgradePossibleResponse_QNAME = new QName("http://shared.bimserver.org/", "upgradePossibleResponse");
@@ -243,6 +263,7 @@ public class ObjectFactory {
     private final static QName _SetSettingFooterAddition_QNAME = new QName("http://shared.bimserver.org/", "setSettingFooterAddition");
     private final static QName _GetRemoteAddress_QNAME = new QName("http://shared.bimserver.org/", "getRemoteAddress");
     private final static QName _SetEnumAttribute_QNAME = new QName("http://shared.bimserver.org/", "setEnumAttribute");
+    private final static QName _SExtendedData_QNAME = new QName("http://shared.bimserver.org/", "sExtendedData");
     private final static QName _GetSettingEmailSenderAddress_QNAME = new QName("http://shared.bimserver.org/", "getSettingEmailSenderAddress");
     private final static QName _RemoveUserFromProjectResponse_QNAME = new QName("http://shared.bimserver.org/", "removeUserFromProjectResponse");
     private final static QName _StartTransaction_QNAME = new QName("http://shared.bimserver.org/", "startTransaction");
@@ -253,8 +274,8 @@ public class ObjectFactory {
     private final static QName _IsLoggedInResponse_QNAME = new QName("http://shared.bimserver.org/", "isLoggedInResponse");
     private final static QName _SObjectIDM_QNAME = new QName("http://shared.bimserver.org/", "sObjectIDM");
     private final static QName _GetCurrentToken_QNAME = new QName("http://shared.bimserver.org/", "getCurrentToken");
-    private final static QName _GetLoggedInUserResponse_QNAME = new QName("http://shared.bimserver.org/", "getLoggedInUserResponse");
     private final static QName _GetAllSerializerPluginDescriptors_QNAME = new QName("http://shared.bimserver.org/", "getAllSerializerPluginDescriptors");
+    private final static QName _GetLoggedInUserResponse_QNAME = new QName("http://shared.bimserver.org/", "getLoggedInUserResponse");
     private final static QName _GetAllObjectIDMPluginDescriptors_QNAME = new QName("http://shared.bimserver.org/", "getAllObjectIDMPluginDescriptors");
     private final static QName _SServerStarted_QNAME = new QName("http://shared.bimserver.org/", "sServerStarted");
     private final static QName _DownloadRevisions_QNAME = new QName("http://shared.bimserver.org/", "downloadRevisions");
@@ -281,6 +302,7 @@ public class ObjectFactory {
     private final static QName _GetSettingSmtpServerResponse_QNAME = new QName("http://shared.bimserver.org/", "getSettingSmtpServerResponse");
     private final static QName _SetSettingHeaderAdditionResponse_QNAME = new QName("http://shared.bimserver.org/", "setSettingHeaderAdditionResponse");
     private final static QName _GetLastActiveResponse_QNAME = new QName("http://shared.bimserver.org/", "getLastActiveResponse");
+    private final static QName _AddExtendedDataToProjectResponse_QNAME = new QName("http://shared.bimserver.org/", "addExtendedDataToProjectResponse");
     private final static QName _SNewUserAdded_QNAME = new QName("http://shared.bimserver.org/", "sNewUserAdded");
     private final static QName _GetSubProjects_QNAME = new QName("http://shared.bimserver.org/", "getSubProjects");
     private final static QName _GetSettingMergeIdentifier_QNAME = new QName("http://shared.bimserver.org/", "getSettingMergeIdentifier");
@@ -299,11 +321,11 @@ public class ObjectFactory {
     private final static QName _GetCheckinStateResponse_QNAME = new QName("http://shared.bimserver.org/", "getCheckinStateResponse");
     private final static QName _Download_QNAME = new QName("http://shared.bimserver.org/", "download");
     private final static QName _SDatabaseInformation_QNAME = new QName("http://shared.bimserver.org/", "sDatabaseInformation");
+    private final static QName _GetIfcEngineByNameResponse_QNAME = new QName("http://shared.bimserver.org/", "getIfcEngineByNameResponse");
     private final static QName _StartTransactionResponse_QNAME = new QName("http://shared.bimserver.org/", "startTransactionResponse");
     private final static QName _GetVersionResponse_QNAME = new QName("http://shared.bimserver.org/", "getVersionResponse");
     private final static QName _SetSettingProtocolBuffersPortResponse_QNAME = new QName("http://shared.bimserver.org/", "setSettingProtocolBuffersPortResponse");
     private final static QName _GetServerLogResponse_QNAME = new QName("http://shared.bimserver.org/", "getServerLogResponse");
-    private final static QName _SetSettingAutoTestClashes_QNAME = new QName("http://shared.bimserver.org/", "setSettingAutoTestClashes");
     private final static QName _GetAccessMethod_QNAME = new QName("http://shared.bimserver.org/", "getAccessMethod");
     private final static QName _GetDataObjectByOid_QNAME = new QName("http://shared.bimserver.org/", "getDataObjectByOid");
     private final static QName _SetBooleanAttribute_QNAME = new QName("http://shared.bimserver.org/", "setBooleanAttribute");
@@ -324,13 +346,16 @@ public class ObjectFactory {
     private final static QName _SSerializerPluginDescriptor_QNAME = new QName("http://shared.bimserver.org/", "sSerializerPluginDescriptor");
     private final static QName _UndeleteUserResponse_QNAME = new QName("http://shared.bimserver.org/", "undeleteUserResponse");
     private final static QName _GetAllCheckoutsOfProject_QNAME = new QName("http://shared.bimserver.org/", "getAllCheckoutsOfProject");
-    private final static QName _GetRemoteAddressResponse_QNAME = new QName("http://shared.bimserver.org/", "getRemoteAddressResponse");
     private final static QName _GetAllRevisionsOfProjectResponse_QNAME = new QName("http://shared.bimserver.org/", "getAllRevisionsOfProjectResponse");
+    private final static QName _GetRemoteAddressResponse_QNAME = new QName("http://shared.bimserver.org/", "getRemoteAddressResponse");
     private final static QName _DownloadByTypesResponse_QNAME = new QName("http://shared.bimserver.org/", "downloadByTypesResponse");
+    private final static QName _GetIfcEngineByName_QNAME = new QName("http://shared.bimserver.org/", "getIfcEngineByName");
     private final static QName _UpgradePossible_QNAME = new QName("http://shared.bimserver.org/", "upgradePossible");
+    private final static QName _GetExtendedDataSchemaByIdResponse_QNAME = new QName("http://shared.bimserver.org/", "getExtendedDataSchemaByIdResponse");
     private final static QName _RemoveObject_QNAME = new QName("http://shared.bimserver.org/", "removeObject");
     private final static QName _GetAllSerializersResponse_QNAME = new QName("http://shared.bimserver.org/", "getAllSerializersResponse");
     private final static QName _GetAllUsers_QNAME = new QName("http://shared.bimserver.org/", "getAllUsers");
+    private final static QName _GetSuggestedDeserializerForExtensionResponse_QNAME = new QName("http://shared.bimserver.org/", "getSuggestedDeserializerForExtensionResponse");
     private final static QName _DownloadByTypes_QNAME = new QName("http://shared.bimserver.org/", "downloadByTypes");
     private final static QName _GetDataObjectsResponse_QNAME = new QName("http://shared.bimserver.org/", "getDataObjectsResponse");
     private final static QName _HasActiveSerializer_QNAME = new QName("http://shared.bimserver.org/", "hasActiveSerializer");
@@ -341,6 +366,7 @@ public class ObjectFactory {
     private final static QName _IsSettingIntelligentMerging_QNAME = new QName("http://shared.bimserver.org/", "isSettingIntelligentMerging");
     private final static QName _UpdateRevisionResponse_QNAME = new QName("http://shared.bimserver.org/", "updateRevisionResponse");
     private final static QName _GetAvailableClassesInRevisionResponse_QNAME = new QName("http://shared.bimserver.org/", "getAvailableClassesInRevisionResponse");
+    private final static QName _DeleteIfcEngine_QNAME = new QName("http://shared.bimserver.org/", "deleteIfcEngine");
     private final static QName _SendClashesEmail_QNAME = new QName("http://shared.bimserver.org/", "sendClashesEmail");
     private final static QName _SGeoTag_QNAME = new QName("http://shared.bimserver.org/", "sGeoTag");
     private final static QName _GetUserByUoidResponse_QNAME = new QName("http://shared.bimserver.org/", "getUserByUoidResponse");
@@ -368,8 +394,8 @@ public class ObjectFactory {
     private final static QName _IsSettingShowVersionUpgradeAvailableResponse_QNAME = new QName("http://shared.bimserver.org/", "isSettingShowVersionUpgradeAvailableResponse");
     private final static QName _GetDeserializerByIdResponse_QNAME = new QName("http://shared.bimserver.org/", "getDeserializerByIdResponse");
     private final static QName _DownloadByOids_QNAME = new QName("http://shared.bimserver.org/", "downloadByOids");
-    private final static QName _GetAllCheckoutsByUserResponse_QNAME = new QName("http://shared.bimserver.org/", "getAllCheckoutsByUserResponse");
     private final static QName _GetLastClashesResponse_QNAME = new QName("http://shared.bimserver.org/", "getLastClashesResponse");
+    private final static QName _GetAllCheckoutsByUserResponse_QNAME = new QName("http://shared.bimserver.org/", "getAllCheckoutsByUserResponse");
     private final static QName _SetSettingShowVersionUpgradeAvailable_QNAME = new QName("http://shared.bimserver.org/", "setSettingShowVersionUpgradeAvailable");
     private final static QName _GetUsersProjects_QNAME = new QName("http://shared.bimserver.org/", "getUsersProjects");
     private final static QName _CheckoutLastRevision_QNAME = new QName("http://shared.bimserver.org/", "checkoutLastRevision");
@@ -379,6 +405,7 @@ public class ObjectFactory {
     private final static QName _GetAllCheckoutsOfProjectResponse_QNAME = new QName("http://shared.bimserver.org/", "getAllCheckoutsOfProjectResponse");
     private final static QName _SUserDeleted_QNAME = new QName("http://shared.bimserver.org/", "sUserDeleted");
     private final static QName _GetLastActive_QNAME = new QName("http://shared.bimserver.org/", "getLastActive");
+    private final static QName _RemoveUserFromExtendedDataSchemaResponse_QNAME = new QName("http://shared.bimserver.org/", "removeUserFromExtendedDataSchemaResponse");
     private final static QName _DisablePlugin_QNAME = new QName("http://shared.bimserver.org/", "disablePlugin");
     private final static QName _SetSettingIntelligentMergingResponse_QNAME = new QName("http://shared.bimserver.org/", "setSettingIntelligentMergingResponse");
     private final static QName _BranchToExistingProject_QNAME = new QName("http://shared.bimserver.org/", "branchToExistingProject");
@@ -387,26 +414,29 @@ public class ObjectFactory {
     private final static QName _SetHttpCallbackResponse_QNAME = new QName("http://shared.bimserver.org/", "setHttpCallbackResponse");
     private final static QName _AddSerializerResponse_QNAME = new QName("http://shared.bimserver.org/", "addSerializerResponse");
     private final static QName _AddProject_QNAME = new QName("http://shared.bimserver.org/", "addProject");
+    private final static QName _GetAllIfcEngines_QNAME = new QName("http://shared.bimserver.org/", "getAllIfcEngines");
     private final static QName _GetDataObjectsByTypeResponse_QNAME = new QName("http://shared.bimserver.org/", "getDataObjectsByTypeResponse");
     private final static QName _CreateObject_QNAME = new QName("http://shared.bimserver.org/", "createObject");
     private final static QName _SDeserializer_QNAME = new QName("http://shared.bimserver.org/", "sDeserializer");
     private final static QName _GetAllAuthorizedUsersOfProjectResponse_QNAME = new QName("http://shared.bimserver.org/", "getAllAuthorizedUsersOfProjectResponse");
     private final static QName _GetServerStartTimeResponse_QNAME = new QName("http://shared.bimserver.org/", "getServerStartTimeResponse");
     private final static QName _Token_QNAME = new QName("uri:org.bimserver", "token");
+    private final static QName _GetAllIfcEnginePluginDescriptors_QNAME = new QName("http://shared.bimserver.org/", "getAllIfcEnginePluginDescriptors");
     private final static QName _SetRevisionTagResponse_QNAME = new QName("http://shared.bimserver.org/", "setRevisionTagResponse");
     private final static QName _SetSettingCheckinMergingEnabledResponse_QNAME = new QName("http://shared.bimserver.org/", "setSettingCheckinMergingEnabledResponse");
-    private final static QName _MigrateDatabase_QNAME = new QName("http://shared.bimserver.org/", "migrateDatabase");
     private final static QName _SDataObject_QNAME = new QName("http://shared.bimserver.org/", "sDataObject");
-    private final static QName _GetServerInfo_QNAME = new QName("http://shared.bimserver.org/", "getServerInfo");
+    private final static QName _MigrateDatabase_QNAME = new QName("http://shared.bimserver.org/", "migrateDatabase");
     private final static QName _SNewProjectAdded_QNAME = new QName("http://shared.bimserver.org/", "sNewProjectAdded");
-    private final static QName _IsLoggedIn_QNAME = new QName("http://shared.bimserver.org/", "isLoggedIn");
+    private final static QName _GetServerInfo_QNAME = new QName("http://shared.bimserver.org/", "getServerInfo");
     private final static QName _SCompareResult_QNAME = new QName("http://shared.bimserver.org/", "sCompareResult");
+    private final static QName _IsLoggedIn_QNAME = new QName("http://shared.bimserver.org/", "isLoggedIn");
     private final static QName _SCompareItem_QNAME = new QName("http://shared.bimserver.org/", "sCompareItem");
     private final static QName _SRunResult_QNAME = new QName("http://shared.bimserver.org/", "sRunResult");
     private final static QName _Logout_QNAME = new QName("http://shared.bimserver.org/", "logout");
-    private final static QName _UpdateGeoTag_QNAME = new QName("http://shared.bimserver.org/", "updateGeoTag");
     private final static QName _IsSettingIntelligentMergingResponse_QNAME = new QName("http://shared.bimserver.org/", "isSettingIntelligentMergingResponse");
+    private final static QName _UpdateGeoTag_QNAME = new QName("http://shared.bimserver.org/", "updateGeoTag");
     private final static QName _IsSettingAllowSelfRegistration_QNAME = new QName("http://shared.bimserver.org/", "isSettingAllowSelfRegistration");
+    private final static QName _GetSuggestedDeserializerForExtension_QNAME = new QName("http://shared.bimserver.org/", "getSuggestedDeserializerForExtension");
     private final static QName _GetSettingSiteAddress_QNAME = new QName("http://shared.bimserver.org/", "getSettingSiteAddress");
     private final static QName _GetAllAuthorizedUsersOfProject_QNAME = new QName("http://shared.bimserver.org/", "getAllAuthorizedUsersOfProject");
     private final static QName _UpdateObjectIDM_QNAME = new QName("http://shared.bimserver.org/", "updateObjectIDM");
@@ -414,36 +444,39 @@ public class ObjectFactory {
     private final static QName _SClashDetectionSettingsUpdated_QNAME = new QName("http://shared.bimserver.org/", "sClashDetectionSettingsUpdated");
     private final static QName _SetSettingEmailSenderAddress_QNAME = new QName("http://shared.bimserver.org/", "setSettingEmailSenderAddress");
     private final static QName _SetSettingCheckinMergingEnabled_QNAME = new QName("http://shared.bimserver.org/", "setSettingCheckinMergingEnabled");
-    private final static QName _IsSettingAutoTestClashesResponse_QNAME = new QName("http://shared.bimserver.org/", "isSettingAutoTestClashesResponse");
     private final static QName _UnsetAttribute_QNAME = new QName("http://shared.bimserver.org/", "unsetAttribute");
     private final static QName _DownloadResponse_QNAME = new QName("http://shared.bimserver.org/", "downloadResponse");
     private final static QName _GetProtocolBuffersFileResponse_QNAME = new QName("http://shared.bimserver.org/", "getProtocolBuffersFileResponse");
     private final static QName _DisablePluginResponse_QNAME = new QName("http://shared.bimserver.org/", "disablePluginResponse");
     private final static QName _UserException_QNAME = new QName("bimserver", "UserException");
     private final static QName _SetStringAttributeResponse_QNAME = new QName("http://shared.bimserver.org/", "setStringAttributeResponse");
-    private final static QName _AddReference_QNAME = new QName("http://shared.bimserver.org/", "addReference");
     private final static QName _GetUserByUserNameResponse_QNAME = new QName("http://shared.bimserver.org/", "getUserByUserNameResponse");
+    private final static QName _AddReference_QNAME = new QName("http://shared.bimserver.org/", "addReference");
     private final static QName _DeleteUserResponse_QNAME = new QName("http://shared.bimserver.org/", "deleteUserResponse");
     private final static QName _RemoveReferenceResponse_QNAME = new QName("http://shared.bimserver.org/", "removeReferenceResponse");
-    private final static QName _Compile_QNAME = new QName("http://shared.bimserver.org/", "compile");
-    private final static QName _CompileAndDownload_QNAME = new QName("http://shared.bimserver.org/", "compileAndDownload");
     private final static QName _SClash_QNAME = new QName("http://shared.bimserver.org/", "sClash");
+    private final static QName _CompileAndDownload_QNAME = new QName("http://shared.bimserver.org/", "compileAndDownload");
+    private final static QName _Compile_QNAME = new QName("http://shared.bimserver.org/", "compile");
     private final static QName _SetSettingHideUserListForNonAdminResponse_QNAME = new QName("http://shared.bimserver.org/", "setSettingHideUserListForNonAdminResponse");
     private final static QName _SNewObjectIDMUploaded_QNAME = new QName("http://shared.bimserver.org/", "sNewObjectIDMUploaded");
     private final static QName _SNewCheckoutAdded_QNAME = new QName("http://shared.bimserver.org/", "sNewCheckoutAdded");
+    private final static QName _GetIfcEngineByIdResponse_QNAME = new QName("http://shared.bimserver.org/", "getIfcEngineByIdResponse");
     private final static QName _GetSerializerPluginDescriptorResponse_QNAME = new QName("http://shared.bimserver.org/", "getSerializerPluginDescriptorResponse");
     private final static QName _GetAllNonAuthorizedUsersOfProject_QNAME = new QName("http://shared.bimserver.org/", "getAllNonAuthorizedUsersOfProject");
     private final static QName _ValidateAccountResponse_QNAME = new QName("http://shared.bimserver.org/", "validateAccountResponse");
     private final static QName _AddProjectResponse_QNAME = new QName("http://shared.bimserver.org/", "addProjectResponse");
     private final static QName _GetUsersProjectsResponse_QNAME = new QName("http://shared.bimserver.org/", "getUsersProjectsResponse");
     private final static QName _SetSettingCustomLogoAddressResponse_QNAME = new QName("http://shared.bimserver.org/", "setSettingCustomLogoAddressResponse");
+    private final static QName _GetExtendedDataResponse_QNAME = new QName("http://shared.bimserver.org/", "getExtendedDataResponse");
     private final static QName _EnablePlugin_QNAME = new QName("http://shared.bimserver.org/", "enablePlugin");
     private final static QName _GetDataObjectByOidResponse_QNAME = new QName("http://shared.bimserver.org/", "getDataObjectByOidResponse");
+    private final static QName _GetAllIfcEnginesResponse_QNAME = new QName("http://shared.bimserver.org/", "getAllIfcEnginesResponse");
     private final static QName _Compare_QNAME = new QName("http://shared.bimserver.org/", "compare");
     private final static QName _SUserAddedToProject_QNAME = new QName("http://shared.bimserver.org/", "sUserAddedToProject");
-    private final static QName _AddBooleanAttributeResponse_QNAME = new QName("http://shared.bimserver.org/", "addBooleanAttributeResponse");
     private final static QName _SetSettingFooterAdditionResponse_QNAME = new QName("http://shared.bimserver.org/", "setSettingFooterAdditionResponse");
+    private final static QName _AddBooleanAttributeResponse_QNAME = new QName("http://shared.bimserver.org/", "addBooleanAttributeResponse");
     private final static QName _SEidClash_QNAME = new QName("http://shared.bimserver.org/", "sEidClash");
+    private final static QName _GetCheckinWarningsResponse_QNAME = new QName("http://shared.bimserver.org/", "getCheckinWarningsResponse");
     private final static QName _GetLogs_QNAME = new QName("http://shared.bimserver.org/", "getLogs");
     private final static QName _GetUserByUserName_QNAME = new QName("http://shared.bimserver.org/", "getUserByUserName");
     private final static QName _UpdateRevision_QNAME = new QName("http://shared.bimserver.org/", "updateRevision");
@@ -454,22 +487,39 @@ public class ObjectFactory {
     private final static QName _Ping_QNAME = new QName("http://shared.bimserver.org/", "ping");
     private final static QName _UnsetReferenceResponse_QNAME = new QName("http://shared.bimserver.org/", "unsetReferenceResponse");
     private final static QName _GetActiveLongActionsResponse_QNAME = new QName("http://shared.bimserver.org/", "getActiveLongActionsResponse");
-    private final static QName _AddUserToProjectResponse_QNAME = new QName("http://shared.bimserver.org/", "addUserToProjectResponse");
     private final static QName _SetDoubleAttributeResponse_QNAME = new QName("http://shared.bimserver.org/", "setDoubleAttributeResponse");
+    private final static QName _AddUserToProjectResponse_QNAME = new QName("http://shared.bimserver.org/", "addUserToProjectResponse");
     private final static QName _SRevisionSummaryContainer_QNAME = new QName("http://shared.bimserver.org/", "sRevisionSummaryContainer");
     private final static QName _SetSettingSmtpServer_QNAME = new QName("http://shared.bimserver.org/", "setSettingSmtpServer");
     private final static QName _CompareResponse_QNAME = new QName("http://shared.bimserver.org/", "compareResponse");
     private final static QName _EnablePluginResponse_QNAME = new QName("http://shared.bimserver.org/", "enablePluginResponse");
     private final static QName _GetSettingProtocolBuffersPortResponse_QNAME = new QName("http://shared.bimserver.org/", "getSettingProtocolBuffersPortResponse");
+    private final static QName _AddExtendedDataSchema_QNAME = new QName("http://shared.bimserver.org/", "addExtendedDataSchema");
     private final static QName _IsSettingAllowUsersToCreateTopLevelProjectsResponse_QNAME = new QName("http://shared.bimserver.org/", "isSettingAllowUsersToCreateTopLevelProjectsResponse");
-    private final static QName _AddDeserializerResponse_QNAME = new QName("http://shared.bimserver.org/", "addDeserializerResponse");
     private final static QName _SetIntegerAttribute_QNAME = new QName("http://shared.bimserver.org/", "setIntegerAttribute");
+    private final static QName _AddDeserializerResponse_QNAME = new QName("http://shared.bimserver.org/", "addDeserializerResponse");
 
     /**
      * Create a new ObjectFactory that can be used to create new instances of schema derived classes for package: org.bimserver.generatedclient
      * 
      */
     public ObjectFactory() {
+    }
+
+    /**
+     * Create an instance of {@link ServerException }
+     * 
+     */
+    public ServerException createServerException() {
+        return new ServerException();
+    }
+
+    /**
+     * Create an instance of {@link UserException }
+     * 
+     */
+    public UserException createUserException() {
+        return new UserException();
     }
 
     /**
@@ -505,6 +555,14 @@ public class ObjectFactory {
     }
 
     /**
+     * Create an instance of {@link UpdateIfcEngine }
+     * 
+     */
+    public UpdateIfcEngine createUpdateIfcEngine() {
+        return new UpdateIfcEngine();
+    }
+
+    /**
      * Create an instance of {@link SPasswordChanged }
      * 
      */
@@ -537,19 +595,19 @@ public class ObjectFactory {
     }
 
     /**
-     * Create an instance of {@link GetAllPluginsResponse }
-     * 
-     */
-    public GetAllPluginsResponse createGetAllPluginsResponse() {
-        return new GetAllPluginsResponse();
-    }
-
-    /**
      * Create an instance of {@link SetSettingEmailSenderAddressResponse }
      * 
      */
     public SetSettingEmailSenderAddressResponse createSetSettingEmailSenderAddressResponse() {
         return new SetSettingEmailSenderAddressResponse();
+    }
+
+    /**
+     * Create an instance of {@link GetAllPluginsResponse }
+     * 
+     */
+    public GetAllPluginsResponse createGetAllPluginsResponse() {
+        return new GetAllPluginsResponse();
     }
 
     /**
@@ -577,6 +635,14 @@ public class ObjectFactory {
     }
 
     /**
+     * Create an instance of {@link UpdateIfcEngineResponse }
+     * 
+     */
+    public UpdateIfcEngineResponse createUpdateIfcEngineResponse() {
+        return new UpdateIfcEngineResponse();
+    }
+
+    /**
      * Create an instance of {@link SCheckout }
      * 
      */
@@ -590,6 +656,14 @@ public class ObjectFactory {
      */
     public GetSettingCustomLogoAddress createGetSettingCustomLogoAddress() {
         return new GetSettingCustomLogoAddress();
+    }
+
+    /**
+     * Create an instance of {@link GetExtendedDataSchemaById }
+     * 
+     */
+    public GetExtendedDataSchemaById createGetExtendedDataSchemaById() {
+        return new GetExtendedDataSchemaById();
     }
 
     /**
@@ -617,11 +691,11 @@ public class ObjectFactory {
     }
 
     /**
-     * Create an instance of {@link GetLatestVersion }
+     * Create an instance of {@link AddExtendedDataSchemaResponse }
      * 
      */
-    public GetLatestVersion createGetLatestVersion() {
-        return new GetLatestVersion();
+    public AddExtendedDataSchemaResponse createAddExtendedDataSchemaResponse() {
+        return new AddExtendedDataSchemaResponse();
     }
 
     /**
@@ -630,6 +704,14 @@ public class ObjectFactory {
      */
     public GetAllCheckoutsOfRevisionResponse createGetAllCheckoutsOfRevisionResponse() {
         return new GetAllCheckoutsOfRevisionResponse();
+    }
+
+    /**
+     * Create an instance of {@link GetLatestVersion }
+     * 
+     */
+    public GetLatestVersion createGetLatestVersion() {
+        return new GetLatestVersion();
     }
 
     /**
@@ -662,6 +744,14 @@ public class ObjectFactory {
      */
     public SetupResponse createSetupResponse() {
         return new SetupResponse();
+    }
+
+    /**
+     * Create an instance of {@link AddUserToExtendedDataSchema }
+     * 
+     */
+    public AddUserToExtendedDataSchema createAddUserToExtendedDataSchema() {
+        return new AddUserToExtendedDataSchema();
     }
 
     /**
@@ -737,6 +827,14 @@ public class ObjectFactory {
     }
 
     /**
+     * Create an instance of {@link DeleteIfcEngineResponse }
+     * 
+     */
+    public DeleteIfcEngineResponse createDeleteIfcEngineResponse() {
+        return new DeleteIfcEngineResponse();
+    }
+
+    /**
      * Create an instance of {@link GetAllDeserializerPluginDescriptors }
      * 
      */
@@ -750,6 +848,14 @@ public class ObjectFactory {
      */
     public UndeleteProject createUndeleteProject() {
         return new UndeleteProject();
+    }
+
+    /**
+     * Create an instance of {@link AddExtendedDataToProject }
+     * 
+     */
+    public AddExtendedDataToProject createAddExtendedDataToProject() {
+        return new AddExtendedDataToProject();
     }
 
     /**
@@ -801,6 +907,14 @@ public class ObjectFactory {
     }
 
     /**
+     * Create an instance of {@link SetSettingAllowUsersToCreateTopLevelProjectsResponse }
+     * 
+     */
+    public SetSettingAllowUsersToCreateTopLevelProjectsResponse createSetSettingAllowUsersToCreateTopLevelProjectsResponse() {
+        return new SetSettingAllowUsersToCreateTopLevelProjectsResponse();
+    }
+
+    /**
      * Create an instance of {@link GetRevision }
      * 
      */
@@ -814,14 +928,6 @@ public class ObjectFactory {
      */
     public GetSettingProtocolBuffersPort createGetSettingProtocolBuffersPort() {
         return new GetSettingProtocolBuffersPort();
-    }
-
-    /**
-     * Create an instance of {@link SetSettingAllowUsersToCreateTopLevelProjectsResponse }
-     * 
-     */
-    public SetSettingAllowUsersToCreateTopLevelProjectsResponse createSetSettingAllowUsersToCreateTopLevelProjectsResponse() {
-        return new SetSettingAllowUsersToCreateTopLevelProjectsResponse();
     }
 
     /**
@@ -881,6 +987,14 @@ public class ObjectFactory {
     }
 
     /**
+     * Create an instance of {@link AddExtendedDataToRevisionResponse }
+     * 
+     */
+    public AddExtendedDataToRevisionResponse createAddExtendedDataToRevisionResponse() {
+        return new AddExtendedDataToRevisionResponse();
+    }
+
+    /**
      * Create an instance of {@link GetAllCheckoutsOfProjectAndSubProjectsResponse }
      * 
      */
@@ -889,19 +1003,19 @@ public class ObjectFactory {
     }
 
     /**
-     * Create an instance of {@link DeleteObjectIDMResponse }
-     * 
-     */
-    public DeleteObjectIDMResponse createDeleteObjectIDMResponse() {
-        return new DeleteObjectIDMResponse();
-    }
-
-    /**
      * Create an instance of {@link SetReferenceResponse }
      * 
      */
     public SetReferenceResponse createSetReferenceResponse() {
         return new SetReferenceResponse();
+    }
+
+    /**
+     * Create an instance of {@link DeleteObjectIDMResponse }
+     * 
+     */
+    public DeleteObjectIDMResponse createDeleteObjectIDMResponse() {
+        return new DeleteObjectIDMResponse();
     }
 
     /**
@@ -929,14 +1043,6 @@ public class ObjectFactory {
     }
 
     /**
-     * Create an instance of {@link DownloadCompareResults }
-     * 
-     */
-    public DownloadCompareResults createDownloadCompareResults() {
-        return new DownloadCompareResults();
-    }
-
-    /**
      * Create an instance of {@link SetSettingCustomLogoAddress }
      * 
      */
@@ -945,11 +1051,27 @@ public class ObjectFactory {
     }
 
     /**
+     * Create an instance of {@link DownloadCompareResults }
+     * 
+     */
+    public DownloadCompareResults createDownloadCompareResults() {
+        return new DownloadCompareResults();
+    }
+
+    /**
      * Create an instance of {@link SRevisionSummary }
      * 
      */
     public SRevisionSummary createSRevisionSummary() {
         return new SRevisionSummary();
+    }
+
+    /**
+     * Create an instance of {@link GetIfcEngineById }
+     * 
+     */
+    public GetIfcEngineById createGetIfcEngineById() {
+        return new GetIfcEngineById();
     }
 
     /**
@@ -1089,14 +1211,6 @@ public class ObjectFactory {
     }
 
     /**
-     * Create an instance of {@link SetSettingAutoTestClashesResponse }
-     * 
-     */
-    public SetSettingAutoTestClashesResponse createSetSettingAutoTestClashesResponse() {
-        return new SetSettingAutoTestClashesResponse();
-    }
-
-    /**
      * Create an instance of {@link GetRevisionSummary }
      * 
      */
@@ -1110,6 +1224,14 @@ public class ObjectFactory {
      */
     public GetSerializerByIdResponse createGetSerializerByIdResponse() {
         return new GetSerializerByIdResponse();
+    }
+
+    /**
+     * Create an instance of {@link AddIfcEngineResponse }
+     * 
+     */
+    public AddIfcEngineResponse createAddIfcEngineResponse() {
+        return new AddIfcEngineResponse();
     }
 
     /**
@@ -1177,6 +1299,14 @@ public class ObjectFactory {
     }
 
     /**
+     * Create an instance of {@link GetAllIfcEnginePluginDescriptorsResponse }
+     * 
+     */
+    public GetAllIfcEnginePluginDescriptorsResponse createGetAllIfcEnginePluginDescriptorsResponse() {
+        return new GetAllIfcEnginePluginDescriptorsResponse();
+    }
+
+    /**
      * Create an instance of {@link SendCompareEmail }
      * 
      */
@@ -1206,6 +1336,14 @@ public class ObjectFactory {
      */
     public SendClashesEmailResponse createSendClashesEmailResponse() {
         return new SendClashesEmailResponse();
+    }
+
+    /**
+     * Create an instance of {@link RemoveUserFromExtendedDataSchema }
+     * 
+     */
+    public RemoveUserFromExtendedDataSchema createRemoveUserFromExtendedDataSchema() {
+        return new RemoveUserFromExtendedDataSchema();
     }
 
     /**
@@ -1273,11 +1411,27 @@ public class ObjectFactory {
     }
 
     /**
+     * Create an instance of {@link AddIfcEngine }
+     * 
+     */
+    public AddIfcEngine createAddIfcEngine() {
+        return new AddIfcEngine();
+    }
+
+    /**
      * Create an instance of {@link SClashDetectionSettings }
      * 
      */
     public SClashDetectionSettings createSClashDetectionSettings() {
         return new SClashDetectionSettings();
+    }
+
+    /**
+     * Create an instance of {@link AddUserToExtendedDataSchemaResponse }
+     * 
+     */
+    public AddUserToExtendedDataSchemaResponse createAddUserToExtendedDataSchemaResponse() {
+        return new AddUserToExtendedDataSchemaResponse();
     }
 
     /**
@@ -1302,6 +1456,14 @@ public class ObjectFactory {
      */
     public SRevisionUpdated createSRevisionUpdated() {
         return new SRevisionUpdated();
+    }
+
+    /**
+     * Create an instance of {@link GetAllExtendedDataSchemasResponse }
+     * 
+     */
+    public GetAllExtendedDataSchemasResponse createGetAllExtendedDataSchemasResponse() {
+        return new GetAllExtendedDataSchemasResponse();
     }
 
     /**
@@ -1334,6 +1496,14 @@ public class ObjectFactory {
      */
     public SUserUndeleted createSUserUndeleted() {
         return new SUserUndeleted();
+    }
+
+    /**
+     * Create an instance of {@link GetCheckinWarnings }
+     * 
+     */
+    public GetCheckinWarnings createGetCheckinWarnings() {
+        return new GetCheckinWarnings();
     }
 
     /**
@@ -1457,6 +1627,14 @@ public class ObjectFactory {
     }
 
     /**
+     * Create an instance of {@link SExtendedData }
+     * 
+     */
+    public SExtendedData createSExtendedData() {
+        return new SExtendedData();
+    }
+
+    /**
      * Create an instance of {@link SetEnumAttribute }
      * 
      */
@@ -1494,6 +1672,14 @@ public class ObjectFactory {
      */
     public DownloadByGuidsResponse createDownloadByGuidsResponse() {
         return new DownloadByGuidsResponse();
+    }
+
+    /**
+     * Create an instance of {@link AddExtendedDataToRevision }
+     * 
+     */
+    public AddExtendedDataToRevision createAddExtendedDataToRevision() {
+        return new AddExtendedDataToRevision();
     }
 
     /**
@@ -1537,6 +1723,14 @@ public class ObjectFactory {
     }
 
     /**
+     * Create an instance of {@link GetAllExtendedDataSchemas }
+     * 
+     */
+    public GetAllExtendedDataSchemas createGetAllExtendedDataSchemas() {
+        return new GetAllExtendedDataSchemas();
+    }
+
+    /**
      * Create an instance of {@link FindClashesByGuid }
      * 
      */
@@ -1550,6 +1744,14 @@ public class ObjectFactory {
      */
     public GetDownloadStateResponse createGetDownloadStateResponse() {
         return new GetDownloadStateResponse();
+    }
+
+    /**
+     * Create an instance of {@link SIfcEnginePluginDescriptor }
+     * 
+     */
+    public SIfcEnginePluginDescriptor createSIfcEnginePluginDescriptor() {
+        return new SIfcEnginePluginDescriptor();
     }
 
     /**
@@ -1633,6 +1835,14 @@ public class ObjectFactory {
     }
 
     /**
+     * Create an instance of {@link SExtendedDataSchema }
+     * 
+     */
+    public SExtendedDataSchema createSExtendedDataSchema() {
+        return new SExtendedDataSchema();
+    }
+
+    /**
      * Create an instance of {@link GetAvailableClasses }
      * 
      */
@@ -1670,6 +1880,14 @@ public class ObjectFactory {
      */
     public SetReference createSetReference() {
         return new SetReference();
+    }
+
+    /**
+     * Create an instance of {@link GetExtendedData }
+     * 
+     */
+    public GetExtendedData createGetExtendedData() {
+        return new GetExtendedData();
     }
 
     /**
@@ -1750,6 +1968,14 @@ public class ObjectFactory {
      */
     public GetAllReadableProjectsResponse createGetAllReadableProjectsResponse() {
         return new GetAllReadableProjectsResponse();
+    }
+
+    /**
+     * Create an instance of {@link SIfcEngine }
+     * 
+     */
+    public SIfcEngine createSIfcEngine() {
+        return new SIfcEngine();
     }
 
     /**
@@ -1841,19 +2067,19 @@ public class ObjectFactory {
     }
 
     /**
-     * Create an instance of {@link SServerInfo }
-     * 
-     */
-    public SServerInfo createSServerInfo() {
-        return new SServerInfo();
-    }
-
-    /**
      * Create an instance of {@link SetBooleanAttributeResponse }
      * 
      */
     public SetBooleanAttributeResponse createSetBooleanAttributeResponse() {
         return new SetBooleanAttributeResponse();
+    }
+
+    /**
+     * Create an instance of {@link SServerInfo }
+     * 
+     */
+    public SServerInfo createSServerInfo() {
+        return new SServerInfo();
     }
 
     /**
@@ -2022,14 +2248,6 @@ public class ObjectFactory {
      */
     public UndeleteUser createUndeleteUser() {
         return new UndeleteUser();
-    }
-
-    /**
-     * Create an instance of {@link IsSettingAutoTestClashes }
-     * 
-     */
-    public IsSettingAutoTestClashes createIsSettingAutoTestClashes() {
-        return new IsSettingAutoTestClashes();
     }
 
     /**
@@ -2305,6 +2523,14 @@ public class ObjectFactory {
     }
 
     /**
+     * Create an instance of {@link GetSuggestedDeserializerForExtensionResponse }
+     * 
+     */
+    public GetSuggestedDeserializerForExtensionResponse createGetSuggestedDeserializerForExtensionResponse() {
+        return new GetSuggestedDeserializerForExtensionResponse();
+    }
+
+    /**
      * Create an instance of {@link GetAllUsers }
      * 
      */
@@ -2337,19 +2563,19 @@ public class ObjectFactory {
     }
 
     /**
-     * Create an instance of {@link GetRemoteAddressResponse }
-     * 
-     */
-    public GetRemoteAddressResponse createGetRemoteAddressResponse() {
-        return new GetRemoteAddressResponse();
-    }
-
-    /**
      * Create an instance of {@link GetAllRevisionsOfProjectResponse }
      * 
      */
     public GetAllRevisionsOfProjectResponse createGetAllRevisionsOfProjectResponse() {
         return new GetAllRevisionsOfProjectResponse();
+    }
+
+    /**
+     * Create an instance of {@link GetRemoteAddressResponse }
+     * 
+     */
+    public GetRemoteAddressResponse createGetRemoteAddressResponse() {
+        return new GetRemoteAddressResponse();
     }
 
     /**
@@ -2361,11 +2587,27 @@ public class ObjectFactory {
     }
 
     /**
+     * Create an instance of {@link GetExtendedDataSchemaByIdResponse }
+     * 
+     */
+    public GetExtendedDataSchemaByIdResponse createGetExtendedDataSchemaByIdResponse() {
+        return new GetExtendedDataSchemaByIdResponse();
+    }
+
+    /**
      * Create an instance of {@link RemoveObject }
      * 
      */
     public RemoveObject createRemoveObject() {
         return new RemoveObject();
+    }
+
+    /**
+     * Create an instance of {@link GetIfcEngineByName }
+     * 
+     */
+    public GetIfcEngineByName createGetIfcEngineByName() {
+        return new GetIfcEngineByName();
     }
 
     /**
@@ -2505,14 +2747,6 @@ public class ObjectFactory {
     }
 
     /**
-     * Create an instance of {@link SetSettingAutoTestClashes }
-     * 
-     */
-    public SetSettingAutoTestClashes createSetSettingAutoTestClashes() {
-        return new SetSettingAutoTestClashes();
-    }
-
-    /**
      * Create an instance of {@link SetSettingProtocolBuffersPortResponse }
      * 
      */
@@ -2598,6 +2832,14 @@ public class ObjectFactory {
      */
     public StartTransactionResponse createStartTransactionResponse() {
         return new StartTransactionResponse();
+    }
+
+    /**
+     * Create an instance of {@link GetIfcEngineByNameResponse }
+     * 
+     */
+    public GetIfcEngineByNameResponse createGetIfcEngineByNameResponse() {
+        return new GetIfcEngineByNameResponse();
     }
 
     /**
@@ -2710,6 +2952,14 @@ public class ObjectFactory {
      */
     public GetSubProjects createGetSubProjects() {
         return new GetSubProjects();
+    }
+
+    /**
+     * Create an instance of {@link AddExtendedDataToProjectResponse }
+     * 
+     */
+    public AddExtendedDataToProjectResponse createAddExtendedDataToProjectResponse() {
+        return new AddExtendedDataToProjectResponse();
     }
 
     /**
@@ -2897,19 +3147,19 @@ public class ObjectFactory {
     }
 
     /**
-     * Create an instance of {@link GetLoggedInUserResponse }
-     * 
-     */
-    public GetLoggedInUserResponse createGetLoggedInUserResponse() {
-        return new GetLoggedInUserResponse();
-    }
-
-    /**
      * Create an instance of {@link GetAllSerializerPluginDescriptors }
      * 
      */
     public GetAllSerializerPluginDescriptors createGetAllSerializerPluginDescriptors() {
         return new GetAllSerializerPluginDescriptors();
+    }
+
+    /**
+     * Create an instance of {@link GetLoggedInUserResponse }
+     * 
+     */
+    public GetLoggedInUserResponse createGetLoggedInUserResponse() {
+        return new GetLoggedInUserResponse();
     }
 
     /**
@@ -3001,19 +3251,19 @@ public class ObjectFactory {
     }
 
     /**
-     * Create an instance of {@link AddUserToProjectResponse }
-     * 
-     */
-    public AddUserToProjectResponse createAddUserToProjectResponse() {
-        return new AddUserToProjectResponse();
-    }
-
-    /**
      * Create an instance of {@link SetDoubleAttributeResponse }
      * 
      */
     public SetDoubleAttributeResponse createSetDoubleAttributeResponse() {
         return new SetDoubleAttributeResponse();
+    }
+
+    /**
+     * Create an instance of {@link AddUserToProjectResponse }
+     * 
+     */
+    public AddUserToProjectResponse createAddUserToProjectResponse() {
+        return new AddUserToProjectResponse();
     }
 
     /**
@@ -3049,6 +3299,14 @@ public class ObjectFactory {
     }
 
     /**
+     * Create an instance of {@link AddExtendedDataSchema }
+     * 
+     */
+    public AddExtendedDataSchema createAddExtendedDataSchema() {
+        return new AddExtendedDataSchema();
+    }
+
+    /**
      * Create an instance of {@link EnablePluginResponse }
      * 
      */
@@ -3065,14 +3323,6 @@ public class ObjectFactory {
     }
 
     /**
-     * Create an instance of {@link AddDeserializerResponse }
-     * 
-     */
-    public AddDeserializerResponse createAddDeserializerResponse() {
-        return new AddDeserializerResponse();
-    }
-
-    /**
      * Create an instance of {@link SetIntegerAttribute }
      * 
      */
@@ -3081,11 +3331,27 @@ public class ObjectFactory {
     }
 
     /**
+     * Create an instance of {@link AddDeserializerResponse }
+     * 
+     */
+    public AddDeserializerResponse createAddDeserializerResponse() {
+        return new AddDeserializerResponse();
+    }
+
+    /**
      * Create an instance of {@link IsSettingAllowUsersToCreateTopLevelProjectsResponse }
      * 
      */
     public IsSettingAllowUsersToCreateTopLevelProjectsResponse createIsSettingAllowUsersToCreateTopLevelProjectsResponse() {
         return new IsSettingAllowUsersToCreateTopLevelProjectsResponse();
+    }
+
+    /**
+     * Create an instance of {@link GetCheckinWarningsResponse }
+     * 
+     */
+    public GetCheckinWarningsResponse createGetCheckinWarningsResponse() {
+        return new GetCheckinWarningsResponse();
     }
 
     /**
@@ -3161,6 +3427,14 @@ public class ObjectFactory {
     }
 
     /**
+     * Create an instance of {@link GetAllIfcEnginesResponse }
+     * 
+     */
+    public GetAllIfcEnginesResponse createGetAllIfcEnginesResponse() {
+        return new GetAllIfcEnginesResponse();
+    }
+
+    /**
      * Create an instance of {@link GetDataObjectByOidResponse }
      * 
      */
@@ -3177,19 +3451,19 @@ public class ObjectFactory {
     }
 
     /**
-     * Create an instance of {@link AddBooleanAttributeResponse }
-     * 
-     */
-    public AddBooleanAttributeResponse createAddBooleanAttributeResponse() {
-        return new AddBooleanAttributeResponse();
-    }
-
-    /**
      * Create an instance of {@link SetSettingFooterAdditionResponse }
      * 
      */
     public SetSettingFooterAdditionResponse createSetSettingFooterAdditionResponse() {
         return new SetSettingFooterAdditionResponse();
+    }
+
+    /**
+     * Create an instance of {@link AddBooleanAttributeResponse }
+     * 
+     */
+    public AddBooleanAttributeResponse createAddBooleanAttributeResponse() {
+        return new AddBooleanAttributeResponse();
     }
 
     /**
@@ -3225,11 +3499,27 @@ public class ObjectFactory {
     }
 
     /**
+     * Create an instance of {@link GetExtendedDataResponse }
+     * 
+     */
+    public GetExtendedDataResponse createGetExtendedDataResponse() {
+        return new GetExtendedDataResponse();
+    }
+
+    /**
      * Create an instance of {@link EnablePlugin }
      * 
      */
     public EnablePlugin createEnablePlugin() {
         return new EnablePlugin();
+    }
+
+    /**
+     * Create an instance of {@link GetIfcEngineByIdResponse }
+     * 
+     */
+    public GetIfcEngineByIdResponse createGetIfcEngineByIdResponse() {
+        return new GetIfcEngineByIdResponse();
     }
 
     /**
@@ -3297,6 +3587,14 @@ public class ObjectFactory {
     }
 
     /**
+     * Create an instance of {@link SetSettingHideUserListForNonAdminResponse }
+     * 
+     */
+    public SetSettingHideUserListForNonAdminResponse createSetSettingHideUserListForNonAdminResponse() {
+        return new SetSettingHideUserListForNonAdminResponse();
+    }
+
+    /**
      * Create an instance of {@link Compile }
      * 
      */
@@ -3318,14 +3616,6 @@ public class ObjectFactory {
      */
     public SClash createSClash() {
         return new SClash();
-    }
-
-    /**
-     * Create an instance of {@link SetSettingHideUserListForNonAdminResponse }
-     * 
-     */
-    public SetSettingHideUserListForNonAdminResponse createSetSettingHideUserListForNonAdminResponse() {
-        return new SetSettingHideUserListForNonAdminResponse();
     }
 
     /**
@@ -3358,14 +3648,6 @@ public class ObjectFactory {
      */
     public UnsetAttribute createUnsetAttribute() {
         return new UnsetAttribute();
-    }
-
-    /**
-     * Create an instance of {@link IsSettingAutoTestClashesResponse }
-     * 
-     */
-    public IsSettingAutoTestClashesResponse createIsSettingAutoTestClashesResponse() {
-        return new IsSettingAutoTestClashesResponse();
     }
 
     /**
@@ -3454,6 +3736,14 @@ public class ObjectFactory {
      */
     public GetSettingSiteAddress createGetSettingSiteAddress() {
         return new GetSettingSiteAddress();
+    }
+
+    /**
+     * Create an instance of {@link GetSuggestedDeserializerForExtension }
+     * 
+     */
+    public GetSuggestedDeserializerForExtension createGetSuggestedDeserializerForExtension() {
+        return new GetSuggestedDeserializerForExtension();
     }
 
     /**
@@ -3585,6 +3875,14 @@ public class ObjectFactory {
     }
 
     /**
+     * Create an instance of {@link GetAllIfcEngines }
+     * 
+     */
+    public GetAllIfcEngines createGetAllIfcEngines() {
+        return new GetAllIfcEngines();
+    }
+
+    /**
      * Create an instance of {@link AddProject }
      * 
      */
@@ -3598,6 +3896,14 @@ public class ObjectFactory {
      */
     public GetServerStartTimeResponse createGetServerStartTimeResponse() {
         return new GetServerStartTimeResponse();
+    }
+
+    /**
+     * Create an instance of {@link GetAllIfcEnginePluginDescriptors }
+     * 
+     */
+    public GetAllIfcEnginePluginDescriptors createGetAllIfcEnginePluginDescriptors() {
+        return new GetAllIfcEnginePluginDescriptors();
     }
 
     /**
@@ -3622,6 +3928,14 @@ public class ObjectFactory {
      */
     public DisablePlugin createDisablePlugin() {
         return new DisablePlugin();
+    }
+
+    /**
+     * Create an instance of {@link RemoveUserFromExtendedDataSchemaResponse }
+     * 
+     */
+    public RemoveUserFromExtendedDataSchemaResponse createRemoveUserFromExtendedDataSchemaResponse() {
+        return new RemoveUserFromExtendedDataSchemaResponse();
     }
 
     /**
@@ -3697,19 +4011,19 @@ public class ObjectFactory {
     }
 
     /**
-     * Create an instance of {@link GetLastClashesResponse }
-     * 
-     */
-    public GetLastClashesResponse createGetLastClashesResponse() {
-        return new GetLastClashesResponse();
-    }
-
-    /**
      * Create an instance of {@link GetAllCheckoutsByUserResponse }
      * 
      */
     public GetAllCheckoutsByUserResponse createGetAllCheckoutsByUserResponse() {
         return new GetAllCheckoutsByUserResponse();
+    }
+
+    /**
+     * Create an instance of {@link GetLastClashesResponse }
+     * 
+     */
+    public GetLastClashesResponse createGetLastClashesResponse() {
+        return new GetLastClashesResponse();
     }
 
     /**
@@ -3929,6 +4243,14 @@ public class ObjectFactory {
     }
 
     /**
+     * Create an instance of {@link DeleteIfcEngine }
+     * 
+     */
+    public DeleteIfcEngine createDeleteIfcEngine() {
+        return new DeleteIfcEngine();
+    }
+
+    /**
      * Create an instance of {@link GetLatestVersionResponse }
      * 
      */
@@ -3974,22 +4296,6 @@ public class ObjectFactory {
      */
     public Token createToken() {
         return new Token();
-    }
-
-    /**
-     * Create an instance of {@link ServerException }
-     * 
-     */
-    public ServerException createServerException() {
-        return new ServerException();
-    }
-
-    /**
-     * Create an instance of {@link UserException }
-     * 
-     */
-    public UserException createUserException() {
-        return new UserException();
     }
 
     /**
@@ -4083,6 +4389,15 @@ public class ObjectFactory {
     }
 
     /**
+     * Create an instance of {@link JAXBElement }{@code <}{@link AddUserToExtendedDataSchemaResponse }{@code >}}
+     * 
+     */
+    @XmlElementDecl(namespace = "http://shared.bimserver.org/", name = "addUserToExtendedDataSchemaResponse")
+    public JAXBElement<AddUserToExtendedDataSchemaResponse> createAddUserToExtendedDataSchemaResponse(AddUserToExtendedDataSchemaResponse value) {
+        return new JAXBElement<AddUserToExtendedDataSchemaResponse>(_AddUserToExtendedDataSchemaResponse_QNAME, AddUserToExtendedDataSchemaResponse.class, null, value);
+    }
+
+    /**
      * Create an instance of {@link JAXBElement }{@code <}{@link GetSettingSmtpServer }{@code >}}
      * 
      */
@@ -4101,12 +4416,30 @@ public class ObjectFactory {
     }
 
     /**
+     * Create an instance of {@link JAXBElement }{@code <}{@link GetAllExtendedDataSchemasResponse }{@code >}}
+     * 
+     */
+    @XmlElementDecl(namespace = "http://shared.bimserver.org/", name = "getAllExtendedDataSchemasResponse")
+    public JAXBElement<GetAllExtendedDataSchemasResponse> createGetAllExtendedDataSchemasResponse(GetAllExtendedDataSchemasResponse value) {
+        return new JAXBElement<GetAllExtendedDataSchemasResponse>(_GetAllExtendedDataSchemasResponse_QNAME, GetAllExtendedDataSchemasResponse.class, null, value);
+    }
+
+    /**
      * Create an instance of {@link JAXBElement }{@code <}{@link SRevisionUpdated }{@code >}}
      * 
      */
     @XmlElementDecl(namespace = "http://shared.bimserver.org/", name = "sRevisionUpdated")
     public JAXBElement<SRevisionUpdated> createSRevisionUpdated(SRevisionUpdated value) {
         return new JAXBElement<SRevisionUpdated>(_SRevisionUpdated_QNAME, SRevisionUpdated.class, null, value);
+    }
+
+    /**
+     * Create an instance of {@link JAXBElement }{@code <}{@link GetCheckinWarnings }{@code >}}
+     * 
+     */
+    @XmlElementDecl(namespace = "http://shared.bimserver.org/", name = "getCheckinWarnings")
+    public JAXBElement<GetCheckinWarnings> createGetCheckinWarnings(GetCheckinWarnings value) {
+        return new JAXBElement<GetCheckinWarnings>(_GetCheckinWarnings_QNAME, GetCheckinWarnings.class, null, value);
     }
 
     /**
@@ -4200,12 +4533,30 @@ public class ObjectFactory {
     }
 
     /**
+     * Create an instance of {@link JAXBElement }{@code <}{@link AddIfcEngine }{@code >}}
+     * 
+     */
+    @XmlElementDecl(namespace = "http://shared.bimserver.org/", name = "addIfcEngine")
+    public JAXBElement<AddIfcEngine> createAddIfcEngine(AddIfcEngine value) {
+        return new JAXBElement<AddIfcEngine>(_AddIfcEngine_QNAME, AddIfcEngine.class, null, value);
+    }
+
+    /**
      * Create an instance of {@link JAXBElement }{@code <}{@link GetAllNonAuthorizedUsersOfProjectResponse }{@code >}}
      * 
      */
     @XmlElementDecl(namespace = "http://shared.bimserver.org/", name = "getAllNonAuthorizedUsersOfProjectResponse")
     public JAXBElement<GetAllNonAuthorizedUsersOfProjectResponse> createGetAllNonAuthorizedUsersOfProjectResponse(GetAllNonAuthorizedUsersOfProjectResponse value) {
         return new JAXBElement<GetAllNonAuthorizedUsersOfProjectResponse>(_GetAllNonAuthorizedUsersOfProjectResponse_QNAME, GetAllNonAuthorizedUsersOfProjectResponse.class, null, value);
+    }
+
+    /**
+     * Create an instance of {@link JAXBElement }{@code <}{@link GetAllIfcEnginePluginDescriptorsResponse }{@code >}}
+     * 
+     */
+    @XmlElementDecl(namespace = "http://shared.bimserver.org/", name = "getAllIfcEnginePluginDescriptorsResponse")
+    public JAXBElement<GetAllIfcEnginePluginDescriptorsResponse> createGetAllIfcEnginePluginDescriptorsResponse(GetAllIfcEnginePluginDescriptorsResponse value) {
+        return new JAXBElement<GetAllIfcEnginePluginDescriptorsResponse>(_GetAllIfcEnginePluginDescriptorsResponse_QNAME, GetAllIfcEnginePluginDescriptorsResponse.class, null, value);
     }
 
     /**
@@ -4218,21 +4569,21 @@ public class ObjectFactory {
     }
 
     /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link IsSettingSendConfirmationEmailAfterRegistration }{@code >}}
-     * 
-     */
-    @XmlElementDecl(namespace = "http://shared.bimserver.org/", name = "isSettingSendConfirmationEmailAfterRegistration")
-    public JAXBElement<IsSettingSendConfirmationEmailAfterRegistration> createIsSettingSendConfirmationEmailAfterRegistration(IsSettingSendConfirmationEmailAfterRegistration value) {
-        return new JAXBElement<IsSettingSendConfirmationEmailAfterRegistration>(_IsSettingSendConfirmationEmailAfterRegistration_QNAME, IsSettingSendConfirmationEmailAfterRegistration.class, null, value);
-    }
-
-    /**
      * Create an instance of {@link JAXBElement }{@code <}{@link SendClashesEmailResponse }{@code >}}
      * 
      */
     @XmlElementDecl(namespace = "http://shared.bimserver.org/", name = "sendClashesEmailResponse")
     public JAXBElement<SendClashesEmailResponse> createSendClashesEmailResponse(SendClashesEmailResponse value) {
         return new JAXBElement<SendClashesEmailResponse>(_SendClashesEmailResponse_QNAME, SendClashesEmailResponse.class, null, value);
+    }
+
+    /**
+     * Create an instance of {@link JAXBElement }{@code <}{@link IsSettingSendConfirmationEmailAfterRegistration }{@code >}}
+     * 
+     */
+    @XmlElementDecl(namespace = "http://shared.bimserver.org/", name = "isSettingSendConfirmationEmailAfterRegistration")
+    public JAXBElement<IsSettingSendConfirmationEmailAfterRegistration> createIsSettingSendConfirmationEmailAfterRegistration(IsSettingSendConfirmationEmailAfterRegistration value) {
+        return new JAXBElement<IsSettingSendConfirmationEmailAfterRegistration>(_IsSettingSendConfirmationEmailAfterRegistration_QNAME, IsSettingSendConfirmationEmailAfterRegistration.class, null, value);
     }
 
     /**
@@ -4254,6 +4605,15 @@ public class ObjectFactory {
     }
 
     /**
+     * Create an instance of {@link JAXBElement }{@code <}{@link RemoveUserFromExtendedDataSchema }{@code >}}
+     * 
+     */
+    @XmlElementDecl(namespace = "http://shared.bimserver.org/", name = "removeUserFromExtendedDataSchema")
+    public JAXBElement<RemoveUserFromExtendedDataSchema> createRemoveUserFromExtendedDataSchema(RemoveUserFromExtendedDataSchema value) {
+        return new JAXBElement<RemoveUserFromExtendedDataSchema>(_RemoveUserFromExtendedDataSchema_QNAME, RemoveUserFromExtendedDataSchema.class, null, value);
+    }
+
+    /**
      * Create an instance of {@link JAXBElement }{@code <}{@link GetActiveUserSessionsResponse }{@code >}}
      * 
      */
@@ -4269,6 +4629,15 @@ public class ObjectFactory {
     @XmlElementDecl(namespace = "http://shared.bimserver.org/", name = "getActiveSinceResponse")
     public JAXBElement<GetActiveSinceResponse> createGetActiveSinceResponse(GetActiveSinceResponse value) {
         return new JAXBElement<GetActiveSinceResponse>(_GetActiveSinceResponse_QNAME, GetActiveSinceResponse.class, null, value);
+    }
+
+    /**
+     * Create an instance of {@link JAXBElement }{@code <}{@link AddIfcEngineResponse }{@code >}}
+     * 
+     */
+    @XmlElementDecl(namespace = "http://shared.bimserver.org/", name = "addIfcEngineResponse")
+    public JAXBElement<AddIfcEngineResponse> createAddIfcEngineResponse(AddIfcEngineResponse value) {
+        return new JAXBElement<AddIfcEngineResponse>(_AddIfcEngineResponse_QNAME, AddIfcEngineResponse.class, null, value);
     }
 
     /**
@@ -4290,21 +4659,21 @@ public class ObjectFactory {
     }
 
     /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link CommitTransactionResponse }{@code >}}
-     * 
-     */
-    @XmlElementDecl(namespace = "http://shared.bimserver.org/", name = "commitTransactionResponse")
-    public JAXBElement<CommitTransactionResponse> createCommitTransactionResponse(CommitTransactionResponse value) {
-        return new JAXBElement<CommitTransactionResponse>(_CommitTransactionResponse_QNAME, CommitTransactionResponse.class, null, value);
-    }
-
-    /**
      * Create an instance of {@link JAXBElement }{@code <}{@link HasActiveSerializerResponse }{@code >}}
      * 
      */
     @XmlElementDecl(namespace = "http://shared.bimserver.org/", name = "hasActiveSerializerResponse")
     public JAXBElement<HasActiveSerializerResponse> createHasActiveSerializerResponse(HasActiveSerializerResponse value) {
         return new JAXBElement<HasActiveSerializerResponse>(_HasActiveSerializerResponse_QNAME, HasActiveSerializerResponse.class, null, value);
+    }
+
+    /**
+     * Create an instance of {@link JAXBElement }{@code <}{@link CommitTransactionResponse }{@code >}}
+     * 
+     */
+    @XmlElementDecl(namespace = "http://shared.bimserver.org/", name = "commitTransactionResponse")
+    public JAXBElement<CommitTransactionResponse> createCommitTransactionResponse(CommitTransactionResponse value) {
+        return new JAXBElement<CommitTransactionResponse>(_CommitTransactionResponse_QNAME, CommitTransactionResponse.class, null, value);
     }
 
     /**
@@ -4332,15 +4701,6 @@ public class ObjectFactory {
     @XmlElementDecl(namespace = "http://shared.bimserver.org/", name = "updateSerializerResponse")
     public JAXBElement<UpdateSerializerResponse> createUpdateSerializerResponse(UpdateSerializerResponse value) {
         return new JAXBElement<UpdateSerializerResponse>(_UpdateSerializerResponse_QNAME, UpdateSerializerResponse.class, null, value);
-    }
-
-    /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link SetSettingAutoTestClashesResponse }{@code >}}
-     * 
-     */
-    @XmlElementDecl(namespace = "http://shared.bimserver.org/", name = "setSettingAutoTestClashesResponse")
-    public JAXBElement<SetSettingAutoTestClashesResponse> createSetSettingAutoTestClashesResponse(SetSettingAutoTestClashesResponse value) {
-        return new JAXBElement<SetSettingAutoTestClashesResponse>(_SetSettingAutoTestClashesResponse_QNAME, SetSettingAutoTestClashesResponse.class, null, value);
     }
 
     /**
@@ -4452,6 +4812,15 @@ public class ObjectFactory {
     }
 
     /**
+     * Create an instance of {@link JAXBElement }{@code <}{@link GetIfcEngineById }{@code >}}
+     * 
+     */
+    @XmlElementDecl(namespace = "http://shared.bimserver.org/", name = "getIfcEngineById")
+    public JAXBElement<GetIfcEngineById> createGetIfcEngineById(GetIfcEngineById value) {
+        return new JAXBElement<GetIfcEngineById>(_GetIfcEngineById_QNAME, GetIfcEngineById.class, null, value);
+    }
+
+    /**
      * Create an instance of {@link JAXBElement }{@code <}{@link SRevisionBranched }{@code >}}
      * 
      */
@@ -4542,6 +4911,15 @@ public class ObjectFactory {
     }
 
     /**
+     * Create an instance of {@link JAXBElement }{@code <}{@link AddExtendedDataToRevisionResponse }{@code >}}
+     * 
+     */
+    @XmlElementDecl(namespace = "http://shared.bimserver.org/", name = "addExtendedDataToRevisionResponse")
+    public JAXBElement<AddExtendedDataToRevisionResponse> createAddExtendedDataToRevisionResponse(AddExtendedDataToRevisionResponse value) {
+        return new JAXBElement<AddExtendedDataToRevisionResponse>(_AddExtendedDataToRevisionResponse_QNAME, AddExtendedDataToRevisionResponse.class, null, value);
+    }
+
+    /**
      * Create an instance of {@link JAXBElement }{@code <}{@link GetSerializerById }{@code >}}
      * 
      */
@@ -4551,21 +4929,21 @@ public class ObjectFactory {
     }
 
     /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link DeleteObjectIDMResponse }{@code >}}
-     * 
-     */
-    @XmlElementDecl(namespace = "http://shared.bimserver.org/", name = "deleteObjectIDMResponse")
-    public JAXBElement<DeleteObjectIDMResponse> createDeleteObjectIDMResponse(DeleteObjectIDMResponse value) {
-        return new JAXBElement<DeleteObjectIDMResponse>(_DeleteObjectIDMResponse_QNAME, DeleteObjectIDMResponse.class, null, value);
-    }
-
-    /**
      * Create an instance of {@link JAXBElement }{@code <}{@link SetReferenceResponse }{@code >}}
      * 
      */
     @XmlElementDecl(namespace = "http://shared.bimserver.org/", name = "setReferenceResponse")
     public JAXBElement<SetReferenceResponse> createSetReferenceResponse(SetReferenceResponse value) {
         return new JAXBElement<SetReferenceResponse>(_SetReferenceResponse_QNAME, SetReferenceResponse.class, null, value);
+    }
+
+    /**
+     * Create an instance of {@link JAXBElement }{@code <}{@link DeleteObjectIDMResponse }{@code >}}
+     * 
+     */
+    @XmlElementDecl(namespace = "http://shared.bimserver.org/", name = "deleteObjectIDMResponse")
+    public JAXBElement<DeleteObjectIDMResponse> createDeleteObjectIDMResponse(DeleteObjectIDMResponse value) {
+        return new JAXBElement<DeleteObjectIDMResponse>(_DeleteObjectIDMResponse_QNAME, DeleteObjectIDMResponse.class, null, value);
     }
 
     /**
@@ -4587,21 +4965,21 @@ public class ObjectFactory {
     }
 
     /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link DownloadCompareResults }{@code >}}
-     * 
-     */
-    @XmlElementDecl(namespace = "http://shared.bimserver.org/", name = "downloadCompareResults")
-    public JAXBElement<DownloadCompareResults> createDownloadCompareResults(DownloadCompareResults value) {
-        return new JAXBElement<DownloadCompareResults>(_DownloadCompareResults_QNAME, DownloadCompareResults.class, null, value);
-    }
-
-    /**
      * Create an instance of {@link JAXBElement }{@code <}{@link SetSettingCustomLogoAddress }{@code >}}
      * 
      */
     @XmlElementDecl(namespace = "http://shared.bimserver.org/", name = "setSettingCustomLogoAddress")
     public JAXBElement<SetSettingCustomLogoAddress> createSetSettingCustomLogoAddress(SetSettingCustomLogoAddress value) {
         return new JAXBElement<SetSettingCustomLogoAddress>(_SetSettingCustomLogoAddress_QNAME, SetSettingCustomLogoAddress.class, null, value);
+    }
+
+    /**
+     * Create an instance of {@link JAXBElement }{@code <}{@link DownloadCompareResults }{@code >}}
+     * 
+     */
+    @XmlElementDecl(namespace = "http://shared.bimserver.org/", name = "downloadCompareResults")
+    public JAXBElement<DownloadCompareResults> createDownloadCompareResults(DownloadCompareResults value) {
+        return new JAXBElement<DownloadCompareResults>(_DownloadCompareResults_QNAME, DownloadCompareResults.class, null, value);
     }
 
     /**
@@ -4623,15 +5001,6 @@ public class ObjectFactory {
     }
 
     /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link GetSettingProtocolBuffersPort }{@code >}}
-     * 
-     */
-    @XmlElementDecl(namespace = "http://shared.bimserver.org/", name = "getSettingProtocolBuffersPort")
-    public JAXBElement<GetSettingProtocolBuffersPort> createGetSettingProtocolBuffersPort(GetSettingProtocolBuffersPort value) {
-        return new JAXBElement<GetSettingProtocolBuffersPort>(_GetSettingProtocolBuffersPort_QNAME, GetSettingProtocolBuffersPort.class, null, value);
-    }
-
-    /**
      * Create an instance of {@link JAXBElement }{@code <}{@link GetRevision }{@code >}}
      * 
      */
@@ -4641,21 +5010,12 @@ public class ObjectFactory {
     }
 
     /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link SLongActionState }{@code >}}
+     * Create an instance of {@link JAXBElement }{@code <}{@link GetSettingProtocolBuffersPort }{@code >}}
      * 
      */
-    @XmlElementDecl(namespace = "http://shared.bimserver.org/", name = "sLongActionState")
-    public JAXBElement<SLongActionState> createSLongActionState(SLongActionState value) {
-        return new JAXBElement<SLongActionState>(_SLongActionState_QNAME, SLongActionState.class, null, value);
-    }
-
-    /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link GetSettingHeaderAdditionResponse }{@code >}}
-     * 
-     */
-    @XmlElementDecl(namespace = "http://shared.bimserver.org/", name = "getSettingHeaderAdditionResponse")
-    public JAXBElement<GetSettingHeaderAdditionResponse> createGetSettingHeaderAdditionResponse(GetSettingHeaderAdditionResponse value) {
-        return new JAXBElement<GetSettingHeaderAdditionResponse>(_GetSettingHeaderAdditionResponse_QNAME, GetSettingHeaderAdditionResponse.class, null, value);
+    @XmlElementDecl(namespace = "http://shared.bimserver.org/", name = "getSettingProtocolBuffersPort")
+    public JAXBElement<GetSettingProtocolBuffersPort> createGetSettingProtocolBuffersPort(GetSettingProtocolBuffersPort value) {
+        return new JAXBElement<GetSettingProtocolBuffersPort>(_GetSettingProtocolBuffersPort_QNAME, GetSettingProtocolBuffersPort.class, null, value);
     }
 
     /**
@@ -4668,21 +5028,30 @@ public class ObjectFactory {
     }
 
     /**
+     * Create an instance of {@link JAXBElement }{@code <}{@link GetSettingHeaderAdditionResponse }{@code >}}
+     * 
+     */
+    @XmlElementDecl(namespace = "http://shared.bimserver.org/", name = "getSettingHeaderAdditionResponse")
+    public JAXBElement<GetSettingHeaderAdditionResponse> createGetSettingHeaderAdditionResponse(GetSettingHeaderAdditionResponse value) {
+        return new JAXBElement<GetSettingHeaderAdditionResponse>(_GetSettingHeaderAdditionResponse_QNAME, GetSettingHeaderAdditionResponse.class, null, value);
+    }
+
+    /**
+     * Create an instance of {@link JAXBElement }{@code <}{@link SLongActionState }{@code >}}
+     * 
+     */
+    @XmlElementDecl(namespace = "http://shared.bimserver.org/", name = "sLongActionState")
+    public JAXBElement<SLongActionState> createSLongActionState(SLongActionState value) {
+        return new JAXBElement<SLongActionState>(_SLongActionState_QNAME, SLongActionState.class, null, value);
+    }
+
+    /**
      * Create an instance of {@link JAXBElement }{@code <}{@link UserHasCheckinRightsResponse }{@code >}}
      * 
      */
     @XmlElementDecl(namespace = "http://shared.bimserver.org/", name = "userHasCheckinRightsResponse")
     public JAXBElement<UserHasCheckinRightsResponse> createUserHasCheckinRightsResponse(UserHasCheckinRightsResponse value) {
         return new JAXBElement<UserHasCheckinRightsResponse>(_UserHasCheckinRightsResponse_QNAME, UserHasCheckinRightsResponse.class, null, value);
-    }
-
-    /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link LoginResponse }{@code >}}
-     * 
-     */
-    @XmlElementDecl(namespace = "http://shared.bimserver.org/", name = "loginResponse")
-    public JAXBElement<LoginResponse> createLoginResponse(LoginResponse value) {
-        return new JAXBElement<LoginResponse>(_LoginResponse_QNAME, LoginResponse.class, null, value);
     }
 
     /**
@@ -4695,12 +5064,12 @@ public class ObjectFactory {
     }
 
     /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link GetAllCheckoutsOfRevision }{@code >}}
+     * Create an instance of {@link JAXBElement }{@code <}{@link LoginResponse }{@code >}}
      * 
      */
-    @XmlElementDecl(namespace = "http://shared.bimserver.org/", name = "getAllCheckoutsOfRevision")
-    public JAXBElement<GetAllCheckoutsOfRevision> createGetAllCheckoutsOfRevision(GetAllCheckoutsOfRevision value) {
-        return new JAXBElement<GetAllCheckoutsOfRevision>(_GetAllCheckoutsOfRevision_QNAME, GetAllCheckoutsOfRevision.class, null, value);
+    @XmlElementDecl(namespace = "http://shared.bimserver.org/", name = "loginResponse")
+    public JAXBElement<LoginResponse> createLoginResponse(LoginResponse value) {
+        return new JAXBElement<LoginResponse>(_LoginResponse_QNAME, LoginResponse.class, null, value);
     }
 
     /**
@@ -4710,6 +5079,15 @@ public class ObjectFactory {
     @XmlElementDecl(namespace = "http://shared.bimserver.org/", name = "getDeserializerByName")
     public JAXBElement<GetDeserializerByName> createGetDeserializerByName(GetDeserializerByName value) {
         return new JAXBElement<GetDeserializerByName>(_GetDeserializerByName_QNAME, GetDeserializerByName.class, null, value);
+    }
+
+    /**
+     * Create an instance of {@link JAXBElement }{@code <}{@link GetAllCheckoutsOfRevision }{@code >}}
+     * 
+     */
+    @XmlElementDecl(namespace = "http://shared.bimserver.org/", name = "getAllCheckoutsOfRevision")
+    public JAXBElement<GetAllCheckoutsOfRevision> createGetAllCheckoutsOfRevision(GetAllCheckoutsOfRevision value) {
+        return new JAXBElement<GetAllCheckoutsOfRevision>(_GetAllCheckoutsOfRevision_QNAME, GetAllCheckoutsOfRevision.class, null, value);
     }
 
     /**
@@ -4731,12 +5109,30 @@ public class ObjectFactory {
     }
 
     /**
+     * Create an instance of {@link JAXBElement }{@code <}{@link DeleteIfcEngineResponse }{@code >}}
+     * 
+     */
+    @XmlElementDecl(namespace = "http://shared.bimserver.org/", name = "deleteIfcEngineResponse")
+    public JAXBElement<DeleteIfcEngineResponse> createDeleteIfcEngineResponse(DeleteIfcEngineResponse value) {
+        return new JAXBElement<DeleteIfcEngineResponse>(_DeleteIfcEngineResponse_QNAME, DeleteIfcEngineResponse.class, null, value);
+    }
+
+    /**
      * Create an instance of {@link JAXBElement }{@code <}{@link SLogAction }{@code >}}
      * 
      */
     @XmlElementDecl(namespace = "http://shared.bimserver.org/", name = "sLogAction")
     public JAXBElement<SLogAction> createSLogAction(SLogAction value) {
         return new JAXBElement<SLogAction>(_SLogAction_QNAME, SLogAction.class, null, value);
+    }
+
+    /**
+     * Create an instance of {@link JAXBElement }{@code <}{@link AddExtendedDataToProject }{@code >}}
+     * 
+     */
+    @XmlElementDecl(namespace = "http://shared.bimserver.org/", name = "addExtendedDataToProject")
+    public JAXBElement<AddExtendedDataToProject> createAddExtendedDataToProject(AddExtendedDataToProject value) {
+        return new JAXBElement<AddExtendedDataToProject>(_AddExtendedDataToProject_QNAME, AddExtendedDataToProject.class, null, value);
     }
 
     /**
@@ -4812,6 +5208,15 @@ public class ObjectFactory {
     }
 
     /**
+     * Create an instance of {@link JAXBElement }{@code <}{@link AddUserToExtendedDataSchema }{@code >}}
+     * 
+     */
+    @XmlElementDecl(namespace = "http://shared.bimserver.org/", name = "addUserToExtendedDataSchema")
+    public JAXBElement<AddUserToExtendedDataSchema> createAddUserToExtendedDataSchema(AddUserToExtendedDataSchema value) {
+        return new JAXBElement<AddUserToExtendedDataSchema>(_AddUserToExtendedDataSchema_QNAME, AddUserToExtendedDataSchema.class, null, value);
+    }
+
+    /**
      * Create an instance of {@link JAXBElement }{@code <}{@link SetupResponse }{@code >}}
      * 
      */
@@ -4884,6 +5289,24 @@ public class ObjectFactory {
     }
 
     /**
+     * Create an instance of {@link JAXBElement }{@code <}{@link UpdateIfcEngineResponse }{@code >}}
+     * 
+     */
+    @XmlElementDecl(namespace = "http://shared.bimserver.org/", name = "updateIfcEngineResponse")
+    public JAXBElement<UpdateIfcEngineResponse> createUpdateIfcEngineResponse(UpdateIfcEngineResponse value) {
+        return new JAXBElement<UpdateIfcEngineResponse>(_UpdateIfcEngineResponse_QNAME, UpdateIfcEngineResponse.class, null, value);
+    }
+
+    /**
+     * Create an instance of {@link JAXBElement }{@code <}{@link GetExtendedDataSchemaById }{@code >}}
+     * 
+     */
+    @XmlElementDecl(namespace = "http://shared.bimserver.org/", name = "getExtendedDataSchemaById")
+    public JAXBElement<GetExtendedDataSchemaById> createGetExtendedDataSchemaById(GetExtendedDataSchemaById value) {
+        return new JAXBElement<GetExtendedDataSchemaById>(_GetExtendedDataSchemaById_QNAME, GetExtendedDataSchemaById.class, null, value);
+    }
+
+    /**
      * Create an instance of {@link JAXBElement }{@code <}{@link DownloadRevisionsResponse }{@code >}}
      * 
      */
@@ -4926,6 +5349,15 @@ public class ObjectFactory {
     @XmlElementDecl(namespace = "http://shared.bimserver.org/", name = "getAllCheckoutsOfRevisionResponse")
     public JAXBElement<GetAllCheckoutsOfRevisionResponse> createGetAllCheckoutsOfRevisionResponse(GetAllCheckoutsOfRevisionResponse value) {
         return new JAXBElement<GetAllCheckoutsOfRevisionResponse>(_GetAllCheckoutsOfRevisionResponse_QNAME, GetAllCheckoutsOfRevisionResponse.class, null, value);
+    }
+
+    /**
+     * Create an instance of {@link JAXBElement }{@code <}{@link AddExtendedDataSchemaResponse }{@code >}}
+     * 
+     */
+    @XmlElementDecl(namespace = "http://shared.bimserver.org/", name = "addExtendedDataSchemaResponse")
+    public JAXBElement<AddExtendedDataSchemaResponse> createAddExtendedDataSchemaResponse(AddExtendedDataSchemaResponse value) {
+        return new JAXBElement<AddExtendedDataSchemaResponse>(_AddExtendedDataSchemaResponse_QNAME, AddExtendedDataSchemaResponse.class, null, value);
     }
 
     /**
@@ -5016,6 +5448,15 @@ public class ObjectFactory {
     @XmlElementDecl(namespace = "http://shared.bimserver.org/", name = "addUserResponse")
     public JAXBElement<AddUserResponse> createAddUserResponse(AddUserResponse value) {
         return new JAXBElement<AddUserResponse>(_AddUserResponse_QNAME, AddUserResponse.class, null, value);
+    }
+
+    /**
+     * Create an instance of {@link JAXBElement }{@code <}{@link UpdateIfcEngine }{@code >}}
+     * 
+     */
+    @XmlElementDecl(namespace = "http://shared.bimserver.org/", name = "updateIfcEngine")
+    public JAXBElement<UpdateIfcEngine> createUpdateIfcEngine(UpdateIfcEngine value) {
+        return new JAXBElement<UpdateIfcEngine>(_UpdateIfcEngine_QNAME, UpdateIfcEngine.class, null, value);
     }
 
     /**
@@ -5262,15 +5703,6 @@ public class ObjectFactory {
     }
 
     /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link SVersion }{@code >}}
-     * 
-     */
-    @XmlElementDecl(namespace = "http://shared.bimserver.org/", name = "sVersion")
-    public JAXBElement<SVersion> createSVersion(SVersion value) {
-        return new JAXBElement<SVersion>(_SVersion_QNAME, SVersion.class, null, value);
-    }
-
-    /**
      * Create an instance of {@link JAXBElement }{@code <}{@link GetProjectsByNameResponse }{@code >}}
      * 
      */
@@ -5280,12 +5712,12 @@ public class ObjectFactory {
     }
 
     /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link GetAllNonAuthorizedProjectsOfUserResponse }{@code >}}
+     * Create an instance of {@link JAXBElement }{@code <}{@link SVersion }{@code >}}
      * 
      */
-    @XmlElementDecl(namespace = "http://shared.bimserver.org/", name = "getAllNonAuthorizedProjectsOfUserResponse")
-    public JAXBElement<GetAllNonAuthorizedProjectsOfUserResponse> createGetAllNonAuthorizedProjectsOfUserResponse(GetAllNonAuthorizedProjectsOfUserResponse value) {
-        return new JAXBElement<GetAllNonAuthorizedProjectsOfUserResponse>(_GetAllNonAuthorizedProjectsOfUserResponse_QNAME, GetAllNonAuthorizedProjectsOfUserResponse.class, null, value);
+    @XmlElementDecl(namespace = "http://shared.bimserver.org/", name = "sVersion")
+    public JAXBElement<SVersion> createSVersion(SVersion value) {
+        return new JAXBElement<SVersion>(_SVersion_QNAME, SVersion.class, null, value);
     }
 
     /**
@@ -5295,6 +5727,15 @@ public class ObjectFactory {
     @XmlElementDecl(namespace = "http://shared.bimserver.org/", name = "getAllRevisionsByUserResponse")
     public JAXBElement<GetAllRevisionsByUserResponse> createGetAllRevisionsByUserResponse(GetAllRevisionsByUserResponse value) {
         return new JAXBElement<GetAllRevisionsByUserResponse>(_GetAllRevisionsByUserResponse_QNAME, GetAllRevisionsByUserResponse.class, null, value);
+    }
+
+    /**
+     * Create an instance of {@link JAXBElement }{@code <}{@link GetAllNonAuthorizedProjectsOfUserResponse }{@code >}}
+     * 
+     */
+    @XmlElementDecl(namespace = "http://shared.bimserver.org/", name = "getAllNonAuthorizedProjectsOfUserResponse")
+    public JAXBElement<GetAllNonAuthorizedProjectsOfUserResponse> createGetAllNonAuthorizedProjectsOfUserResponse(GetAllNonAuthorizedProjectsOfUserResponse value) {
+        return new JAXBElement<GetAllNonAuthorizedProjectsOfUserResponse>(_GetAllNonAuthorizedProjectsOfUserResponse_QNAME, GetAllNonAuthorizedProjectsOfUserResponse.class, null, value);
     }
 
     /**
@@ -5316,15 +5757,6 @@ public class ObjectFactory {
     }
 
     /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link IsSettingSendConfirmationEmailAfterRegistrationResponse }{@code >}}
-     * 
-     */
-    @XmlElementDecl(namespace = "http://shared.bimserver.org/", name = "isSettingSendConfirmationEmailAfterRegistrationResponse")
-    public JAXBElement<IsSettingSendConfirmationEmailAfterRegistrationResponse> createIsSettingSendConfirmationEmailAfterRegistrationResponse(IsSettingSendConfirmationEmailAfterRegistrationResponse value) {
-        return new JAXBElement<IsSettingSendConfirmationEmailAfterRegistrationResponse>(_IsSettingSendConfirmationEmailAfterRegistrationResponse_QNAME, IsSettingSendConfirmationEmailAfterRegistrationResponse.class, null, value);
-    }
-
-    /**
      * Create an instance of {@link JAXBElement }{@code <}{@link UndeleteProjectResponse }{@code >}}
      * 
      */
@@ -5334,12 +5766,12 @@ public class ObjectFactory {
     }
 
     /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link IsSettingAutoTestClashes }{@code >}}
+     * Create an instance of {@link JAXBElement }{@code <}{@link IsSettingSendConfirmationEmailAfterRegistrationResponse }{@code >}}
      * 
      */
-    @XmlElementDecl(namespace = "http://shared.bimserver.org/", name = "isSettingAutoTestClashes")
-    public JAXBElement<IsSettingAutoTestClashes> createIsSettingAutoTestClashes(IsSettingAutoTestClashes value) {
-        return new JAXBElement<IsSettingAutoTestClashes>(_IsSettingAutoTestClashes_QNAME, IsSettingAutoTestClashes.class, null, value);
+    @XmlElementDecl(namespace = "http://shared.bimserver.org/", name = "isSettingSendConfirmationEmailAfterRegistrationResponse")
+    public JAXBElement<IsSettingSendConfirmationEmailAfterRegistrationResponse> createIsSettingSendConfirmationEmailAfterRegistrationResponse(IsSettingSendConfirmationEmailAfterRegistrationResponse value) {
+        return new JAXBElement<IsSettingSendConfirmationEmailAfterRegistrationResponse>(_IsSettingSendConfirmationEmailAfterRegistrationResponse_QNAME, IsSettingSendConfirmationEmailAfterRegistrationResponse.class, null, value);
     }
 
     /**
@@ -5352,21 +5784,21 @@ public class ObjectFactory {
     }
 
     /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link SLongCheckinAction }{@code >}}
-     * 
-     */
-    @XmlElementDecl(namespace = "http://shared.bimserver.org/", name = "sLongCheckinAction")
-    public JAXBElement<SLongCheckinAction> createSLongCheckinAction(SLongCheckinAction value) {
-        return new JAXBElement<SLongCheckinAction>(_SLongCheckinAction_QNAME, SLongCheckinAction.class, null, value);
-    }
-
-    /**
      * Create an instance of {@link JAXBElement }{@code <}{@link AddDoubleAttribute }{@code >}}
      * 
      */
     @XmlElementDecl(namespace = "http://shared.bimserver.org/", name = "addDoubleAttribute")
     public JAXBElement<AddDoubleAttribute> createAddDoubleAttribute(AddDoubleAttribute value) {
         return new JAXBElement<AddDoubleAttribute>(_AddDoubleAttribute_QNAME, AddDoubleAttribute.class, null, value);
+    }
+
+    /**
+     * Create an instance of {@link JAXBElement }{@code <}{@link SLongCheckinAction }{@code >}}
+     * 
+     */
+    @XmlElementDecl(namespace = "http://shared.bimserver.org/", name = "sLongCheckinAction")
+    public JAXBElement<SLongCheckinAction> createSLongCheckinAction(SLongCheckinAction value) {
+        return new JAXBElement<SLongCheckinAction>(_SLongCheckinAction_QNAME, SLongCheckinAction.class, null, value);
     }
 
     /**
@@ -5424,21 +5856,21 @@ public class ObjectFactory {
     }
 
     /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link DeleteDeserializer }{@code >}}
-     * 
-     */
-    @XmlElementDecl(namespace = "http://shared.bimserver.org/", name = "deleteDeserializer")
-    public JAXBElement<DeleteDeserializer> createDeleteDeserializer(DeleteDeserializer value) {
-        return new JAXBElement<DeleteDeserializer>(_DeleteDeserializer_QNAME, DeleteDeserializer.class, null, value);
-    }
-
-    /**
      * Create an instance of {@link JAXBElement }{@code <}{@link AddStringAttributeResponse }{@code >}}
      * 
      */
     @XmlElementDecl(namespace = "http://shared.bimserver.org/", name = "addStringAttributeResponse")
     public JAXBElement<AddStringAttributeResponse> createAddStringAttributeResponse(AddStringAttributeResponse value) {
         return new JAXBElement<AddStringAttributeResponse>(_AddStringAttributeResponse_QNAME, AddStringAttributeResponse.class, null, value);
+    }
+
+    /**
+     * Create an instance of {@link JAXBElement }{@code <}{@link DeleteDeserializer }{@code >}}
+     * 
+     */
+    @XmlElementDecl(namespace = "http://shared.bimserver.org/", name = "deleteDeserializer")
+    public JAXBElement<DeleteDeserializer> createDeleteDeserializer(DeleteDeserializer value) {
+        return new JAXBElement<DeleteDeserializer>(_DeleteDeserializer_QNAME, DeleteDeserializer.class, null, value);
     }
 
     /**
@@ -5604,6 +6036,15 @@ public class ObjectFactory {
     }
 
     /**
+     * Create an instance of {@link JAXBElement }{@code <}{@link SIfcEngine }{@code >}}
+     * 
+     */
+    @XmlElementDecl(namespace = "http://shared.bimserver.org/", name = "sIfcEngine")
+    public JAXBElement<SIfcEngine> createSIfcEngine(SIfcEngine value) {
+        return new JAXBElement<SIfcEngine>(_SIfcEngine_QNAME, SIfcEngine.class, null, value);
+    }
+
+    /**
      * Create an instance of {@link JAXBElement }{@code <}{@link GetAllReadableProjectsResponse }{@code >}}
      * 
      */
@@ -5646,6 +6087,15 @@ public class ObjectFactory {
     @XmlElementDecl(namespace = "http://shared.bimserver.org/", name = "pingResponse")
     public JAXBElement<PingResponse> createPingResponse(PingResponse value) {
         return new JAXBElement<PingResponse>(_PingResponse_QNAME, PingResponse.class, null, value);
+    }
+
+    /**
+     * Create an instance of {@link JAXBElement }{@code <}{@link GetExtendedData }{@code >}}
+     * 
+     */
+    @XmlElementDecl(namespace = "http://shared.bimserver.org/", name = "getExtendedData")
+    public JAXBElement<GetExtendedData> createGetExtendedData(GetExtendedData value) {
+        return new JAXBElement<GetExtendedData>(_GetExtendedData_QNAME, GetExtendedData.class, null, value);
     }
 
     /**
@@ -5730,6 +6180,15 @@ public class ObjectFactory {
     }
 
     /**
+     * Create an instance of {@link JAXBElement }{@code <}{@link SExtendedDataSchema }{@code >}}
+     * 
+     */
+    @XmlElementDecl(namespace = "http://shared.bimserver.org/", name = "sExtendedDataSchema")
+    public JAXBElement<SExtendedDataSchema> createSExtendedDataSchema(SExtendedDataSchema value) {
+        return new JAXBElement<SExtendedDataSchema>(_SExtendedDataSchema_QNAME, SExtendedDataSchema.class, null, value);
+    }
+
+    /**
      * Create an instance of {@link JAXBElement }{@code <}{@link SetDoubleAttribute }{@code >}}
      * 
      */
@@ -5763,6 +6222,15 @@ public class ObjectFactory {
     @XmlElementDecl(namespace = "http://shared.bimserver.org/", name = "getAllCheckoutsByUser")
     public JAXBElement<GetAllCheckoutsByUser> createGetAllCheckoutsByUser(GetAllCheckoutsByUser value) {
         return new JAXBElement<GetAllCheckoutsByUser>(_GetAllCheckoutsByUser_QNAME, GetAllCheckoutsByUser.class, null, value);
+    }
+
+    /**
+     * Create an instance of {@link JAXBElement }{@code <}{@link SIfcEnginePluginDescriptor }{@code >}}
+     * 
+     */
+    @XmlElementDecl(namespace = "http://shared.bimserver.org/", name = "sIfcEnginePluginDescriptor")
+    public JAXBElement<SIfcEnginePluginDescriptor> createSIfcEnginePluginDescriptor(SIfcEnginePluginDescriptor value) {
+        return new JAXBElement<SIfcEnginePluginDescriptor>(_SIfcEnginePluginDescriptor_QNAME, SIfcEnginePluginDescriptor.class, null, value);
     }
 
     /**
@@ -5856,6 +6324,15 @@ public class ObjectFactory {
     }
 
     /**
+     * Create an instance of {@link JAXBElement }{@code <}{@link GetAllExtendedDataSchemas }{@code >}}
+     * 
+     */
+    @XmlElementDecl(namespace = "http://shared.bimserver.org/", name = "getAllExtendedDataSchemas")
+    public JAXBElement<GetAllExtendedDataSchemas> createGetAllExtendedDataSchemas(GetAllExtendedDataSchemas value) {
+        return new JAXBElement<GetAllExtendedDataSchemas>(_GetAllExtendedDataSchemas_QNAME, GetAllExtendedDataSchemas.class, null, value);
+    }
+
+    /**
      * Create an instance of {@link JAXBElement }{@code <}{@link ChangeUserType }{@code >}}
      * 
      */
@@ -5889,6 +6366,15 @@ public class ObjectFactory {
     @XmlElementDecl(namespace = "http://shared.bimserver.org/", name = "downloadByGuidsResponse")
     public JAXBElement<DownloadByGuidsResponse> createDownloadByGuidsResponse(DownloadByGuidsResponse value) {
         return new JAXBElement<DownloadByGuidsResponse>(_DownloadByGuidsResponse_QNAME, DownloadByGuidsResponse.class, null, value);
+    }
+
+    /**
+     * Create an instance of {@link JAXBElement }{@code <}{@link AddExtendedDataToRevision }{@code >}}
+     * 
+     */
+    @XmlElementDecl(namespace = "http://shared.bimserver.org/", name = "addExtendedDataToRevision")
+    public JAXBElement<AddExtendedDataToRevision> createAddExtendedDataToRevision(AddExtendedDataToRevision value) {
+        return new JAXBElement<AddExtendedDataToRevision>(_AddExtendedDataToRevision_QNAME, AddExtendedDataToRevision.class, null, value);
     }
 
     /**
@@ -5961,6 +6447,15 @@ public class ObjectFactory {
     @XmlElementDecl(namespace = "http://shared.bimserver.org/", name = "setEnumAttribute")
     public JAXBElement<SetEnumAttribute> createSetEnumAttribute(SetEnumAttribute value) {
         return new JAXBElement<SetEnumAttribute>(_SetEnumAttribute_QNAME, SetEnumAttribute.class, null, value);
+    }
+
+    /**
+     * Create an instance of {@link JAXBElement }{@code <}{@link SExtendedData }{@code >}}
+     * 
+     */
+    @XmlElementDecl(namespace = "http://shared.bimserver.org/", name = "sExtendedData")
+    public JAXBElement<SExtendedData> createSExtendedData(SExtendedData value) {
+        return new JAXBElement<SExtendedData>(_SExtendedData_QNAME, SExtendedData.class, null, value);
     }
 
     /**
@@ -6054,21 +6549,21 @@ public class ObjectFactory {
     }
 
     /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link GetLoggedInUserResponse }{@code >}}
-     * 
-     */
-    @XmlElementDecl(namespace = "http://shared.bimserver.org/", name = "getLoggedInUserResponse")
-    public JAXBElement<GetLoggedInUserResponse> createGetLoggedInUserResponse(GetLoggedInUserResponse value) {
-        return new JAXBElement<GetLoggedInUserResponse>(_GetLoggedInUserResponse_QNAME, GetLoggedInUserResponse.class, null, value);
-    }
-
-    /**
      * Create an instance of {@link JAXBElement }{@code <}{@link GetAllSerializerPluginDescriptors }{@code >}}
      * 
      */
     @XmlElementDecl(namespace = "http://shared.bimserver.org/", name = "getAllSerializerPluginDescriptors")
     public JAXBElement<GetAllSerializerPluginDescriptors> createGetAllSerializerPluginDescriptors(GetAllSerializerPluginDescriptors value) {
         return new JAXBElement<GetAllSerializerPluginDescriptors>(_GetAllSerializerPluginDescriptors_QNAME, GetAllSerializerPluginDescriptors.class, null, value);
+    }
+
+    /**
+     * Create an instance of {@link JAXBElement }{@code <}{@link GetLoggedInUserResponse }{@code >}}
+     * 
+     */
+    @XmlElementDecl(namespace = "http://shared.bimserver.org/", name = "getLoggedInUserResponse")
+    public JAXBElement<GetLoggedInUserResponse> createGetLoggedInUserResponse(GetLoggedInUserResponse value) {
+        return new JAXBElement<GetLoggedInUserResponse>(_GetLoggedInUserResponse_QNAME, GetLoggedInUserResponse.class, null, value);
     }
 
     /**
@@ -6306,6 +6801,15 @@ public class ObjectFactory {
     }
 
     /**
+     * Create an instance of {@link JAXBElement }{@code <}{@link AddExtendedDataToProjectResponse }{@code >}}
+     * 
+     */
+    @XmlElementDecl(namespace = "http://shared.bimserver.org/", name = "addExtendedDataToProjectResponse")
+    public JAXBElement<AddExtendedDataToProjectResponse> createAddExtendedDataToProjectResponse(AddExtendedDataToProjectResponse value) {
+        return new JAXBElement<AddExtendedDataToProjectResponse>(_AddExtendedDataToProjectResponse_QNAME, AddExtendedDataToProjectResponse.class, null, value);
+    }
+
+    /**
      * Create an instance of {@link JAXBElement }{@code <}{@link SNewUserAdded }{@code >}}
      * 
      */
@@ -6468,6 +6972,15 @@ public class ObjectFactory {
     }
 
     /**
+     * Create an instance of {@link JAXBElement }{@code <}{@link GetIfcEngineByNameResponse }{@code >}}
+     * 
+     */
+    @XmlElementDecl(namespace = "http://shared.bimserver.org/", name = "getIfcEngineByNameResponse")
+    public JAXBElement<GetIfcEngineByNameResponse> createGetIfcEngineByNameResponse(GetIfcEngineByNameResponse value) {
+        return new JAXBElement<GetIfcEngineByNameResponse>(_GetIfcEngineByNameResponse_QNAME, GetIfcEngineByNameResponse.class, null, value);
+    }
+
+    /**
      * Create an instance of {@link JAXBElement }{@code <}{@link StartTransactionResponse }{@code >}}
      * 
      */
@@ -6501,15 +7014,6 @@ public class ObjectFactory {
     @XmlElementDecl(namespace = "http://shared.bimserver.org/", name = "getServerLogResponse")
     public JAXBElement<GetServerLogResponse> createGetServerLogResponse(GetServerLogResponse value) {
         return new JAXBElement<GetServerLogResponse>(_GetServerLogResponse_QNAME, GetServerLogResponse.class, null, value);
-    }
-
-    /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link SetSettingAutoTestClashes }{@code >}}
-     * 
-     */
-    @XmlElementDecl(namespace = "http://shared.bimserver.org/", name = "setSettingAutoTestClashes")
-    public JAXBElement<SetSettingAutoTestClashes> createSetSettingAutoTestClashes(SetSettingAutoTestClashes value) {
-        return new JAXBElement<SetSettingAutoTestClashes>(_SetSettingAutoTestClashes_QNAME, SetSettingAutoTestClashes.class, null, value);
     }
 
     /**
@@ -6693,21 +7197,21 @@ public class ObjectFactory {
     }
 
     /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link GetRemoteAddressResponse }{@code >}}
-     * 
-     */
-    @XmlElementDecl(namespace = "http://shared.bimserver.org/", name = "getRemoteAddressResponse")
-    public JAXBElement<GetRemoteAddressResponse> createGetRemoteAddressResponse(GetRemoteAddressResponse value) {
-        return new JAXBElement<GetRemoteAddressResponse>(_GetRemoteAddressResponse_QNAME, GetRemoteAddressResponse.class, null, value);
-    }
-
-    /**
      * Create an instance of {@link JAXBElement }{@code <}{@link GetAllRevisionsOfProjectResponse }{@code >}}
      * 
      */
     @XmlElementDecl(namespace = "http://shared.bimserver.org/", name = "getAllRevisionsOfProjectResponse")
     public JAXBElement<GetAllRevisionsOfProjectResponse> createGetAllRevisionsOfProjectResponse(GetAllRevisionsOfProjectResponse value) {
         return new JAXBElement<GetAllRevisionsOfProjectResponse>(_GetAllRevisionsOfProjectResponse_QNAME, GetAllRevisionsOfProjectResponse.class, null, value);
+    }
+
+    /**
+     * Create an instance of {@link JAXBElement }{@code <}{@link GetRemoteAddressResponse }{@code >}}
+     * 
+     */
+    @XmlElementDecl(namespace = "http://shared.bimserver.org/", name = "getRemoteAddressResponse")
+    public JAXBElement<GetRemoteAddressResponse> createGetRemoteAddressResponse(GetRemoteAddressResponse value) {
+        return new JAXBElement<GetRemoteAddressResponse>(_GetRemoteAddressResponse_QNAME, GetRemoteAddressResponse.class, null, value);
     }
 
     /**
@@ -6720,12 +7224,30 @@ public class ObjectFactory {
     }
 
     /**
+     * Create an instance of {@link JAXBElement }{@code <}{@link GetIfcEngineByName }{@code >}}
+     * 
+     */
+    @XmlElementDecl(namespace = "http://shared.bimserver.org/", name = "getIfcEngineByName")
+    public JAXBElement<GetIfcEngineByName> createGetIfcEngineByName(GetIfcEngineByName value) {
+        return new JAXBElement<GetIfcEngineByName>(_GetIfcEngineByName_QNAME, GetIfcEngineByName.class, null, value);
+    }
+
+    /**
      * Create an instance of {@link JAXBElement }{@code <}{@link UpgradePossible }{@code >}}
      * 
      */
     @XmlElementDecl(namespace = "http://shared.bimserver.org/", name = "upgradePossible")
     public JAXBElement<UpgradePossible> createUpgradePossible(UpgradePossible value) {
         return new JAXBElement<UpgradePossible>(_UpgradePossible_QNAME, UpgradePossible.class, null, value);
+    }
+
+    /**
+     * Create an instance of {@link JAXBElement }{@code <}{@link GetExtendedDataSchemaByIdResponse }{@code >}}
+     * 
+     */
+    @XmlElementDecl(namespace = "http://shared.bimserver.org/", name = "getExtendedDataSchemaByIdResponse")
+    public JAXBElement<GetExtendedDataSchemaByIdResponse> createGetExtendedDataSchemaByIdResponse(GetExtendedDataSchemaByIdResponse value) {
+        return new JAXBElement<GetExtendedDataSchemaByIdResponse>(_GetExtendedDataSchemaByIdResponse_QNAME, GetExtendedDataSchemaByIdResponse.class, null, value);
     }
 
     /**
@@ -6753,6 +7275,15 @@ public class ObjectFactory {
     @XmlElementDecl(namespace = "http://shared.bimserver.org/", name = "getAllUsers")
     public JAXBElement<GetAllUsers> createGetAllUsers(GetAllUsers value) {
         return new JAXBElement<GetAllUsers>(_GetAllUsers_QNAME, GetAllUsers.class, null, value);
+    }
+
+    /**
+     * Create an instance of {@link JAXBElement }{@code <}{@link GetSuggestedDeserializerForExtensionResponse }{@code >}}
+     * 
+     */
+    @XmlElementDecl(namespace = "http://shared.bimserver.org/", name = "getSuggestedDeserializerForExtensionResponse")
+    public JAXBElement<GetSuggestedDeserializerForExtensionResponse> createGetSuggestedDeserializerForExtensionResponse(GetSuggestedDeserializerForExtensionResponse value) {
+        return new JAXBElement<GetSuggestedDeserializerForExtensionResponse>(_GetSuggestedDeserializerForExtensionResponse_QNAME, GetSuggestedDeserializerForExtensionResponse.class, null, value);
     }
 
     /**
@@ -6843,6 +7374,15 @@ public class ObjectFactory {
     @XmlElementDecl(namespace = "http://shared.bimserver.org/", name = "getAvailableClassesInRevisionResponse")
     public JAXBElement<GetAvailableClassesInRevisionResponse> createGetAvailableClassesInRevisionResponse(GetAvailableClassesInRevisionResponse value) {
         return new JAXBElement<GetAvailableClassesInRevisionResponse>(_GetAvailableClassesInRevisionResponse_QNAME, GetAvailableClassesInRevisionResponse.class, null, value);
+    }
+
+    /**
+     * Create an instance of {@link JAXBElement }{@code <}{@link DeleteIfcEngine }{@code >}}
+     * 
+     */
+    @XmlElementDecl(namespace = "http://shared.bimserver.org/", name = "deleteIfcEngine")
+    public JAXBElement<DeleteIfcEngine> createDeleteIfcEngine(DeleteIfcEngine value) {
+        return new JAXBElement<DeleteIfcEngine>(_DeleteIfcEngine_QNAME, DeleteIfcEngine.class, null, value);
     }
 
     /**
@@ -7089,21 +7629,21 @@ public class ObjectFactory {
     }
 
     /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link GetAllCheckoutsByUserResponse }{@code >}}
-     * 
-     */
-    @XmlElementDecl(namespace = "http://shared.bimserver.org/", name = "getAllCheckoutsByUserResponse")
-    public JAXBElement<GetAllCheckoutsByUserResponse> createGetAllCheckoutsByUserResponse(GetAllCheckoutsByUserResponse value) {
-        return new JAXBElement<GetAllCheckoutsByUserResponse>(_GetAllCheckoutsByUserResponse_QNAME, GetAllCheckoutsByUserResponse.class, null, value);
-    }
-
-    /**
      * Create an instance of {@link JAXBElement }{@code <}{@link GetLastClashesResponse }{@code >}}
      * 
      */
     @XmlElementDecl(namespace = "http://shared.bimserver.org/", name = "getLastClashesResponse")
     public JAXBElement<GetLastClashesResponse> createGetLastClashesResponse(GetLastClashesResponse value) {
         return new JAXBElement<GetLastClashesResponse>(_GetLastClashesResponse_QNAME, GetLastClashesResponse.class, null, value);
+    }
+
+    /**
+     * Create an instance of {@link JAXBElement }{@code <}{@link GetAllCheckoutsByUserResponse }{@code >}}
+     * 
+     */
+    @XmlElementDecl(namespace = "http://shared.bimserver.org/", name = "getAllCheckoutsByUserResponse")
+    public JAXBElement<GetAllCheckoutsByUserResponse> createGetAllCheckoutsByUserResponse(GetAllCheckoutsByUserResponse value) {
+        return new JAXBElement<GetAllCheckoutsByUserResponse>(_GetAllCheckoutsByUserResponse_QNAME, GetAllCheckoutsByUserResponse.class, null, value);
     }
 
     /**
@@ -7188,6 +7728,15 @@ public class ObjectFactory {
     }
 
     /**
+     * Create an instance of {@link JAXBElement }{@code <}{@link RemoveUserFromExtendedDataSchemaResponse }{@code >}}
+     * 
+     */
+    @XmlElementDecl(namespace = "http://shared.bimserver.org/", name = "removeUserFromExtendedDataSchemaResponse")
+    public JAXBElement<RemoveUserFromExtendedDataSchemaResponse> createRemoveUserFromExtendedDataSchemaResponse(RemoveUserFromExtendedDataSchemaResponse value) {
+        return new JAXBElement<RemoveUserFromExtendedDataSchemaResponse>(_RemoveUserFromExtendedDataSchemaResponse_QNAME, RemoveUserFromExtendedDataSchemaResponse.class, null, value);
+    }
+
+    /**
      * Create an instance of {@link JAXBElement }{@code <}{@link DisablePlugin }{@code >}}
      * 
      */
@@ -7260,6 +7809,15 @@ public class ObjectFactory {
     }
 
     /**
+     * Create an instance of {@link JAXBElement }{@code <}{@link GetAllIfcEngines }{@code >}}
+     * 
+     */
+    @XmlElementDecl(namespace = "http://shared.bimserver.org/", name = "getAllIfcEngines")
+    public JAXBElement<GetAllIfcEngines> createGetAllIfcEngines(GetAllIfcEngines value) {
+        return new JAXBElement<GetAllIfcEngines>(_GetAllIfcEngines_QNAME, GetAllIfcEngines.class, null, value);
+    }
+
+    /**
      * Create an instance of {@link JAXBElement }{@code <}{@link GetDataObjectsByTypeResponse }{@code >}}
      * 
      */
@@ -7314,6 +7872,15 @@ public class ObjectFactory {
     }
 
     /**
+     * Create an instance of {@link JAXBElement }{@code <}{@link GetAllIfcEnginePluginDescriptors }{@code >}}
+     * 
+     */
+    @XmlElementDecl(namespace = "http://shared.bimserver.org/", name = "getAllIfcEnginePluginDescriptors")
+    public JAXBElement<GetAllIfcEnginePluginDescriptors> createGetAllIfcEnginePluginDescriptors(GetAllIfcEnginePluginDescriptors value) {
+        return new JAXBElement<GetAllIfcEnginePluginDescriptors>(_GetAllIfcEnginePluginDescriptors_QNAME, GetAllIfcEnginePluginDescriptors.class, null, value);
+    }
+
+    /**
      * Create an instance of {@link JAXBElement }{@code <}{@link SetRevisionTagResponse }{@code >}}
      * 
      */
@@ -7332,15 +7899,6 @@ public class ObjectFactory {
     }
 
     /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link MigrateDatabase }{@code >}}
-     * 
-     */
-    @XmlElementDecl(namespace = "http://shared.bimserver.org/", name = "migrateDatabase")
-    public JAXBElement<MigrateDatabase> createMigrateDatabase(MigrateDatabase value) {
-        return new JAXBElement<MigrateDatabase>(_MigrateDatabase_QNAME, MigrateDatabase.class, null, value);
-    }
-
-    /**
      * Create an instance of {@link JAXBElement }{@code <}{@link SDataObject }{@code >}}
      * 
      */
@@ -7350,12 +7908,12 @@ public class ObjectFactory {
     }
 
     /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link GetServerInfo }{@code >}}
+     * Create an instance of {@link JAXBElement }{@code <}{@link MigrateDatabase }{@code >}}
      * 
      */
-    @XmlElementDecl(namespace = "http://shared.bimserver.org/", name = "getServerInfo")
-    public JAXBElement<GetServerInfo> createGetServerInfo(GetServerInfo value) {
-        return new JAXBElement<GetServerInfo>(_GetServerInfo_QNAME, GetServerInfo.class, null, value);
+    @XmlElementDecl(namespace = "http://shared.bimserver.org/", name = "migrateDatabase")
+    public JAXBElement<MigrateDatabase> createMigrateDatabase(MigrateDatabase value) {
+        return new JAXBElement<MigrateDatabase>(_MigrateDatabase_QNAME, MigrateDatabase.class, null, value);
     }
 
     /**
@@ -7368,12 +7926,12 @@ public class ObjectFactory {
     }
 
     /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link IsLoggedIn }{@code >}}
+     * Create an instance of {@link JAXBElement }{@code <}{@link GetServerInfo }{@code >}}
      * 
      */
-    @XmlElementDecl(namespace = "http://shared.bimserver.org/", name = "isLoggedIn")
-    public JAXBElement<IsLoggedIn> createIsLoggedIn(IsLoggedIn value) {
-        return new JAXBElement<IsLoggedIn>(_IsLoggedIn_QNAME, IsLoggedIn.class, null, value);
+    @XmlElementDecl(namespace = "http://shared.bimserver.org/", name = "getServerInfo")
+    public JAXBElement<GetServerInfo> createGetServerInfo(GetServerInfo value) {
+        return new JAXBElement<GetServerInfo>(_GetServerInfo_QNAME, GetServerInfo.class, null, value);
     }
 
     /**
@@ -7383,6 +7941,15 @@ public class ObjectFactory {
     @XmlElementDecl(namespace = "http://shared.bimserver.org/", name = "sCompareResult")
     public JAXBElement<SCompareResult> createSCompareResult(SCompareResult value) {
         return new JAXBElement<SCompareResult>(_SCompareResult_QNAME, SCompareResult.class, null, value);
+    }
+
+    /**
+     * Create an instance of {@link JAXBElement }{@code <}{@link IsLoggedIn }{@code >}}
+     * 
+     */
+    @XmlElementDecl(namespace = "http://shared.bimserver.org/", name = "isLoggedIn")
+    public JAXBElement<IsLoggedIn> createIsLoggedIn(IsLoggedIn value) {
+        return new JAXBElement<IsLoggedIn>(_IsLoggedIn_QNAME, IsLoggedIn.class, null, value);
     }
 
     /**
@@ -7413,15 +7980,6 @@ public class ObjectFactory {
     }
 
     /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link UpdateGeoTag }{@code >}}
-     * 
-     */
-    @XmlElementDecl(namespace = "http://shared.bimserver.org/", name = "updateGeoTag")
-    public JAXBElement<UpdateGeoTag> createUpdateGeoTag(UpdateGeoTag value) {
-        return new JAXBElement<UpdateGeoTag>(_UpdateGeoTag_QNAME, UpdateGeoTag.class, null, value);
-    }
-
-    /**
      * Create an instance of {@link JAXBElement }{@code <}{@link IsSettingIntelligentMergingResponse }{@code >}}
      * 
      */
@@ -7431,12 +7989,30 @@ public class ObjectFactory {
     }
 
     /**
+     * Create an instance of {@link JAXBElement }{@code <}{@link UpdateGeoTag }{@code >}}
+     * 
+     */
+    @XmlElementDecl(namespace = "http://shared.bimserver.org/", name = "updateGeoTag")
+    public JAXBElement<UpdateGeoTag> createUpdateGeoTag(UpdateGeoTag value) {
+        return new JAXBElement<UpdateGeoTag>(_UpdateGeoTag_QNAME, UpdateGeoTag.class, null, value);
+    }
+
+    /**
      * Create an instance of {@link JAXBElement }{@code <}{@link IsSettingAllowSelfRegistration }{@code >}}
      * 
      */
     @XmlElementDecl(namespace = "http://shared.bimserver.org/", name = "isSettingAllowSelfRegistration")
     public JAXBElement<IsSettingAllowSelfRegistration> createIsSettingAllowSelfRegistration(IsSettingAllowSelfRegistration value) {
         return new JAXBElement<IsSettingAllowSelfRegistration>(_IsSettingAllowSelfRegistration_QNAME, IsSettingAllowSelfRegistration.class, null, value);
+    }
+
+    /**
+     * Create an instance of {@link JAXBElement }{@code <}{@link GetSuggestedDeserializerForExtension }{@code >}}
+     * 
+     */
+    @XmlElementDecl(namespace = "http://shared.bimserver.org/", name = "getSuggestedDeserializerForExtension")
+    public JAXBElement<GetSuggestedDeserializerForExtension> createGetSuggestedDeserializerForExtension(GetSuggestedDeserializerForExtension value) {
+        return new JAXBElement<GetSuggestedDeserializerForExtension>(_GetSuggestedDeserializerForExtension_QNAME, GetSuggestedDeserializerForExtension.class, null, value);
     }
 
     /**
@@ -7503,15 +8079,6 @@ public class ObjectFactory {
     }
 
     /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link IsSettingAutoTestClashesResponse }{@code >}}
-     * 
-     */
-    @XmlElementDecl(namespace = "http://shared.bimserver.org/", name = "isSettingAutoTestClashesResponse")
-    public JAXBElement<IsSettingAutoTestClashesResponse> createIsSettingAutoTestClashesResponse(IsSettingAutoTestClashesResponse value) {
-        return new JAXBElement<IsSettingAutoTestClashesResponse>(_IsSettingAutoTestClashesResponse_QNAME, IsSettingAutoTestClashesResponse.class, null, value);
-    }
-
-    /**
      * Create an instance of {@link JAXBElement }{@code <}{@link UnsetAttribute }{@code >}}
      * 
      */
@@ -7566,21 +8133,21 @@ public class ObjectFactory {
     }
 
     /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link AddReference }{@code >}}
-     * 
-     */
-    @XmlElementDecl(namespace = "http://shared.bimserver.org/", name = "addReference")
-    public JAXBElement<AddReference> createAddReference(AddReference value) {
-        return new JAXBElement<AddReference>(_AddReference_QNAME, AddReference.class, null, value);
-    }
-
-    /**
      * Create an instance of {@link JAXBElement }{@code <}{@link GetUserByUserNameResponse }{@code >}}
      * 
      */
     @XmlElementDecl(namespace = "http://shared.bimserver.org/", name = "getUserByUserNameResponse")
     public JAXBElement<GetUserByUserNameResponse> createGetUserByUserNameResponse(GetUserByUserNameResponse value) {
         return new JAXBElement<GetUserByUserNameResponse>(_GetUserByUserNameResponse_QNAME, GetUserByUserNameResponse.class, null, value);
+    }
+
+    /**
+     * Create an instance of {@link JAXBElement }{@code <}{@link AddReference }{@code >}}
+     * 
+     */
+    @XmlElementDecl(namespace = "http://shared.bimserver.org/", name = "addReference")
+    public JAXBElement<AddReference> createAddReference(AddReference value) {
+        return new JAXBElement<AddReference>(_AddReference_QNAME, AddReference.class, null, value);
     }
 
     /**
@@ -7602,12 +8169,12 @@ public class ObjectFactory {
     }
 
     /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link Compile }{@code >}}
+     * Create an instance of {@link JAXBElement }{@code <}{@link SClash }{@code >}}
      * 
      */
-    @XmlElementDecl(namespace = "http://shared.bimserver.org/", name = "compile")
-    public JAXBElement<Compile> createCompile(Compile value) {
-        return new JAXBElement<Compile>(_Compile_QNAME, Compile.class, null, value);
+    @XmlElementDecl(namespace = "http://shared.bimserver.org/", name = "sClash")
+    public JAXBElement<SClash> createSClash(SClash value) {
+        return new JAXBElement<SClash>(_SClash_QNAME, SClash.class, null, value);
     }
 
     /**
@@ -7620,12 +8187,12 @@ public class ObjectFactory {
     }
 
     /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link SClash }{@code >}}
+     * Create an instance of {@link JAXBElement }{@code <}{@link Compile }{@code >}}
      * 
      */
-    @XmlElementDecl(namespace = "http://shared.bimserver.org/", name = "sClash")
-    public JAXBElement<SClash> createSClash(SClash value) {
-        return new JAXBElement<SClash>(_SClash_QNAME, SClash.class, null, value);
+    @XmlElementDecl(namespace = "http://shared.bimserver.org/", name = "compile")
+    public JAXBElement<Compile> createCompile(Compile value) {
+        return new JAXBElement<Compile>(_Compile_QNAME, Compile.class, null, value);
     }
 
     /**
@@ -7653,6 +8220,15 @@ public class ObjectFactory {
     @XmlElementDecl(namespace = "http://shared.bimserver.org/", name = "sNewCheckoutAdded")
     public JAXBElement<SNewCheckoutAdded> createSNewCheckoutAdded(SNewCheckoutAdded value) {
         return new JAXBElement<SNewCheckoutAdded>(_SNewCheckoutAdded_QNAME, SNewCheckoutAdded.class, null, value);
+    }
+
+    /**
+     * Create an instance of {@link JAXBElement }{@code <}{@link GetIfcEngineByIdResponse }{@code >}}
+     * 
+     */
+    @XmlElementDecl(namespace = "http://shared.bimserver.org/", name = "getIfcEngineByIdResponse")
+    public JAXBElement<GetIfcEngineByIdResponse> createGetIfcEngineByIdResponse(GetIfcEngineByIdResponse value) {
+        return new JAXBElement<GetIfcEngineByIdResponse>(_GetIfcEngineByIdResponse_QNAME, GetIfcEngineByIdResponse.class, null, value);
     }
 
     /**
@@ -7710,6 +8286,15 @@ public class ObjectFactory {
     }
 
     /**
+     * Create an instance of {@link JAXBElement }{@code <}{@link GetExtendedDataResponse }{@code >}}
+     * 
+     */
+    @XmlElementDecl(namespace = "http://shared.bimserver.org/", name = "getExtendedDataResponse")
+    public JAXBElement<GetExtendedDataResponse> createGetExtendedDataResponse(GetExtendedDataResponse value) {
+        return new JAXBElement<GetExtendedDataResponse>(_GetExtendedDataResponse_QNAME, GetExtendedDataResponse.class, null, value);
+    }
+
+    /**
      * Create an instance of {@link JAXBElement }{@code <}{@link EnablePlugin }{@code >}}
      * 
      */
@@ -7725,6 +8310,15 @@ public class ObjectFactory {
     @XmlElementDecl(namespace = "http://shared.bimserver.org/", name = "getDataObjectByOidResponse")
     public JAXBElement<GetDataObjectByOidResponse> createGetDataObjectByOidResponse(GetDataObjectByOidResponse value) {
         return new JAXBElement<GetDataObjectByOidResponse>(_GetDataObjectByOidResponse_QNAME, GetDataObjectByOidResponse.class, null, value);
+    }
+
+    /**
+     * Create an instance of {@link JAXBElement }{@code <}{@link GetAllIfcEnginesResponse }{@code >}}
+     * 
+     */
+    @XmlElementDecl(namespace = "http://shared.bimserver.org/", name = "getAllIfcEnginesResponse")
+    public JAXBElement<GetAllIfcEnginesResponse> createGetAllIfcEnginesResponse(GetAllIfcEnginesResponse value) {
+        return new JAXBElement<GetAllIfcEnginesResponse>(_GetAllIfcEnginesResponse_QNAME, GetAllIfcEnginesResponse.class, null, value);
     }
 
     /**
@@ -7746,15 +8340,6 @@ public class ObjectFactory {
     }
 
     /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link AddBooleanAttributeResponse }{@code >}}
-     * 
-     */
-    @XmlElementDecl(namespace = "http://shared.bimserver.org/", name = "addBooleanAttributeResponse")
-    public JAXBElement<AddBooleanAttributeResponse> createAddBooleanAttributeResponse(AddBooleanAttributeResponse value) {
-        return new JAXBElement<AddBooleanAttributeResponse>(_AddBooleanAttributeResponse_QNAME, AddBooleanAttributeResponse.class, null, value);
-    }
-
-    /**
      * Create an instance of {@link JAXBElement }{@code <}{@link SetSettingFooterAdditionResponse }{@code >}}
      * 
      */
@@ -7764,12 +8349,30 @@ public class ObjectFactory {
     }
 
     /**
+     * Create an instance of {@link JAXBElement }{@code <}{@link AddBooleanAttributeResponse }{@code >}}
+     * 
+     */
+    @XmlElementDecl(namespace = "http://shared.bimserver.org/", name = "addBooleanAttributeResponse")
+    public JAXBElement<AddBooleanAttributeResponse> createAddBooleanAttributeResponse(AddBooleanAttributeResponse value) {
+        return new JAXBElement<AddBooleanAttributeResponse>(_AddBooleanAttributeResponse_QNAME, AddBooleanAttributeResponse.class, null, value);
+    }
+
+    /**
      * Create an instance of {@link JAXBElement }{@code <}{@link SEidClash }{@code >}}
      * 
      */
     @XmlElementDecl(namespace = "http://shared.bimserver.org/", name = "sEidClash")
     public JAXBElement<SEidClash> createSEidClash(SEidClash value) {
         return new JAXBElement<SEidClash>(_SEidClash_QNAME, SEidClash.class, null, value);
+    }
+
+    /**
+     * Create an instance of {@link JAXBElement }{@code <}{@link GetCheckinWarningsResponse }{@code >}}
+     * 
+     */
+    @XmlElementDecl(namespace = "http://shared.bimserver.org/", name = "getCheckinWarningsResponse")
+    public JAXBElement<GetCheckinWarningsResponse> createGetCheckinWarningsResponse(GetCheckinWarningsResponse value) {
+        return new JAXBElement<GetCheckinWarningsResponse>(_GetCheckinWarningsResponse_QNAME, GetCheckinWarningsResponse.class, null, value);
     }
 
     /**
@@ -7863,21 +8466,21 @@ public class ObjectFactory {
     }
 
     /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link AddUserToProjectResponse }{@code >}}
-     * 
-     */
-    @XmlElementDecl(namespace = "http://shared.bimserver.org/", name = "addUserToProjectResponse")
-    public JAXBElement<AddUserToProjectResponse> createAddUserToProjectResponse(AddUserToProjectResponse value) {
-        return new JAXBElement<AddUserToProjectResponse>(_AddUserToProjectResponse_QNAME, AddUserToProjectResponse.class, null, value);
-    }
-
-    /**
      * Create an instance of {@link JAXBElement }{@code <}{@link SetDoubleAttributeResponse }{@code >}}
      * 
      */
     @XmlElementDecl(namespace = "http://shared.bimserver.org/", name = "setDoubleAttributeResponse")
     public JAXBElement<SetDoubleAttributeResponse> createSetDoubleAttributeResponse(SetDoubleAttributeResponse value) {
         return new JAXBElement<SetDoubleAttributeResponse>(_SetDoubleAttributeResponse_QNAME, SetDoubleAttributeResponse.class, null, value);
+    }
+
+    /**
+     * Create an instance of {@link JAXBElement }{@code <}{@link AddUserToProjectResponse }{@code >}}
+     * 
+     */
+    @XmlElementDecl(namespace = "http://shared.bimserver.org/", name = "addUserToProjectResponse")
+    public JAXBElement<AddUserToProjectResponse> createAddUserToProjectResponse(AddUserToProjectResponse value) {
+        return new JAXBElement<AddUserToProjectResponse>(_AddUserToProjectResponse_QNAME, AddUserToProjectResponse.class, null, value);
     }
 
     /**
@@ -7926,6 +8529,15 @@ public class ObjectFactory {
     }
 
     /**
+     * Create an instance of {@link JAXBElement }{@code <}{@link AddExtendedDataSchema }{@code >}}
+     * 
+     */
+    @XmlElementDecl(namespace = "http://shared.bimserver.org/", name = "addExtendedDataSchema")
+    public JAXBElement<AddExtendedDataSchema> createAddExtendedDataSchema(AddExtendedDataSchema value) {
+        return new JAXBElement<AddExtendedDataSchema>(_AddExtendedDataSchema_QNAME, AddExtendedDataSchema.class, null, value);
+    }
+
+    /**
      * Create an instance of {@link JAXBElement }{@code <}{@link IsSettingAllowUsersToCreateTopLevelProjectsResponse }{@code >}}
      * 
      */
@@ -7935,21 +8547,21 @@ public class ObjectFactory {
     }
 
     /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link AddDeserializerResponse }{@code >}}
-     * 
-     */
-    @XmlElementDecl(namespace = "http://shared.bimserver.org/", name = "addDeserializerResponse")
-    public JAXBElement<AddDeserializerResponse> createAddDeserializerResponse(AddDeserializerResponse value) {
-        return new JAXBElement<AddDeserializerResponse>(_AddDeserializerResponse_QNAME, AddDeserializerResponse.class, null, value);
-    }
-
-    /**
      * Create an instance of {@link JAXBElement }{@code <}{@link SetIntegerAttribute }{@code >}}
      * 
      */
     @XmlElementDecl(namespace = "http://shared.bimserver.org/", name = "setIntegerAttribute")
     public JAXBElement<SetIntegerAttribute> createSetIntegerAttribute(SetIntegerAttribute value) {
         return new JAXBElement<SetIntegerAttribute>(_SetIntegerAttribute_QNAME, SetIntegerAttribute.class, null, value);
+    }
+
+    /**
+     * Create an instance of {@link JAXBElement }{@code <}{@link AddDeserializerResponse }{@code >}}
+     * 
+     */
+    @XmlElementDecl(namespace = "http://shared.bimserver.org/", name = "addDeserializerResponse")
+    public JAXBElement<AddDeserializerResponse> createAddDeserializerResponse(AddDeserializerResponse value) {
+        return new JAXBElement<AddDeserializerResponse>(_AddDeserializerResponse_QNAME, AddDeserializerResponse.class, null, value);
     }
 
 }

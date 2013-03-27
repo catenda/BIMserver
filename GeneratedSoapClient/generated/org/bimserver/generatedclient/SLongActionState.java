@@ -17,7 +17,7 @@ import javax.xml.bind.annotation.XmlType;
  *     &lt;restriction base="{http://www.w3.org/2001/XMLSchema}anyType">
  *       &lt;sequence>
  *         &lt;element name="oid" type="{http://www.w3.org/2001/XMLSchema}long"/>
- *         &lt;element name="progress" type="{http://www.w3.org/2001/XMLSchema}int"/>
+ *         &lt;element name="progress" type="{http://www.w3.org/2001/XMLSchema}int" minOccurs="0"/>
  *         &lt;element name="state" type="{http://shared.bimserver.org/}sActionState" minOccurs="0"/>
  *       &lt;/sequence>
  *     &lt;/restriction>
@@ -36,7 +36,7 @@ import javax.xml.bind.annotation.XmlType;
 public class SLongActionState {
 
     protected long oid;
-    protected int progress;
+    protected Integer progress;
     protected SActionState state;
 
     /**
@@ -58,16 +58,24 @@ public class SLongActionState {
     /**
      * Gets the value of the progress property.
      * 
+     * @return
+     *     possible object is
+     *     {@link Integer }
+     *     
      */
-    public int getProgress() {
+    public Integer getProgress() {
         return progress;
     }
 
     /**
      * Sets the value of the progress property.
      * 
+     * @param value
+     *     allowed object is
+     *     {@link Integer }
+     *     
      */
-    public void setProgress(int value) {
+    public void setProgress(Integer value) {
         this.progress = value;
     }
 

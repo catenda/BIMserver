@@ -18,6 +18,7 @@ import javax.xml.bind.annotation.XmlType;
  *       &lt;sequence>
  *         &lt;element name="roid" type="{http://www.w3.org/2001/XMLSchema}long" minOccurs="0"/>
  *         &lt;element name="serializerName" type="{http://www.w3.org/2001/XMLSchema}string" minOccurs="0"/>
+ *         &lt;element name="showOwn" type="{http://www.w3.org/2001/XMLSchema}boolean" minOccurs="0"/>
  *         &lt;element name="sync" type="{http://www.w3.org/2001/XMLSchema}boolean" minOccurs="0"/>
  *       &lt;/sequence>
  *     &lt;/restriction>
@@ -31,12 +32,14 @@ import javax.xml.bind.annotation.XmlType;
 @XmlType(name = "download", propOrder = {
     "roid",
     "serializerName",
+    "showOwn",
     "sync"
 })
 public class Download {
 
     protected Long roid;
     protected String serializerName;
+    protected Boolean showOwn;
     protected Boolean sync;
 
     /**
@@ -85,6 +88,30 @@ public class Download {
      */
     public void setSerializerName(String value) {
         this.serializerName = value;
+    }
+
+    /**
+     * Gets the value of the showOwn property.
+     * 
+     * @return
+     *     possible object is
+     *     {@link Boolean }
+     *     
+     */
+    public Boolean isShowOwn() {
+        return showOwn;
+    }
+
+    /**
+     * Sets the value of the showOwn property.
+     * 
+     * @param value
+     *     allowed object is
+     *     {@link Boolean }
+     *     
+     */
+    public void setShowOwn(Boolean value) {
+        this.showOwn = value;
     }
 
     /**

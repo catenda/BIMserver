@@ -23,6 +23,7 @@ import javax.xml.datatype.XMLGregorianCalendar;
  *       &lt;sequence>
  *         &lt;element name="createdById" type="{http://www.w3.org/2001/XMLSchema}long"/>
  *         &lt;element name="createdOn" type="{http://www.w3.org/2001/XMLSchema}dateTime" minOccurs="0"/>
+ *         &lt;element name="extendedData" type="{http://www.w3.org/2001/XMLSchema}long" maxOccurs="unbounded" minOccurs="0"/>
  *         &lt;element name="hasRightsOn" type="{http://www.w3.org/2001/XMLSchema}long" maxOccurs="unbounded" minOccurs="0"/>
  *         &lt;element name="lastSeen" type="{http://www.w3.org/2001/XMLSchema}dateTime" minOccurs="0"/>
  *         &lt;element name="name" type="{http://www.w3.org/2001/XMLSchema}string" minOccurs="0"/>
@@ -30,6 +31,7 @@ import javax.xml.datatype.XMLGregorianCalendar;
  *         &lt;element name="oid" type="{http://www.w3.org/2001/XMLSchema}long"/>
  *         &lt;element name="password" type="{http://www.w3.org/2001/XMLSchema}string" minOccurs="0"/>
  *         &lt;element name="revisions" type="{http://www.w3.org/2001/XMLSchema}long" maxOccurs="unbounded" minOccurs="0"/>
+ *         &lt;element name="schemas" type="{http://www.w3.org/2001/XMLSchema}long" maxOccurs="unbounded" minOccurs="0"/>
  *         &lt;element name="state" type="{http://shared.bimserver.org/}sObjectState" minOccurs="0"/>
  *         &lt;element name="userType" type="{http://shared.bimserver.org/}sUserType" minOccurs="0"/>
  *         &lt;element name="username" type="{http://www.w3.org/2001/XMLSchema}string" minOccurs="0"/>
@@ -47,6 +49,7 @@ import javax.xml.datatype.XMLGregorianCalendar;
 @XmlType(name = "sUser", propOrder = {
     "createdById",
     "createdOn",
+    "extendedData",
     "hasRightsOn",
     "lastSeen",
     "name",
@@ -54,6 +57,7 @@ import javax.xml.datatype.XMLGregorianCalendar;
     "oid",
     "password",
     "revisions",
+    "schemas",
     "state",
     "userType",
     "username",
@@ -66,6 +70,8 @@ public class SUser {
     @XmlSchemaType(name = "dateTime")
     protected XMLGregorianCalendar createdOn;
     @XmlElement(nillable = true)
+    protected List<Long> extendedData;
+    @XmlElement(nillable = true)
     protected List<Long> hasRightsOn;
     @XmlSchemaType(name = "dateTime")
     protected XMLGregorianCalendar lastSeen;
@@ -75,6 +81,8 @@ public class SUser {
     protected String password;
     @XmlElement(nillable = true)
     protected List<Long> revisions;
+    @XmlElement(nillable = true)
+    protected List<Long> schemas;
     protected SObjectState state;
     protected SUserType userType;
     protected String username;
@@ -120,6 +128,35 @@ public class SUser {
      */
     public void setCreatedOn(XMLGregorianCalendar value) {
         this.createdOn = value;
+    }
+
+    /**
+     * Gets the value of the extendedData property.
+     * 
+     * <p>
+     * This accessor method returns a reference to the live list,
+     * not a snapshot. Therefore any modification you make to the
+     * returned list will be present inside the JAXB object.
+     * This is why there is not a <CODE>set</CODE> method for the extendedData property.
+     * 
+     * <p>
+     * For example, to add a new item, do as follows:
+     * <pre>
+     *    getExtendedData().add(newItem);
+     * </pre>
+     * 
+     * 
+     * <p>
+     * Objects of the following type(s) are allowed in the list
+     * {@link Long }
+     * 
+     * 
+     */
+    public List<Long> getExtendedData() {
+        if (extendedData == null) {
+            extendedData = new ArrayList<Long>();
+        }
+        return this.extendedData;
     }
 
     /**
@@ -290,6 +327,35 @@ public class SUser {
             revisions = new ArrayList<Long>();
         }
         return this.revisions;
+    }
+
+    /**
+     * Gets the value of the schemas property.
+     * 
+     * <p>
+     * This accessor method returns a reference to the live list,
+     * not a snapshot. Therefore any modification you make to the
+     * returned list will be present inside the JAXB object.
+     * This is why there is not a <CODE>set</CODE> method for the schemas property.
+     * 
+     * <p>
+     * For example, to add a new item, do as follows:
+     * <pre>
+     *    getSchemas().add(newItem);
+     * </pre>
+     * 
+     * 
+     * <p>
+     * Objects of the following type(s) are allowed in the list
+     * {@link Long }
+     * 
+     * 
+     */
+    public List<Long> getSchemas() {
+        if (schemas == null) {
+            schemas = new ArrayList<Long>();
+        }
+        return this.schemas;
     }
 
     /**

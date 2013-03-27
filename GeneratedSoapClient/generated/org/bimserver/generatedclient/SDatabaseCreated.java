@@ -17,7 +17,7 @@ import javax.xml.bind.annotation.XmlType;
  *     &lt;extension base="{http://shared.bimserver.org/}sLogAction">
  *       &lt;sequence>
  *         &lt;element name="path" type="{http://www.w3.org/2001/XMLSchema}string" minOccurs="0"/>
- *         &lt;element name="version" type="{http://www.w3.org/2001/XMLSchema}int"/>
+ *         &lt;element name="version" type="{http://www.w3.org/2001/XMLSchema}int" minOccurs="0"/>
  *       &lt;/sequence>
  *     &lt;/extension>
  *   &lt;/complexContent>
@@ -36,7 +36,7 @@ public class SDatabaseCreated
 {
 
     protected String path;
-    protected int version;
+    protected Integer version;
 
     /**
      * Gets the value of the path property.
@@ -65,16 +65,24 @@ public class SDatabaseCreated
     /**
      * Gets the value of the version property.
      * 
+     * @return
+     *     possible object is
+     *     {@link Integer }
+     *     
      */
-    public int getVersion() {
+    public Integer getVersion() {
         return version;
     }
 
     /**
      * Sets the value of the version property.
      * 
+     * @param value
+     *     allowed object is
+     *     {@link Integer }
+     *     
      */
-    public void setVersion(int value) {
+    public void setVersion(Integer value) {
         this.version = value;
     }
 

@@ -28,9 +28,10 @@ import javax.xml.datatype.XMLGregorianCalendar;
  *         &lt;element name="createdDate" type="{http://www.w3.org/2001/XMLSchema}dateTime" minOccurs="0"/>
  *         &lt;element name="description" type="{http://www.w3.org/2001/XMLSchema}string" minOccurs="0"/>
  *         &lt;element name="exportLengthMeasurePrefix" type="{http://shared.bimserver.org/}ssiPrefix" minOccurs="0"/>
+ *         &lt;element name="extendedData" type="{http://www.w3.org/2001/XMLSchema}long" maxOccurs="unbounded" minOccurs="0"/>
  *         &lt;element name="geoTagId" type="{http://www.w3.org/2001/XMLSchema}long"/>
  *         &lt;element name="hasAuthorizedUsers" type="{http://www.w3.org/2001/XMLSchema}long" maxOccurs="unbounded" minOccurs="0"/>
- *         &lt;element name="id" type="{http://www.w3.org/2001/XMLSchema}int"/>
+ *         &lt;element name="id" type="{http://www.w3.org/2001/XMLSchema}int" minOccurs="0"/>
  *         &lt;element name="lastConcreteRevisionId" type="{http://www.w3.org/2001/XMLSchema}long"/>
  *         &lt;element name="lastRevisionId" type="{http://www.w3.org/2001/XMLSchema}long"/>
  *         &lt;element name="name" type="{http://www.w3.org/2001/XMLSchema}string" minOccurs="0"/>
@@ -56,6 +57,7 @@ import javax.xml.datatype.XMLGregorianCalendar;
     "createdDate",
     "description",
     "exportLengthMeasurePrefix",
+    "extendedData",
     "geoTagId",
     "hasAuthorizedUsers",
     "id",
@@ -80,10 +82,12 @@ public class SProject {
     protected XMLGregorianCalendar createdDate;
     protected String description;
     protected SsiPrefix exportLengthMeasurePrefix;
+    @XmlElement(nillable = true)
+    protected List<Long> extendedData;
     protected long geoTagId;
     @XmlElement(nillable = true)
     protected List<Long> hasAuthorizedUsers;
-    protected int id;
+    protected Integer id;
     protected long lastConcreteRevisionId;
     protected long lastRevisionId;
     protected String name;
@@ -258,6 +262,35 @@ public class SProject {
     }
 
     /**
+     * Gets the value of the extendedData property.
+     * 
+     * <p>
+     * This accessor method returns a reference to the live list,
+     * not a snapshot. Therefore any modification you make to the
+     * returned list will be present inside the JAXB object.
+     * This is why there is not a <CODE>set</CODE> method for the extendedData property.
+     * 
+     * <p>
+     * For example, to add a new item, do as follows:
+     * <pre>
+     *    getExtendedData().add(newItem);
+     * </pre>
+     * 
+     * 
+     * <p>
+     * Objects of the following type(s) are allowed in the list
+     * {@link Long }
+     * 
+     * 
+     */
+    public List<Long> getExtendedData() {
+        if (extendedData == null) {
+            extendedData = new ArrayList<Long>();
+        }
+        return this.extendedData;
+    }
+
+    /**
      * Gets the value of the geoTagId property.
      * 
      */
@@ -305,16 +338,24 @@ public class SProject {
     /**
      * Gets the value of the id property.
      * 
+     * @return
+     *     possible object is
+     *     {@link Integer }
+     *     
      */
-    public int getId() {
+    public Integer getId() {
         return id;
     }
 
     /**
      * Sets the value of the id property.
      * 
+     * @param value
+     *     allowed object is
+     *     {@link Integer }
+     *     
      */
-    public void setId(int value) {
+    public void setId(Integer value) {
         this.id = value;
     }
 

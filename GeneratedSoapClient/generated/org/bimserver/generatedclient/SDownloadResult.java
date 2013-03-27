@@ -20,7 +20,7 @@ import javax.xml.bind.annotation.XmlType;
  *         &lt;element name="file" type="{http://www.w3.org/2001/XMLSchema}base64Binary" minOccurs="0"/>
  *         &lt;element name="oid" type="{http://www.w3.org/2001/XMLSchema}long"/>
  *         &lt;element name="projectName" type="{http://www.w3.org/2001/XMLSchema}string" minOccurs="0"/>
- *         &lt;element name="revisionNr" type="{http://www.w3.org/2001/XMLSchema}int"/>
+ *         &lt;element name="revisionNr" type="{http://www.w3.org/2001/XMLSchema}int" minOccurs="0"/>
  *       &lt;/sequence>
  *     &lt;/restriction>
  *   &lt;/complexContent>
@@ -44,7 +44,7 @@ public class SDownloadResult {
     protected byte[] file;
     protected long oid;
     protected String projectName;
-    protected int revisionNr;
+    protected Integer revisionNr;
 
     /**
      * Gets the value of the file property.
@@ -111,16 +111,24 @@ public class SDownloadResult {
     /**
      * Gets the value of the revisionNr property.
      * 
+     * @return
+     *     possible object is
+     *     {@link Integer }
+     *     
      */
-    public int getRevisionNr() {
+    public Integer getRevisionNr() {
         return revisionNr;
     }
 
     /**
      * Sets the value of the revisionNr property.
      * 
+     * @param value
+     *     allowed object is
+     *     {@link Integer }
+     *     
      */
-    public void setRevisionNr(int value) {
+    public void setRevisionNr(Integer value) {
         this.revisionNr = value;
     }
 

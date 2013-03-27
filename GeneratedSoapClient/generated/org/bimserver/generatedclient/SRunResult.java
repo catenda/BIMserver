@@ -22,7 +22,7 @@ import javax.xml.bind.annotation.XmlType;
  *         &lt;element name="errors" type="{http://www.w3.org/2001/XMLSchema}string" maxOccurs="unbounded" minOccurs="0"/>
  *         &lt;element name="oid" type="{http://www.w3.org/2001/XMLSchema}long"/>
  *         &lt;element name="output" type="{http://www.w3.org/2001/XMLSchema}string" minOccurs="0"/>
- *         &lt;element name="runOke" type="{http://www.w3.org/2001/XMLSchema}boolean"/>
+ *         &lt;element name="runOke" type="{http://www.w3.org/2001/XMLSchema}boolean" minOccurs="0"/>
  *         &lt;element name="warnings" type="{http://www.w3.org/2001/XMLSchema}string" maxOccurs="unbounded" minOccurs="0"/>
  *       &lt;/sequence>
  *     &lt;/restriction>
@@ -46,7 +46,7 @@ public class SRunResult {
     protected List<String> errors;
     protected long oid;
     protected String output;
-    protected boolean runOke;
+    protected Boolean runOke;
     @XmlElement(nillable = true)
     protected List<String> warnings;
 
@@ -122,16 +122,24 @@ public class SRunResult {
     /**
      * Gets the value of the runOke property.
      * 
+     * @return
+     *     possible object is
+     *     {@link Boolean }
+     *     
      */
-    public boolean isRunOke() {
+    public Boolean isRunOke() {
         return runOke;
     }
 
     /**
      * Sets the value of the runOke property.
      * 
+     * @param value
+     *     allowed object is
+     *     {@link Boolean }
+     *     
      */
-    public void setRunOke(boolean value) {
+    public void setRunOke(Boolean value) {
         this.runOke = value;
     }
 

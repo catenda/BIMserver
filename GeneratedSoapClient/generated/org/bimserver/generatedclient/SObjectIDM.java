@@ -20,7 +20,7 @@ import javax.xml.bind.annotation.XmlType;
  *     &lt;restriction base="{http://www.w3.org/2001/XMLSchema}anyType">
  *       &lt;sequence>
  *         &lt;element name="className" type="{http://www.w3.org/2001/XMLSchema}string" minOccurs="0"/>
- *         &lt;element name="enabled" type="{http://www.w3.org/2001/XMLSchema}boolean"/>
+ *         &lt;element name="enabled" type="{http://www.w3.org/2001/XMLSchema}boolean" minOccurs="0"/>
  *         &lt;element name="name" type="{http://www.w3.org/2001/XMLSchema}string" minOccurs="0"/>
  *         &lt;element name="oid" type="{http://www.w3.org/2001/XMLSchema}long"/>
  *         &lt;element name="serializers" type="{http://www.w3.org/2001/XMLSchema}long" maxOccurs="unbounded" minOccurs="0"/>
@@ -45,7 +45,7 @@ import javax.xml.bind.annotation.XmlType;
 public class SObjectIDM {
 
     protected String className;
-    protected boolean enabled;
+    protected Boolean enabled;
     protected String name;
     protected long oid;
     @XmlElement(nillable = true)
@@ -79,16 +79,24 @@ public class SObjectIDM {
     /**
      * Gets the value of the enabled property.
      * 
+     * @return
+     *     possible object is
+     *     {@link Boolean }
+     *     
      */
-    public boolean isEnabled() {
+    public Boolean isEnabled() {
         return enabled;
     }
 
     /**
      * Sets the value of the enabled property.
      * 
+     * @param value
+     *     allowed object is
+     *     {@link Boolean }
+     *     
      */
-    public void setEnabled(boolean value) {
+    public void setEnabled(Boolean value) {
         this.enabled = value;
     }
 

@@ -18,7 +18,7 @@ import javax.xml.datatype.XMLGregorianCalendar;
  *   &lt;complexContent>
  *     &lt;restriction base="{http://www.w3.org/2001/XMLSchema}anyType">
  *       &lt;sequence>
- *         &lt;element name="active" type="{http://www.w3.org/2001/XMLSchema}boolean"/>
+ *         &lt;element name="active" type="{http://www.w3.org/2001/XMLSchema}boolean" minOccurs="0"/>
  *         &lt;element name="checkinId" type="{http://www.w3.org/2001/XMLSchema}long"/>
  *         &lt;element name="date" type="{http://www.w3.org/2001/XMLSchema}dateTime" minOccurs="0"/>
  *         &lt;element name="oid" type="{http://www.w3.org/2001/XMLSchema}long"/>
@@ -45,7 +45,7 @@ import javax.xml.datatype.XMLGregorianCalendar;
 })
 public class SCheckout {
 
-    protected boolean active;
+    protected Boolean active;
     protected long checkinId;
     @XmlSchemaType(name = "dateTime")
     protected XMLGregorianCalendar date;
@@ -57,16 +57,24 @@ public class SCheckout {
     /**
      * Gets the value of the active property.
      * 
+     * @return
+     *     possible object is
+     *     {@link Boolean }
+     *     
      */
-    public boolean isActive() {
+    public Boolean isActive() {
         return active;
     }
 
     /**
      * Sets the value of the active property.
      * 
+     * @param value
+     *     allowed object is
+     *     {@link Boolean }
+     *     
      */
-    public void setActive(boolean value) {
+    public void setActive(Boolean value) {
         this.active = value;
     }
 

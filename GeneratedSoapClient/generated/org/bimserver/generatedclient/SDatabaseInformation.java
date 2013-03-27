@@ -23,14 +23,14 @@ import javax.xml.datatype.XMLGregorianCalendar;
  *       &lt;sequence>
  *         &lt;element name="categories" type="{http://shared.bimserver.org/}sDatabaseInformationCategory" maxOccurs="unbounded" minOccurs="0"/>
  *         &lt;element name="created" type="{http://www.w3.org/2001/XMLSchema}dateTime" minOccurs="0"/>
- *         &lt;element name="databaseSizeInBytes" type="{http://www.w3.org/2001/XMLSchema}long"/>
+ *         &lt;element name="databaseSizeInBytes" type="{http://www.w3.org/2001/XMLSchema}long" minOccurs="0"/>
  *         &lt;element name="location" type="{http://www.w3.org/2001/XMLSchema}string" minOccurs="0"/>
- *         &lt;element name="numberOfCheckouts" type="{http://www.w3.org/2001/XMLSchema}int"/>
- *         &lt;element name="numberOfProjects" type="{http://www.w3.org/2001/XMLSchema}int"/>
- *         &lt;element name="numberOfRevisions" type="{http://www.w3.org/2001/XMLSchema}int"/>
- *         &lt;element name="numberOfUsers" type="{http://www.w3.org/2001/XMLSchema}int"/>
+ *         &lt;element name="numberOfCheckouts" type="{http://www.w3.org/2001/XMLSchema}int" minOccurs="0"/>
+ *         &lt;element name="numberOfProjects" type="{http://www.w3.org/2001/XMLSchema}int" minOccurs="0"/>
+ *         &lt;element name="numberOfRevisions" type="{http://www.w3.org/2001/XMLSchema}int" minOccurs="0"/>
+ *         &lt;element name="numberOfUsers" type="{http://www.w3.org/2001/XMLSchema}int" minOccurs="0"/>
  *         &lt;element name="oid" type="{http://www.w3.org/2001/XMLSchema}long"/>
- *         &lt;element name="schemaVersion" type="{http://www.w3.org/2001/XMLSchema}int"/>
+ *         &lt;element name="schemaVersion" type="{http://www.w3.org/2001/XMLSchema}int" minOccurs="0"/>
  *         &lt;element name="type" type="{http://www.w3.org/2001/XMLSchema}string" minOccurs="0"/>
  *       &lt;/sequence>
  *     &lt;/restriction>
@@ -60,14 +60,14 @@ public class SDatabaseInformation {
     protected List<SDatabaseInformationCategory> categories;
     @XmlSchemaType(name = "dateTime")
     protected XMLGregorianCalendar created;
-    protected long databaseSizeInBytes;
+    protected Long databaseSizeInBytes;
     protected String location;
-    protected int numberOfCheckouts;
-    protected int numberOfProjects;
-    protected int numberOfRevisions;
-    protected int numberOfUsers;
+    protected Integer numberOfCheckouts;
+    protected Integer numberOfProjects;
+    protected Integer numberOfRevisions;
+    protected Integer numberOfUsers;
     protected long oid;
-    protected int schemaVersion;
+    protected Integer schemaVersion;
     protected String type;
 
     /**
@@ -126,16 +126,24 @@ public class SDatabaseInformation {
     /**
      * Gets the value of the databaseSizeInBytes property.
      * 
+     * @return
+     *     possible object is
+     *     {@link Long }
+     *     
      */
-    public long getDatabaseSizeInBytes() {
+    public Long getDatabaseSizeInBytes() {
         return databaseSizeInBytes;
     }
 
     /**
      * Sets the value of the databaseSizeInBytes property.
      * 
+     * @param value
+     *     allowed object is
+     *     {@link Long }
+     *     
      */
-    public void setDatabaseSizeInBytes(long value) {
+    public void setDatabaseSizeInBytes(Long value) {
         this.databaseSizeInBytes = value;
     }
 
@@ -166,64 +174,96 @@ public class SDatabaseInformation {
     /**
      * Gets the value of the numberOfCheckouts property.
      * 
+     * @return
+     *     possible object is
+     *     {@link Integer }
+     *     
      */
-    public int getNumberOfCheckouts() {
+    public Integer getNumberOfCheckouts() {
         return numberOfCheckouts;
     }
 
     /**
      * Sets the value of the numberOfCheckouts property.
      * 
+     * @param value
+     *     allowed object is
+     *     {@link Integer }
+     *     
      */
-    public void setNumberOfCheckouts(int value) {
+    public void setNumberOfCheckouts(Integer value) {
         this.numberOfCheckouts = value;
     }
 
     /**
      * Gets the value of the numberOfProjects property.
      * 
+     * @return
+     *     possible object is
+     *     {@link Integer }
+     *     
      */
-    public int getNumberOfProjects() {
+    public Integer getNumberOfProjects() {
         return numberOfProjects;
     }
 
     /**
      * Sets the value of the numberOfProjects property.
      * 
+     * @param value
+     *     allowed object is
+     *     {@link Integer }
+     *     
      */
-    public void setNumberOfProjects(int value) {
+    public void setNumberOfProjects(Integer value) {
         this.numberOfProjects = value;
     }
 
     /**
      * Gets the value of the numberOfRevisions property.
      * 
+     * @return
+     *     possible object is
+     *     {@link Integer }
+     *     
      */
-    public int getNumberOfRevisions() {
+    public Integer getNumberOfRevisions() {
         return numberOfRevisions;
     }
 
     /**
      * Sets the value of the numberOfRevisions property.
      * 
+     * @param value
+     *     allowed object is
+     *     {@link Integer }
+     *     
      */
-    public void setNumberOfRevisions(int value) {
+    public void setNumberOfRevisions(Integer value) {
         this.numberOfRevisions = value;
     }
 
     /**
      * Gets the value of the numberOfUsers property.
      * 
+     * @return
+     *     possible object is
+     *     {@link Integer }
+     *     
      */
-    public int getNumberOfUsers() {
+    public Integer getNumberOfUsers() {
         return numberOfUsers;
     }
 
     /**
      * Sets the value of the numberOfUsers property.
      * 
+     * @param value
+     *     allowed object is
+     *     {@link Integer }
+     *     
      */
-    public void setNumberOfUsers(int value) {
+    public void setNumberOfUsers(Integer value) {
         this.numberOfUsers = value;
     }
 
@@ -246,16 +286,24 @@ public class SDatabaseInformation {
     /**
      * Gets the value of the schemaVersion property.
      * 
+     * @return
+     *     possible object is
+     *     {@link Integer }
+     *     
      */
-    public int getSchemaVersion() {
+    public Integer getSchemaVersion() {
         return schemaVersion;
     }
 
     /**
      * Sets the value of the schemaVersion property.
      * 
+     * @param value
+     *     allowed object is
+     *     {@link Integer }
+     *     
      */
-    public void setSchemaVersion(int value) {
+    public void setSchemaVersion(Integer value) {
         this.schemaVersion = value;
     }
 

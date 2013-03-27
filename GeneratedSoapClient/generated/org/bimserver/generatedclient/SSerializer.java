@@ -18,10 +18,11 @@ import javax.xml.bind.annotation.XmlType;
  *       &lt;sequence>
  *         &lt;element name="className" type="{http://www.w3.org/2001/XMLSchema}string" minOccurs="0"/>
  *         &lt;element name="contentType" type="{http://www.w3.org/2001/XMLSchema}string" minOccurs="0"/>
- *         &lt;element name="defaultSerializer" type="{http://www.w3.org/2001/XMLSchema}boolean"/>
+ *         &lt;element name="defaultSerializer" type="{http://www.w3.org/2001/XMLSchema}boolean" minOccurs="0"/>
  *         &lt;element name="description" type="{http://www.w3.org/2001/XMLSchema}string" minOccurs="0"/>
- *         &lt;element name="enabled" type="{http://www.w3.org/2001/XMLSchema}boolean"/>
+ *         &lt;element name="enabled" type="{http://www.w3.org/2001/XMLSchema}boolean" minOccurs="0"/>
  *         &lt;element name="extension" type="{http://www.w3.org/2001/XMLSchema}string" minOccurs="0"/>
+ *         &lt;element name="ifcEngineId" type="{http://www.w3.org/2001/XMLSchema}long"/>
  *         &lt;element name="name" type="{http://www.w3.org/2001/XMLSchema}string" minOccurs="0"/>
  *         &lt;element name="objectIDMId" type="{http://www.w3.org/2001/XMLSchema}long"/>
  *         &lt;element name="oid" type="{http://www.w3.org/2001/XMLSchema}long"/>
@@ -42,6 +43,7 @@ import javax.xml.bind.annotation.XmlType;
     "description",
     "enabled",
     "extension",
+    "ifcEngineId",
     "name",
     "objectIDMId",
     "oid",
@@ -51,10 +53,11 @@ public class SSerializer {
 
     protected String className;
     protected String contentType;
-    protected boolean defaultSerializer;
+    protected Boolean defaultSerializer;
     protected String description;
-    protected boolean enabled;
+    protected Boolean enabled;
     protected String extension;
+    protected long ifcEngineId;
     protected String name;
     protected long objectIDMId;
     protected long oid;
@@ -111,16 +114,24 @@ public class SSerializer {
     /**
      * Gets the value of the defaultSerializer property.
      * 
+     * @return
+     *     possible object is
+     *     {@link Boolean }
+     *     
      */
-    public boolean isDefaultSerializer() {
+    public Boolean isDefaultSerializer() {
         return defaultSerializer;
     }
 
     /**
      * Sets the value of the defaultSerializer property.
      * 
+     * @param value
+     *     allowed object is
+     *     {@link Boolean }
+     *     
      */
-    public void setDefaultSerializer(boolean value) {
+    public void setDefaultSerializer(Boolean value) {
         this.defaultSerializer = value;
     }
 
@@ -151,16 +162,24 @@ public class SSerializer {
     /**
      * Gets the value of the enabled property.
      * 
+     * @return
+     *     possible object is
+     *     {@link Boolean }
+     *     
      */
-    public boolean isEnabled() {
+    public Boolean isEnabled() {
         return enabled;
     }
 
     /**
      * Sets the value of the enabled property.
      * 
+     * @param value
+     *     allowed object is
+     *     {@link Boolean }
+     *     
      */
-    public void setEnabled(boolean value) {
+    public void setEnabled(Boolean value) {
         this.enabled = value;
     }
 
@@ -186,6 +205,22 @@ public class SSerializer {
      */
     public void setExtension(String value) {
         this.extension = value;
+    }
+
+    /**
+     * Gets the value of the ifcEngineId property.
+     * 
+     */
+    public long getIfcEngineId() {
+        return ifcEngineId;
+    }
+
+    /**
+     * Sets the value of the ifcEngineId property.
+     * 
+     */
+    public void setIfcEngineId(long value) {
+        this.ifcEngineId = value;
     }
 
     /**

@@ -16,8 +16,8 @@ import javax.xml.bind.annotation.XmlType;
  *   &lt;complexContent>
  *     &lt;extension base="{http://shared.bimserver.org/}sClash">
  *       &lt;sequence>
- *         &lt;element name="eid1" type="{http://www.w3.org/2001/XMLSchema}long"/>
- *         &lt;element name="eid2" type="{http://www.w3.org/2001/XMLSchema}long"/>
+ *         &lt;element name="eid1" type="{http://www.w3.org/2001/XMLSchema}long" minOccurs="0"/>
+ *         &lt;element name="eid2" type="{http://www.w3.org/2001/XMLSchema}long" minOccurs="0"/>
  *       &lt;/sequence>
  *     &lt;/extension>
  *   &lt;/complexContent>
@@ -35,38 +35,54 @@ public class SEidClash
     extends SClash
 {
 
-    protected long eid1;
-    protected long eid2;
+    protected Long eid1;
+    protected Long eid2;
 
     /**
      * Gets the value of the eid1 property.
      * 
+     * @return
+     *     possible object is
+     *     {@link Long }
+     *     
      */
-    public long getEid1() {
+    public Long getEid1() {
         return eid1;
     }
 
     /**
      * Sets the value of the eid1 property.
      * 
+     * @param value
+     *     allowed object is
+     *     {@link Long }
+     *     
      */
-    public void setEid1(long value) {
+    public void setEid1(Long value) {
         this.eid1 = value;
     }
 
     /**
      * Gets the value of the eid2 property.
      * 
+     * @return
+     *     possible object is
+     *     {@link Long }
+     *     
      */
-    public long getEid2() {
+    public Long getEid2() {
         return eid2;
     }
 
     /**
      * Sets the value of the eid2 property.
      * 
+     * @param value
+     *     allowed object is
+     *     {@link Long }
+     *     
      */
-    public void setEid2(long value) {
+    public void setEid2(Long value) {
         this.eid2 = value;
     }
 

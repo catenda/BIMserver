@@ -19,7 +19,7 @@ import javax.xml.bind.annotation.XmlType;
  *   &lt;complexContent>
  *     &lt;restriction base="{http://www.w3.org/2001/XMLSchema}anyType">
  *       &lt;sequence>
- *         &lt;element name="compileOke" type="{http://www.w3.org/2001/XMLSchema}boolean"/>
+ *         &lt;element name="compileOke" type="{http://www.w3.org/2001/XMLSchema}boolean" minOccurs="0"/>
  *         &lt;element name="errors" type="{http://www.w3.org/2001/XMLSchema}string" maxOccurs="unbounded" minOccurs="0"/>
  *         &lt;element name="oid" type="{http://www.w3.org/2001/XMLSchema}long"/>
  *         &lt;element name="warnings" type="{http://www.w3.org/2001/XMLSchema}string" maxOccurs="unbounded" minOccurs="0"/>
@@ -40,7 +40,7 @@ import javax.xml.bind.annotation.XmlType;
 })
 public class SCompileResult {
 
-    protected boolean compileOke;
+    protected Boolean compileOke;
     @XmlElement(nillable = true)
     protected List<String> errors;
     protected long oid;
@@ -50,16 +50,24 @@ public class SCompileResult {
     /**
      * Gets the value of the compileOke property.
      * 
+     * @return
+     *     possible object is
+     *     {@link Boolean }
+     *     
      */
-    public boolean isCompileOke() {
+    public Boolean isCompileOke() {
         return compileOke;
     }
 
     /**
      * Sets the value of the compileOke property.
      * 
+     * @param value
+     *     allowed object is
+     *     {@link Boolean }
+     *     
      */
-    public void setCompileOke(boolean value) {
+    public void setCompileOke(Boolean value) {
         this.compileOke = value;
     }
 

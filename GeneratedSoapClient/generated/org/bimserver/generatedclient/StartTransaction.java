@@ -16,7 +16,7 @@ import javax.xml.bind.annotation.XmlType;
  *   &lt;complexContent>
  *     &lt;restriction base="{http://www.w3.org/2001/XMLSchema}anyType">
  *       &lt;sequence>
- *         &lt;element name="pid" type="{http://www.w3.org/2001/XMLSchema}int" minOccurs="0"/>
+ *         &lt;element name="poid" type="{http://www.w3.org/2001/XMLSchema}long" minOccurs="0"/>
  *       &lt;/sequence>
  *     &lt;/restriction>
  *   &lt;/complexContent>
@@ -27,34 +27,34 @@ import javax.xml.bind.annotation.XmlType;
  */
 @XmlAccessorType(XmlAccessType.FIELD)
 @XmlType(name = "startTransaction", propOrder = {
-    "pid"
+    "poid"
 })
 public class StartTransaction {
 
-    protected Integer pid;
+    protected Long poid;
 
     /**
-     * Gets the value of the pid property.
+     * Gets the value of the poid property.
      * 
      * @return
      *     possible object is
-     *     {@link Integer }
+     *     {@link Long }
      *     
      */
-    public Integer getPid() {
-        return pid;
+    public Long getPoid() {
+        return poid;
     }
 
     /**
-     * Sets the value of the pid property.
+     * Sets the value of the poid property.
      * 
      * @param value
      *     allowed object is
-     *     {@link Integer }
+     *     {@link Long }
      *     
      */
-    public void setPid(Integer value) {
-        this.pid = value;
+    public void setPoid(Long value) {
+        this.poid = value;
     }
 
 }

@@ -16,7 +16,7 @@ import javax.xml.bind.annotation.XmlType;
  *   &lt;complexContent>
  *     &lt;restriction base="{http://www.w3.org/2001/XMLSchema}anyType">
  *       &lt;sequence>
- *         &lt;element name="uoid" type="{http://www.w3.org/2001/XMLSchema}long" minOccurs="0"/>
+ *         &lt;element name="username" type="{http://www.w3.org/2001/XMLSchema}string" minOccurs="0"/>
  *       &lt;/sequence>
  *     &lt;/restriction>
  *   &lt;/complexContent>
@@ -27,34 +27,34 @@ import javax.xml.bind.annotation.XmlType;
  */
 @XmlAccessorType(XmlAccessType.FIELD)
 @XmlType(name = "requestPasswordChange", propOrder = {
-    "uoid"
+    "username"
 })
 public class RequestPasswordChange {
 
-    protected Long uoid;
+    protected String username;
 
     /**
-     * Gets the value of the uoid property.
+     * Gets the value of the username property.
      * 
      * @return
      *     possible object is
-     *     {@link Long }
+     *     {@link String }
      *     
      */
-    public Long getUoid() {
-        return uoid;
+    public String getUsername() {
+        return username;
     }
 
     /**
-     * Sets the value of the uoid property.
+     * Sets the value of the username property.
      * 
      * @param value
      *     allowed object is
-     *     {@link Long }
+     *     {@link String }
      *     
      */
-    public void setUoid(Long value) {
-        this.uoid = value;
+    public void setUsername(String value) {
+        this.username = value;
     }
 
 }

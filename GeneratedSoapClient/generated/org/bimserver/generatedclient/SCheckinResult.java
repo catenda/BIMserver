@@ -16,10 +16,12 @@ import javax.xml.bind.annotation.XmlType;
  *   &lt;complexContent>
  *     &lt;restriction base="{http://www.w3.org/2001/XMLSchema}anyType">
  *       &lt;sequence>
+ *         &lt;element name="lastError" type="{http://www.w3.org/2001/XMLSchema}string" minOccurs="0"/>
  *         &lt;element name="oid" type="{http://www.w3.org/2001/XMLSchema}long"/>
- *         &lt;element name="progress" type="{http://www.w3.org/2001/XMLSchema}int"/>
+ *         &lt;element name="progress" type="{http://www.w3.org/2001/XMLSchema}int" minOccurs="0"/>
  *         &lt;element name="projectId" type="{http://www.w3.org/2001/XMLSchema}long"/>
  *         &lt;element name="revisionId" type="{http://www.w3.org/2001/XMLSchema}long"/>
+ *         &lt;element name="status" type="{http://shared.bimserver.org/}sCheckinStatus" minOccurs="0"/>
  *       &lt;/sequence>
  *     &lt;/restriction>
  *   &lt;/complexContent>
@@ -30,17 +32,45 @@ import javax.xml.bind.annotation.XmlType;
  */
 @XmlAccessorType(XmlAccessType.FIELD)
 @XmlType(name = "sCheckinResult", propOrder = {
+    "lastError",
     "oid",
     "progress",
     "projectId",
-    "revisionId"
+    "revisionId",
+    "status"
 })
 public class SCheckinResult {
 
+    protected String lastError;
     protected long oid;
-    protected int progress;
+    protected Integer progress;
     protected long projectId;
     protected long revisionId;
+    protected SCheckinStatus status;
+
+    /**
+     * Gets the value of the lastError property.
+     * 
+     * @return
+     *     possible object is
+     *     {@link String }
+     *     
+     */
+    public String getLastError() {
+        return lastError;
+    }
+
+    /**
+     * Sets the value of the lastError property.
+     * 
+     * @param value
+     *     allowed object is
+     *     {@link String }
+     *     
+     */
+    public void setLastError(String value) {
+        this.lastError = value;
+    }
 
     /**
      * Gets the value of the oid property.
@@ -61,16 +91,24 @@ public class SCheckinResult {
     /**
      * Gets the value of the progress property.
      * 
+     * @return
+     *     possible object is
+     *     {@link Integer }
+     *     
      */
-    public int getProgress() {
+    public Integer getProgress() {
         return progress;
     }
 
     /**
      * Sets the value of the progress property.
      * 
+     * @param value
+     *     allowed object is
+     *     {@link Integer }
+     *     
      */
-    public void setProgress(int value) {
+    public void setProgress(Integer value) {
         this.progress = value;
     }
 
@@ -104,6 +142,30 @@ public class SCheckinResult {
      */
     public void setRevisionId(long value) {
         this.revisionId = value;
+    }
+
+    /**
+     * Gets the value of the status property.
+     * 
+     * @return
+     *     possible object is
+     *     {@link SCheckinStatus }
+     *     
+     */
+    public SCheckinStatus getStatus() {
+        return status;
+    }
+
+    /**
+     * Sets the value of the status property.
+     * 
+     * @param value
+     *     allowed object is
+     *     {@link SCheckinStatus }
+     *     
+     */
+    public void setStatus(SCheckinStatus value) {
+        this.status = value;
     }
 
 }

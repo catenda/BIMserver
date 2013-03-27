@@ -44,36 +44,36 @@ public class Test {
 
 	private void start() {
 		try {
-			URL url = new URL("http://localhost/soap?wsdl");
+			URL url = new URL("http://localhost:8080/soap?wsdl");
 			ServiceInterfaceService service = new ServiceInterfaceService(url);
 			Soap soapPort = service.getSoapPort();
 			((BindingProvider) soapPort).getRequestContext().put(BindingProvider.SESSION_MAINTAIN_PROPERTY, true);
-				soapPort.login("admin@bimserver.org", "admin");
-				for (SProject sProject : soapPort.getAllProjects()) {
-					System.out.println(sProject.getName());
-					long roid = sProject.getLastRevisionId();
-					if (roid != -1) {
-						List<SDataObject> dataObjectsByType = soapPort.getDataObjectsByType(roid, "IfcWindow");
-						for (SDataObject sDataObject : dataObjectsByType) {
-							for (SDataValue sDataValue : sDataObject.getValues()) {
-								System.out.print(sDataValue.getFieldName() + ": ");
-								if (sDataValue instanceof SSimpleDataValue) {
-									SSimpleDataValue sSimpleDataValue = (SSimpleDataValue)sDataValue;
-									System.out.print(sSimpleDataValue.getStringValue());
-								} else if (sDataValue instanceof SListDataValue) {
-									SListDataValue sListDataValue = (SListDataValue)sDataValue;
-									System.out.print(sListDataValue.getValues().size());
-								} else if (sDataValue instanceof SReferenceDataValue) {
-									SReferenceDataValue sReferenceDataValue = (SReferenceDataValue)sDataValue;
-									System.out.print(sReferenceDataValue.getTypeName() + ": " + sReferenceDataValue.getOid());
-								} else {
-									System.out.print("Unknown type: " + sDataValue);
-								}
-								System.out.println();
+			soapPort.login("admin@bimserver.org", "admin");
+			for (SProject sProject : soapPort.getAllProjects()) {
+				System.out.println(sProject.getName());
+				long roid = sProject.getLastRevisionId();
+				if (roid != -1) {
+					List<SDataObject> dataObjectsByType = soapPort.getDataObjectsByType(roid, "IfcWindow");
+					for (SDataObject sDataObject : dataObjectsByType) {
+						for (SDataValue sDataValue : sDataObject.getValues()) {
+							System.out.print(sDataValue.getFieldName() + ": ");
+							if (sDataValue instanceof SSimpleDataValue) {
+								SSimpleDataValue sSimpleDataValue = (SSimpleDataValue)sDataValue;
+								System.out.print(sSimpleDataValue.getStringValue());
+							} else if (sDataValue instanceof SListDataValue) {
+								SListDataValue sListDataValue = (SListDataValue)sDataValue;
+								System.out.print(sListDataValue.getValues().size());
+							} else if (sDataValue instanceof SReferenceDataValue) {
+								SReferenceDataValue sReferenceDataValue = (SReferenceDataValue)sDataValue;
+								System.out.print(sReferenceDataValue.getTypeName() + ": " + sReferenceDataValue.getOid());
+							} else {
+								System.out.print("Unknown type: " + sDataValue);
 							}
+							System.out.println();
 						}
 					}
 				}
+			}
 		} catch (MalformedURLException e) {
 			LOGGER.error("", e);
 		} catch (UserException_Exception e) {

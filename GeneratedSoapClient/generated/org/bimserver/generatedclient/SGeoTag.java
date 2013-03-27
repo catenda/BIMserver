@@ -19,14 +19,14 @@ import javax.xml.bind.annotation.XmlType;
  *   &lt;complexContent>
  *     &lt;restriction base="{http://www.w3.org/2001/XMLSchema}anyType">
  *       &lt;sequence>
- *         &lt;element name="directionAngle" type="{http://www.w3.org/2001/XMLSchema}float"/>
- *         &lt;element name="enabled" type="{http://www.w3.org/2001/XMLSchema}boolean"/>
- *         &lt;element name="epsg" type="{http://www.w3.org/2001/XMLSchema}int"/>
+ *         &lt;element name="directionAngle" type="{http://www.w3.org/2001/XMLSchema}double" minOccurs="0"/>
+ *         &lt;element name="enabled" type="{http://www.w3.org/2001/XMLSchema}boolean" minOccurs="0"/>
+ *         &lt;element name="epsg" type="{http://www.w3.org/2001/XMLSchema}int" minOccurs="0"/>
  *         &lt;element name="oid" type="{http://www.w3.org/2001/XMLSchema}long"/>
  *         &lt;element name="projects" type="{http://www.w3.org/2001/XMLSchema}long" maxOccurs="unbounded" minOccurs="0"/>
- *         &lt;element name="x" type="{http://www.w3.org/2001/XMLSchema}float"/>
- *         &lt;element name="y" type="{http://www.w3.org/2001/XMLSchema}float"/>
- *         &lt;element name="z" type="{http://www.w3.org/2001/XMLSchema}float"/>
+ *         &lt;element name="x" type="{http://www.w3.org/2001/XMLSchema}double" minOccurs="0"/>
+ *         &lt;element name="y" type="{http://www.w3.org/2001/XMLSchema}double" minOccurs="0"/>
+ *         &lt;element name="z" type="{http://www.w3.org/2001/XMLSchema}double" minOccurs="0"/>
  *       &lt;/sequence>
  *     &lt;/restriction>
  *   &lt;/complexContent>
@@ -48,61 +48,85 @@ import javax.xml.bind.annotation.XmlType;
 })
 public class SGeoTag {
 
-    protected float directionAngle;
-    protected boolean enabled;
-    protected int epsg;
+    protected Double directionAngle;
+    protected Boolean enabled;
+    protected Integer epsg;
     protected long oid;
     @XmlElement(nillable = true)
     protected List<Long> projects;
-    protected float x;
-    protected float y;
-    protected float z;
+    protected Double x;
+    protected Double y;
+    protected Double z;
 
     /**
      * Gets the value of the directionAngle property.
      * 
+     * @return
+     *     possible object is
+     *     {@link Double }
+     *     
      */
-    public float getDirectionAngle() {
+    public Double getDirectionAngle() {
         return directionAngle;
     }
 
     /**
      * Sets the value of the directionAngle property.
      * 
+     * @param value
+     *     allowed object is
+     *     {@link Double }
+     *     
      */
-    public void setDirectionAngle(float value) {
+    public void setDirectionAngle(Double value) {
         this.directionAngle = value;
     }
 
     /**
      * Gets the value of the enabled property.
      * 
+     * @return
+     *     possible object is
+     *     {@link Boolean }
+     *     
      */
-    public boolean isEnabled() {
+    public Boolean isEnabled() {
         return enabled;
     }
 
     /**
      * Sets the value of the enabled property.
      * 
+     * @param value
+     *     allowed object is
+     *     {@link Boolean }
+     *     
      */
-    public void setEnabled(boolean value) {
+    public void setEnabled(Boolean value) {
         this.enabled = value;
     }
 
     /**
      * Gets the value of the epsg property.
      * 
+     * @return
+     *     possible object is
+     *     {@link Integer }
+     *     
      */
-    public int getEpsg() {
+    public Integer getEpsg() {
         return epsg;
     }
 
     /**
      * Sets the value of the epsg property.
      * 
+     * @param value
+     *     allowed object is
+     *     {@link Integer }
+     *     
      */
-    public void setEpsg(int value) {
+    public void setEpsg(Integer value) {
         this.epsg = value;
     }
 
@@ -154,48 +178,72 @@ public class SGeoTag {
     /**
      * Gets the value of the x property.
      * 
+     * @return
+     *     possible object is
+     *     {@link Double }
+     *     
      */
-    public float getX() {
+    public Double getX() {
         return x;
     }
 
     /**
      * Sets the value of the x property.
      * 
+     * @param value
+     *     allowed object is
+     *     {@link Double }
+     *     
      */
-    public void setX(float value) {
+    public void setX(Double value) {
         this.x = value;
     }
 
     /**
      * Gets the value of the y property.
      * 
+     * @return
+     *     possible object is
+     *     {@link Double }
+     *     
      */
-    public float getY() {
+    public Double getY() {
         return y;
     }
 
     /**
      * Sets the value of the y property.
      * 
+     * @param value
+     *     allowed object is
+     *     {@link Double }
+     *     
      */
-    public void setY(float value) {
+    public void setY(Double value) {
         this.y = value;
     }
 
     /**
      * Gets the value of the z property.
      * 
+     * @return
+     *     possible object is
+     *     {@link Double }
+     *     
      */
-    public float getZ() {
+    public Double getZ() {
         return z;
     }
 
     /**
      * Sets the value of the z property.
      * 
+     * @param value
+     *     allowed object is
+     *     {@link Double }
+     *     
      */
-    public void setZ(float value) {
+    public void setZ(Double value) {
         this.z = value;
     }
 

@@ -17,9 +17,9 @@ import javax.xml.bind.annotation.XmlType;
  *     &lt;restriction base="{http://www.w3.org/2001/XMLSchema}anyType">
  *       &lt;sequence>
  *         &lt;element name="className" type="{http://www.w3.org/2001/XMLSchema}string" minOccurs="0"/>
- *         &lt;element name="defaultDeserializer" type="{http://www.w3.org/2001/XMLSchema}boolean"/>
+ *         &lt;element name="defaultDeserializer" type="{http://www.w3.org/2001/XMLSchema}boolean" minOccurs="0"/>
  *         &lt;element name="description" type="{http://www.w3.org/2001/XMLSchema}string" minOccurs="0"/>
- *         &lt;element name="enabled" type="{http://www.w3.org/2001/XMLSchema}boolean"/>
+ *         &lt;element name="enabled" type="{http://www.w3.org/2001/XMLSchema}boolean" minOccurs="0"/>
  *         &lt;element name="name" type="{http://www.w3.org/2001/XMLSchema}string" minOccurs="0"/>
  *         &lt;element name="oid" type="{http://www.w3.org/2001/XMLSchema}long"/>
  *         &lt;element name="settingsId" type="{http://www.w3.org/2001/XMLSchema}long"/>
@@ -44,9 +44,9 @@ import javax.xml.bind.annotation.XmlType;
 public class SDeserializer {
 
     protected String className;
-    protected boolean defaultDeserializer;
+    protected Boolean defaultDeserializer;
     protected String description;
-    protected boolean enabled;
+    protected Boolean enabled;
     protected String name;
     protected long oid;
     protected long settingsId;
@@ -78,16 +78,24 @@ public class SDeserializer {
     /**
      * Gets the value of the defaultDeserializer property.
      * 
+     * @return
+     *     possible object is
+     *     {@link Boolean }
+     *     
      */
-    public boolean isDefaultDeserializer() {
+    public Boolean isDefaultDeserializer() {
         return defaultDeserializer;
     }
 
     /**
      * Sets the value of the defaultDeserializer property.
      * 
+     * @param value
+     *     allowed object is
+     *     {@link Boolean }
+     *     
      */
-    public void setDefaultDeserializer(boolean value) {
+    public void setDefaultDeserializer(Boolean value) {
         this.defaultDeserializer = value;
     }
 
@@ -118,16 +126,24 @@ public class SDeserializer {
     /**
      * Gets the value of the enabled property.
      * 
+     * @return
+     *     possible object is
+     *     {@link Boolean }
+     *     
      */
-    public boolean isEnabled() {
+    public Boolean isEnabled() {
         return enabled;
     }
 
     /**
      * Sets the value of the enabled property.
      * 
+     * @param value
+     *     allowed object is
+     *     {@link Boolean }
+     *     
      */
-    public void setEnabled(boolean value) {
+    public void setEnabled(Boolean value) {
         this.enabled = value;
     }
 

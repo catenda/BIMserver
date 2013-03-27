@@ -19,9 +19,9 @@ import javax.xml.bind.annotation.XmlType;
  *   &lt;complexContent>
  *     &lt;restriction base="{http://www.w3.org/2001/XMLSchema}anyType">
  *       &lt;sequence>
- *         &lt;element name="enabled" type="{http://www.w3.org/2001/XMLSchema}boolean"/>
+ *         &lt;element name="enabled" type="{http://www.w3.org/2001/XMLSchema}boolean" minOccurs="0"/>
  *         &lt;element name="ignoredClasses" type="{http://www.w3.org/2001/XMLSchema}string" maxOccurs="unbounded" minOccurs="0"/>
- *         &lt;element name="margin" type="{http://www.w3.org/2001/XMLSchema}float"/>
+ *         &lt;element name="margin" type="{http://www.w3.org/2001/XMLSchema}double" minOccurs="0"/>
  *         &lt;element name="oid" type="{http://www.w3.org/2001/XMLSchema}long"/>
  *         &lt;element name="projects" type="{http://www.w3.org/2001/XMLSchema}long" maxOccurs="unbounded" minOccurs="0"/>
  *         &lt;element name="revisions" type="{http://www.w3.org/2001/XMLSchema}long" maxOccurs="unbounded" minOccurs="0"/>
@@ -44,10 +44,10 @@ import javax.xml.bind.annotation.XmlType;
 })
 public class SClashDetectionSettings {
 
-    protected boolean enabled;
+    protected Boolean enabled;
     @XmlElement(nillable = true)
     protected List<String> ignoredClasses;
-    protected float margin;
+    protected Double margin;
     protected long oid;
     @XmlElement(nillable = true)
     protected List<Long> projects;
@@ -57,16 +57,24 @@ public class SClashDetectionSettings {
     /**
      * Gets the value of the enabled property.
      * 
+     * @return
+     *     possible object is
+     *     {@link Boolean }
+     *     
      */
-    public boolean isEnabled() {
+    public Boolean isEnabled() {
         return enabled;
     }
 
     /**
      * Sets the value of the enabled property.
      * 
+     * @param value
+     *     allowed object is
+     *     {@link Boolean }
+     *     
      */
-    public void setEnabled(boolean value) {
+    public void setEnabled(Boolean value) {
         this.enabled = value;
     }
 
@@ -102,16 +110,24 @@ public class SClashDetectionSettings {
     /**
      * Gets the value of the margin property.
      * 
+     * @return
+     *     possible object is
+     *     {@link Double }
+     *     
      */
-    public float getMargin() {
+    public Double getMargin() {
         return margin;
     }
 
     /**
      * Sets the value of the margin property.
      * 
+     * @param value
+     *     allowed object is
+     *     {@link Double }
+     *     
      */
-    public void setMargin(float value) {
+    public void setMargin(Double value) {
         this.margin = value;
     }
 

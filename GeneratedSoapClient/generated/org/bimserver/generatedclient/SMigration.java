@@ -17,8 +17,8 @@ import javax.xml.bind.annotation.XmlType;
  *     &lt;restriction base="{http://www.w3.org/2001/XMLSchema}anyType">
  *       &lt;sequence>
  *         &lt;element name="description" type="{http://www.w3.org/2001/XMLSchema}string" minOccurs="0"/>
- *         &lt;element name="executed" type="{http://www.w3.org/2001/XMLSchema}boolean"/>
- *         &lt;element name="number" type="{http://www.w3.org/2001/XMLSchema}int"/>
+ *         &lt;element name="executed" type="{http://www.w3.org/2001/XMLSchema}boolean" minOccurs="0"/>
+ *         &lt;element name="number" type="{http://www.w3.org/2001/XMLSchema}int" minOccurs="0"/>
  *         &lt;element name="oid" type="{http://www.w3.org/2001/XMLSchema}long"/>
  *       &lt;/sequence>
  *     &lt;/restriction>
@@ -38,8 +38,8 @@ import javax.xml.bind.annotation.XmlType;
 public class SMigration {
 
     protected String description;
-    protected boolean executed;
-    protected int number;
+    protected Boolean executed;
+    protected Integer number;
     protected long oid;
 
     /**
@@ -69,32 +69,48 @@ public class SMigration {
     /**
      * Gets the value of the executed property.
      * 
+     * @return
+     *     possible object is
+     *     {@link Boolean }
+     *     
      */
-    public boolean isExecuted() {
+    public Boolean isExecuted() {
         return executed;
     }
 
     /**
      * Sets the value of the executed property.
      * 
+     * @param value
+     *     allowed object is
+     *     {@link Boolean }
+     *     
      */
-    public void setExecuted(boolean value) {
+    public void setExecuted(Boolean value) {
         this.executed = value;
     }
 
     /**
      * Gets the value of the number property.
      * 
+     * @return
+     *     possible object is
+     *     {@link Integer }
+     *     
      */
-    public int getNumber() {
+    public Integer getNumber() {
         return number;
     }
 
     /**
      * Sets the value of the number property.
      * 
+     * @param value
+     *     allowed object is
+     *     {@link Integer }
+     *     
      */
-    public void setNumber(int value) {
+    public void setNumber(Integer value) {
         this.number = value;
     }
 
