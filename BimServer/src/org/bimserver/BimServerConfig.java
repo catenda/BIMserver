@@ -23,6 +23,7 @@ import org.bimserver.plugins.ResourceFetcher;
 
 public class BimServerConfig {
 	private boolean startEmbeddedWebServer;
+	private boolean enableFileLogging = true;
 	private File homeDir;
 	private ResourceFetcher resourceFetcher;
 	private String classPath;
@@ -35,6 +36,14 @@ public class BimServerConfig {
 
 	public void setStartEmbeddedWebServer(boolean startEmbeddedWebServer) {
 		this.startEmbeddedWebServer = startEmbeddedWebServer;
+	}
+
+	public boolean isEnableFileLogging() {
+		return enableFileLogging;
+	}
+
+	public void setEnableFileLogging(boolean enableFileLogging) {
+		this.enableFileLogging = enableFileLogging;
 	}
 
 	public ResourceFetcher getResourceFetcher() {

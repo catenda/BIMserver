@@ -140,7 +140,9 @@ public class BimServer {
 				initHomeDir();
 			}
 
-			fixLogging();
+			if (config.isEnableFileLogging()) {
+				enableFileLogging();
+			}
 			
 			LOGGER = LoggerFactory.getLogger(BimServer.class);
 
@@ -473,7 +475,7 @@ public class BimServer {
 		return longActionManager;
 	}
 
-	private void fixLogging() throws IOException {
+	private void enableFileLogging() throws IOException {
 		File file = new File(config.getHomeDir(), "logs/bimserver.log");
 		CustomFileAppender appender = new CustomFileAppender(file);
 		System.out.println("Logging to: " + file.getAbsolutePath());
