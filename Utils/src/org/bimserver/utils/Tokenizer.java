@@ -79,11 +79,18 @@ public class Tokenizer {
 		}
 		int add = toString.indexOf("'");
 		int endIndex = trimmed.indexOf("'", 1);
+		while (endIndex != -1 && trimmed.length() > endIndex + 1) {
+			if (trimmed.charAt(endIndex + 1) == '\'') {
+				endIndex = trimmed.indexOf("'", endIndex + 2);
+			} else {
+				throw new TokenizeException("Unescaped \"'\" found in " + trimmed);
+			}
+		}
 		if (endIndex == -1) {
 			throw new TokenizeException("No closing \"'\" found in " + trimmed);
 		}
 		this.leftPositionInclude += endIndex + add + 1;
-		return trimmed.substring(1, endIndex);
+		return trimmed.substring(1, endIndex).replace("''", "'");
 	}
 
 	public void shouldBeFinished() throws TokenizeException {
