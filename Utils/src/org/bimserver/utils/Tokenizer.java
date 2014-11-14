@@ -74,23 +74,29 @@ public class Tokenizer {
 	public String readSingleQuoted() throws TokenizeException {
 		String toString = toString();
 		String trimmed = toString.trim();
+		
 		if (!trimmed.startsWith("'")) {
 			throw new TokenizeException("No opening \"'\" found in " + trimmed);
 		}
-		int add = toString.indexOf("'");
-		int endIndex = trimmed.indexOf("'", 1);
-		while (endIndex != -1 && trimmed.length() > endIndex + 1) {
-			if (trimmed.charAt(endIndex + 1) == '\'') {
-				endIndex = trimmed.indexOf("'", endIndex + 2);
+		int leftIndex = toString.indexOf("'");
+		int rightIndex = -1;
+		StringBuilder sb = new StringBuilder();
+		
+		while (true) {
+			rightIndex = toString.indexOf("'", leftIndex + 1);
+			if (rightIndex == -1) {
+				throw new TokenizeException("No closing \"'\" found in " + trimmed);
+			}
+			sb.append(toString.substring(leftIndex + 1, rightIndex));
+			if (rightIndex + 1 < toString.length() && toString.charAt(rightIndex + 1) == '\'') {
+				sb.append("'");
+				leftIndex = rightIndex + 1;
 			} else {
-				throw new TokenizeException("Unescaped \"'\" found in " + trimmed);
+				break;
 			}
 		}
-		if (endIndex == -1) {
-			throw new TokenizeException("No closing \"'\" found in " + trimmed);
-		}
-		this.leftPositionInclude += endIndex + add + 1;
-		return trimmed.substring(1, endIndex).replace("''", "'");
+		this.leftPositionInclude += rightIndex + 1;
+		return sb.toString();
 	}
 
 	public void shouldBeFinished() throws TokenizeException {
