@@ -35,19 +35,25 @@ public class Tokenizer {
 		if (!trimmed.startsWith(startChar)) {
 			throw new TokenizeException("No " + startChar + " found in " + input.substring(leftPositionInclude, rightPositionInclude));
 		}
+		String specialChar = "'";
 		int leftIndex = input.indexOf(startChar, leftPositionInclude);
 		int rightIndex = -1;
 		int depth = 0;
+		int altDepth = 0;
 		for (int i=leftIndex + 1; i<=rightPositionInclude; i++) {
 			String c = input.substring(i, i + endChar.length());
 			if (c.equals(endChar)) {
-				if (depth == 0) {
+				if (depth == 0 && altDepth == 0) {
 					rightIndex = i;
 					break;
 				} else {
-					depth--;
+					if (altDepth == 0) {
+						depth--;
+					}
 				}
-			} else if (c.equals(startChar)) {
+			} else if (c.equals(specialChar)) {
+				altDepth = 1 - altDepth;
+			} else if (c.equals(startChar) && altDepth == 0) {
 				depth++;
 			}
 		}
