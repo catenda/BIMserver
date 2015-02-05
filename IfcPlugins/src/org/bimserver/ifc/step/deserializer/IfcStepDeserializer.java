@@ -293,7 +293,11 @@ public class IfcStepDeserializer extends EmfDeserializer {
 				Tokenizer tokenizer = new Tokenizer(line.substring(line.indexOf("(")));
 				tokenizer.zoomIn("(", ")");
 				filterComments(tokenizer);
-				ifcHeader.setFilename(tokenizer.readSingleQuoted());
+				if (tokenizer.nextIsDollar()) {
+					ifcHeader.setFilename("");
+				} else {
+					ifcHeader.setFilename(tokenizer.readSingleQuoted());
+				}
 				SimpleDateFormat dateFormatter = new SimpleDateFormat("yyyy-MM-dd'T'kk:mm:ss");
 				tokenizer.readComma();
 				filterComments(tokenizer);
