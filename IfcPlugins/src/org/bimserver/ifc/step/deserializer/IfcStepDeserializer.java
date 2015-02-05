@@ -294,6 +294,7 @@ public class IfcStepDeserializer extends EmfDeserializer {
 				tokenizer.zoomIn("(", ")");
 				filterComments(tokenizer);
 				if (tokenizer.nextIsDollar()) {
+					tokenizer.readDollar();
 					ifcHeader.setFilename("");
 				} else {
 					ifcHeader.setFilename(tokenizer.readSingleQuoted());
