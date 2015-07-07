@@ -275,6 +275,7 @@ public class IfcStepDeserializer extends EmfDeserializer {
 			if (line.startsWith("FILE_DESCRIPTION")) {
 				Tokenizer tokenizer = new Tokenizer(line.substring(line.indexOf("(")));
 				tokenizer.zoomIn("(", ")");
+				filterComments(tokenizer);
 				tokenizer.zoomIn("(", ")");
 				filterComments(tokenizer);
 				while (!tokenizer.isEmpty()) {
