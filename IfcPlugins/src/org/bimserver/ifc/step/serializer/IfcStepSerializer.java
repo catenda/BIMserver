@@ -53,6 +53,8 @@ import org.eclipse.emf.ecore.EcorePackage;
 import org.slf4j.LoggerFactory;
 
 import com.google.common.base.Charsets;
+import com.google.common.base.Function;
+import com.google.common.collect.Lists;
 
 public class IfcStepSerializer extends IfcSerializer {
 	private static final org.slf4j.Logger LOGGER = LoggerFactory.getLogger(IfcStepSerializer.class);
@@ -130,7 +132,7 @@ public class IfcStepSerializer extends IfcSerializer {
 		out.println("END-ISO-10303-21;");
 	}
 
-	private void writeHeader(UTF8PrintWriter out) {
+	private void writeHeader(UTF8PrintWriter out) throws SerializerException {
 		SimpleDateFormat dateFormatter = new SimpleDateFormat("yyyy-MM-dd'T'HH:mm:ss");
 		out.println("ISO-10303-21;");
 		out.println("HEADER;");
@@ -141,10 +143,9 @@ public class IfcStepSerializer extends IfcSerializer {
 			out.println("FILE_NAME ('', '" + dateFormatter.format(date) + "', (''), (''), '', 'BIMserver', '');");
 			out.println("FILE_SCHEMA (('IFC2X3'));");
 		} else {
-			out.print("FILE_DESCRIPTION ((");
-			out.print(StringUtils.concat(ifcHeader.getDescription(), "'", ", "));
-			out.println("), '" + ifcHeader.getImplementationLevel() + "');");
-			out.println("FILE_NAME ('" + ifcHeader.getFilename() + "', '" + dateFormatter.format(ifcHeader.getTimeStamp()) + "', (" + StringUtils.concat(ifcHeader.getAuthor(), "'", ", ") + "), (" + StringUtils.concat(ifcHeader.getOrganization(), "'", ", ") + "), '" + ifcHeader.getPreProcessorVersion() + "', '" + ifcHeader.getOriginatingSystem() + "', '"	+ ifcHeader.getAuthorization() + "');");
+			out.print("FILE_DESCRIPTION ((");out.print(StringUtils.concat(encodeStringList(ifcHeader.getDescription()), "'", ", "));
+			out.println("), '" + encodeString(ifcHeader.getImplementationLevel()) + "');");
+			out.println("FILE_NAME ('" + encodeString(ifcHeader.getFilename()) + "', '" + dateFormatter.format(ifcHeader.getTimeStamp()) + "', (" + StringUtils.concat(encodeStringList(ifcHeader.getAuthor()), "'", ", ") + "), (" + StringUtils.concat(encodeStringList(ifcHeader.getOrganization()), "'", ", ") + "), '" + encodeString(ifcHeader.getPreProcessorVersion()) + "', '" + encodeString(ifcHeader.getOriginatingSystem()) + "', '"	+ encodeString(ifcHeader.getAuthorization()) + "');");
 
 			// TODO For now forcing IFC2x3, maybe make this a setting?
 			//	out.println("FILE_SCHEMA (('" + ifcHeader.getIfcSchemaVersion() + "'));");
@@ -187,54 +188,8 @@ public class IfcStepSerializer extends IfcSerializer {
 			}
 		} else if (val instanceof String) {
 			out.print(SINGLE_QUOTE);
-			String stringVal = (String)val;
-			for (int i=0; i<stringVal.length(); i++) {
-				char c = stringVal.charAt(i);
-				if (c == '\'') {
-					out.print("\'\'");
-				} else if (c == '\\') {
-					out.print("\\\\");
-				} else if (c >= 32 && c <= 126) {
-					// ISO 8859-1
-					out.print(c);
-				} else if (c < 255) {
-					//  ISO 10646 and ISO 8859-1 are the same < 255 , using ISO_8859_1
-					out.write("\\X\\" + new String(Hex.encode(Charsets.ISO_8859_1.encode(CharBuffer.wrap(new char[]{(char) c})).array()), Charsets.UTF_8).toUpperCase());
-				} else {
-					if (useIso8859_1) {
-						// ISO 8859-1 with -128 offset
-						ByteBuffer encode = Charsets.ISO_8859_1.encode(new String(new char[]{(char) (c - 128)}));
-						out.write("\\S\\" + (char)encode.get());
-					} else {
-						// The following code has not been tested (2012-04-25)
-						// Use UCS-2 or UCS-4
-						
-						// TODO when multiple sequential characters should be encoded in UCS-2 or UCS-4, we don't really need to add all those \X0\ \X2\ and \X4\ chars
-						if (Character.isLowSurrogate(c)) {
-							throw new SerializerException("Unexpected low surrogate range char");
-						} else if (Character.isHighSurrogate(c)) {
-							// We need UCS-4, this is probably never happening
-							if (i + 1 < stringVal.length()) {
-								char low = stringVal.charAt(i + 1);
-								if (!Character.isLowSurrogate(low)) {
-									throw new SerializerException("High surrogate char should be followed by char in low surrogate range");
-								}
-								try {
-									out.write("\\X4\\" + new String(Hex.encode(Charset.forName("UTF-32").encode(new String(new char[]{c, low})).array()), Charsets.UTF_8).toUpperCase() + "\\X0\\");
-								} catch (UnsupportedCharsetException e) {
-									throw new SerializerException(e);
-								}
-								i++;
-							} else {
-								throw new SerializerException("High surrogate char should be followed by char in low surrogate range, but end of string reached");
-							}
-						} else {
-							// UCS-2 will do
-							out.write("\\X2\\" + new String(Hex.encode(Charsets.UTF_16BE.encode(CharBuffer.wrap(new char[]{c})).array()), Charsets.UTF_8).toUpperCase() + "\\X0\\");
-						}
-					}
-				}
-			}
+			String string = encodeString((String)val);
+			out.write(string);
 			out.print(SINGLE_QUOTE);
 		} else if (val instanceof Enumerator) {
 			out.print("." + val + ".");
@@ -569,5 +524,69 @@ public class IfcStepSerializer extends IfcSerializer {
 				}
 			}
 		}
+	}
+
+	private static String encodeString(String string) throws SerializerException {
+		StringBuilder sb = new StringBuilder();
+		for (int i=0; i<string.length(); i++) {
+			char c = string.charAt(i);
+			if (c == '\'') {
+				sb.append("\'\'");
+			} else if (c == '\\') {
+				sb.append("\\\\");
+			} else if (c >= 32 && c <= 126) {
+				// ISO 8859-1
+				sb.append(c);
+			} else if (c < 255) {
+				//  ISO 10646 and ISO 8859-1 are the same < 255 , using ISO_8859_1
+				sb.append("\\X\\" + new String(Hex.encode(Charsets.ISO_8859_1.encode(CharBuffer.wrap(new char[]{(char) c})).array()), Charsets.UTF_8).toUpperCase());
+			} else {
+				if (useIso8859_1) {
+					// ISO 8859-1 with -128 offset
+					ByteBuffer encode = Charsets.ISO_8859_1.encode(new String(new char[]{(char) (c - 128)}));
+					sb.append("\\S\\" + (char)encode.get());
+				} else {
+					// The following code has not been tested (2012-04-25)
+					// Use UCS-2 or UCS-4
+					
+					// TODO when multiple sequential characters should be encoded in UCS-2 or UCS-4, we don't really need to add all those \X0\ \X2\ and \X4\ chars
+					if (Character.isLowSurrogate(c)) {
+						throw new SerializerException("Unexpected low surrogate range char");
+					} else if (Character.isHighSurrogate(c)) {
+						// We need UCS-4, this is probably never happening
+						if (i + 1 < string.length()) {
+							char low = string.charAt(i + 1);
+							if (!Character.isLowSurrogate(low)) {
+								throw new SerializerException("High surrogate char should be followed by char in low surrogate range");
+							}
+							try {
+								sb.append("\\X4\\" + new String(Hex.encode(Charset.forName("UTF-32").encode(new String(new char[]{c, low})).array()), Charsets.UTF_8).toUpperCase() + "\\X0\\");
+							} catch (UnsupportedCharsetException e) {
+								throw new SerializerException(e);
+							}
+							i++;
+						} else {
+							throw new SerializerException("High surrogate char should be followed by char in low surrogate range, but end of string reached");
+						}
+					} else {
+						// UCS-2 will do
+						sb.append("\\X2\\" + new String(Hex.encode(Charsets.UTF_16BE.encode(CharBuffer.wrap(new char[]{c})).array()), Charsets.UTF_8).toUpperCase() + "\\X0\\");
+					}
+				}
+			}
+		}
+		return sb.toString();
+	}
+
+	private static List<String> encodeStringList(List<String> list) {
+		return Lists.transform(list, new Function<String, String>() {
+			public String apply(String string) {
+				try {
+					return encodeString(string);
+				} catch (SerializerException e) {
+					throw new RuntimeException(e);
+				}
+			}
+		});
 	}
 }
