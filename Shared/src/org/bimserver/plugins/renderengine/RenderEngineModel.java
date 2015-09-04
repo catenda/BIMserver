@@ -35,6 +35,6 @@ public interface RenderEngineModel {
 	void close() throws RenderEngineException;
 	Set<RenderEngineClash> findClashesWithEids(double d) throws RenderEngineException;
 	Set<RenderEngineClash> findClashesWithGuids(double d) throws RenderEngineException;
-	RenderEngineInstance getInstanceFromExpressId(int oid) throws RenderEngineException;
+	RenderEngineInstance getInstanceFromExpressId(long oid) throws RenderEngineException;
 	void setSettings(RenderEngineSettings settings) throws RenderEngineException;
 }

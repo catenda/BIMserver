@@ -29,7 +29,7 @@
 	</target>
 	<target name="Tests">
 		<mkdir dir="builds/tests" />
-		<javac destdir="builds/tests" debug="on" includeantruntime="false">
+		<javac destdir="builds/tests" debug="on" includeantruntime="false" target="1.6" source="1.6">
 			<src path="../../Tests/src" />
 			<src path="../../Tests/test" />
 			<classpath>
@@ -49,7 +49,7 @@
 	</target>
 	<target name="BimServer">
 		<mkdir dir="builds/bimserver" />
-		<javac destdir="builds/bimserver" debug="on" includeantruntime="false">
+		<javac destdir="builds/bimserver" debug="on" includeantruntime="false" target="1.6" source="1.6">
 			<src path="../../BimServer/src" />
 			<src path="../../BimServer/generated" />
 			<classpath>
@@ -69,7 +69,7 @@
 	</target>
 	<target name="BimServerClientLib">
 		<mkdir dir="builds/bimserverclientlib" />
-		<javac destdir="builds/bimserverclientlib" debug="on" fork="false" includeantruntime="false">
+		<javac destdir="builds/bimserverclientlib" debug="on" fork="false" includeantruntime="false" target="1.6" source="1.6">
 			<src path="../../BimServerClientLib/src" />
 			<classpath>
 				<path>
@@ -90,7 +90,7 @@
 	</target>
 	<target name="Utils">
 		<mkdir dir="builds/utils" />
-		<javac destdir="builds/utils" debug="on" fork="false" includeantruntime="false">
+		<javac destdir="builds/utils" debug="on" fork="false" includeantruntime="false" target="1.6" source="1.6">
 			<src path="../../Utils/src" />
 			<classpath>
 				<path>
@@ -105,7 +105,7 @@
 	</target>
 	<target name="FileBasedObjectIDM">
 		<mkdir dir="builds/filebasedobjectidm" />
-		<javac destdir="builds/filebasedobjectidm" debug="on" fork="false" includeantruntime="false">
+		<javac destdir="builds/filebasedobjectidm" debug="on" fork="false" includeantruntime="false" target="1.6" source="1.6">
 			<src path="../../FileBasedObjectIDM/src" />
 			<classpath>
 				<path>
@@ -129,7 +129,7 @@
 	</target>
 	<target name="buildingSMARTLibrary">
 		<mkdir dir="builds/buildingSMARTLibrary" />
-		<javac destdir="builds/buildingSMARTLibrary" debug="on" includeantruntime="false">
+		<javac destdir="builds/buildingSMARTLibrary" debug="on" includeantruntime="false" target="1.6" source="1.6">
 			<src path="../../buildingSMARTLibrary/src" />
 			<classpath>
 				<path>
@@ -152,7 +152,7 @@
 	</target>
 	<target name="IfcEngine">
 		<mkdir dir="builds/ifcengine" />
-		<javac destdir="builds/ifcengine" debug="on" includeantruntime="false">
+		<javac destdir="builds/ifcengine" debug="on" includeantruntime="false" target="1.6" source="1.6">
 			<src path="../../IfcEngine/src" />
 			<classpath>
 				<path>
@@ -174,7 +174,7 @@
 	</target>
 	<target name="IfcPlugins">
 		<mkdir dir="builds/ifcplugins" />
-		<javac destdir="builds/ifcplugins" debug="on" includeantruntime="false">
+		<javac destdir="builds/ifcplugins" debug="on" includeantruntime="false" target="1.6" source="1.6">
 			<src path="../../IfcPlugins/src" />
 			<classpath>
 				<path>
@@ -193,7 +193,7 @@
 	</target>
 	<target name="JavaQueryEngine">
 		<mkdir dir="builds/javaqueryengine" />
-		<javac destdir="builds/javaqueryengine" debug="on" includeantruntime="false">
+		<javac destdir="builds/javaqueryengine" debug="on" includeantruntime="false" target="1.6" source="1.6">
 			<src path="../../JavaQueryEngine/src" />
 			<classpath>
 				<path>
@@ -212,7 +212,7 @@
 	</target>
 	<target name="Mergers">
 		<mkdir dir="builds/mergers" />
-		<javac destdir="builds/mergers" debug="on" includeantruntime="false">
+		<javac destdir="builds/mergers" debug="on" includeantruntime="false" target="1.6" source="1.6">
 			<src path="../../Mergers/src" />
 			<classpath>
 				<path>
@@ -231,7 +231,7 @@
 	</target>
 	<target name="MiscSerializers">
 		<mkdir dir="builds/miscserializers" />
-		<javac destdir="builds/miscserializers" debug="on" includeantruntime="false">
+		<javac destdir="builds/miscserializers" debug="on" includeantruntime="false" target="1.6" source="1.6">
 			<src path="../../MiscSerializers/src" />
 			<classpath>
 				<path>
@@ -250,7 +250,7 @@
 	</target>
 	<target name="XsltSerializer">
 		<mkdir dir="builds/xsltserializer" />
-		<javac destdir="builds/xsltserializer" debug="on" includeantruntime="false">
+		<javac destdir="builds/xsltserializer" debug="on" includeantruntime="false" target="1.6" source="1.6">
 			<src path="../../XsltSerializer/src" />
 			<classpath>
 				<path>
@@ -265,7 +265,7 @@
 	</target>
 	<target name="Collada">
 		<mkdir dir="builds/collada" />
-		<javac destdir="builds/collada" debug="on" includeantruntime="false">
+		<javac destdir="builds/collada" debug="on" includeantruntime="false" target="1.6" source="1.6">
 			<src path="../../Collada/src" />
 			<classpath>
 				<path>
@@ -284,7 +284,7 @@
 	</target>
 	<target name="SceneJS">
 		<mkdir dir="builds/scenejs" />
-		<javac destdir="builds/scenejs" debug="on" includeantruntime="false">
+		<javac destdir="builds/scenejs" debug="on" includeantruntime="false" target="1.6" source="1.6">
 			<src path="../../SceneJS/src" />
 			<classpath>
 				<path>
@@ -303,7 +303,7 @@
 	</target>
 	<target name="CityGML">
 		<mkdir dir="builds/citygml" />
-		<javac destdir="builds/citygml" debug="on" includeantruntime="false">
+		<javac destdir="builds/citygml" debug="on" includeantruntime="false" target="1.6" source="1.6">
 			<src path="../../CityGML/src" />
 			<src path="../../CityGML/generated" />
 			<classpath>
@@ -330,7 +330,7 @@
 	</target>
 	<target name="Ifc">
 		<mkdir dir="builds/ifc" />
-		<javac destdir="builds/ifc" debug="on" includeantruntime="false">
+		<javac destdir="builds/ifc" debug="on" includeantruntime="false" target="1.6" source="1.6">
 			<src path="../../Ifc/src" />
 			<classpath>
 				<path>
@@ -345,7 +345,7 @@
 	</target>
 	<target name="Shared">
 		<mkdir dir="builds/shared" />
-		<javac destdir="builds/shared" debug="on" includeantruntime="false">
+		<javac destdir="builds/shared" debug="on" includeantruntime="false" target="1.6" source="1.6">
 			<src path="../../Shared/src" />
 			<src path="../../Shared/generated" />
 			<classpath>

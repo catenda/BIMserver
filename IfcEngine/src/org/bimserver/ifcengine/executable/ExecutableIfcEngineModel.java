@@ -181,11 +181,11 @@ public class ExecutableIfcEngineModel implements RenderEngineModel {
 	}
 
 	@Override
-	public RenderEngineInstance getInstanceFromExpressId(int oid) throws RenderEngineException {
+	public RenderEngineInstance getInstanceFromExpressId(long oid) throws RenderEngineException {
 		synchronized (ifcEngine) {
 			ifcEngine.writeCommand(Command.GET_INSTANCE_FROM_EXPRESSID);
 			ifcEngine.writeInt(modelId);
-			ifcEngine.writeInt(oid);
+			ifcEngine.writeLong(oid);
 			ifcEngine.flush();
 			return new ExecutableIfcEngineInstance(ifcEngine, modelId, ifcEngine.readInt());
 		}

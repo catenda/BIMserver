@@ -42,7 +42,7 @@ public abstract class EmfSerializer implements Serializer {
 	private PluginManager pluginManager;
 	private RenderEnginePlugin renderEnginePlugin;
 	private boolean normalizeOids;
-	private int expressIdCounter = 1;
+	private long expressIdCounter = 1;
 
 	protected static enum Mode {
 		HEADER, BODY, FOOTER, FINISHED
@@ -77,7 +77,7 @@ public abstract class EmfSerializer implements Serializer {
 		this.mode = mode;
 	}
 
-	protected int getExpressId(IdEObject object) {
+	protected long getExpressId(IdEObject object) {
 		if (normalizeOids && object.getExpressId() == -1) {
 			((IdEObjectImpl)object).setExpressId(expressIdCounter ++);
 		}

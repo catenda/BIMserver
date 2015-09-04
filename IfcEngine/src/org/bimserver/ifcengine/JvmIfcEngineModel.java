@@ -161,11 +161,11 @@ public class JvmIfcEngineModel implements RenderEngineModel {
 	}
 
 	@Override
-	public RenderEngineInstance getInstanceFromExpressId(int oid) throws RenderEngineException {
+	public RenderEngineInstance getInstanceFromExpressId(long oid) throws RenderEngineException {
 		synchronized (failSafeIfcEngine) {
 			failSafeIfcEngine.writeCommand(Command.GET_INSTANCE_FROM_EXPRESSID);
 			failSafeIfcEngine.writeInt(modelId);
-			failSafeIfcEngine.writeInt(oid);
+			failSafeIfcEngine.writeLong(oid);
 			failSafeIfcEngine.flush();
 			int instanceId = failSafeIfcEngine.readInt();
 			if (instanceId == -1) {

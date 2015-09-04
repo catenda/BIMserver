@@ -100,7 +100,7 @@ public class IfcStepDeserializer extends EmfDeserializer {
 	 * for derived primitive types and enums that are used in a "select"
 	 */
 
-	private final WaitingList<Integer> waitingList = new WaitingList<Integer>();
+	private final WaitingList<Long> waitingList = new WaitingList<Long>();
 	private SchemaDefinition schema;
 	private Mode mode = Mode.HEADER;
 	private IfcModelInterface model;
@@ -366,7 +366,7 @@ public class IfcStepDeserializer extends EmfDeserializer {
 		if (indexOfLastParen == -1) {
 			throw new DeserializeException("No right parenthesis found in line");
 		}
-		int recordNumber = Integer.parseInt(line.substring(1, equalSignLocation).trim());
+		long recordNumber = Long.parseLong(line.substring(1, equalSignLocation).trim());
 		String name = line.substring(equalSignLocation + 1, indexOfFirstParen).trim();
 		EClass classifier = (EClass) classes.get(name);
 		if (classifier != null) {
@@ -467,7 +467,7 @@ public class IfcStepDeserializer extends EmfDeserializer {
 			lastIndex = nextIndex;
 			if (stringValue.length() > 0) {
 				if (stringValue.charAt(0) == '#') {
-					Integer referenceId = Integer.parseInt(stringValue.substring(1));
+					Long referenceId = Long.parseLong(stringValue.substring(1));
 					if (model.contains(referenceId)) {
 						EObject referencedObject = model.get(referenceId);
 						if (referencedObject != null) {
@@ -752,9 +752,9 @@ public class IfcStepDeserializer extends EmfDeserializer {
 	}
 
 	private void readReference(String val, EObject object, EStructuralFeature structuralFeature) throws DeserializeException {
-		int referenceId;
+		long referenceId;
 		try {
-			referenceId = Integer.parseInt(val.substring(1));
+			referenceId = Long.parseLong(val.substring(1));
 		} catch (NumberFormatException e) {
 			throw new DeserializeException("'" + val + "' is not a valid reference");
 		}

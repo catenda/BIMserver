@@ -204,7 +204,7 @@ public class IfcStepSerializer extends IfcSerializer {
 			return;
 		}
 		out.print(DASH);
-		int convertedKey = getExpressId(object);
+		long convertedKey = getExpressId(object);
 		if (convertedKey == -1) {
 			throw new SerializerException("Going to serialize an object with id -1 (" + object.eClass().getName() + ")");
 		}

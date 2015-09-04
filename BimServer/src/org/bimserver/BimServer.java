@@ -195,7 +195,9 @@ public class BimServer {
 				initHomeDir();
 			}
 
-			fixLogging();
+			if (config.isEnableFileLogging()) {
+				fixLogging();
+			}
 			UncaughtExceptionHandler uncaughtExceptionHandler = new UncaughtExceptionHandler() {
 				@Override
 				public void uncaughtException(Thread t, Throwable e) {
@@ -445,11 +447,13 @@ public class BimServer {
 				session.close();
 			}
 			
-			try {
-				protocolBuffersServer = new ProtocolBuffersServer(protocolBuffersMetaData, serviceFactory, servicesMap, config.getInitialProtocolBuffersPort());
-				protocolBuffersServer.start();
-			} catch (Exception e) {
-				LOGGER.error("", e);
+			if (config.isStartProtocolBuffersServer()) {
+				try {
+					protocolBuffersServer = new ProtocolBuffersServer(protocolBuffersMetaData, serviceFactory, servicesMap, config.getInitialProtocolBuffersPort());
+					protocolBuffersServer.start();
+				} catch (Exception e) {
+					LOGGER.error("", e);
+				}
 			}
 
 			if (config.isStartEmbeddedWebServer()) {
