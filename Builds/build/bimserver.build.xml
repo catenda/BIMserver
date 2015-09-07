@@ -50,7 +50,7 @@
 			<fileset dir="../plugins" />
 		</copy>
 		<delete dir="builds/BuildJar/classes" />
-		<javac destdir="builds/BuildJar" debug="on" srcdir="../../BimServer/starter"  includeantruntime="false"/>
+		<javac destdir="builds/BuildJar" debug="on" srcdir="../../BimServer/starter"  includeantruntime="false" target="1.6" source="1.6"/>
 		<copy todir="builds/BuildJar/org/bimserver/starter">
 			<fileset dir="../../BimServer/starter/org/bimserver/starter">
 				<include name="*.png" />

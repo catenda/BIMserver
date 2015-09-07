@@ -791,7 +791,7 @@ public class IfcModel implements IfcModelInterface {
 	
 	@Override
 	public void generateMinimalExpressIds() {
-		int expressId = 1;
+		long expressId = 1;
 		Iterator<IdEObject> iterateAllObjects = iterateAllObjects();
 		while (iterateAllObjects.hasNext()) {
 			IdEObject idEObject = iterateAllObjects.next();

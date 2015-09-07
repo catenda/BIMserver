@@ -23,6 +23,7 @@ import org.bimserver.plugins.ResourceFetcher;
 
 public class BimServerConfig {
 	private boolean startEmbeddedWebServer;
+	private boolean startProtocolBuffersServer = true;
 	private File homeDir;
 	private ResourceFetcher resourceFetcher;
 	private String classPath;
@@ -30,6 +31,7 @@ public class BimServerConfig {
 	private boolean startCommandLine = false;
 	private int initialProtocolBuffersPort = 8020;
 	private boolean localDev;
+	private boolean enableFileLogging = true;
 	
 	public boolean isStartEmbeddedWebServer() {
 		return startEmbeddedWebServer;
@@ -93,5 +95,21 @@ public class BimServerConfig {
 
 	public void setLocalDev(boolean localDev) {
 		this.localDev = localDev;
+	}
+
+	public boolean isStartProtocolBuffersServer() {
+		return startProtocolBuffersServer;
+	}
+
+	public void setStartProtocolBuffersServer(boolean startProtocolBuffersServer) {
+		this.startProtocolBuffersServer = startProtocolBuffersServer;
+	}
+
+	public boolean isEnableFileLogging() {
+		return enableFileLogging;
+	}
+
+	public void setEnableFileLogging(boolean enableFileLogging) {
+		this.enableFileLogging = enableFileLogging;
 	}
 }

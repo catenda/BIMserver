@@ -134,15 +134,23 @@ public class ExecutableIfcEngine implements RenderEngine {
 	public void init() throws RenderEngineException {
 	}
 
-	public void writeInt(int modelId) throws RenderEngineException {
+	public void writeInt(int value) throws RenderEngineException {
 		try {
-			outputStream.writeInt(modelId);
+			outputStream.writeInt(value);
 		} catch (IOException e) {
 			throw new RenderEngineException(e);
 		}
 	}
 
-	public String readString() throws RenderEngineException {
+    public void writeLong(long value) throws RenderEngineException {
+        try {
+            outputStream.writeLong(value);
+        } catch (IOException e) {
+            throw new RenderEngineException(e);
+        }
+    }
+
+    public String readString() throws RenderEngineException {
 		try {
 			return inputStream.readUTF();
 		} catch (IOException e) {

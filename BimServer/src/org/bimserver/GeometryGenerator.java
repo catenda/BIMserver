@@ -84,9 +84,9 @@ public class GeometryGenerator {
 	}
 
 	public static class GeometryCache {
-		private final Map<Integer, GeometryCacheEntry> cache = new HashMap<Integer, GeometryCacheEntry>();
+		private final Map<Long, GeometryCacheEntry> cache = new HashMap<Long, GeometryCacheEntry>();
 
-		public void put(int expressId, GeometryCacheEntry geometryCacheEntry) {
+		public void put(long expressId, GeometryCacheEntry geometryCacheEntry) {
 			cache.put(expressId, geometryCacheEntry);
 		}
 
@@ -94,7 +94,7 @@ public class GeometryGenerator {
 			return cache.isEmpty();
 		}
 
-		public GeometryCacheEntry get(int expressId) {
+		public GeometryCacheEntry get(long expressId) {
 			return cache.get(expressId);
 		}
 	}
