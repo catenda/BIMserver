@@ -142,6 +142,12 @@ public class LongDownloadAction extends LongDownloadOrCheckoutAction implements 
 	
 	@Override
 	protected void done() {
+		// Close session before releasing latch
+		if (session != null) {
+			session.close();
+			session = null;
+		}
+
 		super.done();
 		// This is very important! The LongDownloadAction will probably live another 30 minutes 
 		// before it will be cleaned up (this is useful for clients asking for the progress/status of this download)

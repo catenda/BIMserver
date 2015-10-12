@@ -326,20 +326,24 @@ public class DownloadParameters extends LongActionKey {
 			return getRoidsString() + "-" + classNames;
 		case DOWNLOAD_PROJECTS:
 			DatabaseSession session = bimServer.getDatabase().createSession();
-			StringBuilder fileName = new StringBuilder();
-			for (long roid : roids) {
-				Revision revision;
-				try {
-					revision = session.get(session.getEClassForName("store", "Revision"), roid, Query.getDefault());
-					for (ConcreteRevision concreteRevision : revision.getConcreteRevisions()) {
-						fileName.append(concreteRevision.getProject().getName() + "-");
+			try {
+				StringBuilder fileName = new StringBuilder();
+				for (long roid : roids) {
+					Revision revision;
+					try {
+						revision = session.get(session.getEClassForName("store", "Revision"), roid, Query.getDefault());
+						for (ConcreteRevision concreteRevision : revision.getConcreteRevisions()) {
+							fileName.append(concreteRevision.getProject().getName() + "-");
+						}
+					} catch (BimserverDatabaseException e) {
+						e.printStackTrace();
 					}
-				} catch (BimserverDatabaseException e) {
-					e.printStackTrace();
 				}
+				fileName.delete(fileName.length() - 1, fileName.length());
+				return fileName.toString();
+			} finally {
+				session.close();
 			}
-			fileName.delete(fileName.length() - 1, fileName.length());
-			return fileName.toString();
 		case DOWNLOAD_COMPARE:
 			return "compare";
 		case DOWNLOAD_JSON_QUERY:
