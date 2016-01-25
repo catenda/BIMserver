@@ -104,7 +104,7 @@ public class IfcStepSerializer extends IfcSerializer {
 					throw new SerializerException(e);
 			}
 			setMode(Mode.BODY);
-			iterator = model.getValues().iterator();
+			iterator = model.iterator();
 			out.flush();
 			return true;
 		} else if (getMode() == Mode.BODY) {
