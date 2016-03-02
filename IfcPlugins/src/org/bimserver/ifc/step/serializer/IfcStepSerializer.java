@@ -143,8 +143,9 @@ public class IfcStepSerializer extends IfcSerializer {
 			out.println("FILE_NAME ('', '" + dateFormatter.format(date) + "', (''), (''), '', 'BIMserver', '');");
 			out.println("FILE_SCHEMA (('IFC2X3'));");
 		} else {
+			String implementationLevel = ifcHeader.getImplementationLevel() != null ? ifcHeader.getImplementationLevel() : "2;1";
 			out.print("FILE_DESCRIPTION ((");out.print(StringUtils.concat(encodeStringList(ifcHeader.getDescription()), "'", ", "));
-			out.println("), '" + encodeString(ifcHeader.getImplementationLevel()) + "');");
+			out.println("), '" + encodeString(implementationLevel) + "');");
 			out.println("FILE_NAME ('" + encodeString(ifcHeader.getFilename()) + "', '" + dateFormatter.format(ifcHeader.getTimeStamp()) + "', (" + StringUtils.concat(encodeStringList(ifcHeader.getAuthor()), "'", ", ") + "), (" + StringUtils.concat(encodeStringList(ifcHeader.getOrganization()), "'", ", ") + "), '" + encodeString(ifcHeader.getPreProcessorVersion()) + "', '" + encodeString(ifcHeader.getOriginatingSystem()) + "', '"	+ encodeString(ifcHeader.getAuthorization()) + "');");
 
 			// TODO For now forcing IFC2x3, maybe make this a setting?
