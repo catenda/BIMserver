@@ -323,6 +323,15 @@ class StepTokenizer {
 				} else {
 					break;
 				}
+			} else if (c == '\\') {
+				if (i  + 3 >= dataBuffer.length()) {
+					throw new EOFException();
+				}
+				// Ignore testing for end-of-string in \S control code to
+				// support the character § encoded as \S\'
+				if (dataBuffer.byteAt(i + 1) == 'S' && dataBuffer.byteAt(i + 2) == '\\') {
+					i += 3;
+				}
 			}
 		}
 		tokenBuffer.append((token = token(TOKEN_STRING, dataPosition + 1, i
