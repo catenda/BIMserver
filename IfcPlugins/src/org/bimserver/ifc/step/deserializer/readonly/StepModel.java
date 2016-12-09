@@ -25,7 +25,7 @@ class StepModel implements IfcModelInterface {
 	private StepEStore eStore;
 	private final ModelMetaData modelMetaData = new ModelMetaData();
 
-	public StepModel(StepExchange exchange, SchemaDefinition schema) {
+	public StepModel(StepExchange exchange, SchemaDefinition schema) throws StepParseException {
 		this.eStore = new StepEStore(exchange, schema);
 		this.modelMetaData.setIfcHeader(this.eStore.getIfcHeader());
 	}
@@ -200,7 +200,7 @@ class StepModel implements IfcModelInterface {
 
 	@Override
 	public boolean isUseDoubleStrings() {
-		throw new UnsupportedOperationException();
+	    return false;
 	}
 
 	@Override

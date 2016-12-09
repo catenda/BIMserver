@@ -6,7 +6,7 @@ import java.nio.charset.CharsetDecoder;
 
 import org.apache.geronimo.mail.util.Hex;
 
-class StepStringDecoder {
+public class StepStringDecoder {
 
 	private static CharsetDecoder decoder_ISO_8859_1 = Charset.forName(
 			"ISO-8859-1").newDecoder();
@@ -83,7 +83,7 @@ class StepStringDecoder {
 					break;
 
 				case 'P':
-					decoder = decoder_ISO_8859[bytes[index + 2] - 'A'];
+					decoder = decoderFromAlphabet(bytes[index + 2]);
 					index += 4;
 					break;
 
@@ -160,6 +160,15 @@ class StepStringDecoder {
 			}
 		}
 		return sb.toString();
+	}
+
+	private static CharsetDecoder decoderFromAlphabet(byte c) {
+		int index = c - 'A';
+		if (index >= 0 && index < decoder_ISO_8859.length) {
+			return decoder_ISO_8859[index];
+		} else {
+			throw new RuntimeException("Unknown alphabet \\P" + (char) c);
+		}
 	}
 
 }

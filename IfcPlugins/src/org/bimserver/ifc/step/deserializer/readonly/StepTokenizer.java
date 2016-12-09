@@ -310,7 +310,7 @@ class StepTokenizer {
 		}
 	}
 
-	private void parseString() throws EOFException {
+	private void parseString() throws EOFException, StepParseException {
 		int i = dataPosition + 1;
 		for (;; i++) {
 			if (i >= dataBuffer.length()) {
@@ -334,11 +334,100 @@ class StepTokenizer {
 				}
 			}
 		}
+		validateControlCodes(dataPosition + 1, i - dataPosition - 1);
 		tokenBuffer.append((token = token(TOKEN_STRING, dataPosition + 1, i
 				- dataPosition - 1)));
 	}
 
-	private boolean parseIdentifier() {
+	private void validateControlCodes(int position, int length) throws StepParseException {
+	    int index = position;
+        while (index - position < length) {
+
+            char c = (char) dataBuffer.byteAt(index);
+            switch (c) {
+
+            case '\'':
+
+                switch ((char) dataBuffer.byteAt(index + 1)) {
+
+                case '\'':
+                    index += 2;
+                    break;
+
+                default:
+                    throw new StepParseException("Invalid string");
+
+                }
+
+                break;
+
+            case '\\':
+
+                switch ((char) dataBuffer.byteAt(index + 1)) {
+
+                case '\\':
+                    index += 2;
+                    break;
+
+                case 'S':
+                    if ((char) dataBuffer.byteAt(index + 2) == '\\') {
+                        index += 4;
+                    } else {
+                        index++;
+                    }
+                    break;
+
+                case 'P':
+                    index += 4;
+                    break;
+
+                case 'X':
+                    switch ((char) dataBuffer.byteAt(index + 2)) {
+
+                    case '\\': {
+                        index += 5;
+                    }
+                        break;
+                    case '2': {
+                        if ((char) dataBuffer.byteAt(index + 3) != '\\') {
+                            throw new StepParseException("Expected \\");
+                        }
+                        int i = index + 4;
+                        do {
+                            i += 4;
+                        } while ((char) dataBuffer.byteAt(i) != '\\');
+                        index = i + 4;
+                    }
+                        break;
+                    case '4': {
+                        if ((char) dataBuffer.byteAt(index + 3) != '\\') {
+                            throw new StepParseException("Expected \\");
+                        }
+                        int i = index + 4;
+                        do {
+                            i += 8;
+                        } while ((char) dataBuffer.byteAt(i) != '\\');
+                        index = i + 4;
+                    }
+                        break;
+                    }
+
+                    break;
+
+                default:
+                    throw new StepParseException("Unknown control code \\" + (char) dataBuffer.byteAt(index + 1));
+
+                }
+
+                break;
+            default:
+                index++;
+                break;
+            }
+        }
+    }
+
+    private boolean parseIdentifier() {
 		byte c = dataBuffer.byteAt(dataPosition);
 		if (c >= 'A' && c <= 'Z') {
 			int i = dataPosition + 1;
