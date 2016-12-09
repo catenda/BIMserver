@@ -79,7 +79,7 @@ class StepEStore implements EStore {
 	private int attributeListIndex = -1;
 	private SIfcHeader ifcHeader;
 
-	public StepEStore(StepExchange exchange, SchemaDefinition schema) {
+	public StepEStore(StepExchange exchange, SchemaDefinition schema) throws StepParseException {
 		this.exchange = exchange;
 		this.schema = schema;
 		this.buildIfcHeader();
@@ -175,7 +175,7 @@ class StepEStore implements EStore {
 		}		
 	}
 
-	private void buildIndex() {
+	private void buildIndex() throws StepParseException {
 		instancesPerClass = new HashMap<EClass, List<Integer>>();
 		for (EClass eClass : eClassClassMap.keySet()) {
 			instancesPerClass.put((EClass) eClass, new ArrayList<Integer>());
@@ -187,6 +187,9 @@ class StepEStore implements EStore {
 			instances.put(instance.getInstanceName(), instance.getIndex());
 			String identifier = instance.getIdentifier();
 			EClass eClass = (EClass) eClasses.get(identifier);
+			if (eClass == null) {
+			    throw new StepParseException("Unknown entity: " + identifier);
+			}
 			instancesPerClass.get(eClass).add(instance.getIndex());
 		}
 	}
