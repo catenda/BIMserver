@@ -6,7 +6,7 @@ import java.nio.charset.CharsetDecoder;
 
 import org.apache.geronimo.mail.util.Hex;
 
-class StepStringDecoder {
+public class StepStringDecoder {
 
 	private static CharsetDecoder decoder_ISO_8859_1 = Charset.forName(
 			"ISO-8859-1").newDecoder();
