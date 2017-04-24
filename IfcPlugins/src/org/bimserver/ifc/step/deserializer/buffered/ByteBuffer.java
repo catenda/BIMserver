@@ -1,4 +1,4 @@
-package org.bimserver.ifc.step.deserializer.readonly;
+package org.bimserver.ifc.step.deserializer.buffered;
 
 class ByteBuffer {
 	private ByteBufferPage first = new ByteBufferPage(1 << 20);

@@ -32,8 +32,12 @@
 		<implementationClass>org.bimserver.ifc.compare.GuidBasedModelComparePlugin</implementationClass>
 	</PluginImplementation>
 
-    <PluginImplementation>
-        <interfaceClass>org.bimserver.plugins.deserializers.DeserializerPlugin</interfaceClass>
-        <implementationClass>org.bimserver.ifc.step.deserializer.readonly.IfcStepReadOnlyDeserializerPlugin</implementationClass>
-    </PluginImplementation>
+	<PluginImplementation>
+		<interfaceClass>org.bimserver.plugins.deserializers.DeserializerPlugin</interfaceClass>
+		<implementationClass>org.bimserver.ifc.step.deserializer.buffered.IfcStepReadOnlyDeserializerPlugin</implementationClass>
+	</PluginImplementation>
+	<PluginImplementation>
+		<interfaceClass>org.bimserver.plugins.deserializers.DeserializerPlugin</interfaceClass>
+		<implementationClass>org.bimserver.ifc.step.deserializer.buffered.IfcStepDeserializerPlugin</implementationClass>
+	</PluginImplementation>
 </PluginDescriptor>

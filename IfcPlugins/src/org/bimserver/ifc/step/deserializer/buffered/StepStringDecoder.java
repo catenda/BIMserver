@@ -1,4 +1,4 @@
-package org.bimserver.ifc.step.deserializer.readonly;
+package org.bimserver.ifc.step.deserializer.buffered;
 
 import java.nio.charset.CharacterCodingException;
 import java.nio.charset.Charset;

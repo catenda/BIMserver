@@ -1,4 +1,4 @@
-package org.bimserver.ifc.step.deserializer.readonly;
+package org.bimserver.ifc.step.deserializer.buffered;
 
 class StepAttributeImpl implements StepAttribute {
 
@@ -84,6 +84,15 @@ class StepAttributeImpl implements StepAttribute {
 		default:
 			throw new RuntimeException("Unknown token");
 		}
+	}
+
+	public String getTokenValue() {
+		long token = tokenBuffer.tokenAt(index);
+		int offset = StepTokenizer.tokenPosition(token);
+		int length = StepTokenizer.tokenLength(token);
+		byte[] buffer = new byte[length];
+		dataBuffer.bytesAt(buffer, offset, length);
+		return new String(buffer);
 	}
 
 	@Override
