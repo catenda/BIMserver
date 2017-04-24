@@ -1,4 +1,4 @@
-package org.bimserver.ifc.step.deserializer.readonly;
+package org.bimserver.ifc.step.deserializer.buffered;
 
 import org.apache.commons.lang.builder.EqualsBuilder;
 
@@ -155,6 +155,11 @@ class StepAttributeListImpl implements StepAttributeList {
 		return null;
 	}
 
+	@Override
+	public String getTokenValue() {
+		return null;
+	}
+	
 	@Override
 	public boolean isUnset() {
 		return false;

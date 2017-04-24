@@ -1,4 +1,4 @@
-package org.bimserver.ifc.step.deserializer.readonly;
+package org.bimserver.ifc.step.deserializer.buffered;
 
 class StepExchangeImpl implements StepExchange {
 	private final ByteBuffer dataBuffer;

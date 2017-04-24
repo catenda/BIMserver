@@ -1,4 +1,4 @@
-package org.bimserver.ifc.step.deserializer.readonly;
+package org.bimserver.ifc.step.deserializer.buffered;
 
 import org.bimserver.models.store.ObjectDefinition;
 import org.bimserver.plugins.PluginConfiguration;
@@ -8,19 +8,19 @@ import org.bimserver.plugins.deserializers.Deserializer;
 import org.bimserver.plugins.deserializers.DeserializerPlugin;
 import org.bimserver.plugins.schema.SchemaException;
 
-public class IfcStepReadOnlyDeserializerPlugin implements DeserializerPlugin {
+public class IfcStepDeserializerPlugin implements DeserializerPlugin {
 
 	boolean initialized = false;
 
 	@Override
 	public Deserializer createDeserializer(
 			PluginConfiguration pluginConfiguration) {
-		return new IfcStepReadOnlyDeserializer();
+		return new IfcStepDeserializer();
 	}
 
 	@Override
 	public String getDescription() {
-		return "IfcStepReadOnlyDeserializer";
+		return "IfcStepReadWriteDeserializer";
 	}
 
 	@Override
@@ -48,7 +48,7 @@ public class IfcStepReadOnlyDeserializerPlugin implements DeserializerPlugin {
 
 	@Override
 	public String getDefaultName() {
-		return "IfcStepReadOnlyDeserializer";
+		return "IfcStepReadWriteDeserializer";
 	}
 
 	@Override

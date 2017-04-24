@@ -39,7 +39,7 @@ import org.bimserver.emf.IdEObjectImpl;
 import org.bimserver.emf.IfcModelInterface;
 import org.bimserver.emf.IfcModelInterfaceException;
 import org.bimserver.ifc.IfcModel;
-import org.bimserver.ifc.step.deserializer.readonly.StepStringDecoder;
+import org.bimserver.ifc.step.deserializer.buffered.StepStringDecoder;
 import org.bimserver.interfaces.objects.SIfcHeader;
 import org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Factory;
 import org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package;
@@ -527,9 +527,9 @@ public class IfcStepDeserializer extends EmfDeserializer {
 	private String readString(String value) throws DeserializeException {
 		String result = value.substring(1, value.length() - 1);
 		try {
-		    return StepStringDecoder.decode(result);
+			return StepStringDecoder.decode(result);
 		} catch (Exception e) {
-		    throw new DeserializeException(e);
+			throw new DeserializeException(e);
 		}
 	}
 

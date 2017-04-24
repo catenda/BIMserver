@@ -1,7 +1,8 @@
-package org.bimserver.ifc.step.deserializer.readonly;
+package org.bimserver.ifc.step.deserializer.buffered;
 
 interface StepAttribute {
 	Object getValue();
+	String getTokenValue();
 	boolean isUnset();
 	boolean isRedeclared();
 	boolean isEnum();
