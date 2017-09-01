@@ -151,6 +151,20 @@ public class IfcStepDeserializer extends EmfDeserializer {
 					} else {
 						value = stepAttribute.getValue();
 					}
+
+					if (instanceClass == Double.class || instanceClass == double.class) {
+						Class<?> valueClass = value.getClass();
+						if (valueClass == Integer.class) {
+							value = Double.valueOf((Integer) value);
+						} else if (valueClass == int.class) {
+							value = Double.valueOf((int) value);
+						} else if (valueClass == Long.class) {
+							value = Double.valueOf((Long) value);
+						} else if (valueClass == long.class) {
+							value = Double.valueOf((long) value);
+						}
+					}
+
 					object.eSet(object.eClass().getEStructuralFeature(WRAPPED_VALUE), value);
 					if (instanceClass == Double.class || instanceClass == double.class) {
 						object.eSet(object.eClass().getEStructuralFeature(WRAPPED_VALUE + "AsString"), stepAttribute.getTokenValue());
