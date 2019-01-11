@@ -13,11 +13,8 @@ import java.util.Set;
 import org.bimserver.emf.IdEObject;
 import org.bimserver.emf.IdEObjectImpl;
 import org.bimserver.interfaces.objects.SIfcHeader;
-import org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Factory;
 import org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package;
-import org.bimserver.models.ifc2x3tc1.IfcBoolean;
-import org.bimserver.models.ifc2x3tc1.IfcLogical;
-import org.bimserver.models.ifc2x3tc1.Tristate;
+import org.bimserver.models.ifc4.Ifc4Package;
 import org.bimserver.models.log.LogPackage;
 import org.bimserver.models.store.StorePackage;
 import org.bimserver.plugins.schema.Attribute;
@@ -27,6 +24,7 @@ import org.bimserver.plugins.schema.InverseAttribute;
 import org.bimserver.plugins.schema.SchemaDefinition;
 import org.eclipse.emf.ecore.EClass;
 import org.eclipse.emf.ecore.EClassifier;
+import org.eclipse.emf.ecore.EEnum;
 import org.eclipse.emf.ecore.EEnumLiteral;
 import org.eclipse.emf.ecore.EObject;
 import org.eclipse.emf.ecore.EPackage;
@@ -45,6 +43,7 @@ import com.google.common.collect.Sets;
 class StepEStore implements EStore {
 	private final StepExchange exchange;
 	private final SchemaDefinition schema;
+	private final EPackage ePackage;
 
 	private class Inverse {
 		public long oid;
@@ -63,9 +62,9 @@ class StepEStore implements EStore {
 	private final Map<EStructuralFeature, Integer> attributeIndexCache = Maps.newHashMap();
 
 	private final Map<IdEObject, Integer> inlineInstances = Maps.newHashMap();
-	private static final Map<String, EClassifier> eClasses = initEClasses();
-	private static final Map<EClass, List<EClass>> eClassSubTypes = initEClassSubTypes();
-	private static final BiMap<EClass, Class<?>> eClassClassMap = initEClassClassMap();
+	private final Map<String, EClassifier> eClasses;
+	private final Map<EClass, List<EClass>> eClassSubTypes;
+	private final BiMap<EClass, Class<?>> eClassClassMap;
 
 	private Object attributeIteratorContainer;
 	private StepAttributeIterator attributeIterator;
@@ -80,6 +79,16 @@ class StepEStore implements EStore {
 	public StepEStore(StepExchange exchange, SchemaDefinition schema) throws StepParseException {
 		this.exchange = exchange;
 		this.schema = schema;
+		String name = this.schema.getName();
+		if ("IFC4".equals(name.toUpperCase())) {
+			ePackage = Ifc4Package.eINSTANCE;
+		} else {
+			ePackage = Ifc2x3tc1Package.eINSTANCE;
+		}
+		this.eClasses = initEClasses();
+		this.eClassSubTypes = initEClassSubTypes();
+		this.eClassClassMap = initEClassClassMap();
+
 		this.buildIfcHeader();
 		this.buildIndex();
 	}
@@ -253,22 +262,22 @@ class StepEStore implements EStore {
 		instanceReferences.get(referencedName).add(new Inverse(instanceName, attributeName));
 	}
 
-	private static Map<String, EClassifier> initEClasses() {
-		HashMap<String, EClassifier> result = new HashMap<String, EClassifier>(Ifc2x3tc1Package.eINSTANCE.getEClassifiers().size());
-		for (EClassifier classifier : Ifc2x3tc1Package.eINSTANCE.getEClassifiers()) {
+	private Map<String, EClassifier> initEClasses() {
+		HashMap<String, EClassifier> result = new HashMap<String, EClassifier>(ePackage.getEClassifiers().size());
+		for (EClassifier classifier : ePackage.getEClassifiers()) {
 			result.put(classifier.getName().toUpperCase(), classifier);
 		}
 		return result;
 	}
 
-	private static Map<EClass, List<EClass>> initEClassSubTypes() {
-		HashMap<EClass, List<EClass>> result = new HashMap<EClass, List<EClass>>(Ifc2x3tc1Package.eINSTANCE.getEClassifiers().size());
-		for (EClassifier classifier : Ifc2x3tc1Package.eINSTANCE.getEClassifiers()) {
+	private Map<EClass, List<EClass>> initEClassSubTypes() {
+		HashMap<EClass, List<EClass>> result = new HashMap<EClass, List<EClass>>(ePackage.getEClassifiers().size());
+		for (EClassifier classifier : ePackage.getEClassifiers()) {
 			if (classifier instanceof EClass) {
 				result.put((EClass) classifier, Lists.<EClass>newArrayList());
 			}
 		}
-		for (EClassifier classifier : Ifc2x3tc1Package.eINSTANCE.getEClassifiers()) {
+		for (EClassifier classifier : ePackage.getEClassifiers()) {
 			if (classifier instanceof EClass) {
 				for (EClass superType : ((EClass) classifier).getESuperTypes()) {
 					result.get(superType).add((EClass) classifier);
@@ -278,9 +287,9 @@ class StepEStore implements EStore {
 		return result;
 	}
 
-	private static BiMap<EClass, Class<?>> initEClassClassMap() {
+	private BiMap<EClass, Class<?>> initEClassClassMap() {
 		BiMap<EClass, Class<?>> eClassClassMap = HashBiMap.create();
-		for (EPackage ePackage : new EPackage[] { Ifc2x3tc1Package.eINSTANCE, StorePackage.eINSTANCE, LogPackage.eINSTANCE }) {
+		for (EPackage ePackage : new EPackage[] { ePackage, StorePackage.eINSTANCE, LogPackage.eINSTANCE }) {
 			for (EClassifier eClassifier : ePackage.getEClassifiers()) {
 				if (eClassifier instanceof EClass) {
 					EClass eClass = (EClass) eClassifier;
@@ -452,42 +461,47 @@ class StepEStore implements EStore {
 			Object value) {
 		Object result = null;
 		if (value.equals("T")) {
-			if (feature.getEType() == Ifc2x3tc1Package.eINSTANCE.getTristate()) {
-				result = Tristate.TRUE;
+			if (feature.getEType().getName().equals("Tristate")) {
+				result = createEnumerator("Tristate", "TRUE");
 			} else if (feature.getEType().getName().equals("IfcBoolean")) {
-				IfcBoolean bool = Ifc2x3tc1Factory.eINSTANCE.createIfcBoolean();
-				bool.setWrappedValue(Tristate.TRUE);
+				EClass eClass = (EClass) eClasses.get("IfcBoolean");
+				EObject bool = create(eClass);
+				bool.eSet(eClass.getEStructuralFeature("WrappedValue"), createEnumerator("Tristate", "TRUE"));
 				result = bool;
 			} else if (feature.getEType() == EcorePackage.eINSTANCE.getEBoolean()) {
 				result = true;
 			} else {
-				IfcLogical locical = Ifc2x3tc1Factory.eINSTANCE.createIfcLogical();
-				locical.setWrappedValue(Tristate.TRUE);
+				EClass eClass = (EClass) eClasses.get("IfcLogical");
+				EObject locical = create(eClass);
+				locical.eSet(eClass.getEStructuralFeature("WrappedValue"), createEnumerator("Tristate", "TRUE"));
 				result = locical;
 			}
 		} else if (value.equals("F")) {
-			if (feature.getEType() == Ifc2x3tc1Package.eINSTANCE.getTristate()) {
-				result = Tristate.FALSE;
+			if (feature.getEType().getName().equals("Tristate")) {
+				result = createEnumerator("Tristate", "FALSE");
 			} else if (feature.getEType().getName().equals("IfcBoolean")) {
-				IfcBoolean bool = Ifc2x3tc1Factory.eINSTANCE.createIfcBoolean();
-				bool.setWrappedValue(Tristate.FALSE);
+				EClass eClass = (EClass) eClasses.get("IfcBoolean");
+				EObject bool = create(eClass);
+				bool.eSet(eClass.getEStructuralFeature("WrappedValue"), createEnumerator("Tristate", "FALSE"));
 				result = bool;
 			} else if (feature.getEType() == EcorePackage.eINSTANCE.getEBoolean()) {
 				result = false;
 			} else {
-				IfcLogical logical = Ifc2x3tc1Factory.eINSTANCE.createIfcLogical();
-				logical.setWrappedValue(Tristate.FALSE);
-				result = logical;
+				EClass eClass = (EClass) eClasses.get("IfcLogical");
+				EObject locical = create(eClass);
+				locical.eSet(eClass.getEStructuralFeature("WrappedValue"), createEnumerator("Tristate", "FALSE"));
+				result = locical;
 			}
 		} else if (value.equals("U")) {
-			if (feature.getEType() == Ifc2x3tc1Package.eINSTANCE.getTristate()) {
-				result = Tristate.UNDEFINED;
+			if (feature.getEType().getName().equals("Tristate")) {
+				result = createEnumerator("Tristate", "UNDEFINED");
 			} else if (feature.getEType() == EcorePackage.eINSTANCE.getEBoolean()) {
 				result = null;
 			} else {
-				IfcLogical logical = Ifc2x3tc1Factory.eINSTANCE.createIfcLogical();
-				logical.setWrappedValue(Tristate.UNDEFINED);
-				result = logical;
+				EClass eClass = (EClass) eClasses.get("IfcLogical");
+				EObject locical = create(eClass);
+				locical.eSet(eClass.getEStructuralFeature("WrappedValue"), createEnumerator("Tristate", "UNDEFINED"));
+				result = locical;
 			}
 		} else {
 			EEnumLiteral enumLiteral = (((EEnumImpl) feature.getEType()).getEEnumLiteral((String) value));
@@ -711,7 +725,7 @@ class StepEStore implements EStore {
 
 	@Override
 	public EObject create(EClass eClass) {
-		IdEObject object = (IdEObject) Ifc2x3tc1Factory.eINSTANCE.create(eClass);
+		IdEObject object = (IdEObject) ePackage.getEFactoryInstance().create(eClass);
 		((IdEObjectImpl) object).eSetStore(this);
 		return object;
 	}
@@ -782,8 +796,15 @@ class StepEStore implements EStore {
 	@SuppressWarnings("unchecked")
 	public <T extends IdEObject> List<T> getAllWithSubTypes(EClass eClass) {
 		List<T> result = Lists.newArrayList();
+		if (eClass == null) {
+			return result;
+		}
 		result.addAll((List<T>) getAll(eClass));
-		for (EClass subtype : eClassSubTypes.get(eClass)) {
+		List<EClass> subTypes = eClassSubTypes.get(eClass);
+		if (subTypes == null) {
+			return result;
+		}
+		for (EClass subtype : subTypes) {
 			result.addAll((List<T>) getAllWithSubTypes(subtype));
 		}
 		return result;
@@ -808,4 +829,23 @@ class StepEStore implements EStore {
 	public SIfcHeader getIfcHeader() {
 		return ifcHeader;
 	}
+
+	private Object createEnumerator(String enumName, String literalName) {
+		EClassifier eClassifier = ePackage.getEClassifier(enumName);
+		if (eClassifier == null) {
+			throw new RuntimeException("Classifier " + enumName + " not found in package " + ePackage.getName());
+		}
+		if (eClassifier instanceof EEnum) {
+			EEnum eEnum = (EEnum)eClassifier;
+			Object enumerator = ePackage.getEFactoryInstance().createFromString(eEnum, literalName);
+			if (enumerator == null) {
+				throw new RuntimeException("No enum literal " + literalName + " found on " + ePackage.getName() + "." + enumName);
+			}
+			return enumerator;
+		} else {
+			throw new RuntimeException("Classifier " + enumName + " is not of type enum");
+		}
+	}
+
 }
+

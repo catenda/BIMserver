@@ -22,7 +22,7 @@
 
    <extension point="org.eclipse.emf.ecore.generated_package">
       <package
-            uri="http:///buildingsmart.ifc.ecore"
+            uri="http:///buildingsmart.ifc2x3tc1.ecore"
             class="org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package"/>
    </extension>
 
@@ -36,6 +36,12 @@
       <package
             uri="store"
             class="org.bimserver.models.store.StorePackage"/>
+   </extension>
+
+   <extension point="org.eclipse.emf.ecore.generated_package">
+      <package
+            uri="http://buildingsmart.ifc4.ecore"
+            class="org.bimserver.models.ifc4.Ifc4Package"/>
    </extension>
 
 </plugin>

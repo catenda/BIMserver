@@ -41,11 +41,8 @@ import org.bimserver.emf.IfcModelInterfaceException;
 import org.bimserver.ifc.IfcModel;
 import org.bimserver.ifc.step.deserializer.buffered.StepStringDecoder;
 import org.bimserver.interfaces.objects.SIfcHeader;
-import org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Factory;
 import org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package;
-import org.bimserver.models.ifc2x3tc1.IfcBoolean;
-import org.bimserver.models.ifc2x3tc1.IfcLogical;
-import org.bimserver.models.ifc2x3tc1.Tristate;
+import org.bimserver.models.ifc4.Ifc4Package;
 import org.bimserver.plugins.deserializers.DeserializeException;
 import org.bimserver.plugins.deserializers.EmfDeserializer;
 import org.bimserver.plugins.schema.Attribute;
@@ -69,6 +66,7 @@ import org.eclipse.emf.common.util.AbstractEList;
 import org.eclipse.emf.ecore.EClass;
 import org.eclipse.emf.ecore.EClassifier;
 import org.eclipse.emf.ecore.EDataType;
+import org.eclipse.emf.ecore.EEnum;
 import org.eclipse.emf.ecore.EEnumLiteral;
 import org.eclipse.emf.ecore.EObject;
 import org.eclipse.emf.ecore.EPackage;
@@ -82,9 +80,9 @@ import com.google.common.base.Charsets;
 public class IfcStepDeserializer extends EmfDeserializer {
 
 	private static final int AVERAGE_LINE_LENGTH = 58;
-	private static final EPackage ePackage = Ifc2x3tc1Package.eINSTANCE;
+	private EPackage ePackage;
 	private static final String WRAPPED_VALUE = "wrappedValue";
-	private static final Map<String, EClassifier> classes = initClasses();
+	private Map<String, EClassifier> classes;
 
 	/*
 	 * The following hacks are present
@@ -106,6 +104,13 @@ public class IfcStepDeserializer extends EmfDeserializer {
 
 	public void init(SchemaDefinition schema) {
 		this.schema = schema;
+		String name = this.schema.getName();
+		if ("IFC2X3".equals(name.toUpperCase())) {
+			ePackage = Ifc2x3tc1Package.eINSTANCE;
+		} else if ("IFC4".equals(name.toUpperCase())) {
+			ePackage = Ifc4Package.eINSTANCE;
+		}
+		classes = initClasses(ePackage);
 	}
 
 	public IfcModelInterface read(InputStream in, String filename, long fileSize) throws DeserializeException {
@@ -192,9 +197,6 @@ public class IfcStepDeserializer extends EmfDeserializer {
 	}
 
 	public IfcModelInterface read(File sourceFile) throws DeserializeException {
-		if (schema == null) {
-			throw new DeserializeException("No schema");
-		}
 		try {
 			FileInputStream in = new FileInputStream(sourceFile);
 			read(in, sourceFile.length());
@@ -213,9 +215,9 @@ public class IfcStepDeserializer extends EmfDeserializer {
 		return model;
 	}
 
-	private static Map<String, EClassifier> initClasses() {
-		HashMap<String, EClassifier> classes = new HashMap<String, EClassifier>(Ifc2x3tc1Package.eINSTANCE.getEClassifiers().size());
-		for (EClassifier classifier : Ifc2x3tc1Package.eINSTANCE.getEClassifiers()) {
+	private static Map<String, EClassifier> initClasses(EPackage ePackage) {
+		HashMap<String, EClassifier> classes = new HashMap<String, EClassifier>(ePackage.getEClassifiers().size());
+		for (EClassifier classifier : ePackage.getEClassifiers()) {
 			classes.put(classifier.getName().toUpperCase(), classifier);
 		}
 		return classes;
@@ -365,7 +367,7 @@ public class IfcStepDeserializer extends EmfDeserializer {
 		String name = line.substring(equalSignLocation + 1, indexOfFirstParen).trim();
 		EClass classifier = (EClass) classes.get(name);
 		if (classifier != null) {
-			IdEObject object = (IdEObject) Ifc2x3tc1Factory.eINSTANCE.create(classifier);
+			IdEObject object = (IdEObject) ePackage.getEFactoryInstance().create(classifier);
 			try {
 				model.add(recordNumber, object);
 			} catch (IfcModelInterfaceException e) {
@@ -561,14 +563,14 @@ public class IfcStepDeserializer extends EmfDeserializer {
 							create.eSet(create.eClass().getEStructuralFeature(WRAPPED_VALUE + "AsString"), value);
 						} else if (instanceClass == String.class) {
 							create.eSet(create.eClass().getEStructuralFeature(WRAPPED_VALUE), readString(value));
-						} else if (instanceClass == Tristate.class) {
-							Tristate tristate = null;
+						} else if (instanceClass.getSimpleName().equals("Tristate")) {
+							Object tristate = null;
 							if (value.equals(".T.")) {
-								tristate = Tristate.TRUE;
+								tristate = createEnumerator("Tristate", "TRUE");
 							} else if (value.equals(".F.")) {
-								tristate = Tristate.FALSE;
+								tristate = createEnumerator("Tristate", "FALSE");
 							} else if (value.equals(".U.")) {
-								tristate = Tristate.UNDEFINED;
+								tristate = createEnumerator("Tristate", "UNDEFINED");
 							}
 							create.eSet(create.eClass().getEStructuralFeature(WRAPPED_VALUE), tristate);
 						}
@@ -631,41 +633,46 @@ public class IfcStepDeserializer extends EmfDeserializer {
 
 	private void readEnum(String val, EObject object, EStructuralFeature structuralFeature) throws DeserializeException {
 		if (val.equals(".T.")) {
-			if (structuralFeature.getEType() == Ifc2x3tc1Package.eINSTANCE.getTristate()) {
-				object.eSet(structuralFeature, Tristate.TRUE);
+			if (structuralFeature.getEType().getName().equals("Tristate")) {
+				object.eSet(structuralFeature, createEnumerator("Tristate", "TRUE"));
 			} else if (structuralFeature.getEType().getName().equals("IfcBoolean")) {
-				IfcBoolean createIfcBoolean = Ifc2x3tc1Factory.eINSTANCE.createIfcBoolean();
-				createIfcBoolean.setWrappedValue(Tristate.TRUE);
-				object.eSet(structuralFeature, createIfcBoolean);
+				EClass eClass = (EClass) classes.get("IfcBoolean");
+				EObject bool = create(eClass);
+				bool.eSet(eClass.getEStructuralFeature("WrappedValue"), createEnumerator("Tristate", "TRUE"));
+				object.eSet(structuralFeature, bool);
 			} else if (structuralFeature.getEType() == EcorePackage.eINSTANCE.getEBoolean()) {
 				object.eSet(structuralFeature, true);
 			} else {
-				IfcLogical createIfcBoolean = Ifc2x3tc1Factory.eINSTANCE.createIfcLogical();
-				createIfcBoolean.setWrappedValue(Tristate.TRUE);
-				object.eSet(structuralFeature, createIfcBoolean);
+				EClass eClass = (EClass) classes.get("IfcLogical");
+				EObject logical = create(eClass);
+				logical.eSet(eClass.getEStructuralFeature("WrappedValue"), createEnumerator("Tristate", "TRUE"));
+				object.eSet(structuralFeature, logical);
 			}
 		} else if (val.equals(".F.")) {
-			if (structuralFeature.getEType() == Ifc2x3tc1Package.eINSTANCE.getTristate()) {
-				object.eSet(structuralFeature, Tristate.FALSE);
+			if (structuralFeature.getEType().getName().equals("Tristate")) {
+				object.eSet(structuralFeature, createEnumerator("Tristate", "FALSE"));
 			} else if (structuralFeature.getEType().getName().equals("IfcBoolean")) {
-				IfcBoolean createIfcBoolean = Ifc2x3tc1Factory.eINSTANCE.createIfcBoolean();
-				createIfcBoolean.setWrappedValue(Tristate.FALSE);
-				object.eSet(structuralFeature, createIfcBoolean);
+				EClass eClass = (EClass) classes.get("IfcBoolean");
+				EObject bool = create(eClass);
+				bool.eSet(eClass.getEStructuralFeature("WrappedValue"), createEnumerator("Tristate", "FALSE"));
+				object.eSet(structuralFeature, bool);
 			} else if (structuralFeature.getEType() == EcorePackage.eINSTANCE.getEBoolean()) {
 				object.eSet(structuralFeature, false);
 			} else {
-				IfcLogical createIfcBoolean = Ifc2x3tc1Factory.eINSTANCE.createIfcLogical();
-				createIfcBoolean.setWrappedValue(Tristate.FALSE);
-				object.eSet(structuralFeature, createIfcBoolean);
+				EClass eClass = (EClass) classes.get("IfcLogical");
+				EObject logical = create(eClass);
+				logical.eSet(eClass.getEStructuralFeature("WrappedValue"), createEnumerator("Tristate", "FALSE"));
+				object.eSet(structuralFeature, logical);
 			}
 		} else if (val.equals(".U.")) {
-			if (structuralFeature.getEType() == Ifc2x3tc1Package.eINSTANCE.getTristate()) {
-				object.eSet(structuralFeature, Tristate.UNDEFINED);
+			if (structuralFeature.getEType().getName().equals("Tristate")) {
+				object.eSet(structuralFeature, createEnumerator("Tristate", "UNDEFINED"));
 			} else if (structuralFeature.getEType() == EcorePackage.eINSTANCE.getEBoolean()) {
 				object.eUnset(structuralFeature);
 			} else {
-				IfcLogical createIfcBoolean = Ifc2x3tc1Factory.eINSTANCE.createIfcLogical();
-				createIfcBoolean.setWrappedValue(Tristate.UNDEFINED);
+				EClass eClass = (EClass) classes.get("IfcLogical");
+				EObject createIfcBoolean = create(eClass);
+				createIfcBoolean.eSet(eClass.getEStructuralFeature("WrappedValue"), createEnumerator("Tristate", "UNDEFINED"));
 				object.eSet(structuralFeature, createIfcBoolean);
 			}
 		} else {
@@ -701,6 +708,30 @@ public class IfcStepDeserializer extends EmfDeserializer {
 			object.eSet(structuralFeature, model.get(referenceId));
 		} else {
 			waitingList.add(referenceId, new SingleWaitingObject(object, structuralFeature));
+		}
+	}
+
+	public <T extends IdEObject> T create(EClass eClass) {
+		if (eClass.getEPackage() == ePackage) {
+		return (T) ePackage.getEFactoryInstance().create(eClass);
+		}
+		throw new RuntimeException("Mismatch");
+	}
+
+	public Object createEnumerator(String enumName, String literalName) {
+		EClassifier eClassifier = ePackage.getEClassifier(enumName);
+		if (eClassifier == null) {
+			throw new RuntimeException("Classifier " + enumName + " not found in package " + ePackage.getName());
+		}
+		if (eClassifier instanceof EEnum) {
+			EEnum eEnum = (EEnum)eClassifier;
+			Object enumerator = ePackage.getEFactoryInstance().createFromString(eEnum, literalName);
+			if (enumerator == null) {
+				throw new RuntimeException("No enum literal " + literalName + " found on " + ePackage.getName() + "." + enumName);
+			}
+			return enumerator;
+		} else {
+			throw new RuntimeException("Classifier " + enumName + " is not of type enum");
 		}
 	}
 }
