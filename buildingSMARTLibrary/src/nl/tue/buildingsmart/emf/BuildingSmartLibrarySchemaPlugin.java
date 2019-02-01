@@ -19,10 +19,7 @@ package nl.tue.buildingsmart.emf;
 
 import java.io.File;
 import java.io.FileOutputStream;
-import java.io.IOException;
 import java.io.InputStream;
-
-import nl.tue.buildingsmart.express.parser.ExpressSchemaParser;
 
 import org.apache.commons.io.IOUtils;
 import org.bimserver.models.store.ObjectDefinition;
@@ -70,6 +67,7 @@ public class BuildingSmartLibrarySchemaPlugin implements SchemaPlugin {
 			IOUtils.copy(inputStream, fileOutputStream);
 			fileOutputStream.close();
 			schemaDefinition = loadIfcSchema(schemaFile);
+			schemaDefinition.setName("IFC2X3");
 			initialized = true;
 		} catch (Exception e) {
 			throw new PluginException(e);
@@ -77,21 +75,13 @@ public class BuildingSmartLibrarySchemaPlugin implements SchemaPlugin {
 	}
 
 	private SchemaDefinition loadIfcSchema(File schemaFile) {
-		try {
-			ExpressSchemaParser schemaParser = new ExpressSchemaParser(schemaFile);
-			schemaParser.parse();
-			SchemaDefinition schema = schemaParser.getSchema();
-			new DerivedReader(schemaFile, schema);
-			if (schema != null) {
-				LOGGER.info("IFC-Schema successfully loaded from " + schemaFile.getAbsolutePath());
-			} else {
-				LOGGER.error("Error loading IFC-Schema");
-			}
-			return schema;
-		} catch (IOException e) {
-			LOGGER.error("", e);
+		SchemaDefinition schema = SchemaLoader.loadSchema(schemaFile);
+		if (schema != null) {
+			LOGGER.info("IFC-Schema successfully loaded from " + schemaFile.getAbsolutePath());
+		} else {
+			LOGGER.error("Error loading IFC-Schema");
 		}
-		return null;
+		return schema;
 	}
 
 	@Override
