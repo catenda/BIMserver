@@ -18,35 +18,35 @@ package org.bimserver.models.ifc2x3tc1.impl;
 
 import org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package;
 import org.bimserver.models.ifc2x3tc1.IfcCartesianTransformationOperator2D;
+
 import org.eclipse.emf.ecore.EClass;
 
 /**
  * <!-- begin-user-doc -->
  * An implementation of the model object '<em><b>Ifc Cartesian Transformation Operator2 D</b></em>'.
  * <!-- end-user-doc -->
- * <p>
- * </p>
  *
  * @generated
  */
-public class IfcCartesianTransformationOperator2DImpl extends IfcCartesianTransformationOperatorImpl implements IfcCartesianTransformationOperator2D {
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	protected IfcCartesianTransformationOperator2DImpl() {
-		super();
-	}
+public class IfcCartesianTransformationOperator2DImpl extends IfcCartesianTransformationOperatorImpl
+        implements IfcCartesianTransformationOperator2D {
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    protected IfcCartesianTransformationOperator2DImpl() {
+        super();
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	@Override
-	protected EClass eStaticClass() {
-		return Ifc2x3tc1Package.Literals.IFC_CARTESIAN_TRANSFORMATION_OPERATOR2_D;
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    @Override
+    protected EClass eStaticClass() {
+        return Ifc2x3tc1Package.Literals.IFC_CARTESIAN_TRANSFORMATION_OPERATOR2_D;
+    }
 
 } //IfcCartesianTransformationOperator2DImpl

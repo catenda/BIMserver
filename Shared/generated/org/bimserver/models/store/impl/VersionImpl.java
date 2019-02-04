@@ -19,8 +19,10 @@ package org.bimserver.models.store.impl;
 import java.util.Date;
 
 import org.bimserver.emf.IdEObjectImpl;
+
 import org.bimserver.models.store.StorePackage;
 import org.bimserver.models.store.Version;
+
 import org.eclipse.emf.ecore.EClass;
 
 /**
@@ -29,6 +31,7 @@ import org.eclipse.emf.ecore.EClass;
  * <!-- end-user-doc -->
  * <p>
  * The following features are implemented:
+ * </p>
  * <ul>
  *   <li>{@link org.bimserver.models.store.impl.VersionImpl#getMajor <em>Major</em>}</li>
  *   <li>{@link org.bimserver.models.store.impl.VersionImpl#getMinor <em>Minor</em>}</li>
@@ -38,164 +41,163 @@ import org.eclipse.emf.ecore.EClass;
  *   <li>{@link org.bimserver.models.store.impl.VersionImpl#getSupportUrl <em>Support Url</em>}</li>
  *   <li>{@link org.bimserver.models.store.impl.VersionImpl#getSupportEmail <em>Support Email</em>}</li>
  * </ul>
- * </p>
  *
  * @generated
  */
 public class VersionImpl extends IdEObjectImpl implements Version {
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	protected VersionImpl() {
-		super();
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    protected VersionImpl() {
+        super();
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	@Override
-	protected EClass eStaticClass() {
-		return StorePackage.Literals.VERSION;
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    @Override
+    protected EClass eStaticClass() {
+        return StorePackage.Literals.VERSION;
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	@Override
-	protected int eStaticFeatureCount() {
-		return 0;
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    @Override
+    protected int eStaticFeatureCount() {
+        return 0;
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public Integer getMajor() {
-		return (Integer) eGet(StorePackage.Literals.VERSION__MAJOR, true);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public Integer getMajor() {
+        return (Integer) eGet(StorePackage.Literals.VERSION__MAJOR, true);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public void setMajor(Integer newMajor) {
-		eSet(StorePackage.Literals.VERSION__MAJOR, newMajor);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public void setMajor(Integer newMajor) {
+        eSet(StorePackage.Literals.VERSION__MAJOR, newMajor);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public Integer getMinor() {
-		return (Integer) eGet(StorePackage.Literals.VERSION__MINOR, true);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public Integer getMinor() {
+        return (Integer) eGet(StorePackage.Literals.VERSION__MINOR, true);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public void setMinor(Integer newMinor) {
-		eSet(StorePackage.Literals.VERSION__MINOR, newMinor);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public void setMinor(Integer newMinor) {
+        eSet(StorePackage.Literals.VERSION__MINOR, newMinor);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public Integer getRevision() {
-		return (Integer) eGet(StorePackage.Literals.VERSION__REVISION, true);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public Integer getRevision() {
+        return (Integer) eGet(StorePackage.Literals.VERSION__REVISION, true);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public void setRevision(Integer newRevision) {
-		eSet(StorePackage.Literals.VERSION__REVISION, newRevision);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public void setRevision(Integer newRevision) {
+        eSet(StorePackage.Literals.VERSION__REVISION, newRevision);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public Date getDate() {
-		return (Date) eGet(StorePackage.Literals.VERSION__DATE, true);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public Date getDate() {
+        return (Date) eGet(StorePackage.Literals.VERSION__DATE, true);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public void setDate(Date newDate) {
-		eSet(StorePackage.Literals.VERSION__DATE, newDate);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public void setDate(Date newDate) {
+        eSet(StorePackage.Literals.VERSION__DATE, newDate);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public String getDownloadUrl() {
-		return (String) eGet(StorePackage.Literals.VERSION__DOWNLOAD_URL, true);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public String getDownloadUrl() {
+        return (String) eGet(StorePackage.Literals.VERSION__DOWNLOAD_URL, true);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public void setDownloadUrl(String newDownloadUrl) {
-		eSet(StorePackage.Literals.VERSION__DOWNLOAD_URL, newDownloadUrl);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public void setDownloadUrl(String newDownloadUrl) {
+        eSet(StorePackage.Literals.VERSION__DOWNLOAD_URL, newDownloadUrl);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public String getSupportUrl() {
-		return (String) eGet(StorePackage.Literals.VERSION__SUPPORT_URL, true);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public String getSupportUrl() {
+        return (String) eGet(StorePackage.Literals.VERSION__SUPPORT_URL, true);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public void setSupportUrl(String newSupportUrl) {
-		eSet(StorePackage.Literals.VERSION__SUPPORT_URL, newSupportUrl);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public void setSupportUrl(String newSupportUrl) {
+        eSet(StorePackage.Literals.VERSION__SUPPORT_URL, newSupportUrl);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public String getSupportEmail() {
-		return (String) eGet(StorePackage.Literals.VERSION__SUPPORT_EMAIL, true);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public String getSupportEmail() {
+        return (String) eGet(StorePackage.Literals.VERSION__SUPPORT_EMAIL, true);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public void setSupportEmail(String newSupportEmail) {
-		eSet(StorePackage.Literals.VERSION__SUPPORT_EMAIL, newSupportEmail);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public void setSupportEmail(String newSupportEmail) {
+        eSet(StorePackage.Literals.VERSION__SUPPORT_EMAIL, newSupportEmail);
+    }
 
 } //VersionImpl

@@ -20,6 +20,7 @@ import org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package;
 import org.bimserver.models.ifc2x3tc1.IfcSIPrefix;
 import org.bimserver.models.ifc2x3tc1.IfcSIUnit;
 import org.bimserver.models.ifc2x3tc1.IfcSIUnitName;
+
 import org.eclipse.emf.ecore.EClass;
 
 /**
@@ -28,86 +29,86 @@ import org.eclipse.emf.ecore.EClass;
  * <!-- end-user-doc -->
  * <p>
  * The following features are implemented:
+ * </p>
  * <ul>
  *   <li>{@link org.bimserver.models.ifc2x3tc1.impl.IfcSIUnitImpl#getPrefix <em>Prefix</em>}</li>
  *   <li>{@link org.bimserver.models.ifc2x3tc1.impl.IfcSIUnitImpl#getName <em>Name</em>}</li>
  * </ul>
- * </p>
  *
  * @generated
  */
 public class IfcSIUnitImpl extends IfcNamedUnitImpl implements IfcSIUnit {
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	protected IfcSIUnitImpl() {
-		super();
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    protected IfcSIUnitImpl() {
+        super();
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	@Override
-	protected EClass eStaticClass() {
-		return Ifc2x3tc1Package.Literals.IFC_SI_UNIT;
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    @Override
+    protected EClass eStaticClass() {
+        return Ifc2x3tc1Package.Literals.IFC_SI_UNIT;
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public IfcSIPrefix getPrefix() {
-		return (IfcSIPrefix) eGet(Ifc2x3tc1Package.Literals.IFC_SI_UNIT__PREFIX, true);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public IfcSIPrefix getPrefix() {
+        return (IfcSIPrefix) eGet(Ifc2x3tc1Package.Literals.IFC_SI_UNIT__PREFIX, true);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public void setPrefix(IfcSIPrefix newPrefix) {
-		eSet(Ifc2x3tc1Package.Literals.IFC_SI_UNIT__PREFIX, newPrefix);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public void setPrefix(IfcSIPrefix newPrefix) {
+        eSet(Ifc2x3tc1Package.Literals.IFC_SI_UNIT__PREFIX, newPrefix);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public void unsetPrefix() {
-		eUnset(Ifc2x3tc1Package.Literals.IFC_SI_UNIT__PREFIX);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public void unsetPrefix() {
+        eUnset(Ifc2x3tc1Package.Literals.IFC_SI_UNIT__PREFIX);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public boolean isSetPrefix() {
-		return eIsSet(Ifc2x3tc1Package.Literals.IFC_SI_UNIT__PREFIX);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public boolean isSetPrefix() {
+        return eIsSet(Ifc2x3tc1Package.Literals.IFC_SI_UNIT__PREFIX);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public IfcSIUnitName getName() {
-		return (IfcSIUnitName) eGet(Ifc2x3tc1Package.Literals.IFC_SI_UNIT__NAME, true);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public IfcSIUnitName getName() {
+        return (IfcSIUnitName) eGet(Ifc2x3tc1Package.Literals.IFC_SI_UNIT__NAME, true);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public void setName(IfcSIUnitName newName) {
-		eSet(Ifc2x3tc1Package.Literals.IFC_SI_UNIT__NAME, newName);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public void setName(IfcSIUnitName newName) {
+        eSet(Ifc2x3tc1Package.Literals.IFC_SI_UNIT__NAME, newName);
+    }
 
 } //IfcSIUnitImpl

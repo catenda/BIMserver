@@ -19,6 +19,7 @@ package org.bimserver.models.store.impl;
 import org.bimserver.models.store.ArrayDefinition;
 import org.bimserver.models.store.StorePackage;
 import org.bimserver.models.store.TypeDefinition;
+
 import org.eclipse.emf.ecore.EClass;
 
 /**
@@ -27,49 +28,49 @@ import org.eclipse.emf.ecore.EClass;
  * <!-- end-user-doc -->
  * <p>
  * The following features are implemented:
+ * </p>
  * <ul>
  *   <li>{@link org.bimserver.models.store.impl.ArrayDefinitionImpl#getType <em>Type</em>}</li>
  * </ul>
- * </p>
  *
  * @generated
  */
 public class ArrayDefinitionImpl extends TypeDefinitionImpl implements ArrayDefinition {
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	protected ArrayDefinitionImpl() {
-		super();
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    protected ArrayDefinitionImpl() {
+        super();
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	@Override
-	protected EClass eStaticClass() {
-		return StorePackage.Literals.ARRAY_DEFINITION;
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    @Override
+    protected EClass eStaticClass() {
+        return StorePackage.Literals.ARRAY_DEFINITION;
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public TypeDefinition getType() {
-		return (TypeDefinition) eGet(StorePackage.Literals.ARRAY_DEFINITION__TYPE, true);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public TypeDefinition getType() {
+        return (TypeDefinition) eGet(StorePackage.Literals.ARRAY_DEFINITION__TYPE, true);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public void setType(TypeDefinition newType) {
-		eSet(StorePackage.Literals.ARRAY_DEFINITION__TYPE, newType);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public void setType(TypeDefinition newType) {
+        eSet(StorePackage.Literals.ARRAY_DEFINITION__TYPE, newType);
+    }
 
 } //ArrayDefinitionImpl

@@ -17,11 +17,14 @@
 package org.bimserver.models.ifc2x3tc1.impl;
 
 import org.bimserver.emf.IdEObjectImpl;
+
 import org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package;
 import org.bimserver.models.ifc2x3tc1.IfcDerivedUnit;
 import org.bimserver.models.ifc2x3tc1.IfcDerivedUnitElement;
 import org.bimserver.models.ifc2x3tc1.IfcDerivedUnitEnum;
+
 import org.eclipse.emf.common.util.EList;
+
 import org.eclipse.emf.ecore.EClass;
 
 /**
@@ -30,107 +33,107 @@ import org.eclipse.emf.ecore.EClass;
  * <!-- end-user-doc -->
  * <p>
  * The following features are implemented:
+ * </p>
  * <ul>
  *   <li>{@link org.bimserver.models.ifc2x3tc1.impl.IfcDerivedUnitImpl#getElements <em>Elements</em>}</li>
  *   <li>{@link org.bimserver.models.ifc2x3tc1.impl.IfcDerivedUnitImpl#getUnitType <em>Unit Type</em>}</li>
  *   <li>{@link org.bimserver.models.ifc2x3tc1.impl.IfcDerivedUnitImpl#getUserDefinedType <em>User Defined Type</em>}</li>
  * </ul>
- * </p>
  *
  * @generated
  */
 public class IfcDerivedUnitImpl extends IdEObjectImpl implements IfcDerivedUnit {
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	protected IfcDerivedUnitImpl() {
-		super();
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    protected IfcDerivedUnitImpl() {
+        super();
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	@Override
-	protected EClass eStaticClass() {
-		return Ifc2x3tc1Package.Literals.IFC_DERIVED_UNIT;
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    @Override
+    protected EClass eStaticClass() {
+        return Ifc2x3tc1Package.Literals.IFC_DERIVED_UNIT;
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	@Override
-	protected int eStaticFeatureCount() {
-		return 0;
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    @Override
+    protected int eStaticFeatureCount() {
+        return 0;
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	@SuppressWarnings("unchecked")
-	public EList<IfcDerivedUnitElement> getElements() {
-		return (EList<IfcDerivedUnitElement>) eGet(Ifc2x3tc1Package.Literals.IFC_DERIVED_UNIT__ELEMENTS, true);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    @SuppressWarnings("unchecked")
+    public EList<IfcDerivedUnitElement> getElements() {
+        return (EList<IfcDerivedUnitElement>) eGet(Ifc2x3tc1Package.Literals.IFC_DERIVED_UNIT__ELEMENTS, true);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public IfcDerivedUnitEnum getUnitType() {
-		return (IfcDerivedUnitEnum) eGet(Ifc2x3tc1Package.Literals.IFC_DERIVED_UNIT__UNIT_TYPE, true);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public IfcDerivedUnitEnum getUnitType() {
+        return (IfcDerivedUnitEnum) eGet(Ifc2x3tc1Package.Literals.IFC_DERIVED_UNIT__UNIT_TYPE, true);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public void setUnitType(IfcDerivedUnitEnum newUnitType) {
-		eSet(Ifc2x3tc1Package.Literals.IFC_DERIVED_UNIT__UNIT_TYPE, newUnitType);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public void setUnitType(IfcDerivedUnitEnum newUnitType) {
+        eSet(Ifc2x3tc1Package.Literals.IFC_DERIVED_UNIT__UNIT_TYPE, newUnitType);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public String getUserDefinedType() {
-		return (String) eGet(Ifc2x3tc1Package.Literals.IFC_DERIVED_UNIT__USER_DEFINED_TYPE, true);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public String getUserDefinedType() {
+        return (String) eGet(Ifc2x3tc1Package.Literals.IFC_DERIVED_UNIT__USER_DEFINED_TYPE, true);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public void setUserDefinedType(String newUserDefinedType) {
-		eSet(Ifc2x3tc1Package.Literals.IFC_DERIVED_UNIT__USER_DEFINED_TYPE, newUserDefinedType);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public void setUserDefinedType(String newUserDefinedType) {
+        eSet(Ifc2x3tc1Package.Literals.IFC_DERIVED_UNIT__USER_DEFINED_TYPE, newUserDefinedType);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public void unsetUserDefinedType() {
-		eUnset(Ifc2x3tc1Package.Literals.IFC_DERIVED_UNIT__USER_DEFINED_TYPE);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public void unsetUserDefinedType() {
+        eUnset(Ifc2x3tc1Package.Literals.IFC_DERIVED_UNIT__USER_DEFINED_TYPE);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public boolean isSetUserDefinedType() {
-		return eIsSet(Ifc2x3tc1Package.Literals.IFC_DERIVED_UNIT__USER_DEFINED_TYPE);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public boolean isSetUserDefinedType() {
+        return eIsSet(Ifc2x3tc1Package.Literals.IFC_DERIVED_UNIT__USER_DEFINED_TYPE);
+    }
 
 } //IfcDerivedUnitImpl

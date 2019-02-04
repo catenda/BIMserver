@@ -19,7 +19,9 @@ package org.bimserver.models.ifc2x3tc1.impl;
 import org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package;
 import org.bimserver.models.ifc2x3tc1.IfcFillAreaStyle;
 import org.bimserver.models.ifc2x3tc1.IfcFillStyleSelect;
+
 import org.eclipse.emf.common.util.EList;
+
 import org.eclipse.emf.ecore.EClass;
 
 /**
@@ -28,41 +30,41 @@ import org.eclipse.emf.ecore.EClass;
  * <!-- end-user-doc -->
  * <p>
  * The following features are implemented:
+ * </p>
  * <ul>
  *   <li>{@link org.bimserver.models.ifc2x3tc1.impl.IfcFillAreaStyleImpl#getFillStyles <em>Fill Styles</em>}</li>
  * </ul>
- * </p>
  *
  * @generated
  */
 public class IfcFillAreaStyleImpl extends IfcPresentationStyleImpl implements IfcFillAreaStyle {
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	protected IfcFillAreaStyleImpl() {
-		super();
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    protected IfcFillAreaStyleImpl() {
+        super();
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	@Override
-	protected EClass eStaticClass() {
-		return Ifc2x3tc1Package.Literals.IFC_FILL_AREA_STYLE;
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    @Override
+    protected EClass eStaticClass() {
+        return Ifc2x3tc1Package.Literals.IFC_FILL_AREA_STYLE;
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	@SuppressWarnings("unchecked")
-	public EList<IfcFillStyleSelect> getFillStyles() {
-		return (EList<IfcFillStyleSelect>) eGet(Ifc2x3tc1Package.Literals.IFC_FILL_AREA_STYLE__FILL_STYLES, true);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    @SuppressWarnings("unchecked")
+    public EList<IfcFillStyleSelect> getFillStyles() {
+        return (EList<IfcFillStyleSelect>) eGet(Ifc2x3tc1Package.Literals.IFC_FILL_AREA_STYLE__FILL_STYLES, true);
+    }
 
 } //IfcFillAreaStyleImpl

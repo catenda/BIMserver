@@ -81,8 +81,8 @@ public class IfcMaterialProfileSetUsageTaperingImpl extends IfcMaterialProfileSe
      * <!-- end-user-doc -->
      * @generated
      */
-    public int getCardinalEndPoint() {
-        return (Integer) eGet(Ifc4Package.Literals.IFC_MATERIAL_PROFILE_SET_USAGE_TAPERING__CARDINAL_END_POINT, true);
+    public long getCardinalEndPoint() {
+        return (Long) eGet(Ifc4Package.Literals.IFC_MATERIAL_PROFILE_SET_USAGE_TAPERING__CARDINAL_END_POINT, true);
     }
 
     /**
@@ -90,7 +90,7 @@ public class IfcMaterialProfileSetUsageTaperingImpl extends IfcMaterialProfileSe
      * <!-- end-user-doc -->
      * @generated
      */
-    public void setCardinalEndPoint(int newCardinalEndPoint) {
+    public void setCardinalEndPoint(long newCardinalEndPoint) {
         eSet(Ifc4Package.Literals.IFC_MATERIAL_PROFILE_SET_USAGE_TAPERING__CARDINAL_END_POINT, newCardinalEndPoint);
     }
 

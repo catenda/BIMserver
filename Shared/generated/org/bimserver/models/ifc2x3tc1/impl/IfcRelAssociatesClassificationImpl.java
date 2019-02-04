@@ -19,6 +19,7 @@ package org.bimserver.models.ifc2x3tc1.impl;
 import org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package;
 import org.bimserver.models.ifc2x3tc1.IfcClassificationNotationSelect;
 import org.bimserver.models.ifc2x3tc1.IfcRelAssociatesClassification;
+
 import org.eclipse.emf.ecore.EClass;
 
 /**
@@ -27,49 +28,51 @@ import org.eclipse.emf.ecore.EClass;
  * <!-- end-user-doc -->
  * <p>
  * The following features are implemented:
+ * </p>
  * <ul>
  *   <li>{@link org.bimserver.models.ifc2x3tc1.impl.IfcRelAssociatesClassificationImpl#getRelatingClassification <em>Relating Classification</em>}</li>
  * </ul>
- * </p>
  *
  * @generated
  */
 public class IfcRelAssociatesClassificationImpl extends IfcRelAssociatesImpl implements IfcRelAssociatesClassification {
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	protected IfcRelAssociatesClassificationImpl() {
-		super();
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    protected IfcRelAssociatesClassificationImpl() {
+        super();
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	@Override
-	protected EClass eStaticClass() {
-		return Ifc2x3tc1Package.Literals.IFC_REL_ASSOCIATES_CLASSIFICATION;
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    @Override
+    protected EClass eStaticClass() {
+        return Ifc2x3tc1Package.Literals.IFC_REL_ASSOCIATES_CLASSIFICATION;
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public IfcClassificationNotationSelect getRelatingClassification() {
-		return (IfcClassificationNotationSelect) eGet(Ifc2x3tc1Package.Literals.IFC_REL_ASSOCIATES_CLASSIFICATION__RELATING_CLASSIFICATION, true);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public IfcClassificationNotationSelect getRelatingClassification() {
+        return (IfcClassificationNotationSelect) eGet(
+                Ifc2x3tc1Package.Literals.IFC_REL_ASSOCIATES_CLASSIFICATION__RELATING_CLASSIFICATION, true);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public void setRelatingClassification(IfcClassificationNotationSelect newRelatingClassification) {
-		eSet(Ifc2x3tc1Package.Literals.IFC_REL_ASSOCIATES_CLASSIFICATION__RELATING_CLASSIFICATION, newRelatingClassification);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public void setRelatingClassification(IfcClassificationNotationSelect newRelatingClassification) {
+        eSet(Ifc2x3tc1Package.Literals.IFC_REL_ASSOCIATES_CLASSIFICATION__RELATING_CLASSIFICATION,
+                newRelatingClassification);
+    }
 
 } //IfcRelAssociatesClassificationImpl

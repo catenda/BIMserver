@@ -73,8 +73,8 @@ public class IfcGeometricSetImpl extends IfcGeometricRepresentationItemImpl impl
      * <!-- end-user-doc -->
      * @generated
      */
-    public int getDim() {
-        return (Integer) eGet(Ifc4Package.Literals.IFC_GEOMETRIC_SET__DIM, true);
+    public long getDim() {
+        return (Long) eGet(Ifc4Package.Literals.IFC_GEOMETRIC_SET__DIM, true);
     }
 
     /**
@@ -82,7 +82,7 @@ public class IfcGeometricSetImpl extends IfcGeometricRepresentationItemImpl impl
      * <!-- end-user-doc -->
      * @generated
      */
-    public void setDim(int newDim) {
+    public void setDim(long newDim) {
         eSet(Ifc4Package.Literals.IFC_GEOMETRIC_SET__DIM, newDim);
     }
 

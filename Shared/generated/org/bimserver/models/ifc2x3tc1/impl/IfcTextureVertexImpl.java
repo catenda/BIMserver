@@ -17,9 +17,12 @@
 package org.bimserver.models.ifc2x3tc1.impl;
 
 import org.bimserver.emf.IdEObjectImpl;
+
 import org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package;
 import org.bimserver.models.ifc2x3tc1.IfcTextureVertex;
+
 import org.eclipse.emf.common.util.EList;
+
 import org.eclipse.emf.ecore.EClass;
 
 /**
@@ -28,62 +31,62 @@ import org.eclipse.emf.ecore.EClass;
  * <!-- end-user-doc -->
  * <p>
  * The following features are implemented:
+ * </p>
  * <ul>
  *   <li>{@link org.bimserver.models.ifc2x3tc1.impl.IfcTextureVertexImpl#getCoordinates <em>Coordinates</em>}</li>
  *   <li>{@link org.bimserver.models.ifc2x3tc1.impl.IfcTextureVertexImpl#getCoordinatesAsString <em>Coordinates As String</em>}</li>
  * </ul>
- * </p>
  *
  * @generated
  */
 public class IfcTextureVertexImpl extends IdEObjectImpl implements IfcTextureVertex {
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	protected IfcTextureVertexImpl() {
-		super();
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    protected IfcTextureVertexImpl() {
+        super();
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	@Override
-	protected EClass eStaticClass() {
-		return Ifc2x3tc1Package.Literals.IFC_TEXTURE_VERTEX;
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    @Override
+    protected EClass eStaticClass() {
+        return Ifc2x3tc1Package.Literals.IFC_TEXTURE_VERTEX;
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	@Override
-	protected int eStaticFeatureCount() {
-		return 0;
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    @Override
+    protected int eStaticFeatureCount() {
+        return 0;
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	@SuppressWarnings("unchecked")
-	public EList<Double> getCoordinates() {
-		return (EList<Double>) eGet(Ifc2x3tc1Package.Literals.IFC_TEXTURE_VERTEX__COORDINATES, true);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    @SuppressWarnings("unchecked")
+    public EList<Double> getCoordinates() {
+        return (EList<Double>) eGet(Ifc2x3tc1Package.Literals.IFC_TEXTURE_VERTEX__COORDINATES, true);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	@SuppressWarnings("unchecked")
-	public EList<String> getCoordinatesAsString() {
-		return (EList<String>) eGet(Ifc2x3tc1Package.Literals.IFC_TEXTURE_VERTEX__COORDINATES_AS_STRING, true);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    @SuppressWarnings("unchecked")
+    public EList<String> getCoordinatesAsString() {
+        return (EList<String>) eGet(Ifc2x3tc1Package.Literals.IFC_TEXTURE_VERTEX__COORDINATES_AS_STRING, true);
+    }
 
 } //IfcTextureVertexImpl

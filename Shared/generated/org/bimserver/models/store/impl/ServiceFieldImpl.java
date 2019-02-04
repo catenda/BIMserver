@@ -17,9 +17,11 @@
 package org.bimserver.models.store.impl;
 
 import org.bimserver.emf.IdEObjectImpl;
+
 import org.bimserver.models.store.ServiceField;
 import org.bimserver.models.store.ServiceType;
 import org.bimserver.models.store.StorePackage;
+
 import org.eclipse.emf.ecore.EClass;
 
 /**
@@ -28,116 +30,116 @@ import org.eclipse.emf.ecore.EClass;
  * <!-- end-user-doc -->
  * <p>
  * The following features are implemented:
+ * </p>
  * <ul>
  *   <li>{@link org.bimserver.models.store.impl.ServiceFieldImpl#getName <em>Name</em>}</li>
  *   <li>{@link org.bimserver.models.store.impl.ServiceFieldImpl#getType <em>Type</em>}</li>
  *   <li>{@link org.bimserver.models.store.impl.ServiceFieldImpl#getGenericType <em>Generic Type</em>}</li>
  *   <li>{@link org.bimserver.models.store.impl.ServiceFieldImpl#getDoc <em>Doc</em>}</li>
  * </ul>
- * </p>
  *
  * @generated
  */
 public class ServiceFieldImpl extends IdEObjectImpl implements ServiceField {
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	protected ServiceFieldImpl() {
-		super();
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    protected ServiceFieldImpl() {
+        super();
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	@Override
-	protected EClass eStaticClass() {
-		return StorePackage.Literals.SERVICE_FIELD;
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    @Override
+    protected EClass eStaticClass() {
+        return StorePackage.Literals.SERVICE_FIELD;
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	@Override
-	protected int eStaticFeatureCount() {
-		return 0;
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    @Override
+    protected int eStaticFeatureCount() {
+        return 0;
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public String getName() {
-		return (String) eGet(StorePackage.Literals.SERVICE_FIELD__NAME, true);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public String getName() {
+        return (String) eGet(StorePackage.Literals.SERVICE_FIELD__NAME, true);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public void setName(String newName) {
-		eSet(StorePackage.Literals.SERVICE_FIELD__NAME, newName);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public void setName(String newName) {
+        eSet(StorePackage.Literals.SERVICE_FIELD__NAME, newName);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public ServiceType getType() {
-		return (ServiceType) eGet(StorePackage.Literals.SERVICE_FIELD__TYPE, true);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public ServiceType getType() {
+        return (ServiceType) eGet(StorePackage.Literals.SERVICE_FIELD__TYPE, true);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public void setType(ServiceType newType) {
-		eSet(StorePackage.Literals.SERVICE_FIELD__TYPE, newType);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public void setType(ServiceType newType) {
+        eSet(StorePackage.Literals.SERVICE_FIELD__TYPE, newType);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public ServiceType getGenericType() {
-		return (ServiceType) eGet(StorePackage.Literals.SERVICE_FIELD__GENERIC_TYPE, true);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public ServiceType getGenericType() {
+        return (ServiceType) eGet(StorePackage.Literals.SERVICE_FIELD__GENERIC_TYPE, true);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public void setGenericType(ServiceType newGenericType) {
-		eSet(StorePackage.Literals.SERVICE_FIELD__GENERIC_TYPE, newGenericType);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public void setGenericType(ServiceType newGenericType) {
+        eSet(StorePackage.Literals.SERVICE_FIELD__GENERIC_TYPE, newGenericType);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public String getDoc() {
-		return (String) eGet(StorePackage.Literals.SERVICE_FIELD__DOC, true);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public String getDoc() {
+        return (String) eGet(StorePackage.Literals.SERVICE_FIELD__DOC, true);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public void setDoc(String newDoc) {
-		eSet(StorePackage.Literals.SERVICE_FIELD__DOC, newDoc);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public void setDoc(String newDoc) {
+        eSet(StorePackage.Literals.SERVICE_FIELD__DOC, newDoc);
+    }
 
 } //ServiceFieldImpl

@@ -19,7 +19,9 @@ package org.bimserver.models.ifc2x3tc1.impl;
 import org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package;
 import org.bimserver.models.ifc2x3tc1.IfcRepresentationMap;
 import org.bimserver.models.ifc2x3tc1.IfcTypeProduct;
+
 import org.eclipse.emf.common.util.EList;
+
 import org.eclipse.emf.ecore.EClass;
 
 /**
@@ -28,96 +30,97 @@ import org.eclipse.emf.ecore.EClass;
  * <!-- end-user-doc -->
  * <p>
  * The following features are implemented:
+ * </p>
  * <ul>
  *   <li>{@link org.bimserver.models.ifc2x3tc1.impl.IfcTypeProductImpl#getRepresentationMaps <em>Representation Maps</em>}</li>
  *   <li>{@link org.bimserver.models.ifc2x3tc1.impl.IfcTypeProductImpl#getTag <em>Tag</em>}</li>
  * </ul>
- * </p>
  *
  * @generated
  */
 public class IfcTypeProductImpl extends IfcTypeObjectImpl implements IfcTypeProduct {
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	protected IfcTypeProductImpl() {
-		super();
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    protected IfcTypeProductImpl() {
+        super();
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	@Override
-	protected EClass eStaticClass() {
-		return Ifc2x3tc1Package.Literals.IFC_TYPE_PRODUCT;
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    @Override
+    protected EClass eStaticClass() {
+        return Ifc2x3tc1Package.Literals.IFC_TYPE_PRODUCT;
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	@SuppressWarnings("unchecked")
-	public EList<IfcRepresentationMap> getRepresentationMaps() {
-		return (EList<IfcRepresentationMap>) eGet(Ifc2x3tc1Package.Literals.IFC_TYPE_PRODUCT__REPRESENTATION_MAPS, true);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    @SuppressWarnings("unchecked")
+    public EList<IfcRepresentationMap> getRepresentationMaps() {
+        return (EList<IfcRepresentationMap>) eGet(Ifc2x3tc1Package.Literals.IFC_TYPE_PRODUCT__REPRESENTATION_MAPS,
+                true);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public void unsetRepresentationMaps() {
-		eUnset(Ifc2x3tc1Package.Literals.IFC_TYPE_PRODUCT__REPRESENTATION_MAPS);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public void unsetRepresentationMaps() {
+        eUnset(Ifc2x3tc1Package.Literals.IFC_TYPE_PRODUCT__REPRESENTATION_MAPS);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public boolean isSetRepresentationMaps() {
-		return eIsSet(Ifc2x3tc1Package.Literals.IFC_TYPE_PRODUCT__REPRESENTATION_MAPS);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public boolean isSetRepresentationMaps() {
+        return eIsSet(Ifc2x3tc1Package.Literals.IFC_TYPE_PRODUCT__REPRESENTATION_MAPS);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public String getTag() {
-		return (String) eGet(Ifc2x3tc1Package.Literals.IFC_TYPE_PRODUCT__TAG, true);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public String getTag() {
+        return (String) eGet(Ifc2x3tc1Package.Literals.IFC_TYPE_PRODUCT__TAG, true);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public void setTag(String newTag) {
-		eSet(Ifc2x3tc1Package.Literals.IFC_TYPE_PRODUCT__TAG, newTag);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public void setTag(String newTag) {
+        eSet(Ifc2x3tc1Package.Literals.IFC_TYPE_PRODUCT__TAG, newTag);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public void unsetTag() {
-		eUnset(Ifc2x3tc1Package.Literals.IFC_TYPE_PRODUCT__TAG);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public void unsetTag() {
+        eUnset(Ifc2x3tc1Package.Literals.IFC_TYPE_PRODUCT__TAG);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public boolean isSetTag() {
-		return eIsSet(Ifc2x3tc1Package.Literals.IFC_TYPE_PRODUCT__TAG);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public boolean isSetTag() {
+        return eIsSet(Ifc2x3tc1Package.Literals.IFC_TYPE_PRODUCT__TAG);
+    }
 
 } //IfcTypeProductImpl

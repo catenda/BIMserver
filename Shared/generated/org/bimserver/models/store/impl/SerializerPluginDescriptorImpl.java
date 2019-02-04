@@ -18,35 +18,34 @@ package org.bimserver.models.store.impl;
 
 import org.bimserver.models.store.SerializerPluginDescriptor;
 import org.bimserver.models.store.StorePackage;
+
 import org.eclipse.emf.ecore.EClass;
 
 /**
  * <!-- begin-user-doc -->
  * An implementation of the model object '<em><b>Serializer Plugin Descriptor</b></em>'.
  * <!-- end-user-doc -->
- * <p>
- * </p>
  *
  * @generated
  */
 public class SerializerPluginDescriptorImpl extends PluginDescriptorImpl implements SerializerPluginDescriptor {
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	protected SerializerPluginDescriptorImpl() {
-		super();
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    protected SerializerPluginDescriptorImpl() {
+        super();
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	@Override
-	protected EClass eStaticClass() {
-		return StorePackage.Literals.SERIALIZER_PLUGIN_DESCRIPTOR;
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    @Override
+    protected EClass eStaticClass() {
+        return StorePackage.Literals.SERIALIZER_PLUGIN_DESCRIPTOR;
+    }
 
 } //SerializerPluginDescriptorImpl

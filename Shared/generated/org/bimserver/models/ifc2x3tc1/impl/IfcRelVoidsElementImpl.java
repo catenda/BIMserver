@@ -20,6 +20,7 @@ import org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package;
 import org.bimserver.models.ifc2x3tc1.IfcElement;
 import org.bimserver.models.ifc2x3tc1.IfcFeatureElementSubtraction;
 import org.bimserver.models.ifc2x3tc1.IfcRelVoidsElement;
+
 import org.eclipse.emf.ecore.EClass;
 
 /**
@@ -28,68 +29,69 @@ import org.eclipse.emf.ecore.EClass;
  * <!-- end-user-doc -->
  * <p>
  * The following features are implemented:
+ * </p>
  * <ul>
  *   <li>{@link org.bimserver.models.ifc2x3tc1.impl.IfcRelVoidsElementImpl#getRelatingBuildingElement <em>Relating Building Element</em>}</li>
  *   <li>{@link org.bimserver.models.ifc2x3tc1.impl.IfcRelVoidsElementImpl#getRelatedOpeningElement <em>Related Opening Element</em>}</li>
  * </ul>
- * </p>
  *
  * @generated
  */
 public class IfcRelVoidsElementImpl extends IfcRelConnectsImpl implements IfcRelVoidsElement {
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	protected IfcRelVoidsElementImpl() {
-		super();
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    protected IfcRelVoidsElementImpl() {
+        super();
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	@Override
-	protected EClass eStaticClass() {
-		return Ifc2x3tc1Package.Literals.IFC_REL_VOIDS_ELEMENT;
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    @Override
+    protected EClass eStaticClass() {
+        return Ifc2x3tc1Package.Literals.IFC_REL_VOIDS_ELEMENT;
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public IfcElement getRelatingBuildingElement() {
-		return (IfcElement) eGet(Ifc2x3tc1Package.Literals.IFC_REL_VOIDS_ELEMENT__RELATING_BUILDING_ELEMENT, true);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public IfcElement getRelatingBuildingElement() {
+        return (IfcElement) eGet(Ifc2x3tc1Package.Literals.IFC_REL_VOIDS_ELEMENT__RELATING_BUILDING_ELEMENT, true);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public void setRelatingBuildingElement(IfcElement newRelatingBuildingElement) {
-		eSet(Ifc2x3tc1Package.Literals.IFC_REL_VOIDS_ELEMENT__RELATING_BUILDING_ELEMENT, newRelatingBuildingElement);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public void setRelatingBuildingElement(IfcElement newRelatingBuildingElement) {
+        eSet(Ifc2x3tc1Package.Literals.IFC_REL_VOIDS_ELEMENT__RELATING_BUILDING_ELEMENT, newRelatingBuildingElement);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public IfcFeatureElementSubtraction getRelatedOpeningElement() {
-		return (IfcFeatureElementSubtraction) eGet(Ifc2x3tc1Package.Literals.IFC_REL_VOIDS_ELEMENT__RELATED_OPENING_ELEMENT, true);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public IfcFeatureElementSubtraction getRelatedOpeningElement() {
+        return (IfcFeatureElementSubtraction) eGet(
+                Ifc2x3tc1Package.Literals.IFC_REL_VOIDS_ELEMENT__RELATED_OPENING_ELEMENT, true);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public void setRelatedOpeningElement(IfcFeatureElementSubtraction newRelatedOpeningElement) {
-		eSet(Ifc2x3tc1Package.Literals.IFC_REL_VOIDS_ELEMENT__RELATED_OPENING_ELEMENT, newRelatedOpeningElement);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public void setRelatedOpeningElement(IfcFeatureElementSubtraction newRelatedOpeningElement) {
+        eSet(Ifc2x3tc1Package.Literals.IFC_REL_VOIDS_ELEMENT__RELATED_OPENING_ELEMENT, newRelatedOpeningElement);
+    }
 
 } //IfcRelVoidsElementImpl

@@ -23,94 +23,94 @@ package org.bimserver.models.ifc2x3tc1;
  *
  * <p>
  * The following features are supported:
+ * </p>
  * <ul>
  *   <li>{@link org.bimserver.models.ifc2x3tc1.IfcConnectionSurfaceGeometry#getSurfaceOnRelatingElement <em>Surface On Relating Element</em>}</li>
  *   <li>{@link org.bimserver.models.ifc2x3tc1.IfcConnectionSurfaceGeometry#getSurfaceOnRelatedElement <em>Surface On Related Element</em>}</li>
  * </ul>
- * </p>
  *
  * @see org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package#getIfcConnectionSurfaceGeometry()
  * @model
  * @generated
  */
 public interface IfcConnectionSurfaceGeometry extends IfcConnectionGeometry {
-	/**
-	 * Returns the value of the '<em><b>Surface On Relating Element</b></em>' reference.
-	 * <!-- begin-user-doc -->
-	 * <p>
-	 * If the meaning of the '<em>Surface On Relating Element</em>' reference isn't clear,
-	 * there really should be more of a description here...
-	 * </p>
-	 * <!-- end-user-doc -->
-	 * @return the value of the '<em>Surface On Relating Element</em>' reference.
-	 * @see #setSurfaceOnRelatingElement(IfcSurfaceOrFaceSurface)
-	 * @see org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package#getIfcConnectionSurfaceGeometry_SurfaceOnRelatingElement()
-	 * @model
-	 * @generated
-	 */
-	IfcSurfaceOrFaceSurface getSurfaceOnRelatingElement();
+    /**
+     * Returns the value of the '<em><b>Surface On Relating Element</b></em>' reference.
+     * <!-- begin-user-doc -->
+     * <p>
+     * If the meaning of the '<em>Surface On Relating Element</em>' reference isn't clear,
+     * there really should be more of a description here...
+     * </p>
+     * <!-- end-user-doc -->
+     * @return the value of the '<em>Surface On Relating Element</em>' reference.
+     * @see #setSurfaceOnRelatingElement(IfcSurfaceOrFaceSurface)
+     * @see org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package#getIfcConnectionSurfaceGeometry_SurfaceOnRelatingElement()
+     * @model
+     * @generated
+     */
+    IfcSurfaceOrFaceSurface getSurfaceOnRelatingElement();
 
-	/**
-	 * Sets the value of the '{@link org.bimserver.models.ifc2x3tc1.IfcConnectionSurfaceGeometry#getSurfaceOnRelatingElement <em>Surface On Relating Element</em>}' reference.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @param value the new value of the '<em>Surface On Relating Element</em>' reference.
-	 * @see #getSurfaceOnRelatingElement()
-	 * @generated
-	 */
-	void setSurfaceOnRelatingElement(IfcSurfaceOrFaceSurface value);
+    /**
+     * Sets the value of the '{@link org.bimserver.models.ifc2x3tc1.IfcConnectionSurfaceGeometry#getSurfaceOnRelatingElement <em>Surface On Relating Element</em>}' reference.
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @param value the new value of the '<em>Surface On Relating Element</em>' reference.
+     * @see #getSurfaceOnRelatingElement()
+     * @generated
+     */
+    void setSurfaceOnRelatingElement(IfcSurfaceOrFaceSurface value);
 
-	/**
-	 * Returns the value of the '<em><b>Surface On Related Element</b></em>' reference.
-	 * <!-- begin-user-doc -->
-	 * <p>
-	 * If the meaning of the '<em>Surface On Related Element</em>' reference isn't clear,
-	 * there really should be more of a description here...
-	 * </p>
-	 * <!-- end-user-doc -->
-	 * @return the value of the '<em>Surface On Related Element</em>' reference.
-	 * @see #isSetSurfaceOnRelatedElement()
-	 * @see #unsetSurfaceOnRelatedElement()
-	 * @see #setSurfaceOnRelatedElement(IfcSurfaceOrFaceSurface)
-	 * @see org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package#getIfcConnectionSurfaceGeometry_SurfaceOnRelatedElement()
-	 * @model unsettable="true"
-	 * @generated
-	 */
-	IfcSurfaceOrFaceSurface getSurfaceOnRelatedElement();
+    /**
+     * Returns the value of the '<em><b>Surface On Related Element</b></em>' reference.
+     * <!-- begin-user-doc -->
+     * <p>
+     * If the meaning of the '<em>Surface On Related Element</em>' reference isn't clear,
+     * there really should be more of a description here...
+     * </p>
+     * <!-- end-user-doc -->
+     * @return the value of the '<em>Surface On Related Element</em>' reference.
+     * @see #isSetSurfaceOnRelatedElement()
+     * @see #unsetSurfaceOnRelatedElement()
+     * @see #setSurfaceOnRelatedElement(IfcSurfaceOrFaceSurface)
+     * @see org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package#getIfcConnectionSurfaceGeometry_SurfaceOnRelatedElement()
+     * @model unsettable="true"
+     * @generated
+     */
+    IfcSurfaceOrFaceSurface getSurfaceOnRelatedElement();
 
-	/**
-	 * Sets the value of the '{@link org.bimserver.models.ifc2x3tc1.IfcConnectionSurfaceGeometry#getSurfaceOnRelatedElement <em>Surface On Related Element</em>}' reference.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @param value the new value of the '<em>Surface On Related Element</em>' reference.
-	 * @see #isSetSurfaceOnRelatedElement()
-	 * @see #unsetSurfaceOnRelatedElement()
-	 * @see #getSurfaceOnRelatedElement()
-	 * @generated
-	 */
-	void setSurfaceOnRelatedElement(IfcSurfaceOrFaceSurface value);
+    /**
+     * Sets the value of the '{@link org.bimserver.models.ifc2x3tc1.IfcConnectionSurfaceGeometry#getSurfaceOnRelatedElement <em>Surface On Related Element</em>}' reference.
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @param value the new value of the '<em>Surface On Related Element</em>' reference.
+     * @see #isSetSurfaceOnRelatedElement()
+     * @see #unsetSurfaceOnRelatedElement()
+     * @see #getSurfaceOnRelatedElement()
+     * @generated
+     */
+    void setSurfaceOnRelatedElement(IfcSurfaceOrFaceSurface value);
 
-	/**
-	 * Unsets the value of the '{@link org.bimserver.models.ifc2x3tc1.IfcConnectionSurfaceGeometry#getSurfaceOnRelatedElement <em>Surface On Related Element</em>}' reference.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @see #isSetSurfaceOnRelatedElement()
-	 * @see #getSurfaceOnRelatedElement()
-	 * @see #setSurfaceOnRelatedElement(IfcSurfaceOrFaceSurface)
-	 * @generated
-	 */
-	void unsetSurfaceOnRelatedElement();
+    /**
+     * Unsets the value of the '{@link org.bimserver.models.ifc2x3tc1.IfcConnectionSurfaceGeometry#getSurfaceOnRelatedElement <em>Surface On Related Element</em>}' reference.
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @see #isSetSurfaceOnRelatedElement()
+     * @see #getSurfaceOnRelatedElement()
+     * @see #setSurfaceOnRelatedElement(IfcSurfaceOrFaceSurface)
+     * @generated
+     */
+    void unsetSurfaceOnRelatedElement();
 
-	/**
-	 * Returns whether the value of the '{@link org.bimserver.models.ifc2x3tc1.IfcConnectionSurfaceGeometry#getSurfaceOnRelatedElement <em>Surface On Related Element</em>}' reference is set.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @return whether the value of the '<em>Surface On Related Element</em>' reference is set.
-	 * @see #unsetSurfaceOnRelatedElement()
-	 * @see #getSurfaceOnRelatedElement()
-	 * @see #setSurfaceOnRelatedElement(IfcSurfaceOrFaceSurface)
-	 * @generated
-	 */
-	boolean isSetSurfaceOnRelatedElement();
+    /**
+     * Returns whether the value of the '{@link org.bimserver.models.ifc2x3tc1.IfcConnectionSurfaceGeometry#getSurfaceOnRelatedElement <em>Surface On Related Element</em>}' reference is set.
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @return whether the value of the '<em>Surface On Related Element</em>' reference is set.
+     * @see #unsetSurfaceOnRelatedElement()
+     * @see #getSurfaceOnRelatedElement()
+     * @see #setSurfaceOnRelatedElement(IfcSurfaceOrFaceSurface)
+     * @generated
+     */
+    boolean isSetSurfaceOnRelatedElement();
 
 } // IfcConnectionSurfaceGeometry

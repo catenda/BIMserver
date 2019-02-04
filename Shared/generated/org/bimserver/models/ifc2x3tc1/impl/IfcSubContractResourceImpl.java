@@ -19,6 +19,7 @@ package org.bimserver.models.ifc2x3tc1.impl;
 import org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package;
 import org.bimserver.models.ifc2x3tc1.IfcActorSelect;
 import org.bimserver.models.ifc2x3tc1.IfcSubContractResource;
+
 import org.eclipse.emf.ecore.EClass;
 
 /**
@@ -27,104 +28,104 @@ import org.eclipse.emf.ecore.EClass;
  * <!-- end-user-doc -->
  * <p>
  * The following features are implemented:
+ * </p>
  * <ul>
  *   <li>{@link org.bimserver.models.ifc2x3tc1.impl.IfcSubContractResourceImpl#getSubContractor <em>Sub Contractor</em>}</li>
  *   <li>{@link org.bimserver.models.ifc2x3tc1.impl.IfcSubContractResourceImpl#getJobDescription <em>Job Description</em>}</li>
  * </ul>
- * </p>
  *
  * @generated
  */
 public class IfcSubContractResourceImpl extends IfcConstructionResourceImpl implements IfcSubContractResource {
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	protected IfcSubContractResourceImpl() {
-		super();
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    protected IfcSubContractResourceImpl() {
+        super();
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	@Override
-	protected EClass eStaticClass() {
-		return Ifc2x3tc1Package.Literals.IFC_SUB_CONTRACT_RESOURCE;
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    @Override
+    protected EClass eStaticClass() {
+        return Ifc2x3tc1Package.Literals.IFC_SUB_CONTRACT_RESOURCE;
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public IfcActorSelect getSubContractor() {
-		return (IfcActorSelect) eGet(Ifc2x3tc1Package.Literals.IFC_SUB_CONTRACT_RESOURCE__SUB_CONTRACTOR, true);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public IfcActorSelect getSubContractor() {
+        return (IfcActorSelect) eGet(Ifc2x3tc1Package.Literals.IFC_SUB_CONTRACT_RESOURCE__SUB_CONTRACTOR, true);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public void setSubContractor(IfcActorSelect newSubContractor) {
-		eSet(Ifc2x3tc1Package.Literals.IFC_SUB_CONTRACT_RESOURCE__SUB_CONTRACTOR, newSubContractor);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public void setSubContractor(IfcActorSelect newSubContractor) {
+        eSet(Ifc2x3tc1Package.Literals.IFC_SUB_CONTRACT_RESOURCE__SUB_CONTRACTOR, newSubContractor);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public void unsetSubContractor() {
-		eUnset(Ifc2x3tc1Package.Literals.IFC_SUB_CONTRACT_RESOURCE__SUB_CONTRACTOR);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public void unsetSubContractor() {
+        eUnset(Ifc2x3tc1Package.Literals.IFC_SUB_CONTRACT_RESOURCE__SUB_CONTRACTOR);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public boolean isSetSubContractor() {
-		return eIsSet(Ifc2x3tc1Package.Literals.IFC_SUB_CONTRACT_RESOURCE__SUB_CONTRACTOR);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public boolean isSetSubContractor() {
+        return eIsSet(Ifc2x3tc1Package.Literals.IFC_SUB_CONTRACT_RESOURCE__SUB_CONTRACTOR);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public String getJobDescription() {
-		return (String) eGet(Ifc2x3tc1Package.Literals.IFC_SUB_CONTRACT_RESOURCE__JOB_DESCRIPTION, true);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public String getJobDescription() {
+        return (String) eGet(Ifc2x3tc1Package.Literals.IFC_SUB_CONTRACT_RESOURCE__JOB_DESCRIPTION, true);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public void setJobDescription(String newJobDescription) {
-		eSet(Ifc2x3tc1Package.Literals.IFC_SUB_CONTRACT_RESOURCE__JOB_DESCRIPTION, newJobDescription);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public void setJobDescription(String newJobDescription) {
+        eSet(Ifc2x3tc1Package.Literals.IFC_SUB_CONTRACT_RESOURCE__JOB_DESCRIPTION, newJobDescription);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public void unsetJobDescription() {
-		eUnset(Ifc2x3tc1Package.Literals.IFC_SUB_CONTRACT_RESOURCE__JOB_DESCRIPTION);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public void unsetJobDescription() {
+        eUnset(Ifc2x3tc1Package.Literals.IFC_SUB_CONTRACT_RESOURCE__JOB_DESCRIPTION);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public boolean isSetJobDescription() {
-		return eIsSet(Ifc2x3tc1Package.Literals.IFC_SUB_CONTRACT_RESOURCE__JOB_DESCRIPTION);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public boolean isSetJobDescription() {
+        return eIsSet(Ifc2x3tc1Package.Literals.IFC_SUB_CONTRACT_RESOURCE__JOB_DESCRIPTION);
+    }
 
 } //IfcSubContractResourceImpl

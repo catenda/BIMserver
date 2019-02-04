@@ -19,7 +19,9 @@ package org.bimserver.models.ifc2x3tc1.impl;
 import org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package;
 import org.bimserver.models.ifc2x3tc1.IfcRelAssociates;
 import org.bimserver.models.ifc2x3tc1.IfcRoot;
+
 import org.eclipse.emf.common.util.EList;
+
 import org.eclipse.emf.ecore.EClass;
 
 /**
@@ -28,41 +30,41 @@ import org.eclipse.emf.ecore.EClass;
  * <!-- end-user-doc -->
  * <p>
  * The following features are implemented:
+ * </p>
  * <ul>
  *   <li>{@link org.bimserver.models.ifc2x3tc1.impl.IfcRelAssociatesImpl#getRelatedObjects <em>Related Objects</em>}</li>
  * </ul>
- * </p>
  *
  * @generated
  */
 public class IfcRelAssociatesImpl extends IfcRelationshipImpl implements IfcRelAssociates {
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	protected IfcRelAssociatesImpl() {
-		super();
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    protected IfcRelAssociatesImpl() {
+        super();
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	@Override
-	protected EClass eStaticClass() {
-		return Ifc2x3tc1Package.Literals.IFC_REL_ASSOCIATES;
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    @Override
+    protected EClass eStaticClass() {
+        return Ifc2x3tc1Package.Literals.IFC_REL_ASSOCIATES;
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	@SuppressWarnings("unchecked")
-	public EList<IfcRoot> getRelatedObjects() {
-		return (EList<IfcRoot>) eGet(Ifc2x3tc1Package.Literals.IFC_REL_ASSOCIATES__RELATED_OBJECTS, true);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    @SuppressWarnings("unchecked")
+    public EList<IfcRoot> getRelatedObjects() {
+        return (EList<IfcRoot>) eGet(Ifc2x3tc1Package.Literals.IFC_REL_ASSOCIATES__RELATED_OBJECTS, true);
+    }
 
 } //IfcRelAssociatesImpl

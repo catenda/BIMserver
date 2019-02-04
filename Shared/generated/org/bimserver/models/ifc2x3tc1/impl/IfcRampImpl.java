@@ -19,6 +19,7 @@ package org.bimserver.models.ifc2x3tc1.impl;
 import org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package;
 import org.bimserver.models.ifc2x3tc1.IfcRamp;
 import org.bimserver.models.ifc2x3tc1.IfcRampTypeEnum;
+
 import org.eclipse.emf.ecore.EClass;
 
 /**
@@ -27,49 +28,49 @@ import org.eclipse.emf.ecore.EClass;
  * <!-- end-user-doc -->
  * <p>
  * The following features are implemented:
+ * </p>
  * <ul>
  *   <li>{@link org.bimserver.models.ifc2x3tc1.impl.IfcRampImpl#getShapeType <em>Shape Type</em>}</li>
  * </ul>
- * </p>
  *
  * @generated
  */
 public class IfcRampImpl extends IfcBuildingElementImpl implements IfcRamp {
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	protected IfcRampImpl() {
-		super();
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    protected IfcRampImpl() {
+        super();
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	@Override
-	protected EClass eStaticClass() {
-		return Ifc2x3tc1Package.Literals.IFC_RAMP;
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    @Override
+    protected EClass eStaticClass() {
+        return Ifc2x3tc1Package.Literals.IFC_RAMP;
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public IfcRampTypeEnum getShapeType() {
-		return (IfcRampTypeEnum) eGet(Ifc2x3tc1Package.Literals.IFC_RAMP__SHAPE_TYPE, true);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public IfcRampTypeEnum getShapeType() {
+        return (IfcRampTypeEnum) eGet(Ifc2x3tc1Package.Literals.IFC_RAMP__SHAPE_TYPE, true);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public void setShapeType(IfcRampTypeEnum newShapeType) {
-		eSet(Ifc2x3tc1Package.Literals.IFC_RAMP__SHAPE_TYPE, newShapeType);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public void setShapeType(IfcRampTypeEnum newShapeType) {
+        eSet(Ifc2x3tc1Package.Literals.IFC_RAMP__SHAPE_TYPE, newShapeType);
+    }
 
 } //IfcRampImpl

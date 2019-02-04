@@ -17,11 +17,13 @@
 package org.bimserver.models.ifc2x3tc1.impl;
 
 import org.bimserver.emf.IdEObjectImpl;
+
 import org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package;
 import org.bimserver.models.ifc2x3tc1.IfcActorRole;
 import org.bimserver.models.ifc2x3tc1.IfcActorSelect;
 import org.bimserver.models.ifc2x3tc1.IfcApproval;
 import org.bimserver.models.ifc2x3tc1.IfcApprovalActorRelationship;
+
 import org.eclipse.emf.ecore.EClass;
 
 /**
@@ -30,97 +32,97 @@ import org.eclipse.emf.ecore.EClass;
  * <!-- end-user-doc -->
  * <p>
  * The following features are implemented:
+ * </p>
  * <ul>
  *   <li>{@link org.bimserver.models.ifc2x3tc1.impl.IfcApprovalActorRelationshipImpl#getActor <em>Actor</em>}</li>
  *   <li>{@link org.bimserver.models.ifc2x3tc1.impl.IfcApprovalActorRelationshipImpl#getApproval <em>Approval</em>}</li>
  *   <li>{@link org.bimserver.models.ifc2x3tc1.impl.IfcApprovalActorRelationshipImpl#getRole <em>Role</em>}</li>
  * </ul>
- * </p>
  *
  * @generated
  */
 public class IfcApprovalActorRelationshipImpl extends IdEObjectImpl implements IfcApprovalActorRelationship {
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	protected IfcApprovalActorRelationshipImpl() {
-		super();
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    protected IfcApprovalActorRelationshipImpl() {
+        super();
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	@Override
-	protected EClass eStaticClass() {
-		return Ifc2x3tc1Package.Literals.IFC_APPROVAL_ACTOR_RELATIONSHIP;
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    @Override
+    protected EClass eStaticClass() {
+        return Ifc2x3tc1Package.Literals.IFC_APPROVAL_ACTOR_RELATIONSHIP;
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	@Override
-	protected int eStaticFeatureCount() {
-		return 0;
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    @Override
+    protected int eStaticFeatureCount() {
+        return 0;
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public IfcActorSelect getActor() {
-		return (IfcActorSelect) eGet(Ifc2x3tc1Package.Literals.IFC_APPROVAL_ACTOR_RELATIONSHIP__ACTOR, true);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public IfcActorSelect getActor() {
+        return (IfcActorSelect) eGet(Ifc2x3tc1Package.Literals.IFC_APPROVAL_ACTOR_RELATIONSHIP__ACTOR, true);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public void setActor(IfcActorSelect newActor) {
-		eSet(Ifc2x3tc1Package.Literals.IFC_APPROVAL_ACTOR_RELATIONSHIP__ACTOR, newActor);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public void setActor(IfcActorSelect newActor) {
+        eSet(Ifc2x3tc1Package.Literals.IFC_APPROVAL_ACTOR_RELATIONSHIP__ACTOR, newActor);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public IfcApproval getApproval() {
-		return (IfcApproval) eGet(Ifc2x3tc1Package.Literals.IFC_APPROVAL_ACTOR_RELATIONSHIP__APPROVAL, true);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public IfcApproval getApproval() {
+        return (IfcApproval) eGet(Ifc2x3tc1Package.Literals.IFC_APPROVAL_ACTOR_RELATIONSHIP__APPROVAL, true);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public void setApproval(IfcApproval newApproval) {
-		eSet(Ifc2x3tc1Package.Literals.IFC_APPROVAL_ACTOR_RELATIONSHIP__APPROVAL, newApproval);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public void setApproval(IfcApproval newApproval) {
+        eSet(Ifc2x3tc1Package.Literals.IFC_APPROVAL_ACTOR_RELATIONSHIP__APPROVAL, newApproval);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public IfcActorRole getRole() {
-		return (IfcActorRole) eGet(Ifc2x3tc1Package.Literals.IFC_APPROVAL_ACTOR_RELATIONSHIP__ROLE, true);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public IfcActorRole getRole() {
+        return (IfcActorRole) eGet(Ifc2x3tc1Package.Literals.IFC_APPROVAL_ACTOR_RELATIONSHIP__ROLE, true);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public void setRole(IfcActorRole newRole) {
-		eSet(Ifc2x3tc1Package.Literals.IFC_APPROVAL_ACTOR_RELATIONSHIP__ROLE, newRole);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public void setRole(IfcActorRole newRole) {
+        eSet(Ifc2x3tc1Package.Literals.IFC_APPROVAL_ACTOR_RELATIONSHIP__ROLE, newRole);
+    }
 
 } //IfcApprovalActorRelationshipImpl

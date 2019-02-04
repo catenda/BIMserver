@@ -19,6 +19,7 @@ package org.bimserver.models.ifc2x3tc1.impl;
 import org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package;
 import org.bimserver.models.ifc2x3tc1.IfcAxis1Placement;
 import org.bimserver.models.ifc2x3tc1.IfcSurfaceOfRevolution;
+
 import org.eclipse.emf.ecore.EClass;
 
 /**
@@ -27,49 +28,49 @@ import org.eclipse.emf.ecore.EClass;
  * <!-- end-user-doc -->
  * <p>
  * The following features are implemented:
+ * </p>
  * <ul>
  *   <li>{@link org.bimserver.models.ifc2x3tc1.impl.IfcSurfaceOfRevolutionImpl#getAxisPosition <em>Axis Position</em>}</li>
  * </ul>
- * </p>
  *
  * @generated
  */
 public class IfcSurfaceOfRevolutionImpl extends IfcSweptSurfaceImpl implements IfcSurfaceOfRevolution {
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	protected IfcSurfaceOfRevolutionImpl() {
-		super();
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    protected IfcSurfaceOfRevolutionImpl() {
+        super();
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	@Override
-	protected EClass eStaticClass() {
-		return Ifc2x3tc1Package.Literals.IFC_SURFACE_OF_REVOLUTION;
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    @Override
+    protected EClass eStaticClass() {
+        return Ifc2x3tc1Package.Literals.IFC_SURFACE_OF_REVOLUTION;
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public IfcAxis1Placement getAxisPosition() {
-		return (IfcAxis1Placement) eGet(Ifc2x3tc1Package.Literals.IFC_SURFACE_OF_REVOLUTION__AXIS_POSITION, true);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public IfcAxis1Placement getAxisPosition() {
+        return (IfcAxis1Placement) eGet(Ifc2x3tc1Package.Literals.IFC_SURFACE_OF_REVOLUTION__AXIS_POSITION, true);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public void setAxisPosition(IfcAxis1Placement newAxisPosition) {
-		eSet(Ifc2x3tc1Package.Literals.IFC_SURFACE_OF_REVOLUTION__AXIS_POSITION, newAxisPosition);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public void setAxisPosition(IfcAxis1Placement newAxisPosition) {
+        eSet(Ifc2x3tc1Package.Literals.IFC_SURFACE_OF_REVOLUTION__AXIS_POSITION, newAxisPosition);
+    }
 
 } //IfcSurfaceOfRevolutionImpl

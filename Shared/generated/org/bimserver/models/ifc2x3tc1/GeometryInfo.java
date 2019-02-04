@@ -25,6 +25,7 @@ import org.bimserver.emf.IdEObject;
  *
  * <p>
  * The following features are supported:
+ * </p>
  * <ul>
  *   <li>{@link org.bimserver.models.ifc2x3tc1.GeometryInfo#getMinBounds <em>Min Bounds</em>}</li>
  *   <li>{@link org.bimserver.models.ifc2x3tc1.GeometryInfo#getMaxBounds <em>Max Bounds</em>}</li>
@@ -33,7 +34,6 @@ import org.bimserver.emf.IdEObject;
  *   <li>{@link org.bimserver.models.ifc2x3tc1.GeometryInfo#getPrimitiveCount <em>Primitive Count</em>}</li>
  *   <li>{@link org.bimserver.models.ifc2x3tc1.GeometryInfo#getData <em>Data</em>}</li>
  * </ul>
- * </p>
  *
  * @see org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package#getGeometryInfo()
  * @model
@@ -41,160 +41,160 @@ import org.bimserver.emf.IdEObject;
  * @generated
  */
 public interface GeometryInfo extends IdEObject {
-	/**
-	 * Returns the value of the '<em><b>Min Bounds</b></em>' reference.
-	 * <!-- begin-user-doc -->
-	 * <p>
-	 * If the meaning of the '<em>Min Bounds</em>' reference isn't clear,
-	 * there really should be more of a description here...
-	 * </p>
-	 * <!-- end-user-doc -->
-	 * @return the value of the '<em>Min Bounds</em>' reference.
-	 * @see #setMinBounds(Vector3f)
-	 * @see org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package#getGeometryInfo_MinBounds()
-	 * @model
-	 * @generated
-	 */
-	Vector3f getMinBounds();
+    /**
+     * Returns the value of the '<em><b>Min Bounds</b></em>' reference.
+     * <!-- begin-user-doc -->
+     * <p>
+     * If the meaning of the '<em>Min Bounds</em>' reference isn't clear,
+     * there really should be more of a description here...
+     * </p>
+     * <!-- end-user-doc -->
+     * @return the value of the '<em>Min Bounds</em>' reference.
+     * @see #setMinBounds(Vector3f)
+     * @see org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package#getGeometryInfo_MinBounds()
+     * @model
+     * @generated
+     */
+    Vector3f getMinBounds();
 
-	/**
-	 * Sets the value of the '{@link org.bimserver.models.ifc2x3tc1.GeometryInfo#getMinBounds <em>Min Bounds</em>}' reference.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @param value the new value of the '<em>Min Bounds</em>' reference.
-	 * @see #getMinBounds()
-	 * @generated
-	 */
-	void setMinBounds(Vector3f value);
+    /**
+     * Sets the value of the '{@link org.bimserver.models.ifc2x3tc1.GeometryInfo#getMinBounds <em>Min Bounds</em>}' reference.
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @param value the new value of the '<em>Min Bounds</em>' reference.
+     * @see #getMinBounds()
+     * @generated
+     */
+    void setMinBounds(Vector3f value);
 
-	/**
-	 * Returns the value of the '<em><b>Max Bounds</b></em>' reference.
-	 * <!-- begin-user-doc -->
-	 * <p>
-	 * If the meaning of the '<em>Max Bounds</em>' reference isn't clear,
-	 * there really should be more of a description here...
-	 * </p>
-	 * <!-- end-user-doc -->
-	 * @return the value of the '<em>Max Bounds</em>' reference.
-	 * @see #setMaxBounds(Vector3f)
-	 * @see org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package#getGeometryInfo_MaxBounds()
-	 * @model
-	 * @generated
-	 */
-	Vector3f getMaxBounds();
+    /**
+     * Returns the value of the '<em><b>Max Bounds</b></em>' reference.
+     * <!-- begin-user-doc -->
+     * <p>
+     * If the meaning of the '<em>Max Bounds</em>' reference isn't clear,
+     * there really should be more of a description here...
+     * </p>
+     * <!-- end-user-doc -->
+     * @return the value of the '<em>Max Bounds</em>' reference.
+     * @see #setMaxBounds(Vector3f)
+     * @see org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package#getGeometryInfo_MaxBounds()
+     * @model
+     * @generated
+     */
+    Vector3f getMaxBounds();
 
-	/**
-	 * Sets the value of the '{@link org.bimserver.models.ifc2x3tc1.GeometryInfo#getMaxBounds <em>Max Bounds</em>}' reference.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @param value the new value of the '<em>Max Bounds</em>' reference.
-	 * @see #getMaxBounds()
-	 * @generated
-	 */
-	void setMaxBounds(Vector3f value);
+    /**
+     * Sets the value of the '{@link org.bimserver.models.ifc2x3tc1.GeometryInfo#getMaxBounds <em>Max Bounds</em>}' reference.
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @param value the new value of the '<em>Max Bounds</em>' reference.
+     * @see #getMaxBounds()
+     * @generated
+     */
+    void setMaxBounds(Vector3f value);
 
-	/**
-	 * Returns the value of the '<em><b>Start Vertex</b></em>' attribute.
-	 * <!-- begin-user-doc -->
-	 * <p>
-	 * If the meaning of the '<em>Start Vertex</em>' attribute isn't clear,
-	 * there really should be more of a description here...
-	 * </p>
-	 * <!-- end-user-doc -->
-	 * @return the value of the '<em>Start Vertex</em>' attribute.
-	 * @see #setStartVertex(Integer)
-	 * @see org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package#getGeometryInfo_StartVertex()
-	 * @model
-	 * @generated
-	 */
-	Integer getStartVertex();
+    /**
+     * Returns the value of the '<em><b>Start Vertex</b></em>' attribute.
+     * <!-- begin-user-doc -->
+     * <p>
+     * If the meaning of the '<em>Start Vertex</em>' attribute isn't clear,
+     * there really should be more of a description here...
+     * </p>
+     * <!-- end-user-doc -->
+     * @return the value of the '<em>Start Vertex</em>' attribute.
+     * @see #setStartVertex(Integer)
+     * @see org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package#getGeometryInfo_StartVertex()
+     * @model
+     * @generated
+     */
+    Integer getStartVertex();
 
-	/**
-	 * Sets the value of the '{@link org.bimserver.models.ifc2x3tc1.GeometryInfo#getStartVertex <em>Start Vertex</em>}' attribute.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @param value the new value of the '<em>Start Vertex</em>' attribute.
-	 * @see #getStartVertex()
-	 * @generated
-	 */
-	void setStartVertex(Integer value);
+    /**
+     * Sets the value of the '{@link org.bimserver.models.ifc2x3tc1.GeometryInfo#getStartVertex <em>Start Vertex</em>}' attribute.
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @param value the new value of the '<em>Start Vertex</em>' attribute.
+     * @see #getStartVertex()
+     * @generated
+     */
+    void setStartVertex(Integer value);
 
-	/**
-	 * Returns the value of the '<em><b>Start Index</b></em>' attribute.
-	 * <!-- begin-user-doc -->
-	 * <p>
-	 * If the meaning of the '<em>Start Index</em>' attribute isn't clear,
-	 * there really should be more of a description here...
-	 * </p>
-	 * <!-- end-user-doc -->
-	 * @return the value of the '<em>Start Index</em>' attribute.
-	 * @see #setStartIndex(Integer)
-	 * @see org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package#getGeometryInfo_StartIndex()
-	 * @model
-	 * @generated
-	 */
-	Integer getStartIndex();
+    /**
+     * Returns the value of the '<em><b>Start Index</b></em>' attribute.
+     * <!-- begin-user-doc -->
+     * <p>
+     * If the meaning of the '<em>Start Index</em>' attribute isn't clear,
+     * there really should be more of a description here...
+     * </p>
+     * <!-- end-user-doc -->
+     * @return the value of the '<em>Start Index</em>' attribute.
+     * @see #setStartIndex(Integer)
+     * @see org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package#getGeometryInfo_StartIndex()
+     * @model
+     * @generated
+     */
+    Integer getStartIndex();
 
-	/**
-	 * Sets the value of the '{@link org.bimserver.models.ifc2x3tc1.GeometryInfo#getStartIndex <em>Start Index</em>}' attribute.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @param value the new value of the '<em>Start Index</em>' attribute.
-	 * @see #getStartIndex()
-	 * @generated
-	 */
-	void setStartIndex(Integer value);
+    /**
+     * Sets the value of the '{@link org.bimserver.models.ifc2x3tc1.GeometryInfo#getStartIndex <em>Start Index</em>}' attribute.
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @param value the new value of the '<em>Start Index</em>' attribute.
+     * @see #getStartIndex()
+     * @generated
+     */
+    void setStartIndex(Integer value);
 
-	/**
-	 * Returns the value of the '<em><b>Primitive Count</b></em>' attribute.
-	 * <!-- begin-user-doc -->
-	 * <p>
-	 * If the meaning of the '<em>Primitive Count</em>' attribute isn't clear,
-	 * there really should be more of a description here...
-	 * </p>
-	 * <!-- end-user-doc -->
-	 * @return the value of the '<em>Primitive Count</em>' attribute.
-	 * @see #setPrimitiveCount(Integer)
-	 * @see org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package#getGeometryInfo_PrimitiveCount()
-	 * @model
-	 * @generated
-	 */
-	Integer getPrimitiveCount();
+    /**
+     * Returns the value of the '<em><b>Primitive Count</b></em>' attribute.
+     * <!-- begin-user-doc -->
+     * <p>
+     * If the meaning of the '<em>Primitive Count</em>' attribute isn't clear,
+     * there really should be more of a description here...
+     * </p>
+     * <!-- end-user-doc -->
+     * @return the value of the '<em>Primitive Count</em>' attribute.
+     * @see #setPrimitiveCount(Integer)
+     * @see org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package#getGeometryInfo_PrimitiveCount()
+     * @model
+     * @generated
+     */
+    Integer getPrimitiveCount();
 
-	/**
-	 * Sets the value of the '{@link org.bimserver.models.ifc2x3tc1.GeometryInfo#getPrimitiveCount <em>Primitive Count</em>}' attribute.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @param value the new value of the '<em>Primitive Count</em>' attribute.
-	 * @see #getPrimitiveCount()
-	 * @generated
-	 */
-	void setPrimitiveCount(Integer value);
+    /**
+     * Sets the value of the '{@link org.bimserver.models.ifc2x3tc1.GeometryInfo#getPrimitiveCount <em>Primitive Count</em>}' attribute.
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @param value the new value of the '<em>Primitive Count</em>' attribute.
+     * @see #getPrimitiveCount()
+     * @generated
+     */
+    void setPrimitiveCount(Integer value);
 
-	/**
-	 * Returns the value of the '<em><b>Data</b></em>' reference.
-	 * <!-- begin-user-doc -->
-	 * <p>
-	 * If the meaning of the '<em>Data</em>' reference isn't clear,
-	 * there really should be more of a description here...
-	 * </p>
-	 * <!-- end-user-doc -->
-	 * @return the value of the '<em>Data</em>' reference.
-	 * @see #setData(GeometryData)
-	 * @see org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package#getGeometryInfo_Data()
-	 * @model
-	 * @generated
-	 */
-	GeometryData getData();
+    /**
+     * Returns the value of the '<em><b>Data</b></em>' reference.
+     * <!-- begin-user-doc -->
+     * <p>
+     * If the meaning of the '<em>Data</em>' reference isn't clear,
+     * there really should be more of a description here...
+     * </p>
+     * <!-- end-user-doc -->
+     * @return the value of the '<em>Data</em>' reference.
+     * @see #setData(GeometryData)
+     * @see org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package#getGeometryInfo_Data()
+     * @model
+     * @generated
+     */
+    GeometryData getData();
 
-	/**
-	 * Sets the value of the '{@link org.bimserver.models.ifc2x3tc1.GeometryInfo#getData <em>Data</em>}' reference.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @param value the new value of the '<em>Data</em>' reference.
-	 * @see #getData()
-	 * @generated
-	 */
-	void setData(GeometryData value);
+    /**
+     * Sets the value of the '{@link org.bimserver.models.ifc2x3tc1.GeometryInfo#getData <em>Data</em>}' reference.
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @param value the new value of the '<em>Data</em>' reference.
+     * @see #getData()
+     * @generated
+     */
+    void setData(GeometryData value);
 
 } // GeometryInfo

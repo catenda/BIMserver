@@ -25,107 +25,107 @@ import org.eclipse.emf.common.util.EList;
  *
  * <p>
  * The following features are supported:
+ * </p>
  * <ul>
  *   <li>{@link org.bimserver.models.ifc2x3tc1.IfcRelConnectsPathElements#getRelatingPriorities <em>Relating Priorities</em>}</li>
  *   <li>{@link org.bimserver.models.ifc2x3tc1.IfcRelConnectsPathElements#getRelatedPriorities <em>Related Priorities</em>}</li>
  *   <li>{@link org.bimserver.models.ifc2x3tc1.IfcRelConnectsPathElements#getRelatedConnectionType <em>Related Connection Type</em>}</li>
  *   <li>{@link org.bimserver.models.ifc2x3tc1.IfcRelConnectsPathElements#getRelatingConnectionType <em>Relating Connection Type</em>}</li>
  * </ul>
- * </p>
  *
  * @see org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package#getIfcRelConnectsPathElements()
  * @model
  * @generated
  */
 public interface IfcRelConnectsPathElements extends IfcRelConnectsElements {
-	/**
-	 * Returns the value of the '<em><b>Relating Priorities</b></em>' attribute list.
-	 * The list contents are of type {@link java.lang.Integer}.
-	 * <!-- begin-user-doc -->
-	 * <p>
-	 * If the meaning of the '<em>Relating Priorities</em>' attribute list isn't clear,
-	 * there really should be more of a description here...
-	 * </p>
-	 * <!-- end-user-doc -->
-	 * @return the value of the '<em>Relating Priorities</em>' attribute list.
-	 * @see org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package#getIfcRelConnectsPathElements_RelatingPriorities()
-	 * @model unique="false"
-	 * @generated
-	 */
-	EList<Integer> getRelatingPriorities();
+    /**
+     * Returns the value of the '<em><b>Relating Priorities</b></em>' attribute list.
+     * The list contents are of type {@link java.lang.Long}.
+     * <!-- begin-user-doc -->
+     * <p>
+     * If the meaning of the '<em>Relating Priorities</em>' attribute list isn't clear,
+     * there really should be more of a description here...
+     * </p>
+     * <!-- end-user-doc -->
+     * @return the value of the '<em>Relating Priorities</em>' attribute list.
+     * @see org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package#getIfcRelConnectsPathElements_RelatingPriorities()
+     * @model unique="false"
+     * @generated
+     */
+    EList<Long> getRelatingPriorities();
 
-	/**
-	 * Returns the value of the '<em><b>Related Priorities</b></em>' attribute list.
-	 * The list contents are of type {@link java.lang.Integer}.
-	 * <!-- begin-user-doc -->
-	 * <p>
-	 * If the meaning of the '<em>Related Priorities</em>' attribute list isn't clear,
-	 * there really should be more of a description here...
-	 * </p>
-	 * <!-- end-user-doc -->
-	 * @return the value of the '<em>Related Priorities</em>' attribute list.
-	 * @see org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package#getIfcRelConnectsPathElements_RelatedPriorities()
-	 * @model unique="false"
-	 * @generated
-	 */
-	EList<Integer> getRelatedPriorities();
+    /**
+     * Returns the value of the '<em><b>Related Priorities</b></em>' attribute list.
+     * The list contents are of type {@link java.lang.Long}.
+     * <!-- begin-user-doc -->
+     * <p>
+     * If the meaning of the '<em>Related Priorities</em>' attribute list isn't clear,
+     * there really should be more of a description here...
+     * </p>
+     * <!-- end-user-doc -->
+     * @return the value of the '<em>Related Priorities</em>' attribute list.
+     * @see org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package#getIfcRelConnectsPathElements_RelatedPriorities()
+     * @model unique="false"
+     * @generated
+     */
+    EList<Long> getRelatedPriorities();
 
-	/**
-	 * Returns the value of the '<em><b>Related Connection Type</b></em>' attribute.
-	 * The literals are from the enumeration {@link org.bimserver.models.ifc2x3tc1.IfcConnectionTypeEnum}.
-	 * <!-- begin-user-doc -->
-	 * <p>
-	 * If the meaning of the '<em>Related Connection Type</em>' attribute isn't clear,
-	 * there really should be more of a description here...
-	 * </p>
-	 * <!-- end-user-doc -->
-	 * @return the value of the '<em>Related Connection Type</em>' attribute.
-	 * @see org.bimserver.models.ifc2x3tc1.IfcConnectionTypeEnum
-	 * @see #setRelatedConnectionType(IfcConnectionTypeEnum)
-	 * @see org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package#getIfcRelConnectsPathElements_RelatedConnectionType()
-	 * @model
-	 * @generated
-	 */
-	IfcConnectionTypeEnum getRelatedConnectionType();
+    /**
+     * Returns the value of the '<em><b>Related Connection Type</b></em>' attribute.
+     * The literals are from the enumeration {@link org.bimserver.models.ifc2x3tc1.IfcConnectionTypeEnum}.
+     * <!-- begin-user-doc -->
+     * <p>
+     * If the meaning of the '<em>Related Connection Type</em>' attribute isn't clear,
+     * there really should be more of a description here...
+     * </p>
+     * <!-- end-user-doc -->
+     * @return the value of the '<em>Related Connection Type</em>' attribute.
+     * @see org.bimserver.models.ifc2x3tc1.IfcConnectionTypeEnum
+     * @see #setRelatedConnectionType(IfcConnectionTypeEnum)
+     * @see org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package#getIfcRelConnectsPathElements_RelatedConnectionType()
+     * @model
+     * @generated
+     */
+    IfcConnectionTypeEnum getRelatedConnectionType();
 
-	/**
-	 * Sets the value of the '{@link org.bimserver.models.ifc2x3tc1.IfcRelConnectsPathElements#getRelatedConnectionType <em>Related Connection Type</em>}' attribute.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @param value the new value of the '<em>Related Connection Type</em>' attribute.
-	 * @see org.bimserver.models.ifc2x3tc1.IfcConnectionTypeEnum
-	 * @see #getRelatedConnectionType()
-	 * @generated
-	 */
-	void setRelatedConnectionType(IfcConnectionTypeEnum value);
+    /**
+     * Sets the value of the '{@link org.bimserver.models.ifc2x3tc1.IfcRelConnectsPathElements#getRelatedConnectionType <em>Related Connection Type</em>}' attribute.
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @param value the new value of the '<em>Related Connection Type</em>' attribute.
+     * @see org.bimserver.models.ifc2x3tc1.IfcConnectionTypeEnum
+     * @see #getRelatedConnectionType()
+     * @generated
+     */
+    void setRelatedConnectionType(IfcConnectionTypeEnum value);
 
-	/**
-	 * Returns the value of the '<em><b>Relating Connection Type</b></em>' attribute.
-	 * The literals are from the enumeration {@link org.bimserver.models.ifc2x3tc1.IfcConnectionTypeEnum}.
-	 * <!-- begin-user-doc -->
-	 * <p>
-	 * If the meaning of the '<em>Relating Connection Type</em>' attribute isn't clear,
-	 * there really should be more of a description here...
-	 * </p>
-	 * <!-- end-user-doc -->
-	 * @return the value of the '<em>Relating Connection Type</em>' attribute.
-	 * @see org.bimserver.models.ifc2x3tc1.IfcConnectionTypeEnum
-	 * @see #setRelatingConnectionType(IfcConnectionTypeEnum)
-	 * @see org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package#getIfcRelConnectsPathElements_RelatingConnectionType()
-	 * @model
-	 * @generated
-	 */
-	IfcConnectionTypeEnum getRelatingConnectionType();
+    /**
+     * Returns the value of the '<em><b>Relating Connection Type</b></em>' attribute.
+     * The literals are from the enumeration {@link org.bimserver.models.ifc2x3tc1.IfcConnectionTypeEnum}.
+     * <!-- begin-user-doc -->
+     * <p>
+     * If the meaning of the '<em>Relating Connection Type</em>' attribute isn't clear,
+     * there really should be more of a description here...
+     * </p>
+     * <!-- end-user-doc -->
+     * @return the value of the '<em>Relating Connection Type</em>' attribute.
+     * @see org.bimserver.models.ifc2x3tc1.IfcConnectionTypeEnum
+     * @see #setRelatingConnectionType(IfcConnectionTypeEnum)
+     * @see org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package#getIfcRelConnectsPathElements_RelatingConnectionType()
+     * @model
+     * @generated
+     */
+    IfcConnectionTypeEnum getRelatingConnectionType();
 
-	/**
-	 * Sets the value of the '{@link org.bimserver.models.ifc2x3tc1.IfcRelConnectsPathElements#getRelatingConnectionType <em>Relating Connection Type</em>}' attribute.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @param value the new value of the '<em>Relating Connection Type</em>' attribute.
-	 * @see org.bimserver.models.ifc2x3tc1.IfcConnectionTypeEnum
-	 * @see #getRelatingConnectionType()
-	 * @generated
-	 */
-	void setRelatingConnectionType(IfcConnectionTypeEnum value);
+    /**
+     * Sets the value of the '{@link org.bimserver.models.ifc2x3tc1.IfcRelConnectsPathElements#getRelatingConnectionType <em>Relating Connection Type</em>}' attribute.
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @param value the new value of the '<em>Relating Connection Type</em>' attribute.
+     * @see org.bimserver.models.ifc2x3tc1.IfcConnectionTypeEnum
+     * @see #getRelatingConnectionType()
+     * @generated
+     */
+    void setRelatingConnectionType(IfcConnectionTypeEnum value);
 
 } // IfcRelConnectsPathElements

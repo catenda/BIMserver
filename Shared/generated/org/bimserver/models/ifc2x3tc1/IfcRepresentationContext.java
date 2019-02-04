@@ -17,6 +17,7 @@
 package org.bimserver.models.ifc2x3tc1;
 
 import org.bimserver.emf.IdEObject;
+
 import org.eclipse.emf.common.util.EList;
 
 /**
@@ -26,12 +27,12 @@ import org.eclipse.emf.common.util.EList;
  *
  * <p>
  * The following features are supported:
+ * </p>
  * <ul>
  *   <li>{@link org.bimserver.models.ifc2x3tc1.IfcRepresentationContext#getContextIdentifier <em>Context Identifier</em>}</li>
  *   <li>{@link org.bimserver.models.ifc2x3tc1.IfcRepresentationContext#getContextType <em>Context Type</em>}</li>
  *   <li>{@link org.bimserver.models.ifc2x3tc1.IfcRepresentationContext#getRepresentationsInContext <em>Representations In Context</em>}</li>
  * </ul>
- * </p>
  *
  * @see org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package#getIfcRepresentationContext()
  * @model
@@ -39,151 +40,151 @@ import org.eclipse.emf.common.util.EList;
  * @generated
  */
 public interface IfcRepresentationContext extends IdEObject {
-	/**
-	 * Returns the value of the '<em><b>Context Identifier</b></em>' attribute.
-	 * <!-- begin-user-doc -->
-	 * <p>
-	 * If the meaning of the '<em>Context Identifier</em>' attribute isn't clear,
-	 * there really should be more of a description here...
-	 * </p>
-	 * <!-- end-user-doc -->
-	 * @return the value of the '<em>Context Identifier</em>' attribute.
-	 * @see #isSetContextIdentifier()
-	 * @see #unsetContextIdentifier()
-	 * @see #setContextIdentifier(String)
-	 * @see org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package#getIfcRepresentationContext_ContextIdentifier()
-	 * @model unsettable="true"
-	 * @generated
-	 */
-	String getContextIdentifier();
+    /**
+     * Returns the value of the '<em><b>Context Identifier</b></em>' attribute.
+     * <!-- begin-user-doc -->
+     * <p>
+     * If the meaning of the '<em>Context Identifier</em>' attribute isn't clear,
+     * there really should be more of a description here...
+     * </p>
+     * <!-- end-user-doc -->
+     * @return the value of the '<em>Context Identifier</em>' attribute.
+     * @see #isSetContextIdentifier()
+     * @see #unsetContextIdentifier()
+     * @see #setContextIdentifier(String)
+     * @see org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package#getIfcRepresentationContext_ContextIdentifier()
+     * @model unsettable="true"
+     * @generated
+     */
+    String getContextIdentifier();
 
-	/**
-	 * Sets the value of the '{@link org.bimserver.models.ifc2x3tc1.IfcRepresentationContext#getContextIdentifier <em>Context Identifier</em>}' attribute.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @param value the new value of the '<em>Context Identifier</em>' attribute.
-	 * @see #isSetContextIdentifier()
-	 * @see #unsetContextIdentifier()
-	 * @see #getContextIdentifier()
-	 * @generated
-	 */
-	void setContextIdentifier(String value);
+    /**
+     * Sets the value of the '{@link org.bimserver.models.ifc2x3tc1.IfcRepresentationContext#getContextIdentifier <em>Context Identifier</em>}' attribute.
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @param value the new value of the '<em>Context Identifier</em>' attribute.
+     * @see #isSetContextIdentifier()
+     * @see #unsetContextIdentifier()
+     * @see #getContextIdentifier()
+     * @generated
+     */
+    void setContextIdentifier(String value);
 
-	/**
-	 * Unsets the value of the '{@link org.bimserver.models.ifc2x3tc1.IfcRepresentationContext#getContextIdentifier <em>Context Identifier</em>}' attribute.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @see #isSetContextIdentifier()
-	 * @see #getContextIdentifier()
-	 * @see #setContextIdentifier(String)
-	 * @generated
-	 */
-	void unsetContextIdentifier();
+    /**
+     * Unsets the value of the '{@link org.bimserver.models.ifc2x3tc1.IfcRepresentationContext#getContextIdentifier <em>Context Identifier</em>}' attribute.
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @see #isSetContextIdentifier()
+     * @see #getContextIdentifier()
+     * @see #setContextIdentifier(String)
+     * @generated
+     */
+    void unsetContextIdentifier();
 
-	/**
-	 * Returns whether the value of the '{@link org.bimserver.models.ifc2x3tc1.IfcRepresentationContext#getContextIdentifier <em>Context Identifier</em>}' attribute is set.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @return whether the value of the '<em>Context Identifier</em>' attribute is set.
-	 * @see #unsetContextIdentifier()
-	 * @see #getContextIdentifier()
-	 * @see #setContextIdentifier(String)
-	 * @generated
-	 */
-	boolean isSetContextIdentifier();
+    /**
+     * Returns whether the value of the '{@link org.bimserver.models.ifc2x3tc1.IfcRepresentationContext#getContextIdentifier <em>Context Identifier</em>}' attribute is set.
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @return whether the value of the '<em>Context Identifier</em>' attribute is set.
+     * @see #unsetContextIdentifier()
+     * @see #getContextIdentifier()
+     * @see #setContextIdentifier(String)
+     * @generated
+     */
+    boolean isSetContextIdentifier();
 
-	/**
-	 * Returns the value of the '<em><b>Context Type</b></em>' attribute.
-	 * <!-- begin-user-doc -->
-	 * <p>
-	 * If the meaning of the '<em>Context Type</em>' attribute isn't clear,
-	 * there really should be more of a description here...
-	 * </p>
-	 * <!-- end-user-doc -->
-	 * @return the value of the '<em>Context Type</em>' attribute.
-	 * @see #isSetContextType()
-	 * @see #unsetContextType()
-	 * @see #setContextType(String)
-	 * @see org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package#getIfcRepresentationContext_ContextType()
-	 * @model unsettable="true"
-	 * @generated
-	 */
-	String getContextType();
+    /**
+     * Returns the value of the '<em><b>Context Type</b></em>' attribute.
+     * <!-- begin-user-doc -->
+     * <p>
+     * If the meaning of the '<em>Context Type</em>' attribute isn't clear,
+     * there really should be more of a description here...
+     * </p>
+     * <!-- end-user-doc -->
+     * @return the value of the '<em>Context Type</em>' attribute.
+     * @see #isSetContextType()
+     * @see #unsetContextType()
+     * @see #setContextType(String)
+     * @see org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package#getIfcRepresentationContext_ContextType()
+     * @model unsettable="true"
+     * @generated
+     */
+    String getContextType();
 
-	/**
-	 * Sets the value of the '{@link org.bimserver.models.ifc2x3tc1.IfcRepresentationContext#getContextType <em>Context Type</em>}' attribute.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @param value the new value of the '<em>Context Type</em>' attribute.
-	 * @see #isSetContextType()
-	 * @see #unsetContextType()
-	 * @see #getContextType()
-	 * @generated
-	 */
-	void setContextType(String value);
+    /**
+     * Sets the value of the '{@link org.bimserver.models.ifc2x3tc1.IfcRepresentationContext#getContextType <em>Context Type</em>}' attribute.
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @param value the new value of the '<em>Context Type</em>' attribute.
+     * @see #isSetContextType()
+     * @see #unsetContextType()
+     * @see #getContextType()
+     * @generated
+     */
+    void setContextType(String value);
 
-	/**
-	 * Unsets the value of the '{@link org.bimserver.models.ifc2x3tc1.IfcRepresentationContext#getContextType <em>Context Type</em>}' attribute.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @see #isSetContextType()
-	 * @see #getContextType()
-	 * @see #setContextType(String)
-	 * @generated
-	 */
-	void unsetContextType();
+    /**
+     * Unsets the value of the '{@link org.bimserver.models.ifc2x3tc1.IfcRepresentationContext#getContextType <em>Context Type</em>}' attribute.
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @see #isSetContextType()
+     * @see #getContextType()
+     * @see #setContextType(String)
+     * @generated
+     */
+    void unsetContextType();
 
-	/**
-	 * Returns whether the value of the '{@link org.bimserver.models.ifc2x3tc1.IfcRepresentationContext#getContextType <em>Context Type</em>}' attribute is set.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @return whether the value of the '<em>Context Type</em>' attribute is set.
-	 * @see #unsetContextType()
-	 * @see #getContextType()
-	 * @see #setContextType(String)
-	 * @generated
-	 */
-	boolean isSetContextType();
+    /**
+     * Returns whether the value of the '{@link org.bimserver.models.ifc2x3tc1.IfcRepresentationContext#getContextType <em>Context Type</em>}' attribute is set.
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @return whether the value of the '<em>Context Type</em>' attribute is set.
+     * @see #unsetContextType()
+     * @see #getContextType()
+     * @see #setContextType(String)
+     * @generated
+     */
+    boolean isSetContextType();
 
-	/**
-	 * Returns the value of the '<em><b>Representations In Context</b></em>' reference list.
-	 * The list contents are of type {@link org.bimserver.models.ifc2x3tc1.IfcRepresentation}.
-	 * It is bidirectional and its opposite is '{@link org.bimserver.models.ifc2x3tc1.IfcRepresentation#getContextOfItems <em>Context Of Items</em>}'.
-	 * <!-- begin-user-doc -->
-	 * <p>
-	 * If the meaning of the '<em>Representations In Context</em>' reference list isn't clear,
-	 * there really should be more of a description here...
-	 * </p>
-	 * <!-- end-user-doc -->
-	 * @return the value of the '<em>Representations In Context</em>' reference list.
-	 * @see #isSetRepresentationsInContext()
-	 * @see #unsetRepresentationsInContext()
-	 * @see org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package#getIfcRepresentationContext_RepresentationsInContext()
-	 * @see org.bimserver.models.ifc2x3tc1.IfcRepresentation#getContextOfItems
-	 * @model opposite="ContextOfItems" unsettable="true"
-	 * @generated
-	 */
-	EList<IfcRepresentation> getRepresentationsInContext();
+    /**
+     * Returns the value of the '<em><b>Representations In Context</b></em>' reference list.
+     * The list contents are of type {@link org.bimserver.models.ifc2x3tc1.IfcRepresentation}.
+     * It is bidirectional and its opposite is '{@link org.bimserver.models.ifc2x3tc1.IfcRepresentation#getContextOfItems <em>Context Of Items</em>}'.
+     * <!-- begin-user-doc -->
+     * <p>
+     * If the meaning of the '<em>Representations In Context</em>' reference list isn't clear,
+     * there really should be more of a description here...
+     * </p>
+     * <!-- end-user-doc -->
+     * @return the value of the '<em>Representations In Context</em>' reference list.
+     * @see #isSetRepresentationsInContext()
+     * @see #unsetRepresentationsInContext()
+     * @see org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package#getIfcRepresentationContext_RepresentationsInContext()
+     * @see org.bimserver.models.ifc2x3tc1.IfcRepresentation#getContextOfItems
+     * @model opposite="ContextOfItems" unsettable="true"
+     * @generated
+     */
+    EList<IfcRepresentation> getRepresentationsInContext();
 
-	/**
-	 * Unsets the value of the '{@link org.bimserver.models.ifc2x3tc1.IfcRepresentationContext#getRepresentationsInContext <em>Representations In Context</em>}' reference list.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @see #isSetRepresentationsInContext()
-	 * @see #getRepresentationsInContext()
-	 * @generated
-	 */
-	void unsetRepresentationsInContext();
+    /**
+     * Unsets the value of the '{@link org.bimserver.models.ifc2x3tc1.IfcRepresentationContext#getRepresentationsInContext <em>Representations In Context</em>}' reference list.
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @see #isSetRepresentationsInContext()
+     * @see #getRepresentationsInContext()
+     * @generated
+     */
+    void unsetRepresentationsInContext();
 
-	/**
-	 * Returns whether the value of the '{@link org.bimserver.models.ifc2x3tc1.IfcRepresentationContext#getRepresentationsInContext <em>Representations In Context</em>}' reference list is set.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @return whether the value of the '<em>Representations In Context</em>' reference list is set.
-	 * @see #unsetRepresentationsInContext()
-	 * @see #getRepresentationsInContext()
-	 * @generated
-	 */
-	boolean isSetRepresentationsInContext();
+    /**
+     * Returns whether the value of the '{@link org.bimserver.models.ifc2x3tc1.IfcRepresentationContext#getRepresentationsInContext <em>Representations In Context</em>}' reference list is set.
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @return whether the value of the '<em>Representations In Context</em>' reference list is set.
+     * @see #unsetRepresentationsInContext()
+     * @see #getRepresentationsInContext()
+     * @generated
+     */
+    boolean isSetRepresentationsInContext();
 
 } // IfcRepresentationContext

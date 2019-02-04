@@ -19,7 +19,9 @@ package org.bimserver.models.ifc2x3tc1.impl;
 import org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package;
 import org.bimserver.models.ifc2x3tc1.IfcAnnotationFillArea;
 import org.bimserver.models.ifc2x3tc1.IfcCurve;
+
 import org.eclipse.emf.common.util.EList;
+
 import org.eclipse.emf.ecore.EClass;
 
 /**
@@ -28,78 +30,78 @@ import org.eclipse.emf.ecore.EClass;
  * <!-- end-user-doc -->
  * <p>
  * The following features are implemented:
+ * </p>
  * <ul>
  *   <li>{@link org.bimserver.models.ifc2x3tc1.impl.IfcAnnotationFillAreaImpl#getOuterBoundary <em>Outer Boundary</em>}</li>
  *   <li>{@link org.bimserver.models.ifc2x3tc1.impl.IfcAnnotationFillAreaImpl#getInnerBoundaries <em>Inner Boundaries</em>}</li>
  * </ul>
- * </p>
  *
  * @generated
  */
 public class IfcAnnotationFillAreaImpl extends IfcGeometricRepresentationItemImpl implements IfcAnnotationFillArea {
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	protected IfcAnnotationFillAreaImpl() {
-		super();
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    protected IfcAnnotationFillAreaImpl() {
+        super();
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	@Override
-	protected EClass eStaticClass() {
-		return Ifc2x3tc1Package.Literals.IFC_ANNOTATION_FILL_AREA;
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    @Override
+    protected EClass eStaticClass() {
+        return Ifc2x3tc1Package.Literals.IFC_ANNOTATION_FILL_AREA;
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public IfcCurve getOuterBoundary() {
-		return (IfcCurve) eGet(Ifc2x3tc1Package.Literals.IFC_ANNOTATION_FILL_AREA__OUTER_BOUNDARY, true);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public IfcCurve getOuterBoundary() {
+        return (IfcCurve) eGet(Ifc2x3tc1Package.Literals.IFC_ANNOTATION_FILL_AREA__OUTER_BOUNDARY, true);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public void setOuterBoundary(IfcCurve newOuterBoundary) {
-		eSet(Ifc2x3tc1Package.Literals.IFC_ANNOTATION_FILL_AREA__OUTER_BOUNDARY, newOuterBoundary);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public void setOuterBoundary(IfcCurve newOuterBoundary) {
+        eSet(Ifc2x3tc1Package.Literals.IFC_ANNOTATION_FILL_AREA__OUTER_BOUNDARY, newOuterBoundary);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	@SuppressWarnings("unchecked")
-	public EList<IfcCurve> getInnerBoundaries() {
-		return (EList<IfcCurve>) eGet(Ifc2x3tc1Package.Literals.IFC_ANNOTATION_FILL_AREA__INNER_BOUNDARIES, true);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    @SuppressWarnings("unchecked")
+    public EList<IfcCurve> getInnerBoundaries() {
+        return (EList<IfcCurve>) eGet(Ifc2x3tc1Package.Literals.IFC_ANNOTATION_FILL_AREA__INNER_BOUNDARIES, true);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public void unsetInnerBoundaries() {
-		eUnset(Ifc2x3tc1Package.Literals.IFC_ANNOTATION_FILL_AREA__INNER_BOUNDARIES);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public void unsetInnerBoundaries() {
+        eUnset(Ifc2x3tc1Package.Literals.IFC_ANNOTATION_FILL_AREA__INNER_BOUNDARIES);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public boolean isSetInnerBoundaries() {
-		return eIsSet(Ifc2x3tc1Package.Literals.IFC_ANNOTATION_FILL_AREA__INNER_BOUNDARIES);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public boolean isSetInnerBoundaries() {
+        return eIsSet(Ifc2x3tc1Package.Literals.IFC_ANNOTATION_FILL_AREA__INNER_BOUNDARIES);
+    }
 
 } //IfcAnnotationFillAreaImpl

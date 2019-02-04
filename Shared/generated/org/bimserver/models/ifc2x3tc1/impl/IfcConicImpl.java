@@ -19,6 +19,7 @@ package org.bimserver.models.ifc2x3tc1.impl;
 import org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package;
 import org.bimserver.models.ifc2x3tc1.IfcAxis2Placement;
 import org.bimserver.models.ifc2x3tc1.IfcConic;
+
 import org.eclipse.emf.ecore.EClass;
 
 /**
@@ -27,49 +28,49 @@ import org.eclipse.emf.ecore.EClass;
  * <!-- end-user-doc -->
  * <p>
  * The following features are implemented:
+ * </p>
  * <ul>
  *   <li>{@link org.bimserver.models.ifc2x3tc1.impl.IfcConicImpl#getPosition <em>Position</em>}</li>
  * </ul>
- * </p>
  *
  * @generated
  */
 public class IfcConicImpl extends IfcCurveImpl implements IfcConic {
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	protected IfcConicImpl() {
-		super();
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    protected IfcConicImpl() {
+        super();
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	@Override
-	protected EClass eStaticClass() {
-		return Ifc2x3tc1Package.Literals.IFC_CONIC;
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    @Override
+    protected EClass eStaticClass() {
+        return Ifc2x3tc1Package.Literals.IFC_CONIC;
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public IfcAxis2Placement getPosition() {
-		return (IfcAxis2Placement) eGet(Ifc2x3tc1Package.Literals.IFC_CONIC__POSITION, true);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public IfcAxis2Placement getPosition() {
+        return (IfcAxis2Placement) eGet(Ifc2x3tc1Package.Literals.IFC_CONIC__POSITION, true);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public void setPosition(IfcAxis2Placement newPosition) {
-		eSet(Ifc2x3tc1Package.Literals.IFC_CONIC__POSITION, newPosition);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public void setPosition(IfcAxis2Placement newPosition) {
+        eSet(Ifc2x3tc1Package.Literals.IFC_CONIC__POSITION, newPosition);
+    }
 
 } //IfcConicImpl

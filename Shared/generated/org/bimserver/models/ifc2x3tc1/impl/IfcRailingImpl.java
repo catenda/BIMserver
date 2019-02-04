@@ -19,6 +19,7 @@ package org.bimserver.models.ifc2x3tc1.impl;
 import org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package;
 import org.bimserver.models.ifc2x3tc1.IfcRailing;
 import org.bimserver.models.ifc2x3tc1.IfcRailingTypeEnum;
+
 import org.eclipse.emf.ecore.EClass;
 
 /**
@@ -27,67 +28,67 @@ import org.eclipse.emf.ecore.EClass;
  * <!-- end-user-doc -->
  * <p>
  * The following features are implemented:
+ * </p>
  * <ul>
  *   <li>{@link org.bimserver.models.ifc2x3tc1.impl.IfcRailingImpl#getPredefinedType <em>Predefined Type</em>}</li>
  * </ul>
- * </p>
  *
  * @generated
  */
 public class IfcRailingImpl extends IfcBuildingElementImpl implements IfcRailing {
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	protected IfcRailingImpl() {
-		super();
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    protected IfcRailingImpl() {
+        super();
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	@Override
-	protected EClass eStaticClass() {
-		return Ifc2x3tc1Package.Literals.IFC_RAILING;
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    @Override
+    protected EClass eStaticClass() {
+        return Ifc2x3tc1Package.Literals.IFC_RAILING;
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public IfcRailingTypeEnum getPredefinedType() {
-		return (IfcRailingTypeEnum) eGet(Ifc2x3tc1Package.Literals.IFC_RAILING__PREDEFINED_TYPE, true);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public IfcRailingTypeEnum getPredefinedType() {
+        return (IfcRailingTypeEnum) eGet(Ifc2x3tc1Package.Literals.IFC_RAILING__PREDEFINED_TYPE, true);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public void setPredefinedType(IfcRailingTypeEnum newPredefinedType) {
-		eSet(Ifc2x3tc1Package.Literals.IFC_RAILING__PREDEFINED_TYPE, newPredefinedType);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public void setPredefinedType(IfcRailingTypeEnum newPredefinedType) {
+        eSet(Ifc2x3tc1Package.Literals.IFC_RAILING__PREDEFINED_TYPE, newPredefinedType);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public void unsetPredefinedType() {
-		eUnset(Ifc2x3tc1Package.Literals.IFC_RAILING__PREDEFINED_TYPE);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public void unsetPredefinedType() {
+        eUnset(Ifc2x3tc1Package.Literals.IFC_RAILING__PREDEFINED_TYPE);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public boolean isSetPredefinedType() {
-		return eIsSet(Ifc2x3tc1Package.Literals.IFC_RAILING__PREDEFINED_TYPE);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public boolean isSetPredefinedType() {
+        return eIsSet(Ifc2x3tc1Package.Literals.IFC_RAILING__PREDEFINED_TYPE);
+    }
 
 } //IfcRailingImpl

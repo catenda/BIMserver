@@ -18,6 +18,7 @@ package org.bimserver.models.ifc2x3tc1.impl;
 
 import org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package;
 import org.bimserver.models.ifc2x3tc1.IfcQuantityWeight;
+
 import org.eclipse.emf.ecore.EClass;
 
 /**
@@ -26,68 +27,68 @@ import org.eclipse.emf.ecore.EClass;
  * <!-- end-user-doc -->
  * <p>
  * The following features are implemented:
+ * </p>
  * <ul>
  *   <li>{@link org.bimserver.models.ifc2x3tc1.impl.IfcQuantityWeightImpl#getWeightValue <em>Weight Value</em>}</li>
  *   <li>{@link org.bimserver.models.ifc2x3tc1.impl.IfcQuantityWeightImpl#getWeightValueAsString <em>Weight Value As String</em>}</li>
  * </ul>
- * </p>
  *
  * @generated
  */
 public class IfcQuantityWeightImpl extends IfcPhysicalSimpleQuantityImpl implements IfcQuantityWeight {
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	protected IfcQuantityWeightImpl() {
-		super();
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    protected IfcQuantityWeightImpl() {
+        super();
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	@Override
-	protected EClass eStaticClass() {
-		return Ifc2x3tc1Package.Literals.IFC_QUANTITY_WEIGHT;
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    @Override
+    protected EClass eStaticClass() {
+        return Ifc2x3tc1Package.Literals.IFC_QUANTITY_WEIGHT;
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public double getWeightValue() {
-		return (Double) eGet(Ifc2x3tc1Package.Literals.IFC_QUANTITY_WEIGHT__WEIGHT_VALUE, true);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public double getWeightValue() {
+        return (Double) eGet(Ifc2x3tc1Package.Literals.IFC_QUANTITY_WEIGHT__WEIGHT_VALUE, true);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public void setWeightValue(double newWeightValue) {
-		eSet(Ifc2x3tc1Package.Literals.IFC_QUANTITY_WEIGHT__WEIGHT_VALUE, newWeightValue);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public void setWeightValue(double newWeightValue) {
+        eSet(Ifc2x3tc1Package.Literals.IFC_QUANTITY_WEIGHT__WEIGHT_VALUE, newWeightValue);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public String getWeightValueAsString() {
-		return (String) eGet(Ifc2x3tc1Package.Literals.IFC_QUANTITY_WEIGHT__WEIGHT_VALUE_AS_STRING, true);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public String getWeightValueAsString() {
+        return (String) eGet(Ifc2x3tc1Package.Literals.IFC_QUANTITY_WEIGHT__WEIGHT_VALUE_AS_STRING, true);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public void setWeightValueAsString(String newWeightValueAsString) {
-		eSet(Ifc2x3tc1Package.Literals.IFC_QUANTITY_WEIGHT__WEIGHT_VALUE_AS_STRING, newWeightValueAsString);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public void setWeightValueAsString(String newWeightValueAsString) {
+        eSet(Ifc2x3tc1Package.Literals.IFC_QUANTITY_WEIGHT__WEIGHT_VALUE_AS_STRING, newWeightValueAsString);
+    }
 
 } //IfcQuantityWeightImpl

@@ -20,6 +20,7 @@ import org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package;
 import org.bimserver.models.ifc2x3tc1.IfcHalfSpaceSolid;
 import org.bimserver.models.ifc2x3tc1.IfcSurface;
 import org.bimserver.models.ifc2x3tc1.Tristate;
+
 import org.eclipse.emf.ecore.EClass;
 
 /**
@@ -28,105 +29,105 @@ import org.eclipse.emf.ecore.EClass;
  * <!-- end-user-doc -->
  * <p>
  * The following features are implemented:
+ * </p>
  * <ul>
  *   <li>{@link org.bimserver.models.ifc2x3tc1.impl.IfcHalfSpaceSolidImpl#getBaseSurface <em>Base Surface</em>}</li>
  *   <li>{@link org.bimserver.models.ifc2x3tc1.impl.IfcHalfSpaceSolidImpl#getAgreementFlag <em>Agreement Flag</em>}</li>
  *   <li>{@link org.bimserver.models.ifc2x3tc1.impl.IfcHalfSpaceSolidImpl#getDim <em>Dim</em>}</li>
  * </ul>
- * </p>
  *
  * @generated
  */
 public class IfcHalfSpaceSolidImpl extends IfcGeometricRepresentationItemImpl implements IfcHalfSpaceSolid {
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	protected IfcHalfSpaceSolidImpl() {
-		super();
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    protected IfcHalfSpaceSolidImpl() {
+        super();
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	@Override
-	protected EClass eStaticClass() {
-		return Ifc2x3tc1Package.Literals.IFC_HALF_SPACE_SOLID;
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    @Override
+    protected EClass eStaticClass() {
+        return Ifc2x3tc1Package.Literals.IFC_HALF_SPACE_SOLID;
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public IfcSurface getBaseSurface() {
-		return (IfcSurface) eGet(Ifc2x3tc1Package.Literals.IFC_HALF_SPACE_SOLID__BASE_SURFACE, true);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public IfcSurface getBaseSurface() {
+        return (IfcSurface) eGet(Ifc2x3tc1Package.Literals.IFC_HALF_SPACE_SOLID__BASE_SURFACE, true);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public void setBaseSurface(IfcSurface newBaseSurface) {
-		eSet(Ifc2x3tc1Package.Literals.IFC_HALF_SPACE_SOLID__BASE_SURFACE, newBaseSurface);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public void setBaseSurface(IfcSurface newBaseSurface) {
+        eSet(Ifc2x3tc1Package.Literals.IFC_HALF_SPACE_SOLID__BASE_SURFACE, newBaseSurface);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public Tristate getAgreementFlag() {
-		return (Tristate) eGet(Ifc2x3tc1Package.Literals.IFC_HALF_SPACE_SOLID__AGREEMENT_FLAG, true);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public Tristate getAgreementFlag() {
+        return (Tristate) eGet(Ifc2x3tc1Package.Literals.IFC_HALF_SPACE_SOLID__AGREEMENT_FLAG, true);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public void setAgreementFlag(Tristate newAgreementFlag) {
-		eSet(Ifc2x3tc1Package.Literals.IFC_HALF_SPACE_SOLID__AGREEMENT_FLAG, newAgreementFlag);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public void setAgreementFlag(Tristate newAgreementFlag) {
+        eSet(Ifc2x3tc1Package.Literals.IFC_HALF_SPACE_SOLID__AGREEMENT_FLAG, newAgreementFlag);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public int getDim() {
-		return (Integer) eGet(Ifc2x3tc1Package.Literals.IFC_HALF_SPACE_SOLID__DIM, true);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public long getDim() {
+        return (Long) eGet(Ifc2x3tc1Package.Literals.IFC_HALF_SPACE_SOLID__DIM, true);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public void setDim(int newDim) {
-		eSet(Ifc2x3tc1Package.Literals.IFC_HALF_SPACE_SOLID__DIM, newDim);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public void setDim(long newDim) {
+        eSet(Ifc2x3tc1Package.Literals.IFC_HALF_SPACE_SOLID__DIM, newDim);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public void unsetDim() {
-		eUnset(Ifc2x3tc1Package.Literals.IFC_HALF_SPACE_SOLID__DIM);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public void unsetDim() {
+        eUnset(Ifc2x3tc1Package.Literals.IFC_HALF_SPACE_SOLID__DIM);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public boolean isSetDim() {
-		return eIsSet(Ifc2x3tc1Package.Literals.IFC_HALF_SPACE_SOLID__DIM);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public boolean isSetDim() {
+        return eIsSet(Ifc2x3tc1Package.Literals.IFC_HALF_SPACE_SOLID__DIM);
+    }
 
 } //IfcHalfSpaceSolidImpl

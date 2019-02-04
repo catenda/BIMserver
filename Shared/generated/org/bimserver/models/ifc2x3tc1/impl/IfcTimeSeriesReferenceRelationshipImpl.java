@@ -17,11 +17,14 @@
 package org.bimserver.models.ifc2x3tc1.impl;
 
 import org.bimserver.emf.IdEObjectImpl;
+
 import org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package;
 import org.bimserver.models.ifc2x3tc1.IfcDocumentSelect;
 import org.bimserver.models.ifc2x3tc1.IfcTimeSeries;
 import org.bimserver.models.ifc2x3tc1.IfcTimeSeriesReferenceRelationship;
+
 import org.eclipse.emf.common.util.EList;
+
 import org.eclipse.emf.ecore.EClass;
 
 /**
@@ -30,70 +33,74 @@ import org.eclipse.emf.ecore.EClass;
  * <!-- end-user-doc -->
  * <p>
  * The following features are implemented:
+ * </p>
  * <ul>
  *   <li>{@link org.bimserver.models.ifc2x3tc1.impl.IfcTimeSeriesReferenceRelationshipImpl#getReferencedTimeSeries <em>Referenced Time Series</em>}</li>
  *   <li>{@link org.bimserver.models.ifc2x3tc1.impl.IfcTimeSeriesReferenceRelationshipImpl#getTimeSeriesReferences <em>Time Series References</em>}</li>
  * </ul>
- * </p>
  *
  * @generated
  */
-public class IfcTimeSeriesReferenceRelationshipImpl extends IdEObjectImpl implements IfcTimeSeriesReferenceRelationship {
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	protected IfcTimeSeriesReferenceRelationshipImpl() {
-		super();
-	}
+public class IfcTimeSeriesReferenceRelationshipImpl extends IdEObjectImpl
+        implements IfcTimeSeriesReferenceRelationship {
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    protected IfcTimeSeriesReferenceRelationshipImpl() {
+        super();
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	@Override
-	protected EClass eStaticClass() {
-		return Ifc2x3tc1Package.Literals.IFC_TIME_SERIES_REFERENCE_RELATIONSHIP;
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    @Override
+    protected EClass eStaticClass() {
+        return Ifc2x3tc1Package.Literals.IFC_TIME_SERIES_REFERENCE_RELATIONSHIP;
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	@Override
-	protected int eStaticFeatureCount() {
-		return 0;
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    @Override
+    protected int eStaticFeatureCount() {
+        return 0;
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public IfcTimeSeries getReferencedTimeSeries() {
-		return (IfcTimeSeries) eGet(Ifc2x3tc1Package.Literals.IFC_TIME_SERIES_REFERENCE_RELATIONSHIP__REFERENCED_TIME_SERIES, true);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public IfcTimeSeries getReferencedTimeSeries() {
+        return (IfcTimeSeries) eGet(
+                Ifc2x3tc1Package.Literals.IFC_TIME_SERIES_REFERENCE_RELATIONSHIP__REFERENCED_TIME_SERIES, true);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public void setReferencedTimeSeries(IfcTimeSeries newReferencedTimeSeries) {
-		eSet(Ifc2x3tc1Package.Literals.IFC_TIME_SERIES_REFERENCE_RELATIONSHIP__REFERENCED_TIME_SERIES, newReferencedTimeSeries);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public void setReferencedTimeSeries(IfcTimeSeries newReferencedTimeSeries) {
+        eSet(Ifc2x3tc1Package.Literals.IFC_TIME_SERIES_REFERENCE_RELATIONSHIP__REFERENCED_TIME_SERIES,
+                newReferencedTimeSeries);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	@SuppressWarnings("unchecked")
-	public EList<IfcDocumentSelect> getTimeSeriesReferences() {
-		return (EList<IfcDocumentSelect>) eGet(Ifc2x3tc1Package.Literals.IFC_TIME_SERIES_REFERENCE_RELATIONSHIP__TIME_SERIES_REFERENCES, true);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    @SuppressWarnings("unchecked")
+    public EList<IfcDocumentSelect> getTimeSeriesReferences() {
+        return (EList<IfcDocumentSelect>) eGet(
+                Ifc2x3tc1Package.Literals.IFC_TIME_SERIES_REFERENCE_RELATIONSHIP__TIME_SERIES_REFERENCES, true);
+    }
 
 } //IfcTimeSeriesReferenceRelationshipImpl

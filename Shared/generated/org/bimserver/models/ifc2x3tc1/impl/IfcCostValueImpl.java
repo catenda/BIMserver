@@ -18,6 +18,7 @@ package org.bimserver.models.ifc2x3tc1.impl;
 
 import org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package;
 import org.bimserver.models.ifc2x3tc1.IfcCostValue;
+
 import org.eclipse.emf.ecore.EClass;
 
 /**
@@ -26,86 +27,86 @@ import org.eclipse.emf.ecore.EClass;
  * <!-- end-user-doc -->
  * <p>
  * The following features are implemented:
+ * </p>
  * <ul>
  *   <li>{@link org.bimserver.models.ifc2x3tc1.impl.IfcCostValueImpl#getCostType <em>Cost Type</em>}</li>
  *   <li>{@link org.bimserver.models.ifc2x3tc1.impl.IfcCostValueImpl#getCondition <em>Condition</em>}</li>
  * </ul>
- * </p>
  *
  * @generated
  */
 public class IfcCostValueImpl extends IfcAppliedValueImpl implements IfcCostValue {
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	protected IfcCostValueImpl() {
-		super();
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    protected IfcCostValueImpl() {
+        super();
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	@Override
-	protected EClass eStaticClass() {
-		return Ifc2x3tc1Package.Literals.IFC_COST_VALUE;
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    @Override
+    protected EClass eStaticClass() {
+        return Ifc2x3tc1Package.Literals.IFC_COST_VALUE;
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public String getCostType() {
-		return (String) eGet(Ifc2x3tc1Package.Literals.IFC_COST_VALUE__COST_TYPE, true);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public String getCostType() {
+        return (String) eGet(Ifc2x3tc1Package.Literals.IFC_COST_VALUE__COST_TYPE, true);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public void setCostType(String newCostType) {
-		eSet(Ifc2x3tc1Package.Literals.IFC_COST_VALUE__COST_TYPE, newCostType);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public void setCostType(String newCostType) {
+        eSet(Ifc2x3tc1Package.Literals.IFC_COST_VALUE__COST_TYPE, newCostType);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public String getCondition() {
-		return (String) eGet(Ifc2x3tc1Package.Literals.IFC_COST_VALUE__CONDITION, true);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public String getCondition() {
+        return (String) eGet(Ifc2x3tc1Package.Literals.IFC_COST_VALUE__CONDITION, true);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public void setCondition(String newCondition) {
-		eSet(Ifc2x3tc1Package.Literals.IFC_COST_VALUE__CONDITION, newCondition);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public void setCondition(String newCondition) {
+        eSet(Ifc2x3tc1Package.Literals.IFC_COST_VALUE__CONDITION, newCondition);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public void unsetCondition() {
-		eUnset(Ifc2x3tc1Package.Literals.IFC_COST_VALUE__CONDITION);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public void unsetCondition() {
+        eUnset(Ifc2x3tc1Package.Literals.IFC_COST_VALUE__CONDITION);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public boolean isSetCondition() {
-		return eIsSet(Ifc2x3tc1Package.Literals.IFC_COST_VALUE__CONDITION);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public boolean isSetCondition() {
+        return eIsSet(Ifc2x3tc1Package.Literals.IFC_COST_VALUE__CONDITION);
+    }
 
 } //IfcCostValueImpl

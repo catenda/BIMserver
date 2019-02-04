@@ -18,6 +18,7 @@ package org.bimserver.models.ifc2x3tc1.impl;
 
 import org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package;
 import org.bimserver.models.ifc2x3tc1.IfcSolidModel;
+
 import org.eclipse.emf.ecore.EClass;
 
 /**
@@ -26,67 +27,67 @@ import org.eclipse.emf.ecore.EClass;
  * <!-- end-user-doc -->
  * <p>
  * The following features are implemented:
+ * </p>
  * <ul>
  *   <li>{@link org.bimserver.models.ifc2x3tc1.impl.IfcSolidModelImpl#getDim <em>Dim</em>}</li>
  * </ul>
- * </p>
  *
  * @generated
  */
 public class IfcSolidModelImpl extends IfcGeometricRepresentationItemImpl implements IfcSolidModel {
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	protected IfcSolidModelImpl() {
-		super();
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    protected IfcSolidModelImpl() {
+        super();
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	@Override
-	protected EClass eStaticClass() {
-		return Ifc2x3tc1Package.Literals.IFC_SOLID_MODEL;
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    @Override
+    protected EClass eStaticClass() {
+        return Ifc2x3tc1Package.Literals.IFC_SOLID_MODEL;
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public int getDim() {
-		return (Integer) eGet(Ifc2x3tc1Package.Literals.IFC_SOLID_MODEL__DIM, true);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public long getDim() {
+        return (Long) eGet(Ifc2x3tc1Package.Literals.IFC_SOLID_MODEL__DIM, true);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public void setDim(int newDim) {
-		eSet(Ifc2x3tc1Package.Literals.IFC_SOLID_MODEL__DIM, newDim);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public void setDim(long newDim) {
+        eSet(Ifc2x3tc1Package.Literals.IFC_SOLID_MODEL__DIM, newDim);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public void unsetDim() {
-		eUnset(Ifc2x3tc1Package.Literals.IFC_SOLID_MODEL__DIM);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public void unsetDim() {
+        eUnset(Ifc2x3tc1Package.Literals.IFC_SOLID_MODEL__DIM);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public boolean isSetDim() {
-		return eIsSet(Ifc2x3tc1Package.Literals.IFC_SOLID_MODEL__DIM);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public boolean isSetDim() {
+        return eIsSet(Ifc2x3tc1Package.Literals.IFC_SOLID_MODEL__DIM);
+    }
 
 } //IfcSolidModelImpl

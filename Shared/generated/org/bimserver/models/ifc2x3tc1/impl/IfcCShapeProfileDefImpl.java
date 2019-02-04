@@ -18,6 +18,7 @@ package org.bimserver.models.ifc2x3tc1.impl;
 
 import org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package;
 import org.bimserver.models.ifc2x3tc1.IfcCShapeProfileDef;
+
 import org.eclipse.emf.ecore.EClass;
 
 /**
@@ -26,6 +27,7 @@ import org.eclipse.emf.ecore.EClass;
  * <!-- end-user-doc -->
  * <p>
  * The following features are implemented:
+ * </p>
  * <ul>
  *   <li>{@link org.bimserver.models.ifc2x3tc1.impl.IfcCShapeProfileDefImpl#getDepth <em>Depth</em>}</li>
  *   <li>{@link org.bimserver.models.ifc2x3tc1.impl.IfcCShapeProfileDefImpl#getDepthAsString <em>Depth As String</em>}</li>
@@ -40,316 +42,317 @@ import org.eclipse.emf.ecore.EClass;
  *   <li>{@link org.bimserver.models.ifc2x3tc1.impl.IfcCShapeProfileDefImpl#getCentreOfGravityInX <em>Centre Of Gravity In X</em>}</li>
  *   <li>{@link org.bimserver.models.ifc2x3tc1.impl.IfcCShapeProfileDefImpl#getCentreOfGravityInXAsString <em>Centre Of Gravity In XAs String</em>}</li>
  * </ul>
- * </p>
  *
  * @generated
  */
 public class IfcCShapeProfileDefImpl extends IfcParameterizedProfileDefImpl implements IfcCShapeProfileDef {
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	protected IfcCShapeProfileDefImpl() {
-		super();
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    protected IfcCShapeProfileDefImpl() {
+        super();
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	@Override
-	protected EClass eStaticClass() {
-		return Ifc2x3tc1Package.Literals.IFC_CSHAPE_PROFILE_DEF;
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    @Override
+    protected EClass eStaticClass() {
+        return Ifc2x3tc1Package.Literals.IFC_CSHAPE_PROFILE_DEF;
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public double getDepth() {
-		return (Double) eGet(Ifc2x3tc1Package.Literals.IFC_CSHAPE_PROFILE_DEF__DEPTH, true);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public double getDepth() {
+        return (Double) eGet(Ifc2x3tc1Package.Literals.IFC_CSHAPE_PROFILE_DEF__DEPTH, true);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public void setDepth(double newDepth) {
-		eSet(Ifc2x3tc1Package.Literals.IFC_CSHAPE_PROFILE_DEF__DEPTH, newDepth);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public void setDepth(double newDepth) {
+        eSet(Ifc2x3tc1Package.Literals.IFC_CSHAPE_PROFILE_DEF__DEPTH, newDepth);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public String getDepthAsString() {
-		return (String) eGet(Ifc2x3tc1Package.Literals.IFC_CSHAPE_PROFILE_DEF__DEPTH_AS_STRING, true);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public String getDepthAsString() {
+        return (String) eGet(Ifc2x3tc1Package.Literals.IFC_CSHAPE_PROFILE_DEF__DEPTH_AS_STRING, true);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public void setDepthAsString(String newDepthAsString) {
-		eSet(Ifc2x3tc1Package.Literals.IFC_CSHAPE_PROFILE_DEF__DEPTH_AS_STRING, newDepthAsString);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public void setDepthAsString(String newDepthAsString) {
+        eSet(Ifc2x3tc1Package.Literals.IFC_CSHAPE_PROFILE_DEF__DEPTH_AS_STRING, newDepthAsString);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public double getWidth() {
-		return (Double) eGet(Ifc2x3tc1Package.Literals.IFC_CSHAPE_PROFILE_DEF__WIDTH, true);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public double getWidth() {
+        return (Double) eGet(Ifc2x3tc1Package.Literals.IFC_CSHAPE_PROFILE_DEF__WIDTH, true);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public void setWidth(double newWidth) {
-		eSet(Ifc2x3tc1Package.Literals.IFC_CSHAPE_PROFILE_DEF__WIDTH, newWidth);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public void setWidth(double newWidth) {
+        eSet(Ifc2x3tc1Package.Literals.IFC_CSHAPE_PROFILE_DEF__WIDTH, newWidth);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public String getWidthAsString() {
-		return (String) eGet(Ifc2x3tc1Package.Literals.IFC_CSHAPE_PROFILE_DEF__WIDTH_AS_STRING, true);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public String getWidthAsString() {
+        return (String) eGet(Ifc2x3tc1Package.Literals.IFC_CSHAPE_PROFILE_DEF__WIDTH_AS_STRING, true);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public void setWidthAsString(String newWidthAsString) {
-		eSet(Ifc2x3tc1Package.Literals.IFC_CSHAPE_PROFILE_DEF__WIDTH_AS_STRING, newWidthAsString);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public void setWidthAsString(String newWidthAsString) {
+        eSet(Ifc2x3tc1Package.Literals.IFC_CSHAPE_PROFILE_DEF__WIDTH_AS_STRING, newWidthAsString);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public double getWallThickness() {
-		return (Double) eGet(Ifc2x3tc1Package.Literals.IFC_CSHAPE_PROFILE_DEF__WALL_THICKNESS, true);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public double getWallThickness() {
+        return (Double) eGet(Ifc2x3tc1Package.Literals.IFC_CSHAPE_PROFILE_DEF__WALL_THICKNESS, true);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public void setWallThickness(double newWallThickness) {
-		eSet(Ifc2x3tc1Package.Literals.IFC_CSHAPE_PROFILE_DEF__WALL_THICKNESS, newWallThickness);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public void setWallThickness(double newWallThickness) {
+        eSet(Ifc2x3tc1Package.Literals.IFC_CSHAPE_PROFILE_DEF__WALL_THICKNESS, newWallThickness);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public String getWallThicknessAsString() {
-		return (String) eGet(Ifc2x3tc1Package.Literals.IFC_CSHAPE_PROFILE_DEF__WALL_THICKNESS_AS_STRING, true);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public String getWallThicknessAsString() {
+        return (String) eGet(Ifc2x3tc1Package.Literals.IFC_CSHAPE_PROFILE_DEF__WALL_THICKNESS_AS_STRING, true);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public void setWallThicknessAsString(String newWallThicknessAsString) {
-		eSet(Ifc2x3tc1Package.Literals.IFC_CSHAPE_PROFILE_DEF__WALL_THICKNESS_AS_STRING, newWallThicknessAsString);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public void setWallThicknessAsString(String newWallThicknessAsString) {
+        eSet(Ifc2x3tc1Package.Literals.IFC_CSHAPE_PROFILE_DEF__WALL_THICKNESS_AS_STRING, newWallThicknessAsString);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public double getGirth() {
-		return (Double) eGet(Ifc2x3tc1Package.Literals.IFC_CSHAPE_PROFILE_DEF__GIRTH, true);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public double getGirth() {
+        return (Double) eGet(Ifc2x3tc1Package.Literals.IFC_CSHAPE_PROFILE_DEF__GIRTH, true);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public void setGirth(double newGirth) {
-		eSet(Ifc2x3tc1Package.Literals.IFC_CSHAPE_PROFILE_DEF__GIRTH, newGirth);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public void setGirth(double newGirth) {
+        eSet(Ifc2x3tc1Package.Literals.IFC_CSHAPE_PROFILE_DEF__GIRTH, newGirth);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public String getGirthAsString() {
-		return (String) eGet(Ifc2x3tc1Package.Literals.IFC_CSHAPE_PROFILE_DEF__GIRTH_AS_STRING, true);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public String getGirthAsString() {
+        return (String) eGet(Ifc2x3tc1Package.Literals.IFC_CSHAPE_PROFILE_DEF__GIRTH_AS_STRING, true);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public void setGirthAsString(String newGirthAsString) {
-		eSet(Ifc2x3tc1Package.Literals.IFC_CSHAPE_PROFILE_DEF__GIRTH_AS_STRING, newGirthAsString);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public void setGirthAsString(String newGirthAsString) {
+        eSet(Ifc2x3tc1Package.Literals.IFC_CSHAPE_PROFILE_DEF__GIRTH_AS_STRING, newGirthAsString);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public double getInternalFilletRadius() {
-		return (Double) eGet(Ifc2x3tc1Package.Literals.IFC_CSHAPE_PROFILE_DEF__INTERNAL_FILLET_RADIUS, true);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public double getInternalFilletRadius() {
+        return (Double) eGet(Ifc2x3tc1Package.Literals.IFC_CSHAPE_PROFILE_DEF__INTERNAL_FILLET_RADIUS, true);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public void setInternalFilletRadius(double newInternalFilletRadius) {
-		eSet(Ifc2x3tc1Package.Literals.IFC_CSHAPE_PROFILE_DEF__INTERNAL_FILLET_RADIUS, newInternalFilletRadius);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public void setInternalFilletRadius(double newInternalFilletRadius) {
+        eSet(Ifc2x3tc1Package.Literals.IFC_CSHAPE_PROFILE_DEF__INTERNAL_FILLET_RADIUS, newInternalFilletRadius);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public void unsetInternalFilletRadius() {
-		eUnset(Ifc2x3tc1Package.Literals.IFC_CSHAPE_PROFILE_DEF__INTERNAL_FILLET_RADIUS);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public void unsetInternalFilletRadius() {
+        eUnset(Ifc2x3tc1Package.Literals.IFC_CSHAPE_PROFILE_DEF__INTERNAL_FILLET_RADIUS);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public boolean isSetInternalFilletRadius() {
-		return eIsSet(Ifc2x3tc1Package.Literals.IFC_CSHAPE_PROFILE_DEF__INTERNAL_FILLET_RADIUS);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public boolean isSetInternalFilletRadius() {
+        return eIsSet(Ifc2x3tc1Package.Literals.IFC_CSHAPE_PROFILE_DEF__INTERNAL_FILLET_RADIUS);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public String getInternalFilletRadiusAsString() {
-		return (String) eGet(Ifc2x3tc1Package.Literals.IFC_CSHAPE_PROFILE_DEF__INTERNAL_FILLET_RADIUS_AS_STRING, true);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public String getInternalFilletRadiusAsString() {
+        return (String) eGet(Ifc2x3tc1Package.Literals.IFC_CSHAPE_PROFILE_DEF__INTERNAL_FILLET_RADIUS_AS_STRING, true);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public void setInternalFilletRadiusAsString(String newInternalFilletRadiusAsString) {
-		eSet(Ifc2x3tc1Package.Literals.IFC_CSHAPE_PROFILE_DEF__INTERNAL_FILLET_RADIUS_AS_STRING, newInternalFilletRadiusAsString);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public void setInternalFilletRadiusAsString(String newInternalFilletRadiusAsString) {
+        eSet(Ifc2x3tc1Package.Literals.IFC_CSHAPE_PROFILE_DEF__INTERNAL_FILLET_RADIUS_AS_STRING,
+                newInternalFilletRadiusAsString);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public void unsetInternalFilletRadiusAsString() {
-		eUnset(Ifc2x3tc1Package.Literals.IFC_CSHAPE_PROFILE_DEF__INTERNAL_FILLET_RADIUS_AS_STRING);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public void unsetInternalFilletRadiusAsString() {
+        eUnset(Ifc2x3tc1Package.Literals.IFC_CSHAPE_PROFILE_DEF__INTERNAL_FILLET_RADIUS_AS_STRING);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public boolean isSetInternalFilletRadiusAsString() {
-		return eIsSet(Ifc2x3tc1Package.Literals.IFC_CSHAPE_PROFILE_DEF__INTERNAL_FILLET_RADIUS_AS_STRING);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public boolean isSetInternalFilletRadiusAsString() {
+        return eIsSet(Ifc2x3tc1Package.Literals.IFC_CSHAPE_PROFILE_DEF__INTERNAL_FILLET_RADIUS_AS_STRING);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public double getCentreOfGravityInX() {
-		return (Double) eGet(Ifc2x3tc1Package.Literals.IFC_CSHAPE_PROFILE_DEF__CENTRE_OF_GRAVITY_IN_X, true);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public double getCentreOfGravityInX() {
+        return (Double) eGet(Ifc2x3tc1Package.Literals.IFC_CSHAPE_PROFILE_DEF__CENTRE_OF_GRAVITY_IN_X, true);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public void setCentreOfGravityInX(double newCentreOfGravityInX) {
-		eSet(Ifc2x3tc1Package.Literals.IFC_CSHAPE_PROFILE_DEF__CENTRE_OF_GRAVITY_IN_X, newCentreOfGravityInX);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public void setCentreOfGravityInX(double newCentreOfGravityInX) {
+        eSet(Ifc2x3tc1Package.Literals.IFC_CSHAPE_PROFILE_DEF__CENTRE_OF_GRAVITY_IN_X, newCentreOfGravityInX);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public void unsetCentreOfGravityInX() {
-		eUnset(Ifc2x3tc1Package.Literals.IFC_CSHAPE_PROFILE_DEF__CENTRE_OF_GRAVITY_IN_X);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public void unsetCentreOfGravityInX() {
+        eUnset(Ifc2x3tc1Package.Literals.IFC_CSHAPE_PROFILE_DEF__CENTRE_OF_GRAVITY_IN_X);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public boolean isSetCentreOfGravityInX() {
-		return eIsSet(Ifc2x3tc1Package.Literals.IFC_CSHAPE_PROFILE_DEF__CENTRE_OF_GRAVITY_IN_X);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public boolean isSetCentreOfGravityInX() {
+        return eIsSet(Ifc2x3tc1Package.Literals.IFC_CSHAPE_PROFILE_DEF__CENTRE_OF_GRAVITY_IN_X);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public String getCentreOfGravityInXAsString() {
-		return (String) eGet(Ifc2x3tc1Package.Literals.IFC_CSHAPE_PROFILE_DEF__CENTRE_OF_GRAVITY_IN_XAS_STRING, true);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public String getCentreOfGravityInXAsString() {
+        return (String) eGet(Ifc2x3tc1Package.Literals.IFC_CSHAPE_PROFILE_DEF__CENTRE_OF_GRAVITY_IN_XAS_STRING, true);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public void setCentreOfGravityInXAsString(String newCentreOfGravityInXAsString) {
-		eSet(Ifc2x3tc1Package.Literals.IFC_CSHAPE_PROFILE_DEF__CENTRE_OF_GRAVITY_IN_XAS_STRING, newCentreOfGravityInXAsString);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public void setCentreOfGravityInXAsString(String newCentreOfGravityInXAsString) {
+        eSet(Ifc2x3tc1Package.Literals.IFC_CSHAPE_PROFILE_DEF__CENTRE_OF_GRAVITY_IN_XAS_STRING,
+                newCentreOfGravityInXAsString);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public void unsetCentreOfGravityInXAsString() {
-		eUnset(Ifc2x3tc1Package.Literals.IFC_CSHAPE_PROFILE_DEF__CENTRE_OF_GRAVITY_IN_XAS_STRING);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public void unsetCentreOfGravityInXAsString() {
+        eUnset(Ifc2x3tc1Package.Literals.IFC_CSHAPE_PROFILE_DEF__CENTRE_OF_GRAVITY_IN_XAS_STRING);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public boolean isSetCentreOfGravityInXAsString() {
-		return eIsSet(Ifc2x3tc1Package.Literals.IFC_CSHAPE_PROFILE_DEF__CENTRE_OF_GRAVITY_IN_XAS_STRING);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public boolean isSetCentreOfGravityInXAsString() {
+        return eIsSet(Ifc2x3tc1Package.Literals.IFC_CSHAPE_PROFILE_DEF__CENTRE_OF_GRAVITY_IN_XAS_STRING);
+    }
 
 } //IfcCShapeProfileDefImpl

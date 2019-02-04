@@ -22,7 +22,9 @@ import org.bimserver.models.ifc2x3tc1.IfcStructuralAnalysisModel;
 import org.bimserver.models.ifc2x3tc1.IfcStructuralLoadGroup;
 import org.bimserver.models.ifc2x3tc1.IfcStructuralResultGroup;
 import org.bimserver.models.ifc2x3tc1.Tristate;
+
 import org.eclipse.emf.common.util.EList;
+
 import org.eclipse.emf.ecore.EClass;
 
 /**
@@ -31,134 +33,137 @@ import org.eclipse.emf.ecore.EClass;
  * <!-- end-user-doc -->
  * <p>
  * The following features are implemented:
+ * </p>
  * <ul>
  *   <li>{@link org.bimserver.models.ifc2x3tc1.impl.IfcStructuralResultGroupImpl#getTheoryType <em>Theory Type</em>}</li>
  *   <li>{@link org.bimserver.models.ifc2x3tc1.impl.IfcStructuralResultGroupImpl#getResultForLoadGroup <em>Result For Load Group</em>}</li>
  *   <li>{@link org.bimserver.models.ifc2x3tc1.impl.IfcStructuralResultGroupImpl#getIsLinear <em>Is Linear</em>}</li>
  *   <li>{@link org.bimserver.models.ifc2x3tc1.impl.IfcStructuralResultGroupImpl#getResultGroupFor <em>Result Group For</em>}</li>
  * </ul>
- * </p>
  *
  * @generated
  */
 public class IfcStructuralResultGroupImpl extends IfcGroupImpl implements IfcStructuralResultGroup {
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	protected IfcStructuralResultGroupImpl() {
-		super();
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    protected IfcStructuralResultGroupImpl() {
+        super();
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	@Override
-	protected EClass eStaticClass() {
-		return Ifc2x3tc1Package.Literals.IFC_STRUCTURAL_RESULT_GROUP;
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    @Override
+    protected EClass eStaticClass() {
+        return Ifc2x3tc1Package.Literals.IFC_STRUCTURAL_RESULT_GROUP;
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public IfcAnalysisTheoryTypeEnum getTheoryType() {
-		return (IfcAnalysisTheoryTypeEnum) eGet(Ifc2x3tc1Package.Literals.IFC_STRUCTURAL_RESULT_GROUP__THEORY_TYPE, true);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public IfcAnalysisTheoryTypeEnum getTheoryType() {
+        return (IfcAnalysisTheoryTypeEnum) eGet(Ifc2x3tc1Package.Literals.IFC_STRUCTURAL_RESULT_GROUP__THEORY_TYPE,
+                true);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public void setTheoryType(IfcAnalysisTheoryTypeEnum newTheoryType) {
-		eSet(Ifc2x3tc1Package.Literals.IFC_STRUCTURAL_RESULT_GROUP__THEORY_TYPE, newTheoryType);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public void setTheoryType(IfcAnalysisTheoryTypeEnum newTheoryType) {
+        eSet(Ifc2x3tc1Package.Literals.IFC_STRUCTURAL_RESULT_GROUP__THEORY_TYPE, newTheoryType);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public IfcStructuralLoadGroup getResultForLoadGroup() {
-		return (IfcStructuralLoadGroup) eGet(Ifc2x3tc1Package.Literals.IFC_STRUCTURAL_RESULT_GROUP__RESULT_FOR_LOAD_GROUP, true);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public IfcStructuralLoadGroup getResultForLoadGroup() {
+        return (IfcStructuralLoadGroup) eGet(
+                Ifc2x3tc1Package.Literals.IFC_STRUCTURAL_RESULT_GROUP__RESULT_FOR_LOAD_GROUP, true);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public void setResultForLoadGroup(IfcStructuralLoadGroup newResultForLoadGroup) {
-		eSet(Ifc2x3tc1Package.Literals.IFC_STRUCTURAL_RESULT_GROUP__RESULT_FOR_LOAD_GROUP, newResultForLoadGroup);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public void setResultForLoadGroup(IfcStructuralLoadGroup newResultForLoadGroup) {
+        eSet(Ifc2x3tc1Package.Literals.IFC_STRUCTURAL_RESULT_GROUP__RESULT_FOR_LOAD_GROUP, newResultForLoadGroup);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public void unsetResultForLoadGroup() {
-		eUnset(Ifc2x3tc1Package.Literals.IFC_STRUCTURAL_RESULT_GROUP__RESULT_FOR_LOAD_GROUP);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public void unsetResultForLoadGroup() {
+        eUnset(Ifc2x3tc1Package.Literals.IFC_STRUCTURAL_RESULT_GROUP__RESULT_FOR_LOAD_GROUP);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public boolean isSetResultForLoadGroup() {
-		return eIsSet(Ifc2x3tc1Package.Literals.IFC_STRUCTURAL_RESULT_GROUP__RESULT_FOR_LOAD_GROUP);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public boolean isSetResultForLoadGroup() {
+        return eIsSet(Ifc2x3tc1Package.Literals.IFC_STRUCTURAL_RESULT_GROUP__RESULT_FOR_LOAD_GROUP);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public Tristate getIsLinear() {
-		return (Tristate) eGet(Ifc2x3tc1Package.Literals.IFC_STRUCTURAL_RESULT_GROUP__IS_LINEAR, true);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public Tristate getIsLinear() {
+        return (Tristate) eGet(Ifc2x3tc1Package.Literals.IFC_STRUCTURAL_RESULT_GROUP__IS_LINEAR, true);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public void setIsLinear(Tristate newIsLinear) {
-		eSet(Ifc2x3tc1Package.Literals.IFC_STRUCTURAL_RESULT_GROUP__IS_LINEAR, newIsLinear);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public void setIsLinear(Tristate newIsLinear) {
+        eSet(Ifc2x3tc1Package.Literals.IFC_STRUCTURAL_RESULT_GROUP__IS_LINEAR, newIsLinear);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	@SuppressWarnings("unchecked")
-	public EList<IfcStructuralAnalysisModel> getResultGroupFor() {
-		return (EList<IfcStructuralAnalysisModel>) eGet(Ifc2x3tc1Package.Literals.IFC_STRUCTURAL_RESULT_GROUP__RESULT_GROUP_FOR, true);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    @SuppressWarnings("unchecked")
+    public EList<IfcStructuralAnalysisModel> getResultGroupFor() {
+        return (EList<IfcStructuralAnalysisModel>) eGet(
+                Ifc2x3tc1Package.Literals.IFC_STRUCTURAL_RESULT_GROUP__RESULT_GROUP_FOR, true);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public void unsetResultGroupFor() {
-		eUnset(Ifc2x3tc1Package.Literals.IFC_STRUCTURAL_RESULT_GROUP__RESULT_GROUP_FOR);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public void unsetResultGroupFor() {
+        eUnset(Ifc2x3tc1Package.Literals.IFC_STRUCTURAL_RESULT_GROUP__RESULT_GROUP_FOR);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public boolean isSetResultGroupFor() {
-		return eIsSet(Ifc2x3tc1Package.Literals.IFC_STRUCTURAL_RESULT_GROUP__RESULT_GROUP_FOR);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public boolean isSetResultGroupFor() {
+        return eIsSet(Ifc2x3tc1Package.Literals.IFC_STRUCTURAL_RESULT_GROUP__RESULT_GROUP_FOR);
+    }
 
 } //IfcStructuralResultGroupImpl

@@ -17,8 +17,10 @@
 package org.bimserver.models.store.impl;
 
 import org.bimserver.emf.IdEObjectImpl;
+
 import org.bimserver.models.store.File;
 import org.bimserver.models.store.StorePackage;
+
 import org.eclipse.emf.ecore.EClass;
 
 /**
@@ -27,97 +29,97 @@ import org.eclipse.emf.ecore.EClass;
  * <!-- end-user-doc -->
  * <p>
  * The following features are implemented:
+ * </p>
  * <ul>
  *   <li>{@link org.bimserver.models.store.impl.FileImpl#getData <em>Data</em>}</li>
  *   <li>{@link org.bimserver.models.store.impl.FileImpl#getFilename <em>Filename</em>}</li>
  *   <li>{@link org.bimserver.models.store.impl.FileImpl#getMime <em>Mime</em>}</li>
  * </ul>
- * </p>
  *
  * @generated
  */
 public class FileImpl extends IdEObjectImpl implements File {
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	protected FileImpl() {
-		super();
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    protected FileImpl() {
+        super();
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	@Override
-	protected EClass eStaticClass() {
-		return StorePackage.Literals.FILE;
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    @Override
+    protected EClass eStaticClass() {
+        return StorePackage.Literals.FILE;
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	@Override
-	protected int eStaticFeatureCount() {
-		return 0;
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    @Override
+    protected int eStaticFeatureCount() {
+        return 0;
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public byte[] getData() {
-		return (byte[]) eGet(StorePackage.Literals.FILE__DATA, true);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public byte[] getData() {
+        return (byte[]) eGet(StorePackage.Literals.FILE__DATA, true);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public void setData(byte[] newData) {
-		eSet(StorePackage.Literals.FILE__DATA, newData);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public void setData(byte[] newData) {
+        eSet(StorePackage.Literals.FILE__DATA, newData);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public String getFilename() {
-		return (String) eGet(StorePackage.Literals.FILE__FILENAME, true);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public String getFilename() {
+        return (String) eGet(StorePackage.Literals.FILE__FILENAME, true);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public void setFilename(String newFilename) {
-		eSet(StorePackage.Literals.FILE__FILENAME, newFilename);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public void setFilename(String newFilename) {
+        eSet(StorePackage.Literals.FILE__FILENAME, newFilename);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public String getMime() {
-		return (String) eGet(StorePackage.Literals.FILE__MIME, true);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public String getMime() {
+        return (String) eGet(StorePackage.Literals.FILE__MIME, true);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public void setMime(String newMime) {
-		eSet(StorePackage.Literals.FILE__MIME, newMime);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public void setMime(String newMime) {
+        eSet(StorePackage.Literals.FILE__MIME, newMime);
+    }
 
 } //FileImpl

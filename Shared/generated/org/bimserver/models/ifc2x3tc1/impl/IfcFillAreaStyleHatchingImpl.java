@@ -21,6 +21,7 @@ import org.bimserver.models.ifc2x3tc1.IfcCartesianPoint;
 import org.bimserver.models.ifc2x3tc1.IfcCurveStyle;
 import org.bimserver.models.ifc2x3tc1.IfcFillAreaStyleHatching;
 import org.bimserver.models.ifc2x3tc1.IfcHatchLineDistanceSelect;
+
 import org.eclipse.emf.ecore.EClass;
 
 /**
@@ -29,6 +30,7 @@ import org.eclipse.emf.ecore.EClass;
  * <!-- end-user-doc -->
  * <p>
  * The following features are implemented:
+ * </p>
  * <ul>
  *   <li>{@link org.bimserver.models.ifc2x3tc1.impl.IfcFillAreaStyleHatchingImpl#getHatchLineAppearance <em>Hatch Line Appearance</em>}</li>
  *   <li>{@link org.bimserver.models.ifc2x3tc1.impl.IfcFillAreaStyleHatchingImpl#getStartOfNextHatchLine <em>Start Of Next Hatch Line</em>}</li>
@@ -37,172 +39,177 @@ import org.eclipse.emf.ecore.EClass;
  *   <li>{@link org.bimserver.models.ifc2x3tc1.impl.IfcFillAreaStyleHatchingImpl#getHatchLineAngle <em>Hatch Line Angle</em>}</li>
  *   <li>{@link org.bimserver.models.ifc2x3tc1.impl.IfcFillAreaStyleHatchingImpl#getHatchLineAngleAsString <em>Hatch Line Angle As String</em>}</li>
  * </ul>
- * </p>
  *
  * @generated
  */
-public class IfcFillAreaStyleHatchingImpl extends IfcGeometricRepresentationItemImpl implements IfcFillAreaStyleHatching {
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	protected IfcFillAreaStyleHatchingImpl() {
-		super();
-	}
+public class IfcFillAreaStyleHatchingImpl extends IfcGeometricRepresentationItemImpl
+        implements IfcFillAreaStyleHatching {
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    protected IfcFillAreaStyleHatchingImpl() {
+        super();
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	@Override
-	protected EClass eStaticClass() {
-		return Ifc2x3tc1Package.Literals.IFC_FILL_AREA_STYLE_HATCHING;
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    @Override
+    protected EClass eStaticClass() {
+        return Ifc2x3tc1Package.Literals.IFC_FILL_AREA_STYLE_HATCHING;
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public IfcCurveStyle getHatchLineAppearance() {
-		return (IfcCurveStyle) eGet(Ifc2x3tc1Package.Literals.IFC_FILL_AREA_STYLE_HATCHING__HATCH_LINE_APPEARANCE, true);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public IfcCurveStyle getHatchLineAppearance() {
+        return (IfcCurveStyle) eGet(Ifc2x3tc1Package.Literals.IFC_FILL_AREA_STYLE_HATCHING__HATCH_LINE_APPEARANCE,
+                true);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public void setHatchLineAppearance(IfcCurveStyle newHatchLineAppearance) {
-		eSet(Ifc2x3tc1Package.Literals.IFC_FILL_AREA_STYLE_HATCHING__HATCH_LINE_APPEARANCE, newHatchLineAppearance);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public void setHatchLineAppearance(IfcCurveStyle newHatchLineAppearance) {
+        eSet(Ifc2x3tc1Package.Literals.IFC_FILL_AREA_STYLE_HATCHING__HATCH_LINE_APPEARANCE, newHatchLineAppearance);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public IfcHatchLineDistanceSelect getStartOfNextHatchLine() {
-		return (IfcHatchLineDistanceSelect) eGet(Ifc2x3tc1Package.Literals.IFC_FILL_AREA_STYLE_HATCHING__START_OF_NEXT_HATCH_LINE, true);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public IfcHatchLineDistanceSelect getStartOfNextHatchLine() {
+        return (IfcHatchLineDistanceSelect) eGet(
+                Ifc2x3tc1Package.Literals.IFC_FILL_AREA_STYLE_HATCHING__START_OF_NEXT_HATCH_LINE, true);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public void setStartOfNextHatchLine(IfcHatchLineDistanceSelect newStartOfNextHatchLine) {
-		eSet(Ifc2x3tc1Package.Literals.IFC_FILL_AREA_STYLE_HATCHING__START_OF_NEXT_HATCH_LINE, newStartOfNextHatchLine);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public void setStartOfNextHatchLine(IfcHatchLineDistanceSelect newStartOfNextHatchLine) {
+        eSet(Ifc2x3tc1Package.Literals.IFC_FILL_AREA_STYLE_HATCHING__START_OF_NEXT_HATCH_LINE, newStartOfNextHatchLine);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public IfcCartesianPoint getPointOfReferenceHatchLine() {
-		return (IfcCartesianPoint) eGet(Ifc2x3tc1Package.Literals.IFC_FILL_AREA_STYLE_HATCHING__POINT_OF_REFERENCE_HATCH_LINE, true);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public IfcCartesianPoint getPointOfReferenceHatchLine() {
+        return (IfcCartesianPoint) eGet(
+                Ifc2x3tc1Package.Literals.IFC_FILL_AREA_STYLE_HATCHING__POINT_OF_REFERENCE_HATCH_LINE, true);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public void setPointOfReferenceHatchLine(IfcCartesianPoint newPointOfReferenceHatchLine) {
-		eSet(Ifc2x3tc1Package.Literals.IFC_FILL_AREA_STYLE_HATCHING__POINT_OF_REFERENCE_HATCH_LINE, newPointOfReferenceHatchLine);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public void setPointOfReferenceHatchLine(IfcCartesianPoint newPointOfReferenceHatchLine) {
+        eSet(Ifc2x3tc1Package.Literals.IFC_FILL_AREA_STYLE_HATCHING__POINT_OF_REFERENCE_HATCH_LINE,
+                newPointOfReferenceHatchLine);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public void unsetPointOfReferenceHatchLine() {
-		eUnset(Ifc2x3tc1Package.Literals.IFC_FILL_AREA_STYLE_HATCHING__POINT_OF_REFERENCE_HATCH_LINE);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public void unsetPointOfReferenceHatchLine() {
+        eUnset(Ifc2x3tc1Package.Literals.IFC_FILL_AREA_STYLE_HATCHING__POINT_OF_REFERENCE_HATCH_LINE);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public boolean isSetPointOfReferenceHatchLine() {
-		return eIsSet(Ifc2x3tc1Package.Literals.IFC_FILL_AREA_STYLE_HATCHING__POINT_OF_REFERENCE_HATCH_LINE);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public boolean isSetPointOfReferenceHatchLine() {
+        return eIsSet(Ifc2x3tc1Package.Literals.IFC_FILL_AREA_STYLE_HATCHING__POINT_OF_REFERENCE_HATCH_LINE);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public IfcCartesianPoint getPatternStart() {
-		return (IfcCartesianPoint) eGet(Ifc2x3tc1Package.Literals.IFC_FILL_AREA_STYLE_HATCHING__PATTERN_START, true);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public IfcCartesianPoint getPatternStart() {
+        return (IfcCartesianPoint) eGet(Ifc2x3tc1Package.Literals.IFC_FILL_AREA_STYLE_HATCHING__PATTERN_START, true);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public void setPatternStart(IfcCartesianPoint newPatternStart) {
-		eSet(Ifc2x3tc1Package.Literals.IFC_FILL_AREA_STYLE_HATCHING__PATTERN_START, newPatternStart);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public void setPatternStart(IfcCartesianPoint newPatternStart) {
+        eSet(Ifc2x3tc1Package.Literals.IFC_FILL_AREA_STYLE_HATCHING__PATTERN_START, newPatternStart);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public void unsetPatternStart() {
-		eUnset(Ifc2x3tc1Package.Literals.IFC_FILL_AREA_STYLE_HATCHING__PATTERN_START);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public void unsetPatternStart() {
+        eUnset(Ifc2x3tc1Package.Literals.IFC_FILL_AREA_STYLE_HATCHING__PATTERN_START);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public boolean isSetPatternStart() {
-		return eIsSet(Ifc2x3tc1Package.Literals.IFC_FILL_AREA_STYLE_HATCHING__PATTERN_START);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public boolean isSetPatternStart() {
+        return eIsSet(Ifc2x3tc1Package.Literals.IFC_FILL_AREA_STYLE_HATCHING__PATTERN_START);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public double getHatchLineAngle() {
-		return (Double) eGet(Ifc2x3tc1Package.Literals.IFC_FILL_AREA_STYLE_HATCHING__HATCH_LINE_ANGLE, true);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public double getHatchLineAngle() {
+        return (Double) eGet(Ifc2x3tc1Package.Literals.IFC_FILL_AREA_STYLE_HATCHING__HATCH_LINE_ANGLE, true);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public void setHatchLineAngle(double newHatchLineAngle) {
-		eSet(Ifc2x3tc1Package.Literals.IFC_FILL_AREA_STYLE_HATCHING__HATCH_LINE_ANGLE, newHatchLineAngle);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public void setHatchLineAngle(double newHatchLineAngle) {
+        eSet(Ifc2x3tc1Package.Literals.IFC_FILL_AREA_STYLE_HATCHING__HATCH_LINE_ANGLE, newHatchLineAngle);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public String getHatchLineAngleAsString() {
-		return (String) eGet(Ifc2x3tc1Package.Literals.IFC_FILL_AREA_STYLE_HATCHING__HATCH_LINE_ANGLE_AS_STRING, true);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public String getHatchLineAngleAsString() {
+        return (String) eGet(Ifc2x3tc1Package.Literals.IFC_FILL_AREA_STYLE_HATCHING__HATCH_LINE_ANGLE_AS_STRING, true);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public void setHatchLineAngleAsString(String newHatchLineAngleAsString) {
-		eSet(Ifc2x3tc1Package.Literals.IFC_FILL_AREA_STYLE_HATCHING__HATCH_LINE_ANGLE_AS_STRING, newHatchLineAngleAsString);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public void setHatchLineAngleAsString(String newHatchLineAngleAsString) {
+        eSet(Ifc2x3tc1Package.Literals.IFC_FILL_AREA_STYLE_HATCHING__HATCH_LINE_ANGLE_AS_STRING,
+                newHatchLineAngleAsString);
+    }
 
 } //IfcFillAreaStyleHatchingImpl

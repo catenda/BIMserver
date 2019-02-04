@@ -21,6 +21,7 @@ import org.bimserver.models.ifc2x3tc1.IfcDoorPanelOperationEnum;
 import org.bimserver.models.ifc2x3tc1.IfcDoorPanelPositionEnum;
 import org.bimserver.models.ifc2x3tc1.IfcDoorPanelProperties;
 import org.bimserver.models.ifc2x3tc1.IfcShapeAspect;
+
 import org.eclipse.emf.ecore.EClass;
 
 /**
@@ -29,6 +30,7 @@ import org.eclipse.emf.ecore.EClass;
  * <!-- end-user-doc -->
  * <p>
  * The following features are implemented:
+ * </p>
  * <ul>
  *   <li>{@link org.bimserver.models.ifc2x3tc1.impl.IfcDoorPanelPropertiesImpl#getPanelDepth <em>Panel Depth</em>}</li>
  *   <li>{@link org.bimserver.models.ifc2x3tc1.impl.IfcDoorPanelPropertiesImpl#getPanelDepthAsString <em>Panel Depth As String</em>}</li>
@@ -38,244 +40,245 @@ import org.eclipse.emf.ecore.EClass;
  *   <li>{@link org.bimserver.models.ifc2x3tc1.impl.IfcDoorPanelPropertiesImpl#getPanelPosition <em>Panel Position</em>}</li>
  *   <li>{@link org.bimserver.models.ifc2x3tc1.impl.IfcDoorPanelPropertiesImpl#getShapeAspectStyle <em>Shape Aspect Style</em>}</li>
  * </ul>
- * </p>
  *
  * @generated
  */
 public class IfcDoorPanelPropertiesImpl extends IfcPropertySetDefinitionImpl implements IfcDoorPanelProperties {
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	protected IfcDoorPanelPropertiesImpl() {
-		super();
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    protected IfcDoorPanelPropertiesImpl() {
+        super();
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	@Override
-	protected EClass eStaticClass() {
-		return Ifc2x3tc1Package.Literals.IFC_DOOR_PANEL_PROPERTIES;
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    @Override
+    protected EClass eStaticClass() {
+        return Ifc2x3tc1Package.Literals.IFC_DOOR_PANEL_PROPERTIES;
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public double getPanelDepth() {
-		return (Double) eGet(Ifc2x3tc1Package.Literals.IFC_DOOR_PANEL_PROPERTIES__PANEL_DEPTH, true);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public double getPanelDepth() {
+        return (Double) eGet(Ifc2x3tc1Package.Literals.IFC_DOOR_PANEL_PROPERTIES__PANEL_DEPTH, true);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public void setPanelDepth(double newPanelDepth) {
-		eSet(Ifc2x3tc1Package.Literals.IFC_DOOR_PANEL_PROPERTIES__PANEL_DEPTH, newPanelDepth);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public void setPanelDepth(double newPanelDepth) {
+        eSet(Ifc2x3tc1Package.Literals.IFC_DOOR_PANEL_PROPERTIES__PANEL_DEPTH, newPanelDepth);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public void unsetPanelDepth() {
-		eUnset(Ifc2x3tc1Package.Literals.IFC_DOOR_PANEL_PROPERTIES__PANEL_DEPTH);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public void unsetPanelDepth() {
+        eUnset(Ifc2x3tc1Package.Literals.IFC_DOOR_PANEL_PROPERTIES__PANEL_DEPTH);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public boolean isSetPanelDepth() {
-		return eIsSet(Ifc2x3tc1Package.Literals.IFC_DOOR_PANEL_PROPERTIES__PANEL_DEPTH);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public boolean isSetPanelDepth() {
+        return eIsSet(Ifc2x3tc1Package.Literals.IFC_DOOR_PANEL_PROPERTIES__PANEL_DEPTH);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public String getPanelDepthAsString() {
-		return (String) eGet(Ifc2x3tc1Package.Literals.IFC_DOOR_PANEL_PROPERTIES__PANEL_DEPTH_AS_STRING, true);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public String getPanelDepthAsString() {
+        return (String) eGet(Ifc2x3tc1Package.Literals.IFC_DOOR_PANEL_PROPERTIES__PANEL_DEPTH_AS_STRING, true);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public void setPanelDepthAsString(String newPanelDepthAsString) {
-		eSet(Ifc2x3tc1Package.Literals.IFC_DOOR_PANEL_PROPERTIES__PANEL_DEPTH_AS_STRING, newPanelDepthAsString);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public void setPanelDepthAsString(String newPanelDepthAsString) {
+        eSet(Ifc2x3tc1Package.Literals.IFC_DOOR_PANEL_PROPERTIES__PANEL_DEPTH_AS_STRING, newPanelDepthAsString);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public void unsetPanelDepthAsString() {
-		eUnset(Ifc2x3tc1Package.Literals.IFC_DOOR_PANEL_PROPERTIES__PANEL_DEPTH_AS_STRING);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public void unsetPanelDepthAsString() {
+        eUnset(Ifc2x3tc1Package.Literals.IFC_DOOR_PANEL_PROPERTIES__PANEL_DEPTH_AS_STRING);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public boolean isSetPanelDepthAsString() {
-		return eIsSet(Ifc2x3tc1Package.Literals.IFC_DOOR_PANEL_PROPERTIES__PANEL_DEPTH_AS_STRING);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public boolean isSetPanelDepthAsString() {
+        return eIsSet(Ifc2x3tc1Package.Literals.IFC_DOOR_PANEL_PROPERTIES__PANEL_DEPTH_AS_STRING);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public IfcDoorPanelOperationEnum getPanelOperation() {
-		return (IfcDoorPanelOperationEnum) eGet(Ifc2x3tc1Package.Literals.IFC_DOOR_PANEL_PROPERTIES__PANEL_OPERATION, true);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public IfcDoorPanelOperationEnum getPanelOperation() {
+        return (IfcDoorPanelOperationEnum) eGet(Ifc2x3tc1Package.Literals.IFC_DOOR_PANEL_PROPERTIES__PANEL_OPERATION,
+                true);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public void setPanelOperation(IfcDoorPanelOperationEnum newPanelOperation) {
-		eSet(Ifc2x3tc1Package.Literals.IFC_DOOR_PANEL_PROPERTIES__PANEL_OPERATION, newPanelOperation);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public void setPanelOperation(IfcDoorPanelOperationEnum newPanelOperation) {
+        eSet(Ifc2x3tc1Package.Literals.IFC_DOOR_PANEL_PROPERTIES__PANEL_OPERATION, newPanelOperation);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public double getPanelWidth() {
-		return (Double) eGet(Ifc2x3tc1Package.Literals.IFC_DOOR_PANEL_PROPERTIES__PANEL_WIDTH, true);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public double getPanelWidth() {
+        return (Double) eGet(Ifc2x3tc1Package.Literals.IFC_DOOR_PANEL_PROPERTIES__PANEL_WIDTH, true);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public void setPanelWidth(double newPanelWidth) {
-		eSet(Ifc2x3tc1Package.Literals.IFC_DOOR_PANEL_PROPERTIES__PANEL_WIDTH, newPanelWidth);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public void setPanelWidth(double newPanelWidth) {
+        eSet(Ifc2x3tc1Package.Literals.IFC_DOOR_PANEL_PROPERTIES__PANEL_WIDTH, newPanelWidth);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public void unsetPanelWidth() {
-		eUnset(Ifc2x3tc1Package.Literals.IFC_DOOR_PANEL_PROPERTIES__PANEL_WIDTH);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public void unsetPanelWidth() {
+        eUnset(Ifc2x3tc1Package.Literals.IFC_DOOR_PANEL_PROPERTIES__PANEL_WIDTH);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public boolean isSetPanelWidth() {
-		return eIsSet(Ifc2x3tc1Package.Literals.IFC_DOOR_PANEL_PROPERTIES__PANEL_WIDTH);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public boolean isSetPanelWidth() {
+        return eIsSet(Ifc2x3tc1Package.Literals.IFC_DOOR_PANEL_PROPERTIES__PANEL_WIDTH);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public String getPanelWidthAsString() {
-		return (String) eGet(Ifc2x3tc1Package.Literals.IFC_DOOR_PANEL_PROPERTIES__PANEL_WIDTH_AS_STRING, true);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public String getPanelWidthAsString() {
+        return (String) eGet(Ifc2x3tc1Package.Literals.IFC_DOOR_PANEL_PROPERTIES__PANEL_WIDTH_AS_STRING, true);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public void setPanelWidthAsString(String newPanelWidthAsString) {
-		eSet(Ifc2x3tc1Package.Literals.IFC_DOOR_PANEL_PROPERTIES__PANEL_WIDTH_AS_STRING, newPanelWidthAsString);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public void setPanelWidthAsString(String newPanelWidthAsString) {
+        eSet(Ifc2x3tc1Package.Literals.IFC_DOOR_PANEL_PROPERTIES__PANEL_WIDTH_AS_STRING, newPanelWidthAsString);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public void unsetPanelWidthAsString() {
-		eUnset(Ifc2x3tc1Package.Literals.IFC_DOOR_PANEL_PROPERTIES__PANEL_WIDTH_AS_STRING);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public void unsetPanelWidthAsString() {
+        eUnset(Ifc2x3tc1Package.Literals.IFC_DOOR_PANEL_PROPERTIES__PANEL_WIDTH_AS_STRING);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public boolean isSetPanelWidthAsString() {
-		return eIsSet(Ifc2x3tc1Package.Literals.IFC_DOOR_PANEL_PROPERTIES__PANEL_WIDTH_AS_STRING);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public boolean isSetPanelWidthAsString() {
+        return eIsSet(Ifc2x3tc1Package.Literals.IFC_DOOR_PANEL_PROPERTIES__PANEL_WIDTH_AS_STRING);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public IfcDoorPanelPositionEnum getPanelPosition() {
-		return (IfcDoorPanelPositionEnum) eGet(Ifc2x3tc1Package.Literals.IFC_DOOR_PANEL_PROPERTIES__PANEL_POSITION, true);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public IfcDoorPanelPositionEnum getPanelPosition() {
+        return (IfcDoorPanelPositionEnum) eGet(Ifc2x3tc1Package.Literals.IFC_DOOR_PANEL_PROPERTIES__PANEL_POSITION,
+                true);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public void setPanelPosition(IfcDoorPanelPositionEnum newPanelPosition) {
-		eSet(Ifc2x3tc1Package.Literals.IFC_DOOR_PANEL_PROPERTIES__PANEL_POSITION, newPanelPosition);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public void setPanelPosition(IfcDoorPanelPositionEnum newPanelPosition) {
+        eSet(Ifc2x3tc1Package.Literals.IFC_DOOR_PANEL_PROPERTIES__PANEL_POSITION, newPanelPosition);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public IfcShapeAspect getShapeAspectStyle() {
-		return (IfcShapeAspect) eGet(Ifc2x3tc1Package.Literals.IFC_DOOR_PANEL_PROPERTIES__SHAPE_ASPECT_STYLE, true);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public IfcShapeAspect getShapeAspectStyle() {
+        return (IfcShapeAspect) eGet(Ifc2x3tc1Package.Literals.IFC_DOOR_PANEL_PROPERTIES__SHAPE_ASPECT_STYLE, true);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public void setShapeAspectStyle(IfcShapeAspect newShapeAspectStyle) {
-		eSet(Ifc2x3tc1Package.Literals.IFC_DOOR_PANEL_PROPERTIES__SHAPE_ASPECT_STYLE, newShapeAspectStyle);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public void setShapeAspectStyle(IfcShapeAspect newShapeAspectStyle) {
+        eSet(Ifc2x3tc1Package.Literals.IFC_DOOR_PANEL_PROPERTIES__SHAPE_ASPECT_STYLE, newShapeAspectStyle);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public void unsetShapeAspectStyle() {
-		eUnset(Ifc2x3tc1Package.Literals.IFC_DOOR_PANEL_PROPERTIES__SHAPE_ASPECT_STYLE);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public void unsetShapeAspectStyle() {
+        eUnset(Ifc2x3tc1Package.Literals.IFC_DOOR_PANEL_PROPERTIES__SHAPE_ASPECT_STYLE);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public boolean isSetShapeAspectStyle() {
-		return eIsSet(Ifc2x3tc1Package.Literals.IFC_DOOR_PANEL_PROPERTIES__SHAPE_ASPECT_STYLE);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public boolean isSetShapeAspectStyle() {
+        return eIsSet(Ifc2x3tc1Package.Literals.IFC_DOOR_PANEL_PROPERTIES__SHAPE_ASPECT_STYLE);
+    }
 
 } //IfcDoorPanelPropertiesImpl

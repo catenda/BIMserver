@@ -20,7 +20,9 @@ import org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package;
 import org.bimserver.models.ifc2x3tc1.IfcCovering;
 import org.bimserver.models.ifc2x3tc1.IfcElement;
 import org.bimserver.models.ifc2x3tc1.IfcRelCoversBldgElements;
+
 import org.eclipse.emf.common.util.EList;
+
 import org.eclipse.emf.ecore.EClass;
 
 /**
@@ -29,60 +31,63 @@ import org.eclipse.emf.ecore.EClass;
  * <!-- end-user-doc -->
  * <p>
  * The following features are implemented:
+ * </p>
  * <ul>
  *   <li>{@link org.bimserver.models.ifc2x3tc1.impl.IfcRelCoversBldgElementsImpl#getRelatingBuildingElement <em>Relating Building Element</em>}</li>
  *   <li>{@link org.bimserver.models.ifc2x3tc1.impl.IfcRelCoversBldgElementsImpl#getRelatedCoverings <em>Related Coverings</em>}</li>
  * </ul>
- * </p>
  *
  * @generated
  */
 public class IfcRelCoversBldgElementsImpl extends IfcRelConnectsImpl implements IfcRelCoversBldgElements {
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	protected IfcRelCoversBldgElementsImpl() {
-		super();
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    protected IfcRelCoversBldgElementsImpl() {
+        super();
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	@Override
-	protected EClass eStaticClass() {
-		return Ifc2x3tc1Package.Literals.IFC_REL_COVERS_BLDG_ELEMENTS;
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    @Override
+    protected EClass eStaticClass() {
+        return Ifc2x3tc1Package.Literals.IFC_REL_COVERS_BLDG_ELEMENTS;
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public IfcElement getRelatingBuildingElement() {
-		return (IfcElement) eGet(Ifc2x3tc1Package.Literals.IFC_REL_COVERS_BLDG_ELEMENTS__RELATING_BUILDING_ELEMENT, true);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public IfcElement getRelatingBuildingElement() {
+        return (IfcElement) eGet(Ifc2x3tc1Package.Literals.IFC_REL_COVERS_BLDG_ELEMENTS__RELATING_BUILDING_ELEMENT,
+                true);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public void setRelatingBuildingElement(IfcElement newRelatingBuildingElement) {
-		eSet(Ifc2x3tc1Package.Literals.IFC_REL_COVERS_BLDG_ELEMENTS__RELATING_BUILDING_ELEMENT, newRelatingBuildingElement);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public void setRelatingBuildingElement(IfcElement newRelatingBuildingElement) {
+        eSet(Ifc2x3tc1Package.Literals.IFC_REL_COVERS_BLDG_ELEMENTS__RELATING_BUILDING_ELEMENT,
+                newRelatingBuildingElement);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	@SuppressWarnings("unchecked")
-	public EList<IfcCovering> getRelatedCoverings() {
-		return (EList<IfcCovering>) eGet(Ifc2x3tc1Package.Literals.IFC_REL_COVERS_BLDG_ELEMENTS__RELATED_COVERINGS, true);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    @SuppressWarnings("unchecked")
+    public EList<IfcCovering> getRelatedCoverings() {
+        return (EList<IfcCovering>) eGet(Ifc2x3tc1Package.Literals.IFC_REL_COVERS_BLDG_ELEMENTS__RELATED_COVERINGS,
+                true);
+    }
 
 } //IfcRelCoversBldgElementsImpl

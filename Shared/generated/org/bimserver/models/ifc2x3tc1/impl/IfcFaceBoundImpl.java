@@ -20,6 +20,7 @@ import org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package;
 import org.bimserver.models.ifc2x3tc1.IfcFaceBound;
 import org.bimserver.models.ifc2x3tc1.IfcLoop;
 import org.bimserver.models.ifc2x3tc1.Tristate;
+
 import org.eclipse.emf.ecore.EClass;
 
 /**
@@ -28,68 +29,68 @@ import org.eclipse.emf.ecore.EClass;
  * <!-- end-user-doc -->
  * <p>
  * The following features are implemented:
+ * </p>
  * <ul>
  *   <li>{@link org.bimserver.models.ifc2x3tc1.impl.IfcFaceBoundImpl#getBound <em>Bound</em>}</li>
  *   <li>{@link org.bimserver.models.ifc2x3tc1.impl.IfcFaceBoundImpl#getOrientation <em>Orientation</em>}</li>
  * </ul>
- * </p>
  *
  * @generated
  */
 public class IfcFaceBoundImpl extends IfcTopologicalRepresentationItemImpl implements IfcFaceBound {
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	protected IfcFaceBoundImpl() {
-		super();
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    protected IfcFaceBoundImpl() {
+        super();
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	@Override
-	protected EClass eStaticClass() {
-		return Ifc2x3tc1Package.Literals.IFC_FACE_BOUND;
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    @Override
+    protected EClass eStaticClass() {
+        return Ifc2x3tc1Package.Literals.IFC_FACE_BOUND;
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public IfcLoop getBound() {
-		return (IfcLoop) eGet(Ifc2x3tc1Package.Literals.IFC_FACE_BOUND__BOUND, true);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public IfcLoop getBound() {
+        return (IfcLoop) eGet(Ifc2x3tc1Package.Literals.IFC_FACE_BOUND__BOUND, true);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public void setBound(IfcLoop newBound) {
-		eSet(Ifc2x3tc1Package.Literals.IFC_FACE_BOUND__BOUND, newBound);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public void setBound(IfcLoop newBound) {
+        eSet(Ifc2x3tc1Package.Literals.IFC_FACE_BOUND__BOUND, newBound);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public Tristate getOrientation() {
-		return (Tristate) eGet(Ifc2x3tc1Package.Literals.IFC_FACE_BOUND__ORIENTATION, true);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public Tristate getOrientation() {
+        return (Tristate) eGet(Ifc2x3tc1Package.Literals.IFC_FACE_BOUND__ORIENTATION, true);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public void setOrientation(Tristate newOrientation) {
-		eSet(Ifc2x3tc1Package.Literals.IFC_FACE_BOUND__ORIENTATION, newOrientation);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public void setOrientation(Tristate newOrientation) {
+        eSet(Ifc2x3tc1Package.Literals.IFC_FACE_BOUND__ORIENTATION, newOrientation);
+    }
 
 } //IfcFaceBoundImpl

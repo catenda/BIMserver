@@ -19,6 +19,7 @@ package org.bimserver.models.ifc2x3tc1.impl;
 import org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package;
 import org.bimserver.models.ifc2x3tc1.IfcAxis2Placement;
 import org.bimserver.models.ifc2x3tc1.IfcPlanarBox;
+
 import org.eclipse.emf.ecore.EClass;
 
 /**
@@ -27,49 +28,49 @@ import org.eclipse.emf.ecore.EClass;
  * <!-- end-user-doc -->
  * <p>
  * The following features are implemented:
+ * </p>
  * <ul>
  *   <li>{@link org.bimserver.models.ifc2x3tc1.impl.IfcPlanarBoxImpl#getPlacement <em>Placement</em>}</li>
  * </ul>
- * </p>
  *
  * @generated
  */
 public class IfcPlanarBoxImpl extends IfcPlanarExtentImpl implements IfcPlanarBox {
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	protected IfcPlanarBoxImpl() {
-		super();
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    protected IfcPlanarBoxImpl() {
+        super();
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	@Override
-	protected EClass eStaticClass() {
-		return Ifc2x3tc1Package.Literals.IFC_PLANAR_BOX;
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    @Override
+    protected EClass eStaticClass() {
+        return Ifc2x3tc1Package.Literals.IFC_PLANAR_BOX;
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public IfcAxis2Placement getPlacement() {
-		return (IfcAxis2Placement) eGet(Ifc2x3tc1Package.Literals.IFC_PLANAR_BOX__PLACEMENT, true);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public IfcAxis2Placement getPlacement() {
+        return (IfcAxis2Placement) eGet(Ifc2x3tc1Package.Literals.IFC_PLANAR_BOX__PLACEMENT, true);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public void setPlacement(IfcAxis2Placement newPlacement) {
-		eSet(Ifc2x3tc1Package.Literals.IFC_PLANAR_BOX__PLACEMENT, newPlacement);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public void setPlacement(IfcAxis2Placement newPlacement) {
+        eSet(Ifc2x3tc1Package.Literals.IFC_PLANAR_BOX__PLACEMENT, newPlacement);
+    }
 
 } //IfcPlanarBoxImpl

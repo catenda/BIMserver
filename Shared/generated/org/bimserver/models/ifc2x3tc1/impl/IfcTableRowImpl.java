@@ -17,12 +17,15 @@
 package org.bimserver.models.ifc2x3tc1.impl;
 
 import org.bimserver.emf.IdEObjectImpl;
+
 import org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package;
 import org.bimserver.models.ifc2x3tc1.IfcTable;
 import org.bimserver.models.ifc2x3tc1.IfcTableRow;
 import org.bimserver.models.ifc2x3tc1.IfcValue;
 import org.bimserver.models.ifc2x3tc1.Tristate;
+
 import org.eclipse.emf.common.util.EList;
+
 import org.eclipse.emf.ecore.EClass;
 
 /**
@@ -31,107 +34,107 @@ import org.eclipse.emf.ecore.EClass;
  * <!-- end-user-doc -->
  * <p>
  * The following features are implemented:
+ * </p>
  * <ul>
  *   <li>{@link org.bimserver.models.ifc2x3tc1.impl.IfcTableRowImpl#getRowCells <em>Row Cells</em>}</li>
  *   <li>{@link org.bimserver.models.ifc2x3tc1.impl.IfcTableRowImpl#getIsHeading <em>Is Heading</em>}</li>
  *   <li>{@link org.bimserver.models.ifc2x3tc1.impl.IfcTableRowImpl#getOfTable <em>Of Table</em>}</li>
  * </ul>
- * </p>
  *
  * @generated
  */
 public class IfcTableRowImpl extends IdEObjectImpl implements IfcTableRow {
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	protected IfcTableRowImpl() {
-		super();
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    protected IfcTableRowImpl() {
+        super();
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	@Override
-	protected EClass eStaticClass() {
-		return Ifc2x3tc1Package.Literals.IFC_TABLE_ROW;
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    @Override
+    protected EClass eStaticClass() {
+        return Ifc2x3tc1Package.Literals.IFC_TABLE_ROW;
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	@Override
-	protected int eStaticFeatureCount() {
-		return 0;
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    @Override
+    protected int eStaticFeatureCount() {
+        return 0;
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	@SuppressWarnings("unchecked")
-	public EList<IfcValue> getRowCells() {
-		return (EList<IfcValue>) eGet(Ifc2x3tc1Package.Literals.IFC_TABLE_ROW__ROW_CELLS, true);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    @SuppressWarnings("unchecked")
+    public EList<IfcValue> getRowCells() {
+        return (EList<IfcValue>) eGet(Ifc2x3tc1Package.Literals.IFC_TABLE_ROW__ROW_CELLS, true);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public Tristate getIsHeading() {
-		return (Tristate) eGet(Ifc2x3tc1Package.Literals.IFC_TABLE_ROW__IS_HEADING, true);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public Tristate getIsHeading() {
+        return (Tristate) eGet(Ifc2x3tc1Package.Literals.IFC_TABLE_ROW__IS_HEADING, true);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public void setIsHeading(Tristate newIsHeading) {
-		eSet(Ifc2x3tc1Package.Literals.IFC_TABLE_ROW__IS_HEADING, newIsHeading);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public void setIsHeading(Tristate newIsHeading) {
+        eSet(Ifc2x3tc1Package.Literals.IFC_TABLE_ROW__IS_HEADING, newIsHeading);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public IfcTable getOfTable() {
-		return (IfcTable) eGet(Ifc2x3tc1Package.Literals.IFC_TABLE_ROW__OF_TABLE, true);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public IfcTable getOfTable() {
+        return (IfcTable) eGet(Ifc2x3tc1Package.Literals.IFC_TABLE_ROW__OF_TABLE, true);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public void setOfTable(IfcTable newOfTable) {
-		eSet(Ifc2x3tc1Package.Literals.IFC_TABLE_ROW__OF_TABLE, newOfTable);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public void setOfTable(IfcTable newOfTable) {
+        eSet(Ifc2x3tc1Package.Literals.IFC_TABLE_ROW__OF_TABLE, newOfTable);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public void unsetOfTable() {
-		eUnset(Ifc2x3tc1Package.Literals.IFC_TABLE_ROW__OF_TABLE);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public void unsetOfTable() {
+        eUnset(Ifc2x3tc1Package.Literals.IFC_TABLE_ROW__OF_TABLE);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public boolean isSetOfTable() {
-		return eIsSet(Ifc2x3tc1Package.Literals.IFC_TABLE_ROW__OF_TABLE);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public boolean isSetOfTable() {
+        return eIsSet(Ifc2x3tc1Package.Literals.IFC_TABLE_ROW__OF_TABLE);
+    }
 
 } //IfcTableRowImpl

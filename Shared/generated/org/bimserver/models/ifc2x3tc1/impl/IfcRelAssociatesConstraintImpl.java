@@ -19,6 +19,7 @@ package org.bimserver.models.ifc2x3tc1.impl;
 import org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package;
 import org.bimserver.models.ifc2x3tc1.IfcConstraint;
 import org.bimserver.models.ifc2x3tc1.IfcRelAssociatesConstraint;
+
 import org.eclipse.emf.ecore.EClass;
 
 /**
@@ -27,68 +28,68 @@ import org.eclipse.emf.ecore.EClass;
  * <!-- end-user-doc -->
  * <p>
  * The following features are implemented:
+ * </p>
  * <ul>
  *   <li>{@link org.bimserver.models.ifc2x3tc1.impl.IfcRelAssociatesConstraintImpl#getIntent <em>Intent</em>}</li>
  *   <li>{@link org.bimserver.models.ifc2x3tc1.impl.IfcRelAssociatesConstraintImpl#getRelatingConstraint <em>Relating Constraint</em>}</li>
  * </ul>
- * </p>
  *
  * @generated
  */
 public class IfcRelAssociatesConstraintImpl extends IfcRelAssociatesImpl implements IfcRelAssociatesConstraint {
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	protected IfcRelAssociatesConstraintImpl() {
-		super();
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    protected IfcRelAssociatesConstraintImpl() {
+        super();
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	@Override
-	protected EClass eStaticClass() {
-		return Ifc2x3tc1Package.Literals.IFC_REL_ASSOCIATES_CONSTRAINT;
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    @Override
+    protected EClass eStaticClass() {
+        return Ifc2x3tc1Package.Literals.IFC_REL_ASSOCIATES_CONSTRAINT;
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public String getIntent() {
-		return (String) eGet(Ifc2x3tc1Package.Literals.IFC_REL_ASSOCIATES_CONSTRAINT__INTENT, true);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public String getIntent() {
+        return (String) eGet(Ifc2x3tc1Package.Literals.IFC_REL_ASSOCIATES_CONSTRAINT__INTENT, true);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public void setIntent(String newIntent) {
-		eSet(Ifc2x3tc1Package.Literals.IFC_REL_ASSOCIATES_CONSTRAINT__INTENT, newIntent);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public void setIntent(String newIntent) {
+        eSet(Ifc2x3tc1Package.Literals.IFC_REL_ASSOCIATES_CONSTRAINT__INTENT, newIntent);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public IfcConstraint getRelatingConstraint() {
-		return (IfcConstraint) eGet(Ifc2x3tc1Package.Literals.IFC_REL_ASSOCIATES_CONSTRAINT__RELATING_CONSTRAINT, true);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public IfcConstraint getRelatingConstraint() {
+        return (IfcConstraint) eGet(Ifc2x3tc1Package.Literals.IFC_REL_ASSOCIATES_CONSTRAINT__RELATING_CONSTRAINT, true);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public void setRelatingConstraint(IfcConstraint newRelatingConstraint) {
-		eSet(Ifc2x3tc1Package.Literals.IFC_REL_ASSOCIATES_CONSTRAINT__RELATING_CONSTRAINT, newRelatingConstraint);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public void setRelatingConstraint(IfcConstraint newRelatingConstraint) {
+        eSet(Ifc2x3tc1Package.Literals.IFC_REL_ASSOCIATES_CONSTRAINT__RELATING_CONSTRAINT, newRelatingConstraint);
+    }
 
 } //IfcRelAssociatesConstraintImpl

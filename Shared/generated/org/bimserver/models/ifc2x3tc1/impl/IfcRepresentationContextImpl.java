@@ -17,10 +17,13 @@
 package org.bimserver.models.ifc2x3tc1.impl;
 
 import org.bimserver.emf.IdEObjectImpl;
+
 import org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package;
 import org.bimserver.models.ifc2x3tc1.IfcRepresentation;
 import org.bimserver.models.ifc2x3tc1.IfcRepresentationContext;
+
 import org.eclipse.emf.common.util.EList;
+
 import org.eclipse.emf.ecore.EClass;
 
 /**
@@ -29,143 +32,144 @@ import org.eclipse.emf.ecore.EClass;
  * <!-- end-user-doc -->
  * <p>
  * The following features are implemented:
+ * </p>
  * <ul>
  *   <li>{@link org.bimserver.models.ifc2x3tc1.impl.IfcRepresentationContextImpl#getContextIdentifier <em>Context Identifier</em>}</li>
  *   <li>{@link org.bimserver.models.ifc2x3tc1.impl.IfcRepresentationContextImpl#getContextType <em>Context Type</em>}</li>
  *   <li>{@link org.bimserver.models.ifc2x3tc1.impl.IfcRepresentationContextImpl#getRepresentationsInContext <em>Representations In Context</em>}</li>
  * </ul>
- * </p>
  *
  * @generated
  */
 public class IfcRepresentationContextImpl extends IdEObjectImpl implements IfcRepresentationContext {
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	protected IfcRepresentationContextImpl() {
-		super();
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    protected IfcRepresentationContextImpl() {
+        super();
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	@Override
-	protected EClass eStaticClass() {
-		return Ifc2x3tc1Package.Literals.IFC_REPRESENTATION_CONTEXT;
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    @Override
+    protected EClass eStaticClass() {
+        return Ifc2x3tc1Package.Literals.IFC_REPRESENTATION_CONTEXT;
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	@Override
-	protected int eStaticFeatureCount() {
-		return 0;
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    @Override
+    protected int eStaticFeatureCount() {
+        return 0;
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public String getContextIdentifier() {
-		return (String) eGet(Ifc2x3tc1Package.Literals.IFC_REPRESENTATION_CONTEXT__CONTEXT_IDENTIFIER, true);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public String getContextIdentifier() {
+        return (String) eGet(Ifc2x3tc1Package.Literals.IFC_REPRESENTATION_CONTEXT__CONTEXT_IDENTIFIER, true);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public void setContextIdentifier(String newContextIdentifier) {
-		eSet(Ifc2x3tc1Package.Literals.IFC_REPRESENTATION_CONTEXT__CONTEXT_IDENTIFIER, newContextIdentifier);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public void setContextIdentifier(String newContextIdentifier) {
+        eSet(Ifc2x3tc1Package.Literals.IFC_REPRESENTATION_CONTEXT__CONTEXT_IDENTIFIER, newContextIdentifier);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public void unsetContextIdentifier() {
-		eUnset(Ifc2x3tc1Package.Literals.IFC_REPRESENTATION_CONTEXT__CONTEXT_IDENTIFIER);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public void unsetContextIdentifier() {
+        eUnset(Ifc2x3tc1Package.Literals.IFC_REPRESENTATION_CONTEXT__CONTEXT_IDENTIFIER);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public boolean isSetContextIdentifier() {
-		return eIsSet(Ifc2x3tc1Package.Literals.IFC_REPRESENTATION_CONTEXT__CONTEXT_IDENTIFIER);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public boolean isSetContextIdentifier() {
+        return eIsSet(Ifc2x3tc1Package.Literals.IFC_REPRESENTATION_CONTEXT__CONTEXT_IDENTIFIER);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public String getContextType() {
-		return (String) eGet(Ifc2x3tc1Package.Literals.IFC_REPRESENTATION_CONTEXT__CONTEXT_TYPE, true);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public String getContextType() {
+        return (String) eGet(Ifc2x3tc1Package.Literals.IFC_REPRESENTATION_CONTEXT__CONTEXT_TYPE, true);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public void setContextType(String newContextType) {
-		eSet(Ifc2x3tc1Package.Literals.IFC_REPRESENTATION_CONTEXT__CONTEXT_TYPE, newContextType);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public void setContextType(String newContextType) {
+        eSet(Ifc2x3tc1Package.Literals.IFC_REPRESENTATION_CONTEXT__CONTEXT_TYPE, newContextType);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public void unsetContextType() {
-		eUnset(Ifc2x3tc1Package.Literals.IFC_REPRESENTATION_CONTEXT__CONTEXT_TYPE);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public void unsetContextType() {
+        eUnset(Ifc2x3tc1Package.Literals.IFC_REPRESENTATION_CONTEXT__CONTEXT_TYPE);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public boolean isSetContextType() {
-		return eIsSet(Ifc2x3tc1Package.Literals.IFC_REPRESENTATION_CONTEXT__CONTEXT_TYPE);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public boolean isSetContextType() {
+        return eIsSet(Ifc2x3tc1Package.Literals.IFC_REPRESENTATION_CONTEXT__CONTEXT_TYPE);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	@SuppressWarnings("unchecked")
-	public EList<IfcRepresentation> getRepresentationsInContext() {
-		return (EList<IfcRepresentation>) eGet(Ifc2x3tc1Package.Literals.IFC_REPRESENTATION_CONTEXT__REPRESENTATIONS_IN_CONTEXT, true);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    @SuppressWarnings("unchecked")
+    public EList<IfcRepresentation> getRepresentationsInContext() {
+        return (EList<IfcRepresentation>) eGet(
+                Ifc2x3tc1Package.Literals.IFC_REPRESENTATION_CONTEXT__REPRESENTATIONS_IN_CONTEXT, true);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public void unsetRepresentationsInContext() {
-		eUnset(Ifc2x3tc1Package.Literals.IFC_REPRESENTATION_CONTEXT__REPRESENTATIONS_IN_CONTEXT);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public void unsetRepresentationsInContext() {
+        eUnset(Ifc2x3tc1Package.Literals.IFC_REPRESENTATION_CONTEXT__REPRESENTATIONS_IN_CONTEXT);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public boolean isSetRepresentationsInContext() {
-		return eIsSet(Ifc2x3tc1Package.Literals.IFC_REPRESENTATION_CONTEXT__REPRESENTATIONS_IN_CONTEXT);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public boolean isSetRepresentationsInContext() {
+        return eIsSet(Ifc2x3tc1Package.Literals.IFC_REPRESENTATION_CONTEXT__REPRESENTATIONS_IN_CONTEXT);
+    }
 
 } //IfcRepresentationContextImpl

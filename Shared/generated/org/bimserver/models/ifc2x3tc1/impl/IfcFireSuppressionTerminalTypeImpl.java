@@ -19,6 +19,7 @@ package org.bimserver.models.ifc2x3tc1.impl;
 import org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package;
 import org.bimserver.models.ifc2x3tc1.IfcFireSuppressionTerminalType;
 import org.bimserver.models.ifc2x3tc1.IfcFireSuppressionTerminalTypeEnum;
+
 import org.eclipse.emf.ecore.EClass;
 
 /**
@@ -27,49 +28,51 @@ import org.eclipse.emf.ecore.EClass;
  * <!-- end-user-doc -->
  * <p>
  * The following features are implemented:
+ * </p>
  * <ul>
  *   <li>{@link org.bimserver.models.ifc2x3tc1.impl.IfcFireSuppressionTerminalTypeImpl#getPredefinedType <em>Predefined Type</em>}</li>
  * </ul>
- * </p>
  *
  * @generated
  */
-public class IfcFireSuppressionTerminalTypeImpl extends IfcFlowTerminalTypeImpl implements IfcFireSuppressionTerminalType {
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	protected IfcFireSuppressionTerminalTypeImpl() {
-		super();
-	}
+public class IfcFireSuppressionTerminalTypeImpl extends IfcFlowTerminalTypeImpl
+        implements IfcFireSuppressionTerminalType {
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    protected IfcFireSuppressionTerminalTypeImpl() {
+        super();
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	@Override
-	protected EClass eStaticClass() {
-		return Ifc2x3tc1Package.Literals.IFC_FIRE_SUPPRESSION_TERMINAL_TYPE;
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    @Override
+    protected EClass eStaticClass() {
+        return Ifc2x3tc1Package.Literals.IFC_FIRE_SUPPRESSION_TERMINAL_TYPE;
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public IfcFireSuppressionTerminalTypeEnum getPredefinedType() {
-		return (IfcFireSuppressionTerminalTypeEnum) eGet(Ifc2x3tc1Package.Literals.IFC_FIRE_SUPPRESSION_TERMINAL_TYPE__PREDEFINED_TYPE, true);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public IfcFireSuppressionTerminalTypeEnum getPredefinedType() {
+        return (IfcFireSuppressionTerminalTypeEnum) eGet(
+                Ifc2x3tc1Package.Literals.IFC_FIRE_SUPPRESSION_TERMINAL_TYPE__PREDEFINED_TYPE, true);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public void setPredefinedType(IfcFireSuppressionTerminalTypeEnum newPredefinedType) {
-		eSet(Ifc2x3tc1Package.Literals.IFC_FIRE_SUPPRESSION_TERMINAL_TYPE__PREDEFINED_TYPE, newPredefinedType);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public void setPredefinedType(IfcFireSuppressionTerminalTypeEnum newPredefinedType) {
+        eSet(Ifc2x3tc1Package.Literals.IFC_FIRE_SUPPRESSION_TERMINAL_TYPE__PREDEFINED_TYPE, newPredefinedType);
+    }
 
 } //IfcFireSuppressionTerminalTypeImpl

@@ -17,9 +17,11 @@
 package org.bimserver.models.store.impl;
 
 import org.bimserver.emf.IdEObjectImpl;
+
 import org.bimserver.models.store.ImmediateNotificationResult;
 import org.bimserver.models.store.NotifictionResultEnum;
 import org.bimserver.models.store.StorePackage;
+
 import org.eclipse.emf.ecore.EClass;
 
 /**
@@ -28,78 +30,78 @@ import org.eclipse.emf.ecore.EClass;
  * <!-- end-user-doc -->
  * <p>
  * The following features are implemented:
+ * </p>
  * <ul>
  *   <li>{@link org.bimserver.models.store.impl.ImmediateNotificationResultImpl#getResult <em>Result</em>}</li>
  *   <li>{@link org.bimserver.models.store.impl.ImmediateNotificationResultImpl#getDescription <em>Description</em>}</li>
  * </ul>
- * </p>
  *
  * @generated
  */
 public class ImmediateNotificationResultImpl extends IdEObjectImpl implements ImmediateNotificationResult {
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	protected ImmediateNotificationResultImpl() {
-		super();
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    protected ImmediateNotificationResultImpl() {
+        super();
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	@Override
-	protected EClass eStaticClass() {
-		return StorePackage.Literals.IMMEDIATE_NOTIFICATION_RESULT;
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    @Override
+    protected EClass eStaticClass() {
+        return StorePackage.Literals.IMMEDIATE_NOTIFICATION_RESULT;
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	@Override
-	protected int eStaticFeatureCount() {
-		return 0;
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    @Override
+    protected int eStaticFeatureCount() {
+        return 0;
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public NotifictionResultEnum getResult() {
-		return (NotifictionResultEnum) eGet(StorePackage.Literals.IMMEDIATE_NOTIFICATION_RESULT__RESULT, true);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public NotifictionResultEnum getResult() {
+        return (NotifictionResultEnum) eGet(StorePackage.Literals.IMMEDIATE_NOTIFICATION_RESULT__RESULT, true);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public void setResult(NotifictionResultEnum newResult) {
-		eSet(StorePackage.Literals.IMMEDIATE_NOTIFICATION_RESULT__RESULT, newResult);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public void setResult(NotifictionResultEnum newResult) {
+        eSet(StorePackage.Literals.IMMEDIATE_NOTIFICATION_RESULT__RESULT, newResult);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public String getDescription() {
-		return (String) eGet(StorePackage.Literals.IMMEDIATE_NOTIFICATION_RESULT__DESCRIPTION, true);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public String getDescription() {
+        return (String) eGet(StorePackage.Literals.IMMEDIATE_NOTIFICATION_RESULT__DESCRIPTION, true);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public void setDescription(String newDescription) {
-		eSet(StorePackage.Literals.IMMEDIATE_NOTIFICATION_RESULT__DESCRIPTION, newDescription);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public void setDescription(String newDescription) {
+        eSet(StorePackage.Literals.IMMEDIATE_NOTIFICATION_RESULT__DESCRIPTION, newDescription);
+    }
 
 } //ImmediateNotificationResultImpl

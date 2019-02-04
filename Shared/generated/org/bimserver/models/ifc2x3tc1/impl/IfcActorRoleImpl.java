@@ -17,9 +17,11 @@
 package org.bimserver.models.ifc2x3tc1.impl;
 
 import org.bimserver.emf.IdEObjectImpl;
+
 import org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package;
 import org.bimserver.models.ifc2x3tc1.IfcActorRole;
 import org.bimserver.models.ifc2x3tc1.IfcRoleEnum;
+
 import org.eclipse.emf.ecore.EClass;
 
 /**
@@ -28,133 +30,133 @@ import org.eclipse.emf.ecore.EClass;
  * <!-- end-user-doc -->
  * <p>
  * The following features are implemented:
+ * </p>
  * <ul>
  *   <li>{@link org.bimserver.models.ifc2x3tc1.impl.IfcActorRoleImpl#getRole <em>Role</em>}</li>
  *   <li>{@link org.bimserver.models.ifc2x3tc1.impl.IfcActorRoleImpl#getUserDefinedRole <em>User Defined Role</em>}</li>
  *   <li>{@link org.bimserver.models.ifc2x3tc1.impl.IfcActorRoleImpl#getDescription <em>Description</em>}</li>
  * </ul>
- * </p>
  *
  * @generated
  */
 public class IfcActorRoleImpl extends IdEObjectImpl implements IfcActorRole {
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	protected IfcActorRoleImpl() {
-		super();
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    protected IfcActorRoleImpl() {
+        super();
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	@Override
-	protected EClass eStaticClass() {
-		return Ifc2x3tc1Package.Literals.IFC_ACTOR_ROLE;
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    @Override
+    protected EClass eStaticClass() {
+        return Ifc2x3tc1Package.Literals.IFC_ACTOR_ROLE;
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	@Override
-	protected int eStaticFeatureCount() {
-		return 0;
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    @Override
+    protected int eStaticFeatureCount() {
+        return 0;
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public IfcRoleEnum getRole() {
-		return (IfcRoleEnum) eGet(Ifc2x3tc1Package.Literals.IFC_ACTOR_ROLE__ROLE, true);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public IfcRoleEnum getRole() {
+        return (IfcRoleEnum) eGet(Ifc2x3tc1Package.Literals.IFC_ACTOR_ROLE__ROLE, true);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public void setRole(IfcRoleEnum newRole) {
-		eSet(Ifc2x3tc1Package.Literals.IFC_ACTOR_ROLE__ROLE, newRole);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public void setRole(IfcRoleEnum newRole) {
+        eSet(Ifc2x3tc1Package.Literals.IFC_ACTOR_ROLE__ROLE, newRole);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public String getUserDefinedRole() {
-		return (String) eGet(Ifc2x3tc1Package.Literals.IFC_ACTOR_ROLE__USER_DEFINED_ROLE, true);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public String getUserDefinedRole() {
+        return (String) eGet(Ifc2x3tc1Package.Literals.IFC_ACTOR_ROLE__USER_DEFINED_ROLE, true);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public void setUserDefinedRole(String newUserDefinedRole) {
-		eSet(Ifc2x3tc1Package.Literals.IFC_ACTOR_ROLE__USER_DEFINED_ROLE, newUserDefinedRole);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public void setUserDefinedRole(String newUserDefinedRole) {
+        eSet(Ifc2x3tc1Package.Literals.IFC_ACTOR_ROLE__USER_DEFINED_ROLE, newUserDefinedRole);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public void unsetUserDefinedRole() {
-		eUnset(Ifc2x3tc1Package.Literals.IFC_ACTOR_ROLE__USER_DEFINED_ROLE);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public void unsetUserDefinedRole() {
+        eUnset(Ifc2x3tc1Package.Literals.IFC_ACTOR_ROLE__USER_DEFINED_ROLE);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public boolean isSetUserDefinedRole() {
-		return eIsSet(Ifc2x3tc1Package.Literals.IFC_ACTOR_ROLE__USER_DEFINED_ROLE);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public boolean isSetUserDefinedRole() {
+        return eIsSet(Ifc2x3tc1Package.Literals.IFC_ACTOR_ROLE__USER_DEFINED_ROLE);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public String getDescription() {
-		return (String) eGet(Ifc2x3tc1Package.Literals.IFC_ACTOR_ROLE__DESCRIPTION, true);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public String getDescription() {
+        return (String) eGet(Ifc2x3tc1Package.Literals.IFC_ACTOR_ROLE__DESCRIPTION, true);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public void setDescription(String newDescription) {
-		eSet(Ifc2x3tc1Package.Literals.IFC_ACTOR_ROLE__DESCRIPTION, newDescription);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public void setDescription(String newDescription) {
+        eSet(Ifc2x3tc1Package.Literals.IFC_ACTOR_ROLE__DESCRIPTION, newDescription);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public void unsetDescription() {
-		eUnset(Ifc2x3tc1Package.Literals.IFC_ACTOR_ROLE__DESCRIPTION);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public void unsetDescription() {
+        eUnset(Ifc2x3tc1Package.Literals.IFC_ACTOR_ROLE__DESCRIPTION);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public boolean isSetDescription() {
-		return eIsSet(Ifc2x3tc1Package.Literals.IFC_ACTOR_ROLE__DESCRIPTION);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public boolean isSetDescription() {
+        return eIsSet(Ifc2x3tc1Package.Literals.IFC_ACTOR_ROLE__DESCRIPTION);
+    }
 
 } //IfcActorRoleImpl

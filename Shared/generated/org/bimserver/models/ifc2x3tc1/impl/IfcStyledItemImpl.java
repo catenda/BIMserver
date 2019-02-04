@@ -20,7 +20,9 @@ import org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package;
 import org.bimserver.models.ifc2x3tc1.IfcPresentationStyleAssignment;
 import org.bimserver.models.ifc2x3tc1.IfcRepresentationItem;
 import org.bimserver.models.ifc2x3tc1.IfcStyledItem;
+
 import org.eclipse.emf.common.util.EList;
+
 import org.eclipse.emf.ecore.EClass;
 
 /**
@@ -29,115 +31,115 @@ import org.eclipse.emf.ecore.EClass;
  * <!-- end-user-doc -->
  * <p>
  * The following features are implemented:
+ * </p>
  * <ul>
  *   <li>{@link org.bimserver.models.ifc2x3tc1.impl.IfcStyledItemImpl#getItem <em>Item</em>}</li>
  *   <li>{@link org.bimserver.models.ifc2x3tc1.impl.IfcStyledItemImpl#getStyles <em>Styles</em>}</li>
  *   <li>{@link org.bimserver.models.ifc2x3tc1.impl.IfcStyledItemImpl#getName <em>Name</em>}</li>
  * </ul>
- * </p>
  *
  * @generated
  */
 public class IfcStyledItemImpl extends IfcRepresentationItemImpl implements IfcStyledItem {
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	protected IfcStyledItemImpl() {
-		super();
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    protected IfcStyledItemImpl() {
+        super();
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	@Override
-	protected EClass eStaticClass() {
-		return Ifc2x3tc1Package.Literals.IFC_STYLED_ITEM;
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    @Override
+    protected EClass eStaticClass() {
+        return Ifc2x3tc1Package.Literals.IFC_STYLED_ITEM;
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public IfcRepresentationItem getItem() {
-		return (IfcRepresentationItem) eGet(Ifc2x3tc1Package.Literals.IFC_STYLED_ITEM__ITEM, true);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public IfcRepresentationItem getItem() {
+        return (IfcRepresentationItem) eGet(Ifc2x3tc1Package.Literals.IFC_STYLED_ITEM__ITEM, true);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public void setItem(IfcRepresentationItem newItem) {
-		eSet(Ifc2x3tc1Package.Literals.IFC_STYLED_ITEM__ITEM, newItem);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public void setItem(IfcRepresentationItem newItem) {
+        eSet(Ifc2x3tc1Package.Literals.IFC_STYLED_ITEM__ITEM, newItem);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public void unsetItem() {
-		eUnset(Ifc2x3tc1Package.Literals.IFC_STYLED_ITEM__ITEM);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public void unsetItem() {
+        eUnset(Ifc2x3tc1Package.Literals.IFC_STYLED_ITEM__ITEM);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public boolean isSetItem() {
-		return eIsSet(Ifc2x3tc1Package.Literals.IFC_STYLED_ITEM__ITEM);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public boolean isSetItem() {
+        return eIsSet(Ifc2x3tc1Package.Literals.IFC_STYLED_ITEM__ITEM);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	@SuppressWarnings("unchecked")
-	public EList<IfcPresentationStyleAssignment> getStyles() {
-		return (EList<IfcPresentationStyleAssignment>) eGet(Ifc2x3tc1Package.Literals.IFC_STYLED_ITEM__STYLES, true);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    @SuppressWarnings("unchecked")
+    public EList<IfcPresentationStyleAssignment> getStyles() {
+        return (EList<IfcPresentationStyleAssignment>) eGet(Ifc2x3tc1Package.Literals.IFC_STYLED_ITEM__STYLES, true);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public String getName() {
-		return (String) eGet(Ifc2x3tc1Package.Literals.IFC_STYLED_ITEM__NAME, true);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public String getName() {
+        return (String) eGet(Ifc2x3tc1Package.Literals.IFC_STYLED_ITEM__NAME, true);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public void setName(String newName) {
-		eSet(Ifc2x3tc1Package.Literals.IFC_STYLED_ITEM__NAME, newName);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public void setName(String newName) {
+        eSet(Ifc2x3tc1Package.Literals.IFC_STYLED_ITEM__NAME, newName);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public void unsetName() {
-		eUnset(Ifc2x3tc1Package.Literals.IFC_STYLED_ITEM__NAME);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public void unsetName() {
+        eUnset(Ifc2x3tc1Package.Literals.IFC_STYLED_ITEM__NAME);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public boolean isSetName() {
-		return eIsSet(Ifc2x3tc1Package.Literals.IFC_STYLED_ITEM__NAME);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public boolean isSetName() {
+        return eIsSet(Ifc2x3tc1Package.Literals.IFC_STYLED_ITEM__NAME);
+    }
 
 } //IfcStyledItemImpl

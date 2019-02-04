@@ -23,121 +23,121 @@ package org.bimserver.models.ifc2x3tc1;
  *
  * <p>
  * The following features are supported:
+ * </p>
  * <ul>
  *   <li>{@link org.bimserver.models.ifc2x3tc1.IfcHeatingValueMeasure#getWrappedValue <em>Wrapped Value</em>}</li>
  *   <li>{@link org.bimserver.models.ifc2x3tc1.IfcHeatingValueMeasure#getWrappedValueAsString <em>Wrapped Value As String</em>}</li>
  * </ul>
- * </p>
  *
  * @see org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package#getIfcHeatingValueMeasure()
  * @model
  * @generated
  */
 public interface IfcHeatingValueMeasure extends IfcDerivedMeasureValue {
-	/**
-	 * Returns the value of the '<em><b>Wrapped Value</b></em>' attribute.
-	 * <!-- begin-user-doc -->
-	 * <p>
-	 * If the meaning of the '<em>Wrapped Value</em>' attribute isn't clear,
-	 * there really should be more of a description here...
-	 * </p>
-	 * <!-- end-user-doc -->
-	 * @return the value of the '<em>Wrapped Value</em>' attribute.
-	 * @see #isSetWrappedValue()
-	 * @see #unsetWrappedValue()
-	 * @see #setWrappedValue(double)
-	 * @see org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package#getIfcHeatingValueMeasure_WrappedValue()
-	 * @model unsettable="true"
-	 * @generated
-	 */
-	double getWrappedValue();
+    /**
+     * Returns the value of the '<em><b>Wrapped Value</b></em>' attribute.
+     * <!-- begin-user-doc -->
+     * <p>
+     * If the meaning of the '<em>Wrapped Value</em>' attribute isn't clear,
+     * there really should be more of a description here...
+     * </p>
+     * <!-- end-user-doc -->
+     * @return the value of the '<em>Wrapped Value</em>' attribute.
+     * @see #isSetWrappedValue()
+     * @see #unsetWrappedValue()
+     * @see #setWrappedValue(double)
+     * @see org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package#getIfcHeatingValueMeasure_WrappedValue()
+     * @model unsettable="true"
+     * @generated
+     */
+    double getWrappedValue();
 
-	/**
-	 * Sets the value of the '{@link org.bimserver.models.ifc2x3tc1.IfcHeatingValueMeasure#getWrappedValue <em>Wrapped Value</em>}' attribute.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @param value the new value of the '<em>Wrapped Value</em>' attribute.
-	 * @see #isSetWrappedValue()
-	 * @see #unsetWrappedValue()
-	 * @see #getWrappedValue()
-	 * @generated
-	 */
-	void setWrappedValue(double value);
+    /**
+     * Sets the value of the '{@link org.bimserver.models.ifc2x3tc1.IfcHeatingValueMeasure#getWrappedValue <em>Wrapped Value</em>}' attribute.
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @param value the new value of the '<em>Wrapped Value</em>' attribute.
+     * @see #isSetWrappedValue()
+     * @see #unsetWrappedValue()
+     * @see #getWrappedValue()
+     * @generated
+     */
+    void setWrappedValue(double value);
 
-	/**
-	 * Unsets the value of the '{@link org.bimserver.models.ifc2x3tc1.IfcHeatingValueMeasure#getWrappedValue <em>Wrapped Value</em>}' attribute.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @see #isSetWrappedValue()
-	 * @see #getWrappedValue()
-	 * @see #setWrappedValue(double)
-	 * @generated
-	 */
-	void unsetWrappedValue();
+    /**
+     * Unsets the value of the '{@link org.bimserver.models.ifc2x3tc1.IfcHeatingValueMeasure#getWrappedValue <em>Wrapped Value</em>}' attribute.
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @see #isSetWrappedValue()
+     * @see #getWrappedValue()
+     * @see #setWrappedValue(double)
+     * @generated
+     */
+    void unsetWrappedValue();
 
-	/**
-	 * Returns whether the value of the '{@link org.bimserver.models.ifc2x3tc1.IfcHeatingValueMeasure#getWrappedValue <em>Wrapped Value</em>}' attribute is set.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @return whether the value of the '<em>Wrapped Value</em>' attribute is set.
-	 * @see #unsetWrappedValue()
-	 * @see #getWrappedValue()
-	 * @see #setWrappedValue(double)
-	 * @generated
-	 */
-	boolean isSetWrappedValue();
+    /**
+     * Returns whether the value of the '{@link org.bimserver.models.ifc2x3tc1.IfcHeatingValueMeasure#getWrappedValue <em>Wrapped Value</em>}' attribute is set.
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @return whether the value of the '<em>Wrapped Value</em>' attribute is set.
+     * @see #unsetWrappedValue()
+     * @see #getWrappedValue()
+     * @see #setWrappedValue(double)
+     * @generated
+     */
+    boolean isSetWrappedValue();
 
-	/**
-	 * Returns the value of the '<em><b>Wrapped Value As String</b></em>' attribute.
-	 * <!-- begin-user-doc -->
-	 * <p>
-	 * If the meaning of the '<em>Wrapped Value As String</em>' attribute isn't clear,
-	 * there really should be more of a description here...
-	 * </p>
-	 * <!-- end-user-doc -->
-	 * @return the value of the '<em>Wrapped Value As String</em>' attribute.
-	 * @see #isSetWrappedValueAsString()
-	 * @see #unsetWrappedValueAsString()
-	 * @see #setWrappedValueAsString(String)
-	 * @see org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package#getIfcHeatingValueMeasure_WrappedValueAsString()
-	 * @model unsettable="true"
-	 * @generated
-	 */
-	String getWrappedValueAsString();
+    /**
+     * Returns the value of the '<em><b>Wrapped Value As String</b></em>' attribute.
+     * <!-- begin-user-doc -->
+     * <p>
+     * If the meaning of the '<em>Wrapped Value As String</em>' attribute isn't clear,
+     * there really should be more of a description here...
+     * </p>
+     * <!-- end-user-doc -->
+     * @return the value of the '<em>Wrapped Value As String</em>' attribute.
+     * @see #isSetWrappedValueAsString()
+     * @see #unsetWrappedValueAsString()
+     * @see #setWrappedValueAsString(String)
+     * @see org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package#getIfcHeatingValueMeasure_WrappedValueAsString()
+     * @model unsettable="true"
+     * @generated
+     */
+    String getWrappedValueAsString();
 
-	/**
-	 * Sets the value of the '{@link org.bimserver.models.ifc2x3tc1.IfcHeatingValueMeasure#getWrappedValueAsString <em>Wrapped Value As String</em>}' attribute.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @param value the new value of the '<em>Wrapped Value As String</em>' attribute.
-	 * @see #isSetWrappedValueAsString()
-	 * @see #unsetWrappedValueAsString()
-	 * @see #getWrappedValueAsString()
-	 * @generated
-	 */
-	void setWrappedValueAsString(String value);
+    /**
+     * Sets the value of the '{@link org.bimserver.models.ifc2x3tc1.IfcHeatingValueMeasure#getWrappedValueAsString <em>Wrapped Value As String</em>}' attribute.
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @param value the new value of the '<em>Wrapped Value As String</em>' attribute.
+     * @see #isSetWrappedValueAsString()
+     * @see #unsetWrappedValueAsString()
+     * @see #getWrappedValueAsString()
+     * @generated
+     */
+    void setWrappedValueAsString(String value);
 
-	/**
-	 * Unsets the value of the '{@link org.bimserver.models.ifc2x3tc1.IfcHeatingValueMeasure#getWrappedValueAsString <em>Wrapped Value As String</em>}' attribute.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @see #isSetWrappedValueAsString()
-	 * @see #getWrappedValueAsString()
-	 * @see #setWrappedValueAsString(String)
-	 * @generated
-	 */
-	void unsetWrappedValueAsString();
+    /**
+     * Unsets the value of the '{@link org.bimserver.models.ifc2x3tc1.IfcHeatingValueMeasure#getWrappedValueAsString <em>Wrapped Value As String</em>}' attribute.
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @see #isSetWrappedValueAsString()
+     * @see #getWrappedValueAsString()
+     * @see #setWrappedValueAsString(String)
+     * @generated
+     */
+    void unsetWrappedValueAsString();
 
-	/**
-	 * Returns whether the value of the '{@link org.bimserver.models.ifc2x3tc1.IfcHeatingValueMeasure#getWrappedValueAsString <em>Wrapped Value As String</em>}' attribute is set.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @return whether the value of the '<em>Wrapped Value As String</em>' attribute is set.
-	 * @see #unsetWrappedValueAsString()
-	 * @see #getWrappedValueAsString()
-	 * @see #setWrappedValueAsString(String)
-	 * @generated
-	 */
-	boolean isSetWrappedValueAsString();
+    /**
+     * Returns whether the value of the '{@link org.bimserver.models.ifc2x3tc1.IfcHeatingValueMeasure#getWrappedValueAsString <em>Wrapped Value As String</em>}' attribute is set.
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @return whether the value of the '<em>Wrapped Value As String</em>' attribute is set.
+     * @see #unsetWrappedValueAsString()
+     * @see #getWrappedValueAsString()
+     * @see #setWrappedValueAsString(String)
+     * @generated
+     */
+    boolean isSetWrappedValueAsString();
 
 } // IfcHeatingValueMeasure

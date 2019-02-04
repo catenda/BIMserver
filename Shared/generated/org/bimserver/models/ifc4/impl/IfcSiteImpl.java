@@ -68,8 +68,8 @@ public class IfcSiteImpl extends IfcSpatialStructureElementImpl implements IfcSi
      * @generated
      */
     @SuppressWarnings("unchecked")
-    public EList<Integer> getRefLatitude() {
-        return (EList<Integer>) eGet(Ifc4Package.Literals.IFC_SITE__REF_LATITUDE, true);
+    public EList<Long> getRefLatitude() {
+        return (EList<Long>) eGet(Ifc4Package.Literals.IFC_SITE__REF_LATITUDE, true);
     }
 
     /**
@@ -96,8 +96,8 @@ public class IfcSiteImpl extends IfcSpatialStructureElementImpl implements IfcSi
      * @generated
      */
     @SuppressWarnings("unchecked")
-    public EList<Integer> getRefLongitude() {
-        return (EList<Integer>) eGet(Ifc4Package.Literals.IFC_SITE__REF_LONGITUDE, true);
+    public EList<Long> getRefLongitude() {
+        return (EList<Long>) eGet(Ifc4Package.Literals.IFC_SITE__REF_LONGITUDE, true);
     }
 
     /**

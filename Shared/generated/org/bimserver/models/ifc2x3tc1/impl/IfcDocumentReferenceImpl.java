@@ -19,7 +19,9 @@ package org.bimserver.models.ifc2x3tc1.impl;
 import org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package;
 import org.bimserver.models.ifc2x3tc1.IfcDocumentInformation;
 import org.bimserver.models.ifc2x3tc1.IfcDocumentReference;
+
 import org.eclipse.emf.common.util.EList;
+
 import org.eclipse.emf.ecore.EClass;
 
 /**
@@ -28,59 +30,60 @@ import org.eclipse.emf.ecore.EClass;
  * <!-- end-user-doc -->
  * <p>
  * The following features are implemented:
+ * </p>
  * <ul>
  *   <li>{@link org.bimserver.models.ifc2x3tc1.impl.IfcDocumentReferenceImpl#getReferenceToDocument <em>Reference To Document</em>}</li>
  * </ul>
- * </p>
  *
  * @generated
  */
 public class IfcDocumentReferenceImpl extends IfcExternalReferenceImpl implements IfcDocumentReference {
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	protected IfcDocumentReferenceImpl() {
-		super();
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    protected IfcDocumentReferenceImpl() {
+        super();
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	@Override
-	protected EClass eStaticClass() {
-		return Ifc2x3tc1Package.Literals.IFC_DOCUMENT_REFERENCE;
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    @Override
+    protected EClass eStaticClass() {
+        return Ifc2x3tc1Package.Literals.IFC_DOCUMENT_REFERENCE;
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	@SuppressWarnings("unchecked")
-	public EList<IfcDocumentInformation> getReferenceToDocument() {
-		return (EList<IfcDocumentInformation>) eGet(Ifc2x3tc1Package.Literals.IFC_DOCUMENT_REFERENCE__REFERENCE_TO_DOCUMENT, true);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    @SuppressWarnings("unchecked")
+    public EList<IfcDocumentInformation> getReferenceToDocument() {
+        return (EList<IfcDocumentInformation>) eGet(
+                Ifc2x3tc1Package.Literals.IFC_DOCUMENT_REFERENCE__REFERENCE_TO_DOCUMENT, true);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public void unsetReferenceToDocument() {
-		eUnset(Ifc2x3tc1Package.Literals.IFC_DOCUMENT_REFERENCE__REFERENCE_TO_DOCUMENT);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public void unsetReferenceToDocument() {
+        eUnset(Ifc2x3tc1Package.Literals.IFC_DOCUMENT_REFERENCE__REFERENCE_TO_DOCUMENT);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public boolean isSetReferenceToDocument() {
-		return eIsSet(Ifc2x3tc1Package.Literals.IFC_DOCUMENT_REFERENCE__REFERENCE_TO_DOCUMENT);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public boolean isSetReferenceToDocument() {
+        return eIsSet(Ifc2x3tc1Package.Literals.IFC_DOCUMENT_REFERENCE__REFERENCE_TO_DOCUMENT);
+    }
 
 } //IfcDocumentReferenceImpl

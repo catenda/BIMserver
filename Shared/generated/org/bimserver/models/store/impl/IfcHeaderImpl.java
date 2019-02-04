@@ -19,9 +19,12 @@ package org.bimserver.models.store.impl;
 import java.util.Date;
 
 import org.bimserver.emf.IdEObjectImpl;
+
 import org.bimserver.models.store.IfcHeader;
 import org.bimserver.models.store.StorePackage;
+
 import org.eclipse.emf.common.util.EList;
+
 import org.eclipse.emf.ecore.EClass;
 
 /**
@@ -30,6 +33,7 @@ import org.eclipse.emf.ecore.EClass;
  * <!-- end-user-doc -->
  * <p>
  * The following features are implemented:
+ * </p>
  * <ul>
  *   <li>{@link org.bimserver.models.store.impl.IfcHeaderImpl#getDescription <em>Description</em>}</li>
  *   <li>{@link org.bimserver.models.store.impl.IfcHeaderImpl#getImplementationLevel <em>Implementation Level</em>}</li>
@@ -42,194 +46,193 @@ import org.eclipse.emf.ecore.EClass;
  *   <li>{@link org.bimserver.models.store.impl.IfcHeaderImpl#getIfcSchemaVersion <em>Ifc Schema Version</em>}</li>
  *   <li>{@link org.bimserver.models.store.impl.IfcHeaderImpl#getAuthorization <em>Authorization</em>}</li>
  * </ul>
- * </p>
  *
  * @generated
  */
 public class IfcHeaderImpl extends IdEObjectImpl implements IfcHeader {
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	protected IfcHeaderImpl() {
-		super();
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    protected IfcHeaderImpl() {
+        super();
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	@Override
-	protected EClass eStaticClass() {
-		return StorePackage.Literals.IFC_HEADER;
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    @Override
+    protected EClass eStaticClass() {
+        return StorePackage.Literals.IFC_HEADER;
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	@Override
-	protected int eStaticFeatureCount() {
-		return 0;
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    @Override
+    protected int eStaticFeatureCount() {
+        return 0;
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	@SuppressWarnings("unchecked")
-	public EList<String> getDescription() {
-		return (EList<String>) eGet(StorePackage.Literals.IFC_HEADER__DESCRIPTION, true);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    @SuppressWarnings("unchecked")
+    public EList<String> getDescription() {
+        return (EList<String>) eGet(StorePackage.Literals.IFC_HEADER__DESCRIPTION, true);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public String getImplementationLevel() {
-		return (String) eGet(StorePackage.Literals.IFC_HEADER__IMPLEMENTATION_LEVEL, true);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public String getImplementationLevel() {
+        return (String) eGet(StorePackage.Literals.IFC_HEADER__IMPLEMENTATION_LEVEL, true);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public void setImplementationLevel(String newImplementationLevel) {
-		eSet(StorePackage.Literals.IFC_HEADER__IMPLEMENTATION_LEVEL, newImplementationLevel);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public void setImplementationLevel(String newImplementationLevel) {
+        eSet(StorePackage.Literals.IFC_HEADER__IMPLEMENTATION_LEVEL, newImplementationLevel);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public String getFilename() {
-		return (String) eGet(StorePackage.Literals.IFC_HEADER__FILENAME, true);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public String getFilename() {
+        return (String) eGet(StorePackage.Literals.IFC_HEADER__FILENAME, true);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public void setFilename(String newFilename) {
-		eSet(StorePackage.Literals.IFC_HEADER__FILENAME, newFilename);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public void setFilename(String newFilename) {
+        eSet(StorePackage.Literals.IFC_HEADER__FILENAME, newFilename);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public Date getTimeStamp() {
-		return (Date) eGet(StorePackage.Literals.IFC_HEADER__TIME_STAMP, true);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public Date getTimeStamp() {
+        return (Date) eGet(StorePackage.Literals.IFC_HEADER__TIME_STAMP, true);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public void setTimeStamp(Date newTimeStamp) {
-		eSet(StorePackage.Literals.IFC_HEADER__TIME_STAMP, newTimeStamp);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public void setTimeStamp(Date newTimeStamp) {
+        eSet(StorePackage.Literals.IFC_HEADER__TIME_STAMP, newTimeStamp);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	@SuppressWarnings("unchecked")
-	public EList<String> getAuthor() {
-		return (EList<String>) eGet(StorePackage.Literals.IFC_HEADER__AUTHOR, true);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    @SuppressWarnings("unchecked")
+    public EList<String> getAuthor() {
+        return (EList<String>) eGet(StorePackage.Literals.IFC_HEADER__AUTHOR, true);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	@SuppressWarnings("unchecked")
-	public EList<String> getOrganization() {
-		return (EList<String>) eGet(StorePackage.Literals.IFC_HEADER__ORGANIZATION, true);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    @SuppressWarnings("unchecked")
+    public EList<String> getOrganization() {
+        return (EList<String>) eGet(StorePackage.Literals.IFC_HEADER__ORGANIZATION, true);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public String getPreProcessorVersion() {
-		return (String) eGet(StorePackage.Literals.IFC_HEADER__PRE_PROCESSOR_VERSION, true);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public String getPreProcessorVersion() {
+        return (String) eGet(StorePackage.Literals.IFC_HEADER__PRE_PROCESSOR_VERSION, true);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public void setPreProcessorVersion(String newPreProcessorVersion) {
-		eSet(StorePackage.Literals.IFC_HEADER__PRE_PROCESSOR_VERSION, newPreProcessorVersion);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public void setPreProcessorVersion(String newPreProcessorVersion) {
+        eSet(StorePackage.Literals.IFC_HEADER__PRE_PROCESSOR_VERSION, newPreProcessorVersion);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public String getOriginatingSystem() {
-		return (String) eGet(StorePackage.Literals.IFC_HEADER__ORIGINATING_SYSTEM, true);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public String getOriginatingSystem() {
+        return (String) eGet(StorePackage.Literals.IFC_HEADER__ORIGINATING_SYSTEM, true);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public void setOriginatingSystem(String newOriginatingSystem) {
-		eSet(StorePackage.Literals.IFC_HEADER__ORIGINATING_SYSTEM, newOriginatingSystem);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public void setOriginatingSystem(String newOriginatingSystem) {
+        eSet(StorePackage.Literals.IFC_HEADER__ORIGINATING_SYSTEM, newOriginatingSystem);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public String getIfcSchemaVersion() {
-		return (String) eGet(StorePackage.Literals.IFC_HEADER__IFC_SCHEMA_VERSION, true);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public String getIfcSchemaVersion() {
+        return (String) eGet(StorePackage.Literals.IFC_HEADER__IFC_SCHEMA_VERSION, true);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public void setIfcSchemaVersion(String newIfcSchemaVersion) {
-		eSet(StorePackage.Literals.IFC_HEADER__IFC_SCHEMA_VERSION, newIfcSchemaVersion);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public void setIfcSchemaVersion(String newIfcSchemaVersion) {
+        eSet(StorePackage.Literals.IFC_HEADER__IFC_SCHEMA_VERSION, newIfcSchemaVersion);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public String getAuthorization() {
-		return (String) eGet(StorePackage.Literals.IFC_HEADER__AUTHORIZATION, true);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public String getAuthorization() {
+        return (String) eGet(StorePackage.Literals.IFC_HEADER__AUTHORIZATION, true);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public void setAuthorization(String newAuthorization) {
-		eSet(StorePackage.Literals.IFC_HEADER__AUTHORIZATION, newAuthorization);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public void setAuthorization(String newAuthorization) {
+        eSet(StorePackage.Literals.IFC_HEADER__AUTHORIZATION, newAuthorization);
+    }
 
 } //IfcHeaderImpl

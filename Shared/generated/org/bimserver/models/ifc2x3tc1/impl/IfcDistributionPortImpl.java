@@ -19,6 +19,7 @@ package org.bimserver.models.ifc2x3tc1.impl;
 import org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package;
 import org.bimserver.models.ifc2x3tc1.IfcDistributionPort;
 import org.bimserver.models.ifc2x3tc1.IfcFlowDirectionEnum;
+
 import org.eclipse.emf.ecore.EClass;
 
 /**
@@ -27,67 +28,67 @@ import org.eclipse.emf.ecore.EClass;
  * <!-- end-user-doc -->
  * <p>
  * The following features are implemented:
+ * </p>
  * <ul>
  *   <li>{@link org.bimserver.models.ifc2x3tc1.impl.IfcDistributionPortImpl#getFlowDirection <em>Flow Direction</em>}</li>
  * </ul>
- * </p>
  *
  * @generated
  */
 public class IfcDistributionPortImpl extends IfcPortImpl implements IfcDistributionPort {
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	protected IfcDistributionPortImpl() {
-		super();
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    protected IfcDistributionPortImpl() {
+        super();
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	@Override
-	protected EClass eStaticClass() {
-		return Ifc2x3tc1Package.Literals.IFC_DISTRIBUTION_PORT;
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    @Override
+    protected EClass eStaticClass() {
+        return Ifc2x3tc1Package.Literals.IFC_DISTRIBUTION_PORT;
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public IfcFlowDirectionEnum getFlowDirection() {
-		return (IfcFlowDirectionEnum) eGet(Ifc2x3tc1Package.Literals.IFC_DISTRIBUTION_PORT__FLOW_DIRECTION, true);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public IfcFlowDirectionEnum getFlowDirection() {
+        return (IfcFlowDirectionEnum) eGet(Ifc2x3tc1Package.Literals.IFC_DISTRIBUTION_PORT__FLOW_DIRECTION, true);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public void setFlowDirection(IfcFlowDirectionEnum newFlowDirection) {
-		eSet(Ifc2x3tc1Package.Literals.IFC_DISTRIBUTION_PORT__FLOW_DIRECTION, newFlowDirection);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public void setFlowDirection(IfcFlowDirectionEnum newFlowDirection) {
+        eSet(Ifc2x3tc1Package.Literals.IFC_DISTRIBUTION_PORT__FLOW_DIRECTION, newFlowDirection);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public void unsetFlowDirection() {
-		eUnset(Ifc2x3tc1Package.Literals.IFC_DISTRIBUTION_PORT__FLOW_DIRECTION);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public void unsetFlowDirection() {
+        eUnset(Ifc2x3tc1Package.Literals.IFC_DISTRIBUTION_PORT__FLOW_DIRECTION);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public boolean isSetFlowDirection() {
-		return eIsSet(Ifc2x3tc1Package.Literals.IFC_DISTRIBUTION_PORT__FLOW_DIRECTION);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public boolean isSetFlowDirection() {
+        return eIsSet(Ifc2x3tc1Package.Literals.IFC_DISTRIBUTION_PORT__FLOW_DIRECTION);
+    }
 
 } //IfcDistributionPortImpl

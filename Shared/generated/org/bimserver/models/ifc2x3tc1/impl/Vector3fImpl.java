@@ -17,8 +17,10 @@
 package org.bimserver.models.ifc2x3tc1.impl;
 
 import org.bimserver.emf.IdEObjectImpl;
+
 import org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package;
 import org.bimserver.models.ifc2x3tc1.Vector3f;
+
 import org.eclipse.emf.ecore.EClass;
 
 /**
@@ -27,97 +29,97 @@ import org.eclipse.emf.ecore.EClass;
  * <!-- end-user-doc -->
  * <p>
  * The following features are implemented:
+ * </p>
  * <ul>
  *   <li>{@link org.bimserver.models.ifc2x3tc1.impl.Vector3fImpl#getX <em>X</em>}</li>
  *   <li>{@link org.bimserver.models.ifc2x3tc1.impl.Vector3fImpl#getY <em>Y</em>}</li>
  *   <li>{@link org.bimserver.models.ifc2x3tc1.impl.Vector3fImpl#getZ <em>Z</em>}</li>
  * </ul>
- * </p>
  *
  * @generated
  */
 public class Vector3fImpl extends IdEObjectImpl implements Vector3f {
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	protected Vector3fImpl() {
-		super();
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    protected Vector3fImpl() {
+        super();
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	@Override
-	protected EClass eStaticClass() {
-		return Ifc2x3tc1Package.Literals.VECTOR3F;
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    @Override
+    protected EClass eStaticClass() {
+        return Ifc2x3tc1Package.Literals.VECTOR3F;
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	@Override
-	protected int eStaticFeatureCount() {
-		return 0;
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    @Override
+    protected int eStaticFeatureCount() {
+        return 0;
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public float getX() {
-		return (Float) eGet(Ifc2x3tc1Package.Literals.VECTOR3F__X, true);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public float getX() {
+        return (Float) eGet(Ifc2x3tc1Package.Literals.VECTOR3F__X, true);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public void setX(float newX) {
-		eSet(Ifc2x3tc1Package.Literals.VECTOR3F__X, newX);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public void setX(float newX) {
+        eSet(Ifc2x3tc1Package.Literals.VECTOR3F__X, newX);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public float getY() {
-		return (Float) eGet(Ifc2x3tc1Package.Literals.VECTOR3F__Y, true);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public float getY() {
+        return (Float) eGet(Ifc2x3tc1Package.Literals.VECTOR3F__Y, true);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public void setY(float newY) {
-		eSet(Ifc2x3tc1Package.Literals.VECTOR3F__Y, newY);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public void setY(float newY) {
+        eSet(Ifc2x3tc1Package.Literals.VECTOR3F__Y, newY);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public float getZ() {
-		return (Float) eGet(Ifc2x3tc1Package.Literals.VECTOR3F__Z, true);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public float getZ() {
+        return (Float) eGet(Ifc2x3tc1Package.Literals.VECTOR3F__Z, true);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public void setZ(float newZ) {
-		eSet(Ifc2x3tc1Package.Literals.VECTOR3F__Z, newZ);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public void setZ(float newZ) {
+        eSet(Ifc2x3tc1Package.Literals.VECTOR3F__Z, newZ);
+    }
 
 } //Vector3fImpl

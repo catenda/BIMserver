@@ -18,7 +18,9 @@ package org.bimserver.models.ifc2x3tc1.impl;
 
 import org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package;
 import org.bimserver.models.ifc2x3tc1.IfcRationalBezierCurve;
+
 import org.eclipse.emf.common.util.EList;
+
 import org.eclipse.emf.ecore.EClass;
 
 /**
@@ -27,52 +29,52 @@ import org.eclipse.emf.ecore.EClass;
  * <!-- end-user-doc -->
  * <p>
  * The following features are implemented:
+ * </p>
  * <ul>
  *   <li>{@link org.bimserver.models.ifc2x3tc1.impl.IfcRationalBezierCurveImpl#getWeightsData <em>Weights Data</em>}</li>
  *   <li>{@link org.bimserver.models.ifc2x3tc1.impl.IfcRationalBezierCurveImpl#getWeightsDataAsString <em>Weights Data As String</em>}</li>
  * </ul>
- * </p>
  *
  * @generated
  */
 public class IfcRationalBezierCurveImpl extends IfcBezierCurveImpl implements IfcRationalBezierCurve {
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	protected IfcRationalBezierCurveImpl() {
-		super();
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    protected IfcRationalBezierCurveImpl() {
+        super();
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	@Override
-	protected EClass eStaticClass() {
-		return Ifc2x3tc1Package.Literals.IFC_RATIONAL_BEZIER_CURVE;
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    @Override
+    protected EClass eStaticClass() {
+        return Ifc2x3tc1Package.Literals.IFC_RATIONAL_BEZIER_CURVE;
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	@SuppressWarnings("unchecked")
-	public EList<Double> getWeightsData() {
-		return (EList<Double>) eGet(Ifc2x3tc1Package.Literals.IFC_RATIONAL_BEZIER_CURVE__WEIGHTS_DATA, true);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    @SuppressWarnings("unchecked")
+    public EList<Double> getWeightsData() {
+        return (EList<Double>) eGet(Ifc2x3tc1Package.Literals.IFC_RATIONAL_BEZIER_CURVE__WEIGHTS_DATA, true);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	@SuppressWarnings("unchecked")
-	public EList<String> getWeightsDataAsString() {
-		return (EList<String>) eGet(Ifc2x3tc1Package.Literals.IFC_RATIONAL_BEZIER_CURVE__WEIGHTS_DATA_AS_STRING, true);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    @SuppressWarnings("unchecked")
+    public EList<String> getWeightsDataAsString() {
+        return (EList<String>) eGet(Ifc2x3tc1Package.Literals.IFC_RATIONAL_BEZIER_CURVE__WEIGHTS_DATA_AS_STRING, true);
+    }
 
 } //IfcRationalBezierCurveImpl

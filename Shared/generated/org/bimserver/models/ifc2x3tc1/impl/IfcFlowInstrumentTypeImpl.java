@@ -19,6 +19,7 @@ package org.bimserver.models.ifc2x3tc1.impl;
 import org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package;
 import org.bimserver.models.ifc2x3tc1.IfcFlowInstrumentType;
 import org.bimserver.models.ifc2x3tc1.IfcFlowInstrumentTypeEnum;
+
 import org.eclipse.emf.ecore.EClass;
 
 /**
@@ -27,49 +28,50 @@ import org.eclipse.emf.ecore.EClass;
  * <!-- end-user-doc -->
  * <p>
  * The following features are implemented:
+ * </p>
  * <ul>
  *   <li>{@link org.bimserver.models.ifc2x3tc1.impl.IfcFlowInstrumentTypeImpl#getPredefinedType <em>Predefined Type</em>}</li>
  * </ul>
- * </p>
  *
  * @generated
  */
 public class IfcFlowInstrumentTypeImpl extends IfcDistributionControlElementTypeImpl implements IfcFlowInstrumentType {
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	protected IfcFlowInstrumentTypeImpl() {
-		super();
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    protected IfcFlowInstrumentTypeImpl() {
+        super();
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	@Override
-	protected EClass eStaticClass() {
-		return Ifc2x3tc1Package.Literals.IFC_FLOW_INSTRUMENT_TYPE;
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    @Override
+    protected EClass eStaticClass() {
+        return Ifc2x3tc1Package.Literals.IFC_FLOW_INSTRUMENT_TYPE;
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public IfcFlowInstrumentTypeEnum getPredefinedType() {
-		return (IfcFlowInstrumentTypeEnum) eGet(Ifc2x3tc1Package.Literals.IFC_FLOW_INSTRUMENT_TYPE__PREDEFINED_TYPE, true);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public IfcFlowInstrumentTypeEnum getPredefinedType() {
+        return (IfcFlowInstrumentTypeEnum) eGet(Ifc2x3tc1Package.Literals.IFC_FLOW_INSTRUMENT_TYPE__PREDEFINED_TYPE,
+                true);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public void setPredefinedType(IfcFlowInstrumentTypeEnum newPredefinedType) {
-		eSet(Ifc2x3tc1Package.Literals.IFC_FLOW_INSTRUMENT_TYPE__PREDEFINED_TYPE, newPredefinedType);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public void setPredefinedType(IfcFlowInstrumentTypeEnum newPredefinedType) {
+        eSet(Ifc2x3tc1Package.Literals.IFC_FLOW_INSTRUMENT_TYPE__PREDEFINED_TYPE, newPredefinedType);
+    }
 
 } //IfcFlowInstrumentTypeImpl

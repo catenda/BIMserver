@@ -19,10 +19,13 @@ package org.bimserver.models.store.impl;
 import java.util.Date;
 
 import org.bimserver.emf.IdEObjectImpl;
+
 import org.bimserver.models.store.DatabaseInformation;
 import org.bimserver.models.store.DatabaseInformationCategory;
 import org.bimserver.models.store.StorePackage;
+
 import org.eclipse.emf.common.util.EList;
+
 import org.eclipse.emf.ecore.EClass;
 
 /**
@@ -31,6 +34,7 @@ import org.eclipse.emf.ecore.EClass;
  * <!-- end-user-doc -->
  * <p>
  * The following features are implemented:
+ * </p>
  * <ul>
  *   <li>{@link org.bimserver.models.store.impl.DatabaseInformationImpl#getNumberOfProjects <em>Number Of Projects</em>}</li>
  *   <li>{@link org.bimserver.models.store.impl.DatabaseInformationImpl#getNumberOfUsers <em>Number Of Users</em>}</li>
@@ -43,210 +47,209 @@ import org.eclipse.emf.ecore.EClass;
  *   <li>{@link org.bimserver.models.store.impl.DatabaseInformationImpl#getSchemaVersion <em>Schema Version</em>}</li>
  *   <li>{@link org.bimserver.models.store.impl.DatabaseInformationImpl#getCategories <em>Categories</em>}</li>
  * </ul>
- * </p>
  *
  * @generated
  */
 public class DatabaseInformationImpl extends IdEObjectImpl implements DatabaseInformation {
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	protected DatabaseInformationImpl() {
-		super();
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    protected DatabaseInformationImpl() {
+        super();
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	@Override
-	protected EClass eStaticClass() {
-		return StorePackage.Literals.DATABASE_INFORMATION;
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    @Override
+    protected EClass eStaticClass() {
+        return StorePackage.Literals.DATABASE_INFORMATION;
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	@Override
-	protected int eStaticFeatureCount() {
-		return 0;
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    @Override
+    protected int eStaticFeatureCount() {
+        return 0;
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public Integer getNumberOfProjects() {
-		return (Integer) eGet(StorePackage.Literals.DATABASE_INFORMATION__NUMBER_OF_PROJECTS, true);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public Integer getNumberOfProjects() {
+        return (Integer) eGet(StorePackage.Literals.DATABASE_INFORMATION__NUMBER_OF_PROJECTS, true);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public void setNumberOfProjects(Integer newNumberOfProjects) {
-		eSet(StorePackage.Literals.DATABASE_INFORMATION__NUMBER_OF_PROJECTS, newNumberOfProjects);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public void setNumberOfProjects(Integer newNumberOfProjects) {
+        eSet(StorePackage.Literals.DATABASE_INFORMATION__NUMBER_OF_PROJECTS, newNumberOfProjects);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public Integer getNumberOfUsers() {
-		return (Integer) eGet(StorePackage.Literals.DATABASE_INFORMATION__NUMBER_OF_USERS, true);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public Integer getNumberOfUsers() {
+        return (Integer) eGet(StorePackage.Literals.DATABASE_INFORMATION__NUMBER_OF_USERS, true);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public void setNumberOfUsers(Integer newNumberOfUsers) {
-		eSet(StorePackage.Literals.DATABASE_INFORMATION__NUMBER_OF_USERS, newNumberOfUsers);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public void setNumberOfUsers(Integer newNumberOfUsers) {
+        eSet(StorePackage.Literals.DATABASE_INFORMATION__NUMBER_OF_USERS, newNumberOfUsers);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public Integer getNumberOfRevisions() {
-		return (Integer) eGet(StorePackage.Literals.DATABASE_INFORMATION__NUMBER_OF_REVISIONS, true);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public Integer getNumberOfRevisions() {
+        return (Integer) eGet(StorePackage.Literals.DATABASE_INFORMATION__NUMBER_OF_REVISIONS, true);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public void setNumberOfRevisions(Integer newNumberOfRevisions) {
-		eSet(StorePackage.Literals.DATABASE_INFORMATION__NUMBER_OF_REVISIONS, newNumberOfRevisions);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public void setNumberOfRevisions(Integer newNumberOfRevisions) {
+        eSet(StorePackage.Literals.DATABASE_INFORMATION__NUMBER_OF_REVISIONS, newNumberOfRevisions);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public Integer getNumberOfCheckouts() {
-		return (Integer) eGet(StorePackage.Literals.DATABASE_INFORMATION__NUMBER_OF_CHECKOUTS, true);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public Integer getNumberOfCheckouts() {
+        return (Integer) eGet(StorePackage.Literals.DATABASE_INFORMATION__NUMBER_OF_CHECKOUTS, true);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public void setNumberOfCheckouts(Integer newNumberOfCheckouts) {
-		eSet(StorePackage.Literals.DATABASE_INFORMATION__NUMBER_OF_CHECKOUTS, newNumberOfCheckouts);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public void setNumberOfCheckouts(Integer newNumberOfCheckouts) {
+        eSet(StorePackage.Literals.DATABASE_INFORMATION__NUMBER_OF_CHECKOUTS, newNumberOfCheckouts);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public Long getDatabaseSizeInBytes() {
-		return (Long) eGet(StorePackage.Literals.DATABASE_INFORMATION__DATABASE_SIZE_IN_BYTES, true);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public Long getDatabaseSizeInBytes() {
+        return (Long) eGet(StorePackage.Literals.DATABASE_INFORMATION__DATABASE_SIZE_IN_BYTES, true);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public void setDatabaseSizeInBytes(Long newDatabaseSizeInBytes) {
-		eSet(StorePackage.Literals.DATABASE_INFORMATION__DATABASE_SIZE_IN_BYTES, newDatabaseSizeInBytes);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public void setDatabaseSizeInBytes(Long newDatabaseSizeInBytes) {
+        eSet(StorePackage.Literals.DATABASE_INFORMATION__DATABASE_SIZE_IN_BYTES, newDatabaseSizeInBytes);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public String getType() {
-		return (String) eGet(StorePackage.Literals.DATABASE_INFORMATION__TYPE, true);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public String getType() {
+        return (String) eGet(StorePackage.Literals.DATABASE_INFORMATION__TYPE, true);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public void setType(String newType) {
-		eSet(StorePackage.Literals.DATABASE_INFORMATION__TYPE, newType);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public void setType(String newType) {
+        eSet(StorePackage.Literals.DATABASE_INFORMATION__TYPE, newType);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public Date getCreated() {
-		return (Date) eGet(StorePackage.Literals.DATABASE_INFORMATION__CREATED, true);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public Date getCreated() {
+        return (Date) eGet(StorePackage.Literals.DATABASE_INFORMATION__CREATED, true);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public void setCreated(Date newCreated) {
-		eSet(StorePackage.Literals.DATABASE_INFORMATION__CREATED, newCreated);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public void setCreated(Date newCreated) {
+        eSet(StorePackage.Literals.DATABASE_INFORMATION__CREATED, newCreated);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public String getLocation() {
-		return (String) eGet(StorePackage.Literals.DATABASE_INFORMATION__LOCATION, true);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public String getLocation() {
+        return (String) eGet(StorePackage.Literals.DATABASE_INFORMATION__LOCATION, true);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public void setLocation(String newLocation) {
-		eSet(StorePackage.Literals.DATABASE_INFORMATION__LOCATION, newLocation);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public void setLocation(String newLocation) {
+        eSet(StorePackage.Literals.DATABASE_INFORMATION__LOCATION, newLocation);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public Integer getSchemaVersion() {
-		return (Integer) eGet(StorePackage.Literals.DATABASE_INFORMATION__SCHEMA_VERSION, true);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public Integer getSchemaVersion() {
+        return (Integer) eGet(StorePackage.Literals.DATABASE_INFORMATION__SCHEMA_VERSION, true);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public void setSchemaVersion(Integer newSchemaVersion) {
-		eSet(StorePackage.Literals.DATABASE_INFORMATION__SCHEMA_VERSION, newSchemaVersion);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public void setSchemaVersion(Integer newSchemaVersion) {
+        eSet(StorePackage.Literals.DATABASE_INFORMATION__SCHEMA_VERSION, newSchemaVersion);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	@SuppressWarnings("unchecked")
-	public EList<DatabaseInformationCategory> getCategories() {
-		return (EList<DatabaseInformationCategory>) eGet(StorePackage.Literals.DATABASE_INFORMATION__CATEGORIES, true);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    @SuppressWarnings("unchecked")
+    public EList<DatabaseInformationCategory> getCategories() {
+        return (EList<DatabaseInformationCategory>) eGet(StorePackage.Literals.DATABASE_INFORMATION__CATEGORIES, true);
+    }
 
 } //DatabaseInformationImpl

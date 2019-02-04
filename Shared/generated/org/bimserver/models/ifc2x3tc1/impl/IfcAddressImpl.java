@@ -17,12 +17,15 @@
 package org.bimserver.models.ifc2x3tc1.impl;
 
 import org.bimserver.emf.IdEObjectImpl;
+
 import org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package;
 import org.bimserver.models.ifc2x3tc1.IfcAddress;
 import org.bimserver.models.ifc2x3tc1.IfcAddressTypeEnum;
 import org.bimserver.models.ifc2x3tc1.IfcOrganization;
 import org.bimserver.models.ifc2x3tc1.IfcPerson;
+
 import org.eclipse.emf.common.util.EList;
+
 import org.eclipse.emf.ecore.EClass;
 
 /**
@@ -31,6 +34,7 @@ import org.eclipse.emf.ecore.EClass;
  * <!-- end-user-doc -->
  * <p>
  * The following features are implemented:
+ * </p>
  * <ul>
  *   <li>{@link org.bimserver.models.ifc2x3tc1.impl.IfcAddressImpl#getPurpose <em>Purpose</em>}</li>
  *   <li>{@link org.bimserver.models.ifc2x3tc1.impl.IfcAddressImpl#getDescription <em>Description</em>}</li>
@@ -38,202 +42,201 @@ import org.eclipse.emf.ecore.EClass;
  *   <li>{@link org.bimserver.models.ifc2x3tc1.impl.IfcAddressImpl#getOfPerson <em>Of Person</em>}</li>
  *   <li>{@link org.bimserver.models.ifc2x3tc1.impl.IfcAddressImpl#getOfOrganization <em>Of Organization</em>}</li>
  * </ul>
- * </p>
  *
  * @generated
  */
 public class IfcAddressImpl extends IdEObjectImpl implements IfcAddress {
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	protected IfcAddressImpl() {
-		super();
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    protected IfcAddressImpl() {
+        super();
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	@Override
-	protected EClass eStaticClass() {
-		return Ifc2x3tc1Package.Literals.IFC_ADDRESS;
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    @Override
+    protected EClass eStaticClass() {
+        return Ifc2x3tc1Package.Literals.IFC_ADDRESS;
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	@Override
-	protected int eStaticFeatureCount() {
-		return 0;
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    @Override
+    protected int eStaticFeatureCount() {
+        return 0;
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public IfcAddressTypeEnum getPurpose() {
-		return (IfcAddressTypeEnum) eGet(Ifc2x3tc1Package.Literals.IFC_ADDRESS__PURPOSE, true);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public IfcAddressTypeEnum getPurpose() {
+        return (IfcAddressTypeEnum) eGet(Ifc2x3tc1Package.Literals.IFC_ADDRESS__PURPOSE, true);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public void setPurpose(IfcAddressTypeEnum newPurpose) {
-		eSet(Ifc2x3tc1Package.Literals.IFC_ADDRESS__PURPOSE, newPurpose);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public void setPurpose(IfcAddressTypeEnum newPurpose) {
+        eSet(Ifc2x3tc1Package.Literals.IFC_ADDRESS__PURPOSE, newPurpose);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public void unsetPurpose() {
-		eUnset(Ifc2x3tc1Package.Literals.IFC_ADDRESS__PURPOSE);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public void unsetPurpose() {
+        eUnset(Ifc2x3tc1Package.Literals.IFC_ADDRESS__PURPOSE);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public boolean isSetPurpose() {
-		return eIsSet(Ifc2x3tc1Package.Literals.IFC_ADDRESS__PURPOSE);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public boolean isSetPurpose() {
+        return eIsSet(Ifc2x3tc1Package.Literals.IFC_ADDRESS__PURPOSE);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public String getDescription() {
-		return (String) eGet(Ifc2x3tc1Package.Literals.IFC_ADDRESS__DESCRIPTION, true);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public String getDescription() {
+        return (String) eGet(Ifc2x3tc1Package.Literals.IFC_ADDRESS__DESCRIPTION, true);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public void setDescription(String newDescription) {
-		eSet(Ifc2x3tc1Package.Literals.IFC_ADDRESS__DESCRIPTION, newDescription);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public void setDescription(String newDescription) {
+        eSet(Ifc2x3tc1Package.Literals.IFC_ADDRESS__DESCRIPTION, newDescription);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public void unsetDescription() {
-		eUnset(Ifc2x3tc1Package.Literals.IFC_ADDRESS__DESCRIPTION);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public void unsetDescription() {
+        eUnset(Ifc2x3tc1Package.Literals.IFC_ADDRESS__DESCRIPTION);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public boolean isSetDescription() {
-		return eIsSet(Ifc2x3tc1Package.Literals.IFC_ADDRESS__DESCRIPTION);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public boolean isSetDescription() {
+        return eIsSet(Ifc2x3tc1Package.Literals.IFC_ADDRESS__DESCRIPTION);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public String getUserDefinedPurpose() {
-		return (String) eGet(Ifc2x3tc1Package.Literals.IFC_ADDRESS__USER_DEFINED_PURPOSE, true);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public String getUserDefinedPurpose() {
+        return (String) eGet(Ifc2x3tc1Package.Literals.IFC_ADDRESS__USER_DEFINED_PURPOSE, true);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public void setUserDefinedPurpose(String newUserDefinedPurpose) {
-		eSet(Ifc2x3tc1Package.Literals.IFC_ADDRESS__USER_DEFINED_PURPOSE, newUserDefinedPurpose);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public void setUserDefinedPurpose(String newUserDefinedPurpose) {
+        eSet(Ifc2x3tc1Package.Literals.IFC_ADDRESS__USER_DEFINED_PURPOSE, newUserDefinedPurpose);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public void unsetUserDefinedPurpose() {
-		eUnset(Ifc2x3tc1Package.Literals.IFC_ADDRESS__USER_DEFINED_PURPOSE);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public void unsetUserDefinedPurpose() {
+        eUnset(Ifc2x3tc1Package.Literals.IFC_ADDRESS__USER_DEFINED_PURPOSE);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public boolean isSetUserDefinedPurpose() {
-		return eIsSet(Ifc2x3tc1Package.Literals.IFC_ADDRESS__USER_DEFINED_PURPOSE);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public boolean isSetUserDefinedPurpose() {
+        return eIsSet(Ifc2x3tc1Package.Literals.IFC_ADDRESS__USER_DEFINED_PURPOSE);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	@SuppressWarnings("unchecked")
-	public EList<IfcPerson> getOfPerson() {
-		return (EList<IfcPerson>) eGet(Ifc2x3tc1Package.Literals.IFC_ADDRESS__OF_PERSON, true);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    @SuppressWarnings("unchecked")
+    public EList<IfcPerson> getOfPerson() {
+        return (EList<IfcPerson>) eGet(Ifc2x3tc1Package.Literals.IFC_ADDRESS__OF_PERSON, true);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public void unsetOfPerson() {
-		eUnset(Ifc2x3tc1Package.Literals.IFC_ADDRESS__OF_PERSON);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public void unsetOfPerson() {
+        eUnset(Ifc2x3tc1Package.Literals.IFC_ADDRESS__OF_PERSON);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public boolean isSetOfPerson() {
-		return eIsSet(Ifc2x3tc1Package.Literals.IFC_ADDRESS__OF_PERSON);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public boolean isSetOfPerson() {
+        return eIsSet(Ifc2x3tc1Package.Literals.IFC_ADDRESS__OF_PERSON);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	@SuppressWarnings("unchecked")
-	public EList<IfcOrganization> getOfOrganization() {
-		return (EList<IfcOrganization>) eGet(Ifc2x3tc1Package.Literals.IFC_ADDRESS__OF_ORGANIZATION, true);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    @SuppressWarnings("unchecked")
+    public EList<IfcOrganization> getOfOrganization() {
+        return (EList<IfcOrganization>) eGet(Ifc2x3tc1Package.Literals.IFC_ADDRESS__OF_ORGANIZATION, true);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public void unsetOfOrganization() {
-		eUnset(Ifc2x3tc1Package.Literals.IFC_ADDRESS__OF_ORGANIZATION);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public void unsetOfOrganization() {
+        eUnset(Ifc2x3tc1Package.Literals.IFC_ADDRESS__OF_ORGANIZATION);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public boolean isSetOfOrganization() {
-		return eIsSet(Ifc2x3tc1Package.Literals.IFC_ADDRESS__OF_ORGANIZATION);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public boolean isSetOfOrganization() {
+        return eIsSet(Ifc2x3tc1Package.Literals.IFC_ADDRESS__OF_ORGANIZATION);
+    }
 
 } //IfcAddressImpl

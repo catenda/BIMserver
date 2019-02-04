@@ -19,10 +19,13 @@ package org.bimserver.models.store.impl;
 import java.util.Date;
 
 import org.bimserver.emf.IdEObjectImpl;
+
 import org.bimserver.models.store.ActionState;
 import org.bimserver.models.store.LongActionState;
 import org.bimserver.models.store.StorePackage;
+
 import org.eclipse.emf.common.util.EList;
+
 import org.eclipse.emf.ecore.EClass;
 
 /**
@@ -31,6 +34,7 @@ import org.eclipse.emf.ecore.EClass;
  * <!-- end-user-doc -->
  * <p>
  * The following features are implemented:
+ * </p>
  * <ul>
  *   <li>{@link org.bimserver.models.store.impl.LongActionStateImpl#getStart <em>Start</em>}</li>
  *   <li>{@link org.bimserver.models.store.impl.LongActionStateImpl#getEnd <em>End</em>}</li>
@@ -42,176 +46,175 @@ import org.eclipse.emf.ecore.EClass;
  *   <li>{@link org.bimserver.models.store.impl.LongActionStateImpl#getWarnings <em>Warnings</em>}</li>
  *   <li>{@link org.bimserver.models.store.impl.LongActionStateImpl#getInfos <em>Infos</em>}</li>
  * </ul>
- * </p>
  *
  * @generated
  */
 public class LongActionStateImpl extends IdEObjectImpl implements LongActionState {
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	protected LongActionStateImpl() {
-		super();
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    protected LongActionStateImpl() {
+        super();
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	@Override
-	protected EClass eStaticClass() {
-		return StorePackage.Literals.LONG_ACTION_STATE;
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    @Override
+    protected EClass eStaticClass() {
+        return StorePackage.Literals.LONG_ACTION_STATE;
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	@Override
-	protected int eStaticFeatureCount() {
-		return 0;
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    @Override
+    protected int eStaticFeatureCount() {
+        return 0;
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public Date getStart() {
-		return (Date) eGet(StorePackage.Literals.LONG_ACTION_STATE__START, true);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public Date getStart() {
+        return (Date) eGet(StorePackage.Literals.LONG_ACTION_STATE__START, true);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public void setStart(Date newStart) {
-		eSet(StorePackage.Literals.LONG_ACTION_STATE__START, newStart);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public void setStart(Date newStart) {
+        eSet(StorePackage.Literals.LONG_ACTION_STATE__START, newStart);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public Date getEnd() {
-		return (Date) eGet(StorePackage.Literals.LONG_ACTION_STATE__END, true);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public Date getEnd() {
+        return (Date) eGet(StorePackage.Literals.LONG_ACTION_STATE__END, true);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public void setEnd(Date newEnd) {
-		eSet(StorePackage.Literals.LONG_ACTION_STATE__END, newEnd);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public void setEnd(Date newEnd) {
+        eSet(StorePackage.Literals.LONG_ACTION_STATE__END, newEnd);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public Integer getProgress() {
-		return (Integer) eGet(StorePackage.Literals.LONG_ACTION_STATE__PROGRESS, true);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public Integer getProgress() {
+        return (Integer) eGet(StorePackage.Literals.LONG_ACTION_STATE__PROGRESS, true);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public void setProgress(Integer newProgress) {
-		eSet(StorePackage.Literals.LONG_ACTION_STATE__PROGRESS, newProgress);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public void setProgress(Integer newProgress) {
+        eSet(StorePackage.Literals.LONG_ACTION_STATE__PROGRESS, newProgress);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public ActionState getState() {
-		return (ActionState) eGet(StorePackage.Literals.LONG_ACTION_STATE__STATE, true);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public ActionState getState() {
+        return (ActionState) eGet(StorePackage.Literals.LONG_ACTION_STATE__STATE, true);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public void setState(ActionState newState) {
-		eSet(StorePackage.Literals.LONG_ACTION_STATE__STATE, newState);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public void setState(ActionState newState) {
+        eSet(StorePackage.Literals.LONG_ACTION_STATE__STATE, newState);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public String getTitle() {
-		return (String) eGet(StorePackage.Literals.LONG_ACTION_STATE__TITLE, true);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public String getTitle() {
+        return (String) eGet(StorePackage.Literals.LONG_ACTION_STATE__TITLE, true);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public void setTitle(String newTitle) {
-		eSet(StorePackage.Literals.LONG_ACTION_STATE__TITLE, newTitle);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public void setTitle(String newTitle) {
+        eSet(StorePackage.Literals.LONG_ACTION_STATE__TITLE, newTitle);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public int getStage() {
-		return (Integer) eGet(StorePackage.Literals.LONG_ACTION_STATE__STAGE, true);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public int getStage() {
+        return (Integer) eGet(StorePackage.Literals.LONG_ACTION_STATE__STAGE, true);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public void setStage(int newStage) {
-		eSet(StorePackage.Literals.LONG_ACTION_STATE__STAGE, newStage);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public void setStage(int newStage) {
+        eSet(StorePackage.Literals.LONG_ACTION_STATE__STAGE, newStage);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	@SuppressWarnings("unchecked")
-	public EList<String> getErrors() {
-		return (EList<String>) eGet(StorePackage.Literals.LONG_ACTION_STATE__ERRORS, true);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    @SuppressWarnings("unchecked")
+    public EList<String> getErrors() {
+        return (EList<String>) eGet(StorePackage.Literals.LONG_ACTION_STATE__ERRORS, true);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	@SuppressWarnings("unchecked")
-	public EList<String> getWarnings() {
-		return (EList<String>) eGet(StorePackage.Literals.LONG_ACTION_STATE__WARNINGS, true);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    @SuppressWarnings("unchecked")
+    public EList<String> getWarnings() {
+        return (EList<String>) eGet(StorePackage.Literals.LONG_ACTION_STATE__WARNINGS, true);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	@SuppressWarnings("unchecked")
-	public EList<String> getInfos() {
-		return (EList<String>) eGet(StorePackage.Literals.LONG_ACTION_STATE__INFOS, true);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    @SuppressWarnings("unchecked")
+    public EList<String> getInfos() {
+        return (EList<String>) eGet(StorePackage.Literals.LONG_ACTION_STATE__INFOS, true);
+    }
 
 } //LongActionStateImpl

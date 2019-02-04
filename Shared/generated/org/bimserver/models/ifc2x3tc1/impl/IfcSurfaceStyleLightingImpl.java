@@ -17,9 +17,11 @@
 package org.bimserver.models.ifc2x3tc1.impl;
 
 import org.bimserver.emf.IdEObjectImpl;
+
 import org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package;
 import org.bimserver.models.ifc2x3tc1.IfcColourRgb;
 import org.bimserver.models.ifc2x3tc1.IfcSurfaceStyleLighting;
+
 import org.eclipse.emf.ecore.EClass;
 
 /**
@@ -28,116 +30,120 @@ import org.eclipse.emf.ecore.EClass;
  * <!-- end-user-doc -->
  * <p>
  * The following features are implemented:
+ * </p>
  * <ul>
  *   <li>{@link org.bimserver.models.ifc2x3tc1.impl.IfcSurfaceStyleLightingImpl#getDiffuseTransmissionColour <em>Diffuse Transmission Colour</em>}</li>
  *   <li>{@link org.bimserver.models.ifc2x3tc1.impl.IfcSurfaceStyleLightingImpl#getDiffuseReflectionColour <em>Diffuse Reflection Colour</em>}</li>
  *   <li>{@link org.bimserver.models.ifc2x3tc1.impl.IfcSurfaceStyleLightingImpl#getTransmissionColour <em>Transmission Colour</em>}</li>
  *   <li>{@link org.bimserver.models.ifc2x3tc1.impl.IfcSurfaceStyleLightingImpl#getReflectanceColour <em>Reflectance Colour</em>}</li>
  * </ul>
- * </p>
  *
  * @generated
  */
 public class IfcSurfaceStyleLightingImpl extends IdEObjectImpl implements IfcSurfaceStyleLighting {
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	protected IfcSurfaceStyleLightingImpl() {
-		super();
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    protected IfcSurfaceStyleLightingImpl() {
+        super();
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	@Override
-	protected EClass eStaticClass() {
-		return Ifc2x3tc1Package.Literals.IFC_SURFACE_STYLE_LIGHTING;
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    @Override
+    protected EClass eStaticClass() {
+        return Ifc2x3tc1Package.Literals.IFC_SURFACE_STYLE_LIGHTING;
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	@Override
-	protected int eStaticFeatureCount() {
-		return 0;
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    @Override
+    protected int eStaticFeatureCount() {
+        return 0;
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public IfcColourRgb getDiffuseTransmissionColour() {
-		return (IfcColourRgb) eGet(Ifc2x3tc1Package.Literals.IFC_SURFACE_STYLE_LIGHTING__DIFFUSE_TRANSMISSION_COLOUR, true);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public IfcColourRgb getDiffuseTransmissionColour() {
+        return (IfcColourRgb) eGet(Ifc2x3tc1Package.Literals.IFC_SURFACE_STYLE_LIGHTING__DIFFUSE_TRANSMISSION_COLOUR,
+                true);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public void setDiffuseTransmissionColour(IfcColourRgb newDiffuseTransmissionColour) {
-		eSet(Ifc2x3tc1Package.Literals.IFC_SURFACE_STYLE_LIGHTING__DIFFUSE_TRANSMISSION_COLOUR, newDiffuseTransmissionColour);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public void setDiffuseTransmissionColour(IfcColourRgb newDiffuseTransmissionColour) {
+        eSet(Ifc2x3tc1Package.Literals.IFC_SURFACE_STYLE_LIGHTING__DIFFUSE_TRANSMISSION_COLOUR,
+                newDiffuseTransmissionColour);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public IfcColourRgb getDiffuseReflectionColour() {
-		return (IfcColourRgb) eGet(Ifc2x3tc1Package.Literals.IFC_SURFACE_STYLE_LIGHTING__DIFFUSE_REFLECTION_COLOUR, true);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public IfcColourRgb getDiffuseReflectionColour() {
+        return (IfcColourRgb) eGet(Ifc2x3tc1Package.Literals.IFC_SURFACE_STYLE_LIGHTING__DIFFUSE_REFLECTION_COLOUR,
+                true);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public void setDiffuseReflectionColour(IfcColourRgb newDiffuseReflectionColour) {
-		eSet(Ifc2x3tc1Package.Literals.IFC_SURFACE_STYLE_LIGHTING__DIFFUSE_REFLECTION_COLOUR, newDiffuseReflectionColour);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public void setDiffuseReflectionColour(IfcColourRgb newDiffuseReflectionColour) {
+        eSet(Ifc2x3tc1Package.Literals.IFC_SURFACE_STYLE_LIGHTING__DIFFUSE_REFLECTION_COLOUR,
+                newDiffuseReflectionColour);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public IfcColourRgb getTransmissionColour() {
-		return (IfcColourRgb) eGet(Ifc2x3tc1Package.Literals.IFC_SURFACE_STYLE_LIGHTING__TRANSMISSION_COLOUR, true);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public IfcColourRgb getTransmissionColour() {
+        return (IfcColourRgb) eGet(Ifc2x3tc1Package.Literals.IFC_SURFACE_STYLE_LIGHTING__TRANSMISSION_COLOUR, true);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public void setTransmissionColour(IfcColourRgb newTransmissionColour) {
-		eSet(Ifc2x3tc1Package.Literals.IFC_SURFACE_STYLE_LIGHTING__TRANSMISSION_COLOUR, newTransmissionColour);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public void setTransmissionColour(IfcColourRgb newTransmissionColour) {
+        eSet(Ifc2x3tc1Package.Literals.IFC_SURFACE_STYLE_LIGHTING__TRANSMISSION_COLOUR, newTransmissionColour);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public IfcColourRgb getReflectanceColour() {
-		return (IfcColourRgb) eGet(Ifc2x3tc1Package.Literals.IFC_SURFACE_STYLE_LIGHTING__REFLECTANCE_COLOUR, true);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public IfcColourRgb getReflectanceColour() {
+        return (IfcColourRgb) eGet(Ifc2x3tc1Package.Literals.IFC_SURFACE_STYLE_LIGHTING__REFLECTANCE_COLOUR, true);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public void setReflectanceColour(IfcColourRgb newReflectanceColour) {
-		eSet(Ifc2x3tc1Package.Literals.IFC_SURFACE_STYLE_LIGHTING__REFLECTANCE_COLOUR, newReflectanceColour);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public void setReflectanceColour(IfcColourRgb newReflectanceColour) {
+        eSet(Ifc2x3tc1Package.Literals.IFC_SURFACE_STYLE_LIGHTING__REFLECTANCE_COLOUR, newReflectanceColour);
+    }
 
 } //IfcSurfaceStyleLightingImpl

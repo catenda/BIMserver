@@ -18,6 +18,7 @@ package org.bimserver.models.store.impl;
 
 import org.bimserver.models.store.PercentageChange;
 import org.bimserver.models.store.StorePackage;
+
 import org.eclipse.emf.ecore.EClass;
 
 /**
@@ -26,49 +27,49 @@ import org.eclipse.emf.ecore.EClass;
  * <!-- end-user-doc -->
  * <p>
  * The following features are implemented:
+ * </p>
  * <ul>
  *   <li>{@link org.bimserver.models.store.impl.PercentageChangeImpl#getPercentage <em>Percentage</em>}</li>
  * </ul>
- * </p>
  *
  * @generated
  */
 public class PercentageChangeImpl extends RemoteServiceUpdateImpl implements PercentageChange {
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	protected PercentageChangeImpl() {
-		super();
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    protected PercentageChangeImpl() {
+        super();
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	@Override
-	protected EClass eStaticClass() {
-		return StorePackage.Literals.PERCENTAGE_CHANGE;
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    @Override
+    protected EClass eStaticClass() {
+        return StorePackage.Literals.PERCENTAGE_CHANGE;
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public int getPercentage() {
-		return (Integer) eGet(StorePackage.Literals.PERCENTAGE_CHANGE__PERCENTAGE, true);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public int getPercentage() {
+        return (Integer) eGet(StorePackage.Literals.PERCENTAGE_CHANGE__PERCENTAGE, true);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public void setPercentage(int newPercentage) {
-		eSet(StorePackage.Literals.PERCENTAGE_CHANGE__PERCENTAGE, newPercentage);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public void setPercentage(int newPercentage) {
+        eSet(StorePackage.Literals.PERCENTAGE_CHANGE__PERCENTAGE, newPercentage);
+    }
 
 } //PercentageChangeImpl

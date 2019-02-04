@@ -18,6 +18,7 @@ package org.bimserver.models.ifc2x3tc1.impl;
 
 import org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package;
 import org.bimserver.models.ifc2x3tc1.IfcEdgeFeature;
+
 import org.eclipse.emf.ecore.EClass;
 
 /**
@@ -26,104 +27,104 @@ import org.eclipse.emf.ecore.EClass;
  * <!-- end-user-doc -->
  * <p>
  * The following features are implemented:
+ * </p>
  * <ul>
  *   <li>{@link org.bimserver.models.ifc2x3tc1.impl.IfcEdgeFeatureImpl#getFeatureLength <em>Feature Length</em>}</li>
  *   <li>{@link org.bimserver.models.ifc2x3tc1.impl.IfcEdgeFeatureImpl#getFeatureLengthAsString <em>Feature Length As String</em>}</li>
  * </ul>
- * </p>
  *
  * @generated
  */
 public class IfcEdgeFeatureImpl extends IfcFeatureElementSubtractionImpl implements IfcEdgeFeature {
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	protected IfcEdgeFeatureImpl() {
-		super();
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    protected IfcEdgeFeatureImpl() {
+        super();
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	@Override
-	protected EClass eStaticClass() {
-		return Ifc2x3tc1Package.Literals.IFC_EDGE_FEATURE;
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    @Override
+    protected EClass eStaticClass() {
+        return Ifc2x3tc1Package.Literals.IFC_EDGE_FEATURE;
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public double getFeatureLength() {
-		return (Double) eGet(Ifc2x3tc1Package.Literals.IFC_EDGE_FEATURE__FEATURE_LENGTH, true);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public double getFeatureLength() {
+        return (Double) eGet(Ifc2x3tc1Package.Literals.IFC_EDGE_FEATURE__FEATURE_LENGTH, true);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public void setFeatureLength(double newFeatureLength) {
-		eSet(Ifc2x3tc1Package.Literals.IFC_EDGE_FEATURE__FEATURE_LENGTH, newFeatureLength);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public void setFeatureLength(double newFeatureLength) {
+        eSet(Ifc2x3tc1Package.Literals.IFC_EDGE_FEATURE__FEATURE_LENGTH, newFeatureLength);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public void unsetFeatureLength() {
-		eUnset(Ifc2x3tc1Package.Literals.IFC_EDGE_FEATURE__FEATURE_LENGTH);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public void unsetFeatureLength() {
+        eUnset(Ifc2x3tc1Package.Literals.IFC_EDGE_FEATURE__FEATURE_LENGTH);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public boolean isSetFeatureLength() {
-		return eIsSet(Ifc2x3tc1Package.Literals.IFC_EDGE_FEATURE__FEATURE_LENGTH);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public boolean isSetFeatureLength() {
+        return eIsSet(Ifc2x3tc1Package.Literals.IFC_EDGE_FEATURE__FEATURE_LENGTH);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public String getFeatureLengthAsString() {
-		return (String) eGet(Ifc2x3tc1Package.Literals.IFC_EDGE_FEATURE__FEATURE_LENGTH_AS_STRING, true);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public String getFeatureLengthAsString() {
+        return (String) eGet(Ifc2x3tc1Package.Literals.IFC_EDGE_FEATURE__FEATURE_LENGTH_AS_STRING, true);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public void setFeatureLengthAsString(String newFeatureLengthAsString) {
-		eSet(Ifc2x3tc1Package.Literals.IFC_EDGE_FEATURE__FEATURE_LENGTH_AS_STRING, newFeatureLengthAsString);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public void setFeatureLengthAsString(String newFeatureLengthAsString) {
+        eSet(Ifc2x3tc1Package.Literals.IFC_EDGE_FEATURE__FEATURE_LENGTH_AS_STRING, newFeatureLengthAsString);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public void unsetFeatureLengthAsString() {
-		eUnset(Ifc2x3tc1Package.Literals.IFC_EDGE_FEATURE__FEATURE_LENGTH_AS_STRING);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public void unsetFeatureLengthAsString() {
+        eUnset(Ifc2x3tc1Package.Literals.IFC_EDGE_FEATURE__FEATURE_LENGTH_AS_STRING);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public boolean isSetFeatureLengthAsString() {
-		return eIsSet(Ifc2x3tc1Package.Literals.IFC_EDGE_FEATURE__FEATURE_LENGTH_AS_STRING);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public boolean isSetFeatureLengthAsString() {
+        return eIsSet(Ifc2x3tc1Package.Literals.IFC_EDGE_FEATURE__FEATURE_LENGTH_AS_STRING);
+    }
 
 } //IfcEdgeFeatureImpl

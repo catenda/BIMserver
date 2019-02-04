@@ -19,6 +19,7 @@ package org.bimserver.models.ifc2x3tc1.impl;
 import org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package;
 import org.bimserver.models.ifc2x3tc1.IfcCoolingTowerType;
 import org.bimserver.models.ifc2x3tc1.IfcCoolingTowerTypeEnum;
+
 import org.eclipse.emf.ecore.EClass;
 
 /**
@@ -27,49 +28,49 @@ import org.eclipse.emf.ecore.EClass;
  * <!-- end-user-doc -->
  * <p>
  * The following features are implemented:
+ * </p>
  * <ul>
  *   <li>{@link org.bimserver.models.ifc2x3tc1.impl.IfcCoolingTowerTypeImpl#getPredefinedType <em>Predefined Type</em>}</li>
  * </ul>
- * </p>
  *
  * @generated
  */
 public class IfcCoolingTowerTypeImpl extends IfcEnergyConversionDeviceTypeImpl implements IfcCoolingTowerType {
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	protected IfcCoolingTowerTypeImpl() {
-		super();
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    protected IfcCoolingTowerTypeImpl() {
+        super();
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	@Override
-	protected EClass eStaticClass() {
-		return Ifc2x3tc1Package.Literals.IFC_COOLING_TOWER_TYPE;
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    @Override
+    protected EClass eStaticClass() {
+        return Ifc2x3tc1Package.Literals.IFC_COOLING_TOWER_TYPE;
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public IfcCoolingTowerTypeEnum getPredefinedType() {
-		return (IfcCoolingTowerTypeEnum) eGet(Ifc2x3tc1Package.Literals.IFC_COOLING_TOWER_TYPE__PREDEFINED_TYPE, true);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public IfcCoolingTowerTypeEnum getPredefinedType() {
+        return (IfcCoolingTowerTypeEnum) eGet(Ifc2x3tc1Package.Literals.IFC_COOLING_TOWER_TYPE__PREDEFINED_TYPE, true);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public void setPredefinedType(IfcCoolingTowerTypeEnum newPredefinedType) {
-		eSet(Ifc2x3tc1Package.Literals.IFC_COOLING_TOWER_TYPE__PREDEFINED_TYPE, newPredefinedType);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public void setPredefinedType(IfcCoolingTowerTypeEnum newPredefinedType) {
+        eSet(Ifc2x3tc1Package.Literals.IFC_COOLING_TOWER_TYPE__PREDEFINED_TYPE, newPredefinedType);
+    }
 
 } //IfcCoolingTowerTypeImpl

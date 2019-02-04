@@ -17,8 +17,10 @@
 package org.bimserver.models.store.impl;
 
 import org.bimserver.emf.IdEObjectImpl;
+
 import org.bimserver.models.store.Migration;
 import org.bimserver.models.store.StorePackage;
+
 import org.eclipse.emf.ecore.EClass;
 
 /**
@@ -27,97 +29,97 @@ import org.eclipse.emf.ecore.EClass;
  * <!-- end-user-doc -->
  * <p>
  * The following features are implemented:
+ * </p>
  * <ul>
  *   <li>{@link org.bimserver.models.store.impl.MigrationImpl#getNumber <em>Number</em>}</li>
  *   <li>{@link org.bimserver.models.store.impl.MigrationImpl#getDescription <em>Description</em>}</li>
  *   <li>{@link org.bimserver.models.store.impl.MigrationImpl#getExecuted <em>Executed</em>}</li>
  * </ul>
- * </p>
  *
  * @generated
  */
 public class MigrationImpl extends IdEObjectImpl implements Migration {
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	protected MigrationImpl() {
-		super();
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    protected MigrationImpl() {
+        super();
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	@Override
-	protected EClass eStaticClass() {
-		return StorePackage.Literals.MIGRATION;
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    @Override
+    protected EClass eStaticClass() {
+        return StorePackage.Literals.MIGRATION;
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	@Override
-	protected int eStaticFeatureCount() {
-		return 0;
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    @Override
+    protected int eStaticFeatureCount() {
+        return 0;
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public Integer getNumber() {
-		return (Integer) eGet(StorePackage.Literals.MIGRATION__NUMBER, true);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public Integer getNumber() {
+        return (Integer) eGet(StorePackage.Literals.MIGRATION__NUMBER, true);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public void setNumber(Integer newNumber) {
-		eSet(StorePackage.Literals.MIGRATION__NUMBER, newNumber);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public void setNumber(Integer newNumber) {
+        eSet(StorePackage.Literals.MIGRATION__NUMBER, newNumber);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public String getDescription() {
-		return (String) eGet(StorePackage.Literals.MIGRATION__DESCRIPTION, true);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public String getDescription() {
+        return (String) eGet(StorePackage.Literals.MIGRATION__DESCRIPTION, true);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public void setDescription(String newDescription) {
-		eSet(StorePackage.Literals.MIGRATION__DESCRIPTION, newDescription);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public void setDescription(String newDescription) {
+        eSet(StorePackage.Literals.MIGRATION__DESCRIPTION, newDescription);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public Boolean getExecuted() {
-		return (Boolean) eGet(StorePackage.Literals.MIGRATION__EXECUTED, true);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public Boolean getExecuted() {
+        return (Boolean) eGet(StorePackage.Literals.MIGRATION__EXECUTED, true);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public void setExecuted(Boolean newExecuted) {
-		eSet(StorePackage.Literals.MIGRATION__EXECUTED, newExecuted);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public void setExecuted(Boolean newExecuted) {
+        eSet(StorePackage.Literals.MIGRATION__EXECUTED, newExecuted);
+    }
 
 } //MigrationImpl

@@ -19,7 +19,9 @@ package org.bimserver.models.ifc2x3tc1.impl;
 import org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package;
 import org.bimserver.models.ifc2x3tc1.IfcDistributionControlElement;
 import org.bimserver.models.ifc2x3tc1.IfcRelFlowControlElements;
+
 import org.eclipse.emf.common.util.EList;
+
 import org.eclipse.emf.ecore.EClass;
 
 /**
@@ -28,96 +30,98 @@ import org.eclipse.emf.ecore.EClass;
  * <!-- end-user-doc -->
  * <p>
  * The following features are implemented:
+ * </p>
  * <ul>
  *   <li>{@link org.bimserver.models.ifc2x3tc1.impl.IfcDistributionControlElementImpl#getControlElementId <em>Control Element Id</em>}</li>
  *   <li>{@link org.bimserver.models.ifc2x3tc1.impl.IfcDistributionControlElementImpl#getAssignedToFlowElement <em>Assigned To Flow Element</em>}</li>
  * </ul>
- * </p>
  *
  * @generated
  */
-public class IfcDistributionControlElementImpl extends IfcDistributionElementImpl implements IfcDistributionControlElement {
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	protected IfcDistributionControlElementImpl() {
-		super();
-	}
+public class IfcDistributionControlElementImpl extends IfcDistributionElementImpl
+        implements IfcDistributionControlElement {
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    protected IfcDistributionControlElementImpl() {
+        super();
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	@Override
-	protected EClass eStaticClass() {
-		return Ifc2x3tc1Package.Literals.IFC_DISTRIBUTION_CONTROL_ELEMENT;
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    @Override
+    protected EClass eStaticClass() {
+        return Ifc2x3tc1Package.Literals.IFC_DISTRIBUTION_CONTROL_ELEMENT;
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public String getControlElementId() {
-		return (String) eGet(Ifc2x3tc1Package.Literals.IFC_DISTRIBUTION_CONTROL_ELEMENT__CONTROL_ELEMENT_ID, true);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public String getControlElementId() {
+        return (String) eGet(Ifc2x3tc1Package.Literals.IFC_DISTRIBUTION_CONTROL_ELEMENT__CONTROL_ELEMENT_ID, true);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public void setControlElementId(String newControlElementId) {
-		eSet(Ifc2x3tc1Package.Literals.IFC_DISTRIBUTION_CONTROL_ELEMENT__CONTROL_ELEMENT_ID, newControlElementId);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public void setControlElementId(String newControlElementId) {
+        eSet(Ifc2x3tc1Package.Literals.IFC_DISTRIBUTION_CONTROL_ELEMENT__CONTROL_ELEMENT_ID, newControlElementId);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public void unsetControlElementId() {
-		eUnset(Ifc2x3tc1Package.Literals.IFC_DISTRIBUTION_CONTROL_ELEMENT__CONTROL_ELEMENT_ID);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public void unsetControlElementId() {
+        eUnset(Ifc2x3tc1Package.Literals.IFC_DISTRIBUTION_CONTROL_ELEMENT__CONTROL_ELEMENT_ID);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public boolean isSetControlElementId() {
-		return eIsSet(Ifc2x3tc1Package.Literals.IFC_DISTRIBUTION_CONTROL_ELEMENT__CONTROL_ELEMENT_ID);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public boolean isSetControlElementId() {
+        return eIsSet(Ifc2x3tc1Package.Literals.IFC_DISTRIBUTION_CONTROL_ELEMENT__CONTROL_ELEMENT_ID);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	@SuppressWarnings("unchecked")
-	public EList<IfcRelFlowControlElements> getAssignedToFlowElement() {
-		return (EList<IfcRelFlowControlElements>) eGet(Ifc2x3tc1Package.Literals.IFC_DISTRIBUTION_CONTROL_ELEMENT__ASSIGNED_TO_FLOW_ELEMENT, true);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    @SuppressWarnings("unchecked")
+    public EList<IfcRelFlowControlElements> getAssignedToFlowElement() {
+        return (EList<IfcRelFlowControlElements>) eGet(
+                Ifc2x3tc1Package.Literals.IFC_DISTRIBUTION_CONTROL_ELEMENT__ASSIGNED_TO_FLOW_ELEMENT, true);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public void unsetAssignedToFlowElement() {
-		eUnset(Ifc2x3tc1Package.Literals.IFC_DISTRIBUTION_CONTROL_ELEMENT__ASSIGNED_TO_FLOW_ELEMENT);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public void unsetAssignedToFlowElement() {
+        eUnset(Ifc2x3tc1Package.Literals.IFC_DISTRIBUTION_CONTROL_ELEMENT__ASSIGNED_TO_FLOW_ELEMENT);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public boolean isSetAssignedToFlowElement() {
-		return eIsSet(Ifc2x3tc1Package.Literals.IFC_DISTRIBUTION_CONTROL_ELEMENT__ASSIGNED_TO_FLOW_ELEMENT);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public boolean isSetAssignedToFlowElement() {
+        return eIsSet(Ifc2x3tc1Package.Literals.IFC_DISTRIBUTION_CONTROL_ELEMENT__ASSIGNED_TO_FLOW_ELEMENT);
+    }
 
 } //IfcDistributionControlElementImpl

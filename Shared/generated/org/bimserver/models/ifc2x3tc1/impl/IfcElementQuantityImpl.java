@@ -19,7 +19,9 @@ package org.bimserver.models.ifc2x3tc1.impl;
 import org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package;
 import org.bimserver.models.ifc2x3tc1.IfcElementQuantity;
 import org.bimserver.models.ifc2x3tc1.IfcPhysicalQuantity;
+
 import org.eclipse.emf.common.util.EList;
+
 import org.eclipse.emf.ecore.EClass;
 
 /**
@@ -28,78 +30,78 @@ import org.eclipse.emf.ecore.EClass;
  * <!-- end-user-doc -->
  * <p>
  * The following features are implemented:
+ * </p>
  * <ul>
  *   <li>{@link org.bimserver.models.ifc2x3tc1.impl.IfcElementQuantityImpl#getMethodOfMeasurement <em>Method Of Measurement</em>}</li>
  *   <li>{@link org.bimserver.models.ifc2x3tc1.impl.IfcElementQuantityImpl#getQuantities <em>Quantities</em>}</li>
  * </ul>
- * </p>
  *
  * @generated
  */
 public class IfcElementQuantityImpl extends IfcPropertySetDefinitionImpl implements IfcElementQuantity {
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	protected IfcElementQuantityImpl() {
-		super();
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    protected IfcElementQuantityImpl() {
+        super();
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	@Override
-	protected EClass eStaticClass() {
-		return Ifc2x3tc1Package.Literals.IFC_ELEMENT_QUANTITY;
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    @Override
+    protected EClass eStaticClass() {
+        return Ifc2x3tc1Package.Literals.IFC_ELEMENT_QUANTITY;
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public String getMethodOfMeasurement() {
-		return (String) eGet(Ifc2x3tc1Package.Literals.IFC_ELEMENT_QUANTITY__METHOD_OF_MEASUREMENT, true);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public String getMethodOfMeasurement() {
+        return (String) eGet(Ifc2x3tc1Package.Literals.IFC_ELEMENT_QUANTITY__METHOD_OF_MEASUREMENT, true);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public void setMethodOfMeasurement(String newMethodOfMeasurement) {
-		eSet(Ifc2x3tc1Package.Literals.IFC_ELEMENT_QUANTITY__METHOD_OF_MEASUREMENT, newMethodOfMeasurement);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public void setMethodOfMeasurement(String newMethodOfMeasurement) {
+        eSet(Ifc2x3tc1Package.Literals.IFC_ELEMENT_QUANTITY__METHOD_OF_MEASUREMENT, newMethodOfMeasurement);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public void unsetMethodOfMeasurement() {
-		eUnset(Ifc2x3tc1Package.Literals.IFC_ELEMENT_QUANTITY__METHOD_OF_MEASUREMENT);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public void unsetMethodOfMeasurement() {
+        eUnset(Ifc2x3tc1Package.Literals.IFC_ELEMENT_QUANTITY__METHOD_OF_MEASUREMENT);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public boolean isSetMethodOfMeasurement() {
-		return eIsSet(Ifc2x3tc1Package.Literals.IFC_ELEMENT_QUANTITY__METHOD_OF_MEASUREMENT);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public boolean isSetMethodOfMeasurement() {
+        return eIsSet(Ifc2x3tc1Package.Literals.IFC_ELEMENT_QUANTITY__METHOD_OF_MEASUREMENT);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	@SuppressWarnings("unchecked")
-	public EList<IfcPhysicalQuantity> getQuantities() {
-		return (EList<IfcPhysicalQuantity>) eGet(Ifc2x3tc1Package.Literals.IFC_ELEMENT_QUANTITY__QUANTITIES, true);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    @SuppressWarnings("unchecked")
+    public EList<IfcPhysicalQuantity> getQuantities() {
+        return (EList<IfcPhysicalQuantity>) eGet(Ifc2x3tc1Package.Literals.IFC_ELEMENT_QUANTITY__QUANTITIES, true);
+    }
 
 } //IfcElementQuantityImpl

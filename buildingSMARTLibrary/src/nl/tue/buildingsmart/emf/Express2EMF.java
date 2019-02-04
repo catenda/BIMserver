@@ -80,7 +80,7 @@ public class Express2EMF {
 	private final Map<String, EDataType> simpleTypeReplacementMap = new HashMap<String, EDataType>();
 	private EEnum tristate;
 
-	public Express2EMF(File schemaFileName, String modelName) {
+	public Express2EMF(File schemaFileName, String modelName, String ns) {
 		schema = new SchemaLoader(schemaFileName.getAbsolutePath()).getSchema();
 		eFactory = EcoreFactory.eINSTANCE;
 		ePackage = EcorePackage.eINSTANCE;
@@ -92,7 +92,7 @@ public class Express2EMF {
 		}
 		schemaPack.setName(modelName);
 		schemaPack.setNsPrefix("iai");
-		schemaPack.setNsURI("http:///buildingsmart.ifc.ecore");
+		schemaPack.setNsURI(ns);
 
 		createTristate();
 
@@ -556,7 +556,7 @@ public class Express2EMF {
 				eAttribute.setName(attrib.getName());
 				eAttribute.setUpperBound(-1);
 				eAttribute.setUnique(false);
-				eAttribute.setEType(EcorePackage.eINSTANCE.getEInt());
+				eAttribute.setEType(EcorePackage.eINSTANCE.getELong());
 				eAttribute.setUnsettable(expAttrib.isOptional());
 				cls.getEStructuralFeatures().add(eAttribute);
 			} else if (bt instanceof LogicalType) {
@@ -587,7 +587,7 @@ public class Express2EMF {
 				EAttribute eAttribute = eFactory.createEAttribute();
 				eAttribute.setUnsettable(expAttrib.isOptional());
 				eAttribute.setName(attrib.getName());
-				eAttribute.setEType(EcorePackage.eINSTANCE.getEInt());
+				eAttribute.setEType(EcorePackage.eINSTANCE.getELong());
 				cls.getEStructuralFeatures().add(eAttribute);
 			} else if (domain instanceof LogicalType) {
 				EAttribute eAttribute = eFactory.createEAttribute();
@@ -733,7 +733,7 @@ public class Express2EMF {
 		EAttribute wrapperAttrib = eFactory.createEAttribute();
 		wrapperAttrib.setName("wrappedValue");
 		if (type.getDomain() instanceof IntegerType) {
-			wrapperAttrib.setEType(ePackage.getEInt());
+			wrapperAttrib.setEType(ePackage.getELong());
 		} else if (type.getDomain() instanceof RealType) {
 			wrapperAttrib.setEType(ePackage.getEDouble());
 		} else if (type.getDomain() instanceof StringType) {

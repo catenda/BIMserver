@@ -18,6 +18,7 @@ package org.bimserver.models.ifc2x3tc1.impl;
 
 import org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package;
 import org.bimserver.models.ifc2x3tc1.IfcQuantityVolume;
+
 import org.eclipse.emf.ecore.EClass;
 
 /**
@@ -26,68 +27,68 @@ import org.eclipse.emf.ecore.EClass;
  * <!-- end-user-doc -->
  * <p>
  * The following features are implemented:
+ * </p>
  * <ul>
  *   <li>{@link org.bimserver.models.ifc2x3tc1.impl.IfcQuantityVolumeImpl#getVolumeValue <em>Volume Value</em>}</li>
  *   <li>{@link org.bimserver.models.ifc2x3tc1.impl.IfcQuantityVolumeImpl#getVolumeValueAsString <em>Volume Value As String</em>}</li>
  * </ul>
- * </p>
  *
  * @generated
  */
 public class IfcQuantityVolumeImpl extends IfcPhysicalSimpleQuantityImpl implements IfcQuantityVolume {
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	protected IfcQuantityVolumeImpl() {
-		super();
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    protected IfcQuantityVolumeImpl() {
+        super();
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	@Override
-	protected EClass eStaticClass() {
-		return Ifc2x3tc1Package.Literals.IFC_QUANTITY_VOLUME;
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    @Override
+    protected EClass eStaticClass() {
+        return Ifc2x3tc1Package.Literals.IFC_QUANTITY_VOLUME;
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public double getVolumeValue() {
-		return (Double) eGet(Ifc2x3tc1Package.Literals.IFC_QUANTITY_VOLUME__VOLUME_VALUE, true);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public double getVolumeValue() {
+        return (Double) eGet(Ifc2x3tc1Package.Literals.IFC_QUANTITY_VOLUME__VOLUME_VALUE, true);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public void setVolumeValue(double newVolumeValue) {
-		eSet(Ifc2x3tc1Package.Literals.IFC_QUANTITY_VOLUME__VOLUME_VALUE, newVolumeValue);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public void setVolumeValue(double newVolumeValue) {
+        eSet(Ifc2x3tc1Package.Literals.IFC_QUANTITY_VOLUME__VOLUME_VALUE, newVolumeValue);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public String getVolumeValueAsString() {
-		return (String) eGet(Ifc2x3tc1Package.Literals.IFC_QUANTITY_VOLUME__VOLUME_VALUE_AS_STRING, true);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public String getVolumeValueAsString() {
+        return (String) eGet(Ifc2x3tc1Package.Literals.IFC_QUANTITY_VOLUME__VOLUME_VALUE_AS_STRING, true);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public void setVolumeValueAsString(String newVolumeValueAsString) {
-		eSet(Ifc2x3tc1Package.Literals.IFC_QUANTITY_VOLUME__VOLUME_VALUE_AS_STRING, newVolumeValueAsString);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public void setVolumeValueAsString(String newVolumeValueAsString) {
+        eSet(Ifc2x3tc1Package.Literals.IFC_QUANTITY_VOLUME__VOLUME_VALUE_AS_STRING, newVolumeValueAsString);
+    }
 
 } //IfcQuantityVolumeImpl

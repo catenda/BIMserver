@@ -19,6 +19,7 @@ package org.bimserver.models.ifc2x3tc1.impl;
 import org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package;
 import org.bimserver.models.ifc2x3tc1.IfcColourRgb;
 import org.bimserver.models.ifc2x3tc1.IfcLightSource;
+
 import org.eclipse.emf.ecore.EClass;
 
 /**
@@ -27,6 +28,7 @@ import org.eclipse.emf.ecore.EClass;
  * <!-- end-user-doc -->
  * <p>
  * The following features are implemented:
+ * </p>
  * <ul>
  *   <li>{@link org.bimserver.models.ifc2x3tc1.impl.IfcLightSourceImpl#getName <em>Name</em>}</li>
  *   <li>{@link org.bimserver.models.ifc2x3tc1.impl.IfcLightSourceImpl#getLightColour <em>Light Colour</em>}</li>
@@ -35,226 +37,225 @@ import org.eclipse.emf.ecore.EClass;
  *   <li>{@link org.bimserver.models.ifc2x3tc1.impl.IfcLightSourceImpl#getIntensity <em>Intensity</em>}</li>
  *   <li>{@link org.bimserver.models.ifc2x3tc1.impl.IfcLightSourceImpl#getIntensityAsString <em>Intensity As String</em>}</li>
  * </ul>
- * </p>
  *
  * @generated
  */
 public class IfcLightSourceImpl extends IfcGeometricRepresentationItemImpl implements IfcLightSource {
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	protected IfcLightSourceImpl() {
-		super();
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    protected IfcLightSourceImpl() {
+        super();
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	@Override
-	protected EClass eStaticClass() {
-		return Ifc2x3tc1Package.Literals.IFC_LIGHT_SOURCE;
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    @Override
+    protected EClass eStaticClass() {
+        return Ifc2x3tc1Package.Literals.IFC_LIGHT_SOURCE;
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public String getName() {
-		return (String) eGet(Ifc2x3tc1Package.Literals.IFC_LIGHT_SOURCE__NAME, true);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public String getName() {
+        return (String) eGet(Ifc2x3tc1Package.Literals.IFC_LIGHT_SOURCE__NAME, true);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public void setName(String newName) {
-		eSet(Ifc2x3tc1Package.Literals.IFC_LIGHT_SOURCE__NAME, newName);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public void setName(String newName) {
+        eSet(Ifc2x3tc1Package.Literals.IFC_LIGHT_SOURCE__NAME, newName);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public void unsetName() {
-		eUnset(Ifc2x3tc1Package.Literals.IFC_LIGHT_SOURCE__NAME);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public void unsetName() {
+        eUnset(Ifc2x3tc1Package.Literals.IFC_LIGHT_SOURCE__NAME);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public boolean isSetName() {
-		return eIsSet(Ifc2x3tc1Package.Literals.IFC_LIGHT_SOURCE__NAME);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public boolean isSetName() {
+        return eIsSet(Ifc2x3tc1Package.Literals.IFC_LIGHT_SOURCE__NAME);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public IfcColourRgb getLightColour() {
-		return (IfcColourRgb) eGet(Ifc2x3tc1Package.Literals.IFC_LIGHT_SOURCE__LIGHT_COLOUR, true);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public IfcColourRgb getLightColour() {
+        return (IfcColourRgb) eGet(Ifc2x3tc1Package.Literals.IFC_LIGHT_SOURCE__LIGHT_COLOUR, true);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public void setLightColour(IfcColourRgb newLightColour) {
-		eSet(Ifc2x3tc1Package.Literals.IFC_LIGHT_SOURCE__LIGHT_COLOUR, newLightColour);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public void setLightColour(IfcColourRgb newLightColour) {
+        eSet(Ifc2x3tc1Package.Literals.IFC_LIGHT_SOURCE__LIGHT_COLOUR, newLightColour);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public double getAmbientIntensity() {
-		return (Double) eGet(Ifc2x3tc1Package.Literals.IFC_LIGHT_SOURCE__AMBIENT_INTENSITY, true);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public double getAmbientIntensity() {
+        return (Double) eGet(Ifc2x3tc1Package.Literals.IFC_LIGHT_SOURCE__AMBIENT_INTENSITY, true);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public void setAmbientIntensity(double newAmbientIntensity) {
-		eSet(Ifc2x3tc1Package.Literals.IFC_LIGHT_SOURCE__AMBIENT_INTENSITY, newAmbientIntensity);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public void setAmbientIntensity(double newAmbientIntensity) {
+        eSet(Ifc2x3tc1Package.Literals.IFC_LIGHT_SOURCE__AMBIENT_INTENSITY, newAmbientIntensity);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public void unsetAmbientIntensity() {
-		eUnset(Ifc2x3tc1Package.Literals.IFC_LIGHT_SOURCE__AMBIENT_INTENSITY);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public void unsetAmbientIntensity() {
+        eUnset(Ifc2x3tc1Package.Literals.IFC_LIGHT_SOURCE__AMBIENT_INTENSITY);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public boolean isSetAmbientIntensity() {
-		return eIsSet(Ifc2x3tc1Package.Literals.IFC_LIGHT_SOURCE__AMBIENT_INTENSITY);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public boolean isSetAmbientIntensity() {
+        return eIsSet(Ifc2x3tc1Package.Literals.IFC_LIGHT_SOURCE__AMBIENT_INTENSITY);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public String getAmbientIntensityAsString() {
-		return (String) eGet(Ifc2x3tc1Package.Literals.IFC_LIGHT_SOURCE__AMBIENT_INTENSITY_AS_STRING, true);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public String getAmbientIntensityAsString() {
+        return (String) eGet(Ifc2x3tc1Package.Literals.IFC_LIGHT_SOURCE__AMBIENT_INTENSITY_AS_STRING, true);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public void setAmbientIntensityAsString(String newAmbientIntensityAsString) {
-		eSet(Ifc2x3tc1Package.Literals.IFC_LIGHT_SOURCE__AMBIENT_INTENSITY_AS_STRING, newAmbientIntensityAsString);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public void setAmbientIntensityAsString(String newAmbientIntensityAsString) {
+        eSet(Ifc2x3tc1Package.Literals.IFC_LIGHT_SOURCE__AMBIENT_INTENSITY_AS_STRING, newAmbientIntensityAsString);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public void unsetAmbientIntensityAsString() {
-		eUnset(Ifc2x3tc1Package.Literals.IFC_LIGHT_SOURCE__AMBIENT_INTENSITY_AS_STRING);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public void unsetAmbientIntensityAsString() {
+        eUnset(Ifc2x3tc1Package.Literals.IFC_LIGHT_SOURCE__AMBIENT_INTENSITY_AS_STRING);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public boolean isSetAmbientIntensityAsString() {
-		return eIsSet(Ifc2x3tc1Package.Literals.IFC_LIGHT_SOURCE__AMBIENT_INTENSITY_AS_STRING);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public boolean isSetAmbientIntensityAsString() {
+        return eIsSet(Ifc2x3tc1Package.Literals.IFC_LIGHT_SOURCE__AMBIENT_INTENSITY_AS_STRING);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public double getIntensity() {
-		return (Double) eGet(Ifc2x3tc1Package.Literals.IFC_LIGHT_SOURCE__INTENSITY, true);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public double getIntensity() {
+        return (Double) eGet(Ifc2x3tc1Package.Literals.IFC_LIGHT_SOURCE__INTENSITY, true);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public void setIntensity(double newIntensity) {
-		eSet(Ifc2x3tc1Package.Literals.IFC_LIGHT_SOURCE__INTENSITY, newIntensity);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public void setIntensity(double newIntensity) {
+        eSet(Ifc2x3tc1Package.Literals.IFC_LIGHT_SOURCE__INTENSITY, newIntensity);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public void unsetIntensity() {
-		eUnset(Ifc2x3tc1Package.Literals.IFC_LIGHT_SOURCE__INTENSITY);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public void unsetIntensity() {
+        eUnset(Ifc2x3tc1Package.Literals.IFC_LIGHT_SOURCE__INTENSITY);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public boolean isSetIntensity() {
-		return eIsSet(Ifc2x3tc1Package.Literals.IFC_LIGHT_SOURCE__INTENSITY);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public boolean isSetIntensity() {
+        return eIsSet(Ifc2x3tc1Package.Literals.IFC_LIGHT_SOURCE__INTENSITY);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public String getIntensityAsString() {
-		return (String) eGet(Ifc2x3tc1Package.Literals.IFC_LIGHT_SOURCE__INTENSITY_AS_STRING, true);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public String getIntensityAsString() {
+        return (String) eGet(Ifc2x3tc1Package.Literals.IFC_LIGHT_SOURCE__INTENSITY_AS_STRING, true);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public void setIntensityAsString(String newIntensityAsString) {
-		eSet(Ifc2x3tc1Package.Literals.IFC_LIGHT_SOURCE__INTENSITY_AS_STRING, newIntensityAsString);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public void setIntensityAsString(String newIntensityAsString) {
+        eSet(Ifc2x3tc1Package.Literals.IFC_LIGHT_SOURCE__INTENSITY_AS_STRING, newIntensityAsString);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public void unsetIntensityAsString() {
-		eUnset(Ifc2x3tc1Package.Literals.IFC_LIGHT_SOURCE__INTENSITY_AS_STRING);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public void unsetIntensityAsString() {
+        eUnset(Ifc2x3tc1Package.Literals.IFC_LIGHT_SOURCE__INTENSITY_AS_STRING);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public boolean isSetIntensityAsString() {
-		return eIsSet(Ifc2x3tc1Package.Literals.IFC_LIGHT_SOURCE__INTENSITY_AS_STRING);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public boolean isSetIntensityAsString() {
+        return eIsSet(Ifc2x3tc1Package.Literals.IFC_LIGHT_SOURCE__INTENSITY_AS_STRING);
+    }
 
 } //IfcLightSourceImpl

@@ -757,14 +757,14 @@ public class SceneJSSerializer extends AbstractGeometrySerializer {
 		if (object.isSetRefLatitude()) {
 			JSONArray jsonArray = new JSONArray();
 			jsonObj.put("Ref Latitude", jsonArray);
-			for (Integer val : object.getRefLatitude()) {
+			for (Long val : object.getRefLatitude()) {
 				jsonArray.put(val.toString());
 			}
 		}
 		if (object.isSetRefLongitude()) {
 			JSONArray jsonArray = new JSONArray();
 			jsonObj.put("Ref Longtitude", jsonArray);
-			for (Integer val : object.getRefLongitude()) {
+			for (Long val : object.getRefLongitude()) {
 				jsonArray.put(val.toString());
 			}
 		}

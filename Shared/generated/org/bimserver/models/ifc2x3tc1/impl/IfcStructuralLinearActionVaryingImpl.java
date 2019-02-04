@@ -20,7 +20,9 @@ import org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package;
 import org.bimserver.models.ifc2x3tc1.IfcShapeAspect;
 import org.bimserver.models.ifc2x3tc1.IfcStructuralLinearActionVarying;
 import org.bimserver.models.ifc2x3tc1.IfcStructuralLoad;
+
 import org.eclipse.emf.common.util.EList;
+
 import org.eclipse.emf.ecore.EClass;
 
 /**
@@ -29,60 +31,64 @@ import org.eclipse.emf.ecore.EClass;
  * <!-- end-user-doc -->
  * <p>
  * The following features are implemented:
+ * </p>
  * <ul>
  *   <li>{@link org.bimserver.models.ifc2x3tc1.impl.IfcStructuralLinearActionVaryingImpl#getVaryingAppliedLoadLocation <em>Varying Applied Load Location</em>}</li>
  *   <li>{@link org.bimserver.models.ifc2x3tc1.impl.IfcStructuralLinearActionVaryingImpl#getSubsequentAppliedLoads <em>Subsequent Applied Loads</em>}</li>
  * </ul>
- * </p>
  *
  * @generated
  */
-public class IfcStructuralLinearActionVaryingImpl extends IfcStructuralLinearActionImpl implements IfcStructuralLinearActionVarying {
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	protected IfcStructuralLinearActionVaryingImpl() {
-		super();
-	}
+public class IfcStructuralLinearActionVaryingImpl extends IfcStructuralLinearActionImpl
+        implements IfcStructuralLinearActionVarying {
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    protected IfcStructuralLinearActionVaryingImpl() {
+        super();
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	@Override
-	protected EClass eStaticClass() {
-		return Ifc2x3tc1Package.Literals.IFC_STRUCTURAL_LINEAR_ACTION_VARYING;
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    @Override
+    protected EClass eStaticClass() {
+        return Ifc2x3tc1Package.Literals.IFC_STRUCTURAL_LINEAR_ACTION_VARYING;
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public IfcShapeAspect getVaryingAppliedLoadLocation() {
-		return (IfcShapeAspect) eGet(Ifc2x3tc1Package.Literals.IFC_STRUCTURAL_LINEAR_ACTION_VARYING__VARYING_APPLIED_LOAD_LOCATION, true);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public IfcShapeAspect getVaryingAppliedLoadLocation() {
+        return (IfcShapeAspect) eGet(
+                Ifc2x3tc1Package.Literals.IFC_STRUCTURAL_LINEAR_ACTION_VARYING__VARYING_APPLIED_LOAD_LOCATION, true);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public void setVaryingAppliedLoadLocation(IfcShapeAspect newVaryingAppliedLoadLocation) {
-		eSet(Ifc2x3tc1Package.Literals.IFC_STRUCTURAL_LINEAR_ACTION_VARYING__VARYING_APPLIED_LOAD_LOCATION, newVaryingAppliedLoadLocation);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public void setVaryingAppliedLoadLocation(IfcShapeAspect newVaryingAppliedLoadLocation) {
+        eSet(Ifc2x3tc1Package.Literals.IFC_STRUCTURAL_LINEAR_ACTION_VARYING__VARYING_APPLIED_LOAD_LOCATION,
+                newVaryingAppliedLoadLocation);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	@SuppressWarnings("unchecked")
-	public EList<IfcStructuralLoad> getSubsequentAppliedLoads() {
-		return (EList<IfcStructuralLoad>) eGet(Ifc2x3tc1Package.Literals.IFC_STRUCTURAL_LINEAR_ACTION_VARYING__SUBSEQUENT_APPLIED_LOADS, true);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    @SuppressWarnings("unchecked")
+    public EList<IfcStructuralLoad> getSubsequentAppliedLoads() {
+        return (EList<IfcStructuralLoad>) eGet(
+                Ifc2x3tc1Package.Literals.IFC_STRUCTURAL_LINEAR_ACTION_VARYING__SUBSEQUENT_APPLIED_LOADS, true);
+    }
 
 } //IfcStructuralLinearActionVaryingImpl

@@ -20,7 +20,9 @@ import org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package;
 import org.bimserver.models.ifc2x3tc1.IfcProjectOrderRecord;
 import org.bimserver.models.ifc2x3tc1.IfcProjectOrderRecordTypeEnum;
 import org.bimserver.models.ifc2x3tc1.IfcRelAssignsToProjectOrder;
+
 import org.eclipse.emf.common.util.EList;
+
 import org.eclipse.emf.ecore.EClass;
 
 /**
@@ -29,60 +31,62 @@ import org.eclipse.emf.ecore.EClass;
  * <!-- end-user-doc -->
  * <p>
  * The following features are implemented:
+ * </p>
  * <ul>
  *   <li>{@link org.bimserver.models.ifc2x3tc1.impl.IfcProjectOrderRecordImpl#getRecords <em>Records</em>}</li>
  *   <li>{@link org.bimserver.models.ifc2x3tc1.impl.IfcProjectOrderRecordImpl#getPredefinedType <em>Predefined Type</em>}</li>
  * </ul>
- * </p>
  *
  * @generated
  */
 public class IfcProjectOrderRecordImpl extends IfcControlImpl implements IfcProjectOrderRecord {
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	protected IfcProjectOrderRecordImpl() {
-		super();
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    protected IfcProjectOrderRecordImpl() {
+        super();
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	@Override
-	protected EClass eStaticClass() {
-		return Ifc2x3tc1Package.Literals.IFC_PROJECT_ORDER_RECORD;
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    @Override
+    protected EClass eStaticClass() {
+        return Ifc2x3tc1Package.Literals.IFC_PROJECT_ORDER_RECORD;
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	@SuppressWarnings("unchecked")
-	public EList<IfcRelAssignsToProjectOrder> getRecords() {
-		return (EList<IfcRelAssignsToProjectOrder>) eGet(Ifc2x3tc1Package.Literals.IFC_PROJECT_ORDER_RECORD__RECORDS, true);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    @SuppressWarnings("unchecked")
+    public EList<IfcRelAssignsToProjectOrder> getRecords() {
+        return (EList<IfcRelAssignsToProjectOrder>) eGet(Ifc2x3tc1Package.Literals.IFC_PROJECT_ORDER_RECORD__RECORDS,
+                true);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public IfcProjectOrderRecordTypeEnum getPredefinedType() {
-		return (IfcProjectOrderRecordTypeEnum) eGet(Ifc2x3tc1Package.Literals.IFC_PROJECT_ORDER_RECORD__PREDEFINED_TYPE, true);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public IfcProjectOrderRecordTypeEnum getPredefinedType() {
+        return (IfcProjectOrderRecordTypeEnum) eGet(Ifc2x3tc1Package.Literals.IFC_PROJECT_ORDER_RECORD__PREDEFINED_TYPE,
+                true);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public void setPredefinedType(IfcProjectOrderRecordTypeEnum newPredefinedType) {
-		eSet(Ifc2x3tc1Package.Literals.IFC_PROJECT_ORDER_RECORD__PREDEFINED_TYPE, newPredefinedType);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public void setPredefinedType(IfcProjectOrderRecordTypeEnum newPredefinedType) {
+        eSet(Ifc2x3tc1Package.Literals.IFC_PROJECT_ORDER_RECORD__PREDEFINED_TYPE, newPredefinedType);
+    }
 
 } //IfcProjectOrderRecordImpl

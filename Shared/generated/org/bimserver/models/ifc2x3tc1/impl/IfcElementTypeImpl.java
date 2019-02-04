@@ -18,6 +18,7 @@ package org.bimserver.models.ifc2x3tc1.impl;
 
 import org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package;
 import org.bimserver.models.ifc2x3tc1.IfcElementType;
+
 import org.eclipse.emf.ecore.EClass;
 
 /**
@@ -26,67 +27,67 @@ import org.eclipse.emf.ecore.EClass;
  * <!-- end-user-doc -->
  * <p>
  * The following features are implemented:
+ * </p>
  * <ul>
  *   <li>{@link org.bimserver.models.ifc2x3tc1.impl.IfcElementTypeImpl#getElementType <em>Element Type</em>}</li>
  * </ul>
- * </p>
  *
  * @generated
  */
 public class IfcElementTypeImpl extends IfcTypeProductImpl implements IfcElementType {
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	protected IfcElementTypeImpl() {
-		super();
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    protected IfcElementTypeImpl() {
+        super();
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	@Override
-	protected EClass eStaticClass() {
-		return Ifc2x3tc1Package.Literals.IFC_ELEMENT_TYPE;
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    @Override
+    protected EClass eStaticClass() {
+        return Ifc2x3tc1Package.Literals.IFC_ELEMENT_TYPE;
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public String getElementType() {
-		return (String) eGet(Ifc2x3tc1Package.Literals.IFC_ELEMENT_TYPE__ELEMENT_TYPE, true);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public String getElementType() {
+        return (String) eGet(Ifc2x3tc1Package.Literals.IFC_ELEMENT_TYPE__ELEMENT_TYPE, true);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public void setElementType(String newElementType) {
-		eSet(Ifc2x3tc1Package.Literals.IFC_ELEMENT_TYPE__ELEMENT_TYPE, newElementType);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public void setElementType(String newElementType) {
+        eSet(Ifc2x3tc1Package.Literals.IFC_ELEMENT_TYPE__ELEMENT_TYPE, newElementType);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public void unsetElementType() {
-		eUnset(Ifc2x3tc1Package.Literals.IFC_ELEMENT_TYPE__ELEMENT_TYPE);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public void unsetElementType() {
+        eUnset(Ifc2x3tc1Package.Literals.IFC_ELEMENT_TYPE__ELEMENT_TYPE);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public boolean isSetElementType() {
-		return eIsSet(Ifc2x3tc1Package.Literals.IFC_ELEMENT_TYPE__ELEMENT_TYPE);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public boolean isSetElementType() {
+        return eIsSet(Ifc2x3tc1Package.Literals.IFC_ELEMENT_TYPE__ELEMENT_TYPE);
+    }
 
 } //IfcElementTypeImpl

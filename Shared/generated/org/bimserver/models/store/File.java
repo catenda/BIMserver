@@ -25,12 +25,12 @@ import org.bimserver.emf.IdEObject;
  *
  * <p>
  * The following features are supported:
+ * </p>
  * <ul>
  *   <li>{@link org.bimserver.models.store.File#getData <em>Data</em>}</li>
  *   <li>{@link org.bimserver.models.store.File#getFilename <em>Filename</em>}</li>
  *   <li>{@link org.bimserver.models.store.File#getMime <em>Mime</em>}</li>
  * </ul>
- * </p>
  *
  * @see org.bimserver.models.store.StorePackage#getFile()
  * @model
@@ -38,82 +38,82 @@ import org.bimserver.emf.IdEObject;
  * @generated
  */
 public interface File extends IdEObject {
-	/**
-	 * Returns the value of the '<em><b>Data</b></em>' attribute.
-	 * <!-- begin-user-doc -->
-	 * <p>
-	 * If the meaning of the '<em>Data</em>' attribute isn't clear,
-	 * there really should be more of a description here...
-	 * </p>
-	 * <!-- end-user-doc -->
-	 * @return the value of the '<em>Data</em>' attribute.
-	 * @see #setData(byte[])
-	 * @see org.bimserver.models.store.StorePackage#getFile_Data()
-	 * @model
-	 * @generated
-	 */
-	byte[] getData();
+    /**
+     * Returns the value of the '<em><b>Data</b></em>' attribute.
+     * <!-- begin-user-doc -->
+     * <p>
+     * If the meaning of the '<em>Data</em>' attribute isn't clear,
+     * there really should be more of a description here...
+     * </p>
+     * <!-- end-user-doc -->
+     * @return the value of the '<em>Data</em>' attribute.
+     * @see #setData(byte[])
+     * @see org.bimserver.models.store.StorePackage#getFile_Data()
+     * @model
+     * @generated
+     */
+    byte[] getData();
 
-	/**
-	 * Sets the value of the '{@link org.bimserver.models.store.File#getData <em>Data</em>}' attribute.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @param value the new value of the '<em>Data</em>' attribute.
-	 * @see #getData()
-	 * @generated
-	 */
-	void setData(byte[] value);
+    /**
+     * Sets the value of the '{@link org.bimserver.models.store.File#getData <em>Data</em>}' attribute.
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @param value the new value of the '<em>Data</em>' attribute.
+     * @see #getData()
+     * @generated
+     */
+    void setData(byte[] value);
 
-	/**
-	 * Returns the value of the '<em><b>Filename</b></em>' attribute.
-	 * <!-- begin-user-doc -->
-	 * <p>
-	 * If the meaning of the '<em>Filename</em>' attribute isn't clear,
-	 * there really should be more of a description here...
-	 * </p>
-	 * <!-- end-user-doc -->
-	 * @return the value of the '<em>Filename</em>' attribute.
-	 * @see #setFilename(String)
-	 * @see org.bimserver.models.store.StorePackage#getFile_Filename()
-	 * @model
-	 * @generated
-	 */
-	String getFilename();
+    /**
+     * Returns the value of the '<em><b>Filename</b></em>' attribute.
+     * <!-- begin-user-doc -->
+     * <p>
+     * If the meaning of the '<em>Filename</em>' attribute isn't clear,
+     * there really should be more of a description here...
+     * </p>
+     * <!-- end-user-doc -->
+     * @return the value of the '<em>Filename</em>' attribute.
+     * @see #setFilename(String)
+     * @see org.bimserver.models.store.StorePackage#getFile_Filename()
+     * @model
+     * @generated
+     */
+    String getFilename();
 
-	/**
-	 * Sets the value of the '{@link org.bimserver.models.store.File#getFilename <em>Filename</em>}' attribute.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @param value the new value of the '<em>Filename</em>' attribute.
-	 * @see #getFilename()
-	 * @generated
-	 */
-	void setFilename(String value);
+    /**
+     * Sets the value of the '{@link org.bimserver.models.store.File#getFilename <em>Filename</em>}' attribute.
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @param value the new value of the '<em>Filename</em>' attribute.
+     * @see #getFilename()
+     * @generated
+     */
+    void setFilename(String value);
 
-	/**
-	 * Returns the value of the '<em><b>Mime</b></em>' attribute.
-	 * <!-- begin-user-doc -->
-	 * <p>
-	 * If the meaning of the '<em>Mime</em>' attribute isn't clear,
-	 * there really should be more of a description here...
-	 * </p>
-	 * <!-- end-user-doc -->
-	 * @return the value of the '<em>Mime</em>' attribute.
-	 * @see #setMime(String)
-	 * @see org.bimserver.models.store.StorePackage#getFile_Mime()
-	 * @model
-	 * @generated
-	 */
-	String getMime();
+    /**
+     * Returns the value of the '<em><b>Mime</b></em>' attribute.
+     * <!-- begin-user-doc -->
+     * <p>
+     * If the meaning of the '<em>Mime</em>' attribute isn't clear,
+     * there really should be more of a description here...
+     * </p>
+     * <!-- end-user-doc -->
+     * @return the value of the '<em>Mime</em>' attribute.
+     * @see #setMime(String)
+     * @see org.bimserver.models.store.StorePackage#getFile_Mime()
+     * @model
+     * @generated
+     */
+    String getMime();
 
-	/**
-	 * Sets the value of the '{@link org.bimserver.models.store.File#getMime <em>Mime</em>}' attribute.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @param value the new value of the '<em>Mime</em>' attribute.
-	 * @see #getMime()
-	 * @generated
-	 */
-	void setMime(String value);
+    /**
+     * Sets the value of the '{@link org.bimserver.models.store.File#getMime <em>Mime</em>}' attribute.
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @param value the new value of the '<em>Mime</em>' attribute.
+     * @see #getMime()
+     * @generated
+     */
+    void setMime(String value);
 
 } // File

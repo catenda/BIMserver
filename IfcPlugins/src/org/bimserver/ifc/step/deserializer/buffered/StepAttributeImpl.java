@@ -29,10 +29,6 @@ class StepAttributeImpl implements StepAttribute {
 			dataBuffer.bytesAt(buffer, offset, length);
 			String str = new String(buffer);
 			try {
-				return Integer.valueOf(str);
-			} catch (NumberFormatException e) {
-			}
-			try {
 				return Long.valueOf(str);
 			} catch (NumberFormatException e) {
 			}

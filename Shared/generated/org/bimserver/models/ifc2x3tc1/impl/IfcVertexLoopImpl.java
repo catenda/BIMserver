@@ -19,6 +19,7 @@ package org.bimserver.models.ifc2x3tc1.impl;
 import org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package;
 import org.bimserver.models.ifc2x3tc1.IfcVertex;
 import org.bimserver.models.ifc2x3tc1.IfcVertexLoop;
+
 import org.eclipse.emf.ecore.EClass;
 
 /**
@@ -27,49 +28,49 @@ import org.eclipse.emf.ecore.EClass;
  * <!-- end-user-doc -->
  * <p>
  * The following features are implemented:
+ * </p>
  * <ul>
  *   <li>{@link org.bimserver.models.ifc2x3tc1.impl.IfcVertexLoopImpl#getLoopVertex <em>Loop Vertex</em>}</li>
  * </ul>
- * </p>
  *
  * @generated
  */
 public class IfcVertexLoopImpl extends IfcLoopImpl implements IfcVertexLoop {
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	protected IfcVertexLoopImpl() {
-		super();
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    protected IfcVertexLoopImpl() {
+        super();
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	@Override
-	protected EClass eStaticClass() {
-		return Ifc2x3tc1Package.Literals.IFC_VERTEX_LOOP;
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    @Override
+    protected EClass eStaticClass() {
+        return Ifc2x3tc1Package.Literals.IFC_VERTEX_LOOP;
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public IfcVertex getLoopVertex() {
-		return (IfcVertex) eGet(Ifc2x3tc1Package.Literals.IFC_VERTEX_LOOP__LOOP_VERTEX, true);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public IfcVertex getLoopVertex() {
+        return (IfcVertex) eGet(Ifc2x3tc1Package.Literals.IFC_VERTEX_LOOP__LOOP_VERTEX, true);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public void setLoopVertex(IfcVertex newLoopVertex) {
-		eSet(Ifc2x3tc1Package.Literals.IFC_VERTEX_LOOP__LOOP_VERTEX, newLoopVertex);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public void setLoopVertex(IfcVertex newLoopVertex) {
+        eSet(Ifc2x3tc1Package.Literals.IFC_VERTEX_LOOP__LOOP_VERTEX, newLoopVertex);
+    }
 
 } //IfcVertexLoopImpl

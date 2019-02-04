@@ -20,6 +20,7 @@ import org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package;
 import org.bimserver.models.ifc2x3tc1.IfcBooleanOperand;
 import org.bimserver.models.ifc2x3tc1.IfcBooleanOperator;
 import org.bimserver.models.ifc2x3tc1.IfcBooleanResult;
+
 import org.eclipse.emf.ecore.EClass;
 
 /**
@@ -28,124 +29,124 @@ import org.eclipse.emf.ecore.EClass;
  * <!-- end-user-doc -->
  * <p>
  * The following features are implemented:
+ * </p>
  * <ul>
  *   <li>{@link org.bimserver.models.ifc2x3tc1.impl.IfcBooleanResultImpl#getOperator <em>Operator</em>}</li>
  *   <li>{@link org.bimserver.models.ifc2x3tc1.impl.IfcBooleanResultImpl#getFirstOperand <em>First Operand</em>}</li>
  *   <li>{@link org.bimserver.models.ifc2x3tc1.impl.IfcBooleanResultImpl#getSecondOperand <em>Second Operand</em>}</li>
  *   <li>{@link org.bimserver.models.ifc2x3tc1.impl.IfcBooleanResultImpl#getDim <em>Dim</em>}</li>
  * </ul>
- * </p>
  *
  * @generated
  */
 public class IfcBooleanResultImpl extends IfcGeometricRepresentationItemImpl implements IfcBooleanResult {
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	protected IfcBooleanResultImpl() {
-		super();
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    protected IfcBooleanResultImpl() {
+        super();
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	@Override
-	protected EClass eStaticClass() {
-		return Ifc2x3tc1Package.Literals.IFC_BOOLEAN_RESULT;
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    @Override
+    protected EClass eStaticClass() {
+        return Ifc2x3tc1Package.Literals.IFC_BOOLEAN_RESULT;
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public IfcBooleanOperator getOperator() {
-		return (IfcBooleanOperator) eGet(Ifc2x3tc1Package.Literals.IFC_BOOLEAN_RESULT__OPERATOR, true);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public IfcBooleanOperator getOperator() {
+        return (IfcBooleanOperator) eGet(Ifc2x3tc1Package.Literals.IFC_BOOLEAN_RESULT__OPERATOR, true);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public void setOperator(IfcBooleanOperator newOperator) {
-		eSet(Ifc2x3tc1Package.Literals.IFC_BOOLEAN_RESULT__OPERATOR, newOperator);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public void setOperator(IfcBooleanOperator newOperator) {
+        eSet(Ifc2x3tc1Package.Literals.IFC_BOOLEAN_RESULT__OPERATOR, newOperator);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public IfcBooleanOperand getFirstOperand() {
-		return (IfcBooleanOperand) eGet(Ifc2x3tc1Package.Literals.IFC_BOOLEAN_RESULT__FIRST_OPERAND, true);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public IfcBooleanOperand getFirstOperand() {
+        return (IfcBooleanOperand) eGet(Ifc2x3tc1Package.Literals.IFC_BOOLEAN_RESULT__FIRST_OPERAND, true);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public void setFirstOperand(IfcBooleanOperand newFirstOperand) {
-		eSet(Ifc2x3tc1Package.Literals.IFC_BOOLEAN_RESULT__FIRST_OPERAND, newFirstOperand);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public void setFirstOperand(IfcBooleanOperand newFirstOperand) {
+        eSet(Ifc2x3tc1Package.Literals.IFC_BOOLEAN_RESULT__FIRST_OPERAND, newFirstOperand);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public IfcBooleanOperand getSecondOperand() {
-		return (IfcBooleanOperand) eGet(Ifc2x3tc1Package.Literals.IFC_BOOLEAN_RESULT__SECOND_OPERAND, true);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public IfcBooleanOperand getSecondOperand() {
+        return (IfcBooleanOperand) eGet(Ifc2x3tc1Package.Literals.IFC_BOOLEAN_RESULT__SECOND_OPERAND, true);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public void setSecondOperand(IfcBooleanOperand newSecondOperand) {
-		eSet(Ifc2x3tc1Package.Literals.IFC_BOOLEAN_RESULT__SECOND_OPERAND, newSecondOperand);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public void setSecondOperand(IfcBooleanOperand newSecondOperand) {
+        eSet(Ifc2x3tc1Package.Literals.IFC_BOOLEAN_RESULT__SECOND_OPERAND, newSecondOperand);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public int getDim() {
-		return (Integer) eGet(Ifc2x3tc1Package.Literals.IFC_BOOLEAN_RESULT__DIM, true);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public long getDim() {
+        return (Long) eGet(Ifc2x3tc1Package.Literals.IFC_BOOLEAN_RESULT__DIM, true);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public void setDim(int newDim) {
-		eSet(Ifc2x3tc1Package.Literals.IFC_BOOLEAN_RESULT__DIM, newDim);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public void setDim(long newDim) {
+        eSet(Ifc2x3tc1Package.Literals.IFC_BOOLEAN_RESULT__DIM, newDim);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public void unsetDim() {
-		eUnset(Ifc2x3tc1Package.Literals.IFC_BOOLEAN_RESULT__DIM);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public void unsetDim() {
+        eUnset(Ifc2x3tc1Package.Literals.IFC_BOOLEAN_RESULT__DIM);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public boolean isSetDim() {
-		return eIsSet(Ifc2x3tc1Package.Literals.IFC_BOOLEAN_RESULT__DIM);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public boolean isSetDim() {
+        return eIsSet(Ifc2x3tc1Package.Literals.IFC_BOOLEAN_RESULT__DIM);
+    }
 
 } //IfcBooleanResultImpl

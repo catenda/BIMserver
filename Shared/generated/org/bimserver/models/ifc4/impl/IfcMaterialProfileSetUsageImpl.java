@@ -82,8 +82,8 @@ public class IfcMaterialProfileSetUsageImpl extends IfcMaterialUsageDefinitionIm
      * <!-- end-user-doc -->
      * @generated
      */
-    public int getCardinalPoint() {
-        return (Integer) eGet(Ifc4Package.Literals.IFC_MATERIAL_PROFILE_SET_USAGE__CARDINAL_POINT, true);
+    public long getCardinalPoint() {
+        return (Long) eGet(Ifc4Package.Literals.IFC_MATERIAL_PROFILE_SET_USAGE__CARDINAL_POINT, true);
     }
 
     /**
@@ -91,7 +91,7 @@ public class IfcMaterialProfileSetUsageImpl extends IfcMaterialUsageDefinitionIm
      * <!-- end-user-doc -->
      * @generated
      */
-    public void setCardinalPoint(int newCardinalPoint) {
+    public void setCardinalPoint(long newCardinalPoint) {
         eSet(Ifc4Package.Literals.IFC_MATERIAL_PROFILE_SET_USAGE__CARDINAL_POINT, newCardinalPoint);
     }
 

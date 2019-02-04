@@ -32,406 +32,412 @@ import org.eclipse.emf.common.util.Enumerator;
  * @generated
  */
 public enum IfcDuctFittingTypeEnum implements Enumerator {
-	/**
-	 * The '<em><b>NULL</b></em>' literal object.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @see #NULL_VALUE
-	 * @generated
-	 * @ordered
-	 */
-	NULL(0, "NULL", "NULL"),
+    /**
+     * The '<em><b>NULL</b></em>' literal object.
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @see #NULL_VALUE
+     * @generated
+     * @ordered
+     */
+    NULL(0, "NULL", "NULL"),
 
-	/**
-	 * The '<em><b>EXIT</b></em>' literal object.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @see #EXIT_VALUE
-	 * @generated
-	 * @ordered
-	 */
-	EXIT(1, "EXIT", "EXIT"),
+    /**
+     * The '<em><b>TRANSITION</b></em>' literal object.
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @see #TRANSITION_VALUE
+     * @generated
+     * @ordered
+     */
+    TRANSITION(1, "TRANSITION", "TRANSITION"),
 
-	/**
-	 * The '<em><b>NOTDEFINED</b></em>' literal object.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @see #NOTDEFINED_VALUE
-	 * @generated
-	 * @ordered
-	 */
-	NOTDEFINED(2, "NOTDEFINED", "NOTDEFINED"),
+    /**
+     * The '<em><b>NOTDEFINED</b></em>' literal object.
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @see #NOTDEFINED_VALUE
+     * @generated
+     * @ordered
+     */
+    NOTDEFINED(2, "NOTDEFINED", "NOTDEFINED"),
 
-	/**
-	 * The '<em><b>TRANSITION</b></em>' literal object.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @see #TRANSITION_VALUE
-	 * @generated
-	 * @ordered
-	 */
-	TRANSITION(3, "TRANSITION", "TRANSITION"),
+    /**
+     * The '<em><b>ENTRY</b></em>' literal object.
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @see #ENTRY_VALUE
+     * @generated
+     * @ordered
+     */
+    ENTRY(3, "ENTRY", "ENTRY"),
 
-	/**
-	 * The '<em><b>OBSTRUCTION</b></em>' literal object.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @see #OBSTRUCTION_VALUE
-	 * @generated
-	 * @ordered
-	 */
-	OBSTRUCTION(4, "OBSTRUCTION", "OBSTRUCTION"),
+    /**
+     * The '<em><b>BEND</b></em>' literal object.
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @see #BEND_VALUE
+     * @generated
+     * @ordered
+     */
+    BEND(4, "BEND", "BEND"),
 
-	/**
-	 * The '<em><b>ENTRY</b></em>' literal object.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @see #ENTRY_VALUE
-	 * @generated
-	 * @ordered
-	 */
-	ENTRY(5, "ENTRY", "ENTRY"),
+    /**
+     * The '<em><b>OBSTRUCTION</b></em>' literal object.
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @see #OBSTRUCTION_VALUE
+     * @generated
+     * @ordered
+     */
+    OBSTRUCTION(5, "OBSTRUCTION", "OBSTRUCTION"),
 
-	/**
-	 * The '<em><b>JUNCTION</b></em>' literal object.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @see #JUNCTION_VALUE
-	 * @generated
-	 * @ordered
-	 */
-	JUNCTION(6, "JUNCTION", "JUNCTION"),
+    /**
+     * The '<em><b>USERDEFINED</b></em>' literal object.
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @see #USERDEFINED_VALUE
+     * @generated
+     * @ordered
+     */
+    USERDEFINED(6, "USERDEFINED", "USERDEFINED"),
 
-	/**
-	 * The '<em><b>USERDEFINED</b></em>' literal object.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @see #USERDEFINED_VALUE
-	 * @generated
-	 * @ordered
-	 */
-	USERDEFINED(7, "USERDEFINED", "USERDEFINED"),
+    /**
+     * The '<em><b>EXIT</b></em>' literal object.
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @see #EXIT_VALUE
+     * @generated
+     * @ordered
+     */
+    EXIT(7, "EXIT", "EXIT"),
 
-	/**
-	 * The '<em><b>CONNECTOR</b></em>' literal object.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @see #CONNECTOR_VALUE
-	 * @generated
-	 * @ordered
-	 */
-	CONNECTOR(8, "CONNECTOR", "CONNECTOR"),
+    /**
+     * The '<em><b>JUNCTION</b></em>' literal object.
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @see #JUNCTION_VALUE
+     * @generated
+     * @ordered
+     */
+    JUNCTION(8, "JUNCTION", "JUNCTION"),
 
-	/**
-	 * The '<em><b>BEND</b></em>' literal object.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @see #BEND_VALUE
-	 * @generated
-	 * @ordered
-	 */
-	BEND(9, "BEND", "BEND");
+    /**
+     * The '<em><b>CONNECTOR</b></em>' literal object.
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @see #CONNECTOR_VALUE
+     * @generated
+     * @ordered
+     */
+    CONNECTOR(9, "CONNECTOR", "CONNECTOR");
 
-	/**
-	 * The '<em><b>NULL</b></em>' literal value.
-	 * <!-- begin-user-doc -->
-	 * <p>
-	 * If the meaning of '<em><b>NULL</b></em>' literal object isn't clear,
-	 * there really should be more of a description here...
-	 * </p>
-	 * <!-- end-user-doc -->
-	 * @see #NULL
-	 * @model
-	 * @generated
-	 * @ordered
-	 */
-	public static final int NULL_VALUE = 0;
+    /**
+     * The '<em><b>NULL</b></em>' literal value.
+     * <!-- begin-user-doc -->
+     * <p>
+     * If the meaning of '<em><b>NULL</b></em>' literal object isn't clear,
+     * there really should be more of a description here...
+     * </p>
+     * <!-- end-user-doc -->
+     * @see #NULL
+     * @model
+     * @generated
+     * @ordered
+     */
+    public static final int NULL_VALUE = 0;
 
-	/**
-	 * The '<em><b>EXIT</b></em>' literal value.
-	 * <!-- begin-user-doc -->
-	 * <p>
-	 * If the meaning of '<em><b>EXIT</b></em>' literal object isn't clear,
-	 * there really should be more of a description here...
-	 * </p>
-	 * <!-- end-user-doc -->
-	 * @see #EXIT
-	 * @model
-	 * @generated
-	 * @ordered
-	 */
-	public static final int EXIT_VALUE = 1;
+    /**
+     * The '<em><b>TRANSITION</b></em>' literal value.
+     * <!-- begin-user-doc -->
+     * <p>
+     * If the meaning of '<em><b>TRANSITION</b></em>' literal object isn't clear,
+     * there really should be more of a description here...
+     * </p>
+     * <!-- end-user-doc -->
+     * @see #TRANSITION
+     * @model
+     * @generated
+     * @ordered
+     */
+    public static final int TRANSITION_VALUE = 1;
 
-	/**
-	 * The '<em><b>NOTDEFINED</b></em>' literal value.
-	 * <!-- begin-user-doc -->
-	 * <p>
-	 * If the meaning of '<em><b>NOTDEFINED</b></em>' literal object isn't clear,
-	 * there really should be more of a description here...
-	 * </p>
-	 * <!-- end-user-doc -->
-	 * @see #NOTDEFINED
-	 * @model
-	 * @generated
-	 * @ordered
-	 */
-	public static final int NOTDEFINED_VALUE = 2;
+    /**
+     * The '<em><b>NOTDEFINED</b></em>' literal value.
+     * <!-- begin-user-doc -->
+     * <p>
+     * If the meaning of '<em><b>NOTDEFINED</b></em>' literal object isn't clear,
+     * there really should be more of a description here...
+     * </p>
+     * <!-- end-user-doc -->
+     * @see #NOTDEFINED
+     * @model
+     * @generated
+     * @ordered
+     */
+    public static final int NOTDEFINED_VALUE = 2;
 
-	/**
-	 * The '<em><b>TRANSITION</b></em>' literal value.
-	 * <!-- begin-user-doc -->
-	 * <p>
-	 * If the meaning of '<em><b>TRANSITION</b></em>' literal object isn't clear,
-	 * there really should be more of a description here...
-	 * </p>
-	 * <!-- end-user-doc -->
-	 * @see #TRANSITION
-	 * @model
-	 * @generated
-	 * @ordered
-	 */
-	public static final int TRANSITION_VALUE = 3;
+    /**
+     * The '<em><b>ENTRY</b></em>' literal value.
+     * <!-- begin-user-doc -->
+     * <p>
+     * If the meaning of '<em><b>ENTRY</b></em>' literal object isn't clear,
+     * there really should be more of a description here...
+     * </p>
+     * <!-- end-user-doc -->
+     * @see #ENTRY
+     * @model
+     * @generated
+     * @ordered
+     */
+    public static final int ENTRY_VALUE = 3;
 
-	/**
-	 * The '<em><b>OBSTRUCTION</b></em>' literal value.
-	 * <!-- begin-user-doc -->
-	 * <p>
-	 * If the meaning of '<em><b>OBSTRUCTION</b></em>' literal object isn't clear,
-	 * there really should be more of a description here...
-	 * </p>
-	 * <!-- end-user-doc -->
-	 * @see #OBSTRUCTION
-	 * @model
-	 * @generated
-	 * @ordered
-	 */
-	public static final int OBSTRUCTION_VALUE = 4;
+    /**
+     * The '<em><b>BEND</b></em>' literal value.
+     * <!-- begin-user-doc -->
+     * <p>
+     * If the meaning of '<em><b>BEND</b></em>' literal object isn't clear,
+     * there really should be more of a description here...
+     * </p>
+     * <!-- end-user-doc -->
+     * @see #BEND
+     * @model
+     * @generated
+     * @ordered
+     */
+    public static final int BEND_VALUE = 4;
 
-	/**
-	 * The '<em><b>ENTRY</b></em>' literal value.
-	 * <!-- begin-user-doc -->
-	 * <p>
-	 * If the meaning of '<em><b>ENTRY</b></em>' literal object isn't clear,
-	 * there really should be more of a description here...
-	 * </p>
-	 * <!-- end-user-doc -->
-	 * @see #ENTRY
-	 * @model
-	 * @generated
-	 * @ordered
-	 */
-	public static final int ENTRY_VALUE = 5;
+    /**
+     * The '<em><b>OBSTRUCTION</b></em>' literal value.
+     * <!-- begin-user-doc -->
+     * <p>
+     * If the meaning of '<em><b>OBSTRUCTION</b></em>' literal object isn't clear,
+     * there really should be more of a description here...
+     * </p>
+     * <!-- end-user-doc -->
+     * @see #OBSTRUCTION
+     * @model
+     * @generated
+     * @ordered
+     */
+    public static final int OBSTRUCTION_VALUE = 5;
 
-	/**
-	 * The '<em><b>JUNCTION</b></em>' literal value.
-	 * <!-- begin-user-doc -->
-	 * <p>
-	 * If the meaning of '<em><b>JUNCTION</b></em>' literal object isn't clear,
-	 * there really should be more of a description here...
-	 * </p>
-	 * <!-- end-user-doc -->
-	 * @see #JUNCTION
-	 * @model
-	 * @generated
-	 * @ordered
-	 */
-	public static final int JUNCTION_VALUE = 6;
+    /**
+     * The '<em><b>USERDEFINED</b></em>' literal value.
+     * <!-- begin-user-doc -->
+     * <p>
+     * If the meaning of '<em><b>USERDEFINED</b></em>' literal object isn't clear,
+     * there really should be more of a description here...
+     * </p>
+     * <!-- end-user-doc -->
+     * @see #USERDEFINED
+     * @model
+     * @generated
+     * @ordered
+     */
+    public static final int USERDEFINED_VALUE = 6;
 
-	/**
-	 * The '<em><b>USERDEFINED</b></em>' literal value.
-	 * <!-- begin-user-doc -->
-	 * <p>
-	 * If the meaning of '<em><b>USERDEFINED</b></em>' literal object isn't clear,
-	 * there really should be more of a description here...
-	 * </p>
-	 * <!-- end-user-doc -->
-	 * @see #USERDEFINED
-	 * @model
-	 * @generated
-	 * @ordered
-	 */
-	public static final int USERDEFINED_VALUE = 7;
+    /**
+     * The '<em><b>EXIT</b></em>' literal value.
+     * <!-- begin-user-doc -->
+     * <p>
+     * If the meaning of '<em><b>EXIT</b></em>' literal object isn't clear,
+     * there really should be more of a description here...
+     * </p>
+     * <!-- end-user-doc -->
+     * @see #EXIT
+     * @model
+     * @generated
+     * @ordered
+     */
+    public static final int EXIT_VALUE = 7;
 
-	/**
-	 * The '<em><b>CONNECTOR</b></em>' literal value.
-	 * <!-- begin-user-doc -->
-	 * <p>
-	 * If the meaning of '<em><b>CONNECTOR</b></em>' literal object isn't clear,
-	 * there really should be more of a description here...
-	 * </p>
-	 * <!-- end-user-doc -->
-	 * @see #CONNECTOR
-	 * @model
-	 * @generated
-	 * @ordered
-	 */
-	public static final int CONNECTOR_VALUE = 8;
+    /**
+     * The '<em><b>JUNCTION</b></em>' literal value.
+     * <!-- begin-user-doc -->
+     * <p>
+     * If the meaning of '<em><b>JUNCTION</b></em>' literal object isn't clear,
+     * there really should be more of a description here...
+     * </p>
+     * <!-- end-user-doc -->
+     * @see #JUNCTION
+     * @model
+     * @generated
+     * @ordered
+     */
+    public static final int JUNCTION_VALUE = 8;
 
-	/**
-	 * The '<em><b>BEND</b></em>' literal value.
-	 * <!-- begin-user-doc -->
-	 * <p>
-	 * If the meaning of '<em><b>BEND</b></em>' literal object isn't clear,
-	 * there really should be more of a description here...
-	 * </p>
-	 * <!-- end-user-doc -->
-	 * @see #BEND
-	 * @model
-	 * @generated
-	 * @ordered
-	 */
-	public static final int BEND_VALUE = 9;
+    /**
+     * The '<em><b>CONNECTOR</b></em>' literal value.
+     * <!-- begin-user-doc -->
+     * <p>
+     * If the meaning of '<em><b>CONNECTOR</b></em>' literal object isn't clear,
+     * there really should be more of a description here...
+     * </p>
+     * <!-- end-user-doc -->
+     * @see #CONNECTOR
+     * @model
+     * @generated
+     * @ordered
+     */
+    public static final int CONNECTOR_VALUE = 9;
 
-	/**
-	 * An array of all the '<em><b>Ifc Duct Fitting Type Enum</b></em>' enumerators.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	private static final IfcDuctFittingTypeEnum[] VALUES_ARRAY = new IfcDuctFittingTypeEnum[] { NULL, EXIT, NOTDEFINED, TRANSITION, OBSTRUCTION, ENTRY, JUNCTION, USERDEFINED,
-			CONNECTOR, BEND, };
+    /**
+     * An array of all the '<em><b>Ifc Duct Fitting Type Enum</b></em>' enumerators.
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    private static final IfcDuctFittingTypeEnum[] VALUES_ARRAY = new IfcDuctFittingTypeEnum[] { NULL, TRANSITION,
+            NOTDEFINED, ENTRY, BEND, OBSTRUCTION, USERDEFINED, EXIT, JUNCTION, CONNECTOR, };
 
-	/**
-	 * A public read-only list of all the '<em><b>Ifc Duct Fitting Type Enum</b></em>' enumerators.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public static final List<IfcDuctFittingTypeEnum> VALUES = Collections.unmodifiableList(Arrays.asList(VALUES_ARRAY));
+    /**
+     * A public read-only list of all the '<em><b>Ifc Duct Fitting Type Enum</b></em>' enumerators.
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public static final List<IfcDuctFittingTypeEnum> VALUES = Collections.unmodifiableList(Arrays.asList(VALUES_ARRAY));
 
-	/**
-	 * Returns the '<em><b>Ifc Duct Fitting Type Enum</b></em>' literal with the specified literal value.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public static IfcDuctFittingTypeEnum get(String literal) {
-		for (int i = 0; i < VALUES_ARRAY.length; ++i) {
-			IfcDuctFittingTypeEnum result = VALUES_ARRAY[i];
-			if (result.toString().equals(literal)) {
-				return result;
-			}
-		}
-		return null;
-	}
+    /**
+     * Returns the '<em><b>Ifc Duct Fitting Type Enum</b></em>' literal with the specified literal value.
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @param literal the literal.
+     * @return the matching enumerator or <code>null</code>.
+     * @generated
+     */
+    public static IfcDuctFittingTypeEnum get(String literal) {
+        for (int i = 0; i < VALUES_ARRAY.length; ++i) {
+            IfcDuctFittingTypeEnum result = VALUES_ARRAY[i];
+            if (result.toString().equals(literal)) {
+                return result;
+            }
+        }
+        return null;
+    }
 
-	/**
-	 * Returns the '<em><b>Ifc Duct Fitting Type Enum</b></em>' literal with the specified name.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public static IfcDuctFittingTypeEnum getByName(String name) {
-		for (int i = 0; i < VALUES_ARRAY.length; ++i) {
-			IfcDuctFittingTypeEnum result = VALUES_ARRAY[i];
-			if (result.getName().equals(name)) {
-				return result;
-			}
-		}
-		return null;
-	}
+    /**
+     * Returns the '<em><b>Ifc Duct Fitting Type Enum</b></em>' literal with the specified name.
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @param name the name.
+     * @return the matching enumerator or <code>null</code>.
+     * @generated
+     */
+    public static IfcDuctFittingTypeEnum getByName(String name) {
+        for (int i = 0; i < VALUES_ARRAY.length; ++i) {
+            IfcDuctFittingTypeEnum result = VALUES_ARRAY[i];
+            if (result.getName().equals(name)) {
+                return result;
+            }
+        }
+        return null;
+    }
 
-	/**
-	 * Returns the '<em><b>Ifc Duct Fitting Type Enum</b></em>' literal with the specified integer value.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public static IfcDuctFittingTypeEnum get(int value) {
-		switch (value) {
-		case NULL_VALUE:
-			return NULL;
-		case EXIT_VALUE:
-			return EXIT;
-		case NOTDEFINED_VALUE:
-			return NOTDEFINED;
-		case TRANSITION_VALUE:
-			return TRANSITION;
-		case OBSTRUCTION_VALUE:
-			return OBSTRUCTION;
-		case ENTRY_VALUE:
-			return ENTRY;
-		case JUNCTION_VALUE:
-			return JUNCTION;
-		case USERDEFINED_VALUE:
-			return USERDEFINED;
-		case CONNECTOR_VALUE:
-			return CONNECTOR;
-		case BEND_VALUE:
-			return BEND;
-		}
-		return null;
-	}
+    /**
+     * Returns the '<em><b>Ifc Duct Fitting Type Enum</b></em>' literal with the specified integer value.
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @param value the integer value.
+     * @return the matching enumerator or <code>null</code>.
+     * @generated
+     */
+    public static IfcDuctFittingTypeEnum get(int value) {
+        switch (value) {
+        case NULL_VALUE:
+            return NULL;
+        case TRANSITION_VALUE:
+            return TRANSITION;
+        case NOTDEFINED_VALUE:
+            return NOTDEFINED;
+        case ENTRY_VALUE:
+            return ENTRY;
+        case BEND_VALUE:
+            return BEND;
+        case OBSTRUCTION_VALUE:
+            return OBSTRUCTION;
+        case USERDEFINED_VALUE:
+            return USERDEFINED;
+        case EXIT_VALUE:
+            return EXIT;
+        case JUNCTION_VALUE:
+            return JUNCTION;
+        case CONNECTOR_VALUE:
+            return CONNECTOR;
+        }
+        return null;
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	private final int value;
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    private final int value;
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	private final String name;
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    private final String name;
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	private final String literal;
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    private final String literal;
 
-	/**
-	 * Only this class can construct instances.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	private IfcDuctFittingTypeEnum(int value, String name, String literal) {
-		this.value = value;
-		this.name = name;
-		this.literal = literal;
-	}
+    /**
+     * Only this class can construct instances.
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    private IfcDuctFittingTypeEnum(int value, String name, String literal) {
+        this.value = value;
+        this.name = name;
+        this.literal = literal;
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public int getValue() {
-		return value;
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public int getValue() {
+        return value;
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public String getName() {
-		return name;
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public String getName() {
+        return name;
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public String getLiteral() {
-		return literal;
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public String getLiteral() {
+        return literal;
+    }
 
-	/**
-	 * Returns the literal value of the enumerator, which is its string representation.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	@Override
-	public String toString() {
-		return literal;
-	}
+    /**
+     * Returns the literal value of the enumerator, which is its string representation.
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    @Override
+    public String toString() {
+        return literal;
+    }
 
 } //IfcDuctFittingTypeEnum

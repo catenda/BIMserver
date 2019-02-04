@@ -18,7 +18,9 @@ package org.bimserver.models.log.impl;
 
 import org.bimserver.models.log.LogPackage;
 import org.bimserver.models.log.UserRelated;
+
 import org.bimserver.models.store.User;
+
 import org.eclipse.emf.ecore.EClass;
 
 /**
@@ -27,49 +29,49 @@ import org.eclipse.emf.ecore.EClass;
  * <!-- end-user-doc -->
  * <p>
  * The following features are implemented:
+ * </p>
  * <ul>
  *   <li>{@link org.bimserver.models.log.impl.UserRelatedImpl#getUser <em>User</em>}</li>
  * </ul>
- * </p>
  *
  * @generated
  */
 public class UserRelatedImpl extends LogActionImpl implements UserRelated {
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	protected UserRelatedImpl() {
-		super();
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    protected UserRelatedImpl() {
+        super();
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	@Override
-	protected EClass eStaticClass() {
-		return LogPackage.Literals.USER_RELATED;
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    @Override
+    protected EClass eStaticClass() {
+        return LogPackage.Literals.USER_RELATED;
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public User getUser() {
-		return (User) eGet(LogPackage.Literals.USER_RELATED__USER, true);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public User getUser() {
+        return (User) eGet(LogPackage.Literals.USER_RELATED__USER, true);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public void setUser(User newUser) {
-		eSet(LogPackage.Literals.USER_RELATED__USER, newUser);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public void setUser(User newUser) {
+        eSet(LogPackage.Literals.USER_RELATED__USER, newUser);
+    }
 
 } //UserRelatedImpl

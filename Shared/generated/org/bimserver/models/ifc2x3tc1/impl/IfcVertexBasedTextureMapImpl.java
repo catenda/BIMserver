@@ -17,11 +17,14 @@
 package org.bimserver.models.ifc2x3tc1.impl;
 
 import org.bimserver.emf.IdEObjectImpl;
+
 import org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package;
 import org.bimserver.models.ifc2x3tc1.IfcCartesianPoint;
 import org.bimserver.models.ifc2x3tc1.IfcTextureVertex;
 import org.bimserver.models.ifc2x3tc1.IfcVertexBasedTextureMap;
+
 import org.eclipse.emf.common.util.EList;
+
 import org.eclipse.emf.ecore.EClass;
 
 /**
@@ -30,62 +33,64 @@ import org.eclipse.emf.ecore.EClass;
  * <!-- end-user-doc -->
  * <p>
  * The following features are implemented:
+ * </p>
  * <ul>
  *   <li>{@link org.bimserver.models.ifc2x3tc1.impl.IfcVertexBasedTextureMapImpl#getTextureVertices <em>Texture Vertices</em>}</li>
  *   <li>{@link org.bimserver.models.ifc2x3tc1.impl.IfcVertexBasedTextureMapImpl#getTexturePoints <em>Texture Points</em>}</li>
  * </ul>
- * </p>
  *
  * @generated
  */
 public class IfcVertexBasedTextureMapImpl extends IdEObjectImpl implements IfcVertexBasedTextureMap {
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	protected IfcVertexBasedTextureMapImpl() {
-		super();
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    protected IfcVertexBasedTextureMapImpl() {
+        super();
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	@Override
-	protected EClass eStaticClass() {
-		return Ifc2x3tc1Package.Literals.IFC_VERTEX_BASED_TEXTURE_MAP;
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    @Override
+    protected EClass eStaticClass() {
+        return Ifc2x3tc1Package.Literals.IFC_VERTEX_BASED_TEXTURE_MAP;
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	@Override
-	protected int eStaticFeatureCount() {
-		return 0;
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    @Override
+    protected int eStaticFeatureCount() {
+        return 0;
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	@SuppressWarnings("unchecked")
-	public EList<IfcTextureVertex> getTextureVertices() {
-		return (EList<IfcTextureVertex>) eGet(Ifc2x3tc1Package.Literals.IFC_VERTEX_BASED_TEXTURE_MAP__TEXTURE_VERTICES, true);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    @SuppressWarnings("unchecked")
+    public EList<IfcTextureVertex> getTextureVertices() {
+        return (EList<IfcTextureVertex>) eGet(Ifc2x3tc1Package.Literals.IFC_VERTEX_BASED_TEXTURE_MAP__TEXTURE_VERTICES,
+                true);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	@SuppressWarnings("unchecked")
-	public EList<IfcCartesianPoint> getTexturePoints() {
-		return (EList<IfcCartesianPoint>) eGet(Ifc2x3tc1Package.Literals.IFC_VERTEX_BASED_TEXTURE_MAP__TEXTURE_POINTS, true);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    @SuppressWarnings("unchecked")
+    public EList<IfcCartesianPoint> getTexturePoints() {
+        return (EList<IfcCartesianPoint>) eGet(Ifc2x3tc1Package.Literals.IFC_VERTEX_BASED_TEXTURE_MAP__TEXTURE_POINTS,
+                true);
+    }
 
 } //IfcVertexBasedTextureMapImpl

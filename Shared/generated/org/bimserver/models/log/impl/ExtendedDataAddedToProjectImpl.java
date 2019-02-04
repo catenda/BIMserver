@@ -18,8 +18,10 @@ package org.bimserver.models.log.impl;
 
 import org.bimserver.models.log.ExtendedDataAddedToProject;
 import org.bimserver.models.log.LogPackage;
+
 import org.bimserver.models.store.ExtendedData;
 import org.bimserver.models.store.Project;
+
 import org.eclipse.emf.ecore.EClass;
 
 /**
@@ -28,68 +30,68 @@ import org.eclipse.emf.ecore.EClass;
  * <!-- end-user-doc -->
  * <p>
  * The following features are implemented:
+ * </p>
  * <ul>
  *   <li>{@link org.bimserver.models.log.impl.ExtendedDataAddedToProjectImpl#getProject <em>Project</em>}</li>
  *   <li>{@link org.bimserver.models.log.impl.ExtendedDataAddedToProjectImpl#getExtendedData <em>Extended Data</em>}</li>
  * </ul>
- * </p>
  *
  * @generated
  */
 public class ExtendedDataAddedToProjectImpl extends LogActionImpl implements ExtendedDataAddedToProject {
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	protected ExtendedDataAddedToProjectImpl() {
-		super();
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    protected ExtendedDataAddedToProjectImpl() {
+        super();
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	@Override
-	protected EClass eStaticClass() {
-		return LogPackage.Literals.EXTENDED_DATA_ADDED_TO_PROJECT;
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    @Override
+    protected EClass eStaticClass() {
+        return LogPackage.Literals.EXTENDED_DATA_ADDED_TO_PROJECT;
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public Project getProject() {
-		return (Project) eGet(LogPackage.Literals.EXTENDED_DATA_ADDED_TO_PROJECT__PROJECT, true);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public Project getProject() {
+        return (Project) eGet(LogPackage.Literals.EXTENDED_DATA_ADDED_TO_PROJECT__PROJECT, true);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public void setProject(Project newProject) {
-		eSet(LogPackage.Literals.EXTENDED_DATA_ADDED_TO_PROJECT__PROJECT, newProject);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public void setProject(Project newProject) {
+        eSet(LogPackage.Literals.EXTENDED_DATA_ADDED_TO_PROJECT__PROJECT, newProject);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public ExtendedData getExtendedData() {
-		return (ExtendedData) eGet(LogPackage.Literals.EXTENDED_DATA_ADDED_TO_PROJECT__EXTENDED_DATA, true);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public ExtendedData getExtendedData() {
+        return (ExtendedData) eGet(LogPackage.Literals.EXTENDED_DATA_ADDED_TO_PROJECT__EXTENDED_DATA, true);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public void setExtendedData(ExtendedData newExtendedData) {
-		eSet(LogPackage.Literals.EXTENDED_DATA_ADDED_TO_PROJECT__EXTENDED_DATA, newExtendedData);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public void setExtendedData(ExtendedData newExtendedData) {
+        eSet(LogPackage.Literals.EXTENDED_DATA_ADDED_TO_PROJECT__EXTENDED_DATA, newExtendedData);
+    }
 
 } //ExtendedDataAddedToProjectImpl

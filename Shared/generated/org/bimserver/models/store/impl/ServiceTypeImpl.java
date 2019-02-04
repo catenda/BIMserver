@@ -17,11 +17,14 @@
 package org.bimserver.models.store.impl;
 
 import org.bimserver.emf.IdEObjectImpl;
+
 import org.bimserver.models.store.ServiceField;
 import org.bimserver.models.store.ServiceSimpleType;
 import org.bimserver.models.store.ServiceType;
 import org.bimserver.models.store.StorePackage;
+
 import org.eclipse.emf.common.util.EList;
+
 import org.eclipse.emf.ecore.EClass;
 
 /**
@@ -30,108 +33,108 @@ import org.eclipse.emf.ecore.EClass;
  * <!-- end-user-doc -->
  * <p>
  * The following features are implemented:
+ * </p>
  * <ul>
  *   <li>{@link org.bimserver.models.store.impl.ServiceTypeImpl#getName <em>Name</em>}</li>
  *   <li>{@link org.bimserver.models.store.impl.ServiceTypeImpl#getSimpleName <em>Simple Name</em>}</li>
  *   <li>{@link org.bimserver.models.store.impl.ServiceTypeImpl#getFields <em>Fields</em>}</li>
  *   <li>{@link org.bimserver.models.store.impl.ServiceTypeImpl#getSimpleType <em>Simple Type</em>}</li>
  * </ul>
- * </p>
  *
  * @generated
  */
 public class ServiceTypeImpl extends IdEObjectImpl implements ServiceType {
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	protected ServiceTypeImpl() {
-		super();
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    protected ServiceTypeImpl() {
+        super();
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	@Override
-	protected EClass eStaticClass() {
-		return StorePackage.Literals.SERVICE_TYPE;
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    @Override
+    protected EClass eStaticClass() {
+        return StorePackage.Literals.SERVICE_TYPE;
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	@Override
-	protected int eStaticFeatureCount() {
-		return 0;
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    @Override
+    protected int eStaticFeatureCount() {
+        return 0;
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public String getName() {
-		return (String) eGet(StorePackage.Literals.SERVICE_TYPE__NAME, true);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public String getName() {
+        return (String) eGet(StorePackage.Literals.SERVICE_TYPE__NAME, true);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public void setName(String newName) {
-		eSet(StorePackage.Literals.SERVICE_TYPE__NAME, newName);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public void setName(String newName) {
+        eSet(StorePackage.Literals.SERVICE_TYPE__NAME, newName);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public String getSimpleName() {
-		return (String) eGet(StorePackage.Literals.SERVICE_TYPE__SIMPLE_NAME, true);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public String getSimpleName() {
+        return (String) eGet(StorePackage.Literals.SERVICE_TYPE__SIMPLE_NAME, true);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public void setSimpleName(String newSimpleName) {
-		eSet(StorePackage.Literals.SERVICE_TYPE__SIMPLE_NAME, newSimpleName);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public void setSimpleName(String newSimpleName) {
+        eSet(StorePackage.Literals.SERVICE_TYPE__SIMPLE_NAME, newSimpleName);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	@SuppressWarnings("unchecked")
-	public EList<ServiceField> getFields() {
-		return (EList<ServiceField>) eGet(StorePackage.Literals.SERVICE_TYPE__FIELDS, true);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    @SuppressWarnings("unchecked")
+    public EList<ServiceField> getFields() {
+        return (EList<ServiceField>) eGet(StorePackage.Literals.SERVICE_TYPE__FIELDS, true);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public ServiceSimpleType getSimpleType() {
-		return (ServiceSimpleType) eGet(StorePackage.Literals.SERVICE_TYPE__SIMPLE_TYPE, true);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public ServiceSimpleType getSimpleType() {
+        return (ServiceSimpleType) eGet(StorePackage.Literals.SERVICE_TYPE__SIMPLE_TYPE, true);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public void setSimpleType(ServiceSimpleType newSimpleType) {
-		eSet(StorePackage.Literals.SERVICE_TYPE__SIMPLE_TYPE, newSimpleType);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public void setSimpleType(ServiceSimpleType newSimpleType) {
+        eSet(StorePackage.Literals.SERVICE_TYPE__SIMPLE_TYPE, newSimpleType);
+    }
 
 } //ServiceTypeImpl

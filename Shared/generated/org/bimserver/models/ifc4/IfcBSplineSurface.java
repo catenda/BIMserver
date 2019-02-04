@@ -47,12 +47,12 @@ public interface IfcBSplineSurface extends IfcBoundedSurface {
      * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>UDegree</em>' attribute.
-     * @see #setUDegree(int)
+     * @see #setUDegree(long)
      * @see org.bimserver.models.ifc4.Ifc4Package#getIfcBSplineSurface_UDegree()
      * @model
      * @generated
      */
-    int getUDegree();
+    long getUDegree();
 
     /**
      * Sets the value of the '{@link org.bimserver.models.ifc4.IfcBSplineSurface#getUDegree <em>UDegree</em>}' attribute.
@@ -62,7 +62,7 @@ public interface IfcBSplineSurface extends IfcBoundedSurface {
      * @see #getUDegree()
      * @generated
      */
-    void setUDegree(int value);
+    void setUDegree(long value);
 
     /**
      * Returns the value of the '<em><b>VDegree</b></em>' attribute.
@@ -73,12 +73,12 @@ public interface IfcBSplineSurface extends IfcBoundedSurface {
      * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>VDegree</em>' attribute.
-     * @see #setVDegree(int)
+     * @see #setVDegree(long)
      * @see org.bimserver.models.ifc4.Ifc4Package#getIfcBSplineSurface_VDegree()
      * @model
      * @generated
      */
-    int getVDegree();
+    long getVDegree();
 
     /**
      * Sets the value of the '{@link org.bimserver.models.ifc4.IfcBSplineSurface#getVDegree <em>VDegree</em>}' attribute.
@@ -88,7 +88,7 @@ public interface IfcBSplineSurface extends IfcBoundedSurface {
      * @see #getVDegree()
      * @generated
      */
-    void setVDegree(int value);
+    void setVDegree(long value);
 
     /**
      * Returns the value of the '<em><b>Surface Form</b></em>' attribute.

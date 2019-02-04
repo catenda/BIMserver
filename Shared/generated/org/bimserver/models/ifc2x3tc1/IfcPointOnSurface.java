@@ -23,6 +23,7 @@ package org.bimserver.models.ifc2x3tc1;
  *
  * <p>
  * The following features are supported:
+ * </p>
  * <ul>
  *   <li>{@link org.bimserver.models.ifc2x3tc1.IfcPointOnSurface#getBasisSurface <em>Basis Surface</em>}</li>
  *   <li>{@link org.bimserver.models.ifc2x3tc1.IfcPointOnSurface#getPointParameterU <em>Point Parameter U</em>}</li>
@@ -31,194 +32,193 @@ package org.bimserver.models.ifc2x3tc1;
  *   <li>{@link org.bimserver.models.ifc2x3tc1.IfcPointOnSurface#getPointParameterVAsString <em>Point Parameter VAs String</em>}</li>
  *   <li>{@link org.bimserver.models.ifc2x3tc1.IfcPointOnSurface#getDim <em>Dim</em>}</li>
  * </ul>
- * </p>
  *
  * @see org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package#getIfcPointOnSurface()
  * @model
  * @generated
  */
 public interface IfcPointOnSurface extends IfcPoint {
-	/**
-	 * Returns the value of the '<em><b>Basis Surface</b></em>' reference.
-	 * <!-- begin-user-doc -->
-	 * <p>
-	 * If the meaning of the '<em>Basis Surface</em>' reference isn't clear,
-	 * there really should be more of a description here...
-	 * </p>
-	 * <!-- end-user-doc -->
-	 * @return the value of the '<em>Basis Surface</em>' reference.
-	 * @see #setBasisSurface(IfcSurface)
-	 * @see org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package#getIfcPointOnSurface_BasisSurface()
-	 * @model
-	 * @generated
-	 */
-	IfcSurface getBasisSurface();
+    /**
+     * Returns the value of the '<em><b>Basis Surface</b></em>' reference.
+     * <!-- begin-user-doc -->
+     * <p>
+     * If the meaning of the '<em>Basis Surface</em>' reference isn't clear,
+     * there really should be more of a description here...
+     * </p>
+     * <!-- end-user-doc -->
+     * @return the value of the '<em>Basis Surface</em>' reference.
+     * @see #setBasisSurface(IfcSurface)
+     * @see org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package#getIfcPointOnSurface_BasisSurface()
+     * @model
+     * @generated
+     */
+    IfcSurface getBasisSurface();
 
-	/**
-	 * Sets the value of the '{@link org.bimserver.models.ifc2x3tc1.IfcPointOnSurface#getBasisSurface <em>Basis Surface</em>}' reference.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @param value the new value of the '<em>Basis Surface</em>' reference.
-	 * @see #getBasisSurface()
-	 * @generated
-	 */
-	void setBasisSurface(IfcSurface value);
+    /**
+     * Sets the value of the '{@link org.bimserver.models.ifc2x3tc1.IfcPointOnSurface#getBasisSurface <em>Basis Surface</em>}' reference.
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @param value the new value of the '<em>Basis Surface</em>' reference.
+     * @see #getBasisSurface()
+     * @generated
+     */
+    void setBasisSurface(IfcSurface value);
 
-	/**
-	 * Returns the value of the '<em><b>Point Parameter U</b></em>' attribute.
-	 * <!-- begin-user-doc -->
-	 * <p>
-	 * If the meaning of the '<em>Point Parameter U</em>' attribute isn't clear,
-	 * there really should be more of a description here...
-	 * </p>
-	 * <!-- end-user-doc -->
-	 * @return the value of the '<em>Point Parameter U</em>' attribute.
-	 * @see #setPointParameterU(double)
-	 * @see org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package#getIfcPointOnSurface_PointParameterU()
-	 * @model
-	 * @generated
-	 */
-	double getPointParameterU();
+    /**
+     * Returns the value of the '<em><b>Point Parameter U</b></em>' attribute.
+     * <!-- begin-user-doc -->
+     * <p>
+     * If the meaning of the '<em>Point Parameter U</em>' attribute isn't clear,
+     * there really should be more of a description here...
+     * </p>
+     * <!-- end-user-doc -->
+     * @return the value of the '<em>Point Parameter U</em>' attribute.
+     * @see #setPointParameterU(double)
+     * @see org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package#getIfcPointOnSurface_PointParameterU()
+     * @model
+     * @generated
+     */
+    double getPointParameterU();
 
-	/**
-	 * Sets the value of the '{@link org.bimserver.models.ifc2x3tc1.IfcPointOnSurface#getPointParameterU <em>Point Parameter U</em>}' attribute.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @param value the new value of the '<em>Point Parameter U</em>' attribute.
-	 * @see #getPointParameterU()
-	 * @generated
-	 */
-	void setPointParameterU(double value);
+    /**
+     * Sets the value of the '{@link org.bimserver.models.ifc2x3tc1.IfcPointOnSurface#getPointParameterU <em>Point Parameter U</em>}' attribute.
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @param value the new value of the '<em>Point Parameter U</em>' attribute.
+     * @see #getPointParameterU()
+     * @generated
+     */
+    void setPointParameterU(double value);
 
-	/**
-	 * Returns the value of the '<em><b>Point Parameter UAs String</b></em>' attribute.
-	 * <!-- begin-user-doc -->
-	 * <p>
-	 * If the meaning of the '<em>Point Parameter UAs String</em>' attribute isn't clear,
-	 * there really should be more of a description here...
-	 * </p>
-	 * <!-- end-user-doc -->
-	 * @return the value of the '<em>Point Parameter UAs String</em>' attribute.
-	 * @see #setPointParameterUAsString(String)
-	 * @see org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package#getIfcPointOnSurface_PointParameterUAsString()
-	 * @model
-	 * @generated
-	 */
-	String getPointParameterUAsString();
+    /**
+     * Returns the value of the '<em><b>Point Parameter UAs String</b></em>' attribute.
+     * <!-- begin-user-doc -->
+     * <p>
+     * If the meaning of the '<em>Point Parameter UAs String</em>' attribute isn't clear,
+     * there really should be more of a description here...
+     * </p>
+     * <!-- end-user-doc -->
+     * @return the value of the '<em>Point Parameter UAs String</em>' attribute.
+     * @see #setPointParameterUAsString(String)
+     * @see org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package#getIfcPointOnSurface_PointParameterUAsString()
+     * @model
+     * @generated
+     */
+    String getPointParameterUAsString();
 
-	/**
-	 * Sets the value of the '{@link org.bimserver.models.ifc2x3tc1.IfcPointOnSurface#getPointParameterUAsString <em>Point Parameter UAs String</em>}' attribute.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @param value the new value of the '<em>Point Parameter UAs String</em>' attribute.
-	 * @see #getPointParameterUAsString()
-	 * @generated
-	 */
-	void setPointParameterUAsString(String value);
+    /**
+     * Sets the value of the '{@link org.bimserver.models.ifc2x3tc1.IfcPointOnSurface#getPointParameterUAsString <em>Point Parameter UAs String</em>}' attribute.
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @param value the new value of the '<em>Point Parameter UAs String</em>' attribute.
+     * @see #getPointParameterUAsString()
+     * @generated
+     */
+    void setPointParameterUAsString(String value);
 
-	/**
-	 * Returns the value of the '<em><b>Point Parameter V</b></em>' attribute.
-	 * <!-- begin-user-doc -->
-	 * <p>
-	 * If the meaning of the '<em>Point Parameter V</em>' attribute isn't clear,
-	 * there really should be more of a description here...
-	 * </p>
-	 * <!-- end-user-doc -->
-	 * @return the value of the '<em>Point Parameter V</em>' attribute.
-	 * @see #setPointParameterV(double)
-	 * @see org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package#getIfcPointOnSurface_PointParameterV()
-	 * @model
-	 * @generated
-	 */
-	double getPointParameterV();
+    /**
+     * Returns the value of the '<em><b>Point Parameter V</b></em>' attribute.
+     * <!-- begin-user-doc -->
+     * <p>
+     * If the meaning of the '<em>Point Parameter V</em>' attribute isn't clear,
+     * there really should be more of a description here...
+     * </p>
+     * <!-- end-user-doc -->
+     * @return the value of the '<em>Point Parameter V</em>' attribute.
+     * @see #setPointParameterV(double)
+     * @see org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package#getIfcPointOnSurface_PointParameterV()
+     * @model
+     * @generated
+     */
+    double getPointParameterV();
 
-	/**
-	 * Sets the value of the '{@link org.bimserver.models.ifc2x3tc1.IfcPointOnSurface#getPointParameterV <em>Point Parameter V</em>}' attribute.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @param value the new value of the '<em>Point Parameter V</em>' attribute.
-	 * @see #getPointParameterV()
-	 * @generated
-	 */
-	void setPointParameterV(double value);
+    /**
+     * Sets the value of the '{@link org.bimserver.models.ifc2x3tc1.IfcPointOnSurface#getPointParameterV <em>Point Parameter V</em>}' attribute.
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @param value the new value of the '<em>Point Parameter V</em>' attribute.
+     * @see #getPointParameterV()
+     * @generated
+     */
+    void setPointParameterV(double value);
 
-	/**
-	 * Returns the value of the '<em><b>Point Parameter VAs String</b></em>' attribute.
-	 * <!-- begin-user-doc -->
-	 * <p>
-	 * If the meaning of the '<em>Point Parameter VAs String</em>' attribute isn't clear,
-	 * there really should be more of a description here...
-	 * </p>
-	 * <!-- end-user-doc -->
-	 * @return the value of the '<em>Point Parameter VAs String</em>' attribute.
-	 * @see #setPointParameterVAsString(String)
-	 * @see org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package#getIfcPointOnSurface_PointParameterVAsString()
-	 * @model
-	 * @generated
-	 */
-	String getPointParameterVAsString();
+    /**
+     * Returns the value of the '<em><b>Point Parameter VAs String</b></em>' attribute.
+     * <!-- begin-user-doc -->
+     * <p>
+     * If the meaning of the '<em>Point Parameter VAs String</em>' attribute isn't clear,
+     * there really should be more of a description here...
+     * </p>
+     * <!-- end-user-doc -->
+     * @return the value of the '<em>Point Parameter VAs String</em>' attribute.
+     * @see #setPointParameterVAsString(String)
+     * @see org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package#getIfcPointOnSurface_PointParameterVAsString()
+     * @model
+     * @generated
+     */
+    String getPointParameterVAsString();
 
-	/**
-	 * Sets the value of the '{@link org.bimserver.models.ifc2x3tc1.IfcPointOnSurface#getPointParameterVAsString <em>Point Parameter VAs String</em>}' attribute.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @param value the new value of the '<em>Point Parameter VAs String</em>' attribute.
-	 * @see #getPointParameterVAsString()
-	 * @generated
-	 */
-	void setPointParameterVAsString(String value);
+    /**
+     * Sets the value of the '{@link org.bimserver.models.ifc2x3tc1.IfcPointOnSurface#getPointParameterVAsString <em>Point Parameter VAs String</em>}' attribute.
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @param value the new value of the '<em>Point Parameter VAs String</em>' attribute.
+     * @see #getPointParameterVAsString()
+     * @generated
+     */
+    void setPointParameterVAsString(String value);
 
-	/**
-	 * Returns the value of the '<em><b>Dim</b></em>' attribute.
-	 * <!-- begin-user-doc -->
-	 * <p>
-	 * If the meaning of the '<em>Dim</em>' attribute isn't clear,
-	 * there really should be more of a description here...
-	 * </p>
-	 * <!-- end-user-doc -->
-	 * @return the value of the '<em>Dim</em>' attribute.
-	 * @see #isSetDim()
-	 * @see #unsetDim()
-	 * @see #setDim(int)
-	 * @see org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package#getIfcPointOnSurface_Dim()
-	 * @model unsettable="true" derived="true"
-	 * @generated
-	 */
-	int getDim();
+    /**
+     * Returns the value of the '<em><b>Dim</b></em>' attribute.
+     * <!-- begin-user-doc -->
+     * <p>
+     * If the meaning of the '<em>Dim</em>' attribute isn't clear,
+     * there really should be more of a description here...
+     * </p>
+     * <!-- end-user-doc -->
+     * @return the value of the '<em>Dim</em>' attribute.
+     * @see #isSetDim()
+     * @see #unsetDim()
+     * @see #setDim(long)
+     * @see org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package#getIfcPointOnSurface_Dim()
+     * @model unsettable="true" derived="true"
+     * @generated
+     */
+    long getDim();
 
-	/**
-	 * Sets the value of the '{@link org.bimserver.models.ifc2x3tc1.IfcPointOnSurface#getDim <em>Dim</em>}' attribute.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @param value the new value of the '<em>Dim</em>' attribute.
-	 * @see #isSetDim()
-	 * @see #unsetDim()
-	 * @see #getDim()
-	 * @generated
-	 */
-	void setDim(int value);
+    /**
+     * Sets the value of the '{@link org.bimserver.models.ifc2x3tc1.IfcPointOnSurface#getDim <em>Dim</em>}' attribute.
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @param value the new value of the '<em>Dim</em>' attribute.
+     * @see #isSetDim()
+     * @see #unsetDim()
+     * @see #getDim()
+     * @generated
+     */
+    void setDim(long value);
 
-	/**
-	 * Unsets the value of the '{@link org.bimserver.models.ifc2x3tc1.IfcPointOnSurface#getDim <em>Dim</em>}' attribute.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @see #isSetDim()
-	 * @see #getDim()
-	 * @see #setDim(int)
-	 * @generated
-	 */
-	void unsetDim();
+    /**
+     * Unsets the value of the '{@link org.bimserver.models.ifc2x3tc1.IfcPointOnSurface#getDim <em>Dim</em>}' attribute.
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @see #isSetDim()
+     * @see #getDim()
+     * @see #setDim(long)
+     * @generated
+     */
+    void unsetDim();
 
-	/**
-	 * Returns whether the value of the '{@link org.bimserver.models.ifc2x3tc1.IfcPointOnSurface#getDim <em>Dim</em>}' attribute is set.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @return whether the value of the '<em>Dim</em>' attribute is set.
-	 * @see #unsetDim()
-	 * @see #getDim()
-	 * @see #setDim(int)
-	 * @generated
-	 */
-	boolean isSetDim();
+    /**
+     * Returns whether the value of the '{@link org.bimserver.models.ifc2x3tc1.IfcPointOnSurface#getDim <em>Dim</em>}' attribute is set.
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @return whether the value of the '<em>Dim</em>' attribute is set.
+     * @see #unsetDim()
+     * @see #getDim()
+     * @see #setDim(long)
+     * @generated
+     */
+    boolean isSetDim();
 
 } // IfcPointOnSurface

@@ -25,55 +25,55 @@ import org.eclipse.emf.common.util.EList;
  *
  * <p>
  * The following features are supported:
+ * </p>
  * <ul>
  *   <li>{@link org.bimserver.models.ifc2x3tc1.IfcControl#getControls <em>Controls</em>}</li>
  * </ul>
- * </p>
  *
  * @see org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package#getIfcControl()
  * @model
  * @generated
  */
 public interface IfcControl extends IfcObject {
-	/**
-	 * Returns the value of the '<em><b>Controls</b></em>' reference list.
-	 * The list contents are of type {@link org.bimserver.models.ifc2x3tc1.IfcRelAssignsToControl}.
-	 * It is bidirectional and its opposite is '{@link org.bimserver.models.ifc2x3tc1.IfcRelAssignsToControl#getRelatingControl <em>Relating Control</em>}'.
-	 * <!-- begin-user-doc -->
-	 * <p>
-	 * If the meaning of the '<em>Controls</em>' reference list isn't clear,
-	 * there really should be more of a description here...
-	 * </p>
-	 * <!-- end-user-doc -->
-	 * @return the value of the '<em>Controls</em>' reference list.
-	 * @see #isSetControls()
-	 * @see #unsetControls()
-	 * @see org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package#getIfcControl_Controls()
-	 * @see org.bimserver.models.ifc2x3tc1.IfcRelAssignsToControl#getRelatingControl
-	 * @model opposite="RelatingControl" unsettable="true"
-	 * @generated
-	 */
-	EList<IfcRelAssignsToControl> getControls();
+    /**
+     * Returns the value of the '<em><b>Controls</b></em>' reference list.
+     * The list contents are of type {@link org.bimserver.models.ifc2x3tc1.IfcRelAssignsToControl}.
+     * It is bidirectional and its opposite is '{@link org.bimserver.models.ifc2x3tc1.IfcRelAssignsToControl#getRelatingControl <em>Relating Control</em>}'.
+     * <!-- begin-user-doc -->
+     * <p>
+     * If the meaning of the '<em>Controls</em>' reference list isn't clear,
+     * there really should be more of a description here...
+     * </p>
+     * <!-- end-user-doc -->
+     * @return the value of the '<em>Controls</em>' reference list.
+     * @see #isSetControls()
+     * @see #unsetControls()
+     * @see org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package#getIfcControl_Controls()
+     * @see org.bimserver.models.ifc2x3tc1.IfcRelAssignsToControl#getRelatingControl
+     * @model opposite="RelatingControl" unsettable="true"
+     * @generated
+     */
+    EList<IfcRelAssignsToControl> getControls();
 
-	/**
-	 * Unsets the value of the '{@link org.bimserver.models.ifc2x3tc1.IfcControl#getControls <em>Controls</em>}' reference list.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @see #isSetControls()
-	 * @see #getControls()
-	 * @generated
-	 */
-	void unsetControls();
+    /**
+     * Unsets the value of the '{@link org.bimserver.models.ifc2x3tc1.IfcControl#getControls <em>Controls</em>}' reference list.
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @see #isSetControls()
+     * @see #getControls()
+     * @generated
+     */
+    void unsetControls();
 
-	/**
-	 * Returns whether the value of the '{@link org.bimserver.models.ifc2x3tc1.IfcControl#getControls <em>Controls</em>}' reference list is set.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @return whether the value of the '<em>Controls</em>' reference list is set.
-	 * @see #unsetControls()
-	 * @see #getControls()
-	 * @generated
-	 */
-	boolean isSetControls();
+    /**
+     * Returns whether the value of the '{@link org.bimserver.models.ifc2x3tc1.IfcControl#getControls <em>Controls</em>}' reference list is set.
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @return whether the value of the '<em>Controls</em>' reference list is set.
+     * @see #unsetControls()
+     * @see #getControls()
+     * @generated
+     */
+    boolean isSetControls();
 
 } // IfcControl

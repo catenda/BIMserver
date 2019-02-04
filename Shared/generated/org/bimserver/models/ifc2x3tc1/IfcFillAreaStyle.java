@@ -25,30 +25,30 @@ import org.eclipse.emf.common.util.EList;
  *
  * <p>
  * The following features are supported:
+ * </p>
  * <ul>
  *   <li>{@link org.bimserver.models.ifc2x3tc1.IfcFillAreaStyle#getFillStyles <em>Fill Styles</em>}</li>
  * </ul>
- * </p>
  *
  * @see org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package#getIfcFillAreaStyle()
  * @model
  * @generated
  */
 public interface IfcFillAreaStyle extends IfcPresentationStyle, IfcPresentationStyleSelect {
-	/**
-	 * Returns the value of the '<em><b>Fill Styles</b></em>' reference list.
-	 * The list contents are of type {@link org.bimserver.models.ifc2x3tc1.IfcFillStyleSelect}.
-	 * <!-- begin-user-doc -->
-	 * <p>
-	 * If the meaning of the '<em>Fill Styles</em>' reference list isn't clear,
-	 * there really should be more of a description here...
-	 * </p>
-	 * <!-- end-user-doc -->
-	 * @return the value of the '<em>Fill Styles</em>' reference list.
-	 * @see org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package#getIfcFillAreaStyle_FillStyles()
-	 * @model
-	 * @generated
-	 */
-	EList<IfcFillStyleSelect> getFillStyles();
+    /**
+     * Returns the value of the '<em><b>Fill Styles</b></em>' reference list.
+     * The list contents are of type {@link org.bimserver.models.ifc2x3tc1.IfcFillStyleSelect}.
+     * <!-- begin-user-doc -->
+     * <p>
+     * If the meaning of the '<em>Fill Styles</em>' reference list isn't clear,
+     * there really should be more of a description here...
+     * </p>
+     * <!-- end-user-doc -->
+     * @return the value of the '<em>Fill Styles</em>' reference list.
+     * @see org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package#getIfcFillAreaStyle_FillStyles()
+     * @model
+     * @generated
+     */
+    EList<IfcFillStyleSelect> getFillStyles();
 
 } // IfcFillAreaStyle

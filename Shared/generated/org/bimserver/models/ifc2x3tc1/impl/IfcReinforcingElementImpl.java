@@ -18,6 +18,7 @@ package org.bimserver.models.ifc2x3tc1.impl;
 
 import org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package;
 import org.bimserver.models.ifc2x3tc1.IfcReinforcingElement;
+
 import org.eclipse.emf.ecore.EClass;
 
 /**
@@ -26,67 +27,67 @@ import org.eclipse.emf.ecore.EClass;
  * <!-- end-user-doc -->
  * <p>
  * The following features are implemented:
+ * </p>
  * <ul>
  *   <li>{@link org.bimserver.models.ifc2x3tc1.impl.IfcReinforcingElementImpl#getSteelGrade <em>Steel Grade</em>}</li>
  * </ul>
- * </p>
  *
  * @generated
  */
 public class IfcReinforcingElementImpl extends IfcBuildingElementComponentImpl implements IfcReinforcingElement {
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	protected IfcReinforcingElementImpl() {
-		super();
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    protected IfcReinforcingElementImpl() {
+        super();
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	@Override
-	protected EClass eStaticClass() {
-		return Ifc2x3tc1Package.Literals.IFC_REINFORCING_ELEMENT;
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    @Override
+    protected EClass eStaticClass() {
+        return Ifc2x3tc1Package.Literals.IFC_REINFORCING_ELEMENT;
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public String getSteelGrade() {
-		return (String) eGet(Ifc2x3tc1Package.Literals.IFC_REINFORCING_ELEMENT__STEEL_GRADE, true);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public String getSteelGrade() {
+        return (String) eGet(Ifc2x3tc1Package.Literals.IFC_REINFORCING_ELEMENT__STEEL_GRADE, true);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public void setSteelGrade(String newSteelGrade) {
-		eSet(Ifc2x3tc1Package.Literals.IFC_REINFORCING_ELEMENT__STEEL_GRADE, newSteelGrade);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public void setSteelGrade(String newSteelGrade) {
+        eSet(Ifc2x3tc1Package.Literals.IFC_REINFORCING_ELEMENT__STEEL_GRADE, newSteelGrade);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public void unsetSteelGrade() {
-		eUnset(Ifc2x3tc1Package.Literals.IFC_REINFORCING_ELEMENT__STEEL_GRADE);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public void unsetSteelGrade() {
+        eUnset(Ifc2x3tc1Package.Literals.IFC_REINFORCING_ELEMENT__STEEL_GRADE);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public boolean isSetSteelGrade() {
-		return eIsSet(Ifc2x3tc1Package.Literals.IFC_REINFORCING_ELEMENT__STEEL_GRADE);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public boolean isSetSteelGrade() {
+        return eIsSet(Ifc2x3tc1Package.Literals.IFC_REINFORCING_ELEMENT__STEEL_GRADE);
+    }
 
 } //IfcReinforcingElementImpl

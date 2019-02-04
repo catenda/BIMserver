@@ -17,12 +17,15 @@
 package org.bimserver.models.ifc2x3tc1.impl;
 
 import org.bimserver.emf.IdEObjectImpl;
+
 import org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package;
 import org.bimserver.models.ifc2x3tc1.IfcActorRole;
 import org.bimserver.models.ifc2x3tc1.IfcAddress;
 import org.bimserver.models.ifc2x3tc1.IfcPerson;
 import org.bimserver.models.ifc2x3tc1.IfcPersonAndOrganization;
+
 import org.eclipse.emf.common.util.EList;
+
 import org.eclipse.emf.ecore.EClass;
 
 /**
@@ -31,6 +34,7 @@ import org.eclipse.emf.ecore.EClass;
  * <!-- end-user-doc -->
  * <p>
  * The following features are implemented:
+ * </p>
  * <ul>
  *   <li>{@link org.bimserver.models.ifc2x3tc1.impl.IfcPersonImpl#getId <em>Id</em>}</li>
  *   <li>{@link org.bimserver.models.ifc2x3tc1.impl.IfcPersonImpl#getFamilyName <em>Family Name</em>}</li>
@@ -42,314 +46,313 @@ import org.eclipse.emf.ecore.EClass;
  *   <li>{@link org.bimserver.models.ifc2x3tc1.impl.IfcPersonImpl#getAddresses <em>Addresses</em>}</li>
  *   <li>{@link org.bimserver.models.ifc2x3tc1.impl.IfcPersonImpl#getEngagedIn <em>Engaged In</em>}</li>
  * </ul>
- * </p>
  *
  * @generated
  */
 public class IfcPersonImpl extends IdEObjectImpl implements IfcPerson {
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	protected IfcPersonImpl() {
-		super();
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    protected IfcPersonImpl() {
+        super();
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	@Override
-	protected EClass eStaticClass() {
-		return Ifc2x3tc1Package.Literals.IFC_PERSON;
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    @Override
+    protected EClass eStaticClass() {
+        return Ifc2x3tc1Package.Literals.IFC_PERSON;
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	@Override
-	protected int eStaticFeatureCount() {
-		return 0;
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    @Override
+    protected int eStaticFeatureCount() {
+        return 0;
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public String getId() {
-		return (String) eGet(Ifc2x3tc1Package.Literals.IFC_PERSON__ID, true);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public String getId() {
+        return (String) eGet(Ifc2x3tc1Package.Literals.IFC_PERSON__ID, true);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public void setId(String newId) {
-		eSet(Ifc2x3tc1Package.Literals.IFC_PERSON__ID, newId);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public void setId(String newId) {
+        eSet(Ifc2x3tc1Package.Literals.IFC_PERSON__ID, newId);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public void unsetId() {
-		eUnset(Ifc2x3tc1Package.Literals.IFC_PERSON__ID);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public void unsetId() {
+        eUnset(Ifc2x3tc1Package.Literals.IFC_PERSON__ID);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public boolean isSetId() {
-		return eIsSet(Ifc2x3tc1Package.Literals.IFC_PERSON__ID);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public boolean isSetId() {
+        return eIsSet(Ifc2x3tc1Package.Literals.IFC_PERSON__ID);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public String getFamilyName() {
-		return (String) eGet(Ifc2x3tc1Package.Literals.IFC_PERSON__FAMILY_NAME, true);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public String getFamilyName() {
+        return (String) eGet(Ifc2x3tc1Package.Literals.IFC_PERSON__FAMILY_NAME, true);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public void setFamilyName(String newFamilyName) {
-		eSet(Ifc2x3tc1Package.Literals.IFC_PERSON__FAMILY_NAME, newFamilyName);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public void setFamilyName(String newFamilyName) {
+        eSet(Ifc2x3tc1Package.Literals.IFC_PERSON__FAMILY_NAME, newFamilyName);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public void unsetFamilyName() {
-		eUnset(Ifc2x3tc1Package.Literals.IFC_PERSON__FAMILY_NAME);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public void unsetFamilyName() {
+        eUnset(Ifc2x3tc1Package.Literals.IFC_PERSON__FAMILY_NAME);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public boolean isSetFamilyName() {
-		return eIsSet(Ifc2x3tc1Package.Literals.IFC_PERSON__FAMILY_NAME);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public boolean isSetFamilyName() {
+        return eIsSet(Ifc2x3tc1Package.Literals.IFC_PERSON__FAMILY_NAME);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public String getGivenName() {
-		return (String) eGet(Ifc2x3tc1Package.Literals.IFC_PERSON__GIVEN_NAME, true);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public String getGivenName() {
+        return (String) eGet(Ifc2x3tc1Package.Literals.IFC_PERSON__GIVEN_NAME, true);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public void setGivenName(String newGivenName) {
-		eSet(Ifc2x3tc1Package.Literals.IFC_PERSON__GIVEN_NAME, newGivenName);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public void setGivenName(String newGivenName) {
+        eSet(Ifc2x3tc1Package.Literals.IFC_PERSON__GIVEN_NAME, newGivenName);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public void unsetGivenName() {
-		eUnset(Ifc2x3tc1Package.Literals.IFC_PERSON__GIVEN_NAME);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public void unsetGivenName() {
+        eUnset(Ifc2x3tc1Package.Literals.IFC_PERSON__GIVEN_NAME);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public boolean isSetGivenName() {
-		return eIsSet(Ifc2x3tc1Package.Literals.IFC_PERSON__GIVEN_NAME);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public boolean isSetGivenName() {
+        return eIsSet(Ifc2x3tc1Package.Literals.IFC_PERSON__GIVEN_NAME);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	@SuppressWarnings("unchecked")
-	public EList<String> getMiddleNames() {
-		return (EList<String>) eGet(Ifc2x3tc1Package.Literals.IFC_PERSON__MIDDLE_NAMES, true);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    @SuppressWarnings("unchecked")
+    public EList<String> getMiddleNames() {
+        return (EList<String>) eGet(Ifc2x3tc1Package.Literals.IFC_PERSON__MIDDLE_NAMES, true);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public void unsetMiddleNames() {
-		eUnset(Ifc2x3tc1Package.Literals.IFC_PERSON__MIDDLE_NAMES);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public void unsetMiddleNames() {
+        eUnset(Ifc2x3tc1Package.Literals.IFC_PERSON__MIDDLE_NAMES);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public boolean isSetMiddleNames() {
-		return eIsSet(Ifc2x3tc1Package.Literals.IFC_PERSON__MIDDLE_NAMES);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public boolean isSetMiddleNames() {
+        return eIsSet(Ifc2x3tc1Package.Literals.IFC_PERSON__MIDDLE_NAMES);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	@SuppressWarnings("unchecked")
-	public EList<String> getPrefixTitles() {
-		return (EList<String>) eGet(Ifc2x3tc1Package.Literals.IFC_PERSON__PREFIX_TITLES, true);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    @SuppressWarnings("unchecked")
+    public EList<String> getPrefixTitles() {
+        return (EList<String>) eGet(Ifc2x3tc1Package.Literals.IFC_PERSON__PREFIX_TITLES, true);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public void unsetPrefixTitles() {
-		eUnset(Ifc2x3tc1Package.Literals.IFC_PERSON__PREFIX_TITLES);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public void unsetPrefixTitles() {
+        eUnset(Ifc2x3tc1Package.Literals.IFC_PERSON__PREFIX_TITLES);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public boolean isSetPrefixTitles() {
-		return eIsSet(Ifc2x3tc1Package.Literals.IFC_PERSON__PREFIX_TITLES);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public boolean isSetPrefixTitles() {
+        return eIsSet(Ifc2x3tc1Package.Literals.IFC_PERSON__PREFIX_TITLES);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	@SuppressWarnings("unchecked")
-	public EList<String> getSuffixTitles() {
-		return (EList<String>) eGet(Ifc2x3tc1Package.Literals.IFC_PERSON__SUFFIX_TITLES, true);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    @SuppressWarnings("unchecked")
+    public EList<String> getSuffixTitles() {
+        return (EList<String>) eGet(Ifc2x3tc1Package.Literals.IFC_PERSON__SUFFIX_TITLES, true);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public void unsetSuffixTitles() {
-		eUnset(Ifc2x3tc1Package.Literals.IFC_PERSON__SUFFIX_TITLES);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public void unsetSuffixTitles() {
+        eUnset(Ifc2x3tc1Package.Literals.IFC_PERSON__SUFFIX_TITLES);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public boolean isSetSuffixTitles() {
-		return eIsSet(Ifc2x3tc1Package.Literals.IFC_PERSON__SUFFIX_TITLES);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public boolean isSetSuffixTitles() {
+        return eIsSet(Ifc2x3tc1Package.Literals.IFC_PERSON__SUFFIX_TITLES);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	@SuppressWarnings("unchecked")
-	public EList<IfcActorRole> getRoles() {
-		return (EList<IfcActorRole>) eGet(Ifc2x3tc1Package.Literals.IFC_PERSON__ROLES, true);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    @SuppressWarnings("unchecked")
+    public EList<IfcActorRole> getRoles() {
+        return (EList<IfcActorRole>) eGet(Ifc2x3tc1Package.Literals.IFC_PERSON__ROLES, true);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public void unsetRoles() {
-		eUnset(Ifc2x3tc1Package.Literals.IFC_PERSON__ROLES);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public void unsetRoles() {
+        eUnset(Ifc2x3tc1Package.Literals.IFC_PERSON__ROLES);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public boolean isSetRoles() {
-		return eIsSet(Ifc2x3tc1Package.Literals.IFC_PERSON__ROLES);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public boolean isSetRoles() {
+        return eIsSet(Ifc2x3tc1Package.Literals.IFC_PERSON__ROLES);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	@SuppressWarnings("unchecked")
-	public EList<IfcAddress> getAddresses() {
-		return (EList<IfcAddress>) eGet(Ifc2x3tc1Package.Literals.IFC_PERSON__ADDRESSES, true);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    @SuppressWarnings("unchecked")
+    public EList<IfcAddress> getAddresses() {
+        return (EList<IfcAddress>) eGet(Ifc2x3tc1Package.Literals.IFC_PERSON__ADDRESSES, true);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public void unsetAddresses() {
-		eUnset(Ifc2x3tc1Package.Literals.IFC_PERSON__ADDRESSES);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public void unsetAddresses() {
+        eUnset(Ifc2x3tc1Package.Literals.IFC_PERSON__ADDRESSES);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public boolean isSetAddresses() {
-		return eIsSet(Ifc2x3tc1Package.Literals.IFC_PERSON__ADDRESSES);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public boolean isSetAddresses() {
+        return eIsSet(Ifc2x3tc1Package.Literals.IFC_PERSON__ADDRESSES);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	@SuppressWarnings("unchecked")
-	public EList<IfcPersonAndOrganization> getEngagedIn() {
-		return (EList<IfcPersonAndOrganization>) eGet(Ifc2x3tc1Package.Literals.IFC_PERSON__ENGAGED_IN, true);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    @SuppressWarnings("unchecked")
+    public EList<IfcPersonAndOrganization> getEngagedIn() {
+        return (EList<IfcPersonAndOrganization>) eGet(Ifc2x3tc1Package.Literals.IFC_PERSON__ENGAGED_IN, true);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public void unsetEngagedIn() {
-		eUnset(Ifc2x3tc1Package.Literals.IFC_PERSON__ENGAGED_IN);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public void unsetEngagedIn() {
+        eUnset(Ifc2x3tc1Package.Literals.IFC_PERSON__ENGAGED_IN);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public boolean isSetEngagedIn() {
-		return eIsSet(Ifc2x3tc1Package.Literals.IFC_PERSON__ENGAGED_IN);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public boolean isSetEngagedIn() {
+        return eIsSet(Ifc2x3tc1Package.Literals.IFC_PERSON__ENGAGED_IN);
+    }
 
 } //IfcPersonImpl

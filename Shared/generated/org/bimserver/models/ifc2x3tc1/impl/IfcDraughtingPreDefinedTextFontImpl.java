@@ -18,35 +18,35 @@ package org.bimserver.models.ifc2x3tc1.impl;
 
 import org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package;
 import org.bimserver.models.ifc2x3tc1.IfcDraughtingPreDefinedTextFont;
+
 import org.eclipse.emf.ecore.EClass;
 
 /**
  * <!-- begin-user-doc -->
  * An implementation of the model object '<em><b>Ifc Draughting Pre Defined Text Font</b></em>'.
  * <!-- end-user-doc -->
- * <p>
- * </p>
  *
  * @generated
  */
-public class IfcDraughtingPreDefinedTextFontImpl extends IfcPreDefinedTextFontImpl implements IfcDraughtingPreDefinedTextFont {
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	protected IfcDraughtingPreDefinedTextFontImpl() {
-		super();
-	}
+public class IfcDraughtingPreDefinedTextFontImpl extends IfcPreDefinedTextFontImpl
+        implements IfcDraughtingPreDefinedTextFont {
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    protected IfcDraughtingPreDefinedTextFontImpl() {
+        super();
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	@Override
-	protected EClass eStaticClass() {
-		return Ifc2x3tc1Package.Literals.IFC_DRAUGHTING_PRE_DEFINED_TEXT_FONT;
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    @Override
+    protected EClass eStaticClass() {
+        return Ifc2x3tc1Package.Literals.IFC_DRAUGHTING_PRE_DEFINED_TEXT_FONT;
+    }
 
 } //IfcDraughtingPreDefinedTextFontImpl

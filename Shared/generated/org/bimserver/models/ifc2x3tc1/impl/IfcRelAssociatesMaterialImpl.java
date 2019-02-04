@@ -19,6 +19,7 @@ package org.bimserver.models.ifc2x3tc1.impl;
 import org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package;
 import org.bimserver.models.ifc2x3tc1.IfcMaterialSelect;
 import org.bimserver.models.ifc2x3tc1.IfcRelAssociatesMaterial;
+
 import org.eclipse.emf.ecore.EClass;
 
 /**
@@ -27,49 +28,49 @@ import org.eclipse.emf.ecore.EClass;
  * <!-- end-user-doc -->
  * <p>
  * The following features are implemented:
+ * </p>
  * <ul>
  *   <li>{@link org.bimserver.models.ifc2x3tc1.impl.IfcRelAssociatesMaterialImpl#getRelatingMaterial <em>Relating Material</em>}</li>
  * </ul>
- * </p>
  *
  * @generated
  */
 public class IfcRelAssociatesMaterialImpl extends IfcRelAssociatesImpl implements IfcRelAssociatesMaterial {
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	protected IfcRelAssociatesMaterialImpl() {
-		super();
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    protected IfcRelAssociatesMaterialImpl() {
+        super();
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	@Override
-	protected EClass eStaticClass() {
-		return Ifc2x3tc1Package.Literals.IFC_REL_ASSOCIATES_MATERIAL;
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    @Override
+    protected EClass eStaticClass() {
+        return Ifc2x3tc1Package.Literals.IFC_REL_ASSOCIATES_MATERIAL;
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public IfcMaterialSelect getRelatingMaterial() {
-		return (IfcMaterialSelect) eGet(Ifc2x3tc1Package.Literals.IFC_REL_ASSOCIATES_MATERIAL__RELATING_MATERIAL, true);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public IfcMaterialSelect getRelatingMaterial() {
+        return (IfcMaterialSelect) eGet(Ifc2x3tc1Package.Literals.IFC_REL_ASSOCIATES_MATERIAL__RELATING_MATERIAL, true);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public void setRelatingMaterial(IfcMaterialSelect newRelatingMaterial) {
-		eSet(Ifc2x3tc1Package.Literals.IFC_REL_ASSOCIATES_MATERIAL__RELATING_MATERIAL, newRelatingMaterial);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public void setRelatingMaterial(IfcMaterialSelect newRelatingMaterial) {
+        eSet(Ifc2x3tc1Package.Literals.IFC_REL_ASSOCIATES_MATERIAL__RELATING_MATERIAL, newRelatingMaterial);
+    }
 
 } //IfcRelAssociatesMaterialImpl

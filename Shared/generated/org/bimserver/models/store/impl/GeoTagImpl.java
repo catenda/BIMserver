@@ -17,10 +17,13 @@
 package org.bimserver.models.store.impl;
 
 import org.bimserver.emf.IdEObjectImpl;
+
 import org.bimserver.models.store.GeoTag;
 import org.bimserver.models.store.Project;
 import org.bimserver.models.store.StorePackage;
+
 import org.eclipse.emf.common.util.EList;
+
 import org.eclipse.emf.ecore.EClass;
 
 /**
@@ -29,6 +32,7 @@ import org.eclipse.emf.ecore.EClass;
  * <!-- end-user-doc -->
  * <p>
  * The following features are implemented:
+ * </p>
  * <ul>
  *   <li>{@link org.bimserver.models.store.impl.GeoTagImpl#getEnabled <em>Enabled</em>}</li>
  *   <li>{@link org.bimserver.models.store.impl.GeoTagImpl#getProjects <em>Projects</em>}</li>
@@ -38,156 +42,155 @@ import org.eclipse.emf.ecore.EClass;
  *   <li>{@link org.bimserver.models.store.impl.GeoTagImpl#getEpsg <em>Epsg</em>}</li>
  *   <li>{@link org.bimserver.models.store.impl.GeoTagImpl#getDirectionAngle <em>Direction Angle</em>}</li>
  * </ul>
- * </p>
  *
  * @generated
  */
 public class GeoTagImpl extends IdEObjectImpl implements GeoTag {
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	protected GeoTagImpl() {
-		super();
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    protected GeoTagImpl() {
+        super();
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	@Override
-	protected EClass eStaticClass() {
-		return StorePackage.Literals.GEO_TAG;
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    @Override
+    protected EClass eStaticClass() {
+        return StorePackage.Literals.GEO_TAG;
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	@Override
-	protected int eStaticFeatureCount() {
-		return 0;
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    @Override
+    protected int eStaticFeatureCount() {
+        return 0;
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public Boolean getEnabled() {
-		return (Boolean) eGet(StorePackage.Literals.GEO_TAG__ENABLED, true);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public Boolean getEnabled() {
+        return (Boolean) eGet(StorePackage.Literals.GEO_TAG__ENABLED, true);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public void setEnabled(Boolean newEnabled) {
-		eSet(StorePackage.Literals.GEO_TAG__ENABLED, newEnabled);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public void setEnabled(Boolean newEnabled) {
+        eSet(StorePackage.Literals.GEO_TAG__ENABLED, newEnabled);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	@SuppressWarnings("unchecked")
-	public EList<Project> getProjects() {
-		return (EList<Project>) eGet(StorePackage.Literals.GEO_TAG__PROJECTS, true);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    @SuppressWarnings("unchecked")
+    public EList<Project> getProjects() {
+        return (EList<Project>) eGet(StorePackage.Literals.GEO_TAG__PROJECTS, true);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public Double getX() {
-		return (Double) eGet(StorePackage.Literals.GEO_TAG__X, true);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public Double getX() {
+        return (Double) eGet(StorePackage.Literals.GEO_TAG__X, true);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public void setX(Double newX) {
-		eSet(StorePackage.Literals.GEO_TAG__X, newX);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public void setX(Double newX) {
+        eSet(StorePackage.Literals.GEO_TAG__X, newX);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public Double getY() {
-		return (Double) eGet(StorePackage.Literals.GEO_TAG__Y, true);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public Double getY() {
+        return (Double) eGet(StorePackage.Literals.GEO_TAG__Y, true);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public void setY(Double newY) {
-		eSet(StorePackage.Literals.GEO_TAG__Y, newY);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public void setY(Double newY) {
+        eSet(StorePackage.Literals.GEO_TAG__Y, newY);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public Double getZ() {
-		return (Double) eGet(StorePackage.Literals.GEO_TAG__Z, true);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public Double getZ() {
+        return (Double) eGet(StorePackage.Literals.GEO_TAG__Z, true);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public void setZ(Double newZ) {
-		eSet(StorePackage.Literals.GEO_TAG__Z, newZ);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public void setZ(Double newZ) {
+        eSet(StorePackage.Literals.GEO_TAG__Z, newZ);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public Integer getEpsg() {
-		return (Integer) eGet(StorePackage.Literals.GEO_TAG__EPSG, true);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public Integer getEpsg() {
+        return (Integer) eGet(StorePackage.Literals.GEO_TAG__EPSG, true);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public void setEpsg(Integer newEpsg) {
-		eSet(StorePackage.Literals.GEO_TAG__EPSG, newEpsg);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public void setEpsg(Integer newEpsg) {
+        eSet(StorePackage.Literals.GEO_TAG__EPSG, newEpsg);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public Double getDirectionAngle() {
-		return (Double) eGet(StorePackage.Literals.GEO_TAG__DIRECTION_ANGLE, true);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public Double getDirectionAngle() {
+        return (Double) eGet(StorePackage.Literals.GEO_TAG__DIRECTION_ANGLE, true);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public void setDirectionAngle(Double newDirectionAngle) {
-		eSet(StorePackage.Literals.GEO_TAG__DIRECTION_ANGLE, newDirectionAngle);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public void setDirectionAngle(Double newDirectionAngle) {
+        eSet(StorePackage.Literals.GEO_TAG__DIRECTION_ANGLE, newDirectionAngle);
+    }
 
 } //GeoTagImpl

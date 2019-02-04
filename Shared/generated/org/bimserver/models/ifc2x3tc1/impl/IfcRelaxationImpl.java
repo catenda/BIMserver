@@ -17,8 +17,10 @@
 package org.bimserver.models.ifc2x3tc1.impl;
 
 import org.bimserver.emf.IdEObjectImpl;
+
 import org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package;
 import org.bimserver.models.ifc2x3tc1.IfcRelaxation;
+
 import org.eclipse.emf.ecore.EClass;
 
 /**
@@ -27,116 +29,116 @@ import org.eclipse.emf.ecore.EClass;
  * <!-- end-user-doc -->
  * <p>
  * The following features are implemented:
+ * </p>
  * <ul>
  *   <li>{@link org.bimserver.models.ifc2x3tc1.impl.IfcRelaxationImpl#getRelaxationValue <em>Relaxation Value</em>}</li>
  *   <li>{@link org.bimserver.models.ifc2x3tc1.impl.IfcRelaxationImpl#getRelaxationValueAsString <em>Relaxation Value As String</em>}</li>
  *   <li>{@link org.bimserver.models.ifc2x3tc1.impl.IfcRelaxationImpl#getInitialStress <em>Initial Stress</em>}</li>
  *   <li>{@link org.bimserver.models.ifc2x3tc1.impl.IfcRelaxationImpl#getInitialStressAsString <em>Initial Stress As String</em>}</li>
  * </ul>
- * </p>
  *
  * @generated
  */
 public class IfcRelaxationImpl extends IdEObjectImpl implements IfcRelaxation {
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	protected IfcRelaxationImpl() {
-		super();
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    protected IfcRelaxationImpl() {
+        super();
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	@Override
-	protected EClass eStaticClass() {
-		return Ifc2x3tc1Package.Literals.IFC_RELAXATION;
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    @Override
+    protected EClass eStaticClass() {
+        return Ifc2x3tc1Package.Literals.IFC_RELAXATION;
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	@Override
-	protected int eStaticFeatureCount() {
-		return 0;
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    @Override
+    protected int eStaticFeatureCount() {
+        return 0;
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public double getRelaxationValue() {
-		return (Double) eGet(Ifc2x3tc1Package.Literals.IFC_RELAXATION__RELAXATION_VALUE, true);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public double getRelaxationValue() {
+        return (Double) eGet(Ifc2x3tc1Package.Literals.IFC_RELAXATION__RELAXATION_VALUE, true);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public void setRelaxationValue(double newRelaxationValue) {
-		eSet(Ifc2x3tc1Package.Literals.IFC_RELAXATION__RELAXATION_VALUE, newRelaxationValue);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public void setRelaxationValue(double newRelaxationValue) {
+        eSet(Ifc2x3tc1Package.Literals.IFC_RELAXATION__RELAXATION_VALUE, newRelaxationValue);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public String getRelaxationValueAsString() {
-		return (String) eGet(Ifc2x3tc1Package.Literals.IFC_RELAXATION__RELAXATION_VALUE_AS_STRING, true);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public String getRelaxationValueAsString() {
+        return (String) eGet(Ifc2x3tc1Package.Literals.IFC_RELAXATION__RELAXATION_VALUE_AS_STRING, true);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public void setRelaxationValueAsString(String newRelaxationValueAsString) {
-		eSet(Ifc2x3tc1Package.Literals.IFC_RELAXATION__RELAXATION_VALUE_AS_STRING, newRelaxationValueAsString);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public void setRelaxationValueAsString(String newRelaxationValueAsString) {
+        eSet(Ifc2x3tc1Package.Literals.IFC_RELAXATION__RELAXATION_VALUE_AS_STRING, newRelaxationValueAsString);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public double getInitialStress() {
-		return (Double) eGet(Ifc2x3tc1Package.Literals.IFC_RELAXATION__INITIAL_STRESS, true);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public double getInitialStress() {
+        return (Double) eGet(Ifc2x3tc1Package.Literals.IFC_RELAXATION__INITIAL_STRESS, true);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public void setInitialStress(double newInitialStress) {
-		eSet(Ifc2x3tc1Package.Literals.IFC_RELAXATION__INITIAL_STRESS, newInitialStress);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public void setInitialStress(double newInitialStress) {
+        eSet(Ifc2x3tc1Package.Literals.IFC_RELAXATION__INITIAL_STRESS, newInitialStress);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public String getInitialStressAsString() {
-		return (String) eGet(Ifc2x3tc1Package.Literals.IFC_RELAXATION__INITIAL_STRESS_AS_STRING, true);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public String getInitialStressAsString() {
+        return (String) eGet(Ifc2x3tc1Package.Literals.IFC_RELAXATION__INITIAL_STRESS_AS_STRING, true);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public void setInitialStressAsString(String newInitialStressAsString) {
-		eSet(Ifc2x3tc1Package.Literals.IFC_RELAXATION__INITIAL_STRESS_AS_STRING, newInitialStressAsString);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public void setInitialStressAsString(String newInitialStressAsString) {
+        eSet(Ifc2x3tc1Package.Literals.IFC_RELAXATION__INITIAL_STRESS_AS_STRING, newInitialStressAsString);
+    }
 
 } //IfcRelaxationImpl

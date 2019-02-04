@@ -18,6 +18,7 @@ package org.bimserver.models.ifc2x3tc1.impl;
 
 import org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package;
 import org.bimserver.models.ifc2x3tc1.IfcLaborResource;
+
 import org.eclipse.emf.ecore.EClass;
 
 /**
@@ -26,67 +27,67 @@ import org.eclipse.emf.ecore.EClass;
  * <!-- end-user-doc -->
  * <p>
  * The following features are implemented:
+ * </p>
  * <ul>
  *   <li>{@link org.bimserver.models.ifc2x3tc1.impl.IfcLaborResourceImpl#getSkillSet <em>Skill Set</em>}</li>
  * </ul>
- * </p>
  *
  * @generated
  */
 public class IfcLaborResourceImpl extends IfcConstructionResourceImpl implements IfcLaborResource {
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	protected IfcLaborResourceImpl() {
-		super();
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    protected IfcLaborResourceImpl() {
+        super();
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	@Override
-	protected EClass eStaticClass() {
-		return Ifc2x3tc1Package.Literals.IFC_LABOR_RESOURCE;
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    @Override
+    protected EClass eStaticClass() {
+        return Ifc2x3tc1Package.Literals.IFC_LABOR_RESOURCE;
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public String getSkillSet() {
-		return (String) eGet(Ifc2x3tc1Package.Literals.IFC_LABOR_RESOURCE__SKILL_SET, true);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public String getSkillSet() {
+        return (String) eGet(Ifc2x3tc1Package.Literals.IFC_LABOR_RESOURCE__SKILL_SET, true);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public void setSkillSet(String newSkillSet) {
-		eSet(Ifc2x3tc1Package.Literals.IFC_LABOR_RESOURCE__SKILL_SET, newSkillSet);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public void setSkillSet(String newSkillSet) {
+        eSet(Ifc2x3tc1Package.Literals.IFC_LABOR_RESOURCE__SKILL_SET, newSkillSet);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public void unsetSkillSet() {
-		eUnset(Ifc2x3tc1Package.Literals.IFC_LABOR_RESOURCE__SKILL_SET);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public void unsetSkillSet() {
+        eUnset(Ifc2x3tc1Package.Literals.IFC_LABOR_RESOURCE__SKILL_SET);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public boolean isSetSkillSet() {
-		return eIsSet(Ifc2x3tc1Package.Literals.IFC_LABOR_RESOURCE__SKILL_SET);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public boolean isSetSkillSet() {
+        return eIsSet(Ifc2x3tc1Package.Literals.IFC_LABOR_RESOURCE__SKILL_SET);
+    }
 
 } //IfcLaborResourceImpl

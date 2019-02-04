@@ -17,6 +17,7 @@
 package org.bimserver.models.ifc2x3tc1;
 
 import org.bimserver.emf.IdEObject;
+
 import org.eclipse.emf.common.util.EList;
 
 /**
@@ -26,12 +27,12 @@ import org.eclipse.emf.common.util.EList;
  *
  * <p>
  * The following features are supported:
+ * </p>
  * <ul>
  *   <li>{@link org.bimserver.models.ifc2x3tc1.IfcRepresentationMap#getMappingOrigin <em>Mapping Origin</em>}</li>
  *   <li>{@link org.bimserver.models.ifc2x3tc1.IfcRepresentationMap#getMappedRepresentation <em>Mapped Representation</em>}</li>
  *   <li>{@link org.bimserver.models.ifc2x3tc1.IfcRepresentationMap#getMapUsage <em>Map Usage</em>}</li>
  * </ul>
- * </p>
  *
  * @see org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package#getIfcRepresentationMap()
  * @model
@@ -39,99 +40,99 @@ import org.eclipse.emf.common.util.EList;
  * @generated
  */
 public interface IfcRepresentationMap extends IdEObject {
-	/**
-	 * Returns the value of the '<em><b>Mapping Origin</b></em>' reference.
-	 * <!-- begin-user-doc -->
-	 * <p>
-	 * If the meaning of the '<em>Mapping Origin</em>' reference isn't clear,
-	 * there really should be more of a description here...
-	 * </p>
-	 * <!-- end-user-doc -->
-	 * @return the value of the '<em>Mapping Origin</em>' reference.
-	 * @see #setMappingOrigin(IfcAxis2Placement)
-	 * @see org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package#getIfcRepresentationMap_MappingOrigin()
-	 * @model
-	 * @generated
-	 */
-	IfcAxis2Placement getMappingOrigin();
+    /**
+     * Returns the value of the '<em><b>Mapping Origin</b></em>' reference.
+     * <!-- begin-user-doc -->
+     * <p>
+     * If the meaning of the '<em>Mapping Origin</em>' reference isn't clear,
+     * there really should be more of a description here...
+     * </p>
+     * <!-- end-user-doc -->
+     * @return the value of the '<em>Mapping Origin</em>' reference.
+     * @see #setMappingOrigin(IfcAxis2Placement)
+     * @see org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package#getIfcRepresentationMap_MappingOrigin()
+     * @model
+     * @generated
+     */
+    IfcAxis2Placement getMappingOrigin();
 
-	/**
-	 * Sets the value of the '{@link org.bimserver.models.ifc2x3tc1.IfcRepresentationMap#getMappingOrigin <em>Mapping Origin</em>}' reference.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @param value the new value of the '<em>Mapping Origin</em>' reference.
-	 * @see #getMappingOrigin()
-	 * @generated
-	 */
-	void setMappingOrigin(IfcAxis2Placement value);
+    /**
+     * Sets the value of the '{@link org.bimserver.models.ifc2x3tc1.IfcRepresentationMap#getMappingOrigin <em>Mapping Origin</em>}' reference.
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @param value the new value of the '<em>Mapping Origin</em>' reference.
+     * @see #getMappingOrigin()
+     * @generated
+     */
+    void setMappingOrigin(IfcAxis2Placement value);
 
-	/**
-	 * Returns the value of the '<em><b>Mapped Representation</b></em>' reference.
-	 * It is bidirectional and its opposite is '{@link org.bimserver.models.ifc2x3tc1.IfcRepresentation#getRepresentationMap <em>Representation Map</em>}'.
-	 * <!-- begin-user-doc -->
-	 * <p>
-	 * If the meaning of the '<em>Mapped Representation</em>' reference isn't clear,
-	 * there really should be more of a description here...
-	 * </p>
-	 * <!-- end-user-doc -->
-	 * @return the value of the '<em>Mapped Representation</em>' reference.
-	 * @see #setMappedRepresentation(IfcRepresentation)
-	 * @see org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package#getIfcRepresentationMap_MappedRepresentation()
-	 * @see org.bimserver.models.ifc2x3tc1.IfcRepresentation#getRepresentationMap
-	 * @model opposite="RepresentationMap"
-	 * @generated
-	 */
-	IfcRepresentation getMappedRepresentation();
+    /**
+     * Returns the value of the '<em><b>Mapped Representation</b></em>' reference.
+     * It is bidirectional and its opposite is '{@link org.bimserver.models.ifc2x3tc1.IfcRepresentation#getRepresentationMap <em>Representation Map</em>}'.
+     * <!-- begin-user-doc -->
+     * <p>
+     * If the meaning of the '<em>Mapped Representation</em>' reference isn't clear,
+     * there really should be more of a description here...
+     * </p>
+     * <!-- end-user-doc -->
+     * @return the value of the '<em>Mapped Representation</em>' reference.
+     * @see #setMappedRepresentation(IfcRepresentation)
+     * @see org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package#getIfcRepresentationMap_MappedRepresentation()
+     * @see org.bimserver.models.ifc2x3tc1.IfcRepresentation#getRepresentationMap
+     * @model opposite="RepresentationMap"
+     * @generated
+     */
+    IfcRepresentation getMappedRepresentation();
 
-	/**
-	 * Sets the value of the '{@link org.bimserver.models.ifc2x3tc1.IfcRepresentationMap#getMappedRepresentation <em>Mapped Representation</em>}' reference.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @param value the new value of the '<em>Mapped Representation</em>' reference.
-	 * @see #getMappedRepresentation()
-	 * @generated
-	 */
-	void setMappedRepresentation(IfcRepresentation value);
+    /**
+     * Sets the value of the '{@link org.bimserver.models.ifc2x3tc1.IfcRepresentationMap#getMappedRepresentation <em>Mapped Representation</em>}' reference.
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @param value the new value of the '<em>Mapped Representation</em>' reference.
+     * @see #getMappedRepresentation()
+     * @generated
+     */
+    void setMappedRepresentation(IfcRepresentation value);
 
-	/**
-	 * Returns the value of the '<em><b>Map Usage</b></em>' reference list.
-	 * The list contents are of type {@link org.bimserver.models.ifc2x3tc1.IfcMappedItem}.
-	 * It is bidirectional and its opposite is '{@link org.bimserver.models.ifc2x3tc1.IfcMappedItem#getMappingSource <em>Mapping Source</em>}'.
-	 * <!-- begin-user-doc -->
-	 * <p>
-	 * If the meaning of the '<em>Map Usage</em>' reference list isn't clear,
-	 * there really should be more of a description here...
-	 * </p>
-	 * <!-- end-user-doc -->
-	 * @return the value of the '<em>Map Usage</em>' reference list.
-	 * @see #isSetMapUsage()
-	 * @see #unsetMapUsage()
-	 * @see org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package#getIfcRepresentationMap_MapUsage()
-	 * @see org.bimserver.models.ifc2x3tc1.IfcMappedItem#getMappingSource
-	 * @model opposite="MappingSource" unsettable="true"
-	 * @generated
-	 */
-	EList<IfcMappedItem> getMapUsage();
+    /**
+     * Returns the value of the '<em><b>Map Usage</b></em>' reference list.
+     * The list contents are of type {@link org.bimserver.models.ifc2x3tc1.IfcMappedItem}.
+     * It is bidirectional and its opposite is '{@link org.bimserver.models.ifc2x3tc1.IfcMappedItem#getMappingSource <em>Mapping Source</em>}'.
+     * <!-- begin-user-doc -->
+     * <p>
+     * If the meaning of the '<em>Map Usage</em>' reference list isn't clear,
+     * there really should be more of a description here...
+     * </p>
+     * <!-- end-user-doc -->
+     * @return the value of the '<em>Map Usage</em>' reference list.
+     * @see #isSetMapUsage()
+     * @see #unsetMapUsage()
+     * @see org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package#getIfcRepresentationMap_MapUsage()
+     * @see org.bimserver.models.ifc2x3tc1.IfcMappedItem#getMappingSource
+     * @model opposite="MappingSource" unsettable="true"
+     * @generated
+     */
+    EList<IfcMappedItem> getMapUsage();
 
-	/**
-	 * Unsets the value of the '{@link org.bimserver.models.ifc2x3tc1.IfcRepresentationMap#getMapUsage <em>Map Usage</em>}' reference list.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @see #isSetMapUsage()
-	 * @see #getMapUsage()
-	 * @generated
-	 */
-	void unsetMapUsage();
+    /**
+     * Unsets the value of the '{@link org.bimserver.models.ifc2x3tc1.IfcRepresentationMap#getMapUsage <em>Map Usage</em>}' reference list.
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @see #isSetMapUsage()
+     * @see #getMapUsage()
+     * @generated
+     */
+    void unsetMapUsage();
 
-	/**
-	 * Returns whether the value of the '{@link org.bimserver.models.ifc2x3tc1.IfcRepresentationMap#getMapUsage <em>Map Usage</em>}' reference list is set.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @return whether the value of the '<em>Map Usage</em>' reference list is set.
-	 * @see #unsetMapUsage()
-	 * @see #getMapUsage()
-	 * @generated
-	 */
-	boolean isSetMapUsage();
+    /**
+     * Returns whether the value of the '{@link org.bimserver.models.ifc2x3tc1.IfcRepresentationMap#getMapUsage <em>Map Usage</em>}' reference list is set.
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @return whether the value of the '<em>Map Usage</em>' reference list is set.
+     * @see #unsetMapUsage()
+     * @see #getMapUsage()
+     * @generated
+     */
+    boolean isSetMapUsage();
 
 } // IfcRepresentationMap

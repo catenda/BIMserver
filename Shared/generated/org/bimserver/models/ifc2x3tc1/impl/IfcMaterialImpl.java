@@ -17,11 +17,14 @@
 package org.bimserver.models.ifc2x3tc1.impl;
 
 import org.bimserver.emf.IdEObjectImpl;
+
 import org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package;
 import org.bimserver.models.ifc2x3tc1.IfcMaterial;
 import org.bimserver.models.ifc2x3tc1.IfcMaterialClassificationRelationship;
 import org.bimserver.models.ifc2x3tc1.IfcMaterialDefinitionRepresentation;
+
 import org.eclipse.emf.common.util.EList;
+
 import org.eclipse.emf.ecore.EClass;
 
 /**
@@ -30,117 +33,119 @@ import org.eclipse.emf.ecore.EClass;
  * <!-- end-user-doc -->
  * <p>
  * The following features are implemented:
+ * </p>
  * <ul>
  *   <li>{@link org.bimserver.models.ifc2x3tc1.impl.IfcMaterialImpl#getName <em>Name</em>}</li>
  *   <li>{@link org.bimserver.models.ifc2x3tc1.impl.IfcMaterialImpl#getHasRepresentation <em>Has Representation</em>}</li>
  *   <li>{@link org.bimserver.models.ifc2x3tc1.impl.IfcMaterialImpl#getClassifiedAs <em>Classified As</em>}</li>
  * </ul>
- * </p>
  *
  * @generated
  */
 public class IfcMaterialImpl extends IdEObjectImpl implements IfcMaterial {
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	protected IfcMaterialImpl() {
-		super();
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    protected IfcMaterialImpl() {
+        super();
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	@Override
-	protected EClass eStaticClass() {
-		return Ifc2x3tc1Package.Literals.IFC_MATERIAL;
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    @Override
+    protected EClass eStaticClass() {
+        return Ifc2x3tc1Package.Literals.IFC_MATERIAL;
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	@Override
-	protected int eStaticFeatureCount() {
-		return 0;
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    @Override
+    protected int eStaticFeatureCount() {
+        return 0;
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public String getName() {
-		return (String) eGet(Ifc2x3tc1Package.Literals.IFC_MATERIAL__NAME, true);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public String getName() {
+        return (String) eGet(Ifc2x3tc1Package.Literals.IFC_MATERIAL__NAME, true);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public void setName(String newName) {
-		eSet(Ifc2x3tc1Package.Literals.IFC_MATERIAL__NAME, newName);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public void setName(String newName) {
+        eSet(Ifc2x3tc1Package.Literals.IFC_MATERIAL__NAME, newName);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	@SuppressWarnings("unchecked")
-	public EList<IfcMaterialDefinitionRepresentation> getHasRepresentation() {
-		return (EList<IfcMaterialDefinitionRepresentation>) eGet(Ifc2x3tc1Package.Literals.IFC_MATERIAL__HAS_REPRESENTATION, true);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    @SuppressWarnings("unchecked")
+    public EList<IfcMaterialDefinitionRepresentation> getHasRepresentation() {
+        return (EList<IfcMaterialDefinitionRepresentation>) eGet(
+                Ifc2x3tc1Package.Literals.IFC_MATERIAL__HAS_REPRESENTATION, true);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public void unsetHasRepresentation() {
-		eUnset(Ifc2x3tc1Package.Literals.IFC_MATERIAL__HAS_REPRESENTATION);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public void unsetHasRepresentation() {
+        eUnset(Ifc2x3tc1Package.Literals.IFC_MATERIAL__HAS_REPRESENTATION);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public boolean isSetHasRepresentation() {
-		return eIsSet(Ifc2x3tc1Package.Literals.IFC_MATERIAL__HAS_REPRESENTATION);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public boolean isSetHasRepresentation() {
+        return eIsSet(Ifc2x3tc1Package.Literals.IFC_MATERIAL__HAS_REPRESENTATION);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	@SuppressWarnings("unchecked")
-	public EList<IfcMaterialClassificationRelationship> getClassifiedAs() {
-		return (EList<IfcMaterialClassificationRelationship>) eGet(Ifc2x3tc1Package.Literals.IFC_MATERIAL__CLASSIFIED_AS, true);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    @SuppressWarnings("unchecked")
+    public EList<IfcMaterialClassificationRelationship> getClassifiedAs() {
+        return (EList<IfcMaterialClassificationRelationship>) eGet(
+                Ifc2x3tc1Package.Literals.IFC_MATERIAL__CLASSIFIED_AS, true);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public void unsetClassifiedAs() {
-		eUnset(Ifc2x3tc1Package.Literals.IFC_MATERIAL__CLASSIFIED_AS);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public void unsetClassifiedAs() {
+        eUnset(Ifc2x3tc1Package.Literals.IFC_MATERIAL__CLASSIFIED_AS);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public boolean isSetClassifiedAs() {
-		return eIsSet(Ifc2x3tc1Package.Literals.IFC_MATERIAL__CLASSIFIED_AS);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public boolean isSetClassifiedAs() {
+        return eIsSet(Ifc2x3tc1Package.Literals.IFC_MATERIAL__CLASSIFIED_AS);
+    }
 
 } //IfcMaterialImpl

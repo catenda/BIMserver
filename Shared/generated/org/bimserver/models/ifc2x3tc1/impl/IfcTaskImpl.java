@@ -19,6 +19,7 @@ package org.bimserver.models.ifc2x3tc1.impl;
 import org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package;
 import org.bimserver.models.ifc2x3tc1.IfcTask;
 import org.bimserver.models.ifc2x3tc1.Tristate;
+
 import org.eclipse.emf.ecore.EClass;
 
 /**
@@ -27,6 +28,7 @@ import org.eclipse.emf.ecore.EClass;
  * <!-- end-user-doc -->
  * <p>
  * The following features are implemented:
+ * </p>
  * <ul>
  *   <li>{@link org.bimserver.models.ifc2x3tc1.impl.IfcTaskImpl#getTaskId <em>Task Id</em>}</li>
  *   <li>{@link org.bimserver.models.ifc2x3tc1.impl.IfcTaskImpl#getStatus <em>Status</em>}</li>
@@ -34,172 +36,171 @@ import org.eclipse.emf.ecore.EClass;
  *   <li>{@link org.bimserver.models.ifc2x3tc1.impl.IfcTaskImpl#getIsMilestone <em>Is Milestone</em>}</li>
  *   <li>{@link org.bimserver.models.ifc2x3tc1.impl.IfcTaskImpl#getPriority <em>Priority</em>}</li>
  * </ul>
- * </p>
  *
  * @generated
  */
 public class IfcTaskImpl extends IfcProcessImpl implements IfcTask {
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	protected IfcTaskImpl() {
-		super();
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    protected IfcTaskImpl() {
+        super();
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	@Override
-	protected EClass eStaticClass() {
-		return Ifc2x3tc1Package.Literals.IFC_TASK;
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    @Override
+    protected EClass eStaticClass() {
+        return Ifc2x3tc1Package.Literals.IFC_TASK;
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public String getTaskId() {
-		return (String) eGet(Ifc2x3tc1Package.Literals.IFC_TASK__TASK_ID, true);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public String getTaskId() {
+        return (String) eGet(Ifc2x3tc1Package.Literals.IFC_TASK__TASK_ID, true);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public void setTaskId(String newTaskId) {
-		eSet(Ifc2x3tc1Package.Literals.IFC_TASK__TASK_ID, newTaskId);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public void setTaskId(String newTaskId) {
+        eSet(Ifc2x3tc1Package.Literals.IFC_TASK__TASK_ID, newTaskId);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public String getStatus() {
-		return (String) eGet(Ifc2x3tc1Package.Literals.IFC_TASK__STATUS, true);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public String getStatus() {
+        return (String) eGet(Ifc2x3tc1Package.Literals.IFC_TASK__STATUS, true);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public void setStatus(String newStatus) {
-		eSet(Ifc2x3tc1Package.Literals.IFC_TASK__STATUS, newStatus);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public void setStatus(String newStatus) {
+        eSet(Ifc2x3tc1Package.Literals.IFC_TASK__STATUS, newStatus);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public void unsetStatus() {
-		eUnset(Ifc2x3tc1Package.Literals.IFC_TASK__STATUS);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public void unsetStatus() {
+        eUnset(Ifc2x3tc1Package.Literals.IFC_TASK__STATUS);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public boolean isSetStatus() {
-		return eIsSet(Ifc2x3tc1Package.Literals.IFC_TASK__STATUS);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public boolean isSetStatus() {
+        return eIsSet(Ifc2x3tc1Package.Literals.IFC_TASK__STATUS);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public String getWorkMethod() {
-		return (String) eGet(Ifc2x3tc1Package.Literals.IFC_TASK__WORK_METHOD, true);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public String getWorkMethod() {
+        return (String) eGet(Ifc2x3tc1Package.Literals.IFC_TASK__WORK_METHOD, true);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public void setWorkMethod(String newWorkMethod) {
-		eSet(Ifc2x3tc1Package.Literals.IFC_TASK__WORK_METHOD, newWorkMethod);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public void setWorkMethod(String newWorkMethod) {
+        eSet(Ifc2x3tc1Package.Literals.IFC_TASK__WORK_METHOD, newWorkMethod);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public void unsetWorkMethod() {
-		eUnset(Ifc2x3tc1Package.Literals.IFC_TASK__WORK_METHOD);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public void unsetWorkMethod() {
+        eUnset(Ifc2x3tc1Package.Literals.IFC_TASK__WORK_METHOD);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public boolean isSetWorkMethod() {
-		return eIsSet(Ifc2x3tc1Package.Literals.IFC_TASK__WORK_METHOD);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public boolean isSetWorkMethod() {
+        return eIsSet(Ifc2x3tc1Package.Literals.IFC_TASK__WORK_METHOD);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public Tristate getIsMilestone() {
-		return (Tristate) eGet(Ifc2x3tc1Package.Literals.IFC_TASK__IS_MILESTONE, true);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public Tristate getIsMilestone() {
+        return (Tristate) eGet(Ifc2x3tc1Package.Literals.IFC_TASK__IS_MILESTONE, true);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public void setIsMilestone(Tristate newIsMilestone) {
-		eSet(Ifc2x3tc1Package.Literals.IFC_TASK__IS_MILESTONE, newIsMilestone);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public void setIsMilestone(Tristate newIsMilestone) {
+        eSet(Ifc2x3tc1Package.Literals.IFC_TASK__IS_MILESTONE, newIsMilestone);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public int getPriority() {
-		return (Integer) eGet(Ifc2x3tc1Package.Literals.IFC_TASK__PRIORITY, true);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public long getPriority() {
+        return (Long) eGet(Ifc2x3tc1Package.Literals.IFC_TASK__PRIORITY, true);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public void setPriority(int newPriority) {
-		eSet(Ifc2x3tc1Package.Literals.IFC_TASK__PRIORITY, newPriority);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public void setPriority(long newPriority) {
+        eSet(Ifc2x3tc1Package.Literals.IFC_TASK__PRIORITY, newPriority);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public void unsetPriority() {
-		eUnset(Ifc2x3tc1Package.Literals.IFC_TASK__PRIORITY);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public void unsetPriority() {
+        eUnset(Ifc2x3tc1Package.Literals.IFC_TASK__PRIORITY);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public boolean isSetPriority() {
-		return eIsSet(Ifc2x3tc1Package.Literals.IFC_TASK__PRIORITY);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public boolean isSetPriority() {
+        return eIsSet(Ifc2x3tc1Package.Literals.IFC_TASK__PRIORITY);
+    }
 
 } //IfcTaskImpl

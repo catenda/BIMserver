@@ -19,6 +19,7 @@ package org.bimserver.models.ifc2x3tc1.impl;
 import org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package;
 import org.bimserver.models.ifc2x3tc1.IfcArbitraryOpenProfileDef;
 import org.bimserver.models.ifc2x3tc1.IfcBoundedCurve;
+
 import org.eclipse.emf.ecore.EClass;
 
 /**
@@ -27,49 +28,49 @@ import org.eclipse.emf.ecore.EClass;
  * <!-- end-user-doc -->
  * <p>
  * The following features are implemented:
+ * </p>
  * <ul>
  *   <li>{@link org.bimserver.models.ifc2x3tc1.impl.IfcArbitraryOpenProfileDefImpl#getCurve <em>Curve</em>}</li>
  * </ul>
- * </p>
  *
  * @generated
  */
 public class IfcArbitraryOpenProfileDefImpl extends IfcProfileDefImpl implements IfcArbitraryOpenProfileDef {
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	protected IfcArbitraryOpenProfileDefImpl() {
-		super();
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    protected IfcArbitraryOpenProfileDefImpl() {
+        super();
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	@Override
-	protected EClass eStaticClass() {
-		return Ifc2x3tc1Package.Literals.IFC_ARBITRARY_OPEN_PROFILE_DEF;
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    @Override
+    protected EClass eStaticClass() {
+        return Ifc2x3tc1Package.Literals.IFC_ARBITRARY_OPEN_PROFILE_DEF;
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public IfcBoundedCurve getCurve() {
-		return (IfcBoundedCurve) eGet(Ifc2x3tc1Package.Literals.IFC_ARBITRARY_OPEN_PROFILE_DEF__CURVE, true);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public IfcBoundedCurve getCurve() {
+        return (IfcBoundedCurve) eGet(Ifc2x3tc1Package.Literals.IFC_ARBITRARY_OPEN_PROFILE_DEF__CURVE, true);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public void setCurve(IfcBoundedCurve newCurve) {
-		eSet(Ifc2x3tc1Package.Literals.IFC_ARBITRARY_OPEN_PROFILE_DEF__CURVE, newCurve);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public void setCurve(IfcBoundedCurve newCurve) {
+        eSet(Ifc2x3tc1Package.Literals.IFC_ARBITRARY_OPEN_PROFILE_DEF__CURVE, newCurve);
+    }
 
 } //IfcArbitraryOpenProfileDefImpl

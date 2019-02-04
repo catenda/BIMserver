@@ -20,6 +20,7 @@ import org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package;
 import org.bimserver.models.ifc2x3tc1.IfcAxis2Placement;
 import org.bimserver.models.ifc2x3tc1.IfcLocalPlacement;
 import org.bimserver.models.ifc2x3tc1.IfcObjectPlacement;
+
 import org.eclipse.emf.ecore.EClass;
 
 /**
@@ -28,86 +29,86 @@ import org.eclipse.emf.ecore.EClass;
  * <!-- end-user-doc -->
  * <p>
  * The following features are implemented:
+ * </p>
  * <ul>
  *   <li>{@link org.bimserver.models.ifc2x3tc1.impl.IfcLocalPlacementImpl#getPlacementRelTo <em>Placement Rel To</em>}</li>
  *   <li>{@link org.bimserver.models.ifc2x3tc1.impl.IfcLocalPlacementImpl#getRelativePlacement <em>Relative Placement</em>}</li>
  * </ul>
- * </p>
  *
  * @generated
  */
 public class IfcLocalPlacementImpl extends IfcObjectPlacementImpl implements IfcLocalPlacement {
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	protected IfcLocalPlacementImpl() {
-		super();
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    protected IfcLocalPlacementImpl() {
+        super();
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	@Override
-	protected EClass eStaticClass() {
-		return Ifc2x3tc1Package.Literals.IFC_LOCAL_PLACEMENT;
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    @Override
+    protected EClass eStaticClass() {
+        return Ifc2x3tc1Package.Literals.IFC_LOCAL_PLACEMENT;
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public IfcObjectPlacement getPlacementRelTo() {
-		return (IfcObjectPlacement) eGet(Ifc2x3tc1Package.Literals.IFC_LOCAL_PLACEMENT__PLACEMENT_REL_TO, true);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public IfcObjectPlacement getPlacementRelTo() {
+        return (IfcObjectPlacement) eGet(Ifc2x3tc1Package.Literals.IFC_LOCAL_PLACEMENT__PLACEMENT_REL_TO, true);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public void setPlacementRelTo(IfcObjectPlacement newPlacementRelTo) {
-		eSet(Ifc2x3tc1Package.Literals.IFC_LOCAL_PLACEMENT__PLACEMENT_REL_TO, newPlacementRelTo);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public void setPlacementRelTo(IfcObjectPlacement newPlacementRelTo) {
+        eSet(Ifc2x3tc1Package.Literals.IFC_LOCAL_PLACEMENT__PLACEMENT_REL_TO, newPlacementRelTo);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public void unsetPlacementRelTo() {
-		eUnset(Ifc2x3tc1Package.Literals.IFC_LOCAL_PLACEMENT__PLACEMENT_REL_TO);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public void unsetPlacementRelTo() {
+        eUnset(Ifc2x3tc1Package.Literals.IFC_LOCAL_PLACEMENT__PLACEMENT_REL_TO);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public boolean isSetPlacementRelTo() {
-		return eIsSet(Ifc2x3tc1Package.Literals.IFC_LOCAL_PLACEMENT__PLACEMENT_REL_TO);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public boolean isSetPlacementRelTo() {
+        return eIsSet(Ifc2x3tc1Package.Literals.IFC_LOCAL_PLACEMENT__PLACEMENT_REL_TO);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public IfcAxis2Placement getRelativePlacement() {
-		return (IfcAxis2Placement) eGet(Ifc2x3tc1Package.Literals.IFC_LOCAL_PLACEMENT__RELATIVE_PLACEMENT, true);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public IfcAxis2Placement getRelativePlacement() {
+        return (IfcAxis2Placement) eGet(Ifc2x3tc1Package.Literals.IFC_LOCAL_PLACEMENT__RELATIVE_PLACEMENT, true);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public void setRelativePlacement(IfcAxis2Placement newRelativePlacement) {
-		eSet(Ifc2x3tc1Package.Literals.IFC_LOCAL_PLACEMENT__RELATIVE_PLACEMENT, newRelativePlacement);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public void setRelativePlacement(IfcAxis2Placement newRelativePlacement) {
+        eSet(Ifc2x3tc1Package.Literals.IFC_LOCAL_PLACEMENT__RELATIVE_PLACEMENT, newRelativePlacement);
+    }
 
 } //IfcLocalPlacementImpl

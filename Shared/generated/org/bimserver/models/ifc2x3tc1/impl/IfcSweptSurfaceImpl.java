@@ -20,6 +20,7 @@ import org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package;
 import org.bimserver.models.ifc2x3tc1.IfcAxis2Placement3D;
 import org.bimserver.models.ifc2x3tc1.IfcProfileDef;
 import org.bimserver.models.ifc2x3tc1.IfcSweptSurface;
+
 import org.eclipse.emf.ecore.EClass;
 
 /**
@@ -28,105 +29,105 @@ import org.eclipse.emf.ecore.EClass;
  * <!-- end-user-doc -->
  * <p>
  * The following features are implemented:
+ * </p>
  * <ul>
  *   <li>{@link org.bimserver.models.ifc2x3tc1.impl.IfcSweptSurfaceImpl#getSweptCurve <em>Swept Curve</em>}</li>
  *   <li>{@link org.bimserver.models.ifc2x3tc1.impl.IfcSweptSurfaceImpl#getPosition <em>Position</em>}</li>
  *   <li>{@link org.bimserver.models.ifc2x3tc1.impl.IfcSweptSurfaceImpl#getDim <em>Dim</em>}</li>
  * </ul>
- * </p>
  *
  * @generated
  */
 public class IfcSweptSurfaceImpl extends IfcSurfaceImpl implements IfcSweptSurface {
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	protected IfcSweptSurfaceImpl() {
-		super();
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    protected IfcSweptSurfaceImpl() {
+        super();
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	@Override
-	protected EClass eStaticClass() {
-		return Ifc2x3tc1Package.Literals.IFC_SWEPT_SURFACE;
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    @Override
+    protected EClass eStaticClass() {
+        return Ifc2x3tc1Package.Literals.IFC_SWEPT_SURFACE;
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public IfcProfileDef getSweptCurve() {
-		return (IfcProfileDef) eGet(Ifc2x3tc1Package.Literals.IFC_SWEPT_SURFACE__SWEPT_CURVE, true);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public IfcProfileDef getSweptCurve() {
+        return (IfcProfileDef) eGet(Ifc2x3tc1Package.Literals.IFC_SWEPT_SURFACE__SWEPT_CURVE, true);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public void setSweptCurve(IfcProfileDef newSweptCurve) {
-		eSet(Ifc2x3tc1Package.Literals.IFC_SWEPT_SURFACE__SWEPT_CURVE, newSweptCurve);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public void setSweptCurve(IfcProfileDef newSweptCurve) {
+        eSet(Ifc2x3tc1Package.Literals.IFC_SWEPT_SURFACE__SWEPT_CURVE, newSweptCurve);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public IfcAxis2Placement3D getPosition() {
-		return (IfcAxis2Placement3D) eGet(Ifc2x3tc1Package.Literals.IFC_SWEPT_SURFACE__POSITION, true);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public IfcAxis2Placement3D getPosition() {
+        return (IfcAxis2Placement3D) eGet(Ifc2x3tc1Package.Literals.IFC_SWEPT_SURFACE__POSITION, true);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public void setPosition(IfcAxis2Placement3D newPosition) {
-		eSet(Ifc2x3tc1Package.Literals.IFC_SWEPT_SURFACE__POSITION, newPosition);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public void setPosition(IfcAxis2Placement3D newPosition) {
+        eSet(Ifc2x3tc1Package.Literals.IFC_SWEPT_SURFACE__POSITION, newPosition);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public int getDim() {
-		return (Integer) eGet(Ifc2x3tc1Package.Literals.IFC_SWEPT_SURFACE__DIM, true);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public long getDim() {
+        return (Long) eGet(Ifc2x3tc1Package.Literals.IFC_SWEPT_SURFACE__DIM, true);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public void setDim(int newDim) {
-		eSet(Ifc2x3tc1Package.Literals.IFC_SWEPT_SURFACE__DIM, newDim);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public void setDim(long newDim) {
+        eSet(Ifc2x3tc1Package.Literals.IFC_SWEPT_SURFACE__DIM, newDim);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public void unsetDim() {
-		eUnset(Ifc2x3tc1Package.Literals.IFC_SWEPT_SURFACE__DIM);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public void unsetDim() {
+        eUnset(Ifc2x3tc1Package.Literals.IFC_SWEPT_SURFACE__DIM);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public boolean isSetDim() {
-		return eIsSet(Ifc2x3tc1Package.Literals.IFC_SWEPT_SURFACE__DIM);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public boolean isSetDim() {
+        return eIsSet(Ifc2x3tc1Package.Literals.IFC_SWEPT_SURFACE__DIM);
+    }
 
 } //IfcSweptSurfaceImpl

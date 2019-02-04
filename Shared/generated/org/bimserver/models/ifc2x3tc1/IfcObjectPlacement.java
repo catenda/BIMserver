@@ -17,6 +17,7 @@
 package org.bimserver.models.ifc2x3tc1;
 
 import org.bimserver.emf.IdEObject;
+
 import org.eclipse.emf.common.util.EList;
 
 /**
@@ -26,11 +27,11 @@ import org.eclipse.emf.common.util.EList;
  *
  * <p>
  * The following features are supported:
+ * </p>
  * <ul>
  *   <li>{@link org.bimserver.models.ifc2x3tc1.IfcObjectPlacement#getPlacesObject <em>Places Object</em>}</li>
  *   <li>{@link org.bimserver.models.ifc2x3tc1.IfcObjectPlacement#getReferencedByPlacements <em>Referenced By Placements</em>}</li>
  * </ul>
- * </p>
  *
  * @see org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package#getIfcObjectPlacement()
  * @model
@@ -38,86 +39,86 @@ import org.eclipse.emf.common.util.EList;
  * @generated
  */
 public interface IfcObjectPlacement extends IdEObject {
-	/**
-	 * Returns the value of the '<em><b>Places Object</b></em>' reference list.
-	 * The list contents are of type {@link org.bimserver.models.ifc2x3tc1.IfcProduct}.
-	 * It is bidirectional and its opposite is '{@link org.bimserver.models.ifc2x3tc1.IfcProduct#getObjectPlacement <em>Object Placement</em>}'.
-	 * <!-- begin-user-doc -->
-	 * <p>
-	 * If the meaning of the '<em>Places Object</em>' reference list isn't clear,
-	 * there really should be more of a description here...
-	 * </p>
-	 * <!-- end-user-doc -->
-	 * @return the value of the '<em>Places Object</em>' reference list.
-	 * @see #isSetPlacesObject()
-	 * @see #unsetPlacesObject()
-	 * @see org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package#getIfcObjectPlacement_PlacesObject()
-	 * @see org.bimserver.models.ifc2x3tc1.IfcProduct#getObjectPlacement
-	 * @model opposite="ObjectPlacement" unsettable="true" upper="2"
-	 * @generated
-	 */
-	EList<IfcProduct> getPlacesObject();
+    /**
+     * Returns the value of the '<em><b>Places Object</b></em>' reference list.
+     * The list contents are of type {@link org.bimserver.models.ifc2x3tc1.IfcProduct}.
+     * It is bidirectional and its opposite is '{@link org.bimserver.models.ifc2x3tc1.IfcProduct#getObjectPlacement <em>Object Placement</em>}'.
+     * <!-- begin-user-doc -->
+     * <p>
+     * If the meaning of the '<em>Places Object</em>' reference list isn't clear,
+     * there really should be more of a description here...
+     * </p>
+     * <!-- end-user-doc -->
+     * @return the value of the '<em>Places Object</em>' reference list.
+     * @see #isSetPlacesObject()
+     * @see #unsetPlacesObject()
+     * @see org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package#getIfcObjectPlacement_PlacesObject()
+     * @see org.bimserver.models.ifc2x3tc1.IfcProduct#getObjectPlacement
+     * @model opposite="ObjectPlacement" unsettable="true" upper="2"
+     * @generated
+     */
+    EList<IfcProduct> getPlacesObject();
 
-	/**
-	 * Unsets the value of the '{@link org.bimserver.models.ifc2x3tc1.IfcObjectPlacement#getPlacesObject <em>Places Object</em>}' reference list.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @see #isSetPlacesObject()
-	 * @see #getPlacesObject()
-	 * @generated
-	 */
-	void unsetPlacesObject();
+    /**
+     * Unsets the value of the '{@link org.bimserver.models.ifc2x3tc1.IfcObjectPlacement#getPlacesObject <em>Places Object</em>}' reference list.
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @see #isSetPlacesObject()
+     * @see #getPlacesObject()
+     * @generated
+     */
+    void unsetPlacesObject();
 
-	/**
-	 * Returns whether the value of the '{@link org.bimserver.models.ifc2x3tc1.IfcObjectPlacement#getPlacesObject <em>Places Object</em>}' reference list is set.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @return whether the value of the '<em>Places Object</em>' reference list is set.
-	 * @see #unsetPlacesObject()
-	 * @see #getPlacesObject()
-	 * @generated
-	 */
-	boolean isSetPlacesObject();
+    /**
+     * Returns whether the value of the '{@link org.bimserver.models.ifc2x3tc1.IfcObjectPlacement#getPlacesObject <em>Places Object</em>}' reference list is set.
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @return whether the value of the '<em>Places Object</em>' reference list is set.
+     * @see #unsetPlacesObject()
+     * @see #getPlacesObject()
+     * @generated
+     */
+    boolean isSetPlacesObject();
 
-	/**
-	 * Returns the value of the '<em><b>Referenced By Placements</b></em>' reference list.
-	 * The list contents are of type {@link org.bimserver.models.ifc2x3tc1.IfcLocalPlacement}.
-	 * It is bidirectional and its opposite is '{@link org.bimserver.models.ifc2x3tc1.IfcLocalPlacement#getPlacementRelTo <em>Placement Rel To</em>}'.
-	 * <!-- begin-user-doc -->
-	 * <p>
-	 * If the meaning of the '<em>Referenced By Placements</em>' reference list isn't clear,
-	 * there really should be more of a description here...
-	 * </p>
-	 * <!-- end-user-doc -->
-	 * @return the value of the '<em>Referenced By Placements</em>' reference list.
-	 * @see #isSetReferencedByPlacements()
-	 * @see #unsetReferencedByPlacements()
-	 * @see org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package#getIfcObjectPlacement_ReferencedByPlacements()
-	 * @see org.bimserver.models.ifc2x3tc1.IfcLocalPlacement#getPlacementRelTo
-	 * @model opposite="PlacementRelTo" unsettable="true"
-	 * @generated
-	 */
-	EList<IfcLocalPlacement> getReferencedByPlacements();
+    /**
+     * Returns the value of the '<em><b>Referenced By Placements</b></em>' reference list.
+     * The list contents are of type {@link org.bimserver.models.ifc2x3tc1.IfcLocalPlacement}.
+     * It is bidirectional and its opposite is '{@link org.bimserver.models.ifc2x3tc1.IfcLocalPlacement#getPlacementRelTo <em>Placement Rel To</em>}'.
+     * <!-- begin-user-doc -->
+     * <p>
+     * If the meaning of the '<em>Referenced By Placements</em>' reference list isn't clear,
+     * there really should be more of a description here...
+     * </p>
+     * <!-- end-user-doc -->
+     * @return the value of the '<em>Referenced By Placements</em>' reference list.
+     * @see #isSetReferencedByPlacements()
+     * @see #unsetReferencedByPlacements()
+     * @see org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package#getIfcObjectPlacement_ReferencedByPlacements()
+     * @see org.bimserver.models.ifc2x3tc1.IfcLocalPlacement#getPlacementRelTo
+     * @model opposite="PlacementRelTo" unsettable="true"
+     * @generated
+     */
+    EList<IfcLocalPlacement> getReferencedByPlacements();
 
-	/**
-	 * Unsets the value of the '{@link org.bimserver.models.ifc2x3tc1.IfcObjectPlacement#getReferencedByPlacements <em>Referenced By Placements</em>}' reference list.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @see #isSetReferencedByPlacements()
-	 * @see #getReferencedByPlacements()
-	 * @generated
-	 */
-	void unsetReferencedByPlacements();
+    /**
+     * Unsets the value of the '{@link org.bimserver.models.ifc2x3tc1.IfcObjectPlacement#getReferencedByPlacements <em>Referenced By Placements</em>}' reference list.
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @see #isSetReferencedByPlacements()
+     * @see #getReferencedByPlacements()
+     * @generated
+     */
+    void unsetReferencedByPlacements();
 
-	/**
-	 * Returns whether the value of the '{@link org.bimserver.models.ifc2x3tc1.IfcObjectPlacement#getReferencedByPlacements <em>Referenced By Placements</em>}' reference list is set.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @return whether the value of the '<em>Referenced By Placements</em>' reference list is set.
-	 * @see #unsetReferencedByPlacements()
-	 * @see #getReferencedByPlacements()
-	 * @generated
-	 */
-	boolean isSetReferencedByPlacements();
+    /**
+     * Returns whether the value of the '{@link org.bimserver.models.ifc2x3tc1.IfcObjectPlacement#getReferencedByPlacements <em>Referenced By Placements</em>}' reference list is set.
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @return whether the value of the '<em>Referenced By Placements</em>' reference list is set.
+     * @see #unsetReferencedByPlacements()
+     * @see #getReferencedByPlacements()
+     * @generated
+     */
+    boolean isSetReferencedByPlacements();
 
 } // IfcObjectPlacement

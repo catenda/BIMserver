@@ -18,9 +18,12 @@ package org.bimserver.models.log.impl;
 
 import org.bimserver.models.log.LogPackage;
 import org.bimserver.models.log.RemoteServiceCalled;
+
 import org.bimserver.models.store.NotifictionResultEnum;
 import org.bimserver.models.store.Service;
+
 import org.eclipse.emf.common.util.EList;
+
 import org.eclipse.emf.ecore.EClass;
 
 /**
@@ -29,6 +32,7 @@ import org.eclipse.emf.ecore.EClass;
  * <!-- end-user-doc -->
  * <p>
  * The following features are implemented:
+ * </p>
  * <ul>
  *   <li>{@link org.bimserver.models.log.impl.RemoteServiceCalledImpl#getService <em>Service</em>}</li>
  *   <li>{@link org.bimserver.models.log.impl.RemoteServiceCalledImpl#getState <em>State</em>}</li>
@@ -37,112 +41,111 @@ import org.eclipse.emf.ecore.EClass;
  *   <li>{@link org.bimserver.models.log.impl.RemoteServiceCalledImpl#getWarnings <em>Warnings</em>}</li>
  *   <li>{@link org.bimserver.models.log.impl.RemoteServiceCalledImpl#getErrors <em>Errors</em>}</li>
  * </ul>
- * </p>
  *
  * @generated
  */
 public class RemoteServiceCalledImpl extends LogActionImpl implements RemoteServiceCalled {
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	protected RemoteServiceCalledImpl() {
-		super();
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    protected RemoteServiceCalledImpl() {
+        super();
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	@Override
-	protected EClass eStaticClass() {
-		return LogPackage.Literals.REMOTE_SERVICE_CALLED;
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    @Override
+    protected EClass eStaticClass() {
+        return LogPackage.Literals.REMOTE_SERVICE_CALLED;
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public Service getService() {
-		return (Service) eGet(LogPackage.Literals.REMOTE_SERVICE_CALLED__SERVICE, true);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public Service getService() {
+        return (Service) eGet(LogPackage.Literals.REMOTE_SERVICE_CALLED__SERVICE, true);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public void setService(Service newService) {
-		eSet(LogPackage.Literals.REMOTE_SERVICE_CALLED__SERVICE, newService);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public void setService(Service newService) {
+        eSet(LogPackage.Literals.REMOTE_SERVICE_CALLED__SERVICE, newService);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public NotifictionResultEnum getState() {
-		return (NotifictionResultEnum) eGet(LogPackage.Literals.REMOTE_SERVICE_CALLED__STATE, true);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public NotifictionResultEnum getState() {
+        return (NotifictionResultEnum) eGet(LogPackage.Literals.REMOTE_SERVICE_CALLED__STATE, true);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public void setState(NotifictionResultEnum newState) {
-		eSet(LogPackage.Literals.REMOTE_SERVICE_CALLED__STATE, newState);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public void setState(NotifictionResultEnum newState) {
+        eSet(LogPackage.Literals.REMOTE_SERVICE_CALLED__STATE, newState);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public int getPercentage() {
-		return (Integer) eGet(LogPackage.Literals.REMOTE_SERVICE_CALLED__PERCENTAGE, true);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public int getPercentage() {
+        return (Integer) eGet(LogPackage.Literals.REMOTE_SERVICE_CALLED__PERCENTAGE, true);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public void setPercentage(int newPercentage) {
-		eSet(LogPackage.Literals.REMOTE_SERVICE_CALLED__PERCENTAGE, newPercentage);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public void setPercentage(int newPercentage) {
+        eSet(LogPackage.Literals.REMOTE_SERVICE_CALLED__PERCENTAGE, newPercentage);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	@SuppressWarnings("unchecked")
-	public EList<String> getInfos() {
-		return (EList<String>) eGet(LogPackage.Literals.REMOTE_SERVICE_CALLED__INFOS, true);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    @SuppressWarnings("unchecked")
+    public EList<String> getInfos() {
+        return (EList<String>) eGet(LogPackage.Literals.REMOTE_SERVICE_CALLED__INFOS, true);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	@SuppressWarnings("unchecked")
-	public EList<String> getWarnings() {
-		return (EList<String>) eGet(LogPackage.Literals.REMOTE_SERVICE_CALLED__WARNINGS, true);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    @SuppressWarnings("unchecked")
+    public EList<String> getWarnings() {
+        return (EList<String>) eGet(LogPackage.Literals.REMOTE_SERVICE_CALLED__WARNINGS, true);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	@SuppressWarnings("unchecked")
-	public EList<String> getErrors() {
-		return (EList<String>) eGet(LogPackage.Literals.REMOTE_SERVICE_CALLED__ERRORS, true);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    @SuppressWarnings("unchecked")
+    public EList<String> getErrors() {
+        return (EList<String>) eGet(LogPackage.Literals.REMOTE_SERVICE_CALLED__ERRORS, true);
+    }
 
 } //RemoteServiceCalledImpl

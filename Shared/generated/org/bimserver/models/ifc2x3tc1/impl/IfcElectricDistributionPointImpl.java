@@ -19,6 +19,7 @@ package org.bimserver.models.ifc2x3tc1.impl;
 import org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package;
 import org.bimserver.models.ifc2x3tc1.IfcElectricDistributionPoint;
 import org.bimserver.models.ifc2x3tc1.IfcElectricDistributionPointFunctionEnum;
+
 import org.eclipse.emf.ecore.EClass;
 
 /**
@@ -27,86 +28,88 @@ import org.eclipse.emf.ecore.EClass;
  * <!-- end-user-doc -->
  * <p>
  * The following features are implemented:
+ * </p>
  * <ul>
  *   <li>{@link org.bimserver.models.ifc2x3tc1.impl.IfcElectricDistributionPointImpl#getDistributionPointFunction <em>Distribution Point Function</em>}</li>
  *   <li>{@link org.bimserver.models.ifc2x3tc1.impl.IfcElectricDistributionPointImpl#getUserDefinedFunction <em>User Defined Function</em>}</li>
  * </ul>
- * </p>
  *
  * @generated
  */
 public class IfcElectricDistributionPointImpl extends IfcFlowControllerImpl implements IfcElectricDistributionPoint {
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	protected IfcElectricDistributionPointImpl() {
-		super();
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    protected IfcElectricDistributionPointImpl() {
+        super();
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	@Override
-	protected EClass eStaticClass() {
-		return Ifc2x3tc1Package.Literals.IFC_ELECTRIC_DISTRIBUTION_POINT;
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    @Override
+    protected EClass eStaticClass() {
+        return Ifc2x3tc1Package.Literals.IFC_ELECTRIC_DISTRIBUTION_POINT;
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public IfcElectricDistributionPointFunctionEnum getDistributionPointFunction() {
-		return (IfcElectricDistributionPointFunctionEnum) eGet(Ifc2x3tc1Package.Literals.IFC_ELECTRIC_DISTRIBUTION_POINT__DISTRIBUTION_POINT_FUNCTION, true);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public IfcElectricDistributionPointFunctionEnum getDistributionPointFunction() {
+        return (IfcElectricDistributionPointFunctionEnum) eGet(
+                Ifc2x3tc1Package.Literals.IFC_ELECTRIC_DISTRIBUTION_POINT__DISTRIBUTION_POINT_FUNCTION, true);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public void setDistributionPointFunction(IfcElectricDistributionPointFunctionEnum newDistributionPointFunction) {
-		eSet(Ifc2x3tc1Package.Literals.IFC_ELECTRIC_DISTRIBUTION_POINT__DISTRIBUTION_POINT_FUNCTION, newDistributionPointFunction);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public void setDistributionPointFunction(IfcElectricDistributionPointFunctionEnum newDistributionPointFunction) {
+        eSet(Ifc2x3tc1Package.Literals.IFC_ELECTRIC_DISTRIBUTION_POINT__DISTRIBUTION_POINT_FUNCTION,
+                newDistributionPointFunction);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public String getUserDefinedFunction() {
-		return (String) eGet(Ifc2x3tc1Package.Literals.IFC_ELECTRIC_DISTRIBUTION_POINT__USER_DEFINED_FUNCTION, true);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public String getUserDefinedFunction() {
+        return (String) eGet(Ifc2x3tc1Package.Literals.IFC_ELECTRIC_DISTRIBUTION_POINT__USER_DEFINED_FUNCTION, true);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public void setUserDefinedFunction(String newUserDefinedFunction) {
-		eSet(Ifc2x3tc1Package.Literals.IFC_ELECTRIC_DISTRIBUTION_POINT__USER_DEFINED_FUNCTION, newUserDefinedFunction);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public void setUserDefinedFunction(String newUserDefinedFunction) {
+        eSet(Ifc2x3tc1Package.Literals.IFC_ELECTRIC_DISTRIBUTION_POINT__USER_DEFINED_FUNCTION, newUserDefinedFunction);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public void unsetUserDefinedFunction() {
-		eUnset(Ifc2x3tc1Package.Literals.IFC_ELECTRIC_DISTRIBUTION_POINT__USER_DEFINED_FUNCTION);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public void unsetUserDefinedFunction() {
+        eUnset(Ifc2x3tc1Package.Literals.IFC_ELECTRIC_DISTRIBUTION_POINT__USER_DEFINED_FUNCTION);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public boolean isSetUserDefinedFunction() {
-		return eIsSet(Ifc2x3tc1Package.Literals.IFC_ELECTRIC_DISTRIBUTION_POINT__USER_DEFINED_FUNCTION);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public boolean isSetUserDefinedFunction() {
+        return eIsSet(Ifc2x3tc1Package.Literals.IFC_ELECTRIC_DISTRIBUTION_POINT__USER_DEFINED_FUNCTION);
+    }
 
 } //IfcElectricDistributionPointImpl

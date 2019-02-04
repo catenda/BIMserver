@@ -19,6 +19,7 @@ package org.bimserver.models.ifc2x3tc1.impl;
 import org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package;
 import org.bimserver.models.ifc2x3tc1.IfcAirTerminalType;
 import org.bimserver.models.ifc2x3tc1.IfcAirTerminalTypeEnum;
+
 import org.eclipse.emf.ecore.EClass;
 
 /**
@@ -27,49 +28,49 @@ import org.eclipse.emf.ecore.EClass;
  * <!-- end-user-doc -->
  * <p>
  * The following features are implemented:
+ * </p>
  * <ul>
  *   <li>{@link org.bimserver.models.ifc2x3tc1.impl.IfcAirTerminalTypeImpl#getPredefinedType <em>Predefined Type</em>}</li>
  * </ul>
- * </p>
  *
  * @generated
  */
 public class IfcAirTerminalTypeImpl extends IfcFlowTerminalTypeImpl implements IfcAirTerminalType {
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	protected IfcAirTerminalTypeImpl() {
-		super();
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    protected IfcAirTerminalTypeImpl() {
+        super();
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	@Override
-	protected EClass eStaticClass() {
-		return Ifc2x3tc1Package.Literals.IFC_AIR_TERMINAL_TYPE;
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    @Override
+    protected EClass eStaticClass() {
+        return Ifc2x3tc1Package.Literals.IFC_AIR_TERMINAL_TYPE;
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public IfcAirTerminalTypeEnum getPredefinedType() {
-		return (IfcAirTerminalTypeEnum) eGet(Ifc2x3tc1Package.Literals.IFC_AIR_TERMINAL_TYPE__PREDEFINED_TYPE, true);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public IfcAirTerminalTypeEnum getPredefinedType() {
+        return (IfcAirTerminalTypeEnum) eGet(Ifc2x3tc1Package.Literals.IFC_AIR_TERMINAL_TYPE__PREDEFINED_TYPE, true);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public void setPredefinedType(IfcAirTerminalTypeEnum newPredefinedType) {
-		eSet(Ifc2x3tc1Package.Literals.IFC_AIR_TERMINAL_TYPE__PREDEFINED_TYPE, newPredefinedType);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public void setPredefinedType(IfcAirTerminalTypeEnum newPredefinedType) {
+        eSet(Ifc2x3tc1Package.Literals.IFC_AIR_TERMINAL_TYPE__PREDEFINED_TYPE, newPredefinedType);
+    }
 
 } //IfcAirTerminalTypeImpl

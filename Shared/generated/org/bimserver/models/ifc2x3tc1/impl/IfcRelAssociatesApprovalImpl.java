@@ -19,6 +19,7 @@ package org.bimserver.models.ifc2x3tc1.impl;
 import org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package;
 import org.bimserver.models.ifc2x3tc1.IfcApproval;
 import org.bimserver.models.ifc2x3tc1.IfcRelAssociatesApproval;
+
 import org.eclipse.emf.ecore.EClass;
 
 /**
@@ -27,49 +28,49 @@ import org.eclipse.emf.ecore.EClass;
  * <!-- end-user-doc -->
  * <p>
  * The following features are implemented:
+ * </p>
  * <ul>
  *   <li>{@link org.bimserver.models.ifc2x3tc1.impl.IfcRelAssociatesApprovalImpl#getRelatingApproval <em>Relating Approval</em>}</li>
  * </ul>
- * </p>
  *
  * @generated
  */
 public class IfcRelAssociatesApprovalImpl extends IfcRelAssociatesImpl implements IfcRelAssociatesApproval {
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	protected IfcRelAssociatesApprovalImpl() {
-		super();
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    protected IfcRelAssociatesApprovalImpl() {
+        super();
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	@Override
-	protected EClass eStaticClass() {
-		return Ifc2x3tc1Package.Literals.IFC_REL_ASSOCIATES_APPROVAL;
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    @Override
+    protected EClass eStaticClass() {
+        return Ifc2x3tc1Package.Literals.IFC_REL_ASSOCIATES_APPROVAL;
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public IfcApproval getRelatingApproval() {
-		return (IfcApproval) eGet(Ifc2x3tc1Package.Literals.IFC_REL_ASSOCIATES_APPROVAL__RELATING_APPROVAL, true);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public IfcApproval getRelatingApproval() {
+        return (IfcApproval) eGet(Ifc2x3tc1Package.Literals.IFC_REL_ASSOCIATES_APPROVAL__RELATING_APPROVAL, true);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public void setRelatingApproval(IfcApproval newRelatingApproval) {
-		eSet(Ifc2x3tc1Package.Literals.IFC_REL_ASSOCIATES_APPROVAL__RELATING_APPROVAL, newRelatingApproval);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public void setRelatingApproval(IfcApproval newRelatingApproval) {
+        eSet(Ifc2x3tc1Package.Literals.IFC_REL_ASSOCIATES_APPROVAL__RELATING_APPROVAL, newRelatingApproval);
+    }
 
 } //IfcRelAssociatesApprovalImpl

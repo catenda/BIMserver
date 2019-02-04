@@ -25,42 +25,42 @@ import org.bimserver.models.store.Project;
  *
  * <p>
  * The following features are supported:
+ * </p>
  * <ul>
  *   <li>{@link org.bimserver.models.log.ProjectRelated#getProject <em>Project</em>}</li>
  * </ul>
- * </p>
  *
  * @see org.bimserver.models.log.LogPackage#getProjectRelated()
  * @model
  * @generated
  */
 public interface ProjectRelated extends LogAction {
-	/**
-	 * Returns the value of the '<em><b>Project</b></em>' reference.
-	 * It is bidirectional and its opposite is '{@link org.bimserver.models.store.Project#getLogs <em>Logs</em>}'.
-	 * <!-- begin-user-doc -->
-	 * <p>
-	 * If the meaning of the '<em>Project</em>' reference isn't clear,
-	 * there really should be more of a description here...
-	 * </p>
-	 * <!-- end-user-doc -->
-	 * @return the value of the '<em>Project</em>' reference.
-	 * @see #setProject(Project)
-	 * @see org.bimserver.models.log.LogPackage#getProjectRelated_Project()
-	 * @see org.bimserver.models.store.Project#getLogs
-	 * @model opposite="logs"
-	 * @generated
-	 */
-	Project getProject();
+    /**
+     * Returns the value of the '<em><b>Project</b></em>' reference.
+     * It is bidirectional and its opposite is '{@link org.bimserver.models.store.Project#getLogs <em>Logs</em>}'.
+     * <!-- begin-user-doc -->
+     * <p>
+     * If the meaning of the '<em>Project</em>' reference isn't clear,
+     * there really should be more of a description here...
+     * </p>
+     * <!-- end-user-doc -->
+     * @return the value of the '<em>Project</em>' reference.
+     * @see #setProject(Project)
+     * @see org.bimserver.models.log.LogPackage#getProjectRelated_Project()
+     * @see org.bimserver.models.store.Project#getLogs
+     * @model opposite="logs"
+     * @generated
+     */
+    Project getProject();
 
-	/**
-	 * Sets the value of the '{@link org.bimserver.models.log.ProjectRelated#getProject <em>Project</em>}' reference.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @param value the new value of the '<em>Project</em>' reference.
-	 * @see #getProject()
-	 * @generated
-	 */
-	void setProject(Project value);
+    /**
+     * Sets the value of the '{@link org.bimserver.models.log.ProjectRelated#getProject <em>Project</em>}' reference.
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @param value the new value of the '<em>Project</em>' reference.
+     * @see #getProject()
+     * @generated
+     */
+    void setProject(Project value);
 
 } // ProjectRelated

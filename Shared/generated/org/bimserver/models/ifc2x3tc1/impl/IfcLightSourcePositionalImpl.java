@@ -19,6 +19,7 @@ package org.bimserver.models.ifc2x3tc1.impl;
 import org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package;
 import org.bimserver.models.ifc2x3tc1.IfcCartesianPoint;
 import org.bimserver.models.ifc2x3tc1.IfcLightSourcePositional;
+
 import org.eclipse.emf.ecore.EClass;
 
 /**
@@ -27,6 +28,7 @@ import org.eclipse.emf.ecore.EClass;
  * <!-- end-user-doc -->
  * <p>
  * The following features are implemented:
+ * </p>
  * <ul>
  *   <li>{@link org.bimserver.models.ifc2x3tc1.impl.IfcLightSourcePositionalImpl#getPosition <em>Position</em>}</li>
  *   <li>{@link org.bimserver.models.ifc2x3tc1.impl.IfcLightSourcePositionalImpl#getRadius <em>Radius</em>}</li>
@@ -38,190 +40,195 @@ import org.eclipse.emf.ecore.EClass;
  *   <li>{@link org.bimserver.models.ifc2x3tc1.impl.IfcLightSourcePositionalImpl#getQuadricAttenuation <em>Quadric Attenuation</em>}</li>
  *   <li>{@link org.bimserver.models.ifc2x3tc1.impl.IfcLightSourcePositionalImpl#getQuadricAttenuationAsString <em>Quadric Attenuation As String</em>}</li>
  * </ul>
- * </p>
  *
  * @generated
  */
 public class IfcLightSourcePositionalImpl extends IfcLightSourceImpl implements IfcLightSourcePositional {
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	protected IfcLightSourcePositionalImpl() {
-		super();
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    protected IfcLightSourcePositionalImpl() {
+        super();
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	@Override
-	protected EClass eStaticClass() {
-		return Ifc2x3tc1Package.Literals.IFC_LIGHT_SOURCE_POSITIONAL;
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    @Override
+    protected EClass eStaticClass() {
+        return Ifc2x3tc1Package.Literals.IFC_LIGHT_SOURCE_POSITIONAL;
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public IfcCartesianPoint getPosition() {
-		return (IfcCartesianPoint) eGet(Ifc2x3tc1Package.Literals.IFC_LIGHT_SOURCE_POSITIONAL__POSITION, true);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public IfcCartesianPoint getPosition() {
+        return (IfcCartesianPoint) eGet(Ifc2x3tc1Package.Literals.IFC_LIGHT_SOURCE_POSITIONAL__POSITION, true);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public void setPosition(IfcCartesianPoint newPosition) {
-		eSet(Ifc2x3tc1Package.Literals.IFC_LIGHT_SOURCE_POSITIONAL__POSITION, newPosition);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public void setPosition(IfcCartesianPoint newPosition) {
+        eSet(Ifc2x3tc1Package.Literals.IFC_LIGHT_SOURCE_POSITIONAL__POSITION, newPosition);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public double getRadius() {
-		return (Double) eGet(Ifc2x3tc1Package.Literals.IFC_LIGHT_SOURCE_POSITIONAL__RADIUS, true);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public double getRadius() {
+        return (Double) eGet(Ifc2x3tc1Package.Literals.IFC_LIGHT_SOURCE_POSITIONAL__RADIUS, true);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public void setRadius(double newRadius) {
-		eSet(Ifc2x3tc1Package.Literals.IFC_LIGHT_SOURCE_POSITIONAL__RADIUS, newRadius);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public void setRadius(double newRadius) {
+        eSet(Ifc2x3tc1Package.Literals.IFC_LIGHT_SOURCE_POSITIONAL__RADIUS, newRadius);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public String getRadiusAsString() {
-		return (String) eGet(Ifc2x3tc1Package.Literals.IFC_LIGHT_SOURCE_POSITIONAL__RADIUS_AS_STRING, true);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public String getRadiusAsString() {
+        return (String) eGet(Ifc2x3tc1Package.Literals.IFC_LIGHT_SOURCE_POSITIONAL__RADIUS_AS_STRING, true);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public void setRadiusAsString(String newRadiusAsString) {
-		eSet(Ifc2x3tc1Package.Literals.IFC_LIGHT_SOURCE_POSITIONAL__RADIUS_AS_STRING, newRadiusAsString);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public void setRadiusAsString(String newRadiusAsString) {
+        eSet(Ifc2x3tc1Package.Literals.IFC_LIGHT_SOURCE_POSITIONAL__RADIUS_AS_STRING, newRadiusAsString);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public double getConstantAttenuation() {
-		return (Double) eGet(Ifc2x3tc1Package.Literals.IFC_LIGHT_SOURCE_POSITIONAL__CONSTANT_ATTENUATION, true);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public double getConstantAttenuation() {
+        return (Double) eGet(Ifc2x3tc1Package.Literals.IFC_LIGHT_SOURCE_POSITIONAL__CONSTANT_ATTENUATION, true);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public void setConstantAttenuation(double newConstantAttenuation) {
-		eSet(Ifc2x3tc1Package.Literals.IFC_LIGHT_SOURCE_POSITIONAL__CONSTANT_ATTENUATION, newConstantAttenuation);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public void setConstantAttenuation(double newConstantAttenuation) {
+        eSet(Ifc2x3tc1Package.Literals.IFC_LIGHT_SOURCE_POSITIONAL__CONSTANT_ATTENUATION, newConstantAttenuation);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public String getConstantAttenuationAsString() {
-		return (String) eGet(Ifc2x3tc1Package.Literals.IFC_LIGHT_SOURCE_POSITIONAL__CONSTANT_ATTENUATION_AS_STRING, true);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public String getConstantAttenuationAsString() {
+        return (String) eGet(Ifc2x3tc1Package.Literals.IFC_LIGHT_SOURCE_POSITIONAL__CONSTANT_ATTENUATION_AS_STRING,
+                true);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public void setConstantAttenuationAsString(String newConstantAttenuationAsString) {
-		eSet(Ifc2x3tc1Package.Literals.IFC_LIGHT_SOURCE_POSITIONAL__CONSTANT_ATTENUATION_AS_STRING, newConstantAttenuationAsString);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public void setConstantAttenuationAsString(String newConstantAttenuationAsString) {
+        eSet(Ifc2x3tc1Package.Literals.IFC_LIGHT_SOURCE_POSITIONAL__CONSTANT_ATTENUATION_AS_STRING,
+                newConstantAttenuationAsString);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public double getDistanceAttenuation() {
-		return (Double) eGet(Ifc2x3tc1Package.Literals.IFC_LIGHT_SOURCE_POSITIONAL__DISTANCE_ATTENUATION, true);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public double getDistanceAttenuation() {
+        return (Double) eGet(Ifc2x3tc1Package.Literals.IFC_LIGHT_SOURCE_POSITIONAL__DISTANCE_ATTENUATION, true);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public void setDistanceAttenuation(double newDistanceAttenuation) {
-		eSet(Ifc2x3tc1Package.Literals.IFC_LIGHT_SOURCE_POSITIONAL__DISTANCE_ATTENUATION, newDistanceAttenuation);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public void setDistanceAttenuation(double newDistanceAttenuation) {
+        eSet(Ifc2x3tc1Package.Literals.IFC_LIGHT_SOURCE_POSITIONAL__DISTANCE_ATTENUATION, newDistanceAttenuation);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public String getDistanceAttenuationAsString() {
-		return (String) eGet(Ifc2x3tc1Package.Literals.IFC_LIGHT_SOURCE_POSITIONAL__DISTANCE_ATTENUATION_AS_STRING, true);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public String getDistanceAttenuationAsString() {
+        return (String) eGet(Ifc2x3tc1Package.Literals.IFC_LIGHT_SOURCE_POSITIONAL__DISTANCE_ATTENUATION_AS_STRING,
+                true);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public void setDistanceAttenuationAsString(String newDistanceAttenuationAsString) {
-		eSet(Ifc2x3tc1Package.Literals.IFC_LIGHT_SOURCE_POSITIONAL__DISTANCE_ATTENUATION_AS_STRING, newDistanceAttenuationAsString);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public void setDistanceAttenuationAsString(String newDistanceAttenuationAsString) {
+        eSet(Ifc2x3tc1Package.Literals.IFC_LIGHT_SOURCE_POSITIONAL__DISTANCE_ATTENUATION_AS_STRING,
+                newDistanceAttenuationAsString);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public double getQuadricAttenuation() {
-		return (Double) eGet(Ifc2x3tc1Package.Literals.IFC_LIGHT_SOURCE_POSITIONAL__QUADRIC_ATTENUATION, true);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public double getQuadricAttenuation() {
+        return (Double) eGet(Ifc2x3tc1Package.Literals.IFC_LIGHT_SOURCE_POSITIONAL__QUADRIC_ATTENUATION, true);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public void setQuadricAttenuation(double newQuadricAttenuation) {
-		eSet(Ifc2x3tc1Package.Literals.IFC_LIGHT_SOURCE_POSITIONAL__QUADRIC_ATTENUATION, newQuadricAttenuation);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public void setQuadricAttenuation(double newQuadricAttenuation) {
+        eSet(Ifc2x3tc1Package.Literals.IFC_LIGHT_SOURCE_POSITIONAL__QUADRIC_ATTENUATION, newQuadricAttenuation);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public String getQuadricAttenuationAsString() {
-		return (String) eGet(Ifc2x3tc1Package.Literals.IFC_LIGHT_SOURCE_POSITIONAL__QUADRIC_ATTENUATION_AS_STRING, true);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public String getQuadricAttenuationAsString() {
+        return (String) eGet(Ifc2x3tc1Package.Literals.IFC_LIGHT_SOURCE_POSITIONAL__QUADRIC_ATTENUATION_AS_STRING,
+                true);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public void setQuadricAttenuationAsString(String newQuadricAttenuationAsString) {
-		eSet(Ifc2x3tc1Package.Literals.IFC_LIGHT_SOURCE_POSITIONAL__QUADRIC_ATTENUATION_AS_STRING, newQuadricAttenuationAsString);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public void setQuadricAttenuationAsString(String newQuadricAttenuationAsString) {
+        eSet(Ifc2x3tc1Package.Literals.IFC_LIGHT_SOURCE_POSITIONAL__QUADRIC_ATTENUATION_AS_STRING,
+                newQuadricAttenuationAsString);
+    }
 
 } //IfcLightSourcePositionalImpl

@@ -20,6 +20,7 @@ import org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package;
 import org.bimserver.models.ifc2x3tc1.IfcPile;
 import org.bimserver.models.ifc2x3tc1.IfcPileConstructionEnum;
 import org.bimserver.models.ifc2x3tc1.IfcPileTypeEnum;
+
 import org.eclipse.emf.ecore.EClass;
 
 /**
@@ -28,86 +29,86 @@ import org.eclipse.emf.ecore.EClass;
  * <!-- end-user-doc -->
  * <p>
  * The following features are implemented:
+ * </p>
  * <ul>
  *   <li>{@link org.bimserver.models.ifc2x3tc1.impl.IfcPileImpl#getPredefinedType <em>Predefined Type</em>}</li>
  *   <li>{@link org.bimserver.models.ifc2x3tc1.impl.IfcPileImpl#getConstructionType <em>Construction Type</em>}</li>
  * </ul>
- * </p>
  *
  * @generated
  */
 public class IfcPileImpl extends IfcBuildingElementImpl implements IfcPile {
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	protected IfcPileImpl() {
-		super();
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    protected IfcPileImpl() {
+        super();
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	@Override
-	protected EClass eStaticClass() {
-		return Ifc2x3tc1Package.Literals.IFC_PILE;
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    @Override
+    protected EClass eStaticClass() {
+        return Ifc2x3tc1Package.Literals.IFC_PILE;
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public IfcPileTypeEnum getPredefinedType() {
-		return (IfcPileTypeEnum) eGet(Ifc2x3tc1Package.Literals.IFC_PILE__PREDEFINED_TYPE, true);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public IfcPileTypeEnum getPredefinedType() {
+        return (IfcPileTypeEnum) eGet(Ifc2x3tc1Package.Literals.IFC_PILE__PREDEFINED_TYPE, true);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public void setPredefinedType(IfcPileTypeEnum newPredefinedType) {
-		eSet(Ifc2x3tc1Package.Literals.IFC_PILE__PREDEFINED_TYPE, newPredefinedType);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public void setPredefinedType(IfcPileTypeEnum newPredefinedType) {
+        eSet(Ifc2x3tc1Package.Literals.IFC_PILE__PREDEFINED_TYPE, newPredefinedType);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public IfcPileConstructionEnum getConstructionType() {
-		return (IfcPileConstructionEnum) eGet(Ifc2x3tc1Package.Literals.IFC_PILE__CONSTRUCTION_TYPE, true);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public IfcPileConstructionEnum getConstructionType() {
+        return (IfcPileConstructionEnum) eGet(Ifc2x3tc1Package.Literals.IFC_PILE__CONSTRUCTION_TYPE, true);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public void setConstructionType(IfcPileConstructionEnum newConstructionType) {
-		eSet(Ifc2x3tc1Package.Literals.IFC_PILE__CONSTRUCTION_TYPE, newConstructionType);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public void setConstructionType(IfcPileConstructionEnum newConstructionType) {
+        eSet(Ifc2x3tc1Package.Literals.IFC_PILE__CONSTRUCTION_TYPE, newConstructionType);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public void unsetConstructionType() {
-		eUnset(Ifc2x3tc1Package.Literals.IFC_PILE__CONSTRUCTION_TYPE);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public void unsetConstructionType() {
+        eUnset(Ifc2x3tc1Package.Literals.IFC_PILE__CONSTRUCTION_TYPE);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public boolean isSetConstructionType() {
-		return eIsSet(Ifc2x3tc1Package.Literals.IFC_PILE__CONSTRUCTION_TYPE);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public boolean isSetConstructionType() {
+        return eIsSet(Ifc2x3tc1Package.Literals.IFC_PILE__CONSTRUCTION_TYPE);
+    }
 
 } //IfcPileImpl

@@ -22,7 +22,9 @@ import org.bimserver.models.ifc2x3tc1.IfcRelContainedInSpatialStructure;
 import org.bimserver.models.ifc2x3tc1.IfcRelReferencedInSpatialStructure;
 import org.bimserver.models.ifc2x3tc1.IfcRelServicesBuildings;
 import org.bimserver.models.ifc2x3tc1.IfcSpatialStructureElement;
+
 import org.eclipse.emf.common.util.EList;
+
 import org.eclipse.emf.ecore.EClass;
 
 /**
@@ -31,6 +33,7 @@ import org.eclipse.emf.ecore.EClass;
  * <!-- end-user-doc -->
  * <p>
  * The following features are implemented:
+ * </p>
  * <ul>
  *   <li>{@link org.bimserver.models.ifc2x3tc1.impl.IfcSpatialStructureElementImpl#getLongName <em>Long Name</em>}</li>
  *   <li>{@link org.bimserver.models.ifc2x3tc1.impl.IfcSpatialStructureElementImpl#getCompositionType <em>Composition Type</em>}</li>
@@ -38,166 +41,169 @@ import org.eclipse.emf.ecore.EClass;
  *   <li>{@link org.bimserver.models.ifc2x3tc1.impl.IfcSpatialStructureElementImpl#getServicedBySystems <em>Serviced By Systems</em>}</li>
  *   <li>{@link org.bimserver.models.ifc2x3tc1.impl.IfcSpatialStructureElementImpl#getContainsElements <em>Contains Elements</em>}</li>
  * </ul>
- * </p>
  *
  * @generated
  */
 public class IfcSpatialStructureElementImpl extends IfcProductImpl implements IfcSpatialStructureElement {
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	protected IfcSpatialStructureElementImpl() {
-		super();
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    protected IfcSpatialStructureElementImpl() {
+        super();
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	@Override
-	protected EClass eStaticClass() {
-		return Ifc2x3tc1Package.Literals.IFC_SPATIAL_STRUCTURE_ELEMENT;
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    @Override
+    protected EClass eStaticClass() {
+        return Ifc2x3tc1Package.Literals.IFC_SPATIAL_STRUCTURE_ELEMENT;
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public String getLongName() {
-		return (String) eGet(Ifc2x3tc1Package.Literals.IFC_SPATIAL_STRUCTURE_ELEMENT__LONG_NAME, true);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public String getLongName() {
+        return (String) eGet(Ifc2x3tc1Package.Literals.IFC_SPATIAL_STRUCTURE_ELEMENT__LONG_NAME, true);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public void setLongName(String newLongName) {
-		eSet(Ifc2x3tc1Package.Literals.IFC_SPATIAL_STRUCTURE_ELEMENT__LONG_NAME, newLongName);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public void setLongName(String newLongName) {
+        eSet(Ifc2x3tc1Package.Literals.IFC_SPATIAL_STRUCTURE_ELEMENT__LONG_NAME, newLongName);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public void unsetLongName() {
-		eUnset(Ifc2x3tc1Package.Literals.IFC_SPATIAL_STRUCTURE_ELEMENT__LONG_NAME);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public void unsetLongName() {
+        eUnset(Ifc2x3tc1Package.Literals.IFC_SPATIAL_STRUCTURE_ELEMENT__LONG_NAME);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public boolean isSetLongName() {
-		return eIsSet(Ifc2x3tc1Package.Literals.IFC_SPATIAL_STRUCTURE_ELEMENT__LONG_NAME);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public boolean isSetLongName() {
+        return eIsSet(Ifc2x3tc1Package.Literals.IFC_SPATIAL_STRUCTURE_ELEMENT__LONG_NAME);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public IfcElementCompositionEnum getCompositionType() {
-		return (IfcElementCompositionEnum) eGet(Ifc2x3tc1Package.Literals.IFC_SPATIAL_STRUCTURE_ELEMENT__COMPOSITION_TYPE, true);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public IfcElementCompositionEnum getCompositionType() {
+        return (IfcElementCompositionEnum) eGet(
+                Ifc2x3tc1Package.Literals.IFC_SPATIAL_STRUCTURE_ELEMENT__COMPOSITION_TYPE, true);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public void setCompositionType(IfcElementCompositionEnum newCompositionType) {
-		eSet(Ifc2x3tc1Package.Literals.IFC_SPATIAL_STRUCTURE_ELEMENT__COMPOSITION_TYPE, newCompositionType);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public void setCompositionType(IfcElementCompositionEnum newCompositionType) {
+        eSet(Ifc2x3tc1Package.Literals.IFC_SPATIAL_STRUCTURE_ELEMENT__COMPOSITION_TYPE, newCompositionType);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	@SuppressWarnings("unchecked")
-	public EList<IfcRelReferencedInSpatialStructure> getReferencesElements() {
-		return (EList<IfcRelReferencedInSpatialStructure>) eGet(Ifc2x3tc1Package.Literals.IFC_SPATIAL_STRUCTURE_ELEMENT__REFERENCES_ELEMENTS, true);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    @SuppressWarnings("unchecked")
+    public EList<IfcRelReferencedInSpatialStructure> getReferencesElements() {
+        return (EList<IfcRelReferencedInSpatialStructure>) eGet(
+                Ifc2x3tc1Package.Literals.IFC_SPATIAL_STRUCTURE_ELEMENT__REFERENCES_ELEMENTS, true);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public void unsetReferencesElements() {
-		eUnset(Ifc2x3tc1Package.Literals.IFC_SPATIAL_STRUCTURE_ELEMENT__REFERENCES_ELEMENTS);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public void unsetReferencesElements() {
+        eUnset(Ifc2x3tc1Package.Literals.IFC_SPATIAL_STRUCTURE_ELEMENT__REFERENCES_ELEMENTS);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public boolean isSetReferencesElements() {
-		return eIsSet(Ifc2x3tc1Package.Literals.IFC_SPATIAL_STRUCTURE_ELEMENT__REFERENCES_ELEMENTS);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public boolean isSetReferencesElements() {
+        return eIsSet(Ifc2x3tc1Package.Literals.IFC_SPATIAL_STRUCTURE_ELEMENT__REFERENCES_ELEMENTS);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	@SuppressWarnings("unchecked")
-	public EList<IfcRelServicesBuildings> getServicedBySystems() {
-		return (EList<IfcRelServicesBuildings>) eGet(Ifc2x3tc1Package.Literals.IFC_SPATIAL_STRUCTURE_ELEMENT__SERVICED_BY_SYSTEMS, true);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    @SuppressWarnings("unchecked")
+    public EList<IfcRelServicesBuildings> getServicedBySystems() {
+        return (EList<IfcRelServicesBuildings>) eGet(
+                Ifc2x3tc1Package.Literals.IFC_SPATIAL_STRUCTURE_ELEMENT__SERVICED_BY_SYSTEMS, true);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public void unsetServicedBySystems() {
-		eUnset(Ifc2x3tc1Package.Literals.IFC_SPATIAL_STRUCTURE_ELEMENT__SERVICED_BY_SYSTEMS);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public void unsetServicedBySystems() {
+        eUnset(Ifc2x3tc1Package.Literals.IFC_SPATIAL_STRUCTURE_ELEMENT__SERVICED_BY_SYSTEMS);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public boolean isSetServicedBySystems() {
-		return eIsSet(Ifc2x3tc1Package.Literals.IFC_SPATIAL_STRUCTURE_ELEMENT__SERVICED_BY_SYSTEMS);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public boolean isSetServicedBySystems() {
+        return eIsSet(Ifc2x3tc1Package.Literals.IFC_SPATIAL_STRUCTURE_ELEMENT__SERVICED_BY_SYSTEMS);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	@SuppressWarnings("unchecked")
-	public EList<IfcRelContainedInSpatialStructure> getContainsElements() {
-		return (EList<IfcRelContainedInSpatialStructure>) eGet(Ifc2x3tc1Package.Literals.IFC_SPATIAL_STRUCTURE_ELEMENT__CONTAINS_ELEMENTS, true);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    @SuppressWarnings("unchecked")
+    public EList<IfcRelContainedInSpatialStructure> getContainsElements() {
+        return (EList<IfcRelContainedInSpatialStructure>) eGet(
+                Ifc2x3tc1Package.Literals.IFC_SPATIAL_STRUCTURE_ELEMENT__CONTAINS_ELEMENTS, true);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public void unsetContainsElements() {
-		eUnset(Ifc2x3tc1Package.Literals.IFC_SPATIAL_STRUCTURE_ELEMENT__CONTAINS_ELEMENTS);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public void unsetContainsElements() {
+        eUnset(Ifc2x3tc1Package.Literals.IFC_SPATIAL_STRUCTURE_ELEMENT__CONTAINS_ELEMENTS);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public boolean isSetContainsElements() {
-		return eIsSet(Ifc2x3tc1Package.Literals.IFC_SPATIAL_STRUCTURE_ELEMENT__CONTAINS_ELEMENTS);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public boolean isSetContainsElements() {
+        return eIsSet(Ifc2x3tc1Package.Literals.IFC_SPATIAL_STRUCTURE_ELEMENT__CONTAINS_ELEMENTS);
+    }
 
 } //IfcSpatialStructureElementImpl

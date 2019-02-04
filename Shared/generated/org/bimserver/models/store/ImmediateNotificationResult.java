@@ -25,11 +25,11 @@ import org.bimserver.emf.IdEObject;
  *
  * <p>
  * The following features are supported:
+ * </p>
  * <ul>
  *   <li>{@link org.bimserver.models.store.ImmediateNotificationResult#getResult <em>Result</em>}</li>
  *   <li>{@link org.bimserver.models.store.ImmediateNotificationResult#getDescription <em>Description</em>}</li>
  * </ul>
- * </p>
  *
  * @see org.bimserver.models.store.StorePackage#getImmediateNotificationResult()
  * @model
@@ -37,59 +37,59 @@ import org.bimserver.emf.IdEObject;
  * @generated
  */
 public interface ImmediateNotificationResult extends IdEObject {
-	/**
-	 * Returns the value of the '<em><b>Result</b></em>' attribute.
-	 * The literals are from the enumeration {@link org.bimserver.models.store.NotifictionResultEnum}.
-	 * <!-- begin-user-doc -->
-	 * <p>
-	 * If the meaning of the '<em>Result</em>' attribute isn't clear,
-	 * there really should be more of a description here...
-	 * </p>
-	 * <!-- end-user-doc -->
-	 * @return the value of the '<em>Result</em>' attribute.
-	 * @see org.bimserver.models.store.NotifictionResultEnum
-	 * @see #setResult(NotifictionResultEnum)
-	 * @see org.bimserver.models.store.StorePackage#getImmediateNotificationResult_Result()
-	 * @model
-	 * @generated
-	 */
-	NotifictionResultEnum getResult();
+    /**
+     * Returns the value of the '<em><b>Result</b></em>' attribute.
+     * The literals are from the enumeration {@link org.bimserver.models.store.NotifictionResultEnum}.
+     * <!-- begin-user-doc -->
+     * <p>
+     * If the meaning of the '<em>Result</em>' attribute isn't clear,
+     * there really should be more of a description here...
+     * </p>
+     * <!-- end-user-doc -->
+     * @return the value of the '<em>Result</em>' attribute.
+     * @see org.bimserver.models.store.NotifictionResultEnum
+     * @see #setResult(NotifictionResultEnum)
+     * @see org.bimserver.models.store.StorePackage#getImmediateNotificationResult_Result()
+     * @model
+     * @generated
+     */
+    NotifictionResultEnum getResult();
 
-	/**
-	 * Sets the value of the '{@link org.bimserver.models.store.ImmediateNotificationResult#getResult <em>Result</em>}' attribute.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @param value the new value of the '<em>Result</em>' attribute.
-	 * @see org.bimserver.models.store.NotifictionResultEnum
-	 * @see #getResult()
-	 * @generated
-	 */
-	void setResult(NotifictionResultEnum value);
+    /**
+     * Sets the value of the '{@link org.bimserver.models.store.ImmediateNotificationResult#getResult <em>Result</em>}' attribute.
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @param value the new value of the '<em>Result</em>' attribute.
+     * @see org.bimserver.models.store.NotifictionResultEnum
+     * @see #getResult()
+     * @generated
+     */
+    void setResult(NotifictionResultEnum value);
 
-	/**
-	 * Returns the value of the '<em><b>Description</b></em>' attribute.
-	 * <!-- begin-user-doc -->
-	 * <p>
-	 * If the meaning of the '<em>Description</em>' attribute isn't clear,
-	 * there really should be more of a description here...
-	 * </p>
-	 * <!-- end-user-doc -->
-	 * @return the value of the '<em>Description</em>' attribute.
-	 * @see #setDescription(String)
-	 * @see org.bimserver.models.store.StorePackage#getImmediateNotificationResult_Description()
-	 * @model
-	 * @generated
-	 */
-	String getDescription();
+    /**
+     * Returns the value of the '<em><b>Description</b></em>' attribute.
+     * <!-- begin-user-doc -->
+     * <p>
+     * If the meaning of the '<em>Description</em>' attribute isn't clear,
+     * there really should be more of a description here...
+     * </p>
+     * <!-- end-user-doc -->
+     * @return the value of the '<em>Description</em>' attribute.
+     * @see #setDescription(String)
+     * @see org.bimserver.models.store.StorePackage#getImmediateNotificationResult_Description()
+     * @model
+     * @generated
+     */
+    String getDescription();
 
-	/**
-	 * Sets the value of the '{@link org.bimserver.models.store.ImmediateNotificationResult#getDescription <em>Description</em>}' attribute.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @param value the new value of the '<em>Description</em>' attribute.
-	 * @see #getDescription()
-	 * @generated
-	 */
-	void setDescription(String value);
+    /**
+     * Sets the value of the '{@link org.bimserver.models.store.ImmediateNotificationResult#getDescription <em>Description</em>}' attribute.
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @param value the new value of the '<em>Description</em>' attribute.
+     * @see #getDescription()
+     * @generated
+     */
+    void setDescription(String value);
 
 } // ImmediateNotificationResult

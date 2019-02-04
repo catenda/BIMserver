@@ -17,9 +17,11 @@
 package org.bimserver.models.ifc2x3tc1.impl;
 
 import org.bimserver.emf.IdEObjectImpl;
+
 import org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package;
 import org.bimserver.models.ifc2x3tc1.IfcColour;
 import org.bimserver.models.ifc2x3tc1.IfcTextStyleForDefinedFont;
+
 import org.eclipse.emf.ecore.EClass;
 
 /**
@@ -28,96 +30,96 @@ import org.eclipse.emf.ecore.EClass;
  * <!-- end-user-doc -->
  * <p>
  * The following features are implemented:
+ * </p>
  * <ul>
  *   <li>{@link org.bimserver.models.ifc2x3tc1.impl.IfcTextStyleForDefinedFontImpl#getColour <em>Colour</em>}</li>
  *   <li>{@link org.bimserver.models.ifc2x3tc1.impl.IfcTextStyleForDefinedFontImpl#getBackgroundColour <em>Background Colour</em>}</li>
  * </ul>
- * </p>
  *
  * @generated
  */
 public class IfcTextStyleForDefinedFontImpl extends IdEObjectImpl implements IfcTextStyleForDefinedFont {
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	protected IfcTextStyleForDefinedFontImpl() {
-		super();
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    protected IfcTextStyleForDefinedFontImpl() {
+        super();
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	@Override
-	protected EClass eStaticClass() {
-		return Ifc2x3tc1Package.Literals.IFC_TEXT_STYLE_FOR_DEFINED_FONT;
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    @Override
+    protected EClass eStaticClass() {
+        return Ifc2x3tc1Package.Literals.IFC_TEXT_STYLE_FOR_DEFINED_FONT;
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	@Override
-	protected int eStaticFeatureCount() {
-		return 0;
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    @Override
+    protected int eStaticFeatureCount() {
+        return 0;
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public IfcColour getColour() {
-		return (IfcColour) eGet(Ifc2x3tc1Package.Literals.IFC_TEXT_STYLE_FOR_DEFINED_FONT__COLOUR, true);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public IfcColour getColour() {
+        return (IfcColour) eGet(Ifc2x3tc1Package.Literals.IFC_TEXT_STYLE_FOR_DEFINED_FONT__COLOUR, true);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public void setColour(IfcColour newColour) {
-		eSet(Ifc2x3tc1Package.Literals.IFC_TEXT_STYLE_FOR_DEFINED_FONT__COLOUR, newColour);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public void setColour(IfcColour newColour) {
+        eSet(Ifc2x3tc1Package.Literals.IFC_TEXT_STYLE_FOR_DEFINED_FONT__COLOUR, newColour);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public IfcColour getBackgroundColour() {
-		return (IfcColour) eGet(Ifc2x3tc1Package.Literals.IFC_TEXT_STYLE_FOR_DEFINED_FONT__BACKGROUND_COLOUR, true);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public IfcColour getBackgroundColour() {
+        return (IfcColour) eGet(Ifc2x3tc1Package.Literals.IFC_TEXT_STYLE_FOR_DEFINED_FONT__BACKGROUND_COLOUR, true);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public void setBackgroundColour(IfcColour newBackgroundColour) {
-		eSet(Ifc2x3tc1Package.Literals.IFC_TEXT_STYLE_FOR_DEFINED_FONT__BACKGROUND_COLOUR, newBackgroundColour);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public void setBackgroundColour(IfcColour newBackgroundColour) {
+        eSet(Ifc2x3tc1Package.Literals.IFC_TEXT_STYLE_FOR_DEFINED_FONT__BACKGROUND_COLOUR, newBackgroundColour);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public void unsetBackgroundColour() {
-		eUnset(Ifc2x3tc1Package.Literals.IFC_TEXT_STYLE_FOR_DEFINED_FONT__BACKGROUND_COLOUR);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public void unsetBackgroundColour() {
+        eUnset(Ifc2x3tc1Package.Literals.IFC_TEXT_STYLE_FOR_DEFINED_FONT__BACKGROUND_COLOUR);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public boolean isSetBackgroundColour() {
-		return eIsSet(Ifc2x3tc1Package.Literals.IFC_TEXT_STYLE_FOR_DEFINED_FONT__BACKGROUND_COLOUR);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public boolean isSetBackgroundColour() {
+        return eIsSet(Ifc2x3tc1Package.Literals.IFC_TEXT_STYLE_FOR_DEFINED_FONT__BACKGROUND_COLOUR);
+    }
 
 } //IfcTextStyleForDefinedFontImpl

@@ -21,7 +21,9 @@ import org.bimserver.models.ifc2x3tc1.IfcSoundProperties;
 import org.bimserver.models.ifc2x3tc1.IfcSoundScaleEnum;
 import org.bimserver.models.ifc2x3tc1.IfcSoundValue;
 import org.bimserver.models.ifc2x3tc1.Tristate;
+
 import org.eclipse.emf.common.util.EList;
+
 import org.eclipse.emf.ecore.EClass;
 
 /**
@@ -30,97 +32,97 @@ import org.eclipse.emf.ecore.EClass;
  * <!-- end-user-doc -->
  * <p>
  * The following features are implemented:
+ * </p>
  * <ul>
  *   <li>{@link org.bimserver.models.ifc2x3tc1.impl.IfcSoundPropertiesImpl#getIsAttenuating <em>Is Attenuating</em>}</li>
  *   <li>{@link org.bimserver.models.ifc2x3tc1.impl.IfcSoundPropertiesImpl#getSoundScale <em>Sound Scale</em>}</li>
  *   <li>{@link org.bimserver.models.ifc2x3tc1.impl.IfcSoundPropertiesImpl#getSoundValues <em>Sound Values</em>}</li>
  * </ul>
- * </p>
  *
  * @generated
  */
 public class IfcSoundPropertiesImpl extends IfcPropertySetDefinitionImpl implements IfcSoundProperties {
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	protected IfcSoundPropertiesImpl() {
-		super();
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    protected IfcSoundPropertiesImpl() {
+        super();
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	@Override
-	protected EClass eStaticClass() {
-		return Ifc2x3tc1Package.Literals.IFC_SOUND_PROPERTIES;
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    @Override
+    protected EClass eStaticClass() {
+        return Ifc2x3tc1Package.Literals.IFC_SOUND_PROPERTIES;
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public Tristate getIsAttenuating() {
-		return (Tristate) eGet(Ifc2x3tc1Package.Literals.IFC_SOUND_PROPERTIES__IS_ATTENUATING, true);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public Tristate getIsAttenuating() {
+        return (Tristate) eGet(Ifc2x3tc1Package.Literals.IFC_SOUND_PROPERTIES__IS_ATTENUATING, true);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public void setIsAttenuating(Tristate newIsAttenuating) {
-		eSet(Ifc2x3tc1Package.Literals.IFC_SOUND_PROPERTIES__IS_ATTENUATING, newIsAttenuating);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public void setIsAttenuating(Tristate newIsAttenuating) {
+        eSet(Ifc2x3tc1Package.Literals.IFC_SOUND_PROPERTIES__IS_ATTENUATING, newIsAttenuating);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public IfcSoundScaleEnum getSoundScale() {
-		return (IfcSoundScaleEnum) eGet(Ifc2x3tc1Package.Literals.IFC_SOUND_PROPERTIES__SOUND_SCALE, true);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public IfcSoundScaleEnum getSoundScale() {
+        return (IfcSoundScaleEnum) eGet(Ifc2x3tc1Package.Literals.IFC_SOUND_PROPERTIES__SOUND_SCALE, true);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public void setSoundScale(IfcSoundScaleEnum newSoundScale) {
-		eSet(Ifc2x3tc1Package.Literals.IFC_SOUND_PROPERTIES__SOUND_SCALE, newSoundScale);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public void setSoundScale(IfcSoundScaleEnum newSoundScale) {
+        eSet(Ifc2x3tc1Package.Literals.IFC_SOUND_PROPERTIES__SOUND_SCALE, newSoundScale);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public void unsetSoundScale() {
-		eUnset(Ifc2x3tc1Package.Literals.IFC_SOUND_PROPERTIES__SOUND_SCALE);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public void unsetSoundScale() {
+        eUnset(Ifc2x3tc1Package.Literals.IFC_SOUND_PROPERTIES__SOUND_SCALE);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public boolean isSetSoundScale() {
-		return eIsSet(Ifc2x3tc1Package.Literals.IFC_SOUND_PROPERTIES__SOUND_SCALE);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public boolean isSetSoundScale() {
+        return eIsSet(Ifc2x3tc1Package.Literals.IFC_SOUND_PROPERTIES__SOUND_SCALE);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	@SuppressWarnings("unchecked")
-	public EList<IfcSoundValue> getSoundValues() {
-		return (EList<IfcSoundValue>) eGet(Ifc2x3tc1Package.Literals.IFC_SOUND_PROPERTIES__SOUND_VALUES, true);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    @SuppressWarnings("unchecked")
+    public EList<IfcSoundValue> getSoundValues() {
+        return (EList<IfcSoundValue>) eGet(Ifc2x3tc1Package.Literals.IFC_SOUND_PROPERTIES__SOUND_VALUES, true);
+    }
 
 } //IfcSoundPropertiesImpl

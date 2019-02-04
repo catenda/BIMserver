@@ -19,6 +19,7 @@ package org.bimserver.models.ifc2x3tc1.impl;
 import org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package;
 import org.bimserver.models.ifc2x3tc1.IfcProjectOrder;
 import org.bimserver.models.ifc2x3tc1.IfcProjectOrderTypeEnum;
+
 import org.eclipse.emf.ecore.EClass;
 
 /**
@@ -27,105 +28,105 @@ import org.eclipse.emf.ecore.EClass;
  * <!-- end-user-doc -->
  * <p>
  * The following features are implemented:
+ * </p>
  * <ul>
  *   <li>{@link org.bimserver.models.ifc2x3tc1.impl.IfcProjectOrderImpl#getID <em>ID</em>}</li>
  *   <li>{@link org.bimserver.models.ifc2x3tc1.impl.IfcProjectOrderImpl#getPredefinedType <em>Predefined Type</em>}</li>
  *   <li>{@link org.bimserver.models.ifc2x3tc1.impl.IfcProjectOrderImpl#getStatus <em>Status</em>}</li>
  * </ul>
- * </p>
  *
  * @generated
  */
 public class IfcProjectOrderImpl extends IfcControlImpl implements IfcProjectOrder {
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	protected IfcProjectOrderImpl() {
-		super();
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    protected IfcProjectOrderImpl() {
+        super();
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	@Override
-	protected EClass eStaticClass() {
-		return Ifc2x3tc1Package.Literals.IFC_PROJECT_ORDER;
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    @Override
+    protected EClass eStaticClass() {
+        return Ifc2x3tc1Package.Literals.IFC_PROJECT_ORDER;
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public String getID() {
-		return (String) eGet(Ifc2x3tc1Package.Literals.IFC_PROJECT_ORDER__ID, true);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public String getID() {
+        return (String) eGet(Ifc2x3tc1Package.Literals.IFC_PROJECT_ORDER__ID, true);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public void setID(String newID) {
-		eSet(Ifc2x3tc1Package.Literals.IFC_PROJECT_ORDER__ID, newID);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public void setID(String newID) {
+        eSet(Ifc2x3tc1Package.Literals.IFC_PROJECT_ORDER__ID, newID);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public IfcProjectOrderTypeEnum getPredefinedType() {
-		return (IfcProjectOrderTypeEnum) eGet(Ifc2x3tc1Package.Literals.IFC_PROJECT_ORDER__PREDEFINED_TYPE, true);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public IfcProjectOrderTypeEnum getPredefinedType() {
+        return (IfcProjectOrderTypeEnum) eGet(Ifc2x3tc1Package.Literals.IFC_PROJECT_ORDER__PREDEFINED_TYPE, true);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public void setPredefinedType(IfcProjectOrderTypeEnum newPredefinedType) {
-		eSet(Ifc2x3tc1Package.Literals.IFC_PROJECT_ORDER__PREDEFINED_TYPE, newPredefinedType);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public void setPredefinedType(IfcProjectOrderTypeEnum newPredefinedType) {
+        eSet(Ifc2x3tc1Package.Literals.IFC_PROJECT_ORDER__PREDEFINED_TYPE, newPredefinedType);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public String getStatus() {
-		return (String) eGet(Ifc2x3tc1Package.Literals.IFC_PROJECT_ORDER__STATUS, true);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public String getStatus() {
+        return (String) eGet(Ifc2x3tc1Package.Literals.IFC_PROJECT_ORDER__STATUS, true);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public void setStatus(String newStatus) {
-		eSet(Ifc2x3tc1Package.Literals.IFC_PROJECT_ORDER__STATUS, newStatus);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public void setStatus(String newStatus) {
+        eSet(Ifc2x3tc1Package.Literals.IFC_PROJECT_ORDER__STATUS, newStatus);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public void unsetStatus() {
-		eUnset(Ifc2x3tc1Package.Literals.IFC_PROJECT_ORDER__STATUS);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public void unsetStatus() {
+        eUnset(Ifc2x3tc1Package.Literals.IFC_PROJECT_ORDER__STATUS);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public boolean isSetStatus() {
-		return eIsSet(Ifc2x3tc1Package.Literals.IFC_PROJECT_ORDER__STATUS);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public boolean isSetStatus() {
+        return eIsSet(Ifc2x3tc1Package.Literals.IFC_PROJECT_ORDER__STATUS);
+    }
 
 } //IfcProjectOrderImpl

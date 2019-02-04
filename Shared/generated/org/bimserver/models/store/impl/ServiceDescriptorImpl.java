@@ -17,10 +17,13 @@
 package org.bimserver.models.store.impl;
 
 import org.bimserver.emf.IdEObjectImpl;
+
 import org.bimserver.models.log.AccessMethod;
+
 import org.bimserver.models.store.ServiceDescriptor;
 import org.bimserver.models.store.StorePackage;
 import org.bimserver.models.store.Trigger;
+
 import org.eclipse.emf.ecore.EClass;
 
 /**
@@ -29,6 +32,7 @@ import org.eclipse.emf.ecore.EClass;
  * <!-- end-user-doc -->
  * <p>
  * The following features are implemented:
+ * </p>
  * <ul>
  *   <li>{@link org.bimserver.models.store.impl.ServiceDescriptorImpl#getName <em>Name</em>}</li>
  *   <li>{@link org.bimserver.models.store.impl.ServiceDescriptorImpl#getUrl <em>Url</em>}</li>
@@ -43,254 +47,253 @@ import org.eclipse.emf.ecore.EClass;
  *   <li>{@link org.bimserver.models.store.impl.ServiceDescriptorImpl#getWriteExtendedData <em>Write Extended Data</em>}</li>
  *   <li>{@link org.bimserver.models.store.impl.ServiceDescriptorImpl#getProviderName <em>Provider Name</em>}</li>
  * </ul>
- * </p>
  *
  * @generated
  */
 public class ServiceDescriptorImpl extends IdEObjectImpl implements ServiceDescriptor {
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	protected ServiceDescriptorImpl() {
-		super();
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    protected ServiceDescriptorImpl() {
+        super();
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	@Override
-	protected EClass eStaticClass() {
-		return StorePackage.Literals.SERVICE_DESCRIPTOR;
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    @Override
+    protected EClass eStaticClass() {
+        return StorePackage.Literals.SERVICE_DESCRIPTOR;
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	@Override
-	protected int eStaticFeatureCount() {
-		return 0;
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    @Override
+    protected int eStaticFeatureCount() {
+        return 0;
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public String getName() {
-		return (String) eGet(StorePackage.Literals.SERVICE_DESCRIPTOR__NAME, true);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public String getName() {
+        return (String) eGet(StorePackage.Literals.SERVICE_DESCRIPTOR__NAME, true);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public void setName(String newName) {
-		eSet(StorePackage.Literals.SERVICE_DESCRIPTOR__NAME, newName);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public void setName(String newName) {
+        eSet(StorePackage.Literals.SERVICE_DESCRIPTOR__NAME, newName);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public String getUrl() {
-		return (String) eGet(StorePackage.Literals.SERVICE_DESCRIPTOR__URL, true);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public String getUrl() {
+        return (String) eGet(StorePackage.Literals.SERVICE_DESCRIPTOR__URL, true);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public void setUrl(String newUrl) {
-		eSet(StorePackage.Literals.SERVICE_DESCRIPTOR__URL, newUrl);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public void setUrl(String newUrl) {
+        eSet(StorePackage.Literals.SERVICE_DESCRIPTOR__URL, newUrl);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public String getToken() {
-		return (String) eGet(StorePackage.Literals.SERVICE_DESCRIPTOR__TOKEN, true);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public String getToken() {
+        return (String) eGet(StorePackage.Literals.SERVICE_DESCRIPTOR__TOKEN, true);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public void setToken(String newToken) {
-		eSet(StorePackage.Literals.SERVICE_DESCRIPTOR__TOKEN, newToken);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public void setToken(String newToken) {
+        eSet(StorePackage.Literals.SERVICE_DESCRIPTOR__TOKEN, newToken);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public String getIdentifier() {
-		return (String) eGet(StorePackage.Literals.SERVICE_DESCRIPTOR__IDENTIFIER, true);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public String getIdentifier() {
+        return (String) eGet(StorePackage.Literals.SERVICE_DESCRIPTOR__IDENTIFIER, true);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public void setIdentifier(String newIdentifier) {
-		eSet(StorePackage.Literals.SERVICE_DESCRIPTOR__IDENTIFIER, newIdentifier);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public void setIdentifier(String newIdentifier) {
+        eSet(StorePackage.Literals.SERVICE_DESCRIPTOR__IDENTIFIER, newIdentifier);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public AccessMethod getNotificationProtocol() {
-		return (AccessMethod) eGet(StorePackage.Literals.SERVICE_DESCRIPTOR__NOTIFICATION_PROTOCOL, true);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public AccessMethod getNotificationProtocol() {
+        return (AccessMethod) eGet(StorePackage.Literals.SERVICE_DESCRIPTOR__NOTIFICATION_PROTOCOL, true);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public void setNotificationProtocol(AccessMethod newNotificationProtocol) {
-		eSet(StorePackage.Literals.SERVICE_DESCRIPTOR__NOTIFICATION_PROTOCOL, newNotificationProtocol);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public void setNotificationProtocol(AccessMethod newNotificationProtocol) {
+        eSet(StorePackage.Literals.SERVICE_DESCRIPTOR__NOTIFICATION_PROTOCOL, newNotificationProtocol);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public String getDescription() {
-		return (String) eGet(StorePackage.Literals.SERVICE_DESCRIPTOR__DESCRIPTION, true);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public String getDescription() {
+        return (String) eGet(StorePackage.Literals.SERVICE_DESCRIPTOR__DESCRIPTION, true);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public void setDescription(String newDescription) {
-		eSet(StorePackage.Literals.SERVICE_DESCRIPTOR__DESCRIPTION, newDescription);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public void setDescription(String newDescription) {
+        eSet(StorePackage.Literals.SERVICE_DESCRIPTOR__DESCRIPTION, newDescription);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public Trigger getTrigger() {
-		return (Trigger) eGet(StorePackage.Literals.SERVICE_DESCRIPTOR__TRIGGER, true);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public Trigger getTrigger() {
+        return (Trigger) eGet(StorePackage.Literals.SERVICE_DESCRIPTOR__TRIGGER, true);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public void setTrigger(Trigger newTrigger) {
-		eSet(StorePackage.Literals.SERVICE_DESCRIPTOR__TRIGGER, newTrigger);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public void setTrigger(Trigger newTrigger) {
+        eSet(StorePackage.Literals.SERVICE_DESCRIPTOR__TRIGGER, newTrigger);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public boolean isReadRevision() {
-		return (Boolean) eGet(StorePackage.Literals.SERVICE_DESCRIPTOR__READ_REVISION, true);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public boolean isReadRevision() {
+        return (Boolean) eGet(StorePackage.Literals.SERVICE_DESCRIPTOR__READ_REVISION, true);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public void setReadRevision(boolean newReadRevision) {
-		eSet(StorePackage.Literals.SERVICE_DESCRIPTOR__READ_REVISION, newReadRevision);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public void setReadRevision(boolean newReadRevision) {
+        eSet(StorePackage.Literals.SERVICE_DESCRIPTOR__READ_REVISION, newReadRevision);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public String getReadExtendedData() {
-		return (String) eGet(StorePackage.Literals.SERVICE_DESCRIPTOR__READ_EXTENDED_DATA, true);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public String getReadExtendedData() {
+        return (String) eGet(StorePackage.Literals.SERVICE_DESCRIPTOR__READ_EXTENDED_DATA, true);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public void setReadExtendedData(String newReadExtendedData) {
-		eSet(StorePackage.Literals.SERVICE_DESCRIPTOR__READ_EXTENDED_DATA, newReadExtendedData);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public void setReadExtendedData(String newReadExtendedData) {
+        eSet(StorePackage.Literals.SERVICE_DESCRIPTOR__READ_EXTENDED_DATA, newReadExtendedData);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public boolean isWriteRevision() {
-		return (Boolean) eGet(StorePackage.Literals.SERVICE_DESCRIPTOR__WRITE_REVISION, true);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public boolean isWriteRevision() {
+        return (Boolean) eGet(StorePackage.Literals.SERVICE_DESCRIPTOR__WRITE_REVISION, true);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public void setWriteRevision(boolean newWriteRevision) {
-		eSet(StorePackage.Literals.SERVICE_DESCRIPTOR__WRITE_REVISION, newWriteRevision);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public void setWriteRevision(boolean newWriteRevision) {
+        eSet(StorePackage.Literals.SERVICE_DESCRIPTOR__WRITE_REVISION, newWriteRevision);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public String getWriteExtendedData() {
-		return (String) eGet(StorePackage.Literals.SERVICE_DESCRIPTOR__WRITE_EXTENDED_DATA, true);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public String getWriteExtendedData() {
+        return (String) eGet(StorePackage.Literals.SERVICE_DESCRIPTOR__WRITE_EXTENDED_DATA, true);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public void setWriteExtendedData(String newWriteExtendedData) {
-		eSet(StorePackage.Literals.SERVICE_DESCRIPTOR__WRITE_EXTENDED_DATA, newWriteExtendedData);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public void setWriteExtendedData(String newWriteExtendedData) {
+        eSet(StorePackage.Literals.SERVICE_DESCRIPTOR__WRITE_EXTENDED_DATA, newWriteExtendedData);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public String getProviderName() {
-		return (String) eGet(StorePackage.Literals.SERVICE_DESCRIPTOR__PROVIDER_NAME, true);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public String getProviderName() {
+        return (String) eGet(StorePackage.Literals.SERVICE_DESCRIPTOR__PROVIDER_NAME, true);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public void setProviderName(String newProviderName) {
-		eSet(StorePackage.Literals.SERVICE_DESCRIPTOR__PROVIDER_NAME, newProviderName);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public void setProviderName(String newProviderName) {
+        eSet(StorePackage.Literals.SERVICE_DESCRIPTOR__PROVIDER_NAME, newProviderName);
+    }
 
 } //ServiceDescriptorImpl

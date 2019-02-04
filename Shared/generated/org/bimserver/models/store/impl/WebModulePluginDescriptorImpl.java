@@ -18,35 +18,34 @@ package org.bimserver.models.store.impl;
 
 import org.bimserver.models.store.StorePackage;
 import org.bimserver.models.store.WebModulePluginDescriptor;
+
 import org.eclipse.emf.ecore.EClass;
 
 /**
  * <!-- begin-user-doc -->
  * An implementation of the model object '<em><b>Web Module Plugin Descriptor</b></em>'.
  * <!-- end-user-doc -->
- * <p>
- * </p>
  *
  * @generated
  */
 public class WebModulePluginDescriptorImpl extends PluginDescriptorImpl implements WebModulePluginDescriptor {
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	protected WebModulePluginDescriptorImpl() {
-		super();
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    protected WebModulePluginDescriptorImpl() {
+        super();
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	@Override
-	protected EClass eStaticClass() {
-		return StorePackage.Literals.WEB_MODULE_PLUGIN_DESCRIPTOR;
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    @Override
+    protected EClass eStaticClass() {
+        return StorePackage.Literals.WEB_MODULE_PLUGIN_DESCRIPTOR;
+    }
 
 } //WebModulePluginDescriptorImpl

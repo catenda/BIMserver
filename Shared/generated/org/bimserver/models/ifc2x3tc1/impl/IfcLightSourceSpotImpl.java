@@ -19,6 +19,7 @@ package org.bimserver.models.ifc2x3tc1.impl;
 import org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package;
 import org.bimserver.models.ifc2x3tc1.IfcDirection;
 import org.bimserver.models.ifc2x3tc1.IfcLightSourceSpot;
+
 import org.eclipse.emf.ecore.EClass;
 
 /**
@@ -27,6 +28,7 @@ import org.eclipse.emf.ecore.EClass;
  * <!-- end-user-doc -->
  * <p>
  * The following features are implemented:
+ * </p>
  * <ul>
  *   <li>{@link org.bimserver.models.ifc2x3tc1.impl.IfcLightSourceSpotImpl#getOrientation <em>Orientation</em>}</li>
  *   <li>{@link org.bimserver.models.ifc2x3tc1.impl.IfcLightSourceSpotImpl#getConcentrationExponent <em>Concentration Exponent</em>}</li>
@@ -36,190 +38,190 @@ import org.eclipse.emf.ecore.EClass;
  *   <li>{@link org.bimserver.models.ifc2x3tc1.impl.IfcLightSourceSpotImpl#getBeamWidthAngle <em>Beam Width Angle</em>}</li>
  *   <li>{@link org.bimserver.models.ifc2x3tc1.impl.IfcLightSourceSpotImpl#getBeamWidthAngleAsString <em>Beam Width Angle As String</em>}</li>
  * </ul>
- * </p>
  *
  * @generated
  */
 public class IfcLightSourceSpotImpl extends IfcLightSourcePositionalImpl implements IfcLightSourceSpot {
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	protected IfcLightSourceSpotImpl() {
-		super();
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    protected IfcLightSourceSpotImpl() {
+        super();
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	@Override
-	protected EClass eStaticClass() {
-		return Ifc2x3tc1Package.Literals.IFC_LIGHT_SOURCE_SPOT;
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    @Override
+    protected EClass eStaticClass() {
+        return Ifc2x3tc1Package.Literals.IFC_LIGHT_SOURCE_SPOT;
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public IfcDirection getOrientation() {
-		return (IfcDirection) eGet(Ifc2x3tc1Package.Literals.IFC_LIGHT_SOURCE_SPOT__ORIENTATION, true);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public IfcDirection getOrientation() {
+        return (IfcDirection) eGet(Ifc2x3tc1Package.Literals.IFC_LIGHT_SOURCE_SPOT__ORIENTATION, true);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public void setOrientation(IfcDirection newOrientation) {
-		eSet(Ifc2x3tc1Package.Literals.IFC_LIGHT_SOURCE_SPOT__ORIENTATION, newOrientation);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public void setOrientation(IfcDirection newOrientation) {
+        eSet(Ifc2x3tc1Package.Literals.IFC_LIGHT_SOURCE_SPOT__ORIENTATION, newOrientation);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public double getConcentrationExponent() {
-		return (Double) eGet(Ifc2x3tc1Package.Literals.IFC_LIGHT_SOURCE_SPOT__CONCENTRATION_EXPONENT, true);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public double getConcentrationExponent() {
+        return (Double) eGet(Ifc2x3tc1Package.Literals.IFC_LIGHT_SOURCE_SPOT__CONCENTRATION_EXPONENT, true);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public void setConcentrationExponent(double newConcentrationExponent) {
-		eSet(Ifc2x3tc1Package.Literals.IFC_LIGHT_SOURCE_SPOT__CONCENTRATION_EXPONENT, newConcentrationExponent);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public void setConcentrationExponent(double newConcentrationExponent) {
+        eSet(Ifc2x3tc1Package.Literals.IFC_LIGHT_SOURCE_SPOT__CONCENTRATION_EXPONENT, newConcentrationExponent);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public void unsetConcentrationExponent() {
-		eUnset(Ifc2x3tc1Package.Literals.IFC_LIGHT_SOURCE_SPOT__CONCENTRATION_EXPONENT);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public void unsetConcentrationExponent() {
+        eUnset(Ifc2x3tc1Package.Literals.IFC_LIGHT_SOURCE_SPOT__CONCENTRATION_EXPONENT);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public boolean isSetConcentrationExponent() {
-		return eIsSet(Ifc2x3tc1Package.Literals.IFC_LIGHT_SOURCE_SPOT__CONCENTRATION_EXPONENT);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public boolean isSetConcentrationExponent() {
+        return eIsSet(Ifc2x3tc1Package.Literals.IFC_LIGHT_SOURCE_SPOT__CONCENTRATION_EXPONENT);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public String getConcentrationExponentAsString() {
-		return (String) eGet(Ifc2x3tc1Package.Literals.IFC_LIGHT_SOURCE_SPOT__CONCENTRATION_EXPONENT_AS_STRING, true);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public String getConcentrationExponentAsString() {
+        return (String) eGet(Ifc2x3tc1Package.Literals.IFC_LIGHT_SOURCE_SPOT__CONCENTRATION_EXPONENT_AS_STRING, true);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public void setConcentrationExponentAsString(String newConcentrationExponentAsString) {
-		eSet(Ifc2x3tc1Package.Literals.IFC_LIGHT_SOURCE_SPOT__CONCENTRATION_EXPONENT_AS_STRING, newConcentrationExponentAsString);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public void setConcentrationExponentAsString(String newConcentrationExponentAsString) {
+        eSet(Ifc2x3tc1Package.Literals.IFC_LIGHT_SOURCE_SPOT__CONCENTRATION_EXPONENT_AS_STRING,
+                newConcentrationExponentAsString);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public void unsetConcentrationExponentAsString() {
-		eUnset(Ifc2x3tc1Package.Literals.IFC_LIGHT_SOURCE_SPOT__CONCENTRATION_EXPONENT_AS_STRING);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public void unsetConcentrationExponentAsString() {
+        eUnset(Ifc2x3tc1Package.Literals.IFC_LIGHT_SOURCE_SPOT__CONCENTRATION_EXPONENT_AS_STRING);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public boolean isSetConcentrationExponentAsString() {
-		return eIsSet(Ifc2x3tc1Package.Literals.IFC_LIGHT_SOURCE_SPOT__CONCENTRATION_EXPONENT_AS_STRING);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public boolean isSetConcentrationExponentAsString() {
+        return eIsSet(Ifc2x3tc1Package.Literals.IFC_LIGHT_SOURCE_SPOT__CONCENTRATION_EXPONENT_AS_STRING);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public double getSpreadAngle() {
-		return (Double) eGet(Ifc2x3tc1Package.Literals.IFC_LIGHT_SOURCE_SPOT__SPREAD_ANGLE, true);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public double getSpreadAngle() {
+        return (Double) eGet(Ifc2x3tc1Package.Literals.IFC_LIGHT_SOURCE_SPOT__SPREAD_ANGLE, true);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public void setSpreadAngle(double newSpreadAngle) {
-		eSet(Ifc2x3tc1Package.Literals.IFC_LIGHT_SOURCE_SPOT__SPREAD_ANGLE, newSpreadAngle);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public void setSpreadAngle(double newSpreadAngle) {
+        eSet(Ifc2x3tc1Package.Literals.IFC_LIGHT_SOURCE_SPOT__SPREAD_ANGLE, newSpreadAngle);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public String getSpreadAngleAsString() {
-		return (String) eGet(Ifc2x3tc1Package.Literals.IFC_LIGHT_SOURCE_SPOT__SPREAD_ANGLE_AS_STRING, true);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public String getSpreadAngleAsString() {
+        return (String) eGet(Ifc2x3tc1Package.Literals.IFC_LIGHT_SOURCE_SPOT__SPREAD_ANGLE_AS_STRING, true);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public void setSpreadAngleAsString(String newSpreadAngleAsString) {
-		eSet(Ifc2x3tc1Package.Literals.IFC_LIGHT_SOURCE_SPOT__SPREAD_ANGLE_AS_STRING, newSpreadAngleAsString);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public void setSpreadAngleAsString(String newSpreadAngleAsString) {
+        eSet(Ifc2x3tc1Package.Literals.IFC_LIGHT_SOURCE_SPOT__SPREAD_ANGLE_AS_STRING, newSpreadAngleAsString);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public double getBeamWidthAngle() {
-		return (Double) eGet(Ifc2x3tc1Package.Literals.IFC_LIGHT_SOURCE_SPOT__BEAM_WIDTH_ANGLE, true);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public double getBeamWidthAngle() {
+        return (Double) eGet(Ifc2x3tc1Package.Literals.IFC_LIGHT_SOURCE_SPOT__BEAM_WIDTH_ANGLE, true);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public void setBeamWidthAngle(double newBeamWidthAngle) {
-		eSet(Ifc2x3tc1Package.Literals.IFC_LIGHT_SOURCE_SPOT__BEAM_WIDTH_ANGLE, newBeamWidthAngle);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public void setBeamWidthAngle(double newBeamWidthAngle) {
+        eSet(Ifc2x3tc1Package.Literals.IFC_LIGHT_SOURCE_SPOT__BEAM_WIDTH_ANGLE, newBeamWidthAngle);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public String getBeamWidthAngleAsString() {
-		return (String) eGet(Ifc2x3tc1Package.Literals.IFC_LIGHT_SOURCE_SPOT__BEAM_WIDTH_ANGLE_AS_STRING, true);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public String getBeamWidthAngleAsString() {
+        return (String) eGet(Ifc2x3tc1Package.Literals.IFC_LIGHT_SOURCE_SPOT__BEAM_WIDTH_ANGLE_AS_STRING, true);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public void setBeamWidthAngleAsString(String newBeamWidthAngleAsString) {
-		eSet(Ifc2x3tc1Package.Literals.IFC_LIGHT_SOURCE_SPOT__BEAM_WIDTH_ANGLE_AS_STRING, newBeamWidthAngleAsString);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public void setBeamWidthAngleAsString(String newBeamWidthAngleAsString) {
+        eSet(Ifc2x3tc1Package.Literals.IFC_LIGHT_SOURCE_SPOT__BEAM_WIDTH_ANGLE_AS_STRING, newBeamWidthAngleAsString);
+    }
 
 } //IfcLightSourceSpotImpl

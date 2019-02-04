@@ -19,6 +19,7 @@ package org.bimserver.models.ifc2x3tc1.impl;
 import org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package;
 import org.bimserver.models.ifc2x3tc1.IfcAppliedValue;
 import org.bimserver.models.ifc2x3tc1.IfcRelAssociatesAppliedValue;
+
 import org.eclipse.emf.ecore.EClass;
 
 /**
@@ -27,49 +28,51 @@ import org.eclipse.emf.ecore.EClass;
  * <!-- end-user-doc -->
  * <p>
  * The following features are implemented:
+ * </p>
  * <ul>
  *   <li>{@link org.bimserver.models.ifc2x3tc1.impl.IfcRelAssociatesAppliedValueImpl#getRelatingAppliedValue <em>Relating Applied Value</em>}</li>
  * </ul>
- * </p>
  *
  * @generated
  */
 public class IfcRelAssociatesAppliedValueImpl extends IfcRelAssociatesImpl implements IfcRelAssociatesAppliedValue {
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	protected IfcRelAssociatesAppliedValueImpl() {
-		super();
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    protected IfcRelAssociatesAppliedValueImpl() {
+        super();
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	@Override
-	protected EClass eStaticClass() {
-		return Ifc2x3tc1Package.Literals.IFC_REL_ASSOCIATES_APPLIED_VALUE;
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    @Override
+    protected EClass eStaticClass() {
+        return Ifc2x3tc1Package.Literals.IFC_REL_ASSOCIATES_APPLIED_VALUE;
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public IfcAppliedValue getRelatingAppliedValue() {
-		return (IfcAppliedValue) eGet(Ifc2x3tc1Package.Literals.IFC_REL_ASSOCIATES_APPLIED_VALUE__RELATING_APPLIED_VALUE, true);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public IfcAppliedValue getRelatingAppliedValue() {
+        return (IfcAppliedValue) eGet(
+                Ifc2x3tc1Package.Literals.IFC_REL_ASSOCIATES_APPLIED_VALUE__RELATING_APPLIED_VALUE, true);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public void setRelatingAppliedValue(IfcAppliedValue newRelatingAppliedValue) {
-		eSet(Ifc2x3tc1Package.Literals.IFC_REL_ASSOCIATES_APPLIED_VALUE__RELATING_APPLIED_VALUE, newRelatingAppliedValue);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public void setRelatingAppliedValue(IfcAppliedValue newRelatingAppliedValue) {
+        eSet(Ifc2x3tc1Package.Literals.IFC_REL_ASSOCIATES_APPLIED_VALUE__RELATING_APPLIED_VALUE,
+                newRelatingAppliedValue);
+    }
 
 } //IfcRelAssociatesAppliedValueImpl

@@ -20,6 +20,7 @@ import org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package;
 import org.bimserver.models.ifc2x3tc1.IfcCartesianTransformationOperator2D;
 import org.bimserver.models.ifc2x3tc1.IfcDefinedSymbol;
 import org.bimserver.models.ifc2x3tc1.IfcDefinedSymbolSelect;
+
 import org.eclipse.emf.ecore.EClass;
 
 /**
@@ -28,68 +29,68 @@ import org.eclipse.emf.ecore.EClass;
  * <!-- end-user-doc -->
  * <p>
  * The following features are implemented:
+ * </p>
  * <ul>
  *   <li>{@link org.bimserver.models.ifc2x3tc1.impl.IfcDefinedSymbolImpl#getDefinition <em>Definition</em>}</li>
  *   <li>{@link org.bimserver.models.ifc2x3tc1.impl.IfcDefinedSymbolImpl#getTarget <em>Target</em>}</li>
  * </ul>
- * </p>
  *
  * @generated
  */
 public class IfcDefinedSymbolImpl extends IfcGeometricRepresentationItemImpl implements IfcDefinedSymbol {
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	protected IfcDefinedSymbolImpl() {
-		super();
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    protected IfcDefinedSymbolImpl() {
+        super();
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	@Override
-	protected EClass eStaticClass() {
-		return Ifc2x3tc1Package.Literals.IFC_DEFINED_SYMBOL;
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    @Override
+    protected EClass eStaticClass() {
+        return Ifc2x3tc1Package.Literals.IFC_DEFINED_SYMBOL;
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public IfcDefinedSymbolSelect getDefinition() {
-		return (IfcDefinedSymbolSelect) eGet(Ifc2x3tc1Package.Literals.IFC_DEFINED_SYMBOL__DEFINITION, true);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public IfcDefinedSymbolSelect getDefinition() {
+        return (IfcDefinedSymbolSelect) eGet(Ifc2x3tc1Package.Literals.IFC_DEFINED_SYMBOL__DEFINITION, true);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public void setDefinition(IfcDefinedSymbolSelect newDefinition) {
-		eSet(Ifc2x3tc1Package.Literals.IFC_DEFINED_SYMBOL__DEFINITION, newDefinition);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public void setDefinition(IfcDefinedSymbolSelect newDefinition) {
+        eSet(Ifc2x3tc1Package.Literals.IFC_DEFINED_SYMBOL__DEFINITION, newDefinition);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public IfcCartesianTransformationOperator2D getTarget() {
-		return (IfcCartesianTransformationOperator2D) eGet(Ifc2x3tc1Package.Literals.IFC_DEFINED_SYMBOL__TARGET, true);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public IfcCartesianTransformationOperator2D getTarget() {
+        return (IfcCartesianTransformationOperator2D) eGet(Ifc2x3tc1Package.Literals.IFC_DEFINED_SYMBOL__TARGET, true);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public void setTarget(IfcCartesianTransformationOperator2D newTarget) {
-		eSet(Ifc2x3tc1Package.Literals.IFC_DEFINED_SYMBOL__TARGET, newTarget);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public void setTarget(IfcCartesianTransformationOperator2D newTarget) {
+        eSet(Ifc2x3tc1Package.Literals.IFC_DEFINED_SYMBOL__TARGET, newTarget);
+    }
 
 } //IfcDefinedSymbolImpl

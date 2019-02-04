@@ -17,6 +17,7 @@
 package org.bimserver.models.ifc2x3tc1;
 
 import org.bimserver.emf.IdEObject;
+
 import org.eclipse.emf.common.util.EList;
 
 /**
@@ -26,11 +27,11 @@ import org.eclipse.emf.common.util.EList;
  *
  * <p>
  * The following features are supported:
+ * </p>
  * <ul>
  *   <li>{@link org.bimserver.models.ifc2x3tc1.IfcConstraintClassificationRelationship#getClassifiedConstraint <em>Classified Constraint</em>}</li>
  *   <li>{@link org.bimserver.models.ifc2x3tc1.IfcConstraintClassificationRelationship#getRelatedClassifications <em>Related Classifications</em>}</li>
  * </ul>
- * </p>
  *
  * @see org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package#getIfcConstraintClassificationRelationship()
  * @model
@@ -38,48 +39,48 @@ import org.eclipse.emf.common.util.EList;
  * @generated
  */
 public interface IfcConstraintClassificationRelationship extends IdEObject {
-	/**
-	 * Returns the value of the '<em><b>Classified Constraint</b></em>' reference.
-	 * It is bidirectional and its opposite is '{@link org.bimserver.models.ifc2x3tc1.IfcConstraint#getClassifiedAs <em>Classified As</em>}'.
-	 * <!-- begin-user-doc -->
-	 * <p>
-	 * If the meaning of the '<em>Classified Constraint</em>' reference isn't clear,
-	 * there really should be more of a description here...
-	 * </p>
-	 * <!-- end-user-doc -->
-	 * @return the value of the '<em>Classified Constraint</em>' reference.
-	 * @see #setClassifiedConstraint(IfcConstraint)
-	 * @see org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package#getIfcConstraintClassificationRelationship_ClassifiedConstraint()
-	 * @see org.bimserver.models.ifc2x3tc1.IfcConstraint#getClassifiedAs
-	 * @model opposite="ClassifiedAs"
-	 * @generated
-	 */
-	IfcConstraint getClassifiedConstraint();
+    /**
+     * Returns the value of the '<em><b>Classified Constraint</b></em>' reference.
+     * It is bidirectional and its opposite is '{@link org.bimserver.models.ifc2x3tc1.IfcConstraint#getClassifiedAs <em>Classified As</em>}'.
+     * <!-- begin-user-doc -->
+     * <p>
+     * If the meaning of the '<em>Classified Constraint</em>' reference isn't clear,
+     * there really should be more of a description here...
+     * </p>
+     * <!-- end-user-doc -->
+     * @return the value of the '<em>Classified Constraint</em>' reference.
+     * @see #setClassifiedConstraint(IfcConstraint)
+     * @see org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package#getIfcConstraintClassificationRelationship_ClassifiedConstraint()
+     * @see org.bimserver.models.ifc2x3tc1.IfcConstraint#getClassifiedAs
+     * @model opposite="ClassifiedAs"
+     * @generated
+     */
+    IfcConstraint getClassifiedConstraint();
 
-	/**
-	 * Sets the value of the '{@link org.bimserver.models.ifc2x3tc1.IfcConstraintClassificationRelationship#getClassifiedConstraint <em>Classified Constraint</em>}' reference.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @param value the new value of the '<em>Classified Constraint</em>' reference.
-	 * @see #getClassifiedConstraint()
-	 * @generated
-	 */
-	void setClassifiedConstraint(IfcConstraint value);
+    /**
+     * Sets the value of the '{@link org.bimserver.models.ifc2x3tc1.IfcConstraintClassificationRelationship#getClassifiedConstraint <em>Classified Constraint</em>}' reference.
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @param value the new value of the '<em>Classified Constraint</em>' reference.
+     * @see #getClassifiedConstraint()
+     * @generated
+     */
+    void setClassifiedConstraint(IfcConstraint value);
 
-	/**
-	 * Returns the value of the '<em><b>Related Classifications</b></em>' reference list.
-	 * The list contents are of type {@link org.bimserver.models.ifc2x3tc1.IfcClassificationNotationSelect}.
-	 * <!-- begin-user-doc -->
-	 * <p>
-	 * If the meaning of the '<em>Related Classifications</em>' reference list isn't clear,
-	 * there really should be more of a description here...
-	 * </p>
-	 * <!-- end-user-doc -->
-	 * @return the value of the '<em>Related Classifications</em>' reference list.
-	 * @see org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package#getIfcConstraintClassificationRelationship_RelatedClassifications()
-	 * @model
-	 * @generated
-	 */
-	EList<IfcClassificationNotationSelect> getRelatedClassifications();
+    /**
+     * Returns the value of the '<em><b>Related Classifications</b></em>' reference list.
+     * The list contents are of type {@link org.bimserver.models.ifc2x3tc1.IfcClassificationNotationSelect}.
+     * <!-- begin-user-doc -->
+     * <p>
+     * If the meaning of the '<em>Related Classifications</em>' reference list isn't clear,
+     * there really should be more of a description here...
+     * </p>
+     * <!-- end-user-doc -->
+     * @return the value of the '<em>Related Classifications</em>' reference list.
+     * @see org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package#getIfcConstraintClassificationRelationship_RelatedClassifications()
+     * @model
+     * @generated
+     */
+    EList<IfcClassificationNotationSelect> getRelatedClassifications();
 
 } // IfcConstraintClassificationRelationship

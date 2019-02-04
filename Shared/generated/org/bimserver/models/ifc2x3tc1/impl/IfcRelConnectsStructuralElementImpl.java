@@ -20,6 +20,7 @@ import org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package;
 import org.bimserver.models.ifc2x3tc1.IfcElement;
 import org.bimserver.models.ifc2x3tc1.IfcRelConnectsStructuralElement;
 import org.bimserver.models.ifc2x3tc1.IfcStructuralMember;
+
 import org.eclipse.emf.ecore.EClass;
 
 /**
@@ -28,68 +29,70 @@ import org.eclipse.emf.ecore.EClass;
  * <!-- end-user-doc -->
  * <p>
  * The following features are implemented:
+ * </p>
  * <ul>
  *   <li>{@link org.bimserver.models.ifc2x3tc1.impl.IfcRelConnectsStructuralElementImpl#getRelatingElement <em>Relating Element</em>}</li>
  *   <li>{@link org.bimserver.models.ifc2x3tc1.impl.IfcRelConnectsStructuralElementImpl#getRelatedStructuralMember <em>Related Structural Member</em>}</li>
  * </ul>
- * </p>
  *
  * @generated
  */
 public class IfcRelConnectsStructuralElementImpl extends IfcRelConnectsImpl implements IfcRelConnectsStructuralElement {
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	protected IfcRelConnectsStructuralElementImpl() {
-		super();
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    protected IfcRelConnectsStructuralElementImpl() {
+        super();
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	@Override
-	protected EClass eStaticClass() {
-		return Ifc2x3tc1Package.Literals.IFC_REL_CONNECTS_STRUCTURAL_ELEMENT;
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    @Override
+    protected EClass eStaticClass() {
+        return Ifc2x3tc1Package.Literals.IFC_REL_CONNECTS_STRUCTURAL_ELEMENT;
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public IfcElement getRelatingElement() {
-		return (IfcElement) eGet(Ifc2x3tc1Package.Literals.IFC_REL_CONNECTS_STRUCTURAL_ELEMENT__RELATING_ELEMENT, true);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public IfcElement getRelatingElement() {
+        return (IfcElement) eGet(Ifc2x3tc1Package.Literals.IFC_REL_CONNECTS_STRUCTURAL_ELEMENT__RELATING_ELEMENT, true);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public void setRelatingElement(IfcElement newRelatingElement) {
-		eSet(Ifc2x3tc1Package.Literals.IFC_REL_CONNECTS_STRUCTURAL_ELEMENT__RELATING_ELEMENT, newRelatingElement);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public void setRelatingElement(IfcElement newRelatingElement) {
+        eSet(Ifc2x3tc1Package.Literals.IFC_REL_CONNECTS_STRUCTURAL_ELEMENT__RELATING_ELEMENT, newRelatingElement);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public IfcStructuralMember getRelatedStructuralMember() {
-		return (IfcStructuralMember) eGet(Ifc2x3tc1Package.Literals.IFC_REL_CONNECTS_STRUCTURAL_ELEMENT__RELATED_STRUCTURAL_MEMBER, true);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public IfcStructuralMember getRelatedStructuralMember() {
+        return (IfcStructuralMember) eGet(
+                Ifc2x3tc1Package.Literals.IFC_REL_CONNECTS_STRUCTURAL_ELEMENT__RELATED_STRUCTURAL_MEMBER, true);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public void setRelatedStructuralMember(IfcStructuralMember newRelatedStructuralMember) {
-		eSet(Ifc2x3tc1Package.Literals.IFC_REL_CONNECTS_STRUCTURAL_ELEMENT__RELATED_STRUCTURAL_MEMBER, newRelatedStructuralMember);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public void setRelatedStructuralMember(IfcStructuralMember newRelatedStructuralMember) {
+        eSet(Ifc2x3tc1Package.Literals.IFC_REL_CONNECTS_STRUCTURAL_ELEMENT__RELATED_STRUCTURAL_MEMBER,
+                newRelatedStructuralMember);
+    }
 
 } //IfcRelConnectsStructuralElementImpl

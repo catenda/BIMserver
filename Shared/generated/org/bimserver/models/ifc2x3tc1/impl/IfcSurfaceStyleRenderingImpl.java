@@ -21,6 +21,7 @@ import org.bimserver.models.ifc2x3tc1.IfcColourOrFactor;
 import org.bimserver.models.ifc2x3tc1.IfcReflectanceMethodEnum;
 import org.bimserver.models.ifc2x3tc1.IfcSpecularHighlightSelect;
 import org.bimserver.models.ifc2x3tc1.IfcSurfaceStyleRendering;
+
 import org.eclipse.emf.ecore.EClass;
 
 /**
@@ -29,6 +30,7 @@ import org.eclipse.emf.ecore.EClass;
  * <!-- end-user-doc -->
  * <p>
  * The following features are implemented:
+ * </p>
  * <ul>
  *   <li>{@link org.bimserver.models.ifc2x3tc1.impl.IfcSurfaceStyleRenderingImpl#getTransparency <em>Transparency</em>}</li>
  *   <li>{@link org.bimserver.models.ifc2x3tc1.impl.IfcSurfaceStyleRenderingImpl#getTransparencyAsString <em>Transparency As String</em>}</li>
@@ -40,334 +42,338 @@ import org.eclipse.emf.ecore.EClass;
  *   <li>{@link org.bimserver.models.ifc2x3tc1.impl.IfcSurfaceStyleRenderingImpl#getSpecularHighlight <em>Specular Highlight</em>}</li>
  *   <li>{@link org.bimserver.models.ifc2x3tc1.impl.IfcSurfaceStyleRenderingImpl#getReflectanceMethod <em>Reflectance Method</em>}</li>
  * </ul>
- * </p>
  *
  * @generated
  */
 public class IfcSurfaceStyleRenderingImpl extends IfcSurfaceStyleShadingImpl implements IfcSurfaceStyleRendering {
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	protected IfcSurfaceStyleRenderingImpl() {
-		super();
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    protected IfcSurfaceStyleRenderingImpl() {
+        super();
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	@Override
-	protected EClass eStaticClass() {
-		return Ifc2x3tc1Package.Literals.IFC_SURFACE_STYLE_RENDERING;
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    @Override
+    protected EClass eStaticClass() {
+        return Ifc2x3tc1Package.Literals.IFC_SURFACE_STYLE_RENDERING;
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public double getTransparency() {
-		return (Double) eGet(Ifc2x3tc1Package.Literals.IFC_SURFACE_STYLE_RENDERING__TRANSPARENCY, true);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public double getTransparency() {
+        return (Double) eGet(Ifc2x3tc1Package.Literals.IFC_SURFACE_STYLE_RENDERING__TRANSPARENCY, true);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public void setTransparency(double newTransparency) {
-		eSet(Ifc2x3tc1Package.Literals.IFC_SURFACE_STYLE_RENDERING__TRANSPARENCY, newTransparency);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public void setTransparency(double newTransparency) {
+        eSet(Ifc2x3tc1Package.Literals.IFC_SURFACE_STYLE_RENDERING__TRANSPARENCY, newTransparency);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public void unsetTransparency() {
-		eUnset(Ifc2x3tc1Package.Literals.IFC_SURFACE_STYLE_RENDERING__TRANSPARENCY);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public void unsetTransparency() {
+        eUnset(Ifc2x3tc1Package.Literals.IFC_SURFACE_STYLE_RENDERING__TRANSPARENCY);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public boolean isSetTransparency() {
-		return eIsSet(Ifc2x3tc1Package.Literals.IFC_SURFACE_STYLE_RENDERING__TRANSPARENCY);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public boolean isSetTransparency() {
+        return eIsSet(Ifc2x3tc1Package.Literals.IFC_SURFACE_STYLE_RENDERING__TRANSPARENCY);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public String getTransparencyAsString() {
-		return (String) eGet(Ifc2x3tc1Package.Literals.IFC_SURFACE_STYLE_RENDERING__TRANSPARENCY_AS_STRING, true);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public String getTransparencyAsString() {
+        return (String) eGet(Ifc2x3tc1Package.Literals.IFC_SURFACE_STYLE_RENDERING__TRANSPARENCY_AS_STRING, true);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public void setTransparencyAsString(String newTransparencyAsString) {
-		eSet(Ifc2x3tc1Package.Literals.IFC_SURFACE_STYLE_RENDERING__TRANSPARENCY_AS_STRING, newTransparencyAsString);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public void setTransparencyAsString(String newTransparencyAsString) {
+        eSet(Ifc2x3tc1Package.Literals.IFC_SURFACE_STYLE_RENDERING__TRANSPARENCY_AS_STRING, newTransparencyAsString);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public void unsetTransparencyAsString() {
-		eUnset(Ifc2x3tc1Package.Literals.IFC_SURFACE_STYLE_RENDERING__TRANSPARENCY_AS_STRING);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public void unsetTransparencyAsString() {
+        eUnset(Ifc2x3tc1Package.Literals.IFC_SURFACE_STYLE_RENDERING__TRANSPARENCY_AS_STRING);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public boolean isSetTransparencyAsString() {
-		return eIsSet(Ifc2x3tc1Package.Literals.IFC_SURFACE_STYLE_RENDERING__TRANSPARENCY_AS_STRING);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public boolean isSetTransparencyAsString() {
+        return eIsSet(Ifc2x3tc1Package.Literals.IFC_SURFACE_STYLE_RENDERING__TRANSPARENCY_AS_STRING);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public IfcColourOrFactor getDiffuseColour() {
-		return (IfcColourOrFactor) eGet(Ifc2x3tc1Package.Literals.IFC_SURFACE_STYLE_RENDERING__DIFFUSE_COLOUR, true);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public IfcColourOrFactor getDiffuseColour() {
+        return (IfcColourOrFactor) eGet(Ifc2x3tc1Package.Literals.IFC_SURFACE_STYLE_RENDERING__DIFFUSE_COLOUR, true);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public void setDiffuseColour(IfcColourOrFactor newDiffuseColour) {
-		eSet(Ifc2x3tc1Package.Literals.IFC_SURFACE_STYLE_RENDERING__DIFFUSE_COLOUR, newDiffuseColour);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public void setDiffuseColour(IfcColourOrFactor newDiffuseColour) {
+        eSet(Ifc2x3tc1Package.Literals.IFC_SURFACE_STYLE_RENDERING__DIFFUSE_COLOUR, newDiffuseColour);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public void unsetDiffuseColour() {
-		eUnset(Ifc2x3tc1Package.Literals.IFC_SURFACE_STYLE_RENDERING__DIFFUSE_COLOUR);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public void unsetDiffuseColour() {
+        eUnset(Ifc2x3tc1Package.Literals.IFC_SURFACE_STYLE_RENDERING__DIFFUSE_COLOUR);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public boolean isSetDiffuseColour() {
-		return eIsSet(Ifc2x3tc1Package.Literals.IFC_SURFACE_STYLE_RENDERING__DIFFUSE_COLOUR);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public boolean isSetDiffuseColour() {
+        return eIsSet(Ifc2x3tc1Package.Literals.IFC_SURFACE_STYLE_RENDERING__DIFFUSE_COLOUR);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public IfcColourOrFactor getTransmissionColour() {
-		return (IfcColourOrFactor) eGet(Ifc2x3tc1Package.Literals.IFC_SURFACE_STYLE_RENDERING__TRANSMISSION_COLOUR, true);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public IfcColourOrFactor getTransmissionColour() {
+        return (IfcColourOrFactor) eGet(Ifc2x3tc1Package.Literals.IFC_SURFACE_STYLE_RENDERING__TRANSMISSION_COLOUR,
+                true);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public void setTransmissionColour(IfcColourOrFactor newTransmissionColour) {
-		eSet(Ifc2x3tc1Package.Literals.IFC_SURFACE_STYLE_RENDERING__TRANSMISSION_COLOUR, newTransmissionColour);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public void setTransmissionColour(IfcColourOrFactor newTransmissionColour) {
+        eSet(Ifc2x3tc1Package.Literals.IFC_SURFACE_STYLE_RENDERING__TRANSMISSION_COLOUR, newTransmissionColour);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public void unsetTransmissionColour() {
-		eUnset(Ifc2x3tc1Package.Literals.IFC_SURFACE_STYLE_RENDERING__TRANSMISSION_COLOUR);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public void unsetTransmissionColour() {
+        eUnset(Ifc2x3tc1Package.Literals.IFC_SURFACE_STYLE_RENDERING__TRANSMISSION_COLOUR);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public boolean isSetTransmissionColour() {
-		return eIsSet(Ifc2x3tc1Package.Literals.IFC_SURFACE_STYLE_RENDERING__TRANSMISSION_COLOUR);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public boolean isSetTransmissionColour() {
+        return eIsSet(Ifc2x3tc1Package.Literals.IFC_SURFACE_STYLE_RENDERING__TRANSMISSION_COLOUR);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public IfcColourOrFactor getDiffuseTransmissionColour() {
-		return (IfcColourOrFactor) eGet(Ifc2x3tc1Package.Literals.IFC_SURFACE_STYLE_RENDERING__DIFFUSE_TRANSMISSION_COLOUR, true);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public IfcColourOrFactor getDiffuseTransmissionColour() {
+        return (IfcColourOrFactor) eGet(
+                Ifc2x3tc1Package.Literals.IFC_SURFACE_STYLE_RENDERING__DIFFUSE_TRANSMISSION_COLOUR, true);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public void setDiffuseTransmissionColour(IfcColourOrFactor newDiffuseTransmissionColour) {
-		eSet(Ifc2x3tc1Package.Literals.IFC_SURFACE_STYLE_RENDERING__DIFFUSE_TRANSMISSION_COLOUR, newDiffuseTransmissionColour);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public void setDiffuseTransmissionColour(IfcColourOrFactor newDiffuseTransmissionColour) {
+        eSet(Ifc2x3tc1Package.Literals.IFC_SURFACE_STYLE_RENDERING__DIFFUSE_TRANSMISSION_COLOUR,
+                newDiffuseTransmissionColour);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public void unsetDiffuseTransmissionColour() {
-		eUnset(Ifc2x3tc1Package.Literals.IFC_SURFACE_STYLE_RENDERING__DIFFUSE_TRANSMISSION_COLOUR);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public void unsetDiffuseTransmissionColour() {
+        eUnset(Ifc2x3tc1Package.Literals.IFC_SURFACE_STYLE_RENDERING__DIFFUSE_TRANSMISSION_COLOUR);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public boolean isSetDiffuseTransmissionColour() {
-		return eIsSet(Ifc2x3tc1Package.Literals.IFC_SURFACE_STYLE_RENDERING__DIFFUSE_TRANSMISSION_COLOUR);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public boolean isSetDiffuseTransmissionColour() {
+        return eIsSet(Ifc2x3tc1Package.Literals.IFC_SURFACE_STYLE_RENDERING__DIFFUSE_TRANSMISSION_COLOUR);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public IfcColourOrFactor getReflectionColour() {
-		return (IfcColourOrFactor) eGet(Ifc2x3tc1Package.Literals.IFC_SURFACE_STYLE_RENDERING__REFLECTION_COLOUR, true);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public IfcColourOrFactor getReflectionColour() {
+        return (IfcColourOrFactor) eGet(Ifc2x3tc1Package.Literals.IFC_SURFACE_STYLE_RENDERING__REFLECTION_COLOUR, true);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public void setReflectionColour(IfcColourOrFactor newReflectionColour) {
-		eSet(Ifc2x3tc1Package.Literals.IFC_SURFACE_STYLE_RENDERING__REFLECTION_COLOUR, newReflectionColour);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public void setReflectionColour(IfcColourOrFactor newReflectionColour) {
+        eSet(Ifc2x3tc1Package.Literals.IFC_SURFACE_STYLE_RENDERING__REFLECTION_COLOUR, newReflectionColour);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public void unsetReflectionColour() {
-		eUnset(Ifc2x3tc1Package.Literals.IFC_SURFACE_STYLE_RENDERING__REFLECTION_COLOUR);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public void unsetReflectionColour() {
+        eUnset(Ifc2x3tc1Package.Literals.IFC_SURFACE_STYLE_RENDERING__REFLECTION_COLOUR);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public boolean isSetReflectionColour() {
-		return eIsSet(Ifc2x3tc1Package.Literals.IFC_SURFACE_STYLE_RENDERING__REFLECTION_COLOUR);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public boolean isSetReflectionColour() {
+        return eIsSet(Ifc2x3tc1Package.Literals.IFC_SURFACE_STYLE_RENDERING__REFLECTION_COLOUR);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public IfcColourOrFactor getSpecularColour() {
-		return (IfcColourOrFactor) eGet(Ifc2x3tc1Package.Literals.IFC_SURFACE_STYLE_RENDERING__SPECULAR_COLOUR, true);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public IfcColourOrFactor getSpecularColour() {
+        return (IfcColourOrFactor) eGet(Ifc2x3tc1Package.Literals.IFC_SURFACE_STYLE_RENDERING__SPECULAR_COLOUR, true);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public void setSpecularColour(IfcColourOrFactor newSpecularColour) {
-		eSet(Ifc2x3tc1Package.Literals.IFC_SURFACE_STYLE_RENDERING__SPECULAR_COLOUR, newSpecularColour);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public void setSpecularColour(IfcColourOrFactor newSpecularColour) {
+        eSet(Ifc2x3tc1Package.Literals.IFC_SURFACE_STYLE_RENDERING__SPECULAR_COLOUR, newSpecularColour);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public void unsetSpecularColour() {
-		eUnset(Ifc2x3tc1Package.Literals.IFC_SURFACE_STYLE_RENDERING__SPECULAR_COLOUR);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public void unsetSpecularColour() {
+        eUnset(Ifc2x3tc1Package.Literals.IFC_SURFACE_STYLE_RENDERING__SPECULAR_COLOUR);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public boolean isSetSpecularColour() {
-		return eIsSet(Ifc2x3tc1Package.Literals.IFC_SURFACE_STYLE_RENDERING__SPECULAR_COLOUR);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public boolean isSetSpecularColour() {
+        return eIsSet(Ifc2x3tc1Package.Literals.IFC_SURFACE_STYLE_RENDERING__SPECULAR_COLOUR);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public IfcSpecularHighlightSelect getSpecularHighlight() {
-		return (IfcSpecularHighlightSelect) eGet(Ifc2x3tc1Package.Literals.IFC_SURFACE_STYLE_RENDERING__SPECULAR_HIGHLIGHT, true);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public IfcSpecularHighlightSelect getSpecularHighlight() {
+        return (IfcSpecularHighlightSelect) eGet(
+                Ifc2x3tc1Package.Literals.IFC_SURFACE_STYLE_RENDERING__SPECULAR_HIGHLIGHT, true);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public void setSpecularHighlight(IfcSpecularHighlightSelect newSpecularHighlight) {
-		eSet(Ifc2x3tc1Package.Literals.IFC_SURFACE_STYLE_RENDERING__SPECULAR_HIGHLIGHT, newSpecularHighlight);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public void setSpecularHighlight(IfcSpecularHighlightSelect newSpecularHighlight) {
+        eSet(Ifc2x3tc1Package.Literals.IFC_SURFACE_STYLE_RENDERING__SPECULAR_HIGHLIGHT, newSpecularHighlight);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public void unsetSpecularHighlight() {
-		eUnset(Ifc2x3tc1Package.Literals.IFC_SURFACE_STYLE_RENDERING__SPECULAR_HIGHLIGHT);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public void unsetSpecularHighlight() {
+        eUnset(Ifc2x3tc1Package.Literals.IFC_SURFACE_STYLE_RENDERING__SPECULAR_HIGHLIGHT);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public boolean isSetSpecularHighlight() {
-		return eIsSet(Ifc2x3tc1Package.Literals.IFC_SURFACE_STYLE_RENDERING__SPECULAR_HIGHLIGHT);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public boolean isSetSpecularHighlight() {
+        return eIsSet(Ifc2x3tc1Package.Literals.IFC_SURFACE_STYLE_RENDERING__SPECULAR_HIGHLIGHT);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public IfcReflectanceMethodEnum getReflectanceMethod() {
-		return (IfcReflectanceMethodEnum) eGet(Ifc2x3tc1Package.Literals.IFC_SURFACE_STYLE_RENDERING__REFLECTANCE_METHOD, true);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public IfcReflectanceMethodEnum getReflectanceMethod() {
+        return (IfcReflectanceMethodEnum) eGet(
+                Ifc2x3tc1Package.Literals.IFC_SURFACE_STYLE_RENDERING__REFLECTANCE_METHOD, true);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public void setReflectanceMethod(IfcReflectanceMethodEnum newReflectanceMethod) {
-		eSet(Ifc2x3tc1Package.Literals.IFC_SURFACE_STYLE_RENDERING__REFLECTANCE_METHOD, newReflectanceMethod);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public void setReflectanceMethod(IfcReflectanceMethodEnum newReflectanceMethod) {
+        eSet(Ifc2x3tc1Package.Literals.IFC_SURFACE_STYLE_RENDERING__REFLECTANCE_METHOD, newReflectanceMethod);
+    }
 
 } //IfcSurfaceStyleRenderingImpl

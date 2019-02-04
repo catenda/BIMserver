@@ -17,6 +17,7 @@
 package org.bimserver.models.ifc2x3tc1;
 
 import org.bimserver.emf.IdEObject;
+
 import org.eclipse.emf.common.util.EList;
 
 /**
@@ -26,11 +27,11 @@ import org.eclipse.emf.common.util.EList;
  *
  * <p>
  * The following features are supported:
+ * </p>
  * <ul>
  *   <li>{@link org.bimserver.models.ifc2x3tc1.IfcIrregularTimeSeriesValue#getTimeStamp <em>Time Stamp</em>}</li>
  *   <li>{@link org.bimserver.models.ifc2x3tc1.IfcIrregularTimeSeriesValue#getListValues <em>List Values</em>}</li>
  * </ul>
- * </p>
  *
  * @see org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package#getIfcIrregularTimeSeriesValue()
  * @model
@@ -38,46 +39,46 @@ import org.eclipse.emf.common.util.EList;
  * @generated
  */
 public interface IfcIrregularTimeSeriesValue extends IdEObject {
-	/**
-	 * Returns the value of the '<em><b>Time Stamp</b></em>' reference.
-	 * <!-- begin-user-doc -->
-	 * <p>
-	 * If the meaning of the '<em>Time Stamp</em>' reference isn't clear,
-	 * there really should be more of a description here...
-	 * </p>
-	 * <!-- end-user-doc -->
-	 * @return the value of the '<em>Time Stamp</em>' reference.
-	 * @see #setTimeStamp(IfcDateTimeSelect)
-	 * @see org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package#getIfcIrregularTimeSeriesValue_TimeStamp()
-	 * @model
-	 * @generated
-	 */
-	IfcDateTimeSelect getTimeStamp();
+    /**
+     * Returns the value of the '<em><b>Time Stamp</b></em>' reference.
+     * <!-- begin-user-doc -->
+     * <p>
+     * If the meaning of the '<em>Time Stamp</em>' reference isn't clear,
+     * there really should be more of a description here...
+     * </p>
+     * <!-- end-user-doc -->
+     * @return the value of the '<em>Time Stamp</em>' reference.
+     * @see #setTimeStamp(IfcDateTimeSelect)
+     * @see org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package#getIfcIrregularTimeSeriesValue_TimeStamp()
+     * @model
+     * @generated
+     */
+    IfcDateTimeSelect getTimeStamp();
 
-	/**
-	 * Sets the value of the '{@link org.bimserver.models.ifc2x3tc1.IfcIrregularTimeSeriesValue#getTimeStamp <em>Time Stamp</em>}' reference.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @param value the new value of the '<em>Time Stamp</em>' reference.
-	 * @see #getTimeStamp()
-	 * @generated
-	 */
-	void setTimeStamp(IfcDateTimeSelect value);
+    /**
+     * Sets the value of the '{@link org.bimserver.models.ifc2x3tc1.IfcIrregularTimeSeriesValue#getTimeStamp <em>Time Stamp</em>}' reference.
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @param value the new value of the '<em>Time Stamp</em>' reference.
+     * @see #getTimeStamp()
+     * @generated
+     */
+    void setTimeStamp(IfcDateTimeSelect value);
 
-	/**
-	 * Returns the value of the '<em><b>List Values</b></em>' reference list.
-	 * The list contents are of type {@link org.bimserver.models.ifc2x3tc1.IfcValue}.
-	 * <!-- begin-user-doc -->
-	 * <p>
-	 * If the meaning of the '<em>List Values</em>' reference list isn't clear,
-	 * there really should be more of a description here...
-	 * </p>
-	 * <!-- end-user-doc -->
-	 * @return the value of the '<em>List Values</em>' reference list.
-	 * @see org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package#getIfcIrregularTimeSeriesValue_ListValues()
-	 * @model
-	 * @generated
-	 */
-	EList<IfcValue> getListValues();
+    /**
+     * Returns the value of the '<em><b>List Values</b></em>' reference list.
+     * The list contents are of type {@link org.bimserver.models.ifc2x3tc1.IfcValue}.
+     * <!-- begin-user-doc -->
+     * <p>
+     * If the meaning of the '<em>List Values</em>' reference list isn't clear,
+     * there really should be more of a description here...
+     * </p>
+     * <!-- end-user-doc -->
+     * @return the value of the '<em>List Values</em>' reference list.
+     * @see org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package#getIfcIrregularTimeSeriesValue_ListValues()
+     * @model
+     * @generated
+     */
+    EList<IfcValue> getListValues();
 
 } // IfcIrregularTimeSeriesValue

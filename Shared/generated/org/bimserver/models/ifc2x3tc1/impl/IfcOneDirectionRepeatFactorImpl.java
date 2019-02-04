@@ -19,6 +19,7 @@ package org.bimserver.models.ifc2x3tc1.impl;
 import org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package;
 import org.bimserver.models.ifc2x3tc1.IfcOneDirectionRepeatFactor;
 import org.bimserver.models.ifc2x3tc1.IfcVector;
+
 import org.eclipse.emf.ecore.EClass;
 
 /**
@@ -27,49 +28,50 @@ import org.eclipse.emf.ecore.EClass;
  * <!-- end-user-doc -->
  * <p>
  * The following features are implemented:
+ * </p>
  * <ul>
  *   <li>{@link org.bimserver.models.ifc2x3tc1.impl.IfcOneDirectionRepeatFactorImpl#getRepeatFactor <em>Repeat Factor</em>}</li>
  * </ul>
- * </p>
  *
  * @generated
  */
-public class IfcOneDirectionRepeatFactorImpl extends IfcGeometricRepresentationItemImpl implements IfcOneDirectionRepeatFactor {
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	protected IfcOneDirectionRepeatFactorImpl() {
-		super();
-	}
+public class IfcOneDirectionRepeatFactorImpl extends IfcGeometricRepresentationItemImpl
+        implements IfcOneDirectionRepeatFactor {
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    protected IfcOneDirectionRepeatFactorImpl() {
+        super();
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	@Override
-	protected EClass eStaticClass() {
-		return Ifc2x3tc1Package.Literals.IFC_ONE_DIRECTION_REPEAT_FACTOR;
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    @Override
+    protected EClass eStaticClass() {
+        return Ifc2x3tc1Package.Literals.IFC_ONE_DIRECTION_REPEAT_FACTOR;
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public IfcVector getRepeatFactor() {
-		return (IfcVector) eGet(Ifc2x3tc1Package.Literals.IFC_ONE_DIRECTION_REPEAT_FACTOR__REPEAT_FACTOR, true);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public IfcVector getRepeatFactor() {
+        return (IfcVector) eGet(Ifc2x3tc1Package.Literals.IFC_ONE_DIRECTION_REPEAT_FACTOR__REPEAT_FACTOR, true);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public void setRepeatFactor(IfcVector newRepeatFactor) {
-		eSet(Ifc2x3tc1Package.Literals.IFC_ONE_DIRECTION_REPEAT_FACTOR__REPEAT_FACTOR, newRepeatFactor);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public void setRepeatFactor(IfcVector newRepeatFactor) {
+        eSet(Ifc2x3tc1Package.Literals.IFC_ONE_DIRECTION_REPEAT_FACTOR__REPEAT_FACTOR, newRepeatFactor);
+    }
 
 } //IfcOneDirectionRepeatFactorImpl

@@ -18,6 +18,7 @@ package org.bimserver.models.ifc2x3tc1.impl;
 
 import org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package;
 import org.bimserver.models.ifc2x3tc1.IfcBlock;
+
 import org.eclipse.emf.ecore.EClass;
 
 /**
@@ -26,6 +27,7 @@ import org.eclipse.emf.ecore.EClass;
  * <!-- end-user-doc -->
  * <p>
  * The following features are implemented:
+ * </p>
  * <ul>
  *   <li>{@link org.bimserver.models.ifc2x3tc1.impl.IfcBlockImpl#getXLength <em>XLength</em>}</li>
  *   <li>{@link org.bimserver.models.ifc2x3tc1.impl.IfcBlockImpl#getXLengthAsString <em>XLength As String</em>}</li>
@@ -34,136 +36,135 @@ import org.eclipse.emf.ecore.EClass;
  *   <li>{@link org.bimserver.models.ifc2x3tc1.impl.IfcBlockImpl#getZLength <em>ZLength</em>}</li>
  *   <li>{@link org.bimserver.models.ifc2x3tc1.impl.IfcBlockImpl#getZLengthAsString <em>ZLength As String</em>}</li>
  * </ul>
- * </p>
  *
  * @generated
  */
 public class IfcBlockImpl extends IfcCsgPrimitive3DImpl implements IfcBlock {
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	protected IfcBlockImpl() {
-		super();
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    protected IfcBlockImpl() {
+        super();
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	@Override
-	protected EClass eStaticClass() {
-		return Ifc2x3tc1Package.Literals.IFC_BLOCK;
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    @Override
+    protected EClass eStaticClass() {
+        return Ifc2x3tc1Package.Literals.IFC_BLOCK;
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public double getXLength() {
-		return (Double) eGet(Ifc2x3tc1Package.Literals.IFC_BLOCK__XLENGTH, true);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public double getXLength() {
+        return (Double) eGet(Ifc2x3tc1Package.Literals.IFC_BLOCK__XLENGTH, true);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public void setXLength(double newXLength) {
-		eSet(Ifc2x3tc1Package.Literals.IFC_BLOCK__XLENGTH, newXLength);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public void setXLength(double newXLength) {
+        eSet(Ifc2x3tc1Package.Literals.IFC_BLOCK__XLENGTH, newXLength);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public String getXLengthAsString() {
-		return (String) eGet(Ifc2x3tc1Package.Literals.IFC_BLOCK__XLENGTH_AS_STRING, true);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public String getXLengthAsString() {
+        return (String) eGet(Ifc2x3tc1Package.Literals.IFC_BLOCK__XLENGTH_AS_STRING, true);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public void setXLengthAsString(String newXLengthAsString) {
-		eSet(Ifc2x3tc1Package.Literals.IFC_BLOCK__XLENGTH_AS_STRING, newXLengthAsString);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public void setXLengthAsString(String newXLengthAsString) {
+        eSet(Ifc2x3tc1Package.Literals.IFC_BLOCK__XLENGTH_AS_STRING, newXLengthAsString);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public double getYLength() {
-		return (Double) eGet(Ifc2x3tc1Package.Literals.IFC_BLOCK__YLENGTH, true);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public double getYLength() {
+        return (Double) eGet(Ifc2x3tc1Package.Literals.IFC_BLOCK__YLENGTH, true);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public void setYLength(double newYLength) {
-		eSet(Ifc2x3tc1Package.Literals.IFC_BLOCK__YLENGTH, newYLength);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public void setYLength(double newYLength) {
+        eSet(Ifc2x3tc1Package.Literals.IFC_BLOCK__YLENGTH, newYLength);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public String getYLengthAsString() {
-		return (String) eGet(Ifc2x3tc1Package.Literals.IFC_BLOCK__YLENGTH_AS_STRING, true);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public String getYLengthAsString() {
+        return (String) eGet(Ifc2x3tc1Package.Literals.IFC_BLOCK__YLENGTH_AS_STRING, true);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public void setYLengthAsString(String newYLengthAsString) {
-		eSet(Ifc2x3tc1Package.Literals.IFC_BLOCK__YLENGTH_AS_STRING, newYLengthAsString);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public void setYLengthAsString(String newYLengthAsString) {
+        eSet(Ifc2x3tc1Package.Literals.IFC_BLOCK__YLENGTH_AS_STRING, newYLengthAsString);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public double getZLength() {
-		return (Double) eGet(Ifc2x3tc1Package.Literals.IFC_BLOCK__ZLENGTH, true);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public double getZLength() {
+        return (Double) eGet(Ifc2x3tc1Package.Literals.IFC_BLOCK__ZLENGTH, true);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public void setZLength(double newZLength) {
-		eSet(Ifc2x3tc1Package.Literals.IFC_BLOCK__ZLENGTH, newZLength);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public void setZLength(double newZLength) {
+        eSet(Ifc2x3tc1Package.Literals.IFC_BLOCK__ZLENGTH, newZLength);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public String getZLengthAsString() {
-		return (String) eGet(Ifc2x3tc1Package.Literals.IFC_BLOCK__ZLENGTH_AS_STRING, true);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public String getZLengthAsString() {
+        return (String) eGet(Ifc2x3tc1Package.Literals.IFC_BLOCK__ZLENGTH_AS_STRING, true);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public void setZLengthAsString(String newZLengthAsString) {
-		eSet(Ifc2x3tc1Package.Literals.IFC_BLOCK__ZLENGTH_AS_STRING, newZLengthAsString);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public void setZLengthAsString(String newZLengthAsString) {
+        eSet(Ifc2x3tc1Package.Literals.IFC_BLOCK__ZLENGTH_AS_STRING, newZLengthAsString);
+    }
 
 } //IfcBlockImpl

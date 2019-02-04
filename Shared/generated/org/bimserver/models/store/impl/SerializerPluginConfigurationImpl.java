@@ -21,6 +21,7 @@ import org.bimserver.models.store.RenderEnginePluginConfiguration;
 import org.bimserver.models.store.SerializerPluginConfiguration;
 import org.bimserver.models.store.StorePackage;
 import org.bimserver.models.store.UserSettings;
+
 import org.eclipse.emf.ecore.EClass;
 
 /**
@@ -29,87 +30,90 @@ import org.eclipse.emf.ecore.EClass;
  * <!-- end-user-doc -->
  * <p>
  * The following features are implemented:
+ * </p>
  * <ul>
  *   <li>{@link org.bimserver.models.store.impl.SerializerPluginConfigurationImpl#getObjectIDM <em>Object IDM</em>}</li>
  *   <li>{@link org.bimserver.models.store.impl.SerializerPluginConfigurationImpl#getUserSettings <em>User Settings</em>}</li>
  *   <li>{@link org.bimserver.models.store.impl.SerializerPluginConfigurationImpl#getRenderEngine <em>Render Engine</em>}</li>
  * </ul>
- * </p>
  *
  * @generated
  */
-public class SerializerPluginConfigurationImpl extends PluginConfigurationImpl implements SerializerPluginConfiguration {
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	protected SerializerPluginConfigurationImpl() {
-		super();
-	}
+public class SerializerPluginConfigurationImpl extends PluginConfigurationImpl
+        implements SerializerPluginConfiguration {
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    protected SerializerPluginConfigurationImpl() {
+        super();
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	@Override
-	protected EClass eStaticClass() {
-		return StorePackage.Literals.SERIALIZER_PLUGIN_CONFIGURATION;
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    @Override
+    protected EClass eStaticClass() {
+        return StorePackage.Literals.SERIALIZER_PLUGIN_CONFIGURATION;
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public ObjectIDMPluginConfiguration getObjectIDM() {
-		return (ObjectIDMPluginConfiguration) eGet(StorePackage.Literals.SERIALIZER_PLUGIN_CONFIGURATION__OBJECT_IDM, true);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public ObjectIDMPluginConfiguration getObjectIDM() {
+        return (ObjectIDMPluginConfiguration) eGet(StorePackage.Literals.SERIALIZER_PLUGIN_CONFIGURATION__OBJECT_IDM,
+                true);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public void setObjectIDM(ObjectIDMPluginConfiguration newObjectIDM) {
-		eSet(StorePackage.Literals.SERIALIZER_PLUGIN_CONFIGURATION__OBJECT_IDM, newObjectIDM);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public void setObjectIDM(ObjectIDMPluginConfiguration newObjectIDM) {
+        eSet(StorePackage.Literals.SERIALIZER_PLUGIN_CONFIGURATION__OBJECT_IDM, newObjectIDM);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public UserSettings getUserSettings() {
-		return (UserSettings) eGet(StorePackage.Literals.SERIALIZER_PLUGIN_CONFIGURATION__USER_SETTINGS, true);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public UserSettings getUserSettings() {
+        return (UserSettings) eGet(StorePackage.Literals.SERIALIZER_PLUGIN_CONFIGURATION__USER_SETTINGS, true);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public void setUserSettings(UserSettings newUserSettings) {
-		eSet(StorePackage.Literals.SERIALIZER_PLUGIN_CONFIGURATION__USER_SETTINGS, newUserSettings);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public void setUserSettings(UserSettings newUserSettings) {
+        eSet(StorePackage.Literals.SERIALIZER_PLUGIN_CONFIGURATION__USER_SETTINGS, newUserSettings);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public RenderEnginePluginConfiguration getRenderEngine() {
-		return (RenderEnginePluginConfiguration) eGet(StorePackage.Literals.SERIALIZER_PLUGIN_CONFIGURATION__RENDER_ENGINE, true);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public RenderEnginePluginConfiguration getRenderEngine() {
+        return (RenderEnginePluginConfiguration) eGet(
+                StorePackage.Literals.SERIALIZER_PLUGIN_CONFIGURATION__RENDER_ENGINE, true);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public void setRenderEngine(RenderEnginePluginConfiguration newRenderEngine) {
-		eSet(StorePackage.Literals.SERIALIZER_PLUGIN_CONFIGURATION__RENDER_ENGINE, newRenderEngine);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public void setRenderEngine(RenderEnginePluginConfiguration newRenderEngine) {
+        eSet(StorePackage.Literals.SERIALIZER_PLUGIN_CONFIGURATION__RENDER_ENGINE, newRenderEngine);
+    }
 
 } //SerializerPluginConfigurationImpl

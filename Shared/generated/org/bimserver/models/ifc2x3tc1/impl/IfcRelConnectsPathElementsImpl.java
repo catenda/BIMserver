@@ -19,7 +19,9 @@ package org.bimserver.models.ifc2x3tc1.impl;
 import org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package;
 import org.bimserver.models.ifc2x3tc1.IfcConnectionTypeEnum;
 import org.bimserver.models.ifc2x3tc1.IfcRelConnectsPathElements;
+
 import org.eclipse.emf.common.util.EList;
+
 import org.eclipse.emf.ecore.EClass;
 
 /**
@@ -28,90 +30,94 @@ import org.eclipse.emf.ecore.EClass;
  * <!-- end-user-doc -->
  * <p>
  * The following features are implemented:
+ * </p>
  * <ul>
  *   <li>{@link org.bimserver.models.ifc2x3tc1.impl.IfcRelConnectsPathElementsImpl#getRelatingPriorities <em>Relating Priorities</em>}</li>
  *   <li>{@link org.bimserver.models.ifc2x3tc1.impl.IfcRelConnectsPathElementsImpl#getRelatedPriorities <em>Related Priorities</em>}</li>
  *   <li>{@link org.bimserver.models.ifc2x3tc1.impl.IfcRelConnectsPathElementsImpl#getRelatedConnectionType <em>Related Connection Type</em>}</li>
  *   <li>{@link org.bimserver.models.ifc2x3tc1.impl.IfcRelConnectsPathElementsImpl#getRelatingConnectionType <em>Relating Connection Type</em>}</li>
  * </ul>
- * </p>
  *
  * @generated
  */
 public class IfcRelConnectsPathElementsImpl extends IfcRelConnectsElementsImpl implements IfcRelConnectsPathElements {
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	protected IfcRelConnectsPathElementsImpl() {
-		super();
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    protected IfcRelConnectsPathElementsImpl() {
+        super();
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	@Override
-	protected EClass eStaticClass() {
-		return Ifc2x3tc1Package.Literals.IFC_REL_CONNECTS_PATH_ELEMENTS;
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    @Override
+    protected EClass eStaticClass() {
+        return Ifc2x3tc1Package.Literals.IFC_REL_CONNECTS_PATH_ELEMENTS;
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	@SuppressWarnings("unchecked")
-	public EList<Integer> getRelatingPriorities() {
-		return (EList<Integer>) eGet(Ifc2x3tc1Package.Literals.IFC_REL_CONNECTS_PATH_ELEMENTS__RELATING_PRIORITIES, true);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    @SuppressWarnings("unchecked")
+    public EList<Long> getRelatingPriorities() {
+        return (EList<Long>) eGet(Ifc2x3tc1Package.Literals.IFC_REL_CONNECTS_PATH_ELEMENTS__RELATING_PRIORITIES, true);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	@SuppressWarnings("unchecked")
-	public EList<Integer> getRelatedPriorities() {
-		return (EList<Integer>) eGet(Ifc2x3tc1Package.Literals.IFC_REL_CONNECTS_PATH_ELEMENTS__RELATED_PRIORITIES, true);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    @SuppressWarnings("unchecked")
+    public EList<Long> getRelatedPriorities() {
+        return (EList<Long>) eGet(Ifc2x3tc1Package.Literals.IFC_REL_CONNECTS_PATH_ELEMENTS__RELATED_PRIORITIES, true);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public IfcConnectionTypeEnum getRelatedConnectionType() {
-		return (IfcConnectionTypeEnum) eGet(Ifc2x3tc1Package.Literals.IFC_REL_CONNECTS_PATH_ELEMENTS__RELATED_CONNECTION_TYPE, true);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public IfcConnectionTypeEnum getRelatedConnectionType() {
+        return (IfcConnectionTypeEnum) eGet(
+                Ifc2x3tc1Package.Literals.IFC_REL_CONNECTS_PATH_ELEMENTS__RELATED_CONNECTION_TYPE, true);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public void setRelatedConnectionType(IfcConnectionTypeEnum newRelatedConnectionType) {
-		eSet(Ifc2x3tc1Package.Literals.IFC_REL_CONNECTS_PATH_ELEMENTS__RELATED_CONNECTION_TYPE, newRelatedConnectionType);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public void setRelatedConnectionType(IfcConnectionTypeEnum newRelatedConnectionType) {
+        eSet(Ifc2x3tc1Package.Literals.IFC_REL_CONNECTS_PATH_ELEMENTS__RELATED_CONNECTION_TYPE,
+                newRelatedConnectionType);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public IfcConnectionTypeEnum getRelatingConnectionType() {
-		return (IfcConnectionTypeEnum) eGet(Ifc2x3tc1Package.Literals.IFC_REL_CONNECTS_PATH_ELEMENTS__RELATING_CONNECTION_TYPE, true);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public IfcConnectionTypeEnum getRelatingConnectionType() {
+        return (IfcConnectionTypeEnum) eGet(
+                Ifc2x3tc1Package.Literals.IFC_REL_CONNECTS_PATH_ELEMENTS__RELATING_CONNECTION_TYPE, true);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public void setRelatingConnectionType(IfcConnectionTypeEnum newRelatingConnectionType) {
-		eSet(Ifc2x3tc1Package.Literals.IFC_REL_CONNECTS_PATH_ELEMENTS__RELATING_CONNECTION_TYPE, newRelatingConnectionType);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public void setRelatingConnectionType(IfcConnectionTypeEnum newRelatingConnectionType) {
+        eSet(Ifc2x3tc1Package.Literals.IFC_REL_CONNECTS_PATH_ELEMENTS__RELATING_CONNECTION_TYPE,
+                newRelatingConnectionType);
+    }
 
 } //IfcRelConnectsPathElementsImpl

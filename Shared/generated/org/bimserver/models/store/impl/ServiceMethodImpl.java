@@ -17,8 +17,10 @@
 package org.bimserver.models.store.impl;
 
 import org.bimserver.emf.IdEObjectImpl;
+
 import org.bimserver.models.store.ServiceMethod;
 import org.bimserver.models.store.StorePackage;
+
 import org.eclipse.emf.ecore.EClass;
 
 /**
@@ -27,97 +29,97 @@ import org.eclipse.emf.ecore.EClass;
  * <!-- end-user-doc -->
  * <p>
  * The following features are implemented:
+ * </p>
  * <ul>
  *   <li>{@link org.bimserver.models.store.impl.ServiceMethodImpl#getName <em>Name</em>}</li>
  *   <li>{@link org.bimserver.models.store.impl.ServiceMethodImpl#getDoc <em>Doc</em>}</li>
  *   <li>{@link org.bimserver.models.store.impl.ServiceMethodImpl#getReturnDoc <em>Return Doc</em>}</li>
  * </ul>
- * </p>
  *
  * @generated
  */
 public class ServiceMethodImpl extends IdEObjectImpl implements ServiceMethod {
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	protected ServiceMethodImpl() {
-		super();
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    protected ServiceMethodImpl() {
+        super();
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	@Override
-	protected EClass eStaticClass() {
-		return StorePackage.Literals.SERVICE_METHOD;
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    @Override
+    protected EClass eStaticClass() {
+        return StorePackage.Literals.SERVICE_METHOD;
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	@Override
-	protected int eStaticFeatureCount() {
-		return 0;
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    @Override
+    protected int eStaticFeatureCount() {
+        return 0;
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public String getName() {
-		return (String) eGet(StorePackage.Literals.SERVICE_METHOD__NAME, true);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public String getName() {
+        return (String) eGet(StorePackage.Literals.SERVICE_METHOD__NAME, true);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public void setName(String newName) {
-		eSet(StorePackage.Literals.SERVICE_METHOD__NAME, newName);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public void setName(String newName) {
+        eSet(StorePackage.Literals.SERVICE_METHOD__NAME, newName);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public String getDoc() {
-		return (String) eGet(StorePackage.Literals.SERVICE_METHOD__DOC, true);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public String getDoc() {
+        return (String) eGet(StorePackage.Literals.SERVICE_METHOD__DOC, true);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public void setDoc(String newDoc) {
-		eSet(StorePackage.Literals.SERVICE_METHOD__DOC, newDoc);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public void setDoc(String newDoc) {
+        eSet(StorePackage.Literals.SERVICE_METHOD__DOC, newDoc);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public String getReturnDoc() {
-		return (String) eGet(StorePackage.Literals.SERVICE_METHOD__RETURN_DOC, true);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public String getReturnDoc() {
+        return (String) eGet(StorePackage.Literals.SERVICE_METHOD__RETURN_DOC, true);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public void setReturnDoc(String newReturnDoc) {
-		eSet(StorePackage.Literals.SERVICE_METHOD__RETURN_DOC, newReturnDoc);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public void setReturnDoc(String newReturnDoc) {
+        eSet(StorePackage.Literals.SERVICE_METHOD__RETURN_DOC, newReturnDoc);
+    }
 
 } //ServiceMethodImpl

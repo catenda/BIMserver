@@ -20,6 +20,7 @@ import org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package;
 import org.bimserver.models.ifc2x3tc1.IfcCurve;
 import org.bimserver.models.ifc2x3tc1.IfcDirection;
 import org.bimserver.models.ifc2x3tc1.IfcOffsetCurve3D;
+
 import org.eclipse.emf.ecore.EClass;
 
 /**
@@ -28,6 +29,7 @@ import org.eclipse.emf.ecore.EClass;
  * <!-- end-user-doc -->
  * <p>
  * The following features are implemented:
+ * </p>
  * <ul>
  *   <li>{@link org.bimserver.models.ifc2x3tc1.impl.IfcOffsetCurve3DImpl#getBasisCurve <em>Basis Curve</em>}</li>
  *   <li>{@link org.bimserver.models.ifc2x3tc1.impl.IfcOffsetCurve3DImpl#getDistance <em>Distance</em>}</li>
@@ -35,118 +37,117 @@ import org.eclipse.emf.ecore.EClass;
  *   <li>{@link org.bimserver.models.ifc2x3tc1.impl.IfcOffsetCurve3DImpl#isSelfIntersect <em>Self Intersect</em>}</li>
  *   <li>{@link org.bimserver.models.ifc2x3tc1.impl.IfcOffsetCurve3DImpl#getRefDirection <em>Ref Direction</em>}</li>
  * </ul>
- * </p>
  *
  * @generated
  */
 public class IfcOffsetCurve3DImpl extends IfcCurveImpl implements IfcOffsetCurve3D {
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	protected IfcOffsetCurve3DImpl() {
-		super();
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    protected IfcOffsetCurve3DImpl() {
+        super();
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	@Override
-	protected EClass eStaticClass() {
-		return Ifc2x3tc1Package.Literals.IFC_OFFSET_CURVE3_D;
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    @Override
+    protected EClass eStaticClass() {
+        return Ifc2x3tc1Package.Literals.IFC_OFFSET_CURVE3_D;
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public IfcCurve getBasisCurve() {
-		return (IfcCurve) eGet(Ifc2x3tc1Package.Literals.IFC_OFFSET_CURVE3_D__BASIS_CURVE, true);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public IfcCurve getBasisCurve() {
+        return (IfcCurve) eGet(Ifc2x3tc1Package.Literals.IFC_OFFSET_CURVE3_D__BASIS_CURVE, true);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public void setBasisCurve(IfcCurve newBasisCurve) {
-		eSet(Ifc2x3tc1Package.Literals.IFC_OFFSET_CURVE3_D__BASIS_CURVE, newBasisCurve);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public void setBasisCurve(IfcCurve newBasisCurve) {
+        eSet(Ifc2x3tc1Package.Literals.IFC_OFFSET_CURVE3_D__BASIS_CURVE, newBasisCurve);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public double getDistance() {
-		return (Double) eGet(Ifc2x3tc1Package.Literals.IFC_OFFSET_CURVE3_D__DISTANCE, true);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public double getDistance() {
+        return (Double) eGet(Ifc2x3tc1Package.Literals.IFC_OFFSET_CURVE3_D__DISTANCE, true);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public void setDistance(double newDistance) {
-		eSet(Ifc2x3tc1Package.Literals.IFC_OFFSET_CURVE3_D__DISTANCE, newDistance);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public void setDistance(double newDistance) {
+        eSet(Ifc2x3tc1Package.Literals.IFC_OFFSET_CURVE3_D__DISTANCE, newDistance);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public String getDistanceAsString() {
-		return (String) eGet(Ifc2x3tc1Package.Literals.IFC_OFFSET_CURVE3_D__DISTANCE_AS_STRING, true);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public String getDistanceAsString() {
+        return (String) eGet(Ifc2x3tc1Package.Literals.IFC_OFFSET_CURVE3_D__DISTANCE_AS_STRING, true);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public void setDistanceAsString(String newDistanceAsString) {
-		eSet(Ifc2x3tc1Package.Literals.IFC_OFFSET_CURVE3_D__DISTANCE_AS_STRING, newDistanceAsString);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public void setDistanceAsString(String newDistanceAsString) {
+        eSet(Ifc2x3tc1Package.Literals.IFC_OFFSET_CURVE3_D__DISTANCE_AS_STRING, newDistanceAsString);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public boolean isSelfIntersect() {
-		return (Boolean) eGet(Ifc2x3tc1Package.Literals.IFC_OFFSET_CURVE3_D__SELF_INTERSECT, true);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public boolean isSelfIntersect() {
+        return (Boolean) eGet(Ifc2x3tc1Package.Literals.IFC_OFFSET_CURVE3_D__SELF_INTERSECT, true);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public void setSelfIntersect(boolean newSelfIntersect) {
-		eSet(Ifc2x3tc1Package.Literals.IFC_OFFSET_CURVE3_D__SELF_INTERSECT, newSelfIntersect);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public void setSelfIntersect(boolean newSelfIntersect) {
+        eSet(Ifc2x3tc1Package.Literals.IFC_OFFSET_CURVE3_D__SELF_INTERSECT, newSelfIntersect);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public IfcDirection getRefDirection() {
-		return (IfcDirection) eGet(Ifc2x3tc1Package.Literals.IFC_OFFSET_CURVE3_D__REF_DIRECTION, true);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public IfcDirection getRefDirection() {
+        return (IfcDirection) eGet(Ifc2x3tc1Package.Literals.IFC_OFFSET_CURVE3_D__REF_DIRECTION, true);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public void setRefDirection(IfcDirection newRefDirection) {
-		eSet(Ifc2x3tc1Package.Literals.IFC_OFFSET_CURVE3_D__REF_DIRECTION, newRefDirection);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public void setRefDirection(IfcDirection newRefDirection) {
+        eSet(Ifc2x3tc1Package.Literals.IFC_OFFSET_CURVE3_D__REF_DIRECTION, newRefDirection);
+    }
 
 } //IfcOffsetCurve3DImpl

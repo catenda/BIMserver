@@ -621,7 +621,7 @@ public class IfcStepDeserializer extends EmfDeserializer {
 			if (domain instanceof RealType) {
 				return Double.parseDouble(value);
 			} else if (domain instanceof IntegerType) {
-				return Integer.parseInt(value);
+				return Long.parseLong(value);
 			} else if (domain instanceof BooleanType) {
 				return Boolean.parseBoolean(value);
 			} else if (domain instanceof StringType) {

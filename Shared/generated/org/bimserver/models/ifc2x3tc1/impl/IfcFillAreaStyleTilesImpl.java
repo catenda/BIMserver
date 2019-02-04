@@ -20,7 +20,9 @@ import org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package;
 import org.bimserver.models.ifc2x3tc1.IfcFillAreaStyleTileShapeSelect;
 import org.bimserver.models.ifc2x3tc1.IfcFillAreaStyleTiles;
 import org.bimserver.models.ifc2x3tc1.IfcOneDirectionRepeatFactor;
+
 import org.eclipse.emf.common.util.EList;
+
 import org.eclipse.emf.ecore.EClass;
 
 /**
@@ -29,98 +31,100 @@ import org.eclipse.emf.ecore.EClass;
  * <!-- end-user-doc -->
  * <p>
  * The following features are implemented:
+ * </p>
  * <ul>
  *   <li>{@link org.bimserver.models.ifc2x3tc1.impl.IfcFillAreaStyleTilesImpl#getTilingPattern <em>Tiling Pattern</em>}</li>
  *   <li>{@link org.bimserver.models.ifc2x3tc1.impl.IfcFillAreaStyleTilesImpl#getTiles <em>Tiles</em>}</li>
  *   <li>{@link org.bimserver.models.ifc2x3tc1.impl.IfcFillAreaStyleTilesImpl#getTilingScale <em>Tiling Scale</em>}</li>
  *   <li>{@link org.bimserver.models.ifc2x3tc1.impl.IfcFillAreaStyleTilesImpl#getTilingScaleAsString <em>Tiling Scale As String</em>}</li>
  * </ul>
- * </p>
  *
  * @generated
  */
 public class IfcFillAreaStyleTilesImpl extends IfcGeometricRepresentationItemImpl implements IfcFillAreaStyleTiles {
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	protected IfcFillAreaStyleTilesImpl() {
-		super();
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    protected IfcFillAreaStyleTilesImpl() {
+        super();
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	@Override
-	protected EClass eStaticClass() {
-		return Ifc2x3tc1Package.Literals.IFC_FILL_AREA_STYLE_TILES;
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    @Override
+    protected EClass eStaticClass() {
+        return Ifc2x3tc1Package.Literals.IFC_FILL_AREA_STYLE_TILES;
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public IfcOneDirectionRepeatFactor getTilingPattern() {
-		return (IfcOneDirectionRepeatFactor) eGet(Ifc2x3tc1Package.Literals.IFC_FILL_AREA_STYLE_TILES__TILING_PATTERN, true);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public IfcOneDirectionRepeatFactor getTilingPattern() {
+        return (IfcOneDirectionRepeatFactor) eGet(Ifc2x3tc1Package.Literals.IFC_FILL_AREA_STYLE_TILES__TILING_PATTERN,
+                true);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public void setTilingPattern(IfcOneDirectionRepeatFactor newTilingPattern) {
-		eSet(Ifc2x3tc1Package.Literals.IFC_FILL_AREA_STYLE_TILES__TILING_PATTERN, newTilingPattern);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public void setTilingPattern(IfcOneDirectionRepeatFactor newTilingPattern) {
+        eSet(Ifc2x3tc1Package.Literals.IFC_FILL_AREA_STYLE_TILES__TILING_PATTERN, newTilingPattern);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	@SuppressWarnings("unchecked")
-	public EList<IfcFillAreaStyleTileShapeSelect> getTiles() {
-		return (EList<IfcFillAreaStyleTileShapeSelect>) eGet(Ifc2x3tc1Package.Literals.IFC_FILL_AREA_STYLE_TILES__TILES, true);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    @SuppressWarnings("unchecked")
+    public EList<IfcFillAreaStyleTileShapeSelect> getTiles() {
+        return (EList<IfcFillAreaStyleTileShapeSelect>) eGet(Ifc2x3tc1Package.Literals.IFC_FILL_AREA_STYLE_TILES__TILES,
+                true);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public double getTilingScale() {
-		return (Double) eGet(Ifc2x3tc1Package.Literals.IFC_FILL_AREA_STYLE_TILES__TILING_SCALE, true);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public double getTilingScale() {
+        return (Double) eGet(Ifc2x3tc1Package.Literals.IFC_FILL_AREA_STYLE_TILES__TILING_SCALE, true);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public void setTilingScale(double newTilingScale) {
-		eSet(Ifc2x3tc1Package.Literals.IFC_FILL_AREA_STYLE_TILES__TILING_SCALE, newTilingScale);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public void setTilingScale(double newTilingScale) {
+        eSet(Ifc2x3tc1Package.Literals.IFC_FILL_AREA_STYLE_TILES__TILING_SCALE, newTilingScale);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public String getTilingScaleAsString() {
-		return (String) eGet(Ifc2x3tc1Package.Literals.IFC_FILL_AREA_STYLE_TILES__TILING_SCALE_AS_STRING, true);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public String getTilingScaleAsString() {
+        return (String) eGet(Ifc2x3tc1Package.Literals.IFC_FILL_AREA_STYLE_TILES__TILING_SCALE_AS_STRING, true);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public void setTilingScaleAsString(String newTilingScaleAsString) {
-		eSet(Ifc2x3tc1Package.Literals.IFC_FILL_AREA_STYLE_TILES__TILING_SCALE_AS_STRING, newTilingScaleAsString);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public void setTilingScaleAsString(String newTilingScaleAsString) {
+        eSet(Ifc2x3tc1Package.Literals.IFC_FILL_AREA_STYLE_TILES__TILING_SCALE_AS_STRING, newTilingScaleAsString);
+    }
 
 } //IfcFillAreaStyleTilesImpl

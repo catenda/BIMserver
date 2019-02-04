@@ -18,6 +18,7 @@ package org.bimserver.models.ifc2x3tc1.impl;
 
 import org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package;
 import org.bimserver.models.ifc2x3tc1.IfcRectangularPyramid;
+
 import org.eclipse.emf.ecore.EClass;
 
 /**
@@ -26,6 +27,7 @@ import org.eclipse.emf.ecore.EClass;
  * <!-- end-user-doc -->
  * <p>
  * The following features are implemented:
+ * </p>
  * <ul>
  *   <li>{@link org.bimserver.models.ifc2x3tc1.impl.IfcRectangularPyramidImpl#getXLength <em>XLength</em>}</li>
  *   <li>{@link org.bimserver.models.ifc2x3tc1.impl.IfcRectangularPyramidImpl#getXLengthAsString <em>XLength As String</em>}</li>
@@ -34,136 +36,135 @@ import org.eclipse.emf.ecore.EClass;
  *   <li>{@link org.bimserver.models.ifc2x3tc1.impl.IfcRectangularPyramidImpl#getHeight <em>Height</em>}</li>
  *   <li>{@link org.bimserver.models.ifc2x3tc1.impl.IfcRectangularPyramidImpl#getHeightAsString <em>Height As String</em>}</li>
  * </ul>
- * </p>
  *
  * @generated
  */
 public class IfcRectangularPyramidImpl extends IfcCsgPrimitive3DImpl implements IfcRectangularPyramid {
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	protected IfcRectangularPyramidImpl() {
-		super();
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    protected IfcRectangularPyramidImpl() {
+        super();
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	@Override
-	protected EClass eStaticClass() {
-		return Ifc2x3tc1Package.Literals.IFC_RECTANGULAR_PYRAMID;
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    @Override
+    protected EClass eStaticClass() {
+        return Ifc2x3tc1Package.Literals.IFC_RECTANGULAR_PYRAMID;
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public double getXLength() {
-		return (Double) eGet(Ifc2x3tc1Package.Literals.IFC_RECTANGULAR_PYRAMID__XLENGTH, true);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public double getXLength() {
+        return (Double) eGet(Ifc2x3tc1Package.Literals.IFC_RECTANGULAR_PYRAMID__XLENGTH, true);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public void setXLength(double newXLength) {
-		eSet(Ifc2x3tc1Package.Literals.IFC_RECTANGULAR_PYRAMID__XLENGTH, newXLength);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public void setXLength(double newXLength) {
+        eSet(Ifc2x3tc1Package.Literals.IFC_RECTANGULAR_PYRAMID__XLENGTH, newXLength);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public String getXLengthAsString() {
-		return (String) eGet(Ifc2x3tc1Package.Literals.IFC_RECTANGULAR_PYRAMID__XLENGTH_AS_STRING, true);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public String getXLengthAsString() {
+        return (String) eGet(Ifc2x3tc1Package.Literals.IFC_RECTANGULAR_PYRAMID__XLENGTH_AS_STRING, true);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public void setXLengthAsString(String newXLengthAsString) {
-		eSet(Ifc2x3tc1Package.Literals.IFC_RECTANGULAR_PYRAMID__XLENGTH_AS_STRING, newXLengthAsString);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public void setXLengthAsString(String newXLengthAsString) {
+        eSet(Ifc2x3tc1Package.Literals.IFC_RECTANGULAR_PYRAMID__XLENGTH_AS_STRING, newXLengthAsString);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public double getYLength() {
-		return (Double) eGet(Ifc2x3tc1Package.Literals.IFC_RECTANGULAR_PYRAMID__YLENGTH, true);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public double getYLength() {
+        return (Double) eGet(Ifc2x3tc1Package.Literals.IFC_RECTANGULAR_PYRAMID__YLENGTH, true);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public void setYLength(double newYLength) {
-		eSet(Ifc2x3tc1Package.Literals.IFC_RECTANGULAR_PYRAMID__YLENGTH, newYLength);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public void setYLength(double newYLength) {
+        eSet(Ifc2x3tc1Package.Literals.IFC_RECTANGULAR_PYRAMID__YLENGTH, newYLength);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public String getYLengthAsString() {
-		return (String) eGet(Ifc2x3tc1Package.Literals.IFC_RECTANGULAR_PYRAMID__YLENGTH_AS_STRING, true);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public String getYLengthAsString() {
+        return (String) eGet(Ifc2x3tc1Package.Literals.IFC_RECTANGULAR_PYRAMID__YLENGTH_AS_STRING, true);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public void setYLengthAsString(String newYLengthAsString) {
-		eSet(Ifc2x3tc1Package.Literals.IFC_RECTANGULAR_PYRAMID__YLENGTH_AS_STRING, newYLengthAsString);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public void setYLengthAsString(String newYLengthAsString) {
+        eSet(Ifc2x3tc1Package.Literals.IFC_RECTANGULAR_PYRAMID__YLENGTH_AS_STRING, newYLengthAsString);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public double getHeight() {
-		return (Double) eGet(Ifc2x3tc1Package.Literals.IFC_RECTANGULAR_PYRAMID__HEIGHT, true);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public double getHeight() {
+        return (Double) eGet(Ifc2x3tc1Package.Literals.IFC_RECTANGULAR_PYRAMID__HEIGHT, true);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public void setHeight(double newHeight) {
-		eSet(Ifc2x3tc1Package.Literals.IFC_RECTANGULAR_PYRAMID__HEIGHT, newHeight);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public void setHeight(double newHeight) {
+        eSet(Ifc2x3tc1Package.Literals.IFC_RECTANGULAR_PYRAMID__HEIGHT, newHeight);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public String getHeightAsString() {
-		return (String) eGet(Ifc2x3tc1Package.Literals.IFC_RECTANGULAR_PYRAMID__HEIGHT_AS_STRING, true);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public String getHeightAsString() {
+        return (String) eGet(Ifc2x3tc1Package.Literals.IFC_RECTANGULAR_PYRAMID__HEIGHT_AS_STRING, true);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public void setHeightAsString(String newHeightAsString) {
-		eSet(Ifc2x3tc1Package.Literals.IFC_RECTANGULAR_PYRAMID__HEIGHT_AS_STRING, newHeightAsString);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public void setHeightAsString(String newHeightAsString) {
+        eSet(Ifc2x3tc1Package.Literals.IFC_RECTANGULAR_PYRAMID__HEIGHT_AS_STRING, newHeightAsString);
+    }
 
 } //IfcRectangularPyramidImpl

@@ -20,6 +20,7 @@ import org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package;
 import org.bimserver.models.ifc2x3tc1.IfcCurve;
 import org.bimserver.models.ifc2x3tc1.IfcEdgeCurve;
 import org.bimserver.models.ifc2x3tc1.Tristate;
+
 import org.eclipse.emf.ecore.EClass;
 
 /**
@@ -28,68 +29,68 @@ import org.eclipse.emf.ecore.EClass;
  * <!-- end-user-doc -->
  * <p>
  * The following features are implemented:
+ * </p>
  * <ul>
  *   <li>{@link org.bimserver.models.ifc2x3tc1.impl.IfcEdgeCurveImpl#getEdgeGeometry <em>Edge Geometry</em>}</li>
  *   <li>{@link org.bimserver.models.ifc2x3tc1.impl.IfcEdgeCurveImpl#getSameSense <em>Same Sense</em>}</li>
  * </ul>
- * </p>
  *
  * @generated
  */
 public class IfcEdgeCurveImpl extends IfcEdgeImpl implements IfcEdgeCurve {
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	protected IfcEdgeCurveImpl() {
-		super();
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    protected IfcEdgeCurveImpl() {
+        super();
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	@Override
-	protected EClass eStaticClass() {
-		return Ifc2x3tc1Package.Literals.IFC_EDGE_CURVE;
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    @Override
+    protected EClass eStaticClass() {
+        return Ifc2x3tc1Package.Literals.IFC_EDGE_CURVE;
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public IfcCurve getEdgeGeometry() {
-		return (IfcCurve) eGet(Ifc2x3tc1Package.Literals.IFC_EDGE_CURVE__EDGE_GEOMETRY, true);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public IfcCurve getEdgeGeometry() {
+        return (IfcCurve) eGet(Ifc2x3tc1Package.Literals.IFC_EDGE_CURVE__EDGE_GEOMETRY, true);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public void setEdgeGeometry(IfcCurve newEdgeGeometry) {
-		eSet(Ifc2x3tc1Package.Literals.IFC_EDGE_CURVE__EDGE_GEOMETRY, newEdgeGeometry);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public void setEdgeGeometry(IfcCurve newEdgeGeometry) {
+        eSet(Ifc2x3tc1Package.Literals.IFC_EDGE_CURVE__EDGE_GEOMETRY, newEdgeGeometry);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public Tristate getSameSense() {
-		return (Tristate) eGet(Ifc2x3tc1Package.Literals.IFC_EDGE_CURVE__SAME_SENSE, true);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public Tristate getSameSense() {
+        return (Tristate) eGet(Ifc2x3tc1Package.Literals.IFC_EDGE_CURVE__SAME_SENSE, true);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public void setSameSense(Tristate newSameSense) {
-		eSet(Ifc2x3tc1Package.Literals.IFC_EDGE_CURVE__SAME_SENSE, newSameSense);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public void setSameSense(Tristate newSameSense) {
+        eSet(Ifc2x3tc1Package.Literals.IFC_EDGE_CURVE__SAME_SENSE, newSameSense);
+    }
 
 } //IfcEdgeCurveImpl

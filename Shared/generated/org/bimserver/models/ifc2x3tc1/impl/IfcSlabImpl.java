@@ -19,6 +19,7 @@ package org.bimserver.models.ifc2x3tc1.impl;
 import org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package;
 import org.bimserver.models.ifc2x3tc1.IfcSlab;
 import org.bimserver.models.ifc2x3tc1.IfcSlabTypeEnum;
+
 import org.eclipse.emf.ecore.EClass;
 
 /**
@@ -27,67 +28,67 @@ import org.eclipse.emf.ecore.EClass;
  * <!-- end-user-doc -->
  * <p>
  * The following features are implemented:
+ * </p>
  * <ul>
  *   <li>{@link org.bimserver.models.ifc2x3tc1.impl.IfcSlabImpl#getPredefinedType <em>Predefined Type</em>}</li>
  * </ul>
- * </p>
  *
  * @generated
  */
 public class IfcSlabImpl extends IfcBuildingElementImpl implements IfcSlab {
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	protected IfcSlabImpl() {
-		super();
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    protected IfcSlabImpl() {
+        super();
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	@Override
-	protected EClass eStaticClass() {
-		return Ifc2x3tc1Package.Literals.IFC_SLAB;
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    @Override
+    protected EClass eStaticClass() {
+        return Ifc2x3tc1Package.Literals.IFC_SLAB;
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public IfcSlabTypeEnum getPredefinedType() {
-		return (IfcSlabTypeEnum) eGet(Ifc2x3tc1Package.Literals.IFC_SLAB__PREDEFINED_TYPE, true);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public IfcSlabTypeEnum getPredefinedType() {
+        return (IfcSlabTypeEnum) eGet(Ifc2x3tc1Package.Literals.IFC_SLAB__PREDEFINED_TYPE, true);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public void setPredefinedType(IfcSlabTypeEnum newPredefinedType) {
-		eSet(Ifc2x3tc1Package.Literals.IFC_SLAB__PREDEFINED_TYPE, newPredefinedType);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public void setPredefinedType(IfcSlabTypeEnum newPredefinedType) {
+        eSet(Ifc2x3tc1Package.Literals.IFC_SLAB__PREDEFINED_TYPE, newPredefinedType);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public void unsetPredefinedType() {
-		eUnset(Ifc2x3tc1Package.Literals.IFC_SLAB__PREDEFINED_TYPE);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public void unsetPredefinedType() {
+        eUnset(Ifc2x3tc1Package.Literals.IFC_SLAB__PREDEFINED_TYPE);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public boolean isSetPredefinedType() {
-		return eIsSet(Ifc2x3tc1Package.Literals.IFC_SLAB__PREDEFINED_TYPE);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public boolean isSetPredefinedType() {
+        return eIsSet(Ifc2x3tc1Package.Literals.IFC_SLAB__PREDEFINED_TYPE);
+    }
 
 } //IfcSlabImpl

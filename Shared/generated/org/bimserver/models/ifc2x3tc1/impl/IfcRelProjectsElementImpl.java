@@ -20,6 +20,7 @@ import org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package;
 import org.bimserver.models.ifc2x3tc1.IfcElement;
 import org.bimserver.models.ifc2x3tc1.IfcFeatureElementAddition;
 import org.bimserver.models.ifc2x3tc1.IfcRelProjectsElement;
+
 import org.eclipse.emf.ecore.EClass;
 
 /**
@@ -28,68 +29,69 @@ import org.eclipse.emf.ecore.EClass;
  * <!-- end-user-doc -->
  * <p>
  * The following features are implemented:
+ * </p>
  * <ul>
  *   <li>{@link org.bimserver.models.ifc2x3tc1.impl.IfcRelProjectsElementImpl#getRelatingElement <em>Relating Element</em>}</li>
  *   <li>{@link org.bimserver.models.ifc2x3tc1.impl.IfcRelProjectsElementImpl#getRelatedFeatureElement <em>Related Feature Element</em>}</li>
  * </ul>
- * </p>
  *
  * @generated
  */
 public class IfcRelProjectsElementImpl extends IfcRelConnectsImpl implements IfcRelProjectsElement {
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	protected IfcRelProjectsElementImpl() {
-		super();
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    protected IfcRelProjectsElementImpl() {
+        super();
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	@Override
-	protected EClass eStaticClass() {
-		return Ifc2x3tc1Package.Literals.IFC_REL_PROJECTS_ELEMENT;
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    @Override
+    protected EClass eStaticClass() {
+        return Ifc2x3tc1Package.Literals.IFC_REL_PROJECTS_ELEMENT;
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public IfcElement getRelatingElement() {
-		return (IfcElement) eGet(Ifc2x3tc1Package.Literals.IFC_REL_PROJECTS_ELEMENT__RELATING_ELEMENT, true);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public IfcElement getRelatingElement() {
+        return (IfcElement) eGet(Ifc2x3tc1Package.Literals.IFC_REL_PROJECTS_ELEMENT__RELATING_ELEMENT, true);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public void setRelatingElement(IfcElement newRelatingElement) {
-		eSet(Ifc2x3tc1Package.Literals.IFC_REL_PROJECTS_ELEMENT__RELATING_ELEMENT, newRelatingElement);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public void setRelatingElement(IfcElement newRelatingElement) {
+        eSet(Ifc2x3tc1Package.Literals.IFC_REL_PROJECTS_ELEMENT__RELATING_ELEMENT, newRelatingElement);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public IfcFeatureElementAddition getRelatedFeatureElement() {
-		return (IfcFeatureElementAddition) eGet(Ifc2x3tc1Package.Literals.IFC_REL_PROJECTS_ELEMENT__RELATED_FEATURE_ELEMENT, true);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public IfcFeatureElementAddition getRelatedFeatureElement() {
+        return (IfcFeatureElementAddition) eGet(
+                Ifc2x3tc1Package.Literals.IFC_REL_PROJECTS_ELEMENT__RELATED_FEATURE_ELEMENT, true);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public void setRelatedFeatureElement(IfcFeatureElementAddition newRelatedFeatureElement) {
-		eSet(Ifc2x3tc1Package.Literals.IFC_REL_PROJECTS_ELEMENT__RELATED_FEATURE_ELEMENT, newRelatedFeatureElement);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public void setRelatedFeatureElement(IfcFeatureElementAddition newRelatedFeatureElement) {
+        eSet(Ifc2x3tc1Package.Literals.IFC_REL_PROJECTS_ELEMENT__RELATED_FEATURE_ELEMENT, newRelatedFeatureElement);
+    }
 
 } //IfcRelProjectsElementImpl

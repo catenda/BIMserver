@@ -17,9 +17,11 @@
 package org.bimserver.models.ifc2x3tc1.impl;
 
 import org.bimserver.emf.IdEObjectImpl;
+
 import org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package;
 import org.bimserver.models.ifc2x3tc1.IfcApplication;
 import org.bimserver.models.ifc2x3tc1.IfcOrganization;
+
 import org.eclipse.emf.ecore.EClass;
 
 /**
@@ -28,116 +30,116 @@ import org.eclipse.emf.ecore.EClass;
  * <!-- end-user-doc -->
  * <p>
  * The following features are implemented:
+ * </p>
  * <ul>
  *   <li>{@link org.bimserver.models.ifc2x3tc1.impl.IfcApplicationImpl#getApplicationDeveloper <em>Application Developer</em>}</li>
  *   <li>{@link org.bimserver.models.ifc2x3tc1.impl.IfcApplicationImpl#getVersion <em>Version</em>}</li>
  *   <li>{@link org.bimserver.models.ifc2x3tc1.impl.IfcApplicationImpl#getApplicationFullName <em>Application Full Name</em>}</li>
  *   <li>{@link org.bimserver.models.ifc2x3tc1.impl.IfcApplicationImpl#getApplicationIdentifier <em>Application Identifier</em>}</li>
  * </ul>
- * </p>
  *
  * @generated
  */
 public class IfcApplicationImpl extends IdEObjectImpl implements IfcApplication {
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	protected IfcApplicationImpl() {
-		super();
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    protected IfcApplicationImpl() {
+        super();
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	@Override
-	protected EClass eStaticClass() {
-		return Ifc2x3tc1Package.Literals.IFC_APPLICATION;
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    @Override
+    protected EClass eStaticClass() {
+        return Ifc2x3tc1Package.Literals.IFC_APPLICATION;
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	@Override
-	protected int eStaticFeatureCount() {
-		return 0;
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    @Override
+    protected int eStaticFeatureCount() {
+        return 0;
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public IfcOrganization getApplicationDeveloper() {
-		return (IfcOrganization) eGet(Ifc2x3tc1Package.Literals.IFC_APPLICATION__APPLICATION_DEVELOPER, true);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public IfcOrganization getApplicationDeveloper() {
+        return (IfcOrganization) eGet(Ifc2x3tc1Package.Literals.IFC_APPLICATION__APPLICATION_DEVELOPER, true);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public void setApplicationDeveloper(IfcOrganization newApplicationDeveloper) {
-		eSet(Ifc2x3tc1Package.Literals.IFC_APPLICATION__APPLICATION_DEVELOPER, newApplicationDeveloper);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public void setApplicationDeveloper(IfcOrganization newApplicationDeveloper) {
+        eSet(Ifc2x3tc1Package.Literals.IFC_APPLICATION__APPLICATION_DEVELOPER, newApplicationDeveloper);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public String getVersion() {
-		return (String) eGet(Ifc2x3tc1Package.Literals.IFC_APPLICATION__VERSION, true);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public String getVersion() {
+        return (String) eGet(Ifc2x3tc1Package.Literals.IFC_APPLICATION__VERSION, true);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public void setVersion(String newVersion) {
-		eSet(Ifc2x3tc1Package.Literals.IFC_APPLICATION__VERSION, newVersion);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public void setVersion(String newVersion) {
+        eSet(Ifc2x3tc1Package.Literals.IFC_APPLICATION__VERSION, newVersion);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public String getApplicationFullName() {
-		return (String) eGet(Ifc2x3tc1Package.Literals.IFC_APPLICATION__APPLICATION_FULL_NAME, true);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public String getApplicationFullName() {
+        return (String) eGet(Ifc2x3tc1Package.Literals.IFC_APPLICATION__APPLICATION_FULL_NAME, true);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public void setApplicationFullName(String newApplicationFullName) {
-		eSet(Ifc2x3tc1Package.Literals.IFC_APPLICATION__APPLICATION_FULL_NAME, newApplicationFullName);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public void setApplicationFullName(String newApplicationFullName) {
+        eSet(Ifc2x3tc1Package.Literals.IFC_APPLICATION__APPLICATION_FULL_NAME, newApplicationFullName);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public String getApplicationIdentifier() {
-		return (String) eGet(Ifc2x3tc1Package.Literals.IFC_APPLICATION__APPLICATION_IDENTIFIER, true);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public String getApplicationIdentifier() {
+        return (String) eGet(Ifc2x3tc1Package.Literals.IFC_APPLICATION__APPLICATION_IDENTIFIER, true);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public void setApplicationIdentifier(String newApplicationIdentifier) {
-		eSet(Ifc2x3tc1Package.Literals.IFC_APPLICATION__APPLICATION_IDENTIFIER, newApplicationIdentifier);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public void setApplicationIdentifier(String newApplicationIdentifier) {
+        eSet(Ifc2x3tc1Package.Literals.IFC_APPLICATION__APPLICATION_IDENTIFIER, newApplicationIdentifier);
+    }
 
 } //IfcApplicationImpl

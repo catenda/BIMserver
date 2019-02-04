@@ -25,101 +25,101 @@ import org.eclipse.emf.common.util.EList;
  *
  * <p>
  * The following features are supported:
+ * </p>
  * <ul>
  *   <li>{@link org.bimserver.models.ifc2x3tc1.IfcDirection#getDirectionRatios <em>Direction Ratios</em>}</li>
  *   <li>{@link org.bimserver.models.ifc2x3tc1.IfcDirection#getDirectionRatiosAsString <em>Direction Ratios As String</em>}</li>
  *   <li>{@link org.bimserver.models.ifc2x3tc1.IfcDirection#getDim <em>Dim</em>}</li>
  * </ul>
- * </p>
  *
  * @see org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package#getIfcDirection()
  * @model
  * @generated
  */
 public interface IfcDirection extends IfcGeometricRepresentationItem, IfcOrientationSelect, IfcVectorOrDirection {
-	/**
-	 * Returns the value of the '<em><b>Direction Ratios</b></em>' attribute list.
-	 * The list contents are of type {@link java.lang.Double}.
-	 * <!-- begin-user-doc -->
-	 * <p>
-	 * If the meaning of the '<em>Direction Ratios</em>' attribute list isn't clear,
-	 * there really should be more of a description here...
-	 * </p>
-	 * <!-- end-user-doc -->
-	 * @return the value of the '<em>Direction Ratios</em>' attribute list.
-	 * @see org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package#getIfcDirection_DirectionRatios()
-	 * @model unique="false"
-	 * @generated
-	 */
-	EList<Double> getDirectionRatios();
+    /**
+     * Returns the value of the '<em><b>Direction Ratios</b></em>' attribute list.
+     * The list contents are of type {@link java.lang.Double}.
+     * <!-- begin-user-doc -->
+     * <p>
+     * If the meaning of the '<em>Direction Ratios</em>' attribute list isn't clear,
+     * there really should be more of a description here...
+     * </p>
+     * <!-- end-user-doc -->
+     * @return the value of the '<em>Direction Ratios</em>' attribute list.
+     * @see org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package#getIfcDirection_DirectionRatios()
+     * @model unique="false"
+     * @generated
+     */
+    EList<Double> getDirectionRatios();
 
-	/**
-	 * Returns the value of the '<em><b>Direction Ratios As String</b></em>' attribute list.
-	 * The list contents are of type {@link java.lang.String}.
-	 * <!-- begin-user-doc -->
-	 * <p>
-	 * If the meaning of the '<em>Direction Ratios As String</em>' attribute list isn't clear,
-	 * there really should be more of a description here...
-	 * </p>
-	 * <!-- end-user-doc -->
-	 * @return the value of the '<em>Direction Ratios As String</em>' attribute list.
-	 * @see org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package#getIfcDirection_DirectionRatiosAsString()
-	 * @model unique="false"
-	 * @generated
-	 */
-	EList<String> getDirectionRatiosAsString();
+    /**
+     * Returns the value of the '<em><b>Direction Ratios As String</b></em>' attribute list.
+     * The list contents are of type {@link java.lang.String}.
+     * <!-- begin-user-doc -->
+     * <p>
+     * If the meaning of the '<em>Direction Ratios As String</em>' attribute list isn't clear,
+     * there really should be more of a description here...
+     * </p>
+     * <!-- end-user-doc -->
+     * @return the value of the '<em>Direction Ratios As String</em>' attribute list.
+     * @see org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package#getIfcDirection_DirectionRatiosAsString()
+     * @model unique="false"
+     * @generated
+     */
+    EList<String> getDirectionRatiosAsString();
 
-	/**
-	 * Returns the value of the '<em><b>Dim</b></em>' attribute.
-	 * <!-- begin-user-doc -->
-	 * <p>
-	 * If the meaning of the '<em>Dim</em>' attribute isn't clear,
-	 * there really should be more of a description here...
-	 * </p>
-	 * <!-- end-user-doc -->
-	 * @return the value of the '<em>Dim</em>' attribute.
-	 * @see #isSetDim()
-	 * @see #unsetDim()
-	 * @see #setDim(int)
-	 * @see org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package#getIfcDirection_Dim()
-	 * @model unsettable="true" derived="true"
-	 * @generated
-	 */
-	int getDim();
+    /**
+     * Returns the value of the '<em><b>Dim</b></em>' attribute.
+     * <!-- begin-user-doc -->
+     * <p>
+     * If the meaning of the '<em>Dim</em>' attribute isn't clear,
+     * there really should be more of a description here...
+     * </p>
+     * <!-- end-user-doc -->
+     * @return the value of the '<em>Dim</em>' attribute.
+     * @see #isSetDim()
+     * @see #unsetDim()
+     * @see #setDim(long)
+     * @see org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package#getIfcDirection_Dim()
+     * @model unsettable="true" derived="true"
+     * @generated
+     */
+    long getDim();
 
-	/**
-	 * Sets the value of the '{@link org.bimserver.models.ifc2x3tc1.IfcDirection#getDim <em>Dim</em>}' attribute.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @param value the new value of the '<em>Dim</em>' attribute.
-	 * @see #isSetDim()
-	 * @see #unsetDim()
-	 * @see #getDim()
-	 * @generated
-	 */
-	void setDim(int value);
+    /**
+     * Sets the value of the '{@link org.bimserver.models.ifc2x3tc1.IfcDirection#getDim <em>Dim</em>}' attribute.
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @param value the new value of the '<em>Dim</em>' attribute.
+     * @see #isSetDim()
+     * @see #unsetDim()
+     * @see #getDim()
+     * @generated
+     */
+    void setDim(long value);
 
-	/**
-	 * Unsets the value of the '{@link org.bimserver.models.ifc2x3tc1.IfcDirection#getDim <em>Dim</em>}' attribute.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @see #isSetDim()
-	 * @see #getDim()
-	 * @see #setDim(int)
-	 * @generated
-	 */
-	void unsetDim();
+    /**
+     * Unsets the value of the '{@link org.bimserver.models.ifc2x3tc1.IfcDirection#getDim <em>Dim</em>}' attribute.
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @see #isSetDim()
+     * @see #getDim()
+     * @see #setDim(long)
+     * @generated
+     */
+    void unsetDim();
 
-	/**
-	 * Returns whether the value of the '{@link org.bimserver.models.ifc2x3tc1.IfcDirection#getDim <em>Dim</em>}' attribute is set.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @return whether the value of the '<em>Dim</em>' attribute is set.
-	 * @see #unsetDim()
-	 * @see #getDim()
-	 * @see #setDim(int)
-	 * @generated
-	 */
-	boolean isSetDim();
+    /**
+     * Returns whether the value of the '{@link org.bimserver.models.ifc2x3tc1.IfcDirection#getDim <em>Dim</em>}' attribute is set.
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @return whether the value of the '<em>Dim</em>' attribute is set.
+     * @see #unsetDim()
+     * @see #getDim()
+     * @see #setDim(long)
+     * @generated
+     */
+    boolean isSetDim();
 
 } // IfcDirection

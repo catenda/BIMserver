@@ -32,243 +32,250 @@ import org.eclipse.emf.common.util.Enumerator;
  * @generated
  */
 public enum IfcTrimmingPreference implements Enumerator {
-	/**
-	 * The '<em><b>NULL</b></em>' literal object.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @see #NULL_VALUE
-	 * @generated
-	 * @ordered
-	 */
-	NULL(0, "NULL", "NULL"),
+    /**
+     * The '<em><b>NULL</b></em>' literal object.
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @see #NULL_VALUE
+     * @generated
+     * @ordered
+     */
+    NULL(0, "NULL", "NULL"),
 
-	/**
-	 * The '<em><b>CARTESIAN</b></em>' literal object.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @see #CARTESIAN_VALUE
-	 * @generated
-	 * @ordered
-	 */
-	CARTESIAN(1, "CARTESIAN", "CARTESIAN"),
+    /**
+     * The '<em><b>UNSPECIFIED</b></em>' literal object.
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @see #UNSPECIFIED_VALUE
+     * @generated
+     * @ordered
+     */
+    UNSPECIFIED(1, "UNSPECIFIED", "UNSPECIFIED"),
 
-	/**
-	 * The '<em><b>UNSPECIFIED</b></em>' literal object.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @see #UNSPECIFIED_VALUE
-	 * @generated
-	 * @ordered
-	 */
-	UNSPECIFIED(2, "UNSPECIFIED", "UNSPECIFIED"),
+    /**
+     * The '<em><b>CARTESIAN</b></em>' literal object.
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @see #CARTESIAN_VALUE
+     * @generated
+     * @ordered
+     */
+    CARTESIAN(2, "CARTESIAN", "CARTESIAN"),
 
-	/**
-	 * The '<em><b>PARAMETER</b></em>' literal object.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @see #PARAMETER_VALUE
-	 * @generated
-	 * @ordered
-	 */
-	PARAMETER(3, "PARAMETER", "PARAMETER");
+    /**
+     * The '<em><b>PARAMETER</b></em>' literal object.
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @see #PARAMETER_VALUE
+     * @generated
+     * @ordered
+     */
+    PARAMETER(3, "PARAMETER", "PARAMETER");
 
-	/**
-	 * The '<em><b>NULL</b></em>' literal value.
-	 * <!-- begin-user-doc -->
-	 * <p>
-	 * If the meaning of '<em><b>NULL</b></em>' literal object isn't clear,
-	 * there really should be more of a description here...
-	 * </p>
-	 * <!-- end-user-doc -->
-	 * @see #NULL
-	 * @model
-	 * @generated
-	 * @ordered
-	 */
-	public static final int NULL_VALUE = 0;
+    /**
+     * The '<em><b>NULL</b></em>' literal value.
+     * <!-- begin-user-doc -->
+     * <p>
+     * If the meaning of '<em><b>NULL</b></em>' literal object isn't clear,
+     * there really should be more of a description here...
+     * </p>
+     * <!-- end-user-doc -->
+     * @see #NULL
+     * @model
+     * @generated
+     * @ordered
+     */
+    public static final int NULL_VALUE = 0;
 
-	/**
-	 * The '<em><b>CARTESIAN</b></em>' literal value.
-	 * <!-- begin-user-doc -->
-	 * <p>
-	 * If the meaning of '<em><b>CARTESIAN</b></em>' literal object isn't clear,
-	 * there really should be more of a description here...
-	 * </p>
-	 * <!-- end-user-doc -->
-	 * @see #CARTESIAN
-	 * @model
-	 * @generated
-	 * @ordered
-	 */
-	public static final int CARTESIAN_VALUE = 1;
+    /**
+     * The '<em><b>UNSPECIFIED</b></em>' literal value.
+     * <!-- begin-user-doc -->
+     * <p>
+     * If the meaning of '<em><b>UNSPECIFIED</b></em>' literal object isn't clear,
+     * there really should be more of a description here...
+     * </p>
+     * <!-- end-user-doc -->
+     * @see #UNSPECIFIED
+     * @model
+     * @generated
+     * @ordered
+     */
+    public static final int UNSPECIFIED_VALUE = 1;
 
-	/**
-	 * The '<em><b>UNSPECIFIED</b></em>' literal value.
-	 * <!-- begin-user-doc -->
-	 * <p>
-	 * If the meaning of '<em><b>UNSPECIFIED</b></em>' literal object isn't clear,
-	 * there really should be more of a description here...
-	 * </p>
-	 * <!-- end-user-doc -->
-	 * @see #UNSPECIFIED
-	 * @model
-	 * @generated
-	 * @ordered
-	 */
-	public static final int UNSPECIFIED_VALUE = 2;
+    /**
+     * The '<em><b>CARTESIAN</b></em>' literal value.
+     * <!-- begin-user-doc -->
+     * <p>
+     * If the meaning of '<em><b>CARTESIAN</b></em>' literal object isn't clear,
+     * there really should be more of a description here...
+     * </p>
+     * <!-- end-user-doc -->
+     * @see #CARTESIAN
+     * @model
+     * @generated
+     * @ordered
+     */
+    public static final int CARTESIAN_VALUE = 2;
 
-	/**
-	 * The '<em><b>PARAMETER</b></em>' literal value.
-	 * <!-- begin-user-doc -->
-	 * <p>
-	 * If the meaning of '<em><b>PARAMETER</b></em>' literal object isn't clear,
-	 * there really should be more of a description here...
-	 * </p>
-	 * <!-- end-user-doc -->
-	 * @see #PARAMETER
-	 * @model
-	 * @generated
-	 * @ordered
-	 */
-	public static final int PARAMETER_VALUE = 3;
+    /**
+     * The '<em><b>PARAMETER</b></em>' literal value.
+     * <!-- begin-user-doc -->
+     * <p>
+     * If the meaning of '<em><b>PARAMETER</b></em>' literal object isn't clear,
+     * there really should be more of a description here...
+     * </p>
+     * <!-- end-user-doc -->
+     * @see #PARAMETER
+     * @model
+     * @generated
+     * @ordered
+     */
+    public static final int PARAMETER_VALUE = 3;
 
-	/**
-	 * An array of all the '<em><b>Ifc Trimming Preference</b></em>' enumerators.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	private static final IfcTrimmingPreference[] VALUES_ARRAY = new IfcTrimmingPreference[] { NULL, CARTESIAN, UNSPECIFIED, PARAMETER, };
+    /**
+     * An array of all the '<em><b>Ifc Trimming Preference</b></em>' enumerators.
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    private static final IfcTrimmingPreference[] VALUES_ARRAY = new IfcTrimmingPreference[] { NULL, UNSPECIFIED,
+            CARTESIAN, PARAMETER, };
 
-	/**
-	 * A public read-only list of all the '<em><b>Ifc Trimming Preference</b></em>' enumerators.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public static final List<IfcTrimmingPreference> VALUES = Collections.unmodifiableList(Arrays.asList(VALUES_ARRAY));
+    /**
+     * A public read-only list of all the '<em><b>Ifc Trimming Preference</b></em>' enumerators.
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public static final List<IfcTrimmingPreference> VALUES = Collections.unmodifiableList(Arrays.asList(VALUES_ARRAY));
 
-	/**
-	 * Returns the '<em><b>Ifc Trimming Preference</b></em>' literal with the specified literal value.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public static IfcTrimmingPreference get(String literal) {
-		for (int i = 0; i < VALUES_ARRAY.length; ++i) {
-			IfcTrimmingPreference result = VALUES_ARRAY[i];
-			if (result.toString().equals(literal)) {
-				return result;
-			}
-		}
-		return null;
-	}
+    /**
+     * Returns the '<em><b>Ifc Trimming Preference</b></em>' literal with the specified literal value.
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @param literal the literal.
+     * @return the matching enumerator or <code>null</code>.
+     * @generated
+     */
+    public static IfcTrimmingPreference get(String literal) {
+        for (int i = 0; i < VALUES_ARRAY.length; ++i) {
+            IfcTrimmingPreference result = VALUES_ARRAY[i];
+            if (result.toString().equals(literal)) {
+                return result;
+            }
+        }
+        return null;
+    }
 
-	/**
-	 * Returns the '<em><b>Ifc Trimming Preference</b></em>' literal with the specified name.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public static IfcTrimmingPreference getByName(String name) {
-		for (int i = 0; i < VALUES_ARRAY.length; ++i) {
-			IfcTrimmingPreference result = VALUES_ARRAY[i];
-			if (result.getName().equals(name)) {
-				return result;
-			}
-		}
-		return null;
-	}
+    /**
+     * Returns the '<em><b>Ifc Trimming Preference</b></em>' literal with the specified name.
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @param name the name.
+     * @return the matching enumerator or <code>null</code>.
+     * @generated
+     */
+    public static IfcTrimmingPreference getByName(String name) {
+        for (int i = 0; i < VALUES_ARRAY.length; ++i) {
+            IfcTrimmingPreference result = VALUES_ARRAY[i];
+            if (result.getName().equals(name)) {
+                return result;
+            }
+        }
+        return null;
+    }
 
-	/**
-	 * Returns the '<em><b>Ifc Trimming Preference</b></em>' literal with the specified integer value.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public static IfcTrimmingPreference get(int value) {
-		switch (value) {
-		case NULL_VALUE:
-			return NULL;
-		case CARTESIAN_VALUE:
-			return CARTESIAN;
-		case UNSPECIFIED_VALUE:
-			return UNSPECIFIED;
-		case PARAMETER_VALUE:
-			return PARAMETER;
-		}
-		return null;
-	}
+    /**
+     * Returns the '<em><b>Ifc Trimming Preference</b></em>' literal with the specified integer value.
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @param value the integer value.
+     * @return the matching enumerator or <code>null</code>.
+     * @generated
+     */
+    public static IfcTrimmingPreference get(int value) {
+        switch (value) {
+        case NULL_VALUE:
+            return NULL;
+        case UNSPECIFIED_VALUE:
+            return UNSPECIFIED;
+        case CARTESIAN_VALUE:
+            return CARTESIAN;
+        case PARAMETER_VALUE:
+            return PARAMETER;
+        }
+        return null;
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	private final int value;
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    private final int value;
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	private final String name;
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    private final String name;
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	private final String literal;
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    private final String literal;
 
-	/**
-	 * Only this class can construct instances.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	private IfcTrimmingPreference(int value, String name, String literal) {
-		this.value = value;
-		this.name = name;
-		this.literal = literal;
-	}
+    /**
+     * Only this class can construct instances.
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    private IfcTrimmingPreference(int value, String name, String literal) {
+        this.value = value;
+        this.name = name;
+        this.literal = literal;
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public int getValue() {
-		return value;
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public int getValue() {
+        return value;
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public String getName() {
-		return name;
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public String getName() {
+        return name;
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public String getLiteral() {
-		return literal;
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public String getLiteral() {
+        return literal;
+    }
 
-	/**
-	 * Returns the literal value of the enumerator, which is its string representation.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	@Override
-	public String toString() {
-		return literal;
-	}
+    /**
+     * Returns the literal value of the enumerator, which is its string representation.
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    @Override
+    public String toString() {
+        return literal;
+    }
 
 } //IfcTrimmingPreference

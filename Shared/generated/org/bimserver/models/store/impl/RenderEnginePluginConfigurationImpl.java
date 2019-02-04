@@ -20,7 +20,9 @@ import org.bimserver.models.store.RenderEnginePluginConfiguration;
 import org.bimserver.models.store.SerializerPluginConfiguration;
 import org.bimserver.models.store.StorePackage;
 import org.bimserver.models.store.UserSettings;
+
 import org.eclipse.emf.common.util.EList;
+
 import org.eclipse.emf.ecore.EClass;
 
 /**
@@ -29,60 +31,62 @@ import org.eclipse.emf.ecore.EClass;
  * <!-- end-user-doc -->
  * <p>
  * The following features are implemented:
+ * </p>
  * <ul>
  *   <li>{@link org.bimserver.models.store.impl.RenderEnginePluginConfigurationImpl#getSerializers <em>Serializers</em>}</li>
  *   <li>{@link org.bimserver.models.store.impl.RenderEnginePluginConfigurationImpl#getUserSettings <em>User Settings</em>}</li>
  * </ul>
- * </p>
  *
  * @generated
  */
-public class RenderEnginePluginConfigurationImpl extends PluginConfigurationImpl implements RenderEnginePluginConfiguration {
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	protected RenderEnginePluginConfigurationImpl() {
-		super();
-	}
+public class RenderEnginePluginConfigurationImpl extends PluginConfigurationImpl
+        implements RenderEnginePluginConfiguration {
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    protected RenderEnginePluginConfigurationImpl() {
+        super();
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	@Override
-	protected EClass eStaticClass() {
-		return StorePackage.Literals.RENDER_ENGINE_PLUGIN_CONFIGURATION;
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    @Override
+    protected EClass eStaticClass() {
+        return StorePackage.Literals.RENDER_ENGINE_PLUGIN_CONFIGURATION;
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	@SuppressWarnings("unchecked")
-	public EList<SerializerPluginConfiguration> getSerializers() {
-		return (EList<SerializerPluginConfiguration>) eGet(StorePackage.Literals.RENDER_ENGINE_PLUGIN_CONFIGURATION__SERIALIZERS, true);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    @SuppressWarnings("unchecked")
+    public EList<SerializerPluginConfiguration> getSerializers() {
+        return (EList<SerializerPluginConfiguration>) eGet(
+                StorePackage.Literals.RENDER_ENGINE_PLUGIN_CONFIGURATION__SERIALIZERS, true);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public UserSettings getUserSettings() {
-		return (UserSettings) eGet(StorePackage.Literals.RENDER_ENGINE_PLUGIN_CONFIGURATION__USER_SETTINGS, true);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public UserSettings getUserSettings() {
+        return (UserSettings) eGet(StorePackage.Literals.RENDER_ENGINE_PLUGIN_CONFIGURATION__USER_SETTINGS, true);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public void setUserSettings(UserSettings newUserSettings) {
-		eSet(StorePackage.Literals.RENDER_ENGINE_PLUGIN_CONFIGURATION__USER_SETTINGS, newUserSettings);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public void setUserSettings(UserSettings newUserSettings) {
+        eSet(StorePackage.Literals.RENDER_ENGINE_PLUGIN_CONFIGURATION__USER_SETTINGS, newUserSettings);
+    }
 
 } //RenderEnginePluginConfigurationImpl

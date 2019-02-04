@@ -25,13 +25,13 @@ import org.bimserver.emf.IdEObject;
  *
  * <p>
  * The following features are supported:
+ * </p>
  * <ul>
  *   <li>{@link org.bimserver.models.store.ProfileDescriptor#getName <em>Name</em>}</li>
  *   <li>{@link org.bimserver.models.store.ProfileDescriptor#getDescription <em>Description</em>}</li>
  *   <li>{@link org.bimserver.models.store.ProfileDescriptor#isPublicProfile <em>Public Profile</em>}</li>
  *   <li>{@link org.bimserver.models.store.ProfileDescriptor#getIdentifier <em>Identifier</em>}</li>
  * </ul>
- * </p>
  *
  * @see org.bimserver.models.store.StorePackage#getProfileDescriptor()
  * @model
@@ -39,108 +39,108 @@ import org.bimserver.emf.IdEObject;
  * @generated
  */
 public interface ProfileDescriptor extends IdEObject {
-	/**
-	 * Returns the value of the '<em><b>Name</b></em>' attribute.
-	 * <!-- begin-user-doc -->
-	 * <p>
-	 * If the meaning of the '<em>Name</em>' attribute isn't clear,
-	 * there really should be more of a description here...
-	 * </p>
-	 * <!-- end-user-doc -->
-	 * @return the value of the '<em>Name</em>' attribute.
-	 * @see #setName(String)
-	 * @see org.bimserver.models.store.StorePackage#getProfileDescriptor_Name()
-	 * @model
-	 * @generated
-	 */
-	String getName();
+    /**
+     * Returns the value of the '<em><b>Name</b></em>' attribute.
+     * <!-- begin-user-doc -->
+     * <p>
+     * If the meaning of the '<em>Name</em>' attribute isn't clear,
+     * there really should be more of a description here...
+     * </p>
+     * <!-- end-user-doc -->
+     * @return the value of the '<em>Name</em>' attribute.
+     * @see #setName(String)
+     * @see org.bimserver.models.store.StorePackage#getProfileDescriptor_Name()
+     * @model
+     * @generated
+     */
+    String getName();
 
-	/**
-	 * Sets the value of the '{@link org.bimserver.models.store.ProfileDescriptor#getName <em>Name</em>}' attribute.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @param value the new value of the '<em>Name</em>' attribute.
-	 * @see #getName()
-	 * @generated
-	 */
-	void setName(String value);
+    /**
+     * Sets the value of the '{@link org.bimserver.models.store.ProfileDescriptor#getName <em>Name</em>}' attribute.
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @param value the new value of the '<em>Name</em>' attribute.
+     * @see #getName()
+     * @generated
+     */
+    void setName(String value);
 
-	/**
-	 * Returns the value of the '<em><b>Description</b></em>' attribute.
-	 * <!-- begin-user-doc -->
-	 * <p>
-	 * If the meaning of the '<em>Description</em>' attribute isn't clear,
-	 * there really should be more of a description here...
-	 * </p>
-	 * <!-- end-user-doc -->
-	 * @return the value of the '<em>Description</em>' attribute.
-	 * @see #setDescription(String)
-	 * @see org.bimserver.models.store.StorePackage#getProfileDescriptor_Description()
-	 * @model
-	 * @generated
-	 */
-	String getDescription();
+    /**
+     * Returns the value of the '<em><b>Description</b></em>' attribute.
+     * <!-- begin-user-doc -->
+     * <p>
+     * If the meaning of the '<em>Description</em>' attribute isn't clear,
+     * there really should be more of a description here...
+     * </p>
+     * <!-- end-user-doc -->
+     * @return the value of the '<em>Description</em>' attribute.
+     * @see #setDescription(String)
+     * @see org.bimserver.models.store.StorePackage#getProfileDescriptor_Description()
+     * @model
+     * @generated
+     */
+    String getDescription();
 
-	/**
-	 * Sets the value of the '{@link org.bimserver.models.store.ProfileDescriptor#getDescription <em>Description</em>}' attribute.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @param value the new value of the '<em>Description</em>' attribute.
-	 * @see #getDescription()
-	 * @generated
-	 */
-	void setDescription(String value);
+    /**
+     * Sets the value of the '{@link org.bimserver.models.store.ProfileDescriptor#getDescription <em>Description</em>}' attribute.
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @param value the new value of the '<em>Description</em>' attribute.
+     * @see #getDescription()
+     * @generated
+     */
+    void setDescription(String value);
 
-	/**
-	 * Returns the value of the '<em><b>Public Profile</b></em>' attribute.
-	 * <!-- begin-user-doc -->
-	 * <p>
-	 * If the meaning of the '<em>Public Profile</em>' attribute isn't clear,
-	 * there really should be more of a description here...
-	 * </p>
-	 * <!-- end-user-doc -->
-	 * @return the value of the '<em>Public Profile</em>' attribute.
-	 * @see #setPublicProfile(boolean)
-	 * @see org.bimserver.models.store.StorePackage#getProfileDescriptor_PublicProfile()
-	 * @model
-	 * @generated
-	 */
-	boolean isPublicProfile();
+    /**
+     * Returns the value of the '<em><b>Public Profile</b></em>' attribute.
+     * <!-- begin-user-doc -->
+     * <p>
+     * If the meaning of the '<em>Public Profile</em>' attribute isn't clear,
+     * there really should be more of a description here...
+     * </p>
+     * <!-- end-user-doc -->
+     * @return the value of the '<em>Public Profile</em>' attribute.
+     * @see #setPublicProfile(boolean)
+     * @see org.bimserver.models.store.StorePackage#getProfileDescriptor_PublicProfile()
+     * @model
+     * @generated
+     */
+    boolean isPublicProfile();
 
-	/**
-	 * Sets the value of the '{@link org.bimserver.models.store.ProfileDescriptor#isPublicProfile <em>Public Profile</em>}' attribute.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @param value the new value of the '<em>Public Profile</em>' attribute.
-	 * @see #isPublicProfile()
-	 * @generated
-	 */
-	void setPublicProfile(boolean value);
+    /**
+     * Sets the value of the '{@link org.bimserver.models.store.ProfileDescriptor#isPublicProfile <em>Public Profile</em>}' attribute.
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @param value the new value of the '<em>Public Profile</em>' attribute.
+     * @see #isPublicProfile()
+     * @generated
+     */
+    void setPublicProfile(boolean value);
 
-	/**
-	 * Returns the value of the '<em><b>Identifier</b></em>' attribute.
-	 * <!-- begin-user-doc -->
-	 * <p>
-	 * If the meaning of the '<em>Identifier</em>' attribute isn't clear,
-	 * there really should be more of a description here...
-	 * </p>
-	 * <!-- end-user-doc -->
-	 * @return the value of the '<em>Identifier</em>' attribute.
-	 * @see #setIdentifier(String)
-	 * @see org.bimserver.models.store.StorePackage#getProfileDescriptor_Identifier()
-	 * @model
-	 * @generated
-	 */
-	String getIdentifier();
+    /**
+     * Returns the value of the '<em><b>Identifier</b></em>' attribute.
+     * <!-- begin-user-doc -->
+     * <p>
+     * If the meaning of the '<em>Identifier</em>' attribute isn't clear,
+     * there really should be more of a description here...
+     * </p>
+     * <!-- end-user-doc -->
+     * @return the value of the '<em>Identifier</em>' attribute.
+     * @see #setIdentifier(String)
+     * @see org.bimserver.models.store.StorePackage#getProfileDescriptor_Identifier()
+     * @model
+     * @generated
+     */
+    String getIdentifier();
 
-	/**
-	 * Sets the value of the '{@link org.bimserver.models.store.ProfileDescriptor#getIdentifier <em>Identifier</em>}' attribute.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @param value the new value of the '<em>Identifier</em>' attribute.
-	 * @see #getIdentifier()
-	 * @generated
-	 */
-	void setIdentifier(String value);
+    /**
+     * Sets the value of the '{@link org.bimserver.models.store.ProfileDescriptor#getIdentifier <em>Identifier</em>}' attribute.
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @param value the new value of the '<em>Identifier</em>' attribute.
+     * @see #getIdentifier()
+     * @generated
+     */
+    void setIdentifier(String value);
 
 } // ProfileDescriptor

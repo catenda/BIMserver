@@ -19,6 +19,7 @@ package org.bimserver.models.ifc2x3tc1.impl;
 import org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package;
 import org.bimserver.models.ifc2x3tc1.IfcLibrarySelect;
 import org.bimserver.models.ifc2x3tc1.IfcRelAssociatesLibrary;
+
 import org.eclipse.emf.ecore.EClass;
 
 /**
@@ -27,49 +28,49 @@ import org.eclipse.emf.ecore.EClass;
  * <!-- end-user-doc -->
  * <p>
  * The following features are implemented:
+ * </p>
  * <ul>
  *   <li>{@link org.bimserver.models.ifc2x3tc1.impl.IfcRelAssociatesLibraryImpl#getRelatingLibrary <em>Relating Library</em>}</li>
  * </ul>
- * </p>
  *
  * @generated
  */
 public class IfcRelAssociatesLibraryImpl extends IfcRelAssociatesImpl implements IfcRelAssociatesLibrary {
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	protected IfcRelAssociatesLibraryImpl() {
-		super();
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    protected IfcRelAssociatesLibraryImpl() {
+        super();
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	@Override
-	protected EClass eStaticClass() {
-		return Ifc2x3tc1Package.Literals.IFC_REL_ASSOCIATES_LIBRARY;
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    @Override
+    protected EClass eStaticClass() {
+        return Ifc2x3tc1Package.Literals.IFC_REL_ASSOCIATES_LIBRARY;
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public IfcLibrarySelect getRelatingLibrary() {
-		return (IfcLibrarySelect) eGet(Ifc2x3tc1Package.Literals.IFC_REL_ASSOCIATES_LIBRARY__RELATING_LIBRARY, true);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public IfcLibrarySelect getRelatingLibrary() {
+        return (IfcLibrarySelect) eGet(Ifc2x3tc1Package.Literals.IFC_REL_ASSOCIATES_LIBRARY__RELATING_LIBRARY, true);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public void setRelatingLibrary(IfcLibrarySelect newRelatingLibrary) {
-		eSet(Ifc2x3tc1Package.Literals.IFC_REL_ASSOCIATES_LIBRARY__RELATING_LIBRARY, newRelatingLibrary);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public void setRelatingLibrary(IfcLibrarySelect newRelatingLibrary) {
+        eSet(Ifc2x3tc1Package.Literals.IFC_REL_ASSOCIATES_LIBRARY__RELATING_LIBRARY, newRelatingLibrary);
+    }
 
 } //IfcRelAssociatesLibraryImpl

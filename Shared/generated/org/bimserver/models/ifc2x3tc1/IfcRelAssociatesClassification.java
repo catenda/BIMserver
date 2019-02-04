@@ -23,40 +23,40 @@ package org.bimserver.models.ifc2x3tc1;
  *
  * <p>
  * The following features are supported:
+ * </p>
  * <ul>
  *   <li>{@link org.bimserver.models.ifc2x3tc1.IfcRelAssociatesClassification#getRelatingClassification <em>Relating Classification</em>}</li>
  * </ul>
- * </p>
  *
  * @see org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package#getIfcRelAssociatesClassification()
  * @model
  * @generated
  */
 public interface IfcRelAssociatesClassification extends IfcRelAssociates {
-	/**
-	 * Returns the value of the '<em><b>Relating Classification</b></em>' reference.
-	 * <!-- begin-user-doc -->
-	 * <p>
-	 * If the meaning of the '<em>Relating Classification</em>' reference isn't clear,
-	 * there really should be more of a description here...
-	 * </p>
-	 * <!-- end-user-doc -->
-	 * @return the value of the '<em>Relating Classification</em>' reference.
-	 * @see #setRelatingClassification(IfcClassificationNotationSelect)
-	 * @see org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package#getIfcRelAssociatesClassification_RelatingClassification()
-	 * @model
-	 * @generated
-	 */
-	IfcClassificationNotationSelect getRelatingClassification();
+    /**
+     * Returns the value of the '<em><b>Relating Classification</b></em>' reference.
+     * <!-- begin-user-doc -->
+     * <p>
+     * If the meaning of the '<em>Relating Classification</em>' reference isn't clear,
+     * there really should be more of a description here...
+     * </p>
+     * <!-- end-user-doc -->
+     * @return the value of the '<em>Relating Classification</em>' reference.
+     * @see #setRelatingClassification(IfcClassificationNotationSelect)
+     * @see org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package#getIfcRelAssociatesClassification_RelatingClassification()
+     * @model
+     * @generated
+     */
+    IfcClassificationNotationSelect getRelatingClassification();
 
-	/**
-	 * Sets the value of the '{@link org.bimserver.models.ifc2x3tc1.IfcRelAssociatesClassification#getRelatingClassification <em>Relating Classification</em>}' reference.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @param value the new value of the '<em>Relating Classification</em>' reference.
-	 * @see #getRelatingClassification()
-	 * @generated
-	 */
-	void setRelatingClassification(IfcClassificationNotationSelect value);
+    /**
+     * Sets the value of the '{@link org.bimserver.models.ifc2x3tc1.IfcRelAssociatesClassification#getRelatingClassification <em>Relating Classification</em>}' reference.
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @param value the new value of the '<em>Relating Classification</em>' reference.
+     * @see #getRelatingClassification()
+     * @generated
+     */
+    void setRelatingClassification(IfcClassificationNotationSelect value);
 
 } // IfcRelAssociatesClassification

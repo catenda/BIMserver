@@ -32,270 +32,278 @@ import org.eclipse.emf.common.util.Enumerator;
  * @generated
  */
 public enum IfcDoorPanelPositionEnum implements Enumerator {
-	/**
-	 * The '<em><b>NULL</b></em>' literal object.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @see #NULL_VALUE
-	 * @generated
-	 * @ordered
-	 */
-	NULL(0, "NULL", "NULL"),
+    /**
+     * The '<em><b>NULL</b></em>' literal object.
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @see #NULL_VALUE
+     * @generated
+     * @ordered
+     */
+    NULL(0, "NULL", "NULL"),
 
-	/**
-	 * The '<em><b>RIGHT</b></em>' literal object.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @see #RIGHT_VALUE
-	 * @generated
-	 * @ordered
-	 */
-	RIGHT(1, "RIGHT", "RIGHT"),
+    /**
+     * The '<em><b>NOTDEFINED</b></em>' literal object.
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @see #NOTDEFINED_VALUE
+     * @generated
+     * @ordered
+     */
+    NOTDEFINED(1, "NOTDEFINED", "NOTDEFINED"),
 
-	/**
-	 * The '<em><b>NOTDEFINED</b></em>' literal object.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @see #NOTDEFINED_VALUE
-	 * @generated
-	 * @ordered
-	 */
-	NOTDEFINED(2, "NOTDEFINED", "NOTDEFINED"),
+    /**
+     * The '<em><b>LEFT</b></em>' literal object.
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @see #LEFT_VALUE
+     * @generated
+     * @ordered
+     */
+    LEFT(2, "LEFT", "LEFT"),
 
-	/**
-	 * The '<em><b>LEFT</b></em>' literal object.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @see #LEFT_VALUE
-	 * @generated
-	 * @ordered
-	 */
-	LEFT(3, "LEFT", "LEFT"),
+    /**
+     * The '<em><b>RIGHT</b></em>' literal object.
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @see #RIGHT_VALUE
+     * @generated
+     * @ordered
+     */
+    RIGHT(3, "RIGHT", "RIGHT"),
 
-	/**
-	 * The '<em><b>MIDDLE</b></em>' literal object.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @see #MIDDLE_VALUE
-	 * @generated
-	 * @ordered
-	 */
-	MIDDLE(4, "MIDDLE", "MIDDLE");
+    /**
+     * The '<em><b>MIDDLE</b></em>' literal object.
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @see #MIDDLE_VALUE
+     * @generated
+     * @ordered
+     */
+    MIDDLE(4, "MIDDLE", "MIDDLE");
 
-	/**
-	 * The '<em><b>NULL</b></em>' literal value.
-	 * <!-- begin-user-doc -->
-	 * <p>
-	 * If the meaning of '<em><b>NULL</b></em>' literal object isn't clear,
-	 * there really should be more of a description here...
-	 * </p>
-	 * <!-- end-user-doc -->
-	 * @see #NULL
-	 * @model
-	 * @generated
-	 * @ordered
-	 */
-	public static final int NULL_VALUE = 0;
+    /**
+     * The '<em><b>NULL</b></em>' literal value.
+     * <!-- begin-user-doc -->
+     * <p>
+     * If the meaning of '<em><b>NULL</b></em>' literal object isn't clear,
+     * there really should be more of a description here...
+     * </p>
+     * <!-- end-user-doc -->
+     * @see #NULL
+     * @model
+     * @generated
+     * @ordered
+     */
+    public static final int NULL_VALUE = 0;
 
-	/**
-	 * The '<em><b>RIGHT</b></em>' literal value.
-	 * <!-- begin-user-doc -->
-	 * <p>
-	 * If the meaning of '<em><b>RIGHT</b></em>' literal object isn't clear,
-	 * there really should be more of a description here...
-	 * </p>
-	 * <!-- end-user-doc -->
-	 * @see #RIGHT
-	 * @model
-	 * @generated
-	 * @ordered
-	 */
-	public static final int RIGHT_VALUE = 1;
+    /**
+     * The '<em><b>NOTDEFINED</b></em>' literal value.
+     * <!-- begin-user-doc -->
+     * <p>
+     * If the meaning of '<em><b>NOTDEFINED</b></em>' literal object isn't clear,
+     * there really should be more of a description here...
+     * </p>
+     * <!-- end-user-doc -->
+     * @see #NOTDEFINED
+     * @model
+     * @generated
+     * @ordered
+     */
+    public static final int NOTDEFINED_VALUE = 1;
 
-	/**
-	 * The '<em><b>NOTDEFINED</b></em>' literal value.
-	 * <!-- begin-user-doc -->
-	 * <p>
-	 * If the meaning of '<em><b>NOTDEFINED</b></em>' literal object isn't clear,
-	 * there really should be more of a description here...
-	 * </p>
-	 * <!-- end-user-doc -->
-	 * @see #NOTDEFINED
-	 * @model
-	 * @generated
-	 * @ordered
-	 */
-	public static final int NOTDEFINED_VALUE = 2;
+    /**
+     * The '<em><b>LEFT</b></em>' literal value.
+     * <!-- begin-user-doc -->
+     * <p>
+     * If the meaning of '<em><b>LEFT</b></em>' literal object isn't clear,
+     * there really should be more of a description here...
+     * </p>
+     * <!-- end-user-doc -->
+     * @see #LEFT
+     * @model
+     * @generated
+     * @ordered
+     */
+    public static final int LEFT_VALUE = 2;
 
-	/**
-	 * The '<em><b>LEFT</b></em>' literal value.
-	 * <!-- begin-user-doc -->
-	 * <p>
-	 * If the meaning of '<em><b>LEFT</b></em>' literal object isn't clear,
-	 * there really should be more of a description here...
-	 * </p>
-	 * <!-- end-user-doc -->
-	 * @see #LEFT
-	 * @model
-	 * @generated
-	 * @ordered
-	 */
-	public static final int LEFT_VALUE = 3;
+    /**
+     * The '<em><b>RIGHT</b></em>' literal value.
+     * <!-- begin-user-doc -->
+     * <p>
+     * If the meaning of '<em><b>RIGHT</b></em>' literal object isn't clear,
+     * there really should be more of a description here...
+     * </p>
+     * <!-- end-user-doc -->
+     * @see #RIGHT
+     * @model
+     * @generated
+     * @ordered
+     */
+    public static final int RIGHT_VALUE = 3;
 
-	/**
-	 * The '<em><b>MIDDLE</b></em>' literal value.
-	 * <!-- begin-user-doc -->
-	 * <p>
-	 * If the meaning of '<em><b>MIDDLE</b></em>' literal object isn't clear,
-	 * there really should be more of a description here...
-	 * </p>
-	 * <!-- end-user-doc -->
-	 * @see #MIDDLE
-	 * @model
-	 * @generated
-	 * @ordered
-	 */
-	public static final int MIDDLE_VALUE = 4;
+    /**
+     * The '<em><b>MIDDLE</b></em>' literal value.
+     * <!-- begin-user-doc -->
+     * <p>
+     * If the meaning of '<em><b>MIDDLE</b></em>' literal object isn't clear,
+     * there really should be more of a description here...
+     * </p>
+     * <!-- end-user-doc -->
+     * @see #MIDDLE
+     * @model
+     * @generated
+     * @ordered
+     */
+    public static final int MIDDLE_VALUE = 4;
 
-	/**
-	 * An array of all the '<em><b>Ifc Door Panel Position Enum</b></em>' enumerators.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	private static final IfcDoorPanelPositionEnum[] VALUES_ARRAY = new IfcDoorPanelPositionEnum[] { NULL, RIGHT, NOTDEFINED, LEFT, MIDDLE, };
+    /**
+     * An array of all the '<em><b>Ifc Door Panel Position Enum</b></em>' enumerators.
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    private static final IfcDoorPanelPositionEnum[] VALUES_ARRAY = new IfcDoorPanelPositionEnum[] { NULL, NOTDEFINED,
+            LEFT, RIGHT, MIDDLE, };
 
-	/**
-	 * A public read-only list of all the '<em><b>Ifc Door Panel Position Enum</b></em>' enumerators.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public static final List<IfcDoorPanelPositionEnum> VALUES = Collections.unmodifiableList(Arrays.asList(VALUES_ARRAY));
+    /**
+     * A public read-only list of all the '<em><b>Ifc Door Panel Position Enum</b></em>' enumerators.
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public static final List<IfcDoorPanelPositionEnum> VALUES = Collections
+            .unmodifiableList(Arrays.asList(VALUES_ARRAY));
 
-	/**
-	 * Returns the '<em><b>Ifc Door Panel Position Enum</b></em>' literal with the specified literal value.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public static IfcDoorPanelPositionEnum get(String literal) {
-		for (int i = 0; i < VALUES_ARRAY.length; ++i) {
-			IfcDoorPanelPositionEnum result = VALUES_ARRAY[i];
-			if (result.toString().equals(literal)) {
-				return result;
-			}
-		}
-		return null;
-	}
+    /**
+     * Returns the '<em><b>Ifc Door Panel Position Enum</b></em>' literal with the specified literal value.
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @param literal the literal.
+     * @return the matching enumerator or <code>null</code>.
+     * @generated
+     */
+    public static IfcDoorPanelPositionEnum get(String literal) {
+        for (int i = 0; i < VALUES_ARRAY.length; ++i) {
+            IfcDoorPanelPositionEnum result = VALUES_ARRAY[i];
+            if (result.toString().equals(literal)) {
+                return result;
+            }
+        }
+        return null;
+    }
 
-	/**
-	 * Returns the '<em><b>Ifc Door Panel Position Enum</b></em>' literal with the specified name.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public static IfcDoorPanelPositionEnum getByName(String name) {
-		for (int i = 0; i < VALUES_ARRAY.length; ++i) {
-			IfcDoorPanelPositionEnum result = VALUES_ARRAY[i];
-			if (result.getName().equals(name)) {
-				return result;
-			}
-		}
-		return null;
-	}
+    /**
+     * Returns the '<em><b>Ifc Door Panel Position Enum</b></em>' literal with the specified name.
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @param name the name.
+     * @return the matching enumerator or <code>null</code>.
+     * @generated
+     */
+    public static IfcDoorPanelPositionEnum getByName(String name) {
+        for (int i = 0; i < VALUES_ARRAY.length; ++i) {
+            IfcDoorPanelPositionEnum result = VALUES_ARRAY[i];
+            if (result.getName().equals(name)) {
+                return result;
+            }
+        }
+        return null;
+    }
 
-	/**
-	 * Returns the '<em><b>Ifc Door Panel Position Enum</b></em>' literal with the specified integer value.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public static IfcDoorPanelPositionEnum get(int value) {
-		switch (value) {
-		case NULL_VALUE:
-			return NULL;
-		case RIGHT_VALUE:
-			return RIGHT;
-		case NOTDEFINED_VALUE:
-			return NOTDEFINED;
-		case LEFT_VALUE:
-			return LEFT;
-		case MIDDLE_VALUE:
-			return MIDDLE;
-		}
-		return null;
-	}
+    /**
+     * Returns the '<em><b>Ifc Door Panel Position Enum</b></em>' literal with the specified integer value.
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @param value the integer value.
+     * @return the matching enumerator or <code>null</code>.
+     * @generated
+     */
+    public static IfcDoorPanelPositionEnum get(int value) {
+        switch (value) {
+        case NULL_VALUE:
+            return NULL;
+        case NOTDEFINED_VALUE:
+            return NOTDEFINED;
+        case LEFT_VALUE:
+            return LEFT;
+        case RIGHT_VALUE:
+            return RIGHT;
+        case MIDDLE_VALUE:
+            return MIDDLE;
+        }
+        return null;
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	private final int value;
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    private final int value;
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	private final String name;
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    private final String name;
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	private final String literal;
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    private final String literal;
 
-	/**
-	 * Only this class can construct instances.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	private IfcDoorPanelPositionEnum(int value, String name, String literal) {
-		this.value = value;
-		this.name = name;
-		this.literal = literal;
-	}
+    /**
+     * Only this class can construct instances.
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    private IfcDoorPanelPositionEnum(int value, String name, String literal) {
+        this.value = value;
+        this.name = name;
+        this.literal = literal;
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public int getValue() {
-		return value;
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public int getValue() {
+        return value;
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public String getName() {
-		return name;
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public String getName() {
+        return name;
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public String getLiteral() {
-		return literal;
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public String getLiteral() {
+        return literal;
+    }
 
-	/**
-	 * Returns the literal value of the enumerator, which is its string representation.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	@Override
-	public String toString() {
-		return literal;
-	}
+    /**
+     * Returns the literal value of the enumerator, which is its string representation.
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    @Override
+    public String toString() {
+        return literal;
+    }
 
 } //IfcDoorPanelPositionEnum

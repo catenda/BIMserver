@@ -18,6 +18,7 @@ package org.bimserver.models.ifc2x3tc1.impl;
 
 import org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package;
 import org.bimserver.models.ifc2x3tc1.IfcQuantityCount;
+
 import org.eclipse.emf.ecore.EClass;
 
 /**
@@ -26,68 +27,68 @@ import org.eclipse.emf.ecore.EClass;
  * <!-- end-user-doc -->
  * <p>
  * The following features are implemented:
+ * </p>
  * <ul>
  *   <li>{@link org.bimserver.models.ifc2x3tc1.impl.IfcQuantityCountImpl#getCountValue <em>Count Value</em>}</li>
  *   <li>{@link org.bimserver.models.ifc2x3tc1.impl.IfcQuantityCountImpl#getCountValueAsString <em>Count Value As String</em>}</li>
  * </ul>
- * </p>
  *
  * @generated
  */
 public class IfcQuantityCountImpl extends IfcPhysicalSimpleQuantityImpl implements IfcQuantityCount {
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	protected IfcQuantityCountImpl() {
-		super();
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    protected IfcQuantityCountImpl() {
+        super();
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	@Override
-	protected EClass eStaticClass() {
-		return Ifc2x3tc1Package.Literals.IFC_QUANTITY_COUNT;
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    @Override
+    protected EClass eStaticClass() {
+        return Ifc2x3tc1Package.Literals.IFC_QUANTITY_COUNT;
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public double getCountValue() {
-		return (Double) eGet(Ifc2x3tc1Package.Literals.IFC_QUANTITY_COUNT__COUNT_VALUE, true);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public double getCountValue() {
+        return (Double) eGet(Ifc2x3tc1Package.Literals.IFC_QUANTITY_COUNT__COUNT_VALUE, true);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public void setCountValue(double newCountValue) {
-		eSet(Ifc2x3tc1Package.Literals.IFC_QUANTITY_COUNT__COUNT_VALUE, newCountValue);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public void setCountValue(double newCountValue) {
+        eSet(Ifc2x3tc1Package.Literals.IFC_QUANTITY_COUNT__COUNT_VALUE, newCountValue);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public String getCountValueAsString() {
-		return (String) eGet(Ifc2x3tc1Package.Literals.IFC_QUANTITY_COUNT__COUNT_VALUE_AS_STRING, true);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public String getCountValueAsString() {
+        return (String) eGet(Ifc2x3tc1Package.Literals.IFC_QUANTITY_COUNT__COUNT_VALUE_AS_STRING, true);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public void setCountValueAsString(String newCountValueAsString) {
-		eSet(Ifc2x3tc1Package.Literals.IFC_QUANTITY_COUNT__COUNT_VALUE_AS_STRING, newCountValueAsString);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public void setCountValueAsString(String newCountValueAsString) {
+        eSet(Ifc2x3tc1Package.Literals.IFC_QUANTITY_COUNT__COUNT_VALUE_AS_STRING, newCountValueAsString);
+    }
 
 } //IfcQuantityCountImpl

@@ -19,6 +19,7 @@ package org.bimserver.models.store.impl;
 import org.bimserver.models.store.InternalServicePluginConfiguration;
 import org.bimserver.models.store.StorePackage;
 import org.bimserver.models.store.UserSettings;
+
 import org.eclipse.emf.ecore.EClass;
 
 /**
@@ -27,68 +28,69 @@ import org.eclipse.emf.ecore.EClass;
  * <!-- end-user-doc -->
  * <p>
  * The following features are implemented:
+ * </p>
  * <ul>
  *   <li>{@link org.bimserver.models.store.impl.InternalServicePluginConfigurationImpl#isRemoteAccessible <em>Remote Accessible</em>}</li>
  *   <li>{@link org.bimserver.models.store.impl.InternalServicePluginConfigurationImpl#getUserSettings <em>User Settings</em>}</li>
  * </ul>
- * </p>
  *
  * @generated
  */
-public class InternalServicePluginConfigurationImpl extends PluginConfigurationImpl implements InternalServicePluginConfiguration {
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	protected InternalServicePluginConfigurationImpl() {
-		super();
-	}
+public class InternalServicePluginConfigurationImpl extends PluginConfigurationImpl
+        implements InternalServicePluginConfiguration {
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    protected InternalServicePluginConfigurationImpl() {
+        super();
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	@Override
-	protected EClass eStaticClass() {
-		return StorePackage.Literals.INTERNAL_SERVICE_PLUGIN_CONFIGURATION;
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    @Override
+    protected EClass eStaticClass() {
+        return StorePackage.Literals.INTERNAL_SERVICE_PLUGIN_CONFIGURATION;
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public boolean isRemoteAccessible() {
-		return (Boolean) eGet(StorePackage.Literals.INTERNAL_SERVICE_PLUGIN_CONFIGURATION__REMOTE_ACCESSIBLE, true);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public boolean isRemoteAccessible() {
+        return (Boolean) eGet(StorePackage.Literals.INTERNAL_SERVICE_PLUGIN_CONFIGURATION__REMOTE_ACCESSIBLE, true);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public void setRemoteAccessible(boolean newRemoteAccessible) {
-		eSet(StorePackage.Literals.INTERNAL_SERVICE_PLUGIN_CONFIGURATION__REMOTE_ACCESSIBLE, newRemoteAccessible);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public void setRemoteAccessible(boolean newRemoteAccessible) {
+        eSet(StorePackage.Literals.INTERNAL_SERVICE_PLUGIN_CONFIGURATION__REMOTE_ACCESSIBLE, newRemoteAccessible);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public UserSettings getUserSettings() {
-		return (UserSettings) eGet(StorePackage.Literals.INTERNAL_SERVICE_PLUGIN_CONFIGURATION__USER_SETTINGS, true);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public UserSettings getUserSettings() {
+        return (UserSettings) eGet(StorePackage.Literals.INTERNAL_SERVICE_PLUGIN_CONFIGURATION__USER_SETTINGS, true);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public void setUserSettings(UserSettings newUserSettings) {
-		eSet(StorePackage.Literals.INTERNAL_SERVICE_PLUGIN_CONFIGURATION__USER_SETTINGS, newUserSettings);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public void setUserSettings(UserSettings newUserSettings) {
+        eSet(StorePackage.Literals.INTERNAL_SERVICE_PLUGIN_CONFIGURATION__USER_SETTINGS, newUserSettings);
+    }
 
 } //InternalServicePluginConfigurationImpl

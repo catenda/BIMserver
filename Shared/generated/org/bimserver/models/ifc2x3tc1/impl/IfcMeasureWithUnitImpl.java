@@ -17,10 +17,12 @@
 package org.bimserver.models.ifc2x3tc1.impl;
 
 import org.bimserver.emf.IdEObjectImpl;
+
 import org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package;
 import org.bimserver.models.ifc2x3tc1.IfcMeasureWithUnit;
 import org.bimserver.models.ifc2x3tc1.IfcUnit;
 import org.bimserver.models.ifc2x3tc1.IfcValue;
+
 import org.eclipse.emf.ecore.EClass;
 
 /**
@@ -29,78 +31,78 @@ import org.eclipse.emf.ecore.EClass;
  * <!-- end-user-doc -->
  * <p>
  * The following features are implemented:
+ * </p>
  * <ul>
  *   <li>{@link org.bimserver.models.ifc2x3tc1.impl.IfcMeasureWithUnitImpl#getValueComponent <em>Value Component</em>}</li>
  *   <li>{@link org.bimserver.models.ifc2x3tc1.impl.IfcMeasureWithUnitImpl#getUnitComponent <em>Unit Component</em>}</li>
  * </ul>
- * </p>
  *
  * @generated
  */
 public class IfcMeasureWithUnitImpl extends IdEObjectImpl implements IfcMeasureWithUnit {
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	protected IfcMeasureWithUnitImpl() {
-		super();
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    protected IfcMeasureWithUnitImpl() {
+        super();
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	@Override
-	protected EClass eStaticClass() {
-		return Ifc2x3tc1Package.Literals.IFC_MEASURE_WITH_UNIT;
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    @Override
+    protected EClass eStaticClass() {
+        return Ifc2x3tc1Package.Literals.IFC_MEASURE_WITH_UNIT;
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	@Override
-	protected int eStaticFeatureCount() {
-		return 0;
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    @Override
+    protected int eStaticFeatureCount() {
+        return 0;
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public IfcValue getValueComponent() {
-		return (IfcValue) eGet(Ifc2x3tc1Package.Literals.IFC_MEASURE_WITH_UNIT__VALUE_COMPONENT, true);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public IfcValue getValueComponent() {
+        return (IfcValue) eGet(Ifc2x3tc1Package.Literals.IFC_MEASURE_WITH_UNIT__VALUE_COMPONENT, true);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public void setValueComponent(IfcValue newValueComponent) {
-		eSet(Ifc2x3tc1Package.Literals.IFC_MEASURE_WITH_UNIT__VALUE_COMPONENT, newValueComponent);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public void setValueComponent(IfcValue newValueComponent) {
+        eSet(Ifc2x3tc1Package.Literals.IFC_MEASURE_WITH_UNIT__VALUE_COMPONENT, newValueComponent);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public IfcUnit getUnitComponent() {
-		return (IfcUnit) eGet(Ifc2x3tc1Package.Literals.IFC_MEASURE_WITH_UNIT__UNIT_COMPONENT, true);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public IfcUnit getUnitComponent() {
+        return (IfcUnit) eGet(Ifc2x3tc1Package.Literals.IFC_MEASURE_WITH_UNIT__UNIT_COMPONENT, true);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public void setUnitComponent(IfcUnit newUnitComponent) {
-		eSet(Ifc2x3tc1Package.Literals.IFC_MEASURE_WITH_UNIT__UNIT_COMPONENT, newUnitComponent);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public void setUnitComponent(IfcUnit newUnitComponent) {
+        eSet(Ifc2x3tc1Package.Literals.IFC_MEASURE_WITH_UNIT__UNIT_COMPONENT, newUnitComponent);
+    }
 
 } //IfcMeasureWithUnitImpl

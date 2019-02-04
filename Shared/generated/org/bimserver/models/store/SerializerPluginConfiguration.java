@@ -23,100 +23,100 @@ package org.bimserver.models.store;
  *
  * <p>
  * The following features are supported:
+ * </p>
  * <ul>
  *   <li>{@link org.bimserver.models.store.SerializerPluginConfiguration#getObjectIDM <em>Object IDM</em>}</li>
  *   <li>{@link org.bimserver.models.store.SerializerPluginConfiguration#getUserSettings <em>User Settings</em>}</li>
  *   <li>{@link org.bimserver.models.store.SerializerPluginConfiguration#getRenderEngine <em>Render Engine</em>}</li>
  * </ul>
- * </p>
  *
  * @see org.bimserver.models.store.StorePackage#getSerializerPluginConfiguration()
  * @model
  * @generated
  */
 public interface SerializerPluginConfiguration extends PluginConfiguration {
-	/**
-	 * Returns the value of the '<em><b>Object IDM</b></em>' reference.
-	 * It is bidirectional and its opposite is '{@link org.bimserver.models.store.ObjectIDMPluginConfiguration#getSerializers <em>Serializers</em>}'.
-	 * <!-- begin-user-doc -->
-	 * <p>
-	 * If the meaning of the '<em>Object IDM</em>' reference isn't clear,
-	 * there really should be more of a description here...
-	 * </p>
-	 * <!-- end-user-doc -->
-	 * @return the value of the '<em>Object IDM</em>' reference.
-	 * @see #setObjectIDM(ObjectIDMPluginConfiguration)
-	 * @see org.bimserver.models.store.StorePackage#getSerializerPluginConfiguration_ObjectIDM()
-	 * @see org.bimserver.models.store.ObjectIDMPluginConfiguration#getSerializers
-	 * @model opposite="serializers"
-	 * @generated
-	 */
-	ObjectIDMPluginConfiguration getObjectIDM();
+    /**
+     * Returns the value of the '<em><b>Object IDM</b></em>' reference.
+     * It is bidirectional and its opposite is '{@link org.bimserver.models.store.ObjectIDMPluginConfiguration#getSerializers <em>Serializers</em>}'.
+     * <!-- begin-user-doc -->
+     * <p>
+     * If the meaning of the '<em>Object IDM</em>' reference isn't clear,
+     * there really should be more of a description here...
+     * </p>
+     * <!-- end-user-doc -->
+     * @return the value of the '<em>Object IDM</em>' reference.
+     * @see #setObjectIDM(ObjectIDMPluginConfiguration)
+     * @see org.bimserver.models.store.StorePackage#getSerializerPluginConfiguration_ObjectIDM()
+     * @see org.bimserver.models.store.ObjectIDMPluginConfiguration#getSerializers
+     * @model opposite="serializers"
+     * @generated
+     */
+    ObjectIDMPluginConfiguration getObjectIDM();
 
-	/**
-	 * Sets the value of the '{@link org.bimserver.models.store.SerializerPluginConfiguration#getObjectIDM <em>Object IDM</em>}' reference.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @param value the new value of the '<em>Object IDM</em>' reference.
-	 * @see #getObjectIDM()
-	 * @generated
-	 */
-	void setObjectIDM(ObjectIDMPluginConfiguration value);
+    /**
+     * Sets the value of the '{@link org.bimserver.models.store.SerializerPluginConfiguration#getObjectIDM <em>Object IDM</em>}' reference.
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @param value the new value of the '<em>Object IDM</em>' reference.
+     * @see #getObjectIDM()
+     * @generated
+     */
+    void setObjectIDM(ObjectIDMPluginConfiguration value);
 
-	/**
-	 * Returns the value of the '<em><b>User Settings</b></em>' reference.
-	 * It is bidirectional and its opposite is '{@link org.bimserver.models.store.UserSettings#getSerializers <em>Serializers</em>}'.
-	 * <!-- begin-user-doc -->
-	 * <p>
-	 * If the meaning of the '<em>User Settings</em>' reference isn't clear,
-	 * there really should be more of a description here...
-	 * </p>
-	 * <!-- end-user-doc -->
-	 * @return the value of the '<em>User Settings</em>' reference.
-	 * @see #setUserSettings(UserSettings)
-	 * @see org.bimserver.models.store.StorePackage#getSerializerPluginConfiguration_UserSettings()
-	 * @see org.bimserver.models.store.UserSettings#getSerializers
-	 * @model opposite="serializers"
-	 * @generated
-	 */
-	UserSettings getUserSettings();
+    /**
+     * Returns the value of the '<em><b>User Settings</b></em>' reference.
+     * It is bidirectional and its opposite is '{@link org.bimserver.models.store.UserSettings#getSerializers <em>Serializers</em>}'.
+     * <!-- begin-user-doc -->
+     * <p>
+     * If the meaning of the '<em>User Settings</em>' reference isn't clear,
+     * there really should be more of a description here...
+     * </p>
+     * <!-- end-user-doc -->
+     * @return the value of the '<em>User Settings</em>' reference.
+     * @see #setUserSettings(UserSettings)
+     * @see org.bimserver.models.store.StorePackage#getSerializerPluginConfiguration_UserSettings()
+     * @see org.bimserver.models.store.UserSettings#getSerializers
+     * @model opposite="serializers"
+     * @generated
+     */
+    UserSettings getUserSettings();
 
-	/**
-	 * Sets the value of the '{@link org.bimserver.models.store.SerializerPluginConfiguration#getUserSettings <em>User Settings</em>}' reference.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @param value the new value of the '<em>User Settings</em>' reference.
-	 * @see #getUserSettings()
-	 * @generated
-	 */
-	void setUserSettings(UserSettings value);
+    /**
+     * Sets the value of the '{@link org.bimserver.models.store.SerializerPluginConfiguration#getUserSettings <em>User Settings</em>}' reference.
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @param value the new value of the '<em>User Settings</em>' reference.
+     * @see #getUserSettings()
+     * @generated
+     */
+    void setUserSettings(UserSettings value);
 
-	/**
-	 * Returns the value of the '<em><b>Render Engine</b></em>' reference.
-	 * It is bidirectional and its opposite is '{@link org.bimserver.models.store.RenderEnginePluginConfiguration#getSerializers <em>Serializers</em>}'.
-	 * <!-- begin-user-doc -->
-	 * <p>
-	 * If the meaning of the '<em>Render Engine</em>' reference isn't clear,
-	 * there really should be more of a description here...
-	 * </p>
-	 * <!-- end-user-doc -->
-	 * @return the value of the '<em>Render Engine</em>' reference.
-	 * @see #setRenderEngine(RenderEnginePluginConfiguration)
-	 * @see org.bimserver.models.store.StorePackage#getSerializerPluginConfiguration_RenderEngine()
-	 * @see org.bimserver.models.store.RenderEnginePluginConfiguration#getSerializers
-	 * @model opposite="serializers"
-	 * @generated
-	 */
-	RenderEnginePluginConfiguration getRenderEngine();
+    /**
+     * Returns the value of the '<em><b>Render Engine</b></em>' reference.
+     * It is bidirectional and its opposite is '{@link org.bimserver.models.store.RenderEnginePluginConfiguration#getSerializers <em>Serializers</em>}'.
+     * <!-- begin-user-doc -->
+     * <p>
+     * If the meaning of the '<em>Render Engine</em>' reference isn't clear,
+     * there really should be more of a description here...
+     * </p>
+     * <!-- end-user-doc -->
+     * @return the value of the '<em>Render Engine</em>' reference.
+     * @see #setRenderEngine(RenderEnginePluginConfiguration)
+     * @see org.bimserver.models.store.StorePackage#getSerializerPluginConfiguration_RenderEngine()
+     * @see org.bimserver.models.store.RenderEnginePluginConfiguration#getSerializers
+     * @model opposite="serializers"
+     * @generated
+     */
+    RenderEnginePluginConfiguration getRenderEngine();
 
-	/**
-	 * Sets the value of the '{@link org.bimserver.models.store.SerializerPluginConfiguration#getRenderEngine <em>Render Engine</em>}' reference.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @param value the new value of the '<em>Render Engine</em>' reference.
-	 * @see #getRenderEngine()
-	 * @generated
-	 */
-	void setRenderEngine(RenderEnginePluginConfiguration value);
+    /**
+     * Sets the value of the '{@link org.bimserver.models.store.SerializerPluginConfiguration#getRenderEngine <em>Render Engine</em>}' reference.
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @param value the new value of the '<em>Render Engine</em>' reference.
+     * @see #getRenderEngine()
+     * @generated
+     */
+    void setRenderEngine(RenderEnginePluginConfiguration value);
 
 } // SerializerPluginConfiguration

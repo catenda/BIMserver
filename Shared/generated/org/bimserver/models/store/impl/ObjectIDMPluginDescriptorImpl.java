@@ -17,8 +17,10 @@
 package org.bimserver.models.store.impl;
 
 import org.bimserver.emf.IdEObjectImpl;
+
 import org.bimserver.models.store.ObjectIDMPluginDescriptor;
 import org.bimserver.models.store.StorePackage;
+
 import org.eclipse.emf.ecore.EClass;
 
 /**
@@ -27,59 +29,59 @@ import org.eclipse.emf.ecore.EClass;
  * <!-- end-user-doc -->
  * <p>
  * The following features are implemented:
+ * </p>
  * <ul>
  *   <li>{@link org.bimserver.models.store.impl.ObjectIDMPluginDescriptorImpl#getClassName <em>Class Name</em>}</li>
  * </ul>
- * </p>
  *
  * @generated
  */
 public class ObjectIDMPluginDescriptorImpl extends IdEObjectImpl implements ObjectIDMPluginDescriptor {
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	protected ObjectIDMPluginDescriptorImpl() {
-		super();
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    protected ObjectIDMPluginDescriptorImpl() {
+        super();
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	@Override
-	protected EClass eStaticClass() {
-		return StorePackage.Literals.OBJECT_IDM_PLUGIN_DESCRIPTOR;
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    @Override
+    protected EClass eStaticClass() {
+        return StorePackage.Literals.OBJECT_IDM_PLUGIN_DESCRIPTOR;
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	@Override
-	protected int eStaticFeatureCount() {
-		return 0;
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    @Override
+    protected int eStaticFeatureCount() {
+        return 0;
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public String getClassName() {
-		return (String) eGet(StorePackage.Literals.OBJECT_IDM_PLUGIN_DESCRIPTOR__CLASS_NAME, true);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public String getClassName() {
+        return (String) eGet(StorePackage.Literals.OBJECT_IDM_PLUGIN_DESCRIPTOR__CLASS_NAME, true);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public void setClassName(String newClassName) {
-		eSet(StorePackage.Literals.OBJECT_IDM_PLUGIN_DESCRIPTOR__CLASS_NAME, newClassName);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public void setClassName(String newClassName) {
+        eSet(StorePackage.Literals.OBJECT_IDM_PLUGIN_DESCRIPTOR__CLASS_NAME, newClassName);
+    }
 
 } //ObjectIDMPluginDescriptorImpl

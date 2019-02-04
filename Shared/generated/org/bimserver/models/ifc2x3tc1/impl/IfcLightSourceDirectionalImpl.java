@@ -19,6 +19,7 @@ package org.bimserver.models.ifc2x3tc1.impl;
 import org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package;
 import org.bimserver.models.ifc2x3tc1.IfcDirection;
 import org.bimserver.models.ifc2x3tc1.IfcLightSourceDirectional;
+
 import org.eclipse.emf.ecore.EClass;
 
 /**
@@ -27,49 +28,49 @@ import org.eclipse.emf.ecore.EClass;
  * <!-- end-user-doc -->
  * <p>
  * The following features are implemented:
+ * </p>
  * <ul>
  *   <li>{@link org.bimserver.models.ifc2x3tc1.impl.IfcLightSourceDirectionalImpl#getOrientation <em>Orientation</em>}</li>
  * </ul>
- * </p>
  *
  * @generated
  */
 public class IfcLightSourceDirectionalImpl extends IfcLightSourceImpl implements IfcLightSourceDirectional {
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	protected IfcLightSourceDirectionalImpl() {
-		super();
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    protected IfcLightSourceDirectionalImpl() {
+        super();
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	@Override
-	protected EClass eStaticClass() {
-		return Ifc2x3tc1Package.Literals.IFC_LIGHT_SOURCE_DIRECTIONAL;
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    @Override
+    protected EClass eStaticClass() {
+        return Ifc2x3tc1Package.Literals.IFC_LIGHT_SOURCE_DIRECTIONAL;
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public IfcDirection getOrientation() {
-		return (IfcDirection) eGet(Ifc2x3tc1Package.Literals.IFC_LIGHT_SOURCE_DIRECTIONAL__ORIENTATION, true);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public IfcDirection getOrientation() {
+        return (IfcDirection) eGet(Ifc2x3tc1Package.Literals.IFC_LIGHT_SOURCE_DIRECTIONAL__ORIENTATION, true);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public void setOrientation(IfcDirection newOrientation) {
-		eSet(Ifc2x3tc1Package.Literals.IFC_LIGHT_SOURCE_DIRECTIONAL__ORIENTATION, newOrientation);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public void setOrientation(IfcDirection newOrientation) {
+        eSet(Ifc2x3tc1Package.Literals.IFC_LIGHT_SOURCE_DIRECTIONAL__ORIENTATION, newOrientation);
+    }
 
 } //IfcLightSourceDirectionalImpl

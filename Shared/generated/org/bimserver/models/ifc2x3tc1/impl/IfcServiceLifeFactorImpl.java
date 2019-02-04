@@ -20,6 +20,7 @@ import org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package;
 import org.bimserver.models.ifc2x3tc1.IfcMeasureValue;
 import org.bimserver.models.ifc2x3tc1.IfcServiceLifeFactor;
 import org.bimserver.models.ifc2x3tc1.IfcServiceLifeFactorTypeEnum;
+
 import org.eclipse.emf.ecore.EClass;
 
 /**
@@ -28,142 +29,143 @@ import org.eclipse.emf.ecore.EClass;
  * <!-- end-user-doc -->
  * <p>
  * The following features are implemented:
+ * </p>
  * <ul>
  *   <li>{@link org.bimserver.models.ifc2x3tc1.impl.IfcServiceLifeFactorImpl#getPredefinedType <em>Predefined Type</em>}</li>
  *   <li>{@link org.bimserver.models.ifc2x3tc1.impl.IfcServiceLifeFactorImpl#getUpperValue <em>Upper Value</em>}</li>
  *   <li>{@link org.bimserver.models.ifc2x3tc1.impl.IfcServiceLifeFactorImpl#getMostUsedValue <em>Most Used Value</em>}</li>
  *   <li>{@link org.bimserver.models.ifc2x3tc1.impl.IfcServiceLifeFactorImpl#getLowerValue <em>Lower Value</em>}</li>
  * </ul>
- * </p>
  *
  * @generated
  */
 public class IfcServiceLifeFactorImpl extends IfcPropertySetDefinitionImpl implements IfcServiceLifeFactor {
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	protected IfcServiceLifeFactorImpl() {
-		super();
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    protected IfcServiceLifeFactorImpl() {
+        super();
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	@Override
-	protected EClass eStaticClass() {
-		return Ifc2x3tc1Package.Literals.IFC_SERVICE_LIFE_FACTOR;
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    @Override
+    protected EClass eStaticClass() {
+        return Ifc2x3tc1Package.Literals.IFC_SERVICE_LIFE_FACTOR;
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public IfcServiceLifeFactorTypeEnum getPredefinedType() {
-		return (IfcServiceLifeFactorTypeEnum) eGet(Ifc2x3tc1Package.Literals.IFC_SERVICE_LIFE_FACTOR__PREDEFINED_TYPE, true);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public IfcServiceLifeFactorTypeEnum getPredefinedType() {
+        return (IfcServiceLifeFactorTypeEnum) eGet(Ifc2x3tc1Package.Literals.IFC_SERVICE_LIFE_FACTOR__PREDEFINED_TYPE,
+                true);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public void setPredefinedType(IfcServiceLifeFactorTypeEnum newPredefinedType) {
-		eSet(Ifc2x3tc1Package.Literals.IFC_SERVICE_LIFE_FACTOR__PREDEFINED_TYPE, newPredefinedType);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public void setPredefinedType(IfcServiceLifeFactorTypeEnum newPredefinedType) {
+        eSet(Ifc2x3tc1Package.Literals.IFC_SERVICE_LIFE_FACTOR__PREDEFINED_TYPE, newPredefinedType);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public IfcMeasureValue getUpperValue() {
-		return (IfcMeasureValue) eGet(Ifc2x3tc1Package.Literals.IFC_SERVICE_LIFE_FACTOR__UPPER_VALUE, true);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public IfcMeasureValue getUpperValue() {
+        return (IfcMeasureValue) eGet(Ifc2x3tc1Package.Literals.IFC_SERVICE_LIFE_FACTOR__UPPER_VALUE, true);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public void setUpperValue(IfcMeasureValue newUpperValue) {
-		eSet(Ifc2x3tc1Package.Literals.IFC_SERVICE_LIFE_FACTOR__UPPER_VALUE, newUpperValue);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public void setUpperValue(IfcMeasureValue newUpperValue) {
+        eSet(Ifc2x3tc1Package.Literals.IFC_SERVICE_LIFE_FACTOR__UPPER_VALUE, newUpperValue);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public void unsetUpperValue() {
-		eUnset(Ifc2x3tc1Package.Literals.IFC_SERVICE_LIFE_FACTOR__UPPER_VALUE);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public void unsetUpperValue() {
+        eUnset(Ifc2x3tc1Package.Literals.IFC_SERVICE_LIFE_FACTOR__UPPER_VALUE);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public boolean isSetUpperValue() {
-		return eIsSet(Ifc2x3tc1Package.Literals.IFC_SERVICE_LIFE_FACTOR__UPPER_VALUE);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public boolean isSetUpperValue() {
+        return eIsSet(Ifc2x3tc1Package.Literals.IFC_SERVICE_LIFE_FACTOR__UPPER_VALUE);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public IfcMeasureValue getMostUsedValue() {
-		return (IfcMeasureValue) eGet(Ifc2x3tc1Package.Literals.IFC_SERVICE_LIFE_FACTOR__MOST_USED_VALUE, true);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public IfcMeasureValue getMostUsedValue() {
+        return (IfcMeasureValue) eGet(Ifc2x3tc1Package.Literals.IFC_SERVICE_LIFE_FACTOR__MOST_USED_VALUE, true);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public void setMostUsedValue(IfcMeasureValue newMostUsedValue) {
-		eSet(Ifc2x3tc1Package.Literals.IFC_SERVICE_LIFE_FACTOR__MOST_USED_VALUE, newMostUsedValue);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public void setMostUsedValue(IfcMeasureValue newMostUsedValue) {
+        eSet(Ifc2x3tc1Package.Literals.IFC_SERVICE_LIFE_FACTOR__MOST_USED_VALUE, newMostUsedValue);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public IfcMeasureValue getLowerValue() {
-		return (IfcMeasureValue) eGet(Ifc2x3tc1Package.Literals.IFC_SERVICE_LIFE_FACTOR__LOWER_VALUE, true);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public IfcMeasureValue getLowerValue() {
+        return (IfcMeasureValue) eGet(Ifc2x3tc1Package.Literals.IFC_SERVICE_LIFE_FACTOR__LOWER_VALUE, true);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public void setLowerValue(IfcMeasureValue newLowerValue) {
-		eSet(Ifc2x3tc1Package.Literals.IFC_SERVICE_LIFE_FACTOR__LOWER_VALUE, newLowerValue);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public void setLowerValue(IfcMeasureValue newLowerValue) {
+        eSet(Ifc2x3tc1Package.Literals.IFC_SERVICE_LIFE_FACTOR__LOWER_VALUE, newLowerValue);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public void unsetLowerValue() {
-		eUnset(Ifc2x3tc1Package.Literals.IFC_SERVICE_LIFE_FACTOR__LOWER_VALUE);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public void unsetLowerValue() {
+        eUnset(Ifc2x3tc1Package.Literals.IFC_SERVICE_LIFE_FACTOR__LOWER_VALUE);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public boolean isSetLowerValue() {
-		return eIsSet(Ifc2x3tc1Package.Literals.IFC_SERVICE_LIFE_FACTOR__LOWER_VALUE);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public boolean isSetLowerValue() {
+        return eIsSet(Ifc2x3tc1Package.Literals.IFC_SERVICE_LIFE_FACTOR__LOWER_VALUE);
+    }
 
 } //IfcServiceLifeFactorImpl

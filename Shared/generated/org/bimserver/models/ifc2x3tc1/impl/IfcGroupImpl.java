@@ -19,6 +19,7 @@ package org.bimserver.models.ifc2x3tc1.impl;
 import org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package;
 import org.bimserver.models.ifc2x3tc1.IfcGroup;
 import org.bimserver.models.ifc2x3tc1.IfcRelAssignsToGroup;
+
 import org.eclipse.emf.ecore.EClass;
 
 /**
@@ -27,67 +28,67 @@ import org.eclipse.emf.ecore.EClass;
  * <!-- end-user-doc -->
  * <p>
  * The following features are implemented:
+ * </p>
  * <ul>
  *   <li>{@link org.bimserver.models.ifc2x3tc1.impl.IfcGroupImpl#getIsGroupedBy <em>Is Grouped By</em>}</li>
  * </ul>
- * </p>
  *
  * @generated
  */
 public class IfcGroupImpl extends IfcObjectImpl implements IfcGroup {
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	protected IfcGroupImpl() {
-		super();
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    protected IfcGroupImpl() {
+        super();
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	@Override
-	protected EClass eStaticClass() {
-		return Ifc2x3tc1Package.Literals.IFC_GROUP;
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    @Override
+    protected EClass eStaticClass() {
+        return Ifc2x3tc1Package.Literals.IFC_GROUP;
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public IfcRelAssignsToGroup getIsGroupedBy() {
-		return (IfcRelAssignsToGroup) eGet(Ifc2x3tc1Package.Literals.IFC_GROUP__IS_GROUPED_BY, true);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public IfcRelAssignsToGroup getIsGroupedBy() {
+        return (IfcRelAssignsToGroup) eGet(Ifc2x3tc1Package.Literals.IFC_GROUP__IS_GROUPED_BY, true);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public void setIsGroupedBy(IfcRelAssignsToGroup newIsGroupedBy) {
-		eSet(Ifc2x3tc1Package.Literals.IFC_GROUP__IS_GROUPED_BY, newIsGroupedBy);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public void setIsGroupedBy(IfcRelAssignsToGroup newIsGroupedBy) {
+        eSet(Ifc2x3tc1Package.Literals.IFC_GROUP__IS_GROUPED_BY, newIsGroupedBy);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public void unsetIsGroupedBy() {
-		eUnset(Ifc2x3tc1Package.Literals.IFC_GROUP__IS_GROUPED_BY);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public void unsetIsGroupedBy() {
+        eUnset(Ifc2x3tc1Package.Literals.IFC_GROUP__IS_GROUPED_BY);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public boolean isSetIsGroupedBy() {
-		return eIsSet(Ifc2x3tc1Package.Literals.IFC_GROUP__IS_GROUPED_BY);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public boolean isSetIsGroupedBy() {
+        return eIsSet(Ifc2x3tc1Package.Literals.IFC_GROUP__IS_GROUPED_BY);
+    }
 
 } //IfcGroupImpl

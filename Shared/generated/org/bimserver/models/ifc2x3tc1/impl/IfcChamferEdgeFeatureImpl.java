@@ -18,6 +18,7 @@ package org.bimserver.models.ifc2x3tc1.impl;
 
 import org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package;
 import org.bimserver.models.ifc2x3tc1.IfcChamferEdgeFeature;
+
 import org.eclipse.emf.ecore.EClass;
 
 /**
@@ -26,178 +27,178 @@ import org.eclipse.emf.ecore.EClass;
  * <!-- end-user-doc -->
  * <p>
  * The following features are implemented:
+ * </p>
  * <ul>
  *   <li>{@link org.bimserver.models.ifc2x3tc1.impl.IfcChamferEdgeFeatureImpl#getWidth <em>Width</em>}</li>
  *   <li>{@link org.bimserver.models.ifc2x3tc1.impl.IfcChamferEdgeFeatureImpl#getWidthAsString <em>Width As String</em>}</li>
  *   <li>{@link org.bimserver.models.ifc2x3tc1.impl.IfcChamferEdgeFeatureImpl#getHeight <em>Height</em>}</li>
  *   <li>{@link org.bimserver.models.ifc2x3tc1.impl.IfcChamferEdgeFeatureImpl#getHeightAsString <em>Height As String</em>}</li>
  * </ul>
- * </p>
  *
  * @generated
  */
 public class IfcChamferEdgeFeatureImpl extends IfcEdgeFeatureImpl implements IfcChamferEdgeFeature {
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	protected IfcChamferEdgeFeatureImpl() {
-		super();
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    protected IfcChamferEdgeFeatureImpl() {
+        super();
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	@Override
-	protected EClass eStaticClass() {
-		return Ifc2x3tc1Package.Literals.IFC_CHAMFER_EDGE_FEATURE;
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    @Override
+    protected EClass eStaticClass() {
+        return Ifc2x3tc1Package.Literals.IFC_CHAMFER_EDGE_FEATURE;
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public double getWidth() {
-		return (Double) eGet(Ifc2x3tc1Package.Literals.IFC_CHAMFER_EDGE_FEATURE__WIDTH, true);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public double getWidth() {
+        return (Double) eGet(Ifc2x3tc1Package.Literals.IFC_CHAMFER_EDGE_FEATURE__WIDTH, true);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public void setWidth(double newWidth) {
-		eSet(Ifc2x3tc1Package.Literals.IFC_CHAMFER_EDGE_FEATURE__WIDTH, newWidth);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public void setWidth(double newWidth) {
+        eSet(Ifc2x3tc1Package.Literals.IFC_CHAMFER_EDGE_FEATURE__WIDTH, newWidth);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public void unsetWidth() {
-		eUnset(Ifc2x3tc1Package.Literals.IFC_CHAMFER_EDGE_FEATURE__WIDTH);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public void unsetWidth() {
+        eUnset(Ifc2x3tc1Package.Literals.IFC_CHAMFER_EDGE_FEATURE__WIDTH);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public boolean isSetWidth() {
-		return eIsSet(Ifc2x3tc1Package.Literals.IFC_CHAMFER_EDGE_FEATURE__WIDTH);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public boolean isSetWidth() {
+        return eIsSet(Ifc2x3tc1Package.Literals.IFC_CHAMFER_EDGE_FEATURE__WIDTH);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public String getWidthAsString() {
-		return (String) eGet(Ifc2x3tc1Package.Literals.IFC_CHAMFER_EDGE_FEATURE__WIDTH_AS_STRING, true);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public String getWidthAsString() {
+        return (String) eGet(Ifc2x3tc1Package.Literals.IFC_CHAMFER_EDGE_FEATURE__WIDTH_AS_STRING, true);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public void setWidthAsString(String newWidthAsString) {
-		eSet(Ifc2x3tc1Package.Literals.IFC_CHAMFER_EDGE_FEATURE__WIDTH_AS_STRING, newWidthAsString);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public void setWidthAsString(String newWidthAsString) {
+        eSet(Ifc2x3tc1Package.Literals.IFC_CHAMFER_EDGE_FEATURE__WIDTH_AS_STRING, newWidthAsString);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public void unsetWidthAsString() {
-		eUnset(Ifc2x3tc1Package.Literals.IFC_CHAMFER_EDGE_FEATURE__WIDTH_AS_STRING);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public void unsetWidthAsString() {
+        eUnset(Ifc2x3tc1Package.Literals.IFC_CHAMFER_EDGE_FEATURE__WIDTH_AS_STRING);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public boolean isSetWidthAsString() {
-		return eIsSet(Ifc2x3tc1Package.Literals.IFC_CHAMFER_EDGE_FEATURE__WIDTH_AS_STRING);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public boolean isSetWidthAsString() {
+        return eIsSet(Ifc2x3tc1Package.Literals.IFC_CHAMFER_EDGE_FEATURE__WIDTH_AS_STRING);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public double getHeight() {
-		return (Double) eGet(Ifc2x3tc1Package.Literals.IFC_CHAMFER_EDGE_FEATURE__HEIGHT, true);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public double getHeight() {
+        return (Double) eGet(Ifc2x3tc1Package.Literals.IFC_CHAMFER_EDGE_FEATURE__HEIGHT, true);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public void setHeight(double newHeight) {
-		eSet(Ifc2x3tc1Package.Literals.IFC_CHAMFER_EDGE_FEATURE__HEIGHT, newHeight);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public void setHeight(double newHeight) {
+        eSet(Ifc2x3tc1Package.Literals.IFC_CHAMFER_EDGE_FEATURE__HEIGHT, newHeight);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public void unsetHeight() {
-		eUnset(Ifc2x3tc1Package.Literals.IFC_CHAMFER_EDGE_FEATURE__HEIGHT);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public void unsetHeight() {
+        eUnset(Ifc2x3tc1Package.Literals.IFC_CHAMFER_EDGE_FEATURE__HEIGHT);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public boolean isSetHeight() {
-		return eIsSet(Ifc2x3tc1Package.Literals.IFC_CHAMFER_EDGE_FEATURE__HEIGHT);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public boolean isSetHeight() {
+        return eIsSet(Ifc2x3tc1Package.Literals.IFC_CHAMFER_EDGE_FEATURE__HEIGHT);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public String getHeightAsString() {
-		return (String) eGet(Ifc2x3tc1Package.Literals.IFC_CHAMFER_EDGE_FEATURE__HEIGHT_AS_STRING, true);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public String getHeightAsString() {
+        return (String) eGet(Ifc2x3tc1Package.Literals.IFC_CHAMFER_EDGE_FEATURE__HEIGHT_AS_STRING, true);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public void setHeightAsString(String newHeightAsString) {
-		eSet(Ifc2x3tc1Package.Literals.IFC_CHAMFER_EDGE_FEATURE__HEIGHT_AS_STRING, newHeightAsString);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public void setHeightAsString(String newHeightAsString) {
+        eSet(Ifc2x3tc1Package.Literals.IFC_CHAMFER_EDGE_FEATURE__HEIGHT_AS_STRING, newHeightAsString);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public void unsetHeightAsString() {
-		eUnset(Ifc2x3tc1Package.Literals.IFC_CHAMFER_EDGE_FEATURE__HEIGHT_AS_STRING);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public void unsetHeightAsString() {
+        eUnset(Ifc2x3tc1Package.Literals.IFC_CHAMFER_EDGE_FEATURE__HEIGHT_AS_STRING);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public boolean isSetHeightAsString() {
-		return eIsSet(Ifc2x3tc1Package.Literals.IFC_CHAMFER_EDGE_FEATURE__HEIGHT_AS_STRING);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public boolean isSetHeightAsString() {
+        return eIsSet(Ifc2x3tc1Package.Literals.IFC_CHAMFER_EDGE_FEATURE__HEIGHT_AS_STRING);
+    }
 
 } //IfcChamferEdgeFeatureImpl

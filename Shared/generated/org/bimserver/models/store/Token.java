@@ -25,11 +25,11 @@ import org.bimserver.emf.IdEObject;
  *
  * <p>
  * The following features are supported:
+ * </p>
  * <ul>
  *   <li>{@link org.bimserver.models.store.Token#getTokenString <em>Token String</em>}</li>
  *   <li>{@link org.bimserver.models.store.Token#getExpires <em>Expires</em>}</li>
  * </ul>
- * </p>
  *
  * @see org.bimserver.models.store.StorePackage#getToken()
  * @model
@@ -37,56 +37,56 @@ import org.bimserver.emf.IdEObject;
  * @generated
  */
 public interface Token extends IdEObject {
-	/**
-	 * Returns the value of the '<em><b>Token String</b></em>' attribute.
-	 * <!-- begin-user-doc -->
-	 * <p>
-	 * If the meaning of the '<em>Token String</em>' attribute isn't clear,
-	 * there really should be more of a description here...
-	 * </p>
-	 * <!-- end-user-doc -->
-	 * @return the value of the '<em>Token String</em>' attribute.
-	 * @see #setTokenString(String)
-	 * @see org.bimserver.models.store.StorePackage#getToken_TokenString()
-	 * @model
-	 * @generated
-	 */
-	String getTokenString();
+    /**
+     * Returns the value of the '<em><b>Token String</b></em>' attribute.
+     * <!-- begin-user-doc -->
+     * <p>
+     * If the meaning of the '<em>Token String</em>' attribute isn't clear,
+     * there really should be more of a description here...
+     * </p>
+     * <!-- end-user-doc -->
+     * @return the value of the '<em>Token String</em>' attribute.
+     * @see #setTokenString(String)
+     * @see org.bimserver.models.store.StorePackage#getToken_TokenString()
+     * @model
+     * @generated
+     */
+    String getTokenString();
 
-	/**
-	 * Sets the value of the '{@link org.bimserver.models.store.Token#getTokenString <em>Token String</em>}' attribute.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @param value the new value of the '<em>Token String</em>' attribute.
-	 * @see #getTokenString()
-	 * @generated
-	 */
-	void setTokenString(String value);
+    /**
+     * Sets the value of the '{@link org.bimserver.models.store.Token#getTokenString <em>Token String</em>}' attribute.
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @param value the new value of the '<em>Token String</em>' attribute.
+     * @see #getTokenString()
+     * @generated
+     */
+    void setTokenString(String value);
 
-	/**
-	 * Returns the value of the '<em><b>Expires</b></em>' attribute.
-	 * <!-- begin-user-doc -->
-	 * <p>
-	 * If the meaning of the '<em>Expires</em>' attribute isn't clear,
-	 * there really should be more of a description here...
-	 * </p>
-	 * <!-- end-user-doc -->
-	 * @return the value of the '<em>Expires</em>' attribute.
-	 * @see #setExpires(long)
-	 * @see org.bimserver.models.store.StorePackage#getToken_Expires()
-	 * @model
-	 * @generated
-	 */
-	long getExpires();
+    /**
+     * Returns the value of the '<em><b>Expires</b></em>' attribute.
+     * <!-- begin-user-doc -->
+     * <p>
+     * If the meaning of the '<em>Expires</em>' attribute isn't clear,
+     * there really should be more of a description here...
+     * </p>
+     * <!-- end-user-doc -->
+     * @return the value of the '<em>Expires</em>' attribute.
+     * @see #setExpires(long)
+     * @see org.bimserver.models.store.StorePackage#getToken_Expires()
+     * @model
+     * @generated
+     */
+    long getExpires();
 
-	/**
-	 * Sets the value of the '{@link org.bimserver.models.store.Token#getExpires <em>Expires</em>}' attribute.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @param value the new value of the '<em>Expires</em>' attribute.
-	 * @see #getExpires()
-	 * @generated
-	 */
-	void setExpires(long value);
+    /**
+     * Sets the value of the '{@link org.bimserver.models.store.Token#getExpires <em>Expires</em>}' attribute.
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @param value the new value of the '<em>Expires</em>' attribute.
+     * @see #getExpires()
+     * @generated
+     */
+    void setExpires(long value);
 
 } // Token

@@ -17,8 +17,10 @@
 package org.bimserver.models.ifc2x3tc1.impl;
 
 import org.bimserver.emf.IdEObjectImpl;
+
 import org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package;
 import org.bimserver.models.ifc2x3tc1.IfcTextDecoration;
+
 import org.eclipse.emf.ecore.EClass;
 
 /**
@@ -27,77 +29,77 @@ import org.eclipse.emf.ecore.EClass;
  * <!-- end-user-doc -->
  * <p>
  * The following features are implemented:
+ * </p>
  * <ul>
  *   <li>{@link org.bimserver.models.ifc2x3tc1.impl.IfcTextDecorationImpl#getWrappedValue <em>Wrapped Value</em>}</li>
  * </ul>
- * </p>
  *
  * @generated
  */
 public class IfcTextDecorationImpl extends IdEObjectImpl implements IfcTextDecoration {
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	protected IfcTextDecorationImpl() {
-		super();
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    protected IfcTextDecorationImpl() {
+        super();
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	@Override
-	protected EClass eStaticClass() {
-		return Ifc2x3tc1Package.Literals.IFC_TEXT_DECORATION;
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    @Override
+    protected EClass eStaticClass() {
+        return Ifc2x3tc1Package.Literals.IFC_TEXT_DECORATION;
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	@Override
-	protected int eStaticFeatureCount() {
-		return 0;
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    @Override
+    protected int eStaticFeatureCount() {
+        return 0;
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public String getWrappedValue() {
-		return (String) eGet(Ifc2x3tc1Package.Literals.IFC_TEXT_DECORATION__WRAPPED_VALUE, true);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public String getWrappedValue() {
+        return (String) eGet(Ifc2x3tc1Package.Literals.IFC_TEXT_DECORATION__WRAPPED_VALUE, true);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public void setWrappedValue(String newWrappedValue) {
-		eSet(Ifc2x3tc1Package.Literals.IFC_TEXT_DECORATION__WRAPPED_VALUE, newWrappedValue);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public void setWrappedValue(String newWrappedValue) {
+        eSet(Ifc2x3tc1Package.Literals.IFC_TEXT_DECORATION__WRAPPED_VALUE, newWrappedValue);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public void unsetWrappedValue() {
-		eUnset(Ifc2x3tc1Package.Literals.IFC_TEXT_DECORATION__WRAPPED_VALUE);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public void unsetWrappedValue() {
+        eUnset(Ifc2x3tc1Package.Literals.IFC_TEXT_DECORATION__WRAPPED_VALUE);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public boolean isSetWrappedValue() {
-		return eIsSet(Ifc2x3tc1Package.Literals.IFC_TEXT_DECORATION__WRAPPED_VALUE);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public boolean isSetWrappedValue() {
+        return eIsSet(Ifc2x3tc1Package.Literals.IFC_TEXT_DECORATION__WRAPPED_VALUE);
+    }
 
 } //IfcTextDecorationImpl

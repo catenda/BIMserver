@@ -22,6 +22,7 @@ import org.bimserver.models.ifc2x3tc1.IfcColourRgb;
 import org.bimserver.models.ifc2x3tc1.IfcLightDistributionDataSourceSelect;
 import org.bimserver.models.ifc2x3tc1.IfcLightEmissionSourceEnum;
 import org.bimserver.models.ifc2x3tc1.IfcLightSourceGoniometric;
+
 import org.eclipse.emf.ecore.EClass;
 
 /**
@@ -30,6 +31,7 @@ import org.eclipse.emf.ecore.EClass;
  * <!-- end-user-doc -->
  * <p>
  * The following features are implemented:
+ * </p>
  * <ul>
  *   <li>{@link org.bimserver.models.ifc2x3tc1.impl.IfcLightSourceGoniometricImpl#getPosition <em>Position</em>}</li>
  *   <li>{@link org.bimserver.models.ifc2x3tc1.impl.IfcLightSourceGoniometricImpl#getColourAppearance <em>Colour Appearance</em>}</li>
@@ -40,190 +42,194 @@ import org.eclipse.emf.ecore.EClass;
  *   <li>{@link org.bimserver.models.ifc2x3tc1.impl.IfcLightSourceGoniometricImpl#getLightEmissionSource <em>Light Emission Source</em>}</li>
  *   <li>{@link org.bimserver.models.ifc2x3tc1.impl.IfcLightSourceGoniometricImpl#getLightDistributionDataSource <em>Light Distribution Data Source</em>}</li>
  * </ul>
- * </p>
  *
  * @generated
  */
 public class IfcLightSourceGoniometricImpl extends IfcLightSourceImpl implements IfcLightSourceGoniometric {
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	protected IfcLightSourceGoniometricImpl() {
-		super();
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    protected IfcLightSourceGoniometricImpl() {
+        super();
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	@Override
-	protected EClass eStaticClass() {
-		return Ifc2x3tc1Package.Literals.IFC_LIGHT_SOURCE_GONIOMETRIC;
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    @Override
+    protected EClass eStaticClass() {
+        return Ifc2x3tc1Package.Literals.IFC_LIGHT_SOURCE_GONIOMETRIC;
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public IfcAxis2Placement3D getPosition() {
-		return (IfcAxis2Placement3D) eGet(Ifc2x3tc1Package.Literals.IFC_LIGHT_SOURCE_GONIOMETRIC__POSITION, true);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public IfcAxis2Placement3D getPosition() {
+        return (IfcAxis2Placement3D) eGet(Ifc2x3tc1Package.Literals.IFC_LIGHT_SOURCE_GONIOMETRIC__POSITION, true);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public void setPosition(IfcAxis2Placement3D newPosition) {
-		eSet(Ifc2x3tc1Package.Literals.IFC_LIGHT_SOURCE_GONIOMETRIC__POSITION, newPosition);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public void setPosition(IfcAxis2Placement3D newPosition) {
+        eSet(Ifc2x3tc1Package.Literals.IFC_LIGHT_SOURCE_GONIOMETRIC__POSITION, newPosition);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public IfcColourRgb getColourAppearance() {
-		return (IfcColourRgb) eGet(Ifc2x3tc1Package.Literals.IFC_LIGHT_SOURCE_GONIOMETRIC__COLOUR_APPEARANCE, true);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public IfcColourRgb getColourAppearance() {
+        return (IfcColourRgb) eGet(Ifc2x3tc1Package.Literals.IFC_LIGHT_SOURCE_GONIOMETRIC__COLOUR_APPEARANCE, true);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public void setColourAppearance(IfcColourRgb newColourAppearance) {
-		eSet(Ifc2x3tc1Package.Literals.IFC_LIGHT_SOURCE_GONIOMETRIC__COLOUR_APPEARANCE, newColourAppearance);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public void setColourAppearance(IfcColourRgb newColourAppearance) {
+        eSet(Ifc2x3tc1Package.Literals.IFC_LIGHT_SOURCE_GONIOMETRIC__COLOUR_APPEARANCE, newColourAppearance);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public void unsetColourAppearance() {
-		eUnset(Ifc2x3tc1Package.Literals.IFC_LIGHT_SOURCE_GONIOMETRIC__COLOUR_APPEARANCE);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public void unsetColourAppearance() {
+        eUnset(Ifc2x3tc1Package.Literals.IFC_LIGHT_SOURCE_GONIOMETRIC__COLOUR_APPEARANCE);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public boolean isSetColourAppearance() {
-		return eIsSet(Ifc2x3tc1Package.Literals.IFC_LIGHT_SOURCE_GONIOMETRIC__COLOUR_APPEARANCE);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public boolean isSetColourAppearance() {
+        return eIsSet(Ifc2x3tc1Package.Literals.IFC_LIGHT_SOURCE_GONIOMETRIC__COLOUR_APPEARANCE);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public double getColourTemperature() {
-		return (Double) eGet(Ifc2x3tc1Package.Literals.IFC_LIGHT_SOURCE_GONIOMETRIC__COLOUR_TEMPERATURE, true);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public double getColourTemperature() {
+        return (Double) eGet(Ifc2x3tc1Package.Literals.IFC_LIGHT_SOURCE_GONIOMETRIC__COLOUR_TEMPERATURE, true);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public void setColourTemperature(double newColourTemperature) {
-		eSet(Ifc2x3tc1Package.Literals.IFC_LIGHT_SOURCE_GONIOMETRIC__COLOUR_TEMPERATURE, newColourTemperature);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public void setColourTemperature(double newColourTemperature) {
+        eSet(Ifc2x3tc1Package.Literals.IFC_LIGHT_SOURCE_GONIOMETRIC__COLOUR_TEMPERATURE, newColourTemperature);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public String getColourTemperatureAsString() {
-		return (String) eGet(Ifc2x3tc1Package.Literals.IFC_LIGHT_SOURCE_GONIOMETRIC__COLOUR_TEMPERATURE_AS_STRING, true);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public String getColourTemperatureAsString() {
+        return (String) eGet(Ifc2x3tc1Package.Literals.IFC_LIGHT_SOURCE_GONIOMETRIC__COLOUR_TEMPERATURE_AS_STRING,
+                true);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public void setColourTemperatureAsString(String newColourTemperatureAsString) {
-		eSet(Ifc2x3tc1Package.Literals.IFC_LIGHT_SOURCE_GONIOMETRIC__COLOUR_TEMPERATURE_AS_STRING, newColourTemperatureAsString);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public void setColourTemperatureAsString(String newColourTemperatureAsString) {
+        eSet(Ifc2x3tc1Package.Literals.IFC_LIGHT_SOURCE_GONIOMETRIC__COLOUR_TEMPERATURE_AS_STRING,
+                newColourTemperatureAsString);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public double getLuminousFlux() {
-		return (Double) eGet(Ifc2x3tc1Package.Literals.IFC_LIGHT_SOURCE_GONIOMETRIC__LUMINOUS_FLUX, true);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public double getLuminousFlux() {
+        return (Double) eGet(Ifc2x3tc1Package.Literals.IFC_LIGHT_SOURCE_GONIOMETRIC__LUMINOUS_FLUX, true);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public void setLuminousFlux(double newLuminousFlux) {
-		eSet(Ifc2x3tc1Package.Literals.IFC_LIGHT_SOURCE_GONIOMETRIC__LUMINOUS_FLUX, newLuminousFlux);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public void setLuminousFlux(double newLuminousFlux) {
+        eSet(Ifc2x3tc1Package.Literals.IFC_LIGHT_SOURCE_GONIOMETRIC__LUMINOUS_FLUX, newLuminousFlux);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public String getLuminousFluxAsString() {
-		return (String) eGet(Ifc2x3tc1Package.Literals.IFC_LIGHT_SOURCE_GONIOMETRIC__LUMINOUS_FLUX_AS_STRING, true);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public String getLuminousFluxAsString() {
+        return (String) eGet(Ifc2x3tc1Package.Literals.IFC_LIGHT_SOURCE_GONIOMETRIC__LUMINOUS_FLUX_AS_STRING, true);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public void setLuminousFluxAsString(String newLuminousFluxAsString) {
-		eSet(Ifc2x3tc1Package.Literals.IFC_LIGHT_SOURCE_GONIOMETRIC__LUMINOUS_FLUX_AS_STRING, newLuminousFluxAsString);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public void setLuminousFluxAsString(String newLuminousFluxAsString) {
+        eSet(Ifc2x3tc1Package.Literals.IFC_LIGHT_SOURCE_GONIOMETRIC__LUMINOUS_FLUX_AS_STRING, newLuminousFluxAsString);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public IfcLightEmissionSourceEnum getLightEmissionSource() {
-		return (IfcLightEmissionSourceEnum) eGet(Ifc2x3tc1Package.Literals.IFC_LIGHT_SOURCE_GONIOMETRIC__LIGHT_EMISSION_SOURCE, true);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public IfcLightEmissionSourceEnum getLightEmissionSource() {
+        return (IfcLightEmissionSourceEnum) eGet(
+                Ifc2x3tc1Package.Literals.IFC_LIGHT_SOURCE_GONIOMETRIC__LIGHT_EMISSION_SOURCE, true);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public void setLightEmissionSource(IfcLightEmissionSourceEnum newLightEmissionSource) {
-		eSet(Ifc2x3tc1Package.Literals.IFC_LIGHT_SOURCE_GONIOMETRIC__LIGHT_EMISSION_SOURCE, newLightEmissionSource);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public void setLightEmissionSource(IfcLightEmissionSourceEnum newLightEmissionSource) {
+        eSet(Ifc2x3tc1Package.Literals.IFC_LIGHT_SOURCE_GONIOMETRIC__LIGHT_EMISSION_SOURCE, newLightEmissionSource);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public IfcLightDistributionDataSourceSelect getLightDistributionDataSource() {
-		return (IfcLightDistributionDataSourceSelect) eGet(Ifc2x3tc1Package.Literals.IFC_LIGHT_SOURCE_GONIOMETRIC__LIGHT_DISTRIBUTION_DATA_SOURCE, true);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public IfcLightDistributionDataSourceSelect getLightDistributionDataSource() {
+        return (IfcLightDistributionDataSourceSelect) eGet(
+                Ifc2x3tc1Package.Literals.IFC_LIGHT_SOURCE_GONIOMETRIC__LIGHT_DISTRIBUTION_DATA_SOURCE, true);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public void setLightDistributionDataSource(IfcLightDistributionDataSourceSelect newLightDistributionDataSource) {
-		eSet(Ifc2x3tc1Package.Literals.IFC_LIGHT_SOURCE_GONIOMETRIC__LIGHT_DISTRIBUTION_DATA_SOURCE, newLightDistributionDataSource);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public void setLightDistributionDataSource(IfcLightDistributionDataSourceSelect newLightDistributionDataSource) {
+        eSet(Ifc2x3tc1Package.Literals.IFC_LIGHT_SOURCE_GONIOMETRIC__LIGHT_DISTRIBUTION_DATA_SOURCE,
+                newLightDistributionDataSource);
+    }
 
 } //IfcLightSourceGoniometricImpl

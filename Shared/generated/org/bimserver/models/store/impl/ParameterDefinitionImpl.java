@@ -17,10 +17,12 @@
 package org.bimserver.models.store.impl;
 
 import org.bimserver.emf.IdEObjectImpl;
+
 import org.bimserver.models.store.ParameterDefinition;
 import org.bimserver.models.store.StorePackage;
 import org.bimserver.models.store.Type;
 import org.bimserver.models.store.TypeDefinition;
+
 import org.eclipse.emf.ecore.EClass;
 
 /**
@@ -29,6 +31,7 @@ import org.eclipse.emf.ecore.EClass;
  * <!-- end-user-doc -->
  * <p>
  * The following features are implemented:
+ * </p>
  * <ul>
  *   <li>{@link org.bimserver.models.store.impl.ParameterDefinitionImpl#getName <em>Name</em>}</li>
  *   <li>{@link org.bimserver.models.store.impl.ParameterDefinitionImpl#isRequired <em>Required</em>}</li>
@@ -36,128 +39,127 @@ import org.eclipse.emf.ecore.EClass;
  *   <li>{@link org.bimserver.models.store.impl.ParameterDefinitionImpl#getType <em>Type</em>}</li>
  *   <li>{@link org.bimserver.models.store.impl.ParameterDefinitionImpl#getDefaultValue <em>Default Value</em>}</li>
  * </ul>
- * </p>
  *
  * @generated
  */
 public class ParameterDefinitionImpl extends IdEObjectImpl implements ParameterDefinition {
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	protected ParameterDefinitionImpl() {
-		super();
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    protected ParameterDefinitionImpl() {
+        super();
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	@Override
-	protected EClass eStaticClass() {
-		return StorePackage.Literals.PARAMETER_DEFINITION;
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    @Override
+    protected EClass eStaticClass() {
+        return StorePackage.Literals.PARAMETER_DEFINITION;
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	@Override
-	protected int eStaticFeatureCount() {
-		return 0;
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    @Override
+    protected int eStaticFeatureCount() {
+        return 0;
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public String getName() {
-		return (String) eGet(StorePackage.Literals.PARAMETER_DEFINITION__NAME, true);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public String getName() {
+        return (String) eGet(StorePackage.Literals.PARAMETER_DEFINITION__NAME, true);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public void setName(String newName) {
-		eSet(StorePackage.Literals.PARAMETER_DEFINITION__NAME, newName);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public void setName(String newName) {
+        eSet(StorePackage.Literals.PARAMETER_DEFINITION__NAME, newName);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public boolean isRequired() {
-		return (Boolean) eGet(StorePackage.Literals.PARAMETER_DEFINITION__REQUIRED, true);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public boolean isRequired() {
+        return (Boolean) eGet(StorePackage.Literals.PARAMETER_DEFINITION__REQUIRED, true);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public void setRequired(boolean newRequired) {
-		eSet(StorePackage.Literals.PARAMETER_DEFINITION__REQUIRED, newRequired);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public void setRequired(boolean newRequired) {
+        eSet(StorePackage.Literals.PARAMETER_DEFINITION__REQUIRED, newRequired);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public String getDescription() {
-		return (String) eGet(StorePackage.Literals.PARAMETER_DEFINITION__DESCRIPTION, true);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public String getDescription() {
+        return (String) eGet(StorePackage.Literals.PARAMETER_DEFINITION__DESCRIPTION, true);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public void setDescription(String newDescription) {
-		eSet(StorePackage.Literals.PARAMETER_DEFINITION__DESCRIPTION, newDescription);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public void setDescription(String newDescription) {
+        eSet(StorePackage.Literals.PARAMETER_DEFINITION__DESCRIPTION, newDescription);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public TypeDefinition getType() {
-		return (TypeDefinition) eGet(StorePackage.Literals.PARAMETER_DEFINITION__TYPE, true);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public TypeDefinition getType() {
+        return (TypeDefinition) eGet(StorePackage.Literals.PARAMETER_DEFINITION__TYPE, true);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public void setType(TypeDefinition newType) {
-		eSet(StorePackage.Literals.PARAMETER_DEFINITION__TYPE, newType);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public void setType(TypeDefinition newType) {
+        eSet(StorePackage.Literals.PARAMETER_DEFINITION__TYPE, newType);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public Type getDefaultValue() {
-		return (Type) eGet(StorePackage.Literals.PARAMETER_DEFINITION__DEFAULT_VALUE, true);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public Type getDefaultValue() {
+        return (Type) eGet(StorePackage.Literals.PARAMETER_DEFINITION__DEFAULT_VALUE, true);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public void setDefaultValue(Type newDefaultValue) {
-		eSet(StorePackage.Literals.PARAMETER_DEFINITION__DEFAULT_VALUE, newDefaultValue);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public void setDefaultValue(Type newDefaultValue) {
+        eSet(StorePackage.Literals.PARAMETER_DEFINITION__DEFAULT_VALUE, newDefaultValue);
+    }
 
 } //ParameterDefinitionImpl

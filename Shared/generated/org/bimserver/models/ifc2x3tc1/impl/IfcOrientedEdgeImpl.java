@@ -20,6 +20,7 @@ import org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package;
 import org.bimserver.models.ifc2x3tc1.IfcEdge;
 import org.bimserver.models.ifc2x3tc1.IfcOrientedEdge;
 import org.bimserver.models.ifc2x3tc1.Tristate;
+
 import org.eclipse.emf.ecore.EClass;
 
 /**
@@ -28,68 +29,68 @@ import org.eclipse.emf.ecore.EClass;
  * <!-- end-user-doc -->
  * <p>
  * The following features are implemented:
+ * </p>
  * <ul>
  *   <li>{@link org.bimserver.models.ifc2x3tc1.impl.IfcOrientedEdgeImpl#getEdgeElement <em>Edge Element</em>}</li>
  *   <li>{@link org.bimserver.models.ifc2x3tc1.impl.IfcOrientedEdgeImpl#getOrientation <em>Orientation</em>}</li>
  * </ul>
- * </p>
  *
  * @generated
  */
 public class IfcOrientedEdgeImpl extends IfcEdgeImpl implements IfcOrientedEdge {
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	protected IfcOrientedEdgeImpl() {
-		super();
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    protected IfcOrientedEdgeImpl() {
+        super();
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	@Override
-	protected EClass eStaticClass() {
-		return Ifc2x3tc1Package.Literals.IFC_ORIENTED_EDGE;
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    @Override
+    protected EClass eStaticClass() {
+        return Ifc2x3tc1Package.Literals.IFC_ORIENTED_EDGE;
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public IfcEdge getEdgeElement() {
-		return (IfcEdge) eGet(Ifc2x3tc1Package.Literals.IFC_ORIENTED_EDGE__EDGE_ELEMENT, true);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public IfcEdge getEdgeElement() {
+        return (IfcEdge) eGet(Ifc2x3tc1Package.Literals.IFC_ORIENTED_EDGE__EDGE_ELEMENT, true);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public void setEdgeElement(IfcEdge newEdgeElement) {
-		eSet(Ifc2x3tc1Package.Literals.IFC_ORIENTED_EDGE__EDGE_ELEMENT, newEdgeElement);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public void setEdgeElement(IfcEdge newEdgeElement) {
+        eSet(Ifc2x3tc1Package.Literals.IFC_ORIENTED_EDGE__EDGE_ELEMENT, newEdgeElement);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public Tristate getOrientation() {
-		return (Tristate) eGet(Ifc2x3tc1Package.Literals.IFC_ORIENTED_EDGE__ORIENTATION, true);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public Tristate getOrientation() {
+        return (Tristate) eGet(Ifc2x3tc1Package.Literals.IFC_ORIENTED_EDGE__ORIENTATION, true);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public void setOrientation(Tristate newOrientation) {
-		eSet(Ifc2x3tc1Package.Literals.IFC_ORIENTED_EDGE__ORIENTATION, newOrientation);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public void setOrientation(Tristate newOrientation) {
+        eSet(Ifc2x3tc1Package.Literals.IFC_ORIENTED_EDGE__ORIENTATION, newOrientation);
+    }
 
 } //IfcOrientedEdgeImpl

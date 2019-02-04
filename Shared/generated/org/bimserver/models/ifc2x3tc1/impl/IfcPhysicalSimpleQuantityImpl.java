@@ -19,6 +19,7 @@ package org.bimserver.models.ifc2x3tc1.impl;
 import org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package;
 import org.bimserver.models.ifc2x3tc1.IfcNamedUnit;
 import org.bimserver.models.ifc2x3tc1.IfcPhysicalSimpleQuantity;
+
 import org.eclipse.emf.ecore.EClass;
 
 /**
@@ -27,67 +28,67 @@ import org.eclipse.emf.ecore.EClass;
  * <!-- end-user-doc -->
  * <p>
  * The following features are implemented:
+ * </p>
  * <ul>
  *   <li>{@link org.bimserver.models.ifc2x3tc1.impl.IfcPhysicalSimpleQuantityImpl#getUnit <em>Unit</em>}</li>
  * </ul>
- * </p>
  *
  * @generated
  */
 public class IfcPhysicalSimpleQuantityImpl extends IfcPhysicalQuantityImpl implements IfcPhysicalSimpleQuantity {
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	protected IfcPhysicalSimpleQuantityImpl() {
-		super();
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    protected IfcPhysicalSimpleQuantityImpl() {
+        super();
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	@Override
-	protected EClass eStaticClass() {
-		return Ifc2x3tc1Package.Literals.IFC_PHYSICAL_SIMPLE_QUANTITY;
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    @Override
+    protected EClass eStaticClass() {
+        return Ifc2x3tc1Package.Literals.IFC_PHYSICAL_SIMPLE_QUANTITY;
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public IfcNamedUnit getUnit() {
-		return (IfcNamedUnit) eGet(Ifc2x3tc1Package.Literals.IFC_PHYSICAL_SIMPLE_QUANTITY__UNIT, true);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public IfcNamedUnit getUnit() {
+        return (IfcNamedUnit) eGet(Ifc2x3tc1Package.Literals.IFC_PHYSICAL_SIMPLE_QUANTITY__UNIT, true);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public void setUnit(IfcNamedUnit newUnit) {
-		eSet(Ifc2x3tc1Package.Literals.IFC_PHYSICAL_SIMPLE_QUANTITY__UNIT, newUnit);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public void setUnit(IfcNamedUnit newUnit) {
+        eSet(Ifc2x3tc1Package.Literals.IFC_PHYSICAL_SIMPLE_QUANTITY__UNIT, newUnit);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public void unsetUnit() {
-		eUnset(Ifc2x3tc1Package.Literals.IFC_PHYSICAL_SIMPLE_QUANTITY__UNIT);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public void unsetUnit() {
+        eUnset(Ifc2x3tc1Package.Literals.IFC_PHYSICAL_SIMPLE_QUANTITY__UNIT);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public boolean isSetUnit() {
-		return eIsSet(Ifc2x3tc1Package.Literals.IFC_PHYSICAL_SIMPLE_QUANTITY__UNIT);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public boolean isSetUnit() {
+        return eIsSet(Ifc2x3tc1Package.Literals.IFC_PHYSICAL_SIMPLE_QUANTITY__UNIT);
+    }
 
 } //IfcPhysicalSimpleQuantityImpl

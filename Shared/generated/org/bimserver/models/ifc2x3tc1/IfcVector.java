@@ -23,148 +23,148 @@ package org.bimserver.models.ifc2x3tc1;
  *
  * <p>
  * The following features are supported:
+ * </p>
  * <ul>
  *   <li>{@link org.bimserver.models.ifc2x3tc1.IfcVector#getOrientation <em>Orientation</em>}</li>
  *   <li>{@link org.bimserver.models.ifc2x3tc1.IfcVector#getMagnitude <em>Magnitude</em>}</li>
  *   <li>{@link org.bimserver.models.ifc2x3tc1.IfcVector#getMagnitudeAsString <em>Magnitude As String</em>}</li>
  *   <li>{@link org.bimserver.models.ifc2x3tc1.IfcVector#getDim <em>Dim</em>}</li>
  * </ul>
- * </p>
  *
  * @see org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package#getIfcVector()
  * @model
  * @generated
  */
 public interface IfcVector extends IfcGeometricRepresentationItem, IfcVectorOrDirection {
-	/**
-	 * Returns the value of the '<em><b>Orientation</b></em>' reference.
-	 * <!-- begin-user-doc -->
-	 * <p>
-	 * If the meaning of the '<em>Orientation</em>' reference isn't clear,
-	 * there really should be more of a description here...
-	 * </p>
-	 * <!-- end-user-doc -->
-	 * @return the value of the '<em>Orientation</em>' reference.
-	 * @see #setOrientation(IfcDirection)
-	 * @see org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package#getIfcVector_Orientation()
-	 * @model
-	 * @generated
-	 */
-	IfcDirection getOrientation();
+    /**
+     * Returns the value of the '<em><b>Orientation</b></em>' reference.
+     * <!-- begin-user-doc -->
+     * <p>
+     * If the meaning of the '<em>Orientation</em>' reference isn't clear,
+     * there really should be more of a description here...
+     * </p>
+     * <!-- end-user-doc -->
+     * @return the value of the '<em>Orientation</em>' reference.
+     * @see #setOrientation(IfcDirection)
+     * @see org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package#getIfcVector_Orientation()
+     * @model
+     * @generated
+     */
+    IfcDirection getOrientation();
 
-	/**
-	 * Sets the value of the '{@link org.bimserver.models.ifc2x3tc1.IfcVector#getOrientation <em>Orientation</em>}' reference.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @param value the new value of the '<em>Orientation</em>' reference.
-	 * @see #getOrientation()
-	 * @generated
-	 */
-	void setOrientation(IfcDirection value);
+    /**
+     * Sets the value of the '{@link org.bimserver.models.ifc2x3tc1.IfcVector#getOrientation <em>Orientation</em>}' reference.
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @param value the new value of the '<em>Orientation</em>' reference.
+     * @see #getOrientation()
+     * @generated
+     */
+    void setOrientation(IfcDirection value);
 
-	/**
-	 * Returns the value of the '<em><b>Magnitude</b></em>' attribute.
-	 * <!-- begin-user-doc -->
-	 * <p>
-	 * If the meaning of the '<em>Magnitude</em>' attribute isn't clear,
-	 * there really should be more of a description here...
-	 * </p>
-	 * <!-- end-user-doc -->
-	 * @return the value of the '<em>Magnitude</em>' attribute.
-	 * @see #setMagnitude(double)
-	 * @see org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package#getIfcVector_Magnitude()
-	 * @model
-	 * @generated
-	 */
-	double getMagnitude();
+    /**
+     * Returns the value of the '<em><b>Magnitude</b></em>' attribute.
+     * <!-- begin-user-doc -->
+     * <p>
+     * If the meaning of the '<em>Magnitude</em>' attribute isn't clear,
+     * there really should be more of a description here...
+     * </p>
+     * <!-- end-user-doc -->
+     * @return the value of the '<em>Magnitude</em>' attribute.
+     * @see #setMagnitude(double)
+     * @see org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package#getIfcVector_Magnitude()
+     * @model
+     * @generated
+     */
+    double getMagnitude();
 
-	/**
-	 * Sets the value of the '{@link org.bimserver.models.ifc2x3tc1.IfcVector#getMagnitude <em>Magnitude</em>}' attribute.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @param value the new value of the '<em>Magnitude</em>' attribute.
-	 * @see #getMagnitude()
-	 * @generated
-	 */
-	void setMagnitude(double value);
+    /**
+     * Sets the value of the '{@link org.bimserver.models.ifc2x3tc1.IfcVector#getMagnitude <em>Magnitude</em>}' attribute.
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @param value the new value of the '<em>Magnitude</em>' attribute.
+     * @see #getMagnitude()
+     * @generated
+     */
+    void setMagnitude(double value);
 
-	/**
-	 * Returns the value of the '<em><b>Magnitude As String</b></em>' attribute.
-	 * <!-- begin-user-doc -->
-	 * <p>
-	 * If the meaning of the '<em>Magnitude As String</em>' attribute isn't clear,
-	 * there really should be more of a description here...
-	 * </p>
-	 * <!-- end-user-doc -->
-	 * @return the value of the '<em>Magnitude As String</em>' attribute.
-	 * @see #setMagnitudeAsString(String)
-	 * @see org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package#getIfcVector_MagnitudeAsString()
-	 * @model
-	 * @generated
-	 */
-	String getMagnitudeAsString();
+    /**
+     * Returns the value of the '<em><b>Magnitude As String</b></em>' attribute.
+     * <!-- begin-user-doc -->
+     * <p>
+     * If the meaning of the '<em>Magnitude As String</em>' attribute isn't clear,
+     * there really should be more of a description here...
+     * </p>
+     * <!-- end-user-doc -->
+     * @return the value of the '<em>Magnitude As String</em>' attribute.
+     * @see #setMagnitudeAsString(String)
+     * @see org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package#getIfcVector_MagnitudeAsString()
+     * @model
+     * @generated
+     */
+    String getMagnitudeAsString();
 
-	/**
-	 * Sets the value of the '{@link org.bimserver.models.ifc2x3tc1.IfcVector#getMagnitudeAsString <em>Magnitude As String</em>}' attribute.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @param value the new value of the '<em>Magnitude As String</em>' attribute.
-	 * @see #getMagnitudeAsString()
-	 * @generated
-	 */
-	void setMagnitudeAsString(String value);
+    /**
+     * Sets the value of the '{@link org.bimserver.models.ifc2x3tc1.IfcVector#getMagnitudeAsString <em>Magnitude As String</em>}' attribute.
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @param value the new value of the '<em>Magnitude As String</em>' attribute.
+     * @see #getMagnitudeAsString()
+     * @generated
+     */
+    void setMagnitudeAsString(String value);
 
-	/**
-	 * Returns the value of the '<em><b>Dim</b></em>' attribute.
-	 * <!-- begin-user-doc -->
-	 * <p>
-	 * If the meaning of the '<em>Dim</em>' attribute isn't clear,
-	 * there really should be more of a description here...
-	 * </p>
-	 * <!-- end-user-doc -->
-	 * @return the value of the '<em>Dim</em>' attribute.
-	 * @see #isSetDim()
-	 * @see #unsetDim()
-	 * @see #setDim(int)
-	 * @see org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package#getIfcVector_Dim()
-	 * @model unsettable="true" derived="true"
-	 * @generated
-	 */
-	int getDim();
+    /**
+     * Returns the value of the '<em><b>Dim</b></em>' attribute.
+     * <!-- begin-user-doc -->
+     * <p>
+     * If the meaning of the '<em>Dim</em>' attribute isn't clear,
+     * there really should be more of a description here...
+     * </p>
+     * <!-- end-user-doc -->
+     * @return the value of the '<em>Dim</em>' attribute.
+     * @see #isSetDim()
+     * @see #unsetDim()
+     * @see #setDim(long)
+     * @see org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package#getIfcVector_Dim()
+     * @model unsettable="true" derived="true"
+     * @generated
+     */
+    long getDim();
 
-	/**
-	 * Sets the value of the '{@link org.bimserver.models.ifc2x3tc1.IfcVector#getDim <em>Dim</em>}' attribute.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @param value the new value of the '<em>Dim</em>' attribute.
-	 * @see #isSetDim()
-	 * @see #unsetDim()
-	 * @see #getDim()
-	 * @generated
-	 */
-	void setDim(int value);
+    /**
+     * Sets the value of the '{@link org.bimserver.models.ifc2x3tc1.IfcVector#getDim <em>Dim</em>}' attribute.
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @param value the new value of the '<em>Dim</em>' attribute.
+     * @see #isSetDim()
+     * @see #unsetDim()
+     * @see #getDim()
+     * @generated
+     */
+    void setDim(long value);
 
-	/**
-	 * Unsets the value of the '{@link org.bimserver.models.ifc2x3tc1.IfcVector#getDim <em>Dim</em>}' attribute.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @see #isSetDim()
-	 * @see #getDim()
-	 * @see #setDim(int)
-	 * @generated
-	 */
-	void unsetDim();
+    /**
+     * Unsets the value of the '{@link org.bimserver.models.ifc2x3tc1.IfcVector#getDim <em>Dim</em>}' attribute.
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @see #isSetDim()
+     * @see #getDim()
+     * @see #setDim(long)
+     * @generated
+     */
+    void unsetDim();
 
-	/**
-	 * Returns whether the value of the '{@link org.bimserver.models.ifc2x3tc1.IfcVector#getDim <em>Dim</em>}' attribute is set.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @return whether the value of the '<em>Dim</em>' attribute is set.
-	 * @see #unsetDim()
-	 * @see #getDim()
-	 * @see #setDim(int)
-	 * @generated
-	 */
-	boolean isSetDim();
+    /**
+     * Returns whether the value of the '{@link org.bimserver.models.ifc2x3tc1.IfcVector#getDim <em>Dim</em>}' attribute is set.
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @return whether the value of the '<em>Dim</em>' attribute is set.
+     * @see #unsetDim()
+     * @see #getDim()
+     * @see #setDim(long)
+     * @generated
+     */
+    boolean isSetDim();
 
 } // IfcVector

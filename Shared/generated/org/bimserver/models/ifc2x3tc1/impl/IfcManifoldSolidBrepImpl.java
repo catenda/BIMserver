@@ -19,6 +19,7 @@ package org.bimserver.models.ifc2x3tc1.impl;
 import org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package;
 import org.bimserver.models.ifc2x3tc1.IfcClosedShell;
 import org.bimserver.models.ifc2x3tc1.IfcManifoldSolidBrep;
+
 import org.eclipse.emf.ecore.EClass;
 
 /**
@@ -27,49 +28,49 @@ import org.eclipse.emf.ecore.EClass;
  * <!-- end-user-doc -->
  * <p>
  * The following features are implemented:
+ * </p>
  * <ul>
  *   <li>{@link org.bimserver.models.ifc2x3tc1.impl.IfcManifoldSolidBrepImpl#getOuter <em>Outer</em>}</li>
  * </ul>
- * </p>
  *
  * @generated
  */
 public class IfcManifoldSolidBrepImpl extends IfcSolidModelImpl implements IfcManifoldSolidBrep {
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	protected IfcManifoldSolidBrepImpl() {
-		super();
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    protected IfcManifoldSolidBrepImpl() {
+        super();
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	@Override
-	protected EClass eStaticClass() {
-		return Ifc2x3tc1Package.Literals.IFC_MANIFOLD_SOLID_BREP;
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    @Override
+    protected EClass eStaticClass() {
+        return Ifc2x3tc1Package.Literals.IFC_MANIFOLD_SOLID_BREP;
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public IfcClosedShell getOuter() {
-		return (IfcClosedShell) eGet(Ifc2x3tc1Package.Literals.IFC_MANIFOLD_SOLID_BREP__OUTER, true);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public IfcClosedShell getOuter() {
+        return (IfcClosedShell) eGet(Ifc2x3tc1Package.Literals.IFC_MANIFOLD_SOLID_BREP__OUTER, true);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public void setOuter(IfcClosedShell newOuter) {
-		eSet(Ifc2x3tc1Package.Literals.IFC_MANIFOLD_SOLID_BREP__OUTER, newOuter);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public void setOuter(IfcClosedShell newOuter) {
+        eSet(Ifc2x3tc1Package.Literals.IFC_MANIFOLD_SOLID_BREP__OUTER, newOuter);
+    }
 
 } //IfcManifoldSolidBrepImpl

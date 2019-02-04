@@ -19,7 +19,9 @@ package org.bimserver.models.ifc2x3tc1.impl;
 import org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package;
 import org.bimserver.models.ifc2x3tc1.IfcAnnotation;
 import org.bimserver.models.ifc2x3tc1.IfcRelContainedInSpatialStructure;
+
 import org.eclipse.emf.common.util.EList;
+
 import org.eclipse.emf.ecore.EClass;
 
 /**
@@ -28,59 +30,60 @@ import org.eclipse.emf.ecore.EClass;
  * <!-- end-user-doc -->
  * <p>
  * The following features are implemented:
+ * </p>
  * <ul>
  *   <li>{@link org.bimserver.models.ifc2x3tc1.impl.IfcAnnotationImpl#getContainedInStructure <em>Contained In Structure</em>}</li>
  * </ul>
- * </p>
  *
  * @generated
  */
 public class IfcAnnotationImpl extends IfcProductImpl implements IfcAnnotation {
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	protected IfcAnnotationImpl() {
-		super();
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    protected IfcAnnotationImpl() {
+        super();
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	@Override
-	protected EClass eStaticClass() {
-		return Ifc2x3tc1Package.Literals.IFC_ANNOTATION;
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    @Override
+    protected EClass eStaticClass() {
+        return Ifc2x3tc1Package.Literals.IFC_ANNOTATION;
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	@SuppressWarnings("unchecked")
-	public EList<IfcRelContainedInSpatialStructure> getContainedInStructure() {
-		return (EList<IfcRelContainedInSpatialStructure>) eGet(Ifc2x3tc1Package.Literals.IFC_ANNOTATION__CONTAINED_IN_STRUCTURE, true);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    @SuppressWarnings("unchecked")
+    public EList<IfcRelContainedInSpatialStructure> getContainedInStructure() {
+        return (EList<IfcRelContainedInSpatialStructure>) eGet(
+                Ifc2x3tc1Package.Literals.IFC_ANNOTATION__CONTAINED_IN_STRUCTURE, true);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public void unsetContainedInStructure() {
-		eUnset(Ifc2x3tc1Package.Literals.IFC_ANNOTATION__CONTAINED_IN_STRUCTURE);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public void unsetContainedInStructure() {
+        eUnset(Ifc2x3tc1Package.Literals.IFC_ANNOTATION__CONTAINED_IN_STRUCTURE);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public boolean isSetContainedInStructure() {
-		return eIsSet(Ifc2x3tc1Package.Literals.IFC_ANNOTATION__CONTAINED_IN_STRUCTURE);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public boolean isSetContainedInStructure() {
+        return eIsSet(Ifc2x3tc1Package.Literals.IFC_ANNOTATION__CONTAINED_IN_STRUCTURE);
+    }
 
 } //IfcAnnotationImpl

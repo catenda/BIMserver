@@ -19,8 +19,10 @@ package org.bimserver.models.store.impl;
 import java.util.Date;
 
 import org.bimserver.emf.IdEObjectImpl;
+
 import org.bimserver.models.store.BimServerInfo;
 import org.bimserver.models.store.StorePackage;
+
 import org.eclipse.emf.ecore.EClass;
 
 /**
@@ -29,6 +31,7 @@ import org.eclipse.emf.ecore.EClass;
  * <!-- end-user-doc -->
  * <p>
  * The following features are implemented:
+ * </p>
  * <ul>
  *   <li>{@link org.bimserver.models.store.impl.BimServerInfoImpl#getCurrentVersion <em>Current Version</em>}</li>
  *   <li>{@link org.bimserver.models.store.impl.BimServerInfoImpl#getCurrentDate <em>Current Date</em>}</li>
@@ -42,236 +45,235 @@ import org.eclipse.emf.ecore.EClass;
  *   <li>{@link org.bimserver.models.store.impl.BimServerInfoImpl#getServerLogUrl <em>Server Log Url</em>}</li>
  *   <li>{@link org.bimserver.models.store.impl.BimServerInfoImpl#getStarted <em>Started</em>}</li>
  * </ul>
- * </p>
  *
  * @generated
  */
 public class BimServerInfoImpl extends IdEObjectImpl implements BimServerInfo {
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	protected BimServerInfoImpl() {
-		super();
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    protected BimServerInfoImpl() {
+        super();
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	@Override
-	protected EClass eStaticClass() {
-		return StorePackage.Literals.BIM_SERVER_INFO;
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    @Override
+    protected EClass eStaticClass() {
+        return StorePackage.Literals.BIM_SERVER_INFO;
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	@Override
-	protected int eStaticFeatureCount() {
-		return 0;
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    @Override
+    protected int eStaticFeatureCount() {
+        return 0;
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public String getCurrentVersion() {
-		return (String) eGet(StorePackage.Literals.BIM_SERVER_INFO__CURRENT_VERSION, true);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public String getCurrentVersion() {
+        return (String) eGet(StorePackage.Literals.BIM_SERVER_INFO__CURRENT_VERSION, true);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public void setCurrentVersion(String newCurrentVersion) {
-		eSet(StorePackage.Literals.BIM_SERVER_INFO__CURRENT_VERSION, newCurrentVersion);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public void setCurrentVersion(String newCurrentVersion) {
+        eSet(StorePackage.Literals.BIM_SERVER_INFO__CURRENT_VERSION, newCurrentVersion);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public Date getCurrentDate() {
-		return (Date) eGet(StorePackage.Literals.BIM_SERVER_INFO__CURRENT_DATE, true);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public Date getCurrentDate() {
+        return (Date) eGet(StorePackage.Literals.BIM_SERVER_INFO__CURRENT_DATE, true);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public void setCurrentDate(Date newCurrentDate) {
-		eSet(StorePackage.Literals.BIM_SERVER_INFO__CURRENT_DATE, newCurrentDate);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public void setCurrentDate(Date newCurrentDate) {
+        eSet(StorePackage.Literals.BIM_SERVER_INFO__CURRENT_DATE, newCurrentDate);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public int getSchemaVersion() {
-		return (Integer) eGet(StorePackage.Literals.BIM_SERVER_INFO__SCHEMA_VERSION, true);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public int getSchemaVersion() {
+        return (Integer) eGet(StorePackage.Literals.BIM_SERVER_INFO__SCHEMA_VERSION, true);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public void setSchemaVersion(int newSchemaVersion) {
-		eSet(StorePackage.Literals.BIM_SERVER_INFO__SCHEMA_VERSION, newSchemaVersion);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public void setSchemaVersion(int newSchemaVersion) {
+        eSet(StorePackage.Literals.BIM_SERVER_INFO__SCHEMA_VERSION, newSchemaVersion);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public Date getLatestDate() {
-		return (Date) eGet(StorePackage.Literals.BIM_SERVER_INFO__LATEST_DATE, true);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public Date getLatestDate() {
+        return (Date) eGet(StorePackage.Literals.BIM_SERVER_INFO__LATEST_DATE, true);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public void setLatestDate(Date newLatestDate) {
-		eSet(StorePackage.Literals.BIM_SERVER_INFO__LATEST_DATE, newLatestDate);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public void setLatestDate(Date newLatestDate) {
+        eSet(StorePackage.Literals.BIM_SERVER_INFO__LATEST_DATE, newLatestDate);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public String getLatestVersion() {
-		return (String) eGet(StorePackage.Literals.BIM_SERVER_INFO__LATEST_VERSION, true);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public String getLatestVersion() {
+        return (String) eGet(StorePackage.Literals.BIM_SERVER_INFO__LATEST_VERSION, true);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public void setLatestVersion(String newLatestVersion) {
-		eSet(StorePackage.Literals.BIM_SERVER_INFO__LATEST_VERSION, newLatestVersion);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public void setLatestVersion(String newLatestVersion) {
+        eSet(StorePackage.Literals.BIM_SERVER_INFO__LATEST_VERSION, newLatestVersion);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public int getProjects() {
-		return (Integer) eGet(StorePackage.Literals.BIM_SERVER_INFO__PROJECTS, true);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public int getProjects() {
+        return (Integer) eGet(StorePackage.Literals.BIM_SERVER_INFO__PROJECTS, true);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public void setProjects(int newProjects) {
-		eSet(StorePackage.Literals.BIM_SERVER_INFO__PROJECTS, newProjects);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public void setProjects(int newProjects) {
+        eSet(StorePackage.Literals.BIM_SERVER_INFO__PROJECTS, newProjects);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public int getRevisions() {
-		return (Integer) eGet(StorePackage.Literals.BIM_SERVER_INFO__REVISIONS, true);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public int getRevisions() {
+        return (Integer) eGet(StorePackage.Literals.BIM_SERVER_INFO__REVISIONS, true);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public void setRevisions(int newRevisions) {
-		eSet(StorePackage.Literals.BIM_SERVER_INFO__REVISIONS, newRevisions);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public void setRevisions(int newRevisions) {
+        eSet(StorePackage.Literals.BIM_SERVER_INFO__REVISIONS, newRevisions);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public int getUsers() {
-		return (Integer) eGet(StorePackage.Literals.BIM_SERVER_INFO__USERS, true);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public int getUsers() {
+        return (Integer) eGet(StorePackage.Literals.BIM_SERVER_INFO__USERS, true);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public void setUsers(int newUsers) {
-		eSet(StorePackage.Literals.BIM_SERVER_INFO__USERS, newUsers);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public void setUsers(int newUsers) {
+        eSet(StorePackage.Literals.BIM_SERVER_INFO__USERS, newUsers);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public int getCheckouts() {
-		return (Integer) eGet(StorePackage.Literals.BIM_SERVER_INFO__CHECKOUTS, true);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public int getCheckouts() {
+        return (Integer) eGet(StorePackage.Literals.BIM_SERVER_INFO__CHECKOUTS, true);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public void setCheckouts(int newCheckouts) {
-		eSet(StorePackage.Literals.BIM_SERVER_INFO__CHECKOUTS, newCheckouts);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public void setCheckouts(int newCheckouts) {
+        eSet(StorePackage.Literals.BIM_SERVER_INFO__CHECKOUTS, newCheckouts);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public String getServerLogUrl() {
-		return (String) eGet(StorePackage.Literals.BIM_SERVER_INFO__SERVER_LOG_URL, true);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public String getServerLogUrl() {
+        return (String) eGet(StorePackage.Literals.BIM_SERVER_INFO__SERVER_LOG_URL, true);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public void setServerLogUrl(String newServerLogUrl) {
-		eSet(StorePackage.Literals.BIM_SERVER_INFO__SERVER_LOG_URL, newServerLogUrl);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public void setServerLogUrl(String newServerLogUrl) {
+        eSet(StorePackage.Literals.BIM_SERVER_INFO__SERVER_LOG_URL, newServerLogUrl);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public Date getStarted() {
-		return (Date) eGet(StorePackage.Literals.BIM_SERVER_INFO__STARTED, true);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public Date getStarted() {
+        return (Date) eGet(StorePackage.Literals.BIM_SERVER_INFO__STARTED, true);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public void setStarted(Date newStarted) {
-		eSet(StorePackage.Literals.BIM_SERVER_INFO__STARTED, newStarted);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public void setStarted(Date newStarted) {
+        eSet(StorePackage.Literals.BIM_SERVER_INFO__STARTED, newStarted);
+    }
 
 } //BimServerInfoImpl

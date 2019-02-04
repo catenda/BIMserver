@@ -17,6 +17,7 @@
 package org.bimserver.models.store;
 
 import org.bimserver.emf.IdEObject;
+
 import org.bimserver.models.log.AccessMethod;
 
 /**
@@ -26,6 +27,7 @@ import org.bimserver.models.log.AccessMethod;
  *
  * <p>
  * The following features are supported:
+ * </p>
  * <ul>
  *   <li>{@link org.bimserver.models.store.ServiceDescriptor#getName <em>Name</em>}</li>
  *   <li>{@link org.bimserver.models.store.ServiceDescriptor#getUrl <em>Url</em>}</li>
@@ -40,7 +42,6 @@ import org.bimserver.models.log.AccessMethod;
  *   <li>{@link org.bimserver.models.store.ServiceDescriptor#getWriteExtendedData <em>Write Extended Data</em>}</li>
  *   <li>{@link org.bimserver.models.store.ServiceDescriptor#getProviderName <em>Provider Name</em>}</li>
  * </ul>
- * </p>
  *
  * @see org.bimserver.models.store.StorePackage#getServiceDescriptor()
  * @model
@@ -48,322 +49,322 @@ import org.bimserver.models.log.AccessMethod;
  * @generated
  */
 public interface ServiceDescriptor extends IdEObject {
-	/**
-	 * Returns the value of the '<em><b>Name</b></em>' attribute.
-	 * <!-- begin-user-doc -->
-	 * <p>
-	 * If the meaning of the '<em>Name</em>' attribute isn't clear,
-	 * there really should be more of a description here...
-	 * </p>
-	 * <!-- end-user-doc -->
-	 * @return the value of the '<em>Name</em>' attribute.
-	 * @see #setName(String)
-	 * @see org.bimserver.models.store.StorePackage#getServiceDescriptor_Name()
-	 * @model
-	 * @generated
-	 */
-	String getName();
+    /**
+     * Returns the value of the '<em><b>Name</b></em>' attribute.
+     * <!-- begin-user-doc -->
+     * <p>
+     * If the meaning of the '<em>Name</em>' attribute isn't clear,
+     * there really should be more of a description here...
+     * </p>
+     * <!-- end-user-doc -->
+     * @return the value of the '<em>Name</em>' attribute.
+     * @see #setName(String)
+     * @see org.bimserver.models.store.StorePackage#getServiceDescriptor_Name()
+     * @model
+     * @generated
+     */
+    String getName();
 
-	/**
-	 * Sets the value of the '{@link org.bimserver.models.store.ServiceDescriptor#getName <em>Name</em>}' attribute.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @param value the new value of the '<em>Name</em>' attribute.
-	 * @see #getName()
-	 * @generated
-	 */
-	void setName(String value);
+    /**
+     * Sets the value of the '{@link org.bimserver.models.store.ServiceDescriptor#getName <em>Name</em>}' attribute.
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @param value the new value of the '<em>Name</em>' attribute.
+     * @see #getName()
+     * @generated
+     */
+    void setName(String value);
 
-	/**
-	 * Returns the value of the '<em><b>Url</b></em>' attribute.
-	 * <!-- begin-user-doc -->
-	 * <p>
-	 * If the meaning of the '<em>Url</em>' attribute isn't clear,
-	 * there really should be more of a description here...
-	 * </p>
-	 * <!-- end-user-doc -->
-	 * @return the value of the '<em>Url</em>' attribute.
-	 * @see #setUrl(String)
-	 * @see org.bimserver.models.store.StorePackage#getServiceDescriptor_Url()
-	 * @model
-	 * @generated
-	 */
-	String getUrl();
+    /**
+     * Returns the value of the '<em><b>Url</b></em>' attribute.
+     * <!-- begin-user-doc -->
+     * <p>
+     * If the meaning of the '<em>Url</em>' attribute isn't clear,
+     * there really should be more of a description here...
+     * </p>
+     * <!-- end-user-doc -->
+     * @return the value of the '<em>Url</em>' attribute.
+     * @see #setUrl(String)
+     * @see org.bimserver.models.store.StorePackage#getServiceDescriptor_Url()
+     * @model
+     * @generated
+     */
+    String getUrl();
 
-	/**
-	 * Sets the value of the '{@link org.bimserver.models.store.ServiceDescriptor#getUrl <em>Url</em>}' attribute.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @param value the new value of the '<em>Url</em>' attribute.
-	 * @see #getUrl()
-	 * @generated
-	 */
-	void setUrl(String value);
+    /**
+     * Sets the value of the '{@link org.bimserver.models.store.ServiceDescriptor#getUrl <em>Url</em>}' attribute.
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @param value the new value of the '<em>Url</em>' attribute.
+     * @see #getUrl()
+     * @generated
+     */
+    void setUrl(String value);
 
-	/**
-	 * Returns the value of the '<em><b>Token</b></em>' attribute.
-	 * <!-- begin-user-doc -->
-	 * <p>
-	 * If the meaning of the '<em>Token</em>' attribute isn't clear,
-	 * there really should be more of a description here...
-	 * </p>
-	 * <!-- end-user-doc -->
-	 * @return the value of the '<em>Token</em>' attribute.
-	 * @see #setToken(String)
-	 * @see org.bimserver.models.store.StorePackage#getServiceDescriptor_Token()
-	 * @model
-	 * @generated
-	 */
-	String getToken();
+    /**
+     * Returns the value of the '<em><b>Token</b></em>' attribute.
+     * <!-- begin-user-doc -->
+     * <p>
+     * If the meaning of the '<em>Token</em>' attribute isn't clear,
+     * there really should be more of a description here...
+     * </p>
+     * <!-- end-user-doc -->
+     * @return the value of the '<em>Token</em>' attribute.
+     * @see #setToken(String)
+     * @see org.bimserver.models.store.StorePackage#getServiceDescriptor_Token()
+     * @model
+     * @generated
+     */
+    String getToken();
 
-	/**
-	 * Sets the value of the '{@link org.bimserver.models.store.ServiceDescriptor#getToken <em>Token</em>}' attribute.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @param value the new value of the '<em>Token</em>' attribute.
-	 * @see #getToken()
-	 * @generated
-	 */
-	void setToken(String value);
+    /**
+     * Sets the value of the '{@link org.bimserver.models.store.ServiceDescriptor#getToken <em>Token</em>}' attribute.
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @param value the new value of the '<em>Token</em>' attribute.
+     * @see #getToken()
+     * @generated
+     */
+    void setToken(String value);
 
-	/**
-	 * Returns the value of the '<em><b>Identifier</b></em>' attribute.
-	 * <!-- begin-user-doc -->
-	 * <p>
-	 * If the meaning of the '<em>Identifier</em>' attribute isn't clear,
-	 * there really should be more of a description here...
-	 * </p>
-	 * <!-- end-user-doc -->
-	 * @return the value of the '<em>Identifier</em>' attribute.
-	 * @see #setIdentifier(String)
-	 * @see org.bimserver.models.store.StorePackage#getServiceDescriptor_Identifier()
-	 * @model
-	 * @generated
-	 */
-	String getIdentifier();
+    /**
+     * Returns the value of the '<em><b>Identifier</b></em>' attribute.
+     * <!-- begin-user-doc -->
+     * <p>
+     * If the meaning of the '<em>Identifier</em>' attribute isn't clear,
+     * there really should be more of a description here...
+     * </p>
+     * <!-- end-user-doc -->
+     * @return the value of the '<em>Identifier</em>' attribute.
+     * @see #setIdentifier(String)
+     * @see org.bimserver.models.store.StorePackage#getServiceDescriptor_Identifier()
+     * @model
+     * @generated
+     */
+    String getIdentifier();
 
-	/**
-	 * Sets the value of the '{@link org.bimserver.models.store.ServiceDescriptor#getIdentifier <em>Identifier</em>}' attribute.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @param value the new value of the '<em>Identifier</em>' attribute.
-	 * @see #getIdentifier()
-	 * @generated
-	 */
-	void setIdentifier(String value);
+    /**
+     * Sets the value of the '{@link org.bimserver.models.store.ServiceDescriptor#getIdentifier <em>Identifier</em>}' attribute.
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @param value the new value of the '<em>Identifier</em>' attribute.
+     * @see #getIdentifier()
+     * @generated
+     */
+    void setIdentifier(String value);
 
-	/**
-	 * Returns the value of the '<em><b>Notification Protocol</b></em>' attribute.
-	 * The literals are from the enumeration {@link org.bimserver.models.log.AccessMethod}.
-	 * <!-- begin-user-doc -->
-	 * <p>
-	 * If the meaning of the '<em>Notification Protocol</em>' attribute isn't clear,
-	 * there really should be more of a description here...
-	 * </p>
-	 * <!-- end-user-doc -->
-	 * @return the value of the '<em>Notification Protocol</em>' attribute.
-	 * @see org.bimserver.models.log.AccessMethod
-	 * @see #setNotificationProtocol(AccessMethod)
-	 * @see org.bimserver.models.store.StorePackage#getServiceDescriptor_NotificationProtocol()
-	 * @model
-	 * @generated
-	 */
-	AccessMethod getNotificationProtocol();
+    /**
+     * Returns the value of the '<em><b>Notification Protocol</b></em>' attribute.
+     * The literals are from the enumeration {@link org.bimserver.models.log.AccessMethod}.
+     * <!-- begin-user-doc -->
+     * <p>
+     * If the meaning of the '<em>Notification Protocol</em>' attribute isn't clear,
+     * there really should be more of a description here...
+     * </p>
+     * <!-- end-user-doc -->
+     * @return the value of the '<em>Notification Protocol</em>' attribute.
+     * @see org.bimserver.models.log.AccessMethod
+     * @see #setNotificationProtocol(AccessMethod)
+     * @see org.bimserver.models.store.StorePackage#getServiceDescriptor_NotificationProtocol()
+     * @model
+     * @generated
+     */
+    AccessMethod getNotificationProtocol();
 
-	/**
-	 * Sets the value of the '{@link org.bimserver.models.store.ServiceDescriptor#getNotificationProtocol <em>Notification Protocol</em>}' attribute.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @param value the new value of the '<em>Notification Protocol</em>' attribute.
-	 * @see org.bimserver.models.log.AccessMethod
-	 * @see #getNotificationProtocol()
-	 * @generated
-	 */
-	void setNotificationProtocol(AccessMethod value);
+    /**
+     * Sets the value of the '{@link org.bimserver.models.store.ServiceDescriptor#getNotificationProtocol <em>Notification Protocol</em>}' attribute.
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @param value the new value of the '<em>Notification Protocol</em>' attribute.
+     * @see org.bimserver.models.log.AccessMethod
+     * @see #getNotificationProtocol()
+     * @generated
+     */
+    void setNotificationProtocol(AccessMethod value);
 
-	/**
-	 * Returns the value of the '<em><b>Description</b></em>' attribute.
-	 * <!-- begin-user-doc -->
-	 * <p>
-	 * If the meaning of the '<em>Description</em>' attribute isn't clear,
-	 * there really should be more of a description here...
-	 * </p>
-	 * <!-- end-user-doc -->
-	 * @return the value of the '<em>Description</em>' attribute.
-	 * @see #setDescription(String)
-	 * @see org.bimserver.models.store.StorePackage#getServiceDescriptor_Description()
-	 * @model
-	 * @generated
-	 */
-	String getDescription();
+    /**
+     * Returns the value of the '<em><b>Description</b></em>' attribute.
+     * <!-- begin-user-doc -->
+     * <p>
+     * If the meaning of the '<em>Description</em>' attribute isn't clear,
+     * there really should be more of a description here...
+     * </p>
+     * <!-- end-user-doc -->
+     * @return the value of the '<em>Description</em>' attribute.
+     * @see #setDescription(String)
+     * @see org.bimserver.models.store.StorePackage#getServiceDescriptor_Description()
+     * @model
+     * @generated
+     */
+    String getDescription();
 
-	/**
-	 * Sets the value of the '{@link org.bimserver.models.store.ServiceDescriptor#getDescription <em>Description</em>}' attribute.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @param value the new value of the '<em>Description</em>' attribute.
-	 * @see #getDescription()
-	 * @generated
-	 */
-	void setDescription(String value);
+    /**
+     * Sets the value of the '{@link org.bimserver.models.store.ServiceDescriptor#getDescription <em>Description</em>}' attribute.
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @param value the new value of the '<em>Description</em>' attribute.
+     * @see #getDescription()
+     * @generated
+     */
+    void setDescription(String value);
 
-	/**
-	 * Returns the value of the '<em><b>Trigger</b></em>' attribute.
-	 * The literals are from the enumeration {@link org.bimserver.models.store.Trigger}.
-	 * <!-- begin-user-doc -->
-	 * <p>
-	 * If the meaning of the '<em>Trigger</em>' attribute isn't clear,
-	 * there really should be more of a description here...
-	 * </p>
-	 * <!-- end-user-doc -->
-	 * @return the value of the '<em>Trigger</em>' attribute.
-	 * @see org.bimserver.models.store.Trigger
-	 * @see #setTrigger(Trigger)
-	 * @see org.bimserver.models.store.StorePackage#getServiceDescriptor_Trigger()
-	 * @model
-	 * @generated
-	 */
-	Trigger getTrigger();
+    /**
+     * Returns the value of the '<em><b>Trigger</b></em>' attribute.
+     * The literals are from the enumeration {@link org.bimserver.models.store.Trigger}.
+     * <!-- begin-user-doc -->
+     * <p>
+     * If the meaning of the '<em>Trigger</em>' attribute isn't clear,
+     * there really should be more of a description here...
+     * </p>
+     * <!-- end-user-doc -->
+     * @return the value of the '<em>Trigger</em>' attribute.
+     * @see org.bimserver.models.store.Trigger
+     * @see #setTrigger(Trigger)
+     * @see org.bimserver.models.store.StorePackage#getServiceDescriptor_Trigger()
+     * @model
+     * @generated
+     */
+    Trigger getTrigger();
 
-	/**
-	 * Sets the value of the '{@link org.bimserver.models.store.ServiceDescriptor#getTrigger <em>Trigger</em>}' attribute.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @param value the new value of the '<em>Trigger</em>' attribute.
-	 * @see org.bimserver.models.store.Trigger
-	 * @see #getTrigger()
-	 * @generated
-	 */
-	void setTrigger(Trigger value);
+    /**
+     * Sets the value of the '{@link org.bimserver.models.store.ServiceDescriptor#getTrigger <em>Trigger</em>}' attribute.
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @param value the new value of the '<em>Trigger</em>' attribute.
+     * @see org.bimserver.models.store.Trigger
+     * @see #getTrigger()
+     * @generated
+     */
+    void setTrigger(Trigger value);
 
-	/**
-	 * Returns the value of the '<em><b>Read Revision</b></em>' attribute.
-	 * <!-- begin-user-doc -->
-	 * <p>
-	 * If the meaning of the '<em>Read Revision</em>' attribute isn't clear,
-	 * there really should be more of a description here...
-	 * </p>
-	 * <!-- end-user-doc -->
-	 * @return the value of the '<em>Read Revision</em>' attribute.
-	 * @see #setReadRevision(boolean)
-	 * @see org.bimserver.models.store.StorePackage#getServiceDescriptor_ReadRevision()
-	 * @model
-	 * @generated
-	 */
-	boolean isReadRevision();
+    /**
+     * Returns the value of the '<em><b>Read Revision</b></em>' attribute.
+     * <!-- begin-user-doc -->
+     * <p>
+     * If the meaning of the '<em>Read Revision</em>' attribute isn't clear,
+     * there really should be more of a description here...
+     * </p>
+     * <!-- end-user-doc -->
+     * @return the value of the '<em>Read Revision</em>' attribute.
+     * @see #setReadRevision(boolean)
+     * @see org.bimserver.models.store.StorePackage#getServiceDescriptor_ReadRevision()
+     * @model
+     * @generated
+     */
+    boolean isReadRevision();
 
-	/**
-	 * Sets the value of the '{@link org.bimserver.models.store.ServiceDescriptor#isReadRevision <em>Read Revision</em>}' attribute.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @param value the new value of the '<em>Read Revision</em>' attribute.
-	 * @see #isReadRevision()
-	 * @generated
-	 */
-	void setReadRevision(boolean value);
+    /**
+     * Sets the value of the '{@link org.bimserver.models.store.ServiceDescriptor#isReadRevision <em>Read Revision</em>}' attribute.
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @param value the new value of the '<em>Read Revision</em>' attribute.
+     * @see #isReadRevision()
+     * @generated
+     */
+    void setReadRevision(boolean value);
 
-	/**
-	 * Returns the value of the '<em><b>Read Extended Data</b></em>' attribute.
-	 * <!-- begin-user-doc -->
-	 * <p>
-	 * If the meaning of the '<em>Read Extended Data</em>' attribute isn't clear,
-	 * there really should be more of a description here...
-	 * </p>
-	 * <!-- end-user-doc -->
-	 * @return the value of the '<em>Read Extended Data</em>' attribute.
-	 * @see #setReadExtendedData(String)
-	 * @see org.bimserver.models.store.StorePackage#getServiceDescriptor_ReadExtendedData()
-	 * @model
-	 * @generated
-	 */
-	String getReadExtendedData();
+    /**
+     * Returns the value of the '<em><b>Read Extended Data</b></em>' attribute.
+     * <!-- begin-user-doc -->
+     * <p>
+     * If the meaning of the '<em>Read Extended Data</em>' attribute isn't clear,
+     * there really should be more of a description here...
+     * </p>
+     * <!-- end-user-doc -->
+     * @return the value of the '<em>Read Extended Data</em>' attribute.
+     * @see #setReadExtendedData(String)
+     * @see org.bimserver.models.store.StorePackage#getServiceDescriptor_ReadExtendedData()
+     * @model
+     * @generated
+     */
+    String getReadExtendedData();
 
-	/**
-	 * Sets the value of the '{@link org.bimserver.models.store.ServiceDescriptor#getReadExtendedData <em>Read Extended Data</em>}' attribute.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @param value the new value of the '<em>Read Extended Data</em>' attribute.
-	 * @see #getReadExtendedData()
-	 * @generated
-	 */
-	void setReadExtendedData(String value);
+    /**
+     * Sets the value of the '{@link org.bimserver.models.store.ServiceDescriptor#getReadExtendedData <em>Read Extended Data</em>}' attribute.
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @param value the new value of the '<em>Read Extended Data</em>' attribute.
+     * @see #getReadExtendedData()
+     * @generated
+     */
+    void setReadExtendedData(String value);
 
-	/**
-	 * Returns the value of the '<em><b>Write Revision</b></em>' attribute.
-	 * <!-- begin-user-doc -->
-	 * <p>
-	 * If the meaning of the '<em>Write Revision</em>' attribute isn't clear,
-	 * there really should be more of a description here...
-	 * </p>
-	 * <!-- end-user-doc -->
-	 * @return the value of the '<em>Write Revision</em>' attribute.
-	 * @see #setWriteRevision(boolean)
-	 * @see org.bimserver.models.store.StorePackage#getServiceDescriptor_WriteRevision()
-	 * @model
-	 * @generated
-	 */
-	boolean isWriteRevision();
+    /**
+     * Returns the value of the '<em><b>Write Revision</b></em>' attribute.
+     * <!-- begin-user-doc -->
+     * <p>
+     * If the meaning of the '<em>Write Revision</em>' attribute isn't clear,
+     * there really should be more of a description here...
+     * </p>
+     * <!-- end-user-doc -->
+     * @return the value of the '<em>Write Revision</em>' attribute.
+     * @see #setWriteRevision(boolean)
+     * @see org.bimserver.models.store.StorePackage#getServiceDescriptor_WriteRevision()
+     * @model
+     * @generated
+     */
+    boolean isWriteRevision();
 
-	/**
-	 * Sets the value of the '{@link org.bimserver.models.store.ServiceDescriptor#isWriteRevision <em>Write Revision</em>}' attribute.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @param value the new value of the '<em>Write Revision</em>' attribute.
-	 * @see #isWriteRevision()
-	 * @generated
-	 */
-	void setWriteRevision(boolean value);
+    /**
+     * Sets the value of the '{@link org.bimserver.models.store.ServiceDescriptor#isWriteRevision <em>Write Revision</em>}' attribute.
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @param value the new value of the '<em>Write Revision</em>' attribute.
+     * @see #isWriteRevision()
+     * @generated
+     */
+    void setWriteRevision(boolean value);
 
-	/**
-	 * Returns the value of the '<em><b>Write Extended Data</b></em>' attribute.
-	 * <!-- begin-user-doc -->
-	 * <p>
-	 * If the meaning of the '<em>Write Extended Data</em>' attribute isn't clear,
-	 * there really should be more of a description here...
-	 * </p>
-	 * <!-- end-user-doc -->
-	 * @return the value of the '<em>Write Extended Data</em>' attribute.
-	 * @see #setWriteExtendedData(String)
-	 * @see org.bimserver.models.store.StorePackage#getServiceDescriptor_WriteExtendedData()
-	 * @model
-	 * @generated
-	 */
-	String getWriteExtendedData();
+    /**
+     * Returns the value of the '<em><b>Write Extended Data</b></em>' attribute.
+     * <!-- begin-user-doc -->
+     * <p>
+     * If the meaning of the '<em>Write Extended Data</em>' attribute isn't clear,
+     * there really should be more of a description here...
+     * </p>
+     * <!-- end-user-doc -->
+     * @return the value of the '<em>Write Extended Data</em>' attribute.
+     * @see #setWriteExtendedData(String)
+     * @see org.bimserver.models.store.StorePackage#getServiceDescriptor_WriteExtendedData()
+     * @model
+     * @generated
+     */
+    String getWriteExtendedData();
 
-	/**
-	 * Sets the value of the '{@link org.bimserver.models.store.ServiceDescriptor#getWriteExtendedData <em>Write Extended Data</em>}' attribute.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @param value the new value of the '<em>Write Extended Data</em>' attribute.
-	 * @see #getWriteExtendedData()
-	 * @generated
-	 */
-	void setWriteExtendedData(String value);
+    /**
+     * Sets the value of the '{@link org.bimserver.models.store.ServiceDescriptor#getWriteExtendedData <em>Write Extended Data</em>}' attribute.
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @param value the new value of the '<em>Write Extended Data</em>' attribute.
+     * @see #getWriteExtendedData()
+     * @generated
+     */
+    void setWriteExtendedData(String value);
 
-	/**
-	 * Returns the value of the '<em><b>Provider Name</b></em>' attribute.
-	 * <!-- begin-user-doc -->
-	 * <p>
-	 * If the meaning of the '<em>Provider Name</em>' attribute isn't clear,
-	 * there really should be more of a description here...
-	 * </p>
-	 * <!-- end-user-doc -->
-	 * @return the value of the '<em>Provider Name</em>' attribute.
-	 * @see #setProviderName(String)
-	 * @see org.bimserver.models.store.StorePackage#getServiceDescriptor_ProviderName()
-	 * @model
-	 * @generated
-	 */
-	String getProviderName();
+    /**
+     * Returns the value of the '<em><b>Provider Name</b></em>' attribute.
+     * <!-- begin-user-doc -->
+     * <p>
+     * If the meaning of the '<em>Provider Name</em>' attribute isn't clear,
+     * there really should be more of a description here...
+     * </p>
+     * <!-- end-user-doc -->
+     * @return the value of the '<em>Provider Name</em>' attribute.
+     * @see #setProviderName(String)
+     * @see org.bimserver.models.store.StorePackage#getServiceDescriptor_ProviderName()
+     * @model
+     * @generated
+     */
+    String getProviderName();
 
-	/**
-	 * Sets the value of the '{@link org.bimserver.models.store.ServiceDescriptor#getProviderName <em>Provider Name</em>}' attribute.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @param value the new value of the '<em>Provider Name</em>' attribute.
-	 * @see #getProviderName()
-	 * @generated
-	 */
-	void setProviderName(String value);
+    /**
+     * Sets the value of the '{@link org.bimserver.models.store.ServiceDescriptor#getProviderName <em>Provider Name</em>}' attribute.
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @param value the new value of the '<em>Provider Name</em>' attribute.
+     * @see #getProviderName()
+     * @generated
+     */
+    void setProviderName(String value);
 
 } // ServiceDescriptor

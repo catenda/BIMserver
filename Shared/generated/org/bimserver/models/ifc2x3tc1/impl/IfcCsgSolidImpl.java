@@ -19,6 +19,7 @@ package org.bimserver.models.ifc2x3tc1.impl;
 import org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package;
 import org.bimserver.models.ifc2x3tc1.IfcCsgSelect;
 import org.bimserver.models.ifc2x3tc1.IfcCsgSolid;
+
 import org.eclipse.emf.ecore.EClass;
 
 /**
@@ -27,49 +28,49 @@ import org.eclipse.emf.ecore.EClass;
  * <!-- end-user-doc -->
  * <p>
  * The following features are implemented:
+ * </p>
  * <ul>
  *   <li>{@link org.bimserver.models.ifc2x3tc1.impl.IfcCsgSolidImpl#getTreeRootExpression <em>Tree Root Expression</em>}</li>
  * </ul>
- * </p>
  *
  * @generated
  */
 public class IfcCsgSolidImpl extends IfcSolidModelImpl implements IfcCsgSolid {
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	protected IfcCsgSolidImpl() {
-		super();
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    protected IfcCsgSolidImpl() {
+        super();
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	@Override
-	protected EClass eStaticClass() {
-		return Ifc2x3tc1Package.Literals.IFC_CSG_SOLID;
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    @Override
+    protected EClass eStaticClass() {
+        return Ifc2x3tc1Package.Literals.IFC_CSG_SOLID;
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public IfcCsgSelect getTreeRootExpression() {
-		return (IfcCsgSelect) eGet(Ifc2x3tc1Package.Literals.IFC_CSG_SOLID__TREE_ROOT_EXPRESSION, true);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public IfcCsgSelect getTreeRootExpression() {
+        return (IfcCsgSelect) eGet(Ifc2x3tc1Package.Literals.IFC_CSG_SOLID__TREE_ROOT_EXPRESSION, true);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public void setTreeRootExpression(IfcCsgSelect newTreeRootExpression) {
-		eSet(Ifc2x3tc1Package.Literals.IFC_CSG_SOLID__TREE_ROOT_EXPRESSION, newTreeRootExpression);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public void setTreeRootExpression(IfcCsgSelect newTreeRootExpression) {
+        eSet(Ifc2x3tc1Package.Literals.IFC_CSG_SOLID__TREE_ROOT_EXPRESSION, newTreeRootExpression);
+    }
 
 } //IfcCsgSolidImpl

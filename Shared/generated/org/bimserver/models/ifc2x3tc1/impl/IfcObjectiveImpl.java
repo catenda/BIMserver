@@ -20,6 +20,7 @@ import org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package;
 import org.bimserver.models.ifc2x3tc1.IfcMetric;
 import org.bimserver.models.ifc2x3tc1.IfcObjective;
 import org.bimserver.models.ifc2x3tc1.IfcObjectiveEnum;
+
 import org.eclipse.emf.ecore.EClass;
 
 /**
@@ -28,160 +29,160 @@ import org.eclipse.emf.ecore.EClass;
  * <!-- end-user-doc -->
  * <p>
  * The following features are implemented:
+ * </p>
  * <ul>
  *   <li>{@link org.bimserver.models.ifc2x3tc1.impl.IfcObjectiveImpl#getBenchmarkValues <em>Benchmark Values</em>}</li>
  *   <li>{@link org.bimserver.models.ifc2x3tc1.impl.IfcObjectiveImpl#getResultValues <em>Result Values</em>}</li>
  *   <li>{@link org.bimserver.models.ifc2x3tc1.impl.IfcObjectiveImpl#getObjectiveQualifier <em>Objective Qualifier</em>}</li>
  *   <li>{@link org.bimserver.models.ifc2x3tc1.impl.IfcObjectiveImpl#getUserDefinedQualifier <em>User Defined Qualifier</em>}</li>
  * </ul>
- * </p>
  *
  * @generated
  */
 public class IfcObjectiveImpl extends IfcConstraintImpl implements IfcObjective {
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	protected IfcObjectiveImpl() {
-		super();
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    protected IfcObjectiveImpl() {
+        super();
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	@Override
-	protected EClass eStaticClass() {
-		return Ifc2x3tc1Package.Literals.IFC_OBJECTIVE;
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    @Override
+    protected EClass eStaticClass() {
+        return Ifc2x3tc1Package.Literals.IFC_OBJECTIVE;
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public IfcMetric getBenchmarkValues() {
-		return (IfcMetric) eGet(Ifc2x3tc1Package.Literals.IFC_OBJECTIVE__BENCHMARK_VALUES, true);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public IfcMetric getBenchmarkValues() {
+        return (IfcMetric) eGet(Ifc2x3tc1Package.Literals.IFC_OBJECTIVE__BENCHMARK_VALUES, true);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public void setBenchmarkValues(IfcMetric newBenchmarkValues) {
-		eSet(Ifc2x3tc1Package.Literals.IFC_OBJECTIVE__BENCHMARK_VALUES, newBenchmarkValues);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public void setBenchmarkValues(IfcMetric newBenchmarkValues) {
+        eSet(Ifc2x3tc1Package.Literals.IFC_OBJECTIVE__BENCHMARK_VALUES, newBenchmarkValues);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public void unsetBenchmarkValues() {
-		eUnset(Ifc2x3tc1Package.Literals.IFC_OBJECTIVE__BENCHMARK_VALUES);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public void unsetBenchmarkValues() {
+        eUnset(Ifc2x3tc1Package.Literals.IFC_OBJECTIVE__BENCHMARK_VALUES);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public boolean isSetBenchmarkValues() {
-		return eIsSet(Ifc2x3tc1Package.Literals.IFC_OBJECTIVE__BENCHMARK_VALUES);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public boolean isSetBenchmarkValues() {
+        return eIsSet(Ifc2x3tc1Package.Literals.IFC_OBJECTIVE__BENCHMARK_VALUES);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public IfcMetric getResultValues() {
-		return (IfcMetric) eGet(Ifc2x3tc1Package.Literals.IFC_OBJECTIVE__RESULT_VALUES, true);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public IfcMetric getResultValues() {
+        return (IfcMetric) eGet(Ifc2x3tc1Package.Literals.IFC_OBJECTIVE__RESULT_VALUES, true);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public void setResultValues(IfcMetric newResultValues) {
-		eSet(Ifc2x3tc1Package.Literals.IFC_OBJECTIVE__RESULT_VALUES, newResultValues);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public void setResultValues(IfcMetric newResultValues) {
+        eSet(Ifc2x3tc1Package.Literals.IFC_OBJECTIVE__RESULT_VALUES, newResultValues);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public void unsetResultValues() {
-		eUnset(Ifc2x3tc1Package.Literals.IFC_OBJECTIVE__RESULT_VALUES);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public void unsetResultValues() {
+        eUnset(Ifc2x3tc1Package.Literals.IFC_OBJECTIVE__RESULT_VALUES);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public boolean isSetResultValues() {
-		return eIsSet(Ifc2x3tc1Package.Literals.IFC_OBJECTIVE__RESULT_VALUES);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public boolean isSetResultValues() {
+        return eIsSet(Ifc2x3tc1Package.Literals.IFC_OBJECTIVE__RESULT_VALUES);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public IfcObjectiveEnum getObjectiveQualifier() {
-		return (IfcObjectiveEnum) eGet(Ifc2x3tc1Package.Literals.IFC_OBJECTIVE__OBJECTIVE_QUALIFIER, true);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public IfcObjectiveEnum getObjectiveQualifier() {
+        return (IfcObjectiveEnum) eGet(Ifc2x3tc1Package.Literals.IFC_OBJECTIVE__OBJECTIVE_QUALIFIER, true);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public void setObjectiveQualifier(IfcObjectiveEnum newObjectiveQualifier) {
-		eSet(Ifc2x3tc1Package.Literals.IFC_OBJECTIVE__OBJECTIVE_QUALIFIER, newObjectiveQualifier);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public void setObjectiveQualifier(IfcObjectiveEnum newObjectiveQualifier) {
+        eSet(Ifc2x3tc1Package.Literals.IFC_OBJECTIVE__OBJECTIVE_QUALIFIER, newObjectiveQualifier);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public String getUserDefinedQualifier() {
-		return (String) eGet(Ifc2x3tc1Package.Literals.IFC_OBJECTIVE__USER_DEFINED_QUALIFIER, true);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public String getUserDefinedQualifier() {
+        return (String) eGet(Ifc2x3tc1Package.Literals.IFC_OBJECTIVE__USER_DEFINED_QUALIFIER, true);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public void setUserDefinedQualifier(String newUserDefinedQualifier) {
-		eSet(Ifc2x3tc1Package.Literals.IFC_OBJECTIVE__USER_DEFINED_QUALIFIER, newUserDefinedQualifier);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public void setUserDefinedQualifier(String newUserDefinedQualifier) {
+        eSet(Ifc2x3tc1Package.Literals.IFC_OBJECTIVE__USER_DEFINED_QUALIFIER, newUserDefinedQualifier);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public void unsetUserDefinedQualifier() {
-		eUnset(Ifc2x3tc1Package.Literals.IFC_OBJECTIVE__USER_DEFINED_QUALIFIER);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public void unsetUserDefinedQualifier() {
+        eUnset(Ifc2x3tc1Package.Literals.IFC_OBJECTIVE__USER_DEFINED_QUALIFIER);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public boolean isSetUserDefinedQualifier() {
-		return eIsSet(Ifc2x3tc1Package.Literals.IFC_OBJECTIVE__USER_DEFINED_QUALIFIER);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public boolean isSetUserDefinedQualifier() {
+        return eIsSet(Ifc2x3tc1Package.Literals.IFC_OBJECTIVE__USER_DEFINED_QUALIFIER);
+    }
 
 } //IfcObjectiveImpl

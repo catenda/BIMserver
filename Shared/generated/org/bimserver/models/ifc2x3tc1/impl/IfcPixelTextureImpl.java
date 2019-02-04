@@ -18,6 +18,7 @@ package org.bimserver.models.ifc2x3tc1.impl;
 
 import org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package;
 import org.bimserver.models.ifc2x3tc1.IfcPixelTexture;
+
 import org.eclipse.emf.ecore.EClass;
 
 /**
@@ -26,87 +27,87 @@ import org.eclipse.emf.ecore.EClass;
  * <!-- end-user-doc -->
  * <p>
  * The following features are implemented:
+ * </p>
  * <ul>
  *   <li>{@link org.bimserver.models.ifc2x3tc1.impl.IfcPixelTextureImpl#getWidth <em>Width</em>}</li>
  *   <li>{@link org.bimserver.models.ifc2x3tc1.impl.IfcPixelTextureImpl#getHeight <em>Height</em>}</li>
  *   <li>{@link org.bimserver.models.ifc2x3tc1.impl.IfcPixelTextureImpl#getColourComponents <em>Colour Components</em>}</li>
  * </ul>
- * </p>
  *
  * @generated
  */
 public class IfcPixelTextureImpl extends IfcSurfaceTextureImpl implements IfcPixelTexture {
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	protected IfcPixelTextureImpl() {
-		super();
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    protected IfcPixelTextureImpl() {
+        super();
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	@Override
-	protected EClass eStaticClass() {
-		return Ifc2x3tc1Package.Literals.IFC_PIXEL_TEXTURE;
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    @Override
+    protected EClass eStaticClass() {
+        return Ifc2x3tc1Package.Literals.IFC_PIXEL_TEXTURE;
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public int getWidth() {
-		return (Integer) eGet(Ifc2x3tc1Package.Literals.IFC_PIXEL_TEXTURE__WIDTH, true);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public long getWidth() {
+        return (Long) eGet(Ifc2x3tc1Package.Literals.IFC_PIXEL_TEXTURE__WIDTH, true);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public void setWidth(int newWidth) {
-		eSet(Ifc2x3tc1Package.Literals.IFC_PIXEL_TEXTURE__WIDTH, newWidth);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public void setWidth(long newWidth) {
+        eSet(Ifc2x3tc1Package.Literals.IFC_PIXEL_TEXTURE__WIDTH, newWidth);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public int getHeight() {
-		return (Integer) eGet(Ifc2x3tc1Package.Literals.IFC_PIXEL_TEXTURE__HEIGHT, true);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public long getHeight() {
+        return (Long) eGet(Ifc2x3tc1Package.Literals.IFC_PIXEL_TEXTURE__HEIGHT, true);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public void setHeight(int newHeight) {
-		eSet(Ifc2x3tc1Package.Literals.IFC_PIXEL_TEXTURE__HEIGHT, newHeight);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public void setHeight(long newHeight) {
+        eSet(Ifc2x3tc1Package.Literals.IFC_PIXEL_TEXTURE__HEIGHT, newHeight);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public int getColourComponents() {
-		return (Integer) eGet(Ifc2x3tc1Package.Literals.IFC_PIXEL_TEXTURE__COLOUR_COMPONENTS, true);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public long getColourComponents() {
+        return (Long) eGet(Ifc2x3tc1Package.Literals.IFC_PIXEL_TEXTURE__COLOUR_COMPONENTS, true);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public void setColourComponents(int newColourComponents) {
-		eSet(Ifc2x3tc1Package.Literals.IFC_PIXEL_TEXTURE__COLOUR_COMPONENTS, newColourComponents);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public void setColourComponents(long newColourComponents) {
+        eSet(Ifc2x3tc1Package.Literals.IFC_PIXEL_TEXTURE__COLOUR_COMPONENTS, newColourComponents);
+    }
 
 } //IfcPixelTextureImpl

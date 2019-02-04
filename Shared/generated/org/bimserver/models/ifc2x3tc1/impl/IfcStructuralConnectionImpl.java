@@ -20,7 +20,9 @@ import org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package;
 import org.bimserver.models.ifc2x3tc1.IfcBoundaryCondition;
 import org.bimserver.models.ifc2x3tc1.IfcRelConnectsStructuralMember;
 import org.bimserver.models.ifc2x3tc1.IfcStructuralConnection;
+
 import org.eclipse.emf.common.util.EList;
+
 import org.eclipse.emf.ecore.EClass;
 
 /**
@@ -29,96 +31,98 @@ import org.eclipse.emf.ecore.EClass;
  * <!-- end-user-doc -->
  * <p>
  * The following features are implemented:
+ * </p>
  * <ul>
  *   <li>{@link org.bimserver.models.ifc2x3tc1.impl.IfcStructuralConnectionImpl#getAppliedCondition <em>Applied Condition</em>}</li>
  *   <li>{@link org.bimserver.models.ifc2x3tc1.impl.IfcStructuralConnectionImpl#getConnectsStructuralMembers <em>Connects Structural Members</em>}</li>
  * </ul>
- * </p>
  *
  * @generated
  */
 public class IfcStructuralConnectionImpl extends IfcStructuralItemImpl implements IfcStructuralConnection {
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	protected IfcStructuralConnectionImpl() {
-		super();
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    protected IfcStructuralConnectionImpl() {
+        super();
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	@Override
-	protected EClass eStaticClass() {
-		return Ifc2x3tc1Package.Literals.IFC_STRUCTURAL_CONNECTION;
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    @Override
+    protected EClass eStaticClass() {
+        return Ifc2x3tc1Package.Literals.IFC_STRUCTURAL_CONNECTION;
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public IfcBoundaryCondition getAppliedCondition() {
-		return (IfcBoundaryCondition) eGet(Ifc2x3tc1Package.Literals.IFC_STRUCTURAL_CONNECTION__APPLIED_CONDITION, true);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public IfcBoundaryCondition getAppliedCondition() {
+        return (IfcBoundaryCondition) eGet(Ifc2x3tc1Package.Literals.IFC_STRUCTURAL_CONNECTION__APPLIED_CONDITION,
+                true);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public void setAppliedCondition(IfcBoundaryCondition newAppliedCondition) {
-		eSet(Ifc2x3tc1Package.Literals.IFC_STRUCTURAL_CONNECTION__APPLIED_CONDITION, newAppliedCondition);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public void setAppliedCondition(IfcBoundaryCondition newAppliedCondition) {
+        eSet(Ifc2x3tc1Package.Literals.IFC_STRUCTURAL_CONNECTION__APPLIED_CONDITION, newAppliedCondition);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public void unsetAppliedCondition() {
-		eUnset(Ifc2x3tc1Package.Literals.IFC_STRUCTURAL_CONNECTION__APPLIED_CONDITION);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public void unsetAppliedCondition() {
+        eUnset(Ifc2x3tc1Package.Literals.IFC_STRUCTURAL_CONNECTION__APPLIED_CONDITION);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public boolean isSetAppliedCondition() {
-		return eIsSet(Ifc2x3tc1Package.Literals.IFC_STRUCTURAL_CONNECTION__APPLIED_CONDITION);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public boolean isSetAppliedCondition() {
+        return eIsSet(Ifc2x3tc1Package.Literals.IFC_STRUCTURAL_CONNECTION__APPLIED_CONDITION);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	@SuppressWarnings("unchecked")
-	public EList<IfcRelConnectsStructuralMember> getConnectsStructuralMembers() {
-		return (EList<IfcRelConnectsStructuralMember>) eGet(Ifc2x3tc1Package.Literals.IFC_STRUCTURAL_CONNECTION__CONNECTS_STRUCTURAL_MEMBERS, true);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    @SuppressWarnings("unchecked")
+    public EList<IfcRelConnectsStructuralMember> getConnectsStructuralMembers() {
+        return (EList<IfcRelConnectsStructuralMember>) eGet(
+                Ifc2x3tc1Package.Literals.IFC_STRUCTURAL_CONNECTION__CONNECTS_STRUCTURAL_MEMBERS, true);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public void unsetConnectsStructuralMembers() {
-		eUnset(Ifc2x3tc1Package.Literals.IFC_STRUCTURAL_CONNECTION__CONNECTS_STRUCTURAL_MEMBERS);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public void unsetConnectsStructuralMembers() {
+        eUnset(Ifc2x3tc1Package.Literals.IFC_STRUCTURAL_CONNECTION__CONNECTS_STRUCTURAL_MEMBERS);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public boolean isSetConnectsStructuralMembers() {
-		return eIsSet(Ifc2x3tc1Package.Literals.IFC_STRUCTURAL_CONNECTION__CONNECTS_STRUCTURAL_MEMBERS);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public boolean isSetConnectsStructuralMembers() {
+        return eIsSet(Ifc2x3tc1Package.Literals.IFC_STRUCTURAL_CONNECTION__CONNECTS_STRUCTURAL_MEMBERS);
+    }
 
 } //IfcStructuralConnectionImpl

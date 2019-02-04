@@ -19,6 +19,7 @@ package org.bimserver.models.ifc2x3tc1.impl;
 import org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package;
 import org.bimserver.models.ifc2x3tc1.IfcCableCarrierSegmentType;
 import org.bimserver.models.ifc2x3tc1.IfcCableCarrierSegmentTypeEnum;
+
 import org.eclipse.emf.ecore.EClass;
 
 /**
@@ -27,49 +28,50 @@ import org.eclipse.emf.ecore.EClass;
  * <!-- end-user-doc -->
  * <p>
  * The following features are implemented:
+ * </p>
  * <ul>
  *   <li>{@link org.bimserver.models.ifc2x3tc1.impl.IfcCableCarrierSegmentTypeImpl#getPredefinedType <em>Predefined Type</em>}</li>
  * </ul>
- * </p>
  *
  * @generated
  */
 public class IfcCableCarrierSegmentTypeImpl extends IfcFlowSegmentTypeImpl implements IfcCableCarrierSegmentType {
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	protected IfcCableCarrierSegmentTypeImpl() {
-		super();
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    protected IfcCableCarrierSegmentTypeImpl() {
+        super();
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	@Override
-	protected EClass eStaticClass() {
-		return Ifc2x3tc1Package.Literals.IFC_CABLE_CARRIER_SEGMENT_TYPE;
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    @Override
+    protected EClass eStaticClass() {
+        return Ifc2x3tc1Package.Literals.IFC_CABLE_CARRIER_SEGMENT_TYPE;
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public IfcCableCarrierSegmentTypeEnum getPredefinedType() {
-		return (IfcCableCarrierSegmentTypeEnum) eGet(Ifc2x3tc1Package.Literals.IFC_CABLE_CARRIER_SEGMENT_TYPE__PREDEFINED_TYPE, true);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public IfcCableCarrierSegmentTypeEnum getPredefinedType() {
+        return (IfcCableCarrierSegmentTypeEnum) eGet(
+                Ifc2x3tc1Package.Literals.IFC_CABLE_CARRIER_SEGMENT_TYPE__PREDEFINED_TYPE, true);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public void setPredefinedType(IfcCableCarrierSegmentTypeEnum newPredefinedType) {
-		eSet(Ifc2x3tc1Package.Literals.IFC_CABLE_CARRIER_SEGMENT_TYPE__PREDEFINED_TYPE, newPredefinedType);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public void setPredefinedType(IfcCableCarrierSegmentTypeEnum newPredefinedType) {
+        eSet(Ifc2x3tc1Package.Literals.IFC_CABLE_CARRIER_SEGMENT_TYPE__PREDEFINED_TYPE, newPredefinedType);
+    }
 
 } //IfcCableCarrierSegmentTypeImpl

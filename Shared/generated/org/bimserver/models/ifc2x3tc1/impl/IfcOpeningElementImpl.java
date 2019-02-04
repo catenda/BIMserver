@@ -19,7 +19,9 @@ package org.bimserver.models.ifc2x3tc1.impl;
 import org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package;
 import org.bimserver.models.ifc2x3tc1.IfcOpeningElement;
 import org.bimserver.models.ifc2x3tc1.IfcRelFillsElement;
+
 import org.eclipse.emf.common.util.EList;
+
 import org.eclipse.emf.ecore.EClass;
 
 /**
@@ -28,59 +30,59 @@ import org.eclipse.emf.ecore.EClass;
  * <!-- end-user-doc -->
  * <p>
  * The following features are implemented:
+ * </p>
  * <ul>
  *   <li>{@link org.bimserver.models.ifc2x3tc1.impl.IfcOpeningElementImpl#getHasFillings <em>Has Fillings</em>}</li>
  * </ul>
- * </p>
  *
  * @generated
  */
 public class IfcOpeningElementImpl extends IfcFeatureElementSubtractionImpl implements IfcOpeningElement {
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	protected IfcOpeningElementImpl() {
-		super();
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    protected IfcOpeningElementImpl() {
+        super();
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	@Override
-	protected EClass eStaticClass() {
-		return Ifc2x3tc1Package.Literals.IFC_OPENING_ELEMENT;
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    @Override
+    protected EClass eStaticClass() {
+        return Ifc2x3tc1Package.Literals.IFC_OPENING_ELEMENT;
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	@SuppressWarnings("unchecked")
-	public EList<IfcRelFillsElement> getHasFillings() {
-		return (EList<IfcRelFillsElement>) eGet(Ifc2x3tc1Package.Literals.IFC_OPENING_ELEMENT__HAS_FILLINGS, true);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    @SuppressWarnings("unchecked")
+    public EList<IfcRelFillsElement> getHasFillings() {
+        return (EList<IfcRelFillsElement>) eGet(Ifc2x3tc1Package.Literals.IFC_OPENING_ELEMENT__HAS_FILLINGS, true);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public void unsetHasFillings() {
-		eUnset(Ifc2x3tc1Package.Literals.IFC_OPENING_ELEMENT__HAS_FILLINGS);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public void unsetHasFillings() {
+        eUnset(Ifc2x3tc1Package.Literals.IFC_OPENING_ELEMENT__HAS_FILLINGS);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public boolean isSetHasFillings() {
-		return eIsSet(Ifc2x3tc1Package.Literals.IFC_OPENING_ELEMENT__HAS_FILLINGS);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public boolean isSetHasFillings() {
+        return eIsSet(Ifc2x3tc1Package.Literals.IFC_OPENING_ELEMENT__HAS_FILLINGS);
+    }
 
 } //IfcOpeningElementImpl

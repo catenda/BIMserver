@@ -21,6 +21,7 @@ import org.bimserver.models.ifc2x3tc1.IfcDoorStyle;
 import org.bimserver.models.ifc2x3tc1.IfcDoorStyleConstructionEnum;
 import org.bimserver.models.ifc2x3tc1.IfcDoorStyleOperationEnum;
 import org.bimserver.models.ifc2x3tc1.Tristate;
+
 import org.eclipse.emf.ecore.EClass;
 
 /**
@@ -29,106 +30,106 @@ import org.eclipse.emf.ecore.EClass;
  * <!-- end-user-doc -->
  * <p>
  * The following features are implemented:
+ * </p>
  * <ul>
  *   <li>{@link org.bimserver.models.ifc2x3tc1.impl.IfcDoorStyleImpl#getOperationType <em>Operation Type</em>}</li>
  *   <li>{@link org.bimserver.models.ifc2x3tc1.impl.IfcDoorStyleImpl#getConstructionType <em>Construction Type</em>}</li>
  *   <li>{@link org.bimserver.models.ifc2x3tc1.impl.IfcDoorStyleImpl#getParameterTakesPrecedence <em>Parameter Takes Precedence</em>}</li>
  *   <li>{@link org.bimserver.models.ifc2x3tc1.impl.IfcDoorStyleImpl#getSizeable <em>Sizeable</em>}</li>
  * </ul>
- * </p>
  *
  * @generated
  */
 public class IfcDoorStyleImpl extends IfcTypeProductImpl implements IfcDoorStyle {
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	protected IfcDoorStyleImpl() {
-		super();
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    protected IfcDoorStyleImpl() {
+        super();
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	@Override
-	protected EClass eStaticClass() {
-		return Ifc2x3tc1Package.Literals.IFC_DOOR_STYLE;
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    @Override
+    protected EClass eStaticClass() {
+        return Ifc2x3tc1Package.Literals.IFC_DOOR_STYLE;
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public IfcDoorStyleOperationEnum getOperationType() {
-		return (IfcDoorStyleOperationEnum) eGet(Ifc2x3tc1Package.Literals.IFC_DOOR_STYLE__OPERATION_TYPE, true);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public IfcDoorStyleOperationEnum getOperationType() {
+        return (IfcDoorStyleOperationEnum) eGet(Ifc2x3tc1Package.Literals.IFC_DOOR_STYLE__OPERATION_TYPE, true);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public void setOperationType(IfcDoorStyleOperationEnum newOperationType) {
-		eSet(Ifc2x3tc1Package.Literals.IFC_DOOR_STYLE__OPERATION_TYPE, newOperationType);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public void setOperationType(IfcDoorStyleOperationEnum newOperationType) {
+        eSet(Ifc2x3tc1Package.Literals.IFC_DOOR_STYLE__OPERATION_TYPE, newOperationType);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public IfcDoorStyleConstructionEnum getConstructionType() {
-		return (IfcDoorStyleConstructionEnum) eGet(Ifc2x3tc1Package.Literals.IFC_DOOR_STYLE__CONSTRUCTION_TYPE, true);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public IfcDoorStyleConstructionEnum getConstructionType() {
+        return (IfcDoorStyleConstructionEnum) eGet(Ifc2x3tc1Package.Literals.IFC_DOOR_STYLE__CONSTRUCTION_TYPE, true);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public void setConstructionType(IfcDoorStyleConstructionEnum newConstructionType) {
-		eSet(Ifc2x3tc1Package.Literals.IFC_DOOR_STYLE__CONSTRUCTION_TYPE, newConstructionType);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public void setConstructionType(IfcDoorStyleConstructionEnum newConstructionType) {
+        eSet(Ifc2x3tc1Package.Literals.IFC_DOOR_STYLE__CONSTRUCTION_TYPE, newConstructionType);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public Tristate getParameterTakesPrecedence() {
-		return (Tristate) eGet(Ifc2x3tc1Package.Literals.IFC_DOOR_STYLE__PARAMETER_TAKES_PRECEDENCE, true);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public Tristate getParameterTakesPrecedence() {
+        return (Tristate) eGet(Ifc2x3tc1Package.Literals.IFC_DOOR_STYLE__PARAMETER_TAKES_PRECEDENCE, true);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public void setParameterTakesPrecedence(Tristate newParameterTakesPrecedence) {
-		eSet(Ifc2x3tc1Package.Literals.IFC_DOOR_STYLE__PARAMETER_TAKES_PRECEDENCE, newParameterTakesPrecedence);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public void setParameterTakesPrecedence(Tristate newParameterTakesPrecedence) {
+        eSet(Ifc2x3tc1Package.Literals.IFC_DOOR_STYLE__PARAMETER_TAKES_PRECEDENCE, newParameterTakesPrecedence);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public Tristate getSizeable() {
-		return (Tristate) eGet(Ifc2x3tc1Package.Literals.IFC_DOOR_STYLE__SIZEABLE, true);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public Tristate getSizeable() {
+        return (Tristate) eGet(Ifc2x3tc1Package.Literals.IFC_DOOR_STYLE__SIZEABLE, true);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public void setSizeable(Tristate newSizeable) {
-		eSet(Ifc2x3tc1Package.Literals.IFC_DOOR_STYLE__SIZEABLE, newSizeable);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public void setSizeable(Tristate newSizeable) {
+        eSet(Ifc2x3tc1Package.Literals.IFC_DOOR_STYLE__SIZEABLE, newSizeable);
+    }
 
 } //IfcDoorStyleImpl

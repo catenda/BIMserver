@@ -18,7 +18,9 @@ package org.bimserver.models.log.impl;
 
 import org.bimserver.models.log.CheckoutRelated;
 import org.bimserver.models.log.LogPackage;
+
 import org.bimserver.models.store.Checkout;
+
 import org.eclipse.emf.ecore.EClass;
 
 /**
@@ -27,49 +29,49 @@ import org.eclipse.emf.ecore.EClass;
  * <!-- end-user-doc -->
  * <p>
  * The following features are implemented:
+ * </p>
  * <ul>
  *   <li>{@link org.bimserver.models.log.impl.CheckoutRelatedImpl#getCheckout <em>Checkout</em>}</li>
  * </ul>
- * </p>
  *
  * @generated
  */
 public class CheckoutRelatedImpl extends LogActionImpl implements CheckoutRelated {
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	protected CheckoutRelatedImpl() {
-		super();
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    protected CheckoutRelatedImpl() {
+        super();
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	@Override
-	protected EClass eStaticClass() {
-		return LogPackage.Literals.CHECKOUT_RELATED;
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    @Override
+    protected EClass eStaticClass() {
+        return LogPackage.Literals.CHECKOUT_RELATED;
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public Checkout getCheckout() {
-		return (Checkout) eGet(LogPackage.Literals.CHECKOUT_RELATED__CHECKOUT, true);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public Checkout getCheckout() {
+        return (Checkout) eGet(LogPackage.Literals.CHECKOUT_RELATED__CHECKOUT, true);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public void setCheckout(Checkout newCheckout) {
-		eSet(LogPackage.Literals.CHECKOUT_RELATED__CHECKOUT, newCheckout);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public void setCheckout(Checkout newCheckout) {
+        eSet(LogPackage.Literals.CHECKOUT_RELATED__CHECKOUT, newCheckout);
+    }
 
 } //CheckoutRelatedImpl

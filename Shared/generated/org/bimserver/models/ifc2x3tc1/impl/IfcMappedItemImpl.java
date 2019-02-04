@@ -20,6 +20,7 @@ import org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package;
 import org.bimserver.models.ifc2x3tc1.IfcCartesianTransformationOperator;
 import org.bimserver.models.ifc2x3tc1.IfcMappedItem;
 import org.bimserver.models.ifc2x3tc1.IfcRepresentationMap;
+
 import org.eclipse.emf.ecore.EClass;
 
 /**
@@ -28,68 +29,69 @@ import org.eclipse.emf.ecore.EClass;
  * <!-- end-user-doc -->
  * <p>
  * The following features are implemented:
+ * </p>
  * <ul>
  *   <li>{@link org.bimserver.models.ifc2x3tc1.impl.IfcMappedItemImpl#getMappingSource <em>Mapping Source</em>}</li>
  *   <li>{@link org.bimserver.models.ifc2x3tc1.impl.IfcMappedItemImpl#getMappingTarget <em>Mapping Target</em>}</li>
  * </ul>
- * </p>
  *
  * @generated
  */
 public class IfcMappedItemImpl extends IfcRepresentationItemImpl implements IfcMappedItem {
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	protected IfcMappedItemImpl() {
-		super();
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    protected IfcMappedItemImpl() {
+        super();
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	@Override
-	protected EClass eStaticClass() {
-		return Ifc2x3tc1Package.Literals.IFC_MAPPED_ITEM;
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    @Override
+    protected EClass eStaticClass() {
+        return Ifc2x3tc1Package.Literals.IFC_MAPPED_ITEM;
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public IfcRepresentationMap getMappingSource() {
-		return (IfcRepresentationMap) eGet(Ifc2x3tc1Package.Literals.IFC_MAPPED_ITEM__MAPPING_SOURCE, true);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public IfcRepresentationMap getMappingSource() {
+        return (IfcRepresentationMap) eGet(Ifc2x3tc1Package.Literals.IFC_MAPPED_ITEM__MAPPING_SOURCE, true);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public void setMappingSource(IfcRepresentationMap newMappingSource) {
-		eSet(Ifc2x3tc1Package.Literals.IFC_MAPPED_ITEM__MAPPING_SOURCE, newMappingSource);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public void setMappingSource(IfcRepresentationMap newMappingSource) {
+        eSet(Ifc2x3tc1Package.Literals.IFC_MAPPED_ITEM__MAPPING_SOURCE, newMappingSource);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public IfcCartesianTransformationOperator getMappingTarget() {
-		return (IfcCartesianTransformationOperator) eGet(Ifc2x3tc1Package.Literals.IFC_MAPPED_ITEM__MAPPING_TARGET, true);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public IfcCartesianTransformationOperator getMappingTarget() {
+        return (IfcCartesianTransformationOperator) eGet(Ifc2x3tc1Package.Literals.IFC_MAPPED_ITEM__MAPPING_TARGET,
+                true);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public void setMappingTarget(IfcCartesianTransformationOperator newMappingTarget) {
-		eSet(Ifc2x3tc1Package.Literals.IFC_MAPPED_ITEM__MAPPING_TARGET, newMappingTarget);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public void setMappingTarget(IfcCartesianTransformationOperator newMappingTarget) {
+        eSet(Ifc2x3tc1Package.Literals.IFC_MAPPED_ITEM__MAPPING_TARGET, newMappingTarget);
+    }
 
 } //IfcMappedItemImpl

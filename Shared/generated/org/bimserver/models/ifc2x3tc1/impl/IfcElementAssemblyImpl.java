@@ -20,6 +20,7 @@ import org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package;
 import org.bimserver.models.ifc2x3tc1.IfcAssemblyPlaceEnum;
 import org.bimserver.models.ifc2x3tc1.IfcElementAssembly;
 import org.bimserver.models.ifc2x3tc1.IfcElementAssemblyTypeEnum;
+
 import org.eclipse.emf.ecore.EClass;
 
 /**
@@ -28,86 +29,86 @@ import org.eclipse.emf.ecore.EClass;
  * <!-- end-user-doc -->
  * <p>
  * The following features are implemented:
+ * </p>
  * <ul>
  *   <li>{@link org.bimserver.models.ifc2x3tc1.impl.IfcElementAssemblyImpl#getAssemblyPlace <em>Assembly Place</em>}</li>
  *   <li>{@link org.bimserver.models.ifc2x3tc1.impl.IfcElementAssemblyImpl#getPredefinedType <em>Predefined Type</em>}</li>
  * </ul>
- * </p>
  *
  * @generated
  */
 public class IfcElementAssemblyImpl extends IfcElementImpl implements IfcElementAssembly {
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	protected IfcElementAssemblyImpl() {
-		super();
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    protected IfcElementAssemblyImpl() {
+        super();
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	@Override
-	protected EClass eStaticClass() {
-		return Ifc2x3tc1Package.Literals.IFC_ELEMENT_ASSEMBLY;
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    @Override
+    protected EClass eStaticClass() {
+        return Ifc2x3tc1Package.Literals.IFC_ELEMENT_ASSEMBLY;
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public IfcAssemblyPlaceEnum getAssemblyPlace() {
-		return (IfcAssemblyPlaceEnum) eGet(Ifc2x3tc1Package.Literals.IFC_ELEMENT_ASSEMBLY__ASSEMBLY_PLACE, true);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public IfcAssemblyPlaceEnum getAssemblyPlace() {
+        return (IfcAssemblyPlaceEnum) eGet(Ifc2x3tc1Package.Literals.IFC_ELEMENT_ASSEMBLY__ASSEMBLY_PLACE, true);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public void setAssemblyPlace(IfcAssemblyPlaceEnum newAssemblyPlace) {
-		eSet(Ifc2x3tc1Package.Literals.IFC_ELEMENT_ASSEMBLY__ASSEMBLY_PLACE, newAssemblyPlace);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public void setAssemblyPlace(IfcAssemblyPlaceEnum newAssemblyPlace) {
+        eSet(Ifc2x3tc1Package.Literals.IFC_ELEMENT_ASSEMBLY__ASSEMBLY_PLACE, newAssemblyPlace);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public void unsetAssemblyPlace() {
-		eUnset(Ifc2x3tc1Package.Literals.IFC_ELEMENT_ASSEMBLY__ASSEMBLY_PLACE);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public void unsetAssemblyPlace() {
+        eUnset(Ifc2x3tc1Package.Literals.IFC_ELEMENT_ASSEMBLY__ASSEMBLY_PLACE);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public boolean isSetAssemblyPlace() {
-		return eIsSet(Ifc2x3tc1Package.Literals.IFC_ELEMENT_ASSEMBLY__ASSEMBLY_PLACE);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public boolean isSetAssemblyPlace() {
+        return eIsSet(Ifc2x3tc1Package.Literals.IFC_ELEMENT_ASSEMBLY__ASSEMBLY_PLACE);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public IfcElementAssemblyTypeEnum getPredefinedType() {
-		return (IfcElementAssemblyTypeEnum) eGet(Ifc2x3tc1Package.Literals.IFC_ELEMENT_ASSEMBLY__PREDEFINED_TYPE, true);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public IfcElementAssemblyTypeEnum getPredefinedType() {
+        return (IfcElementAssemblyTypeEnum) eGet(Ifc2x3tc1Package.Literals.IFC_ELEMENT_ASSEMBLY__PREDEFINED_TYPE, true);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public void setPredefinedType(IfcElementAssemblyTypeEnum newPredefinedType) {
-		eSet(Ifc2x3tc1Package.Literals.IFC_ELEMENT_ASSEMBLY__PREDEFINED_TYPE, newPredefinedType);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public void setPredefinedType(IfcElementAssemblyTypeEnum newPredefinedType) {
+        eSet(Ifc2x3tc1Package.Literals.IFC_ELEMENT_ASSEMBLY__PREDEFINED_TYPE, newPredefinedType);
+    }
 
 } //IfcElementAssemblyImpl

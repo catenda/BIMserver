@@ -20,6 +20,7 @@ import org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package;
 import org.bimserver.models.ifc2x3tc1.IfcDerivedMeasureValue;
 import org.bimserver.models.ifc2x3tc1.IfcSoundValue;
 import org.bimserver.models.ifc2x3tc1.IfcTimeSeries;
+
 import org.eclipse.emf.ecore.EClass;
 
 /**
@@ -28,142 +29,142 @@ import org.eclipse.emf.ecore.EClass;
  * <!-- end-user-doc -->
  * <p>
  * The following features are implemented:
+ * </p>
  * <ul>
  *   <li>{@link org.bimserver.models.ifc2x3tc1.impl.IfcSoundValueImpl#getSoundLevelTimeSeries <em>Sound Level Time Series</em>}</li>
  *   <li>{@link org.bimserver.models.ifc2x3tc1.impl.IfcSoundValueImpl#getFrequency <em>Frequency</em>}</li>
  *   <li>{@link org.bimserver.models.ifc2x3tc1.impl.IfcSoundValueImpl#getFrequencyAsString <em>Frequency As String</em>}</li>
  *   <li>{@link org.bimserver.models.ifc2x3tc1.impl.IfcSoundValueImpl#getSoundLevelSingleValue <em>Sound Level Single Value</em>}</li>
  * </ul>
- * </p>
  *
  * @generated
  */
 public class IfcSoundValueImpl extends IfcPropertySetDefinitionImpl implements IfcSoundValue {
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	protected IfcSoundValueImpl() {
-		super();
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    protected IfcSoundValueImpl() {
+        super();
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	@Override
-	protected EClass eStaticClass() {
-		return Ifc2x3tc1Package.Literals.IFC_SOUND_VALUE;
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    @Override
+    protected EClass eStaticClass() {
+        return Ifc2x3tc1Package.Literals.IFC_SOUND_VALUE;
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public IfcTimeSeries getSoundLevelTimeSeries() {
-		return (IfcTimeSeries) eGet(Ifc2x3tc1Package.Literals.IFC_SOUND_VALUE__SOUND_LEVEL_TIME_SERIES, true);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public IfcTimeSeries getSoundLevelTimeSeries() {
+        return (IfcTimeSeries) eGet(Ifc2x3tc1Package.Literals.IFC_SOUND_VALUE__SOUND_LEVEL_TIME_SERIES, true);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public void setSoundLevelTimeSeries(IfcTimeSeries newSoundLevelTimeSeries) {
-		eSet(Ifc2x3tc1Package.Literals.IFC_SOUND_VALUE__SOUND_LEVEL_TIME_SERIES, newSoundLevelTimeSeries);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public void setSoundLevelTimeSeries(IfcTimeSeries newSoundLevelTimeSeries) {
+        eSet(Ifc2x3tc1Package.Literals.IFC_SOUND_VALUE__SOUND_LEVEL_TIME_SERIES, newSoundLevelTimeSeries);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public void unsetSoundLevelTimeSeries() {
-		eUnset(Ifc2x3tc1Package.Literals.IFC_SOUND_VALUE__SOUND_LEVEL_TIME_SERIES);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public void unsetSoundLevelTimeSeries() {
+        eUnset(Ifc2x3tc1Package.Literals.IFC_SOUND_VALUE__SOUND_LEVEL_TIME_SERIES);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public boolean isSetSoundLevelTimeSeries() {
-		return eIsSet(Ifc2x3tc1Package.Literals.IFC_SOUND_VALUE__SOUND_LEVEL_TIME_SERIES);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public boolean isSetSoundLevelTimeSeries() {
+        return eIsSet(Ifc2x3tc1Package.Literals.IFC_SOUND_VALUE__SOUND_LEVEL_TIME_SERIES);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public double getFrequency() {
-		return (Double) eGet(Ifc2x3tc1Package.Literals.IFC_SOUND_VALUE__FREQUENCY, true);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public double getFrequency() {
+        return (Double) eGet(Ifc2x3tc1Package.Literals.IFC_SOUND_VALUE__FREQUENCY, true);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public void setFrequency(double newFrequency) {
-		eSet(Ifc2x3tc1Package.Literals.IFC_SOUND_VALUE__FREQUENCY, newFrequency);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public void setFrequency(double newFrequency) {
+        eSet(Ifc2x3tc1Package.Literals.IFC_SOUND_VALUE__FREQUENCY, newFrequency);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public String getFrequencyAsString() {
-		return (String) eGet(Ifc2x3tc1Package.Literals.IFC_SOUND_VALUE__FREQUENCY_AS_STRING, true);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public String getFrequencyAsString() {
+        return (String) eGet(Ifc2x3tc1Package.Literals.IFC_SOUND_VALUE__FREQUENCY_AS_STRING, true);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public void setFrequencyAsString(String newFrequencyAsString) {
-		eSet(Ifc2x3tc1Package.Literals.IFC_SOUND_VALUE__FREQUENCY_AS_STRING, newFrequencyAsString);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public void setFrequencyAsString(String newFrequencyAsString) {
+        eSet(Ifc2x3tc1Package.Literals.IFC_SOUND_VALUE__FREQUENCY_AS_STRING, newFrequencyAsString);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public IfcDerivedMeasureValue getSoundLevelSingleValue() {
-		return (IfcDerivedMeasureValue) eGet(Ifc2x3tc1Package.Literals.IFC_SOUND_VALUE__SOUND_LEVEL_SINGLE_VALUE, true);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public IfcDerivedMeasureValue getSoundLevelSingleValue() {
+        return (IfcDerivedMeasureValue) eGet(Ifc2x3tc1Package.Literals.IFC_SOUND_VALUE__SOUND_LEVEL_SINGLE_VALUE, true);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public void setSoundLevelSingleValue(IfcDerivedMeasureValue newSoundLevelSingleValue) {
-		eSet(Ifc2x3tc1Package.Literals.IFC_SOUND_VALUE__SOUND_LEVEL_SINGLE_VALUE, newSoundLevelSingleValue);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public void setSoundLevelSingleValue(IfcDerivedMeasureValue newSoundLevelSingleValue) {
+        eSet(Ifc2x3tc1Package.Literals.IFC_SOUND_VALUE__SOUND_LEVEL_SINGLE_VALUE, newSoundLevelSingleValue);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public void unsetSoundLevelSingleValue() {
-		eUnset(Ifc2x3tc1Package.Literals.IFC_SOUND_VALUE__SOUND_LEVEL_SINGLE_VALUE);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public void unsetSoundLevelSingleValue() {
+        eUnset(Ifc2x3tc1Package.Literals.IFC_SOUND_VALUE__SOUND_LEVEL_SINGLE_VALUE);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public boolean isSetSoundLevelSingleValue() {
-		return eIsSet(Ifc2x3tc1Package.Literals.IFC_SOUND_VALUE__SOUND_LEVEL_SINGLE_VALUE);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public boolean isSetSoundLevelSingleValue() {
+        return eIsSet(Ifc2x3tc1Package.Literals.IFC_SOUND_VALUE__SOUND_LEVEL_SINGLE_VALUE);
+    }
 
 } //IfcSoundValueImpl

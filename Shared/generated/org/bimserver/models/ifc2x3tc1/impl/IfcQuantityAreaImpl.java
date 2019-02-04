@@ -18,6 +18,7 @@ package org.bimserver.models.ifc2x3tc1.impl;
 
 import org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package;
 import org.bimserver.models.ifc2x3tc1.IfcQuantityArea;
+
 import org.eclipse.emf.ecore.EClass;
 
 /**
@@ -26,68 +27,68 @@ import org.eclipse.emf.ecore.EClass;
  * <!-- end-user-doc -->
  * <p>
  * The following features are implemented:
+ * </p>
  * <ul>
  *   <li>{@link org.bimserver.models.ifc2x3tc1.impl.IfcQuantityAreaImpl#getAreaValue <em>Area Value</em>}</li>
  *   <li>{@link org.bimserver.models.ifc2x3tc1.impl.IfcQuantityAreaImpl#getAreaValueAsString <em>Area Value As String</em>}</li>
  * </ul>
- * </p>
  *
  * @generated
  */
 public class IfcQuantityAreaImpl extends IfcPhysicalSimpleQuantityImpl implements IfcQuantityArea {
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	protected IfcQuantityAreaImpl() {
-		super();
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    protected IfcQuantityAreaImpl() {
+        super();
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	@Override
-	protected EClass eStaticClass() {
-		return Ifc2x3tc1Package.Literals.IFC_QUANTITY_AREA;
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    @Override
+    protected EClass eStaticClass() {
+        return Ifc2x3tc1Package.Literals.IFC_QUANTITY_AREA;
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public double getAreaValue() {
-		return (Double) eGet(Ifc2x3tc1Package.Literals.IFC_QUANTITY_AREA__AREA_VALUE, true);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public double getAreaValue() {
+        return (Double) eGet(Ifc2x3tc1Package.Literals.IFC_QUANTITY_AREA__AREA_VALUE, true);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public void setAreaValue(double newAreaValue) {
-		eSet(Ifc2x3tc1Package.Literals.IFC_QUANTITY_AREA__AREA_VALUE, newAreaValue);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public void setAreaValue(double newAreaValue) {
+        eSet(Ifc2x3tc1Package.Literals.IFC_QUANTITY_AREA__AREA_VALUE, newAreaValue);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public String getAreaValueAsString() {
-		return (String) eGet(Ifc2x3tc1Package.Literals.IFC_QUANTITY_AREA__AREA_VALUE_AS_STRING, true);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public String getAreaValueAsString() {
+        return (String) eGet(Ifc2x3tc1Package.Literals.IFC_QUANTITY_AREA__AREA_VALUE_AS_STRING, true);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public void setAreaValueAsString(String newAreaValueAsString) {
-		eSet(Ifc2x3tc1Package.Literals.IFC_QUANTITY_AREA__AREA_VALUE_AS_STRING, newAreaValueAsString);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public void setAreaValueAsString(String newAreaValueAsString) {
+        eSet(Ifc2x3tc1Package.Literals.IFC_QUANTITY_AREA__AREA_VALUE_AS_STRING, newAreaValueAsString);
+    }
 
 } //IfcQuantityAreaImpl

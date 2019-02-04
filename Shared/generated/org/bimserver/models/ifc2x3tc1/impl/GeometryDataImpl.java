@@ -17,8 +17,10 @@
 package org.bimserver.models.ifc2x3tc1.impl;
 
 import org.bimserver.emf.IdEObjectImpl;
+
 import org.bimserver.models.ifc2x3tc1.GeometryData;
 import org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package;
+
 import org.eclipse.emf.ecore.EClass;
 
 /**
@@ -27,97 +29,97 @@ import org.eclipse.emf.ecore.EClass;
  * <!-- end-user-doc -->
  * <p>
  * The following features are implemented:
+ * </p>
  * <ul>
  *   <li>{@link org.bimserver.models.ifc2x3tc1.impl.GeometryDataImpl#getIndices <em>Indices</em>}</li>
  *   <li>{@link org.bimserver.models.ifc2x3tc1.impl.GeometryDataImpl#getVertices <em>Vertices</em>}</li>
  *   <li>{@link org.bimserver.models.ifc2x3tc1.impl.GeometryDataImpl#getNormals <em>Normals</em>}</li>
  * </ul>
- * </p>
  *
  * @generated
  */
 public class GeometryDataImpl extends IdEObjectImpl implements GeometryData {
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	protected GeometryDataImpl() {
-		super();
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    protected GeometryDataImpl() {
+        super();
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	@Override
-	protected EClass eStaticClass() {
-		return Ifc2x3tc1Package.Literals.GEOMETRY_DATA;
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    @Override
+    protected EClass eStaticClass() {
+        return Ifc2x3tc1Package.Literals.GEOMETRY_DATA;
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	@Override
-	protected int eStaticFeatureCount() {
-		return 0;
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    @Override
+    protected int eStaticFeatureCount() {
+        return 0;
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public byte[] getIndices() {
-		return (byte[]) eGet(Ifc2x3tc1Package.Literals.GEOMETRY_DATA__INDICES, true);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public byte[] getIndices() {
+        return (byte[]) eGet(Ifc2x3tc1Package.Literals.GEOMETRY_DATA__INDICES, true);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public void setIndices(byte[] newIndices) {
-		eSet(Ifc2x3tc1Package.Literals.GEOMETRY_DATA__INDICES, newIndices);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public void setIndices(byte[] newIndices) {
+        eSet(Ifc2x3tc1Package.Literals.GEOMETRY_DATA__INDICES, newIndices);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public byte[] getVertices() {
-		return (byte[]) eGet(Ifc2x3tc1Package.Literals.GEOMETRY_DATA__VERTICES, true);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public byte[] getVertices() {
+        return (byte[]) eGet(Ifc2x3tc1Package.Literals.GEOMETRY_DATA__VERTICES, true);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public void setVertices(byte[] newVertices) {
-		eSet(Ifc2x3tc1Package.Literals.GEOMETRY_DATA__VERTICES, newVertices);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public void setVertices(byte[] newVertices) {
+        eSet(Ifc2x3tc1Package.Literals.GEOMETRY_DATA__VERTICES, newVertices);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public byte[] getNormals() {
-		return (byte[]) eGet(Ifc2x3tc1Package.Literals.GEOMETRY_DATA__NORMALS, true);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public byte[] getNormals() {
+        return (byte[]) eGet(Ifc2x3tc1Package.Literals.GEOMETRY_DATA__NORMALS, true);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public void setNormals(byte[] newNormals) {
-		eSet(Ifc2x3tc1Package.Literals.GEOMETRY_DATA__NORMALS, newNormals);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public void setNormals(byte[] newNormals) {
+        eSet(Ifc2x3tc1Package.Literals.GEOMETRY_DATA__NORMALS, newNormals);
+    }
 
 } //GeometryDataImpl

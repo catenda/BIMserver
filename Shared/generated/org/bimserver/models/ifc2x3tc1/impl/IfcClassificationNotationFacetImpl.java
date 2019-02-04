@@ -17,8 +17,10 @@
 package org.bimserver.models.ifc2x3tc1.impl;
 
 import org.bimserver.emf.IdEObjectImpl;
+
 import org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package;
 import org.bimserver.models.ifc2x3tc1.IfcClassificationNotationFacet;
+
 import org.eclipse.emf.ecore.EClass;
 
 /**
@@ -27,59 +29,59 @@ import org.eclipse.emf.ecore.EClass;
  * <!-- end-user-doc -->
  * <p>
  * The following features are implemented:
+ * </p>
  * <ul>
  *   <li>{@link org.bimserver.models.ifc2x3tc1.impl.IfcClassificationNotationFacetImpl#getNotationValue <em>Notation Value</em>}</li>
  * </ul>
- * </p>
  *
  * @generated
  */
 public class IfcClassificationNotationFacetImpl extends IdEObjectImpl implements IfcClassificationNotationFacet {
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	protected IfcClassificationNotationFacetImpl() {
-		super();
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    protected IfcClassificationNotationFacetImpl() {
+        super();
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	@Override
-	protected EClass eStaticClass() {
-		return Ifc2x3tc1Package.Literals.IFC_CLASSIFICATION_NOTATION_FACET;
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    @Override
+    protected EClass eStaticClass() {
+        return Ifc2x3tc1Package.Literals.IFC_CLASSIFICATION_NOTATION_FACET;
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	@Override
-	protected int eStaticFeatureCount() {
-		return 0;
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    @Override
+    protected int eStaticFeatureCount() {
+        return 0;
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public String getNotationValue() {
-		return (String) eGet(Ifc2x3tc1Package.Literals.IFC_CLASSIFICATION_NOTATION_FACET__NOTATION_VALUE, true);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public String getNotationValue() {
+        return (String) eGet(Ifc2x3tc1Package.Literals.IFC_CLASSIFICATION_NOTATION_FACET__NOTATION_VALUE, true);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public void setNotationValue(String newNotationValue) {
-		eSet(Ifc2x3tc1Package.Literals.IFC_CLASSIFICATION_NOTATION_FACET__NOTATION_VALUE, newNotationValue);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public void setNotationValue(String newNotationValue) {
+        eSet(Ifc2x3tc1Package.Literals.IFC_CLASSIFICATION_NOTATION_FACET__NOTATION_VALUE, newNotationValue);
+    }
 
 } //IfcClassificationNotationFacetImpl
