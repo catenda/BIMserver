@@ -17,10 +17,13 @@
 package org.bimserver.models.ifc2x3tc1.impl;
 
 import org.bimserver.emf.IdEObjectImpl;
+
 import org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package;
 import org.bimserver.models.ifc2x3tc1.IfcGridAxis;
 import org.bimserver.models.ifc2x3tc1.IfcVirtualGridIntersection;
+
 import org.eclipse.emf.common.util.EList;
+
 import org.eclipse.emf.ecore.EClass;
 
 /**
@@ -29,73 +32,75 @@ import org.eclipse.emf.ecore.EClass;
  * <!-- end-user-doc -->
  * <p>
  * The following features are implemented:
+ * </p>
  * <ul>
  *   <li>{@link org.bimserver.models.ifc2x3tc1.impl.IfcVirtualGridIntersectionImpl#getIntersectingAxes <em>Intersecting Axes</em>}</li>
  *   <li>{@link org.bimserver.models.ifc2x3tc1.impl.IfcVirtualGridIntersectionImpl#getOffsetDistances <em>Offset Distances</em>}</li>
  *   <li>{@link org.bimserver.models.ifc2x3tc1.impl.IfcVirtualGridIntersectionImpl#getOffsetDistancesAsString <em>Offset Distances As String</em>}</li>
  * </ul>
- * </p>
  *
  * @generated
  */
 public class IfcVirtualGridIntersectionImpl extends IdEObjectImpl implements IfcVirtualGridIntersection {
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	protected IfcVirtualGridIntersectionImpl() {
-		super();
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    protected IfcVirtualGridIntersectionImpl() {
+        super();
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	@Override
-	protected EClass eStaticClass() {
-		return Ifc2x3tc1Package.Literals.IFC_VIRTUAL_GRID_INTERSECTION;
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    @Override
+    protected EClass eStaticClass() {
+        return Ifc2x3tc1Package.Literals.IFC_VIRTUAL_GRID_INTERSECTION;
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	@Override
-	protected int eStaticFeatureCount() {
-		return 0;
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    @Override
+    protected int eStaticFeatureCount() {
+        return 0;
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	@SuppressWarnings("unchecked")
-	public EList<IfcGridAxis> getIntersectingAxes() {
-		return (EList<IfcGridAxis>) eGet(Ifc2x3tc1Package.Literals.IFC_VIRTUAL_GRID_INTERSECTION__INTERSECTING_AXES, true);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    @SuppressWarnings("unchecked")
+    public EList<IfcGridAxis> getIntersectingAxes() {
+        return (EList<IfcGridAxis>) eGet(Ifc2x3tc1Package.Literals.IFC_VIRTUAL_GRID_INTERSECTION__INTERSECTING_AXES,
+                true);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	@SuppressWarnings("unchecked")
-	public EList<Double> getOffsetDistances() {
-		return (EList<Double>) eGet(Ifc2x3tc1Package.Literals.IFC_VIRTUAL_GRID_INTERSECTION__OFFSET_DISTANCES, true);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    @SuppressWarnings("unchecked")
+    public EList<Double> getOffsetDistances() {
+        return (EList<Double>) eGet(Ifc2x3tc1Package.Literals.IFC_VIRTUAL_GRID_INTERSECTION__OFFSET_DISTANCES, true);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	@SuppressWarnings("unchecked")
-	public EList<String> getOffsetDistancesAsString() {
-		return (EList<String>) eGet(Ifc2x3tc1Package.Literals.IFC_VIRTUAL_GRID_INTERSECTION__OFFSET_DISTANCES_AS_STRING, true);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    @SuppressWarnings("unchecked")
+    public EList<String> getOffsetDistancesAsString() {
+        return (EList<String>) eGet(Ifc2x3tc1Package.Literals.IFC_VIRTUAL_GRID_INTERSECTION__OFFSET_DISTANCES_AS_STRING,
+                true);
+    }
 
 } //IfcVirtualGridIntersectionImpl

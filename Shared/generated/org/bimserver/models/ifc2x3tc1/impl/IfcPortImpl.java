@@ -20,7 +20,9 @@ import org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package;
 import org.bimserver.models.ifc2x3tc1.IfcPort;
 import org.bimserver.models.ifc2x3tc1.IfcRelConnectsPortToElement;
 import org.bimserver.models.ifc2x3tc1.IfcRelConnectsPorts;
+
 import org.eclipse.emf.common.util.EList;
+
 import org.eclipse.emf.ecore.EClass;
 
 /**
@@ -29,125 +31,125 @@ import org.eclipse.emf.ecore.EClass;
  * <!-- end-user-doc -->
  * <p>
  * The following features are implemented:
+ * </p>
  * <ul>
  *   <li>{@link org.bimserver.models.ifc2x3tc1.impl.IfcPortImpl#getContainedIn <em>Contained In</em>}</li>
  *   <li>{@link org.bimserver.models.ifc2x3tc1.impl.IfcPortImpl#getConnectedFrom <em>Connected From</em>}</li>
  *   <li>{@link org.bimserver.models.ifc2x3tc1.impl.IfcPortImpl#getConnectedTo <em>Connected To</em>}</li>
  * </ul>
- * </p>
  *
  * @generated
  */
 public class IfcPortImpl extends IfcProductImpl implements IfcPort {
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	protected IfcPortImpl() {
-		super();
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    protected IfcPortImpl() {
+        super();
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	@Override
-	protected EClass eStaticClass() {
-		return Ifc2x3tc1Package.Literals.IFC_PORT;
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    @Override
+    protected EClass eStaticClass() {
+        return Ifc2x3tc1Package.Literals.IFC_PORT;
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public IfcRelConnectsPortToElement getContainedIn() {
-		return (IfcRelConnectsPortToElement) eGet(Ifc2x3tc1Package.Literals.IFC_PORT__CONTAINED_IN, true);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public IfcRelConnectsPortToElement getContainedIn() {
+        return (IfcRelConnectsPortToElement) eGet(Ifc2x3tc1Package.Literals.IFC_PORT__CONTAINED_IN, true);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public void setContainedIn(IfcRelConnectsPortToElement newContainedIn) {
-		eSet(Ifc2x3tc1Package.Literals.IFC_PORT__CONTAINED_IN, newContainedIn);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public void setContainedIn(IfcRelConnectsPortToElement newContainedIn) {
+        eSet(Ifc2x3tc1Package.Literals.IFC_PORT__CONTAINED_IN, newContainedIn);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public void unsetContainedIn() {
-		eUnset(Ifc2x3tc1Package.Literals.IFC_PORT__CONTAINED_IN);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public void unsetContainedIn() {
+        eUnset(Ifc2x3tc1Package.Literals.IFC_PORT__CONTAINED_IN);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public boolean isSetContainedIn() {
-		return eIsSet(Ifc2x3tc1Package.Literals.IFC_PORT__CONTAINED_IN);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public boolean isSetContainedIn() {
+        return eIsSet(Ifc2x3tc1Package.Literals.IFC_PORT__CONTAINED_IN);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	@SuppressWarnings("unchecked")
-	public EList<IfcRelConnectsPorts> getConnectedFrom() {
-		return (EList<IfcRelConnectsPorts>) eGet(Ifc2x3tc1Package.Literals.IFC_PORT__CONNECTED_FROM, true);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    @SuppressWarnings("unchecked")
+    public EList<IfcRelConnectsPorts> getConnectedFrom() {
+        return (EList<IfcRelConnectsPorts>) eGet(Ifc2x3tc1Package.Literals.IFC_PORT__CONNECTED_FROM, true);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public void unsetConnectedFrom() {
-		eUnset(Ifc2x3tc1Package.Literals.IFC_PORT__CONNECTED_FROM);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public void unsetConnectedFrom() {
+        eUnset(Ifc2x3tc1Package.Literals.IFC_PORT__CONNECTED_FROM);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public boolean isSetConnectedFrom() {
-		return eIsSet(Ifc2x3tc1Package.Literals.IFC_PORT__CONNECTED_FROM);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public boolean isSetConnectedFrom() {
+        return eIsSet(Ifc2x3tc1Package.Literals.IFC_PORT__CONNECTED_FROM);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	@SuppressWarnings("unchecked")
-	public EList<IfcRelConnectsPorts> getConnectedTo() {
-		return (EList<IfcRelConnectsPorts>) eGet(Ifc2x3tc1Package.Literals.IFC_PORT__CONNECTED_TO, true);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    @SuppressWarnings("unchecked")
+    public EList<IfcRelConnectsPorts> getConnectedTo() {
+        return (EList<IfcRelConnectsPorts>) eGet(Ifc2x3tc1Package.Literals.IFC_PORT__CONNECTED_TO, true);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public void unsetConnectedTo() {
-		eUnset(Ifc2x3tc1Package.Literals.IFC_PORT__CONNECTED_TO);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public void unsetConnectedTo() {
+        eUnset(Ifc2x3tc1Package.Literals.IFC_PORT__CONNECTED_TO);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public boolean isSetConnectedTo() {
-		return eIsSet(Ifc2x3tc1Package.Literals.IFC_PORT__CONNECTED_TO);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public boolean isSetConnectedTo() {
+        return eIsSet(Ifc2x3tc1Package.Literals.IFC_PORT__CONNECTED_TO);
+    }
 
 } //IfcPortImpl

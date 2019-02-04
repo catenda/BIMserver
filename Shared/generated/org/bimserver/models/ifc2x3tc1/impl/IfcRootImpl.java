@@ -17,9 +17,11 @@
 package org.bimserver.models.ifc2x3tc1.impl;
 
 import org.bimserver.emf.IdEObjectImpl;
+
 import org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package;
 import org.bimserver.models.ifc2x3tc1.IfcOwnerHistory;
 import org.bimserver.models.ifc2x3tc1.IfcRoot;
+
 import org.eclipse.emf.ecore.EClass;
 
 /**
@@ -28,152 +30,152 @@ import org.eclipse.emf.ecore.EClass;
  * <!-- end-user-doc -->
  * <p>
  * The following features are implemented:
+ * </p>
  * <ul>
  *   <li>{@link org.bimserver.models.ifc2x3tc1.impl.IfcRootImpl#getGlobalId <em>Global Id</em>}</li>
  *   <li>{@link org.bimserver.models.ifc2x3tc1.impl.IfcRootImpl#getOwnerHistory <em>Owner History</em>}</li>
  *   <li>{@link org.bimserver.models.ifc2x3tc1.impl.IfcRootImpl#getName <em>Name</em>}</li>
  *   <li>{@link org.bimserver.models.ifc2x3tc1.impl.IfcRootImpl#getDescription <em>Description</em>}</li>
  * </ul>
- * </p>
  *
  * @generated
  */
 public class IfcRootImpl extends IdEObjectImpl implements IfcRoot {
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	protected IfcRootImpl() {
-		super();
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    protected IfcRootImpl() {
+        super();
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	@Override
-	protected EClass eStaticClass() {
-		return Ifc2x3tc1Package.Literals.IFC_ROOT;
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    @Override
+    protected EClass eStaticClass() {
+        return Ifc2x3tc1Package.Literals.IFC_ROOT;
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	@Override
-	protected int eStaticFeatureCount() {
-		return 0;
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    @Override
+    protected int eStaticFeatureCount() {
+        return 0;
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public String getGlobalId() {
-		return (String) eGet(Ifc2x3tc1Package.Literals.IFC_ROOT__GLOBAL_ID, true);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public String getGlobalId() {
+        return (String) eGet(Ifc2x3tc1Package.Literals.IFC_ROOT__GLOBAL_ID, true);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public void setGlobalId(String newGlobalId) {
-		eSet(Ifc2x3tc1Package.Literals.IFC_ROOT__GLOBAL_ID, newGlobalId);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public void setGlobalId(String newGlobalId) {
+        eSet(Ifc2x3tc1Package.Literals.IFC_ROOT__GLOBAL_ID, newGlobalId);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public IfcOwnerHistory getOwnerHistory() {
-		return (IfcOwnerHistory) eGet(Ifc2x3tc1Package.Literals.IFC_ROOT__OWNER_HISTORY, true);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public IfcOwnerHistory getOwnerHistory() {
+        return (IfcOwnerHistory) eGet(Ifc2x3tc1Package.Literals.IFC_ROOT__OWNER_HISTORY, true);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public void setOwnerHistory(IfcOwnerHistory newOwnerHistory) {
-		eSet(Ifc2x3tc1Package.Literals.IFC_ROOT__OWNER_HISTORY, newOwnerHistory);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public void setOwnerHistory(IfcOwnerHistory newOwnerHistory) {
+        eSet(Ifc2x3tc1Package.Literals.IFC_ROOT__OWNER_HISTORY, newOwnerHistory);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public String getName() {
-		return (String) eGet(Ifc2x3tc1Package.Literals.IFC_ROOT__NAME, true);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public String getName() {
+        return (String) eGet(Ifc2x3tc1Package.Literals.IFC_ROOT__NAME, true);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public void setName(String newName) {
-		eSet(Ifc2x3tc1Package.Literals.IFC_ROOT__NAME, newName);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public void setName(String newName) {
+        eSet(Ifc2x3tc1Package.Literals.IFC_ROOT__NAME, newName);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public void unsetName() {
-		eUnset(Ifc2x3tc1Package.Literals.IFC_ROOT__NAME);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public void unsetName() {
+        eUnset(Ifc2x3tc1Package.Literals.IFC_ROOT__NAME);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public boolean isSetName() {
-		return eIsSet(Ifc2x3tc1Package.Literals.IFC_ROOT__NAME);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public boolean isSetName() {
+        return eIsSet(Ifc2x3tc1Package.Literals.IFC_ROOT__NAME);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public String getDescription() {
-		return (String) eGet(Ifc2x3tc1Package.Literals.IFC_ROOT__DESCRIPTION, true);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public String getDescription() {
+        return (String) eGet(Ifc2x3tc1Package.Literals.IFC_ROOT__DESCRIPTION, true);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public void setDescription(String newDescription) {
-		eSet(Ifc2x3tc1Package.Literals.IFC_ROOT__DESCRIPTION, newDescription);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public void setDescription(String newDescription) {
+        eSet(Ifc2x3tc1Package.Literals.IFC_ROOT__DESCRIPTION, newDescription);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public void unsetDescription() {
-		eUnset(Ifc2x3tc1Package.Literals.IFC_ROOT__DESCRIPTION);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public void unsetDescription() {
+        eUnset(Ifc2x3tc1Package.Literals.IFC_ROOT__DESCRIPTION);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public boolean isSetDescription() {
-		return eIsSet(Ifc2x3tc1Package.Literals.IFC_ROOT__DESCRIPTION);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public boolean isSetDescription() {
+        return eIsSet(Ifc2x3tc1Package.Literals.IFC_ROOT__DESCRIPTION);
+    }
 
 } //IfcRootImpl

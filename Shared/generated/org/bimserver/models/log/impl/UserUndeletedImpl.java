@@ -18,35 +18,34 @@ package org.bimserver.models.log.impl;
 
 import org.bimserver.models.log.LogPackage;
 import org.bimserver.models.log.UserUndeleted;
+
 import org.eclipse.emf.ecore.EClass;
 
 /**
  * <!-- begin-user-doc -->
  * An implementation of the model object '<em><b>User Undeleted</b></em>'.
  * <!-- end-user-doc -->
- * <p>
- * </p>
  *
  * @generated
  */
 public class UserUndeletedImpl extends UserRelatedImpl implements UserUndeleted {
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	protected UserUndeletedImpl() {
-		super();
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    protected UserUndeletedImpl() {
+        super();
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	@Override
-	protected EClass eStaticClass() {
-		return LogPackage.Literals.USER_UNDELETED;
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    @Override
+    protected EClass eStaticClass() {
+        return LogPackage.Literals.USER_UNDELETED;
+    }
 
 } //UserUndeletedImpl

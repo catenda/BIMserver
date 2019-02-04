@@ -17,11 +17,14 @@
 package org.bimserver.models.ifc2x3tc1.impl;
 
 import org.bimserver.emf.IdEObjectImpl;
+
 import org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package;
 import org.bimserver.models.ifc2x3tc1.IfcClassificationNotationSelect;
 import org.bimserver.models.ifc2x3tc1.IfcConstraint;
 import org.bimserver.models.ifc2x3tc1.IfcConstraintClassificationRelationship;
+
 import org.eclipse.emf.common.util.EList;
+
 import org.eclipse.emf.ecore.EClass;
 
 /**
@@ -30,70 +33,74 @@ import org.eclipse.emf.ecore.EClass;
  * <!-- end-user-doc -->
  * <p>
  * The following features are implemented:
+ * </p>
  * <ul>
  *   <li>{@link org.bimserver.models.ifc2x3tc1.impl.IfcConstraintClassificationRelationshipImpl#getClassifiedConstraint <em>Classified Constraint</em>}</li>
  *   <li>{@link org.bimserver.models.ifc2x3tc1.impl.IfcConstraintClassificationRelationshipImpl#getRelatedClassifications <em>Related Classifications</em>}</li>
  * </ul>
- * </p>
  *
  * @generated
  */
-public class IfcConstraintClassificationRelationshipImpl extends IdEObjectImpl implements IfcConstraintClassificationRelationship {
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	protected IfcConstraintClassificationRelationshipImpl() {
-		super();
-	}
+public class IfcConstraintClassificationRelationshipImpl extends IdEObjectImpl
+        implements IfcConstraintClassificationRelationship {
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    protected IfcConstraintClassificationRelationshipImpl() {
+        super();
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	@Override
-	protected EClass eStaticClass() {
-		return Ifc2x3tc1Package.Literals.IFC_CONSTRAINT_CLASSIFICATION_RELATIONSHIP;
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    @Override
+    protected EClass eStaticClass() {
+        return Ifc2x3tc1Package.Literals.IFC_CONSTRAINT_CLASSIFICATION_RELATIONSHIP;
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	@Override
-	protected int eStaticFeatureCount() {
-		return 0;
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    @Override
+    protected int eStaticFeatureCount() {
+        return 0;
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public IfcConstraint getClassifiedConstraint() {
-		return (IfcConstraint) eGet(Ifc2x3tc1Package.Literals.IFC_CONSTRAINT_CLASSIFICATION_RELATIONSHIP__CLASSIFIED_CONSTRAINT, true);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public IfcConstraint getClassifiedConstraint() {
+        return (IfcConstraint) eGet(
+                Ifc2x3tc1Package.Literals.IFC_CONSTRAINT_CLASSIFICATION_RELATIONSHIP__CLASSIFIED_CONSTRAINT, true);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public void setClassifiedConstraint(IfcConstraint newClassifiedConstraint) {
-		eSet(Ifc2x3tc1Package.Literals.IFC_CONSTRAINT_CLASSIFICATION_RELATIONSHIP__CLASSIFIED_CONSTRAINT, newClassifiedConstraint);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public void setClassifiedConstraint(IfcConstraint newClassifiedConstraint) {
+        eSet(Ifc2x3tc1Package.Literals.IFC_CONSTRAINT_CLASSIFICATION_RELATIONSHIP__CLASSIFIED_CONSTRAINT,
+                newClassifiedConstraint);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	@SuppressWarnings("unchecked")
-	public EList<IfcClassificationNotationSelect> getRelatedClassifications() {
-		return (EList<IfcClassificationNotationSelect>) eGet(Ifc2x3tc1Package.Literals.IFC_CONSTRAINT_CLASSIFICATION_RELATIONSHIP__RELATED_CLASSIFICATIONS, true);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    @SuppressWarnings("unchecked")
+    public EList<IfcClassificationNotationSelect> getRelatedClassifications() {
+        return (EList<IfcClassificationNotationSelect>) eGet(
+                Ifc2x3tc1Package.Literals.IFC_CONSTRAINT_CLASSIFICATION_RELATIONSHIP__RELATED_CLASSIFICATIONS, true);
+    }
 
 } //IfcConstraintClassificationRelationshipImpl

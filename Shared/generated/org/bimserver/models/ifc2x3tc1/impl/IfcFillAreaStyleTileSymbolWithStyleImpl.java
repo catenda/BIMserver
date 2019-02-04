@@ -19,6 +19,7 @@ package org.bimserver.models.ifc2x3tc1.impl;
 import org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package;
 import org.bimserver.models.ifc2x3tc1.IfcAnnotationSymbolOccurrence;
 import org.bimserver.models.ifc2x3tc1.IfcFillAreaStyleTileSymbolWithStyle;
+
 import org.eclipse.emf.ecore.EClass;
 
 /**
@@ -27,49 +28,51 @@ import org.eclipse.emf.ecore.EClass;
  * <!-- end-user-doc -->
  * <p>
  * The following features are implemented:
+ * </p>
  * <ul>
  *   <li>{@link org.bimserver.models.ifc2x3tc1.impl.IfcFillAreaStyleTileSymbolWithStyleImpl#getSymbol <em>Symbol</em>}</li>
  * </ul>
- * </p>
  *
  * @generated
  */
-public class IfcFillAreaStyleTileSymbolWithStyleImpl extends IfcGeometricRepresentationItemImpl implements IfcFillAreaStyleTileSymbolWithStyle {
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	protected IfcFillAreaStyleTileSymbolWithStyleImpl() {
-		super();
-	}
+public class IfcFillAreaStyleTileSymbolWithStyleImpl extends IfcGeometricRepresentationItemImpl
+        implements IfcFillAreaStyleTileSymbolWithStyle {
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    protected IfcFillAreaStyleTileSymbolWithStyleImpl() {
+        super();
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	@Override
-	protected EClass eStaticClass() {
-		return Ifc2x3tc1Package.Literals.IFC_FILL_AREA_STYLE_TILE_SYMBOL_WITH_STYLE;
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    @Override
+    protected EClass eStaticClass() {
+        return Ifc2x3tc1Package.Literals.IFC_FILL_AREA_STYLE_TILE_SYMBOL_WITH_STYLE;
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public IfcAnnotationSymbolOccurrence getSymbol() {
-		return (IfcAnnotationSymbolOccurrence) eGet(Ifc2x3tc1Package.Literals.IFC_FILL_AREA_STYLE_TILE_SYMBOL_WITH_STYLE__SYMBOL, true);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public IfcAnnotationSymbolOccurrence getSymbol() {
+        return (IfcAnnotationSymbolOccurrence) eGet(
+                Ifc2x3tc1Package.Literals.IFC_FILL_AREA_STYLE_TILE_SYMBOL_WITH_STYLE__SYMBOL, true);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public void setSymbol(IfcAnnotationSymbolOccurrence newSymbol) {
-		eSet(Ifc2x3tc1Package.Literals.IFC_FILL_AREA_STYLE_TILE_SYMBOL_WITH_STYLE__SYMBOL, newSymbol);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public void setSymbol(IfcAnnotationSymbolOccurrence newSymbol) {
+        eSet(Ifc2x3tc1Package.Literals.IFC_FILL_AREA_STYLE_TILE_SYMBOL_WITH_STYLE__SYMBOL, newSymbol);
+    }
 
 } //IfcFillAreaStyleTileSymbolWithStyleImpl

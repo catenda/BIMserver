@@ -18,6 +18,7 @@ package org.bimserver.models.ifc2x3tc1.impl;
 
 import org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package;
 import org.bimserver.models.ifc2x3tc1.IfcQuantityTime;
+
 import org.eclipse.emf.ecore.EClass;
 
 /**
@@ -26,68 +27,68 @@ import org.eclipse.emf.ecore.EClass;
  * <!-- end-user-doc -->
  * <p>
  * The following features are implemented:
+ * </p>
  * <ul>
  *   <li>{@link org.bimserver.models.ifc2x3tc1.impl.IfcQuantityTimeImpl#getTimeValue <em>Time Value</em>}</li>
  *   <li>{@link org.bimserver.models.ifc2x3tc1.impl.IfcQuantityTimeImpl#getTimeValueAsString <em>Time Value As String</em>}</li>
  * </ul>
- * </p>
  *
  * @generated
  */
 public class IfcQuantityTimeImpl extends IfcPhysicalSimpleQuantityImpl implements IfcQuantityTime {
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	protected IfcQuantityTimeImpl() {
-		super();
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    protected IfcQuantityTimeImpl() {
+        super();
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	@Override
-	protected EClass eStaticClass() {
-		return Ifc2x3tc1Package.Literals.IFC_QUANTITY_TIME;
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    @Override
+    protected EClass eStaticClass() {
+        return Ifc2x3tc1Package.Literals.IFC_QUANTITY_TIME;
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public double getTimeValue() {
-		return (Double) eGet(Ifc2x3tc1Package.Literals.IFC_QUANTITY_TIME__TIME_VALUE, true);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public double getTimeValue() {
+        return (Double) eGet(Ifc2x3tc1Package.Literals.IFC_QUANTITY_TIME__TIME_VALUE, true);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public void setTimeValue(double newTimeValue) {
-		eSet(Ifc2x3tc1Package.Literals.IFC_QUANTITY_TIME__TIME_VALUE, newTimeValue);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public void setTimeValue(double newTimeValue) {
+        eSet(Ifc2x3tc1Package.Literals.IFC_QUANTITY_TIME__TIME_VALUE, newTimeValue);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public String getTimeValueAsString() {
-		return (String) eGet(Ifc2x3tc1Package.Literals.IFC_QUANTITY_TIME__TIME_VALUE_AS_STRING, true);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public String getTimeValueAsString() {
+        return (String) eGet(Ifc2x3tc1Package.Literals.IFC_QUANTITY_TIME__TIME_VALUE_AS_STRING, true);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public void setTimeValueAsString(String newTimeValueAsString) {
-		eSet(Ifc2x3tc1Package.Literals.IFC_QUANTITY_TIME__TIME_VALUE_AS_STRING, newTimeValueAsString);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public void setTimeValueAsString(String newTimeValueAsString) {
+        eSet(Ifc2x3tc1Package.Literals.IFC_QUANTITY_TIME__TIME_VALUE_AS_STRING, newTimeValueAsString);
+    }
 
 } //IfcQuantityTimeImpl

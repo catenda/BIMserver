@@ -19,7 +19,9 @@ package org.bimserver.models.ifc2x3tc1.impl;
 import org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package;
 import org.bimserver.models.ifc2x3tc1.IfcSimpleValue;
 import org.bimserver.models.ifc2x3tc1.IfcTextureCoordinateGenerator;
+
 import org.eclipse.emf.common.util.EList;
+
 import org.eclipse.emf.ecore.EClass;
 
 /**
@@ -28,60 +30,62 @@ import org.eclipse.emf.ecore.EClass;
  * <!-- end-user-doc -->
  * <p>
  * The following features are implemented:
+ * </p>
  * <ul>
  *   <li>{@link org.bimserver.models.ifc2x3tc1.impl.IfcTextureCoordinateGeneratorImpl#getMode <em>Mode</em>}</li>
  *   <li>{@link org.bimserver.models.ifc2x3tc1.impl.IfcTextureCoordinateGeneratorImpl#getParameter <em>Parameter</em>}</li>
  * </ul>
- * </p>
  *
  * @generated
  */
-public class IfcTextureCoordinateGeneratorImpl extends IfcTextureCoordinateImpl implements IfcTextureCoordinateGenerator {
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	protected IfcTextureCoordinateGeneratorImpl() {
-		super();
-	}
+public class IfcTextureCoordinateGeneratorImpl extends IfcTextureCoordinateImpl
+        implements IfcTextureCoordinateGenerator {
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    protected IfcTextureCoordinateGeneratorImpl() {
+        super();
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	@Override
-	protected EClass eStaticClass() {
-		return Ifc2x3tc1Package.Literals.IFC_TEXTURE_COORDINATE_GENERATOR;
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    @Override
+    protected EClass eStaticClass() {
+        return Ifc2x3tc1Package.Literals.IFC_TEXTURE_COORDINATE_GENERATOR;
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public String getMode() {
-		return (String) eGet(Ifc2x3tc1Package.Literals.IFC_TEXTURE_COORDINATE_GENERATOR__MODE, true);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public String getMode() {
+        return (String) eGet(Ifc2x3tc1Package.Literals.IFC_TEXTURE_COORDINATE_GENERATOR__MODE, true);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public void setMode(String newMode) {
-		eSet(Ifc2x3tc1Package.Literals.IFC_TEXTURE_COORDINATE_GENERATOR__MODE, newMode);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public void setMode(String newMode) {
+        eSet(Ifc2x3tc1Package.Literals.IFC_TEXTURE_COORDINATE_GENERATOR__MODE, newMode);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	@SuppressWarnings("unchecked")
-	public EList<IfcSimpleValue> getParameter() {
-		return (EList<IfcSimpleValue>) eGet(Ifc2x3tc1Package.Literals.IFC_TEXTURE_COORDINATE_GENERATOR__PARAMETER, true);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    @SuppressWarnings("unchecked")
+    public EList<IfcSimpleValue> getParameter() {
+        return (EList<IfcSimpleValue>) eGet(Ifc2x3tc1Package.Literals.IFC_TEXTURE_COORDINATE_GENERATOR__PARAMETER,
+                true);
+    }
 
 } //IfcTextureCoordinateGeneratorImpl

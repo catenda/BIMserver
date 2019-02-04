@@ -23,121 +23,121 @@ package org.bimserver.models.ifc2x3tc1;
  *
  * <p>
  * The following features are supported:
+ * </p>
  * <ul>
  *   <li>{@link org.bimserver.models.ifc2x3tc1.IfcEdgeFeature#getFeatureLength <em>Feature Length</em>}</li>
  *   <li>{@link org.bimserver.models.ifc2x3tc1.IfcEdgeFeature#getFeatureLengthAsString <em>Feature Length As String</em>}</li>
  * </ul>
- * </p>
  *
  * @see org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package#getIfcEdgeFeature()
  * @model
  * @generated
  */
 public interface IfcEdgeFeature extends IfcFeatureElementSubtraction {
-	/**
-	 * Returns the value of the '<em><b>Feature Length</b></em>' attribute.
-	 * <!-- begin-user-doc -->
-	 * <p>
-	 * If the meaning of the '<em>Feature Length</em>' attribute isn't clear,
-	 * there really should be more of a description here...
-	 * </p>
-	 * <!-- end-user-doc -->
-	 * @return the value of the '<em>Feature Length</em>' attribute.
-	 * @see #isSetFeatureLength()
-	 * @see #unsetFeatureLength()
-	 * @see #setFeatureLength(double)
-	 * @see org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package#getIfcEdgeFeature_FeatureLength()
-	 * @model unsettable="true"
-	 * @generated
-	 */
-	double getFeatureLength();
+    /**
+     * Returns the value of the '<em><b>Feature Length</b></em>' attribute.
+     * <!-- begin-user-doc -->
+     * <p>
+     * If the meaning of the '<em>Feature Length</em>' attribute isn't clear,
+     * there really should be more of a description here...
+     * </p>
+     * <!-- end-user-doc -->
+     * @return the value of the '<em>Feature Length</em>' attribute.
+     * @see #isSetFeatureLength()
+     * @see #unsetFeatureLength()
+     * @see #setFeatureLength(double)
+     * @see org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package#getIfcEdgeFeature_FeatureLength()
+     * @model unsettable="true"
+     * @generated
+     */
+    double getFeatureLength();
 
-	/**
-	 * Sets the value of the '{@link org.bimserver.models.ifc2x3tc1.IfcEdgeFeature#getFeatureLength <em>Feature Length</em>}' attribute.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @param value the new value of the '<em>Feature Length</em>' attribute.
-	 * @see #isSetFeatureLength()
-	 * @see #unsetFeatureLength()
-	 * @see #getFeatureLength()
-	 * @generated
-	 */
-	void setFeatureLength(double value);
+    /**
+     * Sets the value of the '{@link org.bimserver.models.ifc2x3tc1.IfcEdgeFeature#getFeatureLength <em>Feature Length</em>}' attribute.
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @param value the new value of the '<em>Feature Length</em>' attribute.
+     * @see #isSetFeatureLength()
+     * @see #unsetFeatureLength()
+     * @see #getFeatureLength()
+     * @generated
+     */
+    void setFeatureLength(double value);
 
-	/**
-	 * Unsets the value of the '{@link org.bimserver.models.ifc2x3tc1.IfcEdgeFeature#getFeatureLength <em>Feature Length</em>}' attribute.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @see #isSetFeatureLength()
-	 * @see #getFeatureLength()
-	 * @see #setFeatureLength(double)
-	 * @generated
-	 */
-	void unsetFeatureLength();
+    /**
+     * Unsets the value of the '{@link org.bimserver.models.ifc2x3tc1.IfcEdgeFeature#getFeatureLength <em>Feature Length</em>}' attribute.
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @see #isSetFeatureLength()
+     * @see #getFeatureLength()
+     * @see #setFeatureLength(double)
+     * @generated
+     */
+    void unsetFeatureLength();
 
-	/**
-	 * Returns whether the value of the '{@link org.bimserver.models.ifc2x3tc1.IfcEdgeFeature#getFeatureLength <em>Feature Length</em>}' attribute is set.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @return whether the value of the '<em>Feature Length</em>' attribute is set.
-	 * @see #unsetFeatureLength()
-	 * @see #getFeatureLength()
-	 * @see #setFeatureLength(double)
-	 * @generated
-	 */
-	boolean isSetFeatureLength();
+    /**
+     * Returns whether the value of the '{@link org.bimserver.models.ifc2x3tc1.IfcEdgeFeature#getFeatureLength <em>Feature Length</em>}' attribute is set.
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @return whether the value of the '<em>Feature Length</em>' attribute is set.
+     * @see #unsetFeatureLength()
+     * @see #getFeatureLength()
+     * @see #setFeatureLength(double)
+     * @generated
+     */
+    boolean isSetFeatureLength();
 
-	/**
-	 * Returns the value of the '<em><b>Feature Length As String</b></em>' attribute.
-	 * <!-- begin-user-doc -->
-	 * <p>
-	 * If the meaning of the '<em>Feature Length As String</em>' attribute isn't clear,
-	 * there really should be more of a description here...
-	 * </p>
-	 * <!-- end-user-doc -->
-	 * @return the value of the '<em>Feature Length As String</em>' attribute.
-	 * @see #isSetFeatureLengthAsString()
-	 * @see #unsetFeatureLengthAsString()
-	 * @see #setFeatureLengthAsString(String)
-	 * @see org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package#getIfcEdgeFeature_FeatureLengthAsString()
-	 * @model unsettable="true"
-	 * @generated
-	 */
-	String getFeatureLengthAsString();
+    /**
+     * Returns the value of the '<em><b>Feature Length As String</b></em>' attribute.
+     * <!-- begin-user-doc -->
+     * <p>
+     * If the meaning of the '<em>Feature Length As String</em>' attribute isn't clear,
+     * there really should be more of a description here...
+     * </p>
+     * <!-- end-user-doc -->
+     * @return the value of the '<em>Feature Length As String</em>' attribute.
+     * @see #isSetFeatureLengthAsString()
+     * @see #unsetFeatureLengthAsString()
+     * @see #setFeatureLengthAsString(String)
+     * @see org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package#getIfcEdgeFeature_FeatureLengthAsString()
+     * @model unsettable="true"
+     * @generated
+     */
+    String getFeatureLengthAsString();
 
-	/**
-	 * Sets the value of the '{@link org.bimserver.models.ifc2x3tc1.IfcEdgeFeature#getFeatureLengthAsString <em>Feature Length As String</em>}' attribute.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @param value the new value of the '<em>Feature Length As String</em>' attribute.
-	 * @see #isSetFeatureLengthAsString()
-	 * @see #unsetFeatureLengthAsString()
-	 * @see #getFeatureLengthAsString()
-	 * @generated
-	 */
-	void setFeatureLengthAsString(String value);
+    /**
+     * Sets the value of the '{@link org.bimserver.models.ifc2x3tc1.IfcEdgeFeature#getFeatureLengthAsString <em>Feature Length As String</em>}' attribute.
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @param value the new value of the '<em>Feature Length As String</em>' attribute.
+     * @see #isSetFeatureLengthAsString()
+     * @see #unsetFeatureLengthAsString()
+     * @see #getFeatureLengthAsString()
+     * @generated
+     */
+    void setFeatureLengthAsString(String value);
 
-	/**
-	 * Unsets the value of the '{@link org.bimserver.models.ifc2x3tc1.IfcEdgeFeature#getFeatureLengthAsString <em>Feature Length As String</em>}' attribute.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @see #isSetFeatureLengthAsString()
-	 * @see #getFeatureLengthAsString()
-	 * @see #setFeatureLengthAsString(String)
-	 * @generated
-	 */
-	void unsetFeatureLengthAsString();
+    /**
+     * Unsets the value of the '{@link org.bimserver.models.ifc2x3tc1.IfcEdgeFeature#getFeatureLengthAsString <em>Feature Length As String</em>}' attribute.
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @see #isSetFeatureLengthAsString()
+     * @see #getFeatureLengthAsString()
+     * @see #setFeatureLengthAsString(String)
+     * @generated
+     */
+    void unsetFeatureLengthAsString();
 
-	/**
-	 * Returns whether the value of the '{@link org.bimserver.models.ifc2x3tc1.IfcEdgeFeature#getFeatureLengthAsString <em>Feature Length As String</em>}' attribute is set.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @return whether the value of the '<em>Feature Length As String</em>' attribute is set.
-	 * @see #unsetFeatureLengthAsString()
-	 * @see #getFeatureLengthAsString()
-	 * @see #setFeatureLengthAsString(String)
-	 * @generated
-	 */
-	boolean isSetFeatureLengthAsString();
+    /**
+     * Returns whether the value of the '{@link org.bimserver.models.ifc2x3tc1.IfcEdgeFeature#getFeatureLengthAsString <em>Feature Length As String</em>}' attribute is set.
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @return whether the value of the '<em>Feature Length As String</em>' attribute is set.
+     * @see #unsetFeatureLengthAsString()
+     * @see #getFeatureLengthAsString()
+     * @see #setFeatureLengthAsString(String)
+     * @generated
+     */
+    boolean isSetFeatureLengthAsString();
 
 } // IfcEdgeFeature

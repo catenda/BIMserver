@@ -19,6 +19,7 @@ package org.bimserver.models.ifc2x3tc1.impl;
 import org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package;
 import org.bimserver.models.ifc2x3tc1.IfcAxis1Placement;
 import org.bimserver.models.ifc2x3tc1.IfcDirection;
+
 import org.eclipse.emf.ecore.EClass;
 
 /**
@@ -27,67 +28,67 @@ import org.eclipse.emf.ecore.EClass;
  * <!-- end-user-doc -->
  * <p>
  * The following features are implemented:
+ * </p>
  * <ul>
  *   <li>{@link org.bimserver.models.ifc2x3tc1.impl.IfcAxis1PlacementImpl#getAxis <em>Axis</em>}</li>
  * </ul>
- * </p>
  *
  * @generated
  */
 public class IfcAxis1PlacementImpl extends IfcPlacementImpl implements IfcAxis1Placement {
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	protected IfcAxis1PlacementImpl() {
-		super();
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    protected IfcAxis1PlacementImpl() {
+        super();
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	@Override
-	protected EClass eStaticClass() {
-		return Ifc2x3tc1Package.Literals.IFC_AXIS1_PLACEMENT;
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    @Override
+    protected EClass eStaticClass() {
+        return Ifc2x3tc1Package.Literals.IFC_AXIS1_PLACEMENT;
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public IfcDirection getAxis() {
-		return (IfcDirection) eGet(Ifc2x3tc1Package.Literals.IFC_AXIS1_PLACEMENT__AXIS, true);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public IfcDirection getAxis() {
+        return (IfcDirection) eGet(Ifc2x3tc1Package.Literals.IFC_AXIS1_PLACEMENT__AXIS, true);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public void setAxis(IfcDirection newAxis) {
-		eSet(Ifc2x3tc1Package.Literals.IFC_AXIS1_PLACEMENT__AXIS, newAxis);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public void setAxis(IfcDirection newAxis) {
+        eSet(Ifc2x3tc1Package.Literals.IFC_AXIS1_PLACEMENT__AXIS, newAxis);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public void unsetAxis() {
-		eUnset(Ifc2x3tc1Package.Literals.IFC_AXIS1_PLACEMENT__AXIS);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public void unsetAxis() {
+        eUnset(Ifc2x3tc1Package.Literals.IFC_AXIS1_PLACEMENT__AXIS);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public boolean isSetAxis() {
-		return eIsSet(Ifc2x3tc1Package.Literals.IFC_AXIS1_PLACEMENT__AXIS);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public boolean isSetAxis() {
+        return eIsSet(Ifc2x3tc1Package.Literals.IFC_AXIS1_PLACEMENT__AXIS);
+    }
 
 } //IfcAxis1PlacementImpl

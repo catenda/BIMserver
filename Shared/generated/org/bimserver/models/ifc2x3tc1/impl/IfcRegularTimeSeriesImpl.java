@@ -19,7 +19,9 @@ package org.bimserver.models.ifc2x3tc1.impl;
 import org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package;
 import org.bimserver.models.ifc2x3tc1.IfcRegularTimeSeries;
 import org.bimserver.models.ifc2x3tc1.IfcTimeSeriesValue;
+
 import org.eclipse.emf.common.util.EList;
+
 import org.eclipse.emf.ecore.EClass;
 
 /**
@@ -28,79 +30,79 @@ import org.eclipse.emf.ecore.EClass;
  * <!-- end-user-doc -->
  * <p>
  * The following features are implemented:
+ * </p>
  * <ul>
  *   <li>{@link org.bimserver.models.ifc2x3tc1.impl.IfcRegularTimeSeriesImpl#getTimeStep <em>Time Step</em>}</li>
  *   <li>{@link org.bimserver.models.ifc2x3tc1.impl.IfcRegularTimeSeriesImpl#getTimeStepAsString <em>Time Step As String</em>}</li>
  *   <li>{@link org.bimserver.models.ifc2x3tc1.impl.IfcRegularTimeSeriesImpl#getValues <em>Values</em>}</li>
  * </ul>
- * </p>
  *
  * @generated
  */
 public class IfcRegularTimeSeriesImpl extends IfcTimeSeriesImpl implements IfcRegularTimeSeries {
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	protected IfcRegularTimeSeriesImpl() {
-		super();
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    protected IfcRegularTimeSeriesImpl() {
+        super();
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	@Override
-	protected EClass eStaticClass() {
-		return Ifc2x3tc1Package.Literals.IFC_REGULAR_TIME_SERIES;
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    @Override
+    protected EClass eStaticClass() {
+        return Ifc2x3tc1Package.Literals.IFC_REGULAR_TIME_SERIES;
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public double getTimeStep() {
-		return (Double) eGet(Ifc2x3tc1Package.Literals.IFC_REGULAR_TIME_SERIES__TIME_STEP, true);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public double getTimeStep() {
+        return (Double) eGet(Ifc2x3tc1Package.Literals.IFC_REGULAR_TIME_SERIES__TIME_STEP, true);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public void setTimeStep(double newTimeStep) {
-		eSet(Ifc2x3tc1Package.Literals.IFC_REGULAR_TIME_SERIES__TIME_STEP, newTimeStep);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public void setTimeStep(double newTimeStep) {
+        eSet(Ifc2x3tc1Package.Literals.IFC_REGULAR_TIME_SERIES__TIME_STEP, newTimeStep);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public String getTimeStepAsString() {
-		return (String) eGet(Ifc2x3tc1Package.Literals.IFC_REGULAR_TIME_SERIES__TIME_STEP_AS_STRING, true);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public String getTimeStepAsString() {
+        return (String) eGet(Ifc2x3tc1Package.Literals.IFC_REGULAR_TIME_SERIES__TIME_STEP_AS_STRING, true);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public void setTimeStepAsString(String newTimeStepAsString) {
-		eSet(Ifc2x3tc1Package.Literals.IFC_REGULAR_TIME_SERIES__TIME_STEP_AS_STRING, newTimeStepAsString);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public void setTimeStepAsString(String newTimeStepAsString) {
+        eSet(Ifc2x3tc1Package.Literals.IFC_REGULAR_TIME_SERIES__TIME_STEP_AS_STRING, newTimeStepAsString);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	@SuppressWarnings("unchecked")
-	public EList<IfcTimeSeriesValue> getValues() {
-		return (EList<IfcTimeSeriesValue>) eGet(Ifc2x3tc1Package.Literals.IFC_REGULAR_TIME_SERIES__VALUES, true);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    @SuppressWarnings("unchecked")
+    public EList<IfcTimeSeriesValue> getValues() {
+        return (EList<IfcTimeSeriesValue>) eGet(Ifc2x3tc1Package.Literals.IFC_REGULAR_TIME_SERIES__VALUES, true);
+    }
 
 } //IfcRegularTimeSeriesImpl

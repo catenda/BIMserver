@@ -18,35 +18,35 @@ package org.bimserver.models.ifc2x3tc1.impl;
 
 import org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package;
 import org.bimserver.models.ifc2x3tc1.IfcStructuralCurveMemberVarying;
+
 import org.eclipse.emf.ecore.EClass;
 
 /**
  * <!-- begin-user-doc -->
  * An implementation of the model object '<em><b>Ifc Structural Curve Member Varying</b></em>'.
  * <!-- end-user-doc -->
- * <p>
- * </p>
  *
  * @generated
  */
-public class IfcStructuralCurveMemberVaryingImpl extends IfcStructuralCurveMemberImpl implements IfcStructuralCurveMemberVarying {
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	protected IfcStructuralCurveMemberVaryingImpl() {
-		super();
-	}
+public class IfcStructuralCurveMemberVaryingImpl extends IfcStructuralCurveMemberImpl
+        implements IfcStructuralCurveMemberVarying {
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    protected IfcStructuralCurveMemberVaryingImpl() {
+        super();
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	@Override
-	protected EClass eStaticClass() {
-		return Ifc2x3tc1Package.Literals.IFC_STRUCTURAL_CURVE_MEMBER_VARYING;
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    @Override
+    protected EClass eStaticClass() {
+        return Ifc2x3tc1Package.Literals.IFC_STRUCTURAL_CURVE_MEMBER_VARYING;
+    }
 
 } //IfcStructuralCurveMemberVaryingImpl

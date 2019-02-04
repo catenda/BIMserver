@@ -25,12 +25,12 @@ import org.bimserver.emf.IdEObject;
  *
  * <p>
  * The following features are supported:
+ * </p>
  * <ul>
  *   <li>{@link org.bimserver.models.ifc2x3tc1.GeometryData#getIndices <em>Indices</em>}</li>
  *   <li>{@link org.bimserver.models.ifc2x3tc1.GeometryData#getVertices <em>Vertices</em>}</li>
  *   <li>{@link org.bimserver.models.ifc2x3tc1.GeometryData#getNormals <em>Normals</em>}</li>
  * </ul>
- * </p>
  *
  * @see org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package#getGeometryData()
  * @model
@@ -38,82 +38,82 @@ import org.bimserver.emf.IdEObject;
  * @generated
  */
 public interface GeometryData extends IdEObject {
-	/**
-	 * Returns the value of the '<em><b>Indices</b></em>' attribute.
-	 * <!-- begin-user-doc -->
-	 * <p>
-	 * If the meaning of the '<em>Indices</em>' attribute isn't clear,
-	 * there really should be more of a description here...
-	 * </p>
-	 * <!-- end-user-doc -->
-	 * @return the value of the '<em>Indices</em>' attribute.
-	 * @see #setIndices(byte[])
-	 * @see org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package#getGeometryData_Indices()
-	 * @model
-	 * @generated
-	 */
-	byte[] getIndices();
+    /**
+     * Returns the value of the '<em><b>Indices</b></em>' attribute.
+     * <!-- begin-user-doc -->
+     * <p>
+     * If the meaning of the '<em>Indices</em>' attribute isn't clear,
+     * there really should be more of a description here...
+     * </p>
+     * <!-- end-user-doc -->
+     * @return the value of the '<em>Indices</em>' attribute.
+     * @see #setIndices(byte[])
+     * @see org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package#getGeometryData_Indices()
+     * @model
+     * @generated
+     */
+    byte[] getIndices();
 
-	/**
-	 * Sets the value of the '{@link org.bimserver.models.ifc2x3tc1.GeometryData#getIndices <em>Indices</em>}' attribute.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @param value the new value of the '<em>Indices</em>' attribute.
-	 * @see #getIndices()
-	 * @generated
-	 */
-	void setIndices(byte[] value);
+    /**
+     * Sets the value of the '{@link org.bimserver.models.ifc2x3tc1.GeometryData#getIndices <em>Indices</em>}' attribute.
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @param value the new value of the '<em>Indices</em>' attribute.
+     * @see #getIndices()
+     * @generated
+     */
+    void setIndices(byte[] value);
 
-	/**
-	 * Returns the value of the '<em><b>Vertices</b></em>' attribute.
-	 * <!-- begin-user-doc -->
-	 * <p>
-	 * If the meaning of the '<em>Vertices</em>' attribute isn't clear,
-	 * there really should be more of a description here...
-	 * </p>
-	 * <!-- end-user-doc -->
-	 * @return the value of the '<em>Vertices</em>' attribute.
-	 * @see #setVertices(byte[])
-	 * @see org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package#getGeometryData_Vertices()
-	 * @model
-	 * @generated
-	 */
-	byte[] getVertices();
+    /**
+     * Returns the value of the '<em><b>Vertices</b></em>' attribute.
+     * <!-- begin-user-doc -->
+     * <p>
+     * If the meaning of the '<em>Vertices</em>' attribute isn't clear,
+     * there really should be more of a description here...
+     * </p>
+     * <!-- end-user-doc -->
+     * @return the value of the '<em>Vertices</em>' attribute.
+     * @see #setVertices(byte[])
+     * @see org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package#getGeometryData_Vertices()
+     * @model
+     * @generated
+     */
+    byte[] getVertices();
 
-	/**
-	 * Sets the value of the '{@link org.bimserver.models.ifc2x3tc1.GeometryData#getVertices <em>Vertices</em>}' attribute.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @param value the new value of the '<em>Vertices</em>' attribute.
-	 * @see #getVertices()
-	 * @generated
-	 */
-	void setVertices(byte[] value);
+    /**
+     * Sets the value of the '{@link org.bimserver.models.ifc2x3tc1.GeometryData#getVertices <em>Vertices</em>}' attribute.
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @param value the new value of the '<em>Vertices</em>' attribute.
+     * @see #getVertices()
+     * @generated
+     */
+    void setVertices(byte[] value);
 
-	/**
-	 * Returns the value of the '<em><b>Normals</b></em>' attribute.
-	 * <!-- begin-user-doc -->
-	 * <p>
-	 * If the meaning of the '<em>Normals</em>' attribute isn't clear,
-	 * there really should be more of a description here...
-	 * </p>
-	 * <!-- end-user-doc -->
-	 * @return the value of the '<em>Normals</em>' attribute.
-	 * @see #setNormals(byte[])
-	 * @see org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package#getGeometryData_Normals()
-	 * @model
-	 * @generated
-	 */
-	byte[] getNormals();
+    /**
+     * Returns the value of the '<em><b>Normals</b></em>' attribute.
+     * <!-- begin-user-doc -->
+     * <p>
+     * If the meaning of the '<em>Normals</em>' attribute isn't clear,
+     * there really should be more of a description here...
+     * </p>
+     * <!-- end-user-doc -->
+     * @return the value of the '<em>Normals</em>' attribute.
+     * @see #setNormals(byte[])
+     * @see org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package#getGeometryData_Normals()
+     * @model
+     * @generated
+     */
+    byte[] getNormals();
 
-	/**
-	 * Sets the value of the '{@link org.bimserver.models.ifc2x3tc1.GeometryData#getNormals <em>Normals</em>}' attribute.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @param value the new value of the '<em>Normals</em>' attribute.
-	 * @see #getNormals()
-	 * @generated
-	 */
-	void setNormals(byte[] value);
+    /**
+     * Sets the value of the '{@link org.bimserver.models.ifc2x3tc1.GeometryData#getNormals <em>Normals</em>}' attribute.
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @param value the new value of the '<em>Normals</em>' attribute.
+     * @see #getNormals()
+     * @generated
+     */
+    void setNormals(byte[] value);
 
 } // GeometryData

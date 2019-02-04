@@ -20,6 +20,10 @@ import java.io.IOException;
 
 import java.net.URL;
 
+import org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package;
+
+import org.bimserver.models.ifc2x3tc1.impl.Ifc2x3tc1PackageImpl;
+
 import org.bimserver.models.ifc4.Ifc4Factory;
 import org.bimserver.models.ifc4.Ifc4Package;
 
@@ -8216,7 +8220,11 @@ public class Ifc4PackageImpl extends EPackageImpl implements Ifc4Package {
         isInited = true;
 
         // Obtain or create and register interdependencies
-        Object registeredPackage = EPackage.Registry.INSTANCE.getEPackage(LogPackage.eNS_URI);
+        Object registeredPackage = EPackage.Registry.INSTANCE.getEPackage(Ifc2x3tc1Package.eNS_URI);
+        Ifc2x3tc1PackageImpl theIfc2x3tc1Package = (Ifc2x3tc1PackageImpl) (registeredPackage instanceof Ifc2x3tc1PackageImpl
+                ? registeredPackage
+                : Ifc2x3tc1Package.eINSTANCE);
+        registeredPackage = EPackage.Registry.INSTANCE.getEPackage(LogPackage.eNS_URI);
         LogPackageImpl theLogPackage = (LogPackageImpl) (registeredPackage instanceof LogPackageImpl ? registeredPackage
                 : LogPackage.eINSTANCE);
         registeredPackage = EPackage.Registry.INSTANCE.getEPackage(StorePackage.eNS_URI);
@@ -8226,11 +8234,13 @@ public class Ifc4PackageImpl extends EPackageImpl implements Ifc4Package {
 
         // Load packages
         theIfc4Package.loadPackage();
+        theIfc2x3tc1Package.loadPackage();
         theLogPackage.loadPackage();
         theStorePackage.loadPackage();
 
         // Fix loaded packages
         theIfc4Package.fixPackageContents();
+        theIfc2x3tc1Package.fixPackageContents();
         theLogPackage.fixPackageContents();
         theStorePackage.fixPackageContents();
 

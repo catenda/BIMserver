@@ -32,324 +32,332 @@ import org.eclipse.emf.common.util.Enumerator;
  * @generated
  */
 public enum IfcTimeSeriesScheduleTypeEnum implements Enumerator {
-	/**
-	 * The '<em><b>NULL</b></em>' literal object.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @see #NULL_VALUE
-	 * @generated
-	 * @ordered
-	 */
-	NULL(0, "NULL", "NULL"),
+    /**
+     * The '<em><b>NULL</b></em>' literal object.
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @see #NULL_VALUE
+     * @generated
+     * @ordered
+     */
+    NULL(0, "NULL", "NULL"),
 
-	/**
-	 * The '<em><b>NOTDEFINED</b></em>' literal object.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @see #NOTDEFINED_VALUE
-	 * @generated
-	 * @ordered
-	 */
-	NOTDEFINED(1, "NOTDEFINED", "NOTDEFINED"),
+    /**
+     * The '<em><b>NOTDEFINED</b></em>' literal object.
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @see #NOTDEFINED_VALUE
+     * @generated
+     * @ordered
+     */
+    NOTDEFINED(1, "NOTDEFINED", "NOTDEFINED"),
 
-	/**
-	 * The '<em><b>WEEKLY</b></em>' literal object.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @see #WEEKLY_VALUE
-	 * @generated
-	 * @ordered
-	 */
-	WEEKLY(2, "WEEKLY", "WEEKLY"),
+    /**
+     * The '<em><b>WEEKLY</b></em>' literal object.
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @see #WEEKLY_VALUE
+     * @generated
+     * @ordered
+     */
+    WEEKLY(2, "WEEKLY", "WEEKLY"),
 
-	/**
-	 * The '<em><b>MONTHLY</b></em>' literal object.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @see #MONTHLY_VALUE
-	 * @generated
-	 * @ordered
-	 */
-	MONTHLY(3, "MONTHLY", "MONTHLY"),
+    /**
+     * The '<em><b>ANNUAL</b></em>' literal object.
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @see #ANNUAL_VALUE
+     * @generated
+     * @ordered
+     */
+    ANNUAL(3, "ANNUAL", "ANNUAL"),
 
-	/**
-	 * The '<em><b>DAILY</b></em>' literal object.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @see #DAILY_VALUE
-	 * @generated
-	 * @ordered
-	 */
-	DAILY(4, "DAILY", "DAILY"),
+    /**
+     * The '<em><b>DAILY</b></em>' literal object.
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @see #DAILY_VALUE
+     * @generated
+     * @ordered
+     */
+    DAILY(4, "DAILY", "DAILY"),
 
-	/**
-	 * The '<em><b>USERDEFINED</b></em>' literal object.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @see #USERDEFINED_VALUE
-	 * @generated
-	 * @ordered
-	 */
-	USERDEFINED(5, "USERDEFINED", "USERDEFINED"),
+    /**
+     * The '<em><b>USERDEFINED</b></em>' literal object.
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @see #USERDEFINED_VALUE
+     * @generated
+     * @ordered
+     */
+    USERDEFINED(5, "USERDEFINED", "USERDEFINED"),
 
-	/**
-	 * The '<em><b>ANNUAL</b></em>' literal object.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @see #ANNUAL_VALUE
-	 * @generated
-	 * @ordered
-	 */
-	ANNUAL(6, "ANNUAL", "ANNUAL");
+    /**
+     * The '<em><b>MONTHLY</b></em>' literal object.
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @see #MONTHLY_VALUE
+     * @generated
+     * @ordered
+     */
+    MONTHLY(6, "MONTHLY", "MONTHLY");
 
-	/**
-	 * The '<em><b>NULL</b></em>' literal value.
-	 * <!-- begin-user-doc -->
-	 * <p>
-	 * If the meaning of '<em><b>NULL</b></em>' literal object isn't clear,
-	 * there really should be more of a description here...
-	 * </p>
-	 * <!-- end-user-doc -->
-	 * @see #NULL
-	 * @model
-	 * @generated
-	 * @ordered
-	 */
-	public static final int NULL_VALUE = 0;
+    /**
+     * The '<em><b>NULL</b></em>' literal value.
+     * <!-- begin-user-doc -->
+     * <p>
+     * If the meaning of '<em><b>NULL</b></em>' literal object isn't clear,
+     * there really should be more of a description here...
+     * </p>
+     * <!-- end-user-doc -->
+     * @see #NULL
+     * @model
+     * @generated
+     * @ordered
+     */
+    public static final int NULL_VALUE = 0;
 
-	/**
-	 * The '<em><b>NOTDEFINED</b></em>' literal value.
-	 * <!-- begin-user-doc -->
-	 * <p>
-	 * If the meaning of '<em><b>NOTDEFINED</b></em>' literal object isn't clear,
-	 * there really should be more of a description here...
-	 * </p>
-	 * <!-- end-user-doc -->
-	 * @see #NOTDEFINED
-	 * @model
-	 * @generated
-	 * @ordered
-	 */
-	public static final int NOTDEFINED_VALUE = 1;
+    /**
+     * The '<em><b>NOTDEFINED</b></em>' literal value.
+     * <!-- begin-user-doc -->
+     * <p>
+     * If the meaning of '<em><b>NOTDEFINED</b></em>' literal object isn't clear,
+     * there really should be more of a description here...
+     * </p>
+     * <!-- end-user-doc -->
+     * @see #NOTDEFINED
+     * @model
+     * @generated
+     * @ordered
+     */
+    public static final int NOTDEFINED_VALUE = 1;
 
-	/**
-	 * The '<em><b>WEEKLY</b></em>' literal value.
-	 * <!-- begin-user-doc -->
-	 * <p>
-	 * If the meaning of '<em><b>WEEKLY</b></em>' literal object isn't clear,
-	 * there really should be more of a description here...
-	 * </p>
-	 * <!-- end-user-doc -->
-	 * @see #WEEKLY
-	 * @model
-	 * @generated
-	 * @ordered
-	 */
-	public static final int WEEKLY_VALUE = 2;
+    /**
+     * The '<em><b>WEEKLY</b></em>' literal value.
+     * <!-- begin-user-doc -->
+     * <p>
+     * If the meaning of '<em><b>WEEKLY</b></em>' literal object isn't clear,
+     * there really should be more of a description here...
+     * </p>
+     * <!-- end-user-doc -->
+     * @see #WEEKLY
+     * @model
+     * @generated
+     * @ordered
+     */
+    public static final int WEEKLY_VALUE = 2;
 
-	/**
-	 * The '<em><b>MONTHLY</b></em>' literal value.
-	 * <!-- begin-user-doc -->
-	 * <p>
-	 * If the meaning of '<em><b>MONTHLY</b></em>' literal object isn't clear,
-	 * there really should be more of a description here...
-	 * </p>
-	 * <!-- end-user-doc -->
-	 * @see #MONTHLY
-	 * @model
-	 * @generated
-	 * @ordered
-	 */
-	public static final int MONTHLY_VALUE = 3;
+    /**
+     * The '<em><b>ANNUAL</b></em>' literal value.
+     * <!-- begin-user-doc -->
+     * <p>
+     * If the meaning of '<em><b>ANNUAL</b></em>' literal object isn't clear,
+     * there really should be more of a description here...
+     * </p>
+     * <!-- end-user-doc -->
+     * @see #ANNUAL
+     * @model
+     * @generated
+     * @ordered
+     */
+    public static final int ANNUAL_VALUE = 3;
 
-	/**
-	 * The '<em><b>DAILY</b></em>' literal value.
-	 * <!-- begin-user-doc -->
-	 * <p>
-	 * If the meaning of '<em><b>DAILY</b></em>' literal object isn't clear,
-	 * there really should be more of a description here...
-	 * </p>
-	 * <!-- end-user-doc -->
-	 * @see #DAILY
-	 * @model
-	 * @generated
-	 * @ordered
-	 */
-	public static final int DAILY_VALUE = 4;
+    /**
+     * The '<em><b>DAILY</b></em>' literal value.
+     * <!-- begin-user-doc -->
+     * <p>
+     * If the meaning of '<em><b>DAILY</b></em>' literal object isn't clear,
+     * there really should be more of a description here...
+     * </p>
+     * <!-- end-user-doc -->
+     * @see #DAILY
+     * @model
+     * @generated
+     * @ordered
+     */
+    public static final int DAILY_VALUE = 4;
 
-	/**
-	 * The '<em><b>USERDEFINED</b></em>' literal value.
-	 * <!-- begin-user-doc -->
-	 * <p>
-	 * If the meaning of '<em><b>USERDEFINED</b></em>' literal object isn't clear,
-	 * there really should be more of a description here...
-	 * </p>
-	 * <!-- end-user-doc -->
-	 * @see #USERDEFINED
-	 * @model
-	 * @generated
-	 * @ordered
-	 */
-	public static final int USERDEFINED_VALUE = 5;
+    /**
+     * The '<em><b>USERDEFINED</b></em>' literal value.
+     * <!-- begin-user-doc -->
+     * <p>
+     * If the meaning of '<em><b>USERDEFINED</b></em>' literal object isn't clear,
+     * there really should be more of a description here...
+     * </p>
+     * <!-- end-user-doc -->
+     * @see #USERDEFINED
+     * @model
+     * @generated
+     * @ordered
+     */
+    public static final int USERDEFINED_VALUE = 5;
 
-	/**
-	 * The '<em><b>ANNUAL</b></em>' literal value.
-	 * <!-- begin-user-doc -->
-	 * <p>
-	 * If the meaning of '<em><b>ANNUAL</b></em>' literal object isn't clear,
-	 * there really should be more of a description here...
-	 * </p>
-	 * <!-- end-user-doc -->
-	 * @see #ANNUAL
-	 * @model
-	 * @generated
-	 * @ordered
-	 */
-	public static final int ANNUAL_VALUE = 6;
+    /**
+     * The '<em><b>MONTHLY</b></em>' literal value.
+     * <!-- begin-user-doc -->
+     * <p>
+     * If the meaning of '<em><b>MONTHLY</b></em>' literal object isn't clear,
+     * there really should be more of a description here...
+     * </p>
+     * <!-- end-user-doc -->
+     * @see #MONTHLY
+     * @model
+     * @generated
+     * @ordered
+     */
+    public static final int MONTHLY_VALUE = 6;
 
-	/**
-	 * An array of all the '<em><b>Ifc Time Series Schedule Type Enum</b></em>' enumerators.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	private static final IfcTimeSeriesScheduleTypeEnum[] VALUES_ARRAY = new IfcTimeSeriesScheduleTypeEnum[] { NULL, NOTDEFINED, WEEKLY, MONTHLY, DAILY, USERDEFINED, ANNUAL, };
+    /**
+     * An array of all the '<em><b>Ifc Time Series Schedule Type Enum</b></em>' enumerators.
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    private static final IfcTimeSeriesScheduleTypeEnum[] VALUES_ARRAY = new IfcTimeSeriesScheduleTypeEnum[] { NULL,
+            NOTDEFINED, WEEKLY, ANNUAL, DAILY, USERDEFINED, MONTHLY, };
 
-	/**
-	 * A public read-only list of all the '<em><b>Ifc Time Series Schedule Type Enum</b></em>' enumerators.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public static final List<IfcTimeSeriesScheduleTypeEnum> VALUES = Collections.unmodifiableList(Arrays.asList(VALUES_ARRAY));
+    /**
+     * A public read-only list of all the '<em><b>Ifc Time Series Schedule Type Enum</b></em>' enumerators.
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public static final List<IfcTimeSeriesScheduleTypeEnum> VALUES = Collections
+            .unmodifiableList(Arrays.asList(VALUES_ARRAY));
 
-	/**
-	 * Returns the '<em><b>Ifc Time Series Schedule Type Enum</b></em>' literal with the specified literal value.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public static IfcTimeSeriesScheduleTypeEnum get(String literal) {
-		for (int i = 0; i < VALUES_ARRAY.length; ++i) {
-			IfcTimeSeriesScheduleTypeEnum result = VALUES_ARRAY[i];
-			if (result.toString().equals(literal)) {
-				return result;
-			}
-		}
-		return null;
-	}
+    /**
+     * Returns the '<em><b>Ifc Time Series Schedule Type Enum</b></em>' literal with the specified literal value.
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @param literal the literal.
+     * @return the matching enumerator or <code>null</code>.
+     * @generated
+     */
+    public static IfcTimeSeriesScheduleTypeEnum get(String literal) {
+        for (int i = 0; i < VALUES_ARRAY.length; ++i) {
+            IfcTimeSeriesScheduleTypeEnum result = VALUES_ARRAY[i];
+            if (result.toString().equals(literal)) {
+                return result;
+            }
+        }
+        return null;
+    }
 
-	/**
-	 * Returns the '<em><b>Ifc Time Series Schedule Type Enum</b></em>' literal with the specified name.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public static IfcTimeSeriesScheduleTypeEnum getByName(String name) {
-		for (int i = 0; i < VALUES_ARRAY.length; ++i) {
-			IfcTimeSeriesScheduleTypeEnum result = VALUES_ARRAY[i];
-			if (result.getName().equals(name)) {
-				return result;
-			}
-		}
-		return null;
-	}
+    /**
+     * Returns the '<em><b>Ifc Time Series Schedule Type Enum</b></em>' literal with the specified name.
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @param name the name.
+     * @return the matching enumerator or <code>null</code>.
+     * @generated
+     */
+    public static IfcTimeSeriesScheduleTypeEnum getByName(String name) {
+        for (int i = 0; i < VALUES_ARRAY.length; ++i) {
+            IfcTimeSeriesScheduleTypeEnum result = VALUES_ARRAY[i];
+            if (result.getName().equals(name)) {
+                return result;
+            }
+        }
+        return null;
+    }
 
-	/**
-	 * Returns the '<em><b>Ifc Time Series Schedule Type Enum</b></em>' literal with the specified integer value.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public static IfcTimeSeriesScheduleTypeEnum get(int value) {
-		switch (value) {
-		case NULL_VALUE:
-			return NULL;
-		case NOTDEFINED_VALUE:
-			return NOTDEFINED;
-		case WEEKLY_VALUE:
-			return WEEKLY;
-		case MONTHLY_VALUE:
-			return MONTHLY;
-		case DAILY_VALUE:
-			return DAILY;
-		case USERDEFINED_VALUE:
-			return USERDEFINED;
-		case ANNUAL_VALUE:
-			return ANNUAL;
-		}
-		return null;
-	}
+    /**
+     * Returns the '<em><b>Ifc Time Series Schedule Type Enum</b></em>' literal with the specified integer value.
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @param value the integer value.
+     * @return the matching enumerator or <code>null</code>.
+     * @generated
+     */
+    public static IfcTimeSeriesScheduleTypeEnum get(int value) {
+        switch (value) {
+        case NULL_VALUE:
+            return NULL;
+        case NOTDEFINED_VALUE:
+            return NOTDEFINED;
+        case WEEKLY_VALUE:
+            return WEEKLY;
+        case ANNUAL_VALUE:
+            return ANNUAL;
+        case DAILY_VALUE:
+            return DAILY;
+        case USERDEFINED_VALUE:
+            return USERDEFINED;
+        case MONTHLY_VALUE:
+            return MONTHLY;
+        }
+        return null;
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	private final int value;
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    private final int value;
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	private final String name;
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    private final String name;
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	private final String literal;
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    private final String literal;
 
-	/**
-	 * Only this class can construct instances.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	private IfcTimeSeriesScheduleTypeEnum(int value, String name, String literal) {
-		this.value = value;
-		this.name = name;
-		this.literal = literal;
-	}
+    /**
+     * Only this class can construct instances.
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    private IfcTimeSeriesScheduleTypeEnum(int value, String name, String literal) {
+        this.value = value;
+        this.name = name;
+        this.literal = literal;
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public int getValue() {
-		return value;
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public int getValue() {
+        return value;
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public String getName() {
-		return name;
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public String getName() {
+        return name;
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public String getLiteral() {
-		return literal;
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public String getLiteral() {
+        return literal;
+    }
 
-	/**
-	 * Returns the literal value of the enumerator, which is its string representation.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	@Override
-	public String toString() {
-		return literal;
-	}
+    /**
+     * Returns the literal value of the enumerator, which is its string representation.
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    @Override
+    public String toString() {
+        return literal;
+    }
 
 } //IfcTimeSeriesScheduleTypeEnum

@@ -23,42 +23,42 @@ package org.bimserver.models.store;
  *
  * <p>
  * The following features are supported:
+ * </p>
  * <ul>
  *   <li>{@link org.bimserver.models.store.ModelMergerPluginConfiguration#getUserSettings <em>User Settings</em>}</li>
  * </ul>
- * </p>
  *
  * @see org.bimserver.models.store.StorePackage#getModelMergerPluginConfiguration()
  * @model
  * @generated
  */
 public interface ModelMergerPluginConfiguration extends PluginConfiguration {
-	/**
-	 * Returns the value of the '<em><b>User Settings</b></em>' reference.
-	 * It is bidirectional and its opposite is '{@link org.bimserver.models.store.UserSettings#getModelmergers <em>Modelmergers</em>}'.
-	 * <!-- begin-user-doc -->
-	 * <p>
-	 * If the meaning of the '<em>User Settings</em>' reference isn't clear,
-	 * there really should be more of a description here...
-	 * </p>
-	 * <!-- end-user-doc -->
-	 * @return the value of the '<em>User Settings</em>' reference.
-	 * @see #setUserSettings(UserSettings)
-	 * @see org.bimserver.models.store.StorePackage#getModelMergerPluginConfiguration_UserSettings()
-	 * @see org.bimserver.models.store.UserSettings#getModelmergers
-	 * @model opposite="modelmergers"
-	 * @generated
-	 */
-	UserSettings getUserSettings();
+    /**
+     * Returns the value of the '<em><b>User Settings</b></em>' reference.
+     * It is bidirectional and its opposite is '{@link org.bimserver.models.store.UserSettings#getModelmergers <em>Modelmergers</em>}'.
+     * <!-- begin-user-doc -->
+     * <p>
+     * If the meaning of the '<em>User Settings</em>' reference isn't clear,
+     * there really should be more of a description here...
+     * </p>
+     * <!-- end-user-doc -->
+     * @return the value of the '<em>User Settings</em>' reference.
+     * @see #setUserSettings(UserSettings)
+     * @see org.bimserver.models.store.StorePackage#getModelMergerPluginConfiguration_UserSettings()
+     * @see org.bimserver.models.store.UserSettings#getModelmergers
+     * @model opposite="modelmergers"
+     * @generated
+     */
+    UserSettings getUserSettings();
 
-	/**
-	 * Sets the value of the '{@link org.bimserver.models.store.ModelMergerPluginConfiguration#getUserSettings <em>User Settings</em>}' reference.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @param value the new value of the '<em>User Settings</em>' reference.
-	 * @see #getUserSettings()
-	 * @generated
-	 */
-	void setUserSettings(UserSettings value);
+    /**
+     * Sets the value of the '{@link org.bimserver.models.store.ModelMergerPluginConfiguration#getUserSettings <em>User Settings</em>}' reference.
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @param value the new value of the '<em>User Settings</em>' reference.
+     * @see #getUserSettings()
+     * @generated
+     */
+    void setUserSettings(UserSettings value);
 
 } // ModelMergerPluginConfiguration

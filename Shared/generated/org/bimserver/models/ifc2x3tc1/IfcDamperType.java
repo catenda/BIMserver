@@ -23,43 +23,43 @@ package org.bimserver.models.ifc2x3tc1;
  *
  * <p>
  * The following features are supported:
+ * </p>
  * <ul>
  *   <li>{@link org.bimserver.models.ifc2x3tc1.IfcDamperType#getPredefinedType <em>Predefined Type</em>}</li>
  * </ul>
- * </p>
  *
  * @see org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package#getIfcDamperType()
  * @model
  * @generated
  */
 public interface IfcDamperType extends IfcFlowControllerType {
-	/**
-	 * Returns the value of the '<em><b>Predefined Type</b></em>' attribute.
-	 * The literals are from the enumeration {@link org.bimserver.models.ifc2x3tc1.IfcDamperTypeEnum}.
-	 * <!-- begin-user-doc -->
-	 * <p>
-	 * If the meaning of the '<em>Predefined Type</em>' attribute isn't clear,
-	 * there really should be more of a description here...
-	 * </p>
-	 * <!-- end-user-doc -->
-	 * @return the value of the '<em>Predefined Type</em>' attribute.
-	 * @see org.bimserver.models.ifc2x3tc1.IfcDamperTypeEnum
-	 * @see #setPredefinedType(IfcDamperTypeEnum)
-	 * @see org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package#getIfcDamperType_PredefinedType()
-	 * @model
-	 * @generated
-	 */
-	IfcDamperTypeEnum getPredefinedType();
+    /**
+     * Returns the value of the '<em><b>Predefined Type</b></em>' attribute.
+     * The literals are from the enumeration {@link org.bimserver.models.ifc2x3tc1.IfcDamperTypeEnum}.
+     * <!-- begin-user-doc -->
+     * <p>
+     * If the meaning of the '<em>Predefined Type</em>' attribute isn't clear,
+     * there really should be more of a description here...
+     * </p>
+     * <!-- end-user-doc -->
+     * @return the value of the '<em>Predefined Type</em>' attribute.
+     * @see org.bimserver.models.ifc2x3tc1.IfcDamperTypeEnum
+     * @see #setPredefinedType(IfcDamperTypeEnum)
+     * @see org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package#getIfcDamperType_PredefinedType()
+     * @model
+     * @generated
+     */
+    IfcDamperTypeEnum getPredefinedType();
 
-	/**
-	 * Sets the value of the '{@link org.bimserver.models.ifc2x3tc1.IfcDamperType#getPredefinedType <em>Predefined Type</em>}' attribute.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @param value the new value of the '<em>Predefined Type</em>' attribute.
-	 * @see org.bimserver.models.ifc2x3tc1.IfcDamperTypeEnum
-	 * @see #getPredefinedType()
-	 * @generated
-	 */
-	void setPredefinedType(IfcDamperTypeEnum value);
+    /**
+     * Sets the value of the '{@link org.bimserver.models.ifc2x3tc1.IfcDamperType#getPredefinedType <em>Predefined Type</em>}' attribute.
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @param value the new value of the '<em>Predefined Type</em>' attribute.
+     * @see org.bimserver.models.ifc2x3tc1.IfcDamperTypeEnum
+     * @see #getPredefinedType()
+     * @generated
+     */
+    void setPredefinedType(IfcDamperTypeEnum value);
 
 } // IfcDamperType

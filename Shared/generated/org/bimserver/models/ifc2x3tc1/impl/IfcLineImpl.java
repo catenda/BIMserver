@@ -20,6 +20,7 @@ import org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package;
 import org.bimserver.models.ifc2x3tc1.IfcCartesianPoint;
 import org.bimserver.models.ifc2x3tc1.IfcLine;
 import org.bimserver.models.ifc2x3tc1.IfcVector;
+
 import org.eclipse.emf.ecore.EClass;
 
 /**
@@ -28,68 +29,68 @@ import org.eclipse.emf.ecore.EClass;
  * <!-- end-user-doc -->
  * <p>
  * The following features are implemented:
+ * </p>
  * <ul>
  *   <li>{@link org.bimserver.models.ifc2x3tc1.impl.IfcLineImpl#getPnt <em>Pnt</em>}</li>
  *   <li>{@link org.bimserver.models.ifc2x3tc1.impl.IfcLineImpl#getDir <em>Dir</em>}</li>
  * </ul>
- * </p>
  *
  * @generated
  */
 public class IfcLineImpl extends IfcCurveImpl implements IfcLine {
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	protected IfcLineImpl() {
-		super();
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    protected IfcLineImpl() {
+        super();
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	@Override
-	protected EClass eStaticClass() {
-		return Ifc2x3tc1Package.Literals.IFC_LINE;
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    @Override
+    protected EClass eStaticClass() {
+        return Ifc2x3tc1Package.Literals.IFC_LINE;
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public IfcCartesianPoint getPnt() {
-		return (IfcCartesianPoint) eGet(Ifc2x3tc1Package.Literals.IFC_LINE__PNT, true);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public IfcCartesianPoint getPnt() {
+        return (IfcCartesianPoint) eGet(Ifc2x3tc1Package.Literals.IFC_LINE__PNT, true);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public void setPnt(IfcCartesianPoint newPnt) {
-		eSet(Ifc2x3tc1Package.Literals.IFC_LINE__PNT, newPnt);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public void setPnt(IfcCartesianPoint newPnt) {
+        eSet(Ifc2x3tc1Package.Literals.IFC_LINE__PNT, newPnt);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public IfcVector getDir() {
-		return (IfcVector) eGet(Ifc2x3tc1Package.Literals.IFC_LINE__DIR, true);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public IfcVector getDir() {
+        return (IfcVector) eGet(Ifc2x3tc1Package.Literals.IFC_LINE__DIR, true);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public void setDir(IfcVector newDir) {
-		eSet(Ifc2x3tc1Package.Literals.IFC_LINE__DIR, newDir);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public void setDir(IfcVector newDir) {
+        eSet(Ifc2x3tc1Package.Literals.IFC_LINE__DIR, newDir);
+    }
 
 } //IfcLineImpl

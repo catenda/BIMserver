@@ -17,10 +17,12 @@
 package org.bimserver.models.ifc2x3tc1.impl;
 
 import org.bimserver.emf.IdEObjectImpl;
+
 import org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package;
 import org.bimserver.models.ifc2x3tc1.IfcDimensionalExponents;
 import org.bimserver.models.ifc2x3tc1.IfcNamedUnit;
 import org.bimserver.models.ifc2x3tc1.IfcUnitEnum;
+
 import org.eclipse.emf.ecore.EClass;
 
 /**
@@ -29,78 +31,78 @@ import org.eclipse.emf.ecore.EClass;
  * <!-- end-user-doc -->
  * <p>
  * The following features are implemented:
+ * </p>
  * <ul>
  *   <li>{@link org.bimserver.models.ifc2x3tc1.impl.IfcNamedUnitImpl#getDimensions <em>Dimensions</em>}</li>
  *   <li>{@link org.bimserver.models.ifc2x3tc1.impl.IfcNamedUnitImpl#getUnitType <em>Unit Type</em>}</li>
  * </ul>
- * </p>
  *
  * @generated
  */
 public class IfcNamedUnitImpl extends IdEObjectImpl implements IfcNamedUnit {
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	protected IfcNamedUnitImpl() {
-		super();
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    protected IfcNamedUnitImpl() {
+        super();
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	@Override
-	protected EClass eStaticClass() {
-		return Ifc2x3tc1Package.Literals.IFC_NAMED_UNIT;
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    @Override
+    protected EClass eStaticClass() {
+        return Ifc2x3tc1Package.Literals.IFC_NAMED_UNIT;
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	@Override
-	protected int eStaticFeatureCount() {
-		return 0;
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    @Override
+    protected int eStaticFeatureCount() {
+        return 0;
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public IfcDimensionalExponents getDimensions() {
-		return (IfcDimensionalExponents) eGet(Ifc2x3tc1Package.Literals.IFC_NAMED_UNIT__DIMENSIONS, true);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public IfcDimensionalExponents getDimensions() {
+        return (IfcDimensionalExponents) eGet(Ifc2x3tc1Package.Literals.IFC_NAMED_UNIT__DIMENSIONS, true);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public void setDimensions(IfcDimensionalExponents newDimensions) {
-		eSet(Ifc2x3tc1Package.Literals.IFC_NAMED_UNIT__DIMENSIONS, newDimensions);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public void setDimensions(IfcDimensionalExponents newDimensions) {
+        eSet(Ifc2x3tc1Package.Literals.IFC_NAMED_UNIT__DIMENSIONS, newDimensions);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public IfcUnitEnum getUnitType() {
-		return (IfcUnitEnum) eGet(Ifc2x3tc1Package.Literals.IFC_NAMED_UNIT__UNIT_TYPE, true);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public IfcUnitEnum getUnitType() {
+        return (IfcUnitEnum) eGet(Ifc2x3tc1Package.Literals.IFC_NAMED_UNIT__UNIT_TYPE, true);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public void setUnitType(IfcUnitEnum newUnitType) {
-		eSet(Ifc2x3tc1Package.Literals.IFC_NAMED_UNIT__UNIT_TYPE, newUnitType);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public void setUnitType(IfcUnitEnum newUnitType) {
+        eSet(Ifc2x3tc1Package.Literals.IFC_NAMED_UNIT__UNIT_TYPE, newUnitType);
+    }
 
 } //IfcNamedUnitImpl

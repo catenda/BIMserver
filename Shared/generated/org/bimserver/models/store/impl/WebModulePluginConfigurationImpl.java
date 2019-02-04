@@ -19,6 +19,7 @@ package org.bimserver.models.store.impl;
 import org.bimserver.models.store.ServerSettings;
 import org.bimserver.models.store.StorePackage;
 import org.bimserver.models.store.WebModulePluginConfiguration;
+
 import org.eclipse.emf.ecore.EClass;
 
 /**
@@ -27,49 +28,49 @@ import org.eclipse.emf.ecore.EClass;
  * <!-- end-user-doc -->
  * <p>
  * The following features are implemented:
+ * </p>
  * <ul>
  *   <li>{@link org.bimserver.models.store.impl.WebModulePluginConfigurationImpl#getServerSettings <em>Server Settings</em>}</li>
  * </ul>
- * </p>
  *
  * @generated
  */
 public class WebModulePluginConfigurationImpl extends PluginConfigurationImpl implements WebModulePluginConfiguration {
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	protected WebModulePluginConfigurationImpl() {
-		super();
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    protected WebModulePluginConfigurationImpl() {
+        super();
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	@Override
-	protected EClass eStaticClass() {
-		return StorePackage.Literals.WEB_MODULE_PLUGIN_CONFIGURATION;
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    @Override
+    protected EClass eStaticClass() {
+        return StorePackage.Literals.WEB_MODULE_PLUGIN_CONFIGURATION;
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public ServerSettings getServerSettings() {
-		return (ServerSettings) eGet(StorePackage.Literals.WEB_MODULE_PLUGIN_CONFIGURATION__SERVER_SETTINGS, true);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public ServerSettings getServerSettings() {
+        return (ServerSettings) eGet(StorePackage.Literals.WEB_MODULE_PLUGIN_CONFIGURATION__SERVER_SETTINGS, true);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public void setServerSettings(ServerSettings newServerSettings) {
-		eSet(StorePackage.Literals.WEB_MODULE_PLUGIN_CONFIGURATION__SERVER_SETTINGS, newServerSettings);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public void setServerSettings(ServerSettings newServerSettings) {
+        eSet(StorePackage.Literals.WEB_MODULE_PLUGIN_CONFIGURATION__SERVER_SETTINGS, newServerSettings);
+    }
 
 } //WebModulePluginConfigurationImpl

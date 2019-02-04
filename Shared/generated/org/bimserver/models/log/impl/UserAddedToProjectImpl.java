@@ -18,7 +18,9 @@ package org.bimserver.models.log.impl;
 
 import org.bimserver.models.log.LogPackage;
 import org.bimserver.models.log.UserAddedToProject;
+
 import org.bimserver.models.store.Project;
+
 import org.eclipse.emf.ecore.EClass;
 
 /**
@@ -27,49 +29,49 @@ import org.eclipse.emf.ecore.EClass;
  * <!-- end-user-doc -->
  * <p>
  * The following features are implemented:
+ * </p>
  * <ul>
  *   <li>{@link org.bimserver.models.log.impl.UserAddedToProjectImpl#getProject <em>Project</em>}</li>
  * </ul>
- * </p>
  *
  * @generated
  */
 public class UserAddedToProjectImpl extends UserRelatedImpl implements UserAddedToProject {
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	protected UserAddedToProjectImpl() {
-		super();
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    protected UserAddedToProjectImpl() {
+        super();
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	@Override
-	protected EClass eStaticClass() {
-		return LogPackage.Literals.USER_ADDED_TO_PROJECT;
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    @Override
+    protected EClass eStaticClass() {
+        return LogPackage.Literals.USER_ADDED_TO_PROJECT;
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public Project getProject() {
-		return (Project) eGet(LogPackage.Literals.USER_ADDED_TO_PROJECT__PROJECT, true);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public Project getProject() {
+        return (Project) eGet(LogPackage.Literals.USER_ADDED_TO_PROJECT__PROJECT, true);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public void setProject(Project newProject) {
-		eSet(LogPackage.Literals.USER_ADDED_TO_PROJECT__PROJECT, newProject);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public void setProject(Project newProject) {
+        eSet(LogPackage.Literals.USER_ADDED_TO_PROJECT__PROJECT, newProject);
+    }
 
 } //UserAddedToProjectImpl

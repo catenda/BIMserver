@@ -22,7 +22,9 @@ import org.bimserver.models.ifc2x3tc1.IfcTrimmedCurve;
 import org.bimserver.models.ifc2x3tc1.IfcTrimmingPreference;
 import org.bimserver.models.ifc2x3tc1.IfcTrimmingSelect;
 import org.bimserver.models.ifc2x3tc1.Tristate;
+
 import org.eclipse.emf.common.util.EList;
+
 import org.eclipse.emf.ecore.EClass;
 
 /**
@@ -31,6 +33,7 @@ import org.eclipse.emf.ecore.EClass;
  * <!-- end-user-doc -->
  * <p>
  * The following features are implemented:
+ * </p>
  * <ul>
  *   <li>{@link org.bimserver.models.ifc2x3tc1.impl.IfcTrimmedCurveImpl#getBasisCurve <em>Basis Curve</em>}</li>
  *   <li>{@link org.bimserver.models.ifc2x3tc1.impl.IfcTrimmedCurveImpl#getTrim1 <em>Trim1</em>}</li>
@@ -38,102 +41,101 @@ import org.eclipse.emf.ecore.EClass;
  *   <li>{@link org.bimserver.models.ifc2x3tc1.impl.IfcTrimmedCurveImpl#getSenseAgreement <em>Sense Agreement</em>}</li>
  *   <li>{@link org.bimserver.models.ifc2x3tc1.impl.IfcTrimmedCurveImpl#getMasterRepresentation <em>Master Representation</em>}</li>
  * </ul>
- * </p>
  *
  * @generated
  */
 public class IfcTrimmedCurveImpl extends IfcBoundedCurveImpl implements IfcTrimmedCurve {
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	protected IfcTrimmedCurveImpl() {
-		super();
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    protected IfcTrimmedCurveImpl() {
+        super();
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	@Override
-	protected EClass eStaticClass() {
-		return Ifc2x3tc1Package.Literals.IFC_TRIMMED_CURVE;
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    @Override
+    protected EClass eStaticClass() {
+        return Ifc2x3tc1Package.Literals.IFC_TRIMMED_CURVE;
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public IfcCurve getBasisCurve() {
-		return (IfcCurve) eGet(Ifc2x3tc1Package.Literals.IFC_TRIMMED_CURVE__BASIS_CURVE, true);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public IfcCurve getBasisCurve() {
+        return (IfcCurve) eGet(Ifc2x3tc1Package.Literals.IFC_TRIMMED_CURVE__BASIS_CURVE, true);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public void setBasisCurve(IfcCurve newBasisCurve) {
-		eSet(Ifc2x3tc1Package.Literals.IFC_TRIMMED_CURVE__BASIS_CURVE, newBasisCurve);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public void setBasisCurve(IfcCurve newBasisCurve) {
+        eSet(Ifc2x3tc1Package.Literals.IFC_TRIMMED_CURVE__BASIS_CURVE, newBasisCurve);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	@SuppressWarnings("unchecked")
-	public EList<IfcTrimmingSelect> getTrim1() {
-		return (EList<IfcTrimmingSelect>) eGet(Ifc2x3tc1Package.Literals.IFC_TRIMMED_CURVE__TRIM1, true);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    @SuppressWarnings("unchecked")
+    public EList<IfcTrimmingSelect> getTrim1() {
+        return (EList<IfcTrimmingSelect>) eGet(Ifc2x3tc1Package.Literals.IFC_TRIMMED_CURVE__TRIM1, true);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	@SuppressWarnings("unchecked")
-	public EList<IfcTrimmingSelect> getTrim2() {
-		return (EList<IfcTrimmingSelect>) eGet(Ifc2x3tc1Package.Literals.IFC_TRIMMED_CURVE__TRIM2, true);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    @SuppressWarnings("unchecked")
+    public EList<IfcTrimmingSelect> getTrim2() {
+        return (EList<IfcTrimmingSelect>) eGet(Ifc2x3tc1Package.Literals.IFC_TRIMMED_CURVE__TRIM2, true);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public Tristate getSenseAgreement() {
-		return (Tristate) eGet(Ifc2x3tc1Package.Literals.IFC_TRIMMED_CURVE__SENSE_AGREEMENT, true);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public Tristate getSenseAgreement() {
+        return (Tristate) eGet(Ifc2x3tc1Package.Literals.IFC_TRIMMED_CURVE__SENSE_AGREEMENT, true);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public void setSenseAgreement(Tristate newSenseAgreement) {
-		eSet(Ifc2x3tc1Package.Literals.IFC_TRIMMED_CURVE__SENSE_AGREEMENT, newSenseAgreement);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public void setSenseAgreement(Tristate newSenseAgreement) {
+        eSet(Ifc2x3tc1Package.Literals.IFC_TRIMMED_CURVE__SENSE_AGREEMENT, newSenseAgreement);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public IfcTrimmingPreference getMasterRepresentation() {
-		return (IfcTrimmingPreference) eGet(Ifc2x3tc1Package.Literals.IFC_TRIMMED_CURVE__MASTER_REPRESENTATION, true);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public IfcTrimmingPreference getMasterRepresentation() {
+        return (IfcTrimmingPreference) eGet(Ifc2x3tc1Package.Literals.IFC_TRIMMED_CURVE__MASTER_REPRESENTATION, true);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public void setMasterRepresentation(IfcTrimmingPreference newMasterRepresentation) {
-		eSet(Ifc2x3tc1Package.Literals.IFC_TRIMMED_CURVE__MASTER_REPRESENTATION, newMasterRepresentation);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public void setMasterRepresentation(IfcTrimmingPreference newMasterRepresentation) {
+        eSet(Ifc2x3tc1Package.Literals.IFC_TRIMMED_CURVE__MASTER_REPRESENTATION, newMasterRepresentation);
+    }
 
 } //IfcTrimmedCurveImpl

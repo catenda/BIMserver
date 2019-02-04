@@ -32,460 +32,468 @@ import org.eclipse.emf.common.util.Enumerator;
  * @generated
  */
 public enum IfcElectricDistributionPointFunctionEnum implements Enumerator {
-	/**
-	 * The '<em><b>NULL</b></em>' literal object.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @see #NULL_VALUE
-	 * @generated
-	 * @ordered
-	 */
-	NULL(0, "NULL", "NULL"),
+    /**
+     * The '<em><b>NULL</b></em>' literal object.
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @see #NULL_VALUE
+     * @generated
+     * @ordered
+     */
+    NULL(0, "NULL", "NULL"),
 
-	/**
-	 * The '<em><b>CONSUMERUNIT</b></em>' literal object.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @see #CONSUMERUNIT_VALUE
-	 * @generated
-	 * @ordered
-	 */
-	CONSUMERUNIT(1, "CONSUMERUNIT", "CONSUMERUNIT"),
+    /**
+     * The '<em><b>NOTDEFINED</b></em>' literal object.
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @see #NOTDEFINED_VALUE
+     * @generated
+     * @ordered
+     */
+    NOTDEFINED(1, "NOTDEFINED", "NOTDEFINED"),
 
-	/**
-	 * The '<em><b>NOTDEFINED</b></em>' literal object.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @see #NOTDEFINED_VALUE
-	 * @generated
-	 * @ordered
-	 */
-	NOTDEFINED(2, "NOTDEFINED", "NOTDEFINED"),
+    /**
+     * The '<em><b>DISTRIBUTIONBOARD</b></em>' literal object.
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @see #DISTRIBUTIONBOARD_VALUE
+     * @generated
+     * @ordered
+     */
+    DISTRIBUTIONBOARD(2, "DISTRIBUTIONBOARD", "DISTRIBUTIONBOARD"),
 
-	/**
-	 * The '<em><b>SWITCHBOARD</b></em>' literal object.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @see #SWITCHBOARD_VALUE
-	 * @generated
-	 * @ordered
-	 */
-	SWITCHBOARD(3, "SWITCHBOARD", "SWITCHBOARD"),
+    /**
+     * The '<em><b>CONSUMERUNIT</b></em>' literal object.
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @see #CONSUMERUNIT_VALUE
+     * @generated
+     * @ordered
+     */
+    CONSUMERUNIT(3, "CONSUMERUNIT", "CONSUMERUNIT"),
 
-	/**
-	 * The '<em><b>MIMICPANEL</b></em>' literal object.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @see #MIMICPANEL_VALUE
-	 * @generated
-	 * @ordered
-	 */
-	MIMICPANEL(4, "MIMICPANEL", "MIMICPANEL"),
+    /**
+     * The '<em><b>SWITCHBOARD</b></em>' literal object.
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @see #SWITCHBOARD_VALUE
+     * @generated
+     * @ordered
+     */
+    SWITCHBOARD(4, "SWITCHBOARD", "SWITCHBOARD"),
 
-	/**
-	 * The '<em><b>GASDETECTORPANEL</b></em>' literal object.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @see #GASDETECTORPANEL_VALUE
-	 * @generated
-	 * @ordered
-	 */
-	GASDETECTORPANEL(5, "GASDETECTORPANEL", "GASDETECTORPANEL"),
+    /**
+     * The '<em><b>GASDETECTORPANEL</b></em>' literal object.
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @see #GASDETECTORPANEL_VALUE
+     * @generated
+     * @ordered
+     */
+    GASDETECTORPANEL(5, "GASDETECTORPANEL", "GASDETECTORPANEL"),
 
-	/**
-	 * The '<em><b>CONTROLPANEL</b></em>' literal object.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @see #CONTROLPANEL_VALUE
-	 * @generated
-	 * @ordered
-	 */
-	CONTROLPANEL(6, "CONTROLPANEL", "CONTROLPANEL"),
+    /**
+     * The '<em><b>MOTORCONTROLCENTRE</b></em>' literal object.
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @see #MOTORCONTROLCENTRE_VALUE
+     * @generated
+     * @ordered
+     */
+    MOTORCONTROLCENTRE(6, "MOTORCONTROLCENTRE", "MOTORCONTROLCENTRE"),
 
-	/**
-	 * The '<em><b>MOTORCONTROLCENTRE</b></em>' literal object.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @see #MOTORCONTROLCENTRE_VALUE
-	 * @generated
-	 * @ordered
-	 */
-	MOTORCONTROLCENTRE(7, "MOTORCONTROLCENTRE", "MOTORCONTROLCENTRE"),
+    /**
+     * The '<em><b>INDICATORPANEL</b></em>' literal object.
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @see #INDICATORPANEL_VALUE
+     * @generated
+     * @ordered
+     */
+    INDICATORPANEL(7, "INDICATORPANEL", "INDICATORPANEL"),
 
-	/**
-	 * The '<em><b>USERDEFINED</b></em>' literal object.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @see #USERDEFINED_VALUE
-	 * @generated
-	 * @ordered
-	 */
-	USERDEFINED(8, "USERDEFINED", "USERDEFINED"),
+    /**
+     * The '<em><b>USERDEFINED</b></em>' literal object.
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @see #USERDEFINED_VALUE
+     * @generated
+     * @ordered
+     */
+    USERDEFINED(8, "USERDEFINED", "USERDEFINED"),
 
-	/**
-	 * The '<em><b>INDICATORPANEL</b></em>' literal object.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @see #INDICATORPANEL_VALUE
-	 * @generated
-	 * @ordered
-	 */
-	INDICATORPANEL(9, "INDICATORPANEL", "INDICATORPANEL"),
+    /**
+     * The '<em><b>ALARMPANEL</b></em>' literal object.
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @see #ALARMPANEL_VALUE
+     * @generated
+     * @ordered
+     */
+    ALARMPANEL(9, "ALARMPANEL", "ALARMPANEL"),
 
-	/**
-	 * The '<em><b>DISTRIBUTIONBOARD</b></em>' literal object.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @see #DISTRIBUTIONBOARD_VALUE
-	 * @generated
-	 * @ordered
-	 */
-	DISTRIBUTIONBOARD(10, "DISTRIBUTIONBOARD", "DISTRIBUTIONBOARD"),
+    /**
+     * The '<em><b>CONTROLPANEL</b></em>' literal object.
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @see #CONTROLPANEL_VALUE
+     * @generated
+     * @ordered
+     */
+    CONTROLPANEL(10, "CONTROLPANEL", "CONTROLPANEL"),
 
-	/**
-	 * The '<em><b>ALARMPANEL</b></em>' literal object.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @see #ALARMPANEL_VALUE
-	 * @generated
-	 * @ordered
-	 */
-	ALARMPANEL(11, "ALARMPANEL", "ALARMPANEL");
+    /**
+     * The '<em><b>MIMICPANEL</b></em>' literal object.
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @see #MIMICPANEL_VALUE
+     * @generated
+     * @ordered
+     */
+    MIMICPANEL(11, "MIMICPANEL", "MIMICPANEL");
 
-	/**
-	 * The '<em><b>NULL</b></em>' literal value.
-	 * <!-- begin-user-doc -->
-	 * <p>
-	 * If the meaning of '<em><b>NULL</b></em>' literal object isn't clear,
-	 * there really should be more of a description here...
-	 * </p>
-	 * <!-- end-user-doc -->
-	 * @see #NULL
-	 * @model
-	 * @generated
-	 * @ordered
-	 */
-	public static final int NULL_VALUE = 0;
+    /**
+     * The '<em><b>NULL</b></em>' literal value.
+     * <!-- begin-user-doc -->
+     * <p>
+     * If the meaning of '<em><b>NULL</b></em>' literal object isn't clear,
+     * there really should be more of a description here...
+     * </p>
+     * <!-- end-user-doc -->
+     * @see #NULL
+     * @model
+     * @generated
+     * @ordered
+     */
+    public static final int NULL_VALUE = 0;
 
-	/**
-	 * The '<em><b>CONSUMERUNIT</b></em>' literal value.
-	 * <!-- begin-user-doc -->
-	 * <p>
-	 * If the meaning of '<em><b>CONSUMERUNIT</b></em>' literal object isn't clear,
-	 * there really should be more of a description here...
-	 * </p>
-	 * <!-- end-user-doc -->
-	 * @see #CONSUMERUNIT
-	 * @model
-	 * @generated
-	 * @ordered
-	 */
-	public static final int CONSUMERUNIT_VALUE = 1;
+    /**
+     * The '<em><b>NOTDEFINED</b></em>' literal value.
+     * <!-- begin-user-doc -->
+     * <p>
+     * If the meaning of '<em><b>NOTDEFINED</b></em>' literal object isn't clear,
+     * there really should be more of a description here...
+     * </p>
+     * <!-- end-user-doc -->
+     * @see #NOTDEFINED
+     * @model
+     * @generated
+     * @ordered
+     */
+    public static final int NOTDEFINED_VALUE = 1;
 
-	/**
-	 * The '<em><b>NOTDEFINED</b></em>' literal value.
-	 * <!-- begin-user-doc -->
-	 * <p>
-	 * If the meaning of '<em><b>NOTDEFINED</b></em>' literal object isn't clear,
-	 * there really should be more of a description here...
-	 * </p>
-	 * <!-- end-user-doc -->
-	 * @see #NOTDEFINED
-	 * @model
-	 * @generated
-	 * @ordered
-	 */
-	public static final int NOTDEFINED_VALUE = 2;
+    /**
+     * The '<em><b>DISTRIBUTIONBOARD</b></em>' literal value.
+     * <!-- begin-user-doc -->
+     * <p>
+     * If the meaning of '<em><b>DISTRIBUTIONBOARD</b></em>' literal object isn't clear,
+     * there really should be more of a description here...
+     * </p>
+     * <!-- end-user-doc -->
+     * @see #DISTRIBUTIONBOARD
+     * @model
+     * @generated
+     * @ordered
+     */
+    public static final int DISTRIBUTIONBOARD_VALUE = 2;
 
-	/**
-	 * The '<em><b>SWITCHBOARD</b></em>' literal value.
-	 * <!-- begin-user-doc -->
-	 * <p>
-	 * If the meaning of '<em><b>SWITCHBOARD</b></em>' literal object isn't clear,
-	 * there really should be more of a description here...
-	 * </p>
-	 * <!-- end-user-doc -->
-	 * @see #SWITCHBOARD
-	 * @model
-	 * @generated
-	 * @ordered
-	 */
-	public static final int SWITCHBOARD_VALUE = 3;
+    /**
+     * The '<em><b>CONSUMERUNIT</b></em>' literal value.
+     * <!-- begin-user-doc -->
+     * <p>
+     * If the meaning of '<em><b>CONSUMERUNIT</b></em>' literal object isn't clear,
+     * there really should be more of a description here...
+     * </p>
+     * <!-- end-user-doc -->
+     * @see #CONSUMERUNIT
+     * @model
+     * @generated
+     * @ordered
+     */
+    public static final int CONSUMERUNIT_VALUE = 3;
 
-	/**
-	 * The '<em><b>MIMICPANEL</b></em>' literal value.
-	 * <!-- begin-user-doc -->
-	 * <p>
-	 * If the meaning of '<em><b>MIMICPANEL</b></em>' literal object isn't clear,
-	 * there really should be more of a description here...
-	 * </p>
-	 * <!-- end-user-doc -->
-	 * @see #MIMICPANEL
-	 * @model
-	 * @generated
-	 * @ordered
-	 */
-	public static final int MIMICPANEL_VALUE = 4;
+    /**
+     * The '<em><b>SWITCHBOARD</b></em>' literal value.
+     * <!-- begin-user-doc -->
+     * <p>
+     * If the meaning of '<em><b>SWITCHBOARD</b></em>' literal object isn't clear,
+     * there really should be more of a description here...
+     * </p>
+     * <!-- end-user-doc -->
+     * @see #SWITCHBOARD
+     * @model
+     * @generated
+     * @ordered
+     */
+    public static final int SWITCHBOARD_VALUE = 4;
 
-	/**
-	 * The '<em><b>GASDETECTORPANEL</b></em>' literal value.
-	 * <!-- begin-user-doc -->
-	 * <p>
-	 * If the meaning of '<em><b>GASDETECTORPANEL</b></em>' literal object isn't clear,
-	 * there really should be more of a description here...
-	 * </p>
-	 * <!-- end-user-doc -->
-	 * @see #GASDETECTORPANEL
-	 * @model
-	 * @generated
-	 * @ordered
-	 */
-	public static final int GASDETECTORPANEL_VALUE = 5;
+    /**
+     * The '<em><b>GASDETECTORPANEL</b></em>' literal value.
+     * <!-- begin-user-doc -->
+     * <p>
+     * If the meaning of '<em><b>GASDETECTORPANEL</b></em>' literal object isn't clear,
+     * there really should be more of a description here...
+     * </p>
+     * <!-- end-user-doc -->
+     * @see #GASDETECTORPANEL
+     * @model
+     * @generated
+     * @ordered
+     */
+    public static final int GASDETECTORPANEL_VALUE = 5;
 
-	/**
-	 * The '<em><b>CONTROLPANEL</b></em>' literal value.
-	 * <!-- begin-user-doc -->
-	 * <p>
-	 * If the meaning of '<em><b>CONTROLPANEL</b></em>' literal object isn't clear,
-	 * there really should be more of a description here...
-	 * </p>
-	 * <!-- end-user-doc -->
-	 * @see #CONTROLPANEL
-	 * @model
-	 * @generated
-	 * @ordered
-	 */
-	public static final int CONTROLPANEL_VALUE = 6;
+    /**
+     * The '<em><b>MOTORCONTROLCENTRE</b></em>' literal value.
+     * <!-- begin-user-doc -->
+     * <p>
+     * If the meaning of '<em><b>MOTORCONTROLCENTRE</b></em>' literal object isn't clear,
+     * there really should be more of a description here...
+     * </p>
+     * <!-- end-user-doc -->
+     * @see #MOTORCONTROLCENTRE
+     * @model
+     * @generated
+     * @ordered
+     */
+    public static final int MOTORCONTROLCENTRE_VALUE = 6;
 
-	/**
-	 * The '<em><b>MOTORCONTROLCENTRE</b></em>' literal value.
-	 * <!-- begin-user-doc -->
-	 * <p>
-	 * If the meaning of '<em><b>MOTORCONTROLCENTRE</b></em>' literal object isn't clear,
-	 * there really should be more of a description here...
-	 * </p>
-	 * <!-- end-user-doc -->
-	 * @see #MOTORCONTROLCENTRE
-	 * @model
-	 * @generated
-	 * @ordered
-	 */
-	public static final int MOTORCONTROLCENTRE_VALUE = 7;
+    /**
+     * The '<em><b>INDICATORPANEL</b></em>' literal value.
+     * <!-- begin-user-doc -->
+     * <p>
+     * If the meaning of '<em><b>INDICATORPANEL</b></em>' literal object isn't clear,
+     * there really should be more of a description here...
+     * </p>
+     * <!-- end-user-doc -->
+     * @see #INDICATORPANEL
+     * @model
+     * @generated
+     * @ordered
+     */
+    public static final int INDICATORPANEL_VALUE = 7;
 
-	/**
-	 * The '<em><b>USERDEFINED</b></em>' literal value.
-	 * <!-- begin-user-doc -->
-	 * <p>
-	 * If the meaning of '<em><b>USERDEFINED</b></em>' literal object isn't clear,
-	 * there really should be more of a description here...
-	 * </p>
-	 * <!-- end-user-doc -->
-	 * @see #USERDEFINED
-	 * @model
-	 * @generated
-	 * @ordered
-	 */
-	public static final int USERDEFINED_VALUE = 8;
+    /**
+     * The '<em><b>USERDEFINED</b></em>' literal value.
+     * <!-- begin-user-doc -->
+     * <p>
+     * If the meaning of '<em><b>USERDEFINED</b></em>' literal object isn't clear,
+     * there really should be more of a description here...
+     * </p>
+     * <!-- end-user-doc -->
+     * @see #USERDEFINED
+     * @model
+     * @generated
+     * @ordered
+     */
+    public static final int USERDEFINED_VALUE = 8;
 
-	/**
-	 * The '<em><b>INDICATORPANEL</b></em>' literal value.
-	 * <!-- begin-user-doc -->
-	 * <p>
-	 * If the meaning of '<em><b>INDICATORPANEL</b></em>' literal object isn't clear,
-	 * there really should be more of a description here...
-	 * </p>
-	 * <!-- end-user-doc -->
-	 * @see #INDICATORPANEL
-	 * @model
-	 * @generated
-	 * @ordered
-	 */
-	public static final int INDICATORPANEL_VALUE = 9;
+    /**
+     * The '<em><b>ALARMPANEL</b></em>' literal value.
+     * <!-- begin-user-doc -->
+     * <p>
+     * If the meaning of '<em><b>ALARMPANEL</b></em>' literal object isn't clear,
+     * there really should be more of a description here...
+     * </p>
+     * <!-- end-user-doc -->
+     * @see #ALARMPANEL
+     * @model
+     * @generated
+     * @ordered
+     */
+    public static final int ALARMPANEL_VALUE = 9;
 
-	/**
-	 * The '<em><b>DISTRIBUTIONBOARD</b></em>' literal value.
-	 * <!-- begin-user-doc -->
-	 * <p>
-	 * If the meaning of '<em><b>DISTRIBUTIONBOARD</b></em>' literal object isn't clear,
-	 * there really should be more of a description here...
-	 * </p>
-	 * <!-- end-user-doc -->
-	 * @see #DISTRIBUTIONBOARD
-	 * @model
-	 * @generated
-	 * @ordered
-	 */
-	public static final int DISTRIBUTIONBOARD_VALUE = 10;
+    /**
+     * The '<em><b>CONTROLPANEL</b></em>' literal value.
+     * <!-- begin-user-doc -->
+     * <p>
+     * If the meaning of '<em><b>CONTROLPANEL</b></em>' literal object isn't clear,
+     * there really should be more of a description here...
+     * </p>
+     * <!-- end-user-doc -->
+     * @see #CONTROLPANEL
+     * @model
+     * @generated
+     * @ordered
+     */
+    public static final int CONTROLPANEL_VALUE = 10;
 
-	/**
-	 * The '<em><b>ALARMPANEL</b></em>' literal value.
-	 * <!-- begin-user-doc -->
-	 * <p>
-	 * If the meaning of '<em><b>ALARMPANEL</b></em>' literal object isn't clear,
-	 * there really should be more of a description here...
-	 * </p>
-	 * <!-- end-user-doc -->
-	 * @see #ALARMPANEL
-	 * @model
-	 * @generated
-	 * @ordered
-	 */
-	public static final int ALARMPANEL_VALUE = 11;
+    /**
+     * The '<em><b>MIMICPANEL</b></em>' literal value.
+     * <!-- begin-user-doc -->
+     * <p>
+     * If the meaning of '<em><b>MIMICPANEL</b></em>' literal object isn't clear,
+     * there really should be more of a description here...
+     * </p>
+     * <!-- end-user-doc -->
+     * @see #MIMICPANEL
+     * @model
+     * @generated
+     * @ordered
+     */
+    public static final int MIMICPANEL_VALUE = 11;
 
-	/**
-	 * An array of all the '<em><b>Ifc Electric Distribution Point Function Enum</b></em>' enumerators.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	private static final IfcElectricDistributionPointFunctionEnum[] VALUES_ARRAY = new IfcElectricDistributionPointFunctionEnum[] { NULL, CONSUMERUNIT, NOTDEFINED, SWITCHBOARD,
-			MIMICPANEL, GASDETECTORPANEL, CONTROLPANEL, MOTORCONTROLCENTRE, USERDEFINED, INDICATORPANEL, DISTRIBUTIONBOARD, ALARMPANEL, };
+    /**
+     * An array of all the '<em><b>Ifc Electric Distribution Point Function Enum</b></em>' enumerators.
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    private static final IfcElectricDistributionPointFunctionEnum[] VALUES_ARRAY = new IfcElectricDistributionPointFunctionEnum[] {
+            NULL, NOTDEFINED, DISTRIBUTIONBOARD, CONSUMERUNIT, SWITCHBOARD, GASDETECTORPANEL, MOTORCONTROLCENTRE,
+            INDICATORPANEL, USERDEFINED, ALARMPANEL, CONTROLPANEL, MIMICPANEL, };
 
-	/**
-	 * A public read-only list of all the '<em><b>Ifc Electric Distribution Point Function Enum</b></em>' enumerators.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public static final List<IfcElectricDistributionPointFunctionEnum> VALUES = Collections.unmodifiableList(Arrays.asList(VALUES_ARRAY));
+    /**
+     * A public read-only list of all the '<em><b>Ifc Electric Distribution Point Function Enum</b></em>' enumerators.
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public static final List<IfcElectricDistributionPointFunctionEnum> VALUES = Collections
+            .unmodifiableList(Arrays.asList(VALUES_ARRAY));
 
-	/**
-	 * Returns the '<em><b>Ifc Electric Distribution Point Function Enum</b></em>' literal with the specified literal value.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public static IfcElectricDistributionPointFunctionEnum get(String literal) {
-		for (int i = 0; i < VALUES_ARRAY.length; ++i) {
-			IfcElectricDistributionPointFunctionEnum result = VALUES_ARRAY[i];
-			if (result.toString().equals(literal)) {
-				return result;
-			}
-		}
-		return null;
-	}
+    /**
+     * Returns the '<em><b>Ifc Electric Distribution Point Function Enum</b></em>' literal with the specified literal value.
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @param literal the literal.
+     * @return the matching enumerator or <code>null</code>.
+     * @generated
+     */
+    public static IfcElectricDistributionPointFunctionEnum get(String literal) {
+        for (int i = 0; i < VALUES_ARRAY.length; ++i) {
+            IfcElectricDistributionPointFunctionEnum result = VALUES_ARRAY[i];
+            if (result.toString().equals(literal)) {
+                return result;
+            }
+        }
+        return null;
+    }
 
-	/**
-	 * Returns the '<em><b>Ifc Electric Distribution Point Function Enum</b></em>' literal with the specified name.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public static IfcElectricDistributionPointFunctionEnum getByName(String name) {
-		for (int i = 0; i < VALUES_ARRAY.length; ++i) {
-			IfcElectricDistributionPointFunctionEnum result = VALUES_ARRAY[i];
-			if (result.getName().equals(name)) {
-				return result;
-			}
-		}
-		return null;
-	}
+    /**
+     * Returns the '<em><b>Ifc Electric Distribution Point Function Enum</b></em>' literal with the specified name.
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @param name the name.
+     * @return the matching enumerator or <code>null</code>.
+     * @generated
+     */
+    public static IfcElectricDistributionPointFunctionEnum getByName(String name) {
+        for (int i = 0; i < VALUES_ARRAY.length; ++i) {
+            IfcElectricDistributionPointFunctionEnum result = VALUES_ARRAY[i];
+            if (result.getName().equals(name)) {
+                return result;
+            }
+        }
+        return null;
+    }
 
-	/**
-	 * Returns the '<em><b>Ifc Electric Distribution Point Function Enum</b></em>' literal with the specified integer value.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public static IfcElectricDistributionPointFunctionEnum get(int value) {
-		switch (value) {
-		case NULL_VALUE:
-			return NULL;
-		case CONSUMERUNIT_VALUE:
-			return CONSUMERUNIT;
-		case NOTDEFINED_VALUE:
-			return NOTDEFINED;
-		case SWITCHBOARD_VALUE:
-			return SWITCHBOARD;
-		case MIMICPANEL_VALUE:
-			return MIMICPANEL;
-		case GASDETECTORPANEL_VALUE:
-			return GASDETECTORPANEL;
-		case CONTROLPANEL_VALUE:
-			return CONTROLPANEL;
-		case MOTORCONTROLCENTRE_VALUE:
-			return MOTORCONTROLCENTRE;
-		case USERDEFINED_VALUE:
-			return USERDEFINED;
-		case INDICATORPANEL_VALUE:
-			return INDICATORPANEL;
-		case DISTRIBUTIONBOARD_VALUE:
-			return DISTRIBUTIONBOARD;
-		case ALARMPANEL_VALUE:
-			return ALARMPANEL;
-		}
-		return null;
-	}
+    /**
+     * Returns the '<em><b>Ifc Electric Distribution Point Function Enum</b></em>' literal with the specified integer value.
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @param value the integer value.
+     * @return the matching enumerator or <code>null</code>.
+     * @generated
+     */
+    public static IfcElectricDistributionPointFunctionEnum get(int value) {
+        switch (value) {
+        case NULL_VALUE:
+            return NULL;
+        case NOTDEFINED_VALUE:
+            return NOTDEFINED;
+        case DISTRIBUTIONBOARD_VALUE:
+            return DISTRIBUTIONBOARD;
+        case CONSUMERUNIT_VALUE:
+            return CONSUMERUNIT;
+        case SWITCHBOARD_VALUE:
+            return SWITCHBOARD;
+        case GASDETECTORPANEL_VALUE:
+            return GASDETECTORPANEL;
+        case MOTORCONTROLCENTRE_VALUE:
+            return MOTORCONTROLCENTRE;
+        case INDICATORPANEL_VALUE:
+            return INDICATORPANEL;
+        case USERDEFINED_VALUE:
+            return USERDEFINED;
+        case ALARMPANEL_VALUE:
+            return ALARMPANEL;
+        case CONTROLPANEL_VALUE:
+            return CONTROLPANEL;
+        case MIMICPANEL_VALUE:
+            return MIMICPANEL;
+        }
+        return null;
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	private final int value;
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    private final int value;
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	private final String name;
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    private final String name;
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	private final String literal;
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    private final String literal;
 
-	/**
-	 * Only this class can construct instances.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	private IfcElectricDistributionPointFunctionEnum(int value, String name, String literal) {
-		this.value = value;
-		this.name = name;
-		this.literal = literal;
-	}
+    /**
+     * Only this class can construct instances.
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    private IfcElectricDistributionPointFunctionEnum(int value, String name, String literal) {
+        this.value = value;
+        this.name = name;
+        this.literal = literal;
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public int getValue() {
-		return value;
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public int getValue() {
+        return value;
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public String getName() {
-		return name;
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public String getName() {
+        return name;
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public String getLiteral() {
-		return literal;
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public String getLiteral() {
+        return literal;
+    }
 
-	/**
-	 * Returns the literal value of the enumerator, which is its string representation.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	@Override
-	public String toString() {
-		return literal;
-	}
+    /**
+     * Returns the literal value of the enumerator, which is its string representation.
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    @Override
+    public String toString() {
+        return literal;
+    }
 
 } //IfcElectricDistributionPointFunctionEnum

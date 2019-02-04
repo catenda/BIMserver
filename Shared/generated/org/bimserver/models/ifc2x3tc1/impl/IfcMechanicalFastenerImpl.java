@@ -18,6 +18,7 @@ package org.bimserver.models.ifc2x3tc1.impl;
 
 import org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package;
 import org.bimserver.models.ifc2x3tc1.IfcMechanicalFastener;
+
 import org.eclipse.emf.ecore.EClass;
 
 /**
@@ -26,178 +27,178 @@ import org.eclipse.emf.ecore.EClass;
  * <!-- end-user-doc -->
  * <p>
  * The following features are implemented:
+ * </p>
  * <ul>
  *   <li>{@link org.bimserver.models.ifc2x3tc1.impl.IfcMechanicalFastenerImpl#getNominalDiameter <em>Nominal Diameter</em>}</li>
  *   <li>{@link org.bimserver.models.ifc2x3tc1.impl.IfcMechanicalFastenerImpl#getNominalDiameterAsString <em>Nominal Diameter As String</em>}</li>
  *   <li>{@link org.bimserver.models.ifc2x3tc1.impl.IfcMechanicalFastenerImpl#getNominalLength <em>Nominal Length</em>}</li>
  *   <li>{@link org.bimserver.models.ifc2x3tc1.impl.IfcMechanicalFastenerImpl#getNominalLengthAsString <em>Nominal Length As String</em>}</li>
  * </ul>
- * </p>
  *
  * @generated
  */
 public class IfcMechanicalFastenerImpl extends IfcFastenerImpl implements IfcMechanicalFastener {
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	protected IfcMechanicalFastenerImpl() {
-		super();
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    protected IfcMechanicalFastenerImpl() {
+        super();
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	@Override
-	protected EClass eStaticClass() {
-		return Ifc2x3tc1Package.Literals.IFC_MECHANICAL_FASTENER;
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    @Override
+    protected EClass eStaticClass() {
+        return Ifc2x3tc1Package.Literals.IFC_MECHANICAL_FASTENER;
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public double getNominalDiameter() {
-		return (Double) eGet(Ifc2x3tc1Package.Literals.IFC_MECHANICAL_FASTENER__NOMINAL_DIAMETER, true);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public double getNominalDiameter() {
+        return (Double) eGet(Ifc2x3tc1Package.Literals.IFC_MECHANICAL_FASTENER__NOMINAL_DIAMETER, true);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public void setNominalDiameter(double newNominalDiameter) {
-		eSet(Ifc2x3tc1Package.Literals.IFC_MECHANICAL_FASTENER__NOMINAL_DIAMETER, newNominalDiameter);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public void setNominalDiameter(double newNominalDiameter) {
+        eSet(Ifc2x3tc1Package.Literals.IFC_MECHANICAL_FASTENER__NOMINAL_DIAMETER, newNominalDiameter);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public void unsetNominalDiameter() {
-		eUnset(Ifc2x3tc1Package.Literals.IFC_MECHANICAL_FASTENER__NOMINAL_DIAMETER);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public void unsetNominalDiameter() {
+        eUnset(Ifc2x3tc1Package.Literals.IFC_MECHANICAL_FASTENER__NOMINAL_DIAMETER);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public boolean isSetNominalDiameter() {
-		return eIsSet(Ifc2x3tc1Package.Literals.IFC_MECHANICAL_FASTENER__NOMINAL_DIAMETER);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public boolean isSetNominalDiameter() {
+        return eIsSet(Ifc2x3tc1Package.Literals.IFC_MECHANICAL_FASTENER__NOMINAL_DIAMETER);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public String getNominalDiameterAsString() {
-		return (String) eGet(Ifc2x3tc1Package.Literals.IFC_MECHANICAL_FASTENER__NOMINAL_DIAMETER_AS_STRING, true);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public String getNominalDiameterAsString() {
+        return (String) eGet(Ifc2x3tc1Package.Literals.IFC_MECHANICAL_FASTENER__NOMINAL_DIAMETER_AS_STRING, true);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public void setNominalDiameterAsString(String newNominalDiameterAsString) {
-		eSet(Ifc2x3tc1Package.Literals.IFC_MECHANICAL_FASTENER__NOMINAL_DIAMETER_AS_STRING, newNominalDiameterAsString);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public void setNominalDiameterAsString(String newNominalDiameterAsString) {
+        eSet(Ifc2x3tc1Package.Literals.IFC_MECHANICAL_FASTENER__NOMINAL_DIAMETER_AS_STRING, newNominalDiameterAsString);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public void unsetNominalDiameterAsString() {
-		eUnset(Ifc2x3tc1Package.Literals.IFC_MECHANICAL_FASTENER__NOMINAL_DIAMETER_AS_STRING);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public void unsetNominalDiameterAsString() {
+        eUnset(Ifc2x3tc1Package.Literals.IFC_MECHANICAL_FASTENER__NOMINAL_DIAMETER_AS_STRING);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public boolean isSetNominalDiameterAsString() {
-		return eIsSet(Ifc2x3tc1Package.Literals.IFC_MECHANICAL_FASTENER__NOMINAL_DIAMETER_AS_STRING);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public boolean isSetNominalDiameterAsString() {
+        return eIsSet(Ifc2x3tc1Package.Literals.IFC_MECHANICAL_FASTENER__NOMINAL_DIAMETER_AS_STRING);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public double getNominalLength() {
-		return (Double) eGet(Ifc2x3tc1Package.Literals.IFC_MECHANICAL_FASTENER__NOMINAL_LENGTH, true);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public double getNominalLength() {
+        return (Double) eGet(Ifc2x3tc1Package.Literals.IFC_MECHANICAL_FASTENER__NOMINAL_LENGTH, true);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public void setNominalLength(double newNominalLength) {
-		eSet(Ifc2x3tc1Package.Literals.IFC_MECHANICAL_FASTENER__NOMINAL_LENGTH, newNominalLength);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public void setNominalLength(double newNominalLength) {
+        eSet(Ifc2x3tc1Package.Literals.IFC_MECHANICAL_FASTENER__NOMINAL_LENGTH, newNominalLength);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public void unsetNominalLength() {
-		eUnset(Ifc2x3tc1Package.Literals.IFC_MECHANICAL_FASTENER__NOMINAL_LENGTH);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public void unsetNominalLength() {
+        eUnset(Ifc2x3tc1Package.Literals.IFC_MECHANICAL_FASTENER__NOMINAL_LENGTH);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public boolean isSetNominalLength() {
-		return eIsSet(Ifc2x3tc1Package.Literals.IFC_MECHANICAL_FASTENER__NOMINAL_LENGTH);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public boolean isSetNominalLength() {
+        return eIsSet(Ifc2x3tc1Package.Literals.IFC_MECHANICAL_FASTENER__NOMINAL_LENGTH);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public String getNominalLengthAsString() {
-		return (String) eGet(Ifc2x3tc1Package.Literals.IFC_MECHANICAL_FASTENER__NOMINAL_LENGTH_AS_STRING, true);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public String getNominalLengthAsString() {
+        return (String) eGet(Ifc2x3tc1Package.Literals.IFC_MECHANICAL_FASTENER__NOMINAL_LENGTH_AS_STRING, true);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public void setNominalLengthAsString(String newNominalLengthAsString) {
-		eSet(Ifc2x3tc1Package.Literals.IFC_MECHANICAL_FASTENER__NOMINAL_LENGTH_AS_STRING, newNominalLengthAsString);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public void setNominalLengthAsString(String newNominalLengthAsString) {
+        eSet(Ifc2x3tc1Package.Literals.IFC_MECHANICAL_FASTENER__NOMINAL_LENGTH_AS_STRING, newNominalLengthAsString);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public void unsetNominalLengthAsString() {
-		eUnset(Ifc2x3tc1Package.Literals.IFC_MECHANICAL_FASTENER__NOMINAL_LENGTH_AS_STRING);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public void unsetNominalLengthAsString() {
+        eUnset(Ifc2x3tc1Package.Literals.IFC_MECHANICAL_FASTENER__NOMINAL_LENGTH_AS_STRING);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public boolean isSetNominalLengthAsString() {
-		return eIsSet(Ifc2x3tc1Package.Literals.IFC_MECHANICAL_FASTENER__NOMINAL_LENGTH_AS_STRING);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public boolean isSetNominalLengthAsString() {
+        return eIsSet(Ifc2x3tc1Package.Literals.IFC_MECHANICAL_FASTENER__NOMINAL_LENGTH_AS_STRING);
+    }
 
 } //IfcMechanicalFastenerImpl

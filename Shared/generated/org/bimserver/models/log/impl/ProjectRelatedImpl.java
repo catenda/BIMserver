@@ -18,7 +18,9 @@ package org.bimserver.models.log.impl;
 
 import org.bimserver.models.log.LogPackage;
 import org.bimserver.models.log.ProjectRelated;
+
 import org.bimserver.models.store.Project;
+
 import org.eclipse.emf.ecore.EClass;
 
 /**
@@ -27,49 +29,49 @@ import org.eclipse.emf.ecore.EClass;
  * <!-- end-user-doc -->
  * <p>
  * The following features are implemented:
+ * </p>
  * <ul>
  *   <li>{@link org.bimserver.models.log.impl.ProjectRelatedImpl#getProject <em>Project</em>}</li>
  * </ul>
- * </p>
  *
  * @generated
  */
 public class ProjectRelatedImpl extends LogActionImpl implements ProjectRelated {
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	protected ProjectRelatedImpl() {
-		super();
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    protected ProjectRelatedImpl() {
+        super();
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	@Override
-	protected EClass eStaticClass() {
-		return LogPackage.Literals.PROJECT_RELATED;
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    @Override
+    protected EClass eStaticClass() {
+        return LogPackage.Literals.PROJECT_RELATED;
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public Project getProject() {
-		return (Project) eGet(LogPackage.Literals.PROJECT_RELATED__PROJECT, true);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public Project getProject() {
+        return (Project) eGet(LogPackage.Literals.PROJECT_RELATED__PROJECT, true);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public void setProject(Project newProject) {
-		eSet(LogPackage.Literals.PROJECT_RELATED__PROJECT, newProject);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public void setProject(Project newProject) {
+        eSet(LogPackage.Literals.PROJECT_RELATED__PROJECT, newProject);
+    }
 
 } //ProjectRelatedImpl

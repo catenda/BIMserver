@@ -21,7 +21,9 @@ import org.bimserver.models.ifc2x3tc1.IfcDateTimeSelect;
 import org.bimserver.models.ifc2x3tc1.IfcTimeSeries;
 import org.bimserver.models.ifc2x3tc1.IfcTimeSeriesSchedule;
 import org.bimserver.models.ifc2x3tc1.IfcTimeSeriesScheduleTypeEnum;
+
 import org.eclipse.emf.common.util.EList;
+
 import org.eclipse.emf.ecore.EClass;
 
 /**
@@ -30,97 +32,99 @@ import org.eclipse.emf.ecore.EClass;
  * <!-- end-user-doc -->
  * <p>
  * The following features are implemented:
+ * </p>
  * <ul>
  *   <li>{@link org.bimserver.models.ifc2x3tc1.impl.IfcTimeSeriesScheduleImpl#getApplicableDates <em>Applicable Dates</em>}</li>
  *   <li>{@link org.bimserver.models.ifc2x3tc1.impl.IfcTimeSeriesScheduleImpl#getTimeSeriesScheduleType <em>Time Series Schedule Type</em>}</li>
  *   <li>{@link org.bimserver.models.ifc2x3tc1.impl.IfcTimeSeriesScheduleImpl#getTimeSeries <em>Time Series</em>}</li>
  * </ul>
- * </p>
  *
  * @generated
  */
 public class IfcTimeSeriesScheduleImpl extends IfcControlImpl implements IfcTimeSeriesSchedule {
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	protected IfcTimeSeriesScheduleImpl() {
-		super();
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    protected IfcTimeSeriesScheduleImpl() {
+        super();
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	@Override
-	protected EClass eStaticClass() {
-		return Ifc2x3tc1Package.Literals.IFC_TIME_SERIES_SCHEDULE;
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    @Override
+    protected EClass eStaticClass() {
+        return Ifc2x3tc1Package.Literals.IFC_TIME_SERIES_SCHEDULE;
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	@SuppressWarnings("unchecked")
-	public EList<IfcDateTimeSelect> getApplicableDates() {
-		return (EList<IfcDateTimeSelect>) eGet(Ifc2x3tc1Package.Literals.IFC_TIME_SERIES_SCHEDULE__APPLICABLE_DATES, true);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    @SuppressWarnings("unchecked")
+    public EList<IfcDateTimeSelect> getApplicableDates() {
+        return (EList<IfcDateTimeSelect>) eGet(Ifc2x3tc1Package.Literals.IFC_TIME_SERIES_SCHEDULE__APPLICABLE_DATES,
+                true);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public void unsetApplicableDates() {
-		eUnset(Ifc2x3tc1Package.Literals.IFC_TIME_SERIES_SCHEDULE__APPLICABLE_DATES);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public void unsetApplicableDates() {
+        eUnset(Ifc2x3tc1Package.Literals.IFC_TIME_SERIES_SCHEDULE__APPLICABLE_DATES);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public boolean isSetApplicableDates() {
-		return eIsSet(Ifc2x3tc1Package.Literals.IFC_TIME_SERIES_SCHEDULE__APPLICABLE_DATES);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public boolean isSetApplicableDates() {
+        return eIsSet(Ifc2x3tc1Package.Literals.IFC_TIME_SERIES_SCHEDULE__APPLICABLE_DATES);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public IfcTimeSeriesScheduleTypeEnum getTimeSeriesScheduleType() {
-		return (IfcTimeSeriesScheduleTypeEnum) eGet(Ifc2x3tc1Package.Literals.IFC_TIME_SERIES_SCHEDULE__TIME_SERIES_SCHEDULE_TYPE, true);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public IfcTimeSeriesScheduleTypeEnum getTimeSeriesScheduleType() {
+        return (IfcTimeSeriesScheduleTypeEnum) eGet(
+                Ifc2x3tc1Package.Literals.IFC_TIME_SERIES_SCHEDULE__TIME_SERIES_SCHEDULE_TYPE, true);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public void setTimeSeriesScheduleType(IfcTimeSeriesScheduleTypeEnum newTimeSeriesScheduleType) {
-		eSet(Ifc2x3tc1Package.Literals.IFC_TIME_SERIES_SCHEDULE__TIME_SERIES_SCHEDULE_TYPE, newTimeSeriesScheduleType);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public void setTimeSeriesScheduleType(IfcTimeSeriesScheduleTypeEnum newTimeSeriesScheduleType) {
+        eSet(Ifc2x3tc1Package.Literals.IFC_TIME_SERIES_SCHEDULE__TIME_SERIES_SCHEDULE_TYPE, newTimeSeriesScheduleType);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public IfcTimeSeries getTimeSeries() {
-		return (IfcTimeSeries) eGet(Ifc2x3tc1Package.Literals.IFC_TIME_SERIES_SCHEDULE__TIME_SERIES, true);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public IfcTimeSeries getTimeSeries() {
+        return (IfcTimeSeries) eGet(Ifc2x3tc1Package.Literals.IFC_TIME_SERIES_SCHEDULE__TIME_SERIES, true);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public void setTimeSeries(IfcTimeSeries newTimeSeries) {
-		eSet(Ifc2x3tc1Package.Literals.IFC_TIME_SERIES_SCHEDULE__TIME_SERIES, newTimeSeries);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public void setTimeSeries(IfcTimeSeries newTimeSeries) {
+        eSet(Ifc2x3tc1Package.Literals.IFC_TIME_SERIES_SCHEDULE__TIME_SERIES, newTimeSeries);
+    }
 
 } //IfcTimeSeriesScheduleImpl

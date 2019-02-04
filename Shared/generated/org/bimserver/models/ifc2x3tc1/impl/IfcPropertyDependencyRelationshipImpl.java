@@ -17,9 +17,11 @@
 package org.bimserver.models.ifc2x3tc1.impl;
 
 import org.bimserver.emf.IdEObjectImpl;
+
 import org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package;
 import org.bimserver.models.ifc2x3tc1.IfcProperty;
 import org.bimserver.models.ifc2x3tc1.IfcPropertyDependencyRelationship;
+
 import org.eclipse.emf.ecore.EClass;
 
 /**
@@ -28,6 +30,7 @@ import org.eclipse.emf.ecore.EClass;
  * <!-- end-user-doc -->
  * <p>
  * The following features are implemented:
+ * </p>
  * <ul>
  *   <li>{@link org.bimserver.models.ifc2x3tc1.impl.IfcPropertyDependencyRelationshipImpl#getDependingProperty <em>Depending Property</em>}</li>
  *   <li>{@link org.bimserver.models.ifc2x3tc1.impl.IfcPropertyDependencyRelationshipImpl#getDependantProperty <em>Dependant Property</em>}</li>
@@ -35,182 +38,183 @@ import org.eclipse.emf.ecore.EClass;
  *   <li>{@link org.bimserver.models.ifc2x3tc1.impl.IfcPropertyDependencyRelationshipImpl#getDescription <em>Description</em>}</li>
  *   <li>{@link org.bimserver.models.ifc2x3tc1.impl.IfcPropertyDependencyRelationshipImpl#getExpression <em>Expression</em>}</li>
  * </ul>
- * </p>
  *
  * @generated
  */
 public class IfcPropertyDependencyRelationshipImpl extends IdEObjectImpl implements IfcPropertyDependencyRelationship {
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	protected IfcPropertyDependencyRelationshipImpl() {
-		super();
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    protected IfcPropertyDependencyRelationshipImpl() {
+        super();
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	@Override
-	protected EClass eStaticClass() {
-		return Ifc2x3tc1Package.Literals.IFC_PROPERTY_DEPENDENCY_RELATIONSHIP;
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    @Override
+    protected EClass eStaticClass() {
+        return Ifc2x3tc1Package.Literals.IFC_PROPERTY_DEPENDENCY_RELATIONSHIP;
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	@Override
-	protected int eStaticFeatureCount() {
-		return 0;
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    @Override
+    protected int eStaticFeatureCount() {
+        return 0;
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public IfcProperty getDependingProperty() {
-		return (IfcProperty) eGet(Ifc2x3tc1Package.Literals.IFC_PROPERTY_DEPENDENCY_RELATIONSHIP__DEPENDING_PROPERTY, true);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public IfcProperty getDependingProperty() {
+        return (IfcProperty) eGet(Ifc2x3tc1Package.Literals.IFC_PROPERTY_DEPENDENCY_RELATIONSHIP__DEPENDING_PROPERTY,
+                true);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public void setDependingProperty(IfcProperty newDependingProperty) {
-		eSet(Ifc2x3tc1Package.Literals.IFC_PROPERTY_DEPENDENCY_RELATIONSHIP__DEPENDING_PROPERTY, newDependingProperty);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public void setDependingProperty(IfcProperty newDependingProperty) {
+        eSet(Ifc2x3tc1Package.Literals.IFC_PROPERTY_DEPENDENCY_RELATIONSHIP__DEPENDING_PROPERTY, newDependingProperty);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public IfcProperty getDependantProperty() {
-		return (IfcProperty) eGet(Ifc2x3tc1Package.Literals.IFC_PROPERTY_DEPENDENCY_RELATIONSHIP__DEPENDANT_PROPERTY, true);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public IfcProperty getDependantProperty() {
+        return (IfcProperty) eGet(Ifc2x3tc1Package.Literals.IFC_PROPERTY_DEPENDENCY_RELATIONSHIP__DEPENDANT_PROPERTY,
+                true);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public void setDependantProperty(IfcProperty newDependantProperty) {
-		eSet(Ifc2x3tc1Package.Literals.IFC_PROPERTY_DEPENDENCY_RELATIONSHIP__DEPENDANT_PROPERTY, newDependantProperty);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public void setDependantProperty(IfcProperty newDependantProperty) {
+        eSet(Ifc2x3tc1Package.Literals.IFC_PROPERTY_DEPENDENCY_RELATIONSHIP__DEPENDANT_PROPERTY, newDependantProperty);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public String getName() {
-		return (String) eGet(Ifc2x3tc1Package.Literals.IFC_PROPERTY_DEPENDENCY_RELATIONSHIP__NAME, true);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public String getName() {
+        return (String) eGet(Ifc2x3tc1Package.Literals.IFC_PROPERTY_DEPENDENCY_RELATIONSHIP__NAME, true);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public void setName(String newName) {
-		eSet(Ifc2x3tc1Package.Literals.IFC_PROPERTY_DEPENDENCY_RELATIONSHIP__NAME, newName);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public void setName(String newName) {
+        eSet(Ifc2x3tc1Package.Literals.IFC_PROPERTY_DEPENDENCY_RELATIONSHIP__NAME, newName);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public void unsetName() {
-		eUnset(Ifc2x3tc1Package.Literals.IFC_PROPERTY_DEPENDENCY_RELATIONSHIP__NAME);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public void unsetName() {
+        eUnset(Ifc2x3tc1Package.Literals.IFC_PROPERTY_DEPENDENCY_RELATIONSHIP__NAME);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public boolean isSetName() {
-		return eIsSet(Ifc2x3tc1Package.Literals.IFC_PROPERTY_DEPENDENCY_RELATIONSHIP__NAME);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public boolean isSetName() {
+        return eIsSet(Ifc2x3tc1Package.Literals.IFC_PROPERTY_DEPENDENCY_RELATIONSHIP__NAME);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public String getDescription() {
-		return (String) eGet(Ifc2x3tc1Package.Literals.IFC_PROPERTY_DEPENDENCY_RELATIONSHIP__DESCRIPTION, true);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public String getDescription() {
+        return (String) eGet(Ifc2x3tc1Package.Literals.IFC_PROPERTY_DEPENDENCY_RELATIONSHIP__DESCRIPTION, true);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public void setDescription(String newDescription) {
-		eSet(Ifc2x3tc1Package.Literals.IFC_PROPERTY_DEPENDENCY_RELATIONSHIP__DESCRIPTION, newDescription);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public void setDescription(String newDescription) {
+        eSet(Ifc2x3tc1Package.Literals.IFC_PROPERTY_DEPENDENCY_RELATIONSHIP__DESCRIPTION, newDescription);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public void unsetDescription() {
-		eUnset(Ifc2x3tc1Package.Literals.IFC_PROPERTY_DEPENDENCY_RELATIONSHIP__DESCRIPTION);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public void unsetDescription() {
+        eUnset(Ifc2x3tc1Package.Literals.IFC_PROPERTY_DEPENDENCY_RELATIONSHIP__DESCRIPTION);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public boolean isSetDescription() {
-		return eIsSet(Ifc2x3tc1Package.Literals.IFC_PROPERTY_DEPENDENCY_RELATIONSHIP__DESCRIPTION);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public boolean isSetDescription() {
+        return eIsSet(Ifc2x3tc1Package.Literals.IFC_PROPERTY_DEPENDENCY_RELATIONSHIP__DESCRIPTION);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public String getExpression() {
-		return (String) eGet(Ifc2x3tc1Package.Literals.IFC_PROPERTY_DEPENDENCY_RELATIONSHIP__EXPRESSION, true);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public String getExpression() {
+        return (String) eGet(Ifc2x3tc1Package.Literals.IFC_PROPERTY_DEPENDENCY_RELATIONSHIP__EXPRESSION, true);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public void setExpression(String newExpression) {
-		eSet(Ifc2x3tc1Package.Literals.IFC_PROPERTY_DEPENDENCY_RELATIONSHIP__EXPRESSION, newExpression);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public void setExpression(String newExpression) {
+        eSet(Ifc2x3tc1Package.Literals.IFC_PROPERTY_DEPENDENCY_RELATIONSHIP__EXPRESSION, newExpression);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public void unsetExpression() {
-		eUnset(Ifc2x3tc1Package.Literals.IFC_PROPERTY_DEPENDENCY_RELATIONSHIP__EXPRESSION);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public void unsetExpression() {
+        eUnset(Ifc2x3tc1Package.Literals.IFC_PROPERTY_DEPENDENCY_RELATIONSHIP__EXPRESSION);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public boolean isSetExpression() {
-		return eIsSet(Ifc2x3tc1Package.Literals.IFC_PROPERTY_DEPENDENCY_RELATIONSHIP__EXPRESSION);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public boolean isSetExpression() {
+        return eIsSet(Ifc2x3tc1Package.Literals.IFC_PROPERTY_DEPENDENCY_RELATIONSHIP__EXPRESSION);
+    }
 
 } //IfcPropertyDependencyRelationshipImpl

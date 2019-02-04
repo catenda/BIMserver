@@ -23,40 +23,40 @@ package org.bimserver.models.ifc2x3tc1;
  *
  * <p>
  * The following features are supported:
+ * </p>
  * <ul>
  *   <li>{@link org.bimserver.models.ifc2x3tc1.IfcVertexPoint#getVertexGeometry <em>Vertex Geometry</em>}</li>
  * </ul>
- * </p>
  *
  * @see org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package#getIfcVertexPoint()
  * @model
  * @generated
  */
 public interface IfcVertexPoint extends IfcVertex, IfcPointOrVertexPoint {
-	/**
-	 * Returns the value of the '<em><b>Vertex Geometry</b></em>' reference.
-	 * <!-- begin-user-doc -->
-	 * <p>
-	 * If the meaning of the '<em>Vertex Geometry</em>' reference isn't clear,
-	 * there really should be more of a description here...
-	 * </p>
-	 * <!-- end-user-doc -->
-	 * @return the value of the '<em>Vertex Geometry</em>' reference.
-	 * @see #setVertexGeometry(IfcPoint)
-	 * @see org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package#getIfcVertexPoint_VertexGeometry()
-	 * @model
-	 * @generated
-	 */
-	IfcPoint getVertexGeometry();
+    /**
+     * Returns the value of the '<em><b>Vertex Geometry</b></em>' reference.
+     * <!-- begin-user-doc -->
+     * <p>
+     * If the meaning of the '<em>Vertex Geometry</em>' reference isn't clear,
+     * there really should be more of a description here...
+     * </p>
+     * <!-- end-user-doc -->
+     * @return the value of the '<em>Vertex Geometry</em>' reference.
+     * @see #setVertexGeometry(IfcPoint)
+     * @see org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package#getIfcVertexPoint_VertexGeometry()
+     * @model
+     * @generated
+     */
+    IfcPoint getVertexGeometry();
 
-	/**
-	 * Sets the value of the '{@link org.bimserver.models.ifc2x3tc1.IfcVertexPoint#getVertexGeometry <em>Vertex Geometry</em>}' reference.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @param value the new value of the '<em>Vertex Geometry</em>' reference.
-	 * @see #getVertexGeometry()
-	 * @generated
-	 */
-	void setVertexGeometry(IfcPoint value);
+    /**
+     * Sets the value of the '{@link org.bimserver.models.ifc2x3tc1.IfcVertexPoint#getVertexGeometry <em>Vertex Geometry</em>}' reference.
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @param value the new value of the '<em>Vertex Geometry</em>' reference.
+     * @see #getVertexGeometry()
+     * @generated
+     */
+    void setVertexGeometry(IfcPoint value);
 
 } // IfcVertexPoint

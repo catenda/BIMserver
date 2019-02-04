@@ -18,6 +18,7 @@ package org.bimserver.models.ifc2x3tc1.impl;
 
 import org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package;
 import org.bimserver.models.ifc2x3tc1.IfcTrapeziumProfileDef;
+
 import org.eclipse.emf.ecore.EClass;
 
 /**
@@ -26,6 +27,7 @@ import org.eclipse.emf.ecore.EClass;
  * <!-- end-user-doc -->
  * <p>
  * The following features are implemented:
+ * </p>
  * <ul>
  *   <li>{@link org.bimserver.models.ifc2x3tc1.impl.IfcTrapeziumProfileDefImpl#getBottomXDim <em>Bottom XDim</em>}</li>
  *   <li>{@link org.bimserver.models.ifc2x3tc1.impl.IfcTrapeziumProfileDefImpl#getBottomXDimAsString <em>Bottom XDim As String</em>}</li>
@@ -36,172 +38,171 @@ import org.eclipse.emf.ecore.EClass;
  *   <li>{@link org.bimserver.models.ifc2x3tc1.impl.IfcTrapeziumProfileDefImpl#getTopXOffset <em>Top XOffset</em>}</li>
  *   <li>{@link org.bimserver.models.ifc2x3tc1.impl.IfcTrapeziumProfileDefImpl#getTopXOffsetAsString <em>Top XOffset As String</em>}</li>
  * </ul>
- * </p>
  *
  * @generated
  */
 public class IfcTrapeziumProfileDefImpl extends IfcParameterizedProfileDefImpl implements IfcTrapeziumProfileDef {
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	protected IfcTrapeziumProfileDefImpl() {
-		super();
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    protected IfcTrapeziumProfileDefImpl() {
+        super();
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	@Override
-	protected EClass eStaticClass() {
-		return Ifc2x3tc1Package.Literals.IFC_TRAPEZIUM_PROFILE_DEF;
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    @Override
+    protected EClass eStaticClass() {
+        return Ifc2x3tc1Package.Literals.IFC_TRAPEZIUM_PROFILE_DEF;
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public double getBottomXDim() {
-		return (Double) eGet(Ifc2x3tc1Package.Literals.IFC_TRAPEZIUM_PROFILE_DEF__BOTTOM_XDIM, true);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public double getBottomXDim() {
+        return (Double) eGet(Ifc2x3tc1Package.Literals.IFC_TRAPEZIUM_PROFILE_DEF__BOTTOM_XDIM, true);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public void setBottomXDim(double newBottomXDim) {
-		eSet(Ifc2x3tc1Package.Literals.IFC_TRAPEZIUM_PROFILE_DEF__BOTTOM_XDIM, newBottomXDim);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public void setBottomXDim(double newBottomXDim) {
+        eSet(Ifc2x3tc1Package.Literals.IFC_TRAPEZIUM_PROFILE_DEF__BOTTOM_XDIM, newBottomXDim);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public String getBottomXDimAsString() {
-		return (String) eGet(Ifc2x3tc1Package.Literals.IFC_TRAPEZIUM_PROFILE_DEF__BOTTOM_XDIM_AS_STRING, true);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public String getBottomXDimAsString() {
+        return (String) eGet(Ifc2x3tc1Package.Literals.IFC_TRAPEZIUM_PROFILE_DEF__BOTTOM_XDIM_AS_STRING, true);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public void setBottomXDimAsString(String newBottomXDimAsString) {
-		eSet(Ifc2x3tc1Package.Literals.IFC_TRAPEZIUM_PROFILE_DEF__BOTTOM_XDIM_AS_STRING, newBottomXDimAsString);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public void setBottomXDimAsString(String newBottomXDimAsString) {
+        eSet(Ifc2x3tc1Package.Literals.IFC_TRAPEZIUM_PROFILE_DEF__BOTTOM_XDIM_AS_STRING, newBottomXDimAsString);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public double getTopXDim() {
-		return (Double) eGet(Ifc2x3tc1Package.Literals.IFC_TRAPEZIUM_PROFILE_DEF__TOP_XDIM, true);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public double getTopXDim() {
+        return (Double) eGet(Ifc2x3tc1Package.Literals.IFC_TRAPEZIUM_PROFILE_DEF__TOP_XDIM, true);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public void setTopXDim(double newTopXDim) {
-		eSet(Ifc2x3tc1Package.Literals.IFC_TRAPEZIUM_PROFILE_DEF__TOP_XDIM, newTopXDim);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public void setTopXDim(double newTopXDim) {
+        eSet(Ifc2x3tc1Package.Literals.IFC_TRAPEZIUM_PROFILE_DEF__TOP_XDIM, newTopXDim);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public String getTopXDimAsString() {
-		return (String) eGet(Ifc2x3tc1Package.Literals.IFC_TRAPEZIUM_PROFILE_DEF__TOP_XDIM_AS_STRING, true);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public String getTopXDimAsString() {
+        return (String) eGet(Ifc2x3tc1Package.Literals.IFC_TRAPEZIUM_PROFILE_DEF__TOP_XDIM_AS_STRING, true);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public void setTopXDimAsString(String newTopXDimAsString) {
-		eSet(Ifc2x3tc1Package.Literals.IFC_TRAPEZIUM_PROFILE_DEF__TOP_XDIM_AS_STRING, newTopXDimAsString);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public void setTopXDimAsString(String newTopXDimAsString) {
+        eSet(Ifc2x3tc1Package.Literals.IFC_TRAPEZIUM_PROFILE_DEF__TOP_XDIM_AS_STRING, newTopXDimAsString);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public double getYDim() {
-		return (Double) eGet(Ifc2x3tc1Package.Literals.IFC_TRAPEZIUM_PROFILE_DEF__YDIM, true);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public double getYDim() {
+        return (Double) eGet(Ifc2x3tc1Package.Literals.IFC_TRAPEZIUM_PROFILE_DEF__YDIM, true);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public void setYDim(double newYDim) {
-		eSet(Ifc2x3tc1Package.Literals.IFC_TRAPEZIUM_PROFILE_DEF__YDIM, newYDim);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public void setYDim(double newYDim) {
+        eSet(Ifc2x3tc1Package.Literals.IFC_TRAPEZIUM_PROFILE_DEF__YDIM, newYDim);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public String getYDimAsString() {
-		return (String) eGet(Ifc2x3tc1Package.Literals.IFC_TRAPEZIUM_PROFILE_DEF__YDIM_AS_STRING, true);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public String getYDimAsString() {
+        return (String) eGet(Ifc2x3tc1Package.Literals.IFC_TRAPEZIUM_PROFILE_DEF__YDIM_AS_STRING, true);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public void setYDimAsString(String newYDimAsString) {
-		eSet(Ifc2x3tc1Package.Literals.IFC_TRAPEZIUM_PROFILE_DEF__YDIM_AS_STRING, newYDimAsString);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public void setYDimAsString(String newYDimAsString) {
+        eSet(Ifc2x3tc1Package.Literals.IFC_TRAPEZIUM_PROFILE_DEF__YDIM_AS_STRING, newYDimAsString);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public double getTopXOffset() {
-		return (Double) eGet(Ifc2x3tc1Package.Literals.IFC_TRAPEZIUM_PROFILE_DEF__TOP_XOFFSET, true);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public double getTopXOffset() {
+        return (Double) eGet(Ifc2x3tc1Package.Literals.IFC_TRAPEZIUM_PROFILE_DEF__TOP_XOFFSET, true);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public void setTopXOffset(double newTopXOffset) {
-		eSet(Ifc2x3tc1Package.Literals.IFC_TRAPEZIUM_PROFILE_DEF__TOP_XOFFSET, newTopXOffset);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public void setTopXOffset(double newTopXOffset) {
+        eSet(Ifc2x3tc1Package.Literals.IFC_TRAPEZIUM_PROFILE_DEF__TOP_XOFFSET, newTopXOffset);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public String getTopXOffsetAsString() {
-		return (String) eGet(Ifc2x3tc1Package.Literals.IFC_TRAPEZIUM_PROFILE_DEF__TOP_XOFFSET_AS_STRING, true);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public String getTopXOffsetAsString() {
+        return (String) eGet(Ifc2x3tc1Package.Literals.IFC_TRAPEZIUM_PROFILE_DEF__TOP_XOFFSET_AS_STRING, true);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public void setTopXOffsetAsString(String newTopXOffsetAsString) {
-		eSet(Ifc2x3tc1Package.Literals.IFC_TRAPEZIUM_PROFILE_DEF__TOP_XOFFSET_AS_STRING, newTopXOffsetAsString);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public void setTopXOffsetAsString(String newTopXOffsetAsString) {
+        eSet(Ifc2x3tc1Package.Literals.IFC_TRAPEZIUM_PROFILE_DEF__TOP_XOFFSET_AS_STRING, newTopXOffsetAsString);
+    }
 
 } //IfcTrapeziumProfileDefImpl

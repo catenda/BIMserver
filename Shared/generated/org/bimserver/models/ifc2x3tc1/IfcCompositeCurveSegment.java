@@ -25,6 +25,7 @@ import org.eclipse.emf.common.util.EList;
  *
  * <p>
  * The following features are supported:
+ * </p>
  * <ul>
  *   <li>{@link org.bimserver.models.ifc2x3tc1.IfcCompositeCurveSegment#getTransition <em>Transition</em>}</li>
  *   <li>{@link org.bimserver.models.ifc2x3tc1.IfcCompositeCurveSegment#getSameSense <em>Same Sense</em>}</li>
@@ -32,189 +33,188 @@ import org.eclipse.emf.common.util.EList;
  *   <li>{@link org.bimserver.models.ifc2x3tc1.IfcCompositeCurveSegment#getUsingCurves <em>Using Curves</em>}</li>
  *   <li>{@link org.bimserver.models.ifc2x3tc1.IfcCompositeCurveSegment#getDim <em>Dim</em>}</li>
  * </ul>
- * </p>
  *
  * @see org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package#getIfcCompositeCurveSegment()
  * @model
  * @generated
  */
 public interface IfcCompositeCurveSegment extends IfcGeometricRepresentationItem {
-	/**
-	 * Returns the value of the '<em><b>Transition</b></em>' attribute.
-	 * The literals are from the enumeration {@link org.bimserver.models.ifc2x3tc1.IfcTransitionCode}.
-	 * <!-- begin-user-doc -->
-	 * <p>
-	 * If the meaning of the '<em>Transition</em>' attribute isn't clear,
-	 * there really should be more of a description here...
-	 * </p>
-	 * <!-- end-user-doc -->
-	 * @return the value of the '<em>Transition</em>' attribute.
-	 * @see org.bimserver.models.ifc2x3tc1.IfcTransitionCode
-	 * @see #setTransition(IfcTransitionCode)
-	 * @see org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package#getIfcCompositeCurveSegment_Transition()
-	 * @model
-	 * @generated
-	 */
-	IfcTransitionCode getTransition();
+    /**
+     * Returns the value of the '<em><b>Transition</b></em>' attribute.
+     * The literals are from the enumeration {@link org.bimserver.models.ifc2x3tc1.IfcTransitionCode}.
+     * <!-- begin-user-doc -->
+     * <p>
+     * If the meaning of the '<em>Transition</em>' attribute isn't clear,
+     * there really should be more of a description here...
+     * </p>
+     * <!-- end-user-doc -->
+     * @return the value of the '<em>Transition</em>' attribute.
+     * @see org.bimserver.models.ifc2x3tc1.IfcTransitionCode
+     * @see #setTransition(IfcTransitionCode)
+     * @see org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package#getIfcCompositeCurveSegment_Transition()
+     * @model
+     * @generated
+     */
+    IfcTransitionCode getTransition();
 
-	/**
-	 * Sets the value of the '{@link org.bimserver.models.ifc2x3tc1.IfcCompositeCurveSegment#getTransition <em>Transition</em>}' attribute.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @param value the new value of the '<em>Transition</em>' attribute.
-	 * @see org.bimserver.models.ifc2x3tc1.IfcTransitionCode
-	 * @see #getTransition()
-	 * @generated
-	 */
-	void setTransition(IfcTransitionCode value);
+    /**
+     * Sets the value of the '{@link org.bimserver.models.ifc2x3tc1.IfcCompositeCurveSegment#getTransition <em>Transition</em>}' attribute.
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @param value the new value of the '<em>Transition</em>' attribute.
+     * @see org.bimserver.models.ifc2x3tc1.IfcTransitionCode
+     * @see #getTransition()
+     * @generated
+     */
+    void setTransition(IfcTransitionCode value);
 
-	/**
-	 * Returns the value of the '<em><b>Same Sense</b></em>' attribute.
-	 * The literals are from the enumeration {@link org.bimserver.models.ifc2x3tc1.Tristate}.
-	 * <!-- begin-user-doc -->
-	 * <p>
-	 * If the meaning of the '<em>Same Sense</em>' attribute isn't clear,
-	 * there really should be more of a description here...
-	 * </p>
-	 * <!-- end-user-doc -->
-	 * @return the value of the '<em>Same Sense</em>' attribute.
-	 * @see org.bimserver.models.ifc2x3tc1.Tristate
-	 * @see #setSameSense(Tristate)
-	 * @see org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package#getIfcCompositeCurveSegment_SameSense()
-	 * @model
-	 * @generated
-	 */
-	Tristate getSameSense();
+    /**
+     * Returns the value of the '<em><b>Same Sense</b></em>' attribute.
+     * The literals are from the enumeration {@link org.bimserver.models.ifc2x3tc1.Tristate}.
+     * <!-- begin-user-doc -->
+     * <p>
+     * If the meaning of the '<em>Same Sense</em>' attribute isn't clear,
+     * there really should be more of a description here...
+     * </p>
+     * <!-- end-user-doc -->
+     * @return the value of the '<em>Same Sense</em>' attribute.
+     * @see org.bimserver.models.ifc2x3tc1.Tristate
+     * @see #setSameSense(Tristate)
+     * @see org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package#getIfcCompositeCurveSegment_SameSense()
+     * @model
+     * @generated
+     */
+    Tristate getSameSense();
 
-	/**
-	 * Sets the value of the '{@link org.bimserver.models.ifc2x3tc1.IfcCompositeCurveSegment#getSameSense <em>Same Sense</em>}' attribute.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @param value the new value of the '<em>Same Sense</em>' attribute.
-	 * @see org.bimserver.models.ifc2x3tc1.Tristate
-	 * @see #getSameSense()
-	 * @generated
-	 */
-	void setSameSense(Tristate value);
+    /**
+     * Sets the value of the '{@link org.bimserver.models.ifc2x3tc1.IfcCompositeCurveSegment#getSameSense <em>Same Sense</em>}' attribute.
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @param value the new value of the '<em>Same Sense</em>' attribute.
+     * @see org.bimserver.models.ifc2x3tc1.Tristate
+     * @see #getSameSense()
+     * @generated
+     */
+    void setSameSense(Tristate value);
 
-	/**
-	 * Returns the value of the '<em><b>Parent Curve</b></em>' reference.
-	 * <!-- begin-user-doc -->
-	 * <p>
-	 * If the meaning of the '<em>Parent Curve</em>' reference isn't clear,
-	 * there really should be more of a description here...
-	 * </p>
-	 * <!-- end-user-doc -->
-	 * @return the value of the '<em>Parent Curve</em>' reference.
-	 * @see #setParentCurve(IfcCurve)
-	 * @see org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package#getIfcCompositeCurveSegment_ParentCurve()
-	 * @model
-	 * @generated
-	 */
-	IfcCurve getParentCurve();
+    /**
+     * Returns the value of the '<em><b>Parent Curve</b></em>' reference.
+     * <!-- begin-user-doc -->
+     * <p>
+     * If the meaning of the '<em>Parent Curve</em>' reference isn't clear,
+     * there really should be more of a description here...
+     * </p>
+     * <!-- end-user-doc -->
+     * @return the value of the '<em>Parent Curve</em>' reference.
+     * @see #setParentCurve(IfcCurve)
+     * @see org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package#getIfcCompositeCurveSegment_ParentCurve()
+     * @model
+     * @generated
+     */
+    IfcCurve getParentCurve();
 
-	/**
-	 * Sets the value of the '{@link org.bimserver.models.ifc2x3tc1.IfcCompositeCurveSegment#getParentCurve <em>Parent Curve</em>}' reference.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @param value the new value of the '<em>Parent Curve</em>' reference.
-	 * @see #getParentCurve()
-	 * @generated
-	 */
-	void setParentCurve(IfcCurve value);
+    /**
+     * Sets the value of the '{@link org.bimserver.models.ifc2x3tc1.IfcCompositeCurveSegment#getParentCurve <em>Parent Curve</em>}' reference.
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @param value the new value of the '<em>Parent Curve</em>' reference.
+     * @see #getParentCurve()
+     * @generated
+     */
+    void setParentCurve(IfcCurve value);
 
-	/**
-	 * Returns the value of the '<em><b>Using Curves</b></em>' reference list.
-	 * The list contents are of type {@link org.bimserver.models.ifc2x3tc1.IfcCompositeCurve}.
-	 * It is bidirectional and its opposite is '{@link org.bimserver.models.ifc2x3tc1.IfcCompositeCurve#getSegments <em>Segments</em>}'.
-	 * <!-- begin-user-doc -->
-	 * <p>
-	 * If the meaning of the '<em>Using Curves</em>' reference list isn't clear,
-	 * there really should be more of a description here...
-	 * </p>
-	 * <!-- end-user-doc -->
-	 * @return the value of the '<em>Using Curves</em>' reference list.
-	 * @see #isSetUsingCurves()
-	 * @see #unsetUsingCurves()
-	 * @see org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package#getIfcCompositeCurveSegment_UsingCurves()
-	 * @see org.bimserver.models.ifc2x3tc1.IfcCompositeCurve#getSegments
-	 * @model opposite="Segments" unsettable="true"
-	 * @generated
-	 */
-	EList<IfcCompositeCurve> getUsingCurves();
+    /**
+     * Returns the value of the '<em><b>Using Curves</b></em>' reference list.
+     * The list contents are of type {@link org.bimserver.models.ifc2x3tc1.IfcCompositeCurve}.
+     * It is bidirectional and its opposite is '{@link org.bimserver.models.ifc2x3tc1.IfcCompositeCurve#getSegments <em>Segments</em>}'.
+     * <!-- begin-user-doc -->
+     * <p>
+     * If the meaning of the '<em>Using Curves</em>' reference list isn't clear,
+     * there really should be more of a description here...
+     * </p>
+     * <!-- end-user-doc -->
+     * @return the value of the '<em>Using Curves</em>' reference list.
+     * @see #isSetUsingCurves()
+     * @see #unsetUsingCurves()
+     * @see org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package#getIfcCompositeCurveSegment_UsingCurves()
+     * @see org.bimserver.models.ifc2x3tc1.IfcCompositeCurve#getSegments
+     * @model opposite="Segments" unsettable="true"
+     * @generated
+     */
+    EList<IfcCompositeCurve> getUsingCurves();
 
-	/**
-	 * Unsets the value of the '{@link org.bimserver.models.ifc2x3tc1.IfcCompositeCurveSegment#getUsingCurves <em>Using Curves</em>}' reference list.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @see #isSetUsingCurves()
-	 * @see #getUsingCurves()
-	 * @generated
-	 */
-	void unsetUsingCurves();
+    /**
+     * Unsets the value of the '{@link org.bimserver.models.ifc2x3tc1.IfcCompositeCurveSegment#getUsingCurves <em>Using Curves</em>}' reference list.
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @see #isSetUsingCurves()
+     * @see #getUsingCurves()
+     * @generated
+     */
+    void unsetUsingCurves();
 
-	/**
-	 * Returns whether the value of the '{@link org.bimserver.models.ifc2x3tc1.IfcCompositeCurveSegment#getUsingCurves <em>Using Curves</em>}' reference list is set.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @return whether the value of the '<em>Using Curves</em>' reference list is set.
-	 * @see #unsetUsingCurves()
-	 * @see #getUsingCurves()
-	 * @generated
-	 */
-	boolean isSetUsingCurves();
+    /**
+     * Returns whether the value of the '{@link org.bimserver.models.ifc2x3tc1.IfcCompositeCurveSegment#getUsingCurves <em>Using Curves</em>}' reference list is set.
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @return whether the value of the '<em>Using Curves</em>' reference list is set.
+     * @see #unsetUsingCurves()
+     * @see #getUsingCurves()
+     * @generated
+     */
+    boolean isSetUsingCurves();
 
-	/**
-	 * Returns the value of the '<em><b>Dim</b></em>' attribute.
-	 * <!-- begin-user-doc -->
-	 * <p>
-	 * If the meaning of the '<em>Dim</em>' attribute isn't clear,
-	 * there really should be more of a description here...
-	 * </p>
-	 * <!-- end-user-doc -->
-	 * @return the value of the '<em>Dim</em>' attribute.
-	 * @see #isSetDim()
-	 * @see #unsetDim()
-	 * @see #setDim(int)
-	 * @see org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package#getIfcCompositeCurveSegment_Dim()
-	 * @model unsettable="true" derived="true"
-	 * @generated
-	 */
-	int getDim();
+    /**
+     * Returns the value of the '<em><b>Dim</b></em>' attribute.
+     * <!-- begin-user-doc -->
+     * <p>
+     * If the meaning of the '<em>Dim</em>' attribute isn't clear,
+     * there really should be more of a description here...
+     * </p>
+     * <!-- end-user-doc -->
+     * @return the value of the '<em>Dim</em>' attribute.
+     * @see #isSetDim()
+     * @see #unsetDim()
+     * @see #setDim(long)
+     * @see org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package#getIfcCompositeCurveSegment_Dim()
+     * @model unsettable="true" derived="true"
+     * @generated
+     */
+    long getDim();
 
-	/**
-	 * Sets the value of the '{@link org.bimserver.models.ifc2x3tc1.IfcCompositeCurveSegment#getDim <em>Dim</em>}' attribute.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @param value the new value of the '<em>Dim</em>' attribute.
-	 * @see #isSetDim()
-	 * @see #unsetDim()
-	 * @see #getDim()
-	 * @generated
-	 */
-	void setDim(int value);
+    /**
+     * Sets the value of the '{@link org.bimserver.models.ifc2x3tc1.IfcCompositeCurveSegment#getDim <em>Dim</em>}' attribute.
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @param value the new value of the '<em>Dim</em>' attribute.
+     * @see #isSetDim()
+     * @see #unsetDim()
+     * @see #getDim()
+     * @generated
+     */
+    void setDim(long value);
 
-	/**
-	 * Unsets the value of the '{@link org.bimserver.models.ifc2x3tc1.IfcCompositeCurveSegment#getDim <em>Dim</em>}' attribute.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @see #isSetDim()
-	 * @see #getDim()
-	 * @see #setDim(int)
-	 * @generated
-	 */
-	void unsetDim();
+    /**
+     * Unsets the value of the '{@link org.bimserver.models.ifc2x3tc1.IfcCompositeCurveSegment#getDim <em>Dim</em>}' attribute.
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @see #isSetDim()
+     * @see #getDim()
+     * @see #setDim(long)
+     * @generated
+     */
+    void unsetDim();
 
-	/**
-	 * Returns whether the value of the '{@link org.bimserver.models.ifc2x3tc1.IfcCompositeCurveSegment#getDim <em>Dim</em>}' attribute is set.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @return whether the value of the '<em>Dim</em>' attribute is set.
-	 * @see #unsetDim()
-	 * @see #getDim()
-	 * @see #setDim(int)
-	 * @generated
-	 */
-	boolean isSetDim();
+    /**
+     * Returns whether the value of the '{@link org.bimserver.models.ifc2x3tc1.IfcCompositeCurveSegment#getDim <em>Dim</em>}' attribute is set.
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @return whether the value of the '<em>Dim</em>' attribute is set.
+     * @see #unsetDim()
+     * @see #getDim()
+     * @see #setDim(long)
+     * @generated
+     */
+    boolean isSetDim();
 
 } // IfcCompositeCurveSegment

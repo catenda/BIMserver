@@ -19,6 +19,7 @@ package org.bimserver.models.ifc2x3tc1.impl;
 import org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package;
 import org.bimserver.models.ifc2x3tc1.IfcServiceLife;
 import org.bimserver.models.ifc2x3tc1.IfcServiceLifeTypeEnum;
+
 import org.eclipse.emf.ecore.EClass;
 
 /**
@@ -27,87 +28,88 @@ import org.eclipse.emf.ecore.EClass;
  * <!-- end-user-doc -->
  * <p>
  * The following features are implemented:
+ * </p>
  * <ul>
  *   <li>{@link org.bimserver.models.ifc2x3tc1.impl.IfcServiceLifeImpl#getServiceLifeType <em>Service Life Type</em>}</li>
  *   <li>{@link org.bimserver.models.ifc2x3tc1.impl.IfcServiceLifeImpl#getServiceLifeDuration <em>Service Life Duration</em>}</li>
  *   <li>{@link org.bimserver.models.ifc2x3tc1.impl.IfcServiceLifeImpl#getServiceLifeDurationAsString <em>Service Life Duration As String</em>}</li>
  * </ul>
- * </p>
  *
  * @generated
  */
 public class IfcServiceLifeImpl extends IfcControlImpl implements IfcServiceLife {
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	protected IfcServiceLifeImpl() {
-		super();
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    protected IfcServiceLifeImpl() {
+        super();
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	@Override
-	protected EClass eStaticClass() {
-		return Ifc2x3tc1Package.Literals.IFC_SERVICE_LIFE;
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    @Override
+    protected EClass eStaticClass() {
+        return Ifc2x3tc1Package.Literals.IFC_SERVICE_LIFE;
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public IfcServiceLifeTypeEnum getServiceLifeType() {
-		return (IfcServiceLifeTypeEnum) eGet(Ifc2x3tc1Package.Literals.IFC_SERVICE_LIFE__SERVICE_LIFE_TYPE, true);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public IfcServiceLifeTypeEnum getServiceLifeType() {
+        return (IfcServiceLifeTypeEnum) eGet(Ifc2x3tc1Package.Literals.IFC_SERVICE_LIFE__SERVICE_LIFE_TYPE, true);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public void setServiceLifeType(IfcServiceLifeTypeEnum newServiceLifeType) {
-		eSet(Ifc2x3tc1Package.Literals.IFC_SERVICE_LIFE__SERVICE_LIFE_TYPE, newServiceLifeType);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public void setServiceLifeType(IfcServiceLifeTypeEnum newServiceLifeType) {
+        eSet(Ifc2x3tc1Package.Literals.IFC_SERVICE_LIFE__SERVICE_LIFE_TYPE, newServiceLifeType);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public double getServiceLifeDuration() {
-		return (Double) eGet(Ifc2x3tc1Package.Literals.IFC_SERVICE_LIFE__SERVICE_LIFE_DURATION, true);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public double getServiceLifeDuration() {
+        return (Double) eGet(Ifc2x3tc1Package.Literals.IFC_SERVICE_LIFE__SERVICE_LIFE_DURATION, true);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public void setServiceLifeDuration(double newServiceLifeDuration) {
-		eSet(Ifc2x3tc1Package.Literals.IFC_SERVICE_LIFE__SERVICE_LIFE_DURATION, newServiceLifeDuration);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public void setServiceLifeDuration(double newServiceLifeDuration) {
+        eSet(Ifc2x3tc1Package.Literals.IFC_SERVICE_LIFE__SERVICE_LIFE_DURATION, newServiceLifeDuration);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public String getServiceLifeDurationAsString() {
-		return (String) eGet(Ifc2x3tc1Package.Literals.IFC_SERVICE_LIFE__SERVICE_LIFE_DURATION_AS_STRING, true);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public String getServiceLifeDurationAsString() {
+        return (String) eGet(Ifc2x3tc1Package.Literals.IFC_SERVICE_LIFE__SERVICE_LIFE_DURATION_AS_STRING, true);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public void setServiceLifeDurationAsString(String newServiceLifeDurationAsString) {
-		eSet(Ifc2x3tc1Package.Literals.IFC_SERVICE_LIFE__SERVICE_LIFE_DURATION_AS_STRING, newServiceLifeDurationAsString);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public void setServiceLifeDurationAsString(String newServiceLifeDurationAsString) {
+        eSet(Ifc2x3tc1Package.Literals.IFC_SERVICE_LIFE__SERVICE_LIFE_DURATION_AS_STRING,
+                newServiceLifeDurationAsString);
+    }
 
 } //IfcServiceLifeImpl

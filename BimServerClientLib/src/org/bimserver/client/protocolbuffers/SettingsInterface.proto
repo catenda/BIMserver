@@ -102,25 +102,25 @@ message GetServerSettingsRequest {
 }
 
 message SServerSettings {
-	optional bool sendConfirmationEmailAfterRegistration = 1;
+	optional bool hideUserListForNonAdmin = 1;
 	optional bool generateGeometryOnCheckin = 2;
-	optional int32 protocolBuffersPort = 3;
-	optional bool allowOnlyWhitelisted = 4;
-	optional string siteAddress = 5;
-	optional bool allowUsersToCreateTopLevelProjects = 6;
-	optional string serviceRepositoryUrl = 7;
-	repeated int64 webModules = 8;
-	optional int32 rid = 9;
-	optional bool allowSelfRegistration = 10;
-	optional string smtpServer = 11;
-	repeated string whitelistedDomains = 12;
-	optional bool cacheOutputFiles = 13;
-	optional int64 oid = 14;
-	optional string emailSenderAddress = 15;
-	optional bool hideUserListForNonAdmin = 16;
-	optional string emailSenderName = 17;
-	optional int64 webModuleId = 18;
-	optional bool checkinMergingEnabled = 19;
+	repeated string whitelistedDomains = 3;
+	optional string siteAddress = 4;
+	optional bool allowSelfRegistration = 5;
+	optional bool checkinMergingEnabled = 6;
+	optional bool allowOnlyWhitelisted = 7;
+	optional int64 webModuleId = 8;
+	repeated int64 webModules = 9;
+	optional int64 oid = 10;
+	optional int32 rid = 11;
+	optional string emailSenderAddress = 12;
+	optional string smtpServer = 13;
+	optional bool cacheOutputFiles = 14;
+	optional string serviceRepositoryUrl = 15;
+	optional bool sendConfirmationEmailAfterRegistration = 16;
+	optional int32 protocolBuffersPort = 17;
+	optional string emailSenderName = 18;
+	optional bool allowUsersToCreateTopLevelProjects = 19;
 }
 
 message GetServerSettingsResponse {

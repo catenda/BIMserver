@@ -19,7 +19,9 @@ package org.bimserver.models.ifc2x3tc1.impl;
 import org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package;
 import org.bimserver.models.ifc2x3tc1.IfcMove;
 import org.bimserver.models.ifc2x3tc1.IfcSpatialStructureElement;
+
 import org.eclipse.emf.common.util.EList;
+
 import org.eclipse.emf.ecore.EClass;
 
 /**
@@ -28,97 +30,97 @@ import org.eclipse.emf.ecore.EClass;
  * <!-- end-user-doc -->
  * <p>
  * The following features are implemented:
+ * </p>
  * <ul>
  *   <li>{@link org.bimserver.models.ifc2x3tc1.impl.IfcMoveImpl#getMoveFrom <em>Move From</em>}</li>
  *   <li>{@link org.bimserver.models.ifc2x3tc1.impl.IfcMoveImpl#getMoveTo <em>Move To</em>}</li>
  *   <li>{@link org.bimserver.models.ifc2x3tc1.impl.IfcMoveImpl#getPunchList <em>Punch List</em>}</li>
  * </ul>
- * </p>
  *
  * @generated
  */
 public class IfcMoveImpl extends IfcTaskImpl implements IfcMove {
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	protected IfcMoveImpl() {
-		super();
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    protected IfcMoveImpl() {
+        super();
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	@Override
-	protected EClass eStaticClass() {
-		return Ifc2x3tc1Package.Literals.IFC_MOVE;
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    @Override
+    protected EClass eStaticClass() {
+        return Ifc2x3tc1Package.Literals.IFC_MOVE;
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public IfcSpatialStructureElement getMoveFrom() {
-		return (IfcSpatialStructureElement) eGet(Ifc2x3tc1Package.Literals.IFC_MOVE__MOVE_FROM, true);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public IfcSpatialStructureElement getMoveFrom() {
+        return (IfcSpatialStructureElement) eGet(Ifc2x3tc1Package.Literals.IFC_MOVE__MOVE_FROM, true);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public void setMoveFrom(IfcSpatialStructureElement newMoveFrom) {
-		eSet(Ifc2x3tc1Package.Literals.IFC_MOVE__MOVE_FROM, newMoveFrom);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public void setMoveFrom(IfcSpatialStructureElement newMoveFrom) {
+        eSet(Ifc2x3tc1Package.Literals.IFC_MOVE__MOVE_FROM, newMoveFrom);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public IfcSpatialStructureElement getMoveTo() {
-		return (IfcSpatialStructureElement) eGet(Ifc2x3tc1Package.Literals.IFC_MOVE__MOVE_TO, true);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public IfcSpatialStructureElement getMoveTo() {
+        return (IfcSpatialStructureElement) eGet(Ifc2x3tc1Package.Literals.IFC_MOVE__MOVE_TO, true);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public void setMoveTo(IfcSpatialStructureElement newMoveTo) {
-		eSet(Ifc2x3tc1Package.Literals.IFC_MOVE__MOVE_TO, newMoveTo);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public void setMoveTo(IfcSpatialStructureElement newMoveTo) {
+        eSet(Ifc2x3tc1Package.Literals.IFC_MOVE__MOVE_TO, newMoveTo);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	@SuppressWarnings("unchecked")
-	public EList<String> getPunchList() {
-		return (EList<String>) eGet(Ifc2x3tc1Package.Literals.IFC_MOVE__PUNCH_LIST, true);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    @SuppressWarnings("unchecked")
+    public EList<String> getPunchList() {
+        return (EList<String>) eGet(Ifc2x3tc1Package.Literals.IFC_MOVE__PUNCH_LIST, true);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public void unsetPunchList() {
-		eUnset(Ifc2x3tc1Package.Literals.IFC_MOVE__PUNCH_LIST);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public void unsetPunchList() {
+        eUnset(Ifc2x3tc1Package.Literals.IFC_MOVE__PUNCH_LIST);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public boolean isSetPunchList() {
-		return eIsSet(Ifc2x3tc1Package.Literals.IFC_MOVE__PUNCH_LIST);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public boolean isSetPunchList() {
+        return eIsSet(Ifc2x3tc1Package.Literals.IFC_MOVE__PUNCH_LIST);
+    }
 
 } //IfcMoveImpl

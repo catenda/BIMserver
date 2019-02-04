@@ -20,6 +20,7 @@ import org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package;
 import org.bimserver.models.ifc2x3tc1.IfcCartesianTransformationOperator2D;
 import org.bimserver.models.ifc2x3tc1.IfcDerivedProfileDef;
 import org.bimserver.models.ifc2x3tc1.IfcProfileDef;
+
 import org.eclipse.emf.ecore.EClass;
 
 /**
@@ -28,105 +29,106 @@ import org.eclipse.emf.ecore.EClass;
  * <!-- end-user-doc -->
  * <p>
  * The following features are implemented:
+ * </p>
  * <ul>
  *   <li>{@link org.bimserver.models.ifc2x3tc1.impl.IfcDerivedProfileDefImpl#getParentProfile <em>Parent Profile</em>}</li>
  *   <li>{@link org.bimserver.models.ifc2x3tc1.impl.IfcDerivedProfileDefImpl#getOperator <em>Operator</em>}</li>
  *   <li>{@link org.bimserver.models.ifc2x3tc1.impl.IfcDerivedProfileDefImpl#getLabel <em>Label</em>}</li>
  * </ul>
- * </p>
  *
  * @generated
  */
 public class IfcDerivedProfileDefImpl extends IfcProfileDefImpl implements IfcDerivedProfileDef {
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	protected IfcDerivedProfileDefImpl() {
-		super();
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    protected IfcDerivedProfileDefImpl() {
+        super();
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	@Override
-	protected EClass eStaticClass() {
-		return Ifc2x3tc1Package.Literals.IFC_DERIVED_PROFILE_DEF;
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    @Override
+    protected EClass eStaticClass() {
+        return Ifc2x3tc1Package.Literals.IFC_DERIVED_PROFILE_DEF;
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public IfcProfileDef getParentProfile() {
-		return (IfcProfileDef) eGet(Ifc2x3tc1Package.Literals.IFC_DERIVED_PROFILE_DEF__PARENT_PROFILE, true);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public IfcProfileDef getParentProfile() {
+        return (IfcProfileDef) eGet(Ifc2x3tc1Package.Literals.IFC_DERIVED_PROFILE_DEF__PARENT_PROFILE, true);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public void setParentProfile(IfcProfileDef newParentProfile) {
-		eSet(Ifc2x3tc1Package.Literals.IFC_DERIVED_PROFILE_DEF__PARENT_PROFILE, newParentProfile);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public void setParentProfile(IfcProfileDef newParentProfile) {
+        eSet(Ifc2x3tc1Package.Literals.IFC_DERIVED_PROFILE_DEF__PARENT_PROFILE, newParentProfile);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public IfcCartesianTransformationOperator2D getOperator() {
-		return (IfcCartesianTransformationOperator2D) eGet(Ifc2x3tc1Package.Literals.IFC_DERIVED_PROFILE_DEF__OPERATOR, true);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public IfcCartesianTransformationOperator2D getOperator() {
+        return (IfcCartesianTransformationOperator2D) eGet(Ifc2x3tc1Package.Literals.IFC_DERIVED_PROFILE_DEF__OPERATOR,
+                true);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public void setOperator(IfcCartesianTransformationOperator2D newOperator) {
-		eSet(Ifc2x3tc1Package.Literals.IFC_DERIVED_PROFILE_DEF__OPERATOR, newOperator);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public void setOperator(IfcCartesianTransformationOperator2D newOperator) {
+        eSet(Ifc2x3tc1Package.Literals.IFC_DERIVED_PROFILE_DEF__OPERATOR, newOperator);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public String getLabel() {
-		return (String) eGet(Ifc2x3tc1Package.Literals.IFC_DERIVED_PROFILE_DEF__LABEL, true);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public String getLabel() {
+        return (String) eGet(Ifc2x3tc1Package.Literals.IFC_DERIVED_PROFILE_DEF__LABEL, true);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public void setLabel(String newLabel) {
-		eSet(Ifc2x3tc1Package.Literals.IFC_DERIVED_PROFILE_DEF__LABEL, newLabel);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public void setLabel(String newLabel) {
+        eSet(Ifc2x3tc1Package.Literals.IFC_DERIVED_PROFILE_DEF__LABEL, newLabel);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public void unsetLabel() {
-		eUnset(Ifc2x3tc1Package.Literals.IFC_DERIVED_PROFILE_DEF__LABEL);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public void unsetLabel() {
+        eUnset(Ifc2x3tc1Package.Literals.IFC_DERIVED_PROFILE_DEF__LABEL);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public boolean isSetLabel() {
-		return eIsSet(Ifc2x3tc1Package.Literals.IFC_DERIVED_PROFILE_DEF__LABEL);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public boolean isSetLabel() {
+        return eIsSet(Ifc2x3tc1Package.Literals.IFC_DERIVED_PROFILE_DEF__LABEL);
+    }
 
 } //IfcDerivedProfileDefImpl

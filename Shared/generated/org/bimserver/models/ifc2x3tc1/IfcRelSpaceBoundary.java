@@ -23,6 +23,7 @@ package org.bimserver.models.ifc2x3tc1;
  *
  * <p>
  * The following features are supported:
+ * </p>
  * <ul>
  *   <li>{@link org.bimserver.models.ifc2x3tc1.IfcRelSpaceBoundary#getRelatingSpace <em>Relating Space</em>}</li>
  *   <li>{@link org.bimserver.models.ifc2x3tc1.IfcRelSpaceBoundary#getRelatedBuildingElement <em>Related Building Element</em>}</li>
@@ -30,205 +31,204 @@ package org.bimserver.models.ifc2x3tc1;
  *   <li>{@link org.bimserver.models.ifc2x3tc1.IfcRelSpaceBoundary#getPhysicalOrVirtualBoundary <em>Physical Or Virtual Boundary</em>}</li>
  *   <li>{@link org.bimserver.models.ifc2x3tc1.IfcRelSpaceBoundary#getInternalOrExternalBoundary <em>Internal Or External Boundary</em>}</li>
  * </ul>
- * </p>
  *
  * @see org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package#getIfcRelSpaceBoundary()
  * @model
  * @generated
  */
 public interface IfcRelSpaceBoundary extends IfcRelConnects {
-	/**
-	 * Returns the value of the '<em><b>Relating Space</b></em>' reference.
-	 * It is bidirectional and its opposite is '{@link org.bimserver.models.ifc2x3tc1.IfcSpace#getBoundedBy <em>Bounded By</em>}'.
-	 * <!-- begin-user-doc -->
-	 * <p>
-	 * If the meaning of the '<em>Relating Space</em>' reference isn't clear,
-	 * there really should be more of a description here...
-	 * </p>
-	 * <!-- end-user-doc -->
-	 * @return the value of the '<em>Relating Space</em>' reference.
-	 * @see #setRelatingSpace(IfcSpace)
-	 * @see org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package#getIfcRelSpaceBoundary_RelatingSpace()
-	 * @see org.bimserver.models.ifc2x3tc1.IfcSpace#getBoundedBy
-	 * @model opposite="BoundedBy"
-	 * @generated
-	 */
-	IfcSpace getRelatingSpace();
+    /**
+     * Returns the value of the '<em><b>Relating Space</b></em>' reference.
+     * It is bidirectional and its opposite is '{@link org.bimserver.models.ifc2x3tc1.IfcSpace#getBoundedBy <em>Bounded By</em>}'.
+     * <!-- begin-user-doc -->
+     * <p>
+     * If the meaning of the '<em>Relating Space</em>' reference isn't clear,
+     * there really should be more of a description here...
+     * </p>
+     * <!-- end-user-doc -->
+     * @return the value of the '<em>Relating Space</em>' reference.
+     * @see #setRelatingSpace(IfcSpace)
+     * @see org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package#getIfcRelSpaceBoundary_RelatingSpace()
+     * @see org.bimserver.models.ifc2x3tc1.IfcSpace#getBoundedBy
+     * @model opposite="BoundedBy"
+     * @generated
+     */
+    IfcSpace getRelatingSpace();
 
-	/**
-	 * Sets the value of the '{@link org.bimserver.models.ifc2x3tc1.IfcRelSpaceBoundary#getRelatingSpace <em>Relating Space</em>}' reference.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @param value the new value of the '<em>Relating Space</em>' reference.
-	 * @see #getRelatingSpace()
-	 * @generated
-	 */
-	void setRelatingSpace(IfcSpace value);
+    /**
+     * Sets the value of the '{@link org.bimserver.models.ifc2x3tc1.IfcRelSpaceBoundary#getRelatingSpace <em>Relating Space</em>}' reference.
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @param value the new value of the '<em>Relating Space</em>' reference.
+     * @see #getRelatingSpace()
+     * @generated
+     */
+    void setRelatingSpace(IfcSpace value);
 
-	/**
-	 * Returns the value of the '<em><b>Related Building Element</b></em>' reference.
-	 * It is bidirectional and its opposite is '{@link org.bimserver.models.ifc2x3tc1.IfcElement#getProvidesBoundaries <em>Provides Boundaries</em>}'.
-	 * <!-- begin-user-doc -->
-	 * <p>
-	 * If the meaning of the '<em>Related Building Element</em>' reference isn't clear,
-	 * there really should be more of a description here...
-	 * </p>
-	 * <!-- end-user-doc -->
-	 * @return the value of the '<em>Related Building Element</em>' reference.
-	 * @see #isSetRelatedBuildingElement()
-	 * @see #unsetRelatedBuildingElement()
-	 * @see #setRelatedBuildingElement(IfcElement)
-	 * @see org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package#getIfcRelSpaceBoundary_RelatedBuildingElement()
-	 * @see org.bimserver.models.ifc2x3tc1.IfcElement#getProvidesBoundaries
-	 * @model opposite="ProvidesBoundaries" unsettable="true"
-	 * @generated
-	 */
-	IfcElement getRelatedBuildingElement();
+    /**
+     * Returns the value of the '<em><b>Related Building Element</b></em>' reference.
+     * It is bidirectional and its opposite is '{@link org.bimserver.models.ifc2x3tc1.IfcElement#getProvidesBoundaries <em>Provides Boundaries</em>}'.
+     * <!-- begin-user-doc -->
+     * <p>
+     * If the meaning of the '<em>Related Building Element</em>' reference isn't clear,
+     * there really should be more of a description here...
+     * </p>
+     * <!-- end-user-doc -->
+     * @return the value of the '<em>Related Building Element</em>' reference.
+     * @see #isSetRelatedBuildingElement()
+     * @see #unsetRelatedBuildingElement()
+     * @see #setRelatedBuildingElement(IfcElement)
+     * @see org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package#getIfcRelSpaceBoundary_RelatedBuildingElement()
+     * @see org.bimserver.models.ifc2x3tc1.IfcElement#getProvidesBoundaries
+     * @model opposite="ProvidesBoundaries" unsettable="true"
+     * @generated
+     */
+    IfcElement getRelatedBuildingElement();
 
-	/**
-	 * Sets the value of the '{@link org.bimserver.models.ifc2x3tc1.IfcRelSpaceBoundary#getRelatedBuildingElement <em>Related Building Element</em>}' reference.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @param value the new value of the '<em>Related Building Element</em>' reference.
-	 * @see #isSetRelatedBuildingElement()
-	 * @see #unsetRelatedBuildingElement()
-	 * @see #getRelatedBuildingElement()
-	 * @generated
-	 */
-	void setRelatedBuildingElement(IfcElement value);
+    /**
+     * Sets the value of the '{@link org.bimserver.models.ifc2x3tc1.IfcRelSpaceBoundary#getRelatedBuildingElement <em>Related Building Element</em>}' reference.
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @param value the new value of the '<em>Related Building Element</em>' reference.
+     * @see #isSetRelatedBuildingElement()
+     * @see #unsetRelatedBuildingElement()
+     * @see #getRelatedBuildingElement()
+     * @generated
+     */
+    void setRelatedBuildingElement(IfcElement value);
 
-	/**
-	 * Unsets the value of the '{@link org.bimserver.models.ifc2x3tc1.IfcRelSpaceBoundary#getRelatedBuildingElement <em>Related Building Element</em>}' reference.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @see #isSetRelatedBuildingElement()
-	 * @see #getRelatedBuildingElement()
-	 * @see #setRelatedBuildingElement(IfcElement)
-	 * @generated
-	 */
-	void unsetRelatedBuildingElement();
+    /**
+     * Unsets the value of the '{@link org.bimserver.models.ifc2x3tc1.IfcRelSpaceBoundary#getRelatedBuildingElement <em>Related Building Element</em>}' reference.
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @see #isSetRelatedBuildingElement()
+     * @see #getRelatedBuildingElement()
+     * @see #setRelatedBuildingElement(IfcElement)
+     * @generated
+     */
+    void unsetRelatedBuildingElement();
 
-	/**
-	 * Returns whether the value of the '{@link org.bimserver.models.ifc2x3tc1.IfcRelSpaceBoundary#getRelatedBuildingElement <em>Related Building Element</em>}' reference is set.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @return whether the value of the '<em>Related Building Element</em>' reference is set.
-	 * @see #unsetRelatedBuildingElement()
-	 * @see #getRelatedBuildingElement()
-	 * @see #setRelatedBuildingElement(IfcElement)
-	 * @generated
-	 */
-	boolean isSetRelatedBuildingElement();
+    /**
+     * Returns whether the value of the '{@link org.bimserver.models.ifc2x3tc1.IfcRelSpaceBoundary#getRelatedBuildingElement <em>Related Building Element</em>}' reference is set.
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @return whether the value of the '<em>Related Building Element</em>' reference is set.
+     * @see #unsetRelatedBuildingElement()
+     * @see #getRelatedBuildingElement()
+     * @see #setRelatedBuildingElement(IfcElement)
+     * @generated
+     */
+    boolean isSetRelatedBuildingElement();
 
-	/**
-	 * Returns the value of the '<em><b>Connection Geometry</b></em>' reference.
-	 * <!-- begin-user-doc -->
-	 * <p>
-	 * If the meaning of the '<em>Connection Geometry</em>' reference isn't clear,
-	 * there really should be more of a description here...
-	 * </p>
-	 * <!-- end-user-doc -->
-	 * @return the value of the '<em>Connection Geometry</em>' reference.
-	 * @see #isSetConnectionGeometry()
-	 * @see #unsetConnectionGeometry()
-	 * @see #setConnectionGeometry(IfcConnectionGeometry)
-	 * @see org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package#getIfcRelSpaceBoundary_ConnectionGeometry()
-	 * @model unsettable="true"
-	 * @generated
-	 */
-	IfcConnectionGeometry getConnectionGeometry();
+    /**
+     * Returns the value of the '<em><b>Connection Geometry</b></em>' reference.
+     * <!-- begin-user-doc -->
+     * <p>
+     * If the meaning of the '<em>Connection Geometry</em>' reference isn't clear,
+     * there really should be more of a description here...
+     * </p>
+     * <!-- end-user-doc -->
+     * @return the value of the '<em>Connection Geometry</em>' reference.
+     * @see #isSetConnectionGeometry()
+     * @see #unsetConnectionGeometry()
+     * @see #setConnectionGeometry(IfcConnectionGeometry)
+     * @see org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package#getIfcRelSpaceBoundary_ConnectionGeometry()
+     * @model unsettable="true"
+     * @generated
+     */
+    IfcConnectionGeometry getConnectionGeometry();
 
-	/**
-	 * Sets the value of the '{@link org.bimserver.models.ifc2x3tc1.IfcRelSpaceBoundary#getConnectionGeometry <em>Connection Geometry</em>}' reference.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @param value the new value of the '<em>Connection Geometry</em>' reference.
-	 * @see #isSetConnectionGeometry()
-	 * @see #unsetConnectionGeometry()
-	 * @see #getConnectionGeometry()
-	 * @generated
-	 */
-	void setConnectionGeometry(IfcConnectionGeometry value);
+    /**
+     * Sets the value of the '{@link org.bimserver.models.ifc2x3tc1.IfcRelSpaceBoundary#getConnectionGeometry <em>Connection Geometry</em>}' reference.
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @param value the new value of the '<em>Connection Geometry</em>' reference.
+     * @see #isSetConnectionGeometry()
+     * @see #unsetConnectionGeometry()
+     * @see #getConnectionGeometry()
+     * @generated
+     */
+    void setConnectionGeometry(IfcConnectionGeometry value);
 
-	/**
-	 * Unsets the value of the '{@link org.bimserver.models.ifc2x3tc1.IfcRelSpaceBoundary#getConnectionGeometry <em>Connection Geometry</em>}' reference.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @see #isSetConnectionGeometry()
-	 * @see #getConnectionGeometry()
-	 * @see #setConnectionGeometry(IfcConnectionGeometry)
-	 * @generated
-	 */
-	void unsetConnectionGeometry();
+    /**
+     * Unsets the value of the '{@link org.bimserver.models.ifc2x3tc1.IfcRelSpaceBoundary#getConnectionGeometry <em>Connection Geometry</em>}' reference.
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @see #isSetConnectionGeometry()
+     * @see #getConnectionGeometry()
+     * @see #setConnectionGeometry(IfcConnectionGeometry)
+     * @generated
+     */
+    void unsetConnectionGeometry();
 
-	/**
-	 * Returns whether the value of the '{@link org.bimserver.models.ifc2x3tc1.IfcRelSpaceBoundary#getConnectionGeometry <em>Connection Geometry</em>}' reference is set.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @return whether the value of the '<em>Connection Geometry</em>' reference is set.
-	 * @see #unsetConnectionGeometry()
-	 * @see #getConnectionGeometry()
-	 * @see #setConnectionGeometry(IfcConnectionGeometry)
-	 * @generated
-	 */
-	boolean isSetConnectionGeometry();
+    /**
+     * Returns whether the value of the '{@link org.bimserver.models.ifc2x3tc1.IfcRelSpaceBoundary#getConnectionGeometry <em>Connection Geometry</em>}' reference is set.
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @return whether the value of the '<em>Connection Geometry</em>' reference is set.
+     * @see #unsetConnectionGeometry()
+     * @see #getConnectionGeometry()
+     * @see #setConnectionGeometry(IfcConnectionGeometry)
+     * @generated
+     */
+    boolean isSetConnectionGeometry();
 
-	/**
-	 * Returns the value of the '<em><b>Physical Or Virtual Boundary</b></em>' attribute.
-	 * The literals are from the enumeration {@link org.bimserver.models.ifc2x3tc1.IfcPhysicalOrVirtualEnum}.
-	 * <!-- begin-user-doc -->
-	 * <p>
-	 * If the meaning of the '<em>Physical Or Virtual Boundary</em>' attribute isn't clear,
-	 * there really should be more of a description here...
-	 * </p>
-	 * <!-- end-user-doc -->
-	 * @return the value of the '<em>Physical Or Virtual Boundary</em>' attribute.
-	 * @see org.bimserver.models.ifc2x3tc1.IfcPhysicalOrVirtualEnum
-	 * @see #setPhysicalOrVirtualBoundary(IfcPhysicalOrVirtualEnum)
-	 * @see org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package#getIfcRelSpaceBoundary_PhysicalOrVirtualBoundary()
-	 * @model
-	 * @generated
-	 */
-	IfcPhysicalOrVirtualEnum getPhysicalOrVirtualBoundary();
+    /**
+     * Returns the value of the '<em><b>Physical Or Virtual Boundary</b></em>' attribute.
+     * The literals are from the enumeration {@link org.bimserver.models.ifc2x3tc1.IfcPhysicalOrVirtualEnum}.
+     * <!-- begin-user-doc -->
+     * <p>
+     * If the meaning of the '<em>Physical Or Virtual Boundary</em>' attribute isn't clear,
+     * there really should be more of a description here...
+     * </p>
+     * <!-- end-user-doc -->
+     * @return the value of the '<em>Physical Or Virtual Boundary</em>' attribute.
+     * @see org.bimserver.models.ifc2x3tc1.IfcPhysicalOrVirtualEnum
+     * @see #setPhysicalOrVirtualBoundary(IfcPhysicalOrVirtualEnum)
+     * @see org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package#getIfcRelSpaceBoundary_PhysicalOrVirtualBoundary()
+     * @model
+     * @generated
+     */
+    IfcPhysicalOrVirtualEnum getPhysicalOrVirtualBoundary();
 
-	/**
-	 * Sets the value of the '{@link org.bimserver.models.ifc2x3tc1.IfcRelSpaceBoundary#getPhysicalOrVirtualBoundary <em>Physical Or Virtual Boundary</em>}' attribute.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @param value the new value of the '<em>Physical Or Virtual Boundary</em>' attribute.
-	 * @see org.bimserver.models.ifc2x3tc1.IfcPhysicalOrVirtualEnum
-	 * @see #getPhysicalOrVirtualBoundary()
-	 * @generated
-	 */
-	void setPhysicalOrVirtualBoundary(IfcPhysicalOrVirtualEnum value);
+    /**
+     * Sets the value of the '{@link org.bimserver.models.ifc2x3tc1.IfcRelSpaceBoundary#getPhysicalOrVirtualBoundary <em>Physical Or Virtual Boundary</em>}' attribute.
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @param value the new value of the '<em>Physical Or Virtual Boundary</em>' attribute.
+     * @see org.bimserver.models.ifc2x3tc1.IfcPhysicalOrVirtualEnum
+     * @see #getPhysicalOrVirtualBoundary()
+     * @generated
+     */
+    void setPhysicalOrVirtualBoundary(IfcPhysicalOrVirtualEnum value);
 
-	/**
-	 * Returns the value of the '<em><b>Internal Or External Boundary</b></em>' attribute.
-	 * The literals are from the enumeration {@link org.bimserver.models.ifc2x3tc1.IfcInternalOrExternalEnum}.
-	 * <!-- begin-user-doc -->
-	 * <p>
-	 * If the meaning of the '<em>Internal Or External Boundary</em>' attribute isn't clear,
-	 * there really should be more of a description here...
-	 * </p>
-	 * <!-- end-user-doc -->
-	 * @return the value of the '<em>Internal Or External Boundary</em>' attribute.
-	 * @see org.bimserver.models.ifc2x3tc1.IfcInternalOrExternalEnum
-	 * @see #setInternalOrExternalBoundary(IfcInternalOrExternalEnum)
-	 * @see org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package#getIfcRelSpaceBoundary_InternalOrExternalBoundary()
-	 * @model
-	 * @generated
-	 */
-	IfcInternalOrExternalEnum getInternalOrExternalBoundary();
+    /**
+     * Returns the value of the '<em><b>Internal Or External Boundary</b></em>' attribute.
+     * The literals are from the enumeration {@link org.bimserver.models.ifc2x3tc1.IfcInternalOrExternalEnum}.
+     * <!-- begin-user-doc -->
+     * <p>
+     * If the meaning of the '<em>Internal Or External Boundary</em>' attribute isn't clear,
+     * there really should be more of a description here...
+     * </p>
+     * <!-- end-user-doc -->
+     * @return the value of the '<em>Internal Or External Boundary</em>' attribute.
+     * @see org.bimserver.models.ifc2x3tc1.IfcInternalOrExternalEnum
+     * @see #setInternalOrExternalBoundary(IfcInternalOrExternalEnum)
+     * @see org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package#getIfcRelSpaceBoundary_InternalOrExternalBoundary()
+     * @model
+     * @generated
+     */
+    IfcInternalOrExternalEnum getInternalOrExternalBoundary();
 
-	/**
-	 * Sets the value of the '{@link org.bimserver.models.ifc2x3tc1.IfcRelSpaceBoundary#getInternalOrExternalBoundary <em>Internal Or External Boundary</em>}' attribute.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @param value the new value of the '<em>Internal Or External Boundary</em>' attribute.
-	 * @see org.bimserver.models.ifc2x3tc1.IfcInternalOrExternalEnum
-	 * @see #getInternalOrExternalBoundary()
-	 * @generated
-	 */
-	void setInternalOrExternalBoundary(IfcInternalOrExternalEnum value);
+    /**
+     * Sets the value of the '{@link org.bimserver.models.ifc2x3tc1.IfcRelSpaceBoundary#getInternalOrExternalBoundary <em>Internal Or External Boundary</em>}' attribute.
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @param value the new value of the '<em>Internal Or External Boundary</em>' attribute.
+     * @see org.bimserver.models.ifc2x3tc1.IfcInternalOrExternalEnum
+     * @see #getInternalOrExternalBoundary()
+     * @generated
+     */
+    void setInternalOrExternalBoundary(IfcInternalOrExternalEnum value);
 
 } // IfcRelSpaceBoundary

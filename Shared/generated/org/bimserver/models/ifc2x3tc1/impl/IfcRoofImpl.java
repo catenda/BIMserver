@@ -19,6 +19,7 @@ package org.bimserver.models.ifc2x3tc1.impl;
 import org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package;
 import org.bimserver.models.ifc2x3tc1.IfcRoof;
 import org.bimserver.models.ifc2x3tc1.IfcRoofTypeEnum;
+
 import org.eclipse.emf.ecore.EClass;
 
 /**
@@ -27,49 +28,49 @@ import org.eclipse.emf.ecore.EClass;
  * <!-- end-user-doc -->
  * <p>
  * The following features are implemented:
+ * </p>
  * <ul>
  *   <li>{@link org.bimserver.models.ifc2x3tc1.impl.IfcRoofImpl#getShapeType <em>Shape Type</em>}</li>
  * </ul>
- * </p>
  *
  * @generated
  */
 public class IfcRoofImpl extends IfcBuildingElementImpl implements IfcRoof {
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	protected IfcRoofImpl() {
-		super();
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    protected IfcRoofImpl() {
+        super();
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	@Override
-	protected EClass eStaticClass() {
-		return Ifc2x3tc1Package.Literals.IFC_ROOF;
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    @Override
+    protected EClass eStaticClass() {
+        return Ifc2x3tc1Package.Literals.IFC_ROOF;
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public IfcRoofTypeEnum getShapeType() {
-		return (IfcRoofTypeEnum) eGet(Ifc2x3tc1Package.Literals.IFC_ROOF__SHAPE_TYPE, true);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public IfcRoofTypeEnum getShapeType() {
+        return (IfcRoofTypeEnum) eGet(Ifc2x3tc1Package.Literals.IFC_ROOF__SHAPE_TYPE, true);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public void setShapeType(IfcRoofTypeEnum newShapeType) {
-		eSet(Ifc2x3tc1Package.Literals.IFC_ROOF__SHAPE_TYPE, newShapeType);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public void setShapeType(IfcRoofTypeEnum newShapeType) {
+        eSet(Ifc2x3tc1Package.Literals.IFC_ROOF__SHAPE_TYPE, newShapeType);
+    }
 
 } //IfcRoofImpl

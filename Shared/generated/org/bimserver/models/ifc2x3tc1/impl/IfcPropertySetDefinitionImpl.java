@@ -20,7 +20,9 @@ import org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package;
 import org.bimserver.models.ifc2x3tc1.IfcPropertySetDefinition;
 import org.bimserver.models.ifc2x3tc1.IfcRelDefinesByProperties;
 import org.bimserver.models.ifc2x3tc1.IfcTypeObject;
+
 import org.eclipse.emf.common.util.EList;
+
 import org.eclipse.emf.ecore.EClass;
 
 /**
@@ -29,88 +31,89 @@ import org.eclipse.emf.ecore.EClass;
  * <!-- end-user-doc -->
  * <p>
  * The following features are implemented:
+ * </p>
  * <ul>
  *   <li>{@link org.bimserver.models.ifc2x3tc1.impl.IfcPropertySetDefinitionImpl#getPropertyDefinitionOf <em>Property Definition Of</em>}</li>
  *   <li>{@link org.bimserver.models.ifc2x3tc1.impl.IfcPropertySetDefinitionImpl#getDefinesType <em>Defines Type</em>}</li>
  * </ul>
- * </p>
  *
  * @generated
  */
 public class IfcPropertySetDefinitionImpl extends IfcPropertyDefinitionImpl implements IfcPropertySetDefinition {
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	protected IfcPropertySetDefinitionImpl() {
-		super();
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    protected IfcPropertySetDefinitionImpl() {
+        super();
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	@Override
-	protected EClass eStaticClass() {
-		return Ifc2x3tc1Package.Literals.IFC_PROPERTY_SET_DEFINITION;
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    @Override
+    protected EClass eStaticClass() {
+        return Ifc2x3tc1Package.Literals.IFC_PROPERTY_SET_DEFINITION;
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	@SuppressWarnings("unchecked")
-	public EList<IfcRelDefinesByProperties> getPropertyDefinitionOf() {
-		return (EList<IfcRelDefinesByProperties>) eGet(Ifc2x3tc1Package.Literals.IFC_PROPERTY_SET_DEFINITION__PROPERTY_DEFINITION_OF, true);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    @SuppressWarnings("unchecked")
+    public EList<IfcRelDefinesByProperties> getPropertyDefinitionOf() {
+        return (EList<IfcRelDefinesByProperties>) eGet(
+                Ifc2x3tc1Package.Literals.IFC_PROPERTY_SET_DEFINITION__PROPERTY_DEFINITION_OF, true);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public void unsetPropertyDefinitionOf() {
-		eUnset(Ifc2x3tc1Package.Literals.IFC_PROPERTY_SET_DEFINITION__PROPERTY_DEFINITION_OF);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public void unsetPropertyDefinitionOf() {
+        eUnset(Ifc2x3tc1Package.Literals.IFC_PROPERTY_SET_DEFINITION__PROPERTY_DEFINITION_OF);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public boolean isSetPropertyDefinitionOf() {
-		return eIsSet(Ifc2x3tc1Package.Literals.IFC_PROPERTY_SET_DEFINITION__PROPERTY_DEFINITION_OF);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public boolean isSetPropertyDefinitionOf() {
+        return eIsSet(Ifc2x3tc1Package.Literals.IFC_PROPERTY_SET_DEFINITION__PROPERTY_DEFINITION_OF);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	@SuppressWarnings("unchecked")
-	public EList<IfcTypeObject> getDefinesType() {
-		return (EList<IfcTypeObject>) eGet(Ifc2x3tc1Package.Literals.IFC_PROPERTY_SET_DEFINITION__DEFINES_TYPE, true);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    @SuppressWarnings("unchecked")
+    public EList<IfcTypeObject> getDefinesType() {
+        return (EList<IfcTypeObject>) eGet(Ifc2x3tc1Package.Literals.IFC_PROPERTY_SET_DEFINITION__DEFINES_TYPE, true);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public void unsetDefinesType() {
-		eUnset(Ifc2x3tc1Package.Literals.IFC_PROPERTY_SET_DEFINITION__DEFINES_TYPE);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public void unsetDefinesType() {
+        eUnset(Ifc2x3tc1Package.Literals.IFC_PROPERTY_SET_DEFINITION__DEFINES_TYPE);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public boolean isSetDefinesType() {
-		return eIsSet(Ifc2x3tc1Package.Literals.IFC_PROPERTY_SET_DEFINITION__DEFINES_TYPE);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public boolean isSetDefinesType() {
+        return eIsSet(Ifc2x3tc1Package.Literals.IFC_PROPERTY_SET_DEFINITION__DEFINES_TYPE);
+    }
 
 } //IfcPropertySetDefinitionImpl

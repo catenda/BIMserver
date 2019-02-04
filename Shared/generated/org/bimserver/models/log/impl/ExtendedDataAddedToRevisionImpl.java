@@ -18,8 +18,10 @@ package org.bimserver.models.log.impl;
 
 import org.bimserver.models.log.ExtendedDataAddedToRevision;
 import org.bimserver.models.log.LogPackage;
+
 import org.bimserver.models.store.ExtendedData;
 import org.bimserver.models.store.Revision;
+
 import org.eclipse.emf.ecore.EClass;
 
 /**
@@ -28,68 +30,68 @@ import org.eclipse.emf.ecore.EClass;
  * <!-- end-user-doc -->
  * <p>
  * The following features are implemented:
+ * </p>
  * <ul>
  *   <li>{@link org.bimserver.models.log.impl.ExtendedDataAddedToRevisionImpl#getRevision <em>Revision</em>}</li>
  *   <li>{@link org.bimserver.models.log.impl.ExtendedDataAddedToRevisionImpl#getExtendedData <em>Extended Data</em>}</li>
  * </ul>
- * </p>
  *
  * @generated
  */
 public class ExtendedDataAddedToRevisionImpl extends LogActionImpl implements ExtendedDataAddedToRevision {
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	protected ExtendedDataAddedToRevisionImpl() {
-		super();
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    protected ExtendedDataAddedToRevisionImpl() {
+        super();
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	@Override
-	protected EClass eStaticClass() {
-		return LogPackage.Literals.EXTENDED_DATA_ADDED_TO_REVISION;
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    @Override
+    protected EClass eStaticClass() {
+        return LogPackage.Literals.EXTENDED_DATA_ADDED_TO_REVISION;
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public Revision getRevision() {
-		return (Revision) eGet(LogPackage.Literals.EXTENDED_DATA_ADDED_TO_REVISION__REVISION, true);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public Revision getRevision() {
+        return (Revision) eGet(LogPackage.Literals.EXTENDED_DATA_ADDED_TO_REVISION__REVISION, true);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public void setRevision(Revision newRevision) {
-		eSet(LogPackage.Literals.EXTENDED_DATA_ADDED_TO_REVISION__REVISION, newRevision);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public void setRevision(Revision newRevision) {
+        eSet(LogPackage.Literals.EXTENDED_DATA_ADDED_TO_REVISION__REVISION, newRevision);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public ExtendedData getExtendedData() {
-		return (ExtendedData) eGet(LogPackage.Literals.EXTENDED_DATA_ADDED_TO_REVISION__EXTENDED_DATA, true);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public ExtendedData getExtendedData() {
+        return (ExtendedData) eGet(LogPackage.Literals.EXTENDED_DATA_ADDED_TO_REVISION__EXTENDED_DATA, true);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public void setExtendedData(ExtendedData newExtendedData) {
-		eSet(LogPackage.Literals.EXTENDED_DATA_ADDED_TO_REVISION__EXTENDED_DATA, newExtendedData);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public void setExtendedData(ExtendedData newExtendedData) {
+        eSet(LogPackage.Literals.EXTENDED_DATA_ADDED_TO_REVISION__EXTENDED_DATA, newExtendedData);
+    }
 
 } //ExtendedDataAddedToRevisionImpl

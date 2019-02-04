@@ -17,12 +17,15 @@
 package org.bimserver.models.ifc2x3tc1.impl;
 
 import org.bimserver.emf.IdEObjectImpl;
+
 import org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package;
 import org.bimserver.models.ifc2x3tc1.IfcActorRole;
 import org.bimserver.models.ifc2x3tc1.IfcOrganization;
 import org.bimserver.models.ifc2x3tc1.IfcPerson;
 import org.bimserver.models.ifc2x3tc1.IfcPersonAndOrganization;
+
 import org.eclipse.emf.common.util.EList;
+
 import org.eclipse.emf.ecore.EClass;
 
 /**
@@ -31,107 +34,107 @@ import org.eclipse.emf.ecore.EClass;
  * <!-- end-user-doc -->
  * <p>
  * The following features are implemented:
+ * </p>
  * <ul>
  *   <li>{@link org.bimserver.models.ifc2x3tc1.impl.IfcPersonAndOrganizationImpl#getThePerson <em>The Person</em>}</li>
  *   <li>{@link org.bimserver.models.ifc2x3tc1.impl.IfcPersonAndOrganizationImpl#getTheOrganization <em>The Organization</em>}</li>
  *   <li>{@link org.bimserver.models.ifc2x3tc1.impl.IfcPersonAndOrganizationImpl#getRoles <em>Roles</em>}</li>
  * </ul>
- * </p>
  *
  * @generated
  */
 public class IfcPersonAndOrganizationImpl extends IdEObjectImpl implements IfcPersonAndOrganization {
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	protected IfcPersonAndOrganizationImpl() {
-		super();
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    protected IfcPersonAndOrganizationImpl() {
+        super();
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	@Override
-	protected EClass eStaticClass() {
-		return Ifc2x3tc1Package.Literals.IFC_PERSON_AND_ORGANIZATION;
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    @Override
+    protected EClass eStaticClass() {
+        return Ifc2x3tc1Package.Literals.IFC_PERSON_AND_ORGANIZATION;
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	@Override
-	protected int eStaticFeatureCount() {
-		return 0;
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    @Override
+    protected int eStaticFeatureCount() {
+        return 0;
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public IfcPerson getThePerson() {
-		return (IfcPerson) eGet(Ifc2x3tc1Package.Literals.IFC_PERSON_AND_ORGANIZATION__THE_PERSON, true);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public IfcPerson getThePerson() {
+        return (IfcPerson) eGet(Ifc2x3tc1Package.Literals.IFC_PERSON_AND_ORGANIZATION__THE_PERSON, true);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public void setThePerson(IfcPerson newThePerson) {
-		eSet(Ifc2x3tc1Package.Literals.IFC_PERSON_AND_ORGANIZATION__THE_PERSON, newThePerson);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public void setThePerson(IfcPerson newThePerson) {
+        eSet(Ifc2x3tc1Package.Literals.IFC_PERSON_AND_ORGANIZATION__THE_PERSON, newThePerson);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public IfcOrganization getTheOrganization() {
-		return (IfcOrganization) eGet(Ifc2x3tc1Package.Literals.IFC_PERSON_AND_ORGANIZATION__THE_ORGANIZATION, true);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public IfcOrganization getTheOrganization() {
+        return (IfcOrganization) eGet(Ifc2x3tc1Package.Literals.IFC_PERSON_AND_ORGANIZATION__THE_ORGANIZATION, true);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public void setTheOrganization(IfcOrganization newTheOrganization) {
-		eSet(Ifc2x3tc1Package.Literals.IFC_PERSON_AND_ORGANIZATION__THE_ORGANIZATION, newTheOrganization);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public void setTheOrganization(IfcOrganization newTheOrganization) {
+        eSet(Ifc2x3tc1Package.Literals.IFC_PERSON_AND_ORGANIZATION__THE_ORGANIZATION, newTheOrganization);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	@SuppressWarnings("unchecked")
-	public EList<IfcActorRole> getRoles() {
-		return (EList<IfcActorRole>) eGet(Ifc2x3tc1Package.Literals.IFC_PERSON_AND_ORGANIZATION__ROLES, true);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    @SuppressWarnings("unchecked")
+    public EList<IfcActorRole> getRoles() {
+        return (EList<IfcActorRole>) eGet(Ifc2x3tc1Package.Literals.IFC_PERSON_AND_ORGANIZATION__ROLES, true);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public void unsetRoles() {
-		eUnset(Ifc2x3tc1Package.Literals.IFC_PERSON_AND_ORGANIZATION__ROLES);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public void unsetRoles() {
+        eUnset(Ifc2x3tc1Package.Literals.IFC_PERSON_AND_ORGANIZATION__ROLES);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public boolean isSetRoles() {
-		return eIsSet(Ifc2x3tc1Package.Literals.IFC_PERSON_AND_ORGANIZATION__ROLES);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public boolean isSetRoles() {
+        return eIsSet(Ifc2x3tc1Package.Literals.IFC_PERSON_AND_ORGANIZATION__ROLES);
+    }
 
 } //IfcPersonAndOrganizationImpl

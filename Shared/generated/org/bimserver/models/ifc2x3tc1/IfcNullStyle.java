@@ -23,43 +23,43 @@ package org.bimserver.models.ifc2x3tc1;
  *
  * <p>
  * The following features are supported:
+ * </p>
  * <ul>
  *   <li>{@link org.bimserver.models.ifc2x3tc1.IfcNullStyle#getWrappedValue <em>Wrapped Value</em>}</li>
  * </ul>
- * </p>
  *
  * @see org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package#getIfcNullStyle()
  * @model
  * @generated
  */
 public interface IfcNullStyle extends IfcPresentationStyleSelect {
-	/**
-	 * Returns the value of the '<em><b>Wrapped Value</b></em>' attribute.
-	 * The literals are from the enumeration {@link org.bimserver.models.ifc2x3tc1.IfcNullStyleEnum}.
-	 * <!-- begin-user-doc -->
-	 * <p>
-	 * If the meaning of the '<em>Wrapped Value</em>' attribute isn't clear,
-	 * there really should be more of a description here...
-	 * </p>
-	 * <!-- end-user-doc -->
-	 * @return the value of the '<em>Wrapped Value</em>' attribute.
-	 * @see org.bimserver.models.ifc2x3tc1.IfcNullStyleEnum
-	 * @see #setWrappedValue(IfcNullStyleEnum)
-	 * @see org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package#getIfcNullStyle_WrappedValue()
-	 * @model
-	 * @generated
-	 */
-	IfcNullStyleEnum getWrappedValue();
+    /**
+     * Returns the value of the '<em><b>Wrapped Value</b></em>' attribute.
+     * The literals are from the enumeration {@link org.bimserver.models.ifc2x3tc1.IfcNullStyleEnum}.
+     * <!-- begin-user-doc -->
+     * <p>
+     * If the meaning of the '<em>Wrapped Value</em>' attribute isn't clear,
+     * there really should be more of a description here...
+     * </p>
+     * <!-- end-user-doc -->
+     * @return the value of the '<em>Wrapped Value</em>' attribute.
+     * @see org.bimserver.models.ifc2x3tc1.IfcNullStyleEnum
+     * @see #setWrappedValue(IfcNullStyleEnum)
+     * @see org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package#getIfcNullStyle_WrappedValue()
+     * @model
+     * @generated
+     */
+    IfcNullStyleEnum getWrappedValue();
 
-	/**
-	 * Sets the value of the '{@link org.bimserver.models.ifc2x3tc1.IfcNullStyle#getWrappedValue <em>Wrapped Value</em>}' attribute.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @param value the new value of the '<em>Wrapped Value</em>' attribute.
-	 * @see org.bimserver.models.ifc2x3tc1.IfcNullStyleEnum
-	 * @see #getWrappedValue()
-	 * @generated
-	 */
-	void setWrappedValue(IfcNullStyleEnum value);
+    /**
+     * Sets the value of the '{@link org.bimserver.models.ifc2x3tc1.IfcNullStyle#getWrappedValue <em>Wrapped Value</em>}' attribute.
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @param value the new value of the '<em>Wrapped Value</em>' attribute.
+     * @see org.bimserver.models.ifc2x3tc1.IfcNullStyleEnum
+     * @see #getWrappedValue()
+     * @generated
+     */
+    void setWrappedValue(IfcNullStyleEnum value);
 
 } // IfcNullStyle

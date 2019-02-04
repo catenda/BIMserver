@@ -21,6 +21,7 @@ import org.bimserver.models.ifc2x3tc1.IfcColour;
 import org.bimserver.models.ifc2x3tc1.IfcCurveFontOrScaledCurveFontSelect;
 import org.bimserver.models.ifc2x3tc1.IfcCurveStyle;
 import org.bimserver.models.ifc2x3tc1.IfcSizeSelect;
+
 import org.eclipse.emf.ecore.EClass;
 
 /**
@@ -29,141 +30,141 @@ import org.eclipse.emf.ecore.EClass;
  * <!-- end-user-doc -->
  * <p>
  * The following features are implemented:
+ * </p>
  * <ul>
  *   <li>{@link org.bimserver.models.ifc2x3tc1.impl.IfcCurveStyleImpl#getCurveFont <em>Curve Font</em>}</li>
  *   <li>{@link org.bimserver.models.ifc2x3tc1.impl.IfcCurveStyleImpl#getCurveWidth <em>Curve Width</em>}</li>
  *   <li>{@link org.bimserver.models.ifc2x3tc1.impl.IfcCurveStyleImpl#getCurveColour <em>Curve Colour</em>}</li>
  * </ul>
- * </p>
  *
  * @generated
  */
 public class IfcCurveStyleImpl extends IfcPresentationStyleImpl implements IfcCurveStyle {
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	protected IfcCurveStyleImpl() {
-		super();
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    protected IfcCurveStyleImpl() {
+        super();
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	@Override
-	protected EClass eStaticClass() {
-		return Ifc2x3tc1Package.Literals.IFC_CURVE_STYLE;
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    @Override
+    protected EClass eStaticClass() {
+        return Ifc2x3tc1Package.Literals.IFC_CURVE_STYLE;
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public IfcCurveFontOrScaledCurveFontSelect getCurveFont() {
-		return (IfcCurveFontOrScaledCurveFontSelect) eGet(Ifc2x3tc1Package.Literals.IFC_CURVE_STYLE__CURVE_FONT, true);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public IfcCurveFontOrScaledCurveFontSelect getCurveFont() {
+        return (IfcCurveFontOrScaledCurveFontSelect) eGet(Ifc2x3tc1Package.Literals.IFC_CURVE_STYLE__CURVE_FONT, true);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public void setCurveFont(IfcCurveFontOrScaledCurveFontSelect newCurveFont) {
-		eSet(Ifc2x3tc1Package.Literals.IFC_CURVE_STYLE__CURVE_FONT, newCurveFont);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public void setCurveFont(IfcCurveFontOrScaledCurveFontSelect newCurveFont) {
+        eSet(Ifc2x3tc1Package.Literals.IFC_CURVE_STYLE__CURVE_FONT, newCurveFont);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public void unsetCurveFont() {
-		eUnset(Ifc2x3tc1Package.Literals.IFC_CURVE_STYLE__CURVE_FONT);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public void unsetCurveFont() {
+        eUnset(Ifc2x3tc1Package.Literals.IFC_CURVE_STYLE__CURVE_FONT);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public boolean isSetCurveFont() {
-		return eIsSet(Ifc2x3tc1Package.Literals.IFC_CURVE_STYLE__CURVE_FONT);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public boolean isSetCurveFont() {
+        return eIsSet(Ifc2x3tc1Package.Literals.IFC_CURVE_STYLE__CURVE_FONT);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public IfcSizeSelect getCurveWidth() {
-		return (IfcSizeSelect) eGet(Ifc2x3tc1Package.Literals.IFC_CURVE_STYLE__CURVE_WIDTH, true);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public IfcSizeSelect getCurveWidth() {
+        return (IfcSizeSelect) eGet(Ifc2x3tc1Package.Literals.IFC_CURVE_STYLE__CURVE_WIDTH, true);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public void setCurveWidth(IfcSizeSelect newCurveWidth) {
-		eSet(Ifc2x3tc1Package.Literals.IFC_CURVE_STYLE__CURVE_WIDTH, newCurveWidth);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public void setCurveWidth(IfcSizeSelect newCurveWidth) {
+        eSet(Ifc2x3tc1Package.Literals.IFC_CURVE_STYLE__CURVE_WIDTH, newCurveWidth);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public void unsetCurveWidth() {
-		eUnset(Ifc2x3tc1Package.Literals.IFC_CURVE_STYLE__CURVE_WIDTH);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public void unsetCurveWidth() {
+        eUnset(Ifc2x3tc1Package.Literals.IFC_CURVE_STYLE__CURVE_WIDTH);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public boolean isSetCurveWidth() {
-		return eIsSet(Ifc2x3tc1Package.Literals.IFC_CURVE_STYLE__CURVE_WIDTH);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public boolean isSetCurveWidth() {
+        return eIsSet(Ifc2x3tc1Package.Literals.IFC_CURVE_STYLE__CURVE_WIDTH);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public IfcColour getCurveColour() {
-		return (IfcColour) eGet(Ifc2x3tc1Package.Literals.IFC_CURVE_STYLE__CURVE_COLOUR, true);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public IfcColour getCurveColour() {
+        return (IfcColour) eGet(Ifc2x3tc1Package.Literals.IFC_CURVE_STYLE__CURVE_COLOUR, true);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public void setCurveColour(IfcColour newCurveColour) {
-		eSet(Ifc2x3tc1Package.Literals.IFC_CURVE_STYLE__CURVE_COLOUR, newCurveColour);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public void setCurveColour(IfcColour newCurveColour) {
+        eSet(Ifc2x3tc1Package.Literals.IFC_CURVE_STYLE__CURVE_COLOUR, newCurveColour);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public void unsetCurveColour() {
-		eUnset(Ifc2x3tc1Package.Literals.IFC_CURVE_STYLE__CURVE_COLOUR);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public void unsetCurveColour() {
+        eUnset(Ifc2x3tc1Package.Literals.IFC_CURVE_STYLE__CURVE_COLOUR);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public boolean isSetCurveColour() {
-		return eIsSet(Ifc2x3tc1Package.Literals.IFC_CURVE_STYLE__CURVE_COLOUR);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public boolean isSetCurveColour() {
+        return eIsSet(Ifc2x3tc1Package.Literals.IFC_CURVE_STYLE__CURVE_COLOUR);
+    }
 
 } //IfcCurveStyleImpl

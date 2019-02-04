@@ -25,97 +25,97 @@ import org.eclipse.emf.common.util.EList;
  *
  * <p>
  * The following features are supported:
+ * </p>
  * <ul>
  *   <li>{@link org.bimserver.models.ifc2x3tc1.IfcStructuralMember#getReferencesElement <em>References Element</em>}</li>
  *   <li>{@link org.bimserver.models.ifc2x3tc1.IfcStructuralMember#getConnectedBy <em>Connected By</em>}</li>
  * </ul>
- * </p>
  *
  * @see org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package#getIfcStructuralMember()
  * @model
  * @generated
  */
 public interface IfcStructuralMember extends IfcStructuralItem {
-	/**
-	 * Returns the value of the '<em><b>References Element</b></em>' reference list.
-	 * The list contents are of type {@link org.bimserver.models.ifc2x3tc1.IfcRelConnectsStructuralElement}.
-	 * It is bidirectional and its opposite is '{@link org.bimserver.models.ifc2x3tc1.IfcRelConnectsStructuralElement#getRelatedStructuralMember <em>Related Structural Member</em>}'.
-	 * <!-- begin-user-doc -->
-	 * <p>
-	 * If the meaning of the '<em>References Element</em>' reference list isn't clear,
-	 * there really should be more of a description here...
-	 * </p>
-	 * <!-- end-user-doc -->
-	 * @return the value of the '<em>References Element</em>' reference list.
-	 * @see #isSetReferencesElement()
-	 * @see #unsetReferencesElement()
-	 * @see org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package#getIfcStructuralMember_ReferencesElement()
-	 * @see org.bimserver.models.ifc2x3tc1.IfcRelConnectsStructuralElement#getRelatedStructuralMember
-	 * @model opposite="RelatedStructuralMember" unsettable="true"
-	 * @generated
-	 */
-	EList<IfcRelConnectsStructuralElement> getReferencesElement();
+    /**
+     * Returns the value of the '<em><b>References Element</b></em>' reference list.
+     * The list contents are of type {@link org.bimserver.models.ifc2x3tc1.IfcRelConnectsStructuralElement}.
+     * It is bidirectional and its opposite is '{@link org.bimserver.models.ifc2x3tc1.IfcRelConnectsStructuralElement#getRelatedStructuralMember <em>Related Structural Member</em>}'.
+     * <!-- begin-user-doc -->
+     * <p>
+     * If the meaning of the '<em>References Element</em>' reference list isn't clear,
+     * there really should be more of a description here...
+     * </p>
+     * <!-- end-user-doc -->
+     * @return the value of the '<em>References Element</em>' reference list.
+     * @see #isSetReferencesElement()
+     * @see #unsetReferencesElement()
+     * @see org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package#getIfcStructuralMember_ReferencesElement()
+     * @see org.bimserver.models.ifc2x3tc1.IfcRelConnectsStructuralElement#getRelatedStructuralMember
+     * @model opposite="RelatedStructuralMember" unsettable="true"
+     * @generated
+     */
+    EList<IfcRelConnectsStructuralElement> getReferencesElement();
 
-	/**
-	 * Unsets the value of the '{@link org.bimserver.models.ifc2x3tc1.IfcStructuralMember#getReferencesElement <em>References Element</em>}' reference list.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @see #isSetReferencesElement()
-	 * @see #getReferencesElement()
-	 * @generated
-	 */
-	void unsetReferencesElement();
+    /**
+     * Unsets the value of the '{@link org.bimserver.models.ifc2x3tc1.IfcStructuralMember#getReferencesElement <em>References Element</em>}' reference list.
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @see #isSetReferencesElement()
+     * @see #getReferencesElement()
+     * @generated
+     */
+    void unsetReferencesElement();
 
-	/**
-	 * Returns whether the value of the '{@link org.bimserver.models.ifc2x3tc1.IfcStructuralMember#getReferencesElement <em>References Element</em>}' reference list is set.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @return whether the value of the '<em>References Element</em>' reference list is set.
-	 * @see #unsetReferencesElement()
-	 * @see #getReferencesElement()
-	 * @generated
-	 */
-	boolean isSetReferencesElement();
+    /**
+     * Returns whether the value of the '{@link org.bimserver.models.ifc2x3tc1.IfcStructuralMember#getReferencesElement <em>References Element</em>}' reference list is set.
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @return whether the value of the '<em>References Element</em>' reference list is set.
+     * @see #unsetReferencesElement()
+     * @see #getReferencesElement()
+     * @generated
+     */
+    boolean isSetReferencesElement();
 
-	/**
-	 * Returns the value of the '<em><b>Connected By</b></em>' reference list.
-	 * The list contents are of type {@link org.bimserver.models.ifc2x3tc1.IfcRelConnectsStructuralMember}.
-	 * It is bidirectional and its opposite is '{@link org.bimserver.models.ifc2x3tc1.IfcRelConnectsStructuralMember#getRelatingStructuralMember <em>Relating Structural Member</em>}'.
-	 * <!-- begin-user-doc -->
-	 * <p>
-	 * If the meaning of the '<em>Connected By</em>' reference list isn't clear,
-	 * there really should be more of a description here...
-	 * </p>
-	 * <!-- end-user-doc -->
-	 * @return the value of the '<em>Connected By</em>' reference list.
-	 * @see #isSetConnectedBy()
-	 * @see #unsetConnectedBy()
-	 * @see org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package#getIfcStructuralMember_ConnectedBy()
-	 * @see org.bimserver.models.ifc2x3tc1.IfcRelConnectsStructuralMember#getRelatingStructuralMember
-	 * @model opposite="RelatingStructuralMember" unsettable="true"
-	 * @generated
-	 */
-	EList<IfcRelConnectsStructuralMember> getConnectedBy();
+    /**
+     * Returns the value of the '<em><b>Connected By</b></em>' reference list.
+     * The list contents are of type {@link org.bimserver.models.ifc2x3tc1.IfcRelConnectsStructuralMember}.
+     * It is bidirectional and its opposite is '{@link org.bimserver.models.ifc2x3tc1.IfcRelConnectsStructuralMember#getRelatingStructuralMember <em>Relating Structural Member</em>}'.
+     * <!-- begin-user-doc -->
+     * <p>
+     * If the meaning of the '<em>Connected By</em>' reference list isn't clear,
+     * there really should be more of a description here...
+     * </p>
+     * <!-- end-user-doc -->
+     * @return the value of the '<em>Connected By</em>' reference list.
+     * @see #isSetConnectedBy()
+     * @see #unsetConnectedBy()
+     * @see org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package#getIfcStructuralMember_ConnectedBy()
+     * @see org.bimserver.models.ifc2x3tc1.IfcRelConnectsStructuralMember#getRelatingStructuralMember
+     * @model opposite="RelatingStructuralMember" unsettable="true"
+     * @generated
+     */
+    EList<IfcRelConnectsStructuralMember> getConnectedBy();
 
-	/**
-	 * Unsets the value of the '{@link org.bimserver.models.ifc2x3tc1.IfcStructuralMember#getConnectedBy <em>Connected By</em>}' reference list.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @see #isSetConnectedBy()
-	 * @see #getConnectedBy()
-	 * @generated
-	 */
-	void unsetConnectedBy();
+    /**
+     * Unsets the value of the '{@link org.bimserver.models.ifc2x3tc1.IfcStructuralMember#getConnectedBy <em>Connected By</em>}' reference list.
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @see #isSetConnectedBy()
+     * @see #getConnectedBy()
+     * @generated
+     */
+    void unsetConnectedBy();
 
-	/**
-	 * Returns whether the value of the '{@link org.bimserver.models.ifc2x3tc1.IfcStructuralMember#getConnectedBy <em>Connected By</em>}' reference list is set.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @return whether the value of the '<em>Connected By</em>' reference list is set.
-	 * @see #unsetConnectedBy()
-	 * @see #getConnectedBy()
-	 * @generated
-	 */
-	boolean isSetConnectedBy();
+    /**
+     * Returns whether the value of the '{@link org.bimserver.models.ifc2x3tc1.IfcStructuralMember#getConnectedBy <em>Connected By</em>}' reference list is set.
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @return whether the value of the '<em>Connected By</em>' reference list is set.
+     * @see #unsetConnectedBy()
+     * @see #getConnectedBy()
+     * @generated
+     */
+    boolean isSetConnectedBy();
 
 } // IfcStructuralMember

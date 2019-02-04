@@ -20,6 +20,7 @@ import org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package;
 import org.bimserver.models.ifc2x3tc1.IfcConnectionGeometry;
 import org.bimserver.models.ifc2x3tc1.IfcElement;
 import org.bimserver.models.ifc2x3tc1.IfcRelConnectsElements;
+
 import org.eclipse.emf.ecore.EClass;
 
 /**
@@ -28,105 +29,106 @@ import org.eclipse.emf.ecore.EClass;
  * <!-- end-user-doc -->
  * <p>
  * The following features are implemented:
+ * </p>
  * <ul>
  *   <li>{@link org.bimserver.models.ifc2x3tc1.impl.IfcRelConnectsElementsImpl#getConnectionGeometry <em>Connection Geometry</em>}</li>
  *   <li>{@link org.bimserver.models.ifc2x3tc1.impl.IfcRelConnectsElementsImpl#getRelatingElement <em>Relating Element</em>}</li>
  *   <li>{@link org.bimserver.models.ifc2x3tc1.impl.IfcRelConnectsElementsImpl#getRelatedElement <em>Related Element</em>}</li>
  * </ul>
- * </p>
  *
  * @generated
  */
 public class IfcRelConnectsElementsImpl extends IfcRelConnectsImpl implements IfcRelConnectsElements {
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	protected IfcRelConnectsElementsImpl() {
-		super();
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    protected IfcRelConnectsElementsImpl() {
+        super();
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	@Override
-	protected EClass eStaticClass() {
-		return Ifc2x3tc1Package.Literals.IFC_REL_CONNECTS_ELEMENTS;
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    @Override
+    protected EClass eStaticClass() {
+        return Ifc2x3tc1Package.Literals.IFC_REL_CONNECTS_ELEMENTS;
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public IfcConnectionGeometry getConnectionGeometry() {
-		return (IfcConnectionGeometry) eGet(Ifc2x3tc1Package.Literals.IFC_REL_CONNECTS_ELEMENTS__CONNECTION_GEOMETRY, true);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public IfcConnectionGeometry getConnectionGeometry() {
+        return (IfcConnectionGeometry) eGet(Ifc2x3tc1Package.Literals.IFC_REL_CONNECTS_ELEMENTS__CONNECTION_GEOMETRY,
+                true);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public void setConnectionGeometry(IfcConnectionGeometry newConnectionGeometry) {
-		eSet(Ifc2x3tc1Package.Literals.IFC_REL_CONNECTS_ELEMENTS__CONNECTION_GEOMETRY, newConnectionGeometry);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public void setConnectionGeometry(IfcConnectionGeometry newConnectionGeometry) {
+        eSet(Ifc2x3tc1Package.Literals.IFC_REL_CONNECTS_ELEMENTS__CONNECTION_GEOMETRY, newConnectionGeometry);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public void unsetConnectionGeometry() {
-		eUnset(Ifc2x3tc1Package.Literals.IFC_REL_CONNECTS_ELEMENTS__CONNECTION_GEOMETRY);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public void unsetConnectionGeometry() {
+        eUnset(Ifc2x3tc1Package.Literals.IFC_REL_CONNECTS_ELEMENTS__CONNECTION_GEOMETRY);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public boolean isSetConnectionGeometry() {
-		return eIsSet(Ifc2x3tc1Package.Literals.IFC_REL_CONNECTS_ELEMENTS__CONNECTION_GEOMETRY);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public boolean isSetConnectionGeometry() {
+        return eIsSet(Ifc2x3tc1Package.Literals.IFC_REL_CONNECTS_ELEMENTS__CONNECTION_GEOMETRY);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public IfcElement getRelatingElement() {
-		return (IfcElement) eGet(Ifc2x3tc1Package.Literals.IFC_REL_CONNECTS_ELEMENTS__RELATING_ELEMENT, true);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public IfcElement getRelatingElement() {
+        return (IfcElement) eGet(Ifc2x3tc1Package.Literals.IFC_REL_CONNECTS_ELEMENTS__RELATING_ELEMENT, true);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public void setRelatingElement(IfcElement newRelatingElement) {
-		eSet(Ifc2x3tc1Package.Literals.IFC_REL_CONNECTS_ELEMENTS__RELATING_ELEMENT, newRelatingElement);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public void setRelatingElement(IfcElement newRelatingElement) {
+        eSet(Ifc2x3tc1Package.Literals.IFC_REL_CONNECTS_ELEMENTS__RELATING_ELEMENT, newRelatingElement);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public IfcElement getRelatedElement() {
-		return (IfcElement) eGet(Ifc2x3tc1Package.Literals.IFC_REL_CONNECTS_ELEMENTS__RELATED_ELEMENT, true);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public IfcElement getRelatedElement() {
+        return (IfcElement) eGet(Ifc2x3tc1Package.Literals.IFC_REL_CONNECTS_ELEMENTS__RELATED_ELEMENT, true);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public void setRelatedElement(IfcElement newRelatedElement) {
-		eSet(Ifc2x3tc1Package.Literals.IFC_REL_CONNECTS_ELEMENTS__RELATED_ELEMENT, newRelatedElement);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public void setRelatedElement(IfcElement newRelatedElement) {
+        eSet(Ifc2x3tc1Package.Literals.IFC_REL_CONNECTS_ELEMENTS__RELATED_ELEMENT, newRelatedElement);
+    }
 
 } //IfcRelConnectsElementsImpl

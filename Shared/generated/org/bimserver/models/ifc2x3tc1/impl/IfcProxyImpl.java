@@ -19,6 +19,7 @@ package org.bimserver.models.ifc2x3tc1.impl;
 import org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package;
 import org.bimserver.models.ifc2x3tc1.IfcObjectTypeEnum;
 import org.bimserver.models.ifc2x3tc1.IfcProxy;
+
 import org.eclipse.emf.ecore.EClass;
 
 /**
@@ -27,86 +28,86 @@ import org.eclipse.emf.ecore.EClass;
  * <!-- end-user-doc -->
  * <p>
  * The following features are implemented:
+ * </p>
  * <ul>
  *   <li>{@link org.bimserver.models.ifc2x3tc1.impl.IfcProxyImpl#getProxyType <em>Proxy Type</em>}</li>
  *   <li>{@link org.bimserver.models.ifc2x3tc1.impl.IfcProxyImpl#getTag <em>Tag</em>}</li>
  * </ul>
- * </p>
  *
  * @generated
  */
 public class IfcProxyImpl extends IfcProductImpl implements IfcProxy {
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	protected IfcProxyImpl() {
-		super();
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    protected IfcProxyImpl() {
+        super();
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	@Override
-	protected EClass eStaticClass() {
-		return Ifc2x3tc1Package.Literals.IFC_PROXY;
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    @Override
+    protected EClass eStaticClass() {
+        return Ifc2x3tc1Package.Literals.IFC_PROXY;
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public IfcObjectTypeEnum getProxyType() {
-		return (IfcObjectTypeEnum) eGet(Ifc2x3tc1Package.Literals.IFC_PROXY__PROXY_TYPE, true);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public IfcObjectTypeEnum getProxyType() {
+        return (IfcObjectTypeEnum) eGet(Ifc2x3tc1Package.Literals.IFC_PROXY__PROXY_TYPE, true);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public void setProxyType(IfcObjectTypeEnum newProxyType) {
-		eSet(Ifc2x3tc1Package.Literals.IFC_PROXY__PROXY_TYPE, newProxyType);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public void setProxyType(IfcObjectTypeEnum newProxyType) {
+        eSet(Ifc2x3tc1Package.Literals.IFC_PROXY__PROXY_TYPE, newProxyType);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public String getTag() {
-		return (String) eGet(Ifc2x3tc1Package.Literals.IFC_PROXY__TAG, true);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public String getTag() {
+        return (String) eGet(Ifc2x3tc1Package.Literals.IFC_PROXY__TAG, true);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public void setTag(String newTag) {
-		eSet(Ifc2x3tc1Package.Literals.IFC_PROXY__TAG, newTag);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public void setTag(String newTag) {
+        eSet(Ifc2x3tc1Package.Literals.IFC_PROXY__TAG, newTag);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public void unsetTag() {
-		eUnset(Ifc2x3tc1Package.Literals.IFC_PROXY__TAG);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public void unsetTag() {
+        eUnset(Ifc2x3tc1Package.Literals.IFC_PROXY__TAG);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public boolean isSetTag() {
-		return eIsSet(Ifc2x3tc1Package.Literals.IFC_PROXY__TAG);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public boolean isSetTag() {
+        return eIsSet(Ifc2x3tc1Package.Literals.IFC_PROXY__TAG);
+    }
 
 } //IfcProxyImpl

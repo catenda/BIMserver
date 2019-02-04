@@ -19,6 +19,7 @@ package org.bimserver.models.ifc2x3tc1.impl;
 import org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package;
 import org.bimserver.models.ifc2x3tc1.IfcClassification;
 import org.bimserver.models.ifc2x3tc1.IfcClassificationReference;
+
 import org.eclipse.emf.ecore.EClass;
 
 /**
@@ -27,67 +28,68 @@ import org.eclipse.emf.ecore.EClass;
  * <!-- end-user-doc -->
  * <p>
  * The following features are implemented:
+ * </p>
  * <ul>
  *   <li>{@link org.bimserver.models.ifc2x3tc1.impl.IfcClassificationReferenceImpl#getReferencedSource <em>Referenced Source</em>}</li>
  * </ul>
- * </p>
  *
  * @generated
  */
 public class IfcClassificationReferenceImpl extends IfcExternalReferenceImpl implements IfcClassificationReference {
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	protected IfcClassificationReferenceImpl() {
-		super();
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    protected IfcClassificationReferenceImpl() {
+        super();
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	@Override
-	protected EClass eStaticClass() {
-		return Ifc2x3tc1Package.Literals.IFC_CLASSIFICATION_REFERENCE;
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    @Override
+    protected EClass eStaticClass() {
+        return Ifc2x3tc1Package.Literals.IFC_CLASSIFICATION_REFERENCE;
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public IfcClassification getReferencedSource() {
-		return (IfcClassification) eGet(Ifc2x3tc1Package.Literals.IFC_CLASSIFICATION_REFERENCE__REFERENCED_SOURCE, true);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public IfcClassification getReferencedSource() {
+        return (IfcClassification) eGet(Ifc2x3tc1Package.Literals.IFC_CLASSIFICATION_REFERENCE__REFERENCED_SOURCE,
+                true);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public void setReferencedSource(IfcClassification newReferencedSource) {
-		eSet(Ifc2x3tc1Package.Literals.IFC_CLASSIFICATION_REFERENCE__REFERENCED_SOURCE, newReferencedSource);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public void setReferencedSource(IfcClassification newReferencedSource) {
+        eSet(Ifc2x3tc1Package.Literals.IFC_CLASSIFICATION_REFERENCE__REFERENCED_SOURCE, newReferencedSource);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public void unsetReferencedSource() {
-		eUnset(Ifc2x3tc1Package.Literals.IFC_CLASSIFICATION_REFERENCE__REFERENCED_SOURCE);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public void unsetReferencedSource() {
+        eUnset(Ifc2x3tc1Package.Literals.IFC_CLASSIFICATION_REFERENCE__REFERENCED_SOURCE);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public boolean isSetReferencedSource() {
-		return eIsSet(Ifc2x3tc1Package.Literals.IFC_CLASSIFICATION_REFERENCE__REFERENCED_SOURCE);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public boolean isSetReferencedSource() {
+        return eIsSet(Ifc2x3tc1Package.Literals.IFC_CLASSIFICATION_REFERENCE__REFERENCED_SOURCE);
+    }
 
 } //IfcClassificationReferenceImpl

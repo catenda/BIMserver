@@ -18,6 +18,7 @@ package org.bimserver.models.ifc2x3tc1.impl;
 
 import org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package;
 import org.bimserver.models.ifc2x3tc1.IfcCenterLineProfileDef;
+
 import org.eclipse.emf.ecore.EClass;
 
 /**
@@ -26,68 +27,68 @@ import org.eclipse.emf.ecore.EClass;
  * <!-- end-user-doc -->
  * <p>
  * The following features are implemented:
+ * </p>
  * <ul>
  *   <li>{@link org.bimserver.models.ifc2x3tc1.impl.IfcCenterLineProfileDefImpl#getThickness <em>Thickness</em>}</li>
  *   <li>{@link org.bimserver.models.ifc2x3tc1.impl.IfcCenterLineProfileDefImpl#getThicknessAsString <em>Thickness As String</em>}</li>
  * </ul>
- * </p>
  *
  * @generated
  */
 public class IfcCenterLineProfileDefImpl extends IfcArbitraryOpenProfileDefImpl implements IfcCenterLineProfileDef {
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	protected IfcCenterLineProfileDefImpl() {
-		super();
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    protected IfcCenterLineProfileDefImpl() {
+        super();
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	@Override
-	protected EClass eStaticClass() {
-		return Ifc2x3tc1Package.Literals.IFC_CENTER_LINE_PROFILE_DEF;
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    @Override
+    protected EClass eStaticClass() {
+        return Ifc2x3tc1Package.Literals.IFC_CENTER_LINE_PROFILE_DEF;
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public double getThickness() {
-		return (Double) eGet(Ifc2x3tc1Package.Literals.IFC_CENTER_LINE_PROFILE_DEF__THICKNESS, true);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public double getThickness() {
+        return (Double) eGet(Ifc2x3tc1Package.Literals.IFC_CENTER_LINE_PROFILE_DEF__THICKNESS, true);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public void setThickness(double newThickness) {
-		eSet(Ifc2x3tc1Package.Literals.IFC_CENTER_LINE_PROFILE_DEF__THICKNESS, newThickness);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public void setThickness(double newThickness) {
+        eSet(Ifc2x3tc1Package.Literals.IFC_CENTER_LINE_PROFILE_DEF__THICKNESS, newThickness);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public String getThicknessAsString() {
-		return (String) eGet(Ifc2x3tc1Package.Literals.IFC_CENTER_LINE_PROFILE_DEF__THICKNESS_AS_STRING, true);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public String getThicknessAsString() {
+        return (String) eGet(Ifc2x3tc1Package.Literals.IFC_CENTER_LINE_PROFILE_DEF__THICKNESS_AS_STRING, true);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public void setThicknessAsString(String newThicknessAsString) {
-		eSet(Ifc2x3tc1Package.Literals.IFC_CENTER_LINE_PROFILE_DEF__THICKNESS_AS_STRING, newThicknessAsString);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public void setThicknessAsString(String newThicknessAsString) {
+        eSet(Ifc2x3tc1Package.Literals.IFC_CENTER_LINE_PROFILE_DEF__THICKNESS_AS_STRING, newThicknessAsString);
+    }
 
 } //IfcCenterLineProfileDefImpl

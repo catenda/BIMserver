@@ -18,6 +18,7 @@ package org.bimserver.models.ifc2x3tc1.impl;
 
 import org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package;
 import org.bimserver.models.ifc2x3tc1.IfcCircleHollowProfileDef;
+
 import org.eclipse.emf.ecore.EClass;
 
 /**
@@ -26,68 +27,69 @@ import org.eclipse.emf.ecore.EClass;
  * <!-- end-user-doc -->
  * <p>
  * The following features are implemented:
+ * </p>
  * <ul>
  *   <li>{@link org.bimserver.models.ifc2x3tc1.impl.IfcCircleHollowProfileDefImpl#getWallThickness <em>Wall Thickness</em>}</li>
  *   <li>{@link org.bimserver.models.ifc2x3tc1.impl.IfcCircleHollowProfileDefImpl#getWallThicknessAsString <em>Wall Thickness As String</em>}</li>
  * </ul>
- * </p>
  *
  * @generated
  */
 public class IfcCircleHollowProfileDefImpl extends IfcCircleProfileDefImpl implements IfcCircleHollowProfileDef {
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	protected IfcCircleHollowProfileDefImpl() {
-		super();
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    protected IfcCircleHollowProfileDefImpl() {
+        super();
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	@Override
-	protected EClass eStaticClass() {
-		return Ifc2x3tc1Package.Literals.IFC_CIRCLE_HOLLOW_PROFILE_DEF;
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    @Override
+    protected EClass eStaticClass() {
+        return Ifc2x3tc1Package.Literals.IFC_CIRCLE_HOLLOW_PROFILE_DEF;
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public double getWallThickness() {
-		return (Double) eGet(Ifc2x3tc1Package.Literals.IFC_CIRCLE_HOLLOW_PROFILE_DEF__WALL_THICKNESS, true);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public double getWallThickness() {
+        return (Double) eGet(Ifc2x3tc1Package.Literals.IFC_CIRCLE_HOLLOW_PROFILE_DEF__WALL_THICKNESS, true);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public void setWallThickness(double newWallThickness) {
-		eSet(Ifc2x3tc1Package.Literals.IFC_CIRCLE_HOLLOW_PROFILE_DEF__WALL_THICKNESS, newWallThickness);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public void setWallThickness(double newWallThickness) {
+        eSet(Ifc2x3tc1Package.Literals.IFC_CIRCLE_HOLLOW_PROFILE_DEF__WALL_THICKNESS, newWallThickness);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public String getWallThicknessAsString() {
-		return (String) eGet(Ifc2x3tc1Package.Literals.IFC_CIRCLE_HOLLOW_PROFILE_DEF__WALL_THICKNESS_AS_STRING, true);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public String getWallThicknessAsString() {
+        return (String) eGet(Ifc2x3tc1Package.Literals.IFC_CIRCLE_HOLLOW_PROFILE_DEF__WALL_THICKNESS_AS_STRING, true);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public void setWallThicknessAsString(String newWallThicknessAsString) {
-		eSet(Ifc2x3tc1Package.Literals.IFC_CIRCLE_HOLLOW_PROFILE_DEF__WALL_THICKNESS_AS_STRING, newWallThicknessAsString);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public void setWallThicknessAsString(String newWallThicknessAsString) {
+        eSet(Ifc2x3tc1Package.Literals.IFC_CIRCLE_HOLLOW_PROFILE_DEF__WALL_THICKNESS_AS_STRING,
+                newWallThicknessAsString);
+    }
 
 } //IfcCircleHollowProfileDefImpl

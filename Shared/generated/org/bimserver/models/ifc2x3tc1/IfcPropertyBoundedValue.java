@@ -23,175 +23,175 @@ package org.bimserver.models.ifc2x3tc1;
  *
  * <p>
  * The following features are supported:
+ * </p>
  * <ul>
  *   <li>{@link org.bimserver.models.ifc2x3tc1.IfcPropertyBoundedValue#getUpperBoundValue <em>Upper Bound Value</em>}</li>
  *   <li>{@link org.bimserver.models.ifc2x3tc1.IfcPropertyBoundedValue#getLowerBoundValue <em>Lower Bound Value</em>}</li>
  *   <li>{@link org.bimserver.models.ifc2x3tc1.IfcPropertyBoundedValue#getUnit <em>Unit</em>}</li>
  * </ul>
- * </p>
  *
  * @see org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package#getIfcPropertyBoundedValue()
  * @model
  * @generated
  */
 public interface IfcPropertyBoundedValue extends IfcSimpleProperty {
-	/**
-	 * Returns the value of the '<em><b>Upper Bound Value</b></em>' reference.
-	 * <!-- begin-user-doc -->
-	 * <p>
-	 * If the meaning of the '<em>Upper Bound Value</em>' reference isn't clear,
-	 * there really should be more of a description here...
-	 * </p>
-	 * <!-- end-user-doc -->
-	 * @return the value of the '<em>Upper Bound Value</em>' reference.
-	 * @see #isSetUpperBoundValue()
-	 * @see #unsetUpperBoundValue()
-	 * @see #setUpperBoundValue(IfcValue)
-	 * @see org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package#getIfcPropertyBoundedValue_UpperBoundValue()
-	 * @model unsettable="true"
-	 * @generated
-	 */
-	IfcValue getUpperBoundValue();
+    /**
+     * Returns the value of the '<em><b>Upper Bound Value</b></em>' reference.
+     * <!-- begin-user-doc -->
+     * <p>
+     * If the meaning of the '<em>Upper Bound Value</em>' reference isn't clear,
+     * there really should be more of a description here...
+     * </p>
+     * <!-- end-user-doc -->
+     * @return the value of the '<em>Upper Bound Value</em>' reference.
+     * @see #isSetUpperBoundValue()
+     * @see #unsetUpperBoundValue()
+     * @see #setUpperBoundValue(IfcValue)
+     * @see org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package#getIfcPropertyBoundedValue_UpperBoundValue()
+     * @model unsettable="true"
+     * @generated
+     */
+    IfcValue getUpperBoundValue();
 
-	/**
-	 * Sets the value of the '{@link org.bimserver.models.ifc2x3tc1.IfcPropertyBoundedValue#getUpperBoundValue <em>Upper Bound Value</em>}' reference.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @param value the new value of the '<em>Upper Bound Value</em>' reference.
-	 * @see #isSetUpperBoundValue()
-	 * @see #unsetUpperBoundValue()
-	 * @see #getUpperBoundValue()
-	 * @generated
-	 */
-	void setUpperBoundValue(IfcValue value);
+    /**
+     * Sets the value of the '{@link org.bimserver.models.ifc2x3tc1.IfcPropertyBoundedValue#getUpperBoundValue <em>Upper Bound Value</em>}' reference.
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @param value the new value of the '<em>Upper Bound Value</em>' reference.
+     * @see #isSetUpperBoundValue()
+     * @see #unsetUpperBoundValue()
+     * @see #getUpperBoundValue()
+     * @generated
+     */
+    void setUpperBoundValue(IfcValue value);
 
-	/**
-	 * Unsets the value of the '{@link org.bimserver.models.ifc2x3tc1.IfcPropertyBoundedValue#getUpperBoundValue <em>Upper Bound Value</em>}' reference.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @see #isSetUpperBoundValue()
-	 * @see #getUpperBoundValue()
-	 * @see #setUpperBoundValue(IfcValue)
-	 * @generated
-	 */
-	void unsetUpperBoundValue();
+    /**
+     * Unsets the value of the '{@link org.bimserver.models.ifc2x3tc1.IfcPropertyBoundedValue#getUpperBoundValue <em>Upper Bound Value</em>}' reference.
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @see #isSetUpperBoundValue()
+     * @see #getUpperBoundValue()
+     * @see #setUpperBoundValue(IfcValue)
+     * @generated
+     */
+    void unsetUpperBoundValue();
 
-	/**
-	 * Returns whether the value of the '{@link org.bimserver.models.ifc2x3tc1.IfcPropertyBoundedValue#getUpperBoundValue <em>Upper Bound Value</em>}' reference is set.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @return whether the value of the '<em>Upper Bound Value</em>' reference is set.
-	 * @see #unsetUpperBoundValue()
-	 * @see #getUpperBoundValue()
-	 * @see #setUpperBoundValue(IfcValue)
-	 * @generated
-	 */
-	boolean isSetUpperBoundValue();
+    /**
+     * Returns whether the value of the '{@link org.bimserver.models.ifc2x3tc1.IfcPropertyBoundedValue#getUpperBoundValue <em>Upper Bound Value</em>}' reference is set.
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @return whether the value of the '<em>Upper Bound Value</em>' reference is set.
+     * @see #unsetUpperBoundValue()
+     * @see #getUpperBoundValue()
+     * @see #setUpperBoundValue(IfcValue)
+     * @generated
+     */
+    boolean isSetUpperBoundValue();
 
-	/**
-	 * Returns the value of the '<em><b>Lower Bound Value</b></em>' reference.
-	 * <!-- begin-user-doc -->
-	 * <p>
-	 * If the meaning of the '<em>Lower Bound Value</em>' reference isn't clear,
-	 * there really should be more of a description here...
-	 * </p>
-	 * <!-- end-user-doc -->
-	 * @return the value of the '<em>Lower Bound Value</em>' reference.
-	 * @see #isSetLowerBoundValue()
-	 * @see #unsetLowerBoundValue()
-	 * @see #setLowerBoundValue(IfcValue)
-	 * @see org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package#getIfcPropertyBoundedValue_LowerBoundValue()
-	 * @model unsettable="true"
-	 * @generated
-	 */
-	IfcValue getLowerBoundValue();
+    /**
+     * Returns the value of the '<em><b>Lower Bound Value</b></em>' reference.
+     * <!-- begin-user-doc -->
+     * <p>
+     * If the meaning of the '<em>Lower Bound Value</em>' reference isn't clear,
+     * there really should be more of a description here...
+     * </p>
+     * <!-- end-user-doc -->
+     * @return the value of the '<em>Lower Bound Value</em>' reference.
+     * @see #isSetLowerBoundValue()
+     * @see #unsetLowerBoundValue()
+     * @see #setLowerBoundValue(IfcValue)
+     * @see org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package#getIfcPropertyBoundedValue_LowerBoundValue()
+     * @model unsettable="true"
+     * @generated
+     */
+    IfcValue getLowerBoundValue();
 
-	/**
-	 * Sets the value of the '{@link org.bimserver.models.ifc2x3tc1.IfcPropertyBoundedValue#getLowerBoundValue <em>Lower Bound Value</em>}' reference.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @param value the new value of the '<em>Lower Bound Value</em>' reference.
-	 * @see #isSetLowerBoundValue()
-	 * @see #unsetLowerBoundValue()
-	 * @see #getLowerBoundValue()
-	 * @generated
-	 */
-	void setLowerBoundValue(IfcValue value);
+    /**
+     * Sets the value of the '{@link org.bimserver.models.ifc2x3tc1.IfcPropertyBoundedValue#getLowerBoundValue <em>Lower Bound Value</em>}' reference.
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @param value the new value of the '<em>Lower Bound Value</em>' reference.
+     * @see #isSetLowerBoundValue()
+     * @see #unsetLowerBoundValue()
+     * @see #getLowerBoundValue()
+     * @generated
+     */
+    void setLowerBoundValue(IfcValue value);
 
-	/**
-	 * Unsets the value of the '{@link org.bimserver.models.ifc2x3tc1.IfcPropertyBoundedValue#getLowerBoundValue <em>Lower Bound Value</em>}' reference.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @see #isSetLowerBoundValue()
-	 * @see #getLowerBoundValue()
-	 * @see #setLowerBoundValue(IfcValue)
-	 * @generated
-	 */
-	void unsetLowerBoundValue();
+    /**
+     * Unsets the value of the '{@link org.bimserver.models.ifc2x3tc1.IfcPropertyBoundedValue#getLowerBoundValue <em>Lower Bound Value</em>}' reference.
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @see #isSetLowerBoundValue()
+     * @see #getLowerBoundValue()
+     * @see #setLowerBoundValue(IfcValue)
+     * @generated
+     */
+    void unsetLowerBoundValue();
 
-	/**
-	 * Returns whether the value of the '{@link org.bimserver.models.ifc2x3tc1.IfcPropertyBoundedValue#getLowerBoundValue <em>Lower Bound Value</em>}' reference is set.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @return whether the value of the '<em>Lower Bound Value</em>' reference is set.
-	 * @see #unsetLowerBoundValue()
-	 * @see #getLowerBoundValue()
-	 * @see #setLowerBoundValue(IfcValue)
-	 * @generated
-	 */
-	boolean isSetLowerBoundValue();
+    /**
+     * Returns whether the value of the '{@link org.bimserver.models.ifc2x3tc1.IfcPropertyBoundedValue#getLowerBoundValue <em>Lower Bound Value</em>}' reference is set.
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @return whether the value of the '<em>Lower Bound Value</em>' reference is set.
+     * @see #unsetLowerBoundValue()
+     * @see #getLowerBoundValue()
+     * @see #setLowerBoundValue(IfcValue)
+     * @generated
+     */
+    boolean isSetLowerBoundValue();
 
-	/**
-	 * Returns the value of the '<em><b>Unit</b></em>' reference.
-	 * <!-- begin-user-doc -->
-	 * <p>
-	 * If the meaning of the '<em>Unit</em>' reference isn't clear,
-	 * there really should be more of a description here...
-	 * </p>
-	 * <!-- end-user-doc -->
-	 * @return the value of the '<em>Unit</em>' reference.
-	 * @see #isSetUnit()
-	 * @see #unsetUnit()
-	 * @see #setUnit(IfcUnit)
-	 * @see org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package#getIfcPropertyBoundedValue_Unit()
-	 * @model unsettable="true"
-	 * @generated
-	 */
-	IfcUnit getUnit();
+    /**
+     * Returns the value of the '<em><b>Unit</b></em>' reference.
+     * <!-- begin-user-doc -->
+     * <p>
+     * If the meaning of the '<em>Unit</em>' reference isn't clear,
+     * there really should be more of a description here...
+     * </p>
+     * <!-- end-user-doc -->
+     * @return the value of the '<em>Unit</em>' reference.
+     * @see #isSetUnit()
+     * @see #unsetUnit()
+     * @see #setUnit(IfcUnit)
+     * @see org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package#getIfcPropertyBoundedValue_Unit()
+     * @model unsettable="true"
+     * @generated
+     */
+    IfcUnit getUnit();
 
-	/**
-	 * Sets the value of the '{@link org.bimserver.models.ifc2x3tc1.IfcPropertyBoundedValue#getUnit <em>Unit</em>}' reference.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @param value the new value of the '<em>Unit</em>' reference.
-	 * @see #isSetUnit()
-	 * @see #unsetUnit()
-	 * @see #getUnit()
-	 * @generated
-	 */
-	void setUnit(IfcUnit value);
+    /**
+     * Sets the value of the '{@link org.bimserver.models.ifc2x3tc1.IfcPropertyBoundedValue#getUnit <em>Unit</em>}' reference.
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @param value the new value of the '<em>Unit</em>' reference.
+     * @see #isSetUnit()
+     * @see #unsetUnit()
+     * @see #getUnit()
+     * @generated
+     */
+    void setUnit(IfcUnit value);
 
-	/**
-	 * Unsets the value of the '{@link org.bimserver.models.ifc2x3tc1.IfcPropertyBoundedValue#getUnit <em>Unit</em>}' reference.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @see #isSetUnit()
-	 * @see #getUnit()
-	 * @see #setUnit(IfcUnit)
-	 * @generated
-	 */
-	void unsetUnit();
+    /**
+     * Unsets the value of the '{@link org.bimserver.models.ifc2x3tc1.IfcPropertyBoundedValue#getUnit <em>Unit</em>}' reference.
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @see #isSetUnit()
+     * @see #getUnit()
+     * @see #setUnit(IfcUnit)
+     * @generated
+     */
+    void unsetUnit();
 
-	/**
-	 * Returns whether the value of the '{@link org.bimserver.models.ifc2x3tc1.IfcPropertyBoundedValue#getUnit <em>Unit</em>}' reference is set.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @return whether the value of the '<em>Unit</em>' reference is set.
-	 * @see #unsetUnit()
-	 * @see #getUnit()
-	 * @see #setUnit(IfcUnit)
-	 * @generated
-	 */
-	boolean isSetUnit();
+    /**
+     * Returns whether the value of the '{@link org.bimserver.models.ifc2x3tc1.IfcPropertyBoundedValue#getUnit <em>Unit</em>}' reference is set.
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @return whether the value of the '<em>Unit</em>' reference is set.
+     * @see #unsetUnit()
+     * @see #getUnit()
+     * @see #setUnit(IfcUnit)
+     * @generated
+     */
+    boolean isSetUnit();
 
 } // IfcPropertyBoundedValue

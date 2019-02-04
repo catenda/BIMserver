@@ -25,55 +25,55 @@ import org.eclipse.emf.common.util.EList;
  *
  * <p>
  * The following features are supported:
+ * </p>
  * <ul>
  *   <li>{@link org.bimserver.models.ifc2x3tc1.IfcSystem#getServicesBuildings <em>Services Buildings</em>}</li>
  * </ul>
- * </p>
  *
  * @see org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package#getIfcSystem()
  * @model
  * @generated
  */
 public interface IfcSystem extends IfcGroup {
-	/**
-	 * Returns the value of the '<em><b>Services Buildings</b></em>' reference list.
-	 * The list contents are of type {@link org.bimserver.models.ifc2x3tc1.IfcRelServicesBuildings}.
-	 * It is bidirectional and its opposite is '{@link org.bimserver.models.ifc2x3tc1.IfcRelServicesBuildings#getRelatingSystem <em>Relating System</em>}'.
-	 * <!-- begin-user-doc -->
-	 * <p>
-	 * If the meaning of the '<em>Services Buildings</em>' reference list isn't clear,
-	 * there really should be more of a description here...
-	 * </p>
-	 * <!-- end-user-doc -->
-	 * @return the value of the '<em>Services Buildings</em>' reference list.
-	 * @see #isSetServicesBuildings()
-	 * @see #unsetServicesBuildings()
-	 * @see org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package#getIfcSystem_ServicesBuildings()
-	 * @see org.bimserver.models.ifc2x3tc1.IfcRelServicesBuildings#getRelatingSystem
-	 * @model opposite="RelatingSystem" unsettable="true" upper="2"
-	 * @generated
-	 */
-	EList<IfcRelServicesBuildings> getServicesBuildings();
+    /**
+     * Returns the value of the '<em><b>Services Buildings</b></em>' reference list.
+     * The list contents are of type {@link org.bimserver.models.ifc2x3tc1.IfcRelServicesBuildings}.
+     * It is bidirectional and its opposite is '{@link org.bimserver.models.ifc2x3tc1.IfcRelServicesBuildings#getRelatingSystem <em>Relating System</em>}'.
+     * <!-- begin-user-doc -->
+     * <p>
+     * If the meaning of the '<em>Services Buildings</em>' reference list isn't clear,
+     * there really should be more of a description here...
+     * </p>
+     * <!-- end-user-doc -->
+     * @return the value of the '<em>Services Buildings</em>' reference list.
+     * @see #isSetServicesBuildings()
+     * @see #unsetServicesBuildings()
+     * @see org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package#getIfcSystem_ServicesBuildings()
+     * @see org.bimserver.models.ifc2x3tc1.IfcRelServicesBuildings#getRelatingSystem
+     * @model opposite="RelatingSystem" unsettable="true" upper="2"
+     * @generated
+     */
+    EList<IfcRelServicesBuildings> getServicesBuildings();
 
-	/**
-	 * Unsets the value of the '{@link org.bimserver.models.ifc2x3tc1.IfcSystem#getServicesBuildings <em>Services Buildings</em>}' reference list.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @see #isSetServicesBuildings()
-	 * @see #getServicesBuildings()
-	 * @generated
-	 */
-	void unsetServicesBuildings();
+    /**
+     * Unsets the value of the '{@link org.bimserver.models.ifc2x3tc1.IfcSystem#getServicesBuildings <em>Services Buildings</em>}' reference list.
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @see #isSetServicesBuildings()
+     * @see #getServicesBuildings()
+     * @generated
+     */
+    void unsetServicesBuildings();
 
-	/**
-	 * Returns whether the value of the '{@link org.bimserver.models.ifc2x3tc1.IfcSystem#getServicesBuildings <em>Services Buildings</em>}' reference list is set.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @return whether the value of the '<em>Services Buildings</em>' reference list is set.
-	 * @see #unsetServicesBuildings()
-	 * @see #getServicesBuildings()
-	 * @generated
-	 */
-	boolean isSetServicesBuildings();
+    /**
+     * Returns whether the value of the '{@link org.bimserver.models.ifc2x3tc1.IfcSystem#getServicesBuildings <em>Services Buildings</em>}' reference list is set.
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @return whether the value of the '<em>Services Buildings</em>' reference list is set.
+     * @see #unsetServicesBuildings()
+     * @see #getServicesBuildings()
+     * @generated
+     */
+    boolean isSetServicesBuildings();
 
 } // IfcSystem

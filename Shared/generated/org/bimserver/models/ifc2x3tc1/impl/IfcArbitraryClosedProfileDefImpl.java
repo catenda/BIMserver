@@ -19,6 +19,7 @@ package org.bimserver.models.ifc2x3tc1.impl;
 import org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package;
 import org.bimserver.models.ifc2x3tc1.IfcArbitraryClosedProfileDef;
 import org.bimserver.models.ifc2x3tc1.IfcCurve;
+
 import org.eclipse.emf.ecore.EClass;
 
 /**
@@ -27,49 +28,49 @@ import org.eclipse.emf.ecore.EClass;
  * <!-- end-user-doc -->
  * <p>
  * The following features are implemented:
+ * </p>
  * <ul>
  *   <li>{@link org.bimserver.models.ifc2x3tc1.impl.IfcArbitraryClosedProfileDefImpl#getOuterCurve <em>Outer Curve</em>}</li>
  * </ul>
- * </p>
  *
  * @generated
  */
 public class IfcArbitraryClosedProfileDefImpl extends IfcProfileDefImpl implements IfcArbitraryClosedProfileDef {
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	protected IfcArbitraryClosedProfileDefImpl() {
-		super();
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    protected IfcArbitraryClosedProfileDefImpl() {
+        super();
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	@Override
-	protected EClass eStaticClass() {
-		return Ifc2x3tc1Package.Literals.IFC_ARBITRARY_CLOSED_PROFILE_DEF;
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    @Override
+    protected EClass eStaticClass() {
+        return Ifc2x3tc1Package.Literals.IFC_ARBITRARY_CLOSED_PROFILE_DEF;
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public IfcCurve getOuterCurve() {
-		return (IfcCurve) eGet(Ifc2x3tc1Package.Literals.IFC_ARBITRARY_CLOSED_PROFILE_DEF__OUTER_CURVE, true);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public IfcCurve getOuterCurve() {
+        return (IfcCurve) eGet(Ifc2x3tc1Package.Literals.IFC_ARBITRARY_CLOSED_PROFILE_DEF__OUTER_CURVE, true);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public void setOuterCurve(IfcCurve newOuterCurve) {
-		eSet(Ifc2x3tc1Package.Literals.IFC_ARBITRARY_CLOSED_PROFILE_DEF__OUTER_CURVE, newOuterCurve);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public void setOuterCurve(IfcCurve newOuterCurve) {
+        eSet(Ifc2x3tc1Package.Literals.IFC_ARBITRARY_CLOSED_PROFILE_DEF__OUTER_CURVE, newOuterCurve);
+    }
 
 } //IfcArbitraryClosedProfileDefImpl

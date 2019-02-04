@@ -19,6 +19,7 @@ package org.bimserver.models.ifc2x3tc1.impl;
 import org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package;
 import org.bimserver.models.ifc2x3tc1.IfcElectricGeneratorType;
 import org.bimserver.models.ifc2x3tc1.IfcElectricGeneratorTypeEnum;
+
 import org.eclipse.emf.ecore.EClass;
 
 /**
@@ -27,49 +28,51 @@ import org.eclipse.emf.ecore.EClass;
  * <!-- end-user-doc -->
  * <p>
  * The following features are implemented:
+ * </p>
  * <ul>
  *   <li>{@link org.bimserver.models.ifc2x3tc1.impl.IfcElectricGeneratorTypeImpl#getPredefinedType <em>Predefined Type</em>}</li>
  * </ul>
- * </p>
  *
  * @generated
  */
-public class IfcElectricGeneratorTypeImpl extends IfcEnergyConversionDeviceTypeImpl implements IfcElectricGeneratorType {
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	protected IfcElectricGeneratorTypeImpl() {
-		super();
-	}
+public class IfcElectricGeneratorTypeImpl extends IfcEnergyConversionDeviceTypeImpl
+        implements IfcElectricGeneratorType {
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    protected IfcElectricGeneratorTypeImpl() {
+        super();
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	@Override
-	protected EClass eStaticClass() {
-		return Ifc2x3tc1Package.Literals.IFC_ELECTRIC_GENERATOR_TYPE;
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    @Override
+    protected EClass eStaticClass() {
+        return Ifc2x3tc1Package.Literals.IFC_ELECTRIC_GENERATOR_TYPE;
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public IfcElectricGeneratorTypeEnum getPredefinedType() {
-		return (IfcElectricGeneratorTypeEnum) eGet(Ifc2x3tc1Package.Literals.IFC_ELECTRIC_GENERATOR_TYPE__PREDEFINED_TYPE, true);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public IfcElectricGeneratorTypeEnum getPredefinedType() {
+        return (IfcElectricGeneratorTypeEnum) eGet(
+                Ifc2x3tc1Package.Literals.IFC_ELECTRIC_GENERATOR_TYPE__PREDEFINED_TYPE, true);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public void setPredefinedType(IfcElectricGeneratorTypeEnum newPredefinedType) {
-		eSet(Ifc2x3tc1Package.Literals.IFC_ELECTRIC_GENERATOR_TYPE__PREDEFINED_TYPE, newPredefinedType);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public void setPredefinedType(IfcElectricGeneratorTypeEnum newPredefinedType) {
+        eSet(Ifc2x3tc1Package.Literals.IFC_ELECTRIC_GENERATOR_TYPE__PREDEFINED_TYPE, newPredefinedType);
+    }
 
 } //IfcElectricGeneratorTypeImpl

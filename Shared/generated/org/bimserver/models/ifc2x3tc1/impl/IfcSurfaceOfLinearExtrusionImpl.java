@@ -19,6 +19,7 @@ package org.bimserver.models.ifc2x3tc1.impl;
 import org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package;
 import org.bimserver.models.ifc2x3tc1.IfcDirection;
 import org.bimserver.models.ifc2x3tc1.IfcSurfaceOfLinearExtrusion;
+
 import org.eclipse.emf.ecore.EClass;
 
 /**
@@ -27,87 +28,87 @@ import org.eclipse.emf.ecore.EClass;
  * <!-- end-user-doc -->
  * <p>
  * The following features are implemented:
+ * </p>
  * <ul>
  *   <li>{@link org.bimserver.models.ifc2x3tc1.impl.IfcSurfaceOfLinearExtrusionImpl#getExtrudedDirection <em>Extruded Direction</em>}</li>
  *   <li>{@link org.bimserver.models.ifc2x3tc1.impl.IfcSurfaceOfLinearExtrusionImpl#getDepth <em>Depth</em>}</li>
  *   <li>{@link org.bimserver.models.ifc2x3tc1.impl.IfcSurfaceOfLinearExtrusionImpl#getDepthAsString <em>Depth As String</em>}</li>
  * </ul>
- * </p>
  *
  * @generated
  */
 public class IfcSurfaceOfLinearExtrusionImpl extends IfcSweptSurfaceImpl implements IfcSurfaceOfLinearExtrusion {
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	protected IfcSurfaceOfLinearExtrusionImpl() {
-		super();
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    protected IfcSurfaceOfLinearExtrusionImpl() {
+        super();
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	@Override
-	protected EClass eStaticClass() {
-		return Ifc2x3tc1Package.Literals.IFC_SURFACE_OF_LINEAR_EXTRUSION;
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    @Override
+    protected EClass eStaticClass() {
+        return Ifc2x3tc1Package.Literals.IFC_SURFACE_OF_LINEAR_EXTRUSION;
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public IfcDirection getExtrudedDirection() {
-		return (IfcDirection) eGet(Ifc2x3tc1Package.Literals.IFC_SURFACE_OF_LINEAR_EXTRUSION__EXTRUDED_DIRECTION, true);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public IfcDirection getExtrudedDirection() {
+        return (IfcDirection) eGet(Ifc2x3tc1Package.Literals.IFC_SURFACE_OF_LINEAR_EXTRUSION__EXTRUDED_DIRECTION, true);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public void setExtrudedDirection(IfcDirection newExtrudedDirection) {
-		eSet(Ifc2x3tc1Package.Literals.IFC_SURFACE_OF_LINEAR_EXTRUSION__EXTRUDED_DIRECTION, newExtrudedDirection);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public void setExtrudedDirection(IfcDirection newExtrudedDirection) {
+        eSet(Ifc2x3tc1Package.Literals.IFC_SURFACE_OF_LINEAR_EXTRUSION__EXTRUDED_DIRECTION, newExtrudedDirection);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public double getDepth() {
-		return (Double) eGet(Ifc2x3tc1Package.Literals.IFC_SURFACE_OF_LINEAR_EXTRUSION__DEPTH, true);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public double getDepth() {
+        return (Double) eGet(Ifc2x3tc1Package.Literals.IFC_SURFACE_OF_LINEAR_EXTRUSION__DEPTH, true);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public void setDepth(double newDepth) {
-		eSet(Ifc2x3tc1Package.Literals.IFC_SURFACE_OF_LINEAR_EXTRUSION__DEPTH, newDepth);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public void setDepth(double newDepth) {
+        eSet(Ifc2x3tc1Package.Literals.IFC_SURFACE_OF_LINEAR_EXTRUSION__DEPTH, newDepth);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public String getDepthAsString() {
-		return (String) eGet(Ifc2x3tc1Package.Literals.IFC_SURFACE_OF_LINEAR_EXTRUSION__DEPTH_AS_STRING, true);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public String getDepthAsString() {
+        return (String) eGet(Ifc2x3tc1Package.Literals.IFC_SURFACE_OF_LINEAR_EXTRUSION__DEPTH_AS_STRING, true);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public void setDepthAsString(String newDepthAsString) {
-		eSet(Ifc2x3tc1Package.Literals.IFC_SURFACE_OF_LINEAR_EXTRUSION__DEPTH_AS_STRING, newDepthAsString);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public void setDepthAsString(String newDepthAsString) {
+        eSet(Ifc2x3tc1Package.Literals.IFC_SURFACE_OF_LINEAR_EXTRUSION__DEPTH_AS_STRING, newDepthAsString);
+    }
 
 } //IfcSurfaceOfLinearExtrusionImpl

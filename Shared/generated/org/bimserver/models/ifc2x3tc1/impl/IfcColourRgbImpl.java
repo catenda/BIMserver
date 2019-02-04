@@ -18,6 +18,7 @@ package org.bimserver.models.ifc2x3tc1.impl;
 
 import org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package;
 import org.bimserver.models.ifc2x3tc1.IfcColourRgb;
+
 import org.eclipse.emf.ecore.EClass;
 
 /**
@@ -26,6 +27,7 @@ import org.eclipse.emf.ecore.EClass;
  * <!-- end-user-doc -->
  * <p>
  * The following features are implemented:
+ * </p>
  * <ul>
  *   <li>{@link org.bimserver.models.ifc2x3tc1.impl.IfcColourRgbImpl#getRed <em>Red</em>}</li>
  *   <li>{@link org.bimserver.models.ifc2x3tc1.impl.IfcColourRgbImpl#getRedAsString <em>Red As String</em>}</li>
@@ -34,136 +36,135 @@ import org.eclipse.emf.ecore.EClass;
  *   <li>{@link org.bimserver.models.ifc2x3tc1.impl.IfcColourRgbImpl#getBlue <em>Blue</em>}</li>
  *   <li>{@link org.bimserver.models.ifc2x3tc1.impl.IfcColourRgbImpl#getBlueAsString <em>Blue As String</em>}</li>
  * </ul>
- * </p>
  *
  * @generated
  */
 public class IfcColourRgbImpl extends IfcColourSpecificationImpl implements IfcColourRgb {
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	protected IfcColourRgbImpl() {
-		super();
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    protected IfcColourRgbImpl() {
+        super();
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	@Override
-	protected EClass eStaticClass() {
-		return Ifc2x3tc1Package.Literals.IFC_COLOUR_RGB;
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    @Override
+    protected EClass eStaticClass() {
+        return Ifc2x3tc1Package.Literals.IFC_COLOUR_RGB;
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public double getRed() {
-		return (Double) eGet(Ifc2x3tc1Package.Literals.IFC_COLOUR_RGB__RED, true);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public double getRed() {
+        return (Double) eGet(Ifc2x3tc1Package.Literals.IFC_COLOUR_RGB__RED, true);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public void setRed(double newRed) {
-		eSet(Ifc2x3tc1Package.Literals.IFC_COLOUR_RGB__RED, newRed);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public void setRed(double newRed) {
+        eSet(Ifc2x3tc1Package.Literals.IFC_COLOUR_RGB__RED, newRed);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public String getRedAsString() {
-		return (String) eGet(Ifc2x3tc1Package.Literals.IFC_COLOUR_RGB__RED_AS_STRING, true);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public String getRedAsString() {
+        return (String) eGet(Ifc2x3tc1Package.Literals.IFC_COLOUR_RGB__RED_AS_STRING, true);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public void setRedAsString(String newRedAsString) {
-		eSet(Ifc2x3tc1Package.Literals.IFC_COLOUR_RGB__RED_AS_STRING, newRedAsString);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public void setRedAsString(String newRedAsString) {
+        eSet(Ifc2x3tc1Package.Literals.IFC_COLOUR_RGB__RED_AS_STRING, newRedAsString);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public double getGreen() {
-		return (Double) eGet(Ifc2x3tc1Package.Literals.IFC_COLOUR_RGB__GREEN, true);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public double getGreen() {
+        return (Double) eGet(Ifc2x3tc1Package.Literals.IFC_COLOUR_RGB__GREEN, true);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public void setGreen(double newGreen) {
-		eSet(Ifc2x3tc1Package.Literals.IFC_COLOUR_RGB__GREEN, newGreen);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public void setGreen(double newGreen) {
+        eSet(Ifc2x3tc1Package.Literals.IFC_COLOUR_RGB__GREEN, newGreen);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public String getGreenAsString() {
-		return (String) eGet(Ifc2x3tc1Package.Literals.IFC_COLOUR_RGB__GREEN_AS_STRING, true);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public String getGreenAsString() {
+        return (String) eGet(Ifc2x3tc1Package.Literals.IFC_COLOUR_RGB__GREEN_AS_STRING, true);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public void setGreenAsString(String newGreenAsString) {
-		eSet(Ifc2x3tc1Package.Literals.IFC_COLOUR_RGB__GREEN_AS_STRING, newGreenAsString);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public void setGreenAsString(String newGreenAsString) {
+        eSet(Ifc2x3tc1Package.Literals.IFC_COLOUR_RGB__GREEN_AS_STRING, newGreenAsString);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public double getBlue() {
-		return (Double) eGet(Ifc2x3tc1Package.Literals.IFC_COLOUR_RGB__BLUE, true);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public double getBlue() {
+        return (Double) eGet(Ifc2x3tc1Package.Literals.IFC_COLOUR_RGB__BLUE, true);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public void setBlue(double newBlue) {
-		eSet(Ifc2x3tc1Package.Literals.IFC_COLOUR_RGB__BLUE, newBlue);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public void setBlue(double newBlue) {
+        eSet(Ifc2x3tc1Package.Literals.IFC_COLOUR_RGB__BLUE, newBlue);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public String getBlueAsString() {
-		return (String) eGet(Ifc2x3tc1Package.Literals.IFC_COLOUR_RGB__BLUE_AS_STRING, true);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public String getBlueAsString() {
+        return (String) eGet(Ifc2x3tc1Package.Literals.IFC_COLOUR_RGB__BLUE_AS_STRING, true);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public void setBlueAsString(String newBlueAsString) {
-		eSet(Ifc2x3tc1Package.Literals.IFC_COLOUR_RGB__BLUE_AS_STRING, newBlueAsString);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public void setBlueAsString(String newBlueAsString) {
+        eSet(Ifc2x3tc1Package.Literals.IFC_COLOUR_RGB__BLUE_AS_STRING, newBlueAsString);
+    }
 
 } //IfcColourRgbImpl

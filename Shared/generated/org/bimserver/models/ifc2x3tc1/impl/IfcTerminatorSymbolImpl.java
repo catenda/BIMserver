@@ -19,6 +19,7 @@ package org.bimserver.models.ifc2x3tc1.impl;
 import org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package;
 import org.bimserver.models.ifc2x3tc1.IfcAnnotationCurveOccurrence;
 import org.bimserver.models.ifc2x3tc1.IfcTerminatorSymbol;
+
 import org.eclipse.emf.ecore.EClass;
 
 /**
@@ -27,49 +28,50 @@ import org.eclipse.emf.ecore.EClass;
  * <!-- end-user-doc -->
  * <p>
  * The following features are implemented:
+ * </p>
  * <ul>
  *   <li>{@link org.bimserver.models.ifc2x3tc1.impl.IfcTerminatorSymbolImpl#getAnnotatedCurve <em>Annotated Curve</em>}</li>
  * </ul>
- * </p>
  *
  * @generated
  */
 public class IfcTerminatorSymbolImpl extends IfcAnnotationSymbolOccurrenceImpl implements IfcTerminatorSymbol {
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	protected IfcTerminatorSymbolImpl() {
-		super();
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    protected IfcTerminatorSymbolImpl() {
+        super();
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	@Override
-	protected EClass eStaticClass() {
-		return Ifc2x3tc1Package.Literals.IFC_TERMINATOR_SYMBOL;
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    @Override
+    protected EClass eStaticClass() {
+        return Ifc2x3tc1Package.Literals.IFC_TERMINATOR_SYMBOL;
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public IfcAnnotationCurveOccurrence getAnnotatedCurve() {
-		return (IfcAnnotationCurveOccurrence) eGet(Ifc2x3tc1Package.Literals.IFC_TERMINATOR_SYMBOL__ANNOTATED_CURVE, true);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public IfcAnnotationCurveOccurrence getAnnotatedCurve() {
+        return (IfcAnnotationCurveOccurrence) eGet(Ifc2x3tc1Package.Literals.IFC_TERMINATOR_SYMBOL__ANNOTATED_CURVE,
+                true);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public void setAnnotatedCurve(IfcAnnotationCurveOccurrence newAnnotatedCurve) {
-		eSet(Ifc2x3tc1Package.Literals.IFC_TERMINATOR_SYMBOL__ANNOTATED_CURVE, newAnnotatedCurve);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public void setAnnotatedCurve(IfcAnnotationCurveOccurrence newAnnotatedCurve) {
+        eSet(Ifc2x3tc1Package.Literals.IFC_TERMINATOR_SYMBOL__ANNOTATED_CURVE, newAnnotatedCurve);
+    }
 
 } //IfcTerminatorSymbolImpl

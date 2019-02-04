@@ -19,6 +19,7 @@ package org.bimserver.models.ifc2x3tc1.impl;
 import org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package;
 import org.bimserver.models.ifc2x3tc1.IfcEnergyProperties;
 import org.bimserver.models.ifc2x3tc1.IfcEnergySequenceEnum;
+
 import org.eclipse.emf.ecore.EClass;
 
 /**
@@ -27,104 +28,105 @@ import org.eclipse.emf.ecore.EClass;
  * <!-- end-user-doc -->
  * <p>
  * The following features are implemented:
+ * </p>
  * <ul>
  *   <li>{@link org.bimserver.models.ifc2x3tc1.impl.IfcEnergyPropertiesImpl#getEnergySequence <em>Energy Sequence</em>}</li>
  *   <li>{@link org.bimserver.models.ifc2x3tc1.impl.IfcEnergyPropertiesImpl#getUserDefinedEnergySequence <em>User Defined Energy Sequence</em>}</li>
  * </ul>
- * </p>
  *
  * @generated
  */
 public class IfcEnergyPropertiesImpl extends IfcPropertySetDefinitionImpl implements IfcEnergyProperties {
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	protected IfcEnergyPropertiesImpl() {
-		super();
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    protected IfcEnergyPropertiesImpl() {
+        super();
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	@Override
-	protected EClass eStaticClass() {
-		return Ifc2x3tc1Package.Literals.IFC_ENERGY_PROPERTIES;
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    @Override
+    protected EClass eStaticClass() {
+        return Ifc2x3tc1Package.Literals.IFC_ENERGY_PROPERTIES;
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public IfcEnergySequenceEnum getEnergySequence() {
-		return (IfcEnergySequenceEnum) eGet(Ifc2x3tc1Package.Literals.IFC_ENERGY_PROPERTIES__ENERGY_SEQUENCE, true);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public IfcEnergySequenceEnum getEnergySequence() {
+        return (IfcEnergySequenceEnum) eGet(Ifc2x3tc1Package.Literals.IFC_ENERGY_PROPERTIES__ENERGY_SEQUENCE, true);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public void setEnergySequence(IfcEnergySequenceEnum newEnergySequence) {
-		eSet(Ifc2x3tc1Package.Literals.IFC_ENERGY_PROPERTIES__ENERGY_SEQUENCE, newEnergySequence);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public void setEnergySequence(IfcEnergySequenceEnum newEnergySequence) {
+        eSet(Ifc2x3tc1Package.Literals.IFC_ENERGY_PROPERTIES__ENERGY_SEQUENCE, newEnergySequence);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public void unsetEnergySequence() {
-		eUnset(Ifc2x3tc1Package.Literals.IFC_ENERGY_PROPERTIES__ENERGY_SEQUENCE);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public void unsetEnergySequence() {
+        eUnset(Ifc2x3tc1Package.Literals.IFC_ENERGY_PROPERTIES__ENERGY_SEQUENCE);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public boolean isSetEnergySequence() {
-		return eIsSet(Ifc2x3tc1Package.Literals.IFC_ENERGY_PROPERTIES__ENERGY_SEQUENCE);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public boolean isSetEnergySequence() {
+        return eIsSet(Ifc2x3tc1Package.Literals.IFC_ENERGY_PROPERTIES__ENERGY_SEQUENCE);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public String getUserDefinedEnergySequence() {
-		return (String) eGet(Ifc2x3tc1Package.Literals.IFC_ENERGY_PROPERTIES__USER_DEFINED_ENERGY_SEQUENCE, true);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public String getUserDefinedEnergySequence() {
+        return (String) eGet(Ifc2x3tc1Package.Literals.IFC_ENERGY_PROPERTIES__USER_DEFINED_ENERGY_SEQUENCE, true);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public void setUserDefinedEnergySequence(String newUserDefinedEnergySequence) {
-		eSet(Ifc2x3tc1Package.Literals.IFC_ENERGY_PROPERTIES__USER_DEFINED_ENERGY_SEQUENCE, newUserDefinedEnergySequence);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public void setUserDefinedEnergySequence(String newUserDefinedEnergySequence) {
+        eSet(Ifc2x3tc1Package.Literals.IFC_ENERGY_PROPERTIES__USER_DEFINED_ENERGY_SEQUENCE,
+                newUserDefinedEnergySequence);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public void unsetUserDefinedEnergySequence() {
-		eUnset(Ifc2x3tc1Package.Literals.IFC_ENERGY_PROPERTIES__USER_DEFINED_ENERGY_SEQUENCE);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public void unsetUserDefinedEnergySequence() {
+        eUnset(Ifc2x3tc1Package.Literals.IFC_ENERGY_PROPERTIES__USER_DEFINED_ENERGY_SEQUENCE);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public boolean isSetUserDefinedEnergySequence() {
-		return eIsSet(Ifc2x3tc1Package.Literals.IFC_ENERGY_PROPERTIES__USER_DEFINED_ENERGY_SEQUENCE);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public boolean isSetUserDefinedEnergySequence() {
+        return eIsSet(Ifc2x3tc1Package.Literals.IFC_ENERGY_PROPERTIES__USER_DEFINED_ENERGY_SEQUENCE);
+    }
 
 } //IfcEnergyPropertiesImpl

@@ -19,6 +19,7 @@ package org.bimserver.models.ifc2x3tc1.impl;
 import org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package;
 import org.bimserver.models.ifc2x3tc1.IfcSymbolStyle;
 import org.bimserver.models.ifc2x3tc1.IfcSymbolStyleSelect;
+
 import org.eclipse.emf.ecore.EClass;
 
 /**
@@ -27,49 +28,49 @@ import org.eclipse.emf.ecore.EClass;
  * <!-- end-user-doc -->
  * <p>
  * The following features are implemented:
+ * </p>
  * <ul>
  *   <li>{@link org.bimserver.models.ifc2x3tc1.impl.IfcSymbolStyleImpl#getStyleOfSymbol <em>Style Of Symbol</em>}</li>
  * </ul>
- * </p>
  *
  * @generated
  */
 public class IfcSymbolStyleImpl extends IfcPresentationStyleImpl implements IfcSymbolStyle {
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	protected IfcSymbolStyleImpl() {
-		super();
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    protected IfcSymbolStyleImpl() {
+        super();
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	@Override
-	protected EClass eStaticClass() {
-		return Ifc2x3tc1Package.Literals.IFC_SYMBOL_STYLE;
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    @Override
+    protected EClass eStaticClass() {
+        return Ifc2x3tc1Package.Literals.IFC_SYMBOL_STYLE;
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public IfcSymbolStyleSelect getStyleOfSymbol() {
-		return (IfcSymbolStyleSelect) eGet(Ifc2x3tc1Package.Literals.IFC_SYMBOL_STYLE__STYLE_OF_SYMBOL, true);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public IfcSymbolStyleSelect getStyleOfSymbol() {
+        return (IfcSymbolStyleSelect) eGet(Ifc2x3tc1Package.Literals.IFC_SYMBOL_STYLE__STYLE_OF_SYMBOL, true);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public void setStyleOfSymbol(IfcSymbolStyleSelect newStyleOfSymbol) {
-		eSet(Ifc2x3tc1Package.Literals.IFC_SYMBOL_STYLE__STYLE_OF_SYMBOL, newStyleOfSymbol);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public void setStyleOfSymbol(IfcSymbolStyleSelect newStyleOfSymbol) {
+        eSet(Ifc2x3tc1Package.Literals.IFC_SYMBOL_STYLE__STYLE_OF_SYMBOL, newStyleOfSymbol);
+    }
 
 } //IfcSymbolStyleImpl

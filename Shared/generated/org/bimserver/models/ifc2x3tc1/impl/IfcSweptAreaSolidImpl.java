@@ -20,6 +20,7 @@ import org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package;
 import org.bimserver.models.ifc2x3tc1.IfcAxis2Placement3D;
 import org.bimserver.models.ifc2x3tc1.IfcProfileDef;
 import org.bimserver.models.ifc2x3tc1.IfcSweptAreaSolid;
+
 import org.eclipse.emf.ecore.EClass;
 
 /**
@@ -28,68 +29,68 @@ import org.eclipse.emf.ecore.EClass;
  * <!-- end-user-doc -->
  * <p>
  * The following features are implemented:
+ * </p>
  * <ul>
  *   <li>{@link org.bimserver.models.ifc2x3tc1.impl.IfcSweptAreaSolidImpl#getSweptArea <em>Swept Area</em>}</li>
  *   <li>{@link org.bimserver.models.ifc2x3tc1.impl.IfcSweptAreaSolidImpl#getPosition <em>Position</em>}</li>
  * </ul>
- * </p>
  *
  * @generated
  */
 public class IfcSweptAreaSolidImpl extends IfcSolidModelImpl implements IfcSweptAreaSolid {
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	protected IfcSweptAreaSolidImpl() {
-		super();
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    protected IfcSweptAreaSolidImpl() {
+        super();
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	@Override
-	protected EClass eStaticClass() {
-		return Ifc2x3tc1Package.Literals.IFC_SWEPT_AREA_SOLID;
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    @Override
+    protected EClass eStaticClass() {
+        return Ifc2x3tc1Package.Literals.IFC_SWEPT_AREA_SOLID;
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public IfcProfileDef getSweptArea() {
-		return (IfcProfileDef) eGet(Ifc2x3tc1Package.Literals.IFC_SWEPT_AREA_SOLID__SWEPT_AREA, true);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public IfcProfileDef getSweptArea() {
+        return (IfcProfileDef) eGet(Ifc2x3tc1Package.Literals.IFC_SWEPT_AREA_SOLID__SWEPT_AREA, true);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public void setSweptArea(IfcProfileDef newSweptArea) {
-		eSet(Ifc2x3tc1Package.Literals.IFC_SWEPT_AREA_SOLID__SWEPT_AREA, newSweptArea);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public void setSweptArea(IfcProfileDef newSweptArea) {
+        eSet(Ifc2x3tc1Package.Literals.IFC_SWEPT_AREA_SOLID__SWEPT_AREA, newSweptArea);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public IfcAxis2Placement3D getPosition() {
-		return (IfcAxis2Placement3D) eGet(Ifc2x3tc1Package.Literals.IFC_SWEPT_AREA_SOLID__POSITION, true);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public IfcAxis2Placement3D getPosition() {
+        return (IfcAxis2Placement3D) eGet(Ifc2x3tc1Package.Literals.IFC_SWEPT_AREA_SOLID__POSITION, true);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public void setPosition(IfcAxis2Placement3D newPosition) {
-		eSet(Ifc2x3tc1Package.Literals.IFC_SWEPT_AREA_SOLID__POSITION, newPosition);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public void setPosition(IfcAxis2Placement3D newPosition) {
+        eSet(Ifc2x3tc1Package.Literals.IFC_SWEPT_AREA_SOLID__POSITION, newPosition);
+    }
 
 } //IfcSweptAreaSolidImpl

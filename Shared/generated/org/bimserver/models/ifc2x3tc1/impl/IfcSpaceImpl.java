@@ -21,7 +21,9 @@ import org.bimserver.models.ifc2x3tc1.IfcInternalOrExternalEnum;
 import org.bimserver.models.ifc2x3tc1.IfcRelCoversSpaces;
 import org.bimserver.models.ifc2x3tc1.IfcRelSpaceBoundary;
 import org.bimserver.models.ifc2x3tc1.IfcSpace;
+
 import org.eclipse.emf.common.util.EList;
+
 import org.eclipse.emf.ecore.EClass;
 
 /**
@@ -30,6 +32,7 @@ import org.eclipse.emf.ecore.EClass;
  * <!-- end-user-doc -->
  * <p>
  * The following features are implemented:
+ * </p>
  * <ul>
  *   <li>{@link org.bimserver.models.ifc2x3tc1.impl.IfcSpaceImpl#getInteriorOrExteriorSpace <em>Interior Or Exterior Space</em>}</li>
  *   <li>{@link org.bimserver.models.ifc2x3tc1.impl.IfcSpaceImpl#getElevationWithFlooring <em>Elevation With Flooring</em>}</li>
@@ -37,174 +40,173 @@ import org.eclipse.emf.ecore.EClass;
  *   <li>{@link org.bimserver.models.ifc2x3tc1.impl.IfcSpaceImpl#getHasCoverings <em>Has Coverings</em>}</li>
  *   <li>{@link org.bimserver.models.ifc2x3tc1.impl.IfcSpaceImpl#getBoundedBy <em>Bounded By</em>}</li>
  * </ul>
- * </p>
  *
  * @generated
  */
 public class IfcSpaceImpl extends IfcSpatialStructureElementImpl implements IfcSpace {
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	protected IfcSpaceImpl() {
-		super();
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    protected IfcSpaceImpl() {
+        super();
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	@Override
-	protected EClass eStaticClass() {
-		return Ifc2x3tc1Package.Literals.IFC_SPACE;
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    @Override
+    protected EClass eStaticClass() {
+        return Ifc2x3tc1Package.Literals.IFC_SPACE;
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public IfcInternalOrExternalEnum getInteriorOrExteriorSpace() {
-		return (IfcInternalOrExternalEnum) eGet(Ifc2x3tc1Package.Literals.IFC_SPACE__INTERIOR_OR_EXTERIOR_SPACE, true);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public IfcInternalOrExternalEnum getInteriorOrExteriorSpace() {
+        return (IfcInternalOrExternalEnum) eGet(Ifc2x3tc1Package.Literals.IFC_SPACE__INTERIOR_OR_EXTERIOR_SPACE, true);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public void setInteriorOrExteriorSpace(IfcInternalOrExternalEnum newInteriorOrExteriorSpace) {
-		eSet(Ifc2x3tc1Package.Literals.IFC_SPACE__INTERIOR_OR_EXTERIOR_SPACE, newInteriorOrExteriorSpace);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public void setInteriorOrExteriorSpace(IfcInternalOrExternalEnum newInteriorOrExteriorSpace) {
+        eSet(Ifc2x3tc1Package.Literals.IFC_SPACE__INTERIOR_OR_EXTERIOR_SPACE, newInteriorOrExteriorSpace);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public double getElevationWithFlooring() {
-		return (Double) eGet(Ifc2x3tc1Package.Literals.IFC_SPACE__ELEVATION_WITH_FLOORING, true);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public double getElevationWithFlooring() {
+        return (Double) eGet(Ifc2x3tc1Package.Literals.IFC_SPACE__ELEVATION_WITH_FLOORING, true);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public void setElevationWithFlooring(double newElevationWithFlooring) {
-		eSet(Ifc2x3tc1Package.Literals.IFC_SPACE__ELEVATION_WITH_FLOORING, newElevationWithFlooring);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public void setElevationWithFlooring(double newElevationWithFlooring) {
+        eSet(Ifc2x3tc1Package.Literals.IFC_SPACE__ELEVATION_WITH_FLOORING, newElevationWithFlooring);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public void unsetElevationWithFlooring() {
-		eUnset(Ifc2x3tc1Package.Literals.IFC_SPACE__ELEVATION_WITH_FLOORING);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public void unsetElevationWithFlooring() {
+        eUnset(Ifc2x3tc1Package.Literals.IFC_SPACE__ELEVATION_WITH_FLOORING);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public boolean isSetElevationWithFlooring() {
-		return eIsSet(Ifc2x3tc1Package.Literals.IFC_SPACE__ELEVATION_WITH_FLOORING);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public boolean isSetElevationWithFlooring() {
+        return eIsSet(Ifc2x3tc1Package.Literals.IFC_SPACE__ELEVATION_WITH_FLOORING);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public String getElevationWithFlooringAsString() {
-		return (String) eGet(Ifc2x3tc1Package.Literals.IFC_SPACE__ELEVATION_WITH_FLOORING_AS_STRING, true);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public String getElevationWithFlooringAsString() {
+        return (String) eGet(Ifc2x3tc1Package.Literals.IFC_SPACE__ELEVATION_WITH_FLOORING_AS_STRING, true);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public void setElevationWithFlooringAsString(String newElevationWithFlooringAsString) {
-		eSet(Ifc2x3tc1Package.Literals.IFC_SPACE__ELEVATION_WITH_FLOORING_AS_STRING, newElevationWithFlooringAsString);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public void setElevationWithFlooringAsString(String newElevationWithFlooringAsString) {
+        eSet(Ifc2x3tc1Package.Literals.IFC_SPACE__ELEVATION_WITH_FLOORING_AS_STRING, newElevationWithFlooringAsString);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public void unsetElevationWithFlooringAsString() {
-		eUnset(Ifc2x3tc1Package.Literals.IFC_SPACE__ELEVATION_WITH_FLOORING_AS_STRING);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public void unsetElevationWithFlooringAsString() {
+        eUnset(Ifc2x3tc1Package.Literals.IFC_SPACE__ELEVATION_WITH_FLOORING_AS_STRING);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public boolean isSetElevationWithFlooringAsString() {
-		return eIsSet(Ifc2x3tc1Package.Literals.IFC_SPACE__ELEVATION_WITH_FLOORING_AS_STRING);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public boolean isSetElevationWithFlooringAsString() {
+        return eIsSet(Ifc2x3tc1Package.Literals.IFC_SPACE__ELEVATION_WITH_FLOORING_AS_STRING);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	@SuppressWarnings("unchecked")
-	public EList<IfcRelCoversSpaces> getHasCoverings() {
-		return (EList<IfcRelCoversSpaces>) eGet(Ifc2x3tc1Package.Literals.IFC_SPACE__HAS_COVERINGS, true);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    @SuppressWarnings("unchecked")
+    public EList<IfcRelCoversSpaces> getHasCoverings() {
+        return (EList<IfcRelCoversSpaces>) eGet(Ifc2x3tc1Package.Literals.IFC_SPACE__HAS_COVERINGS, true);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public void unsetHasCoverings() {
-		eUnset(Ifc2x3tc1Package.Literals.IFC_SPACE__HAS_COVERINGS);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public void unsetHasCoverings() {
+        eUnset(Ifc2x3tc1Package.Literals.IFC_SPACE__HAS_COVERINGS);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public boolean isSetHasCoverings() {
-		return eIsSet(Ifc2x3tc1Package.Literals.IFC_SPACE__HAS_COVERINGS);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public boolean isSetHasCoverings() {
+        return eIsSet(Ifc2x3tc1Package.Literals.IFC_SPACE__HAS_COVERINGS);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	@SuppressWarnings("unchecked")
-	public EList<IfcRelSpaceBoundary> getBoundedBy() {
-		return (EList<IfcRelSpaceBoundary>) eGet(Ifc2x3tc1Package.Literals.IFC_SPACE__BOUNDED_BY, true);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    @SuppressWarnings("unchecked")
+    public EList<IfcRelSpaceBoundary> getBoundedBy() {
+        return (EList<IfcRelSpaceBoundary>) eGet(Ifc2x3tc1Package.Literals.IFC_SPACE__BOUNDED_BY, true);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public void unsetBoundedBy() {
-		eUnset(Ifc2x3tc1Package.Literals.IFC_SPACE__BOUNDED_BY);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public void unsetBoundedBy() {
+        eUnset(Ifc2x3tc1Package.Literals.IFC_SPACE__BOUNDED_BY);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public boolean isSetBoundedBy() {
-		return eIsSet(Ifc2x3tc1Package.Literals.IFC_SPACE__BOUNDED_BY);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public boolean isSetBoundedBy() {
+        return eIsSet(Ifc2x3tc1Package.Literals.IFC_SPACE__BOUNDED_BY);
+    }
 
 } //IfcSpaceImpl

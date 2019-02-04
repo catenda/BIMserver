@@ -19,6 +19,7 @@ package org.bimserver.models.store.impl;
 import org.bimserver.models.store.ModelComparePluginConfiguration;
 import org.bimserver.models.store.StorePackage;
 import org.bimserver.models.store.UserSettings;
+
 import org.eclipse.emf.ecore.EClass;
 
 /**
@@ -27,49 +28,50 @@ import org.eclipse.emf.ecore.EClass;
  * <!-- end-user-doc -->
  * <p>
  * The following features are implemented:
+ * </p>
  * <ul>
  *   <li>{@link org.bimserver.models.store.impl.ModelComparePluginConfigurationImpl#getUserSettings <em>User Settings</em>}</li>
  * </ul>
- * </p>
  *
  * @generated
  */
-public class ModelComparePluginConfigurationImpl extends PluginConfigurationImpl implements ModelComparePluginConfiguration {
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	protected ModelComparePluginConfigurationImpl() {
-		super();
-	}
+public class ModelComparePluginConfigurationImpl extends PluginConfigurationImpl
+        implements ModelComparePluginConfiguration {
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    protected ModelComparePluginConfigurationImpl() {
+        super();
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	@Override
-	protected EClass eStaticClass() {
-		return StorePackage.Literals.MODEL_COMPARE_PLUGIN_CONFIGURATION;
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    @Override
+    protected EClass eStaticClass() {
+        return StorePackage.Literals.MODEL_COMPARE_PLUGIN_CONFIGURATION;
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public UserSettings getUserSettings() {
-		return (UserSettings) eGet(StorePackage.Literals.MODEL_COMPARE_PLUGIN_CONFIGURATION__USER_SETTINGS, true);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public UserSettings getUserSettings() {
+        return (UserSettings) eGet(StorePackage.Literals.MODEL_COMPARE_PLUGIN_CONFIGURATION__USER_SETTINGS, true);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public void setUserSettings(UserSettings newUserSettings) {
-		eSet(StorePackage.Literals.MODEL_COMPARE_PLUGIN_CONFIGURATION__USER_SETTINGS, newUserSettings);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public void setUserSettings(UserSettings newUserSettings) {
+        eSet(StorePackage.Literals.MODEL_COMPARE_PLUGIN_CONFIGURATION__USER_SETTINGS, newUserSettings);
+    }
 
 } //ModelComparePluginConfigurationImpl

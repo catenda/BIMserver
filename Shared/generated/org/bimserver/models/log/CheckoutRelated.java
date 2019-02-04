@@ -25,42 +25,42 @@ import org.bimserver.models.store.Checkout;
  *
  * <p>
  * The following features are supported:
+ * </p>
  * <ul>
  *   <li>{@link org.bimserver.models.log.CheckoutRelated#getCheckout <em>Checkout</em>}</li>
  * </ul>
- * </p>
  *
  * @see org.bimserver.models.log.LogPackage#getCheckoutRelated()
  * @model
  * @generated
  */
 public interface CheckoutRelated extends LogAction {
-	/**
-	 * Returns the value of the '<em><b>Checkout</b></em>' reference.
-	 * It is bidirectional and its opposite is '{@link org.bimserver.models.store.Checkout#getLogs <em>Logs</em>}'.
-	 * <!-- begin-user-doc -->
-	 * <p>
-	 * If the meaning of the '<em>Checkout</em>' reference isn't clear,
-	 * there really should be more of a description here...
-	 * </p>
-	 * <!-- end-user-doc -->
-	 * @return the value of the '<em>Checkout</em>' reference.
-	 * @see #setCheckout(Checkout)
-	 * @see org.bimserver.models.log.LogPackage#getCheckoutRelated_Checkout()
-	 * @see org.bimserver.models.store.Checkout#getLogs
-	 * @model opposite="logs"
-	 * @generated
-	 */
-	Checkout getCheckout();
+    /**
+     * Returns the value of the '<em><b>Checkout</b></em>' reference.
+     * It is bidirectional and its opposite is '{@link org.bimserver.models.store.Checkout#getLogs <em>Logs</em>}'.
+     * <!-- begin-user-doc -->
+     * <p>
+     * If the meaning of the '<em>Checkout</em>' reference isn't clear,
+     * there really should be more of a description here...
+     * </p>
+     * <!-- end-user-doc -->
+     * @return the value of the '<em>Checkout</em>' reference.
+     * @see #setCheckout(Checkout)
+     * @see org.bimserver.models.log.LogPackage#getCheckoutRelated_Checkout()
+     * @see org.bimserver.models.store.Checkout#getLogs
+     * @model opposite="logs"
+     * @generated
+     */
+    Checkout getCheckout();
 
-	/**
-	 * Sets the value of the '{@link org.bimserver.models.log.CheckoutRelated#getCheckout <em>Checkout</em>}' reference.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @param value the new value of the '<em>Checkout</em>' reference.
-	 * @see #getCheckout()
-	 * @generated
-	 */
-	void setCheckout(Checkout value);
+    /**
+     * Sets the value of the '{@link org.bimserver.models.log.CheckoutRelated#getCheckout <em>Checkout</em>}' reference.
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @param value the new value of the '<em>Checkout</em>' reference.
+     * @see #getCheckout()
+     * @generated
+     */
+    void setCheckout(Checkout value);
 
 } // CheckoutRelated

@@ -17,6 +17,7 @@
 package org.bimserver.models.store;
 
 import org.bimserver.emf.IdEObject;
+
 import org.eclipse.emf.common.util.EList;
 
 /**
@@ -26,6 +27,7 @@ import org.eclipse.emf.common.util.EList;
  *
  * <p>
  * The following features are supported:
+ * </p>
  * <ul>
  *   <li>{@link org.bimserver.models.store.ServerSettings#isSendConfirmationEmailAfterRegistration <em>Send Confirmation Email After Registration</em>}</li>
  *   <li>{@link org.bimserver.models.store.ServerSettings#getAllowSelfRegistration <em>Allow Self Registration</em>}</li>
@@ -45,7 +47,6 @@ import org.eclipse.emf.common.util.EList;
  *   <li>{@link org.bimserver.models.store.ServerSettings#getWebModule <em>Web Module</em>}</li>
  *   <li>{@link org.bimserver.models.store.ServerSettings#getServiceRepositoryUrl <em>Service Repository Url</em>}</li>
  * </ul>
- * </p>
  *
  * @see org.bimserver.models.store.StorePackage#getServerSettings()
  * @model
@@ -53,428 +54,428 @@ import org.eclipse.emf.common.util.EList;
  * @generated
  */
 public interface ServerSettings extends IdEObject {
-	/**
-	 * Returns the value of the '<em><b>Send Confirmation Email After Registration</b></em>' attribute.
-	 * <!-- begin-user-doc -->
-	 * <p>
-	 * If the meaning of the '<em>Send Confirmation Email After Registration</em>' attribute isn't clear,
-	 * there really should be more of a description here...
-	 * </p>
-	 * <!-- end-user-doc -->
-	 * @return the value of the '<em>Send Confirmation Email After Registration</em>' attribute.
-	 * @see #setSendConfirmationEmailAfterRegistration(boolean)
-	 * @see org.bimserver.models.store.StorePackage#getServerSettings_SendConfirmationEmailAfterRegistration()
-	 * @model
-	 * @generated
-	 */
-	boolean isSendConfirmationEmailAfterRegistration();
+    /**
+     * Returns the value of the '<em><b>Send Confirmation Email After Registration</b></em>' attribute.
+     * <!-- begin-user-doc -->
+     * <p>
+     * If the meaning of the '<em>Send Confirmation Email After Registration</em>' attribute isn't clear,
+     * there really should be more of a description here...
+     * </p>
+     * <!-- end-user-doc -->
+     * @return the value of the '<em>Send Confirmation Email After Registration</em>' attribute.
+     * @see #setSendConfirmationEmailAfterRegistration(boolean)
+     * @see org.bimserver.models.store.StorePackage#getServerSettings_SendConfirmationEmailAfterRegistration()
+     * @model
+     * @generated
+     */
+    boolean isSendConfirmationEmailAfterRegistration();
 
-	/**
-	 * Sets the value of the '{@link org.bimserver.models.store.ServerSettings#isSendConfirmationEmailAfterRegistration <em>Send Confirmation Email After Registration</em>}' attribute.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @param value the new value of the '<em>Send Confirmation Email After Registration</em>' attribute.
-	 * @see #isSendConfirmationEmailAfterRegistration()
-	 * @generated
-	 */
-	void setSendConfirmationEmailAfterRegistration(boolean value);
+    /**
+     * Sets the value of the '{@link org.bimserver.models.store.ServerSettings#isSendConfirmationEmailAfterRegistration <em>Send Confirmation Email After Registration</em>}' attribute.
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @param value the new value of the '<em>Send Confirmation Email After Registration</em>' attribute.
+     * @see #isSendConfirmationEmailAfterRegistration()
+     * @generated
+     */
+    void setSendConfirmationEmailAfterRegistration(boolean value);
 
-	/**
-	 * Returns the value of the '<em><b>Allow Self Registration</b></em>' attribute.
-	 * <!-- begin-user-doc -->
-	 * <p>
-	 * If the meaning of the '<em>Allow Self Registration</em>' attribute isn't clear,
-	 * there really should be more of a description here...
-	 * </p>
-	 * <!-- end-user-doc -->
-	 * @return the value of the '<em>Allow Self Registration</em>' attribute.
-	 * @see #setAllowSelfRegistration(Boolean)
-	 * @see org.bimserver.models.store.StorePackage#getServerSettings_AllowSelfRegistration()
-	 * @model
-	 * @generated
-	 */
-	Boolean getAllowSelfRegistration();
+    /**
+     * Returns the value of the '<em><b>Allow Self Registration</b></em>' attribute.
+     * <!-- begin-user-doc -->
+     * <p>
+     * If the meaning of the '<em>Allow Self Registration</em>' attribute isn't clear,
+     * there really should be more of a description here...
+     * </p>
+     * <!-- end-user-doc -->
+     * @return the value of the '<em>Allow Self Registration</em>' attribute.
+     * @see #setAllowSelfRegistration(Boolean)
+     * @see org.bimserver.models.store.StorePackage#getServerSettings_AllowSelfRegistration()
+     * @model
+     * @generated
+     */
+    Boolean getAllowSelfRegistration();
 
-	/**
-	 * Sets the value of the '{@link org.bimserver.models.store.ServerSettings#getAllowSelfRegistration <em>Allow Self Registration</em>}' attribute.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @param value the new value of the '<em>Allow Self Registration</em>' attribute.
-	 * @see #getAllowSelfRegistration()
-	 * @generated
-	 */
-	void setAllowSelfRegistration(Boolean value);
+    /**
+     * Sets the value of the '{@link org.bimserver.models.store.ServerSettings#getAllowSelfRegistration <em>Allow Self Registration</em>}' attribute.
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @param value the new value of the '<em>Allow Self Registration</em>' attribute.
+     * @see #getAllowSelfRegistration()
+     * @generated
+     */
+    void setAllowSelfRegistration(Boolean value);
 
-	/**
-	 * Returns the value of the '<em><b>Allow Users To Create Top Level Projects</b></em>' attribute.
-	 * <!-- begin-user-doc -->
-	 * <p>
-	 * If the meaning of the '<em>Allow Users To Create Top Level Projects</em>' attribute isn't clear,
-	 * there really should be more of a description here...
-	 * </p>
-	 * <!-- end-user-doc -->
-	 * @return the value of the '<em>Allow Users To Create Top Level Projects</em>' attribute.
-	 * @see #setAllowUsersToCreateTopLevelProjects(boolean)
-	 * @see org.bimserver.models.store.StorePackage#getServerSettings_AllowUsersToCreateTopLevelProjects()
-	 * @model
-	 * @generated
-	 */
-	boolean isAllowUsersToCreateTopLevelProjects();
+    /**
+     * Returns the value of the '<em><b>Allow Users To Create Top Level Projects</b></em>' attribute.
+     * <!-- begin-user-doc -->
+     * <p>
+     * If the meaning of the '<em>Allow Users To Create Top Level Projects</em>' attribute isn't clear,
+     * there really should be more of a description here...
+     * </p>
+     * <!-- end-user-doc -->
+     * @return the value of the '<em>Allow Users To Create Top Level Projects</em>' attribute.
+     * @see #setAllowUsersToCreateTopLevelProjects(boolean)
+     * @see org.bimserver.models.store.StorePackage#getServerSettings_AllowUsersToCreateTopLevelProjects()
+     * @model
+     * @generated
+     */
+    boolean isAllowUsersToCreateTopLevelProjects();
 
-	/**
-	 * Sets the value of the '{@link org.bimserver.models.store.ServerSettings#isAllowUsersToCreateTopLevelProjects <em>Allow Users To Create Top Level Projects</em>}' attribute.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @param value the new value of the '<em>Allow Users To Create Top Level Projects</em>' attribute.
-	 * @see #isAllowUsersToCreateTopLevelProjects()
-	 * @generated
-	 */
-	void setAllowUsersToCreateTopLevelProjects(boolean value);
+    /**
+     * Sets the value of the '{@link org.bimserver.models.store.ServerSettings#isAllowUsersToCreateTopLevelProjects <em>Allow Users To Create Top Level Projects</em>}' attribute.
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @param value the new value of the '<em>Allow Users To Create Top Level Projects</em>' attribute.
+     * @see #isAllowUsersToCreateTopLevelProjects()
+     * @generated
+     */
+    void setAllowUsersToCreateTopLevelProjects(boolean value);
 
-	/**
-	 * Returns the value of the '<em><b>Checkin Merging Enabled</b></em>' attribute.
-	 * <!-- begin-user-doc -->
-	 * <p>
-	 * If the meaning of the '<em>Checkin Merging Enabled</em>' attribute isn't clear,
-	 * there really should be more of a description here...
-	 * </p>
-	 * <!-- end-user-doc -->
-	 * @return the value of the '<em>Checkin Merging Enabled</em>' attribute.
-	 * @see #setCheckinMergingEnabled(Boolean)
-	 * @see org.bimserver.models.store.StorePackage#getServerSettings_CheckinMergingEnabled()
-	 * @model
-	 * @generated
-	 */
-	Boolean getCheckinMergingEnabled();
+    /**
+     * Returns the value of the '<em><b>Checkin Merging Enabled</b></em>' attribute.
+     * <!-- begin-user-doc -->
+     * <p>
+     * If the meaning of the '<em>Checkin Merging Enabled</em>' attribute isn't clear,
+     * there really should be more of a description here...
+     * </p>
+     * <!-- end-user-doc -->
+     * @return the value of the '<em>Checkin Merging Enabled</em>' attribute.
+     * @see #setCheckinMergingEnabled(Boolean)
+     * @see org.bimserver.models.store.StorePackage#getServerSettings_CheckinMergingEnabled()
+     * @model
+     * @generated
+     */
+    Boolean getCheckinMergingEnabled();
 
-	/**
-	 * Sets the value of the '{@link org.bimserver.models.store.ServerSettings#getCheckinMergingEnabled <em>Checkin Merging Enabled</em>}' attribute.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @param value the new value of the '<em>Checkin Merging Enabled</em>' attribute.
-	 * @see #getCheckinMergingEnabled()
-	 * @generated
-	 */
-	void setCheckinMergingEnabled(Boolean value);
+    /**
+     * Sets the value of the '{@link org.bimserver.models.store.ServerSettings#getCheckinMergingEnabled <em>Checkin Merging Enabled</em>}' attribute.
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @param value the new value of the '<em>Checkin Merging Enabled</em>' attribute.
+     * @see #getCheckinMergingEnabled()
+     * @generated
+     */
+    void setCheckinMergingEnabled(Boolean value);
 
-	/**
-	 * Returns the value of the '<em><b>Smtp Server</b></em>' attribute.
-	 * <!-- begin-user-doc -->
-	 * <p>
-	 * If the meaning of the '<em>Smtp Server</em>' attribute isn't clear,
-	 * there really should be more of a description here...
-	 * </p>
-	 * <!-- end-user-doc -->
-	 * @return the value of the '<em>Smtp Server</em>' attribute.
-	 * @see #setSmtpServer(String)
-	 * @see org.bimserver.models.store.StorePackage#getServerSettings_SmtpServer()
-	 * @model
-	 * @generated
-	 */
-	String getSmtpServer();
+    /**
+     * Returns the value of the '<em><b>Smtp Server</b></em>' attribute.
+     * <!-- begin-user-doc -->
+     * <p>
+     * If the meaning of the '<em>Smtp Server</em>' attribute isn't clear,
+     * there really should be more of a description here...
+     * </p>
+     * <!-- end-user-doc -->
+     * @return the value of the '<em>Smtp Server</em>' attribute.
+     * @see #setSmtpServer(String)
+     * @see org.bimserver.models.store.StorePackage#getServerSettings_SmtpServer()
+     * @model
+     * @generated
+     */
+    String getSmtpServer();
 
-	/**
-	 * Sets the value of the '{@link org.bimserver.models.store.ServerSettings#getSmtpServer <em>Smtp Server</em>}' attribute.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @param value the new value of the '<em>Smtp Server</em>' attribute.
-	 * @see #getSmtpServer()
-	 * @generated
-	 */
-	void setSmtpServer(String value);
+    /**
+     * Sets the value of the '{@link org.bimserver.models.store.ServerSettings#getSmtpServer <em>Smtp Server</em>}' attribute.
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @param value the new value of the '<em>Smtp Server</em>' attribute.
+     * @see #getSmtpServer()
+     * @generated
+     */
+    void setSmtpServer(String value);
 
-	/**
-	 * Returns the value of the '<em><b>Email Sender Address</b></em>' attribute.
-	 * <!-- begin-user-doc -->
-	 * <p>
-	 * If the meaning of the '<em>Email Sender Address</em>' attribute isn't clear,
-	 * there really should be more of a description here...
-	 * </p>
-	 * <!-- end-user-doc -->
-	 * @return the value of the '<em>Email Sender Address</em>' attribute.
-	 * @see #setEmailSenderAddress(String)
-	 * @see org.bimserver.models.store.StorePackage#getServerSettings_EmailSenderAddress()
-	 * @model
-	 * @generated
-	 */
-	String getEmailSenderAddress();
+    /**
+     * Returns the value of the '<em><b>Email Sender Address</b></em>' attribute.
+     * <!-- begin-user-doc -->
+     * <p>
+     * If the meaning of the '<em>Email Sender Address</em>' attribute isn't clear,
+     * there really should be more of a description here...
+     * </p>
+     * <!-- end-user-doc -->
+     * @return the value of the '<em>Email Sender Address</em>' attribute.
+     * @see #setEmailSenderAddress(String)
+     * @see org.bimserver.models.store.StorePackage#getServerSettings_EmailSenderAddress()
+     * @model
+     * @generated
+     */
+    String getEmailSenderAddress();
 
-	/**
-	 * Sets the value of the '{@link org.bimserver.models.store.ServerSettings#getEmailSenderAddress <em>Email Sender Address</em>}' attribute.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @param value the new value of the '<em>Email Sender Address</em>' attribute.
-	 * @see #getEmailSenderAddress()
-	 * @generated
-	 */
-	void setEmailSenderAddress(String value);
+    /**
+     * Sets the value of the '{@link org.bimserver.models.store.ServerSettings#getEmailSenderAddress <em>Email Sender Address</em>}' attribute.
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @param value the new value of the '<em>Email Sender Address</em>' attribute.
+     * @see #getEmailSenderAddress()
+     * @generated
+     */
+    void setEmailSenderAddress(String value);
 
-	/**
-	 * Returns the value of the '<em><b>Email Sender Name</b></em>' attribute.
-	 * <!-- begin-user-doc -->
-	 * <p>
-	 * If the meaning of the '<em>Email Sender Name</em>' attribute isn't clear,
-	 * there really should be more of a description here...
-	 * </p>
-	 * <!-- end-user-doc -->
-	 * @return the value of the '<em>Email Sender Name</em>' attribute.
-	 * @see #setEmailSenderName(String)
-	 * @see org.bimserver.models.store.StorePackage#getServerSettings_EmailSenderName()
-	 * @model
-	 * @generated
-	 */
-	String getEmailSenderName();
+    /**
+     * Returns the value of the '<em><b>Email Sender Name</b></em>' attribute.
+     * <!-- begin-user-doc -->
+     * <p>
+     * If the meaning of the '<em>Email Sender Name</em>' attribute isn't clear,
+     * there really should be more of a description here...
+     * </p>
+     * <!-- end-user-doc -->
+     * @return the value of the '<em>Email Sender Name</em>' attribute.
+     * @see #setEmailSenderName(String)
+     * @see org.bimserver.models.store.StorePackage#getServerSettings_EmailSenderName()
+     * @model
+     * @generated
+     */
+    String getEmailSenderName();
 
-	/**
-	 * Sets the value of the '{@link org.bimserver.models.store.ServerSettings#getEmailSenderName <em>Email Sender Name</em>}' attribute.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @param value the new value of the '<em>Email Sender Name</em>' attribute.
-	 * @see #getEmailSenderName()
-	 * @generated
-	 */
-	void setEmailSenderName(String value);
+    /**
+     * Sets the value of the '{@link org.bimserver.models.store.ServerSettings#getEmailSenderName <em>Email Sender Name</em>}' attribute.
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @param value the new value of the '<em>Email Sender Name</em>' attribute.
+     * @see #getEmailSenderName()
+     * @generated
+     */
+    void setEmailSenderName(String value);
 
-	/**
-	 * Returns the value of the '<em><b>Site Address</b></em>' attribute.
-	 * <!-- begin-user-doc -->
-	 * <p>
-	 * If the meaning of the '<em>Site Address</em>' attribute isn't clear,
-	 * there really should be more of a description here...
-	 * </p>
-	 * <!-- end-user-doc -->
-	 * @return the value of the '<em>Site Address</em>' attribute.
-	 * @see #setSiteAddress(String)
-	 * @see org.bimserver.models.store.StorePackage#getServerSettings_SiteAddress()
-	 * @model
-	 * @generated
-	 */
-	String getSiteAddress();
+    /**
+     * Returns the value of the '<em><b>Site Address</b></em>' attribute.
+     * <!-- begin-user-doc -->
+     * <p>
+     * If the meaning of the '<em>Site Address</em>' attribute isn't clear,
+     * there really should be more of a description here...
+     * </p>
+     * <!-- end-user-doc -->
+     * @return the value of the '<em>Site Address</em>' attribute.
+     * @see #setSiteAddress(String)
+     * @see org.bimserver.models.store.StorePackage#getServerSettings_SiteAddress()
+     * @model
+     * @generated
+     */
+    String getSiteAddress();
 
-	/**
-	 * Sets the value of the '{@link org.bimserver.models.store.ServerSettings#getSiteAddress <em>Site Address</em>}' attribute.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @param value the new value of the '<em>Site Address</em>' attribute.
-	 * @see #getSiteAddress()
-	 * @generated
-	 */
-	void setSiteAddress(String value);
+    /**
+     * Sets the value of the '{@link org.bimserver.models.store.ServerSettings#getSiteAddress <em>Site Address</em>}' attribute.
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @param value the new value of the '<em>Site Address</em>' attribute.
+     * @see #getSiteAddress()
+     * @generated
+     */
+    void setSiteAddress(String value);
 
-	/**
-	 * Returns the value of the '<em><b>Generate Geometry On Checkin</b></em>' attribute.
-	 * <!-- begin-user-doc -->
-	 * <p>
-	 * If the meaning of the '<em>Generate Geometry On Checkin</em>' attribute isn't clear,
-	 * there really should be more of a description here...
-	 * </p>
-	 * <!-- end-user-doc -->
-	 * @return the value of the '<em>Generate Geometry On Checkin</em>' attribute.
-	 * @see #setGenerateGeometryOnCheckin(boolean)
-	 * @see org.bimserver.models.store.StorePackage#getServerSettings_GenerateGeometryOnCheckin()
-	 * @model
-	 * @generated
-	 */
-	boolean isGenerateGeometryOnCheckin();
+    /**
+     * Returns the value of the '<em><b>Generate Geometry On Checkin</b></em>' attribute.
+     * <!-- begin-user-doc -->
+     * <p>
+     * If the meaning of the '<em>Generate Geometry On Checkin</em>' attribute isn't clear,
+     * there really should be more of a description here...
+     * </p>
+     * <!-- end-user-doc -->
+     * @return the value of the '<em>Generate Geometry On Checkin</em>' attribute.
+     * @see #setGenerateGeometryOnCheckin(boolean)
+     * @see org.bimserver.models.store.StorePackage#getServerSettings_GenerateGeometryOnCheckin()
+     * @model
+     * @generated
+     */
+    boolean isGenerateGeometryOnCheckin();
 
-	/**
-	 * Sets the value of the '{@link org.bimserver.models.store.ServerSettings#isGenerateGeometryOnCheckin <em>Generate Geometry On Checkin</em>}' attribute.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @param value the new value of the '<em>Generate Geometry On Checkin</em>' attribute.
-	 * @see #isGenerateGeometryOnCheckin()
-	 * @generated
-	 */
-	void setGenerateGeometryOnCheckin(boolean value);
+    /**
+     * Sets the value of the '{@link org.bimserver.models.store.ServerSettings#isGenerateGeometryOnCheckin <em>Generate Geometry On Checkin</em>}' attribute.
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @param value the new value of the '<em>Generate Geometry On Checkin</em>' attribute.
+     * @see #isGenerateGeometryOnCheckin()
+     * @generated
+     */
+    void setGenerateGeometryOnCheckin(boolean value);
 
-	/**
-	 * Returns the value of the '<em><b>Allow Only Whitelisted</b></em>' attribute.
-	 * <!-- begin-user-doc -->
-	 * <p>
-	 * If the meaning of the '<em>Allow Only Whitelisted</em>' attribute isn't clear,
-	 * there really should be more of a description here...
-	 * </p>
-	 * <!-- end-user-doc -->
-	 * @return the value of the '<em>Allow Only Whitelisted</em>' attribute.
-	 * @see #setAllowOnlyWhitelisted(boolean)
-	 * @see org.bimserver.models.store.StorePackage#getServerSettings_AllowOnlyWhitelisted()
-	 * @model
-	 * @generated
-	 */
-	boolean isAllowOnlyWhitelisted();
+    /**
+     * Returns the value of the '<em><b>Allow Only Whitelisted</b></em>' attribute.
+     * <!-- begin-user-doc -->
+     * <p>
+     * If the meaning of the '<em>Allow Only Whitelisted</em>' attribute isn't clear,
+     * there really should be more of a description here...
+     * </p>
+     * <!-- end-user-doc -->
+     * @return the value of the '<em>Allow Only Whitelisted</em>' attribute.
+     * @see #setAllowOnlyWhitelisted(boolean)
+     * @see org.bimserver.models.store.StorePackage#getServerSettings_AllowOnlyWhitelisted()
+     * @model
+     * @generated
+     */
+    boolean isAllowOnlyWhitelisted();
 
-	/**
-	 * Sets the value of the '{@link org.bimserver.models.store.ServerSettings#isAllowOnlyWhitelisted <em>Allow Only Whitelisted</em>}' attribute.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @param value the new value of the '<em>Allow Only Whitelisted</em>' attribute.
-	 * @see #isAllowOnlyWhitelisted()
-	 * @generated
-	 */
-	void setAllowOnlyWhitelisted(boolean value);
+    /**
+     * Sets the value of the '{@link org.bimserver.models.store.ServerSettings#isAllowOnlyWhitelisted <em>Allow Only Whitelisted</em>}' attribute.
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @param value the new value of the '<em>Allow Only Whitelisted</em>' attribute.
+     * @see #isAllowOnlyWhitelisted()
+     * @generated
+     */
+    void setAllowOnlyWhitelisted(boolean value);
 
-	/**
-	 * Returns the value of the '<em><b>Whitelisted Domains</b></em>' attribute list.
-	 * The list contents are of type {@link java.lang.String}.
-	 * <!-- begin-user-doc -->
-	 * <p>
-	 * If the meaning of the '<em>Whitelisted Domains</em>' attribute list isn't clear,
-	 * there really should be more of a description here...
-	 * </p>
-	 * <!-- end-user-doc -->
-	 * @return the value of the '<em>Whitelisted Domains</em>' attribute list.
-	 * @see org.bimserver.models.store.StorePackage#getServerSettings_WhitelistedDomains()
-	 * @model
-	 * @generated
-	 */
-	EList<String> getWhitelistedDomains();
+    /**
+     * Returns the value of the '<em><b>Whitelisted Domains</b></em>' attribute list.
+     * The list contents are of type {@link java.lang.String}.
+     * <!-- begin-user-doc -->
+     * <p>
+     * If the meaning of the '<em>Whitelisted Domains</em>' attribute list isn't clear,
+     * there really should be more of a description here...
+     * </p>
+     * <!-- end-user-doc -->
+     * @return the value of the '<em>Whitelisted Domains</em>' attribute list.
+     * @see org.bimserver.models.store.StorePackage#getServerSettings_WhitelistedDomains()
+     * @model
+     * @generated
+     */
+    EList<String> getWhitelistedDomains();
 
-	/**
-	 * Returns the value of the '<em><b>Hide User List For Non Admin</b></em>' attribute.
-	 * <!-- begin-user-doc -->
-	 * <p>
-	 * If the meaning of the '<em>Hide User List For Non Admin</em>' attribute isn't clear,
-	 * there really should be more of a description here...
-	 * </p>
-	 * <!-- end-user-doc -->
-	 * @return the value of the '<em>Hide User List For Non Admin</em>' attribute.
-	 * @see #setHideUserListForNonAdmin(Boolean)
-	 * @see org.bimserver.models.store.StorePackage#getServerSettings_HideUserListForNonAdmin()
-	 * @model
-	 * @generated
-	 */
-	Boolean getHideUserListForNonAdmin();
+    /**
+     * Returns the value of the '<em><b>Hide User List For Non Admin</b></em>' attribute.
+     * <!-- begin-user-doc -->
+     * <p>
+     * If the meaning of the '<em>Hide User List For Non Admin</em>' attribute isn't clear,
+     * there really should be more of a description here...
+     * </p>
+     * <!-- end-user-doc -->
+     * @return the value of the '<em>Hide User List For Non Admin</em>' attribute.
+     * @see #setHideUserListForNonAdmin(Boolean)
+     * @see org.bimserver.models.store.StorePackage#getServerSettings_HideUserListForNonAdmin()
+     * @model
+     * @generated
+     */
+    Boolean getHideUserListForNonAdmin();
 
-	/**
-	 * Sets the value of the '{@link org.bimserver.models.store.ServerSettings#getHideUserListForNonAdmin <em>Hide User List For Non Admin</em>}' attribute.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @param value the new value of the '<em>Hide User List For Non Admin</em>' attribute.
-	 * @see #getHideUserListForNonAdmin()
-	 * @generated
-	 */
-	void setHideUserListForNonAdmin(Boolean value);
+    /**
+     * Sets the value of the '{@link org.bimserver.models.store.ServerSettings#getHideUserListForNonAdmin <em>Hide User List For Non Admin</em>}' attribute.
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @param value the new value of the '<em>Hide User List For Non Admin</em>' attribute.
+     * @see #getHideUserListForNonAdmin()
+     * @generated
+     */
+    void setHideUserListForNonAdmin(Boolean value);
 
-	/**
-	 * Returns the value of the '<em><b>Protocol Buffers Port</b></em>' attribute.
-	 * <!-- begin-user-doc -->
-	 * <p>
-	 * If the meaning of the '<em>Protocol Buffers Port</em>' attribute isn't clear,
-	 * there really should be more of a description here...
-	 * </p>
-	 * <!-- end-user-doc -->
-	 * @return the value of the '<em>Protocol Buffers Port</em>' attribute.
-	 * @see #setProtocolBuffersPort(Integer)
-	 * @see org.bimserver.models.store.StorePackage#getServerSettings_ProtocolBuffersPort()
-	 * @model
-	 * @generated
-	 */
-	Integer getProtocolBuffersPort();
+    /**
+     * Returns the value of the '<em><b>Protocol Buffers Port</b></em>' attribute.
+     * <!-- begin-user-doc -->
+     * <p>
+     * If the meaning of the '<em>Protocol Buffers Port</em>' attribute isn't clear,
+     * there really should be more of a description here...
+     * </p>
+     * <!-- end-user-doc -->
+     * @return the value of the '<em>Protocol Buffers Port</em>' attribute.
+     * @see #setProtocolBuffersPort(Integer)
+     * @see org.bimserver.models.store.StorePackage#getServerSettings_ProtocolBuffersPort()
+     * @model
+     * @generated
+     */
+    Integer getProtocolBuffersPort();
 
-	/**
-	 * Sets the value of the '{@link org.bimserver.models.store.ServerSettings#getProtocolBuffersPort <em>Protocol Buffers Port</em>}' attribute.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @param value the new value of the '<em>Protocol Buffers Port</em>' attribute.
-	 * @see #getProtocolBuffersPort()
-	 * @generated
-	 */
-	void setProtocolBuffersPort(Integer value);
+    /**
+     * Sets the value of the '{@link org.bimserver.models.store.ServerSettings#getProtocolBuffersPort <em>Protocol Buffers Port</em>}' attribute.
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @param value the new value of the '<em>Protocol Buffers Port</em>' attribute.
+     * @see #getProtocolBuffersPort()
+     * @generated
+     */
+    void setProtocolBuffersPort(Integer value);
 
-	/**
-	 * Returns the value of the '<em><b>Cache Output Files</b></em>' attribute.
-	 * <!-- begin-user-doc -->
-	 * <p>
-	 * If the meaning of the '<em>Cache Output Files</em>' attribute isn't clear,
-	 * there really should be more of a description here...
-	 * </p>
-	 * <!-- end-user-doc -->
-	 * @return the value of the '<em>Cache Output Files</em>' attribute.
-	 * @see #setCacheOutputFiles(Boolean)
-	 * @see org.bimserver.models.store.StorePackage#getServerSettings_CacheOutputFiles()
-	 * @model
-	 * @generated
-	 */
-	Boolean getCacheOutputFiles();
+    /**
+     * Returns the value of the '<em><b>Cache Output Files</b></em>' attribute.
+     * <!-- begin-user-doc -->
+     * <p>
+     * If the meaning of the '<em>Cache Output Files</em>' attribute isn't clear,
+     * there really should be more of a description here...
+     * </p>
+     * <!-- end-user-doc -->
+     * @return the value of the '<em>Cache Output Files</em>' attribute.
+     * @see #setCacheOutputFiles(Boolean)
+     * @see org.bimserver.models.store.StorePackage#getServerSettings_CacheOutputFiles()
+     * @model
+     * @generated
+     */
+    Boolean getCacheOutputFiles();
 
-	/**
-	 * Sets the value of the '{@link org.bimserver.models.store.ServerSettings#getCacheOutputFiles <em>Cache Output Files</em>}' attribute.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @param value the new value of the '<em>Cache Output Files</em>' attribute.
-	 * @see #getCacheOutputFiles()
-	 * @generated
-	 */
-	void setCacheOutputFiles(Boolean value);
+    /**
+     * Sets the value of the '{@link org.bimserver.models.store.ServerSettings#getCacheOutputFiles <em>Cache Output Files</em>}' attribute.
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @param value the new value of the '<em>Cache Output Files</em>' attribute.
+     * @see #getCacheOutputFiles()
+     * @generated
+     */
+    void setCacheOutputFiles(Boolean value);
 
-	/**
-	 * Returns the value of the '<em><b>Web Modules</b></em>' reference list.
-	 * The list contents are of type {@link org.bimserver.models.store.WebModulePluginConfiguration}.
-	 * It is bidirectional and its opposite is '{@link org.bimserver.models.store.WebModulePluginConfiguration#getServerSettings <em>Server Settings</em>}'.
-	 * <!-- begin-user-doc -->
-	 * <p>
-	 * If the meaning of the '<em>Web Modules</em>' reference list isn't clear,
-	 * there really should be more of a description here...
-	 * </p>
-	 * <!-- end-user-doc -->
-	 * @return the value of the '<em>Web Modules</em>' reference list.
-	 * @see org.bimserver.models.store.StorePackage#getServerSettings_WebModules()
-	 * @see org.bimserver.models.store.WebModulePluginConfiguration#getServerSettings
-	 * @model opposite="serverSettings"
-	 * @generated
-	 */
-	EList<WebModulePluginConfiguration> getWebModules();
+    /**
+     * Returns the value of the '<em><b>Web Modules</b></em>' reference list.
+     * The list contents are of type {@link org.bimserver.models.store.WebModulePluginConfiguration}.
+     * It is bidirectional and its opposite is '{@link org.bimserver.models.store.WebModulePluginConfiguration#getServerSettings <em>Server Settings</em>}'.
+     * <!-- begin-user-doc -->
+     * <p>
+     * If the meaning of the '<em>Web Modules</em>' reference list isn't clear,
+     * there really should be more of a description here...
+     * </p>
+     * <!-- end-user-doc -->
+     * @return the value of the '<em>Web Modules</em>' reference list.
+     * @see org.bimserver.models.store.StorePackage#getServerSettings_WebModules()
+     * @see org.bimserver.models.store.WebModulePluginConfiguration#getServerSettings
+     * @model opposite="serverSettings"
+     * @generated
+     */
+    EList<WebModulePluginConfiguration> getWebModules();
 
-	/**
-	 * Returns the value of the '<em><b>Web Module</b></em>' reference.
-	 * <!-- begin-user-doc -->
-	 * <p>
-	 * If the meaning of the '<em>Web Module</em>' reference isn't clear,
-	 * there really should be more of a description here...
-	 * </p>
-	 * <!-- end-user-doc -->
-	 * @return the value of the '<em>Web Module</em>' reference.
-	 * @see #setWebModule(WebModulePluginConfiguration)
-	 * @see org.bimserver.models.store.StorePackage#getServerSettings_WebModule()
-	 * @model
-	 * @generated
-	 */
-	WebModulePluginConfiguration getWebModule();
+    /**
+     * Returns the value of the '<em><b>Web Module</b></em>' reference.
+     * <!-- begin-user-doc -->
+     * <p>
+     * If the meaning of the '<em>Web Module</em>' reference isn't clear,
+     * there really should be more of a description here...
+     * </p>
+     * <!-- end-user-doc -->
+     * @return the value of the '<em>Web Module</em>' reference.
+     * @see #setWebModule(WebModulePluginConfiguration)
+     * @see org.bimserver.models.store.StorePackage#getServerSettings_WebModule()
+     * @model
+     * @generated
+     */
+    WebModulePluginConfiguration getWebModule();
 
-	/**
-	 * Sets the value of the '{@link org.bimserver.models.store.ServerSettings#getWebModule <em>Web Module</em>}' reference.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @param value the new value of the '<em>Web Module</em>' reference.
-	 * @see #getWebModule()
-	 * @generated
-	 */
-	void setWebModule(WebModulePluginConfiguration value);
+    /**
+     * Sets the value of the '{@link org.bimserver.models.store.ServerSettings#getWebModule <em>Web Module</em>}' reference.
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @param value the new value of the '<em>Web Module</em>' reference.
+     * @see #getWebModule()
+     * @generated
+     */
+    void setWebModule(WebModulePluginConfiguration value);
 
-	/**
-	 * Returns the value of the '<em><b>Service Repository Url</b></em>' attribute.
-	 * <!-- begin-user-doc -->
-	 * <p>
-	 * If the meaning of the '<em>Service Repository Url</em>' attribute isn't clear,
-	 * there really should be more of a description here...
-	 * </p>
-	 * <!-- end-user-doc -->
-	 * @return the value of the '<em>Service Repository Url</em>' attribute.
-	 * @see #setServiceRepositoryUrl(String)
-	 * @see org.bimserver.models.store.StorePackage#getServerSettings_ServiceRepositoryUrl()
-	 * @model
-	 * @generated
-	 */
-	String getServiceRepositoryUrl();
+    /**
+     * Returns the value of the '<em><b>Service Repository Url</b></em>' attribute.
+     * <!-- begin-user-doc -->
+     * <p>
+     * If the meaning of the '<em>Service Repository Url</em>' attribute isn't clear,
+     * there really should be more of a description here...
+     * </p>
+     * <!-- end-user-doc -->
+     * @return the value of the '<em>Service Repository Url</em>' attribute.
+     * @see #setServiceRepositoryUrl(String)
+     * @see org.bimserver.models.store.StorePackage#getServerSettings_ServiceRepositoryUrl()
+     * @model
+     * @generated
+     */
+    String getServiceRepositoryUrl();
 
-	/**
-	 * Sets the value of the '{@link org.bimserver.models.store.ServerSettings#getServiceRepositoryUrl <em>Service Repository Url</em>}' attribute.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @param value the new value of the '<em>Service Repository Url</em>' attribute.
-	 * @see #getServiceRepositoryUrl()
-	 * @generated
-	 */
-	void setServiceRepositoryUrl(String value);
+    /**
+     * Sets the value of the '{@link org.bimserver.models.store.ServerSettings#getServiceRepositoryUrl <em>Service Repository Url</em>}' attribute.
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @param value the new value of the '<em>Service Repository Url</em>' attribute.
+     * @see #getServiceRepositoryUrl()
+     * @generated
+     */
+    void setServiceRepositoryUrl(String value);
 
 } // ServerSettings

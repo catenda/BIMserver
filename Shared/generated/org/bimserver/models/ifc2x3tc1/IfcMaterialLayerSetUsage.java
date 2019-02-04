@@ -23,6 +23,7 @@ package org.bimserver.models.ifc2x3tc1;
  *
  * <p>
  * The following features are supported:
+ * </p>
  * <ul>
  *   <li>{@link org.bimserver.models.ifc2x3tc1.IfcMaterialLayerSetUsage#getForLayerSet <em>For Layer Set</em>}</li>
  *   <li>{@link org.bimserver.models.ifc2x3tc1.IfcMaterialLayerSetUsage#getLayerSetDirection <em>Layer Set Direction</em>}</li>
@@ -30,147 +31,146 @@ package org.bimserver.models.ifc2x3tc1;
  *   <li>{@link org.bimserver.models.ifc2x3tc1.IfcMaterialLayerSetUsage#getOffsetFromReferenceLine <em>Offset From Reference Line</em>}</li>
  *   <li>{@link org.bimserver.models.ifc2x3tc1.IfcMaterialLayerSetUsage#getOffsetFromReferenceLineAsString <em>Offset From Reference Line As String</em>}</li>
  * </ul>
- * </p>
  *
  * @see org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package#getIfcMaterialLayerSetUsage()
  * @model
  * @generated
  */
 public interface IfcMaterialLayerSetUsage extends IfcMaterialSelect {
-	/**
-	 * Returns the value of the '<em><b>For Layer Set</b></em>' reference.
-	 * <!-- begin-user-doc -->
-	 * <p>
-	 * If the meaning of the '<em>For Layer Set</em>' reference isn't clear,
-	 * there really should be more of a description here...
-	 * </p>
-	 * <!-- end-user-doc -->
-	 * @return the value of the '<em>For Layer Set</em>' reference.
-	 * @see #setForLayerSet(IfcMaterialLayerSet)
-	 * @see org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package#getIfcMaterialLayerSetUsage_ForLayerSet()
-	 * @model
-	 * @generated
-	 */
-	IfcMaterialLayerSet getForLayerSet();
+    /**
+     * Returns the value of the '<em><b>For Layer Set</b></em>' reference.
+     * <!-- begin-user-doc -->
+     * <p>
+     * If the meaning of the '<em>For Layer Set</em>' reference isn't clear,
+     * there really should be more of a description here...
+     * </p>
+     * <!-- end-user-doc -->
+     * @return the value of the '<em>For Layer Set</em>' reference.
+     * @see #setForLayerSet(IfcMaterialLayerSet)
+     * @see org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package#getIfcMaterialLayerSetUsage_ForLayerSet()
+     * @model
+     * @generated
+     */
+    IfcMaterialLayerSet getForLayerSet();
 
-	/**
-	 * Sets the value of the '{@link org.bimserver.models.ifc2x3tc1.IfcMaterialLayerSetUsage#getForLayerSet <em>For Layer Set</em>}' reference.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @param value the new value of the '<em>For Layer Set</em>' reference.
-	 * @see #getForLayerSet()
-	 * @generated
-	 */
-	void setForLayerSet(IfcMaterialLayerSet value);
+    /**
+     * Sets the value of the '{@link org.bimserver.models.ifc2x3tc1.IfcMaterialLayerSetUsage#getForLayerSet <em>For Layer Set</em>}' reference.
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @param value the new value of the '<em>For Layer Set</em>' reference.
+     * @see #getForLayerSet()
+     * @generated
+     */
+    void setForLayerSet(IfcMaterialLayerSet value);
 
-	/**
-	 * Returns the value of the '<em><b>Layer Set Direction</b></em>' attribute.
-	 * The literals are from the enumeration {@link org.bimserver.models.ifc2x3tc1.IfcLayerSetDirectionEnum}.
-	 * <!-- begin-user-doc -->
-	 * <p>
-	 * If the meaning of the '<em>Layer Set Direction</em>' attribute isn't clear,
-	 * there really should be more of a description here...
-	 * </p>
-	 * <!-- end-user-doc -->
-	 * @return the value of the '<em>Layer Set Direction</em>' attribute.
-	 * @see org.bimserver.models.ifc2x3tc1.IfcLayerSetDirectionEnum
-	 * @see #setLayerSetDirection(IfcLayerSetDirectionEnum)
-	 * @see org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package#getIfcMaterialLayerSetUsage_LayerSetDirection()
-	 * @model
-	 * @generated
-	 */
-	IfcLayerSetDirectionEnum getLayerSetDirection();
+    /**
+     * Returns the value of the '<em><b>Layer Set Direction</b></em>' attribute.
+     * The literals are from the enumeration {@link org.bimserver.models.ifc2x3tc1.IfcLayerSetDirectionEnum}.
+     * <!-- begin-user-doc -->
+     * <p>
+     * If the meaning of the '<em>Layer Set Direction</em>' attribute isn't clear,
+     * there really should be more of a description here...
+     * </p>
+     * <!-- end-user-doc -->
+     * @return the value of the '<em>Layer Set Direction</em>' attribute.
+     * @see org.bimserver.models.ifc2x3tc1.IfcLayerSetDirectionEnum
+     * @see #setLayerSetDirection(IfcLayerSetDirectionEnum)
+     * @see org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package#getIfcMaterialLayerSetUsage_LayerSetDirection()
+     * @model
+     * @generated
+     */
+    IfcLayerSetDirectionEnum getLayerSetDirection();
 
-	/**
-	 * Sets the value of the '{@link org.bimserver.models.ifc2x3tc1.IfcMaterialLayerSetUsage#getLayerSetDirection <em>Layer Set Direction</em>}' attribute.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @param value the new value of the '<em>Layer Set Direction</em>' attribute.
-	 * @see org.bimserver.models.ifc2x3tc1.IfcLayerSetDirectionEnum
-	 * @see #getLayerSetDirection()
-	 * @generated
-	 */
-	void setLayerSetDirection(IfcLayerSetDirectionEnum value);
+    /**
+     * Sets the value of the '{@link org.bimserver.models.ifc2x3tc1.IfcMaterialLayerSetUsage#getLayerSetDirection <em>Layer Set Direction</em>}' attribute.
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @param value the new value of the '<em>Layer Set Direction</em>' attribute.
+     * @see org.bimserver.models.ifc2x3tc1.IfcLayerSetDirectionEnum
+     * @see #getLayerSetDirection()
+     * @generated
+     */
+    void setLayerSetDirection(IfcLayerSetDirectionEnum value);
 
-	/**
-	 * Returns the value of the '<em><b>Direction Sense</b></em>' attribute.
-	 * The literals are from the enumeration {@link org.bimserver.models.ifc2x3tc1.IfcDirectionSenseEnum}.
-	 * <!-- begin-user-doc -->
-	 * <p>
-	 * If the meaning of the '<em>Direction Sense</em>' attribute isn't clear,
-	 * there really should be more of a description here...
-	 * </p>
-	 * <!-- end-user-doc -->
-	 * @return the value of the '<em>Direction Sense</em>' attribute.
-	 * @see org.bimserver.models.ifc2x3tc1.IfcDirectionSenseEnum
-	 * @see #setDirectionSense(IfcDirectionSenseEnum)
-	 * @see org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package#getIfcMaterialLayerSetUsage_DirectionSense()
-	 * @model
-	 * @generated
-	 */
-	IfcDirectionSenseEnum getDirectionSense();
+    /**
+     * Returns the value of the '<em><b>Direction Sense</b></em>' attribute.
+     * The literals are from the enumeration {@link org.bimserver.models.ifc2x3tc1.IfcDirectionSenseEnum}.
+     * <!-- begin-user-doc -->
+     * <p>
+     * If the meaning of the '<em>Direction Sense</em>' attribute isn't clear,
+     * there really should be more of a description here...
+     * </p>
+     * <!-- end-user-doc -->
+     * @return the value of the '<em>Direction Sense</em>' attribute.
+     * @see org.bimserver.models.ifc2x3tc1.IfcDirectionSenseEnum
+     * @see #setDirectionSense(IfcDirectionSenseEnum)
+     * @see org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package#getIfcMaterialLayerSetUsage_DirectionSense()
+     * @model
+     * @generated
+     */
+    IfcDirectionSenseEnum getDirectionSense();
 
-	/**
-	 * Sets the value of the '{@link org.bimserver.models.ifc2x3tc1.IfcMaterialLayerSetUsage#getDirectionSense <em>Direction Sense</em>}' attribute.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @param value the new value of the '<em>Direction Sense</em>' attribute.
-	 * @see org.bimserver.models.ifc2x3tc1.IfcDirectionSenseEnum
-	 * @see #getDirectionSense()
-	 * @generated
-	 */
-	void setDirectionSense(IfcDirectionSenseEnum value);
+    /**
+     * Sets the value of the '{@link org.bimserver.models.ifc2x3tc1.IfcMaterialLayerSetUsage#getDirectionSense <em>Direction Sense</em>}' attribute.
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @param value the new value of the '<em>Direction Sense</em>' attribute.
+     * @see org.bimserver.models.ifc2x3tc1.IfcDirectionSenseEnum
+     * @see #getDirectionSense()
+     * @generated
+     */
+    void setDirectionSense(IfcDirectionSenseEnum value);
 
-	/**
-	 * Returns the value of the '<em><b>Offset From Reference Line</b></em>' attribute.
-	 * <!-- begin-user-doc -->
-	 * <p>
-	 * If the meaning of the '<em>Offset From Reference Line</em>' attribute isn't clear,
-	 * there really should be more of a description here...
-	 * </p>
-	 * <!-- end-user-doc -->
-	 * @return the value of the '<em>Offset From Reference Line</em>' attribute.
-	 * @see #setOffsetFromReferenceLine(double)
-	 * @see org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package#getIfcMaterialLayerSetUsage_OffsetFromReferenceLine()
-	 * @model
-	 * @generated
-	 */
-	double getOffsetFromReferenceLine();
+    /**
+     * Returns the value of the '<em><b>Offset From Reference Line</b></em>' attribute.
+     * <!-- begin-user-doc -->
+     * <p>
+     * If the meaning of the '<em>Offset From Reference Line</em>' attribute isn't clear,
+     * there really should be more of a description here...
+     * </p>
+     * <!-- end-user-doc -->
+     * @return the value of the '<em>Offset From Reference Line</em>' attribute.
+     * @see #setOffsetFromReferenceLine(double)
+     * @see org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package#getIfcMaterialLayerSetUsage_OffsetFromReferenceLine()
+     * @model
+     * @generated
+     */
+    double getOffsetFromReferenceLine();
 
-	/**
-	 * Sets the value of the '{@link org.bimserver.models.ifc2x3tc1.IfcMaterialLayerSetUsage#getOffsetFromReferenceLine <em>Offset From Reference Line</em>}' attribute.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @param value the new value of the '<em>Offset From Reference Line</em>' attribute.
-	 * @see #getOffsetFromReferenceLine()
-	 * @generated
-	 */
-	void setOffsetFromReferenceLine(double value);
+    /**
+     * Sets the value of the '{@link org.bimserver.models.ifc2x3tc1.IfcMaterialLayerSetUsage#getOffsetFromReferenceLine <em>Offset From Reference Line</em>}' attribute.
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @param value the new value of the '<em>Offset From Reference Line</em>' attribute.
+     * @see #getOffsetFromReferenceLine()
+     * @generated
+     */
+    void setOffsetFromReferenceLine(double value);
 
-	/**
-	 * Returns the value of the '<em><b>Offset From Reference Line As String</b></em>' attribute.
-	 * <!-- begin-user-doc -->
-	 * <p>
-	 * If the meaning of the '<em>Offset From Reference Line As String</em>' attribute isn't clear,
-	 * there really should be more of a description here...
-	 * </p>
-	 * <!-- end-user-doc -->
-	 * @return the value of the '<em>Offset From Reference Line As String</em>' attribute.
-	 * @see #setOffsetFromReferenceLineAsString(String)
-	 * @see org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package#getIfcMaterialLayerSetUsage_OffsetFromReferenceLineAsString()
-	 * @model
-	 * @generated
-	 */
-	String getOffsetFromReferenceLineAsString();
+    /**
+     * Returns the value of the '<em><b>Offset From Reference Line As String</b></em>' attribute.
+     * <!-- begin-user-doc -->
+     * <p>
+     * If the meaning of the '<em>Offset From Reference Line As String</em>' attribute isn't clear,
+     * there really should be more of a description here...
+     * </p>
+     * <!-- end-user-doc -->
+     * @return the value of the '<em>Offset From Reference Line As String</em>' attribute.
+     * @see #setOffsetFromReferenceLineAsString(String)
+     * @see org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package#getIfcMaterialLayerSetUsage_OffsetFromReferenceLineAsString()
+     * @model
+     * @generated
+     */
+    String getOffsetFromReferenceLineAsString();
 
-	/**
-	 * Sets the value of the '{@link org.bimserver.models.ifc2x3tc1.IfcMaterialLayerSetUsage#getOffsetFromReferenceLineAsString <em>Offset From Reference Line As String</em>}' attribute.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @param value the new value of the '<em>Offset From Reference Line As String</em>' attribute.
-	 * @see #getOffsetFromReferenceLineAsString()
-	 * @generated
-	 */
-	void setOffsetFromReferenceLineAsString(String value);
+    /**
+     * Sets the value of the '{@link org.bimserver.models.ifc2x3tc1.IfcMaterialLayerSetUsage#getOffsetFromReferenceLineAsString <em>Offset From Reference Line As String</em>}' attribute.
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @param value the new value of the '<em>Offset From Reference Line As String</em>' attribute.
+     * @see #getOffsetFromReferenceLineAsString()
+     * @generated
+     */
+    void setOffsetFromReferenceLineAsString(String value);
 
 } // IfcMaterialLayerSetUsage

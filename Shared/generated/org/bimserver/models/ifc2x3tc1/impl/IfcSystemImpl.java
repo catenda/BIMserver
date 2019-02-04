@@ -19,7 +19,9 @@ package org.bimserver.models.ifc2x3tc1.impl;
 import org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package;
 import org.bimserver.models.ifc2x3tc1.IfcRelServicesBuildings;
 import org.bimserver.models.ifc2x3tc1.IfcSystem;
+
 import org.eclipse.emf.common.util.EList;
+
 import org.eclipse.emf.ecore.EClass;
 
 /**
@@ -28,59 +30,59 @@ import org.eclipse.emf.ecore.EClass;
  * <!-- end-user-doc -->
  * <p>
  * The following features are implemented:
+ * </p>
  * <ul>
  *   <li>{@link org.bimserver.models.ifc2x3tc1.impl.IfcSystemImpl#getServicesBuildings <em>Services Buildings</em>}</li>
  * </ul>
- * </p>
  *
  * @generated
  */
 public class IfcSystemImpl extends IfcGroupImpl implements IfcSystem {
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	protected IfcSystemImpl() {
-		super();
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    protected IfcSystemImpl() {
+        super();
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	@Override
-	protected EClass eStaticClass() {
-		return Ifc2x3tc1Package.Literals.IFC_SYSTEM;
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    @Override
+    protected EClass eStaticClass() {
+        return Ifc2x3tc1Package.Literals.IFC_SYSTEM;
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	@SuppressWarnings("unchecked")
-	public EList<IfcRelServicesBuildings> getServicesBuildings() {
-		return (EList<IfcRelServicesBuildings>) eGet(Ifc2x3tc1Package.Literals.IFC_SYSTEM__SERVICES_BUILDINGS, true);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    @SuppressWarnings("unchecked")
+    public EList<IfcRelServicesBuildings> getServicesBuildings() {
+        return (EList<IfcRelServicesBuildings>) eGet(Ifc2x3tc1Package.Literals.IFC_SYSTEM__SERVICES_BUILDINGS, true);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public void unsetServicesBuildings() {
-		eUnset(Ifc2x3tc1Package.Literals.IFC_SYSTEM__SERVICES_BUILDINGS);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public void unsetServicesBuildings() {
+        eUnset(Ifc2x3tc1Package.Literals.IFC_SYSTEM__SERVICES_BUILDINGS);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public boolean isSetServicesBuildings() {
-		return eIsSet(Ifc2x3tc1Package.Literals.IFC_SYSTEM__SERVICES_BUILDINGS);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public boolean isSetServicesBuildings() {
+        return eIsSet(Ifc2x3tc1Package.Literals.IFC_SYSTEM__SERVICES_BUILDINGS);
+    }
 
 } //IfcSystemImpl

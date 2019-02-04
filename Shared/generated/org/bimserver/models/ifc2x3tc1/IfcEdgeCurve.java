@@ -23,70 +23,70 @@ package org.bimserver.models.ifc2x3tc1;
  *
  * <p>
  * The following features are supported:
+ * </p>
  * <ul>
  *   <li>{@link org.bimserver.models.ifc2x3tc1.IfcEdgeCurve#getEdgeGeometry <em>Edge Geometry</em>}</li>
  *   <li>{@link org.bimserver.models.ifc2x3tc1.IfcEdgeCurve#getSameSense <em>Same Sense</em>}</li>
  * </ul>
- * </p>
  *
  * @see org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package#getIfcEdgeCurve()
  * @model
  * @generated
  */
 public interface IfcEdgeCurve extends IfcEdge, IfcCurveOrEdgeCurve {
-	/**
-	 * Returns the value of the '<em><b>Edge Geometry</b></em>' reference.
-	 * <!-- begin-user-doc -->
-	 * <p>
-	 * If the meaning of the '<em>Edge Geometry</em>' reference isn't clear,
-	 * there really should be more of a description here...
-	 * </p>
-	 * <!-- end-user-doc -->
-	 * @return the value of the '<em>Edge Geometry</em>' reference.
-	 * @see #setEdgeGeometry(IfcCurve)
-	 * @see org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package#getIfcEdgeCurve_EdgeGeometry()
-	 * @model
-	 * @generated
-	 */
-	IfcCurve getEdgeGeometry();
+    /**
+     * Returns the value of the '<em><b>Edge Geometry</b></em>' reference.
+     * <!-- begin-user-doc -->
+     * <p>
+     * If the meaning of the '<em>Edge Geometry</em>' reference isn't clear,
+     * there really should be more of a description here...
+     * </p>
+     * <!-- end-user-doc -->
+     * @return the value of the '<em>Edge Geometry</em>' reference.
+     * @see #setEdgeGeometry(IfcCurve)
+     * @see org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package#getIfcEdgeCurve_EdgeGeometry()
+     * @model
+     * @generated
+     */
+    IfcCurve getEdgeGeometry();
 
-	/**
-	 * Sets the value of the '{@link org.bimserver.models.ifc2x3tc1.IfcEdgeCurve#getEdgeGeometry <em>Edge Geometry</em>}' reference.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @param value the new value of the '<em>Edge Geometry</em>' reference.
-	 * @see #getEdgeGeometry()
-	 * @generated
-	 */
-	void setEdgeGeometry(IfcCurve value);
+    /**
+     * Sets the value of the '{@link org.bimserver.models.ifc2x3tc1.IfcEdgeCurve#getEdgeGeometry <em>Edge Geometry</em>}' reference.
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @param value the new value of the '<em>Edge Geometry</em>' reference.
+     * @see #getEdgeGeometry()
+     * @generated
+     */
+    void setEdgeGeometry(IfcCurve value);
 
-	/**
-	 * Returns the value of the '<em><b>Same Sense</b></em>' attribute.
-	 * The literals are from the enumeration {@link org.bimserver.models.ifc2x3tc1.Tristate}.
-	 * <!-- begin-user-doc -->
-	 * <p>
-	 * If the meaning of the '<em>Same Sense</em>' attribute isn't clear,
-	 * there really should be more of a description here...
-	 * </p>
-	 * <!-- end-user-doc -->
-	 * @return the value of the '<em>Same Sense</em>' attribute.
-	 * @see org.bimserver.models.ifc2x3tc1.Tristate
-	 * @see #setSameSense(Tristate)
-	 * @see org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package#getIfcEdgeCurve_SameSense()
-	 * @model
-	 * @generated
-	 */
-	Tristate getSameSense();
+    /**
+     * Returns the value of the '<em><b>Same Sense</b></em>' attribute.
+     * The literals are from the enumeration {@link org.bimserver.models.ifc2x3tc1.Tristate}.
+     * <!-- begin-user-doc -->
+     * <p>
+     * If the meaning of the '<em>Same Sense</em>' attribute isn't clear,
+     * there really should be more of a description here...
+     * </p>
+     * <!-- end-user-doc -->
+     * @return the value of the '<em>Same Sense</em>' attribute.
+     * @see org.bimserver.models.ifc2x3tc1.Tristate
+     * @see #setSameSense(Tristate)
+     * @see org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package#getIfcEdgeCurve_SameSense()
+     * @model
+     * @generated
+     */
+    Tristate getSameSense();
 
-	/**
-	 * Sets the value of the '{@link org.bimserver.models.ifc2x3tc1.IfcEdgeCurve#getSameSense <em>Same Sense</em>}' attribute.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @param value the new value of the '<em>Same Sense</em>' attribute.
-	 * @see org.bimserver.models.ifc2x3tc1.Tristate
-	 * @see #getSameSense()
-	 * @generated
-	 */
-	void setSameSense(Tristate value);
+    /**
+     * Sets the value of the '{@link org.bimserver.models.ifc2x3tc1.IfcEdgeCurve#getSameSense <em>Same Sense</em>}' attribute.
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @param value the new value of the '<em>Same Sense</em>' attribute.
+     * @see org.bimserver.models.ifc2x3tc1.Tristate
+     * @see #getSameSense()
+     * @generated
+     */
+    void setSameSense(Tristate value);
 
 } // IfcEdgeCurve

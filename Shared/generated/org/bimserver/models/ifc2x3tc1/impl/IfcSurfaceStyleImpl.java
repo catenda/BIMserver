@@ -20,7 +20,9 @@ import org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package;
 import org.bimserver.models.ifc2x3tc1.IfcSurfaceSide;
 import org.bimserver.models.ifc2x3tc1.IfcSurfaceStyle;
 import org.bimserver.models.ifc2x3tc1.IfcSurfaceStyleElementSelect;
+
 import org.eclipse.emf.common.util.EList;
+
 import org.eclipse.emf.ecore.EClass;
 
 /**
@@ -29,60 +31,60 @@ import org.eclipse.emf.ecore.EClass;
  * <!-- end-user-doc -->
  * <p>
  * The following features are implemented:
+ * </p>
  * <ul>
  *   <li>{@link org.bimserver.models.ifc2x3tc1.impl.IfcSurfaceStyleImpl#getSide <em>Side</em>}</li>
  *   <li>{@link org.bimserver.models.ifc2x3tc1.impl.IfcSurfaceStyleImpl#getStyles <em>Styles</em>}</li>
  * </ul>
- * </p>
  *
  * @generated
  */
 public class IfcSurfaceStyleImpl extends IfcPresentationStyleImpl implements IfcSurfaceStyle {
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	protected IfcSurfaceStyleImpl() {
-		super();
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    protected IfcSurfaceStyleImpl() {
+        super();
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	@Override
-	protected EClass eStaticClass() {
-		return Ifc2x3tc1Package.Literals.IFC_SURFACE_STYLE;
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    @Override
+    protected EClass eStaticClass() {
+        return Ifc2x3tc1Package.Literals.IFC_SURFACE_STYLE;
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public IfcSurfaceSide getSide() {
-		return (IfcSurfaceSide) eGet(Ifc2x3tc1Package.Literals.IFC_SURFACE_STYLE__SIDE, true);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public IfcSurfaceSide getSide() {
+        return (IfcSurfaceSide) eGet(Ifc2x3tc1Package.Literals.IFC_SURFACE_STYLE__SIDE, true);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public void setSide(IfcSurfaceSide newSide) {
-		eSet(Ifc2x3tc1Package.Literals.IFC_SURFACE_STYLE__SIDE, newSide);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public void setSide(IfcSurfaceSide newSide) {
+        eSet(Ifc2x3tc1Package.Literals.IFC_SURFACE_STYLE__SIDE, newSide);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	@SuppressWarnings("unchecked")
-	public EList<IfcSurfaceStyleElementSelect> getStyles() {
-		return (EList<IfcSurfaceStyleElementSelect>) eGet(Ifc2x3tc1Package.Literals.IFC_SURFACE_STYLE__STYLES, true);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    @SuppressWarnings("unchecked")
+    public EList<IfcSurfaceStyleElementSelect> getStyles() {
+        return (EList<IfcSurfaceStyleElementSelect>) eGet(Ifc2x3tc1Package.Literals.IFC_SURFACE_STYLE__STYLES, true);
+    }
 
 } //IfcSurfaceStyleImpl

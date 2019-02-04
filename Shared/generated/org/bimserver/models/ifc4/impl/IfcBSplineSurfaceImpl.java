@@ -65,8 +65,8 @@ public class IfcBSplineSurfaceImpl extends IfcBoundedSurfaceImpl implements IfcB
      * <!-- end-user-doc -->
      * @generated
      */
-    public int getUDegree() {
-        return (Integer) eGet(Ifc4Package.Literals.IFC_BSPLINE_SURFACE__UDEGREE, true);
+    public long getUDegree() {
+        return (Long) eGet(Ifc4Package.Literals.IFC_BSPLINE_SURFACE__UDEGREE, true);
     }
 
     /**
@@ -74,7 +74,7 @@ public class IfcBSplineSurfaceImpl extends IfcBoundedSurfaceImpl implements IfcB
      * <!-- end-user-doc -->
      * @generated
      */
-    public void setUDegree(int newUDegree) {
+    public void setUDegree(long newUDegree) {
         eSet(Ifc4Package.Literals.IFC_BSPLINE_SURFACE__UDEGREE, newUDegree);
     }
 
@@ -83,8 +83,8 @@ public class IfcBSplineSurfaceImpl extends IfcBoundedSurfaceImpl implements IfcB
      * <!-- end-user-doc -->
      * @generated
      */
-    public int getVDegree() {
-        return (Integer) eGet(Ifc4Package.Literals.IFC_BSPLINE_SURFACE__VDEGREE, true);
+    public long getVDegree() {
+        return (Long) eGet(Ifc4Package.Literals.IFC_BSPLINE_SURFACE__VDEGREE, true);
     }
 
     /**
@@ -92,7 +92,7 @@ public class IfcBSplineSurfaceImpl extends IfcBoundedSurfaceImpl implements IfcB
      * <!-- end-user-doc -->
      * @generated
      */
-    public void setVDegree(int newVDegree) {
+    public void setVDegree(long newVDegree) {
         eSet(Ifc4Package.Literals.IFC_BSPLINE_SURFACE__VDEGREE, newVDegree);
     }
 

@@ -17,8 +17,10 @@
 package org.bimserver.models.ifc2x3tc1.impl;
 
 import org.bimserver.emf.IdEObjectImpl;
+
 import org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package;
 import org.bimserver.models.ifc2x3tc1.IfcElectricConductanceMeasure;
+
 import org.eclipse.emf.ecore.EClass;
 
 /**
@@ -27,114 +29,115 @@ import org.eclipse.emf.ecore.EClass;
  * <!-- end-user-doc -->
  * <p>
  * The following features are implemented:
+ * </p>
  * <ul>
  *   <li>{@link org.bimserver.models.ifc2x3tc1.impl.IfcElectricConductanceMeasureImpl#getWrappedValue <em>Wrapped Value</em>}</li>
  *   <li>{@link org.bimserver.models.ifc2x3tc1.impl.IfcElectricConductanceMeasureImpl#getWrappedValueAsString <em>Wrapped Value As String</em>}</li>
  * </ul>
- * </p>
  *
  * @generated
  */
 public class IfcElectricConductanceMeasureImpl extends IdEObjectImpl implements IfcElectricConductanceMeasure {
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	protected IfcElectricConductanceMeasureImpl() {
-		super();
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    protected IfcElectricConductanceMeasureImpl() {
+        super();
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	@Override
-	protected EClass eStaticClass() {
-		return Ifc2x3tc1Package.Literals.IFC_ELECTRIC_CONDUCTANCE_MEASURE;
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    @Override
+    protected EClass eStaticClass() {
+        return Ifc2x3tc1Package.Literals.IFC_ELECTRIC_CONDUCTANCE_MEASURE;
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	@Override
-	protected int eStaticFeatureCount() {
-		return 0;
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    @Override
+    protected int eStaticFeatureCount() {
+        return 0;
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public double getWrappedValue() {
-		return (Double) eGet(Ifc2x3tc1Package.Literals.IFC_ELECTRIC_CONDUCTANCE_MEASURE__WRAPPED_VALUE, true);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public double getWrappedValue() {
+        return (Double) eGet(Ifc2x3tc1Package.Literals.IFC_ELECTRIC_CONDUCTANCE_MEASURE__WRAPPED_VALUE, true);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public void setWrappedValue(double newWrappedValue) {
-		eSet(Ifc2x3tc1Package.Literals.IFC_ELECTRIC_CONDUCTANCE_MEASURE__WRAPPED_VALUE, newWrappedValue);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public void setWrappedValue(double newWrappedValue) {
+        eSet(Ifc2x3tc1Package.Literals.IFC_ELECTRIC_CONDUCTANCE_MEASURE__WRAPPED_VALUE, newWrappedValue);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public void unsetWrappedValue() {
-		eUnset(Ifc2x3tc1Package.Literals.IFC_ELECTRIC_CONDUCTANCE_MEASURE__WRAPPED_VALUE);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public void unsetWrappedValue() {
+        eUnset(Ifc2x3tc1Package.Literals.IFC_ELECTRIC_CONDUCTANCE_MEASURE__WRAPPED_VALUE);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public boolean isSetWrappedValue() {
-		return eIsSet(Ifc2x3tc1Package.Literals.IFC_ELECTRIC_CONDUCTANCE_MEASURE__WRAPPED_VALUE);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public boolean isSetWrappedValue() {
+        return eIsSet(Ifc2x3tc1Package.Literals.IFC_ELECTRIC_CONDUCTANCE_MEASURE__WRAPPED_VALUE);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public String getWrappedValueAsString() {
-		return (String) eGet(Ifc2x3tc1Package.Literals.IFC_ELECTRIC_CONDUCTANCE_MEASURE__WRAPPED_VALUE_AS_STRING, true);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public String getWrappedValueAsString() {
+        return (String) eGet(Ifc2x3tc1Package.Literals.IFC_ELECTRIC_CONDUCTANCE_MEASURE__WRAPPED_VALUE_AS_STRING, true);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public void setWrappedValueAsString(String newWrappedValueAsString) {
-		eSet(Ifc2x3tc1Package.Literals.IFC_ELECTRIC_CONDUCTANCE_MEASURE__WRAPPED_VALUE_AS_STRING, newWrappedValueAsString);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public void setWrappedValueAsString(String newWrappedValueAsString) {
+        eSet(Ifc2x3tc1Package.Literals.IFC_ELECTRIC_CONDUCTANCE_MEASURE__WRAPPED_VALUE_AS_STRING,
+                newWrappedValueAsString);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public void unsetWrappedValueAsString() {
-		eUnset(Ifc2x3tc1Package.Literals.IFC_ELECTRIC_CONDUCTANCE_MEASURE__WRAPPED_VALUE_AS_STRING);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public void unsetWrappedValueAsString() {
+        eUnset(Ifc2x3tc1Package.Literals.IFC_ELECTRIC_CONDUCTANCE_MEASURE__WRAPPED_VALUE_AS_STRING);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public boolean isSetWrappedValueAsString() {
-		return eIsSet(Ifc2x3tc1Package.Literals.IFC_ELECTRIC_CONDUCTANCE_MEASURE__WRAPPED_VALUE_AS_STRING);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public boolean isSetWrappedValueAsString() {
+        return eIsSet(Ifc2x3tc1Package.Literals.IFC_ELECTRIC_CONDUCTANCE_MEASURE__WRAPPED_VALUE_AS_STRING);
+    }
 
 } //IfcElectricConductanceMeasureImpl

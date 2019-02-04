@@ -25,11 +25,11 @@ import org.bimserver.emf.IdEObject;
  *
  * <p>
  * The following features are supported:
+ * </p>
  * <ul>
  *   <li>{@link org.bimserver.models.store.ServerInfo#getServerState <em>Server State</em>}</li>
  *   <li>{@link org.bimserver.models.store.ServerInfo#getErrorMessage <em>Error Message</em>}</li>
  * </ul>
- * </p>
  *
  * @see org.bimserver.models.store.StorePackage#getServerInfo()
  * @model
@@ -37,59 +37,59 @@ import org.bimserver.emf.IdEObject;
  * @generated
  */
 public interface ServerInfo extends IdEObject {
-	/**
-	 * Returns the value of the '<em><b>Server State</b></em>' attribute.
-	 * The literals are from the enumeration {@link org.bimserver.models.store.ServerState}.
-	 * <!-- begin-user-doc -->
-	 * <p>
-	 * If the meaning of the '<em>Server State</em>' attribute isn't clear,
-	 * there really should be more of a description here...
-	 * </p>
-	 * <!-- end-user-doc -->
-	 * @return the value of the '<em>Server State</em>' attribute.
-	 * @see org.bimserver.models.store.ServerState
-	 * @see #setServerState(ServerState)
-	 * @see org.bimserver.models.store.StorePackage#getServerInfo_ServerState()
-	 * @model
-	 * @generated
-	 */
-	ServerState getServerState();
+    /**
+     * Returns the value of the '<em><b>Server State</b></em>' attribute.
+     * The literals are from the enumeration {@link org.bimserver.models.store.ServerState}.
+     * <!-- begin-user-doc -->
+     * <p>
+     * If the meaning of the '<em>Server State</em>' attribute isn't clear,
+     * there really should be more of a description here...
+     * </p>
+     * <!-- end-user-doc -->
+     * @return the value of the '<em>Server State</em>' attribute.
+     * @see org.bimserver.models.store.ServerState
+     * @see #setServerState(ServerState)
+     * @see org.bimserver.models.store.StorePackage#getServerInfo_ServerState()
+     * @model
+     * @generated
+     */
+    ServerState getServerState();
 
-	/**
-	 * Sets the value of the '{@link org.bimserver.models.store.ServerInfo#getServerState <em>Server State</em>}' attribute.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @param value the new value of the '<em>Server State</em>' attribute.
-	 * @see org.bimserver.models.store.ServerState
-	 * @see #getServerState()
-	 * @generated
-	 */
-	void setServerState(ServerState value);
+    /**
+     * Sets the value of the '{@link org.bimserver.models.store.ServerInfo#getServerState <em>Server State</em>}' attribute.
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @param value the new value of the '<em>Server State</em>' attribute.
+     * @see org.bimserver.models.store.ServerState
+     * @see #getServerState()
+     * @generated
+     */
+    void setServerState(ServerState value);
 
-	/**
-	 * Returns the value of the '<em><b>Error Message</b></em>' attribute.
-	 * <!-- begin-user-doc -->
-	 * <p>
-	 * If the meaning of the '<em>Error Message</em>' attribute isn't clear,
-	 * there really should be more of a description here...
-	 * </p>
-	 * <!-- end-user-doc -->
-	 * @return the value of the '<em>Error Message</em>' attribute.
-	 * @see #setErrorMessage(String)
-	 * @see org.bimserver.models.store.StorePackage#getServerInfo_ErrorMessage()
-	 * @model
-	 * @generated
-	 */
-	String getErrorMessage();
+    /**
+     * Returns the value of the '<em><b>Error Message</b></em>' attribute.
+     * <!-- begin-user-doc -->
+     * <p>
+     * If the meaning of the '<em>Error Message</em>' attribute isn't clear,
+     * there really should be more of a description here...
+     * </p>
+     * <!-- end-user-doc -->
+     * @return the value of the '<em>Error Message</em>' attribute.
+     * @see #setErrorMessage(String)
+     * @see org.bimserver.models.store.StorePackage#getServerInfo_ErrorMessage()
+     * @model
+     * @generated
+     */
+    String getErrorMessage();
 
-	/**
-	 * Sets the value of the '{@link org.bimserver.models.store.ServerInfo#getErrorMessage <em>Error Message</em>}' attribute.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @param value the new value of the '<em>Error Message</em>' attribute.
-	 * @see #getErrorMessage()
-	 * @generated
-	 */
-	void setErrorMessage(String value);
+    /**
+     * Sets the value of the '{@link org.bimserver.models.store.ServerInfo#getErrorMessage <em>Error Message</em>}' attribute.
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @param value the new value of the '<em>Error Message</em>' attribute.
+     * @see #getErrorMessage()
+     * @generated
+     */
+    void setErrorMessage(String value);
 
 } // ServerInfo

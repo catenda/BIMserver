@@ -19,6 +19,7 @@ package org.bimserver.models.ifc2x3tc1.impl;
 import org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package;
 import org.bimserver.models.ifc2x3tc1.IfcCableCarrierFittingType;
 import org.bimserver.models.ifc2x3tc1.IfcCableCarrierFittingTypeEnum;
+
 import org.eclipse.emf.ecore.EClass;
 
 /**
@@ -27,49 +28,50 @@ import org.eclipse.emf.ecore.EClass;
  * <!-- end-user-doc -->
  * <p>
  * The following features are implemented:
+ * </p>
  * <ul>
  *   <li>{@link org.bimserver.models.ifc2x3tc1.impl.IfcCableCarrierFittingTypeImpl#getPredefinedType <em>Predefined Type</em>}</li>
  * </ul>
- * </p>
  *
  * @generated
  */
 public class IfcCableCarrierFittingTypeImpl extends IfcFlowFittingTypeImpl implements IfcCableCarrierFittingType {
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	protected IfcCableCarrierFittingTypeImpl() {
-		super();
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    protected IfcCableCarrierFittingTypeImpl() {
+        super();
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	@Override
-	protected EClass eStaticClass() {
-		return Ifc2x3tc1Package.Literals.IFC_CABLE_CARRIER_FITTING_TYPE;
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    @Override
+    protected EClass eStaticClass() {
+        return Ifc2x3tc1Package.Literals.IFC_CABLE_CARRIER_FITTING_TYPE;
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public IfcCableCarrierFittingTypeEnum getPredefinedType() {
-		return (IfcCableCarrierFittingTypeEnum) eGet(Ifc2x3tc1Package.Literals.IFC_CABLE_CARRIER_FITTING_TYPE__PREDEFINED_TYPE, true);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public IfcCableCarrierFittingTypeEnum getPredefinedType() {
+        return (IfcCableCarrierFittingTypeEnum) eGet(
+                Ifc2x3tc1Package.Literals.IFC_CABLE_CARRIER_FITTING_TYPE__PREDEFINED_TYPE, true);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public void setPredefinedType(IfcCableCarrierFittingTypeEnum newPredefinedType) {
-		eSet(Ifc2x3tc1Package.Literals.IFC_CABLE_CARRIER_FITTING_TYPE__PREDEFINED_TYPE, newPredefinedType);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public void setPredefinedType(IfcCableCarrierFittingTypeEnum newPredefinedType) {
+        eSet(Ifc2x3tc1Package.Literals.IFC_CABLE_CARRIER_FITTING_TYPE__PREDEFINED_TYPE, newPredefinedType);
+    }
 
 } //IfcCableCarrierFittingTypeImpl

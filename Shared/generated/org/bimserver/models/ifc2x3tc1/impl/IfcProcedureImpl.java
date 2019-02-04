@@ -19,6 +19,7 @@ package org.bimserver.models.ifc2x3tc1.impl;
 import org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package;
 import org.bimserver.models.ifc2x3tc1.IfcProcedure;
 import org.bimserver.models.ifc2x3tc1.IfcProcedureTypeEnum;
+
 import org.eclipse.emf.ecore.EClass;
 
 /**
@@ -27,105 +28,105 @@ import org.eclipse.emf.ecore.EClass;
  * <!-- end-user-doc -->
  * <p>
  * The following features are implemented:
+ * </p>
  * <ul>
  *   <li>{@link org.bimserver.models.ifc2x3tc1.impl.IfcProcedureImpl#getProcedureID <em>Procedure ID</em>}</li>
  *   <li>{@link org.bimserver.models.ifc2x3tc1.impl.IfcProcedureImpl#getProcedureType <em>Procedure Type</em>}</li>
  *   <li>{@link org.bimserver.models.ifc2x3tc1.impl.IfcProcedureImpl#getUserDefinedProcedureType <em>User Defined Procedure Type</em>}</li>
  * </ul>
- * </p>
  *
  * @generated
  */
 public class IfcProcedureImpl extends IfcProcessImpl implements IfcProcedure {
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	protected IfcProcedureImpl() {
-		super();
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    protected IfcProcedureImpl() {
+        super();
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	@Override
-	protected EClass eStaticClass() {
-		return Ifc2x3tc1Package.Literals.IFC_PROCEDURE;
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    @Override
+    protected EClass eStaticClass() {
+        return Ifc2x3tc1Package.Literals.IFC_PROCEDURE;
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public String getProcedureID() {
-		return (String) eGet(Ifc2x3tc1Package.Literals.IFC_PROCEDURE__PROCEDURE_ID, true);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public String getProcedureID() {
+        return (String) eGet(Ifc2x3tc1Package.Literals.IFC_PROCEDURE__PROCEDURE_ID, true);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public void setProcedureID(String newProcedureID) {
-		eSet(Ifc2x3tc1Package.Literals.IFC_PROCEDURE__PROCEDURE_ID, newProcedureID);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public void setProcedureID(String newProcedureID) {
+        eSet(Ifc2x3tc1Package.Literals.IFC_PROCEDURE__PROCEDURE_ID, newProcedureID);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public IfcProcedureTypeEnum getProcedureType() {
-		return (IfcProcedureTypeEnum) eGet(Ifc2x3tc1Package.Literals.IFC_PROCEDURE__PROCEDURE_TYPE, true);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public IfcProcedureTypeEnum getProcedureType() {
+        return (IfcProcedureTypeEnum) eGet(Ifc2x3tc1Package.Literals.IFC_PROCEDURE__PROCEDURE_TYPE, true);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public void setProcedureType(IfcProcedureTypeEnum newProcedureType) {
-		eSet(Ifc2x3tc1Package.Literals.IFC_PROCEDURE__PROCEDURE_TYPE, newProcedureType);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public void setProcedureType(IfcProcedureTypeEnum newProcedureType) {
+        eSet(Ifc2x3tc1Package.Literals.IFC_PROCEDURE__PROCEDURE_TYPE, newProcedureType);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public String getUserDefinedProcedureType() {
-		return (String) eGet(Ifc2x3tc1Package.Literals.IFC_PROCEDURE__USER_DEFINED_PROCEDURE_TYPE, true);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public String getUserDefinedProcedureType() {
+        return (String) eGet(Ifc2x3tc1Package.Literals.IFC_PROCEDURE__USER_DEFINED_PROCEDURE_TYPE, true);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public void setUserDefinedProcedureType(String newUserDefinedProcedureType) {
-		eSet(Ifc2x3tc1Package.Literals.IFC_PROCEDURE__USER_DEFINED_PROCEDURE_TYPE, newUserDefinedProcedureType);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public void setUserDefinedProcedureType(String newUserDefinedProcedureType) {
+        eSet(Ifc2x3tc1Package.Literals.IFC_PROCEDURE__USER_DEFINED_PROCEDURE_TYPE, newUserDefinedProcedureType);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public void unsetUserDefinedProcedureType() {
-		eUnset(Ifc2x3tc1Package.Literals.IFC_PROCEDURE__USER_DEFINED_PROCEDURE_TYPE);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public void unsetUserDefinedProcedureType() {
+        eUnset(Ifc2x3tc1Package.Literals.IFC_PROCEDURE__USER_DEFINED_PROCEDURE_TYPE);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public boolean isSetUserDefinedProcedureType() {
-		return eIsSet(Ifc2x3tc1Package.Literals.IFC_PROCEDURE__USER_DEFINED_PROCEDURE_TYPE);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public boolean isSetUserDefinedProcedureType() {
+        return eIsSet(Ifc2x3tc1Package.Literals.IFC_PROCEDURE__USER_DEFINED_PROCEDURE_TYPE);
+    }
 
 } //IfcProcedureImpl

@@ -17,11 +17,13 @@
 package org.bimserver.models.ifc2x3tc1.impl;
 
 import org.bimserver.emf.IdEObjectImpl;
+
 import org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package;
 import org.bimserver.models.ifc2x3tc1.IfcCartesianTransformationOperator2D;
 import org.bimserver.models.ifc2x3tc1.IfcSurfaceTexture;
 import org.bimserver.models.ifc2x3tc1.IfcSurfaceTextureEnum;
 import org.bimserver.models.ifc2x3tc1.Tristate;
+
 import org.eclipse.emf.ecore.EClass;
 
 /**
@@ -30,134 +32,135 @@ import org.eclipse.emf.ecore.EClass;
  * <!-- end-user-doc -->
  * <p>
  * The following features are implemented:
+ * </p>
  * <ul>
  *   <li>{@link org.bimserver.models.ifc2x3tc1.impl.IfcSurfaceTextureImpl#getRepeatS <em>Repeat S</em>}</li>
  *   <li>{@link org.bimserver.models.ifc2x3tc1.impl.IfcSurfaceTextureImpl#getRepeatT <em>Repeat T</em>}</li>
  *   <li>{@link org.bimserver.models.ifc2x3tc1.impl.IfcSurfaceTextureImpl#getTextureType <em>Texture Type</em>}</li>
  *   <li>{@link org.bimserver.models.ifc2x3tc1.impl.IfcSurfaceTextureImpl#getTextureTransform <em>Texture Transform</em>}</li>
  * </ul>
- * </p>
  *
  * @generated
  */
 public class IfcSurfaceTextureImpl extends IdEObjectImpl implements IfcSurfaceTexture {
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	protected IfcSurfaceTextureImpl() {
-		super();
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    protected IfcSurfaceTextureImpl() {
+        super();
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	@Override
-	protected EClass eStaticClass() {
-		return Ifc2x3tc1Package.Literals.IFC_SURFACE_TEXTURE;
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    @Override
+    protected EClass eStaticClass() {
+        return Ifc2x3tc1Package.Literals.IFC_SURFACE_TEXTURE;
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	@Override
-	protected int eStaticFeatureCount() {
-		return 0;
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    @Override
+    protected int eStaticFeatureCount() {
+        return 0;
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public Tristate getRepeatS() {
-		return (Tristate) eGet(Ifc2x3tc1Package.Literals.IFC_SURFACE_TEXTURE__REPEAT_S, true);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public Tristate getRepeatS() {
+        return (Tristate) eGet(Ifc2x3tc1Package.Literals.IFC_SURFACE_TEXTURE__REPEAT_S, true);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public void setRepeatS(Tristate newRepeatS) {
-		eSet(Ifc2x3tc1Package.Literals.IFC_SURFACE_TEXTURE__REPEAT_S, newRepeatS);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public void setRepeatS(Tristate newRepeatS) {
+        eSet(Ifc2x3tc1Package.Literals.IFC_SURFACE_TEXTURE__REPEAT_S, newRepeatS);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public Tristate getRepeatT() {
-		return (Tristate) eGet(Ifc2x3tc1Package.Literals.IFC_SURFACE_TEXTURE__REPEAT_T, true);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public Tristate getRepeatT() {
+        return (Tristate) eGet(Ifc2x3tc1Package.Literals.IFC_SURFACE_TEXTURE__REPEAT_T, true);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public void setRepeatT(Tristate newRepeatT) {
-		eSet(Ifc2x3tc1Package.Literals.IFC_SURFACE_TEXTURE__REPEAT_T, newRepeatT);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public void setRepeatT(Tristate newRepeatT) {
+        eSet(Ifc2x3tc1Package.Literals.IFC_SURFACE_TEXTURE__REPEAT_T, newRepeatT);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public IfcSurfaceTextureEnum getTextureType() {
-		return (IfcSurfaceTextureEnum) eGet(Ifc2x3tc1Package.Literals.IFC_SURFACE_TEXTURE__TEXTURE_TYPE, true);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public IfcSurfaceTextureEnum getTextureType() {
+        return (IfcSurfaceTextureEnum) eGet(Ifc2x3tc1Package.Literals.IFC_SURFACE_TEXTURE__TEXTURE_TYPE, true);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public void setTextureType(IfcSurfaceTextureEnum newTextureType) {
-		eSet(Ifc2x3tc1Package.Literals.IFC_SURFACE_TEXTURE__TEXTURE_TYPE, newTextureType);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public void setTextureType(IfcSurfaceTextureEnum newTextureType) {
+        eSet(Ifc2x3tc1Package.Literals.IFC_SURFACE_TEXTURE__TEXTURE_TYPE, newTextureType);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public IfcCartesianTransformationOperator2D getTextureTransform() {
-		return (IfcCartesianTransformationOperator2D) eGet(Ifc2x3tc1Package.Literals.IFC_SURFACE_TEXTURE__TEXTURE_TRANSFORM, true);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public IfcCartesianTransformationOperator2D getTextureTransform() {
+        return (IfcCartesianTransformationOperator2D) eGet(
+                Ifc2x3tc1Package.Literals.IFC_SURFACE_TEXTURE__TEXTURE_TRANSFORM, true);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public void setTextureTransform(IfcCartesianTransformationOperator2D newTextureTransform) {
-		eSet(Ifc2x3tc1Package.Literals.IFC_SURFACE_TEXTURE__TEXTURE_TRANSFORM, newTextureTransform);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public void setTextureTransform(IfcCartesianTransformationOperator2D newTextureTransform) {
+        eSet(Ifc2x3tc1Package.Literals.IFC_SURFACE_TEXTURE__TEXTURE_TRANSFORM, newTextureTransform);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public void unsetTextureTransform() {
-		eUnset(Ifc2x3tc1Package.Literals.IFC_SURFACE_TEXTURE__TEXTURE_TRANSFORM);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public void unsetTextureTransform() {
+        eUnset(Ifc2x3tc1Package.Literals.IFC_SURFACE_TEXTURE__TEXTURE_TRANSFORM);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public boolean isSetTextureTransform() {
-		return eIsSet(Ifc2x3tc1Package.Literals.IFC_SURFACE_TEXTURE__TEXTURE_TRANSFORM);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public boolean isSetTextureTransform() {
+        return eIsSet(Ifc2x3tc1Package.Literals.IFC_SURFACE_TEXTURE__TEXTURE_TRANSFORM);
+    }
 
 } //IfcSurfaceTextureImpl

@@ -20,6 +20,7 @@ import org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package;
 import org.bimserver.models.ifc2x3tc1.IfcRectangularTrimmedSurface;
 import org.bimserver.models.ifc2x3tc1.IfcSurface;
 import org.bimserver.models.ifc2x3tc1.Tristate;
+
 import org.eclipse.emf.ecore.EClass;
 
 /**
@@ -28,6 +29,7 @@ import org.eclipse.emf.ecore.EClass;
  * <!-- end-user-doc -->
  * <p>
  * The following features are implemented:
+ * </p>
  * <ul>
  *   <li>{@link org.bimserver.models.ifc2x3tc1.impl.IfcRectangularTrimmedSurfaceImpl#getBasisSurface <em>Basis Surface</em>}</li>
  *   <li>{@link org.bimserver.models.ifc2x3tc1.impl.IfcRectangularTrimmedSurfaceImpl#getU1 <em>U1</em>}</li>
@@ -42,262 +44,261 @@ import org.eclipse.emf.ecore.EClass;
  *   <li>{@link org.bimserver.models.ifc2x3tc1.impl.IfcRectangularTrimmedSurfaceImpl#getVsense <em>Vsense</em>}</li>
  *   <li>{@link org.bimserver.models.ifc2x3tc1.impl.IfcRectangularTrimmedSurfaceImpl#getDim <em>Dim</em>}</li>
  * </ul>
- * </p>
  *
  * @generated
  */
 public class IfcRectangularTrimmedSurfaceImpl extends IfcBoundedSurfaceImpl implements IfcRectangularTrimmedSurface {
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	protected IfcRectangularTrimmedSurfaceImpl() {
-		super();
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    protected IfcRectangularTrimmedSurfaceImpl() {
+        super();
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	@Override
-	protected EClass eStaticClass() {
-		return Ifc2x3tc1Package.Literals.IFC_RECTANGULAR_TRIMMED_SURFACE;
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    @Override
+    protected EClass eStaticClass() {
+        return Ifc2x3tc1Package.Literals.IFC_RECTANGULAR_TRIMMED_SURFACE;
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public IfcSurface getBasisSurface() {
-		return (IfcSurface) eGet(Ifc2x3tc1Package.Literals.IFC_RECTANGULAR_TRIMMED_SURFACE__BASIS_SURFACE, true);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public IfcSurface getBasisSurface() {
+        return (IfcSurface) eGet(Ifc2x3tc1Package.Literals.IFC_RECTANGULAR_TRIMMED_SURFACE__BASIS_SURFACE, true);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public void setBasisSurface(IfcSurface newBasisSurface) {
-		eSet(Ifc2x3tc1Package.Literals.IFC_RECTANGULAR_TRIMMED_SURFACE__BASIS_SURFACE, newBasisSurface);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public void setBasisSurface(IfcSurface newBasisSurface) {
+        eSet(Ifc2x3tc1Package.Literals.IFC_RECTANGULAR_TRIMMED_SURFACE__BASIS_SURFACE, newBasisSurface);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public double getU1() {
-		return (Double) eGet(Ifc2x3tc1Package.Literals.IFC_RECTANGULAR_TRIMMED_SURFACE__U1, true);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public double getU1() {
+        return (Double) eGet(Ifc2x3tc1Package.Literals.IFC_RECTANGULAR_TRIMMED_SURFACE__U1, true);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public void setU1(double newU1) {
-		eSet(Ifc2x3tc1Package.Literals.IFC_RECTANGULAR_TRIMMED_SURFACE__U1, newU1);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public void setU1(double newU1) {
+        eSet(Ifc2x3tc1Package.Literals.IFC_RECTANGULAR_TRIMMED_SURFACE__U1, newU1);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public String getU1AsString() {
-		return (String) eGet(Ifc2x3tc1Package.Literals.IFC_RECTANGULAR_TRIMMED_SURFACE__U1_AS_STRING, true);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public String getU1AsString() {
+        return (String) eGet(Ifc2x3tc1Package.Literals.IFC_RECTANGULAR_TRIMMED_SURFACE__U1_AS_STRING, true);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public void setU1AsString(String newU1AsString) {
-		eSet(Ifc2x3tc1Package.Literals.IFC_RECTANGULAR_TRIMMED_SURFACE__U1_AS_STRING, newU1AsString);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public void setU1AsString(String newU1AsString) {
+        eSet(Ifc2x3tc1Package.Literals.IFC_RECTANGULAR_TRIMMED_SURFACE__U1_AS_STRING, newU1AsString);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public double getV1() {
-		return (Double) eGet(Ifc2x3tc1Package.Literals.IFC_RECTANGULAR_TRIMMED_SURFACE__V1, true);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public double getV1() {
+        return (Double) eGet(Ifc2x3tc1Package.Literals.IFC_RECTANGULAR_TRIMMED_SURFACE__V1, true);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public void setV1(double newV1) {
-		eSet(Ifc2x3tc1Package.Literals.IFC_RECTANGULAR_TRIMMED_SURFACE__V1, newV1);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public void setV1(double newV1) {
+        eSet(Ifc2x3tc1Package.Literals.IFC_RECTANGULAR_TRIMMED_SURFACE__V1, newV1);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public String getV1AsString() {
-		return (String) eGet(Ifc2x3tc1Package.Literals.IFC_RECTANGULAR_TRIMMED_SURFACE__V1_AS_STRING, true);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public String getV1AsString() {
+        return (String) eGet(Ifc2x3tc1Package.Literals.IFC_RECTANGULAR_TRIMMED_SURFACE__V1_AS_STRING, true);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public void setV1AsString(String newV1AsString) {
-		eSet(Ifc2x3tc1Package.Literals.IFC_RECTANGULAR_TRIMMED_SURFACE__V1_AS_STRING, newV1AsString);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public void setV1AsString(String newV1AsString) {
+        eSet(Ifc2x3tc1Package.Literals.IFC_RECTANGULAR_TRIMMED_SURFACE__V1_AS_STRING, newV1AsString);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public double getU2() {
-		return (Double) eGet(Ifc2x3tc1Package.Literals.IFC_RECTANGULAR_TRIMMED_SURFACE__U2, true);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public double getU2() {
+        return (Double) eGet(Ifc2x3tc1Package.Literals.IFC_RECTANGULAR_TRIMMED_SURFACE__U2, true);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public void setU2(double newU2) {
-		eSet(Ifc2x3tc1Package.Literals.IFC_RECTANGULAR_TRIMMED_SURFACE__U2, newU2);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public void setU2(double newU2) {
+        eSet(Ifc2x3tc1Package.Literals.IFC_RECTANGULAR_TRIMMED_SURFACE__U2, newU2);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public String getU2AsString() {
-		return (String) eGet(Ifc2x3tc1Package.Literals.IFC_RECTANGULAR_TRIMMED_SURFACE__U2_AS_STRING, true);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public String getU2AsString() {
+        return (String) eGet(Ifc2x3tc1Package.Literals.IFC_RECTANGULAR_TRIMMED_SURFACE__U2_AS_STRING, true);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public void setU2AsString(String newU2AsString) {
-		eSet(Ifc2x3tc1Package.Literals.IFC_RECTANGULAR_TRIMMED_SURFACE__U2_AS_STRING, newU2AsString);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public void setU2AsString(String newU2AsString) {
+        eSet(Ifc2x3tc1Package.Literals.IFC_RECTANGULAR_TRIMMED_SURFACE__U2_AS_STRING, newU2AsString);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public double getV2() {
-		return (Double) eGet(Ifc2x3tc1Package.Literals.IFC_RECTANGULAR_TRIMMED_SURFACE__V2, true);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public double getV2() {
+        return (Double) eGet(Ifc2x3tc1Package.Literals.IFC_RECTANGULAR_TRIMMED_SURFACE__V2, true);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public void setV2(double newV2) {
-		eSet(Ifc2x3tc1Package.Literals.IFC_RECTANGULAR_TRIMMED_SURFACE__V2, newV2);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public void setV2(double newV2) {
+        eSet(Ifc2x3tc1Package.Literals.IFC_RECTANGULAR_TRIMMED_SURFACE__V2, newV2);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public String getV2AsString() {
-		return (String) eGet(Ifc2x3tc1Package.Literals.IFC_RECTANGULAR_TRIMMED_SURFACE__V2_AS_STRING, true);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public String getV2AsString() {
+        return (String) eGet(Ifc2x3tc1Package.Literals.IFC_RECTANGULAR_TRIMMED_SURFACE__V2_AS_STRING, true);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public void setV2AsString(String newV2AsString) {
-		eSet(Ifc2x3tc1Package.Literals.IFC_RECTANGULAR_TRIMMED_SURFACE__V2_AS_STRING, newV2AsString);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public void setV2AsString(String newV2AsString) {
+        eSet(Ifc2x3tc1Package.Literals.IFC_RECTANGULAR_TRIMMED_SURFACE__V2_AS_STRING, newV2AsString);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public Tristate getUsense() {
-		return (Tristate) eGet(Ifc2x3tc1Package.Literals.IFC_RECTANGULAR_TRIMMED_SURFACE__USENSE, true);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public Tristate getUsense() {
+        return (Tristate) eGet(Ifc2x3tc1Package.Literals.IFC_RECTANGULAR_TRIMMED_SURFACE__USENSE, true);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public void setUsense(Tristate newUsense) {
-		eSet(Ifc2x3tc1Package.Literals.IFC_RECTANGULAR_TRIMMED_SURFACE__USENSE, newUsense);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public void setUsense(Tristate newUsense) {
+        eSet(Ifc2x3tc1Package.Literals.IFC_RECTANGULAR_TRIMMED_SURFACE__USENSE, newUsense);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public Tristate getVsense() {
-		return (Tristate) eGet(Ifc2x3tc1Package.Literals.IFC_RECTANGULAR_TRIMMED_SURFACE__VSENSE, true);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public Tristate getVsense() {
+        return (Tristate) eGet(Ifc2x3tc1Package.Literals.IFC_RECTANGULAR_TRIMMED_SURFACE__VSENSE, true);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public void setVsense(Tristate newVsense) {
-		eSet(Ifc2x3tc1Package.Literals.IFC_RECTANGULAR_TRIMMED_SURFACE__VSENSE, newVsense);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public void setVsense(Tristate newVsense) {
+        eSet(Ifc2x3tc1Package.Literals.IFC_RECTANGULAR_TRIMMED_SURFACE__VSENSE, newVsense);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public int getDim() {
-		return (Integer) eGet(Ifc2x3tc1Package.Literals.IFC_RECTANGULAR_TRIMMED_SURFACE__DIM, true);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public long getDim() {
+        return (Long) eGet(Ifc2x3tc1Package.Literals.IFC_RECTANGULAR_TRIMMED_SURFACE__DIM, true);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public void setDim(int newDim) {
-		eSet(Ifc2x3tc1Package.Literals.IFC_RECTANGULAR_TRIMMED_SURFACE__DIM, newDim);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public void setDim(long newDim) {
+        eSet(Ifc2x3tc1Package.Literals.IFC_RECTANGULAR_TRIMMED_SURFACE__DIM, newDim);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public void unsetDim() {
-		eUnset(Ifc2x3tc1Package.Literals.IFC_RECTANGULAR_TRIMMED_SURFACE__DIM);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public void unsetDim() {
+        eUnset(Ifc2x3tc1Package.Literals.IFC_RECTANGULAR_TRIMMED_SURFACE__DIM);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public boolean isSetDim() {
-		return eIsSet(Ifc2x3tc1Package.Literals.IFC_RECTANGULAR_TRIMMED_SURFACE__DIM);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public boolean isSetDim() {
+        return eIsSet(Ifc2x3tc1Package.Literals.IFC_RECTANGULAR_TRIMMED_SURFACE__DIM);
+    }
 
 } //IfcRectangularTrimmedSurfaceImpl

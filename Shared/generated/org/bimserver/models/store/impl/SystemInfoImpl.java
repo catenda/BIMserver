@@ -19,8 +19,10 @@ package org.bimserver.models.store.impl;
 import java.util.Date;
 
 import org.bimserver.emf.IdEObjectImpl;
+
 import org.bimserver.models.store.StorePackage;
 import org.bimserver.models.store.SystemInfo;
+
 import org.eclipse.emf.ecore.EClass;
 
 /**
@@ -29,6 +31,7 @@ import org.eclipse.emf.ecore.EClass;
  * <!-- end-user-doc -->
  * <p>
  * The following features are implemented:
+ * </p>
  * <ul>
  *   <li>{@link org.bimserver.models.store.impl.SystemInfoImpl#getCpucores <em>Cpucores</em>}</li>
  *   <li>{@link org.bimserver.models.store.impl.SystemInfoImpl#getDatetime <em>Datetime</em>}</li>
@@ -38,164 +41,163 @@ import org.eclipse.emf.ecore.EClass;
  *   <li>{@link org.bimserver.models.store.impl.SystemInfoImpl#getUserHome <em>User Home</em>}</li>
  *   <li>{@link org.bimserver.models.store.impl.SystemInfoImpl#getUserDir <em>User Dir</em>}</li>
  * </ul>
- * </p>
  *
  * @generated
  */
 public class SystemInfoImpl extends IdEObjectImpl implements SystemInfo {
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	protected SystemInfoImpl() {
-		super();
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    protected SystemInfoImpl() {
+        super();
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	@Override
-	protected EClass eStaticClass() {
-		return StorePackage.Literals.SYSTEM_INFO;
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    @Override
+    protected EClass eStaticClass() {
+        return StorePackage.Literals.SYSTEM_INFO;
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	@Override
-	protected int eStaticFeatureCount() {
-		return 0;
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    @Override
+    protected int eStaticFeatureCount() {
+        return 0;
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public int getCpucores() {
-		return (Integer) eGet(StorePackage.Literals.SYSTEM_INFO__CPUCORES, true);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public int getCpucores() {
+        return (Integer) eGet(StorePackage.Literals.SYSTEM_INFO__CPUCORES, true);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public void setCpucores(int newCpucores) {
-		eSet(StorePackage.Literals.SYSTEM_INFO__CPUCORES, newCpucores);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public void setCpucores(int newCpucores) {
+        eSet(StorePackage.Literals.SYSTEM_INFO__CPUCORES, newCpucores);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public Date getDatetime() {
-		return (Date) eGet(StorePackage.Literals.SYSTEM_INFO__DATETIME, true);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public Date getDatetime() {
+        return (Date) eGet(StorePackage.Literals.SYSTEM_INFO__DATETIME, true);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public void setDatetime(Date newDatetime) {
-		eSet(StorePackage.Literals.SYSTEM_INFO__DATETIME, newDatetime);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public void setDatetime(Date newDatetime) {
+        eSet(StorePackage.Literals.SYSTEM_INFO__DATETIME, newDatetime);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public String getOsname() {
-		return (String) eGet(StorePackage.Literals.SYSTEM_INFO__OSNAME, true);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public String getOsname() {
+        return (String) eGet(StorePackage.Literals.SYSTEM_INFO__OSNAME, true);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public void setOsname(String newOsname) {
-		eSet(StorePackage.Literals.SYSTEM_INFO__OSNAME, newOsname);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public void setOsname(String newOsname) {
+        eSet(StorePackage.Literals.SYSTEM_INFO__OSNAME, newOsname);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public String getOsversion() {
-		return (String) eGet(StorePackage.Literals.SYSTEM_INFO__OSVERSION, true);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public String getOsversion() {
+        return (String) eGet(StorePackage.Literals.SYSTEM_INFO__OSVERSION, true);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public void setOsversion(String newOsversion) {
-		eSet(StorePackage.Literals.SYSTEM_INFO__OSVERSION, newOsversion);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public void setOsversion(String newOsversion) {
+        eSet(StorePackage.Literals.SYSTEM_INFO__OSVERSION, newOsversion);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public String getUserName() {
-		return (String) eGet(StorePackage.Literals.SYSTEM_INFO__USER_NAME, true);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public String getUserName() {
+        return (String) eGet(StorePackage.Literals.SYSTEM_INFO__USER_NAME, true);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public void setUserName(String newUserName) {
-		eSet(StorePackage.Literals.SYSTEM_INFO__USER_NAME, newUserName);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public void setUserName(String newUserName) {
+        eSet(StorePackage.Literals.SYSTEM_INFO__USER_NAME, newUserName);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public String getUserHome() {
-		return (String) eGet(StorePackage.Literals.SYSTEM_INFO__USER_HOME, true);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public String getUserHome() {
+        return (String) eGet(StorePackage.Literals.SYSTEM_INFO__USER_HOME, true);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public void setUserHome(String newUserHome) {
-		eSet(StorePackage.Literals.SYSTEM_INFO__USER_HOME, newUserHome);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public void setUserHome(String newUserHome) {
+        eSet(StorePackage.Literals.SYSTEM_INFO__USER_HOME, newUserHome);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public String getUserDir() {
-		return (String) eGet(StorePackage.Literals.SYSTEM_INFO__USER_DIR, true);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public String getUserDir() {
+        return (String) eGet(StorePackage.Literals.SYSTEM_INFO__USER_DIR, true);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public void setUserDir(String newUserDir) {
-		eSet(StorePackage.Literals.SYSTEM_INFO__USER_DIR, newUserDir);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public void setUserDir(String newUserDir) {
+        eSet(StorePackage.Literals.SYSTEM_INFO__USER_DIR, newUserDir);
+    }
 
 } //SystemInfoImpl

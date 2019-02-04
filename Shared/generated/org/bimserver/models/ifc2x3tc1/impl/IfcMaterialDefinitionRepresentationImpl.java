@@ -19,6 +19,7 @@ package org.bimserver.models.ifc2x3tc1.impl;
 import org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package;
 import org.bimserver.models.ifc2x3tc1.IfcMaterial;
 import org.bimserver.models.ifc2x3tc1.IfcMaterialDefinitionRepresentation;
+
 import org.eclipse.emf.ecore.EClass;
 
 /**
@@ -27,49 +28,52 @@ import org.eclipse.emf.ecore.EClass;
  * <!-- end-user-doc -->
  * <p>
  * The following features are implemented:
+ * </p>
  * <ul>
  *   <li>{@link org.bimserver.models.ifc2x3tc1.impl.IfcMaterialDefinitionRepresentationImpl#getRepresentedMaterial <em>Represented Material</em>}</li>
  * </ul>
- * </p>
  *
  * @generated
  */
-public class IfcMaterialDefinitionRepresentationImpl extends IfcProductRepresentationImpl implements IfcMaterialDefinitionRepresentation {
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	protected IfcMaterialDefinitionRepresentationImpl() {
-		super();
-	}
+public class IfcMaterialDefinitionRepresentationImpl extends IfcProductRepresentationImpl
+        implements IfcMaterialDefinitionRepresentation {
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    protected IfcMaterialDefinitionRepresentationImpl() {
+        super();
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	@Override
-	protected EClass eStaticClass() {
-		return Ifc2x3tc1Package.Literals.IFC_MATERIAL_DEFINITION_REPRESENTATION;
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    @Override
+    protected EClass eStaticClass() {
+        return Ifc2x3tc1Package.Literals.IFC_MATERIAL_DEFINITION_REPRESENTATION;
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public IfcMaterial getRepresentedMaterial() {
-		return (IfcMaterial) eGet(Ifc2x3tc1Package.Literals.IFC_MATERIAL_DEFINITION_REPRESENTATION__REPRESENTED_MATERIAL, true);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public IfcMaterial getRepresentedMaterial() {
+        return (IfcMaterial) eGet(
+                Ifc2x3tc1Package.Literals.IFC_MATERIAL_DEFINITION_REPRESENTATION__REPRESENTED_MATERIAL, true);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public void setRepresentedMaterial(IfcMaterial newRepresentedMaterial) {
-		eSet(Ifc2x3tc1Package.Literals.IFC_MATERIAL_DEFINITION_REPRESENTATION__REPRESENTED_MATERIAL, newRepresentedMaterial);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public void setRepresentedMaterial(IfcMaterial newRepresentedMaterial) {
+        eSet(Ifc2x3tc1Package.Literals.IFC_MATERIAL_DEFINITION_REPRESENTATION__REPRESENTED_MATERIAL,
+                newRepresentedMaterial);
+    }
 
 } //IfcMaterialDefinitionRepresentationImpl

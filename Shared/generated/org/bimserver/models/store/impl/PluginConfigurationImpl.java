@@ -17,10 +17,12 @@
 package org.bimserver.models.store.impl;
 
 import org.bimserver.emf.IdEObjectImpl;
+
 import org.bimserver.models.store.ObjectType;
 import org.bimserver.models.store.PluginConfiguration;
 import org.bimserver.models.store.PluginDescriptor;
 import org.bimserver.models.store.StorePackage;
+
 import org.eclipse.emf.ecore.EClass;
 
 /**
@@ -29,6 +31,7 @@ import org.eclipse.emf.ecore.EClass;
  * <!-- end-user-doc -->
  * <p>
  * The following features are implemented:
+ * </p>
  * <ul>
  *   <li>{@link org.bimserver.models.store.impl.PluginConfigurationImpl#getName <em>Name</em>}</li>
  *   <li>{@link org.bimserver.models.store.impl.PluginConfigurationImpl#getEnabled <em>Enabled</em>}</li>
@@ -36,128 +39,127 @@ import org.eclipse.emf.ecore.EClass;
  *   <li>{@link org.bimserver.models.store.impl.PluginConfigurationImpl#getPluginDescriptor <em>Plugin Descriptor</em>}</li>
  *   <li>{@link org.bimserver.models.store.impl.PluginConfigurationImpl#getSettings <em>Settings</em>}</li>
  * </ul>
- * </p>
  *
  * @generated
  */
 public class PluginConfigurationImpl extends IdEObjectImpl implements PluginConfiguration {
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	protected PluginConfigurationImpl() {
-		super();
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    protected PluginConfigurationImpl() {
+        super();
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	@Override
-	protected EClass eStaticClass() {
-		return StorePackage.Literals.PLUGIN_CONFIGURATION;
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    @Override
+    protected EClass eStaticClass() {
+        return StorePackage.Literals.PLUGIN_CONFIGURATION;
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	@Override
-	protected int eStaticFeatureCount() {
-		return 0;
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    @Override
+    protected int eStaticFeatureCount() {
+        return 0;
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public String getName() {
-		return (String) eGet(StorePackage.Literals.PLUGIN_CONFIGURATION__NAME, true);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public String getName() {
+        return (String) eGet(StorePackage.Literals.PLUGIN_CONFIGURATION__NAME, true);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public void setName(String newName) {
-		eSet(StorePackage.Literals.PLUGIN_CONFIGURATION__NAME, newName);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public void setName(String newName) {
+        eSet(StorePackage.Literals.PLUGIN_CONFIGURATION__NAME, newName);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public Boolean getEnabled() {
-		return (Boolean) eGet(StorePackage.Literals.PLUGIN_CONFIGURATION__ENABLED, true);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public Boolean getEnabled() {
+        return (Boolean) eGet(StorePackage.Literals.PLUGIN_CONFIGURATION__ENABLED, true);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public void setEnabled(Boolean newEnabled) {
-		eSet(StorePackage.Literals.PLUGIN_CONFIGURATION__ENABLED, newEnabled);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public void setEnabled(Boolean newEnabled) {
+        eSet(StorePackage.Literals.PLUGIN_CONFIGURATION__ENABLED, newEnabled);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public String getDescription() {
-		return (String) eGet(StorePackage.Literals.PLUGIN_CONFIGURATION__DESCRIPTION, true);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public String getDescription() {
+        return (String) eGet(StorePackage.Literals.PLUGIN_CONFIGURATION__DESCRIPTION, true);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public void setDescription(String newDescription) {
-		eSet(StorePackage.Literals.PLUGIN_CONFIGURATION__DESCRIPTION, newDescription);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public void setDescription(String newDescription) {
+        eSet(StorePackage.Literals.PLUGIN_CONFIGURATION__DESCRIPTION, newDescription);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public PluginDescriptor getPluginDescriptor() {
-		return (PluginDescriptor) eGet(StorePackage.Literals.PLUGIN_CONFIGURATION__PLUGIN_DESCRIPTOR, true);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public PluginDescriptor getPluginDescriptor() {
+        return (PluginDescriptor) eGet(StorePackage.Literals.PLUGIN_CONFIGURATION__PLUGIN_DESCRIPTOR, true);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public void setPluginDescriptor(PluginDescriptor newPluginDescriptor) {
-		eSet(StorePackage.Literals.PLUGIN_CONFIGURATION__PLUGIN_DESCRIPTOR, newPluginDescriptor);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public void setPluginDescriptor(PluginDescriptor newPluginDescriptor) {
+        eSet(StorePackage.Literals.PLUGIN_CONFIGURATION__PLUGIN_DESCRIPTOR, newPluginDescriptor);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public ObjectType getSettings() {
-		return (ObjectType) eGet(StorePackage.Literals.PLUGIN_CONFIGURATION__SETTINGS, true);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public ObjectType getSettings() {
+        return (ObjectType) eGet(StorePackage.Literals.PLUGIN_CONFIGURATION__SETTINGS, true);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public void setSettings(ObjectType newSettings) {
-		eSet(StorePackage.Literals.PLUGIN_CONFIGURATION__SETTINGS, newSettings);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public void setSettings(ObjectType newSettings) {
+        eSet(StorePackage.Literals.PLUGIN_CONFIGURATION__SETTINGS, newSettings);
+    }
 
 } //PluginConfigurationImpl

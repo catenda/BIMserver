@@ -19,6 +19,7 @@ package org.bimserver.models.ifc2x3tc1.impl;
 import org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package;
 import org.bimserver.models.ifc2x3tc1.IfcRelDefinesByType;
 import org.bimserver.models.ifc2x3tc1.IfcTypeObject;
+
 import org.eclipse.emf.ecore.EClass;
 
 /**
@@ -27,49 +28,49 @@ import org.eclipse.emf.ecore.EClass;
  * <!-- end-user-doc -->
  * <p>
  * The following features are implemented:
+ * </p>
  * <ul>
  *   <li>{@link org.bimserver.models.ifc2x3tc1.impl.IfcRelDefinesByTypeImpl#getRelatingType <em>Relating Type</em>}</li>
  * </ul>
- * </p>
  *
  * @generated
  */
 public class IfcRelDefinesByTypeImpl extends IfcRelDefinesImpl implements IfcRelDefinesByType {
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	protected IfcRelDefinesByTypeImpl() {
-		super();
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    protected IfcRelDefinesByTypeImpl() {
+        super();
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	@Override
-	protected EClass eStaticClass() {
-		return Ifc2x3tc1Package.Literals.IFC_REL_DEFINES_BY_TYPE;
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    @Override
+    protected EClass eStaticClass() {
+        return Ifc2x3tc1Package.Literals.IFC_REL_DEFINES_BY_TYPE;
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public IfcTypeObject getRelatingType() {
-		return (IfcTypeObject) eGet(Ifc2x3tc1Package.Literals.IFC_REL_DEFINES_BY_TYPE__RELATING_TYPE, true);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public IfcTypeObject getRelatingType() {
+        return (IfcTypeObject) eGet(Ifc2x3tc1Package.Literals.IFC_REL_DEFINES_BY_TYPE__RELATING_TYPE, true);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public void setRelatingType(IfcTypeObject newRelatingType) {
-		eSet(Ifc2x3tc1Package.Literals.IFC_REL_DEFINES_BY_TYPE__RELATING_TYPE, newRelatingType);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public void setRelatingType(IfcTypeObject newRelatingType) {
+        eSet(Ifc2x3tc1Package.Literals.IFC_REL_DEFINES_BY_TYPE__RELATING_TYPE, newRelatingType);
+    }
 
 } //IfcRelDefinesByTypeImpl

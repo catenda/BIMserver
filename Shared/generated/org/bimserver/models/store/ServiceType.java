@@ -17,6 +17,7 @@
 package org.bimserver.models.store;
 
 import org.bimserver.emf.IdEObject;
+
 import org.eclipse.emf.common.util.EList;
 
 /**
@@ -26,13 +27,13 @@ import org.eclipse.emf.common.util.EList;
  *
  * <p>
  * The following features are supported:
+ * </p>
  * <ul>
  *   <li>{@link org.bimserver.models.store.ServiceType#getName <em>Name</em>}</li>
  *   <li>{@link org.bimserver.models.store.ServiceType#getSimpleName <em>Simple Name</em>}</li>
  *   <li>{@link org.bimserver.models.store.ServiceType#getFields <em>Fields</em>}</li>
  *   <li>{@link org.bimserver.models.store.ServiceType#getSimpleType <em>Simple Type</em>}</li>
  * </ul>
- * </p>
  *
  * @see org.bimserver.models.store.StorePackage#getServiceType()
  * @model
@@ -40,101 +41,101 @@ import org.eclipse.emf.common.util.EList;
  * @generated
  */
 public interface ServiceType extends IdEObject {
-	/**
-	 * Returns the value of the '<em><b>Name</b></em>' attribute.
-	 * <!-- begin-user-doc -->
-	 * <p>
-	 * If the meaning of the '<em>Name</em>' attribute isn't clear,
-	 * there really should be more of a description here...
-	 * </p>
-	 * <!-- end-user-doc -->
-	 * @return the value of the '<em>Name</em>' attribute.
-	 * @see #setName(String)
-	 * @see org.bimserver.models.store.StorePackage#getServiceType_Name()
-	 * @model
-	 * @generated
-	 */
-	String getName();
+    /**
+     * Returns the value of the '<em><b>Name</b></em>' attribute.
+     * <!-- begin-user-doc -->
+     * <p>
+     * If the meaning of the '<em>Name</em>' attribute isn't clear,
+     * there really should be more of a description here...
+     * </p>
+     * <!-- end-user-doc -->
+     * @return the value of the '<em>Name</em>' attribute.
+     * @see #setName(String)
+     * @see org.bimserver.models.store.StorePackage#getServiceType_Name()
+     * @model
+     * @generated
+     */
+    String getName();
 
-	/**
-	 * Sets the value of the '{@link org.bimserver.models.store.ServiceType#getName <em>Name</em>}' attribute.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @param value the new value of the '<em>Name</em>' attribute.
-	 * @see #getName()
-	 * @generated
-	 */
-	void setName(String value);
+    /**
+     * Sets the value of the '{@link org.bimserver.models.store.ServiceType#getName <em>Name</em>}' attribute.
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @param value the new value of the '<em>Name</em>' attribute.
+     * @see #getName()
+     * @generated
+     */
+    void setName(String value);
 
-	/**
-	 * Returns the value of the '<em><b>Simple Name</b></em>' attribute.
-	 * <!-- begin-user-doc -->
-	 * <p>
-	 * If the meaning of the '<em>Simple Name</em>' attribute isn't clear,
-	 * there really should be more of a description here...
-	 * </p>
-	 * <!-- end-user-doc -->
-	 * @return the value of the '<em>Simple Name</em>' attribute.
-	 * @see #setSimpleName(String)
-	 * @see org.bimserver.models.store.StorePackage#getServiceType_SimpleName()
-	 * @model
-	 * @generated
-	 */
-	String getSimpleName();
+    /**
+     * Returns the value of the '<em><b>Simple Name</b></em>' attribute.
+     * <!-- begin-user-doc -->
+     * <p>
+     * If the meaning of the '<em>Simple Name</em>' attribute isn't clear,
+     * there really should be more of a description here...
+     * </p>
+     * <!-- end-user-doc -->
+     * @return the value of the '<em>Simple Name</em>' attribute.
+     * @see #setSimpleName(String)
+     * @see org.bimserver.models.store.StorePackage#getServiceType_SimpleName()
+     * @model
+     * @generated
+     */
+    String getSimpleName();
 
-	/**
-	 * Sets the value of the '{@link org.bimserver.models.store.ServiceType#getSimpleName <em>Simple Name</em>}' attribute.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @param value the new value of the '<em>Simple Name</em>' attribute.
-	 * @see #getSimpleName()
-	 * @generated
-	 */
-	void setSimpleName(String value);
+    /**
+     * Sets the value of the '{@link org.bimserver.models.store.ServiceType#getSimpleName <em>Simple Name</em>}' attribute.
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @param value the new value of the '<em>Simple Name</em>' attribute.
+     * @see #getSimpleName()
+     * @generated
+     */
+    void setSimpleName(String value);
 
-	/**
-	 * Returns the value of the '<em><b>Fields</b></em>' reference list.
-	 * The list contents are of type {@link org.bimserver.models.store.ServiceField}.
-	 * <!-- begin-user-doc -->
-	 * <p>
-	 * If the meaning of the '<em>Fields</em>' reference list isn't clear,
-	 * there really should be more of a description here...
-	 * </p>
-	 * <!-- end-user-doc -->
-	 * @return the value of the '<em>Fields</em>' reference list.
-	 * @see org.bimserver.models.store.StorePackage#getServiceType_Fields()
-	 * @model
-	 * @generated
-	 */
-	EList<ServiceField> getFields();
+    /**
+     * Returns the value of the '<em><b>Fields</b></em>' reference list.
+     * The list contents are of type {@link org.bimserver.models.store.ServiceField}.
+     * <!-- begin-user-doc -->
+     * <p>
+     * If the meaning of the '<em>Fields</em>' reference list isn't clear,
+     * there really should be more of a description here...
+     * </p>
+     * <!-- end-user-doc -->
+     * @return the value of the '<em>Fields</em>' reference list.
+     * @see org.bimserver.models.store.StorePackage#getServiceType_Fields()
+     * @model
+     * @generated
+     */
+    EList<ServiceField> getFields();
 
-	/**
-	 * Returns the value of the '<em><b>Simple Type</b></em>' attribute.
-	 * The literals are from the enumeration {@link org.bimserver.models.store.ServiceSimpleType}.
-	 * <!-- begin-user-doc -->
-	 * <p>
-	 * If the meaning of the '<em>Simple Type</em>' attribute isn't clear,
-	 * there really should be more of a description here...
-	 * </p>
-	 * <!-- end-user-doc -->
-	 * @return the value of the '<em>Simple Type</em>' attribute.
-	 * @see org.bimserver.models.store.ServiceSimpleType
-	 * @see #setSimpleType(ServiceSimpleType)
-	 * @see org.bimserver.models.store.StorePackage#getServiceType_SimpleType()
-	 * @model
-	 * @generated
-	 */
-	ServiceSimpleType getSimpleType();
+    /**
+     * Returns the value of the '<em><b>Simple Type</b></em>' attribute.
+     * The literals are from the enumeration {@link org.bimserver.models.store.ServiceSimpleType}.
+     * <!-- begin-user-doc -->
+     * <p>
+     * If the meaning of the '<em>Simple Type</em>' attribute isn't clear,
+     * there really should be more of a description here...
+     * </p>
+     * <!-- end-user-doc -->
+     * @return the value of the '<em>Simple Type</em>' attribute.
+     * @see org.bimserver.models.store.ServiceSimpleType
+     * @see #setSimpleType(ServiceSimpleType)
+     * @see org.bimserver.models.store.StorePackage#getServiceType_SimpleType()
+     * @model
+     * @generated
+     */
+    ServiceSimpleType getSimpleType();
 
-	/**
-	 * Sets the value of the '{@link org.bimserver.models.store.ServiceType#getSimpleType <em>Simple Type</em>}' attribute.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @param value the new value of the '<em>Simple Type</em>' attribute.
-	 * @see org.bimserver.models.store.ServiceSimpleType
-	 * @see #getSimpleType()
-	 * @generated
-	 */
-	void setSimpleType(ServiceSimpleType value);
+    /**
+     * Sets the value of the '{@link org.bimserver.models.store.ServiceType#getSimpleType <em>Simple Type</em>}' attribute.
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @param value the new value of the '<em>Simple Type</em>' attribute.
+     * @see org.bimserver.models.store.ServiceSimpleType
+     * @see #getSimpleType()
+     * @generated
+     */
+    void setSimpleType(ServiceSimpleType value);
 
 } // ServiceType

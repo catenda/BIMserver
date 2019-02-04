@@ -25,10 +25,10 @@ import org.bimserver.emf.IdEObject;
  *
  * <p>
  * The following features are supported:
+ * </p>
  * <ul>
  *   <li>{@link org.bimserver.models.store.ObjectIDMPluginDescriptor#getClassName <em>Class Name</em>}</li>
  * </ul>
- * </p>
  *
  * @see org.bimserver.models.store.StorePackage#getObjectIDMPluginDescriptor()
  * @model
@@ -36,30 +36,30 @@ import org.bimserver.emf.IdEObject;
  * @generated
  */
 public interface ObjectIDMPluginDescriptor extends IdEObject {
-	/**
-	 * Returns the value of the '<em><b>Class Name</b></em>' attribute.
-	 * <!-- begin-user-doc -->
-	 * <p>
-	 * If the meaning of the '<em>Class Name</em>' attribute isn't clear,
-	 * there really should be more of a description here...
-	 * </p>
-	 * <!-- end-user-doc -->
-	 * @return the value of the '<em>Class Name</em>' attribute.
-	 * @see #setClassName(String)
-	 * @see org.bimserver.models.store.StorePackage#getObjectIDMPluginDescriptor_ClassName()
-	 * @model
-	 * @generated
-	 */
-	String getClassName();
+    /**
+     * Returns the value of the '<em><b>Class Name</b></em>' attribute.
+     * <!-- begin-user-doc -->
+     * <p>
+     * If the meaning of the '<em>Class Name</em>' attribute isn't clear,
+     * there really should be more of a description here...
+     * </p>
+     * <!-- end-user-doc -->
+     * @return the value of the '<em>Class Name</em>' attribute.
+     * @see #setClassName(String)
+     * @see org.bimserver.models.store.StorePackage#getObjectIDMPluginDescriptor_ClassName()
+     * @model
+     * @generated
+     */
+    String getClassName();
 
-	/**
-	 * Sets the value of the '{@link org.bimserver.models.store.ObjectIDMPluginDescriptor#getClassName <em>Class Name</em>}' attribute.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @param value the new value of the '<em>Class Name</em>' attribute.
-	 * @see #getClassName()
-	 * @generated
-	 */
-	void setClassName(String value);
+    /**
+     * Sets the value of the '{@link org.bimserver.models.store.ObjectIDMPluginDescriptor#getClassName <em>Class Name</em>}' attribute.
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @param value the new value of the '<em>Class Name</em>' attribute.
+     * @see #getClassName()
+     * @generated
+     */
+    void setClassName(String value);
 
 } // ObjectIDMPluginDescriptor

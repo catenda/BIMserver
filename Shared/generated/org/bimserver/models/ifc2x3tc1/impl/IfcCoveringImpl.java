@@ -21,7 +21,9 @@ import org.bimserver.models.ifc2x3tc1.IfcCovering;
 import org.bimserver.models.ifc2x3tc1.IfcCoveringTypeEnum;
 import org.bimserver.models.ifc2x3tc1.IfcRelCoversBldgElements;
 import org.bimserver.models.ifc2x3tc1.IfcRelCoversSpaces;
+
 import org.eclipse.emf.common.util.EList;
+
 import org.eclipse.emf.ecore.EClass;
 
 /**
@@ -30,125 +32,125 @@ import org.eclipse.emf.ecore.EClass;
  * <!-- end-user-doc -->
  * <p>
  * The following features are implemented:
+ * </p>
  * <ul>
  *   <li>{@link org.bimserver.models.ifc2x3tc1.impl.IfcCoveringImpl#getPredefinedType <em>Predefined Type</em>}</li>
  *   <li>{@link org.bimserver.models.ifc2x3tc1.impl.IfcCoveringImpl#getCoversSpaces <em>Covers Spaces</em>}</li>
  *   <li>{@link org.bimserver.models.ifc2x3tc1.impl.IfcCoveringImpl#getCovers <em>Covers</em>}</li>
  * </ul>
- * </p>
  *
  * @generated
  */
 public class IfcCoveringImpl extends IfcBuildingElementImpl implements IfcCovering {
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	protected IfcCoveringImpl() {
-		super();
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    protected IfcCoveringImpl() {
+        super();
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	@Override
-	protected EClass eStaticClass() {
-		return Ifc2x3tc1Package.Literals.IFC_COVERING;
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    @Override
+    protected EClass eStaticClass() {
+        return Ifc2x3tc1Package.Literals.IFC_COVERING;
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public IfcCoveringTypeEnum getPredefinedType() {
-		return (IfcCoveringTypeEnum) eGet(Ifc2x3tc1Package.Literals.IFC_COVERING__PREDEFINED_TYPE, true);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public IfcCoveringTypeEnum getPredefinedType() {
+        return (IfcCoveringTypeEnum) eGet(Ifc2x3tc1Package.Literals.IFC_COVERING__PREDEFINED_TYPE, true);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public void setPredefinedType(IfcCoveringTypeEnum newPredefinedType) {
-		eSet(Ifc2x3tc1Package.Literals.IFC_COVERING__PREDEFINED_TYPE, newPredefinedType);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public void setPredefinedType(IfcCoveringTypeEnum newPredefinedType) {
+        eSet(Ifc2x3tc1Package.Literals.IFC_COVERING__PREDEFINED_TYPE, newPredefinedType);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public void unsetPredefinedType() {
-		eUnset(Ifc2x3tc1Package.Literals.IFC_COVERING__PREDEFINED_TYPE);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public void unsetPredefinedType() {
+        eUnset(Ifc2x3tc1Package.Literals.IFC_COVERING__PREDEFINED_TYPE);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public boolean isSetPredefinedType() {
-		return eIsSet(Ifc2x3tc1Package.Literals.IFC_COVERING__PREDEFINED_TYPE);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public boolean isSetPredefinedType() {
+        return eIsSet(Ifc2x3tc1Package.Literals.IFC_COVERING__PREDEFINED_TYPE);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	@SuppressWarnings("unchecked")
-	public EList<IfcRelCoversSpaces> getCoversSpaces() {
-		return (EList<IfcRelCoversSpaces>) eGet(Ifc2x3tc1Package.Literals.IFC_COVERING__COVERS_SPACES, true);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    @SuppressWarnings("unchecked")
+    public EList<IfcRelCoversSpaces> getCoversSpaces() {
+        return (EList<IfcRelCoversSpaces>) eGet(Ifc2x3tc1Package.Literals.IFC_COVERING__COVERS_SPACES, true);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public void unsetCoversSpaces() {
-		eUnset(Ifc2x3tc1Package.Literals.IFC_COVERING__COVERS_SPACES);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public void unsetCoversSpaces() {
+        eUnset(Ifc2x3tc1Package.Literals.IFC_COVERING__COVERS_SPACES);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public boolean isSetCoversSpaces() {
-		return eIsSet(Ifc2x3tc1Package.Literals.IFC_COVERING__COVERS_SPACES);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public boolean isSetCoversSpaces() {
+        return eIsSet(Ifc2x3tc1Package.Literals.IFC_COVERING__COVERS_SPACES);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	@SuppressWarnings("unchecked")
-	public EList<IfcRelCoversBldgElements> getCovers() {
-		return (EList<IfcRelCoversBldgElements>) eGet(Ifc2x3tc1Package.Literals.IFC_COVERING__COVERS, true);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    @SuppressWarnings("unchecked")
+    public EList<IfcRelCoversBldgElements> getCovers() {
+        return (EList<IfcRelCoversBldgElements>) eGet(Ifc2x3tc1Package.Literals.IFC_COVERING__COVERS, true);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public void unsetCovers() {
-		eUnset(Ifc2x3tc1Package.Literals.IFC_COVERING__COVERS);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public void unsetCovers() {
+        eUnset(Ifc2x3tc1Package.Literals.IFC_COVERING__COVERS);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public boolean isSetCovers() {
-		return eIsSet(Ifc2x3tc1Package.Literals.IFC_COVERING__COVERS);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public boolean isSetCovers() {
+        return eIsSet(Ifc2x3tc1Package.Literals.IFC_COVERING__COVERS);
+    }
 
 } //IfcCoveringImpl

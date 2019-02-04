@@ -25,30 +25,30 @@ import org.eclipse.emf.common.util.EList;
  *
  * <p>
  * The following features are supported:
+ * </p>
  * <ul>
  *   <li>{@link org.bimserver.models.ifc2x3tc1.IfcSurfaceStyleWithTextures#getTextures <em>Textures</em>}</li>
  * </ul>
- * </p>
  *
  * @see org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package#getIfcSurfaceStyleWithTextures()
  * @model
  * @generated
  */
 public interface IfcSurfaceStyleWithTextures extends IfcSurfaceStyleElementSelect {
-	/**
-	 * Returns the value of the '<em><b>Textures</b></em>' reference list.
-	 * The list contents are of type {@link org.bimserver.models.ifc2x3tc1.IfcSurfaceTexture}.
-	 * <!-- begin-user-doc -->
-	 * <p>
-	 * If the meaning of the '<em>Textures</em>' reference list isn't clear,
-	 * there really should be more of a description here...
-	 * </p>
-	 * <!-- end-user-doc -->
-	 * @return the value of the '<em>Textures</em>' reference list.
-	 * @see org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package#getIfcSurfaceStyleWithTextures_Textures()
-	 * @model
-	 * @generated
-	 */
-	EList<IfcSurfaceTexture> getTextures();
+    /**
+     * Returns the value of the '<em><b>Textures</b></em>' reference list.
+     * The list contents are of type {@link org.bimserver.models.ifc2x3tc1.IfcSurfaceTexture}.
+     * <!-- begin-user-doc -->
+     * <p>
+     * If the meaning of the '<em>Textures</em>' reference list isn't clear,
+     * there really should be more of a description here...
+     * </p>
+     * <!-- end-user-doc -->
+     * @return the value of the '<em>Textures</em>' reference list.
+     * @see org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package#getIfcSurfaceStyleWithTextures_Textures()
+     * @model
+     * @generated
+     */
+    EList<IfcSurfaceTexture> getTextures();
 
 } // IfcSurfaceStyleWithTextures

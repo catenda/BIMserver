@@ -32,352 +32,358 @@ import org.eclipse.emf.common.util.Enumerator;
  * @generated
  */
 public enum IfcFilterTypeEnum implements Enumerator {
-	/**
-	 * The '<em><b>NULL</b></em>' literal object.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @see #NULL_VALUE
-	 * @generated
-	 * @ordered
-	 */
-	NULL(0, "NULL", "NULL"),
+    /**
+     * The '<em><b>NULL</b></em>' literal object.
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @see #NULL_VALUE
+     * @generated
+     * @ordered
+     */
+    NULL(0, "NULL", "NULL"),
 
-	/**
-	 * The '<em><b>STRAINER</b></em>' literal object.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @see #STRAINER_VALUE
-	 * @generated
-	 * @ordered
-	 */
-	STRAINER(1, "STRAINER", "STRAINER"),
+    /**
+     * The '<em><b>WATERFILTER</b></em>' literal object.
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @see #WATERFILTER_VALUE
+     * @generated
+     * @ordered
+     */
+    WATERFILTER(1, "WATERFILTER", "WATERFILTER"),
 
-	/**
-	 * The '<em><b>NOTDEFINED</b></em>' literal object.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @see #NOTDEFINED_VALUE
-	 * @generated
-	 * @ordered
-	 */
-	NOTDEFINED(2, "NOTDEFINED", "NOTDEFINED"),
+    /**
+     * The '<em><b>STRAINER</b></em>' literal object.
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @see #STRAINER_VALUE
+     * @generated
+     * @ordered
+     */
+    STRAINER(2, "STRAINER", "STRAINER"),
 
-	/**
-	 * The '<em><b>WATERFILTER</b></em>' literal object.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @see #WATERFILTER_VALUE
-	 * @generated
-	 * @ordered
-	 */
-	WATERFILTER(3, "WATERFILTER", "WATERFILTER"),
+    /**
+     * The '<em><b>NOTDEFINED</b></em>' literal object.
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @see #NOTDEFINED_VALUE
+     * @generated
+     * @ordered
+     */
+    NOTDEFINED(3, "NOTDEFINED", "NOTDEFINED"),
 
-	/**
-	 * The '<em><b>ODORFILTER</b></em>' literal object.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @see #ODORFILTER_VALUE
-	 * @generated
-	 * @ordered
-	 */
-	ODORFILTER(4, "ODORFILTER", "ODORFILTER"),
+    /**
+     * The '<em><b>OILFILTER</b></em>' literal object.
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @see #OILFILTER_VALUE
+     * @generated
+     * @ordered
+     */
+    OILFILTER(4, "OILFILTER", "OILFILTER"),
 
-	/**
-	 * The '<em><b>OILFILTER</b></em>' literal object.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @see #OILFILTER_VALUE
-	 * @generated
-	 * @ordered
-	 */
-	OILFILTER(5, "OILFILTER", "OILFILTER"),
+    /**
+     * The '<em><b>USERDEFINED</b></em>' literal object.
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @see #USERDEFINED_VALUE
+     * @generated
+     * @ordered
+     */
+    USERDEFINED(5, "USERDEFINED", "USERDEFINED"),
 
-	/**
-	 * The '<em><b>AIRPARTICLEFILTER</b></em>' literal object.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @see #AIRPARTICLEFILTER_VALUE
-	 * @generated
-	 * @ordered
-	 */
-	AIRPARTICLEFILTER(6, "AIRPARTICLEFILTER", "AIRPARTICLEFILTER"),
+    /**
+     * The '<em><b>AIRPARTICLEFILTER</b></em>' literal object.
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @see #AIRPARTICLEFILTER_VALUE
+     * @generated
+     * @ordered
+     */
+    AIRPARTICLEFILTER(6, "AIRPARTICLEFILTER", "AIRPARTICLEFILTER"),
 
-	/**
-	 * The '<em><b>USERDEFINED</b></em>' literal object.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @see #USERDEFINED_VALUE
-	 * @generated
-	 * @ordered
-	 */
-	USERDEFINED(7, "USERDEFINED", "USERDEFINED");
+    /**
+     * The '<em><b>ODORFILTER</b></em>' literal object.
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @see #ODORFILTER_VALUE
+     * @generated
+     * @ordered
+     */
+    ODORFILTER(7, "ODORFILTER", "ODORFILTER");
 
-	/**
-	 * The '<em><b>NULL</b></em>' literal value.
-	 * <!-- begin-user-doc -->
-	 * <p>
-	 * If the meaning of '<em><b>NULL</b></em>' literal object isn't clear,
-	 * there really should be more of a description here...
-	 * </p>
-	 * <!-- end-user-doc -->
-	 * @see #NULL
-	 * @model
-	 * @generated
-	 * @ordered
-	 */
-	public static final int NULL_VALUE = 0;
+    /**
+     * The '<em><b>NULL</b></em>' literal value.
+     * <!-- begin-user-doc -->
+     * <p>
+     * If the meaning of '<em><b>NULL</b></em>' literal object isn't clear,
+     * there really should be more of a description here...
+     * </p>
+     * <!-- end-user-doc -->
+     * @see #NULL
+     * @model
+     * @generated
+     * @ordered
+     */
+    public static final int NULL_VALUE = 0;
 
-	/**
-	 * The '<em><b>STRAINER</b></em>' literal value.
-	 * <!-- begin-user-doc -->
-	 * <p>
-	 * If the meaning of '<em><b>STRAINER</b></em>' literal object isn't clear,
-	 * there really should be more of a description here...
-	 * </p>
-	 * <!-- end-user-doc -->
-	 * @see #STRAINER
-	 * @model
-	 * @generated
-	 * @ordered
-	 */
-	public static final int STRAINER_VALUE = 1;
+    /**
+     * The '<em><b>WATERFILTER</b></em>' literal value.
+     * <!-- begin-user-doc -->
+     * <p>
+     * If the meaning of '<em><b>WATERFILTER</b></em>' literal object isn't clear,
+     * there really should be more of a description here...
+     * </p>
+     * <!-- end-user-doc -->
+     * @see #WATERFILTER
+     * @model
+     * @generated
+     * @ordered
+     */
+    public static final int WATERFILTER_VALUE = 1;
 
-	/**
-	 * The '<em><b>NOTDEFINED</b></em>' literal value.
-	 * <!-- begin-user-doc -->
-	 * <p>
-	 * If the meaning of '<em><b>NOTDEFINED</b></em>' literal object isn't clear,
-	 * there really should be more of a description here...
-	 * </p>
-	 * <!-- end-user-doc -->
-	 * @see #NOTDEFINED
-	 * @model
-	 * @generated
-	 * @ordered
-	 */
-	public static final int NOTDEFINED_VALUE = 2;
+    /**
+     * The '<em><b>STRAINER</b></em>' literal value.
+     * <!-- begin-user-doc -->
+     * <p>
+     * If the meaning of '<em><b>STRAINER</b></em>' literal object isn't clear,
+     * there really should be more of a description here...
+     * </p>
+     * <!-- end-user-doc -->
+     * @see #STRAINER
+     * @model
+     * @generated
+     * @ordered
+     */
+    public static final int STRAINER_VALUE = 2;
 
-	/**
-	 * The '<em><b>WATERFILTER</b></em>' literal value.
-	 * <!-- begin-user-doc -->
-	 * <p>
-	 * If the meaning of '<em><b>WATERFILTER</b></em>' literal object isn't clear,
-	 * there really should be more of a description here...
-	 * </p>
-	 * <!-- end-user-doc -->
-	 * @see #WATERFILTER
-	 * @model
-	 * @generated
-	 * @ordered
-	 */
-	public static final int WATERFILTER_VALUE = 3;
+    /**
+     * The '<em><b>NOTDEFINED</b></em>' literal value.
+     * <!-- begin-user-doc -->
+     * <p>
+     * If the meaning of '<em><b>NOTDEFINED</b></em>' literal object isn't clear,
+     * there really should be more of a description here...
+     * </p>
+     * <!-- end-user-doc -->
+     * @see #NOTDEFINED
+     * @model
+     * @generated
+     * @ordered
+     */
+    public static final int NOTDEFINED_VALUE = 3;
 
-	/**
-	 * The '<em><b>ODORFILTER</b></em>' literal value.
-	 * <!-- begin-user-doc -->
-	 * <p>
-	 * If the meaning of '<em><b>ODORFILTER</b></em>' literal object isn't clear,
-	 * there really should be more of a description here...
-	 * </p>
-	 * <!-- end-user-doc -->
-	 * @see #ODORFILTER
-	 * @model
-	 * @generated
-	 * @ordered
-	 */
-	public static final int ODORFILTER_VALUE = 4;
+    /**
+     * The '<em><b>OILFILTER</b></em>' literal value.
+     * <!-- begin-user-doc -->
+     * <p>
+     * If the meaning of '<em><b>OILFILTER</b></em>' literal object isn't clear,
+     * there really should be more of a description here...
+     * </p>
+     * <!-- end-user-doc -->
+     * @see #OILFILTER
+     * @model
+     * @generated
+     * @ordered
+     */
+    public static final int OILFILTER_VALUE = 4;
 
-	/**
-	 * The '<em><b>OILFILTER</b></em>' literal value.
-	 * <!-- begin-user-doc -->
-	 * <p>
-	 * If the meaning of '<em><b>OILFILTER</b></em>' literal object isn't clear,
-	 * there really should be more of a description here...
-	 * </p>
-	 * <!-- end-user-doc -->
-	 * @see #OILFILTER
-	 * @model
-	 * @generated
-	 * @ordered
-	 */
-	public static final int OILFILTER_VALUE = 5;
+    /**
+     * The '<em><b>USERDEFINED</b></em>' literal value.
+     * <!-- begin-user-doc -->
+     * <p>
+     * If the meaning of '<em><b>USERDEFINED</b></em>' literal object isn't clear,
+     * there really should be more of a description here...
+     * </p>
+     * <!-- end-user-doc -->
+     * @see #USERDEFINED
+     * @model
+     * @generated
+     * @ordered
+     */
+    public static final int USERDEFINED_VALUE = 5;
 
-	/**
-	 * The '<em><b>AIRPARTICLEFILTER</b></em>' literal value.
-	 * <!-- begin-user-doc -->
-	 * <p>
-	 * If the meaning of '<em><b>AIRPARTICLEFILTER</b></em>' literal object isn't clear,
-	 * there really should be more of a description here...
-	 * </p>
-	 * <!-- end-user-doc -->
-	 * @see #AIRPARTICLEFILTER
-	 * @model
-	 * @generated
-	 * @ordered
-	 */
-	public static final int AIRPARTICLEFILTER_VALUE = 6;
+    /**
+     * The '<em><b>AIRPARTICLEFILTER</b></em>' literal value.
+     * <!-- begin-user-doc -->
+     * <p>
+     * If the meaning of '<em><b>AIRPARTICLEFILTER</b></em>' literal object isn't clear,
+     * there really should be more of a description here...
+     * </p>
+     * <!-- end-user-doc -->
+     * @see #AIRPARTICLEFILTER
+     * @model
+     * @generated
+     * @ordered
+     */
+    public static final int AIRPARTICLEFILTER_VALUE = 6;
 
-	/**
-	 * The '<em><b>USERDEFINED</b></em>' literal value.
-	 * <!-- begin-user-doc -->
-	 * <p>
-	 * If the meaning of '<em><b>USERDEFINED</b></em>' literal object isn't clear,
-	 * there really should be more of a description here...
-	 * </p>
-	 * <!-- end-user-doc -->
-	 * @see #USERDEFINED
-	 * @model
-	 * @generated
-	 * @ordered
-	 */
-	public static final int USERDEFINED_VALUE = 7;
+    /**
+     * The '<em><b>ODORFILTER</b></em>' literal value.
+     * <!-- begin-user-doc -->
+     * <p>
+     * If the meaning of '<em><b>ODORFILTER</b></em>' literal object isn't clear,
+     * there really should be more of a description here...
+     * </p>
+     * <!-- end-user-doc -->
+     * @see #ODORFILTER
+     * @model
+     * @generated
+     * @ordered
+     */
+    public static final int ODORFILTER_VALUE = 7;
 
-	/**
-	 * An array of all the '<em><b>Ifc Filter Type Enum</b></em>' enumerators.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	private static final IfcFilterTypeEnum[] VALUES_ARRAY = new IfcFilterTypeEnum[] { NULL, STRAINER, NOTDEFINED, WATERFILTER, ODORFILTER, OILFILTER, AIRPARTICLEFILTER,
-			USERDEFINED, };
+    /**
+     * An array of all the '<em><b>Ifc Filter Type Enum</b></em>' enumerators.
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    private static final IfcFilterTypeEnum[] VALUES_ARRAY = new IfcFilterTypeEnum[] { NULL, WATERFILTER, STRAINER,
+            NOTDEFINED, OILFILTER, USERDEFINED, AIRPARTICLEFILTER, ODORFILTER, };
 
-	/**
-	 * A public read-only list of all the '<em><b>Ifc Filter Type Enum</b></em>' enumerators.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public static final List<IfcFilterTypeEnum> VALUES = Collections.unmodifiableList(Arrays.asList(VALUES_ARRAY));
+    /**
+     * A public read-only list of all the '<em><b>Ifc Filter Type Enum</b></em>' enumerators.
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public static final List<IfcFilterTypeEnum> VALUES = Collections.unmodifiableList(Arrays.asList(VALUES_ARRAY));
 
-	/**
-	 * Returns the '<em><b>Ifc Filter Type Enum</b></em>' literal with the specified literal value.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public static IfcFilterTypeEnum get(String literal) {
-		for (int i = 0; i < VALUES_ARRAY.length; ++i) {
-			IfcFilterTypeEnum result = VALUES_ARRAY[i];
-			if (result.toString().equals(literal)) {
-				return result;
-			}
-		}
-		return null;
-	}
+    /**
+     * Returns the '<em><b>Ifc Filter Type Enum</b></em>' literal with the specified literal value.
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @param literal the literal.
+     * @return the matching enumerator or <code>null</code>.
+     * @generated
+     */
+    public static IfcFilterTypeEnum get(String literal) {
+        for (int i = 0; i < VALUES_ARRAY.length; ++i) {
+            IfcFilterTypeEnum result = VALUES_ARRAY[i];
+            if (result.toString().equals(literal)) {
+                return result;
+            }
+        }
+        return null;
+    }
 
-	/**
-	 * Returns the '<em><b>Ifc Filter Type Enum</b></em>' literal with the specified name.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public static IfcFilterTypeEnum getByName(String name) {
-		for (int i = 0; i < VALUES_ARRAY.length; ++i) {
-			IfcFilterTypeEnum result = VALUES_ARRAY[i];
-			if (result.getName().equals(name)) {
-				return result;
-			}
-		}
-		return null;
-	}
+    /**
+     * Returns the '<em><b>Ifc Filter Type Enum</b></em>' literal with the specified name.
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @param name the name.
+     * @return the matching enumerator or <code>null</code>.
+     * @generated
+     */
+    public static IfcFilterTypeEnum getByName(String name) {
+        for (int i = 0; i < VALUES_ARRAY.length; ++i) {
+            IfcFilterTypeEnum result = VALUES_ARRAY[i];
+            if (result.getName().equals(name)) {
+                return result;
+            }
+        }
+        return null;
+    }
 
-	/**
-	 * Returns the '<em><b>Ifc Filter Type Enum</b></em>' literal with the specified integer value.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public static IfcFilterTypeEnum get(int value) {
-		switch (value) {
-		case NULL_VALUE:
-			return NULL;
-		case STRAINER_VALUE:
-			return STRAINER;
-		case NOTDEFINED_VALUE:
-			return NOTDEFINED;
-		case WATERFILTER_VALUE:
-			return WATERFILTER;
-		case ODORFILTER_VALUE:
-			return ODORFILTER;
-		case OILFILTER_VALUE:
-			return OILFILTER;
-		case AIRPARTICLEFILTER_VALUE:
-			return AIRPARTICLEFILTER;
-		case USERDEFINED_VALUE:
-			return USERDEFINED;
-		}
-		return null;
-	}
+    /**
+     * Returns the '<em><b>Ifc Filter Type Enum</b></em>' literal with the specified integer value.
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @param value the integer value.
+     * @return the matching enumerator or <code>null</code>.
+     * @generated
+     */
+    public static IfcFilterTypeEnum get(int value) {
+        switch (value) {
+        case NULL_VALUE:
+            return NULL;
+        case WATERFILTER_VALUE:
+            return WATERFILTER;
+        case STRAINER_VALUE:
+            return STRAINER;
+        case NOTDEFINED_VALUE:
+            return NOTDEFINED;
+        case OILFILTER_VALUE:
+            return OILFILTER;
+        case USERDEFINED_VALUE:
+            return USERDEFINED;
+        case AIRPARTICLEFILTER_VALUE:
+            return AIRPARTICLEFILTER;
+        case ODORFILTER_VALUE:
+            return ODORFILTER;
+        }
+        return null;
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	private final int value;
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    private final int value;
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	private final String name;
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    private final String name;
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	private final String literal;
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    private final String literal;
 
-	/**
-	 * Only this class can construct instances.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	private IfcFilterTypeEnum(int value, String name, String literal) {
-		this.value = value;
-		this.name = name;
-		this.literal = literal;
-	}
+    /**
+     * Only this class can construct instances.
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    private IfcFilterTypeEnum(int value, String name, String literal) {
+        this.value = value;
+        this.name = name;
+        this.literal = literal;
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public int getValue() {
-		return value;
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public int getValue() {
+        return value;
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public String getName() {
-		return name;
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public String getName() {
+        return name;
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public String getLiteral() {
-		return literal;
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public String getLiteral() {
+        return literal;
+    }
 
-	/**
-	 * Returns the literal value of the enumerator, which is its string representation.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	@Override
-	public String toString() {
-		return literal;
-	}
+    /**
+     * Returns the literal value of the enumerator, which is its string representation.
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    @Override
+    public String toString() {
+        return literal;
+    }
 
 } //IfcFilterTypeEnum

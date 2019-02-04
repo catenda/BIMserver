@@ -19,6 +19,7 @@ package org.bimserver.models.ifc2x3tc1.impl;
 import org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package;
 import org.bimserver.models.ifc2x3tc1.IfcPoint;
 import org.bimserver.models.ifc2x3tc1.IfcVertexPoint;
+
 import org.eclipse.emf.ecore.EClass;
 
 /**
@@ -27,49 +28,49 @@ import org.eclipse.emf.ecore.EClass;
  * <!-- end-user-doc -->
  * <p>
  * The following features are implemented:
+ * </p>
  * <ul>
  *   <li>{@link org.bimserver.models.ifc2x3tc1.impl.IfcVertexPointImpl#getVertexGeometry <em>Vertex Geometry</em>}</li>
  * </ul>
- * </p>
  *
  * @generated
  */
 public class IfcVertexPointImpl extends IfcVertexImpl implements IfcVertexPoint {
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	protected IfcVertexPointImpl() {
-		super();
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    protected IfcVertexPointImpl() {
+        super();
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	@Override
-	protected EClass eStaticClass() {
-		return Ifc2x3tc1Package.Literals.IFC_VERTEX_POINT;
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    @Override
+    protected EClass eStaticClass() {
+        return Ifc2x3tc1Package.Literals.IFC_VERTEX_POINT;
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public IfcPoint getVertexGeometry() {
-		return (IfcPoint) eGet(Ifc2x3tc1Package.Literals.IFC_VERTEX_POINT__VERTEX_GEOMETRY, true);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public IfcPoint getVertexGeometry() {
+        return (IfcPoint) eGet(Ifc2x3tc1Package.Literals.IFC_VERTEX_POINT__VERTEX_GEOMETRY, true);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public void setVertexGeometry(IfcPoint newVertexGeometry) {
-		eSet(Ifc2x3tc1Package.Literals.IFC_VERTEX_POINT__VERTEX_GEOMETRY, newVertexGeometry);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public void setVertexGeometry(IfcPoint newVertexGeometry) {
+        eSet(Ifc2x3tc1Package.Literals.IFC_VERTEX_POINT__VERTEX_GEOMETRY, newVertexGeometry);
+    }
 
 } //IfcVertexPointImpl

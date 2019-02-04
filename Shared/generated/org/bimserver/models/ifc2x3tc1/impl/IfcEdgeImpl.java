@@ -19,6 +19,7 @@ package org.bimserver.models.ifc2x3tc1.impl;
 import org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package;
 import org.bimserver.models.ifc2x3tc1.IfcEdge;
 import org.bimserver.models.ifc2x3tc1.IfcVertex;
+
 import org.eclipse.emf.ecore.EClass;
 
 /**
@@ -27,68 +28,68 @@ import org.eclipse.emf.ecore.EClass;
  * <!-- end-user-doc -->
  * <p>
  * The following features are implemented:
+ * </p>
  * <ul>
  *   <li>{@link org.bimserver.models.ifc2x3tc1.impl.IfcEdgeImpl#getEdgeStart <em>Edge Start</em>}</li>
  *   <li>{@link org.bimserver.models.ifc2x3tc1.impl.IfcEdgeImpl#getEdgeEnd <em>Edge End</em>}</li>
  * </ul>
- * </p>
  *
  * @generated
  */
 public class IfcEdgeImpl extends IfcTopologicalRepresentationItemImpl implements IfcEdge {
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	protected IfcEdgeImpl() {
-		super();
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    protected IfcEdgeImpl() {
+        super();
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	@Override
-	protected EClass eStaticClass() {
-		return Ifc2x3tc1Package.Literals.IFC_EDGE;
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    @Override
+    protected EClass eStaticClass() {
+        return Ifc2x3tc1Package.Literals.IFC_EDGE;
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public IfcVertex getEdgeStart() {
-		return (IfcVertex) eGet(Ifc2x3tc1Package.Literals.IFC_EDGE__EDGE_START, true);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public IfcVertex getEdgeStart() {
+        return (IfcVertex) eGet(Ifc2x3tc1Package.Literals.IFC_EDGE__EDGE_START, true);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public void setEdgeStart(IfcVertex newEdgeStart) {
-		eSet(Ifc2x3tc1Package.Literals.IFC_EDGE__EDGE_START, newEdgeStart);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public void setEdgeStart(IfcVertex newEdgeStart) {
+        eSet(Ifc2x3tc1Package.Literals.IFC_EDGE__EDGE_START, newEdgeStart);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public IfcVertex getEdgeEnd() {
-		return (IfcVertex) eGet(Ifc2x3tc1Package.Literals.IFC_EDGE__EDGE_END, true);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public IfcVertex getEdgeEnd() {
+        return (IfcVertex) eGet(Ifc2x3tc1Package.Literals.IFC_EDGE__EDGE_END, true);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public void setEdgeEnd(IfcVertex newEdgeEnd) {
-		eSet(Ifc2x3tc1Package.Literals.IFC_EDGE__EDGE_END, newEdgeEnd);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public void setEdgeEnd(IfcVertex newEdgeEnd) {
+        eSet(Ifc2x3tc1Package.Literals.IFC_EDGE__EDGE_END, newEdgeEnd);
+    }
 
 } //IfcEdgeImpl

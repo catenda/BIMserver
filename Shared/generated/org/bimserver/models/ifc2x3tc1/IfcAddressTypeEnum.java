@@ -32,297 +32,304 @@ import org.eclipse.emf.common.util.Enumerator;
  * @generated
  */
 public enum IfcAddressTypeEnum implements Enumerator {
-	/**
-	 * The '<em><b>NULL</b></em>' literal object.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @see #NULL_VALUE
-	 * @generated
-	 * @ordered
-	 */
-	NULL(0, "NULL", "NULL"),
+    /**
+     * The '<em><b>NULL</b></em>' literal object.
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @see #NULL_VALUE
+     * @generated
+     * @ordered
+     */
+    NULL(0, "NULL", "NULL"),
 
-	/**
-	 * The '<em><b>SITE</b></em>' literal object.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @see #SITE_VALUE
-	 * @generated
-	 * @ordered
-	 */
-	SITE(1, "SITE", "SITE"),
+    /**
+     * The '<em><b>SITE</b></em>' literal object.
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @see #SITE_VALUE
+     * @generated
+     * @ordered
+     */
+    SITE(1, "SITE", "SITE"),
 
-	/**
-	 * The '<em><b>HOME</b></em>' literal object.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @see #HOME_VALUE
-	 * @generated
-	 * @ordered
-	 */
-	HOME(2, "HOME", "HOME"),
+    /**
+     * The '<em><b>OFFICE</b></em>' literal object.
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @see #OFFICE_VALUE
+     * @generated
+     * @ordered
+     */
+    OFFICE(2, "OFFICE", "OFFICE"),
 
-	/**
-	 * The '<em><b>OFFICE</b></em>' literal object.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @see #OFFICE_VALUE
-	 * @generated
-	 * @ordered
-	 */
-	OFFICE(3, "OFFICE", "OFFICE"),
+    /**
+     * The '<em><b>DISTRIBUTIONPOINT</b></em>' literal object.
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @see #DISTRIBUTIONPOINT_VALUE
+     * @generated
+     * @ordered
+     */
+    DISTRIBUTIONPOINT(3, "DISTRIBUTIONPOINT", "DISTRIBUTIONPOINT"),
 
-	/**
-	 * The '<em><b>DISTRIBUTIONPOINT</b></em>' literal object.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @see #DISTRIBUTIONPOINT_VALUE
-	 * @generated
-	 * @ordered
-	 */
-	DISTRIBUTIONPOINT(4, "DISTRIBUTIONPOINT", "DISTRIBUTIONPOINT"),
+    /**
+     * The '<em><b>USERDEFINED</b></em>' literal object.
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @see #USERDEFINED_VALUE
+     * @generated
+     * @ordered
+     */
+    USERDEFINED(4, "USERDEFINED", "USERDEFINED"),
 
-	/**
-	 * The '<em><b>USERDEFINED</b></em>' literal object.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @see #USERDEFINED_VALUE
-	 * @generated
-	 * @ordered
-	 */
-	USERDEFINED(5, "USERDEFINED", "USERDEFINED");
+    /**
+     * The '<em><b>HOME</b></em>' literal object.
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @see #HOME_VALUE
+     * @generated
+     * @ordered
+     */
+    HOME(5, "HOME", "HOME");
 
-	/**
-	 * The '<em><b>NULL</b></em>' literal value.
-	 * <!-- begin-user-doc -->
-	 * <p>
-	 * If the meaning of '<em><b>NULL</b></em>' literal object isn't clear,
-	 * there really should be more of a description here...
-	 * </p>
-	 * <!-- end-user-doc -->
-	 * @see #NULL
-	 * @model
-	 * @generated
-	 * @ordered
-	 */
-	public static final int NULL_VALUE = 0;
+    /**
+     * The '<em><b>NULL</b></em>' literal value.
+     * <!-- begin-user-doc -->
+     * <p>
+     * If the meaning of '<em><b>NULL</b></em>' literal object isn't clear,
+     * there really should be more of a description here...
+     * </p>
+     * <!-- end-user-doc -->
+     * @see #NULL
+     * @model
+     * @generated
+     * @ordered
+     */
+    public static final int NULL_VALUE = 0;
 
-	/**
-	 * The '<em><b>SITE</b></em>' literal value.
-	 * <!-- begin-user-doc -->
-	 * <p>
-	 * If the meaning of '<em><b>SITE</b></em>' literal object isn't clear,
-	 * there really should be more of a description here...
-	 * </p>
-	 * <!-- end-user-doc -->
-	 * @see #SITE
-	 * @model
-	 * @generated
-	 * @ordered
-	 */
-	public static final int SITE_VALUE = 1;
+    /**
+     * The '<em><b>SITE</b></em>' literal value.
+     * <!-- begin-user-doc -->
+     * <p>
+     * If the meaning of '<em><b>SITE</b></em>' literal object isn't clear,
+     * there really should be more of a description here...
+     * </p>
+     * <!-- end-user-doc -->
+     * @see #SITE
+     * @model
+     * @generated
+     * @ordered
+     */
+    public static final int SITE_VALUE = 1;
 
-	/**
-	 * The '<em><b>HOME</b></em>' literal value.
-	 * <!-- begin-user-doc -->
-	 * <p>
-	 * If the meaning of '<em><b>HOME</b></em>' literal object isn't clear,
-	 * there really should be more of a description here...
-	 * </p>
-	 * <!-- end-user-doc -->
-	 * @see #HOME
-	 * @model
-	 * @generated
-	 * @ordered
-	 */
-	public static final int HOME_VALUE = 2;
+    /**
+     * The '<em><b>OFFICE</b></em>' literal value.
+     * <!-- begin-user-doc -->
+     * <p>
+     * If the meaning of '<em><b>OFFICE</b></em>' literal object isn't clear,
+     * there really should be more of a description here...
+     * </p>
+     * <!-- end-user-doc -->
+     * @see #OFFICE
+     * @model
+     * @generated
+     * @ordered
+     */
+    public static final int OFFICE_VALUE = 2;
 
-	/**
-	 * The '<em><b>OFFICE</b></em>' literal value.
-	 * <!-- begin-user-doc -->
-	 * <p>
-	 * If the meaning of '<em><b>OFFICE</b></em>' literal object isn't clear,
-	 * there really should be more of a description here...
-	 * </p>
-	 * <!-- end-user-doc -->
-	 * @see #OFFICE
-	 * @model
-	 * @generated
-	 * @ordered
-	 */
-	public static final int OFFICE_VALUE = 3;
+    /**
+     * The '<em><b>DISTRIBUTIONPOINT</b></em>' literal value.
+     * <!-- begin-user-doc -->
+     * <p>
+     * If the meaning of '<em><b>DISTRIBUTIONPOINT</b></em>' literal object isn't clear,
+     * there really should be more of a description here...
+     * </p>
+     * <!-- end-user-doc -->
+     * @see #DISTRIBUTIONPOINT
+     * @model
+     * @generated
+     * @ordered
+     */
+    public static final int DISTRIBUTIONPOINT_VALUE = 3;
 
-	/**
-	 * The '<em><b>DISTRIBUTIONPOINT</b></em>' literal value.
-	 * <!-- begin-user-doc -->
-	 * <p>
-	 * If the meaning of '<em><b>DISTRIBUTIONPOINT</b></em>' literal object isn't clear,
-	 * there really should be more of a description here...
-	 * </p>
-	 * <!-- end-user-doc -->
-	 * @see #DISTRIBUTIONPOINT
-	 * @model
-	 * @generated
-	 * @ordered
-	 */
-	public static final int DISTRIBUTIONPOINT_VALUE = 4;
+    /**
+     * The '<em><b>USERDEFINED</b></em>' literal value.
+     * <!-- begin-user-doc -->
+     * <p>
+     * If the meaning of '<em><b>USERDEFINED</b></em>' literal object isn't clear,
+     * there really should be more of a description here...
+     * </p>
+     * <!-- end-user-doc -->
+     * @see #USERDEFINED
+     * @model
+     * @generated
+     * @ordered
+     */
+    public static final int USERDEFINED_VALUE = 4;
 
-	/**
-	 * The '<em><b>USERDEFINED</b></em>' literal value.
-	 * <!-- begin-user-doc -->
-	 * <p>
-	 * If the meaning of '<em><b>USERDEFINED</b></em>' literal object isn't clear,
-	 * there really should be more of a description here...
-	 * </p>
-	 * <!-- end-user-doc -->
-	 * @see #USERDEFINED
-	 * @model
-	 * @generated
-	 * @ordered
-	 */
-	public static final int USERDEFINED_VALUE = 5;
+    /**
+     * The '<em><b>HOME</b></em>' literal value.
+     * <!-- begin-user-doc -->
+     * <p>
+     * If the meaning of '<em><b>HOME</b></em>' literal object isn't clear,
+     * there really should be more of a description here...
+     * </p>
+     * <!-- end-user-doc -->
+     * @see #HOME
+     * @model
+     * @generated
+     * @ordered
+     */
+    public static final int HOME_VALUE = 5;
 
-	/**
-	 * An array of all the '<em><b>Ifc Address Type Enum</b></em>' enumerators.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	private static final IfcAddressTypeEnum[] VALUES_ARRAY = new IfcAddressTypeEnum[] { NULL, SITE, HOME, OFFICE, DISTRIBUTIONPOINT, USERDEFINED, };
+    /**
+     * An array of all the '<em><b>Ifc Address Type Enum</b></em>' enumerators.
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    private static final IfcAddressTypeEnum[] VALUES_ARRAY = new IfcAddressTypeEnum[] { NULL, SITE, OFFICE,
+            DISTRIBUTIONPOINT, USERDEFINED, HOME, };
 
-	/**
-	 * A public read-only list of all the '<em><b>Ifc Address Type Enum</b></em>' enumerators.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public static final List<IfcAddressTypeEnum> VALUES = Collections.unmodifiableList(Arrays.asList(VALUES_ARRAY));
+    /**
+     * A public read-only list of all the '<em><b>Ifc Address Type Enum</b></em>' enumerators.
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public static final List<IfcAddressTypeEnum> VALUES = Collections.unmodifiableList(Arrays.asList(VALUES_ARRAY));
 
-	/**
-	 * Returns the '<em><b>Ifc Address Type Enum</b></em>' literal with the specified literal value.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public static IfcAddressTypeEnum get(String literal) {
-		for (int i = 0; i < VALUES_ARRAY.length; ++i) {
-			IfcAddressTypeEnum result = VALUES_ARRAY[i];
-			if (result.toString().equals(literal)) {
-				return result;
-			}
-		}
-		return null;
-	}
+    /**
+     * Returns the '<em><b>Ifc Address Type Enum</b></em>' literal with the specified literal value.
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @param literal the literal.
+     * @return the matching enumerator or <code>null</code>.
+     * @generated
+     */
+    public static IfcAddressTypeEnum get(String literal) {
+        for (int i = 0; i < VALUES_ARRAY.length; ++i) {
+            IfcAddressTypeEnum result = VALUES_ARRAY[i];
+            if (result.toString().equals(literal)) {
+                return result;
+            }
+        }
+        return null;
+    }
 
-	/**
-	 * Returns the '<em><b>Ifc Address Type Enum</b></em>' literal with the specified name.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public static IfcAddressTypeEnum getByName(String name) {
-		for (int i = 0; i < VALUES_ARRAY.length; ++i) {
-			IfcAddressTypeEnum result = VALUES_ARRAY[i];
-			if (result.getName().equals(name)) {
-				return result;
-			}
-		}
-		return null;
-	}
+    /**
+     * Returns the '<em><b>Ifc Address Type Enum</b></em>' literal with the specified name.
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @param name the name.
+     * @return the matching enumerator or <code>null</code>.
+     * @generated
+     */
+    public static IfcAddressTypeEnum getByName(String name) {
+        for (int i = 0; i < VALUES_ARRAY.length; ++i) {
+            IfcAddressTypeEnum result = VALUES_ARRAY[i];
+            if (result.getName().equals(name)) {
+                return result;
+            }
+        }
+        return null;
+    }
 
-	/**
-	 * Returns the '<em><b>Ifc Address Type Enum</b></em>' literal with the specified integer value.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public static IfcAddressTypeEnum get(int value) {
-		switch (value) {
-		case NULL_VALUE:
-			return NULL;
-		case SITE_VALUE:
-			return SITE;
-		case HOME_VALUE:
-			return HOME;
-		case OFFICE_VALUE:
-			return OFFICE;
-		case DISTRIBUTIONPOINT_VALUE:
-			return DISTRIBUTIONPOINT;
-		case USERDEFINED_VALUE:
-			return USERDEFINED;
-		}
-		return null;
-	}
+    /**
+     * Returns the '<em><b>Ifc Address Type Enum</b></em>' literal with the specified integer value.
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @param value the integer value.
+     * @return the matching enumerator or <code>null</code>.
+     * @generated
+     */
+    public static IfcAddressTypeEnum get(int value) {
+        switch (value) {
+        case NULL_VALUE:
+            return NULL;
+        case SITE_VALUE:
+            return SITE;
+        case OFFICE_VALUE:
+            return OFFICE;
+        case DISTRIBUTIONPOINT_VALUE:
+            return DISTRIBUTIONPOINT;
+        case USERDEFINED_VALUE:
+            return USERDEFINED;
+        case HOME_VALUE:
+            return HOME;
+        }
+        return null;
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	private final int value;
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    private final int value;
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	private final String name;
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    private final String name;
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	private final String literal;
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    private final String literal;
 
-	/**
-	 * Only this class can construct instances.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	private IfcAddressTypeEnum(int value, String name, String literal) {
-		this.value = value;
-		this.name = name;
-		this.literal = literal;
-	}
+    /**
+     * Only this class can construct instances.
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    private IfcAddressTypeEnum(int value, String name, String literal) {
+        this.value = value;
+        this.name = name;
+        this.literal = literal;
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public int getValue() {
-		return value;
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public int getValue() {
+        return value;
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public String getName() {
-		return name;
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public String getName() {
+        return name;
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public String getLiteral() {
-		return literal;
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public String getLiteral() {
+        return literal;
+    }
 
-	/**
-	 * Returns the literal value of the enumerator, which is its string representation.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	@Override
-	public String toString() {
-		return literal;
-	}
+    /**
+     * Returns the literal value of the enumerator, which is its string representation.
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    @Override
+    public String toString() {
+        return literal;
+    }
 
 } //IfcAddressTypeEnum

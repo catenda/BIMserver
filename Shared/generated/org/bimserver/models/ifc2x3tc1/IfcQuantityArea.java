@@ -23,67 +23,67 @@ package org.bimserver.models.ifc2x3tc1;
  *
  * <p>
  * The following features are supported:
+ * </p>
  * <ul>
  *   <li>{@link org.bimserver.models.ifc2x3tc1.IfcQuantityArea#getAreaValue <em>Area Value</em>}</li>
  *   <li>{@link org.bimserver.models.ifc2x3tc1.IfcQuantityArea#getAreaValueAsString <em>Area Value As String</em>}</li>
  * </ul>
- * </p>
  *
  * @see org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package#getIfcQuantityArea()
  * @model
  * @generated
  */
 public interface IfcQuantityArea extends IfcPhysicalSimpleQuantity {
-	/**
-	 * Returns the value of the '<em><b>Area Value</b></em>' attribute.
-	 * <!-- begin-user-doc -->
-	 * <p>
-	 * If the meaning of the '<em>Area Value</em>' attribute isn't clear,
-	 * there really should be more of a description here...
-	 * </p>
-	 * <!-- end-user-doc -->
-	 * @return the value of the '<em>Area Value</em>' attribute.
-	 * @see #setAreaValue(double)
-	 * @see org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package#getIfcQuantityArea_AreaValue()
-	 * @model
-	 * @generated
-	 */
-	double getAreaValue();
+    /**
+     * Returns the value of the '<em><b>Area Value</b></em>' attribute.
+     * <!-- begin-user-doc -->
+     * <p>
+     * If the meaning of the '<em>Area Value</em>' attribute isn't clear,
+     * there really should be more of a description here...
+     * </p>
+     * <!-- end-user-doc -->
+     * @return the value of the '<em>Area Value</em>' attribute.
+     * @see #setAreaValue(double)
+     * @see org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package#getIfcQuantityArea_AreaValue()
+     * @model
+     * @generated
+     */
+    double getAreaValue();
 
-	/**
-	 * Sets the value of the '{@link org.bimserver.models.ifc2x3tc1.IfcQuantityArea#getAreaValue <em>Area Value</em>}' attribute.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @param value the new value of the '<em>Area Value</em>' attribute.
-	 * @see #getAreaValue()
-	 * @generated
-	 */
-	void setAreaValue(double value);
+    /**
+     * Sets the value of the '{@link org.bimserver.models.ifc2x3tc1.IfcQuantityArea#getAreaValue <em>Area Value</em>}' attribute.
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @param value the new value of the '<em>Area Value</em>' attribute.
+     * @see #getAreaValue()
+     * @generated
+     */
+    void setAreaValue(double value);
 
-	/**
-	 * Returns the value of the '<em><b>Area Value As String</b></em>' attribute.
-	 * <!-- begin-user-doc -->
-	 * <p>
-	 * If the meaning of the '<em>Area Value As String</em>' attribute isn't clear,
-	 * there really should be more of a description here...
-	 * </p>
-	 * <!-- end-user-doc -->
-	 * @return the value of the '<em>Area Value As String</em>' attribute.
-	 * @see #setAreaValueAsString(String)
-	 * @see org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package#getIfcQuantityArea_AreaValueAsString()
-	 * @model
-	 * @generated
-	 */
-	String getAreaValueAsString();
+    /**
+     * Returns the value of the '<em><b>Area Value As String</b></em>' attribute.
+     * <!-- begin-user-doc -->
+     * <p>
+     * If the meaning of the '<em>Area Value As String</em>' attribute isn't clear,
+     * there really should be more of a description here...
+     * </p>
+     * <!-- end-user-doc -->
+     * @return the value of the '<em>Area Value As String</em>' attribute.
+     * @see #setAreaValueAsString(String)
+     * @see org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package#getIfcQuantityArea_AreaValueAsString()
+     * @model
+     * @generated
+     */
+    String getAreaValueAsString();
 
-	/**
-	 * Sets the value of the '{@link org.bimserver.models.ifc2x3tc1.IfcQuantityArea#getAreaValueAsString <em>Area Value As String</em>}' attribute.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @param value the new value of the '<em>Area Value As String</em>' attribute.
-	 * @see #getAreaValueAsString()
-	 * @generated
-	 */
-	void setAreaValueAsString(String value);
+    /**
+     * Sets the value of the '{@link org.bimserver.models.ifc2x3tc1.IfcQuantityArea#getAreaValueAsString <em>Area Value As String</em>}' attribute.
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @param value the new value of the '<em>Area Value As String</em>' attribute.
+     * @see #getAreaValueAsString()
+     * @generated
+     */
+    void setAreaValueAsString(String value);
 
 } // IfcQuantityArea

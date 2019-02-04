@@ -25,61 +25,61 @@ import org.eclipse.emf.common.util.EList;
  *
  * <p>
  * The following features are supported:
+ * </p>
  * <ul>
  *   <li>{@link org.bimserver.models.store.RenderEnginePluginConfiguration#getSerializers <em>Serializers</em>}</li>
  *   <li>{@link org.bimserver.models.store.RenderEnginePluginConfiguration#getUserSettings <em>User Settings</em>}</li>
  * </ul>
- * </p>
  *
  * @see org.bimserver.models.store.StorePackage#getRenderEnginePluginConfiguration()
  * @model
  * @generated
  */
 public interface RenderEnginePluginConfiguration extends PluginConfiguration {
-	/**
-	 * Returns the value of the '<em><b>Serializers</b></em>' reference list.
-	 * The list contents are of type {@link org.bimserver.models.store.SerializerPluginConfiguration}.
-	 * It is bidirectional and its opposite is '{@link org.bimserver.models.store.SerializerPluginConfiguration#getRenderEngine <em>Render Engine</em>}'.
-	 * <!-- begin-user-doc -->
-	 * <p>
-	 * If the meaning of the '<em>Serializers</em>' reference list isn't clear,
-	 * there really should be more of a description here...
-	 * </p>
-	 * <!-- end-user-doc -->
-	 * @return the value of the '<em>Serializers</em>' reference list.
-	 * @see org.bimserver.models.store.StorePackage#getRenderEnginePluginConfiguration_Serializers()
-	 * @see org.bimserver.models.store.SerializerPluginConfiguration#getRenderEngine
-	 * @model opposite="renderEngine"
-	 * @generated
-	 */
-	EList<SerializerPluginConfiguration> getSerializers();
+    /**
+     * Returns the value of the '<em><b>Serializers</b></em>' reference list.
+     * The list contents are of type {@link org.bimserver.models.store.SerializerPluginConfiguration}.
+     * It is bidirectional and its opposite is '{@link org.bimserver.models.store.SerializerPluginConfiguration#getRenderEngine <em>Render Engine</em>}'.
+     * <!-- begin-user-doc -->
+     * <p>
+     * If the meaning of the '<em>Serializers</em>' reference list isn't clear,
+     * there really should be more of a description here...
+     * </p>
+     * <!-- end-user-doc -->
+     * @return the value of the '<em>Serializers</em>' reference list.
+     * @see org.bimserver.models.store.StorePackage#getRenderEnginePluginConfiguration_Serializers()
+     * @see org.bimserver.models.store.SerializerPluginConfiguration#getRenderEngine
+     * @model opposite="renderEngine"
+     * @generated
+     */
+    EList<SerializerPluginConfiguration> getSerializers();
 
-	/**
-	 * Returns the value of the '<em><b>User Settings</b></em>' reference.
-	 * It is bidirectional and its opposite is '{@link org.bimserver.models.store.UserSettings#getRenderEngines <em>Render Engines</em>}'.
-	 * <!-- begin-user-doc -->
-	 * <p>
-	 * If the meaning of the '<em>User Settings</em>' reference isn't clear,
-	 * there really should be more of a description here...
-	 * </p>
-	 * <!-- end-user-doc -->
-	 * @return the value of the '<em>User Settings</em>' reference.
-	 * @see #setUserSettings(UserSettings)
-	 * @see org.bimserver.models.store.StorePackage#getRenderEnginePluginConfiguration_UserSettings()
-	 * @see org.bimserver.models.store.UserSettings#getRenderEngines
-	 * @model opposite="renderEngines"
-	 * @generated
-	 */
-	UserSettings getUserSettings();
+    /**
+     * Returns the value of the '<em><b>User Settings</b></em>' reference.
+     * It is bidirectional and its opposite is '{@link org.bimserver.models.store.UserSettings#getRenderEngines <em>Render Engines</em>}'.
+     * <!-- begin-user-doc -->
+     * <p>
+     * If the meaning of the '<em>User Settings</em>' reference isn't clear,
+     * there really should be more of a description here...
+     * </p>
+     * <!-- end-user-doc -->
+     * @return the value of the '<em>User Settings</em>' reference.
+     * @see #setUserSettings(UserSettings)
+     * @see org.bimserver.models.store.StorePackage#getRenderEnginePluginConfiguration_UserSettings()
+     * @see org.bimserver.models.store.UserSettings#getRenderEngines
+     * @model opposite="renderEngines"
+     * @generated
+     */
+    UserSettings getUserSettings();
 
-	/**
-	 * Sets the value of the '{@link org.bimserver.models.store.RenderEnginePluginConfiguration#getUserSettings <em>User Settings</em>}' reference.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @param value the new value of the '<em>User Settings</em>' reference.
-	 * @see #getUserSettings()
-	 * @generated
-	 */
-	void setUserSettings(UserSettings value);
+    /**
+     * Sets the value of the '{@link org.bimserver.models.store.RenderEnginePluginConfiguration#getUserSettings <em>User Settings</em>}' reference.
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @param value the new value of the '<em>User Settings</em>' reference.
+     * @see #getUserSettings()
+     * @generated
+     */
+    void setUserSettings(UserSettings value);
 
 } // RenderEnginePluginConfiguration

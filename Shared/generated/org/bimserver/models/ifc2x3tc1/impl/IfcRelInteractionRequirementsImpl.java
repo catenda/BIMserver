@@ -20,6 +20,7 @@ import org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package;
 import org.bimserver.models.ifc2x3tc1.IfcRelInteractionRequirements;
 import org.bimserver.models.ifc2x3tc1.IfcSpaceProgram;
 import org.bimserver.models.ifc2x3tc1.IfcSpatialStructureElement;
+
 import org.eclipse.emf.ecore.EClass;
 
 /**
@@ -28,6 +29,7 @@ import org.eclipse.emf.ecore.EClass;
  * <!-- end-user-doc -->
  * <p>
  * The following features are implemented:
+ * </p>
  * <ul>
  *   <li>{@link org.bimserver.models.ifc2x3tc1.impl.IfcRelInteractionRequirementsImpl#getDailyInteraction <em>Daily Interaction</em>}</li>
  *   <li>{@link org.bimserver.models.ifc2x3tc1.impl.IfcRelInteractionRequirementsImpl#getDailyInteractionAsString <em>Daily Interaction As String</em>}</li>
@@ -37,244 +39,252 @@ import org.eclipse.emf.ecore.EClass;
  *   <li>{@link org.bimserver.models.ifc2x3tc1.impl.IfcRelInteractionRequirementsImpl#getRelatedSpaceProgram <em>Related Space Program</em>}</li>
  *   <li>{@link org.bimserver.models.ifc2x3tc1.impl.IfcRelInteractionRequirementsImpl#getRelatingSpaceProgram <em>Relating Space Program</em>}</li>
  * </ul>
- * </p>
  *
  * @generated
  */
 public class IfcRelInteractionRequirementsImpl extends IfcRelConnectsImpl implements IfcRelInteractionRequirements {
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	protected IfcRelInteractionRequirementsImpl() {
-		super();
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    protected IfcRelInteractionRequirementsImpl() {
+        super();
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	@Override
-	protected EClass eStaticClass() {
-		return Ifc2x3tc1Package.Literals.IFC_REL_INTERACTION_REQUIREMENTS;
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    @Override
+    protected EClass eStaticClass() {
+        return Ifc2x3tc1Package.Literals.IFC_REL_INTERACTION_REQUIREMENTS;
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public double getDailyInteraction() {
-		return (Double) eGet(Ifc2x3tc1Package.Literals.IFC_REL_INTERACTION_REQUIREMENTS__DAILY_INTERACTION, true);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public double getDailyInteraction() {
+        return (Double) eGet(Ifc2x3tc1Package.Literals.IFC_REL_INTERACTION_REQUIREMENTS__DAILY_INTERACTION, true);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public void setDailyInteraction(double newDailyInteraction) {
-		eSet(Ifc2x3tc1Package.Literals.IFC_REL_INTERACTION_REQUIREMENTS__DAILY_INTERACTION, newDailyInteraction);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public void setDailyInteraction(double newDailyInteraction) {
+        eSet(Ifc2x3tc1Package.Literals.IFC_REL_INTERACTION_REQUIREMENTS__DAILY_INTERACTION, newDailyInteraction);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public void unsetDailyInteraction() {
-		eUnset(Ifc2x3tc1Package.Literals.IFC_REL_INTERACTION_REQUIREMENTS__DAILY_INTERACTION);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public void unsetDailyInteraction() {
+        eUnset(Ifc2x3tc1Package.Literals.IFC_REL_INTERACTION_REQUIREMENTS__DAILY_INTERACTION);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public boolean isSetDailyInteraction() {
-		return eIsSet(Ifc2x3tc1Package.Literals.IFC_REL_INTERACTION_REQUIREMENTS__DAILY_INTERACTION);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public boolean isSetDailyInteraction() {
+        return eIsSet(Ifc2x3tc1Package.Literals.IFC_REL_INTERACTION_REQUIREMENTS__DAILY_INTERACTION);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public String getDailyInteractionAsString() {
-		return (String) eGet(Ifc2x3tc1Package.Literals.IFC_REL_INTERACTION_REQUIREMENTS__DAILY_INTERACTION_AS_STRING, true);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public String getDailyInteractionAsString() {
+        return (String) eGet(Ifc2x3tc1Package.Literals.IFC_REL_INTERACTION_REQUIREMENTS__DAILY_INTERACTION_AS_STRING,
+                true);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public void setDailyInteractionAsString(String newDailyInteractionAsString) {
-		eSet(Ifc2x3tc1Package.Literals.IFC_REL_INTERACTION_REQUIREMENTS__DAILY_INTERACTION_AS_STRING, newDailyInteractionAsString);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public void setDailyInteractionAsString(String newDailyInteractionAsString) {
+        eSet(Ifc2x3tc1Package.Literals.IFC_REL_INTERACTION_REQUIREMENTS__DAILY_INTERACTION_AS_STRING,
+                newDailyInteractionAsString);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public void unsetDailyInteractionAsString() {
-		eUnset(Ifc2x3tc1Package.Literals.IFC_REL_INTERACTION_REQUIREMENTS__DAILY_INTERACTION_AS_STRING);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public void unsetDailyInteractionAsString() {
+        eUnset(Ifc2x3tc1Package.Literals.IFC_REL_INTERACTION_REQUIREMENTS__DAILY_INTERACTION_AS_STRING);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public boolean isSetDailyInteractionAsString() {
-		return eIsSet(Ifc2x3tc1Package.Literals.IFC_REL_INTERACTION_REQUIREMENTS__DAILY_INTERACTION_AS_STRING);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public boolean isSetDailyInteractionAsString() {
+        return eIsSet(Ifc2x3tc1Package.Literals.IFC_REL_INTERACTION_REQUIREMENTS__DAILY_INTERACTION_AS_STRING);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public double getImportanceRating() {
-		return (Double) eGet(Ifc2x3tc1Package.Literals.IFC_REL_INTERACTION_REQUIREMENTS__IMPORTANCE_RATING, true);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public double getImportanceRating() {
+        return (Double) eGet(Ifc2x3tc1Package.Literals.IFC_REL_INTERACTION_REQUIREMENTS__IMPORTANCE_RATING, true);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public void setImportanceRating(double newImportanceRating) {
-		eSet(Ifc2x3tc1Package.Literals.IFC_REL_INTERACTION_REQUIREMENTS__IMPORTANCE_RATING, newImportanceRating);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public void setImportanceRating(double newImportanceRating) {
+        eSet(Ifc2x3tc1Package.Literals.IFC_REL_INTERACTION_REQUIREMENTS__IMPORTANCE_RATING, newImportanceRating);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public void unsetImportanceRating() {
-		eUnset(Ifc2x3tc1Package.Literals.IFC_REL_INTERACTION_REQUIREMENTS__IMPORTANCE_RATING);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public void unsetImportanceRating() {
+        eUnset(Ifc2x3tc1Package.Literals.IFC_REL_INTERACTION_REQUIREMENTS__IMPORTANCE_RATING);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public boolean isSetImportanceRating() {
-		return eIsSet(Ifc2x3tc1Package.Literals.IFC_REL_INTERACTION_REQUIREMENTS__IMPORTANCE_RATING);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public boolean isSetImportanceRating() {
+        return eIsSet(Ifc2x3tc1Package.Literals.IFC_REL_INTERACTION_REQUIREMENTS__IMPORTANCE_RATING);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public String getImportanceRatingAsString() {
-		return (String) eGet(Ifc2x3tc1Package.Literals.IFC_REL_INTERACTION_REQUIREMENTS__IMPORTANCE_RATING_AS_STRING, true);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public String getImportanceRatingAsString() {
+        return (String) eGet(Ifc2x3tc1Package.Literals.IFC_REL_INTERACTION_REQUIREMENTS__IMPORTANCE_RATING_AS_STRING,
+                true);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public void setImportanceRatingAsString(String newImportanceRatingAsString) {
-		eSet(Ifc2x3tc1Package.Literals.IFC_REL_INTERACTION_REQUIREMENTS__IMPORTANCE_RATING_AS_STRING, newImportanceRatingAsString);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public void setImportanceRatingAsString(String newImportanceRatingAsString) {
+        eSet(Ifc2x3tc1Package.Literals.IFC_REL_INTERACTION_REQUIREMENTS__IMPORTANCE_RATING_AS_STRING,
+                newImportanceRatingAsString);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public void unsetImportanceRatingAsString() {
-		eUnset(Ifc2x3tc1Package.Literals.IFC_REL_INTERACTION_REQUIREMENTS__IMPORTANCE_RATING_AS_STRING);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public void unsetImportanceRatingAsString() {
+        eUnset(Ifc2x3tc1Package.Literals.IFC_REL_INTERACTION_REQUIREMENTS__IMPORTANCE_RATING_AS_STRING);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public boolean isSetImportanceRatingAsString() {
-		return eIsSet(Ifc2x3tc1Package.Literals.IFC_REL_INTERACTION_REQUIREMENTS__IMPORTANCE_RATING_AS_STRING);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public boolean isSetImportanceRatingAsString() {
+        return eIsSet(Ifc2x3tc1Package.Literals.IFC_REL_INTERACTION_REQUIREMENTS__IMPORTANCE_RATING_AS_STRING);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public IfcSpatialStructureElement getLocationOfInteraction() {
-		return (IfcSpatialStructureElement) eGet(Ifc2x3tc1Package.Literals.IFC_REL_INTERACTION_REQUIREMENTS__LOCATION_OF_INTERACTION, true);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public IfcSpatialStructureElement getLocationOfInteraction() {
+        return (IfcSpatialStructureElement) eGet(
+                Ifc2x3tc1Package.Literals.IFC_REL_INTERACTION_REQUIREMENTS__LOCATION_OF_INTERACTION, true);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public void setLocationOfInteraction(IfcSpatialStructureElement newLocationOfInteraction) {
-		eSet(Ifc2x3tc1Package.Literals.IFC_REL_INTERACTION_REQUIREMENTS__LOCATION_OF_INTERACTION, newLocationOfInteraction);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public void setLocationOfInteraction(IfcSpatialStructureElement newLocationOfInteraction) {
+        eSet(Ifc2x3tc1Package.Literals.IFC_REL_INTERACTION_REQUIREMENTS__LOCATION_OF_INTERACTION,
+                newLocationOfInteraction);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public void unsetLocationOfInteraction() {
-		eUnset(Ifc2x3tc1Package.Literals.IFC_REL_INTERACTION_REQUIREMENTS__LOCATION_OF_INTERACTION);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public void unsetLocationOfInteraction() {
+        eUnset(Ifc2x3tc1Package.Literals.IFC_REL_INTERACTION_REQUIREMENTS__LOCATION_OF_INTERACTION);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public boolean isSetLocationOfInteraction() {
-		return eIsSet(Ifc2x3tc1Package.Literals.IFC_REL_INTERACTION_REQUIREMENTS__LOCATION_OF_INTERACTION);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public boolean isSetLocationOfInteraction() {
+        return eIsSet(Ifc2x3tc1Package.Literals.IFC_REL_INTERACTION_REQUIREMENTS__LOCATION_OF_INTERACTION);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public IfcSpaceProgram getRelatedSpaceProgram() {
-		return (IfcSpaceProgram) eGet(Ifc2x3tc1Package.Literals.IFC_REL_INTERACTION_REQUIREMENTS__RELATED_SPACE_PROGRAM, true);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public IfcSpaceProgram getRelatedSpaceProgram() {
+        return (IfcSpaceProgram) eGet(Ifc2x3tc1Package.Literals.IFC_REL_INTERACTION_REQUIREMENTS__RELATED_SPACE_PROGRAM,
+                true);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public void setRelatedSpaceProgram(IfcSpaceProgram newRelatedSpaceProgram) {
-		eSet(Ifc2x3tc1Package.Literals.IFC_REL_INTERACTION_REQUIREMENTS__RELATED_SPACE_PROGRAM, newRelatedSpaceProgram);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public void setRelatedSpaceProgram(IfcSpaceProgram newRelatedSpaceProgram) {
+        eSet(Ifc2x3tc1Package.Literals.IFC_REL_INTERACTION_REQUIREMENTS__RELATED_SPACE_PROGRAM, newRelatedSpaceProgram);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public IfcSpaceProgram getRelatingSpaceProgram() {
-		return (IfcSpaceProgram) eGet(Ifc2x3tc1Package.Literals.IFC_REL_INTERACTION_REQUIREMENTS__RELATING_SPACE_PROGRAM, true);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public IfcSpaceProgram getRelatingSpaceProgram() {
+        return (IfcSpaceProgram) eGet(
+                Ifc2x3tc1Package.Literals.IFC_REL_INTERACTION_REQUIREMENTS__RELATING_SPACE_PROGRAM, true);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public void setRelatingSpaceProgram(IfcSpaceProgram newRelatingSpaceProgram) {
-		eSet(Ifc2x3tc1Package.Literals.IFC_REL_INTERACTION_REQUIREMENTS__RELATING_SPACE_PROGRAM, newRelatingSpaceProgram);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public void setRelatingSpaceProgram(IfcSpaceProgram newRelatingSpaceProgram) {
+        eSet(Ifc2x3tc1Package.Literals.IFC_REL_INTERACTION_REQUIREMENTS__RELATING_SPACE_PROGRAM,
+                newRelatingSpaceProgram);
+    }
 
 } //IfcRelInteractionRequirementsImpl

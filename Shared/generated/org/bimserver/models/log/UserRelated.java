@@ -25,42 +25,42 @@ import org.bimserver.models.store.User;
  *
  * <p>
  * The following features are supported:
+ * </p>
  * <ul>
  *   <li>{@link org.bimserver.models.log.UserRelated#getUser <em>User</em>}</li>
  * </ul>
- * </p>
  *
  * @see org.bimserver.models.log.LogPackage#getUserRelated()
  * @model
  * @generated
  */
 public interface UserRelated extends LogAction {
-	/**
-	 * Returns the value of the '<em><b>User</b></em>' reference.
-	 * It is bidirectional and its opposite is '{@link org.bimserver.models.store.User#getLogs <em>Logs</em>}'.
-	 * <!-- begin-user-doc -->
-	 * <p>
-	 * If the meaning of the '<em>User</em>' reference isn't clear,
-	 * there really should be more of a description here...
-	 * </p>
-	 * <!-- end-user-doc -->
-	 * @return the value of the '<em>User</em>' reference.
-	 * @see #setUser(User)
-	 * @see org.bimserver.models.log.LogPackage#getUserRelated_User()
-	 * @see org.bimserver.models.store.User#getLogs
-	 * @model opposite="logs"
-	 * @generated
-	 */
-	User getUser();
+    /**
+     * Returns the value of the '<em><b>User</b></em>' reference.
+     * It is bidirectional and its opposite is '{@link org.bimserver.models.store.User#getLogs <em>Logs</em>}'.
+     * <!-- begin-user-doc -->
+     * <p>
+     * If the meaning of the '<em>User</em>' reference isn't clear,
+     * there really should be more of a description here...
+     * </p>
+     * <!-- end-user-doc -->
+     * @return the value of the '<em>User</em>' reference.
+     * @see #setUser(User)
+     * @see org.bimserver.models.log.LogPackage#getUserRelated_User()
+     * @see org.bimserver.models.store.User#getLogs
+     * @model opposite="logs"
+     * @generated
+     */
+    User getUser();
 
-	/**
-	 * Sets the value of the '{@link org.bimserver.models.log.UserRelated#getUser <em>User</em>}' reference.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @param value the new value of the '<em>User</em>' reference.
-	 * @see #getUser()
-	 * @generated
-	 */
-	void setUser(User value);
+    /**
+     * Sets the value of the '{@link org.bimserver.models.log.UserRelated#getUser <em>User</em>}' reference.
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @param value the new value of the '<em>User</em>' reference.
+     * @see #getUser()
+     * @generated
+     */
+    void setUser(User value);
 
 } // UserRelated

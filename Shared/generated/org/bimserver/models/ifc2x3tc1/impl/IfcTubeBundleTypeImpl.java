@@ -19,6 +19,7 @@ package org.bimserver.models.ifc2x3tc1.impl;
 import org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package;
 import org.bimserver.models.ifc2x3tc1.IfcTubeBundleType;
 import org.bimserver.models.ifc2x3tc1.IfcTubeBundleTypeEnum;
+
 import org.eclipse.emf.ecore.EClass;
 
 /**
@@ -27,49 +28,49 @@ import org.eclipse.emf.ecore.EClass;
  * <!-- end-user-doc -->
  * <p>
  * The following features are implemented:
+ * </p>
  * <ul>
  *   <li>{@link org.bimserver.models.ifc2x3tc1.impl.IfcTubeBundleTypeImpl#getPredefinedType <em>Predefined Type</em>}</li>
  * </ul>
- * </p>
  *
  * @generated
  */
 public class IfcTubeBundleTypeImpl extends IfcEnergyConversionDeviceTypeImpl implements IfcTubeBundleType {
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	protected IfcTubeBundleTypeImpl() {
-		super();
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    protected IfcTubeBundleTypeImpl() {
+        super();
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	@Override
-	protected EClass eStaticClass() {
-		return Ifc2x3tc1Package.Literals.IFC_TUBE_BUNDLE_TYPE;
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    @Override
+    protected EClass eStaticClass() {
+        return Ifc2x3tc1Package.Literals.IFC_TUBE_BUNDLE_TYPE;
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public IfcTubeBundleTypeEnum getPredefinedType() {
-		return (IfcTubeBundleTypeEnum) eGet(Ifc2x3tc1Package.Literals.IFC_TUBE_BUNDLE_TYPE__PREDEFINED_TYPE, true);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public IfcTubeBundleTypeEnum getPredefinedType() {
+        return (IfcTubeBundleTypeEnum) eGet(Ifc2x3tc1Package.Literals.IFC_TUBE_BUNDLE_TYPE__PREDEFINED_TYPE, true);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public void setPredefinedType(IfcTubeBundleTypeEnum newPredefinedType) {
-		eSet(Ifc2x3tc1Package.Literals.IFC_TUBE_BUNDLE_TYPE__PREDEFINED_TYPE, newPredefinedType);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public void setPredefinedType(IfcTubeBundleTypeEnum newPredefinedType) {
+        eSet(Ifc2x3tc1Package.Literals.IFC_TUBE_BUNDLE_TYPE__PREDEFINED_TYPE, newPredefinedType);
+    }
 
 } //IfcTubeBundleTypeImpl

@@ -25,11 +25,11 @@ import org.bimserver.emf.IdEObject;
  *
  * <p>
  * The following features are supported:
+ * </p>
  * <ul>
  *   <li>{@link org.bimserver.models.ifc2x3tc1.IfcDerivedUnitElement#getUnit <em>Unit</em>}</li>
  *   <li>{@link org.bimserver.models.ifc2x3tc1.IfcDerivedUnitElement#getExponent <em>Exponent</em>}</li>
  * </ul>
- * </p>
  *
  * @see org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package#getIfcDerivedUnitElement()
  * @model
@@ -37,56 +37,56 @@ import org.bimserver.emf.IdEObject;
  * @generated
  */
 public interface IfcDerivedUnitElement extends IdEObject {
-	/**
-	 * Returns the value of the '<em><b>Unit</b></em>' reference.
-	 * <!-- begin-user-doc -->
-	 * <p>
-	 * If the meaning of the '<em>Unit</em>' reference isn't clear,
-	 * there really should be more of a description here...
-	 * </p>
-	 * <!-- end-user-doc -->
-	 * @return the value of the '<em>Unit</em>' reference.
-	 * @see #setUnit(IfcNamedUnit)
-	 * @see org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package#getIfcDerivedUnitElement_Unit()
-	 * @model
-	 * @generated
-	 */
-	IfcNamedUnit getUnit();
+    /**
+     * Returns the value of the '<em><b>Unit</b></em>' reference.
+     * <!-- begin-user-doc -->
+     * <p>
+     * If the meaning of the '<em>Unit</em>' reference isn't clear,
+     * there really should be more of a description here...
+     * </p>
+     * <!-- end-user-doc -->
+     * @return the value of the '<em>Unit</em>' reference.
+     * @see #setUnit(IfcNamedUnit)
+     * @see org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package#getIfcDerivedUnitElement_Unit()
+     * @model
+     * @generated
+     */
+    IfcNamedUnit getUnit();
 
-	/**
-	 * Sets the value of the '{@link org.bimserver.models.ifc2x3tc1.IfcDerivedUnitElement#getUnit <em>Unit</em>}' reference.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @param value the new value of the '<em>Unit</em>' reference.
-	 * @see #getUnit()
-	 * @generated
-	 */
-	void setUnit(IfcNamedUnit value);
+    /**
+     * Sets the value of the '{@link org.bimserver.models.ifc2x3tc1.IfcDerivedUnitElement#getUnit <em>Unit</em>}' reference.
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @param value the new value of the '<em>Unit</em>' reference.
+     * @see #getUnit()
+     * @generated
+     */
+    void setUnit(IfcNamedUnit value);
 
-	/**
-	 * Returns the value of the '<em><b>Exponent</b></em>' attribute.
-	 * <!-- begin-user-doc -->
-	 * <p>
-	 * If the meaning of the '<em>Exponent</em>' attribute isn't clear,
-	 * there really should be more of a description here...
-	 * </p>
-	 * <!-- end-user-doc -->
-	 * @return the value of the '<em>Exponent</em>' attribute.
-	 * @see #setExponent(int)
-	 * @see org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package#getIfcDerivedUnitElement_Exponent()
-	 * @model
-	 * @generated
-	 */
-	int getExponent();
+    /**
+     * Returns the value of the '<em><b>Exponent</b></em>' attribute.
+     * <!-- begin-user-doc -->
+     * <p>
+     * If the meaning of the '<em>Exponent</em>' attribute isn't clear,
+     * there really should be more of a description here...
+     * </p>
+     * <!-- end-user-doc -->
+     * @return the value of the '<em>Exponent</em>' attribute.
+     * @see #setExponent(long)
+     * @see org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package#getIfcDerivedUnitElement_Exponent()
+     * @model
+     * @generated
+     */
+    long getExponent();
 
-	/**
-	 * Sets the value of the '{@link org.bimserver.models.ifc2x3tc1.IfcDerivedUnitElement#getExponent <em>Exponent</em>}' attribute.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @param value the new value of the '<em>Exponent</em>' attribute.
-	 * @see #getExponent()
-	 * @generated
-	 */
-	void setExponent(int value);
+    /**
+     * Sets the value of the '{@link org.bimserver.models.ifc2x3tc1.IfcDerivedUnitElement#getExponent <em>Exponent</em>}' attribute.
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @param value the new value of the '<em>Exponent</em>' attribute.
+     * @see #getExponent()
+     * @generated
+     */
+    void setExponent(long value);
 
 } // IfcDerivedUnitElement

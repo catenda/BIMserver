@@ -19,6 +19,7 @@ package org.bimserver.models.ifc2x3tc1.impl;
 import org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package;
 import org.bimserver.models.ifc2x3tc1.IfcControl;
 import org.bimserver.models.ifc2x3tc1.IfcRelAssignsToControl;
+
 import org.eclipse.emf.ecore.EClass;
 
 /**
@@ -27,49 +28,49 @@ import org.eclipse.emf.ecore.EClass;
  * <!-- end-user-doc -->
  * <p>
  * The following features are implemented:
+ * </p>
  * <ul>
  *   <li>{@link org.bimserver.models.ifc2x3tc1.impl.IfcRelAssignsToControlImpl#getRelatingControl <em>Relating Control</em>}</li>
  * </ul>
- * </p>
  *
  * @generated
  */
 public class IfcRelAssignsToControlImpl extends IfcRelAssignsImpl implements IfcRelAssignsToControl {
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	protected IfcRelAssignsToControlImpl() {
-		super();
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    protected IfcRelAssignsToControlImpl() {
+        super();
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	@Override
-	protected EClass eStaticClass() {
-		return Ifc2x3tc1Package.Literals.IFC_REL_ASSIGNS_TO_CONTROL;
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    @Override
+    protected EClass eStaticClass() {
+        return Ifc2x3tc1Package.Literals.IFC_REL_ASSIGNS_TO_CONTROL;
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public IfcControl getRelatingControl() {
-		return (IfcControl) eGet(Ifc2x3tc1Package.Literals.IFC_REL_ASSIGNS_TO_CONTROL__RELATING_CONTROL, true);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public IfcControl getRelatingControl() {
+        return (IfcControl) eGet(Ifc2x3tc1Package.Literals.IFC_REL_ASSIGNS_TO_CONTROL__RELATING_CONTROL, true);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public void setRelatingControl(IfcControl newRelatingControl) {
-		eSet(Ifc2x3tc1Package.Literals.IFC_REL_ASSIGNS_TO_CONTROL__RELATING_CONTROL, newRelatingControl);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public void setRelatingControl(IfcControl newRelatingControl) {
+        eSet(Ifc2x3tc1Package.Literals.IFC_REL_ASSIGNS_TO_CONTROL__RELATING_CONTROL, newRelatingControl);
+    }
 
 } //IfcRelAssignsToControlImpl

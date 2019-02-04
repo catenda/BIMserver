@@ -17,10 +17,12 @@
 package org.bimserver.models.ifc2x3tc1.impl;
 
 import org.bimserver.emf.IdEObjectImpl;
+
 import org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package;
 import org.bimserver.models.ifc2x3tc1.IfcProfileDef;
 import org.bimserver.models.ifc2x3tc1.IfcSectionProperties;
 import org.bimserver.models.ifc2x3tc1.IfcSectionTypeEnum;
+
 import org.eclipse.emf.ecore.EClass;
 
 /**
@@ -29,115 +31,115 @@ import org.eclipse.emf.ecore.EClass;
  * <!-- end-user-doc -->
  * <p>
  * The following features are implemented:
+ * </p>
  * <ul>
  *   <li>{@link org.bimserver.models.ifc2x3tc1.impl.IfcSectionPropertiesImpl#getSectionType <em>Section Type</em>}</li>
  *   <li>{@link org.bimserver.models.ifc2x3tc1.impl.IfcSectionPropertiesImpl#getStartProfile <em>Start Profile</em>}</li>
  *   <li>{@link org.bimserver.models.ifc2x3tc1.impl.IfcSectionPropertiesImpl#getEndProfile <em>End Profile</em>}</li>
  * </ul>
- * </p>
  *
  * @generated
  */
 public class IfcSectionPropertiesImpl extends IdEObjectImpl implements IfcSectionProperties {
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	protected IfcSectionPropertiesImpl() {
-		super();
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    protected IfcSectionPropertiesImpl() {
+        super();
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	@Override
-	protected EClass eStaticClass() {
-		return Ifc2x3tc1Package.Literals.IFC_SECTION_PROPERTIES;
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    @Override
+    protected EClass eStaticClass() {
+        return Ifc2x3tc1Package.Literals.IFC_SECTION_PROPERTIES;
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	@Override
-	protected int eStaticFeatureCount() {
-		return 0;
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    @Override
+    protected int eStaticFeatureCount() {
+        return 0;
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public IfcSectionTypeEnum getSectionType() {
-		return (IfcSectionTypeEnum) eGet(Ifc2x3tc1Package.Literals.IFC_SECTION_PROPERTIES__SECTION_TYPE, true);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public IfcSectionTypeEnum getSectionType() {
+        return (IfcSectionTypeEnum) eGet(Ifc2x3tc1Package.Literals.IFC_SECTION_PROPERTIES__SECTION_TYPE, true);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public void setSectionType(IfcSectionTypeEnum newSectionType) {
-		eSet(Ifc2x3tc1Package.Literals.IFC_SECTION_PROPERTIES__SECTION_TYPE, newSectionType);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public void setSectionType(IfcSectionTypeEnum newSectionType) {
+        eSet(Ifc2x3tc1Package.Literals.IFC_SECTION_PROPERTIES__SECTION_TYPE, newSectionType);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public IfcProfileDef getStartProfile() {
-		return (IfcProfileDef) eGet(Ifc2x3tc1Package.Literals.IFC_SECTION_PROPERTIES__START_PROFILE, true);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public IfcProfileDef getStartProfile() {
+        return (IfcProfileDef) eGet(Ifc2x3tc1Package.Literals.IFC_SECTION_PROPERTIES__START_PROFILE, true);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public void setStartProfile(IfcProfileDef newStartProfile) {
-		eSet(Ifc2x3tc1Package.Literals.IFC_SECTION_PROPERTIES__START_PROFILE, newStartProfile);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public void setStartProfile(IfcProfileDef newStartProfile) {
+        eSet(Ifc2x3tc1Package.Literals.IFC_SECTION_PROPERTIES__START_PROFILE, newStartProfile);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public IfcProfileDef getEndProfile() {
-		return (IfcProfileDef) eGet(Ifc2x3tc1Package.Literals.IFC_SECTION_PROPERTIES__END_PROFILE, true);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public IfcProfileDef getEndProfile() {
+        return (IfcProfileDef) eGet(Ifc2x3tc1Package.Literals.IFC_SECTION_PROPERTIES__END_PROFILE, true);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public void setEndProfile(IfcProfileDef newEndProfile) {
-		eSet(Ifc2x3tc1Package.Literals.IFC_SECTION_PROPERTIES__END_PROFILE, newEndProfile);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public void setEndProfile(IfcProfileDef newEndProfile) {
+        eSet(Ifc2x3tc1Package.Literals.IFC_SECTION_PROPERTIES__END_PROFILE, newEndProfile);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public void unsetEndProfile() {
-		eUnset(Ifc2x3tc1Package.Literals.IFC_SECTION_PROPERTIES__END_PROFILE);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public void unsetEndProfile() {
+        eUnset(Ifc2x3tc1Package.Literals.IFC_SECTION_PROPERTIES__END_PROFILE);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public boolean isSetEndProfile() {
-		return eIsSet(Ifc2x3tc1Package.Literals.IFC_SECTION_PROPERTIES__END_PROFILE);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public boolean isSetEndProfile() {
+        return eIsSet(Ifc2x3tc1Package.Literals.IFC_SECTION_PROPERTIES__END_PROFILE);
+    }
 
 } //IfcSectionPropertiesImpl

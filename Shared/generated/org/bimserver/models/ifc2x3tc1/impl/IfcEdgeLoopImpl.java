@@ -19,7 +19,9 @@ package org.bimserver.models.ifc2x3tc1.impl;
 import org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package;
 import org.bimserver.models.ifc2x3tc1.IfcEdgeLoop;
 import org.bimserver.models.ifc2x3tc1.IfcOrientedEdge;
+
 import org.eclipse.emf.common.util.EList;
+
 import org.eclipse.emf.ecore.EClass;
 
 /**
@@ -28,41 +30,41 @@ import org.eclipse.emf.ecore.EClass;
  * <!-- end-user-doc -->
  * <p>
  * The following features are implemented:
+ * </p>
  * <ul>
  *   <li>{@link org.bimserver.models.ifc2x3tc1.impl.IfcEdgeLoopImpl#getEdgeList <em>Edge List</em>}</li>
  * </ul>
- * </p>
  *
  * @generated
  */
 public class IfcEdgeLoopImpl extends IfcLoopImpl implements IfcEdgeLoop {
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	protected IfcEdgeLoopImpl() {
-		super();
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    protected IfcEdgeLoopImpl() {
+        super();
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	@Override
-	protected EClass eStaticClass() {
-		return Ifc2x3tc1Package.Literals.IFC_EDGE_LOOP;
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    @Override
+    protected EClass eStaticClass() {
+        return Ifc2x3tc1Package.Literals.IFC_EDGE_LOOP;
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	@SuppressWarnings("unchecked")
-	public EList<IfcOrientedEdge> getEdgeList() {
-		return (EList<IfcOrientedEdge>) eGet(Ifc2x3tc1Package.Literals.IFC_EDGE_LOOP__EDGE_LIST, true);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    @SuppressWarnings("unchecked")
+    public EList<IfcOrientedEdge> getEdgeList() {
+        return (EList<IfcOrientedEdge>) eGet(Ifc2x3tc1Package.Literals.IFC_EDGE_LOOP__EDGE_LIST, true);
+    }
 
 } //IfcEdgeLoopImpl

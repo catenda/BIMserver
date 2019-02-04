@@ -25,6 +25,7 @@ import org.bimserver.emf.IdEObject;
  *
  * <p>
  * The following features are supported:
+ * </p>
  * <ul>
  *   <li>{@link org.bimserver.models.ifc2x3tc1.IfcDimensionalExponents#getLengthExponent <em>Length Exponent</em>}</li>
  *   <li>{@link org.bimserver.models.ifc2x3tc1.IfcDimensionalExponents#getMassExponent <em>Mass Exponent</em>}</li>
@@ -34,7 +35,6 @@ import org.bimserver.emf.IdEObject;
  *   <li>{@link org.bimserver.models.ifc2x3tc1.IfcDimensionalExponents#getAmountOfSubstanceExponent <em>Amount Of Substance Exponent</em>}</li>
  *   <li>{@link org.bimserver.models.ifc2x3tc1.IfcDimensionalExponents#getLuminousIntensityExponent <em>Luminous Intensity Exponent</em>}</li>
  * </ul>
- * </p>
  *
  * @see org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package#getIfcDimensionalExponents()
  * @model
@@ -42,186 +42,186 @@ import org.bimserver.emf.IdEObject;
  * @generated
  */
 public interface IfcDimensionalExponents extends IdEObject {
-	/**
-	 * Returns the value of the '<em><b>Length Exponent</b></em>' attribute.
-	 * <!-- begin-user-doc -->
-	 * <p>
-	 * If the meaning of the '<em>Length Exponent</em>' attribute isn't clear,
-	 * there really should be more of a description here...
-	 * </p>
-	 * <!-- end-user-doc -->
-	 * @return the value of the '<em>Length Exponent</em>' attribute.
-	 * @see #setLengthExponent(int)
-	 * @see org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package#getIfcDimensionalExponents_LengthExponent()
-	 * @model
-	 * @generated
-	 */
-	int getLengthExponent();
+    /**
+     * Returns the value of the '<em><b>Length Exponent</b></em>' attribute.
+     * <!-- begin-user-doc -->
+     * <p>
+     * If the meaning of the '<em>Length Exponent</em>' attribute isn't clear,
+     * there really should be more of a description here...
+     * </p>
+     * <!-- end-user-doc -->
+     * @return the value of the '<em>Length Exponent</em>' attribute.
+     * @see #setLengthExponent(long)
+     * @see org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package#getIfcDimensionalExponents_LengthExponent()
+     * @model
+     * @generated
+     */
+    long getLengthExponent();
 
-	/**
-	 * Sets the value of the '{@link org.bimserver.models.ifc2x3tc1.IfcDimensionalExponents#getLengthExponent <em>Length Exponent</em>}' attribute.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @param value the new value of the '<em>Length Exponent</em>' attribute.
-	 * @see #getLengthExponent()
-	 * @generated
-	 */
-	void setLengthExponent(int value);
+    /**
+     * Sets the value of the '{@link org.bimserver.models.ifc2x3tc1.IfcDimensionalExponents#getLengthExponent <em>Length Exponent</em>}' attribute.
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @param value the new value of the '<em>Length Exponent</em>' attribute.
+     * @see #getLengthExponent()
+     * @generated
+     */
+    void setLengthExponent(long value);
 
-	/**
-	 * Returns the value of the '<em><b>Mass Exponent</b></em>' attribute.
-	 * <!-- begin-user-doc -->
-	 * <p>
-	 * If the meaning of the '<em>Mass Exponent</em>' attribute isn't clear,
-	 * there really should be more of a description here...
-	 * </p>
-	 * <!-- end-user-doc -->
-	 * @return the value of the '<em>Mass Exponent</em>' attribute.
-	 * @see #setMassExponent(int)
-	 * @see org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package#getIfcDimensionalExponents_MassExponent()
-	 * @model
-	 * @generated
-	 */
-	int getMassExponent();
+    /**
+     * Returns the value of the '<em><b>Mass Exponent</b></em>' attribute.
+     * <!-- begin-user-doc -->
+     * <p>
+     * If the meaning of the '<em>Mass Exponent</em>' attribute isn't clear,
+     * there really should be more of a description here...
+     * </p>
+     * <!-- end-user-doc -->
+     * @return the value of the '<em>Mass Exponent</em>' attribute.
+     * @see #setMassExponent(long)
+     * @see org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package#getIfcDimensionalExponents_MassExponent()
+     * @model
+     * @generated
+     */
+    long getMassExponent();
 
-	/**
-	 * Sets the value of the '{@link org.bimserver.models.ifc2x3tc1.IfcDimensionalExponents#getMassExponent <em>Mass Exponent</em>}' attribute.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @param value the new value of the '<em>Mass Exponent</em>' attribute.
-	 * @see #getMassExponent()
-	 * @generated
-	 */
-	void setMassExponent(int value);
+    /**
+     * Sets the value of the '{@link org.bimserver.models.ifc2x3tc1.IfcDimensionalExponents#getMassExponent <em>Mass Exponent</em>}' attribute.
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @param value the new value of the '<em>Mass Exponent</em>' attribute.
+     * @see #getMassExponent()
+     * @generated
+     */
+    void setMassExponent(long value);
 
-	/**
-	 * Returns the value of the '<em><b>Time Exponent</b></em>' attribute.
-	 * <!-- begin-user-doc -->
-	 * <p>
-	 * If the meaning of the '<em>Time Exponent</em>' attribute isn't clear,
-	 * there really should be more of a description here...
-	 * </p>
-	 * <!-- end-user-doc -->
-	 * @return the value of the '<em>Time Exponent</em>' attribute.
-	 * @see #setTimeExponent(int)
-	 * @see org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package#getIfcDimensionalExponents_TimeExponent()
-	 * @model
-	 * @generated
-	 */
-	int getTimeExponent();
+    /**
+     * Returns the value of the '<em><b>Time Exponent</b></em>' attribute.
+     * <!-- begin-user-doc -->
+     * <p>
+     * If the meaning of the '<em>Time Exponent</em>' attribute isn't clear,
+     * there really should be more of a description here...
+     * </p>
+     * <!-- end-user-doc -->
+     * @return the value of the '<em>Time Exponent</em>' attribute.
+     * @see #setTimeExponent(long)
+     * @see org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package#getIfcDimensionalExponents_TimeExponent()
+     * @model
+     * @generated
+     */
+    long getTimeExponent();
 
-	/**
-	 * Sets the value of the '{@link org.bimserver.models.ifc2x3tc1.IfcDimensionalExponents#getTimeExponent <em>Time Exponent</em>}' attribute.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @param value the new value of the '<em>Time Exponent</em>' attribute.
-	 * @see #getTimeExponent()
-	 * @generated
-	 */
-	void setTimeExponent(int value);
+    /**
+     * Sets the value of the '{@link org.bimserver.models.ifc2x3tc1.IfcDimensionalExponents#getTimeExponent <em>Time Exponent</em>}' attribute.
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @param value the new value of the '<em>Time Exponent</em>' attribute.
+     * @see #getTimeExponent()
+     * @generated
+     */
+    void setTimeExponent(long value);
 
-	/**
-	 * Returns the value of the '<em><b>Electric Current Exponent</b></em>' attribute.
-	 * <!-- begin-user-doc -->
-	 * <p>
-	 * If the meaning of the '<em>Electric Current Exponent</em>' attribute isn't clear,
-	 * there really should be more of a description here...
-	 * </p>
-	 * <!-- end-user-doc -->
-	 * @return the value of the '<em>Electric Current Exponent</em>' attribute.
-	 * @see #setElectricCurrentExponent(int)
-	 * @see org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package#getIfcDimensionalExponents_ElectricCurrentExponent()
-	 * @model
-	 * @generated
-	 */
-	int getElectricCurrentExponent();
+    /**
+     * Returns the value of the '<em><b>Electric Current Exponent</b></em>' attribute.
+     * <!-- begin-user-doc -->
+     * <p>
+     * If the meaning of the '<em>Electric Current Exponent</em>' attribute isn't clear,
+     * there really should be more of a description here...
+     * </p>
+     * <!-- end-user-doc -->
+     * @return the value of the '<em>Electric Current Exponent</em>' attribute.
+     * @see #setElectricCurrentExponent(long)
+     * @see org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package#getIfcDimensionalExponents_ElectricCurrentExponent()
+     * @model
+     * @generated
+     */
+    long getElectricCurrentExponent();
 
-	/**
-	 * Sets the value of the '{@link org.bimserver.models.ifc2x3tc1.IfcDimensionalExponents#getElectricCurrentExponent <em>Electric Current Exponent</em>}' attribute.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @param value the new value of the '<em>Electric Current Exponent</em>' attribute.
-	 * @see #getElectricCurrentExponent()
-	 * @generated
-	 */
-	void setElectricCurrentExponent(int value);
+    /**
+     * Sets the value of the '{@link org.bimserver.models.ifc2x3tc1.IfcDimensionalExponents#getElectricCurrentExponent <em>Electric Current Exponent</em>}' attribute.
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @param value the new value of the '<em>Electric Current Exponent</em>' attribute.
+     * @see #getElectricCurrentExponent()
+     * @generated
+     */
+    void setElectricCurrentExponent(long value);
 
-	/**
-	 * Returns the value of the '<em><b>Thermodynamic Temperature Exponent</b></em>' attribute.
-	 * <!-- begin-user-doc -->
-	 * <p>
-	 * If the meaning of the '<em>Thermodynamic Temperature Exponent</em>' attribute isn't clear,
-	 * there really should be more of a description here...
-	 * </p>
-	 * <!-- end-user-doc -->
-	 * @return the value of the '<em>Thermodynamic Temperature Exponent</em>' attribute.
-	 * @see #setThermodynamicTemperatureExponent(int)
-	 * @see org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package#getIfcDimensionalExponents_ThermodynamicTemperatureExponent()
-	 * @model
-	 * @generated
-	 */
-	int getThermodynamicTemperatureExponent();
+    /**
+     * Returns the value of the '<em><b>Thermodynamic Temperature Exponent</b></em>' attribute.
+     * <!-- begin-user-doc -->
+     * <p>
+     * If the meaning of the '<em>Thermodynamic Temperature Exponent</em>' attribute isn't clear,
+     * there really should be more of a description here...
+     * </p>
+     * <!-- end-user-doc -->
+     * @return the value of the '<em>Thermodynamic Temperature Exponent</em>' attribute.
+     * @see #setThermodynamicTemperatureExponent(long)
+     * @see org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package#getIfcDimensionalExponents_ThermodynamicTemperatureExponent()
+     * @model
+     * @generated
+     */
+    long getThermodynamicTemperatureExponent();
 
-	/**
-	 * Sets the value of the '{@link org.bimserver.models.ifc2x3tc1.IfcDimensionalExponents#getThermodynamicTemperatureExponent <em>Thermodynamic Temperature Exponent</em>}' attribute.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @param value the new value of the '<em>Thermodynamic Temperature Exponent</em>' attribute.
-	 * @see #getThermodynamicTemperatureExponent()
-	 * @generated
-	 */
-	void setThermodynamicTemperatureExponent(int value);
+    /**
+     * Sets the value of the '{@link org.bimserver.models.ifc2x3tc1.IfcDimensionalExponents#getThermodynamicTemperatureExponent <em>Thermodynamic Temperature Exponent</em>}' attribute.
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @param value the new value of the '<em>Thermodynamic Temperature Exponent</em>' attribute.
+     * @see #getThermodynamicTemperatureExponent()
+     * @generated
+     */
+    void setThermodynamicTemperatureExponent(long value);
 
-	/**
-	 * Returns the value of the '<em><b>Amount Of Substance Exponent</b></em>' attribute.
-	 * <!-- begin-user-doc -->
-	 * <p>
-	 * If the meaning of the '<em>Amount Of Substance Exponent</em>' attribute isn't clear,
-	 * there really should be more of a description here...
-	 * </p>
-	 * <!-- end-user-doc -->
-	 * @return the value of the '<em>Amount Of Substance Exponent</em>' attribute.
-	 * @see #setAmountOfSubstanceExponent(int)
-	 * @see org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package#getIfcDimensionalExponents_AmountOfSubstanceExponent()
-	 * @model
-	 * @generated
-	 */
-	int getAmountOfSubstanceExponent();
+    /**
+     * Returns the value of the '<em><b>Amount Of Substance Exponent</b></em>' attribute.
+     * <!-- begin-user-doc -->
+     * <p>
+     * If the meaning of the '<em>Amount Of Substance Exponent</em>' attribute isn't clear,
+     * there really should be more of a description here...
+     * </p>
+     * <!-- end-user-doc -->
+     * @return the value of the '<em>Amount Of Substance Exponent</em>' attribute.
+     * @see #setAmountOfSubstanceExponent(long)
+     * @see org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package#getIfcDimensionalExponents_AmountOfSubstanceExponent()
+     * @model
+     * @generated
+     */
+    long getAmountOfSubstanceExponent();
 
-	/**
-	 * Sets the value of the '{@link org.bimserver.models.ifc2x3tc1.IfcDimensionalExponents#getAmountOfSubstanceExponent <em>Amount Of Substance Exponent</em>}' attribute.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @param value the new value of the '<em>Amount Of Substance Exponent</em>' attribute.
-	 * @see #getAmountOfSubstanceExponent()
-	 * @generated
-	 */
-	void setAmountOfSubstanceExponent(int value);
+    /**
+     * Sets the value of the '{@link org.bimserver.models.ifc2x3tc1.IfcDimensionalExponents#getAmountOfSubstanceExponent <em>Amount Of Substance Exponent</em>}' attribute.
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @param value the new value of the '<em>Amount Of Substance Exponent</em>' attribute.
+     * @see #getAmountOfSubstanceExponent()
+     * @generated
+     */
+    void setAmountOfSubstanceExponent(long value);
 
-	/**
-	 * Returns the value of the '<em><b>Luminous Intensity Exponent</b></em>' attribute.
-	 * <!-- begin-user-doc -->
-	 * <p>
-	 * If the meaning of the '<em>Luminous Intensity Exponent</em>' attribute isn't clear,
-	 * there really should be more of a description here...
-	 * </p>
-	 * <!-- end-user-doc -->
-	 * @return the value of the '<em>Luminous Intensity Exponent</em>' attribute.
-	 * @see #setLuminousIntensityExponent(int)
-	 * @see org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package#getIfcDimensionalExponents_LuminousIntensityExponent()
-	 * @model
-	 * @generated
-	 */
-	int getLuminousIntensityExponent();
+    /**
+     * Returns the value of the '<em><b>Luminous Intensity Exponent</b></em>' attribute.
+     * <!-- begin-user-doc -->
+     * <p>
+     * If the meaning of the '<em>Luminous Intensity Exponent</em>' attribute isn't clear,
+     * there really should be more of a description here...
+     * </p>
+     * <!-- end-user-doc -->
+     * @return the value of the '<em>Luminous Intensity Exponent</em>' attribute.
+     * @see #setLuminousIntensityExponent(long)
+     * @see org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package#getIfcDimensionalExponents_LuminousIntensityExponent()
+     * @model
+     * @generated
+     */
+    long getLuminousIntensityExponent();
 
-	/**
-	 * Sets the value of the '{@link org.bimserver.models.ifc2x3tc1.IfcDimensionalExponents#getLuminousIntensityExponent <em>Luminous Intensity Exponent</em>}' attribute.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @param value the new value of the '<em>Luminous Intensity Exponent</em>' attribute.
-	 * @see #getLuminousIntensityExponent()
-	 * @generated
-	 */
-	void setLuminousIntensityExponent(int value);
+    /**
+     * Sets the value of the '{@link org.bimserver.models.ifc2x3tc1.IfcDimensionalExponents#getLuminousIntensityExponent <em>Luminous Intensity Exponent</em>}' attribute.
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @param value the new value of the '<em>Luminous Intensity Exponent</em>' attribute.
+     * @see #getLuminousIntensityExponent()
+     * @generated
+     */
+    void setLuminousIntensityExponent(long value);
 
 } // IfcDimensionalExponents

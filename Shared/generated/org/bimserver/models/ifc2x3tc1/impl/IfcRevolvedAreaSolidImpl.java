@@ -19,6 +19,7 @@ package org.bimserver.models.ifc2x3tc1.impl;
 import org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package;
 import org.bimserver.models.ifc2x3tc1.IfcAxis1Placement;
 import org.bimserver.models.ifc2x3tc1.IfcRevolvedAreaSolid;
+
 import org.eclipse.emf.ecore.EClass;
 
 /**
@@ -27,87 +28,87 @@ import org.eclipse.emf.ecore.EClass;
  * <!-- end-user-doc -->
  * <p>
  * The following features are implemented:
+ * </p>
  * <ul>
  *   <li>{@link org.bimserver.models.ifc2x3tc1.impl.IfcRevolvedAreaSolidImpl#getAxis <em>Axis</em>}</li>
  *   <li>{@link org.bimserver.models.ifc2x3tc1.impl.IfcRevolvedAreaSolidImpl#getAngle <em>Angle</em>}</li>
  *   <li>{@link org.bimserver.models.ifc2x3tc1.impl.IfcRevolvedAreaSolidImpl#getAngleAsString <em>Angle As String</em>}</li>
  * </ul>
- * </p>
  *
  * @generated
  */
 public class IfcRevolvedAreaSolidImpl extends IfcSweptAreaSolidImpl implements IfcRevolvedAreaSolid {
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	protected IfcRevolvedAreaSolidImpl() {
-		super();
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    protected IfcRevolvedAreaSolidImpl() {
+        super();
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	@Override
-	protected EClass eStaticClass() {
-		return Ifc2x3tc1Package.Literals.IFC_REVOLVED_AREA_SOLID;
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    @Override
+    protected EClass eStaticClass() {
+        return Ifc2x3tc1Package.Literals.IFC_REVOLVED_AREA_SOLID;
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public IfcAxis1Placement getAxis() {
-		return (IfcAxis1Placement) eGet(Ifc2x3tc1Package.Literals.IFC_REVOLVED_AREA_SOLID__AXIS, true);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public IfcAxis1Placement getAxis() {
+        return (IfcAxis1Placement) eGet(Ifc2x3tc1Package.Literals.IFC_REVOLVED_AREA_SOLID__AXIS, true);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public void setAxis(IfcAxis1Placement newAxis) {
-		eSet(Ifc2x3tc1Package.Literals.IFC_REVOLVED_AREA_SOLID__AXIS, newAxis);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public void setAxis(IfcAxis1Placement newAxis) {
+        eSet(Ifc2x3tc1Package.Literals.IFC_REVOLVED_AREA_SOLID__AXIS, newAxis);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public double getAngle() {
-		return (Double) eGet(Ifc2x3tc1Package.Literals.IFC_REVOLVED_AREA_SOLID__ANGLE, true);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public double getAngle() {
+        return (Double) eGet(Ifc2x3tc1Package.Literals.IFC_REVOLVED_AREA_SOLID__ANGLE, true);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public void setAngle(double newAngle) {
-		eSet(Ifc2x3tc1Package.Literals.IFC_REVOLVED_AREA_SOLID__ANGLE, newAngle);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public void setAngle(double newAngle) {
+        eSet(Ifc2x3tc1Package.Literals.IFC_REVOLVED_AREA_SOLID__ANGLE, newAngle);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public String getAngleAsString() {
-		return (String) eGet(Ifc2x3tc1Package.Literals.IFC_REVOLVED_AREA_SOLID__ANGLE_AS_STRING, true);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public String getAngleAsString() {
+        return (String) eGet(Ifc2x3tc1Package.Literals.IFC_REVOLVED_AREA_SOLID__ANGLE_AS_STRING, true);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public void setAngleAsString(String newAngleAsString) {
-		eSet(Ifc2x3tc1Package.Literals.IFC_REVOLVED_AREA_SOLID__ANGLE_AS_STRING, newAngleAsString);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public void setAngleAsString(String newAngleAsString) {
+        eSet(Ifc2x3tc1Package.Literals.IFC_REVOLVED_AREA_SOLID__ANGLE_AS_STRING, newAngleAsString);
+    }
 
 } //IfcRevolvedAreaSolidImpl

@@ -25,30 +25,30 @@ import org.eclipse.emf.common.util.EList;
  *
  * <p>
  * The following features are supported:
+ * </p>
  * <ul>
  *   <li>{@link org.bimserver.models.ifc2x3tc1.IfcTextureMap#getTextureMaps <em>Texture Maps</em>}</li>
  * </ul>
- * </p>
  *
  * @see org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package#getIfcTextureMap()
  * @model
  * @generated
  */
 public interface IfcTextureMap extends IfcTextureCoordinate {
-	/**
-	 * Returns the value of the '<em><b>Texture Maps</b></em>' reference list.
-	 * The list contents are of type {@link org.bimserver.models.ifc2x3tc1.IfcVertexBasedTextureMap}.
-	 * <!-- begin-user-doc -->
-	 * <p>
-	 * If the meaning of the '<em>Texture Maps</em>' reference list isn't clear,
-	 * there really should be more of a description here...
-	 * </p>
-	 * <!-- end-user-doc -->
-	 * @return the value of the '<em>Texture Maps</em>' reference list.
-	 * @see org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package#getIfcTextureMap_TextureMaps()
-	 * @model
-	 * @generated
-	 */
-	EList<IfcVertexBasedTextureMap> getTextureMaps();
+    /**
+     * Returns the value of the '<em><b>Texture Maps</b></em>' reference list.
+     * The list contents are of type {@link org.bimserver.models.ifc2x3tc1.IfcVertexBasedTextureMap}.
+     * <!-- begin-user-doc -->
+     * <p>
+     * If the meaning of the '<em>Texture Maps</em>' reference list isn't clear,
+     * there really should be more of a description here...
+     * </p>
+     * <!-- end-user-doc -->
+     * @return the value of the '<em>Texture Maps</em>' reference list.
+     * @see org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package#getIfcTextureMap_TextureMaps()
+     * @model
+     * @generated
+     */
+    EList<IfcVertexBasedTextureMap> getTextureMaps();
 
 } // IfcTextureMap

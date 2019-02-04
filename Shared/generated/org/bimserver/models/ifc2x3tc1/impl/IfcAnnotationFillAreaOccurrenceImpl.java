@@ -20,6 +20,7 @@ import org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package;
 import org.bimserver.models.ifc2x3tc1.IfcAnnotationFillAreaOccurrence;
 import org.bimserver.models.ifc2x3tc1.IfcGlobalOrLocalEnum;
 import org.bimserver.models.ifc2x3tc1.IfcPoint;
+
 import org.eclipse.emf.ecore.EClass;
 
 /**
@@ -28,104 +29,106 @@ import org.eclipse.emf.ecore.EClass;
  * <!-- end-user-doc -->
  * <p>
  * The following features are implemented:
+ * </p>
  * <ul>
  *   <li>{@link org.bimserver.models.ifc2x3tc1.impl.IfcAnnotationFillAreaOccurrenceImpl#getFillStyleTarget <em>Fill Style Target</em>}</li>
  *   <li>{@link org.bimserver.models.ifc2x3tc1.impl.IfcAnnotationFillAreaOccurrenceImpl#getGlobalOrLocal <em>Global Or Local</em>}</li>
  * </ul>
- * </p>
  *
  * @generated
  */
-public class IfcAnnotationFillAreaOccurrenceImpl extends IfcAnnotationOccurrenceImpl implements IfcAnnotationFillAreaOccurrence {
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	protected IfcAnnotationFillAreaOccurrenceImpl() {
-		super();
-	}
+public class IfcAnnotationFillAreaOccurrenceImpl extends IfcAnnotationOccurrenceImpl
+        implements IfcAnnotationFillAreaOccurrence {
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    protected IfcAnnotationFillAreaOccurrenceImpl() {
+        super();
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	@Override
-	protected EClass eStaticClass() {
-		return Ifc2x3tc1Package.Literals.IFC_ANNOTATION_FILL_AREA_OCCURRENCE;
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    @Override
+    protected EClass eStaticClass() {
+        return Ifc2x3tc1Package.Literals.IFC_ANNOTATION_FILL_AREA_OCCURRENCE;
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public IfcPoint getFillStyleTarget() {
-		return (IfcPoint) eGet(Ifc2x3tc1Package.Literals.IFC_ANNOTATION_FILL_AREA_OCCURRENCE__FILL_STYLE_TARGET, true);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public IfcPoint getFillStyleTarget() {
+        return (IfcPoint) eGet(Ifc2x3tc1Package.Literals.IFC_ANNOTATION_FILL_AREA_OCCURRENCE__FILL_STYLE_TARGET, true);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public void setFillStyleTarget(IfcPoint newFillStyleTarget) {
-		eSet(Ifc2x3tc1Package.Literals.IFC_ANNOTATION_FILL_AREA_OCCURRENCE__FILL_STYLE_TARGET, newFillStyleTarget);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public void setFillStyleTarget(IfcPoint newFillStyleTarget) {
+        eSet(Ifc2x3tc1Package.Literals.IFC_ANNOTATION_FILL_AREA_OCCURRENCE__FILL_STYLE_TARGET, newFillStyleTarget);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public void unsetFillStyleTarget() {
-		eUnset(Ifc2x3tc1Package.Literals.IFC_ANNOTATION_FILL_AREA_OCCURRENCE__FILL_STYLE_TARGET);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public void unsetFillStyleTarget() {
+        eUnset(Ifc2x3tc1Package.Literals.IFC_ANNOTATION_FILL_AREA_OCCURRENCE__FILL_STYLE_TARGET);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public boolean isSetFillStyleTarget() {
-		return eIsSet(Ifc2x3tc1Package.Literals.IFC_ANNOTATION_FILL_AREA_OCCURRENCE__FILL_STYLE_TARGET);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public boolean isSetFillStyleTarget() {
+        return eIsSet(Ifc2x3tc1Package.Literals.IFC_ANNOTATION_FILL_AREA_OCCURRENCE__FILL_STYLE_TARGET);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public IfcGlobalOrLocalEnum getGlobalOrLocal() {
-		return (IfcGlobalOrLocalEnum) eGet(Ifc2x3tc1Package.Literals.IFC_ANNOTATION_FILL_AREA_OCCURRENCE__GLOBAL_OR_LOCAL, true);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public IfcGlobalOrLocalEnum getGlobalOrLocal() {
+        return (IfcGlobalOrLocalEnum) eGet(
+                Ifc2x3tc1Package.Literals.IFC_ANNOTATION_FILL_AREA_OCCURRENCE__GLOBAL_OR_LOCAL, true);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public void setGlobalOrLocal(IfcGlobalOrLocalEnum newGlobalOrLocal) {
-		eSet(Ifc2x3tc1Package.Literals.IFC_ANNOTATION_FILL_AREA_OCCURRENCE__GLOBAL_OR_LOCAL, newGlobalOrLocal);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public void setGlobalOrLocal(IfcGlobalOrLocalEnum newGlobalOrLocal) {
+        eSet(Ifc2x3tc1Package.Literals.IFC_ANNOTATION_FILL_AREA_OCCURRENCE__GLOBAL_OR_LOCAL, newGlobalOrLocal);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public void unsetGlobalOrLocal() {
-		eUnset(Ifc2x3tc1Package.Literals.IFC_ANNOTATION_FILL_AREA_OCCURRENCE__GLOBAL_OR_LOCAL);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public void unsetGlobalOrLocal() {
+        eUnset(Ifc2x3tc1Package.Literals.IFC_ANNOTATION_FILL_AREA_OCCURRENCE__GLOBAL_OR_LOCAL);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public boolean isSetGlobalOrLocal() {
-		return eIsSet(Ifc2x3tc1Package.Literals.IFC_ANNOTATION_FILL_AREA_OCCURRENCE__GLOBAL_OR_LOCAL);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public boolean isSetGlobalOrLocal() {
+        return eIsSet(Ifc2x3tc1Package.Literals.IFC_ANNOTATION_FILL_AREA_OCCURRENCE__GLOBAL_OR_LOCAL);
+    }
 
 } //IfcAnnotationFillAreaOccurrenceImpl

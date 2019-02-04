@@ -25,12 +25,12 @@ import org.bimserver.emf.IdEObject;
  *
  * <p>
  * The following features are supported:
+ * </p>
  * <ul>
  *   <li>{@link org.bimserver.models.store.ServiceMethod#getName <em>Name</em>}</li>
  *   <li>{@link org.bimserver.models.store.ServiceMethod#getDoc <em>Doc</em>}</li>
  *   <li>{@link org.bimserver.models.store.ServiceMethod#getReturnDoc <em>Return Doc</em>}</li>
  * </ul>
- * </p>
  *
  * @see org.bimserver.models.store.StorePackage#getServiceMethod()
  * @model
@@ -38,82 +38,82 @@ import org.bimserver.emf.IdEObject;
  * @generated
  */
 public interface ServiceMethod extends IdEObject {
-	/**
-	 * Returns the value of the '<em><b>Name</b></em>' attribute.
-	 * <!-- begin-user-doc -->
-	 * <p>
-	 * If the meaning of the '<em>Name</em>' attribute isn't clear,
-	 * there really should be more of a description here...
-	 * </p>
-	 * <!-- end-user-doc -->
-	 * @return the value of the '<em>Name</em>' attribute.
-	 * @see #setName(String)
-	 * @see org.bimserver.models.store.StorePackage#getServiceMethod_Name()
-	 * @model
-	 * @generated
-	 */
-	String getName();
+    /**
+     * Returns the value of the '<em><b>Name</b></em>' attribute.
+     * <!-- begin-user-doc -->
+     * <p>
+     * If the meaning of the '<em>Name</em>' attribute isn't clear,
+     * there really should be more of a description here...
+     * </p>
+     * <!-- end-user-doc -->
+     * @return the value of the '<em>Name</em>' attribute.
+     * @see #setName(String)
+     * @see org.bimserver.models.store.StorePackage#getServiceMethod_Name()
+     * @model
+     * @generated
+     */
+    String getName();
 
-	/**
-	 * Sets the value of the '{@link org.bimserver.models.store.ServiceMethod#getName <em>Name</em>}' attribute.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @param value the new value of the '<em>Name</em>' attribute.
-	 * @see #getName()
-	 * @generated
-	 */
-	void setName(String value);
+    /**
+     * Sets the value of the '{@link org.bimserver.models.store.ServiceMethod#getName <em>Name</em>}' attribute.
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @param value the new value of the '<em>Name</em>' attribute.
+     * @see #getName()
+     * @generated
+     */
+    void setName(String value);
 
-	/**
-	 * Returns the value of the '<em><b>Doc</b></em>' attribute.
-	 * <!-- begin-user-doc -->
-	 * <p>
-	 * If the meaning of the '<em>Doc</em>' attribute isn't clear,
-	 * there really should be more of a description here...
-	 * </p>
-	 * <!-- end-user-doc -->
-	 * @return the value of the '<em>Doc</em>' attribute.
-	 * @see #setDoc(String)
-	 * @see org.bimserver.models.store.StorePackage#getServiceMethod_Doc()
-	 * @model
-	 * @generated
-	 */
-	String getDoc();
+    /**
+     * Returns the value of the '<em><b>Doc</b></em>' attribute.
+     * <!-- begin-user-doc -->
+     * <p>
+     * If the meaning of the '<em>Doc</em>' attribute isn't clear,
+     * there really should be more of a description here...
+     * </p>
+     * <!-- end-user-doc -->
+     * @return the value of the '<em>Doc</em>' attribute.
+     * @see #setDoc(String)
+     * @see org.bimserver.models.store.StorePackage#getServiceMethod_Doc()
+     * @model
+     * @generated
+     */
+    String getDoc();
 
-	/**
-	 * Sets the value of the '{@link org.bimserver.models.store.ServiceMethod#getDoc <em>Doc</em>}' attribute.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @param value the new value of the '<em>Doc</em>' attribute.
-	 * @see #getDoc()
-	 * @generated
-	 */
-	void setDoc(String value);
+    /**
+     * Sets the value of the '{@link org.bimserver.models.store.ServiceMethod#getDoc <em>Doc</em>}' attribute.
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @param value the new value of the '<em>Doc</em>' attribute.
+     * @see #getDoc()
+     * @generated
+     */
+    void setDoc(String value);
 
-	/**
-	 * Returns the value of the '<em><b>Return Doc</b></em>' attribute.
-	 * <!-- begin-user-doc -->
-	 * <p>
-	 * If the meaning of the '<em>Return Doc</em>' attribute isn't clear,
-	 * there really should be more of a description here...
-	 * </p>
-	 * <!-- end-user-doc -->
-	 * @return the value of the '<em>Return Doc</em>' attribute.
-	 * @see #setReturnDoc(String)
-	 * @see org.bimserver.models.store.StorePackage#getServiceMethod_ReturnDoc()
-	 * @model
-	 * @generated
-	 */
-	String getReturnDoc();
+    /**
+     * Returns the value of the '<em><b>Return Doc</b></em>' attribute.
+     * <!-- begin-user-doc -->
+     * <p>
+     * If the meaning of the '<em>Return Doc</em>' attribute isn't clear,
+     * there really should be more of a description here...
+     * </p>
+     * <!-- end-user-doc -->
+     * @return the value of the '<em>Return Doc</em>' attribute.
+     * @see #setReturnDoc(String)
+     * @see org.bimserver.models.store.StorePackage#getServiceMethod_ReturnDoc()
+     * @model
+     * @generated
+     */
+    String getReturnDoc();
 
-	/**
-	 * Sets the value of the '{@link org.bimserver.models.store.ServiceMethod#getReturnDoc <em>Return Doc</em>}' attribute.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @param value the new value of the '<em>Return Doc</em>' attribute.
-	 * @see #getReturnDoc()
-	 * @generated
-	 */
-	void setReturnDoc(String value);
+    /**
+     * Sets the value of the '{@link org.bimserver.models.store.ServiceMethod#getReturnDoc <em>Return Doc</em>}' attribute.
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @param value the new value of the '<em>Return Doc</em>' attribute.
+     * @see #getReturnDoc()
+     * @generated
+     */
+    void setReturnDoc(String value);
 
 } // ServiceMethod

@@ -20,7 +20,9 @@ import org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package;
 import org.bimserver.models.ifc2x3tc1.IfcActor;
 import org.bimserver.models.ifc2x3tc1.IfcActorSelect;
 import org.bimserver.models.ifc2x3tc1.IfcRelAssignsToActor;
+
 import org.eclipse.emf.common.util.EList;
+
 import org.eclipse.emf.ecore.EClass;
 
 /**
@@ -29,78 +31,78 @@ import org.eclipse.emf.ecore.EClass;
  * <!-- end-user-doc -->
  * <p>
  * The following features are implemented:
+ * </p>
  * <ul>
  *   <li>{@link org.bimserver.models.ifc2x3tc1.impl.IfcActorImpl#getTheActor <em>The Actor</em>}</li>
  *   <li>{@link org.bimserver.models.ifc2x3tc1.impl.IfcActorImpl#getIsActingUpon <em>Is Acting Upon</em>}</li>
  * </ul>
- * </p>
  *
  * @generated
  */
 public class IfcActorImpl extends IfcObjectImpl implements IfcActor {
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	protected IfcActorImpl() {
-		super();
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    protected IfcActorImpl() {
+        super();
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	@Override
-	protected EClass eStaticClass() {
-		return Ifc2x3tc1Package.Literals.IFC_ACTOR;
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    @Override
+    protected EClass eStaticClass() {
+        return Ifc2x3tc1Package.Literals.IFC_ACTOR;
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public IfcActorSelect getTheActor() {
-		return (IfcActorSelect) eGet(Ifc2x3tc1Package.Literals.IFC_ACTOR__THE_ACTOR, true);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public IfcActorSelect getTheActor() {
+        return (IfcActorSelect) eGet(Ifc2x3tc1Package.Literals.IFC_ACTOR__THE_ACTOR, true);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public void setTheActor(IfcActorSelect newTheActor) {
-		eSet(Ifc2x3tc1Package.Literals.IFC_ACTOR__THE_ACTOR, newTheActor);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public void setTheActor(IfcActorSelect newTheActor) {
+        eSet(Ifc2x3tc1Package.Literals.IFC_ACTOR__THE_ACTOR, newTheActor);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	@SuppressWarnings("unchecked")
-	public EList<IfcRelAssignsToActor> getIsActingUpon() {
-		return (EList<IfcRelAssignsToActor>) eGet(Ifc2x3tc1Package.Literals.IFC_ACTOR__IS_ACTING_UPON, true);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    @SuppressWarnings("unchecked")
+    public EList<IfcRelAssignsToActor> getIsActingUpon() {
+        return (EList<IfcRelAssignsToActor>) eGet(Ifc2x3tc1Package.Literals.IFC_ACTOR__IS_ACTING_UPON, true);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public void unsetIsActingUpon() {
-		eUnset(Ifc2x3tc1Package.Literals.IFC_ACTOR__IS_ACTING_UPON);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public void unsetIsActingUpon() {
+        eUnset(Ifc2x3tc1Package.Literals.IFC_ACTOR__IS_ACTING_UPON);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public boolean isSetIsActingUpon() {
-		return eIsSet(Ifc2x3tc1Package.Literals.IFC_ACTOR__IS_ACTING_UPON);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public boolean isSetIsActingUpon() {
+        return eIsSet(Ifc2x3tc1Package.Literals.IFC_ACTOR__IS_ACTING_UPON);
+    }
 
 } //IfcActorImpl

@@ -19,7 +19,9 @@ package org.bimserver.models.ifc2x3tc1.impl;
 import org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package;
 import org.bimserver.models.ifc2x3tc1.IfcReinforcementDefinitionProperties;
 import org.bimserver.models.ifc2x3tc1.IfcSectionReinforcementProperties;
+
 import org.eclipse.emf.common.util.EList;
+
 import org.eclipse.emf.ecore.EClass;
 
 /**
@@ -28,78 +30,81 @@ import org.eclipse.emf.ecore.EClass;
  * <!-- end-user-doc -->
  * <p>
  * The following features are implemented:
+ * </p>
  * <ul>
  *   <li>{@link org.bimserver.models.ifc2x3tc1.impl.IfcReinforcementDefinitionPropertiesImpl#getDefinitionType <em>Definition Type</em>}</li>
  *   <li>{@link org.bimserver.models.ifc2x3tc1.impl.IfcReinforcementDefinitionPropertiesImpl#getReinforcementSectionDefinitions <em>Reinforcement Section Definitions</em>}</li>
  * </ul>
- * </p>
  *
  * @generated
  */
-public class IfcReinforcementDefinitionPropertiesImpl extends IfcPropertySetDefinitionImpl implements IfcReinforcementDefinitionProperties {
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	protected IfcReinforcementDefinitionPropertiesImpl() {
-		super();
-	}
+public class IfcReinforcementDefinitionPropertiesImpl extends IfcPropertySetDefinitionImpl
+        implements IfcReinforcementDefinitionProperties {
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    protected IfcReinforcementDefinitionPropertiesImpl() {
+        super();
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	@Override
-	protected EClass eStaticClass() {
-		return Ifc2x3tc1Package.Literals.IFC_REINFORCEMENT_DEFINITION_PROPERTIES;
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    @Override
+    protected EClass eStaticClass() {
+        return Ifc2x3tc1Package.Literals.IFC_REINFORCEMENT_DEFINITION_PROPERTIES;
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public String getDefinitionType() {
-		return (String) eGet(Ifc2x3tc1Package.Literals.IFC_REINFORCEMENT_DEFINITION_PROPERTIES__DEFINITION_TYPE, true);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public String getDefinitionType() {
+        return (String) eGet(Ifc2x3tc1Package.Literals.IFC_REINFORCEMENT_DEFINITION_PROPERTIES__DEFINITION_TYPE, true);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public void setDefinitionType(String newDefinitionType) {
-		eSet(Ifc2x3tc1Package.Literals.IFC_REINFORCEMENT_DEFINITION_PROPERTIES__DEFINITION_TYPE, newDefinitionType);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public void setDefinitionType(String newDefinitionType) {
+        eSet(Ifc2x3tc1Package.Literals.IFC_REINFORCEMENT_DEFINITION_PROPERTIES__DEFINITION_TYPE, newDefinitionType);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public void unsetDefinitionType() {
-		eUnset(Ifc2x3tc1Package.Literals.IFC_REINFORCEMENT_DEFINITION_PROPERTIES__DEFINITION_TYPE);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public void unsetDefinitionType() {
+        eUnset(Ifc2x3tc1Package.Literals.IFC_REINFORCEMENT_DEFINITION_PROPERTIES__DEFINITION_TYPE);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public boolean isSetDefinitionType() {
-		return eIsSet(Ifc2x3tc1Package.Literals.IFC_REINFORCEMENT_DEFINITION_PROPERTIES__DEFINITION_TYPE);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public boolean isSetDefinitionType() {
+        return eIsSet(Ifc2x3tc1Package.Literals.IFC_REINFORCEMENT_DEFINITION_PROPERTIES__DEFINITION_TYPE);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	@SuppressWarnings("unchecked")
-	public EList<IfcSectionReinforcementProperties> getReinforcementSectionDefinitions() {
-		return (EList<IfcSectionReinforcementProperties>) eGet(Ifc2x3tc1Package.Literals.IFC_REINFORCEMENT_DEFINITION_PROPERTIES__REINFORCEMENT_SECTION_DEFINITIONS, true);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    @SuppressWarnings("unchecked")
+    public EList<IfcSectionReinforcementProperties> getReinforcementSectionDefinitions() {
+        return (EList<IfcSectionReinforcementProperties>) eGet(
+                Ifc2x3tc1Package.Literals.IFC_REINFORCEMENT_DEFINITION_PROPERTIES__REINFORCEMENT_SECTION_DEFINITIONS,
+                true);
+    }
 
 } //IfcReinforcementDefinitionPropertiesImpl

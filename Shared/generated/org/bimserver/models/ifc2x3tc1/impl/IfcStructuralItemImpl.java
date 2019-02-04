@@ -19,7 +19,9 @@ package org.bimserver.models.ifc2x3tc1.impl;
 import org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package;
 import org.bimserver.models.ifc2x3tc1.IfcRelConnectsStructuralActivity;
 import org.bimserver.models.ifc2x3tc1.IfcStructuralItem;
+
 import org.eclipse.emf.common.util.EList;
+
 import org.eclipse.emf.ecore.EClass;
 
 /**
@@ -28,59 +30,60 @@ import org.eclipse.emf.ecore.EClass;
  * <!-- end-user-doc -->
  * <p>
  * The following features are implemented:
+ * </p>
  * <ul>
  *   <li>{@link org.bimserver.models.ifc2x3tc1.impl.IfcStructuralItemImpl#getAssignedStructuralActivity <em>Assigned Structural Activity</em>}</li>
  * </ul>
- * </p>
  *
  * @generated
  */
 public class IfcStructuralItemImpl extends IfcProductImpl implements IfcStructuralItem {
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	protected IfcStructuralItemImpl() {
-		super();
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    protected IfcStructuralItemImpl() {
+        super();
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	@Override
-	protected EClass eStaticClass() {
-		return Ifc2x3tc1Package.Literals.IFC_STRUCTURAL_ITEM;
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    @Override
+    protected EClass eStaticClass() {
+        return Ifc2x3tc1Package.Literals.IFC_STRUCTURAL_ITEM;
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	@SuppressWarnings("unchecked")
-	public EList<IfcRelConnectsStructuralActivity> getAssignedStructuralActivity() {
-		return (EList<IfcRelConnectsStructuralActivity>) eGet(Ifc2x3tc1Package.Literals.IFC_STRUCTURAL_ITEM__ASSIGNED_STRUCTURAL_ACTIVITY, true);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    @SuppressWarnings("unchecked")
+    public EList<IfcRelConnectsStructuralActivity> getAssignedStructuralActivity() {
+        return (EList<IfcRelConnectsStructuralActivity>) eGet(
+                Ifc2x3tc1Package.Literals.IFC_STRUCTURAL_ITEM__ASSIGNED_STRUCTURAL_ACTIVITY, true);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public void unsetAssignedStructuralActivity() {
-		eUnset(Ifc2x3tc1Package.Literals.IFC_STRUCTURAL_ITEM__ASSIGNED_STRUCTURAL_ACTIVITY);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public void unsetAssignedStructuralActivity() {
+        eUnset(Ifc2x3tc1Package.Literals.IFC_STRUCTURAL_ITEM__ASSIGNED_STRUCTURAL_ACTIVITY);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public boolean isSetAssignedStructuralActivity() {
-		return eIsSet(Ifc2x3tc1Package.Literals.IFC_STRUCTURAL_ITEM__ASSIGNED_STRUCTURAL_ACTIVITY);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public boolean isSetAssignedStructuralActivity() {
+        return eIsSet(Ifc2x3tc1Package.Literals.IFC_STRUCTURAL_ITEM__ASSIGNED_STRUCTURAL_ACTIVITY);
+    }
 
 } //IfcStructuralItemImpl

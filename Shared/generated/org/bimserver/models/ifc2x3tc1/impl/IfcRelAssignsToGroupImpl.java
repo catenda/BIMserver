@@ -19,6 +19,7 @@ package org.bimserver.models.ifc2x3tc1.impl;
 import org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package;
 import org.bimserver.models.ifc2x3tc1.IfcGroup;
 import org.bimserver.models.ifc2x3tc1.IfcRelAssignsToGroup;
+
 import org.eclipse.emf.ecore.EClass;
 
 /**
@@ -27,49 +28,49 @@ import org.eclipse.emf.ecore.EClass;
  * <!-- end-user-doc -->
  * <p>
  * The following features are implemented:
+ * </p>
  * <ul>
  *   <li>{@link org.bimserver.models.ifc2x3tc1.impl.IfcRelAssignsToGroupImpl#getRelatingGroup <em>Relating Group</em>}</li>
  * </ul>
- * </p>
  *
  * @generated
  */
 public class IfcRelAssignsToGroupImpl extends IfcRelAssignsImpl implements IfcRelAssignsToGroup {
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	protected IfcRelAssignsToGroupImpl() {
-		super();
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    protected IfcRelAssignsToGroupImpl() {
+        super();
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	@Override
-	protected EClass eStaticClass() {
-		return Ifc2x3tc1Package.Literals.IFC_REL_ASSIGNS_TO_GROUP;
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    @Override
+    protected EClass eStaticClass() {
+        return Ifc2x3tc1Package.Literals.IFC_REL_ASSIGNS_TO_GROUP;
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public IfcGroup getRelatingGroup() {
-		return (IfcGroup) eGet(Ifc2x3tc1Package.Literals.IFC_REL_ASSIGNS_TO_GROUP__RELATING_GROUP, true);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public IfcGroup getRelatingGroup() {
+        return (IfcGroup) eGet(Ifc2x3tc1Package.Literals.IFC_REL_ASSIGNS_TO_GROUP__RELATING_GROUP, true);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public void setRelatingGroup(IfcGroup newRelatingGroup) {
-		eSet(Ifc2x3tc1Package.Literals.IFC_REL_ASSIGNS_TO_GROUP__RELATING_GROUP, newRelatingGroup);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public void setRelatingGroup(IfcGroup newRelatingGroup) {
+        eSet(Ifc2x3tc1Package.Literals.IFC_REL_ASSIGNS_TO_GROUP__RELATING_GROUP, newRelatingGroup);
+    }
 
 } //IfcRelAssignsToGroupImpl

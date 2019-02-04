@@ -17,8 +17,10 @@
 package org.bimserver.models.ifc2x3tc1.impl;
 
 import org.bimserver.emf.IdEObjectImpl;
+
 import org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package;
 import org.bimserver.models.ifc2x3tc1.IfcCompoundPlaneAngleMeasure;
+
 import org.eclipse.emf.ecore.EClass;
 
 /**
@@ -27,77 +29,77 @@ import org.eclipse.emf.ecore.EClass;
  * <!-- end-user-doc -->
  * <p>
  * The following features are implemented:
+ * </p>
  * <ul>
  *   <li>{@link org.bimserver.models.ifc2x3tc1.impl.IfcCompoundPlaneAngleMeasureImpl#getWrappedValue <em>Wrapped Value</em>}</li>
  * </ul>
- * </p>
  *
  * @generated
  */
 public class IfcCompoundPlaneAngleMeasureImpl extends IdEObjectImpl implements IfcCompoundPlaneAngleMeasure {
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	protected IfcCompoundPlaneAngleMeasureImpl() {
-		super();
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    protected IfcCompoundPlaneAngleMeasureImpl() {
+        super();
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	@Override
-	protected EClass eStaticClass() {
-		return Ifc2x3tc1Package.Literals.IFC_COMPOUND_PLANE_ANGLE_MEASURE;
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    @Override
+    protected EClass eStaticClass() {
+        return Ifc2x3tc1Package.Literals.IFC_COMPOUND_PLANE_ANGLE_MEASURE;
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	@Override
-	protected int eStaticFeatureCount() {
-		return 0;
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    @Override
+    protected int eStaticFeatureCount() {
+        return 0;
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public int getWrappedValue() {
-		return (Integer) eGet(Ifc2x3tc1Package.Literals.IFC_COMPOUND_PLANE_ANGLE_MEASURE__WRAPPED_VALUE, true);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public long getWrappedValue() {
+        return (Long) eGet(Ifc2x3tc1Package.Literals.IFC_COMPOUND_PLANE_ANGLE_MEASURE__WRAPPED_VALUE, true);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public void setWrappedValue(int newWrappedValue) {
-		eSet(Ifc2x3tc1Package.Literals.IFC_COMPOUND_PLANE_ANGLE_MEASURE__WRAPPED_VALUE, newWrappedValue);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public void setWrappedValue(long newWrappedValue) {
+        eSet(Ifc2x3tc1Package.Literals.IFC_COMPOUND_PLANE_ANGLE_MEASURE__WRAPPED_VALUE, newWrappedValue);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public void unsetWrappedValue() {
-		eUnset(Ifc2x3tc1Package.Literals.IFC_COMPOUND_PLANE_ANGLE_MEASURE__WRAPPED_VALUE);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public void unsetWrappedValue() {
+        eUnset(Ifc2x3tc1Package.Literals.IFC_COMPOUND_PLANE_ANGLE_MEASURE__WRAPPED_VALUE);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public boolean isSetWrappedValue() {
-		return eIsSet(Ifc2x3tc1Package.Literals.IFC_COMPOUND_PLANE_ANGLE_MEASURE__WRAPPED_VALUE);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public boolean isSetWrappedValue() {
+        return eIsSet(Ifc2x3tc1Package.Literals.IFC_COMPOUND_PLANE_ANGLE_MEASURE__WRAPPED_VALUE);
+    }
 
 } //IfcCompoundPlaneAngleMeasureImpl

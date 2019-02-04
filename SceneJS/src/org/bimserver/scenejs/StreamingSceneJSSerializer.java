@@ -775,7 +775,7 @@ jsonWriter						.endArray()
 		if (object.isSetRefLatitude()) {
 			jsonWriter.name("Ref Latitude");
 			jsonWriter.beginArray();
-			for (Integer val : object.getRefLatitude()) {
+			for (Long val : object.getRefLatitude()) {
 				jsonWriter.value(val.toString());
 			}
 			jsonWriter.endArray();
@@ -783,7 +783,7 @@ jsonWriter						.endArray()
 		if (object.isSetRefLongitude()) {
 			jsonWriter.name("Ref Longtitude");
 			jsonWriter.beginArray();
-			for (Integer val : object.getRefLongitude()) {
+			for (Long val : object.getRefLongitude()) {
 				jsonWriter.value(val.toString());
 			}
 			jsonWriter.endArray();

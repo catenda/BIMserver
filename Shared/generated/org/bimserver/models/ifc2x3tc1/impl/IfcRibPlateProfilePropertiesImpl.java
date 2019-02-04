@@ -19,6 +19,7 @@ package org.bimserver.models.ifc2x3tc1.impl;
 import org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package;
 import org.bimserver.models.ifc2x3tc1.IfcRibPlateDirectionEnum;
 import org.bimserver.models.ifc2x3tc1.IfcRibPlateProfileProperties;
+
 import org.eclipse.emf.ecore.EClass;
 
 /**
@@ -27,6 +28,7 @@ import org.eclipse.emf.ecore.EClass;
  * <!-- end-user-doc -->
  * <p>
  * The following features are implemented:
+ * </p>
  * <ul>
  *   <li>{@link org.bimserver.models.ifc2x3tc1.impl.IfcRibPlateProfilePropertiesImpl#getThickness <em>Thickness</em>}</li>
  *   <li>{@link org.bimserver.models.ifc2x3tc1.impl.IfcRibPlateProfilePropertiesImpl#getThicknessAsString <em>Thickness As String</em>}</li>
@@ -38,334 +40,334 @@ import org.eclipse.emf.ecore.EClass;
  *   <li>{@link org.bimserver.models.ifc2x3tc1.impl.IfcRibPlateProfilePropertiesImpl#getRibSpacingAsString <em>Rib Spacing As String</em>}</li>
  *   <li>{@link org.bimserver.models.ifc2x3tc1.impl.IfcRibPlateProfilePropertiesImpl#getDirection <em>Direction</em>}</li>
  * </ul>
- * </p>
  *
  * @generated
  */
 public class IfcRibPlateProfilePropertiesImpl extends IfcProfilePropertiesImpl implements IfcRibPlateProfileProperties {
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	protected IfcRibPlateProfilePropertiesImpl() {
-		super();
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    protected IfcRibPlateProfilePropertiesImpl() {
+        super();
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	@Override
-	protected EClass eStaticClass() {
-		return Ifc2x3tc1Package.Literals.IFC_RIB_PLATE_PROFILE_PROPERTIES;
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    @Override
+    protected EClass eStaticClass() {
+        return Ifc2x3tc1Package.Literals.IFC_RIB_PLATE_PROFILE_PROPERTIES;
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public double getThickness() {
-		return (Double) eGet(Ifc2x3tc1Package.Literals.IFC_RIB_PLATE_PROFILE_PROPERTIES__THICKNESS, true);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public double getThickness() {
+        return (Double) eGet(Ifc2x3tc1Package.Literals.IFC_RIB_PLATE_PROFILE_PROPERTIES__THICKNESS, true);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public void setThickness(double newThickness) {
-		eSet(Ifc2x3tc1Package.Literals.IFC_RIB_PLATE_PROFILE_PROPERTIES__THICKNESS, newThickness);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public void setThickness(double newThickness) {
+        eSet(Ifc2x3tc1Package.Literals.IFC_RIB_PLATE_PROFILE_PROPERTIES__THICKNESS, newThickness);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public void unsetThickness() {
-		eUnset(Ifc2x3tc1Package.Literals.IFC_RIB_PLATE_PROFILE_PROPERTIES__THICKNESS);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public void unsetThickness() {
+        eUnset(Ifc2x3tc1Package.Literals.IFC_RIB_PLATE_PROFILE_PROPERTIES__THICKNESS);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public boolean isSetThickness() {
-		return eIsSet(Ifc2x3tc1Package.Literals.IFC_RIB_PLATE_PROFILE_PROPERTIES__THICKNESS);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public boolean isSetThickness() {
+        return eIsSet(Ifc2x3tc1Package.Literals.IFC_RIB_PLATE_PROFILE_PROPERTIES__THICKNESS);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public String getThicknessAsString() {
-		return (String) eGet(Ifc2x3tc1Package.Literals.IFC_RIB_PLATE_PROFILE_PROPERTIES__THICKNESS_AS_STRING, true);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public String getThicknessAsString() {
+        return (String) eGet(Ifc2x3tc1Package.Literals.IFC_RIB_PLATE_PROFILE_PROPERTIES__THICKNESS_AS_STRING, true);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public void setThicknessAsString(String newThicknessAsString) {
-		eSet(Ifc2x3tc1Package.Literals.IFC_RIB_PLATE_PROFILE_PROPERTIES__THICKNESS_AS_STRING, newThicknessAsString);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public void setThicknessAsString(String newThicknessAsString) {
+        eSet(Ifc2x3tc1Package.Literals.IFC_RIB_PLATE_PROFILE_PROPERTIES__THICKNESS_AS_STRING, newThicknessAsString);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public void unsetThicknessAsString() {
-		eUnset(Ifc2x3tc1Package.Literals.IFC_RIB_PLATE_PROFILE_PROPERTIES__THICKNESS_AS_STRING);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public void unsetThicknessAsString() {
+        eUnset(Ifc2x3tc1Package.Literals.IFC_RIB_PLATE_PROFILE_PROPERTIES__THICKNESS_AS_STRING);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public boolean isSetThicknessAsString() {
-		return eIsSet(Ifc2x3tc1Package.Literals.IFC_RIB_PLATE_PROFILE_PROPERTIES__THICKNESS_AS_STRING);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public boolean isSetThicknessAsString() {
+        return eIsSet(Ifc2x3tc1Package.Literals.IFC_RIB_PLATE_PROFILE_PROPERTIES__THICKNESS_AS_STRING);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public double getRibHeight() {
-		return (Double) eGet(Ifc2x3tc1Package.Literals.IFC_RIB_PLATE_PROFILE_PROPERTIES__RIB_HEIGHT, true);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public double getRibHeight() {
+        return (Double) eGet(Ifc2x3tc1Package.Literals.IFC_RIB_PLATE_PROFILE_PROPERTIES__RIB_HEIGHT, true);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public void setRibHeight(double newRibHeight) {
-		eSet(Ifc2x3tc1Package.Literals.IFC_RIB_PLATE_PROFILE_PROPERTIES__RIB_HEIGHT, newRibHeight);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public void setRibHeight(double newRibHeight) {
+        eSet(Ifc2x3tc1Package.Literals.IFC_RIB_PLATE_PROFILE_PROPERTIES__RIB_HEIGHT, newRibHeight);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public void unsetRibHeight() {
-		eUnset(Ifc2x3tc1Package.Literals.IFC_RIB_PLATE_PROFILE_PROPERTIES__RIB_HEIGHT);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public void unsetRibHeight() {
+        eUnset(Ifc2x3tc1Package.Literals.IFC_RIB_PLATE_PROFILE_PROPERTIES__RIB_HEIGHT);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public boolean isSetRibHeight() {
-		return eIsSet(Ifc2x3tc1Package.Literals.IFC_RIB_PLATE_PROFILE_PROPERTIES__RIB_HEIGHT);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public boolean isSetRibHeight() {
+        return eIsSet(Ifc2x3tc1Package.Literals.IFC_RIB_PLATE_PROFILE_PROPERTIES__RIB_HEIGHT);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public String getRibHeightAsString() {
-		return (String) eGet(Ifc2x3tc1Package.Literals.IFC_RIB_PLATE_PROFILE_PROPERTIES__RIB_HEIGHT_AS_STRING, true);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public String getRibHeightAsString() {
+        return (String) eGet(Ifc2x3tc1Package.Literals.IFC_RIB_PLATE_PROFILE_PROPERTIES__RIB_HEIGHT_AS_STRING, true);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public void setRibHeightAsString(String newRibHeightAsString) {
-		eSet(Ifc2x3tc1Package.Literals.IFC_RIB_PLATE_PROFILE_PROPERTIES__RIB_HEIGHT_AS_STRING, newRibHeightAsString);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public void setRibHeightAsString(String newRibHeightAsString) {
+        eSet(Ifc2x3tc1Package.Literals.IFC_RIB_PLATE_PROFILE_PROPERTIES__RIB_HEIGHT_AS_STRING, newRibHeightAsString);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public void unsetRibHeightAsString() {
-		eUnset(Ifc2x3tc1Package.Literals.IFC_RIB_PLATE_PROFILE_PROPERTIES__RIB_HEIGHT_AS_STRING);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public void unsetRibHeightAsString() {
+        eUnset(Ifc2x3tc1Package.Literals.IFC_RIB_PLATE_PROFILE_PROPERTIES__RIB_HEIGHT_AS_STRING);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public boolean isSetRibHeightAsString() {
-		return eIsSet(Ifc2x3tc1Package.Literals.IFC_RIB_PLATE_PROFILE_PROPERTIES__RIB_HEIGHT_AS_STRING);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public boolean isSetRibHeightAsString() {
+        return eIsSet(Ifc2x3tc1Package.Literals.IFC_RIB_PLATE_PROFILE_PROPERTIES__RIB_HEIGHT_AS_STRING);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public double getRibWidth() {
-		return (Double) eGet(Ifc2x3tc1Package.Literals.IFC_RIB_PLATE_PROFILE_PROPERTIES__RIB_WIDTH, true);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public double getRibWidth() {
+        return (Double) eGet(Ifc2x3tc1Package.Literals.IFC_RIB_PLATE_PROFILE_PROPERTIES__RIB_WIDTH, true);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public void setRibWidth(double newRibWidth) {
-		eSet(Ifc2x3tc1Package.Literals.IFC_RIB_PLATE_PROFILE_PROPERTIES__RIB_WIDTH, newRibWidth);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public void setRibWidth(double newRibWidth) {
+        eSet(Ifc2x3tc1Package.Literals.IFC_RIB_PLATE_PROFILE_PROPERTIES__RIB_WIDTH, newRibWidth);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public void unsetRibWidth() {
-		eUnset(Ifc2x3tc1Package.Literals.IFC_RIB_PLATE_PROFILE_PROPERTIES__RIB_WIDTH);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public void unsetRibWidth() {
+        eUnset(Ifc2x3tc1Package.Literals.IFC_RIB_PLATE_PROFILE_PROPERTIES__RIB_WIDTH);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public boolean isSetRibWidth() {
-		return eIsSet(Ifc2x3tc1Package.Literals.IFC_RIB_PLATE_PROFILE_PROPERTIES__RIB_WIDTH);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public boolean isSetRibWidth() {
+        return eIsSet(Ifc2x3tc1Package.Literals.IFC_RIB_PLATE_PROFILE_PROPERTIES__RIB_WIDTH);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public String getRibWidthAsString() {
-		return (String) eGet(Ifc2x3tc1Package.Literals.IFC_RIB_PLATE_PROFILE_PROPERTIES__RIB_WIDTH_AS_STRING, true);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public String getRibWidthAsString() {
+        return (String) eGet(Ifc2x3tc1Package.Literals.IFC_RIB_PLATE_PROFILE_PROPERTIES__RIB_WIDTH_AS_STRING, true);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public void setRibWidthAsString(String newRibWidthAsString) {
-		eSet(Ifc2x3tc1Package.Literals.IFC_RIB_PLATE_PROFILE_PROPERTIES__RIB_WIDTH_AS_STRING, newRibWidthAsString);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public void setRibWidthAsString(String newRibWidthAsString) {
+        eSet(Ifc2x3tc1Package.Literals.IFC_RIB_PLATE_PROFILE_PROPERTIES__RIB_WIDTH_AS_STRING, newRibWidthAsString);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public void unsetRibWidthAsString() {
-		eUnset(Ifc2x3tc1Package.Literals.IFC_RIB_PLATE_PROFILE_PROPERTIES__RIB_WIDTH_AS_STRING);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public void unsetRibWidthAsString() {
+        eUnset(Ifc2x3tc1Package.Literals.IFC_RIB_PLATE_PROFILE_PROPERTIES__RIB_WIDTH_AS_STRING);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public boolean isSetRibWidthAsString() {
-		return eIsSet(Ifc2x3tc1Package.Literals.IFC_RIB_PLATE_PROFILE_PROPERTIES__RIB_WIDTH_AS_STRING);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public boolean isSetRibWidthAsString() {
+        return eIsSet(Ifc2x3tc1Package.Literals.IFC_RIB_PLATE_PROFILE_PROPERTIES__RIB_WIDTH_AS_STRING);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public double getRibSpacing() {
-		return (Double) eGet(Ifc2x3tc1Package.Literals.IFC_RIB_PLATE_PROFILE_PROPERTIES__RIB_SPACING, true);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public double getRibSpacing() {
+        return (Double) eGet(Ifc2x3tc1Package.Literals.IFC_RIB_PLATE_PROFILE_PROPERTIES__RIB_SPACING, true);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public void setRibSpacing(double newRibSpacing) {
-		eSet(Ifc2x3tc1Package.Literals.IFC_RIB_PLATE_PROFILE_PROPERTIES__RIB_SPACING, newRibSpacing);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public void setRibSpacing(double newRibSpacing) {
+        eSet(Ifc2x3tc1Package.Literals.IFC_RIB_PLATE_PROFILE_PROPERTIES__RIB_SPACING, newRibSpacing);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public void unsetRibSpacing() {
-		eUnset(Ifc2x3tc1Package.Literals.IFC_RIB_PLATE_PROFILE_PROPERTIES__RIB_SPACING);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public void unsetRibSpacing() {
+        eUnset(Ifc2x3tc1Package.Literals.IFC_RIB_PLATE_PROFILE_PROPERTIES__RIB_SPACING);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public boolean isSetRibSpacing() {
-		return eIsSet(Ifc2x3tc1Package.Literals.IFC_RIB_PLATE_PROFILE_PROPERTIES__RIB_SPACING);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public boolean isSetRibSpacing() {
+        return eIsSet(Ifc2x3tc1Package.Literals.IFC_RIB_PLATE_PROFILE_PROPERTIES__RIB_SPACING);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public String getRibSpacingAsString() {
-		return (String) eGet(Ifc2x3tc1Package.Literals.IFC_RIB_PLATE_PROFILE_PROPERTIES__RIB_SPACING_AS_STRING, true);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public String getRibSpacingAsString() {
+        return (String) eGet(Ifc2x3tc1Package.Literals.IFC_RIB_PLATE_PROFILE_PROPERTIES__RIB_SPACING_AS_STRING, true);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public void setRibSpacingAsString(String newRibSpacingAsString) {
-		eSet(Ifc2x3tc1Package.Literals.IFC_RIB_PLATE_PROFILE_PROPERTIES__RIB_SPACING_AS_STRING, newRibSpacingAsString);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public void setRibSpacingAsString(String newRibSpacingAsString) {
+        eSet(Ifc2x3tc1Package.Literals.IFC_RIB_PLATE_PROFILE_PROPERTIES__RIB_SPACING_AS_STRING, newRibSpacingAsString);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public void unsetRibSpacingAsString() {
-		eUnset(Ifc2x3tc1Package.Literals.IFC_RIB_PLATE_PROFILE_PROPERTIES__RIB_SPACING_AS_STRING);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public void unsetRibSpacingAsString() {
+        eUnset(Ifc2x3tc1Package.Literals.IFC_RIB_PLATE_PROFILE_PROPERTIES__RIB_SPACING_AS_STRING);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public boolean isSetRibSpacingAsString() {
-		return eIsSet(Ifc2x3tc1Package.Literals.IFC_RIB_PLATE_PROFILE_PROPERTIES__RIB_SPACING_AS_STRING);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public boolean isSetRibSpacingAsString() {
+        return eIsSet(Ifc2x3tc1Package.Literals.IFC_RIB_PLATE_PROFILE_PROPERTIES__RIB_SPACING_AS_STRING);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public IfcRibPlateDirectionEnum getDirection() {
-		return (IfcRibPlateDirectionEnum) eGet(Ifc2x3tc1Package.Literals.IFC_RIB_PLATE_PROFILE_PROPERTIES__DIRECTION, true);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public IfcRibPlateDirectionEnum getDirection() {
+        return (IfcRibPlateDirectionEnum) eGet(Ifc2x3tc1Package.Literals.IFC_RIB_PLATE_PROFILE_PROPERTIES__DIRECTION,
+                true);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public void setDirection(IfcRibPlateDirectionEnum newDirection) {
-		eSet(Ifc2x3tc1Package.Literals.IFC_RIB_PLATE_PROFILE_PROPERTIES__DIRECTION, newDirection);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public void setDirection(IfcRibPlateDirectionEnum newDirection) {
+        eSet(Ifc2x3tc1Package.Literals.IFC_RIB_PLATE_PROFILE_PROPERTIES__DIRECTION, newDirection);
+    }
 
 } //IfcRibPlateProfilePropertiesImpl

@@ -19,6 +19,7 @@ package org.bimserver.models.ifc2x3tc1.impl;
 import org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package;
 import org.bimserver.models.ifc2x3tc1.IfcCurve;
 import org.bimserver.models.ifc2x3tc1.IfcPointOnCurve;
+
 import org.eclipse.emf.ecore.EClass;
 
 /**
@@ -27,124 +28,124 @@ import org.eclipse.emf.ecore.EClass;
  * <!-- end-user-doc -->
  * <p>
  * The following features are implemented:
+ * </p>
  * <ul>
  *   <li>{@link org.bimserver.models.ifc2x3tc1.impl.IfcPointOnCurveImpl#getBasisCurve <em>Basis Curve</em>}</li>
  *   <li>{@link org.bimserver.models.ifc2x3tc1.impl.IfcPointOnCurveImpl#getPointParameter <em>Point Parameter</em>}</li>
  *   <li>{@link org.bimserver.models.ifc2x3tc1.impl.IfcPointOnCurveImpl#getPointParameterAsString <em>Point Parameter As String</em>}</li>
  *   <li>{@link org.bimserver.models.ifc2x3tc1.impl.IfcPointOnCurveImpl#getDim <em>Dim</em>}</li>
  * </ul>
- * </p>
  *
  * @generated
  */
 public class IfcPointOnCurveImpl extends IfcPointImpl implements IfcPointOnCurve {
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	protected IfcPointOnCurveImpl() {
-		super();
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    protected IfcPointOnCurveImpl() {
+        super();
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	@Override
-	protected EClass eStaticClass() {
-		return Ifc2x3tc1Package.Literals.IFC_POINT_ON_CURVE;
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    @Override
+    protected EClass eStaticClass() {
+        return Ifc2x3tc1Package.Literals.IFC_POINT_ON_CURVE;
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public IfcCurve getBasisCurve() {
-		return (IfcCurve) eGet(Ifc2x3tc1Package.Literals.IFC_POINT_ON_CURVE__BASIS_CURVE, true);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public IfcCurve getBasisCurve() {
+        return (IfcCurve) eGet(Ifc2x3tc1Package.Literals.IFC_POINT_ON_CURVE__BASIS_CURVE, true);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public void setBasisCurve(IfcCurve newBasisCurve) {
-		eSet(Ifc2x3tc1Package.Literals.IFC_POINT_ON_CURVE__BASIS_CURVE, newBasisCurve);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public void setBasisCurve(IfcCurve newBasisCurve) {
+        eSet(Ifc2x3tc1Package.Literals.IFC_POINT_ON_CURVE__BASIS_CURVE, newBasisCurve);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public double getPointParameter() {
-		return (Double) eGet(Ifc2x3tc1Package.Literals.IFC_POINT_ON_CURVE__POINT_PARAMETER, true);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public double getPointParameter() {
+        return (Double) eGet(Ifc2x3tc1Package.Literals.IFC_POINT_ON_CURVE__POINT_PARAMETER, true);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public void setPointParameter(double newPointParameter) {
-		eSet(Ifc2x3tc1Package.Literals.IFC_POINT_ON_CURVE__POINT_PARAMETER, newPointParameter);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public void setPointParameter(double newPointParameter) {
+        eSet(Ifc2x3tc1Package.Literals.IFC_POINT_ON_CURVE__POINT_PARAMETER, newPointParameter);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public String getPointParameterAsString() {
-		return (String) eGet(Ifc2x3tc1Package.Literals.IFC_POINT_ON_CURVE__POINT_PARAMETER_AS_STRING, true);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public String getPointParameterAsString() {
+        return (String) eGet(Ifc2x3tc1Package.Literals.IFC_POINT_ON_CURVE__POINT_PARAMETER_AS_STRING, true);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public void setPointParameterAsString(String newPointParameterAsString) {
-		eSet(Ifc2x3tc1Package.Literals.IFC_POINT_ON_CURVE__POINT_PARAMETER_AS_STRING, newPointParameterAsString);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public void setPointParameterAsString(String newPointParameterAsString) {
+        eSet(Ifc2x3tc1Package.Literals.IFC_POINT_ON_CURVE__POINT_PARAMETER_AS_STRING, newPointParameterAsString);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public int getDim() {
-		return (Integer) eGet(Ifc2x3tc1Package.Literals.IFC_POINT_ON_CURVE__DIM, true);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public long getDim() {
+        return (Long) eGet(Ifc2x3tc1Package.Literals.IFC_POINT_ON_CURVE__DIM, true);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public void setDim(int newDim) {
-		eSet(Ifc2x3tc1Package.Literals.IFC_POINT_ON_CURVE__DIM, newDim);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public void setDim(long newDim) {
+        eSet(Ifc2x3tc1Package.Literals.IFC_POINT_ON_CURVE__DIM, newDim);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public void unsetDim() {
-		eUnset(Ifc2x3tc1Package.Literals.IFC_POINT_ON_CURVE__DIM);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public void unsetDim() {
+        eUnset(Ifc2x3tc1Package.Literals.IFC_POINT_ON_CURVE__DIM);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public boolean isSetDim() {
-		return eIsSet(Ifc2x3tc1Package.Literals.IFC_POINT_ON_CURVE__DIM);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public boolean isSetDim() {
+        return eIsSet(Ifc2x3tc1Package.Literals.IFC_POINT_ON_CURVE__DIM);
+    }
 
 } //IfcPointOnCurveImpl

@@ -23,94 +23,94 @@ package org.bimserver.models.ifc2x3tc1;
  *
  * <p>
  * The following features are supported:
+ * </p>
  * <ul>
  *   <li>{@link org.bimserver.models.ifc2x3tc1.IfcPixelTexture#getWidth <em>Width</em>}</li>
  *   <li>{@link org.bimserver.models.ifc2x3tc1.IfcPixelTexture#getHeight <em>Height</em>}</li>
  *   <li>{@link org.bimserver.models.ifc2x3tc1.IfcPixelTexture#getColourComponents <em>Colour Components</em>}</li>
  * </ul>
- * </p>
  *
  * @see org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package#getIfcPixelTexture()
  * @model
  * @generated
  */
 public interface IfcPixelTexture extends IfcSurfaceTexture {
-	/**
-	 * Returns the value of the '<em><b>Width</b></em>' attribute.
-	 * <!-- begin-user-doc -->
-	 * <p>
-	 * If the meaning of the '<em>Width</em>' attribute isn't clear,
-	 * there really should be more of a description here...
-	 * </p>
-	 * <!-- end-user-doc -->
-	 * @return the value of the '<em>Width</em>' attribute.
-	 * @see #setWidth(int)
-	 * @see org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package#getIfcPixelTexture_Width()
-	 * @model
-	 * @generated
-	 */
-	int getWidth();
+    /**
+     * Returns the value of the '<em><b>Width</b></em>' attribute.
+     * <!-- begin-user-doc -->
+     * <p>
+     * If the meaning of the '<em>Width</em>' attribute isn't clear,
+     * there really should be more of a description here...
+     * </p>
+     * <!-- end-user-doc -->
+     * @return the value of the '<em>Width</em>' attribute.
+     * @see #setWidth(long)
+     * @see org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package#getIfcPixelTexture_Width()
+     * @model
+     * @generated
+     */
+    long getWidth();
 
-	/**
-	 * Sets the value of the '{@link org.bimserver.models.ifc2x3tc1.IfcPixelTexture#getWidth <em>Width</em>}' attribute.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @param value the new value of the '<em>Width</em>' attribute.
-	 * @see #getWidth()
-	 * @generated
-	 */
-	void setWidth(int value);
+    /**
+     * Sets the value of the '{@link org.bimserver.models.ifc2x3tc1.IfcPixelTexture#getWidth <em>Width</em>}' attribute.
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @param value the new value of the '<em>Width</em>' attribute.
+     * @see #getWidth()
+     * @generated
+     */
+    void setWidth(long value);
 
-	/**
-	 * Returns the value of the '<em><b>Height</b></em>' attribute.
-	 * <!-- begin-user-doc -->
-	 * <p>
-	 * If the meaning of the '<em>Height</em>' attribute isn't clear,
-	 * there really should be more of a description here...
-	 * </p>
-	 * <!-- end-user-doc -->
-	 * @return the value of the '<em>Height</em>' attribute.
-	 * @see #setHeight(int)
-	 * @see org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package#getIfcPixelTexture_Height()
-	 * @model
-	 * @generated
-	 */
-	int getHeight();
+    /**
+     * Returns the value of the '<em><b>Height</b></em>' attribute.
+     * <!-- begin-user-doc -->
+     * <p>
+     * If the meaning of the '<em>Height</em>' attribute isn't clear,
+     * there really should be more of a description here...
+     * </p>
+     * <!-- end-user-doc -->
+     * @return the value of the '<em>Height</em>' attribute.
+     * @see #setHeight(long)
+     * @see org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package#getIfcPixelTexture_Height()
+     * @model
+     * @generated
+     */
+    long getHeight();
 
-	/**
-	 * Sets the value of the '{@link org.bimserver.models.ifc2x3tc1.IfcPixelTexture#getHeight <em>Height</em>}' attribute.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @param value the new value of the '<em>Height</em>' attribute.
-	 * @see #getHeight()
-	 * @generated
-	 */
-	void setHeight(int value);
+    /**
+     * Sets the value of the '{@link org.bimserver.models.ifc2x3tc1.IfcPixelTexture#getHeight <em>Height</em>}' attribute.
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @param value the new value of the '<em>Height</em>' attribute.
+     * @see #getHeight()
+     * @generated
+     */
+    void setHeight(long value);
 
-	/**
-	 * Returns the value of the '<em><b>Colour Components</b></em>' attribute.
-	 * <!-- begin-user-doc -->
-	 * <p>
-	 * If the meaning of the '<em>Colour Components</em>' attribute isn't clear,
-	 * there really should be more of a description here...
-	 * </p>
-	 * <!-- end-user-doc -->
-	 * @return the value of the '<em>Colour Components</em>' attribute.
-	 * @see #setColourComponents(int)
-	 * @see org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package#getIfcPixelTexture_ColourComponents()
-	 * @model
-	 * @generated
-	 */
-	int getColourComponents();
+    /**
+     * Returns the value of the '<em><b>Colour Components</b></em>' attribute.
+     * <!-- begin-user-doc -->
+     * <p>
+     * If the meaning of the '<em>Colour Components</em>' attribute isn't clear,
+     * there really should be more of a description here...
+     * </p>
+     * <!-- end-user-doc -->
+     * @return the value of the '<em>Colour Components</em>' attribute.
+     * @see #setColourComponents(long)
+     * @see org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package#getIfcPixelTexture_ColourComponents()
+     * @model
+     * @generated
+     */
+    long getColourComponents();
 
-	/**
-	 * Sets the value of the '{@link org.bimserver.models.ifc2x3tc1.IfcPixelTexture#getColourComponents <em>Colour Components</em>}' attribute.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @param value the new value of the '<em>Colour Components</em>' attribute.
-	 * @see #getColourComponents()
-	 * @generated
-	 */
-	void setColourComponents(int value);
+    /**
+     * Sets the value of the '{@link org.bimserver.models.ifc2x3tc1.IfcPixelTexture#getColourComponents <em>Colour Components</em>}' attribute.
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @param value the new value of the '<em>Colour Components</em>' attribute.
+     * @see #getColourComponents()
+     * @generated
+     */
+    void setColourComponents(long value);
 
 } // IfcPixelTexture

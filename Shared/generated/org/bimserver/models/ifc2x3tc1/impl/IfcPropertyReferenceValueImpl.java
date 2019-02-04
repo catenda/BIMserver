@@ -19,6 +19,7 @@ package org.bimserver.models.ifc2x3tc1.impl;
 import org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package;
 import org.bimserver.models.ifc2x3tc1.IfcObjectReferenceSelect;
 import org.bimserver.models.ifc2x3tc1.IfcPropertyReferenceValue;
+
 import org.eclipse.emf.ecore.EClass;
 
 /**
@@ -27,86 +28,87 @@ import org.eclipse.emf.ecore.EClass;
  * <!-- end-user-doc -->
  * <p>
  * The following features are implemented:
+ * </p>
  * <ul>
  *   <li>{@link org.bimserver.models.ifc2x3tc1.impl.IfcPropertyReferenceValueImpl#getUsageName <em>Usage Name</em>}</li>
  *   <li>{@link org.bimserver.models.ifc2x3tc1.impl.IfcPropertyReferenceValueImpl#getPropertyReference <em>Property Reference</em>}</li>
  * </ul>
- * </p>
  *
  * @generated
  */
 public class IfcPropertyReferenceValueImpl extends IfcSimplePropertyImpl implements IfcPropertyReferenceValue {
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	protected IfcPropertyReferenceValueImpl() {
-		super();
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    protected IfcPropertyReferenceValueImpl() {
+        super();
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	@Override
-	protected EClass eStaticClass() {
-		return Ifc2x3tc1Package.Literals.IFC_PROPERTY_REFERENCE_VALUE;
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    @Override
+    protected EClass eStaticClass() {
+        return Ifc2x3tc1Package.Literals.IFC_PROPERTY_REFERENCE_VALUE;
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public String getUsageName() {
-		return (String) eGet(Ifc2x3tc1Package.Literals.IFC_PROPERTY_REFERENCE_VALUE__USAGE_NAME, true);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public String getUsageName() {
+        return (String) eGet(Ifc2x3tc1Package.Literals.IFC_PROPERTY_REFERENCE_VALUE__USAGE_NAME, true);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public void setUsageName(String newUsageName) {
-		eSet(Ifc2x3tc1Package.Literals.IFC_PROPERTY_REFERENCE_VALUE__USAGE_NAME, newUsageName);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public void setUsageName(String newUsageName) {
+        eSet(Ifc2x3tc1Package.Literals.IFC_PROPERTY_REFERENCE_VALUE__USAGE_NAME, newUsageName);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public void unsetUsageName() {
-		eUnset(Ifc2x3tc1Package.Literals.IFC_PROPERTY_REFERENCE_VALUE__USAGE_NAME);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public void unsetUsageName() {
+        eUnset(Ifc2x3tc1Package.Literals.IFC_PROPERTY_REFERENCE_VALUE__USAGE_NAME);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public boolean isSetUsageName() {
-		return eIsSet(Ifc2x3tc1Package.Literals.IFC_PROPERTY_REFERENCE_VALUE__USAGE_NAME);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public boolean isSetUsageName() {
+        return eIsSet(Ifc2x3tc1Package.Literals.IFC_PROPERTY_REFERENCE_VALUE__USAGE_NAME);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public IfcObjectReferenceSelect getPropertyReference() {
-		return (IfcObjectReferenceSelect) eGet(Ifc2x3tc1Package.Literals.IFC_PROPERTY_REFERENCE_VALUE__PROPERTY_REFERENCE, true);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public IfcObjectReferenceSelect getPropertyReference() {
+        return (IfcObjectReferenceSelect) eGet(
+                Ifc2x3tc1Package.Literals.IFC_PROPERTY_REFERENCE_VALUE__PROPERTY_REFERENCE, true);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public void setPropertyReference(IfcObjectReferenceSelect newPropertyReference) {
-		eSet(Ifc2x3tc1Package.Literals.IFC_PROPERTY_REFERENCE_VALUE__PROPERTY_REFERENCE, newPropertyReference);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public void setPropertyReference(IfcObjectReferenceSelect newPropertyReference) {
+        eSet(Ifc2x3tc1Package.Literals.IFC_PROPERTY_REFERENCE_VALUE__PROPERTY_REFERENCE, newPropertyReference);
+    }
 
 } //IfcPropertyReferenceValueImpl

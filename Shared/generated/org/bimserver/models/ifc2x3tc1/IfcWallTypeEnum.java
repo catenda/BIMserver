@@ -32,351 +32,358 @@ import org.eclipse.emf.common.util.Enumerator;
  * @generated
  */
 public enum IfcWallTypeEnum implements Enumerator {
-	/**
-	 * The '<em><b>NULL</b></em>' literal object.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @see #NULL_VALUE
-	 * @generated
-	 * @ordered
-	 */
-	NULL(0, "NULL", "NULL"),
+    /**
+     * The '<em><b>NULL</b></em>' literal object.
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @see #NULL_VALUE
+     * @generated
+     * @ordered
+     */
+    NULL(0, "NULL", "NULL"),
 
-	/**
-	 * The '<em><b>NOTDEFINED</b></em>' literal object.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @see #NOTDEFINED_VALUE
-	 * @generated
-	 * @ordered
-	 */
-	NOTDEFINED(1, "NOTDEFINED", "NOTDEFINED"),
+    /**
+     * The '<em><b>SHEAR</b></em>' literal object.
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @see #SHEAR_VALUE
+     * @generated
+     * @ordered
+     */
+    SHEAR(1, "SHEAR", "SHEAR"),
 
-	/**
-	 * The '<em><b>PLUMBINGWALL</b></em>' literal object.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @see #PLUMBINGWALL_VALUE
-	 * @generated
-	 * @ordered
-	 */
-	PLUMBINGWALL(2, "PLUMBINGWALL", "PLUMBINGWALL"),
+    /**
+     * The '<em><b>ELEMENTEDWALL</b></em>' literal object.
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @see #ELEMENTEDWALL_VALUE
+     * @generated
+     * @ordered
+     */
+    ELEMENTEDWALL(2, "ELEMENTEDWALL", "ELEMENTEDWALL"),
 
-	/**
-	 * The '<em><b>SHEAR</b></em>' literal object.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @see #SHEAR_VALUE
-	 * @generated
-	 * @ordered
-	 */
-	SHEAR(3, "SHEAR", "SHEAR"),
+    /**
+     * The '<em><b>NOTDEFINED</b></em>' literal object.
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @see #NOTDEFINED_VALUE
+     * @generated
+     * @ordered
+     */
+    NOTDEFINED(3, "NOTDEFINED", "NOTDEFINED"),
 
-	/**
-	 * The '<em><b>STANDARD</b></em>' literal object.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @see #STANDARD_VALUE
-	 * @generated
-	 * @ordered
-	 */
-	STANDARD(4, "STANDARD", "STANDARD"),
+    /**
+     * The '<em><b>POLYGONAL</b></em>' literal object.
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @see #POLYGONAL_VALUE
+     * @generated
+     * @ordered
+     */
+    POLYGONAL(4, "POLYGONAL", "POLYGONAL"),
 
-	/**
-	 * The '<em><b>USERDEFINED</b></em>' literal object.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @see #USERDEFINED_VALUE
-	 * @generated
-	 * @ordered
-	 */
-	USERDEFINED(5, "USERDEFINED", "USERDEFINED"),
+    /**
+     * The '<em><b>USERDEFINED</b></em>' literal object.
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @see #USERDEFINED_VALUE
+     * @generated
+     * @ordered
+     */
+    USERDEFINED(5, "USERDEFINED", "USERDEFINED"),
 
-	/**
-	 * The '<em><b>POLYGONAL</b></em>' literal object.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @see #POLYGONAL_VALUE
-	 * @generated
-	 * @ordered
-	 */
-	POLYGONAL(6, "POLYGONAL", "POLYGONAL"),
+    /**
+     * The '<em><b>STANDARD</b></em>' literal object.
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @see #STANDARD_VALUE
+     * @generated
+     * @ordered
+     */
+    STANDARD(6, "STANDARD", "STANDARD"),
 
-	/**
-	 * The '<em><b>ELEMENTEDWALL</b></em>' literal object.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @see #ELEMENTEDWALL_VALUE
-	 * @generated
-	 * @ordered
-	 */
-	ELEMENTEDWALL(7, "ELEMENTEDWALL", "ELEMENTEDWALL");
+    /**
+     * The '<em><b>PLUMBINGWALL</b></em>' literal object.
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @see #PLUMBINGWALL_VALUE
+     * @generated
+     * @ordered
+     */
+    PLUMBINGWALL(7, "PLUMBINGWALL", "PLUMBINGWALL");
 
-	/**
-	 * The '<em><b>NULL</b></em>' literal value.
-	 * <!-- begin-user-doc -->
-	 * <p>
-	 * If the meaning of '<em><b>NULL</b></em>' literal object isn't clear,
-	 * there really should be more of a description here...
-	 * </p>
-	 * <!-- end-user-doc -->
-	 * @see #NULL
-	 * @model
-	 * @generated
-	 * @ordered
-	 */
-	public static final int NULL_VALUE = 0;
+    /**
+     * The '<em><b>NULL</b></em>' literal value.
+     * <!-- begin-user-doc -->
+     * <p>
+     * If the meaning of '<em><b>NULL</b></em>' literal object isn't clear,
+     * there really should be more of a description here...
+     * </p>
+     * <!-- end-user-doc -->
+     * @see #NULL
+     * @model
+     * @generated
+     * @ordered
+     */
+    public static final int NULL_VALUE = 0;
 
-	/**
-	 * The '<em><b>NOTDEFINED</b></em>' literal value.
-	 * <!-- begin-user-doc -->
-	 * <p>
-	 * If the meaning of '<em><b>NOTDEFINED</b></em>' literal object isn't clear,
-	 * there really should be more of a description here...
-	 * </p>
-	 * <!-- end-user-doc -->
-	 * @see #NOTDEFINED
-	 * @model
-	 * @generated
-	 * @ordered
-	 */
-	public static final int NOTDEFINED_VALUE = 1;
+    /**
+     * The '<em><b>SHEAR</b></em>' literal value.
+     * <!-- begin-user-doc -->
+     * <p>
+     * If the meaning of '<em><b>SHEAR</b></em>' literal object isn't clear,
+     * there really should be more of a description here...
+     * </p>
+     * <!-- end-user-doc -->
+     * @see #SHEAR
+     * @model
+     * @generated
+     * @ordered
+     */
+    public static final int SHEAR_VALUE = 1;
 
-	/**
-	 * The '<em><b>PLUMBINGWALL</b></em>' literal value.
-	 * <!-- begin-user-doc -->
-	 * <p>
-	 * If the meaning of '<em><b>PLUMBINGWALL</b></em>' literal object isn't clear,
-	 * there really should be more of a description here...
-	 * </p>
-	 * <!-- end-user-doc -->
-	 * @see #PLUMBINGWALL
-	 * @model
-	 * @generated
-	 * @ordered
-	 */
-	public static final int PLUMBINGWALL_VALUE = 2;
+    /**
+     * The '<em><b>ELEMENTEDWALL</b></em>' literal value.
+     * <!-- begin-user-doc -->
+     * <p>
+     * If the meaning of '<em><b>ELEMENTEDWALL</b></em>' literal object isn't clear,
+     * there really should be more of a description here...
+     * </p>
+     * <!-- end-user-doc -->
+     * @see #ELEMENTEDWALL
+     * @model
+     * @generated
+     * @ordered
+     */
+    public static final int ELEMENTEDWALL_VALUE = 2;
 
-	/**
-	 * The '<em><b>SHEAR</b></em>' literal value.
-	 * <!-- begin-user-doc -->
-	 * <p>
-	 * If the meaning of '<em><b>SHEAR</b></em>' literal object isn't clear,
-	 * there really should be more of a description here...
-	 * </p>
-	 * <!-- end-user-doc -->
-	 * @see #SHEAR
-	 * @model
-	 * @generated
-	 * @ordered
-	 */
-	public static final int SHEAR_VALUE = 3;
+    /**
+     * The '<em><b>NOTDEFINED</b></em>' literal value.
+     * <!-- begin-user-doc -->
+     * <p>
+     * If the meaning of '<em><b>NOTDEFINED</b></em>' literal object isn't clear,
+     * there really should be more of a description here...
+     * </p>
+     * <!-- end-user-doc -->
+     * @see #NOTDEFINED
+     * @model
+     * @generated
+     * @ordered
+     */
+    public static final int NOTDEFINED_VALUE = 3;
 
-	/**
-	 * The '<em><b>STANDARD</b></em>' literal value.
-	 * <!-- begin-user-doc -->
-	 * <p>
-	 * If the meaning of '<em><b>STANDARD</b></em>' literal object isn't clear,
-	 * there really should be more of a description here...
-	 * </p>
-	 * <!-- end-user-doc -->
-	 * @see #STANDARD
-	 * @model
-	 * @generated
-	 * @ordered
-	 */
-	public static final int STANDARD_VALUE = 4;
+    /**
+     * The '<em><b>POLYGONAL</b></em>' literal value.
+     * <!-- begin-user-doc -->
+     * <p>
+     * If the meaning of '<em><b>POLYGONAL</b></em>' literal object isn't clear,
+     * there really should be more of a description here...
+     * </p>
+     * <!-- end-user-doc -->
+     * @see #POLYGONAL
+     * @model
+     * @generated
+     * @ordered
+     */
+    public static final int POLYGONAL_VALUE = 4;
 
-	/**
-	 * The '<em><b>USERDEFINED</b></em>' literal value.
-	 * <!-- begin-user-doc -->
-	 * <p>
-	 * If the meaning of '<em><b>USERDEFINED</b></em>' literal object isn't clear,
-	 * there really should be more of a description here...
-	 * </p>
-	 * <!-- end-user-doc -->
-	 * @see #USERDEFINED
-	 * @model
-	 * @generated
-	 * @ordered
-	 */
-	public static final int USERDEFINED_VALUE = 5;
+    /**
+     * The '<em><b>USERDEFINED</b></em>' literal value.
+     * <!-- begin-user-doc -->
+     * <p>
+     * If the meaning of '<em><b>USERDEFINED</b></em>' literal object isn't clear,
+     * there really should be more of a description here...
+     * </p>
+     * <!-- end-user-doc -->
+     * @see #USERDEFINED
+     * @model
+     * @generated
+     * @ordered
+     */
+    public static final int USERDEFINED_VALUE = 5;
 
-	/**
-	 * The '<em><b>POLYGONAL</b></em>' literal value.
-	 * <!-- begin-user-doc -->
-	 * <p>
-	 * If the meaning of '<em><b>POLYGONAL</b></em>' literal object isn't clear,
-	 * there really should be more of a description here...
-	 * </p>
-	 * <!-- end-user-doc -->
-	 * @see #POLYGONAL
-	 * @model
-	 * @generated
-	 * @ordered
-	 */
-	public static final int POLYGONAL_VALUE = 6;
+    /**
+     * The '<em><b>STANDARD</b></em>' literal value.
+     * <!-- begin-user-doc -->
+     * <p>
+     * If the meaning of '<em><b>STANDARD</b></em>' literal object isn't clear,
+     * there really should be more of a description here...
+     * </p>
+     * <!-- end-user-doc -->
+     * @see #STANDARD
+     * @model
+     * @generated
+     * @ordered
+     */
+    public static final int STANDARD_VALUE = 6;
 
-	/**
-	 * The '<em><b>ELEMENTEDWALL</b></em>' literal value.
-	 * <!-- begin-user-doc -->
-	 * <p>
-	 * If the meaning of '<em><b>ELEMENTEDWALL</b></em>' literal object isn't clear,
-	 * there really should be more of a description here...
-	 * </p>
-	 * <!-- end-user-doc -->
-	 * @see #ELEMENTEDWALL
-	 * @model
-	 * @generated
-	 * @ordered
-	 */
-	public static final int ELEMENTEDWALL_VALUE = 7;
+    /**
+     * The '<em><b>PLUMBINGWALL</b></em>' literal value.
+     * <!-- begin-user-doc -->
+     * <p>
+     * If the meaning of '<em><b>PLUMBINGWALL</b></em>' literal object isn't clear,
+     * there really should be more of a description here...
+     * </p>
+     * <!-- end-user-doc -->
+     * @see #PLUMBINGWALL
+     * @model
+     * @generated
+     * @ordered
+     */
+    public static final int PLUMBINGWALL_VALUE = 7;
 
-	/**
-	 * An array of all the '<em><b>Ifc Wall Type Enum</b></em>' enumerators.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	private static final IfcWallTypeEnum[] VALUES_ARRAY = new IfcWallTypeEnum[] { NULL, NOTDEFINED, PLUMBINGWALL, SHEAR, STANDARD, USERDEFINED, POLYGONAL, ELEMENTEDWALL, };
+    /**
+     * An array of all the '<em><b>Ifc Wall Type Enum</b></em>' enumerators.
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    private static final IfcWallTypeEnum[] VALUES_ARRAY = new IfcWallTypeEnum[] { NULL, SHEAR, ELEMENTEDWALL,
+            NOTDEFINED, POLYGONAL, USERDEFINED, STANDARD, PLUMBINGWALL, };
 
-	/**
-	 * A public read-only list of all the '<em><b>Ifc Wall Type Enum</b></em>' enumerators.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public static final List<IfcWallTypeEnum> VALUES = Collections.unmodifiableList(Arrays.asList(VALUES_ARRAY));
+    /**
+     * A public read-only list of all the '<em><b>Ifc Wall Type Enum</b></em>' enumerators.
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public static final List<IfcWallTypeEnum> VALUES = Collections.unmodifiableList(Arrays.asList(VALUES_ARRAY));
 
-	/**
-	 * Returns the '<em><b>Ifc Wall Type Enum</b></em>' literal with the specified literal value.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public static IfcWallTypeEnum get(String literal) {
-		for (int i = 0; i < VALUES_ARRAY.length; ++i) {
-			IfcWallTypeEnum result = VALUES_ARRAY[i];
-			if (result.toString().equals(literal)) {
-				return result;
-			}
-		}
-		return null;
-	}
+    /**
+     * Returns the '<em><b>Ifc Wall Type Enum</b></em>' literal with the specified literal value.
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @param literal the literal.
+     * @return the matching enumerator or <code>null</code>.
+     * @generated
+     */
+    public static IfcWallTypeEnum get(String literal) {
+        for (int i = 0; i < VALUES_ARRAY.length; ++i) {
+            IfcWallTypeEnum result = VALUES_ARRAY[i];
+            if (result.toString().equals(literal)) {
+                return result;
+            }
+        }
+        return null;
+    }
 
-	/**
-	 * Returns the '<em><b>Ifc Wall Type Enum</b></em>' literal with the specified name.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public static IfcWallTypeEnum getByName(String name) {
-		for (int i = 0; i < VALUES_ARRAY.length; ++i) {
-			IfcWallTypeEnum result = VALUES_ARRAY[i];
-			if (result.getName().equals(name)) {
-				return result;
-			}
-		}
-		return null;
-	}
+    /**
+     * Returns the '<em><b>Ifc Wall Type Enum</b></em>' literal with the specified name.
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @param name the name.
+     * @return the matching enumerator or <code>null</code>.
+     * @generated
+     */
+    public static IfcWallTypeEnum getByName(String name) {
+        for (int i = 0; i < VALUES_ARRAY.length; ++i) {
+            IfcWallTypeEnum result = VALUES_ARRAY[i];
+            if (result.getName().equals(name)) {
+                return result;
+            }
+        }
+        return null;
+    }
 
-	/**
-	 * Returns the '<em><b>Ifc Wall Type Enum</b></em>' literal with the specified integer value.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public static IfcWallTypeEnum get(int value) {
-		switch (value) {
-		case NULL_VALUE:
-			return NULL;
-		case NOTDEFINED_VALUE:
-			return NOTDEFINED;
-		case PLUMBINGWALL_VALUE:
-			return PLUMBINGWALL;
-		case SHEAR_VALUE:
-			return SHEAR;
-		case STANDARD_VALUE:
-			return STANDARD;
-		case USERDEFINED_VALUE:
-			return USERDEFINED;
-		case POLYGONAL_VALUE:
-			return POLYGONAL;
-		case ELEMENTEDWALL_VALUE:
-			return ELEMENTEDWALL;
-		}
-		return null;
-	}
+    /**
+     * Returns the '<em><b>Ifc Wall Type Enum</b></em>' literal with the specified integer value.
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @param value the integer value.
+     * @return the matching enumerator or <code>null</code>.
+     * @generated
+     */
+    public static IfcWallTypeEnum get(int value) {
+        switch (value) {
+        case NULL_VALUE:
+            return NULL;
+        case SHEAR_VALUE:
+            return SHEAR;
+        case ELEMENTEDWALL_VALUE:
+            return ELEMENTEDWALL;
+        case NOTDEFINED_VALUE:
+            return NOTDEFINED;
+        case POLYGONAL_VALUE:
+            return POLYGONAL;
+        case USERDEFINED_VALUE:
+            return USERDEFINED;
+        case STANDARD_VALUE:
+            return STANDARD;
+        case PLUMBINGWALL_VALUE:
+            return PLUMBINGWALL;
+        }
+        return null;
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	private final int value;
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    private final int value;
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	private final String name;
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    private final String name;
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	private final String literal;
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    private final String literal;
 
-	/**
-	 * Only this class can construct instances.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	private IfcWallTypeEnum(int value, String name, String literal) {
-		this.value = value;
-		this.name = name;
-		this.literal = literal;
-	}
+    /**
+     * Only this class can construct instances.
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    private IfcWallTypeEnum(int value, String name, String literal) {
+        this.value = value;
+        this.name = name;
+        this.literal = literal;
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public int getValue() {
-		return value;
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public int getValue() {
+        return value;
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public String getName() {
-		return name;
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public String getName() {
+        return name;
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public String getLiteral() {
-		return literal;
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public String getLiteral() {
+        return literal;
+    }
 
-	/**
-	 * Returns the literal value of the enumerator, which is its string representation.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	@Override
-	public String toString() {
-		return literal;
-	}
+    /**
+     * Returns the literal value of the enumerator, which is its string representation.
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    @Override
+    public String toString() {
+        return literal;
+    }
 
 } //IfcWallTypeEnum

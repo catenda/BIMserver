@@ -19,6 +19,7 @@ package org.bimserver.models.ifc2x3tc1.impl;
 import org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package;
 import org.bimserver.models.ifc2x3tc1.IfcProjectedOrTrueLengthEnum;
 import org.bimserver.models.ifc2x3tc1.IfcStructuralPlanarAction;
+
 import org.eclipse.emf.ecore.EClass;
 
 /**
@@ -27,49 +28,50 @@ import org.eclipse.emf.ecore.EClass;
  * <!-- end-user-doc -->
  * <p>
  * The following features are implemented:
+ * </p>
  * <ul>
  *   <li>{@link org.bimserver.models.ifc2x3tc1.impl.IfcStructuralPlanarActionImpl#getProjectedOrTrue <em>Projected Or True</em>}</li>
  * </ul>
- * </p>
  *
  * @generated
  */
 public class IfcStructuralPlanarActionImpl extends IfcStructuralActionImpl implements IfcStructuralPlanarAction {
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	protected IfcStructuralPlanarActionImpl() {
-		super();
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    protected IfcStructuralPlanarActionImpl() {
+        super();
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	@Override
-	protected EClass eStaticClass() {
-		return Ifc2x3tc1Package.Literals.IFC_STRUCTURAL_PLANAR_ACTION;
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    @Override
+    protected EClass eStaticClass() {
+        return Ifc2x3tc1Package.Literals.IFC_STRUCTURAL_PLANAR_ACTION;
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public IfcProjectedOrTrueLengthEnum getProjectedOrTrue() {
-		return (IfcProjectedOrTrueLengthEnum) eGet(Ifc2x3tc1Package.Literals.IFC_STRUCTURAL_PLANAR_ACTION__PROJECTED_OR_TRUE, true);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public IfcProjectedOrTrueLengthEnum getProjectedOrTrue() {
+        return (IfcProjectedOrTrueLengthEnum) eGet(
+                Ifc2x3tc1Package.Literals.IFC_STRUCTURAL_PLANAR_ACTION__PROJECTED_OR_TRUE, true);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public void setProjectedOrTrue(IfcProjectedOrTrueLengthEnum newProjectedOrTrue) {
-		eSet(Ifc2x3tc1Package.Literals.IFC_STRUCTURAL_PLANAR_ACTION__PROJECTED_OR_TRUE, newProjectedOrTrue);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public void setProjectedOrTrue(IfcProjectedOrTrueLengthEnum newProjectedOrTrue) {
+        eSet(Ifc2x3tc1Package.Literals.IFC_STRUCTURAL_PLANAR_ACTION__PROJECTED_OR_TRUE, newProjectedOrTrue);
+    }
 
 } //IfcStructuralPlanarActionImpl

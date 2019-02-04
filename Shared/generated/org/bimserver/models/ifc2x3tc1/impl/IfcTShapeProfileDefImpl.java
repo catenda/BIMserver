@@ -18,6 +18,7 @@ package org.bimserver.models.ifc2x3tc1.impl;
 
 import org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package;
 import org.bimserver.models.ifc2x3tc1.IfcTShapeProfileDef;
+
 import org.eclipse.emf.ecore.EClass;
 
 /**
@@ -26,6 +27,7 @@ import org.eclipse.emf.ecore.EClass;
  * <!-- end-user-doc -->
  * <p>
  * The following features are implemented:
+ * </p>
  * <ul>
  *   <li>{@link org.bimserver.models.ifc2x3tc1.impl.IfcTShapeProfileDefImpl#getDepth <em>Depth</em>}</li>
  *   <li>{@link org.bimserver.models.ifc2x3tc1.impl.IfcTShapeProfileDefImpl#getDepthAsString <em>Depth As String</em>}</li>
@@ -48,604 +50,605 @@ import org.eclipse.emf.ecore.EClass;
  *   <li>{@link org.bimserver.models.ifc2x3tc1.impl.IfcTShapeProfileDefImpl#getCentreOfGravityInY <em>Centre Of Gravity In Y</em>}</li>
  *   <li>{@link org.bimserver.models.ifc2x3tc1.impl.IfcTShapeProfileDefImpl#getCentreOfGravityInYAsString <em>Centre Of Gravity In YAs String</em>}</li>
  * </ul>
- * </p>
  *
  * @generated
  */
 public class IfcTShapeProfileDefImpl extends IfcParameterizedProfileDefImpl implements IfcTShapeProfileDef {
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	protected IfcTShapeProfileDefImpl() {
-		super();
-	}
-
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	@Override
-	protected EClass eStaticClass() {
-		return Ifc2x3tc1Package.Literals.IFC_TSHAPE_PROFILE_DEF;
-	}
-
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public double getDepth() {
-		return (Double) eGet(Ifc2x3tc1Package.Literals.IFC_TSHAPE_PROFILE_DEF__DEPTH, true);
-	}
-
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public void setDepth(double newDepth) {
-		eSet(Ifc2x3tc1Package.Literals.IFC_TSHAPE_PROFILE_DEF__DEPTH, newDepth);
-	}
-
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public String getDepthAsString() {
-		return (String) eGet(Ifc2x3tc1Package.Literals.IFC_TSHAPE_PROFILE_DEF__DEPTH_AS_STRING, true);
-	}
-
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public void setDepthAsString(String newDepthAsString) {
-		eSet(Ifc2x3tc1Package.Literals.IFC_TSHAPE_PROFILE_DEF__DEPTH_AS_STRING, newDepthAsString);
-	}
-
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public double getFlangeWidth() {
-		return (Double) eGet(Ifc2x3tc1Package.Literals.IFC_TSHAPE_PROFILE_DEF__FLANGE_WIDTH, true);
-	}
-
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public void setFlangeWidth(double newFlangeWidth) {
-		eSet(Ifc2x3tc1Package.Literals.IFC_TSHAPE_PROFILE_DEF__FLANGE_WIDTH, newFlangeWidth);
-	}
-
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public String getFlangeWidthAsString() {
-		return (String) eGet(Ifc2x3tc1Package.Literals.IFC_TSHAPE_PROFILE_DEF__FLANGE_WIDTH_AS_STRING, true);
-	}
-
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public void setFlangeWidthAsString(String newFlangeWidthAsString) {
-		eSet(Ifc2x3tc1Package.Literals.IFC_TSHAPE_PROFILE_DEF__FLANGE_WIDTH_AS_STRING, newFlangeWidthAsString);
-	}
-
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public double getWebThickness() {
-		return (Double) eGet(Ifc2x3tc1Package.Literals.IFC_TSHAPE_PROFILE_DEF__WEB_THICKNESS, true);
-	}
-
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public void setWebThickness(double newWebThickness) {
-		eSet(Ifc2x3tc1Package.Literals.IFC_TSHAPE_PROFILE_DEF__WEB_THICKNESS, newWebThickness);
-	}
-
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public String getWebThicknessAsString() {
-		return (String) eGet(Ifc2x3tc1Package.Literals.IFC_TSHAPE_PROFILE_DEF__WEB_THICKNESS_AS_STRING, true);
-	}
-
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public void setWebThicknessAsString(String newWebThicknessAsString) {
-		eSet(Ifc2x3tc1Package.Literals.IFC_TSHAPE_PROFILE_DEF__WEB_THICKNESS_AS_STRING, newWebThicknessAsString);
-	}
-
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public double getFlangeThickness() {
-		return (Double) eGet(Ifc2x3tc1Package.Literals.IFC_TSHAPE_PROFILE_DEF__FLANGE_THICKNESS, true);
-	}
-
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public void setFlangeThickness(double newFlangeThickness) {
-		eSet(Ifc2x3tc1Package.Literals.IFC_TSHAPE_PROFILE_DEF__FLANGE_THICKNESS, newFlangeThickness);
-	}
-
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public String getFlangeThicknessAsString() {
-		return (String) eGet(Ifc2x3tc1Package.Literals.IFC_TSHAPE_PROFILE_DEF__FLANGE_THICKNESS_AS_STRING, true);
-	}
-
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public void setFlangeThicknessAsString(String newFlangeThicknessAsString) {
-		eSet(Ifc2x3tc1Package.Literals.IFC_TSHAPE_PROFILE_DEF__FLANGE_THICKNESS_AS_STRING, newFlangeThicknessAsString);
-	}
-
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public double getFilletRadius() {
-		return (Double) eGet(Ifc2x3tc1Package.Literals.IFC_TSHAPE_PROFILE_DEF__FILLET_RADIUS, true);
-	}
-
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public void setFilletRadius(double newFilletRadius) {
-		eSet(Ifc2x3tc1Package.Literals.IFC_TSHAPE_PROFILE_DEF__FILLET_RADIUS, newFilletRadius);
-	}
-
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public void unsetFilletRadius() {
-		eUnset(Ifc2x3tc1Package.Literals.IFC_TSHAPE_PROFILE_DEF__FILLET_RADIUS);
-	}
-
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public boolean isSetFilletRadius() {
-		return eIsSet(Ifc2x3tc1Package.Literals.IFC_TSHAPE_PROFILE_DEF__FILLET_RADIUS);
-	}
-
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public String getFilletRadiusAsString() {
-		return (String) eGet(Ifc2x3tc1Package.Literals.IFC_TSHAPE_PROFILE_DEF__FILLET_RADIUS_AS_STRING, true);
-	}
-
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public void setFilletRadiusAsString(String newFilletRadiusAsString) {
-		eSet(Ifc2x3tc1Package.Literals.IFC_TSHAPE_PROFILE_DEF__FILLET_RADIUS_AS_STRING, newFilletRadiusAsString);
-	}
-
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public void unsetFilletRadiusAsString() {
-		eUnset(Ifc2x3tc1Package.Literals.IFC_TSHAPE_PROFILE_DEF__FILLET_RADIUS_AS_STRING);
-	}
-
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public boolean isSetFilletRadiusAsString() {
-		return eIsSet(Ifc2x3tc1Package.Literals.IFC_TSHAPE_PROFILE_DEF__FILLET_RADIUS_AS_STRING);
-	}
-
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public double getFlangeEdgeRadius() {
-		return (Double) eGet(Ifc2x3tc1Package.Literals.IFC_TSHAPE_PROFILE_DEF__FLANGE_EDGE_RADIUS, true);
-	}
-
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public void setFlangeEdgeRadius(double newFlangeEdgeRadius) {
-		eSet(Ifc2x3tc1Package.Literals.IFC_TSHAPE_PROFILE_DEF__FLANGE_EDGE_RADIUS, newFlangeEdgeRadius);
-	}
-
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public void unsetFlangeEdgeRadius() {
-		eUnset(Ifc2x3tc1Package.Literals.IFC_TSHAPE_PROFILE_DEF__FLANGE_EDGE_RADIUS);
-	}
-
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public boolean isSetFlangeEdgeRadius() {
-		return eIsSet(Ifc2x3tc1Package.Literals.IFC_TSHAPE_PROFILE_DEF__FLANGE_EDGE_RADIUS);
-	}
-
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public String getFlangeEdgeRadiusAsString() {
-		return (String) eGet(Ifc2x3tc1Package.Literals.IFC_TSHAPE_PROFILE_DEF__FLANGE_EDGE_RADIUS_AS_STRING, true);
-	}
-
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public void setFlangeEdgeRadiusAsString(String newFlangeEdgeRadiusAsString) {
-		eSet(Ifc2x3tc1Package.Literals.IFC_TSHAPE_PROFILE_DEF__FLANGE_EDGE_RADIUS_AS_STRING, newFlangeEdgeRadiusAsString);
-	}
-
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public void unsetFlangeEdgeRadiusAsString() {
-		eUnset(Ifc2x3tc1Package.Literals.IFC_TSHAPE_PROFILE_DEF__FLANGE_EDGE_RADIUS_AS_STRING);
-	}
-
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public boolean isSetFlangeEdgeRadiusAsString() {
-		return eIsSet(Ifc2x3tc1Package.Literals.IFC_TSHAPE_PROFILE_DEF__FLANGE_EDGE_RADIUS_AS_STRING);
-	}
-
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public double getWebEdgeRadius() {
-		return (Double) eGet(Ifc2x3tc1Package.Literals.IFC_TSHAPE_PROFILE_DEF__WEB_EDGE_RADIUS, true);
-	}
-
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public void setWebEdgeRadius(double newWebEdgeRadius) {
-		eSet(Ifc2x3tc1Package.Literals.IFC_TSHAPE_PROFILE_DEF__WEB_EDGE_RADIUS, newWebEdgeRadius);
-	}
-
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public void unsetWebEdgeRadius() {
-		eUnset(Ifc2x3tc1Package.Literals.IFC_TSHAPE_PROFILE_DEF__WEB_EDGE_RADIUS);
-	}
-
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public boolean isSetWebEdgeRadius() {
-		return eIsSet(Ifc2x3tc1Package.Literals.IFC_TSHAPE_PROFILE_DEF__WEB_EDGE_RADIUS);
-	}
-
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public String getWebEdgeRadiusAsString() {
-		return (String) eGet(Ifc2x3tc1Package.Literals.IFC_TSHAPE_PROFILE_DEF__WEB_EDGE_RADIUS_AS_STRING, true);
-	}
-
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public void setWebEdgeRadiusAsString(String newWebEdgeRadiusAsString) {
-		eSet(Ifc2x3tc1Package.Literals.IFC_TSHAPE_PROFILE_DEF__WEB_EDGE_RADIUS_AS_STRING, newWebEdgeRadiusAsString);
-	}
-
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public void unsetWebEdgeRadiusAsString() {
-		eUnset(Ifc2x3tc1Package.Literals.IFC_TSHAPE_PROFILE_DEF__WEB_EDGE_RADIUS_AS_STRING);
-	}
-
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public boolean isSetWebEdgeRadiusAsString() {
-		return eIsSet(Ifc2x3tc1Package.Literals.IFC_TSHAPE_PROFILE_DEF__WEB_EDGE_RADIUS_AS_STRING);
-	}
-
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public double getWebSlope() {
-		return (Double) eGet(Ifc2x3tc1Package.Literals.IFC_TSHAPE_PROFILE_DEF__WEB_SLOPE, true);
-	}
-
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public void setWebSlope(double newWebSlope) {
-		eSet(Ifc2x3tc1Package.Literals.IFC_TSHAPE_PROFILE_DEF__WEB_SLOPE, newWebSlope);
-	}
-
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public void unsetWebSlope() {
-		eUnset(Ifc2x3tc1Package.Literals.IFC_TSHAPE_PROFILE_DEF__WEB_SLOPE);
-	}
-
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public boolean isSetWebSlope() {
-		return eIsSet(Ifc2x3tc1Package.Literals.IFC_TSHAPE_PROFILE_DEF__WEB_SLOPE);
-	}
-
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public String getWebSlopeAsString() {
-		return (String) eGet(Ifc2x3tc1Package.Literals.IFC_TSHAPE_PROFILE_DEF__WEB_SLOPE_AS_STRING, true);
-	}
-
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public void setWebSlopeAsString(String newWebSlopeAsString) {
-		eSet(Ifc2x3tc1Package.Literals.IFC_TSHAPE_PROFILE_DEF__WEB_SLOPE_AS_STRING, newWebSlopeAsString);
-	}
-
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public void unsetWebSlopeAsString() {
-		eUnset(Ifc2x3tc1Package.Literals.IFC_TSHAPE_PROFILE_DEF__WEB_SLOPE_AS_STRING);
-	}
-
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public boolean isSetWebSlopeAsString() {
-		return eIsSet(Ifc2x3tc1Package.Literals.IFC_TSHAPE_PROFILE_DEF__WEB_SLOPE_AS_STRING);
-	}
-
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public double getFlangeSlope() {
-		return (Double) eGet(Ifc2x3tc1Package.Literals.IFC_TSHAPE_PROFILE_DEF__FLANGE_SLOPE, true);
-	}
-
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public void setFlangeSlope(double newFlangeSlope) {
-		eSet(Ifc2x3tc1Package.Literals.IFC_TSHAPE_PROFILE_DEF__FLANGE_SLOPE, newFlangeSlope);
-	}
-
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public void unsetFlangeSlope() {
-		eUnset(Ifc2x3tc1Package.Literals.IFC_TSHAPE_PROFILE_DEF__FLANGE_SLOPE);
-	}
-
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public boolean isSetFlangeSlope() {
-		return eIsSet(Ifc2x3tc1Package.Literals.IFC_TSHAPE_PROFILE_DEF__FLANGE_SLOPE);
-	}
-
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public String getFlangeSlopeAsString() {
-		return (String) eGet(Ifc2x3tc1Package.Literals.IFC_TSHAPE_PROFILE_DEF__FLANGE_SLOPE_AS_STRING, true);
-	}
-
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public void setFlangeSlopeAsString(String newFlangeSlopeAsString) {
-		eSet(Ifc2x3tc1Package.Literals.IFC_TSHAPE_PROFILE_DEF__FLANGE_SLOPE_AS_STRING, newFlangeSlopeAsString);
-	}
-
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public void unsetFlangeSlopeAsString() {
-		eUnset(Ifc2x3tc1Package.Literals.IFC_TSHAPE_PROFILE_DEF__FLANGE_SLOPE_AS_STRING);
-	}
-
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public boolean isSetFlangeSlopeAsString() {
-		return eIsSet(Ifc2x3tc1Package.Literals.IFC_TSHAPE_PROFILE_DEF__FLANGE_SLOPE_AS_STRING);
-	}
-
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public double getCentreOfGravityInY() {
-		return (Double) eGet(Ifc2x3tc1Package.Literals.IFC_TSHAPE_PROFILE_DEF__CENTRE_OF_GRAVITY_IN_Y, true);
-	}
-
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public void setCentreOfGravityInY(double newCentreOfGravityInY) {
-		eSet(Ifc2x3tc1Package.Literals.IFC_TSHAPE_PROFILE_DEF__CENTRE_OF_GRAVITY_IN_Y, newCentreOfGravityInY);
-	}
-
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public void unsetCentreOfGravityInY() {
-		eUnset(Ifc2x3tc1Package.Literals.IFC_TSHAPE_PROFILE_DEF__CENTRE_OF_GRAVITY_IN_Y);
-	}
-
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public boolean isSetCentreOfGravityInY() {
-		return eIsSet(Ifc2x3tc1Package.Literals.IFC_TSHAPE_PROFILE_DEF__CENTRE_OF_GRAVITY_IN_Y);
-	}
-
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public String getCentreOfGravityInYAsString() {
-		return (String) eGet(Ifc2x3tc1Package.Literals.IFC_TSHAPE_PROFILE_DEF__CENTRE_OF_GRAVITY_IN_YAS_STRING, true);
-	}
-
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public void setCentreOfGravityInYAsString(String newCentreOfGravityInYAsString) {
-		eSet(Ifc2x3tc1Package.Literals.IFC_TSHAPE_PROFILE_DEF__CENTRE_OF_GRAVITY_IN_YAS_STRING, newCentreOfGravityInYAsString);
-	}
-
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public void unsetCentreOfGravityInYAsString() {
-		eUnset(Ifc2x3tc1Package.Literals.IFC_TSHAPE_PROFILE_DEF__CENTRE_OF_GRAVITY_IN_YAS_STRING);
-	}
-
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public boolean isSetCentreOfGravityInYAsString() {
-		return eIsSet(Ifc2x3tc1Package.Literals.IFC_TSHAPE_PROFILE_DEF__CENTRE_OF_GRAVITY_IN_YAS_STRING);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    protected IfcTShapeProfileDefImpl() {
+        super();
+    }
+
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    @Override
+    protected EClass eStaticClass() {
+        return Ifc2x3tc1Package.Literals.IFC_TSHAPE_PROFILE_DEF;
+    }
+
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public double getDepth() {
+        return (Double) eGet(Ifc2x3tc1Package.Literals.IFC_TSHAPE_PROFILE_DEF__DEPTH, true);
+    }
+
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public void setDepth(double newDepth) {
+        eSet(Ifc2x3tc1Package.Literals.IFC_TSHAPE_PROFILE_DEF__DEPTH, newDepth);
+    }
+
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public String getDepthAsString() {
+        return (String) eGet(Ifc2x3tc1Package.Literals.IFC_TSHAPE_PROFILE_DEF__DEPTH_AS_STRING, true);
+    }
+
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public void setDepthAsString(String newDepthAsString) {
+        eSet(Ifc2x3tc1Package.Literals.IFC_TSHAPE_PROFILE_DEF__DEPTH_AS_STRING, newDepthAsString);
+    }
+
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public double getFlangeWidth() {
+        return (Double) eGet(Ifc2x3tc1Package.Literals.IFC_TSHAPE_PROFILE_DEF__FLANGE_WIDTH, true);
+    }
+
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public void setFlangeWidth(double newFlangeWidth) {
+        eSet(Ifc2x3tc1Package.Literals.IFC_TSHAPE_PROFILE_DEF__FLANGE_WIDTH, newFlangeWidth);
+    }
+
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public String getFlangeWidthAsString() {
+        return (String) eGet(Ifc2x3tc1Package.Literals.IFC_TSHAPE_PROFILE_DEF__FLANGE_WIDTH_AS_STRING, true);
+    }
+
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public void setFlangeWidthAsString(String newFlangeWidthAsString) {
+        eSet(Ifc2x3tc1Package.Literals.IFC_TSHAPE_PROFILE_DEF__FLANGE_WIDTH_AS_STRING, newFlangeWidthAsString);
+    }
+
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public double getWebThickness() {
+        return (Double) eGet(Ifc2x3tc1Package.Literals.IFC_TSHAPE_PROFILE_DEF__WEB_THICKNESS, true);
+    }
+
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public void setWebThickness(double newWebThickness) {
+        eSet(Ifc2x3tc1Package.Literals.IFC_TSHAPE_PROFILE_DEF__WEB_THICKNESS, newWebThickness);
+    }
+
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public String getWebThicknessAsString() {
+        return (String) eGet(Ifc2x3tc1Package.Literals.IFC_TSHAPE_PROFILE_DEF__WEB_THICKNESS_AS_STRING, true);
+    }
+
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public void setWebThicknessAsString(String newWebThicknessAsString) {
+        eSet(Ifc2x3tc1Package.Literals.IFC_TSHAPE_PROFILE_DEF__WEB_THICKNESS_AS_STRING, newWebThicknessAsString);
+    }
+
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public double getFlangeThickness() {
+        return (Double) eGet(Ifc2x3tc1Package.Literals.IFC_TSHAPE_PROFILE_DEF__FLANGE_THICKNESS, true);
+    }
+
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public void setFlangeThickness(double newFlangeThickness) {
+        eSet(Ifc2x3tc1Package.Literals.IFC_TSHAPE_PROFILE_DEF__FLANGE_THICKNESS, newFlangeThickness);
+    }
+
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public String getFlangeThicknessAsString() {
+        return (String) eGet(Ifc2x3tc1Package.Literals.IFC_TSHAPE_PROFILE_DEF__FLANGE_THICKNESS_AS_STRING, true);
+    }
+
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public void setFlangeThicknessAsString(String newFlangeThicknessAsString) {
+        eSet(Ifc2x3tc1Package.Literals.IFC_TSHAPE_PROFILE_DEF__FLANGE_THICKNESS_AS_STRING, newFlangeThicknessAsString);
+    }
+
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public double getFilletRadius() {
+        return (Double) eGet(Ifc2x3tc1Package.Literals.IFC_TSHAPE_PROFILE_DEF__FILLET_RADIUS, true);
+    }
+
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public void setFilletRadius(double newFilletRadius) {
+        eSet(Ifc2x3tc1Package.Literals.IFC_TSHAPE_PROFILE_DEF__FILLET_RADIUS, newFilletRadius);
+    }
+
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public void unsetFilletRadius() {
+        eUnset(Ifc2x3tc1Package.Literals.IFC_TSHAPE_PROFILE_DEF__FILLET_RADIUS);
+    }
+
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public boolean isSetFilletRadius() {
+        return eIsSet(Ifc2x3tc1Package.Literals.IFC_TSHAPE_PROFILE_DEF__FILLET_RADIUS);
+    }
+
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public String getFilletRadiusAsString() {
+        return (String) eGet(Ifc2x3tc1Package.Literals.IFC_TSHAPE_PROFILE_DEF__FILLET_RADIUS_AS_STRING, true);
+    }
+
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public void setFilletRadiusAsString(String newFilletRadiusAsString) {
+        eSet(Ifc2x3tc1Package.Literals.IFC_TSHAPE_PROFILE_DEF__FILLET_RADIUS_AS_STRING, newFilletRadiusAsString);
+    }
+
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public void unsetFilletRadiusAsString() {
+        eUnset(Ifc2x3tc1Package.Literals.IFC_TSHAPE_PROFILE_DEF__FILLET_RADIUS_AS_STRING);
+    }
+
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public boolean isSetFilletRadiusAsString() {
+        return eIsSet(Ifc2x3tc1Package.Literals.IFC_TSHAPE_PROFILE_DEF__FILLET_RADIUS_AS_STRING);
+    }
+
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public double getFlangeEdgeRadius() {
+        return (Double) eGet(Ifc2x3tc1Package.Literals.IFC_TSHAPE_PROFILE_DEF__FLANGE_EDGE_RADIUS, true);
+    }
+
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public void setFlangeEdgeRadius(double newFlangeEdgeRadius) {
+        eSet(Ifc2x3tc1Package.Literals.IFC_TSHAPE_PROFILE_DEF__FLANGE_EDGE_RADIUS, newFlangeEdgeRadius);
+    }
+
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public void unsetFlangeEdgeRadius() {
+        eUnset(Ifc2x3tc1Package.Literals.IFC_TSHAPE_PROFILE_DEF__FLANGE_EDGE_RADIUS);
+    }
+
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public boolean isSetFlangeEdgeRadius() {
+        return eIsSet(Ifc2x3tc1Package.Literals.IFC_TSHAPE_PROFILE_DEF__FLANGE_EDGE_RADIUS);
+    }
+
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public String getFlangeEdgeRadiusAsString() {
+        return (String) eGet(Ifc2x3tc1Package.Literals.IFC_TSHAPE_PROFILE_DEF__FLANGE_EDGE_RADIUS_AS_STRING, true);
+    }
+
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public void setFlangeEdgeRadiusAsString(String newFlangeEdgeRadiusAsString) {
+        eSet(Ifc2x3tc1Package.Literals.IFC_TSHAPE_PROFILE_DEF__FLANGE_EDGE_RADIUS_AS_STRING,
+                newFlangeEdgeRadiusAsString);
+    }
+
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public void unsetFlangeEdgeRadiusAsString() {
+        eUnset(Ifc2x3tc1Package.Literals.IFC_TSHAPE_PROFILE_DEF__FLANGE_EDGE_RADIUS_AS_STRING);
+    }
+
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public boolean isSetFlangeEdgeRadiusAsString() {
+        return eIsSet(Ifc2x3tc1Package.Literals.IFC_TSHAPE_PROFILE_DEF__FLANGE_EDGE_RADIUS_AS_STRING);
+    }
+
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public double getWebEdgeRadius() {
+        return (Double) eGet(Ifc2x3tc1Package.Literals.IFC_TSHAPE_PROFILE_DEF__WEB_EDGE_RADIUS, true);
+    }
+
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public void setWebEdgeRadius(double newWebEdgeRadius) {
+        eSet(Ifc2x3tc1Package.Literals.IFC_TSHAPE_PROFILE_DEF__WEB_EDGE_RADIUS, newWebEdgeRadius);
+    }
+
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public void unsetWebEdgeRadius() {
+        eUnset(Ifc2x3tc1Package.Literals.IFC_TSHAPE_PROFILE_DEF__WEB_EDGE_RADIUS);
+    }
+
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public boolean isSetWebEdgeRadius() {
+        return eIsSet(Ifc2x3tc1Package.Literals.IFC_TSHAPE_PROFILE_DEF__WEB_EDGE_RADIUS);
+    }
+
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public String getWebEdgeRadiusAsString() {
+        return (String) eGet(Ifc2x3tc1Package.Literals.IFC_TSHAPE_PROFILE_DEF__WEB_EDGE_RADIUS_AS_STRING, true);
+    }
+
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public void setWebEdgeRadiusAsString(String newWebEdgeRadiusAsString) {
+        eSet(Ifc2x3tc1Package.Literals.IFC_TSHAPE_PROFILE_DEF__WEB_EDGE_RADIUS_AS_STRING, newWebEdgeRadiusAsString);
+    }
+
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public void unsetWebEdgeRadiusAsString() {
+        eUnset(Ifc2x3tc1Package.Literals.IFC_TSHAPE_PROFILE_DEF__WEB_EDGE_RADIUS_AS_STRING);
+    }
+
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public boolean isSetWebEdgeRadiusAsString() {
+        return eIsSet(Ifc2x3tc1Package.Literals.IFC_TSHAPE_PROFILE_DEF__WEB_EDGE_RADIUS_AS_STRING);
+    }
+
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public double getWebSlope() {
+        return (Double) eGet(Ifc2x3tc1Package.Literals.IFC_TSHAPE_PROFILE_DEF__WEB_SLOPE, true);
+    }
+
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public void setWebSlope(double newWebSlope) {
+        eSet(Ifc2x3tc1Package.Literals.IFC_TSHAPE_PROFILE_DEF__WEB_SLOPE, newWebSlope);
+    }
+
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public void unsetWebSlope() {
+        eUnset(Ifc2x3tc1Package.Literals.IFC_TSHAPE_PROFILE_DEF__WEB_SLOPE);
+    }
+
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public boolean isSetWebSlope() {
+        return eIsSet(Ifc2x3tc1Package.Literals.IFC_TSHAPE_PROFILE_DEF__WEB_SLOPE);
+    }
+
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public String getWebSlopeAsString() {
+        return (String) eGet(Ifc2x3tc1Package.Literals.IFC_TSHAPE_PROFILE_DEF__WEB_SLOPE_AS_STRING, true);
+    }
+
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public void setWebSlopeAsString(String newWebSlopeAsString) {
+        eSet(Ifc2x3tc1Package.Literals.IFC_TSHAPE_PROFILE_DEF__WEB_SLOPE_AS_STRING, newWebSlopeAsString);
+    }
+
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public void unsetWebSlopeAsString() {
+        eUnset(Ifc2x3tc1Package.Literals.IFC_TSHAPE_PROFILE_DEF__WEB_SLOPE_AS_STRING);
+    }
+
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public boolean isSetWebSlopeAsString() {
+        return eIsSet(Ifc2x3tc1Package.Literals.IFC_TSHAPE_PROFILE_DEF__WEB_SLOPE_AS_STRING);
+    }
+
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public double getFlangeSlope() {
+        return (Double) eGet(Ifc2x3tc1Package.Literals.IFC_TSHAPE_PROFILE_DEF__FLANGE_SLOPE, true);
+    }
+
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public void setFlangeSlope(double newFlangeSlope) {
+        eSet(Ifc2x3tc1Package.Literals.IFC_TSHAPE_PROFILE_DEF__FLANGE_SLOPE, newFlangeSlope);
+    }
+
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public void unsetFlangeSlope() {
+        eUnset(Ifc2x3tc1Package.Literals.IFC_TSHAPE_PROFILE_DEF__FLANGE_SLOPE);
+    }
+
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public boolean isSetFlangeSlope() {
+        return eIsSet(Ifc2x3tc1Package.Literals.IFC_TSHAPE_PROFILE_DEF__FLANGE_SLOPE);
+    }
+
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public String getFlangeSlopeAsString() {
+        return (String) eGet(Ifc2x3tc1Package.Literals.IFC_TSHAPE_PROFILE_DEF__FLANGE_SLOPE_AS_STRING, true);
+    }
+
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public void setFlangeSlopeAsString(String newFlangeSlopeAsString) {
+        eSet(Ifc2x3tc1Package.Literals.IFC_TSHAPE_PROFILE_DEF__FLANGE_SLOPE_AS_STRING, newFlangeSlopeAsString);
+    }
+
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public void unsetFlangeSlopeAsString() {
+        eUnset(Ifc2x3tc1Package.Literals.IFC_TSHAPE_PROFILE_DEF__FLANGE_SLOPE_AS_STRING);
+    }
+
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public boolean isSetFlangeSlopeAsString() {
+        return eIsSet(Ifc2x3tc1Package.Literals.IFC_TSHAPE_PROFILE_DEF__FLANGE_SLOPE_AS_STRING);
+    }
+
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public double getCentreOfGravityInY() {
+        return (Double) eGet(Ifc2x3tc1Package.Literals.IFC_TSHAPE_PROFILE_DEF__CENTRE_OF_GRAVITY_IN_Y, true);
+    }
+
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public void setCentreOfGravityInY(double newCentreOfGravityInY) {
+        eSet(Ifc2x3tc1Package.Literals.IFC_TSHAPE_PROFILE_DEF__CENTRE_OF_GRAVITY_IN_Y, newCentreOfGravityInY);
+    }
+
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public void unsetCentreOfGravityInY() {
+        eUnset(Ifc2x3tc1Package.Literals.IFC_TSHAPE_PROFILE_DEF__CENTRE_OF_GRAVITY_IN_Y);
+    }
+
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public boolean isSetCentreOfGravityInY() {
+        return eIsSet(Ifc2x3tc1Package.Literals.IFC_TSHAPE_PROFILE_DEF__CENTRE_OF_GRAVITY_IN_Y);
+    }
+
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public String getCentreOfGravityInYAsString() {
+        return (String) eGet(Ifc2x3tc1Package.Literals.IFC_TSHAPE_PROFILE_DEF__CENTRE_OF_GRAVITY_IN_YAS_STRING, true);
+    }
+
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public void setCentreOfGravityInYAsString(String newCentreOfGravityInYAsString) {
+        eSet(Ifc2x3tc1Package.Literals.IFC_TSHAPE_PROFILE_DEF__CENTRE_OF_GRAVITY_IN_YAS_STRING,
+                newCentreOfGravityInYAsString);
+    }
+
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public void unsetCentreOfGravityInYAsString() {
+        eUnset(Ifc2x3tc1Package.Literals.IFC_TSHAPE_PROFILE_DEF__CENTRE_OF_GRAVITY_IN_YAS_STRING);
+    }
+
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public boolean isSetCentreOfGravityInYAsString() {
+        return eIsSet(Ifc2x3tc1Package.Literals.IFC_TSHAPE_PROFILE_DEF__CENTRE_OF_GRAVITY_IN_YAS_STRING);
+    }
 
 } //IfcTShapeProfileDefImpl

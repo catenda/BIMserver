@@ -23,67 +23,67 @@ package org.bimserver.models.ifc2x3tc1;
  *
  * <p>
  * The following features are supported:
+ * </p>
  * <ul>
  *   <li>{@link org.bimserver.models.ifc2x3tc1.IfcReinforcingElement#getSteelGrade <em>Steel Grade</em>}</li>
  * </ul>
- * </p>
  *
  * @see org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package#getIfcReinforcingElement()
  * @model
  * @generated
  */
 public interface IfcReinforcingElement extends IfcBuildingElementComponent {
-	/**
-	 * Returns the value of the '<em><b>Steel Grade</b></em>' attribute.
-	 * <!-- begin-user-doc -->
-	 * <p>
-	 * If the meaning of the '<em>Steel Grade</em>' attribute isn't clear,
-	 * there really should be more of a description here...
-	 * </p>
-	 * <!-- end-user-doc -->
-	 * @return the value of the '<em>Steel Grade</em>' attribute.
-	 * @see #isSetSteelGrade()
-	 * @see #unsetSteelGrade()
-	 * @see #setSteelGrade(String)
-	 * @see org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package#getIfcReinforcingElement_SteelGrade()
-	 * @model unsettable="true"
-	 * @generated
-	 */
-	String getSteelGrade();
+    /**
+     * Returns the value of the '<em><b>Steel Grade</b></em>' attribute.
+     * <!-- begin-user-doc -->
+     * <p>
+     * If the meaning of the '<em>Steel Grade</em>' attribute isn't clear,
+     * there really should be more of a description here...
+     * </p>
+     * <!-- end-user-doc -->
+     * @return the value of the '<em>Steel Grade</em>' attribute.
+     * @see #isSetSteelGrade()
+     * @see #unsetSteelGrade()
+     * @see #setSteelGrade(String)
+     * @see org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package#getIfcReinforcingElement_SteelGrade()
+     * @model unsettable="true"
+     * @generated
+     */
+    String getSteelGrade();
 
-	/**
-	 * Sets the value of the '{@link org.bimserver.models.ifc2x3tc1.IfcReinforcingElement#getSteelGrade <em>Steel Grade</em>}' attribute.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @param value the new value of the '<em>Steel Grade</em>' attribute.
-	 * @see #isSetSteelGrade()
-	 * @see #unsetSteelGrade()
-	 * @see #getSteelGrade()
-	 * @generated
-	 */
-	void setSteelGrade(String value);
+    /**
+     * Sets the value of the '{@link org.bimserver.models.ifc2x3tc1.IfcReinforcingElement#getSteelGrade <em>Steel Grade</em>}' attribute.
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @param value the new value of the '<em>Steel Grade</em>' attribute.
+     * @see #isSetSteelGrade()
+     * @see #unsetSteelGrade()
+     * @see #getSteelGrade()
+     * @generated
+     */
+    void setSteelGrade(String value);
 
-	/**
-	 * Unsets the value of the '{@link org.bimserver.models.ifc2x3tc1.IfcReinforcingElement#getSteelGrade <em>Steel Grade</em>}' attribute.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @see #isSetSteelGrade()
-	 * @see #getSteelGrade()
-	 * @see #setSteelGrade(String)
-	 * @generated
-	 */
-	void unsetSteelGrade();
+    /**
+     * Unsets the value of the '{@link org.bimserver.models.ifc2x3tc1.IfcReinforcingElement#getSteelGrade <em>Steel Grade</em>}' attribute.
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @see #isSetSteelGrade()
+     * @see #getSteelGrade()
+     * @see #setSteelGrade(String)
+     * @generated
+     */
+    void unsetSteelGrade();
 
-	/**
-	 * Returns whether the value of the '{@link org.bimserver.models.ifc2x3tc1.IfcReinforcingElement#getSteelGrade <em>Steel Grade</em>}' attribute is set.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @return whether the value of the '<em>Steel Grade</em>' attribute is set.
-	 * @see #unsetSteelGrade()
-	 * @see #getSteelGrade()
-	 * @see #setSteelGrade(String)
-	 * @generated
-	 */
-	boolean isSetSteelGrade();
+    /**
+     * Returns whether the value of the '{@link org.bimserver.models.ifc2x3tc1.IfcReinforcingElement#getSteelGrade <em>Steel Grade</em>}' attribute is set.
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @return whether the value of the '<em>Steel Grade</em>' attribute is set.
+     * @see #unsetSteelGrade()
+     * @see #getSteelGrade()
+     * @see #setSteelGrade(String)
+     * @generated
+     */
+    boolean isSetSteelGrade();
 
 } // IfcReinforcingElement

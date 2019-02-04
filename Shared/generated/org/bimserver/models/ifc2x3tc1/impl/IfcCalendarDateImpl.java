@@ -17,8 +17,10 @@
 package org.bimserver.models.ifc2x3tc1.impl;
 
 import org.bimserver.emf.IdEObjectImpl;
+
 import org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package;
 import org.bimserver.models.ifc2x3tc1.IfcCalendarDate;
+
 import org.eclipse.emf.ecore.EClass;
 
 /**
@@ -27,97 +29,97 @@ import org.eclipse.emf.ecore.EClass;
  * <!-- end-user-doc -->
  * <p>
  * The following features are implemented:
+ * </p>
  * <ul>
  *   <li>{@link org.bimserver.models.ifc2x3tc1.impl.IfcCalendarDateImpl#getDayComponent <em>Day Component</em>}</li>
  *   <li>{@link org.bimserver.models.ifc2x3tc1.impl.IfcCalendarDateImpl#getMonthComponent <em>Month Component</em>}</li>
  *   <li>{@link org.bimserver.models.ifc2x3tc1.impl.IfcCalendarDateImpl#getYearComponent <em>Year Component</em>}</li>
  * </ul>
- * </p>
  *
  * @generated
  */
 public class IfcCalendarDateImpl extends IdEObjectImpl implements IfcCalendarDate {
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	protected IfcCalendarDateImpl() {
-		super();
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    protected IfcCalendarDateImpl() {
+        super();
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	@Override
-	protected EClass eStaticClass() {
-		return Ifc2x3tc1Package.Literals.IFC_CALENDAR_DATE;
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    @Override
+    protected EClass eStaticClass() {
+        return Ifc2x3tc1Package.Literals.IFC_CALENDAR_DATE;
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	@Override
-	protected int eStaticFeatureCount() {
-		return 0;
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    @Override
+    protected int eStaticFeatureCount() {
+        return 0;
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public int getDayComponent() {
-		return (Integer) eGet(Ifc2x3tc1Package.Literals.IFC_CALENDAR_DATE__DAY_COMPONENT, true);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public long getDayComponent() {
+        return (Long) eGet(Ifc2x3tc1Package.Literals.IFC_CALENDAR_DATE__DAY_COMPONENT, true);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public void setDayComponent(int newDayComponent) {
-		eSet(Ifc2x3tc1Package.Literals.IFC_CALENDAR_DATE__DAY_COMPONENT, newDayComponent);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public void setDayComponent(long newDayComponent) {
+        eSet(Ifc2x3tc1Package.Literals.IFC_CALENDAR_DATE__DAY_COMPONENT, newDayComponent);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public int getMonthComponent() {
-		return (Integer) eGet(Ifc2x3tc1Package.Literals.IFC_CALENDAR_DATE__MONTH_COMPONENT, true);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public long getMonthComponent() {
+        return (Long) eGet(Ifc2x3tc1Package.Literals.IFC_CALENDAR_DATE__MONTH_COMPONENT, true);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public void setMonthComponent(int newMonthComponent) {
-		eSet(Ifc2x3tc1Package.Literals.IFC_CALENDAR_DATE__MONTH_COMPONENT, newMonthComponent);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public void setMonthComponent(long newMonthComponent) {
+        eSet(Ifc2x3tc1Package.Literals.IFC_CALENDAR_DATE__MONTH_COMPONENT, newMonthComponent);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public int getYearComponent() {
-		return (Integer) eGet(Ifc2x3tc1Package.Literals.IFC_CALENDAR_DATE__YEAR_COMPONENT, true);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public long getYearComponent() {
+        return (Long) eGet(Ifc2x3tc1Package.Literals.IFC_CALENDAR_DATE__YEAR_COMPONENT, true);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public void setYearComponent(int newYearComponent) {
-		eSet(Ifc2x3tc1Package.Literals.IFC_CALENDAR_DATE__YEAR_COMPONENT, newYearComponent);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public void setYearComponent(long newYearComponent) {
+        eSet(Ifc2x3tc1Package.Literals.IFC_CALENDAR_DATE__YEAR_COMPONENT, newYearComponent);
+    }
 
 } //IfcCalendarDateImpl

@@ -17,10 +17,13 @@
 package org.bimserver.models.ifc2x3tc1.impl;
 
 import org.bimserver.emf.IdEObjectImpl;
+
 import org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package;
 import org.bimserver.models.ifc2x3tc1.IfcAnnotationSurface;
 import org.bimserver.models.ifc2x3tc1.IfcTextureCoordinate;
+
 import org.eclipse.emf.common.util.EList;
+
 import org.eclipse.emf.ecore.EClass;
 
 /**
@@ -29,69 +32,70 @@ import org.eclipse.emf.ecore.EClass;
  * <!-- end-user-doc -->
  * <p>
  * The following features are implemented:
+ * </p>
  * <ul>
  *   <li>{@link org.bimserver.models.ifc2x3tc1.impl.IfcTextureCoordinateImpl#getAnnotatedSurface <em>Annotated Surface</em>}</li>
  * </ul>
- * </p>
  *
  * @generated
  */
 public class IfcTextureCoordinateImpl extends IdEObjectImpl implements IfcTextureCoordinate {
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	protected IfcTextureCoordinateImpl() {
-		super();
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    protected IfcTextureCoordinateImpl() {
+        super();
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	@Override
-	protected EClass eStaticClass() {
-		return Ifc2x3tc1Package.Literals.IFC_TEXTURE_COORDINATE;
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    @Override
+    protected EClass eStaticClass() {
+        return Ifc2x3tc1Package.Literals.IFC_TEXTURE_COORDINATE;
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	@Override
-	protected int eStaticFeatureCount() {
-		return 0;
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    @Override
+    protected int eStaticFeatureCount() {
+        return 0;
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	@SuppressWarnings("unchecked")
-	public EList<IfcAnnotationSurface> getAnnotatedSurface() {
-		return (EList<IfcAnnotationSurface>) eGet(Ifc2x3tc1Package.Literals.IFC_TEXTURE_COORDINATE__ANNOTATED_SURFACE, true);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    @SuppressWarnings("unchecked")
+    public EList<IfcAnnotationSurface> getAnnotatedSurface() {
+        return (EList<IfcAnnotationSurface>) eGet(Ifc2x3tc1Package.Literals.IFC_TEXTURE_COORDINATE__ANNOTATED_SURFACE,
+                true);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public void unsetAnnotatedSurface() {
-		eUnset(Ifc2x3tc1Package.Literals.IFC_TEXTURE_COORDINATE__ANNOTATED_SURFACE);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public void unsetAnnotatedSurface() {
+        eUnset(Ifc2x3tc1Package.Literals.IFC_TEXTURE_COORDINATE__ANNOTATED_SURFACE);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public boolean isSetAnnotatedSurface() {
-		return eIsSet(Ifc2x3tc1Package.Literals.IFC_TEXTURE_COORDINATE__ANNOTATED_SURFACE);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public boolean isSetAnnotatedSurface() {
+        return eIsSet(Ifc2x3tc1Package.Literals.IFC_TEXTURE_COORDINATE__ANNOTATED_SURFACE);
+    }
 
 } //IfcTextureCoordinateImpl

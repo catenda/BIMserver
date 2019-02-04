@@ -18,6 +18,7 @@ package org.bimserver.models.ifc2x3tc1.impl;
 
 import org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package;
 import org.bimserver.models.ifc2x3tc1.IfcEllipse;
+
 import org.eclipse.emf.ecore.EClass;
 
 /**
@@ -26,106 +27,106 @@ import org.eclipse.emf.ecore.EClass;
  * <!-- end-user-doc -->
  * <p>
  * The following features are implemented:
+ * </p>
  * <ul>
  *   <li>{@link org.bimserver.models.ifc2x3tc1.impl.IfcEllipseImpl#getSemiAxis1 <em>Semi Axis1</em>}</li>
  *   <li>{@link org.bimserver.models.ifc2x3tc1.impl.IfcEllipseImpl#getSemiAxis1AsString <em>Semi Axis1 As String</em>}</li>
  *   <li>{@link org.bimserver.models.ifc2x3tc1.impl.IfcEllipseImpl#getSemiAxis2 <em>Semi Axis2</em>}</li>
  *   <li>{@link org.bimserver.models.ifc2x3tc1.impl.IfcEllipseImpl#getSemiAxis2AsString <em>Semi Axis2 As String</em>}</li>
  * </ul>
- * </p>
  *
  * @generated
  */
 public class IfcEllipseImpl extends IfcConicImpl implements IfcEllipse {
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	protected IfcEllipseImpl() {
-		super();
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    protected IfcEllipseImpl() {
+        super();
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	@Override
-	protected EClass eStaticClass() {
-		return Ifc2x3tc1Package.Literals.IFC_ELLIPSE;
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    @Override
+    protected EClass eStaticClass() {
+        return Ifc2x3tc1Package.Literals.IFC_ELLIPSE;
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public double getSemiAxis1() {
-		return (Double) eGet(Ifc2x3tc1Package.Literals.IFC_ELLIPSE__SEMI_AXIS1, true);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public double getSemiAxis1() {
+        return (Double) eGet(Ifc2x3tc1Package.Literals.IFC_ELLIPSE__SEMI_AXIS1, true);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public void setSemiAxis1(double newSemiAxis1) {
-		eSet(Ifc2x3tc1Package.Literals.IFC_ELLIPSE__SEMI_AXIS1, newSemiAxis1);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public void setSemiAxis1(double newSemiAxis1) {
+        eSet(Ifc2x3tc1Package.Literals.IFC_ELLIPSE__SEMI_AXIS1, newSemiAxis1);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public String getSemiAxis1AsString() {
-		return (String) eGet(Ifc2x3tc1Package.Literals.IFC_ELLIPSE__SEMI_AXIS1_AS_STRING, true);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public String getSemiAxis1AsString() {
+        return (String) eGet(Ifc2x3tc1Package.Literals.IFC_ELLIPSE__SEMI_AXIS1_AS_STRING, true);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public void setSemiAxis1AsString(String newSemiAxis1AsString) {
-		eSet(Ifc2x3tc1Package.Literals.IFC_ELLIPSE__SEMI_AXIS1_AS_STRING, newSemiAxis1AsString);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public void setSemiAxis1AsString(String newSemiAxis1AsString) {
+        eSet(Ifc2x3tc1Package.Literals.IFC_ELLIPSE__SEMI_AXIS1_AS_STRING, newSemiAxis1AsString);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public double getSemiAxis2() {
-		return (Double) eGet(Ifc2x3tc1Package.Literals.IFC_ELLIPSE__SEMI_AXIS2, true);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public double getSemiAxis2() {
+        return (Double) eGet(Ifc2x3tc1Package.Literals.IFC_ELLIPSE__SEMI_AXIS2, true);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public void setSemiAxis2(double newSemiAxis2) {
-		eSet(Ifc2x3tc1Package.Literals.IFC_ELLIPSE__SEMI_AXIS2, newSemiAxis2);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public void setSemiAxis2(double newSemiAxis2) {
+        eSet(Ifc2x3tc1Package.Literals.IFC_ELLIPSE__SEMI_AXIS2, newSemiAxis2);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public String getSemiAxis2AsString() {
-		return (String) eGet(Ifc2x3tc1Package.Literals.IFC_ELLIPSE__SEMI_AXIS2_AS_STRING, true);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public String getSemiAxis2AsString() {
+        return (String) eGet(Ifc2x3tc1Package.Literals.IFC_ELLIPSE__SEMI_AXIS2_AS_STRING, true);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public void setSemiAxis2AsString(String newSemiAxis2AsString) {
-		eSet(Ifc2x3tc1Package.Literals.IFC_ELLIPSE__SEMI_AXIS2_AS_STRING, newSemiAxis2AsString);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public void setSemiAxis2AsString(String newSemiAxis2AsString) {
+        eSet(Ifc2x3tc1Package.Literals.IFC_ELLIPSE__SEMI_AXIS2_AS_STRING, newSemiAxis2AsString);
+    }
 
 } //IfcEllipseImpl

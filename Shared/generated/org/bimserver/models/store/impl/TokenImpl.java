@@ -17,8 +17,10 @@
 package org.bimserver.models.store.impl;
 
 import org.bimserver.emf.IdEObjectImpl;
+
 import org.bimserver.models.store.StorePackage;
 import org.bimserver.models.store.Token;
+
 import org.eclipse.emf.ecore.EClass;
 
 /**
@@ -27,78 +29,78 @@ import org.eclipse.emf.ecore.EClass;
  * <!-- end-user-doc -->
  * <p>
  * The following features are implemented:
+ * </p>
  * <ul>
  *   <li>{@link org.bimserver.models.store.impl.TokenImpl#getTokenString <em>Token String</em>}</li>
  *   <li>{@link org.bimserver.models.store.impl.TokenImpl#getExpires <em>Expires</em>}</li>
  * </ul>
- * </p>
  *
  * @generated
  */
 public class TokenImpl extends IdEObjectImpl implements Token {
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	protected TokenImpl() {
-		super();
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    protected TokenImpl() {
+        super();
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	@Override
-	protected EClass eStaticClass() {
-		return StorePackage.Literals.TOKEN;
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    @Override
+    protected EClass eStaticClass() {
+        return StorePackage.Literals.TOKEN;
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	@Override
-	protected int eStaticFeatureCount() {
-		return 0;
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    @Override
+    protected int eStaticFeatureCount() {
+        return 0;
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public String getTokenString() {
-		return (String) eGet(StorePackage.Literals.TOKEN__TOKEN_STRING, true);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public String getTokenString() {
+        return (String) eGet(StorePackage.Literals.TOKEN__TOKEN_STRING, true);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public void setTokenString(String newTokenString) {
-		eSet(StorePackage.Literals.TOKEN__TOKEN_STRING, newTokenString);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public void setTokenString(String newTokenString) {
+        eSet(StorePackage.Literals.TOKEN__TOKEN_STRING, newTokenString);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public long getExpires() {
-		return (Long) eGet(StorePackage.Literals.TOKEN__EXPIRES, true);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public long getExpires() {
+        return (Long) eGet(StorePackage.Literals.TOKEN__EXPIRES, true);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public void setExpires(long newExpires) {
-		eSet(StorePackage.Literals.TOKEN__EXPIRES, newExpires);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public void setExpires(long newExpires) {
+        eSet(StorePackage.Literals.TOKEN__EXPIRES, newExpires);
+    }
 
 } //TokenImpl

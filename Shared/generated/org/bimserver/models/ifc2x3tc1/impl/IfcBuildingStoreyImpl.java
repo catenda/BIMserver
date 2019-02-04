@@ -18,6 +18,7 @@ package org.bimserver.models.ifc2x3tc1.impl;
 
 import org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package;
 import org.bimserver.models.ifc2x3tc1.IfcBuildingStorey;
+
 import org.eclipse.emf.ecore.EClass;
 
 /**
@@ -26,104 +27,104 @@ import org.eclipse.emf.ecore.EClass;
  * <!-- end-user-doc -->
  * <p>
  * The following features are implemented:
+ * </p>
  * <ul>
  *   <li>{@link org.bimserver.models.ifc2x3tc1.impl.IfcBuildingStoreyImpl#getElevation <em>Elevation</em>}</li>
  *   <li>{@link org.bimserver.models.ifc2x3tc1.impl.IfcBuildingStoreyImpl#getElevationAsString <em>Elevation As String</em>}</li>
  * </ul>
- * </p>
  *
  * @generated
  */
 public class IfcBuildingStoreyImpl extends IfcSpatialStructureElementImpl implements IfcBuildingStorey {
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	protected IfcBuildingStoreyImpl() {
-		super();
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    protected IfcBuildingStoreyImpl() {
+        super();
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	@Override
-	protected EClass eStaticClass() {
-		return Ifc2x3tc1Package.Literals.IFC_BUILDING_STOREY;
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    @Override
+    protected EClass eStaticClass() {
+        return Ifc2x3tc1Package.Literals.IFC_BUILDING_STOREY;
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public double getElevation() {
-		return (Double) eGet(Ifc2x3tc1Package.Literals.IFC_BUILDING_STOREY__ELEVATION, true);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public double getElevation() {
+        return (Double) eGet(Ifc2x3tc1Package.Literals.IFC_BUILDING_STOREY__ELEVATION, true);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public void setElevation(double newElevation) {
-		eSet(Ifc2x3tc1Package.Literals.IFC_BUILDING_STOREY__ELEVATION, newElevation);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public void setElevation(double newElevation) {
+        eSet(Ifc2x3tc1Package.Literals.IFC_BUILDING_STOREY__ELEVATION, newElevation);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public void unsetElevation() {
-		eUnset(Ifc2x3tc1Package.Literals.IFC_BUILDING_STOREY__ELEVATION);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public void unsetElevation() {
+        eUnset(Ifc2x3tc1Package.Literals.IFC_BUILDING_STOREY__ELEVATION);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public boolean isSetElevation() {
-		return eIsSet(Ifc2x3tc1Package.Literals.IFC_BUILDING_STOREY__ELEVATION);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public boolean isSetElevation() {
+        return eIsSet(Ifc2x3tc1Package.Literals.IFC_BUILDING_STOREY__ELEVATION);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public String getElevationAsString() {
-		return (String) eGet(Ifc2x3tc1Package.Literals.IFC_BUILDING_STOREY__ELEVATION_AS_STRING, true);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public String getElevationAsString() {
+        return (String) eGet(Ifc2x3tc1Package.Literals.IFC_BUILDING_STOREY__ELEVATION_AS_STRING, true);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public void setElevationAsString(String newElevationAsString) {
-		eSet(Ifc2x3tc1Package.Literals.IFC_BUILDING_STOREY__ELEVATION_AS_STRING, newElevationAsString);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public void setElevationAsString(String newElevationAsString) {
+        eSet(Ifc2x3tc1Package.Literals.IFC_BUILDING_STOREY__ELEVATION_AS_STRING, newElevationAsString);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public void unsetElevationAsString() {
-		eUnset(Ifc2x3tc1Package.Literals.IFC_BUILDING_STOREY__ELEVATION_AS_STRING);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public void unsetElevationAsString() {
+        eUnset(Ifc2x3tc1Package.Literals.IFC_BUILDING_STOREY__ELEVATION_AS_STRING);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public boolean isSetElevationAsString() {
-		return eIsSet(Ifc2x3tc1Package.Literals.IFC_BUILDING_STOREY__ELEVATION_AS_STRING);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public boolean isSetElevationAsString() {
+        return eIsSet(Ifc2x3tc1Package.Literals.IFC_BUILDING_STOREY__ELEVATION_AS_STRING);
+    }
 
 } //IfcBuildingStoreyImpl

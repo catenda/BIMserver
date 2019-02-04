@@ -20,7 +20,9 @@ import org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package;
 import org.bimserver.models.ifc2x3tc1.IfcDraughtingCallout;
 import org.bimserver.models.ifc2x3tc1.IfcDraughtingCalloutElement;
 import org.bimserver.models.ifc2x3tc1.IfcDraughtingCalloutRelationship;
+
 import org.eclipse.emf.common.util.EList;
+
 import org.eclipse.emf.ecore.EClass;
 
 /**
@@ -29,99 +31,102 @@ import org.eclipse.emf.ecore.EClass;
  * <!-- end-user-doc -->
  * <p>
  * The following features are implemented:
+ * </p>
  * <ul>
  *   <li>{@link org.bimserver.models.ifc2x3tc1.impl.IfcDraughtingCalloutImpl#getContents <em>Contents</em>}</li>
  *   <li>{@link org.bimserver.models.ifc2x3tc1.impl.IfcDraughtingCalloutImpl#getIsRelatedFromCallout <em>Is Related From Callout</em>}</li>
  *   <li>{@link org.bimserver.models.ifc2x3tc1.impl.IfcDraughtingCalloutImpl#getIsRelatedToCallout <em>Is Related To Callout</em>}</li>
  * </ul>
- * </p>
  *
  * @generated
  */
 public class IfcDraughtingCalloutImpl extends IfcGeometricRepresentationItemImpl implements IfcDraughtingCallout {
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	protected IfcDraughtingCalloutImpl() {
-		super();
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    protected IfcDraughtingCalloutImpl() {
+        super();
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	@Override
-	protected EClass eStaticClass() {
-		return Ifc2x3tc1Package.Literals.IFC_DRAUGHTING_CALLOUT;
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    @Override
+    protected EClass eStaticClass() {
+        return Ifc2x3tc1Package.Literals.IFC_DRAUGHTING_CALLOUT;
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	@SuppressWarnings("unchecked")
-	public EList<IfcDraughtingCalloutElement> getContents() {
-		return (EList<IfcDraughtingCalloutElement>) eGet(Ifc2x3tc1Package.Literals.IFC_DRAUGHTING_CALLOUT__CONTENTS, true);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    @SuppressWarnings("unchecked")
+    public EList<IfcDraughtingCalloutElement> getContents() {
+        return (EList<IfcDraughtingCalloutElement>) eGet(Ifc2x3tc1Package.Literals.IFC_DRAUGHTING_CALLOUT__CONTENTS,
+                true);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	@SuppressWarnings("unchecked")
-	public EList<IfcDraughtingCalloutRelationship> getIsRelatedFromCallout() {
-		return (EList<IfcDraughtingCalloutRelationship>) eGet(Ifc2x3tc1Package.Literals.IFC_DRAUGHTING_CALLOUT__IS_RELATED_FROM_CALLOUT, true);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    @SuppressWarnings("unchecked")
+    public EList<IfcDraughtingCalloutRelationship> getIsRelatedFromCallout() {
+        return (EList<IfcDraughtingCalloutRelationship>) eGet(
+                Ifc2x3tc1Package.Literals.IFC_DRAUGHTING_CALLOUT__IS_RELATED_FROM_CALLOUT, true);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public void unsetIsRelatedFromCallout() {
-		eUnset(Ifc2x3tc1Package.Literals.IFC_DRAUGHTING_CALLOUT__IS_RELATED_FROM_CALLOUT);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public void unsetIsRelatedFromCallout() {
+        eUnset(Ifc2x3tc1Package.Literals.IFC_DRAUGHTING_CALLOUT__IS_RELATED_FROM_CALLOUT);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public boolean isSetIsRelatedFromCallout() {
-		return eIsSet(Ifc2x3tc1Package.Literals.IFC_DRAUGHTING_CALLOUT__IS_RELATED_FROM_CALLOUT);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public boolean isSetIsRelatedFromCallout() {
+        return eIsSet(Ifc2x3tc1Package.Literals.IFC_DRAUGHTING_CALLOUT__IS_RELATED_FROM_CALLOUT);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	@SuppressWarnings("unchecked")
-	public EList<IfcDraughtingCalloutRelationship> getIsRelatedToCallout() {
-		return (EList<IfcDraughtingCalloutRelationship>) eGet(Ifc2x3tc1Package.Literals.IFC_DRAUGHTING_CALLOUT__IS_RELATED_TO_CALLOUT, true);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    @SuppressWarnings("unchecked")
+    public EList<IfcDraughtingCalloutRelationship> getIsRelatedToCallout() {
+        return (EList<IfcDraughtingCalloutRelationship>) eGet(
+                Ifc2x3tc1Package.Literals.IFC_DRAUGHTING_CALLOUT__IS_RELATED_TO_CALLOUT, true);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public void unsetIsRelatedToCallout() {
-		eUnset(Ifc2x3tc1Package.Literals.IFC_DRAUGHTING_CALLOUT__IS_RELATED_TO_CALLOUT);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public void unsetIsRelatedToCallout() {
+        eUnset(Ifc2x3tc1Package.Literals.IFC_DRAUGHTING_CALLOUT__IS_RELATED_TO_CALLOUT);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public boolean isSetIsRelatedToCallout() {
-		return eIsSet(Ifc2x3tc1Package.Literals.IFC_DRAUGHTING_CALLOUT__IS_RELATED_TO_CALLOUT);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public boolean isSetIsRelatedToCallout() {
+        return eIsSet(Ifc2x3tc1Package.Literals.IFC_DRAUGHTING_CALLOUT__IS_RELATED_TO_CALLOUT);
+    }
 
 } //IfcDraughtingCalloutImpl

@@ -18,6 +18,7 @@ package org.bimserver.models.ifc2x3tc1.impl;
 
 import org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package;
 import org.bimserver.models.ifc2x3tc1.IfcActionRequest;
+
 import org.eclipse.emf.ecore.EClass;
 
 /**
@@ -26,49 +27,49 @@ import org.eclipse.emf.ecore.EClass;
  * <!-- end-user-doc -->
  * <p>
  * The following features are implemented:
+ * </p>
  * <ul>
  *   <li>{@link org.bimserver.models.ifc2x3tc1.impl.IfcActionRequestImpl#getRequestID <em>Request ID</em>}</li>
  * </ul>
- * </p>
  *
  * @generated
  */
 public class IfcActionRequestImpl extends IfcControlImpl implements IfcActionRequest {
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	protected IfcActionRequestImpl() {
-		super();
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    protected IfcActionRequestImpl() {
+        super();
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	@Override
-	protected EClass eStaticClass() {
-		return Ifc2x3tc1Package.Literals.IFC_ACTION_REQUEST;
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    @Override
+    protected EClass eStaticClass() {
+        return Ifc2x3tc1Package.Literals.IFC_ACTION_REQUEST;
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public String getRequestID() {
-		return (String) eGet(Ifc2x3tc1Package.Literals.IFC_ACTION_REQUEST__REQUEST_ID, true);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public String getRequestID() {
+        return (String) eGet(Ifc2x3tc1Package.Literals.IFC_ACTION_REQUEST__REQUEST_ID, true);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public void setRequestID(String newRequestID) {
-		eSet(Ifc2x3tc1Package.Literals.IFC_ACTION_REQUEST__REQUEST_ID, newRequestID);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public void setRequestID(String newRequestID) {
+        eSet(Ifc2x3tc1Package.Literals.IFC_ACTION_REQUEST__REQUEST_ID, newRequestID);
+    }
 
 } //IfcActionRequestImpl

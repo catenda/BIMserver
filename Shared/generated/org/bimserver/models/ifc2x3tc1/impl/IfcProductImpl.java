@@ -22,7 +22,9 @@ import org.bimserver.models.ifc2x3tc1.IfcObjectPlacement;
 import org.bimserver.models.ifc2x3tc1.IfcProduct;
 import org.bimserver.models.ifc2x3tc1.IfcProductRepresentation;
 import org.bimserver.models.ifc2x3tc1.IfcRelAssignsToProduct;
+
 import org.eclipse.emf.common.util.EList;
+
 import org.eclipse.emf.ecore.EClass;
 
 /**
@@ -31,152 +33,152 @@ import org.eclipse.emf.ecore.EClass;
  * <!-- end-user-doc -->
  * <p>
  * The following features are implemented:
+ * </p>
  * <ul>
  *   <li>{@link org.bimserver.models.ifc2x3tc1.impl.IfcProductImpl#getObjectPlacement <em>Object Placement</em>}</li>
  *   <li>{@link org.bimserver.models.ifc2x3tc1.impl.IfcProductImpl#getRepresentation <em>Representation</em>}</li>
  *   <li>{@link org.bimserver.models.ifc2x3tc1.impl.IfcProductImpl#getReferencedBy <em>Referenced By</em>}</li>
  *   <li>{@link org.bimserver.models.ifc2x3tc1.impl.IfcProductImpl#getGeometry <em>Geometry</em>}</li>
  * </ul>
- * </p>
  *
  * @generated
  */
 public class IfcProductImpl extends IfcObjectImpl implements IfcProduct {
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	protected IfcProductImpl() {
-		super();
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    protected IfcProductImpl() {
+        super();
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	@Override
-	protected EClass eStaticClass() {
-		return Ifc2x3tc1Package.Literals.IFC_PRODUCT;
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    @Override
+    protected EClass eStaticClass() {
+        return Ifc2x3tc1Package.Literals.IFC_PRODUCT;
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public IfcObjectPlacement getObjectPlacement() {
-		return (IfcObjectPlacement) eGet(Ifc2x3tc1Package.Literals.IFC_PRODUCT__OBJECT_PLACEMENT, true);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public IfcObjectPlacement getObjectPlacement() {
+        return (IfcObjectPlacement) eGet(Ifc2x3tc1Package.Literals.IFC_PRODUCT__OBJECT_PLACEMENT, true);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public void setObjectPlacement(IfcObjectPlacement newObjectPlacement) {
-		eSet(Ifc2x3tc1Package.Literals.IFC_PRODUCT__OBJECT_PLACEMENT, newObjectPlacement);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public void setObjectPlacement(IfcObjectPlacement newObjectPlacement) {
+        eSet(Ifc2x3tc1Package.Literals.IFC_PRODUCT__OBJECT_PLACEMENT, newObjectPlacement);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public void unsetObjectPlacement() {
-		eUnset(Ifc2x3tc1Package.Literals.IFC_PRODUCT__OBJECT_PLACEMENT);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public void unsetObjectPlacement() {
+        eUnset(Ifc2x3tc1Package.Literals.IFC_PRODUCT__OBJECT_PLACEMENT);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public boolean isSetObjectPlacement() {
-		return eIsSet(Ifc2x3tc1Package.Literals.IFC_PRODUCT__OBJECT_PLACEMENT);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public boolean isSetObjectPlacement() {
+        return eIsSet(Ifc2x3tc1Package.Literals.IFC_PRODUCT__OBJECT_PLACEMENT);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public IfcProductRepresentation getRepresentation() {
-		return (IfcProductRepresentation) eGet(Ifc2x3tc1Package.Literals.IFC_PRODUCT__REPRESENTATION, true);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public IfcProductRepresentation getRepresentation() {
+        return (IfcProductRepresentation) eGet(Ifc2x3tc1Package.Literals.IFC_PRODUCT__REPRESENTATION, true);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public void setRepresentation(IfcProductRepresentation newRepresentation) {
-		eSet(Ifc2x3tc1Package.Literals.IFC_PRODUCT__REPRESENTATION, newRepresentation);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public void setRepresentation(IfcProductRepresentation newRepresentation) {
+        eSet(Ifc2x3tc1Package.Literals.IFC_PRODUCT__REPRESENTATION, newRepresentation);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public void unsetRepresentation() {
-		eUnset(Ifc2x3tc1Package.Literals.IFC_PRODUCT__REPRESENTATION);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public void unsetRepresentation() {
+        eUnset(Ifc2x3tc1Package.Literals.IFC_PRODUCT__REPRESENTATION);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public boolean isSetRepresentation() {
-		return eIsSet(Ifc2x3tc1Package.Literals.IFC_PRODUCT__REPRESENTATION);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public boolean isSetRepresentation() {
+        return eIsSet(Ifc2x3tc1Package.Literals.IFC_PRODUCT__REPRESENTATION);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	@SuppressWarnings("unchecked")
-	public EList<IfcRelAssignsToProduct> getReferencedBy() {
-		return (EList<IfcRelAssignsToProduct>) eGet(Ifc2x3tc1Package.Literals.IFC_PRODUCT__REFERENCED_BY, true);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    @SuppressWarnings("unchecked")
+    public EList<IfcRelAssignsToProduct> getReferencedBy() {
+        return (EList<IfcRelAssignsToProduct>) eGet(Ifc2x3tc1Package.Literals.IFC_PRODUCT__REFERENCED_BY, true);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public void unsetReferencedBy() {
-		eUnset(Ifc2x3tc1Package.Literals.IFC_PRODUCT__REFERENCED_BY);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public void unsetReferencedBy() {
+        eUnset(Ifc2x3tc1Package.Literals.IFC_PRODUCT__REFERENCED_BY);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public boolean isSetReferencedBy() {
-		return eIsSet(Ifc2x3tc1Package.Literals.IFC_PRODUCT__REFERENCED_BY);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public boolean isSetReferencedBy() {
+        return eIsSet(Ifc2x3tc1Package.Literals.IFC_PRODUCT__REFERENCED_BY);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public GeometryInfo getGeometry() {
-		return (GeometryInfo) eGet(Ifc2x3tc1Package.Literals.IFC_PRODUCT__GEOMETRY, true);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public GeometryInfo getGeometry() {
+        return (GeometryInfo) eGet(Ifc2x3tc1Package.Literals.IFC_PRODUCT__GEOMETRY, true);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public void setGeometry(GeometryInfo newGeometry) {
-		eSet(Ifc2x3tc1Package.Literals.IFC_PRODUCT__GEOMETRY, newGeometry);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public void setGeometry(GeometryInfo newGeometry) {
+        eSet(Ifc2x3tc1Package.Literals.IFC_PRODUCT__GEOMETRY, newGeometry);
+    }
 
 } //IfcProductImpl

@@ -21,6 +21,7 @@ import org.bimserver.models.ifc2x3tc1.IfcGlobalOrLocalEnum;
 import org.bimserver.models.ifc2x3tc1.IfcRelConnectsStructuralActivity;
 import org.bimserver.models.ifc2x3tc1.IfcStructuralActivity;
 import org.bimserver.models.ifc2x3tc1.IfcStructuralLoad;
+
 import org.eclipse.emf.ecore.EClass;
 
 /**
@@ -29,105 +30,107 @@ import org.eclipse.emf.ecore.EClass;
  * <!-- end-user-doc -->
  * <p>
  * The following features are implemented:
+ * </p>
  * <ul>
  *   <li>{@link org.bimserver.models.ifc2x3tc1.impl.IfcStructuralActivityImpl#getAppliedLoad <em>Applied Load</em>}</li>
  *   <li>{@link org.bimserver.models.ifc2x3tc1.impl.IfcStructuralActivityImpl#getGlobalOrLocal <em>Global Or Local</em>}</li>
  *   <li>{@link org.bimserver.models.ifc2x3tc1.impl.IfcStructuralActivityImpl#getAssignedToStructuralItem <em>Assigned To Structural Item</em>}</li>
  * </ul>
- * </p>
  *
  * @generated
  */
 public class IfcStructuralActivityImpl extends IfcProductImpl implements IfcStructuralActivity {
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	protected IfcStructuralActivityImpl() {
-		super();
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    protected IfcStructuralActivityImpl() {
+        super();
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	@Override
-	protected EClass eStaticClass() {
-		return Ifc2x3tc1Package.Literals.IFC_STRUCTURAL_ACTIVITY;
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    @Override
+    protected EClass eStaticClass() {
+        return Ifc2x3tc1Package.Literals.IFC_STRUCTURAL_ACTIVITY;
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public IfcStructuralLoad getAppliedLoad() {
-		return (IfcStructuralLoad) eGet(Ifc2x3tc1Package.Literals.IFC_STRUCTURAL_ACTIVITY__APPLIED_LOAD, true);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public IfcStructuralLoad getAppliedLoad() {
+        return (IfcStructuralLoad) eGet(Ifc2x3tc1Package.Literals.IFC_STRUCTURAL_ACTIVITY__APPLIED_LOAD, true);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public void setAppliedLoad(IfcStructuralLoad newAppliedLoad) {
-		eSet(Ifc2x3tc1Package.Literals.IFC_STRUCTURAL_ACTIVITY__APPLIED_LOAD, newAppliedLoad);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public void setAppliedLoad(IfcStructuralLoad newAppliedLoad) {
+        eSet(Ifc2x3tc1Package.Literals.IFC_STRUCTURAL_ACTIVITY__APPLIED_LOAD, newAppliedLoad);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public IfcGlobalOrLocalEnum getGlobalOrLocal() {
-		return (IfcGlobalOrLocalEnum) eGet(Ifc2x3tc1Package.Literals.IFC_STRUCTURAL_ACTIVITY__GLOBAL_OR_LOCAL, true);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public IfcGlobalOrLocalEnum getGlobalOrLocal() {
+        return (IfcGlobalOrLocalEnum) eGet(Ifc2x3tc1Package.Literals.IFC_STRUCTURAL_ACTIVITY__GLOBAL_OR_LOCAL, true);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public void setGlobalOrLocal(IfcGlobalOrLocalEnum newGlobalOrLocal) {
-		eSet(Ifc2x3tc1Package.Literals.IFC_STRUCTURAL_ACTIVITY__GLOBAL_OR_LOCAL, newGlobalOrLocal);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public void setGlobalOrLocal(IfcGlobalOrLocalEnum newGlobalOrLocal) {
+        eSet(Ifc2x3tc1Package.Literals.IFC_STRUCTURAL_ACTIVITY__GLOBAL_OR_LOCAL, newGlobalOrLocal);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public IfcRelConnectsStructuralActivity getAssignedToStructuralItem() {
-		return (IfcRelConnectsStructuralActivity) eGet(Ifc2x3tc1Package.Literals.IFC_STRUCTURAL_ACTIVITY__ASSIGNED_TO_STRUCTURAL_ITEM, true);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public IfcRelConnectsStructuralActivity getAssignedToStructuralItem() {
+        return (IfcRelConnectsStructuralActivity) eGet(
+                Ifc2x3tc1Package.Literals.IFC_STRUCTURAL_ACTIVITY__ASSIGNED_TO_STRUCTURAL_ITEM, true);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public void setAssignedToStructuralItem(IfcRelConnectsStructuralActivity newAssignedToStructuralItem) {
-		eSet(Ifc2x3tc1Package.Literals.IFC_STRUCTURAL_ACTIVITY__ASSIGNED_TO_STRUCTURAL_ITEM, newAssignedToStructuralItem);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public void setAssignedToStructuralItem(IfcRelConnectsStructuralActivity newAssignedToStructuralItem) {
+        eSet(Ifc2x3tc1Package.Literals.IFC_STRUCTURAL_ACTIVITY__ASSIGNED_TO_STRUCTURAL_ITEM,
+                newAssignedToStructuralItem);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public void unsetAssignedToStructuralItem() {
-		eUnset(Ifc2x3tc1Package.Literals.IFC_STRUCTURAL_ACTIVITY__ASSIGNED_TO_STRUCTURAL_ITEM);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public void unsetAssignedToStructuralItem() {
+        eUnset(Ifc2x3tc1Package.Literals.IFC_STRUCTURAL_ACTIVITY__ASSIGNED_TO_STRUCTURAL_ITEM);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public boolean isSetAssignedToStructuralItem() {
-		return eIsSet(Ifc2x3tc1Package.Literals.IFC_STRUCTURAL_ACTIVITY__ASSIGNED_TO_STRUCTURAL_ITEM);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public boolean isSetAssignedToStructuralItem() {
+        return eIsSet(Ifc2x3tc1Package.Literals.IFC_STRUCTURAL_ACTIVITY__ASSIGNED_TO_STRUCTURAL_ITEM);
+    }
 
 } //IfcStructuralActivityImpl

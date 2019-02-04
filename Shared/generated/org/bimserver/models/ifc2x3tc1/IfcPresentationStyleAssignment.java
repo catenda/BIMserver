@@ -17,6 +17,7 @@
 package org.bimserver.models.ifc2x3tc1;
 
 import org.bimserver.emf.IdEObject;
+
 import org.eclipse.emf.common.util.EList;
 
 /**
@@ -26,10 +27,10 @@ import org.eclipse.emf.common.util.EList;
  *
  * <p>
  * The following features are supported:
+ * </p>
  * <ul>
  *   <li>{@link org.bimserver.models.ifc2x3tc1.IfcPresentationStyleAssignment#getStyles <em>Styles</em>}</li>
  * </ul>
- * </p>
  *
  * @see org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package#getIfcPresentationStyleAssignment()
  * @model
@@ -37,20 +38,20 @@ import org.eclipse.emf.common.util.EList;
  * @generated
  */
 public interface IfcPresentationStyleAssignment extends IdEObject {
-	/**
-	 * Returns the value of the '<em><b>Styles</b></em>' reference list.
-	 * The list contents are of type {@link org.bimserver.models.ifc2x3tc1.IfcPresentationStyleSelect}.
-	 * <!-- begin-user-doc -->
-	 * <p>
-	 * If the meaning of the '<em>Styles</em>' reference list isn't clear,
-	 * there really should be more of a description here...
-	 * </p>
-	 * <!-- end-user-doc -->
-	 * @return the value of the '<em>Styles</em>' reference list.
-	 * @see org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package#getIfcPresentationStyleAssignment_Styles()
-	 * @model
-	 * @generated
-	 */
-	EList<IfcPresentationStyleSelect> getStyles();
+    /**
+     * Returns the value of the '<em><b>Styles</b></em>' reference list.
+     * The list contents are of type {@link org.bimserver.models.ifc2x3tc1.IfcPresentationStyleSelect}.
+     * <!-- begin-user-doc -->
+     * <p>
+     * If the meaning of the '<em>Styles</em>' reference list isn't clear,
+     * there really should be more of a description here...
+     * </p>
+     * <!-- end-user-doc -->
+     * @return the value of the '<em>Styles</em>' reference list.
+     * @see org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package#getIfcPresentationStyleAssignment_Styles()
+     * @model
+     * @generated
+     */
+    EList<IfcPresentationStyleSelect> getStyles();
 
 } // IfcPresentationStyleAssignment

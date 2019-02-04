@@ -19,6 +19,7 @@ package org.bimserver.models.store.impl;
 import org.bimserver.models.store.QueryEnginePluginConfiguration;
 import org.bimserver.models.store.StorePackage;
 import org.bimserver.models.store.UserSettings;
+
 import org.eclipse.emf.ecore.EClass;
 
 /**
@@ -27,49 +28,50 @@ import org.eclipse.emf.ecore.EClass;
  * <!-- end-user-doc -->
  * <p>
  * The following features are implemented:
+ * </p>
  * <ul>
  *   <li>{@link org.bimserver.models.store.impl.QueryEnginePluginConfigurationImpl#getUserSettings <em>User Settings</em>}</li>
  * </ul>
- * </p>
  *
  * @generated
  */
-public class QueryEnginePluginConfigurationImpl extends PluginConfigurationImpl implements QueryEnginePluginConfiguration {
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	protected QueryEnginePluginConfigurationImpl() {
-		super();
-	}
+public class QueryEnginePluginConfigurationImpl extends PluginConfigurationImpl
+        implements QueryEnginePluginConfiguration {
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    protected QueryEnginePluginConfigurationImpl() {
+        super();
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	@Override
-	protected EClass eStaticClass() {
-		return StorePackage.Literals.QUERY_ENGINE_PLUGIN_CONFIGURATION;
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    @Override
+    protected EClass eStaticClass() {
+        return StorePackage.Literals.QUERY_ENGINE_PLUGIN_CONFIGURATION;
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public UserSettings getUserSettings() {
-		return (UserSettings) eGet(StorePackage.Literals.QUERY_ENGINE_PLUGIN_CONFIGURATION__USER_SETTINGS, true);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public UserSettings getUserSettings() {
+        return (UserSettings) eGet(StorePackage.Literals.QUERY_ENGINE_PLUGIN_CONFIGURATION__USER_SETTINGS, true);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public void setUserSettings(UserSettings newUserSettings) {
-		eSet(StorePackage.Literals.QUERY_ENGINE_PLUGIN_CONFIGURATION__USER_SETTINGS, newUserSettings);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public void setUserSettings(UserSettings newUserSettings) {
+        eSet(StorePackage.Literals.QUERY_ENGINE_PLUGIN_CONFIGURATION__USER_SETTINGS, newUserSettings);
+    }
 
 } //QueryEnginePluginConfigurationImpl

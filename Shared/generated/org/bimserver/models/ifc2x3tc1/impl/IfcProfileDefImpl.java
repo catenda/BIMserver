@@ -17,9 +17,11 @@
 package org.bimserver.models.ifc2x3tc1.impl;
 
 import org.bimserver.emf.IdEObjectImpl;
+
 import org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package;
 import org.bimserver.models.ifc2x3tc1.IfcProfileDef;
 import org.bimserver.models.ifc2x3tc1.IfcProfileTypeEnum;
+
 import org.eclipse.emf.ecore.EClass;
 
 /**
@@ -28,96 +30,96 @@ import org.eclipse.emf.ecore.EClass;
  * <!-- end-user-doc -->
  * <p>
  * The following features are implemented:
+ * </p>
  * <ul>
  *   <li>{@link org.bimserver.models.ifc2x3tc1.impl.IfcProfileDefImpl#getProfileType <em>Profile Type</em>}</li>
  *   <li>{@link org.bimserver.models.ifc2x3tc1.impl.IfcProfileDefImpl#getProfileName <em>Profile Name</em>}</li>
  * </ul>
- * </p>
  *
  * @generated
  */
 public class IfcProfileDefImpl extends IdEObjectImpl implements IfcProfileDef {
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	protected IfcProfileDefImpl() {
-		super();
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    protected IfcProfileDefImpl() {
+        super();
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	@Override
-	protected EClass eStaticClass() {
-		return Ifc2x3tc1Package.Literals.IFC_PROFILE_DEF;
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    @Override
+    protected EClass eStaticClass() {
+        return Ifc2x3tc1Package.Literals.IFC_PROFILE_DEF;
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	@Override
-	protected int eStaticFeatureCount() {
-		return 0;
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    @Override
+    protected int eStaticFeatureCount() {
+        return 0;
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public IfcProfileTypeEnum getProfileType() {
-		return (IfcProfileTypeEnum) eGet(Ifc2x3tc1Package.Literals.IFC_PROFILE_DEF__PROFILE_TYPE, true);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public IfcProfileTypeEnum getProfileType() {
+        return (IfcProfileTypeEnum) eGet(Ifc2x3tc1Package.Literals.IFC_PROFILE_DEF__PROFILE_TYPE, true);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public void setProfileType(IfcProfileTypeEnum newProfileType) {
-		eSet(Ifc2x3tc1Package.Literals.IFC_PROFILE_DEF__PROFILE_TYPE, newProfileType);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public void setProfileType(IfcProfileTypeEnum newProfileType) {
+        eSet(Ifc2x3tc1Package.Literals.IFC_PROFILE_DEF__PROFILE_TYPE, newProfileType);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public String getProfileName() {
-		return (String) eGet(Ifc2x3tc1Package.Literals.IFC_PROFILE_DEF__PROFILE_NAME, true);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public String getProfileName() {
+        return (String) eGet(Ifc2x3tc1Package.Literals.IFC_PROFILE_DEF__PROFILE_NAME, true);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public void setProfileName(String newProfileName) {
-		eSet(Ifc2x3tc1Package.Literals.IFC_PROFILE_DEF__PROFILE_NAME, newProfileName);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public void setProfileName(String newProfileName) {
+        eSet(Ifc2x3tc1Package.Literals.IFC_PROFILE_DEF__PROFILE_NAME, newProfileName);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public void unsetProfileName() {
-		eUnset(Ifc2x3tc1Package.Literals.IFC_PROFILE_DEF__PROFILE_NAME);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public void unsetProfileName() {
+        eUnset(Ifc2x3tc1Package.Literals.IFC_PROFILE_DEF__PROFILE_NAME);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public boolean isSetProfileName() {
-		return eIsSet(Ifc2x3tc1Package.Literals.IFC_PROFILE_DEF__PROFILE_NAME);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public boolean isSetProfileName() {
+        return eIsSet(Ifc2x3tc1Package.Literals.IFC_PROFILE_DEF__PROFILE_NAME);
+    }
 
 } //IfcProfileDefImpl

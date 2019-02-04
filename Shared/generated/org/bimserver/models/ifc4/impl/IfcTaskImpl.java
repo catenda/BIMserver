@@ -157,8 +157,8 @@ public class IfcTaskImpl extends IfcProcessImpl implements IfcTask {
      * <!-- end-user-doc -->
      * @generated
      */
-    public int getPriority() {
-        return (Integer) eGet(Ifc4Package.Literals.IFC_TASK__PRIORITY, true);
+    public long getPriority() {
+        return (Long) eGet(Ifc4Package.Literals.IFC_TASK__PRIORITY, true);
     }
 
     /**
@@ -166,7 +166,7 @@ public class IfcTaskImpl extends IfcProcessImpl implements IfcTask {
      * <!-- end-user-doc -->
      * @generated
      */
-    public void setPriority(int newPriority) {
+    public void setPriority(long newPriority) {
         eSet(Ifc4Package.Literals.IFC_TASK__PRIORITY, newPriority);
     }
 

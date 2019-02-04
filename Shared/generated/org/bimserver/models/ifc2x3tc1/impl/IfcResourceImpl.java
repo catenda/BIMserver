@@ -19,7 +19,9 @@ package org.bimserver.models.ifc2x3tc1.impl;
 import org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package;
 import org.bimserver.models.ifc2x3tc1.IfcRelAssignsToResource;
 import org.bimserver.models.ifc2x3tc1.IfcResource;
+
 import org.eclipse.emf.common.util.EList;
+
 import org.eclipse.emf.ecore.EClass;
 
 /**
@@ -28,59 +30,59 @@ import org.eclipse.emf.ecore.EClass;
  * <!-- end-user-doc -->
  * <p>
  * The following features are implemented:
+ * </p>
  * <ul>
  *   <li>{@link org.bimserver.models.ifc2x3tc1.impl.IfcResourceImpl#getResourceOf <em>Resource Of</em>}</li>
  * </ul>
- * </p>
  *
  * @generated
  */
 public class IfcResourceImpl extends IfcObjectImpl implements IfcResource {
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	protected IfcResourceImpl() {
-		super();
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    protected IfcResourceImpl() {
+        super();
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	@Override
-	protected EClass eStaticClass() {
-		return Ifc2x3tc1Package.Literals.IFC_RESOURCE;
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    @Override
+    protected EClass eStaticClass() {
+        return Ifc2x3tc1Package.Literals.IFC_RESOURCE;
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	@SuppressWarnings("unchecked")
-	public EList<IfcRelAssignsToResource> getResourceOf() {
-		return (EList<IfcRelAssignsToResource>) eGet(Ifc2x3tc1Package.Literals.IFC_RESOURCE__RESOURCE_OF, true);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    @SuppressWarnings("unchecked")
+    public EList<IfcRelAssignsToResource> getResourceOf() {
+        return (EList<IfcRelAssignsToResource>) eGet(Ifc2x3tc1Package.Literals.IFC_RESOURCE__RESOURCE_OF, true);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public void unsetResourceOf() {
-		eUnset(Ifc2x3tc1Package.Literals.IFC_RESOURCE__RESOURCE_OF);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public void unsetResourceOf() {
+        eUnset(Ifc2x3tc1Package.Literals.IFC_RESOURCE__RESOURCE_OF);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public boolean isSetResourceOf() {
-		return eIsSet(Ifc2x3tc1Package.Literals.IFC_RESOURCE__RESOURCE_OF);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public boolean isSetResourceOf() {
+        return eIsSet(Ifc2x3tc1Package.Literals.IFC_RESOURCE__RESOURCE_OF);
+    }
 
 } //IfcResourceImpl

@@ -25,12 +25,12 @@ import org.bimserver.emf.IdEObject;
  *
  * <p>
  * The following features are supported:
+ * </p>
  * <ul>
  *   <li>{@link org.bimserver.models.ifc2x3tc1.IfcCoordinatedUniversalTimeOffset#getHourOffset <em>Hour Offset</em>}</li>
  *   <li>{@link org.bimserver.models.ifc2x3tc1.IfcCoordinatedUniversalTimeOffset#getMinuteOffset <em>Minute Offset</em>}</li>
  *   <li>{@link org.bimserver.models.ifc2x3tc1.IfcCoordinatedUniversalTimeOffset#getSense <em>Sense</em>}</li>
  * </ul>
- * </p>
  *
  * @see org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package#getIfcCoordinatedUniversalTimeOffset()
  * @model
@@ -38,112 +38,112 @@ import org.bimserver.emf.IdEObject;
  * @generated
  */
 public interface IfcCoordinatedUniversalTimeOffset extends IdEObject {
-	/**
-	 * Returns the value of the '<em><b>Hour Offset</b></em>' attribute.
-	 * <!-- begin-user-doc -->
-	 * <p>
-	 * If the meaning of the '<em>Hour Offset</em>' attribute isn't clear,
-	 * there really should be more of a description here...
-	 * </p>
-	 * <!-- end-user-doc -->
-	 * @return the value of the '<em>Hour Offset</em>' attribute.
-	 * @see #setHourOffset(int)
-	 * @see org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package#getIfcCoordinatedUniversalTimeOffset_HourOffset()
-	 * @model
-	 * @generated
-	 */
-	int getHourOffset();
+    /**
+     * Returns the value of the '<em><b>Hour Offset</b></em>' attribute.
+     * <!-- begin-user-doc -->
+     * <p>
+     * If the meaning of the '<em>Hour Offset</em>' attribute isn't clear,
+     * there really should be more of a description here...
+     * </p>
+     * <!-- end-user-doc -->
+     * @return the value of the '<em>Hour Offset</em>' attribute.
+     * @see #setHourOffset(long)
+     * @see org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package#getIfcCoordinatedUniversalTimeOffset_HourOffset()
+     * @model
+     * @generated
+     */
+    long getHourOffset();
 
-	/**
-	 * Sets the value of the '{@link org.bimserver.models.ifc2x3tc1.IfcCoordinatedUniversalTimeOffset#getHourOffset <em>Hour Offset</em>}' attribute.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @param value the new value of the '<em>Hour Offset</em>' attribute.
-	 * @see #getHourOffset()
-	 * @generated
-	 */
-	void setHourOffset(int value);
+    /**
+     * Sets the value of the '{@link org.bimserver.models.ifc2x3tc1.IfcCoordinatedUniversalTimeOffset#getHourOffset <em>Hour Offset</em>}' attribute.
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @param value the new value of the '<em>Hour Offset</em>' attribute.
+     * @see #getHourOffset()
+     * @generated
+     */
+    void setHourOffset(long value);
 
-	/**
-	 * Returns the value of the '<em><b>Minute Offset</b></em>' attribute.
-	 * <!-- begin-user-doc -->
-	 * <p>
-	 * If the meaning of the '<em>Minute Offset</em>' attribute isn't clear,
-	 * there really should be more of a description here...
-	 * </p>
-	 * <!-- end-user-doc -->
-	 * @return the value of the '<em>Minute Offset</em>' attribute.
-	 * @see #isSetMinuteOffset()
-	 * @see #unsetMinuteOffset()
-	 * @see #setMinuteOffset(int)
-	 * @see org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package#getIfcCoordinatedUniversalTimeOffset_MinuteOffset()
-	 * @model unsettable="true"
-	 * @generated
-	 */
-	int getMinuteOffset();
+    /**
+     * Returns the value of the '<em><b>Minute Offset</b></em>' attribute.
+     * <!-- begin-user-doc -->
+     * <p>
+     * If the meaning of the '<em>Minute Offset</em>' attribute isn't clear,
+     * there really should be more of a description here...
+     * </p>
+     * <!-- end-user-doc -->
+     * @return the value of the '<em>Minute Offset</em>' attribute.
+     * @see #isSetMinuteOffset()
+     * @see #unsetMinuteOffset()
+     * @see #setMinuteOffset(long)
+     * @see org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package#getIfcCoordinatedUniversalTimeOffset_MinuteOffset()
+     * @model unsettable="true"
+     * @generated
+     */
+    long getMinuteOffset();
 
-	/**
-	 * Sets the value of the '{@link org.bimserver.models.ifc2x3tc1.IfcCoordinatedUniversalTimeOffset#getMinuteOffset <em>Minute Offset</em>}' attribute.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @param value the new value of the '<em>Minute Offset</em>' attribute.
-	 * @see #isSetMinuteOffset()
-	 * @see #unsetMinuteOffset()
-	 * @see #getMinuteOffset()
-	 * @generated
-	 */
-	void setMinuteOffset(int value);
+    /**
+     * Sets the value of the '{@link org.bimserver.models.ifc2x3tc1.IfcCoordinatedUniversalTimeOffset#getMinuteOffset <em>Minute Offset</em>}' attribute.
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @param value the new value of the '<em>Minute Offset</em>' attribute.
+     * @see #isSetMinuteOffset()
+     * @see #unsetMinuteOffset()
+     * @see #getMinuteOffset()
+     * @generated
+     */
+    void setMinuteOffset(long value);
 
-	/**
-	 * Unsets the value of the '{@link org.bimserver.models.ifc2x3tc1.IfcCoordinatedUniversalTimeOffset#getMinuteOffset <em>Minute Offset</em>}' attribute.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @see #isSetMinuteOffset()
-	 * @see #getMinuteOffset()
-	 * @see #setMinuteOffset(int)
-	 * @generated
-	 */
-	void unsetMinuteOffset();
+    /**
+     * Unsets the value of the '{@link org.bimserver.models.ifc2x3tc1.IfcCoordinatedUniversalTimeOffset#getMinuteOffset <em>Minute Offset</em>}' attribute.
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @see #isSetMinuteOffset()
+     * @see #getMinuteOffset()
+     * @see #setMinuteOffset(long)
+     * @generated
+     */
+    void unsetMinuteOffset();
 
-	/**
-	 * Returns whether the value of the '{@link org.bimserver.models.ifc2x3tc1.IfcCoordinatedUniversalTimeOffset#getMinuteOffset <em>Minute Offset</em>}' attribute is set.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @return whether the value of the '<em>Minute Offset</em>' attribute is set.
-	 * @see #unsetMinuteOffset()
-	 * @see #getMinuteOffset()
-	 * @see #setMinuteOffset(int)
-	 * @generated
-	 */
-	boolean isSetMinuteOffset();
+    /**
+     * Returns whether the value of the '{@link org.bimserver.models.ifc2x3tc1.IfcCoordinatedUniversalTimeOffset#getMinuteOffset <em>Minute Offset</em>}' attribute is set.
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @return whether the value of the '<em>Minute Offset</em>' attribute is set.
+     * @see #unsetMinuteOffset()
+     * @see #getMinuteOffset()
+     * @see #setMinuteOffset(long)
+     * @generated
+     */
+    boolean isSetMinuteOffset();
 
-	/**
-	 * Returns the value of the '<em><b>Sense</b></em>' attribute.
-	 * The literals are from the enumeration {@link org.bimserver.models.ifc2x3tc1.IfcAheadOrBehind}.
-	 * <!-- begin-user-doc -->
-	 * <p>
-	 * If the meaning of the '<em>Sense</em>' attribute isn't clear,
-	 * there really should be more of a description here...
-	 * </p>
-	 * <!-- end-user-doc -->
-	 * @return the value of the '<em>Sense</em>' attribute.
-	 * @see org.bimserver.models.ifc2x3tc1.IfcAheadOrBehind
-	 * @see #setSense(IfcAheadOrBehind)
-	 * @see org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package#getIfcCoordinatedUniversalTimeOffset_Sense()
-	 * @model
-	 * @generated
-	 */
-	IfcAheadOrBehind getSense();
+    /**
+     * Returns the value of the '<em><b>Sense</b></em>' attribute.
+     * The literals are from the enumeration {@link org.bimserver.models.ifc2x3tc1.IfcAheadOrBehind}.
+     * <!-- begin-user-doc -->
+     * <p>
+     * If the meaning of the '<em>Sense</em>' attribute isn't clear,
+     * there really should be more of a description here...
+     * </p>
+     * <!-- end-user-doc -->
+     * @return the value of the '<em>Sense</em>' attribute.
+     * @see org.bimserver.models.ifc2x3tc1.IfcAheadOrBehind
+     * @see #setSense(IfcAheadOrBehind)
+     * @see org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package#getIfcCoordinatedUniversalTimeOffset_Sense()
+     * @model
+     * @generated
+     */
+    IfcAheadOrBehind getSense();
 
-	/**
-	 * Sets the value of the '{@link org.bimserver.models.ifc2x3tc1.IfcCoordinatedUniversalTimeOffset#getSense <em>Sense</em>}' attribute.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @param value the new value of the '<em>Sense</em>' attribute.
-	 * @see org.bimserver.models.ifc2x3tc1.IfcAheadOrBehind
-	 * @see #getSense()
-	 * @generated
-	 */
-	void setSense(IfcAheadOrBehind value);
+    /**
+     * Sets the value of the '{@link org.bimserver.models.ifc2x3tc1.IfcCoordinatedUniversalTimeOffset#getSense <em>Sense</em>}' attribute.
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @param value the new value of the '<em>Sense</em>' attribute.
+     * @see org.bimserver.models.ifc2x3tc1.IfcAheadOrBehind
+     * @see #getSense()
+     * @generated
+     */
+    void setSense(IfcAheadOrBehind value);
 
 } // IfcCoordinatedUniversalTimeOffset

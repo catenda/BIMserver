@@ -18,6 +18,7 @@ package org.bimserver.models.ifc2x3tc1.impl;
 
 import org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package;
 import org.bimserver.models.ifc2x3tc1.IfcPerformanceHistory;
+
 import org.eclipse.emf.ecore.EClass;
 
 /**
@@ -26,49 +27,49 @@ import org.eclipse.emf.ecore.EClass;
  * <!-- end-user-doc -->
  * <p>
  * The following features are implemented:
+ * </p>
  * <ul>
  *   <li>{@link org.bimserver.models.ifc2x3tc1.impl.IfcPerformanceHistoryImpl#getLifeCyclePhase <em>Life Cycle Phase</em>}</li>
  * </ul>
- * </p>
  *
  * @generated
  */
 public class IfcPerformanceHistoryImpl extends IfcControlImpl implements IfcPerformanceHistory {
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	protected IfcPerformanceHistoryImpl() {
-		super();
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    protected IfcPerformanceHistoryImpl() {
+        super();
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	@Override
-	protected EClass eStaticClass() {
-		return Ifc2x3tc1Package.Literals.IFC_PERFORMANCE_HISTORY;
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    @Override
+    protected EClass eStaticClass() {
+        return Ifc2x3tc1Package.Literals.IFC_PERFORMANCE_HISTORY;
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public String getLifeCyclePhase() {
-		return (String) eGet(Ifc2x3tc1Package.Literals.IFC_PERFORMANCE_HISTORY__LIFE_CYCLE_PHASE, true);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public String getLifeCyclePhase() {
+        return (String) eGet(Ifc2x3tc1Package.Literals.IFC_PERFORMANCE_HISTORY__LIFE_CYCLE_PHASE, true);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public void setLifeCyclePhase(String newLifeCyclePhase) {
-		eSet(Ifc2x3tc1Package.Literals.IFC_PERFORMANCE_HISTORY__LIFE_CYCLE_PHASE, newLifeCyclePhase);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public void setLifeCyclePhase(String newLifeCyclePhase) {
+        eSet(Ifc2x3tc1Package.Literals.IFC_PERFORMANCE_HISTORY__LIFE_CYCLE_PHASE, newLifeCyclePhase);
+    }
 
 } //IfcPerformanceHistoryImpl

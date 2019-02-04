@@ -20,6 +20,7 @@ import org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package;
 import org.bimserver.models.ifc2x3tc1.IfcFaceSurface;
 import org.bimserver.models.ifc2x3tc1.IfcSurface;
 import org.bimserver.models.ifc2x3tc1.Tristate;
+
 import org.eclipse.emf.ecore.EClass;
 
 /**
@@ -28,68 +29,68 @@ import org.eclipse.emf.ecore.EClass;
  * <!-- end-user-doc -->
  * <p>
  * The following features are implemented:
+ * </p>
  * <ul>
  *   <li>{@link org.bimserver.models.ifc2x3tc1.impl.IfcFaceSurfaceImpl#getFaceSurface <em>Face Surface</em>}</li>
  *   <li>{@link org.bimserver.models.ifc2x3tc1.impl.IfcFaceSurfaceImpl#getSameSense <em>Same Sense</em>}</li>
  * </ul>
- * </p>
  *
  * @generated
  */
 public class IfcFaceSurfaceImpl extends IfcFaceImpl implements IfcFaceSurface {
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	protected IfcFaceSurfaceImpl() {
-		super();
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    protected IfcFaceSurfaceImpl() {
+        super();
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	@Override
-	protected EClass eStaticClass() {
-		return Ifc2x3tc1Package.Literals.IFC_FACE_SURFACE;
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    @Override
+    protected EClass eStaticClass() {
+        return Ifc2x3tc1Package.Literals.IFC_FACE_SURFACE;
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public IfcSurface getFaceSurface() {
-		return (IfcSurface) eGet(Ifc2x3tc1Package.Literals.IFC_FACE_SURFACE__FACE_SURFACE, true);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public IfcSurface getFaceSurface() {
+        return (IfcSurface) eGet(Ifc2x3tc1Package.Literals.IFC_FACE_SURFACE__FACE_SURFACE, true);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public void setFaceSurface(IfcSurface newFaceSurface) {
-		eSet(Ifc2x3tc1Package.Literals.IFC_FACE_SURFACE__FACE_SURFACE, newFaceSurface);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public void setFaceSurface(IfcSurface newFaceSurface) {
+        eSet(Ifc2x3tc1Package.Literals.IFC_FACE_SURFACE__FACE_SURFACE, newFaceSurface);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public Tristate getSameSense() {
-		return (Tristate) eGet(Ifc2x3tc1Package.Literals.IFC_FACE_SURFACE__SAME_SENSE, true);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public Tristate getSameSense() {
+        return (Tristate) eGet(Ifc2x3tc1Package.Literals.IFC_FACE_SURFACE__SAME_SENSE, true);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public void setSameSense(Tristate newSameSense) {
-		eSet(Ifc2x3tc1Package.Literals.IFC_FACE_SURFACE__SAME_SENSE, newSameSense);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public void setSameSense(Tristate newSameSense) {
+        eSet(Ifc2x3tc1Package.Literals.IFC_FACE_SURFACE__SAME_SENSE, newSameSense);
+    }
 
 } //IfcFaceSurfaceImpl

@@ -19,6 +19,7 @@ package org.bimserver.models.ifc2x3tc1.impl;
 import org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package;
 import org.bimserver.models.ifc2x3tc1.IfcAxis2Placement2D;
 import org.bimserver.models.ifc2x3tc1.IfcDirection;
+
 import org.eclipse.emf.ecore.EClass;
 
 /**
@@ -27,67 +28,67 @@ import org.eclipse.emf.ecore.EClass;
  * <!-- end-user-doc -->
  * <p>
  * The following features are implemented:
+ * </p>
  * <ul>
  *   <li>{@link org.bimserver.models.ifc2x3tc1.impl.IfcAxis2Placement2DImpl#getRefDirection <em>Ref Direction</em>}</li>
  * </ul>
- * </p>
  *
  * @generated
  */
 public class IfcAxis2Placement2DImpl extends IfcPlacementImpl implements IfcAxis2Placement2D {
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	protected IfcAxis2Placement2DImpl() {
-		super();
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    protected IfcAxis2Placement2DImpl() {
+        super();
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	@Override
-	protected EClass eStaticClass() {
-		return Ifc2x3tc1Package.Literals.IFC_AXIS2_PLACEMENT2_D;
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    @Override
+    protected EClass eStaticClass() {
+        return Ifc2x3tc1Package.Literals.IFC_AXIS2_PLACEMENT2_D;
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public IfcDirection getRefDirection() {
-		return (IfcDirection) eGet(Ifc2x3tc1Package.Literals.IFC_AXIS2_PLACEMENT2_D__REF_DIRECTION, true);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public IfcDirection getRefDirection() {
+        return (IfcDirection) eGet(Ifc2x3tc1Package.Literals.IFC_AXIS2_PLACEMENT2_D__REF_DIRECTION, true);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public void setRefDirection(IfcDirection newRefDirection) {
-		eSet(Ifc2x3tc1Package.Literals.IFC_AXIS2_PLACEMENT2_D__REF_DIRECTION, newRefDirection);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public void setRefDirection(IfcDirection newRefDirection) {
+        eSet(Ifc2x3tc1Package.Literals.IFC_AXIS2_PLACEMENT2_D__REF_DIRECTION, newRefDirection);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public void unsetRefDirection() {
-		eUnset(Ifc2x3tc1Package.Literals.IFC_AXIS2_PLACEMENT2_D__REF_DIRECTION);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public void unsetRefDirection() {
+        eUnset(Ifc2x3tc1Package.Literals.IFC_AXIS2_PLACEMENT2_D__REF_DIRECTION);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public boolean isSetRefDirection() {
-		return eIsSet(Ifc2x3tc1Package.Literals.IFC_AXIS2_PLACEMENT2_D__REF_DIRECTION);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public boolean isSetRefDirection() {
+        return eIsSet(Ifc2x3tc1Package.Literals.IFC_AXIS2_PLACEMENT2_D__REF_DIRECTION);
+    }
 
 } //IfcAxis2Placement2DImpl

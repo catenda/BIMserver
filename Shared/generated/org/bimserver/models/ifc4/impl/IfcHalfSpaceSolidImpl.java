@@ -99,8 +99,8 @@ public class IfcHalfSpaceSolidImpl extends IfcGeometricRepresentationItemImpl im
      * <!-- end-user-doc -->
      * @generated
      */
-    public int getDim() {
-        return (Integer) eGet(Ifc4Package.Literals.IFC_HALF_SPACE_SOLID__DIM, true);
+    public long getDim() {
+        return (Long) eGet(Ifc4Package.Literals.IFC_HALF_SPACE_SOLID__DIM, true);
     }
 
     /**
@@ -108,7 +108,7 @@ public class IfcHalfSpaceSolidImpl extends IfcGeometricRepresentationItemImpl im
      * <!-- end-user-doc -->
      * @generated
      */
-    public void setDim(int newDim) {
+    public void setDim(long newDim) {
         eSet(Ifc4Package.Literals.IFC_HALF_SPACE_SOLID__DIM, newDim);
     }
 

@@ -18,7 +18,9 @@ package org.bimserver.models.log.impl;
 
 import org.bimserver.models.log.LogPackage;
 import org.bimserver.models.log.RevisionBranched;
+
 import org.bimserver.models.store.Revision;
+
 import org.eclipse.emf.ecore.EClass;
 
 /**
@@ -27,68 +29,68 @@ import org.eclipse.emf.ecore.EClass;
  * <!-- end-user-doc -->
  * <p>
  * The following features are implemented:
+ * </p>
  * <ul>
  *   <li>{@link org.bimserver.models.log.impl.RevisionBranchedImpl#getOldrevision <em>Oldrevision</em>}</li>
  *   <li>{@link org.bimserver.models.log.impl.RevisionBranchedImpl#getNewrevision <em>Newrevision</em>}</li>
  * </ul>
- * </p>
  *
  * @generated
  */
 public class RevisionBranchedImpl extends LogActionImpl implements RevisionBranched {
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	protected RevisionBranchedImpl() {
-		super();
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    protected RevisionBranchedImpl() {
+        super();
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	@Override
-	protected EClass eStaticClass() {
-		return LogPackage.Literals.REVISION_BRANCHED;
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    @Override
+    protected EClass eStaticClass() {
+        return LogPackage.Literals.REVISION_BRANCHED;
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public Revision getOldrevision() {
-		return (Revision) eGet(LogPackage.Literals.REVISION_BRANCHED__OLDREVISION, true);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public Revision getOldrevision() {
+        return (Revision) eGet(LogPackage.Literals.REVISION_BRANCHED__OLDREVISION, true);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public void setOldrevision(Revision newOldrevision) {
-		eSet(LogPackage.Literals.REVISION_BRANCHED__OLDREVISION, newOldrevision);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public void setOldrevision(Revision newOldrevision) {
+        eSet(LogPackage.Literals.REVISION_BRANCHED__OLDREVISION, newOldrevision);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public Revision getNewrevision() {
-		return (Revision) eGet(LogPackage.Literals.REVISION_BRANCHED__NEWREVISION, true);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public Revision getNewrevision() {
+        return (Revision) eGet(LogPackage.Literals.REVISION_BRANCHED__NEWREVISION, true);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public void setNewrevision(Revision newNewrevision) {
-		eSet(LogPackage.Literals.REVISION_BRANCHED__NEWREVISION, newNewrevision);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public void setNewrevision(Revision newNewrevision) {
+        eSet(LogPackage.Literals.REVISION_BRANCHED__NEWREVISION, newNewrevision);
+    }
 
 } //RevisionBranchedImpl

@@ -25,10 +25,10 @@ import org.bimserver.emf.IdEObject;
  *
  * <p>
  * The following features are supported:
+ * </p>
  * <ul>
  *   <li>{@link org.bimserver.models.store.CompareItem#getDataObject <em>Data Object</em>}</li>
  * </ul>
- * </p>
  *
  * @see org.bimserver.models.store.StorePackage#getCompareItem()
  * @model
@@ -36,30 +36,30 @@ import org.bimserver.emf.IdEObject;
  * @generated
  */
 public interface CompareItem extends IdEObject {
-	/**
-	 * Returns the value of the '<em><b>Data Object</b></em>' reference.
-	 * <!-- begin-user-doc -->
-	 * <p>
-	 * If the meaning of the '<em>Data Object</em>' reference isn't clear,
-	 * there really should be more of a description here...
-	 * </p>
-	 * <!-- end-user-doc -->
-	 * @return the value of the '<em>Data Object</em>' reference.
-	 * @see #setDataObject(DataObject)
-	 * @see org.bimserver.models.store.StorePackage#getCompareItem_DataObject()
-	 * @model
-	 * @generated
-	 */
-	DataObject getDataObject();
+    /**
+     * Returns the value of the '<em><b>Data Object</b></em>' reference.
+     * <!-- begin-user-doc -->
+     * <p>
+     * If the meaning of the '<em>Data Object</em>' reference isn't clear,
+     * there really should be more of a description here...
+     * </p>
+     * <!-- end-user-doc -->
+     * @return the value of the '<em>Data Object</em>' reference.
+     * @see #setDataObject(DataObject)
+     * @see org.bimserver.models.store.StorePackage#getCompareItem_DataObject()
+     * @model
+     * @generated
+     */
+    DataObject getDataObject();
 
-	/**
-	 * Sets the value of the '{@link org.bimserver.models.store.CompareItem#getDataObject <em>Data Object</em>}' reference.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @param value the new value of the '<em>Data Object</em>' reference.
-	 * @see #getDataObject()
-	 * @generated
-	 */
-	void setDataObject(DataObject value);
+    /**
+     * Sets the value of the '{@link org.bimserver.models.store.CompareItem#getDataObject <em>Data Object</em>}' reference.
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @param value the new value of the '<em>Data Object</em>' reference.
+     * @see #getDataObject()
+     * @generated
+     */
+    void setDataObject(DataObject value);
 
 } // CompareItem

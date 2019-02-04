@@ -17,11 +17,13 @@
 package org.bimserver.models.ifc2x3tc1.impl;
 
 import org.bimserver.emf.IdEObjectImpl;
+
 import org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package;
 import org.bimserver.models.ifc2x3tc1.IfcDirectionSenseEnum;
 import org.bimserver.models.ifc2x3tc1.IfcLayerSetDirectionEnum;
 import org.bimserver.models.ifc2x3tc1.IfcMaterialLayerSet;
 import org.bimserver.models.ifc2x3tc1.IfcMaterialLayerSetUsage;
+
 import org.eclipse.emf.ecore.EClass;
 
 /**
@@ -30,6 +32,7 @@ import org.eclipse.emf.ecore.EClass;
  * <!-- end-user-doc -->
  * <p>
  * The following features are implemented:
+ * </p>
  * <ul>
  *   <li>{@link org.bimserver.models.ifc2x3tc1.impl.IfcMaterialLayerSetUsageImpl#getForLayerSet <em>For Layer Set</em>}</li>
  *   <li>{@link org.bimserver.models.ifc2x3tc1.impl.IfcMaterialLayerSetUsageImpl#getLayerSetDirection <em>Layer Set Direction</em>}</li>
@@ -37,128 +40,132 @@ import org.eclipse.emf.ecore.EClass;
  *   <li>{@link org.bimserver.models.ifc2x3tc1.impl.IfcMaterialLayerSetUsageImpl#getOffsetFromReferenceLine <em>Offset From Reference Line</em>}</li>
  *   <li>{@link org.bimserver.models.ifc2x3tc1.impl.IfcMaterialLayerSetUsageImpl#getOffsetFromReferenceLineAsString <em>Offset From Reference Line As String</em>}</li>
  * </ul>
- * </p>
  *
  * @generated
  */
 public class IfcMaterialLayerSetUsageImpl extends IdEObjectImpl implements IfcMaterialLayerSetUsage {
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	protected IfcMaterialLayerSetUsageImpl() {
-		super();
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    protected IfcMaterialLayerSetUsageImpl() {
+        super();
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	@Override
-	protected EClass eStaticClass() {
-		return Ifc2x3tc1Package.Literals.IFC_MATERIAL_LAYER_SET_USAGE;
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    @Override
+    protected EClass eStaticClass() {
+        return Ifc2x3tc1Package.Literals.IFC_MATERIAL_LAYER_SET_USAGE;
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	@Override
-	protected int eStaticFeatureCount() {
-		return 0;
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    @Override
+    protected int eStaticFeatureCount() {
+        return 0;
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public IfcMaterialLayerSet getForLayerSet() {
-		return (IfcMaterialLayerSet) eGet(Ifc2x3tc1Package.Literals.IFC_MATERIAL_LAYER_SET_USAGE__FOR_LAYER_SET, true);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public IfcMaterialLayerSet getForLayerSet() {
+        return (IfcMaterialLayerSet) eGet(Ifc2x3tc1Package.Literals.IFC_MATERIAL_LAYER_SET_USAGE__FOR_LAYER_SET, true);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public void setForLayerSet(IfcMaterialLayerSet newForLayerSet) {
-		eSet(Ifc2x3tc1Package.Literals.IFC_MATERIAL_LAYER_SET_USAGE__FOR_LAYER_SET, newForLayerSet);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public void setForLayerSet(IfcMaterialLayerSet newForLayerSet) {
+        eSet(Ifc2x3tc1Package.Literals.IFC_MATERIAL_LAYER_SET_USAGE__FOR_LAYER_SET, newForLayerSet);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public IfcLayerSetDirectionEnum getLayerSetDirection() {
-		return (IfcLayerSetDirectionEnum) eGet(Ifc2x3tc1Package.Literals.IFC_MATERIAL_LAYER_SET_USAGE__LAYER_SET_DIRECTION, true);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public IfcLayerSetDirectionEnum getLayerSetDirection() {
+        return (IfcLayerSetDirectionEnum) eGet(
+                Ifc2x3tc1Package.Literals.IFC_MATERIAL_LAYER_SET_USAGE__LAYER_SET_DIRECTION, true);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public void setLayerSetDirection(IfcLayerSetDirectionEnum newLayerSetDirection) {
-		eSet(Ifc2x3tc1Package.Literals.IFC_MATERIAL_LAYER_SET_USAGE__LAYER_SET_DIRECTION, newLayerSetDirection);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public void setLayerSetDirection(IfcLayerSetDirectionEnum newLayerSetDirection) {
+        eSet(Ifc2x3tc1Package.Literals.IFC_MATERIAL_LAYER_SET_USAGE__LAYER_SET_DIRECTION, newLayerSetDirection);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public IfcDirectionSenseEnum getDirectionSense() {
-		return (IfcDirectionSenseEnum) eGet(Ifc2x3tc1Package.Literals.IFC_MATERIAL_LAYER_SET_USAGE__DIRECTION_SENSE, true);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public IfcDirectionSenseEnum getDirectionSense() {
+        return (IfcDirectionSenseEnum) eGet(Ifc2x3tc1Package.Literals.IFC_MATERIAL_LAYER_SET_USAGE__DIRECTION_SENSE,
+                true);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public void setDirectionSense(IfcDirectionSenseEnum newDirectionSense) {
-		eSet(Ifc2x3tc1Package.Literals.IFC_MATERIAL_LAYER_SET_USAGE__DIRECTION_SENSE, newDirectionSense);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public void setDirectionSense(IfcDirectionSenseEnum newDirectionSense) {
+        eSet(Ifc2x3tc1Package.Literals.IFC_MATERIAL_LAYER_SET_USAGE__DIRECTION_SENSE, newDirectionSense);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public double getOffsetFromReferenceLine() {
-		return (Double) eGet(Ifc2x3tc1Package.Literals.IFC_MATERIAL_LAYER_SET_USAGE__OFFSET_FROM_REFERENCE_LINE, true);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public double getOffsetFromReferenceLine() {
+        return (Double) eGet(Ifc2x3tc1Package.Literals.IFC_MATERIAL_LAYER_SET_USAGE__OFFSET_FROM_REFERENCE_LINE, true);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public void setOffsetFromReferenceLine(double newOffsetFromReferenceLine) {
-		eSet(Ifc2x3tc1Package.Literals.IFC_MATERIAL_LAYER_SET_USAGE__OFFSET_FROM_REFERENCE_LINE, newOffsetFromReferenceLine);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public void setOffsetFromReferenceLine(double newOffsetFromReferenceLine) {
+        eSet(Ifc2x3tc1Package.Literals.IFC_MATERIAL_LAYER_SET_USAGE__OFFSET_FROM_REFERENCE_LINE,
+                newOffsetFromReferenceLine);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public String getOffsetFromReferenceLineAsString() {
-		return (String) eGet(Ifc2x3tc1Package.Literals.IFC_MATERIAL_LAYER_SET_USAGE__OFFSET_FROM_REFERENCE_LINE_AS_STRING, true);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public String getOffsetFromReferenceLineAsString() {
+        return (String) eGet(
+                Ifc2x3tc1Package.Literals.IFC_MATERIAL_LAYER_SET_USAGE__OFFSET_FROM_REFERENCE_LINE_AS_STRING, true);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public void setOffsetFromReferenceLineAsString(String newOffsetFromReferenceLineAsString) {
-		eSet(Ifc2x3tc1Package.Literals.IFC_MATERIAL_LAYER_SET_USAGE__OFFSET_FROM_REFERENCE_LINE_AS_STRING, newOffsetFromReferenceLineAsString);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public void setOffsetFromReferenceLineAsString(String newOffsetFromReferenceLineAsString) {
+        eSet(Ifc2x3tc1Package.Literals.IFC_MATERIAL_LAYER_SET_USAGE__OFFSET_FROM_REFERENCE_LINE_AS_STRING,
+                newOffsetFromReferenceLineAsString);
+    }
 
 } //IfcMaterialLayerSetUsageImpl

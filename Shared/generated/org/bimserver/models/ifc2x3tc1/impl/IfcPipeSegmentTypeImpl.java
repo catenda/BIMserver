@@ -19,6 +19,7 @@ package org.bimserver.models.ifc2x3tc1.impl;
 import org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package;
 import org.bimserver.models.ifc2x3tc1.IfcPipeSegmentType;
 import org.bimserver.models.ifc2x3tc1.IfcPipeSegmentTypeEnum;
+
 import org.eclipse.emf.ecore.EClass;
 
 /**
@@ -27,49 +28,49 @@ import org.eclipse.emf.ecore.EClass;
  * <!-- end-user-doc -->
  * <p>
  * The following features are implemented:
+ * </p>
  * <ul>
  *   <li>{@link org.bimserver.models.ifc2x3tc1.impl.IfcPipeSegmentTypeImpl#getPredefinedType <em>Predefined Type</em>}</li>
  * </ul>
- * </p>
  *
  * @generated
  */
 public class IfcPipeSegmentTypeImpl extends IfcFlowSegmentTypeImpl implements IfcPipeSegmentType {
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	protected IfcPipeSegmentTypeImpl() {
-		super();
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    protected IfcPipeSegmentTypeImpl() {
+        super();
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	@Override
-	protected EClass eStaticClass() {
-		return Ifc2x3tc1Package.Literals.IFC_PIPE_SEGMENT_TYPE;
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    @Override
+    protected EClass eStaticClass() {
+        return Ifc2x3tc1Package.Literals.IFC_PIPE_SEGMENT_TYPE;
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public IfcPipeSegmentTypeEnum getPredefinedType() {
-		return (IfcPipeSegmentTypeEnum) eGet(Ifc2x3tc1Package.Literals.IFC_PIPE_SEGMENT_TYPE__PREDEFINED_TYPE, true);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public IfcPipeSegmentTypeEnum getPredefinedType() {
+        return (IfcPipeSegmentTypeEnum) eGet(Ifc2x3tc1Package.Literals.IFC_PIPE_SEGMENT_TYPE__PREDEFINED_TYPE, true);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public void setPredefinedType(IfcPipeSegmentTypeEnum newPredefinedType) {
-		eSet(Ifc2x3tc1Package.Literals.IFC_PIPE_SEGMENT_TYPE__PREDEFINED_TYPE, newPredefinedType);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public void setPredefinedType(IfcPipeSegmentTypeEnum newPredefinedType) {
+        eSet(Ifc2x3tc1Package.Literals.IFC_PIPE_SEGMENT_TYPE__PREDEFINED_TYPE, newPredefinedType);
+    }
 
 } //IfcPipeSegmentTypeImpl

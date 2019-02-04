@@ -23,40 +23,40 @@ package org.bimserver.models.store;
  *
  * <p>
  * The following features are supported:
+ * </p>
  * <ul>
  *   <li>{@link org.bimserver.models.store.ArrayDefinition#getType <em>Type</em>}</li>
  * </ul>
- * </p>
  *
  * @see org.bimserver.models.store.StorePackage#getArrayDefinition()
  * @model
  * @generated
  */
 public interface ArrayDefinition extends TypeDefinition {
-	/**
-	 * Returns the value of the '<em><b>Type</b></em>' reference.
-	 * <!-- begin-user-doc -->
-	 * <p>
-	 * If the meaning of the '<em>Type</em>' reference isn't clear,
-	 * there really should be more of a description here...
-	 * </p>
-	 * <!-- end-user-doc -->
-	 * @return the value of the '<em>Type</em>' reference.
-	 * @see #setType(TypeDefinition)
-	 * @see org.bimserver.models.store.StorePackage#getArrayDefinition_Type()
-	 * @model
-	 * @generated
-	 */
-	TypeDefinition getType();
+    /**
+     * Returns the value of the '<em><b>Type</b></em>' reference.
+     * <!-- begin-user-doc -->
+     * <p>
+     * If the meaning of the '<em>Type</em>' reference isn't clear,
+     * there really should be more of a description here...
+     * </p>
+     * <!-- end-user-doc -->
+     * @return the value of the '<em>Type</em>' reference.
+     * @see #setType(TypeDefinition)
+     * @see org.bimserver.models.store.StorePackage#getArrayDefinition_Type()
+     * @model
+     * @generated
+     */
+    TypeDefinition getType();
 
-	/**
-	 * Sets the value of the '{@link org.bimserver.models.store.ArrayDefinition#getType <em>Type</em>}' reference.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @param value the new value of the '<em>Type</em>' reference.
-	 * @see #getType()
-	 * @generated
-	 */
-	void setType(TypeDefinition value);
+    /**
+     * Sets the value of the '{@link org.bimserver.models.store.ArrayDefinition#getType <em>Type</em>}' reference.
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @param value the new value of the '<em>Type</em>' reference.
+     * @see #getType()
+     * @generated
+     */
+    void setType(TypeDefinition value);
 
 } // ArrayDefinition

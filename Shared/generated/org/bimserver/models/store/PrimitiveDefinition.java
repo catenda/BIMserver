@@ -23,43 +23,43 @@ package org.bimserver.models.store;
  *
  * <p>
  * The following features are supported:
+ * </p>
  * <ul>
  *   <li>{@link org.bimserver.models.store.PrimitiveDefinition#getType <em>Type</em>}</li>
  * </ul>
- * </p>
  *
  * @see org.bimserver.models.store.StorePackage#getPrimitiveDefinition()
  * @model
  * @generated
  */
 public interface PrimitiveDefinition extends TypeDefinition {
-	/**
-	 * Returns the value of the '<em><b>Type</b></em>' attribute.
-	 * The literals are from the enumeration {@link org.bimserver.models.store.PrimitiveEnum}.
-	 * <!-- begin-user-doc -->
-	 * <p>
-	 * If the meaning of the '<em>Type</em>' attribute isn't clear,
-	 * there really should be more of a description here...
-	 * </p>
-	 * <!-- end-user-doc -->
-	 * @return the value of the '<em>Type</em>' attribute.
-	 * @see org.bimserver.models.store.PrimitiveEnum
-	 * @see #setType(PrimitiveEnum)
-	 * @see org.bimserver.models.store.StorePackage#getPrimitiveDefinition_Type()
-	 * @model
-	 * @generated
-	 */
-	PrimitiveEnum getType();
+    /**
+     * Returns the value of the '<em><b>Type</b></em>' attribute.
+     * The literals are from the enumeration {@link org.bimserver.models.store.PrimitiveEnum}.
+     * <!-- begin-user-doc -->
+     * <p>
+     * If the meaning of the '<em>Type</em>' attribute isn't clear,
+     * there really should be more of a description here...
+     * </p>
+     * <!-- end-user-doc -->
+     * @return the value of the '<em>Type</em>' attribute.
+     * @see org.bimserver.models.store.PrimitiveEnum
+     * @see #setType(PrimitiveEnum)
+     * @see org.bimserver.models.store.StorePackage#getPrimitiveDefinition_Type()
+     * @model
+     * @generated
+     */
+    PrimitiveEnum getType();
 
-	/**
-	 * Sets the value of the '{@link org.bimserver.models.store.PrimitiveDefinition#getType <em>Type</em>}' attribute.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @param value the new value of the '<em>Type</em>' attribute.
-	 * @see org.bimserver.models.store.PrimitiveEnum
-	 * @see #getType()
-	 * @generated
-	 */
-	void setType(PrimitiveEnum value);
+    /**
+     * Sets the value of the '{@link org.bimserver.models.store.PrimitiveDefinition#getType <em>Type</em>}' attribute.
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @param value the new value of the '<em>Type</em>' attribute.
+     * @see org.bimserver.models.store.PrimitiveEnum
+     * @see #getType()
+     * @generated
+     */
+    void setType(PrimitiveEnum value);
 
 } // PrimitiveDefinition

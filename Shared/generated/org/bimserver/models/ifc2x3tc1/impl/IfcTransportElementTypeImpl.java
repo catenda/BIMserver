@@ -19,6 +19,7 @@ package org.bimserver.models.ifc2x3tc1.impl;
 import org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package;
 import org.bimserver.models.ifc2x3tc1.IfcTransportElementType;
 import org.bimserver.models.ifc2x3tc1.IfcTransportElementTypeEnum;
+
 import org.eclipse.emf.ecore.EClass;
 
 /**
@@ -27,49 +28,50 @@ import org.eclipse.emf.ecore.EClass;
  * <!-- end-user-doc -->
  * <p>
  * The following features are implemented:
+ * </p>
  * <ul>
  *   <li>{@link org.bimserver.models.ifc2x3tc1.impl.IfcTransportElementTypeImpl#getPredefinedType <em>Predefined Type</em>}</li>
  * </ul>
- * </p>
  *
  * @generated
  */
 public class IfcTransportElementTypeImpl extends IfcElementTypeImpl implements IfcTransportElementType {
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	protected IfcTransportElementTypeImpl() {
-		super();
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    protected IfcTransportElementTypeImpl() {
+        super();
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	@Override
-	protected EClass eStaticClass() {
-		return Ifc2x3tc1Package.Literals.IFC_TRANSPORT_ELEMENT_TYPE;
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    @Override
+    protected EClass eStaticClass() {
+        return Ifc2x3tc1Package.Literals.IFC_TRANSPORT_ELEMENT_TYPE;
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public IfcTransportElementTypeEnum getPredefinedType() {
-		return (IfcTransportElementTypeEnum) eGet(Ifc2x3tc1Package.Literals.IFC_TRANSPORT_ELEMENT_TYPE__PREDEFINED_TYPE, true);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public IfcTransportElementTypeEnum getPredefinedType() {
+        return (IfcTransportElementTypeEnum) eGet(Ifc2x3tc1Package.Literals.IFC_TRANSPORT_ELEMENT_TYPE__PREDEFINED_TYPE,
+                true);
+    }
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public void setPredefinedType(IfcTransportElementTypeEnum newPredefinedType) {
-		eSet(Ifc2x3tc1Package.Literals.IFC_TRANSPORT_ELEMENT_TYPE__PREDEFINED_TYPE, newPredefinedType);
-	}
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public void setPredefinedType(IfcTransportElementTypeEnum newPredefinedType) {
+        eSet(Ifc2x3tc1Package.Literals.IFC_TRANSPORT_ELEMENT_TYPE__PREDEFINED_TYPE, newPredefinedType);
+    }
 
 } //IfcTransportElementTypeImpl
