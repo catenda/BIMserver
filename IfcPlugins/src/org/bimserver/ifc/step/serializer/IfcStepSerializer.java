@@ -529,7 +529,8 @@ public class IfcStepSerializer extends IfcSerializer {
 
 	private static String encodeString(String string) throws SerializerException {
 		StringBuilder sb = new StringBuilder();
-		for (int i=0; i<string.length(); i++) {
+		int length = string == null ? 0 : string.length();
+		for (int i=0; i<length; i++) {
 			char c = string.charAt(i);
 			if (c == '\'') {
 				sb.append("\'\'");
