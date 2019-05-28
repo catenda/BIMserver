@@ -1,412 +1,0 @@
-
-´}
-Bimsie1LowLevelInterface.protoorg.bimserver.pbServiceInterface.protoAdminInterface.protoMetaInterface.protoSettingsInterface.protoAuthInterface.protoPluginInterface.protoBimsie1ServiceInterface.proto"Bimsie1NotificationInterface.proto#Bimsie1RemoteServiceInterface.protoBimsie1AuthInterface.proto"+
-AbortTransactionRequest
-tid (Rtid"|
-AddBooleanAttributeRequest
-tid (Rtid
-oid (Roid$
-attributeName (	RattributeName
-value (Rvalue"{
-AddDoubleAttributeRequest
-tid (Rtid
-oid (Roid$
-attributeName (	RattributeName
-value (Rvalue"|
-AddIntegerAttributeRequest
-tid (Rtid
-oid (Roid$
-attributeName (	RattributeName
-value (Rvalue"ƒ
-AddReferenceRequest
-tid (Rtid
-oid (Roid$
-referenceName (	RreferenceName"
-referenceOid (RreferenceOid"{
-AddStringAttributeRequest
-tid (Rtid
-oid (Roid$
-attributeName (	RattributeName
-value (	Rvalue"F
-CommitTransactionRequest
-tid (Rtid
-comment (	Rcomment"U
-CommitTransactionResponse"
-errorMessage (	RerrorMessage
-value (Rvalue"@
-CountRequest
-roid (Rroid
-	className (	R	className"I
-CountResponse"
-errorMessage (	RerrorMessage
-value (Rvalue"E
-CreateObjectRequest
-tid (Rtid
-	className (	R	className"P
-CreateObjectResponse"
-errorMessage (	RerrorMessage
-value (Rvalue"f
-GetBooleanAttributeRequest
-tid (Rtid
-oid (Roid$
-attributeName (	RattributeName"W
-GetBooleanAttributeResponse"
-errorMessage (	RerrorMessage
-value (Rvalue"ƒ
-!GetBooleanAttributeAtIndexRequest
-tid (Rtid
-oid (Roid$
-attributeName (	RattributeName
-index (Rindex"^
-"GetBooleanAttributeAtIndexResponse"
-errorMessage (	RerrorMessage
-value (Rvalue"g
-GetBooleanAttributesRequest
-tid (Rtid
-oid (Roid$
-attributeName (	RattributeName"X
-GetBooleanAttributesResponse"
-errorMessage (	RerrorMessage
-value (Rvalue"h
-GetByteArrayAttributeRequest
-tid (Rtid
-oid (Roid$
-attributeName (	RattributeName"Y
-GetByteArrayAttributeResponse"
-errorMessage (	RerrorMessage
-value (Rvalue"i
-GetByteArrayAttributesRequest
-tid (Rtid
-oid (Roid$
-attributeName (	RattributeName"Z
-GetByteArrayAttributesResponse"
-errorMessage (	RerrorMessage
-value (Rvalue"D
-GetDataObjectByGuidRequest
-roid (Rroid
-guid (	Rguid"v
-GetDataObjectByGuidResponse"
-errorMessage (	RerrorMessage3
-value (2.org.bimserver.pb.SDataObjectRvalue"A
-GetDataObjectByOidRequest
-roid (Rroid
-oid (Roid"u
-GetDataObjectByOidResponse"
-errorMessage (	RerrorMessage3
-value (2.org.bimserver.pb.SDataObjectRvalue"+
-GetDataObjectsRequest
-roid (Rroid"q
-GetDataObjectsResponse"
-errorMessage (	RerrorMessage3
-value (2.org.bimserver.pb.SDataObjectRvalue"O
-GetDataObjectsByTypeRequest
-roid (Rroid
-	className (	R	className"w
-GetDataObjectsByTypeResponse"
-errorMessage (	RerrorMessage3
-value (2.org.bimserver.pb.SDataObjectRvalue"e
-GetDoubleAttributeRequest
-tid (Rtid
-oid (Roid$
-attributeName (	RattributeName"V
-GetDoubleAttributeResponse"
-errorMessage (	RerrorMessage
-value (Rvalue"‚
- GetDoubleAttributeAtIndexRequest
-tid (Rtid
-oid (Roid$
-attributeName (	RattributeName
-index (Rindex"]
-!GetDoubleAttributeAtIndexResponse"
-errorMessage (	RerrorMessage
-value (Rvalue"f
-GetDoubleAttributesRequest
-tid (Rtid
-oid (Roid$
-attributeName (	RattributeName"W
-GetDoubleAttributesResponse"
-errorMessage (	RerrorMessage
-value (Rvalue"c
-GetEnumAttributeRequest
-tid (Rtid
-oid (Roid$
-attributeName (	RattributeName"T
-GetEnumAttributeResponse"
-errorMessage (	RerrorMessage
-value (	Rvalue"f
-GetIntegerAttributeRequest
-tid (Rtid
-oid (Roid$
-attributeName (	RattributeName"W
-GetIntegerAttributeResponse"
-errorMessage (	RerrorMessage
-value (Rvalue"ƒ
-!GetIntegerAttributeAtIndexRequest
-tid (Rtid
-oid (Roid$
-attributeName (	RattributeName
-index (Rindex"^
-"GetIntegerAttributeAtIndexResponse"
-errorMessage (	RerrorMessage
-value (Rvalue"g
-GetIntegerAttributesRequest
-tid (Rtid
-oid (Roid$
-attributeName (	RattributeName"X
-GetIntegerAttributesResponse"
-errorMessage (	RerrorMessage
-value (Rvalue"c
-GetLongAttributeRequest
-tid (Rtid
-oid (Roid$
-attributeName (	RattributeName"T
-GetLongAttributeResponse"
-errorMessage (	RerrorMessage
-value (Rvalue"€
-GetLongAttributeAtIndexRequest
-tid (Rtid
-oid (Roid$
-attributeName (	RattributeName
-index (Rindex"[
-GetLongAttributeAtIndexResponse"
-errorMessage (	RerrorMessage
-value (Rvalue"_
-GetReferenceRequest
-tid (Rtid
-oid (Roid$
-referenceName (	RreferenceName"P
-GetReferenceResponse"
-errorMessage (	RerrorMessage
-value (Rvalue"`
-GetReferencesRequest
-tid (Rtid
-oid (Roid$
-referenceName (	RreferenceName"Q
-GetReferencesResponse"
-errorMessage (	RerrorMessage
-value (Rvalue"e
-GetStringAttributeRequest
-tid (Rtid
-oid (Roid$
-attributeName (	RattributeName"V
-GetStringAttributeResponse"
-errorMessage (	RerrorMessage
-value (	Rvalue"f
-GetStringAttributesRequest
-tid (Rtid
-oid (Roid$
-attributeName (	RattributeName"W
-GetStringAttributesResponse"
-errorMessage (	RerrorMessage
-value (	Rvalue"f
-RemoveAllReferencesRequest
-tid (Rtid
-oid (Roid$
-referenceName (	RreferenceName"x
-RemoveAttributeRequest
-tid (Rtid
-oid (Roid$
-attributeName (	RattributeName
-index (Rindex"9
-RemoveObjectRequest
-tid (Rtid
-oid (Roid"x
-RemoveReferenceRequest
-tid (Rtid
-oid (Roid$
-referenceName (	RreferenceName
-index (Rindex"|
-SetBooleanAttributeRequest
-tid (Rtid
-oid (Roid$
-attributeName (	RattributeName
-value (Rvalue"™
-!SetBooleanAttributeAtIndexRequest
-tid (Rtid
-oid (Roid$
-attributeName (	RattributeName
-index (Rindex
-value (Rvalue"
-SetBooleanAttributesRequest
-tid (Rtid
-oid (Roid$
-attributeName (	RattributeName
-values (Rvalues"~
-SetByteArrayAttributeRequest
-tid (Rtid
-oid (Roid$
-attributeName (	RattributeName
-value (Rvalue"{
-SetDoubleAttributeRequest
-tid (Rtid
-oid (Roid$
-attributeName (	RattributeName
-value (Rvalue"˜
- SetDoubleAttributeAtIndexRequest
-tid (Rtid
-oid (Roid$
-attributeName (	RattributeName
-index (Rindex
-value (Rvalue"~
-SetDoubleAttributesRequest
-tid (Rtid
-oid (Roid$
-attributeName (	RattributeName
-values (Rvalues"y
-SetEnumAttributeRequest
-tid (Rtid
-oid (Roid$
-attributeName (	RattributeName
-value (	Rvalue"|
-SetIntegerAttributeRequest
-tid (Rtid
-oid (Roid$
-attributeName (	RattributeName
-value (Rvalue"™
-!SetIntegerAttributeAtIndexRequest
-tid (Rtid
-oid (Roid$
-attributeName (	RattributeName
-index (Rindex
-value (Rvalue"
-SetIntegerAttributesRequest
-tid (Rtid
-oid (Roid$
-attributeName (	RattributeName
-values (Rvalues"y
-SetLongAttributeRequest
-tid (Rtid
-oid (Roid$
-attributeName (	RattributeName
-value (Rvalue"–
-SetLongAttributeAtIndexRequest
-tid (Rtid
-oid (Roid$
-attributeName (	RattributeName
-index (Rindex
-value (Rvalue"|
-SetLongAttributesRequest
-tid (Rtid
-oid (Roid$
-attributeName (	RattributeName
-values (Rvalues"ƒ
-SetReferenceRequest
-tid (Rtid
-oid (Roid$
-referenceName (	RreferenceName"
-referenceOid (RreferenceOid"{
-SetStringAttributeRequest
-tid (Rtid
-oid (Roid$
-attributeName (	RattributeName
-value (	Rvalue"˜
- SetStringAttributeAtIndexRequest
-tid (Rtid
-oid (Roid$
-attributeName (	RattributeName
-index (Rindex
-value (	Rvalue"—
-!SetWrappedBooleanAttributeRequest
-tid (Rtid
-oid (Roid$
-attributeName (	RattributeName
-type (	Rtype
-value (Rvalue"–
- SetWrappedDoubleAttributeRequest
-tid (Rtid
-oid (Roid$
-attributeName (	RattributeName
-type (	Rtype
-value (Rvalue"—
-!SetWrappedIntegerAttributeRequest
-tid (Rtid
-oid (Roid$
-attributeName (	RattributeName
-type (	Rtype
-value (Rvalue"”
-SetWrappedLongAttributeRequest
-tid (Rtid
-oid (Roid$
-attributeName (	RattributeName
-type (	Rtype
-value (Rvalue"–
- SetWrappedStringAttributeRequest
-tid (Rtid
-oid (Roid$
-attributeName (	RattributeName
-type (	Rtype
-value (	Rvalue"-
-StartTransactionRequest
-poid (Rpoid"T
-StartTransactionResponse"
-errorMessage (	RerrorMessage
-value (Rvalue"a
-UnsetAttributeRequest
-tid (Rtid
-oid (Roid$
-attributeName (	RattributeName"a
-UnsetReferenceRequest
-tid (Rtid
-oid (Roid$
-referenceName (	RreferenceName2¤2
-Bimsie1LowLevelInterface]
-abortTransaction).org.bimserver.pb.AbortTransactionRequest.org.bimserver.pb.VoidResponsec
-addBooleanAttribute,.org.bimserver.pb.AddBooleanAttributeRequest.org.bimserver.pb.VoidResponsea
-addDoubleAttribute+.org.bimserver.pb.AddDoubleAttributeRequest.org.bimserver.pb.VoidResponsec
-addIntegerAttribute,.org.bimserver.pb.AddIntegerAttributeRequest.org.bimserver.pb.VoidResponseU
-addReference%.org.bimserver.pb.AddReferenceRequest.org.bimserver.pb.VoidResponsea
-addStringAttribute+.org.bimserver.pb.AddStringAttributeRequest.org.bimserver.pb.VoidResponsel
-commitTransaction*.org.bimserver.pb.CommitTransactionRequest+.org.bimserver.pb.CommitTransactionResponseH
-count.org.bimserver.pb.CountRequest.org.bimserver.pb.CountResponse]
-createObject%.org.bimserver.pb.CreateObjectRequest&.org.bimserver.pb.CreateObjectResponser
-getBooleanAttribute,.org.bimserver.pb.GetBooleanAttributeRequest-.org.bimserver.pb.GetBooleanAttributeResponse‡
-getBooleanAttributeAtIndex3.org.bimserver.pb.GetBooleanAttributeAtIndexRequest4.org.bimserver.pb.GetBooleanAttributeAtIndexResponseu
-getBooleanAttributes-.org.bimserver.pb.GetBooleanAttributesRequest..org.bimserver.pb.GetBooleanAttributesResponsex
-getByteArrayAttribute..org.bimserver.pb.GetByteArrayAttributeRequest/.org.bimserver.pb.GetByteArrayAttributeResponse{
-getByteArrayAttributes/.org.bimserver.pb.GetByteArrayAttributesRequest0.org.bimserver.pb.GetByteArrayAttributesResponser
-getDataObjectByGuid,.org.bimserver.pb.GetDataObjectByGuidRequest-.org.bimserver.pb.GetDataObjectByGuidResponseo
-getDataObjectByOid+.org.bimserver.pb.GetDataObjectByOidRequest,.org.bimserver.pb.GetDataObjectByOidResponsec
-getDataObjects'.org.bimserver.pb.GetDataObjectsRequest(.org.bimserver.pb.GetDataObjectsResponseu
-getDataObjectsByType-.org.bimserver.pb.GetDataObjectsByTypeRequest..org.bimserver.pb.GetDataObjectsByTypeResponseo
-getDoubleAttribute+.org.bimserver.pb.GetDoubleAttributeRequest,.org.bimserver.pb.GetDoubleAttributeResponse„
-getDoubleAttributeAtIndex2.org.bimserver.pb.GetDoubleAttributeAtIndexRequest3.org.bimserver.pb.GetDoubleAttributeAtIndexResponser
-getDoubleAttributes,.org.bimserver.pb.GetDoubleAttributesRequest-.org.bimserver.pb.GetDoubleAttributesResponsei
-getEnumAttribute).org.bimserver.pb.GetEnumAttributeRequest*.org.bimserver.pb.GetEnumAttributeResponser
-getIntegerAttribute,.org.bimserver.pb.GetIntegerAttributeRequest-.org.bimserver.pb.GetIntegerAttributeResponse‡
-getIntegerAttributeAtIndex3.org.bimserver.pb.GetIntegerAttributeAtIndexRequest4.org.bimserver.pb.GetIntegerAttributeAtIndexResponseu
-getIntegerAttributes-.org.bimserver.pb.GetIntegerAttributesRequest..org.bimserver.pb.GetIntegerAttributesResponsei
-getLongAttribute).org.bimserver.pb.GetLongAttributeRequest*.org.bimserver.pb.GetLongAttributeResponse~
-getLongAttributeAtIndex0.org.bimserver.pb.GetLongAttributeAtIndexRequest1.org.bimserver.pb.GetLongAttributeAtIndexResponse]
-getReference%.org.bimserver.pb.GetReferenceRequest&.org.bimserver.pb.GetReferenceResponse`
-getReferences&.org.bimserver.pb.GetReferencesRequest'.org.bimserver.pb.GetReferencesResponseo
-getStringAttribute+.org.bimserver.pb.GetStringAttributeRequest,.org.bimserver.pb.GetStringAttributeResponser
-getStringAttributes,.org.bimserver.pb.GetStringAttributesRequest-.org.bimserver.pb.GetStringAttributesResponsec
-removeAllReferences,.org.bimserver.pb.RemoveAllReferencesRequest.org.bimserver.pb.VoidResponse[
-removeAttribute(.org.bimserver.pb.RemoveAttributeRequest.org.bimserver.pb.VoidResponseU
-removeObject%.org.bimserver.pb.RemoveObjectRequest.org.bimserver.pb.VoidResponse[
-removeReference(.org.bimserver.pb.RemoveReferenceRequest.org.bimserver.pb.VoidResponsec
-setBooleanAttribute,.org.bimserver.pb.SetBooleanAttributeRequest.org.bimserver.pb.VoidResponseq
-setBooleanAttributeAtIndex3.org.bimserver.pb.SetBooleanAttributeAtIndexRequest.org.bimserver.pb.VoidResponsee
-setBooleanAttributes-.org.bimserver.pb.SetBooleanAttributesRequest.org.bimserver.pb.VoidResponseg
-setByteArrayAttribute..org.bimserver.pb.SetByteArrayAttributeRequest.org.bimserver.pb.VoidResponsea
-setDoubleAttribute+.org.bimserver.pb.SetDoubleAttributeRequest.org.bimserver.pb.VoidResponseo
-setDoubleAttributeAtIndex2.org.bimserver.pb.SetDoubleAttributeAtIndexRequest.org.bimserver.pb.VoidResponsec
-setDoubleAttributes,.org.bimserver.pb.SetDoubleAttributesRequest.org.bimserver.pb.VoidResponse]
-setEnumAttribute).org.bimserver.pb.SetEnumAttributeRequest.org.bimserver.pb.VoidResponsec
-setIntegerAttribute,.org.bimserver.pb.SetIntegerAttributeRequest.org.bimserver.pb.VoidResponseq
-setIntegerAttributeAtIndex3.org.bimserver.pb.SetIntegerAttributeAtIndexRequest.org.bimserver.pb.VoidResponsee
-setIntegerAttributes-.org.bimserver.pb.SetIntegerAttributesRequest.org.bimserver.pb.VoidResponse]
-setLongAttribute).org.bimserver.pb.SetLongAttributeRequest.org.bimserver.pb.VoidResponsek
-setLongAttributeAtIndex0.org.bimserver.pb.SetLongAttributeAtIndexRequest.org.bimserver.pb.VoidResponse_
-setLongAttributes*.org.bimserver.pb.SetLongAttributesRequest.org.bimserver.pb.VoidResponseU
-setReference%.org.bimserver.pb.SetReferenceRequest.org.bimserver.pb.VoidResponsea
-setStringAttribute+.org.bimserver.pb.SetStringAttributeRequest.org.bimserver.pb.VoidResponseo
-setStringAttributeAtIndex2.org.bimserver.pb.SetStringAttributeAtIndexRequest.org.bimserver.pb.VoidResponseq
-setWrappedBooleanAttribute3.org.bimserver.pb.SetWrappedBooleanAttributeRequest.org.bimserver.pb.VoidResponseo
-setWrappedDoubleAttribute2.org.bimserver.pb.SetWrappedDoubleAttributeRequest.org.bimserver.pb.VoidResponseq
-setWrappedIntegerAttribute3.org.bimserver.pb.SetWrappedIntegerAttributeRequest.org.bimserver.pb.VoidResponsek
-setWrappedLongAttribute0.org.bimserver.pb.SetWrappedLongAttributeRequest.org.bimserver.pb.VoidResponseo
-setWrappedStringAttribute2.org.bimserver.pb.SetWrappedStringAttributeRequest.org.bimserver.pb.VoidResponsei
-startTransaction).org.bimserver.pb.StartTransactionRequest*.org.bimserver.pb.StartTransactionResponseY
-unsetAttribute'.org.bimserver.pb.UnsetAttributeRequest.org.bimserver.pb.VoidResponseY
-unsetReference'.org.bimserver.pb.UnsetReferenceRequest.org.bimserver.pb.VoidResponseB#BBimsie1LowLevelInterfaceImplHˆ

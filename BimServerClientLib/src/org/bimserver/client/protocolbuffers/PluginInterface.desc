@@ -8,9 +8,9 @@
 AddDeserializerRequestV
 deserializer (22.org.bimserver.pb.SDeserializerPluginConfigurationRdeserializer"
 #SInternalServicePluginConfiguration&
-userSettingsId (RuserSettingsId
-oid (Roid*
-remoteAccessible (RremoteAccessible
+userSettingsId (RuserSettingsId*
+remoteAccessible (RremoteAccessible
+oid (Roid
 rid (Rrid"|
 AddInternalServiceRequest_
 internalService (25.org.bimserver.pb.SInternalServicePluginConfigurationRinternalService"n
@@ -230,16 +230,16 @@ serializer"-
 errorMessage (	RerrorMessage9
 value (2#.org.bimserver.pb.SPluginDescriptorRvalue"4
  GetPluginObjectDefinitionRequest
-oid (Roid"I
-SArrayDefinition5
-type (2!.org.bimserver.pb.STypeDefinitionRtype"L
+oid (Roid"L
 SPrimitiveDefinition4
-type (2 .org.bimserver.pb.SPrimitiveEnumRtype"¹
+type (2 .org.bimserver.pb.SPrimitiveEnumRtype"I
+SArrayDefinition5
+type (2!.org.bimserver.pb.STypeDefinitionRtype"¹
 STypeDefinition!
 __actual_type (	R
-ActualTypeP
-__SArrayDefinition (2".org.bimserver.pb.SArrayDefinitionRSArrayDefinition\
-__SPrimitiveDefinition (2&.org.bimserver.pb.SPrimitiveDefinitionRSPrimitiveDefinitionS
+ActualType\
+__SPrimitiveDefinition (2&.org.bimserver.pb.SPrimitiveDefinitionRSPrimitiveDefinitionP
+__SArrayDefinition (2".org.bimserver.pb.SArrayDefinitionRSArrayDefinitionS
 __SObjectDefinition (2#.org.bimserver.pb.SObjectDefinitionRSObjectDefinition"Ç
 SParameterDefinition
 name (	Rname 
@@ -255,19 +255,16 @@ parameters"‚
 errorMessage (	RerrorMessage9
 value (2#.org.bimserver.pb.SObjectDefinitionRvalue".
 GetPluginSettingsRequest
-poid (Rpoid"E
-	SLongType
-oid (Roid
-rid (Rrid
-value (Rvalue"J
+poid (Rpoid"a
+
+SArrayType/
+values (2.org.bimserver.pb.STypeRvalues
+oid (Roid
+rid (Rrid"J
 SByteArrayType
 oid (Roid
 rid (Rrid
-value (Rvalue"H
-SBooleanType
-oid (Roid
-rid (Rrid
-value (Rvalue"G
+value (Rvalue"G
 SStringType
 oid (Roid
 rid (Rrid
@@ -275,29 +272,32 @@ parameters"‚
 SDoubleType
 oid (Roid
 rid (Rrid
-value (Rvalue"¬
+value (Rvalue"H
+SBooleanType
+oid (Roid
+rid (Rrid
+value (Rvalue"E
+	SLongType
+oid (Roid
+rid (Rrid
+value (Rvalue"¬
 SPrimitiveType!
 __actual_type (	R
-ActualType;
-__SLongType (2.org.bimserver.pb.SLongTypeR	SLongTypeJ
-__SByteArrayType (2 .org.bimserver.pb.SByteArrayTypeRSByteArrayTypeD
-__SBooleanType (2.org.bimserver.pb.SBooleanTypeRSBooleanTypeA
-__SStringType (2.org.bimserver.pb.SStringTypeRSStringTypeA
-__SDoubleType (2.org.bimserver.pb.SDoubleTypeRSDoubleType
+ActualTypeJ
+__SByteArrayType (2 .org.bimserver.pb.SByteArrayTypeRSByteArrayTypeA
+__SStringType (2.org.bimserver.pb.SStringTypeRSStringTypeA
+__SDoubleType (2.org.bimserver.pb.SDoubleTypeRSDoubleTypeD
+__SBooleanType (2.org.bimserver.pb.SBooleanTypeRSBooleanType;
+__SLongType (2.org.bimserver.pb.SLongTypeR	SLongType
 oid (Roid
-rid (Rrid"a
-
-SArrayType/
-values (2.org.bimserver.pb.STypeRvalues
-oid (Roid
-rid (Rrid"
+rid (Rrid"
 SType!
 __actual_type (	R
-ActualTypeA
-__SObjectType (2.org.bimserver.pb.SObjectTypeRSObjectTypeJ
-__SPrimitiveType (2 .org.bimserver.pb.SPrimitiveTypeRSPrimitiveType>
-__SArrayType (2.org.bimserver.pb.SArrayTypeR
-SArrayType
+ActualType>
+__SArrayType (2.org.bimserver.pb.SArrayTypeR
+SArrayTypeJ
+__SPrimitiveType (2 .org.bimserver.pb.SPrimitiveTypeRSPrimitiveTypeA
+__SObjectType (2.org.bimserver.pb.SObjectTypeRSObjectType
 oid (Roid
 rid (Rrid"s
 

@@ -567,6 +567,17 @@ public class Express2EMF {
 				eAttribute.setEType(EcorePackage.eINSTANCE.getEBoolean());
 				eAttribute.setUnsettable(expAttrib.isOptional());
 				cls.getEStructuralFeatures().add(eAttribute);
+			} else if (bt instanceof BinaryType) {
+				EAttribute eAttribute = eFactory.createEAttribute();
+				eAttribute.setUnsettable(expAttrib.isOptional());
+				eAttribute.setUpperBound(-1);
+				eAttribute.setName(attrib.getName());
+				eAttribute.setUnique(false);
+				eAttribute.setEType(EcorePackage.eINSTANCE.getEByteArray());
+				cls.getEStructuralFeatures().add(eAttribute);
+			} else if (bt == null) {
+				// These are the new 2-dimensional arrays in IFC4, there are 10 of them (more in add2)
+				addTwoDimensionalArray(ent.getName(), attrib.getName());
 			}
 			if (domain instanceof ArrayType) {
 				// TODO this is not yet implmented in simpelSDAI
@@ -625,6 +636,84 @@ public class Express2EMF {
 			}
 		}
 	}
+
+	private void addTwoDimensionalArray(String entityName, String attribName) {
+		EClassifier finalType = null;
+		if (entityName.equals("IfcBSplineSurface") && attribName.equals("ControlPointsList")) {
+			finalType = schemaPack.getEClassifier("IfcCartesianPoint");
+		} else if (entityName.equals("IfcCartesianPointList3D") && attribName.equals("CoordList")) {
+			finalType = schemaPack.getEClassifier("IfcLengthMeasure");
+		} else if (entityName.equals("IfcColourRgbList") && attribName.equals("ColourList")) {
+			finalType = schemaPack.getEClassifier("IfcNormalisedRatioMeasure");
+		} else if (entityName.equals("IfcIndexedTriangleTextureMap") && attribName.equals("TexCoordIndex")) {
+			finalType = EcorePackage.eINSTANCE.getELong();
+		} else if (entityName.equals("IfcRationalBSplineSurfaceWithKnots") && attribName.equals("WeightsData")) {
+			finalType = EcorePackage.eINSTANCE.getEDouble();
+		} else if (entityName.equals("IfcStructuralLoadConfiguration") && attribName.equals("Locations")) {
+			finalType = schemaPack.getEClassifier("IfcLengthMeasure");
+		} else if (entityName.equals("IfcTessellatedFaceSet") && attribName.equals("Normals")) {
+			finalType = schemaPack.getEClassifier("IfcParameterValue");
+		} else if (entityName.equals("IfcTextureVertexList") && attribName.equals("TexCoordsList")) {
+			finalType = schemaPack.getEClassifier("IfcParameterValue");
+		} else if (entityName.equals("IfcTriangulatedFaceSet") && attribName.equals("CoordIndex")) {
+			finalType = EcorePackage.eINSTANCE.getELong();
+		} else if (entityName.equals("IfcCartesianPointList2D") && attribName.equals("CoordList")) {
+			finalType = schemaPack.getEClassifier("IfcLengthMeasure");
+		} else if (entityName.equals("IfcIndexedPolygonalFaceWithVoids") && attribName.equals("InnerCoordIndices")) {
+			finalType = EcorePackage.eINSTANCE.getELong();
+		} else if (entityName.equals("IfcTriangulatedFaceSet") && attribName.equals("Normals")) {
+			finalType = schemaPack.getEClassifier("IfcParameterValue");
+		} else if (entityName.equals("IfcTriangulatedFaceSet") && attribName.equals("NormalIndex")) {
+			finalType = EcorePackage.eINSTANCE.getELong();
+		} else {
+			throw new RuntimeException("Unimplemented " + entityName + "." + attribName);
+		}
+		EClass containerClass = (EClass) schemaPack.getEClassifier("ListOf" + finalType.getName());
+		if (containerClass == null) {
+			containerClass = EcoreFactory.eINSTANCE.createEClass();
+			containerClass.setName("ListOf" + finalType.getName());
+
+			if (finalType.getEPackage() == EcorePackage.eINSTANCE) {
+				EAttribute finalAttribute = EcoreFactory.eINSTANCE.createEAttribute();
+				finalAttribute.setName("List");
+				finalAttribute.setEType(finalType);
+				finalAttribute.setUpperBound(-1);
+				containerClass.getEAttributes().add(finalAttribute);
+				
+				if (finalType == EcorePackage.eINSTANCE.getEDouble()) {
+					EAttribute stringAttribute = EcoreFactory.eINSTANCE.createEAttribute();
+					stringAttribute.setName("ListAsString");
+					stringAttribute.setEType(EcorePackage.eINSTANCE.getEString());
+					stringAttribute.setUpperBound(-1);
+					containerClass.getEAttributes().add(stringAttribute);
+				}
+			} else {
+				EReference finalReference = EcoreFactory.eINSTANCE.createEReference();
+				finalReference.setName("List");
+				finalReference.setEType(finalType);
+				finalReference.setUpperBound(-1);
+				containerClass.getEReferences().add(finalReference);
+			}
+
+			schemaPack.getEClassifiers().add(containerClass);
+		}
+		
+		EReference eReference = EcoreFactory.eINSTANCE.createEReference();
+		eReference.getEAnnotations().add(createTwoDimensionalArrayAnnotation());
+		eReference.setName(attribName);
+		eReference.setUpperBound(-1);
+		eReference.setEType(containerClass);
+		
+		EClass cls = (EClass) schemaPack.getEClassifier(entityName);
+		cls.getEStructuralFeatures().add(eReference);
+	}
+
+	private EAnnotation createTwoDimensionalArrayAnnotation() {
+		EAnnotation asStringAnnotation = eFactory.createEAnnotation();
+		asStringAnnotation.setSource("twodimensionalarray");
+		return asStringAnnotation;
+	}
+
 
 	private boolean superTypeIsWrapped(EClass eType) {
 		if (eType.getEAnnotation("wrapped") != null) {
@@ -742,6 +831,8 @@ public class Express2EMF {
 			wrapperAttrib.setEType(schemaPack.getEClassifier("Tristate"));
 		} else if (type.getDomain() instanceof NumberType) {
 			wrapperAttrib.setEType(ePackage.getEDouble());
+		} else if (type.getDomain() instanceof BinaryType) {
+			wrapperAttrib.setEType(ePackage.getEByteArray());
 		} else if (type.getDomain() instanceof LogicalType) {
 			wrapperAttrib.setEType(schemaPack.getEClassifier("Tristate"));
 		}

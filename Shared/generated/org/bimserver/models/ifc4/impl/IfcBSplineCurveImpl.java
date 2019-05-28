@@ -21,6 +21,7 @@ import org.bimserver.models.ifc4.IfcBSplineCurve;
 import org.bimserver.models.ifc4.IfcBSplineCurveForm;
 import org.bimserver.models.ifc4.IfcCartesianPoint;
 
+import org.bimserver.models.ifc4.Tristate;
 import org.eclipse.emf.common.util.EList;
 
 import org.eclipse.emf.ecore.EClass;
@@ -36,8 +37,9 @@ import org.eclipse.emf.ecore.EClass;
  *   <li>{@link org.bimserver.models.ifc4.impl.IfcBSplineCurveImpl#getDegree <em>Degree</em>}</li>
  *   <li>{@link org.bimserver.models.ifc4.impl.IfcBSplineCurveImpl#getControlPointsList <em>Control Points List</em>}</li>
  *   <li>{@link org.bimserver.models.ifc4.impl.IfcBSplineCurveImpl#getCurveForm <em>Curve Form</em>}</li>
- *   <li>{@link org.bimserver.models.ifc4.impl.IfcBSplineCurveImpl#isClosedCurve <em>Closed Curve</em>}</li>
- *   <li>{@link org.bimserver.models.ifc4.impl.IfcBSplineCurveImpl#isSelfIntersect <em>Self Intersect</em>}</li>
+ *   <li>{@link org.bimserver.models.ifc4.impl.IfcBSplineCurveImpl#getClosedCurve <em>Closed Curve</em>}</li>
+ *   <li>{@link org.bimserver.models.ifc4.impl.IfcBSplineCurveImpl#getSelfIntersect <em>Self Intersect</em>}</li>
+ *   <li>{@link org.bimserver.models.ifc4.impl.IfcBSplineCurveImpl#getUpperIndexOnControlPoints <em>Upper Index On Control Points</em>}</li>
  * </ul>
  *
  * @generated
@@ -113,8 +115,8 @@ public class IfcBSplineCurveImpl extends IfcBoundedCurveImpl implements IfcBSpli
      * <!-- end-user-doc -->
      * @generated
      */
-    public boolean isClosedCurve() {
-        return (Boolean) eGet(Ifc4Package.Literals.IFC_BSPLINE_CURVE__CLOSED_CURVE, true);
+    public Tristate getClosedCurve() {
+        return (Tristate) eGet(Ifc4Package.Literals.IFC_BSPLINE_CURVE__CLOSED_CURVE, true);
     }
 
     /**
@@ -122,7 +124,7 @@ public class IfcBSplineCurveImpl extends IfcBoundedCurveImpl implements IfcBSpli
      * <!-- end-user-doc -->
      * @generated
      */
-    public void setClosedCurve(boolean newClosedCurve) {
+    public void setClosedCurve(Tristate newClosedCurve) {
         eSet(Ifc4Package.Literals.IFC_BSPLINE_CURVE__CLOSED_CURVE, newClosedCurve);
     }
 
@@ -131,8 +133,8 @@ public class IfcBSplineCurveImpl extends IfcBoundedCurveImpl implements IfcBSpli
      * <!-- end-user-doc -->
      * @generated
      */
-    public boolean isSelfIntersect() {
-        return (Boolean) eGet(Ifc4Package.Literals.IFC_BSPLINE_CURVE__SELF_INTERSECT, true);
+    public Tristate getSelfIntersect() {
+        return (Tristate) eGet(Ifc4Package.Literals.IFC_BSPLINE_CURVE__SELF_INTERSECT, true);
     }
 
     /**
@@ -140,8 +142,44 @@ public class IfcBSplineCurveImpl extends IfcBoundedCurveImpl implements IfcBSpli
      * <!-- end-user-doc -->
      * @generated
      */
-    public void setSelfIntersect(boolean newSelfIntersect) {
+    public void setSelfIntersect(Tristate newSelfIntersect) {
         eSet(Ifc4Package.Literals.IFC_BSPLINE_CURVE__SELF_INTERSECT, newSelfIntersect);
+    }
+
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public long getUpperIndexOnControlPoints() {
+        return (Long) eGet(Ifc4Package.Literals.IFC_BSPLINE_CURVE__UPPER_INDEX_ON_CONTROL_POINTS, true);
+    }
+
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public void setUpperIndexOnControlPoints(long newUpperIndexOnControlPoints) {
+        eSet(Ifc4Package.Literals.IFC_BSPLINE_CURVE__UPPER_INDEX_ON_CONTROL_POINTS, newUpperIndexOnControlPoints);
+    }
+
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public void unsetUpperIndexOnControlPoints() {
+        eUnset(Ifc4Package.Literals.IFC_BSPLINE_CURVE__UPPER_INDEX_ON_CONTROL_POINTS);
+    }
+
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public boolean isSetUpperIndexOnControlPoints() {
+        return eIsSet(Ifc4Package.Literals.IFC_BSPLINE_CURVE__UPPER_INDEX_ON_CONTROL_POINTS);
     }
 
 } //IfcBSplineCurveImpl

@@ -19,12 +19,20 @@ package org.bimserver.models.ifc4.impl;
 import org.bimserver.models.ifc4.Ifc4Package;
 import org.bimserver.models.ifc4.IfcTextureVertexList;
 
+import org.bimserver.models.ifc4.ListOfIfcParameterValue;
+import org.eclipse.emf.common.util.EList;
 import org.eclipse.emf.ecore.EClass;
 
 /**
  * <!-- begin-user-doc -->
  * An implementation of the model object '<em><b>Ifc Texture Vertex List</b></em>'.
  * <!-- end-user-doc -->
+ * <p>
+ * The following features are implemented:
+ * </p>
+ * <ul>
+ *   <li>{@link org.bimserver.models.ifc4.impl.IfcTextureVertexListImpl#getTexCoordsList <em>Tex Coords List</em>}</li>
+ * </ul>
  *
  * @generated
  */
@@ -46,6 +54,17 @@ public class IfcTextureVertexListImpl extends IfcPresentationItemImpl implements
     @Override
     protected EClass eStaticClass() {
         return Ifc4Package.Literals.IFC_TEXTURE_VERTEX_LIST;
+    }
+
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    @SuppressWarnings("unchecked")
+    public EList<ListOfIfcParameterValue> getTexCoordsList() {
+        return (EList<ListOfIfcParameterValue>) eGet(Ifc4Package.Literals.IFC_TEXTURE_VERTEX_LIST__TEX_COORDS_LIST,
+                true);
     }
 
 } //IfcTextureVertexListImpl

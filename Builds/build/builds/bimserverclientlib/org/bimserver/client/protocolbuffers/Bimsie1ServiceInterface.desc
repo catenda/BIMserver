@@ -1,266 +1,0 @@
-
-½W
-Bimsie1ServiceInterface.protoorg.bimserver.pbServiceInterface.protoAdminInterface.protoMetaInterface.protoSettingsInterface.protoAuthInterface.protoPluginInterface.proto"{
- AddExtendedDataToRevisionRequest
-roid (RroidC
-extendedData (2.org.bimserver.pb.SExtendedDataRextendedData"5
-AddProjectRequest 
-projectName (	RprojectName"j
-AddProjectResponse"
-errorMessage (	RerrorMessage0
-value (2.org.bimserver.pb.SProjectRvalue"a
-AddProjectAsSubProjectRequest 
-projectName (	RprojectName
-
-parentPoid (R
-parentPoid"v
-AddProjectAsSubProjectResponse"
-errorMessage (	RerrorMessage0
-value (2.org.bimserver.pb.SProjectRvalue"~
-BranchToExistingProjectRequest
-roid (Rroid
-destPoid (RdestPoid
-comment (	Rcomment
-sync (Rsync"[
-BranchToExistingProjectResponse"
-errorMessage (	RerrorMessage
-value (Rvalue"
-BranchToNewProjectRequest
-roid (Rroid 
-projectName (	RprojectName
-comment (	Rcomment
-sync (Rsync"V
-BranchToNewProjectResponse"
-errorMessage (	RerrorMessage
-value (Rvalue"_
-CheckoutRequest
-roid (Rroid$
-serializerOid (RserializerOid
-sync (Rsync"L
-CheckoutResponse"
-errorMessage (	RerrorMessage
-value (Rvalue"*
-DeleteProjectRequest
-poid (Rpoid"Q
-DeleteProjectResponse"
-errorMessage (	RerrorMessage
-value (Rvalue"y
-DownloadRequest
-roid (Rroid$
-serializerOid (RserializerOid
-showOwn (RshowOwn
-sync (Rsync"L
-DownloadResponse"
-errorMessage (	RerrorMessage
-value (Rvalue"’
-DownloadByGuidsRequest
-roids (Rroids
-guids (	Rguids$
-serializerOid (RserializerOid
-deep (Rdeep
-sync (Rsync"S
-DownloadByGuidsResponse"
-errorMessage (	RerrorMessage
-value (Rvalue"’
-DownloadByNamesRequest
-roids (Rroids
-names (	Rnames$
-serializerOid (RserializerOid
-deep (Rdeep
-sync (Rsync"S
-DownloadByNamesResponse"
-errorMessage (	RerrorMessage
-value (Rvalue"
-DownloadByOidsRequest
-roids (Rroids
-oids (Roids$
-serializerOid (RserializerOid
-sync (Rsync
-deep (Rdeep"R
-DownloadByOidsResponse"
-errorMessage (	RerrorMessage
-value (Rvalue"ð
-DownloadByTypesRequest
-roids (Rroids
-
-classNames (	R
-classNames$
-serializerOid (RserializerOid.
-includeAllSubtypes (RincludeAllSubtypes"
-useObjectIDM (RuseObjectIDM
-deep (Rdeep
-sync (Rsync"S
-DownloadByTypesResponse"
-errorMessage (	RerrorMessage
-value (Rvalue"Œ
-DownloadQueryRequest
-roid (Rroid
-qeid (Rqeid
-code (	Rcode
-sync (Rsync$
-serializerOid (RserializerOid"Q
-DownloadQueryResponse"
-errorMessage (	RerrorMessage
-value (Rvalue"j
-DownloadRevisionsRequest
-roids (Rroids$
-serializerOid (RserializerOid
-sync (Rsync"U
-DownloadRevisionsResponse"
-errorMessage (	RerrorMessage
-value (Rvalue"9
-#GetAllExtendedDataOfRevisionRequest
-roid (Rroid"
-$GetAllExtendedDataOfRevisionResponse"
-errorMessage (	RerrorMessage5
-value (2.org.bimserver.pb.SExtendedDataRvalue"[
-GetAllProjectsRequest"
-onlyTopLevel (RonlyTopLevel
-
-onlyActive (R
-onlyActive"n
-GetAllProjectsResponse"
-errorMessage (	RerrorMessage0
-value (2.org.bimserver.pb.SProjectRvalue"5
-GetAllRevisionsOfProjectRequest
-poid (Rpoid"y
- GetAllRevisionsOfProjectResponse"
-errorMessage (	RerrorMessage1
-value (2.org.bimserver.pb.SRevisionRvalue".
-GetDeserializerByIdRequest
-oid (Roid"‹
-GetDeserializerByIdResponse"
-errorMessage (	RerrorMessageH
-value (22.org.bimserver.pb.SDeserializerPluginConfigurationRvalue"J
-GetDeserializerByNameRequest*
-deserializerName (	RdeserializerName"
-GetDeserializerByNameResponse"
-errorMessage (	RerrorMessageH
-value (22.org.bimserver.pb.SDeserializerPluginConfigurationRvalue"4
-GetDownloadDataRequest
-actionId (RactionId"5
-SCheckoutResult
-oid (Roid
-rid (Rrid"ý
-SDownloadResult!
-__actual_type (	R
-ActualTypeM
-__SCheckoutResult (2!.org.bimserver.pb.SCheckoutResultRSCheckoutResult
-file (Rfile
-
-revisionNr (R
-revisionNr
-oid (Roid 
-projectName (	RprojectName
-rid (Rrid"v
-GetDownloadDataResponse"
-errorMessage (	RerrorMessage7
-value (2!.org.bimserver.pb.SDownloadResultRvalue"*
-GetExtendedDataRequest
-oid (Roid"t
-GetExtendedDataResponse"
-errorMessage (	RerrorMessage5
-value (2.org.bimserver.pb.SExtendedDataRvalue"4
- GetExtendedDataSchemaByIdRequest
-oid (Roid"„
-!GetExtendedDataSchemaByIdResponse"
-errorMessage (	RerrorMessage;
-value (2%.org.bimserver.pb.SExtendedDataSchemaRvalue"G
-'GetExtendedDataSchemaByNamespaceRequest
-	namespace (	R	namespace"‹
-(GetExtendedDataSchemaByNamespaceResponse"
-errorMessage (	RerrorMessage;
-value (2%.org.bimserver.pb.SExtendedDataSchemaRvalue"-
-GetProjectByPoidRequest
-poid (Rpoid"p
-GetProjectByPoidResponse"
-errorMessage (	RerrorMessage0
-value (2.org.bimserver.pb.SProjectRvalue".
-GetProjectsByNameRequest
-name (	Rname"q
-GetProjectsByNameResponse"
-errorMessage (	RerrorMessage0
-value (2.org.bimserver.pb.SProjectRvalue"-
-GetQueryEngineByIdRequest
-oid (Roid"‰
-GetQueryEngineByIdResponse"
-errorMessage (	RerrorMessageG
-value (21.org.bimserver.pb.SQueryEnginePluginConfigurationRvalue"1
-GetQueryEngineByNameRequest
-name (	Rname"‹
-GetQueryEngineByNameResponse"
-errorMessage (	RerrorMessageG
-value (21.org.bimserver.pb.SQueryEnginePluginConfigurationRvalue"(
-GetRevisionRequest
-roid (Rroid"l
-GetRevisionResponse"
-errorMessage (	RerrorMessage1
-value (2.org.bimserver.pb.SRevisionRvalue"E
-!GetSerializerByContentTypeRequest 
-contentType (	RcontentType"
-"GetSerializerByContentTypeResponse"
-errorMessage (	RerrorMessageF
-value (20.org.bimserver.pb.SSerializerPluginConfigurationRvalue",
-GetSerializerByIdRequest
-oid (Roid"‡
-GetSerializerByIdResponse"
-errorMessage (	RerrorMessageF
-value (20.org.bimserver.pb.SSerializerPluginConfigurationRvalue"D
-GetSerializerByNameRequest&
-serializerName (	RserializerName"‰
-GetSerializerByNameResponse"
-errorMessage (	RerrorMessageF
-value (20.org.bimserver.pb.SSerializerPluginConfigurationRvalue"+
-GetSubProjectsRequest
-poid (Rpoid"n
-GetSubProjectsResponse"
-errorMessage (	RerrorMessage0
-value (2.org.bimserver.pb.SProjectRvalue"K
-+GetSuggestedDeserializerForExtensionRequest
-	extension (	R	extension"œ
-,GetSuggestedDeserializerForExtensionResponse"
-errorMessage (	RerrorMessageH
-value (22.org.bimserver.pb.SDeserializerPluginConfigurationRvalue",
-UndeleteProjectRequest
-poid (Rpoid"S
-UndeleteProjectResponse"
-errorMessage (	RerrorMessage
-value (Rvalue2Ó
-Bimsie1ServiceInterfaceo
-addExtendedDataToRevision2.org.bimserver.pb.AddExtendedDataToRevisionRequest.org.bimserver.pb.VoidResponseW
-
-addProject#.org.bimserver.pb.AddProjectRequest$.org.bimserver.pb.AddProjectResponse{
-addProjectAsSubProject/.org.bimserver.pb.AddProjectAsSubProjectRequest0.org.bimserver.pb.AddProjectAsSubProjectResponse~
-branchToExistingProject0.org.bimserver.pb.BranchToExistingProjectRequest1.org.bimserver.pb.BranchToExistingProjectResponseo
-branchToNewProject+.org.bimserver.pb.BranchToNewProjectRequest,.org.bimserver.pb.BranchToNewProjectResponseN
-checkin .org.bimserver.pb.CheckinRequest!.org.bimserver.pb.CheckinResponsec
-checkinFromUrl'.org.bimserver.pb.CheckinFromUrlRequest(.org.bimserver.pb.CheckinFromUrlResponseQ
-checkout!.org.bimserver.pb.CheckoutRequest".org.bimserver.pb.CheckoutResponse`
-deleteProject&.org.bimserver.pb.DeleteProjectRequest'.org.bimserver.pb.DeleteProjectResponseQ
-download!.org.bimserver.pb.DownloadRequest".org.bimserver.pb.DownloadResponsef
-downloadByGuids(.org.bimserver.pb.DownloadByGuidsRequest).org.bimserver.pb.DownloadByGuidsResponsef
-downloadByNames(.org.bimserver.pb.DownloadByNamesRequest).org.bimserver.pb.DownloadByNamesResponsec
-downloadByOids'.org.bimserver.pb.DownloadByOidsRequest(.org.bimserver.pb.DownloadByOidsResponsef
-downloadByTypes(.org.bimserver.pb.DownloadByTypesRequest).org.bimserver.pb.DownloadByTypesResponse`
-downloadQuery&.org.bimserver.pb.DownloadQueryRequest'.org.bimserver.pb.DownloadQueryResponsel
-downloadRevisions*.org.bimserver.pb.DownloadRevisionsRequest+.org.bimserver.pb.DownloadRevisionsResponse
-getAllExtendedDataOfRevision5.org.bimserver.pb.GetAllExtendedDataOfRevisionRequest6.org.bimserver.pb.GetAllExtendedDataOfRevisionResponsec
-getAllProjects'.org.bimserver.pb.GetAllProjectsRequest(.org.bimserver.pb.GetAllProjectsResponse
-getAllRevisionsOfProject1.org.bimserver.pb.GetAllRevisionsOfProjectRequest2.org.bimserver.pb.GetAllRevisionsOfProjectResponser
-getDeserializerById,.org.bimserver.pb.GetDeserializerByIdRequest-.org.bimserver.pb.GetDeserializerByIdResponsex
-getDeserializerByName..org.bimserver.pb.GetDeserializerByNameRequest/.org.bimserver.pb.GetDeserializerByNameResponsef
-getDownloadData(.org.bimserver.pb.GetDownloadDataRequest).org.bimserver.pb.GetDownloadDataResponsef
-getExtendedData(.org.bimserver.pb.GetExtendedDataRequest).org.bimserver.pb.GetExtendedDataResponse„
-getExtendedDataSchemaById2.org.bimserver.pb.GetExtendedDataSchemaByIdRequest3.org.bimserver.pb.GetExtendedDataSchemaByIdResponse™
- getExtendedDataSchemaByNamespace9.org.bimserver.pb.GetExtendedDataSchemaByNamespaceRequest:.org.bimserver.pb.GetExtendedDataSchemaByNamespaceResponsei
-getProjectByPoid).org.bimserver.pb.GetProjectByPoidRequest*.org.bimserver.pb.GetProjectByPoidResponsel
-getProjectsByName*.org.bimserver.pb.GetProjectsByNameRequest+.org.bimserver.pb.GetProjectsByNameResponseo
-getQueryEngineById+.org.bimserver.pb.GetQueryEngineByIdRequest,.org.bimserver.pb.GetQueryEngineByIdResponseu
-getQueryEngineByName-.org.bimserver.pb.GetQueryEngineByNameRequest..org.bimserver.pb.GetQueryEngineByNameResponseZ
-getRevision$.org.bimserver.pb.GetRevisionRequest%.org.bimserver.pb.GetRevisionResponse‡
-getSerializerByContentType3.org.bimserver.pb.GetSerializerByContentTypeRequest4.org.bimserver.pb.GetSerializerByContentTypeResponsel
-getSerializerById*.org.bimserver.pb.GetSerializerByIdRequest+.org.bimserver.pb.GetSerializerByIdResponser
-getSerializerByName,.org.bimserver.pb.GetSerializerByNameRequest-.org.bimserver.pb.GetSerializerByNameResponsec
-getSubProjects'.org.bimserver.pb.GetSubProjectsRequest(.org.bimserver.pb.GetSubProjectsResponse¥
-$getSuggestedDeserializerForExtension=.org.bimserver.pb.GetSuggestedDeserializerForExtensionRequest>.org.bimserver.pb.GetSuggestedDeserializerForExtensionResponsef
-undeleteProject(.org.bimserver.pb.UndeleteProjectRequest).org.bimserver.pb.UndeleteProjectResponseB"BBimsie1ServiceInterfaceImplHˆ
