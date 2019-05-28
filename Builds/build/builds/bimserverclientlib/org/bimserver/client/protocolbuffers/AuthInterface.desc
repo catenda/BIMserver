@@ -1,29 +1,0 @@
-
-À	
-AuthInterface.protoorg.bimserver.pbServiceInterface.protoAdminInterface.protoMetaInterface.protoSettingsInterface.proto"o
-ChangePasswordRequest
-uoid (Ruoid 
-oldPassword (	RoldPassword 
-newPassword (	RnewPassword"R
-ChangePasswordResponse"
-errorMessage (	RerrorMessage
-value (Rvalue"
-GetLoggedInUserRequest"l
-GetLoggedInUserResponse"
-errorMessage (	RerrorMessage-
-value (2.org.bimserver.pb.SUserRvalue"V
-RequestPasswordChangeRequest
-username (	Rusername
-resetUrl (	RresetUrl"^
-ValidateAccountRequest
-uoid (Ruoid
-token (	Rtoken
-password (	Rpassword"l
-ValidateAccountResponse"
-errorMessage (	RerrorMessage-
-value (2.org.bimserver.pb.SUserRvalue2­
-AuthInterfacec
-changePassword'.org.bimserver.pb.ChangePasswordRequest(.org.bimserver.pb.ChangePasswordResponsef
-getLoggedInUser(.org.bimserver.pb.GetLoggedInUserRequest).org.bimserver.pb.GetLoggedInUserResponseg
-requestPasswordChange..org.bimserver.pb.RequestPasswordChangeRequest.org.bimserver.pb.VoidResponsef
-validateAccount(.org.bimserver.pb.ValidateAccountRequest).org.bimserver.pb.ValidateAccountResponseBBAuthInterfaceImplHˆ

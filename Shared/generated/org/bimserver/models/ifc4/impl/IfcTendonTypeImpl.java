@@ -35,8 +35,8 @@ import org.eclipse.emf.ecore.EClass;
  *   <li>{@link org.bimserver.models.ifc4.impl.IfcTendonTypeImpl#getNominalDiameterAsString <em>Nominal Diameter As String</em>}</li>
  *   <li>{@link org.bimserver.models.ifc4.impl.IfcTendonTypeImpl#getCrossSectionArea <em>Cross Section Area</em>}</li>
  *   <li>{@link org.bimserver.models.ifc4.impl.IfcTendonTypeImpl#getCrossSectionAreaAsString <em>Cross Section Area As String</em>}</li>
- *   <li>{@link org.bimserver.models.ifc4.impl.IfcTendonTypeImpl#getSheethDiameter <em>Sheeth Diameter</em>}</li>
- *   <li>{@link org.bimserver.models.ifc4.impl.IfcTendonTypeImpl#getSheethDiameterAsString <em>Sheeth Diameter As String</em>}</li>
+ *   <li>{@link org.bimserver.models.ifc4.impl.IfcTendonTypeImpl#getSheathDiameter <em>Sheath Diameter</em>}</li>
+ *   <li>{@link org.bimserver.models.ifc4.impl.IfcTendonTypeImpl#getSheathDiameterAsString <em>Sheath Diameter As String</em>}</li>
  * </ul>
  *
  * @generated
@@ -228,8 +228,8 @@ public class IfcTendonTypeImpl extends IfcReinforcingElementTypeImpl implements 
      * <!-- end-user-doc -->
      * @generated
      */
-    public double getSheethDiameter() {
-        return (Double) eGet(Ifc4Package.Literals.IFC_TENDON_TYPE__SHEETH_DIAMETER, true);
+    public double getSheathDiameter() {
+        return (Double) eGet(Ifc4Package.Literals.IFC_TENDON_TYPE__SHEATH_DIAMETER, true);
     }
 
     /**
@@ -237,8 +237,8 @@ public class IfcTendonTypeImpl extends IfcReinforcingElementTypeImpl implements 
      * <!-- end-user-doc -->
      * @generated
      */
-    public void setSheethDiameter(double newSheethDiameter) {
-        eSet(Ifc4Package.Literals.IFC_TENDON_TYPE__SHEETH_DIAMETER, newSheethDiameter);
+    public void setSheathDiameter(double newSheathDiameter) {
+        eSet(Ifc4Package.Literals.IFC_TENDON_TYPE__SHEATH_DIAMETER, newSheathDiameter);
     }
 
     /**
@@ -246,8 +246,8 @@ public class IfcTendonTypeImpl extends IfcReinforcingElementTypeImpl implements 
      * <!-- end-user-doc -->
      * @generated
      */
-    public void unsetSheethDiameter() {
-        eUnset(Ifc4Package.Literals.IFC_TENDON_TYPE__SHEETH_DIAMETER);
+    public void unsetSheathDiameter() {
+        eUnset(Ifc4Package.Literals.IFC_TENDON_TYPE__SHEATH_DIAMETER);
     }
 
     /**
@@ -255,8 +255,8 @@ public class IfcTendonTypeImpl extends IfcReinforcingElementTypeImpl implements 
      * <!-- end-user-doc -->
      * @generated
      */
-    public boolean isSetSheethDiameter() {
-        return eIsSet(Ifc4Package.Literals.IFC_TENDON_TYPE__SHEETH_DIAMETER);
+    public boolean isSetSheathDiameter() {
+        return eIsSet(Ifc4Package.Literals.IFC_TENDON_TYPE__SHEATH_DIAMETER);
     }
 
     /**
@@ -264,8 +264,8 @@ public class IfcTendonTypeImpl extends IfcReinforcingElementTypeImpl implements 
      * <!-- end-user-doc -->
      * @generated
      */
-    public String getSheethDiameterAsString() {
-        return (String) eGet(Ifc4Package.Literals.IFC_TENDON_TYPE__SHEETH_DIAMETER_AS_STRING, true);
+    public String getSheathDiameterAsString() {
+        return (String) eGet(Ifc4Package.Literals.IFC_TENDON_TYPE__SHEATH_DIAMETER_AS_STRING, true);
     }
 
     /**
@@ -273,8 +273,8 @@ public class IfcTendonTypeImpl extends IfcReinforcingElementTypeImpl implements 
      * <!-- end-user-doc -->
      * @generated
      */
-    public void setSheethDiameterAsString(String newSheethDiameterAsString) {
-        eSet(Ifc4Package.Literals.IFC_TENDON_TYPE__SHEETH_DIAMETER_AS_STRING, newSheethDiameterAsString);
+    public void setSheathDiameterAsString(String newSheathDiameterAsString) {
+        eSet(Ifc4Package.Literals.IFC_TENDON_TYPE__SHEATH_DIAMETER_AS_STRING, newSheathDiameterAsString);
     }
 
     /**
@@ -282,8 +282,8 @@ public class IfcTendonTypeImpl extends IfcReinforcingElementTypeImpl implements 
      * <!-- end-user-doc -->
      * @generated
      */
-    public void unsetSheethDiameterAsString() {
-        eUnset(Ifc4Package.Literals.IFC_TENDON_TYPE__SHEETH_DIAMETER_AS_STRING);
+    public void unsetSheathDiameterAsString() {
+        eUnset(Ifc4Package.Literals.IFC_TENDON_TYPE__SHEATH_DIAMETER_AS_STRING);
     }
 
     /**
@@ -291,8 +291,8 @@ public class IfcTendonTypeImpl extends IfcReinforcingElementTypeImpl implements 
      * <!-- end-user-doc -->
      * @generated
      */
-    public boolean isSetSheethDiameterAsString() {
-        return eIsSet(Ifc4Package.Literals.IFC_TENDON_TYPE__SHEETH_DIAMETER_AS_STRING);
+    public boolean isSetSheathDiameterAsString() {
+        return eIsSet(Ifc4Package.Literals.IFC_TENDON_TYPE__SHEATH_DIAMETER_AS_STRING);
     }
 
 } //IfcTendonTypeImpl

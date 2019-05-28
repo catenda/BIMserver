@@ -40,6 +40,7 @@ import org.bimserver.emf.ModelMetaData;
 import org.bimserver.emf.OidProvider;
 import org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package;
 import org.bimserver.models.ifc2x3tc1.IfcRoot;
+import org.bimserver.models.ifc4.Ifc4Package;
 import org.bimserver.models.log.LogPackage;
 import org.bimserver.models.store.StorePackage;
 import org.bimserver.plugins.objectidms.ObjectIDM;
@@ -82,7 +83,7 @@ public class IfcModel implements IfcModelInterface {
 
 	private static BiMap<EClass, Class<?>> initEClassClassMap() {
 		BiMap<EClass, Class<?>> eClassClassMap = HashBiMap.create();
-		for (EPackage ePackage : new EPackage[] { Ifc2x3tc1Package.eINSTANCE, StorePackage.eINSTANCE, LogPackage.eINSTANCE }) {
+		for (EPackage ePackage : new EPackage[] { Ifc2x3tc1Package.eINSTANCE, Ifc4Package.eINSTANCE, StorePackage.eINSTANCE, LogPackage.eINSTANCE }) {
 			for (EClassifier eClassifier : ePackage.getEClassifiers()) {
 				if (eClassifier instanceof EClass) {
 					EClass eClass = (EClass) eClassifier;

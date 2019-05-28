@@ -370,7 +370,7 @@ public class IfcStepDeserializer extends EmfDeserializer {
 				enumValue = logical;
 			}
 		} else if (value.equals("F")) {
-			if (structuralFeature.getEType() == Ifc2x3tc1Package.eINSTANCE.getTristate()) {
+			if (structuralFeature.getEType().getName().equals("Tristate")) {
 				enumValue = createEnumerator("Tristate", "FALSE");
 			} else if (structuralFeature.getEType().getName().equals("IfcBoolean")) {
 				EClass eClass = (EClass) classes.get("IfcBoolean");
@@ -386,7 +386,7 @@ public class IfcStepDeserializer extends EmfDeserializer {
 				enumValue = logical;
 			}
 		} else if (value.equals("U")) {
-			if (structuralFeature.getEType() == Ifc2x3tc1Package.eINSTANCE.getTristate()) {
+			if (structuralFeature.getEType().getName().equals("Tristate")) {
 				enumValue = createEnumerator("Tristate", "UNDEFINED");
 			} else if (structuralFeature.getEType() == EcorePackage.eINSTANCE.getEBoolean()) {
 				enumValue = null;

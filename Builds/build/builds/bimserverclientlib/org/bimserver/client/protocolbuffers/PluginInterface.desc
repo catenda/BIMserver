@@ -1,469 +1,0 @@
-
-è³
-PluginInterface.protoorg.bimserver.pbServiceInterface.protoAdminInterface.protoMetaInterface.protoSettingsInterface.protoAuthInterface.proto"n
- SDeserializerPluginConfiguration&
-userSettingsId (RuserSettingsId
-oid (Roid
-rid (Rrid"p
-AddDeserializerRequestV
-deserializer (22.org.bimserver.pb.SDeserializerPluginConfigurationRdeserializer"
-#SInternalServicePluginConfiguration&
-userSettingsId (RuserSettingsId
-oid (Roid*
-remoteAccessible (RremoteAccessible
-rid (Rrid"|
-AddInternalServiceRequest_
-internalService (25.org.bimserver.pb.SInternalServicePluginConfigurationRinternalService"n
- SModelComparePluginConfiguration&
-userSettingsId (RuserSettingsId
-oid (Roid
-rid (Rrid"p
-AddModelCompareRequestV
-modelCompare (22.org.bimserver.pb.SModelComparePluginConfigurationRmodelCompare"m
-SModelMergerPluginConfiguration&
-userSettingsId (RuserSettingsId
-oid (Roid
-rid (Rrid"l
-AddModelMergerRequestS
-modelMerger (21.org.bimserver.pb.SModelMergerPluginConfigurationRmodelMerger"
-SObjectIDMPluginConfiguration 
-serializers (Rserializers&
-userSettingsId (RuserSettingsId
-oid (Roid
-rid (Rrid"d
-AddObjectIDMRequestM
-	objectIDM (2/.org.bimserver.pb.SObjectIDMPluginConfigurationR	objectIDM"m
-SQueryEnginePluginConfiguration&
-userSettingsId (RuserSettingsId
-oid (Roid
-rid (Rrid"l
-AddQueryEngineRequestS
-queryEngine (21.org.bimserver.pb.SQueryEnginePluginConfigurationRqueryEngine"
- SRenderEnginePluginConfiguration 
-serializers (Rserializers&
-userSettingsId (RuserSettingsId
-oid (Roid
-rid (Rrid"p
-AddRenderEngineRequestV
-renderEngine (22.org.bimserver.pb.SRenderEnginePluginConfigurationRrenderEngine"¶
-SSerializerPluginConfiguration&
-renderEngineId (RrenderEngineId&
-userSettingsId (RuserSettingsId
-oid (Roid
-rid (Rrid 
-objectIDMId (RobjectIDMId"h
-AddSerializerRequestP
-
-serializer (20.org.bimserver.pb.SSerializerPluginConfigurationR
-serializer"-
-DeleteDeserializerRequest
-sid (Rsid"0
-DeleteInternalServiceRequest
-oid (Roid"-
-DeleteModelCompareRequest
-iid (Riid",
-DeleteModelMergerRequest
-iid (Riid"*
-DeleteObjectIDMRequest
-oid (Roid",
-DeleteQueryEngineRequest
-iid (Riid"-
-DeleteRenderEngineRequest
-iid (Riid"+
-DeleteSerializerRequest
-sid (Rsid",
-*GetAllDeserializerPluginDescriptorsRequest"˜
-+GetAllDeserializerPluginDescriptorsResponse"
-errorMessage (	RerrorMessageE
-value (2/.org.bimserver.pb.SDeserializerPluginDescriptorRvalue">
-GetAllDeserializersRequest 
-onlyEnabled (RonlyEnabled"‹
-GetAllDeserializersResponse"
-errorMessage (	RerrorMessageH
-value (22.org.bimserver.pb.SDeserializerPluginConfigurationRvalue"A
-GetAllInternalServicesRequest 
-onlyEnabled (RonlyEnabled"‘
-GetAllInternalServicesResponse"
-errorMessage (	RerrorMessageK
-value (25.org.bimserver.pb.SInternalServicePluginConfigurationRvalue",
-*GetAllModelComparePluginDescriptorsRequest"˜
-+GetAllModelComparePluginDescriptorsResponse"
-errorMessage (	RerrorMessageE
-value (2/.org.bimserver.pb.SModelComparePluginDescriptorRvalue">
-GetAllModelComparesRequest 
-onlyEnabled (RonlyEnabled"‹
-GetAllModelComparesResponse"
-errorMessage (	RerrorMessageH
-value (22.org.bimserver.pb.SModelComparePluginConfigurationRvalue"+
-)GetAllModelMergerPluginDescriptorsRequest"–
-*GetAllModelMergerPluginDescriptorsResponse"
-errorMessage (	RerrorMessageD
-value (2..org.bimserver.pb.SModelMergerPluginDescriptorRvalue"=
-GetAllModelMergersRequest 
-onlyEnabled (RonlyEnabled"‰
-GetAllModelMergersResponse"
-errorMessage (	RerrorMessageG
-value (21.org.bimserver.pb.SModelMergerPluginConfigurationRvalue")
-'GetAllObjectIDMPluginDescriptorsRequest"^
-SObjectIDMPluginDescriptor
-	className (	R	className
-oid (Roid
-rid (Rrid"’
-(GetAllObjectIDMPluginDescriptorsResponse"
-errorMessage (	RerrorMessageB
-value (2,.org.bimserver.pb.SObjectIDMPluginDescriptorRvalue";
-GetAllObjectIDMsRequest 
-onlyEnabled (RonlyEnabled"…
-GetAllObjectIDMsResponse"
-errorMessage (	RerrorMessageE
-value (2/.org.bimserver.pb.SObjectIDMPluginConfigurationRvalue"+
-)GetAllQueryEnginePluginDescriptorsRequest"–
-*GetAllQueryEnginePluginDescriptorsResponse"
-errorMessage (	RerrorMessageD
-value (2..org.bimserver.pb.SQueryEnginePluginDescriptorRvalue"=
-GetAllQueryEnginesRequest 
-onlyEnabled (RonlyEnabled"‰
-GetAllQueryEnginesResponse"
-errorMessage (	RerrorMessageG
-value (21.org.bimserver.pb.SQueryEnginePluginConfigurationRvalue",
-*GetAllRenderEnginePluginDescriptorsRequest"˜
-+GetAllRenderEnginePluginDescriptorsResponse"
-errorMessage (	RerrorMessageE
-value (2/.org.bimserver.pb.SRenderEnginePluginDescriptorRvalue">
-GetAllRenderEnginesRequest 
-onlyEnabled (RonlyEnabled"‹
-GetAllRenderEnginesResponse"
-errorMessage (	RerrorMessageH
-value (22.org.bimserver.pb.SRenderEnginePluginConfigurationRvalue"*
-(GetAllSerializerPluginDescriptorsRequest"”
-)GetAllSerializerPluginDescriptorsResponse"
-errorMessage (	RerrorMessageC
-value (2-.org.bimserver.pb.SSerializerPluginDescriptorRvalue"<
-GetAllSerializersRequest 
-onlyEnabled (RonlyEnabled"‡
-GetAllSerializersResponse"
-errorMessage (	RerrorMessageF
-value (20.org.bimserver.pb.SSerializerPluginConfigurationRvalue"'
-%GetAllServicePluginDescriptorsRequest"Ž
-&GetAllServicePluginDescriptorsResponse"
-errorMessage (	RerrorMessage@
-value (2*.org.bimserver.pb.SServicePluginDescriptorRvalue")
-'GetAllWebModulePluginDescriptorsRequest"’
-(GetAllWebModulePluginDescriptorsResponse"
-errorMessage (	RerrorMessageB
-value (2,.org.bimserver.pb.SWebModulePluginDescriptorRvalue";
-GetAllWebModulesRequest 
-onlyEnabled (RonlyEnabled"o
-SWebModulePluginConfiguration*
-serverSettingsId (RserverSettingsId
-oid (Roid
-rid (Rrid"…
-GetAllWebModulesResponse"
-errorMessage (	RerrorMessageE
-value (2/.org.bimserver.pb.SWebModulePluginConfigurationRvalue"
-GetDefaultModelCompareRequest"Ž
-GetDefaultModelCompareResponse"
-errorMessage (	RerrorMessageH
-value (22.org.bimserver.pb.SModelComparePluginConfigurationRvalue"
-GetDefaultModelMergerRequest"Œ
-GetDefaultModelMergerResponse"
-errorMessage (	RerrorMessageG
-value (21.org.bimserver.pb.SModelMergerPluginConfigurationRvalue"
-GetDefaultObjectIDMRequest"ˆ
-GetDefaultObjectIDMResponse"
-errorMessage (	RerrorMessageE
-value (2/.org.bimserver.pb.SObjectIDMPluginConfigurationRvalue"
-GetDefaultQueryEngineRequest"Œ
-GetDefaultQueryEngineResponse"
-errorMessage (	RerrorMessageG
-value (21.org.bimserver.pb.SQueryEnginePluginConfigurationRvalue"
-GetDefaultRenderEngineRequest"Ž
-GetDefaultRenderEngineResponse"
-errorMessage (	RerrorMessageH
-value (22.org.bimserver.pb.SRenderEnginePluginConfigurationRvalue"
-GetDefaultSerializerRequest"Š
-GetDefaultSerializerResponse"
-errorMessage (	RerrorMessageF
-value (20.org.bimserver.pb.SSerializerPluginConfigurationRvalue"
-GetDefaultWebModuleRequest"ˆ
-GetDefaultWebModuleResponse"
-errorMessage (	RerrorMessageE
-value (2/.org.bimserver.pb.SWebModulePluginConfigurationRvalue"1
-GetInternalServiceByIdRequest
-oid (Roid"‘
-GetInternalServiceByIdResponse"
-errorMessage (	RerrorMessageK
-value (25.org.bimserver.pb.SInternalServicePluginConfigurationRvalue".
-GetModelCompareByIdRequest
-oid (Roid"‹
-GetModelCompareByIdResponse"
-errorMessage (	RerrorMessageH
-value (22.org.bimserver.pb.SModelComparePluginConfigurationRvalue"2
-GetModelCompareByNameRequest
-name (	Rname"
-GetModelCompareByNameResponse"
-errorMessage (	RerrorMessageH
-value (22.org.bimserver.pb.SModelComparePluginConfigurationRvalue"-
-GetModelMergerByIdRequest
-oid (Roid"‰
-GetModelMergerByIdResponse"
-errorMessage (	RerrorMessageG
-value (21.org.bimserver.pb.SModelMergerPluginConfigurationRvalue"1
-GetModelMergerByNameRequest
-name (	Rname"‹
-GetModelMergerByNameResponse"
-errorMessage (	RerrorMessageG
-value (21.org.bimserver.pb.SModelMergerPluginConfigurationRvalue"+
-GetObjectIDMByIdRequest
-oid (Roid"…
-GetObjectIDMByIdResponse"
-errorMessage (	RerrorMessageE
-value (2/.org.bimserver.pb.SObjectIDMPluginConfigurationRvalue"A
-GetObjectIDMByNameRequest$
-objectIDMName (	RobjectIDMName"‡
-GetObjectIDMByNameResponse"
-errorMessage (	RerrorMessageE
-value (2/.org.bimserver.pb.SObjectIDMPluginConfigurationRvalue".
-GetPluginDescriptorRequest
-oid (Roid"|
-GetPluginDescriptorResponse"
-errorMessage (	RerrorMessage9
-value (2#.org.bimserver.pb.SPluginDescriptorRvalue"4
- GetPluginObjectDefinitionRequest
-oid (Roid"I
-SArrayDefinition5
-type (2!.org.bimserver.pb.STypeDefinitionRtype"L
-SPrimitiveDefinition4
-type (2 .org.bimserver.pb.SPrimitiveEnumRtype"¹
-STypeDefinition!
-__actual_type (	R
-ActualTypeP
-__SArrayDefinition (2".org.bimserver.pb.SArrayDefinitionRSArrayDefinition\
-__SPrimitiveDefinition (2&.org.bimserver.pb.SPrimitiveDefinitionRSPrimitiveDefinitionS
-__SObjectDefinition (2#.org.bimserver.pb.SObjectDefinitionRSObjectDefinition"Ç
-SParameterDefinition
-name (	Rname 
-description (	Rdescription&
-defaultValueId (RdefaultValueId5
-type (2!.org.bimserver.pb.STypeDefinitionRtype
-required (Rrequired"[
-SObjectDefinitionF
-
-parameters (2&.org.bimserver.pb.SParameterDefinitionR
-parameters"‚
-!GetPluginObjectDefinitionResponse"
-errorMessage (	RerrorMessage9
-value (2#.org.bimserver.pb.SObjectDefinitionRvalue".
-GetPluginSettingsRequest
-poid (Rpoid"E
-	SLongType
-oid (Roid
-rid (Rrid
-value (Rvalue"J
-SByteArrayType
-oid (Roid
-rid (Rrid
-value (Rvalue"H
-SBooleanType
-oid (Roid
-rid (Rrid
-value (Rvalue"G
-SStringType
-oid (Roid
-rid (Rrid
-value (	Rvalue"G
-SDoubleType
-oid (Roid
-rid (Rrid
-value (Rvalue"¬
-SPrimitiveType!
-__actual_type (	R
-ActualType;
-__SLongType (2.org.bimserver.pb.SLongTypeR	SLongTypeJ
-__SByteArrayType (2 .org.bimserver.pb.SByteArrayTypeRSByteArrayTypeD
-__SBooleanType (2.org.bimserver.pb.SBooleanTypeRSBooleanTypeA
-__SStringType (2.org.bimserver.pb.SStringTypeRSStringTypeA
-__SDoubleType (2.org.bimserver.pb.SDoubleTypeRSDoubleType
-oid (Roid
-rid (Rrid"a
-
-SArrayType/
-values (2.org.bimserver.pb.STypeRvalues
-oid (Roid
-rid (Rrid"
-SType!
-__actual_type (	R
-ActualTypeA
-__SObjectType (2.org.bimserver.pb.SObjectTypeRSObjectTypeJ
-__SPrimitiveType (2 .org.bimserver.pb.SPrimitiveTypeRSPrimitiveType>
-__SArrayType (2.org.bimserver.pb.SArrayTypeR
-SArrayType
-oid (Roid
-rid (Rrid"s
-
-SParameter
-name (	Rname
-oid (Roid
-rid (Rrid-
-value (2.org.bimserver.pb.STypeRvalue"ƒ
-SObjectType
-name (	Rname
-oid (Roid
-rid (Rrid<
-
-parameters (2.org.bimserver.pb.SParameterR
-parameters"t
-GetPluginSettingsResponse"
-errorMessage (	RerrorMessage3
-value (2.org.bimserver.pb.SObjectTypeRvalue".
-GetRenderEngineByIdRequest
-oid (Roid"‹
-GetRenderEngineByIdResponse"
-errorMessage (	RerrorMessageH
-value (22.org.bimserver.pb.SRenderEnginePluginConfigurationRvalue"2
-GetRenderEngineByNameRequest
-name (	Rname"
-GetRenderEngineByNameResponse"
-errorMessage (	RerrorMessageH
-value (22.org.bimserver.pb.SRenderEnginePluginConfigurationRvalue"Q
-%GetSerializerByPluginClassNameRequest(
-pluginClassName (	RpluginClassName"”
-&GetSerializerByPluginClassNameResponse"
-errorMessage (	RerrorMessageF
-value (20.org.bimserver.pb.SSerializerPluginConfigurationRvalue":
-$GetSerializerPluginDescriptorRequest
-type (	Rtype"
-%GetSerializerPluginDescriptorResponse"
-errorMessage (	RerrorMessageC
-value (2-.org.bimserver.pb.SSerializerPluginDescriptorRvalue"+
-GetWebModuleByIdRequest
-oid (Roid"…
-GetWebModuleByIdResponse"
-errorMessage (	RerrorMessageE
-value (2/.org.bimserver.pb.SWebModulePluginConfigurationRvalue"/
-GetWebModuleByNameRequest
-name (	Rname"‡
-GetWebModuleByNameResponse"
-errorMessage (	RerrorMessageE
-value (2/.org.bimserver.pb.SWebModulePluginConfigurationRvalue">
-HasActiveSerializerRequest 
-contentType (	RcontentType"W
-HasActiveSerializerResponse"
-errorMessage (	RerrorMessage
-value (Rvalue"1
-SetDefaultModelCompareRequest
-oid (Roid"0
-SetDefaultModelMergerRequest
-oid (Roid".
-SetDefaultObjectIDMRequest
-oid (Roid"0
-SetDefaultQueryEngineRequest
-oid (Roid"1
-SetDefaultRenderEngineRequest
-oid (Roid"/
-SetDefaultSerializerRequest
-oid (Roid".
-SetDefaultWebModuleRequest
-oid (Roid"i
-SetPluginSettingsRequest
-poid (Rpoid9
-settings (2.org.bimserver.pb.SObjectTypeRsettings"s
-UpdateDeserializerRequestV
-deserializer (22.org.bimserver.pb.SDeserializerPluginConfigurationRdeserializer"
-UpdateInternalServiceRequest_
-internalService (25.org.bimserver.pb.SInternalServicePluginConfigurationRinternalService"s
-UpdateModelCompareRequestV
-modelCompare (22.org.bimserver.pb.SModelComparePluginConfigurationRmodelCompare"o
-UpdateModelMergerRequestS
-modelMerger (21.org.bimserver.pb.SModelMergerPluginConfigurationRmodelMerger"g
-UpdateObjectIDMRequestM
-	objectIDM (2/.org.bimserver.pb.SObjectIDMPluginConfigurationR	objectIDM"o
-UpdateQueryEngineRequestS
-queryEngine (21.org.bimserver.pb.SQueryEnginePluginConfigurationRqueryEngine"s
-UpdateRenderEngineRequestV
-renderEngine (22.org.bimserver.pb.SRenderEnginePluginConfigurationRrenderEngine"k
-UpdateSerializerRequestP
-
-serializer (20.org.bimserver.pb.SSerializerPluginConfigurationR
-serializer*š
-SPrimitiveEnum
-SPrimitiveEnum_LONG 
-SPrimitiveEnum_DOUBLE
-SPrimitiveEnum_BOOLEAN
-SPrimitiveEnum_STRING
-SPrimitiveEnum_BYTE_ARRAY2¶B
-PluginInterface[
-addDeserializer(.org.bimserver.pb.AddDeserializerRequest.org.bimserver.pb.VoidResponsea
-addInternalService+.org.bimserver.pb.AddInternalServiceRequest.org.bimserver.pb.VoidResponse[
-addModelCompare(.org.bimserver.pb.AddModelCompareRequest.org.bimserver.pb.VoidResponseY
-addModelMerger'.org.bimserver.pb.AddModelMergerRequest.org.bimserver.pb.VoidResponseU
-addObjectIDM%.org.bimserver.pb.AddObjectIDMRequest.org.bimserver.pb.VoidResponseY
-addQueryEngine'.org.bimserver.pb.AddQueryEngineRequest.org.bimserver.pb.VoidResponse[
-addRenderEngine(.org.bimserver.pb.AddRenderEngineRequest.org.bimserver.pb.VoidResponseW
-addSerializer&.org.bimserver.pb.AddSerializerRequest.org.bimserver.pb.VoidResponsea
-deleteDeserializer+.org.bimserver.pb.DeleteDeserializerRequest.org.bimserver.pb.VoidResponseg
-deleteInternalService..org.bimserver.pb.DeleteInternalServiceRequest.org.bimserver.pb.VoidResponsea
-deleteModelCompare+.org.bimserver.pb.DeleteModelCompareRequest.org.bimserver.pb.VoidResponse_
-deleteModelMerger*.org.bimserver.pb.DeleteModelMergerRequest.org.bimserver.pb.VoidResponse[
-deleteObjectIDM(.org.bimserver.pb.DeleteObjectIDMRequest.org.bimserver.pb.VoidResponse_
-deleteQueryEngine*.org.bimserver.pb.DeleteQueryEngineRequest.org.bimserver.pb.VoidResponsea
-deleteRenderEngine+.org.bimserver.pb.DeleteRenderEngineRequest.org.bimserver.pb.VoidResponse]
-deleteSerializer).org.bimserver.pb.DeleteSerializerRequest.org.bimserver.pb.VoidResponse¢
-#getAllDeserializerPluginDescriptors<.org.bimserver.pb.GetAllDeserializerPluginDescriptorsRequest=.org.bimserver.pb.GetAllDeserializerPluginDescriptorsResponser
-getAllDeserializers,.org.bimserver.pb.GetAllDeserializersRequest-.org.bimserver.pb.GetAllDeserializersResponse{
-getAllInternalServices/.org.bimserver.pb.GetAllInternalServicesRequest0.org.bimserver.pb.GetAllInternalServicesResponse¢
-#getAllModelComparePluginDescriptors<.org.bimserver.pb.GetAllModelComparePluginDescriptorsRequest=.org.bimserver.pb.GetAllModelComparePluginDescriptorsResponser
-getAllModelCompares,.org.bimserver.pb.GetAllModelComparesRequest-.org.bimserver.pb.GetAllModelComparesResponseŸ
-"getAllModelMergerPluginDescriptors;.org.bimserver.pb.GetAllModelMergerPluginDescriptorsRequest<.org.bimserver.pb.GetAllModelMergerPluginDescriptorsResponseo
-getAllModelMergers+.org.bimserver.pb.GetAllModelMergersRequest,.org.bimserver.pb.GetAllModelMergersResponse™
- getAllObjectIDMPluginDescriptors9.org.bimserver.pb.GetAllObjectIDMPluginDescriptorsRequest:.org.bimserver.pb.GetAllObjectIDMPluginDescriptorsResponsei
-getAllObjectIDMs).org.bimserver.pb.GetAllObjectIDMsRequest*.org.bimserver.pb.GetAllObjectIDMsResponseŸ
-"getAllQueryEnginePluginDescriptors;.org.bimserver.pb.GetAllQueryEnginePluginDescriptorsRequest<.org.bimserver.pb.GetAllQueryEnginePluginDescriptorsResponseo
-getAllQueryEngines+.org.bimserver.pb.GetAllQueryEnginesRequest,.org.bimserver.pb.GetAllQueryEnginesResponse¢
-#getAllRenderEnginePluginDescriptors<.org.bimserver.pb.GetAllRenderEnginePluginDescriptorsRequest=.org.bimserver.pb.GetAllRenderEnginePluginDescriptorsResponser
-getAllRenderEngines,.org.bimserver.pb.GetAllRenderEnginesRequest-.org.bimserver.pb.GetAllRenderEnginesResponseœ
-!getAllSerializerPluginDescriptors:.org.bimserver.pb.GetAllSerializerPluginDescriptorsRequest;.org.bimserver.pb.GetAllSerializerPluginDescriptorsResponsel
-getAllSerializers*.org.bimserver.pb.GetAllSerializersRequest+.org.bimserver.pb.GetAllSerializersResponse“
-getAllServicePluginDescriptors7.org.bimserver.pb.GetAllServicePluginDescriptorsRequest8.org.bimserver.pb.GetAllServicePluginDescriptorsResponse™
- getAllWebModulePluginDescriptors9.org.bimserver.pb.GetAllWebModulePluginDescriptorsRequest:.org.bimserver.pb.GetAllWebModulePluginDescriptorsResponsei
-getAllWebModules).org.bimserver.pb.GetAllWebModulesRequest*.org.bimserver.pb.GetAllWebModulesResponse{
-getDefaultModelCompare/.org.bimserver.pb.GetDefaultModelCompareRequest0.org.bimserver.pb.GetDefaultModelCompareResponsex
-getDefaultModelMerger..org.bimserver.pb.GetDefaultModelMergerRequest/.org.bimserver.pb.GetDefaultModelMergerResponser
-getDefaultObjectIDM,.org.bimserver.pb.GetDefaultObjectIDMRequest-.org.bimserver.pb.GetDefaultObjectIDMResponsex
-getDefaultQueryEngine..org.bimserver.pb.GetDefaultQueryEngineRequest/.org.bimserver.pb.GetDefaultQueryEngineResponse{
-getDefaultRenderEngine/.org.bimserver.pb.GetDefaultRenderEngineRequest0.org.bimserver.pb.GetDefaultRenderEngineResponseu
-getDefaultSerializer-.org.bimserver.pb.GetDefaultSerializerRequest..org.bimserver.pb.GetDefaultSerializerResponser
-getDefaultWebModule,.org.bimserver.pb.GetDefaultWebModuleRequest-.org.bimserver.pb.GetDefaultWebModuleResponse{
-getInternalServiceById/.org.bimserver.pb.GetInternalServiceByIdRequest0.org.bimserver.pb.GetInternalServiceByIdResponser
-getModelCompareById,.org.bimserver.pb.GetModelCompareByIdRequest-.org.bimserver.pb.GetModelCompareByIdResponsex
-getModelCompareByName..org.bimserver.pb.GetModelCompareByNameRequest/.org.bimserver.pb.GetModelCompareByNameResponseo
-getModelMergerById+.org.bimserver.pb.GetModelMergerByIdRequest,.org.bimserver.pb.GetModelMergerByIdResponseu
-getModelMergerByName-.org.bimserver.pb.GetModelMergerByNameRequest..org.bimserver.pb.GetModelMergerByNameResponsei
-getObjectIDMById).org.bimserver.pb.GetObjectIDMByIdRequest*.org.bimserver.pb.GetObjectIDMByIdResponseo
-getObjectIDMByName+.org.bimserver.pb.GetObjectIDMByNameRequest,.org.bimserver.pb.GetObjectIDMByNameResponser
-getPluginDescriptor,.org.bimserver.pb.GetPluginDescriptorRequest-.org.bimserver.pb.GetPluginDescriptorResponse„
-getPluginObjectDefinition2.org.bimserver.pb.GetPluginObjectDefinitionRequest3.org.bimserver.pb.GetPluginObjectDefinitionResponsel
-getPluginSettings*.org.bimserver.pb.GetPluginSettingsRequest+.org.bimserver.pb.GetPluginSettingsResponser
-getRenderEngineById,.org.bimserver.pb.GetRenderEngineByIdRequest-.org.bimserver.pb.GetRenderEngineByIdResponsex
-getRenderEngineByName..org.bimserver.pb.GetRenderEngineByNameRequest/.org.bimserver.pb.GetRenderEngineByNameResponse“
-getSerializerByPluginClassName7.org.bimserver.pb.GetSerializerByPluginClassNameRequest8.org.bimserver.pb.GetSerializerByPluginClassNameResponse
-getSerializerPluginDescriptor6.org.bimserver.pb.GetSerializerPluginDescriptorRequest7.org.bimserver.pb.GetSerializerPluginDescriptorResponsei
-getWebModuleById).org.bimserver.pb.GetWebModuleByIdRequest*.org.bimserver.pb.GetWebModuleByIdResponseo
-getWebModuleByName+.org.bimserver.pb.GetWebModuleByNameRequest,.org.bimserver.pb.GetWebModuleByNameResponser
-hasActiveSerializer,.org.bimserver.pb.HasActiveSerializerRequest-.org.bimserver.pb.HasActiveSerializerResponsei
-setDefaultModelCompare/.org.bimserver.pb.SetDefaultModelCompareRequest.org.bimserver.pb.VoidResponseg
-setDefaultModelMerger..org.bimserver.pb.SetDefaultModelMergerRequest.org.bimserver.pb.VoidResponsec
-setDefaultObjectIDM,.org.bimserver.pb.SetDefaultObjectIDMRequest.org.bimserver.pb.VoidResponseg
-setDefaultQueryEngine..org.bimserver.pb.SetDefaultQueryEngineRequest.org.bimserver.pb.VoidResponsei
-setDefaultRenderEngine/.org.bimserver.pb.SetDefaultRenderEngineRequest.org.bimserver.pb.VoidResponsee
-setDefaultSerializer-.org.bimserver.pb.SetDefaultSerializerRequest.org.bimserver.pb.VoidResponsec
-setDefaultWebModule,.org.bimserver.pb.SetDefaultWebModuleRequest.org.bimserver.pb.VoidResponse_
-setPluginSettings*.org.bimserver.pb.SetPluginSettingsRequest.org.bimserver.pb.VoidResponsea
-updateDeserializer+.org.bimserver.pb.UpdateDeserializerRequest.org.bimserver.pb.VoidResponseg
-updateInternalService..org.bimserver.pb.UpdateInternalServiceRequest.org.bimserver.pb.VoidResponsea
-updateModelCompare+.org.bimserver.pb.UpdateModelCompareRequest.org.bimserver.pb.VoidResponse_
-updateModelMerger*.org.bimserver.pb.UpdateModelMergerRequest.org.bimserver.pb.VoidResponse[
-updateObjectIDM(.org.bimserver.pb.UpdateObjectIDMRequest.org.bimserver.pb.VoidResponse_
-updateQueryEngine*.org.bimserver.pb.UpdateQueryEngineRequest.org.bimserver.pb.VoidResponsea
-updateRenderEngine+.org.bimserver.pb.UpdateRenderEngineRequest.org.bimserver.pb.VoidResponse]
-updateSerializer).org.bimserver.pb.UpdateSerializerRequest.org.bimserver.pb.VoidResponseBBPluginInterfaceImplHˆ

@@ -16,15 +16,39 @@
  */
 package org.bimserver.models.ifc4;
 
+import org.eclipse.emf.common.util.EList;
+
 /**
  * <!-- begin-user-doc -->
  * A representation of the model object '<em><b>Ifc Indexed Triangle Texture Map</b></em>'.
  * <!-- end-user-doc -->
  *
+ * <p>
+ * The following features are supported:
+ * </p>
+ * <ul>
+ *   <li>{@link org.bimserver.models.ifc4.IfcIndexedTriangleTextureMap#getTexCoordIndex <em>Tex Coord Index</em>}</li>
+ * </ul>
  *
  * @see org.bimserver.models.ifc4.Ifc4Package#getIfcIndexedTriangleTextureMap()
  * @model
  * @generated
  */
 public interface IfcIndexedTriangleTextureMap extends IfcIndexedTextureMap {
+
+    /**
+     * Returns the value of the '<em><b>Tex Coord Index</b></em>' reference list.
+     * The list contents are of type {@link org.bimserver.models.ifc4.ListOfELong}.
+     * <!-- begin-user-doc -->
+     * <p>
+     * If the meaning of the '<em>Tex Coord Index</em>' reference list isn't clear,
+     * there really should be more of a description here...
+     * </p>
+     * <!-- end-user-doc -->
+     * @return the value of the '<em>Tex Coord Index</em>' reference list.
+     * @see org.bimserver.models.ifc4.Ifc4Package#getIfcIndexedTriangleTextureMap_TexCoordIndex()
+     * @model
+     * @generated
+     */
+    EList<ListOfELong> getTexCoordIndex();
 } // IfcIndexedTriangleTextureMap

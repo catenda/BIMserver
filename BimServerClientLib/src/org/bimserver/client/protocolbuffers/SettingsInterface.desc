@@ -15,10 +15,10 @@
 generateGeometryOnCheckin (RgenerateGeometryOnCheckin.
 whitelistedDomains (	RwhitelistedDomains 
 siteAddress (	RsiteAddress4
-allowSelfRegistration (RallowSelfRegistration4
-checkinMergingEnabled (RcheckinMergingEnabled2
-allowOnlyWhitelisted (RallowOnlyWhitelisted 
-webModuleId (RwebModuleId
+checkinMergingEnabled (RcheckinMergingEnabled 
+webModuleId (RwebModuleId4
+allowSelfRegistration (RallowSelfRegistration2
+allowOnlyWhitelisted (RallowOnlyWhitelisted
 
 webModules	 (R
 webModules

@@ -106,10 +106,10 @@ message SServerSettings {
 	optional bool generateGeometryOnCheckin = 2;
 	repeated string whitelistedDomains = 3;
 	optional string siteAddress = 4;
-	optional bool allowSelfRegistration = 5;
-	optional bool checkinMergingEnabled = 6;
-	optional bool allowOnlyWhitelisted = 7;
-	optional int64 webModuleId = 8;
+	optional bool checkinMergingEnabled = 5;
+	optional int64 webModuleId = 6;
+	optional bool allowSelfRegistration = 7;
+	optional bool allowOnlyWhitelisted = 8;
 	repeated int64 webModules = 9;
 	optional int64 oid = 10;
 	optional int32 rid = 11;
