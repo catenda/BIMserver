@@ -365,11 +365,13 @@ public class IfcStepSerializer extends IfcSerializer {
 		} else {
 			out.print(OPEN_PAREN);
 			boolean first = true;
+			boolean skipComma = false;
 			int index = 0;
 			for (Object listObject : list) {
-				if (!first) {
+				if (!first && !skipComma) {
 					out.print(COMMA);
 				}
+				skipComma = false;
 				if ((listObject instanceof IdEObject) && model.contains((IdEObject)listObject)) {
 					IdEObject eObject = (IdEObject) listObject;
 					out.print(DASH);
@@ -412,6 +414,7 @@ public class IfcStepSerializer extends IfcSerializer {
 								out.print(CLOSE_PAREN);
 							} else {
 								LOGGER.info("Unfollowable reference found from " + object + "." + feature.getName() + " to " + eObject);
+								skipComma = true;
 							}
 						} else {
 							if (doubleStingList != null) {
