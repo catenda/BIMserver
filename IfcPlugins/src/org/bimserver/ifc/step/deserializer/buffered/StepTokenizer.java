@@ -112,6 +112,9 @@ class StepTokenizer {
 			break;
 		}
 		case ',':
+			if (listStack.isEmpty()) {
+				throw new StepParseException("Unexpected character ,");
+			}
 			listStack.peek().length++;
 			token = token(TOKEN_COMMA, 1);
 			parsed = true;
