@@ -66,6 +66,7 @@ public class IfcCoveringImpl extends IfcBuildingElementImpl implements IfcCoveri
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public IfcCoveringTypeEnum getPredefinedType() {
         return (IfcCoveringTypeEnum) eGet(Ifc2x3tc1Package.Literals.IFC_COVERING__PREDEFINED_TYPE, true);
     }
@@ -75,6 +76,7 @@ public class IfcCoveringImpl extends IfcBuildingElementImpl implements IfcCoveri
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setPredefinedType(IfcCoveringTypeEnum newPredefinedType) {
         eSet(Ifc2x3tc1Package.Literals.IFC_COVERING__PREDEFINED_TYPE, newPredefinedType);
     }
@@ -84,6 +86,7 @@ public class IfcCoveringImpl extends IfcBuildingElementImpl implements IfcCoveri
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void unsetPredefinedType() {
         eUnset(Ifc2x3tc1Package.Literals.IFC_COVERING__PREDEFINED_TYPE);
     }
@@ -93,6 +96,7 @@ public class IfcCoveringImpl extends IfcBuildingElementImpl implements IfcCoveri
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public boolean isSetPredefinedType() {
         return eIsSet(Ifc2x3tc1Package.Literals.IFC_COVERING__PREDEFINED_TYPE);
     }
@@ -103,6 +107,7 @@ public class IfcCoveringImpl extends IfcBuildingElementImpl implements IfcCoveri
      * @generated
      */
     @SuppressWarnings("unchecked")
+    @Override
     public EList<IfcRelCoversSpaces> getCoversSpaces() {
         return (EList<IfcRelCoversSpaces>) eGet(Ifc2x3tc1Package.Literals.IFC_COVERING__COVERS_SPACES, true);
     }
@@ -112,6 +117,7 @@ public class IfcCoveringImpl extends IfcBuildingElementImpl implements IfcCoveri
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void unsetCoversSpaces() {
         eUnset(Ifc2x3tc1Package.Literals.IFC_COVERING__COVERS_SPACES);
     }
@@ -121,6 +127,7 @@ public class IfcCoveringImpl extends IfcBuildingElementImpl implements IfcCoveri
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public boolean isSetCoversSpaces() {
         return eIsSet(Ifc2x3tc1Package.Literals.IFC_COVERING__COVERS_SPACES);
     }
@@ -131,6 +138,7 @@ public class IfcCoveringImpl extends IfcBuildingElementImpl implements IfcCoveri
      * @generated
      */
     @SuppressWarnings("unchecked")
+    @Override
     public EList<IfcRelCoversBldgElements> getCovers() {
         return (EList<IfcRelCoversBldgElements>) eGet(Ifc2x3tc1Package.Literals.IFC_COVERING__COVERS, true);
     }
@@ -140,6 +148,7 @@ public class IfcCoveringImpl extends IfcBuildingElementImpl implements IfcCoveri
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void unsetCovers() {
         eUnset(Ifc2x3tc1Package.Literals.IFC_COVERING__COVERS);
     }
@@ -149,6 +158,7 @@ public class IfcCoveringImpl extends IfcBuildingElementImpl implements IfcCoveri
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public boolean isSetCovers() {
         return eIsSet(Ifc2x3tc1Package.Literals.IFC_COVERING__COVERS);
     }

@@ -61,6 +61,7 @@ public class IfcFireSuppressionTerminalTypeImpl extends IfcFlowTerminalTypeImpl
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public IfcFireSuppressionTerminalTypeEnum getPredefinedType() {
         return (IfcFireSuppressionTerminalTypeEnum) eGet(
                 Ifc2x3tc1Package.Literals.IFC_FIRE_SUPPRESSION_TERMINAL_TYPE__PREDEFINED_TYPE, true);
@@ -71,6 +72,7 @@ public class IfcFireSuppressionTerminalTypeImpl extends IfcFlowTerminalTypeImpl
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setPredefinedType(IfcFireSuppressionTerminalTypeEnum newPredefinedType) {
         eSet(Ifc2x3tc1Package.Literals.IFC_FIRE_SUPPRESSION_TERMINAL_TYPE__PREDEFINED_TYPE, newPredefinedType);
     }

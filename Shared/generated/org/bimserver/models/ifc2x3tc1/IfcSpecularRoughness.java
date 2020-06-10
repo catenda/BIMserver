@@ -30,7 +30,7 @@ package org.bimserver.models.ifc2x3tc1;
  * </ul>
  *
  * @see org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package#getIfcSpecularRoughness()
- * @model
+ * @model annotation="wrapped"
  * @generated
  */
 public interface IfcSpecularRoughness extends IfcSpecularHighlightSelect {
@@ -101,6 +101,8 @@ public interface IfcSpecularRoughness extends IfcSpecularHighlightSelect {
      * @see #setWrappedValueAsString(String)
      * @see org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package#getIfcSpecularRoughness_WrappedValueAsString()
      * @model unsettable="true"
+     *        annotation="asstring"
+     *        annotation="hidden"
      * @generated
      */
     String getWrappedValueAsString();

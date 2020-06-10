@@ -64,6 +64,7 @@ public class IfcOffsetCurve2DImpl extends IfcCurveImpl implements IfcOffsetCurve
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public IfcCurve getBasisCurve() {
         return (IfcCurve) eGet(Ifc4Package.Literals.IFC_OFFSET_CURVE2_D__BASIS_CURVE, true);
     }
@@ -73,6 +74,7 @@ public class IfcOffsetCurve2DImpl extends IfcCurveImpl implements IfcOffsetCurve
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setBasisCurve(IfcCurve newBasisCurve) {
         eSet(Ifc4Package.Literals.IFC_OFFSET_CURVE2_D__BASIS_CURVE, newBasisCurve);
     }
@@ -82,6 +84,7 @@ public class IfcOffsetCurve2DImpl extends IfcCurveImpl implements IfcOffsetCurve
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public double getDistance() {
         return (Double) eGet(Ifc4Package.Literals.IFC_OFFSET_CURVE2_D__DISTANCE, true);
     }
@@ -91,6 +94,7 @@ public class IfcOffsetCurve2DImpl extends IfcCurveImpl implements IfcOffsetCurve
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setDistance(double newDistance) {
         eSet(Ifc4Package.Literals.IFC_OFFSET_CURVE2_D__DISTANCE, newDistance);
     }
@@ -100,6 +104,7 @@ public class IfcOffsetCurve2DImpl extends IfcCurveImpl implements IfcOffsetCurve
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public String getDistanceAsString() {
         return (String) eGet(Ifc4Package.Literals.IFC_OFFSET_CURVE2_D__DISTANCE_AS_STRING, true);
     }
@@ -109,6 +114,7 @@ public class IfcOffsetCurve2DImpl extends IfcCurveImpl implements IfcOffsetCurve
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setDistanceAsString(String newDistanceAsString) {
         eSet(Ifc4Package.Literals.IFC_OFFSET_CURVE2_D__DISTANCE_AS_STRING, newDistanceAsString);
     }
@@ -118,6 +124,7 @@ public class IfcOffsetCurve2DImpl extends IfcCurveImpl implements IfcOffsetCurve
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public Tristate getSelfIntersect() {
         return (Tristate) eGet(Ifc4Package.Literals.IFC_OFFSET_CURVE2_D__SELF_INTERSECT, true);
     }
@@ -127,6 +134,7 @@ public class IfcOffsetCurve2DImpl extends IfcCurveImpl implements IfcOffsetCurve
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setSelfIntersect(Tristate newSelfIntersect) {
         eSet(Ifc4Package.Literals.IFC_OFFSET_CURVE2_D__SELF_INTERSECT, newSelfIntersect);
     }

@@ -48,6 +48,7 @@ public interface IfcRelVoidsElement extends IfcRelConnects {
      * @see org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package#getIfcRelVoidsElement_RelatingBuildingElement()
      * @see org.bimserver.models.ifc2x3tc1.IfcElement#getHasOpenings
      * @model opposite="HasOpenings"
+     *        annotation="inverse"
      * @generated
      */
     IfcElement getRelatingBuildingElement();
@@ -76,6 +77,7 @@ public interface IfcRelVoidsElement extends IfcRelConnects {
      * @see org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package#getIfcRelVoidsElement_RelatedOpeningElement()
      * @see org.bimserver.models.ifc2x3tc1.IfcFeatureElementSubtraction#getVoidsElements
      * @model opposite="VoidsElements"
+     *        annotation="inverse"
      * @generated
      */
     IfcFeatureElementSubtraction getRelatedOpeningElement();

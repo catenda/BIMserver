@@ -66,6 +66,7 @@ public class IfcRelSequenceImpl extends IfcRelConnectsImpl implements IfcRelSequ
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public IfcProcess getRelatingProcess() {
         return (IfcProcess) eGet(Ifc4Package.Literals.IFC_REL_SEQUENCE__RELATING_PROCESS, true);
     }
@@ -75,6 +76,7 @@ public class IfcRelSequenceImpl extends IfcRelConnectsImpl implements IfcRelSequ
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setRelatingProcess(IfcProcess newRelatingProcess) {
         eSet(Ifc4Package.Literals.IFC_REL_SEQUENCE__RELATING_PROCESS, newRelatingProcess);
     }
@@ -84,6 +86,7 @@ public class IfcRelSequenceImpl extends IfcRelConnectsImpl implements IfcRelSequ
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public IfcProcess getRelatedProcess() {
         return (IfcProcess) eGet(Ifc4Package.Literals.IFC_REL_SEQUENCE__RELATED_PROCESS, true);
     }
@@ -93,6 +96,7 @@ public class IfcRelSequenceImpl extends IfcRelConnectsImpl implements IfcRelSequ
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setRelatedProcess(IfcProcess newRelatedProcess) {
         eSet(Ifc4Package.Literals.IFC_REL_SEQUENCE__RELATED_PROCESS, newRelatedProcess);
     }
@@ -102,6 +106,7 @@ public class IfcRelSequenceImpl extends IfcRelConnectsImpl implements IfcRelSequ
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public IfcLagTime getTimeLag() {
         return (IfcLagTime) eGet(Ifc4Package.Literals.IFC_REL_SEQUENCE__TIME_LAG, true);
     }
@@ -111,6 +116,7 @@ public class IfcRelSequenceImpl extends IfcRelConnectsImpl implements IfcRelSequ
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setTimeLag(IfcLagTime newTimeLag) {
         eSet(Ifc4Package.Literals.IFC_REL_SEQUENCE__TIME_LAG, newTimeLag);
     }
@@ -120,6 +126,7 @@ public class IfcRelSequenceImpl extends IfcRelConnectsImpl implements IfcRelSequ
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void unsetTimeLag() {
         eUnset(Ifc4Package.Literals.IFC_REL_SEQUENCE__TIME_LAG);
     }
@@ -129,6 +136,7 @@ public class IfcRelSequenceImpl extends IfcRelConnectsImpl implements IfcRelSequ
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public boolean isSetTimeLag() {
         return eIsSet(Ifc4Package.Literals.IFC_REL_SEQUENCE__TIME_LAG);
     }
@@ -138,6 +146,7 @@ public class IfcRelSequenceImpl extends IfcRelConnectsImpl implements IfcRelSequ
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public IfcSequenceEnum getSequenceType() {
         return (IfcSequenceEnum) eGet(Ifc4Package.Literals.IFC_REL_SEQUENCE__SEQUENCE_TYPE, true);
     }
@@ -147,6 +156,7 @@ public class IfcRelSequenceImpl extends IfcRelConnectsImpl implements IfcRelSequ
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setSequenceType(IfcSequenceEnum newSequenceType) {
         eSet(Ifc4Package.Literals.IFC_REL_SEQUENCE__SEQUENCE_TYPE, newSequenceType);
     }
@@ -156,6 +166,7 @@ public class IfcRelSequenceImpl extends IfcRelConnectsImpl implements IfcRelSequ
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void unsetSequenceType() {
         eUnset(Ifc4Package.Literals.IFC_REL_SEQUENCE__SEQUENCE_TYPE);
     }
@@ -165,6 +176,7 @@ public class IfcRelSequenceImpl extends IfcRelConnectsImpl implements IfcRelSequ
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public boolean isSetSequenceType() {
         return eIsSet(Ifc4Package.Literals.IFC_REL_SEQUENCE__SEQUENCE_TYPE);
     }
@@ -174,6 +186,7 @@ public class IfcRelSequenceImpl extends IfcRelConnectsImpl implements IfcRelSequ
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public String getUserDefinedSequenceType() {
         return (String) eGet(Ifc4Package.Literals.IFC_REL_SEQUENCE__USER_DEFINED_SEQUENCE_TYPE, true);
     }
@@ -183,6 +196,7 @@ public class IfcRelSequenceImpl extends IfcRelConnectsImpl implements IfcRelSequ
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setUserDefinedSequenceType(String newUserDefinedSequenceType) {
         eSet(Ifc4Package.Literals.IFC_REL_SEQUENCE__USER_DEFINED_SEQUENCE_TYPE, newUserDefinedSequenceType);
     }
@@ -192,6 +206,7 @@ public class IfcRelSequenceImpl extends IfcRelConnectsImpl implements IfcRelSequ
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void unsetUserDefinedSequenceType() {
         eUnset(Ifc4Package.Literals.IFC_REL_SEQUENCE__USER_DEFINED_SEQUENCE_TYPE);
     }
@@ -201,6 +216,7 @@ public class IfcRelSequenceImpl extends IfcRelConnectsImpl implements IfcRelSequ
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public boolean isSetUserDefinedSequenceType() {
         return eIsSet(Ifc4Package.Literals.IFC_REL_SEQUENCE__USER_DEFINED_SEQUENCE_TYPE);
     }

@@ -48,6 +48,7 @@ public interface IfcRelAssignsToActor extends IfcRelAssigns {
      * @see org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package#getIfcRelAssignsToActor_RelatingActor()
      * @see org.bimserver.models.ifc2x3tc1.IfcActor#getIsActingUpon
      * @model opposite="IsActingUpon"
+     *        annotation="inverse"
      * @generated
      */
     IfcActor getRelatingActor();

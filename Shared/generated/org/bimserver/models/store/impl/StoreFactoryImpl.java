@@ -336,6 +336,7 @@ public class StoreFactoryImpl extends EFactoryImpl implements StoreFactory {
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public Project createProject() {
         ProjectImpl project = new ProjectImpl();
         return project;
@@ -346,6 +347,7 @@ public class StoreFactoryImpl extends EFactoryImpl implements StoreFactory {
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public User createUser() {
         UserImpl user = new UserImpl();
         return user;
@@ -356,6 +358,7 @@ public class StoreFactoryImpl extends EFactoryImpl implements StoreFactory {
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public Revision createRevision() {
         RevisionImpl revision = new RevisionImpl();
         return revision;
@@ -366,6 +369,7 @@ public class StoreFactoryImpl extends EFactoryImpl implements StoreFactory {
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public ConcreteRevision createConcreteRevision() {
         ConcreteRevisionImpl concreteRevision = new ConcreteRevisionImpl();
         return concreteRevision;
@@ -376,6 +380,7 @@ public class StoreFactoryImpl extends EFactoryImpl implements StoreFactory {
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public GeoTag createGeoTag() {
         GeoTagImpl geoTag = new GeoTagImpl();
         return geoTag;
@@ -386,6 +391,7 @@ public class StoreFactoryImpl extends EFactoryImpl implements StoreFactory {
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public Checkout createCheckout() {
         CheckoutImpl checkout = new CheckoutImpl();
         return checkout;
@@ -396,6 +402,7 @@ public class StoreFactoryImpl extends EFactoryImpl implements StoreFactory {
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public ServerSettings createServerSettings() {
         ServerSettingsImpl serverSettings = new ServerSettingsImpl();
         return serverSettings;
@@ -406,6 +413,7 @@ public class StoreFactoryImpl extends EFactoryImpl implements StoreFactory {
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public UserSettings createUserSettings() {
         UserSettingsImpl userSettings = new UserSettingsImpl();
         return userSettings;
@@ -416,6 +424,7 @@ public class StoreFactoryImpl extends EFactoryImpl implements StoreFactory {
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public PluginConfiguration createPluginConfiguration() {
         PluginConfigurationImpl pluginConfiguration = new PluginConfigurationImpl();
         return pluginConfiguration;
@@ -426,6 +435,7 @@ public class StoreFactoryImpl extends EFactoryImpl implements StoreFactory {
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public SerializerPluginConfiguration createSerializerPluginConfiguration() {
         SerializerPluginConfigurationImpl serializerPluginConfiguration = new SerializerPluginConfigurationImpl();
         return serializerPluginConfiguration;
@@ -436,6 +446,7 @@ public class StoreFactoryImpl extends EFactoryImpl implements StoreFactory {
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public ObjectIDMPluginConfiguration createObjectIDMPluginConfiguration() {
         ObjectIDMPluginConfigurationImpl objectIDMPluginConfiguration = new ObjectIDMPluginConfigurationImpl();
         return objectIDMPluginConfiguration;
@@ -446,6 +457,7 @@ public class StoreFactoryImpl extends EFactoryImpl implements StoreFactory {
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public RenderEnginePluginConfiguration createRenderEnginePluginConfiguration() {
         RenderEnginePluginConfigurationImpl renderEnginePluginConfiguration = new RenderEnginePluginConfigurationImpl();
         return renderEnginePluginConfiguration;
@@ -456,6 +468,7 @@ public class StoreFactoryImpl extends EFactoryImpl implements StoreFactory {
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public DeserializerPluginConfiguration createDeserializerPluginConfiguration() {
         DeserializerPluginConfigurationImpl deserializerPluginConfiguration = new DeserializerPluginConfigurationImpl();
         return deserializerPluginConfiguration;
@@ -466,6 +479,7 @@ public class StoreFactoryImpl extends EFactoryImpl implements StoreFactory {
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public DownloadResult createDownloadResult() {
         DownloadResultImpl downloadResult = new DownloadResultImpl();
         return downloadResult;
@@ -476,6 +490,7 @@ public class StoreFactoryImpl extends EFactoryImpl implements StoreFactory {
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public CheckoutResult createCheckoutResult() {
         CheckoutResultImpl checkoutResult = new CheckoutResultImpl();
         return checkoutResult;
@@ -486,6 +501,7 @@ public class StoreFactoryImpl extends EFactoryImpl implements StoreFactory {
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public DataValue createDataValue() {
         DataValueImpl dataValue = new DataValueImpl();
         return dataValue;
@@ -496,6 +512,7 @@ public class StoreFactoryImpl extends EFactoryImpl implements StoreFactory {
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public DataObject createDataObject() {
         DataObjectImpl dataObject = new DataObjectImpl();
         return dataObject;
@@ -506,6 +523,7 @@ public class StoreFactoryImpl extends EFactoryImpl implements StoreFactory {
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public UserSession createUserSession() {
         UserSessionImpl userSession = new UserSessionImpl();
         return userSession;
@@ -516,6 +534,7 @@ public class StoreFactoryImpl extends EFactoryImpl implements StoreFactory {
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public Migration createMigration() {
         MigrationImpl migration = new MigrationImpl();
         return migration;
@@ -526,6 +545,7 @@ public class StoreFactoryImpl extends EFactoryImpl implements StoreFactory {
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public ReferenceDataValue createReferenceDataValue() {
         ReferenceDataValueImpl referenceDataValue = new ReferenceDataValueImpl();
         return referenceDataValue;
@@ -536,6 +556,7 @@ public class StoreFactoryImpl extends EFactoryImpl implements StoreFactory {
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public ListDataValue createListDataValue() {
         ListDataValueImpl listDataValue = new ListDataValueImpl();
         return listDataValue;
@@ -546,6 +567,7 @@ public class StoreFactoryImpl extends EFactoryImpl implements StoreFactory {
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public SimpleDataValue createSimpleDataValue() {
         SimpleDataValueImpl simpleDataValue = new SimpleDataValueImpl();
         return simpleDataValue;
@@ -556,6 +578,7 @@ public class StoreFactoryImpl extends EFactoryImpl implements StoreFactory {
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public DatabaseInformationItem createDatabaseInformationItem() {
         DatabaseInformationItemImpl databaseInformationItem = new DatabaseInformationItemImpl();
         return databaseInformationItem;
@@ -566,6 +589,7 @@ public class StoreFactoryImpl extends EFactoryImpl implements StoreFactory {
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public DatabaseInformationCategory createDatabaseInformationCategory() {
         DatabaseInformationCategoryImpl databaseInformationCategory = new DatabaseInformationCategoryImpl();
         return databaseInformationCategory;
@@ -576,6 +600,7 @@ public class StoreFactoryImpl extends EFactoryImpl implements StoreFactory {
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public DatabaseInformation createDatabaseInformation() {
         DatabaseInformationImpl databaseInformation = new DatabaseInformationImpl();
         return databaseInformation;
@@ -586,6 +611,7 @@ public class StoreFactoryImpl extends EFactoryImpl implements StoreFactory {
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public PluginDescriptor createPluginDescriptor() {
         PluginDescriptorImpl pluginDescriptor = new PluginDescriptorImpl();
         return pluginDescriptor;
@@ -596,6 +622,7 @@ public class StoreFactoryImpl extends EFactoryImpl implements StoreFactory {
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public SerializerPluginDescriptor createSerializerPluginDescriptor() {
         SerializerPluginDescriptorImpl serializerPluginDescriptor = new SerializerPluginDescriptorImpl();
         return serializerPluginDescriptor;
@@ -606,6 +633,7 @@ public class StoreFactoryImpl extends EFactoryImpl implements StoreFactory {
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public DeserializerPluginDescriptor createDeserializerPluginDescriptor() {
         DeserializerPluginDescriptorImpl deserializerPluginDescriptor = new DeserializerPluginDescriptorImpl();
         return deserializerPluginDescriptor;
@@ -616,6 +644,7 @@ public class StoreFactoryImpl extends EFactoryImpl implements StoreFactory {
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public RevisionSummaryType createRevisionSummaryType() {
         RevisionSummaryTypeImpl revisionSummaryType = new RevisionSummaryTypeImpl();
         return revisionSummaryType;
@@ -626,6 +655,7 @@ public class StoreFactoryImpl extends EFactoryImpl implements StoreFactory {
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public RevisionSummaryContainer createRevisionSummaryContainer() {
         RevisionSummaryContainerImpl revisionSummaryContainer = new RevisionSummaryContainerImpl();
         return revisionSummaryContainer;
@@ -636,6 +666,7 @@ public class StoreFactoryImpl extends EFactoryImpl implements StoreFactory {
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public RevisionSummary createRevisionSummary() {
         RevisionSummaryImpl revisionSummary = new RevisionSummaryImpl();
         return revisionSummary;
@@ -646,6 +677,7 @@ public class StoreFactoryImpl extends EFactoryImpl implements StoreFactory {
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public LongAction createLongAction() {
         LongActionImpl longAction = new LongActionImpl();
         return longAction;
@@ -656,6 +688,7 @@ public class StoreFactoryImpl extends EFactoryImpl implements StoreFactory {
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public ObjectIDMPluginDescriptor createObjectIDMPluginDescriptor() {
         ObjectIDMPluginDescriptorImpl objectIDMPluginDescriptor = new ObjectIDMPluginDescriptorImpl();
         return objectIDMPluginDescriptor;
@@ -666,6 +699,7 @@ public class StoreFactoryImpl extends EFactoryImpl implements StoreFactory {
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public CompareItem createCompareItem() {
         CompareItemImpl compareItem = new CompareItemImpl();
         return compareItem;
@@ -676,6 +710,7 @@ public class StoreFactoryImpl extends EFactoryImpl implements StoreFactory {
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public ObjectAdded createObjectAdded() {
         ObjectAddedImpl objectAdded = new ObjectAddedImpl();
         return objectAdded;
@@ -686,6 +721,7 @@ public class StoreFactoryImpl extends EFactoryImpl implements StoreFactory {
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public ObjectRemoved createObjectRemoved() {
         ObjectRemovedImpl objectRemoved = new ObjectRemovedImpl();
         return objectRemoved;
@@ -696,6 +732,7 @@ public class StoreFactoryImpl extends EFactoryImpl implements StoreFactory {
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public ObjectModified createObjectModified() {
         ObjectModifiedImpl objectModified = new ObjectModifiedImpl();
         return objectModified;
@@ -706,6 +743,7 @@ public class StoreFactoryImpl extends EFactoryImpl implements StoreFactory {
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public CompareContainer createCompareContainer() {
         CompareContainerImpl compareContainer = new CompareContainerImpl();
         return compareContainer;
@@ -716,6 +754,7 @@ public class StoreFactoryImpl extends EFactoryImpl implements StoreFactory {
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public CompareResult createCompareResult() {
         CompareResultImpl compareResult = new CompareResultImpl();
         return compareResult;
@@ -726,6 +765,7 @@ public class StoreFactoryImpl extends EFactoryImpl implements StoreFactory {
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public LongActionState createLongActionState() {
         LongActionStateImpl longActionState = new LongActionStateImpl();
         return longActionState;
@@ -736,6 +776,7 @@ public class StoreFactoryImpl extends EFactoryImpl implements StoreFactory {
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public ServerInfo createServerInfo() {
         ServerInfoImpl serverInfo = new ServerInfoImpl();
         return serverInfo;
@@ -746,6 +787,7 @@ public class StoreFactoryImpl extends EFactoryImpl implements StoreFactory {
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public Version createVersion() {
         VersionImpl version = new VersionImpl();
         return version;
@@ -756,6 +798,7 @@ public class StoreFactoryImpl extends EFactoryImpl implements StoreFactory {
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public RenderEnginePluginDescriptor createRenderEnginePluginDescriptor() {
         RenderEnginePluginDescriptorImpl renderEnginePluginDescriptor = new RenderEnginePluginDescriptorImpl();
         return renderEnginePluginDescriptor;
@@ -766,6 +809,7 @@ public class StoreFactoryImpl extends EFactoryImpl implements StoreFactory {
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public File createFile() {
         FileImpl file = new FileImpl();
         return file;
@@ -776,6 +820,7 @@ public class StoreFactoryImpl extends EFactoryImpl implements StoreFactory {
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public ExtendedDataSchema createExtendedDataSchema() {
         ExtendedDataSchemaImpl extendedDataSchema = new ExtendedDataSchemaImpl();
         return extendedDataSchema;
@@ -786,6 +831,7 @@ public class StoreFactoryImpl extends EFactoryImpl implements StoreFactory {
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public ExtendedData createExtendedData() {
         ExtendedDataImpl extendedData = new ExtendedDataImpl();
         return extendedData;
@@ -796,6 +842,7 @@ public class StoreFactoryImpl extends EFactoryImpl implements StoreFactory {
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public QueryEnginePluginDescriptor createQueryEnginePluginDescriptor() {
         QueryEnginePluginDescriptorImpl queryEnginePluginDescriptor = new QueryEnginePluginDescriptorImpl();
         return queryEnginePluginDescriptor;
@@ -806,6 +853,7 @@ public class StoreFactoryImpl extends EFactoryImpl implements StoreFactory {
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public QueryEnginePluginConfiguration createQueryEnginePluginConfiguration() {
         QueryEnginePluginConfigurationImpl queryEnginePluginConfiguration = new QueryEnginePluginConfigurationImpl();
         return queryEnginePluginConfiguration;
@@ -816,6 +864,7 @@ public class StoreFactoryImpl extends EFactoryImpl implements StoreFactory {
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public WebModulePluginDescriptor createWebModulePluginDescriptor() {
         WebModulePluginDescriptorImpl webModulePluginDescriptor = new WebModulePluginDescriptorImpl();
         return webModulePluginDescriptor;
@@ -826,6 +875,7 @@ public class StoreFactoryImpl extends EFactoryImpl implements StoreFactory {
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public WebModulePluginConfiguration createWebModulePluginConfiguration() {
         WebModulePluginConfigurationImpl webModulePluginConfiguration = new WebModulePluginConfigurationImpl();
         return webModulePluginConfiguration;
@@ -836,6 +886,7 @@ public class StoreFactoryImpl extends EFactoryImpl implements StoreFactory {
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public ModelMergerPluginDescriptor createModelMergerPluginDescriptor() {
         ModelMergerPluginDescriptorImpl modelMergerPluginDescriptor = new ModelMergerPluginDescriptorImpl();
         return modelMergerPluginDescriptor;
@@ -846,6 +897,7 @@ public class StoreFactoryImpl extends EFactoryImpl implements StoreFactory {
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public ModelMergerPluginConfiguration createModelMergerPluginConfiguration() {
         ModelMergerPluginConfigurationImpl modelMergerPluginConfiguration = new ModelMergerPluginConfigurationImpl();
         return modelMergerPluginConfiguration;
@@ -856,6 +908,7 @@ public class StoreFactoryImpl extends EFactoryImpl implements StoreFactory {
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public ModelComparePluginDescriptor createModelComparePluginDescriptor() {
         ModelComparePluginDescriptorImpl modelComparePluginDescriptor = new ModelComparePluginDescriptorImpl();
         return modelComparePluginDescriptor;
@@ -866,6 +919,7 @@ public class StoreFactoryImpl extends EFactoryImpl implements StoreFactory {
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public ModelComparePluginConfiguration createModelComparePluginConfiguration() {
         ModelComparePluginConfigurationImpl modelComparePluginConfiguration = new ModelComparePluginConfigurationImpl();
         return modelComparePluginConfiguration;
@@ -876,6 +930,7 @@ public class StoreFactoryImpl extends EFactoryImpl implements StoreFactory {
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public ProfileDescriptor createProfileDescriptor() {
         ProfileDescriptorImpl profileDescriptor = new ProfileDescriptorImpl();
         return profileDescriptor;
@@ -886,6 +941,7 @@ public class StoreFactoryImpl extends EFactoryImpl implements StoreFactory {
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public ServiceDescriptor createServiceDescriptor() {
         ServiceDescriptorImpl serviceDescriptor = new ServiceDescriptorImpl();
         return serviceDescriptor;
@@ -896,6 +952,7 @@ public class StoreFactoryImpl extends EFactoryImpl implements StoreFactory {
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public Service createService() {
         ServiceImpl service = new ServiceImpl();
         return service;
@@ -906,6 +963,7 @@ public class StoreFactoryImpl extends EFactoryImpl implements StoreFactory {
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public Token createToken() {
         TokenImpl token = new TokenImpl();
         return token;
@@ -916,6 +974,7 @@ public class StoreFactoryImpl extends EFactoryImpl implements StoreFactory {
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public ServicePluginDescriptor createServicePluginDescriptor() {
         ServicePluginDescriptorImpl servicePluginDescriptor = new ServicePluginDescriptorImpl();
         return servicePluginDescriptor;
@@ -926,6 +985,7 @@ public class StoreFactoryImpl extends EFactoryImpl implements StoreFactory {
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public InternalServicePluginConfiguration createInternalServicePluginConfiguration() {
         InternalServicePluginConfigurationImpl internalServicePluginConfiguration = new InternalServicePluginConfigurationImpl();
         return internalServicePluginConfiguration;
@@ -936,6 +996,7 @@ public class StoreFactoryImpl extends EFactoryImpl implements StoreFactory {
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public ServiceInterface createServiceInterface() {
         ServiceInterfaceImpl serviceInterface = new ServiceInterfaceImpl();
         return serviceInterface;
@@ -946,6 +1007,7 @@ public class StoreFactoryImpl extends EFactoryImpl implements StoreFactory {
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public ServiceMethod createServiceMethod() {
         ServiceMethodImpl serviceMethod = new ServiceMethodImpl();
         return serviceMethod;
@@ -956,6 +1018,7 @@ public class StoreFactoryImpl extends EFactoryImpl implements StoreFactory {
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public ServiceField createServiceField() {
         ServiceFieldImpl serviceField = new ServiceFieldImpl();
         return serviceField;
@@ -966,6 +1029,7 @@ public class StoreFactoryImpl extends EFactoryImpl implements StoreFactory {
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public ServiceType createServiceType() {
         ServiceTypeImpl serviceType = new ServiceTypeImpl();
         return serviceType;
@@ -976,6 +1040,7 @@ public class StoreFactoryImpl extends EFactoryImpl implements StoreFactory {
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public ServiceParameter createServiceParameter() {
         ServiceParameterImpl serviceParameter = new ServiceParameterImpl();
         return serviceParameter;
@@ -986,6 +1051,7 @@ public class StoreFactoryImpl extends EFactoryImpl implements StoreFactory {
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public TypeDefinition createTypeDefinition() {
         TypeDefinitionImpl typeDefinition = new TypeDefinitionImpl();
         return typeDefinition;
@@ -996,6 +1062,7 @@ public class StoreFactoryImpl extends EFactoryImpl implements StoreFactory {
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public ObjectDefinition createObjectDefinition() {
         ObjectDefinitionImpl objectDefinition = new ObjectDefinitionImpl();
         return objectDefinition;
@@ -1006,6 +1073,7 @@ public class StoreFactoryImpl extends EFactoryImpl implements StoreFactory {
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public PrimitiveDefinition createPrimitiveDefinition() {
         PrimitiveDefinitionImpl primitiveDefinition = new PrimitiveDefinitionImpl();
         return primitiveDefinition;
@@ -1016,6 +1084,7 @@ public class StoreFactoryImpl extends EFactoryImpl implements StoreFactory {
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public ArrayDefinition createArrayDefinition() {
         ArrayDefinitionImpl arrayDefinition = new ArrayDefinitionImpl();
         return arrayDefinition;
@@ -1026,6 +1095,7 @@ public class StoreFactoryImpl extends EFactoryImpl implements StoreFactory {
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public ParameterDefinition createParameterDefinition() {
         ParameterDefinitionImpl parameterDefinition = new ParameterDefinitionImpl();
         return parameterDefinition;
@@ -1036,6 +1106,7 @@ public class StoreFactoryImpl extends EFactoryImpl implements StoreFactory {
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public Type createType() {
         TypeImpl type = new TypeImpl();
         return type;
@@ -1046,6 +1117,7 @@ public class StoreFactoryImpl extends EFactoryImpl implements StoreFactory {
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public ObjectType createObjectType() {
         ObjectTypeImpl objectType = new ObjectTypeImpl();
         return objectType;
@@ -1056,6 +1128,7 @@ public class StoreFactoryImpl extends EFactoryImpl implements StoreFactory {
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public PrimitiveType createPrimitiveType() {
         PrimitiveTypeImpl primitiveType = new PrimitiveTypeImpl();
         return primitiveType;
@@ -1066,6 +1139,7 @@ public class StoreFactoryImpl extends EFactoryImpl implements StoreFactory {
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public LongType createLongType() {
         LongTypeImpl longType = new LongTypeImpl();
         return longType;
@@ -1076,6 +1150,7 @@ public class StoreFactoryImpl extends EFactoryImpl implements StoreFactory {
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public ByteArrayType createByteArrayType() {
         ByteArrayTypeImpl byteArrayType = new ByteArrayTypeImpl();
         return byteArrayType;
@@ -1086,6 +1161,7 @@ public class StoreFactoryImpl extends EFactoryImpl implements StoreFactory {
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public DoubleType createDoubleType() {
         DoubleTypeImpl doubleType = new DoubleTypeImpl();
         return doubleType;
@@ -1096,6 +1172,7 @@ public class StoreFactoryImpl extends EFactoryImpl implements StoreFactory {
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public StringType createStringType() {
         StringTypeImpl stringType = new StringTypeImpl();
         return stringType;
@@ -1106,6 +1183,7 @@ public class StoreFactoryImpl extends EFactoryImpl implements StoreFactory {
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public BooleanType createBooleanType() {
         BooleanTypeImpl booleanType = new BooleanTypeImpl();
         return booleanType;
@@ -1116,6 +1194,7 @@ public class StoreFactoryImpl extends EFactoryImpl implements StoreFactory {
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public ArrayType createArrayType() {
         ArrayTypeImpl arrayType = new ArrayTypeImpl();
         return arrayType;
@@ -1126,6 +1205,7 @@ public class StoreFactoryImpl extends EFactoryImpl implements StoreFactory {
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public Parameter createParameter() {
         ParameterImpl parameter = new ParameterImpl();
         return parameter;
@@ -1136,6 +1216,7 @@ public class StoreFactoryImpl extends EFactoryImpl implements StoreFactory {
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public ImmediateNotificationResult createImmediateNotificationResult() {
         ImmediateNotificationResultImpl immediateNotificationResult = new ImmediateNotificationResultImpl();
         return immediateNotificationResult;
@@ -1146,6 +1227,7 @@ public class StoreFactoryImpl extends EFactoryImpl implements StoreFactory {
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public RemoteServiceUpdate createRemoteServiceUpdate() {
         RemoteServiceUpdateImpl remoteServiceUpdate = new RemoteServiceUpdateImpl();
         return remoteServiceUpdate;
@@ -1156,6 +1238,7 @@ public class StoreFactoryImpl extends EFactoryImpl implements StoreFactory {
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public PercentageChange createPercentageChange() {
         PercentageChangeImpl percentageChange = new PercentageChangeImpl();
         return percentageChange;
@@ -1166,6 +1249,7 @@ public class StoreFactoryImpl extends EFactoryImpl implements StoreFactory {
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public SystemInfo createSystemInfo() {
         SystemInfoImpl systemInfo = new SystemInfoImpl();
         return systemInfo;
@@ -1176,6 +1260,7 @@ public class StoreFactoryImpl extends EFactoryImpl implements StoreFactory {
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public JavaInfo createJavaInfo() {
         JavaInfoImpl javaInfo = new JavaInfoImpl();
         return javaInfo;
@@ -1186,6 +1271,7 @@ public class StoreFactoryImpl extends EFactoryImpl implements StoreFactory {
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public BimServerInfo createBimServerInfo() {
         BimServerInfoImpl bimServerInfo = new BimServerInfoImpl();
         return bimServerInfo;
@@ -1196,6 +1282,7 @@ public class StoreFactoryImpl extends EFactoryImpl implements StoreFactory {
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public ProjectSmall createProjectSmall() {
         ProjectSmallImpl projectSmall = new ProjectSmallImpl();
         return projectSmall;
@@ -1206,6 +1293,7 @@ public class StoreFactoryImpl extends EFactoryImpl implements StoreFactory {
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public IfcHeader createIfcHeader() {
         IfcHeaderImpl ifcHeader = new IfcHeaderImpl();
         return ifcHeader;
@@ -1498,6 +1586,7 @@ public class StoreFactoryImpl extends EFactoryImpl implements StoreFactory {
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public StorePackage getStorePackage() {
         return (StorePackage) getEPackage();
     }

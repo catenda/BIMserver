@@ -61,6 +61,7 @@ public class IfcBlobTextureImpl extends IfcSurfaceTextureImpl implements IfcBlob
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public String getRasterFormat() {
         return (String) eGet(Ifc2x3tc1Package.Literals.IFC_BLOB_TEXTURE__RASTER_FORMAT, true);
     }
@@ -70,6 +71,7 @@ public class IfcBlobTextureImpl extends IfcSurfaceTextureImpl implements IfcBlob
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setRasterFormat(String newRasterFormat) {
         eSet(Ifc2x3tc1Package.Literals.IFC_BLOB_TEXTURE__RASTER_FORMAT, newRasterFormat);
     }
@@ -79,6 +81,7 @@ public class IfcBlobTextureImpl extends IfcSurfaceTextureImpl implements IfcBlob
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public Tristate getRasterCode() {
         return (Tristate) eGet(Ifc2x3tc1Package.Literals.IFC_BLOB_TEXTURE__RASTER_CODE, true);
     }
@@ -88,6 +91,7 @@ public class IfcBlobTextureImpl extends IfcSurfaceTextureImpl implements IfcBlob
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setRasterCode(Tristate newRasterCode) {
         eSet(Ifc2x3tc1Package.Literals.IFC_BLOB_TEXTURE__RASTER_CODE, newRasterCode);
     }

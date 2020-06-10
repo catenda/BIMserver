@@ -81,6 +81,7 @@ public class IfcTextStyleWithBoxCharacteristicsImpl extends IdEObjectImpl
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public double getBoxHeight() {
         return (Double) eGet(Ifc2x3tc1Package.Literals.IFC_TEXT_STYLE_WITH_BOX_CHARACTERISTICS__BOX_HEIGHT, true);
     }
@@ -90,6 +91,7 @@ public class IfcTextStyleWithBoxCharacteristicsImpl extends IdEObjectImpl
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setBoxHeight(double newBoxHeight) {
         eSet(Ifc2x3tc1Package.Literals.IFC_TEXT_STYLE_WITH_BOX_CHARACTERISTICS__BOX_HEIGHT, newBoxHeight);
     }
@@ -99,6 +101,7 @@ public class IfcTextStyleWithBoxCharacteristicsImpl extends IdEObjectImpl
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void unsetBoxHeight() {
         eUnset(Ifc2x3tc1Package.Literals.IFC_TEXT_STYLE_WITH_BOX_CHARACTERISTICS__BOX_HEIGHT);
     }
@@ -108,6 +111,7 @@ public class IfcTextStyleWithBoxCharacteristicsImpl extends IdEObjectImpl
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public boolean isSetBoxHeight() {
         return eIsSet(Ifc2x3tc1Package.Literals.IFC_TEXT_STYLE_WITH_BOX_CHARACTERISTICS__BOX_HEIGHT);
     }
@@ -117,6 +121,7 @@ public class IfcTextStyleWithBoxCharacteristicsImpl extends IdEObjectImpl
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public String getBoxHeightAsString() {
         return (String) eGet(Ifc2x3tc1Package.Literals.IFC_TEXT_STYLE_WITH_BOX_CHARACTERISTICS__BOX_HEIGHT_AS_STRING,
                 true);
@@ -127,6 +132,7 @@ public class IfcTextStyleWithBoxCharacteristicsImpl extends IdEObjectImpl
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setBoxHeightAsString(String newBoxHeightAsString) {
         eSet(Ifc2x3tc1Package.Literals.IFC_TEXT_STYLE_WITH_BOX_CHARACTERISTICS__BOX_HEIGHT_AS_STRING,
                 newBoxHeightAsString);
@@ -137,6 +143,7 @@ public class IfcTextStyleWithBoxCharacteristicsImpl extends IdEObjectImpl
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void unsetBoxHeightAsString() {
         eUnset(Ifc2x3tc1Package.Literals.IFC_TEXT_STYLE_WITH_BOX_CHARACTERISTICS__BOX_HEIGHT_AS_STRING);
     }
@@ -146,6 +153,7 @@ public class IfcTextStyleWithBoxCharacteristicsImpl extends IdEObjectImpl
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public boolean isSetBoxHeightAsString() {
         return eIsSet(Ifc2x3tc1Package.Literals.IFC_TEXT_STYLE_WITH_BOX_CHARACTERISTICS__BOX_HEIGHT_AS_STRING);
     }
@@ -155,6 +163,7 @@ public class IfcTextStyleWithBoxCharacteristicsImpl extends IdEObjectImpl
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public double getBoxWidth() {
         return (Double) eGet(Ifc2x3tc1Package.Literals.IFC_TEXT_STYLE_WITH_BOX_CHARACTERISTICS__BOX_WIDTH, true);
     }
@@ -164,6 +173,7 @@ public class IfcTextStyleWithBoxCharacteristicsImpl extends IdEObjectImpl
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setBoxWidth(double newBoxWidth) {
         eSet(Ifc2x3tc1Package.Literals.IFC_TEXT_STYLE_WITH_BOX_CHARACTERISTICS__BOX_WIDTH, newBoxWidth);
     }
@@ -173,6 +183,7 @@ public class IfcTextStyleWithBoxCharacteristicsImpl extends IdEObjectImpl
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void unsetBoxWidth() {
         eUnset(Ifc2x3tc1Package.Literals.IFC_TEXT_STYLE_WITH_BOX_CHARACTERISTICS__BOX_WIDTH);
     }
@@ -182,6 +193,7 @@ public class IfcTextStyleWithBoxCharacteristicsImpl extends IdEObjectImpl
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public boolean isSetBoxWidth() {
         return eIsSet(Ifc2x3tc1Package.Literals.IFC_TEXT_STYLE_WITH_BOX_CHARACTERISTICS__BOX_WIDTH);
     }
@@ -191,6 +203,7 @@ public class IfcTextStyleWithBoxCharacteristicsImpl extends IdEObjectImpl
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public String getBoxWidthAsString() {
         return (String) eGet(Ifc2x3tc1Package.Literals.IFC_TEXT_STYLE_WITH_BOX_CHARACTERISTICS__BOX_WIDTH_AS_STRING,
                 true);
@@ -201,6 +214,7 @@ public class IfcTextStyleWithBoxCharacteristicsImpl extends IdEObjectImpl
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setBoxWidthAsString(String newBoxWidthAsString) {
         eSet(Ifc2x3tc1Package.Literals.IFC_TEXT_STYLE_WITH_BOX_CHARACTERISTICS__BOX_WIDTH_AS_STRING,
                 newBoxWidthAsString);
@@ -211,6 +225,7 @@ public class IfcTextStyleWithBoxCharacteristicsImpl extends IdEObjectImpl
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void unsetBoxWidthAsString() {
         eUnset(Ifc2x3tc1Package.Literals.IFC_TEXT_STYLE_WITH_BOX_CHARACTERISTICS__BOX_WIDTH_AS_STRING);
     }
@@ -220,6 +235,7 @@ public class IfcTextStyleWithBoxCharacteristicsImpl extends IdEObjectImpl
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public boolean isSetBoxWidthAsString() {
         return eIsSet(Ifc2x3tc1Package.Literals.IFC_TEXT_STYLE_WITH_BOX_CHARACTERISTICS__BOX_WIDTH_AS_STRING);
     }
@@ -229,6 +245,7 @@ public class IfcTextStyleWithBoxCharacteristicsImpl extends IdEObjectImpl
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public double getBoxSlantAngle() {
         return (Double) eGet(Ifc2x3tc1Package.Literals.IFC_TEXT_STYLE_WITH_BOX_CHARACTERISTICS__BOX_SLANT_ANGLE, true);
     }
@@ -238,6 +255,7 @@ public class IfcTextStyleWithBoxCharacteristicsImpl extends IdEObjectImpl
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setBoxSlantAngle(double newBoxSlantAngle) {
         eSet(Ifc2x3tc1Package.Literals.IFC_TEXT_STYLE_WITH_BOX_CHARACTERISTICS__BOX_SLANT_ANGLE, newBoxSlantAngle);
     }
@@ -247,6 +265,7 @@ public class IfcTextStyleWithBoxCharacteristicsImpl extends IdEObjectImpl
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void unsetBoxSlantAngle() {
         eUnset(Ifc2x3tc1Package.Literals.IFC_TEXT_STYLE_WITH_BOX_CHARACTERISTICS__BOX_SLANT_ANGLE);
     }
@@ -256,6 +275,7 @@ public class IfcTextStyleWithBoxCharacteristicsImpl extends IdEObjectImpl
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public boolean isSetBoxSlantAngle() {
         return eIsSet(Ifc2x3tc1Package.Literals.IFC_TEXT_STYLE_WITH_BOX_CHARACTERISTICS__BOX_SLANT_ANGLE);
     }
@@ -265,6 +285,7 @@ public class IfcTextStyleWithBoxCharacteristicsImpl extends IdEObjectImpl
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public String getBoxSlantAngleAsString() {
         return (String) eGet(
                 Ifc2x3tc1Package.Literals.IFC_TEXT_STYLE_WITH_BOX_CHARACTERISTICS__BOX_SLANT_ANGLE_AS_STRING, true);
@@ -275,6 +296,7 @@ public class IfcTextStyleWithBoxCharacteristicsImpl extends IdEObjectImpl
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setBoxSlantAngleAsString(String newBoxSlantAngleAsString) {
         eSet(Ifc2x3tc1Package.Literals.IFC_TEXT_STYLE_WITH_BOX_CHARACTERISTICS__BOX_SLANT_ANGLE_AS_STRING,
                 newBoxSlantAngleAsString);
@@ -285,6 +307,7 @@ public class IfcTextStyleWithBoxCharacteristicsImpl extends IdEObjectImpl
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void unsetBoxSlantAngleAsString() {
         eUnset(Ifc2x3tc1Package.Literals.IFC_TEXT_STYLE_WITH_BOX_CHARACTERISTICS__BOX_SLANT_ANGLE_AS_STRING);
     }
@@ -294,6 +317,7 @@ public class IfcTextStyleWithBoxCharacteristicsImpl extends IdEObjectImpl
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public boolean isSetBoxSlantAngleAsString() {
         return eIsSet(Ifc2x3tc1Package.Literals.IFC_TEXT_STYLE_WITH_BOX_CHARACTERISTICS__BOX_SLANT_ANGLE_AS_STRING);
     }
@@ -303,6 +327,7 @@ public class IfcTextStyleWithBoxCharacteristicsImpl extends IdEObjectImpl
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public double getBoxRotateAngle() {
         return (Double) eGet(Ifc2x3tc1Package.Literals.IFC_TEXT_STYLE_WITH_BOX_CHARACTERISTICS__BOX_ROTATE_ANGLE, true);
     }
@@ -312,6 +337,7 @@ public class IfcTextStyleWithBoxCharacteristicsImpl extends IdEObjectImpl
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setBoxRotateAngle(double newBoxRotateAngle) {
         eSet(Ifc2x3tc1Package.Literals.IFC_TEXT_STYLE_WITH_BOX_CHARACTERISTICS__BOX_ROTATE_ANGLE, newBoxRotateAngle);
     }
@@ -321,6 +347,7 @@ public class IfcTextStyleWithBoxCharacteristicsImpl extends IdEObjectImpl
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void unsetBoxRotateAngle() {
         eUnset(Ifc2x3tc1Package.Literals.IFC_TEXT_STYLE_WITH_BOX_CHARACTERISTICS__BOX_ROTATE_ANGLE);
     }
@@ -330,6 +357,7 @@ public class IfcTextStyleWithBoxCharacteristicsImpl extends IdEObjectImpl
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public boolean isSetBoxRotateAngle() {
         return eIsSet(Ifc2x3tc1Package.Literals.IFC_TEXT_STYLE_WITH_BOX_CHARACTERISTICS__BOX_ROTATE_ANGLE);
     }
@@ -339,6 +367,7 @@ public class IfcTextStyleWithBoxCharacteristicsImpl extends IdEObjectImpl
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public String getBoxRotateAngleAsString() {
         return (String) eGet(
                 Ifc2x3tc1Package.Literals.IFC_TEXT_STYLE_WITH_BOX_CHARACTERISTICS__BOX_ROTATE_ANGLE_AS_STRING, true);
@@ -349,6 +378,7 @@ public class IfcTextStyleWithBoxCharacteristicsImpl extends IdEObjectImpl
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setBoxRotateAngleAsString(String newBoxRotateAngleAsString) {
         eSet(Ifc2x3tc1Package.Literals.IFC_TEXT_STYLE_WITH_BOX_CHARACTERISTICS__BOX_ROTATE_ANGLE_AS_STRING,
                 newBoxRotateAngleAsString);
@@ -359,6 +389,7 @@ public class IfcTextStyleWithBoxCharacteristicsImpl extends IdEObjectImpl
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void unsetBoxRotateAngleAsString() {
         eUnset(Ifc2x3tc1Package.Literals.IFC_TEXT_STYLE_WITH_BOX_CHARACTERISTICS__BOX_ROTATE_ANGLE_AS_STRING);
     }
@@ -368,6 +399,7 @@ public class IfcTextStyleWithBoxCharacteristicsImpl extends IdEObjectImpl
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public boolean isSetBoxRotateAngleAsString() {
         return eIsSet(Ifc2x3tc1Package.Literals.IFC_TEXT_STYLE_WITH_BOX_CHARACTERISTICS__BOX_ROTATE_ANGLE_AS_STRING);
     }
@@ -377,6 +409,7 @@ public class IfcTextStyleWithBoxCharacteristicsImpl extends IdEObjectImpl
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public IfcSizeSelect getCharacterSpacing() {
         return (IfcSizeSelect) eGet(
                 Ifc2x3tc1Package.Literals.IFC_TEXT_STYLE_WITH_BOX_CHARACTERISTICS__CHARACTER_SPACING, true);
@@ -387,6 +420,7 @@ public class IfcTextStyleWithBoxCharacteristicsImpl extends IdEObjectImpl
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setCharacterSpacing(IfcSizeSelect newCharacterSpacing) {
         eSet(Ifc2x3tc1Package.Literals.IFC_TEXT_STYLE_WITH_BOX_CHARACTERISTICS__CHARACTER_SPACING, newCharacterSpacing);
     }
@@ -396,6 +430,7 @@ public class IfcTextStyleWithBoxCharacteristicsImpl extends IdEObjectImpl
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void unsetCharacterSpacing() {
         eUnset(Ifc2x3tc1Package.Literals.IFC_TEXT_STYLE_WITH_BOX_CHARACTERISTICS__CHARACTER_SPACING);
     }
@@ -405,6 +440,7 @@ public class IfcTextStyleWithBoxCharacteristicsImpl extends IdEObjectImpl
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public boolean isSetCharacterSpacing() {
         return eIsSet(Ifc2x3tc1Package.Literals.IFC_TEXT_STYLE_WITH_BOX_CHARACTERISTICS__CHARACTER_SPACING);
     }

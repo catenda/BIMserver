@@ -126,7 +126,8 @@ public interface IfcSoundValue extends IfcPropertySetDefinition {
      * @return the value of the '<em>Frequency As String</em>' attribute.
      * @see #setFrequencyAsString(String)
      * @see org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package#getIfcSoundValue_FrequencyAsString()
-     * @model
+     * @model annotation="asstring"
+     *        annotation="hidden"
      * @generated
      */
     String getFrequencyAsString();

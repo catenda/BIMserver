@@ -60,6 +60,7 @@ public class IfcHeatExchangerTypeImpl extends IfcEnergyConversionDeviceTypeImpl 
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public IfcHeatExchangerTypeEnum getPredefinedType() {
         return (IfcHeatExchangerTypeEnum) eGet(Ifc2x3tc1Package.Literals.IFC_HEAT_EXCHANGER_TYPE__PREDEFINED_TYPE,
                 true);
@@ -70,6 +71,7 @@ public class IfcHeatExchangerTypeImpl extends IfcEnergyConversionDeviceTypeImpl 
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setPredefinedType(IfcHeatExchangerTypeEnum newPredefinedType) {
         eSet(Ifc2x3tc1Package.Literals.IFC_HEAT_EXCHANGER_TYPE__PREDEFINED_TYPE, newPredefinedType);
     }

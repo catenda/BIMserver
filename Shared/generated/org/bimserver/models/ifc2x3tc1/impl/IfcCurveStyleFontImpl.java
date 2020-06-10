@@ -75,6 +75,7 @@ public class IfcCurveStyleFontImpl extends IdEObjectImpl implements IfcCurveStyl
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public String getName() {
         return (String) eGet(Ifc2x3tc1Package.Literals.IFC_CURVE_STYLE_FONT__NAME, true);
     }
@@ -84,6 +85,7 @@ public class IfcCurveStyleFontImpl extends IdEObjectImpl implements IfcCurveStyl
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setName(String newName) {
         eSet(Ifc2x3tc1Package.Literals.IFC_CURVE_STYLE_FONT__NAME, newName);
     }
@@ -93,6 +95,7 @@ public class IfcCurveStyleFontImpl extends IdEObjectImpl implements IfcCurveStyl
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void unsetName() {
         eUnset(Ifc2x3tc1Package.Literals.IFC_CURVE_STYLE_FONT__NAME);
     }
@@ -102,6 +105,7 @@ public class IfcCurveStyleFontImpl extends IdEObjectImpl implements IfcCurveStyl
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public boolean isSetName() {
         return eIsSet(Ifc2x3tc1Package.Literals.IFC_CURVE_STYLE_FONT__NAME);
     }
@@ -112,6 +116,7 @@ public class IfcCurveStyleFontImpl extends IdEObjectImpl implements IfcCurveStyl
      * @generated
      */
     @SuppressWarnings("unchecked")
+    @Override
     public EList<IfcCurveStyleFontPattern> getPatternList() {
         return (EList<IfcCurveStyleFontPattern>) eGet(Ifc2x3tc1Package.Literals.IFC_CURVE_STYLE_FONT__PATTERN_LIST,
                 true);

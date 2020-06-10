@@ -71,6 +71,7 @@ public class IfcClassificationNotationFacetImpl extends IdEObjectImpl implements
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public String getNotationValue() {
         return (String) eGet(Ifc2x3tc1Package.Literals.IFC_CLASSIFICATION_NOTATION_FACET__NOTATION_VALUE, true);
     }
@@ -80,6 +81,7 @@ public class IfcClassificationNotationFacetImpl extends IdEObjectImpl implements
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setNotationValue(String newNotationValue) {
         eSet(Ifc2x3tc1Package.Literals.IFC_CLASSIFICATION_NOTATION_FACET__NOTATION_VALUE, newNotationValue);
     }

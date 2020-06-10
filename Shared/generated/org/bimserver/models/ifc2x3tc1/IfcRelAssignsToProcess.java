@@ -48,6 +48,7 @@ public interface IfcRelAssignsToProcess extends IfcRelAssigns {
      * @see org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package#getIfcRelAssignsToProcess_RelatingProcess()
      * @see org.bimserver.models.ifc2x3tc1.IfcProcess#getOperatesOn
      * @model opposite="OperatesOn"
+     *        annotation="inverse"
      * @generated
      */
     IfcProcess getRelatingProcess();

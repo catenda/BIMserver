@@ -61,6 +61,7 @@ public class IfcConnectionVolumeGeometryImpl extends IfcConnectionGeometryImpl i
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public IfcSolidOrShell getVolumeOnRelatingElement() {
         return (IfcSolidOrShell) eGet(Ifc4Package.Literals.IFC_CONNECTION_VOLUME_GEOMETRY__VOLUME_ON_RELATING_ELEMENT,
                 true);
@@ -71,6 +72,7 @@ public class IfcConnectionVolumeGeometryImpl extends IfcConnectionGeometryImpl i
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setVolumeOnRelatingElement(IfcSolidOrShell newVolumeOnRelatingElement) {
         eSet(Ifc4Package.Literals.IFC_CONNECTION_VOLUME_GEOMETRY__VOLUME_ON_RELATING_ELEMENT,
                 newVolumeOnRelatingElement);
@@ -81,6 +83,7 @@ public class IfcConnectionVolumeGeometryImpl extends IfcConnectionGeometryImpl i
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public IfcSolidOrShell getVolumeOnRelatedElement() {
         return (IfcSolidOrShell) eGet(Ifc4Package.Literals.IFC_CONNECTION_VOLUME_GEOMETRY__VOLUME_ON_RELATED_ELEMENT,
                 true);
@@ -91,6 +94,7 @@ public class IfcConnectionVolumeGeometryImpl extends IfcConnectionGeometryImpl i
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setVolumeOnRelatedElement(IfcSolidOrShell newVolumeOnRelatedElement) {
         eSet(Ifc4Package.Literals.IFC_CONNECTION_VOLUME_GEOMETRY__VOLUME_ON_RELATED_ELEMENT, newVolumeOnRelatedElement);
     }
@@ -100,6 +104,7 @@ public class IfcConnectionVolumeGeometryImpl extends IfcConnectionGeometryImpl i
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void unsetVolumeOnRelatedElement() {
         eUnset(Ifc4Package.Literals.IFC_CONNECTION_VOLUME_GEOMETRY__VOLUME_ON_RELATED_ELEMENT);
     }
@@ -109,6 +114,7 @@ public class IfcConnectionVolumeGeometryImpl extends IfcConnectionGeometryImpl i
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public boolean isSetVolumeOnRelatedElement() {
         return eIsSet(Ifc4Package.Literals.IFC_CONNECTION_VOLUME_GEOMETRY__VOLUME_ON_RELATED_ELEMENT);
     }

@@ -65,6 +65,7 @@ public class IfcRelSequenceImpl extends IfcRelConnectsImpl implements IfcRelSequ
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public IfcProcess getRelatingProcess() {
         return (IfcProcess) eGet(Ifc2x3tc1Package.Literals.IFC_REL_SEQUENCE__RELATING_PROCESS, true);
     }
@@ -74,6 +75,7 @@ public class IfcRelSequenceImpl extends IfcRelConnectsImpl implements IfcRelSequ
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setRelatingProcess(IfcProcess newRelatingProcess) {
         eSet(Ifc2x3tc1Package.Literals.IFC_REL_SEQUENCE__RELATING_PROCESS, newRelatingProcess);
     }
@@ -83,6 +85,7 @@ public class IfcRelSequenceImpl extends IfcRelConnectsImpl implements IfcRelSequ
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public IfcProcess getRelatedProcess() {
         return (IfcProcess) eGet(Ifc2x3tc1Package.Literals.IFC_REL_SEQUENCE__RELATED_PROCESS, true);
     }
@@ -92,6 +95,7 @@ public class IfcRelSequenceImpl extends IfcRelConnectsImpl implements IfcRelSequ
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setRelatedProcess(IfcProcess newRelatedProcess) {
         eSet(Ifc2x3tc1Package.Literals.IFC_REL_SEQUENCE__RELATED_PROCESS, newRelatedProcess);
     }
@@ -101,6 +105,7 @@ public class IfcRelSequenceImpl extends IfcRelConnectsImpl implements IfcRelSequ
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public double getTimeLag() {
         return (Double) eGet(Ifc2x3tc1Package.Literals.IFC_REL_SEQUENCE__TIME_LAG, true);
     }
@@ -110,6 +115,7 @@ public class IfcRelSequenceImpl extends IfcRelConnectsImpl implements IfcRelSequ
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setTimeLag(double newTimeLag) {
         eSet(Ifc2x3tc1Package.Literals.IFC_REL_SEQUENCE__TIME_LAG, newTimeLag);
     }
@@ -119,6 +125,7 @@ public class IfcRelSequenceImpl extends IfcRelConnectsImpl implements IfcRelSequ
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public String getTimeLagAsString() {
         return (String) eGet(Ifc2x3tc1Package.Literals.IFC_REL_SEQUENCE__TIME_LAG_AS_STRING, true);
     }
@@ -128,6 +135,7 @@ public class IfcRelSequenceImpl extends IfcRelConnectsImpl implements IfcRelSequ
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setTimeLagAsString(String newTimeLagAsString) {
         eSet(Ifc2x3tc1Package.Literals.IFC_REL_SEQUENCE__TIME_LAG_AS_STRING, newTimeLagAsString);
     }
@@ -137,6 +145,7 @@ public class IfcRelSequenceImpl extends IfcRelConnectsImpl implements IfcRelSequ
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public IfcSequenceEnum getSequenceType() {
         return (IfcSequenceEnum) eGet(Ifc2x3tc1Package.Literals.IFC_REL_SEQUENCE__SEQUENCE_TYPE, true);
     }
@@ -146,6 +155,7 @@ public class IfcRelSequenceImpl extends IfcRelConnectsImpl implements IfcRelSequ
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setSequenceType(IfcSequenceEnum newSequenceType) {
         eSet(Ifc2x3tc1Package.Literals.IFC_REL_SEQUENCE__SEQUENCE_TYPE, newSequenceType);
     }

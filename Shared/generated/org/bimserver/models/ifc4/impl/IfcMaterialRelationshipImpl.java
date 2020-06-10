@@ -64,6 +64,7 @@ public class IfcMaterialRelationshipImpl extends IfcResourceLevelRelationshipImp
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public IfcMaterial getRelatingMaterial() {
         return (IfcMaterial) eGet(Ifc4Package.Literals.IFC_MATERIAL_RELATIONSHIP__RELATING_MATERIAL, true);
     }
@@ -73,6 +74,7 @@ public class IfcMaterialRelationshipImpl extends IfcResourceLevelRelationshipImp
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setRelatingMaterial(IfcMaterial newRelatingMaterial) {
         eSet(Ifc4Package.Literals.IFC_MATERIAL_RELATIONSHIP__RELATING_MATERIAL, newRelatingMaterial);
     }
@@ -83,6 +85,7 @@ public class IfcMaterialRelationshipImpl extends IfcResourceLevelRelationshipImp
      * @generated
      */
     @SuppressWarnings("unchecked")
+    @Override
     public EList<IfcMaterial> getRelatedMaterials() {
         return (EList<IfcMaterial>) eGet(Ifc4Package.Literals.IFC_MATERIAL_RELATIONSHIP__RELATED_MATERIALS, true);
     }
@@ -92,6 +95,7 @@ public class IfcMaterialRelationshipImpl extends IfcResourceLevelRelationshipImp
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public String getExpression() {
         return (String) eGet(Ifc4Package.Literals.IFC_MATERIAL_RELATIONSHIP__EXPRESSION, true);
     }
@@ -101,6 +105,7 @@ public class IfcMaterialRelationshipImpl extends IfcResourceLevelRelationshipImp
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setExpression(String newExpression) {
         eSet(Ifc4Package.Literals.IFC_MATERIAL_RELATIONSHIP__EXPRESSION, newExpression);
     }
@@ -110,6 +115,7 @@ public class IfcMaterialRelationshipImpl extends IfcResourceLevelRelationshipImp
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void unsetExpression() {
         eUnset(Ifc4Package.Literals.IFC_MATERIAL_RELATIONSHIP__EXPRESSION);
     }
@@ -119,6 +125,7 @@ public class IfcMaterialRelationshipImpl extends IfcResourceLevelRelationshipImp
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public boolean isSetExpression() {
         return eIsSet(Ifc4Package.Literals.IFC_MATERIAL_RELATIONSHIP__EXPRESSION);
     }

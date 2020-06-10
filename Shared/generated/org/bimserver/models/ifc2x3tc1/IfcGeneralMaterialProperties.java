@@ -105,6 +105,8 @@ public interface IfcGeneralMaterialProperties extends IfcMaterialProperties {
      * @see #setMolecularWeightAsString(String)
      * @see org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package#getIfcGeneralMaterialProperties_MolecularWeightAsString()
      * @model unsettable="true"
+     *        annotation="asstring"
+     *        annotation="hidden"
      * @generated
      */
     String getMolecularWeightAsString();
@@ -211,6 +213,8 @@ public interface IfcGeneralMaterialProperties extends IfcMaterialProperties {
      * @see #setPorosityAsString(String)
      * @see org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package#getIfcGeneralMaterialProperties_PorosityAsString()
      * @model unsettable="true"
+     *        annotation="asstring"
+     *        annotation="hidden"
      * @generated
      */
     String getPorosityAsString();
@@ -317,6 +321,8 @@ public interface IfcGeneralMaterialProperties extends IfcMaterialProperties {
      * @see #setMassDensityAsString(String)
      * @see org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package#getIfcGeneralMaterialProperties_MassDensityAsString()
      * @model unsettable="true"
+     *        annotation="asstring"
+     *        annotation="hidden"
      * @generated
      */
     String getMassDensityAsString();

@@ -354,6 +354,7 @@ public interface IfcTimeSeries extends IfcMetricValueSelect, IfcObjectReferenceS
      * @see org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package#getIfcTimeSeries_DocumentedBy()
      * @see org.bimserver.models.ifc2x3tc1.IfcTimeSeriesReferenceRelationship#getReferencedTimeSeries
      * @model opposite="ReferencedTimeSeries" unsettable="true" upper="2"
+     *        annotation="inverse"
      * @generated
      */
     EList<IfcTimeSeriesReferenceRelationship> getDocumentedBy();

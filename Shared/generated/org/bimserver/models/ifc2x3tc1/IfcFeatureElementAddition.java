@@ -49,6 +49,7 @@ public interface IfcFeatureElementAddition extends IfcFeatureElement {
      * @see org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package#getIfcFeatureElementAddition_ProjectsElements()
      * @see org.bimserver.models.ifc2x3tc1.IfcRelProjectsElement#getRelatedFeatureElement
      * @model opposite="RelatedFeatureElement" unsettable="true"
+     *        annotation="inverse"
      * @generated
      */
     IfcRelProjectsElement getProjectsElements();

@@ -66,6 +66,7 @@ public class IfcRelContainedInSpatialStructureImpl extends IfcRelConnectsImpl
      * @generated
      */
     @SuppressWarnings("unchecked")
+    @Override
     public EList<IfcProduct> getRelatedElements() {
         return (EList<IfcProduct>) eGet(Ifc4Package.Literals.IFC_REL_CONTAINED_IN_SPATIAL_STRUCTURE__RELATED_ELEMENTS,
                 true);
@@ -76,6 +77,7 @@ public class IfcRelContainedInSpatialStructureImpl extends IfcRelConnectsImpl
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public IfcSpatialElement getRelatingStructure() {
         return (IfcSpatialElement) eGet(Ifc4Package.Literals.IFC_REL_CONTAINED_IN_SPATIAL_STRUCTURE__RELATING_STRUCTURE,
                 true);
@@ -86,6 +88,7 @@ public class IfcRelContainedInSpatialStructureImpl extends IfcRelConnectsImpl
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setRelatingStructure(IfcSpatialElement newRelatingStructure) {
         eSet(Ifc4Package.Literals.IFC_REL_CONTAINED_IN_SPATIAL_STRUCTURE__RELATING_STRUCTURE, newRelatingStructure);
     }

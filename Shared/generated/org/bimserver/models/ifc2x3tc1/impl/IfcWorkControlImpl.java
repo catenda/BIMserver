@@ -75,6 +75,7 @@ public class IfcWorkControlImpl extends IfcControlImpl implements IfcWorkControl
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public String getIdentifier() {
         return (String) eGet(Ifc2x3tc1Package.Literals.IFC_WORK_CONTROL__IDENTIFIER, true);
     }
@@ -84,6 +85,7 @@ public class IfcWorkControlImpl extends IfcControlImpl implements IfcWorkControl
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setIdentifier(String newIdentifier) {
         eSet(Ifc2x3tc1Package.Literals.IFC_WORK_CONTROL__IDENTIFIER, newIdentifier);
     }
@@ -93,6 +95,7 @@ public class IfcWorkControlImpl extends IfcControlImpl implements IfcWorkControl
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public IfcDateTimeSelect getCreationDate() {
         return (IfcDateTimeSelect) eGet(Ifc2x3tc1Package.Literals.IFC_WORK_CONTROL__CREATION_DATE, true);
     }
@@ -102,6 +105,7 @@ public class IfcWorkControlImpl extends IfcControlImpl implements IfcWorkControl
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setCreationDate(IfcDateTimeSelect newCreationDate) {
         eSet(Ifc2x3tc1Package.Literals.IFC_WORK_CONTROL__CREATION_DATE, newCreationDate);
     }
@@ -112,6 +116,7 @@ public class IfcWorkControlImpl extends IfcControlImpl implements IfcWorkControl
      * @generated
      */
     @SuppressWarnings("unchecked")
+    @Override
     public EList<IfcPerson> getCreators() {
         return (EList<IfcPerson>) eGet(Ifc2x3tc1Package.Literals.IFC_WORK_CONTROL__CREATORS, true);
     }
@@ -121,6 +126,7 @@ public class IfcWorkControlImpl extends IfcControlImpl implements IfcWorkControl
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void unsetCreators() {
         eUnset(Ifc2x3tc1Package.Literals.IFC_WORK_CONTROL__CREATORS);
     }
@@ -130,6 +136,7 @@ public class IfcWorkControlImpl extends IfcControlImpl implements IfcWorkControl
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public boolean isSetCreators() {
         return eIsSet(Ifc2x3tc1Package.Literals.IFC_WORK_CONTROL__CREATORS);
     }
@@ -139,6 +146,7 @@ public class IfcWorkControlImpl extends IfcControlImpl implements IfcWorkControl
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public String getPurpose() {
         return (String) eGet(Ifc2x3tc1Package.Literals.IFC_WORK_CONTROL__PURPOSE, true);
     }
@@ -148,6 +156,7 @@ public class IfcWorkControlImpl extends IfcControlImpl implements IfcWorkControl
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setPurpose(String newPurpose) {
         eSet(Ifc2x3tc1Package.Literals.IFC_WORK_CONTROL__PURPOSE, newPurpose);
     }
@@ -157,6 +166,7 @@ public class IfcWorkControlImpl extends IfcControlImpl implements IfcWorkControl
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void unsetPurpose() {
         eUnset(Ifc2x3tc1Package.Literals.IFC_WORK_CONTROL__PURPOSE);
     }
@@ -166,6 +176,7 @@ public class IfcWorkControlImpl extends IfcControlImpl implements IfcWorkControl
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public boolean isSetPurpose() {
         return eIsSet(Ifc2x3tc1Package.Literals.IFC_WORK_CONTROL__PURPOSE);
     }
@@ -175,6 +186,7 @@ public class IfcWorkControlImpl extends IfcControlImpl implements IfcWorkControl
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public double getDuration() {
         return (Double) eGet(Ifc2x3tc1Package.Literals.IFC_WORK_CONTROL__DURATION, true);
     }
@@ -184,6 +196,7 @@ public class IfcWorkControlImpl extends IfcControlImpl implements IfcWorkControl
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setDuration(double newDuration) {
         eSet(Ifc2x3tc1Package.Literals.IFC_WORK_CONTROL__DURATION, newDuration);
     }
@@ -193,6 +206,7 @@ public class IfcWorkControlImpl extends IfcControlImpl implements IfcWorkControl
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void unsetDuration() {
         eUnset(Ifc2x3tc1Package.Literals.IFC_WORK_CONTROL__DURATION);
     }
@@ -202,6 +216,7 @@ public class IfcWorkControlImpl extends IfcControlImpl implements IfcWorkControl
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public boolean isSetDuration() {
         return eIsSet(Ifc2x3tc1Package.Literals.IFC_WORK_CONTROL__DURATION);
     }
@@ -211,6 +226,7 @@ public class IfcWorkControlImpl extends IfcControlImpl implements IfcWorkControl
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public String getDurationAsString() {
         return (String) eGet(Ifc2x3tc1Package.Literals.IFC_WORK_CONTROL__DURATION_AS_STRING, true);
     }
@@ -220,6 +236,7 @@ public class IfcWorkControlImpl extends IfcControlImpl implements IfcWorkControl
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setDurationAsString(String newDurationAsString) {
         eSet(Ifc2x3tc1Package.Literals.IFC_WORK_CONTROL__DURATION_AS_STRING, newDurationAsString);
     }
@@ -229,6 +246,7 @@ public class IfcWorkControlImpl extends IfcControlImpl implements IfcWorkControl
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void unsetDurationAsString() {
         eUnset(Ifc2x3tc1Package.Literals.IFC_WORK_CONTROL__DURATION_AS_STRING);
     }
@@ -238,6 +256,7 @@ public class IfcWorkControlImpl extends IfcControlImpl implements IfcWorkControl
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public boolean isSetDurationAsString() {
         return eIsSet(Ifc2x3tc1Package.Literals.IFC_WORK_CONTROL__DURATION_AS_STRING);
     }
@@ -247,6 +266,7 @@ public class IfcWorkControlImpl extends IfcControlImpl implements IfcWorkControl
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public double getTotalFloat() {
         return (Double) eGet(Ifc2x3tc1Package.Literals.IFC_WORK_CONTROL__TOTAL_FLOAT, true);
     }
@@ -256,6 +276,7 @@ public class IfcWorkControlImpl extends IfcControlImpl implements IfcWorkControl
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setTotalFloat(double newTotalFloat) {
         eSet(Ifc2x3tc1Package.Literals.IFC_WORK_CONTROL__TOTAL_FLOAT, newTotalFloat);
     }
@@ -265,6 +286,7 @@ public class IfcWorkControlImpl extends IfcControlImpl implements IfcWorkControl
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void unsetTotalFloat() {
         eUnset(Ifc2x3tc1Package.Literals.IFC_WORK_CONTROL__TOTAL_FLOAT);
     }
@@ -274,6 +296,7 @@ public class IfcWorkControlImpl extends IfcControlImpl implements IfcWorkControl
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public boolean isSetTotalFloat() {
         return eIsSet(Ifc2x3tc1Package.Literals.IFC_WORK_CONTROL__TOTAL_FLOAT);
     }
@@ -283,6 +306,7 @@ public class IfcWorkControlImpl extends IfcControlImpl implements IfcWorkControl
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public String getTotalFloatAsString() {
         return (String) eGet(Ifc2x3tc1Package.Literals.IFC_WORK_CONTROL__TOTAL_FLOAT_AS_STRING, true);
     }
@@ -292,6 +316,7 @@ public class IfcWorkControlImpl extends IfcControlImpl implements IfcWorkControl
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setTotalFloatAsString(String newTotalFloatAsString) {
         eSet(Ifc2x3tc1Package.Literals.IFC_WORK_CONTROL__TOTAL_FLOAT_AS_STRING, newTotalFloatAsString);
     }
@@ -301,6 +326,7 @@ public class IfcWorkControlImpl extends IfcControlImpl implements IfcWorkControl
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void unsetTotalFloatAsString() {
         eUnset(Ifc2x3tc1Package.Literals.IFC_WORK_CONTROL__TOTAL_FLOAT_AS_STRING);
     }
@@ -310,6 +336,7 @@ public class IfcWorkControlImpl extends IfcControlImpl implements IfcWorkControl
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public boolean isSetTotalFloatAsString() {
         return eIsSet(Ifc2x3tc1Package.Literals.IFC_WORK_CONTROL__TOTAL_FLOAT_AS_STRING);
     }
@@ -319,6 +346,7 @@ public class IfcWorkControlImpl extends IfcControlImpl implements IfcWorkControl
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public IfcDateTimeSelect getStartTime() {
         return (IfcDateTimeSelect) eGet(Ifc2x3tc1Package.Literals.IFC_WORK_CONTROL__START_TIME, true);
     }
@@ -328,6 +356,7 @@ public class IfcWorkControlImpl extends IfcControlImpl implements IfcWorkControl
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setStartTime(IfcDateTimeSelect newStartTime) {
         eSet(Ifc2x3tc1Package.Literals.IFC_WORK_CONTROL__START_TIME, newStartTime);
     }
@@ -337,6 +366,7 @@ public class IfcWorkControlImpl extends IfcControlImpl implements IfcWorkControl
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public IfcDateTimeSelect getFinishTime() {
         return (IfcDateTimeSelect) eGet(Ifc2x3tc1Package.Literals.IFC_WORK_CONTROL__FINISH_TIME, true);
     }
@@ -346,6 +376,7 @@ public class IfcWorkControlImpl extends IfcControlImpl implements IfcWorkControl
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setFinishTime(IfcDateTimeSelect newFinishTime) {
         eSet(Ifc2x3tc1Package.Literals.IFC_WORK_CONTROL__FINISH_TIME, newFinishTime);
     }
@@ -355,6 +386,7 @@ public class IfcWorkControlImpl extends IfcControlImpl implements IfcWorkControl
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void unsetFinishTime() {
         eUnset(Ifc2x3tc1Package.Literals.IFC_WORK_CONTROL__FINISH_TIME);
     }
@@ -364,6 +396,7 @@ public class IfcWorkControlImpl extends IfcControlImpl implements IfcWorkControl
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public boolean isSetFinishTime() {
         return eIsSet(Ifc2x3tc1Package.Literals.IFC_WORK_CONTROL__FINISH_TIME);
     }
@@ -373,6 +406,7 @@ public class IfcWorkControlImpl extends IfcControlImpl implements IfcWorkControl
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public IfcWorkControlTypeEnum getWorkControlType() {
         return (IfcWorkControlTypeEnum) eGet(Ifc2x3tc1Package.Literals.IFC_WORK_CONTROL__WORK_CONTROL_TYPE, true);
     }
@@ -382,6 +416,7 @@ public class IfcWorkControlImpl extends IfcControlImpl implements IfcWorkControl
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setWorkControlType(IfcWorkControlTypeEnum newWorkControlType) {
         eSet(Ifc2x3tc1Package.Literals.IFC_WORK_CONTROL__WORK_CONTROL_TYPE, newWorkControlType);
     }
@@ -391,6 +426,7 @@ public class IfcWorkControlImpl extends IfcControlImpl implements IfcWorkControl
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void unsetWorkControlType() {
         eUnset(Ifc2x3tc1Package.Literals.IFC_WORK_CONTROL__WORK_CONTROL_TYPE);
     }
@@ -400,6 +436,7 @@ public class IfcWorkControlImpl extends IfcControlImpl implements IfcWorkControl
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public boolean isSetWorkControlType() {
         return eIsSet(Ifc2x3tc1Package.Literals.IFC_WORK_CONTROL__WORK_CONTROL_TYPE);
     }
@@ -409,6 +446,7 @@ public class IfcWorkControlImpl extends IfcControlImpl implements IfcWorkControl
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public String getUserDefinedControlType() {
         return (String) eGet(Ifc2x3tc1Package.Literals.IFC_WORK_CONTROL__USER_DEFINED_CONTROL_TYPE, true);
     }
@@ -418,6 +456,7 @@ public class IfcWorkControlImpl extends IfcControlImpl implements IfcWorkControl
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setUserDefinedControlType(String newUserDefinedControlType) {
         eSet(Ifc2x3tc1Package.Literals.IFC_WORK_CONTROL__USER_DEFINED_CONTROL_TYPE, newUserDefinedControlType);
     }
@@ -427,6 +466,7 @@ public class IfcWorkControlImpl extends IfcControlImpl implements IfcWorkControl
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void unsetUserDefinedControlType() {
         eUnset(Ifc2x3tc1Package.Literals.IFC_WORK_CONTROL__USER_DEFINED_CONTROL_TYPE);
     }
@@ -436,6 +476,7 @@ public class IfcWorkControlImpl extends IfcControlImpl implements IfcWorkControl
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public boolean isSetUserDefinedControlType() {
         return eIsSet(Ifc2x3tc1Package.Literals.IFC_WORK_CONTROL__USER_DEFINED_CONTROL_TYPE);
     }

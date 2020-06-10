@@ -77,6 +77,7 @@ public class IfcDocumentInformationRelationshipImpl extends IdEObjectImpl
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public IfcDocumentInformation getRelatingDocument() {
         return (IfcDocumentInformation) eGet(
                 Ifc2x3tc1Package.Literals.IFC_DOCUMENT_INFORMATION_RELATIONSHIP__RELATING_DOCUMENT, true);
@@ -87,6 +88,7 @@ public class IfcDocumentInformationRelationshipImpl extends IdEObjectImpl
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setRelatingDocument(IfcDocumentInformation newRelatingDocument) {
         eSet(Ifc2x3tc1Package.Literals.IFC_DOCUMENT_INFORMATION_RELATIONSHIP__RELATING_DOCUMENT, newRelatingDocument);
     }
@@ -97,6 +99,7 @@ public class IfcDocumentInformationRelationshipImpl extends IdEObjectImpl
      * @generated
      */
     @SuppressWarnings("unchecked")
+    @Override
     public EList<IfcDocumentInformation> getRelatedDocuments() {
         return (EList<IfcDocumentInformation>) eGet(
                 Ifc2x3tc1Package.Literals.IFC_DOCUMENT_INFORMATION_RELATIONSHIP__RELATED_DOCUMENTS, true);
@@ -107,6 +110,7 @@ public class IfcDocumentInformationRelationshipImpl extends IdEObjectImpl
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public String getRelationshipType() {
         return (String) eGet(Ifc2x3tc1Package.Literals.IFC_DOCUMENT_INFORMATION_RELATIONSHIP__RELATIONSHIP_TYPE, true);
     }
@@ -116,6 +120,7 @@ public class IfcDocumentInformationRelationshipImpl extends IdEObjectImpl
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setRelationshipType(String newRelationshipType) {
         eSet(Ifc2x3tc1Package.Literals.IFC_DOCUMENT_INFORMATION_RELATIONSHIP__RELATIONSHIP_TYPE, newRelationshipType);
     }
@@ -125,6 +130,7 @@ public class IfcDocumentInformationRelationshipImpl extends IdEObjectImpl
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void unsetRelationshipType() {
         eUnset(Ifc2x3tc1Package.Literals.IFC_DOCUMENT_INFORMATION_RELATIONSHIP__RELATIONSHIP_TYPE);
     }
@@ -134,6 +140,7 @@ public class IfcDocumentInformationRelationshipImpl extends IdEObjectImpl
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public boolean isSetRelationshipType() {
         return eIsSet(Ifc2x3tc1Package.Literals.IFC_DOCUMENT_INFORMATION_RELATIONSHIP__RELATIONSHIP_TYPE);
     }

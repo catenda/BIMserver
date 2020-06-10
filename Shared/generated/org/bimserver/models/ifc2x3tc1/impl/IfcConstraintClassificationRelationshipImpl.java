@@ -77,6 +77,7 @@ public class IfcConstraintClassificationRelationshipImpl extends IdEObjectImpl
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public IfcConstraint getClassifiedConstraint() {
         return (IfcConstraint) eGet(
                 Ifc2x3tc1Package.Literals.IFC_CONSTRAINT_CLASSIFICATION_RELATIONSHIP__CLASSIFIED_CONSTRAINT, true);
@@ -87,6 +88,7 @@ public class IfcConstraintClassificationRelationshipImpl extends IdEObjectImpl
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setClassifiedConstraint(IfcConstraint newClassifiedConstraint) {
         eSet(Ifc2x3tc1Package.Literals.IFC_CONSTRAINT_CLASSIFICATION_RELATIONSHIP__CLASSIFIED_CONSTRAINT,
                 newClassifiedConstraint);
@@ -98,6 +100,7 @@ public class IfcConstraintClassificationRelationshipImpl extends IdEObjectImpl
      * @generated
      */
     @SuppressWarnings("unchecked")
+    @Override
     public EList<IfcClassificationNotationSelect> getRelatedClassifications() {
         return (EList<IfcClassificationNotationSelect>) eGet(
                 Ifc2x3tc1Package.Literals.IFC_CONSTRAINT_CLASSIFICATION_RELATIONSHIP__RELATED_CLASSIFICATIONS, true);

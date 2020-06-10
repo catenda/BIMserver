@@ -62,6 +62,7 @@ public class IfcMaterialProfileSetUsageTaperingImpl extends IfcMaterialProfileSe
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public IfcMaterialProfileSet getForProfileEndSet() {
         return (IfcMaterialProfileSet) eGet(
                 Ifc4Package.Literals.IFC_MATERIAL_PROFILE_SET_USAGE_TAPERING__FOR_PROFILE_END_SET, true);
@@ -72,6 +73,7 @@ public class IfcMaterialProfileSetUsageTaperingImpl extends IfcMaterialProfileSe
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setForProfileEndSet(IfcMaterialProfileSet newForProfileEndSet) {
         eSet(Ifc4Package.Literals.IFC_MATERIAL_PROFILE_SET_USAGE_TAPERING__FOR_PROFILE_END_SET, newForProfileEndSet);
     }
@@ -81,6 +83,7 @@ public class IfcMaterialProfileSetUsageTaperingImpl extends IfcMaterialProfileSe
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public long getCardinalEndPoint() {
         return (Long) eGet(Ifc4Package.Literals.IFC_MATERIAL_PROFILE_SET_USAGE_TAPERING__CARDINAL_END_POINT, true);
     }
@@ -90,6 +93,7 @@ public class IfcMaterialProfileSetUsageTaperingImpl extends IfcMaterialProfileSe
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setCardinalEndPoint(long newCardinalEndPoint) {
         eSet(Ifc4Package.Literals.IFC_MATERIAL_PROFILE_SET_USAGE_TAPERING__CARDINAL_END_POINT, newCardinalEndPoint);
     }
@@ -99,6 +103,7 @@ public class IfcMaterialProfileSetUsageTaperingImpl extends IfcMaterialProfileSe
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void unsetCardinalEndPoint() {
         eUnset(Ifc4Package.Literals.IFC_MATERIAL_PROFILE_SET_USAGE_TAPERING__CARDINAL_END_POINT);
     }
@@ -108,6 +113,7 @@ public class IfcMaterialProfileSetUsageTaperingImpl extends IfcMaterialProfileSe
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public boolean isSetCardinalEndPoint() {
         return eIsSet(Ifc4Package.Literals.IFC_MATERIAL_PROFILE_SET_USAGE_TAPERING__CARDINAL_END_POINT);
     }

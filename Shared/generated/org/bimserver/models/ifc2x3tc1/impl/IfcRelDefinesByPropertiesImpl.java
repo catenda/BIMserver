@@ -60,6 +60,7 @@ public class IfcRelDefinesByPropertiesImpl extends IfcRelDefinesImpl implements 
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public IfcPropertySetDefinition getRelatingPropertyDefinition() {
         return (IfcPropertySetDefinition) eGet(
                 Ifc2x3tc1Package.Literals.IFC_REL_DEFINES_BY_PROPERTIES__RELATING_PROPERTY_DEFINITION, true);
@@ -70,6 +71,7 @@ public class IfcRelDefinesByPropertiesImpl extends IfcRelDefinesImpl implements 
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setRelatingPropertyDefinition(IfcPropertySetDefinition newRelatingPropertyDefinition) {
         eSet(Ifc2x3tc1Package.Literals.IFC_REL_DEFINES_BY_PROPERTIES__RELATING_PROPERTY_DEFINITION,
                 newRelatingPropertyDefinition);

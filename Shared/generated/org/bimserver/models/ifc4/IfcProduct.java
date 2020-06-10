@@ -53,6 +53,7 @@ public interface IfcProduct extends IfcObject, IfcProductSelect {
      * @see org.bimserver.models.ifc4.Ifc4Package#getIfcProduct_ObjectPlacement()
      * @see org.bimserver.models.ifc4.IfcObjectPlacement#getPlacesObject
      * @model opposite="PlacesObject" unsettable="true"
+     *        annotation="inverse"
      * @generated
      */
     IfcObjectPlacement getObjectPlacement();
@@ -106,6 +107,7 @@ public interface IfcProduct extends IfcObject, IfcProductSelect {
      * @see #setRepresentation(IfcProductRepresentation)
      * @see org.bimserver.models.ifc4.Ifc4Package#getIfcProduct_Representation()
      * @model unsettable="true"
+     *        annotation="inverse"
      * @generated
      */
     IfcProductRepresentation getRepresentation();
@@ -159,6 +161,7 @@ public interface IfcProduct extends IfcObject, IfcProductSelect {
      * @see #unsetReferencedBy()
      * @see org.bimserver.models.ifc4.Ifc4Package#getIfcProduct_ReferencedBy()
      * @model unsettable="true"
+     *        annotation="inverse"
      * @generated
      */
     EList<IfcRelAssignsToProduct> getReferencedBy();

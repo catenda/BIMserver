@@ -74,6 +74,7 @@ public class IfcCoordinateOperationImpl extends IdEObjectImpl implements IfcCoor
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public IfcCoordinateReferenceSystemSelect getSourceCRS() {
         return (IfcCoordinateReferenceSystemSelect) eGet(Ifc4Package.Literals.IFC_COORDINATE_OPERATION__SOURCE_CRS,
                 true);
@@ -84,6 +85,7 @@ public class IfcCoordinateOperationImpl extends IdEObjectImpl implements IfcCoor
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setSourceCRS(IfcCoordinateReferenceSystemSelect newSourceCRS) {
         eSet(Ifc4Package.Literals.IFC_COORDINATE_OPERATION__SOURCE_CRS, newSourceCRS);
     }
@@ -93,6 +95,7 @@ public class IfcCoordinateOperationImpl extends IdEObjectImpl implements IfcCoor
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public IfcCoordinateReferenceSystem getTargetCRS() {
         return (IfcCoordinateReferenceSystem) eGet(Ifc4Package.Literals.IFC_COORDINATE_OPERATION__TARGET_CRS, true);
     }
@@ -102,6 +105,7 @@ public class IfcCoordinateOperationImpl extends IdEObjectImpl implements IfcCoor
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setTargetCRS(IfcCoordinateReferenceSystem newTargetCRS) {
         eSet(Ifc4Package.Literals.IFC_COORDINATE_OPERATION__TARGET_CRS, newTargetCRS);
     }

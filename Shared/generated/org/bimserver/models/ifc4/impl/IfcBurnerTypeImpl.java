@@ -60,6 +60,7 @@ public class IfcBurnerTypeImpl extends IfcEnergyConversionDeviceTypeImpl impleme
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public IfcBurnerTypeEnum getPredefinedType() {
         return (IfcBurnerTypeEnum) eGet(Ifc4Package.Literals.IFC_BURNER_TYPE__PREDEFINED_TYPE, true);
     }
@@ -69,6 +70,7 @@ public class IfcBurnerTypeImpl extends IfcEnergyConversionDeviceTypeImpl impleme
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setPredefinedType(IfcBurnerTypeEnum newPredefinedType) {
         eSet(Ifc4Package.Literals.IFC_BURNER_TYPE__PREDEFINED_TYPE, newPredefinedType);
     }

@@ -80,6 +80,7 @@ public class IfcClassificationItemImpl extends IdEObjectImpl implements IfcClass
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public IfcClassificationNotationFacet getNotation() {
         return (IfcClassificationNotationFacet) eGet(Ifc2x3tc1Package.Literals.IFC_CLASSIFICATION_ITEM__NOTATION, true);
     }
@@ -89,6 +90,7 @@ public class IfcClassificationItemImpl extends IdEObjectImpl implements IfcClass
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setNotation(IfcClassificationNotationFacet newNotation) {
         eSet(Ifc2x3tc1Package.Literals.IFC_CLASSIFICATION_ITEM__NOTATION, newNotation);
     }
@@ -98,6 +100,7 @@ public class IfcClassificationItemImpl extends IdEObjectImpl implements IfcClass
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public IfcClassification getItemOf() {
         return (IfcClassification) eGet(Ifc2x3tc1Package.Literals.IFC_CLASSIFICATION_ITEM__ITEM_OF, true);
     }
@@ -107,6 +110,7 @@ public class IfcClassificationItemImpl extends IdEObjectImpl implements IfcClass
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setItemOf(IfcClassification newItemOf) {
         eSet(Ifc2x3tc1Package.Literals.IFC_CLASSIFICATION_ITEM__ITEM_OF, newItemOf);
     }
@@ -116,6 +120,7 @@ public class IfcClassificationItemImpl extends IdEObjectImpl implements IfcClass
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void unsetItemOf() {
         eUnset(Ifc2x3tc1Package.Literals.IFC_CLASSIFICATION_ITEM__ITEM_OF);
     }
@@ -125,6 +130,7 @@ public class IfcClassificationItemImpl extends IdEObjectImpl implements IfcClass
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public boolean isSetItemOf() {
         return eIsSet(Ifc2x3tc1Package.Literals.IFC_CLASSIFICATION_ITEM__ITEM_OF);
     }
@@ -134,6 +140,7 @@ public class IfcClassificationItemImpl extends IdEObjectImpl implements IfcClass
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public String getTitle() {
         return (String) eGet(Ifc2x3tc1Package.Literals.IFC_CLASSIFICATION_ITEM__TITLE, true);
     }
@@ -143,6 +150,7 @@ public class IfcClassificationItemImpl extends IdEObjectImpl implements IfcClass
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setTitle(String newTitle) {
         eSet(Ifc2x3tc1Package.Literals.IFC_CLASSIFICATION_ITEM__TITLE, newTitle);
     }
@@ -153,6 +161,7 @@ public class IfcClassificationItemImpl extends IdEObjectImpl implements IfcClass
      * @generated
      */
     @SuppressWarnings("unchecked")
+    @Override
     public EList<IfcClassificationItemRelationship> getIsClassifiedItemIn() {
         return (EList<IfcClassificationItemRelationship>) eGet(
                 Ifc2x3tc1Package.Literals.IFC_CLASSIFICATION_ITEM__IS_CLASSIFIED_ITEM_IN, true);
@@ -163,6 +172,7 @@ public class IfcClassificationItemImpl extends IdEObjectImpl implements IfcClass
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void unsetIsClassifiedItemIn() {
         eUnset(Ifc2x3tc1Package.Literals.IFC_CLASSIFICATION_ITEM__IS_CLASSIFIED_ITEM_IN);
     }
@@ -172,6 +182,7 @@ public class IfcClassificationItemImpl extends IdEObjectImpl implements IfcClass
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public boolean isSetIsClassifiedItemIn() {
         return eIsSet(Ifc2x3tc1Package.Literals.IFC_CLASSIFICATION_ITEM__IS_CLASSIFIED_ITEM_IN);
     }
@@ -182,6 +193,7 @@ public class IfcClassificationItemImpl extends IdEObjectImpl implements IfcClass
      * @generated
      */
     @SuppressWarnings("unchecked")
+    @Override
     public EList<IfcClassificationItemRelationship> getIsClassifyingItemIn() {
         return (EList<IfcClassificationItemRelationship>) eGet(
                 Ifc2x3tc1Package.Literals.IFC_CLASSIFICATION_ITEM__IS_CLASSIFYING_ITEM_IN, true);
@@ -192,6 +204,7 @@ public class IfcClassificationItemImpl extends IdEObjectImpl implements IfcClass
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void unsetIsClassifyingItemIn() {
         eUnset(Ifc2x3tc1Package.Literals.IFC_CLASSIFICATION_ITEM__IS_CLASSIFYING_ITEM_IN);
     }
@@ -201,6 +214,7 @@ public class IfcClassificationItemImpl extends IdEObjectImpl implements IfcClass
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public boolean isSetIsClassifyingItemIn() {
         return eIsSet(Ifc2x3tc1Package.Literals.IFC_CLASSIFICATION_ITEM__IS_CLASSIFYING_ITEM_IN);
     }

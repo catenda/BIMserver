@@ -75,7 +75,8 @@ public interface IfcBlock extends IfcCsgPrimitive3D {
      * @return the value of the '<em>XLength As String</em>' attribute.
      * @see #setXLengthAsString(String)
      * @see org.bimserver.models.ifc4.Ifc4Package#getIfcBlock_XLengthAsString()
-     * @model
+     * @model annotation="asstring"
+     *        annotation="hidden"
      * @generated
      */
     String getXLengthAsString();
@@ -127,7 +128,8 @@ public interface IfcBlock extends IfcCsgPrimitive3D {
      * @return the value of the '<em>YLength As String</em>' attribute.
      * @see #setYLengthAsString(String)
      * @see org.bimserver.models.ifc4.Ifc4Package#getIfcBlock_YLengthAsString()
-     * @model
+     * @model annotation="asstring"
+     *        annotation="hidden"
      * @generated
      */
     String getYLengthAsString();
@@ -179,7 +181,8 @@ public interface IfcBlock extends IfcCsgPrimitive3D {
      * @return the value of the '<em>ZLength As String</em>' attribute.
      * @see #setZLengthAsString(String)
      * @see org.bimserver.models.ifc4.Ifc4Package#getIfcBlock_ZLengthAsString()
-     * @model
+     * @model annotation="asstring"
+     *        annotation="hidden"
      * @generated
      */
     String getZLengthAsString();

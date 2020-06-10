@@ -70,6 +70,7 @@ public class IfcLightSourceGoniometricImpl extends IfcLightSourceImpl implements
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public IfcAxis2Placement3D getPosition() {
         return (IfcAxis2Placement3D) eGet(Ifc4Package.Literals.IFC_LIGHT_SOURCE_GONIOMETRIC__POSITION, true);
     }
@@ -79,6 +80,7 @@ public class IfcLightSourceGoniometricImpl extends IfcLightSourceImpl implements
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setPosition(IfcAxis2Placement3D newPosition) {
         eSet(Ifc4Package.Literals.IFC_LIGHT_SOURCE_GONIOMETRIC__POSITION, newPosition);
     }
@@ -88,6 +90,7 @@ public class IfcLightSourceGoniometricImpl extends IfcLightSourceImpl implements
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public IfcColourRgb getColourAppearance() {
         return (IfcColourRgb) eGet(Ifc4Package.Literals.IFC_LIGHT_SOURCE_GONIOMETRIC__COLOUR_APPEARANCE, true);
     }
@@ -97,6 +100,7 @@ public class IfcLightSourceGoniometricImpl extends IfcLightSourceImpl implements
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setColourAppearance(IfcColourRgb newColourAppearance) {
         eSet(Ifc4Package.Literals.IFC_LIGHT_SOURCE_GONIOMETRIC__COLOUR_APPEARANCE, newColourAppearance);
     }
@@ -106,6 +110,7 @@ public class IfcLightSourceGoniometricImpl extends IfcLightSourceImpl implements
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void unsetColourAppearance() {
         eUnset(Ifc4Package.Literals.IFC_LIGHT_SOURCE_GONIOMETRIC__COLOUR_APPEARANCE);
     }
@@ -115,6 +120,7 @@ public class IfcLightSourceGoniometricImpl extends IfcLightSourceImpl implements
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public boolean isSetColourAppearance() {
         return eIsSet(Ifc4Package.Literals.IFC_LIGHT_SOURCE_GONIOMETRIC__COLOUR_APPEARANCE);
     }
@@ -124,6 +130,7 @@ public class IfcLightSourceGoniometricImpl extends IfcLightSourceImpl implements
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public double getColourTemperature() {
         return (Double) eGet(Ifc4Package.Literals.IFC_LIGHT_SOURCE_GONIOMETRIC__COLOUR_TEMPERATURE, true);
     }
@@ -133,6 +140,7 @@ public class IfcLightSourceGoniometricImpl extends IfcLightSourceImpl implements
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setColourTemperature(double newColourTemperature) {
         eSet(Ifc4Package.Literals.IFC_LIGHT_SOURCE_GONIOMETRIC__COLOUR_TEMPERATURE, newColourTemperature);
     }
@@ -142,6 +150,7 @@ public class IfcLightSourceGoniometricImpl extends IfcLightSourceImpl implements
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public String getColourTemperatureAsString() {
         return (String) eGet(Ifc4Package.Literals.IFC_LIGHT_SOURCE_GONIOMETRIC__COLOUR_TEMPERATURE_AS_STRING, true);
     }
@@ -151,6 +160,7 @@ public class IfcLightSourceGoniometricImpl extends IfcLightSourceImpl implements
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setColourTemperatureAsString(String newColourTemperatureAsString) {
         eSet(Ifc4Package.Literals.IFC_LIGHT_SOURCE_GONIOMETRIC__COLOUR_TEMPERATURE_AS_STRING,
                 newColourTemperatureAsString);
@@ -161,6 +171,7 @@ public class IfcLightSourceGoniometricImpl extends IfcLightSourceImpl implements
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public double getLuminousFlux() {
         return (Double) eGet(Ifc4Package.Literals.IFC_LIGHT_SOURCE_GONIOMETRIC__LUMINOUS_FLUX, true);
     }
@@ -170,6 +181,7 @@ public class IfcLightSourceGoniometricImpl extends IfcLightSourceImpl implements
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setLuminousFlux(double newLuminousFlux) {
         eSet(Ifc4Package.Literals.IFC_LIGHT_SOURCE_GONIOMETRIC__LUMINOUS_FLUX, newLuminousFlux);
     }
@@ -179,6 +191,7 @@ public class IfcLightSourceGoniometricImpl extends IfcLightSourceImpl implements
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public String getLuminousFluxAsString() {
         return (String) eGet(Ifc4Package.Literals.IFC_LIGHT_SOURCE_GONIOMETRIC__LUMINOUS_FLUX_AS_STRING, true);
     }
@@ -188,6 +201,7 @@ public class IfcLightSourceGoniometricImpl extends IfcLightSourceImpl implements
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setLuminousFluxAsString(String newLuminousFluxAsString) {
         eSet(Ifc4Package.Literals.IFC_LIGHT_SOURCE_GONIOMETRIC__LUMINOUS_FLUX_AS_STRING, newLuminousFluxAsString);
     }
@@ -197,6 +211,7 @@ public class IfcLightSourceGoniometricImpl extends IfcLightSourceImpl implements
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public IfcLightEmissionSourceEnum getLightEmissionSource() {
         return (IfcLightEmissionSourceEnum) eGet(
                 Ifc4Package.Literals.IFC_LIGHT_SOURCE_GONIOMETRIC__LIGHT_EMISSION_SOURCE, true);
@@ -207,6 +222,7 @@ public class IfcLightSourceGoniometricImpl extends IfcLightSourceImpl implements
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setLightEmissionSource(IfcLightEmissionSourceEnum newLightEmissionSource) {
         eSet(Ifc4Package.Literals.IFC_LIGHT_SOURCE_GONIOMETRIC__LIGHT_EMISSION_SOURCE, newLightEmissionSource);
     }
@@ -216,6 +232,7 @@ public class IfcLightSourceGoniometricImpl extends IfcLightSourceImpl implements
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public IfcLightDistributionDataSourceSelect getLightDistributionDataSource() {
         return (IfcLightDistributionDataSourceSelect) eGet(
                 Ifc4Package.Literals.IFC_LIGHT_SOURCE_GONIOMETRIC__LIGHT_DISTRIBUTION_DATA_SOURCE, true);
@@ -226,6 +243,7 @@ public class IfcLightSourceGoniometricImpl extends IfcLightSourceImpl implements
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setLightDistributionDataSource(IfcLightDistributionDataSourceSelect newLightDistributionDataSource) {
         eSet(Ifc4Package.Literals.IFC_LIGHT_SOURCE_GONIOMETRIC__LIGHT_DISTRIBUTION_DATA_SOURCE,
                 newLightDistributionDataSource);

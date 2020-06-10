@@ -49,6 +49,7 @@ public interface IfcPropertyDependencyRelationship extends IfcResourceLevelRelat
      * @see org.bimserver.models.ifc4.Ifc4Package#getIfcPropertyDependencyRelationship_DependingProperty()
      * @see org.bimserver.models.ifc4.IfcProperty#getPropertyForDependance
      * @model opposite="PropertyForDependance"
+     *        annotation="inverse"
      * @generated
      */
     IfcProperty getDependingProperty();
@@ -77,6 +78,7 @@ public interface IfcPropertyDependencyRelationship extends IfcResourceLevelRelat
      * @see org.bimserver.models.ifc4.Ifc4Package#getIfcPropertyDependencyRelationship_DependantProperty()
      * @see org.bimserver.models.ifc4.IfcProperty#getPropertyDependsOn
      * @model opposite="PropertyDependsOn"
+     *        annotation="inverse"
      * @generated
      */
     IfcProperty getDependantProperty();

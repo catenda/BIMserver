@@ -56,6 +56,7 @@ public interface IfcAppliedValueRelationship extends IdEObject {
      * @see org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package#getIfcAppliedValueRelationship_ComponentOfTotal()
      * @see org.bimserver.models.ifc2x3tc1.IfcAppliedValue#getValueOfComponents
      * @model opposite="ValueOfComponents"
+     *        annotation="inverse"
      * @generated
      */
     IfcAppliedValue getComponentOfTotal();
@@ -84,6 +85,7 @@ public interface IfcAppliedValueRelationship extends IdEObject {
      * @see org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package#getIfcAppliedValueRelationship_Components()
      * @see org.bimserver.models.ifc2x3tc1.IfcAppliedValue#getIsComponentIn
      * @model opposite="IsComponentIn"
+     *        annotation="inverse"
      * @generated
      */
     EList<IfcAppliedValue> getComponents();

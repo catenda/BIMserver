@@ -72,6 +72,7 @@ public class IfcThermalResistanceMeasureImpl extends IdEObjectImpl implements If
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public double getWrappedValue() {
         return (Double) eGet(Ifc2x3tc1Package.Literals.IFC_THERMAL_RESISTANCE_MEASURE__WRAPPED_VALUE, true);
     }
@@ -81,6 +82,7 @@ public class IfcThermalResistanceMeasureImpl extends IdEObjectImpl implements If
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setWrappedValue(double newWrappedValue) {
         eSet(Ifc2x3tc1Package.Literals.IFC_THERMAL_RESISTANCE_MEASURE__WRAPPED_VALUE, newWrappedValue);
     }
@@ -90,6 +92,7 @@ public class IfcThermalResistanceMeasureImpl extends IdEObjectImpl implements If
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void unsetWrappedValue() {
         eUnset(Ifc2x3tc1Package.Literals.IFC_THERMAL_RESISTANCE_MEASURE__WRAPPED_VALUE);
     }
@@ -99,6 +102,7 @@ public class IfcThermalResistanceMeasureImpl extends IdEObjectImpl implements If
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public boolean isSetWrappedValue() {
         return eIsSet(Ifc2x3tc1Package.Literals.IFC_THERMAL_RESISTANCE_MEASURE__WRAPPED_VALUE);
     }
@@ -108,6 +112,7 @@ public class IfcThermalResistanceMeasureImpl extends IdEObjectImpl implements If
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public String getWrappedValueAsString() {
         return (String) eGet(Ifc2x3tc1Package.Literals.IFC_THERMAL_RESISTANCE_MEASURE__WRAPPED_VALUE_AS_STRING, true);
     }
@@ -117,6 +122,7 @@ public class IfcThermalResistanceMeasureImpl extends IdEObjectImpl implements If
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setWrappedValueAsString(String newWrappedValueAsString) {
         eSet(Ifc2x3tc1Package.Literals.IFC_THERMAL_RESISTANCE_MEASURE__WRAPPED_VALUE_AS_STRING,
                 newWrappedValueAsString);
@@ -127,6 +133,7 @@ public class IfcThermalResistanceMeasureImpl extends IdEObjectImpl implements If
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void unsetWrappedValueAsString() {
         eUnset(Ifc2x3tc1Package.Literals.IFC_THERMAL_RESISTANCE_MEASURE__WRAPPED_VALUE_AS_STRING);
     }
@@ -136,6 +143,7 @@ public class IfcThermalResistanceMeasureImpl extends IdEObjectImpl implements If
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public boolean isSetWrappedValueAsString() {
         return eIsSet(Ifc2x3tc1Package.Literals.IFC_THERMAL_RESISTANCE_MEASURE__WRAPPED_VALUE_AS_STRING);
     }

@@ -50,6 +50,7 @@ public interface IfcCompositeCurve extends IfcBoundedCurve {
      * @see org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package#getIfcCompositeCurve_Segments()
      * @see org.bimserver.models.ifc2x3tc1.IfcCompositeCurveSegment#getUsingCurves
      * @model opposite="UsingCurves"
+     *        annotation="inverse"
      * @generated
      */
     EList<IfcCompositeCurveSegment> getSegments();

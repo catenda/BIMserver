@@ -16401,7 +16401,7 @@
         <eAnnotations source="hidden"/>
       </eStructuralFeatures>
     </eClassifiers>
-    <eClassifiers xsi:type="ecore:EClass" name="IfcBinary">
+    <eClassifiers xsi:type="ecore:EClass" name="IfcBinary" eSuperTypes="#/1/IfcSimpleValue">
       <eAnnotations source="wrapped"/>
       <eStructuralFeatures xsi:type="ecore:EAttribute" name="wrappedValue" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EByteArray"
           unsettable="true"/>
@@ -19737,6 +19737,12 @@
       <eLiterals name="ACTUAL" value="4" literal="ACTUAL"/>
       <eLiterals name="PLANNED" value="5" literal="PLANNED"/>
     </eClassifiers>
+    <eClassifiers xsi:type="ecore:EClass" name="IfcArcIndex" eSuperTypes="#/1/IfcSegmentIndexSelect">
+      <eAnnotations source="wrapped"/>
+      <eStructuralFeatures xsi:type="ecore:EAttribute" name="wrappedValue" lowerBound="3"
+          upperBound="3" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//ELong"
+          unsettable="true"/>
+    </eClassifiers>
     <eClassifiers xsi:type="ecore:EClass" name="IfcComplexNumber" eSuperTypes="#/1/IfcMeasureValue">
       <eAnnotations source="wrapped"/>
       <eStructuralFeatures xsi:type="ecore:EAttribute" name="wrappedValue" upperBound="2"
@@ -19748,6 +19754,12 @@
         <eAnnotations source="asstring"/>
         <eAnnotations source="hidden"/>
       </eStructuralFeatures>
+    </eClassifiers>
+    <eClassifiers xsi:type="ecore:EClass" name="IfcLineIndex" eSuperTypes="#/1/IfcSegmentIndexSelect">
+      <eAnnotations source="wrapped"/>
+      <eStructuralFeatures xsi:type="ecore:EAttribute" name="wrappedValue" lowerBound="2"
+          upperBound="-1" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//ELong"
+          unsettable="true"/>
     </eClassifiers>
     <eClassifiers xsi:type="ecore:EClass" name="IfcNullStyle" eSuperTypes="#/1/IfcPresentationStyleSelect">
       <eAnnotations source="wrapped"/>

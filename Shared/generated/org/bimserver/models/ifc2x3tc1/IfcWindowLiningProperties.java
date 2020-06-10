@@ -116,6 +116,8 @@ public interface IfcWindowLiningProperties extends IfcPropertySetDefinition {
      * @see #setLiningDepthAsString(String)
      * @see org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package#getIfcWindowLiningProperties_LiningDepthAsString()
      * @model unsettable="true"
+     *        annotation="asstring"
+     *        annotation="hidden"
      * @generated
      */
     String getLiningDepthAsString();
@@ -222,6 +224,8 @@ public interface IfcWindowLiningProperties extends IfcPropertySetDefinition {
      * @see #setLiningThicknessAsString(String)
      * @see org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package#getIfcWindowLiningProperties_LiningThicknessAsString()
      * @model unsettable="true"
+     *        annotation="asstring"
+     *        annotation="hidden"
      * @generated
      */
     String getLiningThicknessAsString();
@@ -328,6 +332,8 @@ public interface IfcWindowLiningProperties extends IfcPropertySetDefinition {
      * @see #setTransomThicknessAsString(String)
      * @see org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package#getIfcWindowLiningProperties_TransomThicknessAsString()
      * @model unsettable="true"
+     *        annotation="asstring"
+     *        annotation="hidden"
      * @generated
      */
     String getTransomThicknessAsString();
@@ -434,6 +440,8 @@ public interface IfcWindowLiningProperties extends IfcPropertySetDefinition {
      * @see #setMullionThicknessAsString(String)
      * @see org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package#getIfcWindowLiningProperties_MullionThicknessAsString()
      * @model unsettable="true"
+     *        annotation="asstring"
+     *        annotation="hidden"
      * @generated
      */
     String getMullionThicknessAsString();
@@ -540,6 +548,8 @@ public interface IfcWindowLiningProperties extends IfcPropertySetDefinition {
      * @see #setFirstTransomOffsetAsString(String)
      * @see org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package#getIfcWindowLiningProperties_FirstTransomOffsetAsString()
      * @model unsettable="true"
+     *        annotation="asstring"
+     *        annotation="hidden"
      * @generated
      */
     String getFirstTransomOffsetAsString();
@@ -646,6 +656,8 @@ public interface IfcWindowLiningProperties extends IfcPropertySetDefinition {
      * @see #setSecondTransomOffsetAsString(String)
      * @see org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package#getIfcWindowLiningProperties_SecondTransomOffsetAsString()
      * @model unsettable="true"
+     *        annotation="asstring"
+     *        annotation="hidden"
      * @generated
      */
     String getSecondTransomOffsetAsString();
@@ -752,6 +764,8 @@ public interface IfcWindowLiningProperties extends IfcPropertySetDefinition {
      * @see #setFirstMullionOffsetAsString(String)
      * @see org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package#getIfcWindowLiningProperties_FirstMullionOffsetAsString()
      * @model unsettable="true"
+     *        annotation="asstring"
+     *        annotation="hidden"
      * @generated
      */
     String getFirstMullionOffsetAsString();
@@ -858,6 +872,8 @@ public interface IfcWindowLiningProperties extends IfcPropertySetDefinition {
      * @see #setSecondMullionOffsetAsString(String)
      * @see org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package#getIfcWindowLiningProperties_SecondMullionOffsetAsString()
      * @model unsettable="true"
+     *        annotation="asstring"
+     *        annotation="hidden"
      * @generated
      */
     String getSecondMullionOffsetAsString();

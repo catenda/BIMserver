@@ -63,6 +63,7 @@ public class IfcDerivedProfileDefImpl extends IfcProfileDefImpl implements IfcDe
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public IfcProfileDef getParentProfile() {
         return (IfcProfileDef) eGet(Ifc4Package.Literals.IFC_DERIVED_PROFILE_DEF__PARENT_PROFILE, true);
     }
@@ -72,6 +73,7 @@ public class IfcDerivedProfileDefImpl extends IfcProfileDefImpl implements IfcDe
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setParentProfile(IfcProfileDef newParentProfile) {
         eSet(Ifc4Package.Literals.IFC_DERIVED_PROFILE_DEF__PARENT_PROFILE, newParentProfile);
     }
@@ -81,6 +83,7 @@ public class IfcDerivedProfileDefImpl extends IfcProfileDefImpl implements IfcDe
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public IfcCartesianTransformationOperator2D getOperator() {
         return (IfcCartesianTransformationOperator2D) eGet(Ifc4Package.Literals.IFC_DERIVED_PROFILE_DEF__OPERATOR,
                 true);
@@ -91,6 +94,7 @@ public class IfcDerivedProfileDefImpl extends IfcProfileDefImpl implements IfcDe
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setOperator(IfcCartesianTransformationOperator2D newOperator) {
         eSet(Ifc4Package.Literals.IFC_DERIVED_PROFILE_DEF__OPERATOR, newOperator);
     }
@@ -100,6 +104,7 @@ public class IfcDerivedProfileDefImpl extends IfcProfileDefImpl implements IfcDe
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public String getLabel() {
         return (String) eGet(Ifc4Package.Literals.IFC_DERIVED_PROFILE_DEF__LABEL, true);
     }
@@ -109,6 +114,7 @@ public class IfcDerivedProfileDefImpl extends IfcProfileDefImpl implements IfcDe
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setLabel(String newLabel) {
         eSet(Ifc4Package.Literals.IFC_DERIVED_PROFILE_DEF__LABEL, newLabel);
     }
@@ -118,6 +124,7 @@ public class IfcDerivedProfileDefImpl extends IfcProfileDefImpl implements IfcDe
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void unsetLabel() {
         eUnset(Ifc4Package.Literals.IFC_DERIVED_PROFILE_DEF__LABEL);
     }
@@ -127,6 +134,7 @@ public class IfcDerivedProfileDefImpl extends IfcProfileDefImpl implements IfcDe
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public boolean isSetLabel() {
         return eIsSet(Ifc4Package.Literals.IFC_DERIVED_PROFILE_DEF__LABEL);
     }

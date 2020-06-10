@@ -75,6 +75,7 @@ public class IfcTimeSeriesValueImpl extends IdEObjectImpl implements IfcTimeSeri
      * @generated
      */
     @SuppressWarnings("unchecked")
+    @Override
     public EList<IfcValue> getListValues() {
         return (EList<IfcValue>) eGet(Ifc2x3tc1Package.Literals.IFC_TIME_SERIES_VALUE__LIST_VALUES, true);
     }

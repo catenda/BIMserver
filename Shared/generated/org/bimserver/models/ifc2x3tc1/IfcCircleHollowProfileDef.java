@@ -71,7 +71,8 @@ public interface IfcCircleHollowProfileDef extends IfcCircleProfileDef {
      * @return the value of the '<em>Wall Thickness As String</em>' attribute.
      * @see #setWallThicknessAsString(String)
      * @see org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package#getIfcCircleHollowProfileDef_WallThicknessAsString()
-     * @model
+     * @model annotation="asstring"
+     *        annotation="hidden"
      * @generated
      */
     String getWallThicknessAsString();

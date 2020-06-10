@@ -69,6 +69,7 @@ public class IfcGridImpl extends IfcProductImpl implements IfcGrid {
      * @generated
      */
     @SuppressWarnings("unchecked")
+    @Override
     public EList<IfcGridAxis> getUAxes() {
         return (EList<IfcGridAxis>) eGet(Ifc4Package.Literals.IFC_GRID__UAXES, true);
     }
@@ -79,6 +80,7 @@ public class IfcGridImpl extends IfcProductImpl implements IfcGrid {
      * @generated
      */
     @SuppressWarnings("unchecked")
+    @Override
     public EList<IfcGridAxis> getVAxes() {
         return (EList<IfcGridAxis>) eGet(Ifc4Package.Literals.IFC_GRID__VAXES, true);
     }
@@ -89,6 +91,7 @@ public class IfcGridImpl extends IfcProductImpl implements IfcGrid {
      * @generated
      */
     @SuppressWarnings("unchecked")
+    @Override
     public EList<IfcGridAxis> getWAxes() {
         return (EList<IfcGridAxis>) eGet(Ifc4Package.Literals.IFC_GRID__WAXES, true);
     }
@@ -98,6 +101,7 @@ public class IfcGridImpl extends IfcProductImpl implements IfcGrid {
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void unsetWAxes() {
         eUnset(Ifc4Package.Literals.IFC_GRID__WAXES);
     }
@@ -107,6 +111,7 @@ public class IfcGridImpl extends IfcProductImpl implements IfcGrid {
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public boolean isSetWAxes() {
         return eIsSet(Ifc4Package.Literals.IFC_GRID__WAXES);
     }
@@ -116,6 +121,7 @@ public class IfcGridImpl extends IfcProductImpl implements IfcGrid {
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public IfcGridTypeEnum getPredefinedType() {
         return (IfcGridTypeEnum) eGet(Ifc4Package.Literals.IFC_GRID__PREDEFINED_TYPE, true);
     }
@@ -125,6 +131,7 @@ public class IfcGridImpl extends IfcProductImpl implements IfcGrid {
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setPredefinedType(IfcGridTypeEnum newPredefinedType) {
         eSet(Ifc4Package.Literals.IFC_GRID__PREDEFINED_TYPE, newPredefinedType);
     }
@@ -134,6 +141,7 @@ public class IfcGridImpl extends IfcProductImpl implements IfcGrid {
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void unsetPredefinedType() {
         eUnset(Ifc4Package.Literals.IFC_GRID__PREDEFINED_TYPE);
     }
@@ -143,6 +151,7 @@ public class IfcGridImpl extends IfcProductImpl implements IfcGrid {
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public boolean isSetPredefinedType() {
         return eIsSet(Ifc4Package.Literals.IFC_GRID__PREDEFINED_TYPE);
     }
@@ -153,6 +162,7 @@ public class IfcGridImpl extends IfcProductImpl implements IfcGrid {
      * @generated
      */
     @SuppressWarnings("unchecked")
+    @Override
     public EList<IfcRelContainedInSpatialStructure> getContainedInStructure() {
         return (EList<IfcRelContainedInSpatialStructure>) eGet(Ifc4Package.Literals.IFC_GRID__CONTAINED_IN_STRUCTURE,
                 true);
@@ -163,6 +173,7 @@ public class IfcGridImpl extends IfcProductImpl implements IfcGrid {
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void unsetContainedInStructure() {
         eUnset(Ifc4Package.Literals.IFC_GRID__CONTAINED_IN_STRUCTURE);
     }
@@ -172,6 +183,7 @@ public class IfcGridImpl extends IfcProductImpl implements IfcGrid {
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public boolean isSetContainedInStructure() {
         return eIsSet(Ifc4Package.Literals.IFC_GRID__CONTAINED_IN_STRUCTURE);
     }

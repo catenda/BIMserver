@@ -60,6 +60,7 @@ public class IfcElectricMotorTypeImpl extends IfcEnergyConversionDeviceTypeImpl 
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public IfcElectricMotorTypeEnum getPredefinedType() {
         return (IfcElectricMotorTypeEnum) eGet(Ifc4Package.Literals.IFC_ELECTRIC_MOTOR_TYPE__PREDEFINED_TYPE, true);
     }
@@ -69,6 +70,7 @@ public class IfcElectricMotorTypeImpl extends IfcEnergyConversionDeviceTypeImpl 
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setPredefinedType(IfcElectricMotorTypeEnum newPredefinedType) {
         eSet(Ifc4Package.Literals.IFC_ELECTRIC_MOTOR_TYPE__PREDEFINED_TYPE, newPredefinedType);
     }

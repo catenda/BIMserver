@@ -66,6 +66,7 @@ public class IfcBoundaryEdgeConditionImpl extends IfcBoundaryConditionImpl imple
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public IfcModulusOfTranslationalSubgradeReactionSelect getTranslationalStiffnessByLengthX() {
         return (IfcModulusOfTranslationalSubgradeReactionSelect) eGet(
                 Ifc4Package.Literals.IFC_BOUNDARY_EDGE_CONDITION__TRANSLATIONAL_STIFFNESS_BY_LENGTH_X, true);
@@ -76,6 +77,7 @@ public class IfcBoundaryEdgeConditionImpl extends IfcBoundaryConditionImpl imple
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setTranslationalStiffnessByLengthX(
             IfcModulusOfTranslationalSubgradeReactionSelect newTranslationalStiffnessByLengthX) {
         eSet(Ifc4Package.Literals.IFC_BOUNDARY_EDGE_CONDITION__TRANSLATIONAL_STIFFNESS_BY_LENGTH_X,
@@ -87,6 +89,7 @@ public class IfcBoundaryEdgeConditionImpl extends IfcBoundaryConditionImpl imple
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void unsetTranslationalStiffnessByLengthX() {
         eUnset(Ifc4Package.Literals.IFC_BOUNDARY_EDGE_CONDITION__TRANSLATIONAL_STIFFNESS_BY_LENGTH_X);
     }
@@ -96,6 +99,7 @@ public class IfcBoundaryEdgeConditionImpl extends IfcBoundaryConditionImpl imple
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public boolean isSetTranslationalStiffnessByLengthX() {
         return eIsSet(Ifc4Package.Literals.IFC_BOUNDARY_EDGE_CONDITION__TRANSLATIONAL_STIFFNESS_BY_LENGTH_X);
     }
@@ -105,6 +109,7 @@ public class IfcBoundaryEdgeConditionImpl extends IfcBoundaryConditionImpl imple
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public IfcModulusOfTranslationalSubgradeReactionSelect getTranslationalStiffnessByLengthY() {
         return (IfcModulusOfTranslationalSubgradeReactionSelect) eGet(
                 Ifc4Package.Literals.IFC_BOUNDARY_EDGE_CONDITION__TRANSLATIONAL_STIFFNESS_BY_LENGTH_Y, true);
@@ -115,6 +120,7 @@ public class IfcBoundaryEdgeConditionImpl extends IfcBoundaryConditionImpl imple
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setTranslationalStiffnessByLengthY(
             IfcModulusOfTranslationalSubgradeReactionSelect newTranslationalStiffnessByLengthY) {
         eSet(Ifc4Package.Literals.IFC_BOUNDARY_EDGE_CONDITION__TRANSLATIONAL_STIFFNESS_BY_LENGTH_Y,
@@ -126,6 +132,7 @@ public class IfcBoundaryEdgeConditionImpl extends IfcBoundaryConditionImpl imple
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void unsetTranslationalStiffnessByLengthY() {
         eUnset(Ifc4Package.Literals.IFC_BOUNDARY_EDGE_CONDITION__TRANSLATIONAL_STIFFNESS_BY_LENGTH_Y);
     }
@@ -135,6 +142,7 @@ public class IfcBoundaryEdgeConditionImpl extends IfcBoundaryConditionImpl imple
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public boolean isSetTranslationalStiffnessByLengthY() {
         return eIsSet(Ifc4Package.Literals.IFC_BOUNDARY_EDGE_CONDITION__TRANSLATIONAL_STIFFNESS_BY_LENGTH_Y);
     }
@@ -144,6 +152,7 @@ public class IfcBoundaryEdgeConditionImpl extends IfcBoundaryConditionImpl imple
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public IfcModulusOfTranslationalSubgradeReactionSelect getTranslationalStiffnessByLengthZ() {
         return (IfcModulusOfTranslationalSubgradeReactionSelect) eGet(
                 Ifc4Package.Literals.IFC_BOUNDARY_EDGE_CONDITION__TRANSLATIONAL_STIFFNESS_BY_LENGTH_Z, true);
@@ -154,6 +163,7 @@ public class IfcBoundaryEdgeConditionImpl extends IfcBoundaryConditionImpl imple
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setTranslationalStiffnessByLengthZ(
             IfcModulusOfTranslationalSubgradeReactionSelect newTranslationalStiffnessByLengthZ) {
         eSet(Ifc4Package.Literals.IFC_BOUNDARY_EDGE_CONDITION__TRANSLATIONAL_STIFFNESS_BY_LENGTH_Z,
@@ -165,6 +175,7 @@ public class IfcBoundaryEdgeConditionImpl extends IfcBoundaryConditionImpl imple
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void unsetTranslationalStiffnessByLengthZ() {
         eUnset(Ifc4Package.Literals.IFC_BOUNDARY_EDGE_CONDITION__TRANSLATIONAL_STIFFNESS_BY_LENGTH_Z);
     }
@@ -174,6 +185,7 @@ public class IfcBoundaryEdgeConditionImpl extends IfcBoundaryConditionImpl imple
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public boolean isSetTranslationalStiffnessByLengthZ() {
         return eIsSet(Ifc4Package.Literals.IFC_BOUNDARY_EDGE_CONDITION__TRANSLATIONAL_STIFFNESS_BY_LENGTH_Z);
     }
@@ -183,6 +195,7 @@ public class IfcBoundaryEdgeConditionImpl extends IfcBoundaryConditionImpl imple
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public IfcModulusOfRotationalSubgradeReactionSelect getRotationalStiffnessByLengthX() {
         return (IfcModulusOfRotationalSubgradeReactionSelect) eGet(
                 Ifc4Package.Literals.IFC_BOUNDARY_EDGE_CONDITION__ROTATIONAL_STIFFNESS_BY_LENGTH_X, true);
@@ -193,6 +206,7 @@ public class IfcBoundaryEdgeConditionImpl extends IfcBoundaryConditionImpl imple
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setRotationalStiffnessByLengthX(
             IfcModulusOfRotationalSubgradeReactionSelect newRotationalStiffnessByLengthX) {
         eSet(Ifc4Package.Literals.IFC_BOUNDARY_EDGE_CONDITION__ROTATIONAL_STIFFNESS_BY_LENGTH_X,
@@ -204,6 +218,7 @@ public class IfcBoundaryEdgeConditionImpl extends IfcBoundaryConditionImpl imple
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void unsetRotationalStiffnessByLengthX() {
         eUnset(Ifc4Package.Literals.IFC_BOUNDARY_EDGE_CONDITION__ROTATIONAL_STIFFNESS_BY_LENGTH_X);
     }
@@ -213,6 +228,7 @@ public class IfcBoundaryEdgeConditionImpl extends IfcBoundaryConditionImpl imple
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public boolean isSetRotationalStiffnessByLengthX() {
         return eIsSet(Ifc4Package.Literals.IFC_BOUNDARY_EDGE_CONDITION__ROTATIONAL_STIFFNESS_BY_LENGTH_X);
     }
@@ -222,6 +238,7 @@ public class IfcBoundaryEdgeConditionImpl extends IfcBoundaryConditionImpl imple
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public IfcModulusOfRotationalSubgradeReactionSelect getRotationalStiffnessByLengthY() {
         return (IfcModulusOfRotationalSubgradeReactionSelect) eGet(
                 Ifc4Package.Literals.IFC_BOUNDARY_EDGE_CONDITION__ROTATIONAL_STIFFNESS_BY_LENGTH_Y, true);
@@ -232,6 +249,7 @@ public class IfcBoundaryEdgeConditionImpl extends IfcBoundaryConditionImpl imple
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setRotationalStiffnessByLengthY(
             IfcModulusOfRotationalSubgradeReactionSelect newRotationalStiffnessByLengthY) {
         eSet(Ifc4Package.Literals.IFC_BOUNDARY_EDGE_CONDITION__ROTATIONAL_STIFFNESS_BY_LENGTH_Y,
@@ -243,6 +261,7 @@ public class IfcBoundaryEdgeConditionImpl extends IfcBoundaryConditionImpl imple
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void unsetRotationalStiffnessByLengthY() {
         eUnset(Ifc4Package.Literals.IFC_BOUNDARY_EDGE_CONDITION__ROTATIONAL_STIFFNESS_BY_LENGTH_Y);
     }
@@ -252,6 +271,7 @@ public class IfcBoundaryEdgeConditionImpl extends IfcBoundaryConditionImpl imple
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public boolean isSetRotationalStiffnessByLengthY() {
         return eIsSet(Ifc4Package.Literals.IFC_BOUNDARY_EDGE_CONDITION__ROTATIONAL_STIFFNESS_BY_LENGTH_Y);
     }
@@ -261,6 +281,7 @@ public class IfcBoundaryEdgeConditionImpl extends IfcBoundaryConditionImpl imple
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public IfcModulusOfRotationalSubgradeReactionSelect getRotationalStiffnessByLengthZ() {
         return (IfcModulusOfRotationalSubgradeReactionSelect) eGet(
                 Ifc4Package.Literals.IFC_BOUNDARY_EDGE_CONDITION__ROTATIONAL_STIFFNESS_BY_LENGTH_Z, true);
@@ -271,6 +292,7 @@ public class IfcBoundaryEdgeConditionImpl extends IfcBoundaryConditionImpl imple
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setRotationalStiffnessByLengthZ(
             IfcModulusOfRotationalSubgradeReactionSelect newRotationalStiffnessByLengthZ) {
         eSet(Ifc4Package.Literals.IFC_BOUNDARY_EDGE_CONDITION__ROTATIONAL_STIFFNESS_BY_LENGTH_Z,
@@ -282,6 +304,7 @@ public class IfcBoundaryEdgeConditionImpl extends IfcBoundaryConditionImpl imple
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void unsetRotationalStiffnessByLengthZ() {
         eUnset(Ifc4Package.Literals.IFC_BOUNDARY_EDGE_CONDITION__ROTATIONAL_STIFFNESS_BY_LENGTH_Z);
     }
@@ -291,6 +314,7 @@ public class IfcBoundaryEdgeConditionImpl extends IfcBoundaryConditionImpl imple
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public boolean isSetRotationalStiffnessByLengthZ() {
         return eIsSet(Ifc4Package.Literals.IFC_BOUNDARY_EDGE_CONDITION__ROTATIONAL_STIFFNESS_BY_LENGTH_Z);
     }

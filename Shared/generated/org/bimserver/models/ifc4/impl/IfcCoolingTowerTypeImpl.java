@@ -60,6 +60,7 @@ public class IfcCoolingTowerTypeImpl extends IfcEnergyConversionDeviceTypeImpl i
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public IfcCoolingTowerTypeEnum getPredefinedType() {
         return (IfcCoolingTowerTypeEnum) eGet(Ifc4Package.Literals.IFC_COOLING_TOWER_TYPE__PREDEFINED_TYPE, true);
     }
@@ -69,6 +70,7 @@ public class IfcCoolingTowerTypeImpl extends IfcEnergyConversionDeviceTypeImpl i
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setPredefinedType(IfcCoolingTowerTypeEnum newPredefinedType) {
         eSet(Ifc4Package.Literals.IFC_COOLING_TOWER_TYPE__PREDEFINED_TYPE, newPredefinedType);
     }

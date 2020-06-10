@@ -60,6 +60,7 @@ public class IfcRampImpl extends IfcBuildingElementImpl implements IfcRamp {
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public IfcRampTypeEnum getShapeType() {
         return (IfcRampTypeEnum) eGet(Ifc2x3tc1Package.Literals.IFC_RAMP__SHAPE_TYPE, true);
     }
@@ -69,6 +70,7 @@ public class IfcRampImpl extends IfcBuildingElementImpl implements IfcRamp {
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setShapeType(IfcRampTypeEnum newShapeType) {
         eSet(Ifc2x3tc1Package.Literals.IFC_RAMP__SHAPE_TYPE, newShapeType);
     }

@@ -60,6 +60,7 @@ public class IfcSurfaceOfRevolutionImpl extends IfcSweptSurfaceImpl implements I
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public IfcAxis1Placement getAxisPosition() {
         return (IfcAxis1Placement) eGet(Ifc4Package.Literals.IFC_SURFACE_OF_REVOLUTION__AXIS_POSITION, true);
     }
@@ -69,6 +70,7 @@ public class IfcSurfaceOfRevolutionImpl extends IfcSweptSurfaceImpl implements I
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setAxisPosition(IfcAxis1Placement newAxisPosition) {
         eSet(Ifc4Package.Literals.IFC_SURFACE_OF_REVOLUTION__AXIS_POSITION, newAxisPosition);
     }

@@ -59,6 +59,7 @@ public class StringTypeImpl extends PrimitiveTypeImpl implements StringType {
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public String getValue() {
         return (String) eGet(StorePackage.Literals.STRING_TYPE__VALUE, true);
     }
@@ -68,6 +69,7 @@ public class StringTypeImpl extends PrimitiveTypeImpl implements StringType {
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setValue(String newValue) {
         eSet(StorePackage.Literals.STRING_TYPE__VALUE, newValue);
     }

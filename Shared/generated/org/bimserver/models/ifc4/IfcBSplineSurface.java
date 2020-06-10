@@ -106,7 +106,7 @@ public interface IfcBSplineSurface extends IfcBoundedSurface {
      * <!-- end-user-doc -->
      * @return the value of the '<em>Control Points List</em>' reference list.
      * @see org.bimserver.models.ifc4.Ifc4Package#getIfcBSplineSurface_ControlPointsList()
-     * @model
+     * @model annotation="twodimensionalarray"
      * @generated
      */
     EList<ListOfIfcCartesianPoint> getControlPointsList();
@@ -241,6 +241,7 @@ public interface IfcBSplineSurface extends IfcBoundedSurface {
      * @see #setUUpper(long)
      * @see org.bimserver.models.ifc4.Ifc4Package#getIfcBSplineSurface_UUpper()
      * @model unsettable="true" derived="true"
+     *        annotation="derived"
      * @generated
      */
     long getUUpper();
@@ -294,6 +295,7 @@ public interface IfcBSplineSurface extends IfcBoundedSurface {
      * @see #setVUpper(long)
      * @see org.bimserver.models.ifc4.Ifc4Package#getIfcBSplineSurface_VUpper()
      * @model unsettable="true" derived="true"
+     *        annotation="derived"
      * @generated
      */
     long getVUpper();

@@ -90,6 +90,7 @@ public class ConcreteRevisionImpl extends IdEObjectImpl implements ConcreteRevis
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public Integer getId() {
         return (Integer) eGet(StorePackage.Literals.CONCRETE_REVISION__ID, true);
     }
@@ -99,6 +100,7 @@ public class ConcreteRevisionImpl extends IdEObjectImpl implements ConcreteRevis
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setId(Integer newId) {
         eSet(StorePackage.Literals.CONCRETE_REVISION__ID, newId);
     }
@@ -108,6 +110,7 @@ public class ConcreteRevisionImpl extends IdEObjectImpl implements ConcreteRevis
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public Project getProject() {
         return (Project) eGet(StorePackage.Literals.CONCRETE_REVISION__PROJECT, true);
     }
@@ -117,6 +120,7 @@ public class ConcreteRevisionImpl extends IdEObjectImpl implements ConcreteRevis
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setProject(Project newProject) {
         eSet(StorePackage.Literals.CONCRETE_REVISION__PROJECT, newProject);
     }
@@ -126,6 +130,7 @@ public class ConcreteRevisionImpl extends IdEObjectImpl implements ConcreteRevis
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public byte[] getChecksum() {
         return (byte[]) eGet(StorePackage.Literals.CONCRETE_REVISION__CHECKSUM, true);
     }
@@ -135,6 +140,7 @@ public class ConcreteRevisionImpl extends IdEObjectImpl implements ConcreteRevis
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setChecksum(byte[] newChecksum) {
         eSet(StorePackage.Literals.CONCRETE_REVISION__CHECKSUM, newChecksum);
     }
@@ -145,6 +151,7 @@ public class ConcreteRevisionImpl extends IdEObjectImpl implements ConcreteRevis
      * @generated
      */
     @SuppressWarnings("unchecked")
+    @Override
     public EList<Revision> getRevisions() {
         return (EList<Revision>) eGet(StorePackage.Literals.CONCRETE_REVISION__REVISIONS, true);
     }
@@ -154,6 +161,7 @@ public class ConcreteRevisionImpl extends IdEObjectImpl implements ConcreteRevis
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public Long getSize() {
         return (Long) eGet(StorePackage.Literals.CONCRETE_REVISION__SIZE, true);
     }
@@ -163,6 +171,7 @@ public class ConcreteRevisionImpl extends IdEObjectImpl implements ConcreteRevis
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setSize(Long newSize) {
         eSet(StorePackage.Literals.CONCRETE_REVISION__SIZE, newSize);
     }
@@ -172,6 +181,7 @@ public class ConcreteRevisionImpl extends IdEObjectImpl implements ConcreteRevis
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public Date getDate() {
         return (Date) eGet(StorePackage.Literals.CONCRETE_REVISION__DATE, true);
     }
@@ -181,6 +191,7 @@ public class ConcreteRevisionImpl extends IdEObjectImpl implements ConcreteRevis
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setDate(Date newDate) {
         eSet(StorePackage.Literals.CONCRETE_REVISION__DATE, newDate);
     }
@@ -190,6 +201,7 @@ public class ConcreteRevisionImpl extends IdEObjectImpl implements ConcreteRevis
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public String getLastError() {
         return (String) eGet(StorePackage.Literals.CONCRETE_REVISION__LAST_ERROR, true);
     }
@@ -199,6 +211,7 @@ public class ConcreteRevisionImpl extends IdEObjectImpl implements ConcreteRevis
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setLastError(String newLastError) {
         eSet(StorePackage.Literals.CONCRETE_REVISION__LAST_ERROR, newLastError);
     }
@@ -208,6 +221,7 @@ public class ConcreteRevisionImpl extends IdEObjectImpl implements ConcreteRevis
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public boolean isClear() {
         return (Boolean) eGet(StorePackage.Literals.CONCRETE_REVISION__CLEAR, true);
     }
@@ -217,6 +231,7 @@ public class ConcreteRevisionImpl extends IdEObjectImpl implements ConcreteRevis
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setClear(boolean newClear) {
         eSet(StorePackage.Literals.CONCRETE_REVISION__CLEAR, newClear);
     }
@@ -226,6 +241,7 @@ public class ConcreteRevisionImpl extends IdEObjectImpl implements ConcreteRevis
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public RevisionSummary getSummary() {
         return (RevisionSummary) eGet(StorePackage.Literals.CONCRETE_REVISION__SUMMARY, true);
     }
@@ -235,6 +251,7 @@ public class ConcreteRevisionImpl extends IdEObjectImpl implements ConcreteRevis
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setSummary(RevisionSummary newSummary) {
         eSet(StorePackage.Literals.CONCRETE_REVISION__SUMMARY, newSummary);
     }
@@ -244,6 +261,7 @@ public class ConcreteRevisionImpl extends IdEObjectImpl implements ConcreteRevis
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public User getUser() {
         return (User) eGet(StorePackage.Literals.CONCRETE_REVISION__USER, true);
     }
@@ -253,6 +271,7 @@ public class ConcreteRevisionImpl extends IdEObjectImpl implements ConcreteRevis
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setUser(User newUser) {
         eSet(StorePackage.Literals.CONCRETE_REVISION__USER, newUser);
     }
@@ -262,6 +281,7 @@ public class ConcreteRevisionImpl extends IdEObjectImpl implements ConcreteRevis
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public IfcHeader getIfcHeader() {
         return (IfcHeader) eGet(StorePackage.Literals.CONCRETE_REVISION__IFC_HEADER, true);
     }
@@ -271,6 +291,7 @@ public class ConcreteRevisionImpl extends IdEObjectImpl implements ConcreteRevis
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setIfcHeader(IfcHeader newIfcHeader) {
         eSet(StorePackage.Literals.CONCRETE_REVISION__IFC_HEADER, newIfcHeader);
     }

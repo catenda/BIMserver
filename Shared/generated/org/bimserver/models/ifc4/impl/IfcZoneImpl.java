@@ -59,6 +59,7 @@ public class IfcZoneImpl extends IfcSystemImpl implements IfcZone {
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public String getLongName() {
         return (String) eGet(Ifc4Package.Literals.IFC_ZONE__LONG_NAME, true);
     }
@@ -68,6 +69,7 @@ public class IfcZoneImpl extends IfcSystemImpl implements IfcZone {
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setLongName(String newLongName) {
         eSet(Ifc4Package.Literals.IFC_ZONE__LONG_NAME, newLongName);
     }
@@ -77,6 +79,7 @@ public class IfcZoneImpl extends IfcSystemImpl implements IfcZone {
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void unsetLongName() {
         eUnset(Ifc4Package.Literals.IFC_ZONE__LONG_NAME);
     }
@@ -86,6 +89,7 @@ public class IfcZoneImpl extends IfcSystemImpl implements IfcZone {
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public boolean isSetLongName() {
         return eIsSet(Ifc4Package.Literals.IFC_ZONE__LONG_NAME);
     }

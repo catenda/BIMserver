@@ -62,6 +62,7 @@ public class IfcSIUnitImpl extends IfcNamedUnitImpl implements IfcSIUnit {
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public IfcSIPrefix getPrefix() {
         return (IfcSIPrefix) eGet(Ifc4Package.Literals.IFC_SI_UNIT__PREFIX, true);
     }
@@ -71,6 +72,7 @@ public class IfcSIUnitImpl extends IfcNamedUnitImpl implements IfcSIUnit {
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setPrefix(IfcSIPrefix newPrefix) {
         eSet(Ifc4Package.Literals.IFC_SI_UNIT__PREFIX, newPrefix);
     }
@@ -80,6 +82,7 @@ public class IfcSIUnitImpl extends IfcNamedUnitImpl implements IfcSIUnit {
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void unsetPrefix() {
         eUnset(Ifc4Package.Literals.IFC_SI_UNIT__PREFIX);
     }
@@ -89,6 +92,7 @@ public class IfcSIUnitImpl extends IfcNamedUnitImpl implements IfcSIUnit {
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public boolean isSetPrefix() {
         return eIsSet(Ifc4Package.Literals.IFC_SI_UNIT__PREFIX);
     }
@@ -98,6 +102,7 @@ public class IfcSIUnitImpl extends IfcNamedUnitImpl implements IfcSIUnit {
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public IfcSIUnitName getName() {
         return (IfcSIUnitName) eGet(Ifc4Package.Literals.IFC_SI_UNIT__NAME, true);
     }
@@ -107,6 +112,7 @@ public class IfcSIUnitImpl extends IfcNamedUnitImpl implements IfcSIUnit {
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setName(IfcSIUnitName newName) {
         eSet(Ifc4Package.Literals.IFC_SI_UNIT__NAME, newName);
     }

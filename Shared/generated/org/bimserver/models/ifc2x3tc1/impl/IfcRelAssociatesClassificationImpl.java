@@ -60,6 +60,7 @@ public class IfcRelAssociatesClassificationImpl extends IfcRelAssociatesImpl imp
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public IfcClassificationNotationSelect getRelatingClassification() {
         return (IfcClassificationNotationSelect) eGet(
                 Ifc2x3tc1Package.Literals.IFC_REL_ASSOCIATES_CLASSIFICATION__RELATING_CLASSIFICATION, true);
@@ -70,6 +71,7 @@ public class IfcRelAssociatesClassificationImpl extends IfcRelAssociatesImpl imp
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setRelatingClassification(IfcClassificationNotationSelect newRelatingClassification) {
         eSet(Ifc2x3tc1Package.Literals.IFC_REL_ASSOCIATES_CLASSIFICATION__RELATING_CLASSIFICATION,
                 newRelatingClassification);

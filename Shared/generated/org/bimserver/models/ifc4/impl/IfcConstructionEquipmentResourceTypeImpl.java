@@ -61,6 +61,7 @@ public class IfcConstructionEquipmentResourceTypeImpl extends IfcConstructionRes
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public IfcConstructionEquipmentResourceTypeEnum getPredefinedType() {
         return (IfcConstructionEquipmentResourceTypeEnum) eGet(
                 Ifc4Package.Literals.IFC_CONSTRUCTION_EQUIPMENT_RESOURCE_TYPE__PREDEFINED_TYPE, true);
@@ -71,6 +72,7 @@ public class IfcConstructionEquipmentResourceTypeImpl extends IfcConstructionRes
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setPredefinedType(IfcConstructionEquipmentResourceTypeEnum newPredefinedType) {
         eSet(Ifc4Package.Literals.IFC_CONSTRUCTION_EQUIPMENT_RESOURCE_TYPE__PREDEFINED_TYPE, newPredefinedType);
     }

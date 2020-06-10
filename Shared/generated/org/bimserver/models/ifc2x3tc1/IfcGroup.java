@@ -49,6 +49,7 @@ public interface IfcGroup extends IfcObject {
      * @see org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package#getIfcGroup_IsGroupedBy()
      * @see org.bimserver.models.ifc2x3tc1.IfcRelAssignsToGroup#getRelatingGroup
      * @model opposite="RelatingGroup" unsettable="true"
+     *        annotation="inverse"
      * @generated
      */
     IfcRelAssignsToGroup getIsGroupedBy();

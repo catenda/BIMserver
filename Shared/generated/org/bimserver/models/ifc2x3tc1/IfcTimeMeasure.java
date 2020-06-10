@@ -30,7 +30,7 @@ package org.bimserver.models.ifc2x3tc1;
  * </ul>
  *
  * @see org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package#getIfcTimeMeasure()
- * @model
+ * @model annotation="wrapped"
  * @generated
  */
 public interface IfcTimeMeasure extends IfcMeasureValue {
@@ -101,6 +101,8 @@ public interface IfcTimeMeasure extends IfcMeasureValue {
      * @see #setWrappedValueAsString(String)
      * @see org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package#getIfcTimeMeasure_WrappedValueAsString()
      * @model unsettable="true"
+     *        annotation="asstring"
+     *        annotation="hidden"
      * @generated
      */
     String getWrappedValueAsString();

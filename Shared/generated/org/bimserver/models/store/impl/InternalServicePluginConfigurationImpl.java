@@ -62,6 +62,7 @@ public class InternalServicePluginConfigurationImpl extends PluginConfigurationI
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public boolean isRemoteAccessible() {
         return (Boolean) eGet(StorePackage.Literals.INTERNAL_SERVICE_PLUGIN_CONFIGURATION__REMOTE_ACCESSIBLE, true);
     }
@@ -71,6 +72,7 @@ public class InternalServicePluginConfigurationImpl extends PluginConfigurationI
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setRemoteAccessible(boolean newRemoteAccessible) {
         eSet(StorePackage.Literals.INTERNAL_SERVICE_PLUGIN_CONFIGURATION__REMOTE_ACCESSIBLE, newRemoteAccessible);
     }
@@ -80,6 +82,7 @@ public class InternalServicePluginConfigurationImpl extends PluginConfigurationI
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public UserSettings getUserSettings() {
         return (UserSettings) eGet(StorePackage.Literals.INTERNAL_SERVICE_PLUGIN_CONFIGURATION__USER_SETTINGS, true);
     }
@@ -89,6 +92,7 @@ public class InternalServicePluginConfigurationImpl extends PluginConfigurationI
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setUserSettings(UserSettings newUserSettings) {
         eSet(StorePackage.Literals.INTERNAL_SERVICE_PLUGIN_CONFIGURATION__USER_SETTINGS, newUserSettings);
     }

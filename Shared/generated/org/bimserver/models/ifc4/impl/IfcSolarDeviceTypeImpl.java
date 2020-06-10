@@ -60,6 +60,7 @@ public class IfcSolarDeviceTypeImpl extends IfcEnergyConversionDeviceTypeImpl im
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public IfcSolarDeviceTypeEnum getPredefinedType() {
         return (IfcSolarDeviceTypeEnum) eGet(Ifc4Package.Literals.IFC_SOLAR_DEVICE_TYPE__PREDEFINED_TYPE, true);
     }
@@ -69,6 +70,7 @@ public class IfcSolarDeviceTypeImpl extends IfcEnergyConversionDeviceTypeImpl im
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setPredefinedType(IfcSolarDeviceTypeEnum newPredefinedType) {
         eSet(Ifc4Package.Literals.IFC_SOLAR_DEVICE_TYPE__PREDEFINED_TYPE, newPredefinedType);
     }

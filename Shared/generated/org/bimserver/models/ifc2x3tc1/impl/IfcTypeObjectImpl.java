@@ -65,6 +65,7 @@ public class IfcTypeObjectImpl extends IfcObjectDefinitionImpl implements IfcTyp
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public String getApplicableOccurrence() {
         return (String) eGet(Ifc2x3tc1Package.Literals.IFC_TYPE_OBJECT__APPLICABLE_OCCURRENCE, true);
     }
@@ -74,6 +75,7 @@ public class IfcTypeObjectImpl extends IfcObjectDefinitionImpl implements IfcTyp
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setApplicableOccurrence(String newApplicableOccurrence) {
         eSet(Ifc2x3tc1Package.Literals.IFC_TYPE_OBJECT__APPLICABLE_OCCURRENCE, newApplicableOccurrence);
     }
@@ -83,6 +85,7 @@ public class IfcTypeObjectImpl extends IfcObjectDefinitionImpl implements IfcTyp
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void unsetApplicableOccurrence() {
         eUnset(Ifc2x3tc1Package.Literals.IFC_TYPE_OBJECT__APPLICABLE_OCCURRENCE);
     }
@@ -92,6 +95,7 @@ public class IfcTypeObjectImpl extends IfcObjectDefinitionImpl implements IfcTyp
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public boolean isSetApplicableOccurrence() {
         return eIsSet(Ifc2x3tc1Package.Literals.IFC_TYPE_OBJECT__APPLICABLE_OCCURRENCE);
     }
@@ -102,6 +106,7 @@ public class IfcTypeObjectImpl extends IfcObjectDefinitionImpl implements IfcTyp
      * @generated
      */
     @SuppressWarnings("unchecked")
+    @Override
     public EList<IfcPropertySetDefinition> getHasPropertySets() {
         return (EList<IfcPropertySetDefinition>) eGet(Ifc2x3tc1Package.Literals.IFC_TYPE_OBJECT__HAS_PROPERTY_SETS,
                 true);
@@ -112,6 +117,7 @@ public class IfcTypeObjectImpl extends IfcObjectDefinitionImpl implements IfcTyp
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void unsetHasPropertySets() {
         eUnset(Ifc2x3tc1Package.Literals.IFC_TYPE_OBJECT__HAS_PROPERTY_SETS);
     }
@@ -121,6 +127,7 @@ public class IfcTypeObjectImpl extends IfcObjectDefinitionImpl implements IfcTyp
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public boolean isSetHasPropertySets() {
         return eIsSet(Ifc2x3tc1Package.Literals.IFC_TYPE_OBJECT__HAS_PROPERTY_SETS);
     }
@@ -131,6 +138,7 @@ public class IfcTypeObjectImpl extends IfcObjectDefinitionImpl implements IfcTyp
      * @generated
      */
     @SuppressWarnings("unchecked")
+    @Override
     public EList<IfcRelDefinesByType> getObjectTypeOf() {
         return (EList<IfcRelDefinesByType>) eGet(Ifc2x3tc1Package.Literals.IFC_TYPE_OBJECT__OBJECT_TYPE_OF, true);
     }
@@ -140,6 +148,7 @@ public class IfcTypeObjectImpl extends IfcObjectDefinitionImpl implements IfcTyp
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void unsetObjectTypeOf() {
         eUnset(Ifc2x3tc1Package.Literals.IFC_TYPE_OBJECT__OBJECT_TYPE_OF);
     }
@@ -149,6 +158,7 @@ public class IfcTypeObjectImpl extends IfcObjectDefinitionImpl implements IfcTyp
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public boolean isSetObjectTypeOf() {
         return eIsSet(Ifc2x3tc1Package.Literals.IFC_TYPE_OBJECT__OBJECT_TYPE_OF);
     }

@@ -75,6 +75,7 @@ public class IfcTableImpl extends IdEObjectImpl implements IfcTable {
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public String getName() {
         return (String) eGet(Ifc2x3tc1Package.Literals.IFC_TABLE__NAME, true);
     }
@@ -84,6 +85,7 @@ public class IfcTableImpl extends IdEObjectImpl implements IfcTable {
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setName(String newName) {
         eSet(Ifc2x3tc1Package.Literals.IFC_TABLE__NAME, newName);
     }
@@ -94,6 +96,7 @@ public class IfcTableImpl extends IdEObjectImpl implements IfcTable {
      * @generated
      */
     @SuppressWarnings("unchecked")
+    @Override
     public EList<IfcTableRow> getRows() {
         return (EList<IfcTableRow>) eGet(Ifc2x3tc1Package.Literals.IFC_TABLE__ROWS, true);
     }

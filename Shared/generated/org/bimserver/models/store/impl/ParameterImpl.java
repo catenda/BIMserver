@@ -73,6 +73,7 @@ public class ParameterImpl extends IdEObjectImpl implements Parameter {
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public String getName() {
         return (String) eGet(StorePackage.Literals.PARAMETER__NAME, true);
     }
@@ -82,6 +83,7 @@ public class ParameterImpl extends IdEObjectImpl implements Parameter {
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setName(String newName) {
         eSet(StorePackage.Literals.PARAMETER__NAME, newName);
     }
@@ -91,6 +93,7 @@ public class ParameterImpl extends IdEObjectImpl implements Parameter {
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public Type getValue() {
         return (Type) eGet(StorePackage.Literals.PARAMETER__VALUE, true);
     }
@@ -100,6 +103,7 @@ public class ParameterImpl extends IdEObjectImpl implements Parameter {
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setValue(Type newValue) {
         eSet(StorePackage.Literals.PARAMETER__VALUE, newValue);
     }

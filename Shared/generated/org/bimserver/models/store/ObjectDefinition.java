@@ -31,7 +31,7 @@ import org.eclipse.emf.common.util.EList;
  * </ul>
  *
  * @see org.bimserver.models.store.StorePackage#getObjectDefinition()
- * @model
+ * @model annotation="nodatabase"
  * @generated
  */
 public interface ObjectDefinition extends TypeDefinition {
@@ -46,7 +46,7 @@ public interface ObjectDefinition extends TypeDefinition {
      * <!-- end-user-doc -->
      * @return the value of the '<em>Parameters</em>' reference list.
      * @see org.bimserver.models.store.StorePackage#getObjectDefinition_Parameters()
-     * @model
+     * @model annotation="embedsreference"
      * @generated
      */
     EList<ParameterDefinition> getParameters();

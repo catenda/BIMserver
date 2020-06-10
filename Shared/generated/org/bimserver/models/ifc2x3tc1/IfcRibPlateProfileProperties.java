@@ -108,6 +108,8 @@ public interface IfcRibPlateProfileProperties extends IfcProfileProperties {
      * @see #setThicknessAsString(String)
      * @see org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package#getIfcRibPlateProfileProperties_ThicknessAsString()
      * @model unsettable="true"
+     *        annotation="asstring"
+     *        annotation="hidden"
      * @generated
      */
     String getThicknessAsString();
@@ -214,6 +216,8 @@ public interface IfcRibPlateProfileProperties extends IfcProfileProperties {
      * @see #setRibHeightAsString(String)
      * @see org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package#getIfcRibPlateProfileProperties_RibHeightAsString()
      * @model unsettable="true"
+     *        annotation="asstring"
+     *        annotation="hidden"
      * @generated
      */
     String getRibHeightAsString();
@@ -320,6 +324,8 @@ public interface IfcRibPlateProfileProperties extends IfcProfileProperties {
      * @see #setRibWidthAsString(String)
      * @see org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package#getIfcRibPlateProfileProperties_RibWidthAsString()
      * @model unsettable="true"
+     *        annotation="asstring"
+     *        annotation="hidden"
      * @generated
      */
     String getRibWidthAsString();
@@ -426,6 +432,8 @@ public interface IfcRibPlateProfileProperties extends IfcProfileProperties {
      * @see #setRibSpacingAsString(String)
      * @see org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package#getIfcRibPlateProfileProperties_RibSpacingAsString()
      * @model unsettable="true"
+     *        annotation="asstring"
+     *        annotation="hidden"
      * @generated
      */
     String getRibSpacingAsString();

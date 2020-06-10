@@ -30,7 +30,7 @@ package org.bimserver.models.ifc4;
  * </ul>
  *
  * @see org.bimserver.models.ifc4.Ifc4Package#getIfcPlaneAngleMeasure()
- * @model
+ * @model annotation="wrapped"
  * @generated
  */
 public interface IfcPlaneAngleMeasure extends IfcBendingParameterSelect, IfcMeasureValue {
@@ -101,6 +101,8 @@ public interface IfcPlaneAngleMeasure extends IfcBendingParameterSelect, IfcMeas
      * @see #setWrappedValueAsString(String)
      * @see org.bimserver.models.ifc4.Ifc4Package#getIfcPlaneAngleMeasure_WrappedValueAsString()
      * @model unsettable="true"
+     *        annotation="asstring"
+     *        annotation="hidden"
      * @generated
      */
     String getWrappedValueAsString();

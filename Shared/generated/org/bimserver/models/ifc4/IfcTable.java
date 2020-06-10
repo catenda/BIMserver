@@ -185,6 +185,7 @@ public interface IfcTable extends IfcMetricValueSelect, IfcObjectReferenceSelect
      * @see #setNumberOfCellsInRow(long)
      * @see org.bimserver.models.ifc4.Ifc4Package#getIfcTable_NumberOfCellsInRow()
      * @model unsettable="true" derived="true"
+     *        annotation="derived"
      * @generated
      */
     long getNumberOfCellsInRow();
@@ -238,6 +239,7 @@ public interface IfcTable extends IfcMetricValueSelect, IfcObjectReferenceSelect
      * @see #setNumberOfDataRows(long)
      * @see org.bimserver.models.ifc4.Ifc4Package#getIfcTable_NumberOfDataRows()
      * @model unsettable="true" derived="true"
+     *        annotation="derived"
      * @generated
      */
     long getNumberOfDataRows();
@@ -291,6 +293,7 @@ public interface IfcTable extends IfcMetricValueSelect, IfcObjectReferenceSelect
      * @see #setNumberOfHeadings(long)
      * @see org.bimserver.models.ifc4.Ifc4Package#getIfcTable_NumberOfHeadings()
      * @model unsettable="true" derived="true"
+     *        annotation="derived"
      * @generated
      */
     long getNumberOfHeadings();

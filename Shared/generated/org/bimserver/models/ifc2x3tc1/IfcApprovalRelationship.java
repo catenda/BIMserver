@@ -53,6 +53,7 @@ public interface IfcApprovalRelationship extends IdEObject {
      * @see org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package#getIfcApprovalRelationship_RelatedApproval()
      * @see org.bimserver.models.ifc2x3tc1.IfcApproval#getIsRelatedWith
      * @model opposite="IsRelatedWith"
+     *        annotation="inverse"
      * @generated
      */
     IfcApproval getRelatedApproval();
@@ -81,6 +82,7 @@ public interface IfcApprovalRelationship extends IdEObject {
      * @see org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package#getIfcApprovalRelationship_RelatingApproval()
      * @see org.bimserver.models.ifc2x3tc1.IfcApproval#getRelates
      * @model opposite="Relates"
+     *        annotation="inverse"
      * @generated
      */
     IfcApproval getRelatingApproval();

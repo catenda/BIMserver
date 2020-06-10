@@ -60,6 +60,7 @@ public class IfcColumnTypeImpl extends IfcBuildingElementTypeImpl implements Ifc
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public IfcColumnTypeEnum getPredefinedType() {
         return (IfcColumnTypeEnum) eGet(Ifc2x3tc1Package.Literals.IFC_COLUMN_TYPE__PREDEFINED_TYPE, true);
     }
@@ -69,6 +70,7 @@ public class IfcColumnTypeImpl extends IfcBuildingElementTypeImpl implements Ifc
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setPredefinedType(IfcColumnTypeEnum newPredefinedType) {
         eSet(Ifc2x3tc1Package.Literals.IFC_COLUMN_TYPE__PREDEFINED_TYPE, newPredefinedType);
     }

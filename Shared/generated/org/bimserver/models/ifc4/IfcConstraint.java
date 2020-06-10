@@ -377,6 +377,7 @@ public interface IfcConstraint extends IfcResourceObjectSelect {
      * @see #unsetHasExternalReferences()
      * @see org.bimserver.models.ifc4.Ifc4Package#getIfcConstraint_HasExternalReferences()
      * @model unsettable="true"
+     *        annotation="inverse"
      * @generated
      */
     EList<IfcExternalReferenceRelationship> getHasExternalReferences();
@@ -418,6 +419,7 @@ public interface IfcConstraint extends IfcResourceObjectSelect {
      * @see org.bimserver.models.ifc4.Ifc4Package#getIfcConstraint_PropertiesForConstraint()
      * @see org.bimserver.models.ifc4.IfcResourceConstraintRelationship#getRelatingConstraint
      * @model opposite="RelatingConstraint" unsettable="true"
+     *        annotation="inverse"
      * @generated
      */
     EList<IfcResourceConstraintRelationship> getPropertiesForConstraint();

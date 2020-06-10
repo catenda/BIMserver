@@ -105,6 +105,7 @@ public interface IfcStructuralConnection extends IfcStructuralItem {
      * @see org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package#getIfcStructuralConnection_ConnectsStructuralMembers()
      * @see org.bimserver.models.ifc2x3tc1.IfcRelConnectsStructuralMember#getRelatedStructuralConnection
      * @model opposite="RelatedStructuralConnection" unsettable="true"
+     *        annotation="inverse"
      * @generated
      */
     EList<IfcRelConnectsStructuralMember> getConnectsStructuralMembers();

@@ -61,6 +61,7 @@ public class IfcDistributionChamberElementTypeImpl extends IfcDistributionFlowEl
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public IfcDistributionChamberElementTypeEnum getPredefinedType() {
         return (IfcDistributionChamberElementTypeEnum) eGet(
                 Ifc2x3tc1Package.Literals.IFC_DISTRIBUTION_CHAMBER_ELEMENT_TYPE__PREDEFINED_TYPE, true);
@@ -71,6 +72,7 @@ public class IfcDistributionChamberElementTypeImpl extends IfcDistributionFlowEl
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setPredefinedType(IfcDistributionChamberElementTypeEnum newPredefinedType) {
         eSet(Ifc2x3tc1Package.Literals.IFC_DISTRIBUTION_CHAMBER_ELEMENT_TYPE__PREDEFINED_TYPE, newPredefinedType);
     }

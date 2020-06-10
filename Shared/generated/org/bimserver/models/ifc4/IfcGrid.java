@@ -53,6 +53,7 @@ public interface IfcGrid extends IfcProduct {
      * @see org.bimserver.models.ifc4.Ifc4Package#getIfcGrid_UAxes()
      * @see org.bimserver.models.ifc4.IfcGridAxis#getPartOfU
      * @model opposite="PartOfU"
+     *        annotation="inverse"
      * @generated
      */
     EList<IfcGridAxis> getUAxes();
@@ -71,6 +72,7 @@ public interface IfcGrid extends IfcProduct {
      * @see org.bimserver.models.ifc4.Ifc4Package#getIfcGrid_VAxes()
      * @see org.bimserver.models.ifc4.IfcGridAxis#getPartOfV
      * @model opposite="PartOfV"
+     *        annotation="inverse"
      * @generated
      */
     EList<IfcGridAxis> getVAxes();
@@ -91,6 +93,7 @@ public interface IfcGrid extends IfcProduct {
      * @see org.bimserver.models.ifc4.Ifc4Package#getIfcGrid_WAxes()
      * @see org.bimserver.models.ifc4.IfcGridAxis#getPartOfW
      * @model opposite="PartOfW" unsettable="true"
+     *        annotation="inverse"
      * @generated
      */
     EList<IfcGridAxis> getWAxes();
@@ -186,6 +189,7 @@ public interface IfcGrid extends IfcProduct {
      * @see #unsetContainedInStructure()
      * @see org.bimserver.models.ifc4.Ifc4Package#getIfcGrid_ContainedInStructure()
      * @model unsettable="true" upper="2"
+     *        annotation="inverse"
      * @generated
      */
     EList<IfcRelContainedInSpatialStructure> getContainedInStructure();

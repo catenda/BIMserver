@@ -33,7 +33,7 @@ import org.bimserver.emf.IdEObject;
  * </ul>
  *
  * @see org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package#getVector3f()
- * @model
+ * @model annotation="hidden"
  * @extends IdEObject
  * @generated
  */

@@ -105,6 +105,8 @@ public interface IfcBoundaryFaceCondition extends IfcBoundaryCondition {
      * @see #setLinearStiffnessByAreaXAsString(String)
      * @see org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package#getIfcBoundaryFaceCondition_LinearStiffnessByAreaXAsString()
      * @model unsettable="true"
+     *        annotation="asstring"
+     *        annotation="hidden"
      * @generated
      */
     String getLinearStiffnessByAreaXAsString();
@@ -211,6 +213,8 @@ public interface IfcBoundaryFaceCondition extends IfcBoundaryCondition {
      * @see #setLinearStiffnessByAreaYAsString(String)
      * @see org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package#getIfcBoundaryFaceCondition_LinearStiffnessByAreaYAsString()
      * @model unsettable="true"
+     *        annotation="asstring"
+     *        annotation="hidden"
      * @generated
      */
     String getLinearStiffnessByAreaYAsString();
@@ -317,6 +321,8 @@ public interface IfcBoundaryFaceCondition extends IfcBoundaryCondition {
      * @see #setLinearStiffnessByAreaZAsString(String)
      * @see org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package#getIfcBoundaryFaceCondition_LinearStiffnessByAreaZAsString()
      * @model unsettable="true"
+     *        annotation="asstring"
+     *        annotation="hidden"
      * @generated
      */
     String getLinearStiffnessByAreaZAsString();

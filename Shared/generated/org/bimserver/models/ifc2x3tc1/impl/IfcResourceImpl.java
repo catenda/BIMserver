@@ -63,6 +63,7 @@ public class IfcResourceImpl extends IfcObjectImpl implements IfcResource {
      * @generated
      */
     @SuppressWarnings("unchecked")
+    @Override
     public EList<IfcRelAssignsToResource> getResourceOf() {
         return (EList<IfcRelAssignsToResource>) eGet(Ifc2x3tc1Package.Literals.IFC_RESOURCE__RESOURCE_OF, true);
     }
@@ -72,6 +73,7 @@ public class IfcResourceImpl extends IfcObjectImpl implements IfcResource {
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void unsetResourceOf() {
         eUnset(Ifc2x3tc1Package.Literals.IFC_RESOURCE__RESOURCE_OF);
     }
@@ -81,6 +83,7 @@ public class IfcResourceImpl extends IfcObjectImpl implements IfcResource {
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public boolean isSetResourceOf() {
         return eIsSet(Ifc2x3tc1Package.Literals.IFC_RESOURCE__RESOURCE_OF);
     }

@@ -63,6 +63,7 @@ public class IfcRelConnectsPortsImpl extends IfcRelConnectsImpl implements IfcRe
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public IfcPort getRelatingPort() {
         return (IfcPort) eGet(Ifc2x3tc1Package.Literals.IFC_REL_CONNECTS_PORTS__RELATING_PORT, true);
     }
@@ -72,6 +73,7 @@ public class IfcRelConnectsPortsImpl extends IfcRelConnectsImpl implements IfcRe
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setRelatingPort(IfcPort newRelatingPort) {
         eSet(Ifc2x3tc1Package.Literals.IFC_REL_CONNECTS_PORTS__RELATING_PORT, newRelatingPort);
     }
@@ -81,6 +83,7 @@ public class IfcRelConnectsPortsImpl extends IfcRelConnectsImpl implements IfcRe
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public IfcPort getRelatedPort() {
         return (IfcPort) eGet(Ifc2x3tc1Package.Literals.IFC_REL_CONNECTS_PORTS__RELATED_PORT, true);
     }
@@ -90,6 +93,7 @@ public class IfcRelConnectsPortsImpl extends IfcRelConnectsImpl implements IfcRe
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setRelatedPort(IfcPort newRelatedPort) {
         eSet(Ifc2x3tc1Package.Literals.IFC_REL_CONNECTS_PORTS__RELATED_PORT, newRelatedPort);
     }
@@ -99,6 +103,7 @@ public class IfcRelConnectsPortsImpl extends IfcRelConnectsImpl implements IfcRe
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public IfcElement getRealizingElement() {
         return (IfcElement) eGet(Ifc2x3tc1Package.Literals.IFC_REL_CONNECTS_PORTS__REALIZING_ELEMENT, true);
     }
@@ -108,6 +113,7 @@ public class IfcRelConnectsPortsImpl extends IfcRelConnectsImpl implements IfcRe
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setRealizingElement(IfcElement newRealizingElement) {
         eSet(Ifc2x3tc1Package.Literals.IFC_REL_CONNECTS_PORTS__REALIZING_ELEMENT, newRealizingElement);
     }
@@ -117,6 +123,7 @@ public class IfcRelConnectsPortsImpl extends IfcRelConnectsImpl implements IfcRe
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void unsetRealizingElement() {
         eUnset(Ifc2x3tc1Package.Literals.IFC_REL_CONNECTS_PORTS__REALIZING_ELEMENT);
     }
@@ -126,6 +133,7 @@ public class IfcRelConnectsPortsImpl extends IfcRelConnectsImpl implements IfcRe
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public boolean isSetRealizingElement() {
         return eIsSet(Ifc2x3tc1Package.Literals.IFC_REL_CONNECTS_PORTS__REALIZING_ELEMENT);
     }

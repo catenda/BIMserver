@@ -161,6 +161,7 @@ public interface IfcProcess extends IfcObject, IfcProcessSelect {
      * @see org.bimserver.models.ifc4.Ifc4Package#getIfcProcess_IsPredecessorTo()
      * @see org.bimserver.models.ifc4.IfcRelSequence#getRelatingProcess
      * @model opposite="RelatingProcess" unsettable="true"
+     *        annotation="inverse"
      * @generated
      */
     EList<IfcRelSequence> getIsPredecessorTo();
@@ -202,6 +203,7 @@ public interface IfcProcess extends IfcObject, IfcProcessSelect {
      * @see org.bimserver.models.ifc4.Ifc4Package#getIfcProcess_IsSuccessorFrom()
      * @see org.bimserver.models.ifc4.IfcRelSequence#getRelatedProcess
      * @model opposite="RelatedProcess" unsettable="true"
+     *        annotation="inverse"
      * @generated
      */
     EList<IfcRelSequence> getIsSuccessorFrom();
@@ -241,6 +243,7 @@ public interface IfcProcess extends IfcObject, IfcProcessSelect {
      * @see #unsetOperatesOn()
      * @see org.bimserver.models.ifc4.Ifc4Package#getIfcProcess_OperatesOn()
      * @model unsettable="true"
+     *        annotation="inverse"
      * @generated
      */
     EList<IfcRelAssignsToProcess> getOperatesOn();

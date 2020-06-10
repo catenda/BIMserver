@@ -61,6 +61,7 @@ public class IfcTwoDirectionRepeatFactorImpl extends IfcOneDirectionRepeatFactor
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public IfcVector getSecondRepeatFactor() {
         return (IfcVector) eGet(Ifc2x3tc1Package.Literals.IFC_TWO_DIRECTION_REPEAT_FACTOR__SECOND_REPEAT_FACTOR, true);
     }
@@ -70,6 +71,7 @@ public class IfcTwoDirectionRepeatFactorImpl extends IfcOneDirectionRepeatFactor
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setSecondRepeatFactor(IfcVector newSecondRepeatFactor) {
         eSet(Ifc2x3tc1Package.Literals.IFC_TWO_DIRECTION_REPEAT_FACTOR__SECOND_REPEAT_FACTOR, newSecondRepeatFactor);
     }

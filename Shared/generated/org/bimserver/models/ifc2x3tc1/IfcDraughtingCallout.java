@@ -69,6 +69,7 @@ public interface IfcDraughtingCallout extends IfcGeometricRepresentationItem {
      * @see org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package#getIfcDraughtingCallout_IsRelatedFromCallout()
      * @see org.bimserver.models.ifc2x3tc1.IfcDraughtingCalloutRelationship#getRelatedDraughtingCallout
      * @model opposite="RelatedDraughtingCallout" unsettable="true"
+     *        annotation="inverse"
      * @generated
      */
     EList<IfcDraughtingCalloutRelationship> getIsRelatedFromCallout();
@@ -110,6 +111,7 @@ public interface IfcDraughtingCallout extends IfcGeometricRepresentationItem {
      * @see org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package#getIfcDraughtingCallout_IsRelatedToCallout()
      * @see org.bimserver.models.ifc2x3tc1.IfcDraughtingCalloutRelationship#getRelatingDraughtingCallout
      * @model opposite="RelatingDraughtingCallout" unsettable="true"
+     *        annotation="inverse"
      * @generated
      */
     EList<IfcDraughtingCalloutRelationship> getIsRelatedToCallout();

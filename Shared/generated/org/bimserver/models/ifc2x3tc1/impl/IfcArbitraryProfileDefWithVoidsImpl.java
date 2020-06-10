@@ -64,6 +64,7 @@ public class IfcArbitraryProfileDefWithVoidsImpl extends IfcArbitraryClosedProfi
      * @generated
      */
     @SuppressWarnings("unchecked")
+    @Override
     public EList<IfcCurve> getInnerCurves() {
         return (EList<IfcCurve>) eGet(Ifc2x3tc1Package.Literals.IFC_ARBITRARY_PROFILE_DEF_WITH_VOIDS__INNER_CURVES,
                 true);

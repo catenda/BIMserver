@@ -62,6 +62,7 @@ public class IfcRelAssignsToActorImpl extends IfcRelAssignsImpl implements IfcRe
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public IfcActor getRelatingActor() {
         return (IfcActor) eGet(Ifc4Package.Literals.IFC_REL_ASSIGNS_TO_ACTOR__RELATING_ACTOR, true);
     }
@@ -71,6 +72,7 @@ public class IfcRelAssignsToActorImpl extends IfcRelAssignsImpl implements IfcRe
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setRelatingActor(IfcActor newRelatingActor) {
         eSet(Ifc4Package.Literals.IFC_REL_ASSIGNS_TO_ACTOR__RELATING_ACTOR, newRelatingActor);
     }
@@ -80,6 +82,7 @@ public class IfcRelAssignsToActorImpl extends IfcRelAssignsImpl implements IfcRe
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public IfcActorRole getActingRole() {
         return (IfcActorRole) eGet(Ifc4Package.Literals.IFC_REL_ASSIGNS_TO_ACTOR__ACTING_ROLE, true);
     }
@@ -89,6 +92,7 @@ public class IfcRelAssignsToActorImpl extends IfcRelAssignsImpl implements IfcRe
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setActingRole(IfcActorRole newActingRole) {
         eSet(Ifc4Package.Literals.IFC_REL_ASSIGNS_TO_ACTOR__ACTING_ROLE, newActingRole);
     }
@@ -98,6 +102,7 @@ public class IfcRelAssignsToActorImpl extends IfcRelAssignsImpl implements IfcRe
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void unsetActingRole() {
         eUnset(Ifc4Package.Literals.IFC_REL_ASSIGNS_TO_ACTOR__ACTING_ROLE);
     }
@@ -107,6 +112,7 @@ public class IfcRelAssignsToActorImpl extends IfcRelAssignsImpl implements IfcRe
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public boolean isSetActingRole() {
         return eIsSet(Ifc4Package.Literals.IFC_REL_ASSIGNS_TO_ACTOR__ACTING_ROLE);
     }

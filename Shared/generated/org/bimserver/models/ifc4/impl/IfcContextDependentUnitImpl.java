@@ -63,6 +63,7 @@ public class IfcContextDependentUnitImpl extends IfcNamedUnitImpl implements Ifc
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public String getName() {
         return (String) eGet(Ifc4Package.Literals.IFC_CONTEXT_DEPENDENT_UNIT__NAME, true);
     }
@@ -72,6 +73,7 @@ public class IfcContextDependentUnitImpl extends IfcNamedUnitImpl implements Ifc
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setName(String newName) {
         eSet(Ifc4Package.Literals.IFC_CONTEXT_DEPENDENT_UNIT__NAME, newName);
     }
@@ -82,6 +84,7 @@ public class IfcContextDependentUnitImpl extends IfcNamedUnitImpl implements Ifc
      * @generated
      */
     @SuppressWarnings("unchecked")
+    @Override
     public EList<IfcExternalReferenceRelationship> getHasExternalReference() {
         return (EList<IfcExternalReferenceRelationship>) eGet(
                 Ifc4Package.Literals.IFC_CONTEXT_DEPENDENT_UNIT__HAS_EXTERNAL_REFERENCE, true);
@@ -92,6 +95,7 @@ public class IfcContextDependentUnitImpl extends IfcNamedUnitImpl implements Ifc
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void unsetHasExternalReference() {
         eUnset(Ifc4Package.Literals.IFC_CONTEXT_DEPENDENT_UNIT__HAS_EXTERNAL_REFERENCE);
     }
@@ -101,6 +105,7 @@ public class IfcContextDependentUnitImpl extends IfcNamedUnitImpl implements Ifc
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public boolean isSetHasExternalReference() {
         return eIsSet(Ifc4Package.Literals.IFC_CONTEXT_DEPENDENT_UNIT__HAS_EXTERNAL_REFERENCE);
     }

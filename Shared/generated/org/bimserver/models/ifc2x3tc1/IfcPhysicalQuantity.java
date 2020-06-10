@@ -135,6 +135,7 @@ public interface IfcPhysicalQuantity extends IdEObject {
      * @see org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package#getIfcPhysicalQuantity_PartOfComplex()
      * @see org.bimserver.models.ifc2x3tc1.IfcPhysicalComplexQuantity#getHasQuantities
      * @model opposite="HasQuantities" unsettable="true" upper="2"
+     *        annotation="inverse"
      * @generated
      */
     EList<IfcPhysicalComplexQuantity> getPartOfComplex();

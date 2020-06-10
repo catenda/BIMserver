@@ -61,6 +61,7 @@ public class IfcDistributionSystemImpl extends IfcSystemImpl implements IfcDistr
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public String getLongName() {
         return (String) eGet(Ifc4Package.Literals.IFC_DISTRIBUTION_SYSTEM__LONG_NAME, true);
     }
@@ -70,6 +71,7 @@ public class IfcDistributionSystemImpl extends IfcSystemImpl implements IfcDistr
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setLongName(String newLongName) {
         eSet(Ifc4Package.Literals.IFC_DISTRIBUTION_SYSTEM__LONG_NAME, newLongName);
     }
@@ -79,6 +81,7 @@ public class IfcDistributionSystemImpl extends IfcSystemImpl implements IfcDistr
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void unsetLongName() {
         eUnset(Ifc4Package.Literals.IFC_DISTRIBUTION_SYSTEM__LONG_NAME);
     }
@@ -88,6 +91,7 @@ public class IfcDistributionSystemImpl extends IfcSystemImpl implements IfcDistr
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public boolean isSetLongName() {
         return eIsSet(Ifc4Package.Literals.IFC_DISTRIBUTION_SYSTEM__LONG_NAME);
     }
@@ -97,6 +101,7 @@ public class IfcDistributionSystemImpl extends IfcSystemImpl implements IfcDistr
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public IfcDistributionSystemEnum getPredefinedType() {
         return (IfcDistributionSystemEnum) eGet(Ifc4Package.Literals.IFC_DISTRIBUTION_SYSTEM__PREDEFINED_TYPE, true);
     }
@@ -106,6 +111,7 @@ public class IfcDistributionSystemImpl extends IfcSystemImpl implements IfcDistr
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setPredefinedType(IfcDistributionSystemEnum newPredefinedType) {
         eSet(Ifc4Package.Literals.IFC_DISTRIBUTION_SYSTEM__PREDEFINED_TYPE, newPredefinedType);
     }
@@ -115,6 +121,7 @@ public class IfcDistributionSystemImpl extends IfcSystemImpl implements IfcDistr
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void unsetPredefinedType() {
         eUnset(Ifc4Package.Literals.IFC_DISTRIBUTION_SYSTEM__PREDEFINED_TYPE);
     }
@@ -124,6 +131,7 @@ public class IfcDistributionSystemImpl extends IfcSystemImpl implements IfcDistr
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public boolean isSetPredefinedType() {
         return eIsSet(Ifc4Package.Literals.IFC_DISTRIBUTION_SYSTEM__PREDEFINED_TYPE);
     }

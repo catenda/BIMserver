@@ -74,6 +74,7 @@ public class IfcNamedUnitImpl extends IdEObjectImpl implements IfcNamedUnit {
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public IfcDimensionalExponents getDimensions() {
         return (IfcDimensionalExponents) eGet(Ifc2x3tc1Package.Literals.IFC_NAMED_UNIT__DIMENSIONS, true);
     }
@@ -83,6 +84,7 @@ public class IfcNamedUnitImpl extends IdEObjectImpl implements IfcNamedUnit {
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setDimensions(IfcDimensionalExponents newDimensions) {
         eSet(Ifc2x3tc1Package.Literals.IFC_NAMED_UNIT__DIMENSIONS, newDimensions);
     }
@@ -92,6 +94,7 @@ public class IfcNamedUnitImpl extends IdEObjectImpl implements IfcNamedUnit {
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public IfcUnitEnum getUnitType() {
         return (IfcUnitEnum) eGet(Ifc2x3tc1Package.Literals.IFC_NAMED_UNIT__UNIT_TYPE, true);
     }
@@ -101,6 +104,7 @@ public class IfcNamedUnitImpl extends IdEObjectImpl implements IfcNamedUnit {
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setUnitType(IfcUnitEnum newUnitType) {
         eSet(Ifc2x3tc1Package.Literals.IFC_NAMED_UNIT__UNIT_TYPE, newUnitType);
     }

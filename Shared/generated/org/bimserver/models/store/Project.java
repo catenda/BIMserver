@@ -97,7 +97,7 @@ public interface Project extends IdEObject {
      * @return the value of the '<em>Name</em>' attribute.
      * @see #setName(String)
      * @see org.bimserver.models.store.StorePackage#getProject_Name()
-     * @model
+     * @model annotation="index"
      * @generated
      */
     String getName();

@@ -45,7 +45,7 @@ public interface IfcNamedUnit extends IfcUnit {
      * @return the value of the '<em>Dimensions</em>' reference.
      * @see #setDimensions(IfcDimensionalExponents)
      * @see org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package#getIfcNamedUnit_Dimensions()
-     * @model
+     * @model annotation="derived"
      * @generated
      */
     IfcDimensionalExponents getDimensions();

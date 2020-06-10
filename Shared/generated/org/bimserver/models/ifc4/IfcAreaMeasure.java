@@ -30,7 +30,7 @@ package org.bimserver.models.ifc4;
  * </ul>
  *
  * @see org.bimserver.models.ifc4.Ifc4Package#getIfcAreaMeasure()
- * @model
+ * @model annotation="wrapped"
  * @generated
  */
 public interface IfcAreaMeasure extends IfcMeasureValue {
@@ -101,6 +101,8 @@ public interface IfcAreaMeasure extends IfcMeasureValue {
      * @see #setWrappedValueAsString(String)
      * @see org.bimserver.models.ifc4.Ifc4Package#getIfcAreaMeasure_WrappedValueAsString()
      * @model unsettable="true"
+     *        annotation="asstring"
+     *        annotation="hidden"
      * @generated
      */
     String getWrappedValueAsString();

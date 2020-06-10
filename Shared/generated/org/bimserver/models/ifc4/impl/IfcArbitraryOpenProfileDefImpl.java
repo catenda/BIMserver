@@ -60,6 +60,7 @@ public class IfcArbitraryOpenProfileDefImpl extends IfcProfileDefImpl implements
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public IfcBoundedCurve getCurve() {
         return (IfcBoundedCurve) eGet(Ifc4Package.Literals.IFC_ARBITRARY_OPEN_PROFILE_DEF__CURVE, true);
     }
@@ -69,6 +70,7 @@ public class IfcArbitraryOpenProfileDefImpl extends IfcProfileDefImpl implements
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setCurve(IfcBoundedCurve newCurve) {
         eSet(Ifc4Package.Literals.IFC_ARBITRARY_OPEN_PROFILE_DEF__CURVE, newCurve);
     }

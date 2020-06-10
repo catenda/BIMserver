@@ -62,6 +62,7 @@ public class IfcDefinedSymbolImpl extends IfcGeometricRepresentationItemImpl imp
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public IfcDefinedSymbolSelect getDefinition() {
         return (IfcDefinedSymbolSelect) eGet(Ifc2x3tc1Package.Literals.IFC_DEFINED_SYMBOL__DEFINITION, true);
     }
@@ -71,6 +72,7 @@ public class IfcDefinedSymbolImpl extends IfcGeometricRepresentationItemImpl imp
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setDefinition(IfcDefinedSymbolSelect newDefinition) {
         eSet(Ifc2x3tc1Package.Literals.IFC_DEFINED_SYMBOL__DEFINITION, newDefinition);
     }
@@ -80,6 +82,7 @@ public class IfcDefinedSymbolImpl extends IfcGeometricRepresentationItemImpl imp
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public IfcCartesianTransformationOperator2D getTarget() {
         return (IfcCartesianTransformationOperator2D) eGet(Ifc2x3tc1Package.Literals.IFC_DEFINED_SYMBOL__TARGET, true);
     }
@@ -89,6 +92,7 @@ public class IfcDefinedSymbolImpl extends IfcGeometricRepresentationItemImpl imp
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setTarget(IfcCartesianTransformationOperator2D newTarget) {
         eSet(Ifc2x3tc1Package.Literals.IFC_DEFINED_SYMBOL__TARGET, newTarget);
     }

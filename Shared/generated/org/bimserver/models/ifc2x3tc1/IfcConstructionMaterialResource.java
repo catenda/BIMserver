@@ -143,6 +143,8 @@ public interface IfcConstructionMaterialResource extends IfcConstructionResource
      * @see #setUsageRatioAsString(String)
      * @see org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package#getIfcConstructionMaterialResource_UsageRatioAsString()
      * @model unsettable="true"
+     *        annotation="asstring"
+     *        annotation="hidden"
      * @generated
      */
     String getUsageRatioAsString();

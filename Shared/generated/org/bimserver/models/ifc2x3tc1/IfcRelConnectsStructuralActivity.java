@@ -45,7 +45,7 @@ public interface IfcRelConnectsStructuralActivity extends IfcRelConnects {
      * @return the value of the '<em>Relating Element</em>' reference.
      * @see #setRelatingElement(IfcStructuralActivityAssignmentSelect)
      * @see org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package#getIfcRelConnectsStructuralActivity_RelatingElement()
-     * @model
+     * @model annotation="inverse"
      * @generated
      */
     IfcStructuralActivityAssignmentSelect getRelatingElement();
@@ -74,6 +74,7 @@ public interface IfcRelConnectsStructuralActivity extends IfcRelConnects {
      * @see org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package#getIfcRelConnectsStructuralActivity_RelatedStructuralActivity()
      * @see org.bimserver.models.ifc2x3tc1.IfcStructuralActivity#getAssignedToStructuralItem
      * @model opposite="AssignedToStructuralItem"
+     *        annotation="inverse"
      * @generated
      */
     IfcStructuralActivity getRelatedStructuralActivity();

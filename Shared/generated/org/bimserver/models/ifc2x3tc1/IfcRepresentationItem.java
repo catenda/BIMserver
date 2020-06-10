@@ -50,6 +50,7 @@ public interface IfcRepresentationItem extends IfcLayeredItem {
      * @see #unsetLayerAssignments()
      * @see org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package#getIfcRepresentationItem_LayerAssignments()
      * @model unsettable="true"
+     *        annotation="inverse"
      * @generated
      */
     EList<IfcPresentationLayerAssignment> getLayerAssignments();
@@ -91,6 +92,7 @@ public interface IfcRepresentationItem extends IfcLayeredItem {
      * @see org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package#getIfcRepresentationItem_StyledByItem()
      * @see org.bimserver.models.ifc2x3tc1.IfcStyledItem#getItem
      * @model opposite="Item" unsettable="true" upper="2"
+     *        annotation="inverse"
      * @generated
      */
     EList<IfcStyledItem> getStyledByItem();

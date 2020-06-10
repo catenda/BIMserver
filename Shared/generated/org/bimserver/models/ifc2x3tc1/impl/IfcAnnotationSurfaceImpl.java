@@ -62,6 +62,7 @@ public class IfcAnnotationSurfaceImpl extends IfcGeometricRepresentationItemImpl
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public IfcGeometricRepresentationItem getItem() {
         return (IfcGeometricRepresentationItem) eGet(Ifc2x3tc1Package.Literals.IFC_ANNOTATION_SURFACE__ITEM, true);
     }
@@ -71,6 +72,7 @@ public class IfcAnnotationSurfaceImpl extends IfcGeometricRepresentationItemImpl
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setItem(IfcGeometricRepresentationItem newItem) {
         eSet(Ifc2x3tc1Package.Literals.IFC_ANNOTATION_SURFACE__ITEM, newItem);
     }
@@ -80,6 +82,7 @@ public class IfcAnnotationSurfaceImpl extends IfcGeometricRepresentationItemImpl
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public IfcTextureCoordinate getTextureCoordinates() {
         return (IfcTextureCoordinate) eGet(Ifc2x3tc1Package.Literals.IFC_ANNOTATION_SURFACE__TEXTURE_COORDINATES, true);
     }
@@ -89,6 +92,7 @@ public class IfcAnnotationSurfaceImpl extends IfcGeometricRepresentationItemImpl
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setTextureCoordinates(IfcTextureCoordinate newTextureCoordinates) {
         eSet(Ifc2x3tc1Package.Literals.IFC_ANNOTATION_SURFACE__TEXTURE_COORDINATES, newTextureCoordinates);
     }
@@ -98,6 +102,7 @@ public class IfcAnnotationSurfaceImpl extends IfcGeometricRepresentationItemImpl
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void unsetTextureCoordinates() {
         eUnset(Ifc2x3tc1Package.Literals.IFC_ANNOTATION_SURFACE__TEXTURE_COORDINATES);
     }
@@ -107,6 +112,7 @@ public class IfcAnnotationSurfaceImpl extends IfcGeometricRepresentationItemImpl
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public boolean isSetTextureCoordinates() {
         return eIsSet(Ifc2x3tc1Package.Literals.IFC_ANNOTATION_SURFACE__TEXTURE_COORDINATES);
     }

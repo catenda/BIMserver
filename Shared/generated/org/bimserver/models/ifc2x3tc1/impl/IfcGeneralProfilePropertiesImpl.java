@@ -68,6 +68,7 @@ public class IfcGeneralProfilePropertiesImpl extends IfcProfilePropertiesImpl im
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public double getPhysicalWeight() {
         return (Double) eGet(Ifc2x3tc1Package.Literals.IFC_GENERAL_PROFILE_PROPERTIES__PHYSICAL_WEIGHT, true);
     }
@@ -77,6 +78,7 @@ public class IfcGeneralProfilePropertiesImpl extends IfcProfilePropertiesImpl im
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setPhysicalWeight(double newPhysicalWeight) {
         eSet(Ifc2x3tc1Package.Literals.IFC_GENERAL_PROFILE_PROPERTIES__PHYSICAL_WEIGHT, newPhysicalWeight);
     }
@@ -86,6 +88,7 @@ public class IfcGeneralProfilePropertiesImpl extends IfcProfilePropertiesImpl im
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void unsetPhysicalWeight() {
         eUnset(Ifc2x3tc1Package.Literals.IFC_GENERAL_PROFILE_PROPERTIES__PHYSICAL_WEIGHT);
     }
@@ -95,6 +98,7 @@ public class IfcGeneralProfilePropertiesImpl extends IfcProfilePropertiesImpl im
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public boolean isSetPhysicalWeight() {
         return eIsSet(Ifc2x3tc1Package.Literals.IFC_GENERAL_PROFILE_PROPERTIES__PHYSICAL_WEIGHT);
     }
@@ -104,6 +108,7 @@ public class IfcGeneralProfilePropertiesImpl extends IfcProfilePropertiesImpl im
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public String getPhysicalWeightAsString() {
         return (String) eGet(Ifc2x3tc1Package.Literals.IFC_GENERAL_PROFILE_PROPERTIES__PHYSICAL_WEIGHT_AS_STRING, true);
     }
@@ -113,6 +118,7 @@ public class IfcGeneralProfilePropertiesImpl extends IfcProfilePropertiesImpl im
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setPhysicalWeightAsString(String newPhysicalWeightAsString) {
         eSet(Ifc2x3tc1Package.Literals.IFC_GENERAL_PROFILE_PROPERTIES__PHYSICAL_WEIGHT_AS_STRING,
                 newPhysicalWeightAsString);
@@ -123,6 +129,7 @@ public class IfcGeneralProfilePropertiesImpl extends IfcProfilePropertiesImpl im
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void unsetPhysicalWeightAsString() {
         eUnset(Ifc2x3tc1Package.Literals.IFC_GENERAL_PROFILE_PROPERTIES__PHYSICAL_WEIGHT_AS_STRING);
     }
@@ -132,6 +139,7 @@ public class IfcGeneralProfilePropertiesImpl extends IfcProfilePropertiesImpl im
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public boolean isSetPhysicalWeightAsString() {
         return eIsSet(Ifc2x3tc1Package.Literals.IFC_GENERAL_PROFILE_PROPERTIES__PHYSICAL_WEIGHT_AS_STRING);
     }
@@ -141,6 +149,7 @@ public class IfcGeneralProfilePropertiesImpl extends IfcProfilePropertiesImpl im
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public double getPerimeter() {
         return (Double) eGet(Ifc2x3tc1Package.Literals.IFC_GENERAL_PROFILE_PROPERTIES__PERIMETER, true);
     }
@@ -150,6 +159,7 @@ public class IfcGeneralProfilePropertiesImpl extends IfcProfilePropertiesImpl im
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setPerimeter(double newPerimeter) {
         eSet(Ifc2x3tc1Package.Literals.IFC_GENERAL_PROFILE_PROPERTIES__PERIMETER, newPerimeter);
     }
@@ -159,6 +169,7 @@ public class IfcGeneralProfilePropertiesImpl extends IfcProfilePropertiesImpl im
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void unsetPerimeter() {
         eUnset(Ifc2x3tc1Package.Literals.IFC_GENERAL_PROFILE_PROPERTIES__PERIMETER);
     }
@@ -168,6 +179,7 @@ public class IfcGeneralProfilePropertiesImpl extends IfcProfilePropertiesImpl im
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public boolean isSetPerimeter() {
         return eIsSet(Ifc2x3tc1Package.Literals.IFC_GENERAL_PROFILE_PROPERTIES__PERIMETER);
     }
@@ -177,6 +189,7 @@ public class IfcGeneralProfilePropertiesImpl extends IfcProfilePropertiesImpl im
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public String getPerimeterAsString() {
         return (String) eGet(Ifc2x3tc1Package.Literals.IFC_GENERAL_PROFILE_PROPERTIES__PERIMETER_AS_STRING, true);
     }
@@ -186,6 +199,7 @@ public class IfcGeneralProfilePropertiesImpl extends IfcProfilePropertiesImpl im
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setPerimeterAsString(String newPerimeterAsString) {
         eSet(Ifc2x3tc1Package.Literals.IFC_GENERAL_PROFILE_PROPERTIES__PERIMETER_AS_STRING, newPerimeterAsString);
     }
@@ -195,6 +209,7 @@ public class IfcGeneralProfilePropertiesImpl extends IfcProfilePropertiesImpl im
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void unsetPerimeterAsString() {
         eUnset(Ifc2x3tc1Package.Literals.IFC_GENERAL_PROFILE_PROPERTIES__PERIMETER_AS_STRING);
     }
@@ -204,6 +219,7 @@ public class IfcGeneralProfilePropertiesImpl extends IfcProfilePropertiesImpl im
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public boolean isSetPerimeterAsString() {
         return eIsSet(Ifc2x3tc1Package.Literals.IFC_GENERAL_PROFILE_PROPERTIES__PERIMETER_AS_STRING);
     }
@@ -213,6 +229,7 @@ public class IfcGeneralProfilePropertiesImpl extends IfcProfilePropertiesImpl im
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public double getMinimumPlateThickness() {
         return (Double) eGet(Ifc2x3tc1Package.Literals.IFC_GENERAL_PROFILE_PROPERTIES__MINIMUM_PLATE_THICKNESS, true);
     }
@@ -222,6 +239,7 @@ public class IfcGeneralProfilePropertiesImpl extends IfcProfilePropertiesImpl im
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setMinimumPlateThickness(double newMinimumPlateThickness) {
         eSet(Ifc2x3tc1Package.Literals.IFC_GENERAL_PROFILE_PROPERTIES__MINIMUM_PLATE_THICKNESS,
                 newMinimumPlateThickness);
@@ -232,6 +250,7 @@ public class IfcGeneralProfilePropertiesImpl extends IfcProfilePropertiesImpl im
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void unsetMinimumPlateThickness() {
         eUnset(Ifc2x3tc1Package.Literals.IFC_GENERAL_PROFILE_PROPERTIES__MINIMUM_PLATE_THICKNESS);
     }
@@ -241,6 +260,7 @@ public class IfcGeneralProfilePropertiesImpl extends IfcProfilePropertiesImpl im
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public boolean isSetMinimumPlateThickness() {
         return eIsSet(Ifc2x3tc1Package.Literals.IFC_GENERAL_PROFILE_PROPERTIES__MINIMUM_PLATE_THICKNESS);
     }
@@ -250,6 +270,7 @@ public class IfcGeneralProfilePropertiesImpl extends IfcProfilePropertiesImpl im
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public String getMinimumPlateThicknessAsString() {
         return (String) eGet(
                 Ifc2x3tc1Package.Literals.IFC_GENERAL_PROFILE_PROPERTIES__MINIMUM_PLATE_THICKNESS_AS_STRING, true);
@@ -260,6 +281,7 @@ public class IfcGeneralProfilePropertiesImpl extends IfcProfilePropertiesImpl im
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setMinimumPlateThicknessAsString(String newMinimumPlateThicknessAsString) {
         eSet(Ifc2x3tc1Package.Literals.IFC_GENERAL_PROFILE_PROPERTIES__MINIMUM_PLATE_THICKNESS_AS_STRING,
                 newMinimumPlateThicknessAsString);
@@ -270,6 +292,7 @@ public class IfcGeneralProfilePropertiesImpl extends IfcProfilePropertiesImpl im
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void unsetMinimumPlateThicknessAsString() {
         eUnset(Ifc2x3tc1Package.Literals.IFC_GENERAL_PROFILE_PROPERTIES__MINIMUM_PLATE_THICKNESS_AS_STRING);
     }
@@ -279,6 +302,7 @@ public class IfcGeneralProfilePropertiesImpl extends IfcProfilePropertiesImpl im
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public boolean isSetMinimumPlateThicknessAsString() {
         return eIsSet(Ifc2x3tc1Package.Literals.IFC_GENERAL_PROFILE_PROPERTIES__MINIMUM_PLATE_THICKNESS_AS_STRING);
     }
@@ -288,6 +312,7 @@ public class IfcGeneralProfilePropertiesImpl extends IfcProfilePropertiesImpl im
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public double getMaximumPlateThickness() {
         return (Double) eGet(Ifc2x3tc1Package.Literals.IFC_GENERAL_PROFILE_PROPERTIES__MAXIMUM_PLATE_THICKNESS, true);
     }
@@ -297,6 +322,7 @@ public class IfcGeneralProfilePropertiesImpl extends IfcProfilePropertiesImpl im
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setMaximumPlateThickness(double newMaximumPlateThickness) {
         eSet(Ifc2x3tc1Package.Literals.IFC_GENERAL_PROFILE_PROPERTIES__MAXIMUM_PLATE_THICKNESS,
                 newMaximumPlateThickness);
@@ -307,6 +333,7 @@ public class IfcGeneralProfilePropertiesImpl extends IfcProfilePropertiesImpl im
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void unsetMaximumPlateThickness() {
         eUnset(Ifc2x3tc1Package.Literals.IFC_GENERAL_PROFILE_PROPERTIES__MAXIMUM_PLATE_THICKNESS);
     }
@@ -316,6 +343,7 @@ public class IfcGeneralProfilePropertiesImpl extends IfcProfilePropertiesImpl im
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public boolean isSetMaximumPlateThickness() {
         return eIsSet(Ifc2x3tc1Package.Literals.IFC_GENERAL_PROFILE_PROPERTIES__MAXIMUM_PLATE_THICKNESS);
     }
@@ -325,6 +353,7 @@ public class IfcGeneralProfilePropertiesImpl extends IfcProfilePropertiesImpl im
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public String getMaximumPlateThicknessAsString() {
         return (String) eGet(
                 Ifc2x3tc1Package.Literals.IFC_GENERAL_PROFILE_PROPERTIES__MAXIMUM_PLATE_THICKNESS_AS_STRING, true);
@@ -335,6 +364,7 @@ public class IfcGeneralProfilePropertiesImpl extends IfcProfilePropertiesImpl im
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setMaximumPlateThicknessAsString(String newMaximumPlateThicknessAsString) {
         eSet(Ifc2x3tc1Package.Literals.IFC_GENERAL_PROFILE_PROPERTIES__MAXIMUM_PLATE_THICKNESS_AS_STRING,
                 newMaximumPlateThicknessAsString);
@@ -345,6 +375,7 @@ public class IfcGeneralProfilePropertiesImpl extends IfcProfilePropertiesImpl im
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void unsetMaximumPlateThicknessAsString() {
         eUnset(Ifc2x3tc1Package.Literals.IFC_GENERAL_PROFILE_PROPERTIES__MAXIMUM_PLATE_THICKNESS_AS_STRING);
     }
@@ -354,6 +385,7 @@ public class IfcGeneralProfilePropertiesImpl extends IfcProfilePropertiesImpl im
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public boolean isSetMaximumPlateThicknessAsString() {
         return eIsSet(Ifc2x3tc1Package.Literals.IFC_GENERAL_PROFILE_PROPERTIES__MAXIMUM_PLATE_THICKNESS_AS_STRING);
     }
@@ -363,6 +395,7 @@ public class IfcGeneralProfilePropertiesImpl extends IfcProfilePropertiesImpl im
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public double getCrossSectionArea() {
         return (Double) eGet(Ifc2x3tc1Package.Literals.IFC_GENERAL_PROFILE_PROPERTIES__CROSS_SECTION_AREA, true);
     }
@@ -372,6 +405,7 @@ public class IfcGeneralProfilePropertiesImpl extends IfcProfilePropertiesImpl im
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setCrossSectionArea(double newCrossSectionArea) {
         eSet(Ifc2x3tc1Package.Literals.IFC_GENERAL_PROFILE_PROPERTIES__CROSS_SECTION_AREA, newCrossSectionArea);
     }
@@ -381,6 +415,7 @@ public class IfcGeneralProfilePropertiesImpl extends IfcProfilePropertiesImpl im
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void unsetCrossSectionArea() {
         eUnset(Ifc2x3tc1Package.Literals.IFC_GENERAL_PROFILE_PROPERTIES__CROSS_SECTION_AREA);
     }
@@ -390,6 +425,7 @@ public class IfcGeneralProfilePropertiesImpl extends IfcProfilePropertiesImpl im
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public boolean isSetCrossSectionArea() {
         return eIsSet(Ifc2x3tc1Package.Literals.IFC_GENERAL_PROFILE_PROPERTIES__CROSS_SECTION_AREA);
     }
@@ -399,6 +435,7 @@ public class IfcGeneralProfilePropertiesImpl extends IfcProfilePropertiesImpl im
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public String getCrossSectionAreaAsString() {
         return (String) eGet(Ifc2x3tc1Package.Literals.IFC_GENERAL_PROFILE_PROPERTIES__CROSS_SECTION_AREA_AS_STRING,
                 true);
@@ -409,6 +446,7 @@ public class IfcGeneralProfilePropertiesImpl extends IfcProfilePropertiesImpl im
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setCrossSectionAreaAsString(String newCrossSectionAreaAsString) {
         eSet(Ifc2x3tc1Package.Literals.IFC_GENERAL_PROFILE_PROPERTIES__CROSS_SECTION_AREA_AS_STRING,
                 newCrossSectionAreaAsString);
@@ -419,6 +457,7 @@ public class IfcGeneralProfilePropertiesImpl extends IfcProfilePropertiesImpl im
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void unsetCrossSectionAreaAsString() {
         eUnset(Ifc2x3tc1Package.Literals.IFC_GENERAL_PROFILE_PROPERTIES__CROSS_SECTION_AREA_AS_STRING);
     }
@@ -428,6 +467,7 @@ public class IfcGeneralProfilePropertiesImpl extends IfcProfilePropertiesImpl im
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public boolean isSetCrossSectionAreaAsString() {
         return eIsSet(Ifc2x3tc1Package.Literals.IFC_GENERAL_PROFILE_PROPERTIES__CROSS_SECTION_AREA_AS_STRING);
     }

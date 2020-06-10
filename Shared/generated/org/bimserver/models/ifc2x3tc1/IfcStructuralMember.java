@@ -52,6 +52,7 @@ public interface IfcStructuralMember extends IfcStructuralItem {
      * @see org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package#getIfcStructuralMember_ReferencesElement()
      * @see org.bimserver.models.ifc2x3tc1.IfcRelConnectsStructuralElement#getRelatedStructuralMember
      * @model opposite="RelatedStructuralMember" unsettable="true"
+     *        annotation="inverse"
      * @generated
      */
     EList<IfcRelConnectsStructuralElement> getReferencesElement();
@@ -93,6 +94,7 @@ public interface IfcStructuralMember extends IfcStructuralItem {
      * @see org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package#getIfcStructuralMember_ConnectedBy()
      * @see org.bimserver.models.ifc2x3tc1.IfcRelConnectsStructuralMember#getRelatingStructuralMember
      * @model opposite="RelatingStructuralMember" unsettable="true"
+     *        annotation="inverse"
      * @generated
      */
     EList<IfcRelConnectsStructuralMember> getConnectedBy();

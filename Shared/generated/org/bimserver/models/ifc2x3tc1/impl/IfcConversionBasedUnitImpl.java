@@ -61,6 +61,7 @@ public class IfcConversionBasedUnitImpl extends IfcNamedUnitImpl implements IfcC
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public String getName() {
         return (String) eGet(Ifc2x3tc1Package.Literals.IFC_CONVERSION_BASED_UNIT__NAME, true);
     }
@@ -70,6 +71,7 @@ public class IfcConversionBasedUnitImpl extends IfcNamedUnitImpl implements IfcC
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setName(String newName) {
         eSet(Ifc2x3tc1Package.Literals.IFC_CONVERSION_BASED_UNIT__NAME, newName);
     }
@@ -79,6 +81,7 @@ public class IfcConversionBasedUnitImpl extends IfcNamedUnitImpl implements IfcC
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public IfcMeasureWithUnit getConversionFactor() {
         return (IfcMeasureWithUnit) eGet(Ifc2x3tc1Package.Literals.IFC_CONVERSION_BASED_UNIT__CONVERSION_FACTOR, true);
     }
@@ -88,6 +91,7 @@ public class IfcConversionBasedUnitImpl extends IfcNamedUnitImpl implements IfcC
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setConversionFactor(IfcMeasureWithUnit newConversionFactor) {
         eSet(Ifc2x3tc1Package.Literals.IFC_CONVERSION_BASED_UNIT__CONVERSION_FACTOR, newConversionFactor);
     }

@@ -105,6 +105,8 @@ public interface IfcConnectionPointEccentricity extends IfcConnectionPointGeomet
      * @see #setEccentricityInXAsString(String)
      * @see org.bimserver.models.ifc4.Ifc4Package#getIfcConnectionPointEccentricity_EccentricityInXAsString()
      * @model unsettable="true"
+     *        annotation="asstring"
+     *        annotation="hidden"
      * @generated
      */
     String getEccentricityInXAsString();
@@ -211,6 +213,8 @@ public interface IfcConnectionPointEccentricity extends IfcConnectionPointGeomet
      * @see #setEccentricityInYAsString(String)
      * @see org.bimserver.models.ifc4.Ifc4Package#getIfcConnectionPointEccentricity_EccentricityInYAsString()
      * @model unsettable="true"
+     *        annotation="asstring"
+     *        annotation="hidden"
      * @generated
      */
     String getEccentricityInYAsString();
@@ -317,6 +321,8 @@ public interface IfcConnectionPointEccentricity extends IfcConnectionPointGeomet
      * @see #setEccentricityInZAsString(String)
      * @see org.bimserver.models.ifc4.Ifc4Package#getIfcConnectionPointEccentricity_EccentricityInZAsString()
      * @model unsettable="true"
+     *        annotation="asstring"
+     *        annotation="hidden"
      * @generated
      */
     String getEccentricityInZAsString();

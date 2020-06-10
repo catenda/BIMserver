@@ -52,6 +52,7 @@ public interface IfcPropertySetDefinition extends IfcPropertyDefinition {
      * @see org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package#getIfcPropertySetDefinition_PropertyDefinitionOf()
      * @see org.bimserver.models.ifc2x3tc1.IfcRelDefinesByProperties#getRelatingPropertyDefinition
      * @model opposite="RelatingPropertyDefinition" unsettable="true" upper="2"
+     *        annotation="inverse"
      * @generated
      */
     EList<IfcRelDefinesByProperties> getPropertyDefinitionOf();
@@ -93,6 +94,7 @@ public interface IfcPropertySetDefinition extends IfcPropertyDefinition {
      * @see org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package#getIfcPropertySetDefinition_DefinesType()
      * @see org.bimserver.models.ifc2x3tc1.IfcTypeObject#getHasPropertySets
      * @model opposite="HasPropertySets" unsettable="true" upper="2"
+     *        annotation="inverse"
      * @generated
      */
     EList<IfcTypeObject> getDefinesType();

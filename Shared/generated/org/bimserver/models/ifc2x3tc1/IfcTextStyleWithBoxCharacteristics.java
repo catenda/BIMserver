@@ -108,6 +108,8 @@ public interface IfcTextStyleWithBoxCharacteristics extends IfcTextStyleSelect {
      * @see #setBoxHeightAsString(String)
      * @see org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package#getIfcTextStyleWithBoxCharacteristics_BoxHeightAsString()
      * @model unsettable="true"
+     *        annotation="asstring"
+     *        annotation="hidden"
      * @generated
      */
     String getBoxHeightAsString();
@@ -214,6 +216,8 @@ public interface IfcTextStyleWithBoxCharacteristics extends IfcTextStyleSelect {
      * @see #setBoxWidthAsString(String)
      * @see org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package#getIfcTextStyleWithBoxCharacteristics_BoxWidthAsString()
      * @model unsettable="true"
+     *        annotation="asstring"
+     *        annotation="hidden"
      * @generated
      */
     String getBoxWidthAsString();
@@ -320,6 +324,8 @@ public interface IfcTextStyleWithBoxCharacteristics extends IfcTextStyleSelect {
      * @see #setBoxSlantAngleAsString(String)
      * @see org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package#getIfcTextStyleWithBoxCharacteristics_BoxSlantAngleAsString()
      * @model unsettable="true"
+     *        annotation="asstring"
+     *        annotation="hidden"
      * @generated
      */
     String getBoxSlantAngleAsString();
@@ -426,6 +432,8 @@ public interface IfcTextStyleWithBoxCharacteristics extends IfcTextStyleSelect {
      * @see #setBoxRotateAngleAsString(String)
      * @see org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package#getIfcTextStyleWithBoxCharacteristics_BoxRotateAngleAsString()
      * @model unsettable="true"
+     *        annotation="asstring"
+     *        annotation="hidden"
      * @generated
      */
     String getBoxRotateAngleAsString();

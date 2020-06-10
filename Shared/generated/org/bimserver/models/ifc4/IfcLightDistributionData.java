@@ -80,7 +80,8 @@ public interface IfcLightDistributionData extends IdEObject {
      * @return the value of the '<em>Main Plane Angle As String</em>' attribute.
      * @see #setMainPlaneAngleAsString(String)
      * @see org.bimserver.models.ifc4.Ifc4Package#getIfcLightDistributionData_MainPlaneAngleAsString()
-     * @model
+     * @model annotation="asstring"
+     *        annotation="hidden"
      * @generated
      */
     String getMainPlaneAngleAsString();
@@ -123,6 +124,8 @@ public interface IfcLightDistributionData extends IdEObject {
      * @return the value of the '<em>Secondary Plane Angle As String</em>' attribute list.
      * @see org.bimserver.models.ifc4.Ifc4Package#getIfcLightDistributionData_SecondaryPlaneAngleAsString()
      * @model unique="false"
+     *        annotation="asstring"
+     *        annotation="hidden"
      * @generated
      */
     EList<String> getSecondaryPlaneAngleAsString();
@@ -155,6 +158,8 @@ public interface IfcLightDistributionData extends IdEObject {
      * @return the value of the '<em>Luminous Intensity As String</em>' attribute list.
      * @see org.bimserver.models.ifc4.Ifc4Package#getIfcLightDistributionData_LuminousIntensityAsString()
      * @model unique="false"
+     *        annotation="asstring"
+     *        annotation="hidden"
      * @generated
      */
     EList<String> getLuminousIntensityAsString();

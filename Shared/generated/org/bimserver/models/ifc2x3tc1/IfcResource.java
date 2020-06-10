@@ -51,6 +51,7 @@ public interface IfcResource extends IfcObject {
      * @see org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package#getIfcResource_ResourceOf()
      * @see org.bimserver.models.ifc2x3tc1.IfcRelAssignsToResource#getRelatingResource
      * @model opposite="RelatingResource" unsettable="true"
+     *        annotation="inverse"
      * @generated
      */
     EList<IfcRelAssignsToResource> getResourceOf();

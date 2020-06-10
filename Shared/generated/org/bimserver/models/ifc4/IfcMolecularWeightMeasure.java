@@ -30,7 +30,7 @@ package org.bimserver.models.ifc4;
  * </ul>
  *
  * @see org.bimserver.models.ifc4.Ifc4Package#getIfcMolecularWeightMeasure()
- * @model
+ * @model annotation="wrapped"
  * @generated
  */
 public interface IfcMolecularWeightMeasure extends IfcDerivedMeasureValue {
@@ -101,6 +101,8 @@ public interface IfcMolecularWeightMeasure extends IfcDerivedMeasureValue {
      * @see #setWrappedValueAsString(String)
      * @see org.bimserver.models.ifc4.Ifc4Package#getIfcMolecularWeightMeasure_WrappedValueAsString()
      * @model unsettable="true"
+     *        annotation="asstring"
+     *        annotation="hidden"
      * @generated
      */
     String getWrappedValueAsString();

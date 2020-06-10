@@ -74,6 +74,7 @@ public class IfcCoordinatedUniversalTimeOffsetImpl extends IdEObjectImpl impleme
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public long getHourOffset() {
         return (Long) eGet(Ifc2x3tc1Package.Literals.IFC_COORDINATED_UNIVERSAL_TIME_OFFSET__HOUR_OFFSET, true);
     }
@@ -83,6 +84,7 @@ public class IfcCoordinatedUniversalTimeOffsetImpl extends IdEObjectImpl impleme
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setHourOffset(long newHourOffset) {
         eSet(Ifc2x3tc1Package.Literals.IFC_COORDINATED_UNIVERSAL_TIME_OFFSET__HOUR_OFFSET, newHourOffset);
     }
@@ -92,6 +94,7 @@ public class IfcCoordinatedUniversalTimeOffsetImpl extends IdEObjectImpl impleme
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public long getMinuteOffset() {
         return (Long) eGet(Ifc2x3tc1Package.Literals.IFC_COORDINATED_UNIVERSAL_TIME_OFFSET__MINUTE_OFFSET, true);
     }
@@ -101,6 +104,7 @@ public class IfcCoordinatedUniversalTimeOffsetImpl extends IdEObjectImpl impleme
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setMinuteOffset(long newMinuteOffset) {
         eSet(Ifc2x3tc1Package.Literals.IFC_COORDINATED_UNIVERSAL_TIME_OFFSET__MINUTE_OFFSET, newMinuteOffset);
     }
@@ -110,6 +114,7 @@ public class IfcCoordinatedUniversalTimeOffsetImpl extends IdEObjectImpl impleme
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void unsetMinuteOffset() {
         eUnset(Ifc2x3tc1Package.Literals.IFC_COORDINATED_UNIVERSAL_TIME_OFFSET__MINUTE_OFFSET);
     }
@@ -119,6 +124,7 @@ public class IfcCoordinatedUniversalTimeOffsetImpl extends IdEObjectImpl impleme
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public boolean isSetMinuteOffset() {
         return eIsSet(Ifc2x3tc1Package.Literals.IFC_COORDINATED_UNIVERSAL_TIME_OFFSET__MINUTE_OFFSET);
     }
@@ -128,6 +134,7 @@ public class IfcCoordinatedUniversalTimeOffsetImpl extends IdEObjectImpl impleme
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public IfcAheadOrBehind getSense() {
         return (IfcAheadOrBehind) eGet(Ifc2x3tc1Package.Literals.IFC_COORDINATED_UNIVERSAL_TIME_OFFSET__SENSE, true);
     }
@@ -137,6 +144,7 @@ public class IfcCoordinatedUniversalTimeOffsetImpl extends IdEObjectImpl impleme
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setSense(IfcAheadOrBehind newSense) {
         eSet(Ifc2x3tc1Package.Literals.IFC_COORDINATED_UNIVERSAL_TIME_OFFSET__SENSE, newSense);
     }

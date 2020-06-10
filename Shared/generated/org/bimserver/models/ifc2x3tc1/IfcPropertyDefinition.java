@@ -49,6 +49,7 @@ public interface IfcPropertyDefinition extends IfcRoot {
      * @see #unsetHasAssociations()
      * @see org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package#getIfcPropertyDefinition_HasAssociations()
      * @model unsettable="true"
+     *        annotation="inverse"
      * @generated
      */
     EList<IfcRelAssociates> getHasAssociations();

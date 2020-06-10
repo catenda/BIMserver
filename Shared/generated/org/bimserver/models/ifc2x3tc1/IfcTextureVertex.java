@@ -67,6 +67,8 @@ public interface IfcTextureVertex extends IdEObject {
      * @return the value of the '<em>Coordinates As String</em>' attribute list.
      * @see org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package#getIfcTextureVertex_CoordinatesAsString()
      * @model unique="false"
+     *        annotation="asstring"
+     *        annotation="hidden"
      * @generated
      */
     EList<String> getCoordinatesAsString();

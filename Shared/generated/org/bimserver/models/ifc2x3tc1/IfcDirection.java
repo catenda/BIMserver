@@ -65,6 +65,8 @@ public interface IfcDirection extends IfcGeometricRepresentationItem, IfcOrienta
      * @return the value of the '<em>Direction Ratios As String</em>' attribute list.
      * @see org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package#getIfcDirection_DirectionRatiosAsString()
      * @model unique="false"
+     *        annotation="hidden"
+     *        annotation="asstring"
      * @generated
      */
     EList<String> getDirectionRatiosAsString();
@@ -83,6 +85,7 @@ public interface IfcDirection extends IfcGeometricRepresentationItem, IfcOrienta
      * @see #setDim(long)
      * @see org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package#getIfcDirection_Dim()
      * @model unsettable="true" derived="true"
+     *        annotation="derived"
      * @generated
      */
     long getDim();

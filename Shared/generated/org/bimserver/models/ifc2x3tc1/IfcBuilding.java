@@ -104,6 +104,8 @@ public interface IfcBuilding extends IfcSpatialStructureElement {
      * @see #setElevationOfRefHeightAsString(String)
      * @see org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package#getIfcBuilding_ElevationOfRefHeightAsString()
      * @model unsettable="true"
+     *        annotation="asstring"
+     *        annotation="hidden"
      * @generated
      */
     String getElevationOfRefHeightAsString();
@@ -210,6 +212,8 @@ public interface IfcBuilding extends IfcSpatialStructureElement {
      * @see #setElevationOfTerrainAsString(String)
      * @see org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package#getIfcBuilding_ElevationOfTerrainAsString()
      * @model unsettable="true"
+     *        annotation="asstring"
+     *        annotation="hidden"
      * @generated
      */
     String getElevationOfTerrainAsString();

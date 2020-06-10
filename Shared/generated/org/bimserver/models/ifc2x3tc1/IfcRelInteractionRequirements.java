@@ -106,6 +106,8 @@ public interface IfcRelInteractionRequirements extends IfcRelConnects {
      * @see #setDailyInteractionAsString(String)
      * @see org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package#getIfcRelInteractionRequirements_DailyInteractionAsString()
      * @model unsettable="true"
+     *        annotation="asstring"
+     *        annotation="hidden"
      * @generated
      */
     String getDailyInteractionAsString();
@@ -212,6 +214,8 @@ public interface IfcRelInteractionRequirements extends IfcRelConnects {
      * @see #setImportanceRatingAsString(String)
      * @see org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package#getIfcRelInteractionRequirements_ImportanceRatingAsString()
      * @model unsettable="true"
+     *        annotation="asstring"
+     *        annotation="hidden"
      * @generated
      */
     String getImportanceRatingAsString();
@@ -318,6 +322,7 @@ public interface IfcRelInteractionRequirements extends IfcRelConnects {
      * @see org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package#getIfcRelInteractionRequirements_RelatedSpaceProgram()
      * @see org.bimserver.models.ifc2x3tc1.IfcSpaceProgram#getHasInteractionReqsFrom
      * @model opposite="HasInteractionReqsFrom"
+     *        annotation="inverse"
      * @generated
      */
     IfcSpaceProgram getRelatedSpaceProgram();
@@ -346,6 +351,7 @@ public interface IfcRelInteractionRequirements extends IfcRelConnects {
      * @see org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package#getIfcRelInteractionRequirements_RelatingSpaceProgram()
      * @see org.bimserver.models.ifc2x3tc1.IfcSpaceProgram#getHasInteractionReqsTo
      * @model opposite="HasInteractionReqsTo"
+     *        annotation="inverse"
      * @generated
      */
     IfcSpaceProgram getRelatingSpaceProgram();

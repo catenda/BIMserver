@@ -60,6 +60,7 @@ public class IfcGroupImpl extends IfcObjectImpl implements IfcGroup {
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public IfcRelAssignsToGroup getIsGroupedBy() {
         return (IfcRelAssignsToGroup) eGet(Ifc2x3tc1Package.Literals.IFC_GROUP__IS_GROUPED_BY, true);
     }
@@ -69,6 +70,7 @@ public class IfcGroupImpl extends IfcObjectImpl implements IfcGroup {
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setIsGroupedBy(IfcRelAssignsToGroup newIsGroupedBy) {
         eSet(Ifc2x3tc1Package.Literals.IFC_GROUP__IS_GROUPED_BY, newIsGroupedBy);
     }
@@ -78,6 +80,7 @@ public class IfcGroupImpl extends IfcObjectImpl implements IfcGroup {
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void unsetIsGroupedBy() {
         eUnset(Ifc2x3tc1Package.Literals.IFC_GROUP__IS_GROUPED_BY);
     }
@@ -87,6 +90,7 @@ public class IfcGroupImpl extends IfcObjectImpl implements IfcGroup {
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public boolean isSetIsGroupedBy() {
         return eIsSet(Ifc2x3tc1Package.Literals.IFC_GROUP__IS_GROUPED_BY);
     }

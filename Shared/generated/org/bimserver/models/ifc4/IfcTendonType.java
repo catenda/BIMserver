@@ -135,6 +135,8 @@ public interface IfcTendonType extends IfcReinforcingElementType {
      * @see #setNominalDiameterAsString(String)
      * @see org.bimserver.models.ifc4.Ifc4Package#getIfcTendonType_NominalDiameterAsString()
      * @model unsettable="true"
+     *        annotation="asstring"
+     *        annotation="hidden"
      * @generated
      */
     String getNominalDiameterAsString();
@@ -241,6 +243,8 @@ public interface IfcTendonType extends IfcReinforcingElementType {
      * @see #setCrossSectionAreaAsString(String)
      * @see org.bimserver.models.ifc4.Ifc4Package#getIfcTendonType_CrossSectionAreaAsString()
      * @model unsettable="true"
+     *        annotation="asstring"
+     *        annotation="hidden"
      * @generated
      */
     String getCrossSectionAreaAsString();
@@ -347,6 +351,8 @@ public interface IfcTendonType extends IfcReinforcingElementType {
      * @see #setSheathDiameterAsString(String)
      * @see org.bimserver.models.ifc4.Ifc4Package#getIfcTendonType_SheathDiameterAsString()
      * @model unsettable="true"
+     *        annotation="asstring"
+     *        annotation="hidden"
      * @generated
      */
     String getSheathDiameterAsString();

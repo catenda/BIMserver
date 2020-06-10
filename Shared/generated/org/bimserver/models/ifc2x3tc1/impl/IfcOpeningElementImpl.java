@@ -63,6 +63,7 @@ public class IfcOpeningElementImpl extends IfcFeatureElementSubtractionImpl impl
      * @generated
      */
     @SuppressWarnings("unchecked")
+    @Override
     public EList<IfcRelFillsElement> getHasFillings() {
         return (EList<IfcRelFillsElement>) eGet(Ifc2x3tc1Package.Literals.IFC_OPENING_ELEMENT__HAS_FILLINGS, true);
     }
@@ -72,6 +73,7 @@ public class IfcOpeningElementImpl extends IfcFeatureElementSubtractionImpl impl
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void unsetHasFillings() {
         eUnset(Ifc2x3tc1Package.Literals.IFC_OPENING_ELEMENT__HAS_FILLINGS);
     }
@@ -81,6 +83,7 @@ public class IfcOpeningElementImpl extends IfcFeatureElementSubtractionImpl impl
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public boolean isSetHasFillings() {
         return eIsSet(Ifc2x3tc1Package.Literals.IFC_OPENING_ELEMENT__HAS_FILLINGS);
     }

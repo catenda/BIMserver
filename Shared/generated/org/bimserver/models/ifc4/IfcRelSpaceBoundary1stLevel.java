@@ -52,6 +52,7 @@ public interface IfcRelSpaceBoundary1stLevel extends IfcRelSpaceBoundary {
      * @see org.bimserver.models.ifc4.Ifc4Package#getIfcRelSpaceBoundary1stLevel_ParentBoundary()
      * @see org.bimserver.models.ifc4.IfcRelSpaceBoundary1stLevel#getInnerBoundaries
      * @model opposite="InnerBoundaries" unsettable="true"
+     *        annotation="inverse"
      * @generated
      */
     IfcRelSpaceBoundary1stLevel getParentBoundary();
@@ -107,6 +108,7 @@ public interface IfcRelSpaceBoundary1stLevel extends IfcRelSpaceBoundary {
      * @see org.bimserver.models.ifc4.Ifc4Package#getIfcRelSpaceBoundary1stLevel_InnerBoundaries()
      * @see org.bimserver.models.ifc4.IfcRelSpaceBoundary1stLevel#getParentBoundary
      * @model opposite="ParentBoundary" unsettable="true"
+     *        annotation="inverse"
      * @generated
      */
     EList<IfcRelSpaceBoundary1stLevel> getInnerBoundaries();

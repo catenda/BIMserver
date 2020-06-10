@@ -60,6 +60,7 @@ public class IfcRelAssignsToProductImpl extends IfcRelAssignsImpl implements Ifc
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public IfcProductSelect getRelatingProduct() {
         return (IfcProductSelect) eGet(Ifc4Package.Literals.IFC_REL_ASSIGNS_TO_PRODUCT__RELATING_PRODUCT, true);
     }
@@ -69,6 +70,7 @@ public class IfcRelAssignsToProductImpl extends IfcRelAssignsImpl implements Ifc
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setRelatingProduct(IfcProductSelect newRelatingProduct) {
         eSet(Ifc4Package.Literals.IFC_REL_ASSIGNS_TO_PRODUCT__RELATING_PRODUCT, newRelatingProduct);
     }

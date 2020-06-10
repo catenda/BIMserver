@@ -101,6 +101,8 @@ public interface IfcEdgeFeature extends IfcFeatureElementSubtraction {
      * @see #setFeatureLengthAsString(String)
      * @see org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package#getIfcEdgeFeature_FeatureLengthAsString()
      * @model unsettable="true"
+     *        annotation="asstring"
+     *        annotation="hidden"
      * @generated
      */
     String getFeatureLengthAsString();

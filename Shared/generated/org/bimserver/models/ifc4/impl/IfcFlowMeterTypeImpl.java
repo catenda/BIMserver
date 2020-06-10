@@ -60,6 +60,7 @@ public class IfcFlowMeterTypeImpl extends IfcFlowControllerTypeImpl implements I
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public IfcFlowMeterTypeEnum getPredefinedType() {
         return (IfcFlowMeterTypeEnum) eGet(Ifc4Package.Literals.IFC_FLOW_METER_TYPE__PREDEFINED_TYPE, true);
     }
@@ -69,6 +70,7 @@ public class IfcFlowMeterTypeImpl extends IfcFlowControllerTypeImpl implements I
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setPredefinedType(IfcFlowMeterTypeEnum newPredefinedType) {
         eSet(Ifc4Package.Literals.IFC_FLOW_METER_TYPE__PREDEFINED_TYPE, newPredefinedType);
     }

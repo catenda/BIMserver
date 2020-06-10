@@ -64,6 +64,8 @@ public interface IfcRationalBezierCurve extends IfcBezierCurve {
      * @return the value of the '<em>Weights Data As String</em>' attribute list.
      * @see org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package#getIfcRationalBezierCurve_WeightsDataAsString()
      * @model unique="false"
+     *        annotation="hidden"
+     *        annotation="asstring"
      * @generated
      */
     EList<String> getWeightsDataAsString();

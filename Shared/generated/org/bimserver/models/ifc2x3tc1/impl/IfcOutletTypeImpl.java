@@ -60,6 +60,7 @@ public class IfcOutletTypeImpl extends IfcFlowTerminalTypeImpl implements IfcOut
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public IfcOutletTypeEnum getPredefinedType() {
         return (IfcOutletTypeEnum) eGet(Ifc2x3tc1Package.Literals.IFC_OUTLET_TYPE__PREDEFINED_TYPE, true);
     }
@@ -69,6 +70,7 @@ public class IfcOutletTypeImpl extends IfcFlowTerminalTypeImpl implements IfcOut
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setPredefinedType(IfcOutletTypeEnum newPredefinedType) {
         eSet(Ifc2x3tc1Package.Literals.IFC_OUTLET_TYPE__PREDEFINED_TYPE, newPredefinedType);
     }

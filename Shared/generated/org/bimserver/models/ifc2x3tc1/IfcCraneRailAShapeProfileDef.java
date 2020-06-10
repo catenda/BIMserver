@@ -93,7 +93,8 @@ public interface IfcCraneRailAShapeProfileDef extends IfcParameterizedProfileDef
      * @return the value of the '<em>Overall Height As String</em>' attribute.
      * @see #setOverallHeightAsString(String)
      * @see org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package#getIfcCraneRailAShapeProfileDef_OverallHeightAsString()
-     * @model
+     * @model annotation="asstring"
+     *        annotation="hidden"
      * @generated
      */
     String getOverallHeightAsString();
@@ -145,7 +146,8 @@ public interface IfcCraneRailAShapeProfileDef extends IfcParameterizedProfileDef
      * @return the value of the '<em>Base Width2 As String</em>' attribute.
      * @see #setBaseWidth2AsString(String)
      * @see org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package#getIfcCraneRailAShapeProfileDef_BaseWidth2AsString()
-     * @model
+     * @model annotation="asstring"
+     *        annotation="hidden"
      * @generated
      */
     String getBaseWidth2AsString();
@@ -227,6 +229,8 @@ public interface IfcCraneRailAShapeProfileDef extends IfcParameterizedProfileDef
      * @see #setRadiusAsString(String)
      * @see org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package#getIfcCraneRailAShapeProfileDef_RadiusAsString()
      * @model unsettable="true"
+     *        annotation="asstring"
+     *        annotation="hidden"
      * @generated
      */
     String getRadiusAsString();
@@ -303,7 +307,8 @@ public interface IfcCraneRailAShapeProfileDef extends IfcParameterizedProfileDef
      * @return the value of the '<em>Head Width As String</em>' attribute.
      * @see #setHeadWidthAsString(String)
      * @see org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package#getIfcCraneRailAShapeProfileDef_HeadWidthAsString()
-     * @model
+     * @model annotation="asstring"
+     *        annotation="hidden"
      * @generated
      */
     String getHeadWidthAsString();
@@ -355,7 +360,8 @@ public interface IfcCraneRailAShapeProfileDef extends IfcParameterizedProfileDef
      * @return the value of the '<em>Head Depth2 As String</em>' attribute.
      * @see #setHeadDepth2AsString(String)
      * @see org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package#getIfcCraneRailAShapeProfileDef_HeadDepth2AsString()
-     * @model
+     * @model annotation="asstring"
+     *        annotation="hidden"
      * @generated
      */
     String getHeadDepth2AsString();
@@ -407,7 +413,8 @@ public interface IfcCraneRailAShapeProfileDef extends IfcParameterizedProfileDef
      * @return the value of the '<em>Head Depth3 As String</em>' attribute.
      * @see #setHeadDepth3AsString(String)
      * @see org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package#getIfcCraneRailAShapeProfileDef_HeadDepth3AsString()
-     * @model
+     * @model annotation="asstring"
+     *        annotation="hidden"
      * @generated
      */
     String getHeadDepth3AsString();
@@ -459,7 +466,8 @@ public interface IfcCraneRailAShapeProfileDef extends IfcParameterizedProfileDef
      * @return the value of the '<em>Web Thickness As String</em>' attribute.
      * @see #setWebThicknessAsString(String)
      * @see org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package#getIfcCraneRailAShapeProfileDef_WebThicknessAsString()
-     * @model
+     * @model annotation="asstring"
+     *        annotation="hidden"
      * @generated
      */
     String getWebThicknessAsString();
@@ -511,7 +519,8 @@ public interface IfcCraneRailAShapeProfileDef extends IfcParameterizedProfileDef
      * @return the value of the '<em>Base Width4 As String</em>' attribute.
      * @see #setBaseWidth4AsString(String)
      * @see org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package#getIfcCraneRailAShapeProfileDef_BaseWidth4AsString()
-     * @model
+     * @model annotation="asstring"
+     *        annotation="hidden"
      * @generated
      */
     String getBaseWidth4AsString();
@@ -563,7 +572,8 @@ public interface IfcCraneRailAShapeProfileDef extends IfcParameterizedProfileDef
      * @return the value of the '<em>Base Depth1 As String</em>' attribute.
      * @see #setBaseDepth1AsString(String)
      * @see org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package#getIfcCraneRailAShapeProfileDef_BaseDepth1AsString()
-     * @model
+     * @model annotation="asstring"
+     *        annotation="hidden"
      * @generated
      */
     String getBaseDepth1AsString();
@@ -615,7 +625,8 @@ public interface IfcCraneRailAShapeProfileDef extends IfcParameterizedProfileDef
      * @return the value of the '<em>Base Depth2 As String</em>' attribute.
      * @see #setBaseDepth2AsString(String)
      * @see org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package#getIfcCraneRailAShapeProfileDef_BaseDepth2AsString()
-     * @model
+     * @model annotation="asstring"
+     *        annotation="hidden"
      * @generated
      */
     String getBaseDepth2AsString();
@@ -667,7 +678,8 @@ public interface IfcCraneRailAShapeProfileDef extends IfcParameterizedProfileDef
      * @return the value of the '<em>Base Depth3 As String</em>' attribute.
      * @see #setBaseDepth3AsString(String)
      * @see org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package#getIfcCraneRailAShapeProfileDef_BaseDepth3AsString()
-     * @model
+     * @model annotation="asstring"
+     *        annotation="hidden"
      * @generated
      */
     String getBaseDepth3AsString();
@@ -749,6 +761,8 @@ public interface IfcCraneRailAShapeProfileDef extends IfcParameterizedProfileDef
      * @see #setCentreOfGravityInYAsString(String)
      * @see org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package#getIfcCraneRailAShapeProfileDef_CentreOfGravityInYAsString()
      * @model unsettable="true"
+     *        annotation="asstring"
+     *        annotation="hidden"
      * @generated
      */
     String getCentreOfGravityInYAsString();

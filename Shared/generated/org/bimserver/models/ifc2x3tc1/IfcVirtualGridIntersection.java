@@ -54,6 +54,7 @@ public interface IfcVirtualGridIntersection extends IdEObject {
      * @see org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package#getIfcVirtualGridIntersection_IntersectingAxes()
      * @see org.bimserver.models.ifc2x3tc1.IfcGridAxis#getHasIntersections
      * @model opposite="HasIntersections"
+     *        annotation="inverse"
      * @generated
      */
     EList<IfcGridAxis> getIntersectingAxes();
@@ -86,6 +87,8 @@ public interface IfcVirtualGridIntersection extends IdEObject {
      * @return the value of the '<em>Offset Distances As String</em>' attribute list.
      * @see org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package#getIfcVirtualGridIntersection_OffsetDistancesAsString()
      * @model unique="false"
+     *        annotation="asstring"
+     *        annotation="hidden"
      * @generated
      */
     EList<String> getOffsetDistancesAsString();

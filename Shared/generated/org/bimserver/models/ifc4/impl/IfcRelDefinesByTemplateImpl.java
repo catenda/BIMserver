@@ -65,6 +65,7 @@ public class IfcRelDefinesByTemplateImpl extends IfcRelDefinesImpl implements If
      * @generated
      */
     @SuppressWarnings("unchecked")
+    @Override
     public EList<IfcPropertySetDefinition> getRelatedPropertySets() {
         return (EList<IfcPropertySetDefinition>) eGet(
                 Ifc4Package.Literals.IFC_REL_DEFINES_BY_TEMPLATE__RELATED_PROPERTY_SETS, true);
@@ -75,6 +76,7 @@ public class IfcRelDefinesByTemplateImpl extends IfcRelDefinesImpl implements If
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public IfcPropertySetTemplate getRelatingTemplate() {
         return (IfcPropertySetTemplate) eGet(Ifc4Package.Literals.IFC_REL_DEFINES_BY_TEMPLATE__RELATING_TEMPLATE, true);
     }
@@ -84,6 +86,7 @@ public class IfcRelDefinesByTemplateImpl extends IfcRelDefinesImpl implements If
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setRelatingTemplate(IfcPropertySetTemplate newRelatingTemplate) {
         eSet(Ifc4Package.Literals.IFC_REL_DEFINES_BY_TEMPLATE__RELATING_TEMPLATE, newRelatingTemplate);
     }

@@ -87,6 +87,7 @@ public class IfcDocumentInformationImpl extends IfcExternalInformationImpl imple
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public String getIdentification() {
         return (String) eGet(Ifc4Package.Literals.IFC_DOCUMENT_INFORMATION__IDENTIFICATION, true);
     }
@@ -96,6 +97,7 @@ public class IfcDocumentInformationImpl extends IfcExternalInformationImpl imple
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setIdentification(String newIdentification) {
         eSet(Ifc4Package.Literals.IFC_DOCUMENT_INFORMATION__IDENTIFICATION, newIdentification);
     }
@@ -105,6 +107,7 @@ public class IfcDocumentInformationImpl extends IfcExternalInformationImpl imple
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public String getName() {
         return (String) eGet(Ifc4Package.Literals.IFC_DOCUMENT_INFORMATION__NAME, true);
     }
@@ -114,6 +117,7 @@ public class IfcDocumentInformationImpl extends IfcExternalInformationImpl imple
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setName(String newName) {
         eSet(Ifc4Package.Literals.IFC_DOCUMENT_INFORMATION__NAME, newName);
     }
@@ -123,6 +127,7 @@ public class IfcDocumentInformationImpl extends IfcExternalInformationImpl imple
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public String getDescription() {
         return (String) eGet(Ifc4Package.Literals.IFC_DOCUMENT_INFORMATION__DESCRIPTION, true);
     }
@@ -132,6 +137,7 @@ public class IfcDocumentInformationImpl extends IfcExternalInformationImpl imple
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setDescription(String newDescription) {
         eSet(Ifc4Package.Literals.IFC_DOCUMENT_INFORMATION__DESCRIPTION, newDescription);
     }
@@ -141,6 +147,7 @@ public class IfcDocumentInformationImpl extends IfcExternalInformationImpl imple
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void unsetDescription() {
         eUnset(Ifc4Package.Literals.IFC_DOCUMENT_INFORMATION__DESCRIPTION);
     }
@@ -150,6 +157,7 @@ public class IfcDocumentInformationImpl extends IfcExternalInformationImpl imple
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public boolean isSetDescription() {
         return eIsSet(Ifc4Package.Literals.IFC_DOCUMENT_INFORMATION__DESCRIPTION);
     }
@@ -159,6 +167,7 @@ public class IfcDocumentInformationImpl extends IfcExternalInformationImpl imple
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public String getLocation() {
         return (String) eGet(Ifc4Package.Literals.IFC_DOCUMENT_INFORMATION__LOCATION, true);
     }
@@ -168,6 +177,7 @@ public class IfcDocumentInformationImpl extends IfcExternalInformationImpl imple
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setLocation(String newLocation) {
         eSet(Ifc4Package.Literals.IFC_DOCUMENT_INFORMATION__LOCATION, newLocation);
     }
@@ -177,6 +187,7 @@ public class IfcDocumentInformationImpl extends IfcExternalInformationImpl imple
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void unsetLocation() {
         eUnset(Ifc4Package.Literals.IFC_DOCUMENT_INFORMATION__LOCATION);
     }
@@ -186,6 +197,7 @@ public class IfcDocumentInformationImpl extends IfcExternalInformationImpl imple
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public boolean isSetLocation() {
         return eIsSet(Ifc4Package.Literals.IFC_DOCUMENT_INFORMATION__LOCATION);
     }
@@ -195,6 +207,7 @@ public class IfcDocumentInformationImpl extends IfcExternalInformationImpl imple
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public String getPurpose() {
         return (String) eGet(Ifc4Package.Literals.IFC_DOCUMENT_INFORMATION__PURPOSE, true);
     }
@@ -204,6 +217,7 @@ public class IfcDocumentInformationImpl extends IfcExternalInformationImpl imple
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setPurpose(String newPurpose) {
         eSet(Ifc4Package.Literals.IFC_DOCUMENT_INFORMATION__PURPOSE, newPurpose);
     }
@@ -213,6 +227,7 @@ public class IfcDocumentInformationImpl extends IfcExternalInformationImpl imple
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void unsetPurpose() {
         eUnset(Ifc4Package.Literals.IFC_DOCUMENT_INFORMATION__PURPOSE);
     }
@@ -222,6 +237,7 @@ public class IfcDocumentInformationImpl extends IfcExternalInformationImpl imple
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public boolean isSetPurpose() {
         return eIsSet(Ifc4Package.Literals.IFC_DOCUMENT_INFORMATION__PURPOSE);
     }
@@ -231,6 +247,7 @@ public class IfcDocumentInformationImpl extends IfcExternalInformationImpl imple
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public String getIntendedUse() {
         return (String) eGet(Ifc4Package.Literals.IFC_DOCUMENT_INFORMATION__INTENDED_USE, true);
     }
@@ -240,6 +257,7 @@ public class IfcDocumentInformationImpl extends IfcExternalInformationImpl imple
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setIntendedUse(String newIntendedUse) {
         eSet(Ifc4Package.Literals.IFC_DOCUMENT_INFORMATION__INTENDED_USE, newIntendedUse);
     }
@@ -249,6 +267,7 @@ public class IfcDocumentInformationImpl extends IfcExternalInformationImpl imple
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void unsetIntendedUse() {
         eUnset(Ifc4Package.Literals.IFC_DOCUMENT_INFORMATION__INTENDED_USE);
     }
@@ -258,6 +277,7 @@ public class IfcDocumentInformationImpl extends IfcExternalInformationImpl imple
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public boolean isSetIntendedUse() {
         return eIsSet(Ifc4Package.Literals.IFC_DOCUMENT_INFORMATION__INTENDED_USE);
     }
@@ -267,6 +287,7 @@ public class IfcDocumentInformationImpl extends IfcExternalInformationImpl imple
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public String getScope() {
         return (String) eGet(Ifc4Package.Literals.IFC_DOCUMENT_INFORMATION__SCOPE, true);
     }
@@ -276,6 +297,7 @@ public class IfcDocumentInformationImpl extends IfcExternalInformationImpl imple
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setScope(String newScope) {
         eSet(Ifc4Package.Literals.IFC_DOCUMENT_INFORMATION__SCOPE, newScope);
     }
@@ -285,6 +307,7 @@ public class IfcDocumentInformationImpl extends IfcExternalInformationImpl imple
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void unsetScope() {
         eUnset(Ifc4Package.Literals.IFC_DOCUMENT_INFORMATION__SCOPE);
     }
@@ -294,6 +317,7 @@ public class IfcDocumentInformationImpl extends IfcExternalInformationImpl imple
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public boolean isSetScope() {
         return eIsSet(Ifc4Package.Literals.IFC_DOCUMENT_INFORMATION__SCOPE);
     }
@@ -303,6 +327,7 @@ public class IfcDocumentInformationImpl extends IfcExternalInformationImpl imple
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public String getRevision() {
         return (String) eGet(Ifc4Package.Literals.IFC_DOCUMENT_INFORMATION__REVISION, true);
     }
@@ -312,6 +337,7 @@ public class IfcDocumentInformationImpl extends IfcExternalInformationImpl imple
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setRevision(String newRevision) {
         eSet(Ifc4Package.Literals.IFC_DOCUMENT_INFORMATION__REVISION, newRevision);
     }
@@ -321,6 +347,7 @@ public class IfcDocumentInformationImpl extends IfcExternalInformationImpl imple
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void unsetRevision() {
         eUnset(Ifc4Package.Literals.IFC_DOCUMENT_INFORMATION__REVISION);
     }
@@ -330,6 +357,7 @@ public class IfcDocumentInformationImpl extends IfcExternalInformationImpl imple
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public boolean isSetRevision() {
         return eIsSet(Ifc4Package.Literals.IFC_DOCUMENT_INFORMATION__REVISION);
     }
@@ -339,6 +367,7 @@ public class IfcDocumentInformationImpl extends IfcExternalInformationImpl imple
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public IfcActorSelect getDocumentOwner() {
         return (IfcActorSelect) eGet(Ifc4Package.Literals.IFC_DOCUMENT_INFORMATION__DOCUMENT_OWNER, true);
     }
@@ -348,6 +377,7 @@ public class IfcDocumentInformationImpl extends IfcExternalInformationImpl imple
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setDocumentOwner(IfcActorSelect newDocumentOwner) {
         eSet(Ifc4Package.Literals.IFC_DOCUMENT_INFORMATION__DOCUMENT_OWNER, newDocumentOwner);
     }
@@ -357,6 +387,7 @@ public class IfcDocumentInformationImpl extends IfcExternalInformationImpl imple
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void unsetDocumentOwner() {
         eUnset(Ifc4Package.Literals.IFC_DOCUMENT_INFORMATION__DOCUMENT_OWNER);
     }
@@ -366,6 +397,7 @@ public class IfcDocumentInformationImpl extends IfcExternalInformationImpl imple
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public boolean isSetDocumentOwner() {
         return eIsSet(Ifc4Package.Literals.IFC_DOCUMENT_INFORMATION__DOCUMENT_OWNER);
     }
@@ -376,6 +408,7 @@ public class IfcDocumentInformationImpl extends IfcExternalInformationImpl imple
      * @generated
      */
     @SuppressWarnings("unchecked")
+    @Override
     public EList<IfcActorSelect> getEditors() {
         return (EList<IfcActorSelect>) eGet(Ifc4Package.Literals.IFC_DOCUMENT_INFORMATION__EDITORS, true);
     }
@@ -385,6 +418,7 @@ public class IfcDocumentInformationImpl extends IfcExternalInformationImpl imple
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void unsetEditors() {
         eUnset(Ifc4Package.Literals.IFC_DOCUMENT_INFORMATION__EDITORS);
     }
@@ -394,6 +428,7 @@ public class IfcDocumentInformationImpl extends IfcExternalInformationImpl imple
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public boolean isSetEditors() {
         return eIsSet(Ifc4Package.Literals.IFC_DOCUMENT_INFORMATION__EDITORS);
     }
@@ -403,6 +438,7 @@ public class IfcDocumentInformationImpl extends IfcExternalInformationImpl imple
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public String getCreationTime() {
         return (String) eGet(Ifc4Package.Literals.IFC_DOCUMENT_INFORMATION__CREATION_TIME, true);
     }
@@ -412,6 +448,7 @@ public class IfcDocumentInformationImpl extends IfcExternalInformationImpl imple
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setCreationTime(String newCreationTime) {
         eSet(Ifc4Package.Literals.IFC_DOCUMENT_INFORMATION__CREATION_TIME, newCreationTime);
     }
@@ -421,6 +458,7 @@ public class IfcDocumentInformationImpl extends IfcExternalInformationImpl imple
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void unsetCreationTime() {
         eUnset(Ifc4Package.Literals.IFC_DOCUMENT_INFORMATION__CREATION_TIME);
     }
@@ -430,6 +468,7 @@ public class IfcDocumentInformationImpl extends IfcExternalInformationImpl imple
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public boolean isSetCreationTime() {
         return eIsSet(Ifc4Package.Literals.IFC_DOCUMENT_INFORMATION__CREATION_TIME);
     }
@@ -439,6 +478,7 @@ public class IfcDocumentInformationImpl extends IfcExternalInformationImpl imple
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public String getLastRevisionTime() {
         return (String) eGet(Ifc4Package.Literals.IFC_DOCUMENT_INFORMATION__LAST_REVISION_TIME, true);
     }
@@ -448,6 +488,7 @@ public class IfcDocumentInformationImpl extends IfcExternalInformationImpl imple
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setLastRevisionTime(String newLastRevisionTime) {
         eSet(Ifc4Package.Literals.IFC_DOCUMENT_INFORMATION__LAST_REVISION_TIME, newLastRevisionTime);
     }
@@ -457,6 +498,7 @@ public class IfcDocumentInformationImpl extends IfcExternalInformationImpl imple
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void unsetLastRevisionTime() {
         eUnset(Ifc4Package.Literals.IFC_DOCUMENT_INFORMATION__LAST_REVISION_TIME);
     }
@@ -466,6 +508,7 @@ public class IfcDocumentInformationImpl extends IfcExternalInformationImpl imple
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public boolean isSetLastRevisionTime() {
         return eIsSet(Ifc4Package.Literals.IFC_DOCUMENT_INFORMATION__LAST_REVISION_TIME);
     }
@@ -475,6 +518,7 @@ public class IfcDocumentInformationImpl extends IfcExternalInformationImpl imple
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public String getElectronicFormat() {
         return (String) eGet(Ifc4Package.Literals.IFC_DOCUMENT_INFORMATION__ELECTRONIC_FORMAT, true);
     }
@@ -484,6 +528,7 @@ public class IfcDocumentInformationImpl extends IfcExternalInformationImpl imple
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setElectronicFormat(String newElectronicFormat) {
         eSet(Ifc4Package.Literals.IFC_DOCUMENT_INFORMATION__ELECTRONIC_FORMAT, newElectronicFormat);
     }
@@ -493,6 +538,7 @@ public class IfcDocumentInformationImpl extends IfcExternalInformationImpl imple
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void unsetElectronicFormat() {
         eUnset(Ifc4Package.Literals.IFC_DOCUMENT_INFORMATION__ELECTRONIC_FORMAT);
     }
@@ -502,6 +548,7 @@ public class IfcDocumentInformationImpl extends IfcExternalInformationImpl imple
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public boolean isSetElectronicFormat() {
         return eIsSet(Ifc4Package.Literals.IFC_DOCUMENT_INFORMATION__ELECTRONIC_FORMAT);
     }
@@ -511,6 +558,7 @@ public class IfcDocumentInformationImpl extends IfcExternalInformationImpl imple
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public String getValidFrom() {
         return (String) eGet(Ifc4Package.Literals.IFC_DOCUMENT_INFORMATION__VALID_FROM, true);
     }
@@ -520,6 +568,7 @@ public class IfcDocumentInformationImpl extends IfcExternalInformationImpl imple
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setValidFrom(String newValidFrom) {
         eSet(Ifc4Package.Literals.IFC_DOCUMENT_INFORMATION__VALID_FROM, newValidFrom);
     }
@@ -529,6 +578,7 @@ public class IfcDocumentInformationImpl extends IfcExternalInformationImpl imple
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void unsetValidFrom() {
         eUnset(Ifc4Package.Literals.IFC_DOCUMENT_INFORMATION__VALID_FROM);
     }
@@ -538,6 +588,7 @@ public class IfcDocumentInformationImpl extends IfcExternalInformationImpl imple
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public boolean isSetValidFrom() {
         return eIsSet(Ifc4Package.Literals.IFC_DOCUMENT_INFORMATION__VALID_FROM);
     }
@@ -547,6 +598,7 @@ public class IfcDocumentInformationImpl extends IfcExternalInformationImpl imple
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public String getValidUntil() {
         return (String) eGet(Ifc4Package.Literals.IFC_DOCUMENT_INFORMATION__VALID_UNTIL, true);
     }
@@ -556,6 +608,7 @@ public class IfcDocumentInformationImpl extends IfcExternalInformationImpl imple
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setValidUntil(String newValidUntil) {
         eSet(Ifc4Package.Literals.IFC_DOCUMENT_INFORMATION__VALID_UNTIL, newValidUntil);
     }
@@ -565,6 +618,7 @@ public class IfcDocumentInformationImpl extends IfcExternalInformationImpl imple
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void unsetValidUntil() {
         eUnset(Ifc4Package.Literals.IFC_DOCUMENT_INFORMATION__VALID_UNTIL);
     }
@@ -574,6 +628,7 @@ public class IfcDocumentInformationImpl extends IfcExternalInformationImpl imple
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public boolean isSetValidUntil() {
         return eIsSet(Ifc4Package.Literals.IFC_DOCUMENT_INFORMATION__VALID_UNTIL);
     }
@@ -583,6 +638,7 @@ public class IfcDocumentInformationImpl extends IfcExternalInformationImpl imple
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public IfcDocumentConfidentialityEnum getConfidentiality() {
         return (IfcDocumentConfidentialityEnum) eGet(Ifc4Package.Literals.IFC_DOCUMENT_INFORMATION__CONFIDENTIALITY,
                 true);
@@ -593,6 +649,7 @@ public class IfcDocumentInformationImpl extends IfcExternalInformationImpl imple
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setConfidentiality(IfcDocumentConfidentialityEnum newConfidentiality) {
         eSet(Ifc4Package.Literals.IFC_DOCUMENT_INFORMATION__CONFIDENTIALITY, newConfidentiality);
     }
@@ -602,6 +659,7 @@ public class IfcDocumentInformationImpl extends IfcExternalInformationImpl imple
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void unsetConfidentiality() {
         eUnset(Ifc4Package.Literals.IFC_DOCUMENT_INFORMATION__CONFIDENTIALITY);
     }
@@ -611,6 +669,7 @@ public class IfcDocumentInformationImpl extends IfcExternalInformationImpl imple
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public boolean isSetConfidentiality() {
         return eIsSet(Ifc4Package.Literals.IFC_DOCUMENT_INFORMATION__CONFIDENTIALITY);
     }
@@ -620,6 +679,7 @@ public class IfcDocumentInformationImpl extends IfcExternalInformationImpl imple
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public IfcDocumentStatusEnum getStatus() {
         return (IfcDocumentStatusEnum) eGet(Ifc4Package.Literals.IFC_DOCUMENT_INFORMATION__STATUS, true);
     }
@@ -629,6 +689,7 @@ public class IfcDocumentInformationImpl extends IfcExternalInformationImpl imple
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setStatus(IfcDocumentStatusEnum newStatus) {
         eSet(Ifc4Package.Literals.IFC_DOCUMENT_INFORMATION__STATUS, newStatus);
     }
@@ -638,6 +699,7 @@ public class IfcDocumentInformationImpl extends IfcExternalInformationImpl imple
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void unsetStatus() {
         eUnset(Ifc4Package.Literals.IFC_DOCUMENT_INFORMATION__STATUS);
     }
@@ -647,6 +709,7 @@ public class IfcDocumentInformationImpl extends IfcExternalInformationImpl imple
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public boolean isSetStatus() {
         return eIsSet(Ifc4Package.Literals.IFC_DOCUMENT_INFORMATION__STATUS);
     }
@@ -657,6 +720,7 @@ public class IfcDocumentInformationImpl extends IfcExternalInformationImpl imple
      * @generated
      */
     @SuppressWarnings("unchecked")
+    @Override
     public EList<IfcRelAssociatesDocument> getDocumentInfoForObjects() {
         return (EList<IfcRelAssociatesDocument>) eGet(
                 Ifc4Package.Literals.IFC_DOCUMENT_INFORMATION__DOCUMENT_INFO_FOR_OBJECTS, true);
@@ -667,6 +731,7 @@ public class IfcDocumentInformationImpl extends IfcExternalInformationImpl imple
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void unsetDocumentInfoForObjects() {
         eUnset(Ifc4Package.Literals.IFC_DOCUMENT_INFORMATION__DOCUMENT_INFO_FOR_OBJECTS);
     }
@@ -676,6 +741,7 @@ public class IfcDocumentInformationImpl extends IfcExternalInformationImpl imple
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public boolean isSetDocumentInfoForObjects() {
         return eIsSet(Ifc4Package.Literals.IFC_DOCUMENT_INFORMATION__DOCUMENT_INFO_FOR_OBJECTS);
     }
@@ -686,6 +752,7 @@ public class IfcDocumentInformationImpl extends IfcExternalInformationImpl imple
      * @generated
      */
     @SuppressWarnings("unchecked")
+    @Override
     public EList<IfcDocumentReference> getHasDocumentReferences() {
         return (EList<IfcDocumentReference>) eGet(
                 Ifc4Package.Literals.IFC_DOCUMENT_INFORMATION__HAS_DOCUMENT_REFERENCES, true);
@@ -696,6 +763,7 @@ public class IfcDocumentInformationImpl extends IfcExternalInformationImpl imple
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void unsetHasDocumentReferences() {
         eUnset(Ifc4Package.Literals.IFC_DOCUMENT_INFORMATION__HAS_DOCUMENT_REFERENCES);
     }
@@ -705,6 +773,7 @@ public class IfcDocumentInformationImpl extends IfcExternalInformationImpl imple
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public boolean isSetHasDocumentReferences() {
         return eIsSet(Ifc4Package.Literals.IFC_DOCUMENT_INFORMATION__HAS_DOCUMENT_REFERENCES);
     }
@@ -715,6 +784,7 @@ public class IfcDocumentInformationImpl extends IfcExternalInformationImpl imple
      * @generated
      */
     @SuppressWarnings("unchecked")
+    @Override
     public EList<IfcDocumentInformationRelationship> getIsPointedTo() {
         return (EList<IfcDocumentInformationRelationship>) eGet(
                 Ifc4Package.Literals.IFC_DOCUMENT_INFORMATION__IS_POINTED_TO, true);
@@ -725,6 +795,7 @@ public class IfcDocumentInformationImpl extends IfcExternalInformationImpl imple
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void unsetIsPointedTo() {
         eUnset(Ifc4Package.Literals.IFC_DOCUMENT_INFORMATION__IS_POINTED_TO);
     }
@@ -734,6 +805,7 @@ public class IfcDocumentInformationImpl extends IfcExternalInformationImpl imple
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public boolean isSetIsPointedTo() {
         return eIsSet(Ifc4Package.Literals.IFC_DOCUMENT_INFORMATION__IS_POINTED_TO);
     }
@@ -744,6 +816,7 @@ public class IfcDocumentInformationImpl extends IfcExternalInformationImpl imple
      * @generated
      */
     @SuppressWarnings("unchecked")
+    @Override
     public EList<IfcDocumentInformationRelationship> getIsPointer() {
         return (EList<IfcDocumentInformationRelationship>) eGet(
                 Ifc4Package.Literals.IFC_DOCUMENT_INFORMATION__IS_POINTER, true);
@@ -754,6 +827,7 @@ public class IfcDocumentInformationImpl extends IfcExternalInformationImpl imple
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void unsetIsPointer() {
         eUnset(Ifc4Package.Literals.IFC_DOCUMENT_INFORMATION__IS_POINTER);
     }
@@ -763,6 +837,7 @@ public class IfcDocumentInformationImpl extends IfcExternalInformationImpl imple
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public boolean isSetIsPointer() {
         return eIsSet(Ifc4Package.Literals.IFC_DOCUMENT_INFORMATION__IS_POINTER);
     }

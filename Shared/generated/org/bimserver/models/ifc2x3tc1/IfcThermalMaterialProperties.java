@@ -107,6 +107,8 @@ public interface IfcThermalMaterialProperties extends IfcMaterialProperties {
      * @see #setSpecificHeatCapacityAsString(String)
      * @see org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package#getIfcThermalMaterialProperties_SpecificHeatCapacityAsString()
      * @model unsettable="true"
+     *        annotation="asstring"
+     *        annotation="hidden"
      * @generated
      */
     String getSpecificHeatCapacityAsString();
@@ -213,6 +215,8 @@ public interface IfcThermalMaterialProperties extends IfcMaterialProperties {
      * @see #setBoilingPointAsString(String)
      * @see org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package#getIfcThermalMaterialProperties_BoilingPointAsString()
      * @model unsettable="true"
+     *        annotation="asstring"
+     *        annotation="hidden"
      * @generated
      */
     String getBoilingPointAsString();
@@ -319,6 +323,8 @@ public interface IfcThermalMaterialProperties extends IfcMaterialProperties {
      * @see #setFreezingPointAsString(String)
      * @see org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package#getIfcThermalMaterialProperties_FreezingPointAsString()
      * @model unsettable="true"
+     *        annotation="asstring"
+     *        annotation="hidden"
      * @generated
      */
     String getFreezingPointAsString();
@@ -425,6 +431,8 @@ public interface IfcThermalMaterialProperties extends IfcMaterialProperties {
      * @see #setThermalConductivityAsString(String)
      * @see org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package#getIfcThermalMaterialProperties_ThermalConductivityAsString()
      * @model unsettable="true"
+     *        annotation="asstring"
+     *        annotation="hidden"
      * @generated
      */
     String getThermalConductivityAsString();

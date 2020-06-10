@@ -107,7 +107,8 @@ public interface IfcRectangularTrimmedSurface extends IfcBoundedSurface {
      * @return the value of the '<em>U1 As String</em>' attribute.
      * @see #setU1AsString(String)
      * @see org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package#getIfcRectangularTrimmedSurface_U1AsString()
-     * @model
+     * @model annotation="asstring"
+     *        annotation="hidden"
      * @generated
      */
     String getU1AsString();
@@ -159,7 +160,8 @@ public interface IfcRectangularTrimmedSurface extends IfcBoundedSurface {
      * @return the value of the '<em>V1 As String</em>' attribute.
      * @see #setV1AsString(String)
      * @see org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package#getIfcRectangularTrimmedSurface_V1AsString()
-     * @model
+     * @model annotation="asstring"
+     *        annotation="hidden"
      * @generated
      */
     String getV1AsString();
@@ -211,7 +213,8 @@ public interface IfcRectangularTrimmedSurface extends IfcBoundedSurface {
      * @return the value of the '<em>U2 As String</em>' attribute.
      * @see #setU2AsString(String)
      * @see org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package#getIfcRectangularTrimmedSurface_U2AsString()
-     * @model
+     * @model annotation="asstring"
+     *        annotation="hidden"
      * @generated
      */
     String getU2AsString();
@@ -263,7 +266,8 @@ public interface IfcRectangularTrimmedSurface extends IfcBoundedSurface {
      * @return the value of the '<em>V2 As String</em>' attribute.
      * @see #setV2AsString(String)
      * @see org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package#getIfcRectangularTrimmedSurface_V2AsString()
-     * @model
+     * @model annotation="asstring"
+     *        annotation="hidden"
      * @generated
      */
     String getV2AsString();
@@ -350,6 +354,7 @@ public interface IfcRectangularTrimmedSurface extends IfcBoundedSurface {
      * @see #setDim(long)
      * @see org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package#getIfcRectangularTrimmedSurface_Dim()
      * @model unsettable="true" derived="true"
+     *        annotation="derived"
      * @generated
      */
     long getDim();

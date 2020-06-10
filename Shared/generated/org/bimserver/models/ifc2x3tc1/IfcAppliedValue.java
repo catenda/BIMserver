@@ -377,6 +377,7 @@ public interface IfcAppliedValue extends IfcObjectReferenceSelect {
      * @see org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package#getIfcAppliedValue_ValuesReferenced()
      * @see org.bimserver.models.ifc2x3tc1.IfcReferencesValueDocument#getReferencingValues
      * @model opposite="ReferencingValues" unsettable="true"
+     *        annotation="inverse"
      * @generated
      */
     EList<IfcReferencesValueDocument> getValuesReferenced();
@@ -418,6 +419,7 @@ public interface IfcAppliedValue extends IfcObjectReferenceSelect {
      * @see org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package#getIfcAppliedValue_ValueOfComponents()
      * @see org.bimserver.models.ifc2x3tc1.IfcAppliedValueRelationship#getComponentOfTotal
      * @model opposite="ComponentOfTotal" unsettable="true"
+     *        annotation="inverse"
      * @generated
      */
     EList<IfcAppliedValueRelationship> getValueOfComponents();
@@ -459,6 +461,7 @@ public interface IfcAppliedValue extends IfcObjectReferenceSelect {
      * @see org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package#getIfcAppliedValue_IsComponentIn()
      * @see org.bimserver.models.ifc2x3tc1.IfcAppliedValueRelationship#getComponents
      * @model opposite="Components" unsettable="true"
+     *        annotation="inverse"
      * @generated
      */
     EList<IfcAppliedValueRelationship> getIsComponentIn();

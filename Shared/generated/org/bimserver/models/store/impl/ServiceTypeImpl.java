@@ -78,6 +78,7 @@ public class ServiceTypeImpl extends IdEObjectImpl implements ServiceType {
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public String getName() {
         return (String) eGet(StorePackage.Literals.SERVICE_TYPE__NAME, true);
     }
@@ -87,6 +88,7 @@ public class ServiceTypeImpl extends IdEObjectImpl implements ServiceType {
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setName(String newName) {
         eSet(StorePackage.Literals.SERVICE_TYPE__NAME, newName);
     }
@@ -96,6 +98,7 @@ public class ServiceTypeImpl extends IdEObjectImpl implements ServiceType {
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public String getSimpleName() {
         return (String) eGet(StorePackage.Literals.SERVICE_TYPE__SIMPLE_NAME, true);
     }
@@ -105,6 +108,7 @@ public class ServiceTypeImpl extends IdEObjectImpl implements ServiceType {
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setSimpleName(String newSimpleName) {
         eSet(StorePackage.Literals.SERVICE_TYPE__SIMPLE_NAME, newSimpleName);
     }
@@ -115,6 +119,7 @@ public class ServiceTypeImpl extends IdEObjectImpl implements ServiceType {
      * @generated
      */
     @SuppressWarnings("unchecked")
+    @Override
     public EList<ServiceField> getFields() {
         return (EList<ServiceField>) eGet(StorePackage.Literals.SERVICE_TYPE__FIELDS, true);
     }
@@ -124,6 +129,7 @@ public class ServiceTypeImpl extends IdEObjectImpl implements ServiceType {
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public ServiceSimpleType getSimpleType() {
         return (ServiceSimpleType) eGet(StorePackage.Literals.SERVICE_TYPE__SIMPLE_TYPE, true);
     }
@@ -133,6 +139,7 @@ public class ServiceTypeImpl extends IdEObjectImpl implements ServiceType {
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setSimpleType(ServiceSimpleType newSimpleType) {
         eSet(StorePackage.Literals.SERVICE_TYPE__SIMPLE_TYPE, newSimpleType);
     }

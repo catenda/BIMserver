@@ -62,6 +62,7 @@ public class IfcColourRgbListImpl extends IfcPresentationItemImpl implements Ifc
      * @generated
      */
     @SuppressWarnings("unchecked")
+    @Override
     public EList<ListOfIfcNormalisedRatioMeasure> getColourList() {
         return (EList<ListOfIfcNormalisedRatioMeasure>) eGet(Ifc4Package.Literals.IFC_COLOUR_RGB_LIST__COLOUR_LIST,
                 true);

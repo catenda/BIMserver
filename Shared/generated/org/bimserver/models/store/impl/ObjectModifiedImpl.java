@@ -61,6 +61,7 @@ public class ObjectModifiedImpl extends CompareItemImpl implements ObjectModifie
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public String getFieldName() {
         return (String) eGet(StorePackage.Literals.OBJECT_MODIFIED__FIELD_NAME, true);
     }
@@ -70,6 +71,7 @@ public class ObjectModifiedImpl extends CompareItemImpl implements ObjectModifie
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setFieldName(String newFieldName) {
         eSet(StorePackage.Literals.OBJECT_MODIFIED__FIELD_NAME, newFieldName);
     }
@@ -79,6 +81,7 @@ public class ObjectModifiedImpl extends CompareItemImpl implements ObjectModifie
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public String getOldValue() {
         return (String) eGet(StorePackage.Literals.OBJECT_MODIFIED__OLD_VALUE, true);
     }
@@ -88,6 +91,7 @@ public class ObjectModifiedImpl extends CompareItemImpl implements ObjectModifie
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setOldValue(String newOldValue) {
         eSet(StorePackage.Literals.OBJECT_MODIFIED__OLD_VALUE, newOldValue);
     }
@@ -97,6 +101,7 @@ public class ObjectModifiedImpl extends CompareItemImpl implements ObjectModifie
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public String getNewValue() {
         return (String) eGet(StorePackage.Literals.OBJECT_MODIFIED__NEW_VALUE, true);
     }
@@ -106,6 +111,7 @@ public class ObjectModifiedImpl extends CompareItemImpl implements ObjectModifie
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setNewValue(String newNewValue) {
         eSet(StorePackage.Literals.OBJECT_MODIFIED__NEW_VALUE, newNewValue);
     }

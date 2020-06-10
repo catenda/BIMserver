@@ -61,6 +61,7 @@ public class IfcElectricDistributionPointImpl extends IfcFlowControllerImpl impl
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public IfcElectricDistributionPointFunctionEnum getDistributionPointFunction() {
         return (IfcElectricDistributionPointFunctionEnum) eGet(
                 Ifc2x3tc1Package.Literals.IFC_ELECTRIC_DISTRIBUTION_POINT__DISTRIBUTION_POINT_FUNCTION, true);
@@ -71,6 +72,7 @@ public class IfcElectricDistributionPointImpl extends IfcFlowControllerImpl impl
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setDistributionPointFunction(IfcElectricDistributionPointFunctionEnum newDistributionPointFunction) {
         eSet(Ifc2x3tc1Package.Literals.IFC_ELECTRIC_DISTRIBUTION_POINT__DISTRIBUTION_POINT_FUNCTION,
                 newDistributionPointFunction);
@@ -81,6 +83,7 @@ public class IfcElectricDistributionPointImpl extends IfcFlowControllerImpl impl
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public String getUserDefinedFunction() {
         return (String) eGet(Ifc2x3tc1Package.Literals.IFC_ELECTRIC_DISTRIBUTION_POINT__USER_DEFINED_FUNCTION, true);
     }
@@ -90,6 +93,7 @@ public class IfcElectricDistributionPointImpl extends IfcFlowControllerImpl impl
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setUserDefinedFunction(String newUserDefinedFunction) {
         eSet(Ifc2x3tc1Package.Literals.IFC_ELECTRIC_DISTRIBUTION_POINT__USER_DEFINED_FUNCTION, newUserDefinedFunction);
     }
@@ -99,6 +103,7 @@ public class IfcElectricDistributionPointImpl extends IfcFlowControllerImpl impl
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void unsetUserDefinedFunction() {
         eUnset(Ifc2x3tc1Package.Literals.IFC_ELECTRIC_DISTRIBUTION_POINT__USER_DEFINED_FUNCTION);
     }
@@ -108,6 +113,7 @@ public class IfcElectricDistributionPointImpl extends IfcFlowControllerImpl impl
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public boolean isSetUserDefinedFunction() {
         return eIsSet(Ifc2x3tc1Package.Literals.IFC_ELECTRIC_DISTRIBUTION_POINT__USER_DEFINED_FUNCTION);
     }

@@ -60,6 +60,7 @@ public class IfcSpaceHeaterTypeImpl extends IfcEnergyConversionDeviceTypeImpl im
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public IfcSpaceHeaterTypeEnum getPredefinedType() {
         return (IfcSpaceHeaterTypeEnum) eGet(Ifc2x3tc1Package.Literals.IFC_SPACE_HEATER_TYPE__PREDEFINED_TYPE, true);
     }
@@ -69,6 +70,7 @@ public class IfcSpaceHeaterTypeImpl extends IfcEnergyConversionDeviceTypeImpl im
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setPredefinedType(IfcSpaceHeaterTypeEnum newPredefinedType) {
         eSet(Ifc2x3tc1Package.Literals.IFC_SPACE_HEATER_TYPE__PREDEFINED_TYPE, newPredefinedType);
     }

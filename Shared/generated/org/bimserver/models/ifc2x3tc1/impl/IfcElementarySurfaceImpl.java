@@ -61,6 +61,7 @@ public class IfcElementarySurfaceImpl extends IfcSurfaceImpl implements IfcEleme
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public IfcAxis2Placement3D getPosition() {
         return (IfcAxis2Placement3D) eGet(Ifc2x3tc1Package.Literals.IFC_ELEMENTARY_SURFACE__POSITION, true);
     }
@@ -70,6 +71,7 @@ public class IfcElementarySurfaceImpl extends IfcSurfaceImpl implements IfcEleme
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setPosition(IfcAxis2Placement3D newPosition) {
         eSet(Ifc2x3tc1Package.Literals.IFC_ELEMENTARY_SURFACE__POSITION, newPosition);
     }
@@ -79,6 +81,7 @@ public class IfcElementarySurfaceImpl extends IfcSurfaceImpl implements IfcEleme
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public long getDim() {
         return (Long) eGet(Ifc2x3tc1Package.Literals.IFC_ELEMENTARY_SURFACE__DIM, true);
     }
@@ -88,6 +91,7 @@ public class IfcElementarySurfaceImpl extends IfcSurfaceImpl implements IfcEleme
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setDim(long newDim) {
         eSet(Ifc2x3tc1Package.Literals.IFC_ELEMENTARY_SURFACE__DIM, newDim);
     }
@@ -97,6 +101,7 @@ public class IfcElementarySurfaceImpl extends IfcSurfaceImpl implements IfcEleme
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void unsetDim() {
         eUnset(Ifc2x3tc1Package.Literals.IFC_ELEMENTARY_SURFACE__DIM);
     }
@@ -106,6 +111,7 @@ public class IfcElementarySurfaceImpl extends IfcSurfaceImpl implements IfcEleme
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public boolean isSetDim() {
         return eIsSet(Ifc2x3tc1Package.Literals.IFC_ELEMENTARY_SURFACE__DIM);
     }

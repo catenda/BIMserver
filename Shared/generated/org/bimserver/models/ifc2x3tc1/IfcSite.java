@@ -185,6 +185,8 @@ public interface IfcSite extends IfcSpatialStructureElement {
      * @see #setRefElevationAsString(String)
      * @see org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package#getIfcSite_RefElevationAsString()
      * @model unsettable="true"
+     *        annotation="asstring"
+     *        annotation="hidden"
      * @generated
      */
     String getRefElevationAsString();

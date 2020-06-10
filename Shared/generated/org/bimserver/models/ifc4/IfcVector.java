@@ -99,7 +99,8 @@ public interface IfcVector extends IfcGeometricRepresentationItem, IfcHatchLineD
      * @return the value of the '<em>Magnitude As String</em>' attribute.
      * @see #setMagnitudeAsString(String)
      * @see org.bimserver.models.ifc4.Ifc4Package#getIfcVector_MagnitudeAsString()
-     * @model
+     * @model annotation="asstring"
+     *        annotation="hidden"
      * @generated
      */
     String getMagnitudeAsString();
@@ -128,6 +129,7 @@ public interface IfcVector extends IfcGeometricRepresentationItem, IfcHatchLineD
      * @see #setDim(long)
      * @see org.bimserver.models.ifc4.Ifc4Package#getIfcVector_Dim()
      * @model unsettable="true" derived="true"
+     *        annotation="derived"
      * @generated
      */
     long getDim();

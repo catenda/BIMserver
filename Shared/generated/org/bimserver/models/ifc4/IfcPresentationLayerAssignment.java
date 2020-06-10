@@ -131,7 +131,8 @@ public interface IfcPresentationLayerAssignment extends IdEObject {
      * <!-- end-user-doc -->
      * @return the value of the '<em>Assigned Items</em>' reference list.
      * @see org.bimserver.models.ifc4.Ifc4Package#getIfcPresentationLayerAssignment_AssignedItems()
-     * @model
+     * @model annotation="inverse"
+     *        annotation="inverse"
      * @generated
      */
     EList<IfcLayeredItem> getAssignedItems();

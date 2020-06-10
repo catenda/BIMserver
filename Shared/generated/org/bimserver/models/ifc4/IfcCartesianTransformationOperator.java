@@ -239,6 +239,8 @@ public interface IfcCartesianTransformationOperator extends IfcGeometricRepresen
      * @see #setScaleAsString(String)
      * @see org.bimserver.models.ifc4.Ifc4Package#getIfcCartesianTransformationOperator_ScaleAsString()
      * @model unsettable="true"
+     *        annotation="asstring"
+     *        annotation="hidden"
      * @generated
      */
     String getScaleAsString();
@@ -292,6 +294,7 @@ public interface IfcCartesianTransformationOperator extends IfcGeometricRepresen
      * @see #setDim(long)
      * @see org.bimserver.models.ifc4.Ifc4Package#getIfcCartesianTransformationOperator_Dim()
      * @model unsettable="true" derived="true"
+     *        annotation="derived"
      * @generated
      */
     long getDim();
@@ -345,6 +348,7 @@ public interface IfcCartesianTransformationOperator extends IfcGeometricRepresen
      * @see #setScl(double)
      * @see org.bimserver.models.ifc4.Ifc4Package#getIfcCartesianTransformationOperator_Scl()
      * @model unsettable="true" derived="true"
+     *        annotation="derived"
      * @generated
      */
     double getScl();
@@ -398,6 +402,8 @@ public interface IfcCartesianTransformationOperator extends IfcGeometricRepresen
      * @see #setSclAsString(String)
      * @see org.bimserver.models.ifc4.Ifc4Package#getIfcCartesianTransformationOperator_SclAsString()
      * @model unsettable="true"
+     *        annotation="asstring"
+     *        annotation="hidden"
      * @generated
      */
     String getSclAsString();

@@ -134,6 +134,7 @@ public interface IfcProfileDef extends IfcResourceObjectSelect {
      * @see #unsetHasExternalReference()
      * @see org.bimserver.models.ifc4.Ifc4Package#getIfcProfileDef_HasExternalReference()
      * @model unsettable="true"
+     *        annotation="inverse"
      * @generated
      */
     EList<IfcExternalReferenceRelationship> getHasExternalReference();
@@ -175,6 +176,7 @@ public interface IfcProfileDef extends IfcResourceObjectSelect {
      * @see org.bimserver.models.ifc4.Ifc4Package#getIfcProfileDef_HasProperties()
      * @see org.bimserver.models.ifc4.IfcProfileProperties#getProfileDefinition
      * @model opposite="ProfileDefinition" unsettable="true"
+     *        annotation="inverse"
      * @generated
      */
     EList<IfcProfileProperties> getHasProperties();

@@ -64,6 +64,7 @@ public class IfcDistributionControlElementImpl extends IfcDistributionElementImp
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public String getControlElementId() {
         return (String) eGet(Ifc2x3tc1Package.Literals.IFC_DISTRIBUTION_CONTROL_ELEMENT__CONTROL_ELEMENT_ID, true);
     }
@@ -73,6 +74,7 @@ public class IfcDistributionControlElementImpl extends IfcDistributionElementImp
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setControlElementId(String newControlElementId) {
         eSet(Ifc2x3tc1Package.Literals.IFC_DISTRIBUTION_CONTROL_ELEMENT__CONTROL_ELEMENT_ID, newControlElementId);
     }
@@ -82,6 +84,7 @@ public class IfcDistributionControlElementImpl extends IfcDistributionElementImp
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void unsetControlElementId() {
         eUnset(Ifc2x3tc1Package.Literals.IFC_DISTRIBUTION_CONTROL_ELEMENT__CONTROL_ELEMENT_ID);
     }
@@ -91,6 +94,7 @@ public class IfcDistributionControlElementImpl extends IfcDistributionElementImp
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public boolean isSetControlElementId() {
         return eIsSet(Ifc2x3tc1Package.Literals.IFC_DISTRIBUTION_CONTROL_ELEMENT__CONTROL_ELEMENT_ID);
     }
@@ -101,6 +105,7 @@ public class IfcDistributionControlElementImpl extends IfcDistributionElementImp
      * @generated
      */
     @SuppressWarnings("unchecked")
+    @Override
     public EList<IfcRelFlowControlElements> getAssignedToFlowElement() {
         return (EList<IfcRelFlowControlElements>) eGet(
                 Ifc2x3tc1Package.Literals.IFC_DISTRIBUTION_CONTROL_ELEMENT__ASSIGNED_TO_FLOW_ELEMENT, true);
@@ -111,6 +116,7 @@ public class IfcDistributionControlElementImpl extends IfcDistributionElementImp
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void unsetAssignedToFlowElement() {
         eUnset(Ifc2x3tc1Package.Literals.IFC_DISTRIBUTION_CONTROL_ELEMENT__ASSIGNED_TO_FLOW_ELEMENT);
     }
@@ -120,6 +126,7 @@ public class IfcDistributionControlElementImpl extends IfcDistributionElementImp
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public boolean isSetAssignedToFlowElement() {
         return eIsSet(Ifc2x3tc1Package.Literals.IFC_DISTRIBUTION_CONTROL_ELEMENT__ASSIGNED_TO_FLOW_ELEMENT);
     }

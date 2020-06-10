@@ -72,6 +72,7 @@ public class IfcSurfaceStyleShadingImpl extends IdEObjectImpl implements IfcSurf
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public IfcColourRgb getSurfaceColour() {
         return (IfcColourRgb) eGet(Ifc2x3tc1Package.Literals.IFC_SURFACE_STYLE_SHADING__SURFACE_COLOUR, true);
     }
@@ -81,6 +82,7 @@ public class IfcSurfaceStyleShadingImpl extends IdEObjectImpl implements IfcSurf
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setSurfaceColour(IfcColourRgb newSurfaceColour) {
         eSet(Ifc2x3tc1Package.Literals.IFC_SURFACE_STYLE_SHADING__SURFACE_COLOUR, newSurfaceColour);
     }

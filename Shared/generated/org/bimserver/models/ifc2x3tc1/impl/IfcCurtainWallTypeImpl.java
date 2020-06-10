@@ -60,6 +60,7 @@ public class IfcCurtainWallTypeImpl extends IfcBuildingElementTypeImpl implement
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public IfcCurtainWallTypeEnum getPredefinedType() {
         return (IfcCurtainWallTypeEnum) eGet(Ifc2x3tc1Package.Literals.IFC_CURTAIN_WALL_TYPE__PREDEFINED_TYPE, true);
     }
@@ -69,6 +70,7 @@ public class IfcCurtainWallTypeImpl extends IfcBuildingElementTypeImpl implement
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setPredefinedType(IfcCurtainWallTypeEnum newPredefinedType) {
         eSet(Ifc2x3tc1Package.Literals.IFC_CURTAIN_WALL_TYPE__PREDEFINED_TYPE, newPredefinedType);
     }

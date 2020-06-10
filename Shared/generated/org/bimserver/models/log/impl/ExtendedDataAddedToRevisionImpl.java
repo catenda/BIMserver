@@ -63,6 +63,7 @@ public class ExtendedDataAddedToRevisionImpl extends LogActionImpl implements Ex
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public Revision getRevision() {
         return (Revision) eGet(LogPackage.Literals.EXTENDED_DATA_ADDED_TO_REVISION__REVISION, true);
     }
@@ -72,6 +73,7 @@ public class ExtendedDataAddedToRevisionImpl extends LogActionImpl implements Ex
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setRevision(Revision newRevision) {
         eSet(LogPackage.Literals.EXTENDED_DATA_ADDED_TO_REVISION__REVISION, newRevision);
     }
@@ -81,6 +83,7 @@ public class ExtendedDataAddedToRevisionImpl extends LogActionImpl implements Ex
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public ExtendedData getExtendedData() {
         return (ExtendedData) eGet(LogPackage.Literals.EXTENDED_DATA_ADDED_TO_REVISION__EXTENDED_DATA, true);
     }
@@ -90,6 +93,7 @@ public class ExtendedDataAddedToRevisionImpl extends LogActionImpl implements Ex
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setExtendedData(ExtendedData newExtendedData) {
         eSet(LogPackage.Literals.EXTENDED_DATA_ADDED_TO_REVISION__EXTENDED_DATA, newExtendedData);
     }

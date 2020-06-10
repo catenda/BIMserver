@@ -47,6 +47,7 @@ public interface IfcSolidModel extends IfcGeometricRepresentationItem, IfcBoolea
      * @see #setDim(long)
      * @see org.bimserver.models.ifc4.Ifc4Package#getIfcSolidModel_Dim()
      * @model unsettable="true" derived="true"
+     *        annotation="derived"
      * @generated
      */
     long getDim();

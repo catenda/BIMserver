@@ -107,6 +107,8 @@ public interface IfcStructuralSteelProfileProperties extends IfcStructuralProfil
      * @see #setShearAreaZAsString(String)
      * @see org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package#getIfcStructuralSteelProfileProperties_ShearAreaZAsString()
      * @model unsettable="true"
+     *        annotation="asstring"
+     *        annotation="hidden"
      * @generated
      */
     String getShearAreaZAsString();
@@ -213,6 +215,8 @@ public interface IfcStructuralSteelProfileProperties extends IfcStructuralProfil
      * @see #setShearAreaYAsString(String)
      * @see org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package#getIfcStructuralSteelProfileProperties_ShearAreaYAsString()
      * @model unsettable="true"
+     *        annotation="asstring"
+     *        annotation="hidden"
      * @generated
      */
     String getShearAreaYAsString();
@@ -319,6 +323,8 @@ public interface IfcStructuralSteelProfileProperties extends IfcStructuralProfil
      * @see #setPlasticShapeFactorYAsString(String)
      * @see org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package#getIfcStructuralSteelProfileProperties_PlasticShapeFactorYAsString()
      * @model unsettable="true"
+     *        annotation="asstring"
+     *        annotation="hidden"
      * @generated
      */
     String getPlasticShapeFactorYAsString();
@@ -425,6 +431,8 @@ public interface IfcStructuralSteelProfileProperties extends IfcStructuralProfil
      * @see #setPlasticShapeFactorZAsString(String)
      * @see org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package#getIfcStructuralSteelProfileProperties_PlasticShapeFactorZAsString()
      * @model unsettable="true"
+     *        annotation="asstring"
+     *        annotation="hidden"
      * @generated
      */
     String getPlasticShapeFactorZAsString();

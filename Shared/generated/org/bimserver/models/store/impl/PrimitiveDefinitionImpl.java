@@ -60,6 +60,7 @@ public class PrimitiveDefinitionImpl extends TypeDefinitionImpl implements Primi
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public PrimitiveEnum getType() {
         return (PrimitiveEnum) eGet(StorePackage.Literals.PRIMITIVE_DEFINITION__TYPE, true);
     }
@@ -69,6 +70,7 @@ public class PrimitiveDefinitionImpl extends TypeDefinitionImpl implements Primi
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setType(PrimitiveEnum newType) {
         eSet(StorePackage.Literals.PRIMITIVE_DEFINITION__TYPE, newType);
     }

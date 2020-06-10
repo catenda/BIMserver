@@ -30,7 +30,7 @@ package org.bimserver.models.ifc2x3tc1;
  * </ul>
  *
  * @see org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package#getIfcLuminousIntensityMeasure()
- * @model
+ * @model annotation="wrapped"
  * @generated
  */
 public interface IfcLuminousIntensityMeasure extends IfcMeasureValue {
@@ -101,6 +101,8 @@ public interface IfcLuminousIntensityMeasure extends IfcMeasureValue {
      * @see #setWrappedValueAsString(String)
      * @see org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package#getIfcLuminousIntensityMeasure_WrappedValueAsString()
      * @model unsettable="true"
+     *        annotation="asstring"
+     *        annotation="hidden"
      * @generated
      */
     String getWrappedValueAsString();

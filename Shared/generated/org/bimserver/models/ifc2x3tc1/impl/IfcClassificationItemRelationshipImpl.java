@@ -75,6 +75,7 @@ public class IfcClassificationItemRelationshipImpl extends IdEObjectImpl impleme
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public IfcClassificationItem getRelatingItem() {
         return (IfcClassificationItem) eGet(
                 Ifc2x3tc1Package.Literals.IFC_CLASSIFICATION_ITEM_RELATIONSHIP__RELATING_ITEM, true);
@@ -85,6 +86,7 @@ public class IfcClassificationItemRelationshipImpl extends IdEObjectImpl impleme
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setRelatingItem(IfcClassificationItem newRelatingItem) {
         eSet(Ifc2x3tc1Package.Literals.IFC_CLASSIFICATION_ITEM_RELATIONSHIP__RELATING_ITEM, newRelatingItem);
     }
@@ -95,6 +97,7 @@ public class IfcClassificationItemRelationshipImpl extends IdEObjectImpl impleme
      * @generated
      */
     @SuppressWarnings("unchecked")
+    @Override
     public EList<IfcClassificationItem> getRelatedItems() {
         return (EList<IfcClassificationItem>) eGet(
                 Ifc2x3tc1Package.Literals.IFC_CLASSIFICATION_ITEM_RELATIONSHIP__RELATED_ITEMS, true);

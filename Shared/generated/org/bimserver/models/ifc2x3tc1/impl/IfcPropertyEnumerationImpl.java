@@ -77,6 +77,7 @@ public class IfcPropertyEnumerationImpl extends IdEObjectImpl implements IfcProp
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public String getName() {
         return (String) eGet(Ifc2x3tc1Package.Literals.IFC_PROPERTY_ENUMERATION__NAME, true);
     }
@@ -86,6 +87,7 @@ public class IfcPropertyEnumerationImpl extends IdEObjectImpl implements IfcProp
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setName(String newName) {
         eSet(Ifc2x3tc1Package.Literals.IFC_PROPERTY_ENUMERATION__NAME, newName);
     }
@@ -96,6 +98,7 @@ public class IfcPropertyEnumerationImpl extends IdEObjectImpl implements IfcProp
      * @generated
      */
     @SuppressWarnings("unchecked")
+    @Override
     public EList<IfcValue> getEnumerationValues() {
         return (EList<IfcValue>) eGet(Ifc2x3tc1Package.Literals.IFC_PROPERTY_ENUMERATION__ENUMERATION_VALUES, true);
     }
@@ -105,6 +108,7 @@ public class IfcPropertyEnumerationImpl extends IdEObjectImpl implements IfcProp
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public IfcUnit getUnit() {
         return (IfcUnit) eGet(Ifc2x3tc1Package.Literals.IFC_PROPERTY_ENUMERATION__UNIT, true);
     }
@@ -114,6 +118,7 @@ public class IfcPropertyEnumerationImpl extends IdEObjectImpl implements IfcProp
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setUnit(IfcUnit newUnit) {
         eSet(Ifc2x3tc1Package.Literals.IFC_PROPERTY_ENUMERATION__UNIT, newUnit);
     }
@@ -123,6 +128,7 @@ public class IfcPropertyEnumerationImpl extends IdEObjectImpl implements IfcProp
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void unsetUnit() {
         eUnset(Ifc2x3tc1Package.Literals.IFC_PROPERTY_ENUMERATION__UNIT);
     }
@@ -132,6 +138,7 @@ public class IfcPropertyEnumerationImpl extends IdEObjectImpl implements IfcProp
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public boolean isSetUnit() {
         return eIsSet(Ifc2x3tc1Package.Literals.IFC_PROPERTY_ENUMERATION__UNIT);
     }

@@ -60,6 +60,7 @@ public class IfcDimensionCurveTerminatorImpl extends IfcTerminatorSymbolImpl imp
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public IfcDimensionExtentUsage getRole() {
         return (IfcDimensionExtentUsage) eGet(Ifc2x3tc1Package.Literals.IFC_DIMENSION_CURVE_TERMINATOR__ROLE, true);
     }
@@ -69,6 +70,7 @@ public class IfcDimensionCurveTerminatorImpl extends IfcTerminatorSymbolImpl imp
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setRole(IfcDimensionExtentUsage newRole) {
         eSet(Ifc2x3tc1Package.Literals.IFC_DIMENSION_CURVE_TERMINATOR__ROLE, newRole);
     }

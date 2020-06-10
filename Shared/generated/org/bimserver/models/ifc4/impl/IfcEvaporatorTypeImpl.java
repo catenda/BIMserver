@@ -60,6 +60,7 @@ public class IfcEvaporatorTypeImpl extends IfcEnergyConversionDeviceTypeImpl imp
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public IfcEvaporatorTypeEnum getPredefinedType() {
         return (IfcEvaporatorTypeEnum) eGet(Ifc4Package.Literals.IFC_EVAPORATOR_TYPE__PREDEFINED_TYPE, true);
     }
@@ -69,6 +70,7 @@ public class IfcEvaporatorTypeImpl extends IfcEnergyConversionDeviceTypeImpl imp
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setPredefinedType(IfcEvaporatorTypeEnum newPredefinedType) {
         eSet(Ifc4Package.Literals.IFC_EVAPORATOR_TYPE__PREDEFINED_TYPE, newPredefinedType);
     }

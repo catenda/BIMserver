@@ -63,6 +63,7 @@ public class IfcFaceImpl extends IfcTopologicalRepresentationItemImpl implements
      * @generated
      */
     @SuppressWarnings("unchecked")
+    @Override
     public EList<IfcFaceBound> getBounds() {
         return (EList<IfcFaceBound>) eGet(Ifc2x3tc1Package.Literals.IFC_FACE__BOUNDS, true);
     }

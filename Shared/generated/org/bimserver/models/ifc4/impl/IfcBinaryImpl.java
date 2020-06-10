@@ -71,6 +71,7 @@ public class IfcBinaryImpl extends IdEObjectImpl implements IfcBinary {
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public byte[] getWrappedValue() {
         return (byte[]) eGet(Ifc4Package.Literals.IFC_BINARY__WRAPPED_VALUE, true);
     }
@@ -80,6 +81,7 @@ public class IfcBinaryImpl extends IdEObjectImpl implements IfcBinary {
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setWrappedValue(byte[] newWrappedValue) {
         eSet(Ifc4Package.Literals.IFC_BINARY__WRAPPED_VALUE, newWrappedValue);
     }
@@ -89,6 +91,7 @@ public class IfcBinaryImpl extends IdEObjectImpl implements IfcBinary {
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void unsetWrappedValue() {
         eUnset(Ifc4Package.Literals.IFC_BINARY__WRAPPED_VALUE);
     }
@@ -98,6 +101,7 @@ public class IfcBinaryImpl extends IdEObjectImpl implements IfcBinary {
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public boolean isSetWrappedValue() {
         return eIsSet(Ifc4Package.Literals.IFC_BINARY__WRAPPED_VALUE);
     }

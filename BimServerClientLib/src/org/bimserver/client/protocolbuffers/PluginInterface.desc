@@ -230,17 +230,17 @@ serializer"-
 errorMessage (	RerrorMessage9
 value (2#.org.bimserver.pb.SPluginDescriptorRvalue"4
  GetPluginObjectDefinitionRequest
-oid (Roid"L
-SPrimitiveDefinition4
-type (2 .org.bimserver.pb.SPrimitiveEnumRtype"I
+oid (Roid"I
 SArrayDefinition5
-type (2!.org.bimserver.pb.STypeDefinitionRtype"¹
+type (2!.org.bimserver.pb.STypeDefinitionRtype"L
+SPrimitiveDefinition4
+type (2 .org.bimserver.pb.SPrimitiveEnumRtype"¹
 STypeDefinition!
 __actual_type (	R
-ActualType\
-__SPrimitiveDefinition (2&.org.bimserver.pb.SPrimitiveDefinitionRSPrimitiveDefinitionP
-__SArrayDefinition (2".org.bimserver.pb.SArrayDefinitionRSArrayDefinitionS
-__SObjectDefinition (2#.org.bimserver.pb.SObjectDefinitionRSObjectDefinition"Ç
+ActualTypeP
+__SArrayDefinition (2".org.bimserver.pb.SArrayDefinitionRSArrayDefinitionS
+__SObjectDefinition (2#.org.bimserver.pb.SObjectDefinitionRSObjectDefinition\
+__SPrimitiveDefinition (2&.org.bimserver.pb.SPrimitiveDefinitionRSPrimitiveDefinition"Ç
 SParameterDefinition
 name (	Rname 
 description (	Rdescription&
@@ -260,11 +260,7 @@ parameters"‚
 SArrayType/
 values (2.org.bimserver.pb.STypeRvalues
 oid (Roid
-rid (Rrid"J
-SByteArrayType
-oid (Roid
-rid (Rrid
-value (Rvalue"G
+rid (Rrid"G
 SStringType
 oid (Roid
 rid (Rrid
@@ -272,32 +268,36 @@ SArrayType/
 SDoubleType
 oid (Roid
 rid (Rrid
-value (Rvalue"H
-SBooleanType
-oid (Roid
-rid (Rrid
-value (Rvalue"E
+value (Rvalue"E
 	SLongType
 oid (Roid
 rid (Rrid
-value (Rvalue"¬
+value (Rvalue"H
+SBooleanType
+oid (Roid
+rid (Rrid
+value (Rvalue"J
+SByteArrayType
+oid (Roid
+rid (Rrid
+value (Rvalue"¬
 SPrimitiveType!
 __actual_type (	R
-ActualTypeJ
-__SByteArrayType (2 .org.bimserver.pb.SByteArrayTypeRSByteArrayTypeA
-__SStringType (2.org.bimserver.pb.SStringTypeRSStringTypeA
-__SDoubleType (2.org.bimserver.pb.SDoubleTypeRSDoubleTypeD
-__SBooleanType (2.org.bimserver.pb.SBooleanTypeRSBooleanType;
-__SLongType (2.org.bimserver.pb.SLongTypeR	SLongType
+ActualTypeA
+__SStringType (2.org.bimserver.pb.SStringTypeRSStringTypeA
+__SDoubleType (2.org.bimserver.pb.SDoubleTypeRSDoubleType;
+__SLongType (2.org.bimserver.pb.SLongTypeR	SLongTypeD
+__SBooleanType (2.org.bimserver.pb.SBooleanTypeRSBooleanTypeJ
+__SByteArrayType (2 .org.bimserver.pb.SByteArrayTypeRSByteArrayType
 oid (Roid
 rid (Rrid"
 SType!
 __actual_type (	R
 ActualType>
 __SArrayType (2.org.bimserver.pb.SArrayTypeR
-SArrayTypeJ
-__SPrimitiveType (2 .org.bimserver.pb.SPrimitiveTypeRSPrimitiveTypeA
-__SObjectType (2.org.bimserver.pb.SObjectTypeRSObjectType
+SArrayTypeA
+__SObjectType (2.org.bimserver.pb.SObjectTypeRSObjectTypeJ
+__SPrimitiveType (2 .org.bimserver.pb.SPrimitiveTypeRSPrimitiveType
 oid (Roid
 rid (Rrid"s
 

@@ -68,6 +68,7 @@ public class IfcPropertyTableValueImpl extends IfcSimplePropertyImpl implements 
      * @generated
      */
     @SuppressWarnings("unchecked")
+    @Override
     public EList<IfcValue> getDefiningValues() {
         return (EList<IfcValue>) eGet(Ifc2x3tc1Package.Literals.IFC_PROPERTY_TABLE_VALUE__DEFINING_VALUES, true);
     }
@@ -78,6 +79,7 @@ public class IfcPropertyTableValueImpl extends IfcSimplePropertyImpl implements 
      * @generated
      */
     @SuppressWarnings("unchecked")
+    @Override
     public EList<IfcValue> getDefinedValues() {
         return (EList<IfcValue>) eGet(Ifc2x3tc1Package.Literals.IFC_PROPERTY_TABLE_VALUE__DEFINED_VALUES, true);
     }
@@ -87,6 +89,7 @@ public class IfcPropertyTableValueImpl extends IfcSimplePropertyImpl implements 
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public String getExpression() {
         return (String) eGet(Ifc2x3tc1Package.Literals.IFC_PROPERTY_TABLE_VALUE__EXPRESSION, true);
     }
@@ -96,6 +99,7 @@ public class IfcPropertyTableValueImpl extends IfcSimplePropertyImpl implements 
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setExpression(String newExpression) {
         eSet(Ifc2x3tc1Package.Literals.IFC_PROPERTY_TABLE_VALUE__EXPRESSION, newExpression);
     }
@@ -105,6 +109,7 @@ public class IfcPropertyTableValueImpl extends IfcSimplePropertyImpl implements 
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void unsetExpression() {
         eUnset(Ifc2x3tc1Package.Literals.IFC_PROPERTY_TABLE_VALUE__EXPRESSION);
     }
@@ -114,6 +119,7 @@ public class IfcPropertyTableValueImpl extends IfcSimplePropertyImpl implements 
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public boolean isSetExpression() {
         return eIsSet(Ifc2x3tc1Package.Literals.IFC_PROPERTY_TABLE_VALUE__EXPRESSION);
     }
@@ -123,6 +129,7 @@ public class IfcPropertyTableValueImpl extends IfcSimplePropertyImpl implements 
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public IfcUnit getDefiningUnit() {
         return (IfcUnit) eGet(Ifc2x3tc1Package.Literals.IFC_PROPERTY_TABLE_VALUE__DEFINING_UNIT, true);
     }
@@ -132,6 +139,7 @@ public class IfcPropertyTableValueImpl extends IfcSimplePropertyImpl implements 
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setDefiningUnit(IfcUnit newDefiningUnit) {
         eSet(Ifc2x3tc1Package.Literals.IFC_PROPERTY_TABLE_VALUE__DEFINING_UNIT, newDefiningUnit);
     }
@@ -141,6 +149,7 @@ public class IfcPropertyTableValueImpl extends IfcSimplePropertyImpl implements 
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void unsetDefiningUnit() {
         eUnset(Ifc2x3tc1Package.Literals.IFC_PROPERTY_TABLE_VALUE__DEFINING_UNIT);
     }
@@ -150,6 +159,7 @@ public class IfcPropertyTableValueImpl extends IfcSimplePropertyImpl implements 
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public boolean isSetDefiningUnit() {
         return eIsSet(Ifc2x3tc1Package.Literals.IFC_PROPERTY_TABLE_VALUE__DEFINING_UNIT);
     }
@@ -159,6 +169,7 @@ public class IfcPropertyTableValueImpl extends IfcSimplePropertyImpl implements 
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public IfcUnit getDefinedUnit() {
         return (IfcUnit) eGet(Ifc2x3tc1Package.Literals.IFC_PROPERTY_TABLE_VALUE__DEFINED_UNIT, true);
     }
@@ -168,6 +179,7 @@ public class IfcPropertyTableValueImpl extends IfcSimplePropertyImpl implements 
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setDefinedUnit(IfcUnit newDefinedUnit) {
         eSet(Ifc2x3tc1Package.Literals.IFC_PROPERTY_TABLE_VALUE__DEFINED_UNIT, newDefinedUnit);
     }
@@ -177,6 +189,7 @@ public class IfcPropertyTableValueImpl extends IfcSimplePropertyImpl implements 
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void unsetDefinedUnit() {
         eUnset(Ifc2x3tc1Package.Literals.IFC_PROPERTY_TABLE_VALUE__DEFINED_UNIT);
     }
@@ -186,6 +199,7 @@ public class IfcPropertyTableValueImpl extends IfcSimplePropertyImpl implements 
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public boolean isSetDefinedUnit() {
         return eIsSet(Ifc2x3tc1Package.Literals.IFC_PROPERTY_TABLE_VALUE__DEFINED_UNIT);
     }

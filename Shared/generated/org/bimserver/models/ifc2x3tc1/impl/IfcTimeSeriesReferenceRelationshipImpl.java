@@ -77,6 +77,7 @@ public class IfcTimeSeriesReferenceRelationshipImpl extends IdEObjectImpl
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public IfcTimeSeries getReferencedTimeSeries() {
         return (IfcTimeSeries) eGet(
                 Ifc2x3tc1Package.Literals.IFC_TIME_SERIES_REFERENCE_RELATIONSHIP__REFERENCED_TIME_SERIES, true);
@@ -87,6 +88,7 @@ public class IfcTimeSeriesReferenceRelationshipImpl extends IdEObjectImpl
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setReferencedTimeSeries(IfcTimeSeries newReferencedTimeSeries) {
         eSet(Ifc2x3tc1Package.Literals.IFC_TIME_SERIES_REFERENCE_RELATIONSHIP__REFERENCED_TIME_SERIES,
                 newReferencedTimeSeries);
@@ -98,6 +100,7 @@ public class IfcTimeSeriesReferenceRelationshipImpl extends IdEObjectImpl
      * @generated
      */
     @SuppressWarnings("unchecked")
+    @Override
     public EList<IfcDocumentSelect> getTimeSeriesReferences() {
         return (EList<IfcDocumentSelect>) eGet(
                 Ifc2x3tc1Package.Literals.IFC_TIME_SERIES_REFERENCE_RELATIONSHIP__TIME_SERIES_REFERENCES, true);

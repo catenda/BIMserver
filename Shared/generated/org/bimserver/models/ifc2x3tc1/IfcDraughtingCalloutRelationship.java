@@ -159,6 +159,7 @@ public interface IfcDraughtingCalloutRelationship extends IdEObject {
      * @see org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package#getIfcDraughtingCalloutRelationship_RelatingDraughtingCallout()
      * @see org.bimserver.models.ifc2x3tc1.IfcDraughtingCallout#getIsRelatedToCallout
      * @model opposite="IsRelatedToCallout"
+     *        annotation="inverse"
      * @generated
      */
     IfcDraughtingCallout getRelatingDraughtingCallout();
@@ -187,6 +188,7 @@ public interface IfcDraughtingCalloutRelationship extends IdEObject {
      * @see org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package#getIfcDraughtingCalloutRelationship_RelatedDraughtingCallout()
      * @see org.bimserver.models.ifc2x3tc1.IfcDraughtingCallout#getIsRelatedFromCallout
      * @model opposite="IsRelatedFromCallout"
+     *        annotation="inverse"
      * @generated
      */
     IfcDraughtingCallout getRelatedDraughtingCallout();

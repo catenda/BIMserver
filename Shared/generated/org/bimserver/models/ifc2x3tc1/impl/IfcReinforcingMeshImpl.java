@@ -74,6 +74,7 @@ public class IfcReinforcingMeshImpl extends IfcReinforcingElementImpl implements
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public double getMeshLength() {
         return (Double) eGet(Ifc2x3tc1Package.Literals.IFC_REINFORCING_MESH__MESH_LENGTH, true);
     }
@@ -83,6 +84,7 @@ public class IfcReinforcingMeshImpl extends IfcReinforcingElementImpl implements
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setMeshLength(double newMeshLength) {
         eSet(Ifc2x3tc1Package.Literals.IFC_REINFORCING_MESH__MESH_LENGTH, newMeshLength);
     }
@@ -92,6 +94,7 @@ public class IfcReinforcingMeshImpl extends IfcReinforcingElementImpl implements
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void unsetMeshLength() {
         eUnset(Ifc2x3tc1Package.Literals.IFC_REINFORCING_MESH__MESH_LENGTH);
     }
@@ -101,6 +104,7 @@ public class IfcReinforcingMeshImpl extends IfcReinforcingElementImpl implements
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public boolean isSetMeshLength() {
         return eIsSet(Ifc2x3tc1Package.Literals.IFC_REINFORCING_MESH__MESH_LENGTH);
     }
@@ -110,6 +114,7 @@ public class IfcReinforcingMeshImpl extends IfcReinforcingElementImpl implements
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public String getMeshLengthAsString() {
         return (String) eGet(Ifc2x3tc1Package.Literals.IFC_REINFORCING_MESH__MESH_LENGTH_AS_STRING, true);
     }
@@ -119,6 +124,7 @@ public class IfcReinforcingMeshImpl extends IfcReinforcingElementImpl implements
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setMeshLengthAsString(String newMeshLengthAsString) {
         eSet(Ifc2x3tc1Package.Literals.IFC_REINFORCING_MESH__MESH_LENGTH_AS_STRING, newMeshLengthAsString);
     }
@@ -128,6 +134,7 @@ public class IfcReinforcingMeshImpl extends IfcReinforcingElementImpl implements
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void unsetMeshLengthAsString() {
         eUnset(Ifc2x3tc1Package.Literals.IFC_REINFORCING_MESH__MESH_LENGTH_AS_STRING);
     }
@@ -137,6 +144,7 @@ public class IfcReinforcingMeshImpl extends IfcReinforcingElementImpl implements
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public boolean isSetMeshLengthAsString() {
         return eIsSet(Ifc2x3tc1Package.Literals.IFC_REINFORCING_MESH__MESH_LENGTH_AS_STRING);
     }
@@ -146,6 +154,7 @@ public class IfcReinforcingMeshImpl extends IfcReinforcingElementImpl implements
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public double getMeshWidth() {
         return (Double) eGet(Ifc2x3tc1Package.Literals.IFC_REINFORCING_MESH__MESH_WIDTH, true);
     }
@@ -155,6 +164,7 @@ public class IfcReinforcingMeshImpl extends IfcReinforcingElementImpl implements
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setMeshWidth(double newMeshWidth) {
         eSet(Ifc2x3tc1Package.Literals.IFC_REINFORCING_MESH__MESH_WIDTH, newMeshWidth);
     }
@@ -164,6 +174,7 @@ public class IfcReinforcingMeshImpl extends IfcReinforcingElementImpl implements
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void unsetMeshWidth() {
         eUnset(Ifc2x3tc1Package.Literals.IFC_REINFORCING_MESH__MESH_WIDTH);
     }
@@ -173,6 +184,7 @@ public class IfcReinforcingMeshImpl extends IfcReinforcingElementImpl implements
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public boolean isSetMeshWidth() {
         return eIsSet(Ifc2x3tc1Package.Literals.IFC_REINFORCING_MESH__MESH_WIDTH);
     }
@@ -182,6 +194,7 @@ public class IfcReinforcingMeshImpl extends IfcReinforcingElementImpl implements
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public String getMeshWidthAsString() {
         return (String) eGet(Ifc2x3tc1Package.Literals.IFC_REINFORCING_MESH__MESH_WIDTH_AS_STRING, true);
     }
@@ -191,6 +204,7 @@ public class IfcReinforcingMeshImpl extends IfcReinforcingElementImpl implements
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setMeshWidthAsString(String newMeshWidthAsString) {
         eSet(Ifc2x3tc1Package.Literals.IFC_REINFORCING_MESH__MESH_WIDTH_AS_STRING, newMeshWidthAsString);
     }
@@ -200,6 +214,7 @@ public class IfcReinforcingMeshImpl extends IfcReinforcingElementImpl implements
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void unsetMeshWidthAsString() {
         eUnset(Ifc2x3tc1Package.Literals.IFC_REINFORCING_MESH__MESH_WIDTH_AS_STRING);
     }
@@ -209,6 +224,7 @@ public class IfcReinforcingMeshImpl extends IfcReinforcingElementImpl implements
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public boolean isSetMeshWidthAsString() {
         return eIsSet(Ifc2x3tc1Package.Literals.IFC_REINFORCING_MESH__MESH_WIDTH_AS_STRING);
     }
@@ -218,6 +234,7 @@ public class IfcReinforcingMeshImpl extends IfcReinforcingElementImpl implements
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public double getLongitudinalBarNominalDiameter() {
         return (Double) eGet(Ifc2x3tc1Package.Literals.IFC_REINFORCING_MESH__LONGITUDINAL_BAR_NOMINAL_DIAMETER, true);
     }
@@ -227,6 +244,7 @@ public class IfcReinforcingMeshImpl extends IfcReinforcingElementImpl implements
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setLongitudinalBarNominalDiameter(double newLongitudinalBarNominalDiameter) {
         eSet(Ifc2x3tc1Package.Literals.IFC_REINFORCING_MESH__LONGITUDINAL_BAR_NOMINAL_DIAMETER,
                 newLongitudinalBarNominalDiameter);
@@ -237,6 +255,7 @@ public class IfcReinforcingMeshImpl extends IfcReinforcingElementImpl implements
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public String getLongitudinalBarNominalDiameterAsString() {
         return (String) eGet(
                 Ifc2x3tc1Package.Literals.IFC_REINFORCING_MESH__LONGITUDINAL_BAR_NOMINAL_DIAMETER_AS_STRING, true);
@@ -247,6 +266,7 @@ public class IfcReinforcingMeshImpl extends IfcReinforcingElementImpl implements
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setLongitudinalBarNominalDiameterAsString(String newLongitudinalBarNominalDiameterAsString) {
         eSet(Ifc2x3tc1Package.Literals.IFC_REINFORCING_MESH__LONGITUDINAL_BAR_NOMINAL_DIAMETER_AS_STRING,
                 newLongitudinalBarNominalDiameterAsString);
@@ -257,6 +277,7 @@ public class IfcReinforcingMeshImpl extends IfcReinforcingElementImpl implements
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public double getTransverseBarNominalDiameter() {
         return (Double) eGet(Ifc2x3tc1Package.Literals.IFC_REINFORCING_MESH__TRANSVERSE_BAR_NOMINAL_DIAMETER, true);
     }
@@ -266,6 +287,7 @@ public class IfcReinforcingMeshImpl extends IfcReinforcingElementImpl implements
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setTransverseBarNominalDiameter(double newTransverseBarNominalDiameter) {
         eSet(Ifc2x3tc1Package.Literals.IFC_REINFORCING_MESH__TRANSVERSE_BAR_NOMINAL_DIAMETER,
                 newTransverseBarNominalDiameter);
@@ -276,6 +298,7 @@ public class IfcReinforcingMeshImpl extends IfcReinforcingElementImpl implements
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public String getTransverseBarNominalDiameterAsString() {
         return (String) eGet(Ifc2x3tc1Package.Literals.IFC_REINFORCING_MESH__TRANSVERSE_BAR_NOMINAL_DIAMETER_AS_STRING,
                 true);
@@ -286,6 +309,7 @@ public class IfcReinforcingMeshImpl extends IfcReinforcingElementImpl implements
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setTransverseBarNominalDiameterAsString(String newTransverseBarNominalDiameterAsString) {
         eSet(Ifc2x3tc1Package.Literals.IFC_REINFORCING_MESH__TRANSVERSE_BAR_NOMINAL_DIAMETER_AS_STRING,
                 newTransverseBarNominalDiameterAsString);
@@ -296,6 +320,7 @@ public class IfcReinforcingMeshImpl extends IfcReinforcingElementImpl implements
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public double getLongitudinalBarCrossSectionArea() {
         return (Double) eGet(Ifc2x3tc1Package.Literals.IFC_REINFORCING_MESH__LONGITUDINAL_BAR_CROSS_SECTION_AREA, true);
     }
@@ -305,6 +330,7 @@ public class IfcReinforcingMeshImpl extends IfcReinforcingElementImpl implements
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setLongitudinalBarCrossSectionArea(double newLongitudinalBarCrossSectionArea) {
         eSet(Ifc2x3tc1Package.Literals.IFC_REINFORCING_MESH__LONGITUDINAL_BAR_CROSS_SECTION_AREA,
                 newLongitudinalBarCrossSectionArea);
@@ -315,6 +341,7 @@ public class IfcReinforcingMeshImpl extends IfcReinforcingElementImpl implements
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public String getLongitudinalBarCrossSectionAreaAsString() {
         return (String) eGet(
                 Ifc2x3tc1Package.Literals.IFC_REINFORCING_MESH__LONGITUDINAL_BAR_CROSS_SECTION_AREA_AS_STRING, true);
@@ -325,6 +352,7 @@ public class IfcReinforcingMeshImpl extends IfcReinforcingElementImpl implements
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setLongitudinalBarCrossSectionAreaAsString(String newLongitudinalBarCrossSectionAreaAsString) {
         eSet(Ifc2x3tc1Package.Literals.IFC_REINFORCING_MESH__LONGITUDINAL_BAR_CROSS_SECTION_AREA_AS_STRING,
                 newLongitudinalBarCrossSectionAreaAsString);
@@ -335,6 +363,7 @@ public class IfcReinforcingMeshImpl extends IfcReinforcingElementImpl implements
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public double getTransverseBarCrossSectionArea() {
         return (Double) eGet(Ifc2x3tc1Package.Literals.IFC_REINFORCING_MESH__TRANSVERSE_BAR_CROSS_SECTION_AREA, true);
     }
@@ -344,6 +373,7 @@ public class IfcReinforcingMeshImpl extends IfcReinforcingElementImpl implements
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setTransverseBarCrossSectionArea(double newTransverseBarCrossSectionArea) {
         eSet(Ifc2x3tc1Package.Literals.IFC_REINFORCING_MESH__TRANSVERSE_BAR_CROSS_SECTION_AREA,
                 newTransverseBarCrossSectionArea);
@@ -354,6 +384,7 @@ public class IfcReinforcingMeshImpl extends IfcReinforcingElementImpl implements
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public String getTransverseBarCrossSectionAreaAsString() {
         return (String) eGet(
                 Ifc2x3tc1Package.Literals.IFC_REINFORCING_MESH__TRANSVERSE_BAR_CROSS_SECTION_AREA_AS_STRING, true);
@@ -364,6 +395,7 @@ public class IfcReinforcingMeshImpl extends IfcReinforcingElementImpl implements
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setTransverseBarCrossSectionAreaAsString(String newTransverseBarCrossSectionAreaAsString) {
         eSet(Ifc2x3tc1Package.Literals.IFC_REINFORCING_MESH__TRANSVERSE_BAR_CROSS_SECTION_AREA_AS_STRING,
                 newTransverseBarCrossSectionAreaAsString);
@@ -374,6 +406,7 @@ public class IfcReinforcingMeshImpl extends IfcReinforcingElementImpl implements
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public double getLongitudinalBarSpacing() {
         return (Double) eGet(Ifc2x3tc1Package.Literals.IFC_REINFORCING_MESH__LONGITUDINAL_BAR_SPACING, true);
     }
@@ -383,6 +416,7 @@ public class IfcReinforcingMeshImpl extends IfcReinforcingElementImpl implements
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setLongitudinalBarSpacing(double newLongitudinalBarSpacing) {
         eSet(Ifc2x3tc1Package.Literals.IFC_REINFORCING_MESH__LONGITUDINAL_BAR_SPACING, newLongitudinalBarSpacing);
     }
@@ -392,6 +426,7 @@ public class IfcReinforcingMeshImpl extends IfcReinforcingElementImpl implements
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public String getLongitudinalBarSpacingAsString() {
         return (String) eGet(Ifc2x3tc1Package.Literals.IFC_REINFORCING_MESH__LONGITUDINAL_BAR_SPACING_AS_STRING, true);
     }
@@ -401,6 +436,7 @@ public class IfcReinforcingMeshImpl extends IfcReinforcingElementImpl implements
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setLongitudinalBarSpacingAsString(String newLongitudinalBarSpacingAsString) {
         eSet(Ifc2x3tc1Package.Literals.IFC_REINFORCING_MESH__LONGITUDINAL_BAR_SPACING_AS_STRING,
                 newLongitudinalBarSpacingAsString);
@@ -411,6 +447,7 @@ public class IfcReinforcingMeshImpl extends IfcReinforcingElementImpl implements
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public double getTransverseBarSpacing() {
         return (Double) eGet(Ifc2x3tc1Package.Literals.IFC_REINFORCING_MESH__TRANSVERSE_BAR_SPACING, true);
     }
@@ -420,6 +457,7 @@ public class IfcReinforcingMeshImpl extends IfcReinforcingElementImpl implements
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setTransverseBarSpacing(double newTransverseBarSpacing) {
         eSet(Ifc2x3tc1Package.Literals.IFC_REINFORCING_MESH__TRANSVERSE_BAR_SPACING, newTransverseBarSpacing);
     }
@@ -429,6 +467,7 @@ public class IfcReinforcingMeshImpl extends IfcReinforcingElementImpl implements
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public String getTransverseBarSpacingAsString() {
         return (String) eGet(Ifc2x3tc1Package.Literals.IFC_REINFORCING_MESH__TRANSVERSE_BAR_SPACING_AS_STRING, true);
     }
@@ -438,6 +477,7 @@ public class IfcReinforcingMeshImpl extends IfcReinforcingElementImpl implements
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setTransverseBarSpacingAsString(String newTransverseBarSpacingAsString) {
         eSet(Ifc2x3tc1Package.Literals.IFC_REINFORCING_MESH__TRANSVERSE_BAR_SPACING_AS_STRING,
                 newTransverseBarSpacingAsString);

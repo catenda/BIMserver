@@ -60,6 +60,7 @@ public class IfcLaborResourceTypeImpl extends IfcConstructionResourceTypeImpl im
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public IfcLaborResourceTypeEnum getPredefinedType() {
         return (IfcLaborResourceTypeEnum) eGet(Ifc4Package.Literals.IFC_LABOR_RESOURCE_TYPE__PREDEFINED_TYPE, true);
     }
@@ -69,6 +70,7 @@ public class IfcLaborResourceTypeImpl extends IfcConstructionResourceTypeImpl im
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setPredefinedType(IfcLaborResourceTypeEnum newPredefinedType) {
         eSet(Ifc4Package.Literals.IFC_LABOR_RESOURCE_TYPE__PREDEFINED_TYPE, newPredefinedType);
     }

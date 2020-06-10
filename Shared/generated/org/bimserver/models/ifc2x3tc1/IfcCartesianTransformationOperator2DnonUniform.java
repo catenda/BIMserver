@@ -101,6 +101,8 @@ public interface IfcCartesianTransformationOperator2DnonUniform extends IfcCarte
      * @see #setScale2AsString(String)
      * @see org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package#getIfcCartesianTransformationOperator2DnonUniform_Scale2AsString()
      * @model unsettable="true"
+     *        annotation="asstring"
+     *        annotation="hidden"
      * @generated
      */
     String getScale2AsString();

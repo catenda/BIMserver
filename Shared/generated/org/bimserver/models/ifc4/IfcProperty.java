@@ -137,6 +137,7 @@ public interface IfcProperty extends IfcPropertyAbstraction {
      * @see org.bimserver.models.ifc4.Ifc4Package#getIfcProperty_PartOfPset()
      * @see org.bimserver.models.ifc4.IfcPropertySet#getHasProperties
      * @model opposite="HasProperties" unsettable="true"
+     *        annotation="inverse"
      * @generated
      */
     EList<IfcPropertySet> getPartOfPset();
@@ -178,6 +179,7 @@ public interface IfcProperty extends IfcPropertyAbstraction {
      * @see org.bimserver.models.ifc4.Ifc4Package#getIfcProperty_PropertyForDependance()
      * @see org.bimserver.models.ifc4.IfcPropertyDependencyRelationship#getDependingProperty
      * @model opposite="DependingProperty" unsettable="true"
+     *        annotation="inverse"
      * @generated
      */
     EList<IfcPropertyDependencyRelationship> getPropertyForDependance();
@@ -219,6 +221,7 @@ public interface IfcProperty extends IfcPropertyAbstraction {
      * @see org.bimserver.models.ifc4.Ifc4Package#getIfcProperty_PropertyDependsOn()
      * @see org.bimserver.models.ifc4.IfcPropertyDependencyRelationship#getDependantProperty
      * @model opposite="DependantProperty" unsettable="true"
+     *        annotation="inverse"
      * @generated
      */
     EList<IfcPropertyDependencyRelationship> getPropertyDependsOn();
@@ -260,6 +263,7 @@ public interface IfcProperty extends IfcPropertyAbstraction {
      * @see org.bimserver.models.ifc4.Ifc4Package#getIfcProperty_PartOfComplex()
      * @see org.bimserver.models.ifc4.IfcComplexProperty#getHasProperties
      * @model opposite="HasProperties" unsettable="true"
+     *        annotation="inverse"
      * @generated
      */
     EList<IfcComplexProperty> getPartOfComplex();
@@ -299,6 +303,7 @@ public interface IfcProperty extends IfcPropertyAbstraction {
      * @see #unsetHasConstraints()
      * @see org.bimserver.models.ifc4.Ifc4Package#getIfcProperty_HasConstraints()
      * @model unsettable="true"
+     *        annotation="inverse"
      * @generated
      */
     EList<IfcResourceConstraintRelationship> getHasConstraints();
@@ -338,6 +343,7 @@ public interface IfcProperty extends IfcPropertyAbstraction {
      * @see #unsetHasApprovals()
      * @see org.bimserver.models.ifc4.Ifc4Package#getIfcProperty_HasApprovals()
      * @model unsettable="true"
+     *        annotation="inverse"
      * @generated
      */
     EList<IfcResourceApprovalRelationship> getHasApprovals();

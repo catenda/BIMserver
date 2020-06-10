@@ -131,6 +131,7 @@ public interface IfcPhysicalQuantity extends IfcResourceObjectSelect {
      * @see #unsetHasExternalReferences()
      * @see org.bimserver.models.ifc4.Ifc4Package#getIfcPhysicalQuantity_HasExternalReferences()
      * @model unsettable="true"
+     *        annotation="inverse"
      * @generated
      */
     EList<IfcExternalReferenceRelationship> getHasExternalReferences();
@@ -172,6 +173,7 @@ public interface IfcPhysicalQuantity extends IfcResourceObjectSelect {
      * @see org.bimserver.models.ifc4.Ifc4Package#getIfcPhysicalQuantity_PartOfComplex()
      * @see org.bimserver.models.ifc4.IfcPhysicalComplexQuantity#getHasQuantities
      * @model opposite="HasQuantities" unsettable="true" upper="2"
+     *        annotation="inverse"
      * @generated
      */
     EList<IfcPhysicalComplexQuantity> getPartOfComplex();

@@ -74,6 +74,7 @@ public class IfcRelaxationImpl extends IdEObjectImpl implements IfcRelaxation {
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public double getRelaxationValue() {
         return (Double) eGet(Ifc2x3tc1Package.Literals.IFC_RELAXATION__RELAXATION_VALUE, true);
     }
@@ -83,6 +84,7 @@ public class IfcRelaxationImpl extends IdEObjectImpl implements IfcRelaxation {
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setRelaxationValue(double newRelaxationValue) {
         eSet(Ifc2x3tc1Package.Literals.IFC_RELAXATION__RELAXATION_VALUE, newRelaxationValue);
     }
@@ -92,6 +94,7 @@ public class IfcRelaxationImpl extends IdEObjectImpl implements IfcRelaxation {
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public String getRelaxationValueAsString() {
         return (String) eGet(Ifc2x3tc1Package.Literals.IFC_RELAXATION__RELAXATION_VALUE_AS_STRING, true);
     }
@@ -101,6 +104,7 @@ public class IfcRelaxationImpl extends IdEObjectImpl implements IfcRelaxation {
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setRelaxationValueAsString(String newRelaxationValueAsString) {
         eSet(Ifc2x3tc1Package.Literals.IFC_RELAXATION__RELAXATION_VALUE_AS_STRING, newRelaxationValueAsString);
     }
@@ -110,6 +114,7 @@ public class IfcRelaxationImpl extends IdEObjectImpl implements IfcRelaxation {
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public double getInitialStress() {
         return (Double) eGet(Ifc2x3tc1Package.Literals.IFC_RELAXATION__INITIAL_STRESS, true);
     }
@@ -119,6 +124,7 @@ public class IfcRelaxationImpl extends IdEObjectImpl implements IfcRelaxation {
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setInitialStress(double newInitialStress) {
         eSet(Ifc2x3tc1Package.Literals.IFC_RELAXATION__INITIAL_STRESS, newInitialStress);
     }
@@ -128,6 +134,7 @@ public class IfcRelaxationImpl extends IdEObjectImpl implements IfcRelaxation {
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public String getInitialStressAsString() {
         return (String) eGet(Ifc2x3tc1Package.Literals.IFC_RELAXATION__INITIAL_STRESS_AS_STRING, true);
     }
@@ -137,6 +144,7 @@ public class IfcRelaxationImpl extends IdEObjectImpl implements IfcRelaxation {
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setInitialStressAsString(String newInitialStressAsString) {
         eSet(Ifc2x3tc1Package.Literals.IFC_RELAXATION__INITIAL_STRESS_AS_STRING, newInitialStressAsString);
     }

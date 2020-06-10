@@ -51,6 +51,7 @@ public interface IfcRelSpaceBoundary extends IfcRelConnects {
      * @see org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package#getIfcRelSpaceBoundary_RelatingSpace()
      * @see org.bimserver.models.ifc2x3tc1.IfcSpace#getBoundedBy
      * @model opposite="BoundedBy"
+     *        annotation="inverse"
      * @generated
      */
     IfcSpace getRelatingSpace();
@@ -81,6 +82,7 @@ public interface IfcRelSpaceBoundary extends IfcRelConnects {
      * @see org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package#getIfcRelSpaceBoundary_RelatedBuildingElement()
      * @see org.bimserver.models.ifc2x3tc1.IfcElement#getProvidesBoundaries
      * @model opposite="ProvidesBoundaries" unsettable="true"
+     *        annotation="inverse"
      * @generated
      */
     IfcElement getRelatedBuildingElement();

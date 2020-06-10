@@ -60,6 +60,7 @@ public class IfcCircleProfileDefImpl extends IfcParameterizedProfileDefImpl impl
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public double getRadius() {
         return (Double) eGet(Ifc2x3tc1Package.Literals.IFC_CIRCLE_PROFILE_DEF__RADIUS, true);
     }
@@ -69,6 +70,7 @@ public class IfcCircleProfileDefImpl extends IfcParameterizedProfileDefImpl impl
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setRadius(double newRadius) {
         eSet(Ifc2x3tc1Package.Literals.IFC_CIRCLE_PROFILE_DEF__RADIUS, newRadius);
     }
@@ -78,6 +80,7 @@ public class IfcCircleProfileDefImpl extends IfcParameterizedProfileDefImpl impl
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public String getRadiusAsString() {
         return (String) eGet(Ifc2x3tc1Package.Literals.IFC_CIRCLE_PROFILE_DEF__RADIUS_AS_STRING, true);
     }
@@ -87,6 +90,7 @@ public class IfcCircleProfileDefImpl extends IfcParameterizedProfileDefImpl impl
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setRadiusAsString(String newRadiusAsString) {
         eSet(Ifc2x3tc1Package.Literals.IFC_CIRCLE_PROFILE_DEF__RADIUS_AS_STRING, newRadiusAsString);
     }

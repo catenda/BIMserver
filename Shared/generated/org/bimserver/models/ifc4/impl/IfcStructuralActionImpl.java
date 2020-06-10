@@ -60,6 +60,7 @@ public class IfcStructuralActionImpl extends IfcStructuralActivityImpl implement
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public Tristate getDestabilizingLoad() {
         return (Tristate) eGet(Ifc4Package.Literals.IFC_STRUCTURAL_ACTION__DESTABILIZING_LOAD, true);
     }
@@ -69,6 +70,7 @@ public class IfcStructuralActionImpl extends IfcStructuralActivityImpl implement
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setDestabilizingLoad(Tristate newDestabilizingLoad) {
         eSet(Ifc4Package.Literals.IFC_STRUCTURAL_ACTION__DESTABILIZING_LOAD, newDestabilizingLoad);
     }
@@ -78,6 +80,7 @@ public class IfcStructuralActionImpl extends IfcStructuralActivityImpl implement
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void unsetDestabilizingLoad() {
         eUnset(Ifc4Package.Literals.IFC_STRUCTURAL_ACTION__DESTABILIZING_LOAD);
     }
@@ -87,6 +90,7 @@ public class IfcStructuralActionImpl extends IfcStructuralActivityImpl implement
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public boolean isSetDestabilizingLoad() {
         return eIsSet(Ifc4Package.Literals.IFC_STRUCTURAL_ACTION__DESTABILIZING_LOAD);
     }

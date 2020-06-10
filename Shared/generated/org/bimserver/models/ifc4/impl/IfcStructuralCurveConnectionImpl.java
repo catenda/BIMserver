@@ -61,6 +61,7 @@ public class IfcStructuralCurveConnectionImpl extends IfcStructuralConnectionImp
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public IfcDirection getAxis() {
         return (IfcDirection) eGet(Ifc4Package.Literals.IFC_STRUCTURAL_CURVE_CONNECTION__AXIS, true);
     }
@@ -70,6 +71,7 @@ public class IfcStructuralCurveConnectionImpl extends IfcStructuralConnectionImp
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setAxis(IfcDirection newAxis) {
         eSet(Ifc4Package.Literals.IFC_STRUCTURAL_CURVE_CONNECTION__AXIS, newAxis);
     }

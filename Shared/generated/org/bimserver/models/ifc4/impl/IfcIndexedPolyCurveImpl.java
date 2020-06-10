@@ -66,6 +66,7 @@ public class IfcIndexedPolyCurveImpl extends IfcBoundedCurveImpl implements IfcI
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public IfcCartesianPointList getPoints() {
         return (IfcCartesianPointList) eGet(Ifc4Package.Literals.IFC_INDEXED_POLY_CURVE__POINTS, true);
     }
@@ -75,6 +76,7 @@ public class IfcIndexedPolyCurveImpl extends IfcBoundedCurveImpl implements IfcI
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setPoints(IfcCartesianPointList newPoints) {
         eSet(Ifc4Package.Literals.IFC_INDEXED_POLY_CURVE__POINTS, newPoints);
     }
@@ -85,6 +87,7 @@ public class IfcIndexedPolyCurveImpl extends IfcBoundedCurveImpl implements IfcI
      * @generated
      */
     @SuppressWarnings("unchecked")
+    @Override
     public EList<IfcSegmentIndexSelect> getSegments() {
         return (EList<IfcSegmentIndexSelect>) eGet(Ifc4Package.Literals.IFC_INDEXED_POLY_CURVE__SEGMENTS, true);
     }
@@ -94,6 +97,7 @@ public class IfcIndexedPolyCurveImpl extends IfcBoundedCurveImpl implements IfcI
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void unsetSegments() {
         eUnset(Ifc4Package.Literals.IFC_INDEXED_POLY_CURVE__SEGMENTS);
     }
@@ -103,6 +107,7 @@ public class IfcIndexedPolyCurveImpl extends IfcBoundedCurveImpl implements IfcI
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public boolean isSetSegments() {
         return eIsSet(Ifc4Package.Literals.IFC_INDEXED_POLY_CURVE__SEGMENTS);
     }
@@ -112,6 +117,7 @@ public class IfcIndexedPolyCurveImpl extends IfcBoundedCurveImpl implements IfcI
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public Tristate getSelfIntersect() {
         return (Tristate) eGet(Ifc4Package.Literals.IFC_INDEXED_POLY_CURVE__SELF_INTERSECT, true);
     }
@@ -121,6 +127,7 @@ public class IfcIndexedPolyCurveImpl extends IfcBoundedCurveImpl implements IfcI
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setSelfIntersect(Tristate newSelfIntersect) {
         eSet(Ifc4Package.Literals.IFC_INDEXED_POLY_CURVE__SELF_INTERSECT, newSelfIntersect);
     }
@@ -130,6 +137,7 @@ public class IfcIndexedPolyCurveImpl extends IfcBoundedCurveImpl implements IfcI
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void unsetSelfIntersect() {
         eUnset(Ifc4Package.Literals.IFC_INDEXED_POLY_CURVE__SELF_INTERSECT);
     }
@@ -139,6 +147,7 @@ public class IfcIndexedPolyCurveImpl extends IfcBoundedCurveImpl implements IfcI
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public boolean isSetSelfIntersect() {
         return eIsSet(Ifc4Package.Literals.IFC_INDEXED_POLY_CURVE__SELF_INTERSECT);
     }

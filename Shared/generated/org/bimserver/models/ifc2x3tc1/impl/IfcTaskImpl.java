@@ -64,6 +64,7 @@ public class IfcTaskImpl extends IfcProcessImpl implements IfcTask {
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public String getTaskId() {
         return (String) eGet(Ifc2x3tc1Package.Literals.IFC_TASK__TASK_ID, true);
     }
@@ -73,6 +74,7 @@ public class IfcTaskImpl extends IfcProcessImpl implements IfcTask {
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setTaskId(String newTaskId) {
         eSet(Ifc2x3tc1Package.Literals.IFC_TASK__TASK_ID, newTaskId);
     }
@@ -82,6 +84,7 @@ public class IfcTaskImpl extends IfcProcessImpl implements IfcTask {
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public String getStatus() {
         return (String) eGet(Ifc2x3tc1Package.Literals.IFC_TASK__STATUS, true);
     }
@@ -91,6 +94,7 @@ public class IfcTaskImpl extends IfcProcessImpl implements IfcTask {
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setStatus(String newStatus) {
         eSet(Ifc2x3tc1Package.Literals.IFC_TASK__STATUS, newStatus);
     }
@@ -100,6 +104,7 @@ public class IfcTaskImpl extends IfcProcessImpl implements IfcTask {
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void unsetStatus() {
         eUnset(Ifc2x3tc1Package.Literals.IFC_TASK__STATUS);
     }
@@ -109,6 +114,7 @@ public class IfcTaskImpl extends IfcProcessImpl implements IfcTask {
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public boolean isSetStatus() {
         return eIsSet(Ifc2x3tc1Package.Literals.IFC_TASK__STATUS);
     }
@@ -118,6 +124,7 @@ public class IfcTaskImpl extends IfcProcessImpl implements IfcTask {
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public String getWorkMethod() {
         return (String) eGet(Ifc2x3tc1Package.Literals.IFC_TASK__WORK_METHOD, true);
     }
@@ -127,6 +134,7 @@ public class IfcTaskImpl extends IfcProcessImpl implements IfcTask {
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setWorkMethod(String newWorkMethod) {
         eSet(Ifc2x3tc1Package.Literals.IFC_TASK__WORK_METHOD, newWorkMethod);
     }
@@ -136,6 +144,7 @@ public class IfcTaskImpl extends IfcProcessImpl implements IfcTask {
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void unsetWorkMethod() {
         eUnset(Ifc2x3tc1Package.Literals.IFC_TASK__WORK_METHOD);
     }
@@ -145,6 +154,7 @@ public class IfcTaskImpl extends IfcProcessImpl implements IfcTask {
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public boolean isSetWorkMethod() {
         return eIsSet(Ifc2x3tc1Package.Literals.IFC_TASK__WORK_METHOD);
     }
@@ -154,6 +164,7 @@ public class IfcTaskImpl extends IfcProcessImpl implements IfcTask {
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public Tristate getIsMilestone() {
         return (Tristate) eGet(Ifc2x3tc1Package.Literals.IFC_TASK__IS_MILESTONE, true);
     }
@@ -163,6 +174,7 @@ public class IfcTaskImpl extends IfcProcessImpl implements IfcTask {
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setIsMilestone(Tristate newIsMilestone) {
         eSet(Ifc2x3tc1Package.Literals.IFC_TASK__IS_MILESTONE, newIsMilestone);
     }
@@ -172,6 +184,7 @@ public class IfcTaskImpl extends IfcProcessImpl implements IfcTask {
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public long getPriority() {
         return (Long) eGet(Ifc2x3tc1Package.Literals.IFC_TASK__PRIORITY, true);
     }
@@ -181,6 +194,7 @@ public class IfcTaskImpl extends IfcProcessImpl implements IfcTask {
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setPriority(long newPriority) {
         eSet(Ifc2x3tc1Package.Literals.IFC_TASK__PRIORITY, newPriority);
     }
@@ -190,6 +204,7 @@ public class IfcTaskImpl extends IfcProcessImpl implements IfcTask {
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void unsetPriority() {
         eUnset(Ifc2x3tc1Package.Literals.IFC_TASK__PRIORITY);
     }
@@ -199,6 +214,7 @@ public class IfcTaskImpl extends IfcProcessImpl implements IfcTask {
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public boolean isSetPriority() {
         return eIsSet(Ifc2x3tc1Package.Literals.IFC_TASK__PRIORITY);
     }

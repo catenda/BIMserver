@@ -66,6 +66,7 @@ public class IfcConstructionResourceImpl extends IfcResourceImpl implements IfcC
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public IfcResourceTime getUsage() {
         return (IfcResourceTime) eGet(Ifc4Package.Literals.IFC_CONSTRUCTION_RESOURCE__USAGE, true);
     }
@@ -75,6 +76,7 @@ public class IfcConstructionResourceImpl extends IfcResourceImpl implements IfcC
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setUsage(IfcResourceTime newUsage) {
         eSet(Ifc4Package.Literals.IFC_CONSTRUCTION_RESOURCE__USAGE, newUsage);
     }
@@ -84,6 +86,7 @@ public class IfcConstructionResourceImpl extends IfcResourceImpl implements IfcC
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void unsetUsage() {
         eUnset(Ifc4Package.Literals.IFC_CONSTRUCTION_RESOURCE__USAGE);
     }
@@ -93,6 +96,7 @@ public class IfcConstructionResourceImpl extends IfcResourceImpl implements IfcC
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public boolean isSetUsage() {
         return eIsSet(Ifc4Package.Literals.IFC_CONSTRUCTION_RESOURCE__USAGE);
     }
@@ -103,6 +107,7 @@ public class IfcConstructionResourceImpl extends IfcResourceImpl implements IfcC
      * @generated
      */
     @SuppressWarnings("unchecked")
+    @Override
     public EList<IfcAppliedValue> getBaseCosts() {
         return (EList<IfcAppliedValue>) eGet(Ifc4Package.Literals.IFC_CONSTRUCTION_RESOURCE__BASE_COSTS, true);
     }
@@ -112,6 +117,7 @@ public class IfcConstructionResourceImpl extends IfcResourceImpl implements IfcC
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void unsetBaseCosts() {
         eUnset(Ifc4Package.Literals.IFC_CONSTRUCTION_RESOURCE__BASE_COSTS);
     }
@@ -121,6 +127,7 @@ public class IfcConstructionResourceImpl extends IfcResourceImpl implements IfcC
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public boolean isSetBaseCosts() {
         return eIsSet(Ifc4Package.Literals.IFC_CONSTRUCTION_RESOURCE__BASE_COSTS);
     }
@@ -130,6 +137,7 @@ public class IfcConstructionResourceImpl extends IfcResourceImpl implements IfcC
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public IfcPhysicalQuantity getBaseQuantity() {
         return (IfcPhysicalQuantity) eGet(Ifc4Package.Literals.IFC_CONSTRUCTION_RESOURCE__BASE_QUANTITY, true);
     }
@@ -139,6 +147,7 @@ public class IfcConstructionResourceImpl extends IfcResourceImpl implements IfcC
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setBaseQuantity(IfcPhysicalQuantity newBaseQuantity) {
         eSet(Ifc4Package.Literals.IFC_CONSTRUCTION_RESOURCE__BASE_QUANTITY, newBaseQuantity);
     }
@@ -148,6 +157,7 @@ public class IfcConstructionResourceImpl extends IfcResourceImpl implements IfcC
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void unsetBaseQuantity() {
         eUnset(Ifc4Package.Literals.IFC_CONSTRUCTION_RESOURCE__BASE_QUANTITY);
     }
@@ -157,6 +167,7 @@ public class IfcConstructionResourceImpl extends IfcResourceImpl implements IfcC
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public boolean isSetBaseQuantity() {
         return eIsSet(Ifc4Package.Literals.IFC_CONSTRUCTION_RESOURCE__BASE_QUANTITY);
     }

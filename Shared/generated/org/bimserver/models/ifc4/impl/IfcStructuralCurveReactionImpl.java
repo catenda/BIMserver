@@ -60,6 +60,7 @@ public class IfcStructuralCurveReactionImpl extends IfcStructuralReactionImpl im
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public IfcStructuralCurveActivityTypeEnum getPredefinedType() {
         return (IfcStructuralCurveActivityTypeEnum) eGet(
                 Ifc4Package.Literals.IFC_STRUCTURAL_CURVE_REACTION__PREDEFINED_TYPE, true);
@@ -70,6 +71,7 @@ public class IfcStructuralCurveReactionImpl extends IfcStructuralReactionImpl im
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setPredefinedType(IfcStructuralCurveActivityTypeEnum newPredefinedType) {
         eSet(Ifc4Package.Literals.IFC_STRUCTURAL_CURVE_REACTION__PREDEFINED_TYPE, newPredefinedType);
     }

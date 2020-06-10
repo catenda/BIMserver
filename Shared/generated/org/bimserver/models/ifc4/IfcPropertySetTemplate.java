@@ -161,6 +161,7 @@ public interface IfcPropertySetTemplate extends IfcPropertyTemplateDefinition {
      * @see org.bimserver.models.ifc4.Ifc4Package#getIfcPropertySetTemplate_HasPropertyTemplates()
      * @see org.bimserver.models.ifc4.IfcPropertyTemplate#getPartOfPsetTemplate
      * @model opposite="PartOfPsetTemplate"
+     *        annotation="inverse"
      * @generated
      */
     EList<IfcPropertyTemplate> getHasPropertyTemplates();
@@ -181,6 +182,7 @@ public interface IfcPropertySetTemplate extends IfcPropertyTemplateDefinition {
      * @see org.bimserver.models.ifc4.Ifc4Package#getIfcPropertySetTemplate_Defines()
      * @see org.bimserver.models.ifc4.IfcRelDefinesByTemplate#getRelatingTemplate
      * @model opposite="RelatingTemplate" unsettable="true"
+     *        annotation="inverse"
      * @generated
      */
     EList<IfcRelDefinesByTemplate> getDefines();

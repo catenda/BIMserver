@@ -63,6 +63,7 @@ public class IfcRelNestsImpl extends IfcRelDecomposesImpl implements IfcRelNests
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public IfcObjectDefinition getRelatingObject() {
         return (IfcObjectDefinition) eGet(Ifc4Package.Literals.IFC_REL_NESTS__RELATING_OBJECT, true);
     }
@@ -72,6 +73,7 @@ public class IfcRelNestsImpl extends IfcRelDecomposesImpl implements IfcRelNests
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setRelatingObject(IfcObjectDefinition newRelatingObject) {
         eSet(Ifc4Package.Literals.IFC_REL_NESTS__RELATING_OBJECT, newRelatingObject);
     }
@@ -82,6 +84,7 @@ public class IfcRelNestsImpl extends IfcRelDecomposesImpl implements IfcRelNests
      * @generated
      */
     @SuppressWarnings("unchecked")
+    @Override
     public EList<IfcObjectDefinition> getRelatedObjects() {
         return (EList<IfcObjectDefinition>) eGet(Ifc4Package.Literals.IFC_REL_NESTS__RELATED_OBJECTS, true);
     }

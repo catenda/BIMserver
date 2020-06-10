@@ -60,6 +60,7 @@ public class WebModulePluginConfigurationImpl extends PluginConfigurationImpl im
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public ServerSettings getServerSettings() {
         return (ServerSettings) eGet(StorePackage.Literals.WEB_MODULE_PLUGIN_CONFIGURATION__SERVER_SETTINGS, true);
     }
@@ -69,6 +70,7 @@ public class WebModulePluginConfigurationImpl extends PluginConfigurationImpl im
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setServerSettings(ServerSettings newServerSettings) {
         eSet(StorePackage.Literals.WEB_MODULE_PLUGIN_CONFIGURATION__SERVER_SETTINGS, newServerSettings);
     }

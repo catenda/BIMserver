@@ -60,6 +60,7 @@ public class IfcStairImpl extends IfcBuildingElementImpl implements IfcStair {
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public IfcStairTypeEnum getShapeType() {
         return (IfcStairTypeEnum) eGet(Ifc2x3tc1Package.Literals.IFC_STAIR__SHAPE_TYPE, true);
     }
@@ -69,6 +70,7 @@ public class IfcStairImpl extends IfcBuildingElementImpl implements IfcStair {
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setShapeType(IfcStairTypeEnum newShapeType) {
         eSet(Ifc2x3tc1Package.Literals.IFC_STAIR__SHAPE_TYPE, newShapeType);
     }

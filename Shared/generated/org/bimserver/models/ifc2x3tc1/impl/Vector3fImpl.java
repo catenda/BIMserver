@@ -73,6 +73,7 @@ public class Vector3fImpl extends IdEObjectImpl implements Vector3f {
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public float getX() {
         return (Float) eGet(Ifc2x3tc1Package.Literals.VECTOR3F__X, true);
     }
@@ -82,6 +83,7 @@ public class Vector3fImpl extends IdEObjectImpl implements Vector3f {
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setX(float newX) {
         eSet(Ifc2x3tc1Package.Literals.VECTOR3F__X, newX);
     }
@@ -91,6 +93,7 @@ public class Vector3fImpl extends IdEObjectImpl implements Vector3f {
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public float getY() {
         return (Float) eGet(Ifc2x3tc1Package.Literals.VECTOR3F__Y, true);
     }
@@ -100,6 +103,7 @@ public class Vector3fImpl extends IdEObjectImpl implements Vector3f {
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setY(float newY) {
         eSet(Ifc2x3tc1Package.Literals.VECTOR3F__Y, newY);
     }
@@ -109,6 +113,7 @@ public class Vector3fImpl extends IdEObjectImpl implements Vector3f {
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public float getZ() {
         return (Float) eGet(Ifc2x3tc1Package.Literals.VECTOR3F__Z, true);
     }
@@ -118,6 +123,7 @@ public class Vector3fImpl extends IdEObjectImpl implements Vector3f {
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setZ(float newZ) {
         eSet(Ifc2x3tc1Package.Literals.VECTOR3F__Z, newZ);
     }

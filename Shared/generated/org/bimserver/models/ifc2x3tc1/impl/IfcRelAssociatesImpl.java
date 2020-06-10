@@ -63,6 +63,7 @@ public class IfcRelAssociatesImpl extends IfcRelationshipImpl implements IfcRelA
      * @generated
      */
     @SuppressWarnings("unchecked")
+    @Override
     public EList<IfcRoot> getRelatedObjects() {
         return (EList<IfcRoot>) eGet(Ifc2x3tc1Package.Literals.IFC_REL_ASSOCIATES__RELATED_OBJECTS, true);
     }

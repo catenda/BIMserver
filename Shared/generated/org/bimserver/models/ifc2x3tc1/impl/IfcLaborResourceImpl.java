@@ -59,6 +59,7 @@ public class IfcLaborResourceImpl extends IfcConstructionResourceImpl implements
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public String getSkillSet() {
         return (String) eGet(Ifc2x3tc1Package.Literals.IFC_LABOR_RESOURCE__SKILL_SET, true);
     }
@@ -68,6 +69,7 @@ public class IfcLaborResourceImpl extends IfcConstructionResourceImpl implements
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setSkillSet(String newSkillSet) {
         eSet(Ifc2x3tc1Package.Literals.IFC_LABOR_RESOURCE__SKILL_SET, newSkillSet);
     }
@@ -77,6 +79,7 @@ public class IfcLaborResourceImpl extends IfcConstructionResourceImpl implements
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void unsetSkillSet() {
         eUnset(Ifc2x3tc1Package.Literals.IFC_LABOR_RESOURCE__SKILL_SET);
     }
@@ -86,6 +89,7 @@ public class IfcLaborResourceImpl extends IfcConstructionResourceImpl implements
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public boolean isSetSkillSet() {
         return eIsSet(Ifc2x3tc1Package.Literals.IFC_LABOR_RESOURCE__SKILL_SET);
     }

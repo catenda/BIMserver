@@ -116,6 +116,8 @@ public interface IfcReinforcingMesh extends IfcReinforcingElement {
      * @see #setMeshLengthAsString(String)
      * @see org.bimserver.models.ifc4.Ifc4Package#getIfcReinforcingMesh_MeshLengthAsString()
      * @model unsettable="true"
+     *        annotation="asstring"
+     *        annotation="hidden"
      * @generated
      */
     String getMeshLengthAsString();
@@ -222,6 +224,8 @@ public interface IfcReinforcingMesh extends IfcReinforcingElement {
      * @see #setMeshWidthAsString(String)
      * @see org.bimserver.models.ifc4.Ifc4Package#getIfcReinforcingMesh_MeshWidthAsString()
      * @model unsettable="true"
+     *        annotation="asstring"
+     *        annotation="hidden"
      * @generated
      */
     String getMeshWidthAsString();
@@ -328,6 +332,8 @@ public interface IfcReinforcingMesh extends IfcReinforcingElement {
      * @see #setLongitudinalBarNominalDiameterAsString(String)
      * @see org.bimserver.models.ifc4.Ifc4Package#getIfcReinforcingMesh_LongitudinalBarNominalDiameterAsString()
      * @model unsettable="true"
+     *        annotation="asstring"
+     *        annotation="hidden"
      * @generated
      */
     String getLongitudinalBarNominalDiameterAsString();
@@ -434,6 +440,8 @@ public interface IfcReinforcingMesh extends IfcReinforcingElement {
      * @see #setTransverseBarNominalDiameterAsString(String)
      * @see org.bimserver.models.ifc4.Ifc4Package#getIfcReinforcingMesh_TransverseBarNominalDiameterAsString()
      * @model unsettable="true"
+     *        annotation="asstring"
+     *        annotation="hidden"
      * @generated
      */
     String getTransverseBarNominalDiameterAsString();
@@ -540,6 +548,8 @@ public interface IfcReinforcingMesh extends IfcReinforcingElement {
      * @see #setLongitudinalBarCrossSectionAreaAsString(String)
      * @see org.bimserver.models.ifc4.Ifc4Package#getIfcReinforcingMesh_LongitudinalBarCrossSectionAreaAsString()
      * @model unsettable="true"
+     *        annotation="asstring"
+     *        annotation="hidden"
      * @generated
      */
     String getLongitudinalBarCrossSectionAreaAsString();
@@ -646,6 +656,8 @@ public interface IfcReinforcingMesh extends IfcReinforcingElement {
      * @see #setTransverseBarCrossSectionAreaAsString(String)
      * @see org.bimserver.models.ifc4.Ifc4Package#getIfcReinforcingMesh_TransverseBarCrossSectionAreaAsString()
      * @model unsettable="true"
+     *        annotation="asstring"
+     *        annotation="hidden"
      * @generated
      */
     String getTransverseBarCrossSectionAreaAsString();
@@ -752,6 +764,8 @@ public interface IfcReinforcingMesh extends IfcReinforcingElement {
      * @see #setLongitudinalBarSpacingAsString(String)
      * @see org.bimserver.models.ifc4.Ifc4Package#getIfcReinforcingMesh_LongitudinalBarSpacingAsString()
      * @model unsettable="true"
+     *        annotation="asstring"
+     *        annotation="hidden"
      * @generated
      */
     String getLongitudinalBarSpacingAsString();
@@ -858,6 +872,8 @@ public interface IfcReinforcingMesh extends IfcReinforcingElement {
      * @see #setTransverseBarSpacingAsString(String)
      * @see org.bimserver.models.ifc4.Ifc4Package#getIfcReinforcingMesh_TransverseBarSpacingAsString()
      * @model unsettable="true"
+     *        annotation="asstring"
+     *        annotation="hidden"
      * @generated
      */
     String getTransverseBarSpacingAsString();

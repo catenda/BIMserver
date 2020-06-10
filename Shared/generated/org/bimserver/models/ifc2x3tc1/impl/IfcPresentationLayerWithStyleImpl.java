@@ -66,6 +66,7 @@ public class IfcPresentationLayerWithStyleImpl extends IfcPresentationLayerAssig
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public boolean isLayerOn() {
         return (Boolean) eGet(Ifc2x3tc1Package.Literals.IFC_PRESENTATION_LAYER_WITH_STYLE__LAYER_ON, true);
     }
@@ -75,6 +76,7 @@ public class IfcPresentationLayerWithStyleImpl extends IfcPresentationLayerAssig
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setLayerOn(boolean newLayerOn) {
         eSet(Ifc2x3tc1Package.Literals.IFC_PRESENTATION_LAYER_WITH_STYLE__LAYER_ON, newLayerOn);
     }
@@ -84,6 +86,7 @@ public class IfcPresentationLayerWithStyleImpl extends IfcPresentationLayerAssig
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public boolean isLayerFrozen() {
         return (Boolean) eGet(Ifc2x3tc1Package.Literals.IFC_PRESENTATION_LAYER_WITH_STYLE__LAYER_FROZEN, true);
     }
@@ -93,6 +96,7 @@ public class IfcPresentationLayerWithStyleImpl extends IfcPresentationLayerAssig
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setLayerFrozen(boolean newLayerFrozen) {
         eSet(Ifc2x3tc1Package.Literals.IFC_PRESENTATION_LAYER_WITH_STYLE__LAYER_FROZEN, newLayerFrozen);
     }
@@ -102,6 +106,7 @@ public class IfcPresentationLayerWithStyleImpl extends IfcPresentationLayerAssig
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public boolean isLayerBlocked() {
         return (Boolean) eGet(Ifc2x3tc1Package.Literals.IFC_PRESENTATION_LAYER_WITH_STYLE__LAYER_BLOCKED, true);
     }
@@ -111,6 +116,7 @@ public class IfcPresentationLayerWithStyleImpl extends IfcPresentationLayerAssig
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setLayerBlocked(boolean newLayerBlocked) {
         eSet(Ifc2x3tc1Package.Literals.IFC_PRESENTATION_LAYER_WITH_STYLE__LAYER_BLOCKED, newLayerBlocked);
     }
@@ -121,6 +127,7 @@ public class IfcPresentationLayerWithStyleImpl extends IfcPresentationLayerAssig
      * @generated
      */
     @SuppressWarnings("unchecked")
+    @Override
     public EList<IfcPresentationStyleSelect> getLayerStyles() {
         return (EList<IfcPresentationStyleSelect>) eGet(
                 Ifc2x3tc1Package.Literals.IFC_PRESENTATION_LAYER_WITH_STYLE__LAYER_STYLES, true);

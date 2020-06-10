@@ -64,6 +64,7 @@ public class IfcActorImpl extends IfcObjectImpl implements IfcActor {
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public IfcActorSelect getTheActor() {
         return (IfcActorSelect) eGet(Ifc2x3tc1Package.Literals.IFC_ACTOR__THE_ACTOR, true);
     }
@@ -73,6 +74,7 @@ public class IfcActorImpl extends IfcObjectImpl implements IfcActor {
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setTheActor(IfcActorSelect newTheActor) {
         eSet(Ifc2x3tc1Package.Literals.IFC_ACTOR__THE_ACTOR, newTheActor);
     }
@@ -83,6 +85,7 @@ public class IfcActorImpl extends IfcObjectImpl implements IfcActor {
      * @generated
      */
     @SuppressWarnings("unchecked")
+    @Override
     public EList<IfcRelAssignsToActor> getIsActingUpon() {
         return (EList<IfcRelAssignsToActor>) eGet(Ifc2x3tc1Package.Literals.IFC_ACTOR__IS_ACTING_UPON, true);
     }
@@ -92,6 +95,7 @@ public class IfcActorImpl extends IfcObjectImpl implements IfcActor {
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void unsetIsActingUpon() {
         eUnset(Ifc2x3tc1Package.Literals.IFC_ACTOR__IS_ACTING_UPON);
     }
@@ -101,6 +105,7 @@ public class IfcActorImpl extends IfcObjectImpl implements IfcActor {
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public boolean isSetIsActingUpon() {
         return eIsSet(Ifc2x3tc1Package.Literals.IFC_ACTOR__IS_ACTING_UPON);
     }

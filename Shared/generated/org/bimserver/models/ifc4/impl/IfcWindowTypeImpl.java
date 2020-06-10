@@ -65,6 +65,7 @@ public class IfcWindowTypeImpl extends IfcBuildingElementTypeImpl implements Ifc
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public IfcWindowTypeEnum getPredefinedType() {
         return (IfcWindowTypeEnum) eGet(Ifc4Package.Literals.IFC_WINDOW_TYPE__PREDEFINED_TYPE, true);
     }
@@ -74,6 +75,7 @@ public class IfcWindowTypeImpl extends IfcBuildingElementTypeImpl implements Ifc
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setPredefinedType(IfcWindowTypeEnum newPredefinedType) {
         eSet(Ifc4Package.Literals.IFC_WINDOW_TYPE__PREDEFINED_TYPE, newPredefinedType);
     }
@@ -83,6 +85,7 @@ public class IfcWindowTypeImpl extends IfcBuildingElementTypeImpl implements Ifc
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public IfcWindowTypePartitioningEnum getPartitioningType() {
         return (IfcWindowTypePartitioningEnum) eGet(Ifc4Package.Literals.IFC_WINDOW_TYPE__PARTITIONING_TYPE, true);
     }
@@ -92,6 +95,7 @@ public class IfcWindowTypeImpl extends IfcBuildingElementTypeImpl implements Ifc
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setPartitioningType(IfcWindowTypePartitioningEnum newPartitioningType) {
         eSet(Ifc4Package.Literals.IFC_WINDOW_TYPE__PARTITIONING_TYPE, newPartitioningType);
     }
@@ -101,6 +105,7 @@ public class IfcWindowTypeImpl extends IfcBuildingElementTypeImpl implements Ifc
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public Tristate getParameterTakesPrecedence() {
         return (Tristate) eGet(Ifc4Package.Literals.IFC_WINDOW_TYPE__PARAMETER_TAKES_PRECEDENCE, true);
     }
@@ -110,6 +115,7 @@ public class IfcWindowTypeImpl extends IfcBuildingElementTypeImpl implements Ifc
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setParameterTakesPrecedence(Tristate newParameterTakesPrecedence) {
         eSet(Ifc4Package.Literals.IFC_WINDOW_TYPE__PARAMETER_TAKES_PRECEDENCE, newParameterTakesPrecedence);
     }
@@ -119,6 +125,7 @@ public class IfcWindowTypeImpl extends IfcBuildingElementTypeImpl implements Ifc
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void unsetParameterTakesPrecedence() {
         eUnset(Ifc4Package.Literals.IFC_WINDOW_TYPE__PARAMETER_TAKES_PRECEDENCE);
     }
@@ -128,6 +135,7 @@ public class IfcWindowTypeImpl extends IfcBuildingElementTypeImpl implements Ifc
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public boolean isSetParameterTakesPrecedence() {
         return eIsSet(Ifc4Package.Literals.IFC_WINDOW_TYPE__PARAMETER_TAKES_PRECEDENCE);
     }
@@ -137,6 +145,7 @@ public class IfcWindowTypeImpl extends IfcBuildingElementTypeImpl implements Ifc
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public String getUserDefinedPartitioningType() {
         return (String) eGet(Ifc4Package.Literals.IFC_WINDOW_TYPE__USER_DEFINED_PARTITIONING_TYPE, true);
     }
@@ -146,6 +155,7 @@ public class IfcWindowTypeImpl extends IfcBuildingElementTypeImpl implements Ifc
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setUserDefinedPartitioningType(String newUserDefinedPartitioningType) {
         eSet(Ifc4Package.Literals.IFC_WINDOW_TYPE__USER_DEFINED_PARTITIONING_TYPE, newUserDefinedPartitioningType);
     }
@@ -155,6 +165,7 @@ public class IfcWindowTypeImpl extends IfcBuildingElementTypeImpl implements Ifc
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void unsetUserDefinedPartitioningType() {
         eUnset(Ifc4Package.Literals.IFC_WINDOW_TYPE__USER_DEFINED_PARTITIONING_TYPE);
     }
@@ -164,6 +175,7 @@ public class IfcWindowTypeImpl extends IfcBuildingElementTypeImpl implements Ifc
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public boolean isSetUserDefinedPartitioningType() {
         return eIsSet(Ifc4Package.Literals.IFC_WINDOW_TYPE__USER_DEFINED_PARTITIONING_TYPE);
     }

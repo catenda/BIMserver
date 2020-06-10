@@ -76,6 +76,7 @@ public interface IfcTable extends IfcMetricValueSelect {
      * @see org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package#getIfcTable_Rows()
      * @see org.bimserver.models.ifc2x3tc1.IfcTableRow#getOfTable
      * @model opposite="OfTable"
+     *        annotation="inverse"
      * @generated
      */
     EList<IfcTableRow> getRows();

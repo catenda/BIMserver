@@ -62,6 +62,7 @@ public class IfcPileImpl extends IfcBuildingElementImpl implements IfcPile {
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public IfcPileTypeEnum getPredefinedType() {
         return (IfcPileTypeEnum) eGet(Ifc2x3tc1Package.Literals.IFC_PILE__PREDEFINED_TYPE, true);
     }
@@ -71,6 +72,7 @@ public class IfcPileImpl extends IfcBuildingElementImpl implements IfcPile {
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setPredefinedType(IfcPileTypeEnum newPredefinedType) {
         eSet(Ifc2x3tc1Package.Literals.IFC_PILE__PREDEFINED_TYPE, newPredefinedType);
     }
@@ -80,6 +82,7 @@ public class IfcPileImpl extends IfcBuildingElementImpl implements IfcPile {
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public IfcPileConstructionEnum getConstructionType() {
         return (IfcPileConstructionEnum) eGet(Ifc2x3tc1Package.Literals.IFC_PILE__CONSTRUCTION_TYPE, true);
     }
@@ -89,6 +92,7 @@ public class IfcPileImpl extends IfcBuildingElementImpl implements IfcPile {
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setConstructionType(IfcPileConstructionEnum newConstructionType) {
         eSet(Ifc2x3tc1Package.Literals.IFC_PILE__CONSTRUCTION_TYPE, newConstructionType);
     }
@@ -98,6 +102,7 @@ public class IfcPileImpl extends IfcBuildingElementImpl implements IfcPile {
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void unsetConstructionType() {
         eUnset(Ifc2x3tc1Package.Literals.IFC_PILE__CONSTRUCTION_TYPE);
     }
@@ -107,6 +112,7 @@ public class IfcPileImpl extends IfcBuildingElementImpl implements IfcPile {
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public boolean isSetConstructionType() {
         return eIsSet(Ifc2x3tc1Package.Literals.IFC_PILE__CONSTRUCTION_TYPE);
     }

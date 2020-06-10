@@ -107,6 +107,8 @@ public interface IfcFuelProperties extends IfcMaterialProperties {
      * @see #setCombustionTemperatureAsString(String)
      * @see org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package#getIfcFuelProperties_CombustionTemperatureAsString()
      * @model unsettable="true"
+     *        annotation="asstring"
+     *        annotation="hidden"
      * @generated
      */
     String getCombustionTemperatureAsString();
@@ -213,6 +215,8 @@ public interface IfcFuelProperties extends IfcMaterialProperties {
      * @see #setCarbonContentAsString(String)
      * @see org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package#getIfcFuelProperties_CarbonContentAsString()
      * @model unsettable="true"
+     *        annotation="asstring"
+     *        annotation="hidden"
      * @generated
      */
     String getCarbonContentAsString();
@@ -319,6 +323,8 @@ public interface IfcFuelProperties extends IfcMaterialProperties {
      * @see #setLowerHeatingValueAsString(String)
      * @see org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package#getIfcFuelProperties_LowerHeatingValueAsString()
      * @model unsettable="true"
+     *        annotation="asstring"
+     *        annotation="hidden"
      * @generated
      */
     String getLowerHeatingValueAsString();
@@ -425,6 +431,8 @@ public interface IfcFuelProperties extends IfcMaterialProperties {
      * @see #setHigherHeatingValueAsString(String)
      * @see org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package#getIfcFuelProperties_HigherHeatingValueAsString()
      * @model unsettable="true"
+     *        annotation="asstring"
+     *        annotation="hidden"
      * @generated
      */
     String getHigherHeatingValueAsString();

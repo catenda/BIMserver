@@ -76,6 +76,7 @@ public class IfcIrregularTimeSeriesValueImpl extends IdEObjectImpl implements If
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public IfcDateTimeSelect getTimeStamp() {
         return (IfcDateTimeSelect) eGet(Ifc2x3tc1Package.Literals.IFC_IRREGULAR_TIME_SERIES_VALUE__TIME_STAMP, true);
     }
@@ -85,6 +86,7 @@ public class IfcIrregularTimeSeriesValueImpl extends IdEObjectImpl implements If
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setTimeStamp(IfcDateTimeSelect newTimeStamp) {
         eSet(Ifc2x3tc1Package.Literals.IFC_IRREGULAR_TIME_SERIES_VALUE__TIME_STAMP, newTimeStamp);
     }
@@ -95,6 +97,7 @@ public class IfcIrregularTimeSeriesValueImpl extends IdEObjectImpl implements If
      * @generated
      */
     @SuppressWarnings("unchecked")
+    @Override
     public EList<IfcValue> getListValues() {
         return (EList<IfcValue>) eGet(Ifc2x3tc1Package.Literals.IFC_IRREGULAR_TIME_SERIES_VALUE__LIST_VALUES, true);
     }

@@ -131,6 +131,8 @@ public interface IfcStructuralSurfaceMember extends IfcStructuralMember {
      * @see #setThicknessAsString(String)
      * @see org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package#getIfcStructuralSurfaceMember_ThicknessAsString()
      * @model unsettable="true"
+     *        annotation="asstring"
+     *        annotation="hidden"
      * @generated
      */
     String getThicknessAsString();

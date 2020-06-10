@@ -68,6 +68,7 @@ public class IfcObjectiveImpl extends IfcConstraintImpl implements IfcObjective 
      * @generated
      */
     @SuppressWarnings("unchecked")
+    @Override
     public EList<IfcConstraint> getBenchmarkValues() {
         return (EList<IfcConstraint>) eGet(Ifc4Package.Literals.IFC_OBJECTIVE__BENCHMARK_VALUES, true);
     }
@@ -77,6 +78,7 @@ public class IfcObjectiveImpl extends IfcConstraintImpl implements IfcObjective 
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void unsetBenchmarkValues() {
         eUnset(Ifc4Package.Literals.IFC_OBJECTIVE__BENCHMARK_VALUES);
     }
@@ -86,6 +88,7 @@ public class IfcObjectiveImpl extends IfcConstraintImpl implements IfcObjective 
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public boolean isSetBenchmarkValues() {
         return eIsSet(Ifc4Package.Literals.IFC_OBJECTIVE__BENCHMARK_VALUES);
     }
@@ -95,6 +98,7 @@ public class IfcObjectiveImpl extends IfcConstraintImpl implements IfcObjective 
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public IfcLogicalOperatorEnum getLogicalAggregator() {
         return (IfcLogicalOperatorEnum) eGet(Ifc4Package.Literals.IFC_OBJECTIVE__LOGICAL_AGGREGATOR, true);
     }
@@ -104,6 +108,7 @@ public class IfcObjectiveImpl extends IfcConstraintImpl implements IfcObjective 
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setLogicalAggregator(IfcLogicalOperatorEnum newLogicalAggregator) {
         eSet(Ifc4Package.Literals.IFC_OBJECTIVE__LOGICAL_AGGREGATOR, newLogicalAggregator);
     }
@@ -113,6 +118,7 @@ public class IfcObjectiveImpl extends IfcConstraintImpl implements IfcObjective 
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void unsetLogicalAggregator() {
         eUnset(Ifc4Package.Literals.IFC_OBJECTIVE__LOGICAL_AGGREGATOR);
     }
@@ -122,6 +128,7 @@ public class IfcObjectiveImpl extends IfcConstraintImpl implements IfcObjective 
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public boolean isSetLogicalAggregator() {
         return eIsSet(Ifc4Package.Literals.IFC_OBJECTIVE__LOGICAL_AGGREGATOR);
     }
@@ -131,6 +138,7 @@ public class IfcObjectiveImpl extends IfcConstraintImpl implements IfcObjective 
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public IfcObjectiveEnum getObjectiveQualifier() {
         return (IfcObjectiveEnum) eGet(Ifc4Package.Literals.IFC_OBJECTIVE__OBJECTIVE_QUALIFIER, true);
     }
@@ -140,6 +148,7 @@ public class IfcObjectiveImpl extends IfcConstraintImpl implements IfcObjective 
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setObjectiveQualifier(IfcObjectiveEnum newObjectiveQualifier) {
         eSet(Ifc4Package.Literals.IFC_OBJECTIVE__OBJECTIVE_QUALIFIER, newObjectiveQualifier);
     }
@@ -149,6 +158,7 @@ public class IfcObjectiveImpl extends IfcConstraintImpl implements IfcObjective 
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public String getUserDefinedQualifier() {
         return (String) eGet(Ifc4Package.Literals.IFC_OBJECTIVE__USER_DEFINED_QUALIFIER, true);
     }
@@ -158,6 +168,7 @@ public class IfcObjectiveImpl extends IfcConstraintImpl implements IfcObjective 
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setUserDefinedQualifier(String newUserDefinedQualifier) {
         eSet(Ifc4Package.Literals.IFC_OBJECTIVE__USER_DEFINED_QUALIFIER, newUserDefinedQualifier);
     }
@@ -167,6 +178,7 @@ public class IfcObjectiveImpl extends IfcConstraintImpl implements IfcObjective 
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void unsetUserDefinedQualifier() {
         eUnset(Ifc4Package.Literals.IFC_OBJECTIVE__USER_DEFINED_QUALIFIER);
     }
@@ -176,6 +188,7 @@ public class IfcObjectiveImpl extends IfcConstraintImpl implements IfcObjective 
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public boolean isSetUserDefinedQualifier() {
         return eIsSet(Ifc4Package.Literals.IFC_OBJECTIVE__USER_DEFINED_QUALIFIER);
     }

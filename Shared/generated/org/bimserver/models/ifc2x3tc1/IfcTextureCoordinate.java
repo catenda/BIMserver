@@ -54,6 +54,7 @@ public interface IfcTextureCoordinate extends IdEObject {
      * @see org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package#getIfcTextureCoordinate_AnnotatedSurface()
      * @see org.bimserver.models.ifc2x3tc1.IfcAnnotationSurface#getTextureCoordinates
      * @model opposite="TextureCoordinates" unsettable="true" upper="2"
+     *        annotation="inverse"
      * @generated
      */
     EList<IfcAnnotationSurface> getAnnotatedSurface();

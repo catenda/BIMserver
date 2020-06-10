@@ -64,6 +64,7 @@ public class IfcSoundValueImpl extends IfcPropertySetDefinitionImpl implements I
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public IfcTimeSeries getSoundLevelTimeSeries() {
         return (IfcTimeSeries) eGet(Ifc2x3tc1Package.Literals.IFC_SOUND_VALUE__SOUND_LEVEL_TIME_SERIES, true);
     }
@@ -73,6 +74,7 @@ public class IfcSoundValueImpl extends IfcPropertySetDefinitionImpl implements I
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setSoundLevelTimeSeries(IfcTimeSeries newSoundLevelTimeSeries) {
         eSet(Ifc2x3tc1Package.Literals.IFC_SOUND_VALUE__SOUND_LEVEL_TIME_SERIES, newSoundLevelTimeSeries);
     }
@@ -82,6 +84,7 @@ public class IfcSoundValueImpl extends IfcPropertySetDefinitionImpl implements I
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void unsetSoundLevelTimeSeries() {
         eUnset(Ifc2x3tc1Package.Literals.IFC_SOUND_VALUE__SOUND_LEVEL_TIME_SERIES);
     }
@@ -91,6 +94,7 @@ public class IfcSoundValueImpl extends IfcPropertySetDefinitionImpl implements I
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public boolean isSetSoundLevelTimeSeries() {
         return eIsSet(Ifc2x3tc1Package.Literals.IFC_SOUND_VALUE__SOUND_LEVEL_TIME_SERIES);
     }
@@ -100,6 +104,7 @@ public class IfcSoundValueImpl extends IfcPropertySetDefinitionImpl implements I
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public double getFrequency() {
         return (Double) eGet(Ifc2x3tc1Package.Literals.IFC_SOUND_VALUE__FREQUENCY, true);
     }
@@ -109,6 +114,7 @@ public class IfcSoundValueImpl extends IfcPropertySetDefinitionImpl implements I
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setFrequency(double newFrequency) {
         eSet(Ifc2x3tc1Package.Literals.IFC_SOUND_VALUE__FREQUENCY, newFrequency);
     }
@@ -118,6 +124,7 @@ public class IfcSoundValueImpl extends IfcPropertySetDefinitionImpl implements I
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public String getFrequencyAsString() {
         return (String) eGet(Ifc2x3tc1Package.Literals.IFC_SOUND_VALUE__FREQUENCY_AS_STRING, true);
     }
@@ -127,6 +134,7 @@ public class IfcSoundValueImpl extends IfcPropertySetDefinitionImpl implements I
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setFrequencyAsString(String newFrequencyAsString) {
         eSet(Ifc2x3tc1Package.Literals.IFC_SOUND_VALUE__FREQUENCY_AS_STRING, newFrequencyAsString);
     }
@@ -136,6 +144,7 @@ public class IfcSoundValueImpl extends IfcPropertySetDefinitionImpl implements I
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public IfcDerivedMeasureValue getSoundLevelSingleValue() {
         return (IfcDerivedMeasureValue) eGet(Ifc2x3tc1Package.Literals.IFC_SOUND_VALUE__SOUND_LEVEL_SINGLE_VALUE, true);
     }
@@ -145,6 +154,7 @@ public class IfcSoundValueImpl extends IfcPropertySetDefinitionImpl implements I
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setSoundLevelSingleValue(IfcDerivedMeasureValue newSoundLevelSingleValue) {
         eSet(Ifc2x3tc1Package.Literals.IFC_SOUND_VALUE__SOUND_LEVEL_SINGLE_VALUE, newSoundLevelSingleValue);
     }
@@ -154,6 +164,7 @@ public class IfcSoundValueImpl extends IfcPropertySetDefinitionImpl implements I
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void unsetSoundLevelSingleValue() {
         eUnset(Ifc2x3tc1Package.Literals.IFC_SOUND_VALUE__SOUND_LEVEL_SINGLE_VALUE);
     }
@@ -163,6 +174,7 @@ public class IfcSoundValueImpl extends IfcPropertySetDefinitionImpl implements I
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public boolean isSetSoundLevelSingleValue() {
         return eIsSet(Ifc2x3tc1Package.Literals.IFC_SOUND_VALUE__SOUND_LEVEL_SINGLE_VALUE);
     }

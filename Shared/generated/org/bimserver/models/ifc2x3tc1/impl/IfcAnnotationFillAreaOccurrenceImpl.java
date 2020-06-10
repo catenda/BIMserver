@@ -63,6 +63,7 @@ public class IfcAnnotationFillAreaOccurrenceImpl extends IfcAnnotationOccurrence
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public IfcPoint getFillStyleTarget() {
         return (IfcPoint) eGet(Ifc2x3tc1Package.Literals.IFC_ANNOTATION_FILL_AREA_OCCURRENCE__FILL_STYLE_TARGET, true);
     }
@@ -72,6 +73,7 @@ public class IfcAnnotationFillAreaOccurrenceImpl extends IfcAnnotationOccurrence
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setFillStyleTarget(IfcPoint newFillStyleTarget) {
         eSet(Ifc2x3tc1Package.Literals.IFC_ANNOTATION_FILL_AREA_OCCURRENCE__FILL_STYLE_TARGET, newFillStyleTarget);
     }
@@ -81,6 +83,7 @@ public class IfcAnnotationFillAreaOccurrenceImpl extends IfcAnnotationOccurrence
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void unsetFillStyleTarget() {
         eUnset(Ifc2x3tc1Package.Literals.IFC_ANNOTATION_FILL_AREA_OCCURRENCE__FILL_STYLE_TARGET);
     }
@@ -90,6 +93,7 @@ public class IfcAnnotationFillAreaOccurrenceImpl extends IfcAnnotationOccurrence
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public boolean isSetFillStyleTarget() {
         return eIsSet(Ifc2x3tc1Package.Literals.IFC_ANNOTATION_FILL_AREA_OCCURRENCE__FILL_STYLE_TARGET);
     }
@@ -99,6 +103,7 @@ public class IfcAnnotationFillAreaOccurrenceImpl extends IfcAnnotationOccurrence
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public IfcGlobalOrLocalEnum getGlobalOrLocal() {
         return (IfcGlobalOrLocalEnum) eGet(
                 Ifc2x3tc1Package.Literals.IFC_ANNOTATION_FILL_AREA_OCCURRENCE__GLOBAL_OR_LOCAL, true);
@@ -109,6 +114,7 @@ public class IfcAnnotationFillAreaOccurrenceImpl extends IfcAnnotationOccurrence
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setGlobalOrLocal(IfcGlobalOrLocalEnum newGlobalOrLocal) {
         eSet(Ifc2x3tc1Package.Literals.IFC_ANNOTATION_FILL_AREA_OCCURRENCE__GLOBAL_OR_LOCAL, newGlobalOrLocal);
     }
@@ -118,6 +124,7 @@ public class IfcAnnotationFillAreaOccurrenceImpl extends IfcAnnotationOccurrence
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void unsetGlobalOrLocal() {
         eUnset(Ifc2x3tc1Package.Literals.IFC_ANNOTATION_FILL_AREA_OCCURRENCE__GLOBAL_OR_LOCAL);
     }
@@ -127,6 +134,7 @@ public class IfcAnnotationFillAreaOccurrenceImpl extends IfcAnnotationOccurrence
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public boolean isSetGlobalOrLocal() {
         return eIsSet(Ifc2x3tc1Package.Literals.IFC_ANNOTATION_FILL_AREA_OCCURRENCE__GLOBAL_OR_LOCAL);
     }

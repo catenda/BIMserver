@@ -64,6 +64,7 @@ public class IfcObjectiveImpl extends IfcConstraintImpl implements IfcObjective 
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public IfcMetric getBenchmarkValues() {
         return (IfcMetric) eGet(Ifc2x3tc1Package.Literals.IFC_OBJECTIVE__BENCHMARK_VALUES, true);
     }
@@ -73,6 +74,7 @@ public class IfcObjectiveImpl extends IfcConstraintImpl implements IfcObjective 
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setBenchmarkValues(IfcMetric newBenchmarkValues) {
         eSet(Ifc2x3tc1Package.Literals.IFC_OBJECTIVE__BENCHMARK_VALUES, newBenchmarkValues);
     }
@@ -82,6 +84,7 @@ public class IfcObjectiveImpl extends IfcConstraintImpl implements IfcObjective 
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void unsetBenchmarkValues() {
         eUnset(Ifc2x3tc1Package.Literals.IFC_OBJECTIVE__BENCHMARK_VALUES);
     }
@@ -91,6 +94,7 @@ public class IfcObjectiveImpl extends IfcConstraintImpl implements IfcObjective 
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public boolean isSetBenchmarkValues() {
         return eIsSet(Ifc2x3tc1Package.Literals.IFC_OBJECTIVE__BENCHMARK_VALUES);
     }
@@ -100,6 +104,7 @@ public class IfcObjectiveImpl extends IfcConstraintImpl implements IfcObjective 
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public IfcMetric getResultValues() {
         return (IfcMetric) eGet(Ifc2x3tc1Package.Literals.IFC_OBJECTIVE__RESULT_VALUES, true);
     }
@@ -109,6 +114,7 @@ public class IfcObjectiveImpl extends IfcConstraintImpl implements IfcObjective 
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setResultValues(IfcMetric newResultValues) {
         eSet(Ifc2x3tc1Package.Literals.IFC_OBJECTIVE__RESULT_VALUES, newResultValues);
     }
@@ -118,6 +124,7 @@ public class IfcObjectiveImpl extends IfcConstraintImpl implements IfcObjective 
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void unsetResultValues() {
         eUnset(Ifc2x3tc1Package.Literals.IFC_OBJECTIVE__RESULT_VALUES);
     }
@@ -127,6 +134,7 @@ public class IfcObjectiveImpl extends IfcConstraintImpl implements IfcObjective 
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public boolean isSetResultValues() {
         return eIsSet(Ifc2x3tc1Package.Literals.IFC_OBJECTIVE__RESULT_VALUES);
     }
@@ -136,6 +144,7 @@ public class IfcObjectiveImpl extends IfcConstraintImpl implements IfcObjective 
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public IfcObjectiveEnum getObjectiveQualifier() {
         return (IfcObjectiveEnum) eGet(Ifc2x3tc1Package.Literals.IFC_OBJECTIVE__OBJECTIVE_QUALIFIER, true);
     }
@@ -145,6 +154,7 @@ public class IfcObjectiveImpl extends IfcConstraintImpl implements IfcObjective 
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setObjectiveQualifier(IfcObjectiveEnum newObjectiveQualifier) {
         eSet(Ifc2x3tc1Package.Literals.IFC_OBJECTIVE__OBJECTIVE_QUALIFIER, newObjectiveQualifier);
     }
@@ -154,6 +164,7 @@ public class IfcObjectiveImpl extends IfcConstraintImpl implements IfcObjective 
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public String getUserDefinedQualifier() {
         return (String) eGet(Ifc2x3tc1Package.Literals.IFC_OBJECTIVE__USER_DEFINED_QUALIFIER, true);
     }
@@ -163,6 +174,7 @@ public class IfcObjectiveImpl extends IfcConstraintImpl implements IfcObjective 
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setUserDefinedQualifier(String newUserDefinedQualifier) {
         eSet(Ifc2x3tc1Package.Literals.IFC_OBJECTIVE__USER_DEFINED_QUALIFIER, newUserDefinedQualifier);
     }
@@ -172,6 +184,7 @@ public class IfcObjectiveImpl extends IfcConstraintImpl implements IfcObjective 
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void unsetUserDefinedQualifier() {
         eUnset(Ifc2x3tc1Package.Literals.IFC_OBJECTIVE__USER_DEFINED_QUALIFIER);
     }
@@ -181,6 +194,7 @@ public class IfcObjectiveImpl extends IfcConstraintImpl implements IfcObjective 
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public boolean isSetUserDefinedQualifier() {
         return eIsSet(Ifc2x3tc1Package.Literals.IFC_OBJECTIVE__USER_DEFINED_QUALIFIER);
     }

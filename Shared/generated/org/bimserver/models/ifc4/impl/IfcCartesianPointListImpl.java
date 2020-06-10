@@ -59,6 +59,7 @@ public class IfcCartesianPointListImpl extends IfcGeometricRepresentationItemImp
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public long getDim() {
         return (Long) eGet(Ifc4Package.Literals.IFC_CARTESIAN_POINT_LIST__DIM, true);
     }
@@ -68,6 +69,7 @@ public class IfcCartesianPointListImpl extends IfcGeometricRepresentationItemImp
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setDim(long newDim) {
         eSet(Ifc4Package.Literals.IFC_CARTESIAN_POINT_LIST__DIM, newDim);
     }
@@ -77,6 +79,7 @@ public class IfcCartesianPointListImpl extends IfcGeometricRepresentationItemImp
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void unsetDim() {
         eUnset(Ifc4Package.Literals.IFC_CARTESIAN_POINT_LIST__DIM);
     }
@@ -86,6 +89,7 @@ public class IfcCartesianPointListImpl extends IfcGeometricRepresentationItemImp
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public boolean isSetDim() {
         return eIsSet(Ifc4Package.Literals.IFC_CARTESIAN_POINT_LIST__DIM);
     }

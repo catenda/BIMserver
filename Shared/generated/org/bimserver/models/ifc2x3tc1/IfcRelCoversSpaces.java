@@ -50,6 +50,7 @@ public interface IfcRelCoversSpaces extends IfcRelConnects {
      * @see org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package#getIfcRelCoversSpaces_RelatedSpace()
      * @see org.bimserver.models.ifc2x3tc1.IfcSpace#getHasCoverings
      * @model opposite="HasCoverings"
+     *        annotation="inverse"
      * @generated
      */
     IfcSpace getRelatedSpace();
@@ -78,6 +79,7 @@ public interface IfcRelCoversSpaces extends IfcRelConnects {
      * @see org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package#getIfcRelCoversSpaces_RelatedCoverings()
      * @see org.bimserver.models.ifc2x3tc1.IfcCovering#getCoversSpaces
      * @model opposite="CoversSpaces"
+     *        annotation="inverse"
      * @generated
      */
     EList<IfcCovering> getRelatedCoverings();

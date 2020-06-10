@@ -74,6 +74,7 @@ public class ProfileDescriptorImpl extends IdEObjectImpl implements ProfileDescr
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public String getName() {
         return (String) eGet(StorePackage.Literals.PROFILE_DESCRIPTOR__NAME, true);
     }
@@ -83,6 +84,7 @@ public class ProfileDescriptorImpl extends IdEObjectImpl implements ProfileDescr
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setName(String newName) {
         eSet(StorePackage.Literals.PROFILE_DESCRIPTOR__NAME, newName);
     }
@@ -92,6 +94,7 @@ public class ProfileDescriptorImpl extends IdEObjectImpl implements ProfileDescr
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public String getDescription() {
         return (String) eGet(StorePackage.Literals.PROFILE_DESCRIPTOR__DESCRIPTION, true);
     }
@@ -101,6 +104,7 @@ public class ProfileDescriptorImpl extends IdEObjectImpl implements ProfileDescr
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setDescription(String newDescription) {
         eSet(StorePackage.Literals.PROFILE_DESCRIPTOR__DESCRIPTION, newDescription);
     }
@@ -110,6 +114,7 @@ public class ProfileDescriptorImpl extends IdEObjectImpl implements ProfileDescr
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public boolean isPublicProfile() {
         return (Boolean) eGet(StorePackage.Literals.PROFILE_DESCRIPTOR__PUBLIC_PROFILE, true);
     }
@@ -119,6 +124,7 @@ public class ProfileDescriptorImpl extends IdEObjectImpl implements ProfileDescr
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setPublicProfile(boolean newPublicProfile) {
         eSet(StorePackage.Literals.PROFILE_DESCRIPTOR__PUBLIC_PROFILE, newPublicProfile);
     }
@@ -128,6 +134,7 @@ public class ProfileDescriptorImpl extends IdEObjectImpl implements ProfileDescr
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public String getIdentifier() {
         return (String) eGet(StorePackage.Literals.PROFILE_DESCRIPTOR__IDENTIFIER, true);
     }
@@ -137,6 +144,7 @@ public class ProfileDescriptorImpl extends IdEObjectImpl implements ProfileDescr
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setIdentifier(String newIdentifier) {
         eSet(StorePackage.Literals.PROFILE_DESCRIPTOR__IDENTIFIER, newIdentifier);
     }

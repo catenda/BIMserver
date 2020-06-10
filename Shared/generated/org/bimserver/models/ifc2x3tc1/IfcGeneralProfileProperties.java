@@ -109,6 +109,8 @@ public interface IfcGeneralProfileProperties extends IfcProfileProperties {
      * @see #setPhysicalWeightAsString(String)
      * @see org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package#getIfcGeneralProfileProperties_PhysicalWeightAsString()
      * @model unsettable="true"
+     *        annotation="asstring"
+     *        annotation="hidden"
      * @generated
      */
     String getPhysicalWeightAsString();
@@ -215,6 +217,8 @@ public interface IfcGeneralProfileProperties extends IfcProfileProperties {
      * @see #setPerimeterAsString(String)
      * @see org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package#getIfcGeneralProfileProperties_PerimeterAsString()
      * @model unsettable="true"
+     *        annotation="asstring"
+     *        annotation="hidden"
      * @generated
      */
     String getPerimeterAsString();
@@ -321,6 +325,8 @@ public interface IfcGeneralProfileProperties extends IfcProfileProperties {
      * @see #setMinimumPlateThicknessAsString(String)
      * @see org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package#getIfcGeneralProfileProperties_MinimumPlateThicknessAsString()
      * @model unsettable="true"
+     *        annotation="asstring"
+     *        annotation="hidden"
      * @generated
      */
     String getMinimumPlateThicknessAsString();
@@ -427,6 +433,8 @@ public interface IfcGeneralProfileProperties extends IfcProfileProperties {
      * @see #setMaximumPlateThicknessAsString(String)
      * @see org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package#getIfcGeneralProfileProperties_MaximumPlateThicknessAsString()
      * @model unsettable="true"
+     *        annotation="asstring"
+     *        annotation="hidden"
      * @generated
      */
     String getMaximumPlateThicknessAsString();
@@ -533,6 +541,8 @@ public interface IfcGeneralProfileProperties extends IfcProfileProperties {
      * @see #setCrossSectionAreaAsString(String)
      * @see org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package#getIfcGeneralProfileProperties_CrossSectionAreaAsString()
      * @model unsettable="true"
+     *        annotation="asstring"
+     *        annotation="hidden"
      * @generated
      */
     String getCrossSectionAreaAsString();

@@ -59,6 +59,7 @@ public class IfcImageTextureImpl extends IfcSurfaceTextureImpl implements IfcIma
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public String getUrlReference() {
         return (String) eGet(Ifc2x3tc1Package.Literals.IFC_IMAGE_TEXTURE__URL_REFERENCE, true);
     }
@@ -68,6 +69,7 @@ public class IfcImageTextureImpl extends IfcSurfaceTextureImpl implements IfcIma
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setUrlReference(String newUrlReference) {
         eSet(Ifc2x3tc1Package.Literals.IFC_IMAGE_TEXTURE__URL_REFERENCE, newUrlReference);
     }

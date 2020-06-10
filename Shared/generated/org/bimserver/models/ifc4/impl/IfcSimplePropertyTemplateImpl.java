@@ -70,6 +70,7 @@ public class IfcSimplePropertyTemplateImpl extends IfcPropertyTemplateImpl imple
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public IfcSimplePropertyTemplateTypeEnum getTemplateType() {
         return (IfcSimplePropertyTemplateTypeEnum) eGet(
                 Ifc4Package.Literals.IFC_SIMPLE_PROPERTY_TEMPLATE__TEMPLATE_TYPE, true);
@@ -80,6 +81,7 @@ public class IfcSimplePropertyTemplateImpl extends IfcPropertyTemplateImpl imple
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setTemplateType(IfcSimplePropertyTemplateTypeEnum newTemplateType) {
         eSet(Ifc4Package.Literals.IFC_SIMPLE_PROPERTY_TEMPLATE__TEMPLATE_TYPE, newTemplateType);
     }
@@ -89,6 +91,7 @@ public class IfcSimplePropertyTemplateImpl extends IfcPropertyTemplateImpl imple
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void unsetTemplateType() {
         eUnset(Ifc4Package.Literals.IFC_SIMPLE_PROPERTY_TEMPLATE__TEMPLATE_TYPE);
     }
@@ -98,6 +101,7 @@ public class IfcSimplePropertyTemplateImpl extends IfcPropertyTemplateImpl imple
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public boolean isSetTemplateType() {
         return eIsSet(Ifc4Package.Literals.IFC_SIMPLE_PROPERTY_TEMPLATE__TEMPLATE_TYPE);
     }
@@ -107,6 +111,7 @@ public class IfcSimplePropertyTemplateImpl extends IfcPropertyTemplateImpl imple
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public String getPrimaryMeasureType() {
         return (String) eGet(Ifc4Package.Literals.IFC_SIMPLE_PROPERTY_TEMPLATE__PRIMARY_MEASURE_TYPE, true);
     }
@@ -116,6 +121,7 @@ public class IfcSimplePropertyTemplateImpl extends IfcPropertyTemplateImpl imple
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setPrimaryMeasureType(String newPrimaryMeasureType) {
         eSet(Ifc4Package.Literals.IFC_SIMPLE_PROPERTY_TEMPLATE__PRIMARY_MEASURE_TYPE, newPrimaryMeasureType);
     }
@@ -125,6 +131,7 @@ public class IfcSimplePropertyTemplateImpl extends IfcPropertyTemplateImpl imple
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void unsetPrimaryMeasureType() {
         eUnset(Ifc4Package.Literals.IFC_SIMPLE_PROPERTY_TEMPLATE__PRIMARY_MEASURE_TYPE);
     }
@@ -134,6 +141,7 @@ public class IfcSimplePropertyTemplateImpl extends IfcPropertyTemplateImpl imple
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public boolean isSetPrimaryMeasureType() {
         return eIsSet(Ifc4Package.Literals.IFC_SIMPLE_PROPERTY_TEMPLATE__PRIMARY_MEASURE_TYPE);
     }
@@ -143,6 +151,7 @@ public class IfcSimplePropertyTemplateImpl extends IfcPropertyTemplateImpl imple
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public String getSecondaryMeasureType() {
         return (String) eGet(Ifc4Package.Literals.IFC_SIMPLE_PROPERTY_TEMPLATE__SECONDARY_MEASURE_TYPE, true);
     }
@@ -152,6 +161,7 @@ public class IfcSimplePropertyTemplateImpl extends IfcPropertyTemplateImpl imple
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setSecondaryMeasureType(String newSecondaryMeasureType) {
         eSet(Ifc4Package.Literals.IFC_SIMPLE_PROPERTY_TEMPLATE__SECONDARY_MEASURE_TYPE, newSecondaryMeasureType);
     }
@@ -161,6 +171,7 @@ public class IfcSimplePropertyTemplateImpl extends IfcPropertyTemplateImpl imple
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void unsetSecondaryMeasureType() {
         eUnset(Ifc4Package.Literals.IFC_SIMPLE_PROPERTY_TEMPLATE__SECONDARY_MEASURE_TYPE);
     }
@@ -170,6 +181,7 @@ public class IfcSimplePropertyTemplateImpl extends IfcPropertyTemplateImpl imple
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public boolean isSetSecondaryMeasureType() {
         return eIsSet(Ifc4Package.Literals.IFC_SIMPLE_PROPERTY_TEMPLATE__SECONDARY_MEASURE_TYPE);
     }
@@ -179,6 +191,7 @@ public class IfcSimplePropertyTemplateImpl extends IfcPropertyTemplateImpl imple
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public IfcPropertyEnumeration getEnumerators() {
         return (IfcPropertyEnumeration) eGet(Ifc4Package.Literals.IFC_SIMPLE_PROPERTY_TEMPLATE__ENUMERATORS, true);
     }
@@ -188,6 +201,7 @@ public class IfcSimplePropertyTemplateImpl extends IfcPropertyTemplateImpl imple
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setEnumerators(IfcPropertyEnumeration newEnumerators) {
         eSet(Ifc4Package.Literals.IFC_SIMPLE_PROPERTY_TEMPLATE__ENUMERATORS, newEnumerators);
     }
@@ -197,6 +211,7 @@ public class IfcSimplePropertyTemplateImpl extends IfcPropertyTemplateImpl imple
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void unsetEnumerators() {
         eUnset(Ifc4Package.Literals.IFC_SIMPLE_PROPERTY_TEMPLATE__ENUMERATORS);
     }
@@ -206,6 +221,7 @@ public class IfcSimplePropertyTemplateImpl extends IfcPropertyTemplateImpl imple
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public boolean isSetEnumerators() {
         return eIsSet(Ifc4Package.Literals.IFC_SIMPLE_PROPERTY_TEMPLATE__ENUMERATORS);
     }
@@ -215,6 +231,7 @@ public class IfcSimplePropertyTemplateImpl extends IfcPropertyTemplateImpl imple
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public IfcUnit getPrimaryUnit() {
         return (IfcUnit) eGet(Ifc4Package.Literals.IFC_SIMPLE_PROPERTY_TEMPLATE__PRIMARY_UNIT, true);
     }
@@ -224,6 +241,7 @@ public class IfcSimplePropertyTemplateImpl extends IfcPropertyTemplateImpl imple
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setPrimaryUnit(IfcUnit newPrimaryUnit) {
         eSet(Ifc4Package.Literals.IFC_SIMPLE_PROPERTY_TEMPLATE__PRIMARY_UNIT, newPrimaryUnit);
     }
@@ -233,6 +251,7 @@ public class IfcSimplePropertyTemplateImpl extends IfcPropertyTemplateImpl imple
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void unsetPrimaryUnit() {
         eUnset(Ifc4Package.Literals.IFC_SIMPLE_PROPERTY_TEMPLATE__PRIMARY_UNIT);
     }
@@ -242,6 +261,7 @@ public class IfcSimplePropertyTemplateImpl extends IfcPropertyTemplateImpl imple
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public boolean isSetPrimaryUnit() {
         return eIsSet(Ifc4Package.Literals.IFC_SIMPLE_PROPERTY_TEMPLATE__PRIMARY_UNIT);
     }
@@ -251,6 +271,7 @@ public class IfcSimplePropertyTemplateImpl extends IfcPropertyTemplateImpl imple
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public IfcUnit getSecondaryUnit() {
         return (IfcUnit) eGet(Ifc4Package.Literals.IFC_SIMPLE_PROPERTY_TEMPLATE__SECONDARY_UNIT, true);
     }
@@ -260,6 +281,7 @@ public class IfcSimplePropertyTemplateImpl extends IfcPropertyTemplateImpl imple
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setSecondaryUnit(IfcUnit newSecondaryUnit) {
         eSet(Ifc4Package.Literals.IFC_SIMPLE_PROPERTY_TEMPLATE__SECONDARY_UNIT, newSecondaryUnit);
     }
@@ -269,6 +291,7 @@ public class IfcSimplePropertyTemplateImpl extends IfcPropertyTemplateImpl imple
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void unsetSecondaryUnit() {
         eUnset(Ifc4Package.Literals.IFC_SIMPLE_PROPERTY_TEMPLATE__SECONDARY_UNIT);
     }
@@ -278,6 +301,7 @@ public class IfcSimplePropertyTemplateImpl extends IfcPropertyTemplateImpl imple
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public boolean isSetSecondaryUnit() {
         return eIsSet(Ifc4Package.Literals.IFC_SIMPLE_PROPERTY_TEMPLATE__SECONDARY_UNIT);
     }
@@ -287,6 +311,7 @@ public class IfcSimplePropertyTemplateImpl extends IfcPropertyTemplateImpl imple
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public String getExpression() {
         return (String) eGet(Ifc4Package.Literals.IFC_SIMPLE_PROPERTY_TEMPLATE__EXPRESSION, true);
     }
@@ -296,6 +321,7 @@ public class IfcSimplePropertyTemplateImpl extends IfcPropertyTemplateImpl imple
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setExpression(String newExpression) {
         eSet(Ifc4Package.Literals.IFC_SIMPLE_PROPERTY_TEMPLATE__EXPRESSION, newExpression);
     }
@@ -305,6 +331,7 @@ public class IfcSimplePropertyTemplateImpl extends IfcPropertyTemplateImpl imple
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void unsetExpression() {
         eUnset(Ifc4Package.Literals.IFC_SIMPLE_PROPERTY_TEMPLATE__EXPRESSION);
     }
@@ -314,6 +341,7 @@ public class IfcSimplePropertyTemplateImpl extends IfcPropertyTemplateImpl imple
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public boolean isSetExpression() {
         return eIsSet(Ifc4Package.Literals.IFC_SIMPLE_PROPERTY_TEMPLATE__EXPRESSION);
     }
@@ -323,6 +351,7 @@ public class IfcSimplePropertyTemplateImpl extends IfcPropertyTemplateImpl imple
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public IfcStateEnum getAccessState() {
         return (IfcStateEnum) eGet(Ifc4Package.Literals.IFC_SIMPLE_PROPERTY_TEMPLATE__ACCESS_STATE, true);
     }
@@ -332,6 +361,7 @@ public class IfcSimplePropertyTemplateImpl extends IfcPropertyTemplateImpl imple
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setAccessState(IfcStateEnum newAccessState) {
         eSet(Ifc4Package.Literals.IFC_SIMPLE_PROPERTY_TEMPLATE__ACCESS_STATE, newAccessState);
     }
@@ -341,6 +371,7 @@ public class IfcSimplePropertyTemplateImpl extends IfcPropertyTemplateImpl imple
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void unsetAccessState() {
         eUnset(Ifc4Package.Literals.IFC_SIMPLE_PROPERTY_TEMPLATE__ACCESS_STATE);
     }
@@ -350,6 +381,7 @@ public class IfcSimplePropertyTemplateImpl extends IfcPropertyTemplateImpl imple
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public boolean isSetAccessState() {
         return eIsSet(Ifc4Package.Literals.IFC_SIMPLE_PROPERTY_TEMPLATE__ACCESS_STATE);
     }

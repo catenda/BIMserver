@@ -50,6 +50,7 @@ public interface IfcRelConnectsWithRealizingElements extends IfcRelConnectsEleme
      * @see org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package#getIfcRelConnectsWithRealizingElements_RealizingElements()
      * @see org.bimserver.models.ifc2x3tc1.IfcElement#getIsConnectionRealization
      * @model opposite="IsConnectionRealization"
+     *        annotation="inverse"
      * @generated
      */
     EList<IfcElement> getRealizingElements();

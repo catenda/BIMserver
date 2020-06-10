@@ -101,6 +101,7 @@ public interface IfcTableRow extends IdEObject {
      * @see org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package#getIfcTableRow_OfTable()
      * @see org.bimserver.models.ifc2x3tc1.IfcTable#getRows
      * @model opposite="Rows" unsettable="true"
+     *        annotation="inverse"
      * @generated
      */
     IfcTable getOfTable();

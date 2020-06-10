@@ -61,6 +61,7 @@ public class IfcBoundaryNodeConditionWarpingImpl extends IfcBoundaryNodeConditio
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public double getWarpingStiffness() {
         return (Double) eGet(Ifc2x3tc1Package.Literals.IFC_BOUNDARY_NODE_CONDITION_WARPING__WARPING_STIFFNESS, true);
     }
@@ -70,6 +71,7 @@ public class IfcBoundaryNodeConditionWarpingImpl extends IfcBoundaryNodeConditio
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setWarpingStiffness(double newWarpingStiffness) {
         eSet(Ifc2x3tc1Package.Literals.IFC_BOUNDARY_NODE_CONDITION_WARPING__WARPING_STIFFNESS, newWarpingStiffness);
     }
@@ -79,6 +81,7 @@ public class IfcBoundaryNodeConditionWarpingImpl extends IfcBoundaryNodeConditio
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void unsetWarpingStiffness() {
         eUnset(Ifc2x3tc1Package.Literals.IFC_BOUNDARY_NODE_CONDITION_WARPING__WARPING_STIFFNESS);
     }
@@ -88,6 +91,7 @@ public class IfcBoundaryNodeConditionWarpingImpl extends IfcBoundaryNodeConditio
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public boolean isSetWarpingStiffness() {
         return eIsSet(Ifc2x3tc1Package.Literals.IFC_BOUNDARY_NODE_CONDITION_WARPING__WARPING_STIFFNESS);
     }
@@ -97,6 +101,7 @@ public class IfcBoundaryNodeConditionWarpingImpl extends IfcBoundaryNodeConditio
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public String getWarpingStiffnessAsString() {
         return (String) eGet(Ifc2x3tc1Package.Literals.IFC_BOUNDARY_NODE_CONDITION_WARPING__WARPING_STIFFNESS_AS_STRING,
                 true);
@@ -107,6 +112,7 @@ public class IfcBoundaryNodeConditionWarpingImpl extends IfcBoundaryNodeConditio
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setWarpingStiffnessAsString(String newWarpingStiffnessAsString) {
         eSet(Ifc2x3tc1Package.Literals.IFC_BOUNDARY_NODE_CONDITION_WARPING__WARPING_STIFFNESS_AS_STRING,
                 newWarpingStiffnessAsString);
@@ -117,6 +123,7 @@ public class IfcBoundaryNodeConditionWarpingImpl extends IfcBoundaryNodeConditio
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void unsetWarpingStiffnessAsString() {
         eUnset(Ifc2x3tc1Package.Literals.IFC_BOUNDARY_NODE_CONDITION_WARPING__WARPING_STIFFNESS_AS_STRING);
     }
@@ -126,6 +133,7 @@ public class IfcBoundaryNodeConditionWarpingImpl extends IfcBoundaryNodeConditio
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public boolean isSetWarpingStiffnessAsString() {
         return eIsSet(Ifc2x3tc1Package.Literals.IFC_BOUNDARY_NODE_CONDITION_WARPING__WARPING_STIFFNESS_AS_STRING);
     }

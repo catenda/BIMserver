@@ -88,6 +88,7 @@ public interface Checkout extends IdEObject {
      * @see org.bimserver.models.store.StorePackage#getCheckout_Revision()
      * @see org.bimserver.models.store.Revision#getCheckouts
      * @model opposite="checkouts"
+     *        annotation="embedsreference"
      * @generated
      */
     Revision getRevision();
@@ -167,7 +168,7 @@ public interface Checkout extends IdEObject {
      * @return the value of the '<em>Checkin</em>' reference.
      * @see #setCheckin(Revision)
      * @see org.bimserver.models.store.StorePackage#getCheckout_Checkin()
-     * @model
+     * @model annotation="embedsreference"
      * @generated
      */
     Revision getCheckin();

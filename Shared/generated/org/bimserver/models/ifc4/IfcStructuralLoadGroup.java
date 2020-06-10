@@ -196,6 +196,8 @@ public interface IfcStructuralLoadGroup extends IfcGroup {
      * @see #setCoefficientAsString(String)
      * @see org.bimserver.models.ifc4.Ifc4Package#getIfcStructuralLoadGroup_CoefficientAsString()
      * @model unsettable="true"
+     *        annotation="asstring"
+     *        annotation="hidden"
      * @generated
      */
     String getCoefficientAsString();
@@ -304,6 +306,7 @@ public interface IfcStructuralLoadGroup extends IfcGroup {
      * @see org.bimserver.models.ifc4.Ifc4Package#getIfcStructuralLoadGroup_SourceOfResultGroup()
      * @see org.bimserver.models.ifc4.IfcStructuralResultGroup#getResultForLoadGroup
      * @model opposite="ResultForLoadGroup" unsettable="true" upper="2"
+     *        annotation="inverse"
      * @generated
      */
     EList<IfcStructuralResultGroup> getSourceOfResultGroup();
@@ -345,6 +348,7 @@ public interface IfcStructuralLoadGroup extends IfcGroup {
      * @see org.bimserver.models.ifc4.Ifc4Package#getIfcStructuralLoadGroup_LoadGroupFor()
      * @see org.bimserver.models.ifc4.IfcStructuralAnalysisModel#getLoadedBy
      * @model opposite="LoadedBy" unsettable="true"
+     *        annotation="inverse"
      * @generated
      */
     EList<IfcStructuralAnalysisModel> getLoadGroupFor();

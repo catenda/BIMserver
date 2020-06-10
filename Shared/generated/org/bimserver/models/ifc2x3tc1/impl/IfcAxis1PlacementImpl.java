@@ -60,6 +60,7 @@ public class IfcAxis1PlacementImpl extends IfcPlacementImpl implements IfcAxis1P
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public IfcDirection getAxis() {
         return (IfcDirection) eGet(Ifc2x3tc1Package.Literals.IFC_AXIS1_PLACEMENT__AXIS, true);
     }
@@ -69,6 +70,7 @@ public class IfcAxis1PlacementImpl extends IfcPlacementImpl implements IfcAxis1P
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setAxis(IfcDirection newAxis) {
         eSet(Ifc2x3tc1Package.Literals.IFC_AXIS1_PLACEMENT__AXIS, newAxis);
     }
@@ -78,6 +80,7 @@ public class IfcAxis1PlacementImpl extends IfcPlacementImpl implements IfcAxis1P
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void unsetAxis() {
         eUnset(Ifc2x3tc1Package.Literals.IFC_AXIS1_PLACEMENT__AXIS);
     }
@@ -87,6 +90,7 @@ public class IfcAxis1PlacementImpl extends IfcPlacementImpl implements IfcAxis1P
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public boolean isSetAxis() {
         return eIsSet(Ifc2x3tc1Package.Literals.IFC_AXIS1_PLACEMENT__AXIS);
     }

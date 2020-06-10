@@ -105,6 +105,7 @@ public interface IfcDistributionControlElement extends IfcDistributionElement {
      * @see org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package#getIfcDistributionControlElement_AssignedToFlowElement()
      * @see org.bimserver.models.ifc2x3tc1.IfcRelFlowControlElements#getRelatedControlElements
      * @model opposite="RelatedControlElements" unsettable="true" upper="2"
+     *        annotation="inverse"
      * @generated
      */
     EList<IfcRelFlowControlElements> getAssignedToFlowElement();

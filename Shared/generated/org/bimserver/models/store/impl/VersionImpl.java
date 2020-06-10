@@ -79,6 +79,7 @@ public class VersionImpl extends IdEObjectImpl implements Version {
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public Integer getMajor() {
         return (Integer) eGet(StorePackage.Literals.VERSION__MAJOR, true);
     }
@@ -88,6 +89,7 @@ public class VersionImpl extends IdEObjectImpl implements Version {
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setMajor(Integer newMajor) {
         eSet(StorePackage.Literals.VERSION__MAJOR, newMajor);
     }
@@ -97,6 +99,7 @@ public class VersionImpl extends IdEObjectImpl implements Version {
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public Integer getMinor() {
         return (Integer) eGet(StorePackage.Literals.VERSION__MINOR, true);
     }
@@ -106,6 +109,7 @@ public class VersionImpl extends IdEObjectImpl implements Version {
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setMinor(Integer newMinor) {
         eSet(StorePackage.Literals.VERSION__MINOR, newMinor);
     }
@@ -115,6 +119,7 @@ public class VersionImpl extends IdEObjectImpl implements Version {
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public Integer getRevision() {
         return (Integer) eGet(StorePackage.Literals.VERSION__REVISION, true);
     }
@@ -124,6 +129,7 @@ public class VersionImpl extends IdEObjectImpl implements Version {
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setRevision(Integer newRevision) {
         eSet(StorePackage.Literals.VERSION__REVISION, newRevision);
     }
@@ -133,6 +139,7 @@ public class VersionImpl extends IdEObjectImpl implements Version {
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public Date getDate() {
         return (Date) eGet(StorePackage.Literals.VERSION__DATE, true);
     }
@@ -142,6 +149,7 @@ public class VersionImpl extends IdEObjectImpl implements Version {
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setDate(Date newDate) {
         eSet(StorePackage.Literals.VERSION__DATE, newDate);
     }
@@ -151,6 +159,7 @@ public class VersionImpl extends IdEObjectImpl implements Version {
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public String getDownloadUrl() {
         return (String) eGet(StorePackage.Literals.VERSION__DOWNLOAD_URL, true);
     }
@@ -160,6 +169,7 @@ public class VersionImpl extends IdEObjectImpl implements Version {
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setDownloadUrl(String newDownloadUrl) {
         eSet(StorePackage.Literals.VERSION__DOWNLOAD_URL, newDownloadUrl);
     }
@@ -169,6 +179,7 @@ public class VersionImpl extends IdEObjectImpl implements Version {
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public String getSupportUrl() {
         return (String) eGet(StorePackage.Literals.VERSION__SUPPORT_URL, true);
     }
@@ -178,6 +189,7 @@ public class VersionImpl extends IdEObjectImpl implements Version {
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setSupportUrl(String newSupportUrl) {
         eSet(StorePackage.Literals.VERSION__SUPPORT_URL, newSupportUrl);
     }
@@ -187,6 +199,7 @@ public class VersionImpl extends IdEObjectImpl implements Version {
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public String getSupportEmail() {
         return (String) eGet(StorePackage.Literals.VERSION__SUPPORT_EMAIL, true);
     }
@@ -196,6 +209,7 @@ public class VersionImpl extends IdEObjectImpl implements Version {
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setSupportEmail(String newSupportEmail) {
         eSet(StorePackage.Literals.VERSION__SUPPORT_EMAIL, newSupportEmail);
     }

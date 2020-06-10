@@ -64,6 +64,7 @@ public class IfcSurfaceStyleImpl extends IfcPresentationStyleImpl implements Ifc
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public IfcSurfaceSide getSide() {
         return (IfcSurfaceSide) eGet(Ifc2x3tc1Package.Literals.IFC_SURFACE_STYLE__SIDE, true);
     }
@@ -73,6 +74,7 @@ public class IfcSurfaceStyleImpl extends IfcPresentationStyleImpl implements Ifc
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setSide(IfcSurfaceSide newSide) {
         eSet(Ifc2x3tc1Package.Literals.IFC_SURFACE_STYLE__SIDE, newSide);
     }
@@ -83,6 +85,7 @@ public class IfcSurfaceStyleImpl extends IfcPresentationStyleImpl implements Ifc
      * @generated
      */
     @SuppressWarnings("unchecked")
+    @Override
     public EList<IfcSurfaceStyleElementSelect> getStyles() {
         return (EList<IfcSurfaceStyleElementSelect>) eGet(Ifc2x3tc1Package.Literals.IFC_SURFACE_STYLE__STYLES, true);
     }

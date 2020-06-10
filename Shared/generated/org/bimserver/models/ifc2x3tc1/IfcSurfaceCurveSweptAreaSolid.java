@@ -101,7 +101,8 @@ public interface IfcSurfaceCurveSweptAreaSolid extends IfcSweptAreaSolid {
      * @return the value of the '<em>Start Param As String</em>' attribute.
      * @see #setStartParamAsString(String)
      * @see org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package#getIfcSurfaceCurveSweptAreaSolid_StartParamAsString()
-     * @model
+     * @model annotation="asstring"
+     *        annotation="hidden"
      * @generated
      */
     String getStartParamAsString();
@@ -153,7 +154,8 @@ public interface IfcSurfaceCurveSweptAreaSolid extends IfcSweptAreaSolid {
      * @return the value of the '<em>End Param As String</em>' attribute.
      * @see #setEndParamAsString(String)
      * @see org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package#getIfcSurfaceCurveSweptAreaSolid_EndParamAsString()
-     * @model
+     * @model annotation="asstring"
+     *        annotation="hidden"
      * @generated
      */
     String getEndParamAsString();

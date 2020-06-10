@@ -82,6 +82,7 @@ public class IfcOwnerHistoryImpl extends IdEObjectImpl implements IfcOwnerHistor
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public IfcPersonAndOrganization getOwningUser() {
         return (IfcPersonAndOrganization) eGet(Ifc4Package.Literals.IFC_OWNER_HISTORY__OWNING_USER, true);
     }
@@ -91,6 +92,7 @@ public class IfcOwnerHistoryImpl extends IdEObjectImpl implements IfcOwnerHistor
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setOwningUser(IfcPersonAndOrganization newOwningUser) {
         eSet(Ifc4Package.Literals.IFC_OWNER_HISTORY__OWNING_USER, newOwningUser);
     }
@@ -100,6 +102,7 @@ public class IfcOwnerHistoryImpl extends IdEObjectImpl implements IfcOwnerHistor
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public IfcApplication getOwningApplication() {
         return (IfcApplication) eGet(Ifc4Package.Literals.IFC_OWNER_HISTORY__OWNING_APPLICATION, true);
     }
@@ -109,6 +112,7 @@ public class IfcOwnerHistoryImpl extends IdEObjectImpl implements IfcOwnerHistor
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setOwningApplication(IfcApplication newOwningApplication) {
         eSet(Ifc4Package.Literals.IFC_OWNER_HISTORY__OWNING_APPLICATION, newOwningApplication);
     }
@@ -118,6 +122,7 @@ public class IfcOwnerHistoryImpl extends IdEObjectImpl implements IfcOwnerHistor
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public IfcStateEnum getState() {
         return (IfcStateEnum) eGet(Ifc4Package.Literals.IFC_OWNER_HISTORY__STATE, true);
     }
@@ -127,6 +132,7 @@ public class IfcOwnerHistoryImpl extends IdEObjectImpl implements IfcOwnerHistor
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setState(IfcStateEnum newState) {
         eSet(Ifc4Package.Literals.IFC_OWNER_HISTORY__STATE, newState);
     }
@@ -136,6 +142,7 @@ public class IfcOwnerHistoryImpl extends IdEObjectImpl implements IfcOwnerHistor
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void unsetState() {
         eUnset(Ifc4Package.Literals.IFC_OWNER_HISTORY__STATE);
     }
@@ -145,6 +152,7 @@ public class IfcOwnerHistoryImpl extends IdEObjectImpl implements IfcOwnerHistor
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public boolean isSetState() {
         return eIsSet(Ifc4Package.Literals.IFC_OWNER_HISTORY__STATE);
     }
@@ -154,6 +162,7 @@ public class IfcOwnerHistoryImpl extends IdEObjectImpl implements IfcOwnerHistor
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public IfcChangeActionEnum getChangeAction() {
         return (IfcChangeActionEnum) eGet(Ifc4Package.Literals.IFC_OWNER_HISTORY__CHANGE_ACTION, true);
     }
@@ -163,6 +172,7 @@ public class IfcOwnerHistoryImpl extends IdEObjectImpl implements IfcOwnerHistor
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setChangeAction(IfcChangeActionEnum newChangeAction) {
         eSet(Ifc4Package.Literals.IFC_OWNER_HISTORY__CHANGE_ACTION, newChangeAction);
     }
@@ -172,6 +182,7 @@ public class IfcOwnerHistoryImpl extends IdEObjectImpl implements IfcOwnerHistor
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void unsetChangeAction() {
         eUnset(Ifc4Package.Literals.IFC_OWNER_HISTORY__CHANGE_ACTION);
     }
@@ -181,6 +192,7 @@ public class IfcOwnerHistoryImpl extends IdEObjectImpl implements IfcOwnerHistor
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public boolean isSetChangeAction() {
         return eIsSet(Ifc4Package.Literals.IFC_OWNER_HISTORY__CHANGE_ACTION);
     }
@@ -190,6 +202,7 @@ public class IfcOwnerHistoryImpl extends IdEObjectImpl implements IfcOwnerHistor
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public long getLastModifiedDate() {
         return (Long) eGet(Ifc4Package.Literals.IFC_OWNER_HISTORY__LAST_MODIFIED_DATE, true);
     }
@@ -199,6 +212,7 @@ public class IfcOwnerHistoryImpl extends IdEObjectImpl implements IfcOwnerHistor
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setLastModifiedDate(long newLastModifiedDate) {
         eSet(Ifc4Package.Literals.IFC_OWNER_HISTORY__LAST_MODIFIED_DATE, newLastModifiedDate);
     }
@@ -208,6 +222,7 @@ public class IfcOwnerHistoryImpl extends IdEObjectImpl implements IfcOwnerHistor
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void unsetLastModifiedDate() {
         eUnset(Ifc4Package.Literals.IFC_OWNER_HISTORY__LAST_MODIFIED_DATE);
     }
@@ -217,6 +232,7 @@ public class IfcOwnerHistoryImpl extends IdEObjectImpl implements IfcOwnerHistor
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public boolean isSetLastModifiedDate() {
         return eIsSet(Ifc4Package.Literals.IFC_OWNER_HISTORY__LAST_MODIFIED_DATE);
     }
@@ -226,6 +242,7 @@ public class IfcOwnerHistoryImpl extends IdEObjectImpl implements IfcOwnerHistor
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public IfcPersonAndOrganization getLastModifyingUser() {
         return (IfcPersonAndOrganization) eGet(Ifc4Package.Literals.IFC_OWNER_HISTORY__LAST_MODIFYING_USER, true);
     }
@@ -235,6 +252,7 @@ public class IfcOwnerHistoryImpl extends IdEObjectImpl implements IfcOwnerHistor
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setLastModifyingUser(IfcPersonAndOrganization newLastModifyingUser) {
         eSet(Ifc4Package.Literals.IFC_OWNER_HISTORY__LAST_MODIFYING_USER, newLastModifyingUser);
     }
@@ -244,6 +262,7 @@ public class IfcOwnerHistoryImpl extends IdEObjectImpl implements IfcOwnerHistor
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void unsetLastModifyingUser() {
         eUnset(Ifc4Package.Literals.IFC_OWNER_HISTORY__LAST_MODIFYING_USER);
     }
@@ -253,6 +272,7 @@ public class IfcOwnerHistoryImpl extends IdEObjectImpl implements IfcOwnerHistor
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public boolean isSetLastModifyingUser() {
         return eIsSet(Ifc4Package.Literals.IFC_OWNER_HISTORY__LAST_MODIFYING_USER);
     }
@@ -262,6 +282,7 @@ public class IfcOwnerHistoryImpl extends IdEObjectImpl implements IfcOwnerHistor
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public IfcApplication getLastModifyingApplication() {
         return (IfcApplication) eGet(Ifc4Package.Literals.IFC_OWNER_HISTORY__LAST_MODIFYING_APPLICATION, true);
     }
@@ -271,6 +292,7 @@ public class IfcOwnerHistoryImpl extends IdEObjectImpl implements IfcOwnerHistor
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setLastModifyingApplication(IfcApplication newLastModifyingApplication) {
         eSet(Ifc4Package.Literals.IFC_OWNER_HISTORY__LAST_MODIFYING_APPLICATION, newLastModifyingApplication);
     }
@@ -280,6 +302,7 @@ public class IfcOwnerHistoryImpl extends IdEObjectImpl implements IfcOwnerHistor
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void unsetLastModifyingApplication() {
         eUnset(Ifc4Package.Literals.IFC_OWNER_HISTORY__LAST_MODIFYING_APPLICATION);
     }
@@ -289,6 +312,7 @@ public class IfcOwnerHistoryImpl extends IdEObjectImpl implements IfcOwnerHistor
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public boolean isSetLastModifyingApplication() {
         return eIsSet(Ifc4Package.Literals.IFC_OWNER_HISTORY__LAST_MODIFYING_APPLICATION);
     }
@@ -298,6 +322,7 @@ public class IfcOwnerHistoryImpl extends IdEObjectImpl implements IfcOwnerHistor
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public long getCreationDate() {
         return (Long) eGet(Ifc4Package.Literals.IFC_OWNER_HISTORY__CREATION_DATE, true);
     }
@@ -307,6 +332,7 @@ public class IfcOwnerHistoryImpl extends IdEObjectImpl implements IfcOwnerHistor
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setCreationDate(long newCreationDate) {
         eSet(Ifc4Package.Literals.IFC_OWNER_HISTORY__CREATION_DATE, newCreationDate);
     }

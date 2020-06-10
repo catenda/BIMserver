@@ -65,6 +65,7 @@ public class ObjectIDMPluginConfigurationImpl extends PluginConfigurationImpl im
      * @generated
      */
     @SuppressWarnings("unchecked")
+    @Override
     public EList<SerializerPluginConfiguration> getSerializers() {
         return (EList<SerializerPluginConfiguration>) eGet(
                 StorePackage.Literals.OBJECT_IDM_PLUGIN_CONFIGURATION__SERIALIZERS, true);
@@ -75,6 +76,7 @@ public class ObjectIDMPluginConfigurationImpl extends PluginConfigurationImpl im
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public UserSettings getUserSettings() {
         return (UserSettings) eGet(StorePackage.Literals.OBJECT_IDM_PLUGIN_CONFIGURATION__USER_SETTINGS, true);
     }
@@ -84,6 +86,7 @@ public class ObjectIDMPluginConfigurationImpl extends PluginConfigurationImpl im
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setUserSettings(UserSettings newUserSettings) {
         eSet(StorePackage.Literals.OBJECT_IDM_PLUGIN_CONFIGURATION__USER_SETTINGS, newUserSettings);
     }

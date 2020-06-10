@@ -60,6 +60,7 @@ public class IfcFootingTypeImpl extends IfcBuildingElementTypeImpl implements If
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public IfcFootingTypeEnum getPredefinedType() {
         return (IfcFootingTypeEnum) eGet(Ifc4Package.Literals.IFC_FOOTING_TYPE__PREDEFINED_TYPE, true);
     }
@@ -69,6 +70,7 @@ public class IfcFootingTypeImpl extends IfcBuildingElementTypeImpl implements If
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setPredefinedType(IfcFootingTypeEnum newPredefinedType) {
         eSet(Ifc4Package.Literals.IFC_FOOTING_TYPE__PREDEFINED_TYPE, newPredefinedType);
     }

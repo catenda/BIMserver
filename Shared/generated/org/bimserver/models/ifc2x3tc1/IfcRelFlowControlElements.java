@@ -50,6 +50,7 @@ public interface IfcRelFlowControlElements extends IfcRelConnects {
      * @see org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package#getIfcRelFlowControlElements_RelatedControlElements()
      * @see org.bimserver.models.ifc2x3tc1.IfcDistributionControlElement#getAssignedToFlowElement
      * @model opposite="AssignedToFlowElement"
+     *        annotation="inverse"
      * @generated
      */
     EList<IfcDistributionControlElement> getRelatedControlElements();
@@ -68,6 +69,7 @@ public interface IfcRelFlowControlElements extends IfcRelConnects {
      * @see org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package#getIfcRelFlowControlElements_RelatingFlowElement()
      * @see org.bimserver.models.ifc2x3tc1.IfcDistributionFlowElement#getHasControlElements
      * @model opposite="HasControlElements"
+     *        annotation="inverse"
      * @generated
      */
     IfcDistributionFlowElement getRelatingFlowElement();

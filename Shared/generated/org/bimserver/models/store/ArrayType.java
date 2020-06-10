@@ -46,7 +46,7 @@ public interface ArrayType extends Type {
      * <!-- end-user-doc -->
      * @return the value of the '<em>Values</em>' reference list.
      * @see org.bimserver.models.store.StorePackage#getArrayType_Values()
-     * @model
+     * @model annotation="embedsreference"
      * @generated
      */
     EList<Type> getValues();

@@ -122,6 +122,8 @@ public interface IfcWindowLiningProperties extends IfcPreDefinedPropertySet {
      * @see #setLiningDepthAsString(String)
      * @see org.bimserver.models.ifc4.Ifc4Package#getIfcWindowLiningProperties_LiningDepthAsString()
      * @model unsettable="true"
+     *        annotation="asstring"
+     *        annotation="hidden"
      * @generated
      */
     String getLiningDepthAsString();
@@ -228,6 +230,8 @@ public interface IfcWindowLiningProperties extends IfcPreDefinedPropertySet {
      * @see #setLiningThicknessAsString(String)
      * @see org.bimserver.models.ifc4.Ifc4Package#getIfcWindowLiningProperties_LiningThicknessAsString()
      * @model unsettable="true"
+     *        annotation="asstring"
+     *        annotation="hidden"
      * @generated
      */
     String getLiningThicknessAsString();
@@ -334,6 +338,8 @@ public interface IfcWindowLiningProperties extends IfcPreDefinedPropertySet {
      * @see #setTransomThicknessAsString(String)
      * @see org.bimserver.models.ifc4.Ifc4Package#getIfcWindowLiningProperties_TransomThicknessAsString()
      * @model unsettable="true"
+     *        annotation="asstring"
+     *        annotation="hidden"
      * @generated
      */
     String getTransomThicknessAsString();
@@ -440,6 +446,8 @@ public interface IfcWindowLiningProperties extends IfcPreDefinedPropertySet {
      * @see #setMullionThicknessAsString(String)
      * @see org.bimserver.models.ifc4.Ifc4Package#getIfcWindowLiningProperties_MullionThicknessAsString()
      * @model unsettable="true"
+     *        annotation="asstring"
+     *        annotation="hidden"
      * @generated
      */
     String getMullionThicknessAsString();
@@ -546,6 +554,8 @@ public interface IfcWindowLiningProperties extends IfcPreDefinedPropertySet {
      * @see #setFirstTransomOffsetAsString(String)
      * @see org.bimserver.models.ifc4.Ifc4Package#getIfcWindowLiningProperties_FirstTransomOffsetAsString()
      * @model unsettable="true"
+     *        annotation="asstring"
+     *        annotation="hidden"
      * @generated
      */
     String getFirstTransomOffsetAsString();
@@ -652,6 +662,8 @@ public interface IfcWindowLiningProperties extends IfcPreDefinedPropertySet {
      * @see #setSecondTransomOffsetAsString(String)
      * @see org.bimserver.models.ifc4.Ifc4Package#getIfcWindowLiningProperties_SecondTransomOffsetAsString()
      * @model unsettable="true"
+     *        annotation="asstring"
+     *        annotation="hidden"
      * @generated
      */
     String getSecondTransomOffsetAsString();
@@ -758,6 +770,8 @@ public interface IfcWindowLiningProperties extends IfcPreDefinedPropertySet {
      * @see #setFirstMullionOffsetAsString(String)
      * @see org.bimserver.models.ifc4.Ifc4Package#getIfcWindowLiningProperties_FirstMullionOffsetAsString()
      * @model unsettable="true"
+     *        annotation="asstring"
+     *        annotation="hidden"
      * @generated
      */
     String getFirstMullionOffsetAsString();
@@ -864,6 +878,8 @@ public interface IfcWindowLiningProperties extends IfcPreDefinedPropertySet {
      * @see #setSecondMullionOffsetAsString(String)
      * @see org.bimserver.models.ifc4.Ifc4Package#getIfcWindowLiningProperties_SecondMullionOffsetAsString()
      * @model unsettable="true"
+     *        annotation="asstring"
+     *        annotation="hidden"
      * @generated
      */
     String getSecondMullionOffsetAsString();
@@ -1023,6 +1039,8 @@ public interface IfcWindowLiningProperties extends IfcPreDefinedPropertySet {
      * @see #setLiningOffsetAsString(String)
      * @see org.bimserver.models.ifc4.Ifc4Package#getIfcWindowLiningProperties_LiningOffsetAsString()
      * @model unsettable="true"
+     *        annotation="asstring"
+     *        annotation="hidden"
      * @generated
      */
     String getLiningOffsetAsString();
@@ -1129,6 +1147,8 @@ public interface IfcWindowLiningProperties extends IfcPreDefinedPropertySet {
      * @see #setLiningToPanelOffsetXAsString(String)
      * @see org.bimserver.models.ifc4.Ifc4Package#getIfcWindowLiningProperties_LiningToPanelOffsetXAsString()
      * @model unsettable="true"
+     *        annotation="asstring"
+     *        annotation="hidden"
      * @generated
      */
     String getLiningToPanelOffsetXAsString();
@@ -1235,6 +1255,8 @@ public interface IfcWindowLiningProperties extends IfcPreDefinedPropertySet {
      * @see #setLiningToPanelOffsetYAsString(String)
      * @see org.bimserver.models.ifc4.Ifc4Package#getIfcWindowLiningProperties_LiningToPanelOffsetYAsString()
      * @model unsettable="true"
+     *        annotation="asstring"
+     *        annotation="hidden"
      * @generated
      */
     String getLiningToPanelOffsetYAsString();

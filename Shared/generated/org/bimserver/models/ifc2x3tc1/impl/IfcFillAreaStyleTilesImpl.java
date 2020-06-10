@@ -66,6 +66,7 @@ public class IfcFillAreaStyleTilesImpl extends IfcGeometricRepresentationItemImp
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public IfcOneDirectionRepeatFactor getTilingPattern() {
         return (IfcOneDirectionRepeatFactor) eGet(Ifc2x3tc1Package.Literals.IFC_FILL_AREA_STYLE_TILES__TILING_PATTERN,
                 true);
@@ -76,6 +77,7 @@ public class IfcFillAreaStyleTilesImpl extends IfcGeometricRepresentationItemImp
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setTilingPattern(IfcOneDirectionRepeatFactor newTilingPattern) {
         eSet(Ifc2x3tc1Package.Literals.IFC_FILL_AREA_STYLE_TILES__TILING_PATTERN, newTilingPattern);
     }
@@ -86,6 +88,7 @@ public class IfcFillAreaStyleTilesImpl extends IfcGeometricRepresentationItemImp
      * @generated
      */
     @SuppressWarnings("unchecked")
+    @Override
     public EList<IfcFillAreaStyleTileShapeSelect> getTiles() {
         return (EList<IfcFillAreaStyleTileShapeSelect>) eGet(Ifc2x3tc1Package.Literals.IFC_FILL_AREA_STYLE_TILES__TILES,
                 true);
@@ -96,6 +99,7 @@ public class IfcFillAreaStyleTilesImpl extends IfcGeometricRepresentationItemImp
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public double getTilingScale() {
         return (Double) eGet(Ifc2x3tc1Package.Literals.IFC_FILL_AREA_STYLE_TILES__TILING_SCALE, true);
     }
@@ -105,6 +109,7 @@ public class IfcFillAreaStyleTilesImpl extends IfcGeometricRepresentationItemImp
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setTilingScale(double newTilingScale) {
         eSet(Ifc2x3tc1Package.Literals.IFC_FILL_AREA_STYLE_TILES__TILING_SCALE, newTilingScale);
     }
@@ -114,6 +119,7 @@ public class IfcFillAreaStyleTilesImpl extends IfcGeometricRepresentationItemImp
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public String getTilingScaleAsString() {
         return (String) eGet(Ifc2x3tc1Package.Literals.IFC_FILL_AREA_STYLE_TILES__TILING_SCALE_AS_STRING, true);
     }
@@ -123,6 +129,7 @@ public class IfcFillAreaStyleTilesImpl extends IfcGeometricRepresentationItemImp
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setTilingScaleAsString(String newTilingScaleAsString) {
         eSet(Ifc2x3tc1Package.Literals.IFC_FILL_AREA_STYLE_TILES__TILING_SCALE_AS_STRING, newTilingScaleAsString);
     }

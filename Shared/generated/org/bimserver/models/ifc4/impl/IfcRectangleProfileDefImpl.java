@@ -62,6 +62,7 @@ public class IfcRectangleProfileDefImpl extends IfcParameterizedProfileDefImpl i
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public double getXDim() {
         return (Double) eGet(Ifc4Package.Literals.IFC_RECTANGLE_PROFILE_DEF__XDIM, true);
     }
@@ -71,6 +72,7 @@ public class IfcRectangleProfileDefImpl extends IfcParameterizedProfileDefImpl i
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setXDim(double newXDim) {
         eSet(Ifc4Package.Literals.IFC_RECTANGLE_PROFILE_DEF__XDIM, newXDim);
     }
@@ -80,6 +82,7 @@ public class IfcRectangleProfileDefImpl extends IfcParameterizedProfileDefImpl i
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public String getXDimAsString() {
         return (String) eGet(Ifc4Package.Literals.IFC_RECTANGLE_PROFILE_DEF__XDIM_AS_STRING, true);
     }
@@ -89,6 +92,7 @@ public class IfcRectangleProfileDefImpl extends IfcParameterizedProfileDefImpl i
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setXDimAsString(String newXDimAsString) {
         eSet(Ifc4Package.Literals.IFC_RECTANGLE_PROFILE_DEF__XDIM_AS_STRING, newXDimAsString);
     }
@@ -98,6 +102,7 @@ public class IfcRectangleProfileDefImpl extends IfcParameterizedProfileDefImpl i
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public double getYDim() {
         return (Double) eGet(Ifc4Package.Literals.IFC_RECTANGLE_PROFILE_DEF__YDIM, true);
     }
@@ -107,6 +112,7 @@ public class IfcRectangleProfileDefImpl extends IfcParameterizedProfileDefImpl i
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setYDim(double newYDim) {
         eSet(Ifc4Package.Literals.IFC_RECTANGLE_PROFILE_DEF__YDIM, newYDim);
     }
@@ -116,6 +122,7 @@ public class IfcRectangleProfileDefImpl extends IfcParameterizedProfileDefImpl i
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public String getYDimAsString() {
         return (String) eGet(Ifc4Package.Literals.IFC_RECTANGLE_PROFILE_DEF__YDIM_AS_STRING, true);
     }
@@ -125,6 +132,7 @@ public class IfcRectangleProfileDefImpl extends IfcParameterizedProfileDefImpl i
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setYDimAsString(String newYDimAsString) {
         eSet(Ifc4Package.Literals.IFC_RECTANGLE_PROFILE_DEF__YDIM_AS_STRING, newYDimAsString);
     }

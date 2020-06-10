@@ -60,6 +60,7 @@ public class IfcQuantityWeightImpl extends IfcPhysicalSimpleQuantityImpl impleme
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public double getWeightValue() {
         return (Double) eGet(Ifc2x3tc1Package.Literals.IFC_QUANTITY_WEIGHT__WEIGHT_VALUE, true);
     }
@@ -69,6 +70,7 @@ public class IfcQuantityWeightImpl extends IfcPhysicalSimpleQuantityImpl impleme
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setWeightValue(double newWeightValue) {
         eSet(Ifc2x3tc1Package.Literals.IFC_QUANTITY_WEIGHT__WEIGHT_VALUE, newWeightValue);
     }
@@ -78,6 +80,7 @@ public class IfcQuantityWeightImpl extends IfcPhysicalSimpleQuantityImpl impleme
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public String getWeightValueAsString() {
         return (String) eGet(Ifc2x3tc1Package.Literals.IFC_QUANTITY_WEIGHT__WEIGHT_VALUE_AS_STRING, true);
     }
@@ -87,6 +90,7 @@ public class IfcQuantityWeightImpl extends IfcPhysicalSimpleQuantityImpl impleme
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setWeightValueAsString(String newWeightValueAsString) {
         eSet(Ifc2x3tc1Package.Literals.IFC_QUANTITY_WEIGHT__WEIGHT_VALUE_AS_STRING, newWeightValueAsString);
     }

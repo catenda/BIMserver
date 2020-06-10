@@ -125,8 +125,8 @@ message SLongActionState {
 	optional int64 oid = 7;
 	optional string title = 8;
 	optional int32 rid = 9;
-	repeated string infos = 10;
-	repeated string errors = 11;
+	repeated string errors = 10;
+	repeated string infos = 11;
 }
 
 message ProgressRequest {

@@ -107,6 +107,8 @@ public interface IfcProductsOfCombustionProperties extends IfcMaterialProperties
      * @see #setSpecificHeatCapacityAsString(String)
      * @see org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package#getIfcProductsOfCombustionProperties_SpecificHeatCapacityAsString()
      * @model unsettable="true"
+     *        annotation="asstring"
+     *        annotation="hidden"
      * @generated
      */
     String getSpecificHeatCapacityAsString();
@@ -213,6 +215,8 @@ public interface IfcProductsOfCombustionProperties extends IfcMaterialProperties
      * @see #setN20ContentAsString(String)
      * @see org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package#getIfcProductsOfCombustionProperties_N20ContentAsString()
      * @model unsettable="true"
+     *        annotation="asstring"
+     *        annotation="hidden"
      * @generated
      */
     String getN20ContentAsString();
@@ -319,6 +323,8 @@ public interface IfcProductsOfCombustionProperties extends IfcMaterialProperties
      * @see #setCOContentAsString(String)
      * @see org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package#getIfcProductsOfCombustionProperties_COContentAsString()
      * @model unsettable="true"
+     *        annotation="asstring"
+     *        annotation="hidden"
      * @generated
      */
     String getCOContentAsString();
@@ -425,6 +431,8 @@ public interface IfcProductsOfCombustionProperties extends IfcMaterialProperties
      * @see #setCO2ContentAsString(String)
      * @see org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package#getIfcProductsOfCombustionProperties_CO2ContentAsString()
      * @model unsettable="true"
+     *        annotation="asstring"
+     *        annotation="hidden"
      * @generated
      */
     String getCO2ContentAsString();

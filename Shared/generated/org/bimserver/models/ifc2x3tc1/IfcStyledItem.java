@@ -53,6 +53,7 @@ public interface IfcStyledItem extends IfcRepresentationItem {
      * @see org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package#getIfcStyledItem_Item()
      * @see org.bimserver.models.ifc2x3tc1.IfcRepresentationItem#getStyledByItem
      * @model opposite="StyledByItem" unsettable="true"
+     *        annotation="inverse"
      * @generated
      */
     IfcRepresentationItem getItem();

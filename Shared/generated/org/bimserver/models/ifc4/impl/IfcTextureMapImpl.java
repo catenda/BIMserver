@@ -65,6 +65,7 @@ public class IfcTextureMapImpl extends IfcTextureCoordinateImpl implements IfcTe
      * @generated
      */
     @SuppressWarnings("unchecked")
+    @Override
     public EList<IfcTextureVertex> getVertices() {
         return (EList<IfcTextureVertex>) eGet(Ifc4Package.Literals.IFC_TEXTURE_MAP__VERTICES, true);
     }
@@ -74,6 +75,7 @@ public class IfcTextureMapImpl extends IfcTextureCoordinateImpl implements IfcTe
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public IfcFace getMappedTo() {
         return (IfcFace) eGet(Ifc4Package.Literals.IFC_TEXTURE_MAP__MAPPED_TO, true);
     }
@@ -83,6 +85,7 @@ public class IfcTextureMapImpl extends IfcTextureCoordinateImpl implements IfcTe
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setMappedTo(IfcFace newMappedTo) {
         eSet(Ifc4Package.Literals.IFC_TEXTURE_MAP__MAPPED_TO, newMappedTo);
     }

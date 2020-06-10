@@ -79,6 +79,7 @@ public class SystemInfoImpl extends IdEObjectImpl implements SystemInfo {
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public int getCpucores() {
         return (Integer) eGet(StorePackage.Literals.SYSTEM_INFO__CPUCORES, true);
     }
@@ -88,6 +89,7 @@ public class SystemInfoImpl extends IdEObjectImpl implements SystemInfo {
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setCpucores(int newCpucores) {
         eSet(StorePackage.Literals.SYSTEM_INFO__CPUCORES, newCpucores);
     }
@@ -97,6 +99,7 @@ public class SystemInfoImpl extends IdEObjectImpl implements SystemInfo {
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public Date getDatetime() {
         return (Date) eGet(StorePackage.Literals.SYSTEM_INFO__DATETIME, true);
     }
@@ -106,6 +109,7 @@ public class SystemInfoImpl extends IdEObjectImpl implements SystemInfo {
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setDatetime(Date newDatetime) {
         eSet(StorePackage.Literals.SYSTEM_INFO__DATETIME, newDatetime);
     }
@@ -115,6 +119,7 @@ public class SystemInfoImpl extends IdEObjectImpl implements SystemInfo {
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public String getOsname() {
         return (String) eGet(StorePackage.Literals.SYSTEM_INFO__OSNAME, true);
     }
@@ -124,6 +129,7 @@ public class SystemInfoImpl extends IdEObjectImpl implements SystemInfo {
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setOsname(String newOsname) {
         eSet(StorePackage.Literals.SYSTEM_INFO__OSNAME, newOsname);
     }
@@ -133,6 +139,7 @@ public class SystemInfoImpl extends IdEObjectImpl implements SystemInfo {
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public String getOsversion() {
         return (String) eGet(StorePackage.Literals.SYSTEM_INFO__OSVERSION, true);
     }
@@ -142,6 +149,7 @@ public class SystemInfoImpl extends IdEObjectImpl implements SystemInfo {
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setOsversion(String newOsversion) {
         eSet(StorePackage.Literals.SYSTEM_INFO__OSVERSION, newOsversion);
     }
@@ -151,6 +159,7 @@ public class SystemInfoImpl extends IdEObjectImpl implements SystemInfo {
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public String getUserName() {
         return (String) eGet(StorePackage.Literals.SYSTEM_INFO__USER_NAME, true);
     }
@@ -160,6 +169,7 @@ public class SystemInfoImpl extends IdEObjectImpl implements SystemInfo {
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setUserName(String newUserName) {
         eSet(StorePackage.Literals.SYSTEM_INFO__USER_NAME, newUserName);
     }
@@ -169,6 +179,7 @@ public class SystemInfoImpl extends IdEObjectImpl implements SystemInfo {
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public String getUserHome() {
         return (String) eGet(StorePackage.Literals.SYSTEM_INFO__USER_HOME, true);
     }
@@ -178,6 +189,7 @@ public class SystemInfoImpl extends IdEObjectImpl implements SystemInfo {
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setUserHome(String newUserHome) {
         eSet(StorePackage.Literals.SYSTEM_INFO__USER_HOME, newUserHome);
     }
@@ -187,6 +199,7 @@ public class SystemInfoImpl extends IdEObjectImpl implements SystemInfo {
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public String getUserDir() {
         return (String) eGet(StorePackage.Literals.SYSTEM_INFO__USER_DIR, true);
     }
@@ -196,6 +209,7 @@ public class SystemInfoImpl extends IdEObjectImpl implements SystemInfo {
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setUserDir(String newUserDir) {
         eSet(StorePackage.Literals.SYSTEM_INFO__USER_DIR, newUserDir);
     }

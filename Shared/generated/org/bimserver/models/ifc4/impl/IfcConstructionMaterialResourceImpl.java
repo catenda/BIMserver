@@ -61,6 +61,7 @@ public class IfcConstructionMaterialResourceImpl extends IfcConstructionResource
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public IfcConstructionMaterialResourceTypeEnum getPredefinedType() {
         return (IfcConstructionMaterialResourceTypeEnum) eGet(
                 Ifc4Package.Literals.IFC_CONSTRUCTION_MATERIAL_RESOURCE__PREDEFINED_TYPE, true);
@@ -71,6 +72,7 @@ public class IfcConstructionMaterialResourceImpl extends IfcConstructionResource
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setPredefinedType(IfcConstructionMaterialResourceTypeEnum newPredefinedType) {
         eSet(Ifc4Package.Literals.IFC_CONSTRUCTION_MATERIAL_RESOURCE__PREDEFINED_TYPE, newPredefinedType);
     }
@@ -80,6 +82,7 @@ public class IfcConstructionMaterialResourceImpl extends IfcConstructionResource
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void unsetPredefinedType() {
         eUnset(Ifc4Package.Literals.IFC_CONSTRUCTION_MATERIAL_RESOURCE__PREDEFINED_TYPE);
     }
@@ -89,6 +92,7 @@ public class IfcConstructionMaterialResourceImpl extends IfcConstructionResource
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public boolean isSetPredefinedType() {
         return eIsSet(Ifc4Package.Literals.IFC_CONSTRUCTION_MATERIAL_RESOURCE__PREDEFINED_TYPE);
     }

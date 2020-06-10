@@ -260,6 +260,7 @@ public interface IfcSurfaceTexture extends IfcPresentationItem {
      * @see org.bimserver.models.ifc4.Ifc4Package#getIfcSurfaceTexture_IsMappedBy()
      * @see org.bimserver.models.ifc4.IfcTextureCoordinate#getMaps
      * @model opposite="Maps" unsettable="true"
+     *        annotation="inverse"
      * @generated
      */
     EList<IfcTextureCoordinate> getIsMappedBy();
@@ -301,6 +302,7 @@ public interface IfcSurfaceTexture extends IfcPresentationItem {
      * @see org.bimserver.models.ifc4.Ifc4Package#getIfcSurfaceTexture_UsedInStyles()
      * @see org.bimserver.models.ifc4.IfcSurfaceStyleWithTextures#getTextures
      * @model opposite="Textures" unsettable="true"
+     *        annotation="inverse"
      * @generated
      */
     EList<IfcSurfaceStyleWithTextures> getUsedInStyles();

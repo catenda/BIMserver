@@ -73,6 +73,7 @@ public class IfcDocumentElectronicFormatImpl extends IdEObjectImpl implements If
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public String getFileExtension() {
         return (String) eGet(Ifc2x3tc1Package.Literals.IFC_DOCUMENT_ELECTRONIC_FORMAT__FILE_EXTENSION, true);
     }
@@ -82,6 +83,7 @@ public class IfcDocumentElectronicFormatImpl extends IdEObjectImpl implements If
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setFileExtension(String newFileExtension) {
         eSet(Ifc2x3tc1Package.Literals.IFC_DOCUMENT_ELECTRONIC_FORMAT__FILE_EXTENSION, newFileExtension);
     }
@@ -91,6 +93,7 @@ public class IfcDocumentElectronicFormatImpl extends IdEObjectImpl implements If
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void unsetFileExtension() {
         eUnset(Ifc2x3tc1Package.Literals.IFC_DOCUMENT_ELECTRONIC_FORMAT__FILE_EXTENSION);
     }
@@ -100,6 +103,7 @@ public class IfcDocumentElectronicFormatImpl extends IdEObjectImpl implements If
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public boolean isSetFileExtension() {
         return eIsSet(Ifc2x3tc1Package.Literals.IFC_DOCUMENT_ELECTRONIC_FORMAT__FILE_EXTENSION);
     }
@@ -109,6 +113,7 @@ public class IfcDocumentElectronicFormatImpl extends IdEObjectImpl implements If
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public String getMimeContentType() {
         return (String) eGet(Ifc2x3tc1Package.Literals.IFC_DOCUMENT_ELECTRONIC_FORMAT__MIME_CONTENT_TYPE, true);
     }
@@ -118,6 +123,7 @@ public class IfcDocumentElectronicFormatImpl extends IdEObjectImpl implements If
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setMimeContentType(String newMimeContentType) {
         eSet(Ifc2x3tc1Package.Literals.IFC_DOCUMENT_ELECTRONIC_FORMAT__MIME_CONTENT_TYPE, newMimeContentType);
     }
@@ -127,6 +133,7 @@ public class IfcDocumentElectronicFormatImpl extends IdEObjectImpl implements If
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void unsetMimeContentType() {
         eUnset(Ifc2x3tc1Package.Literals.IFC_DOCUMENT_ELECTRONIC_FORMAT__MIME_CONTENT_TYPE);
     }
@@ -136,6 +143,7 @@ public class IfcDocumentElectronicFormatImpl extends IdEObjectImpl implements If
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public boolean isSetMimeContentType() {
         return eIsSet(Ifc2x3tc1Package.Literals.IFC_DOCUMENT_ELECTRONIC_FORMAT__MIME_CONTENT_TYPE);
     }
@@ -145,6 +153,7 @@ public class IfcDocumentElectronicFormatImpl extends IdEObjectImpl implements If
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public String getMimeSubtype() {
         return (String) eGet(Ifc2x3tc1Package.Literals.IFC_DOCUMENT_ELECTRONIC_FORMAT__MIME_SUBTYPE, true);
     }
@@ -154,6 +163,7 @@ public class IfcDocumentElectronicFormatImpl extends IdEObjectImpl implements If
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setMimeSubtype(String newMimeSubtype) {
         eSet(Ifc2x3tc1Package.Literals.IFC_DOCUMENT_ELECTRONIC_FORMAT__MIME_SUBTYPE, newMimeSubtype);
     }
@@ -163,6 +173,7 @@ public class IfcDocumentElectronicFormatImpl extends IdEObjectImpl implements If
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void unsetMimeSubtype() {
         eUnset(Ifc2x3tc1Package.Literals.IFC_DOCUMENT_ELECTRONIC_FORMAT__MIME_SUBTYPE);
     }
@@ -172,6 +183,7 @@ public class IfcDocumentElectronicFormatImpl extends IdEObjectImpl implements If
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public boolean isSetMimeSubtype() {
         return eIsSet(Ifc2x3tc1Package.Literals.IFC_DOCUMENT_ELECTRONIC_FORMAT__MIME_SUBTYPE);
     }

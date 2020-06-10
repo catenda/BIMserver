@@ -107,6 +107,8 @@ public interface IfcReinforcingBar extends IfcReinforcingElement {
      * @see #setNominalDiameterAsString(String)
      * @see org.bimserver.models.ifc4.Ifc4Package#getIfcReinforcingBar_NominalDiameterAsString()
      * @model unsettable="true"
+     *        annotation="asstring"
+     *        annotation="hidden"
      * @generated
      */
     String getNominalDiameterAsString();
@@ -213,6 +215,8 @@ public interface IfcReinforcingBar extends IfcReinforcingElement {
      * @see #setCrossSectionAreaAsString(String)
      * @see org.bimserver.models.ifc4.Ifc4Package#getIfcReinforcingBar_CrossSectionAreaAsString()
      * @model unsettable="true"
+     *        annotation="asstring"
+     *        annotation="hidden"
      * @generated
      */
     String getCrossSectionAreaAsString();
@@ -319,6 +323,8 @@ public interface IfcReinforcingBar extends IfcReinforcingElement {
      * @see #setBarLengthAsString(String)
      * @see org.bimserver.models.ifc4.Ifc4Package#getIfcReinforcingBar_BarLengthAsString()
      * @model unsettable="true"
+     *        annotation="asstring"
+     *        annotation="hidden"
      * @generated
      */
     String getBarLengthAsString();

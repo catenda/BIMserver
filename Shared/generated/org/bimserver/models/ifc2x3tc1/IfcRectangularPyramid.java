@@ -75,7 +75,8 @@ public interface IfcRectangularPyramid extends IfcCsgPrimitive3D {
      * @return the value of the '<em>XLength As String</em>' attribute.
      * @see #setXLengthAsString(String)
      * @see org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package#getIfcRectangularPyramid_XLengthAsString()
-     * @model
+     * @model annotation="asstring"
+     *        annotation="hidden"
      * @generated
      */
     String getXLengthAsString();
@@ -127,7 +128,8 @@ public interface IfcRectangularPyramid extends IfcCsgPrimitive3D {
      * @return the value of the '<em>YLength As String</em>' attribute.
      * @see #setYLengthAsString(String)
      * @see org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package#getIfcRectangularPyramid_YLengthAsString()
-     * @model
+     * @model annotation="asstring"
+     *        annotation="hidden"
      * @generated
      */
     String getYLengthAsString();
@@ -179,7 +181,8 @@ public interface IfcRectangularPyramid extends IfcCsgPrimitive3D {
      * @return the value of the '<em>Height As String</em>' attribute.
      * @see #setHeightAsString(String)
      * @see org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package#getIfcRectangularPyramid_HeightAsString()
-     * @model
+     * @model annotation="asstring"
+     *        annotation="hidden"
      * @generated
      */
     String getHeightAsString();

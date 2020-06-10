@@ -66,6 +66,7 @@ public class IfcFuelPropertiesImpl extends IfcMaterialPropertiesImpl implements 
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public double getCombustionTemperature() {
         return (Double) eGet(Ifc2x3tc1Package.Literals.IFC_FUEL_PROPERTIES__COMBUSTION_TEMPERATURE, true);
     }
@@ -75,6 +76,7 @@ public class IfcFuelPropertiesImpl extends IfcMaterialPropertiesImpl implements 
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setCombustionTemperature(double newCombustionTemperature) {
         eSet(Ifc2x3tc1Package.Literals.IFC_FUEL_PROPERTIES__COMBUSTION_TEMPERATURE, newCombustionTemperature);
     }
@@ -84,6 +86,7 @@ public class IfcFuelPropertiesImpl extends IfcMaterialPropertiesImpl implements 
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void unsetCombustionTemperature() {
         eUnset(Ifc2x3tc1Package.Literals.IFC_FUEL_PROPERTIES__COMBUSTION_TEMPERATURE);
     }
@@ -93,6 +96,7 @@ public class IfcFuelPropertiesImpl extends IfcMaterialPropertiesImpl implements 
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public boolean isSetCombustionTemperature() {
         return eIsSet(Ifc2x3tc1Package.Literals.IFC_FUEL_PROPERTIES__COMBUSTION_TEMPERATURE);
     }
@@ -102,6 +106,7 @@ public class IfcFuelPropertiesImpl extends IfcMaterialPropertiesImpl implements 
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public String getCombustionTemperatureAsString() {
         return (String) eGet(Ifc2x3tc1Package.Literals.IFC_FUEL_PROPERTIES__COMBUSTION_TEMPERATURE_AS_STRING, true);
     }
@@ -111,6 +116,7 @@ public class IfcFuelPropertiesImpl extends IfcMaterialPropertiesImpl implements 
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setCombustionTemperatureAsString(String newCombustionTemperatureAsString) {
         eSet(Ifc2x3tc1Package.Literals.IFC_FUEL_PROPERTIES__COMBUSTION_TEMPERATURE_AS_STRING,
                 newCombustionTemperatureAsString);
@@ -121,6 +127,7 @@ public class IfcFuelPropertiesImpl extends IfcMaterialPropertiesImpl implements 
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void unsetCombustionTemperatureAsString() {
         eUnset(Ifc2x3tc1Package.Literals.IFC_FUEL_PROPERTIES__COMBUSTION_TEMPERATURE_AS_STRING);
     }
@@ -130,6 +137,7 @@ public class IfcFuelPropertiesImpl extends IfcMaterialPropertiesImpl implements 
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public boolean isSetCombustionTemperatureAsString() {
         return eIsSet(Ifc2x3tc1Package.Literals.IFC_FUEL_PROPERTIES__COMBUSTION_TEMPERATURE_AS_STRING);
     }
@@ -139,6 +147,7 @@ public class IfcFuelPropertiesImpl extends IfcMaterialPropertiesImpl implements 
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public double getCarbonContent() {
         return (Double) eGet(Ifc2x3tc1Package.Literals.IFC_FUEL_PROPERTIES__CARBON_CONTENT, true);
     }
@@ -148,6 +157,7 @@ public class IfcFuelPropertiesImpl extends IfcMaterialPropertiesImpl implements 
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setCarbonContent(double newCarbonContent) {
         eSet(Ifc2x3tc1Package.Literals.IFC_FUEL_PROPERTIES__CARBON_CONTENT, newCarbonContent);
     }
@@ -157,6 +167,7 @@ public class IfcFuelPropertiesImpl extends IfcMaterialPropertiesImpl implements 
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void unsetCarbonContent() {
         eUnset(Ifc2x3tc1Package.Literals.IFC_FUEL_PROPERTIES__CARBON_CONTENT);
     }
@@ -166,6 +177,7 @@ public class IfcFuelPropertiesImpl extends IfcMaterialPropertiesImpl implements 
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public boolean isSetCarbonContent() {
         return eIsSet(Ifc2x3tc1Package.Literals.IFC_FUEL_PROPERTIES__CARBON_CONTENT);
     }
@@ -175,6 +187,7 @@ public class IfcFuelPropertiesImpl extends IfcMaterialPropertiesImpl implements 
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public String getCarbonContentAsString() {
         return (String) eGet(Ifc2x3tc1Package.Literals.IFC_FUEL_PROPERTIES__CARBON_CONTENT_AS_STRING, true);
     }
@@ -184,6 +197,7 @@ public class IfcFuelPropertiesImpl extends IfcMaterialPropertiesImpl implements 
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setCarbonContentAsString(String newCarbonContentAsString) {
         eSet(Ifc2x3tc1Package.Literals.IFC_FUEL_PROPERTIES__CARBON_CONTENT_AS_STRING, newCarbonContentAsString);
     }
@@ -193,6 +207,7 @@ public class IfcFuelPropertiesImpl extends IfcMaterialPropertiesImpl implements 
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void unsetCarbonContentAsString() {
         eUnset(Ifc2x3tc1Package.Literals.IFC_FUEL_PROPERTIES__CARBON_CONTENT_AS_STRING);
     }
@@ -202,6 +217,7 @@ public class IfcFuelPropertiesImpl extends IfcMaterialPropertiesImpl implements 
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public boolean isSetCarbonContentAsString() {
         return eIsSet(Ifc2x3tc1Package.Literals.IFC_FUEL_PROPERTIES__CARBON_CONTENT_AS_STRING);
     }
@@ -211,6 +227,7 @@ public class IfcFuelPropertiesImpl extends IfcMaterialPropertiesImpl implements 
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public double getLowerHeatingValue() {
         return (Double) eGet(Ifc2x3tc1Package.Literals.IFC_FUEL_PROPERTIES__LOWER_HEATING_VALUE, true);
     }
@@ -220,6 +237,7 @@ public class IfcFuelPropertiesImpl extends IfcMaterialPropertiesImpl implements 
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setLowerHeatingValue(double newLowerHeatingValue) {
         eSet(Ifc2x3tc1Package.Literals.IFC_FUEL_PROPERTIES__LOWER_HEATING_VALUE, newLowerHeatingValue);
     }
@@ -229,6 +247,7 @@ public class IfcFuelPropertiesImpl extends IfcMaterialPropertiesImpl implements 
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void unsetLowerHeatingValue() {
         eUnset(Ifc2x3tc1Package.Literals.IFC_FUEL_PROPERTIES__LOWER_HEATING_VALUE);
     }
@@ -238,6 +257,7 @@ public class IfcFuelPropertiesImpl extends IfcMaterialPropertiesImpl implements 
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public boolean isSetLowerHeatingValue() {
         return eIsSet(Ifc2x3tc1Package.Literals.IFC_FUEL_PROPERTIES__LOWER_HEATING_VALUE);
     }
@@ -247,6 +267,7 @@ public class IfcFuelPropertiesImpl extends IfcMaterialPropertiesImpl implements 
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public String getLowerHeatingValueAsString() {
         return (String) eGet(Ifc2x3tc1Package.Literals.IFC_FUEL_PROPERTIES__LOWER_HEATING_VALUE_AS_STRING, true);
     }
@@ -256,6 +277,7 @@ public class IfcFuelPropertiesImpl extends IfcMaterialPropertiesImpl implements 
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setLowerHeatingValueAsString(String newLowerHeatingValueAsString) {
         eSet(Ifc2x3tc1Package.Literals.IFC_FUEL_PROPERTIES__LOWER_HEATING_VALUE_AS_STRING,
                 newLowerHeatingValueAsString);
@@ -266,6 +288,7 @@ public class IfcFuelPropertiesImpl extends IfcMaterialPropertiesImpl implements 
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void unsetLowerHeatingValueAsString() {
         eUnset(Ifc2x3tc1Package.Literals.IFC_FUEL_PROPERTIES__LOWER_HEATING_VALUE_AS_STRING);
     }
@@ -275,6 +298,7 @@ public class IfcFuelPropertiesImpl extends IfcMaterialPropertiesImpl implements 
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public boolean isSetLowerHeatingValueAsString() {
         return eIsSet(Ifc2x3tc1Package.Literals.IFC_FUEL_PROPERTIES__LOWER_HEATING_VALUE_AS_STRING);
     }
@@ -284,6 +308,7 @@ public class IfcFuelPropertiesImpl extends IfcMaterialPropertiesImpl implements 
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public double getHigherHeatingValue() {
         return (Double) eGet(Ifc2x3tc1Package.Literals.IFC_FUEL_PROPERTIES__HIGHER_HEATING_VALUE, true);
     }
@@ -293,6 +318,7 @@ public class IfcFuelPropertiesImpl extends IfcMaterialPropertiesImpl implements 
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setHigherHeatingValue(double newHigherHeatingValue) {
         eSet(Ifc2x3tc1Package.Literals.IFC_FUEL_PROPERTIES__HIGHER_HEATING_VALUE, newHigherHeatingValue);
     }
@@ -302,6 +328,7 @@ public class IfcFuelPropertiesImpl extends IfcMaterialPropertiesImpl implements 
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void unsetHigherHeatingValue() {
         eUnset(Ifc2x3tc1Package.Literals.IFC_FUEL_PROPERTIES__HIGHER_HEATING_VALUE);
     }
@@ -311,6 +338,7 @@ public class IfcFuelPropertiesImpl extends IfcMaterialPropertiesImpl implements 
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public boolean isSetHigherHeatingValue() {
         return eIsSet(Ifc2x3tc1Package.Literals.IFC_FUEL_PROPERTIES__HIGHER_HEATING_VALUE);
     }
@@ -320,6 +348,7 @@ public class IfcFuelPropertiesImpl extends IfcMaterialPropertiesImpl implements 
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public String getHigherHeatingValueAsString() {
         return (String) eGet(Ifc2x3tc1Package.Literals.IFC_FUEL_PROPERTIES__HIGHER_HEATING_VALUE_AS_STRING, true);
     }
@@ -329,6 +358,7 @@ public class IfcFuelPropertiesImpl extends IfcMaterialPropertiesImpl implements 
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setHigherHeatingValueAsString(String newHigherHeatingValueAsString) {
         eSet(Ifc2x3tc1Package.Literals.IFC_FUEL_PROPERTIES__HIGHER_HEATING_VALUE_AS_STRING,
                 newHigherHeatingValueAsString);
@@ -339,6 +369,7 @@ public class IfcFuelPropertiesImpl extends IfcMaterialPropertiesImpl implements 
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void unsetHigherHeatingValueAsString() {
         eUnset(Ifc2x3tc1Package.Literals.IFC_FUEL_PROPERTIES__HIGHER_HEATING_VALUE_AS_STRING);
     }
@@ -348,6 +379,7 @@ public class IfcFuelPropertiesImpl extends IfcMaterialPropertiesImpl implements 
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public boolean isSetHigherHeatingValueAsString() {
         return eIsSet(Ifc2x3tc1Package.Literals.IFC_FUEL_PROPERTIES__HIGHER_HEATING_VALUE_AS_STRING);
     }

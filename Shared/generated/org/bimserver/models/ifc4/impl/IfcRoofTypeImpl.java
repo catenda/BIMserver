@@ -60,6 +60,7 @@ public class IfcRoofTypeImpl extends IfcBuildingElementTypeImpl implements IfcRo
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public IfcRoofTypeEnum getPredefinedType() {
         return (IfcRoofTypeEnum) eGet(Ifc4Package.Literals.IFC_ROOF_TYPE__PREDEFINED_TYPE, true);
     }
@@ -69,6 +70,7 @@ public class IfcRoofTypeImpl extends IfcBuildingElementTypeImpl implements IfcRo
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setPredefinedType(IfcRoofTypeEnum newPredefinedType) {
         eSet(Ifc4Package.Literals.IFC_ROOF_TYPE__PREDEFINED_TYPE, newPredefinedType);
     }

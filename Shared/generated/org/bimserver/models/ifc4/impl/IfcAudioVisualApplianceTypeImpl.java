@@ -60,6 +60,7 @@ public class IfcAudioVisualApplianceTypeImpl extends IfcFlowTerminalTypeImpl imp
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public IfcAudioVisualApplianceTypeEnum getPredefinedType() {
         return (IfcAudioVisualApplianceTypeEnum) eGet(
                 Ifc4Package.Literals.IFC_AUDIO_VISUAL_APPLIANCE_TYPE__PREDEFINED_TYPE, true);
@@ -70,6 +71,7 @@ public class IfcAudioVisualApplianceTypeImpl extends IfcFlowTerminalTypeImpl imp
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setPredefinedType(IfcAudioVisualApplianceTypeEnum newPredefinedType) {
         eSet(Ifc4Package.Literals.IFC_AUDIO_VISUAL_APPLIANCE_TYPE__PREDEFINED_TYPE, newPredefinedType);
     }

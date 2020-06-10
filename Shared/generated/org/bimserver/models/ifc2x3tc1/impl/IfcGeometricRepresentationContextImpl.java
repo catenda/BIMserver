@@ -70,6 +70,7 @@ public class IfcGeometricRepresentationContextImpl extends IfcRepresentationCont
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public long getCoordinateSpaceDimension() {
         return (Long) eGet(Ifc2x3tc1Package.Literals.IFC_GEOMETRIC_REPRESENTATION_CONTEXT__COORDINATE_SPACE_DIMENSION,
                 true);
@@ -80,6 +81,7 @@ public class IfcGeometricRepresentationContextImpl extends IfcRepresentationCont
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setCoordinateSpaceDimension(long newCoordinateSpaceDimension) {
         eSet(Ifc2x3tc1Package.Literals.IFC_GEOMETRIC_REPRESENTATION_CONTEXT__COORDINATE_SPACE_DIMENSION,
                 newCoordinateSpaceDimension);
@@ -90,6 +92,7 @@ public class IfcGeometricRepresentationContextImpl extends IfcRepresentationCont
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public double getPrecision() {
         return (Double) eGet(Ifc2x3tc1Package.Literals.IFC_GEOMETRIC_REPRESENTATION_CONTEXT__PRECISION, true);
     }
@@ -99,6 +102,7 @@ public class IfcGeometricRepresentationContextImpl extends IfcRepresentationCont
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setPrecision(double newPrecision) {
         eSet(Ifc2x3tc1Package.Literals.IFC_GEOMETRIC_REPRESENTATION_CONTEXT__PRECISION, newPrecision);
     }
@@ -108,6 +112,7 @@ public class IfcGeometricRepresentationContextImpl extends IfcRepresentationCont
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void unsetPrecision() {
         eUnset(Ifc2x3tc1Package.Literals.IFC_GEOMETRIC_REPRESENTATION_CONTEXT__PRECISION);
     }
@@ -117,6 +122,7 @@ public class IfcGeometricRepresentationContextImpl extends IfcRepresentationCont
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public boolean isSetPrecision() {
         return eIsSet(Ifc2x3tc1Package.Literals.IFC_GEOMETRIC_REPRESENTATION_CONTEXT__PRECISION);
     }
@@ -126,6 +132,7 @@ public class IfcGeometricRepresentationContextImpl extends IfcRepresentationCont
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public String getPrecisionAsString() {
         return (String) eGet(Ifc2x3tc1Package.Literals.IFC_GEOMETRIC_REPRESENTATION_CONTEXT__PRECISION_AS_STRING, true);
     }
@@ -135,6 +142,7 @@ public class IfcGeometricRepresentationContextImpl extends IfcRepresentationCont
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setPrecisionAsString(String newPrecisionAsString) {
         eSet(Ifc2x3tc1Package.Literals.IFC_GEOMETRIC_REPRESENTATION_CONTEXT__PRECISION_AS_STRING, newPrecisionAsString);
     }
@@ -144,6 +152,7 @@ public class IfcGeometricRepresentationContextImpl extends IfcRepresentationCont
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void unsetPrecisionAsString() {
         eUnset(Ifc2x3tc1Package.Literals.IFC_GEOMETRIC_REPRESENTATION_CONTEXT__PRECISION_AS_STRING);
     }
@@ -153,6 +162,7 @@ public class IfcGeometricRepresentationContextImpl extends IfcRepresentationCont
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public boolean isSetPrecisionAsString() {
         return eIsSet(Ifc2x3tc1Package.Literals.IFC_GEOMETRIC_REPRESENTATION_CONTEXT__PRECISION_AS_STRING);
     }
@@ -162,6 +172,7 @@ public class IfcGeometricRepresentationContextImpl extends IfcRepresentationCont
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public IfcAxis2Placement getWorldCoordinateSystem() {
         return (IfcAxis2Placement) eGet(
                 Ifc2x3tc1Package.Literals.IFC_GEOMETRIC_REPRESENTATION_CONTEXT__WORLD_COORDINATE_SYSTEM, true);
@@ -172,6 +183,7 @@ public class IfcGeometricRepresentationContextImpl extends IfcRepresentationCont
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setWorldCoordinateSystem(IfcAxis2Placement newWorldCoordinateSystem) {
         eSet(Ifc2x3tc1Package.Literals.IFC_GEOMETRIC_REPRESENTATION_CONTEXT__WORLD_COORDINATE_SYSTEM,
                 newWorldCoordinateSystem);
@@ -182,6 +194,7 @@ public class IfcGeometricRepresentationContextImpl extends IfcRepresentationCont
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public IfcDirection getTrueNorth() {
         return (IfcDirection) eGet(Ifc2x3tc1Package.Literals.IFC_GEOMETRIC_REPRESENTATION_CONTEXT__TRUE_NORTH, true);
     }
@@ -191,6 +204,7 @@ public class IfcGeometricRepresentationContextImpl extends IfcRepresentationCont
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setTrueNorth(IfcDirection newTrueNorth) {
         eSet(Ifc2x3tc1Package.Literals.IFC_GEOMETRIC_REPRESENTATION_CONTEXT__TRUE_NORTH, newTrueNorth);
     }
@@ -200,6 +214,7 @@ public class IfcGeometricRepresentationContextImpl extends IfcRepresentationCont
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void unsetTrueNorth() {
         eUnset(Ifc2x3tc1Package.Literals.IFC_GEOMETRIC_REPRESENTATION_CONTEXT__TRUE_NORTH);
     }
@@ -209,6 +224,7 @@ public class IfcGeometricRepresentationContextImpl extends IfcRepresentationCont
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public boolean isSetTrueNorth() {
         return eIsSet(Ifc2x3tc1Package.Literals.IFC_GEOMETRIC_REPRESENTATION_CONTEXT__TRUE_NORTH);
     }
@@ -219,6 +235,7 @@ public class IfcGeometricRepresentationContextImpl extends IfcRepresentationCont
      * @generated
      */
     @SuppressWarnings("unchecked")
+    @Override
     public EList<IfcGeometricRepresentationSubContext> getHasSubContexts() {
         return (EList<IfcGeometricRepresentationSubContext>) eGet(
                 Ifc2x3tc1Package.Literals.IFC_GEOMETRIC_REPRESENTATION_CONTEXT__HAS_SUB_CONTEXTS, true);
@@ -229,6 +246,7 @@ public class IfcGeometricRepresentationContextImpl extends IfcRepresentationCont
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void unsetHasSubContexts() {
         eUnset(Ifc2x3tc1Package.Literals.IFC_GEOMETRIC_REPRESENTATION_CONTEXT__HAS_SUB_CONTEXTS);
     }
@@ -238,6 +256,7 @@ public class IfcGeometricRepresentationContextImpl extends IfcRepresentationCont
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public boolean isSetHasSubContexts() {
         return eIsSet(Ifc2x3tc1Package.Literals.IFC_GEOMETRIC_REPRESENTATION_CONTEXT__HAS_SUB_CONTEXTS);
     }

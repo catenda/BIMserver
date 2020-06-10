@@ -183,6 +183,7 @@ public interface IfcBSplineCurve extends IfcBoundedCurve {
      * @see #setUpperIndexOnControlPoints(long)
      * @see org.bimserver.models.ifc4.Ifc4Package#getIfcBSplineCurve_UpperIndexOnControlPoints()
      * @model unsettable="true" derived="true"
+     *        annotation="derived"
      * @generated
      */
     long getUpperIndexOnControlPoints();

@@ -51,6 +51,7 @@ public interface IfcPersonAndOrganization extends IfcActorSelect, IfcObjectRefer
      * @see org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package#getIfcPersonAndOrganization_ThePerson()
      * @see org.bimserver.models.ifc2x3tc1.IfcPerson#getEngagedIn
      * @model opposite="EngagedIn"
+     *        annotation="inverse"
      * @generated
      */
     IfcPerson getThePerson();
@@ -79,6 +80,7 @@ public interface IfcPersonAndOrganization extends IfcActorSelect, IfcObjectRefer
      * @see org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package#getIfcPersonAndOrganization_TheOrganization()
      * @see org.bimserver.models.ifc2x3tc1.IfcOrganization#getEngages
      * @model opposite="Engages"
+     *        annotation="inverse"
      * @generated
      */
     IfcOrganization getTheOrganization();

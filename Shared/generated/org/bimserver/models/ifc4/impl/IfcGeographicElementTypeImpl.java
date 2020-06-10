@@ -60,6 +60,7 @@ public class IfcGeographicElementTypeImpl extends IfcElementTypeImpl implements 
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public IfcGeographicElementTypeEnum getPredefinedType() {
         return (IfcGeographicElementTypeEnum) eGet(Ifc4Package.Literals.IFC_GEOGRAPHIC_ELEMENT_TYPE__PREDEFINED_TYPE,
                 true);
@@ -70,6 +71,7 @@ public class IfcGeographicElementTypeImpl extends IfcElementTypeImpl implements 
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setPredefinedType(IfcGeographicElementTypeEnum newPredefinedType) {
         eSet(Ifc4Package.Literals.IFC_GEOGRAPHIC_ELEMENT_TYPE__PREDEFINED_TYPE, newPredefinedType);
     }

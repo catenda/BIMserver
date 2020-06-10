@@ -67,6 +67,7 @@ public class IfcTextStyleFontModelImpl extends IfcPreDefinedTextFontImpl impleme
      * @generated
      */
     @SuppressWarnings("unchecked")
+    @Override
     public EList<String> getFontFamily() {
         return (EList<String>) eGet(Ifc4Package.Literals.IFC_TEXT_STYLE_FONT_MODEL__FONT_FAMILY, true);
     }
@@ -76,6 +77,7 @@ public class IfcTextStyleFontModelImpl extends IfcPreDefinedTextFontImpl impleme
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public String getFontStyle() {
         return (String) eGet(Ifc4Package.Literals.IFC_TEXT_STYLE_FONT_MODEL__FONT_STYLE, true);
     }
@@ -85,6 +87,7 @@ public class IfcTextStyleFontModelImpl extends IfcPreDefinedTextFontImpl impleme
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setFontStyle(String newFontStyle) {
         eSet(Ifc4Package.Literals.IFC_TEXT_STYLE_FONT_MODEL__FONT_STYLE, newFontStyle);
     }
@@ -94,6 +97,7 @@ public class IfcTextStyleFontModelImpl extends IfcPreDefinedTextFontImpl impleme
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void unsetFontStyle() {
         eUnset(Ifc4Package.Literals.IFC_TEXT_STYLE_FONT_MODEL__FONT_STYLE);
     }
@@ -103,6 +107,7 @@ public class IfcTextStyleFontModelImpl extends IfcPreDefinedTextFontImpl impleme
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public boolean isSetFontStyle() {
         return eIsSet(Ifc4Package.Literals.IFC_TEXT_STYLE_FONT_MODEL__FONT_STYLE);
     }
@@ -112,6 +117,7 @@ public class IfcTextStyleFontModelImpl extends IfcPreDefinedTextFontImpl impleme
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public String getFontVariant() {
         return (String) eGet(Ifc4Package.Literals.IFC_TEXT_STYLE_FONT_MODEL__FONT_VARIANT, true);
     }
@@ -121,6 +127,7 @@ public class IfcTextStyleFontModelImpl extends IfcPreDefinedTextFontImpl impleme
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setFontVariant(String newFontVariant) {
         eSet(Ifc4Package.Literals.IFC_TEXT_STYLE_FONT_MODEL__FONT_VARIANT, newFontVariant);
     }
@@ -130,6 +137,7 @@ public class IfcTextStyleFontModelImpl extends IfcPreDefinedTextFontImpl impleme
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void unsetFontVariant() {
         eUnset(Ifc4Package.Literals.IFC_TEXT_STYLE_FONT_MODEL__FONT_VARIANT);
     }
@@ -139,6 +147,7 @@ public class IfcTextStyleFontModelImpl extends IfcPreDefinedTextFontImpl impleme
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public boolean isSetFontVariant() {
         return eIsSet(Ifc4Package.Literals.IFC_TEXT_STYLE_FONT_MODEL__FONT_VARIANT);
     }
@@ -148,6 +157,7 @@ public class IfcTextStyleFontModelImpl extends IfcPreDefinedTextFontImpl impleme
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public String getFontWeight() {
         return (String) eGet(Ifc4Package.Literals.IFC_TEXT_STYLE_FONT_MODEL__FONT_WEIGHT, true);
     }
@@ -157,6 +167,7 @@ public class IfcTextStyleFontModelImpl extends IfcPreDefinedTextFontImpl impleme
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setFontWeight(String newFontWeight) {
         eSet(Ifc4Package.Literals.IFC_TEXT_STYLE_FONT_MODEL__FONT_WEIGHT, newFontWeight);
     }
@@ -166,6 +177,7 @@ public class IfcTextStyleFontModelImpl extends IfcPreDefinedTextFontImpl impleme
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void unsetFontWeight() {
         eUnset(Ifc4Package.Literals.IFC_TEXT_STYLE_FONT_MODEL__FONT_WEIGHT);
     }
@@ -175,6 +187,7 @@ public class IfcTextStyleFontModelImpl extends IfcPreDefinedTextFontImpl impleme
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public boolean isSetFontWeight() {
         return eIsSet(Ifc4Package.Literals.IFC_TEXT_STYLE_FONT_MODEL__FONT_WEIGHT);
     }
@@ -184,6 +197,7 @@ public class IfcTextStyleFontModelImpl extends IfcPreDefinedTextFontImpl impleme
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public IfcSizeSelect getFontSize() {
         return (IfcSizeSelect) eGet(Ifc4Package.Literals.IFC_TEXT_STYLE_FONT_MODEL__FONT_SIZE, true);
     }
@@ -193,6 +207,7 @@ public class IfcTextStyleFontModelImpl extends IfcPreDefinedTextFontImpl impleme
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setFontSize(IfcSizeSelect newFontSize) {
         eSet(Ifc4Package.Literals.IFC_TEXT_STYLE_FONT_MODEL__FONT_SIZE, newFontSize);
     }

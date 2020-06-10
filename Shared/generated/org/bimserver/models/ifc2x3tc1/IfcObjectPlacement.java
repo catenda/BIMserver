@@ -55,6 +55,7 @@ public interface IfcObjectPlacement extends IdEObject {
      * @see org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package#getIfcObjectPlacement_PlacesObject()
      * @see org.bimserver.models.ifc2x3tc1.IfcProduct#getObjectPlacement
      * @model opposite="ObjectPlacement" unsettable="true" upper="2"
+     *        annotation="inverse"
      * @generated
      */
     EList<IfcProduct> getPlacesObject();
@@ -96,6 +97,7 @@ public interface IfcObjectPlacement extends IdEObject {
      * @see org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package#getIfcObjectPlacement_ReferencedByPlacements()
      * @see org.bimserver.models.ifc2x3tc1.IfcLocalPlacement#getPlacementRelTo
      * @model opposite="PlacementRelTo" unsettable="true"
+     *        annotation="inverse"
      * @generated
      */
     EList<IfcLocalPlacement> getReferencedByPlacements();

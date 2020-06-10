@@ -65,6 +65,7 @@ public class IfcSlippageConnectionConditionImpl extends IfcStructuralConnectionC
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public double getSlippageX() {
         return (Double) eGet(Ifc4Package.Literals.IFC_SLIPPAGE_CONNECTION_CONDITION__SLIPPAGE_X, true);
     }
@@ -74,6 +75,7 @@ public class IfcSlippageConnectionConditionImpl extends IfcStructuralConnectionC
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setSlippageX(double newSlippageX) {
         eSet(Ifc4Package.Literals.IFC_SLIPPAGE_CONNECTION_CONDITION__SLIPPAGE_X, newSlippageX);
     }
@@ -83,6 +85,7 @@ public class IfcSlippageConnectionConditionImpl extends IfcStructuralConnectionC
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void unsetSlippageX() {
         eUnset(Ifc4Package.Literals.IFC_SLIPPAGE_CONNECTION_CONDITION__SLIPPAGE_X);
     }
@@ -92,6 +95,7 @@ public class IfcSlippageConnectionConditionImpl extends IfcStructuralConnectionC
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public boolean isSetSlippageX() {
         return eIsSet(Ifc4Package.Literals.IFC_SLIPPAGE_CONNECTION_CONDITION__SLIPPAGE_X);
     }
@@ -101,6 +105,7 @@ public class IfcSlippageConnectionConditionImpl extends IfcStructuralConnectionC
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public String getSlippageXAsString() {
         return (String) eGet(Ifc4Package.Literals.IFC_SLIPPAGE_CONNECTION_CONDITION__SLIPPAGE_XAS_STRING, true);
     }
@@ -110,6 +115,7 @@ public class IfcSlippageConnectionConditionImpl extends IfcStructuralConnectionC
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setSlippageXAsString(String newSlippageXAsString) {
         eSet(Ifc4Package.Literals.IFC_SLIPPAGE_CONNECTION_CONDITION__SLIPPAGE_XAS_STRING, newSlippageXAsString);
     }
@@ -119,6 +125,7 @@ public class IfcSlippageConnectionConditionImpl extends IfcStructuralConnectionC
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void unsetSlippageXAsString() {
         eUnset(Ifc4Package.Literals.IFC_SLIPPAGE_CONNECTION_CONDITION__SLIPPAGE_XAS_STRING);
     }
@@ -128,6 +135,7 @@ public class IfcSlippageConnectionConditionImpl extends IfcStructuralConnectionC
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public boolean isSetSlippageXAsString() {
         return eIsSet(Ifc4Package.Literals.IFC_SLIPPAGE_CONNECTION_CONDITION__SLIPPAGE_XAS_STRING);
     }
@@ -137,6 +145,7 @@ public class IfcSlippageConnectionConditionImpl extends IfcStructuralConnectionC
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public double getSlippageY() {
         return (Double) eGet(Ifc4Package.Literals.IFC_SLIPPAGE_CONNECTION_CONDITION__SLIPPAGE_Y, true);
     }
@@ -146,6 +155,7 @@ public class IfcSlippageConnectionConditionImpl extends IfcStructuralConnectionC
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setSlippageY(double newSlippageY) {
         eSet(Ifc4Package.Literals.IFC_SLIPPAGE_CONNECTION_CONDITION__SLIPPAGE_Y, newSlippageY);
     }
@@ -155,6 +165,7 @@ public class IfcSlippageConnectionConditionImpl extends IfcStructuralConnectionC
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void unsetSlippageY() {
         eUnset(Ifc4Package.Literals.IFC_SLIPPAGE_CONNECTION_CONDITION__SLIPPAGE_Y);
     }
@@ -164,6 +175,7 @@ public class IfcSlippageConnectionConditionImpl extends IfcStructuralConnectionC
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public boolean isSetSlippageY() {
         return eIsSet(Ifc4Package.Literals.IFC_SLIPPAGE_CONNECTION_CONDITION__SLIPPAGE_Y);
     }
@@ -173,6 +185,7 @@ public class IfcSlippageConnectionConditionImpl extends IfcStructuralConnectionC
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public String getSlippageYAsString() {
         return (String) eGet(Ifc4Package.Literals.IFC_SLIPPAGE_CONNECTION_CONDITION__SLIPPAGE_YAS_STRING, true);
     }
@@ -182,6 +195,7 @@ public class IfcSlippageConnectionConditionImpl extends IfcStructuralConnectionC
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setSlippageYAsString(String newSlippageYAsString) {
         eSet(Ifc4Package.Literals.IFC_SLIPPAGE_CONNECTION_CONDITION__SLIPPAGE_YAS_STRING, newSlippageYAsString);
     }
@@ -191,6 +205,7 @@ public class IfcSlippageConnectionConditionImpl extends IfcStructuralConnectionC
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void unsetSlippageYAsString() {
         eUnset(Ifc4Package.Literals.IFC_SLIPPAGE_CONNECTION_CONDITION__SLIPPAGE_YAS_STRING);
     }
@@ -200,6 +215,7 @@ public class IfcSlippageConnectionConditionImpl extends IfcStructuralConnectionC
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public boolean isSetSlippageYAsString() {
         return eIsSet(Ifc4Package.Literals.IFC_SLIPPAGE_CONNECTION_CONDITION__SLIPPAGE_YAS_STRING);
     }
@@ -209,6 +225,7 @@ public class IfcSlippageConnectionConditionImpl extends IfcStructuralConnectionC
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public double getSlippageZ() {
         return (Double) eGet(Ifc4Package.Literals.IFC_SLIPPAGE_CONNECTION_CONDITION__SLIPPAGE_Z, true);
     }
@@ -218,6 +235,7 @@ public class IfcSlippageConnectionConditionImpl extends IfcStructuralConnectionC
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setSlippageZ(double newSlippageZ) {
         eSet(Ifc4Package.Literals.IFC_SLIPPAGE_CONNECTION_CONDITION__SLIPPAGE_Z, newSlippageZ);
     }
@@ -227,6 +245,7 @@ public class IfcSlippageConnectionConditionImpl extends IfcStructuralConnectionC
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void unsetSlippageZ() {
         eUnset(Ifc4Package.Literals.IFC_SLIPPAGE_CONNECTION_CONDITION__SLIPPAGE_Z);
     }
@@ -236,6 +255,7 @@ public class IfcSlippageConnectionConditionImpl extends IfcStructuralConnectionC
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public boolean isSetSlippageZ() {
         return eIsSet(Ifc4Package.Literals.IFC_SLIPPAGE_CONNECTION_CONDITION__SLIPPAGE_Z);
     }
@@ -245,6 +265,7 @@ public class IfcSlippageConnectionConditionImpl extends IfcStructuralConnectionC
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public String getSlippageZAsString() {
         return (String) eGet(Ifc4Package.Literals.IFC_SLIPPAGE_CONNECTION_CONDITION__SLIPPAGE_ZAS_STRING, true);
     }
@@ -254,6 +275,7 @@ public class IfcSlippageConnectionConditionImpl extends IfcStructuralConnectionC
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setSlippageZAsString(String newSlippageZAsString) {
         eSet(Ifc4Package.Literals.IFC_SLIPPAGE_CONNECTION_CONDITION__SLIPPAGE_ZAS_STRING, newSlippageZAsString);
     }
@@ -263,6 +285,7 @@ public class IfcSlippageConnectionConditionImpl extends IfcStructuralConnectionC
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void unsetSlippageZAsString() {
         eUnset(Ifc4Package.Literals.IFC_SLIPPAGE_CONNECTION_CONDITION__SLIPPAGE_ZAS_STRING);
     }
@@ -272,6 +295,7 @@ public class IfcSlippageConnectionConditionImpl extends IfcStructuralConnectionC
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public boolean isSetSlippageZAsString() {
         return eIsSet(Ifc4Package.Literals.IFC_SLIPPAGE_CONNECTION_CONDITION__SLIPPAGE_ZAS_STRING);
     }

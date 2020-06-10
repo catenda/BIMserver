@@ -70,6 +70,7 @@ public class IfcMapConversionImpl extends IfcCoordinateOperationImpl implements 
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public double getEastings() {
         return (Double) eGet(Ifc4Package.Literals.IFC_MAP_CONVERSION__EASTINGS, true);
     }
@@ -79,6 +80,7 @@ public class IfcMapConversionImpl extends IfcCoordinateOperationImpl implements 
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setEastings(double newEastings) {
         eSet(Ifc4Package.Literals.IFC_MAP_CONVERSION__EASTINGS, newEastings);
     }
@@ -88,6 +90,7 @@ public class IfcMapConversionImpl extends IfcCoordinateOperationImpl implements 
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public String getEastingsAsString() {
         return (String) eGet(Ifc4Package.Literals.IFC_MAP_CONVERSION__EASTINGS_AS_STRING, true);
     }
@@ -97,6 +100,7 @@ public class IfcMapConversionImpl extends IfcCoordinateOperationImpl implements 
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setEastingsAsString(String newEastingsAsString) {
         eSet(Ifc4Package.Literals.IFC_MAP_CONVERSION__EASTINGS_AS_STRING, newEastingsAsString);
     }
@@ -106,6 +110,7 @@ public class IfcMapConversionImpl extends IfcCoordinateOperationImpl implements 
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public double getNorthings() {
         return (Double) eGet(Ifc4Package.Literals.IFC_MAP_CONVERSION__NORTHINGS, true);
     }
@@ -115,6 +120,7 @@ public class IfcMapConversionImpl extends IfcCoordinateOperationImpl implements 
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setNorthings(double newNorthings) {
         eSet(Ifc4Package.Literals.IFC_MAP_CONVERSION__NORTHINGS, newNorthings);
     }
@@ -124,6 +130,7 @@ public class IfcMapConversionImpl extends IfcCoordinateOperationImpl implements 
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public String getNorthingsAsString() {
         return (String) eGet(Ifc4Package.Literals.IFC_MAP_CONVERSION__NORTHINGS_AS_STRING, true);
     }
@@ -133,6 +140,7 @@ public class IfcMapConversionImpl extends IfcCoordinateOperationImpl implements 
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setNorthingsAsString(String newNorthingsAsString) {
         eSet(Ifc4Package.Literals.IFC_MAP_CONVERSION__NORTHINGS_AS_STRING, newNorthingsAsString);
     }
@@ -142,6 +150,7 @@ public class IfcMapConversionImpl extends IfcCoordinateOperationImpl implements 
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public double getOrthogonalHeight() {
         return (Double) eGet(Ifc4Package.Literals.IFC_MAP_CONVERSION__ORTHOGONAL_HEIGHT, true);
     }
@@ -151,6 +160,7 @@ public class IfcMapConversionImpl extends IfcCoordinateOperationImpl implements 
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setOrthogonalHeight(double newOrthogonalHeight) {
         eSet(Ifc4Package.Literals.IFC_MAP_CONVERSION__ORTHOGONAL_HEIGHT, newOrthogonalHeight);
     }
@@ -160,6 +170,7 @@ public class IfcMapConversionImpl extends IfcCoordinateOperationImpl implements 
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public String getOrthogonalHeightAsString() {
         return (String) eGet(Ifc4Package.Literals.IFC_MAP_CONVERSION__ORTHOGONAL_HEIGHT_AS_STRING, true);
     }
@@ -169,6 +180,7 @@ public class IfcMapConversionImpl extends IfcCoordinateOperationImpl implements 
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setOrthogonalHeightAsString(String newOrthogonalHeightAsString) {
         eSet(Ifc4Package.Literals.IFC_MAP_CONVERSION__ORTHOGONAL_HEIGHT_AS_STRING, newOrthogonalHeightAsString);
     }
@@ -178,6 +190,7 @@ public class IfcMapConversionImpl extends IfcCoordinateOperationImpl implements 
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public double getXAxisAbscissa() {
         return (Double) eGet(Ifc4Package.Literals.IFC_MAP_CONVERSION__XAXIS_ABSCISSA, true);
     }
@@ -187,6 +200,7 @@ public class IfcMapConversionImpl extends IfcCoordinateOperationImpl implements 
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setXAxisAbscissa(double newXAxisAbscissa) {
         eSet(Ifc4Package.Literals.IFC_MAP_CONVERSION__XAXIS_ABSCISSA, newXAxisAbscissa);
     }
@@ -196,6 +210,7 @@ public class IfcMapConversionImpl extends IfcCoordinateOperationImpl implements 
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void unsetXAxisAbscissa() {
         eUnset(Ifc4Package.Literals.IFC_MAP_CONVERSION__XAXIS_ABSCISSA);
     }
@@ -205,6 +220,7 @@ public class IfcMapConversionImpl extends IfcCoordinateOperationImpl implements 
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public boolean isSetXAxisAbscissa() {
         return eIsSet(Ifc4Package.Literals.IFC_MAP_CONVERSION__XAXIS_ABSCISSA);
     }
@@ -214,6 +230,7 @@ public class IfcMapConversionImpl extends IfcCoordinateOperationImpl implements 
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public String getXAxisAbscissaAsString() {
         return (String) eGet(Ifc4Package.Literals.IFC_MAP_CONVERSION__XAXIS_ABSCISSA_AS_STRING, true);
     }
@@ -223,6 +240,7 @@ public class IfcMapConversionImpl extends IfcCoordinateOperationImpl implements 
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setXAxisAbscissaAsString(String newXAxisAbscissaAsString) {
         eSet(Ifc4Package.Literals.IFC_MAP_CONVERSION__XAXIS_ABSCISSA_AS_STRING, newXAxisAbscissaAsString);
     }
@@ -232,6 +250,7 @@ public class IfcMapConversionImpl extends IfcCoordinateOperationImpl implements 
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void unsetXAxisAbscissaAsString() {
         eUnset(Ifc4Package.Literals.IFC_MAP_CONVERSION__XAXIS_ABSCISSA_AS_STRING);
     }
@@ -241,6 +260,7 @@ public class IfcMapConversionImpl extends IfcCoordinateOperationImpl implements 
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public boolean isSetXAxisAbscissaAsString() {
         return eIsSet(Ifc4Package.Literals.IFC_MAP_CONVERSION__XAXIS_ABSCISSA_AS_STRING);
     }
@@ -250,6 +270,7 @@ public class IfcMapConversionImpl extends IfcCoordinateOperationImpl implements 
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public double getXAxisOrdinate() {
         return (Double) eGet(Ifc4Package.Literals.IFC_MAP_CONVERSION__XAXIS_ORDINATE, true);
     }
@@ -259,6 +280,7 @@ public class IfcMapConversionImpl extends IfcCoordinateOperationImpl implements 
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setXAxisOrdinate(double newXAxisOrdinate) {
         eSet(Ifc4Package.Literals.IFC_MAP_CONVERSION__XAXIS_ORDINATE, newXAxisOrdinate);
     }
@@ -268,6 +290,7 @@ public class IfcMapConversionImpl extends IfcCoordinateOperationImpl implements 
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void unsetXAxisOrdinate() {
         eUnset(Ifc4Package.Literals.IFC_MAP_CONVERSION__XAXIS_ORDINATE);
     }
@@ -277,6 +300,7 @@ public class IfcMapConversionImpl extends IfcCoordinateOperationImpl implements 
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public boolean isSetXAxisOrdinate() {
         return eIsSet(Ifc4Package.Literals.IFC_MAP_CONVERSION__XAXIS_ORDINATE);
     }
@@ -286,6 +310,7 @@ public class IfcMapConversionImpl extends IfcCoordinateOperationImpl implements 
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public String getXAxisOrdinateAsString() {
         return (String) eGet(Ifc4Package.Literals.IFC_MAP_CONVERSION__XAXIS_ORDINATE_AS_STRING, true);
     }
@@ -295,6 +320,7 @@ public class IfcMapConversionImpl extends IfcCoordinateOperationImpl implements 
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setXAxisOrdinateAsString(String newXAxisOrdinateAsString) {
         eSet(Ifc4Package.Literals.IFC_MAP_CONVERSION__XAXIS_ORDINATE_AS_STRING, newXAxisOrdinateAsString);
     }
@@ -304,6 +330,7 @@ public class IfcMapConversionImpl extends IfcCoordinateOperationImpl implements 
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void unsetXAxisOrdinateAsString() {
         eUnset(Ifc4Package.Literals.IFC_MAP_CONVERSION__XAXIS_ORDINATE_AS_STRING);
     }
@@ -313,6 +340,7 @@ public class IfcMapConversionImpl extends IfcCoordinateOperationImpl implements 
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public boolean isSetXAxisOrdinateAsString() {
         return eIsSet(Ifc4Package.Literals.IFC_MAP_CONVERSION__XAXIS_ORDINATE_AS_STRING);
     }
@@ -322,6 +350,7 @@ public class IfcMapConversionImpl extends IfcCoordinateOperationImpl implements 
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public double getScale() {
         return (Double) eGet(Ifc4Package.Literals.IFC_MAP_CONVERSION__SCALE, true);
     }
@@ -331,6 +360,7 @@ public class IfcMapConversionImpl extends IfcCoordinateOperationImpl implements 
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setScale(double newScale) {
         eSet(Ifc4Package.Literals.IFC_MAP_CONVERSION__SCALE, newScale);
     }
@@ -340,6 +370,7 @@ public class IfcMapConversionImpl extends IfcCoordinateOperationImpl implements 
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void unsetScale() {
         eUnset(Ifc4Package.Literals.IFC_MAP_CONVERSION__SCALE);
     }
@@ -349,6 +380,7 @@ public class IfcMapConversionImpl extends IfcCoordinateOperationImpl implements 
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public boolean isSetScale() {
         return eIsSet(Ifc4Package.Literals.IFC_MAP_CONVERSION__SCALE);
     }
@@ -358,6 +390,7 @@ public class IfcMapConversionImpl extends IfcCoordinateOperationImpl implements 
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public String getScaleAsString() {
         return (String) eGet(Ifc4Package.Literals.IFC_MAP_CONVERSION__SCALE_AS_STRING, true);
     }
@@ -367,6 +400,7 @@ public class IfcMapConversionImpl extends IfcCoordinateOperationImpl implements 
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setScaleAsString(String newScaleAsString) {
         eSet(Ifc4Package.Literals.IFC_MAP_CONVERSION__SCALE_AS_STRING, newScaleAsString);
     }
@@ -376,6 +410,7 @@ public class IfcMapConversionImpl extends IfcCoordinateOperationImpl implements 
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void unsetScaleAsString() {
         eUnset(Ifc4Package.Literals.IFC_MAP_CONVERSION__SCALE_AS_STRING);
     }
@@ -385,6 +420,7 @@ public class IfcMapConversionImpl extends IfcCoordinateOperationImpl implements 
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public boolean isSetScaleAsString() {
         return eIsSet(Ifc4Package.Literals.IFC_MAP_CONVERSION__SCALE_AS_STRING);
     }

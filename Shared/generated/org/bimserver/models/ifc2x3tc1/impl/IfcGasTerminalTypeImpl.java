@@ -60,6 +60,7 @@ public class IfcGasTerminalTypeImpl extends IfcFlowTerminalTypeImpl implements I
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public IfcGasTerminalTypeEnum getPredefinedType() {
         return (IfcGasTerminalTypeEnum) eGet(Ifc2x3tc1Package.Literals.IFC_GAS_TERMINAL_TYPE__PREDEFINED_TYPE, true);
     }
@@ -69,6 +70,7 @@ public class IfcGasTerminalTypeImpl extends IfcFlowTerminalTypeImpl implements I
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setPredefinedType(IfcGasTerminalTypeEnum newPredefinedType) {
         eSet(Ifc2x3tc1Package.Literals.IFC_GAS_TERMINAL_TYPE__PREDEFINED_TYPE, newPredefinedType);
     }

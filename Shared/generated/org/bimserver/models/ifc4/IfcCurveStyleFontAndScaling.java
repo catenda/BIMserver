@@ -152,7 +152,8 @@ public interface IfcCurveStyleFontAndScaling extends IfcPresentationItem, IfcCur
      * @return the value of the '<em>Curve Font Scaling As String</em>' attribute.
      * @see #setCurveFontScalingAsString(String)
      * @see org.bimserver.models.ifc4.Ifc4Package#getIfcCurveStyleFontAndScaling_CurveFontScalingAsString()
-     * @model
+     * @model annotation="asstring"
+     *        annotation="hidden"
      * @generated
      */
     String getCurveFontScalingAsString();

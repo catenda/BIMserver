@@ -61,6 +61,7 @@ public class IfcTextStyleForDefinedFontImpl extends IfcPresentationItemImpl impl
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public IfcColour getColour() {
         return (IfcColour) eGet(Ifc4Package.Literals.IFC_TEXT_STYLE_FOR_DEFINED_FONT__COLOUR, true);
     }
@@ -70,6 +71,7 @@ public class IfcTextStyleForDefinedFontImpl extends IfcPresentationItemImpl impl
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setColour(IfcColour newColour) {
         eSet(Ifc4Package.Literals.IFC_TEXT_STYLE_FOR_DEFINED_FONT__COLOUR, newColour);
     }
@@ -79,6 +81,7 @@ public class IfcTextStyleForDefinedFontImpl extends IfcPresentationItemImpl impl
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public IfcColour getBackgroundColour() {
         return (IfcColour) eGet(Ifc4Package.Literals.IFC_TEXT_STYLE_FOR_DEFINED_FONT__BACKGROUND_COLOUR, true);
     }
@@ -88,6 +91,7 @@ public class IfcTextStyleForDefinedFontImpl extends IfcPresentationItemImpl impl
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setBackgroundColour(IfcColour newBackgroundColour) {
         eSet(Ifc4Package.Literals.IFC_TEXT_STYLE_FOR_DEFINED_FONT__BACKGROUND_COLOUR, newBackgroundColour);
     }
@@ -97,6 +101,7 @@ public class IfcTextStyleForDefinedFontImpl extends IfcPresentationItemImpl impl
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void unsetBackgroundColour() {
         eUnset(Ifc4Package.Literals.IFC_TEXT_STYLE_FOR_DEFINED_FONT__BACKGROUND_COLOUR);
     }
@@ -106,6 +111,7 @@ public class IfcTextStyleForDefinedFontImpl extends IfcPresentationItemImpl impl
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public boolean isSetBackgroundColour() {
         return eIsSet(Ifc4Package.Literals.IFC_TEXT_STYLE_FOR_DEFINED_FONT__BACKGROUND_COLOUR);
     }

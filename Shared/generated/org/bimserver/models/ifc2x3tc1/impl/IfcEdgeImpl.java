@@ -61,6 +61,7 @@ public class IfcEdgeImpl extends IfcTopologicalRepresentationItemImpl implements
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public IfcVertex getEdgeStart() {
         return (IfcVertex) eGet(Ifc2x3tc1Package.Literals.IFC_EDGE__EDGE_START, true);
     }
@@ -70,6 +71,7 @@ public class IfcEdgeImpl extends IfcTopologicalRepresentationItemImpl implements
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setEdgeStart(IfcVertex newEdgeStart) {
         eSet(Ifc2x3tc1Package.Literals.IFC_EDGE__EDGE_START, newEdgeStart);
     }
@@ -79,6 +81,7 @@ public class IfcEdgeImpl extends IfcTopologicalRepresentationItemImpl implements
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public IfcVertex getEdgeEnd() {
         return (IfcVertex) eGet(Ifc2x3tc1Package.Literals.IFC_EDGE__EDGE_END, true);
     }
@@ -88,6 +91,7 @@ public class IfcEdgeImpl extends IfcTopologicalRepresentationItemImpl implements
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setEdgeEnd(IfcVertex newEdgeEnd) {
         eSet(Ifc2x3tc1Package.Literals.IFC_EDGE__EDGE_END, newEdgeEnd);
     }

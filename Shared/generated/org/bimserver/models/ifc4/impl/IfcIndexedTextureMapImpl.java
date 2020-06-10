@@ -62,6 +62,7 @@ public class IfcIndexedTextureMapImpl extends IfcTextureCoordinateImpl implement
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public IfcTessellatedFaceSet getMappedTo() {
         return (IfcTessellatedFaceSet) eGet(Ifc4Package.Literals.IFC_INDEXED_TEXTURE_MAP__MAPPED_TO, true);
     }
@@ -71,6 +72,7 @@ public class IfcIndexedTextureMapImpl extends IfcTextureCoordinateImpl implement
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setMappedTo(IfcTessellatedFaceSet newMappedTo) {
         eSet(Ifc4Package.Literals.IFC_INDEXED_TEXTURE_MAP__MAPPED_TO, newMappedTo);
     }
@@ -80,6 +82,7 @@ public class IfcIndexedTextureMapImpl extends IfcTextureCoordinateImpl implement
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public IfcTextureVertexList getTexCoords() {
         return (IfcTextureVertexList) eGet(Ifc4Package.Literals.IFC_INDEXED_TEXTURE_MAP__TEX_COORDS, true);
     }
@@ -89,6 +92,7 @@ public class IfcIndexedTextureMapImpl extends IfcTextureCoordinateImpl implement
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setTexCoords(IfcTextureVertexList newTexCoords) {
         eSet(Ifc4Package.Literals.IFC_INDEXED_TEXTURE_MAP__TEX_COORDS, newTexCoords);
     }

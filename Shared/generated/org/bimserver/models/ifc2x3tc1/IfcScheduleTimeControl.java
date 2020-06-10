@@ -550,6 +550,8 @@ public interface IfcScheduleTimeControl extends IfcControl {
      * @see #setScheduleDurationAsString(String)
      * @see org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package#getIfcScheduleTimeControl_ScheduleDurationAsString()
      * @model unsettable="true"
+     *        annotation="asstring"
+     *        annotation="hidden"
      * @generated
      */
     String getScheduleDurationAsString();
@@ -656,6 +658,8 @@ public interface IfcScheduleTimeControl extends IfcControl {
      * @see #setActualDurationAsString(String)
      * @see org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package#getIfcScheduleTimeControl_ActualDurationAsString()
      * @model unsettable="true"
+     *        annotation="asstring"
+     *        annotation="hidden"
      * @generated
      */
     String getActualDurationAsString();
@@ -762,6 +766,8 @@ public interface IfcScheduleTimeControl extends IfcControl {
      * @see #setRemainingTimeAsString(String)
      * @see org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package#getIfcScheduleTimeControl_RemainingTimeAsString()
      * @model unsettable="true"
+     *        annotation="asstring"
+     *        annotation="hidden"
      * @generated
      */
     String getRemainingTimeAsString();
@@ -868,6 +874,8 @@ public interface IfcScheduleTimeControl extends IfcControl {
      * @see #setFreeFloatAsString(String)
      * @see org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package#getIfcScheduleTimeControl_FreeFloatAsString()
      * @model unsettable="true"
+     *        annotation="asstring"
+     *        annotation="hidden"
      * @generated
      */
     String getFreeFloatAsString();
@@ -974,6 +982,8 @@ public interface IfcScheduleTimeControl extends IfcControl {
      * @see #setTotalFloatAsString(String)
      * @see org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package#getIfcScheduleTimeControl_TotalFloatAsString()
      * @model unsettable="true"
+     *        annotation="asstring"
+     *        annotation="hidden"
      * @generated
      */
     String getTotalFloatAsString();
@@ -1189,6 +1199,8 @@ public interface IfcScheduleTimeControl extends IfcControl {
      * @see #setStartFloatAsString(String)
      * @see org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package#getIfcScheduleTimeControl_StartFloatAsString()
      * @model unsettable="true"
+     *        annotation="asstring"
+     *        annotation="hidden"
      * @generated
      */
     String getStartFloatAsString();
@@ -1295,6 +1307,8 @@ public interface IfcScheduleTimeControl extends IfcControl {
      * @see #setFinishFloatAsString(String)
      * @see org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package#getIfcScheduleTimeControl_FinishFloatAsString()
      * @model unsettable="true"
+     *        annotation="asstring"
+     *        annotation="hidden"
      * @generated
      */
     String getFinishFloatAsString();
@@ -1401,6 +1415,8 @@ public interface IfcScheduleTimeControl extends IfcControl {
      * @see #setCompletionAsString(String)
      * @see org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package#getIfcScheduleTimeControl_CompletionAsString()
      * @model unsettable="true"
+     *        annotation="asstring"
+     *        annotation="hidden"
      * @generated
      */
     String getCompletionAsString();
@@ -1456,6 +1472,7 @@ public interface IfcScheduleTimeControl extends IfcControl {
      * @see org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package#getIfcScheduleTimeControl_ScheduleTimeControlAssigned()
      * @see org.bimserver.models.ifc2x3tc1.IfcRelAssignsTasks#getTimeForTask
      * @model opposite="TimeForTask" unsettable="true"
+     *        annotation="inverse"
      * @generated
      */
     IfcRelAssignsTasks getScheduleTimeControlAssigned();

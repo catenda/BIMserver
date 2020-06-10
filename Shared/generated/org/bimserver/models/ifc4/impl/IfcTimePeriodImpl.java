@@ -72,6 +72,7 @@ public class IfcTimePeriodImpl extends IdEObjectImpl implements IfcTimePeriod {
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public String getStartTime() {
         return (String) eGet(Ifc4Package.Literals.IFC_TIME_PERIOD__START_TIME, true);
     }
@@ -81,6 +82,7 @@ public class IfcTimePeriodImpl extends IdEObjectImpl implements IfcTimePeriod {
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setStartTime(String newStartTime) {
         eSet(Ifc4Package.Literals.IFC_TIME_PERIOD__START_TIME, newStartTime);
     }
@@ -90,6 +92,7 @@ public class IfcTimePeriodImpl extends IdEObjectImpl implements IfcTimePeriod {
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public String getEndTime() {
         return (String) eGet(Ifc4Package.Literals.IFC_TIME_PERIOD__END_TIME, true);
     }
@@ -99,6 +102,7 @@ public class IfcTimePeriodImpl extends IdEObjectImpl implements IfcTimePeriod {
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setEndTime(String newEndTime) {
         eSet(Ifc4Package.Literals.IFC_TIME_PERIOD__END_TIME, newEndTime);
     }

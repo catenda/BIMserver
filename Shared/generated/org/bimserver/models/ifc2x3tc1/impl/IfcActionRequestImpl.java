@@ -59,6 +59,7 @@ public class IfcActionRequestImpl extends IfcControlImpl implements IfcActionReq
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public String getRequestID() {
         return (String) eGet(Ifc2x3tc1Package.Literals.IFC_ACTION_REQUEST__REQUEST_ID, true);
     }
@@ -68,6 +69,7 @@ public class IfcActionRequestImpl extends IfcControlImpl implements IfcActionReq
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setRequestID(String newRequestID) {
         eSet(Ifc2x3tc1Package.Literals.IFC_ACTION_REQUEST__REQUEST_ID, newRequestID);
     }

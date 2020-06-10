@@ -109,6 +109,8 @@ public interface IfcMechanicalMaterialProperties extends IfcMaterialProperties {
      * @see #setDynamicViscosityAsString(String)
      * @see org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package#getIfcMechanicalMaterialProperties_DynamicViscosityAsString()
      * @model unsettable="true"
+     *        annotation="asstring"
+     *        annotation="hidden"
      * @generated
      */
     String getDynamicViscosityAsString();
@@ -215,6 +217,8 @@ public interface IfcMechanicalMaterialProperties extends IfcMaterialProperties {
      * @see #setYoungModulusAsString(String)
      * @see org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package#getIfcMechanicalMaterialProperties_YoungModulusAsString()
      * @model unsettable="true"
+     *        annotation="asstring"
+     *        annotation="hidden"
      * @generated
      */
     String getYoungModulusAsString();
@@ -321,6 +325,8 @@ public interface IfcMechanicalMaterialProperties extends IfcMaterialProperties {
      * @see #setShearModulusAsString(String)
      * @see org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package#getIfcMechanicalMaterialProperties_ShearModulusAsString()
      * @model unsettable="true"
+     *        annotation="asstring"
+     *        annotation="hidden"
      * @generated
      */
     String getShearModulusAsString();
@@ -427,6 +433,8 @@ public interface IfcMechanicalMaterialProperties extends IfcMaterialProperties {
      * @see #setPoissonRatioAsString(String)
      * @see org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package#getIfcMechanicalMaterialProperties_PoissonRatioAsString()
      * @model unsettable="true"
+     *        annotation="asstring"
+     *        annotation="hidden"
      * @generated
      */
     String getPoissonRatioAsString();
@@ -533,6 +541,8 @@ public interface IfcMechanicalMaterialProperties extends IfcMaterialProperties {
      * @see #setThermalExpansionCoefficientAsString(String)
      * @see org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package#getIfcMechanicalMaterialProperties_ThermalExpansionCoefficientAsString()
      * @model unsettable="true"
+     *        annotation="asstring"
+     *        annotation="hidden"
      * @generated
      */
     String getThermalExpansionCoefficientAsString();

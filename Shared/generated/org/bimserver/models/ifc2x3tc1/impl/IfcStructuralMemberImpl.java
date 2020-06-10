@@ -65,6 +65,7 @@ public class IfcStructuralMemberImpl extends IfcStructuralItemImpl implements If
      * @generated
      */
     @SuppressWarnings("unchecked")
+    @Override
     public EList<IfcRelConnectsStructuralElement> getReferencesElement() {
         return (EList<IfcRelConnectsStructuralElement>) eGet(
                 Ifc2x3tc1Package.Literals.IFC_STRUCTURAL_MEMBER__REFERENCES_ELEMENT, true);
@@ -75,6 +76,7 @@ public class IfcStructuralMemberImpl extends IfcStructuralItemImpl implements If
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void unsetReferencesElement() {
         eUnset(Ifc2x3tc1Package.Literals.IFC_STRUCTURAL_MEMBER__REFERENCES_ELEMENT);
     }
@@ -84,6 +86,7 @@ public class IfcStructuralMemberImpl extends IfcStructuralItemImpl implements If
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public boolean isSetReferencesElement() {
         return eIsSet(Ifc2x3tc1Package.Literals.IFC_STRUCTURAL_MEMBER__REFERENCES_ELEMENT);
     }
@@ -94,6 +97,7 @@ public class IfcStructuralMemberImpl extends IfcStructuralItemImpl implements If
      * @generated
      */
     @SuppressWarnings("unchecked")
+    @Override
     public EList<IfcRelConnectsStructuralMember> getConnectedBy() {
         return (EList<IfcRelConnectsStructuralMember>) eGet(
                 Ifc2x3tc1Package.Literals.IFC_STRUCTURAL_MEMBER__CONNECTED_BY, true);
@@ -104,6 +108,7 @@ public class IfcStructuralMemberImpl extends IfcStructuralItemImpl implements If
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void unsetConnectedBy() {
         eUnset(Ifc2x3tc1Package.Literals.IFC_STRUCTURAL_MEMBER__CONNECTED_BY);
     }
@@ -113,6 +118,7 @@ public class IfcStructuralMemberImpl extends IfcStructuralItemImpl implements If
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public boolean isSetConnectedBy() {
         return eIsSet(Ifc2x3tc1Package.Literals.IFC_STRUCTURAL_MEMBER__CONNECTED_BY);
     }

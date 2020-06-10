@@ -86,6 +86,7 @@ public class ExtendedDataSchemaImpl extends IdEObjectImpl implements ExtendedDat
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public String getName() {
         return (String) eGet(StorePackage.Literals.EXTENDED_DATA_SCHEMA__NAME, true);
     }
@@ -95,6 +96,7 @@ public class ExtendedDataSchemaImpl extends IdEObjectImpl implements ExtendedDat
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setName(String newName) {
         eSet(StorePackage.Literals.EXTENDED_DATA_SCHEMA__NAME, newName);
     }
@@ -104,6 +106,7 @@ public class ExtendedDataSchemaImpl extends IdEObjectImpl implements ExtendedDat
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public String getUrl() {
         return (String) eGet(StorePackage.Literals.EXTENDED_DATA_SCHEMA__URL, true);
     }
@@ -113,6 +116,7 @@ public class ExtendedDataSchemaImpl extends IdEObjectImpl implements ExtendedDat
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setUrl(String newUrl) {
         eSet(StorePackage.Literals.EXTENDED_DATA_SCHEMA__URL, newUrl);
     }
@@ -122,6 +126,7 @@ public class ExtendedDataSchemaImpl extends IdEObjectImpl implements ExtendedDat
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public String getNamespace() {
         return (String) eGet(StorePackage.Literals.EXTENDED_DATA_SCHEMA__NAMESPACE, true);
     }
@@ -131,6 +136,7 @@ public class ExtendedDataSchemaImpl extends IdEObjectImpl implements ExtendedDat
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setNamespace(String newNamespace) {
         eSet(StorePackage.Literals.EXTENDED_DATA_SCHEMA__NAMESPACE, newNamespace);
     }
@@ -140,6 +146,7 @@ public class ExtendedDataSchemaImpl extends IdEObjectImpl implements ExtendedDat
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public String getDescription() {
         return (String) eGet(StorePackage.Literals.EXTENDED_DATA_SCHEMA__DESCRIPTION, true);
     }
@@ -149,6 +156,7 @@ public class ExtendedDataSchemaImpl extends IdEObjectImpl implements ExtendedDat
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setDescription(String newDescription) {
         eSet(StorePackage.Literals.EXTENDED_DATA_SCHEMA__DESCRIPTION, newDescription);
     }
@@ -158,6 +166,7 @@ public class ExtendedDataSchemaImpl extends IdEObjectImpl implements ExtendedDat
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public File getFile() {
         return (File) eGet(StorePackage.Literals.EXTENDED_DATA_SCHEMA__FILE, true);
     }
@@ -167,6 +176,7 @@ public class ExtendedDataSchemaImpl extends IdEObjectImpl implements ExtendedDat
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setFile(File newFile) {
         eSet(StorePackage.Literals.EXTENDED_DATA_SCHEMA__FILE, newFile);
     }
@@ -176,6 +186,7 @@ public class ExtendedDataSchemaImpl extends IdEObjectImpl implements ExtendedDat
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public long getSize() {
         return (Long) eGet(StorePackage.Literals.EXTENDED_DATA_SCHEMA__SIZE, true);
     }
@@ -185,6 +196,7 @@ public class ExtendedDataSchemaImpl extends IdEObjectImpl implements ExtendedDat
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setSize(long newSize) {
         eSet(StorePackage.Literals.EXTENDED_DATA_SCHEMA__SIZE, newSize);
     }
@@ -194,6 +206,7 @@ public class ExtendedDataSchemaImpl extends IdEObjectImpl implements ExtendedDat
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public boolean isValidate() {
         return (Boolean) eGet(StorePackage.Literals.EXTENDED_DATA_SCHEMA__VALIDATE, true);
     }
@@ -203,6 +216,7 @@ public class ExtendedDataSchemaImpl extends IdEObjectImpl implements ExtendedDat
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setValidate(boolean newValidate) {
         eSet(StorePackage.Literals.EXTENDED_DATA_SCHEMA__VALIDATE, newValidate);
     }
@@ -212,6 +226,7 @@ public class ExtendedDataSchemaImpl extends IdEObjectImpl implements ExtendedDat
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public ExtendedDataSchemaType getType() {
         return (ExtendedDataSchemaType) eGet(StorePackage.Literals.EXTENDED_DATA_SCHEMA__TYPE, true);
     }
@@ -221,6 +236,7 @@ public class ExtendedDataSchemaImpl extends IdEObjectImpl implements ExtendedDat
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setType(ExtendedDataSchemaType newType) {
         eSet(StorePackage.Literals.EXTENDED_DATA_SCHEMA__TYPE, newType);
     }
@@ -231,6 +247,7 @@ public class ExtendedDataSchemaImpl extends IdEObjectImpl implements ExtendedDat
      * @generated
      */
     @SuppressWarnings("unchecked")
+    @Override
     public EList<User> getUsers() {
         return (EList<User>) eGet(StorePackage.Literals.EXTENDED_DATA_SCHEMA__USERS, true);
     }
@@ -241,6 +258,7 @@ public class ExtendedDataSchemaImpl extends IdEObjectImpl implements ExtendedDat
      * @generated
      */
     @SuppressWarnings("unchecked")
+    @Override
     public EList<ExtendedData> getExtendedData() {
         return (EList<ExtendedData>) eGet(StorePackage.Literals.EXTENDED_DATA_SCHEMA__EXTENDED_DATA, true);
     }

@@ -71,6 +71,7 @@ public class DataValueImpl extends IdEObjectImpl implements DataValue {
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public String getFieldName() {
         return (String) eGet(StorePackage.Literals.DATA_VALUE__FIELD_NAME, true);
     }
@@ -80,6 +81,7 @@ public class DataValueImpl extends IdEObjectImpl implements DataValue {
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setFieldName(String newFieldName) {
         eSet(StorePackage.Literals.DATA_VALUE__FIELD_NAME, newFieldName);
     }

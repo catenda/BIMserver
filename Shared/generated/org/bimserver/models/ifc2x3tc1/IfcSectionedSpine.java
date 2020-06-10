@@ -110,6 +110,7 @@ public interface IfcSectionedSpine extends IfcGeometricRepresentationItem {
      * @see #setDim(long)
      * @see org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package#getIfcSectionedSpine_Dim()
      * @model unsettable="true" derived="true"
+     *        annotation="derived"
      * @generated
      */
     long getDim();

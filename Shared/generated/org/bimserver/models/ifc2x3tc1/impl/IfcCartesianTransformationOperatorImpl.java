@@ -67,6 +67,7 @@ public class IfcCartesianTransformationOperatorImpl extends IfcGeometricRepresen
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public IfcDirection getAxis1() {
         return (IfcDirection) eGet(Ifc2x3tc1Package.Literals.IFC_CARTESIAN_TRANSFORMATION_OPERATOR__AXIS1, true);
     }
@@ -76,6 +77,7 @@ public class IfcCartesianTransformationOperatorImpl extends IfcGeometricRepresen
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setAxis1(IfcDirection newAxis1) {
         eSet(Ifc2x3tc1Package.Literals.IFC_CARTESIAN_TRANSFORMATION_OPERATOR__AXIS1, newAxis1);
     }
@@ -85,6 +87,7 @@ public class IfcCartesianTransformationOperatorImpl extends IfcGeometricRepresen
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void unsetAxis1() {
         eUnset(Ifc2x3tc1Package.Literals.IFC_CARTESIAN_TRANSFORMATION_OPERATOR__AXIS1);
     }
@@ -94,6 +97,7 @@ public class IfcCartesianTransformationOperatorImpl extends IfcGeometricRepresen
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public boolean isSetAxis1() {
         return eIsSet(Ifc2x3tc1Package.Literals.IFC_CARTESIAN_TRANSFORMATION_OPERATOR__AXIS1);
     }
@@ -103,6 +107,7 @@ public class IfcCartesianTransformationOperatorImpl extends IfcGeometricRepresen
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public IfcDirection getAxis2() {
         return (IfcDirection) eGet(Ifc2x3tc1Package.Literals.IFC_CARTESIAN_TRANSFORMATION_OPERATOR__AXIS2, true);
     }
@@ -112,6 +117,7 @@ public class IfcCartesianTransformationOperatorImpl extends IfcGeometricRepresen
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setAxis2(IfcDirection newAxis2) {
         eSet(Ifc2x3tc1Package.Literals.IFC_CARTESIAN_TRANSFORMATION_OPERATOR__AXIS2, newAxis2);
     }
@@ -121,6 +127,7 @@ public class IfcCartesianTransformationOperatorImpl extends IfcGeometricRepresen
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void unsetAxis2() {
         eUnset(Ifc2x3tc1Package.Literals.IFC_CARTESIAN_TRANSFORMATION_OPERATOR__AXIS2);
     }
@@ -130,6 +137,7 @@ public class IfcCartesianTransformationOperatorImpl extends IfcGeometricRepresen
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public boolean isSetAxis2() {
         return eIsSet(Ifc2x3tc1Package.Literals.IFC_CARTESIAN_TRANSFORMATION_OPERATOR__AXIS2);
     }
@@ -139,6 +147,7 @@ public class IfcCartesianTransformationOperatorImpl extends IfcGeometricRepresen
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public IfcCartesianPoint getLocalOrigin() {
         return (IfcCartesianPoint) eGet(Ifc2x3tc1Package.Literals.IFC_CARTESIAN_TRANSFORMATION_OPERATOR__LOCAL_ORIGIN,
                 true);
@@ -149,6 +158,7 @@ public class IfcCartesianTransformationOperatorImpl extends IfcGeometricRepresen
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setLocalOrigin(IfcCartesianPoint newLocalOrigin) {
         eSet(Ifc2x3tc1Package.Literals.IFC_CARTESIAN_TRANSFORMATION_OPERATOR__LOCAL_ORIGIN, newLocalOrigin);
     }
@@ -158,6 +168,7 @@ public class IfcCartesianTransformationOperatorImpl extends IfcGeometricRepresen
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public double getScale() {
         return (Double) eGet(Ifc2x3tc1Package.Literals.IFC_CARTESIAN_TRANSFORMATION_OPERATOR__SCALE, true);
     }
@@ -167,6 +178,7 @@ public class IfcCartesianTransformationOperatorImpl extends IfcGeometricRepresen
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setScale(double newScale) {
         eSet(Ifc2x3tc1Package.Literals.IFC_CARTESIAN_TRANSFORMATION_OPERATOR__SCALE, newScale);
     }
@@ -176,6 +188,7 @@ public class IfcCartesianTransformationOperatorImpl extends IfcGeometricRepresen
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void unsetScale() {
         eUnset(Ifc2x3tc1Package.Literals.IFC_CARTESIAN_TRANSFORMATION_OPERATOR__SCALE);
     }
@@ -185,6 +198,7 @@ public class IfcCartesianTransformationOperatorImpl extends IfcGeometricRepresen
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public boolean isSetScale() {
         return eIsSet(Ifc2x3tc1Package.Literals.IFC_CARTESIAN_TRANSFORMATION_OPERATOR__SCALE);
     }
@@ -194,6 +208,7 @@ public class IfcCartesianTransformationOperatorImpl extends IfcGeometricRepresen
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public String getScaleAsString() {
         return (String) eGet(Ifc2x3tc1Package.Literals.IFC_CARTESIAN_TRANSFORMATION_OPERATOR__SCALE_AS_STRING, true);
     }
@@ -203,6 +218,7 @@ public class IfcCartesianTransformationOperatorImpl extends IfcGeometricRepresen
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setScaleAsString(String newScaleAsString) {
         eSet(Ifc2x3tc1Package.Literals.IFC_CARTESIAN_TRANSFORMATION_OPERATOR__SCALE_AS_STRING, newScaleAsString);
     }
@@ -212,6 +228,7 @@ public class IfcCartesianTransformationOperatorImpl extends IfcGeometricRepresen
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void unsetScaleAsString() {
         eUnset(Ifc2x3tc1Package.Literals.IFC_CARTESIAN_TRANSFORMATION_OPERATOR__SCALE_AS_STRING);
     }
@@ -221,6 +238,7 @@ public class IfcCartesianTransformationOperatorImpl extends IfcGeometricRepresen
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public boolean isSetScaleAsString() {
         return eIsSet(Ifc2x3tc1Package.Literals.IFC_CARTESIAN_TRANSFORMATION_OPERATOR__SCALE_AS_STRING);
     }
@@ -230,6 +248,7 @@ public class IfcCartesianTransformationOperatorImpl extends IfcGeometricRepresen
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public long getDim() {
         return (Long) eGet(Ifc2x3tc1Package.Literals.IFC_CARTESIAN_TRANSFORMATION_OPERATOR__DIM, true);
     }
@@ -239,6 +258,7 @@ public class IfcCartesianTransformationOperatorImpl extends IfcGeometricRepresen
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setDim(long newDim) {
         eSet(Ifc2x3tc1Package.Literals.IFC_CARTESIAN_TRANSFORMATION_OPERATOR__DIM, newDim);
     }
@@ -248,6 +268,7 @@ public class IfcCartesianTransformationOperatorImpl extends IfcGeometricRepresen
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void unsetDim() {
         eUnset(Ifc2x3tc1Package.Literals.IFC_CARTESIAN_TRANSFORMATION_OPERATOR__DIM);
     }
@@ -257,6 +278,7 @@ public class IfcCartesianTransformationOperatorImpl extends IfcGeometricRepresen
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public boolean isSetDim() {
         return eIsSet(Ifc2x3tc1Package.Literals.IFC_CARTESIAN_TRANSFORMATION_OPERATOR__DIM);
     }

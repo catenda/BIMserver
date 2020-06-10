@@ -70,6 +70,7 @@ public class IfcInventoryImpl extends IfcGroupImpl implements IfcInventory {
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public IfcInventoryTypeEnum getPredefinedType() {
         return (IfcInventoryTypeEnum) eGet(Ifc4Package.Literals.IFC_INVENTORY__PREDEFINED_TYPE, true);
     }
@@ -79,6 +80,7 @@ public class IfcInventoryImpl extends IfcGroupImpl implements IfcInventory {
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setPredefinedType(IfcInventoryTypeEnum newPredefinedType) {
         eSet(Ifc4Package.Literals.IFC_INVENTORY__PREDEFINED_TYPE, newPredefinedType);
     }
@@ -88,6 +90,7 @@ public class IfcInventoryImpl extends IfcGroupImpl implements IfcInventory {
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void unsetPredefinedType() {
         eUnset(Ifc4Package.Literals.IFC_INVENTORY__PREDEFINED_TYPE);
     }
@@ -97,6 +100,7 @@ public class IfcInventoryImpl extends IfcGroupImpl implements IfcInventory {
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public boolean isSetPredefinedType() {
         return eIsSet(Ifc4Package.Literals.IFC_INVENTORY__PREDEFINED_TYPE);
     }
@@ -106,6 +110,7 @@ public class IfcInventoryImpl extends IfcGroupImpl implements IfcInventory {
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public IfcActorSelect getJurisdiction() {
         return (IfcActorSelect) eGet(Ifc4Package.Literals.IFC_INVENTORY__JURISDICTION, true);
     }
@@ -115,6 +120,7 @@ public class IfcInventoryImpl extends IfcGroupImpl implements IfcInventory {
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setJurisdiction(IfcActorSelect newJurisdiction) {
         eSet(Ifc4Package.Literals.IFC_INVENTORY__JURISDICTION, newJurisdiction);
     }
@@ -124,6 +130,7 @@ public class IfcInventoryImpl extends IfcGroupImpl implements IfcInventory {
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void unsetJurisdiction() {
         eUnset(Ifc4Package.Literals.IFC_INVENTORY__JURISDICTION);
     }
@@ -133,6 +140,7 @@ public class IfcInventoryImpl extends IfcGroupImpl implements IfcInventory {
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public boolean isSetJurisdiction() {
         return eIsSet(Ifc4Package.Literals.IFC_INVENTORY__JURISDICTION);
     }
@@ -143,6 +151,7 @@ public class IfcInventoryImpl extends IfcGroupImpl implements IfcInventory {
      * @generated
      */
     @SuppressWarnings("unchecked")
+    @Override
     public EList<IfcPerson> getResponsiblePersons() {
         return (EList<IfcPerson>) eGet(Ifc4Package.Literals.IFC_INVENTORY__RESPONSIBLE_PERSONS, true);
     }
@@ -152,6 +161,7 @@ public class IfcInventoryImpl extends IfcGroupImpl implements IfcInventory {
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void unsetResponsiblePersons() {
         eUnset(Ifc4Package.Literals.IFC_INVENTORY__RESPONSIBLE_PERSONS);
     }
@@ -161,6 +171,7 @@ public class IfcInventoryImpl extends IfcGroupImpl implements IfcInventory {
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public boolean isSetResponsiblePersons() {
         return eIsSet(Ifc4Package.Literals.IFC_INVENTORY__RESPONSIBLE_PERSONS);
     }
@@ -170,6 +181,7 @@ public class IfcInventoryImpl extends IfcGroupImpl implements IfcInventory {
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public String getLastUpdateDate() {
         return (String) eGet(Ifc4Package.Literals.IFC_INVENTORY__LAST_UPDATE_DATE, true);
     }
@@ -179,6 +191,7 @@ public class IfcInventoryImpl extends IfcGroupImpl implements IfcInventory {
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setLastUpdateDate(String newLastUpdateDate) {
         eSet(Ifc4Package.Literals.IFC_INVENTORY__LAST_UPDATE_DATE, newLastUpdateDate);
     }
@@ -188,6 +201,7 @@ public class IfcInventoryImpl extends IfcGroupImpl implements IfcInventory {
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void unsetLastUpdateDate() {
         eUnset(Ifc4Package.Literals.IFC_INVENTORY__LAST_UPDATE_DATE);
     }
@@ -197,6 +211,7 @@ public class IfcInventoryImpl extends IfcGroupImpl implements IfcInventory {
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public boolean isSetLastUpdateDate() {
         return eIsSet(Ifc4Package.Literals.IFC_INVENTORY__LAST_UPDATE_DATE);
     }
@@ -206,6 +221,7 @@ public class IfcInventoryImpl extends IfcGroupImpl implements IfcInventory {
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public IfcCostValue getCurrentValue() {
         return (IfcCostValue) eGet(Ifc4Package.Literals.IFC_INVENTORY__CURRENT_VALUE, true);
     }
@@ -215,6 +231,7 @@ public class IfcInventoryImpl extends IfcGroupImpl implements IfcInventory {
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setCurrentValue(IfcCostValue newCurrentValue) {
         eSet(Ifc4Package.Literals.IFC_INVENTORY__CURRENT_VALUE, newCurrentValue);
     }
@@ -224,6 +241,7 @@ public class IfcInventoryImpl extends IfcGroupImpl implements IfcInventory {
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void unsetCurrentValue() {
         eUnset(Ifc4Package.Literals.IFC_INVENTORY__CURRENT_VALUE);
     }
@@ -233,6 +251,7 @@ public class IfcInventoryImpl extends IfcGroupImpl implements IfcInventory {
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public boolean isSetCurrentValue() {
         return eIsSet(Ifc4Package.Literals.IFC_INVENTORY__CURRENT_VALUE);
     }
@@ -242,6 +261,7 @@ public class IfcInventoryImpl extends IfcGroupImpl implements IfcInventory {
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public IfcCostValue getOriginalValue() {
         return (IfcCostValue) eGet(Ifc4Package.Literals.IFC_INVENTORY__ORIGINAL_VALUE, true);
     }
@@ -251,6 +271,7 @@ public class IfcInventoryImpl extends IfcGroupImpl implements IfcInventory {
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setOriginalValue(IfcCostValue newOriginalValue) {
         eSet(Ifc4Package.Literals.IFC_INVENTORY__ORIGINAL_VALUE, newOriginalValue);
     }
@@ -260,6 +281,7 @@ public class IfcInventoryImpl extends IfcGroupImpl implements IfcInventory {
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void unsetOriginalValue() {
         eUnset(Ifc4Package.Literals.IFC_INVENTORY__ORIGINAL_VALUE);
     }
@@ -269,6 +291,7 @@ public class IfcInventoryImpl extends IfcGroupImpl implements IfcInventory {
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public boolean isSetOriginalValue() {
         return eIsSet(Ifc4Package.Literals.IFC_INVENTORY__ORIGINAL_VALUE);
     }

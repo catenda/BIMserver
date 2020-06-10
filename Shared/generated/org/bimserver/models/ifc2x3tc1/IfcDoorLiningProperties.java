@@ -120,6 +120,8 @@ public interface IfcDoorLiningProperties extends IfcPropertySetDefinition {
      * @see #setLiningDepthAsString(String)
      * @see org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package#getIfcDoorLiningProperties_LiningDepthAsString()
      * @model unsettable="true"
+     *        annotation="asstring"
+     *        annotation="hidden"
      * @generated
      */
     String getLiningDepthAsString();
@@ -226,6 +228,8 @@ public interface IfcDoorLiningProperties extends IfcPropertySetDefinition {
      * @see #setLiningThicknessAsString(String)
      * @see org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package#getIfcDoorLiningProperties_LiningThicknessAsString()
      * @model unsettable="true"
+     *        annotation="asstring"
+     *        annotation="hidden"
      * @generated
      */
     String getLiningThicknessAsString();
@@ -332,6 +336,8 @@ public interface IfcDoorLiningProperties extends IfcPropertySetDefinition {
      * @see #setThresholdDepthAsString(String)
      * @see org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package#getIfcDoorLiningProperties_ThresholdDepthAsString()
      * @model unsettable="true"
+     *        annotation="asstring"
+     *        annotation="hidden"
      * @generated
      */
     String getThresholdDepthAsString();
@@ -438,6 +444,8 @@ public interface IfcDoorLiningProperties extends IfcPropertySetDefinition {
      * @see #setThresholdThicknessAsString(String)
      * @see org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package#getIfcDoorLiningProperties_ThresholdThicknessAsString()
      * @model unsettable="true"
+     *        annotation="asstring"
+     *        annotation="hidden"
      * @generated
      */
     String getThresholdThicknessAsString();
@@ -544,6 +552,8 @@ public interface IfcDoorLiningProperties extends IfcPropertySetDefinition {
      * @see #setTransomThicknessAsString(String)
      * @see org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package#getIfcDoorLiningProperties_TransomThicknessAsString()
      * @model unsettable="true"
+     *        annotation="asstring"
+     *        annotation="hidden"
      * @generated
      */
     String getTransomThicknessAsString();
@@ -650,6 +660,8 @@ public interface IfcDoorLiningProperties extends IfcPropertySetDefinition {
      * @see #setTransomOffsetAsString(String)
      * @see org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package#getIfcDoorLiningProperties_TransomOffsetAsString()
      * @model unsettable="true"
+     *        annotation="asstring"
+     *        annotation="hidden"
      * @generated
      */
     String getTransomOffsetAsString();
@@ -756,6 +768,8 @@ public interface IfcDoorLiningProperties extends IfcPropertySetDefinition {
      * @see #setLiningOffsetAsString(String)
      * @see org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package#getIfcDoorLiningProperties_LiningOffsetAsString()
      * @model unsettable="true"
+     *        annotation="asstring"
+     *        annotation="hidden"
      * @generated
      */
     String getLiningOffsetAsString();
@@ -862,6 +876,8 @@ public interface IfcDoorLiningProperties extends IfcPropertySetDefinition {
      * @see #setThresholdOffsetAsString(String)
      * @see org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package#getIfcDoorLiningProperties_ThresholdOffsetAsString()
      * @model unsettable="true"
+     *        annotation="asstring"
+     *        annotation="hidden"
      * @generated
      */
     String getThresholdOffsetAsString();
@@ -968,6 +984,8 @@ public interface IfcDoorLiningProperties extends IfcPropertySetDefinition {
      * @see #setCasingThicknessAsString(String)
      * @see org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package#getIfcDoorLiningProperties_CasingThicknessAsString()
      * @model unsettable="true"
+     *        annotation="asstring"
+     *        annotation="hidden"
      * @generated
      */
     String getCasingThicknessAsString();
@@ -1074,6 +1092,8 @@ public interface IfcDoorLiningProperties extends IfcPropertySetDefinition {
      * @see #setCasingDepthAsString(String)
      * @see org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package#getIfcDoorLiningProperties_CasingDepthAsString()
      * @model unsettable="true"
+     *        annotation="asstring"
+     *        annotation="hidden"
      * @generated
      */
     String getCasingDepthAsString();

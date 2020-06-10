@@ -112,6 +112,8 @@ public interface IfcSpaceThermalLoadProperties extends IfcPropertySetDefinition 
      * @see #setApplicableValueRatioAsString(String)
      * @see org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package#getIfcSpaceThermalLoadProperties_ApplicableValueRatioAsString()
      * @model unsettable="true"
+     *        annotation="asstring"
+     *        annotation="hidden"
      * @generated
      */
     String getApplicableValueRatioAsString();
@@ -299,7 +301,8 @@ public interface IfcSpaceThermalLoadProperties extends IfcPropertySetDefinition 
      * @return the value of the '<em>Maximum Value As String</em>' attribute.
      * @see #setMaximumValueAsString(String)
      * @see org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package#getIfcSpaceThermalLoadProperties_MaximumValueAsString()
-     * @model
+     * @model annotation="asstring"
+     *        annotation="hidden"
      * @generated
      */
     String getMaximumValueAsString();
@@ -381,6 +384,8 @@ public interface IfcSpaceThermalLoadProperties extends IfcPropertySetDefinition 
      * @see #setMinimumValueAsString(String)
      * @see org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package#getIfcSpaceThermalLoadProperties_MinimumValueAsString()
      * @model unsettable="true"
+     *        annotation="asstring"
+     *        annotation="hidden"
      * @generated
      */
     String getMinimumValueAsString();

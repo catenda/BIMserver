@@ -30,7 +30,7 @@ package org.bimserver.models.ifc4;
  * </ul>
  *
  * @see org.bimserver.models.ifc4.Ifc4Package#getIfcModulusOfLinearSubgradeReactionMeasure()
- * @model
+ * @model annotation="wrapped"
  * @generated
  */
 public interface IfcModulusOfLinearSubgradeReactionMeasure
@@ -102,6 +102,8 @@ public interface IfcModulusOfLinearSubgradeReactionMeasure
      * @see #setWrappedValueAsString(String)
      * @see org.bimserver.models.ifc4.Ifc4Package#getIfcModulusOfLinearSubgradeReactionMeasure_WrappedValueAsString()
      * @model unsettable="true"
+     *        annotation="asstring"
+     *        annotation="hidden"
      * @generated
      */
     String getWrappedValueAsString();

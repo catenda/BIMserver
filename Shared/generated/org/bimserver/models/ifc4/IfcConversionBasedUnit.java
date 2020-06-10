@@ -103,6 +103,7 @@ public interface IfcConversionBasedUnit extends IfcNamedUnit, IfcResourceObjectS
      * @see #unsetHasExternalReference()
      * @see org.bimserver.models.ifc4.Ifc4Package#getIfcConversionBasedUnit_HasExternalReference()
      * @model unsettable="true"
+     *        annotation="inverse"
      * @generated
      */
     EList<IfcExternalReferenceRelationship> getHasExternalReference();

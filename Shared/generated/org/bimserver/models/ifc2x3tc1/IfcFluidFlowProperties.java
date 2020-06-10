@@ -439,6 +439,8 @@ public interface IfcFluidFlowProperties extends IfcPropertySetDefinition {
      * @see #setTemperatureSingleValueAsString(String)
      * @see org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package#getIfcFluidFlowProperties_TemperatureSingleValueAsString()
      * @model unsettable="true"
+     *        annotation="asstring"
+     *        annotation="hidden"
      * @generated
      */
     String getTemperatureSingleValueAsString();
@@ -545,6 +547,8 @@ public interface IfcFluidFlowProperties extends IfcPropertySetDefinition {
      * @see #setWetBulbTemperatureSingleValueAsString(String)
      * @see org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package#getIfcFluidFlowProperties_WetBulbTemperatureSingleValueAsString()
      * @model unsettable="true"
+     *        annotation="asstring"
+     *        annotation="hidden"
      * @generated
      */
     String getWetBulbTemperatureSingleValueAsString();
@@ -810,6 +814,8 @@ public interface IfcFluidFlowProperties extends IfcPropertySetDefinition {
      * @see #setFlowConditionSingleValueAsString(String)
      * @see org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package#getIfcFluidFlowProperties_FlowConditionSingleValueAsString()
      * @model unsettable="true"
+     *        annotation="asstring"
+     *        annotation="hidden"
      * @generated
      */
     String getFlowConditionSingleValueAsString();
@@ -916,6 +922,8 @@ public interface IfcFluidFlowProperties extends IfcPropertySetDefinition {
      * @see #setVelocitySingleValueAsString(String)
      * @see org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package#getIfcFluidFlowProperties_VelocitySingleValueAsString()
      * @model unsettable="true"
+     *        annotation="asstring"
+     *        annotation="hidden"
      * @generated
      */
     String getVelocitySingleValueAsString();
@@ -1022,6 +1030,8 @@ public interface IfcFluidFlowProperties extends IfcPropertySetDefinition {
      * @see #setPressureSingleValueAsString(String)
      * @see org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package#getIfcFluidFlowProperties_PressureSingleValueAsString()
      * @model unsettable="true"
+     *        annotation="asstring"
+     *        annotation="hidden"
      * @generated
      */
     String getPressureSingleValueAsString();

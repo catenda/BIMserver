@@ -63,6 +63,7 @@ public class IfcLibraryReferenceImpl extends IfcExternalReferenceImpl implements
      * @generated
      */
     @SuppressWarnings("unchecked")
+    @Override
     public EList<IfcLibraryInformation> getReferenceIntoLibrary() {
         return (EList<IfcLibraryInformation>) eGet(
                 Ifc2x3tc1Package.Literals.IFC_LIBRARY_REFERENCE__REFERENCE_INTO_LIBRARY, true);
@@ -73,6 +74,7 @@ public class IfcLibraryReferenceImpl extends IfcExternalReferenceImpl implements
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void unsetReferenceIntoLibrary() {
         eUnset(Ifc2x3tc1Package.Literals.IFC_LIBRARY_REFERENCE__REFERENCE_INTO_LIBRARY);
     }
@@ -82,6 +84,7 @@ public class IfcLibraryReferenceImpl extends IfcExternalReferenceImpl implements
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public boolean isSetReferenceIntoLibrary() {
         return eIsSet(Ifc2x3tc1Package.Literals.IFC_LIBRARY_REFERENCE__REFERENCE_INTO_LIBRARY);
     }

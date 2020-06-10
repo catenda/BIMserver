@@ -105,6 +105,7 @@ public interface IfcObject extends IfcObjectDefinition {
      * @see org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package#getIfcObject_IsDefinedBy()
      * @see org.bimserver.models.ifc2x3tc1.IfcRelDefines#getRelatedObjects
      * @model opposite="RelatedObjects" unsettable="true"
+     *        annotation="inverse"
      * @generated
      */
     EList<IfcRelDefines> getIsDefinedBy();

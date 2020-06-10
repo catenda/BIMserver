@@ -81,7 +81,8 @@ public interface IfcCShapeProfileDef extends IfcParameterizedProfileDef {
      * @return the value of the '<em>Depth As String</em>' attribute.
      * @see #setDepthAsString(String)
      * @see org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package#getIfcCShapeProfileDef_DepthAsString()
-     * @model
+     * @model annotation="asstring"
+     *        annotation="hidden"
      * @generated
      */
     String getDepthAsString();
@@ -133,7 +134,8 @@ public interface IfcCShapeProfileDef extends IfcParameterizedProfileDef {
      * @return the value of the '<em>Width As String</em>' attribute.
      * @see #setWidthAsString(String)
      * @see org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package#getIfcCShapeProfileDef_WidthAsString()
-     * @model
+     * @model annotation="asstring"
+     *        annotation="hidden"
      * @generated
      */
     String getWidthAsString();
@@ -185,7 +187,8 @@ public interface IfcCShapeProfileDef extends IfcParameterizedProfileDef {
      * @return the value of the '<em>Wall Thickness As String</em>' attribute.
      * @see #setWallThicknessAsString(String)
      * @see org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package#getIfcCShapeProfileDef_WallThicknessAsString()
-     * @model
+     * @model annotation="asstring"
+     *        annotation="hidden"
      * @generated
      */
     String getWallThicknessAsString();
@@ -237,7 +240,8 @@ public interface IfcCShapeProfileDef extends IfcParameterizedProfileDef {
      * @return the value of the '<em>Girth As String</em>' attribute.
      * @see #setGirthAsString(String)
      * @see org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package#getIfcCShapeProfileDef_GirthAsString()
-     * @model
+     * @model annotation="asstring"
+     *        annotation="hidden"
      * @generated
      */
     String getGirthAsString();
@@ -319,6 +323,8 @@ public interface IfcCShapeProfileDef extends IfcParameterizedProfileDef {
      * @see #setInternalFilletRadiusAsString(String)
      * @see org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package#getIfcCShapeProfileDef_InternalFilletRadiusAsString()
      * @model unsettable="true"
+     *        annotation="asstring"
+     *        annotation="hidden"
      * @generated
      */
     String getInternalFilletRadiusAsString();
@@ -425,6 +431,8 @@ public interface IfcCShapeProfileDef extends IfcParameterizedProfileDef {
      * @see #setCentreOfGravityInXAsString(String)
      * @see org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package#getIfcCShapeProfileDef_CentreOfGravityInXAsString()
      * @model unsettable="true"
+     *        annotation="asstring"
+     *        annotation="hidden"
      * @generated
      */
     String getCentreOfGravityInXAsString();

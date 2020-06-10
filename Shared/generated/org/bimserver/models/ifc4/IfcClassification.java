@@ -388,6 +388,7 @@ public interface IfcClassification
      * @see #unsetClassificationForObjects()
      * @see org.bimserver.models.ifc4.Ifc4Package#getIfcClassification_ClassificationForObjects()
      * @model unsettable="true"
+     *        annotation="inverse"
      * @generated
      */
     EList<IfcRelAssociatesClassification> getClassificationForObjects();
@@ -427,6 +428,7 @@ public interface IfcClassification
      * @see #unsetHasReferences()
      * @see org.bimserver.models.ifc4.Ifc4Package#getIfcClassification_HasReferences()
      * @model unsettable="true"
+     *        annotation="inverse"
      * @generated
      */
     EList<IfcClassificationReference> getHasReferences();

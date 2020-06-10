@@ -60,6 +60,7 @@ public class IfcDistributionPortImpl extends IfcPortImpl implements IfcDistribut
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public IfcFlowDirectionEnum getFlowDirection() {
         return (IfcFlowDirectionEnum) eGet(Ifc2x3tc1Package.Literals.IFC_DISTRIBUTION_PORT__FLOW_DIRECTION, true);
     }
@@ -69,6 +70,7 @@ public class IfcDistributionPortImpl extends IfcPortImpl implements IfcDistribut
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setFlowDirection(IfcFlowDirectionEnum newFlowDirection) {
         eSet(Ifc2x3tc1Package.Literals.IFC_DISTRIBUTION_PORT__FLOW_DIRECTION, newFlowDirection);
     }
@@ -78,6 +80,7 @@ public class IfcDistributionPortImpl extends IfcPortImpl implements IfcDistribut
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void unsetFlowDirection() {
         eUnset(Ifc2x3tc1Package.Literals.IFC_DISTRIBUTION_PORT__FLOW_DIRECTION);
     }
@@ -87,6 +90,7 @@ public class IfcDistributionPortImpl extends IfcPortImpl implements IfcDistribut
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public boolean isSetFlowDirection() {
         return eIsSet(Ifc2x3tc1Package.Literals.IFC_DISTRIBUTION_PORT__FLOW_DIRECTION);
     }

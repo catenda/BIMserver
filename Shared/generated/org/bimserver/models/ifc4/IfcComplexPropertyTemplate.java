@@ -162,6 +162,7 @@ public interface IfcComplexPropertyTemplate extends IfcPropertyTemplate {
      * @see org.bimserver.models.ifc4.Ifc4Package#getIfcComplexPropertyTemplate_HasPropertyTemplates()
      * @see org.bimserver.models.ifc4.IfcPropertyTemplate#getPartOfComplexTemplate
      * @model opposite="PartOfComplexTemplate" unsettable="true"
+     *        annotation="inverse"
      * @generated
      */
     EList<IfcPropertyTemplate> getHasPropertyTemplates();

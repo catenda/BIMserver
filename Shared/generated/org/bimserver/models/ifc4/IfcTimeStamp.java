@@ -29,7 +29,7 @@ package org.bimserver.models.ifc4;
  * </ul>
  *
  * @see org.bimserver.models.ifc4.Ifc4Package#getIfcTimeStamp()
- * @model
+ * @model annotation="wrapped"
  * @generated
  */
 public interface IfcTimeStamp extends IfcSimpleValue {

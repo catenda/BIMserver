@@ -73,6 +73,7 @@ public class ServiceMethodImpl extends IdEObjectImpl implements ServiceMethod {
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public String getName() {
         return (String) eGet(StorePackage.Literals.SERVICE_METHOD__NAME, true);
     }
@@ -82,6 +83,7 @@ public class ServiceMethodImpl extends IdEObjectImpl implements ServiceMethod {
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setName(String newName) {
         eSet(StorePackage.Literals.SERVICE_METHOD__NAME, newName);
     }
@@ -91,6 +93,7 @@ public class ServiceMethodImpl extends IdEObjectImpl implements ServiceMethod {
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public String getDoc() {
         return (String) eGet(StorePackage.Literals.SERVICE_METHOD__DOC, true);
     }
@@ -100,6 +103,7 @@ public class ServiceMethodImpl extends IdEObjectImpl implements ServiceMethod {
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setDoc(String newDoc) {
         eSet(StorePackage.Literals.SERVICE_METHOD__DOC, newDoc);
     }
@@ -109,6 +113,7 @@ public class ServiceMethodImpl extends IdEObjectImpl implements ServiceMethod {
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public String getReturnDoc() {
         return (String) eGet(StorePackage.Literals.SERVICE_METHOD__RETURN_DOC, true);
     }
@@ -118,6 +123,7 @@ public class ServiceMethodImpl extends IdEObjectImpl implements ServiceMethod {
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setReturnDoc(String newReturnDoc) {
         eSet(StorePackage.Literals.SERVICE_METHOD__RETURN_DOC, newReturnDoc);
     }

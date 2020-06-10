@@ -30,7 +30,7 @@ package org.bimserver.models.ifc2x3tc1;
  * </ul>
  *
  * @see org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package#getIfcMassFlowRateMeasure()
- * @model
+ * @model annotation="wrapped"
  * @generated
  */
 public interface IfcMassFlowRateMeasure extends IfcDerivedMeasureValue {
@@ -101,6 +101,8 @@ public interface IfcMassFlowRateMeasure extends IfcDerivedMeasureValue {
      * @see #setWrappedValueAsString(String)
      * @see org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package#getIfcMassFlowRateMeasure_WrappedValueAsString()
      * @model unsettable="true"
+     *        annotation="asstring"
+     *        annotation="hidden"
      * @generated
      */
     String getWrappedValueAsString();

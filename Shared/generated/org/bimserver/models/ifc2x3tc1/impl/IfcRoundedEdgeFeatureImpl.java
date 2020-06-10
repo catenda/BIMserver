@@ -60,6 +60,7 @@ public class IfcRoundedEdgeFeatureImpl extends IfcEdgeFeatureImpl implements Ifc
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public double getRadius() {
         return (Double) eGet(Ifc2x3tc1Package.Literals.IFC_ROUNDED_EDGE_FEATURE__RADIUS, true);
     }
@@ -69,6 +70,7 @@ public class IfcRoundedEdgeFeatureImpl extends IfcEdgeFeatureImpl implements Ifc
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setRadius(double newRadius) {
         eSet(Ifc2x3tc1Package.Literals.IFC_ROUNDED_EDGE_FEATURE__RADIUS, newRadius);
     }
@@ -78,6 +80,7 @@ public class IfcRoundedEdgeFeatureImpl extends IfcEdgeFeatureImpl implements Ifc
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void unsetRadius() {
         eUnset(Ifc2x3tc1Package.Literals.IFC_ROUNDED_EDGE_FEATURE__RADIUS);
     }
@@ -87,6 +90,7 @@ public class IfcRoundedEdgeFeatureImpl extends IfcEdgeFeatureImpl implements Ifc
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public boolean isSetRadius() {
         return eIsSet(Ifc2x3tc1Package.Literals.IFC_ROUNDED_EDGE_FEATURE__RADIUS);
     }
@@ -96,6 +100,7 @@ public class IfcRoundedEdgeFeatureImpl extends IfcEdgeFeatureImpl implements Ifc
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public String getRadiusAsString() {
         return (String) eGet(Ifc2x3tc1Package.Literals.IFC_ROUNDED_EDGE_FEATURE__RADIUS_AS_STRING, true);
     }
@@ -105,6 +110,7 @@ public class IfcRoundedEdgeFeatureImpl extends IfcEdgeFeatureImpl implements Ifc
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setRadiusAsString(String newRadiusAsString) {
         eSet(Ifc2x3tc1Package.Literals.IFC_ROUNDED_EDGE_FEATURE__RADIUS_AS_STRING, newRadiusAsString);
     }
@@ -114,6 +120,7 @@ public class IfcRoundedEdgeFeatureImpl extends IfcEdgeFeatureImpl implements Ifc
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void unsetRadiusAsString() {
         eUnset(Ifc2x3tc1Package.Literals.IFC_ROUNDED_EDGE_FEATURE__RADIUS_AS_STRING);
     }
@@ -123,6 +130,7 @@ public class IfcRoundedEdgeFeatureImpl extends IfcEdgeFeatureImpl implements Ifc
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public boolean isSetRadiusAsString() {
         return eIsSet(Ifc2x3tc1Package.Literals.IFC_ROUNDED_EDGE_FEATURE__RADIUS_AS_STRING);
     }

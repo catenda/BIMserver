@@ -60,6 +60,7 @@ public class IfcStructuralPlanarActionImpl extends IfcStructuralActionImpl imple
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public IfcProjectedOrTrueLengthEnum getProjectedOrTrue() {
         return (IfcProjectedOrTrueLengthEnum) eGet(
                 Ifc2x3tc1Package.Literals.IFC_STRUCTURAL_PLANAR_ACTION__PROJECTED_OR_TRUE, true);
@@ -70,6 +71,7 @@ public class IfcStructuralPlanarActionImpl extends IfcStructuralActionImpl imple
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setProjectedOrTrue(IfcProjectedOrTrueLengthEnum newProjectedOrTrue) {
         eSet(Ifc2x3tc1Package.Literals.IFC_STRUCTURAL_PLANAR_ACTION__PROJECTED_OR_TRUE, newProjectedOrTrue);
     }

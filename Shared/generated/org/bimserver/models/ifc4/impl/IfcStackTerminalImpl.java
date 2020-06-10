@@ -60,6 +60,7 @@ public class IfcStackTerminalImpl extends IfcFlowTerminalImpl implements IfcStac
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public IfcStackTerminalTypeEnum getPredefinedType() {
         return (IfcStackTerminalTypeEnum) eGet(Ifc4Package.Literals.IFC_STACK_TERMINAL__PREDEFINED_TYPE, true);
     }
@@ -69,6 +70,7 @@ public class IfcStackTerminalImpl extends IfcFlowTerminalImpl implements IfcStac
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setPredefinedType(IfcStackTerminalTypeEnum newPredefinedType) {
         eSet(Ifc4Package.Literals.IFC_STACK_TERMINAL__PREDEFINED_TYPE, newPredefinedType);
     }
@@ -78,6 +80,7 @@ public class IfcStackTerminalImpl extends IfcFlowTerminalImpl implements IfcStac
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void unsetPredefinedType() {
         eUnset(Ifc4Package.Literals.IFC_STACK_TERMINAL__PREDEFINED_TYPE);
     }
@@ -87,6 +90,7 @@ public class IfcStackTerminalImpl extends IfcFlowTerminalImpl implements IfcStac
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public boolean isSetPredefinedType() {
         return eIsSet(Ifc4Package.Literals.IFC_STACK_TERMINAL__PREDEFINED_TYPE);
     }

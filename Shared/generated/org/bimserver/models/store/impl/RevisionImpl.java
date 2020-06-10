@@ -98,6 +98,7 @@ public class RevisionImpl extends IdEObjectImpl implements Revision {
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public Integer getId() {
         return (Integer) eGet(StorePackage.Literals.REVISION__ID, true);
     }
@@ -107,6 +108,7 @@ public class RevisionImpl extends IdEObjectImpl implements Revision {
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setId(Integer newId) {
         eSet(StorePackage.Literals.REVISION__ID, newId);
     }
@@ -116,6 +118,7 @@ public class RevisionImpl extends IdEObjectImpl implements Revision {
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public User getUser() {
         return (User) eGet(StorePackage.Literals.REVISION__USER, true);
     }
@@ -125,6 +128,7 @@ public class RevisionImpl extends IdEObjectImpl implements Revision {
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setUser(User newUser) {
         eSet(StorePackage.Literals.REVISION__USER, newUser);
     }
@@ -134,6 +138,7 @@ public class RevisionImpl extends IdEObjectImpl implements Revision {
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public Date getDate() {
         return (Date) eGet(StorePackage.Literals.REVISION__DATE, true);
     }
@@ -143,6 +148,7 @@ public class RevisionImpl extends IdEObjectImpl implements Revision {
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setDate(Date newDate) {
         eSet(StorePackage.Literals.REVISION__DATE, newDate);
     }
@@ -152,6 +158,7 @@ public class RevisionImpl extends IdEObjectImpl implements Revision {
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public String getComment() {
         return (String) eGet(StorePackage.Literals.REVISION__COMMENT, true);
     }
@@ -161,6 +168,7 @@ public class RevisionImpl extends IdEObjectImpl implements Revision {
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setComment(String newComment) {
         eSet(StorePackage.Literals.REVISION__COMMENT, newComment);
     }
@@ -170,6 +178,7 @@ public class RevisionImpl extends IdEObjectImpl implements Revision {
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public Long getSize() {
         return (Long) eGet(StorePackage.Literals.REVISION__SIZE, true);
     }
@@ -179,6 +188,7 @@ public class RevisionImpl extends IdEObjectImpl implements Revision {
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setSize(Long newSize) {
         eSet(StorePackage.Literals.REVISION__SIZE, newSize);
     }
@@ -189,6 +199,7 @@ public class RevisionImpl extends IdEObjectImpl implements Revision {
      * @generated
      */
     @SuppressWarnings("unchecked")
+    @Override
     public EList<ConcreteRevision> getConcreteRevisions() {
         return (EList<ConcreteRevision>) eGet(StorePackage.Literals.REVISION__CONCRETE_REVISIONS, true);
     }
@@ -198,6 +209,7 @@ public class RevisionImpl extends IdEObjectImpl implements Revision {
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public ConcreteRevision getLastConcreteRevision() {
         return (ConcreteRevision) eGet(StorePackage.Literals.REVISION__LAST_CONCRETE_REVISION, true);
     }
@@ -207,6 +219,7 @@ public class RevisionImpl extends IdEObjectImpl implements Revision {
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setLastConcreteRevision(ConcreteRevision newLastConcreteRevision) {
         eSet(StorePackage.Literals.REVISION__LAST_CONCRETE_REVISION, newLastConcreteRevision);
     }
@@ -217,6 +230,7 @@ public class RevisionImpl extends IdEObjectImpl implements Revision {
      * @generated
      */
     @SuppressWarnings("unchecked")
+    @Override
     public EList<Checkout> getCheckouts() {
         return (EList<Checkout>) eGet(StorePackage.Literals.REVISION__CHECKOUTS, true);
     }
@@ -226,6 +240,7 @@ public class RevisionImpl extends IdEObjectImpl implements Revision {
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public Project getProject() {
         return (Project) eGet(StorePackage.Literals.REVISION__PROJECT, true);
     }
@@ -235,6 +250,7 @@ public class RevisionImpl extends IdEObjectImpl implements Revision {
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setProject(Project newProject) {
         eSet(StorePackage.Literals.REVISION__PROJECT, newProject);
     }
@@ -244,6 +260,7 @@ public class RevisionImpl extends IdEObjectImpl implements Revision {
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public String getTag() {
         return (String) eGet(StorePackage.Literals.REVISION__TAG, true);
     }
@@ -253,6 +270,7 @@ public class RevisionImpl extends IdEObjectImpl implements Revision {
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setTag(String newTag) {
         eSet(StorePackage.Literals.REVISION__TAG, newTag);
     }
@@ -262,6 +280,7 @@ public class RevisionImpl extends IdEObjectImpl implements Revision {
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public String getLastError() {
         return (String) eGet(StorePackage.Literals.REVISION__LAST_ERROR, true);
     }
@@ -271,6 +290,7 @@ public class RevisionImpl extends IdEObjectImpl implements Revision {
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setLastError(String newLastError) {
         eSet(StorePackage.Literals.REVISION__LAST_ERROR, newLastError);
     }
@@ -280,6 +300,7 @@ public class RevisionImpl extends IdEObjectImpl implements Revision {
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public Integer getBmi() {
         return (Integer) eGet(StorePackage.Literals.REVISION__BMI, true);
     }
@@ -289,6 +310,7 @@ public class RevisionImpl extends IdEObjectImpl implements Revision {
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setBmi(Integer newBmi) {
         eSet(StorePackage.Literals.REVISION__BMI, newBmi);
     }
@@ -299,6 +321,7 @@ public class RevisionImpl extends IdEObjectImpl implements Revision {
      * @generated
      */
     @SuppressWarnings("unchecked")
+    @Override
     public EList<ExtendedData> getExtendedData() {
         return (EList<ExtendedData>) eGet(StorePackage.Literals.REVISION__EXTENDED_DATA, true);
     }
@@ -309,6 +332,7 @@ public class RevisionImpl extends IdEObjectImpl implements Revision {
      * @generated
      */
     @SuppressWarnings("unchecked")
+    @Override
     public EList<RevisionRelated> getLogs() {
         return (EList<RevisionRelated>) eGet(StorePackage.Literals.REVISION__LOGS, true);
     }
@@ -318,6 +342,7 @@ public class RevisionImpl extends IdEObjectImpl implements Revision {
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public Service getService() {
         return (Service) eGet(StorePackage.Literals.REVISION__SERVICE, true);
     }
@@ -327,6 +352,7 @@ public class RevisionImpl extends IdEObjectImpl implements Revision {
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setService(Service newService) {
         eSet(StorePackage.Literals.REVISION__SERVICE, newService);
     }
@@ -336,6 +362,7 @@ public class RevisionImpl extends IdEObjectImpl implements Revision {
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public boolean isHasGeometry() {
         return (Boolean) eGet(StorePackage.Literals.REVISION__HAS_GEOMETRY, true);
     }
@@ -345,6 +372,7 @@ public class RevisionImpl extends IdEObjectImpl implements Revision {
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setHasGeometry(boolean newHasGeometry) {
         eSet(StorePackage.Literals.REVISION__HAS_GEOMETRY, newHasGeometry);
     }

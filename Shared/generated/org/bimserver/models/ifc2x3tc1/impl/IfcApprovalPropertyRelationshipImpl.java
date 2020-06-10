@@ -77,6 +77,7 @@ public class IfcApprovalPropertyRelationshipImpl extends IdEObjectImpl implement
      * @generated
      */
     @SuppressWarnings("unchecked")
+    @Override
     public EList<IfcProperty> getApprovedProperties() {
         return (EList<IfcProperty>) eGet(
                 Ifc2x3tc1Package.Literals.IFC_APPROVAL_PROPERTY_RELATIONSHIP__APPROVED_PROPERTIES, true);
@@ -87,6 +88,7 @@ public class IfcApprovalPropertyRelationshipImpl extends IdEObjectImpl implement
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public IfcApproval getApproval() {
         return (IfcApproval) eGet(Ifc2x3tc1Package.Literals.IFC_APPROVAL_PROPERTY_RELATIONSHIP__APPROVAL, true);
     }
@@ -96,6 +98,7 @@ public class IfcApprovalPropertyRelationshipImpl extends IdEObjectImpl implement
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setApproval(IfcApproval newApproval) {
         eSet(Ifc2x3tc1Package.Literals.IFC_APPROVAL_PROPERTY_RELATIONSHIP__APPROVAL, newApproval);
     }

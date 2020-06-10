@@ -63,6 +63,7 @@ public class IfcControlImpl extends IfcObjectImpl implements IfcControl {
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public String getIdentification() {
         return (String) eGet(Ifc4Package.Literals.IFC_CONTROL__IDENTIFICATION, true);
     }
@@ -72,6 +73,7 @@ public class IfcControlImpl extends IfcObjectImpl implements IfcControl {
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setIdentification(String newIdentification) {
         eSet(Ifc4Package.Literals.IFC_CONTROL__IDENTIFICATION, newIdentification);
     }
@@ -81,6 +83,7 @@ public class IfcControlImpl extends IfcObjectImpl implements IfcControl {
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void unsetIdentification() {
         eUnset(Ifc4Package.Literals.IFC_CONTROL__IDENTIFICATION);
     }
@@ -90,6 +93,7 @@ public class IfcControlImpl extends IfcObjectImpl implements IfcControl {
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public boolean isSetIdentification() {
         return eIsSet(Ifc4Package.Literals.IFC_CONTROL__IDENTIFICATION);
     }
@@ -100,6 +104,7 @@ public class IfcControlImpl extends IfcObjectImpl implements IfcControl {
      * @generated
      */
     @SuppressWarnings("unchecked")
+    @Override
     public EList<IfcRelAssignsToControl> getControls() {
         return (EList<IfcRelAssignsToControl>) eGet(Ifc4Package.Literals.IFC_CONTROL__CONTROLS, true);
     }
@@ -109,6 +114,7 @@ public class IfcControlImpl extends IfcObjectImpl implements IfcControl {
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void unsetControls() {
         eUnset(Ifc4Package.Literals.IFC_CONTROL__CONTROLS);
     }
@@ -118,6 +124,7 @@ public class IfcControlImpl extends IfcObjectImpl implements IfcControl {
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public boolean isSetControls() {
         return eIsSet(Ifc4Package.Literals.IFC_CONTROL__CONTROLS);
     }

@@ -184,6 +184,8 @@ public interface IfcLocalTime extends IfcDateTimeSelect, IfcObjectReferenceSelec
      * @see #setSecondComponentAsString(String)
      * @see org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package#getIfcLocalTime_SecondComponentAsString()
      * @model unsettable="true"
+     *        annotation="asstring"
+     *        annotation="hidden"
      * @generated
      */
     String getSecondComponentAsString();

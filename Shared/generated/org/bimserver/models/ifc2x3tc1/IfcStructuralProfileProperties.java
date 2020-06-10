@@ -131,6 +131,8 @@ public interface IfcStructuralProfileProperties extends IfcGeneralProfilePropert
      * @see #setTorsionalConstantXAsString(String)
      * @see org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package#getIfcStructuralProfileProperties_TorsionalConstantXAsString()
      * @model unsettable="true"
+     *        annotation="asstring"
+     *        annotation="hidden"
      * @generated
      */
     String getTorsionalConstantXAsString();
@@ -237,6 +239,8 @@ public interface IfcStructuralProfileProperties extends IfcGeneralProfilePropert
      * @see #setMomentOfInertiaYZAsString(String)
      * @see org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package#getIfcStructuralProfileProperties_MomentOfInertiaYZAsString()
      * @model unsettable="true"
+     *        annotation="asstring"
+     *        annotation="hidden"
      * @generated
      */
     String getMomentOfInertiaYZAsString();
@@ -343,6 +347,8 @@ public interface IfcStructuralProfileProperties extends IfcGeneralProfilePropert
      * @see #setMomentOfInertiaYAsString(String)
      * @see org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package#getIfcStructuralProfileProperties_MomentOfInertiaYAsString()
      * @model unsettable="true"
+     *        annotation="asstring"
+     *        annotation="hidden"
      * @generated
      */
     String getMomentOfInertiaYAsString();
@@ -449,6 +455,8 @@ public interface IfcStructuralProfileProperties extends IfcGeneralProfilePropert
      * @see #setMomentOfInertiaZAsString(String)
      * @see org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package#getIfcStructuralProfileProperties_MomentOfInertiaZAsString()
      * @model unsettable="true"
+     *        annotation="asstring"
+     *        annotation="hidden"
      * @generated
      */
     String getMomentOfInertiaZAsString();
@@ -555,6 +563,8 @@ public interface IfcStructuralProfileProperties extends IfcGeneralProfilePropert
      * @see #setWarpingConstantAsString(String)
      * @see org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package#getIfcStructuralProfileProperties_WarpingConstantAsString()
      * @model unsettable="true"
+     *        annotation="asstring"
+     *        annotation="hidden"
      * @generated
      */
     String getWarpingConstantAsString();
@@ -661,6 +671,8 @@ public interface IfcStructuralProfileProperties extends IfcGeneralProfilePropert
      * @see #setShearCentreZAsString(String)
      * @see org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package#getIfcStructuralProfileProperties_ShearCentreZAsString()
      * @model unsettable="true"
+     *        annotation="asstring"
+     *        annotation="hidden"
      * @generated
      */
     String getShearCentreZAsString();
@@ -767,6 +779,8 @@ public interface IfcStructuralProfileProperties extends IfcGeneralProfilePropert
      * @see #setShearCentreYAsString(String)
      * @see org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package#getIfcStructuralProfileProperties_ShearCentreYAsString()
      * @model unsettable="true"
+     *        annotation="asstring"
+     *        annotation="hidden"
      * @generated
      */
     String getShearCentreYAsString();
@@ -873,6 +887,8 @@ public interface IfcStructuralProfileProperties extends IfcGeneralProfilePropert
      * @see #setShearDeformationAreaZAsString(String)
      * @see org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package#getIfcStructuralProfileProperties_ShearDeformationAreaZAsString()
      * @model unsettable="true"
+     *        annotation="asstring"
+     *        annotation="hidden"
      * @generated
      */
     String getShearDeformationAreaZAsString();
@@ -979,6 +995,8 @@ public interface IfcStructuralProfileProperties extends IfcGeneralProfilePropert
      * @see #setShearDeformationAreaYAsString(String)
      * @see org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package#getIfcStructuralProfileProperties_ShearDeformationAreaYAsString()
      * @model unsettable="true"
+     *        annotation="asstring"
+     *        annotation="hidden"
      * @generated
      */
     String getShearDeformationAreaYAsString();
@@ -1085,6 +1103,8 @@ public interface IfcStructuralProfileProperties extends IfcGeneralProfilePropert
      * @see #setMaximumSectionModulusYAsString(String)
      * @see org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package#getIfcStructuralProfileProperties_MaximumSectionModulusYAsString()
      * @model unsettable="true"
+     *        annotation="asstring"
+     *        annotation="hidden"
      * @generated
      */
     String getMaximumSectionModulusYAsString();
@@ -1191,6 +1211,8 @@ public interface IfcStructuralProfileProperties extends IfcGeneralProfilePropert
      * @see #setMinimumSectionModulusYAsString(String)
      * @see org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package#getIfcStructuralProfileProperties_MinimumSectionModulusYAsString()
      * @model unsettable="true"
+     *        annotation="asstring"
+     *        annotation="hidden"
      * @generated
      */
     String getMinimumSectionModulusYAsString();
@@ -1297,6 +1319,8 @@ public interface IfcStructuralProfileProperties extends IfcGeneralProfilePropert
      * @see #setMaximumSectionModulusZAsString(String)
      * @see org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package#getIfcStructuralProfileProperties_MaximumSectionModulusZAsString()
      * @model unsettable="true"
+     *        annotation="asstring"
+     *        annotation="hidden"
      * @generated
      */
     String getMaximumSectionModulusZAsString();
@@ -1403,6 +1427,8 @@ public interface IfcStructuralProfileProperties extends IfcGeneralProfilePropert
      * @see #setMinimumSectionModulusZAsString(String)
      * @see org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package#getIfcStructuralProfileProperties_MinimumSectionModulusZAsString()
      * @model unsettable="true"
+     *        annotation="asstring"
+     *        annotation="hidden"
      * @generated
      */
     String getMinimumSectionModulusZAsString();
@@ -1509,6 +1535,8 @@ public interface IfcStructuralProfileProperties extends IfcGeneralProfilePropert
      * @see #setTorsionalSectionModulusAsString(String)
      * @see org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package#getIfcStructuralProfileProperties_TorsionalSectionModulusAsString()
      * @model unsettable="true"
+     *        annotation="asstring"
+     *        annotation="hidden"
      * @generated
      */
     String getTorsionalSectionModulusAsString();
@@ -1615,6 +1643,8 @@ public interface IfcStructuralProfileProperties extends IfcGeneralProfilePropert
      * @see #setCentreOfGravityInXAsString(String)
      * @see org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package#getIfcStructuralProfileProperties_CentreOfGravityInXAsString()
      * @model unsettable="true"
+     *        annotation="asstring"
+     *        annotation="hidden"
      * @generated
      */
     String getCentreOfGravityInXAsString();
@@ -1721,6 +1751,8 @@ public interface IfcStructuralProfileProperties extends IfcGeneralProfilePropert
      * @see #setCentreOfGravityInYAsString(String)
      * @see org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package#getIfcStructuralProfileProperties_CentreOfGravityInYAsString()
      * @model unsettable="true"
+     *        annotation="asstring"
+     *        annotation="hidden"
      * @generated
      */
     String getCentreOfGravityInYAsString();

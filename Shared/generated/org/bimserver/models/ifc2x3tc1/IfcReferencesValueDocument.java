@@ -81,6 +81,7 @@ public interface IfcReferencesValueDocument extends IdEObject {
      * @see org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package#getIfcReferencesValueDocument_ReferencingValues()
      * @see org.bimserver.models.ifc2x3tc1.IfcAppliedValue#getValuesReferenced
      * @model opposite="ValuesReferenced"
+     *        annotation="inverse"
      * @generated
      */
     EList<IfcAppliedValue> getReferencingValues();

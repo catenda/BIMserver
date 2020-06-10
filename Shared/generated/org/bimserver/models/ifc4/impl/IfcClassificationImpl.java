@@ -71,6 +71,7 @@ public class IfcClassificationImpl extends IfcExternalInformationImpl implements
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public String getSource() {
         return (String) eGet(Ifc4Package.Literals.IFC_CLASSIFICATION__SOURCE, true);
     }
@@ -80,6 +81,7 @@ public class IfcClassificationImpl extends IfcExternalInformationImpl implements
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setSource(String newSource) {
         eSet(Ifc4Package.Literals.IFC_CLASSIFICATION__SOURCE, newSource);
     }
@@ -89,6 +91,7 @@ public class IfcClassificationImpl extends IfcExternalInformationImpl implements
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void unsetSource() {
         eUnset(Ifc4Package.Literals.IFC_CLASSIFICATION__SOURCE);
     }
@@ -98,6 +101,7 @@ public class IfcClassificationImpl extends IfcExternalInformationImpl implements
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public boolean isSetSource() {
         return eIsSet(Ifc4Package.Literals.IFC_CLASSIFICATION__SOURCE);
     }
@@ -107,6 +111,7 @@ public class IfcClassificationImpl extends IfcExternalInformationImpl implements
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public String getEdition() {
         return (String) eGet(Ifc4Package.Literals.IFC_CLASSIFICATION__EDITION, true);
     }
@@ -116,6 +121,7 @@ public class IfcClassificationImpl extends IfcExternalInformationImpl implements
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setEdition(String newEdition) {
         eSet(Ifc4Package.Literals.IFC_CLASSIFICATION__EDITION, newEdition);
     }
@@ -125,6 +131,7 @@ public class IfcClassificationImpl extends IfcExternalInformationImpl implements
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void unsetEdition() {
         eUnset(Ifc4Package.Literals.IFC_CLASSIFICATION__EDITION);
     }
@@ -134,6 +141,7 @@ public class IfcClassificationImpl extends IfcExternalInformationImpl implements
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public boolean isSetEdition() {
         return eIsSet(Ifc4Package.Literals.IFC_CLASSIFICATION__EDITION);
     }
@@ -143,6 +151,7 @@ public class IfcClassificationImpl extends IfcExternalInformationImpl implements
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public String getEditionDate() {
         return (String) eGet(Ifc4Package.Literals.IFC_CLASSIFICATION__EDITION_DATE, true);
     }
@@ -152,6 +161,7 @@ public class IfcClassificationImpl extends IfcExternalInformationImpl implements
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setEditionDate(String newEditionDate) {
         eSet(Ifc4Package.Literals.IFC_CLASSIFICATION__EDITION_DATE, newEditionDate);
     }
@@ -161,6 +171,7 @@ public class IfcClassificationImpl extends IfcExternalInformationImpl implements
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void unsetEditionDate() {
         eUnset(Ifc4Package.Literals.IFC_CLASSIFICATION__EDITION_DATE);
     }
@@ -170,6 +181,7 @@ public class IfcClassificationImpl extends IfcExternalInformationImpl implements
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public boolean isSetEditionDate() {
         return eIsSet(Ifc4Package.Literals.IFC_CLASSIFICATION__EDITION_DATE);
     }
@@ -179,6 +191,7 @@ public class IfcClassificationImpl extends IfcExternalInformationImpl implements
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public String getName() {
         return (String) eGet(Ifc4Package.Literals.IFC_CLASSIFICATION__NAME, true);
     }
@@ -188,6 +201,7 @@ public class IfcClassificationImpl extends IfcExternalInformationImpl implements
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setName(String newName) {
         eSet(Ifc4Package.Literals.IFC_CLASSIFICATION__NAME, newName);
     }
@@ -197,6 +211,7 @@ public class IfcClassificationImpl extends IfcExternalInformationImpl implements
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public String getDescription() {
         return (String) eGet(Ifc4Package.Literals.IFC_CLASSIFICATION__DESCRIPTION, true);
     }
@@ -206,6 +221,7 @@ public class IfcClassificationImpl extends IfcExternalInformationImpl implements
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setDescription(String newDescription) {
         eSet(Ifc4Package.Literals.IFC_CLASSIFICATION__DESCRIPTION, newDescription);
     }
@@ -215,6 +231,7 @@ public class IfcClassificationImpl extends IfcExternalInformationImpl implements
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void unsetDescription() {
         eUnset(Ifc4Package.Literals.IFC_CLASSIFICATION__DESCRIPTION);
     }
@@ -224,6 +241,7 @@ public class IfcClassificationImpl extends IfcExternalInformationImpl implements
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public boolean isSetDescription() {
         return eIsSet(Ifc4Package.Literals.IFC_CLASSIFICATION__DESCRIPTION);
     }
@@ -233,6 +251,7 @@ public class IfcClassificationImpl extends IfcExternalInformationImpl implements
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public String getLocation() {
         return (String) eGet(Ifc4Package.Literals.IFC_CLASSIFICATION__LOCATION, true);
     }
@@ -242,6 +261,7 @@ public class IfcClassificationImpl extends IfcExternalInformationImpl implements
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setLocation(String newLocation) {
         eSet(Ifc4Package.Literals.IFC_CLASSIFICATION__LOCATION, newLocation);
     }
@@ -251,6 +271,7 @@ public class IfcClassificationImpl extends IfcExternalInformationImpl implements
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void unsetLocation() {
         eUnset(Ifc4Package.Literals.IFC_CLASSIFICATION__LOCATION);
     }
@@ -260,6 +281,7 @@ public class IfcClassificationImpl extends IfcExternalInformationImpl implements
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public boolean isSetLocation() {
         return eIsSet(Ifc4Package.Literals.IFC_CLASSIFICATION__LOCATION);
     }
@@ -270,6 +292,7 @@ public class IfcClassificationImpl extends IfcExternalInformationImpl implements
      * @generated
      */
     @SuppressWarnings("unchecked")
+    @Override
     public EList<String> getReferenceTokens() {
         return (EList<String>) eGet(Ifc4Package.Literals.IFC_CLASSIFICATION__REFERENCE_TOKENS, true);
     }
@@ -279,6 +302,7 @@ public class IfcClassificationImpl extends IfcExternalInformationImpl implements
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void unsetReferenceTokens() {
         eUnset(Ifc4Package.Literals.IFC_CLASSIFICATION__REFERENCE_TOKENS);
     }
@@ -288,6 +312,7 @@ public class IfcClassificationImpl extends IfcExternalInformationImpl implements
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public boolean isSetReferenceTokens() {
         return eIsSet(Ifc4Package.Literals.IFC_CLASSIFICATION__REFERENCE_TOKENS);
     }
@@ -298,6 +323,7 @@ public class IfcClassificationImpl extends IfcExternalInformationImpl implements
      * @generated
      */
     @SuppressWarnings("unchecked")
+    @Override
     public EList<IfcRelAssociatesClassification> getClassificationForObjects() {
         return (EList<IfcRelAssociatesClassification>) eGet(
                 Ifc4Package.Literals.IFC_CLASSIFICATION__CLASSIFICATION_FOR_OBJECTS, true);
@@ -308,6 +334,7 @@ public class IfcClassificationImpl extends IfcExternalInformationImpl implements
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void unsetClassificationForObjects() {
         eUnset(Ifc4Package.Literals.IFC_CLASSIFICATION__CLASSIFICATION_FOR_OBJECTS);
     }
@@ -317,6 +344,7 @@ public class IfcClassificationImpl extends IfcExternalInformationImpl implements
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public boolean isSetClassificationForObjects() {
         return eIsSet(Ifc4Package.Literals.IFC_CLASSIFICATION__CLASSIFICATION_FOR_OBJECTS);
     }
@@ -327,6 +355,7 @@ public class IfcClassificationImpl extends IfcExternalInformationImpl implements
      * @generated
      */
     @SuppressWarnings("unchecked")
+    @Override
     public EList<IfcClassificationReference> getHasReferences() {
         return (EList<IfcClassificationReference>) eGet(Ifc4Package.Literals.IFC_CLASSIFICATION__HAS_REFERENCES, true);
     }
@@ -336,6 +365,7 @@ public class IfcClassificationImpl extends IfcExternalInformationImpl implements
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void unsetHasReferences() {
         eUnset(Ifc4Package.Literals.IFC_CLASSIFICATION__HAS_REFERENCES);
     }
@@ -345,6 +375,7 @@ public class IfcClassificationImpl extends IfcExternalInformationImpl implements
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public boolean isSetHasReferences() {
         return eIsSet(Ifc4Package.Literals.IFC_CLASSIFICATION__HAS_REFERENCES);
     }

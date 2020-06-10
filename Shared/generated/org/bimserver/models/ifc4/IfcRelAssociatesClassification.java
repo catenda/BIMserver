@@ -44,7 +44,8 @@ public interface IfcRelAssociatesClassification extends IfcRelAssociates {
      * @return the value of the '<em>Relating Classification</em>' reference.
      * @see #setRelatingClassification(IfcClassificationSelect)
      * @see org.bimserver.models.ifc4.Ifc4Package#getIfcRelAssociatesClassification_RelatingClassification()
-     * @model
+     * @model annotation="inverse"
+     *        annotation="inverse"
      * @generated
      */
     IfcClassificationSelect getRelatingClassification();

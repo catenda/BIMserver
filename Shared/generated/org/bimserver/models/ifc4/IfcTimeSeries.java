@@ -352,6 +352,7 @@ public interface IfcTimeSeries extends IfcMetricValueSelect, IfcObjectReferenceS
      * @see #unsetHasExternalReference()
      * @see org.bimserver.models.ifc4.Ifc4Package#getIfcTimeSeries_HasExternalReference()
      * @model unsettable="true"
+     *        annotation="inverse"
      * @generated
      */
     EList<IfcExternalReferenceRelationship> getHasExternalReference();

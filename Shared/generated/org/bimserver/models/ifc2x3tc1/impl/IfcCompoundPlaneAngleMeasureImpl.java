@@ -71,6 +71,7 @@ public class IfcCompoundPlaneAngleMeasureImpl extends IdEObjectImpl implements I
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public long getWrappedValue() {
         return (Long) eGet(Ifc2x3tc1Package.Literals.IFC_COMPOUND_PLANE_ANGLE_MEASURE__WRAPPED_VALUE, true);
     }
@@ -80,6 +81,7 @@ public class IfcCompoundPlaneAngleMeasureImpl extends IdEObjectImpl implements I
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setWrappedValue(long newWrappedValue) {
         eSet(Ifc2x3tc1Package.Literals.IFC_COMPOUND_PLANE_ANGLE_MEASURE__WRAPPED_VALUE, newWrappedValue);
     }
@@ -89,6 +91,7 @@ public class IfcCompoundPlaneAngleMeasureImpl extends IdEObjectImpl implements I
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void unsetWrappedValue() {
         eUnset(Ifc2x3tc1Package.Literals.IFC_COMPOUND_PLANE_ANGLE_MEASURE__WRAPPED_VALUE);
     }
@@ -98,6 +101,7 @@ public class IfcCompoundPlaneAngleMeasureImpl extends IdEObjectImpl implements I
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public boolean isSetWrappedValue() {
         return eIsSet(Ifc2x3tc1Package.Literals.IFC_COMPOUND_PLANE_ANGLE_MEASURE__WRAPPED_VALUE);
     }

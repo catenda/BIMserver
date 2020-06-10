@@ -75,6 +75,7 @@ public class ListOfIfcCartesianPointImpl extends IdEObjectImpl implements ListOf
      * @generated
      */
     @SuppressWarnings("unchecked")
+    @Override
     public EList<IfcCartesianPoint> getList() {
         return (EList<IfcCartesianPoint>) eGet(Ifc4Package.Literals.LIST_OF_IFC_CARTESIAN_POINT__LIST, true);
     }

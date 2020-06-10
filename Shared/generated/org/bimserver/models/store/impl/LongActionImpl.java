@@ -78,6 +78,7 @@ public class LongActionImpl extends IdEObjectImpl implements LongAction {
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public String getIdentification() {
         return (String) eGet(StorePackage.Literals.LONG_ACTION__IDENTIFICATION, true);
     }
@@ -87,6 +88,7 @@ public class LongActionImpl extends IdEObjectImpl implements LongAction {
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setIdentification(String newIdentification) {
         eSet(StorePackage.Literals.LONG_ACTION__IDENTIFICATION, newIdentification);
     }
@@ -96,6 +98,7 @@ public class LongActionImpl extends IdEObjectImpl implements LongAction {
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public User getUser() {
         return (User) eGet(StorePackage.Literals.LONG_ACTION__USER, true);
     }
@@ -105,6 +108,7 @@ public class LongActionImpl extends IdEObjectImpl implements LongAction {
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setUser(User newUser) {
         eSet(StorePackage.Literals.LONG_ACTION__USER, newUser);
     }
@@ -114,6 +118,7 @@ public class LongActionImpl extends IdEObjectImpl implements LongAction {
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public Date getStart() {
         return (Date) eGet(StorePackage.Literals.LONG_ACTION__START, true);
     }
@@ -123,6 +128,7 @@ public class LongActionImpl extends IdEObjectImpl implements LongAction {
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setStart(Date newStart) {
         eSet(StorePackage.Literals.LONG_ACTION__START, newStart);
     }
@@ -132,6 +138,7 @@ public class LongActionImpl extends IdEObjectImpl implements LongAction {
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public String getUsername() {
         return (String) eGet(StorePackage.Literals.LONG_ACTION__USERNAME, true);
     }
@@ -141,6 +148,7 @@ public class LongActionImpl extends IdEObjectImpl implements LongAction {
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setUsername(String newUsername) {
         eSet(StorePackage.Literals.LONG_ACTION__USERNAME, newUsername);
     }
@@ -150,6 +158,7 @@ public class LongActionImpl extends IdEObjectImpl implements LongAction {
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public String getName() {
         return (String) eGet(StorePackage.Literals.LONG_ACTION__NAME, true);
     }
@@ -159,6 +168,7 @@ public class LongActionImpl extends IdEObjectImpl implements LongAction {
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setName(String newName) {
         eSet(StorePackage.Literals.LONG_ACTION__NAME, newName);
     }

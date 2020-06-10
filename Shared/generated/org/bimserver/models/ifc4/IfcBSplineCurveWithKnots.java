@@ -83,6 +83,8 @@ public interface IfcBSplineCurveWithKnots extends IfcBSplineCurve {
      * @return the value of the '<em>Knots As String</em>' attribute list.
      * @see org.bimserver.models.ifc4.Ifc4Package#getIfcBSplineCurveWithKnots_KnotsAsString()
      * @model unique="false"
+     *        annotation="asstring"
+     *        annotation="hidden"
      * @generated
      */
     EList<String> getKnotsAsString();
@@ -130,6 +132,7 @@ public interface IfcBSplineCurveWithKnots extends IfcBSplineCurve {
      * @see #setUpperIndexOnKnots(long)
      * @see org.bimserver.models.ifc4.Ifc4Package#getIfcBSplineCurveWithKnots_UpperIndexOnKnots()
      * @model unsettable="true" derived="true"
+     *        annotation="derived"
      * @generated
      */
     long getUpperIndexOnKnots();

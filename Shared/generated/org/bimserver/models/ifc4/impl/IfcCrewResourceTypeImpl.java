@@ -60,6 +60,7 @@ public class IfcCrewResourceTypeImpl extends IfcConstructionResourceTypeImpl imp
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public IfcCrewResourceTypeEnum getPredefinedType() {
         return (IfcCrewResourceTypeEnum) eGet(Ifc4Package.Literals.IFC_CREW_RESOURCE_TYPE__PREDEFINED_TYPE, true);
     }
@@ -69,6 +70,7 @@ public class IfcCrewResourceTypeImpl extends IfcConstructionResourceTypeImpl imp
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setPredefinedType(IfcCrewResourceTypeEnum newPredefinedType) {
         eSet(Ifc4Package.Literals.IFC_CREW_RESOURCE_TYPE__PREDEFINED_TYPE, newPredefinedType);
     }

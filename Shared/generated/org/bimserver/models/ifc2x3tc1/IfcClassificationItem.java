@@ -84,6 +84,7 @@ public interface IfcClassificationItem extends IdEObject {
      * @see org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package#getIfcClassificationItem_ItemOf()
      * @see org.bimserver.models.ifc2x3tc1.IfcClassification#getContains
      * @model opposite="Contains" unsettable="true"
+     *        annotation="inverse"
      * @generated
      */
     IfcClassification getItemOf();
@@ -165,6 +166,7 @@ public interface IfcClassificationItem extends IdEObject {
      * @see org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package#getIfcClassificationItem_IsClassifiedItemIn()
      * @see org.bimserver.models.ifc2x3tc1.IfcClassificationItemRelationship#getRelatedItems
      * @model opposite="RelatedItems" unsettable="true" upper="2"
+     *        annotation="inverse"
      * @generated
      */
     EList<IfcClassificationItemRelationship> getIsClassifiedItemIn();
@@ -206,6 +208,7 @@ public interface IfcClassificationItem extends IdEObject {
      * @see org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package#getIfcClassificationItem_IsClassifyingItemIn()
      * @see org.bimserver.models.ifc2x3tc1.IfcClassificationItemRelationship#getRelatingItem
      * @model opposite="RelatingItem" unsettable="true" upper="2"
+     *        annotation="inverse"
      * @generated
      */
     EList<IfcClassificationItemRelationship> getIsClassifyingItemIn();

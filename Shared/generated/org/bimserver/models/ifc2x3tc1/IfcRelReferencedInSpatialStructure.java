@@ -47,7 +47,7 @@ public interface IfcRelReferencedInSpatialStructure extends IfcRelConnects {
      * <!-- end-user-doc -->
      * @return the value of the '<em>Related Elements</em>' reference list.
      * @see org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package#getIfcRelReferencedInSpatialStructure_RelatedElements()
-     * @model
+     * @model annotation="inverse"
      * @generated
      */
     EList<IfcProduct> getRelatedElements();
@@ -66,6 +66,7 @@ public interface IfcRelReferencedInSpatialStructure extends IfcRelConnects {
      * @see org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package#getIfcRelReferencedInSpatialStructure_RelatingStructure()
      * @see org.bimserver.models.ifc2x3tc1.IfcSpatialStructureElement#getReferencesElements
      * @model opposite="ReferencesElements"
+     *        annotation="inverse"
      * @generated
      */
     IfcSpatialStructureElement getRelatingStructure();

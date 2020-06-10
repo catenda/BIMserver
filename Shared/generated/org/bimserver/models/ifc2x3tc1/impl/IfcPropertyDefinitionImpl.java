@@ -63,6 +63,7 @@ public class IfcPropertyDefinitionImpl extends IfcRootImpl implements IfcPropert
      * @generated
      */
     @SuppressWarnings("unchecked")
+    @Override
     public EList<IfcRelAssociates> getHasAssociations() {
         return (EList<IfcRelAssociates>) eGet(Ifc2x3tc1Package.Literals.IFC_PROPERTY_DEFINITION__HAS_ASSOCIATIONS,
                 true);
@@ -73,6 +74,7 @@ public class IfcPropertyDefinitionImpl extends IfcRootImpl implements IfcPropert
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void unsetHasAssociations() {
         eUnset(Ifc2x3tc1Package.Literals.IFC_PROPERTY_DEFINITION__HAS_ASSOCIATIONS);
     }
@@ -82,6 +84,7 @@ public class IfcPropertyDefinitionImpl extends IfcRootImpl implements IfcPropert
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public boolean isSetHasAssociations() {
         return eIsSet(Ifc2x3tc1Package.Literals.IFC_PROPERTY_DEFINITION__HAS_ASSOCIATIONS);
     }

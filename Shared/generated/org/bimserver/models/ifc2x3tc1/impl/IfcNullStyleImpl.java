@@ -72,6 +72,7 @@ public class IfcNullStyleImpl extends IdEObjectImpl implements IfcNullStyle {
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public IfcNullStyleEnum getWrappedValue() {
         return (IfcNullStyleEnum) eGet(Ifc2x3tc1Package.Literals.IFC_NULL_STYLE__WRAPPED_VALUE, true);
     }
@@ -81,6 +82,7 @@ public class IfcNullStyleImpl extends IdEObjectImpl implements IfcNullStyle {
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setWrappedValue(IfcNullStyleEnum newWrappedValue) {
         eSet(Ifc2x3tc1Package.Literals.IFC_NULL_STYLE__WRAPPED_VALUE, newWrappedValue);
     }

@@ -74,6 +74,7 @@ public class IfcDateAndTimeImpl extends IdEObjectImpl implements IfcDateAndTime 
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public IfcCalendarDate getDateComponent() {
         return (IfcCalendarDate) eGet(Ifc2x3tc1Package.Literals.IFC_DATE_AND_TIME__DATE_COMPONENT, true);
     }
@@ -83,6 +84,7 @@ public class IfcDateAndTimeImpl extends IdEObjectImpl implements IfcDateAndTime 
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setDateComponent(IfcCalendarDate newDateComponent) {
         eSet(Ifc2x3tc1Package.Literals.IFC_DATE_AND_TIME__DATE_COMPONENT, newDateComponent);
     }
@@ -92,6 +94,7 @@ public class IfcDateAndTimeImpl extends IdEObjectImpl implements IfcDateAndTime 
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public IfcLocalTime getTimeComponent() {
         return (IfcLocalTime) eGet(Ifc2x3tc1Package.Literals.IFC_DATE_AND_TIME__TIME_COMPONENT, true);
     }
@@ -101,6 +104,7 @@ public class IfcDateAndTimeImpl extends IdEObjectImpl implements IfcDateAndTime 
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setTimeComponent(IfcLocalTime newTimeComponent) {
         eSet(Ifc2x3tc1Package.Literals.IFC_DATE_AND_TIME__TIME_COMPONENT, newTimeComponent);
     }

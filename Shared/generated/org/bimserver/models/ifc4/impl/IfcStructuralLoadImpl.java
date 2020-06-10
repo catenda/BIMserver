@@ -71,6 +71,7 @@ public class IfcStructuralLoadImpl extends IdEObjectImpl implements IfcStructura
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public String getName() {
         return (String) eGet(Ifc4Package.Literals.IFC_STRUCTURAL_LOAD__NAME, true);
     }
@@ -80,6 +81,7 @@ public class IfcStructuralLoadImpl extends IdEObjectImpl implements IfcStructura
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setName(String newName) {
         eSet(Ifc4Package.Literals.IFC_STRUCTURAL_LOAD__NAME, newName);
     }
@@ -89,6 +91,7 @@ public class IfcStructuralLoadImpl extends IdEObjectImpl implements IfcStructura
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void unsetName() {
         eUnset(Ifc4Package.Literals.IFC_STRUCTURAL_LOAD__NAME);
     }
@@ -98,6 +101,7 @@ public class IfcStructuralLoadImpl extends IdEObjectImpl implements IfcStructura
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public boolean isSetName() {
         return eIsSet(Ifc4Package.Literals.IFC_STRUCTURAL_LOAD__NAME);
     }

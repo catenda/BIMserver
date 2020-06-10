@@ -60,6 +60,7 @@ public class IfcRelDefinesByTypeImpl extends IfcRelDefinesImpl implements IfcRel
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public IfcTypeObject getRelatingType() {
         return (IfcTypeObject) eGet(Ifc2x3tc1Package.Literals.IFC_REL_DEFINES_BY_TYPE__RELATING_TYPE, true);
     }
@@ -69,6 +70,7 @@ public class IfcRelDefinesByTypeImpl extends IfcRelDefinesImpl implements IfcRel
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setRelatingType(IfcTypeObject newRelatingType) {
         eSet(Ifc2x3tc1Package.Literals.IFC_REL_DEFINES_BY_TYPE__RELATING_TYPE, newRelatingType);
     }

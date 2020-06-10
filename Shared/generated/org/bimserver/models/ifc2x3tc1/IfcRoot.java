@@ -50,7 +50,7 @@ public interface IfcRoot extends IdEObject {
      * @return the value of the '<em>Global Id</em>' attribute.
      * @see #setGlobalId(String)
      * @see org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package#getIfcRoot_GlobalId()
-     * @model
+     * @model annotation="index"
      * @generated
      */
     String getGlobalId();
@@ -105,6 +105,7 @@ public interface IfcRoot extends IdEObject {
      * @see #setName(String)
      * @see org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package#getIfcRoot_Name()
      * @model unsettable="true"
+     *        annotation="index"
      * @generated
      */
     String getName();

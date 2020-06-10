@@ -84,6 +84,7 @@ public class IfcPersonImpl extends IdEObjectImpl implements IfcPerson {
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public String getIdentification() {
         return (String) eGet(Ifc4Package.Literals.IFC_PERSON__IDENTIFICATION, true);
     }
@@ -93,6 +94,7 @@ public class IfcPersonImpl extends IdEObjectImpl implements IfcPerson {
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setIdentification(String newIdentification) {
         eSet(Ifc4Package.Literals.IFC_PERSON__IDENTIFICATION, newIdentification);
     }
@@ -102,6 +104,7 @@ public class IfcPersonImpl extends IdEObjectImpl implements IfcPerson {
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void unsetIdentification() {
         eUnset(Ifc4Package.Literals.IFC_PERSON__IDENTIFICATION);
     }
@@ -111,6 +114,7 @@ public class IfcPersonImpl extends IdEObjectImpl implements IfcPerson {
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public boolean isSetIdentification() {
         return eIsSet(Ifc4Package.Literals.IFC_PERSON__IDENTIFICATION);
     }
@@ -120,6 +124,7 @@ public class IfcPersonImpl extends IdEObjectImpl implements IfcPerson {
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public String getFamilyName() {
         return (String) eGet(Ifc4Package.Literals.IFC_PERSON__FAMILY_NAME, true);
     }
@@ -129,6 +134,7 @@ public class IfcPersonImpl extends IdEObjectImpl implements IfcPerson {
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setFamilyName(String newFamilyName) {
         eSet(Ifc4Package.Literals.IFC_PERSON__FAMILY_NAME, newFamilyName);
     }
@@ -138,6 +144,7 @@ public class IfcPersonImpl extends IdEObjectImpl implements IfcPerson {
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void unsetFamilyName() {
         eUnset(Ifc4Package.Literals.IFC_PERSON__FAMILY_NAME);
     }
@@ -147,6 +154,7 @@ public class IfcPersonImpl extends IdEObjectImpl implements IfcPerson {
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public boolean isSetFamilyName() {
         return eIsSet(Ifc4Package.Literals.IFC_PERSON__FAMILY_NAME);
     }
@@ -156,6 +164,7 @@ public class IfcPersonImpl extends IdEObjectImpl implements IfcPerson {
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public String getGivenName() {
         return (String) eGet(Ifc4Package.Literals.IFC_PERSON__GIVEN_NAME, true);
     }
@@ -165,6 +174,7 @@ public class IfcPersonImpl extends IdEObjectImpl implements IfcPerson {
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setGivenName(String newGivenName) {
         eSet(Ifc4Package.Literals.IFC_PERSON__GIVEN_NAME, newGivenName);
     }
@@ -174,6 +184,7 @@ public class IfcPersonImpl extends IdEObjectImpl implements IfcPerson {
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void unsetGivenName() {
         eUnset(Ifc4Package.Literals.IFC_PERSON__GIVEN_NAME);
     }
@@ -183,6 +194,7 @@ public class IfcPersonImpl extends IdEObjectImpl implements IfcPerson {
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public boolean isSetGivenName() {
         return eIsSet(Ifc4Package.Literals.IFC_PERSON__GIVEN_NAME);
     }
@@ -193,6 +205,7 @@ public class IfcPersonImpl extends IdEObjectImpl implements IfcPerson {
      * @generated
      */
     @SuppressWarnings("unchecked")
+    @Override
     public EList<String> getMiddleNames() {
         return (EList<String>) eGet(Ifc4Package.Literals.IFC_PERSON__MIDDLE_NAMES, true);
     }
@@ -202,6 +215,7 @@ public class IfcPersonImpl extends IdEObjectImpl implements IfcPerson {
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void unsetMiddleNames() {
         eUnset(Ifc4Package.Literals.IFC_PERSON__MIDDLE_NAMES);
     }
@@ -211,6 +225,7 @@ public class IfcPersonImpl extends IdEObjectImpl implements IfcPerson {
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public boolean isSetMiddleNames() {
         return eIsSet(Ifc4Package.Literals.IFC_PERSON__MIDDLE_NAMES);
     }
@@ -221,6 +236,7 @@ public class IfcPersonImpl extends IdEObjectImpl implements IfcPerson {
      * @generated
      */
     @SuppressWarnings("unchecked")
+    @Override
     public EList<String> getPrefixTitles() {
         return (EList<String>) eGet(Ifc4Package.Literals.IFC_PERSON__PREFIX_TITLES, true);
     }
@@ -230,6 +246,7 @@ public class IfcPersonImpl extends IdEObjectImpl implements IfcPerson {
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void unsetPrefixTitles() {
         eUnset(Ifc4Package.Literals.IFC_PERSON__PREFIX_TITLES);
     }
@@ -239,6 +256,7 @@ public class IfcPersonImpl extends IdEObjectImpl implements IfcPerson {
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public boolean isSetPrefixTitles() {
         return eIsSet(Ifc4Package.Literals.IFC_PERSON__PREFIX_TITLES);
     }
@@ -249,6 +267,7 @@ public class IfcPersonImpl extends IdEObjectImpl implements IfcPerson {
      * @generated
      */
     @SuppressWarnings("unchecked")
+    @Override
     public EList<String> getSuffixTitles() {
         return (EList<String>) eGet(Ifc4Package.Literals.IFC_PERSON__SUFFIX_TITLES, true);
     }
@@ -258,6 +277,7 @@ public class IfcPersonImpl extends IdEObjectImpl implements IfcPerson {
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void unsetSuffixTitles() {
         eUnset(Ifc4Package.Literals.IFC_PERSON__SUFFIX_TITLES);
     }
@@ -267,6 +287,7 @@ public class IfcPersonImpl extends IdEObjectImpl implements IfcPerson {
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public boolean isSetSuffixTitles() {
         return eIsSet(Ifc4Package.Literals.IFC_PERSON__SUFFIX_TITLES);
     }
@@ -277,6 +298,7 @@ public class IfcPersonImpl extends IdEObjectImpl implements IfcPerson {
      * @generated
      */
     @SuppressWarnings("unchecked")
+    @Override
     public EList<IfcActorRole> getRoles() {
         return (EList<IfcActorRole>) eGet(Ifc4Package.Literals.IFC_PERSON__ROLES, true);
     }
@@ -286,6 +308,7 @@ public class IfcPersonImpl extends IdEObjectImpl implements IfcPerson {
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void unsetRoles() {
         eUnset(Ifc4Package.Literals.IFC_PERSON__ROLES);
     }
@@ -295,6 +318,7 @@ public class IfcPersonImpl extends IdEObjectImpl implements IfcPerson {
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public boolean isSetRoles() {
         return eIsSet(Ifc4Package.Literals.IFC_PERSON__ROLES);
     }
@@ -305,6 +329,7 @@ public class IfcPersonImpl extends IdEObjectImpl implements IfcPerson {
      * @generated
      */
     @SuppressWarnings("unchecked")
+    @Override
     public EList<IfcAddress> getAddresses() {
         return (EList<IfcAddress>) eGet(Ifc4Package.Literals.IFC_PERSON__ADDRESSES, true);
     }
@@ -314,6 +339,7 @@ public class IfcPersonImpl extends IdEObjectImpl implements IfcPerson {
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void unsetAddresses() {
         eUnset(Ifc4Package.Literals.IFC_PERSON__ADDRESSES);
     }
@@ -323,6 +349,7 @@ public class IfcPersonImpl extends IdEObjectImpl implements IfcPerson {
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public boolean isSetAddresses() {
         return eIsSet(Ifc4Package.Literals.IFC_PERSON__ADDRESSES);
     }
@@ -333,6 +360,7 @@ public class IfcPersonImpl extends IdEObjectImpl implements IfcPerson {
      * @generated
      */
     @SuppressWarnings("unchecked")
+    @Override
     public EList<IfcPersonAndOrganization> getEngagedIn() {
         return (EList<IfcPersonAndOrganization>) eGet(Ifc4Package.Literals.IFC_PERSON__ENGAGED_IN, true);
     }
@@ -342,6 +370,7 @@ public class IfcPersonImpl extends IdEObjectImpl implements IfcPerson {
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void unsetEngagedIn() {
         eUnset(Ifc4Package.Literals.IFC_PERSON__ENGAGED_IN);
     }
@@ -351,6 +380,7 @@ public class IfcPersonImpl extends IdEObjectImpl implements IfcPerson {
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public boolean isSetEngagedIn() {
         return eIsSet(Ifc4Package.Literals.IFC_PERSON__ENGAGED_IN);
     }

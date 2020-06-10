@@ -53,6 +53,7 @@ public interface IfcPort extends IfcProduct {
      * @see org.bimserver.models.ifc4.Ifc4Package#getIfcPort_ContainedIn()
      * @see org.bimserver.models.ifc4.IfcRelConnectsPortToElement#getRelatingPort
      * @model opposite="RelatingPort" unsettable="true" upper="2"
+     *        annotation="inverse"
      * @generated
      */
     EList<IfcRelConnectsPortToElement> getContainedIn();
@@ -94,6 +95,7 @@ public interface IfcPort extends IfcProduct {
      * @see org.bimserver.models.ifc4.Ifc4Package#getIfcPort_ConnectedFrom()
      * @see org.bimserver.models.ifc4.IfcRelConnectsPorts#getRelatedPort
      * @model opposite="RelatedPort" unsettable="true" upper="2"
+     *        annotation="inverse"
      * @generated
      */
     EList<IfcRelConnectsPorts> getConnectedFrom();
@@ -135,6 +137,7 @@ public interface IfcPort extends IfcProduct {
      * @see org.bimserver.models.ifc4.Ifc4Package#getIfcPort_ConnectedTo()
      * @see org.bimserver.models.ifc4.IfcRelConnectsPorts#getRelatingPort
      * @model opposite="RelatingPort" unsettable="true" upper="2"
+     *        annotation="inverse"
      * @generated
      */
     EList<IfcRelConnectsPorts> getConnectedTo();

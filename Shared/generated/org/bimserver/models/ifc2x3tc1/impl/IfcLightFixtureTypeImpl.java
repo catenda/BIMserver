@@ -60,6 +60,7 @@ public class IfcLightFixtureTypeImpl extends IfcFlowTerminalTypeImpl implements 
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public IfcLightFixtureTypeEnum getPredefinedType() {
         return (IfcLightFixtureTypeEnum) eGet(Ifc2x3tc1Package.Literals.IFC_LIGHT_FIXTURE_TYPE__PREDEFINED_TYPE, true);
     }
@@ -69,6 +70,7 @@ public class IfcLightFixtureTypeImpl extends IfcFlowTerminalTypeImpl implements 
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setPredefinedType(IfcLightFixtureTypeEnum newPredefinedType) {
         eSet(Ifc2x3tc1Package.Literals.IFC_LIGHT_FIXTURE_TYPE__PREDEFINED_TYPE, newPredefinedType);
     }

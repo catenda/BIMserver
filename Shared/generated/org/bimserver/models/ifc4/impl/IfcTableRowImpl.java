@@ -78,6 +78,7 @@ public class IfcTableRowImpl extends IdEObjectImpl implements IfcTableRow {
      * @generated
      */
     @SuppressWarnings("unchecked")
+    @Override
     public EList<IfcValue> getRowCells() {
         return (EList<IfcValue>) eGet(Ifc4Package.Literals.IFC_TABLE_ROW__ROW_CELLS, true);
     }
@@ -87,6 +88,7 @@ public class IfcTableRowImpl extends IdEObjectImpl implements IfcTableRow {
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void unsetRowCells() {
         eUnset(Ifc4Package.Literals.IFC_TABLE_ROW__ROW_CELLS);
     }
@@ -96,6 +98,7 @@ public class IfcTableRowImpl extends IdEObjectImpl implements IfcTableRow {
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public boolean isSetRowCells() {
         return eIsSet(Ifc4Package.Literals.IFC_TABLE_ROW__ROW_CELLS);
     }
@@ -105,6 +108,7 @@ public class IfcTableRowImpl extends IdEObjectImpl implements IfcTableRow {
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public Tristate getIsHeading() {
         return (Tristate) eGet(Ifc4Package.Literals.IFC_TABLE_ROW__IS_HEADING, true);
     }
@@ -114,6 +118,7 @@ public class IfcTableRowImpl extends IdEObjectImpl implements IfcTableRow {
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setIsHeading(Tristate newIsHeading) {
         eSet(Ifc4Package.Literals.IFC_TABLE_ROW__IS_HEADING, newIsHeading);
     }
@@ -123,6 +128,7 @@ public class IfcTableRowImpl extends IdEObjectImpl implements IfcTableRow {
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void unsetIsHeading() {
         eUnset(Ifc4Package.Literals.IFC_TABLE_ROW__IS_HEADING);
     }
@@ -132,6 +138,7 @@ public class IfcTableRowImpl extends IdEObjectImpl implements IfcTableRow {
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public boolean isSetIsHeading() {
         return eIsSet(Ifc4Package.Literals.IFC_TABLE_ROW__IS_HEADING);
     }

@@ -69,6 +69,7 @@ public interface IfcMaterialClassificationRelationship extends IdEObject {
      * @see org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package#getIfcMaterialClassificationRelationship_ClassifiedMaterial()
      * @see org.bimserver.models.ifc2x3tc1.IfcMaterial#getClassifiedAs
      * @model opposite="ClassifiedAs"
+     *        annotation="inverse"
      * @generated
      */
     IfcMaterial getClassifiedMaterial();

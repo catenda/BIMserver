@@ -101,7 +101,8 @@ public interface IfcServiceLife extends IfcControl {
      * @return the value of the '<em>Service Life Duration As String</em>' attribute.
      * @see #setServiceLifeDurationAsString(String)
      * @see org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package#getIfcServiceLife_ServiceLifeDurationAsString()
-     * @model
+     * @model annotation="asstring"
+     *        annotation="hidden"
      * @generated
      */
     String getServiceLifeDurationAsString();

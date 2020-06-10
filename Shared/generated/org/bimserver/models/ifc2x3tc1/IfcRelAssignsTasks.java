@@ -49,6 +49,7 @@ public interface IfcRelAssignsTasks extends IfcRelAssignsToControl {
      * @see org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package#getIfcRelAssignsTasks_TimeForTask()
      * @see org.bimserver.models.ifc2x3tc1.IfcScheduleTimeControl#getScheduleTimeControlAssigned
      * @model opposite="ScheduleTimeControlAssigned" unsettable="true"
+     *        annotation="inverse"
      * @generated
      */
     IfcScheduleTimeControl getTimeForTask();

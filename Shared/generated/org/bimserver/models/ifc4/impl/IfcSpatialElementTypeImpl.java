@@ -59,6 +59,7 @@ public class IfcSpatialElementTypeImpl extends IfcTypeProductImpl implements Ifc
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public String getElementType() {
         return (String) eGet(Ifc4Package.Literals.IFC_SPATIAL_ELEMENT_TYPE__ELEMENT_TYPE, true);
     }
@@ -68,6 +69,7 @@ public class IfcSpatialElementTypeImpl extends IfcTypeProductImpl implements Ifc
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setElementType(String newElementType) {
         eSet(Ifc4Package.Literals.IFC_SPATIAL_ELEMENT_TYPE__ELEMENT_TYPE, newElementType);
     }
@@ -77,6 +79,7 @@ public class IfcSpatialElementTypeImpl extends IfcTypeProductImpl implements Ifc
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void unsetElementType() {
         eUnset(Ifc4Package.Literals.IFC_SPATIAL_ELEMENT_TYPE__ELEMENT_TYPE);
     }
@@ -86,6 +89,7 @@ public class IfcSpatialElementTypeImpl extends IfcTypeProductImpl implements Ifc
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public boolean isSetElementType() {
         return eIsSet(Ifc4Package.Literals.IFC_SPATIAL_ELEMENT_TYPE__ELEMENT_TYPE);
     }

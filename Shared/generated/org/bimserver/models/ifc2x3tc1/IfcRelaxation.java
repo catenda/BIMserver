@@ -76,7 +76,8 @@ public interface IfcRelaxation extends IdEObject {
      * @return the value of the '<em>Relaxation Value As String</em>' attribute.
      * @see #setRelaxationValueAsString(String)
      * @see org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package#getIfcRelaxation_RelaxationValueAsString()
-     * @model
+     * @model annotation="asstring"
+     *        annotation="hidden"
      * @generated
      */
     String getRelaxationValueAsString();
@@ -128,7 +129,8 @@ public interface IfcRelaxation extends IdEObject {
      * @return the value of the '<em>Initial Stress As String</em>' attribute.
      * @see #setInitialStressAsString(String)
      * @see org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package#getIfcRelaxation_InitialStressAsString()
-     * @model
+     * @model annotation="asstring"
+     *        annotation="hidden"
      * @generated
      */
     String getInitialStressAsString();

@@ -61,6 +61,7 @@ public class IfcQuantityLengthImpl extends IfcPhysicalSimpleQuantityImpl impleme
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public double getLengthValue() {
         return (Double) eGet(Ifc4Package.Literals.IFC_QUANTITY_LENGTH__LENGTH_VALUE, true);
     }
@@ -70,6 +71,7 @@ public class IfcQuantityLengthImpl extends IfcPhysicalSimpleQuantityImpl impleme
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setLengthValue(double newLengthValue) {
         eSet(Ifc4Package.Literals.IFC_QUANTITY_LENGTH__LENGTH_VALUE, newLengthValue);
     }
@@ -79,6 +81,7 @@ public class IfcQuantityLengthImpl extends IfcPhysicalSimpleQuantityImpl impleme
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public String getLengthValueAsString() {
         return (String) eGet(Ifc4Package.Literals.IFC_QUANTITY_LENGTH__LENGTH_VALUE_AS_STRING, true);
     }
@@ -88,6 +91,7 @@ public class IfcQuantityLengthImpl extends IfcPhysicalSimpleQuantityImpl impleme
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setLengthValueAsString(String newLengthValueAsString) {
         eSet(Ifc4Package.Literals.IFC_QUANTITY_LENGTH__LENGTH_VALUE_AS_STRING, newLengthValueAsString);
     }
@@ -97,6 +101,7 @@ public class IfcQuantityLengthImpl extends IfcPhysicalSimpleQuantityImpl impleme
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public String getFormula() {
         return (String) eGet(Ifc4Package.Literals.IFC_QUANTITY_LENGTH__FORMULA, true);
     }
@@ -106,6 +111,7 @@ public class IfcQuantityLengthImpl extends IfcPhysicalSimpleQuantityImpl impleme
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setFormula(String newFormula) {
         eSet(Ifc4Package.Literals.IFC_QUANTITY_LENGTH__FORMULA, newFormula);
     }
@@ -115,6 +121,7 @@ public class IfcQuantityLengthImpl extends IfcPhysicalSimpleQuantityImpl impleme
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void unsetFormula() {
         eUnset(Ifc4Package.Literals.IFC_QUANTITY_LENGTH__FORMULA);
     }
@@ -124,6 +131,7 @@ public class IfcQuantityLengthImpl extends IfcPhysicalSimpleQuantityImpl impleme
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public boolean isSetFormula() {
         return eIsSet(Ifc4Package.Literals.IFC_QUANTITY_LENGTH__FORMULA);
     }

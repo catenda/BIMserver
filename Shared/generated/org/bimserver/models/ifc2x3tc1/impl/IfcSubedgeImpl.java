@@ -60,6 +60,7 @@ public class IfcSubedgeImpl extends IfcEdgeImpl implements IfcSubedge {
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public IfcEdge getParentEdge() {
         return (IfcEdge) eGet(Ifc2x3tc1Package.Literals.IFC_SUBEDGE__PARENT_EDGE, true);
     }
@@ -69,6 +70,7 @@ public class IfcSubedgeImpl extends IfcEdgeImpl implements IfcSubedge {
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setParentEdge(IfcEdge newParentEdge) {
         eSet(Ifc2x3tc1Package.Literals.IFC_SUBEDGE__PARENT_EDGE, newParentEdge);
     }

@@ -60,6 +60,7 @@ public class IfcBuildingElementProxyImpl extends IfcBuildingElementImpl implemen
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public IfcElementCompositionEnum getCompositionType() {
         return (IfcElementCompositionEnum) eGet(Ifc2x3tc1Package.Literals.IFC_BUILDING_ELEMENT_PROXY__COMPOSITION_TYPE,
                 true);
@@ -70,6 +71,7 @@ public class IfcBuildingElementProxyImpl extends IfcBuildingElementImpl implemen
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setCompositionType(IfcElementCompositionEnum newCompositionType) {
         eSet(Ifc2x3tc1Package.Literals.IFC_BUILDING_ELEMENT_PROXY__COMPOSITION_TYPE, newCompositionType);
     }
@@ -79,6 +81,7 @@ public class IfcBuildingElementProxyImpl extends IfcBuildingElementImpl implemen
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void unsetCompositionType() {
         eUnset(Ifc2x3tc1Package.Literals.IFC_BUILDING_ELEMENT_PROXY__COMPOSITION_TYPE);
     }
@@ -88,6 +91,7 @@ public class IfcBuildingElementProxyImpl extends IfcBuildingElementImpl implemen
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public boolean isSetCompositionType() {
         return eIsSet(Ifc2x3tc1Package.Literals.IFC_BUILDING_ELEMENT_PROXY__COMPOSITION_TYPE);
     }

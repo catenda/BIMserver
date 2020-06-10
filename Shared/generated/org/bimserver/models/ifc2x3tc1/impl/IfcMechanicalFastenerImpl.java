@@ -62,6 +62,7 @@ public class IfcMechanicalFastenerImpl extends IfcFastenerImpl implements IfcMec
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public double getNominalDiameter() {
         return (Double) eGet(Ifc2x3tc1Package.Literals.IFC_MECHANICAL_FASTENER__NOMINAL_DIAMETER, true);
     }
@@ -71,6 +72,7 @@ public class IfcMechanicalFastenerImpl extends IfcFastenerImpl implements IfcMec
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setNominalDiameter(double newNominalDiameter) {
         eSet(Ifc2x3tc1Package.Literals.IFC_MECHANICAL_FASTENER__NOMINAL_DIAMETER, newNominalDiameter);
     }
@@ -80,6 +82,7 @@ public class IfcMechanicalFastenerImpl extends IfcFastenerImpl implements IfcMec
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void unsetNominalDiameter() {
         eUnset(Ifc2x3tc1Package.Literals.IFC_MECHANICAL_FASTENER__NOMINAL_DIAMETER);
     }
@@ -89,6 +92,7 @@ public class IfcMechanicalFastenerImpl extends IfcFastenerImpl implements IfcMec
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public boolean isSetNominalDiameter() {
         return eIsSet(Ifc2x3tc1Package.Literals.IFC_MECHANICAL_FASTENER__NOMINAL_DIAMETER);
     }
@@ -98,6 +102,7 @@ public class IfcMechanicalFastenerImpl extends IfcFastenerImpl implements IfcMec
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public String getNominalDiameterAsString() {
         return (String) eGet(Ifc2x3tc1Package.Literals.IFC_MECHANICAL_FASTENER__NOMINAL_DIAMETER_AS_STRING, true);
     }
@@ -107,6 +112,7 @@ public class IfcMechanicalFastenerImpl extends IfcFastenerImpl implements IfcMec
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setNominalDiameterAsString(String newNominalDiameterAsString) {
         eSet(Ifc2x3tc1Package.Literals.IFC_MECHANICAL_FASTENER__NOMINAL_DIAMETER_AS_STRING, newNominalDiameterAsString);
     }
@@ -116,6 +122,7 @@ public class IfcMechanicalFastenerImpl extends IfcFastenerImpl implements IfcMec
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void unsetNominalDiameterAsString() {
         eUnset(Ifc2x3tc1Package.Literals.IFC_MECHANICAL_FASTENER__NOMINAL_DIAMETER_AS_STRING);
     }
@@ -125,6 +132,7 @@ public class IfcMechanicalFastenerImpl extends IfcFastenerImpl implements IfcMec
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public boolean isSetNominalDiameterAsString() {
         return eIsSet(Ifc2x3tc1Package.Literals.IFC_MECHANICAL_FASTENER__NOMINAL_DIAMETER_AS_STRING);
     }
@@ -134,6 +142,7 @@ public class IfcMechanicalFastenerImpl extends IfcFastenerImpl implements IfcMec
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public double getNominalLength() {
         return (Double) eGet(Ifc2x3tc1Package.Literals.IFC_MECHANICAL_FASTENER__NOMINAL_LENGTH, true);
     }
@@ -143,6 +152,7 @@ public class IfcMechanicalFastenerImpl extends IfcFastenerImpl implements IfcMec
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setNominalLength(double newNominalLength) {
         eSet(Ifc2x3tc1Package.Literals.IFC_MECHANICAL_FASTENER__NOMINAL_LENGTH, newNominalLength);
     }
@@ -152,6 +162,7 @@ public class IfcMechanicalFastenerImpl extends IfcFastenerImpl implements IfcMec
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void unsetNominalLength() {
         eUnset(Ifc2x3tc1Package.Literals.IFC_MECHANICAL_FASTENER__NOMINAL_LENGTH);
     }
@@ -161,6 +172,7 @@ public class IfcMechanicalFastenerImpl extends IfcFastenerImpl implements IfcMec
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public boolean isSetNominalLength() {
         return eIsSet(Ifc2x3tc1Package.Literals.IFC_MECHANICAL_FASTENER__NOMINAL_LENGTH);
     }
@@ -170,6 +182,7 @@ public class IfcMechanicalFastenerImpl extends IfcFastenerImpl implements IfcMec
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public String getNominalLengthAsString() {
         return (String) eGet(Ifc2x3tc1Package.Literals.IFC_MECHANICAL_FASTENER__NOMINAL_LENGTH_AS_STRING, true);
     }
@@ -179,6 +192,7 @@ public class IfcMechanicalFastenerImpl extends IfcFastenerImpl implements IfcMec
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setNominalLengthAsString(String newNominalLengthAsString) {
         eSet(Ifc2x3tc1Package.Literals.IFC_MECHANICAL_FASTENER__NOMINAL_LENGTH_AS_STRING, newNominalLengthAsString);
     }
@@ -188,6 +202,7 @@ public class IfcMechanicalFastenerImpl extends IfcFastenerImpl implements IfcMec
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void unsetNominalLengthAsString() {
         eUnset(Ifc2x3tc1Package.Literals.IFC_MECHANICAL_FASTENER__NOMINAL_LENGTH_AS_STRING);
     }
@@ -197,6 +212,7 @@ public class IfcMechanicalFastenerImpl extends IfcFastenerImpl implements IfcMec
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public boolean isSetNominalLengthAsString() {
         return eIsSet(Ifc2x3tc1Package.Literals.IFC_MECHANICAL_FASTENER__NOMINAL_LENGTH_AS_STRING);
     }

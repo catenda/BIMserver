@@ -60,6 +60,7 @@ public class IfcChillerTypeImpl extends IfcEnergyConversionDeviceTypeImpl implem
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public IfcChillerTypeEnum getPredefinedType() {
         return (IfcChillerTypeEnum) eGet(Ifc2x3tc1Package.Literals.IFC_CHILLER_TYPE__PREDEFINED_TYPE, true);
     }
@@ -69,6 +70,7 @@ public class IfcChillerTypeImpl extends IfcEnergyConversionDeviceTypeImpl implem
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setPredefinedType(IfcChillerTypeEnum newPredefinedType) {
         eSet(Ifc2x3tc1Package.Literals.IFC_CHILLER_TYPE__PREDEFINED_TYPE, newPredefinedType);
     }

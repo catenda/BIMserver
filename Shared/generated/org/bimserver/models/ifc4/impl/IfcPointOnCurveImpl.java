@@ -63,6 +63,7 @@ public class IfcPointOnCurveImpl extends IfcPointImpl implements IfcPointOnCurve
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public IfcCurve getBasisCurve() {
         return (IfcCurve) eGet(Ifc4Package.Literals.IFC_POINT_ON_CURVE__BASIS_CURVE, true);
     }
@@ -72,6 +73,7 @@ public class IfcPointOnCurveImpl extends IfcPointImpl implements IfcPointOnCurve
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setBasisCurve(IfcCurve newBasisCurve) {
         eSet(Ifc4Package.Literals.IFC_POINT_ON_CURVE__BASIS_CURVE, newBasisCurve);
     }
@@ -81,6 +83,7 @@ public class IfcPointOnCurveImpl extends IfcPointImpl implements IfcPointOnCurve
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public double getPointParameter() {
         return (Double) eGet(Ifc4Package.Literals.IFC_POINT_ON_CURVE__POINT_PARAMETER, true);
     }
@@ -90,6 +93,7 @@ public class IfcPointOnCurveImpl extends IfcPointImpl implements IfcPointOnCurve
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setPointParameter(double newPointParameter) {
         eSet(Ifc4Package.Literals.IFC_POINT_ON_CURVE__POINT_PARAMETER, newPointParameter);
     }
@@ -99,6 +103,7 @@ public class IfcPointOnCurveImpl extends IfcPointImpl implements IfcPointOnCurve
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public String getPointParameterAsString() {
         return (String) eGet(Ifc4Package.Literals.IFC_POINT_ON_CURVE__POINT_PARAMETER_AS_STRING, true);
     }
@@ -108,6 +113,7 @@ public class IfcPointOnCurveImpl extends IfcPointImpl implements IfcPointOnCurve
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setPointParameterAsString(String newPointParameterAsString) {
         eSet(Ifc4Package.Literals.IFC_POINT_ON_CURVE__POINT_PARAMETER_AS_STRING, newPointParameterAsString);
     }
@@ -117,6 +123,7 @@ public class IfcPointOnCurveImpl extends IfcPointImpl implements IfcPointOnCurve
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public long getDim() {
         return (Long) eGet(Ifc4Package.Literals.IFC_POINT_ON_CURVE__DIM, true);
     }
@@ -126,6 +133,7 @@ public class IfcPointOnCurveImpl extends IfcPointImpl implements IfcPointOnCurve
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setDim(long newDim) {
         eSet(Ifc4Package.Literals.IFC_POINT_ON_CURVE__DIM, newDim);
     }
@@ -135,6 +143,7 @@ public class IfcPointOnCurveImpl extends IfcPointImpl implements IfcPointOnCurve
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void unsetDim() {
         eUnset(Ifc4Package.Literals.IFC_POINT_ON_CURVE__DIM);
     }
@@ -144,6 +153,7 @@ public class IfcPointOnCurveImpl extends IfcPointImpl implements IfcPointOnCurve
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public boolean isSetDim() {
         return eIsSet(Ifc4Package.Literals.IFC_POINT_ON_CURVE__DIM);
     }

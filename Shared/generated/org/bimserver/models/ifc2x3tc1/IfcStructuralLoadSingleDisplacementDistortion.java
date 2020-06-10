@@ -101,6 +101,8 @@ public interface IfcStructuralLoadSingleDisplacementDistortion extends IfcStruct
      * @see #setDistortionAsString(String)
      * @see org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package#getIfcStructuralLoadSingleDisplacementDistortion_DistortionAsString()
      * @model unsettable="true"
+     *        annotation="asstring"
+     *        annotation="hidden"
      * @generated
      */
     String getDistortionAsString();

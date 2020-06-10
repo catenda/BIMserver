@@ -23,7 +23,7 @@ package org.bimserver.models.ifc4;
  *
  *
  * @see org.bimserver.models.ifc4.Ifc4Package#getIfcBoxAlignment()
- * @model
+ * @model annotation="wrapped"
  * @generated
  */
 public interface IfcBoxAlignment extends IfcLabel {

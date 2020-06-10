@@ -51,6 +51,7 @@ public interface IfcControl extends IfcObject {
      * @see org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package#getIfcControl_Controls()
      * @see org.bimserver.models.ifc2x3tc1.IfcRelAssignsToControl#getRelatingControl
      * @model opposite="RelatingControl" unsettable="true"
+     *        annotation="inverse"
      * @generated
      */
     EList<IfcRelAssignsToControl> getControls();

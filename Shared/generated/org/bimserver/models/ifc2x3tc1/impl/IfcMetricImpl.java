@@ -63,6 +63,7 @@ public class IfcMetricImpl extends IfcConstraintImpl implements IfcMetric {
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public IfcBenchmarkEnum getBenchmark() {
         return (IfcBenchmarkEnum) eGet(Ifc2x3tc1Package.Literals.IFC_METRIC__BENCHMARK, true);
     }
@@ -72,6 +73,7 @@ public class IfcMetricImpl extends IfcConstraintImpl implements IfcMetric {
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setBenchmark(IfcBenchmarkEnum newBenchmark) {
         eSet(Ifc2x3tc1Package.Literals.IFC_METRIC__BENCHMARK, newBenchmark);
     }
@@ -81,6 +83,7 @@ public class IfcMetricImpl extends IfcConstraintImpl implements IfcMetric {
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public String getValueSource() {
         return (String) eGet(Ifc2x3tc1Package.Literals.IFC_METRIC__VALUE_SOURCE, true);
     }
@@ -90,6 +93,7 @@ public class IfcMetricImpl extends IfcConstraintImpl implements IfcMetric {
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setValueSource(String newValueSource) {
         eSet(Ifc2x3tc1Package.Literals.IFC_METRIC__VALUE_SOURCE, newValueSource);
     }
@@ -99,6 +103,7 @@ public class IfcMetricImpl extends IfcConstraintImpl implements IfcMetric {
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void unsetValueSource() {
         eUnset(Ifc2x3tc1Package.Literals.IFC_METRIC__VALUE_SOURCE);
     }
@@ -108,6 +113,7 @@ public class IfcMetricImpl extends IfcConstraintImpl implements IfcMetric {
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public boolean isSetValueSource() {
         return eIsSet(Ifc2x3tc1Package.Literals.IFC_METRIC__VALUE_SOURCE);
     }
@@ -117,6 +123,7 @@ public class IfcMetricImpl extends IfcConstraintImpl implements IfcMetric {
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public IfcMetricValueSelect getDataValue() {
         return (IfcMetricValueSelect) eGet(Ifc2x3tc1Package.Literals.IFC_METRIC__DATA_VALUE, true);
     }
@@ -126,6 +133,7 @@ public class IfcMetricImpl extends IfcConstraintImpl implements IfcMetric {
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setDataValue(IfcMetricValueSelect newDataValue) {
         eSet(Ifc2x3tc1Package.Literals.IFC_METRIC__DATA_VALUE, newDataValue);
     }

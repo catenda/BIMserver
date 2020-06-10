@@ -101,7 +101,8 @@ public interface IfcPointOnSurface extends IfcPoint {
      * @return the value of the '<em>Point Parameter UAs String</em>' attribute.
      * @see #setPointParameterUAsString(String)
      * @see org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package#getIfcPointOnSurface_PointParameterUAsString()
-     * @model
+     * @model annotation="asstring"
+     *        annotation="hidden"
      * @generated
      */
     String getPointParameterUAsString();
@@ -153,7 +154,8 @@ public interface IfcPointOnSurface extends IfcPoint {
      * @return the value of the '<em>Point Parameter VAs String</em>' attribute.
      * @see #setPointParameterVAsString(String)
      * @see org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package#getIfcPointOnSurface_PointParameterVAsString()
-     * @model
+     * @model annotation="asstring"
+     *        annotation="hidden"
      * @generated
      */
     String getPointParameterVAsString();
@@ -182,6 +184,7 @@ public interface IfcPointOnSurface extends IfcPoint {
      * @see #setDim(long)
      * @see org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package#getIfcPointOnSurface_Dim()
      * @model unsettable="true" derived="true"
+     *        annotation="derived"
      * @generated
      */
     long getDim();

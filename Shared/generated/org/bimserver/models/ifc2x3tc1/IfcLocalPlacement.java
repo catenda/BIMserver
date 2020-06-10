@@ -50,6 +50,7 @@ public interface IfcLocalPlacement extends IfcObjectPlacement {
      * @see org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package#getIfcLocalPlacement_PlacementRelTo()
      * @see org.bimserver.models.ifc2x3tc1.IfcObjectPlacement#getReferencedByPlacements
      * @model opposite="ReferencedByPlacements" unsettable="true"
+     *        annotation="inverse"
      * @generated
      */
     IfcObjectPlacement getPlacementRelTo();

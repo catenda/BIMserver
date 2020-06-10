@@ -60,6 +60,7 @@ public class IfcBoilerTypeImpl extends IfcEnergyConversionDeviceTypeImpl impleme
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public IfcBoilerTypeEnum getPredefinedType() {
         return (IfcBoilerTypeEnum) eGet(Ifc4Package.Literals.IFC_BOILER_TYPE__PREDEFINED_TYPE, true);
     }
@@ -69,6 +70,7 @@ public class IfcBoilerTypeImpl extends IfcEnergyConversionDeviceTypeImpl impleme
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setPredefinedType(IfcBoilerTypeEnum newPredefinedType) {
         eSet(Ifc4Package.Literals.IFC_BOILER_TYPE__PREDEFINED_TYPE, newPredefinedType);
     }

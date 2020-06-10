@@ -59,6 +59,7 @@ public class IfcOrderActionImpl extends IfcTaskImpl implements IfcOrderAction {
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public String getActionID() {
         return (String) eGet(Ifc2x3tc1Package.Literals.IFC_ORDER_ACTION__ACTION_ID, true);
     }
@@ -68,6 +69,7 @@ public class IfcOrderActionImpl extends IfcTaskImpl implements IfcOrderAction {
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setActionID(String newActionID) {
         eSet(Ifc2x3tc1Package.Literals.IFC_ORDER_ACTION__ACTION_ID, newActionID);
     }

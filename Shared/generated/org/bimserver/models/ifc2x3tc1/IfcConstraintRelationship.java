@@ -161,6 +161,7 @@ public interface IfcConstraintRelationship extends IdEObject {
      * @see org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package#getIfcConstraintRelationship_RelatingConstraint()
      * @see org.bimserver.models.ifc2x3tc1.IfcConstraint#getRelatesConstraints
      * @model opposite="RelatesConstraints"
+     *        annotation="inverse"
      * @generated
      */
     IfcConstraint getRelatingConstraint();
@@ -189,6 +190,7 @@ public interface IfcConstraintRelationship extends IdEObject {
      * @see org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package#getIfcConstraintRelationship_RelatedConstraints()
      * @see org.bimserver.models.ifc2x3tc1.IfcConstraint#getIsRelatedWith
      * @model opposite="IsRelatedWith"
+     *        annotation="inverse"
      * @generated
      */
     EList<IfcConstraint> getRelatedConstraints();

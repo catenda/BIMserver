@@ -61,6 +61,7 @@ public class IfcEvaporativeCoolerTypeImpl extends IfcEnergyConversionDeviceTypeI
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public IfcEvaporativeCoolerTypeEnum getPredefinedType() {
         return (IfcEvaporativeCoolerTypeEnum) eGet(
                 Ifc2x3tc1Package.Literals.IFC_EVAPORATIVE_COOLER_TYPE__PREDEFINED_TYPE, true);
@@ -71,6 +72,7 @@ public class IfcEvaporativeCoolerTypeImpl extends IfcEnergyConversionDeviceTypeI
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setPredefinedType(IfcEvaporativeCoolerTypeEnum newPredefinedType) {
         eSet(Ifc2x3tc1Package.Literals.IFC_EVAPORATIVE_COOLER_TYPE__PREDEFINED_TYPE, newPredefinedType);
     }

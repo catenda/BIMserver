@@ -63,6 +63,7 @@ public class IfcControlImpl extends IfcObjectImpl implements IfcControl {
      * @generated
      */
     @SuppressWarnings("unchecked")
+    @Override
     public EList<IfcRelAssignsToControl> getControls() {
         return (EList<IfcRelAssignsToControl>) eGet(Ifc2x3tc1Package.Literals.IFC_CONTROL__CONTROLS, true);
     }
@@ -72,6 +73,7 @@ public class IfcControlImpl extends IfcObjectImpl implements IfcControl {
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void unsetControls() {
         eUnset(Ifc2x3tc1Package.Literals.IFC_CONTROL__CONTROLS);
     }
@@ -81,6 +83,7 @@ public class IfcControlImpl extends IfcObjectImpl implements IfcControl {
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public boolean isSetControls() {
         return eIsSet(Ifc2x3tc1Package.Literals.IFC_CONTROL__CONTROLS);
     }

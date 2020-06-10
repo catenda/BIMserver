@@ -60,6 +60,7 @@ public class IfcRelAssignsToGroupByFactorImpl extends IfcRelAssignsToGroupImpl i
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public double getFactor() {
         return (Double) eGet(Ifc4Package.Literals.IFC_REL_ASSIGNS_TO_GROUP_BY_FACTOR__FACTOR, true);
     }
@@ -69,6 +70,7 @@ public class IfcRelAssignsToGroupByFactorImpl extends IfcRelAssignsToGroupImpl i
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setFactor(double newFactor) {
         eSet(Ifc4Package.Literals.IFC_REL_ASSIGNS_TO_GROUP_BY_FACTOR__FACTOR, newFactor);
     }
@@ -78,6 +80,7 @@ public class IfcRelAssignsToGroupByFactorImpl extends IfcRelAssignsToGroupImpl i
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public String getFactorAsString() {
         return (String) eGet(Ifc4Package.Literals.IFC_REL_ASSIGNS_TO_GROUP_BY_FACTOR__FACTOR_AS_STRING, true);
     }
@@ -87,6 +90,7 @@ public class IfcRelAssignsToGroupByFactorImpl extends IfcRelAssignsToGroupImpl i
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setFactorAsString(String newFactorAsString) {
         eSet(Ifc4Package.Literals.IFC_REL_ASSIGNS_TO_GROUP_BY_FACTOR__FACTOR_AS_STRING, newFactorAsString);
     }

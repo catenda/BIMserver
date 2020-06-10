@@ -101,6 +101,8 @@ public interface IfcStructuralLoadSingleForceWarping extends IfcStructuralLoadSi
      * @see #setWarpingMomentAsString(String)
      * @see org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package#getIfcStructuralLoadSingleForceWarping_WarpingMomentAsString()
      * @model unsettable="true"
+     *        annotation="asstring"
+     *        annotation="hidden"
      * @generated
      */
     String getWarpingMomentAsString();

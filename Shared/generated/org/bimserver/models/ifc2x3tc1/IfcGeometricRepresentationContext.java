@@ -51,7 +51,7 @@ public interface IfcGeometricRepresentationContext extends IfcRepresentationCont
      * @return the value of the '<em>Coordinate Space Dimension</em>' attribute.
      * @see #setCoordinateSpaceDimension(long)
      * @see org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package#getIfcGeometricRepresentationContext_CoordinateSpaceDimension()
-     * @model
+     * @model annotation="derived"
      * @generated
      */
     long getCoordinateSpaceDimension();
@@ -80,6 +80,7 @@ public interface IfcGeometricRepresentationContext extends IfcRepresentationCont
      * @see #setPrecision(double)
      * @see org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package#getIfcGeometricRepresentationContext_Precision()
      * @model unsettable="true"
+     *        annotation="derived"
      * @generated
      */
     double getPrecision();
@@ -133,6 +134,8 @@ public interface IfcGeometricRepresentationContext extends IfcRepresentationCont
      * @see #setPrecisionAsString(String)
      * @see org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package#getIfcGeometricRepresentationContext_PrecisionAsString()
      * @model unsettable="true"
+     *        annotation="asstring"
+     *        annotation="hidden"
      * @generated
      */
     String getPrecisionAsString();
@@ -183,7 +186,7 @@ public interface IfcGeometricRepresentationContext extends IfcRepresentationCont
      * @return the value of the '<em>World Coordinate System</em>' reference.
      * @see #setWorldCoordinateSystem(IfcAxis2Placement)
      * @see org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package#getIfcGeometricRepresentationContext_WorldCoordinateSystem()
-     * @model
+     * @model annotation="derived"
      * @generated
      */
     IfcAxis2Placement getWorldCoordinateSystem();
@@ -212,6 +215,7 @@ public interface IfcGeometricRepresentationContext extends IfcRepresentationCont
      * @see #setTrueNorth(IfcDirection)
      * @see org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package#getIfcGeometricRepresentationContext_TrueNorth()
      * @model unsettable="true"
+     *        annotation="derived"
      * @generated
      */
     IfcDirection getTrueNorth();
@@ -267,6 +271,7 @@ public interface IfcGeometricRepresentationContext extends IfcRepresentationCont
      * @see org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package#getIfcGeometricRepresentationContext_HasSubContexts()
      * @see org.bimserver.models.ifc2x3tc1.IfcGeometricRepresentationSubContext#getParentContext
      * @model opposite="ParentContext" unsettable="true"
+     *        annotation="inverse"
      * @generated
      */
     EList<IfcGeometricRepresentationSubContext> getHasSubContexts();

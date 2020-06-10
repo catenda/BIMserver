@@ -54,6 +54,7 @@ public interface IfcProduct extends IfcObject {
      * @see org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package#getIfcProduct_ObjectPlacement()
      * @see org.bimserver.models.ifc2x3tc1.IfcObjectPlacement#getPlacesObject
      * @model opposite="PlacesObject" unsettable="true"
+     *        annotation="inverse"
      * @generated
      */
     IfcObjectPlacement getObjectPlacement();
@@ -107,6 +108,7 @@ public interface IfcProduct extends IfcObject {
      * @see #setRepresentation(IfcProductRepresentation)
      * @see org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package#getIfcProduct_Representation()
      * @model unsettable="true"
+     *        annotation="inverse"
      * @generated
      */
     IfcProductRepresentation getRepresentation();
@@ -162,6 +164,7 @@ public interface IfcProduct extends IfcObject {
      * @see org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package#getIfcProduct_ReferencedBy()
      * @see org.bimserver.models.ifc2x3tc1.IfcRelAssignsToProduct#getRelatingProduct
      * @model opposite="RelatingProduct" unsettable="true"
+     *        annotation="inverse"
      * @generated
      */
     EList<IfcRelAssignsToProduct> getReferencedBy();
@@ -198,7 +201,7 @@ public interface IfcProduct extends IfcObject {
      * @return the value of the '<em>Geometry</em>' reference.
      * @see #setGeometry(GeometryInfo)
      * @see org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package#getIfcProduct_Geometry()
-     * @model
+     * @model annotation="hidden"
      * @generated
      */
     GeometryInfo getGeometry();

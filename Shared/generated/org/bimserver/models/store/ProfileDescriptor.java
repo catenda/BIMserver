@@ -34,7 +34,7 @@ import org.bimserver.emf.IdEObject;
  * </ul>
  *
  * @see org.bimserver.models.store.StorePackage#getProfileDescriptor()
- * @model
+ * @model annotation="nodatabase"
  * @extends IdEObject
  * @generated
  */

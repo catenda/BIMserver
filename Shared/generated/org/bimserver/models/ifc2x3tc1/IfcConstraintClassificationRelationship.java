@@ -53,6 +53,7 @@ public interface IfcConstraintClassificationRelationship extends IdEObject {
      * @see org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package#getIfcConstraintClassificationRelationship_ClassifiedConstraint()
      * @see org.bimserver.models.ifc2x3tc1.IfcConstraint#getClassifiedAs
      * @model opposite="ClassifiedAs"
+     *        annotation="inverse"
      * @generated
      */
     IfcConstraint getClassifiedConstraint();

@@ -61,6 +61,7 @@ public class IfcSpaceTypeImpl extends IfcSpatialStructureElementTypeImpl impleme
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public IfcSpaceTypeEnum getPredefinedType() {
         return (IfcSpaceTypeEnum) eGet(Ifc4Package.Literals.IFC_SPACE_TYPE__PREDEFINED_TYPE, true);
     }
@@ -70,6 +71,7 @@ public class IfcSpaceTypeImpl extends IfcSpatialStructureElementTypeImpl impleme
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setPredefinedType(IfcSpaceTypeEnum newPredefinedType) {
         eSet(Ifc4Package.Literals.IFC_SPACE_TYPE__PREDEFINED_TYPE, newPredefinedType);
     }
@@ -79,6 +81,7 @@ public class IfcSpaceTypeImpl extends IfcSpatialStructureElementTypeImpl impleme
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public String getLongName() {
         return (String) eGet(Ifc4Package.Literals.IFC_SPACE_TYPE__LONG_NAME, true);
     }
@@ -88,6 +91,7 @@ public class IfcSpaceTypeImpl extends IfcSpatialStructureElementTypeImpl impleme
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setLongName(String newLongName) {
         eSet(Ifc4Package.Literals.IFC_SPACE_TYPE__LONG_NAME, newLongName);
     }
@@ -97,6 +101,7 @@ public class IfcSpaceTypeImpl extends IfcSpatialStructureElementTypeImpl impleme
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void unsetLongName() {
         eUnset(Ifc4Package.Literals.IFC_SPACE_TYPE__LONG_NAME);
     }
@@ -106,6 +111,7 @@ public class IfcSpaceTypeImpl extends IfcSpatialStructureElementTypeImpl impleme
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public boolean isSetLongName() {
         return eIsSet(Ifc4Package.Literals.IFC_SPACE_TYPE__LONG_NAME);
     }

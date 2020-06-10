@@ -62,6 +62,7 @@ public class IfcRelAssignsToProcessImpl extends IfcRelAssignsImpl implements Ifc
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public IfcProcess getRelatingProcess() {
         return (IfcProcess) eGet(Ifc2x3tc1Package.Literals.IFC_REL_ASSIGNS_TO_PROCESS__RELATING_PROCESS, true);
     }
@@ -71,6 +72,7 @@ public class IfcRelAssignsToProcessImpl extends IfcRelAssignsImpl implements Ifc
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setRelatingProcess(IfcProcess newRelatingProcess) {
         eSet(Ifc2x3tc1Package.Literals.IFC_REL_ASSIGNS_TO_PROCESS__RELATING_PROCESS, newRelatingProcess);
     }
@@ -80,6 +82,7 @@ public class IfcRelAssignsToProcessImpl extends IfcRelAssignsImpl implements Ifc
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public IfcMeasureWithUnit getQuantityInProcess() {
         return (IfcMeasureWithUnit) eGet(Ifc2x3tc1Package.Literals.IFC_REL_ASSIGNS_TO_PROCESS__QUANTITY_IN_PROCESS,
                 true);
@@ -90,6 +93,7 @@ public class IfcRelAssignsToProcessImpl extends IfcRelAssignsImpl implements Ifc
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setQuantityInProcess(IfcMeasureWithUnit newQuantityInProcess) {
         eSet(Ifc2x3tc1Package.Literals.IFC_REL_ASSIGNS_TO_PROCESS__QUANTITY_IN_PROCESS, newQuantityInProcess);
     }
@@ -99,6 +103,7 @@ public class IfcRelAssignsToProcessImpl extends IfcRelAssignsImpl implements Ifc
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void unsetQuantityInProcess() {
         eUnset(Ifc2x3tc1Package.Literals.IFC_REL_ASSIGNS_TO_PROCESS__QUANTITY_IN_PROCESS);
     }
@@ -108,6 +113,7 @@ public class IfcRelAssignsToProcessImpl extends IfcRelAssignsImpl implements Ifc
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public boolean isSetQuantityInProcess() {
         return eIsSet(Ifc2x3tc1Package.Literals.IFC_REL_ASSIGNS_TO_PROCESS__QUANTITY_IN_PROCESS);
     }

@@ -68,6 +68,7 @@ public class IfcStructuralSurfaceMemberVaryingImpl extends IfcStructuralSurfaceM
      * @generated
      */
     @SuppressWarnings("unchecked")
+    @Override
     public EList<Double> getSubsequentThickness() {
         return (EList<Double>) eGet(
                 Ifc2x3tc1Package.Literals.IFC_STRUCTURAL_SURFACE_MEMBER_VARYING__SUBSEQUENT_THICKNESS, true);
@@ -79,6 +80,7 @@ public class IfcStructuralSurfaceMemberVaryingImpl extends IfcStructuralSurfaceM
      * @generated
      */
     @SuppressWarnings("unchecked")
+    @Override
     public EList<String> getSubsequentThicknessAsString() {
         return (EList<String>) eGet(
                 Ifc2x3tc1Package.Literals.IFC_STRUCTURAL_SURFACE_MEMBER_VARYING__SUBSEQUENT_THICKNESS_AS_STRING, true);
@@ -89,6 +91,7 @@ public class IfcStructuralSurfaceMemberVaryingImpl extends IfcStructuralSurfaceM
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public IfcShapeAspect getVaryingThicknessLocation() {
         return (IfcShapeAspect) eGet(
                 Ifc2x3tc1Package.Literals.IFC_STRUCTURAL_SURFACE_MEMBER_VARYING__VARYING_THICKNESS_LOCATION, true);
@@ -99,6 +102,7 @@ public class IfcStructuralSurfaceMemberVaryingImpl extends IfcStructuralSurfaceM
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setVaryingThicknessLocation(IfcShapeAspect newVaryingThicknessLocation) {
         eSet(Ifc2x3tc1Package.Literals.IFC_STRUCTURAL_SURFACE_MEMBER_VARYING__VARYING_THICKNESS_LOCATION,
                 newVaryingThicknessLocation);
@@ -109,6 +113,7 @@ public class IfcStructuralSurfaceMemberVaryingImpl extends IfcStructuralSurfaceM
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public double getVaryingThickness() {
         return (Double) eGet(Ifc2x3tc1Package.Literals.IFC_STRUCTURAL_SURFACE_MEMBER_VARYING__VARYING_THICKNESS, true);
     }
@@ -118,6 +123,7 @@ public class IfcStructuralSurfaceMemberVaryingImpl extends IfcStructuralSurfaceM
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setVaryingThickness(double newVaryingThickness) {
         eSet(Ifc2x3tc1Package.Literals.IFC_STRUCTURAL_SURFACE_MEMBER_VARYING__VARYING_THICKNESS, newVaryingThickness);
     }
@@ -127,6 +133,7 @@ public class IfcStructuralSurfaceMemberVaryingImpl extends IfcStructuralSurfaceM
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void unsetVaryingThickness() {
         eUnset(Ifc2x3tc1Package.Literals.IFC_STRUCTURAL_SURFACE_MEMBER_VARYING__VARYING_THICKNESS);
     }
@@ -136,6 +143,7 @@ public class IfcStructuralSurfaceMemberVaryingImpl extends IfcStructuralSurfaceM
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public boolean isSetVaryingThickness() {
         return eIsSet(Ifc2x3tc1Package.Literals.IFC_STRUCTURAL_SURFACE_MEMBER_VARYING__VARYING_THICKNESS);
     }
@@ -145,6 +153,7 @@ public class IfcStructuralSurfaceMemberVaryingImpl extends IfcStructuralSurfaceM
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public String getVaryingThicknessAsString() {
         return (String) eGet(
                 Ifc2x3tc1Package.Literals.IFC_STRUCTURAL_SURFACE_MEMBER_VARYING__VARYING_THICKNESS_AS_STRING, true);
@@ -155,6 +164,7 @@ public class IfcStructuralSurfaceMemberVaryingImpl extends IfcStructuralSurfaceM
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setVaryingThicknessAsString(String newVaryingThicknessAsString) {
         eSet(Ifc2x3tc1Package.Literals.IFC_STRUCTURAL_SURFACE_MEMBER_VARYING__VARYING_THICKNESS_AS_STRING,
                 newVaryingThicknessAsString);
@@ -165,6 +175,7 @@ public class IfcStructuralSurfaceMemberVaryingImpl extends IfcStructuralSurfaceM
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void unsetVaryingThicknessAsString() {
         eUnset(Ifc2x3tc1Package.Literals.IFC_STRUCTURAL_SURFACE_MEMBER_VARYING__VARYING_THICKNESS_AS_STRING);
     }
@@ -174,6 +185,7 @@ public class IfcStructuralSurfaceMemberVaryingImpl extends IfcStructuralSurfaceM
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public boolean isSetVaryingThicknessAsString() {
         return eIsSet(Ifc2x3tc1Package.Literals.IFC_STRUCTURAL_SURFACE_MEMBER_VARYING__VARYING_THICKNESS_AS_STRING);
     }

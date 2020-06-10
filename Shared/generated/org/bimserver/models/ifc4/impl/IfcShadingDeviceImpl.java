@@ -60,6 +60,7 @@ public class IfcShadingDeviceImpl extends IfcBuildingElementImpl implements IfcS
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public IfcShadingDeviceTypeEnum getPredefinedType() {
         return (IfcShadingDeviceTypeEnum) eGet(Ifc4Package.Literals.IFC_SHADING_DEVICE__PREDEFINED_TYPE, true);
     }
@@ -69,6 +70,7 @@ public class IfcShadingDeviceImpl extends IfcBuildingElementImpl implements IfcS
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setPredefinedType(IfcShadingDeviceTypeEnum newPredefinedType) {
         eSet(Ifc4Package.Literals.IFC_SHADING_DEVICE__PREDEFINED_TYPE, newPredefinedType);
     }
@@ -78,6 +80,7 @@ public class IfcShadingDeviceImpl extends IfcBuildingElementImpl implements IfcS
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void unsetPredefinedType() {
         eUnset(Ifc4Package.Literals.IFC_SHADING_DEVICE__PREDEFINED_TYPE);
     }
@@ -87,6 +90,7 @@ public class IfcShadingDeviceImpl extends IfcBuildingElementImpl implements IfcS
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public boolean isSetPredefinedType() {
         return eIsSet(Ifc4Package.Literals.IFC_SHADING_DEVICE__PREDEFINED_TYPE);
     }

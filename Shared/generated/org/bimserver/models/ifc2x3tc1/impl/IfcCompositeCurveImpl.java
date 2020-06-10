@@ -64,6 +64,7 @@ public class IfcCompositeCurveImpl extends IfcBoundedCurveImpl implements IfcCom
      * @generated
      */
     @SuppressWarnings("unchecked")
+    @Override
     public EList<IfcCompositeCurveSegment> getSegments() {
         return (EList<IfcCompositeCurveSegment>) eGet(Ifc2x3tc1Package.Literals.IFC_COMPOSITE_CURVE__SEGMENTS, true);
     }
@@ -73,6 +74,7 @@ public class IfcCompositeCurveImpl extends IfcBoundedCurveImpl implements IfcCom
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public boolean isSelfIntersect() {
         return (Boolean) eGet(Ifc2x3tc1Package.Literals.IFC_COMPOSITE_CURVE__SELF_INTERSECT, true);
     }
@@ -82,6 +84,7 @@ public class IfcCompositeCurveImpl extends IfcBoundedCurveImpl implements IfcCom
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setSelfIntersect(boolean newSelfIntersect) {
         eSet(Ifc2x3tc1Package.Literals.IFC_COMPOSITE_CURVE__SELF_INTERSECT, newSelfIntersect);
     }

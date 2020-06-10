@@ -113,7 +113,8 @@ public interface IfcTendon extends IfcReinforcingElement {
      * @return the value of the '<em>Nominal Diameter As String</em>' attribute.
      * @see #setNominalDiameterAsString(String)
      * @see org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package#getIfcTendon_NominalDiameterAsString()
-     * @model
+     * @model annotation="asstring"
+     *        annotation="hidden"
      * @generated
      */
     String getNominalDiameterAsString();
@@ -165,7 +166,8 @@ public interface IfcTendon extends IfcReinforcingElement {
      * @return the value of the '<em>Cross Section Area As String</em>' attribute.
      * @see #setCrossSectionAreaAsString(String)
      * @see org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package#getIfcTendon_CrossSectionAreaAsString()
-     * @model
+     * @model annotation="asstring"
+     *        annotation="hidden"
      * @generated
      */
     String getCrossSectionAreaAsString();
@@ -247,6 +249,8 @@ public interface IfcTendon extends IfcReinforcingElement {
      * @see #setTensionForceAsString(String)
      * @see org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package#getIfcTendon_TensionForceAsString()
      * @model unsettable="true"
+     *        annotation="asstring"
+     *        annotation="hidden"
      * @generated
      */
     String getTensionForceAsString();
@@ -353,6 +357,8 @@ public interface IfcTendon extends IfcReinforcingElement {
      * @see #setPreStressAsString(String)
      * @see org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package#getIfcTendon_PreStressAsString()
      * @model unsettable="true"
+     *        annotation="asstring"
+     *        annotation="hidden"
      * @generated
      */
     String getPreStressAsString();
@@ -459,6 +465,8 @@ public interface IfcTendon extends IfcReinforcingElement {
      * @see #setFrictionCoefficientAsString(String)
      * @see org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package#getIfcTendon_FrictionCoefficientAsString()
      * @model unsettable="true"
+     *        annotation="asstring"
+     *        annotation="hidden"
      * @generated
      */
     String getFrictionCoefficientAsString();
@@ -565,6 +573,8 @@ public interface IfcTendon extends IfcReinforcingElement {
      * @see #setAnchorageSlipAsString(String)
      * @see org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package#getIfcTendon_AnchorageSlipAsString()
      * @model unsettable="true"
+     *        annotation="asstring"
+     *        annotation="hidden"
      * @generated
      */
     String getAnchorageSlipAsString();
@@ -671,6 +681,8 @@ public interface IfcTendon extends IfcReinforcingElement {
      * @see #setMinCurvatureRadiusAsString(String)
      * @see org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package#getIfcTendon_MinCurvatureRadiusAsString()
      * @model unsettable="true"
+     *        annotation="asstring"
+     *        annotation="hidden"
      * @generated
      */
     String getMinCurvatureRadiusAsString();

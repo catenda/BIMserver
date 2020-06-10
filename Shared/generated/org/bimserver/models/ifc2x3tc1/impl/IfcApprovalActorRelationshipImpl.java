@@ -76,6 +76,7 @@ public class IfcApprovalActorRelationshipImpl extends IdEObjectImpl implements I
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public IfcActorSelect getActor() {
         return (IfcActorSelect) eGet(Ifc2x3tc1Package.Literals.IFC_APPROVAL_ACTOR_RELATIONSHIP__ACTOR, true);
     }
@@ -85,6 +86,7 @@ public class IfcApprovalActorRelationshipImpl extends IdEObjectImpl implements I
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setActor(IfcActorSelect newActor) {
         eSet(Ifc2x3tc1Package.Literals.IFC_APPROVAL_ACTOR_RELATIONSHIP__ACTOR, newActor);
     }
@@ -94,6 +96,7 @@ public class IfcApprovalActorRelationshipImpl extends IdEObjectImpl implements I
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public IfcApproval getApproval() {
         return (IfcApproval) eGet(Ifc2x3tc1Package.Literals.IFC_APPROVAL_ACTOR_RELATIONSHIP__APPROVAL, true);
     }
@@ -103,6 +106,7 @@ public class IfcApprovalActorRelationshipImpl extends IdEObjectImpl implements I
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setApproval(IfcApproval newApproval) {
         eSet(Ifc2x3tc1Package.Literals.IFC_APPROVAL_ACTOR_RELATIONSHIP__APPROVAL, newApproval);
     }
@@ -112,6 +116,7 @@ public class IfcApprovalActorRelationshipImpl extends IdEObjectImpl implements I
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public IfcActorRole getRole() {
         return (IfcActorRole) eGet(Ifc2x3tc1Package.Literals.IFC_APPROVAL_ACTOR_RELATIONSHIP__ROLE, true);
     }
@@ -121,6 +126,7 @@ public class IfcApprovalActorRelationshipImpl extends IdEObjectImpl implements I
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setRole(IfcActorRole newRole) {
         eSet(Ifc2x3tc1Package.Literals.IFC_APPROVAL_ACTOR_RELATIONSHIP__ROLE, newRole);
     }

@@ -36,7 +36,7 @@ import org.bimserver.emf.IdEObject;
  * </ul>
  *
  * @see org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package#getGeometryInfo()
- * @model
+ * @model annotation="hidden"
  * @extends IdEObject
  * @generated
  */
@@ -52,7 +52,8 @@ public interface GeometryInfo extends IdEObject {
      * @return the value of the '<em>Min Bounds</em>' reference.
      * @see #setMinBounds(Vector3f)
      * @see org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package#getGeometryInfo_MinBounds()
-     * @model
+     * @model annotation="embedsreference"
+     *        annotation="hidden"
      * @generated
      */
     Vector3f getMinBounds();
@@ -78,7 +79,8 @@ public interface GeometryInfo extends IdEObject {
      * @return the value of the '<em>Max Bounds</em>' reference.
      * @see #setMaxBounds(Vector3f)
      * @see org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package#getGeometryInfo_MaxBounds()
-     * @model
+     * @model annotation="embedsreference"
+     *        annotation="hidden"
      * @generated
      */
     Vector3f getMaxBounds();
@@ -182,7 +184,7 @@ public interface GeometryInfo extends IdEObject {
      * @return the value of the '<em>Data</em>' reference.
      * @see #setData(GeometryData)
      * @see org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package#getGeometryInfo_Data()
-     * @model
+     * @model annotation="nolazyload"
      * @generated
      */
     GeometryData getData();

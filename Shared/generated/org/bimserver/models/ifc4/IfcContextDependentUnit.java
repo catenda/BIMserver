@@ -76,6 +76,7 @@ public interface IfcContextDependentUnit extends IfcNamedUnit, IfcResourceObject
      * @see #unsetHasExternalReference()
      * @see org.bimserver.models.ifc4.Ifc4Package#getIfcContextDependentUnit_HasExternalReference()
      * @model unsettable="true"
+     *        annotation="inverse"
      * @generated
      */
     EList<IfcExternalReferenceRelationship> getHasExternalReference();

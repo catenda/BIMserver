@@ -66,6 +66,7 @@ public class IfcCurveBoundedPlaneImpl extends IfcBoundedSurfaceImpl implements I
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public IfcPlane getBasisSurface() {
         return (IfcPlane) eGet(Ifc2x3tc1Package.Literals.IFC_CURVE_BOUNDED_PLANE__BASIS_SURFACE, true);
     }
@@ -75,6 +76,7 @@ public class IfcCurveBoundedPlaneImpl extends IfcBoundedSurfaceImpl implements I
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setBasisSurface(IfcPlane newBasisSurface) {
         eSet(Ifc2x3tc1Package.Literals.IFC_CURVE_BOUNDED_PLANE__BASIS_SURFACE, newBasisSurface);
     }
@@ -84,6 +86,7 @@ public class IfcCurveBoundedPlaneImpl extends IfcBoundedSurfaceImpl implements I
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public IfcCurve getOuterBoundary() {
         return (IfcCurve) eGet(Ifc2x3tc1Package.Literals.IFC_CURVE_BOUNDED_PLANE__OUTER_BOUNDARY, true);
     }
@@ -93,6 +96,7 @@ public class IfcCurveBoundedPlaneImpl extends IfcBoundedSurfaceImpl implements I
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setOuterBoundary(IfcCurve newOuterBoundary) {
         eSet(Ifc2x3tc1Package.Literals.IFC_CURVE_BOUNDED_PLANE__OUTER_BOUNDARY, newOuterBoundary);
     }
@@ -103,6 +107,7 @@ public class IfcCurveBoundedPlaneImpl extends IfcBoundedSurfaceImpl implements I
      * @generated
      */
     @SuppressWarnings("unchecked")
+    @Override
     public EList<IfcCurve> getInnerBoundaries() {
         return (EList<IfcCurve>) eGet(Ifc2x3tc1Package.Literals.IFC_CURVE_BOUNDED_PLANE__INNER_BOUNDARIES, true);
     }
@@ -112,6 +117,7 @@ public class IfcCurveBoundedPlaneImpl extends IfcBoundedSurfaceImpl implements I
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public long getDim() {
         return (Long) eGet(Ifc2x3tc1Package.Literals.IFC_CURVE_BOUNDED_PLANE__DIM, true);
     }
@@ -121,6 +127,7 @@ public class IfcCurveBoundedPlaneImpl extends IfcBoundedSurfaceImpl implements I
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setDim(long newDim) {
         eSet(Ifc2x3tc1Package.Literals.IFC_CURVE_BOUNDED_PLANE__DIM, newDim);
     }
@@ -130,6 +137,7 @@ public class IfcCurveBoundedPlaneImpl extends IfcBoundedSurfaceImpl implements I
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void unsetDim() {
         eUnset(Ifc2x3tc1Package.Literals.IFC_CURVE_BOUNDED_PLANE__DIM);
     }
@@ -139,6 +147,7 @@ public class IfcCurveBoundedPlaneImpl extends IfcBoundedSurfaceImpl implements I
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public boolean isSetDim() {
         return eIsSet(Ifc2x3tc1Package.Literals.IFC_CURVE_BOUNDED_PLANE__DIM);
     }

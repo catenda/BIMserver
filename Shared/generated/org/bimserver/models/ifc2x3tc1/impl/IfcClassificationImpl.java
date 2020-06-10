@@ -79,6 +79,7 @@ public class IfcClassificationImpl extends IdEObjectImpl implements IfcClassific
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public String getSource() {
         return (String) eGet(Ifc2x3tc1Package.Literals.IFC_CLASSIFICATION__SOURCE, true);
     }
@@ -88,6 +89,7 @@ public class IfcClassificationImpl extends IdEObjectImpl implements IfcClassific
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setSource(String newSource) {
         eSet(Ifc2x3tc1Package.Literals.IFC_CLASSIFICATION__SOURCE, newSource);
     }
@@ -97,6 +99,7 @@ public class IfcClassificationImpl extends IdEObjectImpl implements IfcClassific
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public String getEdition() {
         return (String) eGet(Ifc2x3tc1Package.Literals.IFC_CLASSIFICATION__EDITION, true);
     }
@@ -106,6 +109,7 @@ public class IfcClassificationImpl extends IdEObjectImpl implements IfcClassific
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setEdition(String newEdition) {
         eSet(Ifc2x3tc1Package.Literals.IFC_CLASSIFICATION__EDITION, newEdition);
     }
@@ -115,6 +119,7 @@ public class IfcClassificationImpl extends IdEObjectImpl implements IfcClassific
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public IfcCalendarDate getEditionDate() {
         return (IfcCalendarDate) eGet(Ifc2x3tc1Package.Literals.IFC_CLASSIFICATION__EDITION_DATE, true);
     }
@@ -124,6 +129,7 @@ public class IfcClassificationImpl extends IdEObjectImpl implements IfcClassific
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setEditionDate(IfcCalendarDate newEditionDate) {
         eSet(Ifc2x3tc1Package.Literals.IFC_CLASSIFICATION__EDITION_DATE, newEditionDate);
     }
@@ -133,6 +139,7 @@ public class IfcClassificationImpl extends IdEObjectImpl implements IfcClassific
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void unsetEditionDate() {
         eUnset(Ifc2x3tc1Package.Literals.IFC_CLASSIFICATION__EDITION_DATE);
     }
@@ -142,6 +149,7 @@ public class IfcClassificationImpl extends IdEObjectImpl implements IfcClassific
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public boolean isSetEditionDate() {
         return eIsSet(Ifc2x3tc1Package.Literals.IFC_CLASSIFICATION__EDITION_DATE);
     }
@@ -151,6 +159,7 @@ public class IfcClassificationImpl extends IdEObjectImpl implements IfcClassific
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public String getName() {
         return (String) eGet(Ifc2x3tc1Package.Literals.IFC_CLASSIFICATION__NAME, true);
     }
@@ -160,6 +169,7 @@ public class IfcClassificationImpl extends IdEObjectImpl implements IfcClassific
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setName(String newName) {
         eSet(Ifc2x3tc1Package.Literals.IFC_CLASSIFICATION__NAME, newName);
     }
@@ -170,6 +180,7 @@ public class IfcClassificationImpl extends IdEObjectImpl implements IfcClassific
      * @generated
      */
     @SuppressWarnings("unchecked")
+    @Override
     public EList<IfcClassificationItem> getContains() {
         return (EList<IfcClassificationItem>) eGet(Ifc2x3tc1Package.Literals.IFC_CLASSIFICATION__CONTAINS, true);
     }
@@ -179,6 +190,7 @@ public class IfcClassificationImpl extends IdEObjectImpl implements IfcClassific
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void unsetContains() {
         eUnset(Ifc2x3tc1Package.Literals.IFC_CLASSIFICATION__CONTAINS);
     }
@@ -188,6 +200,7 @@ public class IfcClassificationImpl extends IdEObjectImpl implements IfcClassific
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public boolean isSetContains() {
         return eIsSet(Ifc2x3tc1Package.Literals.IFC_CLASSIFICATION__CONTAINS);
     }

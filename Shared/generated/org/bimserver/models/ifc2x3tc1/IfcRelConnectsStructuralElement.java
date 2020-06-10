@@ -48,6 +48,7 @@ public interface IfcRelConnectsStructuralElement extends IfcRelConnects {
      * @see org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package#getIfcRelConnectsStructuralElement_RelatingElement()
      * @see org.bimserver.models.ifc2x3tc1.IfcElement#getHasStructuralMember
      * @model opposite="HasStructuralMember"
+     *        annotation="inverse"
      * @generated
      */
     IfcElement getRelatingElement();
@@ -76,6 +77,7 @@ public interface IfcRelConnectsStructuralElement extends IfcRelConnects {
      * @see org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package#getIfcRelConnectsStructuralElement_RelatedStructuralMember()
      * @see org.bimserver.models.ifc2x3tc1.IfcStructuralMember#getReferencesElement
      * @model opposite="ReferencesElement"
+     *        annotation="inverse"
      * @generated
      */
     IfcStructuralMember getRelatedStructuralMember();

@@ -60,6 +60,7 @@ public class IfcSymbolStyleImpl extends IfcPresentationStyleImpl implements IfcS
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public IfcSymbolStyleSelect getStyleOfSymbol() {
         return (IfcSymbolStyleSelect) eGet(Ifc2x3tc1Package.Literals.IFC_SYMBOL_STYLE__STYLE_OF_SYMBOL, true);
     }
@@ -69,6 +70,7 @@ public class IfcSymbolStyleImpl extends IfcPresentationStyleImpl implements IfcS
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setStyleOfSymbol(IfcSymbolStyleSelect newStyleOfSymbol) {
         eSet(Ifc2x3tc1Package.Literals.IFC_SYMBOL_STYLE__STYLE_OF_SYMBOL, newStyleOfSymbol);
     }
