@@ -240,6 +240,7 @@ public interface IfcLibraryInformation extends IfcLibrarySelect {
      * @see org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package#getIfcLibraryInformation_LibraryReference()
      * @see org.bimserver.models.ifc2x3tc1.IfcLibraryReference#getReferenceIntoLibrary
      * @model opposite="ReferenceIntoLibrary" unsettable="true"
+     *        annotation="inverse"
      * @generated
      */
     EList<IfcLibraryReference> getLibraryReference();

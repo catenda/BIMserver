@@ -98,7 +98,8 @@ public interface IfcRevolvedAreaSolid extends IfcSweptAreaSolid {
      * @return the value of the '<em>Angle As String</em>' attribute.
      * @see #setAngleAsString(String)
      * @see org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package#getIfcRevolvedAreaSolid_AngleAsString()
-     * @model
+     * @model annotation="asstring"
+     *        annotation="hidden"
      * @generated
      */
     String getAngleAsString();

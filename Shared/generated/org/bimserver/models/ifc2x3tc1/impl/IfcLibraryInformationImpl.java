@@ -80,6 +80,7 @@ public class IfcLibraryInformationImpl extends IdEObjectImpl implements IfcLibra
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public String getName() {
         return (String) eGet(Ifc2x3tc1Package.Literals.IFC_LIBRARY_INFORMATION__NAME, true);
     }
@@ -89,6 +90,7 @@ public class IfcLibraryInformationImpl extends IdEObjectImpl implements IfcLibra
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setName(String newName) {
         eSet(Ifc2x3tc1Package.Literals.IFC_LIBRARY_INFORMATION__NAME, newName);
     }
@@ -98,6 +100,7 @@ public class IfcLibraryInformationImpl extends IdEObjectImpl implements IfcLibra
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public String getVersion() {
         return (String) eGet(Ifc2x3tc1Package.Literals.IFC_LIBRARY_INFORMATION__VERSION, true);
     }
@@ -107,6 +110,7 @@ public class IfcLibraryInformationImpl extends IdEObjectImpl implements IfcLibra
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setVersion(String newVersion) {
         eSet(Ifc2x3tc1Package.Literals.IFC_LIBRARY_INFORMATION__VERSION, newVersion);
     }
@@ -116,6 +120,7 @@ public class IfcLibraryInformationImpl extends IdEObjectImpl implements IfcLibra
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void unsetVersion() {
         eUnset(Ifc2x3tc1Package.Literals.IFC_LIBRARY_INFORMATION__VERSION);
     }
@@ -125,6 +130,7 @@ public class IfcLibraryInformationImpl extends IdEObjectImpl implements IfcLibra
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public boolean isSetVersion() {
         return eIsSet(Ifc2x3tc1Package.Literals.IFC_LIBRARY_INFORMATION__VERSION);
     }
@@ -134,6 +140,7 @@ public class IfcLibraryInformationImpl extends IdEObjectImpl implements IfcLibra
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public IfcOrganization getPublisher() {
         return (IfcOrganization) eGet(Ifc2x3tc1Package.Literals.IFC_LIBRARY_INFORMATION__PUBLISHER, true);
     }
@@ -143,6 +150,7 @@ public class IfcLibraryInformationImpl extends IdEObjectImpl implements IfcLibra
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setPublisher(IfcOrganization newPublisher) {
         eSet(Ifc2x3tc1Package.Literals.IFC_LIBRARY_INFORMATION__PUBLISHER, newPublisher);
     }
@@ -152,6 +160,7 @@ public class IfcLibraryInformationImpl extends IdEObjectImpl implements IfcLibra
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void unsetPublisher() {
         eUnset(Ifc2x3tc1Package.Literals.IFC_LIBRARY_INFORMATION__PUBLISHER);
     }
@@ -161,6 +170,7 @@ public class IfcLibraryInformationImpl extends IdEObjectImpl implements IfcLibra
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public boolean isSetPublisher() {
         return eIsSet(Ifc2x3tc1Package.Literals.IFC_LIBRARY_INFORMATION__PUBLISHER);
     }
@@ -170,6 +180,7 @@ public class IfcLibraryInformationImpl extends IdEObjectImpl implements IfcLibra
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public IfcCalendarDate getVersionDate() {
         return (IfcCalendarDate) eGet(Ifc2x3tc1Package.Literals.IFC_LIBRARY_INFORMATION__VERSION_DATE, true);
     }
@@ -179,6 +190,7 @@ public class IfcLibraryInformationImpl extends IdEObjectImpl implements IfcLibra
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setVersionDate(IfcCalendarDate newVersionDate) {
         eSet(Ifc2x3tc1Package.Literals.IFC_LIBRARY_INFORMATION__VERSION_DATE, newVersionDate);
     }
@@ -188,6 +200,7 @@ public class IfcLibraryInformationImpl extends IdEObjectImpl implements IfcLibra
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void unsetVersionDate() {
         eUnset(Ifc2x3tc1Package.Literals.IFC_LIBRARY_INFORMATION__VERSION_DATE);
     }
@@ -197,6 +210,7 @@ public class IfcLibraryInformationImpl extends IdEObjectImpl implements IfcLibra
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public boolean isSetVersionDate() {
         return eIsSet(Ifc2x3tc1Package.Literals.IFC_LIBRARY_INFORMATION__VERSION_DATE);
     }
@@ -207,6 +221,7 @@ public class IfcLibraryInformationImpl extends IdEObjectImpl implements IfcLibra
      * @generated
      */
     @SuppressWarnings("unchecked")
+    @Override
     public EList<IfcLibraryReference> getLibraryReference() {
         return (EList<IfcLibraryReference>) eGet(Ifc2x3tc1Package.Literals.IFC_LIBRARY_INFORMATION__LIBRARY_REFERENCE,
                 true);
@@ -217,6 +232,7 @@ public class IfcLibraryInformationImpl extends IdEObjectImpl implements IfcLibra
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void unsetLibraryReference() {
         eUnset(Ifc2x3tc1Package.Literals.IFC_LIBRARY_INFORMATION__LIBRARY_REFERENCE);
     }
@@ -226,6 +242,7 @@ public class IfcLibraryInformationImpl extends IdEObjectImpl implements IfcLibra
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public boolean isSetLibraryReference() {
         return eIsSet(Ifc2x3tc1Package.Literals.IFC_LIBRARY_INFORMATION__LIBRARY_REFERENCE);
     }

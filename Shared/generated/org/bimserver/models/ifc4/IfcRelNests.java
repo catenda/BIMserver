@@ -50,6 +50,7 @@ public interface IfcRelNests extends IfcRelDecomposes {
      * @see org.bimserver.models.ifc4.Ifc4Package#getIfcRelNests_RelatingObject()
      * @see org.bimserver.models.ifc4.IfcObjectDefinition#getIsNestedBy
      * @model opposite="IsNestedBy"
+     *        annotation="inverse"
      * @generated
      */
     IfcObjectDefinition getRelatingObject();
@@ -78,6 +79,7 @@ public interface IfcRelNests extends IfcRelDecomposes {
      * @see org.bimserver.models.ifc4.Ifc4Package#getIfcRelNests_RelatedObjects()
      * @see org.bimserver.models.ifc4.IfcObjectDefinition#getNests
      * @model opposite="Nests"
+     *        annotation="inverse"
      * @generated
      */
     EList<IfcObjectDefinition> getRelatedObjects();

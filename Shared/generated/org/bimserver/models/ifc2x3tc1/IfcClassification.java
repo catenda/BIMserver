@@ -189,6 +189,7 @@ public interface IfcClassification extends IdEObject {
      * @see org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package#getIfcClassification_Contains()
      * @see org.bimserver.models.ifc2x3tc1.IfcClassificationItem#getItemOf
      * @model opposite="ItemOf" unsettable="true"
+     *        annotation="inverse"
      * @generated
      */
     EList<IfcClassificationItem> getContains();

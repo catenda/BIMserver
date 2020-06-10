@@ -76,6 +76,7 @@ public interface IfcAnnotationSurface extends IfcGeometricRepresentationItem {
      * @see org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package#getIfcAnnotationSurface_TextureCoordinates()
      * @see org.bimserver.models.ifc2x3tc1.IfcTextureCoordinate#getAnnotatedSurface
      * @model opposite="AnnotatedSurface" unsettable="true"
+     *        annotation="inverse"
      * @generated
      */
     IfcTextureCoordinate getTextureCoordinates();

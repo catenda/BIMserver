@@ -32,7 +32,7 @@ import org.bimserver.emf.IdEObject;
  * </ul>
  *
  * @see org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package#getIfcSecondInMinute()
- * @model
+ * @model annotation="wrapped"
  * @extends IdEObject
  * @generated
  */
@@ -104,6 +104,8 @@ public interface IfcSecondInMinute extends IdEObject {
      * @see #setWrappedValueAsString(String)
      * @see org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package#getIfcSecondInMinute_WrappedValueAsString()
      * @model unsettable="true"
+     *        annotation="asstring"
+     *        annotation="hidden"
      * @generated
      */
     String getWrappedValueAsString();

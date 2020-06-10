@@ -66,6 +66,7 @@ public class IfcSurfaceCurveImpl extends IfcCurveImpl implements IfcSurfaceCurve
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public IfcCurve getCurve3D() {
         return (IfcCurve) eGet(Ifc4Package.Literals.IFC_SURFACE_CURVE__CURVE3_D, true);
     }
@@ -75,6 +76,7 @@ public class IfcSurfaceCurveImpl extends IfcCurveImpl implements IfcSurfaceCurve
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setCurve3D(IfcCurve newCurve3D) {
         eSet(Ifc4Package.Literals.IFC_SURFACE_CURVE__CURVE3_D, newCurve3D);
     }
@@ -85,6 +87,7 @@ public class IfcSurfaceCurveImpl extends IfcCurveImpl implements IfcSurfaceCurve
      * @generated
      */
     @SuppressWarnings("unchecked")
+    @Override
     public EList<IfcPcurve> getAssociatedGeometry() {
         return (EList<IfcPcurve>) eGet(Ifc4Package.Literals.IFC_SURFACE_CURVE__ASSOCIATED_GEOMETRY, true);
     }
@@ -94,6 +97,7 @@ public class IfcSurfaceCurveImpl extends IfcCurveImpl implements IfcSurfaceCurve
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public IfcPreferredSurfaceCurveRepresentation getMasterRepresentation() {
         return (IfcPreferredSurfaceCurveRepresentation) eGet(
                 Ifc4Package.Literals.IFC_SURFACE_CURVE__MASTER_REPRESENTATION, true);
@@ -104,6 +108,7 @@ public class IfcSurfaceCurveImpl extends IfcCurveImpl implements IfcSurfaceCurve
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setMasterRepresentation(IfcPreferredSurfaceCurveRepresentation newMasterRepresentation) {
         eSet(Ifc4Package.Literals.IFC_SURFACE_CURVE__MASTER_REPRESENTATION, newMasterRepresentation);
     }

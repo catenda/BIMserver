@@ -238,6 +238,8 @@ public interface IfcMaterialConstituent extends IfcMaterialDefinition {
      * @see #setFractionAsString(String)
      * @see org.bimserver.models.ifc4.Ifc4Package#getIfcMaterialConstituent_FractionAsString()
      * @model unsettable="true"
+     *        annotation="asstring"
+     *        annotation="hidden"
      * @generated
      */
     String getFractionAsString();
@@ -346,6 +348,7 @@ public interface IfcMaterialConstituent extends IfcMaterialDefinition {
      * @see org.bimserver.models.ifc4.Ifc4Package#getIfcMaterialConstituent_ToMaterialConstituentSet()
      * @see org.bimserver.models.ifc4.IfcMaterialConstituentSet#getMaterialConstituents
      * @model opposite="MaterialConstituents" unsettable="true"
+     *        annotation="inverse"
      * @generated
      */
     IfcMaterialConstituentSet getToMaterialConstituentSet();

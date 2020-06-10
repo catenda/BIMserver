@@ -71,6 +71,7 @@ public class IfcStructuralLoadSingleDisplacementImpl extends IfcStructuralLoadSt
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public double getDisplacementX() {
         return (Double) eGet(Ifc4Package.Literals.IFC_STRUCTURAL_LOAD_SINGLE_DISPLACEMENT__DISPLACEMENT_X, true);
     }
@@ -80,6 +81,7 @@ public class IfcStructuralLoadSingleDisplacementImpl extends IfcStructuralLoadSt
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setDisplacementX(double newDisplacementX) {
         eSet(Ifc4Package.Literals.IFC_STRUCTURAL_LOAD_SINGLE_DISPLACEMENT__DISPLACEMENT_X, newDisplacementX);
     }
@@ -89,6 +91,7 @@ public class IfcStructuralLoadSingleDisplacementImpl extends IfcStructuralLoadSt
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void unsetDisplacementX() {
         eUnset(Ifc4Package.Literals.IFC_STRUCTURAL_LOAD_SINGLE_DISPLACEMENT__DISPLACEMENT_X);
     }
@@ -98,6 +101,7 @@ public class IfcStructuralLoadSingleDisplacementImpl extends IfcStructuralLoadSt
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public boolean isSetDisplacementX() {
         return eIsSet(Ifc4Package.Literals.IFC_STRUCTURAL_LOAD_SINGLE_DISPLACEMENT__DISPLACEMENT_X);
     }
@@ -107,6 +111,7 @@ public class IfcStructuralLoadSingleDisplacementImpl extends IfcStructuralLoadSt
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public String getDisplacementXAsString() {
         return (String) eGet(Ifc4Package.Literals.IFC_STRUCTURAL_LOAD_SINGLE_DISPLACEMENT__DISPLACEMENT_XAS_STRING,
                 true);
@@ -117,6 +122,7 @@ public class IfcStructuralLoadSingleDisplacementImpl extends IfcStructuralLoadSt
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setDisplacementXAsString(String newDisplacementXAsString) {
         eSet(Ifc4Package.Literals.IFC_STRUCTURAL_LOAD_SINGLE_DISPLACEMENT__DISPLACEMENT_XAS_STRING,
                 newDisplacementXAsString);
@@ -127,6 +133,7 @@ public class IfcStructuralLoadSingleDisplacementImpl extends IfcStructuralLoadSt
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void unsetDisplacementXAsString() {
         eUnset(Ifc4Package.Literals.IFC_STRUCTURAL_LOAD_SINGLE_DISPLACEMENT__DISPLACEMENT_XAS_STRING);
     }
@@ -136,6 +143,7 @@ public class IfcStructuralLoadSingleDisplacementImpl extends IfcStructuralLoadSt
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public boolean isSetDisplacementXAsString() {
         return eIsSet(Ifc4Package.Literals.IFC_STRUCTURAL_LOAD_SINGLE_DISPLACEMENT__DISPLACEMENT_XAS_STRING);
     }
@@ -145,6 +153,7 @@ public class IfcStructuralLoadSingleDisplacementImpl extends IfcStructuralLoadSt
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public double getDisplacementY() {
         return (Double) eGet(Ifc4Package.Literals.IFC_STRUCTURAL_LOAD_SINGLE_DISPLACEMENT__DISPLACEMENT_Y, true);
     }
@@ -154,6 +163,7 @@ public class IfcStructuralLoadSingleDisplacementImpl extends IfcStructuralLoadSt
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setDisplacementY(double newDisplacementY) {
         eSet(Ifc4Package.Literals.IFC_STRUCTURAL_LOAD_SINGLE_DISPLACEMENT__DISPLACEMENT_Y, newDisplacementY);
     }
@@ -163,6 +173,7 @@ public class IfcStructuralLoadSingleDisplacementImpl extends IfcStructuralLoadSt
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void unsetDisplacementY() {
         eUnset(Ifc4Package.Literals.IFC_STRUCTURAL_LOAD_SINGLE_DISPLACEMENT__DISPLACEMENT_Y);
     }
@@ -172,6 +183,7 @@ public class IfcStructuralLoadSingleDisplacementImpl extends IfcStructuralLoadSt
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public boolean isSetDisplacementY() {
         return eIsSet(Ifc4Package.Literals.IFC_STRUCTURAL_LOAD_SINGLE_DISPLACEMENT__DISPLACEMENT_Y);
     }
@@ -181,6 +193,7 @@ public class IfcStructuralLoadSingleDisplacementImpl extends IfcStructuralLoadSt
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public String getDisplacementYAsString() {
         return (String) eGet(Ifc4Package.Literals.IFC_STRUCTURAL_LOAD_SINGLE_DISPLACEMENT__DISPLACEMENT_YAS_STRING,
                 true);
@@ -191,6 +204,7 @@ public class IfcStructuralLoadSingleDisplacementImpl extends IfcStructuralLoadSt
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setDisplacementYAsString(String newDisplacementYAsString) {
         eSet(Ifc4Package.Literals.IFC_STRUCTURAL_LOAD_SINGLE_DISPLACEMENT__DISPLACEMENT_YAS_STRING,
                 newDisplacementYAsString);
@@ -201,6 +215,7 @@ public class IfcStructuralLoadSingleDisplacementImpl extends IfcStructuralLoadSt
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void unsetDisplacementYAsString() {
         eUnset(Ifc4Package.Literals.IFC_STRUCTURAL_LOAD_SINGLE_DISPLACEMENT__DISPLACEMENT_YAS_STRING);
     }
@@ -210,6 +225,7 @@ public class IfcStructuralLoadSingleDisplacementImpl extends IfcStructuralLoadSt
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public boolean isSetDisplacementYAsString() {
         return eIsSet(Ifc4Package.Literals.IFC_STRUCTURAL_LOAD_SINGLE_DISPLACEMENT__DISPLACEMENT_YAS_STRING);
     }
@@ -219,6 +235,7 @@ public class IfcStructuralLoadSingleDisplacementImpl extends IfcStructuralLoadSt
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public double getDisplacementZ() {
         return (Double) eGet(Ifc4Package.Literals.IFC_STRUCTURAL_LOAD_SINGLE_DISPLACEMENT__DISPLACEMENT_Z, true);
     }
@@ -228,6 +245,7 @@ public class IfcStructuralLoadSingleDisplacementImpl extends IfcStructuralLoadSt
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setDisplacementZ(double newDisplacementZ) {
         eSet(Ifc4Package.Literals.IFC_STRUCTURAL_LOAD_SINGLE_DISPLACEMENT__DISPLACEMENT_Z, newDisplacementZ);
     }
@@ -237,6 +255,7 @@ public class IfcStructuralLoadSingleDisplacementImpl extends IfcStructuralLoadSt
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void unsetDisplacementZ() {
         eUnset(Ifc4Package.Literals.IFC_STRUCTURAL_LOAD_SINGLE_DISPLACEMENT__DISPLACEMENT_Z);
     }
@@ -246,6 +265,7 @@ public class IfcStructuralLoadSingleDisplacementImpl extends IfcStructuralLoadSt
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public boolean isSetDisplacementZ() {
         return eIsSet(Ifc4Package.Literals.IFC_STRUCTURAL_LOAD_SINGLE_DISPLACEMENT__DISPLACEMENT_Z);
     }
@@ -255,6 +275,7 @@ public class IfcStructuralLoadSingleDisplacementImpl extends IfcStructuralLoadSt
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public String getDisplacementZAsString() {
         return (String) eGet(Ifc4Package.Literals.IFC_STRUCTURAL_LOAD_SINGLE_DISPLACEMENT__DISPLACEMENT_ZAS_STRING,
                 true);
@@ -265,6 +286,7 @@ public class IfcStructuralLoadSingleDisplacementImpl extends IfcStructuralLoadSt
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setDisplacementZAsString(String newDisplacementZAsString) {
         eSet(Ifc4Package.Literals.IFC_STRUCTURAL_LOAD_SINGLE_DISPLACEMENT__DISPLACEMENT_ZAS_STRING,
                 newDisplacementZAsString);
@@ -275,6 +297,7 @@ public class IfcStructuralLoadSingleDisplacementImpl extends IfcStructuralLoadSt
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void unsetDisplacementZAsString() {
         eUnset(Ifc4Package.Literals.IFC_STRUCTURAL_LOAD_SINGLE_DISPLACEMENT__DISPLACEMENT_ZAS_STRING);
     }
@@ -284,6 +307,7 @@ public class IfcStructuralLoadSingleDisplacementImpl extends IfcStructuralLoadSt
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public boolean isSetDisplacementZAsString() {
         return eIsSet(Ifc4Package.Literals.IFC_STRUCTURAL_LOAD_SINGLE_DISPLACEMENT__DISPLACEMENT_ZAS_STRING);
     }
@@ -293,6 +317,7 @@ public class IfcStructuralLoadSingleDisplacementImpl extends IfcStructuralLoadSt
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public double getRotationalDisplacementRX() {
         return (Double) eGet(Ifc4Package.Literals.IFC_STRUCTURAL_LOAD_SINGLE_DISPLACEMENT__ROTATIONAL_DISPLACEMENT_RX,
                 true);
@@ -303,6 +328,7 @@ public class IfcStructuralLoadSingleDisplacementImpl extends IfcStructuralLoadSt
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setRotationalDisplacementRX(double newRotationalDisplacementRX) {
         eSet(Ifc4Package.Literals.IFC_STRUCTURAL_LOAD_SINGLE_DISPLACEMENT__ROTATIONAL_DISPLACEMENT_RX,
                 newRotationalDisplacementRX);
@@ -313,6 +339,7 @@ public class IfcStructuralLoadSingleDisplacementImpl extends IfcStructuralLoadSt
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void unsetRotationalDisplacementRX() {
         eUnset(Ifc4Package.Literals.IFC_STRUCTURAL_LOAD_SINGLE_DISPLACEMENT__ROTATIONAL_DISPLACEMENT_RX);
     }
@@ -322,6 +349,7 @@ public class IfcStructuralLoadSingleDisplacementImpl extends IfcStructuralLoadSt
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public boolean isSetRotationalDisplacementRX() {
         return eIsSet(Ifc4Package.Literals.IFC_STRUCTURAL_LOAD_SINGLE_DISPLACEMENT__ROTATIONAL_DISPLACEMENT_RX);
     }
@@ -331,6 +359,7 @@ public class IfcStructuralLoadSingleDisplacementImpl extends IfcStructuralLoadSt
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public String getRotationalDisplacementRXAsString() {
         return (String) eGet(
                 Ifc4Package.Literals.IFC_STRUCTURAL_LOAD_SINGLE_DISPLACEMENT__ROTATIONAL_DISPLACEMENT_RX_AS_STRING,
@@ -342,6 +371,7 @@ public class IfcStructuralLoadSingleDisplacementImpl extends IfcStructuralLoadSt
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setRotationalDisplacementRXAsString(String newRotationalDisplacementRXAsString) {
         eSet(Ifc4Package.Literals.IFC_STRUCTURAL_LOAD_SINGLE_DISPLACEMENT__ROTATIONAL_DISPLACEMENT_RX_AS_STRING,
                 newRotationalDisplacementRXAsString);
@@ -352,6 +382,7 @@ public class IfcStructuralLoadSingleDisplacementImpl extends IfcStructuralLoadSt
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void unsetRotationalDisplacementRXAsString() {
         eUnset(Ifc4Package.Literals.IFC_STRUCTURAL_LOAD_SINGLE_DISPLACEMENT__ROTATIONAL_DISPLACEMENT_RX_AS_STRING);
     }
@@ -361,6 +392,7 @@ public class IfcStructuralLoadSingleDisplacementImpl extends IfcStructuralLoadSt
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public boolean isSetRotationalDisplacementRXAsString() {
         return eIsSet(
                 Ifc4Package.Literals.IFC_STRUCTURAL_LOAD_SINGLE_DISPLACEMENT__ROTATIONAL_DISPLACEMENT_RX_AS_STRING);
@@ -371,6 +403,7 @@ public class IfcStructuralLoadSingleDisplacementImpl extends IfcStructuralLoadSt
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public double getRotationalDisplacementRY() {
         return (Double) eGet(Ifc4Package.Literals.IFC_STRUCTURAL_LOAD_SINGLE_DISPLACEMENT__ROTATIONAL_DISPLACEMENT_RY,
                 true);
@@ -381,6 +414,7 @@ public class IfcStructuralLoadSingleDisplacementImpl extends IfcStructuralLoadSt
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setRotationalDisplacementRY(double newRotationalDisplacementRY) {
         eSet(Ifc4Package.Literals.IFC_STRUCTURAL_LOAD_SINGLE_DISPLACEMENT__ROTATIONAL_DISPLACEMENT_RY,
                 newRotationalDisplacementRY);
@@ -391,6 +425,7 @@ public class IfcStructuralLoadSingleDisplacementImpl extends IfcStructuralLoadSt
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void unsetRotationalDisplacementRY() {
         eUnset(Ifc4Package.Literals.IFC_STRUCTURAL_LOAD_SINGLE_DISPLACEMENT__ROTATIONAL_DISPLACEMENT_RY);
     }
@@ -400,6 +435,7 @@ public class IfcStructuralLoadSingleDisplacementImpl extends IfcStructuralLoadSt
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public boolean isSetRotationalDisplacementRY() {
         return eIsSet(Ifc4Package.Literals.IFC_STRUCTURAL_LOAD_SINGLE_DISPLACEMENT__ROTATIONAL_DISPLACEMENT_RY);
     }
@@ -409,6 +445,7 @@ public class IfcStructuralLoadSingleDisplacementImpl extends IfcStructuralLoadSt
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public String getRotationalDisplacementRYAsString() {
         return (String) eGet(
                 Ifc4Package.Literals.IFC_STRUCTURAL_LOAD_SINGLE_DISPLACEMENT__ROTATIONAL_DISPLACEMENT_RY_AS_STRING,
@@ -420,6 +457,7 @@ public class IfcStructuralLoadSingleDisplacementImpl extends IfcStructuralLoadSt
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setRotationalDisplacementRYAsString(String newRotationalDisplacementRYAsString) {
         eSet(Ifc4Package.Literals.IFC_STRUCTURAL_LOAD_SINGLE_DISPLACEMENT__ROTATIONAL_DISPLACEMENT_RY_AS_STRING,
                 newRotationalDisplacementRYAsString);
@@ -430,6 +468,7 @@ public class IfcStructuralLoadSingleDisplacementImpl extends IfcStructuralLoadSt
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void unsetRotationalDisplacementRYAsString() {
         eUnset(Ifc4Package.Literals.IFC_STRUCTURAL_LOAD_SINGLE_DISPLACEMENT__ROTATIONAL_DISPLACEMENT_RY_AS_STRING);
     }
@@ -439,6 +478,7 @@ public class IfcStructuralLoadSingleDisplacementImpl extends IfcStructuralLoadSt
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public boolean isSetRotationalDisplacementRYAsString() {
         return eIsSet(
                 Ifc4Package.Literals.IFC_STRUCTURAL_LOAD_SINGLE_DISPLACEMENT__ROTATIONAL_DISPLACEMENT_RY_AS_STRING);
@@ -449,6 +489,7 @@ public class IfcStructuralLoadSingleDisplacementImpl extends IfcStructuralLoadSt
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public double getRotationalDisplacementRZ() {
         return (Double) eGet(Ifc4Package.Literals.IFC_STRUCTURAL_LOAD_SINGLE_DISPLACEMENT__ROTATIONAL_DISPLACEMENT_RZ,
                 true);
@@ -459,6 +500,7 @@ public class IfcStructuralLoadSingleDisplacementImpl extends IfcStructuralLoadSt
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setRotationalDisplacementRZ(double newRotationalDisplacementRZ) {
         eSet(Ifc4Package.Literals.IFC_STRUCTURAL_LOAD_SINGLE_DISPLACEMENT__ROTATIONAL_DISPLACEMENT_RZ,
                 newRotationalDisplacementRZ);
@@ -469,6 +511,7 @@ public class IfcStructuralLoadSingleDisplacementImpl extends IfcStructuralLoadSt
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void unsetRotationalDisplacementRZ() {
         eUnset(Ifc4Package.Literals.IFC_STRUCTURAL_LOAD_SINGLE_DISPLACEMENT__ROTATIONAL_DISPLACEMENT_RZ);
     }
@@ -478,6 +521,7 @@ public class IfcStructuralLoadSingleDisplacementImpl extends IfcStructuralLoadSt
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public boolean isSetRotationalDisplacementRZ() {
         return eIsSet(Ifc4Package.Literals.IFC_STRUCTURAL_LOAD_SINGLE_DISPLACEMENT__ROTATIONAL_DISPLACEMENT_RZ);
     }
@@ -487,6 +531,7 @@ public class IfcStructuralLoadSingleDisplacementImpl extends IfcStructuralLoadSt
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public String getRotationalDisplacementRZAsString() {
         return (String) eGet(
                 Ifc4Package.Literals.IFC_STRUCTURAL_LOAD_SINGLE_DISPLACEMENT__ROTATIONAL_DISPLACEMENT_RZ_AS_STRING,
@@ -498,6 +543,7 @@ public class IfcStructuralLoadSingleDisplacementImpl extends IfcStructuralLoadSt
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setRotationalDisplacementRZAsString(String newRotationalDisplacementRZAsString) {
         eSet(Ifc4Package.Literals.IFC_STRUCTURAL_LOAD_SINGLE_DISPLACEMENT__ROTATIONAL_DISPLACEMENT_RZ_AS_STRING,
                 newRotationalDisplacementRZAsString);
@@ -508,6 +554,7 @@ public class IfcStructuralLoadSingleDisplacementImpl extends IfcStructuralLoadSt
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void unsetRotationalDisplacementRZAsString() {
         eUnset(Ifc4Package.Literals.IFC_STRUCTURAL_LOAD_SINGLE_DISPLACEMENT__ROTATIONAL_DISPLACEMENT_RZ_AS_STRING);
     }
@@ -517,6 +564,7 @@ public class IfcStructuralLoadSingleDisplacementImpl extends IfcStructuralLoadSt
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public boolean isSetRotationalDisplacementRZAsString() {
         return eIsSet(
                 Ifc4Package.Literals.IFC_STRUCTURAL_LOAD_SINGLE_DISPLACEMENT__ROTATIONAL_DISPLACEMENT_RZ_AS_STRING);

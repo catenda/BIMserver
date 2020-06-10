@@ -67,6 +67,8 @@ public interface IfcStructuralSurfaceMemberVarying extends IfcStructuralSurfaceM
      * @return the value of the '<em>Subsequent Thickness As String</em>' attribute list.
      * @see org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package#getIfcStructuralSurfaceMemberVarying_SubsequentThicknessAsString()
      * @model unique="false"
+     *        annotation="asstring"
+     *        annotation="hidden"
      * @generated
      */
     EList<String> getSubsequentThicknessAsString();
@@ -111,6 +113,7 @@ public interface IfcStructuralSurfaceMemberVarying extends IfcStructuralSurfaceM
      * @see #setVaryingThickness(double)
      * @see org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package#getIfcStructuralSurfaceMemberVarying_VaryingThickness()
      * @model unsettable="true" derived="true"
+     *        annotation="derived"
      * @generated
      */
     double getVaryingThickness();
@@ -164,6 +167,8 @@ public interface IfcStructuralSurfaceMemberVarying extends IfcStructuralSurfaceM
      * @see #setVaryingThicknessAsString(String)
      * @see org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package#getIfcStructuralSurfaceMemberVarying_VaryingThicknessAsString()
      * @model unsettable="true"
+     *        annotation="asstring"
+     *        annotation="hidden"
      * @generated
      */
     String getVaryingThicknessAsString();

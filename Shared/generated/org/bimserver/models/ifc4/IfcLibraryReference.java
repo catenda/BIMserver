@@ -160,6 +160,7 @@ public interface IfcLibraryReference extends IfcExternalReference, IfcLibrarySel
      * @see org.bimserver.models.ifc4.Ifc4Package#getIfcLibraryReference_ReferencedLibrary()
      * @see org.bimserver.models.ifc4.IfcLibraryInformation#getHasLibraryReferences
      * @model opposite="HasLibraryReferences" unsettable="true"
+     *        annotation="inverse"
      * @generated
      */
     IfcLibraryInformation getReferencedLibrary();
@@ -213,6 +214,7 @@ public interface IfcLibraryReference extends IfcExternalReference, IfcLibrarySel
      * @see #unsetLibraryRefForObjects()
      * @see org.bimserver.models.ifc4.Ifc4Package#getIfcLibraryReference_LibraryRefForObjects()
      * @model unsettable="true"
+     *        annotation="inverse"
      * @generated
      */
     EList<IfcRelAssociatesLibrary> getLibraryRefForObjects();

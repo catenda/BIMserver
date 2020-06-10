@@ -170,6 +170,22 @@ public class Express2EMF {
 				wrappedValue.setEType(ifcNullStyleEnum);
 				ifcNullStyleWrapper.getEAnnotations().add(createWrappedAnnotation());
 				ifcNullStyleWrapper.getEStructuralFeatures().add(wrappedValue);
+			} else if (type.getName().equals("IfcLineIndex")) {
+				EClass ifcLineIndex = getOrCreateEClass(type.getName());
+				DefinedType realType = new DefinedType("IfcPositiveInteger");
+				realType.setDomain(new IntegerType());
+				EAttribute attribute = modifySimpleType(realType, ifcLineIndex);
+				attribute.setLowerBound(2);
+				attribute.setUpperBound(-1);
+				ifcLineIndex.getEAnnotations().add(createWrappedAnnotation());
+			} else if (type.getName().equals("IfcArcIndex")) {
+				EClass ifcArcIndex = getOrCreateEClass(type.getName());
+				DefinedType realType = new DefinedType("IfcPositiveInteger");
+				realType.setDomain(new IntegerType());
+				EAttribute attribute = modifySimpleType(realType, ifcArcIndex);
+				attribute.setUpperBound(3);
+				attribute.setLowerBound(3);
+				ifcArcIndex.getEAnnotations().add(createWrappedAnnotation());
 			}
 		}
 	}
@@ -780,7 +796,7 @@ public class Express2EMF {
 							}
 						} else if (nt instanceof SelectType) {
 						} else {
-							if (nt.getName().equals("IfcComplexNumber") || nt.getName().equals("IfcCompoundPlaneAngleMeasure") || nt.getName().equals("IfcBoolean") || nt.getName().equals("IfcNullStyle")) {
+							if (nt.getName().equals("IfcComplexNumber") || nt.getName().equals("IfcCompoundPlaneAngleMeasure") || nt.getName().equals("IfcBoolean") || nt.getName().equals("IfcNullStyle") || nt.getName().equals("IfcArcIndex") || nt.getName().equals("IfcLineIndex") || nt.getName().equals("IfcBinary")) {
 								EClass choice = getOrCreateEClass(nt.getName());
 								choice.getESuperTypes().add(selectType);
 							} else {

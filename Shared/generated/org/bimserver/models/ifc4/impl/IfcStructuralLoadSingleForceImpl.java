@@ -71,6 +71,7 @@ public class IfcStructuralLoadSingleForceImpl extends IfcStructuralLoadStaticImp
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public double getForceX() {
         return (Double) eGet(Ifc4Package.Literals.IFC_STRUCTURAL_LOAD_SINGLE_FORCE__FORCE_X, true);
     }
@@ -80,6 +81,7 @@ public class IfcStructuralLoadSingleForceImpl extends IfcStructuralLoadStaticImp
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setForceX(double newForceX) {
         eSet(Ifc4Package.Literals.IFC_STRUCTURAL_LOAD_SINGLE_FORCE__FORCE_X, newForceX);
     }
@@ -89,6 +91,7 @@ public class IfcStructuralLoadSingleForceImpl extends IfcStructuralLoadStaticImp
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void unsetForceX() {
         eUnset(Ifc4Package.Literals.IFC_STRUCTURAL_LOAD_SINGLE_FORCE__FORCE_X);
     }
@@ -98,6 +101,7 @@ public class IfcStructuralLoadSingleForceImpl extends IfcStructuralLoadStaticImp
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public boolean isSetForceX() {
         return eIsSet(Ifc4Package.Literals.IFC_STRUCTURAL_LOAD_SINGLE_FORCE__FORCE_X);
     }
@@ -107,6 +111,7 @@ public class IfcStructuralLoadSingleForceImpl extends IfcStructuralLoadStaticImp
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public String getForceXAsString() {
         return (String) eGet(Ifc4Package.Literals.IFC_STRUCTURAL_LOAD_SINGLE_FORCE__FORCE_XAS_STRING, true);
     }
@@ -116,6 +121,7 @@ public class IfcStructuralLoadSingleForceImpl extends IfcStructuralLoadStaticImp
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setForceXAsString(String newForceXAsString) {
         eSet(Ifc4Package.Literals.IFC_STRUCTURAL_LOAD_SINGLE_FORCE__FORCE_XAS_STRING, newForceXAsString);
     }
@@ -125,6 +131,7 @@ public class IfcStructuralLoadSingleForceImpl extends IfcStructuralLoadStaticImp
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void unsetForceXAsString() {
         eUnset(Ifc4Package.Literals.IFC_STRUCTURAL_LOAD_SINGLE_FORCE__FORCE_XAS_STRING);
     }
@@ -134,6 +141,7 @@ public class IfcStructuralLoadSingleForceImpl extends IfcStructuralLoadStaticImp
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public boolean isSetForceXAsString() {
         return eIsSet(Ifc4Package.Literals.IFC_STRUCTURAL_LOAD_SINGLE_FORCE__FORCE_XAS_STRING);
     }
@@ -143,6 +151,7 @@ public class IfcStructuralLoadSingleForceImpl extends IfcStructuralLoadStaticImp
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public double getForceY() {
         return (Double) eGet(Ifc4Package.Literals.IFC_STRUCTURAL_LOAD_SINGLE_FORCE__FORCE_Y, true);
     }
@@ -152,6 +161,7 @@ public class IfcStructuralLoadSingleForceImpl extends IfcStructuralLoadStaticImp
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setForceY(double newForceY) {
         eSet(Ifc4Package.Literals.IFC_STRUCTURAL_LOAD_SINGLE_FORCE__FORCE_Y, newForceY);
     }
@@ -161,6 +171,7 @@ public class IfcStructuralLoadSingleForceImpl extends IfcStructuralLoadStaticImp
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void unsetForceY() {
         eUnset(Ifc4Package.Literals.IFC_STRUCTURAL_LOAD_SINGLE_FORCE__FORCE_Y);
     }
@@ -170,6 +181,7 @@ public class IfcStructuralLoadSingleForceImpl extends IfcStructuralLoadStaticImp
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public boolean isSetForceY() {
         return eIsSet(Ifc4Package.Literals.IFC_STRUCTURAL_LOAD_SINGLE_FORCE__FORCE_Y);
     }
@@ -179,6 +191,7 @@ public class IfcStructuralLoadSingleForceImpl extends IfcStructuralLoadStaticImp
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public String getForceYAsString() {
         return (String) eGet(Ifc4Package.Literals.IFC_STRUCTURAL_LOAD_SINGLE_FORCE__FORCE_YAS_STRING, true);
     }
@@ -188,6 +201,7 @@ public class IfcStructuralLoadSingleForceImpl extends IfcStructuralLoadStaticImp
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setForceYAsString(String newForceYAsString) {
         eSet(Ifc4Package.Literals.IFC_STRUCTURAL_LOAD_SINGLE_FORCE__FORCE_YAS_STRING, newForceYAsString);
     }
@@ -197,6 +211,7 @@ public class IfcStructuralLoadSingleForceImpl extends IfcStructuralLoadStaticImp
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void unsetForceYAsString() {
         eUnset(Ifc4Package.Literals.IFC_STRUCTURAL_LOAD_SINGLE_FORCE__FORCE_YAS_STRING);
     }
@@ -206,6 +221,7 @@ public class IfcStructuralLoadSingleForceImpl extends IfcStructuralLoadStaticImp
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public boolean isSetForceYAsString() {
         return eIsSet(Ifc4Package.Literals.IFC_STRUCTURAL_LOAD_SINGLE_FORCE__FORCE_YAS_STRING);
     }
@@ -215,6 +231,7 @@ public class IfcStructuralLoadSingleForceImpl extends IfcStructuralLoadStaticImp
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public double getForceZ() {
         return (Double) eGet(Ifc4Package.Literals.IFC_STRUCTURAL_LOAD_SINGLE_FORCE__FORCE_Z, true);
     }
@@ -224,6 +241,7 @@ public class IfcStructuralLoadSingleForceImpl extends IfcStructuralLoadStaticImp
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setForceZ(double newForceZ) {
         eSet(Ifc4Package.Literals.IFC_STRUCTURAL_LOAD_SINGLE_FORCE__FORCE_Z, newForceZ);
     }
@@ -233,6 +251,7 @@ public class IfcStructuralLoadSingleForceImpl extends IfcStructuralLoadStaticImp
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void unsetForceZ() {
         eUnset(Ifc4Package.Literals.IFC_STRUCTURAL_LOAD_SINGLE_FORCE__FORCE_Z);
     }
@@ -242,6 +261,7 @@ public class IfcStructuralLoadSingleForceImpl extends IfcStructuralLoadStaticImp
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public boolean isSetForceZ() {
         return eIsSet(Ifc4Package.Literals.IFC_STRUCTURAL_LOAD_SINGLE_FORCE__FORCE_Z);
     }
@@ -251,6 +271,7 @@ public class IfcStructuralLoadSingleForceImpl extends IfcStructuralLoadStaticImp
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public String getForceZAsString() {
         return (String) eGet(Ifc4Package.Literals.IFC_STRUCTURAL_LOAD_SINGLE_FORCE__FORCE_ZAS_STRING, true);
     }
@@ -260,6 +281,7 @@ public class IfcStructuralLoadSingleForceImpl extends IfcStructuralLoadStaticImp
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setForceZAsString(String newForceZAsString) {
         eSet(Ifc4Package.Literals.IFC_STRUCTURAL_LOAD_SINGLE_FORCE__FORCE_ZAS_STRING, newForceZAsString);
     }
@@ -269,6 +291,7 @@ public class IfcStructuralLoadSingleForceImpl extends IfcStructuralLoadStaticImp
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void unsetForceZAsString() {
         eUnset(Ifc4Package.Literals.IFC_STRUCTURAL_LOAD_SINGLE_FORCE__FORCE_ZAS_STRING);
     }
@@ -278,6 +301,7 @@ public class IfcStructuralLoadSingleForceImpl extends IfcStructuralLoadStaticImp
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public boolean isSetForceZAsString() {
         return eIsSet(Ifc4Package.Literals.IFC_STRUCTURAL_LOAD_SINGLE_FORCE__FORCE_ZAS_STRING);
     }
@@ -287,6 +311,7 @@ public class IfcStructuralLoadSingleForceImpl extends IfcStructuralLoadStaticImp
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public double getMomentX() {
         return (Double) eGet(Ifc4Package.Literals.IFC_STRUCTURAL_LOAD_SINGLE_FORCE__MOMENT_X, true);
     }
@@ -296,6 +321,7 @@ public class IfcStructuralLoadSingleForceImpl extends IfcStructuralLoadStaticImp
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setMomentX(double newMomentX) {
         eSet(Ifc4Package.Literals.IFC_STRUCTURAL_LOAD_SINGLE_FORCE__MOMENT_X, newMomentX);
     }
@@ -305,6 +331,7 @@ public class IfcStructuralLoadSingleForceImpl extends IfcStructuralLoadStaticImp
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void unsetMomentX() {
         eUnset(Ifc4Package.Literals.IFC_STRUCTURAL_LOAD_SINGLE_FORCE__MOMENT_X);
     }
@@ -314,6 +341,7 @@ public class IfcStructuralLoadSingleForceImpl extends IfcStructuralLoadStaticImp
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public boolean isSetMomentX() {
         return eIsSet(Ifc4Package.Literals.IFC_STRUCTURAL_LOAD_SINGLE_FORCE__MOMENT_X);
     }
@@ -323,6 +351,7 @@ public class IfcStructuralLoadSingleForceImpl extends IfcStructuralLoadStaticImp
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public String getMomentXAsString() {
         return (String) eGet(Ifc4Package.Literals.IFC_STRUCTURAL_LOAD_SINGLE_FORCE__MOMENT_XAS_STRING, true);
     }
@@ -332,6 +361,7 @@ public class IfcStructuralLoadSingleForceImpl extends IfcStructuralLoadStaticImp
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setMomentXAsString(String newMomentXAsString) {
         eSet(Ifc4Package.Literals.IFC_STRUCTURAL_LOAD_SINGLE_FORCE__MOMENT_XAS_STRING, newMomentXAsString);
     }
@@ -341,6 +371,7 @@ public class IfcStructuralLoadSingleForceImpl extends IfcStructuralLoadStaticImp
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void unsetMomentXAsString() {
         eUnset(Ifc4Package.Literals.IFC_STRUCTURAL_LOAD_SINGLE_FORCE__MOMENT_XAS_STRING);
     }
@@ -350,6 +381,7 @@ public class IfcStructuralLoadSingleForceImpl extends IfcStructuralLoadStaticImp
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public boolean isSetMomentXAsString() {
         return eIsSet(Ifc4Package.Literals.IFC_STRUCTURAL_LOAD_SINGLE_FORCE__MOMENT_XAS_STRING);
     }
@@ -359,6 +391,7 @@ public class IfcStructuralLoadSingleForceImpl extends IfcStructuralLoadStaticImp
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public double getMomentY() {
         return (Double) eGet(Ifc4Package.Literals.IFC_STRUCTURAL_LOAD_SINGLE_FORCE__MOMENT_Y, true);
     }
@@ -368,6 +401,7 @@ public class IfcStructuralLoadSingleForceImpl extends IfcStructuralLoadStaticImp
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setMomentY(double newMomentY) {
         eSet(Ifc4Package.Literals.IFC_STRUCTURAL_LOAD_SINGLE_FORCE__MOMENT_Y, newMomentY);
     }
@@ -377,6 +411,7 @@ public class IfcStructuralLoadSingleForceImpl extends IfcStructuralLoadStaticImp
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void unsetMomentY() {
         eUnset(Ifc4Package.Literals.IFC_STRUCTURAL_LOAD_SINGLE_FORCE__MOMENT_Y);
     }
@@ -386,6 +421,7 @@ public class IfcStructuralLoadSingleForceImpl extends IfcStructuralLoadStaticImp
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public boolean isSetMomentY() {
         return eIsSet(Ifc4Package.Literals.IFC_STRUCTURAL_LOAD_SINGLE_FORCE__MOMENT_Y);
     }
@@ -395,6 +431,7 @@ public class IfcStructuralLoadSingleForceImpl extends IfcStructuralLoadStaticImp
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public String getMomentYAsString() {
         return (String) eGet(Ifc4Package.Literals.IFC_STRUCTURAL_LOAD_SINGLE_FORCE__MOMENT_YAS_STRING, true);
     }
@@ -404,6 +441,7 @@ public class IfcStructuralLoadSingleForceImpl extends IfcStructuralLoadStaticImp
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setMomentYAsString(String newMomentYAsString) {
         eSet(Ifc4Package.Literals.IFC_STRUCTURAL_LOAD_SINGLE_FORCE__MOMENT_YAS_STRING, newMomentYAsString);
     }
@@ -413,6 +451,7 @@ public class IfcStructuralLoadSingleForceImpl extends IfcStructuralLoadStaticImp
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void unsetMomentYAsString() {
         eUnset(Ifc4Package.Literals.IFC_STRUCTURAL_LOAD_SINGLE_FORCE__MOMENT_YAS_STRING);
     }
@@ -422,6 +461,7 @@ public class IfcStructuralLoadSingleForceImpl extends IfcStructuralLoadStaticImp
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public boolean isSetMomentYAsString() {
         return eIsSet(Ifc4Package.Literals.IFC_STRUCTURAL_LOAD_SINGLE_FORCE__MOMENT_YAS_STRING);
     }
@@ -431,6 +471,7 @@ public class IfcStructuralLoadSingleForceImpl extends IfcStructuralLoadStaticImp
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public double getMomentZ() {
         return (Double) eGet(Ifc4Package.Literals.IFC_STRUCTURAL_LOAD_SINGLE_FORCE__MOMENT_Z, true);
     }
@@ -440,6 +481,7 @@ public class IfcStructuralLoadSingleForceImpl extends IfcStructuralLoadStaticImp
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setMomentZ(double newMomentZ) {
         eSet(Ifc4Package.Literals.IFC_STRUCTURAL_LOAD_SINGLE_FORCE__MOMENT_Z, newMomentZ);
     }
@@ -449,6 +491,7 @@ public class IfcStructuralLoadSingleForceImpl extends IfcStructuralLoadStaticImp
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void unsetMomentZ() {
         eUnset(Ifc4Package.Literals.IFC_STRUCTURAL_LOAD_SINGLE_FORCE__MOMENT_Z);
     }
@@ -458,6 +501,7 @@ public class IfcStructuralLoadSingleForceImpl extends IfcStructuralLoadStaticImp
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public boolean isSetMomentZ() {
         return eIsSet(Ifc4Package.Literals.IFC_STRUCTURAL_LOAD_SINGLE_FORCE__MOMENT_Z);
     }
@@ -467,6 +511,7 @@ public class IfcStructuralLoadSingleForceImpl extends IfcStructuralLoadStaticImp
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public String getMomentZAsString() {
         return (String) eGet(Ifc4Package.Literals.IFC_STRUCTURAL_LOAD_SINGLE_FORCE__MOMENT_ZAS_STRING, true);
     }
@@ -476,6 +521,7 @@ public class IfcStructuralLoadSingleForceImpl extends IfcStructuralLoadStaticImp
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setMomentZAsString(String newMomentZAsString) {
         eSet(Ifc4Package.Literals.IFC_STRUCTURAL_LOAD_SINGLE_FORCE__MOMENT_ZAS_STRING, newMomentZAsString);
     }
@@ -485,6 +531,7 @@ public class IfcStructuralLoadSingleForceImpl extends IfcStructuralLoadStaticImp
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void unsetMomentZAsString() {
         eUnset(Ifc4Package.Literals.IFC_STRUCTURAL_LOAD_SINGLE_FORCE__MOMENT_ZAS_STRING);
     }
@@ -494,6 +541,7 @@ public class IfcStructuralLoadSingleForceImpl extends IfcStructuralLoadStaticImp
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public boolean isSetMomentZAsString() {
         return eIsSet(Ifc4Package.Literals.IFC_STRUCTURAL_LOAD_SINGLE_FORCE__MOMENT_ZAS_STRING);
     }

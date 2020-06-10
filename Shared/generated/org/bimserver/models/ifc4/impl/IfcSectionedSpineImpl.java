@@ -67,6 +67,7 @@ public class IfcSectionedSpineImpl extends IfcGeometricRepresentationItemImpl im
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public IfcCompositeCurve getSpineCurve() {
         return (IfcCompositeCurve) eGet(Ifc4Package.Literals.IFC_SECTIONED_SPINE__SPINE_CURVE, true);
     }
@@ -76,6 +77,7 @@ public class IfcSectionedSpineImpl extends IfcGeometricRepresentationItemImpl im
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setSpineCurve(IfcCompositeCurve newSpineCurve) {
         eSet(Ifc4Package.Literals.IFC_SECTIONED_SPINE__SPINE_CURVE, newSpineCurve);
     }
@@ -86,6 +88,7 @@ public class IfcSectionedSpineImpl extends IfcGeometricRepresentationItemImpl im
      * @generated
      */
     @SuppressWarnings("unchecked")
+    @Override
     public EList<IfcProfileDef> getCrossSections() {
         return (EList<IfcProfileDef>) eGet(Ifc4Package.Literals.IFC_SECTIONED_SPINE__CROSS_SECTIONS, true);
     }
@@ -96,6 +99,7 @@ public class IfcSectionedSpineImpl extends IfcGeometricRepresentationItemImpl im
      * @generated
      */
     @SuppressWarnings("unchecked")
+    @Override
     public EList<IfcAxis2Placement3D> getCrossSectionPositions() {
         return (EList<IfcAxis2Placement3D>) eGet(Ifc4Package.Literals.IFC_SECTIONED_SPINE__CROSS_SECTION_POSITIONS,
                 true);
@@ -106,6 +110,7 @@ public class IfcSectionedSpineImpl extends IfcGeometricRepresentationItemImpl im
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public long getDim() {
         return (Long) eGet(Ifc4Package.Literals.IFC_SECTIONED_SPINE__DIM, true);
     }
@@ -115,6 +120,7 @@ public class IfcSectionedSpineImpl extends IfcGeometricRepresentationItemImpl im
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setDim(long newDim) {
         eSet(Ifc4Package.Literals.IFC_SECTIONED_SPINE__DIM, newDim);
     }
@@ -124,6 +130,7 @@ public class IfcSectionedSpineImpl extends IfcGeometricRepresentationItemImpl im
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void unsetDim() {
         eUnset(Ifc4Package.Literals.IFC_SECTIONED_SPINE__DIM);
     }
@@ -133,6 +140,7 @@ public class IfcSectionedSpineImpl extends IfcGeometricRepresentationItemImpl im
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public boolean isSetDim() {
         return eIsSet(Ifc4Package.Literals.IFC_SECTIONED_SPINE__DIM);
     }

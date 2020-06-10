@@ -60,6 +60,7 @@ public class IfcRelAssignsToResourceImpl extends IfcRelAssignsImpl implements If
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public IfcResource getRelatingResource() {
         return (IfcResource) eGet(Ifc2x3tc1Package.Literals.IFC_REL_ASSIGNS_TO_RESOURCE__RELATING_RESOURCE, true);
     }
@@ -69,6 +70,7 @@ public class IfcRelAssignsToResourceImpl extends IfcRelAssignsImpl implements If
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setRelatingResource(IfcResource newRelatingResource) {
         eSet(Ifc2x3tc1Package.Literals.IFC_REL_ASSIGNS_TO_RESOURCE__RELATING_RESOURCE, newRelatingResource);
     }

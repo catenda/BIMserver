@@ -59,6 +59,7 @@ public class IfcReinforcingElementImpl extends IfcElementComponentImpl implement
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public String getSteelGrade() {
         return (String) eGet(Ifc4Package.Literals.IFC_REINFORCING_ELEMENT__STEEL_GRADE, true);
     }
@@ -68,6 +69,7 @@ public class IfcReinforcingElementImpl extends IfcElementComponentImpl implement
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setSteelGrade(String newSteelGrade) {
         eSet(Ifc4Package.Literals.IFC_REINFORCING_ELEMENT__STEEL_GRADE, newSteelGrade);
     }
@@ -77,6 +79,7 @@ public class IfcReinforcingElementImpl extends IfcElementComponentImpl implement
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void unsetSteelGrade() {
         eUnset(Ifc4Package.Literals.IFC_REINFORCING_ELEMENT__STEEL_GRADE);
     }
@@ -86,6 +89,7 @@ public class IfcReinforcingElementImpl extends IfcElementComponentImpl implement
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public boolean isSetSteelGrade() {
         return eIsSet(Ifc4Package.Literals.IFC_REINFORCING_ELEMENT__STEEL_GRADE);
     }

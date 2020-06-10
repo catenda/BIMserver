@@ -47,7 +47,8 @@ public interface IfcRelDefinesByProperties extends IfcRelDefines {
      * <!-- end-user-doc -->
      * @return the value of the '<em>Related Objects</em>' reference list.
      * @see org.bimserver.models.ifc4.Ifc4Package#getIfcRelDefinesByProperties_RelatedObjects()
-     * @model
+     * @model annotation="inverse"
+     *        annotation="inverse"
      * @generated
      */
     EList<IfcObjectDefinition> getRelatedObjects();
@@ -63,7 +64,7 @@ public interface IfcRelDefinesByProperties extends IfcRelDefines {
      * @return the value of the '<em>Relating Property Definition</em>' reference.
      * @see #setRelatingPropertyDefinition(IfcPropertySetDefinitionSelect)
      * @see org.bimserver.models.ifc4.Ifc4Package#getIfcRelDefinesByProperties_RelatingPropertyDefinition()
-     * @model
+     * @model annotation="inverse"
      * @generated
      */
     IfcPropertySetDefinitionSelect getRelatingPropertyDefinition();

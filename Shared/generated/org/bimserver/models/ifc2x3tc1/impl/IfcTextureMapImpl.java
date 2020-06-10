@@ -63,6 +63,7 @@ public class IfcTextureMapImpl extends IfcTextureCoordinateImpl implements IfcTe
      * @generated
      */
     @SuppressWarnings("unchecked")
+    @Override
     public EList<IfcVertexBasedTextureMap> getTextureMaps() {
         return (EList<IfcVertexBasedTextureMap>) eGet(Ifc2x3tc1Package.Literals.IFC_TEXTURE_MAP__TEXTURE_MAPS, true);
     }

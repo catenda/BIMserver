@@ -64,6 +64,7 @@ public class IfcTextureCoordinateGeneratorImpl extends IfcTextureCoordinateImpl
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public String getMode() {
         return (String) eGet(Ifc2x3tc1Package.Literals.IFC_TEXTURE_COORDINATE_GENERATOR__MODE, true);
     }
@@ -73,6 +74,7 @@ public class IfcTextureCoordinateGeneratorImpl extends IfcTextureCoordinateImpl
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setMode(String newMode) {
         eSet(Ifc2x3tc1Package.Literals.IFC_TEXTURE_COORDINATE_GENERATOR__MODE, newMode);
     }
@@ -83,6 +85,7 @@ public class IfcTextureCoordinateGeneratorImpl extends IfcTextureCoordinateImpl
      * @generated
      */
     @SuppressWarnings("unchecked")
+    @Override
     public EList<IfcSimpleValue> getParameter() {
         return (EList<IfcSimpleValue>) eGet(Ifc2x3tc1Package.Literals.IFC_TEXTURE_COORDINATE_GENERATOR__PARAMETER,
                 true);

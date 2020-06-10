@@ -51,6 +51,7 @@ public interface IfcRelSequence extends IfcRelConnects {
      * @see org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package#getIfcRelSequence_RelatingProcess()
      * @see org.bimserver.models.ifc2x3tc1.IfcProcess#getIsPredecessorTo
      * @model opposite="IsPredecessorTo"
+     *        annotation="inverse"
      * @generated
      */
     IfcProcess getRelatingProcess();
@@ -79,6 +80,7 @@ public interface IfcRelSequence extends IfcRelConnects {
      * @see org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package#getIfcRelSequence_RelatedProcess()
      * @see org.bimserver.models.ifc2x3tc1.IfcProcess#getIsSuccessorFrom
      * @model opposite="IsSuccessorFrom"
+     *        annotation="inverse"
      * @generated
      */
     IfcProcess getRelatedProcess();
@@ -130,7 +132,8 @@ public interface IfcRelSequence extends IfcRelConnects {
      * @return the value of the '<em>Time Lag As String</em>' attribute.
      * @see #setTimeLagAsString(String)
      * @see org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package#getIfcRelSequence_TimeLagAsString()
-     * @model
+     * @model annotation="asstring"
+     *        annotation="hidden"
      * @generated
      */
     String getTimeLagAsString();

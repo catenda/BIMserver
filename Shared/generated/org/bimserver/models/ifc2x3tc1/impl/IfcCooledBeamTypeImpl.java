@@ -60,6 +60,7 @@ public class IfcCooledBeamTypeImpl extends IfcEnergyConversionDeviceTypeImpl imp
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public IfcCooledBeamTypeEnum getPredefinedType() {
         return (IfcCooledBeamTypeEnum) eGet(Ifc2x3tc1Package.Literals.IFC_COOLED_BEAM_TYPE__PREDEFINED_TYPE, true);
     }
@@ -69,6 +70,7 @@ public class IfcCooledBeamTypeImpl extends IfcEnergyConversionDeviceTypeImpl imp
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setPredefinedType(IfcCooledBeamTypeEnum newPredefinedType) {
         eSet(Ifc2x3tc1Package.Literals.IFC_COOLED_BEAM_TYPE__PREDEFINED_TYPE, newPredefinedType);
     }

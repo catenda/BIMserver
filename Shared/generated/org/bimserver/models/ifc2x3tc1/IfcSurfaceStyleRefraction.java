@@ -103,6 +103,8 @@ public interface IfcSurfaceStyleRefraction extends IfcSurfaceStyleElementSelect 
      * @see #setRefractionIndexAsString(String)
      * @see org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package#getIfcSurfaceStyleRefraction_RefractionIndexAsString()
      * @model unsettable="true"
+     *        annotation="asstring"
+     *        annotation="hidden"
      * @generated
      */
     String getRefractionIndexAsString();
@@ -209,6 +211,8 @@ public interface IfcSurfaceStyleRefraction extends IfcSurfaceStyleElementSelect 
      * @see #setDispersionFactorAsString(String)
      * @see org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package#getIfcSurfaceStyleRefraction_DispersionFactorAsString()
      * @model unsettable="true"
+     *        annotation="asstring"
+     *        annotation="hidden"
      * @generated
      */
     String getDispersionFactorAsString();

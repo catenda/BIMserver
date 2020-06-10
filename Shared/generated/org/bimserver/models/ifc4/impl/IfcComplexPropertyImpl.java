@@ -63,6 +63,7 @@ public class IfcComplexPropertyImpl extends IfcPropertyImpl implements IfcComple
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public String getUsageName() {
         return (String) eGet(Ifc4Package.Literals.IFC_COMPLEX_PROPERTY__USAGE_NAME, true);
     }
@@ -72,6 +73,7 @@ public class IfcComplexPropertyImpl extends IfcPropertyImpl implements IfcComple
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setUsageName(String newUsageName) {
         eSet(Ifc4Package.Literals.IFC_COMPLEX_PROPERTY__USAGE_NAME, newUsageName);
     }
@@ -82,6 +84,7 @@ public class IfcComplexPropertyImpl extends IfcPropertyImpl implements IfcComple
      * @generated
      */
     @SuppressWarnings("unchecked")
+    @Override
     public EList<IfcProperty> getHasProperties() {
         return (EList<IfcProperty>) eGet(Ifc4Package.Literals.IFC_COMPLEX_PROPERTY__HAS_PROPERTIES, true);
     }

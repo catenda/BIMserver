@@ -54,6 +54,7 @@ public interface IfcPropertyDependencyRelationship extends IdEObject {
      * @see org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package#getIfcPropertyDependencyRelationship_DependingProperty()
      * @see org.bimserver.models.ifc2x3tc1.IfcProperty#getPropertyForDependance
      * @model opposite="PropertyForDependance"
+     *        annotation="inverse"
      * @generated
      */
     IfcProperty getDependingProperty();
@@ -82,6 +83,7 @@ public interface IfcPropertyDependencyRelationship extends IdEObject {
      * @see org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package#getIfcPropertyDependencyRelationship_DependantProperty()
      * @see org.bimserver.models.ifc2x3tc1.IfcProperty#getPropertyDependsOn
      * @model opposite="PropertyDependsOn"
+     *        annotation="inverse"
      * @generated
      */
     IfcProperty getDependantProperty();

@@ -66,6 +66,7 @@ public class IfcMaterialProfileSetImpl extends IfcMaterialDefinitionImpl impleme
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public String getName() {
         return (String) eGet(Ifc4Package.Literals.IFC_MATERIAL_PROFILE_SET__NAME, true);
     }
@@ -75,6 +76,7 @@ public class IfcMaterialProfileSetImpl extends IfcMaterialDefinitionImpl impleme
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setName(String newName) {
         eSet(Ifc4Package.Literals.IFC_MATERIAL_PROFILE_SET__NAME, newName);
     }
@@ -84,6 +86,7 @@ public class IfcMaterialProfileSetImpl extends IfcMaterialDefinitionImpl impleme
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void unsetName() {
         eUnset(Ifc4Package.Literals.IFC_MATERIAL_PROFILE_SET__NAME);
     }
@@ -93,6 +96,7 @@ public class IfcMaterialProfileSetImpl extends IfcMaterialDefinitionImpl impleme
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public boolean isSetName() {
         return eIsSet(Ifc4Package.Literals.IFC_MATERIAL_PROFILE_SET__NAME);
     }
@@ -102,6 +106,7 @@ public class IfcMaterialProfileSetImpl extends IfcMaterialDefinitionImpl impleme
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public String getDescription() {
         return (String) eGet(Ifc4Package.Literals.IFC_MATERIAL_PROFILE_SET__DESCRIPTION, true);
     }
@@ -111,6 +116,7 @@ public class IfcMaterialProfileSetImpl extends IfcMaterialDefinitionImpl impleme
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setDescription(String newDescription) {
         eSet(Ifc4Package.Literals.IFC_MATERIAL_PROFILE_SET__DESCRIPTION, newDescription);
     }
@@ -120,6 +126,7 @@ public class IfcMaterialProfileSetImpl extends IfcMaterialDefinitionImpl impleme
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void unsetDescription() {
         eUnset(Ifc4Package.Literals.IFC_MATERIAL_PROFILE_SET__DESCRIPTION);
     }
@@ -129,6 +136,7 @@ public class IfcMaterialProfileSetImpl extends IfcMaterialDefinitionImpl impleme
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public boolean isSetDescription() {
         return eIsSet(Ifc4Package.Literals.IFC_MATERIAL_PROFILE_SET__DESCRIPTION);
     }
@@ -139,6 +147,7 @@ public class IfcMaterialProfileSetImpl extends IfcMaterialDefinitionImpl impleme
      * @generated
      */
     @SuppressWarnings("unchecked")
+    @Override
     public EList<IfcMaterialProfile> getMaterialProfiles() {
         return (EList<IfcMaterialProfile>) eGet(Ifc4Package.Literals.IFC_MATERIAL_PROFILE_SET__MATERIAL_PROFILES, true);
     }
@@ -148,6 +157,7 @@ public class IfcMaterialProfileSetImpl extends IfcMaterialDefinitionImpl impleme
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public IfcCompositeProfileDef getCompositeProfile() {
         return (IfcCompositeProfileDef) eGet(Ifc4Package.Literals.IFC_MATERIAL_PROFILE_SET__COMPOSITE_PROFILE, true);
     }
@@ -157,6 +167,7 @@ public class IfcMaterialProfileSetImpl extends IfcMaterialDefinitionImpl impleme
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setCompositeProfile(IfcCompositeProfileDef newCompositeProfile) {
         eSet(Ifc4Package.Literals.IFC_MATERIAL_PROFILE_SET__COMPOSITE_PROFILE, newCompositeProfile);
     }
@@ -166,6 +177,7 @@ public class IfcMaterialProfileSetImpl extends IfcMaterialDefinitionImpl impleme
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void unsetCompositeProfile() {
         eUnset(Ifc4Package.Literals.IFC_MATERIAL_PROFILE_SET__COMPOSITE_PROFILE);
     }
@@ -175,6 +187,7 @@ public class IfcMaterialProfileSetImpl extends IfcMaterialDefinitionImpl impleme
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public boolean isSetCompositeProfile() {
         return eIsSet(Ifc4Package.Literals.IFC_MATERIAL_PROFILE_SET__COMPOSITE_PROFILE);
     }

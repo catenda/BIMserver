@@ -61,6 +61,7 @@ public class IfcCommunicationsApplianceTypeImpl extends IfcFlowTerminalTypeImpl
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public IfcCommunicationsApplianceTypeEnum getPredefinedType() {
         return (IfcCommunicationsApplianceTypeEnum) eGet(
                 Ifc4Package.Literals.IFC_COMMUNICATIONS_APPLIANCE_TYPE__PREDEFINED_TYPE, true);
@@ -71,6 +72,7 @@ public class IfcCommunicationsApplianceTypeImpl extends IfcFlowTerminalTypeImpl
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setPredefinedType(IfcCommunicationsApplianceTypeEnum newPredefinedType) {
         eSet(Ifc4Package.Literals.IFC_COMMUNICATIONS_APPLIANCE_TYPE__PREDEFINED_TYPE, newPredefinedType);
     }

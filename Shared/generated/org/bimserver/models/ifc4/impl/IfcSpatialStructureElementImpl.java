@@ -60,6 +60,7 @@ public class IfcSpatialStructureElementImpl extends IfcSpatialElementImpl implem
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public IfcElementCompositionEnum getCompositionType() {
         return (IfcElementCompositionEnum) eGet(Ifc4Package.Literals.IFC_SPATIAL_STRUCTURE_ELEMENT__COMPOSITION_TYPE,
                 true);
@@ -70,6 +71,7 @@ public class IfcSpatialStructureElementImpl extends IfcSpatialElementImpl implem
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setCompositionType(IfcElementCompositionEnum newCompositionType) {
         eSet(Ifc4Package.Literals.IFC_SPATIAL_STRUCTURE_ELEMENT__COMPOSITION_TYPE, newCompositionType);
     }
@@ -79,6 +81,7 @@ public class IfcSpatialStructureElementImpl extends IfcSpatialElementImpl implem
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void unsetCompositionType() {
         eUnset(Ifc4Package.Literals.IFC_SPATIAL_STRUCTURE_ELEMENT__COMPOSITION_TYPE);
     }
@@ -88,6 +91,7 @@ public class IfcSpatialStructureElementImpl extends IfcSpatialElementImpl implem
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public boolean isSetCompositionType() {
         return eIsSet(Ifc4Package.Literals.IFC_SPATIAL_STRUCTURE_ELEMENT__COMPOSITION_TYPE);
     }

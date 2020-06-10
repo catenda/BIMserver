@@ -61,6 +61,7 @@ public class IfcTextLiteralWithExtentImpl extends IfcTextLiteralImpl implements 
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public IfcPlanarExtent getExtent() {
         return (IfcPlanarExtent) eGet(Ifc4Package.Literals.IFC_TEXT_LITERAL_WITH_EXTENT__EXTENT, true);
     }
@@ -70,6 +71,7 @@ public class IfcTextLiteralWithExtentImpl extends IfcTextLiteralImpl implements 
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setExtent(IfcPlanarExtent newExtent) {
         eSet(Ifc4Package.Literals.IFC_TEXT_LITERAL_WITH_EXTENT__EXTENT, newExtent);
     }
@@ -79,6 +81,7 @@ public class IfcTextLiteralWithExtentImpl extends IfcTextLiteralImpl implements 
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public String getBoxAlignment() {
         return (String) eGet(Ifc4Package.Literals.IFC_TEXT_LITERAL_WITH_EXTENT__BOX_ALIGNMENT, true);
     }
@@ -88,6 +91,7 @@ public class IfcTextLiteralWithExtentImpl extends IfcTextLiteralImpl implements 
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setBoxAlignment(String newBoxAlignment) {
         eSet(Ifc4Package.Literals.IFC_TEXT_LITERAL_WITH_EXTENT__BOX_ALIGNMENT, newBoxAlignment);
     }

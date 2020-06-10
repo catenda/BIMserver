@@ -62,6 +62,7 @@ public class IfcActionRequestImpl extends IfcControlImpl implements IfcActionReq
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public IfcActionRequestTypeEnum getPredefinedType() {
         return (IfcActionRequestTypeEnum) eGet(Ifc4Package.Literals.IFC_ACTION_REQUEST__PREDEFINED_TYPE, true);
     }
@@ -71,6 +72,7 @@ public class IfcActionRequestImpl extends IfcControlImpl implements IfcActionReq
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setPredefinedType(IfcActionRequestTypeEnum newPredefinedType) {
         eSet(Ifc4Package.Literals.IFC_ACTION_REQUEST__PREDEFINED_TYPE, newPredefinedType);
     }
@@ -80,6 +82,7 @@ public class IfcActionRequestImpl extends IfcControlImpl implements IfcActionReq
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void unsetPredefinedType() {
         eUnset(Ifc4Package.Literals.IFC_ACTION_REQUEST__PREDEFINED_TYPE);
     }
@@ -89,6 +92,7 @@ public class IfcActionRequestImpl extends IfcControlImpl implements IfcActionReq
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public boolean isSetPredefinedType() {
         return eIsSet(Ifc4Package.Literals.IFC_ACTION_REQUEST__PREDEFINED_TYPE);
     }
@@ -98,6 +102,7 @@ public class IfcActionRequestImpl extends IfcControlImpl implements IfcActionReq
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public String getStatus() {
         return (String) eGet(Ifc4Package.Literals.IFC_ACTION_REQUEST__STATUS, true);
     }
@@ -107,6 +112,7 @@ public class IfcActionRequestImpl extends IfcControlImpl implements IfcActionReq
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setStatus(String newStatus) {
         eSet(Ifc4Package.Literals.IFC_ACTION_REQUEST__STATUS, newStatus);
     }
@@ -116,6 +122,7 @@ public class IfcActionRequestImpl extends IfcControlImpl implements IfcActionReq
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void unsetStatus() {
         eUnset(Ifc4Package.Literals.IFC_ACTION_REQUEST__STATUS);
     }
@@ -125,6 +132,7 @@ public class IfcActionRequestImpl extends IfcControlImpl implements IfcActionReq
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public boolean isSetStatus() {
         return eIsSet(Ifc4Package.Literals.IFC_ACTION_REQUEST__STATUS);
     }
@@ -134,6 +142,7 @@ public class IfcActionRequestImpl extends IfcControlImpl implements IfcActionReq
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public String getLongDescription() {
         return (String) eGet(Ifc4Package.Literals.IFC_ACTION_REQUEST__LONG_DESCRIPTION, true);
     }
@@ -143,6 +152,7 @@ public class IfcActionRequestImpl extends IfcControlImpl implements IfcActionReq
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setLongDescription(String newLongDescription) {
         eSet(Ifc4Package.Literals.IFC_ACTION_REQUEST__LONG_DESCRIPTION, newLongDescription);
     }
@@ -152,6 +162,7 @@ public class IfcActionRequestImpl extends IfcControlImpl implements IfcActionReq
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void unsetLongDescription() {
         eUnset(Ifc4Package.Literals.IFC_ACTION_REQUEST__LONG_DESCRIPTION);
     }
@@ -161,6 +172,7 @@ public class IfcActionRequestImpl extends IfcControlImpl implements IfcActionReq
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public boolean isSetLongDescription() {
         return eIsSet(Ifc4Package.Literals.IFC_ACTION_REQUEST__LONG_DESCRIPTION);
     }

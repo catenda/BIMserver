@@ -98,7 +98,8 @@ public interface IfcSurfaceOfLinearExtrusion extends IfcSweptSurface {
      * @return the value of the '<em>Depth As String</em>' attribute.
      * @see #setDepthAsString(String)
      * @see org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package#getIfcSurfaceOfLinearExtrusion_DepthAsString()
-     * @model
+     * @model annotation="asstring"
+     *        annotation="hidden"
      * @generated
      */
     String getDepthAsString();

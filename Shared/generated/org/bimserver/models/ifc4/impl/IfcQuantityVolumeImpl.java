@@ -61,6 +61,7 @@ public class IfcQuantityVolumeImpl extends IfcPhysicalSimpleQuantityImpl impleme
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public double getVolumeValue() {
         return (Double) eGet(Ifc4Package.Literals.IFC_QUANTITY_VOLUME__VOLUME_VALUE, true);
     }
@@ -70,6 +71,7 @@ public class IfcQuantityVolumeImpl extends IfcPhysicalSimpleQuantityImpl impleme
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setVolumeValue(double newVolumeValue) {
         eSet(Ifc4Package.Literals.IFC_QUANTITY_VOLUME__VOLUME_VALUE, newVolumeValue);
     }
@@ -79,6 +81,7 @@ public class IfcQuantityVolumeImpl extends IfcPhysicalSimpleQuantityImpl impleme
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public String getVolumeValueAsString() {
         return (String) eGet(Ifc4Package.Literals.IFC_QUANTITY_VOLUME__VOLUME_VALUE_AS_STRING, true);
     }
@@ -88,6 +91,7 @@ public class IfcQuantityVolumeImpl extends IfcPhysicalSimpleQuantityImpl impleme
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setVolumeValueAsString(String newVolumeValueAsString) {
         eSet(Ifc4Package.Literals.IFC_QUANTITY_VOLUME__VOLUME_VALUE_AS_STRING, newVolumeValueAsString);
     }
@@ -97,6 +101,7 @@ public class IfcQuantityVolumeImpl extends IfcPhysicalSimpleQuantityImpl impleme
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public String getFormula() {
         return (String) eGet(Ifc4Package.Literals.IFC_QUANTITY_VOLUME__FORMULA, true);
     }
@@ -106,6 +111,7 @@ public class IfcQuantityVolumeImpl extends IfcPhysicalSimpleQuantityImpl impleme
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setFormula(String newFormula) {
         eSet(Ifc4Package.Literals.IFC_QUANTITY_VOLUME__FORMULA, newFormula);
     }
@@ -115,6 +121,7 @@ public class IfcQuantityVolumeImpl extends IfcPhysicalSimpleQuantityImpl impleme
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void unsetFormula() {
         eUnset(Ifc4Package.Literals.IFC_QUANTITY_VOLUME__FORMULA);
     }
@@ -124,6 +131,7 @@ public class IfcQuantityVolumeImpl extends IfcPhysicalSimpleQuantityImpl impleme
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public boolean isSetFormula() {
         return eIsSet(Ifc4Package.Literals.IFC_QUANTITY_VOLUME__FORMULA);
     }

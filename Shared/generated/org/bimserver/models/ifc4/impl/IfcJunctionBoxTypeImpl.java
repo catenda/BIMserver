@@ -60,6 +60,7 @@ public class IfcJunctionBoxTypeImpl extends IfcFlowFittingTypeImpl implements If
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public IfcJunctionBoxTypeEnum getPredefinedType() {
         return (IfcJunctionBoxTypeEnum) eGet(Ifc4Package.Literals.IFC_JUNCTION_BOX_TYPE__PREDEFINED_TYPE, true);
     }
@@ -69,6 +70,7 @@ public class IfcJunctionBoxTypeImpl extends IfcFlowFittingTypeImpl implements If
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setPredefinedType(IfcJunctionBoxTypeEnum newPredefinedType) {
         eSet(Ifc4Package.Literals.IFC_JUNCTION_BOX_TYPE__PREDEFINED_TYPE, newPredefinedType);
     }

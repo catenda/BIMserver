@@ -86,6 +86,7 @@ public class ExtendedDataImpl extends IdEObjectImpl implements ExtendedData {
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public String getUrl() {
         return (String) eGet(StorePackage.Literals.EXTENDED_DATA__URL, true);
     }
@@ -95,6 +96,7 @@ public class ExtendedDataImpl extends IdEObjectImpl implements ExtendedData {
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setUrl(String newUrl) {
         eSet(StorePackage.Literals.EXTENDED_DATA__URL, newUrl);
     }
@@ -104,6 +106,7 @@ public class ExtendedDataImpl extends IdEObjectImpl implements ExtendedData {
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public File getFile() {
         return (File) eGet(StorePackage.Literals.EXTENDED_DATA__FILE, true);
     }
@@ -113,6 +116,7 @@ public class ExtendedDataImpl extends IdEObjectImpl implements ExtendedData {
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setFile(File newFile) {
         eSet(StorePackage.Literals.EXTENDED_DATA__FILE, newFile);
     }
@@ -122,6 +126,7 @@ public class ExtendedDataImpl extends IdEObjectImpl implements ExtendedData {
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public long getSize() {
         return (Long) eGet(StorePackage.Literals.EXTENDED_DATA__SIZE, true);
     }
@@ -131,6 +136,7 @@ public class ExtendedDataImpl extends IdEObjectImpl implements ExtendedData {
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setSize(long newSize) {
         eSet(StorePackage.Literals.EXTENDED_DATA__SIZE, newSize);
     }
@@ -140,6 +146,7 @@ public class ExtendedDataImpl extends IdEObjectImpl implements ExtendedData {
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public String getTitle() {
         return (String) eGet(StorePackage.Literals.EXTENDED_DATA__TITLE, true);
     }
@@ -149,6 +156,7 @@ public class ExtendedDataImpl extends IdEObjectImpl implements ExtendedData {
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setTitle(String newTitle) {
         eSet(StorePackage.Literals.EXTENDED_DATA__TITLE, newTitle);
     }
@@ -158,6 +166,7 @@ public class ExtendedDataImpl extends IdEObjectImpl implements ExtendedData {
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public Date getAdded() {
         return (Date) eGet(StorePackage.Literals.EXTENDED_DATA__ADDED, true);
     }
@@ -167,6 +176,7 @@ public class ExtendedDataImpl extends IdEObjectImpl implements ExtendedData {
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setAdded(Date newAdded) {
         eSet(StorePackage.Literals.EXTENDED_DATA__ADDED, newAdded);
     }
@@ -176,6 +186,7 @@ public class ExtendedDataImpl extends IdEObjectImpl implements ExtendedData {
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public User getUser() {
         return (User) eGet(StorePackage.Literals.EXTENDED_DATA__USER, true);
     }
@@ -185,6 +196,7 @@ public class ExtendedDataImpl extends IdEObjectImpl implements ExtendedData {
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setUser(User newUser) {
         eSet(StorePackage.Literals.EXTENDED_DATA__USER, newUser);
     }
@@ -194,6 +206,7 @@ public class ExtendedDataImpl extends IdEObjectImpl implements ExtendedData {
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public ExtendedDataSchema getSchema() {
         return (ExtendedDataSchema) eGet(StorePackage.Literals.EXTENDED_DATA__SCHEMA, true);
     }
@@ -203,6 +216,7 @@ public class ExtendedDataImpl extends IdEObjectImpl implements ExtendedData {
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setSchema(ExtendedDataSchema newSchema) {
         eSet(StorePackage.Literals.EXTENDED_DATA__SCHEMA, newSchema);
     }
@@ -212,6 +226,7 @@ public class ExtendedDataImpl extends IdEObjectImpl implements ExtendedData {
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public Revision getRevision() {
         return (Revision) eGet(StorePackage.Literals.EXTENDED_DATA__REVISION, true);
     }
@@ -221,6 +236,7 @@ public class ExtendedDataImpl extends IdEObjectImpl implements ExtendedData {
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setRevision(Revision newRevision) {
         eSet(StorePackage.Literals.EXTENDED_DATA__REVISION, newRevision);
     }
@@ -230,6 +246,7 @@ public class ExtendedDataImpl extends IdEObjectImpl implements ExtendedData {
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public Project getProject() {
         return (Project) eGet(StorePackage.Literals.EXTENDED_DATA__PROJECT, true);
     }
@@ -239,6 +256,7 @@ public class ExtendedDataImpl extends IdEObjectImpl implements ExtendedData {
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setProject(Project newProject) {
         eSet(StorePackage.Literals.EXTENDED_DATA__PROJECT, newProject);
     }

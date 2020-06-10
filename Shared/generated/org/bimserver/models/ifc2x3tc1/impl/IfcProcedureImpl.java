@@ -62,6 +62,7 @@ public class IfcProcedureImpl extends IfcProcessImpl implements IfcProcedure {
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public String getProcedureID() {
         return (String) eGet(Ifc2x3tc1Package.Literals.IFC_PROCEDURE__PROCEDURE_ID, true);
     }
@@ -71,6 +72,7 @@ public class IfcProcedureImpl extends IfcProcessImpl implements IfcProcedure {
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setProcedureID(String newProcedureID) {
         eSet(Ifc2x3tc1Package.Literals.IFC_PROCEDURE__PROCEDURE_ID, newProcedureID);
     }
@@ -80,6 +82,7 @@ public class IfcProcedureImpl extends IfcProcessImpl implements IfcProcedure {
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public IfcProcedureTypeEnum getProcedureType() {
         return (IfcProcedureTypeEnum) eGet(Ifc2x3tc1Package.Literals.IFC_PROCEDURE__PROCEDURE_TYPE, true);
     }
@@ -89,6 +92,7 @@ public class IfcProcedureImpl extends IfcProcessImpl implements IfcProcedure {
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setProcedureType(IfcProcedureTypeEnum newProcedureType) {
         eSet(Ifc2x3tc1Package.Literals.IFC_PROCEDURE__PROCEDURE_TYPE, newProcedureType);
     }
@@ -98,6 +102,7 @@ public class IfcProcedureImpl extends IfcProcessImpl implements IfcProcedure {
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public String getUserDefinedProcedureType() {
         return (String) eGet(Ifc2x3tc1Package.Literals.IFC_PROCEDURE__USER_DEFINED_PROCEDURE_TYPE, true);
     }
@@ -107,6 +112,7 @@ public class IfcProcedureImpl extends IfcProcessImpl implements IfcProcedure {
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setUserDefinedProcedureType(String newUserDefinedProcedureType) {
         eSet(Ifc2x3tc1Package.Literals.IFC_PROCEDURE__USER_DEFINED_PROCEDURE_TYPE, newUserDefinedProcedureType);
     }
@@ -116,6 +122,7 @@ public class IfcProcedureImpl extends IfcProcessImpl implements IfcProcedure {
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void unsetUserDefinedProcedureType() {
         eUnset(Ifc2x3tc1Package.Literals.IFC_PROCEDURE__USER_DEFINED_PROCEDURE_TYPE);
     }
@@ -125,6 +132,7 @@ public class IfcProcedureImpl extends IfcProcessImpl implements IfcProcedure {
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public boolean isSetUserDefinedProcedureType() {
         return eIsSet(Ifc2x3tc1Package.Literals.IFC_PROCEDURE__USER_DEFINED_PROCEDURE_TYPE);
     }

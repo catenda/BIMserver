@@ -83,6 +83,7 @@ public interface IfcStructuralResultGroup extends IfcGroup {
      * @see org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package#getIfcStructuralResultGroup_ResultForLoadGroup()
      * @see org.bimserver.models.ifc2x3tc1.IfcStructuralLoadGroup#getSourceOfResultGroup
      * @model opposite="SourceOfResultGroup" unsettable="true"
+     *        annotation="inverse"
      * @generated
      */
     IfcStructuralLoadGroup getResultForLoadGroup();
@@ -167,6 +168,7 @@ public interface IfcStructuralResultGroup extends IfcGroup {
      * @see org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package#getIfcStructuralResultGroup_ResultGroupFor()
      * @see org.bimserver.models.ifc2x3tc1.IfcStructuralAnalysisModel#getHasResults
      * @model opposite="HasResults" unsettable="true" upper="2"
+     *        annotation="inverse"
      * @generated
      */
     EList<IfcStructuralAnalysisModel> getResultGroupFor();

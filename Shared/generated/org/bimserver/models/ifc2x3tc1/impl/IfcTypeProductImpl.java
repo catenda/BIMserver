@@ -64,6 +64,7 @@ public class IfcTypeProductImpl extends IfcTypeObjectImpl implements IfcTypeProd
      * @generated
      */
     @SuppressWarnings("unchecked")
+    @Override
     public EList<IfcRepresentationMap> getRepresentationMaps() {
         return (EList<IfcRepresentationMap>) eGet(Ifc2x3tc1Package.Literals.IFC_TYPE_PRODUCT__REPRESENTATION_MAPS,
                 true);
@@ -74,6 +75,7 @@ public class IfcTypeProductImpl extends IfcTypeObjectImpl implements IfcTypeProd
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void unsetRepresentationMaps() {
         eUnset(Ifc2x3tc1Package.Literals.IFC_TYPE_PRODUCT__REPRESENTATION_MAPS);
     }
@@ -83,6 +85,7 @@ public class IfcTypeProductImpl extends IfcTypeObjectImpl implements IfcTypeProd
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public boolean isSetRepresentationMaps() {
         return eIsSet(Ifc2x3tc1Package.Literals.IFC_TYPE_PRODUCT__REPRESENTATION_MAPS);
     }
@@ -92,6 +95,7 @@ public class IfcTypeProductImpl extends IfcTypeObjectImpl implements IfcTypeProd
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public String getTag() {
         return (String) eGet(Ifc2x3tc1Package.Literals.IFC_TYPE_PRODUCT__TAG, true);
     }
@@ -101,6 +105,7 @@ public class IfcTypeProductImpl extends IfcTypeObjectImpl implements IfcTypeProd
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setTag(String newTag) {
         eSet(Ifc2x3tc1Package.Literals.IFC_TYPE_PRODUCT__TAG, newTag);
     }
@@ -110,6 +115,7 @@ public class IfcTypeProductImpl extends IfcTypeObjectImpl implements IfcTypeProd
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void unsetTag() {
         eUnset(Ifc2x3tc1Package.Literals.IFC_TYPE_PRODUCT__TAG);
     }
@@ -119,6 +125,7 @@ public class IfcTypeProductImpl extends IfcTypeObjectImpl implements IfcTypeProd
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public boolean isSetTag() {
         return eIsSet(Ifc2x3tc1Package.Literals.IFC_TYPE_PRODUCT__TAG);
     }

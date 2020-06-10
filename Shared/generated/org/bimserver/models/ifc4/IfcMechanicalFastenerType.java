@@ -133,6 +133,8 @@ public interface IfcMechanicalFastenerType extends IfcElementComponentType {
      * @see #setNominalDiameterAsString(String)
      * @see org.bimserver.models.ifc4.Ifc4Package#getIfcMechanicalFastenerType_NominalDiameterAsString()
      * @model unsettable="true"
+     *        annotation="asstring"
+     *        annotation="hidden"
      * @generated
      */
     String getNominalDiameterAsString();
@@ -239,6 +241,8 @@ public interface IfcMechanicalFastenerType extends IfcElementComponentType {
      * @see #setNominalLengthAsString(String)
      * @see org.bimserver.models.ifc4.Ifc4Package#getIfcMechanicalFastenerType_NominalLengthAsString()
      * @model unsettable="true"
+     *        annotation="asstring"
+     *        annotation="hidden"
      * @generated
      */
     String getNominalLengthAsString();

@@ -59,6 +59,7 @@ public class IfcContextDependentUnitImpl extends IfcNamedUnitImpl implements Ifc
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public String getName() {
         return (String) eGet(Ifc2x3tc1Package.Literals.IFC_CONTEXT_DEPENDENT_UNIT__NAME, true);
     }
@@ -68,6 +69,7 @@ public class IfcContextDependentUnitImpl extends IfcNamedUnitImpl implements Ifc
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setName(String newName) {
         eSet(Ifc2x3tc1Package.Literals.IFC_CONTEXT_DEPENDENT_UNIT__NAME, newName);
     }

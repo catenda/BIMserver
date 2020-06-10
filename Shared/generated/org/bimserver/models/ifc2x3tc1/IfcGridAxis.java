@@ -168,6 +168,7 @@ public interface IfcGridAxis extends IdEObject {
      * @see org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package#getIfcGridAxis_PartOfW()
      * @see org.bimserver.models.ifc2x3tc1.IfcGrid#getWAxes
      * @model opposite="WAxes" unsettable="true" upper="2"
+     *        annotation="inverse"
      * @generated
      */
     EList<IfcGrid> getPartOfW();
@@ -209,6 +210,7 @@ public interface IfcGridAxis extends IdEObject {
      * @see org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package#getIfcGridAxis_PartOfV()
      * @see org.bimserver.models.ifc2x3tc1.IfcGrid#getVAxes
      * @model opposite="VAxes" unsettable="true" upper="2"
+     *        annotation="inverse"
      * @generated
      */
     EList<IfcGrid> getPartOfV();
@@ -250,6 +252,7 @@ public interface IfcGridAxis extends IdEObject {
      * @see org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package#getIfcGridAxis_PartOfU()
      * @see org.bimserver.models.ifc2x3tc1.IfcGrid#getUAxes
      * @model opposite="UAxes" unsettable="true" upper="2"
+     *        annotation="inverse"
      * @generated
      */
     EList<IfcGrid> getPartOfU();
@@ -291,6 +294,7 @@ public interface IfcGridAxis extends IdEObject {
      * @see org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package#getIfcGridAxis_HasIntersections()
      * @see org.bimserver.models.ifc2x3tc1.IfcVirtualGridIntersection#getIntersectingAxes
      * @model opposite="IntersectingAxes" unsettable="true"
+     *        annotation="inverse"
      * @generated
      */
     EList<IfcVirtualGridIntersection> getHasIntersections();

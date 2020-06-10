@@ -77,7 +77,8 @@ public interface IfcAsymmetricIShapeProfileDef extends IfcIShapeProfileDef {
      * @return the value of the '<em>Top Flange Width As String</em>' attribute.
      * @see #setTopFlangeWidthAsString(String)
      * @see org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package#getIfcAsymmetricIShapeProfileDef_TopFlangeWidthAsString()
-     * @model
+     * @model annotation="asstring"
+     *        annotation="hidden"
      * @generated
      */
     String getTopFlangeWidthAsString();
@@ -159,6 +160,8 @@ public interface IfcAsymmetricIShapeProfileDef extends IfcIShapeProfileDef {
      * @see #setTopFlangeThicknessAsString(String)
      * @see org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package#getIfcAsymmetricIShapeProfileDef_TopFlangeThicknessAsString()
      * @model unsettable="true"
+     *        annotation="asstring"
+     *        annotation="hidden"
      * @generated
      */
     String getTopFlangeThicknessAsString();
@@ -265,6 +268,8 @@ public interface IfcAsymmetricIShapeProfileDef extends IfcIShapeProfileDef {
      * @see #setTopFlangeFilletRadiusAsString(String)
      * @see org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package#getIfcAsymmetricIShapeProfileDef_TopFlangeFilletRadiusAsString()
      * @model unsettable="true"
+     *        annotation="asstring"
+     *        annotation="hidden"
      * @generated
      */
     String getTopFlangeFilletRadiusAsString();
@@ -371,6 +376,8 @@ public interface IfcAsymmetricIShapeProfileDef extends IfcIShapeProfileDef {
      * @see #setCentreOfGravityInYAsString(String)
      * @see org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package#getIfcAsymmetricIShapeProfileDef_CentreOfGravityInYAsString()
      * @model unsettable="true"
+     *        annotation="asstring"
+     *        annotation="hidden"
      * @generated
      */
     String getCentreOfGravityInYAsString();

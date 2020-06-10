@@ -54,6 +54,7 @@ public interface IfcDocumentInformationRelationship extends IdEObject {
      * @see org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package#getIfcDocumentInformationRelationship_RelatingDocument()
      * @see org.bimserver.models.ifc2x3tc1.IfcDocumentInformation#getIsPointer
      * @model opposite="IsPointer"
+     *        annotation="inverse"
      * @generated
      */
     IfcDocumentInformation getRelatingDocument();
@@ -82,6 +83,7 @@ public interface IfcDocumentInformationRelationship extends IdEObject {
      * @see org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package#getIfcDocumentInformationRelationship_RelatedDocuments()
      * @see org.bimserver.models.ifc2x3tc1.IfcDocumentInformation#getIsPointedTo
      * @model opposite="IsPointedTo"
+     *        annotation="inverse"
      * @generated
      */
     EList<IfcDocumentInformation> getRelatedDocuments();

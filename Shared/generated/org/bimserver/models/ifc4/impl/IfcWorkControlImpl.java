@@ -68,6 +68,7 @@ public class IfcWorkControlImpl extends IfcControlImpl implements IfcWorkControl
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public String getCreationDate() {
         return (String) eGet(Ifc4Package.Literals.IFC_WORK_CONTROL__CREATION_DATE, true);
     }
@@ -77,6 +78,7 @@ public class IfcWorkControlImpl extends IfcControlImpl implements IfcWorkControl
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setCreationDate(String newCreationDate) {
         eSet(Ifc4Package.Literals.IFC_WORK_CONTROL__CREATION_DATE, newCreationDate);
     }
@@ -87,6 +89,7 @@ public class IfcWorkControlImpl extends IfcControlImpl implements IfcWorkControl
      * @generated
      */
     @SuppressWarnings("unchecked")
+    @Override
     public EList<IfcPerson> getCreators() {
         return (EList<IfcPerson>) eGet(Ifc4Package.Literals.IFC_WORK_CONTROL__CREATORS, true);
     }
@@ -96,6 +99,7 @@ public class IfcWorkControlImpl extends IfcControlImpl implements IfcWorkControl
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void unsetCreators() {
         eUnset(Ifc4Package.Literals.IFC_WORK_CONTROL__CREATORS);
     }
@@ -105,6 +109,7 @@ public class IfcWorkControlImpl extends IfcControlImpl implements IfcWorkControl
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public boolean isSetCreators() {
         return eIsSet(Ifc4Package.Literals.IFC_WORK_CONTROL__CREATORS);
     }
@@ -114,6 +119,7 @@ public class IfcWorkControlImpl extends IfcControlImpl implements IfcWorkControl
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public String getPurpose() {
         return (String) eGet(Ifc4Package.Literals.IFC_WORK_CONTROL__PURPOSE, true);
     }
@@ -123,6 +129,7 @@ public class IfcWorkControlImpl extends IfcControlImpl implements IfcWorkControl
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setPurpose(String newPurpose) {
         eSet(Ifc4Package.Literals.IFC_WORK_CONTROL__PURPOSE, newPurpose);
     }
@@ -132,6 +139,7 @@ public class IfcWorkControlImpl extends IfcControlImpl implements IfcWorkControl
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void unsetPurpose() {
         eUnset(Ifc4Package.Literals.IFC_WORK_CONTROL__PURPOSE);
     }
@@ -141,6 +149,7 @@ public class IfcWorkControlImpl extends IfcControlImpl implements IfcWorkControl
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public boolean isSetPurpose() {
         return eIsSet(Ifc4Package.Literals.IFC_WORK_CONTROL__PURPOSE);
     }
@@ -150,6 +159,7 @@ public class IfcWorkControlImpl extends IfcControlImpl implements IfcWorkControl
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public String getDuration() {
         return (String) eGet(Ifc4Package.Literals.IFC_WORK_CONTROL__DURATION, true);
     }
@@ -159,6 +169,7 @@ public class IfcWorkControlImpl extends IfcControlImpl implements IfcWorkControl
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setDuration(String newDuration) {
         eSet(Ifc4Package.Literals.IFC_WORK_CONTROL__DURATION, newDuration);
     }
@@ -168,6 +179,7 @@ public class IfcWorkControlImpl extends IfcControlImpl implements IfcWorkControl
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void unsetDuration() {
         eUnset(Ifc4Package.Literals.IFC_WORK_CONTROL__DURATION);
     }
@@ -177,6 +189,7 @@ public class IfcWorkControlImpl extends IfcControlImpl implements IfcWorkControl
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public boolean isSetDuration() {
         return eIsSet(Ifc4Package.Literals.IFC_WORK_CONTROL__DURATION);
     }
@@ -186,6 +199,7 @@ public class IfcWorkControlImpl extends IfcControlImpl implements IfcWorkControl
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public String getTotalFloat() {
         return (String) eGet(Ifc4Package.Literals.IFC_WORK_CONTROL__TOTAL_FLOAT, true);
     }
@@ -195,6 +209,7 @@ public class IfcWorkControlImpl extends IfcControlImpl implements IfcWorkControl
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setTotalFloat(String newTotalFloat) {
         eSet(Ifc4Package.Literals.IFC_WORK_CONTROL__TOTAL_FLOAT, newTotalFloat);
     }
@@ -204,6 +219,7 @@ public class IfcWorkControlImpl extends IfcControlImpl implements IfcWorkControl
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void unsetTotalFloat() {
         eUnset(Ifc4Package.Literals.IFC_WORK_CONTROL__TOTAL_FLOAT);
     }
@@ -213,6 +229,7 @@ public class IfcWorkControlImpl extends IfcControlImpl implements IfcWorkControl
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public boolean isSetTotalFloat() {
         return eIsSet(Ifc4Package.Literals.IFC_WORK_CONTROL__TOTAL_FLOAT);
     }
@@ -222,6 +239,7 @@ public class IfcWorkControlImpl extends IfcControlImpl implements IfcWorkControl
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public String getStartTime() {
         return (String) eGet(Ifc4Package.Literals.IFC_WORK_CONTROL__START_TIME, true);
     }
@@ -231,6 +249,7 @@ public class IfcWorkControlImpl extends IfcControlImpl implements IfcWorkControl
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setStartTime(String newStartTime) {
         eSet(Ifc4Package.Literals.IFC_WORK_CONTROL__START_TIME, newStartTime);
     }
@@ -240,6 +259,7 @@ public class IfcWorkControlImpl extends IfcControlImpl implements IfcWorkControl
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public String getFinishTime() {
         return (String) eGet(Ifc4Package.Literals.IFC_WORK_CONTROL__FINISH_TIME, true);
     }
@@ -249,6 +269,7 @@ public class IfcWorkControlImpl extends IfcControlImpl implements IfcWorkControl
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setFinishTime(String newFinishTime) {
         eSet(Ifc4Package.Literals.IFC_WORK_CONTROL__FINISH_TIME, newFinishTime);
     }
@@ -258,6 +279,7 @@ public class IfcWorkControlImpl extends IfcControlImpl implements IfcWorkControl
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void unsetFinishTime() {
         eUnset(Ifc4Package.Literals.IFC_WORK_CONTROL__FINISH_TIME);
     }
@@ -267,6 +289,7 @@ public class IfcWorkControlImpl extends IfcControlImpl implements IfcWorkControl
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public boolean isSetFinishTime() {
         return eIsSet(Ifc4Package.Literals.IFC_WORK_CONTROL__FINISH_TIME);
     }

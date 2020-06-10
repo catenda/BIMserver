@@ -85,6 +85,7 @@ public class IfcApprovalImpl extends IdEObjectImpl implements IfcApproval {
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public String getDescription() {
         return (String) eGet(Ifc2x3tc1Package.Literals.IFC_APPROVAL__DESCRIPTION, true);
     }
@@ -94,6 +95,7 @@ public class IfcApprovalImpl extends IdEObjectImpl implements IfcApproval {
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setDescription(String newDescription) {
         eSet(Ifc2x3tc1Package.Literals.IFC_APPROVAL__DESCRIPTION, newDescription);
     }
@@ -103,6 +105,7 @@ public class IfcApprovalImpl extends IdEObjectImpl implements IfcApproval {
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void unsetDescription() {
         eUnset(Ifc2x3tc1Package.Literals.IFC_APPROVAL__DESCRIPTION);
     }
@@ -112,6 +115,7 @@ public class IfcApprovalImpl extends IdEObjectImpl implements IfcApproval {
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public boolean isSetDescription() {
         return eIsSet(Ifc2x3tc1Package.Literals.IFC_APPROVAL__DESCRIPTION);
     }
@@ -121,6 +125,7 @@ public class IfcApprovalImpl extends IdEObjectImpl implements IfcApproval {
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public IfcDateTimeSelect getApprovalDateTime() {
         return (IfcDateTimeSelect) eGet(Ifc2x3tc1Package.Literals.IFC_APPROVAL__APPROVAL_DATE_TIME, true);
     }
@@ -130,6 +135,7 @@ public class IfcApprovalImpl extends IdEObjectImpl implements IfcApproval {
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setApprovalDateTime(IfcDateTimeSelect newApprovalDateTime) {
         eSet(Ifc2x3tc1Package.Literals.IFC_APPROVAL__APPROVAL_DATE_TIME, newApprovalDateTime);
     }
@@ -139,6 +145,7 @@ public class IfcApprovalImpl extends IdEObjectImpl implements IfcApproval {
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public String getApprovalStatus() {
         return (String) eGet(Ifc2x3tc1Package.Literals.IFC_APPROVAL__APPROVAL_STATUS, true);
     }
@@ -148,6 +155,7 @@ public class IfcApprovalImpl extends IdEObjectImpl implements IfcApproval {
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setApprovalStatus(String newApprovalStatus) {
         eSet(Ifc2x3tc1Package.Literals.IFC_APPROVAL__APPROVAL_STATUS, newApprovalStatus);
     }
@@ -157,6 +165,7 @@ public class IfcApprovalImpl extends IdEObjectImpl implements IfcApproval {
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void unsetApprovalStatus() {
         eUnset(Ifc2x3tc1Package.Literals.IFC_APPROVAL__APPROVAL_STATUS);
     }
@@ -166,6 +175,7 @@ public class IfcApprovalImpl extends IdEObjectImpl implements IfcApproval {
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public boolean isSetApprovalStatus() {
         return eIsSet(Ifc2x3tc1Package.Literals.IFC_APPROVAL__APPROVAL_STATUS);
     }
@@ -175,6 +185,7 @@ public class IfcApprovalImpl extends IdEObjectImpl implements IfcApproval {
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public String getApprovalLevel() {
         return (String) eGet(Ifc2x3tc1Package.Literals.IFC_APPROVAL__APPROVAL_LEVEL, true);
     }
@@ -184,6 +195,7 @@ public class IfcApprovalImpl extends IdEObjectImpl implements IfcApproval {
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setApprovalLevel(String newApprovalLevel) {
         eSet(Ifc2x3tc1Package.Literals.IFC_APPROVAL__APPROVAL_LEVEL, newApprovalLevel);
     }
@@ -193,6 +205,7 @@ public class IfcApprovalImpl extends IdEObjectImpl implements IfcApproval {
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void unsetApprovalLevel() {
         eUnset(Ifc2x3tc1Package.Literals.IFC_APPROVAL__APPROVAL_LEVEL);
     }
@@ -202,6 +215,7 @@ public class IfcApprovalImpl extends IdEObjectImpl implements IfcApproval {
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public boolean isSetApprovalLevel() {
         return eIsSet(Ifc2x3tc1Package.Literals.IFC_APPROVAL__APPROVAL_LEVEL);
     }
@@ -211,6 +225,7 @@ public class IfcApprovalImpl extends IdEObjectImpl implements IfcApproval {
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public String getApprovalQualifier() {
         return (String) eGet(Ifc2x3tc1Package.Literals.IFC_APPROVAL__APPROVAL_QUALIFIER, true);
     }
@@ -220,6 +235,7 @@ public class IfcApprovalImpl extends IdEObjectImpl implements IfcApproval {
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setApprovalQualifier(String newApprovalQualifier) {
         eSet(Ifc2x3tc1Package.Literals.IFC_APPROVAL__APPROVAL_QUALIFIER, newApprovalQualifier);
     }
@@ -229,6 +245,7 @@ public class IfcApprovalImpl extends IdEObjectImpl implements IfcApproval {
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void unsetApprovalQualifier() {
         eUnset(Ifc2x3tc1Package.Literals.IFC_APPROVAL__APPROVAL_QUALIFIER);
     }
@@ -238,6 +255,7 @@ public class IfcApprovalImpl extends IdEObjectImpl implements IfcApproval {
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public boolean isSetApprovalQualifier() {
         return eIsSet(Ifc2x3tc1Package.Literals.IFC_APPROVAL__APPROVAL_QUALIFIER);
     }
@@ -247,6 +265,7 @@ public class IfcApprovalImpl extends IdEObjectImpl implements IfcApproval {
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public String getName() {
         return (String) eGet(Ifc2x3tc1Package.Literals.IFC_APPROVAL__NAME, true);
     }
@@ -256,6 +275,7 @@ public class IfcApprovalImpl extends IdEObjectImpl implements IfcApproval {
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setName(String newName) {
         eSet(Ifc2x3tc1Package.Literals.IFC_APPROVAL__NAME, newName);
     }
@@ -265,6 +285,7 @@ public class IfcApprovalImpl extends IdEObjectImpl implements IfcApproval {
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public String getIdentifier() {
         return (String) eGet(Ifc2x3tc1Package.Literals.IFC_APPROVAL__IDENTIFIER, true);
     }
@@ -274,6 +295,7 @@ public class IfcApprovalImpl extends IdEObjectImpl implements IfcApproval {
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setIdentifier(String newIdentifier) {
         eSet(Ifc2x3tc1Package.Literals.IFC_APPROVAL__IDENTIFIER, newIdentifier);
     }
@@ -284,6 +306,7 @@ public class IfcApprovalImpl extends IdEObjectImpl implements IfcApproval {
      * @generated
      */
     @SuppressWarnings("unchecked")
+    @Override
     public EList<IfcApprovalActorRelationship> getActors() {
         return (EList<IfcApprovalActorRelationship>) eGet(Ifc2x3tc1Package.Literals.IFC_APPROVAL__ACTORS, true);
     }
@@ -293,6 +316,7 @@ public class IfcApprovalImpl extends IdEObjectImpl implements IfcApproval {
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void unsetActors() {
         eUnset(Ifc2x3tc1Package.Literals.IFC_APPROVAL__ACTORS);
     }
@@ -302,6 +326,7 @@ public class IfcApprovalImpl extends IdEObjectImpl implements IfcApproval {
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public boolean isSetActors() {
         return eIsSet(Ifc2x3tc1Package.Literals.IFC_APPROVAL__ACTORS);
     }
@@ -312,6 +337,7 @@ public class IfcApprovalImpl extends IdEObjectImpl implements IfcApproval {
      * @generated
      */
     @SuppressWarnings("unchecked")
+    @Override
     public EList<IfcApprovalRelationship> getIsRelatedWith() {
         return (EList<IfcApprovalRelationship>) eGet(Ifc2x3tc1Package.Literals.IFC_APPROVAL__IS_RELATED_WITH, true);
     }
@@ -321,6 +347,7 @@ public class IfcApprovalImpl extends IdEObjectImpl implements IfcApproval {
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void unsetIsRelatedWith() {
         eUnset(Ifc2x3tc1Package.Literals.IFC_APPROVAL__IS_RELATED_WITH);
     }
@@ -330,6 +357,7 @@ public class IfcApprovalImpl extends IdEObjectImpl implements IfcApproval {
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public boolean isSetIsRelatedWith() {
         return eIsSet(Ifc2x3tc1Package.Literals.IFC_APPROVAL__IS_RELATED_WITH);
     }
@@ -340,6 +368,7 @@ public class IfcApprovalImpl extends IdEObjectImpl implements IfcApproval {
      * @generated
      */
     @SuppressWarnings("unchecked")
+    @Override
     public EList<IfcApprovalRelationship> getRelates() {
         return (EList<IfcApprovalRelationship>) eGet(Ifc2x3tc1Package.Literals.IFC_APPROVAL__RELATES, true);
     }
@@ -349,6 +378,7 @@ public class IfcApprovalImpl extends IdEObjectImpl implements IfcApproval {
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void unsetRelates() {
         eUnset(Ifc2x3tc1Package.Literals.IFC_APPROVAL__RELATES);
     }
@@ -358,6 +388,7 @@ public class IfcApprovalImpl extends IdEObjectImpl implements IfcApproval {
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public boolean isSetRelates() {
         return eIsSet(Ifc2x3tc1Package.Literals.IFC_APPROVAL__RELATES);
     }

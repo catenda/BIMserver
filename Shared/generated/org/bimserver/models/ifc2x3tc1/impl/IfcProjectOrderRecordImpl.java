@@ -65,6 +65,7 @@ public class IfcProjectOrderRecordImpl extends IfcControlImpl implements IfcProj
      * @generated
      */
     @SuppressWarnings("unchecked")
+    @Override
     public EList<IfcRelAssignsToProjectOrder> getRecords() {
         return (EList<IfcRelAssignsToProjectOrder>) eGet(Ifc2x3tc1Package.Literals.IFC_PROJECT_ORDER_RECORD__RECORDS,
                 true);
@@ -75,6 +76,7 @@ public class IfcProjectOrderRecordImpl extends IfcControlImpl implements IfcProj
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public IfcProjectOrderRecordTypeEnum getPredefinedType() {
         return (IfcProjectOrderRecordTypeEnum) eGet(Ifc2x3tc1Package.Literals.IFC_PROJECT_ORDER_RECORD__PREDEFINED_TYPE,
                 true);
@@ -85,6 +87,7 @@ public class IfcProjectOrderRecordImpl extends IfcControlImpl implements IfcProj
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setPredefinedType(IfcProjectOrderRecordTypeEnum newPredefinedType) {
         eSet(Ifc2x3tc1Package.Literals.IFC_PROJECT_ORDER_RECORD__PREDEFINED_TYPE, newPredefinedType);
     }

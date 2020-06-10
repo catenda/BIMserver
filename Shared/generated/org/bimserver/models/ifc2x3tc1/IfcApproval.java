@@ -353,6 +353,7 @@ public interface IfcApproval extends IdEObject {
      * @see org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package#getIfcApproval_Actors()
      * @see org.bimserver.models.ifc2x3tc1.IfcApprovalActorRelationship#getApproval
      * @model opposite="Approval" unsettable="true"
+     *        annotation="inverse"
      * @generated
      */
     EList<IfcApprovalActorRelationship> getActors();
@@ -394,6 +395,7 @@ public interface IfcApproval extends IdEObject {
      * @see org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package#getIfcApproval_IsRelatedWith()
      * @see org.bimserver.models.ifc2x3tc1.IfcApprovalRelationship#getRelatedApproval
      * @model opposite="RelatedApproval" unsettable="true"
+     *        annotation="inverse"
      * @generated
      */
     EList<IfcApprovalRelationship> getIsRelatedWith();
@@ -435,6 +437,7 @@ public interface IfcApproval extends IdEObject {
      * @see org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package#getIfcApproval_Relates()
      * @see org.bimserver.models.ifc2x3tc1.IfcApprovalRelationship#getRelatingApproval
      * @model opposite="RelatingApproval" unsettable="true"
+     *        annotation="inverse"
      * @generated
      */
     EList<IfcApprovalRelationship> getRelates();

@@ -73,6 +73,7 @@ public class GeometryDataImpl extends IdEObjectImpl implements GeometryData {
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public byte[] getIndices() {
         return (byte[]) eGet(Ifc2x3tc1Package.Literals.GEOMETRY_DATA__INDICES, true);
     }
@@ -82,6 +83,7 @@ public class GeometryDataImpl extends IdEObjectImpl implements GeometryData {
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setIndices(byte[] newIndices) {
         eSet(Ifc2x3tc1Package.Literals.GEOMETRY_DATA__INDICES, newIndices);
     }
@@ -91,6 +93,7 @@ public class GeometryDataImpl extends IdEObjectImpl implements GeometryData {
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public byte[] getVertices() {
         return (byte[]) eGet(Ifc2x3tc1Package.Literals.GEOMETRY_DATA__VERTICES, true);
     }
@@ -100,6 +103,7 @@ public class GeometryDataImpl extends IdEObjectImpl implements GeometryData {
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setVertices(byte[] newVertices) {
         eSet(Ifc2x3tc1Package.Literals.GEOMETRY_DATA__VERTICES, newVertices);
     }
@@ -109,6 +113,7 @@ public class GeometryDataImpl extends IdEObjectImpl implements GeometryData {
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public byte[] getNormals() {
         return (byte[]) eGet(Ifc2x3tc1Package.Literals.GEOMETRY_DATA__NORMALS, true);
     }
@@ -118,6 +123,7 @@ public class GeometryDataImpl extends IdEObjectImpl implements GeometryData {
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setNormals(byte[] newNormals) {
         eSet(Ifc2x3tc1Package.Literals.GEOMETRY_DATA__NORMALS, newNormals);
     }

@@ -49,7 +49,7 @@ public interface IfcRationalBSplineSurfaceWithKnots extends IfcBSplineSurfaceWit
      * <!-- end-user-doc -->
      * @return the value of the '<em>Weights Data</em>' reference list.
      * @see org.bimserver.models.ifc4.Ifc4Package#getIfcRationalBSplineSurfaceWithKnots_WeightsData()
-     * @model
+     * @model annotation="twodimensionalarray"
      * @generated
      */
     EList<ListOfEDouble> getWeightsData();
@@ -68,6 +68,7 @@ public interface IfcRationalBSplineSurfaceWithKnots extends IfcBSplineSurfaceWit
      * @see #setWeights(double)
      * @see org.bimserver.models.ifc4.Ifc4Package#getIfcRationalBSplineSurfaceWithKnots_Weights()
      * @model unsettable="true" derived="true"
+     *        annotation="derived"
      * @generated
      */
     double getWeights();
@@ -121,6 +122,8 @@ public interface IfcRationalBSplineSurfaceWithKnots extends IfcBSplineSurfaceWit
      * @see #setWeightsAsString(String)
      * @see org.bimserver.models.ifc4.Ifc4Package#getIfcRationalBSplineSurfaceWithKnots_WeightsAsString()
      * @model unsettable="true"
+     *        annotation="asstring"
+     *        annotation="hidden"
      * @generated
      */
     String getWeightsAsString();

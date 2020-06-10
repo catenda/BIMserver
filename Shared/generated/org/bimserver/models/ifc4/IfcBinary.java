@@ -31,11 +31,10 @@ import org.bimserver.emf.IdEObject;
  * </ul>
  *
  * @see org.bimserver.models.ifc4.Ifc4Package#getIfcBinary()
- * @model
- * @extends IdEObject
+ * @model annotation="wrapped"
  * @generated
  */
-public interface IfcBinary extends IdEObject {
+public interface IfcBinary extends IfcSimpleValue {
     /**
      * Returns the value of the '<em><b>Wrapped Value</b></em>' attribute.
      * <!-- begin-user-doc -->

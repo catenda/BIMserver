@@ -103,6 +103,8 @@ public interface IfcChamferEdgeFeature extends IfcEdgeFeature {
      * @see #setWidthAsString(String)
      * @see org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package#getIfcChamferEdgeFeature_WidthAsString()
      * @model unsettable="true"
+     *        annotation="asstring"
+     *        annotation="hidden"
      * @generated
      */
     String getWidthAsString();
@@ -209,6 +211,8 @@ public interface IfcChamferEdgeFeature extends IfcEdgeFeature {
      * @see #setHeightAsString(String)
      * @see org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package#getIfcChamferEdgeFeature_HeightAsString()
      * @model unsettable="true"
+     *        annotation="asstring"
+     *        annotation="hidden"
      * @generated
      */
     String getHeightAsString();

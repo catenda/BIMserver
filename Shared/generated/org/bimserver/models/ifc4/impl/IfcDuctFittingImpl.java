@@ -60,6 +60,7 @@ public class IfcDuctFittingImpl extends IfcFlowFittingImpl implements IfcDuctFit
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public IfcDuctFittingTypeEnum getPredefinedType() {
         return (IfcDuctFittingTypeEnum) eGet(Ifc4Package.Literals.IFC_DUCT_FITTING__PREDEFINED_TYPE, true);
     }
@@ -69,6 +70,7 @@ public class IfcDuctFittingImpl extends IfcFlowFittingImpl implements IfcDuctFit
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setPredefinedType(IfcDuctFittingTypeEnum newPredefinedType) {
         eSet(Ifc4Package.Literals.IFC_DUCT_FITTING__PREDEFINED_TYPE, newPredefinedType);
     }
@@ -78,6 +80,7 @@ public class IfcDuctFittingImpl extends IfcFlowFittingImpl implements IfcDuctFit
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void unsetPredefinedType() {
         eUnset(Ifc4Package.Literals.IFC_DUCT_FITTING__PREDEFINED_TYPE);
     }
@@ -87,6 +90,7 @@ public class IfcDuctFittingImpl extends IfcFlowFittingImpl implements IfcDuctFit
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public boolean isSetPredefinedType() {
         return eIsSet(Ifc4Package.Literals.IFC_DUCT_FITTING__PREDEFINED_TYPE);
     }

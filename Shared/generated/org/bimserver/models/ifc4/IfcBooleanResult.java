@@ -131,6 +131,7 @@ public interface IfcBooleanResult extends IfcGeometricRepresentationItem, IfcBoo
      * @see #setDim(long)
      * @see org.bimserver.models.ifc4.Ifc4Package#getIfcBooleanResult_Dim()
      * @model unsettable="true" derived="true"
+     *        annotation="derived"
      * @generated
      */
     long getDim();

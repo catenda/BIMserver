@@ -71,6 +71,7 @@ public class IfcTextDecorationImpl extends IdEObjectImpl implements IfcTextDecor
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public String getWrappedValue() {
         return (String) eGet(Ifc2x3tc1Package.Literals.IFC_TEXT_DECORATION__WRAPPED_VALUE, true);
     }
@@ -80,6 +81,7 @@ public class IfcTextDecorationImpl extends IdEObjectImpl implements IfcTextDecor
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setWrappedValue(String newWrappedValue) {
         eSet(Ifc2x3tc1Package.Literals.IFC_TEXT_DECORATION__WRAPPED_VALUE, newWrappedValue);
     }
@@ -89,6 +91,7 @@ public class IfcTextDecorationImpl extends IdEObjectImpl implements IfcTextDecor
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void unsetWrappedValue() {
         eUnset(Ifc2x3tc1Package.Literals.IFC_TEXT_DECORATION__WRAPPED_VALUE);
     }
@@ -98,6 +101,7 @@ public class IfcTextDecorationImpl extends IdEObjectImpl implements IfcTextDecor
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public boolean isSetWrappedValue() {
         return eIsSet(Ifc2x3tc1Package.Literals.IFC_TEXT_DECORATION__WRAPPED_VALUE);
     }

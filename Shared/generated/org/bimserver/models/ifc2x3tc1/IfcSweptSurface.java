@@ -101,6 +101,7 @@ public interface IfcSweptSurface extends IfcSurface {
      * @see #setDim(long)
      * @see org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package#getIfcSweptSurface_Dim()
      * @model unsettable="true" derived="true"
+     *        annotation="derived"
      * @generated
      */
     long getDim();

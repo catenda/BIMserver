@@ -127,7 +127,8 @@ public interface IfcMaterialLayer extends IfcMaterialSelect, IfcObjectReferenceS
      * @return the value of the '<em>Layer Thickness As String</em>' attribute.
      * @see #setLayerThicknessAsString(String)
      * @see org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package#getIfcMaterialLayer_LayerThicknessAsString()
-     * @model
+     * @model annotation="asstring"
+     *        annotation="hidden"
      * @generated
      */
     String getLayerThicknessAsString();
@@ -214,6 +215,7 @@ public interface IfcMaterialLayer extends IfcMaterialSelect, IfcObjectReferenceS
      * @see org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package#getIfcMaterialLayer_ToMaterialLayerSet()
      * @see org.bimserver.models.ifc2x3tc1.IfcMaterialLayerSet#getMaterialLayers
      * @model opposite="MaterialLayers" unsettable="true"
+     *        annotation="inverse"
      * @generated
      */
     IfcMaterialLayerSet getToMaterialLayerSet();

@@ -66,6 +66,7 @@ public class IfcConstructionMaterialResourceImpl extends IfcConstructionResource
      * @generated
      */
     @SuppressWarnings("unchecked")
+    @Override
     public EList<IfcActorSelect> getSuppliers() {
         return (EList<IfcActorSelect>) eGet(Ifc2x3tc1Package.Literals.IFC_CONSTRUCTION_MATERIAL_RESOURCE__SUPPLIERS,
                 true);
@@ -76,6 +77,7 @@ public class IfcConstructionMaterialResourceImpl extends IfcConstructionResource
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void unsetSuppliers() {
         eUnset(Ifc2x3tc1Package.Literals.IFC_CONSTRUCTION_MATERIAL_RESOURCE__SUPPLIERS);
     }
@@ -85,6 +87,7 @@ public class IfcConstructionMaterialResourceImpl extends IfcConstructionResource
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public boolean isSetSuppliers() {
         return eIsSet(Ifc2x3tc1Package.Literals.IFC_CONSTRUCTION_MATERIAL_RESOURCE__SUPPLIERS);
     }
@@ -94,6 +97,7 @@ public class IfcConstructionMaterialResourceImpl extends IfcConstructionResource
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public double getUsageRatio() {
         return (Double) eGet(Ifc2x3tc1Package.Literals.IFC_CONSTRUCTION_MATERIAL_RESOURCE__USAGE_RATIO, true);
     }
@@ -103,6 +107,7 @@ public class IfcConstructionMaterialResourceImpl extends IfcConstructionResource
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setUsageRatio(double newUsageRatio) {
         eSet(Ifc2x3tc1Package.Literals.IFC_CONSTRUCTION_MATERIAL_RESOURCE__USAGE_RATIO, newUsageRatio);
     }
@@ -112,6 +117,7 @@ public class IfcConstructionMaterialResourceImpl extends IfcConstructionResource
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void unsetUsageRatio() {
         eUnset(Ifc2x3tc1Package.Literals.IFC_CONSTRUCTION_MATERIAL_RESOURCE__USAGE_RATIO);
     }
@@ -121,6 +127,7 @@ public class IfcConstructionMaterialResourceImpl extends IfcConstructionResource
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public boolean isSetUsageRatio() {
         return eIsSet(Ifc2x3tc1Package.Literals.IFC_CONSTRUCTION_MATERIAL_RESOURCE__USAGE_RATIO);
     }
@@ -130,6 +137,7 @@ public class IfcConstructionMaterialResourceImpl extends IfcConstructionResource
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public String getUsageRatioAsString() {
         return (String) eGet(Ifc2x3tc1Package.Literals.IFC_CONSTRUCTION_MATERIAL_RESOURCE__USAGE_RATIO_AS_STRING, true);
     }
@@ -139,6 +147,7 @@ public class IfcConstructionMaterialResourceImpl extends IfcConstructionResource
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setUsageRatioAsString(String newUsageRatioAsString) {
         eSet(Ifc2x3tc1Package.Literals.IFC_CONSTRUCTION_MATERIAL_RESOURCE__USAGE_RATIO_AS_STRING,
                 newUsageRatioAsString);
@@ -149,6 +158,7 @@ public class IfcConstructionMaterialResourceImpl extends IfcConstructionResource
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void unsetUsageRatioAsString() {
         eUnset(Ifc2x3tc1Package.Literals.IFC_CONSTRUCTION_MATERIAL_RESOURCE__USAGE_RATIO_AS_STRING);
     }
@@ -158,6 +168,7 @@ public class IfcConstructionMaterialResourceImpl extends IfcConstructionResource
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public boolean isSetUsageRatioAsString() {
         return eIsSet(Ifc2x3tc1Package.Literals.IFC_CONSTRUCTION_MATERIAL_RESOURCE__USAGE_RATIO_AS_STRING);
     }

@@ -71,6 +71,7 @@ public class IfcPreDefinedItemImpl extends IdEObjectImpl implements IfcPreDefine
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public String getName() {
         return (String) eGet(Ifc2x3tc1Package.Literals.IFC_PRE_DEFINED_ITEM__NAME, true);
     }
@@ -80,6 +81,7 @@ public class IfcPreDefinedItemImpl extends IdEObjectImpl implements IfcPreDefine
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setName(String newName) {
         eSet(Ifc2x3tc1Package.Literals.IFC_PRE_DEFINED_ITEM__NAME, newName);
     }

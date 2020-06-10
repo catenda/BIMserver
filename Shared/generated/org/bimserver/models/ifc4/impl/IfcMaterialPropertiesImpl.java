@@ -60,6 +60,7 @@ public class IfcMaterialPropertiesImpl extends IfcExtendedPropertiesImpl impleme
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public IfcMaterialDefinition getMaterial() {
         return (IfcMaterialDefinition) eGet(Ifc4Package.Literals.IFC_MATERIAL_PROPERTIES__MATERIAL, true);
     }
@@ -69,6 +70,7 @@ public class IfcMaterialPropertiesImpl extends IfcExtendedPropertiesImpl impleme
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setMaterial(IfcMaterialDefinition newMaterial) {
         eSet(Ifc4Package.Literals.IFC_MATERIAL_PROPERTIES__MATERIAL, newMaterial);
     }

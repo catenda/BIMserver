@@ -63,6 +63,7 @@ public class IfcCartesianTransformationOperator3DnonUniformImpl extends IfcCarte
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public double getScale2() {
         return (Double) eGet(Ifc2x3tc1Package.Literals.IFC_CARTESIAN_TRANSFORMATION_OPERATOR3_DNON_UNIFORM__SCALE2,
                 true);
@@ -73,6 +74,7 @@ public class IfcCartesianTransformationOperator3DnonUniformImpl extends IfcCarte
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setScale2(double newScale2) {
         eSet(Ifc2x3tc1Package.Literals.IFC_CARTESIAN_TRANSFORMATION_OPERATOR3_DNON_UNIFORM__SCALE2, newScale2);
     }
@@ -82,6 +84,7 @@ public class IfcCartesianTransformationOperator3DnonUniformImpl extends IfcCarte
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void unsetScale2() {
         eUnset(Ifc2x3tc1Package.Literals.IFC_CARTESIAN_TRANSFORMATION_OPERATOR3_DNON_UNIFORM__SCALE2);
     }
@@ -91,6 +94,7 @@ public class IfcCartesianTransformationOperator3DnonUniformImpl extends IfcCarte
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public boolean isSetScale2() {
         return eIsSet(Ifc2x3tc1Package.Literals.IFC_CARTESIAN_TRANSFORMATION_OPERATOR3_DNON_UNIFORM__SCALE2);
     }
@@ -100,6 +104,7 @@ public class IfcCartesianTransformationOperator3DnonUniformImpl extends IfcCarte
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public String getScale2AsString() {
         return (String) eGet(
                 Ifc2x3tc1Package.Literals.IFC_CARTESIAN_TRANSFORMATION_OPERATOR3_DNON_UNIFORM__SCALE2_AS_STRING, true);
@@ -110,6 +115,7 @@ public class IfcCartesianTransformationOperator3DnonUniformImpl extends IfcCarte
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setScale2AsString(String newScale2AsString) {
         eSet(Ifc2x3tc1Package.Literals.IFC_CARTESIAN_TRANSFORMATION_OPERATOR3_DNON_UNIFORM__SCALE2_AS_STRING,
                 newScale2AsString);
@@ -120,6 +126,7 @@ public class IfcCartesianTransformationOperator3DnonUniformImpl extends IfcCarte
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void unsetScale2AsString() {
         eUnset(Ifc2x3tc1Package.Literals.IFC_CARTESIAN_TRANSFORMATION_OPERATOR3_DNON_UNIFORM__SCALE2_AS_STRING);
     }
@@ -129,6 +136,7 @@ public class IfcCartesianTransformationOperator3DnonUniformImpl extends IfcCarte
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public boolean isSetScale2AsString() {
         return eIsSet(Ifc2x3tc1Package.Literals.IFC_CARTESIAN_TRANSFORMATION_OPERATOR3_DNON_UNIFORM__SCALE2_AS_STRING);
     }
@@ -138,6 +146,7 @@ public class IfcCartesianTransformationOperator3DnonUniformImpl extends IfcCarte
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public double getScale3() {
         return (Double) eGet(Ifc2x3tc1Package.Literals.IFC_CARTESIAN_TRANSFORMATION_OPERATOR3_DNON_UNIFORM__SCALE3,
                 true);
@@ -148,6 +157,7 @@ public class IfcCartesianTransformationOperator3DnonUniformImpl extends IfcCarte
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setScale3(double newScale3) {
         eSet(Ifc2x3tc1Package.Literals.IFC_CARTESIAN_TRANSFORMATION_OPERATOR3_DNON_UNIFORM__SCALE3, newScale3);
     }
@@ -157,6 +167,7 @@ public class IfcCartesianTransformationOperator3DnonUniformImpl extends IfcCarte
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void unsetScale3() {
         eUnset(Ifc2x3tc1Package.Literals.IFC_CARTESIAN_TRANSFORMATION_OPERATOR3_DNON_UNIFORM__SCALE3);
     }
@@ -166,6 +177,7 @@ public class IfcCartesianTransformationOperator3DnonUniformImpl extends IfcCarte
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public boolean isSetScale3() {
         return eIsSet(Ifc2x3tc1Package.Literals.IFC_CARTESIAN_TRANSFORMATION_OPERATOR3_DNON_UNIFORM__SCALE3);
     }
@@ -175,6 +187,7 @@ public class IfcCartesianTransformationOperator3DnonUniformImpl extends IfcCarte
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public String getScale3AsString() {
         return (String) eGet(
                 Ifc2x3tc1Package.Literals.IFC_CARTESIAN_TRANSFORMATION_OPERATOR3_DNON_UNIFORM__SCALE3_AS_STRING, true);
@@ -185,6 +198,7 @@ public class IfcCartesianTransformationOperator3DnonUniformImpl extends IfcCarte
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setScale3AsString(String newScale3AsString) {
         eSet(Ifc2x3tc1Package.Literals.IFC_CARTESIAN_TRANSFORMATION_OPERATOR3_DNON_UNIFORM__SCALE3_AS_STRING,
                 newScale3AsString);
@@ -195,6 +209,7 @@ public class IfcCartesianTransformationOperator3DnonUniformImpl extends IfcCarte
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void unsetScale3AsString() {
         eUnset(Ifc2x3tc1Package.Literals.IFC_CARTESIAN_TRANSFORMATION_OPERATOR3_DNON_UNIFORM__SCALE3_AS_STRING);
     }
@@ -204,6 +219,7 @@ public class IfcCartesianTransformationOperator3DnonUniformImpl extends IfcCarte
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public boolean isSetScale3AsString() {
         return eIsSet(Ifc2x3tc1Package.Literals.IFC_CARTESIAN_TRANSFORMATION_OPERATOR3_DNON_UNIFORM__SCALE3_AS_STRING);
     }

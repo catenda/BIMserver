@@ -295,7 +295,7 @@ public interface User extends IdEObject {
      * @return the value of the '<em>Username</em>' attribute.
      * @see #setUsername(String)
      * @see org.bimserver.models.store.StorePackage#getUser_Username()
-     * @model
+     * @model annotation="unique"
      * @generated
      */
     String getUsername();

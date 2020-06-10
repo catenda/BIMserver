@@ -74,6 +74,7 @@ public interface IfcElementarySurface extends IfcSurface {
      * @see #setDim(long)
      * @see org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package#getIfcElementarySurface_Dim()
      * @model unsettable="true" derived="true"
+     *        annotation="derived"
      * @generated
      */
     long getDim();

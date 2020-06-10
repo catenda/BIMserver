@@ -67,6 +67,7 @@ public class IfcProductsOfCombustionPropertiesImpl extends IfcMaterialProperties
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public double getSpecificHeatCapacity() {
         return (Double) eGet(Ifc2x3tc1Package.Literals.IFC_PRODUCTS_OF_COMBUSTION_PROPERTIES__SPECIFIC_HEAT_CAPACITY,
                 true);
@@ -77,6 +78,7 @@ public class IfcProductsOfCombustionPropertiesImpl extends IfcMaterialProperties
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setSpecificHeatCapacity(double newSpecificHeatCapacity) {
         eSet(Ifc2x3tc1Package.Literals.IFC_PRODUCTS_OF_COMBUSTION_PROPERTIES__SPECIFIC_HEAT_CAPACITY,
                 newSpecificHeatCapacity);
@@ -87,6 +89,7 @@ public class IfcProductsOfCombustionPropertiesImpl extends IfcMaterialProperties
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void unsetSpecificHeatCapacity() {
         eUnset(Ifc2x3tc1Package.Literals.IFC_PRODUCTS_OF_COMBUSTION_PROPERTIES__SPECIFIC_HEAT_CAPACITY);
     }
@@ -96,6 +99,7 @@ public class IfcProductsOfCombustionPropertiesImpl extends IfcMaterialProperties
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public boolean isSetSpecificHeatCapacity() {
         return eIsSet(Ifc2x3tc1Package.Literals.IFC_PRODUCTS_OF_COMBUSTION_PROPERTIES__SPECIFIC_HEAT_CAPACITY);
     }
@@ -105,6 +109,7 @@ public class IfcProductsOfCombustionPropertiesImpl extends IfcMaterialProperties
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public String getSpecificHeatCapacityAsString() {
         return (String) eGet(
                 Ifc2x3tc1Package.Literals.IFC_PRODUCTS_OF_COMBUSTION_PROPERTIES__SPECIFIC_HEAT_CAPACITY_AS_STRING,
@@ -116,6 +121,7 @@ public class IfcProductsOfCombustionPropertiesImpl extends IfcMaterialProperties
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setSpecificHeatCapacityAsString(String newSpecificHeatCapacityAsString) {
         eSet(Ifc2x3tc1Package.Literals.IFC_PRODUCTS_OF_COMBUSTION_PROPERTIES__SPECIFIC_HEAT_CAPACITY_AS_STRING,
                 newSpecificHeatCapacityAsString);
@@ -126,6 +132,7 @@ public class IfcProductsOfCombustionPropertiesImpl extends IfcMaterialProperties
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void unsetSpecificHeatCapacityAsString() {
         eUnset(Ifc2x3tc1Package.Literals.IFC_PRODUCTS_OF_COMBUSTION_PROPERTIES__SPECIFIC_HEAT_CAPACITY_AS_STRING);
     }
@@ -135,6 +142,7 @@ public class IfcProductsOfCombustionPropertiesImpl extends IfcMaterialProperties
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public boolean isSetSpecificHeatCapacityAsString() {
         return eIsSet(
                 Ifc2x3tc1Package.Literals.IFC_PRODUCTS_OF_COMBUSTION_PROPERTIES__SPECIFIC_HEAT_CAPACITY_AS_STRING);
@@ -145,6 +153,7 @@ public class IfcProductsOfCombustionPropertiesImpl extends IfcMaterialProperties
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public double getN20Content() {
         return (Double) eGet(Ifc2x3tc1Package.Literals.IFC_PRODUCTS_OF_COMBUSTION_PROPERTIES__N20_CONTENT, true);
     }
@@ -154,6 +163,7 @@ public class IfcProductsOfCombustionPropertiesImpl extends IfcMaterialProperties
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setN20Content(double newN20Content) {
         eSet(Ifc2x3tc1Package.Literals.IFC_PRODUCTS_OF_COMBUSTION_PROPERTIES__N20_CONTENT, newN20Content);
     }
@@ -163,6 +173,7 @@ public class IfcProductsOfCombustionPropertiesImpl extends IfcMaterialProperties
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void unsetN20Content() {
         eUnset(Ifc2x3tc1Package.Literals.IFC_PRODUCTS_OF_COMBUSTION_PROPERTIES__N20_CONTENT);
     }
@@ -172,6 +183,7 @@ public class IfcProductsOfCombustionPropertiesImpl extends IfcMaterialProperties
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public boolean isSetN20Content() {
         return eIsSet(Ifc2x3tc1Package.Literals.IFC_PRODUCTS_OF_COMBUSTION_PROPERTIES__N20_CONTENT);
     }
@@ -181,6 +193,7 @@ public class IfcProductsOfCombustionPropertiesImpl extends IfcMaterialProperties
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public String getN20ContentAsString() {
         return (String) eGet(Ifc2x3tc1Package.Literals.IFC_PRODUCTS_OF_COMBUSTION_PROPERTIES__N20_CONTENT_AS_STRING,
                 true);
@@ -191,6 +204,7 @@ public class IfcProductsOfCombustionPropertiesImpl extends IfcMaterialProperties
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setN20ContentAsString(String newN20ContentAsString) {
         eSet(Ifc2x3tc1Package.Literals.IFC_PRODUCTS_OF_COMBUSTION_PROPERTIES__N20_CONTENT_AS_STRING,
                 newN20ContentAsString);
@@ -201,6 +215,7 @@ public class IfcProductsOfCombustionPropertiesImpl extends IfcMaterialProperties
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void unsetN20ContentAsString() {
         eUnset(Ifc2x3tc1Package.Literals.IFC_PRODUCTS_OF_COMBUSTION_PROPERTIES__N20_CONTENT_AS_STRING);
     }
@@ -210,6 +225,7 @@ public class IfcProductsOfCombustionPropertiesImpl extends IfcMaterialProperties
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public boolean isSetN20ContentAsString() {
         return eIsSet(Ifc2x3tc1Package.Literals.IFC_PRODUCTS_OF_COMBUSTION_PROPERTIES__N20_CONTENT_AS_STRING);
     }
@@ -219,6 +235,7 @@ public class IfcProductsOfCombustionPropertiesImpl extends IfcMaterialProperties
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public double getCOContent() {
         return (Double) eGet(Ifc2x3tc1Package.Literals.IFC_PRODUCTS_OF_COMBUSTION_PROPERTIES__CO_CONTENT, true);
     }
@@ -228,6 +245,7 @@ public class IfcProductsOfCombustionPropertiesImpl extends IfcMaterialProperties
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setCOContent(double newCOContent) {
         eSet(Ifc2x3tc1Package.Literals.IFC_PRODUCTS_OF_COMBUSTION_PROPERTIES__CO_CONTENT, newCOContent);
     }
@@ -237,6 +255,7 @@ public class IfcProductsOfCombustionPropertiesImpl extends IfcMaterialProperties
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void unsetCOContent() {
         eUnset(Ifc2x3tc1Package.Literals.IFC_PRODUCTS_OF_COMBUSTION_PROPERTIES__CO_CONTENT);
     }
@@ -246,6 +265,7 @@ public class IfcProductsOfCombustionPropertiesImpl extends IfcMaterialProperties
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public boolean isSetCOContent() {
         return eIsSet(Ifc2x3tc1Package.Literals.IFC_PRODUCTS_OF_COMBUSTION_PROPERTIES__CO_CONTENT);
     }
@@ -255,6 +275,7 @@ public class IfcProductsOfCombustionPropertiesImpl extends IfcMaterialProperties
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public String getCOContentAsString() {
         return (String) eGet(Ifc2x3tc1Package.Literals.IFC_PRODUCTS_OF_COMBUSTION_PROPERTIES__CO_CONTENT_AS_STRING,
                 true);
@@ -265,6 +286,7 @@ public class IfcProductsOfCombustionPropertiesImpl extends IfcMaterialProperties
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setCOContentAsString(String newCOContentAsString) {
         eSet(Ifc2x3tc1Package.Literals.IFC_PRODUCTS_OF_COMBUSTION_PROPERTIES__CO_CONTENT_AS_STRING,
                 newCOContentAsString);
@@ -275,6 +297,7 @@ public class IfcProductsOfCombustionPropertiesImpl extends IfcMaterialProperties
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void unsetCOContentAsString() {
         eUnset(Ifc2x3tc1Package.Literals.IFC_PRODUCTS_OF_COMBUSTION_PROPERTIES__CO_CONTENT_AS_STRING);
     }
@@ -284,6 +307,7 @@ public class IfcProductsOfCombustionPropertiesImpl extends IfcMaterialProperties
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public boolean isSetCOContentAsString() {
         return eIsSet(Ifc2x3tc1Package.Literals.IFC_PRODUCTS_OF_COMBUSTION_PROPERTIES__CO_CONTENT_AS_STRING);
     }
@@ -293,6 +317,7 @@ public class IfcProductsOfCombustionPropertiesImpl extends IfcMaterialProperties
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public double getCO2Content() {
         return (Double) eGet(Ifc2x3tc1Package.Literals.IFC_PRODUCTS_OF_COMBUSTION_PROPERTIES__CO2_CONTENT, true);
     }
@@ -302,6 +327,7 @@ public class IfcProductsOfCombustionPropertiesImpl extends IfcMaterialProperties
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setCO2Content(double newCO2Content) {
         eSet(Ifc2x3tc1Package.Literals.IFC_PRODUCTS_OF_COMBUSTION_PROPERTIES__CO2_CONTENT, newCO2Content);
     }
@@ -311,6 +337,7 @@ public class IfcProductsOfCombustionPropertiesImpl extends IfcMaterialProperties
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void unsetCO2Content() {
         eUnset(Ifc2x3tc1Package.Literals.IFC_PRODUCTS_OF_COMBUSTION_PROPERTIES__CO2_CONTENT);
     }
@@ -320,6 +347,7 @@ public class IfcProductsOfCombustionPropertiesImpl extends IfcMaterialProperties
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public boolean isSetCO2Content() {
         return eIsSet(Ifc2x3tc1Package.Literals.IFC_PRODUCTS_OF_COMBUSTION_PROPERTIES__CO2_CONTENT);
     }
@@ -329,6 +357,7 @@ public class IfcProductsOfCombustionPropertiesImpl extends IfcMaterialProperties
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public String getCO2ContentAsString() {
         return (String) eGet(Ifc2x3tc1Package.Literals.IFC_PRODUCTS_OF_COMBUSTION_PROPERTIES__CO2_CONTENT_AS_STRING,
                 true);
@@ -339,6 +368,7 @@ public class IfcProductsOfCombustionPropertiesImpl extends IfcMaterialProperties
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setCO2ContentAsString(String newCO2ContentAsString) {
         eSet(Ifc2x3tc1Package.Literals.IFC_PRODUCTS_OF_COMBUSTION_PROPERTIES__CO2_CONTENT_AS_STRING,
                 newCO2ContentAsString);
@@ -349,6 +379,7 @@ public class IfcProductsOfCombustionPropertiesImpl extends IfcMaterialProperties
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void unsetCO2ContentAsString() {
         eUnset(Ifc2x3tc1Package.Literals.IFC_PRODUCTS_OF_COMBUSTION_PROPERTIES__CO2_CONTENT_AS_STRING);
     }
@@ -358,6 +389,7 @@ public class IfcProductsOfCombustionPropertiesImpl extends IfcMaterialProperties
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public boolean isSetCO2ContentAsString() {
         return eIsSet(Ifc2x3tc1Package.Literals.IFC_PRODUCTS_OF_COMBUSTION_PROPERTIES__CO2_CONTENT_AS_STRING);
     }

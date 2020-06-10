@@ -60,6 +60,7 @@ public class IfcStructuralCurveMemberImpl extends IfcStructuralMemberImpl implem
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public IfcStructuralCurveTypeEnum getPredefinedType() {
         return (IfcStructuralCurveTypeEnum) eGet(Ifc2x3tc1Package.Literals.IFC_STRUCTURAL_CURVE_MEMBER__PREDEFINED_TYPE,
                 true);
@@ -70,6 +71,7 @@ public class IfcStructuralCurveMemberImpl extends IfcStructuralMemberImpl implem
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setPredefinedType(IfcStructuralCurveTypeEnum newPredefinedType) {
         eSet(Ifc2x3tc1Package.Literals.IFC_STRUCTURAL_CURVE_MEMBER__PREDEFINED_TYPE, newPredefinedType);
     }

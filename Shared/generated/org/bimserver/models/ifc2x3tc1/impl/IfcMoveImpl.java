@@ -64,6 +64,7 @@ public class IfcMoveImpl extends IfcTaskImpl implements IfcMove {
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public IfcSpatialStructureElement getMoveFrom() {
         return (IfcSpatialStructureElement) eGet(Ifc2x3tc1Package.Literals.IFC_MOVE__MOVE_FROM, true);
     }
@@ -73,6 +74,7 @@ public class IfcMoveImpl extends IfcTaskImpl implements IfcMove {
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setMoveFrom(IfcSpatialStructureElement newMoveFrom) {
         eSet(Ifc2x3tc1Package.Literals.IFC_MOVE__MOVE_FROM, newMoveFrom);
     }
@@ -82,6 +84,7 @@ public class IfcMoveImpl extends IfcTaskImpl implements IfcMove {
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public IfcSpatialStructureElement getMoveTo() {
         return (IfcSpatialStructureElement) eGet(Ifc2x3tc1Package.Literals.IFC_MOVE__MOVE_TO, true);
     }
@@ -91,6 +94,7 @@ public class IfcMoveImpl extends IfcTaskImpl implements IfcMove {
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setMoveTo(IfcSpatialStructureElement newMoveTo) {
         eSet(Ifc2x3tc1Package.Literals.IFC_MOVE__MOVE_TO, newMoveTo);
     }
@@ -101,6 +105,7 @@ public class IfcMoveImpl extends IfcTaskImpl implements IfcMove {
      * @generated
      */
     @SuppressWarnings("unchecked")
+    @Override
     public EList<String> getPunchList() {
         return (EList<String>) eGet(Ifc2x3tc1Package.Literals.IFC_MOVE__PUNCH_LIST, true);
     }
@@ -110,6 +115,7 @@ public class IfcMoveImpl extends IfcTaskImpl implements IfcMove {
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void unsetPunchList() {
         eUnset(Ifc2x3tc1Package.Literals.IFC_MOVE__PUNCH_LIST);
     }
@@ -119,6 +125,7 @@ public class IfcMoveImpl extends IfcTaskImpl implements IfcMove {
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public boolean isSetPunchList() {
         return eIsSet(Ifc2x3tc1Package.Literals.IFC_MOVE__PUNCH_LIST);
     }

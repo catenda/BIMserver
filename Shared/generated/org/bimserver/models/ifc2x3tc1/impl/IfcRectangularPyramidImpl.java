@@ -64,6 +64,7 @@ public class IfcRectangularPyramidImpl extends IfcCsgPrimitive3DImpl implements 
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public double getXLength() {
         return (Double) eGet(Ifc2x3tc1Package.Literals.IFC_RECTANGULAR_PYRAMID__XLENGTH, true);
     }
@@ -73,6 +74,7 @@ public class IfcRectangularPyramidImpl extends IfcCsgPrimitive3DImpl implements 
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setXLength(double newXLength) {
         eSet(Ifc2x3tc1Package.Literals.IFC_RECTANGULAR_PYRAMID__XLENGTH, newXLength);
     }
@@ -82,6 +84,7 @@ public class IfcRectangularPyramidImpl extends IfcCsgPrimitive3DImpl implements 
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public String getXLengthAsString() {
         return (String) eGet(Ifc2x3tc1Package.Literals.IFC_RECTANGULAR_PYRAMID__XLENGTH_AS_STRING, true);
     }
@@ -91,6 +94,7 @@ public class IfcRectangularPyramidImpl extends IfcCsgPrimitive3DImpl implements 
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setXLengthAsString(String newXLengthAsString) {
         eSet(Ifc2x3tc1Package.Literals.IFC_RECTANGULAR_PYRAMID__XLENGTH_AS_STRING, newXLengthAsString);
     }
@@ -100,6 +104,7 @@ public class IfcRectangularPyramidImpl extends IfcCsgPrimitive3DImpl implements 
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public double getYLength() {
         return (Double) eGet(Ifc2x3tc1Package.Literals.IFC_RECTANGULAR_PYRAMID__YLENGTH, true);
     }
@@ -109,6 +114,7 @@ public class IfcRectangularPyramidImpl extends IfcCsgPrimitive3DImpl implements 
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setYLength(double newYLength) {
         eSet(Ifc2x3tc1Package.Literals.IFC_RECTANGULAR_PYRAMID__YLENGTH, newYLength);
     }
@@ -118,6 +124,7 @@ public class IfcRectangularPyramidImpl extends IfcCsgPrimitive3DImpl implements 
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public String getYLengthAsString() {
         return (String) eGet(Ifc2x3tc1Package.Literals.IFC_RECTANGULAR_PYRAMID__YLENGTH_AS_STRING, true);
     }
@@ -127,6 +134,7 @@ public class IfcRectangularPyramidImpl extends IfcCsgPrimitive3DImpl implements 
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setYLengthAsString(String newYLengthAsString) {
         eSet(Ifc2x3tc1Package.Literals.IFC_RECTANGULAR_PYRAMID__YLENGTH_AS_STRING, newYLengthAsString);
     }
@@ -136,6 +144,7 @@ public class IfcRectangularPyramidImpl extends IfcCsgPrimitive3DImpl implements 
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public double getHeight() {
         return (Double) eGet(Ifc2x3tc1Package.Literals.IFC_RECTANGULAR_PYRAMID__HEIGHT, true);
     }
@@ -145,6 +154,7 @@ public class IfcRectangularPyramidImpl extends IfcCsgPrimitive3DImpl implements 
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setHeight(double newHeight) {
         eSet(Ifc2x3tc1Package.Literals.IFC_RECTANGULAR_PYRAMID__HEIGHT, newHeight);
     }
@@ -154,6 +164,7 @@ public class IfcRectangularPyramidImpl extends IfcCsgPrimitive3DImpl implements 
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public String getHeightAsString() {
         return (String) eGet(Ifc2x3tc1Package.Literals.IFC_RECTANGULAR_PYRAMID__HEIGHT_AS_STRING, true);
     }
@@ -163,6 +174,7 @@ public class IfcRectangularPyramidImpl extends IfcCsgPrimitive3DImpl implements 
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setHeightAsString(String newHeightAsString) {
         eSet(Ifc2x3tc1Package.Literals.IFC_RECTANGULAR_PYRAMID__HEIGHT_AS_STRING, newHeightAsString);
     }

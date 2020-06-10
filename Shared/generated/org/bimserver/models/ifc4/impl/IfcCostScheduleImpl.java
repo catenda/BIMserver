@@ -63,6 +63,7 @@ public class IfcCostScheduleImpl extends IfcControlImpl implements IfcCostSchedu
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public IfcCostScheduleTypeEnum getPredefinedType() {
         return (IfcCostScheduleTypeEnum) eGet(Ifc4Package.Literals.IFC_COST_SCHEDULE__PREDEFINED_TYPE, true);
     }
@@ -72,6 +73,7 @@ public class IfcCostScheduleImpl extends IfcControlImpl implements IfcCostSchedu
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setPredefinedType(IfcCostScheduleTypeEnum newPredefinedType) {
         eSet(Ifc4Package.Literals.IFC_COST_SCHEDULE__PREDEFINED_TYPE, newPredefinedType);
     }
@@ -81,6 +83,7 @@ public class IfcCostScheduleImpl extends IfcControlImpl implements IfcCostSchedu
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void unsetPredefinedType() {
         eUnset(Ifc4Package.Literals.IFC_COST_SCHEDULE__PREDEFINED_TYPE);
     }
@@ -90,6 +93,7 @@ public class IfcCostScheduleImpl extends IfcControlImpl implements IfcCostSchedu
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public boolean isSetPredefinedType() {
         return eIsSet(Ifc4Package.Literals.IFC_COST_SCHEDULE__PREDEFINED_TYPE);
     }
@@ -99,6 +103,7 @@ public class IfcCostScheduleImpl extends IfcControlImpl implements IfcCostSchedu
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public String getStatus() {
         return (String) eGet(Ifc4Package.Literals.IFC_COST_SCHEDULE__STATUS, true);
     }
@@ -108,6 +113,7 @@ public class IfcCostScheduleImpl extends IfcControlImpl implements IfcCostSchedu
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setStatus(String newStatus) {
         eSet(Ifc4Package.Literals.IFC_COST_SCHEDULE__STATUS, newStatus);
     }
@@ -117,6 +123,7 @@ public class IfcCostScheduleImpl extends IfcControlImpl implements IfcCostSchedu
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void unsetStatus() {
         eUnset(Ifc4Package.Literals.IFC_COST_SCHEDULE__STATUS);
     }
@@ -126,6 +133,7 @@ public class IfcCostScheduleImpl extends IfcControlImpl implements IfcCostSchedu
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public boolean isSetStatus() {
         return eIsSet(Ifc4Package.Literals.IFC_COST_SCHEDULE__STATUS);
     }
@@ -135,6 +143,7 @@ public class IfcCostScheduleImpl extends IfcControlImpl implements IfcCostSchedu
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public String getSubmittedOn() {
         return (String) eGet(Ifc4Package.Literals.IFC_COST_SCHEDULE__SUBMITTED_ON, true);
     }
@@ -144,6 +153,7 @@ public class IfcCostScheduleImpl extends IfcControlImpl implements IfcCostSchedu
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setSubmittedOn(String newSubmittedOn) {
         eSet(Ifc4Package.Literals.IFC_COST_SCHEDULE__SUBMITTED_ON, newSubmittedOn);
     }
@@ -153,6 +163,7 @@ public class IfcCostScheduleImpl extends IfcControlImpl implements IfcCostSchedu
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void unsetSubmittedOn() {
         eUnset(Ifc4Package.Literals.IFC_COST_SCHEDULE__SUBMITTED_ON);
     }
@@ -162,6 +173,7 @@ public class IfcCostScheduleImpl extends IfcControlImpl implements IfcCostSchedu
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public boolean isSetSubmittedOn() {
         return eIsSet(Ifc4Package.Literals.IFC_COST_SCHEDULE__SUBMITTED_ON);
     }
@@ -171,6 +183,7 @@ public class IfcCostScheduleImpl extends IfcControlImpl implements IfcCostSchedu
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public String getUpdateDate() {
         return (String) eGet(Ifc4Package.Literals.IFC_COST_SCHEDULE__UPDATE_DATE, true);
     }
@@ -180,6 +193,7 @@ public class IfcCostScheduleImpl extends IfcControlImpl implements IfcCostSchedu
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setUpdateDate(String newUpdateDate) {
         eSet(Ifc4Package.Literals.IFC_COST_SCHEDULE__UPDATE_DATE, newUpdateDate);
     }
@@ -189,6 +203,7 @@ public class IfcCostScheduleImpl extends IfcControlImpl implements IfcCostSchedu
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void unsetUpdateDate() {
         eUnset(Ifc4Package.Literals.IFC_COST_SCHEDULE__UPDATE_DATE);
     }
@@ -198,6 +213,7 @@ public class IfcCostScheduleImpl extends IfcControlImpl implements IfcCostSchedu
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public boolean isSetUpdateDate() {
         return eIsSet(Ifc4Package.Literals.IFC_COST_SCHEDULE__UPDATE_DATE);
     }

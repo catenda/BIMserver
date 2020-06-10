@@ -109,6 +109,8 @@ public interface IfcHygroscopicMaterialProperties extends IfcMaterialProperties 
      * @see #setUpperVaporResistanceFactorAsString(String)
      * @see org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package#getIfcHygroscopicMaterialProperties_UpperVaporResistanceFactorAsString()
      * @model unsettable="true"
+     *        annotation="asstring"
+     *        annotation="hidden"
      * @generated
      */
     String getUpperVaporResistanceFactorAsString();
@@ -215,6 +217,8 @@ public interface IfcHygroscopicMaterialProperties extends IfcMaterialProperties 
      * @see #setLowerVaporResistanceFactorAsString(String)
      * @see org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package#getIfcHygroscopicMaterialProperties_LowerVaporResistanceFactorAsString()
      * @model unsettable="true"
+     *        annotation="asstring"
+     *        annotation="hidden"
      * @generated
      */
     String getLowerVaporResistanceFactorAsString();
@@ -321,6 +325,8 @@ public interface IfcHygroscopicMaterialProperties extends IfcMaterialProperties 
      * @see #setIsothermalMoistureCapacityAsString(String)
      * @see org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package#getIfcHygroscopicMaterialProperties_IsothermalMoistureCapacityAsString()
      * @model unsettable="true"
+     *        annotation="asstring"
+     *        annotation="hidden"
      * @generated
      */
     String getIsothermalMoistureCapacityAsString();
@@ -427,6 +433,8 @@ public interface IfcHygroscopicMaterialProperties extends IfcMaterialProperties 
      * @see #setVaporPermeabilityAsString(String)
      * @see org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package#getIfcHygroscopicMaterialProperties_VaporPermeabilityAsString()
      * @model unsettable="true"
+     *        annotation="asstring"
+     *        annotation="hidden"
      * @generated
      */
     String getVaporPermeabilityAsString();
@@ -533,6 +541,8 @@ public interface IfcHygroscopicMaterialProperties extends IfcMaterialProperties 
      * @see #setMoistureDiffusivityAsString(String)
      * @see org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package#getIfcHygroscopicMaterialProperties_MoistureDiffusivityAsString()
      * @model unsettable="true"
+     *        annotation="asstring"
+     *        annotation="hidden"
      * @generated
      */
     String getMoistureDiffusivityAsString();

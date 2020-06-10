@@ -61,6 +61,7 @@ public class IfcReparametrisedCompositeCurveSegmentImpl extends IfcCompositeCurv
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public double getParamLength() {
         return (Double) eGet(Ifc4Package.Literals.IFC_REPARAMETRISED_COMPOSITE_CURVE_SEGMENT__PARAM_LENGTH, true);
     }
@@ -70,6 +71,7 @@ public class IfcReparametrisedCompositeCurveSegmentImpl extends IfcCompositeCurv
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setParamLength(double newParamLength) {
         eSet(Ifc4Package.Literals.IFC_REPARAMETRISED_COMPOSITE_CURVE_SEGMENT__PARAM_LENGTH, newParamLength);
     }
@@ -79,6 +81,7 @@ public class IfcReparametrisedCompositeCurveSegmentImpl extends IfcCompositeCurv
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public String getParamLengthAsString() {
         return (String) eGet(Ifc4Package.Literals.IFC_REPARAMETRISED_COMPOSITE_CURVE_SEGMENT__PARAM_LENGTH_AS_STRING,
                 true);
@@ -89,6 +92,7 @@ public class IfcReparametrisedCompositeCurveSegmentImpl extends IfcCompositeCurv
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setParamLengthAsString(String newParamLengthAsString) {
         eSet(Ifc4Package.Literals.IFC_REPARAMETRISED_COMPOSITE_CURVE_SEGMENT__PARAM_LENGTH_AS_STRING,
                 newParamLengthAsString);

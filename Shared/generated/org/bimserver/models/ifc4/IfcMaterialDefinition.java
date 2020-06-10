@@ -51,6 +51,7 @@ public interface IfcMaterialDefinition extends IfcMaterialSelect, IfcObjectRefer
      * @see #unsetAssociatedTo()
      * @see org.bimserver.models.ifc4.Ifc4Package#getIfcMaterialDefinition_AssociatedTo()
      * @model unsettable="true"
+     *        annotation="inverse"
      * @generated
      */
     EList<IfcRelAssociatesMaterial> getAssociatedTo();
@@ -90,6 +91,7 @@ public interface IfcMaterialDefinition extends IfcMaterialSelect, IfcObjectRefer
      * @see #unsetHasExternalReferences()
      * @see org.bimserver.models.ifc4.Ifc4Package#getIfcMaterialDefinition_HasExternalReferences()
      * @model unsettable="true"
+     *        annotation="inverse"
      * @generated
      */
     EList<IfcExternalReferenceRelationship> getHasExternalReferences();
@@ -131,6 +133,7 @@ public interface IfcMaterialDefinition extends IfcMaterialSelect, IfcObjectRefer
      * @see org.bimserver.models.ifc4.Ifc4Package#getIfcMaterialDefinition_HasProperties()
      * @see org.bimserver.models.ifc4.IfcMaterialProperties#getMaterial
      * @model opposite="Material" unsettable="true"
+     *        annotation="inverse"
      * @generated
      */
     EList<IfcMaterialProperties> getHasProperties();

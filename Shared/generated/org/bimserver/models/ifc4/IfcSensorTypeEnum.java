@@ -853,6 +853,7 @@ public enum IfcSensorTypeEnum implements Enumerator {
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public int getValue() {
         return value;
     }
@@ -862,6 +863,7 @@ public enum IfcSensorTypeEnum implements Enumerator {
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public String getName() {
         return name;
     }
@@ -871,6 +873,7 @@ public enum IfcSensorTypeEnum implements Enumerator {
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public String getLiteral() {
         return literal;
     }

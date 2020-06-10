@@ -23,7 +23,7 @@ package org.bimserver.models.ifc2x3tc1;
  *
  *
  * @see org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package#getIfcPositivePlaneAngleMeasure()
- * @model
+ * @model annotation="wrapped"
  * @generated
  */
 public interface IfcPositivePlaneAngleMeasure extends IfcPlaneAngleMeasure, IfcMeasureValue {

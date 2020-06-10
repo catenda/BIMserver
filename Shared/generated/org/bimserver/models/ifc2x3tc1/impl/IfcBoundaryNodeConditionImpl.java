@@ -70,6 +70,7 @@ public class IfcBoundaryNodeConditionImpl extends IfcBoundaryConditionImpl imple
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public double getLinearStiffnessX() {
         return (Double) eGet(Ifc2x3tc1Package.Literals.IFC_BOUNDARY_NODE_CONDITION__LINEAR_STIFFNESS_X, true);
     }
@@ -79,6 +80,7 @@ public class IfcBoundaryNodeConditionImpl extends IfcBoundaryConditionImpl imple
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setLinearStiffnessX(double newLinearStiffnessX) {
         eSet(Ifc2x3tc1Package.Literals.IFC_BOUNDARY_NODE_CONDITION__LINEAR_STIFFNESS_X, newLinearStiffnessX);
     }
@@ -88,6 +90,7 @@ public class IfcBoundaryNodeConditionImpl extends IfcBoundaryConditionImpl imple
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void unsetLinearStiffnessX() {
         eUnset(Ifc2x3tc1Package.Literals.IFC_BOUNDARY_NODE_CONDITION__LINEAR_STIFFNESS_X);
     }
@@ -97,6 +100,7 @@ public class IfcBoundaryNodeConditionImpl extends IfcBoundaryConditionImpl imple
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public boolean isSetLinearStiffnessX() {
         return eIsSet(Ifc2x3tc1Package.Literals.IFC_BOUNDARY_NODE_CONDITION__LINEAR_STIFFNESS_X);
     }
@@ -106,6 +110,7 @@ public class IfcBoundaryNodeConditionImpl extends IfcBoundaryConditionImpl imple
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public String getLinearStiffnessXAsString() {
         return (String) eGet(Ifc2x3tc1Package.Literals.IFC_BOUNDARY_NODE_CONDITION__LINEAR_STIFFNESS_XAS_STRING, true);
     }
@@ -115,6 +120,7 @@ public class IfcBoundaryNodeConditionImpl extends IfcBoundaryConditionImpl imple
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setLinearStiffnessXAsString(String newLinearStiffnessXAsString) {
         eSet(Ifc2x3tc1Package.Literals.IFC_BOUNDARY_NODE_CONDITION__LINEAR_STIFFNESS_XAS_STRING,
                 newLinearStiffnessXAsString);
@@ -125,6 +131,7 @@ public class IfcBoundaryNodeConditionImpl extends IfcBoundaryConditionImpl imple
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void unsetLinearStiffnessXAsString() {
         eUnset(Ifc2x3tc1Package.Literals.IFC_BOUNDARY_NODE_CONDITION__LINEAR_STIFFNESS_XAS_STRING);
     }
@@ -134,6 +141,7 @@ public class IfcBoundaryNodeConditionImpl extends IfcBoundaryConditionImpl imple
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public boolean isSetLinearStiffnessXAsString() {
         return eIsSet(Ifc2x3tc1Package.Literals.IFC_BOUNDARY_NODE_CONDITION__LINEAR_STIFFNESS_XAS_STRING);
     }
@@ -143,6 +151,7 @@ public class IfcBoundaryNodeConditionImpl extends IfcBoundaryConditionImpl imple
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public double getLinearStiffnessY() {
         return (Double) eGet(Ifc2x3tc1Package.Literals.IFC_BOUNDARY_NODE_CONDITION__LINEAR_STIFFNESS_Y, true);
     }
@@ -152,6 +161,7 @@ public class IfcBoundaryNodeConditionImpl extends IfcBoundaryConditionImpl imple
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setLinearStiffnessY(double newLinearStiffnessY) {
         eSet(Ifc2x3tc1Package.Literals.IFC_BOUNDARY_NODE_CONDITION__LINEAR_STIFFNESS_Y, newLinearStiffnessY);
     }
@@ -161,6 +171,7 @@ public class IfcBoundaryNodeConditionImpl extends IfcBoundaryConditionImpl imple
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void unsetLinearStiffnessY() {
         eUnset(Ifc2x3tc1Package.Literals.IFC_BOUNDARY_NODE_CONDITION__LINEAR_STIFFNESS_Y);
     }
@@ -170,6 +181,7 @@ public class IfcBoundaryNodeConditionImpl extends IfcBoundaryConditionImpl imple
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public boolean isSetLinearStiffnessY() {
         return eIsSet(Ifc2x3tc1Package.Literals.IFC_BOUNDARY_NODE_CONDITION__LINEAR_STIFFNESS_Y);
     }
@@ -179,6 +191,7 @@ public class IfcBoundaryNodeConditionImpl extends IfcBoundaryConditionImpl imple
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public String getLinearStiffnessYAsString() {
         return (String) eGet(Ifc2x3tc1Package.Literals.IFC_BOUNDARY_NODE_CONDITION__LINEAR_STIFFNESS_YAS_STRING, true);
     }
@@ -188,6 +201,7 @@ public class IfcBoundaryNodeConditionImpl extends IfcBoundaryConditionImpl imple
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setLinearStiffnessYAsString(String newLinearStiffnessYAsString) {
         eSet(Ifc2x3tc1Package.Literals.IFC_BOUNDARY_NODE_CONDITION__LINEAR_STIFFNESS_YAS_STRING,
                 newLinearStiffnessYAsString);
@@ -198,6 +212,7 @@ public class IfcBoundaryNodeConditionImpl extends IfcBoundaryConditionImpl imple
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void unsetLinearStiffnessYAsString() {
         eUnset(Ifc2x3tc1Package.Literals.IFC_BOUNDARY_NODE_CONDITION__LINEAR_STIFFNESS_YAS_STRING);
     }
@@ -207,6 +222,7 @@ public class IfcBoundaryNodeConditionImpl extends IfcBoundaryConditionImpl imple
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public boolean isSetLinearStiffnessYAsString() {
         return eIsSet(Ifc2x3tc1Package.Literals.IFC_BOUNDARY_NODE_CONDITION__LINEAR_STIFFNESS_YAS_STRING);
     }
@@ -216,6 +232,7 @@ public class IfcBoundaryNodeConditionImpl extends IfcBoundaryConditionImpl imple
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public double getLinearStiffnessZ() {
         return (Double) eGet(Ifc2x3tc1Package.Literals.IFC_BOUNDARY_NODE_CONDITION__LINEAR_STIFFNESS_Z, true);
     }
@@ -225,6 +242,7 @@ public class IfcBoundaryNodeConditionImpl extends IfcBoundaryConditionImpl imple
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setLinearStiffnessZ(double newLinearStiffnessZ) {
         eSet(Ifc2x3tc1Package.Literals.IFC_BOUNDARY_NODE_CONDITION__LINEAR_STIFFNESS_Z, newLinearStiffnessZ);
     }
@@ -234,6 +252,7 @@ public class IfcBoundaryNodeConditionImpl extends IfcBoundaryConditionImpl imple
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void unsetLinearStiffnessZ() {
         eUnset(Ifc2x3tc1Package.Literals.IFC_BOUNDARY_NODE_CONDITION__LINEAR_STIFFNESS_Z);
     }
@@ -243,6 +262,7 @@ public class IfcBoundaryNodeConditionImpl extends IfcBoundaryConditionImpl imple
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public boolean isSetLinearStiffnessZ() {
         return eIsSet(Ifc2x3tc1Package.Literals.IFC_BOUNDARY_NODE_CONDITION__LINEAR_STIFFNESS_Z);
     }
@@ -252,6 +272,7 @@ public class IfcBoundaryNodeConditionImpl extends IfcBoundaryConditionImpl imple
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public String getLinearStiffnessZAsString() {
         return (String) eGet(Ifc2x3tc1Package.Literals.IFC_BOUNDARY_NODE_CONDITION__LINEAR_STIFFNESS_ZAS_STRING, true);
     }
@@ -261,6 +282,7 @@ public class IfcBoundaryNodeConditionImpl extends IfcBoundaryConditionImpl imple
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setLinearStiffnessZAsString(String newLinearStiffnessZAsString) {
         eSet(Ifc2x3tc1Package.Literals.IFC_BOUNDARY_NODE_CONDITION__LINEAR_STIFFNESS_ZAS_STRING,
                 newLinearStiffnessZAsString);
@@ -271,6 +293,7 @@ public class IfcBoundaryNodeConditionImpl extends IfcBoundaryConditionImpl imple
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void unsetLinearStiffnessZAsString() {
         eUnset(Ifc2x3tc1Package.Literals.IFC_BOUNDARY_NODE_CONDITION__LINEAR_STIFFNESS_ZAS_STRING);
     }
@@ -280,6 +303,7 @@ public class IfcBoundaryNodeConditionImpl extends IfcBoundaryConditionImpl imple
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public boolean isSetLinearStiffnessZAsString() {
         return eIsSet(Ifc2x3tc1Package.Literals.IFC_BOUNDARY_NODE_CONDITION__LINEAR_STIFFNESS_ZAS_STRING);
     }
@@ -289,6 +313,7 @@ public class IfcBoundaryNodeConditionImpl extends IfcBoundaryConditionImpl imple
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public double getRotationalStiffnessX() {
         return (Double) eGet(Ifc2x3tc1Package.Literals.IFC_BOUNDARY_NODE_CONDITION__ROTATIONAL_STIFFNESS_X, true);
     }
@@ -298,6 +323,7 @@ public class IfcBoundaryNodeConditionImpl extends IfcBoundaryConditionImpl imple
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setRotationalStiffnessX(double newRotationalStiffnessX) {
         eSet(Ifc2x3tc1Package.Literals.IFC_BOUNDARY_NODE_CONDITION__ROTATIONAL_STIFFNESS_X, newRotationalStiffnessX);
     }
@@ -307,6 +333,7 @@ public class IfcBoundaryNodeConditionImpl extends IfcBoundaryConditionImpl imple
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void unsetRotationalStiffnessX() {
         eUnset(Ifc2x3tc1Package.Literals.IFC_BOUNDARY_NODE_CONDITION__ROTATIONAL_STIFFNESS_X);
     }
@@ -316,6 +343,7 @@ public class IfcBoundaryNodeConditionImpl extends IfcBoundaryConditionImpl imple
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public boolean isSetRotationalStiffnessX() {
         return eIsSet(Ifc2x3tc1Package.Literals.IFC_BOUNDARY_NODE_CONDITION__ROTATIONAL_STIFFNESS_X);
     }
@@ -325,6 +353,7 @@ public class IfcBoundaryNodeConditionImpl extends IfcBoundaryConditionImpl imple
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public String getRotationalStiffnessXAsString() {
         return (String) eGet(Ifc2x3tc1Package.Literals.IFC_BOUNDARY_NODE_CONDITION__ROTATIONAL_STIFFNESS_XAS_STRING,
                 true);
@@ -335,6 +364,7 @@ public class IfcBoundaryNodeConditionImpl extends IfcBoundaryConditionImpl imple
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setRotationalStiffnessXAsString(String newRotationalStiffnessXAsString) {
         eSet(Ifc2x3tc1Package.Literals.IFC_BOUNDARY_NODE_CONDITION__ROTATIONAL_STIFFNESS_XAS_STRING,
                 newRotationalStiffnessXAsString);
@@ -345,6 +375,7 @@ public class IfcBoundaryNodeConditionImpl extends IfcBoundaryConditionImpl imple
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void unsetRotationalStiffnessXAsString() {
         eUnset(Ifc2x3tc1Package.Literals.IFC_BOUNDARY_NODE_CONDITION__ROTATIONAL_STIFFNESS_XAS_STRING);
     }
@@ -354,6 +385,7 @@ public class IfcBoundaryNodeConditionImpl extends IfcBoundaryConditionImpl imple
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public boolean isSetRotationalStiffnessXAsString() {
         return eIsSet(Ifc2x3tc1Package.Literals.IFC_BOUNDARY_NODE_CONDITION__ROTATIONAL_STIFFNESS_XAS_STRING);
     }
@@ -363,6 +395,7 @@ public class IfcBoundaryNodeConditionImpl extends IfcBoundaryConditionImpl imple
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public double getRotationalStiffnessY() {
         return (Double) eGet(Ifc2x3tc1Package.Literals.IFC_BOUNDARY_NODE_CONDITION__ROTATIONAL_STIFFNESS_Y, true);
     }
@@ -372,6 +405,7 @@ public class IfcBoundaryNodeConditionImpl extends IfcBoundaryConditionImpl imple
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setRotationalStiffnessY(double newRotationalStiffnessY) {
         eSet(Ifc2x3tc1Package.Literals.IFC_BOUNDARY_NODE_CONDITION__ROTATIONAL_STIFFNESS_Y, newRotationalStiffnessY);
     }
@@ -381,6 +415,7 @@ public class IfcBoundaryNodeConditionImpl extends IfcBoundaryConditionImpl imple
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void unsetRotationalStiffnessY() {
         eUnset(Ifc2x3tc1Package.Literals.IFC_BOUNDARY_NODE_CONDITION__ROTATIONAL_STIFFNESS_Y);
     }
@@ -390,6 +425,7 @@ public class IfcBoundaryNodeConditionImpl extends IfcBoundaryConditionImpl imple
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public boolean isSetRotationalStiffnessY() {
         return eIsSet(Ifc2x3tc1Package.Literals.IFC_BOUNDARY_NODE_CONDITION__ROTATIONAL_STIFFNESS_Y);
     }
@@ -399,6 +435,7 @@ public class IfcBoundaryNodeConditionImpl extends IfcBoundaryConditionImpl imple
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public String getRotationalStiffnessYAsString() {
         return (String) eGet(Ifc2x3tc1Package.Literals.IFC_BOUNDARY_NODE_CONDITION__ROTATIONAL_STIFFNESS_YAS_STRING,
                 true);
@@ -409,6 +446,7 @@ public class IfcBoundaryNodeConditionImpl extends IfcBoundaryConditionImpl imple
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setRotationalStiffnessYAsString(String newRotationalStiffnessYAsString) {
         eSet(Ifc2x3tc1Package.Literals.IFC_BOUNDARY_NODE_CONDITION__ROTATIONAL_STIFFNESS_YAS_STRING,
                 newRotationalStiffnessYAsString);
@@ -419,6 +457,7 @@ public class IfcBoundaryNodeConditionImpl extends IfcBoundaryConditionImpl imple
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void unsetRotationalStiffnessYAsString() {
         eUnset(Ifc2x3tc1Package.Literals.IFC_BOUNDARY_NODE_CONDITION__ROTATIONAL_STIFFNESS_YAS_STRING);
     }
@@ -428,6 +467,7 @@ public class IfcBoundaryNodeConditionImpl extends IfcBoundaryConditionImpl imple
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public boolean isSetRotationalStiffnessYAsString() {
         return eIsSet(Ifc2x3tc1Package.Literals.IFC_BOUNDARY_NODE_CONDITION__ROTATIONAL_STIFFNESS_YAS_STRING);
     }
@@ -437,6 +477,7 @@ public class IfcBoundaryNodeConditionImpl extends IfcBoundaryConditionImpl imple
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public double getRotationalStiffnessZ() {
         return (Double) eGet(Ifc2x3tc1Package.Literals.IFC_BOUNDARY_NODE_CONDITION__ROTATIONAL_STIFFNESS_Z, true);
     }
@@ -446,6 +487,7 @@ public class IfcBoundaryNodeConditionImpl extends IfcBoundaryConditionImpl imple
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setRotationalStiffnessZ(double newRotationalStiffnessZ) {
         eSet(Ifc2x3tc1Package.Literals.IFC_BOUNDARY_NODE_CONDITION__ROTATIONAL_STIFFNESS_Z, newRotationalStiffnessZ);
     }
@@ -455,6 +497,7 @@ public class IfcBoundaryNodeConditionImpl extends IfcBoundaryConditionImpl imple
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void unsetRotationalStiffnessZ() {
         eUnset(Ifc2x3tc1Package.Literals.IFC_BOUNDARY_NODE_CONDITION__ROTATIONAL_STIFFNESS_Z);
     }
@@ -464,6 +507,7 @@ public class IfcBoundaryNodeConditionImpl extends IfcBoundaryConditionImpl imple
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public boolean isSetRotationalStiffnessZ() {
         return eIsSet(Ifc2x3tc1Package.Literals.IFC_BOUNDARY_NODE_CONDITION__ROTATIONAL_STIFFNESS_Z);
     }
@@ -473,6 +517,7 @@ public class IfcBoundaryNodeConditionImpl extends IfcBoundaryConditionImpl imple
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public String getRotationalStiffnessZAsString() {
         return (String) eGet(Ifc2x3tc1Package.Literals.IFC_BOUNDARY_NODE_CONDITION__ROTATIONAL_STIFFNESS_ZAS_STRING,
                 true);
@@ -483,6 +528,7 @@ public class IfcBoundaryNodeConditionImpl extends IfcBoundaryConditionImpl imple
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setRotationalStiffnessZAsString(String newRotationalStiffnessZAsString) {
         eSet(Ifc2x3tc1Package.Literals.IFC_BOUNDARY_NODE_CONDITION__ROTATIONAL_STIFFNESS_ZAS_STRING,
                 newRotationalStiffnessZAsString);
@@ -493,6 +539,7 @@ public class IfcBoundaryNodeConditionImpl extends IfcBoundaryConditionImpl imple
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void unsetRotationalStiffnessZAsString() {
         eUnset(Ifc2x3tc1Package.Literals.IFC_BOUNDARY_NODE_CONDITION__ROTATIONAL_STIFFNESS_ZAS_STRING);
     }
@@ -502,6 +549,7 @@ public class IfcBoundaryNodeConditionImpl extends IfcBoundaryConditionImpl imple
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public boolean isSetRotationalStiffnessZAsString() {
         return eIsSet(Ifc2x3tc1Package.Literals.IFC_BOUNDARY_NODE_CONDITION__ROTATIONAL_STIFFNESS_ZAS_STRING);
     }

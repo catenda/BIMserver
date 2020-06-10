@@ -64,6 +64,7 @@ public class IfcTextStyleImpl extends IfcPresentationStyleImpl implements IfcTex
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public IfcCharacterStyleSelect getTextCharacterAppearance() {
         return (IfcCharacterStyleSelect) eGet(Ifc2x3tc1Package.Literals.IFC_TEXT_STYLE__TEXT_CHARACTER_APPEARANCE,
                 true);
@@ -74,6 +75,7 @@ public class IfcTextStyleImpl extends IfcPresentationStyleImpl implements IfcTex
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setTextCharacterAppearance(IfcCharacterStyleSelect newTextCharacterAppearance) {
         eSet(Ifc2x3tc1Package.Literals.IFC_TEXT_STYLE__TEXT_CHARACTER_APPEARANCE, newTextCharacterAppearance);
     }
@@ -83,6 +85,7 @@ public class IfcTextStyleImpl extends IfcPresentationStyleImpl implements IfcTex
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void unsetTextCharacterAppearance() {
         eUnset(Ifc2x3tc1Package.Literals.IFC_TEXT_STYLE__TEXT_CHARACTER_APPEARANCE);
     }
@@ -92,6 +95,7 @@ public class IfcTextStyleImpl extends IfcPresentationStyleImpl implements IfcTex
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public boolean isSetTextCharacterAppearance() {
         return eIsSet(Ifc2x3tc1Package.Literals.IFC_TEXT_STYLE__TEXT_CHARACTER_APPEARANCE);
     }
@@ -101,6 +105,7 @@ public class IfcTextStyleImpl extends IfcPresentationStyleImpl implements IfcTex
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public IfcTextStyleSelect getTextStyle() {
         return (IfcTextStyleSelect) eGet(Ifc2x3tc1Package.Literals.IFC_TEXT_STYLE__TEXT_STYLE, true);
     }
@@ -110,6 +115,7 @@ public class IfcTextStyleImpl extends IfcPresentationStyleImpl implements IfcTex
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setTextStyle(IfcTextStyleSelect newTextStyle) {
         eSet(Ifc2x3tc1Package.Literals.IFC_TEXT_STYLE__TEXT_STYLE, newTextStyle);
     }
@@ -119,6 +125,7 @@ public class IfcTextStyleImpl extends IfcPresentationStyleImpl implements IfcTex
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void unsetTextStyle() {
         eUnset(Ifc2x3tc1Package.Literals.IFC_TEXT_STYLE__TEXT_STYLE);
     }
@@ -128,6 +135,7 @@ public class IfcTextStyleImpl extends IfcPresentationStyleImpl implements IfcTex
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public boolean isSetTextStyle() {
         return eIsSet(Ifc2x3tc1Package.Literals.IFC_TEXT_STYLE__TEXT_STYLE);
     }
@@ -137,6 +145,7 @@ public class IfcTextStyleImpl extends IfcPresentationStyleImpl implements IfcTex
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public IfcTextFontSelect getTextFontStyle() {
         return (IfcTextFontSelect) eGet(Ifc2x3tc1Package.Literals.IFC_TEXT_STYLE__TEXT_FONT_STYLE, true);
     }
@@ -146,6 +155,7 @@ public class IfcTextStyleImpl extends IfcPresentationStyleImpl implements IfcTex
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setTextFontStyle(IfcTextFontSelect newTextFontStyle) {
         eSet(Ifc2x3tc1Package.Literals.IFC_TEXT_STYLE__TEXT_FONT_STYLE, newTextFontStyle);
     }

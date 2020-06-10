@@ -100,7 +100,8 @@ public interface IfcOffsetCurve3D extends IfcCurve {
      * @return the value of the '<em>Distance As String</em>' attribute.
      * @see #setDistanceAsString(String)
      * @see org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package#getIfcOffsetCurve3D_DistanceAsString()
-     * @model
+     * @model annotation="asstring"
+     *        annotation="hidden"
      * @generated
      */
     String getDistanceAsString();

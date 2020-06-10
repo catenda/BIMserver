@@ -61,6 +61,7 @@ public class IfcPropertyReferenceValueImpl extends IfcSimplePropertyImpl impleme
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public String getUsageName() {
         return (String) eGet(Ifc4Package.Literals.IFC_PROPERTY_REFERENCE_VALUE__USAGE_NAME, true);
     }
@@ -70,6 +71,7 @@ public class IfcPropertyReferenceValueImpl extends IfcSimplePropertyImpl impleme
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setUsageName(String newUsageName) {
         eSet(Ifc4Package.Literals.IFC_PROPERTY_REFERENCE_VALUE__USAGE_NAME, newUsageName);
     }
@@ -79,6 +81,7 @@ public class IfcPropertyReferenceValueImpl extends IfcSimplePropertyImpl impleme
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void unsetUsageName() {
         eUnset(Ifc4Package.Literals.IFC_PROPERTY_REFERENCE_VALUE__USAGE_NAME);
     }
@@ -88,6 +91,7 @@ public class IfcPropertyReferenceValueImpl extends IfcSimplePropertyImpl impleme
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public boolean isSetUsageName() {
         return eIsSet(Ifc4Package.Literals.IFC_PROPERTY_REFERENCE_VALUE__USAGE_NAME);
     }
@@ -97,6 +101,7 @@ public class IfcPropertyReferenceValueImpl extends IfcSimplePropertyImpl impleme
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public IfcObjectReferenceSelect getPropertyReference() {
         return (IfcObjectReferenceSelect) eGet(Ifc4Package.Literals.IFC_PROPERTY_REFERENCE_VALUE__PROPERTY_REFERENCE,
                 true);
@@ -107,6 +112,7 @@ public class IfcPropertyReferenceValueImpl extends IfcSimplePropertyImpl impleme
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setPropertyReference(IfcObjectReferenceSelect newPropertyReference) {
         eSet(Ifc4Package.Literals.IFC_PROPERTY_REFERENCE_VALUE__PROPERTY_REFERENCE, newPropertyReference);
     }
@@ -116,6 +122,7 @@ public class IfcPropertyReferenceValueImpl extends IfcSimplePropertyImpl impleme
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void unsetPropertyReference() {
         eUnset(Ifc4Package.Literals.IFC_PROPERTY_REFERENCE_VALUE__PROPERTY_REFERENCE);
     }
@@ -125,6 +132,7 @@ public class IfcPropertyReferenceValueImpl extends IfcSimplePropertyImpl impleme
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public boolean isSetPropertyReference() {
         return eIsSet(Ifc4Package.Literals.IFC_PROPERTY_REFERENCE_VALUE__PROPERTY_REFERENCE);
     }

@@ -78,6 +78,7 @@ public interface IfcApprovalActorRelationship extends IdEObject {
      * @see org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package#getIfcApprovalActorRelationship_Approval()
      * @see org.bimserver.models.ifc2x3tc1.IfcApproval#getActors
      * @model opposite="Actors"
+     *        annotation="inverse"
      * @generated
      */
     IfcApproval getApproval();

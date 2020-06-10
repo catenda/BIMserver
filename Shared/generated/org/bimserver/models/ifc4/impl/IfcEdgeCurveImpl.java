@@ -62,6 +62,7 @@ public class IfcEdgeCurveImpl extends IfcEdgeImpl implements IfcEdgeCurve {
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public IfcCurve getEdgeGeometry() {
         return (IfcCurve) eGet(Ifc4Package.Literals.IFC_EDGE_CURVE__EDGE_GEOMETRY, true);
     }
@@ -71,6 +72,7 @@ public class IfcEdgeCurveImpl extends IfcEdgeImpl implements IfcEdgeCurve {
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setEdgeGeometry(IfcCurve newEdgeGeometry) {
         eSet(Ifc4Package.Literals.IFC_EDGE_CURVE__EDGE_GEOMETRY, newEdgeGeometry);
     }
@@ -80,6 +82,7 @@ public class IfcEdgeCurveImpl extends IfcEdgeImpl implements IfcEdgeCurve {
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public Tristate getSameSense() {
         return (Tristate) eGet(Ifc4Package.Literals.IFC_EDGE_CURVE__SAME_SENSE, true);
     }
@@ -89,6 +92,7 @@ public class IfcEdgeCurveImpl extends IfcEdgeImpl implements IfcEdgeCurve {
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setSameSense(Tristate newSameSense) {
         eSet(Ifc4Package.Literals.IFC_EDGE_CURVE__SAME_SENSE, newSameSense);
     }

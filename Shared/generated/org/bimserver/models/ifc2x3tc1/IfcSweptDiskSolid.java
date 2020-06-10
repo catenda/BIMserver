@@ -104,7 +104,8 @@ public interface IfcSweptDiskSolid extends IfcSolidModel {
      * @return the value of the '<em>Radius As String</em>' attribute.
      * @see #setRadiusAsString(String)
      * @see org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package#getIfcSweptDiskSolid_RadiusAsString()
-     * @model
+     * @model annotation="asstring"
+     *        annotation="hidden"
      * @generated
      */
     String getRadiusAsString();
@@ -186,6 +187,8 @@ public interface IfcSweptDiskSolid extends IfcSolidModel {
      * @see #setInnerRadiusAsString(String)
      * @see org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package#getIfcSweptDiskSolid_InnerRadiusAsString()
      * @model unsettable="true"
+     *        annotation="asstring"
+     *        annotation="hidden"
      * @generated
      */
     String getInnerRadiusAsString();
@@ -262,7 +265,8 @@ public interface IfcSweptDiskSolid extends IfcSolidModel {
      * @return the value of the '<em>Start Param As String</em>' attribute.
      * @see #setStartParamAsString(String)
      * @see org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package#getIfcSweptDiskSolid_StartParamAsString()
-     * @model
+     * @model annotation="asstring"
+     *        annotation="hidden"
      * @generated
      */
     String getStartParamAsString();
@@ -314,7 +318,8 @@ public interface IfcSweptDiskSolid extends IfcSolidModel {
      * @return the value of the '<em>End Param As String</em>' attribute.
      * @see #setEndParamAsString(String)
      * @see org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package#getIfcSweptDiskSolid_EndParamAsString()
-     * @model
+     * @model annotation="asstring"
+     *        annotation="hidden"
      * @generated
      */
     String getEndParamAsString();

@@ -51,6 +51,7 @@ public interface IfcOpeningElement extends IfcFeatureElementSubtraction {
      * @see org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package#getIfcOpeningElement_HasFillings()
      * @see org.bimserver.models.ifc2x3tc1.IfcRelFillsElement#getRelatingOpeningElement
      * @model opposite="RelatingOpeningElement" unsettable="true"
+     *        annotation="inverse"
      * @generated
      */
     EList<IfcRelFillsElement> getHasFillings();

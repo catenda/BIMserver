@@ -63,6 +63,7 @@ public class IfcFacetedBrepWithVoidsImpl extends IfcManifoldSolidBrepImpl implem
      * @generated
      */
     @SuppressWarnings("unchecked")
+    @Override
     public EList<IfcClosedShell> getVoids() {
         return (EList<IfcClosedShell>) eGet(Ifc2x3tc1Package.Literals.IFC_FACETED_BREP_WITH_VOIDS__VOIDS, true);
     }

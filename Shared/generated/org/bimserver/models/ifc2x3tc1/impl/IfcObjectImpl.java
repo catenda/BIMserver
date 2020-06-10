@@ -63,6 +63,7 @@ public class IfcObjectImpl extends IfcObjectDefinitionImpl implements IfcObject 
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public String getObjectType() {
         return (String) eGet(Ifc2x3tc1Package.Literals.IFC_OBJECT__OBJECT_TYPE, true);
     }
@@ -72,6 +73,7 @@ public class IfcObjectImpl extends IfcObjectDefinitionImpl implements IfcObject 
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setObjectType(String newObjectType) {
         eSet(Ifc2x3tc1Package.Literals.IFC_OBJECT__OBJECT_TYPE, newObjectType);
     }
@@ -81,6 +83,7 @@ public class IfcObjectImpl extends IfcObjectDefinitionImpl implements IfcObject 
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void unsetObjectType() {
         eUnset(Ifc2x3tc1Package.Literals.IFC_OBJECT__OBJECT_TYPE);
     }
@@ -90,6 +93,7 @@ public class IfcObjectImpl extends IfcObjectDefinitionImpl implements IfcObject 
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public boolean isSetObjectType() {
         return eIsSet(Ifc2x3tc1Package.Literals.IFC_OBJECT__OBJECT_TYPE);
     }
@@ -100,6 +104,7 @@ public class IfcObjectImpl extends IfcObjectDefinitionImpl implements IfcObject 
      * @generated
      */
     @SuppressWarnings("unchecked")
+    @Override
     public EList<IfcRelDefines> getIsDefinedBy() {
         return (EList<IfcRelDefines>) eGet(Ifc2x3tc1Package.Literals.IFC_OBJECT__IS_DEFINED_BY, true);
     }
@@ -109,6 +114,7 @@ public class IfcObjectImpl extends IfcObjectDefinitionImpl implements IfcObject 
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void unsetIsDefinedBy() {
         eUnset(Ifc2x3tc1Package.Literals.IFC_OBJECT__IS_DEFINED_BY);
     }
@@ -118,6 +124,7 @@ public class IfcObjectImpl extends IfcObjectDefinitionImpl implements IfcObject 
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public boolean isSetIsDefinedBy() {
         return eIsSet(Ifc2x3tc1Package.Literals.IFC_OBJECT__IS_DEFINED_BY);
     }

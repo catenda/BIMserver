@@ -80,6 +80,7 @@ public class GeoTagImpl extends IdEObjectImpl implements GeoTag {
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public Boolean getEnabled() {
         return (Boolean) eGet(StorePackage.Literals.GEO_TAG__ENABLED, true);
     }
@@ -89,6 +90,7 @@ public class GeoTagImpl extends IdEObjectImpl implements GeoTag {
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setEnabled(Boolean newEnabled) {
         eSet(StorePackage.Literals.GEO_TAG__ENABLED, newEnabled);
     }
@@ -99,6 +101,7 @@ public class GeoTagImpl extends IdEObjectImpl implements GeoTag {
      * @generated
      */
     @SuppressWarnings("unchecked")
+    @Override
     public EList<Project> getProjects() {
         return (EList<Project>) eGet(StorePackage.Literals.GEO_TAG__PROJECTS, true);
     }
@@ -108,6 +111,7 @@ public class GeoTagImpl extends IdEObjectImpl implements GeoTag {
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public Double getX() {
         return (Double) eGet(StorePackage.Literals.GEO_TAG__X, true);
     }
@@ -117,6 +121,7 @@ public class GeoTagImpl extends IdEObjectImpl implements GeoTag {
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setX(Double newX) {
         eSet(StorePackage.Literals.GEO_TAG__X, newX);
     }
@@ -126,6 +131,7 @@ public class GeoTagImpl extends IdEObjectImpl implements GeoTag {
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public Double getY() {
         return (Double) eGet(StorePackage.Literals.GEO_TAG__Y, true);
     }
@@ -135,6 +141,7 @@ public class GeoTagImpl extends IdEObjectImpl implements GeoTag {
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setY(Double newY) {
         eSet(StorePackage.Literals.GEO_TAG__Y, newY);
     }
@@ -144,6 +151,7 @@ public class GeoTagImpl extends IdEObjectImpl implements GeoTag {
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public Double getZ() {
         return (Double) eGet(StorePackage.Literals.GEO_TAG__Z, true);
     }
@@ -153,6 +161,7 @@ public class GeoTagImpl extends IdEObjectImpl implements GeoTag {
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setZ(Double newZ) {
         eSet(StorePackage.Literals.GEO_TAG__Z, newZ);
     }
@@ -162,6 +171,7 @@ public class GeoTagImpl extends IdEObjectImpl implements GeoTag {
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public Integer getEpsg() {
         return (Integer) eGet(StorePackage.Literals.GEO_TAG__EPSG, true);
     }
@@ -171,6 +181,7 @@ public class GeoTagImpl extends IdEObjectImpl implements GeoTag {
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setEpsg(Integer newEpsg) {
         eSet(StorePackage.Literals.GEO_TAG__EPSG, newEpsg);
     }
@@ -180,6 +191,7 @@ public class GeoTagImpl extends IdEObjectImpl implements GeoTag {
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public Double getDirectionAngle() {
         return (Double) eGet(StorePackage.Literals.GEO_TAG__DIRECTION_ANGLE, true);
     }
@@ -189,6 +201,7 @@ public class GeoTagImpl extends IdEObjectImpl implements GeoTag {
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setDirectionAngle(Double newDirectionAngle) {
         eSet(StorePackage.Literals.GEO_TAG__DIRECTION_ANGLE, newDirectionAngle);
     }

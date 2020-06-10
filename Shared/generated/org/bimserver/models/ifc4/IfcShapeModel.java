@@ -51,6 +51,7 @@ public interface IfcShapeModel extends IfcRepresentation {
      * @see org.bimserver.models.ifc4.Ifc4Package#getIfcShapeModel_OfShapeAspect()
      * @see org.bimserver.models.ifc4.IfcShapeAspect#getShapeRepresentations
      * @model opposite="ShapeRepresentations" unsettable="true" upper="2"
+     *        annotation="inverse"
      * @generated
      */
     EList<IfcShapeAspect> getOfShapeAspect();

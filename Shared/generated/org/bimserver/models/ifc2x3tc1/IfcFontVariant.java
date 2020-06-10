@@ -31,7 +31,7 @@ import org.bimserver.emf.IdEObject;
  * </ul>
  *
  * @see org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package#getIfcFontVariant()
- * @model
+ * @model annotation="wrapped"
  * @extends IdEObject
  * @generated
  */

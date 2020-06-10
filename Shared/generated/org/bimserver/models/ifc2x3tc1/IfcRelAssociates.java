@@ -46,7 +46,8 @@ public interface IfcRelAssociates extends IfcRelationship {
      * <!-- end-user-doc -->
      * @return the value of the '<em>Related Objects</em>' reference list.
      * @see org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package#getIfcRelAssociates_RelatedObjects()
-     * @model
+     * @model annotation="inverse"
+     *        annotation="inverse"
      * @generated
      */
     EList<IfcRoot> getRelatedObjects();

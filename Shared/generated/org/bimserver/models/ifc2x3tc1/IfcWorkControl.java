@@ -257,6 +257,8 @@ public interface IfcWorkControl extends IfcControl {
      * @see #setDurationAsString(String)
      * @see org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package#getIfcWorkControl_DurationAsString()
      * @model unsettable="true"
+     *        annotation="asstring"
+     *        annotation="hidden"
      * @generated
      */
     String getDurationAsString();
@@ -363,6 +365,8 @@ public interface IfcWorkControl extends IfcControl {
      * @see #setTotalFloatAsString(String)
      * @see org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package#getIfcWorkControl_TotalFloatAsString()
      * @model unsettable="true"
+     *        annotation="asstring"
+     *        annotation="hidden"
      * @generated
      */
     String getTotalFloatAsString();

@@ -66,6 +66,7 @@ public class IfcProductImpl extends IfcObjectImpl implements IfcProduct {
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public IfcObjectPlacement getObjectPlacement() {
         return (IfcObjectPlacement) eGet(Ifc4Package.Literals.IFC_PRODUCT__OBJECT_PLACEMENT, true);
     }
@@ -75,6 +76,7 @@ public class IfcProductImpl extends IfcObjectImpl implements IfcProduct {
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setObjectPlacement(IfcObjectPlacement newObjectPlacement) {
         eSet(Ifc4Package.Literals.IFC_PRODUCT__OBJECT_PLACEMENT, newObjectPlacement);
     }
@@ -84,6 +86,7 @@ public class IfcProductImpl extends IfcObjectImpl implements IfcProduct {
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void unsetObjectPlacement() {
         eUnset(Ifc4Package.Literals.IFC_PRODUCT__OBJECT_PLACEMENT);
     }
@@ -93,6 +96,7 @@ public class IfcProductImpl extends IfcObjectImpl implements IfcProduct {
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public boolean isSetObjectPlacement() {
         return eIsSet(Ifc4Package.Literals.IFC_PRODUCT__OBJECT_PLACEMENT);
     }
@@ -102,6 +106,7 @@ public class IfcProductImpl extends IfcObjectImpl implements IfcProduct {
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public IfcProductRepresentation getRepresentation() {
         return (IfcProductRepresentation) eGet(Ifc4Package.Literals.IFC_PRODUCT__REPRESENTATION, true);
     }
@@ -111,6 +116,7 @@ public class IfcProductImpl extends IfcObjectImpl implements IfcProduct {
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setRepresentation(IfcProductRepresentation newRepresentation) {
         eSet(Ifc4Package.Literals.IFC_PRODUCT__REPRESENTATION, newRepresentation);
     }
@@ -120,6 +126,7 @@ public class IfcProductImpl extends IfcObjectImpl implements IfcProduct {
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void unsetRepresentation() {
         eUnset(Ifc4Package.Literals.IFC_PRODUCT__REPRESENTATION);
     }
@@ -129,6 +136,7 @@ public class IfcProductImpl extends IfcObjectImpl implements IfcProduct {
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public boolean isSetRepresentation() {
         return eIsSet(Ifc4Package.Literals.IFC_PRODUCT__REPRESENTATION);
     }
@@ -139,6 +147,7 @@ public class IfcProductImpl extends IfcObjectImpl implements IfcProduct {
      * @generated
      */
     @SuppressWarnings("unchecked")
+    @Override
     public EList<IfcRelAssignsToProduct> getReferencedBy() {
         return (EList<IfcRelAssignsToProduct>) eGet(Ifc4Package.Literals.IFC_PRODUCT__REFERENCED_BY, true);
     }
@@ -148,6 +157,7 @@ public class IfcProductImpl extends IfcObjectImpl implements IfcProduct {
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void unsetReferencedBy() {
         eUnset(Ifc4Package.Literals.IFC_PRODUCT__REFERENCED_BY);
     }
@@ -157,6 +167,7 @@ public class IfcProductImpl extends IfcObjectImpl implements IfcProduct {
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public boolean isSetReferencedBy() {
         return eIsSet(Ifc4Package.Literals.IFC_PRODUCT__REFERENCED_BY);
     }

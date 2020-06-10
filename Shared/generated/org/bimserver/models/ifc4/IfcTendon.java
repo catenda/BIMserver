@@ -170,6 +170,8 @@ public interface IfcTendon extends IfcReinforcingElement {
      * @see #setNominalDiameterAsString(String)
      * @see org.bimserver.models.ifc4.Ifc4Package#getIfcTendon_NominalDiameterAsString()
      * @model unsettable="true"
+     *        annotation="asstring"
+     *        annotation="hidden"
      * @generated
      */
     String getNominalDiameterAsString();
@@ -276,6 +278,8 @@ public interface IfcTendon extends IfcReinforcingElement {
      * @see #setCrossSectionAreaAsString(String)
      * @see org.bimserver.models.ifc4.Ifc4Package#getIfcTendon_CrossSectionAreaAsString()
      * @model unsettable="true"
+     *        annotation="asstring"
+     *        annotation="hidden"
      * @generated
      */
     String getCrossSectionAreaAsString();
@@ -382,6 +386,8 @@ public interface IfcTendon extends IfcReinforcingElement {
      * @see #setTensionForceAsString(String)
      * @see org.bimserver.models.ifc4.Ifc4Package#getIfcTendon_TensionForceAsString()
      * @model unsettable="true"
+     *        annotation="asstring"
+     *        annotation="hidden"
      * @generated
      */
     String getTensionForceAsString();
@@ -488,6 +494,8 @@ public interface IfcTendon extends IfcReinforcingElement {
      * @see #setPreStressAsString(String)
      * @see org.bimserver.models.ifc4.Ifc4Package#getIfcTendon_PreStressAsString()
      * @model unsettable="true"
+     *        annotation="asstring"
+     *        annotation="hidden"
      * @generated
      */
     String getPreStressAsString();
@@ -594,6 +602,8 @@ public interface IfcTendon extends IfcReinforcingElement {
      * @see #setFrictionCoefficientAsString(String)
      * @see org.bimserver.models.ifc4.Ifc4Package#getIfcTendon_FrictionCoefficientAsString()
      * @model unsettable="true"
+     *        annotation="asstring"
+     *        annotation="hidden"
      * @generated
      */
     String getFrictionCoefficientAsString();
@@ -700,6 +710,8 @@ public interface IfcTendon extends IfcReinforcingElement {
      * @see #setAnchorageSlipAsString(String)
      * @see org.bimserver.models.ifc4.Ifc4Package#getIfcTendon_AnchorageSlipAsString()
      * @model unsettable="true"
+     *        annotation="asstring"
+     *        annotation="hidden"
      * @generated
      */
     String getAnchorageSlipAsString();
@@ -806,6 +818,8 @@ public interface IfcTendon extends IfcReinforcingElement {
      * @see #setMinCurvatureRadiusAsString(String)
      * @see org.bimserver.models.ifc4.Ifc4Package#getIfcTendon_MinCurvatureRadiusAsString()
      * @model unsettable="true"
+     *        annotation="asstring"
+     *        annotation="hidden"
      * @generated
      */
     String getMinCurvatureRadiusAsString();

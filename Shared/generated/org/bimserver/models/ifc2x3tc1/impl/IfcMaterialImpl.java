@@ -77,6 +77,7 @@ public class IfcMaterialImpl extends IdEObjectImpl implements IfcMaterial {
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public String getName() {
         return (String) eGet(Ifc2x3tc1Package.Literals.IFC_MATERIAL__NAME, true);
     }
@@ -86,6 +87,7 @@ public class IfcMaterialImpl extends IdEObjectImpl implements IfcMaterial {
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setName(String newName) {
         eSet(Ifc2x3tc1Package.Literals.IFC_MATERIAL__NAME, newName);
     }
@@ -96,6 +98,7 @@ public class IfcMaterialImpl extends IdEObjectImpl implements IfcMaterial {
      * @generated
      */
     @SuppressWarnings("unchecked")
+    @Override
     public EList<IfcMaterialDefinitionRepresentation> getHasRepresentation() {
         return (EList<IfcMaterialDefinitionRepresentation>) eGet(
                 Ifc2x3tc1Package.Literals.IFC_MATERIAL__HAS_REPRESENTATION, true);
@@ -106,6 +109,7 @@ public class IfcMaterialImpl extends IdEObjectImpl implements IfcMaterial {
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void unsetHasRepresentation() {
         eUnset(Ifc2x3tc1Package.Literals.IFC_MATERIAL__HAS_REPRESENTATION);
     }
@@ -115,6 +119,7 @@ public class IfcMaterialImpl extends IdEObjectImpl implements IfcMaterial {
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public boolean isSetHasRepresentation() {
         return eIsSet(Ifc2x3tc1Package.Literals.IFC_MATERIAL__HAS_REPRESENTATION);
     }
@@ -125,6 +130,7 @@ public class IfcMaterialImpl extends IdEObjectImpl implements IfcMaterial {
      * @generated
      */
     @SuppressWarnings("unchecked")
+    @Override
     public EList<IfcMaterialClassificationRelationship> getClassifiedAs() {
         return (EList<IfcMaterialClassificationRelationship>) eGet(
                 Ifc2x3tc1Package.Literals.IFC_MATERIAL__CLASSIFIED_AS, true);
@@ -135,6 +141,7 @@ public class IfcMaterialImpl extends IdEObjectImpl implements IfcMaterial {
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void unsetClassifiedAs() {
         eUnset(Ifc2x3tc1Package.Literals.IFC_MATERIAL__CLASSIFIED_AS);
     }
@@ -144,6 +151,7 @@ public class IfcMaterialImpl extends IdEObjectImpl implements IfcMaterial {
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public boolean isSetClassifiedAs() {
         return eIsSet(Ifc2x3tc1Package.Literals.IFC_MATERIAL__CLASSIFIED_AS);
     }

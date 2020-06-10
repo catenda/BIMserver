@@ -60,6 +60,7 @@ public class IfcQuantityCountImpl extends IfcPhysicalSimpleQuantityImpl implemen
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public double getCountValue() {
         return (Double) eGet(Ifc2x3tc1Package.Literals.IFC_QUANTITY_COUNT__COUNT_VALUE, true);
     }
@@ -69,6 +70,7 @@ public class IfcQuantityCountImpl extends IfcPhysicalSimpleQuantityImpl implemen
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setCountValue(double newCountValue) {
         eSet(Ifc2x3tc1Package.Literals.IFC_QUANTITY_COUNT__COUNT_VALUE, newCountValue);
     }
@@ -78,6 +80,7 @@ public class IfcQuantityCountImpl extends IfcPhysicalSimpleQuantityImpl implemen
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public String getCountValueAsString() {
         return (String) eGet(Ifc2x3tc1Package.Literals.IFC_QUANTITY_COUNT__COUNT_VALUE_AS_STRING, true);
     }
@@ -87,6 +90,7 @@ public class IfcQuantityCountImpl extends IfcPhysicalSimpleQuantityImpl implemen
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setCountValueAsString(String newCountValueAsString) {
         eSet(Ifc2x3tc1Package.Literals.IFC_QUANTITY_COUNT__COUNT_VALUE_AS_STRING, newCountValueAsString);
     }

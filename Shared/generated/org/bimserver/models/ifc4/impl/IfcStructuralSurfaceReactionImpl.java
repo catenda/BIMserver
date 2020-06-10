@@ -61,6 +61,7 @@ public class IfcStructuralSurfaceReactionImpl extends IfcStructuralReactionImpl
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public IfcStructuralSurfaceActivityTypeEnum getPredefinedType() {
         return (IfcStructuralSurfaceActivityTypeEnum) eGet(
                 Ifc4Package.Literals.IFC_STRUCTURAL_SURFACE_REACTION__PREDEFINED_TYPE, true);
@@ -71,6 +72,7 @@ public class IfcStructuralSurfaceReactionImpl extends IfcStructuralReactionImpl
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setPredefinedType(IfcStructuralSurfaceActivityTypeEnum newPredefinedType) {
         eSet(Ifc4Package.Literals.IFC_STRUCTURAL_SURFACE_REACTION__PREDEFINED_TYPE, newPredefinedType);
     }

@@ -30,7 +30,7 @@ package org.bimserver.models.ifc4;
  * </ul>
  *
  * @see org.bimserver.models.ifc4.Ifc4Package#getIfcTemperatureRateOfChangeMeasure()
- * @model
+ * @model annotation="wrapped"
  * @generated
  */
 public interface IfcTemperatureRateOfChangeMeasure extends IfcDerivedMeasureValue {
@@ -101,6 +101,8 @@ public interface IfcTemperatureRateOfChangeMeasure extends IfcDerivedMeasureValu
      * @see #setWrappedValueAsString(String)
      * @see org.bimserver.models.ifc4.Ifc4Package#getIfcTemperatureRateOfChangeMeasure_WrappedValueAsString()
      * @model unsettable="true"
+     *        annotation="asstring"
+     *        annotation="hidden"
      * @generated
      */
     String getWrappedValueAsString();

@@ -60,6 +60,7 @@ public class IfcWasteTerminalTypeImpl extends IfcFlowTerminalTypeImpl implements
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public IfcWasteTerminalTypeEnum getPredefinedType() {
         return (IfcWasteTerminalTypeEnum) eGet(Ifc4Package.Literals.IFC_WASTE_TERMINAL_TYPE__PREDEFINED_TYPE, true);
     }
@@ -69,6 +70,7 @@ public class IfcWasteTerminalTypeImpl extends IfcFlowTerminalTypeImpl implements
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setPredefinedType(IfcWasteTerminalTypeEnum newPredefinedType) {
         eSet(Ifc4Package.Literals.IFC_WASTE_TERMINAL_TYPE__PREDEFINED_TYPE, newPredefinedType);
     }

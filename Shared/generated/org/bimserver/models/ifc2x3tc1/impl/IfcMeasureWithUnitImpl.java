@@ -74,6 +74,7 @@ public class IfcMeasureWithUnitImpl extends IdEObjectImpl implements IfcMeasureW
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public IfcValue getValueComponent() {
         return (IfcValue) eGet(Ifc2x3tc1Package.Literals.IFC_MEASURE_WITH_UNIT__VALUE_COMPONENT, true);
     }
@@ -83,6 +84,7 @@ public class IfcMeasureWithUnitImpl extends IdEObjectImpl implements IfcMeasureW
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setValueComponent(IfcValue newValueComponent) {
         eSet(Ifc2x3tc1Package.Literals.IFC_MEASURE_WITH_UNIT__VALUE_COMPONENT, newValueComponent);
     }
@@ -92,6 +94,7 @@ public class IfcMeasureWithUnitImpl extends IdEObjectImpl implements IfcMeasureW
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public IfcUnit getUnitComponent() {
         return (IfcUnit) eGet(Ifc2x3tc1Package.Literals.IFC_MEASURE_WITH_UNIT__UNIT_COMPONENT, true);
     }
@@ -101,6 +104,7 @@ public class IfcMeasureWithUnitImpl extends IdEObjectImpl implements IfcMeasureW
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setUnitComponent(IfcUnit newUnitComponent) {
         eSet(Ifc2x3tc1Package.Literals.IFC_MEASURE_WITH_UNIT__UNIT_COMPONENT, newUnitComponent);
     }

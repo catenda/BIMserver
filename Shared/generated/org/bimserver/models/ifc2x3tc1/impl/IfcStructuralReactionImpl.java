@@ -63,6 +63,7 @@ public class IfcStructuralReactionImpl extends IfcStructuralActivityImpl impleme
      * @generated
      */
     @SuppressWarnings("unchecked")
+    @Override
     public EList<IfcStructuralAction> getCauses() {
         return (EList<IfcStructuralAction>) eGet(Ifc2x3tc1Package.Literals.IFC_STRUCTURAL_REACTION__CAUSES, true);
     }
@@ -72,6 +73,7 @@ public class IfcStructuralReactionImpl extends IfcStructuralActivityImpl impleme
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void unsetCauses() {
         eUnset(Ifc2x3tc1Package.Literals.IFC_STRUCTURAL_REACTION__CAUSES);
     }
@@ -81,6 +83,7 @@ public class IfcStructuralReactionImpl extends IfcStructuralActivityImpl impleme
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public boolean isSetCauses() {
         return eIsSet(Ifc2x3tc1Package.Literals.IFC_STRUCTURAL_REACTION__CAUSES);
     }

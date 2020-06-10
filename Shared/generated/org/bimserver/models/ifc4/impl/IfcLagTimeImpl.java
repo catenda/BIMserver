@@ -62,6 +62,7 @@ public class IfcLagTimeImpl extends IfcSchedulingTimeImpl implements IfcLagTime 
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public IfcTimeOrRatioSelect getLagValue() {
         return (IfcTimeOrRatioSelect) eGet(Ifc4Package.Literals.IFC_LAG_TIME__LAG_VALUE, true);
     }
@@ -71,6 +72,7 @@ public class IfcLagTimeImpl extends IfcSchedulingTimeImpl implements IfcLagTime 
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setLagValue(IfcTimeOrRatioSelect newLagValue) {
         eSet(Ifc4Package.Literals.IFC_LAG_TIME__LAG_VALUE, newLagValue);
     }
@@ -80,6 +82,7 @@ public class IfcLagTimeImpl extends IfcSchedulingTimeImpl implements IfcLagTime 
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public IfcTaskDurationEnum getDurationType() {
         return (IfcTaskDurationEnum) eGet(Ifc4Package.Literals.IFC_LAG_TIME__DURATION_TYPE, true);
     }
@@ -89,6 +92,7 @@ public class IfcLagTimeImpl extends IfcSchedulingTimeImpl implements IfcLagTime 
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setDurationType(IfcTaskDurationEnum newDurationType) {
         eSet(Ifc4Package.Literals.IFC_LAG_TIME__DURATION_TYPE, newDurationType);
     }

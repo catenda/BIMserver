@@ -101,6 +101,8 @@ public interface IfcBoundaryNodeConditionWarping extends IfcBoundaryNodeConditio
      * @see #setWarpingStiffnessAsString(String)
      * @see org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package#getIfcBoundaryNodeConditionWarping_WarpingStiffnessAsString()
      * @model unsettable="true"
+     *        annotation="asstring"
+     *        annotation="hidden"
      * @generated
      */
     String getWarpingStiffnessAsString();

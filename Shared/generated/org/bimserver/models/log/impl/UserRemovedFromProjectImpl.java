@@ -61,6 +61,7 @@ public class UserRemovedFromProjectImpl extends UserRelatedImpl implements UserR
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public Project getProject() {
         return (Project) eGet(LogPackage.Literals.USER_REMOVED_FROM_PROJECT__PROJECT, true);
     }
@@ -70,6 +71,7 @@ public class UserRemovedFromProjectImpl extends UserRelatedImpl implements UserR
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setProject(Project newProject) {
         eSet(LogPackage.Literals.USER_REMOVED_FROM_PROJECT__PROJECT, newProject);
     }

@@ -79,7 +79,8 @@ public interface IfcReinforcementBarProperties extends IfcPreDefinedProperties {
      * @return the value of the '<em>Total Cross Section Area As String</em>' attribute.
      * @see #setTotalCrossSectionAreaAsString(String)
      * @see org.bimserver.models.ifc4.Ifc4Package#getIfcReinforcementBarProperties_TotalCrossSectionAreaAsString()
-     * @model
+     * @model annotation="asstring"
+     *        annotation="hidden"
      * @generated
      */
     String getTotalCrossSectionAreaAsString();
@@ -243,6 +244,8 @@ public interface IfcReinforcementBarProperties extends IfcPreDefinedProperties {
      * @see #setEffectiveDepthAsString(String)
      * @see org.bimserver.models.ifc4.Ifc4Package#getIfcReinforcementBarProperties_EffectiveDepthAsString()
      * @model unsettable="true"
+     *        annotation="asstring"
+     *        annotation="hidden"
      * @generated
      */
     String getEffectiveDepthAsString();
@@ -349,6 +352,8 @@ public interface IfcReinforcementBarProperties extends IfcPreDefinedProperties {
      * @see #setNominalBarDiameterAsString(String)
      * @see org.bimserver.models.ifc4.Ifc4Package#getIfcReinforcementBarProperties_NominalBarDiameterAsString()
      * @model unsettable="true"
+     *        annotation="asstring"
+     *        annotation="hidden"
      * @generated
      */
     String getNominalBarDiameterAsString();
@@ -455,6 +460,8 @@ public interface IfcReinforcementBarProperties extends IfcPreDefinedProperties {
      * @see #setBarCountAsString(String)
      * @see org.bimserver.models.ifc4.Ifc4Package#getIfcReinforcementBarProperties_BarCountAsString()
      * @model unsettable="true"
+     *        annotation="asstring"
+     *        annotation="hidden"
      * @generated
      */
     String getBarCountAsString();

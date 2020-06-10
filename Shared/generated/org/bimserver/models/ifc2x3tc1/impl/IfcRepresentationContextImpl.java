@@ -76,6 +76,7 @@ public class IfcRepresentationContextImpl extends IdEObjectImpl implements IfcRe
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public String getContextIdentifier() {
         return (String) eGet(Ifc2x3tc1Package.Literals.IFC_REPRESENTATION_CONTEXT__CONTEXT_IDENTIFIER, true);
     }
@@ -85,6 +86,7 @@ public class IfcRepresentationContextImpl extends IdEObjectImpl implements IfcRe
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setContextIdentifier(String newContextIdentifier) {
         eSet(Ifc2x3tc1Package.Literals.IFC_REPRESENTATION_CONTEXT__CONTEXT_IDENTIFIER, newContextIdentifier);
     }
@@ -94,6 +96,7 @@ public class IfcRepresentationContextImpl extends IdEObjectImpl implements IfcRe
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void unsetContextIdentifier() {
         eUnset(Ifc2x3tc1Package.Literals.IFC_REPRESENTATION_CONTEXT__CONTEXT_IDENTIFIER);
     }
@@ -103,6 +106,7 @@ public class IfcRepresentationContextImpl extends IdEObjectImpl implements IfcRe
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public boolean isSetContextIdentifier() {
         return eIsSet(Ifc2x3tc1Package.Literals.IFC_REPRESENTATION_CONTEXT__CONTEXT_IDENTIFIER);
     }
@@ -112,6 +116,7 @@ public class IfcRepresentationContextImpl extends IdEObjectImpl implements IfcRe
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public String getContextType() {
         return (String) eGet(Ifc2x3tc1Package.Literals.IFC_REPRESENTATION_CONTEXT__CONTEXT_TYPE, true);
     }
@@ -121,6 +126,7 @@ public class IfcRepresentationContextImpl extends IdEObjectImpl implements IfcRe
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setContextType(String newContextType) {
         eSet(Ifc2x3tc1Package.Literals.IFC_REPRESENTATION_CONTEXT__CONTEXT_TYPE, newContextType);
     }
@@ -130,6 +136,7 @@ public class IfcRepresentationContextImpl extends IdEObjectImpl implements IfcRe
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void unsetContextType() {
         eUnset(Ifc2x3tc1Package.Literals.IFC_REPRESENTATION_CONTEXT__CONTEXT_TYPE);
     }
@@ -139,6 +146,7 @@ public class IfcRepresentationContextImpl extends IdEObjectImpl implements IfcRe
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public boolean isSetContextType() {
         return eIsSet(Ifc2x3tc1Package.Literals.IFC_REPRESENTATION_CONTEXT__CONTEXT_TYPE);
     }
@@ -149,6 +157,7 @@ public class IfcRepresentationContextImpl extends IdEObjectImpl implements IfcRe
      * @generated
      */
     @SuppressWarnings("unchecked")
+    @Override
     public EList<IfcRepresentation> getRepresentationsInContext() {
         return (EList<IfcRepresentation>) eGet(
                 Ifc2x3tc1Package.Literals.IFC_REPRESENTATION_CONTEXT__REPRESENTATIONS_IN_CONTEXT, true);
@@ -159,6 +168,7 @@ public class IfcRepresentationContextImpl extends IdEObjectImpl implements IfcRe
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void unsetRepresentationsInContext() {
         eUnset(Ifc2x3tc1Package.Literals.IFC_REPRESENTATION_CONTEXT__REPRESENTATIONS_IN_CONTEXT);
     }
@@ -168,6 +178,7 @@ public class IfcRepresentationContextImpl extends IdEObjectImpl implements IfcRe
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public boolean isSetRepresentationsInContext() {
         return eIsSet(Ifc2x3tc1Package.Literals.IFC_REPRESENTATION_CONTEXT__REPRESENTATIONS_IN_CONTEXT);
     }

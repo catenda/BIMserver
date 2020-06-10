@@ -52,6 +52,7 @@ public interface IfcPhysicalComplexQuantity extends IfcPhysicalQuantity {
      * @see org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package#getIfcPhysicalComplexQuantity_HasQuantities()
      * @see org.bimserver.models.ifc2x3tc1.IfcPhysicalQuantity#getPartOfComplex
      * @model opposite="PartOfComplex"
+     *        annotation="inverse"
      * @generated
      */
     EList<IfcPhysicalQuantity> getHasQuantities();

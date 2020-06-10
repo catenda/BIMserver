@@ -75,6 +75,7 @@ public class IfcClassificationNotationImpl extends IdEObjectImpl implements IfcC
      * @generated
      */
     @SuppressWarnings("unchecked")
+    @Override
     public EList<IfcClassificationNotationFacet> getNotationFacets() {
         return (EList<IfcClassificationNotationFacet>) eGet(
                 Ifc2x3tc1Package.Literals.IFC_CLASSIFICATION_NOTATION__NOTATION_FACETS, true);

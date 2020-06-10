@@ -66,6 +66,7 @@ public class IfcTextStyleImpl extends IfcPresentationStyleImpl implements IfcTex
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public IfcTextStyleForDefinedFont getTextCharacterAppearance() {
         return (IfcTextStyleForDefinedFont) eGet(Ifc4Package.Literals.IFC_TEXT_STYLE__TEXT_CHARACTER_APPEARANCE, true);
     }
@@ -75,6 +76,7 @@ public class IfcTextStyleImpl extends IfcPresentationStyleImpl implements IfcTex
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setTextCharacterAppearance(IfcTextStyleForDefinedFont newTextCharacterAppearance) {
         eSet(Ifc4Package.Literals.IFC_TEXT_STYLE__TEXT_CHARACTER_APPEARANCE, newTextCharacterAppearance);
     }
@@ -84,6 +86,7 @@ public class IfcTextStyleImpl extends IfcPresentationStyleImpl implements IfcTex
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void unsetTextCharacterAppearance() {
         eUnset(Ifc4Package.Literals.IFC_TEXT_STYLE__TEXT_CHARACTER_APPEARANCE);
     }
@@ -93,6 +96,7 @@ public class IfcTextStyleImpl extends IfcPresentationStyleImpl implements IfcTex
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public boolean isSetTextCharacterAppearance() {
         return eIsSet(Ifc4Package.Literals.IFC_TEXT_STYLE__TEXT_CHARACTER_APPEARANCE);
     }
@@ -102,6 +106,7 @@ public class IfcTextStyleImpl extends IfcPresentationStyleImpl implements IfcTex
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public IfcTextStyleTextModel getTextStyle() {
         return (IfcTextStyleTextModel) eGet(Ifc4Package.Literals.IFC_TEXT_STYLE__TEXT_STYLE, true);
     }
@@ -111,6 +116,7 @@ public class IfcTextStyleImpl extends IfcPresentationStyleImpl implements IfcTex
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setTextStyle(IfcTextStyleTextModel newTextStyle) {
         eSet(Ifc4Package.Literals.IFC_TEXT_STYLE__TEXT_STYLE, newTextStyle);
     }
@@ -120,6 +126,7 @@ public class IfcTextStyleImpl extends IfcPresentationStyleImpl implements IfcTex
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void unsetTextStyle() {
         eUnset(Ifc4Package.Literals.IFC_TEXT_STYLE__TEXT_STYLE);
     }
@@ -129,6 +136,7 @@ public class IfcTextStyleImpl extends IfcPresentationStyleImpl implements IfcTex
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public boolean isSetTextStyle() {
         return eIsSet(Ifc4Package.Literals.IFC_TEXT_STYLE__TEXT_STYLE);
     }
@@ -138,6 +146,7 @@ public class IfcTextStyleImpl extends IfcPresentationStyleImpl implements IfcTex
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public IfcTextFontSelect getTextFontStyle() {
         return (IfcTextFontSelect) eGet(Ifc4Package.Literals.IFC_TEXT_STYLE__TEXT_FONT_STYLE, true);
     }
@@ -147,6 +156,7 @@ public class IfcTextStyleImpl extends IfcPresentationStyleImpl implements IfcTex
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setTextFontStyle(IfcTextFontSelect newTextFontStyle) {
         eSet(Ifc4Package.Literals.IFC_TEXT_STYLE__TEXT_FONT_STYLE, newTextFontStyle);
     }
@@ -156,6 +166,7 @@ public class IfcTextStyleImpl extends IfcPresentationStyleImpl implements IfcTex
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public Tristate getModelOrDraughting() {
         return (Tristate) eGet(Ifc4Package.Literals.IFC_TEXT_STYLE__MODEL_OR_DRAUGHTING, true);
     }
@@ -165,6 +176,7 @@ public class IfcTextStyleImpl extends IfcPresentationStyleImpl implements IfcTex
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setModelOrDraughting(Tristate newModelOrDraughting) {
         eSet(Ifc4Package.Literals.IFC_TEXT_STYLE__MODEL_OR_DRAUGHTING, newModelOrDraughting);
     }
@@ -174,6 +186,7 @@ public class IfcTextStyleImpl extends IfcPresentationStyleImpl implements IfcTex
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void unsetModelOrDraughting() {
         eUnset(Ifc4Package.Literals.IFC_TEXT_STYLE__MODEL_OR_DRAUGHTING);
     }
@@ -183,6 +196,7 @@ public class IfcTextStyleImpl extends IfcPresentationStyleImpl implements IfcTex
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public boolean isSetModelOrDraughting() {
         return eIsSet(Ifc4Package.Literals.IFC_TEXT_STYLE__MODEL_OR_DRAUGHTING);
     }

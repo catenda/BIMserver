@@ -60,6 +60,7 @@ public class IfcQuantityAreaImpl extends IfcPhysicalSimpleQuantityImpl implement
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public double getAreaValue() {
         return (Double) eGet(Ifc2x3tc1Package.Literals.IFC_QUANTITY_AREA__AREA_VALUE, true);
     }
@@ -69,6 +70,7 @@ public class IfcQuantityAreaImpl extends IfcPhysicalSimpleQuantityImpl implement
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setAreaValue(double newAreaValue) {
         eSet(Ifc2x3tc1Package.Literals.IFC_QUANTITY_AREA__AREA_VALUE, newAreaValue);
     }
@@ -78,6 +80,7 @@ public class IfcQuantityAreaImpl extends IfcPhysicalSimpleQuantityImpl implement
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public String getAreaValueAsString() {
         return (String) eGet(Ifc2x3tc1Package.Literals.IFC_QUANTITY_AREA__AREA_VALUE_AS_STRING, true);
     }
@@ -87,6 +90,7 @@ public class IfcQuantityAreaImpl extends IfcPhysicalSimpleQuantityImpl implement
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setAreaValueAsString(String newAreaValueAsString) {
         eSet(Ifc2x3tc1Package.Literals.IFC_QUANTITY_AREA__AREA_VALUE_AS_STRING, newAreaValueAsString);
     }

@@ -62,6 +62,7 @@ public class IfcRelVoidsElementImpl extends IfcRelConnectsImpl implements IfcRel
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public IfcElement getRelatingBuildingElement() {
         return (IfcElement) eGet(Ifc2x3tc1Package.Literals.IFC_REL_VOIDS_ELEMENT__RELATING_BUILDING_ELEMENT, true);
     }
@@ -71,6 +72,7 @@ public class IfcRelVoidsElementImpl extends IfcRelConnectsImpl implements IfcRel
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setRelatingBuildingElement(IfcElement newRelatingBuildingElement) {
         eSet(Ifc2x3tc1Package.Literals.IFC_REL_VOIDS_ELEMENT__RELATING_BUILDING_ELEMENT, newRelatingBuildingElement);
     }
@@ -80,6 +82,7 @@ public class IfcRelVoidsElementImpl extends IfcRelConnectsImpl implements IfcRel
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public IfcFeatureElementSubtraction getRelatedOpeningElement() {
         return (IfcFeatureElementSubtraction) eGet(
                 Ifc2x3tc1Package.Literals.IFC_REL_VOIDS_ELEMENT__RELATED_OPENING_ELEMENT, true);
@@ -90,6 +93,7 @@ public class IfcRelVoidsElementImpl extends IfcRelConnectsImpl implements IfcRel
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setRelatedOpeningElement(IfcFeatureElementSubtraction newRelatedOpeningElement) {
         eSet(Ifc2x3tc1Package.Literals.IFC_REL_VOIDS_ELEMENT__RELATED_OPENING_ELEMENT, newRelatedOpeningElement);
     }

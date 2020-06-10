@@ -229,6 +229,7 @@ public interface IfcOrganization extends IfcActorSelect, IfcObjectReferenceSelec
      * @see org.bimserver.models.ifc4.Ifc4Package#getIfcOrganization_Addresses()
      * @see org.bimserver.models.ifc4.IfcAddress#getOfOrganization
      * @model opposite="OfOrganization" unsettable="true"
+     *        annotation="inverse"
      * @generated
      */
     EList<IfcAddress> getAddresses();
@@ -270,6 +271,7 @@ public interface IfcOrganization extends IfcActorSelect, IfcObjectReferenceSelec
      * @see org.bimserver.models.ifc4.Ifc4Package#getIfcOrganization_IsRelatedBy()
      * @see org.bimserver.models.ifc4.IfcOrganizationRelationship#getRelatedOrganizations
      * @model opposite="RelatedOrganizations" unsettable="true"
+     *        annotation="inverse"
      * @generated
      */
     EList<IfcOrganizationRelationship> getIsRelatedBy();
@@ -311,6 +313,7 @@ public interface IfcOrganization extends IfcActorSelect, IfcObjectReferenceSelec
      * @see org.bimserver.models.ifc4.Ifc4Package#getIfcOrganization_Relates()
      * @see org.bimserver.models.ifc4.IfcOrganizationRelationship#getRelatingOrganization
      * @model opposite="RelatingOrganization" unsettable="true"
+     *        annotation="inverse"
      * @generated
      */
     EList<IfcOrganizationRelationship> getRelates();
@@ -352,6 +355,7 @@ public interface IfcOrganization extends IfcActorSelect, IfcObjectReferenceSelec
      * @see org.bimserver.models.ifc4.Ifc4Package#getIfcOrganization_Engages()
      * @see org.bimserver.models.ifc4.IfcPersonAndOrganization#getTheOrganization
      * @model opposite="TheOrganization" unsettable="true"
+     *        annotation="inverse"
      * @generated
      */
     EList<IfcPersonAndOrganization> getEngages();

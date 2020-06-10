@@ -64,6 +64,7 @@ public class IfcBoundaryFaceConditionImpl extends IfcBoundaryConditionImpl imple
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public double getLinearStiffnessByAreaX() {
         return (Double) eGet(Ifc2x3tc1Package.Literals.IFC_BOUNDARY_FACE_CONDITION__LINEAR_STIFFNESS_BY_AREA_X, true);
     }
@@ -73,6 +74,7 @@ public class IfcBoundaryFaceConditionImpl extends IfcBoundaryConditionImpl imple
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setLinearStiffnessByAreaX(double newLinearStiffnessByAreaX) {
         eSet(Ifc2x3tc1Package.Literals.IFC_BOUNDARY_FACE_CONDITION__LINEAR_STIFFNESS_BY_AREA_X,
                 newLinearStiffnessByAreaX);
@@ -83,6 +85,7 @@ public class IfcBoundaryFaceConditionImpl extends IfcBoundaryConditionImpl imple
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void unsetLinearStiffnessByAreaX() {
         eUnset(Ifc2x3tc1Package.Literals.IFC_BOUNDARY_FACE_CONDITION__LINEAR_STIFFNESS_BY_AREA_X);
     }
@@ -92,6 +95,7 @@ public class IfcBoundaryFaceConditionImpl extends IfcBoundaryConditionImpl imple
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public boolean isSetLinearStiffnessByAreaX() {
         return eIsSet(Ifc2x3tc1Package.Literals.IFC_BOUNDARY_FACE_CONDITION__LINEAR_STIFFNESS_BY_AREA_X);
     }
@@ -101,6 +105,7 @@ public class IfcBoundaryFaceConditionImpl extends IfcBoundaryConditionImpl imple
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public String getLinearStiffnessByAreaXAsString() {
         return (String) eGet(Ifc2x3tc1Package.Literals.IFC_BOUNDARY_FACE_CONDITION__LINEAR_STIFFNESS_BY_AREA_XAS_STRING,
                 true);
@@ -111,6 +116,7 @@ public class IfcBoundaryFaceConditionImpl extends IfcBoundaryConditionImpl imple
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setLinearStiffnessByAreaXAsString(String newLinearStiffnessByAreaXAsString) {
         eSet(Ifc2x3tc1Package.Literals.IFC_BOUNDARY_FACE_CONDITION__LINEAR_STIFFNESS_BY_AREA_XAS_STRING,
                 newLinearStiffnessByAreaXAsString);
@@ -121,6 +127,7 @@ public class IfcBoundaryFaceConditionImpl extends IfcBoundaryConditionImpl imple
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void unsetLinearStiffnessByAreaXAsString() {
         eUnset(Ifc2x3tc1Package.Literals.IFC_BOUNDARY_FACE_CONDITION__LINEAR_STIFFNESS_BY_AREA_XAS_STRING);
     }
@@ -130,6 +137,7 @@ public class IfcBoundaryFaceConditionImpl extends IfcBoundaryConditionImpl imple
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public boolean isSetLinearStiffnessByAreaXAsString() {
         return eIsSet(Ifc2x3tc1Package.Literals.IFC_BOUNDARY_FACE_CONDITION__LINEAR_STIFFNESS_BY_AREA_XAS_STRING);
     }
@@ -139,6 +147,7 @@ public class IfcBoundaryFaceConditionImpl extends IfcBoundaryConditionImpl imple
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public double getLinearStiffnessByAreaY() {
         return (Double) eGet(Ifc2x3tc1Package.Literals.IFC_BOUNDARY_FACE_CONDITION__LINEAR_STIFFNESS_BY_AREA_Y, true);
     }
@@ -148,6 +157,7 @@ public class IfcBoundaryFaceConditionImpl extends IfcBoundaryConditionImpl imple
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setLinearStiffnessByAreaY(double newLinearStiffnessByAreaY) {
         eSet(Ifc2x3tc1Package.Literals.IFC_BOUNDARY_FACE_CONDITION__LINEAR_STIFFNESS_BY_AREA_Y,
                 newLinearStiffnessByAreaY);
@@ -158,6 +168,7 @@ public class IfcBoundaryFaceConditionImpl extends IfcBoundaryConditionImpl imple
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void unsetLinearStiffnessByAreaY() {
         eUnset(Ifc2x3tc1Package.Literals.IFC_BOUNDARY_FACE_CONDITION__LINEAR_STIFFNESS_BY_AREA_Y);
     }
@@ -167,6 +178,7 @@ public class IfcBoundaryFaceConditionImpl extends IfcBoundaryConditionImpl imple
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public boolean isSetLinearStiffnessByAreaY() {
         return eIsSet(Ifc2x3tc1Package.Literals.IFC_BOUNDARY_FACE_CONDITION__LINEAR_STIFFNESS_BY_AREA_Y);
     }
@@ -176,6 +188,7 @@ public class IfcBoundaryFaceConditionImpl extends IfcBoundaryConditionImpl imple
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public String getLinearStiffnessByAreaYAsString() {
         return (String) eGet(Ifc2x3tc1Package.Literals.IFC_BOUNDARY_FACE_CONDITION__LINEAR_STIFFNESS_BY_AREA_YAS_STRING,
                 true);
@@ -186,6 +199,7 @@ public class IfcBoundaryFaceConditionImpl extends IfcBoundaryConditionImpl imple
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setLinearStiffnessByAreaYAsString(String newLinearStiffnessByAreaYAsString) {
         eSet(Ifc2x3tc1Package.Literals.IFC_BOUNDARY_FACE_CONDITION__LINEAR_STIFFNESS_BY_AREA_YAS_STRING,
                 newLinearStiffnessByAreaYAsString);
@@ -196,6 +210,7 @@ public class IfcBoundaryFaceConditionImpl extends IfcBoundaryConditionImpl imple
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void unsetLinearStiffnessByAreaYAsString() {
         eUnset(Ifc2x3tc1Package.Literals.IFC_BOUNDARY_FACE_CONDITION__LINEAR_STIFFNESS_BY_AREA_YAS_STRING);
     }
@@ -205,6 +220,7 @@ public class IfcBoundaryFaceConditionImpl extends IfcBoundaryConditionImpl imple
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public boolean isSetLinearStiffnessByAreaYAsString() {
         return eIsSet(Ifc2x3tc1Package.Literals.IFC_BOUNDARY_FACE_CONDITION__LINEAR_STIFFNESS_BY_AREA_YAS_STRING);
     }
@@ -214,6 +230,7 @@ public class IfcBoundaryFaceConditionImpl extends IfcBoundaryConditionImpl imple
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public double getLinearStiffnessByAreaZ() {
         return (Double) eGet(Ifc2x3tc1Package.Literals.IFC_BOUNDARY_FACE_CONDITION__LINEAR_STIFFNESS_BY_AREA_Z, true);
     }
@@ -223,6 +240,7 @@ public class IfcBoundaryFaceConditionImpl extends IfcBoundaryConditionImpl imple
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setLinearStiffnessByAreaZ(double newLinearStiffnessByAreaZ) {
         eSet(Ifc2x3tc1Package.Literals.IFC_BOUNDARY_FACE_CONDITION__LINEAR_STIFFNESS_BY_AREA_Z,
                 newLinearStiffnessByAreaZ);
@@ -233,6 +251,7 @@ public class IfcBoundaryFaceConditionImpl extends IfcBoundaryConditionImpl imple
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void unsetLinearStiffnessByAreaZ() {
         eUnset(Ifc2x3tc1Package.Literals.IFC_BOUNDARY_FACE_CONDITION__LINEAR_STIFFNESS_BY_AREA_Z);
     }
@@ -242,6 +261,7 @@ public class IfcBoundaryFaceConditionImpl extends IfcBoundaryConditionImpl imple
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public boolean isSetLinearStiffnessByAreaZ() {
         return eIsSet(Ifc2x3tc1Package.Literals.IFC_BOUNDARY_FACE_CONDITION__LINEAR_STIFFNESS_BY_AREA_Z);
     }
@@ -251,6 +271,7 @@ public class IfcBoundaryFaceConditionImpl extends IfcBoundaryConditionImpl imple
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public String getLinearStiffnessByAreaZAsString() {
         return (String) eGet(Ifc2x3tc1Package.Literals.IFC_BOUNDARY_FACE_CONDITION__LINEAR_STIFFNESS_BY_AREA_ZAS_STRING,
                 true);
@@ -261,6 +282,7 @@ public class IfcBoundaryFaceConditionImpl extends IfcBoundaryConditionImpl imple
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setLinearStiffnessByAreaZAsString(String newLinearStiffnessByAreaZAsString) {
         eSet(Ifc2x3tc1Package.Literals.IFC_BOUNDARY_FACE_CONDITION__LINEAR_STIFFNESS_BY_AREA_ZAS_STRING,
                 newLinearStiffnessByAreaZAsString);
@@ -271,6 +293,7 @@ public class IfcBoundaryFaceConditionImpl extends IfcBoundaryConditionImpl imple
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void unsetLinearStiffnessByAreaZAsString() {
         eUnset(Ifc2x3tc1Package.Literals.IFC_BOUNDARY_FACE_CONDITION__LINEAR_STIFFNESS_BY_AREA_ZAS_STRING);
     }
@@ -280,6 +303,7 @@ public class IfcBoundaryFaceConditionImpl extends IfcBoundaryConditionImpl imple
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public boolean isSetLinearStiffnessByAreaZAsString() {
         return eIsSet(Ifc2x3tc1Package.Literals.IFC_BOUNDARY_FACE_CONDITION__LINEAR_STIFFNESS_BY_AREA_ZAS_STRING);
     }

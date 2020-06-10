@@ -63,6 +63,7 @@ public class IfcRelDecomposesImpl extends IfcRelationshipImpl implements IfcRelD
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public IfcObjectDefinition getRelatingObject() {
         return (IfcObjectDefinition) eGet(Ifc2x3tc1Package.Literals.IFC_REL_DECOMPOSES__RELATING_OBJECT, true);
     }
@@ -72,6 +73,7 @@ public class IfcRelDecomposesImpl extends IfcRelationshipImpl implements IfcRelD
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setRelatingObject(IfcObjectDefinition newRelatingObject) {
         eSet(Ifc2x3tc1Package.Literals.IFC_REL_DECOMPOSES__RELATING_OBJECT, newRelatingObject);
     }
@@ -82,6 +84,7 @@ public class IfcRelDecomposesImpl extends IfcRelationshipImpl implements IfcRelD
      * @generated
      */
     @SuppressWarnings("unchecked")
+    @Override
     public EList<IfcObjectDefinition> getRelatedObjects() {
         return (EList<IfcObjectDefinition>) eGet(Ifc2x3tc1Package.Literals.IFC_REL_DECOMPOSES__RELATED_OBJECTS, true);
     }

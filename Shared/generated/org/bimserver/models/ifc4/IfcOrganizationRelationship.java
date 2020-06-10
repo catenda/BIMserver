@@ -50,6 +50,7 @@ public interface IfcOrganizationRelationship extends IfcResourceLevelRelationshi
      * @see org.bimserver.models.ifc4.Ifc4Package#getIfcOrganizationRelationship_RelatingOrganization()
      * @see org.bimserver.models.ifc4.IfcOrganization#getRelates
      * @model opposite="Relates"
+     *        annotation="inverse"
      * @generated
      */
     IfcOrganization getRelatingOrganization();
@@ -78,6 +79,7 @@ public interface IfcOrganizationRelationship extends IfcResourceLevelRelationshi
      * @see org.bimserver.models.ifc4.Ifc4Package#getIfcOrganizationRelationship_RelatedOrganizations()
      * @see org.bimserver.models.ifc4.IfcOrganization#getIsRelatedBy
      * @model opposite="IsRelatedBy"
+     *        annotation="inverse"
      * @generated
      */
     EList<IfcOrganization> getRelatedOrganizations();

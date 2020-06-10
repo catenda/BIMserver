@@ -64,6 +64,7 @@ public class IfcConstructionResourceImpl extends IfcResourceImpl implements IfcC
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public String getResourceIdentifier() {
         return (String) eGet(Ifc2x3tc1Package.Literals.IFC_CONSTRUCTION_RESOURCE__RESOURCE_IDENTIFIER, true);
     }
@@ -73,6 +74,7 @@ public class IfcConstructionResourceImpl extends IfcResourceImpl implements IfcC
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setResourceIdentifier(String newResourceIdentifier) {
         eSet(Ifc2x3tc1Package.Literals.IFC_CONSTRUCTION_RESOURCE__RESOURCE_IDENTIFIER, newResourceIdentifier);
     }
@@ -82,6 +84,7 @@ public class IfcConstructionResourceImpl extends IfcResourceImpl implements IfcC
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void unsetResourceIdentifier() {
         eUnset(Ifc2x3tc1Package.Literals.IFC_CONSTRUCTION_RESOURCE__RESOURCE_IDENTIFIER);
     }
@@ -91,6 +94,7 @@ public class IfcConstructionResourceImpl extends IfcResourceImpl implements IfcC
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public boolean isSetResourceIdentifier() {
         return eIsSet(Ifc2x3tc1Package.Literals.IFC_CONSTRUCTION_RESOURCE__RESOURCE_IDENTIFIER);
     }
@@ -100,6 +104,7 @@ public class IfcConstructionResourceImpl extends IfcResourceImpl implements IfcC
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public String getResourceGroup() {
         return (String) eGet(Ifc2x3tc1Package.Literals.IFC_CONSTRUCTION_RESOURCE__RESOURCE_GROUP, true);
     }
@@ -109,6 +114,7 @@ public class IfcConstructionResourceImpl extends IfcResourceImpl implements IfcC
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setResourceGroup(String newResourceGroup) {
         eSet(Ifc2x3tc1Package.Literals.IFC_CONSTRUCTION_RESOURCE__RESOURCE_GROUP, newResourceGroup);
     }
@@ -118,6 +124,7 @@ public class IfcConstructionResourceImpl extends IfcResourceImpl implements IfcC
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void unsetResourceGroup() {
         eUnset(Ifc2x3tc1Package.Literals.IFC_CONSTRUCTION_RESOURCE__RESOURCE_GROUP);
     }
@@ -127,6 +134,7 @@ public class IfcConstructionResourceImpl extends IfcResourceImpl implements IfcC
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public boolean isSetResourceGroup() {
         return eIsSet(Ifc2x3tc1Package.Literals.IFC_CONSTRUCTION_RESOURCE__RESOURCE_GROUP);
     }
@@ -136,6 +144,7 @@ public class IfcConstructionResourceImpl extends IfcResourceImpl implements IfcC
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public IfcResourceConsumptionEnum getResourceConsumption() {
         return (IfcResourceConsumptionEnum) eGet(
                 Ifc2x3tc1Package.Literals.IFC_CONSTRUCTION_RESOURCE__RESOURCE_CONSUMPTION, true);
@@ -146,6 +155,7 @@ public class IfcConstructionResourceImpl extends IfcResourceImpl implements IfcC
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setResourceConsumption(IfcResourceConsumptionEnum newResourceConsumption) {
         eSet(Ifc2x3tc1Package.Literals.IFC_CONSTRUCTION_RESOURCE__RESOURCE_CONSUMPTION, newResourceConsumption);
     }
@@ -155,6 +165,7 @@ public class IfcConstructionResourceImpl extends IfcResourceImpl implements IfcC
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void unsetResourceConsumption() {
         eUnset(Ifc2x3tc1Package.Literals.IFC_CONSTRUCTION_RESOURCE__RESOURCE_CONSUMPTION);
     }
@@ -164,6 +175,7 @@ public class IfcConstructionResourceImpl extends IfcResourceImpl implements IfcC
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public boolean isSetResourceConsumption() {
         return eIsSet(Ifc2x3tc1Package.Literals.IFC_CONSTRUCTION_RESOURCE__RESOURCE_CONSUMPTION);
     }
@@ -173,6 +185,7 @@ public class IfcConstructionResourceImpl extends IfcResourceImpl implements IfcC
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public IfcMeasureWithUnit getBaseQuantity() {
         return (IfcMeasureWithUnit) eGet(Ifc2x3tc1Package.Literals.IFC_CONSTRUCTION_RESOURCE__BASE_QUANTITY, true);
     }
@@ -182,6 +195,7 @@ public class IfcConstructionResourceImpl extends IfcResourceImpl implements IfcC
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setBaseQuantity(IfcMeasureWithUnit newBaseQuantity) {
         eSet(Ifc2x3tc1Package.Literals.IFC_CONSTRUCTION_RESOURCE__BASE_QUANTITY, newBaseQuantity);
     }
@@ -191,6 +205,7 @@ public class IfcConstructionResourceImpl extends IfcResourceImpl implements IfcC
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void unsetBaseQuantity() {
         eUnset(Ifc2x3tc1Package.Literals.IFC_CONSTRUCTION_RESOURCE__BASE_QUANTITY);
     }
@@ -200,6 +215,7 @@ public class IfcConstructionResourceImpl extends IfcResourceImpl implements IfcC
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public boolean isSetBaseQuantity() {
         return eIsSet(Ifc2x3tc1Package.Literals.IFC_CONSTRUCTION_RESOURCE__BASE_QUANTITY);
     }

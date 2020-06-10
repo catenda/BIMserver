@@ -77,6 +77,7 @@ public class IfcOrganizationRelationshipImpl extends IdEObjectImpl implements If
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public String getName() {
         return (String) eGet(Ifc2x3tc1Package.Literals.IFC_ORGANIZATION_RELATIONSHIP__NAME, true);
     }
@@ -86,6 +87,7 @@ public class IfcOrganizationRelationshipImpl extends IdEObjectImpl implements If
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setName(String newName) {
         eSet(Ifc2x3tc1Package.Literals.IFC_ORGANIZATION_RELATIONSHIP__NAME, newName);
     }
@@ -95,6 +97,7 @@ public class IfcOrganizationRelationshipImpl extends IdEObjectImpl implements If
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public String getDescription() {
         return (String) eGet(Ifc2x3tc1Package.Literals.IFC_ORGANIZATION_RELATIONSHIP__DESCRIPTION, true);
     }
@@ -104,6 +107,7 @@ public class IfcOrganizationRelationshipImpl extends IdEObjectImpl implements If
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setDescription(String newDescription) {
         eSet(Ifc2x3tc1Package.Literals.IFC_ORGANIZATION_RELATIONSHIP__DESCRIPTION, newDescription);
     }
@@ -113,6 +117,7 @@ public class IfcOrganizationRelationshipImpl extends IdEObjectImpl implements If
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void unsetDescription() {
         eUnset(Ifc2x3tc1Package.Literals.IFC_ORGANIZATION_RELATIONSHIP__DESCRIPTION);
     }
@@ -122,6 +127,7 @@ public class IfcOrganizationRelationshipImpl extends IdEObjectImpl implements If
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public boolean isSetDescription() {
         return eIsSet(Ifc2x3tc1Package.Literals.IFC_ORGANIZATION_RELATIONSHIP__DESCRIPTION);
     }
@@ -131,6 +137,7 @@ public class IfcOrganizationRelationshipImpl extends IdEObjectImpl implements If
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public IfcOrganization getRelatingOrganization() {
         return (IfcOrganization) eGet(Ifc2x3tc1Package.Literals.IFC_ORGANIZATION_RELATIONSHIP__RELATING_ORGANIZATION,
                 true);
@@ -141,6 +148,7 @@ public class IfcOrganizationRelationshipImpl extends IdEObjectImpl implements If
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setRelatingOrganization(IfcOrganization newRelatingOrganization) {
         eSet(Ifc2x3tc1Package.Literals.IFC_ORGANIZATION_RELATIONSHIP__RELATING_ORGANIZATION, newRelatingOrganization);
     }
@@ -151,6 +159,7 @@ public class IfcOrganizationRelationshipImpl extends IdEObjectImpl implements If
      * @generated
      */
     @SuppressWarnings("unchecked")
+    @Override
     public EList<IfcOrganization> getRelatedOrganizations() {
         return (EList<IfcOrganization>) eGet(
                 Ifc2x3tc1Package.Literals.IFC_ORGANIZATION_RELATIONSHIP__RELATED_ORGANIZATIONS, true);

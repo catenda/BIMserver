@@ -61,6 +61,7 @@ public class IfcEnergyPropertiesImpl extends IfcPropertySetDefinitionImpl implem
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public IfcEnergySequenceEnum getEnergySequence() {
         return (IfcEnergySequenceEnum) eGet(Ifc2x3tc1Package.Literals.IFC_ENERGY_PROPERTIES__ENERGY_SEQUENCE, true);
     }
@@ -70,6 +71,7 @@ public class IfcEnergyPropertiesImpl extends IfcPropertySetDefinitionImpl implem
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setEnergySequence(IfcEnergySequenceEnum newEnergySequence) {
         eSet(Ifc2x3tc1Package.Literals.IFC_ENERGY_PROPERTIES__ENERGY_SEQUENCE, newEnergySequence);
     }
@@ -79,6 +81,7 @@ public class IfcEnergyPropertiesImpl extends IfcPropertySetDefinitionImpl implem
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void unsetEnergySequence() {
         eUnset(Ifc2x3tc1Package.Literals.IFC_ENERGY_PROPERTIES__ENERGY_SEQUENCE);
     }
@@ -88,6 +91,7 @@ public class IfcEnergyPropertiesImpl extends IfcPropertySetDefinitionImpl implem
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public boolean isSetEnergySequence() {
         return eIsSet(Ifc2x3tc1Package.Literals.IFC_ENERGY_PROPERTIES__ENERGY_SEQUENCE);
     }
@@ -97,6 +101,7 @@ public class IfcEnergyPropertiesImpl extends IfcPropertySetDefinitionImpl implem
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public String getUserDefinedEnergySequence() {
         return (String) eGet(Ifc2x3tc1Package.Literals.IFC_ENERGY_PROPERTIES__USER_DEFINED_ENERGY_SEQUENCE, true);
     }
@@ -106,6 +111,7 @@ public class IfcEnergyPropertiesImpl extends IfcPropertySetDefinitionImpl implem
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setUserDefinedEnergySequence(String newUserDefinedEnergySequence) {
         eSet(Ifc2x3tc1Package.Literals.IFC_ENERGY_PROPERTIES__USER_DEFINED_ENERGY_SEQUENCE,
                 newUserDefinedEnergySequence);
@@ -116,6 +122,7 @@ public class IfcEnergyPropertiesImpl extends IfcPropertySetDefinitionImpl implem
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void unsetUserDefinedEnergySequence() {
         eUnset(Ifc2x3tc1Package.Literals.IFC_ENERGY_PROPERTIES__USER_DEFINED_ENERGY_SEQUENCE);
     }
@@ -125,6 +132,7 @@ public class IfcEnergyPropertiesImpl extends IfcPropertySetDefinitionImpl implem
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public boolean isSetUserDefinedEnergySequence() {
         return eIsSet(Ifc2x3tc1Package.Literals.IFC_ENERGY_PROPERTIES__USER_DEFINED_ENERGY_SEQUENCE);
     }

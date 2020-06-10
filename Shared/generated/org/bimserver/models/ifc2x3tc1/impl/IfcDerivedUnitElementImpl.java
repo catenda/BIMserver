@@ -73,6 +73,7 @@ public class IfcDerivedUnitElementImpl extends IdEObjectImpl implements IfcDeriv
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public IfcNamedUnit getUnit() {
         return (IfcNamedUnit) eGet(Ifc2x3tc1Package.Literals.IFC_DERIVED_UNIT_ELEMENT__UNIT, true);
     }
@@ -82,6 +83,7 @@ public class IfcDerivedUnitElementImpl extends IdEObjectImpl implements IfcDeriv
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setUnit(IfcNamedUnit newUnit) {
         eSet(Ifc2x3tc1Package.Literals.IFC_DERIVED_UNIT_ELEMENT__UNIT, newUnit);
     }
@@ -91,6 +93,7 @@ public class IfcDerivedUnitElementImpl extends IdEObjectImpl implements IfcDeriv
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public long getExponent() {
         return (Long) eGet(Ifc2x3tc1Package.Literals.IFC_DERIVED_UNIT_ELEMENT__EXPONENT, true);
     }
@@ -100,6 +103,7 @@ public class IfcDerivedUnitElementImpl extends IdEObjectImpl implements IfcDeriv
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setExponent(long newExponent) {
         eSet(Ifc2x3tc1Package.Literals.IFC_DERIVED_UNIT_ELEMENT__EXPONENT, newExponent);
     }

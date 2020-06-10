@@ -63,6 +63,7 @@ public class IfcElementQuantityImpl extends IfcPropertySetDefinitionImpl impleme
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public String getMethodOfMeasurement() {
         return (String) eGet(Ifc2x3tc1Package.Literals.IFC_ELEMENT_QUANTITY__METHOD_OF_MEASUREMENT, true);
     }
@@ -72,6 +73,7 @@ public class IfcElementQuantityImpl extends IfcPropertySetDefinitionImpl impleme
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setMethodOfMeasurement(String newMethodOfMeasurement) {
         eSet(Ifc2x3tc1Package.Literals.IFC_ELEMENT_QUANTITY__METHOD_OF_MEASUREMENT, newMethodOfMeasurement);
     }
@@ -81,6 +83,7 @@ public class IfcElementQuantityImpl extends IfcPropertySetDefinitionImpl impleme
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void unsetMethodOfMeasurement() {
         eUnset(Ifc2x3tc1Package.Literals.IFC_ELEMENT_QUANTITY__METHOD_OF_MEASUREMENT);
     }
@@ -90,6 +93,7 @@ public class IfcElementQuantityImpl extends IfcPropertySetDefinitionImpl impleme
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public boolean isSetMethodOfMeasurement() {
         return eIsSet(Ifc2x3tc1Package.Literals.IFC_ELEMENT_QUANTITY__METHOD_OF_MEASUREMENT);
     }
@@ -100,6 +104,7 @@ public class IfcElementQuantityImpl extends IfcPropertySetDefinitionImpl impleme
      * @generated
      */
     @SuppressWarnings("unchecked")
+    @Override
     public EList<IfcPhysicalQuantity> getQuantities() {
         return (EList<IfcPhysicalQuantity>) eGet(Ifc2x3tc1Package.Literals.IFC_ELEMENT_QUANTITY__QUANTITIES, true);
     }

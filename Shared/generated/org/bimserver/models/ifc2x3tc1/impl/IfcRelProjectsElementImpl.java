@@ -62,6 +62,7 @@ public class IfcRelProjectsElementImpl extends IfcRelConnectsImpl implements Ifc
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public IfcElement getRelatingElement() {
         return (IfcElement) eGet(Ifc2x3tc1Package.Literals.IFC_REL_PROJECTS_ELEMENT__RELATING_ELEMENT, true);
     }
@@ -71,6 +72,7 @@ public class IfcRelProjectsElementImpl extends IfcRelConnectsImpl implements Ifc
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setRelatingElement(IfcElement newRelatingElement) {
         eSet(Ifc2x3tc1Package.Literals.IFC_REL_PROJECTS_ELEMENT__RELATING_ELEMENT, newRelatingElement);
     }
@@ -80,6 +82,7 @@ public class IfcRelProjectsElementImpl extends IfcRelConnectsImpl implements Ifc
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public IfcFeatureElementAddition getRelatedFeatureElement() {
         return (IfcFeatureElementAddition) eGet(
                 Ifc2x3tc1Package.Literals.IFC_REL_PROJECTS_ELEMENT__RELATED_FEATURE_ELEMENT, true);
@@ -90,6 +93,7 @@ public class IfcRelProjectsElementImpl extends IfcRelConnectsImpl implements Ifc
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setRelatedFeatureElement(IfcFeatureElementAddition newRelatedFeatureElement) {
         eSet(Ifc2x3tc1Package.Literals.IFC_REL_PROJECTS_ELEMENT__RELATED_FEATURE_ELEMENT, newRelatedFeatureElement);
     }

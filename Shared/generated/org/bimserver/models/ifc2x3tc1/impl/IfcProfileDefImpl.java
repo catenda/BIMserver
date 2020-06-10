@@ -73,6 +73,7 @@ public class IfcProfileDefImpl extends IdEObjectImpl implements IfcProfileDef {
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public IfcProfileTypeEnum getProfileType() {
         return (IfcProfileTypeEnum) eGet(Ifc2x3tc1Package.Literals.IFC_PROFILE_DEF__PROFILE_TYPE, true);
     }
@@ -82,6 +83,7 @@ public class IfcProfileDefImpl extends IdEObjectImpl implements IfcProfileDef {
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setProfileType(IfcProfileTypeEnum newProfileType) {
         eSet(Ifc2x3tc1Package.Literals.IFC_PROFILE_DEF__PROFILE_TYPE, newProfileType);
     }
@@ -91,6 +93,7 @@ public class IfcProfileDefImpl extends IdEObjectImpl implements IfcProfileDef {
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public String getProfileName() {
         return (String) eGet(Ifc2x3tc1Package.Literals.IFC_PROFILE_DEF__PROFILE_NAME, true);
     }
@@ -100,6 +103,7 @@ public class IfcProfileDefImpl extends IdEObjectImpl implements IfcProfileDef {
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setProfileName(String newProfileName) {
         eSet(Ifc2x3tc1Package.Literals.IFC_PROFILE_DEF__PROFILE_NAME, newProfileName);
     }
@@ -109,6 +113,7 @@ public class IfcProfileDefImpl extends IdEObjectImpl implements IfcProfileDef {
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void unsetProfileName() {
         eUnset(Ifc2x3tc1Package.Literals.IFC_PROFILE_DEF__PROFILE_NAME);
     }
@@ -118,6 +123,7 @@ public class IfcProfileDefImpl extends IdEObjectImpl implements IfcProfileDef {
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public boolean isSetProfileName() {
         return eIsSet(Ifc2x3tc1Package.Literals.IFC_PROFILE_DEF__PROFILE_NAME);
     }

@@ -33,7 +33,8 @@ import org.bimserver.emf.IdEObject;
  * </ul>
  *
  * @see org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package#getGeometryData()
- * @model
+ * @model annotation="nolazyload"
+ *        annotation="hidden"
  * @extends IdEObject
  * @generated
  */

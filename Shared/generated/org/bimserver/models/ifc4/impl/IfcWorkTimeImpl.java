@@ -62,6 +62,7 @@ public class IfcWorkTimeImpl extends IfcSchedulingTimeImpl implements IfcWorkTim
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public IfcRecurrencePattern getRecurrencePattern() {
         return (IfcRecurrencePattern) eGet(Ifc4Package.Literals.IFC_WORK_TIME__RECURRENCE_PATTERN, true);
     }
@@ -71,6 +72,7 @@ public class IfcWorkTimeImpl extends IfcSchedulingTimeImpl implements IfcWorkTim
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setRecurrencePattern(IfcRecurrencePattern newRecurrencePattern) {
         eSet(Ifc4Package.Literals.IFC_WORK_TIME__RECURRENCE_PATTERN, newRecurrencePattern);
     }
@@ -80,6 +82,7 @@ public class IfcWorkTimeImpl extends IfcSchedulingTimeImpl implements IfcWorkTim
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void unsetRecurrencePattern() {
         eUnset(Ifc4Package.Literals.IFC_WORK_TIME__RECURRENCE_PATTERN);
     }
@@ -89,6 +92,7 @@ public class IfcWorkTimeImpl extends IfcSchedulingTimeImpl implements IfcWorkTim
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public boolean isSetRecurrencePattern() {
         return eIsSet(Ifc4Package.Literals.IFC_WORK_TIME__RECURRENCE_PATTERN);
     }
@@ -98,6 +102,7 @@ public class IfcWorkTimeImpl extends IfcSchedulingTimeImpl implements IfcWorkTim
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public String getStart() {
         return (String) eGet(Ifc4Package.Literals.IFC_WORK_TIME__START, true);
     }
@@ -107,6 +112,7 @@ public class IfcWorkTimeImpl extends IfcSchedulingTimeImpl implements IfcWorkTim
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setStart(String newStart) {
         eSet(Ifc4Package.Literals.IFC_WORK_TIME__START, newStart);
     }
@@ -116,6 +122,7 @@ public class IfcWorkTimeImpl extends IfcSchedulingTimeImpl implements IfcWorkTim
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void unsetStart() {
         eUnset(Ifc4Package.Literals.IFC_WORK_TIME__START);
     }
@@ -125,6 +132,7 @@ public class IfcWorkTimeImpl extends IfcSchedulingTimeImpl implements IfcWorkTim
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public boolean isSetStart() {
         return eIsSet(Ifc4Package.Literals.IFC_WORK_TIME__START);
     }
@@ -134,6 +142,7 @@ public class IfcWorkTimeImpl extends IfcSchedulingTimeImpl implements IfcWorkTim
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public String getFinish() {
         return (String) eGet(Ifc4Package.Literals.IFC_WORK_TIME__FINISH, true);
     }
@@ -143,6 +152,7 @@ public class IfcWorkTimeImpl extends IfcSchedulingTimeImpl implements IfcWorkTim
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setFinish(String newFinish) {
         eSet(Ifc4Package.Literals.IFC_WORK_TIME__FINISH, newFinish);
     }
@@ -152,6 +162,7 @@ public class IfcWorkTimeImpl extends IfcSchedulingTimeImpl implements IfcWorkTim
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void unsetFinish() {
         eUnset(Ifc4Package.Literals.IFC_WORK_TIME__FINISH);
     }
@@ -161,6 +172,7 @@ public class IfcWorkTimeImpl extends IfcSchedulingTimeImpl implements IfcWorkTim
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public boolean isSetFinish() {
         return eIsSet(Ifc4Package.Literals.IFC_WORK_TIME__FINISH);
     }

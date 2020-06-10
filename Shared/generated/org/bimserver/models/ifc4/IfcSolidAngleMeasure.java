@@ -30,7 +30,7 @@ package org.bimserver.models.ifc4;
  * </ul>
  *
  * @see org.bimserver.models.ifc4.Ifc4Package#getIfcSolidAngleMeasure()
- * @model
+ * @model annotation="wrapped"
  * @generated
  */
 public interface IfcSolidAngleMeasure extends IfcMeasureValue {
@@ -101,6 +101,8 @@ public interface IfcSolidAngleMeasure extends IfcMeasureValue {
      * @see #setWrappedValueAsString(String)
      * @see org.bimserver.models.ifc4.Ifc4Package#getIfcSolidAngleMeasure_WrappedValueAsString()
      * @model unsettable="true"
+     *        annotation="asstring"
+     *        annotation="hidden"
      * @generated
      */
     String getWrappedValueAsString();

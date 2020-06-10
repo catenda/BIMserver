@@ -61,6 +61,7 @@ public class IfcFillAreaStyleTileSymbolWithStyleImpl extends IfcGeometricReprese
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public IfcAnnotationSymbolOccurrence getSymbol() {
         return (IfcAnnotationSymbolOccurrence) eGet(
                 Ifc2x3tc1Package.Literals.IFC_FILL_AREA_STYLE_TILE_SYMBOL_WITH_STYLE__SYMBOL, true);
@@ -71,6 +72,7 @@ public class IfcFillAreaStyleTileSymbolWithStyleImpl extends IfcGeometricReprese
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setSymbol(IfcAnnotationSymbolOccurrence newSymbol) {
         eSet(Ifc2x3tc1Package.Literals.IFC_FILL_AREA_STYLE_TILE_SYMBOL_WITH_STYLE__SYMBOL, newSymbol);
     }

@@ -61,6 +61,7 @@ public class IfcRelConnectsWithEccentricityImpl extends IfcRelConnectsStructural
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public IfcConnectionGeometry getConnectionConstraint() {
         return (IfcConnectionGeometry) eGet(
                 Ifc2x3tc1Package.Literals.IFC_REL_CONNECTS_WITH_ECCENTRICITY__CONNECTION_CONSTRAINT, true);
@@ -71,6 +72,7 @@ public class IfcRelConnectsWithEccentricityImpl extends IfcRelConnectsStructural
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setConnectionConstraint(IfcConnectionGeometry newConnectionConstraint) {
         eSet(Ifc2x3tc1Package.Literals.IFC_REL_CONNECTS_WITH_ECCENTRICITY__CONNECTION_CONSTRAINT,
                 newConnectionConstraint);

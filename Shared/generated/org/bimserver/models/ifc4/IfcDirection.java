@@ -66,6 +66,8 @@ public interface IfcDirection
      * @return the value of the '<em>Direction Ratios As String</em>' attribute list.
      * @see org.bimserver.models.ifc4.Ifc4Package#getIfcDirection_DirectionRatiosAsString()
      * @model unique="false"
+     *        annotation="asstring"
+     *        annotation="hidden"
      * @generated
      */
     EList<String> getDirectionRatiosAsString();
@@ -84,6 +86,7 @@ public interface IfcDirection
      * @see #setDim(long)
      * @see org.bimserver.models.ifc4.Ifc4Package#getIfcDirection_Dim()
      * @model unsettable="true" derived="true"
+     *        annotation="derived"
      * @generated
      */
     long getDim();

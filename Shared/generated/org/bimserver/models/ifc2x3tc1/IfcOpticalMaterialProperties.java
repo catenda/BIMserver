@@ -117,6 +117,8 @@ public interface IfcOpticalMaterialProperties extends IfcMaterialProperties {
      * @see #setVisibleTransmittanceAsString(String)
      * @see org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package#getIfcOpticalMaterialProperties_VisibleTransmittanceAsString()
      * @model unsettable="true"
+     *        annotation="asstring"
+     *        annotation="hidden"
      * @generated
      */
     String getVisibleTransmittanceAsString();
@@ -223,6 +225,8 @@ public interface IfcOpticalMaterialProperties extends IfcMaterialProperties {
      * @see #setSolarTransmittanceAsString(String)
      * @see org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package#getIfcOpticalMaterialProperties_SolarTransmittanceAsString()
      * @model unsettable="true"
+     *        annotation="asstring"
+     *        annotation="hidden"
      * @generated
      */
     String getSolarTransmittanceAsString();
@@ -329,6 +333,8 @@ public interface IfcOpticalMaterialProperties extends IfcMaterialProperties {
      * @see #setThermalIrTransmittanceAsString(String)
      * @see org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package#getIfcOpticalMaterialProperties_ThermalIrTransmittanceAsString()
      * @model unsettable="true"
+     *        annotation="asstring"
+     *        annotation="hidden"
      * @generated
      */
     String getThermalIrTransmittanceAsString();
@@ -435,6 +441,8 @@ public interface IfcOpticalMaterialProperties extends IfcMaterialProperties {
      * @see #setThermalIrEmissivityBackAsString(String)
      * @see org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package#getIfcOpticalMaterialProperties_ThermalIrEmissivityBackAsString()
      * @model unsettable="true"
+     *        annotation="asstring"
+     *        annotation="hidden"
      * @generated
      */
     String getThermalIrEmissivityBackAsString();
@@ -541,6 +549,8 @@ public interface IfcOpticalMaterialProperties extends IfcMaterialProperties {
      * @see #setThermalIrEmissivityFrontAsString(String)
      * @see org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package#getIfcOpticalMaterialProperties_ThermalIrEmissivityFrontAsString()
      * @model unsettable="true"
+     *        annotation="asstring"
+     *        annotation="hidden"
      * @generated
      */
     String getThermalIrEmissivityFrontAsString();
@@ -647,6 +657,8 @@ public interface IfcOpticalMaterialProperties extends IfcMaterialProperties {
      * @see #setVisibleReflectanceBackAsString(String)
      * @see org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package#getIfcOpticalMaterialProperties_VisibleReflectanceBackAsString()
      * @model unsettable="true"
+     *        annotation="asstring"
+     *        annotation="hidden"
      * @generated
      */
     String getVisibleReflectanceBackAsString();
@@ -753,6 +765,8 @@ public interface IfcOpticalMaterialProperties extends IfcMaterialProperties {
      * @see #setVisibleReflectanceFrontAsString(String)
      * @see org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package#getIfcOpticalMaterialProperties_VisibleReflectanceFrontAsString()
      * @model unsettable="true"
+     *        annotation="asstring"
+     *        annotation="hidden"
      * @generated
      */
     String getVisibleReflectanceFrontAsString();
@@ -859,6 +873,8 @@ public interface IfcOpticalMaterialProperties extends IfcMaterialProperties {
      * @see #setSolarReflectanceFrontAsString(String)
      * @see org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package#getIfcOpticalMaterialProperties_SolarReflectanceFrontAsString()
      * @model unsettable="true"
+     *        annotation="asstring"
+     *        annotation="hidden"
      * @generated
      */
     String getSolarReflectanceFrontAsString();
@@ -965,6 +981,8 @@ public interface IfcOpticalMaterialProperties extends IfcMaterialProperties {
      * @see #setSolarReflectanceBackAsString(String)
      * @see org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package#getIfcOpticalMaterialProperties_SolarReflectanceBackAsString()
      * @model unsettable="true"
+     *        annotation="asstring"
+     *        annotation="hidden"
      * @generated
      */
     String getSolarReflectanceBackAsString();

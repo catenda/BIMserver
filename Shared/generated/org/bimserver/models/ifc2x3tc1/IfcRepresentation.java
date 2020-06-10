@@ -55,6 +55,7 @@ public interface IfcRepresentation extends IfcLayeredItem {
      * @see org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package#getIfcRepresentation_ContextOfItems()
      * @see org.bimserver.models.ifc2x3tc1.IfcRepresentationContext#getRepresentationsInContext
      * @model opposite="RepresentationsInContext"
+     *        annotation="inverse"
      * @generated
      */
     IfcRepresentationContext getContextOfItems();
@@ -207,6 +208,7 @@ public interface IfcRepresentation extends IfcLayeredItem {
      * @see org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package#getIfcRepresentation_RepresentationMap()
      * @see org.bimserver.models.ifc2x3tc1.IfcRepresentationMap#getMappedRepresentation
      * @model opposite="MappedRepresentation" unsettable="true" upper="2"
+     *        annotation="inverse"
      * @generated
      */
     EList<IfcRepresentationMap> getRepresentationMap();
@@ -246,6 +248,7 @@ public interface IfcRepresentation extends IfcLayeredItem {
      * @see #unsetLayerAssignments()
      * @see org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package#getIfcRepresentation_LayerAssignments()
      * @model unsettable="true"
+     *        annotation="inverse"
      * @generated
      */
     EList<IfcPresentationLayerAssignment> getLayerAssignments();
@@ -287,6 +290,7 @@ public interface IfcRepresentation extends IfcLayeredItem {
      * @see org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package#getIfcRepresentation_OfProductRepresentation()
      * @see org.bimserver.models.ifc2x3tc1.IfcProductRepresentation#getRepresentations
      * @model opposite="Representations" unsettable="true" upper="2"
+     *        annotation="inverse"
      * @generated
      */
     EList<IfcProductRepresentation> getOfProductRepresentation();

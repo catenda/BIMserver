@@ -62,6 +62,7 @@ public class IfcEnvironmentalImpactValueImpl extends IfcAppliedValueImpl impleme
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public String getImpactType() {
         return (String) eGet(Ifc2x3tc1Package.Literals.IFC_ENVIRONMENTAL_IMPACT_VALUE__IMPACT_TYPE, true);
     }
@@ -71,6 +72,7 @@ public class IfcEnvironmentalImpactValueImpl extends IfcAppliedValueImpl impleme
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setImpactType(String newImpactType) {
         eSet(Ifc2x3tc1Package.Literals.IFC_ENVIRONMENTAL_IMPACT_VALUE__IMPACT_TYPE, newImpactType);
     }
@@ -80,6 +82,7 @@ public class IfcEnvironmentalImpactValueImpl extends IfcAppliedValueImpl impleme
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public IfcEnvironmentalImpactCategoryEnum getCategory() {
         return (IfcEnvironmentalImpactCategoryEnum) eGet(
                 Ifc2x3tc1Package.Literals.IFC_ENVIRONMENTAL_IMPACT_VALUE__CATEGORY, true);
@@ -90,6 +93,7 @@ public class IfcEnvironmentalImpactValueImpl extends IfcAppliedValueImpl impleme
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setCategory(IfcEnvironmentalImpactCategoryEnum newCategory) {
         eSet(Ifc2x3tc1Package.Literals.IFC_ENVIRONMENTAL_IMPACT_VALUE__CATEGORY, newCategory);
     }
@@ -99,6 +103,7 @@ public class IfcEnvironmentalImpactValueImpl extends IfcAppliedValueImpl impleme
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public String getUserDefinedCategory() {
         return (String) eGet(Ifc2x3tc1Package.Literals.IFC_ENVIRONMENTAL_IMPACT_VALUE__USER_DEFINED_CATEGORY, true);
     }
@@ -108,6 +113,7 @@ public class IfcEnvironmentalImpactValueImpl extends IfcAppliedValueImpl impleme
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setUserDefinedCategory(String newUserDefinedCategory) {
         eSet(Ifc2x3tc1Package.Literals.IFC_ENVIRONMENTAL_IMPACT_VALUE__USER_DEFINED_CATEGORY, newUserDefinedCategory);
     }
@@ -117,6 +123,7 @@ public class IfcEnvironmentalImpactValueImpl extends IfcAppliedValueImpl impleme
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void unsetUserDefinedCategory() {
         eUnset(Ifc2x3tc1Package.Literals.IFC_ENVIRONMENTAL_IMPACT_VALUE__USER_DEFINED_CATEGORY);
     }
@@ -126,6 +133,7 @@ public class IfcEnvironmentalImpactValueImpl extends IfcAppliedValueImpl impleme
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public boolean isSetUserDefinedCategory() {
         return eIsSet(Ifc2x3tc1Package.Literals.IFC_ENVIRONMENTAL_IMPACT_VALUE__USER_DEFINED_CATEGORY);
     }

@@ -60,6 +60,7 @@ public class IfcTransformerTypeImpl extends IfcEnergyConversionDeviceTypeImpl im
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public IfcTransformerTypeEnum getPredefinedType() {
         return (IfcTransformerTypeEnum) eGet(Ifc2x3tc1Package.Literals.IFC_TRANSFORMER_TYPE__PREDEFINED_TYPE, true);
     }
@@ -69,6 +70,7 @@ public class IfcTransformerTypeImpl extends IfcEnergyConversionDeviceTypeImpl im
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setPredefinedType(IfcTransformerTypeEnum newPredefinedType) {
         eSet(Ifc2x3tc1Package.Literals.IFC_TRANSFORMER_TYPE__PREDEFINED_TYPE, newPredefinedType);
     }

@@ -60,6 +60,7 @@ public class IfcSlabImpl extends IfcBuildingElementImpl implements IfcSlab {
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public IfcSlabTypeEnum getPredefinedType() {
         return (IfcSlabTypeEnum) eGet(Ifc2x3tc1Package.Literals.IFC_SLAB__PREDEFINED_TYPE, true);
     }
@@ -69,6 +70,7 @@ public class IfcSlabImpl extends IfcBuildingElementImpl implements IfcSlab {
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setPredefinedType(IfcSlabTypeEnum newPredefinedType) {
         eSet(Ifc2x3tc1Package.Literals.IFC_SLAB__PREDEFINED_TYPE, newPredefinedType);
     }
@@ -78,6 +80,7 @@ public class IfcSlabImpl extends IfcBuildingElementImpl implements IfcSlab {
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void unsetPredefinedType() {
         eUnset(Ifc2x3tc1Package.Literals.IFC_SLAB__PREDEFINED_TYPE);
     }
@@ -87,6 +90,7 @@ public class IfcSlabImpl extends IfcBuildingElementImpl implements IfcSlab {
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public boolean isSetPredefinedType() {
         return eIsSet(Ifc2x3tc1Package.Literals.IFC_SLAB__PREDEFINED_TYPE);
     }

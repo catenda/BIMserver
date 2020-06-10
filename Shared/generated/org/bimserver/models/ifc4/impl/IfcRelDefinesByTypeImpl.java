@@ -65,6 +65,7 @@ public class IfcRelDefinesByTypeImpl extends IfcRelDefinesImpl implements IfcRel
      * @generated
      */
     @SuppressWarnings("unchecked")
+    @Override
     public EList<IfcObject> getRelatedObjects() {
         return (EList<IfcObject>) eGet(Ifc4Package.Literals.IFC_REL_DEFINES_BY_TYPE__RELATED_OBJECTS, true);
     }
@@ -74,6 +75,7 @@ public class IfcRelDefinesByTypeImpl extends IfcRelDefinesImpl implements IfcRel
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public IfcTypeObject getRelatingType() {
         return (IfcTypeObject) eGet(Ifc4Package.Literals.IFC_REL_DEFINES_BY_TYPE__RELATING_TYPE, true);
     }
@@ -83,6 +85,7 @@ public class IfcRelDefinesByTypeImpl extends IfcRelDefinesImpl implements IfcRel
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setRelatingType(IfcTypeObject newRelatingType) {
         eSet(Ifc4Package.Literals.IFC_REL_DEFINES_BY_TYPE__RELATING_TYPE, newRelatingType);
     }

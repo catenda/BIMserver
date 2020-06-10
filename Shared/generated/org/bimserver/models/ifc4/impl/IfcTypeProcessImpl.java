@@ -65,6 +65,7 @@ public class IfcTypeProcessImpl extends IfcTypeObjectImpl implements IfcTypeProc
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public String getIdentification() {
         return (String) eGet(Ifc4Package.Literals.IFC_TYPE_PROCESS__IDENTIFICATION, true);
     }
@@ -74,6 +75,7 @@ public class IfcTypeProcessImpl extends IfcTypeObjectImpl implements IfcTypeProc
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setIdentification(String newIdentification) {
         eSet(Ifc4Package.Literals.IFC_TYPE_PROCESS__IDENTIFICATION, newIdentification);
     }
@@ -83,6 +85,7 @@ public class IfcTypeProcessImpl extends IfcTypeObjectImpl implements IfcTypeProc
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void unsetIdentification() {
         eUnset(Ifc4Package.Literals.IFC_TYPE_PROCESS__IDENTIFICATION);
     }
@@ -92,6 +95,7 @@ public class IfcTypeProcessImpl extends IfcTypeObjectImpl implements IfcTypeProc
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public boolean isSetIdentification() {
         return eIsSet(Ifc4Package.Literals.IFC_TYPE_PROCESS__IDENTIFICATION);
     }
@@ -101,6 +105,7 @@ public class IfcTypeProcessImpl extends IfcTypeObjectImpl implements IfcTypeProc
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public String getLongDescription() {
         return (String) eGet(Ifc4Package.Literals.IFC_TYPE_PROCESS__LONG_DESCRIPTION, true);
     }
@@ -110,6 +115,7 @@ public class IfcTypeProcessImpl extends IfcTypeObjectImpl implements IfcTypeProc
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setLongDescription(String newLongDescription) {
         eSet(Ifc4Package.Literals.IFC_TYPE_PROCESS__LONG_DESCRIPTION, newLongDescription);
     }
@@ -119,6 +125,7 @@ public class IfcTypeProcessImpl extends IfcTypeObjectImpl implements IfcTypeProc
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void unsetLongDescription() {
         eUnset(Ifc4Package.Literals.IFC_TYPE_PROCESS__LONG_DESCRIPTION);
     }
@@ -128,6 +135,7 @@ public class IfcTypeProcessImpl extends IfcTypeObjectImpl implements IfcTypeProc
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public boolean isSetLongDescription() {
         return eIsSet(Ifc4Package.Literals.IFC_TYPE_PROCESS__LONG_DESCRIPTION);
     }
@@ -137,6 +145,7 @@ public class IfcTypeProcessImpl extends IfcTypeObjectImpl implements IfcTypeProc
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public String getProcessType() {
         return (String) eGet(Ifc4Package.Literals.IFC_TYPE_PROCESS__PROCESS_TYPE, true);
     }
@@ -146,6 +155,7 @@ public class IfcTypeProcessImpl extends IfcTypeObjectImpl implements IfcTypeProc
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setProcessType(String newProcessType) {
         eSet(Ifc4Package.Literals.IFC_TYPE_PROCESS__PROCESS_TYPE, newProcessType);
     }
@@ -155,6 +165,7 @@ public class IfcTypeProcessImpl extends IfcTypeObjectImpl implements IfcTypeProc
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void unsetProcessType() {
         eUnset(Ifc4Package.Literals.IFC_TYPE_PROCESS__PROCESS_TYPE);
     }
@@ -164,6 +175,7 @@ public class IfcTypeProcessImpl extends IfcTypeObjectImpl implements IfcTypeProc
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public boolean isSetProcessType() {
         return eIsSet(Ifc4Package.Literals.IFC_TYPE_PROCESS__PROCESS_TYPE);
     }
@@ -174,6 +186,7 @@ public class IfcTypeProcessImpl extends IfcTypeObjectImpl implements IfcTypeProc
      * @generated
      */
     @SuppressWarnings("unchecked")
+    @Override
     public EList<IfcRelAssignsToProcess> getOperatesOn() {
         return (EList<IfcRelAssignsToProcess>) eGet(Ifc4Package.Literals.IFC_TYPE_PROCESS__OPERATES_ON, true);
     }
@@ -183,6 +196,7 @@ public class IfcTypeProcessImpl extends IfcTypeObjectImpl implements IfcTypeProc
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void unsetOperatesOn() {
         eUnset(Ifc4Package.Literals.IFC_TYPE_PROCESS__OPERATES_ON);
     }
@@ -192,6 +206,7 @@ public class IfcTypeProcessImpl extends IfcTypeObjectImpl implements IfcTypeProc
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public boolean isSetOperatesOn() {
         return eIsSet(Ifc4Package.Literals.IFC_TYPE_PROCESS__OPERATES_ON);
     }

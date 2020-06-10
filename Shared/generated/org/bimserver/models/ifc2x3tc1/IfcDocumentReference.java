@@ -51,6 +51,7 @@ public interface IfcDocumentReference extends IfcExternalReference, IfcDocumentS
      * @see org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package#getIfcDocumentReference_ReferenceToDocument()
      * @see org.bimserver.models.ifc2x3tc1.IfcDocumentInformation#getDocumentReferences
      * @model opposite="DocumentReferences" unsettable="true" upper="2"
+     *        annotation="inverse"
      * @generated
      */
     EList<IfcDocumentInformation> getReferenceToDocument();

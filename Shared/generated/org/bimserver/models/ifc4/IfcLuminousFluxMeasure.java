@@ -30,7 +30,7 @@ package org.bimserver.models.ifc4;
  * </ul>
  *
  * @see org.bimserver.models.ifc4.Ifc4Package#getIfcLuminousFluxMeasure()
- * @model
+ * @model annotation="wrapped"
  * @generated
  */
 public interface IfcLuminousFluxMeasure extends IfcDerivedMeasureValue {
@@ -101,6 +101,8 @@ public interface IfcLuminousFluxMeasure extends IfcDerivedMeasureValue {
      * @see #setWrappedValueAsString(String)
      * @see org.bimserver.models.ifc4.Ifc4Package#getIfcLuminousFluxMeasure_WrappedValueAsString()
      * @model unsettable="true"
+     *        annotation="asstring"
+     *        annotation="hidden"
      * @generated
      */
     String getWrappedValueAsString();

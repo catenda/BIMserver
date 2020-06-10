@@ -75,6 +75,7 @@ public class RevisionSummaryContainerImpl extends IdEObjectImpl implements Revis
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public String getName() {
         return (String) eGet(StorePackage.Literals.REVISION_SUMMARY_CONTAINER__NAME, true);
     }
@@ -84,6 +85,7 @@ public class RevisionSummaryContainerImpl extends IdEObjectImpl implements Revis
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setName(String newName) {
         eSet(StorePackage.Literals.REVISION_SUMMARY_CONTAINER__NAME, newName);
     }
@@ -94,6 +96,7 @@ public class RevisionSummaryContainerImpl extends IdEObjectImpl implements Revis
      * @generated
      */
     @SuppressWarnings("unchecked")
+    @Override
     public EList<RevisionSummaryType> getTypes() {
         return (EList<RevisionSummaryType>) eGet(StorePackage.Literals.REVISION_SUMMARY_CONTAINER__TYPES, true);
     }

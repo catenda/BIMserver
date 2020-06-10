@@ -47,6 +47,7 @@ public interface IfcRelDefinesByType extends IfcRelDefines {
      * @see org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package#getIfcRelDefinesByType_RelatingType()
      * @see org.bimserver.models.ifc2x3tc1.IfcTypeObject#getObjectTypeOf
      * @model opposite="ObjectTypeOf"
+     *        annotation="inverse"
      * @generated
      */
     IfcTypeObject getRelatingType();

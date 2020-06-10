@@ -214,6 +214,7 @@ public interface IfcExternalReference
      * @see org.bimserver.models.ifc4.Ifc4Package#getIfcExternalReference_ExternalReferenceForResources()
      * @see org.bimserver.models.ifc4.IfcExternalReferenceRelationship#getRelatingReference
      * @model opposite="RelatingReference" unsettable="true"
+     *        annotation="inverse"
      * @generated
      */
     EList<IfcExternalReferenceRelationship> getExternalReferenceForResources();

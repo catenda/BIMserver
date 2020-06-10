@@ -62,6 +62,7 @@ public class IfcStructuralActionImpl extends IfcStructuralActivityImpl implement
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public Tristate getDestabilizingLoad() {
         return (Tristate) eGet(Ifc2x3tc1Package.Literals.IFC_STRUCTURAL_ACTION__DESTABILIZING_LOAD, true);
     }
@@ -71,6 +72,7 @@ public class IfcStructuralActionImpl extends IfcStructuralActivityImpl implement
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setDestabilizingLoad(Tristate newDestabilizingLoad) {
         eSet(Ifc2x3tc1Package.Literals.IFC_STRUCTURAL_ACTION__DESTABILIZING_LOAD, newDestabilizingLoad);
     }
@@ -80,6 +82,7 @@ public class IfcStructuralActionImpl extends IfcStructuralActivityImpl implement
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public IfcStructuralReaction getCausedBy() {
         return (IfcStructuralReaction) eGet(Ifc2x3tc1Package.Literals.IFC_STRUCTURAL_ACTION__CAUSED_BY, true);
     }
@@ -89,6 +92,7 @@ public class IfcStructuralActionImpl extends IfcStructuralActivityImpl implement
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setCausedBy(IfcStructuralReaction newCausedBy) {
         eSet(Ifc2x3tc1Package.Literals.IFC_STRUCTURAL_ACTION__CAUSED_BY, newCausedBy);
     }
@@ -98,6 +102,7 @@ public class IfcStructuralActionImpl extends IfcStructuralActivityImpl implement
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void unsetCausedBy() {
         eUnset(Ifc2x3tc1Package.Literals.IFC_STRUCTURAL_ACTION__CAUSED_BY);
     }
@@ -107,6 +112,7 @@ public class IfcStructuralActionImpl extends IfcStructuralActivityImpl implement
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public boolean isSetCausedBy() {
         return eIsSet(Ifc2x3tc1Package.Literals.IFC_STRUCTURAL_ACTION__CAUSED_BY);
     }

@@ -47,6 +47,7 @@ public interface IfcRelDefinesByProperties extends IfcRelDefines {
      * @see org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package#getIfcRelDefinesByProperties_RelatingPropertyDefinition()
      * @see org.bimserver.models.ifc2x3tc1.IfcPropertySetDefinition#getPropertyDefinitionOf
      * @model opposite="PropertyDefinitionOf"
+     *        annotation="inverse"
      * @generated
      */
     IfcPropertySetDefinition getRelatingPropertyDefinition();

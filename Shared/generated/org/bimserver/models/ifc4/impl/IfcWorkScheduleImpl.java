@@ -60,6 +60,7 @@ public class IfcWorkScheduleImpl extends IfcWorkControlImpl implements IfcWorkSc
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public IfcWorkScheduleTypeEnum getPredefinedType() {
         return (IfcWorkScheduleTypeEnum) eGet(Ifc4Package.Literals.IFC_WORK_SCHEDULE__PREDEFINED_TYPE, true);
     }
@@ -69,6 +70,7 @@ public class IfcWorkScheduleImpl extends IfcWorkControlImpl implements IfcWorkSc
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setPredefinedType(IfcWorkScheduleTypeEnum newPredefinedType) {
         eSet(Ifc4Package.Literals.IFC_WORK_SCHEDULE__PREDEFINED_TYPE, newPredefinedType);
     }
@@ -78,6 +80,7 @@ public class IfcWorkScheduleImpl extends IfcWorkControlImpl implements IfcWorkSc
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void unsetPredefinedType() {
         eUnset(Ifc4Package.Literals.IFC_WORK_SCHEDULE__PREDEFINED_TYPE);
     }
@@ -87,6 +90,7 @@ public class IfcWorkScheduleImpl extends IfcWorkControlImpl implements IfcWorkSc
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public boolean isSetPredefinedType() {
         return eIsSet(Ifc4Package.Literals.IFC_WORK_SCHEDULE__PREDEFINED_TYPE);
     }

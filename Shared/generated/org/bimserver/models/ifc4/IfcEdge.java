@@ -45,7 +45,7 @@ public interface IfcEdge extends IfcTopologicalRepresentationItem {
      * @return the value of the '<em>Edge Start</em>' reference.
      * @see #setEdgeStart(IfcVertex)
      * @see org.bimserver.models.ifc4.Ifc4Package#getIfcEdge_EdgeStart()
-     * @model
+     * @model annotation="derived"
      * @generated
      */
     IfcVertex getEdgeStart();
@@ -71,7 +71,7 @@ public interface IfcEdge extends IfcTopologicalRepresentationItem {
      * @return the value of the '<em>Edge End</em>' reference.
      * @see #setEdgeEnd(IfcVertex)
      * @see org.bimserver.models.ifc4.Ifc4Package#getIfcEdge_EdgeEnd()
-     * @model
+     * @model annotation="derived"
      * @generated
      */
     IfcVertex getEdgeEnd();

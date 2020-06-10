@@ -72,6 +72,7 @@ public class CompareItemImpl extends IdEObjectImpl implements CompareItem {
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public DataObject getDataObject() {
         return (DataObject) eGet(StorePackage.Literals.COMPARE_ITEM__DATA_OBJECT, true);
     }
@@ -81,6 +82,7 @@ public class CompareItemImpl extends IdEObjectImpl implements CompareItem {
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setDataObject(DataObject newDataObject) {
         eSet(StorePackage.Literals.COMPARE_ITEM__DATA_OBJECT, newDataObject);
     }

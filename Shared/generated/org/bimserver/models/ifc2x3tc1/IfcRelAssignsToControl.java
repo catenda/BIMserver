@@ -47,6 +47,7 @@ public interface IfcRelAssignsToControl extends IfcRelAssigns {
      * @see org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package#getIfcRelAssignsToControl_RelatingControl()
      * @see org.bimserver.models.ifc2x3tc1.IfcControl#getControls
      * @model opposite="Controls"
+     *        annotation="inverse"
      * @generated
      */
     IfcControl getRelatingControl();

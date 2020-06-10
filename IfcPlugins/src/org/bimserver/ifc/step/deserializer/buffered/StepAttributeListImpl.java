@@ -1,5 +1,7 @@
 package org.bimserver.ifc.step.deserializer.buffered;
 
+import java.util.ArrayList;
+
 import org.apache.commons.lang.builder.EqualsBuilder;
 
 class StepAttributeListImpl implements StepAttributeList {
@@ -152,7 +154,11 @@ class StepAttributeListImpl implements StepAttributeList {
 
 	@Override
 	public Object getValue() {
-		return null;
+		ArrayList<Object> list = new ArrayList<Object>();
+		for (int i = 0; i < this.length(); i++) {
+			list.add(this.get(i).getValue());
+		}
+		return list;
 	}
 
 	@Override

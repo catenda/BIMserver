@@ -77,7 +77,8 @@ public interface IfcTrapeziumProfileDef extends IfcParameterizedProfileDef {
      * @return the value of the '<em>Bottom XDim As String</em>' attribute.
      * @see #setBottomXDimAsString(String)
      * @see org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package#getIfcTrapeziumProfileDef_BottomXDimAsString()
-     * @model
+     * @model annotation="asstring"
+     *        annotation="hidden"
      * @generated
      */
     String getBottomXDimAsString();
@@ -129,7 +130,8 @@ public interface IfcTrapeziumProfileDef extends IfcParameterizedProfileDef {
      * @return the value of the '<em>Top XDim As String</em>' attribute.
      * @see #setTopXDimAsString(String)
      * @see org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package#getIfcTrapeziumProfileDef_TopXDimAsString()
-     * @model
+     * @model annotation="asstring"
+     *        annotation="hidden"
      * @generated
      */
     String getTopXDimAsString();
@@ -181,7 +183,8 @@ public interface IfcTrapeziumProfileDef extends IfcParameterizedProfileDef {
      * @return the value of the '<em>YDim As String</em>' attribute.
      * @see #setYDimAsString(String)
      * @see org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package#getIfcTrapeziumProfileDef_YDimAsString()
-     * @model
+     * @model annotation="asstring"
+     *        annotation="hidden"
      * @generated
      */
     String getYDimAsString();
@@ -233,7 +236,8 @@ public interface IfcTrapeziumProfileDef extends IfcParameterizedProfileDef {
      * @return the value of the '<em>Top XOffset As String</em>' attribute.
      * @see #setTopXOffsetAsString(String)
      * @see org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package#getIfcTrapeziumProfileDef_TopXOffsetAsString()
-     * @model
+     * @model annotation="asstring"
+     *        annotation="hidden"
      * @generated
      */
     String getTopXOffsetAsString();

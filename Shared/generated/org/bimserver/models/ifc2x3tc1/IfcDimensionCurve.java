@@ -49,6 +49,7 @@ public interface IfcDimensionCurve extends IfcAnnotationCurveOccurrence {
      * @see #unsetAnnotatedBySymbols()
      * @see org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package#getIfcDimensionCurve_AnnotatedBySymbols()
      * @model unsettable="true" upper="3"
+     *        annotation="inverse"
      * @generated
      */
     EList<IfcTerminatorSymbol> getAnnotatedBySymbols();

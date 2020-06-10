@@ -60,6 +60,7 @@ public class IfcAlarmTypeImpl extends IfcDistributionControlElementTypeImpl impl
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public IfcAlarmTypeEnum getPredefinedType() {
         return (IfcAlarmTypeEnum) eGet(Ifc4Package.Literals.IFC_ALARM_TYPE__PREDEFINED_TYPE, true);
     }
@@ -69,6 +70,7 @@ public class IfcAlarmTypeImpl extends IfcDistributionControlElementTypeImpl impl
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setPredefinedType(IfcAlarmTypeEnum newPredefinedType) {
         eSet(Ifc4Package.Literals.IFC_ALARM_TYPE__PREDEFINED_TYPE, newPredefinedType);
     }

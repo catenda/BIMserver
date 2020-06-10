@@ -62,6 +62,7 @@ public class IfcStructuralCurveMemberImpl extends IfcStructuralMemberImpl implem
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public IfcStructuralCurveMemberTypeEnum getPredefinedType() {
         return (IfcStructuralCurveMemberTypeEnum) eGet(
                 Ifc4Package.Literals.IFC_STRUCTURAL_CURVE_MEMBER__PREDEFINED_TYPE, true);
@@ -72,6 +73,7 @@ public class IfcStructuralCurveMemberImpl extends IfcStructuralMemberImpl implem
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setPredefinedType(IfcStructuralCurveMemberTypeEnum newPredefinedType) {
         eSet(Ifc4Package.Literals.IFC_STRUCTURAL_CURVE_MEMBER__PREDEFINED_TYPE, newPredefinedType);
     }
@@ -81,6 +83,7 @@ public class IfcStructuralCurveMemberImpl extends IfcStructuralMemberImpl implem
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public IfcDirection getAxis() {
         return (IfcDirection) eGet(Ifc4Package.Literals.IFC_STRUCTURAL_CURVE_MEMBER__AXIS, true);
     }
@@ -90,6 +93,7 @@ public class IfcStructuralCurveMemberImpl extends IfcStructuralMemberImpl implem
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setAxis(IfcDirection newAxis) {
         eSet(Ifc4Package.Literals.IFC_STRUCTURAL_CURVE_MEMBER__AXIS, newAxis);
     }

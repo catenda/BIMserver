@@ -72,6 +72,7 @@ public class IfcMonetaryUnitImpl extends IdEObjectImpl implements IfcMonetaryUni
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public IfcCurrencyEnum getCurrency() {
         return (IfcCurrencyEnum) eGet(Ifc2x3tc1Package.Literals.IFC_MONETARY_UNIT__CURRENCY, true);
     }
@@ -81,6 +82,7 @@ public class IfcMonetaryUnitImpl extends IdEObjectImpl implements IfcMonetaryUni
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setCurrency(IfcCurrencyEnum newCurrency) {
         eSet(Ifc2x3tc1Package.Literals.IFC_MONETARY_UNIT__CURRENCY, newCurrency);
     }

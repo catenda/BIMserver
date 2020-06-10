@@ -50,6 +50,7 @@ public interface IfcRelDecomposes extends IfcRelationship {
      * @see org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package#getIfcRelDecomposes_RelatingObject()
      * @see org.bimserver.models.ifc2x3tc1.IfcObjectDefinition#getIsDecomposedBy
      * @model opposite="IsDecomposedBy"
+     *        annotation="inverse"
      * @generated
      */
     IfcObjectDefinition getRelatingObject();
@@ -78,6 +79,7 @@ public interface IfcRelDecomposes extends IfcRelationship {
      * @see org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package#getIfcRelDecomposes_RelatedObjects()
      * @see org.bimserver.models.ifc2x3tc1.IfcObjectDefinition#getDecomposes
      * @model opposite="Decomposes"
+     *        annotation="inverse"
      * @generated
      */
     EList<IfcObjectDefinition> getRelatedObjects();

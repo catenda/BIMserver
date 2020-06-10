@@ -72,6 +72,7 @@ public class ProjectSmallImpl extends IdEObjectImpl implements ProjectSmall {
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public String getName() {
         return (String) eGet(StorePackage.Literals.PROJECT_SMALL__NAME, true);
     }
@@ -81,6 +82,7 @@ public class ProjectSmallImpl extends IdEObjectImpl implements ProjectSmall {
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setName(String newName) {
         eSet(StorePackage.Literals.PROJECT_SMALL__NAME, newName);
     }
@@ -90,6 +92,7 @@ public class ProjectSmallImpl extends IdEObjectImpl implements ProjectSmall {
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public long getParentId() {
         return (Long) eGet(StorePackage.Literals.PROJECT_SMALL__PARENT_ID, true);
     }
@@ -99,6 +102,7 @@ public class ProjectSmallImpl extends IdEObjectImpl implements ProjectSmall {
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setParentId(long newParentId) {
         eSet(StorePackage.Literals.PROJECT_SMALL__PARENT_ID, newParentId);
     }

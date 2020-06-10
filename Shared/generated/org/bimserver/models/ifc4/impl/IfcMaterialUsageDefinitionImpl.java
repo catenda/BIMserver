@@ -75,6 +75,7 @@ public class IfcMaterialUsageDefinitionImpl extends IdEObjectImpl implements Ifc
      * @generated
      */
     @SuppressWarnings("unchecked")
+    @Override
     public EList<IfcRelAssociatesMaterial> getAssociatedTo() {
         return (EList<IfcRelAssociatesMaterial>) eGet(Ifc4Package.Literals.IFC_MATERIAL_USAGE_DEFINITION__ASSOCIATED_TO,
                 true);
@@ -85,6 +86,7 @@ public class IfcMaterialUsageDefinitionImpl extends IdEObjectImpl implements Ifc
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void unsetAssociatedTo() {
         eUnset(Ifc4Package.Literals.IFC_MATERIAL_USAGE_DEFINITION__ASSOCIATED_TO);
     }
@@ -94,6 +96,7 @@ public class IfcMaterialUsageDefinitionImpl extends IdEObjectImpl implements Ifc
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public boolean isSetAssociatedTo() {
         return eIsSet(Ifc4Package.Literals.IFC_MATERIAL_USAGE_DEFINITION__ASSOCIATED_TO);
     }

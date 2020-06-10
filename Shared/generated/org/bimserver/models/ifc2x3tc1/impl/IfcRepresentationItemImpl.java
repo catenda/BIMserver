@@ -77,6 +77,7 @@ public class IfcRepresentationItemImpl extends IdEObjectImpl implements IfcRepre
      * @generated
      */
     @SuppressWarnings("unchecked")
+    @Override
     public EList<IfcPresentationLayerAssignment> getLayerAssignments() {
         return (EList<IfcPresentationLayerAssignment>) eGet(
                 Ifc2x3tc1Package.Literals.IFC_REPRESENTATION_ITEM__LAYER_ASSIGNMENTS, true);
@@ -87,6 +88,7 @@ public class IfcRepresentationItemImpl extends IdEObjectImpl implements IfcRepre
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void unsetLayerAssignments() {
         eUnset(Ifc2x3tc1Package.Literals.IFC_REPRESENTATION_ITEM__LAYER_ASSIGNMENTS);
     }
@@ -96,6 +98,7 @@ public class IfcRepresentationItemImpl extends IdEObjectImpl implements IfcRepre
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public boolean isSetLayerAssignments() {
         return eIsSet(Ifc2x3tc1Package.Literals.IFC_REPRESENTATION_ITEM__LAYER_ASSIGNMENTS);
     }
@@ -106,6 +109,7 @@ public class IfcRepresentationItemImpl extends IdEObjectImpl implements IfcRepre
      * @generated
      */
     @SuppressWarnings("unchecked")
+    @Override
     public EList<IfcStyledItem> getStyledByItem() {
         return (EList<IfcStyledItem>) eGet(Ifc2x3tc1Package.Literals.IFC_REPRESENTATION_ITEM__STYLED_BY_ITEM, true);
     }
@@ -115,6 +119,7 @@ public class IfcRepresentationItemImpl extends IdEObjectImpl implements IfcRepre
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void unsetStyledByItem() {
         eUnset(Ifc2x3tc1Package.Literals.IFC_REPRESENTATION_ITEM__STYLED_BY_ITEM);
     }
@@ -124,6 +129,7 @@ public class IfcRepresentationItemImpl extends IdEObjectImpl implements IfcRepre
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public boolean isSetStyledByItem() {
         return eIsSet(Ifc2x3tc1Package.Literals.IFC_REPRESENTATION_ITEM__STYLED_BY_ITEM);
     }

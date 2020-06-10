@@ -63,6 +63,7 @@ public class IfcRelDefinesImpl extends IfcRelationshipImpl implements IfcRelDefi
      * @generated
      */
     @SuppressWarnings("unchecked")
+    @Override
     public EList<IfcObject> getRelatedObjects() {
         return (EList<IfcObject>) eGet(Ifc2x3tc1Package.Literals.IFC_REL_DEFINES__RELATED_OBJECTS, true);
     }

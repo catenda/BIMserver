@@ -62,6 +62,7 @@ public class IfcChamferEdgeFeatureImpl extends IfcEdgeFeatureImpl implements Ifc
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public double getWidth() {
         return (Double) eGet(Ifc2x3tc1Package.Literals.IFC_CHAMFER_EDGE_FEATURE__WIDTH, true);
     }
@@ -71,6 +72,7 @@ public class IfcChamferEdgeFeatureImpl extends IfcEdgeFeatureImpl implements Ifc
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setWidth(double newWidth) {
         eSet(Ifc2x3tc1Package.Literals.IFC_CHAMFER_EDGE_FEATURE__WIDTH, newWidth);
     }
@@ -80,6 +82,7 @@ public class IfcChamferEdgeFeatureImpl extends IfcEdgeFeatureImpl implements Ifc
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void unsetWidth() {
         eUnset(Ifc2x3tc1Package.Literals.IFC_CHAMFER_EDGE_FEATURE__WIDTH);
     }
@@ -89,6 +92,7 @@ public class IfcChamferEdgeFeatureImpl extends IfcEdgeFeatureImpl implements Ifc
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public boolean isSetWidth() {
         return eIsSet(Ifc2x3tc1Package.Literals.IFC_CHAMFER_EDGE_FEATURE__WIDTH);
     }
@@ -98,6 +102,7 @@ public class IfcChamferEdgeFeatureImpl extends IfcEdgeFeatureImpl implements Ifc
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public String getWidthAsString() {
         return (String) eGet(Ifc2x3tc1Package.Literals.IFC_CHAMFER_EDGE_FEATURE__WIDTH_AS_STRING, true);
     }
@@ -107,6 +112,7 @@ public class IfcChamferEdgeFeatureImpl extends IfcEdgeFeatureImpl implements Ifc
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setWidthAsString(String newWidthAsString) {
         eSet(Ifc2x3tc1Package.Literals.IFC_CHAMFER_EDGE_FEATURE__WIDTH_AS_STRING, newWidthAsString);
     }
@@ -116,6 +122,7 @@ public class IfcChamferEdgeFeatureImpl extends IfcEdgeFeatureImpl implements Ifc
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void unsetWidthAsString() {
         eUnset(Ifc2x3tc1Package.Literals.IFC_CHAMFER_EDGE_FEATURE__WIDTH_AS_STRING);
     }
@@ -125,6 +132,7 @@ public class IfcChamferEdgeFeatureImpl extends IfcEdgeFeatureImpl implements Ifc
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public boolean isSetWidthAsString() {
         return eIsSet(Ifc2x3tc1Package.Literals.IFC_CHAMFER_EDGE_FEATURE__WIDTH_AS_STRING);
     }
@@ -134,6 +142,7 @@ public class IfcChamferEdgeFeatureImpl extends IfcEdgeFeatureImpl implements Ifc
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public double getHeight() {
         return (Double) eGet(Ifc2x3tc1Package.Literals.IFC_CHAMFER_EDGE_FEATURE__HEIGHT, true);
     }
@@ -143,6 +152,7 @@ public class IfcChamferEdgeFeatureImpl extends IfcEdgeFeatureImpl implements Ifc
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setHeight(double newHeight) {
         eSet(Ifc2x3tc1Package.Literals.IFC_CHAMFER_EDGE_FEATURE__HEIGHT, newHeight);
     }
@@ -152,6 +162,7 @@ public class IfcChamferEdgeFeatureImpl extends IfcEdgeFeatureImpl implements Ifc
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void unsetHeight() {
         eUnset(Ifc2x3tc1Package.Literals.IFC_CHAMFER_EDGE_FEATURE__HEIGHT);
     }
@@ -161,6 +172,7 @@ public class IfcChamferEdgeFeatureImpl extends IfcEdgeFeatureImpl implements Ifc
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public boolean isSetHeight() {
         return eIsSet(Ifc2x3tc1Package.Literals.IFC_CHAMFER_EDGE_FEATURE__HEIGHT);
     }
@@ -170,6 +182,7 @@ public class IfcChamferEdgeFeatureImpl extends IfcEdgeFeatureImpl implements Ifc
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public String getHeightAsString() {
         return (String) eGet(Ifc2x3tc1Package.Literals.IFC_CHAMFER_EDGE_FEATURE__HEIGHT_AS_STRING, true);
     }
@@ -179,6 +192,7 @@ public class IfcChamferEdgeFeatureImpl extends IfcEdgeFeatureImpl implements Ifc
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setHeightAsString(String newHeightAsString) {
         eSet(Ifc2x3tc1Package.Literals.IFC_CHAMFER_EDGE_FEATURE__HEIGHT_AS_STRING, newHeightAsString);
     }
@@ -188,6 +202,7 @@ public class IfcChamferEdgeFeatureImpl extends IfcEdgeFeatureImpl implements Ifc
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void unsetHeightAsString() {
         eUnset(Ifc2x3tc1Package.Literals.IFC_CHAMFER_EDGE_FEATURE__HEIGHT_AS_STRING);
     }
@@ -197,6 +212,7 @@ public class IfcChamferEdgeFeatureImpl extends IfcEdgeFeatureImpl implements Ifc
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public boolean isSetHeightAsString() {
         return eIsSet(Ifc2x3tc1Package.Literals.IFC_CHAMFER_EDGE_FEATURE__HEIGHT_AS_STRING);
     }

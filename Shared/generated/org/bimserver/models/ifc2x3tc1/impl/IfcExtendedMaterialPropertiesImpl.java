@@ -66,6 +66,7 @@ public class IfcExtendedMaterialPropertiesImpl extends IfcMaterialPropertiesImpl
      * @generated
      */
     @SuppressWarnings("unchecked")
+    @Override
     public EList<IfcProperty> getExtendedProperties() {
         return (EList<IfcProperty>) eGet(
                 Ifc2x3tc1Package.Literals.IFC_EXTENDED_MATERIAL_PROPERTIES__EXTENDED_PROPERTIES, true);
@@ -76,6 +77,7 @@ public class IfcExtendedMaterialPropertiesImpl extends IfcMaterialPropertiesImpl
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public String getDescription() {
         return (String) eGet(Ifc2x3tc1Package.Literals.IFC_EXTENDED_MATERIAL_PROPERTIES__DESCRIPTION, true);
     }
@@ -85,6 +87,7 @@ public class IfcExtendedMaterialPropertiesImpl extends IfcMaterialPropertiesImpl
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setDescription(String newDescription) {
         eSet(Ifc2x3tc1Package.Literals.IFC_EXTENDED_MATERIAL_PROPERTIES__DESCRIPTION, newDescription);
     }
@@ -94,6 +97,7 @@ public class IfcExtendedMaterialPropertiesImpl extends IfcMaterialPropertiesImpl
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void unsetDescription() {
         eUnset(Ifc2x3tc1Package.Literals.IFC_EXTENDED_MATERIAL_PROPERTIES__DESCRIPTION);
     }
@@ -103,6 +107,7 @@ public class IfcExtendedMaterialPropertiesImpl extends IfcMaterialPropertiesImpl
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public boolean isSetDescription() {
         return eIsSet(Ifc2x3tc1Package.Literals.IFC_EXTENDED_MATERIAL_PROPERTIES__DESCRIPTION);
     }
@@ -112,6 +117,7 @@ public class IfcExtendedMaterialPropertiesImpl extends IfcMaterialPropertiesImpl
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public String getName() {
         return (String) eGet(Ifc2x3tc1Package.Literals.IFC_EXTENDED_MATERIAL_PROPERTIES__NAME, true);
     }
@@ -121,6 +127,7 @@ public class IfcExtendedMaterialPropertiesImpl extends IfcMaterialPropertiesImpl
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setName(String newName) {
         eSet(Ifc2x3tc1Package.Literals.IFC_EXTENDED_MATERIAL_PROPERTIES__NAME, newName);
     }

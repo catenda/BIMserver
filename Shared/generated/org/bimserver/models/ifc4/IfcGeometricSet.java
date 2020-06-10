@@ -66,6 +66,7 @@ public interface IfcGeometricSet extends IfcGeometricRepresentationItem {
      * @see #setDim(long)
      * @see org.bimserver.models.ifc4.Ifc4Package#getIfcGeometricSet_Dim()
      * @model unsettable="true" derived="true"
+     *        annotation="derived"
      * @generated
      */
     long getDim();

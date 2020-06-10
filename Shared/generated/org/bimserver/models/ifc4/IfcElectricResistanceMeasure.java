@@ -30,7 +30,7 @@ package org.bimserver.models.ifc4;
  * </ul>
  *
  * @see org.bimserver.models.ifc4.Ifc4Package#getIfcElectricResistanceMeasure()
- * @model
+ * @model annotation="wrapped"
  * @generated
  */
 public interface IfcElectricResistanceMeasure extends IfcDerivedMeasureValue {
@@ -101,6 +101,8 @@ public interface IfcElectricResistanceMeasure extends IfcDerivedMeasureValue {
      * @see #setWrappedValueAsString(String)
      * @see org.bimserver.models.ifc4.Ifc4Package#getIfcElectricResistanceMeasure_WrappedValueAsString()
      * @model unsettable="true"
+     *        annotation="asstring"
+     *        annotation="hidden"
      * @generated
      */
     String getWrappedValueAsString();

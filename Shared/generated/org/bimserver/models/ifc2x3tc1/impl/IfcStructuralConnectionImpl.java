@@ -64,6 +64,7 @@ public class IfcStructuralConnectionImpl extends IfcStructuralItemImpl implement
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public IfcBoundaryCondition getAppliedCondition() {
         return (IfcBoundaryCondition) eGet(Ifc2x3tc1Package.Literals.IFC_STRUCTURAL_CONNECTION__APPLIED_CONDITION,
                 true);
@@ -74,6 +75,7 @@ public class IfcStructuralConnectionImpl extends IfcStructuralItemImpl implement
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setAppliedCondition(IfcBoundaryCondition newAppliedCondition) {
         eSet(Ifc2x3tc1Package.Literals.IFC_STRUCTURAL_CONNECTION__APPLIED_CONDITION, newAppliedCondition);
     }
@@ -83,6 +85,7 @@ public class IfcStructuralConnectionImpl extends IfcStructuralItemImpl implement
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void unsetAppliedCondition() {
         eUnset(Ifc2x3tc1Package.Literals.IFC_STRUCTURAL_CONNECTION__APPLIED_CONDITION);
     }
@@ -92,6 +95,7 @@ public class IfcStructuralConnectionImpl extends IfcStructuralItemImpl implement
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public boolean isSetAppliedCondition() {
         return eIsSet(Ifc2x3tc1Package.Literals.IFC_STRUCTURAL_CONNECTION__APPLIED_CONDITION);
     }
@@ -102,6 +106,7 @@ public class IfcStructuralConnectionImpl extends IfcStructuralItemImpl implement
      * @generated
      */
     @SuppressWarnings("unchecked")
+    @Override
     public EList<IfcRelConnectsStructuralMember> getConnectsStructuralMembers() {
         return (EList<IfcRelConnectsStructuralMember>) eGet(
                 Ifc2x3tc1Package.Literals.IFC_STRUCTURAL_CONNECTION__CONNECTS_STRUCTURAL_MEMBERS, true);
@@ -112,6 +117,7 @@ public class IfcStructuralConnectionImpl extends IfcStructuralItemImpl implement
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void unsetConnectsStructuralMembers() {
         eUnset(Ifc2x3tc1Package.Literals.IFC_STRUCTURAL_CONNECTION__CONNECTS_STRUCTURAL_MEMBERS);
     }
@@ -121,6 +127,7 @@ public class IfcStructuralConnectionImpl extends IfcStructuralItemImpl implement
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public boolean isSetConnectsStructuralMembers() {
         return eIsSet(Ifc2x3tc1Package.Literals.IFC_STRUCTURAL_CONNECTION__CONNECTS_STRUCTURAL_MEMBERS);
     }

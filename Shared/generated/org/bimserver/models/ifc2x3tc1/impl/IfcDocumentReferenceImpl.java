@@ -63,6 +63,7 @@ public class IfcDocumentReferenceImpl extends IfcExternalReferenceImpl implement
      * @generated
      */
     @SuppressWarnings("unchecked")
+    @Override
     public EList<IfcDocumentInformation> getReferenceToDocument() {
         return (EList<IfcDocumentInformation>) eGet(
                 Ifc2x3tc1Package.Literals.IFC_DOCUMENT_REFERENCE__REFERENCE_TO_DOCUMENT, true);
@@ -73,6 +74,7 @@ public class IfcDocumentReferenceImpl extends IfcExternalReferenceImpl implement
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void unsetReferenceToDocument() {
         eUnset(Ifc2x3tc1Package.Literals.IFC_DOCUMENT_REFERENCE__REFERENCE_TO_DOCUMENT);
     }
@@ -82,6 +84,7 @@ public class IfcDocumentReferenceImpl extends IfcExternalReferenceImpl implement
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public boolean isSetReferenceToDocument() {
         return eIsSet(Ifc2x3tc1Package.Literals.IFC_DOCUMENT_REFERENCE__REFERENCE_TO_DOCUMENT);
     }

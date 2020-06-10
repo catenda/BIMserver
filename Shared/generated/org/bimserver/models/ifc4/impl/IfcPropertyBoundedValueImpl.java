@@ -64,6 +64,7 @@ public class IfcPropertyBoundedValueImpl extends IfcSimplePropertyImpl implement
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public IfcValue getUpperBoundValue() {
         return (IfcValue) eGet(Ifc4Package.Literals.IFC_PROPERTY_BOUNDED_VALUE__UPPER_BOUND_VALUE, true);
     }
@@ -73,6 +74,7 @@ public class IfcPropertyBoundedValueImpl extends IfcSimplePropertyImpl implement
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setUpperBoundValue(IfcValue newUpperBoundValue) {
         eSet(Ifc4Package.Literals.IFC_PROPERTY_BOUNDED_VALUE__UPPER_BOUND_VALUE, newUpperBoundValue);
     }
@@ -82,6 +84,7 @@ public class IfcPropertyBoundedValueImpl extends IfcSimplePropertyImpl implement
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void unsetUpperBoundValue() {
         eUnset(Ifc4Package.Literals.IFC_PROPERTY_BOUNDED_VALUE__UPPER_BOUND_VALUE);
     }
@@ -91,6 +94,7 @@ public class IfcPropertyBoundedValueImpl extends IfcSimplePropertyImpl implement
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public boolean isSetUpperBoundValue() {
         return eIsSet(Ifc4Package.Literals.IFC_PROPERTY_BOUNDED_VALUE__UPPER_BOUND_VALUE);
     }
@@ -100,6 +104,7 @@ public class IfcPropertyBoundedValueImpl extends IfcSimplePropertyImpl implement
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public IfcValue getLowerBoundValue() {
         return (IfcValue) eGet(Ifc4Package.Literals.IFC_PROPERTY_BOUNDED_VALUE__LOWER_BOUND_VALUE, true);
     }
@@ -109,6 +114,7 @@ public class IfcPropertyBoundedValueImpl extends IfcSimplePropertyImpl implement
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setLowerBoundValue(IfcValue newLowerBoundValue) {
         eSet(Ifc4Package.Literals.IFC_PROPERTY_BOUNDED_VALUE__LOWER_BOUND_VALUE, newLowerBoundValue);
     }
@@ -118,6 +124,7 @@ public class IfcPropertyBoundedValueImpl extends IfcSimplePropertyImpl implement
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void unsetLowerBoundValue() {
         eUnset(Ifc4Package.Literals.IFC_PROPERTY_BOUNDED_VALUE__LOWER_BOUND_VALUE);
     }
@@ -127,6 +134,7 @@ public class IfcPropertyBoundedValueImpl extends IfcSimplePropertyImpl implement
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public boolean isSetLowerBoundValue() {
         return eIsSet(Ifc4Package.Literals.IFC_PROPERTY_BOUNDED_VALUE__LOWER_BOUND_VALUE);
     }
@@ -136,6 +144,7 @@ public class IfcPropertyBoundedValueImpl extends IfcSimplePropertyImpl implement
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public IfcUnit getUnit() {
         return (IfcUnit) eGet(Ifc4Package.Literals.IFC_PROPERTY_BOUNDED_VALUE__UNIT, true);
     }
@@ -145,6 +154,7 @@ public class IfcPropertyBoundedValueImpl extends IfcSimplePropertyImpl implement
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setUnit(IfcUnit newUnit) {
         eSet(Ifc4Package.Literals.IFC_PROPERTY_BOUNDED_VALUE__UNIT, newUnit);
     }
@@ -154,6 +164,7 @@ public class IfcPropertyBoundedValueImpl extends IfcSimplePropertyImpl implement
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void unsetUnit() {
         eUnset(Ifc4Package.Literals.IFC_PROPERTY_BOUNDED_VALUE__UNIT);
     }
@@ -163,6 +174,7 @@ public class IfcPropertyBoundedValueImpl extends IfcSimplePropertyImpl implement
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public boolean isSetUnit() {
         return eIsSet(Ifc4Package.Literals.IFC_PROPERTY_BOUNDED_VALUE__UNIT);
     }
@@ -172,6 +184,7 @@ public class IfcPropertyBoundedValueImpl extends IfcSimplePropertyImpl implement
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public IfcValue getSetPointValue() {
         return (IfcValue) eGet(Ifc4Package.Literals.IFC_PROPERTY_BOUNDED_VALUE__SET_POINT_VALUE, true);
     }
@@ -181,6 +194,7 @@ public class IfcPropertyBoundedValueImpl extends IfcSimplePropertyImpl implement
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setSetPointValue(IfcValue newSetPointValue) {
         eSet(Ifc4Package.Literals.IFC_PROPERTY_BOUNDED_VALUE__SET_POINT_VALUE, newSetPointValue);
     }
@@ -190,6 +204,7 @@ public class IfcPropertyBoundedValueImpl extends IfcSimplePropertyImpl implement
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void unsetSetPointValue() {
         eUnset(Ifc4Package.Literals.IFC_PROPERTY_BOUNDED_VALUE__SET_POINT_VALUE);
     }
@@ -199,6 +214,7 @@ public class IfcPropertyBoundedValueImpl extends IfcSimplePropertyImpl implement
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public boolean isSetSetPointValue() {
         return eIsSet(Ifc4Package.Literals.IFC_PROPERTY_BOUNDED_VALUE__SET_POINT_VALUE);
     }

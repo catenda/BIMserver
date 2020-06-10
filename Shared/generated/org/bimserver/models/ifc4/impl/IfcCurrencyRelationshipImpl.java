@@ -66,6 +66,7 @@ public class IfcCurrencyRelationshipImpl extends IfcResourceLevelRelationshipImp
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public IfcMonetaryUnit getRelatingMonetaryUnit() {
         return (IfcMonetaryUnit) eGet(Ifc4Package.Literals.IFC_CURRENCY_RELATIONSHIP__RELATING_MONETARY_UNIT, true);
     }
@@ -75,6 +76,7 @@ public class IfcCurrencyRelationshipImpl extends IfcResourceLevelRelationshipImp
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setRelatingMonetaryUnit(IfcMonetaryUnit newRelatingMonetaryUnit) {
         eSet(Ifc4Package.Literals.IFC_CURRENCY_RELATIONSHIP__RELATING_MONETARY_UNIT, newRelatingMonetaryUnit);
     }
@@ -84,6 +86,7 @@ public class IfcCurrencyRelationshipImpl extends IfcResourceLevelRelationshipImp
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public IfcMonetaryUnit getRelatedMonetaryUnit() {
         return (IfcMonetaryUnit) eGet(Ifc4Package.Literals.IFC_CURRENCY_RELATIONSHIP__RELATED_MONETARY_UNIT, true);
     }
@@ -93,6 +96,7 @@ public class IfcCurrencyRelationshipImpl extends IfcResourceLevelRelationshipImp
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setRelatedMonetaryUnit(IfcMonetaryUnit newRelatedMonetaryUnit) {
         eSet(Ifc4Package.Literals.IFC_CURRENCY_RELATIONSHIP__RELATED_MONETARY_UNIT, newRelatedMonetaryUnit);
     }
@@ -102,6 +106,7 @@ public class IfcCurrencyRelationshipImpl extends IfcResourceLevelRelationshipImp
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public double getExchangeRate() {
         return (Double) eGet(Ifc4Package.Literals.IFC_CURRENCY_RELATIONSHIP__EXCHANGE_RATE, true);
     }
@@ -111,6 +116,7 @@ public class IfcCurrencyRelationshipImpl extends IfcResourceLevelRelationshipImp
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setExchangeRate(double newExchangeRate) {
         eSet(Ifc4Package.Literals.IFC_CURRENCY_RELATIONSHIP__EXCHANGE_RATE, newExchangeRate);
     }
@@ -120,6 +126,7 @@ public class IfcCurrencyRelationshipImpl extends IfcResourceLevelRelationshipImp
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public String getExchangeRateAsString() {
         return (String) eGet(Ifc4Package.Literals.IFC_CURRENCY_RELATIONSHIP__EXCHANGE_RATE_AS_STRING, true);
     }
@@ -129,6 +136,7 @@ public class IfcCurrencyRelationshipImpl extends IfcResourceLevelRelationshipImp
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setExchangeRateAsString(String newExchangeRateAsString) {
         eSet(Ifc4Package.Literals.IFC_CURRENCY_RELATIONSHIP__EXCHANGE_RATE_AS_STRING, newExchangeRateAsString);
     }
@@ -138,6 +146,7 @@ public class IfcCurrencyRelationshipImpl extends IfcResourceLevelRelationshipImp
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public String getRateDateTime() {
         return (String) eGet(Ifc4Package.Literals.IFC_CURRENCY_RELATIONSHIP__RATE_DATE_TIME, true);
     }
@@ -147,6 +156,7 @@ public class IfcCurrencyRelationshipImpl extends IfcResourceLevelRelationshipImp
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setRateDateTime(String newRateDateTime) {
         eSet(Ifc4Package.Literals.IFC_CURRENCY_RELATIONSHIP__RATE_DATE_TIME, newRateDateTime);
     }
@@ -156,6 +166,7 @@ public class IfcCurrencyRelationshipImpl extends IfcResourceLevelRelationshipImp
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void unsetRateDateTime() {
         eUnset(Ifc4Package.Literals.IFC_CURRENCY_RELATIONSHIP__RATE_DATE_TIME);
     }
@@ -165,6 +176,7 @@ public class IfcCurrencyRelationshipImpl extends IfcResourceLevelRelationshipImp
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public boolean isSetRateDateTime() {
         return eIsSet(Ifc4Package.Literals.IFC_CURRENCY_RELATIONSHIP__RATE_DATE_TIME);
     }
@@ -174,6 +186,7 @@ public class IfcCurrencyRelationshipImpl extends IfcResourceLevelRelationshipImp
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public IfcLibraryInformation getRateSource() {
         return (IfcLibraryInformation) eGet(Ifc4Package.Literals.IFC_CURRENCY_RELATIONSHIP__RATE_SOURCE, true);
     }
@@ -183,6 +196,7 @@ public class IfcCurrencyRelationshipImpl extends IfcResourceLevelRelationshipImp
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setRateSource(IfcLibraryInformation newRateSource) {
         eSet(Ifc4Package.Literals.IFC_CURRENCY_RELATIONSHIP__RATE_SOURCE, newRateSource);
     }
@@ -192,6 +206,7 @@ public class IfcCurrencyRelationshipImpl extends IfcResourceLevelRelationshipImp
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void unsetRateSource() {
         eUnset(Ifc4Package.Literals.IFC_CURRENCY_RELATIONSHIP__RATE_SOURCE);
     }
@@ -201,6 +216,7 @@ public class IfcCurrencyRelationshipImpl extends IfcResourceLevelRelationshipImp
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public boolean isSetRateSource() {
         return eIsSet(Ifc4Package.Literals.IFC_CURRENCY_RELATIONSHIP__RATE_SOURCE);
     }

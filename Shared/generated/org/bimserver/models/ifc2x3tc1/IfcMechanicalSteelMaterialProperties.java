@@ -114,6 +114,8 @@ public interface IfcMechanicalSteelMaterialProperties extends IfcMechanicalMater
      * @see #setYieldStressAsString(String)
      * @see org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package#getIfcMechanicalSteelMaterialProperties_YieldStressAsString()
      * @model unsettable="true"
+     *        annotation="asstring"
+     *        annotation="hidden"
      * @generated
      */
     String getYieldStressAsString();
@@ -220,6 +222,8 @@ public interface IfcMechanicalSteelMaterialProperties extends IfcMechanicalMater
      * @see #setUltimateStressAsString(String)
      * @see org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package#getIfcMechanicalSteelMaterialProperties_UltimateStressAsString()
      * @model unsettable="true"
+     *        annotation="asstring"
+     *        annotation="hidden"
      * @generated
      */
     String getUltimateStressAsString();
@@ -326,6 +330,8 @@ public interface IfcMechanicalSteelMaterialProperties extends IfcMechanicalMater
      * @see #setUltimateStrainAsString(String)
      * @see org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package#getIfcMechanicalSteelMaterialProperties_UltimateStrainAsString()
      * @model unsettable="true"
+     *        annotation="asstring"
+     *        annotation="hidden"
      * @generated
      */
     String getUltimateStrainAsString();
@@ -432,6 +438,8 @@ public interface IfcMechanicalSteelMaterialProperties extends IfcMechanicalMater
      * @see #setHardeningModuleAsString(String)
      * @see org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package#getIfcMechanicalSteelMaterialProperties_HardeningModuleAsString()
      * @model unsettable="true"
+     *        annotation="asstring"
+     *        annotation="hidden"
      * @generated
      */
     String getHardeningModuleAsString();
@@ -538,6 +546,8 @@ public interface IfcMechanicalSteelMaterialProperties extends IfcMechanicalMater
      * @see #setProportionalStressAsString(String)
      * @see org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package#getIfcMechanicalSteelMaterialProperties_ProportionalStressAsString()
      * @model unsettable="true"
+     *        annotation="asstring"
+     *        annotation="hidden"
      * @generated
      */
     String getProportionalStressAsString();
@@ -644,6 +654,8 @@ public interface IfcMechanicalSteelMaterialProperties extends IfcMechanicalMater
      * @see #setPlasticStrainAsString(String)
      * @see org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package#getIfcMechanicalSteelMaterialProperties_PlasticStrainAsString()
      * @model unsettable="true"
+     *        annotation="asstring"
+     *        annotation="hidden"
      * @generated
      */
     String getPlasticStrainAsString();

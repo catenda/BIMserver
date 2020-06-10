@@ -62,6 +62,7 @@ public class IfcGridPlacementImpl extends IfcObjectPlacementImpl implements IfcG
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public IfcVirtualGridIntersection getPlacementLocation() {
         return (IfcVirtualGridIntersection) eGet(Ifc4Package.Literals.IFC_GRID_PLACEMENT__PLACEMENT_LOCATION, true);
     }
@@ -71,6 +72,7 @@ public class IfcGridPlacementImpl extends IfcObjectPlacementImpl implements IfcG
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setPlacementLocation(IfcVirtualGridIntersection newPlacementLocation) {
         eSet(Ifc4Package.Literals.IFC_GRID_PLACEMENT__PLACEMENT_LOCATION, newPlacementLocation);
     }
@@ -80,6 +82,7 @@ public class IfcGridPlacementImpl extends IfcObjectPlacementImpl implements IfcG
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public IfcGridPlacementDirectionSelect getPlacementRefDirection() {
         return (IfcGridPlacementDirectionSelect) eGet(Ifc4Package.Literals.IFC_GRID_PLACEMENT__PLACEMENT_REF_DIRECTION,
                 true);
@@ -90,6 +93,7 @@ public class IfcGridPlacementImpl extends IfcObjectPlacementImpl implements IfcG
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setPlacementRefDirection(IfcGridPlacementDirectionSelect newPlacementRefDirection) {
         eSet(Ifc4Package.Literals.IFC_GRID_PLACEMENT__PLACEMENT_REF_DIRECTION, newPlacementRefDirection);
     }
@@ -99,6 +103,7 @@ public class IfcGridPlacementImpl extends IfcObjectPlacementImpl implements IfcG
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void unsetPlacementRefDirection() {
         eUnset(Ifc4Package.Literals.IFC_GRID_PLACEMENT__PLACEMENT_REF_DIRECTION);
     }
@@ -108,6 +113,7 @@ public class IfcGridPlacementImpl extends IfcObjectPlacementImpl implements IfcG
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public boolean isSetPlacementRefDirection() {
         return eIsSet(Ifc4Package.Literals.IFC_GRID_PLACEMENT__PLACEMENT_REF_DIRECTION);
     }

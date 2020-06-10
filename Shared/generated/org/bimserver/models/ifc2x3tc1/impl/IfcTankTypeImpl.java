@@ -60,6 +60,7 @@ public class IfcTankTypeImpl extends IfcFlowStorageDeviceTypeImpl implements Ifc
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public IfcTankTypeEnum getPredefinedType() {
         return (IfcTankTypeEnum) eGet(Ifc2x3tc1Package.Literals.IFC_TANK_TYPE__PREDEFINED_TYPE, true);
     }
@@ -69,6 +70,7 @@ public class IfcTankTypeImpl extends IfcFlowStorageDeviceTypeImpl implements Ifc
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setPredefinedType(IfcTankTypeEnum newPredefinedType) {
         eSet(Ifc2x3tc1Package.Literals.IFC_TANK_TYPE__PREDEFINED_TYPE, newPredefinedType);
     }

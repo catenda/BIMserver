@@ -52,6 +52,7 @@ public interface IfcCompositeCurve extends IfcBoundedCurve {
      * @see org.bimserver.models.ifc4.Ifc4Package#getIfcCompositeCurve_Segments()
      * @see org.bimserver.models.ifc4.IfcCompositeCurveSegment#getUsingCurves
      * @model opposite="UsingCurves"
+     *        annotation="inverse"
      * @generated
      */
     EList<IfcCompositeCurveSegment> getSegments();
@@ -101,6 +102,7 @@ public interface IfcCompositeCurve extends IfcBoundedCurve {
      * @see #setClosedCurve(Tristate)
      * @see org.bimserver.models.ifc4.Ifc4Package#getIfcCompositeCurve_ClosedCurve()
      * @model unsettable="true" derived="true"
+     *        annotation="derived"
      * @generated
      */
     Tristate getClosedCurve();
@@ -155,6 +157,7 @@ public interface IfcCompositeCurve extends IfcBoundedCurve {
      * @see #setNSegments(long)
      * @see org.bimserver.models.ifc4.Ifc4Package#getIfcCompositeCurve_NSegments()
      * @model unsettable="true" derived="true"
+     *        annotation="derived"
      * @generated
      */
     long getNSegments();

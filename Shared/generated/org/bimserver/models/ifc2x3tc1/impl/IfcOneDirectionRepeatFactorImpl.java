@@ -61,6 +61,7 @@ public class IfcOneDirectionRepeatFactorImpl extends IfcGeometricRepresentationI
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public IfcVector getRepeatFactor() {
         return (IfcVector) eGet(Ifc2x3tc1Package.Literals.IFC_ONE_DIRECTION_REPEAT_FACTOR__REPEAT_FACTOR, true);
     }
@@ -70,6 +71,7 @@ public class IfcOneDirectionRepeatFactorImpl extends IfcGeometricRepresentationI
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setRepeatFactor(IfcVector newRepeatFactor) {
         eSet(Ifc2x3tc1Package.Literals.IFC_ONE_DIRECTION_REPEAT_FACTOR__REPEAT_FACTOR, newRepeatFactor);
     }

@@ -61,6 +61,7 @@ public class IfcUnitaryControlElementTypeImpl extends IfcDistributionControlElem
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public IfcUnitaryControlElementTypeEnum getPredefinedType() {
         return (IfcUnitaryControlElementTypeEnum) eGet(
                 Ifc4Package.Literals.IFC_UNITARY_CONTROL_ELEMENT_TYPE__PREDEFINED_TYPE, true);
@@ -71,6 +72,7 @@ public class IfcUnitaryControlElementTypeImpl extends IfcDistributionControlElem
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setPredefinedType(IfcUnitaryControlElementTypeEnum newPredefinedType) {
         eSet(Ifc4Package.Literals.IFC_UNITARY_CONTROL_ELEMENT_TYPE__PREDEFINED_TYPE, newPredefinedType);
     }

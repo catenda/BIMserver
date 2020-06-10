@@ -62,6 +62,7 @@ public class IfcFaceBoundImpl extends IfcTopologicalRepresentationItemImpl imple
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public IfcLoop getBound() {
         return (IfcLoop) eGet(Ifc4Package.Literals.IFC_FACE_BOUND__BOUND, true);
     }
@@ -71,6 +72,7 @@ public class IfcFaceBoundImpl extends IfcTopologicalRepresentationItemImpl imple
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setBound(IfcLoop newBound) {
         eSet(Ifc4Package.Literals.IFC_FACE_BOUND__BOUND, newBound);
     }
@@ -80,6 +82,7 @@ public class IfcFaceBoundImpl extends IfcTopologicalRepresentationItemImpl imple
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public Tristate getOrientation() {
         return (Tristate) eGet(Ifc4Package.Literals.IFC_FACE_BOUND__ORIENTATION, true);
     }
@@ -89,6 +92,7 @@ public class IfcFaceBoundImpl extends IfcTopologicalRepresentationItemImpl imple
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setOrientation(Tristate newOrientation) {
         eSet(Ifc4Package.Literals.IFC_FACE_BOUND__ORIENTATION, newOrientation);
     }

@@ -238,6 +238,7 @@ public interface IfcCoordinateReferenceSystem extends IfcCoordinateReferenceSyst
      * @see #unsetHasCoordinateOperation()
      * @see org.bimserver.models.ifc4.Ifc4Package#getIfcCoordinateReferenceSystem_HasCoordinateOperation()
      * @model unsettable="true" upper="2"
+     *        annotation="inverse"
      * @generated
      */
     EList<IfcCoordinateOperation> getHasCoordinateOperation();

@@ -75,6 +75,7 @@ public class CompareContainerImpl extends IdEObjectImpl implements CompareContai
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public String getType() {
         return (String) eGet(StorePackage.Literals.COMPARE_CONTAINER__TYPE, true);
     }
@@ -84,6 +85,7 @@ public class CompareContainerImpl extends IdEObjectImpl implements CompareContai
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setType(String newType) {
         eSet(StorePackage.Literals.COMPARE_CONTAINER__TYPE, newType);
     }
@@ -94,6 +96,7 @@ public class CompareContainerImpl extends IdEObjectImpl implements CompareContai
      * @generated
      */
     @SuppressWarnings("unchecked")
+    @Override
     public EList<CompareItem> getItems() {
         return (EList<CompareItem>) eGet(StorePackage.Literals.COMPARE_CONTAINER__ITEMS, true);
     }

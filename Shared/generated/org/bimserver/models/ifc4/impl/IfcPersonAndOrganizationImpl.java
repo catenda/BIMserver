@@ -78,6 +78,7 @@ public class IfcPersonAndOrganizationImpl extends IdEObjectImpl implements IfcPe
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public IfcPerson getThePerson() {
         return (IfcPerson) eGet(Ifc4Package.Literals.IFC_PERSON_AND_ORGANIZATION__THE_PERSON, true);
     }
@@ -87,6 +88,7 @@ public class IfcPersonAndOrganizationImpl extends IdEObjectImpl implements IfcPe
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setThePerson(IfcPerson newThePerson) {
         eSet(Ifc4Package.Literals.IFC_PERSON_AND_ORGANIZATION__THE_PERSON, newThePerson);
     }
@@ -96,6 +98,7 @@ public class IfcPersonAndOrganizationImpl extends IdEObjectImpl implements IfcPe
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public IfcOrganization getTheOrganization() {
         return (IfcOrganization) eGet(Ifc4Package.Literals.IFC_PERSON_AND_ORGANIZATION__THE_ORGANIZATION, true);
     }
@@ -105,6 +108,7 @@ public class IfcPersonAndOrganizationImpl extends IdEObjectImpl implements IfcPe
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setTheOrganization(IfcOrganization newTheOrganization) {
         eSet(Ifc4Package.Literals.IFC_PERSON_AND_ORGANIZATION__THE_ORGANIZATION, newTheOrganization);
     }
@@ -115,6 +119,7 @@ public class IfcPersonAndOrganizationImpl extends IdEObjectImpl implements IfcPe
      * @generated
      */
     @SuppressWarnings("unchecked")
+    @Override
     public EList<IfcActorRole> getRoles() {
         return (EList<IfcActorRole>) eGet(Ifc4Package.Literals.IFC_PERSON_AND_ORGANIZATION__ROLES, true);
     }
@@ -124,6 +129,7 @@ public class IfcPersonAndOrganizationImpl extends IdEObjectImpl implements IfcPe
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void unsetRoles() {
         eUnset(Ifc4Package.Literals.IFC_PERSON_AND_ORGANIZATION__ROLES);
     }
@@ -133,6 +139,7 @@ public class IfcPersonAndOrganizationImpl extends IdEObjectImpl implements IfcPe
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public boolean isSetRoles() {
         return eIsSet(Ifc4Package.Literals.IFC_PERSON_AND_ORGANIZATION__ROLES);
     }

@@ -60,6 +60,7 @@ public class IfcDamperTypeImpl extends IfcFlowControllerTypeImpl implements IfcD
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public IfcDamperTypeEnum getPredefinedType() {
         return (IfcDamperTypeEnum) eGet(Ifc2x3tc1Package.Literals.IFC_DAMPER_TYPE__PREDEFINED_TYPE, true);
     }
@@ -69,6 +70,7 @@ public class IfcDamperTypeImpl extends IfcFlowControllerTypeImpl implements IfcD
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setPredefinedType(IfcDamperTypeEnum newPredefinedType) {
         eSet(Ifc2x3tc1Package.Literals.IFC_DAMPER_TYPE__PREDEFINED_TYPE, newPredefinedType);
     }

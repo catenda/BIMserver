@@ -59,6 +59,7 @@ public class IfcPerformanceHistoryImpl extends IfcControlImpl implements IfcPerf
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public String getLifeCyclePhase() {
         return (String) eGet(Ifc2x3tc1Package.Literals.IFC_PERFORMANCE_HISTORY__LIFE_CYCLE_PHASE, true);
     }
@@ -68,6 +69,7 @@ public class IfcPerformanceHistoryImpl extends IfcControlImpl implements IfcPerf
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setLifeCyclePhase(String newLifeCyclePhase) {
         eSet(Ifc2x3tc1Package.Literals.IFC_PERFORMANCE_HISTORY__LIFE_CYCLE_PHASE, newLifeCyclePhase);
     }

@@ -98,7 +98,8 @@ public interface IfcExtrudedAreaSolid extends IfcSweptAreaSolid {
      * @return the value of the '<em>Depth As String</em>' attribute.
      * @see #setDepthAsString(String)
      * @see org.bimserver.models.ifc4.Ifc4Package#getIfcExtrudedAreaSolid_DepthAsString()
-     * @model
+     * @model annotation="asstring"
+     *        annotation="hidden"
      * @generated
      */
     String getDepthAsString();

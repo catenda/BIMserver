@@ -137,6 +137,7 @@ public interface IfcProperty extends IdEObject {
      * @see org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package#getIfcProperty_PropertyForDependance()
      * @see org.bimserver.models.ifc2x3tc1.IfcPropertyDependencyRelationship#getDependingProperty
      * @model opposite="DependingProperty" unsettable="true"
+     *        annotation="inverse"
      * @generated
      */
     EList<IfcPropertyDependencyRelationship> getPropertyForDependance();
@@ -178,6 +179,7 @@ public interface IfcProperty extends IdEObject {
      * @see org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package#getIfcProperty_PropertyDependsOn()
      * @see org.bimserver.models.ifc2x3tc1.IfcPropertyDependencyRelationship#getDependantProperty
      * @model opposite="DependantProperty" unsettable="true"
+     *        annotation="inverse"
      * @generated
      */
     EList<IfcPropertyDependencyRelationship> getPropertyDependsOn();
@@ -219,6 +221,7 @@ public interface IfcProperty extends IdEObject {
      * @see org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package#getIfcProperty_PartOfComplex()
      * @see org.bimserver.models.ifc2x3tc1.IfcComplexProperty#getHasProperties
      * @model opposite="HasProperties" unsettable="true" upper="2"
+     *        annotation="inverse"
      * @generated
      */
     EList<IfcComplexProperty> getPartOfComplex();

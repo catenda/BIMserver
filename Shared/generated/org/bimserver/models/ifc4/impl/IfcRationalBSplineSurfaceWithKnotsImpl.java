@@ -65,6 +65,7 @@ public class IfcRationalBSplineSurfaceWithKnotsImpl extends IfcBSplineSurfaceWit
      * @generated
      */
     @SuppressWarnings("unchecked")
+    @Override
     public EList<ListOfEDouble> getWeightsData() {
         return (EList<ListOfEDouble>) eGet(Ifc4Package.Literals.IFC_RATIONAL_BSPLINE_SURFACE_WITH_KNOTS__WEIGHTS_DATA,
                 true);
@@ -75,6 +76,7 @@ public class IfcRationalBSplineSurfaceWithKnotsImpl extends IfcBSplineSurfaceWit
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public double getWeights() {
         return (Double) eGet(Ifc4Package.Literals.IFC_RATIONAL_BSPLINE_SURFACE_WITH_KNOTS__WEIGHTS, true);
     }
@@ -84,6 +86,7 @@ public class IfcRationalBSplineSurfaceWithKnotsImpl extends IfcBSplineSurfaceWit
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setWeights(double newWeights) {
         eSet(Ifc4Package.Literals.IFC_RATIONAL_BSPLINE_SURFACE_WITH_KNOTS__WEIGHTS, newWeights);
     }
@@ -93,6 +96,7 @@ public class IfcRationalBSplineSurfaceWithKnotsImpl extends IfcBSplineSurfaceWit
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void unsetWeights() {
         eUnset(Ifc4Package.Literals.IFC_RATIONAL_BSPLINE_SURFACE_WITH_KNOTS__WEIGHTS);
     }
@@ -102,6 +106,7 @@ public class IfcRationalBSplineSurfaceWithKnotsImpl extends IfcBSplineSurfaceWit
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public boolean isSetWeights() {
         return eIsSet(Ifc4Package.Literals.IFC_RATIONAL_BSPLINE_SURFACE_WITH_KNOTS__WEIGHTS);
     }
@@ -111,6 +116,7 @@ public class IfcRationalBSplineSurfaceWithKnotsImpl extends IfcBSplineSurfaceWit
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public String getWeightsAsString() {
         return (String) eGet(Ifc4Package.Literals.IFC_RATIONAL_BSPLINE_SURFACE_WITH_KNOTS__WEIGHTS_AS_STRING, true);
     }
@@ -120,6 +126,7 @@ public class IfcRationalBSplineSurfaceWithKnotsImpl extends IfcBSplineSurfaceWit
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setWeightsAsString(String newWeightsAsString) {
         eSet(Ifc4Package.Literals.IFC_RATIONAL_BSPLINE_SURFACE_WITH_KNOTS__WEIGHTS_AS_STRING, newWeightsAsString);
     }
@@ -129,6 +136,7 @@ public class IfcRationalBSplineSurfaceWithKnotsImpl extends IfcBSplineSurfaceWit
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void unsetWeightsAsString() {
         eUnset(Ifc4Package.Literals.IFC_RATIONAL_BSPLINE_SURFACE_WITH_KNOTS__WEIGHTS_AS_STRING);
     }
@@ -138,6 +146,7 @@ public class IfcRationalBSplineSurfaceWithKnotsImpl extends IfcBSplineSurfaceWit
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public boolean isSetWeightsAsString() {
         return eIsSet(Ifc4Package.Literals.IFC_RATIONAL_BSPLINE_SURFACE_WITH_KNOTS__WEIGHTS_AS_STRING);
     }

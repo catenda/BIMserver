@@ -63,6 +63,7 @@ public class IfcFillAreaStyleImpl extends IfcPresentationStyleImpl implements If
      * @generated
      */
     @SuppressWarnings("unchecked")
+    @Override
     public EList<IfcFillStyleSelect> getFillStyles() {
         return (EList<IfcFillStyleSelect>) eGet(Ifc2x3tc1Package.Literals.IFC_FILL_AREA_STYLE__FILL_STYLES, true);
     }

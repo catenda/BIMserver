@@ -80,6 +80,7 @@ public class IfcRepresentationMapImpl extends IdEObjectImpl implements IfcRepres
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public IfcAxis2Placement getMappingOrigin() {
         return (IfcAxis2Placement) eGet(Ifc4Package.Literals.IFC_REPRESENTATION_MAP__MAPPING_ORIGIN, true);
     }
@@ -89,6 +90,7 @@ public class IfcRepresentationMapImpl extends IdEObjectImpl implements IfcRepres
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setMappingOrigin(IfcAxis2Placement newMappingOrigin) {
         eSet(Ifc4Package.Literals.IFC_REPRESENTATION_MAP__MAPPING_ORIGIN, newMappingOrigin);
     }
@@ -98,6 +100,7 @@ public class IfcRepresentationMapImpl extends IdEObjectImpl implements IfcRepres
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public IfcRepresentation getMappedRepresentation() {
         return (IfcRepresentation) eGet(Ifc4Package.Literals.IFC_REPRESENTATION_MAP__MAPPED_REPRESENTATION, true);
     }
@@ -107,6 +110,7 @@ public class IfcRepresentationMapImpl extends IdEObjectImpl implements IfcRepres
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setMappedRepresentation(IfcRepresentation newMappedRepresentation) {
         eSet(Ifc4Package.Literals.IFC_REPRESENTATION_MAP__MAPPED_REPRESENTATION, newMappedRepresentation);
     }
@@ -117,6 +121,7 @@ public class IfcRepresentationMapImpl extends IdEObjectImpl implements IfcRepres
      * @generated
      */
     @SuppressWarnings("unchecked")
+    @Override
     public EList<IfcShapeAspect> getHasShapeAspects() {
         return (EList<IfcShapeAspect>) eGet(Ifc4Package.Literals.IFC_REPRESENTATION_MAP__HAS_SHAPE_ASPECTS, true);
     }
@@ -126,6 +131,7 @@ public class IfcRepresentationMapImpl extends IdEObjectImpl implements IfcRepres
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void unsetHasShapeAspects() {
         eUnset(Ifc4Package.Literals.IFC_REPRESENTATION_MAP__HAS_SHAPE_ASPECTS);
     }
@@ -135,6 +141,7 @@ public class IfcRepresentationMapImpl extends IdEObjectImpl implements IfcRepres
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public boolean isSetHasShapeAspects() {
         return eIsSet(Ifc4Package.Literals.IFC_REPRESENTATION_MAP__HAS_SHAPE_ASPECTS);
     }
@@ -145,6 +152,7 @@ public class IfcRepresentationMapImpl extends IdEObjectImpl implements IfcRepres
      * @generated
      */
     @SuppressWarnings("unchecked")
+    @Override
     public EList<IfcMappedItem> getMapUsage() {
         return (EList<IfcMappedItem>) eGet(Ifc4Package.Literals.IFC_REPRESENTATION_MAP__MAP_USAGE, true);
     }
@@ -154,6 +162,7 @@ public class IfcRepresentationMapImpl extends IdEObjectImpl implements IfcRepres
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void unsetMapUsage() {
         eUnset(Ifc4Package.Literals.IFC_REPRESENTATION_MAP__MAP_USAGE);
     }
@@ -163,6 +172,7 @@ public class IfcRepresentationMapImpl extends IdEObjectImpl implements IfcRepres
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public boolean isSetMapUsage() {
         return eIsSet(Ifc4Package.Literals.IFC_REPRESENTATION_MAP__MAP_USAGE);
     }

@@ -60,6 +60,7 @@ public class IfcTerminatorSymbolImpl extends IfcAnnotationSymbolOccurrenceImpl i
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public IfcAnnotationCurveOccurrence getAnnotatedCurve() {
         return (IfcAnnotationCurveOccurrence) eGet(Ifc2x3tc1Package.Literals.IFC_TERMINATOR_SYMBOL__ANNOTATED_CURVE,
                 true);
@@ -70,6 +71,7 @@ public class IfcTerminatorSymbolImpl extends IfcAnnotationSymbolOccurrenceImpl i
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setAnnotatedCurve(IfcAnnotationCurveOccurrence newAnnotatedCurve) {
         eSet(Ifc2x3tc1Package.Literals.IFC_TERMINATOR_SYMBOL__ANNOTATED_CURVE, newAnnotatedCurve);
     }

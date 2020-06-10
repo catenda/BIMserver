@@ -62,6 +62,7 @@ public class IfcLocalPlacementImpl extends IfcObjectPlacementImpl implements Ifc
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public IfcObjectPlacement getPlacementRelTo() {
         return (IfcObjectPlacement) eGet(Ifc4Package.Literals.IFC_LOCAL_PLACEMENT__PLACEMENT_REL_TO, true);
     }
@@ -71,6 +72,7 @@ public class IfcLocalPlacementImpl extends IfcObjectPlacementImpl implements Ifc
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setPlacementRelTo(IfcObjectPlacement newPlacementRelTo) {
         eSet(Ifc4Package.Literals.IFC_LOCAL_PLACEMENT__PLACEMENT_REL_TO, newPlacementRelTo);
     }
@@ -80,6 +82,7 @@ public class IfcLocalPlacementImpl extends IfcObjectPlacementImpl implements Ifc
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void unsetPlacementRelTo() {
         eUnset(Ifc4Package.Literals.IFC_LOCAL_PLACEMENT__PLACEMENT_REL_TO);
     }
@@ -89,6 +92,7 @@ public class IfcLocalPlacementImpl extends IfcObjectPlacementImpl implements Ifc
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public boolean isSetPlacementRelTo() {
         return eIsSet(Ifc4Package.Literals.IFC_LOCAL_PLACEMENT__PLACEMENT_REL_TO);
     }
@@ -98,6 +102,7 @@ public class IfcLocalPlacementImpl extends IfcObjectPlacementImpl implements Ifc
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public IfcAxis2Placement getRelativePlacement() {
         return (IfcAxis2Placement) eGet(Ifc4Package.Literals.IFC_LOCAL_PLACEMENT__RELATIVE_PLACEMENT, true);
     }
@@ -107,6 +112,7 @@ public class IfcLocalPlacementImpl extends IfcObjectPlacementImpl implements Ifc
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setRelativePlacement(IfcAxis2Placement newRelativePlacement) {
         eSet(Ifc4Package.Literals.IFC_LOCAL_PLACEMENT__RELATIVE_PLACEMENT, newRelativePlacement);
     }

@@ -84,6 +84,7 @@ public class IfcOrganizationImpl extends IdEObjectImpl implements IfcOrganizatio
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public String getId() {
         return (String) eGet(Ifc2x3tc1Package.Literals.IFC_ORGANIZATION__ID, true);
     }
@@ -93,6 +94,7 @@ public class IfcOrganizationImpl extends IdEObjectImpl implements IfcOrganizatio
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setId(String newId) {
         eSet(Ifc2x3tc1Package.Literals.IFC_ORGANIZATION__ID, newId);
     }
@@ -102,6 +104,7 @@ public class IfcOrganizationImpl extends IdEObjectImpl implements IfcOrganizatio
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void unsetId() {
         eUnset(Ifc2x3tc1Package.Literals.IFC_ORGANIZATION__ID);
     }
@@ -111,6 +114,7 @@ public class IfcOrganizationImpl extends IdEObjectImpl implements IfcOrganizatio
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public boolean isSetId() {
         return eIsSet(Ifc2x3tc1Package.Literals.IFC_ORGANIZATION__ID);
     }
@@ -120,6 +124,7 @@ public class IfcOrganizationImpl extends IdEObjectImpl implements IfcOrganizatio
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public String getName() {
         return (String) eGet(Ifc2x3tc1Package.Literals.IFC_ORGANIZATION__NAME, true);
     }
@@ -129,6 +134,7 @@ public class IfcOrganizationImpl extends IdEObjectImpl implements IfcOrganizatio
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setName(String newName) {
         eSet(Ifc2x3tc1Package.Literals.IFC_ORGANIZATION__NAME, newName);
     }
@@ -138,6 +144,7 @@ public class IfcOrganizationImpl extends IdEObjectImpl implements IfcOrganizatio
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public String getDescription() {
         return (String) eGet(Ifc2x3tc1Package.Literals.IFC_ORGANIZATION__DESCRIPTION, true);
     }
@@ -147,6 +154,7 @@ public class IfcOrganizationImpl extends IdEObjectImpl implements IfcOrganizatio
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setDescription(String newDescription) {
         eSet(Ifc2x3tc1Package.Literals.IFC_ORGANIZATION__DESCRIPTION, newDescription);
     }
@@ -156,6 +164,7 @@ public class IfcOrganizationImpl extends IdEObjectImpl implements IfcOrganizatio
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void unsetDescription() {
         eUnset(Ifc2x3tc1Package.Literals.IFC_ORGANIZATION__DESCRIPTION);
     }
@@ -165,6 +174,7 @@ public class IfcOrganizationImpl extends IdEObjectImpl implements IfcOrganizatio
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public boolean isSetDescription() {
         return eIsSet(Ifc2x3tc1Package.Literals.IFC_ORGANIZATION__DESCRIPTION);
     }
@@ -175,6 +185,7 @@ public class IfcOrganizationImpl extends IdEObjectImpl implements IfcOrganizatio
      * @generated
      */
     @SuppressWarnings("unchecked")
+    @Override
     public EList<IfcActorRole> getRoles() {
         return (EList<IfcActorRole>) eGet(Ifc2x3tc1Package.Literals.IFC_ORGANIZATION__ROLES, true);
     }
@@ -184,6 +195,7 @@ public class IfcOrganizationImpl extends IdEObjectImpl implements IfcOrganizatio
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void unsetRoles() {
         eUnset(Ifc2x3tc1Package.Literals.IFC_ORGANIZATION__ROLES);
     }
@@ -193,6 +205,7 @@ public class IfcOrganizationImpl extends IdEObjectImpl implements IfcOrganizatio
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public boolean isSetRoles() {
         return eIsSet(Ifc2x3tc1Package.Literals.IFC_ORGANIZATION__ROLES);
     }
@@ -203,6 +216,7 @@ public class IfcOrganizationImpl extends IdEObjectImpl implements IfcOrganizatio
      * @generated
      */
     @SuppressWarnings("unchecked")
+    @Override
     public EList<IfcAddress> getAddresses() {
         return (EList<IfcAddress>) eGet(Ifc2x3tc1Package.Literals.IFC_ORGANIZATION__ADDRESSES, true);
     }
@@ -212,6 +226,7 @@ public class IfcOrganizationImpl extends IdEObjectImpl implements IfcOrganizatio
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void unsetAddresses() {
         eUnset(Ifc2x3tc1Package.Literals.IFC_ORGANIZATION__ADDRESSES);
     }
@@ -221,6 +236,7 @@ public class IfcOrganizationImpl extends IdEObjectImpl implements IfcOrganizatio
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public boolean isSetAddresses() {
         return eIsSet(Ifc2x3tc1Package.Literals.IFC_ORGANIZATION__ADDRESSES);
     }
@@ -231,6 +247,7 @@ public class IfcOrganizationImpl extends IdEObjectImpl implements IfcOrganizatio
      * @generated
      */
     @SuppressWarnings("unchecked")
+    @Override
     public EList<IfcOrganizationRelationship> getIsRelatedBy() {
         return (EList<IfcOrganizationRelationship>) eGet(Ifc2x3tc1Package.Literals.IFC_ORGANIZATION__IS_RELATED_BY,
                 true);
@@ -241,6 +258,7 @@ public class IfcOrganizationImpl extends IdEObjectImpl implements IfcOrganizatio
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void unsetIsRelatedBy() {
         eUnset(Ifc2x3tc1Package.Literals.IFC_ORGANIZATION__IS_RELATED_BY);
     }
@@ -250,6 +268,7 @@ public class IfcOrganizationImpl extends IdEObjectImpl implements IfcOrganizatio
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public boolean isSetIsRelatedBy() {
         return eIsSet(Ifc2x3tc1Package.Literals.IFC_ORGANIZATION__IS_RELATED_BY);
     }
@@ -260,6 +279,7 @@ public class IfcOrganizationImpl extends IdEObjectImpl implements IfcOrganizatio
      * @generated
      */
     @SuppressWarnings("unchecked")
+    @Override
     public EList<IfcOrganizationRelationship> getRelates() {
         return (EList<IfcOrganizationRelationship>) eGet(Ifc2x3tc1Package.Literals.IFC_ORGANIZATION__RELATES, true);
     }
@@ -269,6 +289,7 @@ public class IfcOrganizationImpl extends IdEObjectImpl implements IfcOrganizatio
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void unsetRelates() {
         eUnset(Ifc2x3tc1Package.Literals.IFC_ORGANIZATION__RELATES);
     }
@@ -278,6 +299,7 @@ public class IfcOrganizationImpl extends IdEObjectImpl implements IfcOrganizatio
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public boolean isSetRelates() {
         return eIsSet(Ifc2x3tc1Package.Literals.IFC_ORGANIZATION__RELATES);
     }
@@ -288,6 +310,7 @@ public class IfcOrganizationImpl extends IdEObjectImpl implements IfcOrganizatio
      * @generated
      */
     @SuppressWarnings("unchecked")
+    @Override
     public EList<IfcPersonAndOrganization> getEngages() {
         return (EList<IfcPersonAndOrganization>) eGet(Ifc2x3tc1Package.Literals.IFC_ORGANIZATION__ENGAGES, true);
     }
@@ -297,6 +320,7 @@ public class IfcOrganizationImpl extends IdEObjectImpl implements IfcOrganizatio
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void unsetEngages() {
         eUnset(Ifc2x3tc1Package.Literals.IFC_ORGANIZATION__ENGAGES);
     }
@@ -306,6 +330,7 @@ public class IfcOrganizationImpl extends IdEObjectImpl implements IfcOrganizatio
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public boolean isSetEngages() {
         return eIsSet(Ifc2x3tc1Package.Literals.IFC_ORGANIZATION__ENGAGES);
     }

@@ -48,6 +48,7 @@ public interface IfcRelConnectsPortToElement extends IfcRelConnects {
      * @see org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package#getIfcRelConnectsPortToElement_RelatingPort()
      * @see org.bimserver.models.ifc2x3tc1.IfcPort#getContainedIn
      * @model opposite="ContainedIn"
+     *        annotation="inverse"
      * @generated
      */
     IfcPort getRelatingPort();
@@ -76,6 +77,7 @@ public interface IfcRelConnectsPortToElement extends IfcRelConnects {
      * @see org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package#getIfcRelConnectsPortToElement_RelatedElement()
      * @see org.bimserver.models.ifc2x3tc1.IfcElement#getHasPorts
      * @model opposite="HasPorts"
+     *        annotation="inverse"
      * @generated
      */
     IfcElement getRelatedElement();

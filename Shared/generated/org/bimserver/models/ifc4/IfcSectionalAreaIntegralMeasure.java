@@ -30,7 +30,7 @@ package org.bimserver.models.ifc4;
  * </ul>
  *
  * @see org.bimserver.models.ifc4.Ifc4Package#getIfcSectionalAreaIntegralMeasure()
- * @model
+ * @model annotation="wrapped"
  * @generated
  */
 public interface IfcSectionalAreaIntegralMeasure extends IfcDerivedMeasureValue {
@@ -101,6 +101,8 @@ public interface IfcSectionalAreaIntegralMeasure extends IfcDerivedMeasureValue 
      * @see #setWrappedValueAsString(String)
      * @see org.bimserver.models.ifc4.Ifc4Package#getIfcSectionalAreaIntegralMeasure_WrappedValueAsString()
      * @model unsettable="true"
+     *        annotation="asstring"
+     *        annotation="hidden"
      * @generated
      */
     String getWrappedValueAsString();

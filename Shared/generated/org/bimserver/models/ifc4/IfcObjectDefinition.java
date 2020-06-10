@@ -57,6 +57,7 @@ public interface IfcObjectDefinition extends IfcRoot, IfcDefinitionSelect {
      * @see org.bimserver.models.ifc4.Ifc4Package#getIfcObjectDefinition_HasAssignments()
      * @see org.bimserver.models.ifc4.IfcRelAssigns#getRelatedObjects
      * @model opposite="RelatedObjects" unsettable="true"
+     *        annotation="inverse"
      * @generated
      */
     EList<IfcRelAssigns> getHasAssignments();
@@ -98,6 +99,7 @@ public interface IfcObjectDefinition extends IfcRoot, IfcDefinitionSelect {
      * @see org.bimserver.models.ifc4.Ifc4Package#getIfcObjectDefinition_Nests()
      * @see org.bimserver.models.ifc4.IfcRelNests#getRelatedObjects
      * @model opposite="RelatedObjects" unsettable="true" upper="2"
+     *        annotation="inverse"
      * @generated
      */
     EList<IfcRelNests> getNests();
@@ -139,6 +141,7 @@ public interface IfcObjectDefinition extends IfcRoot, IfcDefinitionSelect {
      * @see org.bimserver.models.ifc4.Ifc4Package#getIfcObjectDefinition_IsNestedBy()
      * @see org.bimserver.models.ifc4.IfcRelNests#getRelatingObject
      * @model opposite="RelatingObject" unsettable="true"
+     *        annotation="inverse"
      * @generated
      */
     EList<IfcRelNests> getIsNestedBy();
@@ -178,6 +181,7 @@ public interface IfcObjectDefinition extends IfcRoot, IfcDefinitionSelect {
      * @see #unsetHasContext()
      * @see org.bimserver.models.ifc4.Ifc4Package#getIfcObjectDefinition_HasContext()
      * @model unsettable="true" upper="2"
+     *        annotation="inverse"
      * @generated
      */
     EList<IfcRelDeclares> getHasContext();
@@ -219,6 +223,7 @@ public interface IfcObjectDefinition extends IfcRoot, IfcDefinitionSelect {
      * @see org.bimserver.models.ifc4.Ifc4Package#getIfcObjectDefinition_IsDecomposedBy()
      * @see org.bimserver.models.ifc4.IfcRelAggregates#getRelatingObject
      * @model opposite="RelatingObject" unsettable="true"
+     *        annotation="inverse"
      * @generated
      */
     EList<IfcRelAggregates> getIsDecomposedBy();
@@ -260,6 +265,7 @@ public interface IfcObjectDefinition extends IfcRoot, IfcDefinitionSelect {
      * @see org.bimserver.models.ifc4.Ifc4Package#getIfcObjectDefinition_Decomposes()
      * @see org.bimserver.models.ifc4.IfcRelAggregates#getRelatedObjects
      * @model opposite="RelatedObjects" unsettable="true" upper="2"
+     *        annotation="inverse"
      * @generated
      */
     EList<IfcRelAggregates> getDecomposes();
@@ -299,6 +305,7 @@ public interface IfcObjectDefinition extends IfcRoot, IfcDefinitionSelect {
      * @see #unsetHasAssociations()
      * @see org.bimserver.models.ifc4.Ifc4Package#getIfcObjectDefinition_HasAssociations()
      * @model unsettable="true"
+     *        annotation="inverse"
      * @generated
      */
     EList<IfcRelAssociates> getHasAssociations();

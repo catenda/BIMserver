@@ -60,6 +60,7 @@ public class IfcPlanarBoxImpl extends IfcPlanarExtentImpl implements IfcPlanarBo
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public IfcAxis2Placement getPlacement() {
         return (IfcAxis2Placement) eGet(Ifc2x3tc1Package.Literals.IFC_PLANAR_BOX__PLACEMENT, true);
     }
@@ -69,6 +70,7 @@ public class IfcPlanarBoxImpl extends IfcPlanarExtentImpl implements IfcPlanarBo
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setPlacement(IfcAxis2Placement newPlacement) {
         eSet(Ifc2x3tc1Package.Literals.IFC_PLANAR_BOX__PLACEMENT, newPlacement);
     }

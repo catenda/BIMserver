@@ -60,6 +60,7 @@ public class IfcCoveringTypeImpl extends IfcBuildingElementTypeImpl implements I
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public IfcCoveringTypeEnum getPredefinedType() {
         return (IfcCoveringTypeEnum) eGet(Ifc2x3tc1Package.Literals.IFC_COVERING_TYPE__PREDEFINED_TYPE, true);
     }
@@ -69,6 +70,7 @@ public class IfcCoveringTypeImpl extends IfcBuildingElementTypeImpl implements I
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setPredefinedType(IfcCoveringTypeEnum newPredefinedType) {
         eSet(Ifc2x3tc1Package.Literals.IFC_COVERING_TYPE__PREDEFINED_TYPE, newPredefinedType);
     }

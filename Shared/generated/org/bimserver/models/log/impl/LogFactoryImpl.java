@@ -172,6 +172,7 @@ public class LogFactoryImpl extends EFactoryImpl implements LogFactory {
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public LogAction createLogAction() {
         LogActionImpl logAction = new LogActionImpl();
         return logAction;
@@ -182,6 +183,7 @@ public class LogFactoryImpl extends EFactoryImpl implements LogFactory {
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public ServerLog createServerLog() {
         ServerLogImpl serverLog = new ServerLogImpl();
         return serverLog;
@@ -192,6 +194,7 @@ public class LogFactoryImpl extends EFactoryImpl implements LogFactory {
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public ProjectRelated createProjectRelated() {
         ProjectRelatedImpl projectRelated = new ProjectRelatedImpl();
         return projectRelated;
@@ -202,6 +205,7 @@ public class LogFactoryImpl extends EFactoryImpl implements LogFactory {
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public CheckoutRelated createCheckoutRelated() {
         CheckoutRelatedImpl checkoutRelated = new CheckoutRelatedImpl();
         return checkoutRelated;
@@ -212,6 +216,7 @@ public class LogFactoryImpl extends EFactoryImpl implements LogFactory {
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public RevisionRelated createRevisionRelated() {
         RevisionRelatedImpl revisionRelated = new RevisionRelatedImpl();
         return revisionRelated;
@@ -222,6 +227,7 @@ public class LogFactoryImpl extends EFactoryImpl implements LogFactory {
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public UserRelated createUserRelated() {
         UserRelatedImpl userRelated = new UserRelatedImpl();
         return userRelated;
@@ -232,6 +238,7 @@ public class LogFactoryImpl extends EFactoryImpl implements LogFactory {
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public NewUserAdded createNewUserAdded() {
         NewUserAddedImpl newUserAdded = new NewUserAddedImpl();
         return newUserAdded;
@@ -242,6 +249,7 @@ public class LogFactoryImpl extends EFactoryImpl implements LogFactory {
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public NewProjectAdded createNewProjectAdded() {
         NewProjectAddedImpl newProjectAdded = new NewProjectAddedImpl();
         return newProjectAdded;
@@ -252,6 +260,7 @@ public class LogFactoryImpl extends EFactoryImpl implements LogFactory {
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public RevisionBranched createRevisionBranched() {
         RevisionBranchedImpl revisionBranched = new RevisionBranchedImpl();
         return revisionBranched;
@@ -262,6 +271,7 @@ public class LogFactoryImpl extends EFactoryImpl implements LogFactory {
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public NewRevisionAdded createNewRevisionAdded() {
         NewRevisionAddedImpl newRevisionAdded = new NewRevisionAddedImpl();
         return newRevisionAdded;
@@ -272,6 +282,7 @@ public class LogFactoryImpl extends EFactoryImpl implements LogFactory {
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public NewCheckoutAdded createNewCheckoutAdded() {
         NewCheckoutAddedImpl newCheckoutAdded = new NewCheckoutAddedImpl();
         return newCheckoutAdded;
@@ -282,6 +293,7 @@ public class LogFactoryImpl extends EFactoryImpl implements LogFactory {
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public SettingsSaved createSettingsSaved() {
         SettingsSavedImpl settingsSaved = new SettingsSavedImpl();
         return settingsSaved;
@@ -292,6 +304,7 @@ public class LogFactoryImpl extends EFactoryImpl implements LogFactory {
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public UserAddedToProject createUserAddedToProject() {
         UserAddedToProjectImpl userAddedToProject = new UserAddedToProjectImpl();
         return userAddedToProject;
@@ -302,6 +315,7 @@ public class LogFactoryImpl extends EFactoryImpl implements LogFactory {
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public NewObjectIDMUploaded createNewObjectIDMUploaded() {
         NewObjectIDMUploadedImpl newObjectIDMUploaded = new NewObjectIDMUploadedImpl();
         return newObjectIDMUploaded;
@@ -312,6 +326,7 @@ public class LogFactoryImpl extends EFactoryImpl implements LogFactory {
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public Download createDownload() {
         DownloadImpl download = new DownloadImpl();
         return download;
@@ -322,6 +337,7 @@ public class LogFactoryImpl extends EFactoryImpl implements LogFactory {
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public UserRemovedFromProject createUserRemovedFromProject() {
         UserRemovedFromProjectImpl userRemovedFromProject = new UserRemovedFromProjectImpl();
         return userRemovedFromProject;
@@ -332,6 +348,7 @@ public class LogFactoryImpl extends EFactoryImpl implements LogFactory {
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public ProjectDeleted createProjectDeleted() {
         ProjectDeletedImpl projectDeleted = new ProjectDeletedImpl();
         return projectDeleted;
@@ -342,6 +359,7 @@ public class LogFactoryImpl extends EFactoryImpl implements LogFactory {
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public UserDeleted createUserDeleted() {
         UserDeletedImpl userDeleted = new UserDeletedImpl();
         return userDeleted;
@@ -352,6 +370,7 @@ public class LogFactoryImpl extends EFactoryImpl implements LogFactory {
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public PasswordReset createPasswordReset() {
         PasswordResetImpl passwordReset = new PasswordResetImpl();
         return passwordReset;
@@ -362,6 +381,7 @@ public class LogFactoryImpl extends EFactoryImpl implements LogFactory {
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public DatabaseCreated createDatabaseCreated() {
         DatabaseCreatedImpl databaseCreated = new DatabaseCreatedImpl();
         return databaseCreated;
@@ -372,6 +392,7 @@ public class LogFactoryImpl extends EFactoryImpl implements LogFactory {
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public ServerStarted createServerStarted() {
         ServerStartedImpl serverStarted = new ServerStartedImpl();
         return serverStarted;
@@ -382,6 +403,7 @@ public class LogFactoryImpl extends EFactoryImpl implements LogFactory {
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public ProjectUpdated createProjectUpdated() {
         ProjectUpdatedImpl projectUpdated = new ProjectUpdatedImpl();
         return projectUpdated;
@@ -392,6 +414,7 @@ public class LogFactoryImpl extends EFactoryImpl implements LogFactory {
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public UserUndeleted createUserUndeleted() {
         UserUndeletedImpl userUndeleted = new UserUndeletedImpl();
         return userUndeleted;
@@ -402,6 +425,7 @@ public class LogFactoryImpl extends EFactoryImpl implements LogFactory {
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public ProjectUndeleted createProjectUndeleted() {
         ProjectUndeletedImpl projectUndeleted = new ProjectUndeletedImpl();
         return projectUndeleted;
@@ -412,6 +436,7 @@ public class LogFactoryImpl extends EFactoryImpl implements LogFactory {
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public RevisionUpdated createRevisionUpdated() {
         RevisionUpdatedImpl revisionUpdated = new RevisionUpdatedImpl();
         return revisionUpdated;
@@ -422,6 +447,7 @@ public class LogFactoryImpl extends EFactoryImpl implements LogFactory {
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public GeoTagUpdated createGeoTagUpdated() {
         GeoTagUpdatedImpl geoTagUpdated = new GeoTagUpdatedImpl();
         return geoTagUpdated;
@@ -432,6 +458,7 @@ public class LogFactoryImpl extends EFactoryImpl implements LogFactory {
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public PasswordChanged createPasswordChanged() {
         PasswordChangedImpl passwordChanged = new PasswordChangedImpl();
         return passwordChanged;
@@ -442,6 +469,7 @@ public class LogFactoryImpl extends EFactoryImpl implements LogFactory {
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public UserChanged createUserChanged() {
         UserChangedImpl userChanged = new UserChangedImpl();
         return userChanged;
@@ -452,6 +480,7 @@ public class LogFactoryImpl extends EFactoryImpl implements LogFactory {
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public ExtendedDataAddedToRevision createExtendedDataAddedToRevision() {
         ExtendedDataAddedToRevisionImpl extendedDataAddedToRevision = new ExtendedDataAddedToRevisionImpl();
         return extendedDataAddedToRevision;
@@ -462,6 +491,7 @@ public class LogFactoryImpl extends EFactoryImpl implements LogFactory {
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public ExtendedDataAddedToProject createExtendedDataAddedToProject() {
         ExtendedDataAddedToProjectImpl extendedDataAddedToProject = new ExtendedDataAddedToProjectImpl();
         return extendedDataAddedToProject;
@@ -472,6 +502,7 @@ public class LogFactoryImpl extends EFactoryImpl implements LogFactory {
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public RemoteServiceCalled createRemoteServiceCalled() {
         RemoteServiceCalledImpl remoteServiceCalled = new RemoteServiceCalledImpl();
         return remoteServiceCalled;
@@ -504,6 +535,7 @@ public class LogFactoryImpl extends EFactoryImpl implements LogFactory {
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public LogPackage getLogPackage() {
         return (LogPackage) getEPackage();
     }

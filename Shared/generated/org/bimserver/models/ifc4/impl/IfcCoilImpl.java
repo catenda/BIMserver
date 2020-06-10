@@ -60,6 +60,7 @@ public class IfcCoilImpl extends IfcEnergyConversionDeviceImpl implements IfcCoi
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public IfcCoilTypeEnum getPredefinedType() {
         return (IfcCoilTypeEnum) eGet(Ifc4Package.Literals.IFC_COIL__PREDEFINED_TYPE, true);
     }
@@ -69,6 +70,7 @@ public class IfcCoilImpl extends IfcEnergyConversionDeviceImpl implements IfcCoi
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setPredefinedType(IfcCoilTypeEnum newPredefinedType) {
         eSet(Ifc4Package.Literals.IFC_COIL__PREDEFINED_TYPE, newPredefinedType);
     }
@@ -78,6 +80,7 @@ public class IfcCoilImpl extends IfcEnergyConversionDeviceImpl implements IfcCoi
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void unsetPredefinedType() {
         eUnset(Ifc4Package.Literals.IFC_COIL__PREDEFINED_TYPE);
     }
@@ -87,6 +90,7 @@ public class IfcCoilImpl extends IfcEnergyConversionDeviceImpl implements IfcCoi
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public boolean isSetPredefinedType() {
         return eIsSet(Ifc4Package.Literals.IFC_COIL__PREDEFINED_TYPE);
     }

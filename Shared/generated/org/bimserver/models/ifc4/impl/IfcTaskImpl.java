@@ -67,6 +67,7 @@ public class IfcTaskImpl extends IfcProcessImpl implements IfcTask {
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public String getStatus() {
         return (String) eGet(Ifc4Package.Literals.IFC_TASK__STATUS, true);
     }
@@ -76,6 +77,7 @@ public class IfcTaskImpl extends IfcProcessImpl implements IfcTask {
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setStatus(String newStatus) {
         eSet(Ifc4Package.Literals.IFC_TASK__STATUS, newStatus);
     }
@@ -85,6 +87,7 @@ public class IfcTaskImpl extends IfcProcessImpl implements IfcTask {
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void unsetStatus() {
         eUnset(Ifc4Package.Literals.IFC_TASK__STATUS);
     }
@@ -94,6 +97,7 @@ public class IfcTaskImpl extends IfcProcessImpl implements IfcTask {
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public boolean isSetStatus() {
         return eIsSet(Ifc4Package.Literals.IFC_TASK__STATUS);
     }
@@ -103,6 +107,7 @@ public class IfcTaskImpl extends IfcProcessImpl implements IfcTask {
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public String getWorkMethod() {
         return (String) eGet(Ifc4Package.Literals.IFC_TASK__WORK_METHOD, true);
     }
@@ -112,6 +117,7 @@ public class IfcTaskImpl extends IfcProcessImpl implements IfcTask {
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setWorkMethod(String newWorkMethod) {
         eSet(Ifc4Package.Literals.IFC_TASK__WORK_METHOD, newWorkMethod);
     }
@@ -121,6 +127,7 @@ public class IfcTaskImpl extends IfcProcessImpl implements IfcTask {
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void unsetWorkMethod() {
         eUnset(Ifc4Package.Literals.IFC_TASK__WORK_METHOD);
     }
@@ -130,6 +137,7 @@ public class IfcTaskImpl extends IfcProcessImpl implements IfcTask {
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public boolean isSetWorkMethod() {
         return eIsSet(Ifc4Package.Literals.IFC_TASK__WORK_METHOD);
     }
@@ -139,6 +147,7 @@ public class IfcTaskImpl extends IfcProcessImpl implements IfcTask {
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public Tristate getIsMilestone() {
         return (Tristate) eGet(Ifc4Package.Literals.IFC_TASK__IS_MILESTONE, true);
     }
@@ -148,6 +157,7 @@ public class IfcTaskImpl extends IfcProcessImpl implements IfcTask {
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setIsMilestone(Tristate newIsMilestone) {
         eSet(Ifc4Package.Literals.IFC_TASK__IS_MILESTONE, newIsMilestone);
     }
@@ -157,6 +167,7 @@ public class IfcTaskImpl extends IfcProcessImpl implements IfcTask {
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public long getPriority() {
         return (Long) eGet(Ifc4Package.Literals.IFC_TASK__PRIORITY, true);
     }
@@ -166,6 +177,7 @@ public class IfcTaskImpl extends IfcProcessImpl implements IfcTask {
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setPriority(long newPriority) {
         eSet(Ifc4Package.Literals.IFC_TASK__PRIORITY, newPriority);
     }
@@ -175,6 +187,7 @@ public class IfcTaskImpl extends IfcProcessImpl implements IfcTask {
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void unsetPriority() {
         eUnset(Ifc4Package.Literals.IFC_TASK__PRIORITY);
     }
@@ -184,6 +197,7 @@ public class IfcTaskImpl extends IfcProcessImpl implements IfcTask {
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public boolean isSetPriority() {
         return eIsSet(Ifc4Package.Literals.IFC_TASK__PRIORITY);
     }
@@ -193,6 +207,7 @@ public class IfcTaskImpl extends IfcProcessImpl implements IfcTask {
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public IfcTaskTime getTaskTime() {
         return (IfcTaskTime) eGet(Ifc4Package.Literals.IFC_TASK__TASK_TIME, true);
     }
@@ -202,6 +217,7 @@ public class IfcTaskImpl extends IfcProcessImpl implements IfcTask {
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setTaskTime(IfcTaskTime newTaskTime) {
         eSet(Ifc4Package.Literals.IFC_TASK__TASK_TIME, newTaskTime);
     }
@@ -211,6 +227,7 @@ public class IfcTaskImpl extends IfcProcessImpl implements IfcTask {
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void unsetTaskTime() {
         eUnset(Ifc4Package.Literals.IFC_TASK__TASK_TIME);
     }
@@ -220,6 +237,7 @@ public class IfcTaskImpl extends IfcProcessImpl implements IfcTask {
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public boolean isSetTaskTime() {
         return eIsSet(Ifc4Package.Literals.IFC_TASK__TASK_TIME);
     }
@@ -229,6 +247,7 @@ public class IfcTaskImpl extends IfcProcessImpl implements IfcTask {
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public IfcTaskTypeEnum getPredefinedType() {
         return (IfcTaskTypeEnum) eGet(Ifc4Package.Literals.IFC_TASK__PREDEFINED_TYPE, true);
     }
@@ -238,6 +257,7 @@ public class IfcTaskImpl extends IfcProcessImpl implements IfcTask {
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setPredefinedType(IfcTaskTypeEnum newPredefinedType) {
         eSet(Ifc4Package.Literals.IFC_TASK__PREDEFINED_TYPE, newPredefinedType);
     }
@@ -247,6 +267,7 @@ public class IfcTaskImpl extends IfcProcessImpl implements IfcTask {
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void unsetPredefinedType() {
         eUnset(Ifc4Package.Literals.IFC_TASK__PREDEFINED_TYPE);
     }
@@ -256,6 +277,7 @@ public class IfcTaskImpl extends IfcProcessImpl implements IfcTask {
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public boolean isSetPredefinedType() {
         return eIsSet(Ifc4Package.Literals.IFC_TASK__PREDEFINED_TYPE);
     }

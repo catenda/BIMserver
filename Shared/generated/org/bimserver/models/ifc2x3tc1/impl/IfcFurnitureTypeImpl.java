@@ -60,6 +60,7 @@ public class IfcFurnitureTypeImpl extends IfcFurnishingElementTypeImpl implement
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public IfcAssemblyPlaceEnum getAssemblyPlace() {
         return (IfcAssemblyPlaceEnum) eGet(Ifc2x3tc1Package.Literals.IFC_FURNITURE_TYPE__ASSEMBLY_PLACE, true);
     }
@@ -69,6 +70,7 @@ public class IfcFurnitureTypeImpl extends IfcFurnishingElementTypeImpl implement
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setAssemblyPlace(IfcAssemblyPlaceEnum newAssemblyPlace) {
         eSet(Ifc2x3tc1Package.Literals.IFC_FURNITURE_TYPE__ASSEMBLY_PLACE, newAssemblyPlace);
     }

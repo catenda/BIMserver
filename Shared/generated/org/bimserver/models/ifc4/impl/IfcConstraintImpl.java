@@ -85,6 +85,7 @@ public class IfcConstraintImpl extends IdEObjectImpl implements IfcConstraint {
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public String getName() {
         return (String) eGet(Ifc4Package.Literals.IFC_CONSTRAINT__NAME, true);
     }
@@ -94,6 +95,7 @@ public class IfcConstraintImpl extends IdEObjectImpl implements IfcConstraint {
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setName(String newName) {
         eSet(Ifc4Package.Literals.IFC_CONSTRAINT__NAME, newName);
     }
@@ -103,6 +105,7 @@ public class IfcConstraintImpl extends IdEObjectImpl implements IfcConstraint {
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public String getDescription() {
         return (String) eGet(Ifc4Package.Literals.IFC_CONSTRAINT__DESCRIPTION, true);
     }
@@ -112,6 +115,7 @@ public class IfcConstraintImpl extends IdEObjectImpl implements IfcConstraint {
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setDescription(String newDescription) {
         eSet(Ifc4Package.Literals.IFC_CONSTRAINT__DESCRIPTION, newDescription);
     }
@@ -121,6 +125,7 @@ public class IfcConstraintImpl extends IdEObjectImpl implements IfcConstraint {
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void unsetDescription() {
         eUnset(Ifc4Package.Literals.IFC_CONSTRAINT__DESCRIPTION);
     }
@@ -130,6 +135,7 @@ public class IfcConstraintImpl extends IdEObjectImpl implements IfcConstraint {
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public boolean isSetDescription() {
         return eIsSet(Ifc4Package.Literals.IFC_CONSTRAINT__DESCRIPTION);
     }
@@ -139,6 +145,7 @@ public class IfcConstraintImpl extends IdEObjectImpl implements IfcConstraint {
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public IfcConstraintEnum getConstraintGrade() {
         return (IfcConstraintEnum) eGet(Ifc4Package.Literals.IFC_CONSTRAINT__CONSTRAINT_GRADE, true);
     }
@@ -148,6 +155,7 @@ public class IfcConstraintImpl extends IdEObjectImpl implements IfcConstraint {
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setConstraintGrade(IfcConstraintEnum newConstraintGrade) {
         eSet(Ifc4Package.Literals.IFC_CONSTRAINT__CONSTRAINT_GRADE, newConstraintGrade);
     }
@@ -157,6 +165,7 @@ public class IfcConstraintImpl extends IdEObjectImpl implements IfcConstraint {
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public String getConstraintSource() {
         return (String) eGet(Ifc4Package.Literals.IFC_CONSTRAINT__CONSTRAINT_SOURCE, true);
     }
@@ -166,6 +175,7 @@ public class IfcConstraintImpl extends IdEObjectImpl implements IfcConstraint {
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setConstraintSource(String newConstraintSource) {
         eSet(Ifc4Package.Literals.IFC_CONSTRAINT__CONSTRAINT_SOURCE, newConstraintSource);
     }
@@ -175,6 +185,7 @@ public class IfcConstraintImpl extends IdEObjectImpl implements IfcConstraint {
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void unsetConstraintSource() {
         eUnset(Ifc4Package.Literals.IFC_CONSTRAINT__CONSTRAINT_SOURCE);
     }
@@ -184,6 +195,7 @@ public class IfcConstraintImpl extends IdEObjectImpl implements IfcConstraint {
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public boolean isSetConstraintSource() {
         return eIsSet(Ifc4Package.Literals.IFC_CONSTRAINT__CONSTRAINT_SOURCE);
     }
@@ -193,6 +205,7 @@ public class IfcConstraintImpl extends IdEObjectImpl implements IfcConstraint {
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public IfcActorSelect getCreatingActor() {
         return (IfcActorSelect) eGet(Ifc4Package.Literals.IFC_CONSTRAINT__CREATING_ACTOR, true);
     }
@@ -202,6 +215,7 @@ public class IfcConstraintImpl extends IdEObjectImpl implements IfcConstraint {
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setCreatingActor(IfcActorSelect newCreatingActor) {
         eSet(Ifc4Package.Literals.IFC_CONSTRAINT__CREATING_ACTOR, newCreatingActor);
     }
@@ -211,6 +225,7 @@ public class IfcConstraintImpl extends IdEObjectImpl implements IfcConstraint {
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void unsetCreatingActor() {
         eUnset(Ifc4Package.Literals.IFC_CONSTRAINT__CREATING_ACTOR);
     }
@@ -220,6 +235,7 @@ public class IfcConstraintImpl extends IdEObjectImpl implements IfcConstraint {
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public boolean isSetCreatingActor() {
         return eIsSet(Ifc4Package.Literals.IFC_CONSTRAINT__CREATING_ACTOR);
     }
@@ -229,6 +245,7 @@ public class IfcConstraintImpl extends IdEObjectImpl implements IfcConstraint {
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public String getCreationTime() {
         return (String) eGet(Ifc4Package.Literals.IFC_CONSTRAINT__CREATION_TIME, true);
     }
@@ -238,6 +255,7 @@ public class IfcConstraintImpl extends IdEObjectImpl implements IfcConstraint {
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setCreationTime(String newCreationTime) {
         eSet(Ifc4Package.Literals.IFC_CONSTRAINT__CREATION_TIME, newCreationTime);
     }
@@ -247,6 +265,7 @@ public class IfcConstraintImpl extends IdEObjectImpl implements IfcConstraint {
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void unsetCreationTime() {
         eUnset(Ifc4Package.Literals.IFC_CONSTRAINT__CREATION_TIME);
     }
@@ -256,6 +275,7 @@ public class IfcConstraintImpl extends IdEObjectImpl implements IfcConstraint {
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public boolean isSetCreationTime() {
         return eIsSet(Ifc4Package.Literals.IFC_CONSTRAINT__CREATION_TIME);
     }
@@ -265,6 +285,7 @@ public class IfcConstraintImpl extends IdEObjectImpl implements IfcConstraint {
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public String getUserDefinedGrade() {
         return (String) eGet(Ifc4Package.Literals.IFC_CONSTRAINT__USER_DEFINED_GRADE, true);
     }
@@ -274,6 +295,7 @@ public class IfcConstraintImpl extends IdEObjectImpl implements IfcConstraint {
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setUserDefinedGrade(String newUserDefinedGrade) {
         eSet(Ifc4Package.Literals.IFC_CONSTRAINT__USER_DEFINED_GRADE, newUserDefinedGrade);
     }
@@ -283,6 +305,7 @@ public class IfcConstraintImpl extends IdEObjectImpl implements IfcConstraint {
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void unsetUserDefinedGrade() {
         eUnset(Ifc4Package.Literals.IFC_CONSTRAINT__USER_DEFINED_GRADE);
     }
@@ -292,6 +315,7 @@ public class IfcConstraintImpl extends IdEObjectImpl implements IfcConstraint {
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public boolean isSetUserDefinedGrade() {
         return eIsSet(Ifc4Package.Literals.IFC_CONSTRAINT__USER_DEFINED_GRADE);
     }
@@ -302,6 +326,7 @@ public class IfcConstraintImpl extends IdEObjectImpl implements IfcConstraint {
      * @generated
      */
     @SuppressWarnings("unchecked")
+    @Override
     public EList<IfcExternalReferenceRelationship> getHasExternalReferences() {
         return (EList<IfcExternalReferenceRelationship>) eGet(
                 Ifc4Package.Literals.IFC_CONSTRAINT__HAS_EXTERNAL_REFERENCES, true);
@@ -312,6 +337,7 @@ public class IfcConstraintImpl extends IdEObjectImpl implements IfcConstraint {
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void unsetHasExternalReferences() {
         eUnset(Ifc4Package.Literals.IFC_CONSTRAINT__HAS_EXTERNAL_REFERENCES);
     }
@@ -321,6 +347,7 @@ public class IfcConstraintImpl extends IdEObjectImpl implements IfcConstraint {
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public boolean isSetHasExternalReferences() {
         return eIsSet(Ifc4Package.Literals.IFC_CONSTRAINT__HAS_EXTERNAL_REFERENCES);
     }
@@ -331,6 +358,7 @@ public class IfcConstraintImpl extends IdEObjectImpl implements IfcConstraint {
      * @generated
      */
     @SuppressWarnings("unchecked")
+    @Override
     public EList<IfcResourceConstraintRelationship> getPropertiesForConstraint() {
         return (EList<IfcResourceConstraintRelationship>) eGet(
                 Ifc4Package.Literals.IFC_CONSTRAINT__PROPERTIES_FOR_CONSTRAINT, true);
@@ -341,6 +369,7 @@ public class IfcConstraintImpl extends IdEObjectImpl implements IfcConstraint {
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void unsetPropertiesForConstraint() {
         eUnset(Ifc4Package.Literals.IFC_CONSTRAINT__PROPERTIES_FOR_CONSTRAINT);
     }
@@ -350,6 +379,7 @@ public class IfcConstraintImpl extends IdEObjectImpl implements IfcConstraint {
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public boolean isSetPropertiesForConstraint() {
         return eIsSet(Ifc4Package.Literals.IFC_CONSTRAINT__PROPERTIES_FOR_CONSTRAINT);
     }

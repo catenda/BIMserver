@@ -60,6 +60,7 @@ public class IfcProtectiveDeviceTypeImpl extends IfcFlowControllerTypeImpl imple
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public IfcProtectiveDeviceTypeEnum getPredefinedType() {
         return (IfcProtectiveDeviceTypeEnum) eGet(Ifc2x3tc1Package.Literals.IFC_PROTECTIVE_DEVICE_TYPE__PREDEFINED_TYPE,
                 true);
@@ -70,6 +71,7 @@ public class IfcProtectiveDeviceTypeImpl extends IfcFlowControllerTypeImpl imple
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setPredefinedType(IfcProtectiveDeviceTypeEnum newPredefinedType) {
         eSet(Ifc2x3tc1Package.Literals.IFC_PROTECTIVE_DEVICE_TYPE__PREDEFINED_TYPE, newPredefinedType);
     }

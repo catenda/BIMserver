@@ -51,6 +51,7 @@ public interface IfcStructuralReaction extends IfcStructuralActivity {
      * @see org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package#getIfcStructuralReaction_Causes()
      * @see org.bimserver.models.ifc2x3tc1.IfcStructuralAction#getCausedBy
      * @model opposite="CausedBy" unsettable="true"
+     *        annotation="inverse"
      * @generated
      */
     EList<IfcStructuralAction> getCauses();

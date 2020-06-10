@@ -134,6 +134,7 @@ public interface IfcOrganizationRelationship extends IdEObject {
      * @see org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package#getIfcOrganizationRelationship_RelatingOrganization()
      * @see org.bimserver.models.ifc2x3tc1.IfcOrganization#getRelates
      * @model opposite="Relates"
+     *        annotation="inverse"
      * @generated
      */
     IfcOrganization getRelatingOrganization();
@@ -162,6 +163,7 @@ public interface IfcOrganizationRelationship extends IdEObject {
      * @see org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package#getIfcOrganizationRelationship_RelatedOrganizations()
      * @see org.bimserver.models.ifc2x3tc1.IfcOrganization#getIsRelatedBy
      * @model opposite="IsRelatedBy"
+     *        annotation="inverse"
      * @generated
      */
     EList<IfcOrganization> getRelatedOrganizations();

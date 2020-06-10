@@ -61,6 +61,7 @@ public class IfcElectricDistributionBoardTypeImpl extends IfcFlowControllerTypeI
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public IfcElectricDistributionBoardTypeEnum getPredefinedType() {
         return (IfcElectricDistributionBoardTypeEnum) eGet(
                 Ifc4Package.Literals.IFC_ELECTRIC_DISTRIBUTION_BOARD_TYPE__PREDEFINED_TYPE, true);
@@ -71,6 +72,7 @@ public class IfcElectricDistributionBoardTypeImpl extends IfcFlowControllerTypeI
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setPredefinedType(IfcElectricDistributionBoardTypeEnum newPredefinedType) {
         eSet(Ifc4Package.Literals.IFC_ELECTRIC_DISTRIBUTION_BOARD_TYPE__PREDEFINED_TYPE, newPredefinedType);
     }

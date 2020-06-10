@@ -63,6 +63,7 @@ public class IfcStructuralMemberImpl extends IfcStructuralItemImpl implements If
      * @generated
      */
     @SuppressWarnings("unchecked")
+    @Override
     public EList<IfcRelConnectsStructuralMember> getConnectedBy() {
         return (EList<IfcRelConnectsStructuralMember>) eGet(Ifc4Package.Literals.IFC_STRUCTURAL_MEMBER__CONNECTED_BY,
                 true);
@@ -73,6 +74,7 @@ public class IfcStructuralMemberImpl extends IfcStructuralItemImpl implements If
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void unsetConnectedBy() {
         eUnset(Ifc4Package.Literals.IFC_STRUCTURAL_MEMBER__CONNECTED_BY);
     }
@@ -82,6 +84,7 @@ public class IfcStructuralMemberImpl extends IfcStructuralItemImpl implements If
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public boolean isSetConnectedBy() {
         return eIsSet(Ifc4Package.Literals.IFC_STRUCTURAL_MEMBER__CONNECTED_BY);
     }

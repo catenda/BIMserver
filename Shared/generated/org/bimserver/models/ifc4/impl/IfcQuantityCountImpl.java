@@ -61,6 +61,7 @@ public class IfcQuantityCountImpl extends IfcPhysicalSimpleQuantityImpl implemen
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public double getCountValue() {
         return (Double) eGet(Ifc4Package.Literals.IFC_QUANTITY_COUNT__COUNT_VALUE, true);
     }
@@ -70,6 +71,7 @@ public class IfcQuantityCountImpl extends IfcPhysicalSimpleQuantityImpl implemen
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setCountValue(double newCountValue) {
         eSet(Ifc4Package.Literals.IFC_QUANTITY_COUNT__COUNT_VALUE, newCountValue);
     }
@@ -79,6 +81,7 @@ public class IfcQuantityCountImpl extends IfcPhysicalSimpleQuantityImpl implemen
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public String getCountValueAsString() {
         return (String) eGet(Ifc4Package.Literals.IFC_QUANTITY_COUNT__COUNT_VALUE_AS_STRING, true);
     }
@@ -88,6 +91,7 @@ public class IfcQuantityCountImpl extends IfcPhysicalSimpleQuantityImpl implemen
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setCountValueAsString(String newCountValueAsString) {
         eSet(Ifc4Package.Literals.IFC_QUANTITY_COUNT__COUNT_VALUE_AS_STRING, newCountValueAsString);
     }
@@ -97,6 +101,7 @@ public class IfcQuantityCountImpl extends IfcPhysicalSimpleQuantityImpl implemen
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public String getFormula() {
         return (String) eGet(Ifc4Package.Literals.IFC_QUANTITY_COUNT__FORMULA, true);
     }
@@ -106,6 +111,7 @@ public class IfcQuantityCountImpl extends IfcPhysicalSimpleQuantityImpl implemen
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setFormula(String newFormula) {
         eSet(Ifc4Package.Literals.IFC_QUANTITY_COUNT__FORMULA, newFormula);
     }
@@ -115,6 +121,7 @@ public class IfcQuantityCountImpl extends IfcPhysicalSimpleQuantityImpl implemen
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void unsetFormula() {
         eUnset(Ifc4Package.Literals.IFC_QUANTITY_COUNT__FORMULA);
     }
@@ -124,6 +131,7 @@ public class IfcQuantityCountImpl extends IfcPhysicalSimpleQuantityImpl implemen
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public boolean isSetFormula() {
         return eIsSet(Ifc4Package.Literals.IFC_QUANTITY_COUNT__FORMULA);
     }

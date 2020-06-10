@@ -65,6 +65,7 @@ public class IfcPropertySetDefinitionImpl extends IfcPropertyDefinitionImpl impl
      * @generated
      */
     @SuppressWarnings("unchecked")
+    @Override
     public EList<IfcRelDefinesByProperties> getPropertyDefinitionOf() {
         return (EList<IfcRelDefinesByProperties>) eGet(
                 Ifc2x3tc1Package.Literals.IFC_PROPERTY_SET_DEFINITION__PROPERTY_DEFINITION_OF, true);
@@ -75,6 +76,7 @@ public class IfcPropertySetDefinitionImpl extends IfcPropertyDefinitionImpl impl
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void unsetPropertyDefinitionOf() {
         eUnset(Ifc2x3tc1Package.Literals.IFC_PROPERTY_SET_DEFINITION__PROPERTY_DEFINITION_OF);
     }
@@ -84,6 +86,7 @@ public class IfcPropertySetDefinitionImpl extends IfcPropertyDefinitionImpl impl
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public boolean isSetPropertyDefinitionOf() {
         return eIsSet(Ifc2x3tc1Package.Literals.IFC_PROPERTY_SET_DEFINITION__PROPERTY_DEFINITION_OF);
     }
@@ -94,6 +97,7 @@ public class IfcPropertySetDefinitionImpl extends IfcPropertyDefinitionImpl impl
      * @generated
      */
     @SuppressWarnings("unchecked")
+    @Override
     public EList<IfcTypeObject> getDefinesType() {
         return (EList<IfcTypeObject>) eGet(Ifc2x3tc1Package.Literals.IFC_PROPERTY_SET_DEFINITION__DEFINES_TYPE, true);
     }
@@ -103,6 +107,7 @@ public class IfcPropertySetDefinitionImpl extends IfcPropertyDefinitionImpl impl
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void unsetDefinesType() {
         eUnset(Ifc2x3tc1Package.Literals.IFC_PROPERTY_SET_DEFINITION__DEFINES_TYPE);
     }
@@ -112,6 +117,7 @@ public class IfcPropertySetDefinitionImpl extends IfcPropertyDefinitionImpl impl
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public boolean isSetDefinesType() {
         return eIsSet(Ifc2x3tc1Package.Literals.IFC_PROPERTY_SET_DEFINITION__DEFINES_TYPE);
     }

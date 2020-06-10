@@ -162,6 +162,7 @@ public interface IfcConstraintAggregationRelationship extends IdEObject {
      * @see org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package#getIfcConstraintAggregationRelationship_RelatingConstraint()
      * @see org.bimserver.models.ifc2x3tc1.IfcConstraint#getAggregates
      * @model opposite="Aggregates"
+     *        annotation="inverse"
      * @generated
      */
     IfcConstraint getRelatingConstraint();
@@ -190,6 +191,7 @@ public interface IfcConstraintAggregationRelationship extends IdEObject {
      * @see org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package#getIfcConstraintAggregationRelationship_RelatedConstraints()
      * @see org.bimserver.models.ifc2x3tc1.IfcConstraint#getIsAggregatedIn
      * @model opposite="IsAggregatedIn"
+     *        annotation="inverse"
      * @generated
      */
     EList<IfcConstraint> getRelatedConstraints();

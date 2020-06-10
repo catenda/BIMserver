@@ -64,6 +64,7 @@ public class IfcBooleanResultImpl extends IfcGeometricRepresentationItemImpl imp
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public IfcBooleanOperator getOperator() {
         return (IfcBooleanOperator) eGet(Ifc2x3tc1Package.Literals.IFC_BOOLEAN_RESULT__OPERATOR, true);
     }
@@ -73,6 +74,7 @@ public class IfcBooleanResultImpl extends IfcGeometricRepresentationItemImpl imp
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setOperator(IfcBooleanOperator newOperator) {
         eSet(Ifc2x3tc1Package.Literals.IFC_BOOLEAN_RESULT__OPERATOR, newOperator);
     }
@@ -82,6 +84,7 @@ public class IfcBooleanResultImpl extends IfcGeometricRepresentationItemImpl imp
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public IfcBooleanOperand getFirstOperand() {
         return (IfcBooleanOperand) eGet(Ifc2x3tc1Package.Literals.IFC_BOOLEAN_RESULT__FIRST_OPERAND, true);
     }
@@ -91,6 +94,7 @@ public class IfcBooleanResultImpl extends IfcGeometricRepresentationItemImpl imp
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setFirstOperand(IfcBooleanOperand newFirstOperand) {
         eSet(Ifc2x3tc1Package.Literals.IFC_BOOLEAN_RESULT__FIRST_OPERAND, newFirstOperand);
     }
@@ -100,6 +104,7 @@ public class IfcBooleanResultImpl extends IfcGeometricRepresentationItemImpl imp
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public IfcBooleanOperand getSecondOperand() {
         return (IfcBooleanOperand) eGet(Ifc2x3tc1Package.Literals.IFC_BOOLEAN_RESULT__SECOND_OPERAND, true);
     }
@@ -109,6 +114,7 @@ public class IfcBooleanResultImpl extends IfcGeometricRepresentationItemImpl imp
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setSecondOperand(IfcBooleanOperand newSecondOperand) {
         eSet(Ifc2x3tc1Package.Literals.IFC_BOOLEAN_RESULT__SECOND_OPERAND, newSecondOperand);
     }
@@ -118,6 +124,7 @@ public class IfcBooleanResultImpl extends IfcGeometricRepresentationItemImpl imp
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public long getDim() {
         return (Long) eGet(Ifc2x3tc1Package.Literals.IFC_BOOLEAN_RESULT__DIM, true);
     }
@@ -127,6 +134,7 @@ public class IfcBooleanResultImpl extends IfcGeometricRepresentationItemImpl imp
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setDim(long newDim) {
         eSet(Ifc2x3tc1Package.Literals.IFC_BOOLEAN_RESULT__DIM, newDim);
     }
@@ -136,6 +144,7 @@ public class IfcBooleanResultImpl extends IfcGeometricRepresentationItemImpl imp
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void unsetDim() {
         eUnset(Ifc2x3tc1Package.Literals.IFC_BOOLEAN_RESULT__DIM);
     }
@@ -145,6 +154,7 @@ public class IfcBooleanResultImpl extends IfcGeometricRepresentationItemImpl imp
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public boolean isSetDim() {
         return eIsSet(Ifc2x3tc1Package.Literals.IFC_BOOLEAN_RESULT__DIM);
     }

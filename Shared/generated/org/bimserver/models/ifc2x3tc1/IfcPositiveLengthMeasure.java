@@ -23,7 +23,7 @@ package org.bimserver.models.ifc2x3tc1;
  *
  *
  * @see org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package#getIfcPositiveLengthMeasure()
- * @model
+ * @model annotation="wrapped"
  * @generated
  */
 public interface IfcPositiveLengthMeasure

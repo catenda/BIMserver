@@ -72,7 +72,7 @@ public interface IfcDerivedProfileDef extends IfcProfileDef {
      * @return the value of the '<em>Operator</em>' reference.
      * @see #setOperator(IfcCartesianTransformationOperator2D)
      * @see org.bimserver.models.ifc4.Ifc4Package#getIfcDerivedProfileDef_Operator()
-     * @model
+     * @model annotation="derived"
      * @generated
      */
     IfcCartesianTransformationOperator2D getOperator();

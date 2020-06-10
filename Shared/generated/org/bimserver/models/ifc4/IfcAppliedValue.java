@@ -578,6 +578,7 @@ public interface IfcAppliedValue extends IfcMetricValueSelect, IfcObjectReferenc
      * @see #unsetHasExternalReference()
      * @see org.bimserver.models.ifc4.Ifc4Package#getIfcAppliedValue_HasExternalReference()
      * @model unsettable="true"
+     *        annotation="inverse"
      * @generated
      */
     EList<IfcExternalReferenceRelationship> getHasExternalReference();

@@ -47,6 +47,7 @@ public interface IfcSurface extends IfcGeometricRepresentationItem, IfcGeometric
      * @see #setDim(long)
      * @see org.bimserver.models.ifc4.Ifc4Package#getIfcSurface_Dim()
      * @model unsettable="true" derived="true"
+     *        annotation="derived"
      * @generated
      */
     long getDim();

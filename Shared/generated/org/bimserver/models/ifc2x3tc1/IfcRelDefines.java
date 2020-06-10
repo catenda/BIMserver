@@ -49,6 +49,7 @@ public interface IfcRelDefines extends IfcRelationship {
      * @see org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package#getIfcRelDefines_RelatedObjects()
      * @see org.bimserver.models.ifc2x3tc1.IfcObject#getIsDefinedBy
      * @model opposite="IsDefinedBy"
+     *        annotation="inverse"
      * @generated
      */
     EList<IfcObject> getRelatedObjects();

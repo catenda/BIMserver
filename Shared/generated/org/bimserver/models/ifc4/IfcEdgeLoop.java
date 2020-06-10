@@ -66,6 +66,7 @@ public interface IfcEdgeLoop extends IfcLoop {
      * @see #setNe(long)
      * @see org.bimserver.models.ifc4.Ifc4Package#getIfcEdgeLoop_Ne()
      * @model unsettable="true" derived="true"
+     *        annotation="derived"
      * @generated
      */
     long getNe();

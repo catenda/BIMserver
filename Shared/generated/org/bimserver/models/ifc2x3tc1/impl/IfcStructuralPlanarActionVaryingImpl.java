@@ -65,6 +65,7 @@ public class IfcStructuralPlanarActionVaryingImpl extends IfcStructuralPlanarAct
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public IfcShapeAspect getVaryingAppliedLoadLocation() {
         return (IfcShapeAspect) eGet(
                 Ifc2x3tc1Package.Literals.IFC_STRUCTURAL_PLANAR_ACTION_VARYING__VARYING_APPLIED_LOAD_LOCATION, true);
@@ -75,6 +76,7 @@ public class IfcStructuralPlanarActionVaryingImpl extends IfcStructuralPlanarAct
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setVaryingAppliedLoadLocation(IfcShapeAspect newVaryingAppliedLoadLocation) {
         eSet(Ifc2x3tc1Package.Literals.IFC_STRUCTURAL_PLANAR_ACTION_VARYING__VARYING_APPLIED_LOAD_LOCATION,
                 newVaryingAppliedLoadLocation);
@@ -86,6 +88,7 @@ public class IfcStructuralPlanarActionVaryingImpl extends IfcStructuralPlanarAct
      * @generated
      */
     @SuppressWarnings("unchecked")
+    @Override
     public EList<IfcStructuralLoad> getSubsequentAppliedLoads() {
         return (EList<IfcStructuralLoad>) eGet(
                 Ifc2x3tc1Package.Literals.IFC_STRUCTURAL_PLANAR_ACTION_VARYING__SUBSEQUENT_APPLIED_LOADS, true);

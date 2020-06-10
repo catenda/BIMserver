@@ -49,7 +49,7 @@ public interface CompareResult extends IdEObject {
      * <!-- end-user-doc -->
      * @return the value of the '<em>Items</em>' reference list.
      * @see org.bimserver.models.store.StorePackage#getCompareResult_Items()
-     * @model
+     * @model annotation="embedsreference"
      * @generated
      */
     EList<CompareContainer> getItems();

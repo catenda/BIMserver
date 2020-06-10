@@ -78,6 +78,7 @@ public class IfcMaterialClassificationRelationshipImpl extends IdEObjectImpl
      * @generated
      */
     @SuppressWarnings("unchecked")
+    @Override
     public EList<IfcClassificationNotationSelect> getMaterialClassifications() {
         return (EList<IfcClassificationNotationSelect>) eGet(
                 Ifc2x3tc1Package.Literals.IFC_MATERIAL_CLASSIFICATION_RELATIONSHIP__MATERIAL_CLASSIFICATIONS, true);
@@ -88,6 +89,7 @@ public class IfcMaterialClassificationRelationshipImpl extends IdEObjectImpl
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public IfcMaterial getClassifiedMaterial() {
         return (IfcMaterial) eGet(
                 Ifc2x3tc1Package.Literals.IFC_MATERIAL_CLASSIFICATION_RELATIONSHIP__CLASSIFIED_MATERIAL, true);
@@ -98,6 +100,7 @@ public class IfcMaterialClassificationRelationshipImpl extends IdEObjectImpl
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setClassifiedMaterial(IfcMaterial newClassifiedMaterial) {
         eSet(Ifc2x3tc1Package.Literals.IFC_MATERIAL_CLASSIFICATION_RELATIONSHIP__CLASSIFIED_MATERIAL,
                 newClassifiedMaterial);

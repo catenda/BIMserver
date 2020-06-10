@@ -60,6 +60,7 @@ public class IfcClassificationReferenceImpl extends IfcExternalReferenceImpl imp
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public IfcClassification getReferencedSource() {
         return (IfcClassification) eGet(Ifc2x3tc1Package.Literals.IFC_CLASSIFICATION_REFERENCE__REFERENCED_SOURCE,
                 true);
@@ -70,6 +71,7 @@ public class IfcClassificationReferenceImpl extends IfcExternalReferenceImpl imp
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setReferencedSource(IfcClassification newReferencedSource) {
         eSet(Ifc2x3tc1Package.Literals.IFC_CLASSIFICATION_REFERENCE__REFERENCED_SOURCE, newReferencedSource);
     }
@@ -79,6 +81,7 @@ public class IfcClassificationReferenceImpl extends IfcExternalReferenceImpl imp
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void unsetReferencedSource() {
         eUnset(Ifc2x3tc1Package.Literals.IFC_CLASSIFICATION_REFERENCE__REFERENCED_SOURCE);
     }
@@ -88,6 +91,7 @@ public class IfcClassificationReferenceImpl extends IfcExternalReferenceImpl imp
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public boolean isSetReferencedSource() {
         return eIsSet(Ifc2x3tc1Package.Literals.IFC_CLASSIFICATION_REFERENCE__REFERENCED_SOURCE);
     }

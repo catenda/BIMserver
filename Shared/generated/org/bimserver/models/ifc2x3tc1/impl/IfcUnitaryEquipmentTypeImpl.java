@@ -60,6 +60,7 @@ public class IfcUnitaryEquipmentTypeImpl extends IfcEnergyConversionDeviceTypeIm
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public IfcUnitaryEquipmentTypeEnum getPredefinedType() {
         return (IfcUnitaryEquipmentTypeEnum) eGet(Ifc2x3tc1Package.Literals.IFC_UNITARY_EQUIPMENT_TYPE__PREDEFINED_TYPE,
                 true);
@@ -70,6 +71,7 @@ public class IfcUnitaryEquipmentTypeImpl extends IfcEnergyConversionDeviceTypeIm
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setPredefinedType(IfcUnitaryEquipmentTypeEnum newPredefinedType) {
         eSet(Ifc2x3tc1Package.Literals.IFC_UNITARY_EQUIPMENT_TYPE__PREDEFINED_TYPE, newPredefinedType);
     }

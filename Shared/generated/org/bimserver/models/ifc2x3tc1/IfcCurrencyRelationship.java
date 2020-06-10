@@ -130,7 +130,8 @@ public interface IfcCurrencyRelationship extends IdEObject {
      * @return the value of the '<em>Exchange Rate As String</em>' attribute.
      * @see #setExchangeRateAsString(String)
      * @see org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package#getIfcCurrencyRelationship_ExchangeRateAsString()
-     * @model
+     * @model annotation="asstring"
+     *        annotation="hidden"
      * @generated
      */
     String getExchangeRateAsString();

@@ -67,6 +67,7 @@ public class IfcTimeSeriesScheduleImpl extends IfcControlImpl implements IfcTime
      * @generated
      */
     @SuppressWarnings("unchecked")
+    @Override
     public EList<IfcDateTimeSelect> getApplicableDates() {
         return (EList<IfcDateTimeSelect>) eGet(Ifc2x3tc1Package.Literals.IFC_TIME_SERIES_SCHEDULE__APPLICABLE_DATES,
                 true);
@@ -77,6 +78,7 @@ public class IfcTimeSeriesScheduleImpl extends IfcControlImpl implements IfcTime
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void unsetApplicableDates() {
         eUnset(Ifc2x3tc1Package.Literals.IFC_TIME_SERIES_SCHEDULE__APPLICABLE_DATES);
     }
@@ -86,6 +88,7 @@ public class IfcTimeSeriesScheduleImpl extends IfcControlImpl implements IfcTime
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public boolean isSetApplicableDates() {
         return eIsSet(Ifc2x3tc1Package.Literals.IFC_TIME_SERIES_SCHEDULE__APPLICABLE_DATES);
     }
@@ -95,6 +98,7 @@ public class IfcTimeSeriesScheduleImpl extends IfcControlImpl implements IfcTime
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public IfcTimeSeriesScheduleTypeEnum getTimeSeriesScheduleType() {
         return (IfcTimeSeriesScheduleTypeEnum) eGet(
                 Ifc2x3tc1Package.Literals.IFC_TIME_SERIES_SCHEDULE__TIME_SERIES_SCHEDULE_TYPE, true);
@@ -105,6 +109,7 @@ public class IfcTimeSeriesScheduleImpl extends IfcControlImpl implements IfcTime
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setTimeSeriesScheduleType(IfcTimeSeriesScheduleTypeEnum newTimeSeriesScheduleType) {
         eSet(Ifc2x3tc1Package.Literals.IFC_TIME_SERIES_SCHEDULE__TIME_SERIES_SCHEDULE_TYPE, newTimeSeriesScheduleType);
     }
@@ -114,6 +119,7 @@ public class IfcTimeSeriesScheduleImpl extends IfcControlImpl implements IfcTime
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public IfcTimeSeries getTimeSeries() {
         return (IfcTimeSeries) eGet(Ifc2x3tc1Package.Literals.IFC_TIME_SERIES_SCHEDULE__TIME_SERIES, true);
     }
@@ -123,6 +129,7 @@ public class IfcTimeSeriesScheduleImpl extends IfcControlImpl implements IfcTime
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setTimeSeries(IfcTimeSeries newTimeSeries) {
         eSet(Ifc2x3tc1Package.Literals.IFC_TIME_SERIES_SCHEDULE__TIME_SERIES, newTimeSeries);
     }

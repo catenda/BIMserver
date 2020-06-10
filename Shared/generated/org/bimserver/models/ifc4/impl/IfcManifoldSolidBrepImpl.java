@@ -60,6 +60,7 @@ public class IfcManifoldSolidBrepImpl extends IfcSolidModelImpl implements IfcMa
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public IfcClosedShell getOuter() {
         return (IfcClosedShell) eGet(Ifc4Package.Literals.IFC_MANIFOLD_SOLID_BREP__OUTER, true);
     }
@@ -69,6 +70,7 @@ public class IfcManifoldSolidBrepImpl extends IfcSolidModelImpl implements IfcMa
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setOuter(IfcClosedShell newOuter) {
         eSet(Ifc4Package.Literals.IFC_MANIFOLD_SOLID_BREP__OUTER, newOuter);
     }

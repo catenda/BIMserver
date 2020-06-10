@@ -29,7 +29,7 @@ package org.bimserver.models.store;
  * </ul>
  *
  * @see org.bimserver.models.store.StorePackage#getPrimitiveDefinition()
- * @model
+ * @model annotation="nodatabase"
  * @generated
  */
 public interface PrimitiveDefinition extends TypeDefinition {

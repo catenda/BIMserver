@@ -68,6 +68,7 @@ public class IfcIndexedColourMapImpl extends IfcPresentationItemImpl implements 
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public IfcTessellatedFaceSet getMappedTo() {
         return (IfcTessellatedFaceSet) eGet(Ifc4Package.Literals.IFC_INDEXED_COLOUR_MAP__MAPPED_TO, true);
     }
@@ -77,6 +78,7 @@ public class IfcIndexedColourMapImpl extends IfcPresentationItemImpl implements 
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setMappedTo(IfcTessellatedFaceSet newMappedTo) {
         eSet(Ifc4Package.Literals.IFC_INDEXED_COLOUR_MAP__MAPPED_TO, newMappedTo);
     }
@@ -86,6 +88,7 @@ public class IfcIndexedColourMapImpl extends IfcPresentationItemImpl implements 
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public double getOpacity() {
         return (Double) eGet(Ifc4Package.Literals.IFC_INDEXED_COLOUR_MAP__OPACITY, true);
     }
@@ -95,6 +98,7 @@ public class IfcIndexedColourMapImpl extends IfcPresentationItemImpl implements 
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setOpacity(double newOpacity) {
         eSet(Ifc4Package.Literals.IFC_INDEXED_COLOUR_MAP__OPACITY, newOpacity);
     }
@@ -104,6 +108,7 @@ public class IfcIndexedColourMapImpl extends IfcPresentationItemImpl implements 
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void unsetOpacity() {
         eUnset(Ifc4Package.Literals.IFC_INDEXED_COLOUR_MAP__OPACITY);
     }
@@ -113,6 +118,7 @@ public class IfcIndexedColourMapImpl extends IfcPresentationItemImpl implements 
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public boolean isSetOpacity() {
         return eIsSet(Ifc4Package.Literals.IFC_INDEXED_COLOUR_MAP__OPACITY);
     }
@@ -122,6 +128,7 @@ public class IfcIndexedColourMapImpl extends IfcPresentationItemImpl implements 
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public String getOpacityAsString() {
         return (String) eGet(Ifc4Package.Literals.IFC_INDEXED_COLOUR_MAP__OPACITY_AS_STRING, true);
     }
@@ -131,6 +138,7 @@ public class IfcIndexedColourMapImpl extends IfcPresentationItemImpl implements 
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setOpacityAsString(String newOpacityAsString) {
         eSet(Ifc4Package.Literals.IFC_INDEXED_COLOUR_MAP__OPACITY_AS_STRING, newOpacityAsString);
     }
@@ -140,6 +148,7 @@ public class IfcIndexedColourMapImpl extends IfcPresentationItemImpl implements 
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void unsetOpacityAsString() {
         eUnset(Ifc4Package.Literals.IFC_INDEXED_COLOUR_MAP__OPACITY_AS_STRING);
     }
@@ -149,6 +158,7 @@ public class IfcIndexedColourMapImpl extends IfcPresentationItemImpl implements 
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public boolean isSetOpacityAsString() {
         return eIsSet(Ifc4Package.Literals.IFC_INDEXED_COLOUR_MAP__OPACITY_AS_STRING);
     }
@@ -158,6 +168,7 @@ public class IfcIndexedColourMapImpl extends IfcPresentationItemImpl implements 
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public IfcColourRgbList getColours() {
         return (IfcColourRgbList) eGet(Ifc4Package.Literals.IFC_INDEXED_COLOUR_MAP__COLOURS, true);
     }
@@ -167,6 +178,7 @@ public class IfcIndexedColourMapImpl extends IfcPresentationItemImpl implements 
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setColours(IfcColourRgbList newColours) {
         eSet(Ifc4Package.Literals.IFC_INDEXED_COLOUR_MAP__COLOURS, newColours);
     }
@@ -177,6 +189,7 @@ public class IfcIndexedColourMapImpl extends IfcPresentationItemImpl implements 
      * @generated
      */
     @SuppressWarnings("unchecked")
+    @Override
     public EList<Long> getColourIndex() {
         return (EList<Long>) eGet(Ifc4Package.Literals.IFC_INDEXED_COLOUR_MAP__COLOUR_INDEX, true);
     }

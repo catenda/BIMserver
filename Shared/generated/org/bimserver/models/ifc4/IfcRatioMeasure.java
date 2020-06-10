@@ -30,7 +30,7 @@ package org.bimserver.models.ifc4;
  * </ul>
  *
  * @see org.bimserver.models.ifc4.Ifc4Package#getIfcRatioMeasure()
- * @model
+ * @model annotation="wrapped"
  * @generated
  */
 public interface IfcRatioMeasure extends IfcMeasureValue, IfcSizeSelect, IfcTimeOrRatioSelect {
@@ -101,6 +101,8 @@ public interface IfcRatioMeasure extends IfcMeasureValue, IfcSizeSelect, IfcTime
      * @see #setWrappedValueAsString(String)
      * @see org.bimserver.models.ifc4.Ifc4Package#getIfcRatioMeasure_WrappedValueAsString()
      * @model unsettable="true"
+     *        annotation="asstring"
+     *        annotation="hidden"
      * @generated
      */
     String getWrappedValueAsString();

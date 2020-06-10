@@ -60,6 +60,7 @@ public class IfcTaskTimeRecurringImpl extends IfcTaskTimeImpl implements IfcTask
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public IfcRecurrencePattern getRecurrence() {
         return (IfcRecurrencePattern) eGet(Ifc4Package.Literals.IFC_TASK_TIME_RECURRING__RECURRENCE, true);
     }
@@ -69,6 +70,7 @@ public class IfcTaskTimeRecurringImpl extends IfcTaskTimeImpl implements IfcTask
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setRecurrence(IfcRecurrencePattern newRecurrence) {
         eSet(Ifc4Package.Literals.IFC_TASK_TIME_RECURRING__RECURRENCE, newRecurrence);
     }

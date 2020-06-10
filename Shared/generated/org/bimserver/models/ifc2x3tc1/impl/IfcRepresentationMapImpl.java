@@ -78,6 +78,7 @@ public class IfcRepresentationMapImpl extends IdEObjectImpl implements IfcRepres
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public IfcAxis2Placement getMappingOrigin() {
         return (IfcAxis2Placement) eGet(Ifc2x3tc1Package.Literals.IFC_REPRESENTATION_MAP__MAPPING_ORIGIN, true);
     }
@@ -87,6 +88,7 @@ public class IfcRepresentationMapImpl extends IdEObjectImpl implements IfcRepres
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setMappingOrigin(IfcAxis2Placement newMappingOrigin) {
         eSet(Ifc2x3tc1Package.Literals.IFC_REPRESENTATION_MAP__MAPPING_ORIGIN, newMappingOrigin);
     }
@@ -96,6 +98,7 @@ public class IfcRepresentationMapImpl extends IdEObjectImpl implements IfcRepres
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public IfcRepresentation getMappedRepresentation() {
         return (IfcRepresentation) eGet(Ifc2x3tc1Package.Literals.IFC_REPRESENTATION_MAP__MAPPED_REPRESENTATION, true);
     }
@@ -105,6 +108,7 @@ public class IfcRepresentationMapImpl extends IdEObjectImpl implements IfcRepres
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setMappedRepresentation(IfcRepresentation newMappedRepresentation) {
         eSet(Ifc2x3tc1Package.Literals.IFC_REPRESENTATION_MAP__MAPPED_REPRESENTATION, newMappedRepresentation);
     }
@@ -115,6 +119,7 @@ public class IfcRepresentationMapImpl extends IdEObjectImpl implements IfcRepres
      * @generated
      */
     @SuppressWarnings("unchecked")
+    @Override
     public EList<IfcMappedItem> getMapUsage() {
         return (EList<IfcMappedItem>) eGet(Ifc2x3tc1Package.Literals.IFC_REPRESENTATION_MAP__MAP_USAGE, true);
     }
@@ -124,6 +129,7 @@ public class IfcRepresentationMapImpl extends IdEObjectImpl implements IfcRepres
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void unsetMapUsage() {
         eUnset(Ifc2x3tc1Package.Literals.IFC_REPRESENTATION_MAP__MAP_USAGE);
     }
@@ -133,6 +139,7 @@ public class IfcRepresentationMapImpl extends IdEObjectImpl implements IfcRepres
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public boolean isSetMapUsage() {
         return eIsSet(Ifc2x3tc1Package.Literals.IFC_REPRESENTATION_MAP__MAP_USAGE);
     }

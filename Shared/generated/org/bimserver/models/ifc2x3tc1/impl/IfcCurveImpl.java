@@ -59,6 +59,7 @@ public class IfcCurveImpl extends IfcGeometricRepresentationItemImpl implements 
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public long getDim() {
         return (Long) eGet(Ifc2x3tc1Package.Literals.IFC_CURVE__DIM, true);
     }
@@ -68,6 +69,7 @@ public class IfcCurveImpl extends IfcGeometricRepresentationItemImpl implements 
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setDim(long newDim) {
         eSet(Ifc2x3tc1Package.Literals.IFC_CURVE__DIM, newDim);
     }
@@ -77,6 +79,7 @@ public class IfcCurveImpl extends IfcGeometricRepresentationItemImpl implements 
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void unsetDim() {
         eUnset(Ifc2x3tc1Package.Literals.IFC_CURVE__DIM);
     }
@@ -86,6 +89,7 @@ public class IfcCurveImpl extends IfcGeometricRepresentationItemImpl implements 
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public boolean isSetDim() {
         return eIsSet(Ifc2x3tc1Package.Literals.IFC_CURVE__DIM);
     }

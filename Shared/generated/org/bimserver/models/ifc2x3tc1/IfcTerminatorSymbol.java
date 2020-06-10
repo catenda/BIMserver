@@ -44,7 +44,7 @@ public interface IfcTerminatorSymbol extends IfcAnnotationSymbolOccurrence {
      * @return the value of the '<em>Annotated Curve</em>' reference.
      * @see #setAnnotatedCurve(IfcAnnotationCurveOccurrence)
      * @see org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package#getIfcTerminatorSymbol_AnnotatedCurve()
-     * @model
+     * @model annotation="inverse"
      * @generated
      */
     IfcAnnotationCurveOccurrence getAnnotatedCurve();

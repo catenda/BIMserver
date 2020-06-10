@@ -63,6 +63,7 @@ public class IfcEdgeLoopImpl extends IfcLoopImpl implements IfcEdgeLoop {
      * @generated
      */
     @SuppressWarnings("unchecked")
+    @Override
     public EList<IfcOrientedEdge> getEdgeList() {
         return (EList<IfcOrientedEdge>) eGet(Ifc2x3tc1Package.Literals.IFC_EDGE_LOOP__EDGE_LIST, true);
     }

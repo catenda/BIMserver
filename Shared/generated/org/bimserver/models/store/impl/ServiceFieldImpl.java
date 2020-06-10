@@ -75,6 +75,7 @@ public class ServiceFieldImpl extends IdEObjectImpl implements ServiceField {
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public String getName() {
         return (String) eGet(StorePackage.Literals.SERVICE_FIELD__NAME, true);
     }
@@ -84,6 +85,7 @@ public class ServiceFieldImpl extends IdEObjectImpl implements ServiceField {
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setName(String newName) {
         eSet(StorePackage.Literals.SERVICE_FIELD__NAME, newName);
     }
@@ -93,6 +95,7 @@ public class ServiceFieldImpl extends IdEObjectImpl implements ServiceField {
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public ServiceType getType() {
         return (ServiceType) eGet(StorePackage.Literals.SERVICE_FIELD__TYPE, true);
     }
@@ -102,6 +105,7 @@ public class ServiceFieldImpl extends IdEObjectImpl implements ServiceField {
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setType(ServiceType newType) {
         eSet(StorePackage.Literals.SERVICE_FIELD__TYPE, newType);
     }
@@ -111,6 +115,7 @@ public class ServiceFieldImpl extends IdEObjectImpl implements ServiceField {
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public ServiceType getGenericType() {
         return (ServiceType) eGet(StorePackage.Literals.SERVICE_FIELD__GENERIC_TYPE, true);
     }
@@ -120,6 +125,7 @@ public class ServiceFieldImpl extends IdEObjectImpl implements ServiceField {
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setGenericType(ServiceType newGenericType) {
         eSet(StorePackage.Literals.SERVICE_FIELD__GENERIC_TYPE, newGenericType);
     }
@@ -129,6 +135,7 @@ public class ServiceFieldImpl extends IdEObjectImpl implements ServiceField {
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public String getDoc() {
         return (String) eGet(StorePackage.Literals.SERVICE_FIELD__DOC, true);
     }
@@ -138,6 +145,7 @@ public class ServiceFieldImpl extends IdEObjectImpl implements ServiceField {
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setDoc(String newDoc) {
         eSet(StorePackage.Literals.SERVICE_FIELD__DOC, newDoc);
     }

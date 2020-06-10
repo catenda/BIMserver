@@ -30,7 +30,7 @@ package org.bimserver.models.ifc4;
  * </ul>
  *
  * @see org.bimserver.models.ifc4.Ifc4Package#getIfcMassPerLengthMeasure()
- * @model
+ * @model annotation="wrapped"
  * @generated
  */
 public interface IfcMassPerLengthMeasure extends IfcDerivedMeasureValue {
@@ -101,6 +101,8 @@ public interface IfcMassPerLengthMeasure extends IfcDerivedMeasureValue {
      * @see #setWrappedValueAsString(String)
      * @see org.bimserver.models.ifc4.Ifc4Package#getIfcMassPerLengthMeasure_WrappedValueAsString()
      * @model unsettable="true"
+     *        annotation="asstring"
+     *        annotation="hidden"
      * @generated
      */
     String getWrappedValueAsString();

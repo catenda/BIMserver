@@ -137,6 +137,8 @@ public interface IfcSpaceProgram extends IfcControl {
      * @see #setMaxRequiredAreaAsString(String)
      * @see org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package#getIfcSpaceProgram_MaxRequiredAreaAsString()
      * @model unsettable="true"
+     *        annotation="asstring"
+     *        annotation="hidden"
      * @generated
      */
     String getMaxRequiredAreaAsString();
@@ -243,6 +245,8 @@ public interface IfcSpaceProgram extends IfcControl {
      * @see #setMinRequiredAreaAsString(String)
      * @see org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package#getIfcSpaceProgram_MinRequiredAreaAsString()
      * @model unsettable="true"
+     *        annotation="asstring"
+     *        annotation="hidden"
      * @generated
      */
     String getMinRequiredAreaAsString();
@@ -372,7 +376,8 @@ public interface IfcSpaceProgram extends IfcControl {
      * @return the value of the '<em>Standard Required Area As String</em>' attribute.
      * @see #setStandardRequiredAreaAsString(String)
      * @see org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package#getIfcSpaceProgram_StandardRequiredAreaAsString()
-     * @model
+     * @model annotation="asstring"
+     *        annotation="hidden"
      * @generated
      */
     String getStandardRequiredAreaAsString();
@@ -403,6 +408,7 @@ public interface IfcSpaceProgram extends IfcControl {
      * @see org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package#getIfcSpaceProgram_HasInteractionReqsFrom()
      * @see org.bimserver.models.ifc2x3tc1.IfcRelInteractionRequirements#getRelatedSpaceProgram
      * @model opposite="RelatedSpaceProgram" unsettable="true"
+     *        annotation="inverse"
      * @generated
      */
     EList<IfcRelInteractionRequirements> getHasInteractionReqsFrom();
@@ -444,6 +450,7 @@ public interface IfcSpaceProgram extends IfcControl {
      * @see org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package#getIfcSpaceProgram_HasInteractionReqsTo()
      * @see org.bimserver.models.ifc2x3tc1.IfcRelInteractionRequirements#getRelatingSpaceProgram
      * @model opposite="RelatingSpaceProgram" unsettable="true"
+     *        annotation="inverse"
      * @generated
      */
     EList<IfcRelInteractionRequirements> getHasInteractionReqsTo();

@@ -23,7 +23,7 @@ package org.bimserver.models.ifc4;
  *
  *
  * @see org.bimserver.models.ifc4.Ifc4Package#getIfcPositiveRatioMeasure()
- * @model
+ * @model annotation="wrapped"
  * @generated
  */
 public interface IfcPositiveRatioMeasure extends IfcRatioMeasure, IfcMeasureValue, IfcSizeSelect {

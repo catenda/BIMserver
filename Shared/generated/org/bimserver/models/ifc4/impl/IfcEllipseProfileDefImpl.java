@@ -62,6 +62,7 @@ public class IfcEllipseProfileDefImpl extends IfcParameterizedProfileDefImpl imp
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public double getSemiAxis1() {
         return (Double) eGet(Ifc4Package.Literals.IFC_ELLIPSE_PROFILE_DEF__SEMI_AXIS1, true);
     }
@@ -71,6 +72,7 @@ public class IfcEllipseProfileDefImpl extends IfcParameterizedProfileDefImpl imp
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setSemiAxis1(double newSemiAxis1) {
         eSet(Ifc4Package.Literals.IFC_ELLIPSE_PROFILE_DEF__SEMI_AXIS1, newSemiAxis1);
     }
@@ -80,6 +82,7 @@ public class IfcEllipseProfileDefImpl extends IfcParameterizedProfileDefImpl imp
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public String getSemiAxis1AsString() {
         return (String) eGet(Ifc4Package.Literals.IFC_ELLIPSE_PROFILE_DEF__SEMI_AXIS1_AS_STRING, true);
     }
@@ -89,6 +92,7 @@ public class IfcEllipseProfileDefImpl extends IfcParameterizedProfileDefImpl imp
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setSemiAxis1AsString(String newSemiAxis1AsString) {
         eSet(Ifc4Package.Literals.IFC_ELLIPSE_PROFILE_DEF__SEMI_AXIS1_AS_STRING, newSemiAxis1AsString);
     }
@@ -98,6 +102,7 @@ public class IfcEllipseProfileDefImpl extends IfcParameterizedProfileDefImpl imp
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public double getSemiAxis2() {
         return (Double) eGet(Ifc4Package.Literals.IFC_ELLIPSE_PROFILE_DEF__SEMI_AXIS2, true);
     }
@@ -107,6 +112,7 @@ public class IfcEllipseProfileDefImpl extends IfcParameterizedProfileDefImpl imp
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setSemiAxis2(double newSemiAxis2) {
         eSet(Ifc4Package.Literals.IFC_ELLIPSE_PROFILE_DEF__SEMI_AXIS2, newSemiAxis2);
     }
@@ -116,6 +122,7 @@ public class IfcEllipseProfileDefImpl extends IfcParameterizedProfileDefImpl imp
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public String getSemiAxis2AsString() {
         return (String) eGet(Ifc4Package.Literals.IFC_ELLIPSE_PROFILE_DEF__SEMI_AXIS2_AS_STRING, true);
     }
@@ -125,6 +132,7 @@ public class IfcEllipseProfileDefImpl extends IfcParameterizedProfileDefImpl imp
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setSemiAxis2AsString(String newSemiAxis2AsString) {
         eSet(Ifc4Package.Literals.IFC_ELLIPSE_PROFILE_DEF__SEMI_AXIS2_AS_STRING, newSemiAxis2AsString);
     }

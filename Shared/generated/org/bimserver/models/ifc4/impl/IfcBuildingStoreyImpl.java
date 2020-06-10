@@ -60,6 +60,7 @@ public class IfcBuildingStoreyImpl extends IfcSpatialStructureElementImpl implem
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public double getElevation() {
         return (Double) eGet(Ifc4Package.Literals.IFC_BUILDING_STOREY__ELEVATION, true);
     }
@@ -69,6 +70,7 @@ public class IfcBuildingStoreyImpl extends IfcSpatialStructureElementImpl implem
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setElevation(double newElevation) {
         eSet(Ifc4Package.Literals.IFC_BUILDING_STOREY__ELEVATION, newElevation);
     }
@@ -78,6 +80,7 @@ public class IfcBuildingStoreyImpl extends IfcSpatialStructureElementImpl implem
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void unsetElevation() {
         eUnset(Ifc4Package.Literals.IFC_BUILDING_STOREY__ELEVATION);
     }
@@ -87,6 +90,7 @@ public class IfcBuildingStoreyImpl extends IfcSpatialStructureElementImpl implem
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public boolean isSetElevation() {
         return eIsSet(Ifc4Package.Literals.IFC_BUILDING_STOREY__ELEVATION);
     }
@@ -96,6 +100,7 @@ public class IfcBuildingStoreyImpl extends IfcSpatialStructureElementImpl implem
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public String getElevationAsString() {
         return (String) eGet(Ifc4Package.Literals.IFC_BUILDING_STOREY__ELEVATION_AS_STRING, true);
     }
@@ -105,6 +110,7 @@ public class IfcBuildingStoreyImpl extends IfcSpatialStructureElementImpl implem
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setElevationAsString(String newElevationAsString) {
         eSet(Ifc4Package.Literals.IFC_BUILDING_STOREY__ELEVATION_AS_STRING, newElevationAsString);
     }
@@ -114,6 +120,7 @@ public class IfcBuildingStoreyImpl extends IfcSpatialStructureElementImpl implem
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void unsetElevationAsString() {
         eUnset(Ifc4Package.Literals.IFC_BUILDING_STOREY__ELEVATION_AS_STRING);
     }
@@ -123,6 +130,7 @@ public class IfcBuildingStoreyImpl extends IfcSpatialStructureElementImpl implem
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public boolean isSetElevationAsString() {
         return eIsSet(Ifc4Package.Literals.IFC_BUILDING_STOREY__ELEVATION_AS_STRING);
     }

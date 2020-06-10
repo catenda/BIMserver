@@ -61,6 +61,7 @@ public class QueryEnginePluginConfigurationImpl extends PluginConfigurationImpl
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public UserSettings getUserSettings() {
         return (UserSettings) eGet(StorePackage.Literals.QUERY_ENGINE_PLUGIN_CONFIGURATION__USER_SETTINGS, true);
     }
@@ -70,6 +71,7 @@ public class QueryEnginePluginConfigurationImpl extends PluginConfigurationImpl
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setUserSettings(UserSettings newUserSettings) {
         eSet(StorePackage.Literals.QUERY_ENGINE_PLUGIN_CONFIGURATION__USER_SETTINGS, newUserSettings);
     }

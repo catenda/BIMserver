@@ -30,7 +30,7 @@ package org.bimserver.models.ifc2x3tc1;
  * </ul>
  *
  * @see org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package#getIfcParameterValue()
- * @model
+ * @model annotation="wrapped"
  * @generated
  */
 public interface IfcParameterValue extends IfcMeasureValue, IfcTrimmingSelect {
@@ -101,6 +101,8 @@ public interface IfcParameterValue extends IfcMeasureValue, IfcTrimmingSelect {
      * @see #setWrappedValueAsString(String)
      * @see org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package#getIfcParameterValue_WrappedValueAsString()
      * @model unsettable="true"
+     *        annotation="asstring"
+     *        annotation="hidden"
      * @generated
      */
     String getWrappedValueAsString();

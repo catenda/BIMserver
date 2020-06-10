@@ -53,6 +53,7 @@ public interface IfcMaterialLayerSet extends IfcMaterialDefinition {
      * @see org.bimserver.models.ifc4.Ifc4Package#getIfcMaterialLayerSet_MaterialLayers()
      * @see org.bimserver.models.ifc4.IfcMaterialLayer#getToMaterialLayerSet
      * @model opposite="ToMaterialLayerSet"
+     *        annotation="inverse"
      * @generated
      */
     EList<IfcMaterialLayer> getMaterialLayers();
@@ -177,6 +178,7 @@ public interface IfcMaterialLayerSet extends IfcMaterialDefinition {
      * @see #setTotalThickness(double)
      * @see org.bimserver.models.ifc4.Ifc4Package#getIfcMaterialLayerSet_TotalThickness()
      * @model unsettable="true" derived="true"
+     *        annotation="derived"
      * @generated
      */
     double getTotalThickness();
@@ -230,6 +232,8 @@ public interface IfcMaterialLayerSet extends IfcMaterialDefinition {
      * @see #setTotalThicknessAsString(String)
      * @see org.bimserver.models.ifc4.Ifc4Package#getIfcMaterialLayerSet_TotalThicknessAsString()
      * @model unsettable="true"
+     *        annotation="asstring"
+     *        annotation="hidden"
      * @generated
      */
     String getTotalThicknessAsString();

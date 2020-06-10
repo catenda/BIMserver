@@ -60,6 +60,7 @@ public class IfcEngineImpl extends IfcEnergyConversionDeviceImpl implements IfcE
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public IfcEngineTypeEnum getPredefinedType() {
         return (IfcEngineTypeEnum) eGet(Ifc4Package.Literals.IFC_ENGINE__PREDEFINED_TYPE, true);
     }
@@ -69,6 +70,7 @@ public class IfcEngineImpl extends IfcEnergyConversionDeviceImpl implements IfcE
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setPredefinedType(IfcEngineTypeEnum newPredefinedType) {
         eSet(Ifc4Package.Literals.IFC_ENGINE__PREDEFINED_TYPE, newPredefinedType);
     }
@@ -78,6 +80,7 @@ public class IfcEngineImpl extends IfcEnergyConversionDeviceImpl implements IfcE
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void unsetPredefinedType() {
         eUnset(Ifc4Package.Literals.IFC_ENGINE__PREDEFINED_TYPE);
     }
@@ -87,6 +90,7 @@ public class IfcEngineImpl extends IfcEnergyConversionDeviceImpl implements IfcE
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public boolean isSetPredefinedType() {
         return eIsSet(Ifc4Package.Literals.IFC_ENGINE__PREDEFINED_TYPE);
     }

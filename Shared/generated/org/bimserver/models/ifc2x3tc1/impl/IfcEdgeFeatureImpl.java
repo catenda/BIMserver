@@ -60,6 +60,7 @@ public class IfcEdgeFeatureImpl extends IfcFeatureElementSubtractionImpl impleme
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public double getFeatureLength() {
         return (Double) eGet(Ifc2x3tc1Package.Literals.IFC_EDGE_FEATURE__FEATURE_LENGTH, true);
     }
@@ -69,6 +70,7 @@ public class IfcEdgeFeatureImpl extends IfcFeatureElementSubtractionImpl impleme
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setFeatureLength(double newFeatureLength) {
         eSet(Ifc2x3tc1Package.Literals.IFC_EDGE_FEATURE__FEATURE_LENGTH, newFeatureLength);
     }
@@ -78,6 +80,7 @@ public class IfcEdgeFeatureImpl extends IfcFeatureElementSubtractionImpl impleme
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void unsetFeatureLength() {
         eUnset(Ifc2x3tc1Package.Literals.IFC_EDGE_FEATURE__FEATURE_LENGTH);
     }
@@ -87,6 +90,7 @@ public class IfcEdgeFeatureImpl extends IfcFeatureElementSubtractionImpl impleme
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public boolean isSetFeatureLength() {
         return eIsSet(Ifc2x3tc1Package.Literals.IFC_EDGE_FEATURE__FEATURE_LENGTH);
     }
@@ -96,6 +100,7 @@ public class IfcEdgeFeatureImpl extends IfcFeatureElementSubtractionImpl impleme
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public String getFeatureLengthAsString() {
         return (String) eGet(Ifc2x3tc1Package.Literals.IFC_EDGE_FEATURE__FEATURE_LENGTH_AS_STRING, true);
     }
@@ -105,6 +110,7 @@ public class IfcEdgeFeatureImpl extends IfcFeatureElementSubtractionImpl impleme
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setFeatureLengthAsString(String newFeatureLengthAsString) {
         eSet(Ifc2x3tc1Package.Literals.IFC_EDGE_FEATURE__FEATURE_LENGTH_AS_STRING, newFeatureLengthAsString);
     }
@@ -114,6 +120,7 @@ public class IfcEdgeFeatureImpl extends IfcFeatureElementSubtractionImpl impleme
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void unsetFeatureLengthAsString() {
         eUnset(Ifc2x3tc1Package.Literals.IFC_EDGE_FEATURE__FEATURE_LENGTH_AS_STRING);
     }
@@ -123,6 +130,7 @@ public class IfcEdgeFeatureImpl extends IfcFeatureElementSubtractionImpl impleme
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public boolean isSetFeatureLengthAsString() {
         return eIsSet(Ifc2x3tc1Package.Literals.IFC_EDGE_FEATURE__FEATURE_LENGTH_AS_STRING);
     }

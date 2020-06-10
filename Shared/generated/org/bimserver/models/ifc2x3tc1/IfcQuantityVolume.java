@@ -71,7 +71,8 @@ public interface IfcQuantityVolume extends IfcPhysicalSimpleQuantity {
      * @return the value of the '<em>Volume Value As String</em>' attribute.
      * @see #setVolumeValueAsString(String)
      * @see org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package#getIfcQuantityVolume_VolumeValueAsString()
-     * @model
+     * @model annotation="asstring"
+     *        annotation="hidden"
      * @generated
      */
     String getVolumeValueAsString();

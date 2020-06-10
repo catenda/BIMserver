@@ -63,6 +63,7 @@ public class IfcDistributionFlowElementImpl extends IfcDistributionElementImpl i
      * @generated
      */
     @SuppressWarnings("unchecked")
+    @Override
     public EList<IfcRelFlowControlElements> getHasControlElements() {
         return (EList<IfcRelFlowControlElements>) eGet(
                 Ifc2x3tc1Package.Literals.IFC_DISTRIBUTION_FLOW_ELEMENT__HAS_CONTROL_ELEMENTS, true);
@@ -73,6 +74,7 @@ public class IfcDistributionFlowElementImpl extends IfcDistributionElementImpl i
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void unsetHasControlElements() {
         eUnset(Ifc2x3tc1Package.Literals.IFC_DISTRIBUTION_FLOW_ELEMENT__HAS_CONTROL_ELEMENTS);
     }
@@ -82,6 +84,7 @@ public class IfcDistributionFlowElementImpl extends IfcDistributionElementImpl i
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public boolean isSetHasControlElements() {
         return eIsSet(Ifc2x3tc1Package.Literals.IFC_DISTRIBUTION_FLOW_ELEMENT__HAS_CONTROL_ELEMENTS);
     }

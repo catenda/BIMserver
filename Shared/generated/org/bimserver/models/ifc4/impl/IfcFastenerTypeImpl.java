@@ -60,6 +60,7 @@ public class IfcFastenerTypeImpl extends IfcElementComponentTypeImpl implements 
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public IfcFastenerTypeEnum getPredefinedType() {
         return (IfcFastenerTypeEnum) eGet(Ifc4Package.Literals.IFC_FASTENER_TYPE__PREDEFINED_TYPE, true);
     }
@@ -69,6 +70,7 @@ public class IfcFastenerTypeImpl extends IfcElementComponentTypeImpl implements 
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setPredefinedType(IfcFastenerTypeEnum newPredefinedType) {
         eSet(Ifc4Package.Literals.IFC_FASTENER_TYPE__PREDEFINED_TYPE, newPredefinedType);
     }

@@ -79,6 +79,7 @@ public class IfcTableRowImpl extends IdEObjectImpl implements IfcTableRow {
      * @generated
      */
     @SuppressWarnings("unchecked")
+    @Override
     public EList<IfcValue> getRowCells() {
         return (EList<IfcValue>) eGet(Ifc2x3tc1Package.Literals.IFC_TABLE_ROW__ROW_CELLS, true);
     }
@@ -88,6 +89,7 @@ public class IfcTableRowImpl extends IdEObjectImpl implements IfcTableRow {
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public Tristate getIsHeading() {
         return (Tristate) eGet(Ifc2x3tc1Package.Literals.IFC_TABLE_ROW__IS_HEADING, true);
     }
@@ -97,6 +99,7 @@ public class IfcTableRowImpl extends IdEObjectImpl implements IfcTableRow {
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setIsHeading(Tristate newIsHeading) {
         eSet(Ifc2x3tc1Package.Literals.IFC_TABLE_ROW__IS_HEADING, newIsHeading);
     }
@@ -106,6 +109,7 @@ public class IfcTableRowImpl extends IdEObjectImpl implements IfcTableRow {
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public IfcTable getOfTable() {
         return (IfcTable) eGet(Ifc2x3tc1Package.Literals.IFC_TABLE_ROW__OF_TABLE, true);
     }
@@ -115,6 +119,7 @@ public class IfcTableRowImpl extends IdEObjectImpl implements IfcTableRow {
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setOfTable(IfcTable newOfTable) {
         eSet(Ifc2x3tc1Package.Literals.IFC_TABLE_ROW__OF_TABLE, newOfTable);
     }
@@ -124,6 +129,7 @@ public class IfcTableRowImpl extends IdEObjectImpl implements IfcTableRow {
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void unsetOfTable() {
         eUnset(Ifc2x3tc1Package.Literals.IFC_TABLE_ROW__OF_TABLE);
     }
@@ -133,6 +139,7 @@ public class IfcTableRowImpl extends IdEObjectImpl implements IfcTableRow {
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public boolean isSetOfTable() {
         return eIsSet(Ifc2x3tc1Package.Literals.IFC_TABLE_ROW__OF_TABLE);
     }

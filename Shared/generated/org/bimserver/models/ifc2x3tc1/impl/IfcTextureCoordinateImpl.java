@@ -75,6 +75,7 @@ public class IfcTextureCoordinateImpl extends IdEObjectImpl implements IfcTextur
      * @generated
      */
     @SuppressWarnings("unchecked")
+    @Override
     public EList<IfcAnnotationSurface> getAnnotatedSurface() {
         return (EList<IfcAnnotationSurface>) eGet(Ifc2x3tc1Package.Literals.IFC_TEXTURE_COORDINATE__ANNOTATED_SURFACE,
                 true);
@@ -85,6 +86,7 @@ public class IfcTextureCoordinateImpl extends IdEObjectImpl implements IfcTextur
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void unsetAnnotatedSurface() {
         eUnset(Ifc2x3tc1Package.Literals.IFC_TEXTURE_COORDINATE__ANNOTATED_SURFACE);
     }
@@ -94,6 +96,7 @@ public class IfcTextureCoordinateImpl extends IdEObjectImpl implements IfcTextur
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public boolean isSetAnnotatedSurface() {
         return eIsSet(Ifc2x3tc1Package.Literals.IFC_TEXTURE_COORDINATE__ANNOTATED_SURFACE);
     }

@@ -62,6 +62,7 @@ public class IfcServiceLifeImpl extends IfcControlImpl implements IfcServiceLife
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public IfcServiceLifeTypeEnum getServiceLifeType() {
         return (IfcServiceLifeTypeEnum) eGet(Ifc2x3tc1Package.Literals.IFC_SERVICE_LIFE__SERVICE_LIFE_TYPE, true);
     }
@@ -71,6 +72,7 @@ public class IfcServiceLifeImpl extends IfcControlImpl implements IfcServiceLife
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setServiceLifeType(IfcServiceLifeTypeEnum newServiceLifeType) {
         eSet(Ifc2x3tc1Package.Literals.IFC_SERVICE_LIFE__SERVICE_LIFE_TYPE, newServiceLifeType);
     }
@@ -80,6 +82,7 @@ public class IfcServiceLifeImpl extends IfcControlImpl implements IfcServiceLife
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public double getServiceLifeDuration() {
         return (Double) eGet(Ifc2x3tc1Package.Literals.IFC_SERVICE_LIFE__SERVICE_LIFE_DURATION, true);
     }
@@ -89,6 +92,7 @@ public class IfcServiceLifeImpl extends IfcControlImpl implements IfcServiceLife
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setServiceLifeDuration(double newServiceLifeDuration) {
         eSet(Ifc2x3tc1Package.Literals.IFC_SERVICE_LIFE__SERVICE_LIFE_DURATION, newServiceLifeDuration);
     }
@@ -98,6 +102,7 @@ public class IfcServiceLifeImpl extends IfcControlImpl implements IfcServiceLife
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public String getServiceLifeDurationAsString() {
         return (String) eGet(Ifc2x3tc1Package.Literals.IFC_SERVICE_LIFE__SERVICE_LIFE_DURATION_AS_STRING, true);
     }
@@ -107,6 +112,7 @@ public class IfcServiceLifeImpl extends IfcControlImpl implements IfcServiceLife
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setServiceLifeDurationAsString(String newServiceLifeDurationAsString) {
         eSet(Ifc2x3tc1Package.Literals.IFC_SERVICE_LIFE__SERVICE_LIFE_DURATION_AS_STRING,
                 newServiceLifeDurationAsString);

@@ -60,6 +60,7 @@ public class IfcCableCarrierSegmentTypeImpl extends IfcFlowSegmentTypeImpl imple
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public IfcCableCarrierSegmentTypeEnum getPredefinedType() {
         return (IfcCableCarrierSegmentTypeEnum) eGet(
                 Ifc4Package.Literals.IFC_CABLE_CARRIER_SEGMENT_TYPE__PREDEFINED_TYPE, true);
@@ -70,6 +71,7 @@ public class IfcCableCarrierSegmentTypeImpl extends IfcFlowSegmentTypeImpl imple
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setPredefinedType(IfcCableCarrierSegmentTypeEnum newPredefinedType) {
         eSet(Ifc4Package.Literals.IFC_CABLE_CARRIER_SEGMENT_TYPE__PREDEFINED_TYPE, newPredefinedType);
     }

@@ -66,6 +66,7 @@ public class IfcSoundPropertiesImpl extends IfcPropertySetDefinitionImpl impleme
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public Tristate getIsAttenuating() {
         return (Tristate) eGet(Ifc2x3tc1Package.Literals.IFC_SOUND_PROPERTIES__IS_ATTENUATING, true);
     }
@@ -75,6 +76,7 @@ public class IfcSoundPropertiesImpl extends IfcPropertySetDefinitionImpl impleme
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setIsAttenuating(Tristate newIsAttenuating) {
         eSet(Ifc2x3tc1Package.Literals.IFC_SOUND_PROPERTIES__IS_ATTENUATING, newIsAttenuating);
     }
@@ -84,6 +86,7 @@ public class IfcSoundPropertiesImpl extends IfcPropertySetDefinitionImpl impleme
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public IfcSoundScaleEnum getSoundScale() {
         return (IfcSoundScaleEnum) eGet(Ifc2x3tc1Package.Literals.IFC_SOUND_PROPERTIES__SOUND_SCALE, true);
     }
@@ -93,6 +96,7 @@ public class IfcSoundPropertiesImpl extends IfcPropertySetDefinitionImpl impleme
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setSoundScale(IfcSoundScaleEnum newSoundScale) {
         eSet(Ifc2x3tc1Package.Literals.IFC_SOUND_PROPERTIES__SOUND_SCALE, newSoundScale);
     }
@@ -102,6 +106,7 @@ public class IfcSoundPropertiesImpl extends IfcPropertySetDefinitionImpl impleme
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void unsetSoundScale() {
         eUnset(Ifc2x3tc1Package.Literals.IFC_SOUND_PROPERTIES__SOUND_SCALE);
     }
@@ -111,6 +116,7 @@ public class IfcSoundPropertiesImpl extends IfcPropertySetDefinitionImpl impleme
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public boolean isSetSoundScale() {
         return eIsSet(Ifc2x3tc1Package.Literals.IFC_SOUND_PROPERTIES__SOUND_SCALE);
     }
@@ -121,6 +127,7 @@ public class IfcSoundPropertiesImpl extends IfcPropertySetDefinitionImpl impleme
      * @generated
      */
     @SuppressWarnings("unchecked")
+    @Override
     public EList<IfcSoundValue> getSoundValues() {
         return (EList<IfcSoundValue>) eGet(Ifc2x3tc1Package.Literals.IFC_SOUND_PROPERTIES__SOUND_VALUES, true);
     }

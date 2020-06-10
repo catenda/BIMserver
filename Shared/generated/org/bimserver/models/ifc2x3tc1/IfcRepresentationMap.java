@@ -80,6 +80,7 @@ public interface IfcRepresentationMap extends IdEObject {
      * @see org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package#getIfcRepresentationMap_MappedRepresentation()
      * @see org.bimserver.models.ifc2x3tc1.IfcRepresentation#getRepresentationMap
      * @model opposite="RepresentationMap"
+     *        annotation="inverse"
      * @generated
      */
     IfcRepresentation getMappedRepresentation();
@@ -110,6 +111,7 @@ public interface IfcRepresentationMap extends IdEObject {
      * @see org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package#getIfcRepresentationMap_MapUsage()
      * @see org.bimserver.models.ifc2x3tc1.IfcMappedItem#getMappingSource
      * @model opposite="MappingSource" unsettable="true"
+     *        annotation="inverse"
      * @generated
      */
     EList<IfcMappedItem> getMapUsage();

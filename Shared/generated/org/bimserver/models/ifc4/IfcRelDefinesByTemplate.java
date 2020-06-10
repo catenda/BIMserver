@@ -50,6 +50,7 @@ public interface IfcRelDefinesByTemplate extends IfcRelDefines {
      * @see org.bimserver.models.ifc4.Ifc4Package#getIfcRelDefinesByTemplate_RelatedPropertySets()
      * @see org.bimserver.models.ifc4.IfcPropertySetDefinition#getIsDefinedBy
      * @model opposite="IsDefinedBy"
+     *        annotation="inverse"
      * @generated
      */
     EList<IfcPropertySetDefinition> getRelatedPropertySets();
@@ -68,6 +69,7 @@ public interface IfcRelDefinesByTemplate extends IfcRelDefines {
      * @see org.bimserver.models.ifc4.Ifc4Package#getIfcRelDefinesByTemplate_RelatingTemplate()
      * @see org.bimserver.models.ifc4.IfcPropertySetTemplate#getDefines
      * @model opposite="Defines"
+     *        annotation="inverse"
      * @generated
      */
     IfcPropertySetTemplate getRelatingTemplate();

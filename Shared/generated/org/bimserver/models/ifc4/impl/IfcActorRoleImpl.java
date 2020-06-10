@@ -78,6 +78,7 @@ public class IfcActorRoleImpl extends IdEObjectImpl implements IfcActorRole {
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public IfcRoleEnum getRole() {
         return (IfcRoleEnum) eGet(Ifc4Package.Literals.IFC_ACTOR_ROLE__ROLE, true);
     }
@@ -87,6 +88,7 @@ public class IfcActorRoleImpl extends IdEObjectImpl implements IfcActorRole {
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setRole(IfcRoleEnum newRole) {
         eSet(Ifc4Package.Literals.IFC_ACTOR_ROLE__ROLE, newRole);
     }
@@ -96,6 +98,7 @@ public class IfcActorRoleImpl extends IdEObjectImpl implements IfcActorRole {
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public String getUserDefinedRole() {
         return (String) eGet(Ifc4Package.Literals.IFC_ACTOR_ROLE__USER_DEFINED_ROLE, true);
     }
@@ -105,6 +108,7 @@ public class IfcActorRoleImpl extends IdEObjectImpl implements IfcActorRole {
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setUserDefinedRole(String newUserDefinedRole) {
         eSet(Ifc4Package.Literals.IFC_ACTOR_ROLE__USER_DEFINED_ROLE, newUserDefinedRole);
     }
@@ -114,6 +118,7 @@ public class IfcActorRoleImpl extends IdEObjectImpl implements IfcActorRole {
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void unsetUserDefinedRole() {
         eUnset(Ifc4Package.Literals.IFC_ACTOR_ROLE__USER_DEFINED_ROLE);
     }
@@ -123,6 +128,7 @@ public class IfcActorRoleImpl extends IdEObjectImpl implements IfcActorRole {
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public boolean isSetUserDefinedRole() {
         return eIsSet(Ifc4Package.Literals.IFC_ACTOR_ROLE__USER_DEFINED_ROLE);
     }
@@ -132,6 +138,7 @@ public class IfcActorRoleImpl extends IdEObjectImpl implements IfcActorRole {
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public String getDescription() {
         return (String) eGet(Ifc4Package.Literals.IFC_ACTOR_ROLE__DESCRIPTION, true);
     }
@@ -141,6 +148,7 @@ public class IfcActorRoleImpl extends IdEObjectImpl implements IfcActorRole {
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setDescription(String newDescription) {
         eSet(Ifc4Package.Literals.IFC_ACTOR_ROLE__DESCRIPTION, newDescription);
     }
@@ -150,6 +158,7 @@ public class IfcActorRoleImpl extends IdEObjectImpl implements IfcActorRole {
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void unsetDescription() {
         eUnset(Ifc4Package.Literals.IFC_ACTOR_ROLE__DESCRIPTION);
     }
@@ -159,6 +168,7 @@ public class IfcActorRoleImpl extends IdEObjectImpl implements IfcActorRole {
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public boolean isSetDescription() {
         return eIsSet(Ifc4Package.Literals.IFC_ACTOR_ROLE__DESCRIPTION);
     }
@@ -169,6 +179,7 @@ public class IfcActorRoleImpl extends IdEObjectImpl implements IfcActorRole {
      * @generated
      */
     @SuppressWarnings("unchecked")
+    @Override
     public EList<IfcExternalReferenceRelationship> getHasExternalReference() {
         return (EList<IfcExternalReferenceRelationship>) eGet(
                 Ifc4Package.Literals.IFC_ACTOR_ROLE__HAS_EXTERNAL_REFERENCE, true);
@@ -179,6 +190,7 @@ public class IfcActorRoleImpl extends IdEObjectImpl implements IfcActorRole {
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void unsetHasExternalReference() {
         eUnset(Ifc4Package.Literals.IFC_ACTOR_ROLE__HAS_EXTERNAL_REFERENCE);
     }
@@ -188,6 +200,7 @@ public class IfcActorRoleImpl extends IdEObjectImpl implements IfcActorRole {
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public boolean isSetHasExternalReference() {
         return eIsSet(Ifc4Package.Literals.IFC_ACTOR_ROLE__HAS_EXTERNAL_REFERENCE);
     }

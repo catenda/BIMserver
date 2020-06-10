@@ -60,6 +60,7 @@ public class IfcBeamTypeImpl extends IfcBuildingElementTypeImpl implements IfcBe
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public IfcBeamTypeEnum getPredefinedType() {
         return (IfcBeamTypeEnum) eGet(Ifc4Package.Literals.IFC_BEAM_TYPE__PREDEFINED_TYPE, true);
     }
@@ -69,6 +70,7 @@ public class IfcBeamTypeImpl extends IfcBuildingElementTypeImpl implements IfcBe
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setPredefinedType(IfcBeamTypeEnum newPredefinedType) {
         eSet(Ifc4Package.Literals.IFC_BEAM_TYPE__PREDEFINED_TYPE, newPredefinedType);
     }

@@ -49,6 +49,7 @@ public interface IfcFeatureElementSubtraction extends IfcFeatureElement {
      * @see org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package#getIfcFeatureElementSubtraction_VoidsElements()
      * @see org.bimserver.models.ifc2x3tc1.IfcRelVoidsElement#getRelatedOpeningElement
      * @model opposite="RelatedOpeningElement" unsettable="true"
+     *        annotation="inverse"
      * @generated
      */
     IfcRelVoidsElement getVoidsElements();

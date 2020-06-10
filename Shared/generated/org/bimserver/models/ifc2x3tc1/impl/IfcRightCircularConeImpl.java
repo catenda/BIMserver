@@ -62,6 +62,7 @@ public class IfcRightCircularConeImpl extends IfcCsgPrimitive3DImpl implements I
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public double getHeight() {
         return (Double) eGet(Ifc2x3tc1Package.Literals.IFC_RIGHT_CIRCULAR_CONE__HEIGHT, true);
     }
@@ -71,6 +72,7 @@ public class IfcRightCircularConeImpl extends IfcCsgPrimitive3DImpl implements I
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setHeight(double newHeight) {
         eSet(Ifc2x3tc1Package.Literals.IFC_RIGHT_CIRCULAR_CONE__HEIGHT, newHeight);
     }
@@ -80,6 +82,7 @@ public class IfcRightCircularConeImpl extends IfcCsgPrimitive3DImpl implements I
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public String getHeightAsString() {
         return (String) eGet(Ifc2x3tc1Package.Literals.IFC_RIGHT_CIRCULAR_CONE__HEIGHT_AS_STRING, true);
     }
@@ -89,6 +92,7 @@ public class IfcRightCircularConeImpl extends IfcCsgPrimitive3DImpl implements I
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setHeightAsString(String newHeightAsString) {
         eSet(Ifc2x3tc1Package.Literals.IFC_RIGHT_CIRCULAR_CONE__HEIGHT_AS_STRING, newHeightAsString);
     }
@@ -98,6 +102,7 @@ public class IfcRightCircularConeImpl extends IfcCsgPrimitive3DImpl implements I
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public double getBottomRadius() {
         return (Double) eGet(Ifc2x3tc1Package.Literals.IFC_RIGHT_CIRCULAR_CONE__BOTTOM_RADIUS, true);
     }
@@ -107,6 +112,7 @@ public class IfcRightCircularConeImpl extends IfcCsgPrimitive3DImpl implements I
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setBottomRadius(double newBottomRadius) {
         eSet(Ifc2x3tc1Package.Literals.IFC_RIGHT_CIRCULAR_CONE__BOTTOM_RADIUS, newBottomRadius);
     }
@@ -116,6 +122,7 @@ public class IfcRightCircularConeImpl extends IfcCsgPrimitive3DImpl implements I
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public String getBottomRadiusAsString() {
         return (String) eGet(Ifc2x3tc1Package.Literals.IFC_RIGHT_CIRCULAR_CONE__BOTTOM_RADIUS_AS_STRING, true);
     }
@@ -125,6 +132,7 @@ public class IfcRightCircularConeImpl extends IfcCsgPrimitive3DImpl implements I
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setBottomRadiusAsString(String newBottomRadiusAsString) {
         eSet(Ifc2x3tc1Package.Literals.IFC_RIGHT_CIRCULAR_CONE__BOTTOM_RADIUS_AS_STRING, newBottomRadiusAsString);
     }

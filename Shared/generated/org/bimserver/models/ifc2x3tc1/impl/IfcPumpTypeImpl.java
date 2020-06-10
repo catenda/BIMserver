@@ -60,6 +60,7 @@ public class IfcPumpTypeImpl extends IfcFlowMovingDeviceTypeImpl implements IfcP
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public IfcPumpTypeEnum getPredefinedType() {
         return (IfcPumpTypeEnum) eGet(Ifc2x3tc1Package.Literals.IFC_PUMP_TYPE__PREDEFINED_TYPE, true);
     }
@@ -69,6 +70,7 @@ public class IfcPumpTypeImpl extends IfcFlowMovingDeviceTypeImpl implements IfcP
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setPredefinedType(IfcPumpTypeEnum newPredefinedType) {
         eSet(Ifc2x3tc1Package.Literals.IFC_PUMP_TYPE__PREDEFINED_TYPE, newPredefinedType);
     }

@@ -30,7 +30,7 @@ package org.bimserver.models.ifc2x3tc1;
  * </ul>
  *
  * @see org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package#getIfcMonetaryMeasure()
- * @model
+ * @model annotation="wrapped"
  * @generated
  */
 public interface IfcMonetaryMeasure extends IfcAppliedValueSelect, IfcDerivedMeasureValue {
@@ -101,6 +101,8 @@ public interface IfcMonetaryMeasure extends IfcAppliedValueSelect, IfcDerivedMea
      * @see #setWrappedValueAsString(String)
      * @see org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package#getIfcMonetaryMeasure_WrappedValueAsString()
      * @model unsettable="true"
+     *        annotation="asstring"
+     *        annotation="hidden"
      * @generated
      */
     String getWrappedValueAsString();

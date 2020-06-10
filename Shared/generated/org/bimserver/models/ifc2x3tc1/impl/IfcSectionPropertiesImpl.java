@@ -75,6 +75,7 @@ public class IfcSectionPropertiesImpl extends IdEObjectImpl implements IfcSectio
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public IfcSectionTypeEnum getSectionType() {
         return (IfcSectionTypeEnum) eGet(Ifc2x3tc1Package.Literals.IFC_SECTION_PROPERTIES__SECTION_TYPE, true);
     }
@@ -84,6 +85,7 @@ public class IfcSectionPropertiesImpl extends IdEObjectImpl implements IfcSectio
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setSectionType(IfcSectionTypeEnum newSectionType) {
         eSet(Ifc2x3tc1Package.Literals.IFC_SECTION_PROPERTIES__SECTION_TYPE, newSectionType);
     }
@@ -93,6 +95,7 @@ public class IfcSectionPropertiesImpl extends IdEObjectImpl implements IfcSectio
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public IfcProfileDef getStartProfile() {
         return (IfcProfileDef) eGet(Ifc2x3tc1Package.Literals.IFC_SECTION_PROPERTIES__START_PROFILE, true);
     }
@@ -102,6 +105,7 @@ public class IfcSectionPropertiesImpl extends IdEObjectImpl implements IfcSectio
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setStartProfile(IfcProfileDef newStartProfile) {
         eSet(Ifc2x3tc1Package.Literals.IFC_SECTION_PROPERTIES__START_PROFILE, newStartProfile);
     }
@@ -111,6 +115,7 @@ public class IfcSectionPropertiesImpl extends IdEObjectImpl implements IfcSectio
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public IfcProfileDef getEndProfile() {
         return (IfcProfileDef) eGet(Ifc2x3tc1Package.Literals.IFC_SECTION_PROPERTIES__END_PROFILE, true);
     }
@@ -120,6 +125,7 @@ public class IfcSectionPropertiesImpl extends IdEObjectImpl implements IfcSectio
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setEndProfile(IfcProfileDef newEndProfile) {
         eSet(Ifc2x3tc1Package.Literals.IFC_SECTION_PROPERTIES__END_PROFILE, newEndProfile);
     }
@@ -129,6 +135,7 @@ public class IfcSectionPropertiesImpl extends IdEObjectImpl implements IfcSectio
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void unsetEndProfile() {
         eUnset(Ifc2x3tc1Package.Literals.IFC_SECTION_PROPERTIES__END_PROFILE);
     }
@@ -138,6 +145,7 @@ public class IfcSectionPropertiesImpl extends IdEObjectImpl implements IfcSectio
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public boolean isSetEndProfile() {
         return eIsSet(Ifc2x3tc1Package.Literals.IFC_SECTION_PROPERTIES__END_PROFILE);
     }

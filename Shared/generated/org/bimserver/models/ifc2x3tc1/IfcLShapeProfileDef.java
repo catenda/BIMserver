@@ -85,7 +85,8 @@ public interface IfcLShapeProfileDef extends IfcParameterizedProfileDef {
      * @return the value of the '<em>Depth As String</em>' attribute.
      * @see #setDepthAsString(String)
      * @see org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package#getIfcLShapeProfileDef_DepthAsString()
-     * @model
+     * @model annotation="asstring"
+     *        annotation="hidden"
      * @generated
      */
     String getDepthAsString();
@@ -167,6 +168,8 @@ public interface IfcLShapeProfileDef extends IfcParameterizedProfileDef {
      * @see #setWidthAsString(String)
      * @see org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package#getIfcLShapeProfileDef_WidthAsString()
      * @model unsettable="true"
+     *        annotation="asstring"
+     *        annotation="hidden"
      * @generated
      */
     String getWidthAsString();
@@ -243,7 +246,8 @@ public interface IfcLShapeProfileDef extends IfcParameterizedProfileDef {
      * @return the value of the '<em>Thickness As String</em>' attribute.
      * @see #setThicknessAsString(String)
      * @see org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package#getIfcLShapeProfileDef_ThicknessAsString()
-     * @model
+     * @model annotation="asstring"
+     *        annotation="hidden"
      * @generated
      */
     String getThicknessAsString();
@@ -325,6 +329,8 @@ public interface IfcLShapeProfileDef extends IfcParameterizedProfileDef {
      * @see #setFilletRadiusAsString(String)
      * @see org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package#getIfcLShapeProfileDef_FilletRadiusAsString()
      * @model unsettable="true"
+     *        annotation="asstring"
+     *        annotation="hidden"
      * @generated
      */
     String getFilletRadiusAsString();
@@ -431,6 +437,8 @@ public interface IfcLShapeProfileDef extends IfcParameterizedProfileDef {
      * @see #setEdgeRadiusAsString(String)
      * @see org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package#getIfcLShapeProfileDef_EdgeRadiusAsString()
      * @model unsettable="true"
+     *        annotation="asstring"
+     *        annotation="hidden"
      * @generated
      */
     String getEdgeRadiusAsString();
@@ -537,6 +545,8 @@ public interface IfcLShapeProfileDef extends IfcParameterizedProfileDef {
      * @see #setLegSlopeAsString(String)
      * @see org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package#getIfcLShapeProfileDef_LegSlopeAsString()
      * @model unsettable="true"
+     *        annotation="asstring"
+     *        annotation="hidden"
      * @generated
      */
     String getLegSlopeAsString();
@@ -643,6 +653,8 @@ public interface IfcLShapeProfileDef extends IfcParameterizedProfileDef {
      * @see #setCentreOfGravityInXAsString(String)
      * @see org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package#getIfcLShapeProfileDef_CentreOfGravityInXAsString()
      * @model unsettable="true"
+     *        annotation="asstring"
+     *        annotation="hidden"
      * @generated
      */
     String getCentreOfGravityInXAsString();
@@ -749,6 +761,8 @@ public interface IfcLShapeProfileDef extends IfcParameterizedProfileDef {
      * @see #setCentreOfGravityInYAsString(String)
      * @see org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package#getIfcLShapeProfileDef_CentreOfGravityInYAsString()
      * @model unsettable="true"
+     *        annotation="asstring"
+     *        annotation="hidden"
      * @generated
      */
     String getCentreOfGravityInYAsString();

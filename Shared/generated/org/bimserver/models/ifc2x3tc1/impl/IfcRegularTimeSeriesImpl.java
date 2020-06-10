@@ -64,6 +64,7 @@ public class IfcRegularTimeSeriesImpl extends IfcTimeSeriesImpl implements IfcRe
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public double getTimeStep() {
         return (Double) eGet(Ifc2x3tc1Package.Literals.IFC_REGULAR_TIME_SERIES__TIME_STEP, true);
     }
@@ -73,6 +74,7 @@ public class IfcRegularTimeSeriesImpl extends IfcTimeSeriesImpl implements IfcRe
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setTimeStep(double newTimeStep) {
         eSet(Ifc2x3tc1Package.Literals.IFC_REGULAR_TIME_SERIES__TIME_STEP, newTimeStep);
     }
@@ -82,6 +84,7 @@ public class IfcRegularTimeSeriesImpl extends IfcTimeSeriesImpl implements IfcRe
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public String getTimeStepAsString() {
         return (String) eGet(Ifc2x3tc1Package.Literals.IFC_REGULAR_TIME_SERIES__TIME_STEP_AS_STRING, true);
     }
@@ -91,6 +94,7 @@ public class IfcRegularTimeSeriesImpl extends IfcTimeSeriesImpl implements IfcRe
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setTimeStepAsString(String newTimeStepAsString) {
         eSet(Ifc2x3tc1Package.Literals.IFC_REGULAR_TIME_SERIES__TIME_STEP_AS_STRING, newTimeStepAsString);
     }
@@ -101,6 +105,7 @@ public class IfcRegularTimeSeriesImpl extends IfcTimeSeriesImpl implements IfcRe
      * @generated
      */
     @SuppressWarnings("unchecked")
+    @Override
     public EList<IfcTimeSeriesValue> getValues() {
         return (EList<IfcTimeSeriesValue>) eGet(Ifc2x3tc1Package.Literals.IFC_REGULAR_TIME_SERIES__VALUES, true);
     }

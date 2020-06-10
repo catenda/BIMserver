@@ -60,6 +60,7 @@ public class IfcParameterizedProfileDefImpl extends IfcProfileDefImpl implements
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public IfcAxis2Placement2D getPosition() {
         return (IfcAxis2Placement2D) eGet(Ifc2x3tc1Package.Literals.IFC_PARAMETERIZED_PROFILE_DEF__POSITION, true);
     }
@@ -69,6 +70,7 @@ public class IfcParameterizedProfileDefImpl extends IfcProfileDefImpl implements
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setPosition(IfcAxis2Placement2D newPosition) {
         eSet(Ifc2x3tc1Package.Literals.IFC_PARAMETERIZED_PROFILE_DEF__POSITION, newPosition);
     }

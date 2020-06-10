@@ -67,6 +67,7 @@ public class IfcAsymmetricIShapeProfileDefImpl extends IfcIShapeProfileDefImpl
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public double getTopFlangeWidth() {
         return (Double) eGet(Ifc2x3tc1Package.Literals.IFC_ASYMMETRIC_ISHAPE_PROFILE_DEF__TOP_FLANGE_WIDTH, true);
     }
@@ -76,6 +77,7 @@ public class IfcAsymmetricIShapeProfileDefImpl extends IfcIShapeProfileDefImpl
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setTopFlangeWidth(double newTopFlangeWidth) {
         eSet(Ifc2x3tc1Package.Literals.IFC_ASYMMETRIC_ISHAPE_PROFILE_DEF__TOP_FLANGE_WIDTH, newTopFlangeWidth);
     }
@@ -85,6 +87,7 @@ public class IfcAsymmetricIShapeProfileDefImpl extends IfcIShapeProfileDefImpl
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public String getTopFlangeWidthAsString() {
         return (String) eGet(Ifc2x3tc1Package.Literals.IFC_ASYMMETRIC_ISHAPE_PROFILE_DEF__TOP_FLANGE_WIDTH_AS_STRING,
                 true);
@@ -95,6 +98,7 @@ public class IfcAsymmetricIShapeProfileDefImpl extends IfcIShapeProfileDefImpl
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setTopFlangeWidthAsString(String newTopFlangeWidthAsString) {
         eSet(Ifc2x3tc1Package.Literals.IFC_ASYMMETRIC_ISHAPE_PROFILE_DEF__TOP_FLANGE_WIDTH_AS_STRING,
                 newTopFlangeWidthAsString);
@@ -105,6 +109,7 @@ public class IfcAsymmetricIShapeProfileDefImpl extends IfcIShapeProfileDefImpl
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public double getTopFlangeThickness() {
         return (Double) eGet(Ifc2x3tc1Package.Literals.IFC_ASYMMETRIC_ISHAPE_PROFILE_DEF__TOP_FLANGE_THICKNESS, true);
     }
@@ -114,6 +119,7 @@ public class IfcAsymmetricIShapeProfileDefImpl extends IfcIShapeProfileDefImpl
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setTopFlangeThickness(double newTopFlangeThickness) {
         eSet(Ifc2x3tc1Package.Literals.IFC_ASYMMETRIC_ISHAPE_PROFILE_DEF__TOP_FLANGE_THICKNESS, newTopFlangeThickness);
     }
@@ -123,6 +129,7 @@ public class IfcAsymmetricIShapeProfileDefImpl extends IfcIShapeProfileDefImpl
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void unsetTopFlangeThickness() {
         eUnset(Ifc2x3tc1Package.Literals.IFC_ASYMMETRIC_ISHAPE_PROFILE_DEF__TOP_FLANGE_THICKNESS);
     }
@@ -132,6 +139,7 @@ public class IfcAsymmetricIShapeProfileDefImpl extends IfcIShapeProfileDefImpl
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public boolean isSetTopFlangeThickness() {
         return eIsSet(Ifc2x3tc1Package.Literals.IFC_ASYMMETRIC_ISHAPE_PROFILE_DEF__TOP_FLANGE_THICKNESS);
     }
@@ -141,6 +149,7 @@ public class IfcAsymmetricIShapeProfileDefImpl extends IfcIShapeProfileDefImpl
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public String getTopFlangeThicknessAsString() {
         return (String) eGet(
                 Ifc2x3tc1Package.Literals.IFC_ASYMMETRIC_ISHAPE_PROFILE_DEF__TOP_FLANGE_THICKNESS_AS_STRING, true);
@@ -151,6 +160,7 @@ public class IfcAsymmetricIShapeProfileDefImpl extends IfcIShapeProfileDefImpl
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setTopFlangeThicknessAsString(String newTopFlangeThicknessAsString) {
         eSet(Ifc2x3tc1Package.Literals.IFC_ASYMMETRIC_ISHAPE_PROFILE_DEF__TOP_FLANGE_THICKNESS_AS_STRING,
                 newTopFlangeThicknessAsString);
@@ -161,6 +171,7 @@ public class IfcAsymmetricIShapeProfileDefImpl extends IfcIShapeProfileDefImpl
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void unsetTopFlangeThicknessAsString() {
         eUnset(Ifc2x3tc1Package.Literals.IFC_ASYMMETRIC_ISHAPE_PROFILE_DEF__TOP_FLANGE_THICKNESS_AS_STRING);
     }
@@ -170,6 +181,7 @@ public class IfcAsymmetricIShapeProfileDefImpl extends IfcIShapeProfileDefImpl
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public boolean isSetTopFlangeThicknessAsString() {
         return eIsSet(Ifc2x3tc1Package.Literals.IFC_ASYMMETRIC_ISHAPE_PROFILE_DEF__TOP_FLANGE_THICKNESS_AS_STRING);
     }
@@ -179,6 +191,7 @@ public class IfcAsymmetricIShapeProfileDefImpl extends IfcIShapeProfileDefImpl
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public double getTopFlangeFilletRadius() {
         return (Double) eGet(Ifc2x3tc1Package.Literals.IFC_ASYMMETRIC_ISHAPE_PROFILE_DEF__TOP_FLANGE_FILLET_RADIUS,
                 true);
@@ -189,6 +202,7 @@ public class IfcAsymmetricIShapeProfileDefImpl extends IfcIShapeProfileDefImpl
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setTopFlangeFilletRadius(double newTopFlangeFilletRadius) {
         eSet(Ifc2x3tc1Package.Literals.IFC_ASYMMETRIC_ISHAPE_PROFILE_DEF__TOP_FLANGE_FILLET_RADIUS,
                 newTopFlangeFilletRadius);
@@ -199,6 +213,7 @@ public class IfcAsymmetricIShapeProfileDefImpl extends IfcIShapeProfileDefImpl
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void unsetTopFlangeFilletRadius() {
         eUnset(Ifc2x3tc1Package.Literals.IFC_ASYMMETRIC_ISHAPE_PROFILE_DEF__TOP_FLANGE_FILLET_RADIUS);
     }
@@ -208,6 +223,7 @@ public class IfcAsymmetricIShapeProfileDefImpl extends IfcIShapeProfileDefImpl
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public boolean isSetTopFlangeFilletRadius() {
         return eIsSet(Ifc2x3tc1Package.Literals.IFC_ASYMMETRIC_ISHAPE_PROFILE_DEF__TOP_FLANGE_FILLET_RADIUS);
     }
@@ -217,6 +233,7 @@ public class IfcAsymmetricIShapeProfileDefImpl extends IfcIShapeProfileDefImpl
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public String getTopFlangeFilletRadiusAsString() {
         return (String) eGet(
                 Ifc2x3tc1Package.Literals.IFC_ASYMMETRIC_ISHAPE_PROFILE_DEF__TOP_FLANGE_FILLET_RADIUS_AS_STRING, true);
@@ -227,6 +244,7 @@ public class IfcAsymmetricIShapeProfileDefImpl extends IfcIShapeProfileDefImpl
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setTopFlangeFilletRadiusAsString(String newTopFlangeFilletRadiusAsString) {
         eSet(Ifc2x3tc1Package.Literals.IFC_ASYMMETRIC_ISHAPE_PROFILE_DEF__TOP_FLANGE_FILLET_RADIUS_AS_STRING,
                 newTopFlangeFilletRadiusAsString);
@@ -237,6 +255,7 @@ public class IfcAsymmetricIShapeProfileDefImpl extends IfcIShapeProfileDefImpl
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void unsetTopFlangeFilletRadiusAsString() {
         eUnset(Ifc2x3tc1Package.Literals.IFC_ASYMMETRIC_ISHAPE_PROFILE_DEF__TOP_FLANGE_FILLET_RADIUS_AS_STRING);
     }
@@ -246,6 +265,7 @@ public class IfcAsymmetricIShapeProfileDefImpl extends IfcIShapeProfileDefImpl
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public boolean isSetTopFlangeFilletRadiusAsString() {
         return eIsSet(Ifc2x3tc1Package.Literals.IFC_ASYMMETRIC_ISHAPE_PROFILE_DEF__TOP_FLANGE_FILLET_RADIUS_AS_STRING);
     }
@@ -255,6 +275,7 @@ public class IfcAsymmetricIShapeProfileDefImpl extends IfcIShapeProfileDefImpl
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public double getCentreOfGravityInY() {
         return (Double) eGet(Ifc2x3tc1Package.Literals.IFC_ASYMMETRIC_ISHAPE_PROFILE_DEF__CENTRE_OF_GRAVITY_IN_Y, true);
     }
@@ -264,6 +285,7 @@ public class IfcAsymmetricIShapeProfileDefImpl extends IfcIShapeProfileDefImpl
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setCentreOfGravityInY(double newCentreOfGravityInY) {
         eSet(Ifc2x3tc1Package.Literals.IFC_ASYMMETRIC_ISHAPE_PROFILE_DEF__CENTRE_OF_GRAVITY_IN_Y,
                 newCentreOfGravityInY);
@@ -274,6 +296,7 @@ public class IfcAsymmetricIShapeProfileDefImpl extends IfcIShapeProfileDefImpl
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void unsetCentreOfGravityInY() {
         eUnset(Ifc2x3tc1Package.Literals.IFC_ASYMMETRIC_ISHAPE_PROFILE_DEF__CENTRE_OF_GRAVITY_IN_Y);
     }
@@ -283,6 +306,7 @@ public class IfcAsymmetricIShapeProfileDefImpl extends IfcIShapeProfileDefImpl
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public boolean isSetCentreOfGravityInY() {
         return eIsSet(Ifc2x3tc1Package.Literals.IFC_ASYMMETRIC_ISHAPE_PROFILE_DEF__CENTRE_OF_GRAVITY_IN_Y);
     }
@@ -292,6 +316,7 @@ public class IfcAsymmetricIShapeProfileDefImpl extends IfcIShapeProfileDefImpl
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public String getCentreOfGravityInYAsString() {
         return (String) eGet(
                 Ifc2x3tc1Package.Literals.IFC_ASYMMETRIC_ISHAPE_PROFILE_DEF__CENTRE_OF_GRAVITY_IN_YAS_STRING, true);
@@ -302,6 +327,7 @@ public class IfcAsymmetricIShapeProfileDefImpl extends IfcIShapeProfileDefImpl
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setCentreOfGravityInYAsString(String newCentreOfGravityInYAsString) {
         eSet(Ifc2x3tc1Package.Literals.IFC_ASYMMETRIC_ISHAPE_PROFILE_DEF__CENTRE_OF_GRAVITY_IN_YAS_STRING,
                 newCentreOfGravityInYAsString);
@@ -312,6 +338,7 @@ public class IfcAsymmetricIShapeProfileDefImpl extends IfcIShapeProfileDefImpl
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void unsetCentreOfGravityInYAsString() {
         eUnset(Ifc2x3tc1Package.Literals.IFC_ASYMMETRIC_ISHAPE_PROFILE_DEF__CENTRE_OF_GRAVITY_IN_YAS_STRING);
     }
@@ -321,6 +348,7 @@ public class IfcAsymmetricIShapeProfileDefImpl extends IfcIShapeProfileDefImpl
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public boolean isSetCentreOfGravityInYAsString() {
         return eIsSet(Ifc2x3tc1Package.Literals.IFC_ASYMMETRIC_ISHAPE_PROFILE_DEF__CENTRE_OF_GRAVITY_IN_YAS_STRING);
     }

@@ -72,6 +72,7 @@ public class IfcMaterialPropertiesImpl extends IdEObjectImpl implements IfcMater
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public IfcMaterial getMaterial() {
         return (IfcMaterial) eGet(Ifc2x3tc1Package.Literals.IFC_MATERIAL_PROPERTIES__MATERIAL, true);
     }
@@ -81,6 +82,7 @@ public class IfcMaterialPropertiesImpl extends IdEObjectImpl implements IfcMater
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setMaterial(IfcMaterial newMaterial) {
         eSet(Ifc2x3tc1Package.Literals.IFC_MATERIAL_PROPERTIES__MATERIAL, newMaterial);
     }

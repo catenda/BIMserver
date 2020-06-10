@@ -68,6 +68,7 @@ public class IfcMechanicalConcreteMaterialPropertiesImpl extends IfcMechanicalMa
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public double getCompressiveStrength() {
         return (Double) eGet(
                 Ifc2x3tc1Package.Literals.IFC_MECHANICAL_CONCRETE_MATERIAL_PROPERTIES__COMPRESSIVE_STRENGTH, true);
@@ -78,6 +79,7 @@ public class IfcMechanicalConcreteMaterialPropertiesImpl extends IfcMechanicalMa
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setCompressiveStrength(double newCompressiveStrength) {
         eSet(Ifc2x3tc1Package.Literals.IFC_MECHANICAL_CONCRETE_MATERIAL_PROPERTIES__COMPRESSIVE_STRENGTH,
                 newCompressiveStrength);
@@ -88,6 +90,7 @@ public class IfcMechanicalConcreteMaterialPropertiesImpl extends IfcMechanicalMa
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void unsetCompressiveStrength() {
         eUnset(Ifc2x3tc1Package.Literals.IFC_MECHANICAL_CONCRETE_MATERIAL_PROPERTIES__COMPRESSIVE_STRENGTH);
     }
@@ -97,6 +100,7 @@ public class IfcMechanicalConcreteMaterialPropertiesImpl extends IfcMechanicalMa
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public boolean isSetCompressiveStrength() {
         return eIsSet(Ifc2x3tc1Package.Literals.IFC_MECHANICAL_CONCRETE_MATERIAL_PROPERTIES__COMPRESSIVE_STRENGTH);
     }
@@ -106,6 +110,7 @@ public class IfcMechanicalConcreteMaterialPropertiesImpl extends IfcMechanicalMa
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public String getCompressiveStrengthAsString() {
         return (String) eGet(
                 Ifc2x3tc1Package.Literals.IFC_MECHANICAL_CONCRETE_MATERIAL_PROPERTIES__COMPRESSIVE_STRENGTH_AS_STRING,
@@ -117,6 +122,7 @@ public class IfcMechanicalConcreteMaterialPropertiesImpl extends IfcMechanicalMa
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setCompressiveStrengthAsString(String newCompressiveStrengthAsString) {
         eSet(Ifc2x3tc1Package.Literals.IFC_MECHANICAL_CONCRETE_MATERIAL_PROPERTIES__COMPRESSIVE_STRENGTH_AS_STRING,
                 newCompressiveStrengthAsString);
@@ -127,6 +133,7 @@ public class IfcMechanicalConcreteMaterialPropertiesImpl extends IfcMechanicalMa
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void unsetCompressiveStrengthAsString() {
         eUnset(Ifc2x3tc1Package.Literals.IFC_MECHANICAL_CONCRETE_MATERIAL_PROPERTIES__COMPRESSIVE_STRENGTH_AS_STRING);
     }
@@ -136,6 +143,7 @@ public class IfcMechanicalConcreteMaterialPropertiesImpl extends IfcMechanicalMa
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public boolean isSetCompressiveStrengthAsString() {
         return eIsSet(
                 Ifc2x3tc1Package.Literals.IFC_MECHANICAL_CONCRETE_MATERIAL_PROPERTIES__COMPRESSIVE_STRENGTH_AS_STRING);
@@ -146,6 +154,7 @@ public class IfcMechanicalConcreteMaterialPropertiesImpl extends IfcMechanicalMa
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public double getMaxAggregateSize() {
         return (Double) eGet(Ifc2x3tc1Package.Literals.IFC_MECHANICAL_CONCRETE_MATERIAL_PROPERTIES__MAX_AGGREGATE_SIZE,
                 true);
@@ -156,6 +165,7 @@ public class IfcMechanicalConcreteMaterialPropertiesImpl extends IfcMechanicalMa
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setMaxAggregateSize(double newMaxAggregateSize) {
         eSet(Ifc2x3tc1Package.Literals.IFC_MECHANICAL_CONCRETE_MATERIAL_PROPERTIES__MAX_AGGREGATE_SIZE,
                 newMaxAggregateSize);
@@ -166,6 +176,7 @@ public class IfcMechanicalConcreteMaterialPropertiesImpl extends IfcMechanicalMa
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void unsetMaxAggregateSize() {
         eUnset(Ifc2x3tc1Package.Literals.IFC_MECHANICAL_CONCRETE_MATERIAL_PROPERTIES__MAX_AGGREGATE_SIZE);
     }
@@ -175,6 +186,7 @@ public class IfcMechanicalConcreteMaterialPropertiesImpl extends IfcMechanicalMa
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public boolean isSetMaxAggregateSize() {
         return eIsSet(Ifc2x3tc1Package.Literals.IFC_MECHANICAL_CONCRETE_MATERIAL_PROPERTIES__MAX_AGGREGATE_SIZE);
     }
@@ -184,6 +196,7 @@ public class IfcMechanicalConcreteMaterialPropertiesImpl extends IfcMechanicalMa
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public String getMaxAggregateSizeAsString() {
         return (String) eGet(
                 Ifc2x3tc1Package.Literals.IFC_MECHANICAL_CONCRETE_MATERIAL_PROPERTIES__MAX_AGGREGATE_SIZE_AS_STRING,
@@ -195,6 +208,7 @@ public class IfcMechanicalConcreteMaterialPropertiesImpl extends IfcMechanicalMa
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setMaxAggregateSizeAsString(String newMaxAggregateSizeAsString) {
         eSet(Ifc2x3tc1Package.Literals.IFC_MECHANICAL_CONCRETE_MATERIAL_PROPERTIES__MAX_AGGREGATE_SIZE_AS_STRING,
                 newMaxAggregateSizeAsString);
@@ -205,6 +219,7 @@ public class IfcMechanicalConcreteMaterialPropertiesImpl extends IfcMechanicalMa
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void unsetMaxAggregateSizeAsString() {
         eUnset(Ifc2x3tc1Package.Literals.IFC_MECHANICAL_CONCRETE_MATERIAL_PROPERTIES__MAX_AGGREGATE_SIZE_AS_STRING);
     }
@@ -214,6 +229,7 @@ public class IfcMechanicalConcreteMaterialPropertiesImpl extends IfcMechanicalMa
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public boolean isSetMaxAggregateSizeAsString() {
         return eIsSet(
                 Ifc2x3tc1Package.Literals.IFC_MECHANICAL_CONCRETE_MATERIAL_PROPERTIES__MAX_AGGREGATE_SIZE_AS_STRING);
@@ -224,6 +240,7 @@ public class IfcMechanicalConcreteMaterialPropertiesImpl extends IfcMechanicalMa
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public String getAdmixturesDescription() {
         return (String) eGet(
                 Ifc2x3tc1Package.Literals.IFC_MECHANICAL_CONCRETE_MATERIAL_PROPERTIES__ADMIXTURES_DESCRIPTION, true);
@@ -234,6 +251,7 @@ public class IfcMechanicalConcreteMaterialPropertiesImpl extends IfcMechanicalMa
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setAdmixturesDescription(String newAdmixturesDescription) {
         eSet(Ifc2x3tc1Package.Literals.IFC_MECHANICAL_CONCRETE_MATERIAL_PROPERTIES__ADMIXTURES_DESCRIPTION,
                 newAdmixturesDescription);
@@ -244,6 +262,7 @@ public class IfcMechanicalConcreteMaterialPropertiesImpl extends IfcMechanicalMa
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void unsetAdmixturesDescription() {
         eUnset(Ifc2x3tc1Package.Literals.IFC_MECHANICAL_CONCRETE_MATERIAL_PROPERTIES__ADMIXTURES_DESCRIPTION);
     }
@@ -253,6 +272,7 @@ public class IfcMechanicalConcreteMaterialPropertiesImpl extends IfcMechanicalMa
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public boolean isSetAdmixturesDescription() {
         return eIsSet(Ifc2x3tc1Package.Literals.IFC_MECHANICAL_CONCRETE_MATERIAL_PROPERTIES__ADMIXTURES_DESCRIPTION);
     }
@@ -262,6 +282,7 @@ public class IfcMechanicalConcreteMaterialPropertiesImpl extends IfcMechanicalMa
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public String getWorkability() {
         return (String) eGet(Ifc2x3tc1Package.Literals.IFC_MECHANICAL_CONCRETE_MATERIAL_PROPERTIES__WORKABILITY, true);
     }
@@ -271,6 +292,7 @@ public class IfcMechanicalConcreteMaterialPropertiesImpl extends IfcMechanicalMa
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setWorkability(String newWorkability) {
         eSet(Ifc2x3tc1Package.Literals.IFC_MECHANICAL_CONCRETE_MATERIAL_PROPERTIES__WORKABILITY, newWorkability);
     }
@@ -280,6 +302,7 @@ public class IfcMechanicalConcreteMaterialPropertiesImpl extends IfcMechanicalMa
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void unsetWorkability() {
         eUnset(Ifc2x3tc1Package.Literals.IFC_MECHANICAL_CONCRETE_MATERIAL_PROPERTIES__WORKABILITY);
     }
@@ -289,6 +312,7 @@ public class IfcMechanicalConcreteMaterialPropertiesImpl extends IfcMechanicalMa
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public boolean isSetWorkability() {
         return eIsSet(Ifc2x3tc1Package.Literals.IFC_MECHANICAL_CONCRETE_MATERIAL_PROPERTIES__WORKABILITY);
     }
@@ -298,6 +322,7 @@ public class IfcMechanicalConcreteMaterialPropertiesImpl extends IfcMechanicalMa
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public double getProtectivePoreRatio() {
         return (Double) eGet(
                 Ifc2x3tc1Package.Literals.IFC_MECHANICAL_CONCRETE_MATERIAL_PROPERTIES__PROTECTIVE_PORE_RATIO, true);
@@ -308,6 +333,7 @@ public class IfcMechanicalConcreteMaterialPropertiesImpl extends IfcMechanicalMa
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setProtectivePoreRatio(double newProtectivePoreRatio) {
         eSet(Ifc2x3tc1Package.Literals.IFC_MECHANICAL_CONCRETE_MATERIAL_PROPERTIES__PROTECTIVE_PORE_RATIO,
                 newProtectivePoreRatio);
@@ -318,6 +344,7 @@ public class IfcMechanicalConcreteMaterialPropertiesImpl extends IfcMechanicalMa
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void unsetProtectivePoreRatio() {
         eUnset(Ifc2x3tc1Package.Literals.IFC_MECHANICAL_CONCRETE_MATERIAL_PROPERTIES__PROTECTIVE_PORE_RATIO);
     }
@@ -327,6 +354,7 @@ public class IfcMechanicalConcreteMaterialPropertiesImpl extends IfcMechanicalMa
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public boolean isSetProtectivePoreRatio() {
         return eIsSet(Ifc2x3tc1Package.Literals.IFC_MECHANICAL_CONCRETE_MATERIAL_PROPERTIES__PROTECTIVE_PORE_RATIO);
     }
@@ -336,6 +364,7 @@ public class IfcMechanicalConcreteMaterialPropertiesImpl extends IfcMechanicalMa
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public String getProtectivePoreRatioAsString() {
         return (String) eGet(
                 Ifc2x3tc1Package.Literals.IFC_MECHANICAL_CONCRETE_MATERIAL_PROPERTIES__PROTECTIVE_PORE_RATIO_AS_STRING,
@@ -347,6 +376,7 @@ public class IfcMechanicalConcreteMaterialPropertiesImpl extends IfcMechanicalMa
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setProtectivePoreRatioAsString(String newProtectivePoreRatioAsString) {
         eSet(Ifc2x3tc1Package.Literals.IFC_MECHANICAL_CONCRETE_MATERIAL_PROPERTIES__PROTECTIVE_PORE_RATIO_AS_STRING,
                 newProtectivePoreRatioAsString);
@@ -357,6 +387,7 @@ public class IfcMechanicalConcreteMaterialPropertiesImpl extends IfcMechanicalMa
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void unsetProtectivePoreRatioAsString() {
         eUnset(Ifc2x3tc1Package.Literals.IFC_MECHANICAL_CONCRETE_MATERIAL_PROPERTIES__PROTECTIVE_PORE_RATIO_AS_STRING);
     }
@@ -366,6 +397,7 @@ public class IfcMechanicalConcreteMaterialPropertiesImpl extends IfcMechanicalMa
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public boolean isSetProtectivePoreRatioAsString() {
         return eIsSet(
                 Ifc2x3tc1Package.Literals.IFC_MECHANICAL_CONCRETE_MATERIAL_PROPERTIES__PROTECTIVE_PORE_RATIO_AS_STRING);
@@ -376,6 +408,7 @@ public class IfcMechanicalConcreteMaterialPropertiesImpl extends IfcMechanicalMa
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public String getWaterImpermeability() {
         return (String) eGet(
                 Ifc2x3tc1Package.Literals.IFC_MECHANICAL_CONCRETE_MATERIAL_PROPERTIES__WATER_IMPERMEABILITY, true);
@@ -386,6 +419,7 @@ public class IfcMechanicalConcreteMaterialPropertiesImpl extends IfcMechanicalMa
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setWaterImpermeability(String newWaterImpermeability) {
         eSet(Ifc2x3tc1Package.Literals.IFC_MECHANICAL_CONCRETE_MATERIAL_PROPERTIES__WATER_IMPERMEABILITY,
                 newWaterImpermeability);
@@ -396,6 +430,7 @@ public class IfcMechanicalConcreteMaterialPropertiesImpl extends IfcMechanicalMa
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void unsetWaterImpermeability() {
         eUnset(Ifc2x3tc1Package.Literals.IFC_MECHANICAL_CONCRETE_MATERIAL_PROPERTIES__WATER_IMPERMEABILITY);
     }
@@ -405,6 +440,7 @@ public class IfcMechanicalConcreteMaterialPropertiesImpl extends IfcMechanicalMa
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public boolean isSetWaterImpermeability() {
         return eIsSet(Ifc2x3tc1Package.Literals.IFC_MECHANICAL_CONCRETE_MATERIAL_PROPERTIES__WATER_IMPERMEABILITY);
     }

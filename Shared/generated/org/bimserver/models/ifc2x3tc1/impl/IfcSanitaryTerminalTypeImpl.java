@@ -60,6 +60,7 @@ public class IfcSanitaryTerminalTypeImpl extends IfcFlowTerminalTypeImpl impleme
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public IfcSanitaryTerminalTypeEnum getPredefinedType() {
         return (IfcSanitaryTerminalTypeEnum) eGet(Ifc2x3tc1Package.Literals.IFC_SANITARY_TERMINAL_TYPE__PREDEFINED_TYPE,
                 true);
@@ -70,6 +71,7 @@ public class IfcSanitaryTerminalTypeImpl extends IfcFlowTerminalTypeImpl impleme
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setPredefinedType(IfcSanitaryTerminalTypeEnum newPredefinedType) {
         eSet(Ifc2x3tc1Package.Literals.IFC_SANITARY_TERMINAL_TYPE__PREDEFINED_TYPE, newPredefinedType);
     }

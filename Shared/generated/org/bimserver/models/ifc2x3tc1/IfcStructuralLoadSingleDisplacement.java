@@ -111,6 +111,8 @@ public interface IfcStructuralLoadSingleDisplacement extends IfcStructuralLoadSt
      * @see #setDisplacementXAsString(String)
      * @see org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package#getIfcStructuralLoadSingleDisplacement_DisplacementXAsString()
      * @model unsettable="true"
+     *        annotation="asstring"
+     *        annotation="hidden"
      * @generated
      */
     String getDisplacementXAsString();
@@ -217,6 +219,8 @@ public interface IfcStructuralLoadSingleDisplacement extends IfcStructuralLoadSt
      * @see #setDisplacementYAsString(String)
      * @see org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package#getIfcStructuralLoadSingleDisplacement_DisplacementYAsString()
      * @model unsettable="true"
+     *        annotation="asstring"
+     *        annotation="hidden"
      * @generated
      */
     String getDisplacementYAsString();
@@ -323,6 +327,8 @@ public interface IfcStructuralLoadSingleDisplacement extends IfcStructuralLoadSt
      * @see #setDisplacementZAsString(String)
      * @see org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package#getIfcStructuralLoadSingleDisplacement_DisplacementZAsString()
      * @model unsettable="true"
+     *        annotation="asstring"
+     *        annotation="hidden"
      * @generated
      */
     String getDisplacementZAsString();
@@ -429,6 +435,8 @@ public interface IfcStructuralLoadSingleDisplacement extends IfcStructuralLoadSt
      * @see #setRotationalDisplacementRXAsString(String)
      * @see org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package#getIfcStructuralLoadSingleDisplacement_RotationalDisplacementRXAsString()
      * @model unsettable="true"
+     *        annotation="asstring"
+     *        annotation="hidden"
      * @generated
      */
     String getRotationalDisplacementRXAsString();
@@ -535,6 +543,8 @@ public interface IfcStructuralLoadSingleDisplacement extends IfcStructuralLoadSt
      * @see #setRotationalDisplacementRYAsString(String)
      * @see org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package#getIfcStructuralLoadSingleDisplacement_RotationalDisplacementRYAsString()
      * @model unsettable="true"
+     *        annotation="asstring"
+     *        annotation="hidden"
      * @generated
      */
     String getRotationalDisplacementRYAsString();
@@ -641,6 +651,8 @@ public interface IfcStructuralLoadSingleDisplacement extends IfcStructuralLoadSt
      * @see #setRotationalDisplacementRZAsString(String)
      * @see org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package#getIfcStructuralLoadSingleDisplacement_RotationalDisplacementRZAsString()
      * @model unsettable="true"
+     *        annotation="asstring"
+     *        annotation="hidden"
      * @generated
      */
     String getRotationalDisplacementRZAsString();

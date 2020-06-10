@@ -103,7 +103,8 @@ public interface IfcBoundingBox extends IfcGeometricRepresentationItem {
      * @return the value of the '<em>XDim As String</em>' attribute.
      * @see #setXDimAsString(String)
      * @see org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package#getIfcBoundingBox_XDimAsString()
-     * @model
+     * @model annotation="asstring"
+     *        annotation="hidden"
      * @generated
      */
     String getXDimAsString();
@@ -155,7 +156,8 @@ public interface IfcBoundingBox extends IfcGeometricRepresentationItem {
      * @return the value of the '<em>YDim As String</em>' attribute.
      * @see #setYDimAsString(String)
      * @see org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package#getIfcBoundingBox_YDimAsString()
-     * @model
+     * @model annotation="asstring"
+     *        annotation="hidden"
      * @generated
      */
     String getYDimAsString();
@@ -207,7 +209,8 @@ public interface IfcBoundingBox extends IfcGeometricRepresentationItem {
      * @return the value of the '<em>ZDim As String</em>' attribute.
      * @see #setZDimAsString(String)
      * @see org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package#getIfcBoundingBox_ZDimAsString()
-     * @model
+     * @model annotation="asstring"
+     *        annotation="hidden"
      * @generated
      */
     String getZDimAsString();
@@ -236,6 +239,7 @@ public interface IfcBoundingBox extends IfcGeometricRepresentationItem {
      * @see #setDim(long)
      * @see org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package#getIfcBoundingBox_Dim()
      * @model unsettable="true" derived="true"
+     *        annotation="derived"
      * @generated
      */
     long getDim();

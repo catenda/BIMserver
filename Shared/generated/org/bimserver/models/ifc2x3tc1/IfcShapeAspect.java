@@ -56,6 +56,7 @@ public interface IfcShapeAspect extends IdEObject {
      * @see org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package#getIfcShapeAspect_ShapeRepresentations()
      * @see org.bimserver.models.ifc2x3tc1.IfcShapeModel#getOfShapeAspect
      * @model opposite="OfShapeAspect"
+     *        annotation="inverse"
      * @generated
      */
     EList<IfcShapeModel> getShapeRepresentations();
@@ -206,6 +207,7 @@ public interface IfcShapeAspect extends IdEObject {
      * @see org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package#getIfcShapeAspect_PartOfProductDefinitionShape()
      * @see org.bimserver.models.ifc2x3tc1.IfcProductDefinitionShape#getHasShapeAspects
      * @model opposite="HasShapeAspects"
+     *        annotation="inverse"
      * @generated
      */
     IfcProductDefinitionShape getPartOfProductDefinitionShape();

@@ -217,6 +217,7 @@ public interface IfcAddress extends IfcObjectReferenceSelect {
      * @see org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package#getIfcAddress_OfPerson()
      * @see org.bimserver.models.ifc2x3tc1.IfcPerson#getAddresses
      * @model opposite="Addresses" unsettable="true"
+     *        annotation="inverse"
      * @generated
      */
     EList<IfcPerson> getOfPerson();
@@ -258,6 +259,7 @@ public interface IfcAddress extends IfcObjectReferenceSelect {
      * @see org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package#getIfcAddress_OfOrganization()
      * @see org.bimserver.models.ifc2x3tc1.IfcOrganization#getAddresses
      * @model opposite="Addresses" unsettable="true"
+     *        annotation="inverse"
      * @generated
      */
     EList<IfcOrganization> getOfOrganization();

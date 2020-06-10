@@ -76,6 +76,7 @@ public class IfcPhysicalQuantityImpl extends IdEObjectImpl implements IfcPhysica
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public String getName() {
         return (String) eGet(Ifc2x3tc1Package.Literals.IFC_PHYSICAL_QUANTITY__NAME, true);
     }
@@ -85,6 +86,7 @@ public class IfcPhysicalQuantityImpl extends IdEObjectImpl implements IfcPhysica
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setName(String newName) {
         eSet(Ifc2x3tc1Package.Literals.IFC_PHYSICAL_QUANTITY__NAME, newName);
     }
@@ -94,6 +96,7 @@ public class IfcPhysicalQuantityImpl extends IdEObjectImpl implements IfcPhysica
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public String getDescription() {
         return (String) eGet(Ifc2x3tc1Package.Literals.IFC_PHYSICAL_QUANTITY__DESCRIPTION, true);
     }
@@ -103,6 +106,7 @@ public class IfcPhysicalQuantityImpl extends IdEObjectImpl implements IfcPhysica
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setDescription(String newDescription) {
         eSet(Ifc2x3tc1Package.Literals.IFC_PHYSICAL_QUANTITY__DESCRIPTION, newDescription);
     }
@@ -112,6 +116,7 @@ public class IfcPhysicalQuantityImpl extends IdEObjectImpl implements IfcPhysica
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void unsetDescription() {
         eUnset(Ifc2x3tc1Package.Literals.IFC_PHYSICAL_QUANTITY__DESCRIPTION);
     }
@@ -121,6 +126,7 @@ public class IfcPhysicalQuantityImpl extends IdEObjectImpl implements IfcPhysica
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public boolean isSetDescription() {
         return eIsSet(Ifc2x3tc1Package.Literals.IFC_PHYSICAL_QUANTITY__DESCRIPTION);
     }
@@ -131,6 +137,7 @@ public class IfcPhysicalQuantityImpl extends IdEObjectImpl implements IfcPhysica
      * @generated
      */
     @SuppressWarnings("unchecked")
+    @Override
     public EList<IfcPhysicalComplexQuantity> getPartOfComplex() {
         return (EList<IfcPhysicalComplexQuantity>) eGet(
                 Ifc2x3tc1Package.Literals.IFC_PHYSICAL_QUANTITY__PART_OF_COMPLEX, true);
@@ -141,6 +148,7 @@ public class IfcPhysicalQuantityImpl extends IdEObjectImpl implements IfcPhysica
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void unsetPartOfComplex() {
         eUnset(Ifc2x3tc1Package.Literals.IFC_PHYSICAL_QUANTITY__PART_OF_COMPLEX);
     }
@@ -150,6 +158,7 @@ public class IfcPhysicalQuantityImpl extends IdEObjectImpl implements IfcPhysica
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public boolean isSetPartOfComplex() {
         return eIsSet(Ifc2x3tc1Package.Literals.IFC_PHYSICAL_QUANTITY__PART_OF_COMPLEX);
     }

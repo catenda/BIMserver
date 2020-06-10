@@ -75,6 +75,7 @@ public class IfcSurfaceStyleWithTexturesImpl extends IdEObjectImpl implements If
      * @generated
      */
     @SuppressWarnings("unchecked")
+    @Override
     public EList<IfcSurfaceTexture> getTextures() {
         return (EList<IfcSurfaceTexture>) eGet(Ifc2x3tc1Package.Literals.IFC_SURFACE_STYLE_WITH_TEXTURES__TEXTURES,
                 true);

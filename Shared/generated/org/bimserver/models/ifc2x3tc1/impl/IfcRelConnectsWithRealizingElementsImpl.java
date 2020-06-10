@@ -65,6 +65,7 @@ public class IfcRelConnectsWithRealizingElementsImpl extends IfcRelConnectsEleme
      * @generated
      */
     @SuppressWarnings("unchecked")
+    @Override
     public EList<IfcElement> getRealizingElements() {
         return (EList<IfcElement>) eGet(
                 Ifc2x3tc1Package.Literals.IFC_REL_CONNECTS_WITH_REALIZING_ELEMENTS__REALIZING_ELEMENTS, true);
@@ -75,6 +76,7 @@ public class IfcRelConnectsWithRealizingElementsImpl extends IfcRelConnectsEleme
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public String getConnectionType() {
         return (String) eGet(Ifc2x3tc1Package.Literals.IFC_REL_CONNECTS_WITH_REALIZING_ELEMENTS__CONNECTION_TYPE, true);
     }
@@ -84,6 +86,7 @@ public class IfcRelConnectsWithRealizingElementsImpl extends IfcRelConnectsEleme
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setConnectionType(String newConnectionType) {
         eSet(Ifc2x3tc1Package.Literals.IFC_REL_CONNECTS_WITH_REALIZING_ELEMENTS__CONNECTION_TYPE, newConnectionType);
     }
@@ -93,6 +96,7 @@ public class IfcRelConnectsWithRealizingElementsImpl extends IfcRelConnectsEleme
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void unsetConnectionType() {
         eUnset(Ifc2x3tc1Package.Literals.IFC_REL_CONNECTS_WITH_REALIZING_ELEMENTS__CONNECTION_TYPE);
     }
@@ -102,6 +106,7 @@ public class IfcRelConnectsWithRealizingElementsImpl extends IfcRelConnectsEleme
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public boolean isSetConnectionType() {
         return eIsSet(Ifc2x3tc1Package.Literals.IFC_REL_CONNECTS_WITH_REALIZING_ELEMENTS__CONNECTION_TYPE);
     }

@@ -79,6 +79,7 @@ public interface IfcMaterial extends IfcMaterialSelect, IfcObjectReferenceSelect
      * @see org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package#getIfcMaterial_HasRepresentation()
      * @see org.bimserver.models.ifc2x3tc1.IfcMaterialDefinitionRepresentation#getRepresentedMaterial
      * @model opposite="RepresentedMaterial" unsettable="true" upper="2"
+     *        annotation="inverse"
      * @generated
      */
     EList<IfcMaterialDefinitionRepresentation> getHasRepresentation();
@@ -120,6 +121,7 @@ public interface IfcMaterial extends IfcMaterialSelect, IfcObjectReferenceSelect
      * @see org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package#getIfcMaterial_ClassifiedAs()
      * @see org.bimserver.models.ifc2x3tc1.IfcMaterialClassificationRelationship#getClassifiedMaterial
      * @model opposite="ClassifiedMaterial" unsettable="true" upper="2"
+     *        annotation="inverse"
      * @generated
      */
     EList<IfcMaterialClassificationRelationship> getClassifiedAs();

@@ -48,6 +48,7 @@ public interface IfcRelProjectsElement extends IfcRelConnects {
      * @see org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package#getIfcRelProjectsElement_RelatingElement()
      * @see org.bimserver.models.ifc2x3tc1.IfcElement#getHasProjections
      * @model opposite="HasProjections"
+     *        annotation="inverse"
      * @generated
      */
     IfcElement getRelatingElement();
@@ -76,6 +77,7 @@ public interface IfcRelProjectsElement extends IfcRelConnects {
      * @see org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package#getIfcRelProjectsElement_RelatedFeatureElement()
      * @see org.bimserver.models.ifc2x3tc1.IfcFeatureElementAddition#getProjectsElements
      * @model opposite="ProjectsElements"
+     *        annotation="inverse"
      * @generated
      */
     IfcFeatureElementAddition getRelatedFeatureElement();

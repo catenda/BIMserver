@@ -60,6 +60,7 @@ public class IfcFeatureElementAdditionImpl extends IfcFeatureElementImpl impleme
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public IfcRelProjectsElement getProjectsElements() {
         return (IfcRelProjectsElement) eGet(Ifc4Package.Literals.IFC_FEATURE_ELEMENT_ADDITION__PROJECTS_ELEMENTS, true);
     }
@@ -69,6 +70,7 @@ public class IfcFeatureElementAdditionImpl extends IfcFeatureElementImpl impleme
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setProjectsElements(IfcRelProjectsElement newProjectsElements) {
         eSet(Ifc4Package.Literals.IFC_FEATURE_ELEMENT_ADDITION__PROJECTS_ELEMENTS, newProjectsElements);
     }
@@ -78,6 +80,7 @@ public class IfcFeatureElementAdditionImpl extends IfcFeatureElementImpl impleme
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void unsetProjectsElements() {
         eUnset(Ifc4Package.Literals.IFC_FEATURE_ELEMENT_ADDITION__PROJECTS_ELEMENTS);
     }
@@ -87,6 +90,7 @@ public class IfcFeatureElementAdditionImpl extends IfcFeatureElementImpl impleme
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public boolean isSetProjectsElements() {
         return eIsSet(Ifc4Package.Literals.IFC_FEATURE_ELEMENT_ADDITION__PROJECTS_ELEMENTS);
     }

@@ -63,6 +63,7 @@ public class IfcStructuralLoadCaseImpl extends IfcStructuralLoadGroupImpl implem
      * @generated
      */
     @SuppressWarnings("unchecked")
+    @Override
     public EList<Double> getSelfWeightCoefficients() {
         return (EList<Double>) eGet(Ifc4Package.Literals.IFC_STRUCTURAL_LOAD_CASE__SELF_WEIGHT_COEFFICIENTS, true);
     }
@@ -72,6 +73,7 @@ public class IfcStructuralLoadCaseImpl extends IfcStructuralLoadGroupImpl implem
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void unsetSelfWeightCoefficients() {
         eUnset(Ifc4Package.Literals.IFC_STRUCTURAL_LOAD_CASE__SELF_WEIGHT_COEFFICIENTS);
     }
@@ -81,6 +83,7 @@ public class IfcStructuralLoadCaseImpl extends IfcStructuralLoadGroupImpl implem
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public boolean isSetSelfWeightCoefficients() {
         return eIsSet(Ifc4Package.Literals.IFC_STRUCTURAL_LOAD_CASE__SELF_WEIGHT_COEFFICIENTS);
     }
@@ -91,6 +94,7 @@ public class IfcStructuralLoadCaseImpl extends IfcStructuralLoadGroupImpl implem
      * @generated
      */
     @SuppressWarnings("unchecked")
+    @Override
     public EList<String> getSelfWeightCoefficientsAsString() {
         return (EList<String>) eGet(Ifc4Package.Literals.IFC_STRUCTURAL_LOAD_CASE__SELF_WEIGHT_COEFFICIENTS_AS_STRING,
                 true);
@@ -101,6 +105,7 @@ public class IfcStructuralLoadCaseImpl extends IfcStructuralLoadGroupImpl implem
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void unsetSelfWeightCoefficientsAsString() {
         eUnset(Ifc4Package.Literals.IFC_STRUCTURAL_LOAD_CASE__SELF_WEIGHT_COEFFICIENTS_AS_STRING);
     }
@@ -110,6 +115,7 @@ public class IfcStructuralLoadCaseImpl extends IfcStructuralLoadGroupImpl implem
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public boolean isSetSelfWeightCoefficientsAsString() {
         return eIsSet(Ifc4Package.Literals.IFC_STRUCTURAL_LOAD_CASE__SELF_WEIGHT_COEFFICIENTS_AS_STRING);
     }

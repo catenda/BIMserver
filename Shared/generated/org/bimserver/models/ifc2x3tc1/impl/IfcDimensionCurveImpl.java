@@ -63,6 +63,7 @@ public class IfcDimensionCurveImpl extends IfcAnnotationCurveOccurrenceImpl impl
      * @generated
      */
     @SuppressWarnings("unchecked")
+    @Override
     public EList<IfcTerminatorSymbol> getAnnotatedBySymbols() {
         return (EList<IfcTerminatorSymbol>) eGet(Ifc2x3tc1Package.Literals.IFC_DIMENSION_CURVE__ANNOTATED_BY_SYMBOLS,
                 true);
@@ -73,6 +74,7 @@ public class IfcDimensionCurveImpl extends IfcAnnotationCurveOccurrenceImpl impl
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void unsetAnnotatedBySymbols() {
         eUnset(Ifc2x3tc1Package.Literals.IFC_DIMENSION_CURVE__ANNOTATED_BY_SYMBOLS);
     }
@@ -82,6 +84,7 @@ public class IfcDimensionCurveImpl extends IfcAnnotationCurveOccurrenceImpl impl
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public boolean isSetAnnotatedBySymbols() {
         return eIsSet(Ifc2x3tc1Package.Literals.IFC_DIMENSION_CURVE__ANNOTATED_BY_SYMBOLS);
     }

@@ -86,6 +86,7 @@ public class CheckoutImpl extends IdEObjectImpl implements Checkout {
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public User getUser() {
         return (User) eGet(StorePackage.Literals.CHECKOUT__USER, true);
     }
@@ -95,6 +96,7 @@ public class CheckoutImpl extends IdEObjectImpl implements Checkout {
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setUser(User newUser) {
         eSet(StorePackage.Literals.CHECKOUT__USER, newUser);
     }
@@ -104,6 +106,7 @@ public class CheckoutImpl extends IdEObjectImpl implements Checkout {
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public Revision getRevision() {
         return (Revision) eGet(StorePackage.Literals.CHECKOUT__REVISION, true);
     }
@@ -113,6 +116,7 @@ public class CheckoutImpl extends IdEObjectImpl implements Checkout {
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setRevision(Revision newRevision) {
         eSet(StorePackage.Literals.CHECKOUT__REVISION, newRevision);
     }
@@ -122,6 +126,7 @@ public class CheckoutImpl extends IdEObjectImpl implements Checkout {
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public Project getProject() {
         return (Project) eGet(StorePackage.Literals.CHECKOUT__PROJECT, true);
     }
@@ -131,6 +136,7 @@ public class CheckoutImpl extends IdEObjectImpl implements Checkout {
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setProject(Project newProject) {
         eSet(StorePackage.Literals.CHECKOUT__PROJECT, newProject);
     }
@@ -140,6 +146,7 @@ public class CheckoutImpl extends IdEObjectImpl implements Checkout {
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public Date getDate() {
         return (Date) eGet(StorePackage.Literals.CHECKOUT__DATE, true);
     }
@@ -149,6 +156,7 @@ public class CheckoutImpl extends IdEObjectImpl implements Checkout {
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setDate(Date newDate) {
         eSet(StorePackage.Literals.CHECKOUT__DATE, newDate);
     }
@@ -158,6 +166,7 @@ public class CheckoutImpl extends IdEObjectImpl implements Checkout {
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public Revision getCheckin() {
         return (Revision) eGet(StorePackage.Literals.CHECKOUT__CHECKIN, true);
     }
@@ -167,6 +176,7 @@ public class CheckoutImpl extends IdEObjectImpl implements Checkout {
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setCheckin(Revision newCheckin) {
         eSet(StorePackage.Literals.CHECKOUT__CHECKIN, newCheckin);
     }
@@ -176,6 +186,7 @@ public class CheckoutImpl extends IdEObjectImpl implements Checkout {
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public Boolean getActive() {
         return (Boolean) eGet(StorePackage.Literals.CHECKOUT__ACTIVE, true);
     }
@@ -185,6 +196,7 @@ public class CheckoutImpl extends IdEObjectImpl implements Checkout {
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setActive(Boolean newActive) {
         eSet(StorePackage.Literals.CHECKOUT__ACTIVE, newActive);
     }
@@ -195,6 +207,7 @@ public class CheckoutImpl extends IdEObjectImpl implements Checkout {
      * @generated
      */
     @SuppressWarnings("unchecked")
+    @Override
     public EList<CheckoutRelated> getLogs() {
         return (EList<CheckoutRelated>) eGet(StorePackage.Literals.CHECKOUT__LOGS, true);
     }

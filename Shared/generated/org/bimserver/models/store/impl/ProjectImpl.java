@@ -104,6 +104,7 @@ public class ProjectImpl extends IdEObjectImpl implements Project {
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public Integer getId() {
         return (Integer) eGet(StorePackage.Literals.PROJECT__ID, true);
     }
@@ -113,6 +114,7 @@ public class ProjectImpl extends IdEObjectImpl implements Project {
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setId(Integer newId) {
         eSet(StorePackage.Literals.PROJECT__ID, newId);
     }
@@ -122,6 +124,7 @@ public class ProjectImpl extends IdEObjectImpl implements Project {
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public String getName() {
         return (String) eGet(StorePackage.Literals.PROJECT__NAME, true);
     }
@@ -131,6 +134,7 @@ public class ProjectImpl extends IdEObjectImpl implements Project {
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setName(String newName) {
         eSet(StorePackage.Literals.PROJECT__NAME, newName);
     }
@@ -141,6 +145,7 @@ public class ProjectImpl extends IdEObjectImpl implements Project {
      * @generated
      */
     @SuppressWarnings("unchecked")
+    @Override
     public EList<User> getHasAuthorizedUsers() {
         return (EList<User>) eGet(StorePackage.Literals.PROJECT__HAS_AUTHORIZED_USERS, true);
     }
@@ -151,6 +156,7 @@ public class ProjectImpl extends IdEObjectImpl implements Project {
      * @generated
      */
     @SuppressWarnings("unchecked")
+    @Override
     public EList<ConcreteRevision> getConcreteRevisions() {
         return (EList<ConcreteRevision>) eGet(StorePackage.Literals.PROJECT__CONCRETE_REVISIONS, true);
     }
@@ -161,6 +167,7 @@ public class ProjectImpl extends IdEObjectImpl implements Project {
      * @generated
      */
     @SuppressWarnings("unchecked")
+    @Override
     public EList<Revision> getRevisions() {
         return (EList<Revision>) eGet(StorePackage.Literals.PROJECT__REVISIONS, true);
     }
@@ -170,6 +177,7 @@ public class ProjectImpl extends IdEObjectImpl implements Project {
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public ConcreteRevision getLastConcreteRevision() {
         return (ConcreteRevision) eGet(StorePackage.Literals.PROJECT__LAST_CONCRETE_REVISION, true);
     }
@@ -179,6 +187,7 @@ public class ProjectImpl extends IdEObjectImpl implements Project {
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setLastConcreteRevision(ConcreteRevision newLastConcreteRevision) {
         eSet(StorePackage.Literals.PROJECT__LAST_CONCRETE_REVISION, newLastConcreteRevision);
     }
@@ -188,6 +197,7 @@ public class ProjectImpl extends IdEObjectImpl implements Project {
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public Revision getLastRevision() {
         return (Revision) eGet(StorePackage.Literals.PROJECT__LAST_REVISION, true);
     }
@@ -197,6 +207,7 @@ public class ProjectImpl extends IdEObjectImpl implements Project {
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setLastRevision(Revision newLastRevision) {
         eSet(StorePackage.Literals.PROJECT__LAST_REVISION, newLastRevision);
     }
@@ -207,6 +218,7 @@ public class ProjectImpl extends IdEObjectImpl implements Project {
      * @generated
      */
     @SuppressWarnings("unchecked")
+    @Override
     public EList<Checkout> getCheckouts() {
         return (EList<Checkout>) eGet(StorePackage.Literals.PROJECT__CHECKOUTS, true);
     }
@@ -216,6 +228,7 @@ public class ProjectImpl extends IdEObjectImpl implements Project {
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public ObjectState getState() {
         return (ObjectState) eGet(StorePackage.Literals.PROJECT__STATE, true);
     }
@@ -225,6 +238,7 @@ public class ProjectImpl extends IdEObjectImpl implements Project {
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setState(ObjectState newState) {
         eSet(StorePackage.Literals.PROJECT__STATE, newState);
     }
@@ -234,6 +248,7 @@ public class ProjectImpl extends IdEObjectImpl implements Project {
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public Date getCreatedDate() {
         return (Date) eGet(StorePackage.Literals.PROJECT__CREATED_DATE, true);
     }
@@ -243,6 +258,7 @@ public class ProjectImpl extends IdEObjectImpl implements Project {
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setCreatedDate(Date newCreatedDate) {
         eSet(StorePackage.Literals.PROJECT__CREATED_DATE, newCreatedDate);
     }
@@ -252,6 +268,7 @@ public class ProjectImpl extends IdEObjectImpl implements Project {
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public User getCreatedBy() {
         return (User) eGet(StorePackage.Literals.PROJECT__CREATED_BY, true);
     }
@@ -261,6 +278,7 @@ public class ProjectImpl extends IdEObjectImpl implements Project {
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setCreatedBy(User newCreatedBy) {
         eSet(StorePackage.Literals.PROJECT__CREATED_BY, newCreatedBy);
     }
@@ -270,6 +288,7 @@ public class ProjectImpl extends IdEObjectImpl implements Project {
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public GeoTag getGeoTag() {
         return (GeoTag) eGet(StorePackage.Literals.PROJECT__GEO_TAG, true);
     }
@@ -279,6 +298,7 @@ public class ProjectImpl extends IdEObjectImpl implements Project {
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setGeoTag(GeoTag newGeoTag) {
         eSet(StorePackage.Literals.PROJECT__GEO_TAG, newGeoTag);
     }
@@ -289,6 +309,7 @@ public class ProjectImpl extends IdEObjectImpl implements Project {
      * @generated
      */
     @SuppressWarnings("unchecked")
+    @Override
     public EList<Project> getSubProjects() {
         return (EList<Project>) eGet(StorePackage.Literals.PROJECT__SUB_PROJECTS, true);
     }
@@ -298,6 +319,7 @@ public class ProjectImpl extends IdEObjectImpl implements Project {
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public Project getParent() {
         return (Project) eGet(StorePackage.Literals.PROJECT__PARENT, true);
     }
@@ -307,6 +329,7 @@ public class ProjectImpl extends IdEObjectImpl implements Project {
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setParent(Project newParent) {
         eSet(StorePackage.Literals.PROJECT__PARENT, newParent);
     }
@@ -316,6 +339,7 @@ public class ProjectImpl extends IdEObjectImpl implements Project {
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public String getDescription() {
         return (String) eGet(StorePackage.Literals.PROJECT__DESCRIPTION, true);
     }
@@ -325,6 +349,7 @@ public class ProjectImpl extends IdEObjectImpl implements Project {
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setDescription(String newDescription) {
         eSet(StorePackage.Literals.PROJECT__DESCRIPTION, newDescription);
     }
@@ -334,6 +359,7 @@ public class ProjectImpl extends IdEObjectImpl implements Project {
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public SIPrefix getExportLengthMeasurePrefix() {
         return (SIPrefix) eGet(StorePackage.Literals.PROJECT__EXPORT_LENGTH_MEASURE_PREFIX, true);
     }
@@ -343,6 +369,7 @@ public class ProjectImpl extends IdEObjectImpl implements Project {
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setExportLengthMeasurePrefix(SIPrefix newExportLengthMeasurePrefix) {
         eSet(StorePackage.Literals.PROJECT__EXPORT_LENGTH_MEASURE_PREFIX, newExportLengthMeasurePrefix);
     }
@@ -353,6 +380,7 @@ public class ProjectImpl extends IdEObjectImpl implements Project {
      * @generated
      */
     @SuppressWarnings("unchecked")
+    @Override
     public EList<ExtendedData> getExtendedData() {
         return (EList<ExtendedData>) eGet(StorePackage.Literals.PROJECT__EXTENDED_DATA, true);
     }
@@ -363,6 +391,7 @@ public class ProjectImpl extends IdEObjectImpl implements Project {
      * @generated
      */
     @SuppressWarnings("unchecked")
+    @Override
     public EList<Service> getServices() {
         return (EList<Service>) eGet(StorePackage.Literals.PROJECT__SERVICES, true);
     }
@@ -373,6 +402,7 @@ public class ProjectImpl extends IdEObjectImpl implements Project {
      * @generated
      */
     @SuppressWarnings("unchecked")
+    @Override
     public EList<ProjectRelated> getLogs() {
         return (EList<ProjectRelated>) eGet(StorePackage.Literals.PROJECT__LOGS, true);
     }

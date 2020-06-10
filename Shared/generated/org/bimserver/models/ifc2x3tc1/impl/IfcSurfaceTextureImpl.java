@@ -77,6 +77,7 @@ public class IfcSurfaceTextureImpl extends IdEObjectImpl implements IfcSurfaceTe
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public Tristate getRepeatS() {
         return (Tristate) eGet(Ifc2x3tc1Package.Literals.IFC_SURFACE_TEXTURE__REPEAT_S, true);
     }
@@ -86,6 +87,7 @@ public class IfcSurfaceTextureImpl extends IdEObjectImpl implements IfcSurfaceTe
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setRepeatS(Tristate newRepeatS) {
         eSet(Ifc2x3tc1Package.Literals.IFC_SURFACE_TEXTURE__REPEAT_S, newRepeatS);
     }
@@ -95,6 +97,7 @@ public class IfcSurfaceTextureImpl extends IdEObjectImpl implements IfcSurfaceTe
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public Tristate getRepeatT() {
         return (Tristate) eGet(Ifc2x3tc1Package.Literals.IFC_SURFACE_TEXTURE__REPEAT_T, true);
     }
@@ -104,6 +107,7 @@ public class IfcSurfaceTextureImpl extends IdEObjectImpl implements IfcSurfaceTe
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setRepeatT(Tristate newRepeatT) {
         eSet(Ifc2x3tc1Package.Literals.IFC_SURFACE_TEXTURE__REPEAT_T, newRepeatT);
     }
@@ -113,6 +117,7 @@ public class IfcSurfaceTextureImpl extends IdEObjectImpl implements IfcSurfaceTe
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public IfcSurfaceTextureEnum getTextureType() {
         return (IfcSurfaceTextureEnum) eGet(Ifc2x3tc1Package.Literals.IFC_SURFACE_TEXTURE__TEXTURE_TYPE, true);
     }
@@ -122,6 +127,7 @@ public class IfcSurfaceTextureImpl extends IdEObjectImpl implements IfcSurfaceTe
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setTextureType(IfcSurfaceTextureEnum newTextureType) {
         eSet(Ifc2x3tc1Package.Literals.IFC_SURFACE_TEXTURE__TEXTURE_TYPE, newTextureType);
     }
@@ -131,6 +137,7 @@ public class IfcSurfaceTextureImpl extends IdEObjectImpl implements IfcSurfaceTe
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public IfcCartesianTransformationOperator2D getTextureTransform() {
         return (IfcCartesianTransformationOperator2D) eGet(
                 Ifc2x3tc1Package.Literals.IFC_SURFACE_TEXTURE__TEXTURE_TRANSFORM, true);
@@ -141,6 +148,7 @@ public class IfcSurfaceTextureImpl extends IdEObjectImpl implements IfcSurfaceTe
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setTextureTransform(IfcCartesianTransformationOperator2D newTextureTransform) {
         eSet(Ifc2x3tc1Package.Literals.IFC_SURFACE_TEXTURE__TEXTURE_TRANSFORM, newTextureTransform);
     }
@@ -150,6 +158,7 @@ public class IfcSurfaceTextureImpl extends IdEObjectImpl implements IfcSurfaceTe
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void unsetTextureTransform() {
         eUnset(Ifc2x3tc1Package.Literals.IFC_SURFACE_TEXTURE__TEXTURE_TRANSFORM);
     }
@@ -159,6 +168,7 @@ public class IfcSurfaceTextureImpl extends IdEObjectImpl implements IfcSurfaceTe
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public boolean isSetTextureTransform() {
         return eIsSet(Ifc2x3tc1Package.Literals.IFC_SURFACE_TEXTURE__TEXTURE_TRANSFORM);
     }

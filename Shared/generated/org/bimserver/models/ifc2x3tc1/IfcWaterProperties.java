@@ -168,6 +168,8 @@ public interface IfcWaterProperties extends IfcMaterialProperties {
      * @see #setHardnessAsString(String)
      * @see org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package#getIfcWaterProperties_HardnessAsString()
      * @model unsettable="true"
+     *        annotation="asstring"
+     *        annotation="hidden"
      * @generated
      */
     String getHardnessAsString();
@@ -274,6 +276,8 @@ public interface IfcWaterProperties extends IfcMaterialProperties {
      * @see #setAlkalinityConcentrationAsString(String)
      * @see org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package#getIfcWaterProperties_AlkalinityConcentrationAsString()
      * @model unsettable="true"
+     *        annotation="asstring"
+     *        annotation="hidden"
      * @generated
      */
     String getAlkalinityConcentrationAsString();
@@ -380,6 +384,8 @@ public interface IfcWaterProperties extends IfcMaterialProperties {
      * @see #setAcidityConcentrationAsString(String)
      * @see org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package#getIfcWaterProperties_AcidityConcentrationAsString()
      * @model unsettable="true"
+     *        annotation="asstring"
+     *        annotation="hidden"
      * @generated
      */
     String getAcidityConcentrationAsString();
@@ -486,6 +492,8 @@ public interface IfcWaterProperties extends IfcMaterialProperties {
      * @see #setImpuritiesContentAsString(String)
      * @see org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package#getIfcWaterProperties_ImpuritiesContentAsString()
      * @model unsettable="true"
+     *        annotation="asstring"
+     *        annotation="hidden"
      * @generated
      */
     String getImpuritiesContentAsString();
@@ -592,6 +600,8 @@ public interface IfcWaterProperties extends IfcMaterialProperties {
      * @see #setPHLevelAsString(String)
      * @see org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package#getIfcWaterProperties_PHLevelAsString()
      * @model unsettable="true"
+     *        annotation="asstring"
+     *        annotation="hidden"
      * @generated
      */
     String getPHLevelAsString();
@@ -698,6 +708,8 @@ public interface IfcWaterProperties extends IfcMaterialProperties {
      * @see #setDissolvedSolidsContentAsString(String)
      * @see org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package#getIfcWaterProperties_DissolvedSolidsContentAsString()
      * @model unsettable="true"
+     *        annotation="asstring"
+     *        annotation="hidden"
      * @generated
      */
     String getDissolvedSolidsContentAsString();

@@ -60,6 +60,7 @@ public class IfcElectricHeaterTypeImpl extends IfcFlowTerminalTypeImpl implement
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public IfcElectricHeaterTypeEnum getPredefinedType() {
         return (IfcElectricHeaterTypeEnum) eGet(Ifc2x3tc1Package.Literals.IFC_ELECTRIC_HEATER_TYPE__PREDEFINED_TYPE,
                 true);
@@ -70,6 +71,7 @@ public class IfcElectricHeaterTypeImpl extends IfcFlowTerminalTypeImpl implement
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setPredefinedType(IfcElectricHeaterTypeEnum newPredefinedType) {
         eSet(Ifc2x3tc1Package.Literals.IFC_ELECTRIC_HEATER_TYPE__PREDEFINED_TYPE, newPredefinedType);
     }

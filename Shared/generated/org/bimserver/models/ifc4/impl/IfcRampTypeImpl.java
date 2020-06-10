@@ -60,6 +60,7 @@ public class IfcRampTypeImpl extends IfcBuildingElementTypeImpl implements IfcRa
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public IfcRampTypeEnum getPredefinedType() {
         return (IfcRampTypeEnum) eGet(Ifc4Package.Literals.IFC_RAMP_TYPE__PREDEFINED_TYPE, true);
     }
@@ -69,6 +70,7 @@ public class IfcRampTypeImpl extends IfcBuildingElementTypeImpl implements IfcRa
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setPredefinedType(IfcRampTypeEnum newPredefinedType) {
         eSet(Ifc4Package.Literals.IFC_RAMP_TYPE__PREDEFINED_TYPE, newPredefinedType);
     }

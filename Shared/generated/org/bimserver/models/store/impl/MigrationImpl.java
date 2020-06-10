@@ -73,6 +73,7 @@ public class MigrationImpl extends IdEObjectImpl implements Migration {
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public Integer getNumber() {
         return (Integer) eGet(StorePackage.Literals.MIGRATION__NUMBER, true);
     }
@@ -82,6 +83,7 @@ public class MigrationImpl extends IdEObjectImpl implements Migration {
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setNumber(Integer newNumber) {
         eSet(StorePackage.Literals.MIGRATION__NUMBER, newNumber);
     }
@@ -91,6 +93,7 @@ public class MigrationImpl extends IdEObjectImpl implements Migration {
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public String getDescription() {
         return (String) eGet(StorePackage.Literals.MIGRATION__DESCRIPTION, true);
     }
@@ -100,6 +103,7 @@ public class MigrationImpl extends IdEObjectImpl implements Migration {
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setDescription(String newDescription) {
         eSet(StorePackage.Literals.MIGRATION__DESCRIPTION, newDescription);
     }
@@ -109,6 +113,7 @@ public class MigrationImpl extends IdEObjectImpl implements Migration {
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public Boolean getExecuted() {
         return (Boolean) eGet(StorePackage.Literals.MIGRATION__EXECUTED, true);
     }
@@ -118,6 +123,7 @@ public class MigrationImpl extends IdEObjectImpl implements Migration {
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setExecuted(Boolean newExecuted) {
         eSet(StorePackage.Literals.MIGRATION__EXECUTED, newExecuted);
     }

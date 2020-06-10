@@ -65,6 +65,7 @@ public class IfcPropertyDefinitionImpl extends IfcRootImpl implements IfcPropert
      * @generated
      */
     @SuppressWarnings("unchecked")
+    @Override
     public EList<IfcRelDeclares> getHasContext() {
         return (EList<IfcRelDeclares>) eGet(Ifc4Package.Literals.IFC_PROPERTY_DEFINITION__HAS_CONTEXT, true);
     }
@@ -74,6 +75,7 @@ public class IfcPropertyDefinitionImpl extends IfcRootImpl implements IfcPropert
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void unsetHasContext() {
         eUnset(Ifc4Package.Literals.IFC_PROPERTY_DEFINITION__HAS_CONTEXT);
     }
@@ -83,6 +85,7 @@ public class IfcPropertyDefinitionImpl extends IfcRootImpl implements IfcPropert
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public boolean isSetHasContext() {
         return eIsSet(Ifc4Package.Literals.IFC_PROPERTY_DEFINITION__HAS_CONTEXT);
     }
@@ -93,6 +96,7 @@ public class IfcPropertyDefinitionImpl extends IfcRootImpl implements IfcPropert
      * @generated
      */
     @SuppressWarnings("unchecked")
+    @Override
     public EList<IfcRelAssociates> getHasAssociations() {
         return (EList<IfcRelAssociates>) eGet(Ifc4Package.Literals.IFC_PROPERTY_DEFINITION__HAS_ASSOCIATIONS, true);
     }
@@ -102,6 +106,7 @@ public class IfcPropertyDefinitionImpl extends IfcRootImpl implements IfcPropert
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void unsetHasAssociations() {
         eUnset(Ifc4Package.Literals.IFC_PROPERTY_DEFINITION__HAS_ASSOCIATIONS);
     }
@@ -111,6 +116,7 @@ public class IfcPropertyDefinitionImpl extends IfcRootImpl implements IfcPropert
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public boolean isSetHasAssociations() {
         return eIsSet(Ifc4Package.Literals.IFC_PROPERTY_DEFINITION__HAS_ASSOCIATIONS);
     }

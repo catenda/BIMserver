@@ -51,6 +51,7 @@ public interface IfcLibraryReference extends IfcExternalReference, IfcLibrarySel
      * @see org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package#getIfcLibraryReference_ReferenceIntoLibrary()
      * @see org.bimserver.models.ifc2x3tc1.IfcLibraryInformation#getLibraryReference
      * @model opposite="LibraryReference" unsettable="true" upper="2"
+     *        annotation="inverse"
      * @generated
      */
     EList<IfcLibraryInformation> getReferenceIntoLibrary();

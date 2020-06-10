@@ -55,6 +55,7 @@ public interface IfcPropertyConstraintRelationship extends IdEObject {
      * @see org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package#getIfcPropertyConstraintRelationship_RelatingConstraint()
      * @see org.bimserver.models.ifc2x3tc1.IfcConstraint#getPropertiesForConstraint
      * @model opposite="PropertiesForConstraint"
+     *        annotation="inverse"
      * @generated
      */
     IfcConstraint getRelatingConstraint();

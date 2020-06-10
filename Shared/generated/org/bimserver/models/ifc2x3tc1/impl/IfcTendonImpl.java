@@ -74,6 +74,7 @@ public class IfcTendonImpl extends IfcReinforcingElementImpl implements IfcTendo
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public IfcTendonTypeEnum getPredefinedType() {
         return (IfcTendonTypeEnum) eGet(Ifc2x3tc1Package.Literals.IFC_TENDON__PREDEFINED_TYPE, true);
     }
@@ -83,6 +84,7 @@ public class IfcTendonImpl extends IfcReinforcingElementImpl implements IfcTendo
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setPredefinedType(IfcTendonTypeEnum newPredefinedType) {
         eSet(Ifc2x3tc1Package.Literals.IFC_TENDON__PREDEFINED_TYPE, newPredefinedType);
     }
@@ -92,6 +94,7 @@ public class IfcTendonImpl extends IfcReinforcingElementImpl implements IfcTendo
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public double getNominalDiameter() {
         return (Double) eGet(Ifc2x3tc1Package.Literals.IFC_TENDON__NOMINAL_DIAMETER, true);
     }
@@ -101,6 +104,7 @@ public class IfcTendonImpl extends IfcReinforcingElementImpl implements IfcTendo
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setNominalDiameter(double newNominalDiameter) {
         eSet(Ifc2x3tc1Package.Literals.IFC_TENDON__NOMINAL_DIAMETER, newNominalDiameter);
     }
@@ -110,6 +114,7 @@ public class IfcTendonImpl extends IfcReinforcingElementImpl implements IfcTendo
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public String getNominalDiameterAsString() {
         return (String) eGet(Ifc2x3tc1Package.Literals.IFC_TENDON__NOMINAL_DIAMETER_AS_STRING, true);
     }
@@ -119,6 +124,7 @@ public class IfcTendonImpl extends IfcReinforcingElementImpl implements IfcTendo
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setNominalDiameterAsString(String newNominalDiameterAsString) {
         eSet(Ifc2x3tc1Package.Literals.IFC_TENDON__NOMINAL_DIAMETER_AS_STRING, newNominalDiameterAsString);
     }
@@ -128,6 +134,7 @@ public class IfcTendonImpl extends IfcReinforcingElementImpl implements IfcTendo
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public double getCrossSectionArea() {
         return (Double) eGet(Ifc2x3tc1Package.Literals.IFC_TENDON__CROSS_SECTION_AREA, true);
     }
@@ -137,6 +144,7 @@ public class IfcTendonImpl extends IfcReinforcingElementImpl implements IfcTendo
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setCrossSectionArea(double newCrossSectionArea) {
         eSet(Ifc2x3tc1Package.Literals.IFC_TENDON__CROSS_SECTION_AREA, newCrossSectionArea);
     }
@@ -146,6 +154,7 @@ public class IfcTendonImpl extends IfcReinforcingElementImpl implements IfcTendo
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public String getCrossSectionAreaAsString() {
         return (String) eGet(Ifc2x3tc1Package.Literals.IFC_TENDON__CROSS_SECTION_AREA_AS_STRING, true);
     }
@@ -155,6 +164,7 @@ public class IfcTendonImpl extends IfcReinforcingElementImpl implements IfcTendo
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setCrossSectionAreaAsString(String newCrossSectionAreaAsString) {
         eSet(Ifc2x3tc1Package.Literals.IFC_TENDON__CROSS_SECTION_AREA_AS_STRING, newCrossSectionAreaAsString);
     }
@@ -164,6 +174,7 @@ public class IfcTendonImpl extends IfcReinforcingElementImpl implements IfcTendo
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public double getTensionForce() {
         return (Double) eGet(Ifc2x3tc1Package.Literals.IFC_TENDON__TENSION_FORCE, true);
     }
@@ -173,6 +184,7 @@ public class IfcTendonImpl extends IfcReinforcingElementImpl implements IfcTendo
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setTensionForce(double newTensionForce) {
         eSet(Ifc2x3tc1Package.Literals.IFC_TENDON__TENSION_FORCE, newTensionForce);
     }
@@ -182,6 +194,7 @@ public class IfcTendonImpl extends IfcReinforcingElementImpl implements IfcTendo
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void unsetTensionForce() {
         eUnset(Ifc2x3tc1Package.Literals.IFC_TENDON__TENSION_FORCE);
     }
@@ -191,6 +204,7 @@ public class IfcTendonImpl extends IfcReinforcingElementImpl implements IfcTendo
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public boolean isSetTensionForce() {
         return eIsSet(Ifc2x3tc1Package.Literals.IFC_TENDON__TENSION_FORCE);
     }
@@ -200,6 +214,7 @@ public class IfcTendonImpl extends IfcReinforcingElementImpl implements IfcTendo
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public String getTensionForceAsString() {
         return (String) eGet(Ifc2x3tc1Package.Literals.IFC_TENDON__TENSION_FORCE_AS_STRING, true);
     }
@@ -209,6 +224,7 @@ public class IfcTendonImpl extends IfcReinforcingElementImpl implements IfcTendo
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setTensionForceAsString(String newTensionForceAsString) {
         eSet(Ifc2x3tc1Package.Literals.IFC_TENDON__TENSION_FORCE_AS_STRING, newTensionForceAsString);
     }
@@ -218,6 +234,7 @@ public class IfcTendonImpl extends IfcReinforcingElementImpl implements IfcTendo
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void unsetTensionForceAsString() {
         eUnset(Ifc2x3tc1Package.Literals.IFC_TENDON__TENSION_FORCE_AS_STRING);
     }
@@ -227,6 +244,7 @@ public class IfcTendonImpl extends IfcReinforcingElementImpl implements IfcTendo
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public boolean isSetTensionForceAsString() {
         return eIsSet(Ifc2x3tc1Package.Literals.IFC_TENDON__TENSION_FORCE_AS_STRING);
     }
@@ -236,6 +254,7 @@ public class IfcTendonImpl extends IfcReinforcingElementImpl implements IfcTendo
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public double getPreStress() {
         return (Double) eGet(Ifc2x3tc1Package.Literals.IFC_TENDON__PRE_STRESS, true);
     }
@@ -245,6 +264,7 @@ public class IfcTendonImpl extends IfcReinforcingElementImpl implements IfcTendo
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setPreStress(double newPreStress) {
         eSet(Ifc2x3tc1Package.Literals.IFC_TENDON__PRE_STRESS, newPreStress);
     }
@@ -254,6 +274,7 @@ public class IfcTendonImpl extends IfcReinforcingElementImpl implements IfcTendo
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void unsetPreStress() {
         eUnset(Ifc2x3tc1Package.Literals.IFC_TENDON__PRE_STRESS);
     }
@@ -263,6 +284,7 @@ public class IfcTendonImpl extends IfcReinforcingElementImpl implements IfcTendo
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public boolean isSetPreStress() {
         return eIsSet(Ifc2x3tc1Package.Literals.IFC_TENDON__PRE_STRESS);
     }
@@ -272,6 +294,7 @@ public class IfcTendonImpl extends IfcReinforcingElementImpl implements IfcTendo
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public String getPreStressAsString() {
         return (String) eGet(Ifc2x3tc1Package.Literals.IFC_TENDON__PRE_STRESS_AS_STRING, true);
     }
@@ -281,6 +304,7 @@ public class IfcTendonImpl extends IfcReinforcingElementImpl implements IfcTendo
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setPreStressAsString(String newPreStressAsString) {
         eSet(Ifc2x3tc1Package.Literals.IFC_TENDON__PRE_STRESS_AS_STRING, newPreStressAsString);
     }
@@ -290,6 +314,7 @@ public class IfcTendonImpl extends IfcReinforcingElementImpl implements IfcTendo
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void unsetPreStressAsString() {
         eUnset(Ifc2x3tc1Package.Literals.IFC_TENDON__PRE_STRESS_AS_STRING);
     }
@@ -299,6 +324,7 @@ public class IfcTendonImpl extends IfcReinforcingElementImpl implements IfcTendo
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public boolean isSetPreStressAsString() {
         return eIsSet(Ifc2x3tc1Package.Literals.IFC_TENDON__PRE_STRESS_AS_STRING);
     }
@@ -308,6 +334,7 @@ public class IfcTendonImpl extends IfcReinforcingElementImpl implements IfcTendo
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public double getFrictionCoefficient() {
         return (Double) eGet(Ifc2x3tc1Package.Literals.IFC_TENDON__FRICTION_COEFFICIENT, true);
     }
@@ -317,6 +344,7 @@ public class IfcTendonImpl extends IfcReinforcingElementImpl implements IfcTendo
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setFrictionCoefficient(double newFrictionCoefficient) {
         eSet(Ifc2x3tc1Package.Literals.IFC_TENDON__FRICTION_COEFFICIENT, newFrictionCoefficient);
     }
@@ -326,6 +354,7 @@ public class IfcTendonImpl extends IfcReinforcingElementImpl implements IfcTendo
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void unsetFrictionCoefficient() {
         eUnset(Ifc2x3tc1Package.Literals.IFC_TENDON__FRICTION_COEFFICIENT);
     }
@@ -335,6 +364,7 @@ public class IfcTendonImpl extends IfcReinforcingElementImpl implements IfcTendo
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public boolean isSetFrictionCoefficient() {
         return eIsSet(Ifc2x3tc1Package.Literals.IFC_TENDON__FRICTION_COEFFICIENT);
     }
@@ -344,6 +374,7 @@ public class IfcTendonImpl extends IfcReinforcingElementImpl implements IfcTendo
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public String getFrictionCoefficientAsString() {
         return (String) eGet(Ifc2x3tc1Package.Literals.IFC_TENDON__FRICTION_COEFFICIENT_AS_STRING, true);
     }
@@ -353,6 +384,7 @@ public class IfcTendonImpl extends IfcReinforcingElementImpl implements IfcTendo
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setFrictionCoefficientAsString(String newFrictionCoefficientAsString) {
         eSet(Ifc2x3tc1Package.Literals.IFC_TENDON__FRICTION_COEFFICIENT_AS_STRING, newFrictionCoefficientAsString);
     }
@@ -362,6 +394,7 @@ public class IfcTendonImpl extends IfcReinforcingElementImpl implements IfcTendo
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void unsetFrictionCoefficientAsString() {
         eUnset(Ifc2x3tc1Package.Literals.IFC_TENDON__FRICTION_COEFFICIENT_AS_STRING);
     }
@@ -371,6 +404,7 @@ public class IfcTendonImpl extends IfcReinforcingElementImpl implements IfcTendo
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public boolean isSetFrictionCoefficientAsString() {
         return eIsSet(Ifc2x3tc1Package.Literals.IFC_TENDON__FRICTION_COEFFICIENT_AS_STRING);
     }
@@ -380,6 +414,7 @@ public class IfcTendonImpl extends IfcReinforcingElementImpl implements IfcTendo
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public double getAnchorageSlip() {
         return (Double) eGet(Ifc2x3tc1Package.Literals.IFC_TENDON__ANCHORAGE_SLIP, true);
     }
@@ -389,6 +424,7 @@ public class IfcTendonImpl extends IfcReinforcingElementImpl implements IfcTendo
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setAnchorageSlip(double newAnchorageSlip) {
         eSet(Ifc2x3tc1Package.Literals.IFC_TENDON__ANCHORAGE_SLIP, newAnchorageSlip);
     }
@@ -398,6 +434,7 @@ public class IfcTendonImpl extends IfcReinforcingElementImpl implements IfcTendo
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void unsetAnchorageSlip() {
         eUnset(Ifc2x3tc1Package.Literals.IFC_TENDON__ANCHORAGE_SLIP);
     }
@@ -407,6 +444,7 @@ public class IfcTendonImpl extends IfcReinforcingElementImpl implements IfcTendo
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public boolean isSetAnchorageSlip() {
         return eIsSet(Ifc2x3tc1Package.Literals.IFC_TENDON__ANCHORAGE_SLIP);
     }
@@ -416,6 +454,7 @@ public class IfcTendonImpl extends IfcReinforcingElementImpl implements IfcTendo
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public String getAnchorageSlipAsString() {
         return (String) eGet(Ifc2x3tc1Package.Literals.IFC_TENDON__ANCHORAGE_SLIP_AS_STRING, true);
     }
@@ -425,6 +464,7 @@ public class IfcTendonImpl extends IfcReinforcingElementImpl implements IfcTendo
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setAnchorageSlipAsString(String newAnchorageSlipAsString) {
         eSet(Ifc2x3tc1Package.Literals.IFC_TENDON__ANCHORAGE_SLIP_AS_STRING, newAnchorageSlipAsString);
     }
@@ -434,6 +474,7 @@ public class IfcTendonImpl extends IfcReinforcingElementImpl implements IfcTendo
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void unsetAnchorageSlipAsString() {
         eUnset(Ifc2x3tc1Package.Literals.IFC_TENDON__ANCHORAGE_SLIP_AS_STRING);
     }
@@ -443,6 +484,7 @@ public class IfcTendonImpl extends IfcReinforcingElementImpl implements IfcTendo
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public boolean isSetAnchorageSlipAsString() {
         return eIsSet(Ifc2x3tc1Package.Literals.IFC_TENDON__ANCHORAGE_SLIP_AS_STRING);
     }
@@ -452,6 +494,7 @@ public class IfcTendonImpl extends IfcReinforcingElementImpl implements IfcTendo
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public double getMinCurvatureRadius() {
         return (Double) eGet(Ifc2x3tc1Package.Literals.IFC_TENDON__MIN_CURVATURE_RADIUS, true);
     }
@@ -461,6 +504,7 @@ public class IfcTendonImpl extends IfcReinforcingElementImpl implements IfcTendo
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setMinCurvatureRadius(double newMinCurvatureRadius) {
         eSet(Ifc2x3tc1Package.Literals.IFC_TENDON__MIN_CURVATURE_RADIUS, newMinCurvatureRadius);
     }
@@ -470,6 +514,7 @@ public class IfcTendonImpl extends IfcReinforcingElementImpl implements IfcTendo
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void unsetMinCurvatureRadius() {
         eUnset(Ifc2x3tc1Package.Literals.IFC_TENDON__MIN_CURVATURE_RADIUS);
     }
@@ -479,6 +524,7 @@ public class IfcTendonImpl extends IfcReinforcingElementImpl implements IfcTendo
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public boolean isSetMinCurvatureRadius() {
         return eIsSet(Ifc2x3tc1Package.Literals.IFC_TENDON__MIN_CURVATURE_RADIUS);
     }
@@ -488,6 +534,7 @@ public class IfcTendonImpl extends IfcReinforcingElementImpl implements IfcTendo
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public String getMinCurvatureRadiusAsString() {
         return (String) eGet(Ifc2x3tc1Package.Literals.IFC_TENDON__MIN_CURVATURE_RADIUS_AS_STRING, true);
     }
@@ -497,6 +544,7 @@ public class IfcTendonImpl extends IfcReinforcingElementImpl implements IfcTendo
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setMinCurvatureRadiusAsString(String newMinCurvatureRadiusAsString) {
         eSet(Ifc2x3tc1Package.Literals.IFC_TENDON__MIN_CURVATURE_RADIUS_AS_STRING, newMinCurvatureRadiusAsString);
     }
@@ -506,6 +554,7 @@ public class IfcTendonImpl extends IfcReinforcingElementImpl implements IfcTendo
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void unsetMinCurvatureRadiusAsString() {
         eUnset(Ifc2x3tc1Package.Literals.IFC_TENDON__MIN_CURVATURE_RADIUS_AS_STRING);
     }
@@ -515,6 +564,7 @@ public class IfcTendonImpl extends IfcReinforcingElementImpl implements IfcTendo
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public boolean isSetMinCurvatureRadiusAsString() {
         return eIsSet(Ifc2x3tc1Package.Literals.IFC_TENDON__MIN_CURVATURE_RADIUS_AS_STRING);
     }

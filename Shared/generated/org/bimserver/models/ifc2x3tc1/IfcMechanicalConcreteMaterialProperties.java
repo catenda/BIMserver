@@ -108,6 +108,8 @@ public interface IfcMechanicalConcreteMaterialProperties extends IfcMechanicalMa
      * @see #setCompressiveStrengthAsString(String)
      * @see org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package#getIfcMechanicalConcreteMaterialProperties_CompressiveStrengthAsString()
      * @model unsettable="true"
+     *        annotation="asstring"
+     *        annotation="hidden"
      * @generated
      */
     String getCompressiveStrengthAsString();
@@ -214,6 +216,8 @@ public interface IfcMechanicalConcreteMaterialProperties extends IfcMechanicalMa
      * @see #setMaxAggregateSizeAsString(String)
      * @see org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package#getIfcMechanicalConcreteMaterialProperties_MaxAggregateSizeAsString()
      * @model unsettable="true"
+     *        annotation="asstring"
+     *        annotation="hidden"
      * @generated
      */
     String getMaxAggregateSizeAsString();
@@ -426,6 +430,8 @@ public interface IfcMechanicalConcreteMaterialProperties extends IfcMechanicalMa
      * @see #setProtectivePoreRatioAsString(String)
      * @see org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package#getIfcMechanicalConcreteMaterialProperties_ProtectivePoreRatioAsString()
      * @model unsettable="true"
+     *        annotation="asstring"
+     *        annotation="hidden"
      * @generated
      */
     String getProtectivePoreRatioAsString();

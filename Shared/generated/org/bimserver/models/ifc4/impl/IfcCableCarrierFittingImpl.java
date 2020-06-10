@@ -60,6 +60,7 @@ public class IfcCableCarrierFittingImpl extends IfcFlowFittingImpl implements If
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public IfcCableCarrierFittingTypeEnum getPredefinedType() {
         return (IfcCableCarrierFittingTypeEnum) eGet(Ifc4Package.Literals.IFC_CABLE_CARRIER_FITTING__PREDEFINED_TYPE,
                 true);
@@ -70,6 +71,7 @@ public class IfcCableCarrierFittingImpl extends IfcFlowFittingImpl implements If
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setPredefinedType(IfcCableCarrierFittingTypeEnum newPredefinedType) {
         eSet(Ifc4Package.Literals.IFC_CABLE_CARRIER_FITTING__PREDEFINED_TYPE, newPredefinedType);
     }
@@ -79,6 +81,7 @@ public class IfcCableCarrierFittingImpl extends IfcFlowFittingImpl implements If
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void unsetPredefinedType() {
         eUnset(Ifc4Package.Literals.IFC_CABLE_CARRIER_FITTING__PREDEFINED_TYPE);
     }
@@ -88,6 +91,7 @@ public class IfcCableCarrierFittingImpl extends IfcFlowFittingImpl implements If
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public boolean isSetPredefinedType() {
         return eIsSet(Ifc4Package.Literals.IFC_CABLE_CARRIER_FITTING__PREDEFINED_TYPE);
     }

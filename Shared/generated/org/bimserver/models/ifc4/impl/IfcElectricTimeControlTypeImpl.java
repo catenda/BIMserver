@@ -60,6 +60,7 @@ public class IfcElectricTimeControlTypeImpl extends IfcFlowControllerTypeImpl im
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public IfcElectricTimeControlTypeEnum getPredefinedType() {
         return (IfcElectricTimeControlTypeEnum) eGet(
                 Ifc4Package.Literals.IFC_ELECTRIC_TIME_CONTROL_TYPE__PREDEFINED_TYPE, true);
@@ -70,6 +71,7 @@ public class IfcElectricTimeControlTypeImpl extends IfcFlowControllerTypeImpl im
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setPredefinedType(IfcElectricTimeControlTypeEnum newPredefinedType) {
         eSet(Ifc4Package.Literals.IFC_ELECTRIC_TIME_CONTROL_TYPE__PREDEFINED_TYPE, newPredefinedType);
     }

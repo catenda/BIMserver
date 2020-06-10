@@ -156,7 +156,8 @@ public interface IfcLightSourceGoniometric extends IfcLightSource {
      * @return the value of the '<em>Colour Temperature As String</em>' attribute.
      * @see #setColourTemperatureAsString(String)
      * @see org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package#getIfcLightSourceGoniometric_ColourTemperatureAsString()
-     * @model
+     * @model annotation="asstring"
+     *        annotation="hidden"
      * @generated
      */
     String getColourTemperatureAsString();
@@ -208,7 +209,8 @@ public interface IfcLightSourceGoniometric extends IfcLightSource {
      * @return the value of the '<em>Luminous Flux As String</em>' attribute.
      * @see #setLuminousFluxAsString(String)
      * @see org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package#getIfcLightSourceGoniometric_LuminousFluxAsString()
-     * @model
+     * @model annotation="asstring"
+     *        annotation="hidden"
      * @generated
      */
     String getLuminousFluxAsString();

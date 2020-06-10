@@ -59,6 +59,7 @@ public class IfcPermitImpl extends IfcControlImpl implements IfcPermit {
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public String getPermitID() {
         return (String) eGet(Ifc2x3tc1Package.Literals.IFC_PERMIT__PERMIT_ID, true);
     }
@@ -68,6 +69,7 @@ public class IfcPermitImpl extends IfcControlImpl implements IfcPermit {
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setPermitID(String newPermitID) {
         eSet(Ifc2x3tc1Package.Literals.IFC_PERMIT__PERMIT_ID, newPermitID);
     }

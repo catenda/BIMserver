@@ -85,6 +85,7 @@ public class ServiceDescriptorImpl extends IdEObjectImpl implements ServiceDescr
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public String getName() {
         return (String) eGet(StorePackage.Literals.SERVICE_DESCRIPTOR__NAME, true);
     }
@@ -94,6 +95,7 @@ public class ServiceDescriptorImpl extends IdEObjectImpl implements ServiceDescr
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setName(String newName) {
         eSet(StorePackage.Literals.SERVICE_DESCRIPTOR__NAME, newName);
     }
@@ -103,6 +105,7 @@ public class ServiceDescriptorImpl extends IdEObjectImpl implements ServiceDescr
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public String getUrl() {
         return (String) eGet(StorePackage.Literals.SERVICE_DESCRIPTOR__URL, true);
     }
@@ -112,6 +115,7 @@ public class ServiceDescriptorImpl extends IdEObjectImpl implements ServiceDescr
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setUrl(String newUrl) {
         eSet(StorePackage.Literals.SERVICE_DESCRIPTOR__URL, newUrl);
     }
@@ -121,6 +125,7 @@ public class ServiceDescriptorImpl extends IdEObjectImpl implements ServiceDescr
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public String getToken() {
         return (String) eGet(StorePackage.Literals.SERVICE_DESCRIPTOR__TOKEN, true);
     }
@@ -130,6 +135,7 @@ public class ServiceDescriptorImpl extends IdEObjectImpl implements ServiceDescr
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setToken(String newToken) {
         eSet(StorePackage.Literals.SERVICE_DESCRIPTOR__TOKEN, newToken);
     }
@@ -139,6 +145,7 @@ public class ServiceDescriptorImpl extends IdEObjectImpl implements ServiceDescr
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public String getIdentifier() {
         return (String) eGet(StorePackage.Literals.SERVICE_DESCRIPTOR__IDENTIFIER, true);
     }
@@ -148,6 +155,7 @@ public class ServiceDescriptorImpl extends IdEObjectImpl implements ServiceDescr
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setIdentifier(String newIdentifier) {
         eSet(StorePackage.Literals.SERVICE_DESCRIPTOR__IDENTIFIER, newIdentifier);
     }
@@ -157,6 +165,7 @@ public class ServiceDescriptorImpl extends IdEObjectImpl implements ServiceDescr
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public AccessMethod getNotificationProtocol() {
         return (AccessMethod) eGet(StorePackage.Literals.SERVICE_DESCRIPTOR__NOTIFICATION_PROTOCOL, true);
     }
@@ -166,6 +175,7 @@ public class ServiceDescriptorImpl extends IdEObjectImpl implements ServiceDescr
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setNotificationProtocol(AccessMethod newNotificationProtocol) {
         eSet(StorePackage.Literals.SERVICE_DESCRIPTOR__NOTIFICATION_PROTOCOL, newNotificationProtocol);
     }
@@ -175,6 +185,7 @@ public class ServiceDescriptorImpl extends IdEObjectImpl implements ServiceDescr
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public String getDescription() {
         return (String) eGet(StorePackage.Literals.SERVICE_DESCRIPTOR__DESCRIPTION, true);
     }
@@ -184,6 +195,7 @@ public class ServiceDescriptorImpl extends IdEObjectImpl implements ServiceDescr
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setDescription(String newDescription) {
         eSet(StorePackage.Literals.SERVICE_DESCRIPTOR__DESCRIPTION, newDescription);
     }
@@ -193,6 +205,7 @@ public class ServiceDescriptorImpl extends IdEObjectImpl implements ServiceDescr
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public Trigger getTrigger() {
         return (Trigger) eGet(StorePackage.Literals.SERVICE_DESCRIPTOR__TRIGGER, true);
     }
@@ -202,6 +215,7 @@ public class ServiceDescriptorImpl extends IdEObjectImpl implements ServiceDescr
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setTrigger(Trigger newTrigger) {
         eSet(StorePackage.Literals.SERVICE_DESCRIPTOR__TRIGGER, newTrigger);
     }
@@ -211,6 +225,7 @@ public class ServiceDescriptorImpl extends IdEObjectImpl implements ServiceDescr
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public boolean isReadRevision() {
         return (Boolean) eGet(StorePackage.Literals.SERVICE_DESCRIPTOR__READ_REVISION, true);
     }
@@ -220,6 +235,7 @@ public class ServiceDescriptorImpl extends IdEObjectImpl implements ServiceDescr
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setReadRevision(boolean newReadRevision) {
         eSet(StorePackage.Literals.SERVICE_DESCRIPTOR__READ_REVISION, newReadRevision);
     }
@@ -229,6 +245,7 @@ public class ServiceDescriptorImpl extends IdEObjectImpl implements ServiceDescr
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public String getReadExtendedData() {
         return (String) eGet(StorePackage.Literals.SERVICE_DESCRIPTOR__READ_EXTENDED_DATA, true);
     }
@@ -238,6 +255,7 @@ public class ServiceDescriptorImpl extends IdEObjectImpl implements ServiceDescr
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setReadExtendedData(String newReadExtendedData) {
         eSet(StorePackage.Literals.SERVICE_DESCRIPTOR__READ_EXTENDED_DATA, newReadExtendedData);
     }
@@ -247,6 +265,7 @@ public class ServiceDescriptorImpl extends IdEObjectImpl implements ServiceDescr
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public boolean isWriteRevision() {
         return (Boolean) eGet(StorePackage.Literals.SERVICE_DESCRIPTOR__WRITE_REVISION, true);
     }
@@ -256,6 +275,7 @@ public class ServiceDescriptorImpl extends IdEObjectImpl implements ServiceDescr
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setWriteRevision(boolean newWriteRevision) {
         eSet(StorePackage.Literals.SERVICE_DESCRIPTOR__WRITE_REVISION, newWriteRevision);
     }
@@ -265,6 +285,7 @@ public class ServiceDescriptorImpl extends IdEObjectImpl implements ServiceDescr
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public String getWriteExtendedData() {
         return (String) eGet(StorePackage.Literals.SERVICE_DESCRIPTOR__WRITE_EXTENDED_DATA, true);
     }
@@ -274,6 +295,7 @@ public class ServiceDescriptorImpl extends IdEObjectImpl implements ServiceDescr
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setWriteExtendedData(String newWriteExtendedData) {
         eSet(StorePackage.Literals.SERVICE_DESCRIPTOR__WRITE_EXTENDED_DATA, newWriteExtendedData);
     }
@@ -283,6 +305,7 @@ public class ServiceDescriptorImpl extends IdEObjectImpl implements ServiceDescr
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public String getProviderName() {
         return (String) eGet(StorePackage.Literals.SERVICE_DESCRIPTOR__PROVIDER_NAME, true);
     }
@@ -292,6 +315,7 @@ public class ServiceDescriptorImpl extends IdEObjectImpl implements ServiceDescr
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setProviderName(String newProviderName) {
         eSet(StorePackage.Literals.SERVICE_DESCRIPTOR__PROVIDER_NAME, newProviderName);
     }

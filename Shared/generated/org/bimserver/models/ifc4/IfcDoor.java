@@ -106,6 +106,8 @@ public interface IfcDoor extends IfcBuildingElement {
      * @see #setOverallHeightAsString(String)
      * @see org.bimserver.models.ifc4.Ifc4Package#getIfcDoor_OverallHeightAsString()
      * @model unsettable="true"
+     *        annotation="asstring"
+     *        annotation="hidden"
      * @generated
      */
     String getOverallHeightAsString();
@@ -212,6 +214,8 @@ public interface IfcDoor extends IfcBuildingElement {
      * @see #setOverallWidthAsString(String)
      * @see org.bimserver.models.ifc4.Ifc4Package#getIfcDoor_OverallWidthAsString()
      * @model unsettable="true"
+     *        annotation="asstring"
+     *        annotation="hidden"
      * @generated
      */
     String getOverallWidthAsString();

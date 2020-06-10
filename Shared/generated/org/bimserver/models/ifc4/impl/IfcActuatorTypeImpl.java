@@ -60,6 +60,7 @@ public class IfcActuatorTypeImpl extends IfcDistributionControlElementTypeImpl i
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public IfcActuatorTypeEnum getPredefinedType() {
         return (IfcActuatorTypeEnum) eGet(Ifc4Package.Literals.IFC_ACTUATOR_TYPE__PREDEFINED_TYPE, true);
     }
@@ -69,6 +70,7 @@ public class IfcActuatorTypeImpl extends IfcDistributionControlElementTypeImpl i
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setPredefinedType(IfcActuatorTypeEnum newPredefinedType) {
         eSet(Ifc4Package.Literals.IFC_ACTUATOR_TYPE__PREDEFINED_TYPE, newPredefinedType);
     }

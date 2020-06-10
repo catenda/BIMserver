@@ -79,6 +79,7 @@ public class IfcAppliedValueRelationshipImpl extends IdEObjectImpl implements If
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public IfcAppliedValue getComponentOfTotal() {
         return (IfcAppliedValue) eGet(Ifc2x3tc1Package.Literals.IFC_APPLIED_VALUE_RELATIONSHIP__COMPONENT_OF_TOTAL,
                 true);
@@ -89,6 +90,7 @@ public class IfcAppliedValueRelationshipImpl extends IdEObjectImpl implements If
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setComponentOfTotal(IfcAppliedValue newComponentOfTotal) {
         eSet(Ifc2x3tc1Package.Literals.IFC_APPLIED_VALUE_RELATIONSHIP__COMPONENT_OF_TOTAL, newComponentOfTotal);
     }
@@ -99,6 +101,7 @@ public class IfcAppliedValueRelationshipImpl extends IdEObjectImpl implements If
      * @generated
      */
     @SuppressWarnings("unchecked")
+    @Override
     public EList<IfcAppliedValue> getComponents() {
         return (EList<IfcAppliedValue>) eGet(Ifc2x3tc1Package.Literals.IFC_APPLIED_VALUE_RELATIONSHIP__COMPONENTS,
                 true);
@@ -109,6 +112,7 @@ public class IfcAppliedValueRelationshipImpl extends IdEObjectImpl implements If
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public IfcArithmeticOperatorEnum getArithmeticOperator() {
         return (IfcArithmeticOperatorEnum) eGet(
                 Ifc2x3tc1Package.Literals.IFC_APPLIED_VALUE_RELATIONSHIP__ARITHMETIC_OPERATOR, true);
@@ -119,6 +123,7 @@ public class IfcAppliedValueRelationshipImpl extends IdEObjectImpl implements If
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setArithmeticOperator(IfcArithmeticOperatorEnum newArithmeticOperator) {
         eSet(Ifc2x3tc1Package.Literals.IFC_APPLIED_VALUE_RELATIONSHIP__ARITHMETIC_OPERATOR, newArithmeticOperator);
     }
@@ -128,6 +133,7 @@ public class IfcAppliedValueRelationshipImpl extends IdEObjectImpl implements If
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public String getName() {
         return (String) eGet(Ifc2x3tc1Package.Literals.IFC_APPLIED_VALUE_RELATIONSHIP__NAME, true);
     }
@@ -137,6 +143,7 @@ public class IfcAppliedValueRelationshipImpl extends IdEObjectImpl implements If
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setName(String newName) {
         eSet(Ifc2x3tc1Package.Literals.IFC_APPLIED_VALUE_RELATIONSHIP__NAME, newName);
     }
@@ -146,6 +153,7 @@ public class IfcAppliedValueRelationshipImpl extends IdEObjectImpl implements If
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void unsetName() {
         eUnset(Ifc2x3tc1Package.Literals.IFC_APPLIED_VALUE_RELATIONSHIP__NAME);
     }
@@ -155,6 +163,7 @@ public class IfcAppliedValueRelationshipImpl extends IdEObjectImpl implements If
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public boolean isSetName() {
         return eIsSet(Ifc2x3tc1Package.Literals.IFC_APPLIED_VALUE_RELATIONSHIP__NAME);
     }
@@ -164,6 +173,7 @@ public class IfcAppliedValueRelationshipImpl extends IdEObjectImpl implements If
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public String getDescription() {
         return (String) eGet(Ifc2x3tc1Package.Literals.IFC_APPLIED_VALUE_RELATIONSHIP__DESCRIPTION, true);
     }
@@ -173,6 +183,7 @@ public class IfcAppliedValueRelationshipImpl extends IdEObjectImpl implements If
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setDescription(String newDescription) {
         eSet(Ifc2x3tc1Package.Literals.IFC_APPLIED_VALUE_RELATIONSHIP__DESCRIPTION, newDescription);
     }
@@ -182,6 +193,7 @@ public class IfcAppliedValueRelationshipImpl extends IdEObjectImpl implements If
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void unsetDescription() {
         eUnset(Ifc2x3tc1Package.Literals.IFC_APPLIED_VALUE_RELATIONSHIP__DESCRIPTION);
     }
@@ -191,6 +203,7 @@ public class IfcAppliedValueRelationshipImpl extends IdEObjectImpl implements If
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public boolean isSetDescription() {
         return eIsSet(Ifc2x3tc1Package.Literals.IFC_APPLIED_VALUE_RELATIONSHIP__DESCRIPTION);
     }

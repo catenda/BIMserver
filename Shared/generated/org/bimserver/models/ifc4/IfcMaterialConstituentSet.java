@@ -159,6 +159,7 @@ public interface IfcMaterialConstituentSet extends IfcMaterialDefinition {
      * @see org.bimserver.models.ifc4.Ifc4Package#getIfcMaterialConstituentSet_MaterialConstituents()
      * @see org.bimserver.models.ifc4.IfcMaterialConstituent#getToMaterialConstituentSet
      * @model opposite="ToMaterialConstituentSet" unsettable="true"
+     *        annotation="inverse"
      * @generated
      */
     EList<IfcMaterialConstituent> getMaterialConstituents();

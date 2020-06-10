@@ -61,6 +61,7 @@ public class IfcSubContractResourceImpl extends IfcConstructionResourceImpl impl
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public IfcActorSelect getSubContractor() {
         return (IfcActorSelect) eGet(Ifc2x3tc1Package.Literals.IFC_SUB_CONTRACT_RESOURCE__SUB_CONTRACTOR, true);
     }
@@ -70,6 +71,7 @@ public class IfcSubContractResourceImpl extends IfcConstructionResourceImpl impl
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setSubContractor(IfcActorSelect newSubContractor) {
         eSet(Ifc2x3tc1Package.Literals.IFC_SUB_CONTRACT_RESOURCE__SUB_CONTRACTOR, newSubContractor);
     }
@@ -79,6 +81,7 @@ public class IfcSubContractResourceImpl extends IfcConstructionResourceImpl impl
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void unsetSubContractor() {
         eUnset(Ifc2x3tc1Package.Literals.IFC_SUB_CONTRACT_RESOURCE__SUB_CONTRACTOR);
     }
@@ -88,6 +91,7 @@ public class IfcSubContractResourceImpl extends IfcConstructionResourceImpl impl
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public boolean isSetSubContractor() {
         return eIsSet(Ifc2x3tc1Package.Literals.IFC_SUB_CONTRACT_RESOURCE__SUB_CONTRACTOR);
     }
@@ -97,6 +101,7 @@ public class IfcSubContractResourceImpl extends IfcConstructionResourceImpl impl
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public String getJobDescription() {
         return (String) eGet(Ifc2x3tc1Package.Literals.IFC_SUB_CONTRACT_RESOURCE__JOB_DESCRIPTION, true);
     }
@@ -106,6 +111,7 @@ public class IfcSubContractResourceImpl extends IfcConstructionResourceImpl impl
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setJobDescription(String newJobDescription) {
         eSet(Ifc2x3tc1Package.Literals.IFC_SUB_CONTRACT_RESOURCE__JOB_DESCRIPTION, newJobDescription);
     }
@@ -115,6 +121,7 @@ public class IfcSubContractResourceImpl extends IfcConstructionResourceImpl impl
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void unsetJobDescription() {
         eUnset(Ifc2x3tc1Package.Literals.IFC_SUB_CONTRACT_RESOURCE__JOB_DESCRIPTION);
     }
@@ -124,6 +131,7 @@ public class IfcSubContractResourceImpl extends IfcConstructionResourceImpl impl
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public boolean isSetJobDescription() {
         return eIsSet(Ifc2x3tc1Package.Literals.IFC_SUB_CONTRACT_RESOURCE__JOB_DESCRIPTION);
     }

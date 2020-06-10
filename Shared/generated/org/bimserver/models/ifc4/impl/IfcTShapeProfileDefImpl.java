@@ -76,6 +76,7 @@ public class IfcTShapeProfileDefImpl extends IfcParameterizedProfileDefImpl impl
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public double getDepth() {
         return (Double) eGet(Ifc4Package.Literals.IFC_TSHAPE_PROFILE_DEF__DEPTH, true);
     }
@@ -85,6 +86,7 @@ public class IfcTShapeProfileDefImpl extends IfcParameterizedProfileDefImpl impl
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setDepth(double newDepth) {
         eSet(Ifc4Package.Literals.IFC_TSHAPE_PROFILE_DEF__DEPTH, newDepth);
     }
@@ -94,6 +96,7 @@ public class IfcTShapeProfileDefImpl extends IfcParameterizedProfileDefImpl impl
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public String getDepthAsString() {
         return (String) eGet(Ifc4Package.Literals.IFC_TSHAPE_PROFILE_DEF__DEPTH_AS_STRING, true);
     }
@@ -103,6 +106,7 @@ public class IfcTShapeProfileDefImpl extends IfcParameterizedProfileDefImpl impl
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setDepthAsString(String newDepthAsString) {
         eSet(Ifc4Package.Literals.IFC_TSHAPE_PROFILE_DEF__DEPTH_AS_STRING, newDepthAsString);
     }
@@ -112,6 +116,7 @@ public class IfcTShapeProfileDefImpl extends IfcParameterizedProfileDefImpl impl
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public double getFlangeWidth() {
         return (Double) eGet(Ifc4Package.Literals.IFC_TSHAPE_PROFILE_DEF__FLANGE_WIDTH, true);
     }
@@ -121,6 +126,7 @@ public class IfcTShapeProfileDefImpl extends IfcParameterizedProfileDefImpl impl
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setFlangeWidth(double newFlangeWidth) {
         eSet(Ifc4Package.Literals.IFC_TSHAPE_PROFILE_DEF__FLANGE_WIDTH, newFlangeWidth);
     }
@@ -130,6 +136,7 @@ public class IfcTShapeProfileDefImpl extends IfcParameterizedProfileDefImpl impl
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public String getFlangeWidthAsString() {
         return (String) eGet(Ifc4Package.Literals.IFC_TSHAPE_PROFILE_DEF__FLANGE_WIDTH_AS_STRING, true);
     }
@@ -139,6 +146,7 @@ public class IfcTShapeProfileDefImpl extends IfcParameterizedProfileDefImpl impl
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setFlangeWidthAsString(String newFlangeWidthAsString) {
         eSet(Ifc4Package.Literals.IFC_TSHAPE_PROFILE_DEF__FLANGE_WIDTH_AS_STRING, newFlangeWidthAsString);
     }
@@ -148,6 +156,7 @@ public class IfcTShapeProfileDefImpl extends IfcParameterizedProfileDefImpl impl
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public double getWebThickness() {
         return (Double) eGet(Ifc4Package.Literals.IFC_TSHAPE_PROFILE_DEF__WEB_THICKNESS, true);
     }
@@ -157,6 +166,7 @@ public class IfcTShapeProfileDefImpl extends IfcParameterizedProfileDefImpl impl
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setWebThickness(double newWebThickness) {
         eSet(Ifc4Package.Literals.IFC_TSHAPE_PROFILE_DEF__WEB_THICKNESS, newWebThickness);
     }
@@ -166,6 +176,7 @@ public class IfcTShapeProfileDefImpl extends IfcParameterizedProfileDefImpl impl
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public String getWebThicknessAsString() {
         return (String) eGet(Ifc4Package.Literals.IFC_TSHAPE_PROFILE_DEF__WEB_THICKNESS_AS_STRING, true);
     }
@@ -175,6 +186,7 @@ public class IfcTShapeProfileDefImpl extends IfcParameterizedProfileDefImpl impl
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setWebThicknessAsString(String newWebThicknessAsString) {
         eSet(Ifc4Package.Literals.IFC_TSHAPE_PROFILE_DEF__WEB_THICKNESS_AS_STRING, newWebThicknessAsString);
     }
@@ -184,6 +196,7 @@ public class IfcTShapeProfileDefImpl extends IfcParameterizedProfileDefImpl impl
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public double getFlangeThickness() {
         return (Double) eGet(Ifc4Package.Literals.IFC_TSHAPE_PROFILE_DEF__FLANGE_THICKNESS, true);
     }
@@ -193,6 +206,7 @@ public class IfcTShapeProfileDefImpl extends IfcParameterizedProfileDefImpl impl
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setFlangeThickness(double newFlangeThickness) {
         eSet(Ifc4Package.Literals.IFC_TSHAPE_PROFILE_DEF__FLANGE_THICKNESS, newFlangeThickness);
     }
@@ -202,6 +216,7 @@ public class IfcTShapeProfileDefImpl extends IfcParameterizedProfileDefImpl impl
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public String getFlangeThicknessAsString() {
         return (String) eGet(Ifc4Package.Literals.IFC_TSHAPE_PROFILE_DEF__FLANGE_THICKNESS_AS_STRING, true);
     }
@@ -211,6 +226,7 @@ public class IfcTShapeProfileDefImpl extends IfcParameterizedProfileDefImpl impl
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setFlangeThicknessAsString(String newFlangeThicknessAsString) {
         eSet(Ifc4Package.Literals.IFC_TSHAPE_PROFILE_DEF__FLANGE_THICKNESS_AS_STRING, newFlangeThicknessAsString);
     }
@@ -220,6 +236,7 @@ public class IfcTShapeProfileDefImpl extends IfcParameterizedProfileDefImpl impl
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public double getFilletRadius() {
         return (Double) eGet(Ifc4Package.Literals.IFC_TSHAPE_PROFILE_DEF__FILLET_RADIUS, true);
     }
@@ -229,6 +246,7 @@ public class IfcTShapeProfileDefImpl extends IfcParameterizedProfileDefImpl impl
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setFilletRadius(double newFilletRadius) {
         eSet(Ifc4Package.Literals.IFC_TSHAPE_PROFILE_DEF__FILLET_RADIUS, newFilletRadius);
     }
@@ -238,6 +256,7 @@ public class IfcTShapeProfileDefImpl extends IfcParameterizedProfileDefImpl impl
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void unsetFilletRadius() {
         eUnset(Ifc4Package.Literals.IFC_TSHAPE_PROFILE_DEF__FILLET_RADIUS);
     }
@@ -247,6 +266,7 @@ public class IfcTShapeProfileDefImpl extends IfcParameterizedProfileDefImpl impl
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public boolean isSetFilletRadius() {
         return eIsSet(Ifc4Package.Literals.IFC_TSHAPE_PROFILE_DEF__FILLET_RADIUS);
     }
@@ -256,6 +276,7 @@ public class IfcTShapeProfileDefImpl extends IfcParameterizedProfileDefImpl impl
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public String getFilletRadiusAsString() {
         return (String) eGet(Ifc4Package.Literals.IFC_TSHAPE_PROFILE_DEF__FILLET_RADIUS_AS_STRING, true);
     }
@@ -265,6 +286,7 @@ public class IfcTShapeProfileDefImpl extends IfcParameterizedProfileDefImpl impl
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setFilletRadiusAsString(String newFilletRadiusAsString) {
         eSet(Ifc4Package.Literals.IFC_TSHAPE_PROFILE_DEF__FILLET_RADIUS_AS_STRING, newFilletRadiusAsString);
     }
@@ -274,6 +296,7 @@ public class IfcTShapeProfileDefImpl extends IfcParameterizedProfileDefImpl impl
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void unsetFilletRadiusAsString() {
         eUnset(Ifc4Package.Literals.IFC_TSHAPE_PROFILE_DEF__FILLET_RADIUS_AS_STRING);
     }
@@ -283,6 +306,7 @@ public class IfcTShapeProfileDefImpl extends IfcParameterizedProfileDefImpl impl
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public boolean isSetFilletRadiusAsString() {
         return eIsSet(Ifc4Package.Literals.IFC_TSHAPE_PROFILE_DEF__FILLET_RADIUS_AS_STRING);
     }
@@ -292,6 +316,7 @@ public class IfcTShapeProfileDefImpl extends IfcParameterizedProfileDefImpl impl
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public double getFlangeEdgeRadius() {
         return (Double) eGet(Ifc4Package.Literals.IFC_TSHAPE_PROFILE_DEF__FLANGE_EDGE_RADIUS, true);
     }
@@ -301,6 +326,7 @@ public class IfcTShapeProfileDefImpl extends IfcParameterizedProfileDefImpl impl
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setFlangeEdgeRadius(double newFlangeEdgeRadius) {
         eSet(Ifc4Package.Literals.IFC_TSHAPE_PROFILE_DEF__FLANGE_EDGE_RADIUS, newFlangeEdgeRadius);
     }
@@ -310,6 +336,7 @@ public class IfcTShapeProfileDefImpl extends IfcParameterizedProfileDefImpl impl
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void unsetFlangeEdgeRadius() {
         eUnset(Ifc4Package.Literals.IFC_TSHAPE_PROFILE_DEF__FLANGE_EDGE_RADIUS);
     }
@@ -319,6 +346,7 @@ public class IfcTShapeProfileDefImpl extends IfcParameterizedProfileDefImpl impl
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public boolean isSetFlangeEdgeRadius() {
         return eIsSet(Ifc4Package.Literals.IFC_TSHAPE_PROFILE_DEF__FLANGE_EDGE_RADIUS);
     }
@@ -328,6 +356,7 @@ public class IfcTShapeProfileDefImpl extends IfcParameterizedProfileDefImpl impl
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public String getFlangeEdgeRadiusAsString() {
         return (String) eGet(Ifc4Package.Literals.IFC_TSHAPE_PROFILE_DEF__FLANGE_EDGE_RADIUS_AS_STRING, true);
     }
@@ -337,6 +366,7 @@ public class IfcTShapeProfileDefImpl extends IfcParameterizedProfileDefImpl impl
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setFlangeEdgeRadiusAsString(String newFlangeEdgeRadiusAsString) {
         eSet(Ifc4Package.Literals.IFC_TSHAPE_PROFILE_DEF__FLANGE_EDGE_RADIUS_AS_STRING, newFlangeEdgeRadiusAsString);
     }
@@ -346,6 +376,7 @@ public class IfcTShapeProfileDefImpl extends IfcParameterizedProfileDefImpl impl
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void unsetFlangeEdgeRadiusAsString() {
         eUnset(Ifc4Package.Literals.IFC_TSHAPE_PROFILE_DEF__FLANGE_EDGE_RADIUS_AS_STRING);
     }
@@ -355,6 +386,7 @@ public class IfcTShapeProfileDefImpl extends IfcParameterizedProfileDefImpl impl
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public boolean isSetFlangeEdgeRadiusAsString() {
         return eIsSet(Ifc4Package.Literals.IFC_TSHAPE_PROFILE_DEF__FLANGE_EDGE_RADIUS_AS_STRING);
     }
@@ -364,6 +396,7 @@ public class IfcTShapeProfileDefImpl extends IfcParameterizedProfileDefImpl impl
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public double getWebEdgeRadius() {
         return (Double) eGet(Ifc4Package.Literals.IFC_TSHAPE_PROFILE_DEF__WEB_EDGE_RADIUS, true);
     }
@@ -373,6 +406,7 @@ public class IfcTShapeProfileDefImpl extends IfcParameterizedProfileDefImpl impl
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setWebEdgeRadius(double newWebEdgeRadius) {
         eSet(Ifc4Package.Literals.IFC_TSHAPE_PROFILE_DEF__WEB_EDGE_RADIUS, newWebEdgeRadius);
     }
@@ -382,6 +416,7 @@ public class IfcTShapeProfileDefImpl extends IfcParameterizedProfileDefImpl impl
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void unsetWebEdgeRadius() {
         eUnset(Ifc4Package.Literals.IFC_TSHAPE_PROFILE_DEF__WEB_EDGE_RADIUS);
     }
@@ -391,6 +426,7 @@ public class IfcTShapeProfileDefImpl extends IfcParameterizedProfileDefImpl impl
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public boolean isSetWebEdgeRadius() {
         return eIsSet(Ifc4Package.Literals.IFC_TSHAPE_PROFILE_DEF__WEB_EDGE_RADIUS);
     }
@@ -400,6 +436,7 @@ public class IfcTShapeProfileDefImpl extends IfcParameterizedProfileDefImpl impl
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public String getWebEdgeRadiusAsString() {
         return (String) eGet(Ifc4Package.Literals.IFC_TSHAPE_PROFILE_DEF__WEB_EDGE_RADIUS_AS_STRING, true);
     }
@@ -409,6 +446,7 @@ public class IfcTShapeProfileDefImpl extends IfcParameterizedProfileDefImpl impl
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setWebEdgeRadiusAsString(String newWebEdgeRadiusAsString) {
         eSet(Ifc4Package.Literals.IFC_TSHAPE_PROFILE_DEF__WEB_EDGE_RADIUS_AS_STRING, newWebEdgeRadiusAsString);
     }
@@ -418,6 +456,7 @@ public class IfcTShapeProfileDefImpl extends IfcParameterizedProfileDefImpl impl
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void unsetWebEdgeRadiusAsString() {
         eUnset(Ifc4Package.Literals.IFC_TSHAPE_PROFILE_DEF__WEB_EDGE_RADIUS_AS_STRING);
     }
@@ -427,6 +466,7 @@ public class IfcTShapeProfileDefImpl extends IfcParameterizedProfileDefImpl impl
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public boolean isSetWebEdgeRadiusAsString() {
         return eIsSet(Ifc4Package.Literals.IFC_TSHAPE_PROFILE_DEF__WEB_EDGE_RADIUS_AS_STRING);
     }
@@ -436,6 +476,7 @@ public class IfcTShapeProfileDefImpl extends IfcParameterizedProfileDefImpl impl
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public double getWebSlope() {
         return (Double) eGet(Ifc4Package.Literals.IFC_TSHAPE_PROFILE_DEF__WEB_SLOPE, true);
     }
@@ -445,6 +486,7 @@ public class IfcTShapeProfileDefImpl extends IfcParameterizedProfileDefImpl impl
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setWebSlope(double newWebSlope) {
         eSet(Ifc4Package.Literals.IFC_TSHAPE_PROFILE_DEF__WEB_SLOPE, newWebSlope);
     }
@@ -454,6 +496,7 @@ public class IfcTShapeProfileDefImpl extends IfcParameterizedProfileDefImpl impl
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void unsetWebSlope() {
         eUnset(Ifc4Package.Literals.IFC_TSHAPE_PROFILE_DEF__WEB_SLOPE);
     }
@@ -463,6 +506,7 @@ public class IfcTShapeProfileDefImpl extends IfcParameterizedProfileDefImpl impl
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public boolean isSetWebSlope() {
         return eIsSet(Ifc4Package.Literals.IFC_TSHAPE_PROFILE_DEF__WEB_SLOPE);
     }
@@ -472,6 +516,7 @@ public class IfcTShapeProfileDefImpl extends IfcParameterizedProfileDefImpl impl
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public String getWebSlopeAsString() {
         return (String) eGet(Ifc4Package.Literals.IFC_TSHAPE_PROFILE_DEF__WEB_SLOPE_AS_STRING, true);
     }
@@ -481,6 +526,7 @@ public class IfcTShapeProfileDefImpl extends IfcParameterizedProfileDefImpl impl
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setWebSlopeAsString(String newWebSlopeAsString) {
         eSet(Ifc4Package.Literals.IFC_TSHAPE_PROFILE_DEF__WEB_SLOPE_AS_STRING, newWebSlopeAsString);
     }
@@ -490,6 +536,7 @@ public class IfcTShapeProfileDefImpl extends IfcParameterizedProfileDefImpl impl
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void unsetWebSlopeAsString() {
         eUnset(Ifc4Package.Literals.IFC_TSHAPE_PROFILE_DEF__WEB_SLOPE_AS_STRING);
     }
@@ -499,6 +546,7 @@ public class IfcTShapeProfileDefImpl extends IfcParameterizedProfileDefImpl impl
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public boolean isSetWebSlopeAsString() {
         return eIsSet(Ifc4Package.Literals.IFC_TSHAPE_PROFILE_DEF__WEB_SLOPE_AS_STRING);
     }
@@ -508,6 +556,7 @@ public class IfcTShapeProfileDefImpl extends IfcParameterizedProfileDefImpl impl
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public double getFlangeSlope() {
         return (Double) eGet(Ifc4Package.Literals.IFC_TSHAPE_PROFILE_DEF__FLANGE_SLOPE, true);
     }
@@ -517,6 +566,7 @@ public class IfcTShapeProfileDefImpl extends IfcParameterizedProfileDefImpl impl
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setFlangeSlope(double newFlangeSlope) {
         eSet(Ifc4Package.Literals.IFC_TSHAPE_PROFILE_DEF__FLANGE_SLOPE, newFlangeSlope);
     }
@@ -526,6 +576,7 @@ public class IfcTShapeProfileDefImpl extends IfcParameterizedProfileDefImpl impl
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void unsetFlangeSlope() {
         eUnset(Ifc4Package.Literals.IFC_TSHAPE_PROFILE_DEF__FLANGE_SLOPE);
     }
@@ -535,6 +586,7 @@ public class IfcTShapeProfileDefImpl extends IfcParameterizedProfileDefImpl impl
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public boolean isSetFlangeSlope() {
         return eIsSet(Ifc4Package.Literals.IFC_TSHAPE_PROFILE_DEF__FLANGE_SLOPE);
     }
@@ -544,6 +596,7 @@ public class IfcTShapeProfileDefImpl extends IfcParameterizedProfileDefImpl impl
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public String getFlangeSlopeAsString() {
         return (String) eGet(Ifc4Package.Literals.IFC_TSHAPE_PROFILE_DEF__FLANGE_SLOPE_AS_STRING, true);
     }
@@ -553,6 +606,7 @@ public class IfcTShapeProfileDefImpl extends IfcParameterizedProfileDefImpl impl
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setFlangeSlopeAsString(String newFlangeSlopeAsString) {
         eSet(Ifc4Package.Literals.IFC_TSHAPE_PROFILE_DEF__FLANGE_SLOPE_AS_STRING, newFlangeSlopeAsString);
     }
@@ -562,6 +616,7 @@ public class IfcTShapeProfileDefImpl extends IfcParameterizedProfileDefImpl impl
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void unsetFlangeSlopeAsString() {
         eUnset(Ifc4Package.Literals.IFC_TSHAPE_PROFILE_DEF__FLANGE_SLOPE_AS_STRING);
     }
@@ -571,6 +626,7 @@ public class IfcTShapeProfileDefImpl extends IfcParameterizedProfileDefImpl impl
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public boolean isSetFlangeSlopeAsString() {
         return eIsSet(Ifc4Package.Literals.IFC_TSHAPE_PROFILE_DEF__FLANGE_SLOPE_AS_STRING);
     }

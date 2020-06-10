@@ -83,6 +83,7 @@ public class IfcElementImpl extends IfcProductImpl implements IfcElement {
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public String getTag() {
         return (String) eGet(Ifc4Package.Literals.IFC_ELEMENT__TAG, true);
     }
@@ -92,6 +93,7 @@ public class IfcElementImpl extends IfcProductImpl implements IfcElement {
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setTag(String newTag) {
         eSet(Ifc4Package.Literals.IFC_ELEMENT__TAG, newTag);
     }
@@ -101,6 +103,7 @@ public class IfcElementImpl extends IfcProductImpl implements IfcElement {
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void unsetTag() {
         eUnset(Ifc4Package.Literals.IFC_ELEMENT__TAG);
     }
@@ -110,6 +113,7 @@ public class IfcElementImpl extends IfcProductImpl implements IfcElement {
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public boolean isSetTag() {
         return eIsSet(Ifc4Package.Literals.IFC_ELEMENT__TAG);
     }
@@ -120,6 +124,7 @@ public class IfcElementImpl extends IfcProductImpl implements IfcElement {
      * @generated
      */
     @SuppressWarnings("unchecked")
+    @Override
     public EList<IfcRelFillsElement> getFillsVoids() {
         return (EList<IfcRelFillsElement>) eGet(Ifc4Package.Literals.IFC_ELEMENT__FILLS_VOIDS, true);
     }
@@ -129,6 +134,7 @@ public class IfcElementImpl extends IfcProductImpl implements IfcElement {
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void unsetFillsVoids() {
         eUnset(Ifc4Package.Literals.IFC_ELEMENT__FILLS_VOIDS);
     }
@@ -138,6 +144,7 @@ public class IfcElementImpl extends IfcProductImpl implements IfcElement {
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public boolean isSetFillsVoids() {
         return eIsSet(Ifc4Package.Literals.IFC_ELEMENT__FILLS_VOIDS);
     }
@@ -148,6 +155,7 @@ public class IfcElementImpl extends IfcProductImpl implements IfcElement {
      * @generated
      */
     @SuppressWarnings("unchecked")
+    @Override
     public EList<IfcRelConnectsElements> getConnectedTo() {
         return (EList<IfcRelConnectsElements>) eGet(Ifc4Package.Literals.IFC_ELEMENT__CONNECTED_TO, true);
     }
@@ -157,6 +165,7 @@ public class IfcElementImpl extends IfcProductImpl implements IfcElement {
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void unsetConnectedTo() {
         eUnset(Ifc4Package.Literals.IFC_ELEMENT__CONNECTED_TO);
     }
@@ -166,6 +175,7 @@ public class IfcElementImpl extends IfcProductImpl implements IfcElement {
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public boolean isSetConnectedTo() {
         return eIsSet(Ifc4Package.Literals.IFC_ELEMENT__CONNECTED_TO);
     }
@@ -176,6 +186,7 @@ public class IfcElementImpl extends IfcProductImpl implements IfcElement {
      * @generated
      */
     @SuppressWarnings("unchecked")
+    @Override
     public EList<IfcRelInterferesElements> getIsInterferedByElements() {
         return (EList<IfcRelInterferesElements>) eGet(Ifc4Package.Literals.IFC_ELEMENT__IS_INTERFERED_BY_ELEMENTS,
                 true);
@@ -186,6 +197,7 @@ public class IfcElementImpl extends IfcProductImpl implements IfcElement {
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void unsetIsInterferedByElements() {
         eUnset(Ifc4Package.Literals.IFC_ELEMENT__IS_INTERFERED_BY_ELEMENTS);
     }
@@ -195,6 +207,7 @@ public class IfcElementImpl extends IfcProductImpl implements IfcElement {
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public boolean isSetIsInterferedByElements() {
         return eIsSet(Ifc4Package.Literals.IFC_ELEMENT__IS_INTERFERED_BY_ELEMENTS);
     }
@@ -205,6 +218,7 @@ public class IfcElementImpl extends IfcProductImpl implements IfcElement {
      * @generated
      */
     @SuppressWarnings("unchecked")
+    @Override
     public EList<IfcRelInterferesElements> getInterferesElements() {
         return (EList<IfcRelInterferesElements>) eGet(Ifc4Package.Literals.IFC_ELEMENT__INTERFERES_ELEMENTS, true);
     }
@@ -214,6 +228,7 @@ public class IfcElementImpl extends IfcProductImpl implements IfcElement {
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void unsetInterferesElements() {
         eUnset(Ifc4Package.Literals.IFC_ELEMENT__INTERFERES_ELEMENTS);
     }
@@ -223,6 +238,7 @@ public class IfcElementImpl extends IfcProductImpl implements IfcElement {
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public boolean isSetInterferesElements() {
         return eIsSet(Ifc4Package.Literals.IFC_ELEMENT__INTERFERES_ELEMENTS);
     }
@@ -233,6 +249,7 @@ public class IfcElementImpl extends IfcProductImpl implements IfcElement {
      * @generated
      */
     @SuppressWarnings("unchecked")
+    @Override
     public EList<IfcRelProjectsElement> getHasProjections() {
         return (EList<IfcRelProjectsElement>) eGet(Ifc4Package.Literals.IFC_ELEMENT__HAS_PROJECTIONS, true);
     }
@@ -242,6 +259,7 @@ public class IfcElementImpl extends IfcProductImpl implements IfcElement {
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void unsetHasProjections() {
         eUnset(Ifc4Package.Literals.IFC_ELEMENT__HAS_PROJECTIONS);
     }
@@ -251,6 +269,7 @@ public class IfcElementImpl extends IfcProductImpl implements IfcElement {
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public boolean isSetHasProjections() {
         return eIsSet(Ifc4Package.Literals.IFC_ELEMENT__HAS_PROJECTIONS);
     }
@@ -261,6 +280,7 @@ public class IfcElementImpl extends IfcProductImpl implements IfcElement {
      * @generated
      */
     @SuppressWarnings("unchecked")
+    @Override
     public EList<IfcRelReferencedInSpatialStructure> getReferencedInStructures() {
         return (EList<IfcRelReferencedInSpatialStructure>) eGet(
                 Ifc4Package.Literals.IFC_ELEMENT__REFERENCED_IN_STRUCTURES, true);
@@ -271,6 +291,7 @@ public class IfcElementImpl extends IfcProductImpl implements IfcElement {
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void unsetReferencedInStructures() {
         eUnset(Ifc4Package.Literals.IFC_ELEMENT__REFERENCED_IN_STRUCTURES);
     }
@@ -280,6 +301,7 @@ public class IfcElementImpl extends IfcProductImpl implements IfcElement {
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public boolean isSetReferencedInStructures() {
         return eIsSet(Ifc4Package.Literals.IFC_ELEMENT__REFERENCED_IN_STRUCTURES);
     }
@@ -290,6 +312,7 @@ public class IfcElementImpl extends IfcProductImpl implements IfcElement {
      * @generated
      */
     @SuppressWarnings("unchecked")
+    @Override
     public EList<IfcRelVoidsElement> getHasOpenings() {
         return (EList<IfcRelVoidsElement>) eGet(Ifc4Package.Literals.IFC_ELEMENT__HAS_OPENINGS, true);
     }
@@ -299,6 +322,7 @@ public class IfcElementImpl extends IfcProductImpl implements IfcElement {
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void unsetHasOpenings() {
         eUnset(Ifc4Package.Literals.IFC_ELEMENT__HAS_OPENINGS);
     }
@@ -308,6 +332,7 @@ public class IfcElementImpl extends IfcProductImpl implements IfcElement {
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public boolean isSetHasOpenings() {
         return eIsSet(Ifc4Package.Literals.IFC_ELEMENT__HAS_OPENINGS);
     }
@@ -318,6 +343,7 @@ public class IfcElementImpl extends IfcProductImpl implements IfcElement {
      * @generated
      */
     @SuppressWarnings("unchecked")
+    @Override
     public EList<IfcRelConnectsWithRealizingElements> getIsConnectionRealization() {
         return (EList<IfcRelConnectsWithRealizingElements>) eGet(
                 Ifc4Package.Literals.IFC_ELEMENT__IS_CONNECTION_REALIZATION, true);
@@ -328,6 +354,7 @@ public class IfcElementImpl extends IfcProductImpl implements IfcElement {
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void unsetIsConnectionRealization() {
         eUnset(Ifc4Package.Literals.IFC_ELEMENT__IS_CONNECTION_REALIZATION);
     }
@@ -337,6 +364,7 @@ public class IfcElementImpl extends IfcProductImpl implements IfcElement {
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public boolean isSetIsConnectionRealization() {
         return eIsSet(Ifc4Package.Literals.IFC_ELEMENT__IS_CONNECTION_REALIZATION);
     }
@@ -347,6 +375,7 @@ public class IfcElementImpl extends IfcProductImpl implements IfcElement {
      * @generated
      */
     @SuppressWarnings("unchecked")
+    @Override
     public EList<IfcRelSpaceBoundary> getProvidesBoundaries() {
         return (EList<IfcRelSpaceBoundary>) eGet(Ifc4Package.Literals.IFC_ELEMENT__PROVIDES_BOUNDARIES, true);
     }
@@ -356,6 +385,7 @@ public class IfcElementImpl extends IfcProductImpl implements IfcElement {
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void unsetProvidesBoundaries() {
         eUnset(Ifc4Package.Literals.IFC_ELEMENT__PROVIDES_BOUNDARIES);
     }
@@ -365,6 +395,7 @@ public class IfcElementImpl extends IfcProductImpl implements IfcElement {
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public boolean isSetProvidesBoundaries() {
         return eIsSet(Ifc4Package.Literals.IFC_ELEMENT__PROVIDES_BOUNDARIES);
     }
@@ -375,6 +406,7 @@ public class IfcElementImpl extends IfcProductImpl implements IfcElement {
      * @generated
      */
     @SuppressWarnings("unchecked")
+    @Override
     public EList<IfcRelConnectsElements> getConnectedFrom() {
         return (EList<IfcRelConnectsElements>) eGet(Ifc4Package.Literals.IFC_ELEMENT__CONNECTED_FROM, true);
     }
@@ -384,6 +416,7 @@ public class IfcElementImpl extends IfcProductImpl implements IfcElement {
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void unsetConnectedFrom() {
         eUnset(Ifc4Package.Literals.IFC_ELEMENT__CONNECTED_FROM);
     }
@@ -393,6 +426,7 @@ public class IfcElementImpl extends IfcProductImpl implements IfcElement {
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public boolean isSetConnectedFrom() {
         return eIsSet(Ifc4Package.Literals.IFC_ELEMENT__CONNECTED_FROM);
     }
@@ -403,6 +437,7 @@ public class IfcElementImpl extends IfcProductImpl implements IfcElement {
      * @generated
      */
     @SuppressWarnings("unchecked")
+    @Override
     public EList<IfcRelContainedInSpatialStructure> getContainedInStructure() {
         return (EList<IfcRelContainedInSpatialStructure>) eGet(Ifc4Package.Literals.IFC_ELEMENT__CONTAINED_IN_STRUCTURE,
                 true);
@@ -413,6 +448,7 @@ public class IfcElementImpl extends IfcProductImpl implements IfcElement {
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void unsetContainedInStructure() {
         eUnset(Ifc4Package.Literals.IFC_ELEMENT__CONTAINED_IN_STRUCTURE);
     }
@@ -422,6 +458,7 @@ public class IfcElementImpl extends IfcProductImpl implements IfcElement {
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public boolean isSetContainedInStructure() {
         return eIsSet(Ifc4Package.Literals.IFC_ELEMENT__CONTAINED_IN_STRUCTURE);
     }
@@ -432,6 +469,7 @@ public class IfcElementImpl extends IfcProductImpl implements IfcElement {
      * @generated
      */
     @SuppressWarnings("unchecked")
+    @Override
     public EList<IfcRelCoversBldgElements> getHasCoverings() {
         return (EList<IfcRelCoversBldgElements>) eGet(Ifc4Package.Literals.IFC_ELEMENT__HAS_COVERINGS, true);
     }
@@ -441,6 +479,7 @@ public class IfcElementImpl extends IfcProductImpl implements IfcElement {
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void unsetHasCoverings() {
         eUnset(Ifc4Package.Literals.IFC_ELEMENT__HAS_COVERINGS);
     }
@@ -450,6 +489,7 @@ public class IfcElementImpl extends IfcProductImpl implements IfcElement {
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public boolean isSetHasCoverings() {
         return eIsSet(Ifc4Package.Literals.IFC_ELEMENT__HAS_COVERINGS);
     }

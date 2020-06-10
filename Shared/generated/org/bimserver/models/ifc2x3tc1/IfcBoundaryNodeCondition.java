@@ -111,6 +111,8 @@ public interface IfcBoundaryNodeCondition extends IfcBoundaryCondition {
      * @see #setLinearStiffnessXAsString(String)
      * @see org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package#getIfcBoundaryNodeCondition_LinearStiffnessXAsString()
      * @model unsettable="true"
+     *        annotation="asstring"
+     *        annotation="hidden"
      * @generated
      */
     String getLinearStiffnessXAsString();
@@ -217,6 +219,8 @@ public interface IfcBoundaryNodeCondition extends IfcBoundaryCondition {
      * @see #setLinearStiffnessYAsString(String)
      * @see org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package#getIfcBoundaryNodeCondition_LinearStiffnessYAsString()
      * @model unsettable="true"
+     *        annotation="asstring"
+     *        annotation="hidden"
      * @generated
      */
     String getLinearStiffnessYAsString();
@@ -323,6 +327,8 @@ public interface IfcBoundaryNodeCondition extends IfcBoundaryCondition {
      * @see #setLinearStiffnessZAsString(String)
      * @see org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package#getIfcBoundaryNodeCondition_LinearStiffnessZAsString()
      * @model unsettable="true"
+     *        annotation="asstring"
+     *        annotation="hidden"
      * @generated
      */
     String getLinearStiffnessZAsString();
@@ -429,6 +435,8 @@ public interface IfcBoundaryNodeCondition extends IfcBoundaryCondition {
      * @see #setRotationalStiffnessXAsString(String)
      * @see org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package#getIfcBoundaryNodeCondition_RotationalStiffnessXAsString()
      * @model unsettable="true"
+     *        annotation="asstring"
+     *        annotation="hidden"
      * @generated
      */
     String getRotationalStiffnessXAsString();
@@ -535,6 +543,8 @@ public interface IfcBoundaryNodeCondition extends IfcBoundaryCondition {
      * @see #setRotationalStiffnessYAsString(String)
      * @see org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package#getIfcBoundaryNodeCondition_RotationalStiffnessYAsString()
      * @model unsettable="true"
+     *        annotation="asstring"
+     *        annotation="hidden"
      * @generated
      */
     String getRotationalStiffnessYAsString();
@@ -641,6 +651,8 @@ public interface IfcBoundaryNodeCondition extends IfcBoundaryCondition {
      * @see #setRotationalStiffnessZAsString(String)
      * @see org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package#getIfcBoundaryNodeCondition_RotationalStiffnessZAsString()
      * @model unsettable="true"
+     *        annotation="asstring"
+     *        annotation="hidden"
      * @generated
      */
     String getRotationalStiffnessZAsString();

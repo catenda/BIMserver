@@ -78,6 +78,7 @@ public class IfcMaterialLayerImpl extends IdEObjectImpl implements IfcMaterialLa
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public IfcMaterial getMaterial() {
         return (IfcMaterial) eGet(Ifc2x3tc1Package.Literals.IFC_MATERIAL_LAYER__MATERIAL, true);
     }
@@ -87,6 +88,7 @@ public class IfcMaterialLayerImpl extends IdEObjectImpl implements IfcMaterialLa
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setMaterial(IfcMaterial newMaterial) {
         eSet(Ifc2x3tc1Package.Literals.IFC_MATERIAL_LAYER__MATERIAL, newMaterial);
     }
@@ -96,6 +98,7 @@ public class IfcMaterialLayerImpl extends IdEObjectImpl implements IfcMaterialLa
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void unsetMaterial() {
         eUnset(Ifc2x3tc1Package.Literals.IFC_MATERIAL_LAYER__MATERIAL);
     }
@@ -105,6 +108,7 @@ public class IfcMaterialLayerImpl extends IdEObjectImpl implements IfcMaterialLa
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public boolean isSetMaterial() {
         return eIsSet(Ifc2x3tc1Package.Literals.IFC_MATERIAL_LAYER__MATERIAL);
     }
@@ -114,6 +118,7 @@ public class IfcMaterialLayerImpl extends IdEObjectImpl implements IfcMaterialLa
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public double getLayerThickness() {
         return (Double) eGet(Ifc2x3tc1Package.Literals.IFC_MATERIAL_LAYER__LAYER_THICKNESS, true);
     }
@@ -123,6 +128,7 @@ public class IfcMaterialLayerImpl extends IdEObjectImpl implements IfcMaterialLa
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setLayerThickness(double newLayerThickness) {
         eSet(Ifc2x3tc1Package.Literals.IFC_MATERIAL_LAYER__LAYER_THICKNESS, newLayerThickness);
     }
@@ -132,6 +138,7 @@ public class IfcMaterialLayerImpl extends IdEObjectImpl implements IfcMaterialLa
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public String getLayerThicknessAsString() {
         return (String) eGet(Ifc2x3tc1Package.Literals.IFC_MATERIAL_LAYER__LAYER_THICKNESS_AS_STRING, true);
     }
@@ -141,6 +148,7 @@ public class IfcMaterialLayerImpl extends IdEObjectImpl implements IfcMaterialLa
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setLayerThicknessAsString(String newLayerThicknessAsString) {
         eSet(Ifc2x3tc1Package.Literals.IFC_MATERIAL_LAYER__LAYER_THICKNESS_AS_STRING, newLayerThicknessAsString);
     }
@@ -150,6 +158,7 @@ public class IfcMaterialLayerImpl extends IdEObjectImpl implements IfcMaterialLa
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public Tristate getIsVentilated() {
         return (Tristate) eGet(Ifc2x3tc1Package.Literals.IFC_MATERIAL_LAYER__IS_VENTILATED, true);
     }
@@ -159,6 +168,7 @@ public class IfcMaterialLayerImpl extends IdEObjectImpl implements IfcMaterialLa
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setIsVentilated(Tristate newIsVentilated) {
         eSet(Ifc2x3tc1Package.Literals.IFC_MATERIAL_LAYER__IS_VENTILATED, newIsVentilated);
     }
@@ -168,6 +178,7 @@ public class IfcMaterialLayerImpl extends IdEObjectImpl implements IfcMaterialLa
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void unsetIsVentilated() {
         eUnset(Ifc2x3tc1Package.Literals.IFC_MATERIAL_LAYER__IS_VENTILATED);
     }
@@ -177,6 +188,7 @@ public class IfcMaterialLayerImpl extends IdEObjectImpl implements IfcMaterialLa
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public boolean isSetIsVentilated() {
         return eIsSet(Ifc2x3tc1Package.Literals.IFC_MATERIAL_LAYER__IS_VENTILATED);
     }
@@ -186,6 +198,7 @@ public class IfcMaterialLayerImpl extends IdEObjectImpl implements IfcMaterialLa
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public IfcMaterialLayerSet getToMaterialLayerSet() {
         return (IfcMaterialLayerSet) eGet(Ifc2x3tc1Package.Literals.IFC_MATERIAL_LAYER__TO_MATERIAL_LAYER_SET, true);
     }
@@ -195,6 +208,7 @@ public class IfcMaterialLayerImpl extends IdEObjectImpl implements IfcMaterialLa
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setToMaterialLayerSet(IfcMaterialLayerSet newToMaterialLayerSet) {
         eSet(Ifc2x3tc1Package.Literals.IFC_MATERIAL_LAYER__TO_MATERIAL_LAYER_SET, newToMaterialLayerSet);
     }
@@ -204,6 +218,7 @@ public class IfcMaterialLayerImpl extends IdEObjectImpl implements IfcMaterialLa
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void unsetToMaterialLayerSet() {
         eUnset(Ifc2x3tc1Package.Literals.IFC_MATERIAL_LAYER__TO_MATERIAL_LAYER_SET);
     }
@@ -213,6 +228,7 @@ public class IfcMaterialLayerImpl extends IdEObjectImpl implements IfcMaterialLa
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public boolean isSetToMaterialLayerSet() {
         return eIsSet(Ifc2x3tc1Package.Literals.IFC_MATERIAL_LAYER__TO_MATERIAL_LAYER_SET);
     }

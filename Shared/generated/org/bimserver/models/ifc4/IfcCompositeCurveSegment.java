@@ -139,6 +139,7 @@ public interface IfcCompositeCurveSegment extends IfcGeometricRepresentationItem
      * @see org.bimserver.models.ifc4.Ifc4Package#getIfcCompositeCurveSegment_UsingCurves()
      * @see org.bimserver.models.ifc4.IfcCompositeCurve#getSegments
      * @model opposite="Segments" unsettable="true"
+     *        annotation="inverse"
      * @generated
      */
     EList<IfcCompositeCurve> getUsingCurves();
@@ -178,6 +179,7 @@ public interface IfcCompositeCurveSegment extends IfcGeometricRepresentationItem
      * @see #setDim(long)
      * @see org.bimserver.models.ifc4.Ifc4Package#getIfcCompositeCurveSegment_Dim()
      * @model unsettable="true" derived="true"
+     *        annotation="derived"
      * @generated
      */
     long getDim();

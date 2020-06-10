@@ -70,6 +70,7 @@ public class IfcCompositeCurveSegmentImpl extends IfcGeometricRepresentationItem
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public IfcTransitionCode getTransition() {
         return (IfcTransitionCode) eGet(Ifc4Package.Literals.IFC_COMPOSITE_CURVE_SEGMENT__TRANSITION, true);
     }
@@ -79,6 +80,7 @@ public class IfcCompositeCurveSegmentImpl extends IfcGeometricRepresentationItem
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setTransition(IfcTransitionCode newTransition) {
         eSet(Ifc4Package.Literals.IFC_COMPOSITE_CURVE_SEGMENT__TRANSITION, newTransition);
     }
@@ -88,6 +90,7 @@ public class IfcCompositeCurveSegmentImpl extends IfcGeometricRepresentationItem
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public Tristate getSameSense() {
         return (Tristate) eGet(Ifc4Package.Literals.IFC_COMPOSITE_CURVE_SEGMENT__SAME_SENSE, true);
     }
@@ -97,6 +100,7 @@ public class IfcCompositeCurveSegmentImpl extends IfcGeometricRepresentationItem
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setSameSense(Tristate newSameSense) {
         eSet(Ifc4Package.Literals.IFC_COMPOSITE_CURVE_SEGMENT__SAME_SENSE, newSameSense);
     }
@@ -106,6 +110,7 @@ public class IfcCompositeCurveSegmentImpl extends IfcGeometricRepresentationItem
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public IfcCurve getParentCurve() {
         return (IfcCurve) eGet(Ifc4Package.Literals.IFC_COMPOSITE_CURVE_SEGMENT__PARENT_CURVE, true);
     }
@@ -115,6 +120,7 @@ public class IfcCompositeCurveSegmentImpl extends IfcGeometricRepresentationItem
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setParentCurve(IfcCurve newParentCurve) {
         eSet(Ifc4Package.Literals.IFC_COMPOSITE_CURVE_SEGMENT__PARENT_CURVE, newParentCurve);
     }
@@ -125,6 +131,7 @@ public class IfcCompositeCurveSegmentImpl extends IfcGeometricRepresentationItem
      * @generated
      */
     @SuppressWarnings("unchecked")
+    @Override
     public EList<IfcCompositeCurve> getUsingCurves() {
         return (EList<IfcCompositeCurve>) eGet(Ifc4Package.Literals.IFC_COMPOSITE_CURVE_SEGMENT__USING_CURVES, true);
     }
@@ -134,6 +141,7 @@ public class IfcCompositeCurveSegmentImpl extends IfcGeometricRepresentationItem
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void unsetUsingCurves() {
         eUnset(Ifc4Package.Literals.IFC_COMPOSITE_CURVE_SEGMENT__USING_CURVES);
     }
@@ -143,6 +151,7 @@ public class IfcCompositeCurveSegmentImpl extends IfcGeometricRepresentationItem
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public boolean isSetUsingCurves() {
         return eIsSet(Ifc4Package.Literals.IFC_COMPOSITE_CURVE_SEGMENT__USING_CURVES);
     }
@@ -152,6 +161,7 @@ public class IfcCompositeCurveSegmentImpl extends IfcGeometricRepresentationItem
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public long getDim() {
         return (Long) eGet(Ifc4Package.Literals.IFC_COMPOSITE_CURVE_SEGMENT__DIM, true);
     }
@@ -161,6 +171,7 @@ public class IfcCompositeCurveSegmentImpl extends IfcGeometricRepresentationItem
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setDim(long newDim) {
         eSet(Ifc4Package.Literals.IFC_COMPOSITE_CURVE_SEGMENT__DIM, newDim);
     }
@@ -170,6 +181,7 @@ public class IfcCompositeCurveSegmentImpl extends IfcGeometricRepresentationItem
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void unsetDim() {
         eUnset(Ifc4Package.Literals.IFC_COMPOSITE_CURVE_SEGMENT__DIM);
     }
@@ -179,6 +191,7 @@ public class IfcCompositeCurveSegmentImpl extends IfcGeometricRepresentationItem
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public boolean isSetDim() {
         return eIsSet(Ifc4Package.Literals.IFC_COMPOSITE_CURVE_SEGMENT__DIM);
     }

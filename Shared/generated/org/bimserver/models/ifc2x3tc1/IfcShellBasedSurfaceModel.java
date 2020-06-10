@@ -66,6 +66,7 @@ public interface IfcShellBasedSurfaceModel extends IfcGeometricRepresentationIte
      * @see #setDim(long)
      * @see org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package#getIfcShellBasedSurfaceModel_Dim()
      * @model unsettable="true" derived="true"
+     *        annotation="derived"
      * @generated
      */
     long getDim();

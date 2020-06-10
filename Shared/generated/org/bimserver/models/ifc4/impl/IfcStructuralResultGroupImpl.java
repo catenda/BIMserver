@@ -68,6 +68,7 @@ public class IfcStructuralResultGroupImpl extends IfcGroupImpl implements IfcStr
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public IfcAnalysisTheoryTypeEnum getTheoryType() {
         return (IfcAnalysisTheoryTypeEnum) eGet(Ifc4Package.Literals.IFC_STRUCTURAL_RESULT_GROUP__THEORY_TYPE, true);
     }
@@ -77,6 +78,7 @@ public class IfcStructuralResultGroupImpl extends IfcGroupImpl implements IfcStr
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setTheoryType(IfcAnalysisTheoryTypeEnum newTheoryType) {
         eSet(Ifc4Package.Literals.IFC_STRUCTURAL_RESULT_GROUP__THEORY_TYPE, newTheoryType);
     }
@@ -86,6 +88,7 @@ public class IfcStructuralResultGroupImpl extends IfcGroupImpl implements IfcStr
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public IfcStructuralLoadGroup getResultForLoadGroup() {
         return (IfcStructuralLoadGroup) eGet(Ifc4Package.Literals.IFC_STRUCTURAL_RESULT_GROUP__RESULT_FOR_LOAD_GROUP,
                 true);
@@ -96,6 +99,7 @@ public class IfcStructuralResultGroupImpl extends IfcGroupImpl implements IfcStr
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setResultForLoadGroup(IfcStructuralLoadGroup newResultForLoadGroup) {
         eSet(Ifc4Package.Literals.IFC_STRUCTURAL_RESULT_GROUP__RESULT_FOR_LOAD_GROUP, newResultForLoadGroup);
     }
@@ -105,6 +109,7 @@ public class IfcStructuralResultGroupImpl extends IfcGroupImpl implements IfcStr
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void unsetResultForLoadGroup() {
         eUnset(Ifc4Package.Literals.IFC_STRUCTURAL_RESULT_GROUP__RESULT_FOR_LOAD_GROUP);
     }
@@ -114,6 +119,7 @@ public class IfcStructuralResultGroupImpl extends IfcGroupImpl implements IfcStr
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public boolean isSetResultForLoadGroup() {
         return eIsSet(Ifc4Package.Literals.IFC_STRUCTURAL_RESULT_GROUP__RESULT_FOR_LOAD_GROUP);
     }
@@ -123,6 +129,7 @@ public class IfcStructuralResultGroupImpl extends IfcGroupImpl implements IfcStr
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public Tristate getIsLinear() {
         return (Tristate) eGet(Ifc4Package.Literals.IFC_STRUCTURAL_RESULT_GROUP__IS_LINEAR, true);
     }
@@ -132,6 +139,7 @@ public class IfcStructuralResultGroupImpl extends IfcGroupImpl implements IfcStr
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setIsLinear(Tristate newIsLinear) {
         eSet(Ifc4Package.Literals.IFC_STRUCTURAL_RESULT_GROUP__IS_LINEAR, newIsLinear);
     }
@@ -142,6 +150,7 @@ public class IfcStructuralResultGroupImpl extends IfcGroupImpl implements IfcStr
      * @generated
      */
     @SuppressWarnings("unchecked")
+    @Override
     public EList<IfcStructuralAnalysisModel> getResultGroupFor() {
         return (EList<IfcStructuralAnalysisModel>) eGet(
                 Ifc4Package.Literals.IFC_STRUCTURAL_RESULT_GROUP__RESULT_GROUP_FOR, true);
@@ -152,6 +161,7 @@ public class IfcStructuralResultGroupImpl extends IfcGroupImpl implements IfcStr
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void unsetResultGroupFor() {
         eUnset(Ifc4Package.Literals.IFC_STRUCTURAL_RESULT_GROUP__RESULT_GROUP_FOR);
     }
@@ -161,6 +171,7 @@ public class IfcStructuralResultGroupImpl extends IfcGroupImpl implements IfcStr
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public boolean isSetResultGroupFor() {
         return eIsSet(Ifc4Package.Literals.IFC_STRUCTURAL_RESULT_GROUP__RESULT_GROUP_FOR);
     }

@@ -105,6 +105,8 @@ public interface IfcSlippageConnectionCondition extends IfcStructuralConnectionC
      * @see #setSlippageXAsString(String)
      * @see org.bimserver.models.ifc4.Ifc4Package#getIfcSlippageConnectionCondition_SlippageXAsString()
      * @model unsettable="true"
+     *        annotation="asstring"
+     *        annotation="hidden"
      * @generated
      */
     String getSlippageXAsString();
@@ -211,6 +213,8 @@ public interface IfcSlippageConnectionCondition extends IfcStructuralConnectionC
      * @see #setSlippageYAsString(String)
      * @see org.bimserver.models.ifc4.Ifc4Package#getIfcSlippageConnectionCondition_SlippageYAsString()
      * @model unsettable="true"
+     *        annotation="asstring"
+     *        annotation="hidden"
      * @generated
      */
     String getSlippageYAsString();
@@ -317,6 +321,8 @@ public interface IfcSlippageConnectionCondition extends IfcStructuralConnectionC
      * @see #setSlippageZAsString(String)
      * @see org.bimserver.models.ifc4.Ifc4Package#getIfcSlippageConnectionCondition_SlippageZAsString()
      * @model unsettable="true"
+     *        annotation="asstring"
+     *        annotation="hidden"
      * @generated
      */
     String getSlippageZAsString();

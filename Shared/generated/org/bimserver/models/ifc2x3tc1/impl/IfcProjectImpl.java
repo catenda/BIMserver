@@ -66,6 +66,7 @@ public class IfcProjectImpl extends IfcObjectImpl implements IfcProject {
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public String getLongName() {
         return (String) eGet(Ifc2x3tc1Package.Literals.IFC_PROJECT__LONG_NAME, true);
     }
@@ -75,6 +76,7 @@ public class IfcProjectImpl extends IfcObjectImpl implements IfcProject {
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setLongName(String newLongName) {
         eSet(Ifc2x3tc1Package.Literals.IFC_PROJECT__LONG_NAME, newLongName);
     }
@@ -84,6 +86,7 @@ public class IfcProjectImpl extends IfcObjectImpl implements IfcProject {
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void unsetLongName() {
         eUnset(Ifc2x3tc1Package.Literals.IFC_PROJECT__LONG_NAME);
     }
@@ -93,6 +96,7 @@ public class IfcProjectImpl extends IfcObjectImpl implements IfcProject {
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public boolean isSetLongName() {
         return eIsSet(Ifc2x3tc1Package.Literals.IFC_PROJECT__LONG_NAME);
     }
@@ -102,6 +106,7 @@ public class IfcProjectImpl extends IfcObjectImpl implements IfcProject {
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public String getPhase() {
         return (String) eGet(Ifc2x3tc1Package.Literals.IFC_PROJECT__PHASE, true);
     }
@@ -111,6 +116,7 @@ public class IfcProjectImpl extends IfcObjectImpl implements IfcProject {
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setPhase(String newPhase) {
         eSet(Ifc2x3tc1Package.Literals.IFC_PROJECT__PHASE, newPhase);
     }
@@ -120,6 +126,7 @@ public class IfcProjectImpl extends IfcObjectImpl implements IfcProject {
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void unsetPhase() {
         eUnset(Ifc2x3tc1Package.Literals.IFC_PROJECT__PHASE);
     }
@@ -129,6 +136,7 @@ public class IfcProjectImpl extends IfcObjectImpl implements IfcProject {
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public boolean isSetPhase() {
         return eIsSet(Ifc2x3tc1Package.Literals.IFC_PROJECT__PHASE);
     }
@@ -139,6 +147,7 @@ public class IfcProjectImpl extends IfcObjectImpl implements IfcProject {
      * @generated
      */
     @SuppressWarnings("unchecked")
+    @Override
     public EList<IfcRepresentationContext> getRepresentationContexts() {
         return (EList<IfcRepresentationContext>) eGet(Ifc2x3tc1Package.Literals.IFC_PROJECT__REPRESENTATION_CONTEXTS,
                 true);
@@ -149,6 +158,7 @@ public class IfcProjectImpl extends IfcObjectImpl implements IfcProject {
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public IfcUnitAssignment getUnitsInContext() {
         return (IfcUnitAssignment) eGet(Ifc2x3tc1Package.Literals.IFC_PROJECT__UNITS_IN_CONTEXT, true);
     }
@@ -158,6 +168,7 @@ public class IfcProjectImpl extends IfcObjectImpl implements IfcProject {
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setUnitsInContext(IfcUnitAssignment newUnitsInContext) {
         eSet(Ifc2x3tc1Package.Literals.IFC_PROJECT__UNITS_IN_CONTEXT, newUnitsInContext);
     }

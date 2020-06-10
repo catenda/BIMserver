@@ -50,6 +50,7 @@ public interface IfcRelAssigns extends IfcRelationship {
      * @see org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package#getIfcRelAssigns_RelatedObjects()
      * @see org.bimserver.models.ifc2x3tc1.IfcObjectDefinition#getHasAssignments
      * @model opposite="HasAssignments"
+     *        annotation="inverse"
      * @generated
      */
     EList<IfcObjectDefinition> getRelatedObjects();

@@ -60,6 +60,7 @@ public class IfcFeatureElementSubtractionImpl extends IfcFeatureElementImpl impl
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public IfcRelVoidsElement getVoidsElements() {
         return (IfcRelVoidsElement) eGet(Ifc4Package.Literals.IFC_FEATURE_ELEMENT_SUBTRACTION__VOIDS_ELEMENTS, true);
     }
@@ -69,6 +70,7 @@ public class IfcFeatureElementSubtractionImpl extends IfcFeatureElementImpl impl
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setVoidsElements(IfcRelVoidsElement newVoidsElements) {
         eSet(Ifc4Package.Literals.IFC_FEATURE_ELEMENT_SUBTRACTION__VOIDS_ELEMENTS, newVoidsElements);
     }
@@ -78,6 +80,7 @@ public class IfcFeatureElementSubtractionImpl extends IfcFeatureElementImpl impl
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void unsetVoidsElements() {
         eUnset(Ifc4Package.Literals.IFC_FEATURE_ELEMENT_SUBTRACTION__VOIDS_ELEMENTS);
     }
@@ -87,6 +90,7 @@ public class IfcFeatureElementSubtractionImpl extends IfcFeatureElementImpl impl
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public boolean isSetVoidsElements() {
         return eIsSet(Ifc4Package.Literals.IFC_FEATURE_ELEMENT_SUBTRACTION__VOIDS_ELEMENTS);
     }

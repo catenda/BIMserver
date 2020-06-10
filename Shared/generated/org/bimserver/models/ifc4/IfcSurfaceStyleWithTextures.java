@@ -49,6 +49,7 @@ public interface IfcSurfaceStyleWithTextures extends IfcPresentationItem, IfcSur
      * @see org.bimserver.models.ifc4.Ifc4Package#getIfcSurfaceStyleWithTextures_Textures()
      * @see org.bimserver.models.ifc4.IfcSurfaceTexture#getUsedInStyles
      * @model opposite="UsedInStyles"
+     *        annotation="inverse"
      * @generated
      */
     EList<IfcSurfaceTexture> getTextures();

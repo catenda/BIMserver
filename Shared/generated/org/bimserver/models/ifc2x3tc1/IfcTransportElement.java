@@ -160,6 +160,8 @@ public interface IfcTransportElement extends IfcElement {
      * @see #setCapacityByWeightAsString(String)
      * @see org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package#getIfcTransportElement_CapacityByWeightAsString()
      * @model unsettable="true"
+     *        annotation="asstring"
+     *        annotation="hidden"
      * @generated
      */
     String getCapacityByWeightAsString();
@@ -266,6 +268,8 @@ public interface IfcTransportElement extends IfcElement {
      * @see #setCapacityByNumberAsString(String)
      * @see org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package#getIfcTransportElement_CapacityByNumberAsString()
      * @model unsettable="true"
+     *        annotation="asstring"
+     *        annotation="hidden"
      * @generated
      */
     String getCapacityByNumberAsString();

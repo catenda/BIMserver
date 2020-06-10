@@ -59,6 +59,7 @@ public class DoubleTypeImpl extends PrimitiveTypeImpl implements DoubleType {
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public double getValue() {
         return (Double) eGet(StorePackage.Literals.DOUBLE_TYPE__VALUE, true);
     }
@@ -68,6 +69,7 @@ public class DoubleTypeImpl extends PrimitiveTypeImpl implements DoubleType {
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setValue(double newValue) {
         eSet(StorePackage.Literals.DOUBLE_TYPE__VALUE, newValue);
     }

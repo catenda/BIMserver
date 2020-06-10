@@ -77,6 +77,7 @@ public class DataObjectImpl extends IdEObjectImpl implements DataObject {
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public String getType() {
         return (String) eGet(StorePackage.Literals.DATA_OBJECT__TYPE, true);
     }
@@ -86,6 +87,7 @@ public class DataObjectImpl extends IdEObjectImpl implements DataObject {
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setType(String newType) {
         eSet(StorePackage.Literals.DATA_OBJECT__TYPE, newType);
     }
@@ -95,6 +97,7 @@ public class DataObjectImpl extends IdEObjectImpl implements DataObject {
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public String getGuid() {
         return (String) eGet(StorePackage.Literals.DATA_OBJECT__GUID, true);
     }
@@ -104,6 +107,7 @@ public class DataObjectImpl extends IdEObjectImpl implements DataObject {
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setGuid(String newGuid) {
         eSet(StorePackage.Literals.DATA_OBJECT__GUID, newGuid);
     }
@@ -113,6 +117,7 @@ public class DataObjectImpl extends IdEObjectImpl implements DataObject {
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public String getName() {
         return (String) eGet(StorePackage.Literals.DATA_OBJECT__NAME, true);
     }
@@ -122,6 +127,7 @@ public class DataObjectImpl extends IdEObjectImpl implements DataObject {
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setName(String newName) {
         eSet(StorePackage.Literals.DATA_OBJECT__NAME, newName);
     }
@@ -132,6 +138,7 @@ public class DataObjectImpl extends IdEObjectImpl implements DataObject {
      * @generated
      */
     @SuppressWarnings("unchecked")
+    @Override
     public EList<DataValue> getValues() {
         return (EList<DataValue>) eGet(StorePackage.Literals.DATA_OBJECT__VALUES, true);
     }

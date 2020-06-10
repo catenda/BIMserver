@@ -72,6 +72,7 @@ public class IfcSpaceProgramImpl extends IfcControlImpl implements IfcSpaceProgr
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public String getSpaceProgramIdentifier() {
         return (String) eGet(Ifc2x3tc1Package.Literals.IFC_SPACE_PROGRAM__SPACE_PROGRAM_IDENTIFIER, true);
     }
@@ -81,6 +82,7 @@ public class IfcSpaceProgramImpl extends IfcControlImpl implements IfcSpaceProgr
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setSpaceProgramIdentifier(String newSpaceProgramIdentifier) {
         eSet(Ifc2x3tc1Package.Literals.IFC_SPACE_PROGRAM__SPACE_PROGRAM_IDENTIFIER, newSpaceProgramIdentifier);
     }
@@ -90,6 +92,7 @@ public class IfcSpaceProgramImpl extends IfcControlImpl implements IfcSpaceProgr
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public double getMaxRequiredArea() {
         return (Double) eGet(Ifc2x3tc1Package.Literals.IFC_SPACE_PROGRAM__MAX_REQUIRED_AREA, true);
     }
@@ -99,6 +102,7 @@ public class IfcSpaceProgramImpl extends IfcControlImpl implements IfcSpaceProgr
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setMaxRequiredArea(double newMaxRequiredArea) {
         eSet(Ifc2x3tc1Package.Literals.IFC_SPACE_PROGRAM__MAX_REQUIRED_AREA, newMaxRequiredArea);
     }
@@ -108,6 +112,7 @@ public class IfcSpaceProgramImpl extends IfcControlImpl implements IfcSpaceProgr
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void unsetMaxRequiredArea() {
         eUnset(Ifc2x3tc1Package.Literals.IFC_SPACE_PROGRAM__MAX_REQUIRED_AREA);
     }
@@ -117,6 +122,7 @@ public class IfcSpaceProgramImpl extends IfcControlImpl implements IfcSpaceProgr
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public boolean isSetMaxRequiredArea() {
         return eIsSet(Ifc2x3tc1Package.Literals.IFC_SPACE_PROGRAM__MAX_REQUIRED_AREA);
     }
@@ -126,6 +132,7 @@ public class IfcSpaceProgramImpl extends IfcControlImpl implements IfcSpaceProgr
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public String getMaxRequiredAreaAsString() {
         return (String) eGet(Ifc2x3tc1Package.Literals.IFC_SPACE_PROGRAM__MAX_REQUIRED_AREA_AS_STRING, true);
     }
@@ -135,6 +142,7 @@ public class IfcSpaceProgramImpl extends IfcControlImpl implements IfcSpaceProgr
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setMaxRequiredAreaAsString(String newMaxRequiredAreaAsString) {
         eSet(Ifc2x3tc1Package.Literals.IFC_SPACE_PROGRAM__MAX_REQUIRED_AREA_AS_STRING, newMaxRequiredAreaAsString);
     }
@@ -144,6 +152,7 @@ public class IfcSpaceProgramImpl extends IfcControlImpl implements IfcSpaceProgr
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void unsetMaxRequiredAreaAsString() {
         eUnset(Ifc2x3tc1Package.Literals.IFC_SPACE_PROGRAM__MAX_REQUIRED_AREA_AS_STRING);
     }
@@ -153,6 +162,7 @@ public class IfcSpaceProgramImpl extends IfcControlImpl implements IfcSpaceProgr
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public boolean isSetMaxRequiredAreaAsString() {
         return eIsSet(Ifc2x3tc1Package.Literals.IFC_SPACE_PROGRAM__MAX_REQUIRED_AREA_AS_STRING);
     }
@@ -162,6 +172,7 @@ public class IfcSpaceProgramImpl extends IfcControlImpl implements IfcSpaceProgr
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public double getMinRequiredArea() {
         return (Double) eGet(Ifc2x3tc1Package.Literals.IFC_SPACE_PROGRAM__MIN_REQUIRED_AREA, true);
     }
@@ -171,6 +182,7 @@ public class IfcSpaceProgramImpl extends IfcControlImpl implements IfcSpaceProgr
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setMinRequiredArea(double newMinRequiredArea) {
         eSet(Ifc2x3tc1Package.Literals.IFC_SPACE_PROGRAM__MIN_REQUIRED_AREA, newMinRequiredArea);
     }
@@ -180,6 +192,7 @@ public class IfcSpaceProgramImpl extends IfcControlImpl implements IfcSpaceProgr
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void unsetMinRequiredArea() {
         eUnset(Ifc2x3tc1Package.Literals.IFC_SPACE_PROGRAM__MIN_REQUIRED_AREA);
     }
@@ -189,6 +202,7 @@ public class IfcSpaceProgramImpl extends IfcControlImpl implements IfcSpaceProgr
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public boolean isSetMinRequiredArea() {
         return eIsSet(Ifc2x3tc1Package.Literals.IFC_SPACE_PROGRAM__MIN_REQUIRED_AREA);
     }
@@ -198,6 +212,7 @@ public class IfcSpaceProgramImpl extends IfcControlImpl implements IfcSpaceProgr
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public String getMinRequiredAreaAsString() {
         return (String) eGet(Ifc2x3tc1Package.Literals.IFC_SPACE_PROGRAM__MIN_REQUIRED_AREA_AS_STRING, true);
     }
@@ -207,6 +222,7 @@ public class IfcSpaceProgramImpl extends IfcControlImpl implements IfcSpaceProgr
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setMinRequiredAreaAsString(String newMinRequiredAreaAsString) {
         eSet(Ifc2x3tc1Package.Literals.IFC_SPACE_PROGRAM__MIN_REQUIRED_AREA_AS_STRING, newMinRequiredAreaAsString);
     }
@@ -216,6 +232,7 @@ public class IfcSpaceProgramImpl extends IfcControlImpl implements IfcSpaceProgr
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void unsetMinRequiredAreaAsString() {
         eUnset(Ifc2x3tc1Package.Literals.IFC_SPACE_PROGRAM__MIN_REQUIRED_AREA_AS_STRING);
     }
@@ -225,6 +242,7 @@ public class IfcSpaceProgramImpl extends IfcControlImpl implements IfcSpaceProgr
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public boolean isSetMinRequiredAreaAsString() {
         return eIsSet(Ifc2x3tc1Package.Literals.IFC_SPACE_PROGRAM__MIN_REQUIRED_AREA_AS_STRING);
     }
@@ -234,6 +252,7 @@ public class IfcSpaceProgramImpl extends IfcControlImpl implements IfcSpaceProgr
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public IfcSpatialStructureElement getRequestedLocation() {
         return (IfcSpatialStructureElement) eGet(Ifc2x3tc1Package.Literals.IFC_SPACE_PROGRAM__REQUESTED_LOCATION, true);
     }
@@ -243,6 +262,7 @@ public class IfcSpaceProgramImpl extends IfcControlImpl implements IfcSpaceProgr
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setRequestedLocation(IfcSpatialStructureElement newRequestedLocation) {
         eSet(Ifc2x3tc1Package.Literals.IFC_SPACE_PROGRAM__REQUESTED_LOCATION, newRequestedLocation);
     }
@@ -252,6 +272,7 @@ public class IfcSpaceProgramImpl extends IfcControlImpl implements IfcSpaceProgr
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void unsetRequestedLocation() {
         eUnset(Ifc2x3tc1Package.Literals.IFC_SPACE_PROGRAM__REQUESTED_LOCATION);
     }
@@ -261,6 +282,7 @@ public class IfcSpaceProgramImpl extends IfcControlImpl implements IfcSpaceProgr
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public boolean isSetRequestedLocation() {
         return eIsSet(Ifc2x3tc1Package.Literals.IFC_SPACE_PROGRAM__REQUESTED_LOCATION);
     }
@@ -270,6 +292,7 @@ public class IfcSpaceProgramImpl extends IfcControlImpl implements IfcSpaceProgr
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public double getStandardRequiredArea() {
         return (Double) eGet(Ifc2x3tc1Package.Literals.IFC_SPACE_PROGRAM__STANDARD_REQUIRED_AREA, true);
     }
@@ -279,6 +302,7 @@ public class IfcSpaceProgramImpl extends IfcControlImpl implements IfcSpaceProgr
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setStandardRequiredArea(double newStandardRequiredArea) {
         eSet(Ifc2x3tc1Package.Literals.IFC_SPACE_PROGRAM__STANDARD_REQUIRED_AREA, newStandardRequiredArea);
     }
@@ -288,6 +312,7 @@ public class IfcSpaceProgramImpl extends IfcControlImpl implements IfcSpaceProgr
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public String getStandardRequiredAreaAsString() {
         return (String) eGet(Ifc2x3tc1Package.Literals.IFC_SPACE_PROGRAM__STANDARD_REQUIRED_AREA_AS_STRING, true);
     }
@@ -297,6 +322,7 @@ public class IfcSpaceProgramImpl extends IfcControlImpl implements IfcSpaceProgr
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setStandardRequiredAreaAsString(String newStandardRequiredAreaAsString) {
         eSet(Ifc2x3tc1Package.Literals.IFC_SPACE_PROGRAM__STANDARD_REQUIRED_AREA_AS_STRING,
                 newStandardRequiredAreaAsString);
@@ -308,6 +334,7 @@ public class IfcSpaceProgramImpl extends IfcControlImpl implements IfcSpaceProgr
      * @generated
      */
     @SuppressWarnings("unchecked")
+    @Override
     public EList<IfcRelInteractionRequirements> getHasInteractionReqsFrom() {
         return (EList<IfcRelInteractionRequirements>) eGet(
                 Ifc2x3tc1Package.Literals.IFC_SPACE_PROGRAM__HAS_INTERACTION_REQS_FROM, true);
@@ -318,6 +345,7 @@ public class IfcSpaceProgramImpl extends IfcControlImpl implements IfcSpaceProgr
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void unsetHasInteractionReqsFrom() {
         eUnset(Ifc2x3tc1Package.Literals.IFC_SPACE_PROGRAM__HAS_INTERACTION_REQS_FROM);
     }
@@ -327,6 +355,7 @@ public class IfcSpaceProgramImpl extends IfcControlImpl implements IfcSpaceProgr
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public boolean isSetHasInteractionReqsFrom() {
         return eIsSet(Ifc2x3tc1Package.Literals.IFC_SPACE_PROGRAM__HAS_INTERACTION_REQS_FROM);
     }
@@ -337,6 +366,7 @@ public class IfcSpaceProgramImpl extends IfcControlImpl implements IfcSpaceProgr
      * @generated
      */
     @SuppressWarnings("unchecked")
+    @Override
     public EList<IfcRelInteractionRequirements> getHasInteractionReqsTo() {
         return (EList<IfcRelInteractionRequirements>) eGet(
                 Ifc2x3tc1Package.Literals.IFC_SPACE_PROGRAM__HAS_INTERACTION_REQS_TO, true);
@@ -347,6 +377,7 @@ public class IfcSpaceProgramImpl extends IfcControlImpl implements IfcSpaceProgr
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void unsetHasInteractionReqsTo() {
         eUnset(Ifc2x3tc1Package.Literals.IFC_SPACE_PROGRAM__HAS_INTERACTION_REQS_TO);
     }
@@ -356,6 +387,7 @@ public class IfcSpaceProgramImpl extends IfcControlImpl implements IfcSpaceProgr
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public boolean isSetHasInteractionReqsTo() {
         return eIsSet(Ifc2x3tc1Package.Literals.IFC_SPACE_PROGRAM__HAS_INTERACTION_REQS_TO);
     }

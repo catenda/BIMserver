@@ -50,6 +50,7 @@ public interface IfcProductDefinitionShape extends IfcProductRepresentation {
      * @see #unsetShapeOfProduct()
      * @see org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package#getIfcProductDefinitionShape_ShapeOfProduct()
      * @model unsettable="true" upper="2"
+     *        annotation="inverse"
      * @generated
      */
     EList<IfcProduct> getShapeOfProduct();
@@ -91,6 +92,7 @@ public interface IfcProductDefinitionShape extends IfcProductRepresentation {
      * @see org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package#getIfcProductDefinitionShape_HasShapeAspects()
      * @see org.bimserver.models.ifc2x3tc1.IfcShapeAspect#getPartOfProductDefinitionShape
      * @model opposite="PartOfProductDefinitionShape" unsettable="true"
+     *        annotation="inverse"
      * @generated
      */
     EList<IfcShapeAspect> getHasShapeAspects();

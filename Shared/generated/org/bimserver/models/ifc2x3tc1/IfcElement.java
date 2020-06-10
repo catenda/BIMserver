@@ -116,6 +116,7 @@ public interface IfcElement extends IfcProduct, IfcStructuralActivityAssignmentS
      * @see org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package#getIfcElement_HasStructuralMember()
      * @see org.bimserver.models.ifc2x3tc1.IfcRelConnectsStructuralElement#getRelatingElement
      * @model opposite="RelatingElement" unsettable="true"
+     *        annotation="inverse"
      * @generated
      */
     EList<IfcRelConnectsStructuralElement> getHasStructuralMember();
@@ -157,6 +158,7 @@ public interface IfcElement extends IfcProduct, IfcStructuralActivityAssignmentS
      * @see org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package#getIfcElement_FillsVoids()
      * @see org.bimserver.models.ifc2x3tc1.IfcRelFillsElement#getRelatedBuildingElement
      * @model opposite="RelatedBuildingElement" unsettable="true" upper="2"
+     *        annotation="inverse"
      * @generated
      */
     EList<IfcRelFillsElement> getFillsVoids();
@@ -198,6 +200,7 @@ public interface IfcElement extends IfcProduct, IfcStructuralActivityAssignmentS
      * @see org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package#getIfcElement_ConnectedTo()
      * @see org.bimserver.models.ifc2x3tc1.IfcRelConnectsElements#getRelatingElement
      * @model opposite="RelatingElement" unsettable="true"
+     *        annotation="inverse"
      * @generated
      */
     EList<IfcRelConnectsElements> getConnectedTo();
@@ -239,6 +242,7 @@ public interface IfcElement extends IfcProduct, IfcStructuralActivityAssignmentS
      * @see org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package#getIfcElement_HasCoverings()
      * @see org.bimserver.models.ifc2x3tc1.IfcRelCoversBldgElements#getRelatingBuildingElement
      * @model opposite="RelatingBuildingElement" unsettable="true"
+     *        annotation="inverse"
      * @generated
      */
     EList<IfcRelCoversBldgElements> getHasCoverings();
@@ -280,6 +284,7 @@ public interface IfcElement extends IfcProduct, IfcStructuralActivityAssignmentS
      * @see org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package#getIfcElement_HasProjections()
      * @see org.bimserver.models.ifc2x3tc1.IfcRelProjectsElement#getRelatingElement
      * @model opposite="RelatingElement" unsettable="true"
+     *        annotation="inverse"
      * @generated
      */
     EList<IfcRelProjectsElement> getHasProjections();
@@ -319,6 +324,7 @@ public interface IfcElement extends IfcProduct, IfcStructuralActivityAssignmentS
      * @see #unsetReferencedInStructures()
      * @see org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package#getIfcElement_ReferencedInStructures()
      * @model unsettable="true"
+     *        annotation="inverse"
      * @generated
      */
     EList<IfcRelReferencedInSpatialStructure> getReferencedInStructures();
@@ -360,6 +366,7 @@ public interface IfcElement extends IfcProduct, IfcStructuralActivityAssignmentS
      * @see org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package#getIfcElement_HasPorts()
      * @see org.bimserver.models.ifc2x3tc1.IfcRelConnectsPortToElement#getRelatedElement
      * @model opposite="RelatedElement" unsettable="true"
+     *        annotation="inverse"
      * @generated
      */
     EList<IfcRelConnectsPortToElement> getHasPorts();
@@ -401,6 +408,7 @@ public interface IfcElement extends IfcProduct, IfcStructuralActivityAssignmentS
      * @see org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package#getIfcElement_HasOpenings()
      * @see org.bimserver.models.ifc2x3tc1.IfcRelVoidsElement#getRelatingBuildingElement
      * @model opposite="RelatingBuildingElement" unsettable="true"
+     *        annotation="inverse"
      * @generated
      */
     EList<IfcRelVoidsElement> getHasOpenings();
@@ -442,6 +450,7 @@ public interface IfcElement extends IfcProduct, IfcStructuralActivityAssignmentS
      * @see org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package#getIfcElement_IsConnectionRealization()
      * @see org.bimserver.models.ifc2x3tc1.IfcRelConnectsWithRealizingElements#getRealizingElements
      * @model opposite="RealizingElements" unsettable="true"
+     *        annotation="inverse"
      * @generated
      */
     EList<IfcRelConnectsWithRealizingElements> getIsConnectionRealization();
@@ -483,6 +492,7 @@ public interface IfcElement extends IfcProduct, IfcStructuralActivityAssignmentS
      * @see org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package#getIfcElement_ProvidesBoundaries()
      * @see org.bimserver.models.ifc2x3tc1.IfcRelSpaceBoundary#getRelatedBuildingElement
      * @model opposite="RelatedBuildingElement" unsettable="true"
+     *        annotation="inverse"
      * @generated
      */
     EList<IfcRelSpaceBoundary> getProvidesBoundaries();
@@ -524,6 +534,7 @@ public interface IfcElement extends IfcProduct, IfcStructuralActivityAssignmentS
      * @see org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package#getIfcElement_ConnectedFrom()
      * @see org.bimserver.models.ifc2x3tc1.IfcRelConnectsElements#getRelatedElement
      * @model opposite="RelatedElement" unsettable="true"
+     *        annotation="inverse"
      * @generated
      */
     EList<IfcRelConnectsElements> getConnectedFrom();
@@ -563,6 +574,7 @@ public interface IfcElement extends IfcProduct, IfcStructuralActivityAssignmentS
      * @see #unsetContainedInStructure()
      * @see org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package#getIfcElement_ContainedInStructure()
      * @model unsettable="true" upper="2"
+     *        annotation="inverse"
      * @generated
      */
     EList<IfcRelContainedInSpatialStructure> getContainedInStructure();

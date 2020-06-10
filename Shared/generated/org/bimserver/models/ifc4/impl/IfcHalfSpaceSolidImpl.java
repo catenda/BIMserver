@@ -63,6 +63,7 @@ public class IfcHalfSpaceSolidImpl extends IfcGeometricRepresentationItemImpl im
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public IfcSurface getBaseSurface() {
         return (IfcSurface) eGet(Ifc4Package.Literals.IFC_HALF_SPACE_SOLID__BASE_SURFACE, true);
     }
@@ -72,6 +73,7 @@ public class IfcHalfSpaceSolidImpl extends IfcGeometricRepresentationItemImpl im
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setBaseSurface(IfcSurface newBaseSurface) {
         eSet(Ifc4Package.Literals.IFC_HALF_SPACE_SOLID__BASE_SURFACE, newBaseSurface);
     }
@@ -81,6 +83,7 @@ public class IfcHalfSpaceSolidImpl extends IfcGeometricRepresentationItemImpl im
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public Tristate getAgreementFlag() {
         return (Tristate) eGet(Ifc4Package.Literals.IFC_HALF_SPACE_SOLID__AGREEMENT_FLAG, true);
     }
@@ -90,6 +93,7 @@ public class IfcHalfSpaceSolidImpl extends IfcGeometricRepresentationItemImpl im
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setAgreementFlag(Tristate newAgreementFlag) {
         eSet(Ifc4Package.Literals.IFC_HALF_SPACE_SOLID__AGREEMENT_FLAG, newAgreementFlag);
     }
@@ -99,6 +103,7 @@ public class IfcHalfSpaceSolidImpl extends IfcGeometricRepresentationItemImpl im
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public long getDim() {
         return (Long) eGet(Ifc4Package.Literals.IFC_HALF_SPACE_SOLID__DIM, true);
     }
@@ -108,6 +113,7 @@ public class IfcHalfSpaceSolidImpl extends IfcGeometricRepresentationItemImpl im
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setDim(long newDim) {
         eSet(Ifc4Package.Literals.IFC_HALF_SPACE_SOLID__DIM, newDim);
     }
@@ -117,6 +123,7 @@ public class IfcHalfSpaceSolidImpl extends IfcGeometricRepresentationItemImpl im
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void unsetDim() {
         eUnset(Ifc4Package.Literals.IFC_HALF_SPACE_SOLID__DIM);
     }
@@ -126,6 +133,7 @@ public class IfcHalfSpaceSolidImpl extends IfcGeometricRepresentationItemImpl im
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public boolean isSetDim() {
         return eIsSet(Ifc4Package.Literals.IFC_HALF_SPACE_SOLID__DIM);
     }

@@ -139,7 +139,8 @@ public interface IfcElectricalBaseProperties extends IfcEnergyProperties {
      * @return the value of the '<em>Input Voltage As String</em>' attribute.
      * @see #setInputVoltageAsString(String)
      * @see org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package#getIfcElectricalBaseProperties_InputVoltageAsString()
-     * @model
+     * @model annotation="asstring"
+     *        annotation="hidden"
      * @generated
      */
     String getInputVoltageAsString();
@@ -191,7 +192,8 @@ public interface IfcElectricalBaseProperties extends IfcEnergyProperties {
      * @return the value of the '<em>Input Frequency As String</em>' attribute.
      * @see #setInputFrequencyAsString(String)
      * @see org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package#getIfcElectricalBaseProperties_InputFrequencyAsString()
-     * @model
+     * @model annotation="asstring"
+     *        annotation="hidden"
      * @generated
      */
     String getInputFrequencyAsString();
@@ -273,6 +275,8 @@ public interface IfcElectricalBaseProperties extends IfcEnergyProperties {
      * @see #setFullLoadCurrentAsString(String)
      * @see org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package#getIfcElectricalBaseProperties_FullLoadCurrentAsString()
      * @model unsettable="true"
+     *        annotation="asstring"
+     *        annotation="hidden"
      * @generated
      */
     String getFullLoadCurrentAsString();
@@ -379,6 +383,8 @@ public interface IfcElectricalBaseProperties extends IfcEnergyProperties {
      * @see #setMinimumCircuitCurrentAsString(String)
      * @see org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package#getIfcElectricalBaseProperties_MinimumCircuitCurrentAsString()
      * @model unsettable="true"
+     *        annotation="asstring"
+     *        annotation="hidden"
      * @generated
      */
     String getMinimumCircuitCurrentAsString();
@@ -485,6 +491,8 @@ public interface IfcElectricalBaseProperties extends IfcEnergyProperties {
      * @see #setMaximumPowerInputAsString(String)
      * @see org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package#getIfcElectricalBaseProperties_MaximumPowerInputAsString()
      * @model unsettable="true"
+     *        annotation="asstring"
+     *        annotation="hidden"
      * @generated
      */
     String getMaximumPowerInputAsString();
@@ -591,6 +599,8 @@ public interface IfcElectricalBaseProperties extends IfcEnergyProperties {
      * @see #setRatedPowerInputAsString(String)
      * @see org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package#getIfcElectricalBaseProperties_RatedPowerInputAsString()
      * @model unsettable="true"
+     *        annotation="asstring"
+     *        annotation="hidden"
      * @generated
      */
     String getRatedPowerInputAsString();

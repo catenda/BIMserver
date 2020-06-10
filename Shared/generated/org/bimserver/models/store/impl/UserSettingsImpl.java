@@ -95,6 +95,7 @@ public class UserSettingsImpl extends IdEObjectImpl implements UserSettings {
      * @generated
      */
     @SuppressWarnings("unchecked")
+    @Override
     public EList<SerializerPluginConfiguration> getSerializers() {
         return (EList<SerializerPluginConfiguration>) eGet(StorePackage.Literals.USER_SETTINGS__SERIALIZERS, true);
     }
@@ -105,6 +106,7 @@ public class UserSettingsImpl extends IdEObjectImpl implements UserSettings {
      * @generated
      */
     @SuppressWarnings("unchecked")
+    @Override
     public EList<ObjectIDMPluginConfiguration> getObjectIDMs() {
         return (EList<ObjectIDMPluginConfiguration>) eGet(StorePackage.Literals.USER_SETTINGS__OBJECT_ID_MS, true);
     }
@@ -115,6 +117,7 @@ public class UserSettingsImpl extends IdEObjectImpl implements UserSettings {
      * @generated
      */
     @SuppressWarnings("unchecked")
+    @Override
     public EList<RenderEnginePluginConfiguration> getRenderEngines() {
         return (EList<RenderEnginePluginConfiguration>) eGet(StorePackage.Literals.USER_SETTINGS__RENDER_ENGINES, true);
     }
@@ -125,6 +128,7 @@ public class UserSettingsImpl extends IdEObjectImpl implements UserSettings {
      * @generated
      */
     @SuppressWarnings("unchecked")
+    @Override
     public EList<DeserializerPluginConfiguration> getDeserializers() {
         return (EList<DeserializerPluginConfiguration>) eGet(StorePackage.Literals.USER_SETTINGS__DESERIALIZERS, true);
     }
@@ -135,6 +139,7 @@ public class UserSettingsImpl extends IdEObjectImpl implements UserSettings {
      * @generated
      */
     @SuppressWarnings("unchecked")
+    @Override
     public EList<QueryEnginePluginConfiguration> getQueryengines() {
         return (EList<QueryEnginePluginConfiguration>) eGet(StorePackage.Literals.USER_SETTINGS__QUERYENGINES, true);
     }
@@ -145,6 +150,7 @@ public class UserSettingsImpl extends IdEObjectImpl implements UserSettings {
      * @generated
      */
     @SuppressWarnings("unchecked")
+    @Override
     public EList<ModelMergerPluginConfiguration> getModelmergers() {
         return (EList<ModelMergerPluginConfiguration>) eGet(StorePackage.Literals.USER_SETTINGS__MODELMERGERS, true);
     }
@@ -155,6 +161,7 @@ public class UserSettingsImpl extends IdEObjectImpl implements UserSettings {
      * @generated
      */
     @SuppressWarnings("unchecked")
+    @Override
     public EList<ModelComparePluginConfiguration> getModelcompares() {
         return (EList<ModelComparePluginConfiguration>) eGet(StorePackage.Literals.USER_SETTINGS__MODELCOMPARES, true);
     }
@@ -164,6 +171,7 @@ public class UserSettingsImpl extends IdEObjectImpl implements UserSettings {
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public ModelMergerPluginConfiguration getDefaultModelMerger() {
         return (ModelMergerPluginConfiguration) eGet(StorePackage.Literals.USER_SETTINGS__DEFAULT_MODEL_MERGER, true);
     }
@@ -173,6 +181,7 @@ public class UserSettingsImpl extends IdEObjectImpl implements UserSettings {
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setDefaultModelMerger(ModelMergerPluginConfiguration newDefaultModelMerger) {
         eSet(StorePackage.Literals.USER_SETTINGS__DEFAULT_MODEL_MERGER, newDefaultModelMerger);
     }
@@ -182,6 +191,7 @@ public class UserSettingsImpl extends IdEObjectImpl implements UserSettings {
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public ModelComparePluginConfiguration getDefaultModelCompare() {
         return (ModelComparePluginConfiguration) eGet(StorePackage.Literals.USER_SETTINGS__DEFAULT_MODEL_COMPARE, true);
     }
@@ -191,6 +201,7 @@ public class UserSettingsImpl extends IdEObjectImpl implements UserSettings {
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setDefaultModelCompare(ModelComparePluginConfiguration newDefaultModelCompare) {
         eSet(StorePackage.Literals.USER_SETTINGS__DEFAULT_MODEL_COMPARE, newDefaultModelCompare);
     }
@@ -200,6 +211,7 @@ public class UserSettingsImpl extends IdEObjectImpl implements UserSettings {
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public QueryEnginePluginConfiguration getDefaultQueryEngine() {
         return (QueryEnginePluginConfiguration) eGet(StorePackage.Literals.USER_SETTINGS__DEFAULT_QUERY_ENGINE, true);
     }
@@ -209,6 +221,7 @@ public class UserSettingsImpl extends IdEObjectImpl implements UserSettings {
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setDefaultQueryEngine(QueryEnginePluginConfiguration newDefaultQueryEngine) {
         eSet(StorePackage.Literals.USER_SETTINGS__DEFAULT_QUERY_ENGINE, newDefaultQueryEngine);
     }
@@ -218,6 +231,7 @@ public class UserSettingsImpl extends IdEObjectImpl implements UserSettings {
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public RenderEnginePluginConfiguration getDefaultRenderEngine() {
         return (RenderEnginePluginConfiguration) eGet(StorePackage.Literals.USER_SETTINGS__DEFAULT_RENDER_ENGINE, true);
     }
@@ -227,6 +241,7 @@ public class UserSettingsImpl extends IdEObjectImpl implements UserSettings {
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setDefaultRenderEngine(RenderEnginePluginConfiguration newDefaultRenderEngine) {
         eSet(StorePackage.Literals.USER_SETTINGS__DEFAULT_RENDER_ENGINE, newDefaultRenderEngine);
     }
@@ -236,6 +251,7 @@ public class UserSettingsImpl extends IdEObjectImpl implements UserSettings {
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public SerializerPluginConfiguration getDefaultSerializer() {
         return (SerializerPluginConfiguration) eGet(StorePackage.Literals.USER_SETTINGS__DEFAULT_SERIALIZER, true);
     }
@@ -245,6 +261,7 @@ public class UserSettingsImpl extends IdEObjectImpl implements UserSettings {
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setDefaultSerializer(SerializerPluginConfiguration newDefaultSerializer) {
         eSet(StorePackage.Literals.USER_SETTINGS__DEFAULT_SERIALIZER, newDefaultSerializer);
     }
@@ -254,6 +271,7 @@ public class UserSettingsImpl extends IdEObjectImpl implements UserSettings {
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public ObjectIDMPluginConfiguration getDefaultObjectIDM() {
         return (ObjectIDMPluginConfiguration) eGet(StorePackage.Literals.USER_SETTINGS__DEFAULT_OBJECT_IDM, true);
     }
@@ -263,6 +281,7 @@ public class UserSettingsImpl extends IdEObjectImpl implements UserSettings {
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setDefaultObjectIDM(ObjectIDMPluginConfiguration newDefaultObjectIDM) {
         eSet(StorePackage.Literals.USER_SETTINGS__DEFAULT_OBJECT_IDM, newDefaultObjectIDM);
     }
@@ -273,6 +292,7 @@ public class UserSettingsImpl extends IdEObjectImpl implements UserSettings {
      * @generated
      */
     @SuppressWarnings("unchecked")
+    @Override
     public EList<InternalServicePluginConfiguration> getServices() {
         return (EList<InternalServicePluginConfiguration>) eGet(StorePackage.Literals.USER_SETTINGS__SERVICES, true);
     }

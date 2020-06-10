@@ -76,6 +76,7 @@ public class IfcWindowLiningPropertiesImpl extends IfcPropertySetDefinitionImpl 
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public double getLiningDepth() {
         return (Double) eGet(Ifc2x3tc1Package.Literals.IFC_WINDOW_LINING_PROPERTIES__LINING_DEPTH, true);
     }
@@ -85,6 +86,7 @@ public class IfcWindowLiningPropertiesImpl extends IfcPropertySetDefinitionImpl 
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setLiningDepth(double newLiningDepth) {
         eSet(Ifc2x3tc1Package.Literals.IFC_WINDOW_LINING_PROPERTIES__LINING_DEPTH, newLiningDepth);
     }
@@ -94,6 +96,7 @@ public class IfcWindowLiningPropertiesImpl extends IfcPropertySetDefinitionImpl 
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void unsetLiningDepth() {
         eUnset(Ifc2x3tc1Package.Literals.IFC_WINDOW_LINING_PROPERTIES__LINING_DEPTH);
     }
@@ -103,6 +106,7 @@ public class IfcWindowLiningPropertiesImpl extends IfcPropertySetDefinitionImpl 
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public boolean isSetLiningDepth() {
         return eIsSet(Ifc2x3tc1Package.Literals.IFC_WINDOW_LINING_PROPERTIES__LINING_DEPTH);
     }
@@ -112,6 +116,7 @@ public class IfcWindowLiningPropertiesImpl extends IfcPropertySetDefinitionImpl 
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public String getLiningDepthAsString() {
         return (String) eGet(Ifc2x3tc1Package.Literals.IFC_WINDOW_LINING_PROPERTIES__LINING_DEPTH_AS_STRING, true);
     }
@@ -121,6 +126,7 @@ public class IfcWindowLiningPropertiesImpl extends IfcPropertySetDefinitionImpl 
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setLiningDepthAsString(String newLiningDepthAsString) {
         eSet(Ifc2x3tc1Package.Literals.IFC_WINDOW_LINING_PROPERTIES__LINING_DEPTH_AS_STRING, newLiningDepthAsString);
     }
@@ -130,6 +136,7 @@ public class IfcWindowLiningPropertiesImpl extends IfcPropertySetDefinitionImpl 
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void unsetLiningDepthAsString() {
         eUnset(Ifc2x3tc1Package.Literals.IFC_WINDOW_LINING_PROPERTIES__LINING_DEPTH_AS_STRING);
     }
@@ -139,6 +146,7 @@ public class IfcWindowLiningPropertiesImpl extends IfcPropertySetDefinitionImpl 
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public boolean isSetLiningDepthAsString() {
         return eIsSet(Ifc2x3tc1Package.Literals.IFC_WINDOW_LINING_PROPERTIES__LINING_DEPTH_AS_STRING);
     }
@@ -148,6 +156,7 @@ public class IfcWindowLiningPropertiesImpl extends IfcPropertySetDefinitionImpl 
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public double getLiningThickness() {
         return (Double) eGet(Ifc2x3tc1Package.Literals.IFC_WINDOW_LINING_PROPERTIES__LINING_THICKNESS, true);
     }
@@ -157,6 +166,7 @@ public class IfcWindowLiningPropertiesImpl extends IfcPropertySetDefinitionImpl 
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setLiningThickness(double newLiningThickness) {
         eSet(Ifc2x3tc1Package.Literals.IFC_WINDOW_LINING_PROPERTIES__LINING_THICKNESS, newLiningThickness);
     }
@@ -166,6 +176,7 @@ public class IfcWindowLiningPropertiesImpl extends IfcPropertySetDefinitionImpl 
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void unsetLiningThickness() {
         eUnset(Ifc2x3tc1Package.Literals.IFC_WINDOW_LINING_PROPERTIES__LINING_THICKNESS);
     }
@@ -175,6 +186,7 @@ public class IfcWindowLiningPropertiesImpl extends IfcPropertySetDefinitionImpl 
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public boolean isSetLiningThickness() {
         return eIsSet(Ifc2x3tc1Package.Literals.IFC_WINDOW_LINING_PROPERTIES__LINING_THICKNESS);
     }
@@ -184,6 +196,7 @@ public class IfcWindowLiningPropertiesImpl extends IfcPropertySetDefinitionImpl 
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public String getLiningThicknessAsString() {
         return (String) eGet(Ifc2x3tc1Package.Literals.IFC_WINDOW_LINING_PROPERTIES__LINING_THICKNESS_AS_STRING, true);
     }
@@ -193,6 +206,7 @@ public class IfcWindowLiningPropertiesImpl extends IfcPropertySetDefinitionImpl 
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setLiningThicknessAsString(String newLiningThicknessAsString) {
         eSet(Ifc2x3tc1Package.Literals.IFC_WINDOW_LINING_PROPERTIES__LINING_THICKNESS_AS_STRING,
                 newLiningThicknessAsString);
@@ -203,6 +217,7 @@ public class IfcWindowLiningPropertiesImpl extends IfcPropertySetDefinitionImpl 
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void unsetLiningThicknessAsString() {
         eUnset(Ifc2x3tc1Package.Literals.IFC_WINDOW_LINING_PROPERTIES__LINING_THICKNESS_AS_STRING);
     }
@@ -212,6 +227,7 @@ public class IfcWindowLiningPropertiesImpl extends IfcPropertySetDefinitionImpl 
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public boolean isSetLiningThicknessAsString() {
         return eIsSet(Ifc2x3tc1Package.Literals.IFC_WINDOW_LINING_PROPERTIES__LINING_THICKNESS_AS_STRING);
     }
@@ -221,6 +237,7 @@ public class IfcWindowLiningPropertiesImpl extends IfcPropertySetDefinitionImpl 
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public double getTransomThickness() {
         return (Double) eGet(Ifc2x3tc1Package.Literals.IFC_WINDOW_LINING_PROPERTIES__TRANSOM_THICKNESS, true);
     }
@@ -230,6 +247,7 @@ public class IfcWindowLiningPropertiesImpl extends IfcPropertySetDefinitionImpl 
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setTransomThickness(double newTransomThickness) {
         eSet(Ifc2x3tc1Package.Literals.IFC_WINDOW_LINING_PROPERTIES__TRANSOM_THICKNESS, newTransomThickness);
     }
@@ -239,6 +257,7 @@ public class IfcWindowLiningPropertiesImpl extends IfcPropertySetDefinitionImpl 
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void unsetTransomThickness() {
         eUnset(Ifc2x3tc1Package.Literals.IFC_WINDOW_LINING_PROPERTIES__TRANSOM_THICKNESS);
     }
@@ -248,6 +267,7 @@ public class IfcWindowLiningPropertiesImpl extends IfcPropertySetDefinitionImpl 
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public boolean isSetTransomThickness() {
         return eIsSet(Ifc2x3tc1Package.Literals.IFC_WINDOW_LINING_PROPERTIES__TRANSOM_THICKNESS);
     }
@@ -257,6 +277,7 @@ public class IfcWindowLiningPropertiesImpl extends IfcPropertySetDefinitionImpl 
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public String getTransomThicknessAsString() {
         return (String) eGet(Ifc2x3tc1Package.Literals.IFC_WINDOW_LINING_PROPERTIES__TRANSOM_THICKNESS_AS_STRING, true);
     }
@@ -266,6 +287,7 @@ public class IfcWindowLiningPropertiesImpl extends IfcPropertySetDefinitionImpl 
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setTransomThicknessAsString(String newTransomThicknessAsString) {
         eSet(Ifc2x3tc1Package.Literals.IFC_WINDOW_LINING_PROPERTIES__TRANSOM_THICKNESS_AS_STRING,
                 newTransomThicknessAsString);
@@ -276,6 +298,7 @@ public class IfcWindowLiningPropertiesImpl extends IfcPropertySetDefinitionImpl 
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void unsetTransomThicknessAsString() {
         eUnset(Ifc2x3tc1Package.Literals.IFC_WINDOW_LINING_PROPERTIES__TRANSOM_THICKNESS_AS_STRING);
     }
@@ -285,6 +308,7 @@ public class IfcWindowLiningPropertiesImpl extends IfcPropertySetDefinitionImpl 
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public boolean isSetTransomThicknessAsString() {
         return eIsSet(Ifc2x3tc1Package.Literals.IFC_WINDOW_LINING_PROPERTIES__TRANSOM_THICKNESS_AS_STRING);
     }
@@ -294,6 +318,7 @@ public class IfcWindowLiningPropertiesImpl extends IfcPropertySetDefinitionImpl 
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public double getMullionThickness() {
         return (Double) eGet(Ifc2x3tc1Package.Literals.IFC_WINDOW_LINING_PROPERTIES__MULLION_THICKNESS, true);
     }
@@ -303,6 +328,7 @@ public class IfcWindowLiningPropertiesImpl extends IfcPropertySetDefinitionImpl 
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setMullionThickness(double newMullionThickness) {
         eSet(Ifc2x3tc1Package.Literals.IFC_WINDOW_LINING_PROPERTIES__MULLION_THICKNESS, newMullionThickness);
     }
@@ -312,6 +338,7 @@ public class IfcWindowLiningPropertiesImpl extends IfcPropertySetDefinitionImpl 
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void unsetMullionThickness() {
         eUnset(Ifc2x3tc1Package.Literals.IFC_WINDOW_LINING_PROPERTIES__MULLION_THICKNESS);
     }
@@ -321,6 +348,7 @@ public class IfcWindowLiningPropertiesImpl extends IfcPropertySetDefinitionImpl 
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public boolean isSetMullionThickness() {
         return eIsSet(Ifc2x3tc1Package.Literals.IFC_WINDOW_LINING_PROPERTIES__MULLION_THICKNESS);
     }
@@ -330,6 +358,7 @@ public class IfcWindowLiningPropertiesImpl extends IfcPropertySetDefinitionImpl 
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public String getMullionThicknessAsString() {
         return (String) eGet(Ifc2x3tc1Package.Literals.IFC_WINDOW_LINING_PROPERTIES__MULLION_THICKNESS_AS_STRING, true);
     }
@@ -339,6 +368,7 @@ public class IfcWindowLiningPropertiesImpl extends IfcPropertySetDefinitionImpl 
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setMullionThicknessAsString(String newMullionThicknessAsString) {
         eSet(Ifc2x3tc1Package.Literals.IFC_WINDOW_LINING_PROPERTIES__MULLION_THICKNESS_AS_STRING,
                 newMullionThicknessAsString);
@@ -349,6 +379,7 @@ public class IfcWindowLiningPropertiesImpl extends IfcPropertySetDefinitionImpl 
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void unsetMullionThicknessAsString() {
         eUnset(Ifc2x3tc1Package.Literals.IFC_WINDOW_LINING_PROPERTIES__MULLION_THICKNESS_AS_STRING);
     }
@@ -358,6 +389,7 @@ public class IfcWindowLiningPropertiesImpl extends IfcPropertySetDefinitionImpl 
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public boolean isSetMullionThicknessAsString() {
         return eIsSet(Ifc2x3tc1Package.Literals.IFC_WINDOW_LINING_PROPERTIES__MULLION_THICKNESS_AS_STRING);
     }
@@ -367,6 +399,7 @@ public class IfcWindowLiningPropertiesImpl extends IfcPropertySetDefinitionImpl 
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public double getFirstTransomOffset() {
         return (Double) eGet(Ifc2x3tc1Package.Literals.IFC_WINDOW_LINING_PROPERTIES__FIRST_TRANSOM_OFFSET, true);
     }
@@ -376,6 +409,7 @@ public class IfcWindowLiningPropertiesImpl extends IfcPropertySetDefinitionImpl 
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setFirstTransomOffset(double newFirstTransomOffset) {
         eSet(Ifc2x3tc1Package.Literals.IFC_WINDOW_LINING_PROPERTIES__FIRST_TRANSOM_OFFSET, newFirstTransomOffset);
     }
@@ -385,6 +419,7 @@ public class IfcWindowLiningPropertiesImpl extends IfcPropertySetDefinitionImpl 
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void unsetFirstTransomOffset() {
         eUnset(Ifc2x3tc1Package.Literals.IFC_WINDOW_LINING_PROPERTIES__FIRST_TRANSOM_OFFSET);
     }
@@ -394,6 +429,7 @@ public class IfcWindowLiningPropertiesImpl extends IfcPropertySetDefinitionImpl 
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public boolean isSetFirstTransomOffset() {
         return eIsSet(Ifc2x3tc1Package.Literals.IFC_WINDOW_LINING_PROPERTIES__FIRST_TRANSOM_OFFSET);
     }
@@ -403,6 +439,7 @@ public class IfcWindowLiningPropertiesImpl extends IfcPropertySetDefinitionImpl 
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public String getFirstTransomOffsetAsString() {
         return (String) eGet(Ifc2x3tc1Package.Literals.IFC_WINDOW_LINING_PROPERTIES__FIRST_TRANSOM_OFFSET_AS_STRING,
                 true);
@@ -413,6 +450,7 @@ public class IfcWindowLiningPropertiesImpl extends IfcPropertySetDefinitionImpl 
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setFirstTransomOffsetAsString(String newFirstTransomOffsetAsString) {
         eSet(Ifc2x3tc1Package.Literals.IFC_WINDOW_LINING_PROPERTIES__FIRST_TRANSOM_OFFSET_AS_STRING,
                 newFirstTransomOffsetAsString);
@@ -423,6 +461,7 @@ public class IfcWindowLiningPropertiesImpl extends IfcPropertySetDefinitionImpl 
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void unsetFirstTransomOffsetAsString() {
         eUnset(Ifc2x3tc1Package.Literals.IFC_WINDOW_LINING_PROPERTIES__FIRST_TRANSOM_OFFSET_AS_STRING);
     }
@@ -432,6 +471,7 @@ public class IfcWindowLiningPropertiesImpl extends IfcPropertySetDefinitionImpl 
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public boolean isSetFirstTransomOffsetAsString() {
         return eIsSet(Ifc2x3tc1Package.Literals.IFC_WINDOW_LINING_PROPERTIES__FIRST_TRANSOM_OFFSET_AS_STRING);
     }
@@ -441,6 +481,7 @@ public class IfcWindowLiningPropertiesImpl extends IfcPropertySetDefinitionImpl 
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public double getSecondTransomOffset() {
         return (Double) eGet(Ifc2x3tc1Package.Literals.IFC_WINDOW_LINING_PROPERTIES__SECOND_TRANSOM_OFFSET, true);
     }
@@ -450,6 +491,7 @@ public class IfcWindowLiningPropertiesImpl extends IfcPropertySetDefinitionImpl 
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setSecondTransomOffset(double newSecondTransomOffset) {
         eSet(Ifc2x3tc1Package.Literals.IFC_WINDOW_LINING_PROPERTIES__SECOND_TRANSOM_OFFSET, newSecondTransomOffset);
     }
@@ -459,6 +501,7 @@ public class IfcWindowLiningPropertiesImpl extends IfcPropertySetDefinitionImpl 
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void unsetSecondTransomOffset() {
         eUnset(Ifc2x3tc1Package.Literals.IFC_WINDOW_LINING_PROPERTIES__SECOND_TRANSOM_OFFSET);
     }
@@ -468,6 +511,7 @@ public class IfcWindowLiningPropertiesImpl extends IfcPropertySetDefinitionImpl 
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public boolean isSetSecondTransomOffset() {
         return eIsSet(Ifc2x3tc1Package.Literals.IFC_WINDOW_LINING_PROPERTIES__SECOND_TRANSOM_OFFSET);
     }
@@ -477,6 +521,7 @@ public class IfcWindowLiningPropertiesImpl extends IfcPropertySetDefinitionImpl 
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public String getSecondTransomOffsetAsString() {
         return (String) eGet(Ifc2x3tc1Package.Literals.IFC_WINDOW_LINING_PROPERTIES__SECOND_TRANSOM_OFFSET_AS_STRING,
                 true);
@@ -487,6 +532,7 @@ public class IfcWindowLiningPropertiesImpl extends IfcPropertySetDefinitionImpl 
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setSecondTransomOffsetAsString(String newSecondTransomOffsetAsString) {
         eSet(Ifc2x3tc1Package.Literals.IFC_WINDOW_LINING_PROPERTIES__SECOND_TRANSOM_OFFSET_AS_STRING,
                 newSecondTransomOffsetAsString);
@@ -497,6 +543,7 @@ public class IfcWindowLiningPropertiesImpl extends IfcPropertySetDefinitionImpl 
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void unsetSecondTransomOffsetAsString() {
         eUnset(Ifc2x3tc1Package.Literals.IFC_WINDOW_LINING_PROPERTIES__SECOND_TRANSOM_OFFSET_AS_STRING);
     }
@@ -506,6 +553,7 @@ public class IfcWindowLiningPropertiesImpl extends IfcPropertySetDefinitionImpl 
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public boolean isSetSecondTransomOffsetAsString() {
         return eIsSet(Ifc2x3tc1Package.Literals.IFC_WINDOW_LINING_PROPERTIES__SECOND_TRANSOM_OFFSET_AS_STRING);
     }
@@ -515,6 +563,7 @@ public class IfcWindowLiningPropertiesImpl extends IfcPropertySetDefinitionImpl 
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public double getFirstMullionOffset() {
         return (Double) eGet(Ifc2x3tc1Package.Literals.IFC_WINDOW_LINING_PROPERTIES__FIRST_MULLION_OFFSET, true);
     }
@@ -524,6 +573,7 @@ public class IfcWindowLiningPropertiesImpl extends IfcPropertySetDefinitionImpl 
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setFirstMullionOffset(double newFirstMullionOffset) {
         eSet(Ifc2x3tc1Package.Literals.IFC_WINDOW_LINING_PROPERTIES__FIRST_MULLION_OFFSET, newFirstMullionOffset);
     }
@@ -533,6 +583,7 @@ public class IfcWindowLiningPropertiesImpl extends IfcPropertySetDefinitionImpl 
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void unsetFirstMullionOffset() {
         eUnset(Ifc2x3tc1Package.Literals.IFC_WINDOW_LINING_PROPERTIES__FIRST_MULLION_OFFSET);
     }
@@ -542,6 +593,7 @@ public class IfcWindowLiningPropertiesImpl extends IfcPropertySetDefinitionImpl 
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public boolean isSetFirstMullionOffset() {
         return eIsSet(Ifc2x3tc1Package.Literals.IFC_WINDOW_LINING_PROPERTIES__FIRST_MULLION_OFFSET);
     }
@@ -551,6 +603,7 @@ public class IfcWindowLiningPropertiesImpl extends IfcPropertySetDefinitionImpl 
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public String getFirstMullionOffsetAsString() {
         return (String) eGet(Ifc2x3tc1Package.Literals.IFC_WINDOW_LINING_PROPERTIES__FIRST_MULLION_OFFSET_AS_STRING,
                 true);
@@ -561,6 +614,7 @@ public class IfcWindowLiningPropertiesImpl extends IfcPropertySetDefinitionImpl 
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setFirstMullionOffsetAsString(String newFirstMullionOffsetAsString) {
         eSet(Ifc2x3tc1Package.Literals.IFC_WINDOW_LINING_PROPERTIES__FIRST_MULLION_OFFSET_AS_STRING,
                 newFirstMullionOffsetAsString);
@@ -571,6 +625,7 @@ public class IfcWindowLiningPropertiesImpl extends IfcPropertySetDefinitionImpl 
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void unsetFirstMullionOffsetAsString() {
         eUnset(Ifc2x3tc1Package.Literals.IFC_WINDOW_LINING_PROPERTIES__FIRST_MULLION_OFFSET_AS_STRING);
     }
@@ -580,6 +635,7 @@ public class IfcWindowLiningPropertiesImpl extends IfcPropertySetDefinitionImpl 
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public boolean isSetFirstMullionOffsetAsString() {
         return eIsSet(Ifc2x3tc1Package.Literals.IFC_WINDOW_LINING_PROPERTIES__FIRST_MULLION_OFFSET_AS_STRING);
     }
@@ -589,6 +645,7 @@ public class IfcWindowLiningPropertiesImpl extends IfcPropertySetDefinitionImpl 
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public double getSecondMullionOffset() {
         return (Double) eGet(Ifc2x3tc1Package.Literals.IFC_WINDOW_LINING_PROPERTIES__SECOND_MULLION_OFFSET, true);
     }
@@ -598,6 +655,7 @@ public class IfcWindowLiningPropertiesImpl extends IfcPropertySetDefinitionImpl 
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setSecondMullionOffset(double newSecondMullionOffset) {
         eSet(Ifc2x3tc1Package.Literals.IFC_WINDOW_LINING_PROPERTIES__SECOND_MULLION_OFFSET, newSecondMullionOffset);
     }
@@ -607,6 +665,7 @@ public class IfcWindowLiningPropertiesImpl extends IfcPropertySetDefinitionImpl 
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void unsetSecondMullionOffset() {
         eUnset(Ifc2x3tc1Package.Literals.IFC_WINDOW_LINING_PROPERTIES__SECOND_MULLION_OFFSET);
     }
@@ -616,6 +675,7 @@ public class IfcWindowLiningPropertiesImpl extends IfcPropertySetDefinitionImpl 
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public boolean isSetSecondMullionOffset() {
         return eIsSet(Ifc2x3tc1Package.Literals.IFC_WINDOW_LINING_PROPERTIES__SECOND_MULLION_OFFSET);
     }
@@ -625,6 +685,7 @@ public class IfcWindowLiningPropertiesImpl extends IfcPropertySetDefinitionImpl 
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public String getSecondMullionOffsetAsString() {
         return (String) eGet(Ifc2x3tc1Package.Literals.IFC_WINDOW_LINING_PROPERTIES__SECOND_MULLION_OFFSET_AS_STRING,
                 true);
@@ -635,6 +696,7 @@ public class IfcWindowLiningPropertiesImpl extends IfcPropertySetDefinitionImpl 
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setSecondMullionOffsetAsString(String newSecondMullionOffsetAsString) {
         eSet(Ifc2x3tc1Package.Literals.IFC_WINDOW_LINING_PROPERTIES__SECOND_MULLION_OFFSET_AS_STRING,
                 newSecondMullionOffsetAsString);
@@ -645,6 +707,7 @@ public class IfcWindowLiningPropertiesImpl extends IfcPropertySetDefinitionImpl 
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void unsetSecondMullionOffsetAsString() {
         eUnset(Ifc2x3tc1Package.Literals.IFC_WINDOW_LINING_PROPERTIES__SECOND_MULLION_OFFSET_AS_STRING);
     }
@@ -654,6 +717,7 @@ public class IfcWindowLiningPropertiesImpl extends IfcPropertySetDefinitionImpl 
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public boolean isSetSecondMullionOffsetAsString() {
         return eIsSet(Ifc2x3tc1Package.Literals.IFC_WINDOW_LINING_PROPERTIES__SECOND_MULLION_OFFSET_AS_STRING);
     }
@@ -663,6 +727,7 @@ public class IfcWindowLiningPropertiesImpl extends IfcPropertySetDefinitionImpl 
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public IfcShapeAspect getShapeAspectStyle() {
         return (IfcShapeAspect) eGet(Ifc2x3tc1Package.Literals.IFC_WINDOW_LINING_PROPERTIES__SHAPE_ASPECT_STYLE, true);
     }
@@ -672,6 +737,7 @@ public class IfcWindowLiningPropertiesImpl extends IfcPropertySetDefinitionImpl 
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setShapeAspectStyle(IfcShapeAspect newShapeAspectStyle) {
         eSet(Ifc2x3tc1Package.Literals.IFC_WINDOW_LINING_PROPERTIES__SHAPE_ASPECT_STYLE, newShapeAspectStyle);
     }
@@ -681,6 +747,7 @@ public class IfcWindowLiningPropertiesImpl extends IfcPropertySetDefinitionImpl 
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void unsetShapeAspectStyle() {
         eUnset(Ifc2x3tc1Package.Literals.IFC_WINDOW_LINING_PROPERTIES__SHAPE_ASPECT_STYLE);
     }
@@ -690,6 +757,7 @@ public class IfcWindowLiningPropertiesImpl extends IfcPropertySetDefinitionImpl 
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public boolean isSetShapeAspectStyle() {
         return eIsSet(Ifc2x3tc1Package.Literals.IFC_WINDOW_LINING_PROPERTIES__SHAPE_ASPECT_STYLE);
     }

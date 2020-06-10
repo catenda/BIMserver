@@ -29,7 +29,7 @@ package org.bimserver.models.ifc2x3tc1;
  * </ul>
  *
  * @see org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package#getIfcCompoundPlaneAngleMeasure()
- * @model
+ * @model annotation="wrapped"
  * @generated
  */
 public interface IfcCompoundPlaneAngleMeasure extends IfcDerivedMeasureValue {

@@ -60,6 +60,7 @@ public class IfcPlateTypeImpl extends IfcBuildingElementTypeImpl implements IfcP
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public IfcPlateTypeEnum getPredefinedType() {
         return (IfcPlateTypeEnum) eGet(Ifc4Package.Literals.IFC_PLATE_TYPE__PREDEFINED_TYPE, true);
     }
@@ -69,6 +70,7 @@ public class IfcPlateTypeImpl extends IfcBuildingElementTypeImpl implements IfcP
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setPredefinedType(IfcPlateTypeEnum newPredefinedType) {
         eSet(Ifc4Package.Literals.IFC_PLATE_TYPE__PREDEFINED_TYPE, newPredefinedType);
     }

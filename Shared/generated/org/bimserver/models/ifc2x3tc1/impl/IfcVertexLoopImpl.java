@@ -60,6 +60,7 @@ public class IfcVertexLoopImpl extends IfcLoopImpl implements IfcVertexLoop {
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public IfcVertex getLoopVertex() {
         return (IfcVertex) eGet(Ifc2x3tc1Package.Literals.IFC_VERTEX_LOOP__LOOP_VERTEX, true);
     }
@@ -69,6 +70,7 @@ public class IfcVertexLoopImpl extends IfcLoopImpl implements IfcVertexLoop {
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setLoopVertex(IfcVertex newLoopVertex) {
         eSet(Ifc2x3tc1Package.Literals.IFC_VERTEX_LOOP__LOOP_VERTEX, newLoopVertex);
     }

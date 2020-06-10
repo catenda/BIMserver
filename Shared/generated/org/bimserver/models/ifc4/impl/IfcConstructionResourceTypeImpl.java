@@ -65,6 +65,7 @@ public class IfcConstructionResourceTypeImpl extends IfcTypeResourceImpl impleme
      * @generated
      */
     @SuppressWarnings("unchecked")
+    @Override
     public EList<IfcAppliedValue> getBaseCosts() {
         return (EList<IfcAppliedValue>) eGet(Ifc4Package.Literals.IFC_CONSTRUCTION_RESOURCE_TYPE__BASE_COSTS, true);
     }
@@ -74,6 +75,7 @@ public class IfcConstructionResourceTypeImpl extends IfcTypeResourceImpl impleme
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void unsetBaseCosts() {
         eUnset(Ifc4Package.Literals.IFC_CONSTRUCTION_RESOURCE_TYPE__BASE_COSTS);
     }
@@ -83,6 +85,7 @@ public class IfcConstructionResourceTypeImpl extends IfcTypeResourceImpl impleme
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public boolean isSetBaseCosts() {
         return eIsSet(Ifc4Package.Literals.IFC_CONSTRUCTION_RESOURCE_TYPE__BASE_COSTS);
     }
@@ -92,6 +95,7 @@ public class IfcConstructionResourceTypeImpl extends IfcTypeResourceImpl impleme
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public IfcPhysicalQuantity getBaseQuantity() {
         return (IfcPhysicalQuantity) eGet(Ifc4Package.Literals.IFC_CONSTRUCTION_RESOURCE_TYPE__BASE_QUANTITY, true);
     }
@@ -101,6 +105,7 @@ public class IfcConstructionResourceTypeImpl extends IfcTypeResourceImpl impleme
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setBaseQuantity(IfcPhysicalQuantity newBaseQuantity) {
         eSet(Ifc4Package.Literals.IFC_CONSTRUCTION_RESOURCE_TYPE__BASE_QUANTITY, newBaseQuantity);
     }
@@ -110,6 +115,7 @@ public class IfcConstructionResourceTypeImpl extends IfcTypeResourceImpl impleme
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void unsetBaseQuantity() {
         eUnset(Ifc4Package.Literals.IFC_CONSTRUCTION_RESOURCE_TYPE__BASE_QUANTITY);
     }
@@ -119,6 +125,7 @@ public class IfcConstructionResourceTypeImpl extends IfcTypeResourceImpl impleme
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public boolean isSetBaseQuantity() {
         return eIsSet(Ifc4Package.Literals.IFC_CONSTRUCTION_RESOURCE_TYPE__BASE_QUANTITY);
     }

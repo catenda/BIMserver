@@ -53,6 +53,7 @@ public interface IfcTimeSeriesReferenceRelationship extends IdEObject {
      * @see org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package#getIfcTimeSeriesReferenceRelationship_ReferencedTimeSeries()
      * @see org.bimserver.models.ifc2x3tc1.IfcTimeSeries#getDocumentedBy
      * @model opposite="DocumentedBy"
+     *        annotation="inverse"
      * @generated
      */
     IfcTimeSeries getReferencedTimeSeries();

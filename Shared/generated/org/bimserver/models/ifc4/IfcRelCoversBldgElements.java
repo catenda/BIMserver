@@ -50,6 +50,7 @@ public interface IfcRelCoversBldgElements extends IfcRelConnects {
      * @see org.bimserver.models.ifc4.Ifc4Package#getIfcRelCoversBldgElements_RelatingBuildingElement()
      * @see org.bimserver.models.ifc4.IfcElement#getHasCoverings
      * @model opposite="HasCoverings"
+     *        annotation="inverse"
      * @generated
      */
     IfcElement getRelatingBuildingElement();
@@ -78,6 +79,7 @@ public interface IfcRelCoversBldgElements extends IfcRelConnects {
      * @see org.bimserver.models.ifc4.Ifc4Package#getIfcRelCoversBldgElements_RelatedCoverings()
      * @see org.bimserver.models.ifc4.IfcCovering#getCoversElements
      * @model opposite="CoversElements"
+     *        annotation="inverse"
      * @generated
      */
     EList<IfcCovering> getRelatedCoverings();

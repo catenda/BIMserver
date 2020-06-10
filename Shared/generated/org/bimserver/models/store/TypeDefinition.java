@@ -25,7 +25,7 @@ import org.bimserver.emf.IdEObject;
  *
  *
  * @see org.bimserver.models.store.StorePackage#getTypeDefinition()
- * @model
+ * @model annotation="nodatabase"
  * @extends IdEObject
  * @generated
  */

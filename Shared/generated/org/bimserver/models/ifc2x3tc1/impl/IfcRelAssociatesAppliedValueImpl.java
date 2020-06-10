@@ -60,6 +60,7 @@ public class IfcRelAssociatesAppliedValueImpl extends IfcRelAssociatesImpl imple
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public IfcAppliedValue getRelatingAppliedValue() {
         return (IfcAppliedValue) eGet(
                 Ifc2x3tc1Package.Literals.IFC_REL_ASSOCIATES_APPLIED_VALUE__RELATING_APPLIED_VALUE, true);
@@ -70,6 +71,7 @@ public class IfcRelAssociatesAppliedValueImpl extends IfcRelAssociatesImpl imple
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setRelatingAppliedValue(IfcAppliedValue newRelatingAppliedValue) {
         eSet(Ifc2x3tc1Package.Literals.IFC_REL_ASSOCIATES_APPLIED_VALUE__RELATING_APPLIED_VALUE,
                 newRelatingAppliedValue);

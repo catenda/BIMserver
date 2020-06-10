@@ -174,6 +174,7 @@ public interface IfcDocumentInformation extends IfcDocumentSelect {
      * @see org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package#getIfcDocumentInformation_DocumentReferences()
      * @see org.bimserver.models.ifc2x3tc1.IfcDocumentReference#getReferenceToDocument
      * @model opposite="ReferenceToDocument" unsettable="true"
+     *        annotation="inverse"
      * @generated
      */
     EList<IfcDocumentReference> getDocumentReferences();
@@ -896,6 +897,7 @@ public interface IfcDocumentInformation extends IfcDocumentSelect {
      * @see org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package#getIfcDocumentInformation_IsPointedTo()
      * @see org.bimserver.models.ifc2x3tc1.IfcDocumentInformationRelationship#getRelatedDocuments
      * @model opposite="RelatedDocuments" unsettable="true"
+     *        annotation="inverse"
      * @generated
      */
     EList<IfcDocumentInformationRelationship> getIsPointedTo();
@@ -937,6 +939,7 @@ public interface IfcDocumentInformation extends IfcDocumentSelect {
      * @see org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package#getIfcDocumentInformation_IsPointer()
      * @see org.bimserver.models.ifc2x3tc1.IfcDocumentInformationRelationship#getRelatingDocument
      * @model opposite="RelatingDocument" unsettable="true" upper="2"
+     *        annotation="inverse"
      * @generated
      */
     EList<IfcDocumentInformationRelationship> getIsPointer();

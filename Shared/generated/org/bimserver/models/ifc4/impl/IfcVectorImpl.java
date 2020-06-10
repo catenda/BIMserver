@@ -63,6 +63,7 @@ public class IfcVectorImpl extends IfcGeometricRepresentationItemImpl implements
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public IfcDirection getOrientation() {
         return (IfcDirection) eGet(Ifc4Package.Literals.IFC_VECTOR__ORIENTATION, true);
     }
@@ -72,6 +73,7 @@ public class IfcVectorImpl extends IfcGeometricRepresentationItemImpl implements
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setOrientation(IfcDirection newOrientation) {
         eSet(Ifc4Package.Literals.IFC_VECTOR__ORIENTATION, newOrientation);
     }
@@ -81,6 +83,7 @@ public class IfcVectorImpl extends IfcGeometricRepresentationItemImpl implements
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public double getMagnitude() {
         return (Double) eGet(Ifc4Package.Literals.IFC_VECTOR__MAGNITUDE, true);
     }
@@ -90,6 +93,7 @@ public class IfcVectorImpl extends IfcGeometricRepresentationItemImpl implements
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setMagnitude(double newMagnitude) {
         eSet(Ifc4Package.Literals.IFC_VECTOR__MAGNITUDE, newMagnitude);
     }
@@ -99,6 +103,7 @@ public class IfcVectorImpl extends IfcGeometricRepresentationItemImpl implements
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public String getMagnitudeAsString() {
         return (String) eGet(Ifc4Package.Literals.IFC_VECTOR__MAGNITUDE_AS_STRING, true);
     }
@@ -108,6 +113,7 @@ public class IfcVectorImpl extends IfcGeometricRepresentationItemImpl implements
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setMagnitudeAsString(String newMagnitudeAsString) {
         eSet(Ifc4Package.Literals.IFC_VECTOR__MAGNITUDE_AS_STRING, newMagnitudeAsString);
     }
@@ -117,6 +123,7 @@ public class IfcVectorImpl extends IfcGeometricRepresentationItemImpl implements
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public long getDim() {
         return (Long) eGet(Ifc4Package.Literals.IFC_VECTOR__DIM, true);
     }
@@ -126,6 +133,7 @@ public class IfcVectorImpl extends IfcGeometricRepresentationItemImpl implements
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setDim(long newDim) {
         eSet(Ifc4Package.Literals.IFC_VECTOR__DIM, newDim);
     }
@@ -135,6 +143,7 @@ public class IfcVectorImpl extends IfcGeometricRepresentationItemImpl implements
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void unsetDim() {
         eUnset(Ifc4Package.Literals.IFC_VECTOR__DIM);
     }
@@ -144,6 +153,7 @@ public class IfcVectorImpl extends IfcGeometricRepresentationItemImpl implements
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public boolean isSetDim() {
         return eIsSet(Ifc4Package.Literals.IFC_VECTOR__DIM);
     }

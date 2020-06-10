@@ -62,6 +62,7 @@ public class IfcRelSpaceBoundary1stLevelImpl extends IfcRelSpaceBoundaryImpl imp
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public IfcRelSpaceBoundary1stLevel getParentBoundary() {
         return (IfcRelSpaceBoundary1stLevel) eGet(Ifc4Package.Literals.IFC_REL_SPACE_BOUNDARY1ST_LEVEL__PARENT_BOUNDARY,
                 true);
@@ -72,6 +73,7 @@ public class IfcRelSpaceBoundary1stLevelImpl extends IfcRelSpaceBoundaryImpl imp
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setParentBoundary(IfcRelSpaceBoundary1stLevel newParentBoundary) {
         eSet(Ifc4Package.Literals.IFC_REL_SPACE_BOUNDARY1ST_LEVEL__PARENT_BOUNDARY, newParentBoundary);
     }
@@ -81,6 +83,7 @@ public class IfcRelSpaceBoundary1stLevelImpl extends IfcRelSpaceBoundaryImpl imp
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void unsetParentBoundary() {
         eUnset(Ifc4Package.Literals.IFC_REL_SPACE_BOUNDARY1ST_LEVEL__PARENT_BOUNDARY);
     }
@@ -90,6 +93,7 @@ public class IfcRelSpaceBoundary1stLevelImpl extends IfcRelSpaceBoundaryImpl imp
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public boolean isSetParentBoundary() {
         return eIsSet(Ifc4Package.Literals.IFC_REL_SPACE_BOUNDARY1ST_LEVEL__PARENT_BOUNDARY);
     }
@@ -100,6 +104,7 @@ public class IfcRelSpaceBoundary1stLevelImpl extends IfcRelSpaceBoundaryImpl imp
      * @generated
      */
     @SuppressWarnings("unchecked")
+    @Override
     public EList<IfcRelSpaceBoundary1stLevel> getInnerBoundaries() {
         return (EList<IfcRelSpaceBoundary1stLevel>) eGet(
                 Ifc4Package.Literals.IFC_REL_SPACE_BOUNDARY1ST_LEVEL__INNER_BOUNDARIES, true);
@@ -110,6 +115,7 @@ public class IfcRelSpaceBoundary1stLevelImpl extends IfcRelSpaceBoundaryImpl imp
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void unsetInnerBoundaries() {
         eUnset(Ifc4Package.Literals.IFC_REL_SPACE_BOUNDARY1ST_LEVEL__INNER_BOUNDARIES);
     }
@@ -119,6 +125,7 @@ public class IfcRelSpaceBoundary1stLevelImpl extends IfcRelSpaceBoundaryImpl imp
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public boolean isSetInnerBoundaries() {
         return eIsSet(Ifc4Package.Literals.IFC_REL_SPACE_BOUNDARY1ST_LEVEL__INNER_BOUNDARIES);
     }

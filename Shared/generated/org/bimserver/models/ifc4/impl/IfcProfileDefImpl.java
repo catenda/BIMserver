@@ -79,6 +79,7 @@ public class IfcProfileDefImpl extends IdEObjectImpl implements IfcProfileDef {
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public IfcProfileTypeEnum getProfileType() {
         return (IfcProfileTypeEnum) eGet(Ifc4Package.Literals.IFC_PROFILE_DEF__PROFILE_TYPE, true);
     }
@@ -88,6 +89,7 @@ public class IfcProfileDefImpl extends IdEObjectImpl implements IfcProfileDef {
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setProfileType(IfcProfileTypeEnum newProfileType) {
         eSet(Ifc4Package.Literals.IFC_PROFILE_DEF__PROFILE_TYPE, newProfileType);
     }
@@ -97,6 +99,7 @@ public class IfcProfileDefImpl extends IdEObjectImpl implements IfcProfileDef {
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public String getProfileName() {
         return (String) eGet(Ifc4Package.Literals.IFC_PROFILE_DEF__PROFILE_NAME, true);
     }
@@ -106,6 +109,7 @@ public class IfcProfileDefImpl extends IdEObjectImpl implements IfcProfileDef {
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setProfileName(String newProfileName) {
         eSet(Ifc4Package.Literals.IFC_PROFILE_DEF__PROFILE_NAME, newProfileName);
     }
@@ -115,6 +119,7 @@ public class IfcProfileDefImpl extends IdEObjectImpl implements IfcProfileDef {
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void unsetProfileName() {
         eUnset(Ifc4Package.Literals.IFC_PROFILE_DEF__PROFILE_NAME);
     }
@@ -124,6 +129,7 @@ public class IfcProfileDefImpl extends IdEObjectImpl implements IfcProfileDef {
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public boolean isSetProfileName() {
         return eIsSet(Ifc4Package.Literals.IFC_PROFILE_DEF__PROFILE_NAME);
     }
@@ -134,6 +140,7 @@ public class IfcProfileDefImpl extends IdEObjectImpl implements IfcProfileDef {
      * @generated
      */
     @SuppressWarnings("unchecked")
+    @Override
     public EList<IfcExternalReferenceRelationship> getHasExternalReference() {
         return (EList<IfcExternalReferenceRelationship>) eGet(
                 Ifc4Package.Literals.IFC_PROFILE_DEF__HAS_EXTERNAL_REFERENCE, true);
@@ -144,6 +151,7 @@ public class IfcProfileDefImpl extends IdEObjectImpl implements IfcProfileDef {
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void unsetHasExternalReference() {
         eUnset(Ifc4Package.Literals.IFC_PROFILE_DEF__HAS_EXTERNAL_REFERENCE);
     }
@@ -153,6 +161,7 @@ public class IfcProfileDefImpl extends IdEObjectImpl implements IfcProfileDef {
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public boolean isSetHasExternalReference() {
         return eIsSet(Ifc4Package.Literals.IFC_PROFILE_DEF__HAS_EXTERNAL_REFERENCE);
     }
@@ -163,6 +172,7 @@ public class IfcProfileDefImpl extends IdEObjectImpl implements IfcProfileDef {
      * @generated
      */
     @SuppressWarnings("unchecked")
+    @Override
     public EList<IfcProfileProperties> getHasProperties() {
         return (EList<IfcProfileProperties>) eGet(Ifc4Package.Literals.IFC_PROFILE_DEF__HAS_PROPERTIES, true);
     }
@@ -172,6 +182,7 @@ public class IfcProfileDefImpl extends IdEObjectImpl implements IfcProfileDef {
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void unsetHasProperties() {
         eUnset(Ifc4Package.Literals.IFC_PROFILE_DEF__HAS_PROPERTIES);
     }
@@ -181,6 +192,7 @@ public class IfcProfileDefImpl extends IdEObjectImpl implements IfcProfileDef {
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public boolean isSetHasProperties() {
         return eIsSet(Ifc4Package.Literals.IFC_PROFILE_DEF__HAS_PROPERTIES);
     }

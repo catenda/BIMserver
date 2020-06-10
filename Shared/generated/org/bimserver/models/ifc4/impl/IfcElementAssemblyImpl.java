@@ -62,6 +62,7 @@ public class IfcElementAssemblyImpl extends IfcElementImpl implements IfcElement
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public IfcAssemblyPlaceEnum getAssemblyPlace() {
         return (IfcAssemblyPlaceEnum) eGet(Ifc4Package.Literals.IFC_ELEMENT_ASSEMBLY__ASSEMBLY_PLACE, true);
     }
@@ -71,6 +72,7 @@ public class IfcElementAssemblyImpl extends IfcElementImpl implements IfcElement
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setAssemblyPlace(IfcAssemblyPlaceEnum newAssemblyPlace) {
         eSet(Ifc4Package.Literals.IFC_ELEMENT_ASSEMBLY__ASSEMBLY_PLACE, newAssemblyPlace);
     }
@@ -80,6 +82,7 @@ public class IfcElementAssemblyImpl extends IfcElementImpl implements IfcElement
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void unsetAssemblyPlace() {
         eUnset(Ifc4Package.Literals.IFC_ELEMENT_ASSEMBLY__ASSEMBLY_PLACE);
     }
@@ -89,6 +92,7 @@ public class IfcElementAssemblyImpl extends IfcElementImpl implements IfcElement
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public boolean isSetAssemblyPlace() {
         return eIsSet(Ifc4Package.Literals.IFC_ELEMENT_ASSEMBLY__ASSEMBLY_PLACE);
     }
@@ -98,6 +102,7 @@ public class IfcElementAssemblyImpl extends IfcElementImpl implements IfcElement
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public IfcElementAssemblyTypeEnum getPredefinedType() {
         return (IfcElementAssemblyTypeEnum) eGet(Ifc4Package.Literals.IFC_ELEMENT_ASSEMBLY__PREDEFINED_TYPE, true);
     }
@@ -107,6 +112,7 @@ public class IfcElementAssemblyImpl extends IfcElementImpl implements IfcElement
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setPredefinedType(IfcElementAssemblyTypeEnum newPredefinedType) {
         eSet(Ifc4Package.Literals.IFC_ELEMENT_ASSEMBLY__PREDEFINED_TYPE, newPredefinedType);
     }
@@ -116,6 +122,7 @@ public class IfcElementAssemblyImpl extends IfcElementImpl implements IfcElement
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void unsetPredefinedType() {
         eUnset(Ifc4Package.Literals.IFC_ELEMENT_ASSEMBLY__PREDEFINED_TYPE);
     }
@@ -125,6 +132,7 @@ public class IfcElementAssemblyImpl extends IfcElementImpl implements IfcElement
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public boolean isSetPredefinedType() {
         return eIsSet(Ifc4Package.Literals.IFC_ELEMENT_ASSEMBLY__PREDEFINED_TYPE);
     }

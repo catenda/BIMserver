@@ -60,6 +60,7 @@ public class IfcMedicalDeviceTypeImpl extends IfcFlowTerminalTypeImpl implements
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public IfcMedicalDeviceTypeEnum getPredefinedType() {
         return (IfcMedicalDeviceTypeEnum) eGet(Ifc4Package.Literals.IFC_MEDICAL_DEVICE_TYPE__PREDEFINED_TYPE, true);
     }
@@ -69,6 +70,7 @@ public class IfcMedicalDeviceTypeImpl extends IfcFlowTerminalTypeImpl implements
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setPredefinedType(IfcMedicalDeviceTypeEnum newPredefinedType) {
         eSet(Ifc4Package.Literals.IFC_MEDICAL_DEVICE_TYPE__PREDEFINED_TYPE, newPredefinedType);
     }

@@ -79,7 +79,8 @@ public interface IfcIShapeProfileDef extends IfcParameterizedProfileDef {
      * @return the value of the '<em>Overall Width As String</em>' attribute.
      * @see #setOverallWidthAsString(String)
      * @see org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package#getIfcIShapeProfileDef_OverallWidthAsString()
-     * @model
+     * @model annotation="asstring"
+     *        annotation="hidden"
      * @generated
      */
     String getOverallWidthAsString();
@@ -131,7 +132,8 @@ public interface IfcIShapeProfileDef extends IfcParameterizedProfileDef {
      * @return the value of the '<em>Overall Depth As String</em>' attribute.
      * @see #setOverallDepthAsString(String)
      * @see org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package#getIfcIShapeProfileDef_OverallDepthAsString()
-     * @model
+     * @model annotation="asstring"
+     *        annotation="hidden"
      * @generated
      */
     String getOverallDepthAsString();
@@ -183,7 +185,8 @@ public interface IfcIShapeProfileDef extends IfcParameterizedProfileDef {
      * @return the value of the '<em>Web Thickness As String</em>' attribute.
      * @see #setWebThicknessAsString(String)
      * @see org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package#getIfcIShapeProfileDef_WebThicknessAsString()
-     * @model
+     * @model annotation="asstring"
+     *        annotation="hidden"
      * @generated
      */
     String getWebThicknessAsString();
@@ -235,7 +238,8 @@ public interface IfcIShapeProfileDef extends IfcParameterizedProfileDef {
      * @return the value of the '<em>Flange Thickness As String</em>' attribute.
      * @see #setFlangeThicknessAsString(String)
      * @see org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package#getIfcIShapeProfileDef_FlangeThicknessAsString()
-     * @model
+     * @model annotation="asstring"
+     *        annotation="hidden"
      * @generated
      */
     String getFlangeThicknessAsString();
@@ -317,6 +321,8 @@ public interface IfcIShapeProfileDef extends IfcParameterizedProfileDef {
      * @see #setFilletRadiusAsString(String)
      * @see org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package#getIfcIShapeProfileDef_FilletRadiusAsString()
      * @model unsettable="true"
+     *        annotation="asstring"
+     *        annotation="hidden"
      * @generated
      */
     String getFilletRadiusAsString();

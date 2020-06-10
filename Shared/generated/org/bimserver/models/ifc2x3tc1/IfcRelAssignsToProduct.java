@@ -47,6 +47,7 @@ public interface IfcRelAssignsToProduct extends IfcRelAssigns {
      * @see org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package#getIfcRelAssignsToProduct_RelatingProduct()
      * @see org.bimserver.models.ifc2x3tc1.IfcProduct#getReferencedBy
      * @model opposite="ReferencedBy"
+     *        annotation="inverse"
      * @generated
      */
     IfcProduct getRelatingProduct();

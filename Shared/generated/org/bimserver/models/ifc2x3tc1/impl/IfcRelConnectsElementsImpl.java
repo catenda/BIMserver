@@ -63,6 +63,7 @@ public class IfcRelConnectsElementsImpl extends IfcRelConnectsImpl implements If
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public IfcConnectionGeometry getConnectionGeometry() {
         return (IfcConnectionGeometry) eGet(Ifc2x3tc1Package.Literals.IFC_REL_CONNECTS_ELEMENTS__CONNECTION_GEOMETRY,
                 true);
@@ -73,6 +74,7 @@ public class IfcRelConnectsElementsImpl extends IfcRelConnectsImpl implements If
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setConnectionGeometry(IfcConnectionGeometry newConnectionGeometry) {
         eSet(Ifc2x3tc1Package.Literals.IFC_REL_CONNECTS_ELEMENTS__CONNECTION_GEOMETRY, newConnectionGeometry);
     }
@@ -82,6 +84,7 @@ public class IfcRelConnectsElementsImpl extends IfcRelConnectsImpl implements If
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void unsetConnectionGeometry() {
         eUnset(Ifc2x3tc1Package.Literals.IFC_REL_CONNECTS_ELEMENTS__CONNECTION_GEOMETRY);
     }
@@ -91,6 +94,7 @@ public class IfcRelConnectsElementsImpl extends IfcRelConnectsImpl implements If
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public boolean isSetConnectionGeometry() {
         return eIsSet(Ifc2x3tc1Package.Literals.IFC_REL_CONNECTS_ELEMENTS__CONNECTION_GEOMETRY);
     }
@@ -100,6 +104,7 @@ public class IfcRelConnectsElementsImpl extends IfcRelConnectsImpl implements If
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public IfcElement getRelatingElement() {
         return (IfcElement) eGet(Ifc2x3tc1Package.Literals.IFC_REL_CONNECTS_ELEMENTS__RELATING_ELEMENT, true);
     }
@@ -109,6 +114,7 @@ public class IfcRelConnectsElementsImpl extends IfcRelConnectsImpl implements If
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setRelatingElement(IfcElement newRelatingElement) {
         eSet(Ifc2x3tc1Package.Literals.IFC_REL_CONNECTS_ELEMENTS__RELATING_ELEMENT, newRelatingElement);
     }
@@ -118,6 +124,7 @@ public class IfcRelConnectsElementsImpl extends IfcRelConnectsImpl implements If
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public IfcElement getRelatedElement() {
         return (IfcElement) eGet(Ifc2x3tc1Package.Literals.IFC_REL_CONNECTS_ELEMENTS__RELATED_ELEMENT, true);
     }
@@ -127,6 +134,7 @@ public class IfcRelConnectsElementsImpl extends IfcRelConnectsImpl implements If
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setRelatedElement(IfcElement newRelatedElement) {
         eSet(Ifc2x3tc1Package.Literals.IFC_REL_CONNECTS_ELEMENTS__RELATED_ELEMENT, newRelatedElement);
     }

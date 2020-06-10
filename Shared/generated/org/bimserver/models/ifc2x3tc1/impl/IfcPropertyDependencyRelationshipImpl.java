@@ -76,6 +76,7 @@ public class IfcPropertyDependencyRelationshipImpl extends IdEObjectImpl impleme
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public IfcProperty getDependingProperty() {
         return (IfcProperty) eGet(Ifc2x3tc1Package.Literals.IFC_PROPERTY_DEPENDENCY_RELATIONSHIP__DEPENDING_PROPERTY,
                 true);
@@ -86,6 +87,7 @@ public class IfcPropertyDependencyRelationshipImpl extends IdEObjectImpl impleme
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setDependingProperty(IfcProperty newDependingProperty) {
         eSet(Ifc2x3tc1Package.Literals.IFC_PROPERTY_DEPENDENCY_RELATIONSHIP__DEPENDING_PROPERTY, newDependingProperty);
     }
@@ -95,6 +97,7 @@ public class IfcPropertyDependencyRelationshipImpl extends IdEObjectImpl impleme
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public IfcProperty getDependantProperty() {
         return (IfcProperty) eGet(Ifc2x3tc1Package.Literals.IFC_PROPERTY_DEPENDENCY_RELATIONSHIP__DEPENDANT_PROPERTY,
                 true);
@@ -105,6 +108,7 @@ public class IfcPropertyDependencyRelationshipImpl extends IdEObjectImpl impleme
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setDependantProperty(IfcProperty newDependantProperty) {
         eSet(Ifc2x3tc1Package.Literals.IFC_PROPERTY_DEPENDENCY_RELATIONSHIP__DEPENDANT_PROPERTY, newDependantProperty);
     }
@@ -114,6 +118,7 @@ public class IfcPropertyDependencyRelationshipImpl extends IdEObjectImpl impleme
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public String getName() {
         return (String) eGet(Ifc2x3tc1Package.Literals.IFC_PROPERTY_DEPENDENCY_RELATIONSHIP__NAME, true);
     }
@@ -123,6 +128,7 @@ public class IfcPropertyDependencyRelationshipImpl extends IdEObjectImpl impleme
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setName(String newName) {
         eSet(Ifc2x3tc1Package.Literals.IFC_PROPERTY_DEPENDENCY_RELATIONSHIP__NAME, newName);
     }
@@ -132,6 +138,7 @@ public class IfcPropertyDependencyRelationshipImpl extends IdEObjectImpl impleme
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void unsetName() {
         eUnset(Ifc2x3tc1Package.Literals.IFC_PROPERTY_DEPENDENCY_RELATIONSHIP__NAME);
     }
@@ -141,6 +148,7 @@ public class IfcPropertyDependencyRelationshipImpl extends IdEObjectImpl impleme
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public boolean isSetName() {
         return eIsSet(Ifc2x3tc1Package.Literals.IFC_PROPERTY_DEPENDENCY_RELATIONSHIP__NAME);
     }
@@ -150,6 +158,7 @@ public class IfcPropertyDependencyRelationshipImpl extends IdEObjectImpl impleme
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public String getDescription() {
         return (String) eGet(Ifc2x3tc1Package.Literals.IFC_PROPERTY_DEPENDENCY_RELATIONSHIP__DESCRIPTION, true);
     }
@@ -159,6 +168,7 @@ public class IfcPropertyDependencyRelationshipImpl extends IdEObjectImpl impleme
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setDescription(String newDescription) {
         eSet(Ifc2x3tc1Package.Literals.IFC_PROPERTY_DEPENDENCY_RELATIONSHIP__DESCRIPTION, newDescription);
     }
@@ -168,6 +178,7 @@ public class IfcPropertyDependencyRelationshipImpl extends IdEObjectImpl impleme
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void unsetDescription() {
         eUnset(Ifc2x3tc1Package.Literals.IFC_PROPERTY_DEPENDENCY_RELATIONSHIP__DESCRIPTION);
     }
@@ -177,6 +188,7 @@ public class IfcPropertyDependencyRelationshipImpl extends IdEObjectImpl impleme
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public boolean isSetDescription() {
         return eIsSet(Ifc2x3tc1Package.Literals.IFC_PROPERTY_DEPENDENCY_RELATIONSHIP__DESCRIPTION);
     }
@@ -186,6 +198,7 @@ public class IfcPropertyDependencyRelationshipImpl extends IdEObjectImpl impleme
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public String getExpression() {
         return (String) eGet(Ifc2x3tc1Package.Literals.IFC_PROPERTY_DEPENDENCY_RELATIONSHIP__EXPRESSION, true);
     }
@@ -195,6 +208,7 @@ public class IfcPropertyDependencyRelationshipImpl extends IdEObjectImpl impleme
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setExpression(String newExpression) {
         eSet(Ifc2x3tc1Package.Literals.IFC_PROPERTY_DEPENDENCY_RELATIONSHIP__EXPRESSION, newExpression);
     }
@@ -204,6 +218,7 @@ public class IfcPropertyDependencyRelationshipImpl extends IdEObjectImpl impleme
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void unsetExpression() {
         eUnset(Ifc2x3tc1Package.Literals.IFC_PROPERTY_DEPENDENCY_RELATIONSHIP__EXPRESSION);
     }
@@ -213,6 +228,7 @@ public class IfcPropertyDependencyRelationshipImpl extends IdEObjectImpl impleme
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public boolean isSetExpression() {
         return eIsSet(Ifc2x3tc1Package.Literals.IFC_PROPERTY_DEPENDENCY_RELATIONSHIP__EXPRESSION);
     }

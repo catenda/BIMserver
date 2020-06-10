@@ -63,6 +63,7 @@ public class IfcSystemImpl extends IfcGroupImpl implements IfcSystem {
      * @generated
      */
     @SuppressWarnings("unchecked")
+    @Override
     public EList<IfcRelServicesBuildings> getServicesBuildings() {
         return (EList<IfcRelServicesBuildings>) eGet(Ifc4Package.Literals.IFC_SYSTEM__SERVICES_BUILDINGS, true);
     }
@@ -72,6 +73,7 @@ public class IfcSystemImpl extends IfcGroupImpl implements IfcSystem {
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void unsetServicesBuildings() {
         eUnset(Ifc4Package.Literals.IFC_SYSTEM__SERVICES_BUILDINGS);
     }
@@ -81,6 +83,7 @@ public class IfcSystemImpl extends IfcGroupImpl implements IfcSystem {
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public boolean isSetServicesBuildings() {
         return eIsSet(Ifc4Package.Literals.IFC_SYSTEM__SERVICES_BUILDINGS);
     }

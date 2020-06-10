@@ -62,6 +62,7 @@ public class IfcRelConnectsPortToElementImpl extends IfcRelConnectsImpl implemen
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public IfcPort getRelatingPort() {
         return (IfcPort) eGet(Ifc2x3tc1Package.Literals.IFC_REL_CONNECTS_PORT_TO_ELEMENT__RELATING_PORT, true);
     }
@@ -71,6 +72,7 @@ public class IfcRelConnectsPortToElementImpl extends IfcRelConnectsImpl implemen
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setRelatingPort(IfcPort newRelatingPort) {
         eSet(Ifc2x3tc1Package.Literals.IFC_REL_CONNECTS_PORT_TO_ELEMENT__RELATING_PORT, newRelatingPort);
     }
@@ -80,6 +82,7 @@ public class IfcRelConnectsPortToElementImpl extends IfcRelConnectsImpl implemen
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public IfcElement getRelatedElement() {
         return (IfcElement) eGet(Ifc2x3tc1Package.Literals.IFC_REL_CONNECTS_PORT_TO_ELEMENT__RELATED_ELEMENT, true);
     }
@@ -89,6 +92,7 @@ public class IfcRelConnectsPortToElementImpl extends IfcRelConnectsImpl implemen
      * <!-- end-user-doc -->
      * @generated
      */
+    @Override
     public void setRelatedElement(IfcElement newRelatedElement) {
         eSet(Ifc2x3tc1Package.Literals.IFC_REL_CONNECTS_PORT_TO_ELEMENT__RELATED_ELEMENT, newRelatedElement);
     }
