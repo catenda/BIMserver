@@ -22,6 +22,7 @@ import org.bimserver.plugins.schema.EntityDefinition;
 import org.bimserver.plugins.schema.ExplicitAttribute;
 import org.bimserver.plugins.schema.InverseAttribute;
 import org.bimserver.plugins.schema.SchemaDefinition;
+import org.eclipse.emf.common.util.AbstractEList;
 import org.eclipse.emf.ecore.EClass;
 import org.eclipse.emf.ecore.EClassifier;
 import org.eclipse.emf.ecore.EEnum;
@@ -32,6 +33,7 @@ import org.eclipse.emf.ecore.EStructuralFeature;
 import org.eclipse.emf.ecore.EcorePackage;
 import org.eclipse.emf.ecore.InternalEObject;
 import org.eclipse.emf.ecore.InternalEObject.EStore;
+import org.eclipse.emf.ecore.impl.EClassImpl;
 import org.eclipse.emf.ecore.impl.EEnumImpl;
 
 import com.google.common.collect.BiMap;
@@ -300,6 +302,7 @@ class StepEStore implements EStore {
 		return eClassClassMap;
 	}
 
+	@SuppressWarnings("unchecked")
 	@Override
 	public Object get(InternalEObject object, EStructuralFeature feature,
 			int index) {
@@ -367,6 +370,25 @@ class StepEStore implements EStore {
 		} else if (attribute.isRedeclared()) {
 			return null;
 		} else if (attribute.isList()) {
+			List<Object> value = (List<Object>) attribute.getValue();
+			String name = feature.getEType().getName();
+			EClass eClass = (EClass) eClasses.get(name);
+			if (eClass != null) {
+				IdEObject newObject = (IdEObject) create(eClass);
+				feature = (EStructuralFeature) newObject.eClass().getEStructuralFeature("List");
+				AbstractEList<Object> list = (AbstractEList<Object>) newObject.eGet(feature);
+				for (Object item : value) {
+					EClassifier classifier = feature.getEType();
+					if (classifier instanceof EClassImpl && null != ((EClassImpl) classifier).getEStructuralFeature("wrappedValue")) {
+						IdEObject create = (IdEObject) ePackage.getEFactoryInstance().create((EClass) classifier);
+						create.eSet(create.eClass().getEStructuralFeature("wrappedValue"), item);
+						list.addUnique(create);
+					} else {
+						list.addUnique(item);
+					}
+				}
+				return newObject;
+			}
 			return null;
 		} else {
 			Object value = attribute.getValue();
