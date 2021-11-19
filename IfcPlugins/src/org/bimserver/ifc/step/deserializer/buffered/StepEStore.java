@@ -372,9 +372,9 @@ class StepEStore implements EStore {
 		} else if (attribute.isList()) {
 			List<Object> value = (List<Object>) attribute.getValue();
 			String name = feature.getEType().getName();
-			EClass eClass = (EClass) eClasses.get(name);
+			EClass eClass = (EClass) eClasses.get(name.toUpperCase());
 			if (eClass != null) {
-				IdEObject newObject = (IdEObject) create(eClass);
+				IdEObject newObject = (IdEObject) ePackage.getEFactoryInstance().create(eClass);
 				feature = (EStructuralFeature) newObject.eClass().getEStructuralFeature("List");
 				AbstractEList<Object> list = (AbstractEList<Object>) newObject.eGet(feature);
 				for (Object item : value) {

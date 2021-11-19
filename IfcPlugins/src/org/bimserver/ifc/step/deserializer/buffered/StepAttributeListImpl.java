@@ -102,6 +102,7 @@ class StepAttributeListImpl implements StepAttributeList {
 			case StepTokenizer.TOKEN_INSTANCE_NAME:
 			case StepTokenizer.TOKEN_ENUM:
 				attribute = new StepAttributeImpl(dataBuffer, tokenBuffer, i);
+				i++;
 				break;
 			case StepTokenizer.TOKEN_IDENTIFIER:
 				attribute = new StepAttributeImpl(dataBuffer, tokenBuffer, i);
