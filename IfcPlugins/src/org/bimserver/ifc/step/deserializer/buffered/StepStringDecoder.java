@@ -3,6 +3,7 @@ package org.bimserver.ifc.step.deserializer.buffered;
 import java.nio.charset.CharacterCodingException;
 import java.nio.charset.Charset;
 import java.nio.charset.CharsetDecoder;
+import java.nio.charset.StandardCharsets;
 
 import org.apache.geronimo.mail.util.Hex;
 
@@ -19,10 +20,6 @@ public class StepStringDecoder {
 			Charset.forName("ISO-8859-7").newDecoder(),
 			Charset.forName("ISO-8859-8").newDecoder(),
 			Charset.forName("ISO-8859-9").newDecoder() };
-	private static CharsetDecoder decoder_UTF_16 = Charset.forName("UTF-16BE")
-			.newDecoder();
-	private static CharsetDecoder decoder_UTF_32 = Charset.forName("UTF-32")
-			.newDecoder();
 
 	public static String decode(String str) {
 		return decode(str.getBytes());
@@ -111,13 +108,9 @@ public class StepStringDecoder {
 						int i = index + 4;
 						do {
 							System.arraycopy(bytes, i, hexBuffer, 0, 4);
-							try {
-								sb.append(decoder_UTF_16
-										.decode(java.nio.ByteBuffer.wrap(Hex
-												.decode(hexBuffer))));
-							} catch (CharacterCodingException e) {
-								throw new RuntimeException(e);
-							}
+							String hexString = new String(hexBuffer, StandardCharsets.UTF_8);
+							int cp = Integer.parseInt(hexString, 16);
+							sb.append((char) cp);
 							i += 4;
 						} while ((char) bytes[i] != '\\');
 						index = i + 4;
@@ -131,13 +124,9 @@ public class StepStringDecoder {
 						int i = index + 4;
 						do {
 							System.arraycopy(bytes, i, hexBuffer, 0, 8);
-							try {
-								sb.append(decoder_UTF_32
-										.decode(java.nio.ByteBuffer.wrap(Hex
-												.decode(hexBuffer))));
-							} catch (CharacterCodingException e) {
-								throw new RuntimeException(e);
-							}
+							String hexString = new String(hexBuffer, StandardCharsets.UTF_8);
+							int cp = Integer.parseInt(hexString, 16);
+							sb.append((char) cp);
 							i += 8;
 						} while ((char) bytes[i] != '\\');
 						index = i + 4;
