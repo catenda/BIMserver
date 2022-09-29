@@ -41,10 +41,6 @@ public interface IfcDocumentElectronicFormat extends IdEObject {
     /**
      * Returns the value of the '<em><b>File Extension</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>File Extension</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>File Extension</em>' attribute.
      * @see #isSetFileExtension()
@@ -94,10 +90,6 @@ public interface IfcDocumentElectronicFormat extends IdEObject {
     /**
      * Returns the value of the '<em><b>Mime Content Type</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Mime Content Type</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Mime Content Type</em>' attribute.
      * @see #isSetMimeContentType()
@@ -147,10 +139,6 @@ public interface IfcDocumentElectronicFormat extends IdEObject {
     /**
      * Returns the value of the '<em><b>Mime Subtype</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Mime Subtype</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Mime Subtype</em>' attribute.
      * @see #isSetMimeSubtype()

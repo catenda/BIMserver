@@ -52,7 +52,7 @@ public class IfcPipeFittingTypeImpl extends IfcFlowFittingTypeImpl implements If
      */
     @Override
     protected EClass eStaticClass() {
-        return Ifc4Package.Literals.IFC_PIPE_FITTING_TYPE;
+        return Ifc4Package.eINSTANCE.getIfcPipeFittingType();
     }
 
     /**
@@ -62,7 +62,7 @@ public class IfcPipeFittingTypeImpl extends IfcFlowFittingTypeImpl implements If
      */
     @Override
     public IfcPipeFittingTypeEnum getPredefinedType() {
-        return (IfcPipeFittingTypeEnum) eGet(Ifc4Package.Literals.IFC_PIPE_FITTING_TYPE__PREDEFINED_TYPE, true);
+        return (IfcPipeFittingTypeEnum) eGet(Ifc4Package.eINSTANCE.getIfcPipeFittingType_PredefinedType(), true);
     }
 
     /**
@@ -72,7 +72,7 @@ public class IfcPipeFittingTypeImpl extends IfcFlowFittingTypeImpl implements If
      */
     @Override
     public void setPredefinedType(IfcPipeFittingTypeEnum newPredefinedType) {
-        eSet(Ifc4Package.Literals.IFC_PIPE_FITTING_TYPE__PREDEFINED_TYPE, newPredefinedType);
+        eSet(Ifc4Package.eINSTANCE.getIfcPipeFittingType_PredefinedType(), newPredefinedType);
     }
 
 } //IfcPipeFittingTypeImpl

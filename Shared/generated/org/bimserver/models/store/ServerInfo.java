@@ -41,10 +41,6 @@ public interface ServerInfo extends IdEObject {
      * Returns the value of the '<em><b>Server State</b></em>' attribute.
      * The literals are from the enumeration {@link org.bimserver.models.store.ServerState}.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Server State</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Server State</em>' attribute.
      * @see org.bimserver.models.store.ServerState
@@ -69,10 +65,6 @@ public interface ServerInfo extends IdEObject {
     /**
      * Returns the value of the '<em><b>Error Message</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Error Message</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Error Message</em>' attribute.
      * @see #setErrorMessage(String)

@@ -44,10 +44,6 @@ public interface IfcObjectPlacement extends IdEObject {
      * The list contents are of type {@link org.bimserver.models.ifc4.IfcProduct}.
      * It is bidirectional and its opposite is '{@link org.bimserver.models.ifc4.IfcProduct#getObjectPlacement <em>Object Placement</em>}'.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Places Object</em>' reference list isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Places Object</em>' reference list.
      * @see #isSetPlacesObject()
@@ -86,10 +82,6 @@ public interface IfcObjectPlacement extends IdEObject {
      * The list contents are of type {@link org.bimserver.models.ifc4.IfcLocalPlacement}.
      * It is bidirectional and its opposite is '{@link org.bimserver.models.ifc4.IfcLocalPlacement#getPlacementRelTo <em>Placement Rel To</em>}'.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Referenced By Placements</em>' reference list isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Referenced By Placements</em>' reference list.
      * @see #isSetReferencedByPlacements()

@@ -52,7 +52,7 @@ public class IfcSubedgeImpl extends IfcEdgeImpl implements IfcSubedge {
      */
     @Override
     protected EClass eStaticClass() {
-        return Ifc4Package.Literals.IFC_SUBEDGE;
+        return Ifc4Package.eINSTANCE.getIfcSubedge();
     }
 
     /**
@@ -62,7 +62,7 @@ public class IfcSubedgeImpl extends IfcEdgeImpl implements IfcSubedge {
      */
     @Override
     public IfcEdge getParentEdge() {
-        return (IfcEdge) eGet(Ifc4Package.Literals.IFC_SUBEDGE__PARENT_EDGE, true);
+        return (IfcEdge) eGet(Ifc4Package.eINSTANCE.getIfcSubedge_ParentEdge(), true);
     }
 
     /**
@@ -72,7 +72,7 @@ public class IfcSubedgeImpl extends IfcEdgeImpl implements IfcSubedge {
      */
     @Override
     public void setParentEdge(IfcEdge newParentEdge) {
-        eSet(Ifc4Package.Literals.IFC_SUBEDGE__PARENT_EDGE, newParentEdge);
+        eSet(Ifc4Package.eINSTANCE.getIfcSubedge_ParentEdge(), newParentEdge);
     }
 
 } //IfcSubedgeImpl

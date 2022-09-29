@@ -115,10 +115,6 @@ public enum IfcFireSuppressionTerminalTypeEnum implements Enumerator {
     /**
      * The '<em><b>NULL</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>NULL</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #NULL
      * @model
@@ -130,10 +126,6 @@ public enum IfcFireSuppressionTerminalTypeEnum implements Enumerator {
     /**
      * The '<em><b>NOTDEFINED</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>NOTDEFINED</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #NOTDEFINED
      * @model
@@ -145,10 +137,6 @@ public enum IfcFireSuppressionTerminalTypeEnum implements Enumerator {
     /**
      * The '<em><b>SPRINKLERDEFLECTOR</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>SPRINKLERDEFLECTOR</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #SPRINKLERDEFLECTOR
      * @model
@@ -160,10 +148,6 @@ public enum IfcFireSuppressionTerminalTypeEnum implements Enumerator {
     /**
      * The '<em><b>SPRINKLER</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>SPRINKLER</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #SPRINKLER
      * @model
@@ -175,10 +159,6 @@ public enum IfcFireSuppressionTerminalTypeEnum implements Enumerator {
     /**
      * The '<em><b>HOSEREEL</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>HOSEREEL</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #HOSEREEL
      * @model
@@ -190,10 +170,6 @@ public enum IfcFireSuppressionTerminalTypeEnum implements Enumerator {
     /**
      * The '<em><b>BREECHINGINLET</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>BREECHINGINLET</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #BREECHINGINLET
      * @model
@@ -205,10 +181,6 @@ public enum IfcFireSuppressionTerminalTypeEnum implements Enumerator {
     /**
      * The '<em><b>FIREHYDRANT</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>FIREHYDRANT</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #FIREHYDRANT
      * @model
@@ -220,10 +192,6 @@ public enum IfcFireSuppressionTerminalTypeEnum implements Enumerator {
     /**
      * The '<em><b>USERDEFINED</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>USERDEFINED</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #USERDEFINED
      * @model

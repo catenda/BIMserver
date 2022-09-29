@@ -36,10 +36,6 @@ public interface IfcOneDirectionRepeatFactor extends IfcGeometricRepresentationI
     /**
      * Returns the value of the '<em><b>Repeat Factor</b></em>' reference.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Repeat Factor</em>' reference isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Repeat Factor</em>' reference.
      * @see #setRepeatFactor(IfcVector)

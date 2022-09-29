@@ -43,10 +43,6 @@ public interface IfcApprovalRelationship extends IdEObject {
      * Returns the value of the '<em><b>Related Approval</b></em>' reference.
      * It is bidirectional and its opposite is '{@link org.bimserver.models.ifc2x3tc1.IfcApproval#getIsRelatedWith <em>Is Related With</em>}'.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Related Approval</em>' reference isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Related Approval</em>' reference.
      * @see #setRelatedApproval(IfcApproval)
@@ -72,10 +68,6 @@ public interface IfcApprovalRelationship extends IdEObject {
      * Returns the value of the '<em><b>Relating Approval</b></em>' reference.
      * It is bidirectional and its opposite is '{@link org.bimserver.models.ifc2x3tc1.IfcApproval#getRelates <em>Relates</em>}'.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Relating Approval</em>' reference isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Relating Approval</em>' reference.
      * @see #setRelatingApproval(IfcApproval)
@@ -100,10 +92,6 @@ public interface IfcApprovalRelationship extends IdEObject {
     /**
      * Returns the value of the '<em><b>Description</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Description</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Description</em>' attribute.
      * @see #isSetDescription()
@@ -153,10 +141,6 @@ public interface IfcApprovalRelationship extends IdEObject {
     /**
      * Returns the value of the '<em><b>Name</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Name</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Name</em>' attribute.
      * @see #setName(String)

@@ -52,7 +52,7 @@ public class IfcProcedureTypeImpl extends IfcTypeProcessImpl implements IfcProce
      */
     @Override
     protected EClass eStaticClass() {
-        return Ifc4Package.Literals.IFC_PROCEDURE_TYPE;
+        return Ifc4Package.eINSTANCE.getIfcProcedureType();
     }
 
     /**
@@ -62,7 +62,7 @@ public class IfcProcedureTypeImpl extends IfcTypeProcessImpl implements IfcProce
      */
     @Override
     public IfcProcedureTypeEnum getPredefinedType() {
-        return (IfcProcedureTypeEnum) eGet(Ifc4Package.Literals.IFC_PROCEDURE_TYPE__PREDEFINED_TYPE, true);
+        return (IfcProcedureTypeEnum) eGet(Ifc4Package.eINSTANCE.getIfcProcedureType_PredefinedType(), true);
     }
 
     /**
@@ -72,7 +72,7 @@ public class IfcProcedureTypeImpl extends IfcTypeProcessImpl implements IfcProce
      */
     @Override
     public void setPredefinedType(IfcProcedureTypeEnum newPredefinedType) {
-        eSet(Ifc4Package.Literals.IFC_PROCEDURE_TYPE__PREDEFINED_TYPE, newPredefinedType);
+        eSet(Ifc4Package.eINSTANCE.getIfcProcedureType_PredefinedType(), newPredefinedType);
     }
 
 } //IfcProcedureTypeImpl

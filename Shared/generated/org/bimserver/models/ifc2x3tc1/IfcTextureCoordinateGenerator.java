@@ -39,10 +39,6 @@ public interface IfcTextureCoordinateGenerator extends IfcTextureCoordinate {
     /**
      * Returns the value of the '<em><b>Mode</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Mode</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Mode</em>' attribute.
      * @see #setMode(String)
@@ -66,10 +62,6 @@ public interface IfcTextureCoordinateGenerator extends IfcTextureCoordinate {
      * Returns the value of the '<em><b>Parameter</b></em>' reference list.
      * The list contents are of type {@link org.bimserver.models.ifc2x3tc1.IfcSimpleValue}.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Parameter</em>' reference list isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Parameter</em>' reference list.
      * @see org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package#getIfcTextureCoordinateGenerator_Parameter()

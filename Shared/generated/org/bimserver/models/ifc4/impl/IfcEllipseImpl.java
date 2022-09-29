@@ -54,7 +54,7 @@ public class IfcEllipseImpl extends IfcConicImpl implements IfcEllipse {
      */
     @Override
     protected EClass eStaticClass() {
-        return Ifc4Package.Literals.IFC_ELLIPSE;
+        return Ifc4Package.eINSTANCE.getIfcEllipse();
     }
 
     /**
@@ -64,7 +64,7 @@ public class IfcEllipseImpl extends IfcConicImpl implements IfcEllipse {
      */
     @Override
     public double getSemiAxis1() {
-        return (Double) eGet(Ifc4Package.Literals.IFC_ELLIPSE__SEMI_AXIS1, true);
+        return (Double) eGet(Ifc4Package.eINSTANCE.getIfcEllipse_SemiAxis1(), true);
     }
 
     /**
@@ -74,7 +74,7 @@ public class IfcEllipseImpl extends IfcConicImpl implements IfcEllipse {
      */
     @Override
     public void setSemiAxis1(double newSemiAxis1) {
-        eSet(Ifc4Package.Literals.IFC_ELLIPSE__SEMI_AXIS1, newSemiAxis1);
+        eSet(Ifc4Package.eINSTANCE.getIfcEllipse_SemiAxis1(), newSemiAxis1);
     }
 
     /**
@@ -84,7 +84,7 @@ public class IfcEllipseImpl extends IfcConicImpl implements IfcEllipse {
      */
     @Override
     public String getSemiAxis1AsString() {
-        return (String) eGet(Ifc4Package.Literals.IFC_ELLIPSE__SEMI_AXIS1_AS_STRING, true);
+        return (String) eGet(Ifc4Package.eINSTANCE.getIfcEllipse_SemiAxis1AsString(), true);
     }
 
     /**
@@ -94,7 +94,7 @@ public class IfcEllipseImpl extends IfcConicImpl implements IfcEllipse {
      */
     @Override
     public void setSemiAxis1AsString(String newSemiAxis1AsString) {
-        eSet(Ifc4Package.Literals.IFC_ELLIPSE__SEMI_AXIS1_AS_STRING, newSemiAxis1AsString);
+        eSet(Ifc4Package.eINSTANCE.getIfcEllipse_SemiAxis1AsString(), newSemiAxis1AsString);
     }
 
     /**
@@ -104,7 +104,7 @@ public class IfcEllipseImpl extends IfcConicImpl implements IfcEllipse {
      */
     @Override
     public double getSemiAxis2() {
-        return (Double) eGet(Ifc4Package.Literals.IFC_ELLIPSE__SEMI_AXIS2, true);
+        return (Double) eGet(Ifc4Package.eINSTANCE.getIfcEllipse_SemiAxis2(), true);
     }
 
     /**
@@ -114,7 +114,7 @@ public class IfcEllipseImpl extends IfcConicImpl implements IfcEllipse {
      */
     @Override
     public void setSemiAxis2(double newSemiAxis2) {
-        eSet(Ifc4Package.Literals.IFC_ELLIPSE__SEMI_AXIS2, newSemiAxis2);
+        eSet(Ifc4Package.eINSTANCE.getIfcEllipse_SemiAxis2(), newSemiAxis2);
     }
 
     /**
@@ -124,7 +124,7 @@ public class IfcEllipseImpl extends IfcConicImpl implements IfcEllipse {
      */
     @Override
     public String getSemiAxis2AsString() {
-        return (String) eGet(Ifc4Package.Literals.IFC_ELLIPSE__SEMI_AXIS2_AS_STRING, true);
+        return (String) eGet(Ifc4Package.eINSTANCE.getIfcEllipse_SemiAxis2AsString(), true);
     }
 
     /**
@@ -134,7 +134,7 @@ public class IfcEllipseImpl extends IfcConicImpl implements IfcEllipse {
      */
     @Override
     public void setSemiAxis2AsString(String newSemiAxis2AsString) {
-        eSet(Ifc4Package.Literals.IFC_ELLIPSE__SEMI_AXIS2_AS_STRING, newSemiAxis2AsString);
+        eSet(Ifc4Package.eINSTANCE.getIfcEllipse_SemiAxis2AsString(), newSemiAxis2AsString);
     }
 
 } //IfcEllipseImpl

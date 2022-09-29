@@ -39,10 +39,6 @@ public interface IfcCurveStyleFontAndScaling extends IfcCurveFontOrScaledCurveFo
     /**
      * Returns the value of the '<em><b>Name</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Name</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Name</em>' attribute.
      * @see #isSetName()
@@ -92,10 +88,6 @@ public interface IfcCurveStyleFontAndScaling extends IfcCurveFontOrScaledCurveFo
     /**
      * Returns the value of the '<em><b>Curve Font</b></em>' reference.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Curve Font</em>' reference isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Curve Font</em>' reference.
      * @see #setCurveFont(IfcCurveStyleFontSelect)
@@ -118,10 +110,6 @@ public interface IfcCurveStyleFontAndScaling extends IfcCurveFontOrScaledCurveFo
     /**
      * Returns the value of the '<em><b>Curve Font Scaling</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Curve Font Scaling</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Curve Font Scaling</em>' attribute.
      * @see #setCurveFontScaling(double)
@@ -144,10 +132,6 @@ public interface IfcCurveStyleFontAndScaling extends IfcCurveFontOrScaledCurveFo
     /**
      * Returns the value of the '<em><b>Curve Font Scaling As String</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Curve Font Scaling As String</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Curve Font Scaling As String</em>' attribute.
      * @see #setCurveFontScalingAsString(String)

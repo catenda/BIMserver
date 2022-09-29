@@ -40,10 +40,6 @@ public interface IfcTextureCoordinate extends IfcPresentationItem {
      * The list contents are of type {@link org.bimserver.models.ifc4.IfcSurfaceTexture}.
      * It is bidirectional and its opposite is '{@link org.bimserver.models.ifc4.IfcSurfaceTexture#getIsMappedBy <em>Is Mapped By</em>}'.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Maps</em>' reference list isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Maps</em>' reference list.
      * @see org.bimserver.models.ifc4.Ifc4Package#getIfcTextureCoordinate_Maps()

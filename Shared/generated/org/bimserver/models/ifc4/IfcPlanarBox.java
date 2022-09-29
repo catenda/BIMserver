@@ -36,10 +36,6 @@ public interface IfcPlanarBox extends IfcPlanarExtent {
     /**
      * Returns the value of the '<em><b>Placement</b></em>' reference.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Placement</em>' reference isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Placement</em>' reference.
      * @see #setPlacement(IfcAxis2Placement)

@@ -58,7 +58,7 @@ public class IfcTextStyleFontModelImpl extends IfcPreDefinedTextFontImpl impleme
      */
     @Override
     protected EClass eStaticClass() {
-        return Ifc2x3tc1Package.Literals.IFC_TEXT_STYLE_FONT_MODEL;
+        return Ifc2x3tc1Package.eINSTANCE.getIfcTextStyleFontModel();
     }
 
     /**
@@ -69,7 +69,7 @@ public class IfcTextStyleFontModelImpl extends IfcPreDefinedTextFontImpl impleme
     @SuppressWarnings("unchecked")
     @Override
     public EList<String> getFontFamily() {
-        return (EList<String>) eGet(Ifc2x3tc1Package.Literals.IFC_TEXT_STYLE_FONT_MODEL__FONT_FAMILY, true);
+        return (EList<String>) eGet(Ifc2x3tc1Package.eINSTANCE.getIfcTextStyleFontModel_FontFamily(), true);
     }
 
     /**
@@ -79,7 +79,7 @@ public class IfcTextStyleFontModelImpl extends IfcPreDefinedTextFontImpl impleme
      */
     @Override
     public void unsetFontFamily() {
-        eUnset(Ifc2x3tc1Package.Literals.IFC_TEXT_STYLE_FONT_MODEL__FONT_FAMILY);
+        eUnset(Ifc2x3tc1Package.eINSTANCE.getIfcTextStyleFontModel_FontFamily());
     }
 
     /**
@@ -89,7 +89,7 @@ public class IfcTextStyleFontModelImpl extends IfcPreDefinedTextFontImpl impleme
      */
     @Override
     public boolean isSetFontFamily() {
-        return eIsSet(Ifc2x3tc1Package.Literals.IFC_TEXT_STYLE_FONT_MODEL__FONT_FAMILY);
+        return eIsSet(Ifc2x3tc1Package.eINSTANCE.getIfcTextStyleFontModel_FontFamily());
     }
 
     /**
@@ -99,7 +99,7 @@ public class IfcTextStyleFontModelImpl extends IfcPreDefinedTextFontImpl impleme
      */
     @Override
     public String getFontStyle() {
-        return (String) eGet(Ifc2x3tc1Package.Literals.IFC_TEXT_STYLE_FONT_MODEL__FONT_STYLE, true);
+        return (String) eGet(Ifc2x3tc1Package.eINSTANCE.getIfcTextStyleFontModel_FontStyle(), true);
     }
 
     /**
@@ -109,7 +109,7 @@ public class IfcTextStyleFontModelImpl extends IfcPreDefinedTextFontImpl impleme
      */
     @Override
     public void setFontStyle(String newFontStyle) {
-        eSet(Ifc2x3tc1Package.Literals.IFC_TEXT_STYLE_FONT_MODEL__FONT_STYLE, newFontStyle);
+        eSet(Ifc2x3tc1Package.eINSTANCE.getIfcTextStyleFontModel_FontStyle(), newFontStyle);
     }
 
     /**
@@ -119,7 +119,7 @@ public class IfcTextStyleFontModelImpl extends IfcPreDefinedTextFontImpl impleme
      */
     @Override
     public void unsetFontStyle() {
-        eUnset(Ifc2x3tc1Package.Literals.IFC_TEXT_STYLE_FONT_MODEL__FONT_STYLE);
+        eUnset(Ifc2x3tc1Package.eINSTANCE.getIfcTextStyleFontModel_FontStyle());
     }
 
     /**
@@ -129,7 +129,7 @@ public class IfcTextStyleFontModelImpl extends IfcPreDefinedTextFontImpl impleme
      */
     @Override
     public boolean isSetFontStyle() {
-        return eIsSet(Ifc2x3tc1Package.Literals.IFC_TEXT_STYLE_FONT_MODEL__FONT_STYLE);
+        return eIsSet(Ifc2x3tc1Package.eINSTANCE.getIfcTextStyleFontModel_FontStyle());
     }
 
     /**
@@ -139,7 +139,7 @@ public class IfcTextStyleFontModelImpl extends IfcPreDefinedTextFontImpl impleme
      */
     @Override
     public String getFontVariant() {
-        return (String) eGet(Ifc2x3tc1Package.Literals.IFC_TEXT_STYLE_FONT_MODEL__FONT_VARIANT, true);
+        return (String) eGet(Ifc2x3tc1Package.eINSTANCE.getIfcTextStyleFontModel_FontVariant(), true);
     }
 
     /**
@@ -149,7 +149,7 @@ public class IfcTextStyleFontModelImpl extends IfcPreDefinedTextFontImpl impleme
      */
     @Override
     public void setFontVariant(String newFontVariant) {
-        eSet(Ifc2x3tc1Package.Literals.IFC_TEXT_STYLE_FONT_MODEL__FONT_VARIANT, newFontVariant);
+        eSet(Ifc2x3tc1Package.eINSTANCE.getIfcTextStyleFontModel_FontVariant(), newFontVariant);
     }
 
     /**
@@ -159,7 +159,7 @@ public class IfcTextStyleFontModelImpl extends IfcPreDefinedTextFontImpl impleme
      */
     @Override
     public void unsetFontVariant() {
-        eUnset(Ifc2x3tc1Package.Literals.IFC_TEXT_STYLE_FONT_MODEL__FONT_VARIANT);
+        eUnset(Ifc2x3tc1Package.eINSTANCE.getIfcTextStyleFontModel_FontVariant());
     }
 
     /**
@@ -169,7 +169,7 @@ public class IfcTextStyleFontModelImpl extends IfcPreDefinedTextFontImpl impleme
      */
     @Override
     public boolean isSetFontVariant() {
-        return eIsSet(Ifc2x3tc1Package.Literals.IFC_TEXT_STYLE_FONT_MODEL__FONT_VARIANT);
+        return eIsSet(Ifc2x3tc1Package.eINSTANCE.getIfcTextStyleFontModel_FontVariant());
     }
 
     /**
@@ -179,7 +179,7 @@ public class IfcTextStyleFontModelImpl extends IfcPreDefinedTextFontImpl impleme
      */
     @Override
     public String getFontWeight() {
-        return (String) eGet(Ifc2x3tc1Package.Literals.IFC_TEXT_STYLE_FONT_MODEL__FONT_WEIGHT, true);
+        return (String) eGet(Ifc2x3tc1Package.eINSTANCE.getIfcTextStyleFontModel_FontWeight(), true);
     }
 
     /**
@@ -189,7 +189,7 @@ public class IfcTextStyleFontModelImpl extends IfcPreDefinedTextFontImpl impleme
      */
     @Override
     public void setFontWeight(String newFontWeight) {
-        eSet(Ifc2x3tc1Package.Literals.IFC_TEXT_STYLE_FONT_MODEL__FONT_WEIGHT, newFontWeight);
+        eSet(Ifc2x3tc1Package.eINSTANCE.getIfcTextStyleFontModel_FontWeight(), newFontWeight);
     }
 
     /**
@@ -199,7 +199,7 @@ public class IfcTextStyleFontModelImpl extends IfcPreDefinedTextFontImpl impleme
      */
     @Override
     public void unsetFontWeight() {
-        eUnset(Ifc2x3tc1Package.Literals.IFC_TEXT_STYLE_FONT_MODEL__FONT_WEIGHT);
+        eUnset(Ifc2x3tc1Package.eINSTANCE.getIfcTextStyleFontModel_FontWeight());
     }
 
     /**
@@ -209,7 +209,7 @@ public class IfcTextStyleFontModelImpl extends IfcPreDefinedTextFontImpl impleme
      */
     @Override
     public boolean isSetFontWeight() {
-        return eIsSet(Ifc2x3tc1Package.Literals.IFC_TEXT_STYLE_FONT_MODEL__FONT_WEIGHT);
+        return eIsSet(Ifc2x3tc1Package.eINSTANCE.getIfcTextStyleFontModel_FontWeight());
     }
 
     /**
@@ -219,7 +219,7 @@ public class IfcTextStyleFontModelImpl extends IfcPreDefinedTextFontImpl impleme
      */
     @Override
     public IfcSizeSelect getFontSize() {
-        return (IfcSizeSelect) eGet(Ifc2x3tc1Package.Literals.IFC_TEXT_STYLE_FONT_MODEL__FONT_SIZE, true);
+        return (IfcSizeSelect) eGet(Ifc2x3tc1Package.eINSTANCE.getIfcTextStyleFontModel_FontSize(), true);
     }
 
     /**
@@ -229,7 +229,7 @@ public class IfcTextStyleFontModelImpl extends IfcPreDefinedTextFontImpl impleme
      */
     @Override
     public void setFontSize(IfcSizeSelect newFontSize) {
-        eSet(Ifc2x3tc1Package.Literals.IFC_TEXT_STYLE_FONT_MODEL__FONT_SIZE, newFontSize);
+        eSet(Ifc2x3tc1Package.eINSTANCE.getIfcTextStyleFontModel_FontSize(), newFontSize);
     }
 
 } //IfcTextStyleFontModelImpl

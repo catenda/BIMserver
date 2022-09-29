@@ -38,10 +38,6 @@ public interface IfcRelVoidsElement extends IfcRelDecomposes {
      * Returns the value of the '<em><b>Relating Building Element</b></em>' reference.
      * It is bidirectional and its opposite is '{@link org.bimserver.models.ifc4.IfcElement#getHasOpenings <em>Has Openings</em>}'.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Relating Building Element</em>' reference isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Relating Building Element</em>' reference.
      * @see #setRelatingBuildingElement(IfcElement)
@@ -67,10 +63,6 @@ public interface IfcRelVoidsElement extends IfcRelDecomposes {
      * Returns the value of the '<em><b>Related Opening Element</b></em>' reference.
      * It is bidirectional and its opposite is '{@link org.bimserver.models.ifc4.IfcFeatureElementSubtraction#getVoidsElements <em>Voids Elements</em>}'.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Related Opening Element</em>' reference isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Related Opening Element</em>' reference.
      * @see #setRelatedOpeningElement(IfcFeatureElementSubtraction)

@@ -41,10 +41,6 @@ public interface IfcTessellatedFaceSet extends IfcTessellatedItem, IfcBooleanOpe
     /**
      * Returns the value of the '<em><b>Coordinates</b></em>' reference.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Coordinates</em>' reference isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Coordinates</em>' reference.
      * @see #setCoordinates(IfcCartesianPointList3D)
@@ -69,10 +65,6 @@ public interface IfcTessellatedFaceSet extends IfcTessellatedItem, IfcBooleanOpe
      * The list contents are of type {@link org.bimserver.models.ifc4.IfcIndexedColourMap}.
      * It is bidirectional and its opposite is '{@link org.bimserver.models.ifc4.IfcIndexedColourMap#getMappedTo <em>Mapped To</em>}'.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Has Colours</em>' reference list isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Has Colours</em>' reference list.
      * @see #isSetHasColours()
@@ -111,10 +103,6 @@ public interface IfcTessellatedFaceSet extends IfcTessellatedItem, IfcBooleanOpe
      * The list contents are of type {@link org.bimserver.models.ifc4.IfcIndexedTextureMap}.
      * It is bidirectional and its opposite is '{@link org.bimserver.models.ifc4.IfcIndexedTextureMap#getMappedTo <em>Mapped To</em>}'.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Has Textures</em>' reference list isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Has Textures</em>' reference list.
      * @see #isSetHasTextures()
@@ -151,10 +139,6 @@ public interface IfcTessellatedFaceSet extends IfcTessellatedItem, IfcBooleanOpe
     /**
      * Returns the value of the '<em><b>Dim</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Dim</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Dim</em>' attribute.
      * @see #isSetDim()

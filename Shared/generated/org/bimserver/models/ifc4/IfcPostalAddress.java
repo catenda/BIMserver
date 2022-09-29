@@ -44,10 +44,6 @@ public interface IfcPostalAddress extends IfcAddress {
     /**
      * Returns the value of the '<em><b>Internal Location</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Internal Location</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Internal Location</em>' attribute.
      * @see #isSetInternalLocation()
@@ -98,10 +94,6 @@ public interface IfcPostalAddress extends IfcAddress {
      * Returns the value of the '<em><b>Address Lines</b></em>' attribute list.
      * The list contents are of type {@link java.lang.String}.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Address Lines</em>' attribute list isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Address Lines</em>' attribute list.
      * @see #isSetAddressLines()
@@ -136,10 +128,6 @@ public interface IfcPostalAddress extends IfcAddress {
     /**
      * Returns the value of the '<em><b>Postal Box</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Postal Box</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Postal Box</em>' attribute.
      * @see #isSetPostalBox()
@@ -189,10 +177,6 @@ public interface IfcPostalAddress extends IfcAddress {
     /**
      * Returns the value of the '<em><b>Town</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Town</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Town</em>' attribute.
      * @see #isSetTown()
@@ -242,10 +226,6 @@ public interface IfcPostalAddress extends IfcAddress {
     /**
      * Returns the value of the '<em><b>Region</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Region</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Region</em>' attribute.
      * @see #isSetRegion()
@@ -295,10 +275,6 @@ public interface IfcPostalAddress extends IfcAddress {
     /**
      * Returns the value of the '<em><b>Postal Code</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Postal Code</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Postal Code</em>' attribute.
      * @see #isSetPostalCode()
@@ -348,10 +324,6 @@ public interface IfcPostalAddress extends IfcAddress {
     /**
      * Returns the value of the '<em><b>Country</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Country</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Country</em>' attribute.
      * @see #isSetCountry()

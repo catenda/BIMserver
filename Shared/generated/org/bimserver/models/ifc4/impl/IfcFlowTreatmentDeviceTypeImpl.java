@@ -46,7 +46,7 @@ public class IfcFlowTreatmentDeviceTypeImpl extends IfcDistributionFlowElementTy
      */
     @Override
     protected EClass eStaticClass() {
-        return Ifc4Package.Literals.IFC_FLOW_TREATMENT_DEVICE_TYPE;
+        return Ifc4Package.eINSTANCE.getIfcFlowTreatmentDeviceType();
     }
 
 } //IfcFlowTreatmentDeviceTypeImpl

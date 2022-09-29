@@ -55,7 +55,7 @@ public class IfcModulusOfSubgradeReactionMeasureImpl extends IdEObjectImpl
      */
     @Override
     protected EClass eStaticClass() {
-        return Ifc2x3tc1Package.Literals.IFC_MODULUS_OF_SUBGRADE_REACTION_MEASURE;
+        return Ifc2x3tc1Package.eINSTANCE.getIfcModulusOfSubgradeReactionMeasure();
     }
 
     /**
@@ -75,7 +75,7 @@ public class IfcModulusOfSubgradeReactionMeasureImpl extends IdEObjectImpl
      */
     @Override
     public double getWrappedValue() {
-        return (Double) eGet(Ifc2x3tc1Package.Literals.IFC_MODULUS_OF_SUBGRADE_REACTION_MEASURE__WRAPPED_VALUE, true);
+        return (Double) eGet(Ifc2x3tc1Package.eINSTANCE.getIfcModulusOfSubgradeReactionMeasure_WrappedValue(), true);
     }
 
     /**
@@ -85,7 +85,7 @@ public class IfcModulusOfSubgradeReactionMeasureImpl extends IdEObjectImpl
      */
     @Override
     public void setWrappedValue(double newWrappedValue) {
-        eSet(Ifc2x3tc1Package.Literals.IFC_MODULUS_OF_SUBGRADE_REACTION_MEASURE__WRAPPED_VALUE, newWrappedValue);
+        eSet(Ifc2x3tc1Package.eINSTANCE.getIfcModulusOfSubgradeReactionMeasure_WrappedValue(), newWrappedValue);
     }
 
     /**
@@ -95,7 +95,7 @@ public class IfcModulusOfSubgradeReactionMeasureImpl extends IdEObjectImpl
      */
     @Override
     public void unsetWrappedValue() {
-        eUnset(Ifc2x3tc1Package.Literals.IFC_MODULUS_OF_SUBGRADE_REACTION_MEASURE__WRAPPED_VALUE);
+        eUnset(Ifc2x3tc1Package.eINSTANCE.getIfcModulusOfSubgradeReactionMeasure_WrappedValue());
     }
 
     /**
@@ -105,7 +105,7 @@ public class IfcModulusOfSubgradeReactionMeasureImpl extends IdEObjectImpl
      */
     @Override
     public boolean isSetWrappedValue() {
-        return eIsSet(Ifc2x3tc1Package.Literals.IFC_MODULUS_OF_SUBGRADE_REACTION_MEASURE__WRAPPED_VALUE);
+        return eIsSet(Ifc2x3tc1Package.eINSTANCE.getIfcModulusOfSubgradeReactionMeasure_WrappedValue());
     }
 
     /**
@@ -115,8 +115,8 @@ public class IfcModulusOfSubgradeReactionMeasureImpl extends IdEObjectImpl
      */
     @Override
     public String getWrappedValueAsString() {
-        return (String) eGet(
-                Ifc2x3tc1Package.Literals.IFC_MODULUS_OF_SUBGRADE_REACTION_MEASURE__WRAPPED_VALUE_AS_STRING, true);
+        return (String) eGet(Ifc2x3tc1Package.eINSTANCE.getIfcModulusOfSubgradeReactionMeasure_WrappedValueAsString(),
+                true);
     }
 
     /**
@@ -126,7 +126,7 @@ public class IfcModulusOfSubgradeReactionMeasureImpl extends IdEObjectImpl
      */
     @Override
     public void setWrappedValueAsString(String newWrappedValueAsString) {
-        eSet(Ifc2x3tc1Package.Literals.IFC_MODULUS_OF_SUBGRADE_REACTION_MEASURE__WRAPPED_VALUE_AS_STRING,
+        eSet(Ifc2x3tc1Package.eINSTANCE.getIfcModulusOfSubgradeReactionMeasure_WrappedValueAsString(),
                 newWrappedValueAsString);
     }
 
@@ -137,7 +137,7 @@ public class IfcModulusOfSubgradeReactionMeasureImpl extends IdEObjectImpl
      */
     @Override
     public void unsetWrappedValueAsString() {
-        eUnset(Ifc2x3tc1Package.Literals.IFC_MODULUS_OF_SUBGRADE_REACTION_MEASURE__WRAPPED_VALUE_AS_STRING);
+        eUnset(Ifc2x3tc1Package.eINSTANCE.getIfcModulusOfSubgradeReactionMeasure_WrappedValueAsString());
     }
 
     /**
@@ -147,7 +147,7 @@ public class IfcModulusOfSubgradeReactionMeasureImpl extends IdEObjectImpl
      */
     @Override
     public boolean isSetWrappedValueAsString() {
-        return eIsSet(Ifc2x3tc1Package.Literals.IFC_MODULUS_OF_SUBGRADE_REACTION_MEASURE__WRAPPED_VALUE_AS_STRING);
+        return eIsSet(Ifc2x3tc1Package.eINSTANCE.getIfcModulusOfSubgradeReactionMeasure_WrappedValueAsString());
     }
 
 } //IfcModulusOfSubgradeReactionMeasureImpl

@@ -56,7 +56,7 @@ public class IfcStructuralConnectionImpl extends IfcStructuralItemImpl implement
      */
     @Override
     protected EClass eStaticClass() {
-        return Ifc4Package.Literals.IFC_STRUCTURAL_CONNECTION;
+        return Ifc4Package.eINSTANCE.getIfcStructuralConnection();
     }
 
     /**
@@ -66,7 +66,7 @@ public class IfcStructuralConnectionImpl extends IfcStructuralItemImpl implement
      */
     @Override
     public IfcBoundaryCondition getAppliedCondition() {
-        return (IfcBoundaryCondition) eGet(Ifc4Package.Literals.IFC_STRUCTURAL_CONNECTION__APPLIED_CONDITION, true);
+        return (IfcBoundaryCondition) eGet(Ifc4Package.eINSTANCE.getIfcStructuralConnection_AppliedCondition(), true);
     }
 
     /**
@@ -76,7 +76,7 @@ public class IfcStructuralConnectionImpl extends IfcStructuralItemImpl implement
      */
     @Override
     public void setAppliedCondition(IfcBoundaryCondition newAppliedCondition) {
-        eSet(Ifc4Package.Literals.IFC_STRUCTURAL_CONNECTION__APPLIED_CONDITION, newAppliedCondition);
+        eSet(Ifc4Package.eINSTANCE.getIfcStructuralConnection_AppliedCondition(), newAppliedCondition);
     }
 
     /**
@@ -86,7 +86,7 @@ public class IfcStructuralConnectionImpl extends IfcStructuralItemImpl implement
      */
     @Override
     public void unsetAppliedCondition() {
-        eUnset(Ifc4Package.Literals.IFC_STRUCTURAL_CONNECTION__APPLIED_CONDITION);
+        eUnset(Ifc4Package.eINSTANCE.getIfcStructuralConnection_AppliedCondition());
     }
 
     /**
@@ -96,7 +96,7 @@ public class IfcStructuralConnectionImpl extends IfcStructuralItemImpl implement
      */
     @Override
     public boolean isSetAppliedCondition() {
-        return eIsSet(Ifc4Package.Literals.IFC_STRUCTURAL_CONNECTION__APPLIED_CONDITION);
+        return eIsSet(Ifc4Package.eINSTANCE.getIfcStructuralConnection_AppliedCondition());
     }
 
     /**
@@ -108,7 +108,7 @@ public class IfcStructuralConnectionImpl extends IfcStructuralItemImpl implement
     @Override
     public EList<IfcRelConnectsStructuralMember> getConnectsStructuralMembers() {
         return (EList<IfcRelConnectsStructuralMember>) eGet(
-                Ifc4Package.Literals.IFC_STRUCTURAL_CONNECTION__CONNECTS_STRUCTURAL_MEMBERS, true);
+                Ifc4Package.eINSTANCE.getIfcStructuralConnection_ConnectsStructuralMembers(), true);
     }
 
     /**
@@ -118,7 +118,7 @@ public class IfcStructuralConnectionImpl extends IfcStructuralItemImpl implement
      */
     @Override
     public void unsetConnectsStructuralMembers() {
-        eUnset(Ifc4Package.Literals.IFC_STRUCTURAL_CONNECTION__CONNECTS_STRUCTURAL_MEMBERS);
+        eUnset(Ifc4Package.eINSTANCE.getIfcStructuralConnection_ConnectsStructuralMembers());
     }
 
     /**
@@ -128,7 +128,7 @@ public class IfcStructuralConnectionImpl extends IfcStructuralItemImpl implement
      */
     @Override
     public boolean isSetConnectsStructuralMembers() {
-        return eIsSet(Ifc4Package.Literals.IFC_STRUCTURAL_CONNECTION__CONNECTS_STRUCTURAL_MEMBERS);
+        return eIsSet(Ifc4Package.eINSTANCE.getIfcStructuralConnection_ConnectsStructuralMembers());
     }
 
 } //IfcStructuralConnectionImpl

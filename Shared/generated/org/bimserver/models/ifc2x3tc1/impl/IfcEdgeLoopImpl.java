@@ -54,7 +54,7 @@ public class IfcEdgeLoopImpl extends IfcLoopImpl implements IfcEdgeLoop {
      */
     @Override
     protected EClass eStaticClass() {
-        return Ifc2x3tc1Package.Literals.IFC_EDGE_LOOP;
+        return Ifc2x3tc1Package.eINSTANCE.getIfcEdgeLoop();
     }
 
     /**
@@ -65,7 +65,7 @@ public class IfcEdgeLoopImpl extends IfcLoopImpl implements IfcEdgeLoop {
     @SuppressWarnings("unchecked")
     @Override
     public EList<IfcOrientedEdge> getEdgeList() {
-        return (EList<IfcOrientedEdge>) eGet(Ifc2x3tc1Package.Literals.IFC_EDGE_LOOP__EDGE_LIST, true);
+        return (EList<IfcOrientedEdge>) eGet(Ifc2x3tc1Package.eINSTANCE.getIfcEdgeLoop_EdgeList(), true);
     }
 
 } //IfcEdgeLoopImpl

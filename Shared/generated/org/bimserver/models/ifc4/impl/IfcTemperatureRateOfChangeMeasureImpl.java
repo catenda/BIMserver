@@ -54,7 +54,7 @@ public class IfcTemperatureRateOfChangeMeasureImpl extends IdEObjectImpl impleme
      */
     @Override
     protected EClass eStaticClass() {
-        return Ifc4Package.Literals.IFC_TEMPERATURE_RATE_OF_CHANGE_MEASURE;
+        return Ifc4Package.eINSTANCE.getIfcTemperatureRateOfChangeMeasure();
     }
 
     /**
@@ -74,7 +74,7 @@ public class IfcTemperatureRateOfChangeMeasureImpl extends IdEObjectImpl impleme
      */
     @Override
     public double getWrappedValue() {
-        return (Double) eGet(Ifc4Package.Literals.IFC_TEMPERATURE_RATE_OF_CHANGE_MEASURE__WRAPPED_VALUE, true);
+        return (Double) eGet(Ifc4Package.eINSTANCE.getIfcTemperatureRateOfChangeMeasure_WrappedValue(), true);
     }
 
     /**
@@ -84,7 +84,7 @@ public class IfcTemperatureRateOfChangeMeasureImpl extends IdEObjectImpl impleme
      */
     @Override
     public void setWrappedValue(double newWrappedValue) {
-        eSet(Ifc4Package.Literals.IFC_TEMPERATURE_RATE_OF_CHANGE_MEASURE__WRAPPED_VALUE, newWrappedValue);
+        eSet(Ifc4Package.eINSTANCE.getIfcTemperatureRateOfChangeMeasure_WrappedValue(), newWrappedValue);
     }
 
     /**
@@ -94,7 +94,7 @@ public class IfcTemperatureRateOfChangeMeasureImpl extends IdEObjectImpl impleme
      */
     @Override
     public void unsetWrappedValue() {
-        eUnset(Ifc4Package.Literals.IFC_TEMPERATURE_RATE_OF_CHANGE_MEASURE__WRAPPED_VALUE);
+        eUnset(Ifc4Package.eINSTANCE.getIfcTemperatureRateOfChangeMeasure_WrappedValue());
     }
 
     /**
@@ -104,7 +104,7 @@ public class IfcTemperatureRateOfChangeMeasureImpl extends IdEObjectImpl impleme
      */
     @Override
     public boolean isSetWrappedValue() {
-        return eIsSet(Ifc4Package.Literals.IFC_TEMPERATURE_RATE_OF_CHANGE_MEASURE__WRAPPED_VALUE);
+        return eIsSet(Ifc4Package.eINSTANCE.getIfcTemperatureRateOfChangeMeasure_WrappedValue());
     }
 
     /**
@@ -114,8 +114,7 @@ public class IfcTemperatureRateOfChangeMeasureImpl extends IdEObjectImpl impleme
      */
     @Override
     public String getWrappedValueAsString() {
-        return (String) eGet(Ifc4Package.Literals.IFC_TEMPERATURE_RATE_OF_CHANGE_MEASURE__WRAPPED_VALUE_AS_STRING,
-                true);
+        return (String) eGet(Ifc4Package.eINSTANCE.getIfcTemperatureRateOfChangeMeasure_WrappedValueAsString(), true);
     }
 
     /**
@@ -125,7 +124,7 @@ public class IfcTemperatureRateOfChangeMeasureImpl extends IdEObjectImpl impleme
      */
     @Override
     public void setWrappedValueAsString(String newWrappedValueAsString) {
-        eSet(Ifc4Package.Literals.IFC_TEMPERATURE_RATE_OF_CHANGE_MEASURE__WRAPPED_VALUE_AS_STRING,
+        eSet(Ifc4Package.eINSTANCE.getIfcTemperatureRateOfChangeMeasure_WrappedValueAsString(),
                 newWrappedValueAsString);
     }
 
@@ -136,7 +135,7 @@ public class IfcTemperatureRateOfChangeMeasureImpl extends IdEObjectImpl impleme
      */
     @Override
     public void unsetWrappedValueAsString() {
-        eUnset(Ifc4Package.Literals.IFC_TEMPERATURE_RATE_OF_CHANGE_MEASURE__WRAPPED_VALUE_AS_STRING);
+        eUnset(Ifc4Package.eINSTANCE.getIfcTemperatureRateOfChangeMeasure_WrappedValueAsString());
     }
 
     /**
@@ -146,7 +145,7 @@ public class IfcTemperatureRateOfChangeMeasureImpl extends IdEObjectImpl impleme
      */
     @Override
     public boolean isSetWrappedValueAsString() {
-        return eIsSet(Ifc4Package.Literals.IFC_TEMPERATURE_RATE_OF_CHANGE_MEASURE__WRAPPED_VALUE_AS_STRING);
+        return eIsSet(Ifc4Package.eINSTANCE.getIfcTemperatureRateOfChangeMeasure_WrappedValueAsString());
     }
 
 } //IfcTemperatureRateOfChangeMeasureImpl

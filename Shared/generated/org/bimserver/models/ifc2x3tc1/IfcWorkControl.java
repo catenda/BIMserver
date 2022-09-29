@@ -49,10 +49,6 @@ public interface IfcWorkControl extends IfcControl {
     /**
      * Returns the value of the '<em><b>Identifier</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Identifier</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Identifier</em>' attribute.
      * @see #setIdentifier(String)
@@ -75,10 +71,6 @@ public interface IfcWorkControl extends IfcControl {
     /**
      * Returns the value of the '<em><b>Creation Date</b></em>' reference.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Creation Date</em>' reference isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Creation Date</em>' reference.
      * @see #setCreationDate(IfcDateTimeSelect)
@@ -102,10 +94,6 @@ public interface IfcWorkControl extends IfcControl {
      * Returns the value of the '<em><b>Creators</b></em>' reference list.
      * The list contents are of type {@link org.bimserver.models.ifc2x3tc1.IfcPerson}.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Creators</em>' reference list isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Creators</em>' reference list.
      * @see #isSetCreators()
@@ -140,10 +128,6 @@ public interface IfcWorkControl extends IfcControl {
     /**
      * Returns the value of the '<em><b>Purpose</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Purpose</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Purpose</em>' attribute.
      * @see #isSetPurpose()
@@ -193,10 +177,6 @@ public interface IfcWorkControl extends IfcControl {
     /**
      * Returns the value of the '<em><b>Duration</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Duration</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Duration</em>' attribute.
      * @see #isSetDuration()
@@ -246,10 +226,6 @@ public interface IfcWorkControl extends IfcControl {
     /**
      * Returns the value of the '<em><b>Duration As String</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Duration As String</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Duration As String</em>' attribute.
      * @see #isSetDurationAsString()
@@ -301,10 +277,6 @@ public interface IfcWorkControl extends IfcControl {
     /**
      * Returns the value of the '<em><b>Total Float</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Total Float</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Total Float</em>' attribute.
      * @see #isSetTotalFloat()
@@ -354,10 +326,6 @@ public interface IfcWorkControl extends IfcControl {
     /**
      * Returns the value of the '<em><b>Total Float As String</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Total Float As String</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Total Float As String</em>' attribute.
      * @see #isSetTotalFloatAsString()
@@ -409,10 +377,6 @@ public interface IfcWorkControl extends IfcControl {
     /**
      * Returns the value of the '<em><b>Start Time</b></em>' reference.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Start Time</em>' reference isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Start Time</em>' reference.
      * @see #setStartTime(IfcDateTimeSelect)
@@ -435,10 +399,6 @@ public interface IfcWorkControl extends IfcControl {
     /**
      * Returns the value of the '<em><b>Finish Time</b></em>' reference.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Finish Time</em>' reference isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Finish Time</em>' reference.
      * @see #isSetFinishTime()
@@ -489,10 +449,6 @@ public interface IfcWorkControl extends IfcControl {
      * Returns the value of the '<em><b>Work Control Type</b></em>' attribute.
      * The literals are from the enumeration {@link org.bimserver.models.ifc2x3tc1.IfcWorkControlTypeEnum}.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Work Control Type</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Work Control Type</em>' attribute.
      * @see org.bimserver.models.ifc2x3tc1.IfcWorkControlTypeEnum
@@ -544,10 +500,6 @@ public interface IfcWorkControl extends IfcControl {
     /**
      * Returns the value of the '<em><b>User Defined Control Type</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>User Defined Control Type</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>User Defined Control Type</em>' attribute.
      * @see #isSetUserDefinedControlType()

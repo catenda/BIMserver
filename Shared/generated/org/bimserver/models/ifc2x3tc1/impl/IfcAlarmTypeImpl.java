@@ -52,7 +52,7 @@ public class IfcAlarmTypeImpl extends IfcDistributionControlElementTypeImpl impl
      */
     @Override
     protected EClass eStaticClass() {
-        return Ifc2x3tc1Package.Literals.IFC_ALARM_TYPE;
+        return Ifc2x3tc1Package.eINSTANCE.getIfcAlarmType();
     }
 
     /**
@@ -62,7 +62,7 @@ public class IfcAlarmTypeImpl extends IfcDistributionControlElementTypeImpl impl
      */
     @Override
     public IfcAlarmTypeEnum getPredefinedType() {
-        return (IfcAlarmTypeEnum) eGet(Ifc2x3tc1Package.Literals.IFC_ALARM_TYPE__PREDEFINED_TYPE, true);
+        return (IfcAlarmTypeEnum) eGet(Ifc2x3tc1Package.eINSTANCE.getIfcAlarmType_PredefinedType(), true);
     }
 
     /**
@@ -72,7 +72,7 @@ public class IfcAlarmTypeImpl extends IfcDistributionControlElementTypeImpl impl
      */
     @Override
     public void setPredefinedType(IfcAlarmTypeEnum newPredefinedType) {
-        eSet(Ifc2x3tc1Package.Literals.IFC_ALARM_TYPE__PREDEFINED_TYPE, newPredefinedType);
+        eSet(Ifc2x3tc1Package.eINSTANCE.getIfcAlarmType_PredefinedType(), newPredefinedType);
     }
 
 } //IfcAlarmTypeImpl

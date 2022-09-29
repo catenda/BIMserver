@@ -39,10 +39,6 @@ public interface IfcMetric extends IfcConstraint {
      * Returns the value of the '<em><b>Benchmark</b></em>' attribute.
      * The literals are from the enumeration {@link org.bimserver.models.ifc2x3tc1.IfcBenchmarkEnum}.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Benchmark</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Benchmark</em>' attribute.
      * @see org.bimserver.models.ifc2x3tc1.IfcBenchmarkEnum
@@ -67,10 +63,6 @@ public interface IfcMetric extends IfcConstraint {
     /**
      * Returns the value of the '<em><b>Value Source</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Value Source</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Value Source</em>' attribute.
      * @see #isSetValueSource()
@@ -120,10 +112,6 @@ public interface IfcMetric extends IfcConstraint {
     /**
      * Returns the value of the '<em><b>Data Value</b></em>' reference.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Data Value</em>' reference isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Data Value</em>' reference.
      * @see #setDataValue(IfcMetricValueSelect)

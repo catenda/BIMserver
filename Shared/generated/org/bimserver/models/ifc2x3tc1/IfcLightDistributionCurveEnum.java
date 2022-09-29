@@ -85,10 +85,6 @@ public enum IfcLightDistributionCurveEnum implements Enumerator {
     /**
      * The '<em><b>NULL</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>NULL</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #NULL
      * @model
@@ -100,10 +96,6 @@ public enum IfcLightDistributionCurveEnum implements Enumerator {
     /**
      * The '<em><b>NOTDEFINED</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>NOTDEFINED</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #NOTDEFINED
      * @model
@@ -115,10 +107,6 @@ public enum IfcLightDistributionCurveEnum implements Enumerator {
     /**
      * The '<em><b>TYPE C</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>TYPE C</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #TYPE_C
      * @model
@@ -130,10 +118,6 @@ public enum IfcLightDistributionCurveEnum implements Enumerator {
     /**
      * The '<em><b>TYPE A</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>TYPE A</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #TYPE_A
      * @model
@@ -145,10 +129,6 @@ public enum IfcLightDistributionCurveEnum implements Enumerator {
     /**
      * The '<em><b>TYPE B</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>TYPE B</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #TYPE_B
      * @model

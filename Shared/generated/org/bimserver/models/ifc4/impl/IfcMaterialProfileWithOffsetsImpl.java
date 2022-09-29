@@ -54,7 +54,7 @@ public class IfcMaterialProfileWithOffsetsImpl extends IfcMaterialProfileImpl im
      */
     @Override
     protected EClass eStaticClass() {
-        return Ifc4Package.Literals.IFC_MATERIAL_PROFILE_WITH_OFFSETS;
+        return Ifc4Package.eINSTANCE.getIfcMaterialProfileWithOffsets();
     }
 
     /**
@@ -65,7 +65,7 @@ public class IfcMaterialProfileWithOffsetsImpl extends IfcMaterialProfileImpl im
     @SuppressWarnings("unchecked")
     @Override
     public EList<Double> getOffsetValues() {
-        return (EList<Double>) eGet(Ifc4Package.Literals.IFC_MATERIAL_PROFILE_WITH_OFFSETS__OFFSET_VALUES, true);
+        return (EList<Double>) eGet(Ifc4Package.eINSTANCE.getIfcMaterialProfileWithOffsets_OffsetValues(), true);
     }
 
     /**
@@ -76,7 +76,7 @@ public class IfcMaterialProfileWithOffsetsImpl extends IfcMaterialProfileImpl im
     @SuppressWarnings("unchecked")
     @Override
     public EList<String> getOffsetValuesAsString() {
-        return (EList<String>) eGet(Ifc4Package.Literals.IFC_MATERIAL_PROFILE_WITH_OFFSETS__OFFSET_VALUES_AS_STRING,
+        return (EList<String>) eGet(Ifc4Package.eINSTANCE.getIfcMaterialProfileWithOffsets_OffsetValuesAsString(),
                 true);
     }
 

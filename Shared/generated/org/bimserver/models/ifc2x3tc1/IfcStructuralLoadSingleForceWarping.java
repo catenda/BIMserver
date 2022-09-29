@@ -37,10 +37,6 @@ public interface IfcStructuralLoadSingleForceWarping extends IfcStructuralLoadSi
     /**
      * Returns the value of the '<em><b>Warping Moment</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Warping Moment</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Warping Moment</em>' attribute.
      * @see #isSetWarpingMoment()
@@ -90,10 +86,6 @@ public interface IfcStructuralLoadSingleForceWarping extends IfcStructuralLoadSi
     /**
      * Returns the value of the '<em><b>Warping Moment As String</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Warping Moment As String</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Warping Moment As String</em>' attribute.
      * @see #isSetWarpingMomentAsString()

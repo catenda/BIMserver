@@ -40,10 +40,6 @@ public interface IfcWindowStyle extends IfcTypeProduct {
      * Returns the value of the '<em><b>Construction Type</b></em>' attribute.
      * The literals are from the enumeration {@link org.bimserver.models.ifc4.IfcWindowStyleConstructionEnum}.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Construction Type</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Construction Type</em>' attribute.
      * @see org.bimserver.models.ifc4.IfcWindowStyleConstructionEnum
@@ -69,10 +65,6 @@ public interface IfcWindowStyle extends IfcTypeProduct {
      * Returns the value of the '<em><b>Operation Type</b></em>' attribute.
      * The literals are from the enumeration {@link org.bimserver.models.ifc4.IfcWindowStyleOperationEnum}.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Operation Type</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Operation Type</em>' attribute.
      * @see org.bimserver.models.ifc4.IfcWindowStyleOperationEnum
@@ -98,10 +90,6 @@ public interface IfcWindowStyle extends IfcTypeProduct {
      * Returns the value of the '<em><b>Parameter Takes Precedence</b></em>' attribute.
      * The literals are from the enumeration {@link org.bimserver.models.ifc4.Tristate}.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Parameter Takes Precedence</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Parameter Takes Precedence</em>' attribute.
      * @see org.bimserver.models.ifc4.Tristate
@@ -127,10 +115,6 @@ public interface IfcWindowStyle extends IfcTypeProduct {
      * Returns the value of the '<em><b>Sizeable</b></em>' attribute.
      * The literals are from the enumeration {@link org.bimserver.models.ifc4.Tristate}.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Sizeable</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Sizeable</em>' attribute.
      * @see org.bimserver.models.ifc4.Tristate

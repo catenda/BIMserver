@@ -41,10 +41,6 @@ public interface IfcConnectionPointEccentricity extends IfcConnectionPointGeomet
     /**
      * Returns the value of the '<em><b>Eccentricity In X</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Eccentricity In X</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Eccentricity In X</em>' attribute.
      * @see #isSetEccentricityInX()
@@ -94,10 +90,6 @@ public interface IfcConnectionPointEccentricity extends IfcConnectionPointGeomet
     /**
      * Returns the value of the '<em><b>Eccentricity In XAs String</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Eccentricity In XAs String</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Eccentricity In XAs String</em>' attribute.
      * @see #isSetEccentricityInXAsString()
@@ -149,10 +141,6 @@ public interface IfcConnectionPointEccentricity extends IfcConnectionPointGeomet
     /**
      * Returns the value of the '<em><b>Eccentricity In Y</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Eccentricity In Y</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Eccentricity In Y</em>' attribute.
      * @see #isSetEccentricityInY()
@@ -202,10 +190,6 @@ public interface IfcConnectionPointEccentricity extends IfcConnectionPointGeomet
     /**
      * Returns the value of the '<em><b>Eccentricity In YAs String</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Eccentricity In YAs String</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Eccentricity In YAs String</em>' attribute.
      * @see #isSetEccentricityInYAsString()
@@ -257,10 +241,6 @@ public interface IfcConnectionPointEccentricity extends IfcConnectionPointGeomet
     /**
      * Returns the value of the '<em><b>Eccentricity In Z</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Eccentricity In Z</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Eccentricity In Z</em>' attribute.
      * @see #isSetEccentricityInZ()
@@ -310,10 +290,6 @@ public interface IfcConnectionPointEccentricity extends IfcConnectionPointGeomet
     /**
      * Returns the value of the '<em><b>Eccentricity In ZAs String</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Eccentricity In ZAs String</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Eccentricity In ZAs String</em>' attribute.
      * @see #isSetEccentricityInZAsString()

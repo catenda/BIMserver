@@ -52,7 +52,7 @@ public class IfcSphericalSurfaceImpl extends IfcElementarySurfaceImpl implements
      */
     @Override
     protected EClass eStaticClass() {
-        return Ifc4Package.Literals.IFC_SPHERICAL_SURFACE;
+        return Ifc4Package.eINSTANCE.getIfcSphericalSurface();
     }
 
     /**
@@ -62,7 +62,7 @@ public class IfcSphericalSurfaceImpl extends IfcElementarySurfaceImpl implements
      */
     @Override
     public double getRadius() {
-        return (Double) eGet(Ifc4Package.Literals.IFC_SPHERICAL_SURFACE__RADIUS, true);
+        return (Double) eGet(Ifc4Package.eINSTANCE.getIfcSphericalSurface_Radius(), true);
     }
 
     /**
@@ -72,7 +72,7 @@ public class IfcSphericalSurfaceImpl extends IfcElementarySurfaceImpl implements
      */
     @Override
     public void setRadius(double newRadius) {
-        eSet(Ifc4Package.Literals.IFC_SPHERICAL_SURFACE__RADIUS, newRadius);
+        eSet(Ifc4Package.eINSTANCE.getIfcSphericalSurface_Radius(), newRadius);
     }
 
     /**
@@ -82,7 +82,7 @@ public class IfcSphericalSurfaceImpl extends IfcElementarySurfaceImpl implements
      */
     @Override
     public String getRadiusAsString() {
-        return (String) eGet(Ifc4Package.Literals.IFC_SPHERICAL_SURFACE__RADIUS_AS_STRING, true);
+        return (String) eGet(Ifc4Package.eINSTANCE.getIfcSphericalSurface_RadiusAsString(), true);
     }
 
     /**
@@ -92,7 +92,7 @@ public class IfcSphericalSurfaceImpl extends IfcElementarySurfaceImpl implements
      */
     @Override
     public void setRadiusAsString(String newRadiusAsString) {
-        eSet(Ifc4Package.Literals.IFC_SPHERICAL_SURFACE__RADIUS_AS_STRING, newRadiusAsString);
+        eSet(Ifc4Package.eINSTANCE.getIfcSphericalSurface_RadiusAsString(), newRadiusAsString);
     }
 
 } //IfcSphericalSurfaceImpl

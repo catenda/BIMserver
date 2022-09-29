@@ -227,10 +227,6 @@ public enum IfcDoorStyleOperationEnum implements Enumerator {
     /**
      * The '<em><b>NULL</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>NULL</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #NULL
      * @model
@@ -242,10 +238,6 @@ public enum IfcDoorStyleOperationEnum implements Enumerator {
     /**
      * The '<em><b>DOUBLE DOOR DOUBLE SWING</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>DOUBLE DOOR DOUBLE SWING</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #DOUBLE_DOOR_DOUBLE_SWING
      * @model
@@ -257,10 +249,6 @@ public enum IfcDoorStyleOperationEnum implements Enumerator {
     /**
      * The '<em><b>USERDEFINED</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>USERDEFINED</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #USERDEFINED
      * @model
@@ -272,10 +260,6 @@ public enum IfcDoorStyleOperationEnum implements Enumerator {
     /**
      * The '<em><b>FOLDING TO LEFT</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>FOLDING TO LEFT</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #FOLDING_TO_LEFT
      * @model
@@ -287,10 +271,6 @@ public enum IfcDoorStyleOperationEnum implements Enumerator {
     /**
      * The '<em><b>SLIDING TO RIGHT</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>SLIDING TO RIGHT</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #SLIDING_TO_RIGHT
      * @model
@@ -302,10 +282,6 @@ public enum IfcDoorStyleOperationEnum implements Enumerator {
     /**
      * The '<em><b>SINGLE SWING RIGHT</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>SINGLE SWING RIGHT</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #SINGLE_SWING_RIGHT
      * @model
@@ -317,10 +293,6 @@ public enum IfcDoorStyleOperationEnum implements Enumerator {
     /**
      * The '<em><b>DOUBLE SWING LEFT</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>DOUBLE SWING LEFT</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #DOUBLE_SWING_LEFT
      * @model
@@ -332,10 +304,6 @@ public enum IfcDoorStyleOperationEnum implements Enumerator {
     /**
      * The '<em><b>NOTDEFINED</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>NOTDEFINED</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #NOTDEFINED
      * @model
@@ -347,10 +315,6 @@ public enum IfcDoorStyleOperationEnum implements Enumerator {
     /**
      * The '<em><b>DOUBLE DOOR FOLDING</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>DOUBLE DOOR FOLDING</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #DOUBLE_DOOR_FOLDING
      * @model
@@ -362,10 +326,6 @@ public enum IfcDoorStyleOperationEnum implements Enumerator {
     /**
      * The '<em><b>REVOLVING</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>REVOLVING</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #REVOLVING
      * @model
@@ -377,10 +337,6 @@ public enum IfcDoorStyleOperationEnum implements Enumerator {
     /**
      * The '<em><b>DOUBLE DOOR SINGLE SWING OPPOSITE RIGHT</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>DOUBLE DOOR SINGLE SWING OPPOSITE RIGHT</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #DOUBLE_DOOR_SINGLE_SWING_OPPOSITE_RIGHT
      * @model
@@ -392,10 +348,6 @@ public enum IfcDoorStyleOperationEnum implements Enumerator {
     /**
      * The '<em><b>SLIDING TO LEFT</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>SLIDING TO LEFT</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #SLIDING_TO_LEFT
      * @model
@@ -407,10 +359,6 @@ public enum IfcDoorStyleOperationEnum implements Enumerator {
     /**
      * The '<em><b>DOUBLE SWING RIGHT</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>DOUBLE SWING RIGHT</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #DOUBLE_SWING_RIGHT
      * @model
@@ -422,10 +370,6 @@ public enum IfcDoorStyleOperationEnum implements Enumerator {
     /**
      * The '<em><b>ROLLINGUP</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>ROLLINGUP</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #ROLLINGUP
      * @model
@@ -437,10 +381,6 @@ public enum IfcDoorStyleOperationEnum implements Enumerator {
     /**
      * The '<em><b>SINGLE SWING LEFT</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>SINGLE SWING LEFT</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #SINGLE_SWING_LEFT
      * @model
@@ -452,10 +392,6 @@ public enum IfcDoorStyleOperationEnum implements Enumerator {
     /**
      * The '<em><b>DOUBLE DOOR SINGLE SWING OPPOSITE LEFT</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>DOUBLE DOOR SINGLE SWING OPPOSITE LEFT</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #DOUBLE_DOOR_SINGLE_SWING_OPPOSITE_LEFT
      * @model
@@ -467,10 +403,6 @@ public enum IfcDoorStyleOperationEnum implements Enumerator {
     /**
      * The '<em><b>DOUBLE DOOR SINGLE SWING</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>DOUBLE DOOR SINGLE SWING</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #DOUBLE_DOOR_SINGLE_SWING
      * @model
@@ -482,10 +414,6 @@ public enum IfcDoorStyleOperationEnum implements Enumerator {
     /**
      * The '<em><b>DOUBLE DOOR SLIDING</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>DOUBLE DOOR SLIDING</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #DOUBLE_DOOR_SLIDING
      * @model
@@ -497,10 +425,6 @@ public enum IfcDoorStyleOperationEnum implements Enumerator {
     /**
      * The '<em><b>FOLDING TO RIGHT</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>FOLDING TO RIGHT</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #FOLDING_TO_RIGHT
      * @model

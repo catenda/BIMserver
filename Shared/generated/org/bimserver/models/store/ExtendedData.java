@@ -49,10 +49,6 @@ public interface ExtendedData extends IdEObject {
     /**
      * Returns the value of the '<em><b>Url</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Url</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Url</em>' attribute.
      * @see #setUrl(String)
@@ -75,10 +71,6 @@ public interface ExtendedData extends IdEObject {
     /**
      * Returns the value of the '<em><b>File</b></em>' reference.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>File</em>' reference isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>File</em>' reference.
      * @see #setFile(File)
@@ -101,10 +93,6 @@ public interface ExtendedData extends IdEObject {
     /**
      * Returns the value of the '<em><b>Size</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Size</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Size</em>' attribute.
      * @see #setSize(long)
@@ -127,10 +115,6 @@ public interface ExtendedData extends IdEObject {
     /**
      * Returns the value of the '<em><b>Title</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Title</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Title</em>' attribute.
      * @see #setTitle(String)
@@ -153,10 +137,6 @@ public interface ExtendedData extends IdEObject {
     /**
      * Returns the value of the '<em><b>Added</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Added</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Added</em>' attribute.
      * @see #setAdded(Date)
@@ -180,10 +160,6 @@ public interface ExtendedData extends IdEObject {
      * Returns the value of the '<em><b>User</b></em>' reference.
      * It is bidirectional and its opposite is '{@link org.bimserver.models.store.User#getExtendedData <em>Extended Data</em>}'.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>User</em>' reference isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>User</em>' reference.
      * @see #setUser(User)
@@ -208,10 +184,6 @@ public interface ExtendedData extends IdEObject {
      * Returns the value of the '<em><b>Schema</b></em>' reference.
      * It is bidirectional and its opposite is '{@link org.bimserver.models.store.ExtendedDataSchema#getExtendedData <em>Extended Data</em>}'.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Schema</em>' reference isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Schema</em>' reference.
      * @see #setSchema(ExtendedDataSchema)
@@ -236,10 +208,6 @@ public interface ExtendedData extends IdEObject {
      * Returns the value of the '<em><b>Revision</b></em>' reference.
      * It is bidirectional and its opposite is '{@link org.bimserver.models.store.Revision#getExtendedData <em>Extended Data</em>}'.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Revision</em>' reference isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Revision</em>' reference.
      * @see #setRevision(Revision)
@@ -264,10 +232,6 @@ public interface ExtendedData extends IdEObject {
      * Returns the value of the '<em><b>Project</b></em>' reference.
      * It is bidirectional and its opposite is '{@link org.bimserver.models.store.Project#getExtendedData <em>Extended Data</em>}'.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Project</em>' reference isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Project</em>' reference.
      * @see #setProject(Project)

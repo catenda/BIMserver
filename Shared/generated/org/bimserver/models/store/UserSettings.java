@@ -56,10 +56,6 @@ public interface UserSettings extends IdEObject {
      * The list contents are of type {@link org.bimserver.models.store.SerializerPluginConfiguration}.
      * It is bidirectional and its opposite is '{@link org.bimserver.models.store.SerializerPluginConfiguration#getUserSettings <em>User Settings</em>}'.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Serializers</em>' reference list isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Serializers</em>' reference list.
      * @see org.bimserver.models.store.StorePackage#getUserSettings_Serializers()
@@ -74,10 +70,6 @@ public interface UserSettings extends IdEObject {
      * The list contents are of type {@link org.bimserver.models.store.ObjectIDMPluginConfiguration}.
      * It is bidirectional and its opposite is '{@link org.bimserver.models.store.ObjectIDMPluginConfiguration#getUserSettings <em>User Settings</em>}'.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Object ID Ms</em>' reference list isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Object ID Ms</em>' reference list.
      * @see org.bimserver.models.store.StorePackage#getUserSettings_ObjectIDMs()
@@ -92,10 +84,6 @@ public interface UserSettings extends IdEObject {
      * The list contents are of type {@link org.bimserver.models.store.RenderEnginePluginConfiguration}.
      * It is bidirectional and its opposite is '{@link org.bimserver.models.store.RenderEnginePluginConfiguration#getUserSettings <em>User Settings</em>}'.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Render Engines</em>' reference list isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Render Engines</em>' reference list.
      * @see org.bimserver.models.store.StorePackage#getUserSettings_RenderEngines()
@@ -110,10 +98,6 @@ public interface UserSettings extends IdEObject {
      * The list contents are of type {@link org.bimserver.models.store.DeserializerPluginConfiguration}.
      * It is bidirectional and its opposite is '{@link org.bimserver.models.store.DeserializerPluginConfiguration#getUserSettings <em>User Settings</em>}'.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Deserializers</em>' reference list isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Deserializers</em>' reference list.
      * @see org.bimserver.models.store.StorePackage#getUserSettings_Deserializers()
@@ -128,10 +112,6 @@ public interface UserSettings extends IdEObject {
      * The list contents are of type {@link org.bimserver.models.store.QueryEnginePluginConfiguration}.
      * It is bidirectional and its opposite is '{@link org.bimserver.models.store.QueryEnginePluginConfiguration#getUserSettings <em>User Settings</em>}'.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Queryengines</em>' reference list isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Queryengines</em>' reference list.
      * @see org.bimserver.models.store.StorePackage#getUserSettings_Queryengines()
@@ -146,10 +126,6 @@ public interface UserSettings extends IdEObject {
      * The list contents are of type {@link org.bimserver.models.store.ModelMergerPluginConfiguration}.
      * It is bidirectional and its opposite is '{@link org.bimserver.models.store.ModelMergerPluginConfiguration#getUserSettings <em>User Settings</em>}'.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Modelmergers</em>' reference list isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Modelmergers</em>' reference list.
      * @see org.bimserver.models.store.StorePackage#getUserSettings_Modelmergers()
@@ -164,10 +140,6 @@ public interface UserSettings extends IdEObject {
      * The list contents are of type {@link org.bimserver.models.store.ModelComparePluginConfiguration}.
      * It is bidirectional and its opposite is '{@link org.bimserver.models.store.ModelComparePluginConfiguration#getUserSettings <em>User Settings</em>}'.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Modelcompares</em>' reference list isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Modelcompares</em>' reference list.
      * @see org.bimserver.models.store.StorePackage#getUserSettings_Modelcompares()
@@ -180,10 +152,6 @@ public interface UserSettings extends IdEObject {
     /**
      * Returns the value of the '<em><b>Default Model Merger</b></em>' reference.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Default Model Merger</em>' reference isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Default Model Merger</em>' reference.
      * @see #setDefaultModelMerger(ModelMergerPluginConfiguration)
@@ -206,10 +174,6 @@ public interface UserSettings extends IdEObject {
     /**
      * Returns the value of the '<em><b>Default Model Compare</b></em>' reference.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Default Model Compare</em>' reference isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Default Model Compare</em>' reference.
      * @see #setDefaultModelCompare(ModelComparePluginConfiguration)
@@ -232,10 +196,6 @@ public interface UserSettings extends IdEObject {
     /**
      * Returns the value of the '<em><b>Default Query Engine</b></em>' reference.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Default Query Engine</em>' reference isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Default Query Engine</em>' reference.
      * @see #setDefaultQueryEngine(QueryEnginePluginConfiguration)
@@ -258,10 +218,6 @@ public interface UserSettings extends IdEObject {
     /**
      * Returns the value of the '<em><b>Default Render Engine</b></em>' reference.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Default Render Engine</em>' reference isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Default Render Engine</em>' reference.
      * @see #setDefaultRenderEngine(RenderEnginePluginConfiguration)
@@ -284,10 +240,6 @@ public interface UserSettings extends IdEObject {
     /**
      * Returns the value of the '<em><b>Default Serializer</b></em>' reference.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Default Serializer</em>' reference isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Default Serializer</em>' reference.
      * @see #setDefaultSerializer(SerializerPluginConfiguration)
@@ -310,10 +262,6 @@ public interface UserSettings extends IdEObject {
     /**
      * Returns the value of the '<em><b>Default Object IDM</b></em>' reference.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Default Object IDM</em>' reference isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Default Object IDM</em>' reference.
      * @see #setDefaultObjectIDM(ObjectIDMPluginConfiguration)
@@ -338,10 +286,6 @@ public interface UserSettings extends IdEObject {
      * The list contents are of type {@link org.bimserver.models.store.InternalServicePluginConfiguration}.
      * It is bidirectional and its opposite is '{@link org.bimserver.models.store.InternalServicePluginConfiguration#getUserSettings <em>User Settings</em>}'.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Services</em>' reference list isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Services</em>' reference list.
      * @see org.bimserver.models.store.StorePackage#getUserSettings_Services()

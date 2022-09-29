@@ -53,7 +53,7 @@ public class IfcTextStyleForDefinedFontImpl extends IfcPresentationItemImpl impl
      */
     @Override
     protected EClass eStaticClass() {
-        return Ifc4Package.Literals.IFC_TEXT_STYLE_FOR_DEFINED_FONT;
+        return Ifc4Package.eINSTANCE.getIfcTextStyleForDefinedFont();
     }
 
     /**
@@ -63,7 +63,7 @@ public class IfcTextStyleForDefinedFontImpl extends IfcPresentationItemImpl impl
      */
     @Override
     public IfcColour getColour() {
-        return (IfcColour) eGet(Ifc4Package.Literals.IFC_TEXT_STYLE_FOR_DEFINED_FONT__COLOUR, true);
+        return (IfcColour) eGet(Ifc4Package.eINSTANCE.getIfcTextStyleForDefinedFont_Colour(), true);
     }
 
     /**
@@ -73,7 +73,7 @@ public class IfcTextStyleForDefinedFontImpl extends IfcPresentationItemImpl impl
      */
     @Override
     public void setColour(IfcColour newColour) {
-        eSet(Ifc4Package.Literals.IFC_TEXT_STYLE_FOR_DEFINED_FONT__COLOUR, newColour);
+        eSet(Ifc4Package.eINSTANCE.getIfcTextStyleForDefinedFont_Colour(), newColour);
     }
 
     /**
@@ -83,7 +83,7 @@ public class IfcTextStyleForDefinedFontImpl extends IfcPresentationItemImpl impl
      */
     @Override
     public IfcColour getBackgroundColour() {
-        return (IfcColour) eGet(Ifc4Package.Literals.IFC_TEXT_STYLE_FOR_DEFINED_FONT__BACKGROUND_COLOUR, true);
+        return (IfcColour) eGet(Ifc4Package.eINSTANCE.getIfcTextStyleForDefinedFont_BackgroundColour(), true);
     }
 
     /**
@@ -93,7 +93,7 @@ public class IfcTextStyleForDefinedFontImpl extends IfcPresentationItemImpl impl
      */
     @Override
     public void setBackgroundColour(IfcColour newBackgroundColour) {
-        eSet(Ifc4Package.Literals.IFC_TEXT_STYLE_FOR_DEFINED_FONT__BACKGROUND_COLOUR, newBackgroundColour);
+        eSet(Ifc4Package.eINSTANCE.getIfcTextStyleForDefinedFont_BackgroundColour(), newBackgroundColour);
     }
 
     /**
@@ -103,7 +103,7 @@ public class IfcTextStyleForDefinedFontImpl extends IfcPresentationItemImpl impl
      */
     @Override
     public void unsetBackgroundColour() {
-        eUnset(Ifc4Package.Literals.IFC_TEXT_STYLE_FOR_DEFINED_FONT__BACKGROUND_COLOUR);
+        eUnset(Ifc4Package.eINSTANCE.getIfcTextStyleForDefinedFont_BackgroundColour());
     }
 
     /**
@@ -113,7 +113,7 @@ public class IfcTextStyleForDefinedFontImpl extends IfcPresentationItemImpl impl
      */
     @Override
     public boolean isSetBackgroundColour() {
-        return eIsSet(Ifc4Package.Literals.IFC_TEXT_STYLE_FOR_DEFINED_FONT__BACKGROUND_COLOUR);
+        return eIsSet(Ifc4Package.eINSTANCE.getIfcTextStyleForDefinedFont_BackgroundColour());
     }
 
 } //IfcTextStyleForDefinedFontImpl

@@ -19,10 +19,11 @@ package org.bimserver.models.ifc4.impl;
 import org.bimserver.models.ifc4.Ifc4Package;
 import org.bimserver.models.ifc4.IfcBSplineSurface;
 import org.bimserver.models.ifc4.IfcBSplineSurfaceForm;
-
 import org.bimserver.models.ifc4.ListOfIfcCartesianPoint;
 import org.bimserver.models.ifc4.Tristate;
+
 import org.eclipse.emf.common.util.EList;
+
 import org.eclipse.emf.ecore.EClass;
 
 /**
@@ -63,7 +64,7 @@ public class IfcBSplineSurfaceImpl extends IfcBoundedSurfaceImpl implements IfcB
      */
     @Override
     protected EClass eStaticClass() {
-        return Ifc4Package.Literals.IFC_BSPLINE_SURFACE;
+        return Ifc4Package.eINSTANCE.getIfcBSplineSurface();
     }
 
     /**
@@ -73,7 +74,7 @@ public class IfcBSplineSurfaceImpl extends IfcBoundedSurfaceImpl implements IfcB
      */
     @Override
     public long getUDegree() {
-        return (Long) eGet(Ifc4Package.Literals.IFC_BSPLINE_SURFACE__UDEGREE, true);
+        return (Long) eGet(Ifc4Package.eINSTANCE.getIfcBSplineSurface_UDegree(), true);
     }
 
     /**
@@ -83,7 +84,7 @@ public class IfcBSplineSurfaceImpl extends IfcBoundedSurfaceImpl implements IfcB
      */
     @Override
     public void setUDegree(long newUDegree) {
-        eSet(Ifc4Package.Literals.IFC_BSPLINE_SURFACE__UDEGREE, newUDegree);
+        eSet(Ifc4Package.eINSTANCE.getIfcBSplineSurface_UDegree(), newUDegree);
     }
 
     /**
@@ -93,7 +94,7 @@ public class IfcBSplineSurfaceImpl extends IfcBoundedSurfaceImpl implements IfcB
      */
     @Override
     public long getVDegree() {
-        return (Long) eGet(Ifc4Package.Literals.IFC_BSPLINE_SURFACE__VDEGREE, true);
+        return (Long) eGet(Ifc4Package.eINSTANCE.getIfcBSplineSurface_VDegree(), true);
     }
 
     /**
@@ -103,7 +104,7 @@ public class IfcBSplineSurfaceImpl extends IfcBoundedSurfaceImpl implements IfcB
      */
     @Override
     public void setVDegree(long newVDegree) {
-        eSet(Ifc4Package.Literals.IFC_BSPLINE_SURFACE__VDEGREE, newVDegree);
+        eSet(Ifc4Package.eINSTANCE.getIfcBSplineSurface_VDegree(), newVDegree);
     }
 
     /**
@@ -114,7 +115,7 @@ public class IfcBSplineSurfaceImpl extends IfcBoundedSurfaceImpl implements IfcB
     @SuppressWarnings("unchecked")
     @Override
     public EList<ListOfIfcCartesianPoint> getControlPointsList() {
-        return (EList<ListOfIfcCartesianPoint>) eGet(Ifc4Package.Literals.IFC_BSPLINE_SURFACE__CONTROL_POINTS_LIST,
+        return (EList<ListOfIfcCartesianPoint>) eGet(Ifc4Package.eINSTANCE.getIfcBSplineSurface_ControlPointsList(),
                 true);
     }
 
@@ -125,7 +126,7 @@ public class IfcBSplineSurfaceImpl extends IfcBoundedSurfaceImpl implements IfcB
      */
     @Override
     public IfcBSplineSurfaceForm getSurfaceForm() {
-        return (IfcBSplineSurfaceForm) eGet(Ifc4Package.Literals.IFC_BSPLINE_SURFACE__SURFACE_FORM, true);
+        return (IfcBSplineSurfaceForm) eGet(Ifc4Package.eINSTANCE.getIfcBSplineSurface_SurfaceForm(), true);
     }
 
     /**
@@ -135,7 +136,7 @@ public class IfcBSplineSurfaceImpl extends IfcBoundedSurfaceImpl implements IfcB
      */
     @Override
     public void setSurfaceForm(IfcBSplineSurfaceForm newSurfaceForm) {
-        eSet(Ifc4Package.Literals.IFC_BSPLINE_SURFACE__SURFACE_FORM, newSurfaceForm);
+        eSet(Ifc4Package.eINSTANCE.getIfcBSplineSurface_SurfaceForm(), newSurfaceForm);
     }
 
     /**
@@ -145,7 +146,7 @@ public class IfcBSplineSurfaceImpl extends IfcBoundedSurfaceImpl implements IfcB
      */
     @Override
     public Tristate getUClosed() {
-        return (Tristate) eGet(Ifc4Package.Literals.IFC_BSPLINE_SURFACE__UCLOSED, true);
+        return (Tristate) eGet(Ifc4Package.eINSTANCE.getIfcBSplineSurface_UClosed(), true);
     }
 
     /**
@@ -155,7 +156,7 @@ public class IfcBSplineSurfaceImpl extends IfcBoundedSurfaceImpl implements IfcB
      */
     @Override
     public void setUClosed(Tristate newUClosed) {
-        eSet(Ifc4Package.Literals.IFC_BSPLINE_SURFACE__UCLOSED, newUClosed);
+        eSet(Ifc4Package.eINSTANCE.getIfcBSplineSurface_UClosed(), newUClosed);
     }
 
     /**
@@ -165,7 +166,7 @@ public class IfcBSplineSurfaceImpl extends IfcBoundedSurfaceImpl implements IfcB
      */
     @Override
     public Tristate getVClosed() {
-        return (Tristate) eGet(Ifc4Package.Literals.IFC_BSPLINE_SURFACE__VCLOSED, true);
+        return (Tristate) eGet(Ifc4Package.eINSTANCE.getIfcBSplineSurface_VClosed(), true);
     }
 
     /**
@@ -175,7 +176,7 @@ public class IfcBSplineSurfaceImpl extends IfcBoundedSurfaceImpl implements IfcB
      */
     @Override
     public void setVClosed(Tristate newVClosed) {
-        eSet(Ifc4Package.Literals.IFC_BSPLINE_SURFACE__VCLOSED, newVClosed);
+        eSet(Ifc4Package.eINSTANCE.getIfcBSplineSurface_VClosed(), newVClosed);
     }
 
     /**
@@ -185,7 +186,7 @@ public class IfcBSplineSurfaceImpl extends IfcBoundedSurfaceImpl implements IfcB
      */
     @Override
     public Tristate getSelfIntersect() {
-        return (Tristate) eGet(Ifc4Package.Literals.IFC_BSPLINE_SURFACE__SELF_INTERSECT, true);
+        return (Tristate) eGet(Ifc4Package.eINSTANCE.getIfcBSplineSurface_SelfIntersect(), true);
     }
 
     /**
@@ -195,7 +196,7 @@ public class IfcBSplineSurfaceImpl extends IfcBoundedSurfaceImpl implements IfcB
      */
     @Override
     public void setSelfIntersect(Tristate newSelfIntersect) {
-        eSet(Ifc4Package.Literals.IFC_BSPLINE_SURFACE__SELF_INTERSECT, newSelfIntersect);
+        eSet(Ifc4Package.eINSTANCE.getIfcBSplineSurface_SelfIntersect(), newSelfIntersect);
     }
 
     /**
@@ -205,7 +206,7 @@ public class IfcBSplineSurfaceImpl extends IfcBoundedSurfaceImpl implements IfcB
      */
     @Override
     public long getUUpper() {
-        return (Long) eGet(Ifc4Package.Literals.IFC_BSPLINE_SURFACE__UUPPER, true);
+        return (Long) eGet(Ifc4Package.eINSTANCE.getIfcBSplineSurface_UUpper(), true);
     }
 
     /**
@@ -215,7 +216,7 @@ public class IfcBSplineSurfaceImpl extends IfcBoundedSurfaceImpl implements IfcB
      */
     @Override
     public void setUUpper(long newUUpper) {
-        eSet(Ifc4Package.Literals.IFC_BSPLINE_SURFACE__UUPPER, newUUpper);
+        eSet(Ifc4Package.eINSTANCE.getIfcBSplineSurface_UUpper(), newUUpper);
     }
 
     /**
@@ -225,7 +226,7 @@ public class IfcBSplineSurfaceImpl extends IfcBoundedSurfaceImpl implements IfcB
      */
     @Override
     public void unsetUUpper() {
-        eUnset(Ifc4Package.Literals.IFC_BSPLINE_SURFACE__UUPPER);
+        eUnset(Ifc4Package.eINSTANCE.getIfcBSplineSurface_UUpper());
     }
 
     /**
@@ -235,7 +236,7 @@ public class IfcBSplineSurfaceImpl extends IfcBoundedSurfaceImpl implements IfcB
      */
     @Override
     public boolean isSetUUpper() {
-        return eIsSet(Ifc4Package.Literals.IFC_BSPLINE_SURFACE__UUPPER);
+        return eIsSet(Ifc4Package.eINSTANCE.getIfcBSplineSurface_UUpper());
     }
 
     /**
@@ -245,7 +246,7 @@ public class IfcBSplineSurfaceImpl extends IfcBoundedSurfaceImpl implements IfcB
      */
     @Override
     public long getVUpper() {
-        return (Long) eGet(Ifc4Package.Literals.IFC_BSPLINE_SURFACE__VUPPER, true);
+        return (Long) eGet(Ifc4Package.eINSTANCE.getIfcBSplineSurface_VUpper(), true);
     }
 
     /**
@@ -255,7 +256,7 @@ public class IfcBSplineSurfaceImpl extends IfcBoundedSurfaceImpl implements IfcB
      */
     @Override
     public void setVUpper(long newVUpper) {
-        eSet(Ifc4Package.Literals.IFC_BSPLINE_SURFACE__VUPPER, newVUpper);
+        eSet(Ifc4Package.eINSTANCE.getIfcBSplineSurface_VUpper(), newVUpper);
     }
 
     /**
@@ -265,7 +266,7 @@ public class IfcBSplineSurfaceImpl extends IfcBoundedSurfaceImpl implements IfcB
      */
     @Override
     public void unsetVUpper() {
-        eUnset(Ifc4Package.Literals.IFC_BSPLINE_SURFACE__VUPPER);
+        eUnset(Ifc4Package.eINSTANCE.getIfcBSplineSurface_VUpper());
     }
 
     /**
@@ -275,7 +276,7 @@ public class IfcBSplineSurfaceImpl extends IfcBoundedSurfaceImpl implements IfcB
      */
     @Override
     public boolean isSetVUpper() {
-        return eIsSet(Ifc4Package.Literals.IFC_BSPLINE_SURFACE__VUPPER);
+        return eIsSet(Ifc4Package.eINSTANCE.getIfcBSplineSurface_VUpper());
     }
 
 } //IfcBSplineSurfaceImpl

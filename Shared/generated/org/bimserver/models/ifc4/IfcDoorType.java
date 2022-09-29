@@ -40,10 +40,6 @@ public interface IfcDoorType extends IfcBuildingElementType {
      * Returns the value of the '<em><b>Predefined Type</b></em>' attribute.
      * The literals are from the enumeration {@link org.bimserver.models.ifc4.IfcDoorTypeEnum}.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Predefined Type</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Predefined Type</em>' attribute.
      * @see org.bimserver.models.ifc4.IfcDoorTypeEnum
@@ -69,10 +65,6 @@ public interface IfcDoorType extends IfcBuildingElementType {
      * Returns the value of the '<em><b>Operation Type</b></em>' attribute.
      * The literals are from the enumeration {@link org.bimserver.models.ifc4.IfcDoorTypeOperationEnum}.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Operation Type</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Operation Type</em>' attribute.
      * @see org.bimserver.models.ifc4.IfcDoorTypeOperationEnum
@@ -98,10 +90,6 @@ public interface IfcDoorType extends IfcBuildingElementType {
      * Returns the value of the '<em><b>Parameter Takes Precedence</b></em>' attribute.
      * The literals are from the enumeration {@link org.bimserver.models.ifc4.Tristate}.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Parameter Takes Precedence</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Parameter Takes Precedence</em>' attribute.
      * @see org.bimserver.models.ifc4.Tristate
@@ -153,10 +141,6 @@ public interface IfcDoorType extends IfcBuildingElementType {
     /**
      * Returns the value of the '<em><b>User Defined Operation Type</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>User Defined Operation Type</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>User Defined Operation Type</em>' attribute.
      * @see #isSetUserDefinedOperationType()

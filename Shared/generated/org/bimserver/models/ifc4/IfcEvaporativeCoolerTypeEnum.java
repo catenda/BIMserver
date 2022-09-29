@@ -161,10 +161,6 @@ public enum IfcEvaporativeCoolerTypeEnum implements Enumerator {
     /**
      * The '<em><b>NULL</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>NULL</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #NULL
      * @model
@@ -176,10 +172,6 @@ public enum IfcEvaporativeCoolerTypeEnum implements Enumerator {
     /**
      * The '<em><b>DIRECTEVAPORATIVERANDOMMEDIAAIRCOOLER</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>DIRECTEVAPORATIVERANDOMMEDIAAIRCOOLER</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #DIRECTEVAPORATIVERANDOMMEDIAAIRCOOLER
      * @model
@@ -191,10 +183,6 @@ public enum IfcEvaporativeCoolerTypeEnum implements Enumerator {
     /**
      * The '<em><b>NOTDEFINED</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>NOTDEFINED</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #NOTDEFINED
      * @model
@@ -206,10 +194,6 @@ public enum IfcEvaporativeCoolerTypeEnum implements Enumerator {
     /**
      * The '<em><b>INDIRECTEVAPORATIVEPACKAGEAIRCOOLER</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>INDIRECTEVAPORATIVEPACKAGEAIRCOOLER</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #INDIRECTEVAPORATIVEPACKAGEAIRCOOLER
      * @model
@@ -221,10 +205,6 @@ public enum IfcEvaporativeCoolerTypeEnum implements Enumerator {
     /**
      * The '<em><b>INDIRECTEVAPORATIVEWETCOIL</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>INDIRECTEVAPORATIVEWETCOIL</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #INDIRECTEVAPORATIVEWETCOIL
      * @model
@@ -236,10 +216,6 @@ public enum IfcEvaporativeCoolerTypeEnum implements Enumerator {
     /**
      * The '<em><b>INDIRECTEVAPORATIVECOOLINGTOWERORCOILCOOLER</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>INDIRECTEVAPORATIVECOOLINGTOWERORCOILCOOLER</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #INDIRECTEVAPORATIVECOOLINGTOWERORCOILCOOLER
      * @model
@@ -251,10 +227,6 @@ public enum IfcEvaporativeCoolerTypeEnum implements Enumerator {
     /**
      * The '<em><b>INDIRECTDIRECTCOMBINATION</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>INDIRECTDIRECTCOMBINATION</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #INDIRECTDIRECTCOMBINATION
      * @model
@@ -266,10 +238,6 @@ public enum IfcEvaporativeCoolerTypeEnum implements Enumerator {
     /**
      * The '<em><b>DIRECTEVAPORATIVESLINGERSPACKAGEDAIRCOOLER</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>DIRECTEVAPORATIVESLINGERSPACKAGEDAIRCOOLER</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #DIRECTEVAPORATIVESLINGERSPACKAGEDAIRCOOLER
      * @model
@@ -281,10 +249,6 @@ public enum IfcEvaporativeCoolerTypeEnum implements Enumerator {
     /**
      * The '<em><b>DIRECTEVAPORATIVERIGIDMEDIAAIRCOOLER</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>DIRECTEVAPORATIVERIGIDMEDIAAIRCOOLER</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #DIRECTEVAPORATIVERIGIDMEDIAAIRCOOLER
      * @model
@@ -296,10 +260,6 @@ public enum IfcEvaporativeCoolerTypeEnum implements Enumerator {
     /**
      * The '<em><b>USERDEFINED</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>USERDEFINED</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #USERDEFINED
      * @model
@@ -311,10 +271,6 @@ public enum IfcEvaporativeCoolerTypeEnum implements Enumerator {
     /**
      * The '<em><b>DIRECTEVAPORATIVEPACKAGEDROTARYAIRCOOLER</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>DIRECTEVAPORATIVEPACKAGEDROTARYAIRCOOLER</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #DIRECTEVAPORATIVEPACKAGEDROTARYAIRCOOLER
      * @model
@@ -326,10 +282,6 @@ public enum IfcEvaporativeCoolerTypeEnum implements Enumerator {
     /**
      * The '<em><b>DIRECTEVAPORATIVEAIRWASHER</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>DIRECTEVAPORATIVEAIRWASHER</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #DIRECTEVAPORATIVEAIRWASHER
      * @model

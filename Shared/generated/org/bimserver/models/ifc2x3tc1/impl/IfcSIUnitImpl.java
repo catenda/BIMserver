@@ -54,7 +54,7 @@ public class IfcSIUnitImpl extends IfcNamedUnitImpl implements IfcSIUnit {
      */
     @Override
     protected EClass eStaticClass() {
-        return Ifc2x3tc1Package.Literals.IFC_SI_UNIT;
+        return Ifc2x3tc1Package.eINSTANCE.getIfcSIUnit();
     }
 
     /**
@@ -64,7 +64,7 @@ public class IfcSIUnitImpl extends IfcNamedUnitImpl implements IfcSIUnit {
      */
     @Override
     public IfcSIPrefix getPrefix() {
-        return (IfcSIPrefix) eGet(Ifc2x3tc1Package.Literals.IFC_SI_UNIT__PREFIX, true);
+        return (IfcSIPrefix) eGet(Ifc2x3tc1Package.eINSTANCE.getIfcSIUnit_Prefix(), true);
     }
 
     /**
@@ -74,7 +74,7 @@ public class IfcSIUnitImpl extends IfcNamedUnitImpl implements IfcSIUnit {
      */
     @Override
     public void setPrefix(IfcSIPrefix newPrefix) {
-        eSet(Ifc2x3tc1Package.Literals.IFC_SI_UNIT__PREFIX, newPrefix);
+        eSet(Ifc2x3tc1Package.eINSTANCE.getIfcSIUnit_Prefix(), newPrefix);
     }
 
     /**
@@ -84,7 +84,7 @@ public class IfcSIUnitImpl extends IfcNamedUnitImpl implements IfcSIUnit {
      */
     @Override
     public void unsetPrefix() {
-        eUnset(Ifc2x3tc1Package.Literals.IFC_SI_UNIT__PREFIX);
+        eUnset(Ifc2x3tc1Package.eINSTANCE.getIfcSIUnit_Prefix());
     }
 
     /**
@@ -94,7 +94,7 @@ public class IfcSIUnitImpl extends IfcNamedUnitImpl implements IfcSIUnit {
      */
     @Override
     public boolean isSetPrefix() {
-        return eIsSet(Ifc2x3tc1Package.Literals.IFC_SI_UNIT__PREFIX);
+        return eIsSet(Ifc2x3tc1Package.eINSTANCE.getIfcSIUnit_Prefix());
     }
 
     /**
@@ -104,7 +104,7 @@ public class IfcSIUnitImpl extends IfcNamedUnitImpl implements IfcSIUnit {
      */
     @Override
     public IfcSIUnitName getName() {
-        return (IfcSIUnitName) eGet(Ifc2x3tc1Package.Literals.IFC_SI_UNIT__NAME, true);
+        return (IfcSIUnitName) eGet(Ifc2x3tc1Package.eINSTANCE.getIfcSIUnit_Name(), true);
     }
 
     /**
@@ -114,7 +114,7 @@ public class IfcSIUnitImpl extends IfcNamedUnitImpl implements IfcSIUnit {
      */
     @Override
     public void setName(IfcSIUnitName newName) {
-        eSet(Ifc2x3tc1Package.Literals.IFC_SI_UNIT__NAME, newName);
+        eSet(Ifc2x3tc1Package.eINSTANCE.getIfcSIUnit_Name(), newName);
     }
 
 } //IfcSIUnitImpl

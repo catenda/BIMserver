@@ -45,7 +45,7 @@ public class IfcMirroredProfileDefImpl extends IfcDerivedProfileDefImpl implemen
      */
     @Override
     protected EClass eStaticClass() {
-        return Ifc4Package.Literals.IFC_MIRRORED_PROFILE_DEF;
+        return Ifc4Package.eINSTANCE.getIfcMirroredProfileDef();
     }
 
 } //IfcMirroredProfileDefImpl

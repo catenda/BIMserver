@@ -52,7 +52,7 @@ public class IfcStackTerminalTypeImpl extends IfcFlowTerminalTypeImpl implements
      */
     @Override
     protected EClass eStaticClass() {
-        return Ifc4Package.Literals.IFC_STACK_TERMINAL_TYPE;
+        return Ifc4Package.eINSTANCE.getIfcStackTerminalType();
     }
 
     /**
@@ -62,7 +62,7 @@ public class IfcStackTerminalTypeImpl extends IfcFlowTerminalTypeImpl implements
      */
     @Override
     public IfcStackTerminalTypeEnum getPredefinedType() {
-        return (IfcStackTerminalTypeEnum) eGet(Ifc4Package.Literals.IFC_STACK_TERMINAL_TYPE__PREDEFINED_TYPE, true);
+        return (IfcStackTerminalTypeEnum) eGet(Ifc4Package.eINSTANCE.getIfcStackTerminalType_PredefinedType(), true);
     }
 
     /**
@@ -72,7 +72,7 @@ public class IfcStackTerminalTypeImpl extends IfcFlowTerminalTypeImpl implements
      */
     @Override
     public void setPredefinedType(IfcStackTerminalTypeEnum newPredefinedType) {
-        eSet(Ifc4Package.Literals.IFC_STACK_TERMINAL_TYPE__PREDEFINED_TYPE, newPredefinedType);
+        eSet(Ifc4Package.eINSTANCE.getIfcStackTerminalType_PredefinedType(), newPredefinedType);
     }
 
 } //IfcStackTerminalTypeImpl

@@ -42,10 +42,6 @@ public interface IfcLibraryInformation extends IfcLibrarySelect {
     /**
      * Returns the value of the '<em><b>Name</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Name</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Name</em>' attribute.
      * @see #setName(String)
@@ -68,10 +64,6 @@ public interface IfcLibraryInformation extends IfcLibrarySelect {
     /**
      * Returns the value of the '<em><b>Version</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Version</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Version</em>' attribute.
      * @see #isSetVersion()
@@ -121,10 +113,6 @@ public interface IfcLibraryInformation extends IfcLibrarySelect {
     /**
      * Returns the value of the '<em><b>Publisher</b></em>' reference.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Publisher</em>' reference isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Publisher</em>' reference.
      * @see #isSetPublisher()
@@ -174,10 +162,6 @@ public interface IfcLibraryInformation extends IfcLibrarySelect {
     /**
      * Returns the value of the '<em><b>Version Date</b></em>' reference.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Version Date</em>' reference isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Version Date</em>' reference.
      * @see #isSetVersionDate()
@@ -229,10 +213,6 @@ public interface IfcLibraryInformation extends IfcLibrarySelect {
      * The list contents are of type {@link org.bimserver.models.ifc2x3tc1.IfcLibraryReference}.
      * It is bidirectional and its opposite is '{@link org.bimserver.models.ifc2x3tc1.IfcLibraryReference#getReferenceIntoLibrary <em>Reference Into Library</em>}'.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Library Reference</em>' reference list isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Library Reference</em>' reference list.
      * @see #isSetLibraryReference()

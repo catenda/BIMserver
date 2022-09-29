@@ -45,10 +45,6 @@ public interface IfcRepresentation extends IfcLayeredItem {
      * Returns the value of the '<em><b>Context Of Items</b></em>' reference.
      * It is bidirectional and its opposite is '{@link org.bimserver.models.ifc4.IfcRepresentationContext#getRepresentationsInContext <em>Representations In Context</em>}'.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Context Of Items</em>' reference isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Context Of Items</em>' reference.
      * @see #setContextOfItems(IfcRepresentationContext)
@@ -73,10 +69,6 @@ public interface IfcRepresentation extends IfcLayeredItem {
     /**
      * Returns the value of the '<em><b>Representation Identifier</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Representation Identifier</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Representation Identifier</em>' attribute.
      * @see #isSetRepresentationIdentifier()
@@ -126,10 +118,6 @@ public interface IfcRepresentation extends IfcLayeredItem {
     /**
      * Returns the value of the '<em><b>Representation Type</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Representation Type</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Representation Type</em>' attribute.
      * @see #isSetRepresentationType()
@@ -180,10 +168,6 @@ public interface IfcRepresentation extends IfcLayeredItem {
      * Returns the value of the '<em><b>Items</b></em>' reference list.
      * The list contents are of type {@link org.bimserver.models.ifc4.IfcRepresentationItem}.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Items</em>' reference list isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Items</em>' reference list.
      * @see org.bimserver.models.ifc4.Ifc4Package#getIfcRepresentation_Items()
@@ -197,10 +181,6 @@ public interface IfcRepresentation extends IfcLayeredItem {
      * The list contents are of type {@link org.bimserver.models.ifc4.IfcRepresentationMap}.
      * It is bidirectional and its opposite is '{@link org.bimserver.models.ifc4.IfcRepresentationMap#getMappedRepresentation <em>Mapped Representation</em>}'.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Representation Map</em>' reference list isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Representation Map</em>' reference list.
      * @see #isSetRepresentationMap()
@@ -238,10 +218,6 @@ public interface IfcRepresentation extends IfcLayeredItem {
      * Returns the value of the '<em><b>Layer Assignments</b></em>' reference list.
      * The list contents are of type {@link org.bimserver.models.ifc4.IfcPresentationLayerAssignment}.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Layer Assignments</em>' reference list isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Layer Assignments</em>' reference list.
      * @see #isSetLayerAssignments()
@@ -279,10 +255,6 @@ public interface IfcRepresentation extends IfcLayeredItem {
      * The list contents are of type {@link org.bimserver.models.ifc4.IfcProductRepresentation}.
      * It is bidirectional and its opposite is '{@link org.bimserver.models.ifc4.IfcProductRepresentation#getRepresentations <em>Representations</em>}'.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Of Product Representation</em>' reference list isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Of Product Representation</em>' reference list.
      * @see #isSetOfProductRepresentation()

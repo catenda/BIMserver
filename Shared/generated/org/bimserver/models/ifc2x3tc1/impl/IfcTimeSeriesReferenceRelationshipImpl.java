@@ -59,7 +59,7 @@ public class IfcTimeSeriesReferenceRelationshipImpl extends IdEObjectImpl
      */
     @Override
     protected EClass eStaticClass() {
-        return Ifc2x3tc1Package.Literals.IFC_TIME_SERIES_REFERENCE_RELATIONSHIP;
+        return Ifc2x3tc1Package.eINSTANCE.getIfcTimeSeriesReferenceRelationship();
     }
 
     /**
@@ -80,7 +80,7 @@ public class IfcTimeSeriesReferenceRelationshipImpl extends IdEObjectImpl
     @Override
     public IfcTimeSeries getReferencedTimeSeries() {
         return (IfcTimeSeries) eGet(
-                Ifc2x3tc1Package.Literals.IFC_TIME_SERIES_REFERENCE_RELATIONSHIP__REFERENCED_TIME_SERIES, true);
+                Ifc2x3tc1Package.eINSTANCE.getIfcTimeSeriesReferenceRelationship_ReferencedTimeSeries(), true);
     }
 
     /**
@@ -90,7 +90,7 @@ public class IfcTimeSeriesReferenceRelationshipImpl extends IdEObjectImpl
      */
     @Override
     public void setReferencedTimeSeries(IfcTimeSeries newReferencedTimeSeries) {
-        eSet(Ifc2x3tc1Package.Literals.IFC_TIME_SERIES_REFERENCE_RELATIONSHIP__REFERENCED_TIME_SERIES,
+        eSet(Ifc2x3tc1Package.eINSTANCE.getIfcTimeSeriesReferenceRelationship_ReferencedTimeSeries(),
                 newReferencedTimeSeries);
     }
 
@@ -103,7 +103,7 @@ public class IfcTimeSeriesReferenceRelationshipImpl extends IdEObjectImpl
     @Override
     public EList<IfcDocumentSelect> getTimeSeriesReferences() {
         return (EList<IfcDocumentSelect>) eGet(
-                Ifc2x3tc1Package.Literals.IFC_TIME_SERIES_REFERENCE_RELATIONSHIP__TIME_SERIES_REFERENCES, true);
+                Ifc2x3tc1Package.eINSTANCE.getIfcTimeSeriesReferenceRelationship_TimeSeriesReferences(), true);
     }
 
 } //IfcTimeSeriesReferenceRelationshipImpl

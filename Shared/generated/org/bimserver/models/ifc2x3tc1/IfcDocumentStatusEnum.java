@@ -95,10 +95,6 @@ public enum IfcDocumentStatusEnum implements Enumerator {
     /**
      * The '<em><b>NULL</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>NULL</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #NULL
      * @model
@@ -110,10 +106,6 @@ public enum IfcDocumentStatusEnum implements Enumerator {
     /**
      * The '<em><b>REVISION</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>REVISION</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #REVISION
      * @model
@@ -125,10 +117,6 @@ public enum IfcDocumentStatusEnum implements Enumerator {
     /**
      * The '<em><b>NOTDEFINED</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>NOTDEFINED</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #NOTDEFINED
      * @model
@@ -140,10 +128,6 @@ public enum IfcDocumentStatusEnum implements Enumerator {
     /**
      * The '<em><b>DRAFT</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>DRAFT</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #DRAFT
      * @model
@@ -155,10 +139,6 @@ public enum IfcDocumentStatusEnum implements Enumerator {
     /**
      * The '<em><b>FINALDRAFT</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>FINALDRAFT</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #FINALDRAFT
      * @model
@@ -170,10 +150,6 @@ public enum IfcDocumentStatusEnum implements Enumerator {
     /**
      * The '<em><b>FINAL</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>FINAL</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #FINAL
      * @model

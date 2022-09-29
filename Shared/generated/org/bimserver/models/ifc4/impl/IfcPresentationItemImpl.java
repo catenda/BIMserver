@@ -47,7 +47,7 @@ public class IfcPresentationItemImpl extends IdEObjectImpl implements IfcPresent
      */
     @Override
     protected EClass eStaticClass() {
-        return Ifc4Package.Literals.IFC_PRESENTATION_ITEM;
+        return Ifc4Package.eINSTANCE.getIfcPresentationItem();
     }
 
     /**

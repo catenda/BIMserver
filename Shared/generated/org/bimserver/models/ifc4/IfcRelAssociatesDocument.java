@@ -36,10 +36,6 @@ public interface IfcRelAssociatesDocument extends IfcRelAssociates {
     /**
      * Returns the value of the '<em><b>Relating Document</b></em>' reference.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Relating Document</em>' reference isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Relating Document</em>' reference.
      * @see #setRelatingDocument(IfcDocumentSelect)

@@ -52,7 +52,7 @@ public class IfcOccupantImpl extends IfcActorImpl implements IfcOccupant {
      */
     @Override
     protected EClass eStaticClass() {
-        return Ifc4Package.Literals.IFC_OCCUPANT;
+        return Ifc4Package.eINSTANCE.getIfcOccupant();
     }
 
     /**
@@ -62,7 +62,7 @@ public class IfcOccupantImpl extends IfcActorImpl implements IfcOccupant {
      */
     @Override
     public IfcOccupantTypeEnum getPredefinedType() {
-        return (IfcOccupantTypeEnum) eGet(Ifc4Package.Literals.IFC_OCCUPANT__PREDEFINED_TYPE, true);
+        return (IfcOccupantTypeEnum) eGet(Ifc4Package.eINSTANCE.getIfcOccupant_PredefinedType(), true);
     }
 
     /**
@@ -72,7 +72,7 @@ public class IfcOccupantImpl extends IfcActorImpl implements IfcOccupant {
      */
     @Override
     public void setPredefinedType(IfcOccupantTypeEnum newPredefinedType) {
-        eSet(Ifc4Package.Literals.IFC_OCCUPANT__PREDEFINED_TYPE, newPredefinedType);
+        eSet(Ifc4Package.eINSTANCE.getIfcOccupant_PredefinedType(), newPredefinedType);
     }
 
     /**
@@ -82,7 +82,7 @@ public class IfcOccupantImpl extends IfcActorImpl implements IfcOccupant {
      */
     @Override
     public void unsetPredefinedType() {
-        eUnset(Ifc4Package.Literals.IFC_OCCUPANT__PREDEFINED_TYPE);
+        eUnset(Ifc4Package.eINSTANCE.getIfcOccupant_PredefinedType());
     }
 
     /**
@@ -92,7 +92,7 @@ public class IfcOccupantImpl extends IfcActorImpl implements IfcOccupant {
      */
     @Override
     public boolean isSetPredefinedType() {
-        return eIsSet(Ifc4Package.Literals.IFC_OCCUPANT__PREDEFINED_TYPE);
+        return eIsSet(Ifc4Package.eINSTANCE.getIfcOccupant_PredefinedType());
     }
 
 } //IfcOccupantImpl

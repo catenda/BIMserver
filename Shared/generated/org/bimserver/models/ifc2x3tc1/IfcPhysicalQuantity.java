@@ -43,10 +43,6 @@ public interface IfcPhysicalQuantity extends IdEObject {
     /**
      * Returns the value of the '<em><b>Name</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Name</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Name</em>' attribute.
      * @see #setName(String)
@@ -69,10 +65,6 @@ public interface IfcPhysicalQuantity extends IdEObject {
     /**
      * Returns the value of the '<em><b>Description</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Description</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Description</em>' attribute.
      * @see #isSetDescription()
@@ -124,10 +116,6 @@ public interface IfcPhysicalQuantity extends IdEObject {
      * The list contents are of type {@link org.bimserver.models.ifc2x3tc1.IfcPhysicalComplexQuantity}.
      * It is bidirectional and its opposite is '{@link org.bimserver.models.ifc2x3tc1.IfcPhysicalComplexQuantity#getHasQuantities <em>Has Quantities</em>}'.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Part Of Complex</em>' reference list isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Part Of Complex</em>' reference list.
      * @see #isSetPartOfComplex()

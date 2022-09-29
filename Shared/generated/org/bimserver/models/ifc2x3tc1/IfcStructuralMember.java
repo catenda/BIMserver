@@ -41,10 +41,6 @@ public interface IfcStructuralMember extends IfcStructuralItem {
      * The list contents are of type {@link org.bimserver.models.ifc2x3tc1.IfcRelConnectsStructuralElement}.
      * It is bidirectional and its opposite is '{@link org.bimserver.models.ifc2x3tc1.IfcRelConnectsStructuralElement#getRelatedStructuralMember <em>Related Structural Member</em>}'.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>References Element</em>' reference list isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>References Element</em>' reference list.
      * @see #isSetReferencesElement()
@@ -83,10 +79,6 @@ public interface IfcStructuralMember extends IfcStructuralItem {
      * The list contents are of type {@link org.bimserver.models.ifc2x3tc1.IfcRelConnectsStructuralMember}.
      * It is bidirectional and its opposite is '{@link org.bimserver.models.ifc2x3tc1.IfcRelConnectsStructuralMember#getRelatingStructuralMember <em>Relating Structural Member</em>}'.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Connected By</em>' reference list isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Connected By</em>' reference list.
      * @see #isSetConnectedBy()

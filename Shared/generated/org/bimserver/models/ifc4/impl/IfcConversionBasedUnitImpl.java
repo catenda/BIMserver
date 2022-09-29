@@ -57,7 +57,7 @@ public class IfcConversionBasedUnitImpl extends IfcNamedUnitImpl implements IfcC
      */
     @Override
     protected EClass eStaticClass() {
-        return Ifc4Package.Literals.IFC_CONVERSION_BASED_UNIT;
+        return Ifc4Package.eINSTANCE.getIfcConversionBasedUnit();
     }
 
     /**
@@ -67,7 +67,7 @@ public class IfcConversionBasedUnitImpl extends IfcNamedUnitImpl implements IfcC
      */
     @Override
     public String getName() {
-        return (String) eGet(Ifc4Package.Literals.IFC_CONVERSION_BASED_UNIT__NAME, true);
+        return (String) eGet(Ifc4Package.eINSTANCE.getIfcConversionBasedUnit_Name(), true);
     }
 
     /**
@@ -77,7 +77,7 @@ public class IfcConversionBasedUnitImpl extends IfcNamedUnitImpl implements IfcC
      */
     @Override
     public void setName(String newName) {
-        eSet(Ifc4Package.Literals.IFC_CONVERSION_BASED_UNIT__NAME, newName);
+        eSet(Ifc4Package.eINSTANCE.getIfcConversionBasedUnit_Name(), newName);
     }
 
     /**
@@ -87,7 +87,7 @@ public class IfcConversionBasedUnitImpl extends IfcNamedUnitImpl implements IfcC
      */
     @Override
     public IfcMeasureWithUnit getConversionFactor() {
-        return (IfcMeasureWithUnit) eGet(Ifc4Package.Literals.IFC_CONVERSION_BASED_UNIT__CONVERSION_FACTOR, true);
+        return (IfcMeasureWithUnit) eGet(Ifc4Package.eINSTANCE.getIfcConversionBasedUnit_ConversionFactor(), true);
     }
 
     /**
@@ -97,7 +97,7 @@ public class IfcConversionBasedUnitImpl extends IfcNamedUnitImpl implements IfcC
      */
     @Override
     public void setConversionFactor(IfcMeasureWithUnit newConversionFactor) {
-        eSet(Ifc4Package.Literals.IFC_CONVERSION_BASED_UNIT__CONVERSION_FACTOR, newConversionFactor);
+        eSet(Ifc4Package.eINSTANCE.getIfcConversionBasedUnit_ConversionFactor(), newConversionFactor);
     }
 
     /**
@@ -109,7 +109,7 @@ public class IfcConversionBasedUnitImpl extends IfcNamedUnitImpl implements IfcC
     @Override
     public EList<IfcExternalReferenceRelationship> getHasExternalReference() {
         return (EList<IfcExternalReferenceRelationship>) eGet(
-                Ifc4Package.Literals.IFC_CONVERSION_BASED_UNIT__HAS_EXTERNAL_REFERENCE, true);
+                Ifc4Package.eINSTANCE.getIfcConversionBasedUnit_HasExternalReference(), true);
     }
 
     /**
@@ -119,7 +119,7 @@ public class IfcConversionBasedUnitImpl extends IfcNamedUnitImpl implements IfcC
      */
     @Override
     public void unsetHasExternalReference() {
-        eUnset(Ifc4Package.Literals.IFC_CONVERSION_BASED_UNIT__HAS_EXTERNAL_REFERENCE);
+        eUnset(Ifc4Package.eINSTANCE.getIfcConversionBasedUnit_HasExternalReference());
     }
 
     /**
@@ -129,7 +129,7 @@ public class IfcConversionBasedUnitImpl extends IfcNamedUnitImpl implements IfcC
      */
     @Override
     public boolean isSetHasExternalReference() {
-        return eIsSet(Ifc4Package.Literals.IFC_CONVERSION_BASED_UNIT__HAS_EXTERNAL_REFERENCE);
+        return eIsSet(Ifc4Package.eINSTANCE.getIfcConversionBasedUnit_HasExternalReference());
     }
 
 } //IfcConversionBasedUnitImpl

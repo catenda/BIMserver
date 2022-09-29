@@ -54,10 +54,6 @@ public interface IfcTaskTime extends IfcSchedulingTime {
      * Returns the value of the '<em><b>Duration Type</b></em>' attribute.
      * The literals are from the enumeration {@link org.bimserver.models.ifc4.IfcTaskDurationEnum}.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Duration Type</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Duration Type</em>' attribute.
      * @see org.bimserver.models.ifc4.IfcTaskDurationEnum
@@ -109,10 +105,6 @@ public interface IfcTaskTime extends IfcSchedulingTime {
     /**
      * Returns the value of the '<em><b>Schedule Duration</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Schedule Duration</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Schedule Duration</em>' attribute.
      * @see #isSetScheduleDuration()
@@ -162,10 +154,6 @@ public interface IfcTaskTime extends IfcSchedulingTime {
     /**
      * Returns the value of the '<em><b>Schedule Start</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Schedule Start</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Schedule Start</em>' attribute.
      * @see #isSetScheduleStart()
@@ -215,10 +203,6 @@ public interface IfcTaskTime extends IfcSchedulingTime {
     /**
      * Returns the value of the '<em><b>Schedule Finish</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Schedule Finish</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Schedule Finish</em>' attribute.
      * @see #isSetScheduleFinish()
@@ -268,10 +252,6 @@ public interface IfcTaskTime extends IfcSchedulingTime {
     /**
      * Returns the value of the '<em><b>Early Start</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Early Start</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Early Start</em>' attribute.
      * @see #isSetEarlyStart()
@@ -321,10 +301,6 @@ public interface IfcTaskTime extends IfcSchedulingTime {
     /**
      * Returns the value of the '<em><b>Early Finish</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Early Finish</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Early Finish</em>' attribute.
      * @see #isSetEarlyFinish()
@@ -374,10 +350,6 @@ public interface IfcTaskTime extends IfcSchedulingTime {
     /**
      * Returns the value of the '<em><b>Late Start</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Late Start</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Late Start</em>' attribute.
      * @see #isSetLateStart()
@@ -427,10 +399,6 @@ public interface IfcTaskTime extends IfcSchedulingTime {
     /**
      * Returns the value of the '<em><b>Late Finish</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Late Finish</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Late Finish</em>' attribute.
      * @see #isSetLateFinish()
@@ -480,10 +448,6 @@ public interface IfcTaskTime extends IfcSchedulingTime {
     /**
      * Returns the value of the '<em><b>Free Float</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Free Float</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Free Float</em>' attribute.
      * @see #isSetFreeFloat()
@@ -533,10 +497,6 @@ public interface IfcTaskTime extends IfcSchedulingTime {
     /**
      * Returns the value of the '<em><b>Total Float</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Total Float</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Total Float</em>' attribute.
      * @see #isSetTotalFloat()
@@ -587,10 +547,6 @@ public interface IfcTaskTime extends IfcSchedulingTime {
      * Returns the value of the '<em><b>Is Critical</b></em>' attribute.
      * The literals are from the enumeration {@link org.bimserver.models.ifc4.Tristate}.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Is Critical</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Is Critical</em>' attribute.
      * @see org.bimserver.models.ifc4.Tristate
@@ -642,10 +598,6 @@ public interface IfcTaskTime extends IfcSchedulingTime {
     /**
      * Returns the value of the '<em><b>Status Time</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Status Time</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Status Time</em>' attribute.
      * @see #isSetStatusTime()
@@ -695,10 +647,6 @@ public interface IfcTaskTime extends IfcSchedulingTime {
     /**
      * Returns the value of the '<em><b>Actual Duration</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Actual Duration</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Actual Duration</em>' attribute.
      * @see #isSetActualDuration()
@@ -748,10 +696,6 @@ public interface IfcTaskTime extends IfcSchedulingTime {
     /**
      * Returns the value of the '<em><b>Actual Start</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Actual Start</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Actual Start</em>' attribute.
      * @see #isSetActualStart()
@@ -801,10 +745,6 @@ public interface IfcTaskTime extends IfcSchedulingTime {
     /**
      * Returns the value of the '<em><b>Actual Finish</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Actual Finish</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Actual Finish</em>' attribute.
      * @see #isSetActualFinish()
@@ -854,10 +794,6 @@ public interface IfcTaskTime extends IfcSchedulingTime {
     /**
      * Returns the value of the '<em><b>Remaining Time</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Remaining Time</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Remaining Time</em>' attribute.
      * @see #isSetRemainingTime()
@@ -907,10 +843,6 @@ public interface IfcTaskTime extends IfcSchedulingTime {
     /**
      * Returns the value of the '<em><b>Completion</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Completion</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Completion</em>' attribute.
      * @see #isSetCompletion()
@@ -960,10 +892,6 @@ public interface IfcTaskTime extends IfcSchedulingTime {
     /**
      * Returns the value of the '<em><b>Completion As String</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Completion As String</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Completion As String</em>' attribute.
      * @see #isSetCompletionAsString()

@@ -53,7 +53,7 @@ public class IfcDistributionChamberElementTypeImpl extends IfcDistributionFlowEl
      */
     @Override
     protected EClass eStaticClass() {
-        return Ifc4Package.Literals.IFC_DISTRIBUTION_CHAMBER_ELEMENT_TYPE;
+        return Ifc4Package.eINSTANCE.getIfcDistributionChamberElementType();
     }
 
     /**
@@ -64,7 +64,7 @@ public class IfcDistributionChamberElementTypeImpl extends IfcDistributionFlowEl
     @Override
     public IfcDistributionChamberElementTypeEnum getPredefinedType() {
         return (IfcDistributionChamberElementTypeEnum) eGet(
-                Ifc4Package.Literals.IFC_DISTRIBUTION_CHAMBER_ELEMENT_TYPE__PREDEFINED_TYPE, true);
+                Ifc4Package.eINSTANCE.getIfcDistributionChamberElementType_PredefinedType(), true);
     }
 
     /**
@@ -74,7 +74,7 @@ public class IfcDistributionChamberElementTypeImpl extends IfcDistributionFlowEl
      */
     @Override
     public void setPredefinedType(IfcDistributionChamberElementTypeEnum newPredefinedType) {
-        eSet(Ifc4Package.Literals.IFC_DISTRIBUTION_CHAMBER_ELEMENT_TYPE__PREDEFINED_TYPE, newPredefinedType);
+        eSet(Ifc4Package.eINSTANCE.getIfcDistributionChamberElementType_PredefinedType(), newPredefinedType);
     }
 
 } //IfcDistributionChamberElementTypeImpl

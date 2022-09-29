@@ -105,10 +105,6 @@ public enum IfcDocumentConfidentialityEnum implements Enumerator {
     /**
      * The '<em><b>NULL</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>NULL</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #NULL
      * @model
@@ -120,10 +116,6 @@ public enum IfcDocumentConfidentialityEnum implements Enumerator {
     /**
      * The '<em><b>PERSONAL</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>PERSONAL</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #PERSONAL
      * @model
@@ -135,10 +127,6 @@ public enum IfcDocumentConfidentialityEnum implements Enumerator {
     /**
      * The '<em><b>NOTDEFINED</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>NOTDEFINED</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #NOTDEFINED
      * @model
@@ -150,10 +138,6 @@ public enum IfcDocumentConfidentialityEnum implements Enumerator {
     /**
      * The '<em><b>PUBLIC</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>PUBLIC</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #PUBLIC
      * @model
@@ -165,10 +149,6 @@ public enum IfcDocumentConfidentialityEnum implements Enumerator {
     /**
      * The '<em><b>USERDEFINED</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>USERDEFINED</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #USERDEFINED
      * @model
@@ -180,10 +160,6 @@ public enum IfcDocumentConfidentialityEnum implements Enumerator {
     /**
      * The '<em><b>RESTRICTED</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>RESTRICTED</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #RESTRICTED
      * @model
@@ -195,10 +171,6 @@ public enum IfcDocumentConfidentialityEnum implements Enumerator {
     /**
      * The '<em><b>CONFIDENTIAL</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>CONFIDENTIAL</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #CONFIDENTIAL
      * @model

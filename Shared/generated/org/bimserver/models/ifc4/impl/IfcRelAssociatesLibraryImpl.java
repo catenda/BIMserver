@@ -52,7 +52,7 @@ public class IfcRelAssociatesLibraryImpl extends IfcRelAssociatesImpl implements
      */
     @Override
     protected EClass eStaticClass() {
-        return Ifc4Package.Literals.IFC_REL_ASSOCIATES_LIBRARY;
+        return Ifc4Package.eINSTANCE.getIfcRelAssociatesLibrary();
     }
 
     /**
@@ -62,7 +62,7 @@ public class IfcRelAssociatesLibraryImpl extends IfcRelAssociatesImpl implements
      */
     @Override
     public IfcLibrarySelect getRelatingLibrary() {
-        return (IfcLibrarySelect) eGet(Ifc4Package.Literals.IFC_REL_ASSOCIATES_LIBRARY__RELATING_LIBRARY, true);
+        return (IfcLibrarySelect) eGet(Ifc4Package.eINSTANCE.getIfcRelAssociatesLibrary_RelatingLibrary(), true);
     }
 
     /**
@@ -72,7 +72,7 @@ public class IfcRelAssociatesLibraryImpl extends IfcRelAssociatesImpl implements
      */
     @Override
     public void setRelatingLibrary(IfcLibrarySelect newRelatingLibrary) {
-        eSet(Ifc4Package.Literals.IFC_REL_ASSOCIATES_LIBRARY__RELATING_LIBRARY, newRelatingLibrary);
+        eSet(Ifc4Package.eINSTANCE.getIfcRelAssociatesLibrary_RelatingLibrary(), newRelatingLibrary);
     }
 
 } //IfcRelAssociatesLibraryImpl

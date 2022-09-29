@@ -40,10 +40,6 @@ public interface IfcLightIntensityDistribution extends IfcLightDistributionDataS
      * Returns the value of the '<em><b>Light Distribution Curve</b></em>' attribute.
      * The literals are from the enumeration {@link org.bimserver.models.ifc4.IfcLightDistributionCurveEnum}.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Light Distribution Curve</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Light Distribution Curve</em>' attribute.
      * @see org.bimserver.models.ifc4.IfcLightDistributionCurveEnum
@@ -69,10 +65,6 @@ public interface IfcLightIntensityDistribution extends IfcLightDistributionDataS
      * Returns the value of the '<em><b>Distribution Data</b></em>' reference list.
      * The list contents are of type {@link org.bimserver.models.ifc4.IfcLightDistributionData}.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Distribution Data</em>' reference list isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Distribution Data</em>' reference list.
      * @see org.bimserver.models.ifc4.Ifc4Package#getIfcLightIntensityDistribution_DistributionData()

@@ -155,10 +155,6 @@ public enum IfcElementAssemblyTypeEnum implements Enumerator {
     /**
      * The '<em><b>NULL</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>NULL</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #NULL
      * @model
@@ -170,10 +166,6 @@ public enum IfcElementAssemblyTypeEnum implements Enumerator {
     /**
      * The '<em><b>TRUSS</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>TRUSS</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #TRUSS
      * @model
@@ -185,10 +177,6 @@ public enum IfcElementAssemblyTypeEnum implements Enumerator {
     /**
      * The '<em><b>GIRDER</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>GIRDER</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #GIRDER
      * @model
@@ -200,10 +188,6 @@ public enum IfcElementAssemblyTypeEnum implements Enumerator {
     /**
      * The '<em><b>NOTDEFINED</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>NOTDEFINED</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #NOTDEFINED
      * @model
@@ -215,10 +199,6 @@ public enum IfcElementAssemblyTypeEnum implements Enumerator {
     /**
      * The '<em><b>SLAB FIELD</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>SLAB FIELD</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #SLAB_FIELD
      * @model
@@ -230,10 +210,6 @@ public enum IfcElementAssemblyTypeEnum implements Enumerator {
     /**
      * The '<em><b>ARCH</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>ARCH</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #ARCH
      * @model
@@ -245,10 +221,6 @@ public enum IfcElementAssemblyTypeEnum implements Enumerator {
     /**
      * The '<em><b>BEAM GRID</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>BEAM GRID</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #BEAM_GRID
      * @model
@@ -260,10 +232,6 @@ public enum IfcElementAssemblyTypeEnum implements Enumerator {
     /**
      * The '<em><b>USERDEFINED</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>USERDEFINED</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #USERDEFINED
      * @model
@@ -275,10 +243,6 @@ public enum IfcElementAssemblyTypeEnum implements Enumerator {
     /**
      * The '<em><b>ACCESSORY ASSEMBLY</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>ACCESSORY ASSEMBLY</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #ACCESSORY_ASSEMBLY
      * @model
@@ -290,10 +254,6 @@ public enum IfcElementAssemblyTypeEnum implements Enumerator {
     /**
      * The '<em><b>BRACED FRAME</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>BRACED FRAME</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #BRACED_FRAME
      * @model
@@ -305,10 +265,6 @@ public enum IfcElementAssemblyTypeEnum implements Enumerator {
     /**
      * The '<em><b>RIGID FRAME</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>RIGID FRAME</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #RIGID_FRAME
      * @model
@@ -320,10 +276,6 @@ public enum IfcElementAssemblyTypeEnum implements Enumerator {
     /**
      * The '<em><b>REINFORCEMENT UNIT</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>REINFORCEMENT UNIT</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #REINFORCEMENT_UNIT
      * @model

@@ -45,7 +45,7 @@ public class IfcWallStandardCaseImpl extends IfcWallImpl implements IfcWallStand
      */
     @Override
     protected EClass eStaticClass() {
-        return Ifc2x3tc1Package.Literals.IFC_WALL_STANDARD_CASE;
+        return Ifc2x3tc1Package.eINSTANCE.getIfcWallStandardCase();
     }
 
 } //IfcWallStandardCaseImpl

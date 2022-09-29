@@ -55,7 +55,7 @@ public class IfcHalfSpaceSolidImpl extends IfcGeometricRepresentationItemImpl im
      */
     @Override
     protected EClass eStaticClass() {
-        return Ifc2x3tc1Package.Literals.IFC_HALF_SPACE_SOLID;
+        return Ifc2x3tc1Package.eINSTANCE.getIfcHalfSpaceSolid();
     }
 
     /**
@@ -65,7 +65,7 @@ public class IfcHalfSpaceSolidImpl extends IfcGeometricRepresentationItemImpl im
      */
     @Override
     public IfcSurface getBaseSurface() {
-        return (IfcSurface) eGet(Ifc2x3tc1Package.Literals.IFC_HALF_SPACE_SOLID__BASE_SURFACE, true);
+        return (IfcSurface) eGet(Ifc2x3tc1Package.eINSTANCE.getIfcHalfSpaceSolid_BaseSurface(), true);
     }
 
     /**
@@ -75,7 +75,7 @@ public class IfcHalfSpaceSolidImpl extends IfcGeometricRepresentationItemImpl im
      */
     @Override
     public void setBaseSurface(IfcSurface newBaseSurface) {
-        eSet(Ifc2x3tc1Package.Literals.IFC_HALF_SPACE_SOLID__BASE_SURFACE, newBaseSurface);
+        eSet(Ifc2x3tc1Package.eINSTANCE.getIfcHalfSpaceSolid_BaseSurface(), newBaseSurface);
     }
 
     /**
@@ -85,7 +85,7 @@ public class IfcHalfSpaceSolidImpl extends IfcGeometricRepresentationItemImpl im
      */
     @Override
     public Tristate getAgreementFlag() {
-        return (Tristate) eGet(Ifc2x3tc1Package.Literals.IFC_HALF_SPACE_SOLID__AGREEMENT_FLAG, true);
+        return (Tristate) eGet(Ifc2x3tc1Package.eINSTANCE.getIfcHalfSpaceSolid_AgreementFlag(), true);
     }
 
     /**
@@ -95,7 +95,7 @@ public class IfcHalfSpaceSolidImpl extends IfcGeometricRepresentationItemImpl im
      */
     @Override
     public void setAgreementFlag(Tristate newAgreementFlag) {
-        eSet(Ifc2x3tc1Package.Literals.IFC_HALF_SPACE_SOLID__AGREEMENT_FLAG, newAgreementFlag);
+        eSet(Ifc2x3tc1Package.eINSTANCE.getIfcHalfSpaceSolid_AgreementFlag(), newAgreementFlag);
     }
 
     /**
@@ -105,7 +105,7 @@ public class IfcHalfSpaceSolidImpl extends IfcGeometricRepresentationItemImpl im
      */
     @Override
     public long getDim() {
-        return (Long) eGet(Ifc2x3tc1Package.Literals.IFC_HALF_SPACE_SOLID__DIM, true);
+        return (Long) eGet(Ifc2x3tc1Package.eINSTANCE.getIfcHalfSpaceSolid_Dim(), true);
     }
 
     /**
@@ -115,7 +115,7 @@ public class IfcHalfSpaceSolidImpl extends IfcGeometricRepresentationItemImpl im
      */
     @Override
     public void setDim(long newDim) {
-        eSet(Ifc2x3tc1Package.Literals.IFC_HALF_SPACE_SOLID__DIM, newDim);
+        eSet(Ifc2x3tc1Package.eINSTANCE.getIfcHalfSpaceSolid_Dim(), newDim);
     }
 
     /**
@@ -125,7 +125,7 @@ public class IfcHalfSpaceSolidImpl extends IfcGeometricRepresentationItemImpl im
      */
     @Override
     public void unsetDim() {
-        eUnset(Ifc2x3tc1Package.Literals.IFC_HALF_SPACE_SOLID__DIM);
+        eUnset(Ifc2x3tc1Package.eINSTANCE.getIfcHalfSpaceSolid_Dim());
     }
 
     /**
@@ -135,7 +135,7 @@ public class IfcHalfSpaceSolidImpl extends IfcGeometricRepresentationItemImpl im
      */
     @Override
     public boolean isSetDim() {
-        return eIsSet(Ifc2x3tc1Package.Literals.IFC_HALF_SPACE_SOLID__DIM);
+        return eIsSet(Ifc2x3tc1Package.eINSTANCE.getIfcHalfSpaceSolid_Dim());
     }
 
 } //IfcHalfSpaceSolidImpl

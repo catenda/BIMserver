@@ -42,10 +42,6 @@ public interface IfcApplication extends IdEObject {
     /**
      * Returns the value of the '<em><b>Application Developer</b></em>' reference.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Application Developer</em>' reference isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Application Developer</em>' reference.
      * @see #setApplicationDeveloper(IfcOrganization)
@@ -68,10 +64,6 @@ public interface IfcApplication extends IdEObject {
     /**
      * Returns the value of the '<em><b>Version</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Version</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Version</em>' attribute.
      * @see #setVersion(String)
@@ -94,10 +86,6 @@ public interface IfcApplication extends IdEObject {
     /**
      * Returns the value of the '<em><b>Application Full Name</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Application Full Name</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Application Full Name</em>' attribute.
      * @see #setApplicationFullName(String)
@@ -120,10 +108,6 @@ public interface IfcApplication extends IdEObject {
     /**
      * Returns the value of the '<em><b>Application Identifier</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Application Identifier</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Application Identifier</em>' attribute.
      * @see #setApplicationIdentifier(String)

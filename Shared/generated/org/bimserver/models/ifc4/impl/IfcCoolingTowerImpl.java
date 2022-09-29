@@ -52,7 +52,7 @@ public class IfcCoolingTowerImpl extends IfcEnergyConversionDeviceImpl implement
      */
     @Override
     protected EClass eStaticClass() {
-        return Ifc4Package.Literals.IFC_COOLING_TOWER;
+        return Ifc4Package.eINSTANCE.getIfcCoolingTower();
     }
 
     /**
@@ -62,7 +62,7 @@ public class IfcCoolingTowerImpl extends IfcEnergyConversionDeviceImpl implement
      */
     @Override
     public IfcCoolingTowerTypeEnum getPredefinedType() {
-        return (IfcCoolingTowerTypeEnum) eGet(Ifc4Package.Literals.IFC_COOLING_TOWER__PREDEFINED_TYPE, true);
+        return (IfcCoolingTowerTypeEnum) eGet(Ifc4Package.eINSTANCE.getIfcCoolingTower_PredefinedType(), true);
     }
 
     /**
@@ -72,7 +72,7 @@ public class IfcCoolingTowerImpl extends IfcEnergyConversionDeviceImpl implement
      */
     @Override
     public void setPredefinedType(IfcCoolingTowerTypeEnum newPredefinedType) {
-        eSet(Ifc4Package.Literals.IFC_COOLING_TOWER__PREDEFINED_TYPE, newPredefinedType);
+        eSet(Ifc4Package.eINSTANCE.getIfcCoolingTower_PredefinedType(), newPredefinedType);
     }
 
     /**
@@ -82,7 +82,7 @@ public class IfcCoolingTowerImpl extends IfcEnergyConversionDeviceImpl implement
      */
     @Override
     public void unsetPredefinedType() {
-        eUnset(Ifc4Package.Literals.IFC_COOLING_TOWER__PREDEFINED_TYPE);
+        eUnset(Ifc4Package.eINSTANCE.getIfcCoolingTower_PredefinedType());
     }
 
     /**
@@ -92,7 +92,7 @@ public class IfcCoolingTowerImpl extends IfcEnergyConversionDeviceImpl implement
      */
     @Override
     public boolean isSetPredefinedType() {
-        return eIsSet(Ifc4Package.Literals.IFC_COOLING_TOWER__PREDEFINED_TYPE);
+        return eIsSet(Ifc4Package.eINSTANCE.getIfcCoolingTower_PredefinedType());
     }
 
 } //IfcCoolingTowerImpl

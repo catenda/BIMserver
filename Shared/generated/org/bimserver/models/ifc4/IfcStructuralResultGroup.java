@@ -42,10 +42,6 @@ public interface IfcStructuralResultGroup extends IfcGroup {
      * Returns the value of the '<em><b>Theory Type</b></em>' attribute.
      * The literals are from the enumeration {@link org.bimserver.models.ifc4.IfcAnalysisTheoryTypeEnum}.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Theory Type</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Theory Type</em>' attribute.
      * @see org.bimserver.models.ifc4.IfcAnalysisTheoryTypeEnum
@@ -71,10 +67,6 @@ public interface IfcStructuralResultGroup extends IfcGroup {
      * Returns the value of the '<em><b>Result For Load Group</b></em>' reference.
      * It is bidirectional and its opposite is '{@link org.bimserver.models.ifc4.IfcStructuralLoadGroup#getSourceOfResultGroup <em>Source Of Result Group</em>}'.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Result For Load Group</em>' reference isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Result For Load Group</em>' reference.
      * @see #isSetResultForLoadGroup()
@@ -127,10 +119,6 @@ public interface IfcStructuralResultGroup extends IfcGroup {
      * Returns the value of the '<em><b>Is Linear</b></em>' attribute.
      * The literals are from the enumeration {@link org.bimserver.models.ifc4.Tristate}.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Is Linear</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Is Linear</em>' attribute.
      * @see org.bimserver.models.ifc4.Tristate
@@ -157,10 +145,6 @@ public interface IfcStructuralResultGroup extends IfcGroup {
      * The list contents are of type {@link org.bimserver.models.ifc4.IfcStructuralAnalysisModel}.
      * It is bidirectional and its opposite is '{@link org.bimserver.models.ifc4.IfcStructuralAnalysisModel#getHasResults <em>Has Results</em>}'.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Result Group For</em>' reference list isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Result Group For</em>' reference list.
      * @see #isSetResultGroupFor()

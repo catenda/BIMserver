@@ -44,10 +44,6 @@ public interface IfcTelecomAddress extends IfcAddress {
      * Returns the value of the '<em><b>Telephone Numbers</b></em>' attribute list.
      * The list contents are of type {@link java.lang.String}.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Telephone Numbers</em>' attribute list isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Telephone Numbers</em>' attribute list.
      * @see #isSetTelephoneNumbers()
@@ -83,10 +79,6 @@ public interface IfcTelecomAddress extends IfcAddress {
      * Returns the value of the '<em><b>Facsimile Numbers</b></em>' attribute list.
      * The list contents are of type {@link java.lang.String}.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Facsimile Numbers</em>' attribute list isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Facsimile Numbers</em>' attribute list.
      * @see #isSetFacsimileNumbers()
@@ -121,10 +113,6 @@ public interface IfcTelecomAddress extends IfcAddress {
     /**
      * Returns the value of the '<em><b>Pager Number</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Pager Number</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Pager Number</em>' attribute.
      * @see #isSetPagerNumber()
@@ -175,10 +163,6 @@ public interface IfcTelecomAddress extends IfcAddress {
      * Returns the value of the '<em><b>Electronic Mail Addresses</b></em>' attribute list.
      * The list contents are of type {@link java.lang.String}.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Electronic Mail Addresses</em>' attribute list isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Electronic Mail Addresses</em>' attribute list.
      * @see #isSetElectronicMailAddresses()
@@ -213,10 +197,6 @@ public interface IfcTelecomAddress extends IfcAddress {
     /**
      * Returns the value of the '<em><b>WWW Home Page URL</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>WWW Home Page URL</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>WWW Home Page URL</em>' attribute.
      * @see #isSetWWWHomePageURL()
@@ -267,10 +247,6 @@ public interface IfcTelecomAddress extends IfcAddress {
      * Returns the value of the '<em><b>Messaging IDs</b></em>' attribute list.
      * The list contents are of type {@link java.lang.String}.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Messaging IDs</em>' attribute list isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Messaging IDs</em>' attribute list.
      * @see #isSetMessagingIDs()

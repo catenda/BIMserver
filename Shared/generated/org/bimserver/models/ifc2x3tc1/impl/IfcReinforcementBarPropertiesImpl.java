@@ -63,7 +63,7 @@ public class IfcReinforcementBarPropertiesImpl extends IdEObjectImpl implements 
      */
     @Override
     protected EClass eStaticClass() {
-        return Ifc2x3tc1Package.Literals.IFC_REINFORCEMENT_BAR_PROPERTIES;
+        return Ifc2x3tc1Package.eINSTANCE.getIfcReinforcementBarProperties();
     }
 
     /**
@@ -83,8 +83,7 @@ public class IfcReinforcementBarPropertiesImpl extends IdEObjectImpl implements 
      */
     @Override
     public double getTotalCrossSectionArea() {
-        return (Double) eGet(Ifc2x3tc1Package.Literals.IFC_REINFORCEMENT_BAR_PROPERTIES__TOTAL_CROSS_SECTION_AREA,
-                true);
+        return (Double) eGet(Ifc2x3tc1Package.eINSTANCE.getIfcReinforcementBarProperties_TotalCrossSectionArea(), true);
     }
 
     /**
@@ -94,7 +93,7 @@ public class IfcReinforcementBarPropertiesImpl extends IdEObjectImpl implements 
      */
     @Override
     public void setTotalCrossSectionArea(double newTotalCrossSectionArea) {
-        eSet(Ifc2x3tc1Package.Literals.IFC_REINFORCEMENT_BAR_PROPERTIES__TOTAL_CROSS_SECTION_AREA,
+        eSet(Ifc2x3tc1Package.eINSTANCE.getIfcReinforcementBarProperties_TotalCrossSectionArea(),
                 newTotalCrossSectionArea);
     }
 
@@ -106,7 +105,7 @@ public class IfcReinforcementBarPropertiesImpl extends IdEObjectImpl implements 
     @Override
     public String getTotalCrossSectionAreaAsString() {
         return (String) eGet(
-                Ifc2x3tc1Package.Literals.IFC_REINFORCEMENT_BAR_PROPERTIES__TOTAL_CROSS_SECTION_AREA_AS_STRING, true);
+                Ifc2x3tc1Package.eINSTANCE.getIfcReinforcementBarProperties_TotalCrossSectionAreaAsString(), true);
     }
 
     /**
@@ -116,7 +115,7 @@ public class IfcReinforcementBarPropertiesImpl extends IdEObjectImpl implements 
      */
     @Override
     public void setTotalCrossSectionAreaAsString(String newTotalCrossSectionAreaAsString) {
-        eSet(Ifc2x3tc1Package.Literals.IFC_REINFORCEMENT_BAR_PROPERTIES__TOTAL_CROSS_SECTION_AREA_AS_STRING,
+        eSet(Ifc2x3tc1Package.eINSTANCE.getIfcReinforcementBarProperties_TotalCrossSectionAreaAsString(),
                 newTotalCrossSectionAreaAsString);
     }
 
@@ -127,7 +126,7 @@ public class IfcReinforcementBarPropertiesImpl extends IdEObjectImpl implements 
      */
     @Override
     public String getSteelGrade() {
-        return (String) eGet(Ifc2x3tc1Package.Literals.IFC_REINFORCEMENT_BAR_PROPERTIES__STEEL_GRADE, true);
+        return (String) eGet(Ifc2x3tc1Package.eINSTANCE.getIfcReinforcementBarProperties_SteelGrade(), true);
     }
 
     /**
@@ -137,7 +136,7 @@ public class IfcReinforcementBarPropertiesImpl extends IdEObjectImpl implements 
      */
     @Override
     public void setSteelGrade(String newSteelGrade) {
-        eSet(Ifc2x3tc1Package.Literals.IFC_REINFORCEMENT_BAR_PROPERTIES__STEEL_GRADE, newSteelGrade);
+        eSet(Ifc2x3tc1Package.eINSTANCE.getIfcReinforcementBarProperties_SteelGrade(), newSteelGrade);
     }
 
     /**
@@ -148,7 +147,7 @@ public class IfcReinforcementBarPropertiesImpl extends IdEObjectImpl implements 
     @Override
     public IfcReinforcingBarSurfaceEnum getBarSurface() {
         return (IfcReinforcingBarSurfaceEnum) eGet(
-                Ifc2x3tc1Package.Literals.IFC_REINFORCEMENT_BAR_PROPERTIES__BAR_SURFACE, true);
+                Ifc2x3tc1Package.eINSTANCE.getIfcReinforcementBarProperties_BarSurface(), true);
     }
 
     /**
@@ -158,7 +157,7 @@ public class IfcReinforcementBarPropertiesImpl extends IdEObjectImpl implements 
      */
     @Override
     public void setBarSurface(IfcReinforcingBarSurfaceEnum newBarSurface) {
-        eSet(Ifc2x3tc1Package.Literals.IFC_REINFORCEMENT_BAR_PROPERTIES__BAR_SURFACE, newBarSurface);
+        eSet(Ifc2x3tc1Package.eINSTANCE.getIfcReinforcementBarProperties_BarSurface(), newBarSurface);
     }
 
     /**
@@ -168,7 +167,7 @@ public class IfcReinforcementBarPropertiesImpl extends IdEObjectImpl implements 
      */
     @Override
     public void unsetBarSurface() {
-        eUnset(Ifc2x3tc1Package.Literals.IFC_REINFORCEMENT_BAR_PROPERTIES__BAR_SURFACE);
+        eUnset(Ifc2x3tc1Package.eINSTANCE.getIfcReinforcementBarProperties_BarSurface());
     }
 
     /**
@@ -178,7 +177,7 @@ public class IfcReinforcementBarPropertiesImpl extends IdEObjectImpl implements 
      */
     @Override
     public boolean isSetBarSurface() {
-        return eIsSet(Ifc2x3tc1Package.Literals.IFC_REINFORCEMENT_BAR_PROPERTIES__BAR_SURFACE);
+        return eIsSet(Ifc2x3tc1Package.eINSTANCE.getIfcReinforcementBarProperties_BarSurface());
     }
 
     /**
@@ -188,7 +187,7 @@ public class IfcReinforcementBarPropertiesImpl extends IdEObjectImpl implements 
      */
     @Override
     public double getEffectiveDepth() {
-        return (Double) eGet(Ifc2x3tc1Package.Literals.IFC_REINFORCEMENT_BAR_PROPERTIES__EFFECTIVE_DEPTH, true);
+        return (Double) eGet(Ifc2x3tc1Package.eINSTANCE.getIfcReinforcementBarProperties_EffectiveDepth(), true);
     }
 
     /**
@@ -198,7 +197,7 @@ public class IfcReinforcementBarPropertiesImpl extends IdEObjectImpl implements 
      */
     @Override
     public void setEffectiveDepth(double newEffectiveDepth) {
-        eSet(Ifc2x3tc1Package.Literals.IFC_REINFORCEMENT_BAR_PROPERTIES__EFFECTIVE_DEPTH, newEffectiveDepth);
+        eSet(Ifc2x3tc1Package.eINSTANCE.getIfcReinforcementBarProperties_EffectiveDepth(), newEffectiveDepth);
     }
 
     /**
@@ -208,7 +207,7 @@ public class IfcReinforcementBarPropertiesImpl extends IdEObjectImpl implements 
      */
     @Override
     public void unsetEffectiveDepth() {
-        eUnset(Ifc2x3tc1Package.Literals.IFC_REINFORCEMENT_BAR_PROPERTIES__EFFECTIVE_DEPTH);
+        eUnset(Ifc2x3tc1Package.eINSTANCE.getIfcReinforcementBarProperties_EffectiveDepth());
     }
 
     /**
@@ -218,7 +217,7 @@ public class IfcReinforcementBarPropertiesImpl extends IdEObjectImpl implements 
      */
     @Override
     public boolean isSetEffectiveDepth() {
-        return eIsSet(Ifc2x3tc1Package.Literals.IFC_REINFORCEMENT_BAR_PROPERTIES__EFFECTIVE_DEPTH);
+        return eIsSet(Ifc2x3tc1Package.eINSTANCE.getIfcReinforcementBarProperties_EffectiveDepth());
     }
 
     /**
@@ -228,7 +227,7 @@ public class IfcReinforcementBarPropertiesImpl extends IdEObjectImpl implements 
      */
     @Override
     public String getEffectiveDepthAsString() {
-        return (String) eGet(Ifc2x3tc1Package.Literals.IFC_REINFORCEMENT_BAR_PROPERTIES__EFFECTIVE_DEPTH_AS_STRING,
+        return (String) eGet(Ifc2x3tc1Package.eINSTANCE.getIfcReinforcementBarProperties_EffectiveDepthAsString(),
                 true);
     }
 
@@ -239,7 +238,7 @@ public class IfcReinforcementBarPropertiesImpl extends IdEObjectImpl implements 
      */
     @Override
     public void setEffectiveDepthAsString(String newEffectiveDepthAsString) {
-        eSet(Ifc2x3tc1Package.Literals.IFC_REINFORCEMENT_BAR_PROPERTIES__EFFECTIVE_DEPTH_AS_STRING,
+        eSet(Ifc2x3tc1Package.eINSTANCE.getIfcReinforcementBarProperties_EffectiveDepthAsString(),
                 newEffectiveDepthAsString);
     }
 
@@ -250,7 +249,7 @@ public class IfcReinforcementBarPropertiesImpl extends IdEObjectImpl implements 
      */
     @Override
     public void unsetEffectiveDepthAsString() {
-        eUnset(Ifc2x3tc1Package.Literals.IFC_REINFORCEMENT_BAR_PROPERTIES__EFFECTIVE_DEPTH_AS_STRING);
+        eUnset(Ifc2x3tc1Package.eINSTANCE.getIfcReinforcementBarProperties_EffectiveDepthAsString());
     }
 
     /**
@@ -260,7 +259,7 @@ public class IfcReinforcementBarPropertiesImpl extends IdEObjectImpl implements 
      */
     @Override
     public boolean isSetEffectiveDepthAsString() {
-        return eIsSet(Ifc2x3tc1Package.Literals.IFC_REINFORCEMENT_BAR_PROPERTIES__EFFECTIVE_DEPTH_AS_STRING);
+        return eIsSet(Ifc2x3tc1Package.eINSTANCE.getIfcReinforcementBarProperties_EffectiveDepthAsString());
     }
 
     /**
@@ -270,7 +269,7 @@ public class IfcReinforcementBarPropertiesImpl extends IdEObjectImpl implements 
      */
     @Override
     public double getNominalBarDiameter() {
-        return (Double) eGet(Ifc2x3tc1Package.Literals.IFC_REINFORCEMENT_BAR_PROPERTIES__NOMINAL_BAR_DIAMETER, true);
+        return (Double) eGet(Ifc2x3tc1Package.eINSTANCE.getIfcReinforcementBarProperties_NominalBarDiameter(), true);
     }
 
     /**
@@ -280,7 +279,7 @@ public class IfcReinforcementBarPropertiesImpl extends IdEObjectImpl implements 
      */
     @Override
     public void setNominalBarDiameter(double newNominalBarDiameter) {
-        eSet(Ifc2x3tc1Package.Literals.IFC_REINFORCEMENT_BAR_PROPERTIES__NOMINAL_BAR_DIAMETER, newNominalBarDiameter);
+        eSet(Ifc2x3tc1Package.eINSTANCE.getIfcReinforcementBarProperties_NominalBarDiameter(), newNominalBarDiameter);
     }
 
     /**
@@ -290,7 +289,7 @@ public class IfcReinforcementBarPropertiesImpl extends IdEObjectImpl implements 
      */
     @Override
     public void unsetNominalBarDiameter() {
-        eUnset(Ifc2x3tc1Package.Literals.IFC_REINFORCEMENT_BAR_PROPERTIES__NOMINAL_BAR_DIAMETER);
+        eUnset(Ifc2x3tc1Package.eINSTANCE.getIfcReinforcementBarProperties_NominalBarDiameter());
     }
 
     /**
@@ -300,7 +299,7 @@ public class IfcReinforcementBarPropertiesImpl extends IdEObjectImpl implements 
      */
     @Override
     public boolean isSetNominalBarDiameter() {
-        return eIsSet(Ifc2x3tc1Package.Literals.IFC_REINFORCEMENT_BAR_PROPERTIES__NOMINAL_BAR_DIAMETER);
+        return eIsSet(Ifc2x3tc1Package.eINSTANCE.getIfcReinforcementBarProperties_NominalBarDiameter());
     }
 
     /**
@@ -310,7 +309,7 @@ public class IfcReinforcementBarPropertiesImpl extends IdEObjectImpl implements 
      */
     @Override
     public String getNominalBarDiameterAsString() {
-        return (String) eGet(Ifc2x3tc1Package.Literals.IFC_REINFORCEMENT_BAR_PROPERTIES__NOMINAL_BAR_DIAMETER_AS_STRING,
+        return (String) eGet(Ifc2x3tc1Package.eINSTANCE.getIfcReinforcementBarProperties_NominalBarDiameterAsString(),
                 true);
     }
 
@@ -321,7 +320,7 @@ public class IfcReinforcementBarPropertiesImpl extends IdEObjectImpl implements 
      */
     @Override
     public void setNominalBarDiameterAsString(String newNominalBarDiameterAsString) {
-        eSet(Ifc2x3tc1Package.Literals.IFC_REINFORCEMENT_BAR_PROPERTIES__NOMINAL_BAR_DIAMETER_AS_STRING,
+        eSet(Ifc2x3tc1Package.eINSTANCE.getIfcReinforcementBarProperties_NominalBarDiameterAsString(),
                 newNominalBarDiameterAsString);
     }
 
@@ -332,7 +331,7 @@ public class IfcReinforcementBarPropertiesImpl extends IdEObjectImpl implements 
      */
     @Override
     public void unsetNominalBarDiameterAsString() {
-        eUnset(Ifc2x3tc1Package.Literals.IFC_REINFORCEMENT_BAR_PROPERTIES__NOMINAL_BAR_DIAMETER_AS_STRING);
+        eUnset(Ifc2x3tc1Package.eINSTANCE.getIfcReinforcementBarProperties_NominalBarDiameterAsString());
     }
 
     /**
@@ -342,7 +341,7 @@ public class IfcReinforcementBarPropertiesImpl extends IdEObjectImpl implements 
      */
     @Override
     public boolean isSetNominalBarDiameterAsString() {
-        return eIsSet(Ifc2x3tc1Package.Literals.IFC_REINFORCEMENT_BAR_PROPERTIES__NOMINAL_BAR_DIAMETER_AS_STRING);
+        return eIsSet(Ifc2x3tc1Package.eINSTANCE.getIfcReinforcementBarProperties_NominalBarDiameterAsString());
     }
 
     /**
@@ -352,7 +351,7 @@ public class IfcReinforcementBarPropertiesImpl extends IdEObjectImpl implements 
      */
     @Override
     public double getBarCount() {
-        return (Double) eGet(Ifc2x3tc1Package.Literals.IFC_REINFORCEMENT_BAR_PROPERTIES__BAR_COUNT, true);
+        return (Double) eGet(Ifc2x3tc1Package.eINSTANCE.getIfcReinforcementBarProperties_BarCount(), true);
     }
 
     /**
@@ -362,7 +361,7 @@ public class IfcReinforcementBarPropertiesImpl extends IdEObjectImpl implements 
      */
     @Override
     public void setBarCount(double newBarCount) {
-        eSet(Ifc2x3tc1Package.Literals.IFC_REINFORCEMENT_BAR_PROPERTIES__BAR_COUNT, newBarCount);
+        eSet(Ifc2x3tc1Package.eINSTANCE.getIfcReinforcementBarProperties_BarCount(), newBarCount);
     }
 
     /**
@@ -372,7 +371,7 @@ public class IfcReinforcementBarPropertiesImpl extends IdEObjectImpl implements 
      */
     @Override
     public void unsetBarCount() {
-        eUnset(Ifc2x3tc1Package.Literals.IFC_REINFORCEMENT_BAR_PROPERTIES__BAR_COUNT);
+        eUnset(Ifc2x3tc1Package.eINSTANCE.getIfcReinforcementBarProperties_BarCount());
     }
 
     /**
@@ -382,7 +381,7 @@ public class IfcReinforcementBarPropertiesImpl extends IdEObjectImpl implements 
      */
     @Override
     public boolean isSetBarCount() {
-        return eIsSet(Ifc2x3tc1Package.Literals.IFC_REINFORCEMENT_BAR_PROPERTIES__BAR_COUNT);
+        return eIsSet(Ifc2x3tc1Package.eINSTANCE.getIfcReinforcementBarProperties_BarCount());
     }
 
     /**
@@ -392,7 +391,7 @@ public class IfcReinforcementBarPropertiesImpl extends IdEObjectImpl implements 
      */
     @Override
     public String getBarCountAsString() {
-        return (String) eGet(Ifc2x3tc1Package.Literals.IFC_REINFORCEMENT_BAR_PROPERTIES__BAR_COUNT_AS_STRING, true);
+        return (String) eGet(Ifc2x3tc1Package.eINSTANCE.getIfcReinforcementBarProperties_BarCountAsString(), true);
     }
 
     /**
@@ -402,7 +401,7 @@ public class IfcReinforcementBarPropertiesImpl extends IdEObjectImpl implements 
      */
     @Override
     public void setBarCountAsString(String newBarCountAsString) {
-        eSet(Ifc2x3tc1Package.Literals.IFC_REINFORCEMENT_BAR_PROPERTIES__BAR_COUNT_AS_STRING, newBarCountAsString);
+        eSet(Ifc2x3tc1Package.eINSTANCE.getIfcReinforcementBarProperties_BarCountAsString(), newBarCountAsString);
     }
 
     /**
@@ -412,7 +411,7 @@ public class IfcReinforcementBarPropertiesImpl extends IdEObjectImpl implements 
      */
     @Override
     public void unsetBarCountAsString() {
-        eUnset(Ifc2x3tc1Package.Literals.IFC_REINFORCEMENT_BAR_PROPERTIES__BAR_COUNT_AS_STRING);
+        eUnset(Ifc2x3tc1Package.eINSTANCE.getIfcReinforcementBarProperties_BarCountAsString());
     }
 
     /**
@@ -422,7 +421,7 @@ public class IfcReinforcementBarPropertiesImpl extends IdEObjectImpl implements 
      */
     @Override
     public boolean isSetBarCountAsString() {
-        return eIsSet(Ifc2x3tc1Package.Literals.IFC_REINFORCEMENT_BAR_PROPERTIES__BAR_COUNT_AS_STRING);
+        return eIsSet(Ifc2x3tc1Package.eINSTANCE.getIfcReinforcementBarProperties_BarCountAsString());
     }
 
 } //IfcReinforcementBarPropertiesImpl

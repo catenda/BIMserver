@@ -45,7 +45,7 @@ public class IfcFlowFittingTypeImpl extends IfcDistributionFlowElementTypeImpl i
      */
     @Override
     protected EClass eStaticClass() {
-        return Ifc4Package.Literals.IFC_FLOW_FITTING_TYPE;
+        return Ifc4Package.eINSTANCE.getIfcFlowFittingType();
     }
 
 } //IfcFlowFittingTypeImpl

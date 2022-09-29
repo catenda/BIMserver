@@ -115,10 +115,6 @@ public enum IfcControllerTypeEnum implements Enumerator {
     /**
      * The '<em><b>NULL</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>NULL</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #NULL
      * @model
@@ -130,10 +126,6 @@ public enum IfcControllerTypeEnum implements Enumerator {
     /**
      * The '<em><b>NOTDEFINED</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>NOTDEFINED</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #NOTDEFINED
      * @model
@@ -145,10 +137,6 @@ public enum IfcControllerTypeEnum implements Enumerator {
     /**
      * The '<em><b>FLOATING</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>FLOATING</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #FLOATING
      * @model
@@ -160,10 +148,6 @@ public enum IfcControllerTypeEnum implements Enumerator {
     /**
      * The '<em><b>TWOPOSITION</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>TWOPOSITION</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #TWOPOSITION
      * @model
@@ -175,10 +159,6 @@ public enum IfcControllerTypeEnum implements Enumerator {
     /**
      * The '<em><b>USERDEFINED</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>USERDEFINED</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #USERDEFINED
      * @model
@@ -190,10 +170,6 @@ public enum IfcControllerTypeEnum implements Enumerator {
     /**
      * The '<em><b>PROPORTIONAL</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>PROPORTIONAL</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #PROPORTIONAL
      * @model
@@ -205,10 +181,6 @@ public enum IfcControllerTypeEnum implements Enumerator {
     /**
      * The '<em><b>PROGRAMMABLE</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>PROGRAMMABLE</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #PROGRAMMABLE
      * @model
@@ -220,10 +192,6 @@ public enum IfcControllerTypeEnum implements Enumerator {
     /**
      * The '<em><b>MULTIPOSITION</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>MULTIPOSITION</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #MULTIPOSITION
      * @model

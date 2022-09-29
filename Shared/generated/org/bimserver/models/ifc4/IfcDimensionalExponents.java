@@ -45,10 +45,6 @@ public interface IfcDimensionalExponents extends IdEObject {
     /**
      * Returns the value of the '<em><b>Length Exponent</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Length Exponent</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Length Exponent</em>' attribute.
      * @see #setLengthExponent(long)
@@ -71,10 +67,6 @@ public interface IfcDimensionalExponents extends IdEObject {
     /**
      * Returns the value of the '<em><b>Mass Exponent</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Mass Exponent</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Mass Exponent</em>' attribute.
      * @see #setMassExponent(long)
@@ -97,10 +89,6 @@ public interface IfcDimensionalExponents extends IdEObject {
     /**
      * Returns the value of the '<em><b>Time Exponent</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Time Exponent</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Time Exponent</em>' attribute.
      * @see #setTimeExponent(long)
@@ -123,10 +111,6 @@ public interface IfcDimensionalExponents extends IdEObject {
     /**
      * Returns the value of the '<em><b>Electric Current Exponent</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Electric Current Exponent</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Electric Current Exponent</em>' attribute.
      * @see #setElectricCurrentExponent(long)
@@ -149,10 +133,6 @@ public interface IfcDimensionalExponents extends IdEObject {
     /**
      * Returns the value of the '<em><b>Thermodynamic Temperature Exponent</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Thermodynamic Temperature Exponent</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Thermodynamic Temperature Exponent</em>' attribute.
      * @see #setThermodynamicTemperatureExponent(long)
@@ -175,10 +155,6 @@ public interface IfcDimensionalExponents extends IdEObject {
     /**
      * Returns the value of the '<em><b>Amount Of Substance Exponent</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Amount Of Substance Exponent</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Amount Of Substance Exponent</em>' attribute.
      * @see #setAmountOfSubstanceExponent(long)
@@ -201,10 +177,6 @@ public interface IfcDimensionalExponents extends IdEObject {
     /**
      * Returns the value of the '<em><b>Luminous Intensity Exponent</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Luminous Intensity Exponent</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Luminous Intensity Exponent</em>' attribute.
      * @see #setLuminousIntensityExponent(long)

@@ -52,7 +52,7 @@ public class IfcControllerImpl extends IfcDistributionControlElementImpl impleme
      */
     @Override
     protected EClass eStaticClass() {
-        return Ifc4Package.Literals.IFC_CONTROLLER;
+        return Ifc4Package.eINSTANCE.getIfcController();
     }
 
     /**
@@ -62,7 +62,7 @@ public class IfcControllerImpl extends IfcDistributionControlElementImpl impleme
      */
     @Override
     public IfcControllerTypeEnum getPredefinedType() {
-        return (IfcControllerTypeEnum) eGet(Ifc4Package.Literals.IFC_CONTROLLER__PREDEFINED_TYPE, true);
+        return (IfcControllerTypeEnum) eGet(Ifc4Package.eINSTANCE.getIfcController_PredefinedType(), true);
     }
 
     /**
@@ -72,7 +72,7 @@ public class IfcControllerImpl extends IfcDistributionControlElementImpl impleme
      */
     @Override
     public void setPredefinedType(IfcControllerTypeEnum newPredefinedType) {
-        eSet(Ifc4Package.Literals.IFC_CONTROLLER__PREDEFINED_TYPE, newPredefinedType);
+        eSet(Ifc4Package.eINSTANCE.getIfcController_PredefinedType(), newPredefinedType);
     }
 
     /**
@@ -82,7 +82,7 @@ public class IfcControllerImpl extends IfcDistributionControlElementImpl impleme
      */
     @Override
     public void unsetPredefinedType() {
-        eUnset(Ifc4Package.Literals.IFC_CONTROLLER__PREDEFINED_TYPE);
+        eUnset(Ifc4Package.eINSTANCE.getIfcController_PredefinedType());
     }
 
     /**
@@ -92,7 +92,7 @@ public class IfcControllerImpl extends IfcDistributionControlElementImpl impleme
      */
     @Override
     public boolean isSetPredefinedType() {
-        return eIsSet(Ifc4Package.Literals.IFC_CONTROLLER__PREDEFINED_TYPE);
+        return eIsSet(Ifc4Package.eINSTANCE.getIfcController_PredefinedType());
     }
 
 } //IfcControllerImpl

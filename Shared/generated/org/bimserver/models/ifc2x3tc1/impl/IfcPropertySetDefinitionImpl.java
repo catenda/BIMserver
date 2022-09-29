@@ -56,7 +56,7 @@ public class IfcPropertySetDefinitionImpl extends IfcPropertyDefinitionImpl impl
      */
     @Override
     protected EClass eStaticClass() {
-        return Ifc2x3tc1Package.Literals.IFC_PROPERTY_SET_DEFINITION;
+        return Ifc2x3tc1Package.eINSTANCE.getIfcPropertySetDefinition();
     }
 
     /**
@@ -68,7 +68,7 @@ public class IfcPropertySetDefinitionImpl extends IfcPropertyDefinitionImpl impl
     @Override
     public EList<IfcRelDefinesByProperties> getPropertyDefinitionOf() {
         return (EList<IfcRelDefinesByProperties>) eGet(
-                Ifc2x3tc1Package.Literals.IFC_PROPERTY_SET_DEFINITION__PROPERTY_DEFINITION_OF, true);
+                Ifc2x3tc1Package.eINSTANCE.getIfcPropertySetDefinition_PropertyDefinitionOf(), true);
     }
 
     /**
@@ -78,7 +78,7 @@ public class IfcPropertySetDefinitionImpl extends IfcPropertyDefinitionImpl impl
      */
     @Override
     public void unsetPropertyDefinitionOf() {
-        eUnset(Ifc2x3tc1Package.Literals.IFC_PROPERTY_SET_DEFINITION__PROPERTY_DEFINITION_OF);
+        eUnset(Ifc2x3tc1Package.eINSTANCE.getIfcPropertySetDefinition_PropertyDefinitionOf());
     }
 
     /**
@@ -88,7 +88,7 @@ public class IfcPropertySetDefinitionImpl extends IfcPropertyDefinitionImpl impl
      */
     @Override
     public boolean isSetPropertyDefinitionOf() {
-        return eIsSet(Ifc2x3tc1Package.Literals.IFC_PROPERTY_SET_DEFINITION__PROPERTY_DEFINITION_OF);
+        return eIsSet(Ifc2x3tc1Package.eINSTANCE.getIfcPropertySetDefinition_PropertyDefinitionOf());
     }
 
     /**
@@ -99,7 +99,7 @@ public class IfcPropertySetDefinitionImpl extends IfcPropertyDefinitionImpl impl
     @SuppressWarnings("unchecked")
     @Override
     public EList<IfcTypeObject> getDefinesType() {
-        return (EList<IfcTypeObject>) eGet(Ifc2x3tc1Package.Literals.IFC_PROPERTY_SET_DEFINITION__DEFINES_TYPE, true);
+        return (EList<IfcTypeObject>) eGet(Ifc2x3tc1Package.eINSTANCE.getIfcPropertySetDefinition_DefinesType(), true);
     }
 
     /**
@@ -109,7 +109,7 @@ public class IfcPropertySetDefinitionImpl extends IfcPropertyDefinitionImpl impl
      */
     @Override
     public void unsetDefinesType() {
-        eUnset(Ifc2x3tc1Package.Literals.IFC_PROPERTY_SET_DEFINITION__DEFINES_TYPE);
+        eUnset(Ifc2x3tc1Package.eINSTANCE.getIfcPropertySetDefinition_DefinesType());
     }
 
     /**
@@ -119,7 +119,7 @@ public class IfcPropertySetDefinitionImpl extends IfcPropertyDefinitionImpl impl
      */
     @Override
     public boolean isSetDefinesType() {
-        return eIsSet(Ifc2x3tc1Package.Literals.IFC_PROPERTY_SET_DEFINITION__DEFINES_TYPE);
+        return eIsSet(Ifc2x3tc1Package.eINSTANCE.getIfcPropertySetDefinition_DefinesType());
     }
 
 } //IfcPropertySetDefinitionImpl

@@ -42,10 +42,6 @@ public interface IfcTrimmedCurve extends IfcBoundedCurve {
     /**
      * Returns the value of the '<em><b>Basis Curve</b></em>' reference.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Basis Curve</em>' reference isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Basis Curve</em>' reference.
      * @see #setBasisCurve(IfcCurve)
@@ -69,10 +65,6 @@ public interface IfcTrimmedCurve extends IfcBoundedCurve {
      * Returns the value of the '<em><b>Trim1</b></em>' reference list.
      * The list contents are of type {@link org.bimserver.models.ifc4.IfcTrimmingSelect}.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Trim1</em>' reference list isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Trim1</em>' reference list.
      * @see org.bimserver.models.ifc4.Ifc4Package#getIfcTrimmedCurve_Trim1()
@@ -85,10 +77,6 @@ public interface IfcTrimmedCurve extends IfcBoundedCurve {
      * Returns the value of the '<em><b>Trim2</b></em>' reference list.
      * The list contents are of type {@link org.bimserver.models.ifc4.IfcTrimmingSelect}.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Trim2</em>' reference list isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Trim2</em>' reference list.
      * @see org.bimserver.models.ifc4.Ifc4Package#getIfcTrimmedCurve_Trim2()
@@ -101,10 +89,6 @@ public interface IfcTrimmedCurve extends IfcBoundedCurve {
      * Returns the value of the '<em><b>Sense Agreement</b></em>' attribute.
      * The literals are from the enumeration {@link org.bimserver.models.ifc4.Tristate}.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Sense Agreement</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Sense Agreement</em>' attribute.
      * @see org.bimserver.models.ifc4.Tristate
@@ -130,10 +114,6 @@ public interface IfcTrimmedCurve extends IfcBoundedCurve {
      * Returns the value of the '<em><b>Master Representation</b></em>' attribute.
      * The literals are from the enumeration {@link org.bimserver.models.ifc4.IfcTrimmingPreference}.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Master Representation</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Master Representation</em>' attribute.
      * @see org.bimserver.models.ifc4.IfcTrimmingPreference

@@ -36,10 +36,6 @@ public interface IfcPermit extends IfcControl {
     /**
      * Returns the value of the '<em><b>Permit ID</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Permit ID</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Permit ID</em>' attribute.
      * @see #setPermitID(String)

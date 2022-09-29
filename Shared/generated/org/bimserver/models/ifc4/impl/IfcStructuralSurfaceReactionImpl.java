@@ -53,7 +53,7 @@ public class IfcStructuralSurfaceReactionImpl extends IfcStructuralReactionImpl
      */
     @Override
     protected EClass eStaticClass() {
-        return Ifc4Package.Literals.IFC_STRUCTURAL_SURFACE_REACTION;
+        return Ifc4Package.eINSTANCE.getIfcStructuralSurfaceReaction();
     }
 
     /**
@@ -64,7 +64,7 @@ public class IfcStructuralSurfaceReactionImpl extends IfcStructuralReactionImpl
     @Override
     public IfcStructuralSurfaceActivityTypeEnum getPredefinedType() {
         return (IfcStructuralSurfaceActivityTypeEnum) eGet(
-                Ifc4Package.Literals.IFC_STRUCTURAL_SURFACE_REACTION__PREDEFINED_TYPE, true);
+                Ifc4Package.eINSTANCE.getIfcStructuralSurfaceReaction_PredefinedType(), true);
     }
 
     /**
@@ -74,7 +74,7 @@ public class IfcStructuralSurfaceReactionImpl extends IfcStructuralReactionImpl
      */
     @Override
     public void setPredefinedType(IfcStructuralSurfaceActivityTypeEnum newPredefinedType) {
-        eSet(Ifc4Package.Literals.IFC_STRUCTURAL_SURFACE_REACTION__PREDEFINED_TYPE, newPredefinedType);
+        eSet(Ifc4Package.eINSTANCE.getIfcStructuralSurfaceReaction_PredefinedType(), newPredefinedType);
     }
 
 } //IfcStructuralSurfaceReactionImpl

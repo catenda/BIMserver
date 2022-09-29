@@ -52,7 +52,7 @@ public class IfcTerminatorSymbolImpl extends IfcAnnotationSymbolOccurrenceImpl i
      */
     @Override
     protected EClass eStaticClass() {
-        return Ifc2x3tc1Package.Literals.IFC_TERMINATOR_SYMBOL;
+        return Ifc2x3tc1Package.eINSTANCE.getIfcTerminatorSymbol();
     }
 
     /**
@@ -62,7 +62,7 @@ public class IfcTerminatorSymbolImpl extends IfcAnnotationSymbolOccurrenceImpl i
      */
     @Override
     public IfcAnnotationCurveOccurrence getAnnotatedCurve() {
-        return (IfcAnnotationCurveOccurrence) eGet(Ifc2x3tc1Package.Literals.IFC_TERMINATOR_SYMBOL__ANNOTATED_CURVE,
+        return (IfcAnnotationCurveOccurrence) eGet(Ifc2x3tc1Package.eINSTANCE.getIfcTerminatorSymbol_AnnotatedCurve(),
                 true);
     }
 
@@ -73,7 +73,7 @@ public class IfcTerminatorSymbolImpl extends IfcAnnotationSymbolOccurrenceImpl i
      */
     @Override
     public void setAnnotatedCurve(IfcAnnotationCurveOccurrence newAnnotatedCurve) {
-        eSet(Ifc2x3tc1Package.Literals.IFC_TERMINATOR_SYMBOL__ANNOTATED_CURVE, newAnnotatedCurve);
+        eSet(Ifc2x3tc1Package.eINSTANCE.getIfcTerminatorSymbol_AnnotatedCurve(), newAnnotatedCurve);
     }
 
 } //IfcTerminatorSymbolImpl

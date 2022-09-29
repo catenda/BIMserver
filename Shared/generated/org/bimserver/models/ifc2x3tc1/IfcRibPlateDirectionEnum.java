@@ -65,10 +65,6 @@ public enum IfcRibPlateDirectionEnum implements Enumerator {
     /**
      * The '<em><b>NULL</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>NULL</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #NULL
      * @model
@@ -80,10 +76,6 @@ public enum IfcRibPlateDirectionEnum implements Enumerator {
     /**
      * The '<em><b>DIRECTION Y</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>DIRECTION Y</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #DIRECTION_Y
      * @model
@@ -95,10 +87,6 @@ public enum IfcRibPlateDirectionEnum implements Enumerator {
     /**
      * The '<em><b>DIRECTION X</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>DIRECTION X</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #DIRECTION_X
      * @model

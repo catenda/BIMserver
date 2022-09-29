@@ -45,10 +45,6 @@ public interface IfcClassification extends IdEObject {
     /**
      * Returns the value of the '<em><b>Source</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Source</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Source</em>' attribute.
      * @see #setSource(String)
@@ -71,10 +67,6 @@ public interface IfcClassification extends IdEObject {
     /**
      * Returns the value of the '<em><b>Edition</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Edition</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Edition</em>' attribute.
      * @see #setEdition(String)
@@ -97,10 +89,6 @@ public interface IfcClassification extends IdEObject {
     /**
      * Returns the value of the '<em><b>Edition Date</b></em>' reference.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Edition Date</em>' reference isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Edition Date</em>' reference.
      * @see #isSetEditionDate()
@@ -150,10 +138,6 @@ public interface IfcClassification extends IdEObject {
     /**
      * Returns the value of the '<em><b>Name</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Name</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Name</em>' attribute.
      * @see #setName(String)
@@ -178,10 +162,6 @@ public interface IfcClassification extends IdEObject {
      * The list contents are of type {@link org.bimserver.models.ifc2x3tc1.IfcClassificationItem}.
      * It is bidirectional and its opposite is '{@link org.bimserver.models.ifc2x3tc1.IfcClassificationItem#getItemOf <em>Item Of</em>}'.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Contains</em>' reference list isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Contains</em>' reference list.
      * @see #isSetContains()

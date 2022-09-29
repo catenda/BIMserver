@@ -45,7 +45,7 @@ public class IfcPreDefinedTextFontImpl extends IfcPreDefinedItemImpl implements 
      */
     @Override
     protected EClass eStaticClass() {
-        return Ifc2x3tc1Package.Literals.IFC_PRE_DEFINED_TEXT_FONT;
+        return Ifc2x3tc1Package.eINSTANCE.getIfcPreDefinedTextFont();
     }
 
 } //IfcPreDefinedTextFontImpl

@@ -43,10 +43,6 @@ public interface IfcIndexedColourMap extends IfcPresentationItem {
      * Returns the value of the '<em><b>Mapped To</b></em>' reference.
      * It is bidirectional and its opposite is '{@link org.bimserver.models.ifc4.IfcTessellatedFaceSet#getHasColours <em>Has Colours</em>}'.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Mapped To</em>' reference isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Mapped To</em>' reference.
      * @see #setMappedTo(IfcTessellatedFaceSet)
@@ -71,10 +67,6 @@ public interface IfcIndexedColourMap extends IfcPresentationItem {
     /**
      * Returns the value of the '<em><b>Opacity</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Opacity</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Opacity</em>' attribute.
      * @see #isSetOpacity()
@@ -124,10 +116,6 @@ public interface IfcIndexedColourMap extends IfcPresentationItem {
     /**
      * Returns the value of the '<em><b>Opacity As String</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Opacity As String</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Opacity As String</em>' attribute.
      * @see #isSetOpacityAsString()
@@ -179,10 +167,6 @@ public interface IfcIndexedColourMap extends IfcPresentationItem {
     /**
      * Returns the value of the '<em><b>Colours</b></em>' reference.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Colours</em>' reference isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Colours</em>' reference.
      * @see #setColours(IfcColourRgbList)
@@ -206,10 +190,6 @@ public interface IfcIndexedColourMap extends IfcPresentationItem {
      * Returns the value of the '<em><b>Colour Index</b></em>' attribute list.
      * The list contents are of type {@link java.lang.Long}.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Colour Index</em>' attribute list isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Colour Index</em>' attribute list.
      * @see org.bimserver.models.ifc4.Ifc4Package#getIfcIndexedColourMap_ColourIndex()

@@ -55,7 +55,7 @@ public class IfcPropertyDependencyRelationshipImpl extends IfcResourceLevelRelat
      */
     @Override
     protected EClass eStaticClass() {
-        return Ifc4Package.Literals.IFC_PROPERTY_DEPENDENCY_RELATIONSHIP;
+        return Ifc4Package.eINSTANCE.getIfcPropertyDependencyRelationship();
     }
 
     /**
@@ -65,7 +65,7 @@ public class IfcPropertyDependencyRelationshipImpl extends IfcResourceLevelRelat
      */
     @Override
     public IfcProperty getDependingProperty() {
-        return (IfcProperty) eGet(Ifc4Package.Literals.IFC_PROPERTY_DEPENDENCY_RELATIONSHIP__DEPENDING_PROPERTY, true);
+        return (IfcProperty) eGet(Ifc4Package.eINSTANCE.getIfcPropertyDependencyRelationship_DependingProperty(), true);
     }
 
     /**
@@ -75,7 +75,7 @@ public class IfcPropertyDependencyRelationshipImpl extends IfcResourceLevelRelat
      */
     @Override
     public void setDependingProperty(IfcProperty newDependingProperty) {
-        eSet(Ifc4Package.Literals.IFC_PROPERTY_DEPENDENCY_RELATIONSHIP__DEPENDING_PROPERTY, newDependingProperty);
+        eSet(Ifc4Package.eINSTANCE.getIfcPropertyDependencyRelationship_DependingProperty(), newDependingProperty);
     }
 
     /**
@@ -85,7 +85,7 @@ public class IfcPropertyDependencyRelationshipImpl extends IfcResourceLevelRelat
      */
     @Override
     public IfcProperty getDependantProperty() {
-        return (IfcProperty) eGet(Ifc4Package.Literals.IFC_PROPERTY_DEPENDENCY_RELATIONSHIP__DEPENDANT_PROPERTY, true);
+        return (IfcProperty) eGet(Ifc4Package.eINSTANCE.getIfcPropertyDependencyRelationship_DependantProperty(), true);
     }
 
     /**
@@ -95,7 +95,7 @@ public class IfcPropertyDependencyRelationshipImpl extends IfcResourceLevelRelat
      */
     @Override
     public void setDependantProperty(IfcProperty newDependantProperty) {
-        eSet(Ifc4Package.Literals.IFC_PROPERTY_DEPENDENCY_RELATIONSHIP__DEPENDANT_PROPERTY, newDependantProperty);
+        eSet(Ifc4Package.eINSTANCE.getIfcPropertyDependencyRelationship_DependantProperty(), newDependantProperty);
     }
 
     /**
@@ -105,7 +105,7 @@ public class IfcPropertyDependencyRelationshipImpl extends IfcResourceLevelRelat
      */
     @Override
     public String getExpression() {
-        return (String) eGet(Ifc4Package.Literals.IFC_PROPERTY_DEPENDENCY_RELATIONSHIP__EXPRESSION, true);
+        return (String) eGet(Ifc4Package.eINSTANCE.getIfcPropertyDependencyRelationship_Expression(), true);
     }
 
     /**
@@ -115,7 +115,7 @@ public class IfcPropertyDependencyRelationshipImpl extends IfcResourceLevelRelat
      */
     @Override
     public void setExpression(String newExpression) {
-        eSet(Ifc4Package.Literals.IFC_PROPERTY_DEPENDENCY_RELATIONSHIP__EXPRESSION, newExpression);
+        eSet(Ifc4Package.eINSTANCE.getIfcPropertyDependencyRelationship_Expression(), newExpression);
     }
 
     /**
@@ -125,7 +125,7 @@ public class IfcPropertyDependencyRelationshipImpl extends IfcResourceLevelRelat
      */
     @Override
     public void unsetExpression() {
-        eUnset(Ifc4Package.Literals.IFC_PROPERTY_DEPENDENCY_RELATIONSHIP__EXPRESSION);
+        eUnset(Ifc4Package.eINSTANCE.getIfcPropertyDependencyRelationship_Expression());
     }
 
     /**
@@ -135,7 +135,7 @@ public class IfcPropertyDependencyRelationshipImpl extends IfcResourceLevelRelat
      */
     @Override
     public boolean isSetExpression() {
-        return eIsSet(Ifc4Package.Literals.IFC_PROPERTY_DEPENDENCY_RELATIONSHIP__EXPRESSION);
+        return eIsSet(Ifc4Package.eINSTANCE.getIfcPropertyDependencyRelationship_Expression());
     }
 
 } //IfcPropertyDependencyRelationshipImpl

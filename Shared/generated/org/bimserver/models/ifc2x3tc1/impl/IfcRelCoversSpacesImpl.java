@@ -56,7 +56,7 @@ public class IfcRelCoversSpacesImpl extends IfcRelConnectsImpl implements IfcRel
      */
     @Override
     protected EClass eStaticClass() {
-        return Ifc2x3tc1Package.Literals.IFC_REL_COVERS_SPACES;
+        return Ifc2x3tc1Package.eINSTANCE.getIfcRelCoversSpaces();
     }
 
     /**
@@ -66,7 +66,7 @@ public class IfcRelCoversSpacesImpl extends IfcRelConnectsImpl implements IfcRel
      */
     @Override
     public IfcSpace getRelatedSpace() {
-        return (IfcSpace) eGet(Ifc2x3tc1Package.Literals.IFC_REL_COVERS_SPACES__RELATED_SPACE, true);
+        return (IfcSpace) eGet(Ifc2x3tc1Package.eINSTANCE.getIfcRelCoversSpaces_RelatedSpace(), true);
     }
 
     /**
@@ -76,7 +76,7 @@ public class IfcRelCoversSpacesImpl extends IfcRelConnectsImpl implements IfcRel
      */
     @Override
     public void setRelatedSpace(IfcSpace newRelatedSpace) {
-        eSet(Ifc2x3tc1Package.Literals.IFC_REL_COVERS_SPACES__RELATED_SPACE, newRelatedSpace);
+        eSet(Ifc2x3tc1Package.eINSTANCE.getIfcRelCoversSpaces_RelatedSpace(), newRelatedSpace);
     }
 
     /**
@@ -87,7 +87,7 @@ public class IfcRelCoversSpacesImpl extends IfcRelConnectsImpl implements IfcRel
     @SuppressWarnings("unchecked")
     @Override
     public EList<IfcCovering> getRelatedCoverings() {
-        return (EList<IfcCovering>) eGet(Ifc2x3tc1Package.Literals.IFC_REL_COVERS_SPACES__RELATED_COVERINGS, true);
+        return (EList<IfcCovering>) eGet(Ifc2x3tc1Package.eINSTANCE.getIfcRelCoversSpaces_RelatedCoverings(), true);
     }
 
 } //IfcRelCoversSpacesImpl

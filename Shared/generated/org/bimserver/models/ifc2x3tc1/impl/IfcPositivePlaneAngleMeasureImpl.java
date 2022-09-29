@@ -45,7 +45,7 @@ public class IfcPositivePlaneAngleMeasureImpl extends IfcPlaneAngleMeasureImpl i
      */
     @Override
     protected EClass eStaticClass() {
-        return Ifc2x3tc1Package.Literals.IFC_POSITIVE_PLANE_ANGLE_MEASURE;
+        return Ifc2x3tc1Package.eINSTANCE.getIfcPositivePlaneAngleMeasure();
     }
 
 } //IfcPositivePlaneAngleMeasureImpl

@@ -54,7 +54,7 @@ public class IfcRelFillsElementImpl extends IfcRelConnectsImpl implements IfcRel
      */
     @Override
     protected EClass eStaticClass() {
-        return Ifc4Package.Literals.IFC_REL_FILLS_ELEMENT;
+        return Ifc4Package.eINSTANCE.getIfcRelFillsElement();
     }
 
     /**
@@ -64,7 +64,7 @@ public class IfcRelFillsElementImpl extends IfcRelConnectsImpl implements IfcRel
      */
     @Override
     public IfcOpeningElement getRelatingOpeningElement() {
-        return (IfcOpeningElement) eGet(Ifc4Package.Literals.IFC_REL_FILLS_ELEMENT__RELATING_OPENING_ELEMENT, true);
+        return (IfcOpeningElement) eGet(Ifc4Package.eINSTANCE.getIfcRelFillsElement_RelatingOpeningElement(), true);
     }
 
     /**
@@ -74,7 +74,7 @@ public class IfcRelFillsElementImpl extends IfcRelConnectsImpl implements IfcRel
      */
     @Override
     public void setRelatingOpeningElement(IfcOpeningElement newRelatingOpeningElement) {
-        eSet(Ifc4Package.Literals.IFC_REL_FILLS_ELEMENT__RELATING_OPENING_ELEMENT, newRelatingOpeningElement);
+        eSet(Ifc4Package.eINSTANCE.getIfcRelFillsElement_RelatingOpeningElement(), newRelatingOpeningElement);
     }
 
     /**
@@ -84,7 +84,7 @@ public class IfcRelFillsElementImpl extends IfcRelConnectsImpl implements IfcRel
      */
     @Override
     public IfcElement getRelatedBuildingElement() {
-        return (IfcElement) eGet(Ifc4Package.Literals.IFC_REL_FILLS_ELEMENT__RELATED_BUILDING_ELEMENT, true);
+        return (IfcElement) eGet(Ifc4Package.eINSTANCE.getIfcRelFillsElement_RelatedBuildingElement(), true);
     }
 
     /**
@@ -94,7 +94,7 @@ public class IfcRelFillsElementImpl extends IfcRelConnectsImpl implements IfcRel
      */
     @Override
     public void setRelatedBuildingElement(IfcElement newRelatedBuildingElement) {
-        eSet(Ifc4Package.Literals.IFC_REL_FILLS_ELEMENT__RELATED_BUILDING_ELEMENT, newRelatedBuildingElement);
+        eSet(Ifc4Package.eINSTANCE.getIfcRelFillsElement_RelatedBuildingElement(), newRelatedBuildingElement);
     }
 
 } //IfcRelFillsElementImpl

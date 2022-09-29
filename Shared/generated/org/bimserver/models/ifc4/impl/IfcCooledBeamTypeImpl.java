@@ -52,7 +52,7 @@ public class IfcCooledBeamTypeImpl extends IfcEnergyConversionDeviceTypeImpl imp
      */
     @Override
     protected EClass eStaticClass() {
-        return Ifc4Package.Literals.IFC_COOLED_BEAM_TYPE;
+        return Ifc4Package.eINSTANCE.getIfcCooledBeamType();
     }
 
     /**
@@ -62,7 +62,7 @@ public class IfcCooledBeamTypeImpl extends IfcEnergyConversionDeviceTypeImpl imp
      */
     @Override
     public IfcCooledBeamTypeEnum getPredefinedType() {
-        return (IfcCooledBeamTypeEnum) eGet(Ifc4Package.Literals.IFC_COOLED_BEAM_TYPE__PREDEFINED_TYPE, true);
+        return (IfcCooledBeamTypeEnum) eGet(Ifc4Package.eINSTANCE.getIfcCooledBeamType_PredefinedType(), true);
     }
 
     /**
@@ -72,7 +72,7 @@ public class IfcCooledBeamTypeImpl extends IfcEnergyConversionDeviceTypeImpl imp
      */
     @Override
     public void setPredefinedType(IfcCooledBeamTypeEnum newPredefinedType) {
-        eSet(Ifc4Package.Literals.IFC_COOLED_BEAM_TYPE__PREDEFINED_TYPE, newPredefinedType);
+        eSet(Ifc4Package.eINSTANCE.getIfcCooledBeamType_PredefinedType(), newPredefinedType);
     }
 
 } //IfcCooledBeamTypeImpl

@@ -37,10 +37,6 @@ public interface IfcSweptAreaSolid extends IfcSolidModel {
     /**
      * Returns the value of the '<em><b>Swept Area</b></em>' reference.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Swept Area</em>' reference isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Swept Area</em>' reference.
      * @see #setSweptArea(IfcProfileDef)
@@ -63,10 +59,6 @@ public interface IfcSweptAreaSolid extends IfcSolidModel {
     /**
      * Returns the value of the '<em><b>Position</b></em>' reference.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Position</em>' reference isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Position</em>' reference.
      * @see #isSetPosition()

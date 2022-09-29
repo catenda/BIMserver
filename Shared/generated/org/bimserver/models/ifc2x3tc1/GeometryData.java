@@ -42,10 +42,6 @@ public interface GeometryData extends IdEObject {
     /**
      * Returns the value of the '<em><b>Indices</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Indices</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Indices</em>' attribute.
      * @see #setIndices(byte[])
@@ -68,10 +64,6 @@ public interface GeometryData extends IdEObject {
     /**
      * Returns the value of the '<em><b>Vertices</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Vertices</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Vertices</em>' attribute.
      * @see #setVertices(byte[])
@@ -94,10 +86,6 @@ public interface GeometryData extends IdEObject {
     /**
      * Returns the value of the '<em><b>Normals</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Normals</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Normals</em>' attribute.
      * @see #setNormals(byte[])

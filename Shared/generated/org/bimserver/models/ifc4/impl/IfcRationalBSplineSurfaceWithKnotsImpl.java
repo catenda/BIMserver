@@ -18,9 +18,10 @@ package org.bimserver.models.ifc4.impl;
 
 import org.bimserver.models.ifc4.Ifc4Package;
 import org.bimserver.models.ifc4.IfcRationalBSplineSurfaceWithKnots;
-
 import org.bimserver.models.ifc4.ListOfEDouble;
+
 import org.eclipse.emf.common.util.EList;
+
 import org.eclipse.emf.ecore.EClass;
 
 /**
@@ -56,7 +57,7 @@ public class IfcRationalBSplineSurfaceWithKnotsImpl extends IfcBSplineSurfaceWit
      */
     @Override
     protected EClass eStaticClass() {
-        return Ifc4Package.Literals.IFC_RATIONAL_BSPLINE_SURFACE_WITH_KNOTS;
+        return Ifc4Package.eINSTANCE.getIfcRationalBSplineSurfaceWithKnots();
     }
 
     /**
@@ -67,7 +68,7 @@ public class IfcRationalBSplineSurfaceWithKnotsImpl extends IfcBSplineSurfaceWit
     @SuppressWarnings("unchecked")
     @Override
     public EList<ListOfEDouble> getWeightsData() {
-        return (EList<ListOfEDouble>) eGet(Ifc4Package.Literals.IFC_RATIONAL_BSPLINE_SURFACE_WITH_KNOTS__WEIGHTS_DATA,
+        return (EList<ListOfEDouble>) eGet(Ifc4Package.eINSTANCE.getIfcRationalBSplineSurfaceWithKnots_WeightsData(),
                 true);
     }
 
@@ -78,7 +79,7 @@ public class IfcRationalBSplineSurfaceWithKnotsImpl extends IfcBSplineSurfaceWit
      */
     @Override
     public double getWeights() {
-        return (Double) eGet(Ifc4Package.Literals.IFC_RATIONAL_BSPLINE_SURFACE_WITH_KNOTS__WEIGHTS, true);
+        return (Double) eGet(Ifc4Package.eINSTANCE.getIfcRationalBSplineSurfaceWithKnots_Weights(), true);
     }
 
     /**
@@ -88,7 +89,7 @@ public class IfcRationalBSplineSurfaceWithKnotsImpl extends IfcBSplineSurfaceWit
      */
     @Override
     public void setWeights(double newWeights) {
-        eSet(Ifc4Package.Literals.IFC_RATIONAL_BSPLINE_SURFACE_WITH_KNOTS__WEIGHTS, newWeights);
+        eSet(Ifc4Package.eINSTANCE.getIfcRationalBSplineSurfaceWithKnots_Weights(), newWeights);
     }
 
     /**
@@ -98,7 +99,7 @@ public class IfcRationalBSplineSurfaceWithKnotsImpl extends IfcBSplineSurfaceWit
      */
     @Override
     public void unsetWeights() {
-        eUnset(Ifc4Package.Literals.IFC_RATIONAL_BSPLINE_SURFACE_WITH_KNOTS__WEIGHTS);
+        eUnset(Ifc4Package.eINSTANCE.getIfcRationalBSplineSurfaceWithKnots_Weights());
     }
 
     /**
@@ -108,7 +109,7 @@ public class IfcRationalBSplineSurfaceWithKnotsImpl extends IfcBSplineSurfaceWit
      */
     @Override
     public boolean isSetWeights() {
-        return eIsSet(Ifc4Package.Literals.IFC_RATIONAL_BSPLINE_SURFACE_WITH_KNOTS__WEIGHTS);
+        return eIsSet(Ifc4Package.eINSTANCE.getIfcRationalBSplineSurfaceWithKnots_Weights());
     }
 
     /**
@@ -118,7 +119,7 @@ public class IfcRationalBSplineSurfaceWithKnotsImpl extends IfcBSplineSurfaceWit
      */
     @Override
     public String getWeightsAsString() {
-        return (String) eGet(Ifc4Package.Literals.IFC_RATIONAL_BSPLINE_SURFACE_WITH_KNOTS__WEIGHTS_AS_STRING, true);
+        return (String) eGet(Ifc4Package.eINSTANCE.getIfcRationalBSplineSurfaceWithKnots_WeightsAsString(), true);
     }
 
     /**
@@ -128,7 +129,7 @@ public class IfcRationalBSplineSurfaceWithKnotsImpl extends IfcBSplineSurfaceWit
      */
     @Override
     public void setWeightsAsString(String newWeightsAsString) {
-        eSet(Ifc4Package.Literals.IFC_RATIONAL_BSPLINE_SURFACE_WITH_KNOTS__WEIGHTS_AS_STRING, newWeightsAsString);
+        eSet(Ifc4Package.eINSTANCE.getIfcRationalBSplineSurfaceWithKnots_WeightsAsString(), newWeightsAsString);
     }
 
     /**
@@ -138,7 +139,7 @@ public class IfcRationalBSplineSurfaceWithKnotsImpl extends IfcBSplineSurfaceWit
      */
     @Override
     public void unsetWeightsAsString() {
-        eUnset(Ifc4Package.Literals.IFC_RATIONAL_BSPLINE_SURFACE_WITH_KNOTS__WEIGHTS_AS_STRING);
+        eUnset(Ifc4Package.eINSTANCE.getIfcRationalBSplineSurfaceWithKnots_WeightsAsString());
     }
 
     /**
@@ -148,7 +149,7 @@ public class IfcRationalBSplineSurfaceWithKnotsImpl extends IfcBSplineSurfaceWit
      */
     @Override
     public boolean isSetWeightsAsString() {
-        return eIsSet(Ifc4Package.Literals.IFC_RATIONAL_BSPLINE_SURFACE_WITH_KNOTS__WEIGHTS_AS_STRING);
+        return eIsSet(Ifc4Package.eINSTANCE.getIfcRationalBSplineSurfaceWithKnots_WeightsAsString());
     }
 
 } //IfcRationalBSplineSurfaceWithKnotsImpl

@@ -45,7 +45,7 @@ public class IfcBooleanClippingResultImpl extends IfcBooleanResultImpl implement
      */
     @Override
     protected EClass eStaticClass() {
-        return Ifc4Package.Literals.IFC_BOOLEAN_CLIPPING_RESULT;
+        return Ifc4Package.eINSTANCE.getIfcBooleanClippingResult();
     }
 
 } //IfcBooleanClippingResultImpl

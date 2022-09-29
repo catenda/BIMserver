@@ -58,7 +58,7 @@ public class IfcTextStyleTextModelImpl extends IfcPresentationItemImpl implement
      */
     @Override
     protected EClass eStaticClass() {
-        return Ifc4Package.Literals.IFC_TEXT_STYLE_TEXT_MODEL;
+        return Ifc4Package.eINSTANCE.getIfcTextStyleTextModel();
     }
 
     /**
@@ -68,7 +68,7 @@ public class IfcTextStyleTextModelImpl extends IfcPresentationItemImpl implement
      */
     @Override
     public IfcSizeSelect getTextIndent() {
-        return (IfcSizeSelect) eGet(Ifc4Package.Literals.IFC_TEXT_STYLE_TEXT_MODEL__TEXT_INDENT, true);
+        return (IfcSizeSelect) eGet(Ifc4Package.eINSTANCE.getIfcTextStyleTextModel_TextIndent(), true);
     }
 
     /**
@@ -78,7 +78,7 @@ public class IfcTextStyleTextModelImpl extends IfcPresentationItemImpl implement
      */
     @Override
     public void setTextIndent(IfcSizeSelect newTextIndent) {
-        eSet(Ifc4Package.Literals.IFC_TEXT_STYLE_TEXT_MODEL__TEXT_INDENT, newTextIndent);
+        eSet(Ifc4Package.eINSTANCE.getIfcTextStyleTextModel_TextIndent(), newTextIndent);
     }
 
     /**
@@ -88,7 +88,7 @@ public class IfcTextStyleTextModelImpl extends IfcPresentationItemImpl implement
      */
     @Override
     public void unsetTextIndent() {
-        eUnset(Ifc4Package.Literals.IFC_TEXT_STYLE_TEXT_MODEL__TEXT_INDENT);
+        eUnset(Ifc4Package.eINSTANCE.getIfcTextStyleTextModel_TextIndent());
     }
 
     /**
@@ -98,7 +98,7 @@ public class IfcTextStyleTextModelImpl extends IfcPresentationItemImpl implement
      */
     @Override
     public boolean isSetTextIndent() {
-        return eIsSet(Ifc4Package.Literals.IFC_TEXT_STYLE_TEXT_MODEL__TEXT_INDENT);
+        return eIsSet(Ifc4Package.eINSTANCE.getIfcTextStyleTextModel_TextIndent());
     }
 
     /**
@@ -108,7 +108,7 @@ public class IfcTextStyleTextModelImpl extends IfcPresentationItemImpl implement
      */
     @Override
     public String getTextAlign() {
-        return (String) eGet(Ifc4Package.Literals.IFC_TEXT_STYLE_TEXT_MODEL__TEXT_ALIGN, true);
+        return (String) eGet(Ifc4Package.eINSTANCE.getIfcTextStyleTextModel_TextAlign(), true);
     }
 
     /**
@@ -118,7 +118,7 @@ public class IfcTextStyleTextModelImpl extends IfcPresentationItemImpl implement
      */
     @Override
     public void setTextAlign(String newTextAlign) {
-        eSet(Ifc4Package.Literals.IFC_TEXT_STYLE_TEXT_MODEL__TEXT_ALIGN, newTextAlign);
+        eSet(Ifc4Package.eINSTANCE.getIfcTextStyleTextModel_TextAlign(), newTextAlign);
     }
 
     /**
@@ -128,7 +128,7 @@ public class IfcTextStyleTextModelImpl extends IfcPresentationItemImpl implement
      */
     @Override
     public void unsetTextAlign() {
-        eUnset(Ifc4Package.Literals.IFC_TEXT_STYLE_TEXT_MODEL__TEXT_ALIGN);
+        eUnset(Ifc4Package.eINSTANCE.getIfcTextStyleTextModel_TextAlign());
     }
 
     /**
@@ -138,7 +138,7 @@ public class IfcTextStyleTextModelImpl extends IfcPresentationItemImpl implement
      */
     @Override
     public boolean isSetTextAlign() {
-        return eIsSet(Ifc4Package.Literals.IFC_TEXT_STYLE_TEXT_MODEL__TEXT_ALIGN);
+        return eIsSet(Ifc4Package.eINSTANCE.getIfcTextStyleTextModel_TextAlign());
     }
 
     /**
@@ -148,7 +148,7 @@ public class IfcTextStyleTextModelImpl extends IfcPresentationItemImpl implement
      */
     @Override
     public String getTextDecoration() {
-        return (String) eGet(Ifc4Package.Literals.IFC_TEXT_STYLE_TEXT_MODEL__TEXT_DECORATION, true);
+        return (String) eGet(Ifc4Package.eINSTANCE.getIfcTextStyleTextModel_TextDecoration(), true);
     }
 
     /**
@@ -158,7 +158,7 @@ public class IfcTextStyleTextModelImpl extends IfcPresentationItemImpl implement
      */
     @Override
     public void setTextDecoration(String newTextDecoration) {
-        eSet(Ifc4Package.Literals.IFC_TEXT_STYLE_TEXT_MODEL__TEXT_DECORATION, newTextDecoration);
+        eSet(Ifc4Package.eINSTANCE.getIfcTextStyleTextModel_TextDecoration(), newTextDecoration);
     }
 
     /**
@@ -168,7 +168,7 @@ public class IfcTextStyleTextModelImpl extends IfcPresentationItemImpl implement
      */
     @Override
     public void unsetTextDecoration() {
-        eUnset(Ifc4Package.Literals.IFC_TEXT_STYLE_TEXT_MODEL__TEXT_DECORATION);
+        eUnset(Ifc4Package.eINSTANCE.getIfcTextStyleTextModel_TextDecoration());
     }
 
     /**
@@ -178,7 +178,7 @@ public class IfcTextStyleTextModelImpl extends IfcPresentationItemImpl implement
      */
     @Override
     public boolean isSetTextDecoration() {
-        return eIsSet(Ifc4Package.Literals.IFC_TEXT_STYLE_TEXT_MODEL__TEXT_DECORATION);
+        return eIsSet(Ifc4Package.eINSTANCE.getIfcTextStyleTextModel_TextDecoration());
     }
 
     /**
@@ -188,7 +188,7 @@ public class IfcTextStyleTextModelImpl extends IfcPresentationItemImpl implement
      */
     @Override
     public IfcSizeSelect getLetterSpacing() {
-        return (IfcSizeSelect) eGet(Ifc4Package.Literals.IFC_TEXT_STYLE_TEXT_MODEL__LETTER_SPACING, true);
+        return (IfcSizeSelect) eGet(Ifc4Package.eINSTANCE.getIfcTextStyleTextModel_LetterSpacing(), true);
     }
 
     /**
@@ -198,7 +198,7 @@ public class IfcTextStyleTextModelImpl extends IfcPresentationItemImpl implement
      */
     @Override
     public void setLetterSpacing(IfcSizeSelect newLetterSpacing) {
-        eSet(Ifc4Package.Literals.IFC_TEXT_STYLE_TEXT_MODEL__LETTER_SPACING, newLetterSpacing);
+        eSet(Ifc4Package.eINSTANCE.getIfcTextStyleTextModel_LetterSpacing(), newLetterSpacing);
     }
 
     /**
@@ -208,7 +208,7 @@ public class IfcTextStyleTextModelImpl extends IfcPresentationItemImpl implement
      */
     @Override
     public void unsetLetterSpacing() {
-        eUnset(Ifc4Package.Literals.IFC_TEXT_STYLE_TEXT_MODEL__LETTER_SPACING);
+        eUnset(Ifc4Package.eINSTANCE.getIfcTextStyleTextModel_LetterSpacing());
     }
 
     /**
@@ -218,7 +218,7 @@ public class IfcTextStyleTextModelImpl extends IfcPresentationItemImpl implement
      */
     @Override
     public boolean isSetLetterSpacing() {
-        return eIsSet(Ifc4Package.Literals.IFC_TEXT_STYLE_TEXT_MODEL__LETTER_SPACING);
+        return eIsSet(Ifc4Package.eINSTANCE.getIfcTextStyleTextModel_LetterSpacing());
     }
 
     /**
@@ -228,7 +228,7 @@ public class IfcTextStyleTextModelImpl extends IfcPresentationItemImpl implement
      */
     @Override
     public IfcSizeSelect getWordSpacing() {
-        return (IfcSizeSelect) eGet(Ifc4Package.Literals.IFC_TEXT_STYLE_TEXT_MODEL__WORD_SPACING, true);
+        return (IfcSizeSelect) eGet(Ifc4Package.eINSTANCE.getIfcTextStyleTextModel_WordSpacing(), true);
     }
 
     /**
@@ -238,7 +238,7 @@ public class IfcTextStyleTextModelImpl extends IfcPresentationItemImpl implement
      */
     @Override
     public void setWordSpacing(IfcSizeSelect newWordSpacing) {
-        eSet(Ifc4Package.Literals.IFC_TEXT_STYLE_TEXT_MODEL__WORD_SPACING, newWordSpacing);
+        eSet(Ifc4Package.eINSTANCE.getIfcTextStyleTextModel_WordSpacing(), newWordSpacing);
     }
 
     /**
@@ -248,7 +248,7 @@ public class IfcTextStyleTextModelImpl extends IfcPresentationItemImpl implement
      */
     @Override
     public void unsetWordSpacing() {
-        eUnset(Ifc4Package.Literals.IFC_TEXT_STYLE_TEXT_MODEL__WORD_SPACING);
+        eUnset(Ifc4Package.eINSTANCE.getIfcTextStyleTextModel_WordSpacing());
     }
 
     /**
@@ -258,7 +258,7 @@ public class IfcTextStyleTextModelImpl extends IfcPresentationItemImpl implement
      */
     @Override
     public boolean isSetWordSpacing() {
-        return eIsSet(Ifc4Package.Literals.IFC_TEXT_STYLE_TEXT_MODEL__WORD_SPACING);
+        return eIsSet(Ifc4Package.eINSTANCE.getIfcTextStyleTextModel_WordSpacing());
     }
 
     /**
@@ -268,7 +268,7 @@ public class IfcTextStyleTextModelImpl extends IfcPresentationItemImpl implement
      */
     @Override
     public String getTextTransform() {
-        return (String) eGet(Ifc4Package.Literals.IFC_TEXT_STYLE_TEXT_MODEL__TEXT_TRANSFORM, true);
+        return (String) eGet(Ifc4Package.eINSTANCE.getIfcTextStyleTextModel_TextTransform(), true);
     }
 
     /**
@@ -278,7 +278,7 @@ public class IfcTextStyleTextModelImpl extends IfcPresentationItemImpl implement
      */
     @Override
     public void setTextTransform(String newTextTransform) {
-        eSet(Ifc4Package.Literals.IFC_TEXT_STYLE_TEXT_MODEL__TEXT_TRANSFORM, newTextTransform);
+        eSet(Ifc4Package.eINSTANCE.getIfcTextStyleTextModel_TextTransform(), newTextTransform);
     }
 
     /**
@@ -288,7 +288,7 @@ public class IfcTextStyleTextModelImpl extends IfcPresentationItemImpl implement
      */
     @Override
     public void unsetTextTransform() {
-        eUnset(Ifc4Package.Literals.IFC_TEXT_STYLE_TEXT_MODEL__TEXT_TRANSFORM);
+        eUnset(Ifc4Package.eINSTANCE.getIfcTextStyleTextModel_TextTransform());
     }
 
     /**
@@ -298,7 +298,7 @@ public class IfcTextStyleTextModelImpl extends IfcPresentationItemImpl implement
      */
     @Override
     public boolean isSetTextTransform() {
-        return eIsSet(Ifc4Package.Literals.IFC_TEXT_STYLE_TEXT_MODEL__TEXT_TRANSFORM);
+        return eIsSet(Ifc4Package.eINSTANCE.getIfcTextStyleTextModel_TextTransform());
     }
 
     /**
@@ -308,7 +308,7 @@ public class IfcTextStyleTextModelImpl extends IfcPresentationItemImpl implement
      */
     @Override
     public IfcSizeSelect getLineHeight() {
-        return (IfcSizeSelect) eGet(Ifc4Package.Literals.IFC_TEXT_STYLE_TEXT_MODEL__LINE_HEIGHT, true);
+        return (IfcSizeSelect) eGet(Ifc4Package.eINSTANCE.getIfcTextStyleTextModel_LineHeight(), true);
     }
 
     /**
@@ -318,7 +318,7 @@ public class IfcTextStyleTextModelImpl extends IfcPresentationItemImpl implement
      */
     @Override
     public void setLineHeight(IfcSizeSelect newLineHeight) {
-        eSet(Ifc4Package.Literals.IFC_TEXT_STYLE_TEXT_MODEL__LINE_HEIGHT, newLineHeight);
+        eSet(Ifc4Package.eINSTANCE.getIfcTextStyleTextModel_LineHeight(), newLineHeight);
     }
 
     /**
@@ -328,7 +328,7 @@ public class IfcTextStyleTextModelImpl extends IfcPresentationItemImpl implement
      */
     @Override
     public void unsetLineHeight() {
-        eUnset(Ifc4Package.Literals.IFC_TEXT_STYLE_TEXT_MODEL__LINE_HEIGHT);
+        eUnset(Ifc4Package.eINSTANCE.getIfcTextStyleTextModel_LineHeight());
     }
 
     /**
@@ -338,7 +338,7 @@ public class IfcTextStyleTextModelImpl extends IfcPresentationItemImpl implement
      */
     @Override
     public boolean isSetLineHeight() {
-        return eIsSet(Ifc4Package.Literals.IFC_TEXT_STYLE_TEXT_MODEL__LINE_HEIGHT);
+        return eIsSet(Ifc4Package.eINSTANCE.getIfcTextStyleTextModel_LineHeight());
     }
 
 } //IfcTextStyleTextModelImpl

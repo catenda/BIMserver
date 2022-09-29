@@ -42,10 +42,6 @@ public interface IfcCoordinateReferenceSystem extends IfcCoordinateReferenceSyst
     /**
      * Returns the value of the '<em><b>Name</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Name</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Name</em>' attribute.
      * @see #setName(String)
@@ -68,10 +64,6 @@ public interface IfcCoordinateReferenceSystem extends IfcCoordinateReferenceSyst
     /**
      * Returns the value of the '<em><b>Description</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Description</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Description</em>' attribute.
      * @see #isSetDescription()
@@ -121,10 +113,6 @@ public interface IfcCoordinateReferenceSystem extends IfcCoordinateReferenceSyst
     /**
      * Returns the value of the '<em><b>Geodetic Datum</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Geodetic Datum</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Geodetic Datum</em>' attribute.
      * @see #isSetGeodeticDatum()
@@ -174,10 +162,6 @@ public interface IfcCoordinateReferenceSystem extends IfcCoordinateReferenceSyst
     /**
      * Returns the value of the '<em><b>Vertical Datum</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Vertical Datum</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Vertical Datum</em>' attribute.
      * @see #isSetVerticalDatum()
@@ -228,10 +212,6 @@ public interface IfcCoordinateReferenceSystem extends IfcCoordinateReferenceSyst
      * Returns the value of the '<em><b>Has Coordinate Operation</b></em>' reference list.
      * The list contents are of type {@link org.bimserver.models.ifc4.IfcCoordinateOperation}.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Has Coordinate Operation</em>' reference list isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Has Coordinate Operation</em>' reference list.
      * @see #isSetHasCoordinateOperation()

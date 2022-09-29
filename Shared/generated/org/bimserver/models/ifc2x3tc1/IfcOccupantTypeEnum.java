@@ -135,10 +135,6 @@ public enum IfcOccupantTypeEnum implements Enumerator {
     /**
      * The '<em><b>NULL</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>NULL</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #NULL
      * @model
@@ -150,10 +146,6 @@ public enum IfcOccupantTypeEnum implements Enumerator {
     /**
      * The '<em><b>OWNER</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>OWNER</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #OWNER
      * @model
@@ -165,10 +157,6 @@ public enum IfcOccupantTypeEnum implements Enumerator {
     /**
      * The '<em><b>NOTDEFINED</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>NOTDEFINED</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #NOTDEFINED
      * @model
@@ -180,10 +168,6 @@ public enum IfcOccupantTypeEnum implements Enumerator {
     /**
      * The '<em><b>LETTINGAGENT</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>LETTINGAGENT</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #LETTINGAGENT
      * @model
@@ -195,10 +179,6 @@ public enum IfcOccupantTypeEnum implements Enumerator {
     /**
      * The '<em><b>ASSIGNEE</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>ASSIGNEE</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #ASSIGNEE
      * @model
@@ -210,10 +190,6 @@ public enum IfcOccupantTypeEnum implements Enumerator {
     /**
      * The '<em><b>LESSEE</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>LESSEE</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #LESSEE
      * @model
@@ -225,10 +201,6 @@ public enum IfcOccupantTypeEnum implements Enumerator {
     /**
      * The '<em><b>USERDEFINED</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>USERDEFINED</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #USERDEFINED
      * @model
@@ -240,10 +212,6 @@ public enum IfcOccupantTypeEnum implements Enumerator {
     /**
      * The '<em><b>ASSIGNOR</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>ASSIGNOR</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #ASSIGNOR
      * @model
@@ -255,10 +223,6 @@ public enum IfcOccupantTypeEnum implements Enumerator {
     /**
      * The '<em><b>TENANT</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>TENANT</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #TENANT
      * @model
@@ -270,10 +234,6 @@ public enum IfcOccupantTypeEnum implements Enumerator {
     /**
      * The '<em><b>LESSOR</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>LESSOR</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #LESSOR
      * @model

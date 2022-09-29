@@ -37,10 +37,6 @@ public interface IfcQuantityCount extends IfcPhysicalSimpleQuantity {
     /**
      * Returns the value of the '<em><b>Count Value</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Count Value</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Count Value</em>' attribute.
      * @see #setCountValue(double)
@@ -63,10 +59,6 @@ public interface IfcQuantityCount extends IfcPhysicalSimpleQuantity {
     /**
      * Returns the value of the '<em><b>Count Value As String</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Count Value As String</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Count Value As String</em>' attribute.
      * @see #setCountValueAsString(String)

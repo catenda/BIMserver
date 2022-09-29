@@ -37,10 +37,6 @@ public interface IfcFeatureElementAddition extends IfcFeatureElement {
      * Returns the value of the '<em><b>Projects Elements</b></em>' reference.
      * It is bidirectional and its opposite is '{@link org.bimserver.models.ifc2x3tc1.IfcRelProjectsElement#getRelatedFeatureElement <em>Related Feature Element</em>}'.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Projects Elements</em>' reference isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Projects Elements</em>' reference.
      * @see #isSetProjectsElements()

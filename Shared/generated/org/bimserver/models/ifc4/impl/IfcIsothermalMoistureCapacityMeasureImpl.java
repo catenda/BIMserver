@@ -55,7 +55,7 @@ public class IfcIsothermalMoistureCapacityMeasureImpl extends IdEObjectImpl
      */
     @Override
     protected EClass eStaticClass() {
-        return Ifc4Package.Literals.IFC_ISOTHERMAL_MOISTURE_CAPACITY_MEASURE;
+        return Ifc4Package.eINSTANCE.getIfcIsothermalMoistureCapacityMeasure();
     }
 
     /**
@@ -75,7 +75,7 @@ public class IfcIsothermalMoistureCapacityMeasureImpl extends IdEObjectImpl
      */
     @Override
     public double getWrappedValue() {
-        return (Double) eGet(Ifc4Package.Literals.IFC_ISOTHERMAL_MOISTURE_CAPACITY_MEASURE__WRAPPED_VALUE, true);
+        return (Double) eGet(Ifc4Package.eINSTANCE.getIfcIsothermalMoistureCapacityMeasure_WrappedValue(), true);
     }
 
     /**
@@ -85,7 +85,7 @@ public class IfcIsothermalMoistureCapacityMeasureImpl extends IdEObjectImpl
      */
     @Override
     public void setWrappedValue(double newWrappedValue) {
-        eSet(Ifc4Package.Literals.IFC_ISOTHERMAL_MOISTURE_CAPACITY_MEASURE__WRAPPED_VALUE, newWrappedValue);
+        eSet(Ifc4Package.eINSTANCE.getIfcIsothermalMoistureCapacityMeasure_WrappedValue(), newWrappedValue);
     }
 
     /**
@@ -95,7 +95,7 @@ public class IfcIsothermalMoistureCapacityMeasureImpl extends IdEObjectImpl
      */
     @Override
     public void unsetWrappedValue() {
-        eUnset(Ifc4Package.Literals.IFC_ISOTHERMAL_MOISTURE_CAPACITY_MEASURE__WRAPPED_VALUE);
+        eUnset(Ifc4Package.eINSTANCE.getIfcIsothermalMoistureCapacityMeasure_WrappedValue());
     }
 
     /**
@@ -105,7 +105,7 @@ public class IfcIsothermalMoistureCapacityMeasureImpl extends IdEObjectImpl
      */
     @Override
     public boolean isSetWrappedValue() {
-        return eIsSet(Ifc4Package.Literals.IFC_ISOTHERMAL_MOISTURE_CAPACITY_MEASURE__WRAPPED_VALUE);
+        return eIsSet(Ifc4Package.eINSTANCE.getIfcIsothermalMoistureCapacityMeasure_WrappedValue());
     }
 
     /**
@@ -115,7 +115,7 @@ public class IfcIsothermalMoistureCapacityMeasureImpl extends IdEObjectImpl
      */
     @Override
     public String getWrappedValueAsString() {
-        return (String) eGet(Ifc4Package.Literals.IFC_ISOTHERMAL_MOISTURE_CAPACITY_MEASURE__WRAPPED_VALUE_AS_STRING,
+        return (String) eGet(Ifc4Package.eINSTANCE.getIfcIsothermalMoistureCapacityMeasure_WrappedValueAsString(),
                 true);
     }
 
@@ -126,7 +126,7 @@ public class IfcIsothermalMoistureCapacityMeasureImpl extends IdEObjectImpl
      */
     @Override
     public void setWrappedValueAsString(String newWrappedValueAsString) {
-        eSet(Ifc4Package.Literals.IFC_ISOTHERMAL_MOISTURE_CAPACITY_MEASURE__WRAPPED_VALUE_AS_STRING,
+        eSet(Ifc4Package.eINSTANCE.getIfcIsothermalMoistureCapacityMeasure_WrappedValueAsString(),
                 newWrappedValueAsString);
     }
 
@@ -137,7 +137,7 @@ public class IfcIsothermalMoistureCapacityMeasureImpl extends IdEObjectImpl
      */
     @Override
     public void unsetWrappedValueAsString() {
-        eUnset(Ifc4Package.Literals.IFC_ISOTHERMAL_MOISTURE_CAPACITY_MEASURE__WRAPPED_VALUE_AS_STRING);
+        eUnset(Ifc4Package.eINSTANCE.getIfcIsothermalMoistureCapacityMeasure_WrappedValueAsString());
     }
 
     /**
@@ -147,7 +147,7 @@ public class IfcIsothermalMoistureCapacityMeasureImpl extends IdEObjectImpl
      */
     @Override
     public boolean isSetWrappedValueAsString() {
-        return eIsSet(Ifc4Package.Literals.IFC_ISOTHERMAL_MOISTURE_CAPACITY_MEASURE__WRAPPED_VALUE_AS_STRING);
+        return eIsSet(Ifc4Package.eINSTANCE.getIfcIsothermalMoistureCapacityMeasure_WrappedValueAsString());
     }
 
 } //IfcIsothermalMoistureCapacityMeasureImpl

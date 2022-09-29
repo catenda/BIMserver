@@ -52,7 +52,7 @@ public class IfcEvaporativeCoolerImpl extends IfcEnergyConversionDeviceImpl impl
      */
     @Override
     protected EClass eStaticClass() {
-        return Ifc4Package.Literals.IFC_EVAPORATIVE_COOLER;
+        return Ifc4Package.eINSTANCE.getIfcEvaporativeCooler();
     }
 
     /**
@@ -62,7 +62,8 @@ public class IfcEvaporativeCoolerImpl extends IfcEnergyConversionDeviceImpl impl
      */
     @Override
     public IfcEvaporativeCoolerTypeEnum getPredefinedType() {
-        return (IfcEvaporativeCoolerTypeEnum) eGet(Ifc4Package.Literals.IFC_EVAPORATIVE_COOLER__PREDEFINED_TYPE, true);
+        return (IfcEvaporativeCoolerTypeEnum) eGet(Ifc4Package.eINSTANCE.getIfcEvaporativeCooler_PredefinedType(),
+                true);
     }
 
     /**
@@ -72,7 +73,7 @@ public class IfcEvaporativeCoolerImpl extends IfcEnergyConversionDeviceImpl impl
      */
     @Override
     public void setPredefinedType(IfcEvaporativeCoolerTypeEnum newPredefinedType) {
-        eSet(Ifc4Package.Literals.IFC_EVAPORATIVE_COOLER__PREDEFINED_TYPE, newPredefinedType);
+        eSet(Ifc4Package.eINSTANCE.getIfcEvaporativeCooler_PredefinedType(), newPredefinedType);
     }
 
     /**
@@ -82,7 +83,7 @@ public class IfcEvaporativeCoolerImpl extends IfcEnergyConversionDeviceImpl impl
      */
     @Override
     public void unsetPredefinedType() {
-        eUnset(Ifc4Package.Literals.IFC_EVAPORATIVE_COOLER__PREDEFINED_TYPE);
+        eUnset(Ifc4Package.eINSTANCE.getIfcEvaporativeCooler_PredefinedType());
     }
 
     /**
@@ -92,7 +93,7 @@ public class IfcEvaporativeCoolerImpl extends IfcEnergyConversionDeviceImpl impl
      */
     @Override
     public boolean isSetPredefinedType() {
-        return eIsSet(Ifc4Package.Literals.IFC_EVAPORATIVE_COOLER__PREDEFINED_TYPE);
+        return eIsSet(Ifc4Package.eINSTANCE.getIfcEvaporativeCooler_PredefinedType());
     }
 
 } //IfcEvaporativeCoolerImpl

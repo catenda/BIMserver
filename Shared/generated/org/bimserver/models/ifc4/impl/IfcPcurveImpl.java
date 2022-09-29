@@ -54,7 +54,7 @@ public class IfcPcurveImpl extends IfcCurveImpl implements IfcPcurve {
      */
     @Override
     protected EClass eStaticClass() {
-        return Ifc4Package.Literals.IFC_PCURVE;
+        return Ifc4Package.eINSTANCE.getIfcPcurve();
     }
 
     /**
@@ -64,7 +64,7 @@ public class IfcPcurveImpl extends IfcCurveImpl implements IfcPcurve {
      */
     @Override
     public IfcSurface getBasisSurface() {
-        return (IfcSurface) eGet(Ifc4Package.Literals.IFC_PCURVE__BASIS_SURFACE, true);
+        return (IfcSurface) eGet(Ifc4Package.eINSTANCE.getIfcPcurve_BasisSurface(), true);
     }
 
     /**
@@ -74,7 +74,7 @@ public class IfcPcurveImpl extends IfcCurveImpl implements IfcPcurve {
      */
     @Override
     public void setBasisSurface(IfcSurface newBasisSurface) {
-        eSet(Ifc4Package.Literals.IFC_PCURVE__BASIS_SURFACE, newBasisSurface);
+        eSet(Ifc4Package.eINSTANCE.getIfcPcurve_BasisSurface(), newBasisSurface);
     }
 
     /**
@@ -84,7 +84,7 @@ public class IfcPcurveImpl extends IfcCurveImpl implements IfcPcurve {
      */
     @Override
     public IfcCurve getReferenceCurve() {
-        return (IfcCurve) eGet(Ifc4Package.Literals.IFC_PCURVE__REFERENCE_CURVE, true);
+        return (IfcCurve) eGet(Ifc4Package.eINSTANCE.getIfcPcurve_ReferenceCurve(), true);
     }
 
     /**
@@ -94,7 +94,7 @@ public class IfcPcurveImpl extends IfcCurveImpl implements IfcPcurve {
      */
     @Override
     public void setReferenceCurve(IfcCurve newReferenceCurve) {
-        eSet(Ifc4Package.Literals.IFC_PCURVE__REFERENCE_CURVE, newReferenceCurve);
+        eSet(Ifc4Package.eINSTANCE.getIfcPcurve_ReferenceCurve(), newReferenceCurve);
     }
 
 } //IfcPcurveImpl

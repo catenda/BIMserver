@@ -37,10 +37,6 @@ public interface WebModulePluginConfiguration extends PluginConfiguration {
      * Returns the value of the '<em><b>Server Settings</b></em>' reference.
      * It is bidirectional and its opposite is '{@link org.bimserver.models.store.ServerSettings#getWebModules <em>Web Modules</em>}'.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Server Settings</em>' reference isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Server Settings</em>' reference.
      * @see #setServerSettings(ServerSettings)

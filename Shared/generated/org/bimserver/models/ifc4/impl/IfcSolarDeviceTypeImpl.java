@@ -52,7 +52,7 @@ public class IfcSolarDeviceTypeImpl extends IfcEnergyConversionDeviceTypeImpl im
      */
     @Override
     protected EClass eStaticClass() {
-        return Ifc4Package.Literals.IFC_SOLAR_DEVICE_TYPE;
+        return Ifc4Package.eINSTANCE.getIfcSolarDeviceType();
     }
 
     /**
@@ -62,7 +62,7 @@ public class IfcSolarDeviceTypeImpl extends IfcEnergyConversionDeviceTypeImpl im
      */
     @Override
     public IfcSolarDeviceTypeEnum getPredefinedType() {
-        return (IfcSolarDeviceTypeEnum) eGet(Ifc4Package.Literals.IFC_SOLAR_DEVICE_TYPE__PREDEFINED_TYPE, true);
+        return (IfcSolarDeviceTypeEnum) eGet(Ifc4Package.eINSTANCE.getIfcSolarDeviceType_PredefinedType(), true);
     }
 
     /**
@@ -72,7 +72,7 @@ public class IfcSolarDeviceTypeImpl extends IfcEnergyConversionDeviceTypeImpl im
      */
     @Override
     public void setPredefinedType(IfcSolarDeviceTypeEnum newPredefinedType) {
-        eSet(Ifc4Package.Literals.IFC_SOLAR_DEVICE_TYPE__PREDEFINED_TYPE, newPredefinedType);
+        eSet(Ifc4Package.eINSTANCE.getIfcSolarDeviceType_PredefinedType(), newPredefinedType);
     }
 
 } //IfcSolarDeviceTypeImpl

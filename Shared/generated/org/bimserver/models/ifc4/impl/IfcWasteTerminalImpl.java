@@ -52,7 +52,7 @@ public class IfcWasteTerminalImpl extends IfcFlowTerminalImpl implements IfcWast
      */
     @Override
     protected EClass eStaticClass() {
-        return Ifc4Package.Literals.IFC_WASTE_TERMINAL;
+        return Ifc4Package.eINSTANCE.getIfcWasteTerminal();
     }
 
     /**
@@ -62,7 +62,7 @@ public class IfcWasteTerminalImpl extends IfcFlowTerminalImpl implements IfcWast
      */
     @Override
     public IfcWasteTerminalTypeEnum getPredefinedType() {
-        return (IfcWasteTerminalTypeEnum) eGet(Ifc4Package.Literals.IFC_WASTE_TERMINAL__PREDEFINED_TYPE, true);
+        return (IfcWasteTerminalTypeEnum) eGet(Ifc4Package.eINSTANCE.getIfcWasteTerminal_PredefinedType(), true);
     }
 
     /**
@@ -72,7 +72,7 @@ public class IfcWasteTerminalImpl extends IfcFlowTerminalImpl implements IfcWast
      */
     @Override
     public void setPredefinedType(IfcWasteTerminalTypeEnum newPredefinedType) {
-        eSet(Ifc4Package.Literals.IFC_WASTE_TERMINAL__PREDEFINED_TYPE, newPredefinedType);
+        eSet(Ifc4Package.eINSTANCE.getIfcWasteTerminal_PredefinedType(), newPredefinedType);
     }
 
     /**
@@ -82,7 +82,7 @@ public class IfcWasteTerminalImpl extends IfcFlowTerminalImpl implements IfcWast
      */
     @Override
     public void unsetPredefinedType() {
-        eUnset(Ifc4Package.Literals.IFC_WASTE_TERMINAL__PREDEFINED_TYPE);
+        eUnset(Ifc4Package.eINSTANCE.getIfcWasteTerminal_PredefinedType());
     }
 
     /**
@@ -92,7 +92,7 @@ public class IfcWasteTerminalImpl extends IfcFlowTerminalImpl implements IfcWast
      */
     @Override
     public boolean isSetPredefinedType() {
-        return eIsSet(Ifc4Package.Literals.IFC_WASTE_TERMINAL__PREDEFINED_TYPE);
+        return eIsSet(Ifc4Package.eINSTANCE.getIfcWasteTerminal_PredefinedType());
     }
 
 } //IfcWasteTerminalImpl

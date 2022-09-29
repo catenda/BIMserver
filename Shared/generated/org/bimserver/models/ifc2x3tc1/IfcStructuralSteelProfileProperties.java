@@ -43,10 +43,6 @@ public interface IfcStructuralSteelProfileProperties extends IfcStructuralProfil
     /**
      * Returns the value of the '<em><b>Shear Area Z</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Shear Area Z</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Shear Area Z</em>' attribute.
      * @see #isSetShearAreaZ()
@@ -96,10 +92,6 @@ public interface IfcStructuralSteelProfileProperties extends IfcStructuralProfil
     /**
      * Returns the value of the '<em><b>Shear Area ZAs String</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Shear Area ZAs String</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Shear Area ZAs String</em>' attribute.
      * @see #isSetShearAreaZAsString()
@@ -151,10 +143,6 @@ public interface IfcStructuralSteelProfileProperties extends IfcStructuralProfil
     /**
      * Returns the value of the '<em><b>Shear Area Y</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Shear Area Y</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Shear Area Y</em>' attribute.
      * @see #isSetShearAreaY()
@@ -204,10 +192,6 @@ public interface IfcStructuralSteelProfileProperties extends IfcStructuralProfil
     /**
      * Returns the value of the '<em><b>Shear Area YAs String</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Shear Area YAs String</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Shear Area YAs String</em>' attribute.
      * @see #isSetShearAreaYAsString()
@@ -259,10 +243,6 @@ public interface IfcStructuralSteelProfileProperties extends IfcStructuralProfil
     /**
      * Returns the value of the '<em><b>Plastic Shape Factor Y</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Plastic Shape Factor Y</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Plastic Shape Factor Y</em>' attribute.
      * @see #isSetPlasticShapeFactorY()
@@ -312,10 +292,6 @@ public interface IfcStructuralSteelProfileProperties extends IfcStructuralProfil
     /**
      * Returns the value of the '<em><b>Plastic Shape Factor YAs String</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Plastic Shape Factor YAs String</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Plastic Shape Factor YAs String</em>' attribute.
      * @see #isSetPlasticShapeFactorYAsString()
@@ -367,10 +343,6 @@ public interface IfcStructuralSteelProfileProperties extends IfcStructuralProfil
     /**
      * Returns the value of the '<em><b>Plastic Shape Factor Z</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Plastic Shape Factor Z</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Plastic Shape Factor Z</em>' attribute.
      * @see #isSetPlasticShapeFactorZ()
@@ -420,10 +392,6 @@ public interface IfcStructuralSteelProfileProperties extends IfcStructuralProfil
     /**
      * Returns the value of the '<em><b>Plastic Shape Factor ZAs String</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Plastic Shape Factor ZAs String</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Plastic Shape Factor ZAs String</em>' attribute.
      * @see #isSetPlasticShapeFactorZAsString()

@@ -53,7 +53,7 @@ public class IfcQuantityWeightImpl extends IfcPhysicalSimpleQuantityImpl impleme
      */
     @Override
     protected EClass eStaticClass() {
-        return Ifc4Package.Literals.IFC_QUANTITY_WEIGHT;
+        return Ifc4Package.eINSTANCE.getIfcQuantityWeight();
     }
 
     /**
@@ -63,7 +63,7 @@ public class IfcQuantityWeightImpl extends IfcPhysicalSimpleQuantityImpl impleme
      */
     @Override
     public double getWeightValue() {
-        return (Double) eGet(Ifc4Package.Literals.IFC_QUANTITY_WEIGHT__WEIGHT_VALUE, true);
+        return (Double) eGet(Ifc4Package.eINSTANCE.getIfcQuantityWeight_WeightValue(), true);
     }
 
     /**
@@ -73,7 +73,7 @@ public class IfcQuantityWeightImpl extends IfcPhysicalSimpleQuantityImpl impleme
      */
     @Override
     public void setWeightValue(double newWeightValue) {
-        eSet(Ifc4Package.Literals.IFC_QUANTITY_WEIGHT__WEIGHT_VALUE, newWeightValue);
+        eSet(Ifc4Package.eINSTANCE.getIfcQuantityWeight_WeightValue(), newWeightValue);
     }
 
     /**
@@ -83,7 +83,7 @@ public class IfcQuantityWeightImpl extends IfcPhysicalSimpleQuantityImpl impleme
      */
     @Override
     public String getWeightValueAsString() {
-        return (String) eGet(Ifc4Package.Literals.IFC_QUANTITY_WEIGHT__WEIGHT_VALUE_AS_STRING, true);
+        return (String) eGet(Ifc4Package.eINSTANCE.getIfcQuantityWeight_WeightValueAsString(), true);
     }
 
     /**
@@ -93,7 +93,7 @@ public class IfcQuantityWeightImpl extends IfcPhysicalSimpleQuantityImpl impleme
      */
     @Override
     public void setWeightValueAsString(String newWeightValueAsString) {
-        eSet(Ifc4Package.Literals.IFC_QUANTITY_WEIGHT__WEIGHT_VALUE_AS_STRING, newWeightValueAsString);
+        eSet(Ifc4Package.eINSTANCE.getIfcQuantityWeight_WeightValueAsString(), newWeightValueAsString);
     }
 
     /**
@@ -103,7 +103,7 @@ public class IfcQuantityWeightImpl extends IfcPhysicalSimpleQuantityImpl impleme
      */
     @Override
     public String getFormula() {
-        return (String) eGet(Ifc4Package.Literals.IFC_QUANTITY_WEIGHT__FORMULA, true);
+        return (String) eGet(Ifc4Package.eINSTANCE.getIfcQuantityWeight_Formula(), true);
     }
 
     /**
@@ -113,7 +113,7 @@ public class IfcQuantityWeightImpl extends IfcPhysicalSimpleQuantityImpl impleme
      */
     @Override
     public void setFormula(String newFormula) {
-        eSet(Ifc4Package.Literals.IFC_QUANTITY_WEIGHT__FORMULA, newFormula);
+        eSet(Ifc4Package.eINSTANCE.getIfcQuantityWeight_Formula(), newFormula);
     }
 
     /**
@@ -123,7 +123,7 @@ public class IfcQuantityWeightImpl extends IfcPhysicalSimpleQuantityImpl impleme
      */
     @Override
     public void unsetFormula() {
-        eUnset(Ifc4Package.Literals.IFC_QUANTITY_WEIGHT__FORMULA);
+        eUnset(Ifc4Package.eINSTANCE.getIfcQuantityWeight_Formula());
     }
 
     /**
@@ -133,7 +133,7 @@ public class IfcQuantityWeightImpl extends IfcPhysicalSimpleQuantityImpl impleme
      */
     @Override
     public boolean isSetFormula() {
-        return eIsSet(Ifc4Package.Literals.IFC_QUANTITY_WEIGHT__FORMULA);
+        return eIsSet(Ifc4Package.eINSTANCE.getIfcQuantityWeight_Formula());
     }
 
 } //IfcQuantityWeightImpl

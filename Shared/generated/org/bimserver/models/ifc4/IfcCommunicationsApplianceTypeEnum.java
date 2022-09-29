@@ -185,10 +185,6 @@ public enum IfcCommunicationsApplianceTypeEnum implements Enumerator {
     /**
      * The '<em><b>NULL</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>NULL</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #NULL
      * @model
@@ -200,10 +196,6 @@ public enum IfcCommunicationsApplianceTypeEnum implements Enumerator {
     /**
      * The '<em><b>GATEWAY</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>GATEWAY</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #GATEWAY
      * @model
@@ -215,10 +207,6 @@ public enum IfcCommunicationsApplianceTypeEnum implements Enumerator {
     /**
      * The '<em><b>NETWORKAPPLIANCE</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>NETWORKAPPLIANCE</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #NETWORKAPPLIANCE
      * @model
@@ -230,10 +218,6 @@ public enum IfcCommunicationsApplianceTypeEnum implements Enumerator {
     /**
      * The '<em><b>ROUTER</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>ROUTER</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #ROUTER
      * @model
@@ -245,10 +229,6 @@ public enum IfcCommunicationsApplianceTypeEnum implements Enumerator {
     /**
      * The '<em><b>MODEM</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>MODEM</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #MODEM
      * @model
@@ -260,10 +240,6 @@ public enum IfcCommunicationsApplianceTypeEnum implements Enumerator {
     /**
      * The '<em><b>USERDEFINED</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>USERDEFINED</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #USERDEFINED
      * @model
@@ -275,10 +251,6 @@ public enum IfcCommunicationsApplianceTypeEnum implements Enumerator {
     /**
      * The '<em><b>ANTENNA</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>ANTENNA</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #ANTENNA
      * @model
@@ -290,10 +262,6 @@ public enum IfcCommunicationsApplianceTypeEnum implements Enumerator {
     /**
      * The '<em><b>SCANNER</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>SCANNER</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #SCANNER
      * @model
@@ -305,10 +273,6 @@ public enum IfcCommunicationsApplianceTypeEnum implements Enumerator {
     /**
      * The '<em><b>NETWORKHUB</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>NETWORKHUB</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #NETWORKHUB
      * @model
@@ -320,10 +284,6 @@ public enum IfcCommunicationsApplianceTypeEnum implements Enumerator {
     /**
      * The '<em><b>NETWORKBRIDGE</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>NETWORKBRIDGE</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #NETWORKBRIDGE
      * @model
@@ -335,10 +295,6 @@ public enum IfcCommunicationsApplianceTypeEnum implements Enumerator {
     /**
      * The '<em><b>NOTDEFINED</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>NOTDEFINED</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #NOTDEFINED
      * @model
@@ -350,10 +306,6 @@ public enum IfcCommunicationsApplianceTypeEnum implements Enumerator {
     /**
      * The '<em><b>PRINTER</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>PRINTER</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #PRINTER
      * @model
@@ -365,10 +317,6 @@ public enum IfcCommunicationsApplianceTypeEnum implements Enumerator {
     /**
      * The '<em><b>COMPUTER</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>COMPUTER</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #COMPUTER
      * @model
@@ -380,10 +328,6 @@ public enum IfcCommunicationsApplianceTypeEnum implements Enumerator {
     /**
      * The '<em><b>REPEATER</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>REPEATER</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #REPEATER
      * @model
@@ -395,10 +339,6 @@ public enum IfcCommunicationsApplianceTypeEnum implements Enumerator {
     /**
      * The '<em><b>FAX</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>FAX</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #FAX
      * @model

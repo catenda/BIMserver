@@ -61,7 +61,7 @@ public class IfcProfileDefImpl extends IdEObjectImpl implements IfcProfileDef {
      */
     @Override
     protected EClass eStaticClass() {
-        return Ifc4Package.Literals.IFC_PROFILE_DEF;
+        return Ifc4Package.eINSTANCE.getIfcProfileDef();
     }
 
     /**
@@ -81,7 +81,7 @@ public class IfcProfileDefImpl extends IdEObjectImpl implements IfcProfileDef {
      */
     @Override
     public IfcProfileTypeEnum getProfileType() {
-        return (IfcProfileTypeEnum) eGet(Ifc4Package.Literals.IFC_PROFILE_DEF__PROFILE_TYPE, true);
+        return (IfcProfileTypeEnum) eGet(Ifc4Package.eINSTANCE.getIfcProfileDef_ProfileType(), true);
     }
 
     /**
@@ -91,7 +91,7 @@ public class IfcProfileDefImpl extends IdEObjectImpl implements IfcProfileDef {
      */
     @Override
     public void setProfileType(IfcProfileTypeEnum newProfileType) {
-        eSet(Ifc4Package.Literals.IFC_PROFILE_DEF__PROFILE_TYPE, newProfileType);
+        eSet(Ifc4Package.eINSTANCE.getIfcProfileDef_ProfileType(), newProfileType);
     }
 
     /**
@@ -101,7 +101,7 @@ public class IfcProfileDefImpl extends IdEObjectImpl implements IfcProfileDef {
      */
     @Override
     public String getProfileName() {
-        return (String) eGet(Ifc4Package.Literals.IFC_PROFILE_DEF__PROFILE_NAME, true);
+        return (String) eGet(Ifc4Package.eINSTANCE.getIfcProfileDef_ProfileName(), true);
     }
 
     /**
@@ -111,7 +111,7 @@ public class IfcProfileDefImpl extends IdEObjectImpl implements IfcProfileDef {
      */
     @Override
     public void setProfileName(String newProfileName) {
-        eSet(Ifc4Package.Literals.IFC_PROFILE_DEF__PROFILE_NAME, newProfileName);
+        eSet(Ifc4Package.eINSTANCE.getIfcProfileDef_ProfileName(), newProfileName);
     }
 
     /**
@@ -121,7 +121,7 @@ public class IfcProfileDefImpl extends IdEObjectImpl implements IfcProfileDef {
      */
     @Override
     public void unsetProfileName() {
-        eUnset(Ifc4Package.Literals.IFC_PROFILE_DEF__PROFILE_NAME);
+        eUnset(Ifc4Package.eINSTANCE.getIfcProfileDef_ProfileName());
     }
 
     /**
@@ -131,7 +131,7 @@ public class IfcProfileDefImpl extends IdEObjectImpl implements IfcProfileDef {
      */
     @Override
     public boolean isSetProfileName() {
-        return eIsSet(Ifc4Package.Literals.IFC_PROFILE_DEF__PROFILE_NAME);
+        return eIsSet(Ifc4Package.eINSTANCE.getIfcProfileDef_ProfileName());
     }
 
     /**
@@ -143,7 +143,7 @@ public class IfcProfileDefImpl extends IdEObjectImpl implements IfcProfileDef {
     @Override
     public EList<IfcExternalReferenceRelationship> getHasExternalReference() {
         return (EList<IfcExternalReferenceRelationship>) eGet(
-                Ifc4Package.Literals.IFC_PROFILE_DEF__HAS_EXTERNAL_REFERENCE, true);
+                Ifc4Package.eINSTANCE.getIfcProfileDef_HasExternalReference(), true);
     }
 
     /**
@@ -153,7 +153,7 @@ public class IfcProfileDefImpl extends IdEObjectImpl implements IfcProfileDef {
      */
     @Override
     public void unsetHasExternalReference() {
-        eUnset(Ifc4Package.Literals.IFC_PROFILE_DEF__HAS_EXTERNAL_REFERENCE);
+        eUnset(Ifc4Package.eINSTANCE.getIfcProfileDef_HasExternalReference());
     }
 
     /**
@@ -163,7 +163,7 @@ public class IfcProfileDefImpl extends IdEObjectImpl implements IfcProfileDef {
      */
     @Override
     public boolean isSetHasExternalReference() {
-        return eIsSet(Ifc4Package.Literals.IFC_PROFILE_DEF__HAS_EXTERNAL_REFERENCE);
+        return eIsSet(Ifc4Package.eINSTANCE.getIfcProfileDef_HasExternalReference());
     }
 
     /**
@@ -174,7 +174,7 @@ public class IfcProfileDefImpl extends IdEObjectImpl implements IfcProfileDef {
     @SuppressWarnings("unchecked")
     @Override
     public EList<IfcProfileProperties> getHasProperties() {
-        return (EList<IfcProfileProperties>) eGet(Ifc4Package.Literals.IFC_PROFILE_DEF__HAS_PROPERTIES, true);
+        return (EList<IfcProfileProperties>) eGet(Ifc4Package.eINSTANCE.getIfcProfileDef_HasProperties(), true);
     }
 
     /**
@@ -184,7 +184,7 @@ public class IfcProfileDefImpl extends IdEObjectImpl implements IfcProfileDef {
      */
     @Override
     public void unsetHasProperties() {
-        eUnset(Ifc4Package.Literals.IFC_PROFILE_DEF__HAS_PROPERTIES);
+        eUnset(Ifc4Package.eINSTANCE.getIfcProfileDef_HasProperties());
     }
 
     /**
@@ -194,7 +194,7 @@ public class IfcProfileDefImpl extends IdEObjectImpl implements IfcProfileDef {
      */
     @Override
     public boolean isSetHasProperties() {
-        return eIsSet(Ifc4Package.Literals.IFC_PROFILE_DEF__HAS_PROPERTIES);
+        return eIsSet(Ifc4Package.eINSTANCE.getIfcProfileDef_HasProperties());
     }
 
 } //IfcProfileDefImpl

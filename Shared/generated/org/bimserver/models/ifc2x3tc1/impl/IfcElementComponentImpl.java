@@ -45,7 +45,7 @@ public class IfcElementComponentImpl extends IfcElementImpl implements IfcElemen
      */
     @Override
     protected EClass eStaticClass() {
-        return Ifc2x3tc1Package.Literals.IFC_ELEMENT_COMPONENT;
+        return Ifc2x3tc1Package.eINSTANCE.getIfcElementComponent();
     }
 
 } //IfcElementComponentImpl

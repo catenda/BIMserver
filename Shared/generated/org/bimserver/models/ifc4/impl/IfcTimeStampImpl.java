@@ -53,7 +53,7 @@ public class IfcTimeStampImpl extends IdEObjectImpl implements IfcTimeStamp {
      */
     @Override
     protected EClass eStaticClass() {
-        return Ifc4Package.Literals.IFC_TIME_STAMP;
+        return Ifc4Package.eINSTANCE.getIfcTimeStamp();
     }
 
     /**
@@ -73,7 +73,7 @@ public class IfcTimeStampImpl extends IdEObjectImpl implements IfcTimeStamp {
      */
     @Override
     public long getWrappedValue() {
-        return (Long) eGet(Ifc4Package.Literals.IFC_TIME_STAMP__WRAPPED_VALUE, true);
+        return (Long) eGet(Ifc4Package.eINSTANCE.getIfcTimeStamp_WrappedValue(), true);
     }
 
     /**
@@ -83,7 +83,7 @@ public class IfcTimeStampImpl extends IdEObjectImpl implements IfcTimeStamp {
      */
     @Override
     public void setWrappedValue(long newWrappedValue) {
-        eSet(Ifc4Package.Literals.IFC_TIME_STAMP__WRAPPED_VALUE, newWrappedValue);
+        eSet(Ifc4Package.eINSTANCE.getIfcTimeStamp_WrappedValue(), newWrappedValue);
     }
 
     /**
@@ -93,7 +93,7 @@ public class IfcTimeStampImpl extends IdEObjectImpl implements IfcTimeStamp {
      */
     @Override
     public void unsetWrappedValue() {
-        eUnset(Ifc4Package.Literals.IFC_TIME_STAMP__WRAPPED_VALUE);
+        eUnset(Ifc4Package.eINSTANCE.getIfcTimeStamp_WrappedValue());
     }
 
     /**
@@ -103,7 +103,7 @@ public class IfcTimeStampImpl extends IdEObjectImpl implements IfcTimeStamp {
      */
     @Override
     public boolean isSetWrappedValue() {
-        return eIsSet(Ifc4Package.Literals.IFC_TIME_STAMP__WRAPPED_VALUE);
+        return eIsSet(Ifc4Package.eINSTANCE.getIfcTimeStamp_WrappedValue());
     }
 
 } //IfcTimeStampImpl

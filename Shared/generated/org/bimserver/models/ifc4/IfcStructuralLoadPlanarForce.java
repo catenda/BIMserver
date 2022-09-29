@@ -41,10 +41,6 @@ public interface IfcStructuralLoadPlanarForce extends IfcStructuralLoadStatic {
     /**
      * Returns the value of the '<em><b>Planar Force X</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Planar Force X</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Planar Force X</em>' attribute.
      * @see #isSetPlanarForceX()
@@ -94,10 +90,6 @@ public interface IfcStructuralLoadPlanarForce extends IfcStructuralLoadStatic {
     /**
      * Returns the value of the '<em><b>Planar Force XAs String</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Planar Force XAs String</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Planar Force XAs String</em>' attribute.
      * @see #isSetPlanarForceXAsString()
@@ -149,10 +141,6 @@ public interface IfcStructuralLoadPlanarForce extends IfcStructuralLoadStatic {
     /**
      * Returns the value of the '<em><b>Planar Force Y</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Planar Force Y</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Planar Force Y</em>' attribute.
      * @see #isSetPlanarForceY()
@@ -202,10 +190,6 @@ public interface IfcStructuralLoadPlanarForce extends IfcStructuralLoadStatic {
     /**
      * Returns the value of the '<em><b>Planar Force YAs String</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Planar Force YAs String</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Planar Force YAs String</em>' attribute.
      * @see #isSetPlanarForceYAsString()
@@ -257,10 +241,6 @@ public interface IfcStructuralLoadPlanarForce extends IfcStructuralLoadStatic {
     /**
      * Returns the value of the '<em><b>Planar Force Z</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Planar Force Z</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Planar Force Z</em>' attribute.
      * @see #isSetPlanarForceZ()
@@ -310,10 +290,6 @@ public interface IfcStructuralLoadPlanarForce extends IfcStructuralLoadStatic {
     /**
      * Returns the value of the '<em><b>Planar Force ZAs String</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Planar Force ZAs String</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Planar Force ZAs String</em>' attribute.
      * @see #isSetPlanarForceZAsString()

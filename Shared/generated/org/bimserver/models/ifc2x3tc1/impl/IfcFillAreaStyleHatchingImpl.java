@@ -60,7 +60,7 @@ public class IfcFillAreaStyleHatchingImpl extends IfcGeometricRepresentationItem
      */
     @Override
     protected EClass eStaticClass() {
-        return Ifc2x3tc1Package.Literals.IFC_FILL_AREA_STYLE_HATCHING;
+        return Ifc2x3tc1Package.eINSTANCE.getIfcFillAreaStyleHatching();
     }
 
     /**
@@ -70,8 +70,7 @@ public class IfcFillAreaStyleHatchingImpl extends IfcGeometricRepresentationItem
      */
     @Override
     public IfcCurveStyle getHatchLineAppearance() {
-        return (IfcCurveStyle) eGet(Ifc2x3tc1Package.Literals.IFC_FILL_AREA_STYLE_HATCHING__HATCH_LINE_APPEARANCE,
-                true);
+        return (IfcCurveStyle) eGet(Ifc2x3tc1Package.eINSTANCE.getIfcFillAreaStyleHatching_HatchLineAppearance(), true);
     }
 
     /**
@@ -81,7 +80,7 @@ public class IfcFillAreaStyleHatchingImpl extends IfcGeometricRepresentationItem
      */
     @Override
     public void setHatchLineAppearance(IfcCurveStyle newHatchLineAppearance) {
-        eSet(Ifc2x3tc1Package.Literals.IFC_FILL_AREA_STYLE_HATCHING__HATCH_LINE_APPEARANCE, newHatchLineAppearance);
+        eSet(Ifc2x3tc1Package.eINSTANCE.getIfcFillAreaStyleHatching_HatchLineAppearance(), newHatchLineAppearance);
     }
 
     /**
@@ -92,7 +91,7 @@ public class IfcFillAreaStyleHatchingImpl extends IfcGeometricRepresentationItem
     @Override
     public IfcHatchLineDistanceSelect getStartOfNextHatchLine() {
         return (IfcHatchLineDistanceSelect) eGet(
-                Ifc2x3tc1Package.Literals.IFC_FILL_AREA_STYLE_HATCHING__START_OF_NEXT_HATCH_LINE, true);
+                Ifc2x3tc1Package.eINSTANCE.getIfcFillAreaStyleHatching_StartOfNextHatchLine(), true);
     }
 
     /**
@@ -102,7 +101,7 @@ public class IfcFillAreaStyleHatchingImpl extends IfcGeometricRepresentationItem
      */
     @Override
     public void setStartOfNextHatchLine(IfcHatchLineDistanceSelect newStartOfNextHatchLine) {
-        eSet(Ifc2x3tc1Package.Literals.IFC_FILL_AREA_STYLE_HATCHING__START_OF_NEXT_HATCH_LINE, newStartOfNextHatchLine);
+        eSet(Ifc2x3tc1Package.eINSTANCE.getIfcFillAreaStyleHatching_StartOfNextHatchLine(), newStartOfNextHatchLine);
     }
 
     /**
@@ -113,7 +112,7 @@ public class IfcFillAreaStyleHatchingImpl extends IfcGeometricRepresentationItem
     @Override
     public IfcCartesianPoint getPointOfReferenceHatchLine() {
         return (IfcCartesianPoint) eGet(
-                Ifc2x3tc1Package.Literals.IFC_FILL_AREA_STYLE_HATCHING__POINT_OF_REFERENCE_HATCH_LINE, true);
+                Ifc2x3tc1Package.eINSTANCE.getIfcFillAreaStyleHatching_PointOfReferenceHatchLine(), true);
     }
 
     /**
@@ -123,7 +122,7 @@ public class IfcFillAreaStyleHatchingImpl extends IfcGeometricRepresentationItem
      */
     @Override
     public void setPointOfReferenceHatchLine(IfcCartesianPoint newPointOfReferenceHatchLine) {
-        eSet(Ifc2x3tc1Package.Literals.IFC_FILL_AREA_STYLE_HATCHING__POINT_OF_REFERENCE_HATCH_LINE,
+        eSet(Ifc2x3tc1Package.eINSTANCE.getIfcFillAreaStyleHatching_PointOfReferenceHatchLine(),
                 newPointOfReferenceHatchLine);
     }
 
@@ -134,7 +133,7 @@ public class IfcFillAreaStyleHatchingImpl extends IfcGeometricRepresentationItem
      */
     @Override
     public void unsetPointOfReferenceHatchLine() {
-        eUnset(Ifc2x3tc1Package.Literals.IFC_FILL_AREA_STYLE_HATCHING__POINT_OF_REFERENCE_HATCH_LINE);
+        eUnset(Ifc2x3tc1Package.eINSTANCE.getIfcFillAreaStyleHatching_PointOfReferenceHatchLine());
     }
 
     /**
@@ -144,7 +143,7 @@ public class IfcFillAreaStyleHatchingImpl extends IfcGeometricRepresentationItem
      */
     @Override
     public boolean isSetPointOfReferenceHatchLine() {
-        return eIsSet(Ifc2x3tc1Package.Literals.IFC_FILL_AREA_STYLE_HATCHING__POINT_OF_REFERENCE_HATCH_LINE);
+        return eIsSet(Ifc2x3tc1Package.eINSTANCE.getIfcFillAreaStyleHatching_PointOfReferenceHatchLine());
     }
 
     /**
@@ -154,7 +153,7 @@ public class IfcFillAreaStyleHatchingImpl extends IfcGeometricRepresentationItem
      */
     @Override
     public IfcCartesianPoint getPatternStart() {
-        return (IfcCartesianPoint) eGet(Ifc2x3tc1Package.Literals.IFC_FILL_AREA_STYLE_HATCHING__PATTERN_START, true);
+        return (IfcCartesianPoint) eGet(Ifc2x3tc1Package.eINSTANCE.getIfcFillAreaStyleHatching_PatternStart(), true);
     }
 
     /**
@@ -164,7 +163,7 @@ public class IfcFillAreaStyleHatchingImpl extends IfcGeometricRepresentationItem
      */
     @Override
     public void setPatternStart(IfcCartesianPoint newPatternStart) {
-        eSet(Ifc2x3tc1Package.Literals.IFC_FILL_AREA_STYLE_HATCHING__PATTERN_START, newPatternStart);
+        eSet(Ifc2x3tc1Package.eINSTANCE.getIfcFillAreaStyleHatching_PatternStart(), newPatternStart);
     }
 
     /**
@@ -174,7 +173,7 @@ public class IfcFillAreaStyleHatchingImpl extends IfcGeometricRepresentationItem
      */
     @Override
     public void unsetPatternStart() {
-        eUnset(Ifc2x3tc1Package.Literals.IFC_FILL_AREA_STYLE_HATCHING__PATTERN_START);
+        eUnset(Ifc2x3tc1Package.eINSTANCE.getIfcFillAreaStyleHatching_PatternStart());
     }
 
     /**
@@ -184,7 +183,7 @@ public class IfcFillAreaStyleHatchingImpl extends IfcGeometricRepresentationItem
      */
     @Override
     public boolean isSetPatternStart() {
-        return eIsSet(Ifc2x3tc1Package.Literals.IFC_FILL_AREA_STYLE_HATCHING__PATTERN_START);
+        return eIsSet(Ifc2x3tc1Package.eINSTANCE.getIfcFillAreaStyleHatching_PatternStart());
     }
 
     /**
@@ -194,7 +193,7 @@ public class IfcFillAreaStyleHatchingImpl extends IfcGeometricRepresentationItem
      */
     @Override
     public double getHatchLineAngle() {
-        return (Double) eGet(Ifc2x3tc1Package.Literals.IFC_FILL_AREA_STYLE_HATCHING__HATCH_LINE_ANGLE, true);
+        return (Double) eGet(Ifc2x3tc1Package.eINSTANCE.getIfcFillAreaStyleHatching_HatchLineAngle(), true);
     }
 
     /**
@@ -204,7 +203,7 @@ public class IfcFillAreaStyleHatchingImpl extends IfcGeometricRepresentationItem
      */
     @Override
     public void setHatchLineAngle(double newHatchLineAngle) {
-        eSet(Ifc2x3tc1Package.Literals.IFC_FILL_AREA_STYLE_HATCHING__HATCH_LINE_ANGLE, newHatchLineAngle);
+        eSet(Ifc2x3tc1Package.eINSTANCE.getIfcFillAreaStyleHatching_HatchLineAngle(), newHatchLineAngle);
     }
 
     /**
@@ -214,7 +213,7 @@ public class IfcFillAreaStyleHatchingImpl extends IfcGeometricRepresentationItem
      */
     @Override
     public String getHatchLineAngleAsString() {
-        return (String) eGet(Ifc2x3tc1Package.Literals.IFC_FILL_AREA_STYLE_HATCHING__HATCH_LINE_ANGLE_AS_STRING, true);
+        return (String) eGet(Ifc2x3tc1Package.eINSTANCE.getIfcFillAreaStyleHatching_HatchLineAngleAsString(), true);
     }
 
     /**
@@ -224,7 +223,7 @@ public class IfcFillAreaStyleHatchingImpl extends IfcGeometricRepresentationItem
      */
     @Override
     public void setHatchLineAngleAsString(String newHatchLineAngleAsString) {
-        eSet(Ifc2x3tc1Package.Literals.IFC_FILL_AREA_STYLE_HATCHING__HATCH_LINE_ANGLE_AS_STRING,
+        eSet(Ifc2x3tc1Package.eINSTANCE.getIfcFillAreaStyleHatching_HatchLineAngleAsString(),
                 newHatchLineAngleAsString);
     }
 

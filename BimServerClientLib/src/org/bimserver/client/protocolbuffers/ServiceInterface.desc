@@ -5,15 +5,15 @@
 errorMessage (	RerrorMessage"
 Void"à
 SExtendedDataSchema
-size (Rsize
-name (	Rname
-	namespace (	R	namespace 
+size (Rsize
+	namespace (	R	namespace
+name (	Rname 
 description (	Rdescription
-oid (Roid=
-type (2).org.bimserver.pb.SExtendedDataSchemaTypeRtype
-rid (Rrid
-url (	Rurl
-users	 (Rusers
+oid (Roid
+rid (Rrid=
+type (2).org.bimserver.pb.SExtendedDataSchemaTypeRtype
+users (Rusers
+url	 (	Rurl
 validate
  (Rvalidate
 fileId (RfileId"
@@ -27,11 +27,11 @@ revisionId
 size (Rsize
 added (Radded
 schemaId (RschemaId
-oid (Roid
-title (	Rtitle
-rid (Rrid
-userId (RuserId
-	projectId	 (R	projectId
+oid (Roid
+rid (Rrid
+title (	Rtitle
+	projectId (R	projectId
+userId	 (RuserId
 url
  (	Rurl
 fileId (RfileId"z
@@ -47,11 +47,11 @@ revisionId
 description (	RdescriptionS
 notificationProtocol (2.org.bimserver.pb.SAccessMethodRnotificationProtocol
 oid (Roid4
-trigger	 (2.org.bimserver.pb.STriggerRtrigger 
-serviceName
- (	RserviceName0
-writeExtendedDataId (RwriteExtendedDataId
-rid (Rrid
+trigger	 (2.org.bimserver.pb.STriggerRtrigger
+rid
+ (Rrid 
+serviceName (	RserviceName0
+writeExtendedDataId (RwriteExtendedDataId
 userId (RuserId
 url (	Rurl,
 serviceIdentifier (	RserviceIdentifier
@@ -75,11 +75,11 @@ revisionId
 type (2.org.bimserver.pb.SUserTypeRtype*
 selfRegistration (RselfRegistration
 resetUrl (	RresetUrl"¼
-SUser
-services (Rservices
-oid (Roid 
-hasRightsOn (RhasRightsOn
-rid (Rrid
+SUser
+oid (Roid
+services (Rservices
+rid (Rrid 
+hasRightsOn (RhasRightsOn
 	createdOn (R	createdOn"
 passwordHash (RpasswordHash
 token (	Rtoken
@@ -89,15 +89,15 @@ revisionId
  (RuserSettingsId
 schemas (Rschemas
 name (	Rname
-	revisions (R	revisions4
-state (2.org.bimserver.pb.SObjectStateRstate7
-userType (2.org.bimserver.pb.SUserTypeRuserType
+	revisions (R	revisions7
+userType (2.org.bimserver.pb.SUserTypeRuserType4
+state (2.org.bimserver.pb.SObjectStateRstate
 logs (Rlogs"
 passwordSalt (RpasswordSalt 
 createdById (RcreatedById
-username (	Rusername6
-validationTokenCreated (RvalidationTokenCreated"
-extendedData (RextendedData"d
+username (	Rusername"
+extendedData (RextendedData6
+validationTokenCreated (RvalidationTokenCreated"d
 AddUserResponse"
 errorMessage (	RerrorMessage-
 value (2.org.bimserver.pb.SUserRvalue"N
@@ -142,39 +142,39 @@ revisionId
 roid1 (Rroid1
 roid2 (Rroid2B
 sCompareType (2.org.bimserver.pb.SCompareTypeRsCompareType
-mcid (Rmcid"4
-SObjectRemoved
-oid (Roid
-rid (Rrid"2
-SObjectAdded
-oid (Roid
-rid (Rrid"‹
+mcid (Rmcid"‹
 SObjectModified
 newValue (	RnewValue
-	fieldName (	R	fieldName
-oldValue (	RoldValue
-oid (Roid
-rid (Rrid"X
+	fieldName (	R	fieldName
+oid (Roid
+oldValue (	RoldValue
+rid (Rrid"2
+SObjectAdded
+oid (Roid
+rid (Rrid"4
+SObjectRemoved
+oid (Roid
+rid (Rrid"X
 SSimpleDataValue 
 stringValue (	RstringValue
-oid (Roid
-rid (Rrid"j
-SListDataValue4
-values (2.org.bimserver.pb.SDataValueRvalues
 oid (Roid
 rid (Rrid"i
 SReferenceDataValue
 typeName (	RtypeName
 guid (	Rguid
 oid (Roid
-rid (Rrid"ê
+rid (Rrid"j
+SListDataValue4
+values (2.org.bimserver.pb.SDataValueRvalues
+oid (Roid
+rid (Rrid"ê
 
 SDataValue!
 __actual_type (	R
 ActualTypeP
-__SSimpleDataValue (2".org.bimserver.pb.SSimpleDataValueRSSimpleDataValueJ
-__SListDataValue (2 .org.bimserver.pb.SListDataValueRSListDataValueY
-__SReferenceDataValue (2%.org.bimserver.pb.SReferenceDataValueRSReferenceDataValue
+__SSimpleDataValue (2".org.bimserver.pb.SSimpleDataValueRSSimpleDataValueY
+__SReferenceDataValue (2%.org.bimserver.pb.SReferenceDataValueRSReferenceDataValueJ
+__SListDataValue (2 .org.bimserver.pb.SListDataValueRSListDataValue
 	fieldName (	R	fieldName
 oid (Roid
 rid (Rrid"£
@@ -182,24 +182,24 @@ ActualTypeP
 values (2.org.bimserver.pb.SDataValueRvalues
 name (	Rname
 guid (	Rguid
-oid (Roid
-type (	Rtype
-rid (Rrid"õ
+oid (Roid
+rid (Rrid
+type (	Rtype"õ
 SCompareItem!
 __actual_type (	R
-ActualTypeJ
-__SObjectRemoved (2 .org.bimserver.pb.SObjectRemovedRSObjectRemovedD
-__SObjectAdded (2.org.bimserver.pb.SObjectAddedRSObjectAddedM
-__SObjectModified (2!.org.bimserver.pb.SObjectModifiedRSObjectModified=
+ActualTypeM
+__SObjectModified (2!.org.bimserver.pb.SObjectModifiedRSObjectModifiedD
+__SObjectAdded (2.org.bimserver.pb.SObjectAddedRSObjectAddedJ
+__SObjectRemoved (2 .org.bimserver.pb.SObjectRemovedRSObjectRemoved=
 
 dataObject (2.org.bimserver.pb.SDataObjectR
 dataObject
 oid (Roid
 rid (Rrid"
 SCompareContainer
-oid (Roid
-type (	Rtype
-rid (Rrid4
+oid (Roid
+rid (Rrid
+type (	Rtype4
 items (2.org.bimserver.pb.SCompareItemRitems"o
 SCompareResult
 oid (Roid
@@ -244,9 +244,9 @@ dataObject
 size	 (Rsize6
 lastConcreteRevisionId
  (RlastConcreteRevisionId
-comment (	Rcomment
-id (Rid
-tag (	Rtag
+comment (	Rcomment
+tag (	Rtag
+id (Rid
 	serviceId (R	serviceId
 logs (Rlogs
 	projectId (R	projectId
@@ -258,9 +258,9 @@ dataObject
 active (Ractive
 oid (Roid
 rid (Rrid
-logs (Rlogs
-userId (RuserId
-	projectId (R	projectId7
+logs (Rlogs
+	projectId (R	projectId
+userId (RuserId7
 revision	 (2.org.bimserver.pb.SRevisionRrevision"v
 GetAllCheckoutsByUserResponse"
 errorMessage (	RerrorMessage1
@@ -321,11 +321,11 @@ identifier"
 SProject
 geoTagId (RgeoTagId
 	checkouts (R	checkouts 
-subProjects (RsubProjects 
-description (	Rdescription,
-concreteRevisions (RconcreteRevisions
-services (Rservices
-oid (Roid
+subProjects (RsubProjects,
+concreteRevisions (RconcreteRevisions 
+description (	Rdescription
+oid (Roid
+services (Rservices
 rid (Rrid
 parentId	 (RparentId&
 lastRevisionId
@@ -482,9 +482,9 @@ $GetAvailableClassesInRevisionRequest
 oid (Roid
 rid (Rrid"w
 SRevisionSummary
-oid (Roid?
-list (2+.org.bimserver.pb.SRevisionSummaryContainerRlist
-rid (Rrid"z
+oid (Roid
+rid (Rrid?
+list (2+.org.bimserver.pb.SRevisionSummaryContainerRlist"z
 GetRevisionSummaryResponse"
 errorMessage (	RerrorMessage8
 value (2".org.bimserver.pb.SRevisionSummaryRvalue"'
@@ -509,77 +509,21 @@ $GetAvailableClassesInRevisionRequest
 errorMessage (	RerrorMessage-
 value (2.org.bimserver.pb.SUserRvalue"/
 GetUserRelatedLogsRequest
-uoid (Ruoid"6
-SPasswordChanged
+uoid (Ruoid"4
+SSettingsSaved
 oid (Roid
-rid (Rrid"4
-SPasswordReset
-oid (Roid
-rid (Rrid"2
-SUserDeleted
-oid (Roid
-rid (Rrid"W
-SUserAddedToProject
-oid (Roid
-rid (Rrid
-	projectId (R	projectId"4
-SUserUndeleted
-oid (Roid
-rid (Rrid"2
-SUserChanged
-oid (Roid
-rid (Rrid"[
-SUserRemovedFromProject
-oid (Roid
-rid (Rrid
-	projectId (R	projectId"3
-SNewUserAdded
-oid (Roid
-rid (Rrid"î
-SUserRelated!
-__actual_type (	R
-ActualTypeP
-__SPasswordChanged (2".org.bimserver.pb.SPasswordChangedRSPasswordChangedJ
-__SPasswordReset (2 .org.bimserver.pb.SPasswordResetRSPasswordResetD
-__SUserDeleted (2.org.bimserver.pb.SUserDeletedRSUserDeletedY
-__SUserAddedToProject (2%.org.bimserver.pb.SUserAddedToProjectRSUserAddedToProjectJ
-__SUserUndeleted (2 .org.bimserver.pb.SUserUndeletedRSUserUndeletedD
-__SUserChanged (2.org.bimserver.pb.SUserChangedRSUserChangede
-__SUserRemovedFromProject (2).org.bimserver.pb.SUserRemovedFromProjectRSUserRemovedFromProjectG
-__SNewUserAdded	 (2.org.bimserver.pb.SNewUserAddedRSNewUserAdded
-oid
- (Roid
-rid (Rrid
-userId (RuserId"`
-SNewProjectAdded(
-parentProjectId (RparentProjectId
-oid (Roid
-rid (Rrid"5
-SProjectUpdated
-oid (Roid
-rid (Rrid"5
-SProjectDeleted
-oid (Roid
-rid (Rrid"7
-SProjectUndeleted
-oid (Roid
-rid (Rrid"»
-SProjectRelated!
-__actual_type (	R
-ActualTypeP
-__SNewProjectAdded (2".org.bimserver.pb.SNewProjectAddedRSNewProjectAddedM
-__SProjectUpdated (2!.org.bimserver.pb.SProjectUpdatedRSProjectUpdatedM
-__SProjectDeleted (2!.org.bimserver.pb.SProjectDeletedRSProjectDeletedS
-__SProjectUndeleted (2#.org.bimserver.pb.SProjectUndeletedRSProjectUndeleted
-oid (Roid
-rid (Rrid
-	projectId (R	projectId"‡
+rid (Rrid"‡
 SExtendedDataAddedToProject&
 extendedDataId (RextendedDataId
 oid (Roid
 rid (Rrid
-	projectId (R	projectId"4
-SSettingsSaved
+	projectId (R	projectId"ƒ
+SRevisionBranched$
+oldrevisionId (RoldrevisionId
+oid (Roid
+rid (Rrid$
+newrevisionId (RnewrevisionId";
+SNewObjectIDMUploaded
 oid (Roid
 rid (Rrid"7
 SNewCheckoutAdded
@@ -593,10 +537,62 @@ ActualTypeS
 rid (Rrid
 
 checkoutId (R
-checkoutId";
-SNewObjectIDMUploaded
+checkoutId"2
+SUserDeleted
 oid (Roid
-rid (Rrid"Š
+rid (Rrid"2
+SUserChanged
+oid (Roid
+rid (Rrid"4
+SUserUndeleted
+oid (Roid
+rid (Rrid"4
+SPasswordReset
+oid (Roid
+rid (Rrid"6
+SPasswordChanged
+oid (Roid
+rid (Rrid"[
+SUserRemovedFromProject
+oid (Roid
+rid (Rrid
+	projectId (R	projectId"W
+SUserAddedToProject
+oid (Roid
+rid (Rrid
+	projectId (R	projectId"3
+SNewUserAdded
+oid (Roid
+rid (Rrid"î
+SUserRelated!
+__actual_type (	R
+ActualTypeD
+__SUserDeleted (2.org.bimserver.pb.SUserDeletedRSUserDeletedD
+__SUserChanged (2.org.bimserver.pb.SUserChangedRSUserChangedJ
+__SUserUndeleted (2 .org.bimserver.pb.SUserUndeletedRSUserUndeletedJ
+__SPasswordReset (2 .org.bimserver.pb.SPasswordResetRSPasswordResetP
+__SPasswordChanged (2".org.bimserver.pb.SPasswordChangedRSPasswordChangede
+__SUserRemovedFromProject (2).org.bimserver.pb.SUserRemovedFromProjectRSUserRemovedFromProjectY
+__SUserAddedToProject (2%.org.bimserver.pb.SUserAddedToProjectRSUserAddedToProjectG
+__SNewUserAdded	 (2.org.bimserver.pb.SNewUserAddedRSNewUserAdded
+oid
+ (Roid
+rid (Rrid
+userId (RuserId"4
+SServerStarted
+oid (Roid
+rid (Rrid"‚
+SRemoteServiceCalled
+
+percentage (R
+percentage
+warnings (	Rwarnings
+oid (Roid>
+state (2(.org.bimserver.pb.SNotifictionResultEnumRstate
+rid (Rrid
+	serviceId (R	serviceId
+infos (	Rinfos
+errors (	Rerrors"Š
 SExtendedDataAddedToRevision
 
 revisionId (R
@@ -620,26 +616,7 @@ ActualTypeS
 revisionId (R
 revisionId
 oid (Roid
-rid (Rrid"ƒ
-SRevisionBranched$
-oldrevisionId (RoldrevisionId
-oid (Roid
-rid (Rrid$
-newrevisionId (RnewrevisionId"4
-SServerStarted
-oid (Roid
-rid (Rrid"‚
-SRemoteServiceCalled
-warnings (	Rwarnings
-
-percentage (R
-percentage>
-state (2(.org.bimserver.pb.SNotifictionResultEnumRstate
-oid (Roid
-	serviceId (R	serviceId
-rid (Rrid
-errors (	Rerrors
-infos (	Rinfos"d
+rid (Rrid"d
 SDatabaseCreated
 path (	Rpath
 oid (Roid
@@ -651,27 +628,50 @@ percentage>
 SGeoTagUpdated
 geoTagId (RgeoTagId
 oid (Roid
-rid (Rrid"õ
+rid (Rrid"5
+SProjectUpdated
+oid (Roid
+rid (Rrid"`
+SNewProjectAdded(
+parentProjectId (RparentProjectId
+oid (Roid
+rid (Rrid"5
+SProjectDeleted
+oid (Roid
+rid (Rrid"7
+SProjectUndeleted
+oid (Roid
+rid (Rrid"»
+SProjectRelated!
+__actual_type (	R
+ActualTypeM
+__SProjectUpdated (2!.org.bimserver.pb.SProjectUpdatedRSProjectUpdatedP
+__SNewProjectAdded (2".org.bimserver.pb.SNewProjectAddedRSNewProjectAddedM
+__SProjectDeleted (2!.org.bimserver.pb.SProjectDeletedRSProjectDeletedS
+__SProjectUndeleted (2#.org.bimserver.pb.SProjectUndeletedRSProjectUndeleted
+oid (Roid
+rid (Rrid
+	projectId (R	projectId"õ
 
 
 SLogAction!
 __actual_type (	R
-ActualTypeD
-__SUserRelated (2.org.bimserver.pb.SUserRelatedRSUserRelatedM
-__SProjectRelated (2!.org.bimserver.pb.SProjectRelatedRSProjectRelatedq
-__SExtendedDataAddedToProject (2-.org.bimserver.pb.SExtendedDataAddedToProjectRSExtendedDataAddedToProjectJ
-__SSettingsSaved (2 .org.bimserver.pb.SSettingsSavedRSSettingsSavedP
-__SCheckoutRelated (2".org.bimserver.pb.SCheckoutRelatedRSCheckoutRelated_
-__SNewObjectIDMUploaded (2'.org.bimserver.pb.SNewObjectIDMUploadedRSNewObjectIDMUploadedt
-__SExtendedDataAddedToRevision (2..org.bimserver.pb.SExtendedDataAddedToRevisionRSExtendedDataAddedToRevisionP
-__SRevisionRelated	 (2".org.bimserver.pb.SRevisionRelatedRSRevisionRelatedS
-__SRevisionBranched
- (2#.org.bimserver.pb.SRevisionBranchedRSRevisionBranchedJ
-__SServerStarted (2 .org.bimserver.pb.SServerStartedRSServerStarted\
-__SRemoteServiceCalled (2&.org.bimserver.pb.SRemoteServiceCalledRSRemoteServiceCalledP
-__SDatabaseCreated (2".org.bimserver.pb.SDatabaseCreatedRSDatabaseCreated;
-__SDownload (2.org.bimserver.pb.SDownloadR	SDownloadJ
-__SGeoTagUpdated (2 .org.bimserver.pb.SGeoTagUpdatedRSGeoTagUpdatedC
+ActualTypeJ
+__SSettingsSaved (2 .org.bimserver.pb.SSettingsSavedRSSettingsSavedq
+__SExtendedDataAddedToProject (2-.org.bimserver.pb.SExtendedDataAddedToProjectRSExtendedDataAddedToProjectS
+__SRevisionBranched (2#.org.bimserver.pb.SRevisionBranchedRSRevisionBranched_
+__SNewObjectIDMUploaded (2'.org.bimserver.pb.SNewObjectIDMUploadedRSNewObjectIDMUploadedP
+__SCheckoutRelated (2".org.bimserver.pb.SCheckoutRelatedRSCheckoutRelatedD
+__SUserRelated (2.org.bimserver.pb.SUserRelatedRSUserRelatedJ
+__SServerStarted (2 .org.bimserver.pb.SServerStartedRSServerStarted\
+__SRemoteServiceCalled	 (2&.org.bimserver.pb.SRemoteServiceCalledRSRemoteServiceCalledt
+__SExtendedDataAddedToRevision
+ (2..org.bimserver.pb.SExtendedDataAddedToRevisionRSExtendedDataAddedToRevisionP
+__SRevisionRelated (2".org.bimserver.pb.SRevisionRelatedRSRevisionRelatedP
+__SDatabaseCreated (2".org.bimserver.pb.SDatabaseCreatedRSDatabaseCreated;
+__SDownload (2.org.bimserver.pb.SDownloadR	SDownloadJ
+__SGeoTagUpdated (2 .org.bimserver.pb.SGeoTagUpdatedRSGeoTagUpdatedM
+__SProjectRelated (2!.org.bimserver.pb.SProjectRelatedRSProjectRelatedC
 accessMethod (2.org.bimserver.pb.SAccessMethodRaccessMethod
 date (Rdate
 
@@ -689,18 +689,18 @@ executorId
 defaultModelMergerId (RdefaultModelMergerId4
 defaultRenderEngineId (RdefaultRenderEngineId$
 modelcompares (Rmodelcompares0
-defaultSerializerId (RdefaultSerializerId
-services (Rservices
-oid (Roid
+defaultSerializerId (RdefaultSerializerId
+oid (Roid
+services (Rservices
 rid	 (Rrid.
 defaultObjectIDMId
  (RdefaultObjectIDMId
 
 objectIDMs (R
 objectIDMs"
-queryengines (Rqueryengines$
-renderEngines (RrenderEngines 
-serializers (Rserializers2
+queryengines (Rqueryengines 
+serializers (Rserializers$
+renderEngines (RrenderEngines2
 defaultQueryEngineId (RdefaultQueryEngineId$
 deserializers (Rdeserializers"t
 GetUserSettingsResponse"

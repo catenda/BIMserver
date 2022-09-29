@@ -42,10 +42,6 @@ public interface IfcPropertySetDefinition extends IfcPropertyDefinition, IfcProp
      * The list contents are of type {@link org.bimserver.models.ifc4.IfcTypeObject}.
      * It is bidirectional and its opposite is '{@link org.bimserver.models.ifc4.IfcTypeObject#getHasPropertySets <em>Has Property Sets</em>}'.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Defines Type</em>' reference list isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Defines Type</em>' reference list.
      * @see #isSetDefinesType()
@@ -84,10 +80,6 @@ public interface IfcPropertySetDefinition extends IfcPropertyDefinition, IfcProp
      * The list contents are of type {@link org.bimserver.models.ifc4.IfcRelDefinesByTemplate}.
      * It is bidirectional and its opposite is '{@link org.bimserver.models.ifc4.IfcRelDefinesByTemplate#getRelatedPropertySets <em>Related Property Sets</em>}'.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Is Defined By</em>' reference list isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Is Defined By</em>' reference list.
      * @see #isSetIsDefinedBy()
@@ -125,10 +117,6 @@ public interface IfcPropertySetDefinition extends IfcPropertyDefinition, IfcProp
      * Returns the value of the '<em><b>Defines Occurrence</b></em>' reference list.
      * The list contents are of type {@link org.bimserver.models.ifc4.IfcRelDefinesByProperties}.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Defines Occurrence</em>' reference list isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Defines Occurrence</em>' reference list.
      * @see #isSetDefinesOccurrence()

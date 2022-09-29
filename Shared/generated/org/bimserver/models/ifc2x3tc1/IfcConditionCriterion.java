@@ -37,10 +37,6 @@ public interface IfcConditionCriterion extends IfcControl {
     /**
      * Returns the value of the '<em><b>Criterion</b></em>' reference.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Criterion</em>' reference isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Criterion</em>' reference.
      * @see #setCriterion(IfcConditionCriterionSelect)
@@ -63,10 +59,6 @@ public interface IfcConditionCriterion extends IfcControl {
     /**
      * Returns the value of the '<em><b>Criterion Date Time</b></em>' reference.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Criterion Date Time</em>' reference isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Criterion Date Time</em>' reference.
      * @see #setCriterionDateTime(IfcDateTimeSelect)

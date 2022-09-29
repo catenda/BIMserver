@@ -40,10 +40,6 @@ public interface IfcMaterialProfileWithOffsets extends IfcMaterialProfile {
      * Returns the value of the '<em><b>Offset Values</b></em>' attribute list.
      * The list contents are of type {@link java.lang.Double}.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Offset Values</em>' attribute list isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Offset Values</em>' attribute list.
      * @see org.bimserver.models.ifc4.Ifc4Package#getIfcMaterialProfileWithOffsets_OffsetValues()
@@ -56,10 +52,6 @@ public interface IfcMaterialProfileWithOffsets extends IfcMaterialProfile {
      * Returns the value of the '<em><b>Offset Values As String</b></em>' attribute list.
      * The list contents are of type {@link java.lang.String}.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Offset Values As String</em>' attribute list isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Offset Values As String</em>' attribute list.
      * @see org.bimserver.models.ifc4.Ifc4Package#getIfcMaterialProfileWithOffsets_OffsetValuesAsString()

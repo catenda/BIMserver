@@ -53,7 +53,7 @@ public class IfcCsgPrimitive3DImpl extends IfcGeometricRepresentationItemImpl im
      */
     @Override
     protected EClass eStaticClass() {
-        return Ifc2x3tc1Package.Literals.IFC_CSG_PRIMITIVE3_D;
+        return Ifc2x3tc1Package.eINSTANCE.getIfcCsgPrimitive3D();
     }
 
     /**
@@ -63,7 +63,7 @@ public class IfcCsgPrimitive3DImpl extends IfcGeometricRepresentationItemImpl im
      */
     @Override
     public IfcAxis2Placement3D getPosition() {
-        return (IfcAxis2Placement3D) eGet(Ifc2x3tc1Package.Literals.IFC_CSG_PRIMITIVE3_D__POSITION, true);
+        return (IfcAxis2Placement3D) eGet(Ifc2x3tc1Package.eINSTANCE.getIfcCsgPrimitive3D_Position(), true);
     }
 
     /**
@@ -73,7 +73,7 @@ public class IfcCsgPrimitive3DImpl extends IfcGeometricRepresentationItemImpl im
      */
     @Override
     public void setPosition(IfcAxis2Placement3D newPosition) {
-        eSet(Ifc2x3tc1Package.Literals.IFC_CSG_PRIMITIVE3_D__POSITION, newPosition);
+        eSet(Ifc2x3tc1Package.eINSTANCE.getIfcCsgPrimitive3D_Position(), newPosition);
     }
 
     /**
@@ -83,7 +83,7 @@ public class IfcCsgPrimitive3DImpl extends IfcGeometricRepresentationItemImpl im
      */
     @Override
     public long getDim() {
-        return (Long) eGet(Ifc2x3tc1Package.Literals.IFC_CSG_PRIMITIVE3_D__DIM, true);
+        return (Long) eGet(Ifc2x3tc1Package.eINSTANCE.getIfcCsgPrimitive3D_Dim(), true);
     }
 
     /**
@@ -93,7 +93,7 @@ public class IfcCsgPrimitive3DImpl extends IfcGeometricRepresentationItemImpl im
      */
     @Override
     public void setDim(long newDim) {
-        eSet(Ifc2x3tc1Package.Literals.IFC_CSG_PRIMITIVE3_D__DIM, newDim);
+        eSet(Ifc2x3tc1Package.eINSTANCE.getIfcCsgPrimitive3D_Dim(), newDim);
     }
 
     /**
@@ -103,7 +103,7 @@ public class IfcCsgPrimitive3DImpl extends IfcGeometricRepresentationItemImpl im
      */
     @Override
     public void unsetDim() {
-        eUnset(Ifc2x3tc1Package.Literals.IFC_CSG_PRIMITIVE3_D__DIM);
+        eUnset(Ifc2x3tc1Package.eINSTANCE.getIfcCsgPrimitive3D_Dim());
     }
 
     /**
@@ -113,7 +113,7 @@ public class IfcCsgPrimitive3DImpl extends IfcGeometricRepresentationItemImpl im
      */
     @Override
     public boolean isSetDim() {
-        return eIsSet(Ifc2x3tc1Package.Literals.IFC_CSG_PRIMITIVE3_D__DIM);
+        return eIsSet(Ifc2x3tc1Package.eINSTANCE.getIfcCsgPrimitive3D_Dim());
     }
 
 } //IfcCsgPrimitive3DImpl

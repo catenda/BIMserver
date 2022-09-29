@@ -44,10 +44,6 @@ public interface IfcContext extends IfcObjectDefinition {
     /**
      * Returns the value of the '<em><b>Object Type</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Object Type</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Object Type</em>' attribute.
      * @see #isSetObjectType()
@@ -97,10 +93,6 @@ public interface IfcContext extends IfcObjectDefinition {
     /**
      * Returns the value of the '<em><b>Long Name</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Long Name</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Long Name</em>' attribute.
      * @see #isSetLongName()
@@ -150,10 +142,6 @@ public interface IfcContext extends IfcObjectDefinition {
     /**
      * Returns the value of the '<em><b>Phase</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Phase</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Phase</em>' attribute.
      * @see #isSetPhase()
@@ -204,10 +192,6 @@ public interface IfcContext extends IfcObjectDefinition {
      * Returns the value of the '<em><b>Representation Contexts</b></em>' reference list.
      * The list contents are of type {@link org.bimserver.models.ifc4.IfcRepresentationContext}.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Representation Contexts</em>' reference list isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Representation Contexts</em>' reference list.
      * @see #isSetRepresentationContexts()
@@ -242,10 +226,6 @@ public interface IfcContext extends IfcObjectDefinition {
     /**
      * Returns the value of the '<em><b>Units In Context</b></em>' reference.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Units In Context</em>' reference isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Units In Context</em>' reference.
      * @see #isSetUnitsInContext()
@@ -296,10 +276,6 @@ public interface IfcContext extends IfcObjectDefinition {
      * Returns the value of the '<em><b>Is Defined By</b></em>' reference list.
      * The list contents are of type {@link org.bimserver.models.ifc4.IfcRelDefinesByProperties}.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Is Defined By</em>' reference list isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Is Defined By</em>' reference list.
      * @see #isSetIsDefinedBy()
@@ -337,10 +313,6 @@ public interface IfcContext extends IfcObjectDefinition {
      * The list contents are of type {@link org.bimserver.models.ifc4.IfcRelDeclares}.
      * It is bidirectional and its opposite is '{@link org.bimserver.models.ifc4.IfcRelDeclares#getRelatingContext <em>Relating Context</em>}'.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Declares</em>' reference list isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Declares</em>' reference list.
      * @see #isSetDeclares()

@@ -43,10 +43,6 @@ public interface IfcTableRow extends IdEObject {
      * Returns the value of the '<em><b>Row Cells</b></em>' reference list.
      * The list contents are of type {@link org.bimserver.models.ifc4.IfcValue}.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Row Cells</em>' reference list isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Row Cells</em>' reference list.
      * @see #isSetRowCells()
@@ -82,10 +78,6 @@ public interface IfcTableRow extends IdEObject {
      * Returns the value of the '<em><b>Is Heading</b></em>' attribute.
      * The literals are from the enumeration {@link org.bimserver.models.ifc4.Tristate}.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Is Heading</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Is Heading</em>' attribute.
      * @see org.bimserver.models.ifc4.Tristate

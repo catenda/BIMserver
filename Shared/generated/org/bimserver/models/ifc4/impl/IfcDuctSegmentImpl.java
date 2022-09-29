@@ -52,7 +52,7 @@ public class IfcDuctSegmentImpl extends IfcFlowSegmentImpl implements IfcDuctSeg
      */
     @Override
     protected EClass eStaticClass() {
-        return Ifc4Package.Literals.IFC_DUCT_SEGMENT;
+        return Ifc4Package.eINSTANCE.getIfcDuctSegment();
     }
 
     /**
@@ -62,7 +62,7 @@ public class IfcDuctSegmentImpl extends IfcFlowSegmentImpl implements IfcDuctSeg
      */
     @Override
     public IfcDuctSegmentTypeEnum getPredefinedType() {
-        return (IfcDuctSegmentTypeEnum) eGet(Ifc4Package.Literals.IFC_DUCT_SEGMENT__PREDEFINED_TYPE, true);
+        return (IfcDuctSegmentTypeEnum) eGet(Ifc4Package.eINSTANCE.getIfcDuctSegment_PredefinedType(), true);
     }
 
     /**
@@ -72,7 +72,7 @@ public class IfcDuctSegmentImpl extends IfcFlowSegmentImpl implements IfcDuctSeg
      */
     @Override
     public void setPredefinedType(IfcDuctSegmentTypeEnum newPredefinedType) {
-        eSet(Ifc4Package.Literals.IFC_DUCT_SEGMENT__PREDEFINED_TYPE, newPredefinedType);
+        eSet(Ifc4Package.eINSTANCE.getIfcDuctSegment_PredefinedType(), newPredefinedType);
     }
 
     /**
@@ -82,7 +82,7 @@ public class IfcDuctSegmentImpl extends IfcFlowSegmentImpl implements IfcDuctSeg
      */
     @Override
     public void unsetPredefinedType() {
-        eUnset(Ifc4Package.Literals.IFC_DUCT_SEGMENT__PREDEFINED_TYPE);
+        eUnset(Ifc4Package.eINSTANCE.getIfcDuctSegment_PredefinedType());
     }
 
     /**
@@ -92,7 +92,7 @@ public class IfcDuctSegmentImpl extends IfcFlowSegmentImpl implements IfcDuctSeg
      */
     @Override
     public boolean isSetPredefinedType() {
-        return eIsSet(Ifc4Package.Literals.IFC_DUCT_SEGMENT__PREDEFINED_TYPE);
+        return eIsSet(Ifc4Package.eINSTANCE.getIfcDuctSegment_PredefinedType());
     }
 
 } //IfcDuctSegmentImpl

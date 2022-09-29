@@ -52,7 +52,7 @@ public class IfcDistributionPortImpl extends IfcPortImpl implements IfcDistribut
      */
     @Override
     protected EClass eStaticClass() {
-        return Ifc2x3tc1Package.Literals.IFC_DISTRIBUTION_PORT;
+        return Ifc2x3tc1Package.eINSTANCE.getIfcDistributionPort();
     }
 
     /**
@@ -62,7 +62,7 @@ public class IfcDistributionPortImpl extends IfcPortImpl implements IfcDistribut
      */
     @Override
     public IfcFlowDirectionEnum getFlowDirection() {
-        return (IfcFlowDirectionEnum) eGet(Ifc2x3tc1Package.Literals.IFC_DISTRIBUTION_PORT__FLOW_DIRECTION, true);
+        return (IfcFlowDirectionEnum) eGet(Ifc2x3tc1Package.eINSTANCE.getIfcDistributionPort_FlowDirection(), true);
     }
 
     /**
@@ -72,7 +72,7 @@ public class IfcDistributionPortImpl extends IfcPortImpl implements IfcDistribut
      */
     @Override
     public void setFlowDirection(IfcFlowDirectionEnum newFlowDirection) {
-        eSet(Ifc2x3tc1Package.Literals.IFC_DISTRIBUTION_PORT__FLOW_DIRECTION, newFlowDirection);
+        eSet(Ifc2x3tc1Package.eINSTANCE.getIfcDistributionPort_FlowDirection(), newFlowDirection);
     }
 
     /**
@@ -82,7 +82,7 @@ public class IfcDistributionPortImpl extends IfcPortImpl implements IfcDistribut
      */
     @Override
     public void unsetFlowDirection() {
-        eUnset(Ifc2x3tc1Package.Literals.IFC_DISTRIBUTION_PORT__FLOW_DIRECTION);
+        eUnset(Ifc2x3tc1Package.eINSTANCE.getIfcDistributionPort_FlowDirection());
     }
 
     /**
@@ -92,7 +92,7 @@ public class IfcDistributionPortImpl extends IfcPortImpl implements IfcDistribut
      */
     @Override
     public boolean isSetFlowDirection() {
-        return eIsSet(Ifc2x3tc1Package.Literals.IFC_DISTRIBUTION_PORT__FLOW_DIRECTION);
+        return eIsSet(Ifc2x3tc1Package.eINSTANCE.getIfcDistributionPort_FlowDirection());
     }
 
 } //IfcDistributionPortImpl

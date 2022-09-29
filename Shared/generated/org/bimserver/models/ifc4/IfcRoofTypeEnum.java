@@ -195,10 +195,6 @@ public enum IfcRoofTypeEnum implements Enumerator {
     /**
      * The '<em><b>NULL</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>NULL</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #NULL
      * @model
@@ -210,10 +206,6 @@ public enum IfcRoofTypeEnum implements Enumerator {
     /**
      * The '<em><b>SHED ROOF</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>SHED ROOF</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #SHED_ROOF
      * @model
@@ -225,10 +217,6 @@ public enum IfcRoofTypeEnum implements Enumerator {
     /**
      * The '<em><b>HIP ROOF</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>HIP ROOF</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #HIP_ROOF
      * @model
@@ -240,10 +228,6 @@ public enum IfcRoofTypeEnum implements Enumerator {
     /**
      * The '<em><b>FLAT ROOF</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>FLAT ROOF</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #FLAT_ROOF
      * @model
@@ -255,10 +239,6 @@ public enum IfcRoofTypeEnum implements Enumerator {
     /**
      * The '<em><b>BUTTERFLY ROOF</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>BUTTERFLY ROOF</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #BUTTERFLY_ROOF
      * @model
@@ -270,10 +250,6 @@ public enum IfcRoofTypeEnum implements Enumerator {
     /**
      * The '<em><b>RAINBOW ROOF</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>RAINBOW ROOF</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #RAINBOW_ROOF
      * @model
@@ -285,10 +261,6 @@ public enum IfcRoofTypeEnum implements Enumerator {
     /**
      * The '<em><b>BARREL ROOF</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>BARREL ROOF</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #BARREL_ROOF
      * @model
@@ -300,10 +272,6 @@ public enum IfcRoofTypeEnum implements Enumerator {
     /**
      * The '<em><b>USERDEFINED</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>USERDEFINED</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #USERDEFINED
      * @model
@@ -315,10 +283,6 @@ public enum IfcRoofTypeEnum implements Enumerator {
     /**
      * The '<em><b>FREEFORM</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>FREEFORM</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #FREEFORM
      * @model
@@ -330,10 +294,6 @@ public enum IfcRoofTypeEnum implements Enumerator {
     /**
      * The '<em><b>HIPPED GABLE ROOF</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>HIPPED GABLE ROOF</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #HIPPED_GABLE_ROOF
      * @model
@@ -345,10 +305,6 @@ public enum IfcRoofTypeEnum implements Enumerator {
     /**
      * The '<em><b>NOTDEFINED</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>NOTDEFINED</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #NOTDEFINED
      * @model
@@ -360,10 +316,6 @@ public enum IfcRoofTypeEnum implements Enumerator {
     /**
      * The '<em><b>PAVILION ROOF</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>PAVILION ROOF</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #PAVILION_ROOF
      * @model
@@ -375,10 +327,6 @@ public enum IfcRoofTypeEnum implements Enumerator {
     /**
      * The '<em><b>GABLE ROOF</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>GABLE ROOF</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #GABLE_ROOF
      * @model
@@ -390,10 +338,6 @@ public enum IfcRoofTypeEnum implements Enumerator {
     /**
      * The '<em><b>GAMBREL ROOF</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>GAMBREL ROOF</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #GAMBREL_ROOF
      * @model
@@ -405,10 +349,6 @@ public enum IfcRoofTypeEnum implements Enumerator {
     /**
      * The '<em><b>DOME ROOF</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>DOME ROOF</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #DOME_ROOF
      * @model
@@ -420,10 +360,6 @@ public enum IfcRoofTypeEnum implements Enumerator {
     /**
      * The '<em><b>MANSARD ROOF</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>MANSARD ROOF</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #MANSARD_ROOF
      * @model

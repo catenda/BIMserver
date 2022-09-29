@@ -45,10 +45,6 @@ public interface IfcReinforcementBarProperties extends IfcPreDefinedProperties {
     /**
      * Returns the value of the '<em><b>Total Cross Section Area</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Total Cross Section Area</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Total Cross Section Area</em>' attribute.
      * @see #setTotalCrossSectionArea(double)
@@ -71,10 +67,6 @@ public interface IfcReinforcementBarProperties extends IfcPreDefinedProperties {
     /**
      * Returns the value of the '<em><b>Total Cross Section Area As String</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Total Cross Section Area As String</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Total Cross Section Area As String</em>' attribute.
      * @see #setTotalCrossSectionAreaAsString(String)
@@ -98,10 +90,6 @@ public interface IfcReinforcementBarProperties extends IfcPreDefinedProperties {
     /**
      * Returns the value of the '<em><b>Steel Grade</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Steel Grade</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Steel Grade</em>' attribute.
      * @see #setSteelGrade(String)
@@ -125,10 +113,6 @@ public interface IfcReinforcementBarProperties extends IfcPreDefinedProperties {
      * Returns the value of the '<em><b>Bar Surface</b></em>' attribute.
      * The literals are from the enumeration {@link org.bimserver.models.ifc4.IfcReinforcingBarSurfaceEnum}.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Bar Surface</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Bar Surface</em>' attribute.
      * @see org.bimserver.models.ifc4.IfcReinforcingBarSurfaceEnum
@@ -180,10 +164,6 @@ public interface IfcReinforcementBarProperties extends IfcPreDefinedProperties {
     /**
      * Returns the value of the '<em><b>Effective Depth</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Effective Depth</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Effective Depth</em>' attribute.
      * @see #isSetEffectiveDepth()
@@ -233,10 +213,6 @@ public interface IfcReinforcementBarProperties extends IfcPreDefinedProperties {
     /**
      * Returns the value of the '<em><b>Effective Depth As String</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Effective Depth As String</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Effective Depth As String</em>' attribute.
      * @see #isSetEffectiveDepthAsString()
@@ -288,10 +264,6 @@ public interface IfcReinforcementBarProperties extends IfcPreDefinedProperties {
     /**
      * Returns the value of the '<em><b>Nominal Bar Diameter</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Nominal Bar Diameter</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Nominal Bar Diameter</em>' attribute.
      * @see #isSetNominalBarDiameter()
@@ -341,10 +313,6 @@ public interface IfcReinforcementBarProperties extends IfcPreDefinedProperties {
     /**
      * Returns the value of the '<em><b>Nominal Bar Diameter As String</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Nominal Bar Diameter As String</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Nominal Bar Diameter As String</em>' attribute.
      * @see #isSetNominalBarDiameterAsString()
@@ -396,10 +364,6 @@ public interface IfcReinforcementBarProperties extends IfcPreDefinedProperties {
     /**
      * Returns the value of the '<em><b>Bar Count</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Bar Count</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Bar Count</em>' attribute.
      * @see #isSetBarCount()
@@ -449,10 +413,6 @@ public interface IfcReinforcementBarProperties extends IfcPreDefinedProperties {
     /**
      * Returns the value of the '<em><b>Bar Count As String</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Bar Count As String</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Bar Count As String</em>' attribute.
      * @see #isSetBarCountAsString()

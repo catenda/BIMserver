@@ -58,7 +58,7 @@ public class IfcTextStyleImpl extends IfcPresentationStyleImpl implements IfcTex
      */
     @Override
     protected EClass eStaticClass() {
-        return Ifc4Package.Literals.IFC_TEXT_STYLE;
+        return Ifc4Package.eINSTANCE.getIfcTextStyle();
     }
 
     /**
@@ -68,7 +68,7 @@ public class IfcTextStyleImpl extends IfcPresentationStyleImpl implements IfcTex
      */
     @Override
     public IfcTextStyleForDefinedFont getTextCharacterAppearance() {
-        return (IfcTextStyleForDefinedFont) eGet(Ifc4Package.Literals.IFC_TEXT_STYLE__TEXT_CHARACTER_APPEARANCE, true);
+        return (IfcTextStyleForDefinedFont) eGet(Ifc4Package.eINSTANCE.getIfcTextStyle_TextCharacterAppearance(), true);
     }
 
     /**
@@ -78,7 +78,7 @@ public class IfcTextStyleImpl extends IfcPresentationStyleImpl implements IfcTex
      */
     @Override
     public void setTextCharacterAppearance(IfcTextStyleForDefinedFont newTextCharacterAppearance) {
-        eSet(Ifc4Package.Literals.IFC_TEXT_STYLE__TEXT_CHARACTER_APPEARANCE, newTextCharacterAppearance);
+        eSet(Ifc4Package.eINSTANCE.getIfcTextStyle_TextCharacterAppearance(), newTextCharacterAppearance);
     }
 
     /**
@@ -88,7 +88,7 @@ public class IfcTextStyleImpl extends IfcPresentationStyleImpl implements IfcTex
      */
     @Override
     public void unsetTextCharacterAppearance() {
-        eUnset(Ifc4Package.Literals.IFC_TEXT_STYLE__TEXT_CHARACTER_APPEARANCE);
+        eUnset(Ifc4Package.eINSTANCE.getIfcTextStyle_TextCharacterAppearance());
     }
 
     /**
@@ -98,7 +98,7 @@ public class IfcTextStyleImpl extends IfcPresentationStyleImpl implements IfcTex
      */
     @Override
     public boolean isSetTextCharacterAppearance() {
-        return eIsSet(Ifc4Package.Literals.IFC_TEXT_STYLE__TEXT_CHARACTER_APPEARANCE);
+        return eIsSet(Ifc4Package.eINSTANCE.getIfcTextStyle_TextCharacterAppearance());
     }
 
     /**
@@ -108,7 +108,7 @@ public class IfcTextStyleImpl extends IfcPresentationStyleImpl implements IfcTex
      */
     @Override
     public IfcTextStyleTextModel getTextStyle() {
-        return (IfcTextStyleTextModel) eGet(Ifc4Package.Literals.IFC_TEXT_STYLE__TEXT_STYLE, true);
+        return (IfcTextStyleTextModel) eGet(Ifc4Package.eINSTANCE.getIfcTextStyle_TextStyle(), true);
     }
 
     /**
@@ -118,7 +118,7 @@ public class IfcTextStyleImpl extends IfcPresentationStyleImpl implements IfcTex
      */
     @Override
     public void setTextStyle(IfcTextStyleTextModel newTextStyle) {
-        eSet(Ifc4Package.Literals.IFC_TEXT_STYLE__TEXT_STYLE, newTextStyle);
+        eSet(Ifc4Package.eINSTANCE.getIfcTextStyle_TextStyle(), newTextStyle);
     }
 
     /**
@@ -128,7 +128,7 @@ public class IfcTextStyleImpl extends IfcPresentationStyleImpl implements IfcTex
      */
     @Override
     public void unsetTextStyle() {
-        eUnset(Ifc4Package.Literals.IFC_TEXT_STYLE__TEXT_STYLE);
+        eUnset(Ifc4Package.eINSTANCE.getIfcTextStyle_TextStyle());
     }
 
     /**
@@ -138,7 +138,7 @@ public class IfcTextStyleImpl extends IfcPresentationStyleImpl implements IfcTex
      */
     @Override
     public boolean isSetTextStyle() {
-        return eIsSet(Ifc4Package.Literals.IFC_TEXT_STYLE__TEXT_STYLE);
+        return eIsSet(Ifc4Package.eINSTANCE.getIfcTextStyle_TextStyle());
     }
 
     /**
@@ -148,7 +148,7 @@ public class IfcTextStyleImpl extends IfcPresentationStyleImpl implements IfcTex
      */
     @Override
     public IfcTextFontSelect getTextFontStyle() {
-        return (IfcTextFontSelect) eGet(Ifc4Package.Literals.IFC_TEXT_STYLE__TEXT_FONT_STYLE, true);
+        return (IfcTextFontSelect) eGet(Ifc4Package.eINSTANCE.getIfcTextStyle_TextFontStyle(), true);
     }
 
     /**
@@ -158,7 +158,7 @@ public class IfcTextStyleImpl extends IfcPresentationStyleImpl implements IfcTex
      */
     @Override
     public void setTextFontStyle(IfcTextFontSelect newTextFontStyle) {
-        eSet(Ifc4Package.Literals.IFC_TEXT_STYLE__TEXT_FONT_STYLE, newTextFontStyle);
+        eSet(Ifc4Package.eINSTANCE.getIfcTextStyle_TextFontStyle(), newTextFontStyle);
     }
 
     /**
@@ -168,7 +168,7 @@ public class IfcTextStyleImpl extends IfcPresentationStyleImpl implements IfcTex
      */
     @Override
     public Tristate getModelOrDraughting() {
-        return (Tristate) eGet(Ifc4Package.Literals.IFC_TEXT_STYLE__MODEL_OR_DRAUGHTING, true);
+        return (Tristate) eGet(Ifc4Package.eINSTANCE.getIfcTextStyle_ModelOrDraughting(), true);
     }
 
     /**
@@ -178,7 +178,7 @@ public class IfcTextStyleImpl extends IfcPresentationStyleImpl implements IfcTex
      */
     @Override
     public void setModelOrDraughting(Tristate newModelOrDraughting) {
-        eSet(Ifc4Package.Literals.IFC_TEXT_STYLE__MODEL_OR_DRAUGHTING, newModelOrDraughting);
+        eSet(Ifc4Package.eINSTANCE.getIfcTextStyle_ModelOrDraughting(), newModelOrDraughting);
     }
 
     /**
@@ -188,7 +188,7 @@ public class IfcTextStyleImpl extends IfcPresentationStyleImpl implements IfcTex
      */
     @Override
     public void unsetModelOrDraughting() {
-        eUnset(Ifc4Package.Literals.IFC_TEXT_STYLE__MODEL_OR_DRAUGHTING);
+        eUnset(Ifc4Package.eINSTANCE.getIfcTextStyle_ModelOrDraughting());
     }
 
     /**
@@ -198,7 +198,7 @@ public class IfcTextStyleImpl extends IfcPresentationStyleImpl implements IfcTex
      */
     @Override
     public boolean isSetModelOrDraughting() {
-        return eIsSet(Ifc4Package.Literals.IFC_TEXT_STYLE__MODEL_OR_DRAUGHTING);
+        return eIsSet(Ifc4Package.eINSTANCE.getIfcTextStyle_ModelOrDraughting());
     }
 
 } //IfcTextStyleImpl

@@ -21,7 +21,6 @@ import org.bimserver.models.ifc4.IfcCartesianPointList3D;
 import org.bimserver.models.ifc4.IfcIndexedColourMap;
 import org.bimserver.models.ifc4.IfcIndexedTextureMap;
 import org.bimserver.models.ifc4.IfcTessellatedFaceSet;
-import org.bimserver.models.ifc4.Tristate;
 
 import org.eclipse.emf.common.util.EList;
 
@@ -60,7 +59,7 @@ public class IfcTessellatedFaceSetImpl extends IfcTessellatedItemImpl implements
      */
     @Override
     protected EClass eStaticClass() {
-        return Ifc4Package.Literals.IFC_TESSELLATED_FACE_SET;
+        return Ifc4Package.eINSTANCE.getIfcTessellatedFaceSet();
     }
 
     /**
@@ -70,7 +69,7 @@ public class IfcTessellatedFaceSetImpl extends IfcTessellatedItemImpl implements
      */
     @Override
     public IfcCartesianPointList3D getCoordinates() {
-        return (IfcCartesianPointList3D) eGet(Ifc4Package.Literals.IFC_TESSELLATED_FACE_SET__COORDINATES, true);
+        return (IfcCartesianPointList3D) eGet(Ifc4Package.eINSTANCE.getIfcTessellatedFaceSet_Coordinates(), true);
     }
 
     /**
@@ -80,7 +79,7 @@ public class IfcTessellatedFaceSetImpl extends IfcTessellatedItemImpl implements
      */
     @Override
     public void setCoordinates(IfcCartesianPointList3D newCoordinates) {
-        eSet(Ifc4Package.Literals.IFC_TESSELLATED_FACE_SET__COORDINATES, newCoordinates);
+        eSet(Ifc4Package.eINSTANCE.getIfcTessellatedFaceSet_Coordinates(), newCoordinates);
     }
 
     /**
@@ -91,7 +90,7 @@ public class IfcTessellatedFaceSetImpl extends IfcTessellatedItemImpl implements
     @SuppressWarnings("unchecked")
     @Override
     public EList<IfcIndexedColourMap> getHasColours() {
-        return (EList<IfcIndexedColourMap>) eGet(Ifc4Package.Literals.IFC_TESSELLATED_FACE_SET__HAS_COLOURS, true);
+        return (EList<IfcIndexedColourMap>) eGet(Ifc4Package.eINSTANCE.getIfcTessellatedFaceSet_HasColours(), true);
     }
 
     /**
@@ -101,7 +100,7 @@ public class IfcTessellatedFaceSetImpl extends IfcTessellatedItemImpl implements
      */
     @Override
     public void unsetHasColours() {
-        eUnset(Ifc4Package.Literals.IFC_TESSELLATED_FACE_SET__HAS_COLOURS);
+        eUnset(Ifc4Package.eINSTANCE.getIfcTessellatedFaceSet_HasColours());
     }
 
     /**
@@ -111,7 +110,7 @@ public class IfcTessellatedFaceSetImpl extends IfcTessellatedItemImpl implements
      */
     @Override
     public boolean isSetHasColours() {
-        return eIsSet(Ifc4Package.Literals.IFC_TESSELLATED_FACE_SET__HAS_COLOURS);
+        return eIsSet(Ifc4Package.eINSTANCE.getIfcTessellatedFaceSet_HasColours());
     }
 
     /**
@@ -122,7 +121,7 @@ public class IfcTessellatedFaceSetImpl extends IfcTessellatedItemImpl implements
     @SuppressWarnings("unchecked")
     @Override
     public EList<IfcIndexedTextureMap> getHasTextures() {
-        return (EList<IfcIndexedTextureMap>) eGet(Ifc4Package.Literals.IFC_TESSELLATED_FACE_SET__HAS_TEXTURES, true);
+        return (EList<IfcIndexedTextureMap>) eGet(Ifc4Package.eINSTANCE.getIfcTessellatedFaceSet_HasTextures(), true);
     }
 
     /**
@@ -132,7 +131,7 @@ public class IfcTessellatedFaceSetImpl extends IfcTessellatedItemImpl implements
      */
     @Override
     public void unsetHasTextures() {
-        eUnset(Ifc4Package.Literals.IFC_TESSELLATED_FACE_SET__HAS_TEXTURES);
+        eUnset(Ifc4Package.eINSTANCE.getIfcTessellatedFaceSet_HasTextures());
     }
 
     /**
@@ -142,7 +141,7 @@ public class IfcTessellatedFaceSetImpl extends IfcTessellatedItemImpl implements
      */
     @Override
     public boolean isSetHasTextures() {
-        return eIsSet(Ifc4Package.Literals.IFC_TESSELLATED_FACE_SET__HAS_TEXTURES);
+        return eIsSet(Ifc4Package.eINSTANCE.getIfcTessellatedFaceSet_HasTextures());
     }
 
     /**
@@ -152,7 +151,7 @@ public class IfcTessellatedFaceSetImpl extends IfcTessellatedItemImpl implements
      */
     @Override
     public long getDim() {
-        return (Long) eGet(Ifc4Package.Literals.IFC_TESSELLATED_FACE_SET__DIM, true);
+        return (Long) eGet(Ifc4Package.eINSTANCE.getIfcTessellatedFaceSet_Dim(), true);
     }
 
     /**
@@ -162,7 +161,7 @@ public class IfcTessellatedFaceSetImpl extends IfcTessellatedItemImpl implements
      */
     @Override
     public void setDim(long newDim) {
-        eSet(Ifc4Package.Literals.IFC_TESSELLATED_FACE_SET__DIM, newDim);
+        eSet(Ifc4Package.eINSTANCE.getIfcTessellatedFaceSet_Dim(), newDim);
     }
 
     /**
@@ -172,7 +171,7 @@ public class IfcTessellatedFaceSetImpl extends IfcTessellatedItemImpl implements
      */
     @Override
     public void unsetDim() {
-        eUnset(Ifc4Package.Literals.IFC_TESSELLATED_FACE_SET__DIM);
+        eUnset(Ifc4Package.eINSTANCE.getIfcTessellatedFaceSet_Dim());
     }
 
     /**
@@ -182,7 +181,7 @@ public class IfcTessellatedFaceSetImpl extends IfcTessellatedItemImpl implements
      */
     @Override
     public boolean isSetDim() {
-        return eIsSet(Ifc4Package.Literals.IFC_TESSELLATED_FACE_SET__DIM);
+        return eIsSet(Ifc4Package.eINSTANCE.getIfcTessellatedFaceSet_Dim());
     }
 
 } //IfcTessellatedFaceSetImpl

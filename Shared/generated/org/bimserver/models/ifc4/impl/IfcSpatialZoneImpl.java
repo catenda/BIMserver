@@ -52,7 +52,7 @@ public class IfcSpatialZoneImpl extends IfcSpatialElementImpl implements IfcSpat
      */
     @Override
     protected EClass eStaticClass() {
-        return Ifc4Package.Literals.IFC_SPATIAL_ZONE;
+        return Ifc4Package.eINSTANCE.getIfcSpatialZone();
     }
 
     /**
@@ -62,7 +62,7 @@ public class IfcSpatialZoneImpl extends IfcSpatialElementImpl implements IfcSpat
      */
     @Override
     public IfcSpatialZoneTypeEnum getPredefinedType() {
-        return (IfcSpatialZoneTypeEnum) eGet(Ifc4Package.Literals.IFC_SPATIAL_ZONE__PREDEFINED_TYPE, true);
+        return (IfcSpatialZoneTypeEnum) eGet(Ifc4Package.eINSTANCE.getIfcSpatialZone_PredefinedType(), true);
     }
 
     /**
@@ -72,7 +72,7 @@ public class IfcSpatialZoneImpl extends IfcSpatialElementImpl implements IfcSpat
      */
     @Override
     public void setPredefinedType(IfcSpatialZoneTypeEnum newPredefinedType) {
-        eSet(Ifc4Package.Literals.IFC_SPATIAL_ZONE__PREDEFINED_TYPE, newPredefinedType);
+        eSet(Ifc4Package.eINSTANCE.getIfcSpatialZone_PredefinedType(), newPredefinedType);
     }
 
     /**
@@ -82,7 +82,7 @@ public class IfcSpatialZoneImpl extends IfcSpatialElementImpl implements IfcSpat
      */
     @Override
     public void unsetPredefinedType() {
-        eUnset(Ifc4Package.Literals.IFC_SPATIAL_ZONE__PREDEFINED_TYPE);
+        eUnset(Ifc4Package.eINSTANCE.getIfcSpatialZone_PredefinedType());
     }
 
     /**
@@ -92,7 +92,7 @@ public class IfcSpatialZoneImpl extends IfcSpatialElementImpl implements IfcSpat
      */
     @Override
     public boolean isSetPredefinedType() {
-        return eIsSet(Ifc4Package.Literals.IFC_SPATIAL_ZONE__PREDEFINED_TYPE);
+        return eIsSet(Ifc4Package.eINSTANCE.getIfcSpatialZone_PredefinedType());
     }
 
 } //IfcSpatialZoneImpl

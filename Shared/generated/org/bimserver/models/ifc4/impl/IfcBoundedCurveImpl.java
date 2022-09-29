@@ -45,7 +45,7 @@ public class IfcBoundedCurveImpl extends IfcCurveImpl implements IfcBoundedCurve
      */
     @Override
     protected EClass eStaticClass() {
-        return Ifc4Package.Literals.IFC_BOUNDED_CURVE;
+        return Ifc4Package.eINSTANCE.getIfcBoundedCurve();
     }
 
 } //IfcBoundedCurveImpl

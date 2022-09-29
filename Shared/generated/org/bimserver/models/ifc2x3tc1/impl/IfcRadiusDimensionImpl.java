@@ -45,7 +45,7 @@ public class IfcRadiusDimensionImpl extends IfcDimensionCurveDirectedCalloutImpl
      */
     @Override
     protected EClass eStaticClass() {
-        return Ifc2x3tc1Package.Literals.IFC_RADIUS_DIMENSION;
+        return Ifc2x3tc1Package.eINSTANCE.getIfcRadiusDimension();
     }
 
 } //IfcRadiusDimensionImpl

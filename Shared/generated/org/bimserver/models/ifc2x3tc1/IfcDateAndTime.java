@@ -37,10 +37,6 @@ public interface IfcDateAndTime extends IfcDateTimeSelect, IfcObjectReferenceSel
     /**
      * Returns the value of the '<em><b>Date Component</b></em>' reference.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Date Component</em>' reference isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Date Component</em>' reference.
      * @see #setDateComponent(IfcCalendarDate)
@@ -63,10 +59,6 @@ public interface IfcDateAndTime extends IfcDateTimeSelect, IfcObjectReferenceSel
     /**
      * Returns the value of the '<em><b>Time Component</b></em>' reference.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Time Component</em>' reference isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Time Component</em>' reference.
      * @see #setTimeComponent(IfcLocalTime)

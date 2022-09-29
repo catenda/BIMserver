@@ -56,7 +56,7 @@ public class IfcRelAssignsImpl extends IfcRelationshipImpl implements IfcRelAssi
      */
     @Override
     protected EClass eStaticClass() {
-        return Ifc4Package.Literals.IFC_REL_ASSIGNS;
+        return Ifc4Package.eINSTANCE.getIfcRelAssigns();
     }
 
     /**
@@ -67,7 +67,7 @@ public class IfcRelAssignsImpl extends IfcRelationshipImpl implements IfcRelAssi
     @SuppressWarnings("unchecked")
     @Override
     public EList<IfcObjectDefinition> getRelatedObjects() {
-        return (EList<IfcObjectDefinition>) eGet(Ifc4Package.Literals.IFC_REL_ASSIGNS__RELATED_OBJECTS, true);
+        return (EList<IfcObjectDefinition>) eGet(Ifc4Package.eINSTANCE.getIfcRelAssigns_RelatedObjects(), true);
     }
 
     /**
@@ -77,7 +77,7 @@ public class IfcRelAssignsImpl extends IfcRelationshipImpl implements IfcRelAssi
      */
     @Override
     public IfcObjectTypeEnum getRelatedObjectsType() {
-        return (IfcObjectTypeEnum) eGet(Ifc4Package.Literals.IFC_REL_ASSIGNS__RELATED_OBJECTS_TYPE, true);
+        return (IfcObjectTypeEnum) eGet(Ifc4Package.eINSTANCE.getIfcRelAssigns_RelatedObjectsType(), true);
     }
 
     /**
@@ -87,7 +87,7 @@ public class IfcRelAssignsImpl extends IfcRelationshipImpl implements IfcRelAssi
      */
     @Override
     public void setRelatedObjectsType(IfcObjectTypeEnum newRelatedObjectsType) {
-        eSet(Ifc4Package.Literals.IFC_REL_ASSIGNS__RELATED_OBJECTS_TYPE, newRelatedObjectsType);
+        eSet(Ifc4Package.eINSTANCE.getIfcRelAssigns_RelatedObjectsType(), newRelatedObjectsType);
     }
 
     /**
@@ -97,7 +97,7 @@ public class IfcRelAssignsImpl extends IfcRelationshipImpl implements IfcRelAssi
      */
     @Override
     public void unsetRelatedObjectsType() {
-        eUnset(Ifc4Package.Literals.IFC_REL_ASSIGNS__RELATED_OBJECTS_TYPE);
+        eUnset(Ifc4Package.eINSTANCE.getIfcRelAssigns_RelatedObjectsType());
     }
 
     /**
@@ -107,7 +107,7 @@ public class IfcRelAssignsImpl extends IfcRelationshipImpl implements IfcRelAssi
      */
     @Override
     public boolean isSetRelatedObjectsType() {
-        return eIsSet(Ifc4Package.Literals.IFC_REL_ASSIGNS__RELATED_OBJECTS_TYPE);
+        return eIsSet(Ifc4Package.eINSTANCE.getIfcRelAssigns_RelatedObjectsType());
     }
 
 } //IfcRelAssignsImpl

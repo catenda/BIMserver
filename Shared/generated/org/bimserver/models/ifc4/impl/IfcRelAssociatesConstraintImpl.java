@@ -53,7 +53,7 @@ public class IfcRelAssociatesConstraintImpl extends IfcRelAssociatesImpl impleme
      */
     @Override
     protected EClass eStaticClass() {
-        return Ifc4Package.Literals.IFC_REL_ASSOCIATES_CONSTRAINT;
+        return Ifc4Package.eINSTANCE.getIfcRelAssociatesConstraint();
     }
 
     /**
@@ -63,7 +63,7 @@ public class IfcRelAssociatesConstraintImpl extends IfcRelAssociatesImpl impleme
      */
     @Override
     public String getIntent() {
-        return (String) eGet(Ifc4Package.Literals.IFC_REL_ASSOCIATES_CONSTRAINT__INTENT, true);
+        return (String) eGet(Ifc4Package.eINSTANCE.getIfcRelAssociatesConstraint_Intent(), true);
     }
 
     /**
@@ -73,7 +73,7 @@ public class IfcRelAssociatesConstraintImpl extends IfcRelAssociatesImpl impleme
      */
     @Override
     public void setIntent(String newIntent) {
-        eSet(Ifc4Package.Literals.IFC_REL_ASSOCIATES_CONSTRAINT__INTENT, newIntent);
+        eSet(Ifc4Package.eINSTANCE.getIfcRelAssociatesConstraint_Intent(), newIntent);
     }
 
     /**
@@ -83,7 +83,7 @@ public class IfcRelAssociatesConstraintImpl extends IfcRelAssociatesImpl impleme
      */
     @Override
     public void unsetIntent() {
-        eUnset(Ifc4Package.Literals.IFC_REL_ASSOCIATES_CONSTRAINT__INTENT);
+        eUnset(Ifc4Package.eINSTANCE.getIfcRelAssociatesConstraint_Intent());
     }
 
     /**
@@ -93,7 +93,7 @@ public class IfcRelAssociatesConstraintImpl extends IfcRelAssociatesImpl impleme
      */
     @Override
     public boolean isSetIntent() {
-        return eIsSet(Ifc4Package.Literals.IFC_REL_ASSOCIATES_CONSTRAINT__INTENT);
+        return eIsSet(Ifc4Package.eINSTANCE.getIfcRelAssociatesConstraint_Intent());
     }
 
     /**
@@ -103,7 +103,7 @@ public class IfcRelAssociatesConstraintImpl extends IfcRelAssociatesImpl impleme
      */
     @Override
     public IfcConstraint getRelatingConstraint() {
-        return (IfcConstraint) eGet(Ifc4Package.Literals.IFC_REL_ASSOCIATES_CONSTRAINT__RELATING_CONSTRAINT, true);
+        return (IfcConstraint) eGet(Ifc4Package.eINSTANCE.getIfcRelAssociatesConstraint_RelatingConstraint(), true);
     }
 
     /**
@@ -113,7 +113,7 @@ public class IfcRelAssociatesConstraintImpl extends IfcRelAssociatesImpl impleme
      */
     @Override
     public void setRelatingConstraint(IfcConstraint newRelatingConstraint) {
-        eSet(Ifc4Package.Literals.IFC_REL_ASSOCIATES_CONSTRAINT__RELATING_CONSTRAINT, newRelatingConstraint);
+        eSet(Ifc4Package.eINSTANCE.getIfcRelAssociatesConstraint_RelatingConstraint(), newRelatingConstraint);
     }
 
 } //IfcRelAssociatesConstraintImpl

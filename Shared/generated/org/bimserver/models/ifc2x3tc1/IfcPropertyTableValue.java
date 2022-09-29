@@ -43,10 +43,6 @@ public interface IfcPropertyTableValue extends IfcSimpleProperty {
      * Returns the value of the '<em><b>Defining Values</b></em>' reference list.
      * The list contents are of type {@link org.bimserver.models.ifc2x3tc1.IfcValue}.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Defining Values</em>' reference list isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Defining Values</em>' reference list.
      * @see org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package#getIfcPropertyTableValue_DefiningValues()
@@ -59,10 +55,6 @@ public interface IfcPropertyTableValue extends IfcSimpleProperty {
      * Returns the value of the '<em><b>Defined Values</b></em>' reference list.
      * The list contents are of type {@link org.bimserver.models.ifc2x3tc1.IfcValue}.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Defined Values</em>' reference list isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Defined Values</em>' reference list.
      * @see org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package#getIfcPropertyTableValue_DefinedValues()
@@ -74,10 +66,6 @@ public interface IfcPropertyTableValue extends IfcSimpleProperty {
     /**
      * Returns the value of the '<em><b>Expression</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Expression</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Expression</em>' attribute.
      * @see #isSetExpression()
@@ -127,10 +115,6 @@ public interface IfcPropertyTableValue extends IfcSimpleProperty {
     /**
      * Returns the value of the '<em><b>Defining Unit</b></em>' reference.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Defining Unit</em>' reference isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Defining Unit</em>' reference.
      * @see #isSetDefiningUnit()
@@ -180,10 +164,6 @@ public interface IfcPropertyTableValue extends IfcSimpleProperty {
     /**
      * Returns the value of the '<em><b>Defined Unit</b></em>' reference.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Defined Unit</em>' reference isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Defined Unit</em>' reference.
      * @see #isSetDefinedUnit()

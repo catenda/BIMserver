@@ -53,7 +53,7 @@ public class IfcYearNumberImpl extends IdEObjectImpl implements IfcYearNumber {
      */
     @Override
     protected EClass eStaticClass() {
-        return Ifc2x3tc1Package.Literals.IFC_YEAR_NUMBER;
+        return Ifc2x3tc1Package.eINSTANCE.getIfcYearNumber();
     }
 
     /**
@@ -73,7 +73,7 @@ public class IfcYearNumberImpl extends IdEObjectImpl implements IfcYearNumber {
      */
     @Override
     public long getWrappedValue() {
-        return (Long) eGet(Ifc2x3tc1Package.Literals.IFC_YEAR_NUMBER__WRAPPED_VALUE, true);
+        return (Long) eGet(Ifc2x3tc1Package.eINSTANCE.getIfcYearNumber_WrappedValue(), true);
     }
 
     /**
@@ -83,7 +83,7 @@ public class IfcYearNumberImpl extends IdEObjectImpl implements IfcYearNumber {
      */
     @Override
     public void setWrappedValue(long newWrappedValue) {
-        eSet(Ifc2x3tc1Package.Literals.IFC_YEAR_NUMBER__WRAPPED_VALUE, newWrappedValue);
+        eSet(Ifc2x3tc1Package.eINSTANCE.getIfcYearNumber_WrappedValue(), newWrappedValue);
     }
 
     /**
@@ -93,7 +93,7 @@ public class IfcYearNumberImpl extends IdEObjectImpl implements IfcYearNumber {
      */
     @Override
     public void unsetWrappedValue() {
-        eUnset(Ifc2x3tc1Package.Literals.IFC_YEAR_NUMBER__WRAPPED_VALUE);
+        eUnset(Ifc2x3tc1Package.eINSTANCE.getIfcYearNumber_WrappedValue());
     }
 
     /**
@@ -103,7 +103,7 @@ public class IfcYearNumberImpl extends IdEObjectImpl implements IfcYearNumber {
      */
     @Override
     public boolean isSetWrappedValue() {
-        return eIsSet(Ifc2x3tc1Package.Literals.IFC_YEAR_NUMBER__WRAPPED_VALUE);
+        return eIsSet(Ifc2x3tc1Package.eINSTANCE.getIfcYearNumber_WrappedValue());
     }
 
 } //IfcYearNumberImpl

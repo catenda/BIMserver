@@ -37,10 +37,6 @@ public interface IfcConnectionVolumeGeometry extends IfcConnectionGeometry {
     /**
      * Returns the value of the '<em><b>Volume On Relating Element</b></em>' reference.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Volume On Relating Element</em>' reference isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Volume On Relating Element</em>' reference.
      * @see #setVolumeOnRelatingElement(IfcSolidOrShell)
@@ -63,10 +59,6 @@ public interface IfcConnectionVolumeGeometry extends IfcConnectionGeometry {
     /**
      * Returns the value of the '<em><b>Volume On Related Element</b></em>' reference.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Volume On Related Element</em>' reference isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Volume On Related Element</em>' reference.
      * @see #isSetVolumeOnRelatedElement()

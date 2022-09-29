@@ -42,10 +42,6 @@ public interface IfcDoor extends IfcBuildingElement {
     /**
      * Returns the value of the '<em><b>Overall Height</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Overall Height</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Overall Height</em>' attribute.
      * @see #isSetOverallHeight()
@@ -95,10 +91,6 @@ public interface IfcDoor extends IfcBuildingElement {
     /**
      * Returns the value of the '<em><b>Overall Height As String</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Overall Height As String</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Overall Height As String</em>' attribute.
      * @see #isSetOverallHeightAsString()
@@ -150,10 +142,6 @@ public interface IfcDoor extends IfcBuildingElement {
     /**
      * Returns the value of the '<em><b>Overall Width</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Overall Width</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Overall Width</em>' attribute.
      * @see #isSetOverallWidth()
@@ -203,10 +191,6 @@ public interface IfcDoor extends IfcBuildingElement {
     /**
      * Returns the value of the '<em><b>Overall Width As String</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Overall Width As String</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Overall Width As String</em>' attribute.
      * @see #isSetOverallWidthAsString()
@@ -259,10 +243,6 @@ public interface IfcDoor extends IfcBuildingElement {
      * Returns the value of the '<em><b>Predefined Type</b></em>' attribute.
      * The literals are from the enumeration {@link org.bimserver.models.ifc4.IfcDoorTypeEnum}.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Predefined Type</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Predefined Type</em>' attribute.
      * @see org.bimserver.models.ifc4.IfcDoorTypeEnum
@@ -315,10 +295,6 @@ public interface IfcDoor extends IfcBuildingElement {
      * Returns the value of the '<em><b>Operation Type</b></em>' attribute.
      * The literals are from the enumeration {@link org.bimserver.models.ifc4.IfcDoorTypeOperationEnum}.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Operation Type</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Operation Type</em>' attribute.
      * @see org.bimserver.models.ifc4.IfcDoorTypeOperationEnum
@@ -370,10 +346,6 @@ public interface IfcDoor extends IfcBuildingElement {
     /**
      * Returns the value of the '<em><b>User Defined Operation Type</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>User Defined Operation Type</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>User Defined Operation Type</em>' attribute.
      * @see #isSetUserDefinedOperationType()

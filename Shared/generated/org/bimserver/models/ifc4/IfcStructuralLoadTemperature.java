@@ -41,10 +41,6 @@ public interface IfcStructuralLoadTemperature extends IfcStructuralLoadStatic {
     /**
      * Returns the value of the '<em><b>Delta TConstant</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Delta TConstant</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Delta TConstant</em>' attribute.
      * @see #isSetDeltaTConstant()
@@ -94,10 +90,6 @@ public interface IfcStructuralLoadTemperature extends IfcStructuralLoadStatic {
     /**
      * Returns the value of the '<em><b>Delta TConstant As String</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Delta TConstant As String</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Delta TConstant As String</em>' attribute.
      * @see #isSetDeltaTConstantAsString()
@@ -149,10 +141,6 @@ public interface IfcStructuralLoadTemperature extends IfcStructuralLoadStatic {
     /**
      * Returns the value of the '<em><b>Delta TY</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Delta TY</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Delta TY</em>' attribute.
      * @see #isSetDeltaTY()
@@ -202,10 +190,6 @@ public interface IfcStructuralLoadTemperature extends IfcStructuralLoadStatic {
     /**
      * Returns the value of the '<em><b>Delta TY As String</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Delta TY As String</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Delta TY As String</em>' attribute.
      * @see #isSetDeltaTYAsString()
@@ -257,10 +241,6 @@ public interface IfcStructuralLoadTemperature extends IfcStructuralLoadStatic {
     /**
      * Returns the value of the '<em><b>Delta TZ</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Delta TZ</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Delta TZ</em>' attribute.
      * @see #isSetDeltaTZ()
@@ -310,10 +290,6 @@ public interface IfcStructuralLoadTemperature extends IfcStructuralLoadStatic {
     /**
      * Returns the value of the '<em><b>Delta TZ As String</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Delta TZ As String</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Delta TZ As String</em>' attribute.
      * @see #isSetDeltaTZAsString()

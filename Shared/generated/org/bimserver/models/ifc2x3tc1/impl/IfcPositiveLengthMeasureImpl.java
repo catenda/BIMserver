@@ -45,7 +45,7 @@ public class IfcPositiveLengthMeasureImpl extends IfcLengthMeasureImpl implement
      */
     @Override
     protected EClass eStaticClass() {
-        return Ifc2x3tc1Package.Literals.IFC_POSITIVE_LENGTH_MEASURE;
+        return Ifc2x3tc1Package.eINSTANCE.getIfcPositiveLengthMeasure();
     }
 
 } //IfcPositiveLengthMeasureImpl

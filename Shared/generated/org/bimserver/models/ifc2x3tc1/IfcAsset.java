@@ -44,10 +44,6 @@ public interface IfcAsset extends IfcGroup {
     /**
      * Returns the value of the '<em><b>Asset ID</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Asset ID</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Asset ID</em>' attribute.
      * @see #setAssetID(String)
@@ -70,10 +66,6 @@ public interface IfcAsset extends IfcGroup {
     /**
      * Returns the value of the '<em><b>Original Value</b></em>' reference.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Original Value</em>' reference isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Original Value</em>' reference.
      * @see #setOriginalValue(IfcCostValue)
@@ -96,10 +88,6 @@ public interface IfcAsset extends IfcGroup {
     /**
      * Returns the value of the '<em><b>Current Value</b></em>' reference.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Current Value</em>' reference isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Current Value</em>' reference.
      * @see #setCurrentValue(IfcCostValue)
@@ -122,10 +110,6 @@ public interface IfcAsset extends IfcGroup {
     /**
      * Returns the value of the '<em><b>Total Replacement Cost</b></em>' reference.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Total Replacement Cost</em>' reference isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Total Replacement Cost</em>' reference.
      * @see #setTotalReplacementCost(IfcCostValue)
@@ -148,10 +132,6 @@ public interface IfcAsset extends IfcGroup {
     /**
      * Returns the value of the '<em><b>Owner</b></em>' reference.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Owner</em>' reference isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Owner</em>' reference.
      * @see #setOwner(IfcActorSelect)
@@ -174,10 +154,6 @@ public interface IfcAsset extends IfcGroup {
     /**
      * Returns the value of the '<em><b>User</b></em>' reference.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>User</em>' reference isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>User</em>' reference.
      * @see #setUser(IfcActorSelect)
@@ -200,10 +176,6 @@ public interface IfcAsset extends IfcGroup {
     /**
      * Returns the value of the '<em><b>Responsible Person</b></em>' reference.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Responsible Person</em>' reference isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Responsible Person</em>' reference.
      * @see #setResponsiblePerson(IfcPerson)
@@ -226,10 +198,6 @@ public interface IfcAsset extends IfcGroup {
     /**
      * Returns the value of the '<em><b>Incorporation Date</b></em>' reference.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Incorporation Date</em>' reference isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Incorporation Date</em>' reference.
      * @see #setIncorporationDate(IfcCalendarDate)
@@ -252,10 +220,6 @@ public interface IfcAsset extends IfcGroup {
     /**
      * Returns the value of the '<em><b>Depreciated Value</b></em>' reference.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Depreciated Value</em>' reference isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Depreciated Value</em>' reference.
      * @see #setDepreciatedValue(IfcCostValue)

@@ -54,7 +54,7 @@ public class IfcSweptSurfaceImpl extends IfcSurfaceImpl implements IfcSweptSurfa
      */
     @Override
     protected EClass eStaticClass() {
-        return Ifc4Package.Literals.IFC_SWEPT_SURFACE;
+        return Ifc4Package.eINSTANCE.getIfcSweptSurface();
     }
 
     /**
@@ -64,7 +64,7 @@ public class IfcSweptSurfaceImpl extends IfcSurfaceImpl implements IfcSweptSurfa
      */
     @Override
     public IfcProfileDef getSweptCurve() {
-        return (IfcProfileDef) eGet(Ifc4Package.Literals.IFC_SWEPT_SURFACE__SWEPT_CURVE, true);
+        return (IfcProfileDef) eGet(Ifc4Package.eINSTANCE.getIfcSweptSurface_SweptCurve(), true);
     }
 
     /**
@@ -74,7 +74,7 @@ public class IfcSweptSurfaceImpl extends IfcSurfaceImpl implements IfcSweptSurfa
      */
     @Override
     public void setSweptCurve(IfcProfileDef newSweptCurve) {
-        eSet(Ifc4Package.Literals.IFC_SWEPT_SURFACE__SWEPT_CURVE, newSweptCurve);
+        eSet(Ifc4Package.eINSTANCE.getIfcSweptSurface_SweptCurve(), newSweptCurve);
     }
 
     /**
@@ -84,7 +84,7 @@ public class IfcSweptSurfaceImpl extends IfcSurfaceImpl implements IfcSweptSurfa
      */
     @Override
     public IfcAxis2Placement3D getPosition() {
-        return (IfcAxis2Placement3D) eGet(Ifc4Package.Literals.IFC_SWEPT_SURFACE__POSITION, true);
+        return (IfcAxis2Placement3D) eGet(Ifc4Package.eINSTANCE.getIfcSweptSurface_Position(), true);
     }
 
     /**
@@ -94,7 +94,7 @@ public class IfcSweptSurfaceImpl extends IfcSurfaceImpl implements IfcSweptSurfa
      */
     @Override
     public void setPosition(IfcAxis2Placement3D newPosition) {
-        eSet(Ifc4Package.Literals.IFC_SWEPT_SURFACE__POSITION, newPosition);
+        eSet(Ifc4Package.eINSTANCE.getIfcSweptSurface_Position(), newPosition);
     }
 
     /**
@@ -104,7 +104,7 @@ public class IfcSweptSurfaceImpl extends IfcSurfaceImpl implements IfcSweptSurfa
      */
     @Override
     public void unsetPosition() {
-        eUnset(Ifc4Package.Literals.IFC_SWEPT_SURFACE__POSITION);
+        eUnset(Ifc4Package.eINSTANCE.getIfcSweptSurface_Position());
     }
 
     /**
@@ -114,7 +114,7 @@ public class IfcSweptSurfaceImpl extends IfcSurfaceImpl implements IfcSweptSurfa
      */
     @Override
     public boolean isSetPosition() {
-        return eIsSet(Ifc4Package.Literals.IFC_SWEPT_SURFACE__POSITION);
+        return eIsSet(Ifc4Package.eINSTANCE.getIfcSweptSurface_Position());
     }
 
 } //IfcSweptSurfaceImpl

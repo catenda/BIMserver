@@ -65,10 +65,6 @@ public enum ExtendedDataSchemaType implements Enumerator {
     /**
      * The '<em><b>XSD</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>XSD</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #XSD
      * @model
@@ -80,10 +76,6 @@ public enum ExtendedDataSchemaType implements Enumerator {
     /**
      * The '<em><b>PDF</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>PDF</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #PDF
      * @model
@@ -95,10 +87,6 @@ public enum ExtendedDataSchemaType implements Enumerator {
     /**
      * The '<em><b>TXT</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>TXT</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #TXT
      * @model

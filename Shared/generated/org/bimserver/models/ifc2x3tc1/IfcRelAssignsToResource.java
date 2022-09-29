@@ -37,10 +37,6 @@ public interface IfcRelAssignsToResource extends IfcRelAssigns {
      * Returns the value of the '<em><b>Relating Resource</b></em>' reference.
      * It is bidirectional and its opposite is '{@link org.bimserver.models.ifc2x3tc1.IfcResource#getResourceOf <em>Resource Of</em>}'.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Relating Resource</em>' reference isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Relating Resource</em>' reference.
      * @see #setRelatingResource(IfcResource)

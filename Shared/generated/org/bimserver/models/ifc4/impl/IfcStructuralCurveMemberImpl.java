@@ -54,7 +54,7 @@ public class IfcStructuralCurveMemberImpl extends IfcStructuralMemberImpl implem
      */
     @Override
     protected EClass eStaticClass() {
-        return Ifc4Package.Literals.IFC_STRUCTURAL_CURVE_MEMBER;
+        return Ifc4Package.eINSTANCE.getIfcStructuralCurveMember();
     }
 
     /**
@@ -65,7 +65,7 @@ public class IfcStructuralCurveMemberImpl extends IfcStructuralMemberImpl implem
     @Override
     public IfcStructuralCurveMemberTypeEnum getPredefinedType() {
         return (IfcStructuralCurveMemberTypeEnum) eGet(
-                Ifc4Package.Literals.IFC_STRUCTURAL_CURVE_MEMBER__PREDEFINED_TYPE, true);
+                Ifc4Package.eINSTANCE.getIfcStructuralCurveMember_PredefinedType(), true);
     }
 
     /**
@@ -75,7 +75,7 @@ public class IfcStructuralCurveMemberImpl extends IfcStructuralMemberImpl implem
      */
     @Override
     public void setPredefinedType(IfcStructuralCurveMemberTypeEnum newPredefinedType) {
-        eSet(Ifc4Package.Literals.IFC_STRUCTURAL_CURVE_MEMBER__PREDEFINED_TYPE, newPredefinedType);
+        eSet(Ifc4Package.eINSTANCE.getIfcStructuralCurveMember_PredefinedType(), newPredefinedType);
     }
 
     /**
@@ -85,7 +85,7 @@ public class IfcStructuralCurveMemberImpl extends IfcStructuralMemberImpl implem
      */
     @Override
     public IfcDirection getAxis() {
-        return (IfcDirection) eGet(Ifc4Package.Literals.IFC_STRUCTURAL_CURVE_MEMBER__AXIS, true);
+        return (IfcDirection) eGet(Ifc4Package.eINSTANCE.getIfcStructuralCurveMember_Axis(), true);
     }
 
     /**
@@ -95,7 +95,7 @@ public class IfcStructuralCurveMemberImpl extends IfcStructuralMemberImpl implem
      */
     @Override
     public void setAxis(IfcDirection newAxis) {
-        eSet(Ifc4Package.Literals.IFC_STRUCTURAL_CURVE_MEMBER__AXIS, newAxis);
+        eSet(Ifc4Package.eINSTANCE.getIfcStructuralCurveMember_Axis(), newAxis);
     }
 
 } //IfcStructuralCurveMemberImpl

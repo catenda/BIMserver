@@ -20,8 +20,8 @@ import org.bimserver.models.ifc4.Ifc4Package;
 import org.bimserver.models.ifc4.IfcBSplineCurve;
 import org.bimserver.models.ifc4.IfcBSplineCurveForm;
 import org.bimserver.models.ifc4.IfcCartesianPoint;
-
 import org.bimserver.models.ifc4.Tristate;
+
 import org.eclipse.emf.common.util.EList;
 
 import org.eclipse.emf.ecore.EClass;
@@ -61,7 +61,7 @@ public class IfcBSplineCurveImpl extends IfcBoundedCurveImpl implements IfcBSpli
      */
     @Override
     protected EClass eStaticClass() {
-        return Ifc4Package.Literals.IFC_BSPLINE_CURVE;
+        return Ifc4Package.eINSTANCE.getIfcBSplineCurve();
     }
 
     /**
@@ -71,7 +71,7 @@ public class IfcBSplineCurveImpl extends IfcBoundedCurveImpl implements IfcBSpli
      */
     @Override
     public long getDegree() {
-        return (Long) eGet(Ifc4Package.Literals.IFC_BSPLINE_CURVE__DEGREE, true);
+        return (Long) eGet(Ifc4Package.eINSTANCE.getIfcBSplineCurve_Degree(), true);
     }
 
     /**
@@ -81,7 +81,7 @@ public class IfcBSplineCurveImpl extends IfcBoundedCurveImpl implements IfcBSpli
      */
     @Override
     public void setDegree(long newDegree) {
-        eSet(Ifc4Package.Literals.IFC_BSPLINE_CURVE__DEGREE, newDegree);
+        eSet(Ifc4Package.eINSTANCE.getIfcBSplineCurve_Degree(), newDegree);
     }
 
     /**
@@ -92,7 +92,7 @@ public class IfcBSplineCurveImpl extends IfcBoundedCurveImpl implements IfcBSpli
     @SuppressWarnings("unchecked")
     @Override
     public EList<IfcCartesianPoint> getControlPointsList() {
-        return (EList<IfcCartesianPoint>) eGet(Ifc4Package.Literals.IFC_BSPLINE_CURVE__CONTROL_POINTS_LIST, true);
+        return (EList<IfcCartesianPoint>) eGet(Ifc4Package.eINSTANCE.getIfcBSplineCurve_ControlPointsList(), true);
     }
 
     /**
@@ -102,7 +102,7 @@ public class IfcBSplineCurveImpl extends IfcBoundedCurveImpl implements IfcBSpli
      */
     @Override
     public IfcBSplineCurveForm getCurveForm() {
-        return (IfcBSplineCurveForm) eGet(Ifc4Package.Literals.IFC_BSPLINE_CURVE__CURVE_FORM, true);
+        return (IfcBSplineCurveForm) eGet(Ifc4Package.eINSTANCE.getIfcBSplineCurve_CurveForm(), true);
     }
 
     /**
@@ -112,7 +112,7 @@ public class IfcBSplineCurveImpl extends IfcBoundedCurveImpl implements IfcBSpli
      */
     @Override
     public void setCurveForm(IfcBSplineCurveForm newCurveForm) {
-        eSet(Ifc4Package.Literals.IFC_BSPLINE_CURVE__CURVE_FORM, newCurveForm);
+        eSet(Ifc4Package.eINSTANCE.getIfcBSplineCurve_CurveForm(), newCurveForm);
     }
 
     /**
@@ -122,7 +122,7 @@ public class IfcBSplineCurveImpl extends IfcBoundedCurveImpl implements IfcBSpli
      */
     @Override
     public Tristate getClosedCurve() {
-        return (Tristate) eGet(Ifc4Package.Literals.IFC_BSPLINE_CURVE__CLOSED_CURVE, true);
+        return (Tristate) eGet(Ifc4Package.eINSTANCE.getIfcBSplineCurve_ClosedCurve(), true);
     }
 
     /**
@@ -132,7 +132,7 @@ public class IfcBSplineCurveImpl extends IfcBoundedCurveImpl implements IfcBSpli
      */
     @Override
     public void setClosedCurve(Tristate newClosedCurve) {
-        eSet(Ifc4Package.Literals.IFC_BSPLINE_CURVE__CLOSED_CURVE, newClosedCurve);
+        eSet(Ifc4Package.eINSTANCE.getIfcBSplineCurve_ClosedCurve(), newClosedCurve);
     }
 
     /**
@@ -142,7 +142,7 @@ public class IfcBSplineCurveImpl extends IfcBoundedCurveImpl implements IfcBSpli
      */
     @Override
     public Tristate getSelfIntersect() {
-        return (Tristate) eGet(Ifc4Package.Literals.IFC_BSPLINE_CURVE__SELF_INTERSECT, true);
+        return (Tristate) eGet(Ifc4Package.eINSTANCE.getIfcBSplineCurve_SelfIntersect(), true);
     }
 
     /**
@@ -152,7 +152,7 @@ public class IfcBSplineCurveImpl extends IfcBoundedCurveImpl implements IfcBSpli
      */
     @Override
     public void setSelfIntersect(Tristate newSelfIntersect) {
-        eSet(Ifc4Package.Literals.IFC_BSPLINE_CURVE__SELF_INTERSECT, newSelfIntersect);
+        eSet(Ifc4Package.eINSTANCE.getIfcBSplineCurve_SelfIntersect(), newSelfIntersect);
     }
 
     /**
@@ -162,7 +162,7 @@ public class IfcBSplineCurveImpl extends IfcBoundedCurveImpl implements IfcBSpli
      */
     @Override
     public long getUpperIndexOnControlPoints() {
-        return (Long) eGet(Ifc4Package.Literals.IFC_BSPLINE_CURVE__UPPER_INDEX_ON_CONTROL_POINTS, true);
+        return (Long) eGet(Ifc4Package.eINSTANCE.getIfcBSplineCurve_UpperIndexOnControlPoints(), true);
     }
 
     /**
@@ -172,7 +172,7 @@ public class IfcBSplineCurveImpl extends IfcBoundedCurveImpl implements IfcBSpli
      */
     @Override
     public void setUpperIndexOnControlPoints(long newUpperIndexOnControlPoints) {
-        eSet(Ifc4Package.Literals.IFC_BSPLINE_CURVE__UPPER_INDEX_ON_CONTROL_POINTS, newUpperIndexOnControlPoints);
+        eSet(Ifc4Package.eINSTANCE.getIfcBSplineCurve_UpperIndexOnControlPoints(), newUpperIndexOnControlPoints);
     }
 
     /**
@@ -182,7 +182,7 @@ public class IfcBSplineCurveImpl extends IfcBoundedCurveImpl implements IfcBSpli
      */
     @Override
     public void unsetUpperIndexOnControlPoints() {
-        eUnset(Ifc4Package.Literals.IFC_BSPLINE_CURVE__UPPER_INDEX_ON_CONTROL_POINTS);
+        eUnset(Ifc4Package.eINSTANCE.getIfcBSplineCurve_UpperIndexOnControlPoints());
     }
 
     /**
@@ -192,7 +192,7 @@ public class IfcBSplineCurveImpl extends IfcBoundedCurveImpl implements IfcBSpli
      */
     @Override
     public boolean isSetUpperIndexOnControlPoints() {
-        return eIsSet(Ifc4Package.Literals.IFC_BSPLINE_CURVE__UPPER_INDEX_ON_CONTROL_POINTS);
+        return eIsSet(Ifc4Package.eINSTANCE.getIfcBSplineCurve_UpperIndexOnControlPoints());
     }
 
 } //IfcBSplineCurveImpl

@@ -55,7 +55,7 @@ public class IfcRelNestsImpl extends IfcRelDecomposesImpl implements IfcRelNests
      */
     @Override
     protected EClass eStaticClass() {
-        return Ifc4Package.Literals.IFC_REL_NESTS;
+        return Ifc4Package.eINSTANCE.getIfcRelNests();
     }
 
     /**
@@ -65,7 +65,7 @@ public class IfcRelNestsImpl extends IfcRelDecomposesImpl implements IfcRelNests
      */
     @Override
     public IfcObjectDefinition getRelatingObject() {
-        return (IfcObjectDefinition) eGet(Ifc4Package.Literals.IFC_REL_NESTS__RELATING_OBJECT, true);
+        return (IfcObjectDefinition) eGet(Ifc4Package.eINSTANCE.getIfcRelNests_RelatingObject(), true);
     }
 
     /**
@@ -75,7 +75,7 @@ public class IfcRelNestsImpl extends IfcRelDecomposesImpl implements IfcRelNests
      */
     @Override
     public void setRelatingObject(IfcObjectDefinition newRelatingObject) {
-        eSet(Ifc4Package.Literals.IFC_REL_NESTS__RELATING_OBJECT, newRelatingObject);
+        eSet(Ifc4Package.eINSTANCE.getIfcRelNests_RelatingObject(), newRelatingObject);
     }
 
     /**
@@ -86,7 +86,7 @@ public class IfcRelNestsImpl extends IfcRelDecomposesImpl implements IfcRelNests
     @SuppressWarnings("unchecked")
     @Override
     public EList<IfcObjectDefinition> getRelatedObjects() {
-        return (EList<IfcObjectDefinition>) eGet(Ifc4Package.Literals.IFC_REL_NESTS__RELATED_OBJECTS, true);
+        return (EList<IfcObjectDefinition>) eGet(Ifc4Package.eINSTANCE.getIfcRelNests_RelatedObjects(), true);
     }
 
 } //IfcRelNestsImpl

@@ -37,10 +37,6 @@ public interface IfcBuildingStorey extends IfcSpatialStructureElement {
     /**
      * Returns the value of the '<em><b>Elevation</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Elevation</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Elevation</em>' attribute.
      * @see #isSetElevation()
@@ -90,10 +86,6 @@ public interface IfcBuildingStorey extends IfcSpatialStructureElement {
     /**
      * Returns the value of the '<em><b>Elevation As String</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Elevation As String</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Elevation As String</em>' attribute.
      * @see #isSetElevationAsString()

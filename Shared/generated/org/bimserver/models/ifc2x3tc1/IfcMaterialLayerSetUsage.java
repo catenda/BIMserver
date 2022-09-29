@@ -40,10 +40,6 @@ public interface IfcMaterialLayerSetUsage extends IfcMaterialSelect {
     /**
      * Returns the value of the '<em><b>For Layer Set</b></em>' reference.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>For Layer Set</em>' reference isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>For Layer Set</em>' reference.
      * @see #setForLayerSet(IfcMaterialLayerSet)
@@ -67,10 +63,6 @@ public interface IfcMaterialLayerSetUsage extends IfcMaterialSelect {
      * Returns the value of the '<em><b>Layer Set Direction</b></em>' attribute.
      * The literals are from the enumeration {@link org.bimserver.models.ifc2x3tc1.IfcLayerSetDirectionEnum}.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Layer Set Direction</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Layer Set Direction</em>' attribute.
      * @see org.bimserver.models.ifc2x3tc1.IfcLayerSetDirectionEnum
@@ -96,10 +88,6 @@ public interface IfcMaterialLayerSetUsage extends IfcMaterialSelect {
      * Returns the value of the '<em><b>Direction Sense</b></em>' attribute.
      * The literals are from the enumeration {@link org.bimserver.models.ifc2x3tc1.IfcDirectionSenseEnum}.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Direction Sense</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Direction Sense</em>' attribute.
      * @see org.bimserver.models.ifc2x3tc1.IfcDirectionSenseEnum
@@ -124,10 +112,6 @@ public interface IfcMaterialLayerSetUsage extends IfcMaterialSelect {
     /**
      * Returns the value of the '<em><b>Offset From Reference Line</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Offset From Reference Line</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Offset From Reference Line</em>' attribute.
      * @see #setOffsetFromReferenceLine(double)
@@ -150,10 +134,6 @@ public interface IfcMaterialLayerSetUsage extends IfcMaterialSelect {
     /**
      * Returns the value of the '<em><b>Offset From Reference Line As String</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Offset From Reference Line As String</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Offset From Reference Line As String</em>' attribute.
      * @see #setOffsetFromReferenceLineAsString(String)

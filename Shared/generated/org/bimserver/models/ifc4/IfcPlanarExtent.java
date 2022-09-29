@@ -39,10 +39,6 @@ public interface IfcPlanarExtent extends IfcGeometricRepresentationItem {
     /**
      * Returns the value of the '<em><b>Size In X</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Size In X</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Size In X</em>' attribute.
      * @see #setSizeInX(double)
@@ -65,10 +61,6 @@ public interface IfcPlanarExtent extends IfcGeometricRepresentationItem {
     /**
      * Returns the value of the '<em><b>Size In XAs String</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Size In XAs String</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Size In XAs String</em>' attribute.
      * @see #setSizeInXAsString(String)
@@ -92,10 +84,6 @@ public interface IfcPlanarExtent extends IfcGeometricRepresentationItem {
     /**
      * Returns the value of the '<em><b>Size In Y</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Size In Y</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Size In Y</em>' attribute.
      * @see #setSizeInY(double)
@@ -118,10 +106,6 @@ public interface IfcPlanarExtent extends IfcGeometricRepresentationItem {
     /**
      * Returns the value of the '<em><b>Size In YAs String</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Size In YAs String</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Size In YAs String</em>' attribute.
      * @see #setSizeInYAsString(String)

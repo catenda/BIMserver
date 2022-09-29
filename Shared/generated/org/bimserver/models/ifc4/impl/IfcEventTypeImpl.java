@@ -55,7 +55,7 @@ public class IfcEventTypeImpl extends IfcTypeProcessImpl implements IfcEventType
      */
     @Override
     protected EClass eStaticClass() {
-        return Ifc4Package.Literals.IFC_EVENT_TYPE;
+        return Ifc4Package.eINSTANCE.getIfcEventType();
     }
 
     /**
@@ -65,7 +65,7 @@ public class IfcEventTypeImpl extends IfcTypeProcessImpl implements IfcEventType
      */
     @Override
     public IfcEventTypeEnum getPredefinedType() {
-        return (IfcEventTypeEnum) eGet(Ifc4Package.Literals.IFC_EVENT_TYPE__PREDEFINED_TYPE, true);
+        return (IfcEventTypeEnum) eGet(Ifc4Package.eINSTANCE.getIfcEventType_PredefinedType(), true);
     }
 
     /**
@@ -75,7 +75,7 @@ public class IfcEventTypeImpl extends IfcTypeProcessImpl implements IfcEventType
      */
     @Override
     public void setPredefinedType(IfcEventTypeEnum newPredefinedType) {
-        eSet(Ifc4Package.Literals.IFC_EVENT_TYPE__PREDEFINED_TYPE, newPredefinedType);
+        eSet(Ifc4Package.eINSTANCE.getIfcEventType_PredefinedType(), newPredefinedType);
     }
 
     /**
@@ -85,7 +85,7 @@ public class IfcEventTypeImpl extends IfcTypeProcessImpl implements IfcEventType
      */
     @Override
     public IfcEventTriggerTypeEnum getEventTriggerType() {
-        return (IfcEventTriggerTypeEnum) eGet(Ifc4Package.Literals.IFC_EVENT_TYPE__EVENT_TRIGGER_TYPE, true);
+        return (IfcEventTriggerTypeEnum) eGet(Ifc4Package.eINSTANCE.getIfcEventType_EventTriggerType(), true);
     }
 
     /**
@@ -95,7 +95,7 @@ public class IfcEventTypeImpl extends IfcTypeProcessImpl implements IfcEventType
      */
     @Override
     public void setEventTriggerType(IfcEventTriggerTypeEnum newEventTriggerType) {
-        eSet(Ifc4Package.Literals.IFC_EVENT_TYPE__EVENT_TRIGGER_TYPE, newEventTriggerType);
+        eSet(Ifc4Package.eINSTANCE.getIfcEventType_EventTriggerType(), newEventTriggerType);
     }
 
     /**
@@ -105,7 +105,7 @@ public class IfcEventTypeImpl extends IfcTypeProcessImpl implements IfcEventType
      */
     @Override
     public String getUserDefinedEventTriggerType() {
-        return (String) eGet(Ifc4Package.Literals.IFC_EVENT_TYPE__USER_DEFINED_EVENT_TRIGGER_TYPE, true);
+        return (String) eGet(Ifc4Package.eINSTANCE.getIfcEventType_UserDefinedEventTriggerType(), true);
     }
 
     /**
@@ -115,7 +115,7 @@ public class IfcEventTypeImpl extends IfcTypeProcessImpl implements IfcEventType
      */
     @Override
     public void setUserDefinedEventTriggerType(String newUserDefinedEventTriggerType) {
-        eSet(Ifc4Package.Literals.IFC_EVENT_TYPE__USER_DEFINED_EVENT_TRIGGER_TYPE, newUserDefinedEventTriggerType);
+        eSet(Ifc4Package.eINSTANCE.getIfcEventType_UserDefinedEventTriggerType(), newUserDefinedEventTriggerType);
     }
 
     /**
@@ -125,7 +125,7 @@ public class IfcEventTypeImpl extends IfcTypeProcessImpl implements IfcEventType
      */
     @Override
     public void unsetUserDefinedEventTriggerType() {
-        eUnset(Ifc4Package.Literals.IFC_EVENT_TYPE__USER_DEFINED_EVENT_TRIGGER_TYPE);
+        eUnset(Ifc4Package.eINSTANCE.getIfcEventType_UserDefinedEventTriggerType());
     }
 
     /**
@@ -135,7 +135,7 @@ public class IfcEventTypeImpl extends IfcTypeProcessImpl implements IfcEventType
      */
     @Override
     public boolean isSetUserDefinedEventTriggerType() {
-        return eIsSet(Ifc4Package.Literals.IFC_EVENT_TYPE__USER_DEFINED_EVENT_TRIGGER_TYPE);
+        return eIsSet(Ifc4Package.eINSTANCE.getIfcEventType_UserDefinedEventTriggerType());
     }
 
 } //IfcEventTypeImpl

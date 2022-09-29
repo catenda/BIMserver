@@ -40,10 +40,6 @@ public interface IfcTextureCoordinateGenerator extends IfcTextureCoordinate {
     /**
      * Returns the value of the '<em><b>Mode</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Mode</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Mode</em>' attribute.
      * @see #setMode(String)
@@ -67,10 +63,6 @@ public interface IfcTextureCoordinateGenerator extends IfcTextureCoordinate {
      * Returns the value of the '<em><b>Parameter</b></em>' attribute list.
      * The list contents are of type {@link java.lang.Double}.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Parameter</em>' attribute list isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Parameter</em>' attribute list.
      * @see #isSetParameter()
@@ -106,10 +98,6 @@ public interface IfcTextureCoordinateGenerator extends IfcTextureCoordinate {
      * Returns the value of the '<em><b>Parameter As String</b></em>' attribute list.
      * The list contents are of type {@link java.lang.String}.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Parameter As String</em>' attribute list isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Parameter As String</em>' attribute list.
      * @see #isSetParameterAsString()

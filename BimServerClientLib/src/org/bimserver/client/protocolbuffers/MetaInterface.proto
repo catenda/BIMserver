@@ -134,8 +134,8 @@ message SServiceType {
 	optional string simpleName = 2;
 	optional string name = 3;
 	optional int64 oid = 4;
-	repeated SServiceField fields = 5;
-	optional int32 rid = 6;
+	optional int32 rid = 5;
+	repeated SServiceField fields = 6;
 }
 
 message SServiceParameter {

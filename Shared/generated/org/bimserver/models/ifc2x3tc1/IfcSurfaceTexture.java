@@ -43,10 +43,6 @@ public interface IfcSurfaceTexture extends IdEObject {
      * Returns the value of the '<em><b>Repeat S</b></em>' attribute.
      * The literals are from the enumeration {@link org.bimserver.models.ifc2x3tc1.Tristate}.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Repeat S</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Repeat S</em>' attribute.
      * @see org.bimserver.models.ifc2x3tc1.Tristate
@@ -72,10 +68,6 @@ public interface IfcSurfaceTexture extends IdEObject {
      * Returns the value of the '<em><b>Repeat T</b></em>' attribute.
      * The literals are from the enumeration {@link org.bimserver.models.ifc2x3tc1.Tristate}.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Repeat T</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Repeat T</em>' attribute.
      * @see org.bimserver.models.ifc2x3tc1.Tristate
@@ -101,10 +93,6 @@ public interface IfcSurfaceTexture extends IdEObject {
      * Returns the value of the '<em><b>Texture Type</b></em>' attribute.
      * The literals are from the enumeration {@link org.bimserver.models.ifc2x3tc1.IfcSurfaceTextureEnum}.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Texture Type</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Texture Type</em>' attribute.
      * @see org.bimserver.models.ifc2x3tc1.IfcSurfaceTextureEnum
@@ -129,10 +117,6 @@ public interface IfcSurfaceTexture extends IdEObject {
     /**
      * Returns the value of the '<em><b>Texture Transform</b></em>' reference.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Texture Transform</em>' reference isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Texture Transform</em>' reference.
      * @see #isSetTextureTransform()

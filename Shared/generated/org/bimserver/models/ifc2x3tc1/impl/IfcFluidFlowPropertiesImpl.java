@@ -74,7 +74,7 @@ public class IfcFluidFlowPropertiesImpl extends IfcPropertySetDefinitionImpl imp
      */
     @Override
     protected EClass eStaticClass() {
-        return Ifc2x3tc1Package.Literals.IFC_FLUID_FLOW_PROPERTIES;
+        return Ifc2x3tc1Package.eINSTANCE.getIfcFluidFlowProperties();
     }
 
     /**
@@ -84,7 +84,8 @@ public class IfcFluidFlowPropertiesImpl extends IfcPropertySetDefinitionImpl imp
      */
     @Override
     public IfcPropertySourceEnum getPropertySource() {
-        return (IfcPropertySourceEnum) eGet(Ifc2x3tc1Package.Literals.IFC_FLUID_FLOW_PROPERTIES__PROPERTY_SOURCE, true);
+        return (IfcPropertySourceEnum) eGet(Ifc2x3tc1Package.eINSTANCE.getIfcFluidFlowProperties_PropertySource(),
+                true);
     }
 
     /**
@@ -94,7 +95,7 @@ public class IfcFluidFlowPropertiesImpl extends IfcPropertySetDefinitionImpl imp
      */
     @Override
     public void setPropertySource(IfcPropertySourceEnum newPropertySource) {
-        eSet(Ifc2x3tc1Package.Literals.IFC_FLUID_FLOW_PROPERTIES__PROPERTY_SOURCE, newPropertySource);
+        eSet(Ifc2x3tc1Package.eINSTANCE.getIfcFluidFlowProperties_PropertySource(), newPropertySource);
     }
 
     /**
@@ -104,7 +105,7 @@ public class IfcFluidFlowPropertiesImpl extends IfcPropertySetDefinitionImpl imp
      */
     @Override
     public IfcTimeSeries getFlowConditionTimeSeries() {
-        return (IfcTimeSeries) eGet(Ifc2x3tc1Package.Literals.IFC_FLUID_FLOW_PROPERTIES__FLOW_CONDITION_TIME_SERIES,
+        return (IfcTimeSeries) eGet(Ifc2x3tc1Package.eINSTANCE.getIfcFluidFlowProperties_FlowConditionTimeSeries(),
                 true);
     }
 
@@ -115,7 +116,7 @@ public class IfcFluidFlowPropertiesImpl extends IfcPropertySetDefinitionImpl imp
      */
     @Override
     public void setFlowConditionTimeSeries(IfcTimeSeries newFlowConditionTimeSeries) {
-        eSet(Ifc2x3tc1Package.Literals.IFC_FLUID_FLOW_PROPERTIES__FLOW_CONDITION_TIME_SERIES,
+        eSet(Ifc2x3tc1Package.eINSTANCE.getIfcFluidFlowProperties_FlowConditionTimeSeries(),
                 newFlowConditionTimeSeries);
     }
 
@@ -126,7 +127,7 @@ public class IfcFluidFlowPropertiesImpl extends IfcPropertySetDefinitionImpl imp
      */
     @Override
     public void unsetFlowConditionTimeSeries() {
-        eUnset(Ifc2x3tc1Package.Literals.IFC_FLUID_FLOW_PROPERTIES__FLOW_CONDITION_TIME_SERIES);
+        eUnset(Ifc2x3tc1Package.eINSTANCE.getIfcFluidFlowProperties_FlowConditionTimeSeries());
     }
 
     /**
@@ -136,7 +137,7 @@ public class IfcFluidFlowPropertiesImpl extends IfcPropertySetDefinitionImpl imp
      */
     @Override
     public boolean isSetFlowConditionTimeSeries() {
-        return eIsSet(Ifc2x3tc1Package.Literals.IFC_FLUID_FLOW_PROPERTIES__FLOW_CONDITION_TIME_SERIES);
+        return eIsSet(Ifc2x3tc1Package.eINSTANCE.getIfcFluidFlowProperties_FlowConditionTimeSeries());
     }
 
     /**
@@ -146,7 +147,7 @@ public class IfcFluidFlowPropertiesImpl extends IfcPropertySetDefinitionImpl imp
      */
     @Override
     public IfcTimeSeries getVelocityTimeSeries() {
-        return (IfcTimeSeries) eGet(Ifc2x3tc1Package.Literals.IFC_FLUID_FLOW_PROPERTIES__VELOCITY_TIME_SERIES, true);
+        return (IfcTimeSeries) eGet(Ifc2x3tc1Package.eINSTANCE.getIfcFluidFlowProperties_VelocityTimeSeries(), true);
     }
 
     /**
@@ -156,7 +157,7 @@ public class IfcFluidFlowPropertiesImpl extends IfcPropertySetDefinitionImpl imp
      */
     @Override
     public void setVelocityTimeSeries(IfcTimeSeries newVelocityTimeSeries) {
-        eSet(Ifc2x3tc1Package.Literals.IFC_FLUID_FLOW_PROPERTIES__VELOCITY_TIME_SERIES, newVelocityTimeSeries);
+        eSet(Ifc2x3tc1Package.eINSTANCE.getIfcFluidFlowProperties_VelocityTimeSeries(), newVelocityTimeSeries);
     }
 
     /**
@@ -166,7 +167,7 @@ public class IfcFluidFlowPropertiesImpl extends IfcPropertySetDefinitionImpl imp
      */
     @Override
     public void unsetVelocityTimeSeries() {
-        eUnset(Ifc2x3tc1Package.Literals.IFC_FLUID_FLOW_PROPERTIES__VELOCITY_TIME_SERIES);
+        eUnset(Ifc2x3tc1Package.eINSTANCE.getIfcFluidFlowProperties_VelocityTimeSeries());
     }
 
     /**
@@ -176,7 +177,7 @@ public class IfcFluidFlowPropertiesImpl extends IfcPropertySetDefinitionImpl imp
      */
     @Override
     public boolean isSetVelocityTimeSeries() {
-        return eIsSet(Ifc2x3tc1Package.Literals.IFC_FLUID_FLOW_PROPERTIES__VELOCITY_TIME_SERIES);
+        return eIsSet(Ifc2x3tc1Package.eINSTANCE.getIfcFluidFlowProperties_VelocityTimeSeries());
     }
 
     /**
@@ -186,7 +187,7 @@ public class IfcFluidFlowPropertiesImpl extends IfcPropertySetDefinitionImpl imp
      */
     @Override
     public IfcTimeSeries getFlowrateTimeSeries() {
-        return (IfcTimeSeries) eGet(Ifc2x3tc1Package.Literals.IFC_FLUID_FLOW_PROPERTIES__FLOWRATE_TIME_SERIES, true);
+        return (IfcTimeSeries) eGet(Ifc2x3tc1Package.eINSTANCE.getIfcFluidFlowProperties_FlowrateTimeSeries(), true);
     }
 
     /**
@@ -196,7 +197,7 @@ public class IfcFluidFlowPropertiesImpl extends IfcPropertySetDefinitionImpl imp
      */
     @Override
     public void setFlowrateTimeSeries(IfcTimeSeries newFlowrateTimeSeries) {
-        eSet(Ifc2x3tc1Package.Literals.IFC_FLUID_FLOW_PROPERTIES__FLOWRATE_TIME_SERIES, newFlowrateTimeSeries);
+        eSet(Ifc2x3tc1Package.eINSTANCE.getIfcFluidFlowProperties_FlowrateTimeSeries(), newFlowrateTimeSeries);
     }
 
     /**
@@ -206,7 +207,7 @@ public class IfcFluidFlowPropertiesImpl extends IfcPropertySetDefinitionImpl imp
      */
     @Override
     public void unsetFlowrateTimeSeries() {
-        eUnset(Ifc2x3tc1Package.Literals.IFC_FLUID_FLOW_PROPERTIES__FLOWRATE_TIME_SERIES);
+        eUnset(Ifc2x3tc1Package.eINSTANCE.getIfcFluidFlowProperties_FlowrateTimeSeries());
     }
 
     /**
@@ -216,7 +217,7 @@ public class IfcFluidFlowPropertiesImpl extends IfcPropertySetDefinitionImpl imp
      */
     @Override
     public boolean isSetFlowrateTimeSeries() {
-        return eIsSet(Ifc2x3tc1Package.Literals.IFC_FLUID_FLOW_PROPERTIES__FLOWRATE_TIME_SERIES);
+        return eIsSet(Ifc2x3tc1Package.eINSTANCE.getIfcFluidFlowProperties_FlowrateTimeSeries());
     }
 
     /**
@@ -226,7 +227,7 @@ public class IfcFluidFlowPropertiesImpl extends IfcPropertySetDefinitionImpl imp
      */
     @Override
     public IfcMaterial getFluid() {
-        return (IfcMaterial) eGet(Ifc2x3tc1Package.Literals.IFC_FLUID_FLOW_PROPERTIES__FLUID, true);
+        return (IfcMaterial) eGet(Ifc2x3tc1Package.eINSTANCE.getIfcFluidFlowProperties_Fluid(), true);
     }
 
     /**
@@ -236,7 +237,7 @@ public class IfcFluidFlowPropertiesImpl extends IfcPropertySetDefinitionImpl imp
      */
     @Override
     public void setFluid(IfcMaterial newFluid) {
-        eSet(Ifc2x3tc1Package.Literals.IFC_FLUID_FLOW_PROPERTIES__FLUID, newFluid);
+        eSet(Ifc2x3tc1Package.eINSTANCE.getIfcFluidFlowProperties_Fluid(), newFluid);
     }
 
     /**
@@ -246,7 +247,7 @@ public class IfcFluidFlowPropertiesImpl extends IfcPropertySetDefinitionImpl imp
      */
     @Override
     public IfcTimeSeries getPressureTimeSeries() {
-        return (IfcTimeSeries) eGet(Ifc2x3tc1Package.Literals.IFC_FLUID_FLOW_PROPERTIES__PRESSURE_TIME_SERIES, true);
+        return (IfcTimeSeries) eGet(Ifc2x3tc1Package.eINSTANCE.getIfcFluidFlowProperties_PressureTimeSeries(), true);
     }
 
     /**
@@ -256,7 +257,7 @@ public class IfcFluidFlowPropertiesImpl extends IfcPropertySetDefinitionImpl imp
      */
     @Override
     public void setPressureTimeSeries(IfcTimeSeries newPressureTimeSeries) {
-        eSet(Ifc2x3tc1Package.Literals.IFC_FLUID_FLOW_PROPERTIES__PRESSURE_TIME_SERIES, newPressureTimeSeries);
+        eSet(Ifc2x3tc1Package.eINSTANCE.getIfcFluidFlowProperties_PressureTimeSeries(), newPressureTimeSeries);
     }
 
     /**
@@ -266,7 +267,7 @@ public class IfcFluidFlowPropertiesImpl extends IfcPropertySetDefinitionImpl imp
      */
     @Override
     public void unsetPressureTimeSeries() {
-        eUnset(Ifc2x3tc1Package.Literals.IFC_FLUID_FLOW_PROPERTIES__PRESSURE_TIME_SERIES);
+        eUnset(Ifc2x3tc1Package.eINSTANCE.getIfcFluidFlowProperties_PressureTimeSeries());
     }
 
     /**
@@ -276,7 +277,7 @@ public class IfcFluidFlowPropertiesImpl extends IfcPropertySetDefinitionImpl imp
      */
     @Override
     public boolean isSetPressureTimeSeries() {
-        return eIsSet(Ifc2x3tc1Package.Literals.IFC_FLUID_FLOW_PROPERTIES__PRESSURE_TIME_SERIES);
+        return eIsSet(Ifc2x3tc1Package.eINSTANCE.getIfcFluidFlowProperties_PressureTimeSeries());
     }
 
     /**
@@ -286,7 +287,7 @@ public class IfcFluidFlowPropertiesImpl extends IfcPropertySetDefinitionImpl imp
      */
     @Override
     public String getUserDefinedPropertySource() {
-        return (String) eGet(Ifc2x3tc1Package.Literals.IFC_FLUID_FLOW_PROPERTIES__USER_DEFINED_PROPERTY_SOURCE, true);
+        return (String) eGet(Ifc2x3tc1Package.eINSTANCE.getIfcFluidFlowProperties_UserDefinedPropertySource(), true);
     }
 
     /**
@@ -296,7 +297,7 @@ public class IfcFluidFlowPropertiesImpl extends IfcPropertySetDefinitionImpl imp
      */
     @Override
     public void setUserDefinedPropertySource(String newUserDefinedPropertySource) {
-        eSet(Ifc2x3tc1Package.Literals.IFC_FLUID_FLOW_PROPERTIES__USER_DEFINED_PROPERTY_SOURCE,
+        eSet(Ifc2x3tc1Package.eINSTANCE.getIfcFluidFlowProperties_UserDefinedPropertySource(),
                 newUserDefinedPropertySource);
     }
 
@@ -307,7 +308,7 @@ public class IfcFluidFlowPropertiesImpl extends IfcPropertySetDefinitionImpl imp
      */
     @Override
     public void unsetUserDefinedPropertySource() {
-        eUnset(Ifc2x3tc1Package.Literals.IFC_FLUID_FLOW_PROPERTIES__USER_DEFINED_PROPERTY_SOURCE);
+        eUnset(Ifc2x3tc1Package.eINSTANCE.getIfcFluidFlowProperties_UserDefinedPropertySource());
     }
 
     /**
@@ -317,7 +318,7 @@ public class IfcFluidFlowPropertiesImpl extends IfcPropertySetDefinitionImpl imp
      */
     @Override
     public boolean isSetUserDefinedPropertySource() {
-        return eIsSet(Ifc2x3tc1Package.Literals.IFC_FLUID_FLOW_PROPERTIES__USER_DEFINED_PROPERTY_SOURCE);
+        return eIsSet(Ifc2x3tc1Package.eINSTANCE.getIfcFluidFlowProperties_UserDefinedPropertySource());
     }
 
     /**
@@ -327,7 +328,7 @@ public class IfcFluidFlowPropertiesImpl extends IfcPropertySetDefinitionImpl imp
      */
     @Override
     public double getTemperatureSingleValue() {
-        return (Double) eGet(Ifc2x3tc1Package.Literals.IFC_FLUID_FLOW_PROPERTIES__TEMPERATURE_SINGLE_VALUE, true);
+        return (Double) eGet(Ifc2x3tc1Package.eINSTANCE.getIfcFluidFlowProperties_TemperatureSingleValue(), true);
     }
 
     /**
@@ -337,7 +338,7 @@ public class IfcFluidFlowPropertiesImpl extends IfcPropertySetDefinitionImpl imp
      */
     @Override
     public void setTemperatureSingleValue(double newTemperatureSingleValue) {
-        eSet(Ifc2x3tc1Package.Literals.IFC_FLUID_FLOW_PROPERTIES__TEMPERATURE_SINGLE_VALUE, newTemperatureSingleValue);
+        eSet(Ifc2x3tc1Package.eINSTANCE.getIfcFluidFlowProperties_TemperatureSingleValue(), newTemperatureSingleValue);
     }
 
     /**
@@ -347,7 +348,7 @@ public class IfcFluidFlowPropertiesImpl extends IfcPropertySetDefinitionImpl imp
      */
     @Override
     public void unsetTemperatureSingleValue() {
-        eUnset(Ifc2x3tc1Package.Literals.IFC_FLUID_FLOW_PROPERTIES__TEMPERATURE_SINGLE_VALUE);
+        eUnset(Ifc2x3tc1Package.eINSTANCE.getIfcFluidFlowProperties_TemperatureSingleValue());
     }
 
     /**
@@ -357,7 +358,7 @@ public class IfcFluidFlowPropertiesImpl extends IfcPropertySetDefinitionImpl imp
      */
     @Override
     public boolean isSetTemperatureSingleValue() {
-        return eIsSet(Ifc2x3tc1Package.Literals.IFC_FLUID_FLOW_PROPERTIES__TEMPERATURE_SINGLE_VALUE);
+        return eIsSet(Ifc2x3tc1Package.eINSTANCE.getIfcFluidFlowProperties_TemperatureSingleValue());
     }
 
     /**
@@ -367,7 +368,7 @@ public class IfcFluidFlowPropertiesImpl extends IfcPropertySetDefinitionImpl imp
      */
     @Override
     public String getTemperatureSingleValueAsString() {
-        return (String) eGet(Ifc2x3tc1Package.Literals.IFC_FLUID_FLOW_PROPERTIES__TEMPERATURE_SINGLE_VALUE_AS_STRING,
+        return (String) eGet(Ifc2x3tc1Package.eINSTANCE.getIfcFluidFlowProperties_TemperatureSingleValueAsString(),
                 true);
     }
 
@@ -378,7 +379,7 @@ public class IfcFluidFlowPropertiesImpl extends IfcPropertySetDefinitionImpl imp
      */
     @Override
     public void setTemperatureSingleValueAsString(String newTemperatureSingleValueAsString) {
-        eSet(Ifc2x3tc1Package.Literals.IFC_FLUID_FLOW_PROPERTIES__TEMPERATURE_SINGLE_VALUE_AS_STRING,
+        eSet(Ifc2x3tc1Package.eINSTANCE.getIfcFluidFlowProperties_TemperatureSingleValueAsString(),
                 newTemperatureSingleValueAsString);
     }
 
@@ -389,7 +390,7 @@ public class IfcFluidFlowPropertiesImpl extends IfcPropertySetDefinitionImpl imp
      */
     @Override
     public void unsetTemperatureSingleValueAsString() {
-        eUnset(Ifc2x3tc1Package.Literals.IFC_FLUID_FLOW_PROPERTIES__TEMPERATURE_SINGLE_VALUE_AS_STRING);
+        eUnset(Ifc2x3tc1Package.eINSTANCE.getIfcFluidFlowProperties_TemperatureSingleValueAsString());
     }
 
     /**
@@ -399,7 +400,7 @@ public class IfcFluidFlowPropertiesImpl extends IfcPropertySetDefinitionImpl imp
      */
     @Override
     public boolean isSetTemperatureSingleValueAsString() {
-        return eIsSet(Ifc2x3tc1Package.Literals.IFC_FLUID_FLOW_PROPERTIES__TEMPERATURE_SINGLE_VALUE_AS_STRING);
+        return eIsSet(Ifc2x3tc1Package.eINSTANCE.getIfcFluidFlowProperties_TemperatureSingleValueAsString());
     }
 
     /**
@@ -409,7 +410,7 @@ public class IfcFluidFlowPropertiesImpl extends IfcPropertySetDefinitionImpl imp
      */
     @Override
     public double getWetBulbTemperatureSingleValue() {
-        return (Double) eGet(Ifc2x3tc1Package.Literals.IFC_FLUID_FLOW_PROPERTIES__WET_BULB_TEMPERATURE_SINGLE_VALUE,
+        return (Double) eGet(Ifc2x3tc1Package.eINSTANCE.getIfcFluidFlowProperties_WetBulbTemperatureSingleValue(),
                 true);
     }
 
@@ -420,7 +421,7 @@ public class IfcFluidFlowPropertiesImpl extends IfcPropertySetDefinitionImpl imp
      */
     @Override
     public void setWetBulbTemperatureSingleValue(double newWetBulbTemperatureSingleValue) {
-        eSet(Ifc2x3tc1Package.Literals.IFC_FLUID_FLOW_PROPERTIES__WET_BULB_TEMPERATURE_SINGLE_VALUE,
+        eSet(Ifc2x3tc1Package.eINSTANCE.getIfcFluidFlowProperties_WetBulbTemperatureSingleValue(),
                 newWetBulbTemperatureSingleValue);
     }
 
@@ -431,7 +432,7 @@ public class IfcFluidFlowPropertiesImpl extends IfcPropertySetDefinitionImpl imp
      */
     @Override
     public void unsetWetBulbTemperatureSingleValue() {
-        eUnset(Ifc2x3tc1Package.Literals.IFC_FLUID_FLOW_PROPERTIES__WET_BULB_TEMPERATURE_SINGLE_VALUE);
+        eUnset(Ifc2x3tc1Package.eINSTANCE.getIfcFluidFlowProperties_WetBulbTemperatureSingleValue());
     }
 
     /**
@@ -441,7 +442,7 @@ public class IfcFluidFlowPropertiesImpl extends IfcPropertySetDefinitionImpl imp
      */
     @Override
     public boolean isSetWetBulbTemperatureSingleValue() {
-        return eIsSet(Ifc2x3tc1Package.Literals.IFC_FLUID_FLOW_PROPERTIES__WET_BULB_TEMPERATURE_SINGLE_VALUE);
+        return eIsSet(Ifc2x3tc1Package.eINSTANCE.getIfcFluidFlowProperties_WetBulbTemperatureSingleValue());
     }
 
     /**
@@ -452,7 +453,7 @@ public class IfcFluidFlowPropertiesImpl extends IfcPropertySetDefinitionImpl imp
     @Override
     public String getWetBulbTemperatureSingleValueAsString() {
         return (String) eGet(
-                Ifc2x3tc1Package.Literals.IFC_FLUID_FLOW_PROPERTIES__WET_BULB_TEMPERATURE_SINGLE_VALUE_AS_STRING, true);
+                Ifc2x3tc1Package.eINSTANCE.getIfcFluidFlowProperties_WetBulbTemperatureSingleValueAsString(), true);
     }
 
     /**
@@ -462,7 +463,7 @@ public class IfcFluidFlowPropertiesImpl extends IfcPropertySetDefinitionImpl imp
      */
     @Override
     public void setWetBulbTemperatureSingleValueAsString(String newWetBulbTemperatureSingleValueAsString) {
-        eSet(Ifc2x3tc1Package.Literals.IFC_FLUID_FLOW_PROPERTIES__WET_BULB_TEMPERATURE_SINGLE_VALUE_AS_STRING,
+        eSet(Ifc2x3tc1Package.eINSTANCE.getIfcFluidFlowProperties_WetBulbTemperatureSingleValueAsString(),
                 newWetBulbTemperatureSingleValueAsString);
     }
 
@@ -473,7 +474,7 @@ public class IfcFluidFlowPropertiesImpl extends IfcPropertySetDefinitionImpl imp
      */
     @Override
     public void unsetWetBulbTemperatureSingleValueAsString() {
-        eUnset(Ifc2x3tc1Package.Literals.IFC_FLUID_FLOW_PROPERTIES__WET_BULB_TEMPERATURE_SINGLE_VALUE_AS_STRING);
+        eUnset(Ifc2x3tc1Package.eINSTANCE.getIfcFluidFlowProperties_WetBulbTemperatureSingleValueAsString());
     }
 
     /**
@@ -483,7 +484,7 @@ public class IfcFluidFlowPropertiesImpl extends IfcPropertySetDefinitionImpl imp
      */
     @Override
     public boolean isSetWetBulbTemperatureSingleValueAsString() {
-        return eIsSet(Ifc2x3tc1Package.Literals.IFC_FLUID_FLOW_PROPERTIES__WET_BULB_TEMPERATURE_SINGLE_VALUE_AS_STRING);
+        return eIsSet(Ifc2x3tc1Package.eINSTANCE.getIfcFluidFlowProperties_WetBulbTemperatureSingleValueAsString());
     }
 
     /**
@@ -493,8 +494,8 @@ public class IfcFluidFlowPropertiesImpl extends IfcPropertySetDefinitionImpl imp
      */
     @Override
     public IfcTimeSeries getWetBulbTemperatureTimeSeries() {
-        return (IfcTimeSeries) eGet(
-                Ifc2x3tc1Package.Literals.IFC_FLUID_FLOW_PROPERTIES__WET_BULB_TEMPERATURE_TIME_SERIES, true);
+        return (IfcTimeSeries) eGet(Ifc2x3tc1Package.eINSTANCE.getIfcFluidFlowProperties_WetBulbTemperatureTimeSeries(),
+                true);
     }
 
     /**
@@ -504,7 +505,7 @@ public class IfcFluidFlowPropertiesImpl extends IfcPropertySetDefinitionImpl imp
      */
     @Override
     public void setWetBulbTemperatureTimeSeries(IfcTimeSeries newWetBulbTemperatureTimeSeries) {
-        eSet(Ifc2x3tc1Package.Literals.IFC_FLUID_FLOW_PROPERTIES__WET_BULB_TEMPERATURE_TIME_SERIES,
+        eSet(Ifc2x3tc1Package.eINSTANCE.getIfcFluidFlowProperties_WetBulbTemperatureTimeSeries(),
                 newWetBulbTemperatureTimeSeries);
     }
 
@@ -515,7 +516,7 @@ public class IfcFluidFlowPropertiesImpl extends IfcPropertySetDefinitionImpl imp
      */
     @Override
     public void unsetWetBulbTemperatureTimeSeries() {
-        eUnset(Ifc2x3tc1Package.Literals.IFC_FLUID_FLOW_PROPERTIES__WET_BULB_TEMPERATURE_TIME_SERIES);
+        eUnset(Ifc2x3tc1Package.eINSTANCE.getIfcFluidFlowProperties_WetBulbTemperatureTimeSeries());
     }
 
     /**
@@ -525,7 +526,7 @@ public class IfcFluidFlowPropertiesImpl extends IfcPropertySetDefinitionImpl imp
      */
     @Override
     public boolean isSetWetBulbTemperatureTimeSeries() {
-        return eIsSet(Ifc2x3tc1Package.Literals.IFC_FLUID_FLOW_PROPERTIES__WET_BULB_TEMPERATURE_TIME_SERIES);
+        return eIsSet(Ifc2x3tc1Package.eINSTANCE.getIfcFluidFlowProperties_WetBulbTemperatureTimeSeries());
     }
 
     /**
@@ -535,7 +536,7 @@ public class IfcFluidFlowPropertiesImpl extends IfcPropertySetDefinitionImpl imp
      */
     @Override
     public IfcTimeSeries getTemperatureTimeSeries() {
-        return (IfcTimeSeries) eGet(Ifc2x3tc1Package.Literals.IFC_FLUID_FLOW_PROPERTIES__TEMPERATURE_TIME_SERIES, true);
+        return (IfcTimeSeries) eGet(Ifc2x3tc1Package.eINSTANCE.getIfcFluidFlowProperties_TemperatureTimeSeries(), true);
     }
 
     /**
@@ -545,7 +546,7 @@ public class IfcFluidFlowPropertiesImpl extends IfcPropertySetDefinitionImpl imp
      */
     @Override
     public void setTemperatureTimeSeries(IfcTimeSeries newTemperatureTimeSeries) {
-        eSet(Ifc2x3tc1Package.Literals.IFC_FLUID_FLOW_PROPERTIES__TEMPERATURE_TIME_SERIES, newTemperatureTimeSeries);
+        eSet(Ifc2x3tc1Package.eINSTANCE.getIfcFluidFlowProperties_TemperatureTimeSeries(), newTemperatureTimeSeries);
     }
 
     /**
@@ -555,7 +556,7 @@ public class IfcFluidFlowPropertiesImpl extends IfcPropertySetDefinitionImpl imp
      */
     @Override
     public void unsetTemperatureTimeSeries() {
-        eUnset(Ifc2x3tc1Package.Literals.IFC_FLUID_FLOW_PROPERTIES__TEMPERATURE_TIME_SERIES);
+        eUnset(Ifc2x3tc1Package.eINSTANCE.getIfcFluidFlowProperties_TemperatureTimeSeries());
     }
 
     /**
@@ -565,7 +566,7 @@ public class IfcFluidFlowPropertiesImpl extends IfcPropertySetDefinitionImpl imp
      */
     @Override
     public boolean isSetTemperatureTimeSeries() {
-        return eIsSet(Ifc2x3tc1Package.Literals.IFC_FLUID_FLOW_PROPERTIES__TEMPERATURE_TIME_SERIES);
+        return eIsSet(Ifc2x3tc1Package.eINSTANCE.getIfcFluidFlowProperties_TemperatureTimeSeries());
     }
 
     /**
@@ -575,7 +576,7 @@ public class IfcFluidFlowPropertiesImpl extends IfcPropertySetDefinitionImpl imp
      */
     @Override
     public IfcDerivedMeasureValue getFlowrateSingleValue() {
-        return (IfcDerivedMeasureValue) eGet(Ifc2x3tc1Package.Literals.IFC_FLUID_FLOW_PROPERTIES__FLOWRATE_SINGLE_VALUE,
+        return (IfcDerivedMeasureValue) eGet(Ifc2x3tc1Package.eINSTANCE.getIfcFluidFlowProperties_FlowrateSingleValue(),
                 true);
     }
 
@@ -586,7 +587,7 @@ public class IfcFluidFlowPropertiesImpl extends IfcPropertySetDefinitionImpl imp
      */
     @Override
     public void setFlowrateSingleValue(IfcDerivedMeasureValue newFlowrateSingleValue) {
-        eSet(Ifc2x3tc1Package.Literals.IFC_FLUID_FLOW_PROPERTIES__FLOWRATE_SINGLE_VALUE, newFlowrateSingleValue);
+        eSet(Ifc2x3tc1Package.eINSTANCE.getIfcFluidFlowProperties_FlowrateSingleValue(), newFlowrateSingleValue);
     }
 
     /**
@@ -596,7 +597,7 @@ public class IfcFluidFlowPropertiesImpl extends IfcPropertySetDefinitionImpl imp
      */
     @Override
     public void unsetFlowrateSingleValue() {
-        eUnset(Ifc2x3tc1Package.Literals.IFC_FLUID_FLOW_PROPERTIES__FLOWRATE_SINGLE_VALUE);
+        eUnset(Ifc2x3tc1Package.eINSTANCE.getIfcFluidFlowProperties_FlowrateSingleValue());
     }
 
     /**
@@ -606,7 +607,7 @@ public class IfcFluidFlowPropertiesImpl extends IfcPropertySetDefinitionImpl imp
      */
     @Override
     public boolean isSetFlowrateSingleValue() {
-        return eIsSet(Ifc2x3tc1Package.Literals.IFC_FLUID_FLOW_PROPERTIES__FLOWRATE_SINGLE_VALUE);
+        return eIsSet(Ifc2x3tc1Package.eINSTANCE.getIfcFluidFlowProperties_FlowrateSingleValue());
     }
 
     /**
@@ -616,7 +617,7 @@ public class IfcFluidFlowPropertiesImpl extends IfcPropertySetDefinitionImpl imp
      */
     @Override
     public double getFlowConditionSingleValue() {
-        return (Double) eGet(Ifc2x3tc1Package.Literals.IFC_FLUID_FLOW_PROPERTIES__FLOW_CONDITION_SINGLE_VALUE, true);
+        return (Double) eGet(Ifc2x3tc1Package.eINSTANCE.getIfcFluidFlowProperties_FlowConditionSingleValue(), true);
     }
 
     /**
@@ -626,7 +627,7 @@ public class IfcFluidFlowPropertiesImpl extends IfcPropertySetDefinitionImpl imp
      */
     @Override
     public void setFlowConditionSingleValue(double newFlowConditionSingleValue) {
-        eSet(Ifc2x3tc1Package.Literals.IFC_FLUID_FLOW_PROPERTIES__FLOW_CONDITION_SINGLE_VALUE,
+        eSet(Ifc2x3tc1Package.eINSTANCE.getIfcFluidFlowProperties_FlowConditionSingleValue(),
                 newFlowConditionSingleValue);
     }
 
@@ -637,7 +638,7 @@ public class IfcFluidFlowPropertiesImpl extends IfcPropertySetDefinitionImpl imp
      */
     @Override
     public void unsetFlowConditionSingleValue() {
-        eUnset(Ifc2x3tc1Package.Literals.IFC_FLUID_FLOW_PROPERTIES__FLOW_CONDITION_SINGLE_VALUE);
+        eUnset(Ifc2x3tc1Package.eINSTANCE.getIfcFluidFlowProperties_FlowConditionSingleValue());
     }
 
     /**
@@ -647,7 +648,7 @@ public class IfcFluidFlowPropertiesImpl extends IfcPropertySetDefinitionImpl imp
      */
     @Override
     public boolean isSetFlowConditionSingleValue() {
-        return eIsSet(Ifc2x3tc1Package.Literals.IFC_FLUID_FLOW_PROPERTIES__FLOW_CONDITION_SINGLE_VALUE);
+        return eIsSet(Ifc2x3tc1Package.eINSTANCE.getIfcFluidFlowProperties_FlowConditionSingleValue());
     }
 
     /**
@@ -657,7 +658,7 @@ public class IfcFluidFlowPropertiesImpl extends IfcPropertySetDefinitionImpl imp
      */
     @Override
     public String getFlowConditionSingleValueAsString() {
-        return (String) eGet(Ifc2x3tc1Package.Literals.IFC_FLUID_FLOW_PROPERTIES__FLOW_CONDITION_SINGLE_VALUE_AS_STRING,
+        return (String) eGet(Ifc2x3tc1Package.eINSTANCE.getIfcFluidFlowProperties_FlowConditionSingleValueAsString(),
                 true);
     }
 
@@ -668,7 +669,7 @@ public class IfcFluidFlowPropertiesImpl extends IfcPropertySetDefinitionImpl imp
      */
     @Override
     public void setFlowConditionSingleValueAsString(String newFlowConditionSingleValueAsString) {
-        eSet(Ifc2x3tc1Package.Literals.IFC_FLUID_FLOW_PROPERTIES__FLOW_CONDITION_SINGLE_VALUE_AS_STRING,
+        eSet(Ifc2x3tc1Package.eINSTANCE.getIfcFluidFlowProperties_FlowConditionSingleValueAsString(),
                 newFlowConditionSingleValueAsString);
     }
 
@@ -679,7 +680,7 @@ public class IfcFluidFlowPropertiesImpl extends IfcPropertySetDefinitionImpl imp
      */
     @Override
     public void unsetFlowConditionSingleValueAsString() {
-        eUnset(Ifc2x3tc1Package.Literals.IFC_FLUID_FLOW_PROPERTIES__FLOW_CONDITION_SINGLE_VALUE_AS_STRING);
+        eUnset(Ifc2x3tc1Package.eINSTANCE.getIfcFluidFlowProperties_FlowConditionSingleValueAsString());
     }
 
     /**
@@ -689,7 +690,7 @@ public class IfcFluidFlowPropertiesImpl extends IfcPropertySetDefinitionImpl imp
      */
     @Override
     public boolean isSetFlowConditionSingleValueAsString() {
-        return eIsSet(Ifc2x3tc1Package.Literals.IFC_FLUID_FLOW_PROPERTIES__FLOW_CONDITION_SINGLE_VALUE_AS_STRING);
+        return eIsSet(Ifc2x3tc1Package.eINSTANCE.getIfcFluidFlowProperties_FlowConditionSingleValueAsString());
     }
 
     /**
@@ -699,7 +700,7 @@ public class IfcFluidFlowPropertiesImpl extends IfcPropertySetDefinitionImpl imp
      */
     @Override
     public double getVelocitySingleValue() {
-        return (Double) eGet(Ifc2x3tc1Package.Literals.IFC_FLUID_FLOW_PROPERTIES__VELOCITY_SINGLE_VALUE, true);
+        return (Double) eGet(Ifc2x3tc1Package.eINSTANCE.getIfcFluidFlowProperties_VelocitySingleValue(), true);
     }
 
     /**
@@ -709,7 +710,7 @@ public class IfcFluidFlowPropertiesImpl extends IfcPropertySetDefinitionImpl imp
      */
     @Override
     public void setVelocitySingleValue(double newVelocitySingleValue) {
-        eSet(Ifc2x3tc1Package.Literals.IFC_FLUID_FLOW_PROPERTIES__VELOCITY_SINGLE_VALUE, newVelocitySingleValue);
+        eSet(Ifc2x3tc1Package.eINSTANCE.getIfcFluidFlowProperties_VelocitySingleValue(), newVelocitySingleValue);
     }
 
     /**
@@ -719,7 +720,7 @@ public class IfcFluidFlowPropertiesImpl extends IfcPropertySetDefinitionImpl imp
      */
     @Override
     public void unsetVelocitySingleValue() {
-        eUnset(Ifc2x3tc1Package.Literals.IFC_FLUID_FLOW_PROPERTIES__VELOCITY_SINGLE_VALUE);
+        eUnset(Ifc2x3tc1Package.eINSTANCE.getIfcFluidFlowProperties_VelocitySingleValue());
     }
 
     /**
@@ -729,7 +730,7 @@ public class IfcFluidFlowPropertiesImpl extends IfcPropertySetDefinitionImpl imp
      */
     @Override
     public boolean isSetVelocitySingleValue() {
-        return eIsSet(Ifc2x3tc1Package.Literals.IFC_FLUID_FLOW_PROPERTIES__VELOCITY_SINGLE_VALUE);
+        return eIsSet(Ifc2x3tc1Package.eINSTANCE.getIfcFluidFlowProperties_VelocitySingleValue());
     }
 
     /**
@@ -739,8 +740,7 @@ public class IfcFluidFlowPropertiesImpl extends IfcPropertySetDefinitionImpl imp
      */
     @Override
     public String getVelocitySingleValueAsString() {
-        return (String) eGet(Ifc2x3tc1Package.Literals.IFC_FLUID_FLOW_PROPERTIES__VELOCITY_SINGLE_VALUE_AS_STRING,
-                true);
+        return (String) eGet(Ifc2x3tc1Package.eINSTANCE.getIfcFluidFlowProperties_VelocitySingleValueAsString(), true);
     }
 
     /**
@@ -750,7 +750,7 @@ public class IfcFluidFlowPropertiesImpl extends IfcPropertySetDefinitionImpl imp
      */
     @Override
     public void setVelocitySingleValueAsString(String newVelocitySingleValueAsString) {
-        eSet(Ifc2x3tc1Package.Literals.IFC_FLUID_FLOW_PROPERTIES__VELOCITY_SINGLE_VALUE_AS_STRING,
+        eSet(Ifc2x3tc1Package.eINSTANCE.getIfcFluidFlowProperties_VelocitySingleValueAsString(),
                 newVelocitySingleValueAsString);
     }
 
@@ -761,7 +761,7 @@ public class IfcFluidFlowPropertiesImpl extends IfcPropertySetDefinitionImpl imp
      */
     @Override
     public void unsetVelocitySingleValueAsString() {
-        eUnset(Ifc2x3tc1Package.Literals.IFC_FLUID_FLOW_PROPERTIES__VELOCITY_SINGLE_VALUE_AS_STRING);
+        eUnset(Ifc2x3tc1Package.eINSTANCE.getIfcFluidFlowProperties_VelocitySingleValueAsString());
     }
 
     /**
@@ -771,7 +771,7 @@ public class IfcFluidFlowPropertiesImpl extends IfcPropertySetDefinitionImpl imp
      */
     @Override
     public boolean isSetVelocitySingleValueAsString() {
-        return eIsSet(Ifc2x3tc1Package.Literals.IFC_FLUID_FLOW_PROPERTIES__VELOCITY_SINGLE_VALUE_AS_STRING);
+        return eIsSet(Ifc2x3tc1Package.eINSTANCE.getIfcFluidFlowProperties_VelocitySingleValueAsString());
     }
 
     /**
@@ -781,7 +781,7 @@ public class IfcFluidFlowPropertiesImpl extends IfcPropertySetDefinitionImpl imp
      */
     @Override
     public double getPressureSingleValue() {
-        return (Double) eGet(Ifc2x3tc1Package.Literals.IFC_FLUID_FLOW_PROPERTIES__PRESSURE_SINGLE_VALUE, true);
+        return (Double) eGet(Ifc2x3tc1Package.eINSTANCE.getIfcFluidFlowProperties_PressureSingleValue(), true);
     }
 
     /**
@@ -791,7 +791,7 @@ public class IfcFluidFlowPropertiesImpl extends IfcPropertySetDefinitionImpl imp
      */
     @Override
     public void setPressureSingleValue(double newPressureSingleValue) {
-        eSet(Ifc2x3tc1Package.Literals.IFC_FLUID_FLOW_PROPERTIES__PRESSURE_SINGLE_VALUE, newPressureSingleValue);
+        eSet(Ifc2x3tc1Package.eINSTANCE.getIfcFluidFlowProperties_PressureSingleValue(), newPressureSingleValue);
     }
 
     /**
@@ -801,7 +801,7 @@ public class IfcFluidFlowPropertiesImpl extends IfcPropertySetDefinitionImpl imp
      */
     @Override
     public void unsetPressureSingleValue() {
-        eUnset(Ifc2x3tc1Package.Literals.IFC_FLUID_FLOW_PROPERTIES__PRESSURE_SINGLE_VALUE);
+        eUnset(Ifc2x3tc1Package.eINSTANCE.getIfcFluidFlowProperties_PressureSingleValue());
     }
 
     /**
@@ -811,7 +811,7 @@ public class IfcFluidFlowPropertiesImpl extends IfcPropertySetDefinitionImpl imp
      */
     @Override
     public boolean isSetPressureSingleValue() {
-        return eIsSet(Ifc2x3tc1Package.Literals.IFC_FLUID_FLOW_PROPERTIES__PRESSURE_SINGLE_VALUE);
+        return eIsSet(Ifc2x3tc1Package.eINSTANCE.getIfcFluidFlowProperties_PressureSingleValue());
     }
 
     /**
@@ -821,8 +821,7 @@ public class IfcFluidFlowPropertiesImpl extends IfcPropertySetDefinitionImpl imp
      */
     @Override
     public String getPressureSingleValueAsString() {
-        return (String) eGet(Ifc2x3tc1Package.Literals.IFC_FLUID_FLOW_PROPERTIES__PRESSURE_SINGLE_VALUE_AS_STRING,
-                true);
+        return (String) eGet(Ifc2x3tc1Package.eINSTANCE.getIfcFluidFlowProperties_PressureSingleValueAsString(), true);
     }
 
     /**
@@ -832,7 +831,7 @@ public class IfcFluidFlowPropertiesImpl extends IfcPropertySetDefinitionImpl imp
      */
     @Override
     public void setPressureSingleValueAsString(String newPressureSingleValueAsString) {
-        eSet(Ifc2x3tc1Package.Literals.IFC_FLUID_FLOW_PROPERTIES__PRESSURE_SINGLE_VALUE_AS_STRING,
+        eSet(Ifc2x3tc1Package.eINSTANCE.getIfcFluidFlowProperties_PressureSingleValueAsString(),
                 newPressureSingleValueAsString);
     }
 
@@ -843,7 +842,7 @@ public class IfcFluidFlowPropertiesImpl extends IfcPropertySetDefinitionImpl imp
      */
     @Override
     public void unsetPressureSingleValueAsString() {
-        eUnset(Ifc2x3tc1Package.Literals.IFC_FLUID_FLOW_PROPERTIES__PRESSURE_SINGLE_VALUE_AS_STRING);
+        eUnset(Ifc2x3tc1Package.eINSTANCE.getIfcFluidFlowProperties_PressureSingleValueAsString());
     }
 
     /**
@@ -853,7 +852,7 @@ public class IfcFluidFlowPropertiesImpl extends IfcPropertySetDefinitionImpl imp
      */
     @Override
     public boolean isSetPressureSingleValueAsString() {
-        return eIsSet(Ifc2x3tc1Package.Literals.IFC_FLUID_FLOW_PROPERTIES__PRESSURE_SINGLE_VALUE_AS_STRING);
+        return eIsSet(Ifc2x3tc1Package.eINSTANCE.getIfcFluidFlowProperties_PressureSingleValueAsString());
     }
 
 } //IfcFluidFlowPropertiesImpl

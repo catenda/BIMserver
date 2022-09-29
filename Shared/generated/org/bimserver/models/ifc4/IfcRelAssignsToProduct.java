@@ -36,10 +36,6 @@ public interface IfcRelAssignsToProduct extends IfcRelAssigns {
     /**
      * Returns the value of the '<em><b>Relating Product</b></em>' reference.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Relating Product</em>' reference isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Relating Product</em>' reference.
      * @see #setRelatingProduct(IfcProductSelect)

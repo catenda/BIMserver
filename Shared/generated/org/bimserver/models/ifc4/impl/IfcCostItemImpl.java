@@ -58,7 +58,7 @@ public class IfcCostItemImpl extends IfcControlImpl implements IfcCostItem {
      */
     @Override
     protected EClass eStaticClass() {
-        return Ifc4Package.Literals.IFC_COST_ITEM;
+        return Ifc4Package.eINSTANCE.getIfcCostItem();
     }
 
     /**
@@ -68,7 +68,7 @@ public class IfcCostItemImpl extends IfcControlImpl implements IfcCostItem {
      */
     @Override
     public IfcCostItemTypeEnum getPredefinedType() {
-        return (IfcCostItemTypeEnum) eGet(Ifc4Package.Literals.IFC_COST_ITEM__PREDEFINED_TYPE, true);
+        return (IfcCostItemTypeEnum) eGet(Ifc4Package.eINSTANCE.getIfcCostItem_PredefinedType(), true);
     }
 
     /**
@@ -78,7 +78,7 @@ public class IfcCostItemImpl extends IfcControlImpl implements IfcCostItem {
      */
     @Override
     public void setPredefinedType(IfcCostItemTypeEnum newPredefinedType) {
-        eSet(Ifc4Package.Literals.IFC_COST_ITEM__PREDEFINED_TYPE, newPredefinedType);
+        eSet(Ifc4Package.eINSTANCE.getIfcCostItem_PredefinedType(), newPredefinedType);
     }
 
     /**
@@ -88,7 +88,7 @@ public class IfcCostItemImpl extends IfcControlImpl implements IfcCostItem {
      */
     @Override
     public void unsetPredefinedType() {
-        eUnset(Ifc4Package.Literals.IFC_COST_ITEM__PREDEFINED_TYPE);
+        eUnset(Ifc4Package.eINSTANCE.getIfcCostItem_PredefinedType());
     }
 
     /**
@@ -98,7 +98,7 @@ public class IfcCostItemImpl extends IfcControlImpl implements IfcCostItem {
      */
     @Override
     public boolean isSetPredefinedType() {
-        return eIsSet(Ifc4Package.Literals.IFC_COST_ITEM__PREDEFINED_TYPE);
+        return eIsSet(Ifc4Package.eINSTANCE.getIfcCostItem_PredefinedType());
     }
 
     /**
@@ -109,7 +109,7 @@ public class IfcCostItemImpl extends IfcControlImpl implements IfcCostItem {
     @SuppressWarnings("unchecked")
     @Override
     public EList<IfcCostValue> getCostValues() {
-        return (EList<IfcCostValue>) eGet(Ifc4Package.Literals.IFC_COST_ITEM__COST_VALUES, true);
+        return (EList<IfcCostValue>) eGet(Ifc4Package.eINSTANCE.getIfcCostItem_CostValues(), true);
     }
 
     /**
@@ -119,7 +119,7 @@ public class IfcCostItemImpl extends IfcControlImpl implements IfcCostItem {
      */
     @Override
     public void unsetCostValues() {
-        eUnset(Ifc4Package.Literals.IFC_COST_ITEM__COST_VALUES);
+        eUnset(Ifc4Package.eINSTANCE.getIfcCostItem_CostValues());
     }
 
     /**
@@ -129,7 +129,7 @@ public class IfcCostItemImpl extends IfcControlImpl implements IfcCostItem {
      */
     @Override
     public boolean isSetCostValues() {
-        return eIsSet(Ifc4Package.Literals.IFC_COST_ITEM__COST_VALUES);
+        return eIsSet(Ifc4Package.eINSTANCE.getIfcCostItem_CostValues());
     }
 
     /**
@@ -140,7 +140,7 @@ public class IfcCostItemImpl extends IfcControlImpl implements IfcCostItem {
     @SuppressWarnings("unchecked")
     @Override
     public EList<IfcPhysicalQuantity> getCostQuantities() {
-        return (EList<IfcPhysicalQuantity>) eGet(Ifc4Package.Literals.IFC_COST_ITEM__COST_QUANTITIES, true);
+        return (EList<IfcPhysicalQuantity>) eGet(Ifc4Package.eINSTANCE.getIfcCostItem_CostQuantities(), true);
     }
 
     /**
@@ -150,7 +150,7 @@ public class IfcCostItemImpl extends IfcControlImpl implements IfcCostItem {
      */
     @Override
     public void unsetCostQuantities() {
-        eUnset(Ifc4Package.Literals.IFC_COST_ITEM__COST_QUANTITIES);
+        eUnset(Ifc4Package.eINSTANCE.getIfcCostItem_CostQuantities());
     }
 
     /**
@@ -160,7 +160,7 @@ public class IfcCostItemImpl extends IfcControlImpl implements IfcCostItem {
      */
     @Override
     public boolean isSetCostQuantities() {
-        return eIsSet(Ifc4Package.Literals.IFC_COST_ITEM__COST_QUANTITIES);
+        return eIsSet(Ifc4Package.eINSTANCE.getIfcCostItem_CostQuantities());
     }
 
 } //IfcCostItemImpl

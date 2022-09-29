@@ -54,7 +54,7 @@ public class IfcLocalPlacementImpl extends IfcObjectPlacementImpl implements Ifc
      */
     @Override
     protected EClass eStaticClass() {
-        return Ifc4Package.Literals.IFC_LOCAL_PLACEMENT;
+        return Ifc4Package.eINSTANCE.getIfcLocalPlacement();
     }
 
     /**
@@ -64,7 +64,7 @@ public class IfcLocalPlacementImpl extends IfcObjectPlacementImpl implements Ifc
      */
     @Override
     public IfcObjectPlacement getPlacementRelTo() {
-        return (IfcObjectPlacement) eGet(Ifc4Package.Literals.IFC_LOCAL_PLACEMENT__PLACEMENT_REL_TO, true);
+        return (IfcObjectPlacement) eGet(Ifc4Package.eINSTANCE.getIfcLocalPlacement_PlacementRelTo(), true);
     }
 
     /**
@@ -74,7 +74,7 @@ public class IfcLocalPlacementImpl extends IfcObjectPlacementImpl implements Ifc
      */
     @Override
     public void setPlacementRelTo(IfcObjectPlacement newPlacementRelTo) {
-        eSet(Ifc4Package.Literals.IFC_LOCAL_PLACEMENT__PLACEMENT_REL_TO, newPlacementRelTo);
+        eSet(Ifc4Package.eINSTANCE.getIfcLocalPlacement_PlacementRelTo(), newPlacementRelTo);
     }
 
     /**
@@ -84,7 +84,7 @@ public class IfcLocalPlacementImpl extends IfcObjectPlacementImpl implements Ifc
      */
     @Override
     public void unsetPlacementRelTo() {
-        eUnset(Ifc4Package.Literals.IFC_LOCAL_PLACEMENT__PLACEMENT_REL_TO);
+        eUnset(Ifc4Package.eINSTANCE.getIfcLocalPlacement_PlacementRelTo());
     }
 
     /**
@@ -94,7 +94,7 @@ public class IfcLocalPlacementImpl extends IfcObjectPlacementImpl implements Ifc
      */
     @Override
     public boolean isSetPlacementRelTo() {
-        return eIsSet(Ifc4Package.Literals.IFC_LOCAL_PLACEMENT__PLACEMENT_REL_TO);
+        return eIsSet(Ifc4Package.eINSTANCE.getIfcLocalPlacement_PlacementRelTo());
     }
 
     /**
@@ -104,7 +104,7 @@ public class IfcLocalPlacementImpl extends IfcObjectPlacementImpl implements Ifc
      */
     @Override
     public IfcAxis2Placement getRelativePlacement() {
-        return (IfcAxis2Placement) eGet(Ifc4Package.Literals.IFC_LOCAL_PLACEMENT__RELATIVE_PLACEMENT, true);
+        return (IfcAxis2Placement) eGet(Ifc4Package.eINSTANCE.getIfcLocalPlacement_RelativePlacement(), true);
     }
 
     /**
@@ -114,7 +114,7 @@ public class IfcLocalPlacementImpl extends IfcObjectPlacementImpl implements Ifc
      */
     @Override
     public void setRelativePlacement(IfcAxis2Placement newRelativePlacement) {
-        eSet(Ifc4Package.Literals.IFC_LOCAL_PLACEMENT__RELATIVE_PLACEMENT, newRelativePlacement);
+        eSet(Ifc4Package.eINSTANCE.getIfcLocalPlacement_RelativePlacement(), newRelativePlacement);
     }
 
 } //IfcLocalPlacementImpl

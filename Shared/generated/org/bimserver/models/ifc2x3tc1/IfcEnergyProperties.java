@@ -38,10 +38,6 @@ public interface IfcEnergyProperties extends IfcPropertySetDefinition {
      * Returns the value of the '<em><b>Energy Sequence</b></em>' attribute.
      * The literals are from the enumeration {@link org.bimserver.models.ifc2x3tc1.IfcEnergySequenceEnum}.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Energy Sequence</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Energy Sequence</em>' attribute.
      * @see org.bimserver.models.ifc2x3tc1.IfcEnergySequenceEnum
@@ -93,10 +89,6 @@ public interface IfcEnergyProperties extends IfcPropertySetDefinition {
     /**
      * Returns the value of the '<em><b>User Defined Energy Sequence</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>User Defined Energy Sequence</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>User Defined Energy Sequence</em>' attribute.
      * @see #isSetUserDefinedEnergySequence()

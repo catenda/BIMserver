@@ -45,7 +45,7 @@ public class IfcRelOccupiesSpacesImpl extends IfcRelAssignsToActorImpl implement
      */
     @Override
     protected EClass eStaticClass() {
-        return Ifc2x3tc1Package.Literals.IFC_REL_OCCUPIES_SPACES;
+        return Ifc2x3tc1Package.eINSTANCE.getIfcRelOccupiesSpaces();
     }
 
 } //IfcRelOccupiesSpacesImpl

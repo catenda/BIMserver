@@ -40,10 +40,6 @@ public interface IfcProfileProperties extends IdEObject {
     /**
      * Returns the value of the '<em><b>Profile Name</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Profile Name</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Profile Name</em>' attribute.
      * @see #isSetProfileName()
@@ -93,10 +89,6 @@ public interface IfcProfileProperties extends IdEObject {
     /**
      * Returns the value of the '<em><b>Profile Definition</b></em>' reference.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Profile Definition</em>' reference isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Profile Definition</em>' reference.
      * @see #isSetProfileDefinition()

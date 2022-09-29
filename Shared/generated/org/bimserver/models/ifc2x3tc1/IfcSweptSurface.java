@@ -38,10 +38,6 @@ public interface IfcSweptSurface extends IfcSurface {
     /**
      * Returns the value of the '<em><b>Swept Curve</b></em>' reference.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Swept Curve</em>' reference isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Swept Curve</em>' reference.
      * @see #setSweptCurve(IfcProfileDef)
@@ -64,10 +60,6 @@ public interface IfcSweptSurface extends IfcSurface {
     /**
      * Returns the value of the '<em><b>Position</b></em>' reference.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Position</em>' reference isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Position</em>' reference.
      * @see #setPosition(IfcAxis2Placement3D)
@@ -90,10 +82,6 @@ public interface IfcSweptSurface extends IfcSurface {
     /**
      * Returns the value of the '<em><b>Dim</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Dim</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Dim</em>' attribute.
      * @see #isSetDim()

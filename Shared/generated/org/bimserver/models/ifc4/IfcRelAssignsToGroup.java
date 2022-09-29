@@ -37,10 +37,6 @@ public interface IfcRelAssignsToGroup extends IfcRelAssigns {
      * Returns the value of the '<em><b>Relating Group</b></em>' reference.
      * It is bidirectional and its opposite is '{@link org.bimserver.models.ifc4.IfcGroup#getIsGroupedBy <em>Is Grouped By</em>}'.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Relating Group</em>' reference isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Relating Group</em>' reference.
      * @see #setRelatingGroup(IfcGroup)

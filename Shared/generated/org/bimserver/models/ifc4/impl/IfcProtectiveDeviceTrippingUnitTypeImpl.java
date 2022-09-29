@@ -53,7 +53,7 @@ public class IfcProtectiveDeviceTrippingUnitTypeImpl extends IfcDistributionCont
      */
     @Override
     protected EClass eStaticClass() {
-        return Ifc4Package.Literals.IFC_PROTECTIVE_DEVICE_TRIPPING_UNIT_TYPE;
+        return Ifc4Package.eINSTANCE.getIfcProtectiveDeviceTrippingUnitType();
     }
 
     /**
@@ -64,7 +64,7 @@ public class IfcProtectiveDeviceTrippingUnitTypeImpl extends IfcDistributionCont
     @Override
     public IfcProtectiveDeviceTrippingUnitTypeEnum getPredefinedType() {
         return (IfcProtectiveDeviceTrippingUnitTypeEnum) eGet(
-                Ifc4Package.Literals.IFC_PROTECTIVE_DEVICE_TRIPPING_UNIT_TYPE__PREDEFINED_TYPE, true);
+                Ifc4Package.eINSTANCE.getIfcProtectiveDeviceTrippingUnitType_PredefinedType(), true);
     }
 
     /**
@@ -74,7 +74,7 @@ public class IfcProtectiveDeviceTrippingUnitTypeImpl extends IfcDistributionCont
      */
     @Override
     public void setPredefinedType(IfcProtectiveDeviceTrippingUnitTypeEnum newPredefinedType) {
-        eSet(Ifc4Package.Literals.IFC_PROTECTIVE_DEVICE_TRIPPING_UNIT_TYPE__PREDEFINED_TYPE, newPredefinedType);
+        eSet(Ifc4Package.eINSTANCE.getIfcProtectiveDeviceTrippingUnitType_PredefinedType(), newPredefinedType);
     }
 
 } //IfcProtectiveDeviceTrippingUnitTypeImpl

@@ -52,7 +52,7 @@ public class IfcStairTypeImpl extends IfcBuildingElementTypeImpl implements IfcS
      */
     @Override
     protected EClass eStaticClass() {
-        return Ifc4Package.Literals.IFC_STAIR_TYPE;
+        return Ifc4Package.eINSTANCE.getIfcStairType();
     }
 
     /**
@@ -62,7 +62,7 @@ public class IfcStairTypeImpl extends IfcBuildingElementTypeImpl implements IfcS
      */
     @Override
     public IfcStairTypeEnum getPredefinedType() {
-        return (IfcStairTypeEnum) eGet(Ifc4Package.Literals.IFC_STAIR_TYPE__PREDEFINED_TYPE, true);
+        return (IfcStairTypeEnum) eGet(Ifc4Package.eINSTANCE.getIfcStairType_PredefinedType(), true);
     }
 
     /**
@@ -72,7 +72,7 @@ public class IfcStairTypeImpl extends IfcBuildingElementTypeImpl implements IfcS
      */
     @Override
     public void setPredefinedType(IfcStairTypeEnum newPredefinedType) {
-        eSet(Ifc4Package.Literals.IFC_STAIR_TYPE__PREDEFINED_TYPE, newPredefinedType);
+        eSet(Ifc4Package.eINSTANCE.getIfcStairType_PredefinedType(), newPredefinedType);
     }
 
 } //IfcStairTypeImpl

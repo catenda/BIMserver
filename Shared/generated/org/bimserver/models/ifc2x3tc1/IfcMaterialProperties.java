@@ -39,10 +39,6 @@ public interface IfcMaterialProperties extends IdEObject {
     /**
      * Returns the value of the '<em><b>Material</b></em>' reference.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Material</em>' reference isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Material</em>' reference.
      * @see #setMaterial(IfcMaterial)

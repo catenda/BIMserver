@@ -45,7 +45,7 @@ public class IfcShapeRepresentationImpl extends IfcShapeModelImpl implements Ifc
      */
     @Override
     protected EClass eStaticClass() {
-        return Ifc4Package.Literals.IFC_SHAPE_REPRESENTATION;
+        return Ifc4Package.eINSTANCE.getIfcShapeRepresentation();
     }
 
 } //IfcShapeRepresentationImpl

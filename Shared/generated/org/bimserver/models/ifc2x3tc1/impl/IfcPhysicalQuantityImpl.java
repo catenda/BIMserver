@@ -58,7 +58,7 @@ public class IfcPhysicalQuantityImpl extends IdEObjectImpl implements IfcPhysica
      */
     @Override
     protected EClass eStaticClass() {
-        return Ifc2x3tc1Package.Literals.IFC_PHYSICAL_QUANTITY;
+        return Ifc2x3tc1Package.eINSTANCE.getIfcPhysicalQuantity();
     }
 
     /**
@@ -78,7 +78,7 @@ public class IfcPhysicalQuantityImpl extends IdEObjectImpl implements IfcPhysica
      */
     @Override
     public String getName() {
-        return (String) eGet(Ifc2x3tc1Package.Literals.IFC_PHYSICAL_QUANTITY__NAME, true);
+        return (String) eGet(Ifc2x3tc1Package.eINSTANCE.getIfcPhysicalQuantity_Name(), true);
     }
 
     /**
@@ -88,7 +88,7 @@ public class IfcPhysicalQuantityImpl extends IdEObjectImpl implements IfcPhysica
      */
     @Override
     public void setName(String newName) {
-        eSet(Ifc2x3tc1Package.Literals.IFC_PHYSICAL_QUANTITY__NAME, newName);
+        eSet(Ifc2x3tc1Package.eINSTANCE.getIfcPhysicalQuantity_Name(), newName);
     }
 
     /**
@@ -98,7 +98,7 @@ public class IfcPhysicalQuantityImpl extends IdEObjectImpl implements IfcPhysica
      */
     @Override
     public String getDescription() {
-        return (String) eGet(Ifc2x3tc1Package.Literals.IFC_PHYSICAL_QUANTITY__DESCRIPTION, true);
+        return (String) eGet(Ifc2x3tc1Package.eINSTANCE.getIfcPhysicalQuantity_Description(), true);
     }
 
     /**
@@ -108,7 +108,7 @@ public class IfcPhysicalQuantityImpl extends IdEObjectImpl implements IfcPhysica
      */
     @Override
     public void setDescription(String newDescription) {
-        eSet(Ifc2x3tc1Package.Literals.IFC_PHYSICAL_QUANTITY__DESCRIPTION, newDescription);
+        eSet(Ifc2x3tc1Package.eINSTANCE.getIfcPhysicalQuantity_Description(), newDescription);
     }
 
     /**
@@ -118,7 +118,7 @@ public class IfcPhysicalQuantityImpl extends IdEObjectImpl implements IfcPhysica
      */
     @Override
     public void unsetDescription() {
-        eUnset(Ifc2x3tc1Package.Literals.IFC_PHYSICAL_QUANTITY__DESCRIPTION);
+        eUnset(Ifc2x3tc1Package.eINSTANCE.getIfcPhysicalQuantity_Description());
     }
 
     /**
@@ -128,7 +128,7 @@ public class IfcPhysicalQuantityImpl extends IdEObjectImpl implements IfcPhysica
      */
     @Override
     public boolean isSetDescription() {
-        return eIsSet(Ifc2x3tc1Package.Literals.IFC_PHYSICAL_QUANTITY__DESCRIPTION);
+        return eIsSet(Ifc2x3tc1Package.eINSTANCE.getIfcPhysicalQuantity_Description());
     }
 
     /**
@@ -140,7 +140,7 @@ public class IfcPhysicalQuantityImpl extends IdEObjectImpl implements IfcPhysica
     @Override
     public EList<IfcPhysicalComplexQuantity> getPartOfComplex() {
         return (EList<IfcPhysicalComplexQuantity>) eGet(
-                Ifc2x3tc1Package.Literals.IFC_PHYSICAL_QUANTITY__PART_OF_COMPLEX, true);
+                Ifc2x3tc1Package.eINSTANCE.getIfcPhysicalQuantity_PartOfComplex(), true);
     }
 
     /**
@@ -150,7 +150,7 @@ public class IfcPhysicalQuantityImpl extends IdEObjectImpl implements IfcPhysica
      */
     @Override
     public void unsetPartOfComplex() {
-        eUnset(Ifc2x3tc1Package.Literals.IFC_PHYSICAL_QUANTITY__PART_OF_COMPLEX);
+        eUnset(Ifc2x3tc1Package.eINSTANCE.getIfcPhysicalQuantity_PartOfComplex());
     }
 
     /**
@@ -160,7 +160,7 @@ public class IfcPhysicalQuantityImpl extends IdEObjectImpl implements IfcPhysica
      */
     @Override
     public boolean isSetPartOfComplex() {
-        return eIsSet(Ifc2x3tc1Package.Literals.IFC_PHYSICAL_QUANTITY__PART_OF_COMPLEX);
+        return eIsSet(Ifc2x3tc1Package.eINSTANCE.getIfcPhysicalQuantity_PartOfComplex());
     }
 
 } //IfcPhysicalQuantityImpl

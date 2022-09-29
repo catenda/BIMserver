@@ -20,6 +20,7 @@ import org.bimserver.models.ifc4.Ifc4Package;
 import org.bimserver.models.ifc4.IfcPixelTexture;
 
 import org.eclipse.emf.common.util.EList;
+
 import org.eclipse.emf.ecore.EClass;
 
 /**
@@ -55,7 +56,7 @@ public class IfcPixelTextureImpl extends IfcSurfaceTextureImpl implements IfcPix
      */
     @Override
     protected EClass eStaticClass() {
-        return Ifc4Package.Literals.IFC_PIXEL_TEXTURE;
+        return Ifc4Package.eINSTANCE.getIfcPixelTexture();
     }
 
     /**
@@ -65,7 +66,7 @@ public class IfcPixelTextureImpl extends IfcSurfaceTextureImpl implements IfcPix
      */
     @Override
     public long getWidth() {
-        return (Long) eGet(Ifc4Package.Literals.IFC_PIXEL_TEXTURE__WIDTH, true);
+        return (Long) eGet(Ifc4Package.eINSTANCE.getIfcPixelTexture_Width(), true);
     }
 
     /**
@@ -75,7 +76,7 @@ public class IfcPixelTextureImpl extends IfcSurfaceTextureImpl implements IfcPix
      */
     @Override
     public void setWidth(long newWidth) {
-        eSet(Ifc4Package.Literals.IFC_PIXEL_TEXTURE__WIDTH, newWidth);
+        eSet(Ifc4Package.eINSTANCE.getIfcPixelTexture_Width(), newWidth);
     }
 
     /**
@@ -85,7 +86,7 @@ public class IfcPixelTextureImpl extends IfcSurfaceTextureImpl implements IfcPix
      */
     @Override
     public long getHeight() {
-        return (Long) eGet(Ifc4Package.Literals.IFC_PIXEL_TEXTURE__HEIGHT, true);
+        return (Long) eGet(Ifc4Package.eINSTANCE.getIfcPixelTexture_Height(), true);
     }
 
     /**
@@ -95,7 +96,7 @@ public class IfcPixelTextureImpl extends IfcSurfaceTextureImpl implements IfcPix
      */
     @Override
     public void setHeight(long newHeight) {
-        eSet(Ifc4Package.Literals.IFC_PIXEL_TEXTURE__HEIGHT, newHeight);
+        eSet(Ifc4Package.eINSTANCE.getIfcPixelTexture_Height(), newHeight);
     }
 
     /**
@@ -105,7 +106,7 @@ public class IfcPixelTextureImpl extends IfcSurfaceTextureImpl implements IfcPix
      */
     @Override
     public long getColourComponents() {
-        return (Long) eGet(Ifc4Package.Literals.IFC_PIXEL_TEXTURE__COLOUR_COMPONENTS, true);
+        return (Long) eGet(Ifc4Package.eINSTANCE.getIfcPixelTexture_ColourComponents(), true);
     }
 
     /**
@@ -115,7 +116,7 @@ public class IfcPixelTextureImpl extends IfcSurfaceTextureImpl implements IfcPix
      */
     @Override
     public void setColourComponents(long newColourComponents) {
-        eSet(Ifc4Package.Literals.IFC_PIXEL_TEXTURE__COLOUR_COMPONENTS, newColourComponents);
+        eSet(Ifc4Package.eINSTANCE.getIfcPixelTexture_ColourComponents(), newColourComponents);
     }
 
     /**
@@ -126,7 +127,7 @@ public class IfcPixelTextureImpl extends IfcSurfaceTextureImpl implements IfcPix
     @SuppressWarnings("unchecked")
     @Override
     public EList<byte[]> getPixel() {
-        return (EList<byte[]>) eGet(Ifc4Package.Literals.IFC_PIXEL_TEXTURE__PIXEL, true);
+        return (EList<byte[]>) eGet(Ifc4Package.eINSTANCE.getIfcPixelTexture_Pixel(), true);
     }
 
 } //IfcPixelTextureImpl

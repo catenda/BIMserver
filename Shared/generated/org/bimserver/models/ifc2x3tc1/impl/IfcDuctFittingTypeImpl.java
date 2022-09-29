@@ -52,7 +52,7 @@ public class IfcDuctFittingTypeImpl extends IfcFlowFittingTypeImpl implements If
      */
     @Override
     protected EClass eStaticClass() {
-        return Ifc2x3tc1Package.Literals.IFC_DUCT_FITTING_TYPE;
+        return Ifc2x3tc1Package.eINSTANCE.getIfcDuctFittingType();
     }
 
     /**
@@ -62,7 +62,7 @@ public class IfcDuctFittingTypeImpl extends IfcFlowFittingTypeImpl implements If
      */
     @Override
     public IfcDuctFittingTypeEnum getPredefinedType() {
-        return (IfcDuctFittingTypeEnum) eGet(Ifc2x3tc1Package.Literals.IFC_DUCT_FITTING_TYPE__PREDEFINED_TYPE, true);
+        return (IfcDuctFittingTypeEnum) eGet(Ifc2x3tc1Package.eINSTANCE.getIfcDuctFittingType_PredefinedType(), true);
     }
 
     /**
@@ -72,7 +72,7 @@ public class IfcDuctFittingTypeImpl extends IfcFlowFittingTypeImpl implements If
      */
     @Override
     public void setPredefinedType(IfcDuctFittingTypeEnum newPredefinedType) {
-        eSet(Ifc2x3tc1Package.Literals.IFC_DUCT_FITTING_TYPE__PREDEFINED_TYPE, newPredefinedType);
+        eSet(Ifc2x3tc1Package.eINSTANCE.getIfcDuctFittingType_PredefinedType(), newPredefinedType);
     }
 
 } //IfcDuctFittingTypeImpl

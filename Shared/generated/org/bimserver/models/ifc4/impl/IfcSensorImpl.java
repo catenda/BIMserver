@@ -52,7 +52,7 @@ public class IfcSensorImpl extends IfcDistributionControlElementImpl implements 
      */
     @Override
     protected EClass eStaticClass() {
-        return Ifc4Package.Literals.IFC_SENSOR;
+        return Ifc4Package.eINSTANCE.getIfcSensor();
     }
 
     /**
@@ -62,7 +62,7 @@ public class IfcSensorImpl extends IfcDistributionControlElementImpl implements 
      */
     @Override
     public IfcSensorTypeEnum getPredefinedType() {
-        return (IfcSensorTypeEnum) eGet(Ifc4Package.Literals.IFC_SENSOR__PREDEFINED_TYPE, true);
+        return (IfcSensorTypeEnum) eGet(Ifc4Package.eINSTANCE.getIfcSensor_PredefinedType(), true);
     }
 
     /**
@@ -72,7 +72,7 @@ public class IfcSensorImpl extends IfcDistributionControlElementImpl implements 
      */
     @Override
     public void setPredefinedType(IfcSensorTypeEnum newPredefinedType) {
-        eSet(Ifc4Package.Literals.IFC_SENSOR__PREDEFINED_TYPE, newPredefinedType);
+        eSet(Ifc4Package.eINSTANCE.getIfcSensor_PredefinedType(), newPredefinedType);
     }
 
     /**
@@ -82,7 +82,7 @@ public class IfcSensorImpl extends IfcDistributionControlElementImpl implements 
      */
     @Override
     public void unsetPredefinedType() {
-        eUnset(Ifc4Package.Literals.IFC_SENSOR__PREDEFINED_TYPE);
+        eUnset(Ifc4Package.eINSTANCE.getIfcSensor_PredefinedType());
     }
 
     /**
@@ -92,7 +92,7 @@ public class IfcSensorImpl extends IfcDistributionControlElementImpl implements 
      */
     @Override
     public boolean isSetPredefinedType() {
-        return eIsSet(Ifc4Package.Literals.IFC_SENSOR__PREDEFINED_TYPE);
+        return eIsSet(Ifc4Package.eINSTANCE.getIfcSensor_PredefinedType());
     }
 
 } //IfcSensorImpl

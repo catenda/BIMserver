@@ -45,7 +45,7 @@ public class IfcBeamStandardCaseImpl extends IfcBeamImpl implements IfcBeamStand
      */
     @Override
     protected EClass eStaticClass() {
-        return Ifc4Package.Literals.IFC_BEAM_STANDARD_CASE;
+        return Ifc4Package.eINSTANCE.getIfcBeamStandardCase();
     }
 
 } //IfcBeamStandardCaseImpl

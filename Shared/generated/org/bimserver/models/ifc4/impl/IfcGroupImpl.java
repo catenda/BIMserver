@@ -54,7 +54,7 @@ public class IfcGroupImpl extends IfcObjectImpl implements IfcGroup {
      */
     @Override
     protected EClass eStaticClass() {
-        return Ifc4Package.Literals.IFC_GROUP;
+        return Ifc4Package.eINSTANCE.getIfcGroup();
     }
 
     /**
@@ -65,7 +65,7 @@ public class IfcGroupImpl extends IfcObjectImpl implements IfcGroup {
     @SuppressWarnings("unchecked")
     @Override
     public EList<IfcRelAssignsToGroup> getIsGroupedBy() {
-        return (EList<IfcRelAssignsToGroup>) eGet(Ifc4Package.Literals.IFC_GROUP__IS_GROUPED_BY, true);
+        return (EList<IfcRelAssignsToGroup>) eGet(Ifc4Package.eINSTANCE.getIfcGroup_IsGroupedBy(), true);
     }
 
     /**
@@ -75,7 +75,7 @@ public class IfcGroupImpl extends IfcObjectImpl implements IfcGroup {
      */
     @Override
     public void unsetIsGroupedBy() {
-        eUnset(Ifc4Package.Literals.IFC_GROUP__IS_GROUPED_BY);
+        eUnset(Ifc4Package.eINSTANCE.getIfcGroup_IsGroupedBy());
     }
 
     /**
@@ -85,7 +85,7 @@ public class IfcGroupImpl extends IfcObjectImpl implements IfcGroup {
      */
     @Override
     public boolean isSetIsGroupedBy() {
-        return eIsSet(Ifc4Package.Literals.IFC_GROUP__IS_GROUPED_BY);
+        return eIsSet(Ifc4Package.eINSTANCE.getIfcGroup_IsGroupedBy());
     }
 
 } //IfcGroupImpl

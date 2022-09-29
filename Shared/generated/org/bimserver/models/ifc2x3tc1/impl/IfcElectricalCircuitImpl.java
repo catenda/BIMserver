@@ -45,7 +45,7 @@ public class IfcElectricalCircuitImpl extends IfcSystemImpl implements IfcElectr
      */
     @Override
     protected EClass eStaticClass() {
-        return Ifc2x3tc1Package.Literals.IFC_ELECTRICAL_CIRCUIT;
+        return Ifc2x3tc1Package.eINSTANCE.getIfcElectricalCircuit();
     }
 
 } //IfcElectricalCircuitImpl

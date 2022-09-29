@@ -50,10 +50,6 @@ public interface IfcElement extends IfcProduct, IfcStructuralActivityAssignmentS
     /**
      * Returns the value of the '<em><b>Tag</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Tag</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Tag</em>' attribute.
      * @see #isSetTag()
@@ -105,10 +101,6 @@ public interface IfcElement extends IfcProduct, IfcStructuralActivityAssignmentS
      * The list contents are of type {@link org.bimserver.models.ifc4.IfcRelFillsElement}.
      * It is bidirectional and its opposite is '{@link org.bimserver.models.ifc4.IfcRelFillsElement#getRelatedBuildingElement <em>Related Building Element</em>}'.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Fills Voids</em>' reference list isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Fills Voids</em>' reference list.
      * @see #isSetFillsVoids()
@@ -147,10 +139,6 @@ public interface IfcElement extends IfcProduct, IfcStructuralActivityAssignmentS
      * The list contents are of type {@link org.bimserver.models.ifc4.IfcRelConnectsElements}.
      * It is bidirectional and its opposite is '{@link org.bimserver.models.ifc4.IfcRelConnectsElements#getRelatingElement <em>Relating Element</em>}'.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Connected To</em>' reference list isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Connected To</em>' reference list.
      * @see #isSetConnectedTo()
@@ -189,10 +177,6 @@ public interface IfcElement extends IfcProduct, IfcStructuralActivityAssignmentS
      * The list contents are of type {@link org.bimserver.models.ifc4.IfcRelInterferesElements}.
      * It is bidirectional and its opposite is '{@link org.bimserver.models.ifc4.IfcRelInterferesElements#getRelatedElement <em>Related Element</em>}'.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Is Interfered By Elements</em>' reference list isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Is Interfered By Elements</em>' reference list.
      * @see #isSetIsInterferedByElements()
@@ -231,10 +215,6 @@ public interface IfcElement extends IfcProduct, IfcStructuralActivityAssignmentS
      * The list contents are of type {@link org.bimserver.models.ifc4.IfcRelInterferesElements}.
      * It is bidirectional and its opposite is '{@link org.bimserver.models.ifc4.IfcRelInterferesElements#getRelatingElement <em>Relating Element</em>}'.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Interferes Elements</em>' reference list isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Interferes Elements</em>' reference list.
      * @see #isSetInterferesElements()
@@ -273,10 +253,6 @@ public interface IfcElement extends IfcProduct, IfcStructuralActivityAssignmentS
      * The list contents are of type {@link org.bimserver.models.ifc4.IfcRelProjectsElement}.
      * It is bidirectional and its opposite is '{@link org.bimserver.models.ifc4.IfcRelProjectsElement#getRelatingElement <em>Relating Element</em>}'.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Has Projections</em>' reference list isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Has Projections</em>' reference list.
      * @see #isSetHasProjections()
@@ -314,10 +290,6 @@ public interface IfcElement extends IfcProduct, IfcStructuralActivityAssignmentS
      * Returns the value of the '<em><b>Referenced In Structures</b></em>' reference list.
      * The list contents are of type {@link org.bimserver.models.ifc4.IfcRelReferencedInSpatialStructure}.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Referenced In Structures</em>' reference list isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Referenced In Structures</em>' reference list.
      * @see #isSetReferencedInStructures()
@@ -355,10 +327,6 @@ public interface IfcElement extends IfcProduct, IfcStructuralActivityAssignmentS
      * The list contents are of type {@link org.bimserver.models.ifc4.IfcRelVoidsElement}.
      * It is bidirectional and its opposite is '{@link org.bimserver.models.ifc4.IfcRelVoidsElement#getRelatingBuildingElement <em>Relating Building Element</em>}'.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Has Openings</em>' reference list isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Has Openings</em>' reference list.
      * @see #isSetHasOpenings()
@@ -397,10 +365,6 @@ public interface IfcElement extends IfcProduct, IfcStructuralActivityAssignmentS
      * The list contents are of type {@link org.bimserver.models.ifc4.IfcRelConnectsWithRealizingElements}.
      * It is bidirectional and its opposite is '{@link org.bimserver.models.ifc4.IfcRelConnectsWithRealizingElements#getRealizingElements <em>Realizing Elements</em>}'.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Is Connection Realization</em>' reference list isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Is Connection Realization</em>' reference list.
      * @see #isSetIsConnectionRealization()
@@ -439,10 +403,6 @@ public interface IfcElement extends IfcProduct, IfcStructuralActivityAssignmentS
      * The list contents are of type {@link org.bimserver.models.ifc4.IfcRelSpaceBoundary}.
      * It is bidirectional and its opposite is '{@link org.bimserver.models.ifc4.IfcRelSpaceBoundary#getRelatedBuildingElement <em>Related Building Element</em>}'.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Provides Boundaries</em>' reference list isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Provides Boundaries</em>' reference list.
      * @see #isSetProvidesBoundaries()
@@ -481,10 +441,6 @@ public interface IfcElement extends IfcProduct, IfcStructuralActivityAssignmentS
      * The list contents are of type {@link org.bimserver.models.ifc4.IfcRelConnectsElements}.
      * It is bidirectional and its opposite is '{@link org.bimserver.models.ifc4.IfcRelConnectsElements#getRelatedElement <em>Related Element</em>}'.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Connected From</em>' reference list isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Connected From</em>' reference list.
      * @see #isSetConnectedFrom()
@@ -522,10 +478,6 @@ public interface IfcElement extends IfcProduct, IfcStructuralActivityAssignmentS
      * Returns the value of the '<em><b>Contained In Structure</b></em>' reference list.
      * The list contents are of type {@link org.bimserver.models.ifc4.IfcRelContainedInSpatialStructure}.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Contained In Structure</em>' reference list isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Contained In Structure</em>' reference list.
      * @see #isSetContainedInStructure()
@@ -563,10 +515,6 @@ public interface IfcElement extends IfcProduct, IfcStructuralActivityAssignmentS
      * The list contents are of type {@link org.bimserver.models.ifc4.IfcRelCoversBldgElements}.
      * It is bidirectional and its opposite is '{@link org.bimserver.models.ifc4.IfcRelCoversBldgElements#getRelatingBuildingElement <em>Relating Building Element</em>}'.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Has Coverings</em>' reference list isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Has Coverings</em>' reference list.
      * @see #isSetHasCoverings()

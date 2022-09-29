@@ -45,7 +45,7 @@ public class IfcLinearDimensionImpl extends IfcDimensionCurveDirectedCalloutImpl
      */
     @Override
     protected EClass eStaticClass() {
-        return Ifc2x3tc1Package.Literals.IFC_LINEAR_DIMENSION;
+        return Ifc2x3tc1Package.eINSTANCE.getIfcLinearDimension();
     }
 
 } //IfcLinearDimensionImpl

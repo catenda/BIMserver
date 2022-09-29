@@ -52,7 +52,7 @@ public class IfcSurfaceFeatureImpl extends IfcFeatureElementImpl implements IfcS
      */
     @Override
     protected EClass eStaticClass() {
-        return Ifc4Package.Literals.IFC_SURFACE_FEATURE;
+        return Ifc4Package.eINSTANCE.getIfcSurfaceFeature();
     }
 
     /**
@@ -62,7 +62,7 @@ public class IfcSurfaceFeatureImpl extends IfcFeatureElementImpl implements IfcS
      */
     @Override
     public IfcSurfaceFeatureTypeEnum getPredefinedType() {
-        return (IfcSurfaceFeatureTypeEnum) eGet(Ifc4Package.Literals.IFC_SURFACE_FEATURE__PREDEFINED_TYPE, true);
+        return (IfcSurfaceFeatureTypeEnum) eGet(Ifc4Package.eINSTANCE.getIfcSurfaceFeature_PredefinedType(), true);
     }
 
     /**
@@ -72,7 +72,7 @@ public class IfcSurfaceFeatureImpl extends IfcFeatureElementImpl implements IfcS
      */
     @Override
     public void setPredefinedType(IfcSurfaceFeatureTypeEnum newPredefinedType) {
-        eSet(Ifc4Package.Literals.IFC_SURFACE_FEATURE__PREDEFINED_TYPE, newPredefinedType);
+        eSet(Ifc4Package.eINSTANCE.getIfcSurfaceFeature_PredefinedType(), newPredefinedType);
     }
 
     /**
@@ -82,7 +82,7 @@ public class IfcSurfaceFeatureImpl extends IfcFeatureElementImpl implements IfcS
      */
     @Override
     public void unsetPredefinedType() {
-        eUnset(Ifc4Package.Literals.IFC_SURFACE_FEATURE__PREDEFINED_TYPE);
+        eUnset(Ifc4Package.eINSTANCE.getIfcSurfaceFeature_PredefinedType());
     }
 
     /**
@@ -92,7 +92,7 @@ public class IfcSurfaceFeatureImpl extends IfcFeatureElementImpl implements IfcS
      */
     @Override
     public boolean isSetPredefinedType() {
-        return eIsSet(Ifc4Package.Literals.IFC_SURFACE_FEATURE__PREDEFINED_TYPE);
+        return eIsSet(Ifc4Package.eINSTANCE.getIfcSurfaceFeature_PredefinedType());
     }
 
 } //IfcSurfaceFeatureImpl

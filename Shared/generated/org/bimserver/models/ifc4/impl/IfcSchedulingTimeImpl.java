@@ -56,7 +56,7 @@ public class IfcSchedulingTimeImpl extends IdEObjectImpl implements IfcSchedulin
      */
     @Override
     protected EClass eStaticClass() {
-        return Ifc4Package.Literals.IFC_SCHEDULING_TIME;
+        return Ifc4Package.eINSTANCE.getIfcSchedulingTime();
     }
 
     /**
@@ -76,7 +76,7 @@ public class IfcSchedulingTimeImpl extends IdEObjectImpl implements IfcSchedulin
      */
     @Override
     public String getName() {
-        return (String) eGet(Ifc4Package.Literals.IFC_SCHEDULING_TIME__NAME, true);
+        return (String) eGet(Ifc4Package.eINSTANCE.getIfcSchedulingTime_Name(), true);
     }
 
     /**
@@ -86,7 +86,7 @@ public class IfcSchedulingTimeImpl extends IdEObjectImpl implements IfcSchedulin
      */
     @Override
     public void setName(String newName) {
-        eSet(Ifc4Package.Literals.IFC_SCHEDULING_TIME__NAME, newName);
+        eSet(Ifc4Package.eINSTANCE.getIfcSchedulingTime_Name(), newName);
     }
 
     /**
@@ -96,7 +96,7 @@ public class IfcSchedulingTimeImpl extends IdEObjectImpl implements IfcSchedulin
      */
     @Override
     public void unsetName() {
-        eUnset(Ifc4Package.Literals.IFC_SCHEDULING_TIME__NAME);
+        eUnset(Ifc4Package.eINSTANCE.getIfcSchedulingTime_Name());
     }
 
     /**
@@ -106,7 +106,7 @@ public class IfcSchedulingTimeImpl extends IdEObjectImpl implements IfcSchedulin
      */
     @Override
     public boolean isSetName() {
-        return eIsSet(Ifc4Package.Literals.IFC_SCHEDULING_TIME__NAME);
+        return eIsSet(Ifc4Package.eINSTANCE.getIfcSchedulingTime_Name());
     }
 
     /**
@@ -116,7 +116,7 @@ public class IfcSchedulingTimeImpl extends IdEObjectImpl implements IfcSchedulin
      */
     @Override
     public IfcDataOriginEnum getDataOrigin() {
-        return (IfcDataOriginEnum) eGet(Ifc4Package.Literals.IFC_SCHEDULING_TIME__DATA_ORIGIN, true);
+        return (IfcDataOriginEnum) eGet(Ifc4Package.eINSTANCE.getIfcSchedulingTime_DataOrigin(), true);
     }
 
     /**
@@ -126,7 +126,7 @@ public class IfcSchedulingTimeImpl extends IdEObjectImpl implements IfcSchedulin
      */
     @Override
     public void setDataOrigin(IfcDataOriginEnum newDataOrigin) {
-        eSet(Ifc4Package.Literals.IFC_SCHEDULING_TIME__DATA_ORIGIN, newDataOrigin);
+        eSet(Ifc4Package.eINSTANCE.getIfcSchedulingTime_DataOrigin(), newDataOrigin);
     }
 
     /**
@@ -136,7 +136,7 @@ public class IfcSchedulingTimeImpl extends IdEObjectImpl implements IfcSchedulin
      */
     @Override
     public void unsetDataOrigin() {
-        eUnset(Ifc4Package.Literals.IFC_SCHEDULING_TIME__DATA_ORIGIN);
+        eUnset(Ifc4Package.eINSTANCE.getIfcSchedulingTime_DataOrigin());
     }
 
     /**
@@ -146,7 +146,7 @@ public class IfcSchedulingTimeImpl extends IdEObjectImpl implements IfcSchedulin
      */
     @Override
     public boolean isSetDataOrigin() {
-        return eIsSet(Ifc4Package.Literals.IFC_SCHEDULING_TIME__DATA_ORIGIN);
+        return eIsSet(Ifc4Package.eINSTANCE.getIfcSchedulingTime_DataOrigin());
     }
 
     /**
@@ -156,7 +156,7 @@ public class IfcSchedulingTimeImpl extends IdEObjectImpl implements IfcSchedulin
      */
     @Override
     public String getUserDefinedDataOrigin() {
-        return (String) eGet(Ifc4Package.Literals.IFC_SCHEDULING_TIME__USER_DEFINED_DATA_ORIGIN, true);
+        return (String) eGet(Ifc4Package.eINSTANCE.getIfcSchedulingTime_UserDefinedDataOrigin(), true);
     }
 
     /**
@@ -166,7 +166,7 @@ public class IfcSchedulingTimeImpl extends IdEObjectImpl implements IfcSchedulin
      */
     @Override
     public void setUserDefinedDataOrigin(String newUserDefinedDataOrigin) {
-        eSet(Ifc4Package.Literals.IFC_SCHEDULING_TIME__USER_DEFINED_DATA_ORIGIN, newUserDefinedDataOrigin);
+        eSet(Ifc4Package.eINSTANCE.getIfcSchedulingTime_UserDefinedDataOrigin(), newUserDefinedDataOrigin);
     }
 
     /**
@@ -176,7 +176,7 @@ public class IfcSchedulingTimeImpl extends IdEObjectImpl implements IfcSchedulin
      */
     @Override
     public void unsetUserDefinedDataOrigin() {
-        eUnset(Ifc4Package.Literals.IFC_SCHEDULING_TIME__USER_DEFINED_DATA_ORIGIN);
+        eUnset(Ifc4Package.eINSTANCE.getIfcSchedulingTime_UserDefinedDataOrigin());
     }
 
     /**
@@ -186,7 +186,7 @@ public class IfcSchedulingTimeImpl extends IdEObjectImpl implements IfcSchedulin
      */
     @Override
     public boolean isSetUserDefinedDataOrigin() {
-        return eIsSet(Ifc4Package.Literals.IFC_SCHEDULING_TIME__USER_DEFINED_DATA_ORIGIN);
+        return eIsSet(Ifc4Package.eINSTANCE.getIfcSchedulingTime_UserDefinedDataOrigin());
     }
 
 } //IfcSchedulingTimeImpl

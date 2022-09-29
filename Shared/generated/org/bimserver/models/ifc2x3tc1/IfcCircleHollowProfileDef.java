@@ -37,10 +37,6 @@ public interface IfcCircleHollowProfileDef extends IfcCircleProfileDef {
     /**
      * Returns the value of the '<em><b>Wall Thickness</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Wall Thickness</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Wall Thickness</em>' attribute.
      * @see #setWallThickness(double)
@@ -63,10 +59,6 @@ public interface IfcCircleHollowProfileDef extends IfcCircleProfileDef {
     /**
      * Returns the value of the '<em><b>Wall Thickness As String</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Wall Thickness As String</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Wall Thickness As String</em>' attribute.
      * @see #setWallThicknessAsString(String)

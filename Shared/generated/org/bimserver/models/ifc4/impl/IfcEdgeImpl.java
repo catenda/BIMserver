@@ -53,7 +53,7 @@ public class IfcEdgeImpl extends IfcTopologicalRepresentationItemImpl implements
      */
     @Override
     protected EClass eStaticClass() {
-        return Ifc4Package.Literals.IFC_EDGE;
+        return Ifc4Package.eINSTANCE.getIfcEdge();
     }
 
     /**
@@ -63,7 +63,7 @@ public class IfcEdgeImpl extends IfcTopologicalRepresentationItemImpl implements
      */
     @Override
     public IfcVertex getEdgeStart() {
-        return (IfcVertex) eGet(Ifc4Package.Literals.IFC_EDGE__EDGE_START, true);
+        return (IfcVertex) eGet(Ifc4Package.eINSTANCE.getIfcEdge_EdgeStart(), true);
     }
 
     /**
@@ -73,7 +73,7 @@ public class IfcEdgeImpl extends IfcTopologicalRepresentationItemImpl implements
      */
     @Override
     public void setEdgeStart(IfcVertex newEdgeStart) {
-        eSet(Ifc4Package.Literals.IFC_EDGE__EDGE_START, newEdgeStart);
+        eSet(Ifc4Package.eINSTANCE.getIfcEdge_EdgeStart(), newEdgeStart);
     }
 
     /**
@@ -83,7 +83,7 @@ public class IfcEdgeImpl extends IfcTopologicalRepresentationItemImpl implements
      */
     @Override
     public IfcVertex getEdgeEnd() {
-        return (IfcVertex) eGet(Ifc4Package.Literals.IFC_EDGE__EDGE_END, true);
+        return (IfcVertex) eGet(Ifc4Package.eINSTANCE.getIfcEdge_EdgeEnd(), true);
     }
 
     /**
@@ -93,7 +93,7 @@ public class IfcEdgeImpl extends IfcTopologicalRepresentationItemImpl implements
      */
     @Override
     public void setEdgeEnd(IfcVertex newEdgeEnd) {
-        eSet(Ifc4Package.Literals.IFC_EDGE__EDGE_END, newEdgeEnd);
+        eSet(Ifc4Package.eINSTANCE.getIfcEdge_EdgeEnd(), newEdgeEnd);
     }
 
 } //IfcEdgeImpl

@@ -52,7 +52,7 @@ public class IfcArbitraryOpenProfileDefImpl extends IfcProfileDefImpl implements
      */
     @Override
     protected EClass eStaticClass() {
-        return Ifc2x3tc1Package.Literals.IFC_ARBITRARY_OPEN_PROFILE_DEF;
+        return Ifc2x3tc1Package.eINSTANCE.getIfcArbitraryOpenProfileDef();
     }
 
     /**
@@ -62,7 +62,7 @@ public class IfcArbitraryOpenProfileDefImpl extends IfcProfileDefImpl implements
      */
     @Override
     public IfcBoundedCurve getCurve() {
-        return (IfcBoundedCurve) eGet(Ifc2x3tc1Package.Literals.IFC_ARBITRARY_OPEN_PROFILE_DEF__CURVE, true);
+        return (IfcBoundedCurve) eGet(Ifc2x3tc1Package.eINSTANCE.getIfcArbitraryOpenProfileDef_Curve(), true);
     }
 
     /**
@@ -72,7 +72,7 @@ public class IfcArbitraryOpenProfileDefImpl extends IfcProfileDefImpl implements
      */
     @Override
     public void setCurve(IfcBoundedCurve newCurve) {
-        eSet(Ifc2x3tc1Package.Literals.IFC_ARBITRARY_OPEN_PROFILE_DEF__CURVE, newCurve);
+        eSet(Ifc2x3tc1Package.eINSTANCE.getIfcArbitraryOpenProfileDef_Curve(), newCurve);
     }
 
 } //IfcArbitraryOpenProfileDefImpl

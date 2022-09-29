@@ -52,7 +52,7 @@ public class IfcControllerTypeImpl extends IfcDistributionControlElementTypeImpl
      */
     @Override
     protected EClass eStaticClass() {
-        return Ifc2x3tc1Package.Literals.IFC_CONTROLLER_TYPE;
+        return Ifc2x3tc1Package.eINSTANCE.getIfcControllerType();
     }
 
     /**
@@ -62,7 +62,7 @@ public class IfcControllerTypeImpl extends IfcDistributionControlElementTypeImpl
      */
     @Override
     public IfcControllerTypeEnum getPredefinedType() {
-        return (IfcControllerTypeEnum) eGet(Ifc2x3tc1Package.Literals.IFC_CONTROLLER_TYPE__PREDEFINED_TYPE, true);
+        return (IfcControllerTypeEnum) eGet(Ifc2x3tc1Package.eINSTANCE.getIfcControllerType_PredefinedType(), true);
     }
 
     /**
@@ -72,7 +72,7 @@ public class IfcControllerTypeImpl extends IfcDistributionControlElementTypeImpl
      */
     @Override
     public void setPredefinedType(IfcControllerTypeEnum newPredefinedType) {
-        eSet(Ifc2x3tc1Package.Literals.IFC_CONTROLLER_TYPE__PREDEFINED_TYPE, newPredefinedType);
+        eSet(Ifc2x3tc1Package.eINSTANCE.getIfcControllerType_PredefinedType(), newPredefinedType);
     }
 
 } //IfcControllerTypeImpl

@@ -45,7 +45,7 @@ public class IfcWindowStandardCaseImpl extends IfcWindowImpl implements IfcWindo
      */
     @Override
     protected EClass eStaticClass() {
-        return Ifc4Package.Literals.IFC_WINDOW_STANDARD_CASE;
+        return Ifc4Package.eINSTANCE.getIfcWindowStandardCase();
     }
 
 } //IfcWindowStandardCaseImpl

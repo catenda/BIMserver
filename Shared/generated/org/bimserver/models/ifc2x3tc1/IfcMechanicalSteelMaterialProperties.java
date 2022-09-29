@@ -50,10 +50,6 @@ public interface IfcMechanicalSteelMaterialProperties extends IfcMechanicalMater
     /**
      * Returns the value of the '<em><b>Yield Stress</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Yield Stress</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Yield Stress</em>' attribute.
      * @see #isSetYieldStress()
@@ -103,10 +99,6 @@ public interface IfcMechanicalSteelMaterialProperties extends IfcMechanicalMater
     /**
      * Returns the value of the '<em><b>Yield Stress As String</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Yield Stress As String</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Yield Stress As String</em>' attribute.
      * @see #isSetYieldStressAsString()
@@ -158,10 +150,6 @@ public interface IfcMechanicalSteelMaterialProperties extends IfcMechanicalMater
     /**
      * Returns the value of the '<em><b>Ultimate Stress</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Ultimate Stress</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Ultimate Stress</em>' attribute.
      * @see #isSetUltimateStress()
@@ -211,10 +199,6 @@ public interface IfcMechanicalSteelMaterialProperties extends IfcMechanicalMater
     /**
      * Returns the value of the '<em><b>Ultimate Stress As String</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Ultimate Stress As String</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Ultimate Stress As String</em>' attribute.
      * @see #isSetUltimateStressAsString()
@@ -266,10 +250,6 @@ public interface IfcMechanicalSteelMaterialProperties extends IfcMechanicalMater
     /**
      * Returns the value of the '<em><b>Ultimate Strain</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Ultimate Strain</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Ultimate Strain</em>' attribute.
      * @see #isSetUltimateStrain()
@@ -319,10 +299,6 @@ public interface IfcMechanicalSteelMaterialProperties extends IfcMechanicalMater
     /**
      * Returns the value of the '<em><b>Ultimate Strain As String</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Ultimate Strain As String</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Ultimate Strain As String</em>' attribute.
      * @see #isSetUltimateStrainAsString()
@@ -374,10 +350,6 @@ public interface IfcMechanicalSteelMaterialProperties extends IfcMechanicalMater
     /**
      * Returns the value of the '<em><b>Hardening Module</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Hardening Module</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Hardening Module</em>' attribute.
      * @see #isSetHardeningModule()
@@ -427,10 +399,6 @@ public interface IfcMechanicalSteelMaterialProperties extends IfcMechanicalMater
     /**
      * Returns the value of the '<em><b>Hardening Module As String</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Hardening Module As String</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Hardening Module As String</em>' attribute.
      * @see #isSetHardeningModuleAsString()
@@ -482,10 +450,6 @@ public interface IfcMechanicalSteelMaterialProperties extends IfcMechanicalMater
     /**
      * Returns the value of the '<em><b>Proportional Stress</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Proportional Stress</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Proportional Stress</em>' attribute.
      * @see #isSetProportionalStress()
@@ -535,10 +499,6 @@ public interface IfcMechanicalSteelMaterialProperties extends IfcMechanicalMater
     /**
      * Returns the value of the '<em><b>Proportional Stress As String</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Proportional Stress As String</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Proportional Stress As String</em>' attribute.
      * @see #isSetProportionalStressAsString()
@@ -590,10 +550,6 @@ public interface IfcMechanicalSteelMaterialProperties extends IfcMechanicalMater
     /**
      * Returns the value of the '<em><b>Plastic Strain</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Plastic Strain</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Plastic Strain</em>' attribute.
      * @see #isSetPlasticStrain()
@@ -643,10 +599,6 @@ public interface IfcMechanicalSteelMaterialProperties extends IfcMechanicalMater
     /**
      * Returns the value of the '<em><b>Plastic Strain As String</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Plastic Strain As String</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Plastic Strain As String</em>' attribute.
      * @see #isSetPlasticStrainAsString()
@@ -699,10 +651,6 @@ public interface IfcMechanicalSteelMaterialProperties extends IfcMechanicalMater
      * Returns the value of the '<em><b>Relaxations</b></em>' reference list.
      * The list contents are of type {@link org.bimserver.models.ifc2x3tc1.IfcRelaxation}.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Relaxations</em>' reference list isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Relaxations</em>' reference list.
      * @see #isSetRelaxations()

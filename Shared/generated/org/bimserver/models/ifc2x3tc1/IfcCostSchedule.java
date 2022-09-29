@@ -45,10 +45,6 @@ public interface IfcCostSchedule extends IfcControl {
     /**
      * Returns the value of the '<em><b>Submitted By</b></em>' reference.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Submitted By</em>' reference isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Submitted By</em>' reference.
      * @see #isSetSubmittedBy()
@@ -98,10 +94,6 @@ public interface IfcCostSchedule extends IfcControl {
     /**
      * Returns the value of the '<em><b>Prepared By</b></em>' reference.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Prepared By</em>' reference isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Prepared By</em>' reference.
      * @see #isSetPreparedBy()
@@ -151,10 +143,6 @@ public interface IfcCostSchedule extends IfcControl {
     /**
      * Returns the value of the '<em><b>Submitted On</b></em>' reference.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Submitted On</em>' reference isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Submitted On</em>' reference.
      * @see #isSetSubmittedOn()
@@ -204,10 +192,6 @@ public interface IfcCostSchedule extends IfcControl {
     /**
      * Returns the value of the '<em><b>Status</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Status</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Status</em>' attribute.
      * @see #isSetStatus()
@@ -258,10 +242,6 @@ public interface IfcCostSchedule extends IfcControl {
      * Returns the value of the '<em><b>Target Users</b></em>' reference list.
      * The list contents are of type {@link org.bimserver.models.ifc2x3tc1.IfcActorSelect}.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Target Users</em>' reference list isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Target Users</em>' reference list.
      * @see #isSetTargetUsers()
@@ -296,10 +276,6 @@ public interface IfcCostSchedule extends IfcControl {
     /**
      * Returns the value of the '<em><b>Update Date</b></em>' reference.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Update Date</em>' reference isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Update Date</em>' reference.
      * @see #isSetUpdateDate()
@@ -349,10 +325,6 @@ public interface IfcCostSchedule extends IfcControl {
     /**
      * Returns the value of the '<em><b>ID</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>ID</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>ID</em>' attribute.
      * @see #setID(String)
@@ -376,10 +348,6 @@ public interface IfcCostSchedule extends IfcControl {
      * Returns the value of the '<em><b>Predefined Type</b></em>' attribute.
      * The literals are from the enumeration {@link org.bimserver.models.ifc2x3tc1.IfcCostScheduleTypeEnum}.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Predefined Type</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Predefined Type</em>' attribute.
      * @see org.bimserver.models.ifc2x3tc1.IfcCostScheduleTypeEnum

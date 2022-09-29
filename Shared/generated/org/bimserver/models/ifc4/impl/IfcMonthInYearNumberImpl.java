@@ -53,7 +53,7 @@ public class IfcMonthInYearNumberImpl extends IdEObjectImpl implements IfcMonthI
      */
     @Override
     protected EClass eStaticClass() {
-        return Ifc4Package.Literals.IFC_MONTH_IN_YEAR_NUMBER;
+        return Ifc4Package.eINSTANCE.getIfcMonthInYearNumber();
     }
 
     /**
@@ -73,7 +73,7 @@ public class IfcMonthInYearNumberImpl extends IdEObjectImpl implements IfcMonthI
      */
     @Override
     public long getWrappedValue() {
-        return (Long) eGet(Ifc4Package.Literals.IFC_MONTH_IN_YEAR_NUMBER__WRAPPED_VALUE, true);
+        return (Long) eGet(Ifc4Package.eINSTANCE.getIfcMonthInYearNumber_WrappedValue(), true);
     }
 
     /**
@@ -83,7 +83,7 @@ public class IfcMonthInYearNumberImpl extends IdEObjectImpl implements IfcMonthI
      */
     @Override
     public void setWrappedValue(long newWrappedValue) {
-        eSet(Ifc4Package.Literals.IFC_MONTH_IN_YEAR_NUMBER__WRAPPED_VALUE, newWrappedValue);
+        eSet(Ifc4Package.eINSTANCE.getIfcMonthInYearNumber_WrappedValue(), newWrappedValue);
     }
 
     /**
@@ -93,7 +93,7 @@ public class IfcMonthInYearNumberImpl extends IdEObjectImpl implements IfcMonthI
      */
     @Override
     public void unsetWrappedValue() {
-        eUnset(Ifc4Package.Literals.IFC_MONTH_IN_YEAR_NUMBER__WRAPPED_VALUE);
+        eUnset(Ifc4Package.eINSTANCE.getIfcMonthInYearNumber_WrappedValue());
     }
 
     /**
@@ -103,7 +103,7 @@ public class IfcMonthInYearNumberImpl extends IdEObjectImpl implements IfcMonthI
      */
     @Override
     public boolean isSetWrappedValue() {
-        return eIsSet(Ifc4Package.Literals.IFC_MONTH_IN_YEAR_NUMBER__WRAPPED_VALUE);
+        return eIsSet(Ifc4Package.eINSTANCE.getIfcMonthInYearNumber_WrappedValue());
     }
 
 } //IfcMonthInYearNumberImpl

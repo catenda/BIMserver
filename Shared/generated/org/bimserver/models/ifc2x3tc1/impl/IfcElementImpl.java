@@ -76,7 +76,7 @@ public class IfcElementImpl extends IfcProductImpl implements IfcElement {
      */
     @Override
     protected EClass eStaticClass() {
-        return Ifc2x3tc1Package.Literals.IFC_ELEMENT;
+        return Ifc2x3tc1Package.eINSTANCE.getIfcElement();
     }
 
     /**
@@ -86,7 +86,7 @@ public class IfcElementImpl extends IfcProductImpl implements IfcElement {
      */
     @Override
     public String getTag() {
-        return (String) eGet(Ifc2x3tc1Package.Literals.IFC_ELEMENT__TAG, true);
+        return (String) eGet(Ifc2x3tc1Package.eINSTANCE.getIfcElement_Tag(), true);
     }
 
     /**
@@ -96,7 +96,7 @@ public class IfcElementImpl extends IfcProductImpl implements IfcElement {
      */
     @Override
     public void setTag(String newTag) {
-        eSet(Ifc2x3tc1Package.Literals.IFC_ELEMENT__TAG, newTag);
+        eSet(Ifc2x3tc1Package.eINSTANCE.getIfcElement_Tag(), newTag);
     }
 
     /**
@@ -106,7 +106,7 @@ public class IfcElementImpl extends IfcProductImpl implements IfcElement {
      */
     @Override
     public void unsetTag() {
-        eUnset(Ifc2x3tc1Package.Literals.IFC_ELEMENT__TAG);
+        eUnset(Ifc2x3tc1Package.eINSTANCE.getIfcElement_Tag());
     }
 
     /**
@@ -116,7 +116,7 @@ public class IfcElementImpl extends IfcProductImpl implements IfcElement {
      */
     @Override
     public boolean isSetTag() {
-        return eIsSet(Ifc2x3tc1Package.Literals.IFC_ELEMENT__TAG);
+        return eIsSet(Ifc2x3tc1Package.eINSTANCE.getIfcElement_Tag());
     }
 
     /**
@@ -128,7 +128,7 @@ public class IfcElementImpl extends IfcProductImpl implements IfcElement {
     @Override
     public EList<IfcRelConnectsStructuralElement> getHasStructuralMember() {
         return (EList<IfcRelConnectsStructuralElement>) eGet(
-                Ifc2x3tc1Package.Literals.IFC_ELEMENT__HAS_STRUCTURAL_MEMBER, true);
+                Ifc2x3tc1Package.eINSTANCE.getIfcElement_HasStructuralMember(), true);
     }
 
     /**
@@ -138,7 +138,7 @@ public class IfcElementImpl extends IfcProductImpl implements IfcElement {
      */
     @Override
     public void unsetHasStructuralMember() {
-        eUnset(Ifc2x3tc1Package.Literals.IFC_ELEMENT__HAS_STRUCTURAL_MEMBER);
+        eUnset(Ifc2x3tc1Package.eINSTANCE.getIfcElement_HasStructuralMember());
     }
 
     /**
@@ -148,7 +148,7 @@ public class IfcElementImpl extends IfcProductImpl implements IfcElement {
      */
     @Override
     public boolean isSetHasStructuralMember() {
-        return eIsSet(Ifc2x3tc1Package.Literals.IFC_ELEMENT__HAS_STRUCTURAL_MEMBER);
+        return eIsSet(Ifc2x3tc1Package.eINSTANCE.getIfcElement_HasStructuralMember());
     }
 
     /**
@@ -159,7 +159,7 @@ public class IfcElementImpl extends IfcProductImpl implements IfcElement {
     @SuppressWarnings("unchecked")
     @Override
     public EList<IfcRelFillsElement> getFillsVoids() {
-        return (EList<IfcRelFillsElement>) eGet(Ifc2x3tc1Package.Literals.IFC_ELEMENT__FILLS_VOIDS, true);
+        return (EList<IfcRelFillsElement>) eGet(Ifc2x3tc1Package.eINSTANCE.getIfcElement_FillsVoids(), true);
     }
 
     /**
@@ -169,7 +169,7 @@ public class IfcElementImpl extends IfcProductImpl implements IfcElement {
      */
     @Override
     public void unsetFillsVoids() {
-        eUnset(Ifc2x3tc1Package.Literals.IFC_ELEMENT__FILLS_VOIDS);
+        eUnset(Ifc2x3tc1Package.eINSTANCE.getIfcElement_FillsVoids());
     }
 
     /**
@@ -179,7 +179,7 @@ public class IfcElementImpl extends IfcProductImpl implements IfcElement {
      */
     @Override
     public boolean isSetFillsVoids() {
-        return eIsSet(Ifc2x3tc1Package.Literals.IFC_ELEMENT__FILLS_VOIDS);
+        return eIsSet(Ifc2x3tc1Package.eINSTANCE.getIfcElement_FillsVoids());
     }
 
     /**
@@ -190,7 +190,7 @@ public class IfcElementImpl extends IfcProductImpl implements IfcElement {
     @SuppressWarnings("unchecked")
     @Override
     public EList<IfcRelConnectsElements> getConnectedTo() {
-        return (EList<IfcRelConnectsElements>) eGet(Ifc2x3tc1Package.Literals.IFC_ELEMENT__CONNECTED_TO, true);
+        return (EList<IfcRelConnectsElements>) eGet(Ifc2x3tc1Package.eINSTANCE.getIfcElement_ConnectedTo(), true);
     }
 
     /**
@@ -200,7 +200,7 @@ public class IfcElementImpl extends IfcProductImpl implements IfcElement {
      */
     @Override
     public void unsetConnectedTo() {
-        eUnset(Ifc2x3tc1Package.Literals.IFC_ELEMENT__CONNECTED_TO);
+        eUnset(Ifc2x3tc1Package.eINSTANCE.getIfcElement_ConnectedTo());
     }
 
     /**
@@ -210,7 +210,7 @@ public class IfcElementImpl extends IfcProductImpl implements IfcElement {
      */
     @Override
     public boolean isSetConnectedTo() {
-        return eIsSet(Ifc2x3tc1Package.Literals.IFC_ELEMENT__CONNECTED_TO);
+        return eIsSet(Ifc2x3tc1Package.eINSTANCE.getIfcElement_ConnectedTo());
     }
 
     /**
@@ -221,7 +221,7 @@ public class IfcElementImpl extends IfcProductImpl implements IfcElement {
     @SuppressWarnings("unchecked")
     @Override
     public EList<IfcRelCoversBldgElements> getHasCoverings() {
-        return (EList<IfcRelCoversBldgElements>) eGet(Ifc2x3tc1Package.Literals.IFC_ELEMENT__HAS_COVERINGS, true);
+        return (EList<IfcRelCoversBldgElements>) eGet(Ifc2x3tc1Package.eINSTANCE.getIfcElement_HasCoverings(), true);
     }
 
     /**
@@ -231,7 +231,7 @@ public class IfcElementImpl extends IfcProductImpl implements IfcElement {
      */
     @Override
     public void unsetHasCoverings() {
-        eUnset(Ifc2x3tc1Package.Literals.IFC_ELEMENT__HAS_COVERINGS);
+        eUnset(Ifc2x3tc1Package.eINSTANCE.getIfcElement_HasCoverings());
     }
 
     /**
@@ -241,7 +241,7 @@ public class IfcElementImpl extends IfcProductImpl implements IfcElement {
      */
     @Override
     public boolean isSetHasCoverings() {
-        return eIsSet(Ifc2x3tc1Package.Literals.IFC_ELEMENT__HAS_COVERINGS);
+        return eIsSet(Ifc2x3tc1Package.eINSTANCE.getIfcElement_HasCoverings());
     }
 
     /**
@@ -252,7 +252,7 @@ public class IfcElementImpl extends IfcProductImpl implements IfcElement {
     @SuppressWarnings("unchecked")
     @Override
     public EList<IfcRelProjectsElement> getHasProjections() {
-        return (EList<IfcRelProjectsElement>) eGet(Ifc2x3tc1Package.Literals.IFC_ELEMENT__HAS_PROJECTIONS, true);
+        return (EList<IfcRelProjectsElement>) eGet(Ifc2x3tc1Package.eINSTANCE.getIfcElement_HasProjections(), true);
     }
 
     /**
@@ -262,7 +262,7 @@ public class IfcElementImpl extends IfcProductImpl implements IfcElement {
      */
     @Override
     public void unsetHasProjections() {
-        eUnset(Ifc2x3tc1Package.Literals.IFC_ELEMENT__HAS_PROJECTIONS);
+        eUnset(Ifc2x3tc1Package.eINSTANCE.getIfcElement_HasProjections());
     }
 
     /**
@@ -272,7 +272,7 @@ public class IfcElementImpl extends IfcProductImpl implements IfcElement {
      */
     @Override
     public boolean isSetHasProjections() {
-        return eIsSet(Ifc2x3tc1Package.Literals.IFC_ELEMENT__HAS_PROJECTIONS);
+        return eIsSet(Ifc2x3tc1Package.eINSTANCE.getIfcElement_HasProjections());
     }
 
     /**
@@ -284,7 +284,7 @@ public class IfcElementImpl extends IfcProductImpl implements IfcElement {
     @Override
     public EList<IfcRelReferencedInSpatialStructure> getReferencedInStructures() {
         return (EList<IfcRelReferencedInSpatialStructure>) eGet(
-                Ifc2x3tc1Package.Literals.IFC_ELEMENT__REFERENCED_IN_STRUCTURES, true);
+                Ifc2x3tc1Package.eINSTANCE.getIfcElement_ReferencedInStructures(), true);
     }
 
     /**
@@ -294,7 +294,7 @@ public class IfcElementImpl extends IfcProductImpl implements IfcElement {
      */
     @Override
     public void unsetReferencedInStructures() {
-        eUnset(Ifc2x3tc1Package.Literals.IFC_ELEMENT__REFERENCED_IN_STRUCTURES);
+        eUnset(Ifc2x3tc1Package.eINSTANCE.getIfcElement_ReferencedInStructures());
     }
 
     /**
@@ -304,7 +304,7 @@ public class IfcElementImpl extends IfcProductImpl implements IfcElement {
      */
     @Override
     public boolean isSetReferencedInStructures() {
-        return eIsSet(Ifc2x3tc1Package.Literals.IFC_ELEMENT__REFERENCED_IN_STRUCTURES);
+        return eIsSet(Ifc2x3tc1Package.eINSTANCE.getIfcElement_ReferencedInStructures());
     }
 
     /**
@@ -315,7 +315,7 @@ public class IfcElementImpl extends IfcProductImpl implements IfcElement {
     @SuppressWarnings("unchecked")
     @Override
     public EList<IfcRelConnectsPortToElement> getHasPorts() {
-        return (EList<IfcRelConnectsPortToElement>) eGet(Ifc2x3tc1Package.Literals.IFC_ELEMENT__HAS_PORTS, true);
+        return (EList<IfcRelConnectsPortToElement>) eGet(Ifc2x3tc1Package.eINSTANCE.getIfcElement_HasPorts(), true);
     }
 
     /**
@@ -325,7 +325,7 @@ public class IfcElementImpl extends IfcProductImpl implements IfcElement {
      */
     @Override
     public void unsetHasPorts() {
-        eUnset(Ifc2x3tc1Package.Literals.IFC_ELEMENT__HAS_PORTS);
+        eUnset(Ifc2x3tc1Package.eINSTANCE.getIfcElement_HasPorts());
     }
 
     /**
@@ -335,7 +335,7 @@ public class IfcElementImpl extends IfcProductImpl implements IfcElement {
      */
     @Override
     public boolean isSetHasPorts() {
-        return eIsSet(Ifc2x3tc1Package.Literals.IFC_ELEMENT__HAS_PORTS);
+        return eIsSet(Ifc2x3tc1Package.eINSTANCE.getIfcElement_HasPorts());
     }
 
     /**
@@ -346,7 +346,7 @@ public class IfcElementImpl extends IfcProductImpl implements IfcElement {
     @SuppressWarnings("unchecked")
     @Override
     public EList<IfcRelVoidsElement> getHasOpenings() {
-        return (EList<IfcRelVoidsElement>) eGet(Ifc2x3tc1Package.Literals.IFC_ELEMENT__HAS_OPENINGS, true);
+        return (EList<IfcRelVoidsElement>) eGet(Ifc2x3tc1Package.eINSTANCE.getIfcElement_HasOpenings(), true);
     }
 
     /**
@@ -356,7 +356,7 @@ public class IfcElementImpl extends IfcProductImpl implements IfcElement {
      */
     @Override
     public void unsetHasOpenings() {
-        eUnset(Ifc2x3tc1Package.Literals.IFC_ELEMENT__HAS_OPENINGS);
+        eUnset(Ifc2x3tc1Package.eINSTANCE.getIfcElement_HasOpenings());
     }
 
     /**
@@ -366,7 +366,7 @@ public class IfcElementImpl extends IfcProductImpl implements IfcElement {
      */
     @Override
     public boolean isSetHasOpenings() {
-        return eIsSet(Ifc2x3tc1Package.Literals.IFC_ELEMENT__HAS_OPENINGS);
+        return eIsSet(Ifc2x3tc1Package.eINSTANCE.getIfcElement_HasOpenings());
     }
 
     /**
@@ -378,7 +378,7 @@ public class IfcElementImpl extends IfcProductImpl implements IfcElement {
     @Override
     public EList<IfcRelConnectsWithRealizingElements> getIsConnectionRealization() {
         return (EList<IfcRelConnectsWithRealizingElements>) eGet(
-                Ifc2x3tc1Package.Literals.IFC_ELEMENT__IS_CONNECTION_REALIZATION, true);
+                Ifc2x3tc1Package.eINSTANCE.getIfcElement_IsConnectionRealization(), true);
     }
 
     /**
@@ -388,7 +388,7 @@ public class IfcElementImpl extends IfcProductImpl implements IfcElement {
      */
     @Override
     public void unsetIsConnectionRealization() {
-        eUnset(Ifc2x3tc1Package.Literals.IFC_ELEMENT__IS_CONNECTION_REALIZATION);
+        eUnset(Ifc2x3tc1Package.eINSTANCE.getIfcElement_IsConnectionRealization());
     }
 
     /**
@@ -398,7 +398,7 @@ public class IfcElementImpl extends IfcProductImpl implements IfcElement {
      */
     @Override
     public boolean isSetIsConnectionRealization() {
-        return eIsSet(Ifc2x3tc1Package.Literals.IFC_ELEMENT__IS_CONNECTION_REALIZATION);
+        return eIsSet(Ifc2x3tc1Package.eINSTANCE.getIfcElement_IsConnectionRealization());
     }
 
     /**
@@ -409,7 +409,7 @@ public class IfcElementImpl extends IfcProductImpl implements IfcElement {
     @SuppressWarnings("unchecked")
     @Override
     public EList<IfcRelSpaceBoundary> getProvidesBoundaries() {
-        return (EList<IfcRelSpaceBoundary>) eGet(Ifc2x3tc1Package.Literals.IFC_ELEMENT__PROVIDES_BOUNDARIES, true);
+        return (EList<IfcRelSpaceBoundary>) eGet(Ifc2x3tc1Package.eINSTANCE.getIfcElement_ProvidesBoundaries(), true);
     }
 
     /**
@@ -419,7 +419,7 @@ public class IfcElementImpl extends IfcProductImpl implements IfcElement {
      */
     @Override
     public void unsetProvidesBoundaries() {
-        eUnset(Ifc2x3tc1Package.Literals.IFC_ELEMENT__PROVIDES_BOUNDARIES);
+        eUnset(Ifc2x3tc1Package.eINSTANCE.getIfcElement_ProvidesBoundaries());
     }
 
     /**
@@ -429,7 +429,7 @@ public class IfcElementImpl extends IfcProductImpl implements IfcElement {
      */
     @Override
     public boolean isSetProvidesBoundaries() {
-        return eIsSet(Ifc2x3tc1Package.Literals.IFC_ELEMENT__PROVIDES_BOUNDARIES);
+        return eIsSet(Ifc2x3tc1Package.eINSTANCE.getIfcElement_ProvidesBoundaries());
     }
 
     /**
@@ -440,7 +440,7 @@ public class IfcElementImpl extends IfcProductImpl implements IfcElement {
     @SuppressWarnings("unchecked")
     @Override
     public EList<IfcRelConnectsElements> getConnectedFrom() {
-        return (EList<IfcRelConnectsElements>) eGet(Ifc2x3tc1Package.Literals.IFC_ELEMENT__CONNECTED_FROM, true);
+        return (EList<IfcRelConnectsElements>) eGet(Ifc2x3tc1Package.eINSTANCE.getIfcElement_ConnectedFrom(), true);
     }
 
     /**
@@ -450,7 +450,7 @@ public class IfcElementImpl extends IfcProductImpl implements IfcElement {
      */
     @Override
     public void unsetConnectedFrom() {
-        eUnset(Ifc2x3tc1Package.Literals.IFC_ELEMENT__CONNECTED_FROM);
+        eUnset(Ifc2x3tc1Package.eINSTANCE.getIfcElement_ConnectedFrom());
     }
 
     /**
@@ -460,7 +460,7 @@ public class IfcElementImpl extends IfcProductImpl implements IfcElement {
      */
     @Override
     public boolean isSetConnectedFrom() {
-        return eIsSet(Ifc2x3tc1Package.Literals.IFC_ELEMENT__CONNECTED_FROM);
+        return eIsSet(Ifc2x3tc1Package.eINSTANCE.getIfcElement_ConnectedFrom());
     }
 
     /**
@@ -472,7 +472,7 @@ public class IfcElementImpl extends IfcProductImpl implements IfcElement {
     @Override
     public EList<IfcRelContainedInSpatialStructure> getContainedInStructure() {
         return (EList<IfcRelContainedInSpatialStructure>) eGet(
-                Ifc2x3tc1Package.Literals.IFC_ELEMENT__CONTAINED_IN_STRUCTURE, true);
+                Ifc2x3tc1Package.eINSTANCE.getIfcElement_ContainedInStructure(), true);
     }
 
     /**
@@ -482,7 +482,7 @@ public class IfcElementImpl extends IfcProductImpl implements IfcElement {
      */
     @Override
     public void unsetContainedInStructure() {
-        eUnset(Ifc2x3tc1Package.Literals.IFC_ELEMENT__CONTAINED_IN_STRUCTURE);
+        eUnset(Ifc2x3tc1Package.eINSTANCE.getIfcElement_ContainedInStructure());
     }
 
     /**
@@ -492,7 +492,7 @@ public class IfcElementImpl extends IfcProductImpl implements IfcElement {
      */
     @Override
     public boolean isSetContainedInStructure() {
-        return eIsSet(Ifc2x3tc1Package.Literals.IFC_ELEMENT__CONTAINED_IN_STRUCTURE);
+        return eIsSet(Ifc2x3tc1Package.eINSTANCE.getIfcElement_ContainedInStructure());
     }
 
 } //IfcElementImpl

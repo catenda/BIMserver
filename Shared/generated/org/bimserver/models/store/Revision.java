@@ -60,10 +60,6 @@ public interface Revision extends IdEObject {
     /**
      * Returns the value of the '<em><b>Id</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Id</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Id</em>' attribute.
      * @see #setId(Integer)
@@ -87,10 +83,6 @@ public interface Revision extends IdEObject {
      * Returns the value of the '<em><b>User</b></em>' reference.
      * It is bidirectional and its opposite is '{@link org.bimserver.models.store.User#getRevisions <em>Revisions</em>}'.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>User</em>' reference isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>User</em>' reference.
      * @see #setUser(User)
@@ -114,10 +106,6 @@ public interface Revision extends IdEObject {
     /**
      * Returns the value of the '<em><b>Date</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Date</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Date</em>' attribute.
      * @see #setDate(Date)
@@ -140,10 +128,6 @@ public interface Revision extends IdEObject {
     /**
      * Returns the value of the '<em><b>Comment</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Comment</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Comment</em>' attribute.
      * @see #setComment(String)
@@ -166,10 +150,6 @@ public interface Revision extends IdEObject {
     /**
      * Returns the value of the '<em><b>Size</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Size</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Size</em>' attribute.
      * @see #setSize(Long)
@@ -194,10 +174,6 @@ public interface Revision extends IdEObject {
      * The list contents are of type {@link org.bimserver.models.store.ConcreteRevision}.
      * It is bidirectional and its opposite is '{@link org.bimserver.models.store.ConcreteRevision#getRevisions <em>Revisions</em>}'.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Concrete Revisions</em>' reference list isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Concrete Revisions</em>' reference list.
      * @see org.bimserver.models.store.StorePackage#getRevision_ConcreteRevisions()
@@ -210,10 +186,6 @@ public interface Revision extends IdEObject {
     /**
      * Returns the value of the '<em><b>Last Concrete Revision</b></em>' reference.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Last Concrete Revision</em>' reference isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Last Concrete Revision</em>' reference.
      * @see #setLastConcreteRevision(ConcreteRevision)
@@ -238,10 +210,6 @@ public interface Revision extends IdEObject {
      * The list contents are of type {@link org.bimserver.models.store.Checkout}.
      * It is bidirectional and its opposite is '{@link org.bimserver.models.store.Checkout#getRevision <em>Revision</em>}'.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Checkouts</em>' reference list isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Checkouts</em>' reference list.
      * @see org.bimserver.models.store.StorePackage#getRevision_Checkouts()
@@ -255,10 +223,6 @@ public interface Revision extends IdEObject {
      * Returns the value of the '<em><b>Project</b></em>' reference.
      * It is bidirectional and its opposite is '{@link org.bimserver.models.store.Project#getRevisions <em>Revisions</em>}'.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Project</em>' reference isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Project</em>' reference.
      * @see #setProject(Project)
@@ -282,10 +246,6 @@ public interface Revision extends IdEObject {
     /**
      * Returns the value of the '<em><b>Tag</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Tag</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Tag</em>' attribute.
      * @see #setTag(String)
@@ -308,10 +268,6 @@ public interface Revision extends IdEObject {
     /**
      * Returns the value of the '<em><b>Last Error</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Last Error</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Last Error</em>' attribute.
      * @see #setLastError(String)
@@ -334,10 +290,6 @@ public interface Revision extends IdEObject {
     /**
      * Returns the value of the '<em><b>Bmi</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Bmi</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Bmi</em>' attribute.
      * @see #setBmi(Integer)
@@ -362,10 +314,6 @@ public interface Revision extends IdEObject {
      * The list contents are of type {@link org.bimserver.models.store.ExtendedData}.
      * It is bidirectional and its opposite is '{@link org.bimserver.models.store.ExtendedData#getRevision <em>Revision</em>}'.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Extended Data</em>' reference list isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Extended Data</em>' reference list.
      * @see org.bimserver.models.store.StorePackage#getRevision_ExtendedData()
@@ -380,10 +328,6 @@ public interface Revision extends IdEObject {
      * The list contents are of type {@link org.bimserver.models.log.RevisionRelated}.
      * It is bidirectional and its opposite is '{@link org.bimserver.models.log.RevisionRelated#getRevision <em>Revision</em>}'.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Logs</em>' reference list isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Logs</em>' reference list.
      * @see org.bimserver.models.store.StorePackage#getRevision_Logs()
@@ -396,10 +340,6 @@ public interface Revision extends IdEObject {
     /**
      * Returns the value of the '<em><b>Service</b></em>' reference.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Service</em>' reference isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Service</em>' reference.
      * @see #setService(Service)
@@ -422,10 +362,6 @@ public interface Revision extends IdEObject {
     /**
      * Returns the value of the '<em><b>Has Geometry</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Has Geometry</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Has Geometry</em>' attribute.
      * @see #setHasGeometry(boolean)

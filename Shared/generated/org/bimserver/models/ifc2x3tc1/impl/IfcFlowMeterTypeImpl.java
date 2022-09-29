@@ -52,7 +52,7 @@ public class IfcFlowMeterTypeImpl extends IfcFlowControllerTypeImpl implements I
      */
     @Override
     protected EClass eStaticClass() {
-        return Ifc2x3tc1Package.Literals.IFC_FLOW_METER_TYPE;
+        return Ifc2x3tc1Package.eINSTANCE.getIfcFlowMeterType();
     }
 
     /**
@@ -62,7 +62,7 @@ public class IfcFlowMeterTypeImpl extends IfcFlowControllerTypeImpl implements I
      */
     @Override
     public IfcFlowMeterTypeEnum getPredefinedType() {
-        return (IfcFlowMeterTypeEnum) eGet(Ifc2x3tc1Package.Literals.IFC_FLOW_METER_TYPE__PREDEFINED_TYPE, true);
+        return (IfcFlowMeterTypeEnum) eGet(Ifc2x3tc1Package.eINSTANCE.getIfcFlowMeterType_PredefinedType(), true);
     }
 
     /**
@@ -72,7 +72,7 @@ public class IfcFlowMeterTypeImpl extends IfcFlowControllerTypeImpl implements I
      */
     @Override
     public void setPredefinedType(IfcFlowMeterTypeEnum newPredefinedType) {
-        eSet(Ifc2x3tc1Package.Literals.IFC_FLOW_METER_TYPE__PREDEFINED_TYPE, newPredefinedType);
+        eSet(Ifc2x3tc1Package.eINSTANCE.getIfcFlowMeterType_PredefinedType(), newPredefinedType);
     }
 
 } //IfcFlowMeterTypeImpl

@@ -46,7 +46,7 @@ public class IfcDraughtingPreDefinedCurveFontImpl extends IfcPreDefinedCurveFont
      */
     @Override
     protected EClass eStaticClass() {
-        return Ifc2x3tc1Package.Literals.IFC_DRAUGHTING_PRE_DEFINED_CURVE_FONT;
+        return Ifc2x3tc1Package.eINSTANCE.getIfcDraughtingPreDefinedCurveFont();
     }
 
 } //IfcDraughtingPreDefinedCurveFontImpl

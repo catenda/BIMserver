@@ -52,7 +52,7 @@ public class IfcPhysicalSimpleQuantityImpl extends IfcPhysicalQuantityImpl imple
      */
     @Override
     protected EClass eStaticClass() {
-        return Ifc2x3tc1Package.Literals.IFC_PHYSICAL_SIMPLE_QUANTITY;
+        return Ifc2x3tc1Package.eINSTANCE.getIfcPhysicalSimpleQuantity();
     }
 
     /**
@@ -62,7 +62,7 @@ public class IfcPhysicalSimpleQuantityImpl extends IfcPhysicalQuantityImpl imple
      */
     @Override
     public IfcNamedUnit getUnit() {
-        return (IfcNamedUnit) eGet(Ifc2x3tc1Package.Literals.IFC_PHYSICAL_SIMPLE_QUANTITY__UNIT, true);
+        return (IfcNamedUnit) eGet(Ifc2x3tc1Package.eINSTANCE.getIfcPhysicalSimpleQuantity_Unit(), true);
     }
 
     /**
@@ -72,7 +72,7 @@ public class IfcPhysicalSimpleQuantityImpl extends IfcPhysicalQuantityImpl imple
      */
     @Override
     public void setUnit(IfcNamedUnit newUnit) {
-        eSet(Ifc2x3tc1Package.Literals.IFC_PHYSICAL_SIMPLE_QUANTITY__UNIT, newUnit);
+        eSet(Ifc2x3tc1Package.eINSTANCE.getIfcPhysicalSimpleQuantity_Unit(), newUnit);
     }
 
     /**
@@ -82,7 +82,7 @@ public class IfcPhysicalSimpleQuantityImpl extends IfcPhysicalQuantityImpl imple
      */
     @Override
     public void unsetUnit() {
-        eUnset(Ifc2x3tc1Package.Literals.IFC_PHYSICAL_SIMPLE_QUANTITY__UNIT);
+        eUnset(Ifc2x3tc1Package.eINSTANCE.getIfcPhysicalSimpleQuantity_Unit());
     }
 
     /**
@@ -92,7 +92,7 @@ public class IfcPhysicalSimpleQuantityImpl extends IfcPhysicalQuantityImpl imple
      */
     @Override
     public boolean isSetUnit() {
-        return eIsSet(Ifc2x3tc1Package.Literals.IFC_PHYSICAL_SIMPLE_QUANTITY__UNIT);
+        return eIsSet(Ifc2x3tc1Package.eINSTANCE.getIfcPhysicalSimpleQuantity_Unit());
     }
 
 } //IfcPhysicalSimpleQuantityImpl

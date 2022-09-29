@@ -195,10 +195,6 @@ public enum IfcHumidifierTypeEnum implements Enumerator {
     /**
      * The '<em><b>NULL</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>NULL</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #NULL
      * @model
@@ -210,10 +206,6 @@ public enum IfcHumidifierTypeEnum implements Enumerator {
     /**
      * The '<em><b>ADIABATICPAN</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>ADIABATICPAN</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #ADIABATICPAN
      * @model
@@ -225,10 +217,6 @@ public enum IfcHumidifierTypeEnum implements Enumerator {
     /**
      * The '<em><b>ADIABATICULTRASONIC</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>ADIABATICULTRASONIC</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #ADIABATICULTRASONIC
      * @model
@@ -240,10 +228,6 @@ public enum IfcHumidifierTypeEnum implements Enumerator {
     /**
      * The '<em><b>ASSISTEDNATURALGAS</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>ASSISTEDNATURALGAS</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #ASSISTEDNATURALGAS
      * @model
@@ -255,10 +239,6 @@ public enum IfcHumidifierTypeEnum implements Enumerator {
     /**
      * The '<em><b>ADIABATICRIGIDMEDIA</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>ADIABATICRIGIDMEDIA</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #ADIABATICRIGIDMEDIA
      * @model
@@ -270,10 +250,6 @@ public enum IfcHumidifierTypeEnum implements Enumerator {
     /**
      * The '<em><b>ADIABATICWETTEDELEMENT</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>ADIABATICWETTEDELEMENT</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #ADIABATICWETTEDELEMENT
      * @model
@@ -285,10 +261,6 @@ public enum IfcHumidifierTypeEnum implements Enumerator {
     /**
      * The '<em><b>USERDEFINED</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>USERDEFINED</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #USERDEFINED
      * @model
@@ -300,10 +272,6 @@ public enum IfcHumidifierTypeEnum implements Enumerator {
     /**
      * The '<em><b>ADIABATICAIRWASHER</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>ADIABATICAIRWASHER</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #ADIABATICAIRWASHER
      * @model
@@ -315,10 +283,6 @@ public enum IfcHumidifierTypeEnum implements Enumerator {
     /**
      * The '<em><b>ADIABATICATOMIZING</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>ADIABATICATOMIZING</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #ADIABATICATOMIZING
      * @model
@@ -330,10 +294,6 @@ public enum IfcHumidifierTypeEnum implements Enumerator {
     /**
      * The '<em><b>ASSISTEDELECTRIC</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>ASSISTEDELECTRIC</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #ASSISTEDELECTRIC
      * @model
@@ -345,10 +305,6 @@ public enum IfcHumidifierTypeEnum implements Enumerator {
     /**
      * The '<em><b>ASSISTEDPROPANE</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>ASSISTEDPROPANE</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #ASSISTEDPROPANE
      * @model
@@ -360,10 +316,6 @@ public enum IfcHumidifierTypeEnum implements Enumerator {
     /**
      * The '<em><b>NOTDEFINED</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>NOTDEFINED</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #NOTDEFINED
      * @model
@@ -375,10 +327,6 @@ public enum IfcHumidifierTypeEnum implements Enumerator {
     /**
      * The '<em><b>ASSISTEDBUTANE</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>ASSISTEDBUTANE</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #ASSISTEDBUTANE
      * @model
@@ -390,10 +338,6 @@ public enum IfcHumidifierTypeEnum implements Enumerator {
     /**
      * The '<em><b>STEAMINJECTION</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>STEAMINJECTION</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #STEAMINJECTION
      * @model
@@ -405,10 +349,6 @@ public enum IfcHumidifierTypeEnum implements Enumerator {
     /**
      * The '<em><b>ADIABATICCOMPRESSEDAIRNOZZLE</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>ADIABATICCOMPRESSEDAIRNOZZLE</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #ADIABATICCOMPRESSEDAIRNOZZLE
      * @model
@@ -420,10 +360,6 @@ public enum IfcHumidifierTypeEnum implements Enumerator {
     /**
      * The '<em><b>ASSISTEDSTEAM</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>ASSISTEDSTEAM</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #ASSISTEDSTEAM
      * @model

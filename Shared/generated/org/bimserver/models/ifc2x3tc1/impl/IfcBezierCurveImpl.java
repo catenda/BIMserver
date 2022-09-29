@@ -45,7 +45,7 @@ public class IfcBezierCurveImpl extends IfcBSplineCurveImpl implements IfcBezier
      */
     @Override
     protected EClass eStaticClass() {
-        return Ifc2x3tc1Package.Literals.IFC_BEZIER_CURVE;
+        return Ifc2x3tc1Package.eINSTANCE.getIfcBezierCurve();
     }
 
 } //IfcBezierCurveImpl

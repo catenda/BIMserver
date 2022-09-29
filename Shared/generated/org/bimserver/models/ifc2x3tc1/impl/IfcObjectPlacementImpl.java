@@ -58,7 +58,7 @@ public class IfcObjectPlacementImpl extends IdEObjectImpl implements IfcObjectPl
      */
     @Override
     protected EClass eStaticClass() {
-        return Ifc2x3tc1Package.Literals.IFC_OBJECT_PLACEMENT;
+        return Ifc2x3tc1Package.eINSTANCE.getIfcObjectPlacement();
     }
 
     /**
@@ -79,7 +79,7 @@ public class IfcObjectPlacementImpl extends IdEObjectImpl implements IfcObjectPl
     @SuppressWarnings("unchecked")
     @Override
     public EList<IfcProduct> getPlacesObject() {
-        return (EList<IfcProduct>) eGet(Ifc2x3tc1Package.Literals.IFC_OBJECT_PLACEMENT__PLACES_OBJECT, true);
+        return (EList<IfcProduct>) eGet(Ifc2x3tc1Package.eINSTANCE.getIfcObjectPlacement_PlacesObject(), true);
     }
 
     /**
@@ -89,7 +89,7 @@ public class IfcObjectPlacementImpl extends IdEObjectImpl implements IfcObjectPl
      */
     @Override
     public void unsetPlacesObject() {
-        eUnset(Ifc2x3tc1Package.Literals.IFC_OBJECT_PLACEMENT__PLACES_OBJECT);
+        eUnset(Ifc2x3tc1Package.eINSTANCE.getIfcObjectPlacement_PlacesObject());
     }
 
     /**
@@ -99,7 +99,7 @@ public class IfcObjectPlacementImpl extends IdEObjectImpl implements IfcObjectPl
      */
     @Override
     public boolean isSetPlacesObject() {
-        return eIsSet(Ifc2x3tc1Package.Literals.IFC_OBJECT_PLACEMENT__PLACES_OBJECT);
+        return eIsSet(Ifc2x3tc1Package.eINSTANCE.getIfcObjectPlacement_PlacesObject());
     }
 
     /**
@@ -110,8 +110,8 @@ public class IfcObjectPlacementImpl extends IdEObjectImpl implements IfcObjectPl
     @SuppressWarnings("unchecked")
     @Override
     public EList<IfcLocalPlacement> getReferencedByPlacements() {
-        return (EList<IfcLocalPlacement>) eGet(Ifc2x3tc1Package.Literals.IFC_OBJECT_PLACEMENT__REFERENCED_BY_PLACEMENTS,
-                true);
+        return (EList<IfcLocalPlacement>) eGet(
+                Ifc2x3tc1Package.eINSTANCE.getIfcObjectPlacement_ReferencedByPlacements(), true);
     }
 
     /**
@@ -121,7 +121,7 @@ public class IfcObjectPlacementImpl extends IdEObjectImpl implements IfcObjectPl
      */
     @Override
     public void unsetReferencedByPlacements() {
-        eUnset(Ifc2x3tc1Package.Literals.IFC_OBJECT_PLACEMENT__REFERENCED_BY_PLACEMENTS);
+        eUnset(Ifc2x3tc1Package.eINSTANCE.getIfcObjectPlacement_ReferencedByPlacements());
     }
 
     /**
@@ -131,7 +131,7 @@ public class IfcObjectPlacementImpl extends IdEObjectImpl implements IfcObjectPl
      */
     @Override
     public boolean isSetReferencedByPlacements() {
-        return eIsSet(Ifc2x3tc1Package.Literals.IFC_OBJECT_PLACEMENT__REFERENCED_BY_PLACEMENTS);
+        return eIsSet(Ifc2x3tc1Package.eINSTANCE.getIfcObjectPlacement_ReferencedByPlacements());
     }
 
 } //IfcObjectPlacementImpl

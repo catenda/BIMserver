@@ -52,7 +52,7 @@ public class IfcRoofImpl extends IfcBuildingElementImpl implements IfcRoof {
      */
     @Override
     protected EClass eStaticClass() {
-        return Ifc2x3tc1Package.Literals.IFC_ROOF;
+        return Ifc2x3tc1Package.eINSTANCE.getIfcRoof();
     }
 
     /**
@@ -62,7 +62,7 @@ public class IfcRoofImpl extends IfcBuildingElementImpl implements IfcRoof {
      */
     @Override
     public IfcRoofTypeEnum getShapeType() {
-        return (IfcRoofTypeEnum) eGet(Ifc2x3tc1Package.Literals.IFC_ROOF__SHAPE_TYPE, true);
+        return (IfcRoofTypeEnum) eGet(Ifc2x3tc1Package.eINSTANCE.getIfcRoof_ShapeType(), true);
     }
 
     /**
@@ -72,7 +72,7 @@ public class IfcRoofImpl extends IfcBuildingElementImpl implements IfcRoof {
      */
     @Override
     public void setShapeType(IfcRoofTypeEnum newShapeType) {
-        eSet(Ifc2x3tc1Package.Literals.IFC_ROOF__SHAPE_TYPE, newShapeType);
+        eSet(Ifc2x3tc1Package.eINSTANCE.getIfcRoof_ShapeType(), newShapeType);
     }
 
 } //IfcRoofImpl

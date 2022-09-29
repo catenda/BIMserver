@@ -52,7 +52,7 @@ public class IfcFlowInstrumentTypeImpl extends IfcDistributionControlElementType
      */
     @Override
     protected EClass eStaticClass() {
-        return Ifc4Package.Literals.IFC_FLOW_INSTRUMENT_TYPE;
+        return Ifc4Package.eINSTANCE.getIfcFlowInstrumentType();
     }
 
     /**
@@ -62,7 +62,7 @@ public class IfcFlowInstrumentTypeImpl extends IfcDistributionControlElementType
      */
     @Override
     public IfcFlowInstrumentTypeEnum getPredefinedType() {
-        return (IfcFlowInstrumentTypeEnum) eGet(Ifc4Package.Literals.IFC_FLOW_INSTRUMENT_TYPE__PREDEFINED_TYPE, true);
+        return (IfcFlowInstrumentTypeEnum) eGet(Ifc4Package.eINSTANCE.getIfcFlowInstrumentType_PredefinedType(), true);
     }
 
     /**
@@ -72,7 +72,7 @@ public class IfcFlowInstrumentTypeImpl extends IfcDistributionControlElementType
      */
     @Override
     public void setPredefinedType(IfcFlowInstrumentTypeEnum newPredefinedType) {
-        eSet(Ifc4Package.Literals.IFC_FLOW_INSTRUMENT_TYPE__PREDEFINED_TYPE, newPredefinedType);
+        eSet(Ifc4Package.eINSTANCE.getIfcFlowInstrumentType_PredefinedType(), newPredefinedType);
     }
 
 } //IfcFlowInstrumentTypeImpl

@@ -37,10 +37,6 @@ public interface IfcMaterialProfileSetUsageTapering extends IfcMaterialProfileSe
     /**
      * Returns the value of the '<em><b>For Profile End Set</b></em>' reference.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>For Profile End Set</em>' reference isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>For Profile End Set</em>' reference.
      * @see #setForProfileEndSet(IfcMaterialProfileSet)
@@ -63,10 +59,6 @@ public interface IfcMaterialProfileSetUsageTapering extends IfcMaterialProfileSe
     /**
      * Returns the value of the '<em><b>Cardinal End Point</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Cardinal End Point</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Cardinal End Point</em>' attribute.
      * @see #isSetCardinalEndPoint()

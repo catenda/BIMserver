@@ -54,7 +54,7 @@ public class IfcProjectOrderImpl extends IfcControlImpl implements IfcProjectOrd
      */
     @Override
     protected EClass eStaticClass() {
-        return Ifc2x3tc1Package.Literals.IFC_PROJECT_ORDER;
+        return Ifc2x3tc1Package.eINSTANCE.getIfcProjectOrder();
     }
 
     /**
@@ -64,7 +64,7 @@ public class IfcProjectOrderImpl extends IfcControlImpl implements IfcProjectOrd
      */
     @Override
     public String getID() {
-        return (String) eGet(Ifc2x3tc1Package.Literals.IFC_PROJECT_ORDER__ID, true);
+        return (String) eGet(Ifc2x3tc1Package.eINSTANCE.getIfcProjectOrder_ID(), true);
     }
 
     /**
@@ -74,7 +74,7 @@ public class IfcProjectOrderImpl extends IfcControlImpl implements IfcProjectOrd
      */
     @Override
     public void setID(String newID) {
-        eSet(Ifc2x3tc1Package.Literals.IFC_PROJECT_ORDER__ID, newID);
+        eSet(Ifc2x3tc1Package.eINSTANCE.getIfcProjectOrder_ID(), newID);
     }
 
     /**
@@ -84,7 +84,7 @@ public class IfcProjectOrderImpl extends IfcControlImpl implements IfcProjectOrd
      */
     @Override
     public IfcProjectOrderTypeEnum getPredefinedType() {
-        return (IfcProjectOrderTypeEnum) eGet(Ifc2x3tc1Package.Literals.IFC_PROJECT_ORDER__PREDEFINED_TYPE, true);
+        return (IfcProjectOrderTypeEnum) eGet(Ifc2x3tc1Package.eINSTANCE.getIfcProjectOrder_PredefinedType(), true);
     }
 
     /**
@@ -94,7 +94,7 @@ public class IfcProjectOrderImpl extends IfcControlImpl implements IfcProjectOrd
      */
     @Override
     public void setPredefinedType(IfcProjectOrderTypeEnum newPredefinedType) {
-        eSet(Ifc2x3tc1Package.Literals.IFC_PROJECT_ORDER__PREDEFINED_TYPE, newPredefinedType);
+        eSet(Ifc2x3tc1Package.eINSTANCE.getIfcProjectOrder_PredefinedType(), newPredefinedType);
     }
 
     /**
@@ -104,7 +104,7 @@ public class IfcProjectOrderImpl extends IfcControlImpl implements IfcProjectOrd
      */
     @Override
     public String getStatus() {
-        return (String) eGet(Ifc2x3tc1Package.Literals.IFC_PROJECT_ORDER__STATUS, true);
+        return (String) eGet(Ifc2x3tc1Package.eINSTANCE.getIfcProjectOrder_Status(), true);
     }
 
     /**
@@ -114,7 +114,7 @@ public class IfcProjectOrderImpl extends IfcControlImpl implements IfcProjectOrd
      */
     @Override
     public void setStatus(String newStatus) {
-        eSet(Ifc2x3tc1Package.Literals.IFC_PROJECT_ORDER__STATUS, newStatus);
+        eSet(Ifc2x3tc1Package.eINSTANCE.getIfcProjectOrder_Status(), newStatus);
     }
 
     /**
@@ -124,7 +124,7 @@ public class IfcProjectOrderImpl extends IfcControlImpl implements IfcProjectOrd
      */
     @Override
     public void unsetStatus() {
-        eUnset(Ifc2x3tc1Package.Literals.IFC_PROJECT_ORDER__STATUS);
+        eUnset(Ifc2x3tc1Package.eINSTANCE.getIfcProjectOrder_Status());
     }
 
     /**
@@ -134,7 +134,7 @@ public class IfcProjectOrderImpl extends IfcControlImpl implements IfcProjectOrd
      */
     @Override
     public boolean isSetStatus() {
-        return eIsSet(Ifc2x3tc1Package.Literals.IFC_PROJECT_ORDER__STATUS);
+        return eIsSet(Ifc2x3tc1Package.eINSTANCE.getIfcProjectOrder_Status());
     }
 
 } //IfcProjectOrderImpl

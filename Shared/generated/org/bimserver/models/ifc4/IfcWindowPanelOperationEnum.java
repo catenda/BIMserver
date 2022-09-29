@@ -185,10 +185,6 @@ public enum IfcWindowPanelOperationEnum implements Enumerator {
     /**
      * The '<em><b>NULL</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>NULL</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #NULL
      * @model
@@ -200,10 +196,6 @@ public enum IfcWindowPanelOperationEnum implements Enumerator {
     /**
      * The '<em><b>SIDEHUNGLEFTHAND</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>SIDEHUNGLEFTHAND</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #SIDEHUNGLEFTHAND
      * @model
@@ -215,10 +207,6 @@ public enum IfcWindowPanelOperationEnum implements Enumerator {
     /**
      * The '<em><b>FIXEDCASEMENT</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>FIXEDCASEMENT</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #FIXEDCASEMENT
      * @model
@@ -230,10 +218,6 @@ public enum IfcWindowPanelOperationEnum implements Enumerator {
     /**
      * The '<em><b>TILTANDTURNRIGHTHAND</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>TILTANDTURNRIGHTHAND</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #TILTANDTURNRIGHTHAND
      * @model
@@ -245,10 +229,6 @@ public enum IfcWindowPanelOperationEnum implements Enumerator {
     /**
      * The '<em><b>NOTDEFINED</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>NOTDEFINED</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #NOTDEFINED
      * @model
@@ -260,10 +240,6 @@ public enum IfcWindowPanelOperationEnum implements Enumerator {
     /**
      * The '<em><b>TILTANDTURNLEFTHAND</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>TILTANDTURNLEFTHAND</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #TILTANDTURNLEFTHAND
      * @model
@@ -275,10 +251,6 @@ public enum IfcWindowPanelOperationEnum implements Enumerator {
     /**
      * The '<em><b>OTHEROPERATION</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>OTHEROPERATION</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #OTHEROPERATION
      * @model
@@ -290,10 +262,6 @@ public enum IfcWindowPanelOperationEnum implements Enumerator {
     /**
      * The '<em><b>PIVOTHORIZONTAL</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>PIVOTHORIZONTAL</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #PIVOTHORIZONTAL
      * @model
@@ -305,10 +273,6 @@ public enum IfcWindowPanelOperationEnum implements Enumerator {
     /**
      * The '<em><b>PIVOTVERTICAL</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>PIVOTVERTICAL</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #PIVOTVERTICAL
      * @model
@@ -320,10 +284,6 @@ public enum IfcWindowPanelOperationEnum implements Enumerator {
     /**
      * The '<em><b>SLIDINGHORIZONTAL</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>SLIDINGHORIZONTAL</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #SLIDINGHORIZONTAL
      * @model
@@ -335,10 +295,6 @@ public enum IfcWindowPanelOperationEnum implements Enumerator {
     /**
      * The '<em><b>TOPHUNG</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>TOPHUNG</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #TOPHUNG
      * @model
@@ -350,10 +306,6 @@ public enum IfcWindowPanelOperationEnum implements Enumerator {
     /**
      * The '<em><b>BOTTOMHUNG</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>BOTTOMHUNG</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #BOTTOMHUNG
      * @model
@@ -365,10 +317,6 @@ public enum IfcWindowPanelOperationEnum implements Enumerator {
     /**
      * The '<em><b>SLIDINGVERTICAL</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>SLIDINGVERTICAL</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #SLIDINGVERTICAL
      * @model
@@ -380,10 +328,6 @@ public enum IfcWindowPanelOperationEnum implements Enumerator {
     /**
      * The '<em><b>SIDEHUNGRIGHTHAND</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>SIDEHUNGRIGHTHAND</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #SIDEHUNGRIGHTHAND
      * @model
@@ -395,10 +339,6 @@ public enum IfcWindowPanelOperationEnum implements Enumerator {
     /**
      * The '<em><b>REMOVABLECASEMENT</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>REMOVABLECASEMENT</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #REMOVABLECASEMENT
      * @model

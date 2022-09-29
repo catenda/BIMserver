@@ -53,7 +53,7 @@ public class IfcConnectionCurveGeometryImpl extends IfcConnectionGeometryImpl im
      */
     @Override
     protected EClass eStaticClass() {
-        return Ifc4Package.Literals.IFC_CONNECTION_CURVE_GEOMETRY;
+        return Ifc4Package.eINSTANCE.getIfcConnectionCurveGeometry();
     }
 
     /**
@@ -63,7 +63,7 @@ public class IfcConnectionCurveGeometryImpl extends IfcConnectionGeometryImpl im
      */
     @Override
     public IfcCurveOrEdgeCurve getCurveOnRelatingElement() {
-        return (IfcCurveOrEdgeCurve) eGet(Ifc4Package.Literals.IFC_CONNECTION_CURVE_GEOMETRY__CURVE_ON_RELATING_ELEMENT,
+        return (IfcCurveOrEdgeCurve) eGet(Ifc4Package.eINSTANCE.getIfcConnectionCurveGeometry_CurveOnRelatingElement(),
                 true);
     }
 
@@ -74,7 +74,7 @@ public class IfcConnectionCurveGeometryImpl extends IfcConnectionGeometryImpl im
      */
     @Override
     public void setCurveOnRelatingElement(IfcCurveOrEdgeCurve newCurveOnRelatingElement) {
-        eSet(Ifc4Package.Literals.IFC_CONNECTION_CURVE_GEOMETRY__CURVE_ON_RELATING_ELEMENT, newCurveOnRelatingElement);
+        eSet(Ifc4Package.eINSTANCE.getIfcConnectionCurveGeometry_CurveOnRelatingElement(), newCurveOnRelatingElement);
     }
 
     /**
@@ -84,7 +84,7 @@ public class IfcConnectionCurveGeometryImpl extends IfcConnectionGeometryImpl im
      */
     @Override
     public IfcCurveOrEdgeCurve getCurveOnRelatedElement() {
-        return (IfcCurveOrEdgeCurve) eGet(Ifc4Package.Literals.IFC_CONNECTION_CURVE_GEOMETRY__CURVE_ON_RELATED_ELEMENT,
+        return (IfcCurveOrEdgeCurve) eGet(Ifc4Package.eINSTANCE.getIfcConnectionCurveGeometry_CurveOnRelatedElement(),
                 true);
     }
 
@@ -95,7 +95,7 @@ public class IfcConnectionCurveGeometryImpl extends IfcConnectionGeometryImpl im
      */
     @Override
     public void setCurveOnRelatedElement(IfcCurveOrEdgeCurve newCurveOnRelatedElement) {
-        eSet(Ifc4Package.Literals.IFC_CONNECTION_CURVE_GEOMETRY__CURVE_ON_RELATED_ELEMENT, newCurveOnRelatedElement);
+        eSet(Ifc4Package.eINSTANCE.getIfcConnectionCurveGeometry_CurveOnRelatedElement(), newCurveOnRelatedElement);
     }
 
     /**
@@ -105,7 +105,7 @@ public class IfcConnectionCurveGeometryImpl extends IfcConnectionGeometryImpl im
      */
     @Override
     public void unsetCurveOnRelatedElement() {
-        eUnset(Ifc4Package.Literals.IFC_CONNECTION_CURVE_GEOMETRY__CURVE_ON_RELATED_ELEMENT);
+        eUnset(Ifc4Package.eINSTANCE.getIfcConnectionCurveGeometry_CurveOnRelatedElement());
     }
 
     /**
@@ -115,7 +115,7 @@ public class IfcConnectionCurveGeometryImpl extends IfcConnectionGeometryImpl im
      */
     @Override
     public boolean isSetCurveOnRelatedElement() {
-        return eIsSet(Ifc4Package.Literals.IFC_CONNECTION_CURVE_GEOMETRY__CURVE_ON_RELATED_ELEMENT);
+        return eIsSet(Ifc4Package.eINSTANCE.getIfcConnectionCurveGeometry_CurveOnRelatedElement());
     }
 
 } //IfcConnectionCurveGeometryImpl

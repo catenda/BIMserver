@@ -56,7 +56,7 @@ public class IfcMechanicalFastenerTypeImpl extends IfcElementComponentTypeImpl i
      */
     @Override
     protected EClass eStaticClass() {
-        return Ifc4Package.Literals.IFC_MECHANICAL_FASTENER_TYPE;
+        return Ifc4Package.eINSTANCE.getIfcMechanicalFastenerType();
     }
 
     /**
@@ -66,7 +66,7 @@ public class IfcMechanicalFastenerTypeImpl extends IfcElementComponentTypeImpl i
      */
     @Override
     public IfcMechanicalFastenerTypeEnum getPredefinedType() {
-        return (IfcMechanicalFastenerTypeEnum) eGet(Ifc4Package.Literals.IFC_MECHANICAL_FASTENER_TYPE__PREDEFINED_TYPE,
+        return (IfcMechanicalFastenerTypeEnum) eGet(Ifc4Package.eINSTANCE.getIfcMechanicalFastenerType_PredefinedType(),
                 true);
     }
 
@@ -77,7 +77,7 @@ public class IfcMechanicalFastenerTypeImpl extends IfcElementComponentTypeImpl i
      */
     @Override
     public void setPredefinedType(IfcMechanicalFastenerTypeEnum newPredefinedType) {
-        eSet(Ifc4Package.Literals.IFC_MECHANICAL_FASTENER_TYPE__PREDEFINED_TYPE, newPredefinedType);
+        eSet(Ifc4Package.eINSTANCE.getIfcMechanicalFastenerType_PredefinedType(), newPredefinedType);
     }
 
     /**
@@ -87,7 +87,7 @@ public class IfcMechanicalFastenerTypeImpl extends IfcElementComponentTypeImpl i
      */
     @Override
     public double getNominalDiameter() {
-        return (Double) eGet(Ifc4Package.Literals.IFC_MECHANICAL_FASTENER_TYPE__NOMINAL_DIAMETER, true);
+        return (Double) eGet(Ifc4Package.eINSTANCE.getIfcMechanicalFastenerType_NominalDiameter(), true);
     }
 
     /**
@@ -97,7 +97,7 @@ public class IfcMechanicalFastenerTypeImpl extends IfcElementComponentTypeImpl i
      */
     @Override
     public void setNominalDiameter(double newNominalDiameter) {
-        eSet(Ifc4Package.Literals.IFC_MECHANICAL_FASTENER_TYPE__NOMINAL_DIAMETER, newNominalDiameter);
+        eSet(Ifc4Package.eINSTANCE.getIfcMechanicalFastenerType_NominalDiameter(), newNominalDiameter);
     }
 
     /**
@@ -107,7 +107,7 @@ public class IfcMechanicalFastenerTypeImpl extends IfcElementComponentTypeImpl i
      */
     @Override
     public void unsetNominalDiameter() {
-        eUnset(Ifc4Package.Literals.IFC_MECHANICAL_FASTENER_TYPE__NOMINAL_DIAMETER);
+        eUnset(Ifc4Package.eINSTANCE.getIfcMechanicalFastenerType_NominalDiameter());
     }
 
     /**
@@ -117,7 +117,7 @@ public class IfcMechanicalFastenerTypeImpl extends IfcElementComponentTypeImpl i
      */
     @Override
     public boolean isSetNominalDiameter() {
-        return eIsSet(Ifc4Package.Literals.IFC_MECHANICAL_FASTENER_TYPE__NOMINAL_DIAMETER);
+        return eIsSet(Ifc4Package.eINSTANCE.getIfcMechanicalFastenerType_NominalDiameter());
     }
 
     /**
@@ -127,7 +127,7 @@ public class IfcMechanicalFastenerTypeImpl extends IfcElementComponentTypeImpl i
      */
     @Override
     public String getNominalDiameterAsString() {
-        return (String) eGet(Ifc4Package.Literals.IFC_MECHANICAL_FASTENER_TYPE__NOMINAL_DIAMETER_AS_STRING, true);
+        return (String) eGet(Ifc4Package.eINSTANCE.getIfcMechanicalFastenerType_NominalDiameterAsString(), true);
     }
 
     /**
@@ -137,7 +137,7 @@ public class IfcMechanicalFastenerTypeImpl extends IfcElementComponentTypeImpl i
      */
     @Override
     public void setNominalDiameterAsString(String newNominalDiameterAsString) {
-        eSet(Ifc4Package.Literals.IFC_MECHANICAL_FASTENER_TYPE__NOMINAL_DIAMETER_AS_STRING, newNominalDiameterAsString);
+        eSet(Ifc4Package.eINSTANCE.getIfcMechanicalFastenerType_NominalDiameterAsString(), newNominalDiameterAsString);
     }
 
     /**
@@ -147,7 +147,7 @@ public class IfcMechanicalFastenerTypeImpl extends IfcElementComponentTypeImpl i
      */
     @Override
     public void unsetNominalDiameterAsString() {
-        eUnset(Ifc4Package.Literals.IFC_MECHANICAL_FASTENER_TYPE__NOMINAL_DIAMETER_AS_STRING);
+        eUnset(Ifc4Package.eINSTANCE.getIfcMechanicalFastenerType_NominalDiameterAsString());
     }
 
     /**
@@ -157,7 +157,7 @@ public class IfcMechanicalFastenerTypeImpl extends IfcElementComponentTypeImpl i
      */
     @Override
     public boolean isSetNominalDiameterAsString() {
-        return eIsSet(Ifc4Package.Literals.IFC_MECHANICAL_FASTENER_TYPE__NOMINAL_DIAMETER_AS_STRING);
+        return eIsSet(Ifc4Package.eINSTANCE.getIfcMechanicalFastenerType_NominalDiameterAsString());
     }
 
     /**
@@ -167,7 +167,7 @@ public class IfcMechanicalFastenerTypeImpl extends IfcElementComponentTypeImpl i
      */
     @Override
     public double getNominalLength() {
-        return (Double) eGet(Ifc4Package.Literals.IFC_MECHANICAL_FASTENER_TYPE__NOMINAL_LENGTH, true);
+        return (Double) eGet(Ifc4Package.eINSTANCE.getIfcMechanicalFastenerType_NominalLength(), true);
     }
 
     /**
@@ -177,7 +177,7 @@ public class IfcMechanicalFastenerTypeImpl extends IfcElementComponentTypeImpl i
      */
     @Override
     public void setNominalLength(double newNominalLength) {
-        eSet(Ifc4Package.Literals.IFC_MECHANICAL_FASTENER_TYPE__NOMINAL_LENGTH, newNominalLength);
+        eSet(Ifc4Package.eINSTANCE.getIfcMechanicalFastenerType_NominalLength(), newNominalLength);
     }
 
     /**
@@ -187,7 +187,7 @@ public class IfcMechanicalFastenerTypeImpl extends IfcElementComponentTypeImpl i
      */
     @Override
     public void unsetNominalLength() {
-        eUnset(Ifc4Package.Literals.IFC_MECHANICAL_FASTENER_TYPE__NOMINAL_LENGTH);
+        eUnset(Ifc4Package.eINSTANCE.getIfcMechanicalFastenerType_NominalLength());
     }
 
     /**
@@ -197,7 +197,7 @@ public class IfcMechanicalFastenerTypeImpl extends IfcElementComponentTypeImpl i
      */
     @Override
     public boolean isSetNominalLength() {
-        return eIsSet(Ifc4Package.Literals.IFC_MECHANICAL_FASTENER_TYPE__NOMINAL_LENGTH);
+        return eIsSet(Ifc4Package.eINSTANCE.getIfcMechanicalFastenerType_NominalLength());
     }
 
     /**
@@ -207,7 +207,7 @@ public class IfcMechanicalFastenerTypeImpl extends IfcElementComponentTypeImpl i
      */
     @Override
     public String getNominalLengthAsString() {
-        return (String) eGet(Ifc4Package.Literals.IFC_MECHANICAL_FASTENER_TYPE__NOMINAL_LENGTH_AS_STRING, true);
+        return (String) eGet(Ifc4Package.eINSTANCE.getIfcMechanicalFastenerType_NominalLengthAsString(), true);
     }
 
     /**
@@ -217,7 +217,7 @@ public class IfcMechanicalFastenerTypeImpl extends IfcElementComponentTypeImpl i
      */
     @Override
     public void setNominalLengthAsString(String newNominalLengthAsString) {
-        eSet(Ifc4Package.Literals.IFC_MECHANICAL_FASTENER_TYPE__NOMINAL_LENGTH_AS_STRING, newNominalLengthAsString);
+        eSet(Ifc4Package.eINSTANCE.getIfcMechanicalFastenerType_NominalLengthAsString(), newNominalLengthAsString);
     }
 
     /**
@@ -227,7 +227,7 @@ public class IfcMechanicalFastenerTypeImpl extends IfcElementComponentTypeImpl i
      */
     @Override
     public void unsetNominalLengthAsString() {
-        eUnset(Ifc4Package.Literals.IFC_MECHANICAL_FASTENER_TYPE__NOMINAL_LENGTH_AS_STRING);
+        eUnset(Ifc4Package.eINSTANCE.getIfcMechanicalFastenerType_NominalLengthAsString());
     }
 
     /**
@@ -237,7 +237,7 @@ public class IfcMechanicalFastenerTypeImpl extends IfcElementComponentTypeImpl i
      */
     @Override
     public boolean isSetNominalLengthAsString() {
-        return eIsSet(Ifc4Package.Literals.IFC_MECHANICAL_FASTENER_TYPE__NOMINAL_LENGTH_AS_STRING);
+        return eIsSet(Ifc4Package.eINSTANCE.getIfcMechanicalFastenerType_NominalLengthAsString());
     }
 
 } //IfcMechanicalFastenerTypeImpl

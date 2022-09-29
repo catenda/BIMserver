@@ -58,7 +58,7 @@ public class IfcLightIntensityDistributionImpl extends IdEObjectImpl implements 
      */
     @Override
     protected EClass eStaticClass() {
-        return Ifc4Package.Literals.IFC_LIGHT_INTENSITY_DISTRIBUTION;
+        return Ifc4Package.eINSTANCE.getIfcLightIntensityDistribution();
     }
 
     /**
@@ -79,7 +79,7 @@ public class IfcLightIntensityDistributionImpl extends IdEObjectImpl implements 
     @Override
     public IfcLightDistributionCurveEnum getLightDistributionCurve() {
         return (IfcLightDistributionCurveEnum) eGet(
-                Ifc4Package.Literals.IFC_LIGHT_INTENSITY_DISTRIBUTION__LIGHT_DISTRIBUTION_CURVE, true);
+                Ifc4Package.eINSTANCE.getIfcLightIntensityDistribution_LightDistributionCurve(), true);
     }
 
     /**
@@ -89,7 +89,7 @@ public class IfcLightIntensityDistributionImpl extends IdEObjectImpl implements 
      */
     @Override
     public void setLightDistributionCurve(IfcLightDistributionCurveEnum newLightDistributionCurve) {
-        eSet(Ifc4Package.Literals.IFC_LIGHT_INTENSITY_DISTRIBUTION__LIGHT_DISTRIBUTION_CURVE,
+        eSet(Ifc4Package.eINSTANCE.getIfcLightIntensityDistribution_LightDistributionCurve(),
                 newLightDistributionCurve);
     }
 
@@ -102,7 +102,7 @@ public class IfcLightIntensityDistributionImpl extends IdEObjectImpl implements 
     @Override
     public EList<IfcLightDistributionData> getDistributionData() {
         return (EList<IfcLightDistributionData>) eGet(
-                Ifc4Package.Literals.IFC_LIGHT_INTENSITY_DISTRIBUTION__DISTRIBUTION_DATA, true);
+                Ifc4Package.eINSTANCE.getIfcLightIntensityDistribution_DistributionData(), true);
     }
 
 } //IfcLightIntensityDistributionImpl

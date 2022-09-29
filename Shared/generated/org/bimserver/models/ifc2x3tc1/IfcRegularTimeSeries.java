@@ -40,10 +40,6 @@ public interface IfcRegularTimeSeries extends IfcTimeSeries {
     /**
      * Returns the value of the '<em><b>Time Step</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Time Step</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Time Step</em>' attribute.
      * @see #setTimeStep(double)
@@ -66,10 +62,6 @@ public interface IfcRegularTimeSeries extends IfcTimeSeries {
     /**
      * Returns the value of the '<em><b>Time Step As String</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Time Step As String</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Time Step As String</em>' attribute.
      * @see #setTimeStepAsString(String)
@@ -94,10 +86,6 @@ public interface IfcRegularTimeSeries extends IfcTimeSeries {
      * Returns the value of the '<em><b>Values</b></em>' reference list.
      * The list contents are of type {@link org.bimserver.models.ifc2x3tc1.IfcTimeSeriesValue}.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Values</em>' reference list isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Values</em>' reference list.
      * @see org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package#getIfcRegularTimeSeries_Values()

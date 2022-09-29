@@ -39,10 +39,6 @@ public interface IfcEventType extends IfcTypeProcess {
      * Returns the value of the '<em><b>Predefined Type</b></em>' attribute.
      * The literals are from the enumeration {@link org.bimserver.models.ifc4.IfcEventTypeEnum}.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Predefined Type</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Predefined Type</em>' attribute.
      * @see org.bimserver.models.ifc4.IfcEventTypeEnum
@@ -68,10 +64,6 @@ public interface IfcEventType extends IfcTypeProcess {
      * Returns the value of the '<em><b>Event Trigger Type</b></em>' attribute.
      * The literals are from the enumeration {@link org.bimserver.models.ifc4.IfcEventTriggerTypeEnum}.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Event Trigger Type</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Event Trigger Type</em>' attribute.
      * @see org.bimserver.models.ifc4.IfcEventTriggerTypeEnum
@@ -96,10 +88,6 @@ public interface IfcEventType extends IfcTypeProcess {
     /**
      * Returns the value of the '<em><b>User Defined Event Trigger Type</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>User Defined Event Trigger Type</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>User Defined Event Trigger Type</em>' attribute.
      * @see #isSetUserDefinedEventTriggerType()

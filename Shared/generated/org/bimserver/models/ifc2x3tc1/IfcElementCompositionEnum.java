@@ -75,10 +75,6 @@ public enum IfcElementCompositionEnum implements Enumerator {
     /**
      * The '<em><b>NULL</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>NULL</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #NULL
      * @model
@@ -90,10 +86,6 @@ public enum IfcElementCompositionEnum implements Enumerator {
     /**
      * The '<em><b>COMPLEX</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>COMPLEX</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #COMPLEX
      * @model
@@ -105,10 +97,6 @@ public enum IfcElementCompositionEnum implements Enumerator {
     /**
      * The '<em><b>ELEMENT</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>ELEMENT</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #ELEMENT
      * @model
@@ -120,10 +108,6 @@ public enum IfcElementCompositionEnum implements Enumerator {
     /**
      * The '<em><b>PARTIAL</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>PARTIAL</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #PARTIAL
      * @model

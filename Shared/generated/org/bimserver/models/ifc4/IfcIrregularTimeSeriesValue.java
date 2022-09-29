@@ -42,10 +42,6 @@ public interface IfcIrregularTimeSeriesValue extends IdEObject {
     /**
      * Returns the value of the '<em><b>Time Stamp</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Time Stamp</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Time Stamp</em>' attribute.
      * @see #setTimeStamp(String)
@@ -69,10 +65,6 @@ public interface IfcIrregularTimeSeriesValue extends IdEObject {
      * Returns the value of the '<em><b>List Values</b></em>' reference list.
      * The list contents are of type {@link org.bimserver.models.ifc4.IfcValue}.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>List Values</em>' reference list isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>List Values</em>' reference list.
      * @see org.bimserver.models.ifc4.Ifc4Package#getIfcIrregularTimeSeriesValue_ListValues()

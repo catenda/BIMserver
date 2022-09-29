@@ -45,7 +45,7 @@ public class IfcNonNegativeLengthMeasureImpl extends IfcLengthMeasureImpl implem
      */
     @Override
     protected EClass eStaticClass() {
-        return Ifc4Package.Literals.IFC_NON_NEGATIVE_LENGTH_MEASURE;
+        return Ifc4Package.eINSTANCE.getIfcNonNegativeLengthMeasure();
     }
 
 } //IfcNonNegativeLengthMeasureImpl

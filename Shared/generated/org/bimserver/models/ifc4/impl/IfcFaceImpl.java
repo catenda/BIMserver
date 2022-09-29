@@ -56,7 +56,7 @@ public class IfcFaceImpl extends IfcTopologicalRepresentationItemImpl implements
      */
     @Override
     protected EClass eStaticClass() {
-        return Ifc4Package.Literals.IFC_FACE;
+        return Ifc4Package.eINSTANCE.getIfcFace();
     }
 
     /**
@@ -67,7 +67,7 @@ public class IfcFaceImpl extends IfcTopologicalRepresentationItemImpl implements
     @SuppressWarnings("unchecked")
     @Override
     public EList<IfcFaceBound> getBounds() {
-        return (EList<IfcFaceBound>) eGet(Ifc4Package.Literals.IFC_FACE__BOUNDS, true);
+        return (EList<IfcFaceBound>) eGet(Ifc4Package.eINSTANCE.getIfcFace_Bounds(), true);
     }
 
     /**
@@ -78,7 +78,7 @@ public class IfcFaceImpl extends IfcTopologicalRepresentationItemImpl implements
     @SuppressWarnings("unchecked")
     @Override
     public EList<IfcTextureMap> getHasTextureMaps() {
-        return (EList<IfcTextureMap>) eGet(Ifc4Package.Literals.IFC_FACE__HAS_TEXTURE_MAPS, true);
+        return (EList<IfcTextureMap>) eGet(Ifc4Package.eINSTANCE.getIfcFace_HasTextureMaps(), true);
     }
 
     /**
@@ -88,7 +88,7 @@ public class IfcFaceImpl extends IfcTopologicalRepresentationItemImpl implements
      */
     @Override
     public void unsetHasTextureMaps() {
-        eUnset(Ifc4Package.Literals.IFC_FACE__HAS_TEXTURE_MAPS);
+        eUnset(Ifc4Package.eINSTANCE.getIfcFace_HasTextureMaps());
     }
 
     /**
@@ -98,7 +98,7 @@ public class IfcFaceImpl extends IfcTopologicalRepresentationItemImpl implements
      */
     @Override
     public boolean isSetHasTextureMaps() {
-        return eIsSet(Ifc4Package.Literals.IFC_FACE__HAS_TEXTURE_MAPS);
+        return eIsSet(Ifc4Package.eINSTANCE.getIfcFace_HasTextureMaps());
     }
 
 } //IfcFaceImpl

@@ -1,0 +1,248 @@
+/**
+ * Copyright (C) 2009-2013 BIMserver.org
+ * 
+ * This program is free software: you can redistribute it and/or modify
+ * it under the terms of the GNU Affero General Public License as
+ * published by the Free Software Foundation, either version 3 of the
+ * License, or (at your option) any later version.
+ * 
+ * This program is distributed in the hope that it will be useful,
+ * but WITHOUT ANY WARRANTY; without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ * GNU Affero General Public License for more details.
+ * 
+ * You should have received a copy of the GNU Affero General Public License
+ * along with this program.  If not, see <http://www.gnu.org/licenses/>.
+ */
+package org.bimserver.models.ifc4x3rc4.impl;
+
+import org.bimserver.emf.IdEObjectImpl;
+
+import org.bimserver.models.ifc4x3rc4.Ifc4x3rc4Package;
+import org.bimserver.models.ifc4x3rc4.IfcCoordinateOperation;
+import org.bimserver.models.ifc4x3rc4.IfcCoordinateReferenceSystem;
+
+import org.eclipse.emf.common.util.EList;
+
+import org.eclipse.emf.ecore.EClass;
+
+/**
+ * <!-- begin-user-doc -->
+ * An implementation of the model object '<em><b>Ifc Coordinate Reference System</b></em>'.
+ * <!-- end-user-doc -->
+ * <p>
+ * The following features are implemented:
+ * </p>
+ * <ul>
+ *   <li>{@link org.bimserver.models.ifc4x3rc4.impl.IfcCoordinateReferenceSystemImpl#getName <em>Name</em>}</li>
+ *   <li>{@link org.bimserver.models.ifc4x3rc4.impl.IfcCoordinateReferenceSystemImpl#getDescription <em>Description</em>}</li>
+ *   <li>{@link org.bimserver.models.ifc4x3rc4.impl.IfcCoordinateReferenceSystemImpl#getGeodeticDatum <em>Geodetic Datum</em>}</li>
+ *   <li>{@link org.bimserver.models.ifc4x3rc4.impl.IfcCoordinateReferenceSystemImpl#getVerticalDatum <em>Vertical Datum</em>}</li>
+ *   <li>{@link org.bimserver.models.ifc4x3rc4.impl.IfcCoordinateReferenceSystemImpl#getHasCoordinateOperation <em>Has Coordinate Operation</em>}</li>
+ * </ul>
+ *
+ * @generated
+ */
+public class IfcCoordinateReferenceSystemImpl extends IdEObjectImpl implements IfcCoordinateReferenceSystem {
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    protected IfcCoordinateReferenceSystemImpl() {
+        super();
+    }
+
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    @Override
+    protected EClass eStaticClass() {
+        return Ifc4x3rc4Package.eINSTANCE.getIfcCoordinateReferenceSystem();
+    }
+
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    @Override
+    protected int eStaticFeatureCount() {
+        return 0;
+    }
+
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    @Override
+    public String getName() {
+        return (String) eGet(Ifc4x3rc4Package.eINSTANCE.getIfcCoordinateReferenceSystem_Name(), true);
+    }
+
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    @Override
+    public void setName(String newName) {
+        eSet(Ifc4x3rc4Package.eINSTANCE.getIfcCoordinateReferenceSystem_Name(), newName);
+    }
+
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    @Override
+    public String getDescription() {
+        return (String) eGet(Ifc4x3rc4Package.eINSTANCE.getIfcCoordinateReferenceSystem_Description(), true);
+    }
+
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    @Override
+    public void setDescription(String newDescription) {
+        eSet(Ifc4x3rc4Package.eINSTANCE.getIfcCoordinateReferenceSystem_Description(), newDescription);
+    }
+
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    @Override
+    public void unsetDescription() {
+        eUnset(Ifc4x3rc4Package.eINSTANCE.getIfcCoordinateReferenceSystem_Description());
+    }
+
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    @Override
+    public boolean isSetDescription() {
+        return eIsSet(Ifc4x3rc4Package.eINSTANCE.getIfcCoordinateReferenceSystem_Description());
+    }
+
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    @Override
+    public String getGeodeticDatum() {
+        return (String) eGet(Ifc4x3rc4Package.eINSTANCE.getIfcCoordinateReferenceSystem_GeodeticDatum(), true);
+    }
+
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    @Override
+    public void setGeodeticDatum(String newGeodeticDatum) {
+        eSet(Ifc4x3rc4Package.eINSTANCE.getIfcCoordinateReferenceSystem_GeodeticDatum(), newGeodeticDatum);
+    }
+
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    @Override
+    public void unsetGeodeticDatum() {
+        eUnset(Ifc4x3rc4Package.eINSTANCE.getIfcCoordinateReferenceSystem_GeodeticDatum());
+    }
+
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    @Override
+    public boolean isSetGeodeticDatum() {
+        return eIsSet(Ifc4x3rc4Package.eINSTANCE.getIfcCoordinateReferenceSystem_GeodeticDatum());
+    }
+
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    @Override
+    public String getVerticalDatum() {
+        return (String) eGet(Ifc4x3rc4Package.eINSTANCE.getIfcCoordinateReferenceSystem_VerticalDatum(), true);
+    }
+
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    @Override
+    public void setVerticalDatum(String newVerticalDatum) {
+        eSet(Ifc4x3rc4Package.eINSTANCE.getIfcCoordinateReferenceSystem_VerticalDatum(), newVerticalDatum);
+    }
+
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    @Override
+    public void unsetVerticalDatum() {
+        eUnset(Ifc4x3rc4Package.eINSTANCE.getIfcCoordinateReferenceSystem_VerticalDatum());
+    }
+
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    @Override
+    public boolean isSetVerticalDatum() {
+        return eIsSet(Ifc4x3rc4Package.eINSTANCE.getIfcCoordinateReferenceSystem_VerticalDatum());
+    }
+
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    @SuppressWarnings("unchecked")
+    @Override
+    public EList<IfcCoordinateOperation> getHasCoordinateOperation() {
+        return (EList<IfcCoordinateOperation>) eGet(
+                Ifc4x3rc4Package.eINSTANCE.getIfcCoordinateReferenceSystem_HasCoordinateOperation(), true);
+    }
+
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    @Override
+    public void unsetHasCoordinateOperation() {
+        eUnset(Ifc4x3rc4Package.eINSTANCE.getIfcCoordinateReferenceSystem_HasCoordinateOperation());
+    }
+
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    @Override
+    public boolean isSetHasCoordinateOperation() {
+        return eIsSet(Ifc4x3rc4Package.eINSTANCE.getIfcCoordinateReferenceSystem_HasCoordinateOperation());
+    }
+
+} //IfcCoordinateReferenceSystemImpl

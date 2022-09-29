@@ -56,7 +56,7 @@ public class IfcProjectOrderRecordImpl extends IfcControlImpl implements IfcProj
      */
     @Override
     protected EClass eStaticClass() {
-        return Ifc2x3tc1Package.Literals.IFC_PROJECT_ORDER_RECORD;
+        return Ifc2x3tc1Package.eINSTANCE.getIfcProjectOrderRecord();
     }
 
     /**
@@ -67,7 +67,7 @@ public class IfcProjectOrderRecordImpl extends IfcControlImpl implements IfcProj
     @SuppressWarnings("unchecked")
     @Override
     public EList<IfcRelAssignsToProjectOrder> getRecords() {
-        return (EList<IfcRelAssignsToProjectOrder>) eGet(Ifc2x3tc1Package.Literals.IFC_PROJECT_ORDER_RECORD__RECORDS,
+        return (EList<IfcRelAssignsToProjectOrder>) eGet(Ifc2x3tc1Package.eINSTANCE.getIfcProjectOrderRecord_Records(),
                 true);
     }
 
@@ -78,8 +78,8 @@ public class IfcProjectOrderRecordImpl extends IfcControlImpl implements IfcProj
      */
     @Override
     public IfcProjectOrderRecordTypeEnum getPredefinedType() {
-        return (IfcProjectOrderRecordTypeEnum) eGet(Ifc2x3tc1Package.Literals.IFC_PROJECT_ORDER_RECORD__PREDEFINED_TYPE,
-                true);
+        return (IfcProjectOrderRecordTypeEnum) eGet(
+                Ifc2x3tc1Package.eINSTANCE.getIfcProjectOrderRecord_PredefinedType(), true);
     }
 
     /**
@@ -89,7 +89,7 @@ public class IfcProjectOrderRecordImpl extends IfcControlImpl implements IfcProj
      */
     @Override
     public void setPredefinedType(IfcProjectOrderRecordTypeEnum newPredefinedType) {
-        eSet(Ifc2x3tc1Package.Literals.IFC_PROJECT_ORDER_RECORD__PREDEFINED_TYPE, newPredefinedType);
+        eSet(Ifc2x3tc1Package.eINSTANCE.getIfcProjectOrderRecord_PredefinedType(), newPredefinedType);
     }
 
 } //IfcProjectOrderRecordImpl

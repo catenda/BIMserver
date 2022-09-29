@@ -45,7 +45,7 @@ public class IfcFlowMovingDeviceTypeImpl extends IfcDistributionFlowElementTypeI
      */
     @Override
     protected EClass eStaticClass() {
-        return Ifc4Package.Literals.IFC_FLOW_MOVING_DEVICE_TYPE;
+        return Ifc4Package.eINSTANCE.getIfcFlowMovingDeviceType();
     }
 
 } //IfcFlowMovingDeviceTypeImpl

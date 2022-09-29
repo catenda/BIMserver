@@ -42,10 +42,6 @@ public interface IfcRelConnectsPathElements extends IfcRelConnectsElements {
      * Returns the value of the '<em><b>Relating Priorities</b></em>' attribute list.
      * The list contents are of type {@link java.lang.Long}.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Relating Priorities</em>' attribute list isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Relating Priorities</em>' attribute list.
      * @see org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package#getIfcRelConnectsPathElements_RelatingPriorities()
@@ -58,10 +54,6 @@ public interface IfcRelConnectsPathElements extends IfcRelConnectsElements {
      * Returns the value of the '<em><b>Related Priorities</b></em>' attribute list.
      * The list contents are of type {@link java.lang.Long}.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Related Priorities</em>' attribute list isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Related Priorities</em>' attribute list.
      * @see org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package#getIfcRelConnectsPathElements_RelatedPriorities()
@@ -74,10 +66,6 @@ public interface IfcRelConnectsPathElements extends IfcRelConnectsElements {
      * Returns the value of the '<em><b>Related Connection Type</b></em>' attribute.
      * The literals are from the enumeration {@link org.bimserver.models.ifc2x3tc1.IfcConnectionTypeEnum}.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Related Connection Type</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Related Connection Type</em>' attribute.
      * @see org.bimserver.models.ifc2x3tc1.IfcConnectionTypeEnum
@@ -103,10 +91,6 @@ public interface IfcRelConnectsPathElements extends IfcRelConnectsElements {
      * Returns the value of the '<em><b>Relating Connection Type</b></em>' attribute.
      * The literals are from the enumeration {@link org.bimserver.models.ifc2x3tc1.IfcConnectionTypeEnum}.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Relating Connection Type</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Relating Connection Type</em>' attribute.
      * @see org.bimserver.models.ifc2x3tc1.IfcConnectionTypeEnum

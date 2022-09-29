@@ -38,10 +38,6 @@ public interface IfcQuantityArea extends IfcPhysicalSimpleQuantity {
     /**
      * Returns the value of the '<em><b>Area Value</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Area Value</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Area Value</em>' attribute.
      * @see #setAreaValue(double)
@@ -64,10 +60,6 @@ public interface IfcQuantityArea extends IfcPhysicalSimpleQuantity {
     /**
      * Returns the value of the '<em><b>Area Value As String</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Area Value As String</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Area Value As String</em>' attribute.
      * @see #setAreaValueAsString(String)
@@ -91,10 +83,6 @@ public interface IfcQuantityArea extends IfcPhysicalSimpleQuantity {
     /**
      * Returns the value of the '<em><b>Formula</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Formula</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Formula</em>' attribute.
      * @see #isSetFormula()

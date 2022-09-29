@@ -52,7 +52,7 @@ public class IfcElementAssemblyTypeImpl extends IfcElementTypeImpl implements If
      */
     @Override
     protected EClass eStaticClass() {
-        return Ifc4Package.Literals.IFC_ELEMENT_ASSEMBLY_TYPE;
+        return Ifc4Package.eINSTANCE.getIfcElementAssemblyType();
     }
 
     /**
@@ -62,7 +62,8 @@ public class IfcElementAssemblyTypeImpl extends IfcElementTypeImpl implements If
      */
     @Override
     public IfcElementAssemblyTypeEnum getPredefinedType() {
-        return (IfcElementAssemblyTypeEnum) eGet(Ifc4Package.Literals.IFC_ELEMENT_ASSEMBLY_TYPE__PREDEFINED_TYPE, true);
+        return (IfcElementAssemblyTypeEnum) eGet(Ifc4Package.eINSTANCE.getIfcElementAssemblyType_PredefinedType(),
+                true);
     }
 
     /**
@@ -72,7 +73,7 @@ public class IfcElementAssemblyTypeImpl extends IfcElementTypeImpl implements If
      */
     @Override
     public void setPredefinedType(IfcElementAssemblyTypeEnum newPredefinedType) {
-        eSet(Ifc4Package.Literals.IFC_ELEMENT_ASSEMBLY_TYPE__PREDEFINED_TYPE, newPredefinedType);
+        eSet(Ifc4Package.eINSTANCE.getIfcElementAssemblyType_PredefinedType(), newPredefinedType);
     }
 
 } //IfcElementAssemblyTypeImpl

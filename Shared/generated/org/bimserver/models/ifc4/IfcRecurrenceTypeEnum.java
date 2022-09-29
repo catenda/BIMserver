@@ -125,10 +125,6 @@ public enum IfcRecurrenceTypeEnum implements Enumerator {
     /**
      * The '<em><b>NULL</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>NULL</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #NULL
      * @model
@@ -140,10 +136,6 @@ public enum IfcRecurrenceTypeEnum implements Enumerator {
     /**
      * The '<em><b>BY DAY COUNT</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>BY DAY COUNT</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #BY_DAY_COUNT
      * @model
@@ -155,10 +147,6 @@ public enum IfcRecurrenceTypeEnum implements Enumerator {
     /**
      * The '<em><b>WEEKLY</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>WEEKLY</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #WEEKLY
      * @model
@@ -170,10 +158,6 @@ public enum IfcRecurrenceTypeEnum implements Enumerator {
     /**
      * The '<em><b>YEARLY BY POSITION</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>YEARLY BY POSITION</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #YEARLY_BY_POSITION
      * @model
@@ -185,10 +169,6 @@ public enum IfcRecurrenceTypeEnum implements Enumerator {
     /**
      * The '<em><b>DAILY</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>DAILY</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #DAILY
      * @model
@@ -200,10 +180,6 @@ public enum IfcRecurrenceTypeEnum implements Enumerator {
     /**
      * The '<em><b>YEARLY BY DAY OF MONTH</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>YEARLY BY DAY OF MONTH</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #YEARLY_BY_DAY_OF_MONTH
      * @model
@@ -215,10 +191,6 @@ public enum IfcRecurrenceTypeEnum implements Enumerator {
     /**
      * The '<em><b>MONTHLY BY DAY OF MONTH</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>MONTHLY BY DAY OF MONTH</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #MONTHLY_BY_DAY_OF_MONTH
      * @model
@@ -230,10 +202,6 @@ public enum IfcRecurrenceTypeEnum implements Enumerator {
     /**
      * The '<em><b>BY WEEKDAY COUNT</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>BY WEEKDAY COUNT</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #BY_WEEKDAY_COUNT
      * @model
@@ -245,10 +213,6 @@ public enum IfcRecurrenceTypeEnum implements Enumerator {
     /**
      * The '<em><b>MONTHLY BY POSITION</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>MONTHLY BY POSITION</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #MONTHLY_BY_POSITION
      * @model

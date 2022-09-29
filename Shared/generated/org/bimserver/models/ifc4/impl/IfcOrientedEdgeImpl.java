@@ -54,7 +54,7 @@ public class IfcOrientedEdgeImpl extends IfcEdgeImpl implements IfcOrientedEdge 
      */
     @Override
     protected EClass eStaticClass() {
-        return Ifc4Package.Literals.IFC_ORIENTED_EDGE;
+        return Ifc4Package.eINSTANCE.getIfcOrientedEdge();
     }
 
     /**
@@ -64,7 +64,7 @@ public class IfcOrientedEdgeImpl extends IfcEdgeImpl implements IfcOrientedEdge 
      */
     @Override
     public IfcEdge getEdgeElement() {
-        return (IfcEdge) eGet(Ifc4Package.Literals.IFC_ORIENTED_EDGE__EDGE_ELEMENT, true);
+        return (IfcEdge) eGet(Ifc4Package.eINSTANCE.getIfcOrientedEdge_EdgeElement(), true);
     }
 
     /**
@@ -74,7 +74,7 @@ public class IfcOrientedEdgeImpl extends IfcEdgeImpl implements IfcOrientedEdge 
      */
     @Override
     public void setEdgeElement(IfcEdge newEdgeElement) {
-        eSet(Ifc4Package.Literals.IFC_ORIENTED_EDGE__EDGE_ELEMENT, newEdgeElement);
+        eSet(Ifc4Package.eINSTANCE.getIfcOrientedEdge_EdgeElement(), newEdgeElement);
     }
 
     /**
@@ -84,7 +84,7 @@ public class IfcOrientedEdgeImpl extends IfcEdgeImpl implements IfcOrientedEdge 
      */
     @Override
     public Tristate getOrientation() {
-        return (Tristate) eGet(Ifc4Package.Literals.IFC_ORIENTED_EDGE__ORIENTATION, true);
+        return (Tristate) eGet(Ifc4Package.eINSTANCE.getIfcOrientedEdge_Orientation(), true);
     }
 
     /**
@@ -94,7 +94,7 @@ public class IfcOrientedEdgeImpl extends IfcEdgeImpl implements IfcOrientedEdge 
      */
     @Override
     public void setOrientation(Tristate newOrientation) {
-        eSet(Ifc4Package.Literals.IFC_ORIENTED_EDGE__ORIENTATION, newOrientation);
+        eSet(Ifc4Package.eINSTANCE.getIfcOrientedEdge_Orientation(), newOrientation);
     }
 
 } //IfcOrientedEdgeImpl

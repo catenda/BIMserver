@@ -56,7 +56,7 @@ public class IfcPropertyListValueImpl extends IfcSimplePropertyImpl implements I
      */
     @Override
     protected EClass eStaticClass() {
-        return Ifc4Package.Literals.IFC_PROPERTY_LIST_VALUE;
+        return Ifc4Package.eINSTANCE.getIfcPropertyListValue();
     }
 
     /**
@@ -67,7 +67,7 @@ public class IfcPropertyListValueImpl extends IfcSimplePropertyImpl implements I
     @SuppressWarnings("unchecked")
     @Override
     public EList<IfcValue> getListValues() {
-        return (EList<IfcValue>) eGet(Ifc4Package.Literals.IFC_PROPERTY_LIST_VALUE__LIST_VALUES, true);
+        return (EList<IfcValue>) eGet(Ifc4Package.eINSTANCE.getIfcPropertyListValue_ListValues(), true);
     }
 
     /**
@@ -77,7 +77,7 @@ public class IfcPropertyListValueImpl extends IfcSimplePropertyImpl implements I
      */
     @Override
     public void unsetListValues() {
-        eUnset(Ifc4Package.Literals.IFC_PROPERTY_LIST_VALUE__LIST_VALUES);
+        eUnset(Ifc4Package.eINSTANCE.getIfcPropertyListValue_ListValues());
     }
 
     /**
@@ -87,7 +87,7 @@ public class IfcPropertyListValueImpl extends IfcSimplePropertyImpl implements I
      */
     @Override
     public boolean isSetListValues() {
-        return eIsSet(Ifc4Package.Literals.IFC_PROPERTY_LIST_VALUE__LIST_VALUES);
+        return eIsSet(Ifc4Package.eINSTANCE.getIfcPropertyListValue_ListValues());
     }
 
     /**
@@ -97,7 +97,7 @@ public class IfcPropertyListValueImpl extends IfcSimplePropertyImpl implements I
      */
     @Override
     public IfcUnit getUnit() {
-        return (IfcUnit) eGet(Ifc4Package.Literals.IFC_PROPERTY_LIST_VALUE__UNIT, true);
+        return (IfcUnit) eGet(Ifc4Package.eINSTANCE.getIfcPropertyListValue_Unit(), true);
     }
 
     /**
@@ -107,7 +107,7 @@ public class IfcPropertyListValueImpl extends IfcSimplePropertyImpl implements I
      */
     @Override
     public void setUnit(IfcUnit newUnit) {
-        eSet(Ifc4Package.Literals.IFC_PROPERTY_LIST_VALUE__UNIT, newUnit);
+        eSet(Ifc4Package.eINSTANCE.getIfcPropertyListValue_Unit(), newUnit);
     }
 
     /**
@@ -117,7 +117,7 @@ public class IfcPropertyListValueImpl extends IfcSimplePropertyImpl implements I
      */
     @Override
     public void unsetUnit() {
-        eUnset(Ifc4Package.Literals.IFC_PROPERTY_LIST_VALUE__UNIT);
+        eUnset(Ifc4Package.eINSTANCE.getIfcPropertyListValue_Unit());
     }
 
     /**
@@ -127,7 +127,7 @@ public class IfcPropertyListValueImpl extends IfcSimplePropertyImpl implements I
      */
     @Override
     public boolean isSetUnit() {
-        return eIsSet(Ifc4Package.Literals.IFC_PROPERTY_LIST_VALUE__UNIT);
+        return eIsSet(Ifc4Package.eINSTANCE.getIfcPropertyListValue_Unit());
     }
 
 } //IfcPropertyListValueImpl

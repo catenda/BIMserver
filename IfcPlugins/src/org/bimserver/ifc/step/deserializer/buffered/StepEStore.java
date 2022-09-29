@@ -15,6 +15,8 @@ import org.bimserver.emf.IdEObjectImpl;
 import org.bimserver.interfaces.objects.SIfcHeader;
 import org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package;
 import org.bimserver.models.ifc4.Ifc4Package;
+import org.bimserver.models.ifc4x3.Ifc4x3Package;
+import org.bimserver.models.ifc4x3rc4.Ifc4x3rc4Package;
 import org.bimserver.models.log.LogPackage;
 import org.bimserver.models.store.StorePackage;
 import org.bimserver.plugins.schema.Attribute;
@@ -46,6 +48,8 @@ class StepEStore implements EStore {
 	private final StepExchange exchange;
 	private final SchemaDefinition schema;
 	private final EPackage ePackage;
+
+	private static final String WRAPPED_VALUE = "wrappedValue";
 
 	private class Inverse {
 		public long oid;
@@ -82,7 +86,11 @@ class StepEStore implements EStore {
 		this.exchange = exchange;
 		this.schema = schema;
 		String name = this.schema.getName();
-		if ("IFC4".equals(name.toUpperCase())) {
+		if ("IFC4X3".equals(name.toUpperCase())) {
+			ePackage = Ifc4x3Package.eINSTANCE;
+		} else if (name.toUpperCase().startsWith("IFC4X3_RC")) {
+			ePackage = Ifc4x3rc4Package.eINSTANCE;
+		} else if ("IFC4".equals(name.toUpperCase())) {
 			ePackage = Ifc4Package.eINSTANCE;
 		} else {
 			ePackage = Ifc2x3tc1Package.eINSTANCE;
@@ -98,7 +106,6 @@ class StepEStore implements EStore {
 	private void buildIfcHeader() {
 		ifcHeader = StepHeaderParser.parseIfcHeader(exchange.getHeaderEntityIterator());
 	}
-
 
 	private void buildIndex() throws StepParseException {
 		instancesPerClass = new HashMap<EClass, List<Integer>>();
@@ -364,7 +371,7 @@ class StepEStore implements EStore {
 		} else if (attribute.isEnum()) {
 			return getEnum(feature, attribute.getValue());
 		} else if (attribute.isInline()) {
-			return create((StepEntityInstance) attribute.getValue());
+			return getInline(feature, (StepEntityInstance) attribute.getValue());
 		} else if (attribute.isUnset()) {
 			return null;
 		} else if (attribute.isRedeclared()) {
@@ -379,9 +386,9 @@ class StepEStore implements EStore {
 				AbstractEList<Object> list = (AbstractEList<Object>) newObject.eGet(feature);
 				for (Object item : value) {
 					EClassifier classifier = feature.getEType();
-					if (classifier instanceof EClassImpl && null != ((EClassImpl) classifier).getEStructuralFeature("wrappedValue")) {
+					if (classifier instanceof EClassImpl && null != ((EClassImpl) classifier).getEStructuralFeature(WRAPPED_VALUE)) {
 						IdEObject create = (IdEObject) ePackage.getEFactoryInstance().create((EClass) classifier);
-						create.eSet(create.eClass().getEStructuralFeature("wrappedValue"), item);
+						create.eSet(create.eClass().getEStructuralFeature(WRAPPED_VALUE), item);
 						list.addUnique(create);
 					} else {
 						list.addUnique(item);
@@ -479,54 +486,103 @@ class StepEStore implements EStore {
 		return isInverse;
 	}
 
+	private Object getInline(EStructuralFeature feature,
+				StepEntityInstance attribute) {
+		Object result = null;
+		{
+			String identifier = attribute.getIdentifier();
+			EClassifier eClassifier = eClasses.get(identifier);
+			if (eClassifier == null) {
+				throw new RuntimeException();
+			}
+
+			if (eClassifier instanceof EClass) {
+				result = (IdEObject) create((EClass) eClassifier);
+				long instanceName = attribute.getInstanceName();
+				((IdEObjectImpl) result).setExpressId(instanceName);
+				((IdEObjectImpl) result).setOid(instanceName);
+				if (instanceName > 0) {
+					instances.put(instanceName, attribute.getIndex());
+				} else {
+					inlineInstances.put((IdEObject) result, attribute.getIndex());
+				}
+			} else if (eClassifier instanceof EEnum) {
+				Iterator<StepAttribute> attributeIterator = attribute.getAttributeIterator();
+				if (attributeIterator.hasNext()) {
+					StepAttribute emumAttribute = attributeIterator.next();
+					if (emumAttribute.isEnum()) {
+						result = getEnum(eClassifier, emumAttribute.getValue());
+					} else {
+						throw new RuntimeException();
+					}
+				} else {
+					throw new RuntimeException();
+				}
+			} else {
+				throw new RuntimeException();
+			}
+		}
+
+		if (result == null) {
+			throw new RuntimeException();
+		}
+
+		return result;
+	}
+
 	private Object getEnum(EStructuralFeature feature,
 			Object value) {
-		Object result = null;
+		EClassifier eClassifier = feature.getEType();
+		return getEnum(eClassifier, value);
+	}
+
+	private Object getEnum(EClassifier eClassifier, Object value) {
+				Object result = null;
 		if (value.equals("T")) {
-			if (feature.getEType().getName().equals("Tristate")) {
+			if (eClassifier.getName().equals("Tristate")) {
 				result = createEnumerator("Tristate", "TRUE");
-			} else if (feature.getEType().getName().equals("IfcBoolean")) {
-				EClass eClass = (EClass) eClasses.get("IfcBoolean");
+			} else if (eClassifier.getName().equals("IfcBoolean")) {
+				EClass eClass = (EClass) eClasses.get("IFCBOOLEAN");
 				EObject bool = create(eClass);
-				bool.eSet(eClass.getEStructuralFeature("WrappedValue"), createEnumerator("Tristate", "TRUE"));
+				bool.eSet(eClass.getEStructuralFeature(WRAPPED_VALUE), createEnumerator("Tristate", "TRUE"));
 				result = bool;
-			} else if (feature.getEType() == EcorePackage.eINSTANCE.getEBoolean()) {
+			} else if (eClassifier == EcorePackage.eINSTANCE.getEBoolean()) {
 				result = true;
 			} else {
-				EClass eClass = (EClass) eClasses.get("IfcLogical");
+				EClass eClass = (EClass) eClasses.get("IFCLOGICAL");
 				EObject locical = create(eClass);
-				locical.eSet(eClass.getEStructuralFeature("WrappedValue"), createEnumerator("Tristate", "TRUE"));
+				locical.eSet(eClass.getEStructuralFeature(WRAPPED_VALUE), createEnumerator("Tristate", "TRUE"));
 				result = locical;
 			}
 		} else if (value.equals("F")) {
-			if (feature.getEType().getName().equals("Tristate")) {
+			if (eClassifier.getName().equals("Tristate")) {
 				result = createEnumerator("Tristate", "FALSE");
-			} else if (feature.getEType().getName().equals("IfcBoolean")) {
+			} else if (eClassifier.getName().equals("IfcBoolean")) {
 				EClass eClass = (EClass) eClasses.get("IfcBoolean");
 				EObject bool = create(eClass);
-				bool.eSet(eClass.getEStructuralFeature("WrappedValue"), createEnumerator("Tristate", "FALSE"));
+				bool.eSet(eClass.getEStructuralFeature(WRAPPED_VALUE), createEnumerator("Tristate", "FALSE"));
 				result = bool;
-			} else if (feature.getEType() == EcorePackage.eINSTANCE.getEBoolean()) {
+			} else if (eClassifier == EcorePackage.eINSTANCE.getEBoolean()) {
 				result = false;
 			} else {
-				EClass eClass = (EClass) eClasses.get("IfcLogical");
+				EClass eClass = (EClass) eClasses.get("IFCLOGICAL");
 				EObject locical = create(eClass);
-				locical.eSet(eClass.getEStructuralFeature("WrappedValue"), createEnumerator("Tristate", "FALSE"));
+				locical.eSet(eClass.getEStructuralFeature(WRAPPED_VALUE), createEnumerator("Tristate", "FALSE"));
 				result = locical;
 			}
 		} else if (value.equals("U")) {
-			if (feature.getEType().getName().equals("Tristate")) {
+			if (eClassifier.getName().equals("Tristate")) {
 				result = createEnumerator("Tristate", "UNDEFINED");
-			} else if (feature.getEType() == EcorePackage.eINSTANCE.getEBoolean()) {
+			} else if (eClassifier == EcorePackage.eINSTANCE.getEBoolean()) {
 				result = null;
 			} else {
-				EClass eClass = (EClass) eClasses.get("IfcLogical");
+				EClass eClass = (EClass) eClasses.get("IFCLOGICAL");
 				EObject locical = create(eClass);
-				locical.eSet(eClass.getEStructuralFeature("WrappedValue"), createEnumerator("Tristate", "UNDEFINED"));
+				locical.eSet(eClass.getEStructuralFeature(WRAPPED_VALUE), createEnumerator("Tristate", "UNDEFINED"));
 				result = locical;
 			}
 		} else {
-			EEnumLiteral enumLiteral = (((EEnumImpl) feature.getEType()).getEEnumLiteral((String) value));
+			EEnumLiteral enumLiteral = (((EEnumImpl) eClassifier).getEEnumLiteral((String) value));
 			if (enumLiteral == null) {
 				if ("NOTDEFINED".equals(value)) {
 					result = null;
@@ -758,11 +814,11 @@ class StepEStore implements EStore {
 
 	private IdEObject create(StepEntityInstance instance) {
 		String identifier = instance.getIdentifier();
-		EClass eClass = (EClass) eClasses.get(identifier);
+		EClassifier eClass = eClasses.get(identifier);
 		if (eClass == null) {
 			throw new RuntimeException();
 		}
-		IdEObject object = (IdEObject) create(eClass);
+		IdEObject object = (IdEObject) create((EClass) eClass);
 		long instanceName = instance.getInstanceName();
 		((IdEObjectImpl) object).setExpressId(instanceName);
 		((IdEObjectImpl) object).setOid(instanceName);
@@ -870,4 +926,3 @@ class StepEStore implements EStore {
 	}
 
 }
-

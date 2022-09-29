@@ -54,7 +54,7 @@ public class IfcChamferEdgeFeatureImpl extends IfcEdgeFeatureImpl implements Ifc
      */
     @Override
     protected EClass eStaticClass() {
-        return Ifc2x3tc1Package.Literals.IFC_CHAMFER_EDGE_FEATURE;
+        return Ifc2x3tc1Package.eINSTANCE.getIfcChamferEdgeFeature();
     }
 
     /**
@@ -64,7 +64,7 @@ public class IfcChamferEdgeFeatureImpl extends IfcEdgeFeatureImpl implements Ifc
      */
     @Override
     public double getWidth() {
-        return (Double) eGet(Ifc2x3tc1Package.Literals.IFC_CHAMFER_EDGE_FEATURE__WIDTH, true);
+        return (Double) eGet(Ifc2x3tc1Package.eINSTANCE.getIfcChamferEdgeFeature_Width(), true);
     }
 
     /**
@@ -74,7 +74,7 @@ public class IfcChamferEdgeFeatureImpl extends IfcEdgeFeatureImpl implements Ifc
      */
     @Override
     public void setWidth(double newWidth) {
-        eSet(Ifc2x3tc1Package.Literals.IFC_CHAMFER_EDGE_FEATURE__WIDTH, newWidth);
+        eSet(Ifc2x3tc1Package.eINSTANCE.getIfcChamferEdgeFeature_Width(), newWidth);
     }
 
     /**
@@ -84,7 +84,7 @@ public class IfcChamferEdgeFeatureImpl extends IfcEdgeFeatureImpl implements Ifc
      */
     @Override
     public void unsetWidth() {
-        eUnset(Ifc2x3tc1Package.Literals.IFC_CHAMFER_EDGE_FEATURE__WIDTH);
+        eUnset(Ifc2x3tc1Package.eINSTANCE.getIfcChamferEdgeFeature_Width());
     }
 
     /**
@@ -94,7 +94,7 @@ public class IfcChamferEdgeFeatureImpl extends IfcEdgeFeatureImpl implements Ifc
      */
     @Override
     public boolean isSetWidth() {
-        return eIsSet(Ifc2x3tc1Package.Literals.IFC_CHAMFER_EDGE_FEATURE__WIDTH);
+        return eIsSet(Ifc2x3tc1Package.eINSTANCE.getIfcChamferEdgeFeature_Width());
     }
 
     /**
@@ -104,7 +104,7 @@ public class IfcChamferEdgeFeatureImpl extends IfcEdgeFeatureImpl implements Ifc
      */
     @Override
     public String getWidthAsString() {
-        return (String) eGet(Ifc2x3tc1Package.Literals.IFC_CHAMFER_EDGE_FEATURE__WIDTH_AS_STRING, true);
+        return (String) eGet(Ifc2x3tc1Package.eINSTANCE.getIfcChamferEdgeFeature_WidthAsString(), true);
     }
 
     /**
@@ -114,7 +114,7 @@ public class IfcChamferEdgeFeatureImpl extends IfcEdgeFeatureImpl implements Ifc
      */
     @Override
     public void setWidthAsString(String newWidthAsString) {
-        eSet(Ifc2x3tc1Package.Literals.IFC_CHAMFER_EDGE_FEATURE__WIDTH_AS_STRING, newWidthAsString);
+        eSet(Ifc2x3tc1Package.eINSTANCE.getIfcChamferEdgeFeature_WidthAsString(), newWidthAsString);
     }
 
     /**
@@ -124,7 +124,7 @@ public class IfcChamferEdgeFeatureImpl extends IfcEdgeFeatureImpl implements Ifc
      */
     @Override
     public void unsetWidthAsString() {
-        eUnset(Ifc2x3tc1Package.Literals.IFC_CHAMFER_EDGE_FEATURE__WIDTH_AS_STRING);
+        eUnset(Ifc2x3tc1Package.eINSTANCE.getIfcChamferEdgeFeature_WidthAsString());
     }
 
     /**
@@ -134,7 +134,7 @@ public class IfcChamferEdgeFeatureImpl extends IfcEdgeFeatureImpl implements Ifc
      */
     @Override
     public boolean isSetWidthAsString() {
-        return eIsSet(Ifc2x3tc1Package.Literals.IFC_CHAMFER_EDGE_FEATURE__WIDTH_AS_STRING);
+        return eIsSet(Ifc2x3tc1Package.eINSTANCE.getIfcChamferEdgeFeature_WidthAsString());
     }
 
     /**
@@ -144,7 +144,7 @@ public class IfcChamferEdgeFeatureImpl extends IfcEdgeFeatureImpl implements Ifc
      */
     @Override
     public double getHeight() {
-        return (Double) eGet(Ifc2x3tc1Package.Literals.IFC_CHAMFER_EDGE_FEATURE__HEIGHT, true);
+        return (Double) eGet(Ifc2x3tc1Package.eINSTANCE.getIfcChamferEdgeFeature_Height(), true);
     }
 
     /**
@@ -154,7 +154,7 @@ public class IfcChamferEdgeFeatureImpl extends IfcEdgeFeatureImpl implements Ifc
      */
     @Override
     public void setHeight(double newHeight) {
-        eSet(Ifc2x3tc1Package.Literals.IFC_CHAMFER_EDGE_FEATURE__HEIGHT, newHeight);
+        eSet(Ifc2x3tc1Package.eINSTANCE.getIfcChamferEdgeFeature_Height(), newHeight);
     }
 
     /**
@@ -164,7 +164,7 @@ public class IfcChamferEdgeFeatureImpl extends IfcEdgeFeatureImpl implements Ifc
      */
     @Override
     public void unsetHeight() {
-        eUnset(Ifc2x3tc1Package.Literals.IFC_CHAMFER_EDGE_FEATURE__HEIGHT);
+        eUnset(Ifc2x3tc1Package.eINSTANCE.getIfcChamferEdgeFeature_Height());
     }
 
     /**
@@ -174,7 +174,7 @@ public class IfcChamferEdgeFeatureImpl extends IfcEdgeFeatureImpl implements Ifc
      */
     @Override
     public boolean isSetHeight() {
-        return eIsSet(Ifc2x3tc1Package.Literals.IFC_CHAMFER_EDGE_FEATURE__HEIGHT);
+        return eIsSet(Ifc2x3tc1Package.eINSTANCE.getIfcChamferEdgeFeature_Height());
     }
 
     /**
@@ -184,7 +184,7 @@ public class IfcChamferEdgeFeatureImpl extends IfcEdgeFeatureImpl implements Ifc
      */
     @Override
     public String getHeightAsString() {
-        return (String) eGet(Ifc2x3tc1Package.Literals.IFC_CHAMFER_EDGE_FEATURE__HEIGHT_AS_STRING, true);
+        return (String) eGet(Ifc2x3tc1Package.eINSTANCE.getIfcChamferEdgeFeature_HeightAsString(), true);
     }
 
     /**
@@ -194,7 +194,7 @@ public class IfcChamferEdgeFeatureImpl extends IfcEdgeFeatureImpl implements Ifc
      */
     @Override
     public void setHeightAsString(String newHeightAsString) {
-        eSet(Ifc2x3tc1Package.Literals.IFC_CHAMFER_EDGE_FEATURE__HEIGHT_AS_STRING, newHeightAsString);
+        eSet(Ifc2x3tc1Package.eINSTANCE.getIfcChamferEdgeFeature_HeightAsString(), newHeightAsString);
     }
 
     /**
@@ -204,7 +204,7 @@ public class IfcChamferEdgeFeatureImpl extends IfcEdgeFeatureImpl implements Ifc
      */
     @Override
     public void unsetHeightAsString() {
-        eUnset(Ifc2x3tc1Package.Literals.IFC_CHAMFER_EDGE_FEATURE__HEIGHT_AS_STRING);
+        eUnset(Ifc2x3tc1Package.eINSTANCE.getIfcChamferEdgeFeature_HeightAsString());
     }
 
     /**
@@ -214,7 +214,7 @@ public class IfcChamferEdgeFeatureImpl extends IfcEdgeFeatureImpl implements Ifc
      */
     @Override
     public boolean isSetHeightAsString() {
-        return eIsSet(Ifc2x3tc1Package.Literals.IFC_CHAMFER_EDGE_FEATURE__HEIGHT_AS_STRING);
+        return eIsSet(Ifc2x3tc1Package.eINSTANCE.getIfcChamferEdgeFeature_HeightAsString());
     }
 
 } //IfcChamferEdgeFeatureImpl

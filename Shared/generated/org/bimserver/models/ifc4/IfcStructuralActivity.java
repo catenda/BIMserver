@@ -40,10 +40,6 @@ public interface IfcStructuralActivity extends IfcProduct {
     /**
      * Returns the value of the '<em><b>Applied Load</b></em>' reference.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Applied Load</em>' reference isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Applied Load</em>' reference.
      * @see #setAppliedLoad(IfcStructuralLoad)
@@ -67,10 +63,6 @@ public interface IfcStructuralActivity extends IfcProduct {
      * Returns the value of the '<em><b>Global Or Local</b></em>' attribute.
      * The literals are from the enumeration {@link org.bimserver.models.ifc4.IfcGlobalOrLocalEnum}.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Global Or Local</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Global Or Local</em>' attribute.
      * @see org.bimserver.models.ifc4.IfcGlobalOrLocalEnum
@@ -97,10 +89,6 @@ public interface IfcStructuralActivity extends IfcProduct {
      * The list contents are of type {@link org.bimserver.models.ifc4.IfcRelConnectsStructuralActivity}.
      * It is bidirectional and its opposite is '{@link org.bimserver.models.ifc4.IfcRelConnectsStructuralActivity#getRelatedStructuralActivity <em>Related Structural Activity</em>}'.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Assigned To Structural Item</em>' reference list isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Assigned To Structural Item</em>' reference list.
      * @see #isSetAssignedToStructuralItem()

@@ -65,10 +65,6 @@ public enum Trigger implements Enumerator {
     /**
      * The '<em><b>NEW REVISION</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>NEW REVISION</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #NEW_REVISION
      * @model
@@ -80,10 +76,6 @@ public enum Trigger implements Enumerator {
     /**
      * The '<em><b>NEW PROJECT</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>NEW PROJECT</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #NEW_PROJECT
      * @model
@@ -95,10 +87,6 @@ public enum Trigger implements Enumerator {
     /**
      * The '<em><b>NEW EXTENDED DATA</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>NEW EXTENDED DATA</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #NEW_EXTENDED_DATA
      * @model

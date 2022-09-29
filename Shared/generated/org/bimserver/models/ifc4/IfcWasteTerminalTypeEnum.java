@@ -135,10 +135,6 @@ public enum IfcWasteTerminalTypeEnum implements Enumerator {
     /**
      * The '<em><b>NULL</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>NULL</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #NULL
      * @model
@@ -150,10 +146,6 @@ public enum IfcWasteTerminalTypeEnum implements Enumerator {
     /**
      * The '<em><b>NOTDEFINED</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>NOTDEFINED</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #NOTDEFINED
      * @model
@@ -165,10 +157,6 @@ public enum IfcWasteTerminalTypeEnum implements Enumerator {
     /**
      * The '<em><b>WASTEDISPOSALUNIT</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>WASTEDISPOSALUNIT</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #WASTEDISPOSALUNIT
      * @model
@@ -180,10 +168,6 @@ public enum IfcWasteTerminalTypeEnum implements Enumerator {
     /**
      * The '<em><b>GULLYSUMP</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>GULLYSUMP</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #GULLYSUMP
      * @model
@@ -195,10 +179,6 @@ public enum IfcWasteTerminalTypeEnum implements Enumerator {
     /**
      * The '<em><b>ROOFDRAIN</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>ROOFDRAIN</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #ROOFDRAIN
      * @model
@@ -210,10 +190,6 @@ public enum IfcWasteTerminalTypeEnum implements Enumerator {
     /**
      * The '<em><b>WASTETRAP</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>WASTETRAP</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #WASTETRAP
      * @model
@@ -225,10 +201,6 @@ public enum IfcWasteTerminalTypeEnum implements Enumerator {
     /**
      * The '<em><b>USERDEFINED</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>USERDEFINED</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #USERDEFINED
      * @model
@@ -240,10 +212,6 @@ public enum IfcWasteTerminalTypeEnum implements Enumerator {
     /**
      * The '<em><b>FLOORWASTE</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>FLOORWASTE</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #FLOORWASTE
      * @model
@@ -255,10 +223,6 @@ public enum IfcWasteTerminalTypeEnum implements Enumerator {
     /**
      * The '<em><b>FLOORTRAP</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>FLOORTRAP</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #FLOORTRAP
      * @model
@@ -270,10 +234,6 @@ public enum IfcWasteTerminalTypeEnum implements Enumerator {
     /**
      * The '<em><b>GULLYTRAP</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>GULLYTRAP</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #GULLYTRAP
      * @model

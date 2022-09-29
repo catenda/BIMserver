@@ -54,7 +54,7 @@ public class IfcResourceImpl extends IfcObjectImpl implements IfcResource {
      */
     @Override
     protected EClass eStaticClass() {
-        return Ifc2x3tc1Package.Literals.IFC_RESOURCE;
+        return Ifc2x3tc1Package.eINSTANCE.getIfcResource();
     }
 
     /**
@@ -65,7 +65,7 @@ public class IfcResourceImpl extends IfcObjectImpl implements IfcResource {
     @SuppressWarnings("unchecked")
     @Override
     public EList<IfcRelAssignsToResource> getResourceOf() {
-        return (EList<IfcRelAssignsToResource>) eGet(Ifc2x3tc1Package.Literals.IFC_RESOURCE__RESOURCE_OF, true);
+        return (EList<IfcRelAssignsToResource>) eGet(Ifc2x3tc1Package.eINSTANCE.getIfcResource_ResourceOf(), true);
     }
 
     /**
@@ -75,7 +75,7 @@ public class IfcResourceImpl extends IfcObjectImpl implements IfcResource {
      */
     @Override
     public void unsetResourceOf() {
-        eUnset(Ifc2x3tc1Package.Literals.IFC_RESOURCE__RESOURCE_OF);
+        eUnset(Ifc2x3tc1Package.eINSTANCE.getIfcResource_ResourceOf());
     }
 
     /**
@@ -85,7 +85,7 @@ public class IfcResourceImpl extends IfcObjectImpl implements IfcResource {
      */
     @Override
     public boolean isSetResourceOf() {
-        return eIsSet(Ifc2x3tc1Package.Literals.IFC_RESOURCE__RESOURCE_OF);
+        return eIsSet(Ifc2x3tc1Package.eINSTANCE.getIfcResource_ResourceOf());
     }
 
 } //IfcResourceImpl

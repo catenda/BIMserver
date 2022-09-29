@@ -125,10 +125,6 @@ public enum IfcBeamTypeEnum implements Enumerator {
     /**
      * The '<em><b>NULL</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>NULL</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #NULL
      * @model
@@ -140,10 +136,6 @@ public enum IfcBeamTypeEnum implements Enumerator {
     /**
      * The '<em><b>BEAM</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>BEAM</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #BEAM
      * @model
@@ -155,10 +147,6 @@ public enum IfcBeamTypeEnum implements Enumerator {
     /**
      * The '<em><b>JOIST</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>JOIST</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #JOIST
      * @model
@@ -170,10 +158,6 @@ public enum IfcBeamTypeEnum implements Enumerator {
     /**
      * The '<em><b>NOTDEFINED</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>NOTDEFINED</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #NOTDEFINED
      * @model
@@ -185,10 +169,6 @@ public enum IfcBeamTypeEnum implements Enumerator {
     /**
      * The '<em><b>LINTEL</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>LINTEL</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #LINTEL
      * @model
@@ -200,10 +180,6 @@ public enum IfcBeamTypeEnum implements Enumerator {
     /**
      * The '<em><b>SPANDREL</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>SPANDREL</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #SPANDREL
      * @model
@@ -215,10 +191,6 @@ public enum IfcBeamTypeEnum implements Enumerator {
     /**
      * The '<em><b>TBEAM</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>TBEAM</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #TBEAM
      * @model name="T_BEAM"
@@ -230,10 +202,6 @@ public enum IfcBeamTypeEnum implements Enumerator {
     /**
      * The '<em><b>USERDEFINED</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>USERDEFINED</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #USERDEFINED
      * @model
@@ -245,10 +213,6 @@ public enum IfcBeamTypeEnum implements Enumerator {
     /**
      * The '<em><b>HOLLOWCORE</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>HOLLOWCORE</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #HOLLOWCORE
      * @model

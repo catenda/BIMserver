@@ -45,7 +45,7 @@ public class IfcStructuralPointReactionImpl extends IfcStructuralReactionImpl im
      */
     @Override
     protected EClass eStaticClass() {
-        return Ifc4Package.Literals.IFC_STRUCTURAL_POINT_REACTION;
+        return Ifc4Package.eINSTANCE.getIfcStructuralPointReaction();
     }
 
 } //IfcStructuralPointReactionImpl

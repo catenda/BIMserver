@@ -56,7 +56,7 @@ public class IfcRelDefinesByTypeImpl extends IfcRelDefinesImpl implements IfcRel
      */
     @Override
     protected EClass eStaticClass() {
-        return Ifc4Package.Literals.IFC_REL_DEFINES_BY_TYPE;
+        return Ifc4Package.eINSTANCE.getIfcRelDefinesByType();
     }
 
     /**
@@ -67,7 +67,7 @@ public class IfcRelDefinesByTypeImpl extends IfcRelDefinesImpl implements IfcRel
     @SuppressWarnings("unchecked")
     @Override
     public EList<IfcObject> getRelatedObjects() {
-        return (EList<IfcObject>) eGet(Ifc4Package.Literals.IFC_REL_DEFINES_BY_TYPE__RELATED_OBJECTS, true);
+        return (EList<IfcObject>) eGet(Ifc4Package.eINSTANCE.getIfcRelDefinesByType_RelatedObjects(), true);
     }
 
     /**
@@ -77,7 +77,7 @@ public class IfcRelDefinesByTypeImpl extends IfcRelDefinesImpl implements IfcRel
      */
     @Override
     public IfcTypeObject getRelatingType() {
-        return (IfcTypeObject) eGet(Ifc4Package.Literals.IFC_REL_DEFINES_BY_TYPE__RELATING_TYPE, true);
+        return (IfcTypeObject) eGet(Ifc4Package.eINSTANCE.getIfcRelDefinesByType_RelatingType(), true);
     }
 
     /**
@@ -87,7 +87,7 @@ public class IfcRelDefinesByTypeImpl extends IfcRelDefinesImpl implements IfcRel
      */
     @Override
     public void setRelatingType(IfcTypeObject newRelatingType) {
-        eSet(Ifc4Package.Literals.IFC_REL_DEFINES_BY_TYPE__RELATING_TYPE, newRelatingType);
+        eSet(Ifc4Package.eINSTANCE.getIfcRelDefinesByType_RelatingType(), newRelatingType);
     }
 
 } //IfcRelDefinesByTypeImpl

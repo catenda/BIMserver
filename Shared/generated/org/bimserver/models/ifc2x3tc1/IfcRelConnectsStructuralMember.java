@@ -43,10 +43,6 @@ public interface IfcRelConnectsStructuralMember extends IfcRelConnects {
      * Returns the value of the '<em><b>Relating Structural Member</b></em>' reference.
      * It is bidirectional and its opposite is '{@link org.bimserver.models.ifc2x3tc1.IfcStructuralMember#getConnectedBy <em>Connected By</em>}'.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Relating Structural Member</em>' reference isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Relating Structural Member</em>' reference.
      * @see #setRelatingStructuralMember(IfcStructuralMember)
@@ -72,10 +68,6 @@ public interface IfcRelConnectsStructuralMember extends IfcRelConnects {
      * Returns the value of the '<em><b>Related Structural Connection</b></em>' reference.
      * It is bidirectional and its opposite is '{@link org.bimserver.models.ifc2x3tc1.IfcStructuralConnection#getConnectsStructuralMembers <em>Connects Structural Members</em>}'.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Related Structural Connection</em>' reference isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Related Structural Connection</em>' reference.
      * @see #setRelatedStructuralConnection(IfcStructuralConnection)
@@ -100,10 +92,6 @@ public interface IfcRelConnectsStructuralMember extends IfcRelConnects {
     /**
      * Returns the value of the '<em><b>Applied Condition</b></em>' reference.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Applied Condition</em>' reference isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Applied Condition</em>' reference.
      * @see #isSetAppliedCondition()
@@ -153,10 +141,6 @@ public interface IfcRelConnectsStructuralMember extends IfcRelConnects {
     /**
      * Returns the value of the '<em><b>Additional Conditions</b></em>' reference.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Additional Conditions</em>' reference isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Additional Conditions</em>' reference.
      * @see #isSetAdditionalConditions()
@@ -206,10 +190,6 @@ public interface IfcRelConnectsStructuralMember extends IfcRelConnects {
     /**
      * Returns the value of the '<em><b>Supported Length</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Supported Length</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Supported Length</em>' attribute.
      * @see #isSetSupportedLength()
@@ -259,10 +239,6 @@ public interface IfcRelConnectsStructuralMember extends IfcRelConnects {
     /**
      * Returns the value of the '<em><b>Supported Length As String</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Supported Length As String</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Supported Length As String</em>' attribute.
      * @see #isSetSupportedLengthAsString()
@@ -314,10 +290,6 @@ public interface IfcRelConnectsStructuralMember extends IfcRelConnects {
     /**
      * Returns the value of the '<em><b>Condition Coordinate System</b></em>' reference.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Condition Coordinate System</em>' reference isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Condition Coordinate System</em>' reference.
      * @see #isSetConditionCoordinateSystem()

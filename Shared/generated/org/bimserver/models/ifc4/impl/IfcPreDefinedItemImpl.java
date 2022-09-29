@@ -51,7 +51,7 @@ public class IfcPreDefinedItemImpl extends IfcPresentationItemImpl implements If
      */
     @Override
     protected EClass eStaticClass() {
-        return Ifc4Package.Literals.IFC_PRE_DEFINED_ITEM;
+        return Ifc4Package.eINSTANCE.getIfcPreDefinedItem();
     }
 
     /**
@@ -61,7 +61,7 @@ public class IfcPreDefinedItemImpl extends IfcPresentationItemImpl implements If
      */
     @Override
     public String getName() {
-        return (String) eGet(Ifc4Package.Literals.IFC_PRE_DEFINED_ITEM__NAME, true);
+        return (String) eGet(Ifc4Package.eINSTANCE.getIfcPreDefinedItem_Name(), true);
     }
 
     /**
@@ -71,7 +71,7 @@ public class IfcPreDefinedItemImpl extends IfcPresentationItemImpl implements If
      */
     @Override
     public void setName(String newName) {
-        eSet(Ifc4Package.Literals.IFC_PRE_DEFINED_ITEM__NAME, newName);
+        eSet(Ifc4Package.eINSTANCE.getIfcPreDefinedItem_Name(), newName);
     }
 
 } //IfcPreDefinedItemImpl

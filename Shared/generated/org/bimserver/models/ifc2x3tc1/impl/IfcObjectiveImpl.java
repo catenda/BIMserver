@@ -56,7 +56,7 @@ public class IfcObjectiveImpl extends IfcConstraintImpl implements IfcObjective 
      */
     @Override
     protected EClass eStaticClass() {
-        return Ifc2x3tc1Package.Literals.IFC_OBJECTIVE;
+        return Ifc2x3tc1Package.eINSTANCE.getIfcObjective();
     }
 
     /**
@@ -66,7 +66,7 @@ public class IfcObjectiveImpl extends IfcConstraintImpl implements IfcObjective 
      */
     @Override
     public IfcMetric getBenchmarkValues() {
-        return (IfcMetric) eGet(Ifc2x3tc1Package.Literals.IFC_OBJECTIVE__BENCHMARK_VALUES, true);
+        return (IfcMetric) eGet(Ifc2x3tc1Package.eINSTANCE.getIfcObjective_BenchmarkValues(), true);
     }
 
     /**
@@ -76,7 +76,7 @@ public class IfcObjectiveImpl extends IfcConstraintImpl implements IfcObjective 
      */
     @Override
     public void setBenchmarkValues(IfcMetric newBenchmarkValues) {
-        eSet(Ifc2x3tc1Package.Literals.IFC_OBJECTIVE__BENCHMARK_VALUES, newBenchmarkValues);
+        eSet(Ifc2x3tc1Package.eINSTANCE.getIfcObjective_BenchmarkValues(), newBenchmarkValues);
     }
 
     /**
@@ -86,7 +86,7 @@ public class IfcObjectiveImpl extends IfcConstraintImpl implements IfcObjective 
      */
     @Override
     public void unsetBenchmarkValues() {
-        eUnset(Ifc2x3tc1Package.Literals.IFC_OBJECTIVE__BENCHMARK_VALUES);
+        eUnset(Ifc2x3tc1Package.eINSTANCE.getIfcObjective_BenchmarkValues());
     }
 
     /**
@@ -96,7 +96,7 @@ public class IfcObjectiveImpl extends IfcConstraintImpl implements IfcObjective 
      */
     @Override
     public boolean isSetBenchmarkValues() {
-        return eIsSet(Ifc2x3tc1Package.Literals.IFC_OBJECTIVE__BENCHMARK_VALUES);
+        return eIsSet(Ifc2x3tc1Package.eINSTANCE.getIfcObjective_BenchmarkValues());
     }
 
     /**
@@ -106,7 +106,7 @@ public class IfcObjectiveImpl extends IfcConstraintImpl implements IfcObjective 
      */
     @Override
     public IfcMetric getResultValues() {
-        return (IfcMetric) eGet(Ifc2x3tc1Package.Literals.IFC_OBJECTIVE__RESULT_VALUES, true);
+        return (IfcMetric) eGet(Ifc2x3tc1Package.eINSTANCE.getIfcObjective_ResultValues(), true);
     }
 
     /**
@@ -116,7 +116,7 @@ public class IfcObjectiveImpl extends IfcConstraintImpl implements IfcObjective 
      */
     @Override
     public void setResultValues(IfcMetric newResultValues) {
-        eSet(Ifc2x3tc1Package.Literals.IFC_OBJECTIVE__RESULT_VALUES, newResultValues);
+        eSet(Ifc2x3tc1Package.eINSTANCE.getIfcObjective_ResultValues(), newResultValues);
     }
 
     /**
@@ -126,7 +126,7 @@ public class IfcObjectiveImpl extends IfcConstraintImpl implements IfcObjective 
      */
     @Override
     public void unsetResultValues() {
-        eUnset(Ifc2x3tc1Package.Literals.IFC_OBJECTIVE__RESULT_VALUES);
+        eUnset(Ifc2x3tc1Package.eINSTANCE.getIfcObjective_ResultValues());
     }
 
     /**
@@ -136,7 +136,7 @@ public class IfcObjectiveImpl extends IfcConstraintImpl implements IfcObjective 
      */
     @Override
     public boolean isSetResultValues() {
-        return eIsSet(Ifc2x3tc1Package.Literals.IFC_OBJECTIVE__RESULT_VALUES);
+        return eIsSet(Ifc2x3tc1Package.eINSTANCE.getIfcObjective_ResultValues());
     }
 
     /**
@@ -146,7 +146,7 @@ public class IfcObjectiveImpl extends IfcConstraintImpl implements IfcObjective 
      */
     @Override
     public IfcObjectiveEnum getObjectiveQualifier() {
-        return (IfcObjectiveEnum) eGet(Ifc2x3tc1Package.Literals.IFC_OBJECTIVE__OBJECTIVE_QUALIFIER, true);
+        return (IfcObjectiveEnum) eGet(Ifc2x3tc1Package.eINSTANCE.getIfcObjective_ObjectiveQualifier(), true);
     }
 
     /**
@@ -156,7 +156,7 @@ public class IfcObjectiveImpl extends IfcConstraintImpl implements IfcObjective 
      */
     @Override
     public void setObjectiveQualifier(IfcObjectiveEnum newObjectiveQualifier) {
-        eSet(Ifc2x3tc1Package.Literals.IFC_OBJECTIVE__OBJECTIVE_QUALIFIER, newObjectiveQualifier);
+        eSet(Ifc2x3tc1Package.eINSTANCE.getIfcObjective_ObjectiveQualifier(), newObjectiveQualifier);
     }
 
     /**
@@ -166,7 +166,7 @@ public class IfcObjectiveImpl extends IfcConstraintImpl implements IfcObjective 
      */
     @Override
     public String getUserDefinedQualifier() {
-        return (String) eGet(Ifc2x3tc1Package.Literals.IFC_OBJECTIVE__USER_DEFINED_QUALIFIER, true);
+        return (String) eGet(Ifc2x3tc1Package.eINSTANCE.getIfcObjective_UserDefinedQualifier(), true);
     }
 
     /**
@@ -176,7 +176,7 @@ public class IfcObjectiveImpl extends IfcConstraintImpl implements IfcObjective 
      */
     @Override
     public void setUserDefinedQualifier(String newUserDefinedQualifier) {
-        eSet(Ifc2x3tc1Package.Literals.IFC_OBJECTIVE__USER_DEFINED_QUALIFIER, newUserDefinedQualifier);
+        eSet(Ifc2x3tc1Package.eINSTANCE.getIfcObjective_UserDefinedQualifier(), newUserDefinedQualifier);
     }
 
     /**
@@ -186,7 +186,7 @@ public class IfcObjectiveImpl extends IfcConstraintImpl implements IfcObjective 
      */
     @Override
     public void unsetUserDefinedQualifier() {
-        eUnset(Ifc2x3tc1Package.Literals.IFC_OBJECTIVE__USER_DEFINED_QUALIFIER);
+        eUnset(Ifc2x3tc1Package.eINSTANCE.getIfcObjective_UserDefinedQualifier());
     }
 
     /**
@@ -196,7 +196,7 @@ public class IfcObjectiveImpl extends IfcConstraintImpl implements IfcObjective 
      */
     @Override
     public boolean isSetUserDefinedQualifier() {
-        return eIsSet(Ifc2x3tc1Package.Literals.IFC_OBJECTIVE__USER_DEFINED_QUALIFIER);
+        return eIsSet(Ifc2x3tc1Package.eINSTANCE.getIfcObjective_UserDefinedQualifier());
     }
 
 } //IfcObjectiveImpl

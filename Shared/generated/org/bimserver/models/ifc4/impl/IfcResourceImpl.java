@@ -56,7 +56,7 @@ public class IfcResourceImpl extends IfcObjectImpl implements IfcResource {
      */
     @Override
     protected EClass eStaticClass() {
-        return Ifc4Package.Literals.IFC_RESOURCE;
+        return Ifc4Package.eINSTANCE.getIfcResource();
     }
 
     /**
@@ -66,7 +66,7 @@ public class IfcResourceImpl extends IfcObjectImpl implements IfcResource {
      */
     @Override
     public String getIdentification() {
-        return (String) eGet(Ifc4Package.Literals.IFC_RESOURCE__IDENTIFICATION, true);
+        return (String) eGet(Ifc4Package.eINSTANCE.getIfcResource_Identification(), true);
     }
 
     /**
@@ -76,7 +76,7 @@ public class IfcResourceImpl extends IfcObjectImpl implements IfcResource {
      */
     @Override
     public void setIdentification(String newIdentification) {
-        eSet(Ifc4Package.Literals.IFC_RESOURCE__IDENTIFICATION, newIdentification);
+        eSet(Ifc4Package.eINSTANCE.getIfcResource_Identification(), newIdentification);
     }
 
     /**
@@ -86,7 +86,7 @@ public class IfcResourceImpl extends IfcObjectImpl implements IfcResource {
      */
     @Override
     public void unsetIdentification() {
-        eUnset(Ifc4Package.Literals.IFC_RESOURCE__IDENTIFICATION);
+        eUnset(Ifc4Package.eINSTANCE.getIfcResource_Identification());
     }
 
     /**
@@ -96,7 +96,7 @@ public class IfcResourceImpl extends IfcObjectImpl implements IfcResource {
      */
     @Override
     public boolean isSetIdentification() {
-        return eIsSet(Ifc4Package.Literals.IFC_RESOURCE__IDENTIFICATION);
+        return eIsSet(Ifc4Package.eINSTANCE.getIfcResource_Identification());
     }
 
     /**
@@ -106,7 +106,7 @@ public class IfcResourceImpl extends IfcObjectImpl implements IfcResource {
      */
     @Override
     public String getLongDescription() {
-        return (String) eGet(Ifc4Package.Literals.IFC_RESOURCE__LONG_DESCRIPTION, true);
+        return (String) eGet(Ifc4Package.eINSTANCE.getIfcResource_LongDescription(), true);
     }
 
     /**
@@ -116,7 +116,7 @@ public class IfcResourceImpl extends IfcObjectImpl implements IfcResource {
      */
     @Override
     public void setLongDescription(String newLongDescription) {
-        eSet(Ifc4Package.Literals.IFC_RESOURCE__LONG_DESCRIPTION, newLongDescription);
+        eSet(Ifc4Package.eINSTANCE.getIfcResource_LongDescription(), newLongDescription);
     }
 
     /**
@@ -126,7 +126,7 @@ public class IfcResourceImpl extends IfcObjectImpl implements IfcResource {
      */
     @Override
     public void unsetLongDescription() {
-        eUnset(Ifc4Package.Literals.IFC_RESOURCE__LONG_DESCRIPTION);
+        eUnset(Ifc4Package.eINSTANCE.getIfcResource_LongDescription());
     }
 
     /**
@@ -136,7 +136,7 @@ public class IfcResourceImpl extends IfcObjectImpl implements IfcResource {
      */
     @Override
     public boolean isSetLongDescription() {
-        return eIsSet(Ifc4Package.Literals.IFC_RESOURCE__LONG_DESCRIPTION);
+        return eIsSet(Ifc4Package.eINSTANCE.getIfcResource_LongDescription());
     }
 
     /**
@@ -147,7 +147,7 @@ public class IfcResourceImpl extends IfcObjectImpl implements IfcResource {
     @SuppressWarnings("unchecked")
     @Override
     public EList<IfcRelAssignsToResource> getResourceOf() {
-        return (EList<IfcRelAssignsToResource>) eGet(Ifc4Package.Literals.IFC_RESOURCE__RESOURCE_OF, true);
+        return (EList<IfcRelAssignsToResource>) eGet(Ifc4Package.eINSTANCE.getIfcResource_ResourceOf(), true);
     }
 
     /**
@@ -157,7 +157,7 @@ public class IfcResourceImpl extends IfcObjectImpl implements IfcResource {
      */
     @Override
     public void unsetResourceOf() {
-        eUnset(Ifc4Package.Literals.IFC_RESOURCE__RESOURCE_OF);
+        eUnset(Ifc4Package.eINSTANCE.getIfcResource_ResourceOf());
     }
 
     /**
@@ -167,7 +167,7 @@ public class IfcResourceImpl extends IfcObjectImpl implements IfcResource {
      */
     @Override
     public boolean isSetResourceOf() {
-        return eIsSet(Ifc4Package.Literals.IFC_RESOURCE__RESOURCE_OF);
+        return eIsSet(Ifc4Package.eINSTANCE.getIfcResource_ResourceOf());
     }
 
 } //IfcResourceImpl

@@ -41,10 +41,6 @@ public interface IfcStairFlight extends IfcBuildingElement {
     /**
      * Returns the value of the '<em><b>Number Of Riser</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Number Of Riser</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Number Of Riser</em>' attribute.
      * @see #isSetNumberOfRiser()
@@ -94,10 +90,6 @@ public interface IfcStairFlight extends IfcBuildingElement {
     /**
      * Returns the value of the '<em><b>Number Of Treads</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Number Of Treads</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Number Of Treads</em>' attribute.
      * @see #isSetNumberOfTreads()
@@ -147,10 +139,6 @@ public interface IfcStairFlight extends IfcBuildingElement {
     /**
      * Returns the value of the '<em><b>Riser Height</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Riser Height</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Riser Height</em>' attribute.
      * @see #isSetRiserHeight()
@@ -200,10 +188,6 @@ public interface IfcStairFlight extends IfcBuildingElement {
     /**
      * Returns the value of the '<em><b>Riser Height As String</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Riser Height As String</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Riser Height As String</em>' attribute.
      * @see #isSetRiserHeightAsString()
@@ -255,10 +239,6 @@ public interface IfcStairFlight extends IfcBuildingElement {
     /**
      * Returns the value of the '<em><b>Tread Length</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Tread Length</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Tread Length</em>' attribute.
      * @see #isSetTreadLength()
@@ -308,10 +288,6 @@ public interface IfcStairFlight extends IfcBuildingElement {
     /**
      * Returns the value of the '<em><b>Tread Length As String</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Tread Length As String</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Tread Length As String</em>' attribute.
      * @see #isSetTreadLengthAsString()

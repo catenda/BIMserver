@@ -53,7 +53,7 @@ public class IfcConnectionPointGeometryImpl extends IfcConnectionGeometryImpl im
      */
     @Override
     protected EClass eStaticClass() {
-        return Ifc2x3tc1Package.Literals.IFC_CONNECTION_POINT_GEOMETRY;
+        return Ifc2x3tc1Package.eINSTANCE.getIfcConnectionPointGeometry();
     }
 
     /**
@@ -64,7 +64,7 @@ public class IfcConnectionPointGeometryImpl extends IfcConnectionGeometryImpl im
     @Override
     public IfcPointOrVertexPoint getPointOnRelatingElement() {
         return (IfcPointOrVertexPoint) eGet(
-                Ifc2x3tc1Package.Literals.IFC_CONNECTION_POINT_GEOMETRY__POINT_ON_RELATING_ELEMENT, true);
+                Ifc2x3tc1Package.eINSTANCE.getIfcConnectionPointGeometry_PointOnRelatingElement(), true);
     }
 
     /**
@@ -74,7 +74,7 @@ public class IfcConnectionPointGeometryImpl extends IfcConnectionGeometryImpl im
      */
     @Override
     public void setPointOnRelatingElement(IfcPointOrVertexPoint newPointOnRelatingElement) {
-        eSet(Ifc2x3tc1Package.Literals.IFC_CONNECTION_POINT_GEOMETRY__POINT_ON_RELATING_ELEMENT,
+        eSet(Ifc2x3tc1Package.eINSTANCE.getIfcConnectionPointGeometry_PointOnRelatingElement(),
                 newPointOnRelatingElement);
     }
 
@@ -86,7 +86,7 @@ public class IfcConnectionPointGeometryImpl extends IfcConnectionGeometryImpl im
     @Override
     public IfcPointOrVertexPoint getPointOnRelatedElement() {
         return (IfcPointOrVertexPoint) eGet(
-                Ifc2x3tc1Package.Literals.IFC_CONNECTION_POINT_GEOMETRY__POINT_ON_RELATED_ELEMENT, true);
+                Ifc2x3tc1Package.eINSTANCE.getIfcConnectionPointGeometry_PointOnRelatedElement(), true);
     }
 
     /**
@@ -96,7 +96,7 @@ public class IfcConnectionPointGeometryImpl extends IfcConnectionGeometryImpl im
      */
     @Override
     public void setPointOnRelatedElement(IfcPointOrVertexPoint newPointOnRelatedElement) {
-        eSet(Ifc2x3tc1Package.Literals.IFC_CONNECTION_POINT_GEOMETRY__POINT_ON_RELATED_ELEMENT,
+        eSet(Ifc2x3tc1Package.eINSTANCE.getIfcConnectionPointGeometry_PointOnRelatedElement(),
                 newPointOnRelatedElement);
     }
 
@@ -107,7 +107,7 @@ public class IfcConnectionPointGeometryImpl extends IfcConnectionGeometryImpl im
      */
     @Override
     public void unsetPointOnRelatedElement() {
-        eUnset(Ifc2x3tc1Package.Literals.IFC_CONNECTION_POINT_GEOMETRY__POINT_ON_RELATED_ELEMENT);
+        eUnset(Ifc2x3tc1Package.eINSTANCE.getIfcConnectionPointGeometry_PointOnRelatedElement());
     }
 
     /**
@@ -117,7 +117,7 @@ public class IfcConnectionPointGeometryImpl extends IfcConnectionGeometryImpl im
      */
     @Override
     public boolean isSetPointOnRelatedElement() {
-        return eIsSet(Ifc2x3tc1Package.Literals.IFC_CONNECTION_POINT_GEOMETRY__POINT_ON_RELATED_ELEMENT);
+        return eIsSet(Ifc2x3tc1Package.eINSTANCE.getIfcConnectionPointGeometry_PointOnRelatedElement());
     }
 
 } //IfcConnectionPointGeometryImpl

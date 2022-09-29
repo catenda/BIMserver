@@ -52,7 +52,7 @@ public class IfcRelAssociatesDocumentImpl extends IfcRelAssociatesImpl implement
      */
     @Override
     protected EClass eStaticClass() {
-        return Ifc2x3tc1Package.Literals.IFC_REL_ASSOCIATES_DOCUMENT;
+        return Ifc2x3tc1Package.eINSTANCE.getIfcRelAssociatesDocument();
     }
 
     /**
@@ -62,7 +62,8 @@ public class IfcRelAssociatesDocumentImpl extends IfcRelAssociatesImpl implement
      */
     @Override
     public IfcDocumentSelect getRelatingDocument() {
-        return (IfcDocumentSelect) eGet(Ifc2x3tc1Package.Literals.IFC_REL_ASSOCIATES_DOCUMENT__RELATING_DOCUMENT, true);
+        return (IfcDocumentSelect) eGet(Ifc2x3tc1Package.eINSTANCE.getIfcRelAssociatesDocument_RelatingDocument(),
+                true);
     }
 
     /**
@@ -72,7 +73,7 @@ public class IfcRelAssociatesDocumentImpl extends IfcRelAssociatesImpl implement
      */
     @Override
     public void setRelatingDocument(IfcDocumentSelect newRelatingDocument) {
-        eSet(Ifc2x3tc1Package.Literals.IFC_REL_ASSOCIATES_DOCUMENT__RELATING_DOCUMENT, newRelatingDocument);
+        eSet(Ifc2x3tc1Package.eINSTANCE.getIfcRelAssociatesDocument_RelatingDocument(), newRelatingDocument);
     }
 
 } //IfcRelAssociatesDocumentImpl

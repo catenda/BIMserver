@@ -45,7 +45,7 @@ public class IfcDimensionPairImpl extends IfcDraughtingCalloutRelationshipImpl i
      */
     @Override
     protected EClass eStaticClass() {
-        return Ifc2x3tc1Package.Literals.IFC_DIMENSION_PAIR;
+        return Ifc2x3tc1Package.eINSTANCE.getIfcDimensionPair();
     }
 
 } //IfcDimensionPairImpl

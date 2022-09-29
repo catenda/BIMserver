@@ -95,10 +95,6 @@ public enum IfcServiceLifeTypeEnum implements Enumerator {
     /**
      * The '<em><b>NULL</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>NULL</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #NULL
      * @model
@@ -110,10 +106,6 @@ public enum IfcServiceLifeTypeEnum implements Enumerator {
     /**
      * The '<em><b>EXPECTEDSERVICELIFE</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>EXPECTEDSERVICELIFE</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #EXPECTEDSERVICELIFE
      * @model
@@ -125,10 +117,6 @@ public enum IfcServiceLifeTypeEnum implements Enumerator {
     /**
      * The '<em><b>ACTUALSERVICELIFE</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>ACTUALSERVICELIFE</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #ACTUALSERVICELIFE
      * @model
@@ -140,10 +128,6 @@ public enum IfcServiceLifeTypeEnum implements Enumerator {
     /**
      * The '<em><b>PESSIMISTICREFERENCESERVICELIFE</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>PESSIMISTICREFERENCESERVICELIFE</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #PESSIMISTICREFERENCESERVICELIFE
      * @model
@@ -155,10 +139,6 @@ public enum IfcServiceLifeTypeEnum implements Enumerator {
     /**
      * The '<em><b>OPTIMISTICREFERENCESERVICELIFE</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>OPTIMISTICREFERENCESERVICELIFE</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #OPTIMISTICREFERENCESERVICELIFE
      * @model
@@ -170,10 +150,6 @@ public enum IfcServiceLifeTypeEnum implements Enumerator {
     /**
      * The '<em><b>REFERENCESERVICELIFE</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>REFERENCESERVICELIFE</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #REFERENCESERVICELIFE
      * @model

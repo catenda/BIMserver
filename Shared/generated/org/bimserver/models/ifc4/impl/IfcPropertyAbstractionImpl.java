@@ -56,7 +56,7 @@ public class IfcPropertyAbstractionImpl extends IdEObjectImpl implements IfcProp
      */
     @Override
     protected EClass eStaticClass() {
-        return Ifc4Package.Literals.IFC_PROPERTY_ABSTRACTION;
+        return Ifc4Package.eINSTANCE.getIfcPropertyAbstraction();
     }
 
     /**
@@ -78,7 +78,7 @@ public class IfcPropertyAbstractionImpl extends IdEObjectImpl implements IfcProp
     @Override
     public EList<IfcExternalReferenceRelationship> getHasExternalReferences() {
         return (EList<IfcExternalReferenceRelationship>) eGet(
-                Ifc4Package.Literals.IFC_PROPERTY_ABSTRACTION__HAS_EXTERNAL_REFERENCES, true);
+                Ifc4Package.eINSTANCE.getIfcPropertyAbstraction_HasExternalReferences(), true);
     }
 
     /**
@@ -88,7 +88,7 @@ public class IfcPropertyAbstractionImpl extends IdEObjectImpl implements IfcProp
      */
     @Override
     public void unsetHasExternalReferences() {
-        eUnset(Ifc4Package.Literals.IFC_PROPERTY_ABSTRACTION__HAS_EXTERNAL_REFERENCES);
+        eUnset(Ifc4Package.eINSTANCE.getIfcPropertyAbstraction_HasExternalReferences());
     }
 
     /**
@@ -98,7 +98,7 @@ public class IfcPropertyAbstractionImpl extends IdEObjectImpl implements IfcProp
      */
     @Override
     public boolean isSetHasExternalReferences() {
-        return eIsSet(Ifc4Package.Literals.IFC_PROPERTY_ABSTRACTION__HAS_EXTERNAL_REFERENCES);
+        return eIsSet(Ifc4Package.eINSTANCE.getIfcPropertyAbstraction_HasExternalReferences());
     }
 
 } //IfcPropertyAbstractionImpl

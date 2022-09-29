@@ -37,10 +37,6 @@ public interface InternalServicePluginConfiguration extends PluginConfiguration 
     /**
      * Returns the value of the '<em><b>Remote Accessible</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Remote Accessible</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Remote Accessible</em>' attribute.
      * @see #setRemoteAccessible(boolean)
@@ -64,10 +60,6 @@ public interface InternalServicePluginConfiguration extends PluginConfiguration 
      * Returns the value of the '<em><b>User Settings</b></em>' reference.
      * It is bidirectional and its opposite is '{@link org.bimserver.models.store.UserSettings#getServices <em>Services</em>}'.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>User Settings</em>' reference isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>User Settings</em>' reference.
      * @see #setUserSettings(UserSettings)

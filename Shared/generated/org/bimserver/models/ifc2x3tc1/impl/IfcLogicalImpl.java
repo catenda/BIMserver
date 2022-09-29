@@ -54,7 +54,7 @@ public class IfcLogicalImpl extends IdEObjectImpl implements IfcLogical {
      */
     @Override
     protected EClass eStaticClass() {
-        return Ifc2x3tc1Package.Literals.IFC_LOGICAL;
+        return Ifc2x3tc1Package.eINSTANCE.getIfcLogical();
     }
 
     /**
@@ -74,7 +74,7 @@ public class IfcLogicalImpl extends IdEObjectImpl implements IfcLogical {
      */
     @Override
     public Tristate getWrappedValue() {
-        return (Tristate) eGet(Ifc2x3tc1Package.Literals.IFC_LOGICAL__WRAPPED_VALUE, true);
+        return (Tristate) eGet(Ifc2x3tc1Package.eINSTANCE.getIfcLogical_WrappedValue(), true);
     }
 
     /**
@@ -84,7 +84,7 @@ public class IfcLogicalImpl extends IdEObjectImpl implements IfcLogical {
      */
     @Override
     public void setWrappedValue(Tristate newWrappedValue) {
-        eSet(Ifc2x3tc1Package.Literals.IFC_LOGICAL__WRAPPED_VALUE, newWrappedValue);
+        eSet(Ifc2x3tc1Package.eINSTANCE.getIfcLogical_WrappedValue(), newWrappedValue);
     }
 
     /**
@@ -94,7 +94,7 @@ public class IfcLogicalImpl extends IdEObjectImpl implements IfcLogical {
      */
     @Override
     public void unsetWrappedValue() {
-        eUnset(Ifc2x3tc1Package.Literals.IFC_LOGICAL__WRAPPED_VALUE);
+        eUnset(Ifc2x3tc1Package.eINSTANCE.getIfcLogical_WrappedValue());
     }
 
     /**
@@ -104,7 +104,7 @@ public class IfcLogicalImpl extends IdEObjectImpl implements IfcLogical {
      */
     @Override
     public boolean isSetWrappedValue() {
-        return eIsSet(Ifc2x3tc1Package.Literals.IFC_LOGICAL__WRAPPED_VALUE);
+        return eIsSet(Ifc2x3tc1Package.eINSTANCE.getIfcLogical_WrappedValue());
     }
 
 } //IfcLogicalImpl

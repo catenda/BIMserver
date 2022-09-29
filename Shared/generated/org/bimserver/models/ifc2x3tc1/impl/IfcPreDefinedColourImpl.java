@@ -45,7 +45,7 @@ public class IfcPreDefinedColourImpl extends IfcPreDefinedItemImpl implements If
      */
     @Override
     protected EClass eStaticClass() {
-        return Ifc2x3tc1Package.Literals.IFC_PRE_DEFINED_COLOUR;
+        return Ifc2x3tc1Package.eINSTANCE.getIfcPreDefinedColour();
     }
 
 } //IfcPreDefinedColourImpl

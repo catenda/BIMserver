@@ -52,7 +52,7 @@ public class IfcRampFlightTypeImpl extends IfcBuildingElementTypeImpl implements
      */
     @Override
     protected EClass eStaticClass() {
-        return Ifc4Package.Literals.IFC_RAMP_FLIGHT_TYPE;
+        return Ifc4Package.eINSTANCE.getIfcRampFlightType();
     }
 
     /**
@@ -62,7 +62,7 @@ public class IfcRampFlightTypeImpl extends IfcBuildingElementTypeImpl implements
      */
     @Override
     public IfcRampFlightTypeEnum getPredefinedType() {
-        return (IfcRampFlightTypeEnum) eGet(Ifc4Package.Literals.IFC_RAMP_FLIGHT_TYPE__PREDEFINED_TYPE, true);
+        return (IfcRampFlightTypeEnum) eGet(Ifc4Package.eINSTANCE.getIfcRampFlightType_PredefinedType(), true);
     }
 
     /**
@@ -72,7 +72,7 @@ public class IfcRampFlightTypeImpl extends IfcBuildingElementTypeImpl implements
      */
     @Override
     public void setPredefinedType(IfcRampFlightTypeEnum newPredefinedType) {
-        eSet(Ifc4Package.Literals.IFC_RAMP_FLIGHT_TYPE__PREDEFINED_TYPE, newPredefinedType);
+        eSet(Ifc4Package.eINSTANCE.getIfcRampFlightType_PredefinedType(), newPredefinedType);
     }
 
 } //IfcRampFlightTypeImpl

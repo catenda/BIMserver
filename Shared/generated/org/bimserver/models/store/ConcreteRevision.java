@@ -53,10 +53,6 @@ public interface ConcreteRevision extends IdEObject {
     /**
      * Returns the value of the '<em><b>Id</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Id</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Id</em>' attribute.
      * @see #setId(Integer)
@@ -80,10 +76,6 @@ public interface ConcreteRevision extends IdEObject {
      * Returns the value of the '<em><b>Project</b></em>' reference.
      * It is bidirectional and its opposite is '{@link org.bimserver.models.store.Project#getConcreteRevisions <em>Concrete Revisions</em>}'.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Project</em>' reference isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Project</em>' reference.
      * @see #setProject(Project)
@@ -107,10 +99,6 @@ public interface ConcreteRevision extends IdEObject {
     /**
      * Returns the value of the '<em><b>Checksum</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Checksum</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Checksum</em>' attribute.
      * @see #setChecksum(byte[])
@@ -135,10 +123,6 @@ public interface ConcreteRevision extends IdEObject {
      * The list contents are of type {@link org.bimserver.models.store.Revision}.
      * It is bidirectional and its opposite is '{@link org.bimserver.models.store.Revision#getConcreteRevisions <em>Concrete Revisions</em>}'.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Revisions</em>' reference list isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Revisions</em>' reference list.
      * @see org.bimserver.models.store.StorePackage#getConcreteRevision_Revisions()
@@ -151,10 +135,6 @@ public interface ConcreteRevision extends IdEObject {
     /**
      * Returns the value of the '<em><b>Size</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Size</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Size</em>' attribute.
      * @see #setSize(Long)
@@ -177,10 +157,6 @@ public interface ConcreteRevision extends IdEObject {
     /**
      * Returns the value of the '<em><b>Date</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Date</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Date</em>' attribute.
      * @see #setDate(Date)
@@ -203,10 +179,6 @@ public interface ConcreteRevision extends IdEObject {
     /**
      * Returns the value of the '<em><b>Last Error</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Last Error</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Last Error</em>' attribute.
      * @see #setLastError(String)
@@ -229,10 +201,6 @@ public interface ConcreteRevision extends IdEObject {
     /**
      * Returns the value of the '<em><b>Clear</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Clear</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Clear</em>' attribute.
      * @see #setClear(boolean)
@@ -255,10 +223,6 @@ public interface ConcreteRevision extends IdEObject {
     /**
      * Returns the value of the '<em><b>Summary</b></em>' reference.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Summary</em>' reference isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Summary</em>' reference.
      * @see #setSummary(RevisionSummary)
@@ -281,10 +245,6 @@ public interface ConcreteRevision extends IdEObject {
     /**
      * Returns the value of the '<em><b>User</b></em>' reference.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>User</em>' reference isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>User</em>' reference.
      * @see #setUser(User)
@@ -307,10 +267,6 @@ public interface ConcreteRevision extends IdEObject {
     /**
      * Returns the value of the '<em><b>Ifc Header</b></em>' reference.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Ifc Header</em>' reference isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Ifc Header</em>' reference.
      * @see #setIfcHeader(IfcHeader)

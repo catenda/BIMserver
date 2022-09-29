@@ -37,10 +37,6 @@ public interface IfcAnnotationFillAreaOccurrence extends IfcAnnotationOccurrence
     /**
      * Returns the value of the '<em><b>Fill Style Target</b></em>' reference.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Fill Style Target</em>' reference isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Fill Style Target</em>' reference.
      * @see #isSetFillStyleTarget()
@@ -91,10 +87,6 @@ public interface IfcAnnotationFillAreaOccurrence extends IfcAnnotationOccurrence
      * Returns the value of the '<em><b>Global Or Local</b></em>' attribute.
      * The literals are from the enumeration {@link org.bimserver.models.ifc2x3tc1.IfcGlobalOrLocalEnum}.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Global Or Local</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Global Or Local</em>' attribute.
      * @see org.bimserver.models.ifc2x3tc1.IfcGlobalOrLocalEnum

@@ -37,10 +37,6 @@ public interface IfcQuantityWeight extends IfcPhysicalSimpleQuantity {
     /**
      * Returns the value of the '<em><b>Weight Value</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Weight Value</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Weight Value</em>' attribute.
      * @see #setWeightValue(double)
@@ -63,10 +59,6 @@ public interface IfcQuantityWeight extends IfcPhysicalSimpleQuantity {
     /**
      * Returns the value of the '<em><b>Weight Value As String</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Weight Value As String</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Weight Value As String</em>' attribute.
      * @see #setWeightValueAsString(String)

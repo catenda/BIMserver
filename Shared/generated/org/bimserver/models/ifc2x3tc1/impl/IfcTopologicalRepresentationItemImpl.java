@@ -46,7 +46,7 @@ public class IfcTopologicalRepresentationItemImpl extends IfcRepresentationItemI
      */
     @Override
     protected EClass eStaticClass() {
-        return Ifc2x3tc1Package.Literals.IFC_TOPOLOGICAL_REPRESENTATION_ITEM;
+        return Ifc2x3tc1Package.eINSTANCE.getIfcTopologicalRepresentationItem();
     }
 
 } //IfcTopologicalRepresentationItemImpl

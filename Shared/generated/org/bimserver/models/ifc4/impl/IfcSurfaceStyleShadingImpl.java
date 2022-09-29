@@ -54,7 +54,7 @@ public class IfcSurfaceStyleShadingImpl extends IfcPresentationItemImpl implemen
      */
     @Override
     protected EClass eStaticClass() {
-        return Ifc4Package.Literals.IFC_SURFACE_STYLE_SHADING;
+        return Ifc4Package.eINSTANCE.getIfcSurfaceStyleShading();
     }
 
     /**
@@ -64,7 +64,7 @@ public class IfcSurfaceStyleShadingImpl extends IfcPresentationItemImpl implemen
      */
     @Override
     public IfcColourRgb getSurfaceColour() {
-        return (IfcColourRgb) eGet(Ifc4Package.Literals.IFC_SURFACE_STYLE_SHADING__SURFACE_COLOUR, true);
+        return (IfcColourRgb) eGet(Ifc4Package.eINSTANCE.getIfcSurfaceStyleShading_SurfaceColour(), true);
     }
 
     /**
@@ -74,7 +74,7 @@ public class IfcSurfaceStyleShadingImpl extends IfcPresentationItemImpl implemen
      */
     @Override
     public void setSurfaceColour(IfcColourRgb newSurfaceColour) {
-        eSet(Ifc4Package.Literals.IFC_SURFACE_STYLE_SHADING__SURFACE_COLOUR, newSurfaceColour);
+        eSet(Ifc4Package.eINSTANCE.getIfcSurfaceStyleShading_SurfaceColour(), newSurfaceColour);
     }
 
     /**
@@ -84,7 +84,7 @@ public class IfcSurfaceStyleShadingImpl extends IfcPresentationItemImpl implemen
      */
     @Override
     public double getTransparency() {
-        return (Double) eGet(Ifc4Package.Literals.IFC_SURFACE_STYLE_SHADING__TRANSPARENCY, true);
+        return (Double) eGet(Ifc4Package.eINSTANCE.getIfcSurfaceStyleShading_Transparency(), true);
     }
 
     /**
@@ -94,7 +94,7 @@ public class IfcSurfaceStyleShadingImpl extends IfcPresentationItemImpl implemen
      */
     @Override
     public void setTransparency(double newTransparency) {
-        eSet(Ifc4Package.Literals.IFC_SURFACE_STYLE_SHADING__TRANSPARENCY, newTransparency);
+        eSet(Ifc4Package.eINSTANCE.getIfcSurfaceStyleShading_Transparency(), newTransparency);
     }
 
     /**
@@ -104,7 +104,7 @@ public class IfcSurfaceStyleShadingImpl extends IfcPresentationItemImpl implemen
      */
     @Override
     public void unsetTransparency() {
-        eUnset(Ifc4Package.Literals.IFC_SURFACE_STYLE_SHADING__TRANSPARENCY);
+        eUnset(Ifc4Package.eINSTANCE.getIfcSurfaceStyleShading_Transparency());
     }
 
     /**
@@ -114,7 +114,7 @@ public class IfcSurfaceStyleShadingImpl extends IfcPresentationItemImpl implemen
      */
     @Override
     public boolean isSetTransparency() {
-        return eIsSet(Ifc4Package.Literals.IFC_SURFACE_STYLE_SHADING__TRANSPARENCY);
+        return eIsSet(Ifc4Package.eINSTANCE.getIfcSurfaceStyleShading_Transparency());
     }
 
     /**
@@ -124,7 +124,7 @@ public class IfcSurfaceStyleShadingImpl extends IfcPresentationItemImpl implemen
      */
     @Override
     public String getTransparencyAsString() {
-        return (String) eGet(Ifc4Package.Literals.IFC_SURFACE_STYLE_SHADING__TRANSPARENCY_AS_STRING, true);
+        return (String) eGet(Ifc4Package.eINSTANCE.getIfcSurfaceStyleShading_TransparencyAsString(), true);
     }
 
     /**
@@ -134,7 +134,7 @@ public class IfcSurfaceStyleShadingImpl extends IfcPresentationItemImpl implemen
      */
     @Override
     public void setTransparencyAsString(String newTransparencyAsString) {
-        eSet(Ifc4Package.Literals.IFC_SURFACE_STYLE_SHADING__TRANSPARENCY_AS_STRING, newTransparencyAsString);
+        eSet(Ifc4Package.eINSTANCE.getIfcSurfaceStyleShading_TransparencyAsString(), newTransparencyAsString);
     }
 
     /**
@@ -144,7 +144,7 @@ public class IfcSurfaceStyleShadingImpl extends IfcPresentationItemImpl implemen
      */
     @Override
     public void unsetTransparencyAsString() {
-        eUnset(Ifc4Package.Literals.IFC_SURFACE_STYLE_SHADING__TRANSPARENCY_AS_STRING);
+        eUnset(Ifc4Package.eINSTANCE.getIfcSurfaceStyleShading_TransparencyAsString());
     }
 
     /**
@@ -154,7 +154,7 @@ public class IfcSurfaceStyleShadingImpl extends IfcPresentationItemImpl implemen
      */
     @Override
     public boolean isSetTransparencyAsString() {
-        return eIsSet(Ifc4Package.Literals.IFC_SURFACE_STYLE_SHADING__TRANSPARENCY_AS_STRING);
+        return eIsSet(Ifc4Package.eINSTANCE.getIfcSurfaceStyleShading_TransparencyAsString());
     }
 
 } //IfcSurfaceStyleShadingImpl

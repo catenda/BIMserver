@@ -41,10 +41,6 @@ public interface IfcConstructionMaterialResource extends IfcConstructionResource
      * Returns the value of the '<em><b>Suppliers</b></em>' reference list.
      * The list contents are of type {@link org.bimserver.models.ifc2x3tc1.IfcActorSelect}.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Suppliers</em>' reference list isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Suppliers</em>' reference list.
      * @see #isSetSuppliers()
@@ -79,10 +75,6 @@ public interface IfcConstructionMaterialResource extends IfcConstructionResource
     /**
      * Returns the value of the '<em><b>Usage Ratio</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Usage Ratio</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Usage Ratio</em>' attribute.
      * @see #isSetUsageRatio()
@@ -132,10 +124,6 @@ public interface IfcConstructionMaterialResource extends IfcConstructionResource
     /**
      * Returns the value of the '<em><b>Usage Ratio As String</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Usage Ratio As String</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Usage Ratio As String</em>' attribute.
      * @see #isSetUsageRatioAsString()

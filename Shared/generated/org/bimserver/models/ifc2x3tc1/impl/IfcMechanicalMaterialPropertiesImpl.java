@@ -61,7 +61,7 @@ public class IfcMechanicalMaterialPropertiesImpl extends IfcMaterialPropertiesIm
      */
     @Override
     protected EClass eStaticClass() {
-        return Ifc2x3tc1Package.Literals.IFC_MECHANICAL_MATERIAL_PROPERTIES;
+        return Ifc2x3tc1Package.eINSTANCE.getIfcMechanicalMaterialProperties();
     }
 
     /**
@@ -71,7 +71,7 @@ public class IfcMechanicalMaterialPropertiesImpl extends IfcMaterialPropertiesIm
      */
     @Override
     public double getDynamicViscosity() {
-        return (Double) eGet(Ifc2x3tc1Package.Literals.IFC_MECHANICAL_MATERIAL_PROPERTIES__DYNAMIC_VISCOSITY, true);
+        return (Double) eGet(Ifc2x3tc1Package.eINSTANCE.getIfcMechanicalMaterialProperties_DynamicViscosity(), true);
     }
 
     /**
@@ -81,7 +81,7 @@ public class IfcMechanicalMaterialPropertiesImpl extends IfcMaterialPropertiesIm
      */
     @Override
     public void setDynamicViscosity(double newDynamicViscosity) {
-        eSet(Ifc2x3tc1Package.Literals.IFC_MECHANICAL_MATERIAL_PROPERTIES__DYNAMIC_VISCOSITY, newDynamicViscosity);
+        eSet(Ifc2x3tc1Package.eINSTANCE.getIfcMechanicalMaterialProperties_DynamicViscosity(), newDynamicViscosity);
     }
 
     /**
@@ -91,7 +91,7 @@ public class IfcMechanicalMaterialPropertiesImpl extends IfcMaterialPropertiesIm
      */
     @Override
     public void unsetDynamicViscosity() {
-        eUnset(Ifc2x3tc1Package.Literals.IFC_MECHANICAL_MATERIAL_PROPERTIES__DYNAMIC_VISCOSITY);
+        eUnset(Ifc2x3tc1Package.eINSTANCE.getIfcMechanicalMaterialProperties_DynamicViscosity());
     }
 
     /**
@@ -101,7 +101,7 @@ public class IfcMechanicalMaterialPropertiesImpl extends IfcMaterialPropertiesIm
      */
     @Override
     public boolean isSetDynamicViscosity() {
-        return eIsSet(Ifc2x3tc1Package.Literals.IFC_MECHANICAL_MATERIAL_PROPERTIES__DYNAMIC_VISCOSITY);
+        return eIsSet(Ifc2x3tc1Package.eINSTANCE.getIfcMechanicalMaterialProperties_DynamicViscosity());
     }
 
     /**
@@ -111,7 +111,7 @@ public class IfcMechanicalMaterialPropertiesImpl extends IfcMaterialPropertiesIm
      */
     @Override
     public String getDynamicViscosityAsString() {
-        return (String) eGet(Ifc2x3tc1Package.Literals.IFC_MECHANICAL_MATERIAL_PROPERTIES__DYNAMIC_VISCOSITY_AS_STRING,
+        return (String) eGet(Ifc2x3tc1Package.eINSTANCE.getIfcMechanicalMaterialProperties_DynamicViscosityAsString(),
                 true);
     }
 
@@ -122,7 +122,7 @@ public class IfcMechanicalMaterialPropertiesImpl extends IfcMaterialPropertiesIm
      */
     @Override
     public void setDynamicViscosityAsString(String newDynamicViscosityAsString) {
-        eSet(Ifc2x3tc1Package.Literals.IFC_MECHANICAL_MATERIAL_PROPERTIES__DYNAMIC_VISCOSITY_AS_STRING,
+        eSet(Ifc2x3tc1Package.eINSTANCE.getIfcMechanicalMaterialProperties_DynamicViscosityAsString(),
                 newDynamicViscosityAsString);
     }
 
@@ -133,7 +133,7 @@ public class IfcMechanicalMaterialPropertiesImpl extends IfcMaterialPropertiesIm
      */
     @Override
     public void unsetDynamicViscosityAsString() {
-        eUnset(Ifc2x3tc1Package.Literals.IFC_MECHANICAL_MATERIAL_PROPERTIES__DYNAMIC_VISCOSITY_AS_STRING);
+        eUnset(Ifc2x3tc1Package.eINSTANCE.getIfcMechanicalMaterialProperties_DynamicViscosityAsString());
     }
 
     /**
@@ -143,7 +143,7 @@ public class IfcMechanicalMaterialPropertiesImpl extends IfcMaterialPropertiesIm
      */
     @Override
     public boolean isSetDynamicViscosityAsString() {
-        return eIsSet(Ifc2x3tc1Package.Literals.IFC_MECHANICAL_MATERIAL_PROPERTIES__DYNAMIC_VISCOSITY_AS_STRING);
+        return eIsSet(Ifc2x3tc1Package.eINSTANCE.getIfcMechanicalMaterialProperties_DynamicViscosityAsString());
     }
 
     /**
@@ -153,7 +153,7 @@ public class IfcMechanicalMaterialPropertiesImpl extends IfcMaterialPropertiesIm
      */
     @Override
     public double getYoungModulus() {
-        return (Double) eGet(Ifc2x3tc1Package.Literals.IFC_MECHANICAL_MATERIAL_PROPERTIES__YOUNG_MODULUS, true);
+        return (Double) eGet(Ifc2x3tc1Package.eINSTANCE.getIfcMechanicalMaterialProperties_YoungModulus(), true);
     }
 
     /**
@@ -163,7 +163,7 @@ public class IfcMechanicalMaterialPropertiesImpl extends IfcMaterialPropertiesIm
      */
     @Override
     public void setYoungModulus(double newYoungModulus) {
-        eSet(Ifc2x3tc1Package.Literals.IFC_MECHANICAL_MATERIAL_PROPERTIES__YOUNG_MODULUS, newYoungModulus);
+        eSet(Ifc2x3tc1Package.eINSTANCE.getIfcMechanicalMaterialProperties_YoungModulus(), newYoungModulus);
     }
 
     /**
@@ -173,7 +173,7 @@ public class IfcMechanicalMaterialPropertiesImpl extends IfcMaterialPropertiesIm
      */
     @Override
     public void unsetYoungModulus() {
-        eUnset(Ifc2x3tc1Package.Literals.IFC_MECHANICAL_MATERIAL_PROPERTIES__YOUNG_MODULUS);
+        eUnset(Ifc2x3tc1Package.eINSTANCE.getIfcMechanicalMaterialProperties_YoungModulus());
     }
 
     /**
@@ -183,7 +183,7 @@ public class IfcMechanicalMaterialPropertiesImpl extends IfcMaterialPropertiesIm
      */
     @Override
     public boolean isSetYoungModulus() {
-        return eIsSet(Ifc2x3tc1Package.Literals.IFC_MECHANICAL_MATERIAL_PROPERTIES__YOUNG_MODULUS);
+        return eIsSet(Ifc2x3tc1Package.eINSTANCE.getIfcMechanicalMaterialProperties_YoungModulus());
     }
 
     /**
@@ -193,7 +193,7 @@ public class IfcMechanicalMaterialPropertiesImpl extends IfcMaterialPropertiesIm
      */
     @Override
     public String getYoungModulusAsString() {
-        return (String) eGet(Ifc2x3tc1Package.Literals.IFC_MECHANICAL_MATERIAL_PROPERTIES__YOUNG_MODULUS_AS_STRING,
+        return (String) eGet(Ifc2x3tc1Package.eINSTANCE.getIfcMechanicalMaterialProperties_YoungModulusAsString(),
                 true);
     }
 
@@ -204,7 +204,7 @@ public class IfcMechanicalMaterialPropertiesImpl extends IfcMaterialPropertiesIm
      */
     @Override
     public void setYoungModulusAsString(String newYoungModulusAsString) {
-        eSet(Ifc2x3tc1Package.Literals.IFC_MECHANICAL_MATERIAL_PROPERTIES__YOUNG_MODULUS_AS_STRING,
+        eSet(Ifc2x3tc1Package.eINSTANCE.getIfcMechanicalMaterialProperties_YoungModulusAsString(),
                 newYoungModulusAsString);
     }
 
@@ -215,7 +215,7 @@ public class IfcMechanicalMaterialPropertiesImpl extends IfcMaterialPropertiesIm
      */
     @Override
     public void unsetYoungModulusAsString() {
-        eUnset(Ifc2x3tc1Package.Literals.IFC_MECHANICAL_MATERIAL_PROPERTIES__YOUNG_MODULUS_AS_STRING);
+        eUnset(Ifc2x3tc1Package.eINSTANCE.getIfcMechanicalMaterialProperties_YoungModulusAsString());
     }
 
     /**
@@ -225,7 +225,7 @@ public class IfcMechanicalMaterialPropertiesImpl extends IfcMaterialPropertiesIm
      */
     @Override
     public boolean isSetYoungModulusAsString() {
-        return eIsSet(Ifc2x3tc1Package.Literals.IFC_MECHANICAL_MATERIAL_PROPERTIES__YOUNG_MODULUS_AS_STRING);
+        return eIsSet(Ifc2x3tc1Package.eINSTANCE.getIfcMechanicalMaterialProperties_YoungModulusAsString());
     }
 
     /**
@@ -235,7 +235,7 @@ public class IfcMechanicalMaterialPropertiesImpl extends IfcMaterialPropertiesIm
      */
     @Override
     public double getShearModulus() {
-        return (Double) eGet(Ifc2x3tc1Package.Literals.IFC_MECHANICAL_MATERIAL_PROPERTIES__SHEAR_MODULUS, true);
+        return (Double) eGet(Ifc2x3tc1Package.eINSTANCE.getIfcMechanicalMaterialProperties_ShearModulus(), true);
     }
 
     /**
@@ -245,7 +245,7 @@ public class IfcMechanicalMaterialPropertiesImpl extends IfcMaterialPropertiesIm
      */
     @Override
     public void setShearModulus(double newShearModulus) {
-        eSet(Ifc2x3tc1Package.Literals.IFC_MECHANICAL_MATERIAL_PROPERTIES__SHEAR_MODULUS, newShearModulus);
+        eSet(Ifc2x3tc1Package.eINSTANCE.getIfcMechanicalMaterialProperties_ShearModulus(), newShearModulus);
     }
 
     /**
@@ -255,7 +255,7 @@ public class IfcMechanicalMaterialPropertiesImpl extends IfcMaterialPropertiesIm
      */
     @Override
     public void unsetShearModulus() {
-        eUnset(Ifc2x3tc1Package.Literals.IFC_MECHANICAL_MATERIAL_PROPERTIES__SHEAR_MODULUS);
+        eUnset(Ifc2x3tc1Package.eINSTANCE.getIfcMechanicalMaterialProperties_ShearModulus());
     }
 
     /**
@@ -265,7 +265,7 @@ public class IfcMechanicalMaterialPropertiesImpl extends IfcMaterialPropertiesIm
      */
     @Override
     public boolean isSetShearModulus() {
-        return eIsSet(Ifc2x3tc1Package.Literals.IFC_MECHANICAL_MATERIAL_PROPERTIES__SHEAR_MODULUS);
+        return eIsSet(Ifc2x3tc1Package.eINSTANCE.getIfcMechanicalMaterialProperties_ShearModulus());
     }
 
     /**
@@ -275,7 +275,7 @@ public class IfcMechanicalMaterialPropertiesImpl extends IfcMaterialPropertiesIm
      */
     @Override
     public String getShearModulusAsString() {
-        return (String) eGet(Ifc2x3tc1Package.Literals.IFC_MECHANICAL_MATERIAL_PROPERTIES__SHEAR_MODULUS_AS_STRING,
+        return (String) eGet(Ifc2x3tc1Package.eINSTANCE.getIfcMechanicalMaterialProperties_ShearModulusAsString(),
                 true);
     }
 
@@ -286,7 +286,7 @@ public class IfcMechanicalMaterialPropertiesImpl extends IfcMaterialPropertiesIm
      */
     @Override
     public void setShearModulusAsString(String newShearModulusAsString) {
-        eSet(Ifc2x3tc1Package.Literals.IFC_MECHANICAL_MATERIAL_PROPERTIES__SHEAR_MODULUS_AS_STRING,
+        eSet(Ifc2x3tc1Package.eINSTANCE.getIfcMechanicalMaterialProperties_ShearModulusAsString(),
                 newShearModulusAsString);
     }
 
@@ -297,7 +297,7 @@ public class IfcMechanicalMaterialPropertiesImpl extends IfcMaterialPropertiesIm
      */
     @Override
     public void unsetShearModulusAsString() {
-        eUnset(Ifc2x3tc1Package.Literals.IFC_MECHANICAL_MATERIAL_PROPERTIES__SHEAR_MODULUS_AS_STRING);
+        eUnset(Ifc2x3tc1Package.eINSTANCE.getIfcMechanicalMaterialProperties_ShearModulusAsString());
     }
 
     /**
@@ -307,7 +307,7 @@ public class IfcMechanicalMaterialPropertiesImpl extends IfcMaterialPropertiesIm
      */
     @Override
     public boolean isSetShearModulusAsString() {
-        return eIsSet(Ifc2x3tc1Package.Literals.IFC_MECHANICAL_MATERIAL_PROPERTIES__SHEAR_MODULUS_AS_STRING);
+        return eIsSet(Ifc2x3tc1Package.eINSTANCE.getIfcMechanicalMaterialProperties_ShearModulusAsString());
     }
 
     /**
@@ -317,7 +317,7 @@ public class IfcMechanicalMaterialPropertiesImpl extends IfcMaterialPropertiesIm
      */
     @Override
     public double getPoissonRatio() {
-        return (Double) eGet(Ifc2x3tc1Package.Literals.IFC_MECHANICAL_MATERIAL_PROPERTIES__POISSON_RATIO, true);
+        return (Double) eGet(Ifc2x3tc1Package.eINSTANCE.getIfcMechanicalMaterialProperties_PoissonRatio(), true);
     }
 
     /**
@@ -327,7 +327,7 @@ public class IfcMechanicalMaterialPropertiesImpl extends IfcMaterialPropertiesIm
      */
     @Override
     public void setPoissonRatio(double newPoissonRatio) {
-        eSet(Ifc2x3tc1Package.Literals.IFC_MECHANICAL_MATERIAL_PROPERTIES__POISSON_RATIO, newPoissonRatio);
+        eSet(Ifc2x3tc1Package.eINSTANCE.getIfcMechanicalMaterialProperties_PoissonRatio(), newPoissonRatio);
     }
 
     /**
@@ -337,7 +337,7 @@ public class IfcMechanicalMaterialPropertiesImpl extends IfcMaterialPropertiesIm
      */
     @Override
     public void unsetPoissonRatio() {
-        eUnset(Ifc2x3tc1Package.Literals.IFC_MECHANICAL_MATERIAL_PROPERTIES__POISSON_RATIO);
+        eUnset(Ifc2x3tc1Package.eINSTANCE.getIfcMechanicalMaterialProperties_PoissonRatio());
     }
 
     /**
@@ -347,7 +347,7 @@ public class IfcMechanicalMaterialPropertiesImpl extends IfcMaterialPropertiesIm
      */
     @Override
     public boolean isSetPoissonRatio() {
-        return eIsSet(Ifc2x3tc1Package.Literals.IFC_MECHANICAL_MATERIAL_PROPERTIES__POISSON_RATIO);
+        return eIsSet(Ifc2x3tc1Package.eINSTANCE.getIfcMechanicalMaterialProperties_PoissonRatio());
     }
 
     /**
@@ -357,7 +357,7 @@ public class IfcMechanicalMaterialPropertiesImpl extends IfcMaterialPropertiesIm
      */
     @Override
     public String getPoissonRatioAsString() {
-        return (String) eGet(Ifc2x3tc1Package.Literals.IFC_MECHANICAL_MATERIAL_PROPERTIES__POISSON_RATIO_AS_STRING,
+        return (String) eGet(Ifc2x3tc1Package.eINSTANCE.getIfcMechanicalMaterialProperties_PoissonRatioAsString(),
                 true);
     }
 
@@ -368,7 +368,7 @@ public class IfcMechanicalMaterialPropertiesImpl extends IfcMaterialPropertiesIm
      */
     @Override
     public void setPoissonRatioAsString(String newPoissonRatioAsString) {
-        eSet(Ifc2x3tc1Package.Literals.IFC_MECHANICAL_MATERIAL_PROPERTIES__POISSON_RATIO_AS_STRING,
+        eSet(Ifc2x3tc1Package.eINSTANCE.getIfcMechanicalMaterialProperties_PoissonRatioAsString(),
                 newPoissonRatioAsString);
     }
 
@@ -379,7 +379,7 @@ public class IfcMechanicalMaterialPropertiesImpl extends IfcMaterialPropertiesIm
      */
     @Override
     public void unsetPoissonRatioAsString() {
-        eUnset(Ifc2x3tc1Package.Literals.IFC_MECHANICAL_MATERIAL_PROPERTIES__POISSON_RATIO_AS_STRING);
+        eUnset(Ifc2x3tc1Package.eINSTANCE.getIfcMechanicalMaterialProperties_PoissonRatioAsString());
     }
 
     /**
@@ -389,7 +389,7 @@ public class IfcMechanicalMaterialPropertiesImpl extends IfcMaterialPropertiesIm
      */
     @Override
     public boolean isSetPoissonRatioAsString() {
-        return eIsSet(Ifc2x3tc1Package.Literals.IFC_MECHANICAL_MATERIAL_PROPERTIES__POISSON_RATIO_AS_STRING);
+        return eIsSet(Ifc2x3tc1Package.eINSTANCE.getIfcMechanicalMaterialProperties_PoissonRatioAsString());
     }
 
     /**
@@ -400,7 +400,7 @@ public class IfcMechanicalMaterialPropertiesImpl extends IfcMaterialPropertiesIm
     @Override
     public double getThermalExpansionCoefficient() {
         return (Double) eGet(
-                Ifc2x3tc1Package.Literals.IFC_MECHANICAL_MATERIAL_PROPERTIES__THERMAL_EXPANSION_COEFFICIENT, true);
+                Ifc2x3tc1Package.eINSTANCE.getIfcMechanicalMaterialProperties_ThermalExpansionCoefficient(), true);
     }
 
     /**
@@ -410,7 +410,7 @@ public class IfcMechanicalMaterialPropertiesImpl extends IfcMaterialPropertiesIm
      */
     @Override
     public void setThermalExpansionCoefficient(double newThermalExpansionCoefficient) {
-        eSet(Ifc2x3tc1Package.Literals.IFC_MECHANICAL_MATERIAL_PROPERTIES__THERMAL_EXPANSION_COEFFICIENT,
+        eSet(Ifc2x3tc1Package.eINSTANCE.getIfcMechanicalMaterialProperties_ThermalExpansionCoefficient(),
                 newThermalExpansionCoefficient);
     }
 
@@ -421,7 +421,7 @@ public class IfcMechanicalMaterialPropertiesImpl extends IfcMaterialPropertiesIm
      */
     @Override
     public void unsetThermalExpansionCoefficient() {
-        eUnset(Ifc2x3tc1Package.Literals.IFC_MECHANICAL_MATERIAL_PROPERTIES__THERMAL_EXPANSION_COEFFICIENT);
+        eUnset(Ifc2x3tc1Package.eINSTANCE.getIfcMechanicalMaterialProperties_ThermalExpansionCoefficient());
     }
 
     /**
@@ -431,7 +431,7 @@ public class IfcMechanicalMaterialPropertiesImpl extends IfcMaterialPropertiesIm
      */
     @Override
     public boolean isSetThermalExpansionCoefficient() {
-        return eIsSet(Ifc2x3tc1Package.Literals.IFC_MECHANICAL_MATERIAL_PROPERTIES__THERMAL_EXPANSION_COEFFICIENT);
+        return eIsSet(Ifc2x3tc1Package.eINSTANCE.getIfcMechanicalMaterialProperties_ThermalExpansionCoefficient());
     }
 
     /**
@@ -442,7 +442,7 @@ public class IfcMechanicalMaterialPropertiesImpl extends IfcMaterialPropertiesIm
     @Override
     public String getThermalExpansionCoefficientAsString() {
         return (String) eGet(
-                Ifc2x3tc1Package.Literals.IFC_MECHANICAL_MATERIAL_PROPERTIES__THERMAL_EXPANSION_COEFFICIENT_AS_STRING,
+                Ifc2x3tc1Package.eINSTANCE.getIfcMechanicalMaterialProperties_ThermalExpansionCoefficientAsString(),
                 true);
     }
 
@@ -453,7 +453,7 @@ public class IfcMechanicalMaterialPropertiesImpl extends IfcMaterialPropertiesIm
      */
     @Override
     public void setThermalExpansionCoefficientAsString(String newThermalExpansionCoefficientAsString) {
-        eSet(Ifc2x3tc1Package.Literals.IFC_MECHANICAL_MATERIAL_PROPERTIES__THERMAL_EXPANSION_COEFFICIENT_AS_STRING,
+        eSet(Ifc2x3tc1Package.eINSTANCE.getIfcMechanicalMaterialProperties_ThermalExpansionCoefficientAsString(),
                 newThermalExpansionCoefficientAsString);
     }
 
@@ -464,7 +464,7 @@ public class IfcMechanicalMaterialPropertiesImpl extends IfcMaterialPropertiesIm
      */
     @Override
     public void unsetThermalExpansionCoefficientAsString() {
-        eUnset(Ifc2x3tc1Package.Literals.IFC_MECHANICAL_MATERIAL_PROPERTIES__THERMAL_EXPANSION_COEFFICIENT_AS_STRING);
+        eUnset(Ifc2x3tc1Package.eINSTANCE.getIfcMechanicalMaterialProperties_ThermalExpansionCoefficientAsString());
     }
 
     /**
@@ -475,7 +475,7 @@ public class IfcMechanicalMaterialPropertiesImpl extends IfcMaterialPropertiesIm
     @Override
     public boolean isSetThermalExpansionCoefficientAsString() {
         return eIsSet(
-                Ifc2x3tc1Package.Literals.IFC_MECHANICAL_MATERIAL_PROPERTIES__THERMAL_EXPANSION_COEFFICIENT_AS_STRING);
+                Ifc2x3tc1Package.eINSTANCE.getIfcMechanicalMaterialProperties_ThermalExpansionCoefficientAsString());
     }
 
 } //IfcMechanicalMaterialPropertiesImpl

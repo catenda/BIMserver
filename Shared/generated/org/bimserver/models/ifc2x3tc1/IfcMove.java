@@ -40,10 +40,6 @@ public interface IfcMove extends IfcTask {
     /**
      * Returns the value of the '<em><b>Move From</b></em>' reference.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Move From</em>' reference isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Move From</em>' reference.
      * @see #setMoveFrom(IfcSpatialStructureElement)
@@ -66,10 +62,6 @@ public interface IfcMove extends IfcTask {
     /**
      * Returns the value of the '<em><b>Move To</b></em>' reference.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Move To</em>' reference isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Move To</em>' reference.
      * @see #setMoveTo(IfcSpatialStructureElement)
@@ -93,10 +85,6 @@ public interface IfcMove extends IfcTask {
      * Returns the value of the '<em><b>Punch List</b></em>' attribute list.
      * The list contents are of type {@link java.lang.String}.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Punch List</em>' attribute list isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Punch List</em>' attribute list.
      * @see #isSetPunchList()

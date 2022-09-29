@@ -62,7 +62,7 @@ public class IfcConstraintAggregationRelationshipImpl extends IdEObjectImpl
      */
     @Override
     protected EClass eStaticClass() {
-        return Ifc2x3tc1Package.Literals.IFC_CONSTRAINT_AGGREGATION_RELATIONSHIP;
+        return Ifc2x3tc1Package.eINSTANCE.getIfcConstraintAggregationRelationship();
     }
 
     /**
@@ -82,7 +82,7 @@ public class IfcConstraintAggregationRelationshipImpl extends IdEObjectImpl
      */
     @Override
     public String getName() {
-        return (String) eGet(Ifc2x3tc1Package.Literals.IFC_CONSTRAINT_AGGREGATION_RELATIONSHIP__NAME, true);
+        return (String) eGet(Ifc2x3tc1Package.eINSTANCE.getIfcConstraintAggregationRelationship_Name(), true);
     }
 
     /**
@@ -92,7 +92,7 @@ public class IfcConstraintAggregationRelationshipImpl extends IdEObjectImpl
      */
     @Override
     public void setName(String newName) {
-        eSet(Ifc2x3tc1Package.Literals.IFC_CONSTRAINT_AGGREGATION_RELATIONSHIP__NAME, newName);
+        eSet(Ifc2x3tc1Package.eINSTANCE.getIfcConstraintAggregationRelationship_Name(), newName);
     }
 
     /**
@@ -102,7 +102,7 @@ public class IfcConstraintAggregationRelationshipImpl extends IdEObjectImpl
      */
     @Override
     public void unsetName() {
-        eUnset(Ifc2x3tc1Package.Literals.IFC_CONSTRAINT_AGGREGATION_RELATIONSHIP__NAME);
+        eUnset(Ifc2x3tc1Package.eINSTANCE.getIfcConstraintAggregationRelationship_Name());
     }
 
     /**
@@ -112,7 +112,7 @@ public class IfcConstraintAggregationRelationshipImpl extends IdEObjectImpl
      */
     @Override
     public boolean isSetName() {
-        return eIsSet(Ifc2x3tc1Package.Literals.IFC_CONSTRAINT_AGGREGATION_RELATIONSHIP__NAME);
+        return eIsSet(Ifc2x3tc1Package.eINSTANCE.getIfcConstraintAggregationRelationship_Name());
     }
 
     /**
@@ -122,7 +122,7 @@ public class IfcConstraintAggregationRelationshipImpl extends IdEObjectImpl
      */
     @Override
     public String getDescription() {
-        return (String) eGet(Ifc2x3tc1Package.Literals.IFC_CONSTRAINT_AGGREGATION_RELATIONSHIP__DESCRIPTION, true);
+        return (String) eGet(Ifc2x3tc1Package.eINSTANCE.getIfcConstraintAggregationRelationship_Description(), true);
     }
 
     /**
@@ -132,7 +132,7 @@ public class IfcConstraintAggregationRelationshipImpl extends IdEObjectImpl
      */
     @Override
     public void setDescription(String newDescription) {
-        eSet(Ifc2x3tc1Package.Literals.IFC_CONSTRAINT_AGGREGATION_RELATIONSHIP__DESCRIPTION, newDescription);
+        eSet(Ifc2x3tc1Package.eINSTANCE.getIfcConstraintAggregationRelationship_Description(), newDescription);
     }
 
     /**
@@ -142,7 +142,7 @@ public class IfcConstraintAggregationRelationshipImpl extends IdEObjectImpl
      */
     @Override
     public void unsetDescription() {
-        eUnset(Ifc2x3tc1Package.Literals.IFC_CONSTRAINT_AGGREGATION_RELATIONSHIP__DESCRIPTION);
+        eUnset(Ifc2x3tc1Package.eINSTANCE.getIfcConstraintAggregationRelationship_Description());
     }
 
     /**
@@ -152,7 +152,7 @@ public class IfcConstraintAggregationRelationshipImpl extends IdEObjectImpl
      */
     @Override
     public boolean isSetDescription() {
-        return eIsSet(Ifc2x3tc1Package.Literals.IFC_CONSTRAINT_AGGREGATION_RELATIONSHIP__DESCRIPTION);
+        return eIsSet(Ifc2x3tc1Package.eINSTANCE.getIfcConstraintAggregationRelationship_Description());
     }
 
     /**
@@ -163,7 +163,7 @@ public class IfcConstraintAggregationRelationshipImpl extends IdEObjectImpl
     @Override
     public IfcConstraint getRelatingConstraint() {
         return (IfcConstraint) eGet(
-                Ifc2x3tc1Package.Literals.IFC_CONSTRAINT_AGGREGATION_RELATIONSHIP__RELATING_CONSTRAINT, true);
+                Ifc2x3tc1Package.eINSTANCE.getIfcConstraintAggregationRelationship_RelatingConstraint(), true);
     }
 
     /**
@@ -173,7 +173,7 @@ public class IfcConstraintAggregationRelationshipImpl extends IdEObjectImpl
      */
     @Override
     public void setRelatingConstraint(IfcConstraint newRelatingConstraint) {
-        eSet(Ifc2x3tc1Package.Literals.IFC_CONSTRAINT_AGGREGATION_RELATIONSHIP__RELATING_CONSTRAINT,
+        eSet(Ifc2x3tc1Package.eINSTANCE.getIfcConstraintAggregationRelationship_RelatingConstraint(),
                 newRelatingConstraint);
     }
 
@@ -186,7 +186,7 @@ public class IfcConstraintAggregationRelationshipImpl extends IdEObjectImpl
     @Override
     public EList<IfcConstraint> getRelatedConstraints() {
         return (EList<IfcConstraint>) eGet(
-                Ifc2x3tc1Package.Literals.IFC_CONSTRAINT_AGGREGATION_RELATIONSHIP__RELATED_CONSTRAINTS, true);
+                Ifc2x3tc1Package.eINSTANCE.getIfcConstraintAggregationRelationship_RelatedConstraints(), true);
     }
 
     /**
@@ -197,7 +197,7 @@ public class IfcConstraintAggregationRelationshipImpl extends IdEObjectImpl
     @Override
     public IfcLogicalOperatorEnum getLogicalAggregator() {
         return (IfcLogicalOperatorEnum) eGet(
-                Ifc2x3tc1Package.Literals.IFC_CONSTRAINT_AGGREGATION_RELATIONSHIP__LOGICAL_AGGREGATOR, true);
+                Ifc2x3tc1Package.eINSTANCE.getIfcConstraintAggregationRelationship_LogicalAggregator(), true);
     }
 
     /**
@@ -207,7 +207,7 @@ public class IfcConstraintAggregationRelationshipImpl extends IdEObjectImpl
      */
     @Override
     public void setLogicalAggregator(IfcLogicalOperatorEnum newLogicalAggregator) {
-        eSet(Ifc2x3tc1Package.Literals.IFC_CONSTRAINT_AGGREGATION_RELATIONSHIP__LOGICAL_AGGREGATOR,
+        eSet(Ifc2x3tc1Package.eINSTANCE.getIfcConstraintAggregationRelationship_LogicalAggregator(),
                 newLogicalAggregator);
     }
 

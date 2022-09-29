@@ -45,7 +45,7 @@ public class IfcSlabStandardCaseImpl extends IfcSlabImpl implements IfcSlabStand
      */
     @Override
     protected EClass eStaticClass() {
-        return Ifc4Package.Literals.IFC_SLAB_STANDARD_CASE;
+        return Ifc4Package.eINSTANCE.getIfcSlabStandardCase();
     }
 
 } //IfcSlabStandardCaseImpl

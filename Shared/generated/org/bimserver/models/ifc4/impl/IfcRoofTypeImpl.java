@@ -52,7 +52,7 @@ public class IfcRoofTypeImpl extends IfcBuildingElementTypeImpl implements IfcRo
      */
     @Override
     protected EClass eStaticClass() {
-        return Ifc4Package.Literals.IFC_ROOF_TYPE;
+        return Ifc4Package.eINSTANCE.getIfcRoofType();
     }
 
     /**
@@ -62,7 +62,7 @@ public class IfcRoofTypeImpl extends IfcBuildingElementTypeImpl implements IfcRo
      */
     @Override
     public IfcRoofTypeEnum getPredefinedType() {
-        return (IfcRoofTypeEnum) eGet(Ifc4Package.Literals.IFC_ROOF_TYPE__PREDEFINED_TYPE, true);
+        return (IfcRoofTypeEnum) eGet(Ifc4Package.eINSTANCE.getIfcRoofType_PredefinedType(), true);
     }
 
     /**
@@ -72,7 +72,7 @@ public class IfcRoofTypeImpl extends IfcBuildingElementTypeImpl implements IfcRo
      */
     @Override
     public void setPredefinedType(IfcRoofTypeEnum newPredefinedType) {
-        eSet(Ifc4Package.Literals.IFC_ROOF_TYPE__PREDEFINED_TYPE, newPredefinedType);
+        eSet(Ifc4Package.eINSTANCE.getIfcRoofType_PredefinedType(), newPredefinedType);
     }
 
 } //IfcRoofTypeImpl

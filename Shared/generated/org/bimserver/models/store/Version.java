@@ -47,10 +47,6 @@ public interface Version extends IdEObject {
     /**
      * Returns the value of the '<em><b>Major</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Major</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Major</em>' attribute.
      * @see #setMajor(Integer)
@@ -73,10 +69,6 @@ public interface Version extends IdEObject {
     /**
      * Returns the value of the '<em><b>Minor</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Minor</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Minor</em>' attribute.
      * @see #setMinor(Integer)
@@ -99,10 +91,6 @@ public interface Version extends IdEObject {
     /**
      * Returns the value of the '<em><b>Revision</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Revision</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Revision</em>' attribute.
      * @see #setRevision(Integer)
@@ -125,10 +113,6 @@ public interface Version extends IdEObject {
     /**
      * Returns the value of the '<em><b>Date</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Date</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Date</em>' attribute.
      * @see #setDate(Date)
@@ -151,10 +135,6 @@ public interface Version extends IdEObject {
     /**
      * Returns the value of the '<em><b>Download Url</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Download Url</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Download Url</em>' attribute.
      * @see #setDownloadUrl(String)
@@ -177,10 +157,6 @@ public interface Version extends IdEObject {
     /**
      * Returns the value of the '<em><b>Support Url</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Support Url</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Support Url</em>' attribute.
      * @see #setSupportUrl(String)
@@ -203,10 +179,6 @@ public interface Version extends IdEObject {
     /**
      * Returns the value of the '<em><b>Support Email</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Support Email</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Support Email</em>' attribute.
      * @see #setSupportEmail(String)

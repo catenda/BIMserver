@@ -45,10 +45,6 @@ public interface IfcCShapeProfileDef extends IfcParameterizedProfileDef {
     /**
      * Returns the value of the '<em><b>Depth</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Depth</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Depth</em>' attribute.
      * @see #setDepth(double)
@@ -71,10 +67,6 @@ public interface IfcCShapeProfileDef extends IfcParameterizedProfileDef {
     /**
      * Returns the value of the '<em><b>Depth As String</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Depth As String</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Depth As String</em>' attribute.
      * @see #setDepthAsString(String)
@@ -98,10 +90,6 @@ public interface IfcCShapeProfileDef extends IfcParameterizedProfileDef {
     /**
      * Returns the value of the '<em><b>Width</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Width</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Width</em>' attribute.
      * @see #setWidth(double)
@@ -124,10 +112,6 @@ public interface IfcCShapeProfileDef extends IfcParameterizedProfileDef {
     /**
      * Returns the value of the '<em><b>Width As String</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Width As String</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Width As String</em>' attribute.
      * @see #setWidthAsString(String)
@@ -151,10 +135,6 @@ public interface IfcCShapeProfileDef extends IfcParameterizedProfileDef {
     /**
      * Returns the value of the '<em><b>Wall Thickness</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Wall Thickness</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Wall Thickness</em>' attribute.
      * @see #setWallThickness(double)
@@ -177,10 +157,6 @@ public interface IfcCShapeProfileDef extends IfcParameterizedProfileDef {
     /**
      * Returns the value of the '<em><b>Wall Thickness As String</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Wall Thickness As String</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Wall Thickness As String</em>' attribute.
      * @see #setWallThicknessAsString(String)
@@ -204,10 +180,6 @@ public interface IfcCShapeProfileDef extends IfcParameterizedProfileDef {
     /**
      * Returns the value of the '<em><b>Girth</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Girth</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Girth</em>' attribute.
      * @see #setGirth(double)
@@ -230,10 +202,6 @@ public interface IfcCShapeProfileDef extends IfcParameterizedProfileDef {
     /**
      * Returns the value of the '<em><b>Girth As String</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Girth As String</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Girth As String</em>' attribute.
      * @see #setGirthAsString(String)
@@ -257,10 +225,6 @@ public interface IfcCShapeProfileDef extends IfcParameterizedProfileDef {
     /**
      * Returns the value of the '<em><b>Internal Fillet Radius</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Internal Fillet Radius</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Internal Fillet Radius</em>' attribute.
      * @see #isSetInternalFilletRadius()
@@ -310,10 +274,6 @@ public interface IfcCShapeProfileDef extends IfcParameterizedProfileDef {
     /**
      * Returns the value of the '<em><b>Internal Fillet Radius As String</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Internal Fillet Radius As String</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Internal Fillet Radius As String</em>' attribute.
      * @see #isSetInternalFilletRadiusAsString()

@@ -115,10 +115,6 @@ public enum IfcProjectOrderTypeEnum implements Enumerator {
     /**
      * The '<em><b>NULL</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>NULL</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #NULL
      * @model
@@ -130,10 +126,6 @@ public enum IfcProjectOrderTypeEnum implements Enumerator {
     /**
      * The '<em><b>NOTDEFINED</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>NOTDEFINED</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #NOTDEFINED
      * @model
@@ -145,10 +137,6 @@ public enum IfcProjectOrderTypeEnum implements Enumerator {
     /**
      * The '<em><b>MOVEORDER</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>MOVEORDER</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #MOVEORDER
      * @model
@@ -160,10 +148,6 @@ public enum IfcProjectOrderTypeEnum implements Enumerator {
     /**
      * The '<em><b>WORKORDER</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>WORKORDER</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #WORKORDER
      * @model
@@ -175,10 +159,6 @@ public enum IfcProjectOrderTypeEnum implements Enumerator {
     /**
      * The '<em><b>CHANGEORDER</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>CHANGEORDER</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #CHANGEORDER
      * @model
@@ -190,10 +170,6 @@ public enum IfcProjectOrderTypeEnum implements Enumerator {
     /**
      * The '<em><b>MAINTENANCEWORKORDER</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>MAINTENANCEWORKORDER</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #MAINTENANCEWORKORDER
      * @model
@@ -205,10 +181,6 @@ public enum IfcProjectOrderTypeEnum implements Enumerator {
     /**
      * The '<em><b>USERDEFINED</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>USERDEFINED</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #USERDEFINED
      * @model
@@ -220,10 +192,6 @@ public enum IfcProjectOrderTypeEnum implements Enumerator {
     /**
      * The '<em><b>PURCHASEORDER</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>PURCHASEORDER</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #PURCHASEORDER
      * @model

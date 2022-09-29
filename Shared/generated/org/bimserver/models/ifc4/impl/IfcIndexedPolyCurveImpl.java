@@ -58,7 +58,7 @@ public class IfcIndexedPolyCurveImpl extends IfcBoundedCurveImpl implements IfcI
      */
     @Override
     protected EClass eStaticClass() {
-        return Ifc4Package.Literals.IFC_INDEXED_POLY_CURVE;
+        return Ifc4Package.eINSTANCE.getIfcIndexedPolyCurve();
     }
 
     /**
@@ -68,7 +68,7 @@ public class IfcIndexedPolyCurveImpl extends IfcBoundedCurveImpl implements IfcI
      */
     @Override
     public IfcCartesianPointList getPoints() {
-        return (IfcCartesianPointList) eGet(Ifc4Package.Literals.IFC_INDEXED_POLY_CURVE__POINTS, true);
+        return (IfcCartesianPointList) eGet(Ifc4Package.eINSTANCE.getIfcIndexedPolyCurve_Points(), true);
     }
 
     /**
@@ -78,7 +78,7 @@ public class IfcIndexedPolyCurveImpl extends IfcBoundedCurveImpl implements IfcI
      */
     @Override
     public void setPoints(IfcCartesianPointList newPoints) {
-        eSet(Ifc4Package.Literals.IFC_INDEXED_POLY_CURVE__POINTS, newPoints);
+        eSet(Ifc4Package.eINSTANCE.getIfcIndexedPolyCurve_Points(), newPoints);
     }
 
     /**
@@ -89,7 +89,7 @@ public class IfcIndexedPolyCurveImpl extends IfcBoundedCurveImpl implements IfcI
     @SuppressWarnings("unchecked")
     @Override
     public EList<IfcSegmentIndexSelect> getSegments() {
-        return (EList<IfcSegmentIndexSelect>) eGet(Ifc4Package.Literals.IFC_INDEXED_POLY_CURVE__SEGMENTS, true);
+        return (EList<IfcSegmentIndexSelect>) eGet(Ifc4Package.eINSTANCE.getIfcIndexedPolyCurve_Segments(), true);
     }
 
     /**
@@ -99,7 +99,7 @@ public class IfcIndexedPolyCurveImpl extends IfcBoundedCurveImpl implements IfcI
      */
     @Override
     public void unsetSegments() {
-        eUnset(Ifc4Package.Literals.IFC_INDEXED_POLY_CURVE__SEGMENTS);
+        eUnset(Ifc4Package.eINSTANCE.getIfcIndexedPolyCurve_Segments());
     }
 
     /**
@@ -109,7 +109,7 @@ public class IfcIndexedPolyCurveImpl extends IfcBoundedCurveImpl implements IfcI
      */
     @Override
     public boolean isSetSegments() {
-        return eIsSet(Ifc4Package.Literals.IFC_INDEXED_POLY_CURVE__SEGMENTS);
+        return eIsSet(Ifc4Package.eINSTANCE.getIfcIndexedPolyCurve_Segments());
     }
 
     /**
@@ -119,7 +119,7 @@ public class IfcIndexedPolyCurveImpl extends IfcBoundedCurveImpl implements IfcI
      */
     @Override
     public Tristate getSelfIntersect() {
-        return (Tristate) eGet(Ifc4Package.Literals.IFC_INDEXED_POLY_CURVE__SELF_INTERSECT, true);
+        return (Tristate) eGet(Ifc4Package.eINSTANCE.getIfcIndexedPolyCurve_SelfIntersect(), true);
     }
 
     /**
@@ -129,7 +129,7 @@ public class IfcIndexedPolyCurveImpl extends IfcBoundedCurveImpl implements IfcI
      */
     @Override
     public void setSelfIntersect(Tristate newSelfIntersect) {
-        eSet(Ifc4Package.Literals.IFC_INDEXED_POLY_CURVE__SELF_INTERSECT, newSelfIntersect);
+        eSet(Ifc4Package.eINSTANCE.getIfcIndexedPolyCurve_SelfIntersect(), newSelfIntersect);
     }
 
     /**
@@ -139,7 +139,7 @@ public class IfcIndexedPolyCurveImpl extends IfcBoundedCurveImpl implements IfcI
      */
     @Override
     public void unsetSelfIntersect() {
-        eUnset(Ifc4Package.Literals.IFC_INDEXED_POLY_CURVE__SELF_INTERSECT);
+        eUnset(Ifc4Package.eINSTANCE.getIfcIndexedPolyCurve_SelfIntersect());
     }
 
     /**
@@ -149,7 +149,7 @@ public class IfcIndexedPolyCurveImpl extends IfcBoundedCurveImpl implements IfcI
      */
     @Override
     public boolean isSetSelfIntersect() {
-        return eIsSet(Ifc4Package.Literals.IFC_INDEXED_POLY_CURVE__SELF_INTERSECT);
+        return eIsSet(Ifc4Package.eINSTANCE.getIfcIndexedPolyCurve_SelfIntersect());
     }
 
 } //IfcIndexedPolyCurveImpl

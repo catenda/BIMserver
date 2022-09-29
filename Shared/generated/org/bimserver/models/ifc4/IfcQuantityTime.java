@@ -38,10 +38,6 @@ public interface IfcQuantityTime extends IfcPhysicalSimpleQuantity {
     /**
      * Returns the value of the '<em><b>Time Value</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Time Value</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Time Value</em>' attribute.
      * @see #setTimeValue(double)
@@ -64,10 +60,6 @@ public interface IfcQuantityTime extends IfcPhysicalSimpleQuantity {
     /**
      * Returns the value of the '<em><b>Time Value As String</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Time Value As String</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Time Value As String</em>' attribute.
      * @see #setTimeValueAsString(String)
@@ -91,10 +83,6 @@ public interface IfcQuantityTime extends IfcPhysicalSimpleQuantity {
     /**
      * Returns the value of the '<em><b>Formula</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Formula</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Formula</em>' attribute.
      * @see #isSetFormula()

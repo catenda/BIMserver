@@ -8,9 +8,9 @@
 AddDeserializerRequestV
 deserializer (22.org.bimserver.pb.SDeserializerPluginConfigurationRdeserializer"
 #SInternalServicePluginConfiguration&
-userSettingsId (RuserSettingsId*
-remoteAccessible (RremoteAccessible
-oid (Roid
+userSettingsId (RuserSettingsId
+oid (Roid*
+remoteAccessible (RremoteAccessible
 rid (Rrid"|
 AddInternalServiceRequest_
 internalService (25.org.bimserver.pb.SInternalServicePluginConfigurationRinternalService"n
@@ -260,7 +260,15 @@ parameters"‚
 SArrayType/
 values (2.org.bimserver.pb.STypeRvalues
 oid (Roid
-rid (Rrid"G
+rid (Rrid"E
+	SLongType
+oid (Roid
+rid (Rrid
+value (Rvalue"J
+SByteArrayType
+oid (Roid
+rid (Rrid
+value (Rvalue"G
 SStringType
 oid (Roid
 rid (Rrid
@@ -268,35 +276,27 @@ SArrayType/
 SDoubleType
 oid (Roid
 rid (Rrid
-value (Rvalue"E
-	SLongType
-oid (Roid
-rid (Rrid
-value (Rvalue"H
+value (Rvalue"H
 SBooleanType
 oid (Roid
 rid (Rrid
-value (Rvalue"J
-SByteArrayType
-oid (Roid
-rid (Rrid
-value (Rvalue"¬
+value (Rvalue"¬
 SPrimitiveType!
 __actual_type (	R
-ActualTypeA
-__SStringType (2.org.bimserver.pb.SStringTypeRSStringTypeA
-__SDoubleType (2.org.bimserver.pb.SDoubleTypeRSDoubleType;
-__SLongType (2.org.bimserver.pb.SLongTypeR	SLongTypeD
-__SBooleanType (2.org.bimserver.pb.SBooleanTypeRSBooleanTypeJ
-__SByteArrayType (2 .org.bimserver.pb.SByteArrayTypeRSByteArrayType
+ActualType;
+__SLongType (2.org.bimserver.pb.SLongTypeR	SLongTypeJ
+__SByteArrayType (2 .org.bimserver.pb.SByteArrayTypeRSByteArrayTypeA
+__SStringType (2.org.bimserver.pb.SStringTypeRSStringTypeA
+__SDoubleType (2.org.bimserver.pb.SDoubleTypeRSDoubleTypeD
+__SBooleanType (2.org.bimserver.pb.SBooleanTypeRSBooleanType
 oid (Roid
 rid (Rrid"
 SType!
 __actual_type (	R
-ActualType>
-__SArrayType (2.org.bimserver.pb.SArrayTypeR
-SArrayTypeA
-__SObjectType (2.org.bimserver.pb.SObjectTypeRSObjectTypeJ
+ActualTypeA
+__SObjectType (2.org.bimserver.pb.SObjectTypeRSObjectType>
+__SArrayType (2.org.bimserver.pb.SArrayTypeR
+SArrayTypeJ
 __SPrimitiveType (2 .org.bimserver.pb.SPrimitiveTypeRSPrimitiveType
 oid (Roid
 rid (Rrid"s

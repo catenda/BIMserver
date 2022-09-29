@@ -52,7 +52,7 @@ public class IfcBuildingElementProxyImpl extends IfcBuildingElementImpl implemen
      */
     @Override
     protected EClass eStaticClass() {
-        return Ifc2x3tc1Package.Literals.IFC_BUILDING_ELEMENT_PROXY;
+        return Ifc2x3tc1Package.eINSTANCE.getIfcBuildingElementProxy();
     }
 
     /**
@@ -62,7 +62,7 @@ public class IfcBuildingElementProxyImpl extends IfcBuildingElementImpl implemen
      */
     @Override
     public IfcElementCompositionEnum getCompositionType() {
-        return (IfcElementCompositionEnum) eGet(Ifc2x3tc1Package.Literals.IFC_BUILDING_ELEMENT_PROXY__COMPOSITION_TYPE,
+        return (IfcElementCompositionEnum) eGet(Ifc2x3tc1Package.eINSTANCE.getIfcBuildingElementProxy_CompositionType(),
                 true);
     }
 
@@ -73,7 +73,7 @@ public class IfcBuildingElementProxyImpl extends IfcBuildingElementImpl implemen
      */
     @Override
     public void setCompositionType(IfcElementCompositionEnum newCompositionType) {
-        eSet(Ifc2x3tc1Package.Literals.IFC_BUILDING_ELEMENT_PROXY__COMPOSITION_TYPE, newCompositionType);
+        eSet(Ifc2x3tc1Package.eINSTANCE.getIfcBuildingElementProxy_CompositionType(), newCompositionType);
     }
 
     /**
@@ -83,7 +83,7 @@ public class IfcBuildingElementProxyImpl extends IfcBuildingElementImpl implemen
      */
     @Override
     public void unsetCompositionType() {
-        eUnset(Ifc2x3tc1Package.Literals.IFC_BUILDING_ELEMENT_PROXY__COMPOSITION_TYPE);
+        eUnset(Ifc2x3tc1Package.eINSTANCE.getIfcBuildingElementProxy_CompositionType());
     }
 
     /**
@@ -93,7 +93,7 @@ public class IfcBuildingElementProxyImpl extends IfcBuildingElementImpl implemen
      */
     @Override
     public boolean isSetCompositionType() {
-        return eIsSet(Ifc2x3tc1Package.Literals.IFC_BUILDING_ELEMENT_PROXY__COMPOSITION_TYPE);
+        return eIsSet(Ifc2x3tc1Package.eINSTANCE.getIfcBuildingElementProxy_CompositionType());
     }
 
 } //IfcBuildingElementProxyImpl

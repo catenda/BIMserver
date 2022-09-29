@@ -57,7 +57,7 @@ public class IfcPropertyEnumerationImpl extends IfcPropertyAbstractionImpl imple
      */
     @Override
     protected EClass eStaticClass() {
-        return Ifc4Package.Literals.IFC_PROPERTY_ENUMERATION;
+        return Ifc4Package.eINSTANCE.getIfcPropertyEnumeration();
     }
 
     /**
@@ -67,7 +67,7 @@ public class IfcPropertyEnumerationImpl extends IfcPropertyAbstractionImpl imple
      */
     @Override
     public String getName() {
-        return (String) eGet(Ifc4Package.Literals.IFC_PROPERTY_ENUMERATION__NAME, true);
+        return (String) eGet(Ifc4Package.eINSTANCE.getIfcPropertyEnumeration_Name(), true);
     }
 
     /**
@@ -77,7 +77,7 @@ public class IfcPropertyEnumerationImpl extends IfcPropertyAbstractionImpl imple
      */
     @Override
     public void setName(String newName) {
-        eSet(Ifc4Package.Literals.IFC_PROPERTY_ENUMERATION__NAME, newName);
+        eSet(Ifc4Package.eINSTANCE.getIfcPropertyEnumeration_Name(), newName);
     }
 
     /**
@@ -88,7 +88,7 @@ public class IfcPropertyEnumerationImpl extends IfcPropertyAbstractionImpl imple
     @SuppressWarnings("unchecked")
     @Override
     public EList<IfcValue> getEnumerationValues() {
-        return (EList<IfcValue>) eGet(Ifc4Package.Literals.IFC_PROPERTY_ENUMERATION__ENUMERATION_VALUES, true);
+        return (EList<IfcValue>) eGet(Ifc4Package.eINSTANCE.getIfcPropertyEnumeration_EnumerationValues(), true);
     }
 
     /**
@@ -98,7 +98,7 @@ public class IfcPropertyEnumerationImpl extends IfcPropertyAbstractionImpl imple
      */
     @Override
     public IfcUnit getUnit() {
-        return (IfcUnit) eGet(Ifc4Package.Literals.IFC_PROPERTY_ENUMERATION__UNIT, true);
+        return (IfcUnit) eGet(Ifc4Package.eINSTANCE.getIfcPropertyEnumeration_Unit(), true);
     }
 
     /**
@@ -108,7 +108,7 @@ public class IfcPropertyEnumerationImpl extends IfcPropertyAbstractionImpl imple
      */
     @Override
     public void setUnit(IfcUnit newUnit) {
-        eSet(Ifc4Package.Literals.IFC_PROPERTY_ENUMERATION__UNIT, newUnit);
+        eSet(Ifc4Package.eINSTANCE.getIfcPropertyEnumeration_Unit(), newUnit);
     }
 
     /**
@@ -118,7 +118,7 @@ public class IfcPropertyEnumerationImpl extends IfcPropertyAbstractionImpl imple
      */
     @Override
     public void unsetUnit() {
-        eUnset(Ifc4Package.Literals.IFC_PROPERTY_ENUMERATION__UNIT);
+        eUnset(Ifc4Package.eINSTANCE.getIfcPropertyEnumeration_Unit());
     }
 
     /**
@@ -128,7 +128,7 @@ public class IfcPropertyEnumerationImpl extends IfcPropertyAbstractionImpl imple
      */
     @Override
     public boolean isSetUnit() {
-        return eIsSet(Ifc4Package.Literals.IFC_PROPERTY_ENUMERATION__UNIT);
+        return eIsSet(Ifc4Package.eINSTANCE.getIfcPropertyEnumeration_Unit());
     }
 
 } //IfcPropertyEnumerationImpl

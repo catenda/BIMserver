@@ -39,10 +39,6 @@ public interface IfcAnnotationFillArea extends IfcGeometricRepresentationItem {
     /**
      * Returns the value of the '<em><b>Outer Boundary</b></em>' reference.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Outer Boundary</em>' reference isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Outer Boundary</em>' reference.
      * @see #setOuterBoundary(IfcCurve)
@@ -66,10 +62,6 @@ public interface IfcAnnotationFillArea extends IfcGeometricRepresentationItem {
      * Returns the value of the '<em><b>Inner Boundaries</b></em>' reference list.
      * The list contents are of type {@link org.bimserver.models.ifc4.IfcCurve}.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Inner Boundaries</em>' reference list isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Inner Boundaries</em>' reference list.
      * @see #isSetInnerBoundaries()

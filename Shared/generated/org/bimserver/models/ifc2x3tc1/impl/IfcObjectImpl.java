@@ -55,7 +55,7 @@ public class IfcObjectImpl extends IfcObjectDefinitionImpl implements IfcObject 
      */
     @Override
     protected EClass eStaticClass() {
-        return Ifc2x3tc1Package.Literals.IFC_OBJECT;
+        return Ifc2x3tc1Package.eINSTANCE.getIfcObject();
     }
 
     /**
@@ -65,7 +65,7 @@ public class IfcObjectImpl extends IfcObjectDefinitionImpl implements IfcObject 
      */
     @Override
     public String getObjectType() {
-        return (String) eGet(Ifc2x3tc1Package.Literals.IFC_OBJECT__OBJECT_TYPE, true);
+        return (String) eGet(Ifc2x3tc1Package.eINSTANCE.getIfcObject_ObjectType(), true);
     }
 
     /**
@@ -75,7 +75,7 @@ public class IfcObjectImpl extends IfcObjectDefinitionImpl implements IfcObject 
      */
     @Override
     public void setObjectType(String newObjectType) {
-        eSet(Ifc2x3tc1Package.Literals.IFC_OBJECT__OBJECT_TYPE, newObjectType);
+        eSet(Ifc2x3tc1Package.eINSTANCE.getIfcObject_ObjectType(), newObjectType);
     }
 
     /**
@@ -85,7 +85,7 @@ public class IfcObjectImpl extends IfcObjectDefinitionImpl implements IfcObject 
      */
     @Override
     public void unsetObjectType() {
-        eUnset(Ifc2x3tc1Package.Literals.IFC_OBJECT__OBJECT_TYPE);
+        eUnset(Ifc2x3tc1Package.eINSTANCE.getIfcObject_ObjectType());
     }
 
     /**
@@ -95,7 +95,7 @@ public class IfcObjectImpl extends IfcObjectDefinitionImpl implements IfcObject 
      */
     @Override
     public boolean isSetObjectType() {
-        return eIsSet(Ifc2x3tc1Package.Literals.IFC_OBJECT__OBJECT_TYPE);
+        return eIsSet(Ifc2x3tc1Package.eINSTANCE.getIfcObject_ObjectType());
     }
 
     /**
@@ -106,7 +106,7 @@ public class IfcObjectImpl extends IfcObjectDefinitionImpl implements IfcObject 
     @SuppressWarnings("unchecked")
     @Override
     public EList<IfcRelDefines> getIsDefinedBy() {
-        return (EList<IfcRelDefines>) eGet(Ifc2x3tc1Package.Literals.IFC_OBJECT__IS_DEFINED_BY, true);
+        return (EList<IfcRelDefines>) eGet(Ifc2x3tc1Package.eINSTANCE.getIfcObject_IsDefinedBy(), true);
     }
 
     /**
@@ -116,7 +116,7 @@ public class IfcObjectImpl extends IfcObjectDefinitionImpl implements IfcObject 
      */
     @Override
     public void unsetIsDefinedBy() {
-        eUnset(Ifc2x3tc1Package.Literals.IFC_OBJECT__IS_DEFINED_BY);
+        eUnset(Ifc2x3tc1Package.eINSTANCE.getIfcObject_IsDefinedBy());
     }
 
     /**
@@ -126,7 +126,7 @@ public class IfcObjectImpl extends IfcObjectDefinitionImpl implements IfcObject 
      */
     @Override
     public boolean isSetIsDefinedBy() {
-        return eIsSet(Ifc2x3tc1Package.Literals.IFC_OBJECT__IS_DEFINED_BY);
+        return eIsSet(Ifc2x3tc1Package.eINSTANCE.getIfcObject_IsDefinedBy());
     }
 
 } //IfcObjectImpl

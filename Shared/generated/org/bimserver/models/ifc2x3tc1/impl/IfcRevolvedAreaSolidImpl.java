@@ -54,7 +54,7 @@ public class IfcRevolvedAreaSolidImpl extends IfcSweptAreaSolidImpl implements I
      */
     @Override
     protected EClass eStaticClass() {
-        return Ifc2x3tc1Package.Literals.IFC_REVOLVED_AREA_SOLID;
+        return Ifc2x3tc1Package.eINSTANCE.getIfcRevolvedAreaSolid();
     }
 
     /**
@@ -64,7 +64,7 @@ public class IfcRevolvedAreaSolidImpl extends IfcSweptAreaSolidImpl implements I
      */
     @Override
     public IfcAxis1Placement getAxis() {
-        return (IfcAxis1Placement) eGet(Ifc2x3tc1Package.Literals.IFC_REVOLVED_AREA_SOLID__AXIS, true);
+        return (IfcAxis1Placement) eGet(Ifc2x3tc1Package.eINSTANCE.getIfcRevolvedAreaSolid_Axis(), true);
     }
 
     /**
@@ -74,7 +74,7 @@ public class IfcRevolvedAreaSolidImpl extends IfcSweptAreaSolidImpl implements I
      */
     @Override
     public void setAxis(IfcAxis1Placement newAxis) {
-        eSet(Ifc2x3tc1Package.Literals.IFC_REVOLVED_AREA_SOLID__AXIS, newAxis);
+        eSet(Ifc2x3tc1Package.eINSTANCE.getIfcRevolvedAreaSolid_Axis(), newAxis);
     }
 
     /**
@@ -84,7 +84,7 @@ public class IfcRevolvedAreaSolidImpl extends IfcSweptAreaSolidImpl implements I
      */
     @Override
     public double getAngle() {
-        return (Double) eGet(Ifc2x3tc1Package.Literals.IFC_REVOLVED_AREA_SOLID__ANGLE, true);
+        return (Double) eGet(Ifc2x3tc1Package.eINSTANCE.getIfcRevolvedAreaSolid_Angle(), true);
     }
 
     /**
@@ -94,7 +94,7 @@ public class IfcRevolvedAreaSolidImpl extends IfcSweptAreaSolidImpl implements I
      */
     @Override
     public void setAngle(double newAngle) {
-        eSet(Ifc2x3tc1Package.Literals.IFC_REVOLVED_AREA_SOLID__ANGLE, newAngle);
+        eSet(Ifc2x3tc1Package.eINSTANCE.getIfcRevolvedAreaSolid_Angle(), newAngle);
     }
 
     /**
@@ -104,7 +104,7 @@ public class IfcRevolvedAreaSolidImpl extends IfcSweptAreaSolidImpl implements I
      */
     @Override
     public String getAngleAsString() {
-        return (String) eGet(Ifc2x3tc1Package.Literals.IFC_REVOLVED_AREA_SOLID__ANGLE_AS_STRING, true);
+        return (String) eGet(Ifc2x3tc1Package.eINSTANCE.getIfcRevolvedAreaSolid_AngleAsString(), true);
     }
 
     /**
@@ -114,7 +114,7 @@ public class IfcRevolvedAreaSolidImpl extends IfcSweptAreaSolidImpl implements I
      */
     @Override
     public void setAngleAsString(String newAngleAsString) {
-        eSet(Ifc2x3tc1Package.Literals.IFC_REVOLVED_AREA_SOLID__ANGLE_AS_STRING, newAngleAsString);
+        eSet(Ifc2x3tc1Package.eINSTANCE.getIfcRevolvedAreaSolid_AngleAsString(), newAngleAsString);
     }
 
 } //IfcRevolvedAreaSolidImpl

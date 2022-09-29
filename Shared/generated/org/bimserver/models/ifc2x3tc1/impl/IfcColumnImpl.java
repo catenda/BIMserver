@@ -45,7 +45,7 @@ public class IfcColumnImpl extends IfcBuildingElementImpl implements IfcColumn {
      */
     @Override
     protected EClass eStaticClass() {
-        return Ifc2x3tc1Package.Literals.IFC_COLUMN;
+        return Ifc2x3tc1Package.eINSTANCE.getIfcColumn();
     }
 
 } //IfcColumnImpl

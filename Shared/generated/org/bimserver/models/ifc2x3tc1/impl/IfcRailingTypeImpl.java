@@ -52,7 +52,7 @@ public class IfcRailingTypeImpl extends IfcBuildingElementTypeImpl implements If
      */
     @Override
     protected EClass eStaticClass() {
-        return Ifc2x3tc1Package.Literals.IFC_RAILING_TYPE;
+        return Ifc2x3tc1Package.eINSTANCE.getIfcRailingType();
     }
 
     /**
@@ -62,7 +62,7 @@ public class IfcRailingTypeImpl extends IfcBuildingElementTypeImpl implements If
      */
     @Override
     public IfcRailingTypeEnum getPredefinedType() {
-        return (IfcRailingTypeEnum) eGet(Ifc2x3tc1Package.Literals.IFC_RAILING_TYPE__PREDEFINED_TYPE, true);
+        return (IfcRailingTypeEnum) eGet(Ifc2x3tc1Package.eINSTANCE.getIfcRailingType_PredefinedType(), true);
     }
 
     /**
@@ -72,7 +72,7 @@ public class IfcRailingTypeImpl extends IfcBuildingElementTypeImpl implements If
      */
     @Override
     public void setPredefinedType(IfcRailingTypeEnum newPredefinedType) {
-        eSet(Ifc2x3tc1Package.Literals.IFC_RAILING_TYPE__PREDEFINED_TYPE, newPredefinedType);
+        eSet(Ifc2x3tc1Package.eINSTANCE.getIfcRailingType_PredefinedType(), newPredefinedType);
     }
 
 } //IfcRailingTypeImpl

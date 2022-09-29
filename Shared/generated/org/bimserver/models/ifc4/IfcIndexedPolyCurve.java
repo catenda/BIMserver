@@ -40,10 +40,6 @@ public interface IfcIndexedPolyCurve extends IfcBoundedCurve {
     /**
      * Returns the value of the '<em><b>Points</b></em>' reference.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Points</em>' reference isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Points</em>' reference.
      * @see #setPoints(IfcCartesianPointList)
@@ -67,10 +63,6 @@ public interface IfcIndexedPolyCurve extends IfcBoundedCurve {
      * Returns the value of the '<em><b>Segments</b></em>' reference list.
      * The list contents are of type {@link org.bimserver.models.ifc4.IfcSegmentIndexSelect}.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Segments</em>' reference list isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Segments</em>' reference list.
      * @see #isSetSegments()
@@ -106,10 +98,6 @@ public interface IfcIndexedPolyCurve extends IfcBoundedCurve {
      * Returns the value of the '<em><b>Self Intersect</b></em>' attribute.
      * The literals are from the enumeration {@link org.bimserver.models.ifc4.Tristate}.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Self Intersect</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Self Intersect</em>' attribute.
      * @see org.bimserver.models.ifc4.Tristate

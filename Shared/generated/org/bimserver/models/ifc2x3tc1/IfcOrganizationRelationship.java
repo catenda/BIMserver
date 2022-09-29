@@ -44,10 +44,6 @@ public interface IfcOrganizationRelationship extends IdEObject {
     /**
      * Returns the value of the '<em><b>Name</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Name</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Name</em>' attribute.
      * @see #setName(String)
@@ -70,10 +66,6 @@ public interface IfcOrganizationRelationship extends IdEObject {
     /**
      * Returns the value of the '<em><b>Description</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Description</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Description</em>' attribute.
      * @see #isSetDescription()
@@ -124,10 +116,6 @@ public interface IfcOrganizationRelationship extends IdEObject {
      * Returns the value of the '<em><b>Relating Organization</b></em>' reference.
      * It is bidirectional and its opposite is '{@link org.bimserver.models.ifc2x3tc1.IfcOrganization#getRelates <em>Relates</em>}'.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Relating Organization</em>' reference isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Relating Organization</em>' reference.
      * @see #setRelatingOrganization(IfcOrganization)
@@ -154,10 +142,6 @@ public interface IfcOrganizationRelationship extends IdEObject {
      * The list contents are of type {@link org.bimserver.models.ifc2x3tc1.IfcOrganization}.
      * It is bidirectional and its opposite is '{@link org.bimserver.models.ifc2x3tc1.IfcOrganization#getIsRelatedBy <em>Is Related By</em>}'.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Related Organizations</em>' reference list isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Related Organizations</em>' reference list.
      * @see org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package#getIfcOrganizationRelationship_RelatedOrganizations()

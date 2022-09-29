@@ -52,7 +52,7 @@ public class IfcChillerTypeImpl extends IfcEnergyConversionDeviceTypeImpl implem
      */
     @Override
     protected EClass eStaticClass() {
-        return Ifc2x3tc1Package.Literals.IFC_CHILLER_TYPE;
+        return Ifc2x3tc1Package.eINSTANCE.getIfcChillerType();
     }
 
     /**
@@ -62,7 +62,7 @@ public class IfcChillerTypeImpl extends IfcEnergyConversionDeviceTypeImpl implem
      */
     @Override
     public IfcChillerTypeEnum getPredefinedType() {
-        return (IfcChillerTypeEnum) eGet(Ifc2x3tc1Package.Literals.IFC_CHILLER_TYPE__PREDEFINED_TYPE, true);
+        return (IfcChillerTypeEnum) eGet(Ifc2x3tc1Package.eINSTANCE.getIfcChillerType_PredefinedType(), true);
     }
 
     /**
@@ -72,7 +72,7 @@ public class IfcChillerTypeImpl extends IfcEnergyConversionDeviceTypeImpl implem
      */
     @Override
     public void setPredefinedType(IfcChillerTypeEnum newPredefinedType) {
-        eSet(Ifc2x3tc1Package.Literals.IFC_CHILLER_TYPE__PREDEFINED_TYPE, newPredefinedType);
+        eSet(Ifc2x3tc1Package.eINSTANCE.getIfcChillerType_PredefinedType(), newPredefinedType);
     }
 
 } //IfcChillerTypeImpl

@@ -45,7 +45,7 @@ public class IfcSpatialStructureElementTypeImpl extends IfcElementTypeImpl imple
      */
     @Override
     protected EClass eStaticClass() {
-        return Ifc2x3tc1Package.Literals.IFC_SPATIAL_STRUCTURE_ELEMENT_TYPE;
+        return Ifc2x3tc1Package.eINSTANCE.getIfcSpatialStructureElementType();
     }
 
 } //IfcSpatialStructureElementTypeImpl

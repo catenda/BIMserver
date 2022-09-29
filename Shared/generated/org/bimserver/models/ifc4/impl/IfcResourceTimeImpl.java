@@ -70,7 +70,7 @@ public class IfcResourceTimeImpl extends IfcSchedulingTimeImpl implements IfcRes
      */
     @Override
     protected EClass eStaticClass() {
-        return Ifc4Package.Literals.IFC_RESOURCE_TIME;
+        return Ifc4Package.eINSTANCE.getIfcResourceTime();
     }
 
     /**
@@ -80,7 +80,7 @@ public class IfcResourceTimeImpl extends IfcSchedulingTimeImpl implements IfcRes
      */
     @Override
     public String getScheduleWork() {
-        return (String) eGet(Ifc4Package.Literals.IFC_RESOURCE_TIME__SCHEDULE_WORK, true);
+        return (String) eGet(Ifc4Package.eINSTANCE.getIfcResourceTime_ScheduleWork(), true);
     }
 
     /**
@@ -90,7 +90,7 @@ public class IfcResourceTimeImpl extends IfcSchedulingTimeImpl implements IfcRes
      */
     @Override
     public void setScheduleWork(String newScheduleWork) {
-        eSet(Ifc4Package.Literals.IFC_RESOURCE_TIME__SCHEDULE_WORK, newScheduleWork);
+        eSet(Ifc4Package.eINSTANCE.getIfcResourceTime_ScheduleWork(), newScheduleWork);
     }
 
     /**
@@ -100,7 +100,7 @@ public class IfcResourceTimeImpl extends IfcSchedulingTimeImpl implements IfcRes
      */
     @Override
     public void unsetScheduleWork() {
-        eUnset(Ifc4Package.Literals.IFC_RESOURCE_TIME__SCHEDULE_WORK);
+        eUnset(Ifc4Package.eINSTANCE.getIfcResourceTime_ScheduleWork());
     }
 
     /**
@@ -110,7 +110,7 @@ public class IfcResourceTimeImpl extends IfcSchedulingTimeImpl implements IfcRes
      */
     @Override
     public boolean isSetScheduleWork() {
-        return eIsSet(Ifc4Package.Literals.IFC_RESOURCE_TIME__SCHEDULE_WORK);
+        return eIsSet(Ifc4Package.eINSTANCE.getIfcResourceTime_ScheduleWork());
     }
 
     /**
@@ -120,7 +120,7 @@ public class IfcResourceTimeImpl extends IfcSchedulingTimeImpl implements IfcRes
      */
     @Override
     public double getScheduleUsage() {
-        return (Double) eGet(Ifc4Package.Literals.IFC_RESOURCE_TIME__SCHEDULE_USAGE, true);
+        return (Double) eGet(Ifc4Package.eINSTANCE.getIfcResourceTime_ScheduleUsage(), true);
     }
 
     /**
@@ -130,7 +130,7 @@ public class IfcResourceTimeImpl extends IfcSchedulingTimeImpl implements IfcRes
      */
     @Override
     public void setScheduleUsage(double newScheduleUsage) {
-        eSet(Ifc4Package.Literals.IFC_RESOURCE_TIME__SCHEDULE_USAGE, newScheduleUsage);
+        eSet(Ifc4Package.eINSTANCE.getIfcResourceTime_ScheduleUsage(), newScheduleUsage);
     }
 
     /**
@@ -140,7 +140,7 @@ public class IfcResourceTimeImpl extends IfcSchedulingTimeImpl implements IfcRes
      */
     @Override
     public void unsetScheduleUsage() {
-        eUnset(Ifc4Package.Literals.IFC_RESOURCE_TIME__SCHEDULE_USAGE);
+        eUnset(Ifc4Package.eINSTANCE.getIfcResourceTime_ScheduleUsage());
     }
 
     /**
@@ -150,7 +150,7 @@ public class IfcResourceTimeImpl extends IfcSchedulingTimeImpl implements IfcRes
      */
     @Override
     public boolean isSetScheduleUsage() {
-        return eIsSet(Ifc4Package.Literals.IFC_RESOURCE_TIME__SCHEDULE_USAGE);
+        return eIsSet(Ifc4Package.eINSTANCE.getIfcResourceTime_ScheduleUsage());
     }
 
     /**
@@ -160,7 +160,7 @@ public class IfcResourceTimeImpl extends IfcSchedulingTimeImpl implements IfcRes
      */
     @Override
     public String getScheduleUsageAsString() {
-        return (String) eGet(Ifc4Package.Literals.IFC_RESOURCE_TIME__SCHEDULE_USAGE_AS_STRING, true);
+        return (String) eGet(Ifc4Package.eINSTANCE.getIfcResourceTime_ScheduleUsageAsString(), true);
     }
 
     /**
@@ -170,7 +170,7 @@ public class IfcResourceTimeImpl extends IfcSchedulingTimeImpl implements IfcRes
      */
     @Override
     public void setScheduleUsageAsString(String newScheduleUsageAsString) {
-        eSet(Ifc4Package.Literals.IFC_RESOURCE_TIME__SCHEDULE_USAGE_AS_STRING, newScheduleUsageAsString);
+        eSet(Ifc4Package.eINSTANCE.getIfcResourceTime_ScheduleUsageAsString(), newScheduleUsageAsString);
     }
 
     /**
@@ -180,7 +180,7 @@ public class IfcResourceTimeImpl extends IfcSchedulingTimeImpl implements IfcRes
      */
     @Override
     public void unsetScheduleUsageAsString() {
-        eUnset(Ifc4Package.Literals.IFC_RESOURCE_TIME__SCHEDULE_USAGE_AS_STRING);
+        eUnset(Ifc4Package.eINSTANCE.getIfcResourceTime_ScheduleUsageAsString());
     }
 
     /**
@@ -190,7 +190,7 @@ public class IfcResourceTimeImpl extends IfcSchedulingTimeImpl implements IfcRes
      */
     @Override
     public boolean isSetScheduleUsageAsString() {
-        return eIsSet(Ifc4Package.Literals.IFC_RESOURCE_TIME__SCHEDULE_USAGE_AS_STRING);
+        return eIsSet(Ifc4Package.eINSTANCE.getIfcResourceTime_ScheduleUsageAsString());
     }
 
     /**
@@ -200,7 +200,7 @@ public class IfcResourceTimeImpl extends IfcSchedulingTimeImpl implements IfcRes
      */
     @Override
     public String getScheduleStart() {
-        return (String) eGet(Ifc4Package.Literals.IFC_RESOURCE_TIME__SCHEDULE_START, true);
+        return (String) eGet(Ifc4Package.eINSTANCE.getIfcResourceTime_ScheduleStart(), true);
     }
 
     /**
@@ -210,7 +210,7 @@ public class IfcResourceTimeImpl extends IfcSchedulingTimeImpl implements IfcRes
      */
     @Override
     public void setScheduleStart(String newScheduleStart) {
-        eSet(Ifc4Package.Literals.IFC_RESOURCE_TIME__SCHEDULE_START, newScheduleStart);
+        eSet(Ifc4Package.eINSTANCE.getIfcResourceTime_ScheduleStart(), newScheduleStart);
     }
 
     /**
@@ -220,7 +220,7 @@ public class IfcResourceTimeImpl extends IfcSchedulingTimeImpl implements IfcRes
      */
     @Override
     public void unsetScheduleStart() {
-        eUnset(Ifc4Package.Literals.IFC_RESOURCE_TIME__SCHEDULE_START);
+        eUnset(Ifc4Package.eINSTANCE.getIfcResourceTime_ScheduleStart());
     }
 
     /**
@@ -230,7 +230,7 @@ public class IfcResourceTimeImpl extends IfcSchedulingTimeImpl implements IfcRes
      */
     @Override
     public boolean isSetScheduleStart() {
-        return eIsSet(Ifc4Package.Literals.IFC_RESOURCE_TIME__SCHEDULE_START);
+        return eIsSet(Ifc4Package.eINSTANCE.getIfcResourceTime_ScheduleStart());
     }
 
     /**
@@ -240,7 +240,7 @@ public class IfcResourceTimeImpl extends IfcSchedulingTimeImpl implements IfcRes
      */
     @Override
     public String getScheduleFinish() {
-        return (String) eGet(Ifc4Package.Literals.IFC_RESOURCE_TIME__SCHEDULE_FINISH, true);
+        return (String) eGet(Ifc4Package.eINSTANCE.getIfcResourceTime_ScheduleFinish(), true);
     }
 
     /**
@@ -250,7 +250,7 @@ public class IfcResourceTimeImpl extends IfcSchedulingTimeImpl implements IfcRes
      */
     @Override
     public void setScheduleFinish(String newScheduleFinish) {
-        eSet(Ifc4Package.Literals.IFC_RESOURCE_TIME__SCHEDULE_FINISH, newScheduleFinish);
+        eSet(Ifc4Package.eINSTANCE.getIfcResourceTime_ScheduleFinish(), newScheduleFinish);
     }
 
     /**
@@ -260,7 +260,7 @@ public class IfcResourceTimeImpl extends IfcSchedulingTimeImpl implements IfcRes
      */
     @Override
     public void unsetScheduleFinish() {
-        eUnset(Ifc4Package.Literals.IFC_RESOURCE_TIME__SCHEDULE_FINISH);
+        eUnset(Ifc4Package.eINSTANCE.getIfcResourceTime_ScheduleFinish());
     }
 
     /**
@@ -270,7 +270,7 @@ public class IfcResourceTimeImpl extends IfcSchedulingTimeImpl implements IfcRes
      */
     @Override
     public boolean isSetScheduleFinish() {
-        return eIsSet(Ifc4Package.Literals.IFC_RESOURCE_TIME__SCHEDULE_FINISH);
+        return eIsSet(Ifc4Package.eINSTANCE.getIfcResourceTime_ScheduleFinish());
     }
 
     /**
@@ -280,7 +280,7 @@ public class IfcResourceTimeImpl extends IfcSchedulingTimeImpl implements IfcRes
      */
     @Override
     public String getScheduleContour() {
-        return (String) eGet(Ifc4Package.Literals.IFC_RESOURCE_TIME__SCHEDULE_CONTOUR, true);
+        return (String) eGet(Ifc4Package.eINSTANCE.getIfcResourceTime_ScheduleContour(), true);
     }
 
     /**
@@ -290,7 +290,7 @@ public class IfcResourceTimeImpl extends IfcSchedulingTimeImpl implements IfcRes
      */
     @Override
     public void setScheduleContour(String newScheduleContour) {
-        eSet(Ifc4Package.Literals.IFC_RESOURCE_TIME__SCHEDULE_CONTOUR, newScheduleContour);
+        eSet(Ifc4Package.eINSTANCE.getIfcResourceTime_ScheduleContour(), newScheduleContour);
     }
 
     /**
@@ -300,7 +300,7 @@ public class IfcResourceTimeImpl extends IfcSchedulingTimeImpl implements IfcRes
      */
     @Override
     public void unsetScheduleContour() {
-        eUnset(Ifc4Package.Literals.IFC_RESOURCE_TIME__SCHEDULE_CONTOUR);
+        eUnset(Ifc4Package.eINSTANCE.getIfcResourceTime_ScheduleContour());
     }
 
     /**
@@ -310,7 +310,7 @@ public class IfcResourceTimeImpl extends IfcSchedulingTimeImpl implements IfcRes
      */
     @Override
     public boolean isSetScheduleContour() {
-        return eIsSet(Ifc4Package.Literals.IFC_RESOURCE_TIME__SCHEDULE_CONTOUR);
+        return eIsSet(Ifc4Package.eINSTANCE.getIfcResourceTime_ScheduleContour());
     }
 
     /**
@@ -320,7 +320,7 @@ public class IfcResourceTimeImpl extends IfcSchedulingTimeImpl implements IfcRes
      */
     @Override
     public String getLevelingDelay() {
-        return (String) eGet(Ifc4Package.Literals.IFC_RESOURCE_TIME__LEVELING_DELAY, true);
+        return (String) eGet(Ifc4Package.eINSTANCE.getIfcResourceTime_LevelingDelay(), true);
     }
 
     /**
@@ -330,7 +330,7 @@ public class IfcResourceTimeImpl extends IfcSchedulingTimeImpl implements IfcRes
      */
     @Override
     public void setLevelingDelay(String newLevelingDelay) {
-        eSet(Ifc4Package.Literals.IFC_RESOURCE_TIME__LEVELING_DELAY, newLevelingDelay);
+        eSet(Ifc4Package.eINSTANCE.getIfcResourceTime_LevelingDelay(), newLevelingDelay);
     }
 
     /**
@@ -340,7 +340,7 @@ public class IfcResourceTimeImpl extends IfcSchedulingTimeImpl implements IfcRes
      */
     @Override
     public void unsetLevelingDelay() {
-        eUnset(Ifc4Package.Literals.IFC_RESOURCE_TIME__LEVELING_DELAY);
+        eUnset(Ifc4Package.eINSTANCE.getIfcResourceTime_LevelingDelay());
     }
 
     /**
@@ -350,7 +350,7 @@ public class IfcResourceTimeImpl extends IfcSchedulingTimeImpl implements IfcRes
      */
     @Override
     public boolean isSetLevelingDelay() {
-        return eIsSet(Ifc4Package.Literals.IFC_RESOURCE_TIME__LEVELING_DELAY);
+        return eIsSet(Ifc4Package.eINSTANCE.getIfcResourceTime_LevelingDelay());
     }
 
     /**
@@ -360,7 +360,7 @@ public class IfcResourceTimeImpl extends IfcSchedulingTimeImpl implements IfcRes
      */
     @Override
     public Tristate getIsOverAllocated() {
-        return (Tristate) eGet(Ifc4Package.Literals.IFC_RESOURCE_TIME__IS_OVER_ALLOCATED, true);
+        return (Tristate) eGet(Ifc4Package.eINSTANCE.getIfcResourceTime_IsOverAllocated(), true);
     }
 
     /**
@@ -370,7 +370,7 @@ public class IfcResourceTimeImpl extends IfcSchedulingTimeImpl implements IfcRes
      */
     @Override
     public void setIsOverAllocated(Tristate newIsOverAllocated) {
-        eSet(Ifc4Package.Literals.IFC_RESOURCE_TIME__IS_OVER_ALLOCATED, newIsOverAllocated);
+        eSet(Ifc4Package.eINSTANCE.getIfcResourceTime_IsOverAllocated(), newIsOverAllocated);
     }
 
     /**
@@ -380,7 +380,7 @@ public class IfcResourceTimeImpl extends IfcSchedulingTimeImpl implements IfcRes
      */
     @Override
     public void unsetIsOverAllocated() {
-        eUnset(Ifc4Package.Literals.IFC_RESOURCE_TIME__IS_OVER_ALLOCATED);
+        eUnset(Ifc4Package.eINSTANCE.getIfcResourceTime_IsOverAllocated());
     }
 
     /**
@@ -390,7 +390,7 @@ public class IfcResourceTimeImpl extends IfcSchedulingTimeImpl implements IfcRes
      */
     @Override
     public boolean isSetIsOverAllocated() {
-        return eIsSet(Ifc4Package.Literals.IFC_RESOURCE_TIME__IS_OVER_ALLOCATED);
+        return eIsSet(Ifc4Package.eINSTANCE.getIfcResourceTime_IsOverAllocated());
     }
 
     /**
@@ -400,7 +400,7 @@ public class IfcResourceTimeImpl extends IfcSchedulingTimeImpl implements IfcRes
      */
     @Override
     public String getStatusTime() {
-        return (String) eGet(Ifc4Package.Literals.IFC_RESOURCE_TIME__STATUS_TIME, true);
+        return (String) eGet(Ifc4Package.eINSTANCE.getIfcResourceTime_StatusTime(), true);
     }
 
     /**
@@ -410,7 +410,7 @@ public class IfcResourceTimeImpl extends IfcSchedulingTimeImpl implements IfcRes
      */
     @Override
     public void setStatusTime(String newStatusTime) {
-        eSet(Ifc4Package.Literals.IFC_RESOURCE_TIME__STATUS_TIME, newStatusTime);
+        eSet(Ifc4Package.eINSTANCE.getIfcResourceTime_StatusTime(), newStatusTime);
     }
 
     /**
@@ -420,7 +420,7 @@ public class IfcResourceTimeImpl extends IfcSchedulingTimeImpl implements IfcRes
      */
     @Override
     public void unsetStatusTime() {
-        eUnset(Ifc4Package.Literals.IFC_RESOURCE_TIME__STATUS_TIME);
+        eUnset(Ifc4Package.eINSTANCE.getIfcResourceTime_StatusTime());
     }
 
     /**
@@ -430,7 +430,7 @@ public class IfcResourceTimeImpl extends IfcSchedulingTimeImpl implements IfcRes
      */
     @Override
     public boolean isSetStatusTime() {
-        return eIsSet(Ifc4Package.Literals.IFC_RESOURCE_TIME__STATUS_TIME);
+        return eIsSet(Ifc4Package.eINSTANCE.getIfcResourceTime_StatusTime());
     }
 
     /**
@@ -440,7 +440,7 @@ public class IfcResourceTimeImpl extends IfcSchedulingTimeImpl implements IfcRes
      */
     @Override
     public String getActualWork() {
-        return (String) eGet(Ifc4Package.Literals.IFC_RESOURCE_TIME__ACTUAL_WORK, true);
+        return (String) eGet(Ifc4Package.eINSTANCE.getIfcResourceTime_ActualWork(), true);
     }
 
     /**
@@ -450,7 +450,7 @@ public class IfcResourceTimeImpl extends IfcSchedulingTimeImpl implements IfcRes
      */
     @Override
     public void setActualWork(String newActualWork) {
-        eSet(Ifc4Package.Literals.IFC_RESOURCE_TIME__ACTUAL_WORK, newActualWork);
+        eSet(Ifc4Package.eINSTANCE.getIfcResourceTime_ActualWork(), newActualWork);
     }
 
     /**
@@ -460,7 +460,7 @@ public class IfcResourceTimeImpl extends IfcSchedulingTimeImpl implements IfcRes
      */
     @Override
     public void unsetActualWork() {
-        eUnset(Ifc4Package.Literals.IFC_RESOURCE_TIME__ACTUAL_WORK);
+        eUnset(Ifc4Package.eINSTANCE.getIfcResourceTime_ActualWork());
     }
 
     /**
@@ -470,7 +470,7 @@ public class IfcResourceTimeImpl extends IfcSchedulingTimeImpl implements IfcRes
      */
     @Override
     public boolean isSetActualWork() {
-        return eIsSet(Ifc4Package.Literals.IFC_RESOURCE_TIME__ACTUAL_WORK);
+        return eIsSet(Ifc4Package.eINSTANCE.getIfcResourceTime_ActualWork());
     }
 
     /**
@@ -480,7 +480,7 @@ public class IfcResourceTimeImpl extends IfcSchedulingTimeImpl implements IfcRes
      */
     @Override
     public double getActualUsage() {
-        return (Double) eGet(Ifc4Package.Literals.IFC_RESOURCE_TIME__ACTUAL_USAGE, true);
+        return (Double) eGet(Ifc4Package.eINSTANCE.getIfcResourceTime_ActualUsage(), true);
     }
 
     /**
@@ -490,7 +490,7 @@ public class IfcResourceTimeImpl extends IfcSchedulingTimeImpl implements IfcRes
      */
     @Override
     public void setActualUsage(double newActualUsage) {
-        eSet(Ifc4Package.Literals.IFC_RESOURCE_TIME__ACTUAL_USAGE, newActualUsage);
+        eSet(Ifc4Package.eINSTANCE.getIfcResourceTime_ActualUsage(), newActualUsage);
     }
 
     /**
@@ -500,7 +500,7 @@ public class IfcResourceTimeImpl extends IfcSchedulingTimeImpl implements IfcRes
      */
     @Override
     public void unsetActualUsage() {
-        eUnset(Ifc4Package.Literals.IFC_RESOURCE_TIME__ACTUAL_USAGE);
+        eUnset(Ifc4Package.eINSTANCE.getIfcResourceTime_ActualUsage());
     }
 
     /**
@@ -510,7 +510,7 @@ public class IfcResourceTimeImpl extends IfcSchedulingTimeImpl implements IfcRes
      */
     @Override
     public boolean isSetActualUsage() {
-        return eIsSet(Ifc4Package.Literals.IFC_RESOURCE_TIME__ACTUAL_USAGE);
+        return eIsSet(Ifc4Package.eINSTANCE.getIfcResourceTime_ActualUsage());
     }
 
     /**
@@ -520,7 +520,7 @@ public class IfcResourceTimeImpl extends IfcSchedulingTimeImpl implements IfcRes
      */
     @Override
     public String getActualUsageAsString() {
-        return (String) eGet(Ifc4Package.Literals.IFC_RESOURCE_TIME__ACTUAL_USAGE_AS_STRING, true);
+        return (String) eGet(Ifc4Package.eINSTANCE.getIfcResourceTime_ActualUsageAsString(), true);
     }
 
     /**
@@ -530,7 +530,7 @@ public class IfcResourceTimeImpl extends IfcSchedulingTimeImpl implements IfcRes
      */
     @Override
     public void setActualUsageAsString(String newActualUsageAsString) {
-        eSet(Ifc4Package.Literals.IFC_RESOURCE_TIME__ACTUAL_USAGE_AS_STRING, newActualUsageAsString);
+        eSet(Ifc4Package.eINSTANCE.getIfcResourceTime_ActualUsageAsString(), newActualUsageAsString);
     }
 
     /**
@@ -540,7 +540,7 @@ public class IfcResourceTimeImpl extends IfcSchedulingTimeImpl implements IfcRes
      */
     @Override
     public void unsetActualUsageAsString() {
-        eUnset(Ifc4Package.Literals.IFC_RESOURCE_TIME__ACTUAL_USAGE_AS_STRING);
+        eUnset(Ifc4Package.eINSTANCE.getIfcResourceTime_ActualUsageAsString());
     }
 
     /**
@@ -550,7 +550,7 @@ public class IfcResourceTimeImpl extends IfcSchedulingTimeImpl implements IfcRes
      */
     @Override
     public boolean isSetActualUsageAsString() {
-        return eIsSet(Ifc4Package.Literals.IFC_RESOURCE_TIME__ACTUAL_USAGE_AS_STRING);
+        return eIsSet(Ifc4Package.eINSTANCE.getIfcResourceTime_ActualUsageAsString());
     }
 
     /**
@@ -560,7 +560,7 @@ public class IfcResourceTimeImpl extends IfcSchedulingTimeImpl implements IfcRes
      */
     @Override
     public String getActualStart() {
-        return (String) eGet(Ifc4Package.Literals.IFC_RESOURCE_TIME__ACTUAL_START, true);
+        return (String) eGet(Ifc4Package.eINSTANCE.getIfcResourceTime_ActualStart(), true);
     }
 
     /**
@@ -570,7 +570,7 @@ public class IfcResourceTimeImpl extends IfcSchedulingTimeImpl implements IfcRes
      */
     @Override
     public void setActualStart(String newActualStart) {
-        eSet(Ifc4Package.Literals.IFC_RESOURCE_TIME__ACTUAL_START, newActualStart);
+        eSet(Ifc4Package.eINSTANCE.getIfcResourceTime_ActualStart(), newActualStart);
     }
 
     /**
@@ -580,7 +580,7 @@ public class IfcResourceTimeImpl extends IfcSchedulingTimeImpl implements IfcRes
      */
     @Override
     public void unsetActualStart() {
-        eUnset(Ifc4Package.Literals.IFC_RESOURCE_TIME__ACTUAL_START);
+        eUnset(Ifc4Package.eINSTANCE.getIfcResourceTime_ActualStart());
     }
 
     /**
@@ -590,7 +590,7 @@ public class IfcResourceTimeImpl extends IfcSchedulingTimeImpl implements IfcRes
      */
     @Override
     public boolean isSetActualStart() {
-        return eIsSet(Ifc4Package.Literals.IFC_RESOURCE_TIME__ACTUAL_START);
+        return eIsSet(Ifc4Package.eINSTANCE.getIfcResourceTime_ActualStart());
     }
 
     /**
@@ -600,7 +600,7 @@ public class IfcResourceTimeImpl extends IfcSchedulingTimeImpl implements IfcRes
      */
     @Override
     public String getActualFinish() {
-        return (String) eGet(Ifc4Package.Literals.IFC_RESOURCE_TIME__ACTUAL_FINISH, true);
+        return (String) eGet(Ifc4Package.eINSTANCE.getIfcResourceTime_ActualFinish(), true);
     }
 
     /**
@@ -610,7 +610,7 @@ public class IfcResourceTimeImpl extends IfcSchedulingTimeImpl implements IfcRes
      */
     @Override
     public void setActualFinish(String newActualFinish) {
-        eSet(Ifc4Package.Literals.IFC_RESOURCE_TIME__ACTUAL_FINISH, newActualFinish);
+        eSet(Ifc4Package.eINSTANCE.getIfcResourceTime_ActualFinish(), newActualFinish);
     }
 
     /**
@@ -620,7 +620,7 @@ public class IfcResourceTimeImpl extends IfcSchedulingTimeImpl implements IfcRes
      */
     @Override
     public void unsetActualFinish() {
-        eUnset(Ifc4Package.Literals.IFC_RESOURCE_TIME__ACTUAL_FINISH);
+        eUnset(Ifc4Package.eINSTANCE.getIfcResourceTime_ActualFinish());
     }
 
     /**
@@ -630,7 +630,7 @@ public class IfcResourceTimeImpl extends IfcSchedulingTimeImpl implements IfcRes
      */
     @Override
     public boolean isSetActualFinish() {
-        return eIsSet(Ifc4Package.Literals.IFC_RESOURCE_TIME__ACTUAL_FINISH);
+        return eIsSet(Ifc4Package.eINSTANCE.getIfcResourceTime_ActualFinish());
     }
 
     /**
@@ -640,7 +640,7 @@ public class IfcResourceTimeImpl extends IfcSchedulingTimeImpl implements IfcRes
      */
     @Override
     public String getRemainingWork() {
-        return (String) eGet(Ifc4Package.Literals.IFC_RESOURCE_TIME__REMAINING_WORK, true);
+        return (String) eGet(Ifc4Package.eINSTANCE.getIfcResourceTime_RemainingWork(), true);
     }
 
     /**
@@ -650,7 +650,7 @@ public class IfcResourceTimeImpl extends IfcSchedulingTimeImpl implements IfcRes
      */
     @Override
     public void setRemainingWork(String newRemainingWork) {
-        eSet(Ifc4Package.Literals.IFC_RESOURCE_TIME__REMAINING_WORK, newRemainingWork);
+        eSet(Ifc4Package.eINSTANCE.getIfcResourceTime_RemainingWork(), newRemainingWork);
     }
 
     /**
@@ -660,7 +660,7 @@ public class IfcResourceTimeImpl extends IfcSchedulingTimeImpl implements IfcRes
      */
     @Override
     public void unsetRemainingWork() {
-        eUnset(Ifc4Package.Literals.IFC_RESOURCE_TIME__REMAINING_WORK);
+        eUnset(Ifc4Package.eINSTANCE.getIfcResourceTime_RemainingWork());
     }
 
     /**
@@ -670,7 +670,7 @@ public class IfcResourceTimeImpl extends IfcSchedulingTimeImpl implements IfcRes
      */
     @Override
     public boolean isSetRemainingWork() {
-        return eIsSet(Ifc4Package.Literals.IFC_RESOURCE_TIME__REMAINING_WORK);
+        return eIsSet(Ifc4Package.eINSTANCE.getIfcResourceTime_RemainingWork());
     }
 
     /**
@@ -680,7 +680,7 @@ public class IfcResourceTimeImpl extends IfcSchedulingTimeImpl implements IfcRes
      */
     @Override
     public double getRemainingUsage() {
-        return (Double) eGet(Ifc4Package.Literals.IFC_RESOURCE_TIME__REMAINING_USAGE, true);
+        return (Double) eGet(Ifc4Package.eINSTANCE.getIfcResourceTime_RemainingUsage(), true);
     }
 
     /**
@@ -690,7 +690,7 @@ public class IfcResourceTimeImpl extends IfcSchedulingTimeImpl implements IfcRes
      */
     @Override
     public void setRemainingUsage(double newRemainingUsage) {
-        eSet(Ifc4Package.Literals.IFC_RESOURCE_TIME__REMAINING_USAGE, newRemainingUsage);
+        eSet(Ifc4Package.eINSTANCE.getIfcResourceTime_RemainingUsage(), newRemainingUsage);
     }
 
     /**
@@ -700,7 +700,7 @@ public class IfcResourceTimeImpl extends IfcSchedulingTimeImpl implements IfcRes
      */
     @Override
     public void unsetRemainingUsage() {
-        eUnset(Ifc4Package.Literals.IFC_RESOURCE_TIME__REMAINING_USAGE);
+        eUnset(Ifc4Package.eINSTANCE.getIfcResourceTime_RemainingUsage());
     }
 
     /**
@@ -710,7 +710,7 @@ public class IfcResourceTimeImpl extends IfcSchedulingTimeImpl implements IfcRes
      */
     @Override
     public boolean isSetRemainingUsage() {
-        return eIsSet(Ifc4Package.Literals.IFC_RESOURCE_TIME__REMAINING_USAGE);
+        return eIsSet(Ifc4Package.eINSTANCE.getIfcResourceTime_RemainingUsage());
     }
 
     /**
@@ -720,7 +720,7 @@ public class IfcResourceTimeImpl extends IfcSchedulingTimeImpl implements IfcRes
      */
     @Override
     public String getRemainingUsageAsString() {
-        return (String) eGet(Ifc4Package.Literals.IFC_RESOURCE_TIME__REMAINING_USAGE_AS_STRING, true);
+        return (String) eGet(Ifc4Package.eINSTANCE.getIfcResourceTime_RemainingUsageAsString(), true);
     }
 
     /**
@@ -730,7 +730,7 @@ public class IfcResourceTimeImpl extends IfcSchedulingTimeImpl implements IfcRes
      */
     @Override
     public void setRemainingUsageAsString(String newRemainingUsageAsString) {
-        eSet(Ifc4Package.Literals.IFC_RESOURCE_TIME__REMAINING_USAGE_AS_STRING, newRemainingUsageAsString);
+        eSet(Ifc4Package.eINSTANCE.getIfcResourceTime_RemainingUsageAsString(), newRemainingUsageAsString);
     }
 
     /**
@@ -740,7 +740,7 @@ public class IfcResourceTimeImpl extends IfcSchedulingTimeImpl implements IfcRes
      */
     @Override
     public void unsetRemainingUsageAsString() {
-        eUnset(Ifc4Package.Literals.IFC_RESOURCE_TIME__REMAINING_USAGE_AS_STRING);
+        eUnset(Ifc4Package.eINSTANCE.getIfcResourceTime_RemainingUsageAsString());
     }
 
     /**
@@ -750,7 +750,7 @@ public class IfcResourceTimeImpl extends IfcSchedulingTimeImpl implements IfcRes
      */
     @Override
     public boolean isSetRemainingUsageAsString() {
-        return eIsSet(Ifc4Package.Literals.IFC_RESOURCE_TIME__REMAINING_USAGE_AS_STRING);
+        return eIsSet(Ifc4Package.eINSTANCE.getIfcResourceTime_RemainingUsageAsString());
     }
 
     /**
@@ -760,7 +760,7 @@ public class IfcResourceTimeImpl extends IfcSchedulingTimeImpl implements IfcRes
      */
     @Override
     public double getCompletion() {
-        return (Double) eGet(Ifc4Package.Literals.IFC_RESOURCE_TIME__COMPLETION, true);
+        return (Double) eGet(Ifc4Package.eINSTANCE.getIfcResourceTime_Completion(), true);
     }
 
     /**
@@ -770,7 +770,7 @@ public class IfcResourceTimeImpl extends IfcSchedulingTimeImpl implements IfcRes
      */
     @Override
     public void setCompletion(double newCompletion) {
-        eSet(Ifc4Package.Literals.IFC_RESOURCE_TIME__COMPLETION, newCompletion);
+        eSet(Ifc4Package.eINSTANCE.getIfcResourceTime_Completion(), newCompletion);
     }
 
     /**
@@ -780,7 +780,7 @@ public class IfcResourceTimeImpl extends IfcSchedulingTimeImpl implements IfcRes
      */
     @Override
     public void unsetCompletion() {
-        eUnset(Ifc4Package.Literals.IFC_RESOURCE_TIME__COMPLETION);
+        eUnset(Ifc4Package.eINSTANCE.getIfcResourceTime_Completion());
     }
 
     /**
@@ -790,7 +790,7 @@ public class IfcResourceTimeImpl extends IfcSchedulingTimeImpl implements IfcRes
      */
     @Override
     public boolean isSetCompletion() {
-        return eIsSet(Ifc4Package.Literals.IFC_RESOURCE_TIME__COMPLETION);
+        return eIsSet(Ifc4Package.eINSTANCE.getIfcResourceTime_Completion());
     }
 
     /**
@@ -800,7 +800,7 @@ public class IfcResourceTimeImpl extends IfcSchedulingTimeImpl implements IfcRes
      */
     @Override
     public String getCompletionAsString() {
-        return (String) eGet(Ifc4Package.Literals.IFC_RESOURCE_TIME__COMPLETION_AS_STRING, true);
+        return (String) eGet(Ifc4Package.eINSTANCE.getIfcResourceTime_CompletionAsString(), true);
     }
 
     /**
@@ -810,7 +810,7 @@ public class IfcResourceTimeImpl extends IfcSchedulingTimeImpl implements IfcRes
      */
     @Override
     public void setCompletionAsString(String newCompletionAsString) {
-        eSet(Ifc4Package.Literals.IFC_RESOURCE_TIME__COMPLETION_AS_STRING, newCompletionAsString);
+        eSet(Ifc4Package.eINSTANCE.getIfcResourceTime_CompletionAsString(), newCompletionAsString);
     }
 
     /**
@@ -820,7 +820,7 @@ public class IfcResourceTimeImpl extends IfcSchedulingTimeImpl implements IfcRes
      */
     @Override
     public void unsetCompletionAsString() {
-        eUnset(Ifc4Package.Literals.IFC_RESOURCE_TIME__COMPLETION_AS_STRING);
+        eUnset(Ifc4Package.eINSTANCE.getIfcResourceTime_CompletionAsString());
     }
 
     /**
@@ -830,7 +830,7 @@ public class IfcResourceTimeImpl extends IfcSchedulingTimeImpl implements IfcRes
      */
     @Override
     public boolean isSetCompletionAsString() {
-        return eIsSet(Ifc4Package.Literals.IFC_RESOURCE_TIME__COMPLETION_AS_STRING);
+        return eIsSet(Ifc4Package.eINSTANCE.getIfcResourceTime_CompletionAsString());
     }
 
 } //IfcResourceTimeImpl

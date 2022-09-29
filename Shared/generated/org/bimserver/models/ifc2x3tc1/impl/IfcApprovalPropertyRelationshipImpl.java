@@ -58,7 +58,7 @@ public class IfcApprovalPropertyRelationshipImpl extends IdEObjectImpl implement
      */
     @Override
     protected EClass eStaticClass() {
-        return Ifc2x3tc1Package.Literals.IFC_APPROVAL_PROPERTY_RELATIONSHIP;
+        return Ifc2x3tc1Package.eINSTANCE.getIfcApprovalPropertyRelationship();
     }
 
     /**
@@ -80,7 +80,7 @@ public class IfcApprovalPropertyRelationshipImpl extends IdEObjectImpl implement
     @Override
     public EList<IfcProperty> getApprovedProperties() {
         return (EList<IfcProperty>) eGet(
-                Ifc2x3tc1Package.Literals.IFC_APPROVAL_PROPERTY_RELATIONSHIP__APPROVED_PROPERTIES, true);
+                Ifc2x3tc1Package.eINSTANCE.getIfcApprovalPropertyRelationship_ApprovedProperties(), true);
     }
 
     /**
@@ -90,7 +90,7 @@ public class IfcApprovalPropertyRelationshipImpl extends IdEObjectImpl implement
      */
     @Override
     public IfcApproval getApproval() {
-        return (IfcApproval) eGet(Ifc2x3tc1Package.Literals.IFC_APPROVAL_PROPERTY_RELATIONSHIP__APPROVAL, true);
+        return (IfcApproval) eGet(Ifc2x3tc1Package.eINSTANCE.getIfcApprovalPropertyRelationship_Approval(), true);
     }
 
     /**
@@ -100,7 +100,7 @@ public class IfcApprovalPropertyRelationshipImpl extends IdEObjectImpl implement
      */
     @Override
     public void setApproval(IfcApproval newApproval) {
-        eSet(Ifc2x3tc1Package.Literals.IFC_APPROVAL_PROPERTY_RELATIONSHIP__APPROVAL, newApproval);
+        eSet(Ifc2x3tc1Package.eINSTANCE.getIfcApprovalPropertyRelationship_Approval(), newApproval);
     }
 
 } //IfcApprovalPropertyRelationshipImpl

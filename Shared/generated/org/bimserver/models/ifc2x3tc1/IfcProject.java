@@ -41,10 +41,6 @@ public interface IfcProject extends IfcObject {
     /**
      * Returns the value of the '<em><b>Long Name</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Long Name</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Long Name</em>' attribute.
      * @see #isSetLongName()
@@ -94,10 +90,6 @@ public interface IfcProject extends IfcObject {
     /**
      * Returns the value of the '<em><b>Phase</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Phase</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Phase</em>' attribute.
      * @see #isSetPhase()
@@ -148,10 +140,6 @@ public interface IfcProject extends IfcObject {
      * Returns the value of the '<em><b>Representation Contexts</b></em>' reference list.
      * The list contents are of type {@link org.bimserver.models.ifc2x3tc1.IfcRepresentationContext}.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Representation Contexts</em>' reference list isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Representation Contexts</em>' reference list.
      * @see org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package#getIfcProject_RepresentationContexts()
@@ -163,10 +151,6 @@ public interface IfcProject extends IfcObject {
     /**
      * Returns the value of the '<em><b>Units In Context</b></em>' reference.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Units In Context</em>' reference isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Units In Context</em>' reference.
      * @see #setUnitsInContext(IfcUnitAssignment)

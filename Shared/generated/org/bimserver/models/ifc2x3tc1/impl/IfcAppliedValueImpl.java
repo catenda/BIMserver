@@ -68,7 +68,7 @@ public class IfcAppliedValueImpl extends IdEObjectImpl implements IfcAppliedValu
      */
     @Override
     protected EClass eStaticClass() {
-        return Ifc2x3tc1Package.Literals.IFC_APPLIED_VALUE;
+        return Ifc2x3tc1Package.eINSTANCE.getIfcAppliedValue();
     }
 
     /**
@@ -88,7 +88,7 @@ public class IfcAppliedValueImpl extends IdEObjectImpl implements IfcAppliedValu
      */
     @Override
     public String getName() {
-        return (String) eGet(Ifc2x3tc1Package.Literals.IFC_APPLIED_VALUE__NAME, true);
+        return (String) eGet(Ifc2x3tc1Package.eINSTANCE.getIfcAppliedValue_Name(), true);
     }
 
     /**
@@ -98,7 +98,7 @@ public class IfcAppliedValueImpl extends IdEObjectImpl implements IfcAppliedValu
      */
     @Override
     public void setName(String newName) {
-        eSet(Ifc2x3tc1Package.Literals.IFC_APPLIED_VALUE__NAME, newName);
+        eSet(Ifc2x3tc1Package.eINSTANCE.getIfcAppliedValue_Name(), newName);
     }
 
     /**
@@ -108,7 +108,7 @@ public class IfcAppliedValueImpl extends IdEObjectImpl implements IfcAppliedValu
      */
     @Override
     public void unsetName() {
-        eUnset(Ifc2x3tc1Package.Literals.IFC_APPLIED_VALUE__NAME);
+        eUnset(Ifc2x3tc1Package.eINSTANCE.getIfcAppliedValue_Name());
     }
 
     /**
@@ -118,7 +118,7 @@ public class IfcAppliedValueImpl extends IdEObjectImpl implements IfcAppliedValu
      */
     @Override
     public boolean isSetName() {
-        return eIsSet(Ifc2x3tc1Package.Literals.IFC_APPLIED_VALUE__NAME);
+        return eIsSet(Ifc2x3tc1Package.eINSTANCE.getIfcAppliedValue_Name());
     }
 
     /**
@@ -128,7 +128,7 @@ public class IfcAppliedValueImpl extends IdEObjectImpl implements IfcAppliedValu
      */
     @Override
     public String getDescription() {
-        return (String) eGet(Ifc2x3tc1Package.Literals.IFC_APPLIED_VALUE__DESCRIPTION, true);
+        return (String) eGet(Ifc2x3tc1Package.eINSTANCE.getIfcAppliedValue_Description(), true);
     }
 
     /**
@@ -138,7 +138,7 @@ public class IfcAppliedValueImpl extends IdEObjectImpl implements IfcAppliedValu
      */
     @Override
     public void setDescription(String newDescription) {
-        eSet(Ifc2x3tc1Package.Literals.IFC_APPLIED_VALUE__DESCRIPTION, newDescription);
+        eSet(Ifc2x3tc1Package.eINSTANCE.getIfcAppliedValue_Description(), newDescription);
     }
 
     /**
@@ -148,7 +148,7 @@ public class IfcAppliedValueImpl extends IdEObjectImpl implements IfcAppliedValu
      */
     @Override
     public void unsetDescription() {
-        eUnset(Ifc2x3tc1Package.Literals.IFC_APPLIED_VALUE__DESCRIPTION);
+        eUnset(Ifc2x3tc1Package.eINSTANCE.getIfcAppliedValue_Description());
     }
 
     /**
@@ -158,7 +158,7 @@ public class IfcAppliedValueImpl extends IdEObjectImpl implements IfcAppliedValu
      */
     @Override
     public boolean isSetDescription() {
-        return eIsSet(Ifc2x3tc1Package.Literals.IFC_APPLIED_VALUE__DESCRIPTION);
+        return eIsSet(Ifc2x3tc1Package.eINSTANCE.getIfcAppliedValue_Description());
     }
 
     /**
@@ -168,7 +168,7 @@ public class IfcAppliedValueImpl extends IdEObjectImpl implements IfcAppliedValu
      */
     @Override
     public IfcAppliedValueSelect getAppliedValue() {
-        return (IfcAppliedValueSelect) eGet(Ifc2x3tc1Package.Literals.IFC_APPLIED_VALUE__APPLIED_VALUE, true);
+        return (IfcAppliedValueSelect) eGet(Ifc2x3tc1Package.eINSTANCE.getIfcAppliedValue_AppliedValue(), true);
     }
 
     /**
@@ -178,7 +178,7 @@ public class IfcAppliedValueImpl extends IdEObjectImpl implements IfcAppliedValu
      */
     @Override
     public void setAppliedValue(IfcAppliedValueSelect newAppliedValue) {
-        eSet(Ifc2x3tc1Package.Literals.IFC_APPLIED_VALUE__APPLIED_VALUE, newAppliedValue);
+        eSet(Ifc2x3tc1Package.eINSTANCE.getIfcAppliedValue_AppliedValue(), newAppliedValue);
     }
 
     /**
@@ -188,7 +188,7 @@ public class IfcAppliedValueImpl extends IdEObjectImpl implements IfcAppliedValu
      */
     @Override
     public void unsetAppliedValue() {
-        eUnset(Ifc2x3tc1Package.Literals.IFC_APPLIED_VALUE__APPLIED_VALUE);
+        eUnset(Ifc2x3tc1Package.eINSTANCE.getIfcAppliedValue_AppliedValue());
     }
 
     /**
@@ -198,7 +198,7 @@ public class IfcAppliedValueImpl extends IdEObjectImpl implements IfcAppliedValu
      */
     @Override
     public boolean isSetAppliedValue() {
-        return eIsSet(Ifc2x3tc1Package.Literals.IFC_APPLIED_VALUE__APPLIED_VALUE);
+        return eIsSet(Ifc2x3tc1Package.eINSTANCE.getIfcAppliedValue_AppliedValue());
     }
 
     /**
@@ -208,7 +208,7 @@ public class IfcAppliedValueImpl extends IdEObjectImpl implements IfcAppliedValu
      */
     @Override
     public IfcMeasureWithUnit getUnitBasis() {
-        return (IfcMeasureWithUnit) eGet(Ifc2x3tc1Package.Literals.IFC_APPLIED_VALUE__UNIT_BASIS, true);
+        return (IfcMeasureWithUnit) eGet(Ifc2x3tc1Package.eINSTANCE.getIfcAppliedValue_UnitBasis(), true);
     }
 
     /**
@@ -218,7 +218,7 @@ public class IfcAppliedValueImpl extends IdEObjectImpl implements IfcAppliedValu
      */
     @Override
     public void setUnitBasis(IfcMeasureWithUnit newUnitBasis) {
-        eSet(Ifc2x3tc1Package.Literals.IFC_APPLIED_VALUE__UNIT_BASIS, newUnitBasis);
+        eSet(Ifc2x3tc1Package.eINSTANCE.getIfcAppliedValue_UnitBasis(), newUnitBasis);
     }
 
     /**
@@ -228,7 +228,7 @@ public class IfcAppliedValueImpl extends IdEObjectImpl implements IfcAppliedValu
      */
     @Override
     public void unsetUnitBasis() {
-        eUnset(Ifc2x3tc1Package.Literals.IFC_APPLIED_VALUE__UNIT_BASIS);
+        eUnset(Ifc2x3tc1Package.eINSTANCE.getIfcAppliedValue_UnitBasis());
     }
 
     /**
@@ -238,7 +238,7 @@ public class IfcAppliedValueImpl extends IdEObjectImpl implements IfcAppliedValu
      */
     @Override
     public boolean isSetUnitBasis() {
-        return eIsSet(Ifc2x3tc1Package.Literals.IFC_APPLIED_VALUE__UNIT_BASIS);
+        return eIsSet(Ifc2x3tc1Package.eINSTANCE.getIfcAppliedValue_UnitBasis());
     }
 
     /**
@@ -248,7 +248,7 @@ public class IfcAppliedValueImpl extends IdEObjectImpl implements IfcAppliedValu
      */
     @Override
     public IfcDateTimeSelect getApplicableDate() {
-        return (IfcDateTimeSelect) eGet(Ifc2x3tc1Package.Literals.IFC_APPLIED_VALUE__APPLICABLE_DATE, true);
+        return (IfcDateTimeSelect) eGet(Ifc2x3tc1Package.eINSTANCE.getIfcAppliedValue_ApplicableDate(), true);
     }
 
     /**
@@ -258,7 +258,7 @@ public class IfcAppliedValueImpl extends IdEObjectImpl implements IfcAppliedValu
      */
     @Override
     public void setApplicableDate(IfcDateTimeSelect newApplicableDate) {
-        eSet(Ifc2x3tc1Package.Literals.IFC_APPLIED_VALUE__APPLICABLE_DATE, newApplicableDate);
+        eSet(Ifc2x3tc1Package.eINSTANCE.getIfcAppliedValue_ApplicableDate(), newApplicableDate);
     }
 
     /**
@@ -268,7 +268,7 @@ public class IfcAppliedValueImpl extends IdEObjectImpl implements IfcAppliedValu
      */
     @Override
     public void unsetApplicableDate() {
-        eUnset(Ifc2x3tc1Package.Literals.IFC_APPLIED_VALUE__APPLICABLE_DATE);
+        eUnset(Ifc2x3tc1Package.eINSTANCE.getIfcAppliedValue_ApplicableDate());
     }
 
     /**
@@ -278,7 +278,7 @@ public class IfcAppliedValueImpl extends IdEObjectImpl implements IfcAppliedValu
      */
     @Override
     public boolean isSetApplicableDate() {
-        return eIsSet(Ifc2x3tc1Package.Literals.IFC_APPLIED_VALUE__APPLICABLE_DATE);
+        return eIsSet(Ifc2x3tc1Package.eINSTANCE.getIfcAppliedValue_ApplicableDate());
     }
 
     /**
@@ -288,7 +288,7 @@ public class IfcAppliedValueImpl extends IdEObjectImpl implements IfcAppliedValu
      */
     @Override
     public IfcDateTimeSelect getFixedUntilDate() {
-        return (IfcDateTimeSelect) eGet(Ifc2x3tc1Package.Literals.IFC_APPLIED_VALUE__FIXED_UNTIL_DATE, true);
+        return (IfcDateTimeSelect) eGet(Ifc2x3tc1Package.eINSTANCE.getIfcAppliedValue_FixedUntilDate(), true);
     }
 
     /**
@@ -298,7 +298,7 @@ public class IfcAppliedValueImpl extends IdEObjectImpl implements IfcAppliedValu
      */
     @Override
     public void setFixedUntilDate(IfcDateTimeSelect newFixedUntilDate) {
-        eSet(Ifc2x3tc1Package.Literals.IFC_APPLIED_VALUE__FIXED_UNTIL_DATE, newFixedUntilDate);
+        eSet(Ifc2x3tc1Package.eINSTANCE.getIfcAppliedValue_FixedUntilDate(), newFixedUntilDate);
     }
 
     /**
@@ -308,7 +308,7 @@ public class IfcAppliedValueImpl extends IdEObjectImpl implements IfcAppliedValu
      */
     @Override
     public void unsetFixedUntilDate() {
-        eUnset(Ifc2x3tc1Package.Literals.IFC_APPLIED_VALUE__FIXED_UNTIL_DATE);
+        eUnset(Ifc2x3tc1Package.eINSTANCE.getIfcAppliedValue_FixedUntilDate());
     }
 
     /**
@@ -318,7 +318,7 @@ public class IfcAppliedValueImpl extends IdEObjectImpl implements IfcAppliedValu
      */
     @Override
     public boolean isSetFixedUntilDate() {
-        return eIsSet(Ifc2x3tc1Package.Literals.IFC_APPLIED_VALUE__FIXED_UNTIL_DATE);
+        return eIsSet(Ifc2x3tc1Package.eINSTANCE.getIfcAppliedValue_FixedUntilDate());
     }
 
     /**
@@ -329,8 +329,8 @@ public class IfcAppliedValueImpl extends IdEObjectImpl implements IfcAppliedValu
     @SuppressWarnings("unchecked")
     @Override
     public EList<IfcReferencesValueDocument> getValuesReferenced() {
-        return (EList<IfcReferencesValueDocument>) eGet(Ifc2x3tc1Package.Literals.IFC_APPLIED_VALUE__VALUES_REFERENCED,
-                true);
+        return (EList<IfcReferencesValueDocument>) eGet(
+                Ifc2x3tc1Package.eINSTANCE.getIfcAppliedValue_ValuesReferenced(), true);
     }
 
     /**
@@ -340,7 +340,7 @@ public class IfcAppliedValueImpl extends IdEObjectImpl implements IfcAppliedValu
      */
     @Override
     public void unsetValuesReferenced() {
-        eUnset(Ifc2x3tc1Package.Literals.IFC_APPLIED_VALUE__VALUES_REFERENCED);
+        eUnset(Ifc2x3tc1Package.eINSTANCE.getIfcAppliedValue_ValuesReferenced());
     }
 
     /**
@@ -350,7 +350,7 @@ public class IfcAppliedValueImpl extends IdEObjectImpl implements IfcAppliedValu
      */
     @Override
     public boolean isSetValuesReferenced() {
-        return eIsSet(Ifc2x3tc1Package.Literals.IFC_APPLIED_VALUE__VALUES_REFERENCED);
+        return eIsSet(Ifc2x3tc1Package.eINSTANCE.getIfcAppliedValue_ValuesReferenced());
     }
 
     /**
@@ -362,7 +362,7 @@ public class IfcAppliedValueImpl extends IdEObjectImpl implements IfcAppliedValu
     @Override
     public EList<IfcAppliedValueRelationship> getValueOfComponents() {
         return (EList<IfcAppliedValueRelationship>) eGet(
-                Ifc2x3tc1Package.Literals.IFC_APPLIED_VALUE__VALUE_OF_COMPONENTS, true);
+                Ifc2x3tc1Package.eINSTANCE.getIfcAppliedValue_ValueOfComponents(), true);
     }
 
     /**
@@ -372,7 +372,7 @@ public class IfcAppliedValueImpl extends IdEObjectImpl implements IfcAppliedValu
      */
     @Override
     public void unsetValueOfComponents() {
-        eUnset(Ifc2x3tc1Package.Literals.IFC_APPLIED_VALUE__VALUE_OF_COMPONENTS);
+        eUnset(Ifc2x3tc1Package.eINSTANCE.getIfcAppliedValue_ValueOfComponents());
     }
 
     /**
@@ -382,7 +382,7 @@ public class IfcAppliedValueImpl extends IdEObjectImpl implements IfcAppliedValu
      */
     @Override
     public boolean isSetValueOfComponents() {
-        return eIsSet(Ifc2x3tc1Package.Literals.IFC_APPLIED_VALUE__VALUE_OF_COMPONENTS);
+        return eIsSet(Ifc2x3tc1Package.eINSTANCE.getIfcAppliedValue_ValueOfComponents());
     }
 
     /**
@@ -393,7 +393,7 @@ public class IfcAppliedValueImpl extends IdEObjectImpl implements IfcAppliedValu
     @SuppressWarnings("unchecked")
     @Override
     public EList<IfcAppliedValueRelationship> getIsComponentIn() {
-        return (EList<IfcAppliedValueRelationship>) eGet(Ifc2x3tc1Package.Literals.IFC_APPLIED_VALUE__IS_COMPONENT_IN,
+        return (EList<IfcAppliedValueRelationship>) eGet(Ifc2x3tc1Package.eINSTANCE.getIfcAppliedValue_IsComponentIn(),
                 true);
     }
 
@@ -404,7 +404,7 @@ public class IfcAppliedValueImpl extends IdEObjectImpl implements IfcAppliedValu
      */
     @Override
     public void unsetIsComponentIn() {
-        eUnset(Ifc2x3tc1Package.Literals.IFC_APPLIED_VALUE__IS_COMPONENT_IN);
+        eUnset(Ifc2x3tc1Package.eINSTANCE.getIfcAppliedValue_IsComponentIn());
     }
 
     /**
@@ -414,7 +414,7 @@ public class IfcAppliedValueImpl extends IdEObjectImpl implements IfcAppliedValu
      */
     @Override
     public boolean isSetIsComponentIn() {
-        return eIsSet(Ifc2x3tc1Package.Literals.IFC_APPLIED_VALUE__IS_COMPONENT_IN);
+        return eIsSet(Ifc2x3tc1Package.eINSTANCE.getIfcAppliedValue_IsComponentIn());
     }
 
 } //IfcAppliedValueImpl

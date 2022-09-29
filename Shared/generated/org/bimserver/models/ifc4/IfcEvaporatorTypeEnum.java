@@ -125,10 +125,6 @@ public enum IfcEvaporatorTypeEnum implements Enumerator {
     /**
      * The '<em><b>NULL</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>NULL</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #NULL
      * @model
@@ -140,10 +136,6 @@ public enum IfcEvaporatorTypeEnum implements Enumerator {
     /**
      * The '<em><b>NOTDEFINED</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>NOTDEFINED</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #NOTDEFINED
      * @model
@@ -155,10 +147,6 @@ public enum IfcEvaporatorTypeEnum implements Enumerator {
     /**
      * The '<em><b>DIRECTEXPANSIONSHELLANDTUBE</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>DIRECTEXPANSIONSHELLANDTUBE</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #DIRECTEXPANSIONSHELLANDTUBE
      * @model
@@ -170,10 +158,6 @@ public enum IfcEvaporatorTypeEnum implements Enumerator {
     /**
      * The '<em><b>DIRECTEXPANSIONTUBEINTUBE</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>DIRECTEXPANSIONTUBEINTUBE</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #DIRECTEXPANSIONTUBEINTUBE
      * @model
@@ -185,10 +169,6 @@ public enum IfcEvaporatorTypeEnum implements Enumerator {
     /**
      * The '<em><b>DIRECTEXPANSIONBRAZEDPLATE</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>DIRECTEXPANSIONBRAZEDPLATE</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #DIRECTEXPANSIONBRAZEDPLATE
      * @model
@@ -200,10 +180,6 @@ public enum IfcEvaporatorTypeEnum implements Enumerator {
     /**
      * The '<em><b>USERDEFINED</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>USERDEFINED</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #USERDEFINED
      * @model
@@ -215,10 +191,6 @@ public enum IfcEvaporatorTypeEnum implements Enumerator {
     /**
      * The '<em><b>DIRECTEXPANSION</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>DIRECTEXPANSION</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #DIRECTEXPANSION
      * @model
@@ -230,10 +202,6 @@ public enum IfcEvaporatorTypeEnum implements Enumerator {
     /**
      * The '<em><b>SHELLANDCOIL</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>SHELLANDCOIL</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #SHELLANDCOIL
      * @model
@@ -245,10 +213,6 @@ public enum IfcEvaporatorTypeEnum implements Enumerator {
     /**
      * The '<em><b>FLOODEDSHELLANDTUBE</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>FLOODEDSHELLANDTUBE</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #FLOODEDSHELLANDTUBE
      * @model

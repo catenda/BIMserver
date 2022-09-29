@@ -51,7 +51,7 @@ public class IfcOrderActionImpl extends IfcTaskImpl implements IfcOrderAction {
      */
     @Override
     protected EClass eStaticClass() {
-        return Ifc2x3tc1Package.Literals.IFC_ORDER_ACTION;
+        return Ifc2x3tc1Package.eINSTANCE.getIfcOrderAction();
     }
 
     /**
@@ -61,7 +61,7 @@ public class IfcOrderActionImpl extends IfcTaskImpl implements IfcOrderAction {
      */
     @Override
     public String getActionID() {
-        return (String) eGet(Ifc2x3tc1Package.Literals.IFC_ORDER_ACTION__ACTION_ID, true);
+        return (String) eGet(Ifc2x3tc1Package.eINSTANCE.getIfcOrderAction_ActionID(), true);
     }
 
     /**
@@ -71,7 +71,7 @@ public class IfcOrderActionImpl extends IfcTaskImpl implements IfcOrderAction {
      */
     @Override
     public void setActionID(String newActionID) {
-        eSet(Ifc2x3tc1Package.Literals.IFC_ORDER_ACTION__ACTION_ID, newActionID);
+        eSet(Ifc2x3tc1Package.eINSTANCE.getIfcOrderAction_ActionID(), newActionID);
     }
 
 } //IfcOrderActionImpl

@@ -54,7 +54,7 @@ public class IfcVolumeMeasureImpl extends IdEObjectImpl implements IfcVolumeMeas
      */
     @Override
     protected EClass eStaticClass() {
-        return Ifc2x3tc1Package.Literals.IFC_VOLUME_MEASURE;
+        return Ifc2x3tc1Package.eINSTANCE.getIfcVolumeMeasure();
     }
 
     /**
@@ -74,7 +74,7 @@ public class IfcVolumeMeasureImpl extends IdEObjectImpl implements IfcVolumeMeas
      */
     @Override
     public double getWrappedValue() {
-        return (Double) eGet(Ifc2x3tc1Package.Literals.IFC_VOLUME_MEASURE__WRAPPED_VALUE, true);
+        return (Double) eGet(Ifc2x3tc1Package.eINSTANCE.getIfcVolumeMeasure_WrappedValue(), true);
     }
 
     /**
@@ -84,7 +84,7 @@ public class IfcVolumeMeasureImpl extends IdEObjectImpl implements IfcVolumeMeas
      */
     @Override
     public void setWrappedValue(double newWrappedValue) {
-        eSet(Ifc2x3tc1Package.Literals.IFC_VOLUME_MEASURE__WRAPPED_VALUE, newWrappedValue);
+        eSet(Ifc2x3tc1Package.eINSTANCE.getIfcVolumeMeasure_WrappedValue(), newWrappedValue);
     }
 
     /**
@@ -94,7 +94,7 @@ public class IfcVolumeMeasureImpl extends IdEObjectImpl implements IfcVolumeMeas
      */
     @Override
     public void unsetWrappedValue() {
-        eUnset(Ifc2x3tc1Package.Literals.IFC_VOLUME_MEASURE__WRAPPED_VALUE);
+        eUnset(Ifc2x3tc1Package.eINSTANCE.getIfcVolumeMeasure_WrappedValue());
     }
 
     /**
@@ -104,7 +104,7 @@ public class IfcVolumeMeasureImpl extends IdEObjectImpl implements IfcVolumeMeas
      */
     @Override
     public boolean isSetWrappedValue() {
-        return eIsSet(Ifc2x3tc1Package.Literals.IFC_VOLUME_MEASURE__WRAPPED_VALUE);
+        return eIsSet(Ifc2x3tc1Package.eINSTANCE.getIfcVolumeMeasure_WrappedValue());
     }
 
     /**
@@ -114,7 +114,7 @@ public class IfcVolumeMeasureImpl extends IdEObjectImpl implements IfcVolumeMeas
      */
     @Override
     public String getWrappedValueAsString() {
-        return (String) eGet(Ifc2x3tc1Package.Literals.IFC_VOLUME_MEASURE__WRAPPED_VALUE_AS_STRING, true);
+        return (String) eGet(Ifc2x3tc1Package.eINSTANCE.getIfcVolumeMeasure_WrappedValueAsString(), true);
     }
 
     /**
@@ -124,7 +124,7 @@ public class IfcVolumeMeasureImpl extends IdEObjectImpl implements IfcVolumeMeas
      */
     @Override
     public void setWrappedValueAsString(String newWrappedValueAsString) {
-        eSet(Ifc2x3tc1Package.Literals.IFC_VOLUME_MEASURE__WRAPPED_VALUE_AS_STRING, newWrappedValueAsString);
+        eSet(Ifc2x3tc1Package.eINSTANCE.getIfcVolumeMeasure_WrappedValueAsString(), newWrappedValueAsString);
     }
 
     /**
@@ -134,7 +134,7 @@ public class IfcVolumeMeasureImpl extends IdEObjectImpl implements IfcVolumeMeas
      */
     @Override
     public void unsetWrappedValueAsString() {
-        eUnset(Ifc2x3tc1Package.Literals.IFC_VOLUME_MEASURE__WRAPPED_VALUE_AS_STRING);
+        eUnset(Ifc2x3tc1Package.eINSTANCE.getIfcVolumeMeasure_WrappedValueAsString());
     }
 
     /**
@@ -144,7 +144,7 @@ public class IfcVolumeMeasureImpl extends IdEObjectImpl implements IfcVolumeMeas
      */
     @Override
     public boolean isSetWrappedValueAsString() {
-        return eIsSet(Ifc2x3tc1Package.Literals.IFC_VOLUME_MEASURE__WRAPPED_VALUE_AS_STRING);
+        return eIsSet(Ifc2x3tc1Package.eINSTANCE.getIfcVolumeMeasure_WrappedValueAsString());
     }
 
 } //IfcVolumeMeasureImpl

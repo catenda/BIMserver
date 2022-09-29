@@ -54,7 +54,7 @@ public class IfcRectangleProfileDefImpl extends IfcParameterizedProfileDefImpl i
      */
     @Override
     protected EClass eStaticClass() {
-        return Ifc4Package.Literals.IFC_RECTANGLE_PROFILE_DEF;
+        return Ifc4Package.eINSTANCE.getIfcRectangleProfileDef();
     }
 
     /**
@@ -64,7 +64,7 @@ public class IfcRectangleProfileDefImpl extends IfcParameterizedProfileDefImpl i
      */
     @Override
     public double getXDim() {
-        return (Double) eGet(Ifc4Package.Literals.IFC_RECTANGLE_PROFILE_DEF__XDIM, true);
+        return (Double) eGet(Ifc4Package.eINSTANCE.getIfcRectangleProfileDef_XDim(), true);
     }
 
     /**
@@ -74,7 +74,7 @@ public class IfcRectangleProfileDefImpl extends IfcParameterizedProfileDefImpl i
      */
     @Override
     public void setXDim(double newXDim) {
-        eSet(Ifc4Package.Literals.IFC_RECTANGLE_PROFILE_DEF__XDIM, newXDim);
+        eSet(Ifc4Package.eINSTANCE.getIfcRectangleProfileDef_XDim(), newXDim);
     }
 
     /**
@@ -84,7 +84,7 @@ public class IfcRectangleProfileDefImpl extends IfcParameterizedProfileDefImpl i
      */
     @Override
     public String getXDimAsString() {
-        return (String) eGet(Ifc4Package.Literals.IFC_RECTANGLE_PROFILE_DEF__XDIM_AS_STRING, true);
+        return (String) eGet(Ifc4Package.eINSTANCE.getIfcRectangleProfileDef_XDimAsString(), true);
     }
 
     /**
@@ -94,7 +94,7 @@ public class IfcRectangleProfileDefImpl extends IfcParameterizedProfileDefImpl i
      */
     @Override
     public void setXDimAsString(String newXDimAsString) {
-        eSet(Ifc4Package.Literals.IFC_RECTANGLE_PROFILE_DEF__XDIM_AS_STRING, newXDimAsString);
+        eSet(Ifc4Package.eINSTANCE.getIfcRectangleProfileDef_XDimAsString(), newXDimAsString);
     }
 
     /**
@@ -104,7 +104,7 @@ public class IfcRectangleProfileDefImpl extends IfcParameterizedProfileDefImpl i
      */
     @Override
     public double getYDim() {
-        return (Double) eGet(Ifc4Package.Literals.IFC_RECTANGLE_PROFILE_DEF__YDIM, true);
+        return (Double) eGet(Ifc4Package.eINSTANCE.getIfcRectangleProfileDef_YDim(), true);
     }
 
     /**
@@ -114,7 +114,7 @@ public class IfcRectangleProfileDefImpl extends IfcParameterizedProfileDefImpl i
      */
     @Override
     public void setYDim(double newYDim) {
-        eSet(Ifc4Package.Literals.IFC_RECTANGLE_PROFILE_DEF__YDIM, newYDim);
+        eSet(Ifc4Package.eINSTANCE.getIfcRectangleProfileDef_YDim(), newYDim);
     }
 
     /**
@@ -124,7 +124,7 @@ public class IfcRectangleProfileDefImpl extends IfcParameterizedProfileDefImpl i
      */
     @Override
     public String getYDimAsString() {
-        return (String) eGet(Ifc4Package.Literals.IFC_RECTANGLE_PROFILE_DEF__YDIM_AS_STRING, true);
+        return (String) eGet(Ifc4Package.eINSTANCE.getIfcRectangleProfileDef_YDimAsString(), true);
     }
 
     /**
@@ -134,7 +134,7 @@ public class IfcRectangleProfileDefImpl extends IfcParameterizedProfileDefImpl i
      */
     @Override
     public void setYDimAsString(String newYDimAsString) {
-        eSet(Ifc4Package.Literals.IFC_RECTANGLE_PROFILE_DEF__YDIM_AS_STRING, newYDimAsString);
+        eSet(Ifc4Package.eINSTANCE.getIfcRectangleProfileDef_YDimAsString(), newYDimAsString);
     }
 
 } //IfcRectangleProfileDefImpl

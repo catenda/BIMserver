@@ -54,7 +54,7 @@ public class IfcPolylineImpl extends IfcBoundedCurveImpl implements IfcPolyline 
      */
     @Override
     protected EClass eStaticClass() {
-        return Ifc4Package.Literals.IFC_POLYLINE;
+        return Ifc4Package.eINSTANCE.getIfcPolyline();
     }
 
     /**
@@ -65,7 +65,7 @@ public class IfcPolylineImpl extends IfcBoundedCurveImpl implements IfcPolyline 
     @SuppressWarnings("unchecked")
     @Override
     public EList<IfcCartesianPoint> getPoints() {
-        return (EList<IfcCartesianPoint>) eGet(Ifc4Package.Literals.IFC_POLYLINE__POINTS, true);
+        return (EList<IfcCartesianPoint>) eGet(Ifc4Package.eINSTANCE.getIfcPolyline_Points(), true);
     }
 
 } //IfcPolylineImpl

@@ -54,7 +54,7 @@ public class IfcSweptAreaSolidImpl extends IfcSolidModelImpl implements IfcSwept
      */
     @Override
     protected EClass eStaticClass() {
-        return Ifc4Package.Literals.IFC_SWEPT_AREA_SOLID;
+        return Ifc4Package.eINSTANCE.getIfcSweptAreaSolid();
     }
 
     /**
@@ -64,7 +64,7 @@ public class IfcSweptAreaSolidImpl extends IfcSolidModelImpl implements IfcSwept
      */
     @Override
     public IfcProfileDef getSweptArea() {
-        return (IfcProfileDef) eGet(Ifc4Package.Literals.IFC_SWEPT_AREA_SOLID__SWEPT_AREA, true);
+        return (IfcProfileDef) eGet(Ifc4Package.eINSTANCE.getIfcSweptAreaSolid_SweptArea(), true);
     }
 
     /**
@@ -74,7 +74,7 @@ public class IfcSweptAreaSolidImpl extends IfcSolidModelImpl implements IfcSwept
      */
     @Override
     public void setSweptArea(IfcProfileDef newSweptArea) {
-        eSet(Ifc4Package.Literals.IFC_SWEPT_AREA_SOLID__SWEPT_AREA, newSweptArea);
+        eSet(Ifc4Package.eINSTANCE.getIfcSweptAreaSolid_SweptArea(), newSweptArea);
     }
 
     /**
@@ -84,7 +84,7 @@ public class IfcSweptAreaSolidImpl extends IfcSolidModelImpl implements IfcSwept
      */
     @Override
     public IfcAxis2Placement3D getPosition() {
-        return (IfcAxis2Placement3D) eGet(Ifc4Package.Literals.IFC_SWEPT_AREA_SOLID__POSITION, true);
+        return (IfcAxis2Placement3D) eGet(Ifc4Package.eINSTANCE.getIfcSweptAreaSolid_Position(), true);
     }
 
     /**
@@ -94,7 +94,7 @@ public class IfcSweptAreaSolidImpl extends IfcSolidModelImpl implements IfcSwept
      */
     @Override
     public void setPosition(IfcAxis2Placement3D newPosition) {
-        eSet(Ifc4Package.Literals.IFC_SWEPT_AREA_SOLID__POSITION, newPosition);
+        eSet(Ifc4Package.eINSTANCE.getIfcSweptAreaSolid_Position(), newPosition);
     }
 
     /**
@@ -104,7 +104,7 @@ public class IfcSweptAreaSolidImpl extends IfcSolidModelImpl implements IfcSwept
      */
     @Override
     public void unsetPosition() {
-        eUnset(Ifc4Package.Literals.IFC_SWEPT_AREA_SOLID__POSITION);
+        eUnset(Ifc4Package.eINSTANCE.getIfcSweptAreaSolid_Position());
     }
 
     /**
@@ -114,7 +114,7 @@ public class IfcSweptAreaSolidImpl extends IfcSolidModelImpl implements IfcSwept
      */
     @Override
     public boolean isSetPosition() {
-        return eIsSet(Ifc4Package.Literals.IFC_SWEPT_AREA_SOLID__POSITION);
+        return eIsSet(Ifc4Package.eINSTANCE.getIfcSweptAreaSolid_Position());
     }
 
 } //IfcSweptAreaSolidImpl

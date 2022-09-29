@@ -43,10 +43,6 @@ public interface IfcStructuralAnalysisModel extends IfcSystem {
      * Returns the value of the '<em><b>Predefined Type</b></em>' attribute.
      * The literals are from the enumeration {@link org.bimserver.models.ifc4.IfcAnalysisModelTypeEnum}.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Predefined Type</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Predefined Type</em>' attribute.
      * @see org.bimserver.models.ifc4.IfcAnalysisModelTypeEnum
@@ -71,10 +67,6 @@ public interface IfcStructuralAnalysisModel extends IfcSystem {
     /**
      * Returns the value of the '<em><b>Orientation Of2 DPlane</b></em>' reference.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Orientation Of2 DPlane</em>' reference isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Orientation Of2 DPlane</em>' reference.
      * @see #isSetOrientationOf2DPlane()
@@ -126,10 +118,6 @@ public interface IfcStructuralAnalysisModel extends IfcSystem {
      * The list contents are of type {@link org.bimserver.models.ifc4.IfcStructuralLoadGroup}.
      * It is bidirectional and its opposite is '{@link org.bimserver.models.ifc4.IfcStructuralLoadGroup#getLoadGroupFor <em>Load Group For</em>}'.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Loaded By</em>' reference list isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Loaded By</em>' reference list.
      * @see #isSetLoadedBy()
@@ -168,10 +156,6 @@ public interface IfcStructuralAnalysisModel extends IfcSystem {
      * The list contents are of type {@link org.bimserver.models.ifc4.IfcStructuralResultGroup}.
      * It is bidirectional and its opposite is '{@link org.bimserver.models.ifc4.IfcStructuralResultGroup#getResultGroupFor <em>Result Group For</em>}'.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Has Results</em>' reference list isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Has Results</em>' reference list.
      * @see #isSetHasResults()
@@ -208,10 +192,6 @@ public interface IfcStructuralAnalysisModel extends IfcSystem {
     /**
      * Returns the value of the '<em><b>Shared Placement</b></em>' reference.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Shared Placement</em>' reference isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Shared Placement</em>' reference.
      * @see #isSetSharedPlacement()

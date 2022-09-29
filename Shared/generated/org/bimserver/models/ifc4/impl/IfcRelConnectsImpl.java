@@ -45,7 +45,7 @@ public class IfcRelConnectsImpl extends IfcRelationshipImpl implements IfcRelCon
      */
     @Override
     protected EClass eStaticClass() {
-        return Ifc4Package.Literals.IFC_REL_CONNECTS;
+        return Ifc4Package.eINSTANCE.getIfcRelConnects();
     }
 
 } //IfcRelConnectsImpl

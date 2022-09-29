@@ -145,10 +145,6 @@ public enum IfcFlowInstrumentTypeEnum implements Enumerator {
     /**
      * The '<em><b>NULL</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>NULL</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #NULL
      * @model
@@ -160,10 +156,6 @@ public enum IfcFlowInstrumentTypeEnum implements Enumerator {
     /**
      * The '<em><b>PRESSUREGAUGE</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>PRESSUREGAUGE</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #PRESSUREGAUGE
      * @model
@@ -175,10 +167,6 @@ public enum IfcFlowInstrumentTypeEnum implements Enumerator {
     /**
      * The '<em><b>POWERFACTORMETER</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>POWERFACTORMETER</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #POWERFACTORMETER
      * @model
@@ -190,10 +178,6 @@ public enum IfcFlowInstrumentTypeEnum implements Enumerator {
     /**
      * The '<em><b>NOTDEFINED</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>NOTDEFINED</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #NOTDEFINED
      * @model
@@ -205,10 +189,6 @@ public enum IfcFlowInstrumentTypeEnum implements Enumerator {
     /**
      * The '<em><b>VOLTMETER RMS</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>VOLTMETER RMS</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #VOLTMETER_RMS
      * @model
@@ -220,10 +200,6 @@ public enum IfcFlowInstrumentTypeEnum implements Enumerator {
     /**
      * The '<em><b>THERMOMETER</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>THERMOMETER</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #THERMOMETER
      * @model
@@ -235,10 +211,6 @@ public enum IfcFlowInstrumentTypeEnum implements Enumerator {
     /**
      * The '<em><b>FREQUENCYMETER</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>FREQUENCYMETER</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #FREQUENCYMETER
      * @model
@@ -250,10 +222,6 @@ public enum IfcFlowInstrumentTypeEnum implements Enumerator {
     /**
      * The '<em><b>VOLTMETER PEAK</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>VOLTMETER PEAK</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #VOLTMETER_PEAK
      * @model
@@ -265,10 +233,6 @@ public enum IfcFlowInstrumentTypeEnum implements Enumerator {
     /**
      * The '<em><b>AMMETER</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>AMMETER</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #AMMETER
      * @model
@@ -280,10 +244,6 @@ public enum IfcFlowInstrumentTypeEnum implements Enumerator {
     /**
      * The '<em><b>USERDEFINED</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>USERDEFINED</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #USERDEFINED
      * @model
@@ -295,10 +255,6 @@ public enum IfcFlowInstrumentTypeEnum implements Enumerator {
     /**
      * The '<em><b>PHASEANGLEMETER</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>PHASEANGLEMETER</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #PHASEANGLEMETER
      * @model

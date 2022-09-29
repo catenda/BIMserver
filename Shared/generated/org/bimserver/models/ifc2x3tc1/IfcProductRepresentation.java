@@ -43,10 +43,6 @@ public interface IfcProductRepresentation extends IdEObject {
     /**
      * Returns the value of the '<em><b>Name</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Name</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Name</em>' attribute.
      * @see #isSetName()
@@ -96,10 +92,6 @@ public interface IfcProductRepresentation extends IdEObject {
     /**
      * Returns the value of the '<em><b>Description</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Description</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Description</em>' attribute.
      * @see #isSetDescription()
@@ -151,10 +143,6 @@ public interface IfcProductRepresentation extends IdEObject {
      * The list contents are of type {@link org.bimserver.models.ifc2x3tc1.IfcRepresentation}.
      * It is bidirectional and its opposite is '{@link org.bimserver.models.ifc2x3tc1.IfcRepresentation#getOfProductRepresentation <em>Of Product Representation</em>}'.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Representations</em>' reference list isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Representations</em>' reference list.
      * @see org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package#getIfcProductRepresentation_Representations()

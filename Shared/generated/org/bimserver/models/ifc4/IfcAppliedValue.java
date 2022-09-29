@@ -48,10 +48,6 @@ public interface IfcAppliedValue extends IfcMetricValueSelect, IfcObjectReferenc
     /**
      * Returns the value of the '<em><b>Name</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Name</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Name</em>' attribute.
      * @see #isSetName()
@@ -101,10 +97,6 @@ public interface IfcAppliedValue extends IfcMetricValueSelect, IfcObjectReferenc
     /**
      * Returns the value of the '<em><b>Description</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Description</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Description</em>' attribute.
      * @see #isSetDescription()
@@ -154,10 +146,6 @@ public interface IfcAppliedValue extends IfcMetricValueSelect, IfcObjectReferenc
     /**
      * Returns the value of the '<em><b>Applied Value</b></em>' reference.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Applied Value</em>' reference isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Applied Value</em>' reference.
      * @see #isSetAppliedValue()
@@ -207,10 +195,6 @@ public interface IfcAppliedValue extends IfcMetricValueSelect, IfcObjectReferenc
     /**
      * Returns the value of the '<em><b>Unit Basis</b></em>' reference.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Unit Basis</em>' reference isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Unit Basis</em>' reference.
      * @see #isSetUnitBasis()
@@ -260,10 +244,6 @@ public interface IfcAppliedValue extends IfcMetricValueSelect, IfcObjectReferenc
     /**
      * Returns the value of the '<em><b>Applicable Date</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Applicable Date</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Applicable Date</em>' attribute.
      * @see #isSetApplicableDate()
@@ -313,10 +293,6 @@ public interface IfcAppliedValue extends IfcMetricValueSelect, IfcObjectReferenc
     /**
      * Returns the value of the '<em><b>Fixed Until Date</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Fixed Until Date</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Fixed Until Date</em>' attribute.
      * @see #isSetFixedUntilDate()
@@ -366,10 +342,6 @@ public interface IfcAppliedValue extends IfcMetricValueSelect, IfcObjectReferenc
     /**
      * Returns the value of the '<em><b>Category</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Category</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Category</em>' attribute.
      * @see #isSetCategory()
@@ -419,10 +391,6 @@ public interface IfcAppliedValue extends IfcMetricValueSelect, IfcObjectReferenc
     /**
      * Returns the value of the '<em><b>Condition</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Condition</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Condition</em>' attribute.
      * @see #isSetCondition()
@@ -473,10 +441,6 @@ public interface IfcAppliedValue extends IfcMetricValueSelect, IfcObjectReferenc
      * Returns the value of the '<em><b>Arithmetic Operator</b></em>' attribute.
      * The literals are from the enumeration {@link org.bimserver.models.ifc4.IfcArithmeticOperatorEnum}.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Arithmetic Operator</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Arithmetic Operator</em>' attribute.
      * @see org.bimserver.models.ifc4.IfcArithmeticOperatorEnum
@@ -529,10 +493,6 @@ public interface IfcAppliedValue extends IfcMetricValueSelect, IfcObjectReferenc
      * Returns the value of the '<em><b>Components</b></em>' reference list.
      * The list contents are of type {@link org.bimserver.models.ifc4.IfcAppliedValue}.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Components</em>' reference list isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Components</em>' reference list.
      * @see #isSetComponents()
@@ -568,10 +528,6 @@ public interface IfcAppliedValue extends IfcMetricValueSelect, IfcObjectReferenc
      * Returns the value of the '<em><b>Has External Reference</b></em>' reference list.
      * The list contents are of type {@link org.bimserver.models.ifc4.IfcExternalReferenceRelationship}.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Has External Reference</em>' reference list isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Has External Reference</em>' reference list.
      * @see #isSetHasExternalReference()

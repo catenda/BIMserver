@@ -57,7 +57,7 @@ public class IfcRelReferencedInSpatialStructureImpl extends IfcRelConnectsImpl
      */
     @Override
     protected EClass eStaticClass() {
-        return Ifc4Package.Literals.IFC_REL_REFERENCED_IN_SPATIAL_STRUCTURE;
+        return Ifc4Package.eINSTANCE.getIfcRelReferencedInSpatialStructure();
     }
 
     /**
@@ -68,7 +68,7 @@ public class IfcRelReferencedInSpatialStructureImpl extends IfcRelConnectsImpl
     @SuppressWarnings("unchecked")
     @Override
     public EList<IfcProduct> getRelatedElements() {
-        return (EList<IfcProduct>) eGet(Ifc4Package.Literals.IFC_REL_REFERENCED_IN_SPATIAL_STRUCTURE__RELATED_ELEMENTS,
+        return (EList<IfcProduct>) eGet(Ifc4Package.eINSTANCE.getIfcRelReferencedInSpatialStructure_RelatedElements(),
                 true);
     }
 
@@ -79,8 +79,8 @@ public class IfcRelReferencedInSpatialStructureImpl extends IfcRelConnectsImpl
      */
     @Override
     public IfcSpatialElement getRelatingStructure() {
-        return (IfcSpatialElement) eGet(
-                Ifc4Package.Literals.IFC_REL_REFERENCED_IN_SPATIAL_STRUCTURE__RELATING_STRUCTURE, true);
+        return (IfcSpatialElement) eGet(Ifc4Package.eINSTANCE.getIfcRelReferencedInSpatialStructure_RelatingStructure(),
+                true);
     }
 
     /**
@@ -90,7 +90,7 @@ public class IfcRelReferencedInSpatialStructureImpl extends IfcRelConnectsImpl
      */
     @Override
     public void setRelatingStructure(IfcSpatialElement newRelatingStructure) {
-        eSet(Ifc4Package.Literals.IFC_REL_REFERENCED_IN_SPATIAL_STRUCTURE__RELATING_STRUCTURE, newRelatingStructure);
+        eSet(Ifc4Package.eINSTANCE.getIfcRelReferencedInSpatialStructure_RelatingStructure(), newRelatingStructure);
     }
 
 } //IfcRelReferencedInSpatialStructureImpl

@@ -63,10 +63,6 @@ public interface Project extends IdEObject {
     /**
      * Returns the value of the '<em><b>Id</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Id</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Id</em>' attribute.
      * @see #setId(Integer)
@@ -89,10 +85,6 @@ public interface Project extends IdEObject {
     /**
      * Returns the value of the '<em><b>Name</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Name</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Name</em>' attribute.
      * @see #setName(String)
@@ -117,10 +109,6 @@ public interface Project extends IdEObject {
      * The list contents are of type {@link org.bimserver.models.store.User}.
      * It is bidirectional and its opposite is '{@link org.bimserver.models.store.User#getHasRightsOn <em>Has Rights On</em>}'.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Has Authorized Users</em>' reference list isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Has Authorized Users</em>' reference list.
      * @see org.bimserver.models.store.StorePackage#getProject_HasAuthorizedUsers()
@@ -135,10 +123,6 @@ public interface Project extends IdEObject {
      * The list contents are of type {@link org.bimserver.models.store.ConcreteRevision}.
      * It is bidirectional and its opposite is '{@link org.bimserver.models.store.ConcreteRevision#getProject <em>Project</em>}'.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Concrete Revisions</em>' reference list isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Concrete Revisions</em>' reference list.
      * @see org.bimserver.models.store.StorePackage#getProject_ConcreteRevisions()
@@ -153,10 +137,6 @@ public interface Project extends IdEObject {
      * The list contents are of type {@link org.bimserver.models.store.Revision}.
      * It is bidirectional and its opposite is '{@link org.bimserver.models.store.Revision#getProject <em>Project</em>}'.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Revisions</em>' reference list isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Revisions</em>' reference list.
      * @see org.bimserver.models.store.StorePackage#getProject_Revisions()
@@ -169,10 +149,6 @@ public interface Project extends IdEObject {
     /**
      * Returns the value of the '<em><b>Last Concrete Revision</b></em>' reference.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Last Concrete Revision</em>' reference isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Last Concrete Revision</em>' reference.
      * @see #setLastConcreteRevision(ConcreteRevision)
@@ -195,10 +171,6 @@ public interface Project extends IdEObject {
     /**
      * Returns the value of the '<em><b>Last Revision</b></em>' reference.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Last Revision</em>' reference isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Last Revision</em>' reference.
      * @see #setLastRevision(Revision)
@@ -223,10 +195,6 @@ public interface Project extends IdEObject {
      * The list contents are of type {@link org.bimserver.models.store.Checkout}.
      * It is bidirectional and its opposite is '{@link org.bimserver.models.store.Checkout#getProject <em>Project</em>}'.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Checkouts</em>' reference list isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Checkouts</em>' reference list.
      * @see org.bimserver.models.store.StorePackage#getProject_Checkouts()
@@ -240,10 +208,6 @@ public interface Project extends IdEObject {
      * Returns the value of the '<em><b>State</b></em>' attribute.
      * The literals are from the enumeration {@link org.bimserver.models.store.ObjectState}.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>State</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>State</em>' attribute.
      * @see org.bimserver.models.store.ObjectState
@@ -268,10 +232,6 @@ public interface Project extends IdEObject {
     /**
      * Returns the value of the '<em><b>Created Date</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Created Date</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Created Date</em>' attribute.
      * @see #setCreatedDate(Date)
@@ -294,10 +254,6 @@ public interface Project extends IdEObject {
     /**
      * Returns the value of the '<em><b>Created By</b></em>' reference.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Created By</em>' reference isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Created By</em>' reference.
      * @see #setCreatedBy(User)
@@ -321,10 +277,6 @@ public interface Project extends IdEObject {
      * Returns the value of the '<em><b>Geo Tag</b></em>' reference.
      * It is bidirectional and its opposite is '{@link org.bimserver.models.store.GeoTag#getProjects <em>Projects</em>}'.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Geo Tag</em>' reference isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Geo Tag</em>' reference.
      * @see #setGeoTag(GeoTag)
@@ -350,10 +302,6 @@ public interface Project extends IdEObject {
      * The list contents are of type {@link org.bimserver.models.store.Project}.
      * It is bidirectional and its opposite is '{@link org.bimserver.models.store.Project#getParent <em>Parent</em>}'.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Sub Projects</em>' reference list isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Sub Projects</em>' reference list.
      * @see org.bimserver.models.store.StorePackage#getProject_SubProjects()
@@ -367,10 +315,6 @@ public interface Project extends IdEObject {
      * Returns the value of the '<em><b>Parent</b></em>' reference.
      * It is bidirectional and its opposite is '{@link org.bimserver.models.store.Project#getSubProjects <em>Sub Projects</em>}'.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Parent</em>' reference isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Parent</em>' reference.
      * @see #setParent(Project)
@@ -394,10 +338,6 @@ public interface Project extends IdEObject {
     /**
      * Returns the value of the '<em><b>Description</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Description</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Description</em>' attribute.
      * @see #setDescription(String)
@@ -421,10 +361,6 @@ public interface Project extends IdEObject {
      * Returns the value of the '<em><b>Export Length Measure Prefix</b></em>' attribute.
      * The literals are from the enumeration {@link org.bimserver.models.store.SIPrefix}.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Export Length Measure Prefix</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Export Length Measure Prefix</em>' attribute.
      * @see org.bimserver.models.store.SIPrefix
@@ -451,10 +387,6 @@ public interface Project extends IdEObject {
      * The list contents are of type {@link org.bimserver.models.store.ExtendedData}.
      * It is bidirectional and its opposite is '{@link org.bimserver.models.store.ExtendedData#getProject <em>Project</em>}'.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Extended Data</em>' reference list isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Extended Data</em>' reference list.
      * @see org.bimserver.models.store.StorePackage#getProject_ExtendedData()
@@ -469,10 +401,6 @@ public interface Project extends IdEObject {
      * The list contents are of type {@link org.bimserver.models.store.Service}.
      * It is bidirectional and its opposite is '{@link org.bimserver.models.store.Service#getProject <em>Project</em>}'.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Services</em>' reference list isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Services</em>' reference list.
      * @see org.bimserver.models.store.StorePackage#getProject_Services()
@@ -487,10 +415,6 @@ public interface Project extends IdEObject {
      * The list contents are of type {@link org.bimserver.models.log.ProjectRelated}.
      * It is bidirectional and its opposite is '{@link org.bimserver.models.log.ProjectRelated#getProject <em>Project</em>}'.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Logs</em>' reference list isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Logs</em>' reference list.
      * @see org.bimserver.models.store.StorePackage#getProject_Logs()

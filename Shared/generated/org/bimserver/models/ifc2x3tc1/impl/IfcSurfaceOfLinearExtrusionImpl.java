@@ -54,7 +54,7 @@ public class IfcSurfaceOfLinearExtrusionImpl extends IfcSweptSurfaceImpl impleme
      */
     @Override
     protected EClass eStaticClass() {
-        return Ifc2x3tc1Package.Literals.IFC_SURFACE_OF_LINEAR_EXTRUSION;
+        return Ifc2x3tc1Package.eINSTANCE.getIfcSurfaceOfLinearExtrusion();
     }
 
     /**
@@ -64,7 +64,7 @@ public class IfcSurfaceOfLinearExtrusionImpl extends IfcSweptSurfaceImpl impleme
      */
     @Override
     public IfcDirection getExtrudedDirection() {
-        return (IfcDirection) eGet(Ifc2x3tc1Package.Literals.IFC_SURFACE_OF_LINEAR_EXTRUSION__EXTRUDED_DIRECTION, true);
+        return (IfcDirection) eGet(Ifc2x3tc1Package.eINSTANCE.getIfcSurfaceOfLinearExtrusion_ExtrudedDirection(), true);
     }
 
     /**
@@ -74,7 +74,7 @@ public class IfcSurfaceOfLinearExtrusionImpl extends IfcSweptSurfaceImpl impleme
      */
     @Override
     public void setExtrudedDirection(IfcDirection newExtrudedDirection) {
-        eSet(Ifc2x3tc1Package.Literals.IFC_SURFACE_OF_LINEAR_EXTRUSION__EXTRUDED_DIRECTION, newExtrudedDirection);
+        eSet(Ifc2x3tc1Package.eINSTANCE.getIfcSurfaceOfLinearExtrusion_ExtrudedDirection(), newExtrudedDirection);
     }
 
     /**
@@ -84,7 +84,7 @@ public class IfcSurfaceOfLinearExtrusionImpl extends IfcSweptSurfaceImpl impleme
      */
     @Override
     public double getDepth() {
-        return (Double) eGet(Ifc2x3tc1Package.Literals.IFC_SURFACE_OF_LINEAR_EXTRUSION__DEPTH, true);
+        return (Double) eGet(Ifc2x3tc1Package.eINSTANCE.getIfcSurfaceOfLinearExtrusion_Depth(), true);
     }
 
     /**
@@ -94,7 +94,7 @@ public class IfcSurfaceOfLinearExtrusionImpl extends IfcSweptSurfaceImpl impleme
      */
     @Override
     public void setDepth(double newDepth) {
-        eSet(Ifc2x3tc1Package.Literals.IFC_SURFACE_OF_LINEAR_EXTRUSION__DEPTH, newDepth);
+        eSet(Ifc2x3tc1Package.eINSTANCE.getIfcSurfaceOfLinearExtrusion_Depth(), newDepth);
     }
 
     /**
@@ -104,7 +104,7 @@ public class IfcSurfaceOfLinearExtrusionImpl extends IfcSweptSurfaceImpl impleme
      */
     @Override
     public String getDepthAsString() {
-        return (String) eGet(Ifc2x3tc1Package.Literals.IFC_SURFACE_OF_LINEAR_EXTRUSION__DEPTH_AS_STRING, true);
+        return (String) eGet(Ifc2x3tc1Package.eINSTANCE.getIfcSurfaceOfLinearExtrusion_DepthAsString(), true);
     }
 
     /**
@@ -114,7 +114,7 @@ public class IfcSurfaceOfLinearExtrusionImpl extends IfcSweptSurfaceImpl impleme
      */
     @Override
     public void setDepthAsString(String newDepthAsString) {
-        eSet(Ifc2x3tc1Package.Literals.IFC_SURFACE_OF_LINEAR_EXTRUSION__DEPTH_AS_STRING, newDepthAsString);
+        eSet(Ifc2x3tc1Package.eINSTANCE.getIfcSurfaceOfLinearExtrusion_DepthAsString(), newDepthAsString);
     }
 
 } //IfcSurfaceOfLinearExtrusionImpl

@@ -145,10 +145,6 @@ public enum IfcReflectanceMethodEnum implements Enumerator {
     /**
      * The '<em><b>NULL</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>NULL</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #NULL
      * @model
@@ -160,10 +156,6 @@ public enum IfcReflectanceMethodEnum implements Enumerator {
     /**
      * The '<em><b>GLASS</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>GLASS</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #GLASS
      * @model
@@ -175,10 +167,6 @@ public enum IfcReflectanceMethodEnum implements Enumerator {
     /**
      * The '<em><b>NOTDEFINED</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>NOTDEFINED</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #NOTDEFINED
      * @model
@@ -190,10 +178,6 @@ public enum IfcReflectanceMethodEnum implements Enumerator {
     /**
      * The '<em><b>MATT</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>MATT</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #MATT
      * @model
@@ -205,10 +189,6 @@ public enum IfcReflectanceMethodEnum implements Enumerator {
     /**
      * The '<em><b>FLAT</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>FLAT</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #FLAT
      * @model
@@ -220,10 +200,6 @@ public enum IfcReflectanceMethodEnum implements Enumerator {
     /**
      * The '<em><b>PHONG</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>PHONG</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #PHONG
      * @model
@@ -235,10 +211,6 @@ public enum IfcReflectanceMethodEnum implements Enumerator {
     /**
      * The '<em><b>BLINN</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>BLINN</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #BLINN
      * @model
@@ -250,10 +222,6 @@ public enum IfcReflectanceMethodEnum implements Enumerator {
     /**
      * The '<em><b>METAL</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>METAL</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #METAL
      * @model
@@ -265,10 +233,6 @@ public enum IfcReflectanceMethodEnum implements Enumerator {
     /**
      * The '<em><b>STRAUSS</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>STRAUSS</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #STRAUSS
      * @model
@@ -280,10 +244,6 @@ public enum IfcReflectanceMethodEnum implements Enumerator {
     /**
      * The '<em><b>PLASTIC</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>PLASTIC</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #PLASTIC
      * @model
@@ -295,10 +255,6 @@ public enum IfcReflectanceMethodEnum implements Enumerator {
     /**
      * The '<em><b>MIRROR</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>MIRROR</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #MIRROR
      * @model

@@ -38,10 +38,6 @@ public interface IfcBoundaryFaceCondition extends IfcBoundaryCondition {
     /**
      * Returns the value of the '<em><b>Translational Stiffness By Area X</b></em>' reference.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Translational Stiffness By Area X</em>' reference isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Translational Stiffness By Area X</em>' reference.
      * @see #isSetTranslationalStiffnessByAreaX()
@@ -91,10 +87,6 @@ public interface IfcBoundaryFaceCondition extends IfcBoundaryCondition {
     /**
      * Returns the value of the '<em><b>Translational Stiffness By Area Y</b></em>' reference.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Translational Stiffness By Area Y</em>' reference isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Translational Stiffness By Area Y</em>' reference.
      * @see #isSetTranslationalStiffnessByAreaY()
@@ -144,10 +136,6 @@ public interface IfcBoundaryFaceCondition extends IfcBoundaryCondition {
     /**
      * Returns the value of the '<em><b>Translational Stiffness By Area Z</b></em>' reference.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Translational Stiffness By Area Z</em>' reference isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Translational Stiffness By Area Z</em>' reference.
      * @see #isSetTranslationalStiffnessByAreaZ()

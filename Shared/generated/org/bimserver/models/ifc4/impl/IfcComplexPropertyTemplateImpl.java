@@ -57,7 +57,7 @@ public class IfcComplexPropertyTemplateImpl extends IfcPropertyTemplateImpl impl
      */
     @Override
     protected EClass eStaticClass() {
-        return Ifc4Package.Literals.IFC_COMPLEX_PROPERTY_TEMPLATE;
+        return Ifc4Package.eINSTANCE.getIfcComplexPropertyTemplate();
     }
 
     /**
@@ -67,7 +67,7 @@ public class IfcComplexPropertyTemplateImpl extends IfcPropertyTemplateImpl impl
      */
     @Override
     public String getUsageName() {
-        return (String) eGet(Ifc4Package.Literals.IFC_COMPLEX_PROPERTY_TEMPLATE__USAGE_NAME, true);
+        return (String) eGet(Ifc4Package.eINSTANCE.getIfcComplexPropertyTemplate_UsageName(), true);
     }
 
     /**
@@ -77,7 +77,7 @@ public class IfcComplexPropertyTemplateImpl extends IfcPropertyTemplateImpl impl
      */
     @Override
     public void setUsageName(String newUsageName) {
-        eSet(Ifc4Package.Literals.IFC_COMPLEX_PROPERTY_TEMPLATE__USAGE_NAME, newUsageName);
+        eSet(Ifc4Package.eINSTANCE.getIfcComplexPropertyTemplate_UsageName(), newUsageName);
     }
 
     /**
@@ -87,7 +87,7 @@ public class IfcComplexPropertyTemplateImpl extends IfcPropertyTemplateImpl impl
      */
     @Override
     public void unsetUsageName() {
-        eUnset(Ifc4Package.Literals.IFC_COMPLEX_PROPERTY_TEMPLATE__USAGE_NAME);
+        eUnset(Ifc4Package.eINSTANCE.getIfcComplexPropertyTemplate_UsageName());
     }
 
     /**
@@ -97,7 +97,7 @@ public class IfcComplexPropertyTemplateImpl extends IfcPropertyTemplateImpl impl
      */
     @Override
     public boolean isSetUsageName() {
-        return eIsSet(Ifc4Package.Literals.IFC_COMPLEX_PROPERTY_TEMPLATE__USAGE_NAME);
+        return eIsSet(Ifc4Package.eINSTANCE.getIfcComplexPropertyTemplate_UsageName());
     }
 
     /**
@@ -108,7 +108,7 @@ public class IfcComplexPropertyTemplateImpl extends IfcPropertyTemplateImpl impl
     @Override
     public IfcComplexPropertyTemplateTypeEnum getTemplateType() {
         return (IfcComplexPropertyTemplateTypeEnum) eGet(
-                Ifc4Package.Literals.IFC_COMPLEX_PROPERTY_TEMPLATE__TEMPLATE_TYPE, true);
+                Ifc4Package.eINSTANCE.getIfcComplexPropertyTemplate_TemplateType(), true);
     }
 
     /**
@@ -118,7 +118,7 @@ public class IfcComplexPropertyTemplateImpl extends IfcPropertyTemplateImpl impl
      */
     @Override
     public void setTemplateType(IfcComplexPropertyTemplateTypeEnum newTemplateType) {
-        eSet(Ifc4Package.Literals.IFC_COMPLEX_PROPERTY_TEMPLATE__TEMPLATE_TYPE, newTemplateType);
+        eSet(Ifc4Package.eINSTANCE.getIfcComplexPropertyTemplate_TemplateType(), newTemplateType);
     }
 
     /**
@@ -128,7 +128,7 @@ public class IfcComplexPropertyTemplateImpl extends IfcPropertyTemplateImpl impl
      */
     @Override
     public void unsetTemplateType() {
-        eUnset(Ifc4Package.Literals.IFC_COMPLEX_PROPERTY_TEMPLATE__TEMPLATE_TYPE);
+        eUnset(Ifc4Package.eINSTANCE.getIfcComplexPropertyTemplate_TemplateType());
     }
 
     /**
@@ -138,7 +138,7 @@ public class IfcComplexPropertyTemplateImpl extends IfcPropertyTemplateImpl impl
      */
     @Override
     public boolean isSetTemplateType() {
-        return eIsSet(Ifc4Package.Literals.IFC_COMPLEX_PROPERTY_TEMPLATE__TEMPLATE_TYPE);
+        return eIsSet(Ifc4Package.eINSTANCE.getIfcComplexPropertyTemplate_TemplateType());
     }
 
     /**
@@ -150,7 +150,7 @@ public class IfcComplexPropertyTemplateImpl extends IfcPropertyTemplateImpl impl
     @Override
     public EList<IfcPropertyTemplate> getHasPropertyTemplates() {
         return (EList<IfcPropertyTemplate>) eGet(
-                Ifc4Package.Literals.IFC_COMPLEX_PROPERTY_TEMPLATE__HAS_PROPERTY_TEMPLATES, true);
+                Ifc4Package.eINSTANCE.getIfcComplexPropertyTemplate_HasPropertyTemplates(), true);
     }
 
     /**
@@ -160,7 +160,7 @@ public class IfcComplexPropertyTemplateImpl extends IfcPropertyTemplateImpl impl
      */
     @Override
     public void unsetHasPropertyTemplates() {
-        eUnset(Ifc4Package.Literals.IFC_COMPLEX_PROPERTY_TEMPLATE__HAS_PROPERTY_TEMPLATES);
+        eUnset(Ifc4Package.eINSTANCE.getIfcComplexPropertyTemplate_HasPropertyTemplates());
     }
 
     /**
@@ -170,7 +170,7 @@ public class IfcComplexPropertyTemplateImpl extends IfcPropertyTemplateImpl impl
      */
     @Override
     public boolean isSetHasPropertyTemplates() {
-        return eIsSet(Ifc4Package.Literals.IFC_COMPLEX_PROPERTY_TEMPLATE__HAS_PROPERTY_TEMPLATES);
+        return eIsSet(Ifc4Package.eINSTANCE.getIfcComplexPropertyTemplate_HasPropertyTemplates());
     }
 
 } //IfcComplexPropertyTemplateImpl

@@ -54,7 +54,7 @@ public class IfcRelOverridesPropertiesImpl extends IfcRelDefinesByPropertiesImpl
      */
     @Override
     protected EClass eStaticClass() {
-        return Ifc2x3tc1Package.Literals.IFC_REL_OVERRIDES_PROPERTIES;
+        return Ifc2x3tc1Package.eINSTANCE.getIfcRelOverridesProperties();
     }
 
     /**
@@ -65,7 +65,7 @@ public class IfcRelOverridesPropertiesImpl extends IfcRelDefinesByPropertiesImpl
     @SuppressWarnings("unchecked")
     @Override
     public EList<IfcProperty> getOverridingProperties() {
-        return (EList<IfcProperty>) eGet(Ifc2x3tc1Package.Literals.IFC_REL_OVERRIDES_PROPERTIES__OVERRIDING_PROPERTIES,
+        return (EList<IfcProperty>) eGet(Ifc2x3tc1Package.eINSTANCE.getIfcRelOverridesProperties_OverridingProperties(),
                 true);
     }
 

@@ -63,7 +63,7 @@ public class IfcContextImpl extends IfcObjectDefinitionImpl implements IfcContex
      */
     @Override
     protected EClass eStaticClass() {
-        return Ifc4Package.Literals.IFC_CONTEXT;
+        return Ifc4Package.eINSTANCE.getIfcContext();
     }
 
     /**
@@ -73,7 +73,7 @@ public class IfcContextImpl extends IfcObjectDefinitionImpl implements IfcContex
      */
     @Override
     public String getObjectType() {
-        return (String) eGet(Ifc4Package.Literals.IFC_CONTEXT__OBJECT_TYPE, true);
+        return (String) eGet(Ifc4Package.eINSTANCE.getIfcContext_ObjectType(), true);
     }
 
     /**
@@ -83,7 +83,7 @@ public class IfcContextImpl extends IfcObjectDefinitionImpl implements IfcContex
      */
     @Override
     public void setObjectType(String newObjectType) {
-        eSet(Ifc4Package.Literals.IFC_CONTEXT__OBJECT_TYPE, newObjectType);
+        eSet(Ifc4Package.eINSTANCE.getIfcContext_ObjectType(), newObjectType);
     }
 
     /**
@@ -93,7 +93,7 @@ public class IfcContextImpl extends IfcObjectDefinitionImpl implements IfcContex
      */
     @Override
     public void unsetObjectType() {
-        eUnset(Ifc4Package.Literals.IFC_CONTEXT__OBJECT_TYPE);
+        eUnset(Ifc4Package.eINSTANCE.getIfcContext_ObjectType());
     }
 
     /**
@@ -103,7 +103,7 @@ public class IfcContextImpl extends IfcObjectDefinitionImpl implements IfcContex
      */
     @Override
     public boolean isSetObjectType() {
-        return eIsSet(Ifc4Package.Literals.IFC_CONTEXT__OBJECT_TYPE);
+        return eIsSet(Ifc4Package.eINSTANCE.getIfcContext_ObjectType());
     }
 
     /**
@@ -113,7 +113,7 @@ public class IfcContextImpl extends IfcObjectDefinitionImpl implements IfcContex
      */
     @Override
     public String getLongName() {
-        return (String) eGet(Ifc4Package.Literals.IFC_CONTEXT__LONG_NAME, true);
+        return (String) eGet(Ifc4Package.eINSTANCE.getIfcContext_LongName(), true);
     }
 
     /**
@@ -123,7 +123,7 @@ public class IfcContextImpl extends IfcObjectDefinitionImpl implements IfcContex
      */
     @Override
     public void setLongName(String newLongName) {
-        eSet(Ifc4Package.Literals.IFC_CONTEXT__LONG_NAME, newLongName);
+        eSet(Ifc4Package.eINSTANCE.getIfcContext_LongName(), newLongName);
     }
 
     /**
@@ -133,7 +133,7 @@ public class IfcContextImpl extends IfcObjectDefinitionImpl implements IfcContex
      */
     @Override
     public void unsetLongName() {
-        eUnset(Ifc4Package.Literals.IFC_CONTEXT__LONG_NAME);
+        eUnset(Ifc4Package.eINSTANCE.getIfcContext_LongName());
     }
 
     /**
@@ -143,7 +143,7 @@ public class IfcContextImpl extends IfcObjectDefinitionImpl implements IfcContex
      */
     @Override
     public boolean isSetLongName() {
-        return eIsSet(Ifc4Package.Literals.IFC_CONTEXT__LONG_NAME);
+        return eIsSet(Ifc4Package.eINSTANCE.getIfcContext_LongName());
     }
 
     /**
@@ -153,7 +153,7 @@ public class IfcContextImpl extends IfcObjectDefinitionImpl implements IfcContex
      */
     @Override
     public String getPhase() {
-        return (String) eGet(Ifc4Package.Literals.IFC_CONTEXT__PHASE, true);
+        return (String) eGet(Ifc4Package.eINSTANCE.getIfcContext_Phase(), true);
     }
 
     /**
@@ -163,7 +163,7 @@ public class IfcContextImpl extends IfcObjectDefinitionImpl implements IfcContex
      */
     @Override
     public void setPhase(String newPhase) {
-        eSet(Ifc4Package.Literals.IFC_CONTEXT__PHASE, newPhase);
+        eSet(Ifc4Package.eINSTANCE.getIfcContext_Phase(), newPhase);
     }
 
     /**
@@ -173,7 +173,7 @@ public class IfcContextImpl extends IfcObjectDefinitionImpl implements IfcContex
      */
     @Override
     public void unsetPhase() {
-        eUnset(Ifc4Package.Literals.IFC_CONTEXT__PHASE);
+        eUnset(Ifc4Package.eINSTANCE.getIfcContext_Phase());
     }
 
     /**
@@ -183,7 +183,7 @@ public class IfcContextImpl extends IfcObjectDefinitionImpl implements IfcContex
      */
     @Override
     public boolean isSetPhase() {
-        return eIsSet(Ifc4Package.Literals.IFC_CONTEXT__PHASE);
+        return eIsSet(Ifc4Package.eINSTANCE.getIfcContext_Phase());
     }
 
     /**
@@ -194,7 +194,8 @@ public class IfcContextImpl extends IfcObjectDefinitionImpl implements IfcContex
     @SuppressWarnings("unchecked")
     @Override
     public EList<IfcRepresentationContext> getRepresentationContexts() {
-        return (EList<IfcRepresentationContext>) eGet(Ifc4Package.Literals.IFC_CONTEXT__REPRESENTATION_CONTEXTS, true);
+        return (EList<IfcRepresentationContext>) eGet(Ifc4Package.eINSTANCE.getIfcContext_RepresentationContexts(),
+                true);
     }
 
     /**
@@ -204,7 +205,7 @@ public class IfcContextImpl extends IfcObjectDefinitionImpl implements IfcContex
      */
     @Override
     public void unsetRepresentationContexts() {
-        eUnset(Ifc4Package.Literals.IFC_CONTEXT__REPRESENTATION_CONTEXTS);
+        eUnset(Ifc4Package.eINSTANCE.getIfcContext_RepresentationContexts());
     }
 
     /**
@@ -214,7 +215,7 @@ public class IfcContextImpl extends IfcObjectDefinitionImpl implements IfcContex
      */
     @Override
     public boolean isSetRepresentationContexts() {
-        return eIsSet(Ifc4Package.Literals.IFC_CONTEXT__REPRESENTATION_CONTEXTS);
+        return eIsSet(Ifc4Package.eINSTANCE.getIfcContext_RepresentationContexts());
     }
 
     /**
@@ -224,7 +225,7 @@ public class IfcContextImpl extends IfcObjectDefinitionImpl implements IfcContex
      */
     @Override
     public IfcUnitAssignment getUnitsInContext() {
-        return (IfcUnitAssignment) eGet(Ifc4Package.Literals.IFC_CONTEXT__UNITS_IN_CONTEXT, true);
+        return (IfcUnitAssignment) eGet(Ifc4Package.eINSTANCE.getIfcContext_UnitsInContext(), true);
     }
 
     /**
@@ -234,7 +235,7 @@ public class IfcContextImpl extends IfcObjectDefinitionImpl implements IfcContex
      */
     @Override
     public void setUnitsInContext(IfcUnitAssignment newUnitsInContext) {
-        eSet(Ifc4Package.Literals.IFC_CONTEXT__UNITS_IN_CONTEXT, newUnitsInContext);
+        eSet(Ifc4Package.eINSTANCE.getIfcContext_UnitsInContext(), newUnitsInContext);
     }
 
     /**
@@ -244,7 +245,7 @@ public class IfcContextImpl extends IfcObjectDefinitionImpl implements IfcContex
      */
     @Override
     public void unsetUnitsInContext() {
-        eUnset(Ifc4Package.Literals.IFC_CONTEXT__UNITS_IN_CONTEXT);
+        eUnset(Ifc4Package.eINSTANCE.getIfcContext_UnitsInContext());
     }
 
     /**
@@ -254,7 +255,7 @@ public class IfcContextImpl extends IfcObjectDefinitionImpl implements IfcContex
      */
     @Override
     public boolean isSetUnitsInContext() {
-        return eIsSet(Ifc4Package.Literals.IFC_CONTEXT__UNITS_IN_CONTEXT);
+        return eIsSet(Ifc4Package.eINSTANCE.getIfcContext_UnitsInContext());
     }
 
     /**
@@ -265,7 +266,7 @@ public class IfcContextImpl extends IfcObjectDefinitionImpl implements IfcContex
     @SuppressWarnings("unchecked")
     @Override
     public EList<IfcRelDefinesByProperties> getIsDefinedBy() {
-        return (EList<IfcRelDefinesByProperties>) eGet(Ifc4Package.Literals.IFC_CONTEXT__IS_DEFINED_BY, true);
+        return (EList<IfcRelDefinesByProperties>) eGet(Ifc4Package.eINSTANCE.getIfcContext_IsDefinedBy(), true);
     }
 
     /**
@@ -275,7 +276,7 @@ public class IfcContextImpl extends IfcObjectDefinitionImpl implements IfcContex
      */
     @Override
     public void unsetIsDefinedBy() {
-        eUnset(Ifc4Package.Literals.IFC_CONTEXT__IS_DEFINED_BY);
+        eUnset(Ifc4Package.eINSTANCE.getIfcContext_IsDefinedBy());
     }
 
     /**
@@ -285,7 +286,7 @@ public class IfcContextImpl extends IfcObjectDefinitionImpl implements IfcContex
      */
     @Override
     public boolean isSetIsDefinedBy() {
-        return eIsSet(Ifc4Package.Literals.IFC_CONTEXT__IS_DEFINED_BY);
+        return eIsSet(Ifc4Package.eINSTANCE.getIfcContext_IsDefinedBy());
     }
 
     /**
@@ -296,7 +297,7 @@ public class IfcContextImpl extends IfcObjectDefinitionImpl implements IfcContex
     @SuppressWarnings("unchecked")
     @Override
     public EList<IfcRelDeclares> getDeclares() {
-        return (EList<IfcRelDeclares>) eGet(Ifc4Package.Literals.IFC_CONTEXT__DECLARES, true);
+        return (EList<IfcRelDeclares>) eGet(Ifc4Package.eINSTANCE.getIfcContext_Declares(), true);
     }
 
     /**
@@ -306,7 +307,7 @@ public class IfcContextImpl extends IfcObjectDefinitionImpl implements IfcContex
      */
     @Override
     public void unsetDeclares() {
-        eUnset(Ifc4Package.Literals.IFC_CONTEXT__DECLARES);
+        eUnset(Ifc4Package.eINSTANCE.getIfcContext_Declares());
     }
 
     /**
@@ -316,7 +317,7 @@ public class IfcContextImpl extends IfcObjectDefinitionImpl implements IfcContex
      */
     @Override
     public boolean isSetDeclares() {
-        return eIsSet(Ifc4Package.Literals.IFC_CONTEXT__DECLARES);
+        return eIsSet(Ifc4Package.eINSTANCE.getIfcContext_Declares());
     }
 
 } //IfcContextImpl

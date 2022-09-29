@@ -56,7 +56,7 @@ public class IfcBooleanResultImpl extends IfcGeometricRepresentationItemImpl imp
      */
     @Override
     protected EClass eStaticClass() {
-        return Ifc2x3tc1Package.Literals.IFC_BOOLEAN_RESULT;
+        return Ifc2x3tc1Package.eINSTANCE.getIfcBooleanResult();
     }
 
     /**
@@ -66,7 +66,7 @@ public class IfcBooleanResultImpl extends IfcGeometricRepresentationItemImpl imp
      */
     @Override
     public IfcBooleanOperator getOperator() {
-        return (IfcBooleanOperator) eGet(Ifc2x3tc1Package.Literals.IFC_BOOLEAN_RESULT__OPERATOR, true);
+        return (IfcBooleanOperator) eGet(Ifc2x3tc1Package.eINSTANCE.getIfcBooleanResult_Operator(), true);
     }
 
     /**
@@ -76,7 +76,7 @@ public class IfcBooleanResultImpl extends IfcGeometricRepresentationItemImpl imp
      */
     @Override
     public void setOperator(IfcBooleanOperator newOperator) {
-        eSet(Ifc2x3tc1Package.Literals.IFC_BOOLEAN_RESULT__OPERATOR, newOperator);
+        eSet(Ifc2x3tc1Package.eINSTANCE.getIfcBooleanResult_Operator(), newOperator);
     }
 
     /**
@@ -86,7 +86,7 @@ public class IfcBooleanResultImpl extends IfcGeometricRepresentationItemImpl imp
      */
     @Override
     public IfcBooleanOperand getFirstOperand() {
-        return (IfcBooleanOperand) eGet(Ifc2x3tc1Package.Literals.IFC_BOOLEAN_RESULT__FIRST_OPERAND, true);
+        return (IfcBooleanOperand) eGet(Ifc2x3tc1Package.eINSTANCE.getIfcBooleanResult_FirstOperand(), true);
     }
 
     /**
@@ -96,7 +96,7 @@ public class IfcBooleanResultImpl extends IfcGeometricRepresentationItemImpl imp
      */
     @Override
     public void setFirstOperand(IfcBooleanOperand newFirstOperand) {
-        eSet(Ifc2x3tc1Package.Literals.IFC_BOOLEAN_RESULT__FIRST_OPERAND, newFirstOperand);
+        eSet(Ifc2x3tc1Package.eINSTANCE.getIfcBooleanResult_FirstOperand(), newFirstOperand);
     }
 
     /**
@@ -106,7 +106,7 @@ public class IfcBooleanResultImpl extends IfcGeometricRepresentationItemImpl imp
      */
     @Override
     public IfcBooleanOperand getSecondOperand() {
-        return (IfcBooleanOperand) eGet(Ifc2x3tc1Package.Literals.IFC_BOOLEAN_RESULT__SECOND_OPERAND, true);
+        return (IfcBooleanOperand) eGet(Ifc2x3tc1Package.eINSTANCE.getIfcBooleanResult_SecondOperand(), true);
     }
 
     /**
@@ -116,7 +116,7 @@ public class IfcBooleanResultImpl extends IfcGeometricRepresentationItemImpl imp
      */
     @Override
     public void setSecondOperand(IfcBooleanOperand newSecondOperand) {
-        eSet(Ifc2x3tc1Package.Literals.IFC_BOOLEAN_RESULT__SECOND_OPERAND, newSecondOperand);
+        eSet(Ifc2x3tc1Package.eINSTANCE.getIfcBooleanResult_SecondOperand(), newSecondOperand);
     }
 
     /**
@@ -126,7 +126,7 @@ public class IfcBooleanResultImpl extends IfcGeometricRepresentationItemImpl imp
      */
     @Override
     public long getDim() {
-        return (Long) eGet(Ifc2x3tc1Package.Literals.IFC_BOOLEAN_RESULT__DIM, true);
+        return (Long) eGet(Ifc2x3tc1Package.eINSTANCE.getIfcBooleanResult_Dim(), true);
     }
 
     /**
@@ -136,7 +136,7 @@ public class IfcBooleanResultImpl extends IfcGeometricRepresentationItemImpl imp
      */
     @Override
     public void setDim(long newDim) {
-        eSet(Ifc2x3tc1Package.Literals.IFC_BOOLEAN_RESULT__DIM, newDim);
+        eSet(Ifc2x3tc1Package.eINSTANCE.getIfcBooleanResult_Dim(), newDim);
     }
 
     /**
@@ -146,7 +146,7 @@ public class IfcBooleanResultImpl extends IfcGeometricRepresentationItemImpl imp
      */
     @Override
     public void unsetDim() {
-        eUnset(Ifc2x3tc1Package.Literals.IFC_BOOLEAN_RESULT__DIM);
+        eUnset(Ifc2x3tc1Package.eINSTANCE.getIfcBooleanResult_Dim());
     }
 
     /**
@@ -156,7 +156,7 @@ public class IfcBooleanResultImpl extends IfcGeometricRepresentationItemImpl imp
      */
     @Override
     public boolean isSetDim() {
-        return eIsSet(Ifc2x3tc1Package.Literals.IFC_BOOLEAN_RESULT__DIM);
+        return eIsSet(Ifc2x3tc1Package.eINSTANCE.getIfcBooleanResult_Dim());
     }
 
 } //IfcBooleanResultImpl

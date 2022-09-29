@@ -52,7 +52,7 @@ public class IfcDamperTypeImpl extends IfcFlowControllerTypeImpl implements IfcD
      */
     @Override
     protected EClass eStaticClass() {
-        return Ifc4Package.Literals.IFC_DAMPER_TYPE;
+        return Ifc4Package.eINSTANCE.getIfcDamperType();
     }
 
     /**
@@ -62,7 +62,7 @@ public class IfcDamperTypeImpl extends IfcFlowControllerTypeImpl implements IfcD
      */
     @Override
     public IfcDamperTypeEnum getPredefinedType() {
-        return (IfcDamperTypeEnum) eGet(Ifc4Package.Literals.IFC_DAMPER_TYPE__PREDEFINED_TYPE, true);
+        return (IfcDamperTypeEnum) eGet(Ifc4Package.eINSTANCE.getIfcDamperType_PredefinedType(), true);
     }
 
     /**
@@ -72,7 +72,7 @@ public class IfcDamperTypeImpl extends IfcFlowControllerTypeImpl implements IfcD
      */
     @Override
     public void setPredefinedType(IfcDamperTypeEnum newPredefinedType) {
-        eSet(Ifc4Package.Literals.IFC_DAMPER_TYPE__PREDEFINED_TYPE, newPredefinedType);
+        eSet(Ifc4Package.eINSTANCE.getIfcDamperType_PredefinedType(), newPredefinedType);
     }
 
 } //IfcDamperTypeImpl

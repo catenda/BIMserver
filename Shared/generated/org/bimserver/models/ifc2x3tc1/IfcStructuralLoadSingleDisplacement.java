@@ -47,10 +47,6 @@ public interface IfcStructuralLoadSingleDisplacement extends IfcStructuralLoadSt
     /**
      * Returns the value of the '<em><b>Displacement X</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Displacement X</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Displacement X</em>' attribute.
      * @see #isSetDisplacementX()
@@ -100,10 +96,6 @@ public interface IfcStructuralLoadSingleDisplacement extends IfcStructuralLoadSt
     /**
      * Returns the value of the '<em><b>Displacement XAs String</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Displacement XAs String</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Displacement XAs String</em>' attribute.
      * @see #isSetDisplacementXAsString()
@@ -155,10 +147,6 @@ public interface IfcStructuralLoadSingleDisplacement extends IfcStructuralLoadSt
     /**
      * Returns the value of the '<em><b>Displacement Y</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Displacement Y</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Displacement Y</em>' attribute.
      * @see #isSetDisplacementY()
@@ -208,10 +196,6 @@ public interface IfcStructuralLoadSingleDisplacement extends IfcStructuralLoadSt
     /**
      * Returns the value of the '<em><b>Displacement YAs String</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Displacement YAs String</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Displacement YAs String</em>' attribute.
      * @see #isSetDisplacementYAsString()
@@ -263,10 +247,6 @@ public interface IfcStructuralLoadSingleDisplacement extends IfcStructuralLoadSt
     /**
      * Returns the value of the '<em><b>Displacement Z</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Displacement Z</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Displacement Z</em>' attribute.
      * @see #isSetDisplacementZ()
@@ -316,10 +296,6 @@ public interface IfcStructuralLoadSingleDisplacement extends IfcStructuralLoadSt
     /**
      * Returns the value of the '<em><b>Displacement ZAs String</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Displacement ZAs String</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Displacement ZAs String</em>' attribute.
      * @see #isSetDisplacementZAsString()
@@ -371,10 +347,6 @@ public interface IfcStructuralLoadSingleDisplacement extends IfcStructuralLoadSt
     /**
      * Returns the value of the '<em><b>Rotational Displacement RX</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Rotational Displacement RX</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Rotational Displacement RX</em>' attribute.
      * @see #isSetRotationalDisplacementRX()
@@ -424,10 +396,6 @@ public interface IfcStructuralLoadSingleDisplacement extends IfcStructuralLoadSt
     /**
      * Returns the value of the '<em><b>Rotational Displacement RX As String</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Rotational Displacement RX As String</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Rotational Displacement RX As String</em>' attribute.
      * @see #isSetRotationalDisplacementRXAsString()
@@ -479,10 +447,6 @@ public interface IfcStructuralLoadSingleDisplacement extends IfcStructuralLoadSt
     /**
      * Returns the value of the '<em><b>Rotational Displacement RY</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Rotational Displacement RY</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Rotational Displacement RY</em>' attribute.
      * @see #isSetRotationalDisplacementRY()
@@ -532,10 +496,6 @@ public interface IfcStructuralLoadSingleDisplacement extends IfcStructuralLoadSt
     /**
      * Returns the value of the '<em><b>Rotational Displacement RY As String</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Rotational Displacement RY As String</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Rotational Displacement RY As String</em>' attribute.
      * @see #isSetRotationalDisplacementRYAsString()
@@ -587,10 +547,6 @@ public interface IfcStructuralLoadSingleDisplacement extends IfcStructuralLoadSt
     /**
      * Returns the value of the '<em><b>Rotational Displacement RZ</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Rotational Displacement RZ</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Rotational Displacement RZ</em>' attribute.
      * @see #isSetRotationalDisplacementRZ()
@@ -640,10 +596,6 @@ public interface IfcStructuralLoadSingleDisplacement extends IfcStructuralLoadSt
     /**
      * Returns the value of the '<em><b>Rotational Displacement RZ As String</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Rotational Displacement RZ As String</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Rotational Displacement RZ As String</em>' attribute.
      * @see #isSetRotationalDisplacementRZAsString()

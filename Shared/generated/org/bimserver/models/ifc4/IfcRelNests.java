@@ -40,10 +40,6 @@ public interface IfcRelNests extends IfcRelDecomposes {
      * Returns the value of the '<em><b>Relating Object</b></em>' reference.
      * It is bidirectional and its opposite is '{@link org.bimserver.models.ifc4.IfcObjectDefinition#getIsNestedBy <em>Is Nested By</em>}'.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Relating Object</em>' reference isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Relating Object</em>' reference.
      * @see #setRelatingObject(IfcObjectDefinition)
@@ -70,10 +66,6 @@ public interface IfcRelNests extends IfcRelDecomposes {
      * The list contents are of type {@link org.bimserver.models.ifc4.IfcObjectDefinition}.
      * It is bidirectional and its opposite is '{@link org.bimserver.models.ifc4.IfcObjectDefinition#getNests <em>Nests</em>}'.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Related Objects</em>' reference list isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Related Objects</em>' reference list.
      * @see org.bimserver.models.ifc4.Ifc4Package#getIfcRelNests_RelatedObjects()

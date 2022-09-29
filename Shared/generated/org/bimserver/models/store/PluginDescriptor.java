@@ -48,10 +48,6 @@ public interface PluginDescriptor extends IdEObject {
     /**
      * Returns the value of the '<em><b>Simple Name</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Simple Name</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Simple Name</em>' attribute.
      * @see #setSimpleName(String)
@@ -74,10 +70,6 @@ public interface PluginDescriptor extends IdEObject {
     /**
      * Returns the value of the '<em><b>Default Name</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Default Name</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Default Name</em>' attribute.
      * @see #setDefaultName(String)
@@ -100,10 +92,6 @@ public interface PluginDescriptor extends IdEObject {
     /**
      * Returns the value of the '<em><b>Plugin Class Name</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Plugin Class Name</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Plugin Class Name</em>' attribute.
      * @see #setPluginClassName(String)
@@ -126,10 +114,6 @@ public interface PluginDescriptor extends IdEObject {
     /**
      * Returns the value of the '<em><b>Description</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Description</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Description</em>' attribute.
      * @see #setDescription(String)
@@ -152,10 +136,6 @@ public interface PluginDescriptor extends IdEObject {
     /**
      * Returns the value of the '<em><b>Location</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Location</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Location</em>' attribute.
      * @see #setLocation(String)
@@ -178,10 +158,6 @@ public interface PluginDescriptor extends IdEObject {
     /**
      * Returns the value of the '<em><b>Enabled</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Enabled</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Enabled</em>' attribute.
      * @see #setEnabled(Boolean)
@@ -204,10 +180,6 @@ public interface PluginDescriptor extends IdEObject {
     /**
      * Returns the value of the '<em><b>Plugin Interface Class Name</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Plugin Interface Class Name</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Plugin Interface Class Name</em>' attribute.
      * @see #setPluginInterfaceClassName(String)
@@ -232,10 +204,6 @@ public interface PluginDescriptor extends IdEObject {
      * The list contents are of type {@link org.bimserver.models.store.PluginConfiguration}.
      * It is bidirectional and its opposite is '{@link org.bimserver.models.store.PluginConfiguration#getPluginDescriptor <em>Plugin Descriptor</em>}'.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Configurations</em>' reference list isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Configurations</em>' reference list.
      * @see org.bimserver.models.store.StorePackage#getPluginDescriptor_Configurations()

@@ -52,10 +52,6 @@ public interface ServiceDescriptor extends IdEObject {
     /**
      * Returns the value of the '<em><b>Name</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Name</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Name</em>' attribute.
      * @see #setName(String)
@@ -78,10 +74,6 @@ public interface ServiceDescriptor extends IdEObject {
     /**
      * Returns the value of the '<em><b>Url</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Url</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Url</em>' attribute.
      * @see #setUrl(String)
@@ -104,10 +96,6 @@ public interface ServiceDescriptor extends IdEObject {
     /**
      * Returns the value of the '<em><b>Token</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Token</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Token</em>' attribute.
      * @see #setToken(String)
@@ -130,10 +118,6 @@ public interface ServiceDescriptor extends IdEObject {
     /**
      * Returns the value of the '<em><b>Identifier</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Identifier</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Identifier</em>' attribute.
      * @see #setIdentifier(String)
@@ -157,10 +141,6 @@ public interface ServiceDescriptor extends IdEObject {
      * Returns the value of the '<em><b>Notification Protocol</b></em>' attribute.
      * The literals are from the enumeration {@link org.bimserver.models.log.AccessMethod}.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Notification Protocol</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Notification Protocol</em>' attribute.
      * @see org.bimserver.models.log.AccessMethod
@@ -185,10 +165,6 @@ public interface ServiceDescriptor extends IdEObject {
     /**
      * Returns the value of the '<em><b>Description</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Description</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Description</em>' attribute.
      * @see #setDescription(String)
@@ -212,10 +188,6 @@ public interface ServiceDescriptor extends IdEObject {
      * Returns the value of the '<em><b>Trigger</b></em>' attribute.
      * The literals are from the enumeration {@link org.bimserver.models.store.Trigger}.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Trigger</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Trigger</em>' attribute.
      * @see org.bimserver.models.store.Trigger
@@ -240,10 +212,6 @@ public interface ServiceDescriptor extends IdEObject {
     /**
      * Returns the value of the '<em><b>Read Revision</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Read Revision</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Read Revision</em>' attribute.
      * @see #setReadRevision(boolean)
@@ -266,10 +234,6 @@ public interface ServiceDescriptor extends IdEObject {
     /**
      * Returns the value of the '<em><b>Read Extended Data</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Read Extended Data</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Read Extended Data</em>' attribute.
      * @see #setReadExtendedData(String)
@@ -292,10 +256,6 @@ public interface ServiceDescriptor extends IdEObject {
     /**
      * Returns the value of the '<em><b>Write Revision</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Write Revision</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Write Revision</em>' attribute.
      * @see #setWriteRevision(boolean)
@@ -318,10 +278,6 @@ public interface ServiceDescriptor extends IdEObject {
     /**
      * Returns the value of the '<em><b>Write Extended Data</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Write Extended Data</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Write Extended Data</em>' attribute.
      * @see #setWriteExtendedData(String)
@@ -344,10 +300,6 @@ public interface ServiceDescriptor extends IdEObject {
     /**
      * Returns the value of the '<em><b>Provider Name</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Provider Name</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Provider Name</em>' attribute.
      * @see #setProviderName(String)

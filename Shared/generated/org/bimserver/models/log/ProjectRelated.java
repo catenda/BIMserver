@@ -39,10 +39,6 @@ public interface ProjectRelated extends LogAction {
      * Returns the value of the '<em><b>Project</b></em>' reference.
      * It is bidirectional and its opposite is '{@link org.bimserver.models.store.Project#getLogs <em>Logs</em>}'.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Project</em>' reference isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Project</em>' reference.
      * @see #setProject(Project)

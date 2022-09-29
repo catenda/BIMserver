@@ -58,7 +58,7 @@ public class IfcCurveBoundedSurfaceImpl extends IfcBoundedSurfaceImpl implements
      */
     @Override
     protected EClass eStaticClass() {
-        return Ifc4Package.Literals.IFC_CURVE_BOUNDED_SURFACE;
+        return Ifc4Package.eINSTANCE.getIfcCurveBoundedSurface();
     }
 
     /**
@@ -68,7 +68,7 @@ public class IfcCurveBoundedSurfaceImpl extends IfcBoundedSurfaceImpl implements
      */
     @Override
     public IfcSurface getBasisSurface() {
-        return (IfcSurface) eGet(Ifc4Package.Literals.IFC_CURVE_BOUNDED_SURFACE__BASIS_SURFACE, true);
+        return (IfcSurface) eGet(Ifc4Package.eINSTANCE.getIfcCurveBoundedSurface_BasisSurface(), true);
     }
 
     /**
@@ -78,7 +78,7 @@ public class IfcCurveBoundedSurfaceImpl extends IfcBoundedSurfaceImpl implements
      */
     @Override
     public void setBasisSurface(IfcSurface newBasisSurface) {
-        eSet(Ifc4Package.Literals.IFC_CURVE_BOUNDED_SURFACE__BASIS_SURFACE, newBasisSurface);
+        eSet(Ifc4Package.eINSTANCE.getIfcCurveBoundedSurface_BasisSurface(), newBasisSurface);
     }
 
     /**
@@ -89,7 +89,7 @@ public class IfcCurveBoundedSurfaceImpl extends IfcBoundedSurfaceImpl implements
     @SuppressWarnings("unchecked")
     @Override
     public EList<IfcBoundaryCurve> getBoundaries() {
-        return (EList<IfcBoundaryCurve>) eGet(Ifc4Package.Literals.IFC_CURVE_BOUNDED_SURFACE__BOUNDARIES, true);
+        return (EList<IfcBoundaryCurve>) eGet(Ifc4Package.eINSTANCE.getIfcCurveBoundedSurface_Boundaries(), true);
     }
 
     /**
@@ -99,7 +99,7 @@ public class IfcCurveBoundedSurfaceImpl extends IfcBoundedSurfaceImpl implements
      */
     @Override
     public Tristate getImplicitOuter() {
-        return (Tristate) eGet(Ifc4Package.Literals.IFC_CURVE_BOUNDED_SURFACE__IMPLICIT_OUTER, true);
+        return (Tristate) eGet(Ifc4Package.eINSTANCE.getIfcCurveBoundedSurface_ImplicitOuter(), true);
     }
 
     /**
@@ -109,7 +109,7 @@ public class IfcCurveBoundedSurfaceImpl extends IfcBoundedSurfaceImpl implements
      */
     @Override
     public void setImplicitOuter(Tristate newImplicitOuter) {
-        eSet(Ifc4Package.Literals.IFC_CURVE_BOUNDED_SURFACE__IMPLICIT_OUTER, newImplicitOuter);
+        eSet(Ifc4Package.eINSTANCE.getIfcCurveBoundedSurface_ImplicitOuter(), newImplicitOuter);
     }
 
 } //IfcCurveBoundedSurfaceImpl

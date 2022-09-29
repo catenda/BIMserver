@@ -60,7 +60,7 @@ public class IfcProductImpl extends IfcObjectImpl implements IfcProduct {
      */
     @Override
     protected EClass eStaticClass() {
-        return Ifc2x3tc1Package.Literals.IFC_PRODUCT;
+        return Ifc2x3tc1Package.eINSTANCE.getIfcProduct();
     }
 
     /**
@@ -70,7 +70,7 @@ public class IfcProductImpl extends IfcObjectImpl implements IfcProduct {
      */
     @Override
     public IfcObjectPlacement getObjectPlacement() {
-        return (IfcObjectPlacement) eGet(Ifc2x3tc1Package.Literals.IFC_PRODUCT__OBJECT_PLACEMENT, true);
+        return (IfcObjectPlacement) eGet(Ifc2x3tc1Package.eINSTANCE.getIfcProduct_ObjectPlacement(), true);
     }
 
     /**
@@ -80,7 +80,7 @@ public class IfcProductImpl extends IfcObjectImpl implements IfcProduct {
      */
     @Override
     public void setObjectPlacement(IfcObjectPlacement newObjectPlacement) {
-        eSet(Ifc2x3tc1Package.Literals.IFC_PRODUCT__OBJECT_PLACEMENT, newObjectPlacement);
+        eSet(Ifc2x3tc1Package.eINSTANCE.getIfcProduct_ObjectPlacement(), newObjectPlacement);
     }
 
     /**
@@ -90,7 +90,7 @@ public class IfcProductImpl extends IfcObjectImpl implements IfcProduct {
      */
     @Override
     public void unsetObjectPlacement() {
-        eUnset(Ifc2x3tc1Package.Literals.IFC_PRODUCT__OBJECT_PLACEMENT);
+        eUnset(Ifc2x3tc1Package.eINSTANCE.getIfcProduct_ObjectPlacement());
     }
 
     /**
@@ -100,7 +100,7 @@ public class IfcProductImpl extends IfcObjectImpl implements IfcProduct {
      */
     @Override
     public boolean isSetObjectPlacement() {
-        return eIsSet(Ifc2x3tc1Package.Literals.IFC_PRODUCT__OBJECT_PLACEMENT);
+        return eIsSet(Ifc2x3tc1Package.eINSTANCE.getIfcProduct_ObjectPlacement());
     }
 
     /**
@@ -110,7 +110,7 @@ public class IfcProductImpl extends IfcObjectImpl implements IfcProduct {
      */
     @Override
     public IfcProductRepresentation getRepresentation() {
-        return (IfcProductRepresentation) eGet(Ifc2x3tc1Package.Literals.IFC_PRODUCT__REPRESENTATION, true);
+        return (IfcProductRepresentation) eGet(Ifc2x3tc1Package.eINSTANCE.getIfcProduct_Representation(), true);
     }
 
     /**
@@ -120,7 +120,7 @@ public class IfcProductImpl extends IfcObjectImpl implements IfcProduct {
      */
     @Override
     public void setRepresentation(IfcProductRepresentation newRepresentation) {
-        eSet(Ifc2x3tc1Package.Literals.IFC_PRODUCT__REPRESENTATION, newRepresentation);
+        eSet(Ifc2x3tc1Package.eINSTANCE.getIfcProduct_Representation(), newRepresentation);
     }
 
     /**
@@ -130,7 +130,7 @@ public class IfcProductImpl extends IfcObjectImpl implements IfcProduct {
      */
     @Override
     public void unsetRepresentation() {
-        eUnset(Ifc2x3tc1Package.Literals.IFC_PRODUCT__REPRESENTATION);
+        eUnset(Ifc2x3tc1Package.eINSTANCE.getIfcProduct_Representation());
     }
 
     /**
@@ -140,7 +140,7 @@ public class IfcProductImpl extends IfcObjectImpl implements IfcProduct {
      */
     @Override
     public boolean isSetRepresentation() {
-        return eIsSet(Ifc2x3tc1Package.Literals.IFC_PRODUCT__REPRESENTATION);
+        return eIsSet(Ifc2x3tc1Package.eINSTANCE.getIfcProduct_Representation());
     }
 
     /**
@@ -151,7 +151,7 @@ public class IfcProductImpl extends IfcObjectImpl implements IfcProduct {
     @SuppressWarnings("unchecked")
     @Override
     public EList<IfcRelAssignsToProduct> getReferencedBy() {
-        return (EList<IfcRelAssignsToProduct>) eGet(Ifc2x3tc1Package.Literals.IFC_PRODUCT__REFERENCED_BY, true);
+        return (EList<IfcRelAssignsToProduct>) eGet(Ifc2x3tc1Package.eINSTANCE.getIfcProduct_ReferencedBy(), true);
     }
 
     /**
@@ -161,7 +161,7 @@ public class IfcProductImpl extends IfcObjectImpl implements IfcProduct {
      */
     @Override
     public void unsetReferencedBy() {
-        eUnset(Ifc2x3tc1Package.Literals.IFC_PRODUCT__REFERENCED_BY);
+        eUnset(Ifc2x3tc1Package.eINSTANCE.getIfcProduct_ReferencedBy());
     }
 
     /**
@@ -171,7 +171,7 @@ public class IfcProductImpl extends IfcObjectImpl implements IfcProduct {
      */
     @Override
     public boolean isSetReferencedBy() {
-        return eIsSet(Ifc2x3tc1Package.Literals.IFC_PRODUCT__REFERENCED_BY);
+        return eIsSet(Ifc2x3tc1Package.eINSTANCE.getIfcProduct_ReferencedBy());
     }
 
     /**
@@ -181,7 +181,7 @@ public class IfcProductImpl extends IfcObjectImpl implements IfcProduct {
      */
     @Override
     public GeometryInfo getGeometry() {
-        return (GeometryInfo) eGet(Ifc2x3tc1Package.Literals.IFC_PRODUCT__GEOMETRY, true);
+        return (GeometryInfo) eGet(Ifc2x3tc1Package.eINSTANCE.getIfcProduct_Geometry(), true);
     }
 
     /**
@@ -191,7 +191,7 @@ public class IfcProductImpl extends IfcObjectImpl implements IfcProduct {
      */
     @Override
     public void setGeometry(GeometryInfo newGeometry) {
-        eSet(Ifc2x3tc1Package.Literals.IFC_PRODUCT__GEOMETRY, newGeometry);
+        eSet(Ifc2x3tc1Package.eINSTANCE.getIfcProduct_Geometry(), newGeometry);
     }
 
 } //IfcProductImpl

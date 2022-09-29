@@ -41,10 +41,6 @@ public interface IfcSoundProperties extends IfcPropertySetDefinition {
      * Returns the value of the '<em><b>Is Attenuating</b></em>' attribute.
      * The literals are from the enumeration {@link org.bimserver.models.ifc2x3tc1.Tristate}.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Is Attenuating</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Is Attenuating</em>' attribute.
      * @see org.bimserver.models.ifc2x3tc1.Tristate
@@ -70,10 +66,6 @@ public interface IfcSoundProperties extends IfcPropertySetDefinition {
      * Returns the value of the '<em><b>Sound Scale</b></em>' attribute.
      * The literals are from the enumeration {@link org.bimserver.models.ifc2x3tc1.IfcSoundScaleEnum}.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Sound Scale</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Sound Scale</em>' attribute.
      * @see org.bimserver.models.ifc2x3tc1.IfcSoundScaleEnum
@@ -126,10 +118,6 @@ public interface IfcSoundProperties extends IfcPropertySetDefinition {
      * Returns the value of the '<em><b>Sound Values</b></em>' reference list.
      * The list contents are of type {@link org.bimserver.models.ifc2x3tc1.IfcSoundValue}.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Sound Values</em>' reference list isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Sound Values</em>' reference list.
      * @see org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package#getIfcSoundProperties_SoundValues()

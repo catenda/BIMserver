@@ -45,7 +45,7 @@ public class IfcDiscreteAccessoryImpl extends IfcElementComponentImpl implements
      */
     @Override
     protected EClass eStaticClass() {
-        return Ifc2x3tc1Package.Literals.IFC_DISCRETE_ACCESSORY;
+        return Ifc2x3tc1Package.eINSTANCE.getIfcDiscreteAccessory();
     }
 
 } //IfcDiscreteAccessoryImpl

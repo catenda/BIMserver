@@ -40,10 +40,6 @@ public interface IfcLibraryReference extends IfcExternalReference, IfcLibrarySel
      * The list contents are of type {@link org.bimserver.models.ifc2x3tc1.IfcLibraryInformation}.
      * It is bidirectional and its opposite is '{@link org.bimserver.models.ifc2x3tc1.IfcLibraryInformation#getLibraryReference <em>Library Reference</em>}'.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Reference Into Library</em>' reference list isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Reference Into Library</em>' reference list.
      * @see #isSetReferenceIntoLibrary()

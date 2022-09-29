@@ -65,10 +65,6 @@ public enum IfcProjectedOrTrueLengthEnum implements Enumerator {
     /**
      * The '<em><b>NULL</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>NULL</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #NULL
      * @model
@@ -80,10 +76,6 @@ public enum IfcProjectedOrTrueLengthEnum implements Enumerator {
     /**
      * The '<em><b>PROJECTED LENGTH</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>PROJECTED LENGTH</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #PROJECTED_LENGTH
      * @model
@@ -95,10 +87,6 @@ public enum IfcProjectedOrTrueLengthEnum implements Enumerator {
     /**
      * The '<em><b>TRUE LENGTH</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>TRUE LENGTH</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #TRUE_LENGTH
      * @model

@@ -16,8 +16,6 @@
  */
 package org.bimserver.models.ifc4;
 
-import org.eclipse.emf.common.util.EList;
-
 /**
  * <!-- begin-user-doc -->
  * A representation of the model object '<em><b>Ifc Building Element</b></em>'.
@@ -29,5 +27,4 @@ import org.eclipse.emf.common.util.EList;
  * @generated
  */
 public interface IfcBuildingElement extends IfcElement {
-
 } // IfcBuildingElement

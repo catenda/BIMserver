@@ -45,7 +45,7 @@ public class IfcRampFlightImpl extends IfcBuildingElementImpl implements IfcRamp
      */
     @Override
     protected EClass eStaticClass() {
-        return Ifc2x3tc1Package.Literals.IFC_RAMP_FLIGHT;
+        return Ifc2x3tc1Package.eINSTANCE.getIfcRampFlight();
     }
 
 } //IfcRampFlightImpl

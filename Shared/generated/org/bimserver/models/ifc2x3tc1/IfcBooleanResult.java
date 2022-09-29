@@ -40,10 +40,6 @@ public interface IfcBooleanResult extends IfcGeometricRepresentationItem, IfcBoo
      * Returns the value of the '<em><b>Operator</b></em>' attribute.
      * The literals are from the enumeration {@link org.bimserver.models.ifc2x3tc1.IfcBooleanOperator}.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Operator</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Operator</em>' attribute.
      * @see org.bimserver.models.ifc2x3tc1.IfcBooleanOperator
@@ -68,10 +64,6 @@ public interface IfcBooleanResult extends IfcGeometricRepresentationItem, IfcBoo
     /**
      * Returns the value of the '<em><b>First Operand</b></em>' reference.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>First Operand</em>' reference isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>First Operand</em>' reference.
      * @see #setFirstOperand(IfcBooleanOperand)
@@ -94,10 +86,6 @@ public interface IfcBooleanResult extends IfcGeometricRepresentationItem, IfcBoo
     /**
      * Returns the value of the '<em><b>Second Operand</b></em>' reference.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Second Operand</em>' reference isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Second Operand</em>' reference.
      * @see #setSecondOperand(IfcBooleanOperand)
@@ -120,10 +108,6 @@ public interface IfcBooleanResult extends IfcGeometricRepresentationItem, IfcBoo
     /**
      * Returns the value of the '<em><b>Dim</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Dim</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Dim</em>' attribute.
      * @see #isSetDim()

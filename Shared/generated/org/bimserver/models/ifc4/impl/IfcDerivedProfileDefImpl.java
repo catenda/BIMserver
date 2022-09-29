@@ -55,7 +55,7 @@ public class IfcDerivedProfileDefImpl extends IfcProfileDefImpl implements IfcDe
      */
     @Override
     protected EClass eStaticClass() {
-        return Ifc4Package.Literals.IFC_DERIVED_PROFILE_DEF;
+        return Ifc4Package.eINSTANCE.getIfcDerivedProfileDef();
     }
 
     /**
@@ -65,7 +65,7 @@ public class IfcDerivedProfileDefImpl extends IfcProfileDefImpl implements IfcDe
      */
     @Override
     public IfcProfileDef getParentProfile() {
-        return (IfcProfileDef) eGet(Ifc4Package.Literals.IFC_DERIVED_PROFILE_DEF__PARENT_PROFILE, true);
+        return (IfcProfileDef) eGet(Ifc4Package.eINSTANCE.getIfcDerivedProfileDef_ParentProfile(), true);
     }
 
     /**
@@ -75,7 +75,7 @@ public class IfcDerivedProfileDefImpl extends IfcProfileDefImpl implements IfcDe
      */
     @Override
     public void setParentProfile(IfcProfileDef newParentProfile) {
-        eSet(Ifc4Package.Literals.IFC_DERIVED_PROFILE_DEF__PARENT_PROFILE, newParentProfile);
+        eSet(Ifc4Package.eINSTANCE.getIfcDerivedProfileDef_ParentProfile(), newParentProfile);
     }
 
     /**
@@ -85,7 +85,7 @@ public class IfcDerivedProfileDefImpl extends IfcProfileDefImpl implements IfcDe
      */
     @Override
     public IfcCartesianTransformationOperator2D getOperator() {
-        return (IfcCartesianTransformationOperator2D) eGet(Ifc4Package.Literals.IFC_DERIVED_PROFILE_DEF__OPERATOR,
+        return (IfcCartesianTransformationOperator2D) eGet(Ifc4Package.eINSTANCE.getIfcDerivedProfileDef_Operator(),
                 true);
     }
 
@@ -96,7 +96,7 @@ public class IfcDerivedProfileDefImpl extends IfcProfileDefImpl implements IfcDe
      */
     @Override
     public void setOperator(IfcCartesianTransformationOperator2D newOperator) {
-        eSet(Ifc4Package.Literals.IFC_DERIVED_PROFILE_DEF__OPERATOR, newOperator);
+        eSet(Ifc4Package.eINSTANCE.getIfcDerivedProfileDef_Operator(), newOperator);
     }
 
     /**
@@ -106,7 +106,7 @@ public class IfcDerivedProfileDefImpl extends IfcProfileDefImpl implements IfcDe
      */
     @Override
     public String getLabel() {
-        return (String) eGet(Ifc4Package.Literals.IFC_DERIVED_PROFILE_DEF__LABEL, true);
+        return (String) eGet(Ifc4Package.eINSTANCE.getIfcDerivedProfileDef_Label(), true);
     }
 
     /**
@@ -116,7 +116,7 @@ public class IfcDerivedProfileDefImpl extends IfcProfileDefImpl implements IfcDe
      */
     @Override
     public void setLabel(String newLabel) {
-        eSet(Ifc4Package.Literals.IFC_DERIVED_PROFILE_DEF__LABEL, newLabel);
+        eSet(Ifc4Package.eINSTANCE.getIfcDerivedProfileDef_Label(), newLabel);
     }
 
     /**
@@ -126,7 +126,7 @@ public class IfcDerivedProfileDefImpl extends IfcProfileDefImpl implements IfcDe
      */
     @Override
     public void unsetLabel() {
-        eUnset(Ifc4Package.Literals.IFC_DERIVED_PROFILE_DEF__LABEL);
+        eUnset(Ifc4Package.eINSTANCE.getIfcDerivedProfileDef_Label());
     }
 
     /**
@@ -136,7 +136,7 @@ public class IfcDerivedProfileDefImpl extends IfcProfileDefImpl implements IfcDe
      */
     @Override
     public boolean isSetLabel() {
-        return eIsSet(Ifc4Package.Literals.IFC_DERIVED_PROFILE_DEF__LABEL);
+        return eIsSet(Ifc4Package.eINSTANCE.getIfcDerivedProfileDef_Label());
     }
 
 } //IfcDerivedProfileDefImpl

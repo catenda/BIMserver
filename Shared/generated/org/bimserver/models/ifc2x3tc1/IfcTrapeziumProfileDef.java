@@ -43,10 +43,6 @@ public interface IfcTrapeziumProfileDef extends IfcParameterizedProfileDef {
     /**
      * Returns the value of the '<em><b>Bottom XDim</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Bottom XDim</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Bottom XDim</em>' attribute.
      * @see #setBottomXDim(double)
@@ -69,10 +65,6 @@ public interface IfcTrapeziumProfileDef extends IfcParameterizedProfileDef {
     /**
      * Returns the value of the '<em><b>Bottom XDim As String</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Bottom XDim As String</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Bottom XDim As String</em>' attribute.
      * @see #setBottomXDimAsString(String)
@@ -96,10 +88,6 @@ public interface IfcTrapeziumProfileDef extends IfcParameterizedProfileDef {
     /**
      * Returns the value of the '<em><b>Top XDim</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Top XDim</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Top XDim</em>' attribute.
      * @see #setTopXDim(double)
@@ -122,10 +110,6 @@ public interface IfcTrapeziumProfileDef extends IfcParameterizedProfileDef {
     /**
      * Returns the value of the '<em><b>Top XDim As String</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Top XDim As String</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Top XDim As String</em>' attribute.
      * @see #setTopXDimAsString(String)
@@ -149,10 +133,6 @@ public interface IfcTrapeziumProfileDef extends IfcParameterizedProfileDef {
     /**
      * Returns the value of the '<em><b>YDim</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>YDim</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>YDim</em>' attribute.
      * @see #setYDim(double)
@@ -175,10 +155,6 @@ public interface IfcTrapeziumProfileDef extends IfcParameterizedProfileDef {
     /**
      * Returns the value of the '<em><b>YDim As String</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>YDim As String</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>YDim As String</em>' attribute.
      * @see #setYDimAsString(String)
@@ -202,10 +178,6 @@ public interface IfcTrapeziumProfileDef extends IfcParameterizedProfileDef {
     /**
      * Returns the value of the '<em><b>Top XOffset</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Top XOffset</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Top XOffset</em>' attribute.
      * @see #setTopXOffset(double)
@@ -228,10 +200,6 @@ public interface IfcTrapeziumProfileDef extends IfcParameterizedProfileDef {
     /**
      * Returns the value of the '<em><b>Top XOffset As String</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Top XOffset As String</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Top XOffset As String</em>' attribute.
      * @see #setTopXOffsetAsString(String)

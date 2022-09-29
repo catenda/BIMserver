@@ -135,10 +135,6 @@ public enum IfcPropertySourceEnum implements Enumerator {
     /**
      * The '<em><b>NULL</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>NULL</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #NULL
      * @model
@@ -150,10 +146,6 @@ public enum IfcPropertySourceEnum implements Enumerator {
     /**
      * The '<em><b>DESIGNMAXIMUM</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>DESIGNMAXIMUM</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #DESIGNMAXIMUM
      * @model
@@ -165,10 +157,6 @@ public enum IfcPropertySourceEnum implements Enumerator {
     /**
      * The '<em><b>COMMISSIONING</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>COMMISSIONING</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #COMMISSIONING
      * @model
@@ -180,10 +168,6 @@ public enum IfcPropertySourceEnum implements Enumerator {
     /**
      * The '<em><b>DESIGN</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>DESIGN</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #DESIGN
      * @model
@@ -195,10 +179,6 @@ public enum IfcPropertySourceEnum implements Enumerator {
     /**
      * The '<em><b>NOTKNOWN</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>NOTKNOWN</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #NOTKNOWN
      * @model
@@ -210,10 +190,6 @@ public enum IfcPropertySourceEnum implements Enumerator {
     /**
      * The '<em><b>MEASURED</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>MEASURED</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #MEASURED
      * @model
@@ -225,10 +201,6 @@ public enum IfcPropertySourceEnum implements Enumerator {
     /**
      * The '<em><b>USERDEFINED</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>USERDEFINED</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #USERDEFINED
      * @model
@@ -240,10 +212,6 @@ public enum IfcPropertySourceEnum implements Enumerator {
     /**
      * The '<em><b>DESIGNMINIMUM</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>DESIGNMINIMUM</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #DESIGNMINIMUM
      * @model
@@ -255,10 +223,6 @@ public enum IfcPropertySourceEnum implements Enumerator {
     /**
      * The '<em><b>ASBUILT</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>ASBUILT</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #ASBUILT
      * @model
@@ -270,10 +234,6 @@ public enum IfcPropertySourceEnum implements Enumerator {
     /**
      * The '<em><b>SIMULATED</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>SIMULATED</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #SIMULATED
      * @model

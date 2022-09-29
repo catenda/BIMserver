@@ -37,10 +37,6 @@ public interface IfcGridPlacement extends IfcObjectPlacement {
     /**
      * Returns the value of the '<em><b>Placement Location</b></em>' reference.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Placement Location</em>' reference isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Placement Location</em>' reference.
      * @see #setPlacementLocation(IfcVirtualGridIntersection)
@@ -63,10 +59,6 @@ public interface IfcGridPlacement extends IfcObjectPlacement {
     /**
      * Returns the value of the '<em><b>Placement Ref Direction</b></em>' reference.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Placement Ref Direction</em>' reference isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Placement Ref Direction</em>' reference.
      * @see #isSetPlacementRefDirection()

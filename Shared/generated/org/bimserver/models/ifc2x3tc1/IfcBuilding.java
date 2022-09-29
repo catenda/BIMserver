@@ -40,10 +40,6 @@ public interface IfcBuilding extends IfcSpatialStructureElement {
     /**
      * Returns the value of the '<em><b>Elevation Of Ref Height</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Elevation Of Ref Height</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Elevation Of Ref Height</em>' attribute.
      * @see #isSetElevationOfRefHeight()
@@ -93,10 +89,6 @@ public interface IfcBuilding extends IfcSpatialStructureElement {
     /**
      * Returns the value of the '<em><b>Elevation Of Ref Height As String</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Elevation Of Ref Height As String</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Elevation Of Ref Height As String</em>' attribute.
      * @see #isSetElevationOfRefHeightAsString()
@@ -148,10 +140,6 @@ public interface IfcBuilding extends IfcSpatialStructureElement {
     /**
      * Returns the value of the '<em><b>Elevation Of Terrain</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Elevation Of Terrain</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Elevation Of Terrain</em>' attribute.
      * @see #isSetElevationOfTerrain()
@@ -201,10 +189,6 @@ public interface IfcBuilding extends IfcSpatialStructureElement {
     /**
      * Returns the value of the '<em><b>Elevation Of Terrain As String</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Elevation Of Terrain As String</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Elevation Of Terrain As String</em>' attribute.
      * @see #isSetElevationOfTerrainAsString()
@@ -256,10 +240,6 @@ public interface IfcBuilding extends IfcSpatialStructureElement {
     /**
      * Returns the value of the '<em><b>Building Address</b></em>' reference.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Building Address</em>' reference isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Building Address</em>' reference.
      * @see #isSetBuildingAddress()

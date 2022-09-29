@@ -39,10 +39,6 @@ public interface IfcDistributionPort extends IfcPort {
      * Returns the value of the '<em><b>Flow Direction</b></em>' attribute.
      * The literals are from the enumeration {@link org.bimserver.models.ifc4.IfcFlowDirectionEnum}.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Flow Direction</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Flow Direction</em>' attribute.
      * @see org.bimserver.models.ifc4.IfcFlowDirectionEnum
@@ -95,10 +91,6 @@ public interface IfcDistributionPort extends IfcPort {
      * Returns the value of the '<em><b>Predefined Type</b></em>' attribute.
      * The literals are from the enumeration {@link org.bimserver.models.ifc4.IfcDistributionPortTypeEnum}.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Predefined Type</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Predefined Type</em>' attribute.
      * @see org.bimserver.models.ifc4.IfcDistributionPortTypeEnum
@@ -151,10 +143,6 @@ public interface IfcDistributionPort extends IfcPort {
      * Returns the value of the '<em><b>System Type</b></em>' attribute.
      * The literals are from the enumeration {@link org.bimserver.models.ifc4.IfcDistributionSystemEnum}.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>System Type</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>System Type</em>' attribute.
      * @see org.bimserver.models.ifc4.IfcDistributionSystemEnum

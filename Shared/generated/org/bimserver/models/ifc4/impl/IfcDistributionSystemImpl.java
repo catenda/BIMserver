@@ -53,7 +53,7 @@ public class IfcDistributionSystemImpl extends IfcSystemImpl implements IfcDistr
      */
     @Override
     protected EClass eStaticClass() {
-        return Ifc4Package.Literals.IFC_DISTRIBUTION_SYSTEM;
+        return Ifc4Package.eINSTANCE.getIfcDistributionSystem();
     }
 
     /**
@@ -63,7 +63,7 @@ public class IfcDistributionSystemImpl extends IfcSystemImpl implements IfcDistr
      */
     @Override
     public String getLongName() {
-        return (String) eGet(Ifc4Package.Literals.IFC_DISTRIBUTION_SYSTEM__LONG_NAME, true);
+        return (String) eGet(Ifc4Package.eINSTANCE.getIfcDistributionSystem_LongName(), true);
     }
 
     /**
@@ -73,7 +73,7 @@ public class IfcDistributionSystemImpl extends IfcSystemImpl implements IfcDistr
      */
     @Override
     public void setLongName(String newLongName) {
-        eSet(Ifc4Package.Literals.IFC_DISTRIBUTION_SYSTEM__LONG_NAME, newLongName);
+        eSet(Ifc4Package.eINSTANCE.getIfcDistributionSystem_LongName(), newLongName);
     }
 
     /**
@@ -83,7 +83,7 @@ public class IfcDistributionSystemImpl extends IfcSystemImpl implements IfcDistr
      */
     @Override
     public void unsetLongName() {
-        eUnset(Ifc4Package.Literals.IFC_DISTRIBUTION_SYSTEM__LONG_NAME);
+        eUnset(Ifc4Package.eINSTANCE.getIfcDistributionSystem_LongName());
     }
 
     /**
@@ -93,7 +93,7 @@ public class IfcDistributionSystemImpl extends IfcSystemImpl implements IfcDistr
      */
     @Override
     public boolean isSetLongName() {
-        return eIsSet(Ifc4Package.Literals.IFC_DISTRIBUTION_SYSTEM__LONG_NAME);
+        return eIsSet(Ifc4Package.eINSTANCE.getIfcDistributionSystem_LongName());
     }
 
     /**
@@ -103,7 +103,7 @@ public class IfcDistributionSystemImpl extends IfcSystemImpl implements IfcDistr
      */
     @Override
     public IfcDistributionSystemEnum getPredefinedType() {
-        return (IfcDistributionSystemEnum) eGet(Ifc4Package.Literals.IFC_DISTRIBUTION_SYSTEM__PREDEFINED_TYPE, true);
+        return (IfcDistributionSystemEnum) eGet(Ifc4Package.eINSTANCE.getIfcDistributionSystem_PredefinedType(), true);
     }
 
     /**
@@ -113,7 +113,7 @@ public class IfcDistributionSystemImpl extends IfcSystemImpl implements IfcDistr
      */
     @Override
     public void setPredefinedType(IfcDistributionSystemEnum newPredefinedType) {
-        eSet(Ifc4Package.Literals.IFC_DISTRIBUTION_SYSTEM__PREDEFINED_TYPE, newPredefinedType);
+        eSet(Ifc4Package.eINSTANCE.getIfcDistributionSystem_PredefinedType(), newPredefinedType);
     }
 
     /**
@@ -123,7 +123,7 @@ public class IfcDistributionSystemImpl extends IfcSystemImpl implements IfcDistr
      */
     @Override
     public void unsetPredefinedType() {
-        eUnset(Ifc4Package.Literals.IFC_DISTRIBUTION_SYSTEM__PREDEFINED_TYPE);
+        eUnset(Ifc4Package.eINSTANCE.getIfcDistributionSystem_PredefinedType());
     }
 
     /**
@@ -133,7 +133,7 @@ public class IfcDistributionSystemImpl extends IfcSystemImpl implements IfcDistr
      */
     @Override
     public boolean isSetPredefinedType() {
-        return eIsSet(Ifc4Package.Literals.IFC_DISTRIBUTION_SYSTEM__PREDEFINED_TYPE);
+        return eIsSet(Ifc4Package.eINSTANCE.getIfcDistributionSystem_PredefinedType());
     }
 
 } //IfcDistributionSystemImpl

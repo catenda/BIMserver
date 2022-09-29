@@ -42,10 +42,6 @@ public interface IfcRoot extends IdEObject {
     /**
      * Returns the value of the '<em><b>Global Id</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Global Id</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Global Id</em>' attribute.
      * @see #setGlobalId(String)
@@ -68,10 +64,6 @@ public interface IfcRoot extends IdEObject {
     /**
      * Returns the value of the '<em><b>Owner History</b></em>' reference.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Owner History</em>' reference isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Owner History</em>' reference.
      * @see #setOwnerHistory(IfcOwnerHistory)
@@ -94,10 +86,6 @@ public interface IfcRoot extends IdEObject {
     /**
      * Returns the value of the '<em><b>Name</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Name</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Name</em>' attribute.
      * @see #isSetName()
@@ -148,10 +136,6 @@ public interface IfcRoot extends IdEObject {
     /**
      * Returns the value of the '<em><b>Description</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Description</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Description</em>' attribute.
      * @see #isSetDescription()

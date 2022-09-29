@@ -56,7 +56,7 @@ public class IfcPropertyEnumeratedValueImpl extends IfcSimplePropertyImpl implem
      */
     @Override
     protected EClass eStaticClass() {
-        return Ifc4Package.Literals.IFC_PROPERTY_ENUMERATED_VALUE;
+        return Ifc4Package.eINSTANCE.getIfcPropertyEnumeratedValue();
     }
 
     /**
@@ -67,7 +67,7 @@ public class IfcPropertyEnumeratedValueImpl extends IfcSimplePropertyImpl implem
     @SuppressWarnings("unchecked")
     @Override
     public EList<IfcValue> getEnumerationValues() {
-        return (EList<IfcValue>) eGet(Ifc4Package.Literals.IFC_PROPERTY_ENUMERATED_VALUE__ENUMERATION_VALUES, true);
+        return (EList<IfcValue>) eGet(Ifc4Package.eINSTANCE.getIfcPropertyEnumeratedValue_EnumerationValues(), true);
     }
 
     /**
@@ -77,7 +77,7 @@ public class IfcPropertyEnumeratedValueImpl extends IfcSimplePropertyImpl implem
      */
     @Override
     public void unsetEnumerationValues() {
-        eUnset(Ifc4Package.Literals.IFC_PROPERTY_ENUMERATED_VALUE__ENUMERATION_VALUES);
+        eUnset(Ifc4Package.eINSTANCE.getIfcPropertyEnumeratedValue_EnumerationValues());
     }
 
     /**
@@ -87,7 +87,7 @@ public class IfcPropertyEnumeratedValueImpl extends IfcSimplePropertyImpl implem
      */
     @Override
     public boolean isSetEnumerationValues() {
-        return eIsSet(Ifc4Package.Literals.IFC_PROPERTY_ENUMERATED_VALUE__ENUMERATION_VALUES);
+        return eIsSet(Ifc4Package.eINSTANCE.getIfcPropertyEnumeratedValue_EnumerationValues());
     }
 
     /**
@@ -97,7 +97,7 @@ public class IfcPropertyEnumeratedValueImpl extends IfcSimplePropertyImpl implem
      */
     @Override
     public IfcPropertyEnumeration getEnumerationReference() {
-        return (IfcPropertyEnumeration) eGet(Ifc4Package.Literals.IFC_PROPERTY_ENUMERATED_VALUE__ENUMERATION_REFERENCE,
+        return (IfcPropertyEnumeration) eGet(Ifc4Package.eINSTANCE.getIfcPropertyEnumeratedValue_EnumerationReference(),
                 true);
     }
 
@@ -108,7 +108,7 @@ public class IfcPropertyEnumeratedValueImpl extends IfcSimplePropertyImpl implem
      */
     @Override
     public void setEnumerationReference(IfcPropertyEnumeration newEnumerationReference) {
-        eSet(Ifc4Package.Literals.IFC_PROPERTY_ENUMERATED_VALUE__ENUMERATION_REFERENCE, newEnumerationReference);
+        eSet(Ifc4Package.eINSTANCE.getIfcPropertyEnumeratedValue_EnumerationReference(), newEnumerationReference);
     }
 
     /**
@@ -118,7 +118,7 @@ public class IfcPropertyEnumeratedValueImpl extends IfcSimplePropertyImpl implem
      */
     @Override
     public void unsetEnumerationReference() {
-        eUnset(Ifc4Package.Literals.IFC_PROPERTY_ENUMERATED_VALUE__ENUMERATION_REFERENCE);
+        eUnset(Ifc4Package.eINSTANCE.getIfcPropertyEnumeratedValue_EnumerationReference());
     }
 
     /**
@@ -128,7 +128,7 @@ public class IfcPropertyEnumeratedValueImpl extends IfcSimplePropertyImpl implem
      */
     @Override
     public boolean isSetEnumerationReference() {
-        return eIsSet(Ifc4Package.Literals.IFC_PROPERTY_ENUMERATED_VALUE__ENUMERATION_REFERENCE);
+        return eIsSet(Ifc4Package.eINSTANCE.getIfcPropertyEnumeratedValue_EnumerationReference());
     }
 
 } //IfcPropertyEnumeratedValueImpl

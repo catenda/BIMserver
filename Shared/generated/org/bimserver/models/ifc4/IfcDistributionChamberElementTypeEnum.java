@@ -145,10 +145,6 @@ public enum IfcDistributionChamberElementTypeEnum implements Enumerator {
     /**
      * The '<em><b>NULL</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>NULL</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #NULL
      * @model
@@ -160,10 +156,6 @@ public enum IfcDistributionChamberElementTypeEnum implements Enumerator {
     /**
      * The '<em><b>METERCHAMBER</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>METERCHAMBER</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #METERCHAMBER
      * @model
@@ -175,10 +167,6 @@ public enum IfcDistributionChamberElementTypeEnum implements Enumerator {
     /**
      * The '<em><b>SUMP</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>SUMP</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #SUMP
      * @model
@@ -190,10 +178,6 @@ public enum IfcDistributionChamberElementTypeEnum implements Enumerator {
     /**
      * The '<em><b>NOTDEFINED</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>NOTDEFINED</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #NOTDEFINED
      * @model
@@ -205,10 +189,6 @@ public enum IfcDistributionChamberElementTypeEnum implements Enumerator {
     /**
      * The '<em><b>FORMEDDUCT</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>FORMEDDUCT</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #FORMEDDUCT
      * @model
@@ -220,10 +200,6 @@ public enum IfcDistributionChamberElementTypeEnum implements Enumerator {
     /**
      * The '<em><b>INSPECTIONCHAMBER</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>INSPECTIONCHAMBER</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #INSPECTIONCHAMBER
      * @model
@@ -235,10 +211,6 @@ public enum IfcDistributionChamberElementTypeEnum implements Enumerator {
     /**
      * The '<em><b>INSPECTIONPIT</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>INSPECTIONPIT</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #INSPECTIONPIT
      * @model
@@ -250,10 +222,6 @@ public enum IfcDistributionChamberElementTypeEnum implements Enumerator {
     /**
      * The '<em><b>TRENCH</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>TRENCH</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #TRENCH
      * @model
@@ -265,10 +233,6 @@ public enum IfcDistributionChamberElementTypeEnum implements Enumerator {
     /**
      * The '<em><b>USERDEFINED</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>USERDEFINED</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #USERDEFINED
      * @model
@@ -280,10 +244,6 @@ public enum IfcDistributionChamberElementTypeEnum implements Enumerator {
     /**
      * The '<em><b>MANHOLE</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>MANHOLE</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #MANHOLE
      * @model
@@ -295,10 +255,6 @@ public enum IfcDistributionChamberElementTypeEnum implements Enumerator {
     /**
      * The '<em><b>VALVECHAMBER</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>VALVECHAMBER</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #VALVECHAMBER
      * @model

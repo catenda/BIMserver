@@ -51,10 +51,6 @@ public interface BimServerInfo extends IdEObject {
     /**
      * Returns the value of the '<em><b>Current Version</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Current Version</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Current Version</em>' attribute.
      * @see #setCurrentVersion(String)
@@ -77,10 +73,6 @@ public interface BimServerInfo extends IdEObject {
     /**
      * Returns the value of the '<em><b>Current Date</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Current Date</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Current Date</em>' attribute.
      * @see #setCurrentDate(Date)
@@ -103,10 +95,6 @@ public interface BimServerInfo extends IdEObject {
     /**
      * Returns the value of the '<em><b>Schema Version</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Schema Version</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Schema Version</em>' attribute.
      * @see #setSchemaVersion(int)
@@ -129,10 +117,6 @@ public interface BimServerInfo extends IdEObject {
     /**
      * Returns the value of the '<em><b>Latest Date</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Latest Date</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Latest Date</em>' attribute.
      * @see #setLatestDate(Date)
@@ -155,10 +139,6 @@ public interface BimServerInfo extends IdEObject {
     /**
      * Returns the value of the '<em><b>Latest Version</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Latest Version</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Latest Version</em>' attribute.
      * @see #setLatestVersion(String)
@@ -181,10 +161,6 @@ public interface BimServerInfo extends IdEObject {
     /**
      * Returns the value of the '<em><b>Projects</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Projects</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Projects</em>' attribute.
      * @see #setProjects(int)
@@ -207,10 +183,6 @@ public interface BimServerInfo extends IdEObject {
     /**
      * Returns the value of the '<em><b>Revisions</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Revisions</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Revisions</em>' attribute.
      * @see #setRevisions(int)
@@ -233,10 +205,6 @@ public interface BimServerInfo extends IdEObject {
     /**
      * Returns the value of the '<em><b>Users</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Users</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Users</em>' attribute.
      * @see #setUsers(int)
@@ -259,10 +227,6 @@ public interface BimServerInfo extends IdEObject {
     /**
      * Returns the value of the '<em><b>Checkouts</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Checkouts</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Checkouts</em>' attribute.
      * @see #setCheckouts(int)
@@ -285,10 +249,6 @@ public interface BimServerInfo extends IdEObject {
     /**
      * Returns the value of the '<em><b>Server Log Url</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Server Log Url</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Server Log Url</em>' attribute.
      * @see #setServerLogUrl(String)
@@ -311,10 +271,6 @@ public interface BimServerInfo extends IdEObject {
     /**
      * Returns the value of the '<em><b>Started</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Started</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Started</em>' attribute.
      * @see #setStarted(Date)

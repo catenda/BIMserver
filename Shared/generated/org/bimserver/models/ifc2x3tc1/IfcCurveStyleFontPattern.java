@@ -42,10 +42,6 @@ public interface IfcCurveStyleFontPattern extends IdEObject {
     /**
      * Returns the value of the '<em><b>Visible Segment Length</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Visible Segment Length</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Visible Segment Length</em>' attribute.
      * @see #setVisibleSegmentLength(double)
@@ -68,10 +64,6 @@ public interface IfcCurveStyleFontPattern extends IdEObject {
     /**
      * Returns the value of the '<em><b>Visible Segment Length As String</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Visible Segment Length As String</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Visible Segment Length As String</em>' attribute.
      * @see #setVisibleSegmentLengthAsString(String)
@@ -95,10 +87,6 @@ public interface IfcCurveStyleFontPattern extends IdEObject {
     /**
      * Returns the value of the '<em><b>Invisible Segment Length</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Invisible Segment Length</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Invisible Segment Length</em>' attribute.
      * @see #setInvisibleSegmentLength(double)
@@ -121,10 +109,6 @@ public interface IfcCurveStyleFontPattern extends IdEObject {
     /**
      * Returns the value of the '<em><b>Invisible Segment Length As String</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Invisible Segment Length As String</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Invisible Segment Length As String</em>' attribute.
      * @see #setInvisibleSegmentLengthAsString(String)

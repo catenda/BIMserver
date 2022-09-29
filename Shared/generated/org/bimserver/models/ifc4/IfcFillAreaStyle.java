@@ -40,10 +40,6 @@ public interface IfcFillAreaStyle extends IfcPresentationStyle, IfcPresentationS
      * Returns the value of the '<em><b>Fill Styles</b></em>' reference list.
      * The list contents are of type {@link org.bimserver.models.ifc4.IfcFillStyleSelect}.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Fill Styles</em>' reference list isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Fill Styles</em>' reference list.
      * @see org.bimserver.models.ifc4.Ifc4Package#getIfcFillAreaStyle_FillStyles()
@@ -56,10 +52,6 @@ public interface IfcFillAreaStyle extends IfcPresentationStyle, IfcPresentationS
      * Returns the value of the '<em><b>Modelor Draughting</b></em>' attribute.
      * The literals are from the enumeration {@link org.bimserver.models.ifc4.Tristate}.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Modelor Draughting</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Modelor Draughting</em>' attribute.
      * @see org.bimserver.models.ifc4.Tristate

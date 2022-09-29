@@ -54,7 +54,7 @@ public class IfcMappedItemImpl extends IfcRepresentationItemImpl implements IfcM
      */
     @Override
     protected EClass eStaticClass() {
-        return Ifc2x3tc1Package.Literals.IFC_MAPPED_ITEM;
+        return Ifc2x3tc1Package.eINSTANCE.getIfcMappedItem();
     }
 
     /**
@@ -64,7 +64,7 @@ public class IfcMappedItemImpl extends IfcRepresentationItemImpl implements IfcM
      */
     @Override
     public IfcRepresentationMap getMappingSource() {
-        return (IfcRepresentationMap) eGet(Ifc2x3tc1Package.Literals.IFC_MAPPED_ITEM__MAPPING_SOURCE, true);
+        return (IfcRepresentationMap) eGet(Ifc2x3tc1Package.eINSTANCE.getIfcMappedItem_MappingSource(), true);
     }
 
     /**
@@ -74,7 +74,7 @@ public class IfcMappedItemImpl extends IfcRepresentationItemImpl implements IfcM
      */
     @Override
     public void setMappingSource(IfcRepresentationMap newMappingSource) {
-        eSet(Ifc2x3tc1Package.Literals.IFC_MAPPED_ITEM__MAPPING_SOURCE, newMappingSource);
+        eSet(Ifc2x3tc1Package.eINSTANCE.getIfcMappedItem_MappingSource(), newMappingSource);
     }
 
     /**
@@ -84,7 +84,7 @@ public class IfcMappedItemImpl extends IfcRepresentationItemImpl implements IfcM
      */
     @Override
     public IfcCartesianTransformationOperator getMappingTarget() {
-        return (IfcCartesianTransformationOperator) eGet(Ifc2x3tc1Package.Literals.IFC_MAPPED_ITEM__MAPPING_TARGET,
+        return (IfcCartesianTransformationOperator) eGet(Ifc2x3tc1Package.eINSTANCE.getIfcMappedItem_MappingTarget(),
                 true);
     }
 
@@ -95,7 +95,7 @@ public class IfcMappedItemImpl extends IfcRepresentationItemImpl implements IfcM
      */
     @Override
     public void setMappingTarget(IfcCartesianTransformationOperator newMappingTarget) {
-        eSet(Ifc2x3tc1Package.Literals.IFC_MAPPED_ITEM__MAPPING_TARGET, newMappingTarget);
+        eSet(Ifc2x3tc1Package.eINSTANCE.getIfcMappedItem_MappingTarget(), newMappingTarget);
     }
 
 } //IfcMappedItemImpl

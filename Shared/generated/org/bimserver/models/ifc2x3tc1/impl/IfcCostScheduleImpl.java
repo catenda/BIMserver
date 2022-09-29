@@ -63,7 +63,7 @@ public class IfcCostScheduleImpl extends IfcControlImpl implements IfcCostSchedu
      */
     @Override
     protected EClass eStaticClass() {
-        return Ifc2x3tc1Package.Literals.IFC_COST_SCHEDULE;
+        return Ifc2x3tc1Package.eINSTANCE.getIfcCostSchedule();
     }
 
     /**
@@ -73,7 +73,7 @@ public class IfcCostScheduleImpl extends IfcControlImpl implements IfcCostSchedu
      */
     @Override
     public IfcActorSelect getSubmittedBy() {
-        return (IfcActorSelect) eGet(Ifc2x3tc1Package.Literals.IFC_COST_SCHEDULE__SUBMITTED_BY, true);
+        return (IfcActorSelect) eGet(Ifc2x3tc1Package.eINSTANCE.getIfcCostSchedule_SubmittedBy(), true);
     }
 
     /**
@@ -83,7 +83,7 @@ public class IfcCostScheduleImpl extends IfcControlImpl implements IfcCostSchedu
      */
     @Override
     public void setSubmittedBy(IfcActorSelect newSubmittedBy) {
-        eSet(Ifc2x3tc1Package.Literals.IFC_COST_SCHEDULE__SUBMITTED_BY, newSubmittedBy);
+        eSet(Ifc2x3tc1Package.eINSTANCE.getIfcCostSchedule_SubmittedBy(), newSubmittedBy);
     }
 
     /**
@@ -93,7 +93,7 @@ public class IfcCostScheduleImpl extends IfcControlImpl implements IfcCostSchedu
      */
     @Override
     public void unsetSubmittedBy() {
-        eUnset(Ifc2x3tc1Package.Literals.IFC_COST_SCHEDULE__SUBMITTED_BY);
+        eUnset(Ifc2x3tc1Package.eINSTANCE.getIfcCostSchedule_SubmittedBy());
     }
 
     /**
@@ -103,7 +103,7 @@ public class IfcCostScheduleImpl extends IfcControlImpl implements IfcCostSchedu
      */
     @Override
     public boolean isSetSubmittedBy() {
-        return eIsSet(Ifc2x3tc1Package.Literals.IFC_COST_SCHEDULE__SUBMITTED_BY);
+        return eIsSet(Ifc2x3tc1Package.eINSTANCE.getIfcCostSchedule_SubmittedBy());
     }
 
     /**
@@ -113,7 +113,7 @@ public class IfcCostScheduleImpl extends IfcControlImpl implements IfcCostSchedu
      */
     @Override
     public IfcActorSelect getPreparedBy() {
-        return (IfcActorSelect) eGet(Ifc2x3tc1Package.Literals.IFC_COST_SCHEDULE__PREPARED_BY, true);
+        return (IfcActorSelect) eGet(Ifc2x3tc1Package.eINSTANCE.getIfcCostSchedule_PreparedBy(), true);
     }
 
     /**
@@ -123,7 +123,7 @@ public class IfcCostScheduleImpl extends IfcControlImpl implements IfcCostSchedu
      */
     @Override
     public void setPreparedBy(IfcActorSelect newPreparedBy) {
-        eSet(Ifc2x3tc1Package.Literals.IFC_COST_SCHEDULE__PREPARED_BY, newPreparedBy);
+        eSet(Ifc2x3tc1Package.eINSTANCE.getIfcCostSchedule_PreparedBy(), newPreparedBy);
     }
 
     /**
@@ -133,7 +133,7 @@ public class IfcCostScheduleImpl extends IfcControlImpl implements IfcCostSchedu
      */
     @Override
     public void unsetPreparedBy() {
-        eUnset(Ifc2x3tc1Package.Literals.IFC_COST_SCHEDULE__PREPARED_BY);
+        eUnset(Ifc2x3tc1Package.eINSTANCE.getIfcCostSchedule_PreparedBy());
     }
 
     /**
@@ -143,7 +143,7 @@ public class IfcCostScheduleImpl extends IfcControlImpl implements IfcCostSchedu
      */
     @Override
     public boolean isSetPreparedBy() {
-        return eIsSet(Ifc2x3tc1Package.Literals.IFC_COST_SCHEDULE__PREPARED_BY);
+        return eIsSet(Ifc2x3tc1Package.eINSTANCE.getIfcCostSchedule_PreparedBy());
     }
 
     /**
@@ -153,7 +153,7 @@ public class IfcCostScheduleImpl extends IfcControlImpl implements IfcCostSchedu
      */
     @Override
     public IfcDateTimeSelect getSubmittedOn() {
-        return (IfcDateTimeSelect) eGet(Ifc2x3tc1Package.Literals.IFC_COST_SCHEDULE__SUBMITTED_ON, true);
+        return (IfcDateTimeSelect) eGet(Ifc2x3tc1Package.eINSTANCE.getIfcCostSchedule_SubmittedOn(), true);
     }
 
     /**
@@ -163,7 +163,7 @@ public class IfcCostScheduleImpl extends IfcControlImpl implements IfcCostSchedu
      */
     @Override
     public void setSubmittedOn(IfcDateTimeSelect newSubmittedOn) {
-        eSet(Ifc2x3tc1Package.Literals.IFC_COST_SCHEDULE__SUBMITTED_ON, newSubmittedOn);
+        eSet(Ifc2x3tc1Package.eINSTANCE.getIfcCostSchedule_SubmittedOn(), newSubmittedOn);
     }
 
     /**
@@ -173,7 +173,7 @@ public class IfcCostScheduleImpl extends IfcControlImpl implements IfcCostSchedu
      */
     @Override
     public void unsetSubmittedOn() {
-        eUnset(Ifc2x3tc1Package.Literals.IFC_COST_SCHEDULE__SUBMITTED_ON);
+        eUnset(Ifc2x3tc1Package.eINSTANCE.getIfcCostSchedule_SubmittedOn());
     }
 
     /**
@@ -183,7 +183,7 @@ public class IfcCostScheduleImpl extends IfcControlImpl implements IfcCostSchedu
      */
     @Override
     public boolean isSetSubmittedOn() {
-        return eIsSet(Ifc2x3tc1Package.Literals.IFC_COST_SCHEDULE__SUBMITTED_ON);
+        return eIsSet(Ifc2x3tc1Package.eINSTANCE.getIfcCostSchedule_SubmittedOn());
     }
 
     /**
@@ -193,7 +193,7 @@ public class IfcCostScheduleImpl extends IfcControlImpl implements IfcCostSchedu
      */
     @Override
     public String getStatus() {
-        return (String) eGet(Ifc2x3tc1Package.Literals.IFC_COST_SCHEDULE__STATUS, true);
+        return (String) eGet(Ifc2x3tc1Package.eINSTANCE.getIfcCostSchedule_Status(), true);
     }
 
     /**
@@ -203,7 +203,7 @@ public class IfcCostScheduleImpl extends IfcControlImpl implements IfcCostSchedu
      */
     @Override
     public void setStatus(String newStatus) {
-        eSet(Ifc2x3tc1Package.Literals.IFC_COST_SCHEDULE__STATUS, newStatus);
+        eSet(Ifc2x3tc1Package.eINSTANCE.getIfcCostSchedule_Status(), newStatus);
     }
 
     /**
@@ -213,7 +213,7 @@ public class IfcCostScheduleImpl extends IfcControlImpl implements IfcCostSchedu
      */
     @Override
     public void unsetStatus() {
-        eUnset(Ifc2x3tc1Package.Literals.IFC_COST_SCHEDULE__STATUS);
+        eUnset(Ifc2x3tc1Package.eINSTANCE.getIfcCostSchedule_Status());
     }
 
     /**
@@ -223,7 +223,7 @@ public class IfcCostScheduleImpl extends IfcControlImpl implements IfcCostSchedu
      */
     @Override
     public boolean isSetStatus() {
-        return eIsSet(Ifc2x3tc1Package.Literals.IFC_COST_SCHEDULE__STATUS);
+        return eIsSet(Ifc2x3tc1Package.eINSTANCE.getIfcCostSchedule_Status());
     }
 
     /**
@@ -234,7 +234,7 @@ public class IfcCostScheduleImpl extends IfcControlImpl implements IfcCostSchedu
     @SuppressWarnings("unchecked")
     @Override
     public EList<IfcActorSelect> getTargetUsers() {
-        return (EList<IfcActorSelect>) eGet(Ifc2x3tc1Package.Literals.IFC_COST_SCHEDULE__TARGET_USERS, true);
+        return (EList<IfcActorSelect>) eGet(Ifc2x3tc1Package.eINSTANCE.getIfcCostSchedule_TargetUsers(), true);
     }
 
     /**
@@ -244,7 +244,7 @@ public class IfcCostScheduleImpl extends IfcControlImpl implements IfcCostSchedu
      */
     @Override
     public void unsetTargetUsers() {
-        eUnset(Ifc2x3tc1Package.Literals.IFC_COST_SCHEDULE__TARGET_USERS);
+        eUnset(Ifc2x3tc1Package.eINSTANCE.getIfcCostSchedule_TargetUsers());
     }
 
     /**
@@ -254,7 +254,7 @@ public class IfcCostScheduleImpl extends IfcControlImpl implements IfcCostSchedu
      */
     @Override
     public boolean isSetTargetUsers() {
-        return eIsSet(Ifc2x3tc1Package.Literals.IFC_COST_SCHEDULE__TARGET_USERS);
+        return eIsSet(Ifc2x3tc1Package.eINSTANCE.getIfcCostSchedule_TargetUsers());
     }
 
     /**
@@ -264,7 +264,7 @@ public class IfcCostScheduleImpl extends IfcControlImpl implements IfcCostSchedu
      */
     @Override
     public IfcDateTimeSelect getUpdateDate() {
-        return (IfcDateTimeSelect) eGet(Ifc2x3tc1Package.Literals.IFC_COST_SCHEDULE__UPDATE_DATE, true);
+        return (IfcDateTimeSelect) eGet(Ifc2x3tc1Package.eINSTANCE.getIfcCostSchedule_UpdateDate(), true);
     }
 
     /**
@@ -274,7 +274,7 @@ public class IfcCostScheduleImpl extends IfcControlImpl implements IfcCostSchedu
      */
     @Override
     public void setUpdateDate(IfcDateTimeSelect newUpdateDate) {
-        eSet(Ifc2x3tc1Package.Literals.IFC_COST_SCHEDULE__UPDATE_DATE, newUpdateDate);
+        eSet(Ifc2x3tc1Package.eINSTANCE.getIfcCostSchedule_UpdateDate(), newUpdateDate);
     }
 
     /**
@@ -284,7 +284,7 @@ public class IfcCostScheduleImpl extends IfcControlImpl implements IfcCostSchedu
      */
     @Override
     public void unsetUpdateDate() {
-        eUnset(Ifc2x3tc1Package.Literals.IFC_COST_SCHEDULE__UPDATE_DATE);
+        eUnset(Ifc2x3tc1Package.eINSTANCE.getIfcCostSchedule_UpdateDate());
     }
 
     /**
@@ -294,7 +294,7 @@ public class IfcCostScheduleImpl extends IfcControlImpl implements IfcCostSchedu
      */
     @Override
     public boolean isSetUpdateDate() {
-        return eIsSet(Ifc2x3tc1Package.Literals.IFC_COST_SCHEDULE__UPDATE_DATE);
+        return eIsSet(Ifc2x3tc1Package.eINSTANCE.getIfcCostSchedule_UpdateDate());
     }
 
     /**
@@ -304,7 +304,7 @@ public class IfcCostScheduleImpl extends IfcControlImpl implements IfcCostSchedu
      */
     @Override
     public String getID() {
-        return (String) eGet(Ifc2x3tc1Package.Literals.IFC_COST_SCHEDULE__ID, true);
+        return (String) eGet(Ifc2x3tc1Package.eINSTANCE.getIfcCostSchedule_ID(), true);
     }
 
     /**
@@ -314,7 +314,7 @@ public class IfcCostScheduleImpl extends IfcControlImpl implements IfcCostSchedu
      */
     @Override
     public void setID(String newID) {
-        eSet(Ifc2x3tc1Package.Literals.IFC_COST_SCHEDULE__ID, newID);
+        eSet(Ifc2x3tc1Package.eINSTANCE.getIfcCostSchedule_ID(), newID);
     }
 
     /**
@@ -324,7 +324,7 @@ public class IfcCostScheduleImpl extends IfcControlImpl implements IfcCostSchedu
      */
     @Override
     public IfcCostScheduleTypeEnum getPredefinedType() {
-        return (IfcCostScheduleTypeEnum) eGet(Ifc2x3tc1Package.Literals.IFC_COST_SCHEDULE__PREDEFINED_TYPE, true);
+        return (IfcCostScheduleTypeEnum) eGet(Ifc2x3tc1Package.eINSTANCE.getIfcCostSchedule_PredefinedType(), true);
     }
 
     /**
@@ -334,7 +334,7 @@ public class IfcCostScheduleImpl extends IfcControlImpl implements IfcCostSchedu
      */
     @Override
     public void setPredefinedType(IfcCostScheduleTypeEnum newPredefinedType) {
-        eSet(Ifc2x3tc1Package.Literals.IFC_COST_SCHEDULE__PREDEFINED_TYPE, newPredefinedType);
+        eSet(Ifc2x3tc1Package.eINSTANCE.getIfcCostSchedule_PredefinedType(), newPredefinedType);
     }
 
 } //IfcCostScheduleImpl

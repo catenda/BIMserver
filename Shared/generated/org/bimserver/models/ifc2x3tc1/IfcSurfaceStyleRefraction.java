@@ -39,10 +39,6 @@ public interface IfcSurfaceStyleRefraction extends IfcSurfaceStyleElementSelect 
     /**
      * Returns the value of the '<em><b>Refraction Index</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Refraction Index</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Refraction Index</em>' attribute.
      * @see #isSetRefractionIndex()
@@ -92,10 +88,6 @@ public interface IfcSurfaceStyleRefraction extends IfcSurfaceStyleElementSelect 
     /**
      * Returns the value of the '<em><b>Refraction Index As String</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Refraction Index As String</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Refraction Index As String</em>' attribute.
      * @see #isSetRefractionIndexAsString()
@@ -147,10 +139,6 @@ public interface IfcSurfaceStyleRefraction extends IfcSurfaceStyleElementSelect 
     /**
      * Returns the value of the '<em><b>Dispersion Factor</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Dispersion Factor</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Dispersion Factor</em>' attribute.
      * @see #isSetDispersionFactor()
@@ -200,10 +188,6 @@ public interface IfcSurfaceStyleRefraction extends IfcSurfaceStyleElementSelect 
     /**
      * Returns the value of the '<em><b>Dispersion Factor As String</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Dispersion Factor As String</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Dispersion Factor As String</em>' attribute.
      * @see #isSetDispersionFactorAsString()

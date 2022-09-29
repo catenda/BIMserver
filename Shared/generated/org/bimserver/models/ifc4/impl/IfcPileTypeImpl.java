@@ -52,7 +52,7 @@ public class IfcPileTypeImpl extends IfcBuildingElementTypeImpl implements IfcPi
      */
     @Override
     protected EClass eStaticClass() {
-        return Ifc4Package.Literals.IFC_PILE_TYPE;
+        return Ifc4Package.eINSTANCE.getIfcPileType();
     }
 
     /**
@@ -62,7 +62,7 @@ public class IfcPileTypeImpl extends IfcBuildingElementTypeImpl implements IfcPi
      */
     @Override
     public IfcPileTypeEnum getPredefinedType() {
-        return (IfcPileTypeEnum) eGet(Ifc4Package.Literals.IFC_PILE_TYPE__PREDEFINED_TYPE, true);
+        return (IfcPileTypeEnum) eGet(Ifc4Package.eINSTANCE.getIfcPileType_PredefinedType(), true);
     }
 
     /**
@@ -72,7 +72,7 @@ public class IfcPileTypeImpl extends IfcBuildingElementTypeImpl implements IfcPi
      */
     @Override
     public void setPredefinedType(IfcPileTypeEnum newPredefinedType) {
-        eSet(Ifc4Package.Literals.IFC_PILE_TYPE__PREDEFINED_TYPE, newPredefinedType);
+        eSet(Ifc4Package.eINSTANCE.getIfcPileType_PredefinedType(), newPredefinedType);
     }
 
 } //IfcPileTypeImpl

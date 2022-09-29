@@ -53,7 +53,7 @@ public class IfcMinuteInHourImpl extends IdEObjectImpl implements IfcMinuteInHou
      */
     @Override
     protected EClass eStaticClass() {
-        return Ifc2x3tc1Package.Literals.IFC_MINUTE_IN_HOUR;
+        return Ifc2x3tc1Package.eINSTANCE.getIfcMinuteInHour();
     }
 
     /**
@@ -73,7 +73,7 @@ public class IfcMinuteInHourImpl extends IdEObjectImpl implements IfcMinuteInHou
      */
     @Override
     public long getWrappedValue() {
-        return (Long) eGet(Ifc2x3tc1Package.Literals.IFC_MINUTE_IN_HOUR__WRAPPED_VALUE, true);
+        return (Long) eGet(Ifc2x3tc1Package.eINSTANCE.getIfcMinuteInHour_WrappedValue(), true);
     }
 
     /**
@@ -83,7 +83,7 @@ public class IfcMinuteInHourImpl extends IdEObjectImpl implements IfcMinuteInHou
      */
     @Override
     public void setWrappedValue(long newWrappedValue) {
-        eSet(Ifc2x3tc1Package.Literals.IFC_MINUTE_IN_HOUR__WRAPPED_VALUE, newWrappedValue);
+        eSet(Ifc2x3tc1Package.eINSTANCE.getIfcMinuteInHour_WrappedValue(), newWrappedValue);
     }
 
     /**
@@ -93,7 +93,7 @@ public class IfcMinuteInHourImpl extends IdEObjectImpl implements IfcMinuteInHou
      */
     @Override
     public void unsetWrappedValue() {
-        eUnset(Ifc2x3tc1Package.Literals.IFC_MINUTE_IN_HOUR__WRAPPED_VALUE);
+        eUnset(Ifc2x3tc1Package.eINSTANCE.getIfcMinuteInHour_WrappedValue());
     }
 
     /**
@@ -103,7 +103,7 @@ public class IfcMinuteInHourImpl extends IdEObjectImpl implements IfcMinuteInHou
      */
     @Override
     public boolean isSetWrappedValue() {
-        return eIsSet(Ifc2x3tc1Package.Literals.IFC_MINUTE_IN_HOUR__WRAPPED_VALUE);
+        return eIsSet(Ifc2x3tc1Package.eINSTANCE.getIfcMinuteInHour_WrappedValue());
     }
 
 } //IfcMinuteInHourImpl

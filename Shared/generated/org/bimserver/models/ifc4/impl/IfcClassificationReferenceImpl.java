@@ -59,7 +59,7 @@ public class IfcClassificationReferenceImpl extends IfcExternalReferenceImpl imp
      */
     @Override
     protected EClass eStaticClass() {
-        return Ifc4Package.Literals.IFC_CLASSIFICATION_REFERENCE;
+        return Ifc4Package.eINSTANCE.getIfcClassificationReference();
     }
 
     /**
@@ -70,7 +70,7 @@ public class IfcClassificationReferenceImpl extends IfcExternalReferenceImpl imp
     @Override
     public IfcClassificationReferenceSelect getReferencedSource() {
         return (IfcClassificationReferenceSelect) eGet(
-                Ifc4Package.Literals.IFC_CLASSIFICATION_REFERENCE__REFERENCED_SOURCE, true);
+                Ifc4Package.eINSTANCE.getIfcClassificationReference_ReferencedSource(), true);
     }
 
     /**
@@ -80,7 +80,7 @@ public class IfcClassificationReferenceImpl extends IfcExternalReferenceImpl imp
      */
     @Override
     public void setReferencedSource(IfcClassificationReferenceSelect newReferencedSource) {
-        eSet(Ifc4Package.Literals.IFC_CLASSIFICATION_REFERENCE__REFERENCED_SOURCE, newReferencedSource);
+        eSet(Ifc4Package.eINSTANCE.getIfcClassificationReference_ReferencedSource(), newReferencedSource);
     }
 
     /**
@@ -90,7 +90,7 @@ public class IfcClassificationReferenceImpl extends IfcExternalReferenceImpl imp
      */
     @Override
     public void unsetReferencedSource() {
-        eUnset(Ifc4Package.Literals.IFC_CLASSIFICATION_REFERENCE__REFERENCED_SOURCE);
+        eUnset(Ifc4Package.eINSTANCE.getIfcClassificationReference_ReferencedSource());
     }
 
     /**
@@ -100,7 +100,7 @@ public class IfcClassificationReferenceImpl extends IfcExternalReferenceImpl imp
      */
     @Override
     public boolean isSetReferencedSource() {
-        return eIsSet(Ifc4Package.Literals.IFC_CLASSIFICATION_REFERENCE__REFERENCED_SOURCE);
+        return eIsSet(Ifc4Package.eINSTANCE.getIfcClassificationReference_ReferencedSource());
     }
 
     /**
@@ -110,7 +110,7 @@ public class IfcClassificationReferenceImpl extends IfcExternalReferenceImpl imp
      */
     @Override
     public String getDescription() {
-        return (String) eGet(Ifc4Package.Literals.IFC_CLASSIFICATION_REFERENCE__DESCRIPTION, true);
+        return (String) eGet(Ifc4Package.eINSTANCE.getIfcClassificationReference_Description(), true);
     }
 
     /**
@@ -120,7 +120,7 @@ public class IfcClassificationReferenceImpl extends IfcExternalReferenceImpl imp
      */
     @Override
     public void setDescription(String newDescription) {
-        eSet(Ifc4Package.Literals.IFC_CLASSIFICATION_REFERENCE__DESCRIPTION, newDescription);
+        eSet(Ifc4Package.eINSTANCE.getIfcClassificationReference_Description(), newDescription);
     }
 
     /**
@@ -130,7 +130,7 @@ public class IfcClassificationReferenceImpl extends IfcExternalReferenceImpl imp
      */
     @Override
     public void unsetDescription() {
-        eUnset(Ifc4Package.Literals.IFC_CLASSIFICATION_REFERENCE__DESCRIPTION);
+        eUnset(Ifc4Package.eINSTANCE.getIfcClassificationReference_Description());
     }
 
     /**
@@ -140,7 +140,7 @@ public class IfcClassificationReferenceImpl extends IfcExternalReferenceImpl imp
      */
     @Override
     public boolean isSetDescription() {
-        return eIsSet(Ifc4Package.Literals.IFC_CLASSIFICATION_REFERENCE__DESCRIPTION);
+        return eIsSet(Ifc4Package.eINSTANCE.getIfcClassificationReference_Description());
     }
 
     /**
@@ -150,7 +150,7 @@ public class IfcClassificationReferenceImpl extends IfcExternalReferenceImpl imp
      */
     @Override
     public String getSort() {
-        return (String) eGet(Ifc4Package.Literals.IFC_CLASSIFICATION_REFERENCE__SORT, true);
+        return (String) eGet(Ifc4Package.eINSTANCE.getIfcClassificationReference_Sort(), true);
     }
 
     /**
@@ -160,7 +160,7 @@ public class IfcClassificationReferenceImpl extends IfcExternalReferenceImpl imp
      */
     @Override
     public void setSort(String newSort) {
-        eSet(Ifc4Package.Literals.IFC_CLASSIFICATION_REFERENCE__SORT, newSort);
+        eSet(Ifc4Package.eINSTANCE.getIfcClassificationReference_Sort(), newSort);
     }
 
     /**
@@ -170,7 +170,7 @@ public class IfcClassificationReferenceImpl extends IfcExternalReferenceImpl imp
      */
     @Override
     public void unsetSort() {
-        eUnset(Ifc4Package.Literals.IFC_CLASSIFICATION_REFERENCE__SORT);
+        eUnset(Ifc4Package.eINSTANCE.getIfcClassificationReference_Sort());
     }
 
     /**
@@ -180,7 +180,7 @@ public class IfcClassificationReferenceImpl extends IfcExternalReferenceImpl imp
      */
     @Override
     public boolean isSetSort() {
-        return eIsSet(Ifc4Package.Literals.IFC_CLASSIFICATION_REFERENCE__SORT);
+        return eIsSet(Ifc4Package.eINSTANCE.getIfcClassificationReference_Sort());
     }
 
     /**
@@ -192,7 +192,7 @@ public class IfcClassificationReferenceImpl extends IfcExternalReferenceImpl imp
     @Override
     public EList<IfcRelAssociatesClassification> getClassificationRefForObjects() {
         return (EList<IfcRelAssociatesClassification>) eGet(
-                Ifc4Package.Literals.IFC_CLASSIFICATION_REFERENCE__CLASSIFICATION_REF_FOR_OBJECTS, true);
+                Ifc4Package.eINSTANCE.getIfcClassificationReference_ClassificationRefForObjects(), true);
     }
 
     /**
@@ -202,7 +202,7 @@ public class IfcClassificationReferenceImpl extends IfcExternalReferenceImpl imp
      */
     @Override
     public void unsetClassificationRefForObjects() {
-        eUnset(Ifc4Package.Literals.IFC_CLASSIFICATION_REFERENCE__CLASSIFICATION_REF_FOR_OBJECTS);
+        eUnset(Ifc4Package.eINSTANCE.getIfcClassificationReference_ClassificationRefForObjects());
     }
 
     /**
@@ -212,7 +212,7 @@ public class IfcClassificationReferenceImpl extends IfcExternalReferenceImpl imp
      */
     @Override
     public boolean isSetClassificationRefForObjects() {
-        return eIsSet(Ifc4Package.Literals.IFC_CLASSIFICATION_REFERENCE__CLASSIFICATION_REF_FOR_OBJECTS);
+        return eIsSet(Ifc4Package.eINSTANCE.getIfcClassificationReference_ClassificationRefForObjects());
     }
 
     /**
@@ -224,7 +224,7 @@ public class IfcClassificationReferenceImpl extends IfcExternalReferenceImpl imp
     @Override
     public EList<IfcClassificationReference> getHasReferences() {
         return (EList<IfcClassificationReference>) eGet(
-                Ifc4Package.Literals.IFC_CLASSIFICATION_REFERENCE__HAS_REFERENCES, true);
+                Ifc4Package.eINSTANCE.getIfcClassificationReference_HasReferences(), true);
     }
 
     /**
@@ -234,7 +234,7 @@ public class IfcClassificationReferenceImpl extends IfcExternalReferenceImpl imp
      */
     @Override
     public void unsetHasReferences() {
-        eUnset(Ifc4Package.Literals.IFC_CLASSIFICATION_REFERENCE__HAS_REFERENCES);
+        eUnset(Ifc4Package.eINSTANCE.getIfcClassificationReference_HasReferences());
     }
 
     /**
@@ -244,7 +244,7 @@ public class IfcClassificationReferenceImpl extends IfcExternalReferenceImpl imp
      */
     @Override
     public boolean isSetHasReferences() {
-        return eIsSet(Ifc4Package.Literals.IFC_CLASSIFICATION_REFERENCE__HAS_REFERENCES);
+        return eIsSet(Ifc4Package.eINSTANCE.getIfcClassificationReference_HasReferences());
     }
 
 } //IfcClassificationReferenceImpl

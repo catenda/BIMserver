@@ -205,10 +205,6 @@ public enum IfcSIPrefix implements Enumerator {
     /**
      * The '<em><b>NULL</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>NULL</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #NULL
      * @model
@@ -220,10 +216,6 @@ public enum IfcSIPrefix implements Enumerator {
     /**
      * The '<em><b>DECA</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>DECA</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #DECA
      * @model
@@ -235,10 +227,6 @@ public enum IfcSIPrefix implements Enumerator {
     /**
      * The '<em><b>PICO</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>PICO</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #PICO
      * @model
@@ -250,10 +238,6 @@ public enum IfcSIPrefix implements Enumerator {
     /**
      * The '<em><b>KILO</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>KILO</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #KILO
      * @model
@@ -265,10 +249,6 @@ public enum IfcSIPrefix implements Enumerator {
     /**
      * The '<em><b>PETA</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>PETA</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #PETA
      * @model
@@ -280,10 +260,6 @@ public enum IfcSIPrefix implements Enumerator {
     /**
      * The '<em><b>TERA</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>TERA</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #TERA
      * @model
@@ -295,10 +271,6 @@ public enum IfcSIPrefix implements Enumerator {
     /**
      * The '<em><b>EXA</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>EXA</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #EXA
      * @model
@@ -310,10 +282,6 @@ public enum IfcSIPrefix implements Enumerator {
     /**
      * The '<em><b>NANO</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>NANO</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #NANO
      * @model
@@ -325,10 +293,6 @@ public enum IfcSIPrefix implements Enumerator {
     /**
      * The '<em><b>ATTO</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>ATTO</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #ATTO
      * @model
@@ -340,10 +304,6 @@ public enum IfcSIPrefix implements Enumerator {
     /**
      * The '<em><b>CENTI</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>CENTI</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #CENTI
      * @model
@@ -355,10 +315,6 @@ public enum IfcSIPrefix implements Enumerator {
     /**
      * The '<em><b>MILLI</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>MILLI</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #MILLI
      * @model
@@ -370,10 +326,6 @@ public enum IfcSIPrefix implements Enumerator {
     /**
      * The '<em><b>FEMTO</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>FEMTO</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #FEMTO
      * @model
@@ -385,10 +337,6 @@ public enum IfcSIPrefix implements Enumerator {
     /**
      * The '<em><b>MEGA</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>MEGA</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #MEGA
      * @model
@@ -400,10 +348,6 @@ public enum IfcSIPrefix implements Enumerator {
     /**
      * The '<em><b>HECTO</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>HECTO</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #HECTO
      * @model
@@ -415,10 +359,6 @@ public enum IfcSIPrefix implements Enumerator {
     /**
      * The '<em><b>DECI</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>DECI</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #DECI
      * @model
@@ -430,10 +370,6 @@ public enum IfcSIPrefix implements Enumerator {
     /**
      * The '<em><b>MICRO</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>MICRO</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #MICRO
      * @model
@@ -445,10 +381,6 @@ public enum IfcSIPrefix implements Enumerator {
     /**
      * The '<em><b>GIGA</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>GIGA</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #GIGA
      * @model

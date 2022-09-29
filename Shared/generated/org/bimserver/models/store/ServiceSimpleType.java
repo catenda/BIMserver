@@ -185,10 +185,6 @@ public enum ServiceSimpleType implements Enumerator {
     /**
      * The '<em><b>ENUM</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>ENUM</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #ENUM
      * @model
@@ -200,10 +196,6 @@ public enum ServiceSimpleType implements Enumerator {
     /**
      * The '<em><b>STRING</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>STRING</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #STRING
      * @model
@@ -215,10 +207,6 @@ public enum ServiceSimpleType implements Enumerator {
     /**
      * The '<em><b>LONG</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>LONG</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #LONG
      * @model
@@ -230,10 +218,6 @@ public enum ServiceSimpleType implements Enumerator {
     /**
      * The '<em><b>INT</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>INT</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #INT
      * @model
@@ -245,10 +229,6 @@ public enum ServiceSimpleType implements Enumerator {
     /**
      * The '<em><b>BOOLEAN</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>BOOLEAN</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #BOOLEAN
      * @model
@@ -260,10 +240,6 @@ public enum ServiceSimpleType implements Enumerator {
     /**
      * The '<em><b>FLOAT</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>FLOAT</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #FLOAT
      * @model
@@ -275,10 +251,6 @@ public enum ServiceSimpleType implements Enumerator {
     /**
      * The '<em><b>DOUBLE</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>DOUBLE</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #DOUBLE
      * @model
@@ -290,10 +262,6 @@ public enum ServiceSimpleType implements Enumerator {
     /**
      * The '<em><b>DATE</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>DATE</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #DATE
      * @model
@@ -305,10 +273,6 @@ public enum ServiceSimpleType implements Enumerator {
     /**
      * The '<em><b>CLASS</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>CLASS</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #CLASS
      * @model
@@ -320,10 +284,6 @@ public enum ServiceSimpleType implements Enumerator {
     /**
      * The '<em><b>DATAHANDLER</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>DATAHANDLER</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #DATAHANDLER
      * @model
@@ -335,10 +295,6 @@ public enum ServiceSimpleType implements Enumerator {
     /**
      * The '<em><b>BYTEARRAY</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>BYTEARRAY</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #BYTEARRAY
      * @model
@@ -350,10 +306,6 @@ public enum ServiceSimpleType implements Enumerator {
     /**
      * The '<em><b>LIST</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>LIST</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #LIST
      * @model
@@ -365,10 +317,6 @@ public enum ServiceSimpleType implements Enumerator {
     /**
      * The '<em><b>SET</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>SET</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #SET
      * @model
@@ -380,10 +328,6 @@ public enum ServiceSimpleType implements Enumerator {
     /**
      * The '<em><b>VOID</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>VOID</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #VOID
      * @model
@@ -395,10 +339,6 @@ public enum ServiceSimpleType implements Enumerator {
     /**
      * The '<em><b>UNKNOWN</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>UNKNOWN</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #UNKNOWN
      * @model

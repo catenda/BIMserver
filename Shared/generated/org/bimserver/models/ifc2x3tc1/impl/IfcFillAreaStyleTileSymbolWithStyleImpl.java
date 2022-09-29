@@ -53,7 +53,7 @@ public class IfcFillAreaStyleTileSymbolWithStyleImpl extends IfcGeometricReprese
      */
     @Override
     protected EClass eStaticClass() {
-        return Ifc2x3tc1Package.Literals.IFC_FILL_AREA_STYLE_TILE_SYMBOL_WITH_STYLE;
+        return Ifc2x3tc1Package.eINSTANCE.getIfcFillAreaStyleTileSymbolWithStyle();
     }
 
     /**
@@ -64,7 +64,7 @@ public class IfcFillAreaStyleTileSymbolWithStyleImpl extends IfcGeometricReprese
     @Override
     public IfcAnnotationSymbolOccurrence getSymbol() {
         return (IfcAnnotationSymbolOccurrence) eGet(
-                Ifc2x3tc1Package.Literals.IFC_FILL_AREA_STYLE_TILE_SYMBOL_WITH_STYLE__SYMBOL, true);
+                Ifc2x3tc1Package.eINSTANCE.getIfcFillAreaStyleTileSymbolWithStyle_Symbol(), true);
     }
 
     /**
@@ -74,7 +74,7 @@ public class IfcFillAreaStyleTileSymbolWithStyleImpl extends IfcGeometricReprese
      */
     @Override
     public void setSymbol(IfcAnnotationSymbolOccurrence newSymbol) {
-        eSet(Ifc2x3tc1Package.Literals.IFC_FILL_AREA_STYLE_TILE_SYMBOL_WITH_STYLE__SYMBOL, newSymbol);
+        eSet(Ifc2x3tc1Package.eINSTANCE.getIfcFillAreaStyleTileSymbolWithStyle_Symbol(), newSymbol);
     }
 
 } //IfcFillAreaStyleTileSymbolWithStyleImpl

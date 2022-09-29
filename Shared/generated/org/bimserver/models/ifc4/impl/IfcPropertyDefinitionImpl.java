@@ -56,7 +56,7 @@ public class IfcPropertyDefinitionImpl extends IfcRootImpl implements IfcPropert
      */
     @Override
     protected EClass eStaticClass() {
-        return Ifc4Package.Literals.IFC_PROPERTY_DEFINITION;
+        return Ifc4Package.eINSTANCE.getIfcPropertyDefinition();
     }
 
     /**
@@ -67,7 +67,7 @@ public class IfcPropertyDefinitionImpl extends IfcRootImpl implements IfcPropert
     @SuppressWarnings("unchecked")
     @Override
     public EList<IfcRelDeclares> getHasContext() {
-        return (EList<IfcRelDeclares>) eGet(Ifc4Package.Literals.IFC_PROPERTY_DEFINITION__HAS_CONTEXT, true);
+        return (EList<IfcRelDeclares>) eGet(Ifc4Package.eINSTANCE.getIfcPropertyDefinition_HasContext(), true);
     }
 
     /**
@@ -77,7 +77,7 @@ public class IfcPropertyDefinitionImpl extends IfcRootImpl implements IfcPropert
      */
     @Override
     public void unsetHasContext() {
-        eUnset(Ifc4Package.Literals.IFC_PROPERTY_DEFINITION__HAS_CONTEXT);
+        eUnset(Ifc4Package.eINSTANCE.getIfcPropertyDefinition_HasContext());
     }
 
     /**
@@ -87,7 +87,7 @@ public class IfcPropertyDefinitionImpl extends IfcRootImpl implements IfcPropert
      */
     @Override
     public boolean isSetHasContext() {
-        return eIsSet(Ifc4Package.Literals.IFC_PROPERTY_DEFINITION__HAS_CONTEXT);
+        return eIsSet(Ifc4Package.eINSTANCE.getIfcPropertyDefinition_HasContext());
     }
 
     /**
@@ -98,7 +98,7 @@ public class IfcPropertyDefinitionImpl extends IfcRootImpl implements IfcPropert
     @SuppressWarnings("unchecked")
     @Override
     public EList<IfcRelAssociates> getHasAssociations() {
-        return (EList<IfcRelAssociates>) eGet(Ifc4Package.Literals.IFC_PROPERTY_DEFINITION__HAS_ASSOCIATIONS, true);
+        return (EList<IfcRelAssociates>) eGet(Ifc4Package.eINSTANCE.getIfcPropertyDefinition_HasAssociations(), true);
     }
 
     /**
@@ -108,7 +108,7 @@ public class IfcPropertyDefinitionImpl extends IfcRootImpl implements IfcPropert
      */
     @Override
     public void unsetHasAssociations() {
-        eUnset(Ifc4Package.Literals.IFC_PROPERTY_DEFINITION__HAS_ASSOCIATIONS);
+        eUnset(Ifc4Package.eINSTANCE.getIfcPropertyDefinition_HasAssociations());
     }
 
     /**
@@ -118,7 +118,7 @@ public class IfcPropertyDefinitionImpl extends IfcRootImpl implements IfcPropert
      */
     @Override
     public boolean isSetHasAssociations() {
-        return eIsSet(Ifc4Package.Literals.IFC_PROPERTY_DEFINITION__HAS_ASSOCIATIONS);
+        return eIsSet(Ifc4Package.eINSTANCE.getIfcPropertyDefinition_HasAssociations());
     }
 
 } //IfcPropertyDefinitionImpl

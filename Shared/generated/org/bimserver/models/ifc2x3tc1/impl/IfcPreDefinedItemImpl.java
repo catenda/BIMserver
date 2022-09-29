@@ -53,7 +53,7 @@ public class IfcPreDefinedItemImpl extends IdEObjectImpl implements IfcPreDefine
      */
     @Override
     protected EClass eStaticClass() {
-        return Ifc2x3tc1Package.Literals.IFC_PRE_DEFINED_ITEM;
+        return Ifc2x3tc1Package.eINSTANCE.getIfcPreDefinedItem();
     }
 
     /**
@@ -73,7 +73,7 @@ public class IfcPreDefinedItemImpl extends IdEObjectImpl implements IfcPreDefine
      */
     @Override
     public String getName() {
-        return (String) eGet(Ifc2x3tc1Package.Literals.IFC_PRE_DEFINED_ITEM__NAME, true);
+        return (String) eGet(Ifc2x3tc1Package.eINSTANCE.getIfcPreDefinedItem_Name(), true);
     }
 
     /**
@@ -83,7 +83,7 @@ public class IfcPreDefinedItemImpl extends IdEObjectImpl implements IfcPreDefine
      */
     @Override
     public void setName(String newName) {
-        eSet(Ifc2x3tc1Package.Literals.IFC_PRE_DEFINED_ITEM__NAME, newName);
+        eSet(Ifc2x3tc1Package.eINSTANCE.getIfcPreDefinedItem_Name(), newName);
     }
 
 } //IfcPreDefinedItemImpl

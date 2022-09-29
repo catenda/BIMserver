@@ -46,7 +46,7 @@ public class IfcDistributionChamberElementImpl extends IfcDistributionFlowElemen
      */
     @Override
     protected EClass eStaticClass() {
-        return Ifc2x3tc1Package.Literals.IFC_DISTRIBUTION_CHAMBER_ELEMENT;
+        return Ifc2x3tc1Package.eINSTANCE.getIfcDistributionChamberElement();
     }
 
 } //IfcDistributionChamberElementImpl

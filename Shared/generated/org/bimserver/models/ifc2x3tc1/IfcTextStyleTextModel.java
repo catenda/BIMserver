@@ -42,10 +42,6 @@ public interface IfcTextStyleTextModel extends IfcTextStyleSelect {
     /**
      * Returns the value of the '<em><b>Text Indent</b></em>' reference.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Text Indent</em>' reference isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Text Indent</em>' reference.
      * @see #isSetTextIndent()
@@ -95,10 +91,6 @@ public interface IfcTextStyleTextModel extends IfcTextStyleSelect {
     /**
      * Returns the value of the '<em><b>Text Align</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Text Align</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Text Align</em>' attribute.
      * @see #isSetTextAlign()
@@ -148,10 +140,6 @@ public interface IfcTextStyleTextModel extends IfcTextStyleSelect {
     /**
      * Returns the value of the '<em><b>Text Decoration</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Text Decoration</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Text Decoration</em>' attribute.
      * @see #isSetTextDecoration()
@@ -201,10 +189,6 @@ public interface IfcTextStyleTextModel extends IfcTextStyleSelect {
     /**
      * Returns the value of the '<em><b>Letter Spacing</b></em>' reference.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Letter Spacing</em>' reference isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Letter Spacing</em>' reference.
      * @see #isSetLetterSpacing()
@@ -254,10 +238,6 @@ public interface IfcTextStyleTextModel extends IfcTextStyleSelect {
     /**
      * Returns the value of the '<em><b>Word Spacing</b></em>' reference.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Word Spacing</em>' reference isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Word Spacing</em>' reference.
      * @see #isSetWordSpacing()
@@ -307,10 +287,6 @@ public interface IfcTextStyleTextModel extends IfcTextStyleSelect {
     /**
      * Returns the value of the '<em><b>Text Transform</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Text Transform</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Text Transform</em>' attribute.
      * @see #isSetTextTransform()
@@ -360,10 +336,6 @@ public interface IfcTextStyleTextModel extends IfcTextStyleSelect {
     /**
      * Returns the value of the '<em><b>Line Height</b></em>' reference.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Line Height</em>' reference isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Line Height</em>' reference.
      * @see #isSetLineHeight()

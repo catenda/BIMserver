@@ -37,10 +37,6 @@ public interface IfcTextStyleForDefinedFont extends IfcPresentationItem {
     /**
      * Returns the value of the '<em><b>Colour</b></em>' reference.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Colour</em>' reference isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Colour</em>' reference.
      * @see #setColour(IfcColour)
@@ -63,10 +59,6 @@ public interface IfcTextStyleForDefinedFont extends IfcPresentationItem {
     /**
      * Returns the value of the '<em><b>Background Colour</b></em>' reference.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Background Colour</em>' reference isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Background Colour</em>' reference.
      * @see #isSetBackgroundColour()

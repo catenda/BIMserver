@@ -53,7 +53,7 @@ public class IfcProxyImpl extends IfcProductImpl implements IfcProxy {
      */
     @Override
     protected EClass eStaticClass() {
-        return Ifc4Package.Literals.IFC_PROXY;
+        return Ifc4Package.eINSTANCE.getIfcProxy();
     }
 
     /**
@@ -63,7 +63,7 @@ public class IfcProxyImpl extends IfcProductImpl implements IfcProxy {
      */
     @Override
     public IfcObjectTypeEnum getProxyType() {
-        return (IfcObjectTypeEnum) eGet(Ifc4Package.Literals.IFC_PROXY__PROXY_TYPE, true);
+        return (IfcObjectTypeEnum) eGet(Ifc4Package.eINSTANCE.getIfcProxy_ProxyType(), true);
     }
 
     /**
@@ -73,7 +73,7 @@ public class IfcProxyImpl extends IfcProductImpl implements IfcProxy {
      */
     @Override
     public void setProxyType(IfcObjectTypeEnum newProxyType) {
-        eSet(Ifc4Package.Literals.IFC_PROXY__PROXY_TYPE, newProxyType);
+        eSet(Ifc4Package.eINSTANCE.getIfcProxy_ProxyType(), newProxyType);
     }
 
     /**
@@ -83,7 +83,7 @@ public class IfcProxyImpl extends IfcProductImpl implements IfcProxy {
      */
     @Override
     public String getTag() {
-        return (String) eGet(Ifc4Package.Literals.IFC_PROXY__TAG, true);
+        return (String) eGet(Ifc4Package.eINSTANCE.getIfcProxy_Tag(), true);
     }
 
     /**
@@ -93,7 +93,7 @@ public class IfcProxyImpl extends IfcProductImpl implements IfcProxy {
      */
     @Override
     public void setTag(String newTag) {
-        eSet(Ifc4Package.Literals.IFC_PROXY__TAG, newTag);
+        eSet(Ifc4Package.eINSTANCE.getIfcProxy_Tag(), newTag);
     }
 
     /**
@@ -103,7 +103,7 @@ public class IfcProxyImpl extends IfcProductImpl implements IfcProxy {
      */
     @Override
     public void unsetTag() {
-        eUnset(Ifc4Package.Literals.IFC_PROXY__TAG);
+        eUnset(Ifc4Package.eINSTANCE.getIfcProxy_Tag());
     }
 
     /**
@@ -113,7 +113,7 @@ public class IfcProxyImpl extends IfcProductImpl implements IfcProxy {
      */
     @Override
     public boolean isSetTag() {
-        return eIsSet(Ifc4Package.Literals.IFC_PROXY__TAG);
+        return eIsSet(Ifc4Package.eINSTANCE.getIfcProxy_Tag());
     }
 
 } //IfcProxyImpl

@@ -61,7 +61,7 @@ public class IfcAppliedValueRelationshipImpl extends IdEObjectImpl implements If
      */
     @Override
     protected EClass eStaticClass() {
-        return Ifc2x3tc1Package.Literals.IFC_APPLIED_VALUE_RELATIONSHIP;
+        return Ifc2x3tc1Package.eINSTANCE.getIfcAppliedValueRelationship();
     }
 
     /**
@@ -81,7 +81,7 @@ public class IfcAppliedValueRelationshipImpl extends IdEObjectImpl implements If
      */
     @Override
     public IfcAppliedValue getComponentOfTotal() {
-        return (IfcAppliedValue) eGet(Ifc2x3tc1Package.Literals.IFC_APPLIED_VALUE_RELATIONSHIP__COMPONENT_OF_TOTAL,
+        return (IfcAppliedValue) eGet(Ifc2x3tc1Package.eINSTANCE.getIfcAppliedValueRelationship_ComponentOfTotal(),
                 true);
     }
 
@@ -92,7 +92,7 @@ public class IfcAppliedValueRelationshipImpl extends IdEObjectImpl implements If
      */
     @Override
     public void setComponentOfTotal(IfcAppliedValue newComponentOfTotal) {
-        eSet(Ifc2x3tc1Package.Literals.IFC_APPLIED_VALUE_RELATIONSHIP__COMPONENT_OF_TOTAL, newComponentOfTotal);
+        eSet(Ifc2x3tc1Package.eINSTANCE.getIfcAppliedValueRelationship_ComponentOfTotal(), newComponentOfTotal);
     }
 
     /**
@@ -103,7 +103,7 @@ public class IfcAppliedValueRelationshipImpl extends IdEObjectImpl implements If
     @SuppressWarnings("unchecked")
     @Override
     public EList<IfcAppliedValue> getComponents() {
-        return (EList<IfcAppliedValue>) eGet(Ifc2x3tc1Package.Literals.IFC_APPLIED_VALUE_RELATIONSHIP__COMPONENTS,
+        return (EList<IfcAppliedValue>) eGet(Ifc2x3tc1Package.eINSTANCE.getIfcAppliedValueRelationship_Components(),
                 true);
     }
 
@@ -115,7 +115,7 @@ public class IfcAppliedValueRelationshipImpl extends IdEObjectImpl implements If
     @Override
     public IfcArithmeticOperatorEnum getArithmeticOperator() {
         return (IfcArithmeticOperatorEnum) eGet(
-                Ifc2x3tc1Package.Literals.IFC_APPLIED_VALUE_RELATIONSHIP__ARITHMETIC_OPERATOR, true);
+                Ifc2x3tc1Package.eINSTANCE.getIfcAppliedValueRelationship_ArithmeticOperator(), true);
     }
 
     /**
@@ -125,7 +125,7 @@ public class IfcAppliedValueRelationshipImpl extends IdEObjectImpl implements If
      */
     @Override
     public void setArithmeticOperator(IfcArithmeticOperatorEnum newArithmeticOperator) {
-        eSet(Ifc2x3tc1Package.Literals.IFC_APPLIED_VALUE_RELATIONSHIP__ARITHMETIC_OPERATOR, newArithmeticOperator);
+        eSet(Ifc2x3tc1Package.eINSTANCE.getIfcAppliedValueRelationship_ArithmeticOperator(), newArithmeticOperator);
     }
 
     /**
@@ -135,7 +135,7 @@ public class IfcAppliedValueRelationshipImpl extends IdEObjectImpl implements If
      */
     @Override
     public String getName() {
-        return (String) eGet(Ifc2x3tc1Package.Literals.IFC_APPLIED_VALUE_RELATIONSHIP__NAME, true);
+        return (String) eGet(Ifc2x3tc1Package.eINSTANCE.getIfcAppliedValueRelationship_Name(), true);
     }
 
     /**
@@ -145,7 +145,7 @@ public class IfcAppliedValueRelationshipImpl extends IdEObjectImpl implements If
      */
     @Override
     public void setName(String newName) {
-        eSet(Ifc2x3tc1Package.Literals.IFC_APPLIED_VALUE_RELATIONSHIP__NAME, newName);
+        eSet(Ifc2x3tc1Package.eINSTANCE.getIfcAppliedValueRelationship_Name(), newName);
     }
 
     /**
@@ -155,7 +155,7 @@ public class IfcAppliedValueRelationshipImpl extends IdEObjectImpl implements If
      */
     @Override
     public void unsetName() {
-        eUnset(Ifc2x3tc1Package.Literals.IFC_APPLIED_VALUE_RELATIONSHIP__NAME);
+        eUnset(Ifc2x3tc1Package.eINSTANCE.getIfcAppliedValueRelationship_Name());
     }
 
     /**
@@ -165,7 +165,7 @@ public class IfcAppliedValueRelationshipImpl extends IdEObjectImpl implements If
      */
     @Override
     public boolean isSetName() {
-        return eIsSet(Ifc2x3tc1Package.Literals.IFC_APPLIED_VALUE_RELATIONSHIP__NAME);
+        return eIsSet(Ifc2x3tc1Package.eINSTANCE.getIfcAppliedValueRelationship_Name());
     }
 
     /**
@@ -175,7 +175,7 @@ public class IfcAppliedValueRelationshipImpl extends IdEObjectImpl implements If
      */
     @Override
     public String getDescription() {
-        return (String) eGet(Ifc2x3tc1Package.Literals.IFC_APPLIED_VALUE_RELATIONSHIP__DESCRIPTION, true);
+        return (String) eGet(Ifc2x3tc1Package.eINSTANCE.getIfcAppliedValueRelationship_Description(), true);
     }
 
     /**
@@ -185,7 +185,7 @@ public class IfcAppliedValueRelationshipImpl extends IdEObjectImpl implements If
      */
     @Override
     public void setDescription(String newDescription) {
-        eSet(Ifc2x3tc1Package.Literals.IFC_APPLIED_VALUE_RELATIONSHIP__DESCRIPTION, newDescription);
+        eSet(Ifc2x3tc1Package.eINSTANCE.getIfcAppliedValueRelationship_Description(), newDescription);
     }
 
     /**
@@ -195,7 +195,7 @@ public class IfcAppliedValueRelationshipImpl extends IdEObjectImpl implements If
      */
     @Override
     public void unsetDescription() {
-        eUnset(Ifc2x3tc1Package.Literals.IFC_APPLIED_VALUE_RELATIONSHIP__DESCRIPTION);
+        eUnset(Ifc2x3tc1Package.eINSTANCE.getIfcAppliedValueRelationship_Description());
     }
 
     /**
@@ -205,7 +205,7 @@ public class IfcAppliedValueRelationshipImpl extends IdEObjectImpl implements If
      */
     @Override
     public boolean isSetDescription() {
-        return eIsSet(Ifc2x3tc1Package.Literals.IFC_APPLIED_VALUE_RELATIONSHIP__DESCRIPTION);
+        return eIsSet(Ifc2x3tc1Package.eINSTANCE.getIfcAppliedValueRelationship_Description());
     }
 
 } //IfcAppliedValueRelationshipImpl

@@ -45,7 +45,7 @@ public class IfcAdvancedFaceImpl extends IfcFaceSurfaceImpl implements IfcAdvanc
      */
     @Override
     protected EClass eStaticClass() {
-        return Ifc4Package.Literals.IFC_ADVANCED_FACE;
+        return Ifc4Package.eINSTANCE.getIfcAdvancedFace();
     }
 
 } //IfcAdvancedFaceImpl

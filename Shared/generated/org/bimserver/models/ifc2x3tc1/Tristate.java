@@ -65,10 +65,6 @@ public enum Tristate implements Enumerator {
     /**
      * The '<em><b>TRUE</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>TRUE</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #TRUE
      * @model
@@ -80,10 +76,6 @@ public enum Tristate implements Enumerator {
     /**
      * The '<em><b>FALSE</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>FALSE</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #FALSE
      * @model
@@ -95,10 +87,6 @@ public enum Tristate implements Enumerator {
     /**
      * The '<em><b>UNDEFINED</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>UNDEFINED</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #UNDEFINED
      * @model

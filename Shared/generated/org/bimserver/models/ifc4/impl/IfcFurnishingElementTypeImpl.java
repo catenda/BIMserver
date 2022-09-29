@@ -45,7 +45,7 @@ public class IfcFurnishingElementTypeImpl extends IfcElementTypeImpl implements 
      */
     @Override
     protected EClass eStaticClass() {
-        return Ifc4Package.Literals.IFC_FURNISHING_ELEMENT_TYPE;
+        return Ifc4Package.eINSTANCE.getIfcFurnishingElementType();
     }
 
 } //IfcFurnishingElementTypeImpl

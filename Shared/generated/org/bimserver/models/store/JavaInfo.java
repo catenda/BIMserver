@@ -63,10 +63,6 @@ public interface JavaInfo extends IdEObject {
     /**
      * Returns the value of the '<em><b>Heap Total</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Heap Total</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Heap Total</em>' attribute.
      * @see #setHeapTotal(long)
@@ -89,10 +85,6 @@ public interface JavaInfo extends IdEObject {
     /**
      * Returns the value of the '<em><b>Heap Used</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Heap Used</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Heap Used</em>' attribute.
      * @see #setHeapUsed(long)
@@ -115,10 +107,6 @@ public interface JavaInfo extends IdEObject {
     /**
      * Returns the value of the '<em><b>Heap Free</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Heap Free</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Heap Free</em>' attribute.
      * @see #setHeapFree(long)
@@ -141,10 +129,6 @@ public interface JavaInfo extends IdEObject {
     /**
      * Returns the value of the '<em><b>Heap Max</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Heap Max</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Heap Max</em>' attribute.
      * @see #setHeapMax(long)
@@ -167,10 +151,6 @@ public interface JavaInfo extends IdEObject {
     /**
      * Returns the value of the '<em><b>Threads</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Threads</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Threads</em>' attribute.
      * @see #setThreads(int)
@@ -193,10 +173,6 @@ public interface JavaInfo extends IdEObject {
     /**
      * Returns the value of the '<em><b>Java Home</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Java Home</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Java Home</em>' attribute.
      * @see #setJavaHome(String)
@@ -219,10 +195,6 @@ public interface JavaInfo extends IdEObject {
     /**
      * Returns the value of the '<em><b>Java Version</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Java Version</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Java Version</em>' attribute.
      * @see #setJavaVersion(String)
@@ -245,10 +217,6 @@ public interface JavaInfo extends IdEObject {
     /**
      * Returns the value of the '<em><b>Java Vendor</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Java Vendor</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Java Vendor</em>' attribute.
      * @see #setJavaVendor(String)
@@ -271,10 +239,6 @@ public interface JavaInfo extends IdEObject {
     /**
      * Returns the value of the '<em><b>Java Vendorurl</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Java Vendorurl</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Java Vendorurl</em>' attribute.
      * @see #setJavaVendorurl(String)
@@ -297,10 +261,6 @@ public interface JavaInfo extends IdEObject {
     /**
      * Returns the value of the '<em><b>Javavm Version</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Javavm Version</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Javavm Version</em>' attribute.
      * @see #setJavavmVersion(String)
@@ -323,10 +283,6 @@ public interface JavaInfo extends IdEObject {
     /**
      * Returns the value of the '<em><b>Javavm Vendor</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Javavm Vendor</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Javavm Vendor</em>' attribute.
      * @see #setJavavmVendor(String)
@@ -349,10 +305,6 @@ public interface JavaInfo extends IdEObject {
     /**
      * Returns the value of the '<em><b>Javavm Name</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Javavm Name</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Javavm Name</em>' attribute.
      * @see #setJavavmName(String)
@@ -375,10 +327,6 @@ public interface JavaInfo extends IdEObject {
     /**
      * Returns the value of the '<em><b>Javaspec Version</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Javaspec Version</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Javaspec Version</em>' attribute.
      * @see #setJavaspecVersion(String)
@@ -401,10 +349,6 @@ public interface JavaInfo extends IdEObject {
     /**
      * Returns the value of the '<em><b>Javaspec Vendor</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Javaspec Vendor</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Javaspec Vendor</em>' attribute.
      * @see #setJavaspecVendor(String)
@@ -427,10 +371,6 @@ public interface JavaInfo extends IdEObject {
     /**
      * Returns the value of the '<em><b>Javaspec Name</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Javaspec Name</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Javaspec Name</em>' attribute.
      * @see #setJavaspecName(String)
@@ -453,10 +393,6 @@ public interface JavaInfo extends IdEObject {
     /**
      * Returns the value of the '<em><b>Java Class Version</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Java Class Version</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Java Class Version</em>' attribute.
      * @see #setJavaClassVersion(String)
@@ -480,10 +416,6 @@ public interface JavaInfo extends IdEObject {
      * Returns the value of the '<em><b>Java Classpath</b></em>' attribute list.
      * The list contents are of type {@link java.lang.String}.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Java Classpath</em>' attribute list isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Java Classpath</em>' attribute list.
      * @see org.bimserver.models.store.StorePackage#getJavaInfo_JavaClasspath()
@@ -496,10 +428,6 @@ public interface JavaInfo extends IdEObject {
      * Returns the value of the '<em><b>Java Librarypath</b></em>' attribute list.
      * The list contents are of type {@link java.lang.String}.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Java Librarypath</em>' attribute list isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Java Librarypath</em>' attribute list.
      * @see org.bimserver.models.store.StorePackage#getJavaInfo_JavaLibrarypath()
@@ -511,10 +439,6 @@ public interface JavaInfo extends IdEObject {
     /**
      * Returns the value of the '<em><b>Java Io Tmp</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Java Io Tmp</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Java Io Tmp</em>' attribute.
      * @see #setJavaIoTmp(String)
@@ -537,10 +461,6 @@ public interface JavaInfo extends IdEObject {
     /**
      * Returns the value of the '<em><b>Java Extdir</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Java Extdir</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Java Extdir</em>' attribute.
      * @see #setJavaExtdir(String)
@@ -563,10 +483,6 @@ public interface JavaInfo extends IdEObject {
     /**
      * Returns the value of the '<em><b>Java File Separator</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Java File Separator</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Java File Separator</em>' attribute.
      * @see #setJavaFileSeparator(String)
@@ -589,10 +505,6 @@ public interface JavaInfo extends IdEObject {
     /**
      * Returns the value of the '<em><b>Java Path Separator</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Java Path Separator</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Java Path Separator</em>' attribute.
      * @see #setJavaPathSeparator(String)
@@ -615,10 +527,6 @@ public interface JavaInfo extends IdEObject {
     /**
      * Returns the value of the '<em><b>Java Line Separator</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Java Line Separator</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Java Line Separator</em>' attribute.
      * @see #setJavaLineSeparator(String)

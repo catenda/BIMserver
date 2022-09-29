@@ -45,7 +45,7 @@ public class IfcPlateStandardCaseImpl extends IfcPlateImpl implements IfcPlateSt
      */
     @Override
     protected EClass eStaticClass() {
-        return Ifc4Package.Literals.IFC_PLATE_STANDARD_CASE;
+        return Ifc4Package.eINSTANCE.getIfcPlateStandardCase();
     }
 
 } //IfcPlateStandardCaseImpl

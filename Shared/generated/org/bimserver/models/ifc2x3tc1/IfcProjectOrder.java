@@ -38,10 +38,6 @@ public interface IfcProjectOrder extends IfcControl {
     /**
      * Returns the value of the '<em><b>ID</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>ID</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>ID</em>' attribute.
      * @see #setID(String)
@@ -65,10 +61,6 @@ public interface IfcProjectOrder extends IfcControl {
      * Returns the value of the '<em><b>Predefined Type</b></em>' attribute.
      * The literals are from the enumeration {@link org.bimserver.models.ifc2x3tc1.IfcProjectOrderTypeEnum}.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Predefined Type</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Predefined Type</em>' attribute.
      * @see org.bimserver.models.ifc2x3tc1.IfcProjectOrderTypeEnum
@@ -93,10 +85,6 @@ public interface IfcProjectOrder extends IfcControl {
     /**
      * Returns the value of the '<em><b>Status</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Status</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Status</em>' attribute.
      * @see #isSetStatus()

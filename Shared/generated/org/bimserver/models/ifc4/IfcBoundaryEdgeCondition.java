@@ -41,10 +41,6 @@ public interface IfcBoundaryEdgeCondition extends IfcBoundaryCondition {
     /**
      * Returns the value of the '<em><b>Translational Stiffness By Length X</b></em>' reference.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Translational Stiffness By Length X</em>' reference isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Translational Stiffness By Length X</em>' reference.
      * @see #isSetTranslationalStiffnessByLengthX()
@@ -94,10 +90,6 @@ public interface IfcBoundaryEdgeCondition extends IfcBoundaryCondition {
     /**
      * Returns the value of the '<em><b>Translational Stiffness By Length Y</b></em>' reference.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Translational Stiffness By Length Y</em>' reference isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Translational Stiffness By Length Y</em>' reference.
      * @see #isSetTranslationalStiffnessByLengthY()
@@ -147,10 +139,6 @@ public interface IfcBoundaryEdgeCondition extends IfcBoundaryCondition {
     /**
      * Returns the value of the '<em><b>Translational Stiffness By Length Z</b></em>' reference.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Translational Stiffness By Length Z</em>' reference isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Translational Stiffness By Length Z</em>' reference.
      * @see #isSetTranslationalStiffnessByLengthZ()
@@ -200,10 +188,6 @@ public interface IfcBoundaryEdgeCondition extends IfcBoundaryCondition {
     /**
      * Returns the value of the '<em><b>Rotational Stiffness By Length X</b></em>' reference.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Rotational Stiffness By Length X</em>' reference isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Rotational Stiffness By Length X</em>' reference.
      * @see #isSetRotationalStiffnessByLengthX()
@@ -253,10 +237,6 @@ public interface IfcBoundaryEdgeCondition extends IfcBoundaryCondition {
     /**
      * Returns the value of the '<em><b>Rotational Stiffness By Length Y</b></em>' reference.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Rotational Stiffness By Length Y</em>' reference isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Rotational Stiffness By Length Y</em>' reference.
      * @see #isSetRotationalStiffnessByLengthY()
@@ -306,10 +286,6 @@ public interface IfcBoundaryEdgeCondition extends IfcBoundaryCondition {
     /**
      * Returns the value of the '<em><b>Rotational Stiffness By Length Z</b></em>' reference.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Rotational Stiffness By Length Z</em>' reference isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Rotational Stiffness By Length Z</em>' reference.
      * @see #isSetRotationalStiffnessByLengthZ()

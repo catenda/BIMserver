@@ -41,10 +41,6 @@ public interface IfcGeneralMaterialProperties extends IfcMaterialProperties {
     /**
      * Returns the value of the '<em><b>Molecular Weight</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Molecular Weight</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Molecular Weight</em>' attribute.
      * @see #isSetMolecularWeight()
@@ -94,10 +90,6 @@ public interface IfcGeneralMaterialProperties extends IfcMaterialProperties {
     /**
      * Returns the value of the '<em><b>Molecular Weight As String</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Molecular Weight As String</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Molecular Weight As String</em>' attribute.
      * @see #isSetMolecularWeightAsString()
@@ -149,10 +141,6 @@ public interface IfcGeneralMaterialProperties extends IfcMaterialProperties {
     /**
      * Returns the value of the '<em><b>Porosity</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Porosity</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Porosity</em>' attribute.
      * @see #isSetPorosity()
@@ -202,10 +190,6 @@ public interface IfcGeneralMaterialProperties extends IfcMaterialProperties {
     /**
      * Returns the value of the '<em><b>Porosity As String</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Porosity As String</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Porosity As String</em>' attribute.
      * @see #isSetPorosityAsString()
@@ -257,10 +241,6 @@ public interface IfcGeneralMaterialProperties extends IfcMaterialProperties {
     /**
      * Returns the value of the '<em><b>Mass Density</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Mass Density</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Mass Density</em>' attribute.
      * @see #isSetMassDensity()
@@ -310,10 +290,6 @@ public interface IfcGeneralMaterialProperties extends IfcMaterialProperties {
     /**
      * Returns the value of the '<em><b>Mass Density As String</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Mass Density As String</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Mass Density As String</em>' attribute.
      * @see #isSetMassDensityAsString()

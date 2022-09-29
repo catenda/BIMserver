@@ -55,7 +55,7 @@ public class IfcModulusOfRotationalSubgradeReactionMeasureImpl extends IdEObject
      */
     @Override
     protected EClass eStaticClass() {
-        return Ifc4Package.Literals.IFC_MODULUS_OF_ROTATIONAL_SUBGRADE_REACTION_MEASURE;
+        return Ifc4Package.eINSTANCE.getIfcModulusOfRotationalSubgradeReactionMeasure();
     }
 
     /**
@@ -75,7 +75,7 @@ public class IfcModulusOfRotationalSubgradeReactionMeasureImpl extends IdEObject
      */
     @Override
     public double getWrappedValue() {
-        return (Double) eGet(Ifc4Package.Literals.IFC_MODULUS_OF_ROTATIONAL_SUBGRADE_REACTION_MEASURE__WRAPPED_VALUE,
+        return (Double) eGet(Ifc4Package.eINSTANCE.getIfcModulusOfRotationalSubgradeReactionMeasure_WrappedValue(),
                 true);
     }
 
@@ -86,7 +86,7 @@ public class IfcModulusOfRotationalSubgradeReactionMeasureImpl extends IdEObject
      */
     @Override
     public void setWrappedValue(double newWrappedValue) {
-        eSet(Ifc4Package.Literals.IFC_MODULUS_OF_ROTATIONAL_SUBGRADE_REACTION_MEASURE__WRAPPED_VALUE, newWrappedValue);
+        eSet(Ifc4Package.eINSTANCE.getIfcModulusOfRotationalSubgradeReactionMeasure_WrappedValue(), newWrappedValue);
     }
 
     /**
@@ -96,7 +96,7 @@ public class IfcModulusOfRotationalSubgradeReactionMeasureImpl extends IdEObject
      */
     @Override
     public void unsetWrappedValue() {
-        eUnset(Ifc4Package.Literals.IFC_MODULUS_OF_ROTATIONAL_SUBGRADE_REACTION_MEASURE__WRAPPED_VALUE);
+        eUnset(Ifc4Package.eINSTANCE.getIfcModulusOfRotationalSubgradeReactionMeasure_WrappedValue());
     }
 
     /**
@@ -106,7 +106,7 @@ public class IfcModulusOfRotationalSubgradeReactionMeasureImpl extends IdEObject
      */
     @Override
     public boolean isSetWrappedValue() {
-        return eIsSet(Ifc4Package.Literals.IFC_MODULUS_OF_ROTATIONAL_SUBGRADE_REACTION_MEASURE__WRAPPED_VALUE);
+        return eIsSet(Ifc4Package.eINSTANCE.getIfcModulusOfRotationalSubgradeReactionMeasure_WrappedValue());
     }
 
     /**
@@ -117,8 +117,7 @@ public class IfcModulusOfRotationalSubgradeReactionMeasureImpl extends IdEObject
     @Override
     public String getWrappedValueAsString() {
         return (String) eGet(
-                Ifc4Package.Literals.IFC_MODULUS_OF_ROTATIONAL_SUBGRADE_REACTION_MEASURE__WRAPPED_VALUE_AS_STRING,
-                true);
+                Ifc4Package.eINSTANCE.getIfcModulusOfRotationalSubgradeReactionMeasure_WrappedValueAsString(), true);
     }
 
     /**
@@ -128,7 +127,7 @@ public class IfcModulusOfRotationalSubgradeReactionMeasureImpl extends IdEObject
      */
     @Override
     public void setWrappedValueAsString(String newWrappedValueAsString) {
-        eSet(Ifc4Package.Literals.IFC_MODULUS_OF_ROTATIONAL_SUBGRADE_REACTION_MEASURE__WRAPPED_VALUE_AS_STRING,
+        eSet(Ifc4Package.eINSTANCE.getIfcModulusOfRotationalSubgradeReactionMeasure_WrappedValueAsString(),
                 newWrappedValueAsString);
     }
 
@@ -139,7 +138,7 @@ public class IfcModulusOfRotationalSubgradeReactionMeasureImpl extends IdEObject
      */
     @Override
     public void unsetWrappedValueAsString() {
-        eUnset(Ifc4Package.Literals.IFC_MODULUS_OF_ROTATIONAL_SUBGRADE_REACTION_MEASURE__WRAPPED_VALUE_AS_STRING);
+        eUnset(Ifc4Package.eINSTANCE.getIfcModulusOfRotationalSubgradeReactionMeasure_WrappedValueAsString());
     }
 
     /**
@@ -149,8 +148,7 @@ public class IfcModulusOfRotationalSubgradeReactionMeasureImpl extends IdEObject
      */
     @Override
     public boolean isSetWrappedValueAsString() {
-        return eIsSet(
-                Ifc4Package.Literals.IFC_MODULUS_OF_ROTATIONAL_SUBGRADE_REACTION_MEASURE__WRAPPED_VALUE_AS_STRING);
+        return eIsSet(Ifc4Package.eINSTANCE.getIfcModulusOfRotationalSubgradeReactionMeasure_WrappedValueAsString());
     }
 
 } //IfcModulusOfRotationalSubgradeReactionMeasureImpl

@@ -43,10 +43,6 @@ public interface IfcTextStyleFontModel extends IfcPreDefinedTextFont {
      * Returns the value of the '<em><b>Font Family</b></em>' attribute list.
      * The list contents are of type {@link java.lang.String}.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Font Family</em>' attribute list isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Font Family</em>' attribute list.
      * @see org.bimserver.models.ifc4.Ifc4Package#getIfcTextStyleFontModel_FontFamily()
@@ -58,10 +54,6 @@ public interface IfcTextStyleFontModel extends IfcPreDefinedTextFont {
     /**
      * Returns the value of the '<em><b>Font Style</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Font Style</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Font Style</em>' attribute.
      * @see #isSetFontStyle()
@@ -111,10 +103,6 @@ public interface IfcTextStyleFontModel extends IfcPreDefinedTextFont {
     /**
      * Returns the value of the '<em><b>Font Variant</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Font Variant</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Font Variant</em>' attribute.
      * @see #isSetFontVariant()
@@ -164,10 +152,6 @@ public interface IfcTextStyleFontModel extends IfcPreDefinedTextFont {
     /**
      * Returns the value of the '<em><b>Font Weight</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Font Weight</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Font Weight</em>' attribute.
      * @see #isSetFontWeight()
@@ -217,10 +201,6 @@ public interface IfcTextStyleFontModel extends IfcPreDefinedTextFont {
     /**
      * Returns the value of the '<em><b>Font Size</b></em>' reference.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Font Size</em>' reference isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Font Size</em>' reference.
      * @see #setFontSize(IfcSizeSelect)

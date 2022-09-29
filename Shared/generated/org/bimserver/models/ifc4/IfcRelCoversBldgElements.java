@@ -40,10 +40,6 @@ public interface IfcRelCoversBldgElements extends IfcRelConnects {
      * Returns the value of the '<em><b>Relating Building Element</b></em>' reference.
      * It is bidirectional and its opposite is '{@link org.bimserver.models.ifc4.IfcElement#getHasCoverings <em>Has Coverings</em>}'.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Relating Building Element</em>' reference isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Relating Building Element</em>' reference.
      * @see #setRelatingBuildingElement(IfcElement)
@@ -70,10 +66,6 @@ public interface IfcRelCoversBldgElements extends IfcRelConnects {
      * The list contents are of type {@link org.bimserver.models.ifc4.IfcCovering}.
      * It is bidirectional and its opposite is '{@link org.bimserver.models.ifc4.IfcCovering#getCoversElements <em>Covers Elements</em>}'.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Related Coverings</em>' reference list isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Related Coverings</em>' reference list.
      * @see org.bimserver.models.ifc4.Ifc4Package#getIfcRelCoversBldgElements_RelatedCoverings()

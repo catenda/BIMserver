@@ -54,7 +54,7 @@ public class IfcDistributionElementImpl extends IfcElementImpl implements IfcDis
      */
     @Override
     protected EClass eStaticClass() {
-        return Ifc4Package.Literals.IFC_DISTRIBUTION_ELEMENT;
+        return Ifc4Package.eINSTANCE.getIfcDistributionElement();
     }
 
     /**
@@ -65,7 +65,7 @@ public class IfcDistributionElementImpl extends IfcElementImpl implements IfcDis
     @SuppressWarnings("unchecked")
     @Override
     public EList<IfcRelConnectsPortToElement> getHasPorts() {
-        return (EList<IfcRelConnectsPortToElement>) eGet(Ifc4Package.Literals.IFC_DISTRIBUTION_ELEMENT__HAS_PORTS,
+        return (EList<IfcRelConnectsPortToElement>) eGet(Ifc4Package.eINSTANCE.getIfcDistributionElement_HasPorts(),
                 true);
     }
 
@@ -76,7 +76,7 @@ public class IfcDistributionElementImpl extends IfcElementImpl implements IfcDis
      */
     @Override
     public void unsetHasPorts() {
-        eUnset(Ifc4Package.Literals.IFC_DISTRIBUTION_ELEMENT__HAS_PORTS);
+        eUnset(Ifc4Package.eINSTANCE.getIfcDistributionElement_HasPorts());
     }
 
     /**
@@ -86,7 +86,7 @@ public class IfcDistributionElementImpl extends IfcElementImpl implements IfcDis
      */
     @Override
     public boolean isSetHasPorts() {
-        return eIsSet(Ifc4Package.Literals.IFC_DISTRIBUTION_ELEMENT__HAS_PORTS);
+        return eIsSet(Ifc4Package.eINSTANCE.getIfcDistributionElement_HasPorts());
     }
 
 } //IfcDistributionElementImpl

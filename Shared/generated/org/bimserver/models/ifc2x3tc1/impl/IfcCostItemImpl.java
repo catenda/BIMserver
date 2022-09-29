@@ -45,7 +45,7 @@ public class IfcCostItemImpl extends IfcControlImpl implements IfcCostItem {
      */
     @Override
     protected EClass eStaticClass() {
-        return Ifc2x3tc1Package.Literals.IFC_COST_ITEM;
+        return Ifc2x3tc1Package.eINSTANCE.getIfcCostItem();
     }
 
 } //IfcCostItemImpl

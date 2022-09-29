@@ -55,7 +55,7 @@ public class IfcAnnotationFillAreaImpl extends IfcGeometricRepresentationItemImp
      */
     @Override
     protected EClass eStaticClass() {
-        return Ifc2x3tc1Package.Literals.IFC_ANNOTATION_FILL_AREA;
+        return Ifc2x3tc1Package.eINSTANCE.getIfcAnnotationFillArea();
     }
 
     /**
@@ -65,7 +65,7 @@ public class IfcAnnotationFillAreaImpl extends IfcGeometricRepresentationItemImp
      */
     @Override
     public IfcCurve getOuterBoundary() {
-        return (IfcCurve) eGet(Ifc2x3tc1Package.Literals.IFC_ANNOTATION_FILL_AREA__OUTER_BOUNDARY, true);
+        return (IfcCurve) eGet(Ifc2x3tc1Package.eINSTANCE.getIfcAnnotationFillArea_OuterBoundary(), true);
     }
 
     /**
@@ -75,7 +75,7 @@ public class IfcAnnotationFillAreaImpl extends IfcGeometricRepresentationItemImp
      */
     @Override
     public void setOuterBoundary(IfcCurve newOuterBoundary) {
-        eSet(Ifc2x3tc1Package.Literals.IFC_ANNOTATION_FILL_AREA__OUTER_BOUNDARY, newOuterBoundary);
+        eSet(Ifc2x3tc1Package.eINSTANCE.getIfcAnnotationFillArea_OuterBoundary(), newOuterBoundary);
     }
 
     /**
@@ -86,7 +86,7 @@ public class IfcAnnotationFillAreaImpl extends IfcGeometricRepresentationItemImp
     @SuppressWarnings("unchecked")
     @Override
     public EList<IfcCurve> getInnerBoundaries() {
-        return (EList<IfcCurve>) eGet(Ifc2x3tc1Package.Literals.IFC_ANNOTATION_FILL_AREA__INNER_BOUNDARIES, true);
+        return (EList<IfcCurve>) eGet(Ifc2x3tc1Package.eINSTANCE.getIfcAnnotationFillArea_InnerBoundaries(), true);
     }
 
     /**
@@ -96,7 +96,7 @@ public class IfcAnnotationFillAreaImpl extends IfcGeometricRepresentationItemImp
      */
     @Override
     public void unsetInnerBoundaries() {
-        eUnset(Ifc2x3tc1Package.Literals.IFC_ANNOTATION_FILL_AREA__INNER_BOUNDARIES);
+        eUnset(Ifc2x3tc1Package.eINSTANCE.getIfcAnnotationFillArea_InnerBoundaries());
     }
 
     /**
@@ -106,7 +106,7 @@ public class IfcAnnotationFillAreaImpl extends IfcGeometricRepresentationItemImp
      */
     @Override
     public boolean isSetInnerBoundaries() {
-        return eIsSet(Ifc2x3tc1Package.Literals.IFC_ANNOTATION_FILL_AREA__INNER_BOUNDARIES);
+        return eIsSet(Ifc2x3tc1Package.eINSTANCE.getIfcAnnotationFillArea_InnerBoundaries());
     }
 
 } //IfcAnnotationFillAreaImpl

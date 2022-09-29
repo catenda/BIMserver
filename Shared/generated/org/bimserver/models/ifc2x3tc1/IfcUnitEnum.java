@@ -345,10 +345,6 @@ public enum IfcUnitEnum implements Enumerator {
     /**
      * The '<em><b>NULL</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>NULL</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #NULL
      * @model
@@ -360,10 +356,6 @@ public enum IfcUnitEnum implements Enumerator {
     /**
      * The '<em><b>LENGTHUNIT</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>LENGTHUNIT</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #LENGTHUNIT
      * @model
@@ -375,10 +367,6 @@ public enum IfcUnitEnum implements Enumerator {
     /**
      * The '<em><b>SOLIDANGLEUNIT</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>SOLIDANGLEUNIT</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #SOLIDANGLEUNIT
      * @model
@@ -390,10 +378,6 @@ public enum IfcUnitEnum implements Enumerator {
     /**
      * The '<em><b>RADIOACTIVITYUNIT</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>RADIOACTIVITYUNIT</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #RADIOACTIVITYUNIT
      * @model
@@ -405,10 +389,6 @@ public enum IfcUnitEnum implements Enumerator {
     /**
      * The '<em><b>ENERGYUNIT</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>ENERGYUNIT</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #ENERGYUNIT
      * @model
@@ -420,10 +400,6 @@ public enum IfcUnitEnum implements Enumerator {
     /**
      * The '<em><b>AMOUNTOFSUBSTANCEUNIT</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>AMOUNTOFSUBSTANCEUNIT</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #AMOUNTOFSUBSTANCEUNIT
      * @model
@@ -435,10 +411,6 @@ public enum IfcUnitEnum implements Enumerator {
     /**
      * The '<em><b>LUMINOUSFLUXUNIT</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>LUMINOUSFLUXUNIT</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #LUMINOUSFLUXUNIT
      * @model
@@ -450,10 +422,6 @@ public enum IfcUnitEnum implements Enumerator {
     /**
      * The '<em><b>USERDEFINED</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>USERDEFINED</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #USERDEFINED
      * @model
@@ -465,10 +433,6 @@ public enum IfcUnitEnum implements Enumerator {
     /**
      * The '<em><b>FREQUENCYUNIT</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>FREQUENCYUNIT</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #FREQUENCYUNIT
      * @model
@@ -480,10 +444,6 @@ public enum IfcUnitEnum implements Enumerator {
     /**
      * The '<em><b>LUMINOUSINTENSITYUNIT</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>LUMINOUSINTENSITYUNIT</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #LUMINOUSINTENSITYUNIT
      * @model
@@ -495,10 +455,6 @@ public enum IfcUnitEnum implements Enumerator {
     /**
      * The '<em><b>DOSEEQUIVALENTUNIT</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>DOSEEQUIVALENTUNIT</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #DOSEEQUIVALENTUNIT
      * @model
@@ -510,10 +466,6 @@ public enum IfcUnitEnum implements Enumerator {
     /**
      * The '<em><b>ABSORBEDDOSEUNIT</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>ABSORBEDDOSEUNIT</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #ABSORBEDDOSEUNIT
      * @model
@@ -525,10 +477,6 @@ public enum IfcUnitEnum implements Enumerator {
     /**
      * The '<em><b>ELECTRICCAPACITANCEUNIT</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>ELECTRICCAPACITANCEUNIT</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #ELECTRICCAPACITANCEUNIT
      * @model
@@ -540,10 +488,6 @@ public enum IfcUnitEnum implements Enumerator {
     /**
      * The '<em><b>ELECTRICRESISTANCEUNIT</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>ELECTRICRESISTANCEUNIT</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #ELECTRICRESISTANCEUNIT
      * @model
@@ -555,10 +499,6 @@ public enum IfcUnitEnum implements Enumerator {
     /**
      * The '<em><b>PRESSUREUNIT</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>PRESSUREUNIT</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #PRESSUREUNIT
      * @model
@@ -570,10 +510,6 @@ public enum IfcUnitEnum implements Enumerator {
     /**
      * The '<em><b>ELECTRICVOLTAGEUNIT</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>ELECTRICVOLTAGEUNIT</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #ELECTRICVOLTAGEUNIT
      * @model
@@ -585,10 +521,6 @@ public enum IfcUnitEnum implements Enumerator {
     /**
      * The '<em><b>MAGNETICFLUXDENSITYUNIT</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>MAGNETICFLUXDENSITYUNIT</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #MAGNETICFLUXDENSITYUNIT
      * @model
@@ -600,10 +532,6 @@ public enum IfcUnitEnum implements Enumerator {
     /**
      * The '<em><b>ELECTRICCONDUCTANCEUNIT</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>ELECTRICCONDUCTANCEUNIT</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #ELECTRICCONDUCTANCEUNIT
      * @model
@@ -615,10 +543,6 @@ public enum IfcUnitEnum implements Enumerator {
     /**
      * The '<em><b>ILLUMINANCEUNIT</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>ILLUMINANCEUNIT</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #ILLUMINANCEUNIT
      * @model
@@ -630,10 +554,6 @@ public enum IfcUnitEnum implements Enumerator {
     /**
      * The '<em><b>INDUCTANCEUNIT</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>INDUCTANCEUNIT</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #INDUCTANCEUNIT
      * @model
@@ -645,10 +565,6 @@ public enum IfcUnitEnum implements Enumerator {
     /**
      * The '<em><b>ELECTRICCHARGEUNIT</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>ELECTRICCHARGEUNIT</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #ELECTRICCHARGEUNIT
      * @model
@@ -660,10 +576,6 @@ public enum IfcUnitEnum implements Enumerator {
     /**
      * The '<em><b>ELECTRICCURRENTUNIT</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>ELECTRICCURRENTUNIT</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #ELECTRICCURRENTUNIT
      * @model
@@ -675,10 +587,6 @@ public enum IfcUnitEnum implements Enumerator {
     /**
      * The '<em><b>POWERUNIT</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>POWERUNIT</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #POWERUNIT
      * @model
@@ -690,10 +598,6 @@ public enum IfcUnitEnum implements Enumerator {
     /**
      * The '<em><b>THERMODYNAMICTEMPERATUREUNIT</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>THERMODYNAMICTEMPERATUREUNIT</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #THERMODYNAMICTEMPERATUREUNIT
      * @model
@@ -705,10 +609,6 @@ public enum IfcUnitEnum implements Enumerator {
     /**
      * The '<em><b>VOLUMEUNIT</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>VOLUMEUNIT</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #VOLUMEUNIT
      * @model
@@ -720,10 +620,6 @@ public enum IfcUnitEnum implements Enumerator {
     /**
      * The '<em><b>MAGNETICFLUXUNIT</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>MAGNETICFLUXUNIT</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #MAGNETICFLUXUNIT
      * @model
@@ -735,10 +631,6 @@ public enum IfcUnitEnum implements Enumerator {
     /**
      * The '<em><b>MASSUNIT</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>MASSUNIT</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #MASSUNIT
      * @model
@@ -750,10 +642,6 @@ public enum IfcUnitEnum implements Enumerator {
     /**
      * The '<em><b>TIMEUNIT</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>TIMEUNIT</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #TIMEUNIT
      * @model
@@ -765,10 +653,6 @@ public enum IfcUnitEnum implements Enumerator {
     /**
      * The '<em><b>AREAUNIT</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>AREAUNIT</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #AREAUNIT
      * @model
@@ -780,10 +664,6 @@ public enum IfcUnitEnum implements Enumerator {
     /**
      * The '<em><b>FORCEUNIT</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>FORCEUNIT</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #FORCEUNIT
      * @model
@@ -795,10 +675,6 @@ public enum IfcUnitEnum implements Enumerator {
     /**
      * The '<em><b>PLANEANGLEUNIT</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>PLANEANGLEUNIT</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #PLANEANGLEUNIT
      * @model

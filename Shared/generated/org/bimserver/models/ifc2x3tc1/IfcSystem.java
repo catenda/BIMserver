@@ -40,10 +40,6 @@ public interface IfcSystem extends IfcGroup {
      * The list contents are of type {@link org.bimserver.models.ifc2x3tc1.IfcRelServicesBuildings}.
      * It is bidirectional and its opposite is '{@link org.bimserver.models.ifc2x3tc1.IfcRelServicesBuildings#getRelatingSystem <em>Relating System</em>}'.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Services Buildings</em>' reference list isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Services Buildings</em>' reference list.
      * @see #isSetServicesBuildings()

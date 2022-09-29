@@ -46,7 +46,7 @@ public class IfcAnnotationTextOccurrenceImpl extends IfcAnnotationOccurrenceImpl
      */
     @Override
     protected EClass eStaticClass() {
-        return Ifc2x3tc1Package.Literals.IFC_ANNOTATION_TEXT_OCCURRENCE;
+        return Ifc2x3tc1Package.eINSTANCE.getIfcAnnotationTextOccurrence();
     }
 
 } //IfcAnnotationTextOccurrenceImpl

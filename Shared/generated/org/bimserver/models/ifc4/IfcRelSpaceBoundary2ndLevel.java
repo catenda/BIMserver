@@ -40,10 +40,6 @@ public interface IfcRelSpaceBoundary2ndLevel extends IfcRelSpaceBoundary1stLevel
      * Returns the value of the '<em><b>Corresponding Boundary</b></em>' reference.
      * It is bidirectional and its opposite is '{@link org.bimserver.models.ifc4.IfcRelSpaceBoundary2ndLevel#getCorresponds <em>Corresponds</em>}'.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Corresponding Boundary</em>' reference isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Corresponding Boundary</em>' reference.
      * @see #isSetCorrespondingBoundary()
@@ -97,10 +93,6 @@ public interface IfcRelSpaceBoundary2ndLevel extends IfcRelSpaceBoundary1stLevel
      * The list contents are of type {@link org.bimserver.models.ifc4.IfcRelSpaceBoundary2ndLevel}.
      * It is bidirectional and its opposite is '{@link org.bimserver.models.ifc4.IfcRelSpaceBoundary2ndLevel#getCorrespondingBoundary <em>Corresponding Boundary</em>}'.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Corresponds</em>' reference list isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Corresponds</em>' reference list.
      * @see #isSetCorresponds()

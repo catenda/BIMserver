@@ -53,7 +53,7 @@ public class IfcCompoundPlaneAngleMeasureImpl extends IdEObjectImpl implements I
      */
     @Override
     protected EClass eStaticClass() {
-        return Ifc2x3tc1Package.Literals.IFC_COMPOUND_PLANE_ANGLE_MEASURE;
+        return Ifc2x3tc1Package.eINSTANCE.getIfcCompoundPlaneAngleMeasure();
     }
 
     /**
@@ -73,7 +73,7 @@ public class IfcCompoundPlaneAngleMeasureImpl extends IdEObjectImpl implements I
      */
     @Override
     public long getWrappedValue() {
-        return (Long) eGet(Ifc2x3tc1Package.Literals.IFC_COMPOUND_PLANE_ANGLE_MEASURE__WRAPPED_VALUE, true);
+        return (Long) eGet(Ifc2x3tc1Package.eINSTANCE.getIfcCompoundPlaneAngleMeasure_WrappedValue(), true);
     }
 
     /**
@@ -83,7 +83,7 @@ public class IfcCompoundPlaneAngleMeasureImpl extends IdEObjectImpl implements I
      */
     @Override
     public void setWrappedValue(long newWrappedValue) {
-        eSet(Ifc2x3tc1Package.Literals.IFC_COMPOUND_PLANE_ANGLE_MEASURE__WRAPPED_VALUE, newWrappedValue);
+        eSet(Ifc2x3tc1Package.eINSTANCE.getIfcCompoundPlaneAngleMeasure_WrappedValue(), newWrappedValue);
     }
 
     /**
@@ -93,7 +93,7 @@ public class IfcCompoundPlaneAngleMeasureImpl extends IdEObjectImpl implements I
      */
     @Override
     public void unsetWrappedValue() {
-        eUnset(Ifc2x3tc1Package.Literals.IFC_COMPOUND_PLANE_ANGLE_MEASURE__WRAPPED_VALUE);
+        eUnset(Ifc2x3tc1Package.eINSTANCE.getIfcCompoundPlaneAngleMeasure_WrappedValue());
     }
 
     /**
@@ -103,7 +103,7 @@ public class IfcCompoundPlaneAngleMeasureImpl extends IdEObjectImpl implements I
      */
     @Override
     public boolean isSetWrappedValue() {
-        return eIsSet(Ifc2x3tc1Package.Literals.IFC_COMPOUND_PLANE_ANGLE_MEASURE__WRAPPED_VALUE);
+        return eIsSet(Ifc2x3tc1Package.eINSTANCE.getIfcCompoundPlaneAngleMeasure_WrappedValue());
     }
 
 } //IfcCompoundPlaneAngleMeasureImpl

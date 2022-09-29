@@ -46,7 +46,7 @@ public class IfcDraughtingPreDefinedTextFontImpl extends IfcPreDefinedTextFontIm
      */
     @Override
     protected EClass eStaticClass() {
-        return Ifc2x3tc1Package.Literals.IFC_DRAUGHTING_PRE_DEFINED_TEXT_FONT;
+        return Ifc2x3tc1Package.eINSTANCE.getIfcDraughtingPreDefinedTextFont();
     }
 
 } //IfcDraughtingPreDefinedTextFontImpl

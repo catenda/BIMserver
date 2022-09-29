@@ -52,7 +52,7 @@ public class IfcElectricTimeControlImpl extends IfcFlowControllerImpl implements
      */
     @Override
     protected EClass eStaticClass() {
-        return Ifc4Package.Literals.IFC_ELECTRIC_TIME_CONTROL;
+        return Ifc4Package.eINSTANCE.getIfcElectricTimeControl();
     }
 
     /**
@@ -62,7 +62,7 @@ public class IfcElectricTimeControlImpl extends IfcFlowControllerImpl implements
      */
     @Override
     public IfcElectricTimeControlTypeEnum getPredefinedType() {
-        return (IfcElectricTimeControlTypeEnum) eGet(Ifc4Package.Literals.IFC_ELECTRIC_TIME_CONTROL__PREDEFINED_TYPE,
+        return (IfcElectricTimeControlTypeEnum) eGet(Ifc4Package.eINSTANCE.getIfcElectricTimeControl_PredefinedType(),
                 true);
     }
 
@@ -73,7 +73,7 @@ public class IfcElectricTimeControlImpl extends IfcFlowControllerImpl implements
      */
     @Override
     public void setPredefinedType(IfcElectricTimeControlTypeEnum newPredefinedType) {
-        eSet(Ifc4Package.Literals.IFC_ELECTRIC_TIME_CONTROL__PREDEFINED_TYPE, newPredefinedType);
+        eSet(Ifc4Package.eINSTANCE.getIfcElectricTimeControl_PredefinedType(), newPredefinedType);
     }
 
     /**
@@ -83,7 +83,7 @@ public class IfcElectricTimeControlImpl extends IfcFlowControllerImpl implements
      */
     @Override
     public void unsetPredefinedType() {
-        eUnset(Ifc4Package.Literals.IFC_ELECTRIC_TIME_CONTROL__PREDEFINED_TYPE);
+        eUnset(Ifc4Package.eINSTANCE.getIfcElectricTimeControl_PredefinedType());
     }
 
     /**
@@ -93,7 +93,7 @@ public class IfcElectricTimeControlImpl extends IfcFlowControllerImpl implements
      */
     @Override
     public boolean isSetPredefinedType() {
-        return eIsSet(Ifc4Package.Literals.IFC_ELECTRIC_TIME_CONTROL__PREDEFINED_TYPE);
+        return eIsSet(Ifc4Package.eINSTANCE.getIfcElectricTimeControl_PredefinedType());
     }
 
 } //IfcElectricTimeControlImpl

@@ -43,10 +43,6 @@ public interface IfcAddress extends IfcObjectReferenceSelect {
      * Returns the value of the '<em><b>Purpose</b></em>' attribute.
      * The literals are from the enumeration {@link org.bimserver.models.ifc4.IfcAddressTypeEnum}.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Purpose</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Purpose</em>' attribute.
      * @see org.bimserver.models.ifc4.IfcAddressTypeEnum
@@ -98,10 +94,6 @@ public interface IfcAddress extends IfcObjectReferenceSelect {
     /**
      * Returns the value of the '<em><b>Description</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Description</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Description</em>' attribute.
      * @see #isSetDescription()
@@ -151,10 +143,6 @@ public interface IfcAddress extends IfcObjectReferenceSelect {
     /**
      * Returns the value of the '<em><b>User Defined Purpose</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>User Defined Purpose</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>User Defined Purpose</em>' attribute.
      * @see #isSetUserDefinedPurpose()
@@ -206,10 +194,6 @@ public interface IfcAddress extends IfcObjectReferenceSelect {
      * The list contents are of type {@link org.bimserver.models.ifc4.IfcPerson}.
      * It is bidirectional and its opposite is '{@link org.bimserver.models.ifc4.IfcPerson#getAddresses <em>Addresses</em>}'.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Of Person</em>' reference list isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Of Person</em>' reference list.
      * @see #isSetOfPerson()
@@ -248,10 +232,6 @@ public interface IfcAddress extends IfcObjectReferenceSelect {
      * The list contents are of type {@link org.bimserver.models.ifc4.IfcOrganization}.
      * It is bidirectional and its opposite is '{@link org.bimserver.models.ifc4.IfcOrganization#getAddresses <em>Addresses</em>}'.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Of Organization</em>' reference list isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Of Organization</em>' reference list.
      * @see #isSetOfOrganization()

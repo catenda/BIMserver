@@ -46,7 +46,7 @@ public class IfcGeometricRepresentationItemImpl extends IfcRepresentationItemImp
      */
     @Override
     protected EClass eStaticClass() {
-        return Ifc4Package.Literals.IFC_GEOMETRIC_REPRESENTATION_ITEM;
+        return Ifc4Package.eINSTANCE.getIfcGeometricRepresentationItem();
     }
 
 } //IfcGeometricRepresentationItemImpl

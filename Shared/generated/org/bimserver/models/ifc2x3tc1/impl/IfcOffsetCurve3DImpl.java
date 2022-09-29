@@ -57,7 +57,7 @@ public class IfcOffsetCurve3DImpl extends IfcCurveImpl implements IfcOffsetCurve
      */
     @Override
     protected EClass eStaticClass() {
-        return Ifc2x3tc1Package.Literals.IFC_OFFSET_CURVE3_D;
+        return Ifc2x3tc1Package.eINSTANCE.getIfcOffsetCurve3D();
     }
 
     /**
@@ -67,7 +67,7 @@ public class IfcOffsetCurve3DImpl extends IfcCurveImpl implements IfcOffsetCurve
      */
     @Override
     public IfcCurve getBasisCurve() {
-        return (IfcCurve) eGet(Ifc2x3tc1Package.Literals.IFC_OFFSET_CURVE3_D__BASIS_CURVE, true);
+        return (IfcCurve) eGet(Ifc2x3tc1Package.eINSTANCE.getIfcOffsetCurve3D_BasisCurve(), true);
     }
 
     /**
@@ -77,7 +77,7 @@ public class IfcOffsetCurve3DImpl extends IfcCurveImpl implements IfcOffsetCurve
      */
     @Override
     public void setBasisCurve(IfcCurve newBasisCurve) {
-        eSet(Ifc2x3tc1Package.Literals.IFC_OFFSET_CURVE3_D__BASIS_CURVE, newBasisCurve);
+        eSet(Ifc2x3tc1Package.eINSTANCE.getIfcOffsetCurve3D_BasisCurve(), newBasisCurve);
     }
 
     /**
@@ -87,7 +87,7 @@ public class IfcOffsetCurve3DImpl extends IfcCurveImpl implements IfcOffsetCurve
      */
     @Override
     public double getDistance() {
-        return (Double) eGet(Ifc2x3tc1Package.Literals.IFC_OFFSET_CURVE3_D__DISTANCE, true);
+        return (Double) eGet(Ifc2x3tc1Package.eINSTANCE.getIfcOffsetCurve3D_Distance(), true);
     }
 
     /**
@@ -97,7 +97,7 @@ public class IfcOffsetCurve3DImpl extends IfcCurveImpl implements IfcOffsetCurve
      */
     @Override
     public void setDistance(double newDistance) {
-        eSet(Ifc2x3tc1Package.Literals.IFC_OFFSET_CURVE3_D__DISTANCE, newDistance);
+        eSet(Ifc2x3tc1Package.eINSTANCE.getIfcOffsetCurve3D_Distance(), newDistance);
     }
 
     /**
@@ -107,7 +107,7 @@ public class IfcOffsetCurve3DImpl extends IfcCurveImpl implements IfcOffsetCurve
      */
     @Override
     public String getDistanceAsString() {
-        return (String) eGet(Ifc2x3tc1Package.Literals.IFC_OFFSET_CURVE3_D__DISTANCE_AS_STRING, true);
+        return (String) eGet(Ifc2x3tc1Package.eINSTANCE.getIfcOffsetCurve3D_DistanceAsString(), true);
     }
 
     /**
@@ -117,7 +117,7 @@ public class IfcOffsetCurve3DImpl extends IfcCurveImpl implements IfcOffsetCurve
      */
     @Override
     public void setDistanceAsString(String newDistanceAsString) {
-        eSet(Ifc2x3tc1Package.Literals.IFC_OFFSET_CURVE3_D__DISTANCE_AS_STRING, newDistanceAsString);
+        eSet(Ifc2x3tc1Package.eINSTANCE.getIfcOffsetCurve3D_DistanceAsString(), newDistanceAsString);
     }
 
     /**
@@ -127,7 +127,7 @@ public class IfcOffsetCurve3DImpl extends IfcCurveImpl implements IfcOffsetCurve
      */
     @Override
     public boolean isSelfIntersect() {
-        return (Boolean) eGet(Ifc2x3tc1Package.Literals.IFC_OFFSET_CURVE3_D__SELF_INTERSECT, true);
+        return (Boolean) eGet(Ifc2x3tc1Package.eINSTANCE.getIfcOffsetCurve3D_SelfIntersect(), true);
     }
 
     /**
@@ -137,7 +137,7 @@ public class IfcOffsetCurve3DImpl extends IfcCurveImpl implements IfcOffsetCurve
      */
     @Override
     public void setSelfIntersect(boolean newSelfIntersect) {
-        eSet(Ifc2x3tc1Package.Literals.IFC_OFFSET_CURVE3_D__SELF_INTERSECT, newSelfIntersect);
+        eSet(Ifc2x3tc1Package.eINSTANCE.getIfcOffsetCurve3D_SelfIntersect(), newSelfIntersect);
     }
 
     /**
@@ -147,7 +147,7 @@ public class IfcOffsetCurve3DImpl extends IfcCurveImpl implements IfcOffsetCurve
      */
     @Override
     public IfcDirection getRefDirection() {
-        return (IfcDirection) eGet(Ifc2x3tc1Package.Literals.IFC_OFFSET_CURVE3_D__REF_DIRECTION, true);
+        return (IfcDirection) eGet(Ifc2x3tc1Package.eINSTANCE.getIfcOffsetCurve3D_RefDirection(), true);
     }
 
     /**
@@ -157,7 +157,7 @@ public class IfcOffsetCurve3DImpl extends IfcCurveImpl implements IfcOffsetCurve
      */
     @Override
     public void setRefDirection(IfcDirection newRefDirection) {
-        eSet(Ifc2x3tc1Package.Literals.IFC_OFFSET_CURVE3_D__REF_DIRECTION, newRefDirection);
+        eSet(Ifc2x3tc1Package.eINSTANCE.getIfcOffsetCurve3D_RefDirection(), newRefDirection);
     }
 
 } //IfcOffsetCurve3DImpl

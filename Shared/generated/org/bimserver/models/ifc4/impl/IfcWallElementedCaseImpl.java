@@ -45,7 +45,7 @@ public class IfcWallElementedCaseImpl extends IfcWallImpl implements IfcWallElem
      */
     @Override
     protected EClass eStaticClass() {
-        return Ifc4Package.Literals.IFC_WALL_ELEMENTED_CASE;
+        return Ifc4Package.eINSTANCE.getIfcWallElementedCase();
     }
 
 } //IfcWallElementedCaseImpl

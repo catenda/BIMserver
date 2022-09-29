@@ -38,10 +38,6 @@ public interface IfcConnectionPortGeometry extends IfcConnectionGeometry {
     /**
      * Returns the value of the '<em><b>Location At Relating Element</b></em>' reference.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Location At Relating Element</em>' reference isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Location At Relating Element</em>' reference.
      * @see #setLocationAtRelatingElement(IfcAxis2Placement)
@@ -64,10 +60,6 @@ public interface IfcConnectionPortGeometry extends IfcConnectionGeometry {
     /**
      * Returns the value of the '<em><b>Location At Related Element</b></em>' reference.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Location At Related Element</em>' reference isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Location At Related Element</em>' reference.
      * @see #isSetLocationAtRelatedElement()
@@ -117,10 +109,6 @@ public interface IfcConnectionPortGeometry extends IfcConnectionGeometry {
     /**
      * Returns the value of the '<em><b>Profile Of Port</b></em>' reference.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Profile Of Port</em>' reference isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Profile Of Port</em>' reference.
      * @see #setProfileOfPort(IfcProfileDef)

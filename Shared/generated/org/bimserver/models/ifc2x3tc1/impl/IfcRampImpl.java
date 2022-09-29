@@ -52,7 +52,7 @@ public class IfcRampImpl extends IfcBuildingElementImpl implements IfcRamp {
      */
     @Override
     protected EClass eStaticClass() {
-        return Ifc2x3tc1Package.Literals.IFC_RAMP;
+        return Ifc2x3tc1Package.eINSTANCE.getIfcRamp();
     }
 
     /**
@@ -62,7 +62,7 @@ public class IfcRampImpl extends IfcBuildingElementImpl implements IfcRamp {
      */
     @Override
     public IfcRampTypeEnum getShapeType() {
-        return (IfcRampTypeEnum) eGet(Ifc2x3tc1Package.Literals.IFC_RAMP__SHAPE_TYPE, true);
+        return (IfcRampTypeEnum) eGet(Ifc2x3tc1Package.eINSTANCE.getIfcRamp_ShapeType(), true);
     }
 
     /**
@@ -72,7 +72,7 @@ public class IfcRampImpl extends IfcBuildingElementImpl implements IfcRamp {
      */
     @Override
     public void setShapeType(IfcRampTypeEnum newShapeType) {
-        eSet(Ifc2x3tc1Package.Literals.IFC_RAMP__SHAPE_TYPE, newShapeType);
+        eSet(Ifc2x3tc1Package.eINSTANCE.getIfcRamp_ShapeType(), newShapeType);
     }
 
 } //IfcRampImpl

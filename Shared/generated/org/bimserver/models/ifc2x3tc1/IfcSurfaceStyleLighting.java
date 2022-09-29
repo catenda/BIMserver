@@ -39,10 +39,6 @@ public interface IfcSurfaceStyleLighting extends IfcSurfaceStyleElementSelect {
     /**
      * Returns the value of the '<em><b>Diffuse Transmission Colour</b></em>' reference.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Diffuse Transmission Colour</em>' reference isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Diffuse Transmission Colour</em>' reference.
      * @see #setDiffuseTransmissionColour(IfcColourRgb)
@@ -65,10 +61,6 @@ public interface IfcSurfaceStyleLighting extends IfcSurfaceStyleElementSelect {
     /**
      * Returns the value of the '<em><b>Diffuse Reflection Colour</b></em>' reference.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Diffuse Reflection Colour</em>' reference isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Diffuse Reflection Colour</em>' reference.
      * @see #setDiffuseReflectionColour(IfcColourRgb)
@@ -91,10 +83,6 @@ public interface IfcSurfaceStyleLighting extends IfcSurfaceStyleElementSelect {
     /**
      * Returns the value of the '<em><b>Transmission Colour</b></em>' reference.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Transmission Colour</em>' reference isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Transmission Colour</em>' reference.
      * @see #setTransmissionColour(IfcColourRgb)
@@ -117,10 +105,6 @@ public interface IfcSurfaceStyleLighting extends IfcSurfaceStyleElementSelect {
     /**
      * Returns the value of the '<em><b>Reflectance Colour</b></em>' reference.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Reflectance Colour</em>' reference isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Reflectance Colour</em>' reference.
      * @see #setReflectanceColour(IfcColourRgb)

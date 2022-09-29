@@ -41,10 +41,6 @@ public interface IfcTypeProduct extends IfcTypeObject, IfcProductSelect {
      * Returns the value of the '<em><b>Representation Maps</b></em>' reference list.
      * The list contents are of type {@link org.bimserver.models.ifc4.IfcRepresentationMap}.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Representation Maps</em>' reference list isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Representation Maps</em>' reference list.
      * @see #isSetRepresentationMaps()
@@ -79,10 +75,6 @@ public interface IfcTypeProduct extends IfcTypeObject, IfcProductSelect {
     /**
      * Returns the value of the '<em><b>Tag</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Tag</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Tag</em>' attribute.
      * @see #isSetTag()
@@ -133,10 +125,6 @@ public interface IfcTypeProduct extends IfcTypeObject, IfcProductSelect {
      * Returns the value of the '<em><b>Referenced By</b></em>' reference list.
      * The list contents are of type {@link org.bimserver.models.ifc4.IfcRelAssignsToProduct}.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Referenced By</em>' reference list isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Referenced By</em>' reference list.
      * @see #isSetReferencedBy()

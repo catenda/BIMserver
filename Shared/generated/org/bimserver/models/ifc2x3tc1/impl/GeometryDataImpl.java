@@ -55,7 +55,7 @@ public class GeometryDataImpl extends IdEObjectImpl implements GeometryData {
      */
     @Override
     protected EClass eStaticClass() {
-        return Ifc2x3tc1Package.Literals.GEOMETRY_DATA;
+        return Ifc2x3tc1Package.eINSTANCE.getGeometryData();
     }
 
     /**
@@ -75,7 +75,7 @@ public class GeometryDataImpl extends IdEObjectImpl implements GeometryData {
      */
     @Override
     public byte[] getIndices() {
-        return (byte[]) eGet(Ifc2x3tc1Package.Literals.GEOMETRY_DATA__INDICES, true);
+        return (byte[]) eGet(Ifc2x3tc1Package.eINSTANCE.getGeometryData_Indices(), true);
     }
 
     /**
@@ -85,7 +85,7 @@ public class GeometryDataImpl extends IdEObjectImpl implements GeometryData {
      */
     @Override
     public void setIndices(byte[] newIndices) {
-        eSet(Ifc2x3tc1Package.Literals.GEOMETRY_DATA__INDICES, newIndices);
+        eSet(Ifc2x3tc1Package.eINSTANCE.getGeometryData_Indices(), newIndices);
     }
 
     /**
@@ -95,7 +95,7 @@ public class GeometryDataImpl extends IdEObjectImpl implements GeometryData {
      */
     @Override
     public byte[] getVertices() {
-        return (byte[]) eGet(Ifc2x3tc1Package.Literals.GEOMETRY_DATA__VERTICES, true);
+        return (byte[]) eGet(Ifc2x3tc1Package.eINSTANCE.getGeometryData_Vertices(), true);
     }
 
     /**
@@ -105,7 +105,7 @@ public class GeometryDataImpl extends IdEObjectImpl implements GeometryData {
      */
     @Override
     public void setVertices(byte[] newVertices) {
-        eSet(Ifc2x3tc1Package.Literals.GEOMETRY_DATA__VERTICES, newVertices);
+        eSet(Ifc2x3tc1Package.eINSTANCE.getGeometryData_Vertices(), newVertices);
     }
 
     /**
@@ -115,7 +115,7 @@ public class GeometryDataImpl extends IdEObjectImpl implements GeometryData {
      */
     @Override
     public byte[] getNormals() {
-        return (byte[]) eGet(Ifc2x3tc1Package.Literals.GEOMETRY_DATA__NORMALS, true);
+        return (byte[]) eGet(Ifc2x3tc1Package.eINSTANCE.getGeometryData_Normals(), true);
     }
 
     /**
@@ -125,7 +125,7 @@ public class GeometryDataImpl extends IdEObjectImpl implements GeometryData {
      */
     @Override
     public void setNormals(byte[] newNormals) {
-        eSet(Ifc2x3tc1Package.Literals.GEOMETRY_DATA__NORMALS, newNormals);
+        eSet(Ifc2x3tc1Package.eINSTANCE.getGeometryData_Normals(), newNormals);
     }
 
 } //GeometryDataImpl

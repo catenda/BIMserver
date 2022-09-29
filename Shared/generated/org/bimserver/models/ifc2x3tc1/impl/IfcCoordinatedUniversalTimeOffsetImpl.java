@@ -56,7 +56,7 @@ public class IfcCoordinatedUniversalTimeOffsetImpl extends IdEObjectImpl impleme
      */
     @Override
     protected EClass eStaticClass() {
-        return Ifc2x3tc1Package.Literals.IFC_COORDINATED_UNIVERSAL_TIME_OFFSET;
+        return Ifc2x3tc1Package.eINSTANCE.getIfcCoordinatedUniversalTimeOffset();
     }
 
     /**
@@ -76,7 +76,7 @@ public class IfcCoordinatedUniversalTimeOffsetImpl extends IdEObjectImpl impleme
      */
     @Override
     public long getHourOffset() {
-        return (Long) eGet(Ifc2x3tc1Package.Literals.IFC_COORDINATED_UNIVERSAL_TIME_OFFSET__HOUR_OFFSET, true);
+        return (Long) eGet(Ifc2x3tc1Package.eINSTANCE.getIfcCoordinatedUniversalTimeOffset_HourOffset(), true);
     }
 
     /**
@@ -86,7 +86,7 @@ public class IfcCoordinatedUniversalTimeOffsetImpl extends IdEObjectImpl impleme
      */
     @Override
     public void setHourOffset(long newHourOffset) {
-        eSet(Ifc2x3tc1Package.Literals.IFC_COORDINATED_UNIVERSAL_TIME_OFFSET__HOUR_OFFSET, newHourOffset);
+        eSet(Ifc2x3tc1Package.eINSTANCE.getIfcCoordinatedUniversalTimeOffset_HourOffset(), newHourOffset);
     }
 
     /**
@@ -96,7 +96,7 @@ public class IfcCoordinatedUniversalTimeOffsetImpl extends IdEObjectImpl impleme
      */
     @Override
     public long getMinuteOffset() {
-        return (Long) eGet(Ifc2x3tc1Package.Literals.IFC_COORDINATED_UNIVERSAL_TIME_OFFSET__MINUTE_OFFSET, true);
+        return (Long) eGet(Ifc2x3tc1Package.eINSTANCE.getIfcCoordinatedUniversalTimeOffset_MinuteOffset(), true);
     }
 
     /**
@@ -106,7 +106,7 @@ public class IfcCoordinatedUniversalTimeOffsetImpl extends IdEObjectImpl impleme
      */
     @Override
     public void setMinuteOffset(long newMinuteOffset) {
-        eSet(Ifc2x3tc1Package.Literals.IFC_COORDINATED_UNIVERSAL_TIME_OFFSET__MINUTE_OFFSET, newMinuteOffset);
+        eSet(Ifc2x3tc1Package.eINSTANCE.getIfcCoordinatedUniversalTimeOffset_MinuteOffset(), newMinuteOffset);
     }
 
     /**
@@ -116,7 +116,7 @@ public class IfcCoordinatedUniversalTimeOffsetImpl extends IdEObjectImpl impleme
      */
     @Override
     public void unsetMinuteOffset() {
-        eUnset(Ifc2x3tc1Package.Literals.IFC_COORDINATED_UNIVERSAL_TIME_OFFSET__MINUTE_OFFSET);
+        eUnset(Ifc2x3tc1Package.eINSTANCE.getIfcCoordinatedUniversalTimeOffset_MinuteOffset());
     }
 
     /**
@@ -126,7 +126,7 @@ public class IfcCoordinatedUniversalTimeOffsetImpl extends IdEObjectImpl impleme
      */
     @Override
     public boolean isSetMinuteOffset() {
-        return eIsSet(Ifc2x3tc1Package.Literals.IFC_COORDINATED_UNIVERSAL_TIME_OFFSET__MINUTE_OFFSET);
+        return eIsSet(Ifc2x3tc1Package.eINSTANCE.getIfcCoordinatedUniversalTimeOffset_MinuteOffset());
     }
 
     /**
@@ -136,7 +136,7 @@ public class IfcCoordinatedUniversalTimeOffsetImpl extends IdEObjectImpl impleme
      */
     @Override
     public IfcAheadOrBehind getSense() {
-        return (IfcAheadOrBehind) eGet(Ifc2x3tc1Package.Literals.IFC_COORDINATED_UNIVERSAL_TIME_OFFSET__SENSE, true);
+        return (IfcAheadOrBehind) eGet(Ifc2x3tc1Package.eINSTANCE.getIfcCoordinatedUniversalTimeOffset_Sense(), true);
     }
 
     /**
@@ -146,7 +146,7 @@ public class IfcCoordinatedUniversalTimeOffsetImpl extends IdEObjectImpl impleme
      */
     @Override
     public void setSense(IfcAheadOrBehind newSense) {
-        eSet(Ifc2x3tc1Package.Literals.IFC_COORDINATED_UNIVERSAL_TIME_OFFSET__SENSE, newSense);
+        eSet(Ifc2x3tc1Package.eINSTANCE.getIfcCoordinatedUniversalTimeOffset_Sense(), newSense);
     }
 
 } //IfcCoordinatedUniversalTimeOffsetImpl

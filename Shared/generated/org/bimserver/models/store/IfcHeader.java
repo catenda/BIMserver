@@ -53,10 +53,6 @@ public interface IfcHeader extends IdEObject {
      * Returns the value of the '<em><b>Description</b></em>' attribute list.
      * The list contents are of type {@link java.lang.String}.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Description</em>' attribute list isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Description</em>' attribute list.
      * @see org.bimserver.models.store.StorePackage#getIfcHeader_Description()
@@ -68,10 +64,6 @@ public interface IfcHeader extends IdEObject {
     /**
      * Returns the value of the '<em><b>Implementation Level</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Implementation Level</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Implementation Level</em>' attribute.
      * @see #setImplementationLevel(String)
@@ -94,10 +86,6 @@ public interface IfcHeader extends IdEObject {
     /**
      * Returns the value of the '<em><b>Filename</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Filename</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Filename</em>' attribute.
      * @see #setFilename(String)
@@ -120,10 +108,6 @@ public interface IfcHeader extends IdEObject {
     /**
      * Returns the value of the '<em><b>Time Stamp</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Time Stamp</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Time Stamp</em>' attribute.
      * @see #setTimeStamp(Date)
@@ -147,10 +131,6 @@ public interface IfcHeader extends IdEObject {
      * Returns the value of the '<em><b>Author</b></em>' attribute list.
      * The list contents are of type {@link java.lang.String}.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Author</em>' attribute list isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Author</em>' attribute list.
      * @see org.bimserver.models.store.StorePackage#getIfcHeader_Author()
@@ -163,10 +143,6 @@ public interface IfcHeader extends IdEObject {
      * Returns the value of the '<em><b>Organization</b></em>' attribute list.
      * The list contents are of type {@link java.lang.String}.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Organization</em>' attribute list isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Organization</em>' attribute list.
      * @see org.bimserver.models.store.StorePackage#getIfcHeader_Organization()
@@ -178,10 +154,6 @@ public interface IfcHeader extends IdEObject {
     /**
      * Returns the value of the '<em><b>Pre Processor Version</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Pre Processor Version</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Pre Processor Version</em>' attribute.
      * @see #setPreProcessorVersion(String)
@@ -204,10 +176,6 @@ public interface IfcHeader extends IdEObject {
     /**
      * Returns the value of the '<em><b>Originating System</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Originating System</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Originating System</em>' attribute.
      * @see #setOriginatingSystem(String)
@@ -230,10 +198,6 @@ public interface IfcHeader extends IdEObject {
     /**
      * Returns the value of the '<em><b>Ifc Schema Version</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Ifc Schema Version</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Ifc Schema Version</em>' attribute.
      * @see #setIfcSchemaVersion(String)
@@ -256,10 +220,6 @@ public interface IfcHeader extends IdEObject {
     /**
      * Returns the value of the '<em><b>Authorization</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Authorization</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Authorization</em>' attribute.
      * @see #setAuthorization(String)

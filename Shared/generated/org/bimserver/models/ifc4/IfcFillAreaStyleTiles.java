@@ -42,10 +42,6 @@ public interface IfcFillAreaStyleTiles extends IfcGeometricRepresentationItem, I
      * Returns the value of the '<em><b>Tiling Pattern</b></em>' reference list.
      * The list contents are of type {@link org.bimserver.models.ifc4.IfcVector}.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Tiling Pattern</em>' reference list isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Tiling Pattern</em>' reference list.
      * @see org.bimserver.models.ifc4.Ifc4Package#getIfcFillAreaStyleTiles_TilingPattern()
@@ -58,10 +54,6 @@ public interface IfcFillAreaStyleTiles extends IfcGeometricRepresentationItem, I
      * Returns the value of the '<em><b>Tiles</b></em>' reference list.
      * The list contents are of type {@link org.bimserver.models.ifc4.IfcStyledItem}.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Tiles</em>' reference list isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Tiles</em>' reference list.
      * @see org.bimserver.models.ifc4.Ifc4Package#getIfcFillAreaStyleTiles_Tiles()
@@ -73,10 +65,6 @@ public interface IfcFillAreaStyleTiles extends IfcGeometricRepresentationItem, I
     /**
      * Returns the value of the '<em><b>Tiling Scale</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Tiling Scale</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Tiling Scale</em>' attribute.
      * @see #setTilingScale(double)
@@ -99,10 +87,6 @@ public interface IfcFillAreaStyleTiles extends IfcGeometricRepresentationItem, I
     /**
      * Returns the value of the '<em><b>Tiling Scale As String</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Tiling Scale As String</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Tiling Scale As String</em>' attribute.
      * @see #setTilingScaleAsString(String)

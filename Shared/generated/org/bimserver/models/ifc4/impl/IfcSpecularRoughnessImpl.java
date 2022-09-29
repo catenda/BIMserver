@@ -54,7 +54,7 @@ public class IfcSpecularRoughnessImpl extends IdEObjectImpl implements IfcSpecul
      */
     @Override
     protected EClass eStaticClass() {
-        return Ifc4Package.Literals.IFC_SPECULAR_ROUGHNESS;
+        return Ifc4Package.eINSTANCE.getIfcSpecularRoughness();
     }
 
     /**
@@ -74,7 +74,7 @@ public class IfcSpecularRoughnessImpl extends IdEObjectImpl implements IfcSpecul
      */
     @Override
     public double getWrappedValue() {
-        return (Double) eGet(Ifc4Package.Literals.IFC_SPECULAR_ROUGHNESS__WRAPPED_VALUE, true);
+        return (Double) eGet(Ifc4Package.eINSTANCE.getIfcSpecularRoughness_WrappedValue(), true);
     }
 
     /**
@@ -84,7 +84,7 @@ public class IfcSpecularRoughnessImpl extends IdEObjectImpl implements IfcSpecul
      */
     @Override
     public void setWrappedValue(double newWrappedValue) {
-        eSet(Ifc4Package.Literals.IFC_SPECULAR_ROUGHNESS__WRAPPED_VALUE, newWrappedValue);
+        eSet(Ifc4Package.eINSTANCE.getIfcSpecularRoughness_WrappedValue(), newWrappedValue);
     }
 
     /**
@@ -94,7 +94,7 @@ public class IfcSpecularRoughnessImpl extends IdEObjectImpl implements IfcSpecul
      */
     @Override
     public void unsetWrappedValue() {
-        eUnset(Ifc4Package.Literals.IFC_SPECULAR_ROUGHNESS__WRAPPED_VALUE);
+        eUnset(Ifc4Package.eINSTANCE.getIfcSpecularRoughness_WrappedValue());
     }
 
     /**
@@ -104,7 +104,7 @@ public class IfcSpecularRoughnessImpl extends IdEObjectImpl implements IfcSpecul
      */
     @Override
     public boolean isSetWrappedValue() {
-        return eIsSet(Ifc4Package.Literals.IFC_SPECULAR_ROUGHNESS__WRAPPED_VALUE);
+        return eIsSet(Ifc4Package.eINSTANCE.getIfcSpecularRoughness_WrappedValue());
     }
 
     /**
@@ -114,7 +114,7 @@ public class IfcSpecularRoughnessImpl extends IdEObjectImpl implements IfcSpecul
      */
     @Override
     public String getWrappedValueAsString() {
-        return (String) eGet(Ifc4Package.Literals.IFC_SPECULAR_ROUGHNESS__WRAPPED_VALUE_AS_STRING, true);
+        return (String) eGet(Ifc4Package.eINSTANCE.getIfcSpecularRoughness_WrappedValueAsString(), true);
     }
 
     /**
@@ -124,7 +124,7 @@ public class IfcSpecularRoughnessImpl extends IdEObjectImpl implements IfcSpecul
      */
     @Override
     public void setWrappedValueAsString(String newWrappedValueAsString) {
-        eSet(Ifc4Package.Literals.IFC_SPECULAR_ROUGHNESS__WRAPPED_VALUE_AS_STRING, newWrappedValueAsString);
+        eSet(Ifc4Package.eINSTANCE.getIfcSpecularRoughness_WrappedValueAsString(), newWrappedValueAsString);
     }
 
     /**
@@ -134,7 +134,7 @@ public class IfcSpecularRoughnessImpl extends IdEObjectImpl implements IfcSpecul
      */
     @Override
     public void unsetWrappedValueAsString() {
-        eUnset(Ifc4Package.Literals.IFC_SPECULAR_ROUGHNESS__WRAPPED_VALUE_AS_STRING);
+        eUnset(Ifc4Package.eINSTANCE.getIfcSpecularRoughness_WrappedValueAsString());
     }
 
     /**
@@ -144,7 +144,7 @@ public class IfcSpecularRoughnessImpl extends IdEObjectImpl implements IfcSpecul
      */
     @Override
     public boolean isSetWrappedValueAsString() {
-        return eIsSet(Ifc4Package.Literals.IFC_SPECULAR_ROUGHNESS__WRAPPED_VALUE_AS_STRING);
+        return eIsSet(Ifc4Package.eINSTANCE.getIfcSpecularRoughness_WrappedValueAsString());
     }
 
 } //IfcSpecularRoughnessImpl

@@ -54,7 +54,7 @@ public class IfcEventTimeImpl extends IfcSchedulingTimeImpl implements IfcEventT
      */
     @Override
     protected EClass eStaticClass() {
-        return Ifc4Package.Literals.IFC_EVENT_TIME;
+        return Ifc4Package.eINSTANCE.getIfcEventTime();
     }
 
     /**
@@ -64,7 +64,7 @@ public class IfcEventTimeImpl extends IfcSchedulingTimeImpl implements IfcEventT
      */
     @Override
     public String getActualDate() {
-        return (String) eGet(Ifc4Package.Literals.IFC_EVENT_TIME__ACTUAL_DATE, true);
+        return (String) eGet(Ifc4Package.eINSTANCE.getIfcEventTime_ActualDate(), true);
     }
 
     /**
@@ -74,7 +74,7 @@ public class IfcEventTimeImpl extends IfcSchedulingTimeImpl implements IfcEventT
      */
     @Override
     public void setActualDate(String newActualDate) {
-        eSet(Ifc4Package.Literals.IFC_EVENT_TIME__ACTUAL_DATE, newActualDate);
+        eSet(Ifc4Package.eINSTANCE.getIfcEventTime_ActualDate(), newActualDate);
     }
 
     /**
@@ -84,7 +84,7 @@ public class IfcEventTimeImpl extends IfcSchedulingTimeImpl implements IfcEventT
      */
     @Override
     public void unsetActualDate() {
-        eUnset(Ifc4Package.Literals.IFC_EVENT_TIME__ACTUAL_DATE);
+        eUnset(Ifc4Package.eINSTANCE.getIfcEventTime_ActualDate());
     }
 
     /**
@@ -94,7 +94,7 @@ public class IfcEventTimeImpl extends IfcSchedulingTimeImpl implements IfcEventT
      */
     @Override
     public boolean isSetActualDate() {
-        return eIsSet(Ifc4Package.Literals.IFC_EVENT_TIME__ACTUAL_DATE);
+        return eIsSet(Ifc4Package.eINSTANCE.getIfcEventTime_ActualDate());
     }
 
     /**
@@ -104,7 +104,7 @@ public class IfcEventTimeImpl extends IfcSchedulingTimeImpl implements IfcEventT
      */
     @Override
     public String getEarlyDate() {
-        return (String) eGet(Ifc4Package.Literals.IFC_EVENT_TIME__EARLY_DATE, true);
+        return (String) eGet(Ifc4Package.eINSTANCE.getIfcEventTime_EarlyDate(), true);
     }
 
     /**
@@ -114,7 +114,7 @@ public class IfcEventTimeImpl extends IfcSchedulingTimeImpl implements IfcEventT
      */
     @Override
     public void setEarlyDate(String newEarlyDate) {
-        eSet(Ifc4Package.Literals.IFC_EVENT_TIME__EARLY_DATE, newEarlyDate);
+        eSet(Ifc4Package.eINSTANCE.getIfcEventTime_EarlyDate(), newEarlyDate);
     }
 
     /**
@@ -124,7 +124,7 @@ public class IfcEventTimeImpl extends IfcSchedulingTimeImpl implements IfcEventT
      */
     @Override
     public void unsetEarlyDate() {
-        eUnset(Ifc4Package.Literals.IFC_EVENT_TIME__EARLY_DATE);
+        eUnset(Ifc4Package.eINSTANCE.getIfcEventTime_EarlyDate());
     }
 
     /**
@@ -134,7 +134,7 @@ public class IfcEventTimeImpl extends IfcSchedulingTimeImpl implements IfcEventT
      */
     @Override
     public boolean isSetEarlyDate() {
-        return eIsSet(Ifc4Package.Literals.IFC_EVENT_TIME__EARLY_DATE);
+        return eIsSet(Ifc4Package.eINSTANCE.getIfcEventTime_EarlyDate());
     }
 
     /**
@@ -144,7 +144,7 @@ public class IfcEventTimeImpl extends IfcSchedulingTimeImpl implements IfcEventT
      */
     @Override
     public String getLateDate() {
-        return (String) eGet(Ifc4Package.Literals.IFC_EVENT_TIME__LATE_DATE, true);
+        return (String) eGet(Ifc4Package.eINSTANCE.getIfcEventTime_LateDate(), true);
     }
 
     /**
@@ -154,7 +154,7 @@ public class IfcEventTimeImpl extends IfcSchedulingTimeImpl implements IfcEventT
      */
     @Override
     public void setLateDate(String newLateDate) {
-        eSet(Ifc4Package.Literals.IFC_EVENT_TIME__LATE_DATE, newLateDate);
+        eSet(Ifc4Package.eINSTANCE.getIfcEventTime_LateDate(), newLateDate);
     }
 
     /**
@@ -164,7 +164,7 @@ public class IfcEventTimeImpl extends IfcSchedulingTimeImpl implements IfcEventT
      */
     @Override
     public void unsetLateDate() {
-        eUnset(Ifc4Package.Literals.IFC_EVENT_TIME__LATE_DATE);
+        eUnset(Ifc4Package.eINSTANCE.getIfcEventTime_LateDate());
     }
 
     /**
@@ -174,7 +174,7 @@ public class IfcEventTimeImpl extends IfcSchedulingTimeImpl implements IfcEventT
      */
     @Override
     public boolean isSetLateDate() {
-        return eIsSet(Ifc4Package.Literals.IFC_EVENT_TIME__LATE_DATE);
+        return eIsSet(Ifc4Package.eINSTANCE.getIfcEventTime_LateDate());
     }
 
     /**
@@ -184,7 +184,7 @@ public class IfcEventTimeImpl extends IfcSchedulingTimeImpl implements IfcEventT
      */
     @Override
     public String getScheduleDate() {
-        return (String) eGet(Ifc4Package.Literals.IFC_EVENT_TIME__SCHEDULE_DATE, true);
+        return (String) eGet(Ifc4Package.eINSTANCE.getIfcEventTime_ScheduleDate(), true);
     }
 
     /**
@@ -194,7 +194,7 @@ public class IfcEventTimeImpl extends IfcSchedulingTimeImpl implements IfcEventT
      */
     @Override
     public void setScheduleDate(String newScheduleDate) {
-        eSet(Ifc4Package.Literals.IFC_EVENT_TIME__SCHEDULE_DATE, newScheduleDate);
+        eSet(Ifc4Package.eINSTANCE.getIfcEventTime_ScheduleDate(), newScheduleDate);
     }
 
     /**
@@ -204,7 +204,7 @@ public class IfcEventTimeImpl extends IfcSchedulingTimeImpl implements IfcEventT
      */
     @Override
     public void unsetScheduleDate() {
-        eUnset(Ifc4Package.Literals.IFC_EVENT_TIME__SCHEDULE_DATE);
+        eUnset(Ifc4Package.eINSTANCE.getIfcEventTime_ScheduleDate());
     }
 
     /**
@@ -214,7 +214,7 @@ public class IfcEventTimeImpl extends IfcSchedulingTimeImpl implements IfcEventT
      */
     @Override
     public boolean isSetScheduleDate() {
-        return eIsSet(Ifc4Package.Literals.IFC_EVENT_TIME__SCHEDULE_DATE);
+        return eIsSet(Ifc4Package.eINSTANCE.getIfcEventTime_ScheduleDate());
     }
 
 } //IfcEventTimeImpl

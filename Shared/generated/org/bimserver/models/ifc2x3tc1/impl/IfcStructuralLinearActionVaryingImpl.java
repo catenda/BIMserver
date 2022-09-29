@@ -57,7 +57,7 @@ public class IfcStructuralLinearActionVaryingImpl extends IfcStructuralLinearAct
      */
     @Override
     protected EClass eStaticClass() {
-        return Ifc2x3tc1Package.Literals.IFC_STRUCTURAL_LINEAR_ACTION_VARYING;
+        return Ifc2x3tc1Package.eINSTANCE.getIfcStructuralLinearActionVarying();
     }
 
     /**
@@ -68,7 +68,7 @@ public class IfcStructuralLinearActionVaryingImpl extends IfcStructuralLinearAct
     @Override
     public IfcShapeAspect getVaryingAppliedLoadLocation() {
         return (IfcShapeAspect) eGet(
-                Ifc2x3tc1Package.Literals.IFC_STRUCTURAL_LINEAR_ACTION_VARYING__VARYING_APPLIED_LOAD_LOCATION, true);
+                Ifc2x3tc1Package.eINSTANCE.getIfcStructuralLinearActionVarying_VaryingAppliedLoadLocation(), true);
     }
 
     /**
@@ -78,7 +78,7 @@ public class IfcStructuralLinearActionVaryingImpl extends IfcStructuralLinearAct
      */
     @Override
     public void setVaryingAppliedLoadLocation(IfcShapeAspect newVaryingAppliedLoadLocation) {
-        eSet(Ifc2x3tc1Package.Literals.IFC_STRUCTURAL_LINEAR_ACTION_VARYING__VARYING_APPLIED_LOAD_LOCATION,
+        eSet(Ifc2x3tc1Package.eINSTANCE.getIfcStructuralLinearActionVarying_VaryingAppliedLoadLocation(),
                 newVaryingAppliedLoadLocation);
     }
 
@@ -91,7 +91,7 @@ public class IfcStructuralLinearActionVaryingImpl extends IfcStructuralLinearAct
     @Override
     public EList<IfcStructuralLoad> getSubsequentAppliedLoads() {
         return (EList<IfcStructuralLoad>) eGet(
-                Ifc2x3tc1Package.Literals.IFC_STRUCTURAL_LINEAR_ACTION_VARYING__SUBSEQUENT_APPLIED_LOADS, true);
+                Ifc2x3tc1Package.eINSTANCE.getIfcStructuralLinearActionVarying_SubsequentAppliedLoads(), true);
     }
 
 } //IfcStructuralLinearActionVaryingImpl

@@ -52,7 +52,7 @@ public class IfcRelDefinesByPropertiesImpl extends IfcRelDefinesImpl implements 
      */
     @Override
     protected EClass eStaticClass() {
-        return Ifc2x3tc1Package.Literals.IFC_REL_DEFINES_BY_PROPERTIES;
+        return Ifc2x3tc1Package.eINSTANCE.getIfcRelDefinesByProperties();
     }
 
     /**
@@ -63,7 +63,7 @@ public class IfcRelDefinesByPropertiesImpl extends IfcRelDefinesImpl implements 
     @Override
     public IfcPropertySetDefinition getRelatingPropertyDefinition() {
         return (IfcPropertySetDefinition) eGet(
-                Ifc2x3tc1Package.Literals.IFC_REL_DEFINES_BY_PROPERTIES__RELATING_PROPERTY_DEFINITION, true);
+                Ifc2x3tc1Package.eINSTANCE.getIfcRelDefinesByProperties_RelatingPropertyDefinition(), true);
     }
 
     /**
@@ -73,7 +73,7 @@ public class IfcRelDefinesByPropertiesImpl extends IfcRelDefinesImpl implements 
      */
     @Override
     public void setRelatingPropertyDefinition(IfcPropertySetDefinition newRelatingPropertyDefinition) {
-        eSet(Ifc2x3tc1Package.Literals.IFC_REL_DEFINES_BY_PROPERTIES__RELATING_PROPERTY_DEFINITION,
+        eSet(Ifc2x3tc1Package.eINSTANCE.getIfcRelDefinesByProperties_RelatingPropertyDefinition(),
                 newRelatingPropertyDefinition);
     }
 

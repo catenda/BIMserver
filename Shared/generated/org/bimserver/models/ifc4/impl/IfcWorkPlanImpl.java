@@ -52,7 +52,7 @@ public class IfcWorkPlanImpl extends IfcWorkControlImpl implements IfcWorkPlan {
      */
     @Override
     protected EClass eStaticClass() {
-        return Ifc4Package.Literals.IFC_WORK_PLAN;
+        return Ifc4Package.eINSTANCE.getIfcWorkPlan();
     }
 
     /**
@@ -62,7 +62,7 @@ public class IfcWorkPlanImpl extends IfcWorkControlImpl implements IfcWorkPlan {
      */
     @Override
     public IfcWorkPlanTypeEnum getPredefinedType() {
-        return (IfcWorkPlanTypeEnum) eGet(Ifc4Package.Literals.IFC_WORK_PLAN__PREDEFINED_TYPE, true);
+        return (IfcWorkPlanTypeEnum) eGet(Ifc4Package.eINSTANCE.getIfcWorkPlan_PredefinedType(), true);
     }
 
     /**
@@ -72,7 +72,7 @@ public class IfcWorkPlanImpl extends IfcWorkControlImpl implements IfcWorkPlan {
      */
     @Override
     public void setPredefinedType(IfcWorkPlanTypeEnum newPredefinedType) {
-        eSet(Ifc4Package.Literals.IFC_WORK_PLAN__PREDEFINED_TYPE, newPredefinedType);
+        eSet(Ifc4Package.eINSTANCE.getIfcWorkPlan_PredefinedType(), newPredefinedType);
     }
 
     /**
@@ -82,7 +82,7 @@ public class IfcWorkPlanImpl extends IfcWorkControlImpl implements IfcWorkPlan {
      */
     @Override
     public void unsetPredefinedType() {
-        eUnset(Ifc4Package.Literals.IFC_WORK_PLAN__PREDEFINED_TYPE);
+        eUnset(Ifc4Package.eINSTANCE.getIfcWorkPlan_PredefinedType());
     }
 
     /**
@@ -92,7 +92,7 @@ public class IfcWorkPlanImpl extends IfcWorkControlImpl implements IfcWorkPlan {
      */
     @Override
     public boolean isSetPredefinedType() {
-        return eIsSet(Ifc4Package.Literals.IFC_WORK_PLAN__PREDEFINED_TYPE);
+        return eIsSet(Ifc4Package.eINSTANCE.getIfcWorkPlan_PredefinedType());
     }
 
 } //IfcWorkPlanImpl

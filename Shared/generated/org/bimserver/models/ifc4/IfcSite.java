@@ -44,10 +44,6 @@ public interface IfcSite extends IfcSpatialStructureElement {
      * Returns the value of the '<em><b>Ref Latitude</b></em>' attribute list.
      * The list contents are of type {@link java.lang.Long}.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Ref Latitude</em>' attribute list isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Ref Latitude</em>' attribute list.
      * @see #isSetRefLatitude()
@@ -83,10 +79,6 @@ public interface IfcSite extends IfcSpatialStructureElement {
      * Returns the value of the '<em><b>Ref Longitude</b></em>' attribute list.
      * The list contents are of type {@link java.lang.Long}.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Ref Longitude</em>' attribute list isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Ref Longitude</em>' attribute list.
      * @see #isSetRefLongitude()
@@ -121,10 +113,6 @@ public interface IfcSite extends IfcSpatialStructureElement {
     /**
      * Returns the value of the '<em><b>Ref Elevation</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Ref Elevation</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Ref Elevation</em>' attribute.
      * @see #isSetRefElevation()
@@ -174,10 +162,6 @@ public interface IfcSite extends IfcSpatialStructureElement {
     /**
      * Returns the value of the '<em><b>Ref Elevation As String</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Ref Elevation As String</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Ref Elevation As String</em>' attribute.
      * @see #isSetRefElevationAsString()
@@ -229,10 +213,6 @@ public interface IfcSite extends IfcSpatialStructureElement {
     /**
      * Returns the value of the '<em><b>Land Title Number</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Land Title Number</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Land Title Number</em>' attribute.
      * @see #isSetLandTitleNumber()
@@ -282,10 +262,6 @@ public interface IfcSite extends IfcSpatialStructureElement {
     /**
      * Returns the value of the '<em><b>Site Address</b></em>' reference.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Site Address</em>' reference isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Site Address</em>' reference.
      * @see #isSetSiteAddress()

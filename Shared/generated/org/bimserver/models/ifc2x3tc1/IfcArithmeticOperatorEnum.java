@@ -85,10 +85,6 @@ public enum IfcArithmeticOperatorEnum implements Enumerator {
     /**
      * The '<em><b>NULL</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>NULL</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #NULL
      * @model
@@ -100,10 +96,6 @@ public enum IfcArithmeticOperatorEnum implements Enumerator {
     /**
      * The '<em><b>ADD</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>ADD</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #ADD
      * @model
@@ -115,10 +107,6 @@ public enum IfcArithmeticOperatorEnum implements Enumerator {
     /**
      * The '<em><b>MULTIPLY</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>MULTIPLY</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #MULTIPLY
      * @model
@@ -130,10 +118,6 @@ public enum IfcArithmeticOperatorEnum implements Enumerator {
     /**
      * The '<em><b>SUBTRACT</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>SUBTRACT</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #SUBTRACT
      * @model
@@ -145,10 +129,6 @@ public enum IfcArithmeticOperatorEnum implements Enumerator {
     /**
      * The '<em><b>DIVIDE</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>DIVIDE</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #DIVIDE
      * @model

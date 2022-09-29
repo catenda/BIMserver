@@ -47,10 +47,6 @@ public interface IfcZShapeProfileDef extends IfcParameterizedProfileDef {
     /**
      * Returns the value of the '<em><b>Depth</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Depth</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Depth</em>' attribute.
      * @see #setDepth(double)
@@ -73,10 +69,6 @@ public interface IfcZShapeProfileDef extends IfcParameterizedProfileDef {
     /**
      * Returns the value of the '<em><b>Depth As String</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Depth As String</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Depth As String</em>' attribute.
      * @see #setDepthAsString(String)
@@ -100,10 +92,6 @@ public interface IfcZShapeProfileDef extends IfcParameterizedProfileDef {
     /**
      * Returns the value of the '<em><b>Flange Width</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Flange Width</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Flange Width</em>' attribute.
      * @see #setFlangeWidth(double)
@@ -126,10 +114,6 @@ public interface IfcZShapeProfileDef extends IfcParameterizedProfileDef {
     /**
      * Returns the value of the '<em><b>Flange Width As String</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Flange Width As String</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Flange Width As String</em>' attribute.
      * @see #setFlangeWidthAsString(String)
@@ -153,10 +137,6 @@ public interface IfcZShapeProfileDef extends IfcParameterizedProfileDef {
     /**
      * Returns the value of the '<em><b>Web Thickness</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Web Thickness</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Web Thickness</em>' attribute.
      * @see #setWebThickness(double)
@@ -179,10 +159,6 @@ public interface IfcZShapeProfileDef extends IfcParameterizedProfileDef {
     /**
      * Returns the value of the '<em><b>Web Thickness As String</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Web Thickness As String</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Web Thickness As String</em>' attribute.
      * @see #setWebThicknessAsString(String)
@@ -206,10 +182,6 @@ public interface IfcZShapeProfileDef extends IfcParameterizedProfileDef {
     /**
      * Returns the value of the '<em><b>Flange Thickness</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Flange Thickness</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Flange Thickness</em>' attribute.
      * @see #setFlangeThickness(double)
@@ -232,10 +204,6 @@ public interface IfcZShapeProfileDef extends IfcParameterizedProfileDef {
     /**
      * Returns the value of the '<em><b>Flange Thickness As String</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Flange Thickness As String</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Flange Thickness As String</em>' attribute.
      * @see #setFlangeThicknessAsString(String)
@@ -259,10 +227,6 @@ public interface IfcZShapeProfileDef extends IfcParameterizedProfileDef {
     /**
      * Returns the value of the '<em><b>Fillet Radius</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Fillet Radius</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Fillet Radius</em>' attribute.
      * @see #isSetFilletRadius()
@@ -312,10 +276,6 @@ public interface IfcZShapeProfileDef extends IfcParameterizedProfileDef {
     /**
      * Returns the value of the '<em><b>Fillet Radius As String</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Fillet Radius As String</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Fillet Radius As String</em>' attribute.
      * @see #isSetFilletRadiusAsString()
@@ -367,10 +327,6 @@ public interface IfcZShapeProfileDef extends IfcParameterizedProfileDef {
     /**
      * Returns the value of the '<em><b>Edge Radius</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Edge Radius</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Edge Radius</em>' attribute.
      * @see #isSetEdgeRadius()
@@ -420,10 +376,6 @@ public interface IfcZShapeProfileDef extends IfcParameterizedProfileDef {
     /**
      * Returns the value of the '<em><b>Edge Radius As String</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Edge Radius As String</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Edge Radius As String</em>' attribute.
      * @see #isSetEdgeRadiusAsString()

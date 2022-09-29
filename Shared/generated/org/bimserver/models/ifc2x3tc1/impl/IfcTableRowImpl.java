@@ -60,7 +60,7 @@ public class IfcTableRowImpl extends IdEObjectImpl implements IfcTableRow {
      */
     @Override
     protected EClass eStaticClass() {
-        return Ifc2x3tc1Package.Literals.IFC_TABLE_ROW;
+        return Ifc2x3tc1Package.eINSTANCE.getIfcTableRow();
     }
 
     /**
@@ -81,7 +81,7 @@ public class IfcTableRowImpl extends IdEObjectImpl implements IfcTableRow {
     @SuppressWarnings("unchecked")
     @Override
     public EList<IfcValue> getRowCells() {
-        return (EList<IfcValue>) eGet(Ifc2x3tc1Package.Literals.IFC_TABLE_ROW__ROW_CELLS, true);
+        return (EList<IfcValue>) eGet(Ifc2x3tc1Package.eINSTANCE.getIfcTableRow_RowCells(), true);
     }
 
     /**
@@ -91,7 +91,7 @@ public class IfcTableRowImpl extends IdEObjectImpl implements IfcTableRow {
      */
     @Override
     public Tristate getIsHeading() {
-        return (Tristate) eGet(Ifc2x3tc1Package.Literals.IFC_TABLE_ROW__IS_HEADING, true);
+        return (Tristate) eGet(Ifc2x3tc1Package.eINSTANCE.getIfcTableRow_IsHeading(), true);
     }
 
     /**
@@ -101,7 +101,7 @@ public class IfcTableRowImpl extends IdEObjectImpl implements IfcTableRow {
      */
     @Override
     public void setIsHeading(Tristate newIsHeading) {
-        eSet(Ifc2x3tc1Package.Literals.IFC_TABLE_ROW__IS_HEADING, newIsHeading);
+        eSet(Ifc2x3tc1Package.eINSTANCE.getIfcTableRow_IsHeading(), newIsHeading);
     }
 
     /**
@@ -111,7 +111,7 @@ public class IfcTableRowImpl extends IdEObjectImpl implements IfcTableRow {
      */
     @Override
     public IfcTable getOfTable() {
-        return (IfcTable) eGet(Ifc2x3tc1Package.Literals.IFC_TABLE_ROW__OF_TABLE, true);
+        return (IfcTable) eGet(Ifc2x3tc1Package.eINSTANCE.getIfcTableRow_OfTable(), true);
     }
 
     /**
@@ -121,7 +121,7 @@ public class IfcTableRowImpl extends IdEObjectImpl implements IfcTableRow {
      */
     @Override
     public void setOfTable(IfcTable newOfTable) {
-        eSet(Ifc2x3tc1Package.Literals.IFC_TABLE_ROW__OF_TABLE, newOfTable);
+        eSet(Ifc2x3tc1Package.eINSTANCE.getIfcTableRow_OfTable(), newOfTable);
     }
 
     /**
@@ -131,7 +131,7 @@ public class IfcTableRowImpl extends IdEObjectImpl implements IfcTableRow {
      */
     @Override
     public void unsetOfTable() {
-        eUnset(Ifc2x3tc1Package.Literals.IFC_TABLE_ROW__OF_TABLE);
+        eUnset(Ifc2x3tc1Package.eINSTANCE.getIfcTableRow_OfTable());
     }
 
     /**
@@ -141,7 +141,7 @@ public class IfcTableRowImpl extends IdEObjectImpl implements IfcTableRow {
      */
     @Override
     public boolean isSetOfTable() {
-        return eIsSet(Ifc2x3tc1Package.Literals.IFC_TABLE_ROW__OF_TABLE);
+        return eIsSet(Ifc2x3tc1Package.eINSTANCE.getIfcTableRow_OfTable());
     }
 
 } //IfcTableRowImpl

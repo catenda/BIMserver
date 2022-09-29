@@ -41,10 +41,6 @@ public interface IfcMechanicalFastenerType extends IfcElementComponentType {
      * Returns the value of the '<em><b>Predefined Type</b></em>' attribute.
      * The literals are from the enumeration {@link org.bimserver.models.ifc4.IfcMechanicalFastenerTypeEnum}.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Predefined Type</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Predefined Type</em>' attribute.
      * @see org.bimserver.models.ifc4.IfcMechanicalFastenerTypeEnum
@@ -69,10 +65,6 @@ public interface IfcMechanicalFastenerType extends IfcElementComponentType {
     /**
      * Returns the value of the '<em><b>Nominal Diameter</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Nominal Diameter</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Nominal Diameter</em>' attribute.
      * @see #isSetNominalDiameter()
@@ -122,10 +114,6 @@ public interface IfcMechanicalFastenerType extends IfcElementComponentType {
     /**
      * Returns the value of the '<em><b>Nominal Diameter As String</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Nominal Diameter As String</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Nominal Diameter As String</em>' attribute.
      * @see #isSetNominalDiameterAsString()
@@ -177,10 +165,6 @@ public interface IfcMechanicalFastenerType extends IfcElementComponentType {
     /**
      * Returns the value of the '<em><b>Nominal Length</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Nominal Length</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Nominal Length</em>' attribute.
      * @see #isSetNominalLength()
@@ -230,10 +214,6 @@ public interface IfcMechanicalFastenerType extends IfcElementComponentType {
     /**
      * Returns the value of the '<em><b>Nominal Length As String</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Nominal Length As String</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Nominal Length As String</em>' attribute.
      * @see #isSetNominalLengthAsString()

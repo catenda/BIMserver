@@ -19,8 +19,8 @@ package org.bimserver.models.ifc4.impl;
 import org.bimserver.models.ifc4.Ifc4Package;
 import org.bimserver.models.ifc4.IfcPresentationLayerWithStyle;
 import org.bimserver.models.ifc4.IfcPresentationStyle;
-
 import org.bimserver.models.ifc4.Tristate;
+
 import org.eclipse.emf.common.util.EList;
 
 import org.eclipse.emf.ecore.EClass;
@@ -59,7 +59,7 @@ public class IfcPresentationLayerWithStyleImpl extends IfcPresentationLayerAssig
      */
     @Override
     protected EClass eStaticClass() {
-        return Ifc4Package.Literals.IFC_PRESENTATION_LAYER_WITH_STYLE;
+        return Ifc4Package.eINSTANCE.getIfcPresentationLayerWithStyle();
     }
 
     /**
@@ -69,7 +69,7 @@ public class IfcPresentationLayerWithStyleImpl extends IfcPresentationLayerAssig
      */
     @Override
     public Tristate getLayerOn() {
-        return (Tristate) eGet(Ifc4Package.Literals.IFC_PRESENTATION_LAYER_WITH_STYLE__LAYER_ON, true);
+        return (Tristate) eGet(Ifc4Package.eINSTANCE.getIfcPresentationLayerWithStyle_LayerOn(), true);
     }
 
     /**
@@ -79,7 +79,7 @@ public class IfcPresentationLayerWithStyleImpl extends IfcPresentationLayerAssig
      */
     @Override
     public void setLayerOn(Tristate newLayerOn) {
-        eSet(Ifc4Package.Literals.IFC_PRESENTATION_LAYER_WITH_STYLE__LAYER_ON, newLayerOn);
+        eSet(Ifc4Package.eINSTANCE.getIfcPresentationLayerWithStyle_LayerOn(), newLayerOn);
     }
 
     /**
@@ -89,7 +89,7 @@ public class IfcPresentationLayerWithStyleImpl extends IfcPresentationLayerAssig
      */
     @Override
     public Tristate getLayerFrozen() {
-        return (Tristate) eGet(Ifc4Package.Literals.IFC_PRESENTATION_LAYER_WITH_STYLE__LAYER_FROZEN, true);
+        return (Tristate) eGet(Ifc4Package.eINSTANCE.getIfcPresentationLayerWithStyle_LayerFrozen(), true);
     }
 
     /**
@@ -99,7 +99,7 @@ public class IfcPresentationLayerWithStyleImpl extends IfcPresentationLayerAssig
      */
     @Override
     public void setLayerFrozen(Tristate newLayerFrozen) {
-        eSet(Ifc4Package.Literals.IFC_PRESENTATION_LAYER_WITH_STYLE__LAYER_FROZEN, newLayerFrozen);
+        eSet(Ifc4Package.eINSTANCE.getIfcPresentationLayerWithStyle_LayerFrozen(), newLayerFrozen);
     }
 
     /**
@@ -109,7 +109,7 @@ public class IfcPresentationLayerWithStyleImpl extends IfcPresentationLayerAssig
      */
     @Override
     public Tristate getLayerBlocked() {
-        return (Tristate) eGet(Ifc4Package.Literals.IFC_PRESENTATION_LAYER_WITH_STYLE__LAYER_BLOCKED, true);
+        return (Tristate) eGet(Ifc4Package.eINSTANCE.getIfcPresentationLayerWithStyle_LayerBlocked(), true);
     }
 
     /**
@@ -119,7 +119,7 @@ public class IfcPresentationLayerWithStyleImpl extends IfcPresentationLayerAssig
      */
     @Override
     public void setLayerBlocked(Tristate newLayerBlocked) {
-        eSet(Ifc4Package.Literals.IFC_PRESENTATION_LAYER_WITH_STYLE__LAYER_BLOCKED, newLayerBlocked);
+        eSet(Ifc4Package.eINSTANCE.getIfcPresentationLayerWithStyle_LayerBlocked(), newLayerBlocked);
     }
 
     /**
@@ -130,7 +130,7 @@ public class IfcPresentationLayerWithStyleImpl extends IfcPresentationLayerAssig
     @SuppressWarnings("unchecked")
     @Override
     public EList<IfcPresentationStyle> getLayerStyles() {
-        return (EList<IfcPresentationStyle>) eGet(Ifc4Package.Literals.IFC_PRESENTATION_LAYER_WITH_STYLE__LAYER_STYLES,
+        return (EList<IfcPresentationStyle>) eGet(Ifc4Package.eINSTANCE.getIfcPresentationLayerWithStyle_LayerStyles(),
                 true);
     }
 

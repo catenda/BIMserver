@@ -56,7 +56,7 @@ public class IfcRelDeclaresImpl extends IfcRelationshipImpl implements IfcRelDec
      */
     @Override
     protected EClass eStaticClass() {
-        return Ifc4Package.Literals.IFC_REL_DECLARES;
+        return Ifc4Package.eINSTANCE.getIfcRelDeclares();
     }
 
     /**
@@ -66,7 +66,7 @@ public class IfcRelDeclaresImpl extends IfcRelationshipImpl implements IfcRelDec
      */
     @Override
     public IfcContext getRelatingContext() {
-        return (IfcContext) eGet(Ifc4Package.Literals.IFC_REL_DECLARES__RELATING_CONTEXT, true);
+        return (IfcContext) eGet(Ifc4Package.eINSTANCE.getIfcRelDeclares_RelatingContext(), true);
     }
 
     /**
@@ -76,7 +76,7 @@ public class IfcRelDeclaresImpl extends IfcRelationshipImpl implements IfcRelDec
      */
     @Override
     public void setRelatingContext(IfcContext newRelatingContext) {
-        eSet(Ifc4Package.Literals.IFC_REL_DECLARES__RELATING_CONTEXT, newRelatingContext);
+        eSet(Ifc4Package.eINSTANCE.getIfcRelDeclares_RelatingContext(), newRelatingContext);
     }
 
     /**
@@ -87,7 +87,7 @@ public class IfcRelDeclaresImpl extends IfcRelationshipImpl implements IfcRelDec
     @SuppressWarnings("unchecked")
     @Override
     public EList<IfcDefinitionSelect> getRelatedDefinitions() {
-        return (EList<IfcDefinitionSelect>) eGet(Ifc4Package.Literals.IFC_REL_DECLARES__RELATED_DEFINITIONS, true);
+        return (EList<IfcDefinitionSelect>) eGet(Ifc4Package.eINSTANCE.getIfcRelDeclares_RelatedDefinitions(), true);
     }
 
 } //IfcRelDeclaresImpl

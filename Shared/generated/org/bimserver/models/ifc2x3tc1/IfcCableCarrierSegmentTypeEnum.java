@@ -105,10 +105,6 @@ public enum IfcCableCarrierSegmentTypeEnum implements Enumerator {
     /**
      * The '<em><b>NULL</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>NULL</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #NULL
      * @model
@@ -120,10 +116,6 @@ public enum IfcCableCarrierSegmentTypeEnum implements Enumerator {
     /**
      * The '<em><b>CABLETRAYSEGMENT</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>CABLETRAYSEGMENT</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #CABLETRAYSEGMENT
      * @model
@@ -135,10 +127,6 @@ public enum IfcCableCarrierSegmentTypeEnum implements Enumerator {
     /**
      * The '<em><b>NOTDEFINED</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>NOTDEFINED</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #NOTDEFINED
      * @model
@@ -150,10 +138,6 @@ public enum IfcCableCarrierSegmentTypeEnum implements Enumerator {
     /**
      * The '<em><b>CONDUITSEGMENT</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>CONDUITSEGMENT</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #CONDUITSEGMENT
      * @model
@@ -165,10 +149,6 @@ public enum IfcCableCarrierSegmentTypeEnum implements Enumerator {
     /**
      * The '<em><b>CABLETRUNKINGSEGMENT</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>CABLETRUNKINGSEGMENT</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #CABLETRUNKINGSEGMENT
      * @model
@@ -180,10 +160,6 @@ public enum IfcCableCarrierSegmentTypeEnum implements Enumerator {
     /**
      * The '<em><b>USERDEFINED</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>USERDEFINED</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #USERDEFINED
      * @model
@@ -195,10 +171,6 @@ public enum IfcCableCarrierSegmentTypeEnum implements Enumerator {
     /**
      * The '<em><b>CABLELADDERSEGMENT</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>CABLELADDERSEGMENT</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #CABLELADDERSEGMENT
      * @model

@@ -41,10 +41,6 @@ public interface IfcCostItem extends IfcControl {
      * Returns the value of the '<em><b>Predefined Type</b></em>' attribute.
      * The literals are from the enumeration {@link org.bimserver.models.ifc4.IfcCostItemTypeEnum}.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Predefined Type</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Predefined Type</em>' attribute.
      * @see org.bimserver.models.ifc4.IfcCostItemTypeEnum
@@ -97,10 +93,6 @@ public interface IfcCostItem extends IfcControl {
      * Returns the value of the '<em><b>Cost Values</b></em>' reference list.
      * The list contents are of type {@link org.bimserver.models.ifc4.IfcCostValue}.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Cost Values</em>' reference list isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Cost Values</em>' reference list.
      * @see #isSetCostValues()
@@ -136,10 +128,6 @@ public interface IfcCostItem extends IfcControl {
      * Returns the value of the '<em><b>Cost Quantities</b></em>' reference list.
      * The list contents are of type {@link org.bimserver.models.ifc4.IfcPhysicalQuantity}.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Cost Quantities</em>' reference list isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Cost Quantities</em>' reference list.
      * @see #isSetCostQuantities()

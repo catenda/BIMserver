@@ -43,10 +43,6 @@ public interface IfcGrid extends IfcProduct {
      * The list contents are of type {@link org.bimserver.models.ifc2x3tc1.IfcGridAxis}.
      * It is bidirectional and its opposite is '{@link org.bimserver.models.ifc2x3tc1.IfcGridAxis#getPartOfU <em>Part Of U</em>}'.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>UAxes</em>' reference list isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>UAxes</em>' reference list.
      * @see org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package#getIfcGrid_UAxes()
@@ -62,10 +58,6 @@ public interface IfcGrid extends IfcProduct {
      * The list contents are of type {@link org.bimserver.models.ifc2x3tc1.IfcGridAxis}.
      * It is bidirectional and its opposite is '{@link org.bimserver.models.ifc2x3tc1.IfcGridAxis#getPartOfV <em>Part Of V</em>}'.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>VAxes</em>' reference list isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>VAxes</em>' reference list.
      * @see org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package#getIfcGrid_VAxes()
@@ -81,10 +73,6 @@ public interface IfcGrid extends IfcProduct {
      * The list contents are of type {@link org.bimserver.models.ifc2x3tc1.IfcGridAxis}.
      * It is bidirectional and its opposite is '{@link org.bimserver.models.ifc2x3tc1.IfcGridAxis#getPartOfW <em>Part Of W</em>}'.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>WAxes</em>' reference list isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>WAxes</em>' reference list.
      * @see #isSetWAxes()
@@ -122,10 +110,6 @@ public interface IfcGrid extends IfcProduct {
      * Returns the value of the '<em><b>Contained In Structure</b></em>' reference list.
      * The list contents are of type {@link org.bimserver.models.ifc2x3tc1.IfcRelContainedInSpatialStructure}.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Contained In Structure</em>' reference list isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Contained In Structure</em>' reference list.
      * @see #isSetContainedInStructure()

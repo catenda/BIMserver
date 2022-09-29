@@ -40,10 +40,6 @@ public interface IfcMaterialLayer extends IfcMaterialSelect, IfcObjectReferenceS
     /**
      * Returns the value of the '<em><b>Material</b></em>' reference.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Material</em>' reference isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Material</em>' reference.
      * @see #isSetMaterial()
@@ -93,10 +89,6 @@ public interface IfcMaterialLayer extends IfcMaterialSelect, IfcObjectReferenceS
     /**
      * Returns the value of the '<em><b>Layer Thickness</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Layer Thickness</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Layer Thickness</em>' attribute.
      * @see #setLayerThickness(double)
@@ -119,10 +111,6 @@ public interface IfcMaterialLayer extends IfcMaterialSelect, IfcObjectReferenceS
     /**
      * Returns the value of the '<em><b>Layer Thickness As String</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Layer Thickness As String</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Layer Thickness As String</em>' attribute.
      * @see #setLayerThicknessAsString(String)
@@ -147,10 +135,6 @@ public interface IfcMaterialLayer extends IfcMaterialSelect, IfcObjectReferenceS
      * Returns the value of the '<em><b>Is Ventilated</b></em>' attribute.
      * The literals are from the enumeration {@link org.bimserver.models.ifc2x3tc1.Tristate}.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Is Ventilated</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Is Ventilated</em>' attribute.
      * @see org.bimserver.models.ifc2x3tc1.Tristate
@@ -203,10 +187,6 @@ public interface IfcMaterialLayer extends IfcMaterialSelect, IfcObjectReferenceS
      * Returns the value of the '<em><b>To Material Layer Set</b></em>' reference.
      * It is bidirectional and its opposite is '{@link org.bimserver.models.ifc2x3tc1.IfcMaterialLayerSet#getMaterialLayers <em>Material Layers</em>}'.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>To Material Layer Set</em>' reference isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>To Material Layer Set</em>' reference.
      * @see #isSetToMaterialLayerSet()

@@ -56,7 +56,7 @@ public class IfcMaterialProfileSetUsageImpl extends IfcMaterialUsageDefinitionIm
      */
     @Override
     protected EClass eStaticClass() {
-        return Ifc4Package.Literals.IFC_MATERIAL_PROFILE_SET_USAGE;
+        return Ifc4Package.eINSTANCE.getIfcMaterialProfileSetUsage();
     }
 
     /**
@@ -66,7 +66,7 @@ public class IfcMaterialProfileSetUsageImpl extends IfcMaterialUsageDefinitionIm
      */
     @Override
     public IfcMaterialProfileSet getForProfileSet() {
-        return (IfcMaterialProfileSet) eGet(Ifc4Package.Literals.IFC_MATERIAL_PROFILE_SET_USAGE__FOR_PROFILE_SET, true);
+        return (IfcMaterialProfileSet) eGet(Ifc4Package.eINSTANCE.getIfcMaterialProfileSetUsage_ForProfileSet(), true);
     }
 
     /**
@@ -76,7 +76,7 @@ public class IfcMaterialProfileSetUsageImpl extends IfcMaterialUsageDefinitionIm
      */
     @Override
     public void setForProfileSet(IfcMaterialProfileSet newForProfileSet) {
-        eSet(Ifc4Package.Literals.IFC_MATERIAL_PROFILE_SET_USAGE__FOR_PROFILE_SET, newForProfileSet);
+        eSet(Ifc4Package.eINSTANCE.getIfcMaterialProfileSetUsage_ForProfileSet(), newForProfileSet);
     }
 
     /**
@@ -86,7 +86,7 @@ public class IfcMaterialProfileSetUsageImpl extends IfcMaterialUsageDefinitionIm
      */
     @Override
     public long getCardinalPoint() {
-        return (Long) eGet(Ifc4Package.Literals.IFC_MATERIAL_PROFILE_SET_USAGE__CARDINAL_POINT, true);
+        return (Long) eGet(Ifc4Package.eINSTANCE.getIfcMaterialProfileSetUsage_CardinalPoint(), true);
     }
 
     /**
@@ -96,7 +96,7 @@ public class IfcMaterialProfileSetUsageImpl extends IfcMaterialUsageDefinitionIm
      */
     @Override
     public void setCardinalPoint(long newCardinalPoint) {
-        eSet(Ifc4Package.Literals.IFC_MATERIAL_PROFILE_SET_USAGE__CARDINAL_POINT, newCardinalPoint);
+        eSet(Ifc4Package.eINSTANCE.getIfcMaterialProfileSetUsage_CardinalPoint(), newCardinalPoint);
     }
 
     /**
@@ -106,7 +106,7 @@ public class IfcMaterialProfileSetUsageImpl extends IfcMaterialUsageDefinitionIm
      */
     @Override
     public void unsetCardinalPoint() {
-        eUnset(Ifc4Package.Literals.IFC_MATERIAL_PROFILE_SET_USAGE__CARDINAL_POINT);
+        eUnset(Ifc4Package.eINSTANCE.getIfcMaterialProfileSetUsage_CardinalPoint());
     }
 
     /**
@@ -116,7 +116,7 @@ public class IfcMaterialProfileSetUsageImpl extends IfcMaterialUsageDefinitionIm
      */
     @Override
     public boolean isSetCardinalPoint() {
-        return eIsSet(Ifc4Package.Literals.IFC_MATERIAL_PROFILE_SET_USAGE__CARDINAL_POINT);
+        return eIsSet(Ifc4Package.eINSTANCE.getIfcMaterialProfileSetUsage_CardinalPoint());
     }
 
     /**
@@ -126,7 +126,7 @@ public class IfcMaterialProfileSetUsageImpl extends IfcMaterialUsageDefinitionIm
      */
     @Override
     public double getReferenceExtent() {
-        return (Double) eGet(Ifc4Package.Literals.IFC_MATERIAL_PROFILE_SET_USAGE__REFERENCE_EXTENT, true);
+        return (Double) eGet(Ifc4Package.eINSTANCE.getIfcMaterialProfileSetUsage_ReferenceExtent(), true);
     }
 
     /**
@@ -136,7 +136,7 @@ public class IfcMaterialProfileSetUsageImpl extends IfcMaterialUsageDefinitionIm
      */
     @Override
     public void setReferenceExtent(double newReferenceExtent) {
-        eSet(Ifc4Package.Literals.IFC_MATERIAL_PROFILE_SET_USAGE__REFERENCE_EXTENT, newReferenceExtent);
+        eSet(Ifc4Package.eINSTANCE.getIfcMaterialProfileSetUsage_ReferenceExtent(), newReferenceExtent);
     }
 
     /**
@@ -146,7 +146,7 @@ public class IfcMaterialProfileSetUsageImpl extends IfcMaterialUsageDefinitionIm
      */
     @Override
     public void unsetReferenceExtent() {
-        eUnset(Ifc4Package.Literals.IFC_MATERIAL_PROFILE_SET_USAGE__REFERENCE_EXTENT);
+        eUnset(Ifc4Package.eINSTANCE.getIfcMaterialProfileSetUsage_ReferenceExtent());
     }
 
     /**
@@ -156,7 +156,7 @@ public class IfcMaterialProfileSetUsageImpl extends IfcMaterialUsageDefinitionIm
      */
     @Override
     public boolean isSetReferenceExtent() {
-        return eIsSet(Ifc4Package.Literals.IFC_MATERIAL_PROFILE_SET_USAGE__REFERENCE_EXTENT);
+        return eIsSet(Ifc4Package.eINSTANCE.getIfcMaterialProfileSetUsage_ReferenceExtent());
     }
 
     /**
@@ -166,7 +166,7 @@ public class IfcMaterialProfileSetUsageImpl extends IfcMaterialUsageDefinitionIm
      */
     @Override
     public String getReferenceExtentAsString() {
-        return (String) eGet(Ifc4Package.Literals.IFC_MATERIAL_PROFILE_SET_USAGE__REFERENCE_EXTENT_AS_STRING, true);
+        return (String) eGet(Ifc4Package.eINSTANCE.getIfcMaterialProfileSetUsage_ReferenceExtentAsString(), true);
     }
 
     /**
@@ -176,8 +176,7 @@ public class IfcMaterialProfileSetUsageImpl extends IfcMaterialUsageDefinitionIm
      */
     @Override
     public void setReferenceExtentAsString(String newReferenceExtentAsString) {
-        eSet(Ifc4Package.Literals.IFC_MATERIAL_PROFILE_SET_USAGE__REFERENCE_EXTENT_AS_STRING,
-                newReferenceExtentAsString);
+        eSet(Ifc4Package.eINSTANCE.getIfcMaterialProfileSetUsage_ReferenceExtentAsString(), newReferenceExtentAsString);
     }
 
     /**
@@ -187,7 +186,7 @@ public class IfcMaterialProfileSetUsageImpl extends IfcMaterialUsageDefinitionIm
      */
     @Override
     public void unsetReferenceExtentAsString() {
-        eUnset(Ifc4Package.Literals.IFC_MATERIAL_PROFILE_SET_USAGE__REFERENCE_EXTENT_AS_STRING);
+        eUnset(Ifc4Package.eINSTANCE.getIfcMaterialProfileSetUsage_ReferenceExtentAsString());
     }
 
     /**
@@ -197,7 +196,7 @@ public class IfcMaterialProfileSetUsageImpl extends IfcMaterialUsageDefinitionIm
      */
     @Override
     public boolean isSetReferenceExtentAsString() {
-        return eIsSet(Ifc4Package.Literals.IFC_MATERIAL_PROFILE_SET_USAGE__REFERENCE_EXTENT_AS_STRING);
+        return eIsSet(Ifc4Package.eINSTANCE.getIfcMaterialProfileSetUsage_ReferenceExtentAsString());
     }
 
 } //IfcMaterialProfileSetUsageImpl

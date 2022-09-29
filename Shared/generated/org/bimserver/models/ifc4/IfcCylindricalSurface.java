@@ -37,10 +37,6 @@ public interface IfcCylindricalSurface extends IfcElementarySurface {
     /**
      * Returns the value of the '<em><b>Radius</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Radius</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Radius</em>' attribute.
      * @see #setRadius(double)
@@ -63,10 +59,6 @@ public interface IfcCylindricalSurface extends IfcElementarySurface {
     /**
      * Returns the value of the '<em><b>Radius As String</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Radius As String</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Radius As String</em>' attribute.
      * @see #setRadiusAsString(String)

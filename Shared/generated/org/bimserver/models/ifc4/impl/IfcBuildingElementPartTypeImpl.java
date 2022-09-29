@@ -52,7 +52,7 @@ public class IfcBuildingElementPartTypeImpl extends IfcElementComponentTypeImpl 
      */
     @Override
     protected EClass eStaticClass() {
-        return Ifc4Package.Literals.IFC_BUILDING_ELEMENT_PART_TYPE;
+        return Ifc4Package.eINSTANCE.getIfcBuildingElementPartType();
     }
 
     /**
@@ -63,7 +63,7 @@ public class IfcBuildingElementPartTypeImpl extends IfcElementComponentTypeImpl 
     @Override
     public IfcBuildingElementPartTypeEnum getPredefinedType() {
         return (IfcBuildingElementPartTypeEnum) eGet(
-                Ifc4Package.Literals.IFC_BUILDING_ELEMENT_PART_TYPE__PREDEFINED_TYPE, true);
+                Ifc4Package.eINSTANCE.getIfcBuildingElementPartType_PredefinedType(), true);
     }
 
     /**
@@ -73,7 +73,7 @@ public class IfcBuildingElementPartTypeImpl extends IfcElementComponentTypeImpl 
      */
     @Override
     public void setPredefinedType(IfcBuildingElementPartTypeEnum newPredefinedType) {
-        eSet(Ifc4Package.Literals.IFC_BUILDING_ELEMENT_PART_TYPE__PREDEFINED_TYPE, newPredefinedType);
+        eSet(Ifc4Package.eINSTANCE.getIfcBuildingElementPartType_PredefinedType(), newPredefinedType);
     }
 
 } //IfcBuildingElementPartTypeImpl

@@ -52,7 +52,7 @@ public class IfcDiscreteAccessoryTypeImpl extends IfcElementComponentTypeImpl im
      */
     @Override
     protected EClass eStaticClass() {
-        return Ifc4Package.Literals.IFC_DISCRETE_ACCESSORY_TYPE;
+        return Ifc4Package.eINSTANCE.getIfcDiscreteAccessoryType();
     }
 
     /**
@@ -62,7 +62,7 @@ public class IfcDiscreteAccessoryTypeImpl extends IfcElementComponentTypeImpl im
      */
     @Override
     public IfcDiscreteAccessoryTypeEnum getPredefinedType() {
-        return (IfcDiscreteAccessoryTypeEnum) eGet(Ifc4Package.Literals.IFC_DISCRETE_ACCESSORY_TYPE__PREDEFINED_TYPE,
+        return (IfcDiscreteAccessoryTypeEnum) eGet(Ifc4Package.eINSTANCE.getIfcDiscreteAccessoryType_PredefinedType(),
                 true);
     }
 
@@ -73,7 +73,7 @@ public class IfcDiscreteAccessoryTypeImpl extends IfcElementComponentTypeImpl im
      */
     @Override
     public void setPredefinedType(IfcDiscreteAccessoryTypeEnum newPredefinedType) {
-        eSet(Ifc4Package.Literals.IFC_DISCRETE_ACCESSORY_TYPE__PREDEFINED_TYPE, newPredefinedType);
+        eSet(Ifc4Package.eINSTANCE.getIfcDiscreteAccessoryType_PredefinedType(), newPredefinedType);
     }
 
 } //IfcDiscreteAccessoryTypeImpl

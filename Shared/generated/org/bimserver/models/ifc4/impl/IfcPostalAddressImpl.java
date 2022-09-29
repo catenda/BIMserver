@@ -59,7 +59,7 @@ public class IfcPostalAddressImpl extends IfcAddressImpl implements IfcPostalAdd
      */
     @Override
     protected EClass eStaticClass() {
-        return Ifc4Package.Literals.IFC_POSTAL_ADDRESS;
+        return Ifc4Package.eINSTANCE.getIfcPostalAddress();
     }
 
     /**
@@ -69,7 +69,7 @@ public class IfcPostalAddressImpl extends IfcAddressImpl implements IfcPostalAdd
      */
     @Override
     public String getInternalLocation() {
-        return (String) eGet(Ifc4Package.Literals.IFC_POSTAL_ADDRESS__INTERNAL_LOCATION, true);
+        return (String) eGet(Ifc4Package.eINSTANCE.getIfcPostalAddress_InternalLocation(), true);
     }
 
     /**
@@ -79,7 +79,7 @@ public class IfcPostalAddressImpl extends IfcAddressImpl implements IfcPostalAdd
      */
     @Override
     public void setInternalLocation(String newInternalLocation) {
-        eSet(Ifc4Package.Literals.IFC_POSTAL_ADDRESS__INTERNAL_LOCATION, newInternalLocation);
+        eSet(Ifc4Package.eINSTANCE.getIfcPostalAddress_InternalLocation(), newInternalLocation);
     }
 
     /**
@@ -89,7 +89,7 @@ public class IfcPostalAddressImpl extends IfcAddressImpl implements IfcPostalAdd
      */
     @Override
     public void unsetInternalLocation() {
-        eUnset(Ifc4Package.Literals.IFC_POSTAL_ADDRESS__INTERNAL_LOCATION);
+        eUnset(Ifc4Package.eINSTANCE.getIfcPostalAddress_InternalLocation());
     }
 
     /**
@@ -99,7 +99,7 @@ public class IfcPostalAddressImpl extends IfcAddressImpl implements IfcPostalAdd
      */
     @Override
     public boolean isSetInternalLocation() {
-        return eIsSet(Ifc4Package.Literals.IFC_POSTAL_ADDRESS__INTERNAL_LOCATION);
+        return eIsSet(Ifc4Package.eINSTANCE.getIfcPostalAddress_InternalLocation());
     }
 
     /**
@@ -110,7 +110,7 @@ public class IfcPostalAddressImpl extends IfcAddressImpl implements IfcPostalAdd
     @SuppressWarnings("unchecked")
     @Override
     public EList<String> getAddressLines() {
-        return (EList<String>) eGet(Ifc4Package.Literals.IFC_POSTAL_ADDRESS__ADDRESS_LINES, true);
+        return (EList<String>) eGet(Ifc4Package.eINSTANCE.getIfcPostalAddress_AddressLines(), true);
     }
 
     /**
@@ -120,7 +120,7 @@ public class IfcPostalAddressImpl extends IfcAddressImpl implements IfcPostalAdd
      */
     @Override
     public void unsetAddressLines() {
-        eUnset(Ifc4Package.Literals.IFC_POSTAL_ADDRESS__ADDRESS_LINES);
+        eUnset(Ifc4Package.eINSTANCE.getIfcPostalAddress_AddressLines());
     }
 
     /**
@@ -130,7 +130,7 @@ public class IfcPostalAddressImpl extends IfcAddressImpl implements IfcPostalAdd
      */
     @Override
     public boolean isSetAddressLines() {
-        return eIsSet(Ifc4Package.Literals.IFC_POSTAL_ADDRESS__ADDRESS_LINES);
+        return eIsSet(Ifc4Package.eINSTANCE.getIfcPostalAddress_AddressLines());
     }
 
     /**
@@ -140,7 +140,7 @@ public class IfcPostalAddressImpl extends IfcAddressImpl implements IfcPostalAdd
      */
     @Override
     public String getPostalBox() {
-        return (String) eGet(Ifc4Package.Literals.IFC_POSTAL_ADDRESS__POSTAL_BOX, true);
+        return (String) eGet(Ifc4Package.eINSTANCE.getIfcPostalAddress_PostalBox(), true);
     }
 
     /**
@@ -150,7 +150,7 @@ public class IfcPostalAddressImpl extends IfcAddressImpl implements IfcPostalAdd
      */
     @Override
     public void setPostalBox(String newPostalBox) {
-        eSet(Ifc4Package.Literals.IFC_POSTAL_ADDRESS__POSTAL_BOX, newPostalBox);
+        eSet(Ifc4Package.eINSTANCE.getIfcPostalAddress_PostalBox(), newPostalBox);
     }
 
     /**
@@ -160,7 +160,7 @@ public class IfcPostalAddressImpl extends IfcAddressImpl implements IfcPostalAdd
      */
     @Override
     public void unsetPostalBox() {
-        eUnset(Ifc4Package.Literals.IFC_POSTAL_ADDRESS__POSTAL_BOX);
+        eUnset(Ifc4Package.eINSTANCE.getIfcPostalAddress_PostalBox());
     }
 
     /**
@@ -170,7 +170,7 @@ public class IfcPostalAddressImpl extends IfcAddressImpl implements IfcPostalAdd
      */
     @Override
     public boolean isSetPostalBox() {
-        return eIsSet(Ifc4Package.Literals.IFC_POSTAL_ADDRESS__POSTAL_BOX);
+        return eIsSet(Ifc4Package.eINSTANCE.getIfcPostalAddress_PostalBox());
     }
 
     /**
@@ -180,7 +180,7 @@ public class IfcPostalAddressImpl extends IfcAddressImpl implements IfcPostalAdd
      */
     @Override
     public String getTown() {
-        return (String) eGet(Ifc4Package.Literals.IFC_POSTAL_ADDRESS__TOWN, true);
+        return (String) eGet(Ifc4Package.eINSTANCE.getIfcPostalAddress_Town(), true);
     }
 
     /**
@@ -190,7 +190,7 @@ public class IfcPostalAddressImpl extends IfcAddressImpl implements IfcPostalAdd
      */
     @Override
     public void setTown(String newTown) {
-        eSet(Ifc4Package.Literals.IFC_POSTAL_ADDRESS__TOWN, newTown);
+        eSet(Ifc4Package.eINSTANCE.getIfcPostalAddress_Town(), newTown);
     }
 
     /**
@@ -200,7 +200,7 @@ public class IfcPostalAddressImpl extends IfcAddressImpl implements IfcPostalAdd
      */
     @Override
     public void unsetTown() {
-        eUnset(Ifc4Package.Literals.IFC_POSTAL_ADDRESS__TOWN);
+        eUnset(Ifc4Package.eINSTANCE.getIfcPostalAddress_Town());
     }
 
     /**
@@ -210,7 +210,7 @@ public class IfcPostalAddressImpl extends IfcAddressImpl implements IfcPostalAdd
      */
     @Override
     public boolean isSetTown() {
-        return eIsSet(Ifc4Package.Literals.IFC_POSTAL_ADDRESS__TOWN);
+        return eIsSet(Ifc4Package.eINSTANCE.getIfcPostalAddress_Town());
     }
 
     /**
@@ -220,7 +220,7 @@ public class IfcPostalAddressImpl extends IfcAddressImpl implements IfcPostalAdd
      */
     @Override
     public String getRegion() {
-        return (String) eGet(Ifc4Package.Literals.IFC_POSTAL_ADDRESS__REGION, true);
+        return (String) eGet(Ifc4Package.eINSTANCE.getIfcPostalAddress_Region(), true);
     }
 
     /**
@@ -230,7 +230,7 @@ public class IfcPostalAddressImpl extends IfcAddressImpl implements IfcPostalAdd
      */
     @Override
     public void setRegion(String newRegion) {
-        eSet(Ifc4Package.Literals.IFC_POSTAL_ADDRESS__REGION, newRegion);
+        eSet(Ifc4Package.eINSTANCE.getIfcPostalAddress_Region(), newRegion);
     }
 
     /**
@@ -240,7 +240,7 @@ public class IfcPostalAddressImpl extends IfcAddressImpl implements IfcPostalAdd
      */
     @Override
     public void unsetRegion() {
-        eUnset(Ifc4Package.Literals.IFC_POSTAL_ADDRESS__REGION);
+        eUnset(Ifc4Package.eINSTANCE.getIfcPostalAddress_Region());
     }
 
     /**
@@ -250,7 +250,7 @@ public class IfcPostalAddressImpl extends IfcAddressImpl implements IfcPostalAdd
      */
     @Override
     public boolean isSetRegion() {
-        return eIsSet(Ifc4Package.Literals.IFC_POSTAL_ADDRESS__REGION);
+        return eIsSet(Ifc4Package.eINSTANCE.getIfcPostalAddress_Region());
     }
 
     /**
@@ -260,7 +260,7 @@ public class IfcPostalAddressImpl extends IfcAddressImpl implements IfcPostalAdd
      */
     @Override
     public String getPostalCode() {
-        return (String) eGet(Ifc4Package.Literals.IFC_POSTAL_ADDRESS__POSTAL_CODE, true);
+        return (String) eGet(Ifc4Package.eINSTANCE.getIfcPostalAddress_PostalCode(), true);
     }
 
     /**
@@ -270,7 +270,7 @@ public class IfcPostalAddressImpl extends IfcAddressImpl implements IfcPostalAdd
      */
     @Override
     public void setPostalCode(String newPostalCode) {
-        eSet(Ifc4Package.Literals.IFC_POSTAL_ADDRESS__POSTAL_CODE, newPostalCode);
+        eSet(Ifc4Package.eINSTANCE.getIfcPostalAddress_PostalCode(), newPostalCode);
     }
 
     /**
@@ -280,7 +280,7 @@ public class IfcPostalAddressImpl extends IfcAddressImpl implements IfcPostalAdd
      */
     @Override
     public void unsetPostalCode() {
-        eUnset(Ifc4Package.Literals.IFC_POSTAL_ADDRESS__POSTAL_CODE);
+        eUnset(Ifc4Package.eINSTANCE.getIfcPostalAddress_PostalCode());
     }
 
     /**
@@ -290,7 +290,7 @@ public class IfcPostalAddressImpl extends IfcAddressImpl implements IfcPostalAdd
      */
     @Override
     public boolean isSetPostalCode() {
-        return eIsSet(Ifc4Package.Literals.IFC_POSTAL_ADDRESS__POSTAL_CODE);
+        return eIsSet(Ifc4Package.eINSTANCE.getIfcPostalAddress_PostalCode());
     }
 
     /**
@@ -300,7 +300,7 @@ public class IfcPostalAddressImpl extends IfcAddressImpl implements IfcPostalAdd
      */
     @Override
     public String getCountry() {
-        return (String) eGet(Ifc4Package.Literals.IFC_POSTAL_ADDRESS__COUNTRY, true);
+        return (String) eGet(Ifc4Package.eINSTANCE.getIfcPostalAddress_Country(), true);
     }
 
     /**
@@ -310,7 +310,7 @@ public class IfcPostalAddressImpl extends IfcAddressImpl implements IfcPostalAdd
      */
     @Override
     public void setCountry(String newCountry) {
-        eSet(Ifc4Package.Literals.IFC_POSTAL_ADDRESS__COUNTRY, newCountry);
+        eSet(Ifc4Package.eINSTANCE.getIfcPostalAddress_Country(), newCountry);
     }
 
     /**
@@ -320,7 +320,7 @@ public class IfcPostalAddressImpl extends IfcAddressImpl implements IfcPostalAdd
      */
     @Override
     public void unsetCountry() {
-        eUnset(Ifc4Package.Literals.IFC_POSTAL_ADDRESS__COUNTRY);
+        eUnset(Ifc4Package.eINSTANCE.getIfcPostalAddress_Country());
     }
 
     /**
@@ -330,7 +330,7 @@ public class IfcPostalAddressImpl extends IfcAddressImpl implements IfcPostalAdd
      */
     @Override
     public boolean isSetCountry() {
-        return eIsSet(Ifc4Package.Literals.IFC_POSTAL_ADDRESS__COUNTRY);
+        return eIsSet(Ifc4Package.eINSTANCE.getIfcPostalAddress_Country());
     }
 
 } //IfcPostalAddressImpl

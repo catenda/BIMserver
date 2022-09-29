@@ -75,10 +75,6 @@ public enum IfcPreferredSurfaceCurveRepresentation implements Enumerator {
     /**
      * The '<em><b>NULL</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>NULL</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #NULL
      * @model
@@ -90,10 +86,6 @@ public enum IfcPreferredSurfaceCurveRepresentation implements Enumerator {
     /**
      * The '<em><b>PCURVE S2</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>PCURVE S2</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #PCURVE_S2
      * @model
@@ -105,10 +97,6 @@ public enum IfcPreferredSurfaceCurveRepresentation implements Enumerator {
     /**
      * The '<em><b>PCURVE S1</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>PCURVE S1</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #PCURVE_S1
      * @model
@@ -120,10 +108,6 @@ public enum IfcPreferredSurfaceCurveRepresentation implements Enumerator {
     /**
      * The '<em><b>CURVE3D</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>CURVE3D</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #CURVE3D
      * @model

@@ -45,7 +45,7 @@ public class IfcStructuralPointActionImpl extends IfcStructuralActionImpl implem
      */
     @Override
     protected EClass eStaticClass() {
-        return Ifc4Package.Literals.IFC_STRUCTURAL_POINT_ACTION;
+        return Ifc4Package.eINSTANCE.getIfcStructuralPointAction();
     }
 
 } //IfcStructuralPointActionImpl

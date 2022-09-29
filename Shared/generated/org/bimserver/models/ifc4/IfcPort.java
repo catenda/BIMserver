@@ -42,10 +42,6 @@ public interface IfcPort extends IfcProduct {
      * The list contents are of type {@link org.bimserver.models.ifc4.IfcRelConnectsPortToElement}.
      * It is bidirectional and its opposite is '{@link org.bimserver.models.ifc4.IfcRelConnectsPortToElement#getRelatingPort <em>Relating Port</em>}'.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Contained In</em>' reference list isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Contained In</em>' reference list.
      * @see #isSetContainedIn()
@@ -84,10 +80,6 @@ public interface IfcPort extends IfcProduct {
      * The list contents are of type {@link org.bimserver.models.ifc4.IfcRelConnectsPorts}.
      * It is bidirectional and its opposite is '{@link org.bimserver.models.ifc4.IfcRelConnectsPorts#getRelatedPort <em>Related Port</em>}'.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Connected From</em>' reference list isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Connected From</em>' reference list.
      * @see #isSetConnectedFrom()
@@ -126,10 +118,6 @@ public interface IfcPort extends IfcProduct {
      * The list contents are of type {@link org.bimserver.models.ifc4.IfcRelConnectsPorts}.
      * It is bidirectional and its opposite is '{@link org.bimserver.models.ifc4.IfcRelConnectsPorts#getRelatingPort <em>Relating Port</em>}'.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Connected To</em>' reference list isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Connected To</em>' reference list.
      * @see #isSetConnectedTo()

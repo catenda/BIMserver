@@ -53,10 +53,6 @@ public interface IfcOpticalMaterialProperties extends IfcMaterialProperties {
     /**
      * Returns the value of the '<em><b>Visible Transmittance</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Visible Transmittance</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Visible Transmittance</em>' attribute.
      * @see #isSetVisibleTransmittance()
@@ -106,10 +102,6 @@ public interface IfcOpticalMaterialProperties extends IfcMaterialProperties {
     /**
      * Returns the value of the '<em><b>Visible Transmittance As String</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Visible Transmittance As String</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Visible Transmittance As String</em>' attribute.
      * @see #isSetVisibleTransmittanceAsString()
@@ -161,10 +153,6 @@ public interface IfcOpticalMaterialProperties extends IfcMaterialProperties {
     /**
      * Returns the value of the '<em><b>Solar Transmittance</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Solar Transmittance</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Solar Transmittance</em>' attribute.
      * @see #isSetSolarTransmittance()
@@ -214,10 +202,6 @@ public interface IfcOpticalMaterialProperties extends IfcMaterialProperties {
     /**
      * Returns the value of the '<em><b>Solar Transmittance As String</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Solar Transmittance As String</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Solar Transmittance As String</em>' attribute.
      * @see #isSetSolarTransmittanceAsString()
@@ -269,10 +253,6 @@ public interface IfcOpticalMaterialProperties extends IfcMaterialProperties {
     /**
      * Returns the value of the '<em><b>Thermal Ir Transmittance</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Thermal Ir Transmittance</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Thermal Ir Transmittance</em>' attribute.
      * @see #isSetThermalIrTransmittance()
@@ -322,10 +302,6 @@ public interface IfcOpticalMaterialProperties extends IfcMaterialProperties {
     /**
      * Returns the value of the '<em><b>Thermal Ir Transmittance As String</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Thermal Ir Transmittance As String</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Thermal Ir Transmittance As String</em>' attribute.
      * @see #isSetThermalIrTransmittanceAsString()
@@ -377,10 +353,6 @@ public interface IfcOpticalMaterialProperties extends IfcMaterialProperties {
     /**
      * Returns the value of the '<em><b>Thermal Ir Emissivity Back</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Thermal Ir Emissivity Back</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Thermal Ir Emissivity Back</em>' attribute.
      * @see #isSetThermalIrEmissivityBack()
@@ -430,10 +402,6 @@ public interface IfcOpticalMaterialProperties extends IfcMaterialProperties {
     /**
      * Returns the value of the '<em><b>Thermal Ir Emissivity Back As String</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Thermal Ir Emissivity Back As String</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Thermal Ir Emissivity Back As String</em>' attribute.
      * @see #isSetThermalIrEmissivityBackAsString()
@@ -485,10 +453,6 @@ public interface IfcOpticalMaterialProperties extends IfcMaterialProperties {
     /**
      * Returns the value of the '<em><b>Thermal Ir Emissivity Front</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Thermal Ir Emissivity Front</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Thermal Ir Emissivity Front</em>' attribute.
      * @see #isSetThermalIrEmissivityFront()
@@ -538,10 +502,6 @@ public interface IfcOpticalMaterialProperties extends IfcMaterialProperties {
     /**
      * Returns the value of the '<em><b>Thermal Ir Emissivity Front As String</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Thermal Ir Emissivity Front As String</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Thermal Ir Emissivity Front As String</em>' attribute.
      * @see #isSetThermalIrEmissivityFrontAsString()
@@ -593,10 +553,6 @@ public interface IfcOpticalMaterialProperties extends IfcMaterialProperties {
     /**
      * Returns the value of the '<em><b>Visible Reflectance Back</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Visible Reflectance Back</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Visible Reflectance Back</em>' attribute.
      * @see #isSetVisibleReflectanceBack()
@@ -646,10 +602,6 @@ public interface IfcOpticalMaterialProperties extends IfcMaterialProperties {
     /**
      * Returns the value of the '<em><b>Visible Reflectance Back As String</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Visible Reflectance Back As String</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Visible Reflectance Back As String</em>' attribute.
      * @see #isSetVisibleReflectanceBackAsString()
@@ -701,10 +653,6 @@ public interface IfcOpticalMaterialProperties extends IfcMaterialProperties {
     /**
      * Returns the value of the '<em><b>Visible Reflectance Front</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Visible Reflectance Front</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Visible Reflectance Front</em>' attribute.
      * @see #isSetVisibleReflectanceFront()
@@ -754,10 +702,6 @@ public interface IfcOpticalMaterialProperties extends IfcMaterialProperties {
     /**
      * Returns the value of the '<em><b>Visible Reflectance Front As String</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Visible Reflectance Front As String</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Visible Reflectance Front As String</em>' attribute.
      * @see #isSetVisibleReflectanceFrontAsString()
@@ -809,10 +753,6 @@ public interface IfcOpticalMaterialProperties extends IfcMaterialProperties {
     /**
      * Returns the value of the '<em><b>Solar Reflectance Front</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Solar Reflectance Front</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Solar Reflectance Front</em>' attribute.
      * @see #isSetSolarReflectanceFront()
@@ -862,10 +802,6 @@ public interface IfcOpticalMaterialProperties extends IfcMaterialProperties {
     /**
      * Returns the value of the '<em><b>Solar Reflectance Front As String</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Solar Reflectance Front As String</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Solar Reflectance Front As String</em>' attribute.
      * @see #isSetSolarReflectanceFrontAsString()
@@ -917,10 +853,6 @@ public interface IfcOpticalMaterialProperties extends IfcMaterialProperties {
     /**
      * Returns the value of the '<em><b>Solar Reflectance Back</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Solar Reflectance Back</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Solar Reflectance Back</em>' attribute.
      * @see #isSetSolarReflectanceBack()
@@ -970,10 +902,6 @@ public interface IfcOpticalMaterialProperties extends IfcMaterialProperties {
     /**
      * Returns the value of the '<em><b>Solar Reflectance Back As String</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Solar Reflectance Back As String</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Solar Reflectance Back As String</em>' attribute.
      * @see #isSetSolarReflectanceBackAsString()

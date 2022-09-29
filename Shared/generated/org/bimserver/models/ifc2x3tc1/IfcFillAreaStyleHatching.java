@@ -41,10 +41,6 @@ public interface IfcFillAreaStyleHatching extends IfcGeometricRepresentationItem
     /**
      * Returns the value of the '<em><b>Hatch Line Appearance</b></em>' reference.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Hatch Line Appearance</em>' reference isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Hatch Line Appearance</em>' reference.
      * @see #setHatchLineAppearance(IfcCurveStyle)
@@ -67,10 +63,6 @@ public interface IfcFillAreaStyleHatching extends IfcGeometricRepresentationItem
     /**
      * Returns the value of the '<em><b>Start Of Next Hatch Line</b></em>' reference.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Start Of Next Hatch Line</em>' reference isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Start Of Next Hatch Line</em>' reference.
      * @see #setStartOfNextHatchLine(IfcHatchLineDistanceSelect)
@@ -93,10 +85,6 @@ public interface IfcFillAreaStyleHatching extends IfcGeometricRepresentationItem
     /**
      * Returns the value of the '<em><b>Point Of Reference Hatch Line</b></em>' reference.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Point Of Reference Hatch Line</em>' reference isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Point Of Reference Hatch Line</em>' reference.
      * @see #isSetPointOfReferenceHatchLine()
@@ -146,10 +134,6 @@ public interface IfcFillAreaStyleHatching extends IfcGeometricRepresentationItem
     /**
      * Returns the value of the '<em><b>Pattern Start</b></em>' reference.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Pattern Start</em>' reference isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Pattern Start</em>' reference.
      * @see #isSetPatternStart()
@@ -199,10 +183,6 @@ public interface IfcFillAreaStyleHatching extends IfcGeometricRepresentationItem
     /**
      * Returns the value of the '<em><b>Hatch Line Angle</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Hatch Line Angle</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Hatch Line Angle</em>' attribute.
      * @see #setHatchLineAngle(double)
@@ -225,10 +205,6 @@ public interface IfcFillAreaStyleHatching extends IfcGeometricRepresentationItem
     /**
      * Returns the value of the '<em><b>Hatch Line Angle As String</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Hatch Line Angle As String</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Hatch Line Angle As String</em>' attribute.
      * @see #setHatchLineAngleAsString(String)

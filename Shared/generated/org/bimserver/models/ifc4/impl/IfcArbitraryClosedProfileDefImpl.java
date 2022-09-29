@@ -52,7 +52,7 @@ public class IfcArbitraryClosedProfileDefImpl extends IfcProfileDefImpl implemen
      */
     @Override
     protected EClass eStaticClass() {
-        return Ifc4Package.Literals.IFC_ARBITRARY_CLOSED_PROFILE_DEF;
+        return Ifc4Package.eINSTANCE.getIfcArbitraryClosedProfileDef();
     }
 
     /**
@@ -62,7 +62,7 @@ public class IfcArbitraryClosedProfileDefImpl extends IfcProfileDefImpl implemen
      */
     @Override
     public IfcCurve getOuterCurve() {
-        return (IfcCurve) eGet(Ifc4Package.Literals.IFC_ARBITRARY_CLOSED_PROFILE_DEF__OUTER_CURVE, true);
+        return (IfcCurve) eGet(Ifc4Package.eINSTANCE.getIfcArbitraryClosedProfileDef_OuterCurve(), true);
     }
 
     /**
@@ -72,7 +72,7 @@ public class IfcArbitraryClosedProfileDefImpl extends IfcProfileDefImpl implemen
      */
     @Override
     public void setOuterCurve(IfcCurve newOuterCurve) {
-        eSet(Ifc4Package.Literals.IFC_ARBITRARY_CLOSED_PROFILE_DEF__OUTER_CURVE, newOuterCurve);
+        eSet(Ifc4Package.eINSTANCE.getIfcArbitraryClosedProfileDef_OuterCurve(), newOuterCurve);
     }
 
 } //IfcArbitraryClosedProfileDefImpl

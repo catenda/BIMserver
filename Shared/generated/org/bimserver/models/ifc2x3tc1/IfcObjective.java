@@ -39,10 +39,6 @@ public interface IfcObjective extends IfcConstraint {
     /**
      * Returns the value of the '<em><b>Benchmark Values</b></em>' reference.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Benchmark Values</em>' reference isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Benchmark Values</em>' reference.
      * @see #isSetBenchmarkValues()
@@ -92,10 +88,6 @@ public interface IfcObjective extends IfcConstraint {
     /**
      * Returns the value of the '<em><b>Result Values</b></em>' reference.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Result Values</em>' reference isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Result Values</em>' reference.
      * @see #isSetResultValues()
@@ -146,10 +138,6 @@ public interface IfcObjective extends IfcConstraint {
      * Returns the value of the '<em><b>Objective Qualifier</b></em>' attribute.
      * The literals are from the enumeration {@link org.bimserver.models.ifc2x3tc1.IfcObjectiveEnum}.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Objective Qualifier</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Objective Qualifier</em>' attribute.
      * @see org.bimserver.models.ifc2x3tc1.IfcObjectiveEnum
@@ -174,10 +162,6 @@ public interface IfcObjective extends IfcConstraint {
     /**
      * Returns the value of the '<em><b>User Defined Qualifier</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>User Defined Qualifier</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>User Defined Qualifier</em>' attribute.
      * @see #isSetUserDefinedQualifier()

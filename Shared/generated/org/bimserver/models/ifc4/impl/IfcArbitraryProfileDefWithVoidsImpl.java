@@ -55,7 +55,7 @@ public class IfcArbitraryProfileDefWithVoidsImpl extends IfcArbitraryClosedProfi
      */
     @Override
     protected EClass eStaticClass() {
-        return Ifc4Package.Literals.IFC_ARBITRARY_PROFILE_DEF_WITH_VOIDS;
+        return Ifc4Package.eINSTANCE.getIfcArbitraryProfileDefWithVoids();
     }
 
     /**
@@ -66,7 +66,7 @@ public class IfcArbitraryProfileDefWithVoidsImpl extends IfcArbitraryClosedProfi
     @SuppressWarnings("unchecked")
     @Override
     public EList<IfcCurve> getInnerCurves() {
-        return (EList<IfcCurve>) eGet(Ifc4Package.Literals.IFC_ARBITRARY_PROFILE_DEF_WITH_VOIDS__INNER_CURVES, true);
+        return (EList<IfcCurve>) eGet(Ifc4Package.eINSTANCE.getIfcArbitraryProfileDefWithVoids_InnerCurves(), true);
     }
 
 } //IfcArbitraryProfileDefWithVoidsImpl

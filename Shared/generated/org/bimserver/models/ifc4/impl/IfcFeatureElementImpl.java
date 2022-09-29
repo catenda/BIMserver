@@ -45,7 +45,7 @@ public class IfcFeatureElementImpl extends IfcElementImpl implements IfcFeatureE
      */
     @Override
     protected EClass eStaticClass() {
-        return Ifc4Package.Literals.IFC_FEATURE_ELEMENT;
+        return Ifc4Package.eINSTANCE.getIfcFeatureElement();
     }
 
 } //IfcFeatureElementImpl

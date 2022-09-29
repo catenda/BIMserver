@@ -45,7 +45,7 @@ public class IfcQuantitySetImpl extends IfcPropertySetDefinitionImpl implements 
      */
     @Override
     protected EClass eStaticClass() {
-        return Ifc4Package.Literals.IFC_QUANTITY_SET;
+        return Ifc4Package.eINSTANCE.getIfcQuantitySet();
     }
 
 } //IfcQuantitySetImpl

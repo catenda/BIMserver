@@ -18,9 +18,10 @@ package org.bimserver.models.ifc4.impl;
 
 import org.bimserver.models.ifc4.Ifc4Package;
 import org.bimserver.models.ifc4.IfcTextureVertexList;
-
 import org.bimserver.models.ifc4.ListOfIfcParameterValue;
+
 import org.eclipse.emf.common.util.EList;
+
 import org.eclipse.emf.ecore.EClass;
 
 /**
@@ -53,7 +54,7 @@ public class IfcTextureVertexListImpl extends IfcPresentationItemImpl implements
      */
     @Override
     protected EClass eStaticClass() {
-        return Ifc4Package.Literals.IFC_TEXTURE_VERTEX_LIST;
+        return Ifc4Package.eINSTANCE.getIfcTextureVertexList();
     }
 
     /**
@@ -64,7 +65,7 @@ public class IfcTextureVertexListImpl extends IfcPresentationItemImpl implements
     @SuppressWarnings("unchecked")
     @Override
     public EList<ListOfIfcParameterValue> getTexCoordsList() {
-        return (EList<ListOfIfcParameterValue>) eGet(Ifc4Package.Literals.IFC_TEXTURE_VERTEX_LIST__TEX_COORDS_LIST,
+        return (EList<ListOfIfcParameterValue>) eGet(Ifc4Package.eINSTANCE.getIfcTextureVertexList_TexCoordsList(),
                 true);
     }
 

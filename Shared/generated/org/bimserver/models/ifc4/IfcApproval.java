@@ -51,10 +51,6 @@ public interface IfcApproval extends IfcResourceObjectSelect {
     /**
      * Returns the value of the '<em><b>Identifier</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Identifier</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Identifier</em>' attribute.
      * @see #isSetIdentifier()
@@ -104,10 +100,6 @@ public interface IfcApproval extends IfcResourceObjectSelect {
     /**
      * Returns the value of the '<em><b>Name</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Name</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Name</em>' attribute.
      * @see #isSetName()
@@ -157,10 +149,6 @@ public interface IfcApproval extends IfcResourceObjectSelect {
     /**
      * Returns the value of the '<em><b>Description</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Description</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Description</em>' attribute.
      * @see #isSetDescription()
@@ -210,10 +198,6 @@ public interface IfcApproval extends IfcResourceObjectSelect {
     /**
      * Returns the value of the '<em><b>Time Of Approval</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Time Of Approval</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Time Of Approval</em>' attribute.
      * @see #isSetTimeOfApproval()
@@ -263,10 +247,6 @@ public interface IfcApproval extends IfcResourceObjectSelect {
     /**
      * Returns the value of the '<em><b>Status</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Status</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Status</em>' attribute.
      * @see #isSetStatus()
@@ -316,10 +296,6 @@ public interface IfcApproval extends IfcResourceObjectSelect {
     /**
      * Returns the value of the '<em><b>Level</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Level</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Level</em>' attribute.
      * @see #isSetLevel()
@@ -369,10 +345,6 @@ public interface IfcApproval extends IfcResourceObjectSelect {
     /**
      * Returns the value of the '<em><b>Qualifier</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Qualifier</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Qualifier</em>' attribute.
      * @see #isSetQualifier()
@@ -422,10 +394,6 @@ public interface IfcApproval extends IfcResourceObjectSelect {
     /**
      * Returns the value of the '<em><b>Requesting Approval</b></em>' reference.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Requesting Approval</em>' reference isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Requesting Approval</em>' reference.
      * @see #isSetRequestingApproval()
@@ -475,10 +443,6 @@ public interface IfcApproval extends IfcResourceObjectSelect {
     /**
      * Returns the value of the '<em><b>Giving Approval</b></em>' reference.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Giving Approval</em>' reference isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Giving Approval</em>' reference.
      * @see #isSetGivingApproval()
@@ -529,10 +493,6 @@ public interface IfcApproval extends IfcResourceObjectSelect {
      * Returns the value of the '<em><b>Has External References</b></em>' reference list.
      * The list contents are of type {@link org.bimserver.models.ifc4.IfcExternalReferenceRelationship}.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Has External References</em>' reference list isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Has External References</em>' reference list.
      * @see #isSetHasExternalReferences()
@@ -570,10 +530,6 @@ public interface IfcApproval extends IfcResourceObjectSelect {
      * The list contents are of type {@link org.bimserver.models.ifc4.IfcRelAssociatesApproval}.
      * It is bidirectional and its opposite is '{@link org.bimserver.models.ifc4.IfcRelAssociatesApproval#getRelatingApproval <em>Relating Approval</em>}'.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Approved Objects</em>' reference list isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Approved Objects</em>' reference list.
      * @see #isSetApprovedObjects()
@@ -612,10 +568,6 @@ public interface IfcApproval extends IfcResourceObjectSelect {
      * The list contents are of type {@link org.bimserver.models.ifc4.IfcResourceApprovalRelationship}.
      * It is bidirectional and its opposite is '{@link org.bimserver.models.ifc4.IfcResourceApprovalRelationship#getRelatingApproval <em>Relating Approval</em>}'.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Approved Resources</em>' reference list isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Approved Resources</em>' reference list.
      * @see #isSetApprovedResources()
@@ -654,10 +606,6 @@ public interface IfcApproval extends IfcResourceObjectSelect {
      * The list contents are of type {@link org.bimserver.models.ifc4.IfcApprovalRelationship}.
      * It is bidirectional and its opposite is '{@link org.bimserver.models.ifc4.IfcApprovalRelationship#getRelatedApprovals <em>Related Approvals</em>}'.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Is Related With</em>' reference list isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Is Related With</em>' reference list.
      * @see #isSetIsRelatedWith()
@@ -696,10 +644,6 @@ public interface IfcApproval extends IfcResourceObjectSelect {
      * The list contents are of type {@link org.bimserver.models.ifc4.IfcApprovalRelationship}.
      * It is bidirectional and its opposite is '{@link org.bimserver.models.ifc4.IfcApprovalRelationship#getRelatingApproval <em>Relating Approval</em>}'.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Relates</em>' reference list isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Relates</em>' reference list.
      * @see #isSetRelates()

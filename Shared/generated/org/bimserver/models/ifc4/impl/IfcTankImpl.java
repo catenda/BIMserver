@@ -52,7 +52,7 @@ public class IfcTankImpl extends IfcFlowStorageDeviceImpl implements IfcTank {
      */
     @Override
     protected EClass eStaticClass() {
-        return Ifc4Package.Literals.IFC_TANK;
+        return Ifc4Package.eINSTANCE.getIfcTank();
     }
 
     /**
@@ -62,7 +62,7 @@ public class IfcTankImpl extends IfcFlowStorageDeviceImpl implements IfcTank {
      */
     @Override
     public IfcTankTypeEnum getPredefinedType() {
-        return (IfcTankTypeEnum) eGet(Ifc4Package.Literals.IFC_TANK__PREDEFINED_TYPE, true);
+        return (IfcTankTypeEnum) eGet(Ifc4Package.eINSTANCE.getIfcTank_PredefinedType(), true);
     }
 
     /**
@@ -72,7 +72,7 @@ public class IfcTankImpl extends IfcFlowStorageDeviceImpl implements IfcTank {
      */
     @Override
     public void setPredefinedType(IfcTankTypeEnum newPredefinedType) {
-        eSet(Ifc4Package.Literals.IFC_TANK__PREDEFINED_TYPE, newPredefinedType);
+        eSet(Ifc4Package.eINSTANCE.getIfcTank_PredefinedType(), newPredefinedType);
     }
 
     /**
@@ -82,7 +82,7 @@ public class IfcTankImpl extends IfcFlowStorageDeviceImpl implements IfcTank {
      */
     @Override
     public void unsetPredefinedType() {
-        eUnset(Ifc4Package.Literals.IFC_TANK__PREDEFINED_TYPE);
+        eUnset(Ifc4Package.eINSTANCE.getIfcTank_PredefinedType());
     }
 
     /**
@@ -92,7 +92,7 @@ public class IfcTankImpl extends IfcFlowStorageDeviceImpl implements IfcTank {
      */
     @Override
     public boolean isSetPredefinedType() {
-        return eIsSet(Ifc4Package.Literals.IFC_TANK__PREDEFINED_TYPE);
+        return eIsSet(Ifc4Package.eINSTANCE.getIfcTank_PredefinedType());
     }
 
 } //IfcTankImpl

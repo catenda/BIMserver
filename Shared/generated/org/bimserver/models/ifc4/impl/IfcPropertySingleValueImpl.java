@@ -54,7 +54,7 @@ public class IfcPropertySingleValueImpl extends IfcSimplePropertyImpl implements
      */
     @Override
     protected EClass eStaticClass() {
-        return Ifc4Package.Literals.IFC_PROPERTY_SINGLE_VALUE;
+        return Ifc4Package.eINSTANCE.getIfcPropertySingleValue();
     }
 
     /**
@@ -64,7 +64,7 @@ public class IfcPropertySingleValueImpl extends IfcSimplePropertyImpl implements
      */
     @Override
     public IfcValue getNominalValue() {
-        return (IfcValue) eGet(Ifc4Package.Literals.IFC_PROPERTY_SINGLE_VALUE__NOMINAL_VALUE, true);
+        return (IfcValue) eGet(Ifc4Package.eINSTANCE.getIfcPropertySingleValue_NominalValue(), true);
     }
 
     /**
@@ -74,7 +74,7 @@ public class IfcPropertySingleValueImpl extends IfcSimplePropertyImpl implements
      */
     @Override
     public void setNominalValue(IfcValue newNominalValue) {
-        eSet(Ifc4Package.Literals.IFC_PROPERTY_SINGLE_VALUE__NOMINAL_VALUE, newNominalValue);
+        eSet(Ifc4Package.eINSTANCE.getIfcPropertySingleValue_NominalValue(), newNominalValue);
     }
 
     /**
@@ -84,7 +84,7 @@ public class IfcPropertySingleValueImpl extends IfcSimplePropertyImpl implements
      */
     @Override
     public void unsetNominalValue() {
-        eUnset(Ifc4Package.Literals.IFC_PROPERTY_SINGLE_VALUE__NOMINAL_VALUE);
+        eUnset(Ifc4Package.eINSTANCE.getIfcPropertySingleValue_NominalValue());
     }
 
     /**
@@ -94,7 +94,7 @@ public class IfcPropertySingleValueImpl extends IfcSimplePropertyImpl implements
      */
     @Override
     public boolean isSetNominalValue() {
-        return eIsSet(Ifc4Package.Literals.IFC_PROPERTY_SINGLE_VALUE__NOMINAL_VALUE);
+        return eIsSet(Ifc4Package.eINSTANCE.getIfcPropertySingleValue_NominalValue());
     }
 
     /**
@@ -104,7 +104,7 @@ public class IfcPropertySingleValueImpl extends IfcSimplePropertyImpl implements
      */
     @Override
     public IfcUnit getUnit() {
-        return (IfcUnit) eGet(Ifc4Package.Literals.IFC_PROPERTY_SINGLE_VALUE__UNIT, true);
+        return (IfcUnit) eGet(Ifc4Package.eINSTANCE.getIfcPropertySingleValue_Unit(), true);
     }
 
     /**
@@ -114,7 +114,7 @@ public class IfcPropertySingleValueImpl extends IfcSimplePropertyImpl implements
      */
     @Override
     public void setUnit(IfcUnit newUnit) {
-        eSet(Ifc4Package.Literals.IFC_PROPERTY_SINGLE_VALUE__UNIT, newUnit);
+        eSet(Ifc4Package.eINSTANCE.getIfcPropertySingleValue_Unit(), newUnit);
     }
 
     /**
@@ -124,7 +124,7 @@ public class IfcPropertySingleValueImpl extends IfcSimplePropertyImpl implements
      */
     @Override
     public void unsetUnit() {
-        eUnset(Ifc4Package.Literals.IFC_PROPERTY_SINGLE_VALUE__UNIT);
+        eUnset(Ifc4Package.eINSTANCE.getIfcPropertySingleValue_Unit());
     }
 
     /**
@@ -134,7 +134,7 @@ public class IfcPropertySingleValueImpl extends IfcSimplePropertyImpl implements
      */
     @Override
     public boolean isSetUnit() {
-        return eIsSet(Ifc4Package.Literals.IFC_PROPERTY_SINGLE_VALUE__UNIT);
+        return eIsSet(Ifc4Package.eINSTANCE.getIfcPropertySingleValue_Unit());
     }
 
 } //IfcPropertySingleValueImpl

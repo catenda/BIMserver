@@ -45,7 +45,7 @@ public class IfcDoorStandardCaseImpl extends IfcDoorImpl implements IfcDoorStand
      */
     @Override
     protected EClass eStaticClass() {
-        return Ifc4Package.Literals.IFC_DOOR_STANDARD_CASE;
+        return Ifc4Package.eINSTANCE.getIfcDoorStandardCase();
     }
 
 } //IfcDoorStandardCaseImpl

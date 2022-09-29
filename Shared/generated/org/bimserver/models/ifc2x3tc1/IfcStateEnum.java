@@ -95,10 +95,6 @@ public enum IfcStateEnum implements Enumerator {
     /**
      * The '<em><b>NULL</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>NULL</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #NULL
      * @model
@@ -110,10 +106,6 @@ public enum IfcStateEnum implements Enumerator {
     /**
      * The '<em><b>READWRITE</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>READWRITE</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #READWRITE
      * @model
@@ -125,10 +117,6 @@ public enum IfcStateEnum implements Enumerator {
     /**
      * The '<em><b>LOCKED</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>LOCKED</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #LOCKED
      * @model
@@ -140,10 +128,6 @@ public enum IfcStateEnum implements Enumerator {
     /**
      * The '<em><b>READWRITELOCKED</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>READWRITELOCKED</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #READWRITELOCKED
      * @model
@@ -155,10 +139,6 @@ public enum IfcStateEnum implements Enumerator {
     /**
      * The '<em><b>READONLYLOCKED</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>READONLYLOCKED</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #READONLYLOCKED
      * @model
@@ -170,10 +150,6 @@ public enum IfcStateEnum implements Enumerator {
     /**
      * The '<em><b>READONLY</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>READONLY</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #READONLY
      * @model

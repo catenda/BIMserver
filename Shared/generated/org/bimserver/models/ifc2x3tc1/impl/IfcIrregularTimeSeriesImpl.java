@@ -54,7 +54,7 @@ public class IfcIrregularTimeSeriesImpl extends IfcTimeSeriesImpl implements Ifc
      */
     @Override
     protected EClass eStaticClass() {
-        return Ifc2x3tc1Package.Literals.IFC_IRREGULAR_TIME_SERIES;
+        return Ifc2x3tc1Package.eINSTANCE.getIfcIrregularTimeSeries();
     }
 
     /**
@@ -65,7 +65,7 @@ public class IfcIrregularTimeSeriesImpl extends IfcTimeSeriesImpl implements Ifc
     @SuppressWarnings("unchecked")
     @Override
     public EList<IfcIrregularTimeSeriesValue> getValues() {
-        return (EList<IfcIrregularTimeSeriesValue>) eGet(Ifc2x3tc1Package.Literals.IFC_IRREGULAR_TIME_SERIES__VALUES,
+        return (EList<IfcIrregularTimeSeriesValue>) eGet(Ifc2x3tc1Package.eINSTANCE.getIfcIrregularTimeSeries_Values(),
                 true);
     }
 

@@ -43,10 +43,6 @@ public interface IfcTendonType extends IfcReinforcingElementType {
      * Returns the value of the '<em><b>Predefined Type</b></em>' attribute.
      * The literals are from the enumeration {@link org.bimserver.models.ifc4.IfcTendonTypeEnum}.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Predefined Type</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Predefined Type</em>' attribute.
      * @see org.bimserver.models.ifc4.IfcTendonTypeEnum
@@ -71,10 +67,6 @@ public interface IfcTendonType extends IfcReinforcingElementType {
     /**
      * Returns the value of the '<em><b>Nominal Diameter</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Nominal Diameter</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Nominal Diameter</em>' attribute.
      * @see #isSetNominalDiameter()
@@ -124,10 +116,6 @@ public interface IfcTendonType extends IfcReinforcingElementType {
     /**
      * Returns the value of the '<em><b>Nominal Diameter As String</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Nominal Diameter As String</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Nominal Diameter As String</em>' attribute.
      * @see #isSetNominalDiameterAsString()
@@ -179,10 +167,6 @@ public interface IfcTendonType extends IfcReinforcingElementType {
     /**
      * Returns the value of the '<em><b>Cross Section Area</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Cross Section Area</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Cross Section Area</em>' attribute.
      * @see #isSetCrossSectionArea()
@@ -232,10 +216,6 @@ public interface IfcTendonType extends IfcReinforcingElementType {
     /**
      * Returns the value of the '<em><b>Cross Section Area As String</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Cross Section Area As String</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Cross Section Area As String</em>' attribute.
      * @see #isSetCrossSectionAreaAsString()
@@ -287,10 +267,6 @@ public interface IfcTendonType extends IfcReinforcingElementType {
     /**
      * Returns the value of the '<em><b>Sheath Diameter</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Sheath Diameter</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Sheath Diameter</em>' attribute.
      * @see #isSetSheathDiameter()
@@ -340,10 +316,6 @@ public interface IfcTendonType extends IfcReinforcingElementType {
     /**
      * Returns the value of the '<em><b>Sheath Diameter As String</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Sheath Diameter As String</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Sheath Diameter As String</em>' attribute.
      * @see #isSetSheathDiameterAsString()

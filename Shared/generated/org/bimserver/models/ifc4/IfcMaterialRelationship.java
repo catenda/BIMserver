@@ -41,10 +41,6 @@ public interface IfcMaterialRelationship extends IfcResourceLevelRelationship {
      * Returns the value of the '<em><b>Relating Material</b></em>' reference.
      * It is bidirectional and its opposite is '{@link org.bimserver.models.ifc4.IfcMaterial#getRelatesTo <em>Relates To</em>}'.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Relating Material</em>' reference isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Relating Material</em>' reference.
      * @see #setRelatingMaterial(IfcMaterial)
@@ -71,10 +67,6 @@ public interface IfcMaterialRelationship extends IfcResourceLevelRelationship {
      * The list contents are of type {@link org.bimserver.models.ifc4.IfcMaterial}.
      * It is bidirectional and its opposite is '{@link org.bimserver.models.ifc4.IfcMaterial#getIsRelatedWith <em>Is Related With</em>}'.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Related Materials</em>' reference list isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Related Materials</em>' reference list.
      * @see org.bimserver.models.ifc4.Ifc4Package#getIfcMaterialRelationship_RelatedMaterials()
@@ -88,10 +80,6 @@ public interface IfcMaterialRelationship extends IfcResourceLevelRelationship {
     /**
      * Returns the value of the '<em><b>Expression</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Expression</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Expression</em>' attribute.
      * @see #isSetExpression()

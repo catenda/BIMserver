@@ -40,10 +40,6 @@ public interface IfcRelDefines extends IfcRelationship {
      * The list contents are of type {@link org.bimserver.models.ifc2x3tc1.IfcObject}.
      * It is bidirectional and its opposite is '{@link org.bimserver.models.ifc2x3tc1.IfcObject#getIsDefinedBy <em>Is Defined By</em>}'.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Related Objects</em>' reference list isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Related Objects</em>' reference list.
      * @see org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package#getIfcRelDefines_RelatedObjects()

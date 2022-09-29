@@ -36,10 +36,6 @@ public interface IfcTaskTimeRecurring extends IfcTaskTime {
     /**
      * Returns the value of the '<em><b>Recurrence</b></em>' reference.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Recurrence</em>' reference isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Recurrence</em>' reference.
      * @see #setRecurrence(IfcRecurrencePattern)

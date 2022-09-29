@@ -305,10 +305,6 @@ public enum IfcElectricApplianceTypeEnum implements Enumerator {
     /**
      * The '<em><b>NULL</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>NULL</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #NULL
      * @model
@@ -320,10 +316,6 @@ public enum IfcElectricApplianceTypeEnum implements Enumerator {
     /**
      * The '<em><b>TV</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>TV</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #TV
      * @model
@@ -335,10 +327,6 @@ public enum IfcElectricApplianceTypeEnum implements Enumerator {
     /**
      * The '<em><b>TUMBLEDRYER</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>TUMBLEDRYER</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #TUMBLEDRYER
      * @model
@@ -350,10 +338,6 @@ public enum IfcElectricApplianceTypeEnum implements Enumerator {
     /**
      * The '<em><b>USERDEFINED</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>USERDEFINED</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #USERDEFINED
      * @model
@@ -365,10 +349,6 @@ public enum IfcElectricApplianceTypeEnum implements Enumerator {
     /**
      * The '<em><b>WASHINGMACHINE</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>WASHINGMACHINE</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #WASHINGMACHINE
      * @model
@@ -380,10 +360,6 @@ public enum IfcElectricApplianceTypeEnum implements Enumerator {
     /**
      * The '<em><b>FRIDGE FREEZER</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>FRIDGE FREEZER</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #FRIDGE_FREEZER
      * @model
@@ -395,10 +371,6 @@ public enum IfcElectricApplianceTypeEnum implements Enumerator {
     /**
      * The '<em><b>NOTDEFINED</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>NOTDEFINED</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #NOTDEFINED
      * @model
@@ -410,10 +382,6 @@ public enum IfcElectricApplianceTypeEnum implements Enumerator {
     /**
      * The '<em><b>FREEZER</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>FREEZER</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #FREEZER
      * @model
@@ -425,10 +393,6 @@ public enum IfcElectricApplianceTypeEnum implements Enumerator {
     /**
      * The '<em><b>ELECTRICHEATER</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>ELECTRICHEATER</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #ELECTRICHEATER
      * @model
@@ -440,10 +404,6 @@ public enum IfcElectricApplianceTypeEnum implements Enumerator {
     /**
      * The '<em><b>REFRIGERATOR</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>REFRIGERATOR</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #REFRIGERATOR
      * @model
@@ -455,10 +415,6 @@ public enum IfcElectricApplianceTypeEnum implements Enumerator {
     /**
      * The '<em><b>DISHWASHER</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>DISHWASHER</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #DISHWASHER
      * @model
@@ -470,10 +426,6 @@ public enum IfcElectricApplianceTypeEnum implements Enumerator {
     /**
      * The '<em><b>WATERHEATER</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>WATERHEATER</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #WATERHEATER
      * @model
@@ -485,10 +437,6 @@ public enum IfcElectricApplianceTypeEnum implements Enumerator {
     /**
      * The '<em><b>TELEPHONE</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>TELEPHONE</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #TELEPHONE
      * @model
@@ -500,10 +448,6 @@ public enum IfcElectricApplianceTypeEnum implements Enumerator {
     /**
      * The '<em><b>RADIANTHEATER</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>RADIANTHEATER</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #RADIANTHEATER
      * @model
@@ -515,10 +459,6 @@ public enum IfcElectricApplianceTypeEnum implements Enumerator {
     /**
      * The '<em><b>PHOTOCOPIER</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>PHOTOCOPIER</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #PHOTOCOPIER
      * @model
@@ -530,10 +470,6 @@ public enum IfcElectricApplianceTypeEnum implements Enumerator {
     /**
      * The '<em><b>MICROWAVE</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>MICROWAVE</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #MICROWAVE
      * @model
@@ -545,10 +481,6 @@ public enum IfcElectricApplianceTypeEnum implements Enumerator {
     /**
      * The '<em><b>FREESTANDINGFAN</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>FREESTANDINGFAN</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #FREESTANDINGFAN
      * @model
@@ -560,10 +492,6 @@ public enum IfcElectricApplianceTypeEnum implements Enumerator {
     /**
      * The '<em><b>VENDINGMACHINE</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>VENDINGMACHINE</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #VENDINGMACHINE
      * @model
@@ -575,10 +503,6 @@ public enum IfcElectricApplianceTypeEnum implements Enumerator {
     /**
      * The '<em><b>HANDDRYER</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>HANDDRYER</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #HANDDRYER
      * @model
@@ -590,10 +514,6 @@ public enum IfcElectricApplianceTypeEnum implements Enumerator {
     /**
      * The '<em><b>INDIRECTWATERHEATER</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>INDIRECTWATERHEATER</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #INDIRECTWATERHEATER
      * @model
@@ -605,10 +525,6 @@ public enum IfcElectricApplianceTypeEnum implements Enumerator {
     /**
      * The '<em><b>ELECTRICCOOKER</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>ELECTRICCOOKER</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #ELECTRICCOOKER
      * @model
@@ -620,10 +536,6 @@ public enum IfcElectricApplianceTypeEnum implements Enumerator {
     /**
      * The '<em><b>SCANNER</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>SCANNER</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #SCANNER
      * @model
@@ -635,10 +547,6 @@ public enum IfcElectricApplianceTypeEnum implements Enumerator {
     /**
      * The '<em><b>DIRECTWATERHEATER</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>DIRECTWATERHEATER</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #DIRECTWATERHEATER
      * @model
@@ -650,10 +558,6 @@ public enum IfcElectricApplianceTypeEnum implements Enumerator {
     /**
      * The '<em><b>PRINTER</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>PRINTER</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #PRINTER
      * @model
@@ -665,10 +569,6 @@ public enum IfcElectricApplianceTypeEnum implements Enumerator {
     /**
      * The '<em><b>COMPUTER</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>COMPUTER</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #COMPUTER
      * @model
@@ -680,10 +580,6 @@ public enum IfcElectricApplianceTypeEnum implements Enumerator {
     /**
      * The '<em><b>WATERCOOLER</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>WATERCOOLER</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #WATERCOOLER
      * @model
@@ -695,10 +591,6 @@ public enum IfcElectricApplianceTypeEnum implements Enumerator {
     /**
      * The '<em><b>FACSIMILE</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>FACSIMILE</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #FACSIMILE
      * @model

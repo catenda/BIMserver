@@ -54,7 +54,7 @@ public class IfcRelAssignsToActorImpl extends IfcRelAssignsImpl implements IfcRe
      */
     @Override
     protected EClass eStaticClass() {
-        return Ifc4Package.Literals.IFC_REL_ASSIGNS_TO_ACTOR;
+        return Ifc4Package.eINSTANCE.getIfcRelAssignsToActor();
     }
 
     /**
@@ -64,7 +64,7 @@ public class IfcRelAssignsToActorImpl extends IfcRelAssignsImpl implements IfcRe
      */
     @Override
     public IfcActor getRelatingActor() {
-        return (IfcActor) eGet(Ifc4Package.Literals.IFC_REL_ASSIGNS_TO_ACTOR__RELATING_ACTOR, true);
+        return (IfcActor) eGet(Ifc4Package.eINSTANCE.getIfcRelAssignsToActor_RelatingActor(), true);
     }
 
     /**
@@ -74,7 +74,7 @@ public class IfcRelAssignsToActorImpl extends IfcRelAssignsImpl implements IfcRe
      */
     @Override
     public void setRelatingActor(IfcActor newRelatingActor) {
-        eSet(Ifc4Package.Literals.IFC_REL_ASSIGNS_TO_ACTOR__RELATING_ACTOR, newRelatingActor);
+        eSet(Ifc4Package.eINSTANCE.getIfcRelAssignsToActor_RelatingActor(), newRelatingActor);
     }
 
     /**
@@ -84,7 +84,7 @@ public class IfcRelAssignsToActorImpl extends IfcRelAssignsImpl implements IfcRe
      */
     @Override
     public IfcActorRole getActingRole() {
-        return (IfcActorRole) eGet(Ifc4Package.Literals.IFC_REL_ASSIGNS_TO_ACTOR__ACTING_ROLE, true);
+        return (IfcActorRole) eGet(Ifc4Package.eINSTANCE.getIfcRelAssignsToActor_ActingRole(), true);
     }
 
     /**
@@ -94,7 +94,7 @@ public class IfcRelAssignsToActorImpl extends IfcRelAssignsImpl implements IfcRe
      */
     @Override
     public void setActingRole(IfcActorRole newActingRole) {
-        eSet(Ifc4Package.Literals.IFC_REL_ASSIGNS_TO_ACTOR__ACTING_ROLE, newActingRole);
+        eSet(Ifc4Package.eINSTANCE.getIfcRelAssignsToActor_ActingRole(), newActingRole);
     }
 
     /**
@@ -104,7 +104,7 @@ public class IfcRelAssignsToActorImpl extends IfcRelAssignsImpl implements IfcRe
      */
     @Override
     public void unsetActingRole() {
-        eUnset(Ifc4Package.Literals.IFC_REL_ASSIGNS_TO_ACTOR__ACTING_ROLE);
+        eUnset(Ifc4Package.eINSTANCE.getIfcRelAssignsToActor_ActingRole());
     }
 
     /**
@@ -114,7 +114,7 @@ public class IfcRelAssignsToActorImpl extends IfcRelAssignsImpl implements IfcRe
      */
     @Override
     public boolean isSetActingRole() {
-        return eIsSet(Ifc4Package.Literals.IFC_REL_ASSIGNS_TO_ACTOR__ACTING_ROLE);
+        return eIsSet(Ifc4Package.eINSTANCE.getIfcRelAssignsToActor_ActingRole());
     }
 
 } //IfcRelAssignsToActorImpl

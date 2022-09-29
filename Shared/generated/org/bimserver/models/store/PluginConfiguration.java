@@ -43,10 +43,6 @@ public interface PluginConfiguration extends IdEObject {
     /**
      * Returns the value of the '<em><b>Name</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Name</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Name</em>' attribute.
      * @see #setName(String)
@@ -69,10 +65,6 @@ public interface PluginConfiguration extends IdEObject {
     /**
      * Returns the value of the '<em><b>Enabled</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Enabled</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Enabled</em>' attribute.
      * @see #setEnabled(Boolean)
@@ -95,10 +87,6 @@ public interface PluginConfiguration extends IdEObject {
     /**
      * Returns the value of the '<em><b>Description</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Description</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Description</em>' attribute.
      * @see #setDescription(String)
@@ -122,10 +110,6 @@ public interface PluginConfiguration extends IdEObject {
      * Returns the value of the '<em><b>Plugin Descriptor</b></em>' reference.
      * It is bidirectional and its opposite is '{@link org.bimserver.models.store.PluginDescriptor#getConfigurations <em>Configurations</em>}'.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Plugin Descriptor</em>' reference isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Plugin Descriptor</em>' reference.
      * @see #setPluginDescriptor(PluginDescriptor)
@@ -149,10 +133,6 @@ public interface PluginConfiguration extends IdEObject {
     /**
      * Returns the value of the '<em><b>Settings</b></em>' reference.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Settings</em>' reference isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Settings</em>' reference.
      * @see #setSettings(ObjectType)

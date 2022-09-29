@@ -36,10 +36,6 @@ public interface IfcVertexPoint extends IfcVertex, IfcPointOrVertexPoint {
     /**
      * Returns the value of the '<em><b>Vertex Geometry</b></em>' reference.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Vertex Geometry</em>' reference isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Vertex Geometry</em>' reference.
      * @see #setVertexGeometry(IfcPoint)

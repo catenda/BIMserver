@@ -145,10 +145,6 @@ public enum IfcSpatialZoneTypeEnum implements Enumerator {
     /**
      * The '<em><b>NULL</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>NULL</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #NULL
      * @model
@@ -160,10 +156,6 @@ public enum IfcSpatialZoneTypeEnum implements Enumerator {
     /**
      * The '<em><b>TRANSPORT</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>TRANSPORT</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #TRANSPORT
      * @model
@@ -175,10 +167,6 @@ public enum IfcSpatialZoneTypeEnum implements Enumerator {
     /**
      * The '<em><b>NOTDEFINED</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>NOTDEFINED</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #NOTDEFINED
      * @model
@@ -190,10 +178,6 @@ public enum IfcSpatialZoneTypeEnum implements Enumerator {
     /**
      * The '<em><b>VENTILATION</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>VENTILATION</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #VENTILATION
      * @model
@@ -205,10 +189,6 @@ public enum IfcSpatialZoneTypeEnum implements Enumerator {
     /**
      * The '<em><b>FIRESAFETY</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>FIRESAFETY</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #FIRESAFETY
      * @model
@@ -220,10 +200,6 @@ public enum IfcSpatialZoneTypeEnum implements Enumerator {
     /**
      * The '<em><b>CONSTRUCTION</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>CONSTRUCTION</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #CONSTRUCTION
      * @model
@@ -235,10 +211,6 @@ public enum IfcSpatialZoneTypeEnum implements Enumerator {
     /**
      * The '<em><b>SECURITY</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>SECURITY</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #SECURITY
      * @model
@@ -250,10 +222,6 @@ public enum IfcSpatialZoneTypeEnum implements Enumerator {
     /**
      * The '<em><b>LIGHTING</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>LIGHTING</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #LIGHTING
      * @model
@@ -265,10 +233,6 @@ public enum IfcSpatialZoneTypeEnum implements Enumerator {
     /**
      * The '<em><b>USERDEFINED</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>USERDEFINED</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #USERDEFINED
      * @model
@@ -280,10 +244,6 @@ public enum IfcSpatialZoneTypeEnum implements Enumerator {
     /**
      * The '<em><b>THERMAL</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>THERMAL</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #THERMAL
      * @model
@@ -295,10 +255,6 @@ public enum IfcSpatialZoneTypeEnum implements Enumerator {
     /**
      * The '<em><b>OCCUPANCY</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>OCCUPANCY</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #OCCUPANCY
      * @model

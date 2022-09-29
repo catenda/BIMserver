@@ -41,10 +41,6 @@ public interface IfcDocumentInformationRelationship extends IfcResourceLevelRela
      * Returns the value of the '<em><b>Relating Document</b></em>' reference.
      * It is bidirectional and its opposite is '{@link org.bimserver.models.ifc4.IfcDocumentInformation#getIsPointer <em>Is Pointer</em>}'.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Relating Document</em>' reference isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Relating Document</em>' reference.
      * @see #setRelatingDocument(IfcDocumentInformation)
@@ -71,10 +67,6 @@ public interface IfcDocumentInformationRelationship extends IfcResourceLevelRela
      * The list contents are of type {@link org.bimserver.models.ifc4.IfcDocumentInformation}.
      * It is bidirectional and its opposite is '{@link org.bimserver.models.ifc4.IfcDocumentInformation#getIsPointedTo <em>Is Pointed To</em>}'.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Related Documents</em>' reference list isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Related Documents</em>' reference list.
      * @see org.bimserver.models.ifc4.Ifc4Package#getIfcDocumentInformationRelationship_RelatedDocuments()
@@ -88,10 +80,6 @@ public interface IfcDocumentInformationRelationship extends IfcResourceLevelRela
     /**
      * Returns the value of the '<em><b>Relationship Type</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Relationship Type</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Relationship Type</em>' attribute.
      * @see #isSetRelationshipType()

@@ -45,7 +45,7 @@ public class IfcProjectionElementImpl extends IfcFeatureElementAdditionImpl impl
      */
     @Override
     protected EClass eStaticClass() {
-        return Ifc2x3tc1Package.Literals.IFC_PROJECTION_ELEMENT;
+        return Ifc2x3tc1Package.eINSTANCE.getIfcProjectionElement();
     }
 
 } //IfcProjectionElementImpl

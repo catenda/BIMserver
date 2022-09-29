@@ -45,10 +45,6 @@ public interface IfcProperty extends IfcPropertyAbstraction {
     /**
      * Returns the value of the '<em><b>Name</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Name</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Name</em>' attribute.
      * @see #setName(String)
@@ -71,10 +67,6 @@ public interface IfcProperty extends IfcPropertyAbstraction {
     /**
      * Returns the value of the '<em><b>Description</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Description</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Description</em>' attribute.
      * @see #isSetDescription()
@@ -126,10 +118,6 @@ public interface IfcProperty extends IfcPropertyAbstraction {
      * The list contents are of type {@link org.bimserver.models.ifc4.IfcPropertySet}.
      * It is bidirectional and its opposite is '{@link org.bimserver.models.ifc4.IfcPropertySet#getHasProperties <em>Has Properties</em>}'.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Part Of Pset</em>' reference list isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Part Of Pset</em>' reference list.
      * @see #isSetPartOfPset()
@@ -168,10 +156,6 @@ public interface IfcProperty extends IfcPropertyAbstraction {
      * The list contents are of type {@link org.bimserver.models.ifc4.IfcPropertyDependencyRelationship}.
      * It is bidirectional and its opposite is '{@link org.bimserver.models.ifc4.IfcPropertyDependencyRelationship#getDependingProperty <em>Depending Property</em>}'.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Property For Dependance</em>' reference list isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Property For Dependance</em>' reference list.
      * @see #isSetPropertyForDependance()
@@ -210,10 +194,6 @@ public interface IfcProperty extends IfcPropertyAbstraction {
      * The list contents are of type {@link org.bimserver.models.ifc4.IfcPropertyDependencyRelationship}.
      * It is bidirectional and its opposite is '{@link org.bimserver.models.ifc4.IfcPropertyDependencyRelationship#getDependantProperty <em>Dependant Property</em>}'.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Property Depends On</em>' reference list isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Property Depends On</em>' reference list.
      * @see #isSetPropertyDependsOn()
@@ -252,10 +232,6 @@ public interface IfcProperty extends IfcPropertyAbstraction {
      * The list contents are of type {@link org.bimserver.models.ifc4.IfcComplexProperty}.
      * It is bidirectional and its opposite is '{@link org.bimserver.models.ifc4.IfcComplexProperty#getHasProperties <em>Has Properties</em>}'.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Part Of Complex</em>' reference list isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Part Of Complex</em>' reference list.
      * @see #isSetPartOfComplex()
@@ -293,10 +269,6 @@ public interface IfcProperty extends IfcPropertyAbstraction {
      * Returns the value of the '<em><b>Has Constraints</b></em>' reference list.
      * The list contents are of type {@link org.bimserver.models.ifc4.IfcResourceConstraintRelationship}.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Has Constraints</em>' reference list isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Has Constraints</em>' reference list.
      * @see #isSetHasConstraints()
@@ -333,10 +305,6 @@ public interface IfcProperty extends IfcPropertyAbstraction {
      * Returns the value of the '<em><b>Has Approvals</b></em>' reference list.
      * The list contents are of type {@link org.bimserver.models.ifc4.IfcResourceApprovalRelationship}.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Has Approvals</em>' reference list isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Has Approvals</em>' reference list.
      * @see #isSetHasApprovals()

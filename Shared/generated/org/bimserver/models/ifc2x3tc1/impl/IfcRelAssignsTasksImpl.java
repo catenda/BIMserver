@@ -52,7 +52,7 @@ public class IfcRelAssignsTasksImpl extends IfcRelAssignsToControlImpl implement
      */
     @Override
     protected EClass eStaticClass() {
-        return Ifc2x3tc1Package.Literals.IFC_REL_ASSIGNS_TASKS;
+        return Ifc2x3tc1Package.eINSTANCE.getIfcRelAssignsTasks();
     }
 
     /**
@@ -62,7 +62,7 @@ public class IfcRelAssignsTasksImpl extends IfcRelAssignsToControlImpl implement
      */
     @Override
     public IfcScheduleTimeControl getTimeForTask() {
-        return (IfcScheduleTimeControl) eGet(Ifc2x3tc1Package.Literals.IFC_REL_ASSIGNS_TASKS__TIME_FOR_TASK, true);
+        return (IfcScheduleTimeControl) eGet(Ifc2x3tc1Package.eINSTANCE.getIfcRelAssignsTasks_TimeForTask(), true);
     }
 
     /**
@@ -72,7 +72,7 @@ public class IfcRelAssignsTasksImpl extends IfcRelAssignsToControlImpl implement
      */
     @Override
     public void setTimeForTask(IfcScheduleTimeControl newTimeForTask) {
-        eSet(Ifc2x3tc1Package.Literals.IFC_REL_ASSIGNS_TASKS__TIME_FOR_TASK, newTimeForTask);
+        eSet(Ifc2x3tc1Package.eINSTANCE.getIfcRelAssignsTasks_TimeForTask(), newTimeForTask);
     }
 
     /**
@@ -82,7 +82,7 @@ public class IfcRelAssignsTasksImpl extends IfcRelAssignsToControlImpl implement
      */
     @Override
     public void unsetTimeForTask() {
-        eUnset(Ifc2x3tc1Package.Literals.IFC_REL_ASSIGNS_TASKS__TIME_FOR_TASK);
+        eUnset(Ifc2x3tc1Package.eINSTANCE.getIfcRelAssignsTasks_TimeForTask());
     }
 
     /**
@@ -92,7 +92,7 @@ public class IfcRelAssignsTasksImpl extends IfcRelAssignsToControlImpl implement
      */
     @Override
     public boolean isSetTimeForTask() {
-        return eIsSet(Ifc2x3tc1Package.Literals.IFC_REL_ASSIGNS_TASKS__TIME_FOR_TASK);
+        return eIsSet(Ifc2x3tc1Package.eINSTANCE.getIfcRelAssignsTasks_TimeForTask());
     }
 
 } //IfcRelAssignsTasksImpl

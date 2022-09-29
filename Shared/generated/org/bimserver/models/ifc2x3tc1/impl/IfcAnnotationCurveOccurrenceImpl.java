@@ -46,7 +46,7 @@ public class IfcAnnotationCurveOccurrenceImpl extends IfcAnnotationOccurrenceImp
      */
     @Override
     protected EClass eStaticClass() {
-        return Ifc2x3tc1Package.Literals.IFC_ANNOTATION_CURVE_OCCURRENCE;
+        return Ifc2x3tc1Package.eINSTANCE.getIfcAnnotationCurveOccurrence();
     }
 
 } //IfcAnnotationCurveOccurrenceImpl

@@ -52,7 +52,7 @@ public class IfcBoilerTypeImpl extends IfcEnergyConversionDeviceTypeImpl impleme
      */
     @Override
     protected EClass eStaticClass() {
-        return Ifc2x3tc1Package.Literals.IFC_BOILER_TYPE;
+        return Ifc2x3tc1Package.eINSTANCE.getIfcBoilerType();
     }
 
     /**
@@ -62,7 +62,7 @@ public class IfcBoilerTypeImpl extends IfcEnergyConversionDeviceTypeImpl impleme
      */
     @Override
     public IfcBoilerTypeEnum getPredefinedType() {
-        return (IfcBoilerTypeEnum) eGet(Ifc2x3tc1Package.Literals.IFC_BOILER_TYPE__PREDEFINED_TYPE, true);
+        return (IfcBoilerTypeEnum) eGet(Ifc2x3tc1Package.eINSTANCE.getIfcBoilerType_PredefinedType(), true);
     }
 
     /**
@@ -72,7 +72,7 @@ public class IfcBoilerTypeImpl extends IfcEnergyConversionDeviceTypeImpl impleme
      */
     @Override
     public void setPredefinedType(IfcBoilerTypeEnum newPredefinedType) {
-        eSet(Ifc2x3tc1Package.Literals.IFC_BOILER_TYPE__PREDEFINED_TYPE, newPredefinedType);
+        eSet(Ifc2x3tc1Package.eINSTANCE.getIfcBoilerType_PredefinedType(), newPredefinedType);
     }
 
 } //IfcBoilerTypeImpl

@@ -51,10 +51,6 @@ public interface LongActionState extends IdEObject {
     /**
      * Returns the value of the '<em><b>Start</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Start</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Start</em>' attribute.
      * @see #setStart(Date)
@@ -77,10 +73,6 @@ public interface LongActionState extends IdEObject {
     /**
      * Returns the value of the '<em><b>End</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>End</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>End</em>' attribute.
      * @see #setEnd(Date)
@@ -103,10 +95,6 @@ public interface LongActionState extends IdEObject {
     /**
      * Returns the value of the '<em><b>Progress</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Progress</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Progress</em>' attribute.
      * @see #setProgress(Integer)
@@ -130,10 +118,6 @@ public interface LongActionState extends IdEObject {
      * Returns the value of the '<em><b>State</b></em>' attribute.
      * The literals are from the enumeration {@link org.bimserver.models.store.ActionState}.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>State</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>State</em>' attribute.
      * @see org.bimserver.models.store.ActionState
@@ -158,10 +142,6 @@ public interface LongActionState extends IdEObject {
     /**
      * Returns the value of the '<em><b>Title</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Title</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Title</em>' attribute.
      * @see #setTitle(String)
@@ -184,10 +164,6 @@ public interface LongActionState extends IdEObject {
     /**
      * Returns the value of the '<em><b>Stage</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Stage</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Stage</em>' attribute.
      * @see #setStage(int)
@@ -211,10 +187,6 @@ public interface LongActionState extends IdEObject {
      * Returns the value of the '<em><b>Errors</b></em>' attribute list.
      * The list contents are of type {@link java.lang.String}.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Errors</em>' attribute list isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Errors</em>' attribute list.
      * @see org.bimserver.models.store.StorePackage#getLongActionState_Errors()
@@ -227,10 +199,6 @@ public interface LongActionState extends IdEObject {
      * Returns the value of the '<em><b>Warnings</b></em>' attribute list.
      * The list contents are of type {@link java.lang.String}.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Warnings</em>' attribute list isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Warnings</em>' attribute list.
      * @see org.bimserver.models.store.StorePackage#getLongActionState_Warnings()
@@ -243,10 +211,6 @@ public interface LongActionState extends IdEObject {
      * Returns the value of the '<em><b>Infos</b></em>' attribute list.
      * The list contents are of type {@link java.lang.String}.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Infos</em>' attribute list isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Infos</em>' attribute list.
      * @see org.bimserver.models.store.StorePackage#getLongActionState_Infos()

@@ -45,7 +45,7 @@ public class IfcFlowTerminalImpl extends IfcDistributionFlowElementImpl implemen
      */
     @Override
     protected EClass eStaticClass() {
-        return Ifc4Package.Literals.IFC_FLOW_TERMINAL;
+        return Ifc4Package.eINSTANCE.getIfcFlowTerminal();
     }
 
 } //IfcFlowTerminalImpl

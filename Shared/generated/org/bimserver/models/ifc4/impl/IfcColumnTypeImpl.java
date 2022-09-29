@@ -52,7 +52,7 @@ public class IfcColumnTypeImpl extends IfcBuildingElementTypeImpl implements Ifc
      */
     @Override
     protected EClass eStaticClass() {
-        return Ifc4Package.Literals.IFC_COLUMN_TYPE;
+        return Ifc4Package.eINSTANCE.getIfcColumnType();
     }
 
     /**
@@ -62,7 +62,7 @@ public class IfcColumnTypeImpl extends IfcBuildingElementTypeImpl implements Ifc
      */
     @Override
     public IfcColumnTypeEnum getPredefinedType() {
-        return (IfcColumnTypeEnum) eGet(Ifc4Package.Literals.IFC_COLUMN_TYPE__PREDEFINED_TYPE, true);
+        return (IfcColumnTypeEnum) eGet(Ifc4Package.eINSTANCE.getIfcColumnType_PredefinedType(), true);
     }
 
     /**
@@ -72,7 +72,7 @@ public class IfcColumnTypeImpl extends IfcBuildingElementTypeImpl implements Ifc
      */
     @Override
     public void setPredefinedType(IfcColumnTypeEnum newPredefinedType) {
-        eSet(Ifc4Package.Literals.IFC_COLUMN_TYPE__PREDEFINED_TYPE, newPredefinedType);
+        eSet(Ifc4Package.eINSTANCE.getIfcColumnType_PredefinedType(), newPredefinedType);
     }
 
 } //IfcColumnTypeImpl

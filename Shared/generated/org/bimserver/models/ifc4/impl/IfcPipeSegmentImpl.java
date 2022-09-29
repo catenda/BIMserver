@@ -52,7 +52,7 @@ public class IfcPipeSegmentImpl extends IfcFlowSegmentImpl implements IfcPipeSeg
      */
     @Override
     protected EClass eStaticClass() {
-        return Ifc4Package.Literals.IFC_PIPE_SEGMENT;
+        return Ifc4Package.eINSTANCE.getIfcPipeSegment();
     }
 
     /**
@@ -62,7 +62,7 @@ public class IfcPipeSegmentImpl extends IfcFlowSegmentImpl implements IfcPipeSeg
      */
     @Override
     public IfcPipeSegmentTypeEnum getPredefinedType() {
-        return (IfcPipeSegmentTypeEnum) eGet(Ifc4Package.Literals.IFC_PIPE_SEGMENT__PREDEFINED_TYPE, true);
+        return (IfcPipeSegmentTypeEnum) eGet(Ifc4Package.eINSTANCE.getIfcPipeSegment_PredefinedType(), true);
     }
 
     /**
@@ -72,7 +72,7 @@ public class IfcPipeSegmentImpl extends IfcFlowSegmentImpl implements IfcPipeSeg
      */
     @Override
     public void setPredefinedType(IfcPipeSegmentTypeEnum newPredefinedType) {
-        eSet(Ifc4Package.Literals.IFC_PIPE_SEGMENT__PREDEFINED_TYPE, newPredefinedType);
+        eSet(Ifc4Package.eINSTANCE.getIfcPipeSegment_PredefinedType(), newPredefinedType);
     }
 
     /**
@@ -82,7 +82,7 @@ public class IfcPipeSegmentImpl extends IfcFlowSegmentImpl implements IfcPipeSeg
      */
     @Override
     public void unsetPredefinedType() {
-        eUnset(Ifc4Package.Literals.IFC_PIPE_SEGMENT__PREDEFINED_TYPE);
+        eUnset(Ifc4Package.eINSTANCE.getIfcPipeSegment_PredefinedType());
     }
 
     /**
@@ -92,7 +92,7 @@ public class IfcPipeSegmentImpl extends IfcFlowSegmentImpl implements IfcPipeSeg
      */
     @Override
     public boolean isSetPredefinedType() {
-        return eIsSet(Ifc4Package.Literals.IFC_PIPE_SEGMENT__PREDEFINED_TYPE);
+        return eIsSet(Ifc4Package.eINSTANCE.getIfcPipeSegment_PredefinedType());
     }
 
 } //IfcPipeSegmentImpl

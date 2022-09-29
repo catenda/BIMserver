@@ -42,10 +42,6 @@ public interface IfcMaterialProfile extends IfcMaterialDefinition {
     /**
      * Returns the value of the '<em><b>Name</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Name</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Name</em>' attribute.
      * @see #isSetName()
@@ -95,10 +91,6 @@ public interface IfcMaterialProfile extends IfcMaterialDefinition {
     /**
      * Returns the value of the '<em><b>Description</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Description</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Description</em>' attribute.
      * @see #isSetDescription()
@@ -148,10 +140,6 @@ public interface IfcMaterialProfile extends IfcMaterialDefinition {
     /**
      * Returns the value of the '<em><b>Material</b></em>' reference.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Material</em>' reference isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Material</em>' reference.
      * @see #isSetMaterial()
@@ -201,10 +189,6 @@ public interface IfcMaterialProfile extends IfcMaterialDefinition {
     /**
      * Returns the value of the '<em><b>Profile</b></em>' reference.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Profile</em>' reference isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Profile</em>' reference.
      * @see #setProfile(IfcProfileDef)
@@ -227,10 +211,6 @@ public interface IfcMaterialProfile extends IfcMaterialDefinition {
     /**
      * Returns the value of the '<em><b>Priority</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Priority</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Priority</em>' attribute.
      * @see #isSetPriority()
@@ -280,10 +260,6 @@ public interface IfcMaterialProfile extends IfcMaterialDefinition {
     /**
      * Returns the value of the '<em><b>Category</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Category</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Category</em>' attribute.
      * @see #isSetCategory()
@@ -334,10 +310,6 @@ public interface IfcMaterialProfile extends IfcMaterialDefinition {
      * Returns the value of the '<em><b>To Material Profile Set</b></em>' reference.
      * It is bidirectional and its opposite is '{@link org.bimserver.models.ifc4.IfcMaterialProfileSet#getMaterialProfiles <em>Material Profiles</em>}'.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>To Material Profile Set</em>' reference isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>To Material Profile Set</em>' reference.
      * @see #isSetToMaterialProfileSet()

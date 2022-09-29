@@ -53,7 +53,7 @@ public class IfcStructuralCurveConnectionImpl extends IfcStructuralConnectionImp
      */
     @Override
     protected EClass eStaticClass() {
-        return Ifc4Package.Literals.IFC_STRUCTURAL_CURVE_CONNECTION;
+        return Ifc4Package.eINSTANCE.getIfcStructuralCurveConnection();
     }
 
     /**
@@ -63,7 +63,7 @@ public class IfcStructuralCurveConnectionImpl extends IfcStructuralConnectionImp
      */
     @Override
     public IfcDirection getAxis() {
-        return (IfcDirection) eGet(Ifc4Package.Literals.IFC_STRUCTURAL_CURVE_CONNECTION__AXIS, true);
+        return (IfcDirection) eGet(Ifc4Package.eINSTANCE.getIfcStructuralCurveConnection_Axis(), true);
     }
 
     /**
@@ -73,7 +73,7 @@ public class IfcStructuralCurveConnectionImpl extends IfcStructuralConnectionImp
      */
     @Override
     public void setAxis(IfcDirection newAxis) {
-        eSet(Ifc4Package.Literals.IFC_STRUCTURAL_CURVE_CONNECTION__AXIS, newAxis);
+        eSet(Ifc4Package.eINSTANCE.getIfcStructuralCurveConnection_Axis(), newAxis);
     }
 
 } //IfcStructuralCurveConnectionImpl

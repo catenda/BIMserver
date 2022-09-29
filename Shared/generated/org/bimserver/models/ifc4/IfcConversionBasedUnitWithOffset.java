@@ -37,10 +37,6 @@ public interface IfcConversionBasedUnitWithOffset extends IfcConversionBasedUnit
     /**
      * Returns the value of the '<em><b>Conversion Offset</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Conversion Offset</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Conversion Offset</em>' attribute.
      * @see #setConversionOffset(double)
@@ -63,10 +59,6 @@ public interface IfcConversionBasedUnitWithOffset extends IfcConversionBasedUnit
     /**
      * Returns the value of the '<em><b>Conversion Offset As String</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Conversion Offset As String</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Conversion Offset As String</em>' attribute.
      * @see #setConversionOffsetAsString(String)

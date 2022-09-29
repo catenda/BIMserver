@@ -40,10 +40,6 @@ public interface IfcDistributionFlowElement extends IfcDistributionElement {
      * The list contents are of type {@link org.bimserver.models.ifc4.IfcRelFlowControlElements}.
      * It is bidirectional and its opposite is '{@link org.bimserver.models.ifc4.IfcRelFlowControlElements#getRelatingFlowElement <em>Relating Flow Element</em>}'.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Has Control Elements</em>' reference list isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Has Control Elements</em>' reference list.
      * @see #isSetHasControlElements()

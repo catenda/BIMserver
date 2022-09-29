@@ -40,10 +40,6 @@ public interface IfcComplexPropertyTemplate extends IfcPropertyTemplate {
     /**
      * Returns the value of the '<em><b>Usage Name</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Usage Name</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Usage Name</em>' attribute.
      * @see #isSetUsageName()
@@ -94,10 +90,6 @@ public interface IfcComplexPropertyTemplate extends IfcPropertyTemplate {
      * Returns the value of the '<em><b>Template Type</b></em>' attribute.
      * The literals are from the enumeration {@link org.bimserver.models.ifc4.IfcComplexPropertyTemplateTypeEnum}.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Template Type</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Template Type</em>' attribute.
      * @see org.bimserver.models.ifc4.IfcComplexPropertyTemplateTypeEnum
@@ -151,10 +143,6 @@ public interface IfcComplexPropertyTemplate extends IfcPropertyTemplate {
      * The list contents are of type {@link org.bimserver.models.ifc4.IfcPropertyTemplate}.
      * It is bidirectional and its opposite is '{@link org.bimserver.models.ifc4.IfcPropertyTemplate#getPartOfComplexTemplate <em>Part Of Complex Template</em>}'.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Has Property Templates</em>' reference list isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Has Property Templates</em>' reference list.
      * @see #isSetHasPropertyTemplates()

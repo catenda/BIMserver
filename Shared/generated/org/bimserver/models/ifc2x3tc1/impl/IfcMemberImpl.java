@@ -45,7 +45,7 @@ public class IfcMemberImpl extends IfcBuildingElementImpl implements IfcMember {
      */
     @Override
     protected EClass eStaticClass() {
-        return Ifc2x3tc1Package.Literals.IFC_MEMBER;
+        return Ifc2x3tc1Package.eINSTANCE.getIfcMember();
     }
 
 } //IfcMemberImpl

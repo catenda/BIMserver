@@ -41,10 +41,6 @@ public interface IfcTransportElement extends IfcElement {
      * Returns the value of the '<em><b>Operation Type</b></em>' attribute.
      * The literals are from the enumeration {@link org.bimserver.models.ifc2x3tc1.IfcTransportElementTypeEnum}.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Operation Type</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Operation Type</em>' attribute.
      * @see org.bimserver.models.ifc2x3tc1.IfcTransportElementTypeEnum
@@ -96,10 +92,6 @@ public interface IfcTransportElement extends IfcElement {
     /**
      * Returns the value of the '<em><b>Capacity By Weight</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Capacity By Weight</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Capacity By Weight</em>' attribute.
      * @see #isSetCapacityByWeight()
@@ -149,10 +141,6 @@ public interface IfcTransportElement extends IfcElement {
     /**
      * Returns the value of the '<em><b>Capacity By Weight As String</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Capacity By Weight As String</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Capacity By Weight As String</em>' attribute.
      * @see #isSetCapacityByWeightAsString()
@@ -204,10 +192,6 @@ public interface IfcTransportElement extends IfcElement {
     /**
      * Returns the value of the '<em><b>Capacity By Number</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Capacity By Number</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Capacity By Number</em>' attribute.
      * @see #isSetCapacityByNumber()
@@ -257,10 +241,6 @@ public interface IfcTransportElement extends IfcElement {
     /**
      * Returns the value of the '<em><b>Capacity By Number As String</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Capacity By Number As String</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Capacity By Number As String</em>' attribute.
      * @see #isSetCapacityByNumberAsString()

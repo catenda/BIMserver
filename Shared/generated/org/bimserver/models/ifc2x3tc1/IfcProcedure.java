@@ -38,10 +38,6 @@ public interface IfcProcedure extends IfcProcess {
     /**
      * Returns the value of the '<em><b>Procedure ID</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Procedure ID</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Procedure ID</em>' attribute.
      * @see #setProcedureID(String)
@@ -65,10 +61,6 @@ public interface IfcProcedure extends IfcProcess {
      * Returns the value of the '<em><b>Procedure Type</b></em>' attribute.
      * The literals are from the enumeration {@link org.bimserver.models.ifc2x3tc1.IfcProcedureTypeEnum}.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Procedure Type</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Procedure Type</em>' attribute.
      * @see org.bimserver.models.ifc2x3tc1.IfcProcedureTypeEnum
@@ -93,10 +85,6 @@ public interface IfcProcedure extends IfcProcess {
     /**
      * Returns the value of the '<em><b>User Defined Procedure Type</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>User Defined Procedure Type</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>User Defined Procedure Type</em>' attribute.
      * @see #isSetUserDefinedProcedureType()

@@ -52,7 +52,7 @@ public class IfcFilterImpl extends IfcFlowTreatmentDeviceImpl implements IfcFilt
      */
     @Override
     protected EClass eStaticClass() {
-        return Ifc4Package.Literals.IFC_FILTER;
+        return Ifc4Package.eINSTANCE.getIfcFilter();
     }
 
     /**
@@ -62,7 +62,7 @@ public class IfcFilterImpl extends IfcFlowTreatmentDeviceImpl implements IfcFilt
      */
     @Override
     public IfcFilterTypeEnum getPredefinedType() {
-        return (IfcFilterTypeEnum) eGet(Ifc4Package.Literals.IFC_FILTER__PREDEFINED_TYPE, true);
+        return (IfcFilterTypeEnum) eGet(Ifc4Package.eINSTANCE.getIfcFilter_PredefinedType(), true);
     }
 
     /**
@@ -72,7 +72,7 @@ public class IfcFilterImpl extends IfcFlowTreatmentDeviceImpl implements IfcFilt
      */
     @Override
     public void setPredefinedType(IfcFilterTypeEnum newPredefinedType) {
-        eSet(Ifc4Package.Literals.IFC_FILTER__PREDEFINED_TYPE, newPredefinedType);
+        eSet(Ifc4Package.eINSTANCE.getIfcFilter_PredefinedType(), newPredefinedType);
     }
 
     /**
@@ -82,7 +82,7 @@ public class IfcFilterImpl extends IfcFlowTreatmentDeviceImpl implements IfcFilt
      */
     @Override
     public void unsetPredefinedType() {
-        eUnset(Ifc4Package.Literals.IFC_FILTER__PREDEFINED_TYPE);
+        eUnset(Ifc4Package.eINSTANCE.getIfcFilter_PredefinedType());
     }
 
     /**
@@ -92,7 +92,7 @@ public class IfcFilterImpl extends IfcFlowTreatmentDeviceImpl implements IfcFilt
      */
     @Override
     public boolean isSetPredefinedType() {
-        return eIsSet(Ifc4Package.Literals.IFC_FILTER__PREDEFINED_TYPE);
+        return eIsSet(Ifc4Package.eINSTANCE.getIfcFilter_PredefinedType());
     }
 
 } //IfcFilterImpl

@@ -47,10 +47,6 @@ public interface IfcFailureConnectionCondition extends IfcStructuralConnectionCo
     /**
      * Returns the value of the '<em><b>Tension Failure X</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Tension Failure X</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Tension Failure X</em>' attribute.
      * @see #isSetTensionFailureX()
@@ -100,10 +96,6 @@ public interface IfcFailureConnectionCondition extends IfcStructuralConnectionCo
     /**
      * Returns the value of the '<em><b>Tension Failure XAs String</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Tension Failure XAs String</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Tension Failure XAs String</em>' attribute.
      * @see #isSetTensionFailureXAsString()
@@ -155,10 +147,6 @@ public interface IfcFailureConnectionCondition extends IfcStructuralConnectionCo
     /**
      * Returns the value of the '<em><b>Tension Failure Y</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Tension Failure Y</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Tension Failure Y</em>' attribute.
      * @see #isSetTensionFailureY()
@@ -208,10 +196,6 @@ public interface IfcFailureConnectionCondition extends IfcStructuralConnectionCo
     /**
      * Returns the value of the '<em><b>Tension Failure YAs String</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Tension Failure YAs String</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Tension Failure YAs String</em>' attribute.
      * @see #isSetTensionFailureYAsString()
@@ -263,10 +247,6 @@ public interface IfcFailureConnectionCondition extends IfcStructuralConnectionCo
     /**
      * Returns the value of the '<em><b>Tension Failure Z</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Tension Failure Z</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Tension Failure Z</em>' attribute.
      * @see #isSetTensionFailureZ()
@@ -316,10 +296,6 @@ public interface IfcFailureConnectionCondition extends IfcStructuralConnectionCo
     /**
      * Returns the value of the '<em><b>Tension Failure ZAs String</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Tension Failure ZAs String</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Tension Failure ZAs String</em>' attribute.
      * @see #isSetTensionFailureZAsString()
@@ -371,10 +347,6 @@ public interface IfcFailureConnectionCondition extends IfcStructuralConnectionCo
     /**
      * Returns the value of the '<em><b>Compression Failure X</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Compression Failure X</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Compression Failure X</em>' attribute.
      * @see #isSetCompressionFailureX()
@@ -424,10 +396,6 @@ public interface IfcFailureConnectionCondition extends IfcStructuralConnectionCo
     /**
      * Returns the value of the '<em><b>Compression Failure XAs String</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Compression Failure XAs String</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Compression Failure XAs String</em>' attribute.
      * @see #isSetCompressionFailureXAsString()
@@ -479,10 +447,6 @@ public interface IfcFailureConnectionCondition extends IfcStructuralConnectionCo
     /**
      * Returns the value of the '<em><b>Compression Failure Y</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Compression Failure Y</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Compression Failure Y</em>' attribute.
      * @see #isSetCompressionFailureY()
@@ -532,10 +496,6 @@ public interface IfcFailureConnectionCondition extends IfcStructuralConnectionCo
     /**
      * Returns the value of the '<em><b>Compression Failure YAs String</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Compression Failure YAs String</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Compression Failure YAs String</em>' attribute.
      * @see #isSetCompressionFailureYAsString()
@@ -587,10 +547,6 @@ public interface IfcFailureConnectionCondition extends IfcStructuralConnectionCo
     /**
      * Returns the value of the '<em><b>Compression Failure Z</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Compression Failure Z</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Compression Failure Z</em>' attribute.
      * @see #isSetCompressionFailureZ()
@@ -640,10 +596,6 @@ public interface IfcFailureConnectionCondition extends IfcStructuralConnectionCo
     /**
      * Returns the value of the '<em><b>Compression Failure ZAs String</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Compression Failure ZAs String</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Compression Failure ZAs String</em>' attribute.
      * @see #isSetCompressionFailureZAsString()

@@ -44,10 +44,6 @@ public interface IfcTableRow extends IdEObject {
      * Returns the value of the '<em><b>Row Cells</b></em>' reference list.
      * The list contents are of type {@link org.bimserver.models.ifc2x3tc1.IfcValue}.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Row Cells</em>' reference list isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Row Cells</em>' reference list.
      * @see org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package#getIfcTableRow_RowCells()
@@ -60,10 +56,6 @@ public interface IfcTableRow extends IdEObject {
      * Returns the value of the '<em><b>Is Heading</b></em>' attribute.
      * The literals are from the enumeration {@link org.bimserver.models.ifc2x3tc1.Tristate}.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Is Heading</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Is Heading</em>' attribute.
      * @see org.bimserver.models.ifc2x3tc1.Tristate
@@ -89,10 +81,6 @@ public interface IfcTableRow extends IdEObject {
      * Returns the value of the '<em><b>Of Table</b></em>' reference.
      * It is bidirectional and its opposite is '{@link org.bimserver.models.ifc2x3tc1.IfcTable#getRows <em>Rows</em>}'.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Of Table</em>' reference isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Of Table</em>' reference.
      * @see #isSetOfTable()

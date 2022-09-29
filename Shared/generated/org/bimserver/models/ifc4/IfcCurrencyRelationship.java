@@ -41,10 +41,6 @@ public interface IfcCurrencyRelationship extends IfcResourceLevelRelationship {
     /**
      * Returns the value of the '<em><b>Relating Monetary Unit</b></em>' reference.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Relating Monetary Unit</em>' reference isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Relating Monetary Unit</em>' reference.
      * @see #setRelatingMonetaryUnit(IfcMonetaryUnit)
@@ -67,10 +63,6 @@ public interface IfcCurrencyRelationship extends IfcResourceLevelRelationship {
     /**
      * Returns the value of the '<em><b>Related Monetary Unit</b></em>' reference.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Related Monetary Unit</em>' reference isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Related Monetary Unit</em>' reference.
      * @see #setRelatedMonetaryUnit(IfcMonetaryUnit)
@@ -93,10 +85,6 @@ public interface IfcCurrencyRelationship extends IfcResourceLevelRelationship {
     /**
      * Returns the value of the '<em><b>Exchange Rate</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Exchange Rate</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Exchange Rate</em>' attribute.
      * @see #setExchangeRate(double)
@@ -119,10 +107,6 @@ public interface IfcCurrencyRelationship extends IfcResourceLevelRelationship {
     /**
      * Returns the value of the '<em><b>Exchange Rate As String</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Exchange Rate As String</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Exchange Rate As String</em>' attribute.
      * @see #setExchangeRateAsString(String)
@@ -146,10 +130,6 @@ public interface IfcCurrencyRelationship extends IfcResourceLevelRelationship {
     /**
      * Returns the value of the '<em><b>Rate Date Time</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Rate Date Time</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Rate Date Time</em>' attribute.
      * @see #isSetRateDateTime()
@@ -199,10 +179,6 @@ public interface IfcCurrencyRelationship extends IfcResourceLevelRelationship {
     /**
      * Returns the value of the '<em><b>Rate Source</b></em>' reference.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Rate Source</em>' reference isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Rate Source</em>' reference.
      * @see #isSetRateSource()

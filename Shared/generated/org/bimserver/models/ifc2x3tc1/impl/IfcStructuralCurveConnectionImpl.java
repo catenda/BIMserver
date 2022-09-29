@@ -46,7 +46,7 @@ public class IfcStructuralCurveConnectionImpl extends IfcStructuralConnectionImp
      */
     @Override
     protected EClass eStaticClass() {
-        return Ifc2x3tc1Package.Literals.IFC_STRUCTURAL_CURVE_CONNECTION;
+        return Ifc2x3tc1Package.eINSTANCE.getIfcStructuralCurveConnection();
     }
 
 } //IfcStructuralCurveConnectionImpl

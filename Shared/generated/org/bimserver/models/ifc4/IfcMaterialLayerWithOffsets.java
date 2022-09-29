@@ -41,10 +41,6 @@ public interface IfcMaterialLayerWithOffsets extends IfcMaterialLayer {
      * Returns the value of the '<em><b>Offset Direction</b></em>' attribute.
      * The literals are from the enumeration {@link org.bimserver.models.ifc4.IfcLayerSetDirectionEnum}.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Offset Direction</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Offset Direction</em>' attribute.
      * @see org.bimserver.models.ifc4.IfcLayerSetDirectionEnum
@@ -70,10 +66,6 @@ public interface IfcMaterialLayerWithOffsets extends IfcMaterialLayer {
      * Returns the value of the '<em><b>Offset Values</b></em>' attribute list.
      * The list contents are of type {@link java.lang.Double}.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Offset Values</em>' attribute list isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Offset Values</em>' attribute list.
      * @see org.bimserver.models.ifc4.Ifc4Package#getIfcMaterialLayerWithOffsets_OffsetValues()
@@ -86,10 +78,6 @@ public interface IfcMaterialLayerWithOffsets extends IfcMaterialLayer {
      * Returns the value of the '<em><b>Offset Values As String</b></em>' attribute list.
      * The list contents are of type {@link java.lang.String}.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Offset Values As String</em>' attribute list isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Offset Values As String</em>' attribute list.
      * @see org.bimserver.models.ifc4.Ifc4Package#getIfcMaterialLayerWithOffsets_OffsetValuesAsString()

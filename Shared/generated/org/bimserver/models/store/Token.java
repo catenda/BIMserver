@@ -40,10 +40,6 @@ public interface Token extends IdEObject {
     /**
      * Returns the value of the '<em><b>Token String</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Token String</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Token String</em>' attribute.
      * @see #setTokenString(String)
@@ -66,10 +62,6 @@ public interface Token extends IdEObject {
     /**
      * Returns the value of the '<em><b>Expires</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Expires</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Expires</em>' attribute.
      * @see #setExpires(long)

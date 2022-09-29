@@ -52,7 +52,7 @@ public class IfcConicImpl extends IfcCurveImpl implements IfcConic {
      */
     @Override
     protected EClass eStaticClass() {
-        return Ifc4Package.Literals.IFC_CONIC;
+        return Ifc4Package.eINSTANCE.getIfcConic();
     }
 
     /**
@@ -62,7 +62,7 @@ public class IfcConicImpl extends IfcCurveImpl implements IfcConic {
      */
     @Override
     public IfcAxis2Placement getPosition() {
-        return (IfcAxis2Placement) eGet(Ifc4Package.Literals.IFC_CONIC__POSITION, true);
+        return (IfcAxis2Placement) eGet(Ifc4Package.eINSTANCE.getIfcConic_Position(), true);
     }
 
     /**
@@ -72,7 +72,7 @@ public class IfcConicImpl extends IfcCurveImpl implements IfcConic {
      */
     @Override
     public void setPosition(IfcAxis2Placement newPosition) {
-        eSet(Ifc4Package.Literals.IFC_CONIC__POSITION, newPosition);
+        eSet(Ifc4Package.eINSTANCE.getIfcConic_Position(), newPosition);
     }
 
 } //IfcConicImpl

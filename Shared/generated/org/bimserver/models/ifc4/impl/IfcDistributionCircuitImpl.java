@@ -45,7 +45,7 @@ public class IfcDistributionCircuitImpl extends IfcDistributionSystemImpl implem
      */
     @Override
     protected EClass eStaticClass() {
-        return Ifc4Package.Literals.IFC_DISTRIBUTION_CIRCUIT;
+        return Ifc4Package.eINSTANCE.getIfcDistributionCircuit();
     }
 
 } //IfcDistributionCircuitImpl

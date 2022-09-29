@@ -41,10 +41,6 @@ public interface IfcRelConnectsWithRealizingElements extends IfcRelConnectsEleme
      * The list contents are of type {@link org.bimserver.models.ifc4.IfcElement}.
      * It is bidirectional and its opposite is '{@link org.bimserver.models.ifc4.IfcElement#getIsConnectionRealization <em>Is Connection Realization</em>}'.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Realizing Elements</em>' reference list isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Realizing Elements</em>' reference list.
      * @see org.bimserver.models.ifc4.Ifc4Package#getIfcRelConnectsWithRealizingElements_RealizingElements()
@@ -58,10 +54,6 @@ public interface IfcRelConnectsWithRealizingElements extends IfcRelConnectsEleme
     /**
      * Returns the value of the '<em><b>Connection Type</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Connection Type</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Connection Type</em>' attribute.
      * @see #isSetConnectionType()

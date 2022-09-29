@@ -55,7 +55,7 @@ public class IfcExternalReferenceImpl extends IdEObjectImpl implements IfcExtern
      */
     @Override
     protected EClass eStaticClass() {
-        return Ifc2x3tc1Package.Literals.IFC_EXTERNAL_REFERENCE;
+        return Ifc2x3tc1Package.eINSTANCE.getIfcExternalReference();
     }
 
     /**
@@ -75,7 +75,7 @@ public class IfcExternalReferenceImpl extends IdEObjectImpl implements IfcExtern
      */
     @Override
     public String getLocation() {
-        return (String) eGet(Ifc2x3tc1Package.Literals.IFC_EXTERNAL_REFERENCE__LOCATION, true);
+        return (String) eGet(Ifc2x3tc1Package.eINSTANCE.getIfcExternalReference_Location(), true);
     }
 
     /**
@@ -85,7 +85,7 @@ public class IfcExternalReferenceImpl extends IdEObjectImpl implements IfcExtern
      */
     @Override
     public void setLocation(String newLocation) {
-        eSet(Ifc2x3tc1Package.Literals.IFC_EXTERNAL_REFERENCE__LOCATION, newLocation);
+        eSet(Ifc2x3tc1Package.eINSTANCE.getIfcExternalReference_Location(), newLocation);
     }
 
     /**
@@ -95,7 +95,7 @@ public class IfcExternalReferenceImpl extends IdEObjectImpl implements IfcExtern
      */
     @Override
     public void unsetLocation() {
-        eUnset(Ifc2x3tc1Package.Literals.IFC_EXTERNAL_REFERENCE__LOCATION);
+        eUnset(Ifc2x3tc1Package.eINSTANCE.getIfcExternalReference_Location());
     }
 
     /**
@@ -105,7 +105,7 @@ public class IfcExternalReferenceImpl extends IdEObjectImpl implements IfcExtern
      */
     @Override
     public boolean isSetLocation() {
-        return eIsSet(Ifc2x3tc1Package.Literals.IFC_EXTERNAL_REFERENCE__LOCATION);
+        return eIsSet(Ifc2x3tc1Package.eINSTANCE.getIfcExternalReference_Location());
     }
 
     /**
@@ -115,7 +115,7 @@ public class IfcExternalReferenceImpl extends IdEObjectImpl implements IfcExtern
      */
     @Override
     public String getItemReference() {
-        return (String) eGet(Ifc2x3tc1Package.Literals.IFC_EXTERNAL_REFERENCE__ITEM_REFERENCE, true);
+        return (String) eGet(Ifc2x3tc1Package.eINSTANCE.getIfcExternalReference_ItemReference(), true);
     }
 
     /**
@@ -125,7 +125,7 @@ public class IfcExternalReferenceImpl extends IdEObjectImpl implements IfcExtern
      */
     @Override
     public void setItemReference(String newItemReference) {
-        eSet(Ifc2x3tc1Package.Literals.IFC_EXTERNAL_REFERENCE__ITEM_REFERENCE, newItemReference);
+        eSet(Ifc2x3tc1Package.eINSTANCE.getIfcExternalReference_ItemReference(), newItemReference);
     }
 
     /**
@@ -135,7 +135,7 @@ public class IfcExternalReferenceImpl extends IdEObjectImpl implements IfcExtern
      */
     @Override
     public void unsetItemReference() {
-        eUnset(Ifc2x3tc1Package.Literals.IFC_EXTERNAL_REFERENCE__ITEM_REFERENCE);
+        eUnset(Ifc2x3tc1Package.eINSTANCE.getIfcExternalReference_ItemReference());
     }
 
     /**
@@ -145,7 +145,7 @@ public class IfcExternalReferenceImpl extends IdEObjectImpl implements IfcExtern
      */
     @Override
     public boolean isSetItemReference() {
-        return eIsSet(Ifc2x3tc1Package.Literals.IFC_EXTERNAL_REFERENCE__ITEM_REFERENCE);
+        return eIsSet(Ifc2x3tc1Package.eINSTANCE.getIfcExternalReference_ItemReference());
     }
 
     /**
@@ -155,7 +155,7 @@ public class IfcExternalReferenceImpl extends IdEObjectImpl implements IfcExtern
      */
     @Override
     public String getName() {
-        return (String) eGet(Ifc2x3tc1Package.Literals.IFC_EXTERNAL_REFERENCE__NAME, true);
+        return (String) eGet(Ifc2x3tc1Package.eINSTANCE.getIfcExternalReference_Name(), true);
     }
 
     /**
@@ -165,7 +165,7 @@ public class IfcExternalReferenceImpl extends IdEObjectImpl implements IfcExtern
      */
     @Override
     public void setName(String newName) {
-        eSet(Ifc2x3tc1Package.Literals.IFC_EXTERNAL_REFERENCE__NAME, newName);
+        eSet(Ifc2x3tc1Package.eINSTANCE.getIfcExternalReference_Name(), newName);
     }
 
     /**
@@ -175,7 +175,7 @@ public class IfcExternalReferenceImpl extends IdEObjectImpl implements IfcExtern
      */
     @Override
     public void unsetName() {
-        eUnset(Ifc2x3tc1Package.Literals.IFC_EXTERNAL_REFERENCE__NAME);
+        eUnset(Ifc2x3tc1Package.eINSTANCE.getIfcExternalReference_Name());
     }
 
     /**
@@ -185,7 +185,7 @@ public class IfcExternalReferenceImpl extends IdEObjectImpl implements IfcExtern
      */
     @Override
     public boolean isSetName() {
-        return eIsSet(Ifc2x3tc1Package.Literals.IFC_EXTERNAL_REFERENCE__NAME);
+        return eIsSet(Ifc2x3tc1Package.eINSTANCE.getIfcExternalReference_Name());
     }
 
 } //IfcExternalReferenceImpl

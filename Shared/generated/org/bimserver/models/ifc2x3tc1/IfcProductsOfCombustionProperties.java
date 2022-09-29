@@ -43,10 +43,6 @@ public interface IfcProductsOfCombustionProperties extends IfcMaterialProperties
     /**
      * Returns the value of the '<em><b>Specific Heat Capacity</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Specific Heat Capacity</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Specific Heat Capacity</em>' attribute.
      * @see #isSetSpecificHeatCapacity()
@@ -96,10 +92,6 @@ public interface IfcProductsOfCombustionProperties extends IfcMaterialProperties
     /**
      * Returns the value of the '<em><b>Specific Heat Capacity As String</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Specific Heat Capacity As String</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Specific Heat Capacity As String</em>' attribute.
      * @see #isSetSpecificHeatCapacityAsString()
@@ -151,10 +143,6 @@ public interface IfcProductsOfCombustionProperties extends IfcMaterialProperties
     /**
      * Returns the value of the '<em><b>N20 Content</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>N20 Content</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>N20 Content</em>' attribute.
      * @see #isSetN20Content()
@@ -204,10 +192,6 @@ public interface IfcProductsOfCombustionProperties extends IfcMaterialProperties
     /**
      * Returns the value of the '<em><b>N20 Content As String</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>N20 Content As String</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>N20 Content As String</em>' attribute.
      * @see #isSetN20ContentAsString()
@@ -259,10 +243,6 @@ public interface IfcProductsOfCombustionProperties extends IfcMaterialProperties
     /**
      * Returns the value of the '<em><b>CO Content</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>CO Content</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>CO Content</em>' attribute.
      * @see #isSetCOContent()
@@ -312,10 +292,6 @@ public interface IfcProductsOfCombustionProperties extends IfcMaterialProperties
     /**
      * Returns the value of the '<em><b>CO Content As String</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>CO Content As String</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>CO Content As String</em>' attribute.
      * @see #isSetCOContentAsString()
@@ -367,10 +343,6 @@ public interface IfcProductsOfCombustionProperties extends IfcMaterialProperties
     /**
      * Returns the value of the '<em><b>CO2 Content</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>CO2 Content</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>CO2 Content</em>' attribute.
      * @see #isSetCO2Content()
@@ -420,10 +392,6 @@ public interface IfcProductsOfCombustionProperties extends IfcMaterialProperties
     /**
      * Returns the value of the '<em><b>CO2 Content As String</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>CO2 Content As String</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>CO2 Content As String</em>' attribute.
      * @see #isSetCO2ContentAsString()

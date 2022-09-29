@@ -41,10 +41,6 @@ public interface RenderEnginePluginConfiguration extends PluginConfiguration {
      * The list contents are of type {@link org.bimserver.models.store.SerializerPluginConfiguration}.
      * It is bidirectional and its opposite is '{@link org.bimserver.models.store.SerializerPluginConfiguration#getRenderEngine <em>Render Engine</em>}'.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Serializers</em>' reference list isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Serializers</em>' reference list.
      * @see org.bimserver.models.store.StorePackage#getRenderEnginePluginConfiguration_Serializers()
@@ -58,10 +54,6 @@ public interface RenderEnginePluginConfiguration extends PluginConfiguration {
      * Returns the value of the '<em><b>User Settings</b></em>' reference.
      * It is bidirectional and its opposite is '{@link org.bimserver.models.store.UserSettings#getRenderEngines <em>Render Engines</em>}'.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>User Settings</em>' reference isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>User Settings</em>' reference.
      * @see #setUserSettings(UserSettings)

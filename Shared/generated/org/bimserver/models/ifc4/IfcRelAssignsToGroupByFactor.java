@@ -37,10 +37,6 @@ public interface IfcRelAssignsToGroupByFactor extends IfcRelAssignsToGroup {
     /**
      * Returns the value of the '<em><b>Factor</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Factor</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Factor</em>' attribute.
      * @see #setFactor(double)
@@ -63,10 +59,6 @@ public interface IfcRelAssignsToGroupByFactor extends IfcRelAssignsToGroup {
     /**
      * Returns the value of the '<em><b>Factor As String</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Factor As String</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Factor As String</em>' attribute.
      * @see #setFactorAsString(String)

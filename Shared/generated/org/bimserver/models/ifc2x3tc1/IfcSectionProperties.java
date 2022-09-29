@@ -42,10 +42,6 @@ public interface IfcSectionProperties extends IdEObject {
      * Returns the value of the '<em><b>Section Type</b></em>' attribute.
      * The literals are from the enumeration {@link org.bimserver.models.ifc2x3tc1.IfcSectionTypeEnum}.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Section Type</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Section Type</em>' attribute.
      * @see org.bimserver.models.ifc2x3tc1.IfcSectionTypeEnum
@@ -70,10 +66,6 @@ public interface IfcSectionProperties extends IdEObject {
     /**
      * Returns the value of the '<em><b>Start Profile</b></em>' reference.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Start Profile</em>' reference isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Start Profile</em>' reference.
      * @see #setStartProfile(IfcProfileDef)
@@ -96,10 +88,6 @@ public interface IfcSectionProperties extends IdEObject {
     /**
      * Returns the value of the '<em><b>End Profile</b></em>' reference.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>End Profile</em>' reference isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>End Profile</em>' reference.
      * @see #isSetEndProfile()

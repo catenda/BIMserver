@@ -45,7 +45,7 @@ public class IfcOpeningStandardCaseImpl extends IfcOpeningElementImpl implements
      */
     @Override
     protected EClass eStaticClass() {
-        return Ifc4Package.Literals.IFC_OPENING_STANDARD_CASE;
+        return Ifc4Package.eINSTANCE.getIfcOpeningStandardCase();
     }
 
 } //IfcOpeningStandardCaseImpl

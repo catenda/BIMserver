@@ -42,10 +42,6 @@ public interface IfcWindow extends IfcBuildingElement {
     /**
      * Returns the value of the '<em><b>Overall Height</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Overall Height</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Overall Height</em>' attribute.
      * @see #isSetOverallHeight()
@@ -95,10 +91,6 @@ public interface IfcWindow extends IfcBuildingElement {
     /**
      * Returns the value of the '<em><b>Overall Height As String</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Overall Height As String</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Overall Height As String</em>' attribute.
      * @see #isSetOverallHeightAsString()
@@ -150,10 +142,6 @@ public interface IfcWindow extends IfcBuildingElement {
     /**
      * Returns the value of the '<em><b>Overall Width</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Overall Width</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Overall Width</em>' attribute.
      * @see #isSetOverallWidth()
@@ -203,10 +191,6 @@ public interface IfcWindow extends IfcBuildingElement {
     /**
      * Returns the value of the '<em><b>Overall Width As String</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Overall Width As String</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Overall Width As String</em>' attribute.
      * @see #isSetOverallWidthAsString()
@@ -259,10 +243,6 @@ public interface IfcWindow extends IfcBuildingElement {
      * Returns the value of the '<em><b>Predefined Type</b></em>' attribute.
      * The literals are from the enumeration {@link org.bimserver.models.ifc4.IfcWindowTypeEnum}.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Predefined Type</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Predefined Type</em>' attribute.
      * @see org.bimserver.models.ifc4.IfcWindowTypeEnum
@@ -315,10 +295,6 @@ public interface IfcWindow extends IfcBuildingElement {
      * Returns the value of the '<em><b>Partitioning Type</b></em>' attribute.
      * The literals are from the enumeration {@link org.bimserver.models.ifc4.IfcWindowTypePartitioningEnum}.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Partitioning Type</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Partitioning Type</em>' attribute.
      * @see org.bimserver.models.ifc4.IfcWindowTypePartitioningEnum
@@ -370,10 +346,6 @@ public interface IfcWindow extends IfcBuildingElement {
     /**
      * Returns the value of the '<em><b>User Defined Partitioning Type</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>User Defined Partitioning Type</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>User Defined Partitioning Type</em>' attribute.
      * @see #isSetUserDefinedPartitioningType()

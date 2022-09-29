@@ -62,10 +62,6 @@ public interface IfcScheduleTimeControl extends IfcControl {
     /**
      * Returns the value of the '<em><b>Actual Start</b></em>' reference.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Actual Start</em>' reference isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Actual Start</em>' reference.
      * @see #isSetActualStart()
@@ -115,10 +111,6 @@ public interface IfcScheduleTimeControl extends IfcControl {
     /**
      * Returns the value of the '<em><b>Early Start</b></em>' reference.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Early Start</em>' reference isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Early Start</em>' reference.
      * @see #isSetEarlyStart()
@@ -168,10 +160,6 @@ public interface IfcScheduleTimeControl extends IfcControl {
     /**
      * Returns the value of the '<em><b>Late Start</b></em>' reference.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Late Start</em>' reference isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Late Start</em>' reference.
      * @see #isSetLateStart()
@@ -221,10 +209,6 @@ public interface IfcScheduleTimeControl extends IfcControl {
     /**
      * Returns the value of the '<em><b>Schedule Start</b></em>' reference.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Schedule Start</em>' reference isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Schedule Start</em>' reference.
      * @see #isSetScheduleStart()
@@ -274,10 +258,6 @@ public interface IfcScheduleTimeControl extends IfcControl {
     /**
      * Returns the value of the '<em><b>Actual Finish</b></em>' reference.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Actual Finish</em>' reference isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Actual Finish</em>' reference.
      * @see #isSetActualFinish()
@@ -327,10 +307,6 @@ public interface IfcScheduleTimeControl extends IfcControl {
     /**
      * Returns the value of the '<em><b>Early Finish</b></em>' reference.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Early Finish</em>' reference isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Early Finish</em>' reference.
      * @see #isSetEarlyFinish()
@@ -380,10 +356,6 @@ public interface IfcScheduleTimeControl extends IfcControl {
     /**
      * Returns the value of the '<em><b>Late Finish</b></em>' reference.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Late Finish</em>' reference isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Late Finish</em>' reference.
      * @see #isSetLateFinish()
@@ -433,10 +405,6 @@ public interface IfcScheduleTimeControl extends IfcControl {
     /**
      * Returns the value of the '<em><b>Schedule Finish</b></em>' reference.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Schedule Finish</em>' reference isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Schedule Finish</em>' reference.
      * @see #isSetScheduleFinish()
@@ -486,10 +454,6 @@ public interface IfcScheduleTimeControl extends IfcControl {
     /**
      * Returns the value of the '<em><b>Schedule Duration</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Schedule Duration</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Schedule Duration</em>' attribute.
      * @see #isSetScheduleDuration()
@@ -539,10 +503,6 @@ public interface IfcScheduleTimeControl extends IfcControl {
     /**
      * Returns the value of the '<em><b>Schedule Duration As String</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Schedule Duration As String</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Schedule Duration As String</em>' attribute.
      * @see #isSetScheduleDurationAsString()
@@ -594,10 +554,6 @@ public interface IfcScheduleTimeControl extends IfcControl {
     /**
      * Returns the value of the '<em><b>Actual Duration</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Actual Duration</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Actual Duration</em>' attribute.
      * @see #isSetActualDuration()
@@ -647,10 +603,6 @@ public interface IfcScheduleTimeControl extends IfcControl {
     /**
      * Returns the value of the '<em><b>Actual Duration As String</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Actual Duration As String</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Actual Duration As String</em>' attribute.
      * @see #isSetActualDurationAsString()
@@ -702,10 +654,6 @@ public interface IfcScheduleTimeControl extends IfcControl {
     /**
      * Returns the value of the '<em><b>Remaining Time</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Remaining Time</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Remaining Time</em>' attribute.
      * @see #isSetRemainingTime()
@@ -755,10 +703,6 @@ public interface IfcScheduleTimeControl extends IfcControl {
     /**
      * Returns the value of the '<em><b>Remaining Time As String</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Remaining Time As String</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Remaining Time As String</em>' attribute.
      * @see #isSetRemainingTimeAsString()
@@ -810,10 +754,6 @@ public interface IfcScheduleTimeControl extends IfcControl {
     /**
      * Returns the value of the '<em><b>Free Float</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Free Float</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Free Float</em>' attribute.
      * @see #isSetFreeFloat()
@@ -863,10 +803,6 @@ public interface IfcScheduleTimeControl extends IfcControl {
     /**
      * Returns the value of the '<em><b>Free Float As String</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Free Float As String</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Free Float As String</em>' attribute.
      * @see #isSetFreeFloatAsString()
@@ -918,10 +854,6 @@ public interface IfcScheduleTimeControl extends IfcControl {
     /**
      * Returns the value of the '<em><b>Total Float</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Total Float</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Total Float</em>' attribute.
      * @see #isSetTotalFloat()
@@ -971,10 +903,6 @@ public interface IfcScheduleTimeControl extends IfcControl {
     /**
      * Returns the value of the '<em><b>Total Float As String</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Total Float As String</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Total Float As String</em>' attribute.
      * @see #isSetTotalFloatAsString()
@@ -1027,10 +955,6 @@ public interface IfcScheduleTimeControl extends IfcControl {
      * Returns the value of the '<em><b>Is Critical</b></em>' attribute.
      * The literals are from the enumeration {@link org.bimserver.models.ifc2x3tc1.Tristate}.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Is Critical</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Is Critical</em>' attribute.
      * @see org.bimserver.models.ifc2x3tc1.Tristate
@@ -1082,10 +1006,6 @@ public interface IfcScheduleTimeControl extends IfcControl {
     /**
      * Returns the value of the '<em><b>Status Time</b></em>' reference.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Status Time</em>' reference isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Status Time</em>' reference.
      * @see #isSetStatusTime()
@@ -1135,10 +1055,6 @@ public interface IfcScheduleTimeControl extends IfcControl {
     /**
      * Returns the value of the '<em><b>Start Float</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Start Float</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Start Float</em>' attribute.
      * @see #isSetStartFloat()
@@ -1188,10 +1104,6 @@ public interface IfcScheduleTimeControl extends IfcControl {
     /**
      * Returns the value of the '<em><b>Start Float As String</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Start Float As String</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Start Float As String</em>' attribute.
      * @see #isSetStartFloatAsString()
@@ -1243,10 +1155,6 @@ public interface IfcScheduleTimeControl extends IfcControl {
     /**
      * Returns the value of the '<em><b>Finish Float</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Finish Float</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Finish Float</em>' attribute.
      * @see #isSetFinishFloat()
@@ -1296,10 +1204,6 @@ public interface IfcScheduleTimeControl extends IfcControl {
     /**
      * Returns the value of the '<em><b>Finish Float As String</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Finish Float As String</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Finish Float As String</em>' attribute.
      * @see #isSetFinishFloatAsString()
@@ -1351,10 +1255,6 @@ public interface IfcScheduleTimeControl extends IfcControl {
     /**
      * Returns the value of the '<em><b>Completion</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Completion</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Completion</em>' attribute.
      * @see #isSetCompletion()
@@ -1404,10 +1304,6 @@ public interface IfcScheduleTimeControl extends IfcControl {
     /**
      * Returns the value of the '<em><b>Completion As String</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Completion As String</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Completion As String</em>' attribute.
      * @see #isSetCompletionAsString()
@@ -1460,10 +1356,6 @@ public interface IfcScheduleTimeControl extends IfcControl {
      * Returns the value of the '<em><b>Schedule Time Control Assigned</b></em>' reference.
      * It is bidirectional and its opposite is '{@link org.bimserver.models.ifc2x3tc1.IfcRelAssignsTasks#getTimeForTask <em>Time For Task</em>}'.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Schedule Time Control Assigned</em>' reference isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Schedule Time Control Assigned</em>' reference.
      * @see #isSetScheduleTimeControlAssigned()

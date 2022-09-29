@@ -56,7 +56,7 @@ public class IfcProductDefinitionShapeImpl extends IfcProductRepresentationImpl 
      */
     @Override
     protected EClass eStaticClass() {
-        return Ifc2x3tc1Package.Literals.IFC_PRODUCT_DEFINITION_SHAPE;
+        return Ifc2x3tc1Package.eINSTANCE.getIfcProductDefinitionShape();
     }
 
     /**
@@ -67,7 +67,7 @@ public class IfcProductDefinitionShapeImpl extends IfcProductRepresentationImpl 
     @SuppressWarnings("unchecked")
     @Override
     public EList<IfcProduct> getShapeOfProduct() {
-        return (EList<IfcProduct>) eGet(Ifc2x3tc1Package.Literals.IFC_PRODUCT_DEFINITION_SHAPE__SHAPE_OF_PRODUCT, true);
+        return (EList<IfcProduct>) eGet(Ifc2x3tc1Package.eINSTANCE.getIfcProductDefinitionShape_ShapeOfProduct(), true);
     }
 
     /**
@@ -77,7 +77,7 @@ public class IfcProductDefinitionShapeImpl extends IfcProductRepresentationImpl 
      */
     @Override
     public void unsetShapeOfProduct() {
-        eUnset(Ifc2x3tc1Package.Literals.IFC_PRODUCT_DEFINITION_SHAPE__SHAPE_OF_PRODUCT);
+        eUnset(Ifc2x3tc1Package.eINSTANCE.getIfcProductDefinitionShape_ShapeOfProduct());
     }
 
     /**
@@ -87,7 +87,7 @@ public class IfcProductDefinitionShapeImpl extends IfcProductRepresentationImpl 
      */
     @Override
     public boolean isSetShapeOfProduct() {
-        return eIsSet(Ifc2x3tc1Package.Literals.IFC_PRODUCT_DEFINITION_SHAPE__SHAPE_OF_PRODUCT);
+        return eIsSet(Ifc2x3tc1Package.eINSTANCE.getIfcProductDefinitionShape_ShapeOfProduct());
     }
 
     /**
@@ -98,7 +98,7 @@ public class IfcProductDefinitionShapeImpl extends IfcProductRepresentationImpl 
     @SuppressWarnings("unchecked")
     @Override
     public EList<IfcShapeAspect> getHasShapeAspects() {
-        return (EList<IfcShapeAspect>) eGet(Ifc2x3tc1Package.Literals.IFC_PRODUCT_DEFINITION_SHAPE__HAS_SHAPE_ASPECTS,
+        return (EList<IfcShapeAspect>) eGet(Ifc2x3tc1Package.eINSTANCE.getIfcProductDefinitionShape_HasShapeAspects(),
                 true);
     }
 
@@ -109,7 +109,7 @@ public class IfcProductDefinitionShapeImpl extends IfcProductRepresentationImpl 
      */
     @Override
     public void unsetHasShapeAspects() {
-        eUnset(Ifc2x3tc1Package.Literals.IFC_PRODUCT_DEFINITION_SHAPE__HAS_SHAPE_ASPECTS);
+        eUnset(Ifc2x3tc1Package.eINSTANCE.getIfcProductDefinitionShape_HasShapeAspects());
     }
 
     /**
@@ -119,7 +119,7 @@ public class IfcProductDefinitionShapeImpl extends IfcProductRepresentationImpl 
      */
     @Override
     public boolean isSetHasShapeAspects() {
-        return eIsSet(Ifc2x3tc1Package.Literals.IFC_PRODUCT_DEFINITION_SHAPE__HAS_SHAPE_ASPECTS);
+        return eIsSet(Ifc2x3tc1Package.eINSTANCE.getIfcProductDefinitionShape_HasShapeAspects());
     }
 
 } //IfcProductDefinitionShapeImpl

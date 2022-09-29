@@ -51,7 +51,7 @@ public class IfcSolidModelImpl extends IfcGeometricRepresentationItemImpl implem
      */
     @Override
     protected EClass eStaticClass() {
-        return Ifc4Package.Literals.IFC_SOLID_MODEL;
+        return Ifc4Package.eINSTANCE.getIfcSolidModel();
     }
 
     /**
@@ -61,7 +61,7 @@ public class IfcSolidModelImpl extends IfcGeometricRepresentationItemImpl implem
      */
     @Override
     public long getDim() {
-        return (Long) eGet(Ifc4Package.Literals.IFC_SOLID_MODEL__DIM, true);
+        return (Long) eGet(Ifc4Package.eINSTANCE.getIfcSolidModel_Dim(), true);
     }
 
     /**
@@ -71,7 +71,7 @@ public class IfcSolidModelImpl extends IfcGeometricRepresentationItemImpl implem
      */
     @Override
     public void setDim(long newDim) {
-        eSet(Ifc4Package.Literals.IFC_SOLID_MODEL__DIM, newDim);
+        eSet(Ifc4Package.eINSTANCE.getIfcSolidModel_Dim(), newDim);
     }
 
     /**
@@ -81,7 +81,7 @@ public class IfcSolidModelImpl extends IfcGeometricRepresentationItemImpl implem
      */
     @Override
     public void unsetDim() {
-        eUnset(Ifc4Package.Literals.IFC_SOLID_MODEL__DIM);
+        eUnset(Ifc4Package.eINSTANCE.getIfcSolidModel_Dim());
     }
 
     /**
@@ -91,7 +91,7 @@ public class IfcSolidModelImpl extends IfcGeometricRepresentationItemImpl implem
      */
     @Override
     public boolean isSetDim() {
-        return eIsSet(Ifc4Package.Literals.IFC_SOLID_MODEL__DIM);
+        return eIsSet(Ifc4Package.eINSTANCE.getIfcSolidModel_Dim());
     }
 
 } //IfcSolidModelImpl

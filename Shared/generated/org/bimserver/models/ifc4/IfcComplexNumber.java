@@ -40,10 +40,6 @@ public interface IfcComplexNumber extends IfcMeasureValue {
      * Returns the value of the '<em><b>Wrapped Value</b></em>' attribute list.
      * The list contents are of type {@link java.lang.Double}.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Wrapped Value</em>' attribute list isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Wrapped Value</em>' attribute list.
      * @see #isSetWrappedValue()
@@ -79,10 +75,6 @@ public interface IfcComplexNumber extends IfcMeasureValue {
      * Returns the value of the '<em><b>Wrapped Value As String</b></em>' attribute list.
      * The list contents are of type {@link java.lang.String}.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Wrapped Value As String</em>' attribute list isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Wrapped Value As String</em>' attribute list.
      * @see #isSetWrappedValueAsString()

@@ -39,10 +39,6 @@ public interface UserRelated extends LogAction {
      * Returns the value of the '<em><b>User</b></em>' reference.
      * It is bidirectional and its opposite is '{@link org.bimserver.models.store.User#getLogs <em>Logs</em>}'.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>User</em>' reference isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>User</em>' reference.
      * @see #setUser(User)

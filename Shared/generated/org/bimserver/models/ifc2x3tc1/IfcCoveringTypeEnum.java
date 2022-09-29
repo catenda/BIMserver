@@ -145,10 +145,6 @@ public enum IfcCoveringTypeEnum implements Enumerator {
     /**
      * The '<em><b>NULL</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>NULL</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #NULL
      * @model
@@ -160,10 +156,6 @@ public enum IfcCoveringTypeEnum implements Enumerator {
     /**
      * The '<em><b>WRAPPING</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>WRAPPING</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #WRAPPING
      * @model
@@ -175,10 +167,6 @@ public enum IfcCoveringTypeEnum implements Enumerator {
     /**
      * The '<em><b>NOTDEFINED</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>NOTDEFINED</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #NOTDEFINED
      * @model
@@ -190,10 +178,6 @@ public enum IfcCoveringTypeEnum implements Enumerator {
     /**
      * The '<em><b>CEILING</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>CEILING</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #CEILING
      * @model
@@ -205,10 +189,6 @@ public enum IfcCoveringTypeEnum implements Enumerator {
     /**
      * The '<em><b>ROOFING</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>ROOFING</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #ROOFING
      * @model
@@ -220,10 +200,6 @@ public enum IfcCoveringTypeEnum implements Enumerator {
     /**
      * The '<em><b>MEMBRANE</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>MEMBRANE</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #MEMBRANE
      * @model
@@ -235,10 +211,6 @@ public enum IfcCoveringTypeEnum implements Enumerator {
     /**
      * The '<em><b>INSULATION</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>INSULATION</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #INSULATION
      * @model
@@ -250,10 +222,6 @@ public enum IfcCoveringTypeEnum implements Enumerator {
     /**
      * The '<em><b>USERDEFINED</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>USERDEFINED</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #USERDEFINED
      * @model
@@ -265,10 +233,6 @@ public enum IfcCoveringTypeEnum implements Enumerator {
     /**
      * The '<em><b>CLADDING</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>CLADDING</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #CLADDING
      * @model
@@ -280,10 +244,6 @@ public enum IfcCoveringTypeEnum implements Enumerator {
     /**
      * The '<em><b>SLEEVING</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>SLEEVING</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #SLEEVING
      * @model
@@ -295,10 +255,6 @@ public enum IfcCoveringTypeEnum implements Enumerator {
     /**
      * The '<em><b>FLOORING</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>FLOORING</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #FLOORING
      * @model

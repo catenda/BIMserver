@@ -64,7 +64,7 @@ public class IfcObjectDefinitionImpl extends IfcRootImpl implements IfcObjectDef
      */
     @Override
     protected EClass eStaticClass() {
-        return Ifc4Package.Literals.IFC_OBJECT_DEFINITION;
+        return Ifc4Package.eINSTANCE.getIfcObjectDefinition();
     }
 
     /**
@@ -75,7 +75,7 @@ public class IfcObjectDefinitionImpl extends IfcRootImpl implements IfcObjectDef
     @SuppressWarnings("unchecked")
     @Override
     public EList<IfcRelAssigns> getHasAssignments() {
-        return (EList<IfcRelAssigns>) eGet(Ifc4Package.Literals.IFC_OBJECT_DEFINITION__HAS_ASSIGNMENTS, true);
+        return (EList<IfcRelAssigns>) eGet(Ifc4Package.eINSTANCE.getIfcObjectDefinition_HasAssignments(), true);
     }
 
     /**
@@ -85,7 +85,7 @@ public class IfcObjectDefinitionImpl extends IfcRootImpl implements IfcObjectDef
      */
     @Override
     public void unsetHasAssignments() {
-        eUnset(Ifc4Package.Literals.IFC_OBJECT_DEFINITION__HAS_ASSIGNMENTS);
+        eUnset(Ifc4Package.eINSTANCE.getIfcObjectDefinition_HasAssignments());
     }
 
     /**
@@ -95,7 +95,7 @@ public class IfcObjectDefinitionImpl extends IfcRootImpl implements IfcObjectDef
      */
     @Override
     public boolean isSetHasAssignments() {
-        return eIsSet(Ifc4Package.Literals.IFC_OBJECT_DEFINITION__HAS_ASSIGNMENTS);
+        return eIsSet(Ifc4Package.eINSTANCE.getIfcObjectDefinition_HasAssignments());
     }
 
     /**
@@ -106,7 +106,7 @@ public class IfcObjectDefinitionImpl extends IfcRootImpl implements IfcObjectDef
     @SuppressWarnings("unchecked")
     @Override
     public EList<IfcRelNests> getNests() {
-        return (EList<IfcRelNests>) eGet(Ifc4Package.Literals.IFC_OBJECT_DEFINITION__NESTS, true);
+        return (EList<IfcRelNests>) eGet(Ifc4Package.eINSTANCE.getIfcObjectDefinition_Nests(), true);
     }
 
     /**
@@ -116,7 +116,7 @@ public class IfcObjectDefinitionImpl extends IfcRootImpl implements IfcObjectDef
      */
     @Override
     public void unsetNests() {
-        eUnset(Ifc4Package.Literals.IFC_OBJECT_DEFINITION__NESTS);
+        eUnset(Ifc4Package.eINSTANCE.getIfcObjectDefinition_Nests());
     }
 
     /**
@@ -126,7 +126,7 @@ public class IfcObjectDefinitionImpl extends IfcRootImpl implements IfcObjectDef
      */
     @Override
     public boolean isSetNests() {
-        return eIsSet(Ifc4Package.Literals.IFC_OBJECT_DEFINITION__NESTS);
+        return eIsSet(Ifc4Package.eINSTANCE.getIfcObjectDefinition_Nests());
     }
 
     /**
@@ -137,7 +137,7 @@ public class IfcObjectDefinitionImpl extends IfcRootImpl implements IfcObjectDef
     @SuppressWarnings("unchecked")
     @Override
     public EList<IfcRelNests> getIsNestedBy() {
-        return (EList<IfcRelNests>) eGet(Ifc4Package.Literals.IFC_OBJECT_DEFINITION__IS_NESTED_BY, true);
+        return (EList<IfcRelNests>) eGet(Ifc4Package.eINSTANCE.getIfcObjectDefinition_IsNestedBy(), true);
     }
 
     /**
@@ -147,7 +147,7 @@ public class IfcObjectDefinitionImpl extends IfcRootImpl implements IfcObjectDef
      */
     @Override
     public void unsetIsNestedBy() {
-        eUnset(Ifc4Package.Literals.IFC_OBJECT_DEFINITION__IS_NESTED_BY);
+        eUnset(Ifc4Package.eINSTANCE.getIfcObjectDefinition_IsNestedBy());
     }
 
     /**
@@ -157,7 +157,7 @@ public class IfcObjectDefinitionImpl extends IfcRootImpl implements IfcObjectDef
      */
     @Override
     public boolean isSetIsNestedBy() {
-        return eIsSet(Ifc4Package.Literals.IFC_OBJECT_DEFINITION__IS_NESTED_BY);
+        return eIsSet(Ifc4Package.eINSTANCE.getIfcObjectDefinition_IsNestedBy());
     }
 
     /**
@@ -168,7 +168,7 @@ public class IfcObjectDefinitionImpl extends IfcRootImpl implements IfcObjectDef
     @SuppressWarnings("unchecked")
     @Override
     public EList<IfcRelDeclares> getHasContext() {
-        return (EList<IfcRelDeclares>) eGet(Ifc4Package.Literals.IFC_OBJECT_DEFINITION__HAS_CONTEXT, true);
+        return (EList<IfcRelDeclares>) eGet(Ifc4Package.eINSTANCE.getIfcObjectDefinition_HasContext(), true);
     }
 
     /**
@@ -178,7 +178,7 @@ public class IfcObjectDefinitionImpl extends IfcRootImpl implements IfcObjectDef
      */
     @Override
     public void unsetHasContext() {
-        eUnset(Ifc4Package.Literals.IFC_OBJECT_DEFINITION__HAS_CONTEXT);
+        eUnset(Ifc4Package.eINSTANCE.getIfcObjectDefinition_HasContext());
     }
 
     /**
@@ -188,7 +188,7 @@ public class IfcObjectDefinitionImpl extends IfcRootImpl implements IfcObjectDef
      */
     @Override
     public boolean isSetHasContext() {
-        return eIsSet(Ifc4Package.Literals.IFC_OBJECT_DEFINITION__HAS_CONTEXT);
+        return eIsSet(Ifc4Package.eINSTANCE.getIfcObjectDefinition_HasContext());
     }
 
     /**
@@ -199,7 +199,7 @@ public class IfcObjectDefinitionImpl extends IfcRootImpl implements IfcObjectDef
     @SuppressWarnings("unchecked")
     @Override
     public EList<IfcRelAggregates> getIsDecomposedBy() {
-        return (EList<IfcRelAggregates>) eGet(Ifc4Package.Literals.IFC_OBJECT_DEFINITION__IS_DECOMPOSED_BY, true);
+        return (EList<IfcRelAggregates>) eGet(Ifc4Package.eINSTANCE.getIfcObjectDefinition_IsDecomposedBy(), true);
     }
 
     /**
@@ -209,7 +209,7 @@ public class IfcObjectDefinitionImpl extends IfcRootImpl implements IfcObjectDef
      */
     @Override
     public void unsetIsDecomposedBy() {
-        eUnset(Ifc4Package.Literals.IFC_OBJECT_DEFINITION__IS_DECOMPOSED_BY);
+        eUnset(Ifc4Package.eINSTANCE.getIfcObjectDefinition_IsDecomposedBy());
     }
 
     /**
@@ -219,7 +219,7 @@ public class IfcObjectDefinitionImpl extends IfcRootImpl implements IfcObjectDef
      */
     @Override
     public boolean isSetIsDecomposedBy() {
-        return eIsSet(Ifc4Package.Literals.IFC_OBJECT_DEFINITION__IS_DECOMPOSED_BY);
+        return eIsSet(Ifc4Package.eINSTANCE.getIfcObjectDefinition_IsDecomposedBy());
     }
 
     /**
@@ -230,7 +230,7 @@ public class IfcObjectDefinitionImpl extends IfcRootImpl implements IfcObjectDef
     @SuppressWarnings("unchecked")
     @Override
     public EList<IfcRelAggregates> getDecomposes() {
-        return (EList<IfcRelAggregates>) eGet(Ifc4Package.Literals.IFC_OBJECT_DEFINITION__DECOMPOSES, true);
+        return (EList<IfcRelAggregates>) eGet(Ifc4Package.eINSTANCE.getIfcObjectDefinition_Decomposes(), true);
     }
 
     /**
@@ -240,7 +240,7 @@ public class IfcObjectDefinitionImpl extends IfcRootImpl implements IfcObjectDef
      */
     @Override
     public void unsetDecomposes() {
-        eUnset(Ifc4Package.Literals.IFC_OBJECT_DEFINITION__DECOMPOSES);
+        eUnset(Ifc4Package.eINSTANCE.getIfcObjectDefinition_Decomposes());
     }
 
     /**
@@ -250,7 +250,7 @@ public class IfcObjectDefinitionImpl extends IfcRootImpl implements IfcObjectDef
      */
     @Override
     public boolean isSetDecomposes() {
-        return eIsSet(Ifc4Package.Literals.IFC_OBJECT_DEFINITION__DECOMPOSES);
+        return eIsSet(Ifc4Package.eINSTANCE.getIfcObjectDefinition_Decomposes());
     }
 
     /**
@@ -261,7 +261,7 @@ public class IfcObjectDefinitionImpl extends IfcRootImpl implements IfcObjectDef
     @SuppressWarnings("unchecked")
     @Override
     public EList<IfcRelAssociates> getHasAssociations() {
-        return (EList<IfcRelAssociates>) eGet(Ifc4Package.Literals.IFC_OBJECT_DEFINITION__HAS_ASSOCIATIONS, true);
+        return (EList<IfcRelAssociates>) eGet(Ifc4Package.eINSTANCE.getIfcObjectDefinition_HasAssociations(), true);
     }
 
     /**
@@ -271,7 +271,7 @@ public class IfcObjectDefinitionImpl extends IfcRootImpl implements IfcObjectDef
      */
     @Override
     public void unsetHasAssociations() {
-        eUnset(Ifc4Package.Literals.IFC_OBJECT_DEFINITION__HAS_ASSOCIATIONS);
+        eUnset(Ifc4Package.eINSTANCE.getIfcObjectDefinition_HasAssociations());
     }
 
     /**
@@ -281,7 +281,7 @@ public class IfcObjectDefinitionImpl extends IfcRootImpl implements IfcObjectDef
      */
     @Override
     public boolean isSetHasAssociations() {
-        return eIsSet(Ifc4Package.Literals.IFC_OBJECT_DEFINITION__HAS_ASSOCIATIONS);
+        return eIsSet(Ifc4Package.eINSTANCE.getIfcObjectDefinition_HasAssociations());
     }
 
 } //IfcObjectDefinitionImpl

@@ -75,10 +75,6 @@ public enum IfcTrimmingPreference implements Enumerator {
     /**
      * The '<em><b>NULL</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>NULL</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #NULL
      * @model
@@ -90,10 +86,6 @@ public enum IfcTrimmingPreference implements Enumerator {
     /**
      * The '<em><b>UNSPECIFIED</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>UNSPECIFIED</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #UNSPECIFIED
      * @model
@@ -105,10 +97,6 @@ public enum IfcTrimmingPreference implements Enumerator {
     /**
      * The '<em><b>CARTESIAN</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>CARTESIAN</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #CARTESIAN
      * @model
@@ -120,10 +108,6 @@ public enum IfcTrimmingPreference implements Enumerator {
     /**
      * The '<em><b>PARAMETER</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>PARAMETER</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #PARAMETER
      * @model

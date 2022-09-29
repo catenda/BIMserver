@@ -37,10 +37,6 @@ public interface IfcRelDefinesByProperties extends IfcRelDefines {
      * Returns the value of the '<em><b>Relating Property Definition</b></em>' reference.
      * It is bidirectional and its opposite is '{@link org.bimserver.models.ifc2x3tc1.IfcPropertySetDefinition#getPropertyDefinitionOf <em>Property Definition Of</em>}'.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Relating Property Definition</em>' reference isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Relating Property Definition</em>' reference.
      * @see #setRelatingPropertyDefinition(IfcPropertySetDefinition)

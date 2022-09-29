@@ -45,7 +45,7 @@ public class IfcIntersectionCurveImpl extends IfcSurfaceCurveImpl implements Ifc
      */
     @Override
     protected EClass eStaticClass() {
-        return Ifc4Package.Literals.IFC_INTERSECTION_CURVE;
+        return Ifc4Package.eINSTANCE.getIfcIntersectionCurve();
     }
 
 } //IfcIntersectionCurveImpl

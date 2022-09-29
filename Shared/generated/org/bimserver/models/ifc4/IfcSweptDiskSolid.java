@@ -44,10 +44,6 @@ public interface IfcSweptDiskSolid extends IfcSolidModel {
     /**
      * Returns the value of the '<em><b>Directrix</b></em>' reference.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Directrix</em>' reference isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Directrix</em>' reference.
      * @see #setDirectrix(IfcCurve)
@@ -70,10 +66,6 @@ public interface IfcSweptDiskSolid extends IfcSolidModel {
     /**
      * Returns the value of the '<em><b>Radius</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Radius</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Radius</em>' attribute.
      * @see #setRadius(double)
@@ -96,10 +88,6 @@ public interface IfcSweptDiskSolid extends IfcSolidModel {
     /**
      * Returns the value of the '<em><b>Radius As String</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Radius As String</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Radius As String</em>' attribute.
      * @see #setRadiusAsString(String)
@@ -123,10 +111,6 @@ public interface IfcSweptDiskSolid extends IfcSolidModel {
     /**
      * Returns the value of the '<em><b>Inner Radius</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Inner Radius</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Inner Radius</em>' attribute.
      * @see #isSetInnerRadius()
@@ -176,10 +160,6 @@ public interface IfcSweptDiskSolid extends IfcSolidModel {
     /**
      * Returns the value of the '<em><b>Inner Radius As String</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Inner Radius As String</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Inner Radius As String</em>' attribute.
      * @see #isSetInnerRadiusAsString()
@@ -231,10 +211,6 @@ public interface IfcSweptDiskSolid extends IfcSolidModel {
     /**
      * Returns the value of the '<em><b>Start Param</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Start Param</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Start Param</em>' attribute.
      * @see #isSetStartParam()
@@ -284,10 +260,6 @@ public interface IfcSweptDiskSolid extends IfcSolidModel {
     /**
      * Returns the value of the '<em><b>Start Param As String</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Start Param As String</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Start Param As String</em>' attribute.
      * @see #isSetStartParamAsString()
@@ -339,10 +311,6 @@ public interface IfcSweptDiskSolid extends IfcSolidModel {
     /**
      * Returns the value of the '<em><b>End Param</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>End Param</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>End Param</em>' attribute.
      * @see #isSetEndParam()
@@ -392,10 +360,6 @@ public interface IfcSweptDiskSolid extends IfcSolidModel {
     /**
      * Returns the value of the '<em><b>End Param As String</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>End Param As String</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>End Param As String</em>' attribute.
      * @see #isSetEndParamAsString()

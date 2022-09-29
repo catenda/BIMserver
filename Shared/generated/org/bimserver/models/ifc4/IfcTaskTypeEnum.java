@@ -185,10 +185,6 @@ public enum IfcTaskTypeEnum implements Enumerator {
     /**
      * The '<em><b>NULL</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>NULL</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #NULL
      * @model
@@ -200,10 +196,6 @@ public enum IfcTaskTypeEnum implements Enumerator {
     /**
      * The '<em><b>DEMOLITION</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>DEMOLITION</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #DEMOLITION
      * @model
@@ -215,10 +207,6 @@ public enum IfcTaskTypeEnum implements Enumerator {
     /**
      * The '<em><b>DISMANTLE</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>DISMANTLE</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #DISMANTLE
      * @model
@@ -230,10 +218,6 @@ public enum IfcTaskTypeEnum implements Enumerator {
     /**
      * The '<em><b>ATTENDANCE</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>ATTENDANCE</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #ATTENDANCE
      * @model
@@ -245,10 +229,6 @@ public enum IfcTaskTypeEnum implements Enumerator {
     /**
      * The '<em><b>USERDEFINED</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>USERDEFINED</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #USERDEFINED
      * @model
@@ -260,10 +240,6 @@ public enum IfcTaskTypeEnum implements Enumerator {
     /**
      * The '<em><b>RENOVATION</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>RENOVATION</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #RENOVATION
      * @model
@@ -275,10 +251,6 @@ public enum IfcTaskTypeEnum implements Enumerator {
     /**
      * The '<em><b>MAINTENANCE</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>MAINTENANCE</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #MAINTENANCE
      * @model
@@ -290,10 +262,6 @@ public enum IfcTaskTypeEnum implements Enumerator {
     /**
      * The '<em><b>NOTDEFINED</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>NOTDEFINED</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #NOTDEFINED
      * @model
@@ -305,10 +273,6 @@ public enum IfcTaskTypeEnum implements Enumerator {
     /**
      * The '<em><b>REMOVAL</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>REMOVAL</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #REMOVAL
      * @model
@@ -320,10 +284,6 @@ public enum IfcTaskTypeEnum implements Enumerator {
     /**
      * The '<em><b>DISPOSAL</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>DISPOSAL</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #DISPOSAL
      * @model
@@ -335,10 +295,6 @@ public enum IfcTaskTypeEnum implements Enumerator {
     /**
      * The '<em><b>MOVE</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>MOVE</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #MOVE
      * @model
@@ -350,10 +306,6 @@ public enum IfcTaskTypeEnum implements Enumerator {
     /**
      * The '<em><b>OPERATION</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>OPERATION</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #OPERATION
      * @model
@@ -365,10 +317,6 @@ public enum IfcTaskTypeEnum implements Enumerator {
     /**
      * The '<em><b>INSTALLATION</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>INSTALLATION</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #INSTALLATION
      * @model
@@ -380,10 +328,6 @@ public enum IfcTaskTypeEnum implements Enumerator {
     /**
      * The '<em><b>CONSTRUCTION</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>CONSTRUCTION</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #CONSTRUCTION
      * @model
@@ -395,10 +339,6 @@ public enum IfcTaskTypeEnum implements Enumerator {
     /**
      * The '<em><b>LOGISTIC</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>LOGISTIC</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #LOGISTIC
      * @model

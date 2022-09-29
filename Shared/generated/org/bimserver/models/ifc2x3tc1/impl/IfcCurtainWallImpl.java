@@ -45,7 +45,7 @@ public class IfcCurtainWallImpl extends IfcBuildingElementImpl implements IfcCur
      */
     @Override
     protected EClass eStaticClass() {
-        return Ifc2x3tc1Package.Literals.IFC_CURTAIN_WALL;
+        return Ifc2x3tc1Package.eINSTANCE.getIfcCurtainWall();
     }
 
 } //IfcCurtainWallImpl

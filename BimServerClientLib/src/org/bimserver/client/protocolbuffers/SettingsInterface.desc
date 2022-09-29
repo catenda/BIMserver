@@ -18,12 +18,12 @@
 allowSelfRegistration (RallowSelfRegistration4
 checkinMergingEnabled (RcheckinMergingEnabled2
 allowOnlyWhitelisted (RallowOnlyWhitelisted 
-webModuleId (RwebModuleId
+webModuleId (RwebModuleId
+oid	 (Roid
 
-webModules	 (R
+webModules
+ (R
 webModules
-oid
- (Roid
 rid (Rrid.
 emailSenderAddress (	RemailSenderAddress
 

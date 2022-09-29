@@ -40,10 +40,6 @@ public interface IfcTask extends IfcProcess {
     /**
      * Returns the value of the '<em><b>Task Id</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Task Id</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Task Id</em>' attribute.
      * @see #setTaskId(String)
@@ -66,10 +62,6 @@ public interface IfcTask extends IfcProcess {
     /**
      * Returns the value of the '<em><b>Status</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Status</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Status</em>' attribute.
      * @see #isSetStatus()
@@ -119,10 +111,6 @@ public interface IfcTask extends IfcProcess {
     /**
      * Returns the value of the '<em><b>Work Method</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Work Method</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Work Method</em>' attribute.
      * @see #isSetWorkMethod()
@@ -173,10 +161,6 @@ public interface IfcTask extends IfcProcess {
      * Returns the value of the '<em><b>Is Milestone</b></em>' attribute.
      * The literals are from the enumeration {@link org.bimserver.models.ifc2x3tc1.Tristate}.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Is Milestone</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Is Milestone</em>' attribute.
      * @see org.bimserver.models.ifc2x3tc1.Tristate
@@ -201,10 +185,6 @@ public interface IfcTask extends IfcProcess {
     /**
      * Returns the value of the '<em><b>Priority</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Priority</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Priority</em>' attribute.
      * @see #isSetPriority()

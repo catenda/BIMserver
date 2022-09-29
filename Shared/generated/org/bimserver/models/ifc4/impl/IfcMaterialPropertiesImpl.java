@@ -52,7 +52,7 @@ public class IfcMaterialPropertiesImpl extends IfcExtendedPropertiesImpl impleme
      */
     @Override
     protected EClass eStaticClass() {
-        return Ifc4Package.Literals.IFC_MATERIAL_PROPERTIES;
+        return Ifc4Package.eINSTANCE.getIfcMaterialProperties();
     }
 
     /**
@@ -62,7 +62,7 @@ public class IfcMaterialPropertiesImpl extends IfcExtendedPropertiesImpl impleme
      */
     @Override
     public IfcMaterialDefinition getMaterial() {
-        return (IfcMaterialDefinition) eGet(Ifc4Package.Literals.IFC_MATERIAL_PROPERTIES__MATERIAL, true);
+        return (IfcMaterialDefinition) eGet(Ifc4Package.eINSTANCE.getIfcMaterialProperties_Material(), true);
     }
 
     /**
@@ -72,7 +72,7 @@ public class IfcMaterialPropertiesImpl extends IfcExtendedPropertiesImpl impleme
      */
     @Override
     public void setMaterial(IfcMaterialDefinition newMaterial) {
-        eSet(Ifc4Package.Literals.IFC_MATERIAL_PROPERTIES__MATERIAL, newMaterial);
+        eSet(Ifc4Package.eINSTANCE.getIfcMaterialProperties_Material(), newMaterial);
     }
 
 } //IfcMaterialPropertiesImpl

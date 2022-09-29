@@ -62,7 +62,7 @@ public class IfcRelConnectsStructuralMemberImpl extends IfcRelConnectsImpl imple
      */
     @Override
     protected EClass eStaticClass() {
-        return Ifc2x3tc1Package.Literals.IFC_REL_CONNECTS_STRUCTURAL_MEMBER;
+        return Ifc2x3tc1Package.eINSTANCE.getIfcRelConnectsStructuralMember();
     }
 
     /**
@@ -73,7 +73,7 @@ public class IfcRelConnectsStructuralMemberImpl extends IfcRelConnectsImpl imple
     @Override
     public IfcStructuralMember getRelatingStructuralMember() {
         return (IfcStructuralMember) eGet(
-                Ifc2x3tc1Package.Literals.IFC_REL_CONNECTS_STRUCTURAL_MEMBER__RELATING_STRUCTURAL_MEMBER, true);
+                Ifc2x3tc1Package.eINSTANCE.getIfcRelConnectsStructuralMember_RelatingStructuralMember(), true);
     }
 
     /**
@@ -83,7 +83,7 @@ public class IfcRelConnectsStructuralMemberImpl extends IfcRelConnectsImpl imple
      */
     @Override
     public void setRelatingStructuralMember(IfcStructuralMember newRelatingStructuralMember) {
-        eSet(Ifc2x3tc1Package.Literals.IFC_REL_CONNECTS_STRUCTURAL_MEMBER__RELATING_STRUCTURAL_MEMBER,
+        eSet(Ifc2x3tc1Package.eINSTANCE.getIfcRelConnectsStructuralMember_RelatingStructuralMember(),
                 newRelatingStructuralMember);
     }
 
@@ -95,7 +95,7 @@ public class IfcRelConnectsStructuralMemberImpl extends IfcRelConnectsImpl imple
     @Override
     public IfcStructuralConnection getRelatedStructuralConnection() {
         return (IfcStructuralConnection) eGet(
-                Ifc2x3tc1Package.Literals.IFC_REL_CONNECTS_STRUCTURAL_MEMBER__RELATED_STRUCTURAL_CONNECTION, true);
+                Ifc2x3tc1Package.eINSTANCE.getIfcRelConnectsStructuralMember_RelatedStructuralConnection(), true);
     }
 
     /**
@@ -105,7 +105,7 @@ public class IfcRelConnectsStructuralMemberImpl extends IfcRelConnectsImpl imple
      */
     @Override
     public void setRelatedStructuralConnection(IfcStructuralConnection newRelatedStructuralConnection) {
-        eSet(Ifc2x3tc1Package.Literals.IFC_REL_CONNECTS_STRUCTURAL_MEMBER__RELATED_STRUCTURAL_CONNECTION,
+        eSet(Ifc2x3tc1Package.eINSTANCE.getIfcRelConnectsStructuralMember_RelatedStructuralConnection(),
                 newRelatedStructuralConnection);
     }
 
@@ -117,7 +117,7 @@ public class IfcRelConnectsStructuralMemberImpl extends IfcRelConnectsImpl imple
     @Override
     public IfcBoundaryCondition getAppliedCondition() {
         return (IfcBoundaryCondition) eGet(
-                Ifc2x3tc1Package.Literals.IFC_REL_CONNECTS_STRUCTURAL_MEMBER__APPLIED_CONDITION, true);
+                Ifc2x3tc1Package.eINSTANCE.getIfcRelConnectsStructuralMember_AppliedCondition(), true);
     }
 
     /**
@@ -127,7 +127,7 @@ public class IfcRelConnectsStructuralMemberImpl extends IfcRelConnectsImpl imple
      */
     @Override
     public void setAppliedCondition(IfcBoundaryCondition newAppliedCondition) {
-        eSet(Ifc2x3tc1Package.Literals.IFC_REL_CONNECTS_STRUCTURAL_MEMBER__APPLIED_CONDITION, newAppliedCondition);
+        eSet(Ifc2x3tc1Package.eINSTANCE.getIfcRelConnectsStructuralMember_AppliedCondition(), newAppliedCondition);
     }
 
     /**
@@ -137,7 +137,7 @@ public class IfcRelConnectsStructuralMemberImpl extends IfcRelConnectsImpl imple
      */
     @Override
     public void unsetAppliedCondition() {
-        eUnset(Ifc2x3tc1Package.Literals.IFC_REL_CONNECTS_STRUCTURAL_MEMBER__APPLIED_CONDITION);
+        eUnset(Ifc2x3tc1Package.eINSTANCE.getIfcRelConnectsStructuralMember_AppliedCondition());
     }
 
     /**
@@ -147,7 +147,7 @@ public class IfcRelConnectsStructuralMemberImpl extends IfcRelConnectsImpl imple
      */
     @Override
     public boolean isSetAppliedCondition() {
-        return eIsSet(Ifc2x3tc1Package.Literals.IFC_REL_CONNECTS_STRUCTURAL_MEMBER__APPLIED_CONDITION);
+        return eIsSet(Ifc2x3tc1Package.eINSTANCE.getIfcRelConnectsStructuralMember_AppliedCondition());
     }
 
     /**
@@ -158,7 +158,7 @@ public class IfcRelConnectsStructuralMemberImpl extends IfcRelConnectsImpl imple
     @Override
     public IfcStructuralConnectionCondition getAdditionalConditions() {
         return (IfcStructuralConnectionCondition) eGet(
-                Ifc2x3tc1Package.Literals.IFC_REL_CONNECTS_STRUCTURAL_MEMBER__ADDITIONAL_CONDITIONS, true);
+                Ifc2x3tc1Package.eINSTANCE.getIfcRelConnectsStructuralMember_AdditionalConditions(), true);
     }
 
     /**
@@ -168,7 +168,7 @@ public class IfcRelConnectsStructuralMemberImpl extends IfcRelConnectsImpl imple
      */
     @Override
     public void setAdditionalConditions(IfcStructuralConnectionCondition newAdditionalConditions) {
-        eSet(Ifc2x3tc1Package.Literals.IFC_REL_CONNECTS_STRUCTURAL_MEMBER__ADDITIONAL_CONDITIONS,
+        eSet(Ifc2x3tc1Package.eINSTANCE.getIfcRelConnectsStructuralMember_AdditionalConditions(),
                 newAdditionalConditions);
     }
 
@@ -179,7 +179,7 @@ public class IfcRelConnectsStructuralMemberImpl extends IfcRelConnectsImpl imple
      */
     @Override
     public void unsetAdditionalConditions() {
-        eUnset(Ifc2x3tc1Package.Literals.IFC_REL_CONNECTS_STRUCTURAL_MEMBER__ADDITIONAL_CONDITIONS);
+        eUnset(Ifc2x3tc1Package.eINSTANCE.getIfcRelConnectsStructuralMember_AdditionalConditions());
     }
 
     /**
@@ -189,7 +189,7 @@ public class IfcRelConnectsStructuralMemberImpl extends IfcRelConnectsImpl imple
      */
     @Override
     public boolean isSetAdditionalConditions() {
-        return eIsSet(Ifc2x3tc1Package.Literals.IFC_REL_CONNECTS_STRUCTURAL_MEMBER__ADDITIONAL_CONDITIONS);
+        return eIsSet(Ifc2x3tc1Package.eINSTANCE.getIfcRelConnectsStructuralMember_AdditionalConditions());
     }
 
     /**
@@ -199,7 +199,7 @@ public class IfcRelConnectsStructuralMemberImpl extends IfcRelConnectsImpl imple
      */
     @Override
     public double getSupportedLength() {
-        return (Double) eGet(Ifc2x3tc1Package.Literals.IFC_REL_CONNECTS_STRUCTURAL_MEMBER__SUPPORTED_LENGTH, true);
+        return (Double) eGet(Ifc2x3tc1Package.eINSTANCE.getIfcRelConnectsStructuralMember_SupportedLength(), true);
     }
 
     /**
@@ -209,7 +209,7 @@ public class IfcRelConnectsStructuralMemberImpl extends IfcRelConnectsImpl imple
      */
     @Override
     public void setSupportedLength(double newSupportedLength) {
-        eSet(Ifc2x3tc1Package.Literals.IFC_REL_CONNECTS_STRUCTURAL_MEMBER__SUPPORTED_LENGTH, newSupportedLength);
+        eSet(Ifc2x3tc1Package.eINSTANCE.getIfcRelConnectsStructuralMember_SupportedLength(), newSupportedLength);
     }
 
     /**
@@ -219,7 +219,7 @@ public class IfcRelConnectsStructuralMemberImpl extends IfcRelConnectsImpl imple
      */
     @Override
     public void unsetSupportedLength() {
-        eUnset(Ifc2x3tc1Package.Literals.IFC_REL_CONNECTS_STRUCTURAL_MEMBER__SUPPORTED_LENGTH);
+        eUnset(Ifc2x3tc1Package.eINSTANCE.getIfcRelConnectsStructuralMember_SupportedLength());
     }
 
     /**
@@ -229,7 +229,7 @@ public class IfcRelConnectsStructuralMemberImpl extends IfcRelConnectsImpl imple
      */
     @Override
     public boolean isSetSupportedLength() {
-        return eIsSet(Ifc2x3tc1Package.Literals.IFC_REL_CONNECTS_STRUCTURAL_MEMBER__SUPPORTED_LENGTH);
+        return eIsSet(Ifc2x3tc1Package.eINSTANCE.getIfcRelConnectsStructuralMember_SupportedLength());
     }
 
     /**
@@ -239,7 +239,7 @@ public class IfcRelConnectsStructuralMemberImpl extends IfcRelConnectsImpl imple
      */
     @Override
     public String getSupportedLengthAsString() {
-        return (String) eGet(Ifc2x3tc1Package.Literals.IFC_REL_CONNECTS_STRUCTURAL_MEMBER__SUPPORTED_LENGTH_AS_STRING,
+        return (String) eGet(Ifc2x3tc1Package.eINSTANCE.getIfcRelConnectsStructuralMember_SupportedLengthAsString(),
                 true);
     }
 
@@ -250,7 +250,7 @@ public class IfcRelConnectsStructuralMemberImpl extends IfcRelConnectsImpl imple
      */
     @Override
     public void setSupportedLengthAsString(String newSupportedLengthAsString) {
-        eSet(Ifc2x3tc1Package.Literals.IFC_REL_CONNECTS_STRUCTURAL_MEMBER__SUPPORTED_LENGTH_AS_STRING,
+        eSet(Ifc2x3tc1Package.eINSTANCE.getIfcRelConnectsStructuralMember_SupportedLengthAsString(),
                 newSupportedLengthAsString);
     }
 
@@ -261,7 +261,7 @@ public class IfcRelConnectsStructuralMemberImpl extends IfcRelConnectsImpl imple
      */
     @Override
     public void unsetSupportedLengthAsString() {
-        eUnset(Ifc2x3tc1Package.Literals.IFC_REL_CONNECTS_STRUCTURAL_MEMBER__SUPPORTED_LENGTH_AS_STRING);
+        eUnset(Ifc2x3tc1Package.eINSTANCE.getIfcRelConnectsStructuralMember_SupportedLengthAsString());
     }
 
     /**
@@ -271,7 +271,7 @@ public class IfcRelConnectsStructuralMemberImpl extends IfcRelConnectsImpl imple
      */
     @Override
     public boolean isSetSupportedLengthAsString() {
-        return eIsSet(Ifc2x3tc1Package.Literals.IFC_REL_CONNECTS_STRUCTURAL_MEMBER__SUPPORTED_LENGTH_AS_STRING);
+        return eIsSet(Ifc2x3tc1Package.eINSTANCE.getIfcRelConnectsStructuralMember_SupportedLengthAsString());
     }
 
     /**
@@ -282,7 +282,7 @@ public class IfcRelConnectsStructuralMemberImpl extends IfcRelConnectsImpl imple
     @Override
     public IfcAxis2Placement3D getConditionCoordinateSystem() {
         return (IfcAxis2Placement3D) eGet(
-                Ifc2x3tc1Package.Literals.IFC_REL_CONNECTS_STRUCTURAL_MEMBER__CONDITION_COORDINATE_SYSTEM, true);
+                Ifc2x3tc1Package.eINSTANCE.getIfcRelConnectsStructuralMember_ConditionCoordinateSystem(), true);
     }
 
     /**
@@ -292,7 +292,7 @@ public class IfcRelConnectsStructuralMemberImpl extends IfcRelConnectsImpl imple
      */
     @Override
     public void setConditionCoordinateSystem(IfcAxis2Placement3D newConditionCoordinateSystem) {
-        eSet(Ifc2x3tc1Package.Literals.IFC_REL_CONNECTS_STRUCTURAL_MEMBER__CONDITION_COORDINATE_SYSTEM,
+        eSet(Ifc2x3tc1Package.eINSTANCE.getIfcRelConnectsStructuralMember_ConditionCoordinateSystem(),
                 newConditionCoordinateSystem);
     }
 
@@ -303,7 +303,7 @@ public class IfcRelConnectsStructuralMemberImpl extends IfcRelConnectsImpl imple
      */
     @Override
     public void unsetConditionCoordinateSystem() {
-        eUnset(Ifc2x3tc1Package.Literals.IFC_REL_CONNECTS_STRUCTURAL_MEMBER__CONDITION_COORDINATE_SYSTEM);
+        eUnset(Ifc2x3tc1Package.eINSTANCE.getIfcRelConnectsStructuralMember_ConditionCoordinateSystem());
     }
 
     /**
@@ -313,7 +313,7 @@ public class IfcRelConnectsStructuralMemberImpl extends IfcRelConnectsImpl imple
      */
     @Override
     public boolean isSetConditionCoordinateSystem() {
-        return eIsSet(Ifc2x3tc1Package.Literals.IFC_REL_CONNECTS_STRUCTURAL_MEMBER__CONDITION_COORDINATE_SYSTEM);
+        return eIsSet(Ifc2x3tc1Package.eINSTANCE.getIfcRelConnectsStructuralMember_ConditionCoordinateSystem());
     }
 
 } //IfcRelConnectsStructuralMemberImpl

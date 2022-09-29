@@ -52,7 +52,7 @@ public class IfcBuildingElementProxyTypeImpl extends IfcBuildingElementTypeImpl 
      */
     @Override
     protected EClass eStaticClass() {
-        return Ifc4Package.Literals.IFC_BUILDING_ELEMENT_PROXY_TYPE;
+        return Ifc4Package.eINSTANCE.getIfcBuildingElementProxyType();
     }
 
     /**
@@ -63,7 +63,7 @@ public class IfcBuildingElementProxyTypeImpl extends IfcBuildingElementTypeImpl 
     @Override
     public IfcBuildingElementProxyTypeEnum getPredefinedType() {
         return (IfcBuildingElementProxyTypeEnum) eGet(
-                Ifc4Package.Literals.IFC_BUILDING_ELEMENT_PROXY_TYPE__PREDEFINED_TYPE, true);
+                Ifc4Package.eINSTANCE.getIfcBuildingElementProxyType_PredefinedType(), true);
     }
 
     /**
@@ -73,7 +73,7 @@ public class IfcBuildingElementProxyTypeImpl extends IfcBuildingElementTypeImpl 
      */
     @Override
     public void setPredefinedType(IfcBuildingElementProxyTypeEnum newPredefinedType) {
-        eSet(Ifc4Package.Literals.IFC_BUILDING_ELEMENT_PROXY_TYPE__PREDEFINED_TYPE, newPredefinedType);
+        eSet(Ifc4Package.eINSTANCE.getIfcBuildingElementProxyType_PredefinedType(), newPredefinedType);
     }
 
 } //IfcBuildingElementProxyTypeImpl

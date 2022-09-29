@@ -52,7 +52,7 @@ public class IfcWallTypeImpl extends IfcBuildingElementTypeImpl implements IfcWa
      */
     @Override
     protected EClass eStaticClass() {
-        return Ifc4Package.Literals.IFC_WALL_TYPE;
+        return Ifc4Package.eINSTANCE.getIfcWallType();
     }
 
     /**
@@ -62,7 +62,7 @@ public class IfcWallTypeImpl extends IfcBuildingElementTypeImpl implements IfcWa
      */
     @Override
     public IfcWallTypeEnum getPredefinedType() {
-        return (IfcWallTypeEnum) eGet(Ifc4Package.Literals.IFC_WALL_TYPE__PREDEFINED_TYPE, true);
+        return (IfcWallTypeEnum) eGet(Ifc4Package.eINSTANCE.getIfcWallType_PredefinedType(), true);
     }
 
     /**
@@ -72,7 +72,7 @@ public class IfcWallTypeImpl extends IfcBuildingElementTypeImpl implements IfcWa
      */
     @Override
     public void setPredefinedType(IfcWallTypeEnum newPredefinedType) {
-        eSet(Ifc4Package.Literals.IFC_WALL_TYPE__PREDEFINED_TYPE, newPredefinedType);
+        eSet(Ifc4Package.eINSTANCE.getIfcWallType_PredefinedType(), newPredefinedType);
     }
 
 } //IfcWallTypeImpl

@@ -52,7 +52,7 @@ public class IfcElectricGeneratorImpl extends IfcEnergyConversionDeviceImpl impl
      */
     @Override
     protected EClass eStaticClass() {
-        return Ifc4Package.Literals.IFC_ELECTRIC_GENERATOR;
+        return Ifc4Package.eINSTANCE.getIfcElectricGenerator();
     }
 
     /**
@@ -62,7 +62,8 @@ public class IfcElectricGeneratorImpl extends IfcEnergyConversionDeviceImpl impl
      */
     @Override
     public IfcElectricGeneratorTypeEnum getPredefinedType() {
-        return (IfcElectricGeneratorTypeEnum) eGet(Ifc4Package.Literals.IFC_ELECTRIC_GENERATOR__PREDEFINED_TYPE, true);
+        return (IfcElectricGeneratorTypeEnum) eGet(Ifc4Package.eINSTANCE.getIfcElectricGenerator_PredefinedType(),
+                true);
     }
 
     /**
@@ -72,7 +73,7 @@ public class IfcElectricGeneratorImpl extends IfcEnergyConversionDeviceImpl impl
      */
     @Override
     public void setPredefinedType(IfcElectricGeneratorTypeEnum newPredefinedType) {
-        eSet(Ifc4Package.Literals.IFC_ELECTRIC_GENERATOR__PREDEFINED_TYPE, newPredefinedType);
+        eSet(Ifc4Package.eINSTANCE.getIfcElectricGenerator_PredefinedType(), newPredefinedType);
     }
 
     /**
@@ -82,7 +83,7 @@ public class IfcElectricGeneratorImpl extends IfcEnergyConversionDeviceImpl impl
      */
     @Override
     public void unsetPredefinedType() {
-        eUnset(Ifc4Package.Literals.IFC_ELECTRIC_GENERATOR__PREDEFINED_TYPE);
+        eUnset(Ifc4Package.eINSTANCE.getIfcElectricGenerator_PredefinedType());
     }
 
     /**
@@ -92,7 +93,7 @@ public class IfcElectricGeneratorImpl extends IfcEnergyConversionDeviceImpl impl
      */
     @Override
     public boolean isSetPredefinedType() {
-        return eIsSet(Ifc4Package.Literals.IFC_ELECTRIC_GENERATOR__PREDEFINED_TYPE);
+        return eIsSet(Ifc4Package.eINSTANCE.getIfcElectricGenerator_PredefinedType());
     }
 
 } //IfcElectricGeneratorImpl

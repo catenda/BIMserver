@@ -53,7 +53,7 @@ public class IfcConversionBasedUnitWithOffsetImpl extends IfcConversionBasedUnit
      */
     @Override
     protected EClass eStaticClass() {
-        return Ifc4Package.Literals.IFC_CONVERSION_BASED_UNIT_WITH_OFFSET;
+        return Ifc4Package.eINSTANCE.getIfcConversionBasedUnitWithOffset();
     }
 
     /**
@@ -63,7 +63,7 @@ public class IfcConversionBasedUnitWithOffsetImpl extends IfcConversionBasedUnit
      */
     @Override
     public double getConversionOffset() {
-        return (Double) eGet(Ifc4Package.Literals.IFC_CONVERSION_BASED_UNIT_WITH_OFFSET__CONVERSION_OFFSET, true);
+        return (Double) eGet(Ifc4Package.eINSTANCE.getIfcConversionBasedUnitWithOffset_ConversionOffset(), true);
     }
 
     /**
@@ -73,7 +73,7 @@ public class IfcConversionBasedUnitWithOffsetImpl extends IfcConversionBasedUnit
      */
     @Override
     public void setConversionOffset(double newConversionOffset) {
-        eSet(Ifc4Package.Literals.IFC_CONVERSION_BASED_UNIT_WITH_OFFSET__CONVERSION_OFFSET, newConversionOffset);
+        eSet(Ifc4Package.eINSTANCE.getIfcConversionBasedUnitWithOffset_ConversionOffset(), newConversionOffset);
     }
 
     /**
@@ -83,7 +83,7 @@ public class IfcConversionBasedUnitWithOffsetImpl extends IfcConversionBasedUnit
      */
     @Override
     public String getConversionOffsetAsString() {
-        return (String) eGet(Ifc4Package.Literals.IFC_CONVERSION_BASED_UNIT_WITH_OFFSET__CONVERSION_OFFSET_AS_STRING,
+        return (String) eGet(Ifc4Package.eINSTANCE.getIfcConversionBasedUnitWithOffset_ConversionOffsetAsString(),
                 true);
     }
 
@@ -94,7 +94,7 @@ public class IfcConversionBasedUnitWithOffsetImpl extends IfcConversionBasedUnit
      */
     @Override
     public void setConversionOffsetAsString(String newConversionOffsetAsString) {
-        eSet(Ifc4Package.Literals.IFC_CONVERSION_BASED_UNIT_WITH_OFFSET__CONVERSION_OFFSET_AS_STRING,
+        eSet(Ifc4Package.eINSTANCE.getIfcConversionBasedUnitWithOffset_ConversionOffsetAsString(),
                 newConversionOffsetAsString);
     }
 

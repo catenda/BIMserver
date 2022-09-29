@@ -54,7 +54,7 @@ public class IfcFaceSurfaceImpl extends IfcFaceImpl implements IfcFaceSurface {
      */
     @Override
     protected EClass eStaticClass() {
-        return Ifc4Package.Literals.IFC_FACE_SURFACE;
+        return Ifc4Package.eINSTANCE.getIfcFaceSurface();
     }
 
     /**
@@ -64,7 +64,7 @@ public class IfcFaceSurfaceImpl extends IfcFaceImpl implements IfcFaceSurface {
      */
     @Override
     public IfcSurface getFaceSurface() {
-        return (IfcSurface) eGet(Ifc4Package.Literals.IFC_FACE_SURFACE__FACE_SURFACE, true);
+        return (IfcSurface) eGet(Ifc4Package.eINSTANCE.getIfcFaceSurface_FaceSurface(), true);
     }
 
     /**
@@ -74,7 +74,7 @@ public class IfcFaceSurfaceImpl extends IfcFaceImpl implements IfcFaceSurface {
      */
     @Override
     public void setFaceSurface(IfcSurface newFaceSurface) {
-        eSet(Ifc4Package.Literals.IFC_FACE_SURFACE__FACE_SURFACE, newFaceSurface);
+        eSet(Ifc4Package.eINSTANCE.getIfcFaceSurface_FaceSurface(), newFaceSurface);
     }
 
     /**
@@ -84,7 +84,7 @@ public class IfcFaceSurfaceImpl extends IfcFaceImpl implements IfcFaceSurface {
      */
     @Override
     public Tristate getSameSense() {
-        return (Tristate) eGet(Ifc4Package.Literals.IFC_FACE_SURFACE__SAME_SENSE, true);
+        return (Tristate) eGet(Ifc4Package.eINSTANCE.getIfcFaceSurface_SameSense(), true);
     }
 
     /**
@@ -94,7 +94,7 @@ public class IfcFaceSurfaceImpl extends IfcFaceImpl implements IfcFaceSurface {
      */
     @Override
     public void setSameSense(Tristate newSameSense) {
-        eSet(Ifc4Package.Literals.IFC_FACE_SURFACE__SAME_SENSE, newSameSense);
+        eSet(Ifc4Package.eINSTANCE.getIfcFaceSurface_SameSense(), newSameSense);
     }
 
 } //IfcFaceSurfaceImpl

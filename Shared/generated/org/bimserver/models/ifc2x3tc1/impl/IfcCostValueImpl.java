@@ -52,7 +52,7 @@ public class IfcCostValueImpl extends IfcAppliedValueImpl implements IfcCostValu
      */
     @Override
     protected EClass eStaticClass() {
-        return Ifc2x3tc1Package.Literals.IFC_COST_VALUE;
+        return Ifc2x3tc1Package.eINSTANCE.getIfcCostValue();
     }
 
     /**
@@ -62,7 +62,7 @@ public class IfcCostValueImpl extends IfcAppliedValueImpl implements IfcCostValu
      */
     @Override
     public String getCostType() {
-        return (String) eGet(Ifc2x3tc1Package.Literals.IFC_COST_VALUE__COST_TYPE, true);
+        return (String) eGet(Ifc2x3tc1Package.eINSTANCE.getIfcCostValue_CostType(), true);
     }
 
     /**
@@ -72,7 +72,7 @@ public class IfcCostValueImpl extends IfcAppliedValueImpl implements IfcCostValu
      */
     @Override
     public void setCostType(String newCostType) {
-        eSet(Ifc2x3tc1Package.Literals.IFC_COST_VALUE__COST_TYPE, newCostType);
+        eSet(Ifc2x3tc1Package.eINSTANCE.getIfcCostValue_CostType(), newCostType);
     }
 
     /**
@@ -82,7 +82,7 @@ public class IfcCostValueImpl extends IfcAppliedValueImpl implements IfcCostValu
      */
     @Override
     public String getCondition() {
-        return (String) eGet(Ifc2x3tc1Package.Literals.IFC_COST_VALUE__CONDITION, true);
+        return (String) eGet(Ifc2x3tc1Package.eINSTANCE.getIfcCostValue_Condition(), true);
     }
 
     /**
@@ -92,7 +92,7 @@ public class IfcCostValueImpl extends IfcAppliedValueImpl implements IfcCostValu
      */
     @Override
     public void setCondition(String newCondition) {
-        eSet(Ifc2x3tc1Package.Literals.IFC_COST_VALUE__CONDITION, newCondition);
+        eSet(Ifc2x3tc1Package.eINSTANCE.getIfcCostValue_Condition(), newCondition);
     }
 
     /**
@@ -102,7 +102,7 @@ public class IfcCostValueImpl extends IfcAppliedValueImpl implements IfcCostValu
      */
     @Override
     public void unsetCondition() {
-        eUnset(Ifc2x3tc1Package.Literals.IFC_COST_VALUE__CONDITION);
+        eUnset(Ifc2x3tc1Package.eINSTANCE.getIfcCostValue_Condition());
     }
 
     /**
@@ -112,7 +112,7 @@ public class IfcCostValueImpl extends IfcAppliedValueImpl implements IfcCostValu
      */
     @Override
     public boolean isSetCondition() {
-        return eIsSet(Ifc2x3tc1Package.Literals.IFC_COST_VALUE__CONDITION);
+        return eIsSet(Ifc2x3tc1Package.eINSTANCE.getIfcCostValue_Condition());
     }
 
 } //IfcCostValueImpl

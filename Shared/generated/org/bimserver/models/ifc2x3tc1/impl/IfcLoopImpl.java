@@ -45,7 +45,7 @@ public class IfcLoopImpl extends IfcTopologicalRepresentationItemImpl implements
      */
     @Override
     protected EClass eStaticClass() {
-        return Ifc2x3tc1Package.Literals.IFC_LOOP;
+        return Ifc2x3tc1Package.eINSTANCE.getIfcLoop();
     }
 
 } //IfcLoopImpl

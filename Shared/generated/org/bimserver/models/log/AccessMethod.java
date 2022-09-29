@@ -105,10 +105,6 @@ public enum AccessMethod implements Enumerator {
     /**
      * The '<em><b>SOAP</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>SOAP</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #SOAP
      * @model
@@ -120,10 +116,6 @@ public enum AccessMethod implements Enumerator {
     /**
      * The '<em><b>WEB INTERFACE</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>WEB INTERFACE</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #WEB_INTERFACE
      * @model
@@ -135,10 +127,6 @@ public enum AccessMethod implements Enumerator {
     /**
      * The '<em><b>INTERNAL</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>INTERNAL</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #INTERNAL
      * @model
@@ -150,10 +138,6 @@ public enum AccessMethod implements Enumerator {
     /**
      * The '<em><b>REST</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>REST</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #REST
      * @model
@@ -165,10 +149,6 @@ public enum AccessMethod implements Enumerator {
     /**
      * The '<em><b>SYNDICATION</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>SYNDICATION</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #SYNDICATION
      * @model
@@ -180,10 +160,6 @@ public enum AccessMethod implements Enumerator {
     /**
      * The '<em><b>JSON</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>JSON</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #JSON
      * @model
@@ -195,10 +171,6 @@ public enum AccessMethod implements Enumerator {
     /**
      * The '<em><b>PROTOCOL BUFFERS</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>PROTOCOL BUFFERS</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #PROTOCOL_BUFFERS
      * @model

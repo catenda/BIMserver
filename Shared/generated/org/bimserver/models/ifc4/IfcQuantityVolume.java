@@ -38,10 +38,6 @@ public interface IfcQuantityVolume extends IfcPhysicalSimpleQuantity {
     /**
      * Returns the value of the '<em><b>Volume Value</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Volume Value</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Volume Value</em>' attribute.
      * @see #setVolumeValue(double)
@@ -64,10 +60,6 @@ public interface IfcQuantityVolume extends IfcPhysicalSimpleQuantity {
     /**
      * Returns the value of the '<em><b>Volume Value As String</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Volume Value As String</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Volume Value As String</em>' attribute.
      * @see #setVolumeValueAsString(String)
@@ -91,10 +83,6 @@ public interface IfcQuantityVolume extends IfcPhysicalSimpleQuantity {
     /**
      * Returns the value of the '<em><b>Formula</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Formula</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Formula</em>' attribute.
      * @see #isSetFormula()

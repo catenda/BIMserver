@@ -57,7 +57,7 @@ public class IfcExtendedMaterialPropertiesImpl extends IfcMaterialPropertiesImpl
      */
     @Override
     protected EClass eStaticClass() {
-        return Ifc2x3tc1Package.Literals.IFC_EXTENDED_MATERIAL_PROPERTIES;
+        return Ifc2x3tc1Package.eINSTANCE.getIfcExtendedMaterialProperties();
     }
 
     /**
@@ -69,7 +69,7 @@ public class IfcExtendedMaterialPropertiesImpl extends IfcMaterialPropertiesImpl
     @Override
     public EList<IfcProperty> getExtendedProperties() {
         return (EList<IfcProperty>) eGet(
-                Ifc2x3tc1Package.Literals.IFC_EXTENDED_MATERIAL_PROPERTIES__EXTENDED_PROPERTIES, true);
+                Ifc2x3tc1Package.eINSTANCE.getIfcExtendedMaterialProperties_ExtendedProperties(), true);
     }
 
     /**
@@ -79,7 +79,7 @@ public class IfcExtendedMaterialPropertiesImpl extends IfcMaterialPropertiesImpl
      */
     @Override
     public String getDescription() {
-        return (String) eGet(Ifc2x3tc1Package.Literals.IFC_EXTENDED_MATERIAL_PROPERTIES__DESCRIPTION, true);
+        return (String) eGet(Ifc2x3tc1Package.eINSTANCE.getIfcExtendedMaterialProperties_Description(), true);
     }
 
     /**
@@ -89,7 +89,7 @@ public class IfcExtendedMaterialPropertiesImpl extends IfcMaterialPropertiesImpl
      */
     @Override
     public void setDescription(String newDescription) {
-        eSet(Ifc2x3tc1Package.Literals.IFC_EXTENDED_MATERIAL_PROPERTIES__DESCRIPTION, newDescription);
+        eSet(Ifc2x3tc1Package.eINSTANCE.getIfcExtendedMaterialProperties_Description(), newDescription);
     }
 
     /**
@@ -99,7 +99,7 @@ public class IfcExtendedMaterialPropertiesImpl extends IfcMaterialPropertiesImpl
      */
     @Override
     public void unsetDescription() {
-        eUnset(Ifc2x3tc1Package.Literals.IFC_EXTENDED_MATERIAL_PROPERTIES__DESCRIPTION);
+        eUnset(Ifc2x3tc1Package.eINSTANCE.getIfcExtendedMaterialProperties_Description());
     }
 
     /**
@@ -109,7 +109,7 @@ public class IfcExtendedMaterialPropertiesImpl extends IfcMaterialPropertiesImpl
      */
     @Override
     public boolean isSetDescription() {
-        return eIsSet(Ifc2x3tc1Package.Literals.IFC_EXTENDED_MATERIAL_PROPERTIES__DESCRIPTION);
+        return eIsSet(Ifc2x3tc1Package.eINSTANCE.getIfcExtendedMaterialProperties_Description());
     }
 
     /**
@@ -119,7 +119,7 @@ public class IfcExtendedMaterialPropertiesImpl extends IfcMaterialPropertiesImpl
      */
     @Override
     public String getName() {
-        return (String) eGet(Ifc2x3tc1Package.Literals.IFC_EXTENDED_MATERIAL_PROPERTIES__NAME, true);
+        return (String) eGet(Ifc2x3tc1Package.eINSTANCE.getIfcExtendedMaterialProperties_Name(), true);
     }
 
     /**
@@ -129,7 +129,7 @@ public class IfcExtendedMaterialPropertiesImpl extends IfcMaterialPropertiesImpl
      */
     @Override
     public void setName(String newName) {
-        eSet(Ifc2x3tc1Package.Literals.IFC_EXTENDED_MATERIAL_PROPERTIES__NAME, newName);
+        eSet(Ifc2x3tc1Package.eINSTANCE.getIfcExtendedMaterialProperties_Name(), newName);
     }
 
 } //IfcExtendedMaterialPropertiesImpl

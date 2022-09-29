@@ -45,7 +45,7 @@ public class IfcPlateImpl extends IfcBuildingElementImpl implements IfcPlate {
      */
     @Override
     protected EClass eStaticClass() {
-        return Ifc2x3tc1Package.Literals.IFC_PLATE;
+        return Ifc2x3tc1Package.eINSTANCE.getIfcPlate();
     }
 
 } //IfcPlateImpl

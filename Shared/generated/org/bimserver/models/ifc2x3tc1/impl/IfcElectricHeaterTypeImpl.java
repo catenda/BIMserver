@@ -52,7 +52,7 @@ public class IfcElectricHeaterTypeImpl extends IfcFlowTerminalTypeImpl implement
      */
     @Override
     protected EClass eStaticClass() {
-        return Ifc2x3tc1Package.Literals.IFC_ELECTRIC_HEATER_TYPE;
+        return Ifc2x3tc1Package.eINSTANCE.getIfcElectricHeaterType();
     }
 
     /**
@@ -62,7 +62,7 @@ public class IfcElectricHeaterTypeImpl extends IfcFlowTerminalTypeImpl implement
      */
     @Override
     public IfcElectricHeaterTypeEnum getPredefinedType() {
-        return (IfcElectricHeaterTypeEnum) eGet(Ifc2x3tc1Package.Literals.IFC_ELECTRIC_HEATER_TYPE__PREDEFINED_TYPE,
+        return (IfcElectricHeaterTypeEnum) eGet(Ifc2x3tc1Package.eINSTANCE.getIfcElectricHeaterType_PredefinedType(),
                 true);
     }
 
@@ -73,7 +73,7 @@ public class IfcElectricHeaterTypeImpl extends IfcFlowTerminalTypeImpl implement
      */
     @Override
     public void setPredefinedType(IfcElectricHeaterTypeEnum newPredefinedType) {
-        eSet(Ifc2x3tc1Package.Literals.IFC_ELECTRIC_HEATER_TYPE__PREDEFINED_TYPE, newPredefinedType);
+        eSet(Ifc2x3tc1Package.eINSTANCE.getIfcElectricHeaterType_PredefinedType(), newPredefinedType);
     }
 
 } //IfcElectricHeaterTypeImpl

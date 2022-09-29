@@ -39,10 +39,6 @@ public interface IfcStructuralLinearActionVarying extends IfcStructuralLinearAct
     /**
      * Returns the value of the '<em><b>Varying Applied Load Location</b></em>' reference.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Varying Applied Load Location</em>' reference isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Varying Applied Load Location</em>' reference.
      * @see #setVaryingAppliedLoadLocation(IfcShapeAspect)
@@ -66,10 +62,6 @@ public interface IfcStructuralLinearActionVarying extends IfcStructuralLinearAct
      * Returns the value of the '<em><b>Subsequent Applied Loads</b></em>' reference list.
      * The list contents are of type {@link org.bimserver.models.ifc2x3tc1.IfcStructuralLoad}.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Subsequent Applied Loads</em>' reference list isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Subsequent Applied Loads</em>' reference list.
      * @see org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package#getIfcStructuralLinearActionVarying_SubsequentAppliedLoads()

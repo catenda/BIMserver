@@ -135,10 +135,6 @@ public enum IfcGeometricProjectionEnum implements Enumerator {
     /**
      * The '<em><b>NULL</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>NULL</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #NULL
      * @model
@@ -150,10 +146,6 @@ public enum IfcGeometricProjectionEnum implements Enumerator {
     /**
      * The '<em><b>NOTDEFINED</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>NOTDEFINED</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #NOTDEFINED
      * @model
@@ -165,10 +157,6 @@ public enum IfcGeometricProjectionEnum implements Enumerator {
     /**
      * The '<em><b>PLAN VIEW</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>PLAN VIEW</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #PLAN_VIEW
      * @model
@@ -180,10 +168,6 @@ public enum IfcGeometricProjectionEnum implements Enumerator {
     /**
      * The '<em><b>SECTION VIEW</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>SECTION VIEW</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #SECTION_VIEW
      * @model
@@ -195,10 +179,6 @@ public enum IfcGeometricProjectionEnum implements Enumerator {
     /**
      * The '<em><b>SKETCH VIEW</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>SKETCH VIEW</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #SKETCH_VIEW
      * @model
@@ -210,10 +190,6 @@ public enum IfcGeometricProjectionEnum implements Enumerator {
     /**
      * The '<em><b>USERDEFINED</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>USERDEFINED</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #USERDEFINED
      * @model
@@ -225,10 +201,6 @@ public enum IfcGeometricProjectionEnum implements Enumerator {
     /**
      * The '<em><b>REFLECTED PLAN VIEW</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>REFLECTED PLAN VIEW</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #REFLECTED_PLAN_VIEW
      * @model
@@ -240,10 +212,6 @@ public enum IfcGeometricProjectionEnum implements Enumerator {
     /**
      * The '<em><b>ELEVATION VIEW</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>ELEVATION VIEW</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #ELEVATION_VIEW
      * @model
@@ -255,10 +223,6 @@ public enum IfcGeometricProjectionEnum implements Enumerator {
     /**
      * The '<em><b>MODEL VIEW</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>MODEL VIEW</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #MODEL_VIEW
      * @model
@@ -270,10 +234,6 @@ public enum IfcGeometricProjectionEnum implements Enumerator {
     /**
      * The '<em><b>GRAPH VIEW</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>GRAPH VIEW</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #GRAPH_VIEW
      * @model

@@ -44,10 +44,6 @@ public interface IfcTextStyleWithBoxCharacteristics extends IfcTextStyleSelect {
     /**
      * Returns the value of the '<em><b>Box Height</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Box Height</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Box Height</em>' attribute.
      * @see #isSetBoxHeight()
@@ -97,10 +93,6 @@ public interface IfcTextStyleWithBoxCharacteristics extends IfcTextStyleSelect {
     /**
      * Returns the value of the '<em><b>Box Height As String</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Box Height As String</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Box Height As String</em>' attribute.
      * @see #isSetBoxHeightAsString()
@@ -152,10 +144,6 @@ public interface IfcTextStyleWithBoxCharacteristics extends IfcTextStyleSelect {
     /**
      * Returns the value of the '<em><b>Box Width</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Box Width</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Box Width</em>' attribute.
      * @see #isSetBoxWidth()
@@ -205,10 +193,6 @@ public interface IfcTextStyleWithBoxCharacteristics extends IfcTextStyleSelect {
     /**
      * Returns the value of the '<em><b>Box Width As String</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Box Width As String</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Box Width As String</em>' attribute.
      * @see #isSetBoxWidthAsString()
@@ -260,10 +244,6 @@ public interface IfcTextStyleWithBoxCharacteristics extends IfcTextStyleSelect {
     /**
      * Returns the value of the '<em><b>Box Slant Angle</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Box Slant Angle</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Box Slant Angle</em>' attribute.
      * @see #isSetBoxSlantAngle()
@@ -313,10 +293,6 @@ public interface IfcTextStyleWithBoxCharacteristics extends IfcTextStyleSelect {
     /**
      * Returns the value of the '<em><b>Box Slant Angle As String</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Box Slant Angle As String</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Box Slant Angle As String</em>' attribute.
      * @see #isSetBoxSlantAngleAsString()
@@ -368,10 +344,6 @@ public interface IfcTextStyleWithBoxCharacteristics extends IfcTextStyleSelect {
     /**
      * Returns the value of the '<em><b>Box Rotate Angle</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Box Rotate Angle</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Box Rotate Angle</em>' attribute.
      * @see #isSetBoxRotateAngle()
@@ -421,10 +393,6 @@ public interface IfcTextStyleWithBoxCharacteristics extends IfcTextStyleSelect {
     /**
      * Returns the value of the '<em><b>Box Rotate Angle As String</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Box Rotate Angle As String</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Box Rotate Angle As String</em>' attribute.
      * @see #isSetBoxRotateAngleAsString()
@@ -476,10 +444,6 @@ public interface IfcTextStyleWithBoxCharacteristics extends IfcTextStyleSelect {
     /**
      * Returns the value of the '<em><b>Character Spacing</b></em>' reference.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Character Spacing</em>' reference isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Character Spacing</em>' reference.
      * @see #isSetCharacterSpacing()

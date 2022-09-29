@@ -43,10 +43,6 @@ public interface IfcGeometricRepresentationContext extends IfcRepresentationCont
     /**
      * Returns the value of the '<em><b>Coordinate Space Dimension</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Coordinate Space Dimension</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Coordinate Space Dimension</em>' attribute.
      * @see #setCoordinateSpaceDimension(long)
@@ -69,10 +65,6 @@ public interface IfcGeometricRepresentationContext extends IfcRepresentationCont
     /**
      * Returns the value of the '<em><b>Precision</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Precision</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Precision</em>' attribute.
      * @see #isSetPrecision()
@@ -123,10 +115,6 @@ public interface IfcGeometricRepresentationContext extends IfcRepresentationCont
     /**
      * Returns the value of the '<em><b>Precision As String</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Precision As String</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Precision As String</em>' attribute.
      * @see #isSetPrecisionAsString()
@@ -178,10 +166,6 @@ public interface IfcGeometricRepresentationContext extends IfcRepresentationCont
     /**
      * Returns the value of the '<em><b>World Coordinate System</b></em>' reference.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>World Coordinate System</em>' reference isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>World Coordinate System</em>' reference.
      * @see #setWorldCoordinateSystem(IfcAxis2Placement)
@@ -204,10 +188,6 @@ public interface IfcGeometricRepresentationContext extends IfcRepresentationCont
     /**
      * Returns the value of the '<em><b>True North</b></em>' reference.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>True North</em>' reference isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>True North</em>' reference.
      * @see #isSetTrueNorth()
@@ -260,10 +240,6 @@ public interface IfcGeometricRepresentationContext extends IfcRepresentationCont
      * The list contents are of type {@link org.bimserver.models.ifc2x3tc1.IfcGeometricRepresentationSubContext}.
      * It is bidirectional and its opposite is '{@link org.bimserver.models.ifc2x3tc1.IfcGeometricRepresentationSubContext#getParentContext <em>Parent Context</em>}'.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Has Sub Contexts</em>' reference list isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Has Sub Contexts</em>' reference list.
      * @see #isSetHasSubContexts()

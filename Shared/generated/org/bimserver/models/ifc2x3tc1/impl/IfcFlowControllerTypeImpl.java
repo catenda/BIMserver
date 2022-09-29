@@ -45,7 +45,7 @@ public class IfcFlowControllerTypeImpl extends IfcDistributionFlowElementTypeImp
      */
     @Override
     protected EClass eStaticClass() {
-        return Ifc2x3tc1Package.Literals.IFC_FLOW_CONTROLLER_TYPE;
+        return Ifc2x3tc1Package.eINSTANCE.getIfcFlowControllerType();
     }
 
 } //IfcFlowControllerTypeImpl

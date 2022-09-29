@@ -37,10 +37,6 @@ public interface IfcRelAssignsToControl extends IfcRelAssigns {
      * Returns the value of the '<em><b>Relating Control</b></em>' reference.
      * It is bidirectional and its opposite is '{@link org.bimserver.models.ifc4.IfcControl#getControls <em>Controls</em>}'.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Relating Control</em>' reference isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Relating Control</em>' reference.
      * @see #setRelatingControl(IfcControl)

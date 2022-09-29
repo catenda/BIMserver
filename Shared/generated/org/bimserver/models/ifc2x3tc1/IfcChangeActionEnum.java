@@ -105,10 +105,6 @@ public enum IfcChangeActionEnum implements Enumerator {
     /**
      * The '<em><b>NULL</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>NULL</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #NULL
      * @model
@@ -120,10 +116,6 @@ public enum IfcChangeActionEnum implements Enumerator {
     /**
      * The '<em><b>NOCHANGE</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>NOCHANGE</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #NOCHANGE
      * @model
@@ -135,10 +127,6 @@ public enum IfcChangeActionEnum implements Enumerator {
     /**
      * The '<em><b>ADDED</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>ADDED</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #ADDED
      * @model
@@ -150,10 +138,6 @@ public enum IfcChangeActionEnum implements Enumerator {
     /**
      * The '<em><b>MODIFIEDADDED</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>MODIFIEDADDED</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #MODIFIEDADDED
      * @model
@@ -165,10 +149,6 @@ public enum IfcChangeActionEnum implements Enumerator {
     /**
      * The '<em><b>MODIFIEDDELETED</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>MODIFIEDDELETED</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #MODIFIEDDELETED
      * @model
@@ -180,10 +160,6 @@ public enum IfcChangeActionEnum implements Enumerator {
     /**
      * The '<em><b>MODIFIED</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>MODIFIED</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #MODIFIED
      * @model
@@ -195,10 +171,6 @@ public enum IfcChangeActionEnum implements Enumerator {
     /**
      * The '<em><b>DELETED</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>DELETED</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #DELETED
      * @model

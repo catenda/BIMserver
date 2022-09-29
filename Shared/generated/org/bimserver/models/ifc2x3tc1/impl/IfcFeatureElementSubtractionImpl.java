@@ -52,7 +52,7 @@ public class IfcFeatureElementSubtractionImpl extends IfcFeatureElementImpl impl
      */
     @Override
     protected EClass eStaticClass() {
-        return Ifc2x3tc1Package.Literals.IFC_FEATURE_ELEMENT_SUBTRACTION;
+        return Ifc2x3tc1Package.eINSTANCE.getIfcFeatureElementSubtraction();
     }
 
     /**
@@ -62,7 +62,7 @@ public class IfcFeatureElementSubtractionImpl extends IfcFeatureElementImpl impl
      */
     @Override
     public IfcRelVoidsElement getVoidsElements() {
-        return (IfcRelVoidsElement) eGet(Ifc2x3tc1Package.Literals.IFC_FEATURE_ELEMENT_SUBTRACTION__VOIDS_ELEMENTS,
+        return (IfcRelVoidsElement) eGet(Ifc2x3tc1Package.eINSTANCE.getIfcFeatureElementSubtraction_VoidsElements(),
                 true);
     }
 
@@ -73,7 +73,7 @@ public class IfcFeatureElementSubtractionImpl extends IfcFeatureElementImpl impl
      */
     @Override
     public void setVoidsElements(IfcRelVoidsElement newVoidsElements) {
-        eSet(Ifc2x3tc1Package.Literals.IFC_FEATURE_ELEMENT_SUBTRACTION__VOIDS_ELEMENTS, newVoidsElements);
+        eSet(Ifc2x3tc1Package.eINSTANCE.getIfcFeatureElementSubtraction_VoidsElements(), newVoidsElements);
     }
 
     /**
@@ -83,7 +83,7 @@ public class IfcFeatureElementSubtractionImpl extends IfcFeatureElementImpl impl
      */
     @Override
     public void unsetVoidsElements() {
-        eUnset(Ifc2x3tc1Package.Literals.IFC_FEATURE_ELEMENT_SUBTRACTION__VOIDS_ELEMENTS);
+        eUnset(Ifc2x3tc1Package.eINSTANCE.getIfcFeatureElementSubtraction_VoidsElements());
     }
 
     /**
@@ -93,7 +93,7 @@ public class IfcFeatureElementSubtractionImpl extends IfcFeatureElementImpl impl
      */
     @Override
     public boolean isSetVoidsElements() {
-        return eIsSet(Ifc2x3tc1Package.Literals.IFC_FEATURE_ELEMENT_SUBTRACTION__VOIDS_ELEMENTS);
+        return eIsSet(Ifc2x3tc1Package.eINSTANCE.getIfcFeatureElementSubtraction_VoidsElements());
     }
 
 } //IfcFeatureElementSubtractionImpl

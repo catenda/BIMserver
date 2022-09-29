@@ -61,7 +61,7 @@ public class IfcPropertyImpl extends IdEObjectImpl implements IfcProperty {
      */
     @Override
     protected EClass eStaticClass() {
-        return Ifc2x3tc1Package.Literals.IFC_PROPERTY;
+        return Ifc2x3tc1Package.eINSTANCE.getIfcProperty();
     }
 
     /**
@@ -81,7 +81,7 @@ public class IfcPropertyImpl extends IdEObjectImpl implements IfcProperty {
      */
     @Override
     public String getName() {
-        return (String) eGet(Ifc2x3tc1Package.Literals.IFC_PROPERTY__NAME, true);
+        return (String) eGet(Ifc2x3tc1Package.eINSTANCE.getIfcProperty_Name(), true);
     }
 
     /**
@@ -91,7 +91,7 @@ public class IfcPropertyImpl extends IdEObjectImpl implements IfcProperty {
      */
     @Override
     public void setName(String newName) {
-        eSet(Ifc2x3tc1Package.Literals.IFC_PROPERTY__NAME, newName);
+        eSet(Ifc2x3tc1Package.eINSTANCE.getIfcProperty_Name(), newName);
     }
 
     /**
@@ -101,7 +101,7 @@ public class IfcPropertyImpl extends IdEObjectImpl implements IfcProperty {
      */
     @Override
     public String getDescription() {
-        return (String) eGet(Ifc2x3tc1Package.Literals.IFC_PROPERTY__DESCRIPTION, true);
+        return (String) eGet(Ifc2x3tc1Package.eINSTANCE.getIfcProperty_Description(), true);
     }
 
     /**
@@ -111,7 +111,7 @@ public class IfcPropertyImpl extends IdEObjectImpl implements IfcProperty {
      */
     @Override
     public void setDescription(String newDescription) {
-        eSet(Ifc2x3tc1Package.Literals.IFC_PROPERTY__DESCRIPTION, newDescription);
+        eSet(Ifc2x3tc1Package.eINSTANCE.getIfcProperty_Description(), newDescription);
     }
 
     /**
@@ -121,7 +121,7 @@ public class IfcPropertyImpl extends IdEObjectImpl implements IfcProperty {
      */
     @Override
     public void unsetDescription() {
-        eUnset(Ifc2x3tc1Package.Literals.IFC_PROPERTY__DESCRIPTION);
+        eUnset(Ifc2x3tc1Package.eINSTANCE.getIfcProperty_Description());
     }
 
     /**
@@ -131,7 +131,7 @@ public class IfcPropertyImpl extends IdEObjectImpl implements IfcProperty {
      */
     @Override
     public boolean isSetDescription() {
-        return eIsSet(Ifc2x3tc1Package.Literals.IFC_PROPERTY__DESCRIPTION);
+        return eIsSet(Ifc2x3tc1Package.eINSTANCE.getIfcProperty_Description());
     }
 
     /**
@@ -143,7 +143,7 @@ public class IfcPropertyImpl extends IdEObjectImpl implements IfcProperty {
     @Override
     public EList<IfcPropertyDependencyRelationship> getPropertyForDependance() {
         return (EList<IfcPropertyDependencyRelationship>) eGet(
-                Ifc2x3tc1Package.Literals.IFC_PROPERTY__PROPERTY_FOR_DEPENDANCE, true);
+                Ifc2x3tc1Package.eINSTANCE.getIfcProperty_PropertyForDependance(), true);
     }
 
     /**
@@ -153,7 +153,7 @@ public class IfcPropertyImpl extends IdEObjectImpl implements IfcProperty {
      */
     @Override
     public void unsetPropertyForDependance() {
-        eUnset(Ifc2x3tc1Package.Literals.IFC_PROPERTY__PROPERTY_FOR_DEPENDANCE);
+        eUnset(Ifc2x3tc1Package.eINSTANCE.getIfcProperty_PropertyForDependance());
     }
 
     /**
@@ -163,7 +163,7 @@ public class IfcPropertyImpl extends IdEObjectImpl implements IfcProperty {
      */
     @Override
     public boolean isSetPropertyForDependance() {
-        return eIsSet(Ifc2x3tc1Package.Literals.IFC_PROPERTY__PROPERTY_FOR_DEPENDANCE);
+        return eIsSet(Ifc2x3tc1Package.eINSTANCE.getIfcProperty_PropertyForDependance());
     }
 
     /**
@@ -175,7 +175,7 @@ public class IfcPropertyImpl extends IdEObjectImpl implements IfcProperty {
     @Override
     public EList<IfcPropertyDependencyRelationship> getPropertyDependsOn() {
         return (EList<IfcPropertyDependencyRelationship>) eGet(
-                Ifc2x3tc1Package.Literals.IFC_PROPERTY__PROPERTY_DEPENDS_ON, true);
+                Ifc2x3tc1Package.eINSTANCE.getIfcProperty_PropertyDependsOn(), true);
     }
 
     /**
@@ -185,7 +185,7 @@ public class IfcPropertyImpl extends IdEObjectImpl implements IfcProperty {
      */
     @Override
     public void unsetPropertyDependsOn() {
-        eUnset(Ifc2x3tc1Package.Literals.IFC_PROPERTY__PROPERTY_DEPENDS_ON);
+        eUnset(Ifc2x3tc1Package.eINSTANCE.getIfcProperty_PropertyDependsOn());
     }
 
     /**
@@ -195,7 +195,7 @@ public class IfcPropertyImpl extends IdEObjectImpl implements IfcProperty {
      */
     @Override
     public boolean isSetPropertyDependsOn() {
-        return eIsSet(Ifc2x3tc1Package.Literals.IFC_PROPERTY__PROPERTY_DEPENDS_ON);
+        return eIsSet(Ifc2x3tc1Package.eINSTANCE.getIfcProperty_PropertyDependsOn());
     }
 
     /**
@@ -206,7 +206,7 @@ public class IfcPropertyImpl extends IdEObjectImpl implements IfcProperty {
     @SuppressWarnings("unchecked")
     @Override
     public EList<IfcComplexProperty> getPartOfComplex() {
-        return (EList<IfcComplexProperty>) eGet(Ifc2x3tc1Package.Literals.IFC_PROPERTY__PART_OF_COMPLEX, true);
+        return (EList<IfcComplexProperty>) eGet(Ifc2x3tc1Package.eINSTANCE.getIfcProperty_PartOfComplex(), true);
     }
 
     /**
@@ -216,7 +216,7 @@ public class IfcPropertyImpl extends IdEObjectImpl implements IfcProperty {
      */
     @Override
     public void unsetPartOfComplex() {
-        eUnset(Ifc2x3tc1Package.Literals.IFC_PROPERTY__PART_OF_COMPLEX);
+        eUnset(Ifc2x3tc1Package.eINSTANCE.getIfcProperty_PartOfComplex());
     }
 
     /**
@@ -226,7 +226,7 @@ public class IfcPropertyImpl extends IdEObjectImpl implements IfcProperty {
      */
     @Override
     public boolean isSetPartOfComplex() {
-        return eIsSet(Ifc2x3tc1Package.Literals.IFC_PROPERTY__PART_OF_COMPLEX);
+        return eIsSet(Ifc2x3tc1Package.eINSTANCE.getIfcProperty_PartOfComplex());
     }
 
 } //IfcPropertyImpl

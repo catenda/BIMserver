@@ -45,7 +45,7 @@ public class IfcStructuralLinearActionImpl extends IfcStructuralCurveActionImpl 
      */
     @Override
     protected EClass eStaticClass() {
-        return Ifc4Package.Literals.IFC_STRUCTURAL_LINEAR_ACTION;
+        return Ifc4Package.eINSTANCE.getIfcStructuralLinearAction();
     }
 
 } //IfcStructuralLinearActionImpl

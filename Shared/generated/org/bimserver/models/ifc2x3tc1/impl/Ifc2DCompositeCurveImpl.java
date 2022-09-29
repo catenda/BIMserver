@@ -45,7 +45,7 @@ public class Ifc2DCompositeCurveImpl extends IfcCompositeCurveImpl implements If
      */
     @Override
     protected EClass eStaticClass() {
-        return Ifc2x3tc1Package.Literals.IFC2_DCOMPOSITE_CURVE;
+        return Ifc2x3tc1Package.eINSTANCE.getIfc2DCompositeCurve();
     }
 
 } //Ifc2DCompositeCurveImpl

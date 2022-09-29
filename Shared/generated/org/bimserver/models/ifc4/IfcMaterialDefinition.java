@@ -41,10 +41,6 @@ public interface IfcMaterialDefinition extends IfcMaterialSelect, IfcObjectRefer
      * Returns the value of the '<em><b>Associated To</b></em>' reference list.
      * The list contents are of type {@link org.bimserver.models.ifc4.IfcRelAssociatesMaterial}.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Associated To</em>' reference list isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Associated To</em>' reference list.
      * @see #isSetAssociatedTo()
@@ -81,10 +77,6 @@ public interface IfcMaterialDefinition extends IfcMaterialSelect, IfcObjectRefer
      * Returns the value of the '<em><b>Has External References</b></em>' reference list.
      * The list contents are of type {@link org.bimserver.models.ifc4.IfcExternalReferenceRelationship}.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Has External References</em>' reference list isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Has External References</em>' reference list.
      * @see #isSetHasExternalReferences()
@@ -122,10 +114,6 @@ public interface IfcMaterialDefinition extends IfcMaterialSelect, IfcObjectRefer
      * The list contents are of type {@link org.bimserver.models.ifc4.IfcMaterialProperties}.
      * It is bidirectional and its opposite is '{@link org.bimserver.models.ifc4.IfcMaterialProperties#getMaterial <em>Material</em>}'.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Has Properties</em>' reference list isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Has Properties</em>' reference list.
      * @see #isSetHasProperties()

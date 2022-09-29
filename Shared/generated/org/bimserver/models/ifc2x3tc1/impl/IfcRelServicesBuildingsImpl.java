@@ -56,7 +56,7 @@ public class IfcRelServicesBuildingsImpl extends IfcRelConnectsImpl implements I
      */
     @Override
     protected EClass eStaticClass() {
-        return Ifc2x3tc1Package.Literals.IFC_REL_SERVICES_BUILDINGS;
+        return Ifc2x3tc1Package.eINSTANCE.getIfcRelServicesBuildings();
     }
 
     /**
@@ -66,7 +66,7 @@ public class IfcRelServicesBuildingsImpl extends IfcRelConnectsImpl implements I
      */
     @Override
     public IfcSystem getRelatingSystem() {
-        return (IfcSystem) eGet(Ifc2x3tc1Package.Literals.IFC_REL_SERVICES_BUILDINGS__RELATING_SYSTEM, true);
+        return (IfcSystem) eGet(Ifc2x3tc1Package.eINSTANCE.getIfcRelServicesBuildings_RelatingSystem(), true);
     }
 
     /**
@@ -76,7 +76,7 @@ public class IfcRelServicesBuildingsImpl extends IfcRelConnectsImpl implements I
      */
     @Override
     public void setRelatingSystem(IfcSystem newRelatingSystem) {
-        eSet(Ifc2x3tc1Package.Literals.IFC_REL_SERVICES_BUILDINGS__RELATING_SYSTEM, newRelatingSystem);
+        eSet(Ifc2x3tc1Package.eINSTANCE.getIfcRelServicesBuildings_RelatingSystem(), newRelatingSystem);
     }
 
     /**
@@ -88,7 +88,7 @@ public class IfcRelServicesBuildingsImpl extends IfcRelConnectsImpl implements I
     @Override
     public EList<IfcSpatialStructureElement> getRelatedBuildings() {
         return (EList<IfcSpatialStructureElement>) eGet(
-                Ifc2x3tc1Package.Literals.IFC_REL_SERVICES_BUILDINGS__RELATED_BUILDINGS, true);
+                Ifc2x3tc1Package.eINSTANCE.getIfcRelServicesBuildings_RelatedBuildings(), true);
     }
 
 } //IfcRelServicesBuildingsImpl

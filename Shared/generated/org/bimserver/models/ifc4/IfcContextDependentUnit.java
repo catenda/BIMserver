@@ -39,10 +39,6 @@ public interface IfcContextDependentUnit extends IfcNamedUnit, IfcResourceObject
     /**
      * Returns the value of the '<em><b>Name</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Name</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Name</em>' attribute.
      * @see #setName(String)
@@ -66,10 +62,6 @@ public interface IfcContextDependentUnit extends IfcNamedUnit, IfcResourceObject
      * Returns the value of the '<em><b>Has External Reference</b></em>' reference list.
      * The list contents are of type {@link org.bimserver.models.ifc4.IfcExternalReferenceRelationship}.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Has External Reference</em>' reference list isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Has External Reference</em>' reference list.
      * @see #isSetHasExternalReference()

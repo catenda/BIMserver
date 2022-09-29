@@ -45,7 +45,7 @@ public class IfcVirtualElementImpl extends IfcElementImpl implements IfcVirtualE
      */
     @Override
     protected EClass eStaticClass() {
-        return Ifc4Package.Literals.IFC_VIRTUAL_ELEMENT;
+        return Ifc4Package.eINSTANCE.getIfcVirtualElement();
     }
 
 } //IfcVirtualElementImpl

@@ -38,10 +38,6 @@ public interface IfcProxy extends IfcProduct {
      * Returns the value of the '<em><b>Proxy Type</b></em>' attribute.
      * The literals are from the enumeration {@link org.bimserver.models.ifc2x3tc1.IfcObjectTypeEnum}.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Proxy Type</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Proxy Type</em>' attribute.
      * @see org.bimserver.models.ifc2x3tc1.IfcObjectTypeEnum
@@ -66,10 +62,6 @@ public interface IfcProxy extends IfcProduct {
     /**
      * Returns the value of the '<em><b>Tag</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Tag</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Tag</em>' attribute.
      * @see #isSetTag()

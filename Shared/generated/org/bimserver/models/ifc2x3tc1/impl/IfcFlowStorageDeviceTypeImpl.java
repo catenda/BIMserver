@@ -46,7 +46,7 @@ public class IfcFlowStorageDeviceTypeImpl extends IfcDistributionFlowElementType
      */
     @Override
     protected EClass eStaticClass() {
-        return Ifc2x3tc1Package.Literals.IFC_FLOW_STORAGE_DEVICE_TYPE;
+        return Ifc2x3tc1Package.eINSTANCE.getIfcFlowStorageDeviceType();
     }
 
 } //IfcFlowStorageDeviceTypeImpl

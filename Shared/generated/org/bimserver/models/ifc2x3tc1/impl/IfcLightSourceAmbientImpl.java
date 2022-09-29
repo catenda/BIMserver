@@ -45,7 +45,7 @@ public class IfcLightSourceAmbientImpl extends IfcLightSourceImpl implements Ifc
      */
     @Override
     protected EClass eStaticClass() {
-        return Ifc2x3tc1Package.Literals.IFC_LIGHT_SOURCE_AMBIENT;
+        return Ifc2x3tc1Package.eINSTANCE.getIfcLightSourceAmbient();
     }
 
 } //IfcLightSourceAmbientImpl

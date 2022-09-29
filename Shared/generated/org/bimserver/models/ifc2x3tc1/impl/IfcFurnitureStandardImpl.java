@@ -45,7 +45,7 @@ public class IfcFurnitureStandardImpl extends IfcControlImpl implements IfcFurni
      */
     @Override
     protected EClass eStaticClass() {
-        return Ifc2x3tc1Package.Literals.IFC_FURNITURE_STANDARD;
+        return Ifc2x3tc1Package.eINSTANCE.getIfcFurnitureStandard();
     }
 
 } //IfcFurnitureStandardImpl

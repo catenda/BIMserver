@@ -55,7 +55,7 @@ public class IfcGeometricSetImpl extends IfcGeometricRepresentationItemImpl impl
      */
     @Override
     protected EClass eStaticClass() {
-        return Ifc2x3tc1Package.Literals.IFC_GEOMETRIC_SET;
+        return Ifc2x3tc1Package.eINSTANCE.getIfcGeometricSet();
     }
 
     /**
@@ -66,7 +66,7 @@ public class IfcGeometricSetImpl extends IfcGeometricRepresentationItemImpl impl
     @SuppressWarnings("unchecked")
     @Override
     public EList<IfcGeometricSetSelect> getElements() {
-        return (EList<IfcGeometricSetSelect>) eGet(Ifc2x3tc1Package.Literals.IFC_GEOMETRIC_SET__ELEMENTS, true);
+        return (EList<IfcGeometricSetSelect>) eGet(Ifc2x3tc1Package.eINSTANCE.getIfcGeometricSet_Elements(), true);
     }
 
     /**
@@ -76,7 +76,7 @@ public class IfcGeometricSetImpl extends IfcGeometricRepresentationItemImpl impl
      */
     @Override
     public long getDim() {
-        return (Long) eGet(Ifc2x3tc1Package.Literals.IFC_GEOMETRIC_SET__DIM, true);
+        return (Long) eGet(Ifc2x3tc1Package.eINSTANCE.getIfcGeometricSet_Dim(), true);
     }
 
     /**
@@ -86,7 +86,7 @@ public class IfcGeometricSetImpl extends IfcGeometricRepresentationItemImpl impl
      */
     @Override
     public void setDim(long newDim) {
-        eSet(Ifc2x3tc1Package.Literals.IFC_GEOMETRIC_SET__DIM, newDim);
+        eSet(Ifc2x3tc1Package.eINSTANCE.getIfcGeometricSet_Dim(), newDim);
     }
 
     /**
@@ -96,7 +96,7 @@ public class IfcGeometricSetImpl extends IfcGeometricRepresentationItemImpl impl
      */
     @Override
     public void unsetDim() {
-        eUnset(Ifc2x3tc1Package.Literals.IFC_GEOMETRIC_SET__DIM);
+        eUnset(Ifc2x3tc1Package.eINSTANCE.getIfcGeometricSet_Dim());
     }
 
     /**
@@ -106,7 +106,7 @@ public class IfcGeometricSetImpl extends IfcGeometricRepresentationItemImpl impl
      */
     @Override
     public boolean isSetDim() {
-        return eIsSet(Ifc2x3tc1Package.Literals.IFC_GEOMETRIC_SET__DIM);
+        return eIsSet(Ifc2x3tc1Package.eINSTANCE.getIfcGeometricSet_Dim());
     }
 
 } //IfcGeometricSetImpl

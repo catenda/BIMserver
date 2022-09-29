@@ -65,10 +65,6 @@ public enum IfcReinforcingBarSurfaceEnum implements Enumerator {
     /**
      * The '<em><b>NULL</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>NULL</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #NULL
      * @model
@@ -80,10 +76,6 @@ public enum IfcReinforcingBarSurfaceEnum implements Enumerator {
     /**
      * The '<em><b>PLAIN</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>PLAIN</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #PLAIN
      * @model
@@ -95,10 +87,6 @@ public enum IfcReinforcingBarSurfaceEnum implements Enumerator {
     /**
      * The '<em><b>TEXTURED</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>TEXTURED</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #TEXTURED
      * @model

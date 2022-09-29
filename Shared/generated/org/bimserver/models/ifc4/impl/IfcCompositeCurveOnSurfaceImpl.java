@@ -45,7 +45,7 @@ public class IfcCompositeCurveOnSurfaceImpl extends IfcCompositeCurveImpl implem
      */
     @Override
     protected EClass eStaticClass() {
-        return Ifc4Package.Literals.IFC_COMPOSITE_CURVE_ON_SURFACE;
+        return Ifc4Package.eINSTANCE.getIfcCompositeCurveOnSurface();
     }
 
 } //IfcCompositeCurveOnSurfaceImpl

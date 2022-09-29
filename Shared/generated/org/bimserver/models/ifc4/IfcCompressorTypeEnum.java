@@ -215,10 +215,6 @@ public enum IfcCompressorTypeEnum implements Enumerator {
     /**
      * The '<em><b>NULL</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>NULL</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #NULL
      * @model
@@ -230,10 +226,6 @@ public enum IfcCompressorTypeEnum implements Enumerator {
     /**
      * The '<em><b>TWINSCREW</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>TWINSCREW</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #TWINSCREW
      * @model
@@ -245,10 +237,6 @@ public enum IfcCompressorTypeEnum implements Enumerator {
     /**
      * The '<em><b>SINGLESCREW</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>SINGLESCREW</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #SINGLESCREW
      * @model
@@ -260,10 +248,6 @@ public enum IfcCompressorTypeEnum implements Enumerator {
     /**
      * The '<em><b>SINGLESTAGE</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>SINGLESTAGE</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #SINGLESTAGE
      * @model
@@ -275,10 +259,6 @@ public enum IfcCompressorTypeEnum implements Enumerator {
     /**
      * The '<em><b>RECIPROCATING</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>RECIPROCATING</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #RECIPROCATING
      * @model
@@ -290,10 +270,6 @@ public enum IfcCompressorTypeEnum implements Enumerator {
     /**
      * The '<em><b>TROCHOIDAL</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>TROCHOIDAL</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #TROCHOIDAL
      * @model
@@ -305,10 +281,6 @@ public enum IfcCompressorTypeEnum implements Enumerator {
     /**
      * The '<em><b>OPENTYPE</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>OPENTYPE</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #OPENTYPE
      * @model
@@ -320,10 +292,6 @@ public enum IfcCompressorTypeEnum implements Enumerator {
     /**
      * The '<em><b>ROTARYVANE</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>ROTARYVANE</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #ROTARYVANE
      * @model
@@ -335,10 +303,6 @@ public enum IfcCompressorTypeEnum implements Enumerator {
     /**
      * The '<em><b>SEMIHERMETIC</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>SEMIHERMETIC</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #SEMIHERMETIC
      * @model
@@ -350,10 +314,6 @@ public enum IfcCompressorTypeEnum implements Enumerator {
     /**
      * The '<em><b>USERDEFINED</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>USERDEFINED</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #USERDEFINED
      * @model
@@ -365,10 +325,6 @@ public enum IfcCompressorTypeEnum implements Enumerator {
     /**
      * The '<em><b>HERMETIC</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>HERMETIC</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #HERMETIC
      * @model
@@ -380,10 +336,6 @@ public enum IfcCompressorTypeEnum implements Enumerator {
     /**
      * The '<em><b>DYNAMIC</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>DYNAMIC</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #DYNAMIC
      * @model
@@ -395,10 +347,6 @@ public enum IfcCompressorTypeEnum implements Enumerator {
     /**
      * The '<em><b>NOTDEFINED</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>NOTDEFINED</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #NOTDEFINED
      * @model
@@ -410,10 +358,6 @@ public enum IfcCompressorTypeEnum implements Enumerator {
     /**
      * The '<em><b>SCROLL</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>SCROLL</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #SCROLL
      * @model
@@ -425,10 +369,6 @@ public enum IfcCompressorTypeEnum implements Enumerator {
     /**
      * The '<em><b>WELDEDSHELLHERMETIC</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>WELDEDSHELLHERMETIC</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #WELDEDSHELLHERMETIC
      * @model
@@ -440,10 +380,6 @@ public enum IfcCompressorTypeEnum implements Enumerator {
     /**
      * The '<em><b>BOOSTER</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>BOOSTER</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #BOOSTER
      * @model
@@ -455,10 +391,6 @@ public enum IfcCompressorTypeEnum implements Enumerator {
     /**
      * The '<em><b>ROLLINGPISTON</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>ROLLINGPISTON</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #ROLLINGPISTON
      * @model
@@ -470,10 +402,6 @@ public enum IfcCompressorTypeEnum implements Enumerator {
     /**
      * The '<em><b>ROTARY</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>ROTARY</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #ROTARY
      * @model

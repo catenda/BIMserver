@@ -52,7 +52,7 @@ public class IfcWorkScheduleImpl extends IfcWorkControlImpl implements IfcWorkSc
      */
     @Override
     protected EClass eStaticClass() {
-        return Ifc4Package.Literals.IFC_WORK_SCHEDULE;
+        return Ifc4Package.eINSTANCE.getIfcWorkSchedule();
     }
 
     /**
@@ -62,7 +62,7 @@ public class IfcWorkScheduleImpl extends IfcWorkControlImpl implements IfcWorkSc
      */
     @Override
     public IfcWorkScheduleTypeEnum getPredefinedType() {
-        return (IfcWorkScheduleTypeEnum) eGet(Ifc4Package.Literals.IFC_WORK_SCHEDULE__PREDEFINED_TYPE, true);
+        return (IfcWorkScheduleTypeEnum) eGet(Ifc4Package.eINSTANCE.getIfcWorkSchedule_PredefinedType(), true);
     }
 
     /**
@@ -72,7 +72,7 @@ public class IfcWorkScheduleImpl extends IfcWorkControlImpl implements IfcWorkSc
      */
     @Override
     public void setPredefinedType(IfcWorkScheduleTypeEnum newPredefinedType) {
-        eSet(Ifc4Package.Literals.IFC_WORK_SCHEDULE__PREDEFINED_TYPE, newPredefinedType);
+        eSet(Ifc4Package.eINSTANCE.getIfcWorkSchedule_PredefinedType(), newPredefinedType);
     }
 
     /**
@@ -82,7 +82,7 @@ public class IfcWorkScheduleImpl extends IfcWorkControlImpl implements IfcWorkSc
      */
     @Override
     public void unsetPredefinedType() {
-        eUnset(Ifc4Package.Literals.IFC_WORK_SCHEDULE__PREDEFINED_TYPE);
+        eUnset(Ifc4Package.eINSTANCE.getIfcWorkSchedule_PredefinedType());
     }
 
     /**
@@ -92,7 +92,7 @@ public class IfcWorkScheduleImpl extends IfcWorkControlImpl implements IfcWorkSc
      */
     @Override
     public boolean isSetPredefinedType() {
-        return eIsSet(Ifc4Package.Literals.IFC_WORK_SCHEDULE__PREDEFINED_TYPE);
+        return eIsSet(Ifc4Package.eINSTANCE.getIfcWorkSchedule_PredefinedType());
     }
 
 } //IfcWorkScheduleImpl

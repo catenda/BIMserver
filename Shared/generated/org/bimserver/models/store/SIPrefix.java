@@ -205,10 +205,6 @@ public enum SIPrefix implements Enumerator {
     /**
      * The '<em><b>Meter</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>Meter</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #METER
      * @model name="meter"
@@ -220,10 +216,6 @@ public enum SIPrefix implements Enumerator {
     /**
      * The '<em><b>Attometer</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>Attometer</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #ATTOMETER
      * @model name="attometer"
@@ -235,10 +227,6 @@ public enum SIPrefix implements Enumerator {
     /**
      * The '<em><b>Femtometer</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>Femtometer</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #FEMTOMETER
      * @model name="femtometer"
@@ -250,10 +238,6 @@ public enum SIPrefix implements Enumerator {
     /**
      * The '<em><b>Picometer</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>Picometer</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #PICOMETER
      * @model name="picometer"
@@ -265,10 +249,6 @@ public enum SIPrefix implements Enumerator {
     /**
      * The '<em><b>Nanometer</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>Nanometer</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #NANOMETER
      * @model name="nanometer"
@@ -280,10 +260,6 @@ public enum SIPrefix implements Enumerator {
     /**
      * The '<em><b>Micrometer</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>Micrometer</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #MICROMETER
      * @model name="micrometer"
@@ -295,10 +271,6 @@ public enum SIPrefix implements Enumerator {
     /**
      * The '<em><b>Millimeter</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>Millimeter</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #MILLIMETER
      * @model name="millimeter"
@@ -310,10 +282,6 @@ public enum SIPrefix implements Enumerator {
     /**
      * The '<em><b>Centimeter</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>Centimeter</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #CENTIMETER
      * @model name="centimeter"
@@ -325,10 +293,6 @@ public enum SIPrefix implements Enumerator {
     /**
      * The '<em><b>Decimeter</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>Decimeter</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #DECIMETER
      * @model name="decimeter"
@@ -340,10 +304,6 @@ public enum SIPrefix implements Enumerator {
     /**
      * The '<em><b>Decameter</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>Decameter</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #DECAMETER
      * @model name="decameter"
@@ -355,10 +315,6 @@ public enum SIPrefix implements Enumerator {
     /**
      * The '<em><b>Hectometer</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>Hectometer</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #HECTOMETER
      * @model name="hectometer"
@@ -370,10 +326,6 @@ public enum SIPrefix implements Enumerator {
     /**
      * The '<em><b>Kilometer</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>Kilometer</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #KILOMETER
      * @model name="kilometer"
@@ -385,10 +337,6 @@ public enum SIPrefix implements Enumerator {
     /**
      * The '<em><b>Megameter</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>Megameter</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #MEGAMETER
      * @model name="megameter"
@@ -400,10 +348,6 @@ public enum SIPrefix implements Enumerator {
     /**
      * The '<em><b>Gigameter</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>Gigameter</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #GIGAMETER
      * @model name="gigameter"
@@ -415,10 +359,6 @@ public enum SIPrefix implements Enumerator {
     /**
      * The '<em><b>Terameter</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>Terameter</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #TERAMETER
      * @model name="terameter"
@@ -430,10 +370,6 @@ public enum SIPrefix implements Enumerator {
     /**
      * The '<em><b>Petameter</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>Petameter</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #PETAMETER
      * @model name="petameter"
@@ -445,10 +381,6 @@ public enum SIPrefix implements Enumerator {
     /**
      * The '<em><b>Exameter</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>Exameter</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #EXAMETER
      * @model name="exameter"

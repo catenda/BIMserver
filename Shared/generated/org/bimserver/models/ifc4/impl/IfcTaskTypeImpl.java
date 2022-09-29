@@ -53,7 +53,7 @@ public class IfcTaskTypeImpl extends IfcTypeProcessImpl implements IfcTaskType {
      */
     @Override
     protected EClass eStaticClass() {
-        return Ifc4Package.Literals.IFC_TASK_TYPE;
+        return Ifc4Package.eINSTANCE.getIfcTaskType();
     }
 
     /**
@@ -63,7 +63,7 @@ public class IfcTaskTypeImpl extends IfcTypeProcessImpl implements IfcTaskType {
      */
     @Override
     public IfcTaskTypeEnum getPredefinedType() {
-        return (IfcTaskTypeEnum) eGet(Ifc4Package.Literals.IFC_TASK_TYPE__PREDEFINED_TYPE, true);
+        return (IfcTaskTypeEnum) eGet(Ifc4Package.eINSTANCE.getIfcTaskType_PredefinedType(), true);
     }
 
     /**
@@ -73,7 +73,7 @@ public class IfcTaskTypeImpl extends IfcTypeProcessImpl implements IfcTaskType {
      */
     @Override
     public void setPredefinedType(IfcTaskTypeEnum newPredefinedType) {
-        eSet(Ifc4Package.Literals.IFC_TASK_TYPE__PREDEFINED_TYPE, newPredefinedType);
+        eSet(Ifc4Package.eINSTANCE.getIfcTaskType_PredefinedType(), newPredefinedType);
     }
 
     /**
@@ -83,7 +83,7 @@ public class IfcTaskTypeImpl extends IfcTypeProcessImpl implements IfcTaskType {
      */
     @Override
     public String getWorkMethod() {
-        return (String) eGet(Ifc4Package.Literals.IFC_TASK_TYPE__WORK_METHOD, true);
+        return (String) eGet(Ifc4Package.eINSTANCE.getIfcTaskType_WorkMethod(), true);
     }
 
     /**
@@ -93,7 +93,7 @@ public class IfcTaskTypeImpl extends IfcTypeProcessImpl implements IfcTaskType {
      */
     @Override
     public void setWorkMethod(String newWorkMethod) {
-        eSet(Ifc4Package.Literals.IFC_TASK_TYPE__WORK_METHOD, newWorkMethod);
+        eSet(Ifc4Package.eINSTANCE.getIfcTaskType_WorkMethod(), newWorkMethod);
     }
 
     /**
@@ -103,7 +103,7 @@ public class IfcTaskTypeImpl extends IfcTypeProcessImpl implements IfcTaskType {
      */
     @Override
     public void unsetWorkMethod() {
-        eUnset(Ifc4Package.Literals.IFC_TASK_TYPE__WORK_METHOD);
+        eUnset(Ifc4Package.eINSTANCE.getIfcTaskType_WorkMethod());
     }
 
     /**
@@ -113,7 +113,7 @@ public class IfcTaskTypeImpl extends IfcTypeProcessImpl implements IfcTaskType {
      */
     @Override
     public boolean isSetWorkMethod() {
-        return eIsSet(Ifc4Package.Literals.IFC_TASK_TYPE__WORK_METHOD);
+        return eIsSet(Ifc4Package.eINSTANCE.getIfcTaskType_WorkMethod());
     }
 
 } //IfcTaskTypeImpl

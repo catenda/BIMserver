@@ -125,10 +125,6 @@ public enum IfcVoidingFeatureTypeEnum implements Enumerator {
     /**
      * The '<em><b>NULL</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>NULL</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #NULL
      * @model
@@ -140,10 +136,6 @@ public enum IfcVoidingFeatureTypeEnum implements Enumerator {
     /**
      * The '<em><b>HOLE</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>HOLE</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #HOLE
      * @model
@@ -155,10 +147,6 @@ public enum IfcVoidingFeatureTypeEnum implements Enumerator {
     /**
      * The '<em><b>NOTDEFINED</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>NOTDEFINED</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #NOTDEFINED
      * @model
@@ -170,10 +158,6 @@ public enum IfcVoidingFeatureTypeEnum implements Enumerator {
     /**
      * The '<em><b>CHAMFER</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>CHAMFER</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #CHAMFER
      * @model
@@ -185,10 +169,6 @@ public enum IfcVoidingFeatureTypeEnum implements Enumerator {
     /**
      * The '<em><b>CUTOUT</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>CUTOUT</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #CUTOUT
      * @model
@@ -200,10 +180,6 @@ public enum IfcVoidingFeatureTypeEnum implements Enumerator {
     /**
      * The '<em><b>NOTCH</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>NOTCH</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #NOTCH
      * @model
@@ -215,10 +191,6 @@ public enum IfcVoidingFeatureTypeEnum implements Enumerator {
     /**
      * The '<em><b>MITER</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>MITER</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #MITER
      * @model
@@ -230,10 +202,6 @@ public enum IfcVoidingFeatureTypeEnum implements Enumerator {
     /**
      * The '<em><b>USERDEFINED</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>USERDEFINED</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #USERDEFINED
      * @model
@@ -245,10 +213,6 @@ public enum IfcVoidingFeatureTypeEnum implements Enumerator {
     /**
      * The '<em><b>EDGE</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>EDGE</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #EDGE
      * @model

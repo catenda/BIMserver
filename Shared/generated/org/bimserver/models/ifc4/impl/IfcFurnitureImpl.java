@@ -52,7 +52,7 @@ public class IfcFurnitureImpl extends IfcFurnishingElementImpl implements IfcFur
      */
     @Override
     protected EClass eStaticClass() {
-        return Ifc4Package.Literals.IFC_FURNITURE;
+        return Ifc4Package.eINSTANCE.getIfcFurniture();
     }
 
     /**
@@ -62,7 +62,7 @@ public class IfcFurnitureImpl extends IfcFurnishingElementImpl implements IfcFur
      */
     @Override
     public IfcFurnitureTypeEnum getPredefinedType() {
-        return (IfcFurnitureTypeEnum) eGet(Ifc4Package.Literals.IFC_FURNITURE__PREDEFINED_TYPE, true);
+        return (IfcFurnitureTypeEnum) eGet(Ifc4Package.eINSTANCE.getIfcFurniture_PredefinedType(), true);
     }
 
     /**
@@ -72,7 +72,7 @@ public class IfcFurnitureImpl extends IfcFurnishingElementImpl implements IfcFur
      */
     @Override
     public void setPredefinedType(IfcFurnitureTypeEnum newPredefinedType) {
-        eSet(Ifc4Package.Literals.IFC_FURNITURE__PREDEFINED_TYPE, newPredefinedType);
+        eSet(Ifc4Package.eINSTANCE.getIfcFurniture_PredefinedType(), newPredefinedType);
     }
 
     /**
@@ -82,7 +82,7 @@ public class IfcFurnitureImpl extends IfcFurnishingElementImpl implements IfcFur
      */
     @Override
     public void unsetPredefinedType() {
-        eUnset(Ifc4Package.Literals.IFC_FURNITURE__PREDEFINED_TYPE);
+        eUnset(Ifc4Package.eINSTANCE.getIfcFurniture_PredefinedType());
     }
 
     /**
@@ -92,7 +92,7 @@ public class IfcFurnitureImpl extends IfcFurnishingElementImpl implements IfcFur
      */
     @Override
     public boolean isSetPredefinedType() {
-        return eIsSet(Ifc4Package.Literals.IFC_FURNITURE__PREDEFINED_TYPE);
+        return eIsSet(Ifc4Package.eINSTANCE.getIfcFurniture_PredefinedType());
     }
 
 } //IfcFurnitureImpl

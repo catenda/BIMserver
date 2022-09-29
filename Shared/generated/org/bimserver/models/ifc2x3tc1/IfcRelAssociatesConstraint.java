@@ -37,10 +37,6 @@ public interface IfcRelAssociatesConstraint extends IfcRelAssociates {
     /**
      * Returns the value of the '<em><b>Intent</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Intent</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Intent</em>' attribute.
      * @see #setIntent(String)
@@ -63,10 +59,6 @@ public interface IfcRelAssociatesConstraint extends IfcRelAssociates {
     /**
      * Returns the value of the '<em><b>Relating Constraint</b></em>' reference.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Relating Constraint</em>' reference isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Relating Constraint</em>' reference.
      * @see #setRelatingConstraint(IfcConstraint)

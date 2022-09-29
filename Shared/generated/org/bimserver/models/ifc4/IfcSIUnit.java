@@ -38,10 +38,6 @@ public interface IfcSIUnit extends IfcNamedUnit {
      * Returns the value of the '<em><b>Prefix</b></em>' attribute.
      * The literals are from the enumeration {@link org.bimserver.models.ifc4.IfcSIPrefix}.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Prefix</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Prefix</em>' attribute.
      * @see org.bimserver.models.ifc4.IfcSIPrefix
@@ -94,10 +90,6 @@ public interface IfcSIUnit extends IfcNamedUnit {
      * Returns the value of the '<em><b>Name</b></em>' attribute.
      * The literals are from the enumeration {@link org.bimserver.models.ifc4.IfcSIUnitName}.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Name</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Name</em>' attribute.
      * @see org.bimserver.models.ifc4.IfcSIUnitName

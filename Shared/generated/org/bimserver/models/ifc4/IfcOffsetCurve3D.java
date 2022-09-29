@@ -40,10 +40,6 @@ public interface IfcOffsetCurve3D extends IfcCurve {
     /**
      * Returns the value of the '<em><b>Basis Curve</b></em>' reference.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Basis Curve</em>' reference isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Basis Curve</em>' reference.
      * @see #setBasisCurve(IfcCurve)
@@ -66,10 +62,6 @@ public interface IfcOffsetCurve3D extends IfcCurve {
     /**
      * Returns the value of the '<em><b>Distance</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Distance</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Distance</em>' attribute.
      * @see #setDistance(double)
@@ -92,10 +84,6 @@ public interface IfcOffsetCurve3D extends IfcCurve {
     /**
      * Returns the value of the '<em><b>Distance As String</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Distance As String</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Distance As String</em>' attribute.
      * @see #setDistanceAsString(String)
@@ -120,10 +108,6 @@ public interface IfcOffsetCurve3D extends IfcCurve {
      * Returns the value of the '<em><b>Self Intersect</b></em>' attribute.
      * The literals are from the enumeration {@link org.bimserver.models.ifc4.Tristate}.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Self Intersect</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Self Intersect</em>' attribute.
      * @see org.bimserver.models.ifc4.Tristate
@@ -148,10 +132,6 @@ public interface IfcOffsetCurve3D extends IfcCurve {
     /**
      * Returns the value of the '<em><b>Ref Direction</b></em>' reference.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Ref Direction</em>' reference isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Ref Direction</em>' reference.
      * @see #setRefDirection(IfcDirection)

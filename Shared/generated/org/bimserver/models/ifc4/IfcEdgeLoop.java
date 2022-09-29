@@ -40,10 +40,6 @@ public interface IfcEdgeLoop extends IfcLoop {
      * Returns the value of the '<em><b>Edge List</b></em>' reference list.
      * The list contents are of type {@link org.bimserver.models.ifc4.IfcOrientedEdge}.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Edge List</em>' reference list isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Edge List</em>' reference list.
      * @see org.bimserver.models.ifc4.Ifc4Package#getIfcEdgeLoop_EdgeList()
@@ -55,10 +51,6 @@ public interface IfcEdgeLoop extends IfcLoop {
     /**
      * Returns the value of the '<em><b>Ne</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Ne</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Ne</em>' attribute.
      * @see #isSetNe()

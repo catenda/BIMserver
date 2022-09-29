@@ -55,7 +55,7 @@ public class IfcRelAggregatesImpl extends IfcRelDecomposesImpl implements IfcRel
      */
     @Override
     protected EClass eStaticClass() {
-        return Ifc4Package.Literals.IFC_REL_AGGREGATES;
+        return Ifc4Package.eINSTANCE.getIfcRelAggregates();
     }
 
     /**
@@ -65,7 +65,7 @@ public class IfcRelAggregatesImpl extends IfcRelDecomposesImpl implements IfcRel
      */
     @Override
     public IfcObjectDefinition getRelatingObject() {
-        return (IfcObjectDefinition) eGet(Ifc4Package.Literals.IFC_REL_AGGREGATES__RELATING_OBJECT, true);
+        return (IfcObjectDefinition) eGet(Ifc4Package.eINSTANCE.getIfcRelAggregates_RelatingObject(), true);
     }
 
     /**
@@ -75,7 +75,7 @@ public class IfcRelAggregatesImpl extends IfcRelDecomposesImpl implements IfcRel
      */
     @Override
     public void setRelatingObject(IfcObjectDefinition newRelatingObject) {
-        eSet(Ifc4Package.Literals.IFC_REL_AGGREGATES__RELATING_OBJECT, newRelatingObject);
+        eSet(Ifc4Package.eINSTANCE.getIfcRelAggregates_RelatingObject(), newRelatingObject);
     }
 
     /**
@@ -86,7 +86,7 @@ public class IfcRelAggregatesImpl extends IfcRelDecomposesImpl implements IfcRel
     @SuppressWarnings("unchecked")
     @Override
     public EList<IfcObjectDefinition> getRelatedObjects() {
-        return (EList<IfcObjectDefinition>) eGet(Ifc4Package.Literals.IFC_REL_AGGREGATES__RELATED_OBJECTS, true);
+        return (EList<IfcObjectDefinition>) eGet(Ifc4Package.eINSTANCE.getIfcRelAggregates_RelatedObjects(), true);
     }
 
 } //IfcRelAggregatesImpl

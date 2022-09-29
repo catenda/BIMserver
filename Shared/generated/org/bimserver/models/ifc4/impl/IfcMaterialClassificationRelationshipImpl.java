@@ -59,7 +59,7 @@ public class IfcMaterialClassificationRelationshipImpl extends IdEObjectImpl
      */
     @Override
     protected EClass eStaticClass() {
-        return Ifc4Package.Literals.IFC_MATERIAL_CLASSIFICATION_RELATIONSHIP;
+        return Ifc4Package.eINSTANCE.getIfcMaterialClassificationRelationship();
     }
 
     /**
@@ -81,7 +81,7 @@ public class IfcMaterialClassificationRelationshipImpl extends IdEObjectImpl
     @Override
     public EList<IfcClassificationSelect> getMaterialClassifications() {
         return (EList<IfcClassificationSelect>) eGet(
-                Ifc4Package.Literals.IFC_MATERIAL_CLASSIFICATION_RELATIONSHIP__MATERIAL_CLASSIFICATIONS, true);
+                Ifc4Package.eINSTANCE.getIfcMaterialClassificationRelationship_MaterialClassifications(), true);
     }
 
     /**
@@ -91,7 +91,7 @@ public class IfcMaterialClassificationRelationshipImpl extends IdEObjectImpl
      */
     @Override
     public IfcMaterial getClassifiedMaterial() {
-        return (IfcMaterial) eGet(Ifc4Package.Literals.IFC_MATERIAL_CLASSIFICATION_RELATIONSHIP__CLASSIFIED_MATERIAL,
+        return (IfcMaterial) eGet(Ifc4Package.eINSTANCE.getIfcMaterialClassificationRelationship_ClassifiedMaterial(),
                 true);
     }
 
@@ -102,7 +102,8 @@ public class IfcMaterialClassificationRelationshipImpl extends IdEObjectImpl
      */
     @Override
     public void setClassifiedMaterial(IfcMaterial newClassifiedMaterial) {
-        eSet(Ifc4Package.Literals.IFC_MATERIAL_CLASSIFICATION_RELATIONSHIP__CLASSIFIED_MATERIAL, newClassifiedMaterial);
+        eSet(Ifc4Package.eINSTANCE.getIfcMaterialClassificationRelationship_ClassifiedMaterial(),
+                newClassifiedMaterial);
     }
 
 } //IfcMaterialClassificationRelationshipImpl

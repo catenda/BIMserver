@@ -46,10 +46,6 @@ public interface IfcPerson extends IfcActorSelect, IfcObjectReferenceSelect {
     /**
      * Returns the value of the '<em><b>Id</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Id</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Id</em>' attribute.
      * @see #isSetId()
@@ -99,10 +95,6 @@ public interface IfcPerson extends IfcActorSelect, IfcObjectReferenceSelect {
     /**
      * Returns the value of the '<em><b>Family Name</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Family Name</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Family Name</em>' attribute.
      * @see #isSetFamilyName()
@@ -152,10 +144,6 @@ public interface IfcPerson extends IfcActorSelect, IfcObjectReferenceSelect {
     /**
      * Returns the value of the '<em><b>Given Name</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Given Name</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Given Name</em>' attribute.
      * @see #isSetGivenName()
@@ -206,10 +194,6 @@ public interface IfcPerson extends IfcActorSelect, IfcObjectReferenceSelect {
      * Returns the value of the '<em><b>Middle Names</b></em>' attribute list.
      * The list contents are of type {@link java.lang.String}.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Middle Names</em>' attribute list isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Middle Names</em>' attribute list.
      * @see #isSetMiddleNames()
@@ -245,10 +229,6 @@ public interface IfcPerson extends IfcActorSelect, IfcObjectReferenceSelect {
      * Returns the value of the '<em><b>Prefix Titles</b></em>' attribute list.
      * The list contents are of type {@link java.lang.String}.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Prefix Titles</em>' attribute list isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Prefix Titles</em>' attribute list.
      * @see #isSetPrefixTitles()
@@ -284,10 +264,6 @@ public interface IfcPerson extends IfcActorSelect, IfcObjectReferenceSelect {
      * Returns the value of the '<em><b>Suffix Titles</b></em>' attribute list.
      * The list contents are of type {@link java.lang.String}.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Suffix Titles</em>' attribute list isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Suffix Titles</em>' attribute list.
      * @see #isSetSuffixTitles()
@@ -323,10 +299,6 @@ public interface IfcPerson extends IfcActorSelect, IfcObjectReferenceSelect {
      * Returns the value of the '<em><b>Roles</b></em>' reference list.
      * The list contents are of type {@link org.bimserver.models.ifc2x3tc1.IfcActorRole}.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Roles</em>' reference list isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Roles</em>' reference list.
      * @see #isSetRoles()
@@ -363,10 +335,6 @@ public interface IfcPerson extends IfcActorSelect, IfcObjectReferenceSelect {
      * The list contents are of type {@link org.bimserver.models.ifc2x3tc1.IfcAddress}.
      * It is bidirectional and its opposite is '{@link org.bimserver.models.ifc2x3tc1.IfcAddress#getOfPerson <em>Of Person</em>}'.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Addresses</em>' reference list isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Addresses</em>' reference list.
      * @see #isSetAddresses()
@@ -405,10 +373,6 @@ public interface IfcPerson extends IfcActorSelect, IfcObjectReferenceSelect {
      * The list contents are of type {@link org.bimserver.models.ifc2x3tc1.IfcPersonAndOrganization}.
      * It is bidirectional and its opposite is '{@link org.bimserver.models.ifc2x3tc1.IfcPersonAndOrganization#getThePerson <em>The Person</em>}'.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Engaged In</em>' reference list isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Engaged In</em>' reference list.
      * @see #isSetEngagedIn()

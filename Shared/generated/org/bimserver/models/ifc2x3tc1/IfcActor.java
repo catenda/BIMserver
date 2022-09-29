@@ -39,10 +39,6 @@ public interface IfcActor extends IfcObject {
     /**
      * Returns the value of the '<em><b>The Actor</b></em>' reference.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>The Actor</em>' reference isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>The Actor</em>' reference.
      * @see #setTheActor(IfcActorSelect)
@@ -67,10 +63,6 @@ public interface IfcActor extends IfcObject {
      * The list contents are of type {@link org.bimserver.models.ifc2x3tc1.IfcRelAssignsToActor}.
      * It is bidirectional and its opposite is '{@link org.bimserver.models.ifc2x3tc1.IfcRelAssignsToActor#getRelatingActor <em>Relating Actor</em>}'.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Is Acting Upon</em>' reference list isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Is Acting Upon</em>' reference list.
      * @see #isSetIsActingUpon()

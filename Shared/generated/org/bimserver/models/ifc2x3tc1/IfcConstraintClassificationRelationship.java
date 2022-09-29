@@ -43,10 +43,6 @@ public interface IfcConstraintClassificationRelationship extends IdEObject {
      * Returns the value of the '<em><b>Classified Constraint</b></em>' reference.
      * It is bidirectional and its opposite is '{@link org.bimserver.models.ifc2x3tc1.IfcConstraint#getClassifiedAs <em>Classified As</em>}'.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Classified Constraint</em>' reference isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Classified Constraint</em>' reference.
      * @see #setClassifiedConstraint(IfcConstraint)
@@ -72,10 +68,6 @@ public interface IfcConstraintClassificationRelationship extends IdEObject {
      * Returns the value of the '<em><b>Related Classifications</b></em>' reference list.
      * The list contents are of type {@link org.bimserver.models.ifc2x3tc1.IfcClassificationNotationSelect}.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Related Classifications</em>' reference list isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Related Classifications</em>' reference list.
      * @see org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package#getIfcConstraintClassificationRelationship_RelatedClassifications()

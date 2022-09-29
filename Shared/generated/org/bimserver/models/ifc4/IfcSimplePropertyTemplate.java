@@ -44,10 +44,6 @@ public interface IfcSimplePropertyTemplate extends IfcPropertyTemplate {
      * Returns the value of the '<em><b>Template Type</b></em>' attribute.
      * The literals are from the enumeration {@link org.bimserver.models.ifc4.IfcSimplePropertyTemplateTypeEnum}.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Template Type</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Template Type</em>' attribute.
      * @see org.bimserver.models.ifc4.IfcSimplePropertyTemplateTypeEnum
@@ -99,10 +95,6 @@ public interface IfcSimplePropertyTemplate extends IfcPropertyTemplate {
     /**
      * Returns the value of the '<em><b>Primary Measure Type</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Primary Measure Type</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Primary Measure Type</em>' attribute.
      * @see #isSetPrimaryMeasureType()
@@ -152,10 +144,6 @@ public interface IfcSimplePropertyTemplate extends IfcPropertyTemplate {
     /**
      * Returns the value of the '<em><b>Secondary Measure Type</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Secondary Measure Type</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Secondary Measure Type</em>' attribute.
      * @see #isSetSecondaryMeasureType()
@@ -205,10 +193,6 @@ public interface IfcSimplePropertyTemplate extends IfcPropertyTemplate {
     /**
      * Returns the value of the '<em><b>Enumerators</b></em>' reference.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Enumerators</em>' reference isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Enumerators</em>' reference.
      * @see #isSetEnumerators()
@@ -258,10 +242,6 @@ public interface IfcSimplePropertyTemplate extends IfcPropertyTemplate {
     /**
      * Returns the value of the '<em><b>Primary Unit</b></em>' reference.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Primary Unit</em>' reference isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Primary Unit</em>' reference.
      * @see #isSetPrimaryUnit()
@@ -311,10 +291,6 @@ public interface IfcSimplePropertyTemplate extends IfcPropertyTemplate {
     /**
      * Returns the value of the '<em><b>Secondary Unit</b></em>' reference.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Secondary Unit</em>' reference isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Secondary Unit</em>' reference.
      * @see #isSetSecondaryUnit()
@@ -364,10 +340,6 @@ public interface IfcSimplePropertyTemplate extends IfcPropertyTemplate {
     /**
      * Returns the value of the '<em><b>Expression</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Expression</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Expression</em>' attribute.
      * @see #isSetExpression()
@@ -418,10 +390,6 @@ public interface IfcSimplePropertyTemplate extends IfcPropertyTemplate {
      * Returns the value of the '<em><b>Access State</b></em>' attribute.
      * The literals are from the enumeration {@link org.bimserver.models.ifc4.IfcStateEnum}.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Access State</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Access State</em>' attribute.
      * @see org.bimserver.models.ifc4.IfcStateEnum

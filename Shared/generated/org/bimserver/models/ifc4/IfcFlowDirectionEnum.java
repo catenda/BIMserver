@@ -85,10 +85,6 @@ public enum IfcFlowDirectionEnum implements Enumerator {
     /**
      * The '<em><b>NULL</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>NULL</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #NULL
      * @model
@@ -100,10 +96,6 @@ public enum IfcFlowDirectionEnum implements Enumerator {
     /**
      * The '<em><b>NOTDEFINED</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>NOTDEFINED</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #NOTDEFINED
      * @model
@@ -115,10 +107,6 @@ public enum IfcFlowDirectionEnum implements Enumerator {
     /**
      * The '<em><b>SINK</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>SINK</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #SINK
      * @model
@@ -130,10 +118,6 @@ public enum IfcFlowDirectionEnum implements Enumerator {
     /**
      * The '<em><b>SOURCE</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>SOURCE</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #SOURCE
      * @model
@@ -145,10 +129,6 @@ public enum IfcFlowDirectionEnum implements Enumerator {
     /**
      * The '<em><b>SOURCEANDSINK</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>SOURCEANDSINK</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #SOURCEANDSINK
      * @model

@@ -53,7 +53,7 @@ public class IfcQuantityAreaImpl extends IfcPhysicalSimpleQuantityImpl implement
      */
     @Override
     protected EClass eStaticClass() {
-        return Ifc4Package.Literals.IFC_QUANTITY_AREA;
+        return Ifc4Package.eINSTANCE.getIfcQuantityArea();
     }
 
     /**
@@ -63,7 +63,7 @@ public class IfcQuantityAreaImpl extends IfcPhysicalSimpleQuantityImpl implement
      */
     @Override
     public double getAreaValue() {
-        return (Double) eGet(Ifc4Package.Literals.IFC_QUANTITY_AREA__AREA_VALUE, true);
+        return (Double) eGet(Ifc4Package.eINSTANCE.getIfcQuantityArea_AreaValue(), true);
     }
 
     /**
@@ -73,7 +73,7 @@ public class IfcQuantityAreaImpl extends IfcPhysicalSimpleQuantityImpl implement
      */
     @Override
     public void setAreaValue(double newAreaValue) {
-        eSet(Ifc4Package.Literals.IFC_QUANTITY_AREA__AREA_VALUE, newAreaValue);
+        eSet(Ifc4Package.eINSTANCE.getIfcQuantityArea_AreaValue(), newAreaValue);
     }
 
     /**
@@ -83,7 +83,7 @@ public class IfcQuantityAreaImpl extends IfcPhysicalSimpleQuantityImpl implement
      */
     @Override
     public String getAreaValueAsString() {
-        return (String) eGet(Ifc4Package.Literals.IFC_QUANTITY_AREA__AREA_VALUE_AS_STRING, true);
+        return (String) eGet(Ifc4Package.eINSTANCE.getIfcQuantityArea_AreaValueAsString(), true);
     }
 
     /**
@@ -93,7 +93,7 @@ public class IfcQuantityAreaImpl extends IfcPhysicalSimpleQuantityImpl implement
      */
     @Override
     public void setAreaValueAsString(String newAreaValueAsString) {
-        eSet(Ifc4Package.Literals.IFC_QUANTITY_AREA__AREA_VALUE_AS_STRING, newAreaValueAsString);
+        eSet(Ifc4Package.eINSTANCE.getIfcQuantityArea_AreaValueAsString(), newAreaValueAsString);
     }
 
     /**
@@ -103,7 +103,7 @@ public class IfcQuantityAreaImpl extends IfcPhysicalSimpleQuantityImpl implement
      */
     @Override
     public String getFormula() {
-        return (String) eGet(Ifc4Package.Literals.IFC_QUANTITY_AREA__FORMULA, true);
+        return (String) eGet(Ifc4Package.eINSTANCE.getIfcQuantityArea_Formula(), true);
     }
 
     /**
@@ -113,7 +113,7 @@ public class IfcQuantityAreaImpl extends IfcPhysicalSimpleQuantityImpl implement
      */
     @Override
     public void setFormula(String newFormula) {
-        eSet(Ifc4Package.Literals.IFC_QUANTITY_AREA__FORMULA, newFormula);
+        eSet(Ifc4Package.eINSTANCE.getIfcQuantityArea_Formula(), newFormula);
     }
 
     /**
@@ -123,7 +123,7 @@ public class IfcQuantityAreaImpl extends IfcPhysicalSimpleQuantityImpl implement
      */
     @Override
     public void unsetFormula() {
-        eUnset(Ifc4Package.Literals.IFC_QUANTITY_AREA__FORMULA);
+        eUnset(Ifc4Package.eINSTANCE.getIfcQuantityArea_Formula());
     }
 
     /**
@@ -133,7 +133,7 @@ public class IfcQuantityAreaImpl extends IfcPhysicalSimpleQuantityImpl implement
      */
     @Override
     public boolean isSetFormula() {
-        return eIsSet(Ifc4Package.Literals.IFC_QUANTITY_AREA__FORMULA);
+        return eIsSet(Ifc4Package.eINSTANCE.getIfcQuantityArea_Formula());
     }
 
 } //IfcQuantityAreaImpl

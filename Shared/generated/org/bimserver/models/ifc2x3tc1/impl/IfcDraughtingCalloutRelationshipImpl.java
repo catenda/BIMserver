@@ -57,7 +57,7 @@ public class IfcDraughtingCalloutRelationshipImpl extends IdEObjectImpl implemen
      */
     @Override
     protected EClass eStaticClass() {
-        return Ifc2x3tc1Package.Literals.IFC_DRAUGHTING_CALLOUT_RELATIONSHIP;
+        return Ifc2x3tc1Package.eINSTANCE.getIfcDraughtingCalloutRelationship();
     }
 
     /**
@@ -77,7 +77,7 @@ public class IfcDraughtingCalloutRelationshipImpl extends IdEObjectImpl implemen
      */
     @Override
     public String getName() {
-        return (String) eGet(Ifc2x3tc1Package.Literals.IFC_DRAUGHTING_CALLOUT_RELATIONSHIP__NAME, true);
+        return (String) eGet(Ifc2x3tc1Package.eINSTANCE.getIfcDraughtingCalloutRelationship_Name(), true);
     }
 
     /**
@@ -87,7 +87,7 @@ public class IfcDraughtingCalloutRelationshipImpl extends IdEObjectImpl implemen
      */
     @Override
     public void setName(String newName) {
-        eSet(Ifc2x3tc1Package.Literals.IFC_DRAUGHTING_CALLOUT_RELATIONSHIP__NAME, newName);
+        eSet(Ifc2x3tc1Package.eINSTANCE.getIfcDraughtingCalloutRelationship_Name(), newName);
     }
 
     /**
@@ -97,7 +97,7 @@ public class IfcDraughtingCalloutRelationshipImpl extends IdEObjectImpl implemen
      */
     @Override
     public void unsetName() {
-        eUnset(Ifc2x3tc1Package.Literals.IFC_DRAUGHTING_CALLOUT_RELATIONSHIP__NAME);
+        eUnset(Ifc2x3tc1Package.eINSTANCE.getIfcDraughtingCalloutRelationship_Name());
     }
 
     /**
@@ -107,7 +107,7 @@ public class IfcDraughtingCalloutRelationshipImpl extends IdEObjectImpl implemen
      */
     @Override
     public boolean isSetName() {
-        return eIsSet(Ifc2x3tc1Package.Literals.IFC_DRAUGHTING_CALLOUT_RELATIONSHIP__NAME);
+        return eIsSet(Ifc2x3tc1Package.eINSTANCE.getIfcDraughtingCalloutRelationship_Name());
     }
 
     /**
@@ -117,7 +117,7 @@ public class IfcDraughtingCalloutRelationshipImpl extends IdEObjectImpl implemen
      */
     @Override
     public String getDescription() {
-        return (String) eGet(Ifc2x3tc1Package.Literals.IFC_DRAUGHTING_CALLOUT_RELATIONSHIP__DESCRIPTION, true);
+        return (String) eGet(Ifc2x3tc1Package.eINSTANCE.getIfcDraughtingCalloutRelationship_Description(), true);
     }
 
     /**
@@ -127,7 +127,7 @@ public class IfcDraughtingCalloutRelationshipImpl extends IdEObjectImpl implemen
      */
     @Override
     public void setDescription(String newDescription) {
-        eSet(Ifc2x3tc1Package.Literals.IFC_DRAUGHTING_CALLOUT_RELATIONSHIP__DESCRIPTION, newDescription);
+        eSet(Ifc2x3tc1Package.eINSTANCE.getIfcDraughtingCalloutRelationship_Description(), newDescription);
     }
 
     /**
@@ -137,7 +137,7 @@ public class IfcDraughtingCalloutRelationshipImpl extends IdEObjectImpl implemen
      */
     @Override
     public void unsetDescription() {
-        eUnset(Ifc2x3tc1Package.Literals.IFC_DRAUGHTING_CALLOUT_RELATIONSHIP__DESCRIPTION);
+        eUnset(Ifc2x3tc1Package.eINSTANCE.getIfcDraughtingCalloutRelationship_Description());
     }
 
     /**
@@ -147,7 +147,7 @@ public class IfcDraughtingCalloutRelationshipImpl extends IdEObjectImpl implemen
      */
     @Override
     public boolean isSetDescription() {
-        return eIsSet(Ifc2x3tc1Package.Literals.IFC_DRAUGHTING_CALLOUT_RELATIONSHIP__DESCRIPTION);
+        return eIsSet(Ifc2x3tc1Package.eINSTANCE.getIfcDraughtingCalloutRelationship_Description());
     }
 
     /**
@@ -158,7 +158,7 @@ public class IfcDraughtingCalloutRelationshipImpl extends IdEObjectImpl implemen
     @Override
     public IfcDraughtingCallout getRelatingDraughtingCallout() {
         return (IfcDraughtingCallout) eGet(
-                Ifc2x3tc1Package.Literals.IFC_DRAUGHTING_CALLOUT_RELATIONSHIP__RELATING_DRAUGHTING_CALLOUT, true);
+                Ifc2x3tc1Package.eINSTANCE.getIfcDraughtingCalloutRelationship_RelatingDraughtingCallout(), true);
     }
 
     /**
@@ -168,7 +168,7 @@ public class IfcDraughtingCalloutRelationshipImpl extends IdEObjectImpl implemen
      */
     @Override
     public void setRelatingDraughtingCallout(IfcDraughtingCallout newRelatingDraughtingCallout) {
-        eSet(Ifc2x3tc1Package.Literals.IFC_DRAUGHTING_CALLOUT_RELATIONSHIP__RELATING_DRAUGHTING_CALLOUT,
+        eSet(Ifc2x3tc1Package.eINSTANCE.getIfcDraughtingCalloutRelationship_RelatingDraughtingCallout(),
                 newRelatingDraughtingCallout);
     }
 
@@ -180,7 +180,7 @@ public class IfcDraughtingCalloutRelationshipImpl extends IdEObjectImpl implemen
     @Override
     public IfcDraughtingCallout getRelatedDraughtingCallout() {
         return (IfcDraughtingCallout) eGet(
-                Ifc2x3tc1Package.Literals.IFC_DRAUGHTING_CALLOUT_RELATIONSHIP__RELATED_DRAUGHTING_CALLOUT, true);
+                Ifc2x3tc1Package.eINSTANCE.getIfcDraughtingCalloutRelationship_RelatedDraughtingCallout(), true);
     }
 
     /**
@@ -190,7 +190,7 @@ public class IfcDraughtingCalloutRelationshipImpl extends IdEObjectImpl implemen
      */
     @Override
     public void setRelatedDraughtingCallout(IfcDraughtingCallout newRelatedDraughtingCallout) {
-        eSet(Ifc2x3tc1Package.Literals.IFC_DRAUGHTING_CALLOUT_RELATIONSHIP__RELATED_DRAUGHTING_CALLOUT,
+        eSet(Ifc2x3tc1Package.eINSTANCE.getIfcDraughtingCalloutRelationship_RelatedDraughtingCallout(),
                 newRelatedDraughtingCallout);
     }
 

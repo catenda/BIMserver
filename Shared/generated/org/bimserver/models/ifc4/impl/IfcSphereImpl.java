@@ -52,7 +52,7 @@ public class IfcSphereImpl extends IfcCsgPrimitive3DImpl implements IfcSphere {
      */
     @Override
     protected EClass eStaticClass() {
-        return Ifc4Package.Literals.IFC_SPHERE;
+        return Ifc4Package.eINSTANCE.getIfcSphere();
     }
 
     /**
@@ -62,7 +62,7 @@ public class IfcSphereImpl extends IfcCsgPrimitive3DImpl implements IfcSphere {
      */
     @Override
     public double getRadius() {
-        return (Double) eGet(Ifc4Package.Literals.IFC_SPHERE__RADIUS, true);
+        return (Double) eGet(Ifc4Package.eINSTANCE.getIfcSphere_Radius(), true);
     }
 
     /**
@@ -72,7 +72,7 @@ public class IfcSphereImpl extends IfcCsgPrimitive3DImpl implements IfcSphere {
      */
     @Override
     public void setRadius(double newRadius) {
-        eSet(Ifc4Package.Literals.IFC_SPHERE__RADIUS, newRadius);
+        eSet(Ifc4Package.eINSTANCE.getIfcSphere_Radius(), newRadius);
     }
 
     /**
@@ -82,7 +82,7 @@ public class IfcSphereImpl extends IfcCsgPrimitive3DImpl implements IfcSphere {
      */
     @Override
     public String getRadiusAsString() {
-        return (String) eGet(Ifc4Package.Literals.IFC_SPHERE__RADIUS_AS_STRING, true);
+        return (String) eGet(Ifc4Package.eINSTANCE.getIfcSphere_RadiusAsString(), true);
     }
 
     /**
@@ -92,7 +92,7 @@ public class IfcSphereImpl extends IfcCsgPrimitive3DImpl implements IfcSphere {
      */
     @Override
     public void setRadiusAsString(String newRadiusAsString) {
-        eSet(Ifc4Package.Literals.IFC_SPHERE__RADIUS_AS_STRING, newRadiusAsString);
+        eSet(Ifc4Package.eINSTANCE.getIfcSphere_RadiusAsString(), newRadiusAsString);
     }
 
 } //IfcSphereImpl

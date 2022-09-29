@@ -52,7 +52,7 @@ public class IfcLightFixtureImpl extends IfcFlowTerminalImpl implements IfcLight
      */
     @Override
     protected EClass eStaticClass() {
-        return Ifc4Package.Literals.IFC_LIGHT_FIXTURE;
+        return Ifc4Package.eINSTANCE.getIfcLightFixture();
     }
 
     /**
@@ -62,7 +62,7 @@ public class IfcLightFixtureImpl extends IfcFlowTerminalImpl implements IfcLight
      */
     @Override
     public IfcLightFixtureTypeEnum getPredefinedType() {
-        return (IfcLightFixtureTypeEnum) eGet(Ifc4Package.Literals.IFC_LIGHT_FIXTURE__PREDEFINED_TYPE, true);
+        return (IfcLightFixtureTypeEnum) eGet(Ifc4Package.eINSTANCE.getIfcLightFixture_PredefinedType(), true);
     }
 
     /**
@@ -72,7 +72,7 @@ public class IfcLightFixtureImpl extends IfcFlowTerminalImpl implements IfcLight
      */
     @Override
     public void setPredefinedType(IfcLightFixtureTypeEnum newPredefinedType) {
-        eSet(Ifc4Package.Literals.IFC_LIGHT_FIXTURE__PREDEFINED_TYPE, newPredefinedType);
+        eSet(Ifc4Package.eINSTANCE.getIfcLightFixture_PredefinedType(), newPredefinedType);
     }
 
     /**
@@ -82,7 +82,7 @@ public class IfcLightFixtureImpl extends IfcFlowTerminalImpl implements IfcLight
      */
     @Override
     public void unsetPredefinedType() {
-        eUnset(Ifc4Package.Literals.IFC_LIGHT_FIXTURE__PREDEFINED_TYPE);
+        eUnset(Ifc4Package.eINSTANCE.getIfcLightFixture_PredefinedType());
     }
 
     /**
@@ -92,7 +92,7 @@ public class IfcLightFixtureImpl extends IfcFlowTerminalImpl implements IfcLight
      */
     @Override
     public boolean isSetPredefinedType() {
-        return eIsSet(Ifc4Package.Literals.IFC_LIGHT_FIXTURE__PREDEFINED_TYPE);
+        return eIsSet(Ifc4Package.eINSTANCE.getIfcLightFixture_PredefinedType());
     }
 
 } //IfcLightFixtureImpl

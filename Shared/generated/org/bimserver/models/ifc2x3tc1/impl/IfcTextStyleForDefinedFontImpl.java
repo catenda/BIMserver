@@ -55,7 +55,7 @@ public class IfcTextStyleForDefinedFontImpl extends IdEObjectImpl implements Ifc
      */
     @Override
     protected EClass eStaticClass() {
-        return Ifc2x3tc1Package.Literals.IFC_TEXT_STYLE_FOR_DEFINED_FONT;
+        return Ifc2x3tc1Package.eINSTANCE.getIfcTextStyleForDefinedFont();
     }
 
     /**
@@ -75,7 +75,7 @@ public class IfcTextStyleForDefinedFontImpl extends IdEObjectImpl implements Ifc
      */
     @Override
     public IfcColour getColour() {
-        return (IfcColour) eGet(Ifc2x3tc1Package.Literals.IFC_TEXT_STYLE_FOR_DEFINED_FONT__COLOUR, true);
+        return (IfcColour) eGet(Ifc2x3tc1Package.eINSTANCE.getIfcTextStyleForDefinedFont_Colour(), true);
     }
 
     /**
@@ -85,7 +85,7 @@ public class IfcTextStyleForDefinedFontImpl extends IdEObjectImpl implements Ifc
      */
     @Override
     public void setColour(IfcColour newColour) {
-        eSet(Ifc2x3tc1Package.Literals.IFC_TEXT_STYLE_FOR_DEFINED_FONT__COLOUR, newColour);
+        eSet(Ifc2x3tc1Package.eINSTANCE.getIfcTextStyleForDefinedFont_Colour(), newColour);
     }
 
     /**
@@ -95,7 +95,7 @@ public class IfcTextStyleForDefinedFontImpl extends IdEObjectImpl implements Ifc
      */
     @Override
     public IfcColour getBackgroundColour() {
-        return (IfcColour) eGet(Ifc2x3tc1Package.Literals.IFC_TEXT_STYLE_FOR_DEFINED_FONT__BACKGROUND_COLOUR, true);
+        return (IfcColour) eGet(Ifc2x3tc1Package.eINSTANCE.getIfcTextStyleForDefinedFont_BackgroundColour(), true);
     }
 
     /**
@@ -105,7 +105,7 @@ public class IfcTextStyleForDefinedFontImpl extends IdEObjectImpl implements Ifc
      */
     @Override
     public void setBackgroundColour(IfcColour newBackgroundColour) {
-        eSet(Ifc2x3tc1Package.Literals.IFC_TEXT_STYLE_FOR_DEFINED_FONT__BACKGROUND_COLOUR, newBackgroundColour);
+        eSet(Ifc2x3tc1Package.eINSTANCE.getIfcTextStyleForDefinedFont_BackgroundColour(), newBackgroundColour);
     }
 
     /**
@@ -115,7 +115,7 @@ public class IfcTextStyleForDefinedFontImpl extends IdEObjectImpl implements Ifc
      */
     @Override
     public void unsetBackgroundColour() {
-        eUnset(Ifc2x3tc1Package.Literals.IFC_TEXT_STYLE_FOR_DEFINED_FONT__BACKGROUND_COLOUR);
+        eUnset(Ifc2x3tc1Package.eINSTANCE.getIfcTextStyleForDefinedFont_BackgroundColour());
     }
 
     /**
@@ -125,7 +125,7 @@ public class IfcTextStyleForDefinedFontImpl extends IdEObjectImpl implements Ifc
      */
     @Override
     public boolean isSetBackgroundColour() {
-        return eIsSet(Ifc2x3tc1Package.Literals.IFC_TEXT_STYLE_FOR_DEFINED_FONT__BACKGROUND_COLOUR);
+        return eIsSet(Ifc2x3tc1Package.eINSTANCE.getIfcTextStyleForDefinedFont_BackgroundColour());
     }
 
 } //IfcTextStyleForDefinedFontImpl

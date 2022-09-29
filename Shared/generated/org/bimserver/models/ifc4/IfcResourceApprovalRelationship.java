@@ -40,10 +40,6 @@ public interface IfcResourceApprovalRelationship extends IfcResourceLevelRelatio
      * Returns the value of the '<em><b>Related Resource Objects</b></em>' reference list.
      * The list contents are of type {@link org.bimserver.models.ifc4.IfcResourceObjectSelect}.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Related Resource Objects</em>' reference list isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Related Resource Objects</em>' reference list.
      * @see org.bimserver.models.ifc4.Ifc4Package#getIfcResourceApprovalRelationship_RelatedResourceObjects()
@@ -56,10 +52,6 @@ public interface IfcResourceApprovalRelationship extends IfcResourceLevelRelatio
      * Returns the value of the '<em><b>Relating Approval</b></em>' reference.
      * It is bidirectional and its opposite is '{@link org.bimserver.models.ifc4.IfcApproval#getApprovedResources <em>Approved Resources</em>}'.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Relating Approval</em>' reference isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Relating Approval</em>' reference.
      * @see #setRelatingApproval(IfcApproval)

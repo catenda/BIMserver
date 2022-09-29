@@ -45,7 +45,7 @@ public class IfcWorkPlanImpl extends IfcWorkControlImpl implements IfcWorkPlan {
      */
     @Override
     protected EClass eStaticClass() {
-        return Ifc2x3tc1Package.Literals.IFC_WORK_PLAN;
+        return Ifc2x3tc1Package.eINSTANCE.getIfcWorkPlan();
     }
 
 } //IfcWorkPlanImpl

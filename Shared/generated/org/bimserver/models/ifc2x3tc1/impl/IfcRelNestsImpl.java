@@ -45,7 +45,7 @@ public class IfcRelNestsImpl extends IfcRelDecomposesImpl implements IfcRelNests
      */
     @Override
     protected EClass eStaticClass() {
-        return Ifc2x3tc1Package.Literals.IFC_REL_NESTS;
+        return Ifc2x3tc1Package.eINSTANCE.getIfcRelNests();
     }
 
 } //IfcRelNestsImpl

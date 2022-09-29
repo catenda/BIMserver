@@ -37,10 +37,6 @@ public interface IfcStructuralLinearAction extends IfcStructuralAction {
      * Returns the value of the '<em><b>Projected Or True</b></em>' attribute.
      * The literals are from the enumeration {@link org.bimserver.models.ifc2x3tc1.IfcProjectedOrTrueLengthEnum}.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Projected Or True</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Projected Or True</em>' attribute.
      * @see org.bimserver.models.ifc2x3tc1.IfcProjectedOrTrueLengthEnum

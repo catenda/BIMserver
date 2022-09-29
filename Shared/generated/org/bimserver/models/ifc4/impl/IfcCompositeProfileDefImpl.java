@@ -55,7 +55,7 @@ public class IfcCompositeProfileDefImpl extends IfcProfileDefImpl implements Ifc
      */
     @Override
     protected EClass eStaticClass() {
-        return Ifc4Package.Literals.IFC_COMPOSITE_PROFILE_DEF;
+        return Ifc4Package.eINSTANCE.getIfcCompositeProfileDef();
     }
 
     /**
@@ -66,7 +66,7 @@ public class IfcCompositeProfileDefImpl extends IfcProfileDefImpl implements Ifc
     @SuppressWarnings("unchecked")
     @Override
     public EList<IfcProfileDef> getProfiles() {
-        return (EList<IfcProfileDef>) eGet(Ifc4Package.Literals.IFC_COMPOSITE_PROFILE_DEF__PROFILES, true);
+        return (EList<IfcProfileDef>) eGet(Ifc4Package.eINSTANCE.getIfcCompositeProfileDef_Profiles(), true);
     }
 
     /**
@@ -76,7 +76,7 @@ public class IfcCompositeProfileDefImpl extends IfcProfileDefImpl implements Ifc
      */
     @Override
     public String getLabel() {
-        return (String) eGet(Ifc4Package.Literals.IFC_COMPOSITE_PROFILE_DEF__LABEL, true);
+        return (String) eGet(Ifc4Package.eINSTANCE.getIfcCompositeProfileDef_Label(), true);
     }
 
     /**
@@ -86,7 +86,7 @@ public class IfcCompositeProfileDefImpl extends IfcProfileDefImpl implements Ifc
      */
     @Override
     public void setLabel(String newLabel) {
-        eSet(Ifc4Package.Literals.IFC_COMPOSITE_PROFILE_DEF__LABEL, newLabel);
+        eSet(Ifc4Package.eINSTANCE.getIfcCompositeProfileDef_Label(), newLabel);
     }
 
     /**
@@ -96,7 +96,7 @@ public class IfcCompositeProfileDefImpl extends IfcProfileDefImpl implements Ifc
      */
     @Override
     public void unsetLabel() {
-        eUnset(Ifc4Package.Literals.IFC_COMPOSITE_PROFILE_DEF__LABEL);
+        eUnset(Ifc4Package.eINSTANCE.getIfcCompositeProfileDef_Label());
     }
 
     /**
@@ -106,7 +106,7 @@ public class IfcCompositeProfileDefImpl extends IfcProfileDefImpl implements Ifc
      */
     @Override
     public boolean isSetLabel() {
-        return eIsSet(Ifc4Package.Literals.IFC_COMPOSITE_PROFILE_DEF__LABEL);
+        return eIsSet(Ifc4Package.eINSTANCE.getIfcCompositeProfileDef_Label());
     }
 
 } //IfcCompositeProfileDefImpl

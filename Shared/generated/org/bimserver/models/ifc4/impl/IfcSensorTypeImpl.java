@@ -52,7 +52,7 @@ public class IfcSensorTypeImpl extends IfcDistributionControlElementTypeImpl imp
      */
     @Override
     protected EClass eStaticClass() {
-        return Ifc4Package.Literals.IFC_SENSOR_TYPE;
+        return Ifc4Package.eINSTANCE.getIfcSensorType();
     }
 
     /**
@@ -62,7 +62,7 @@ public class IfcSensorTypeImpl extends IfcDistributionControlElementTypeImpl imp
      */
     @Override
     public IfcSensorTypeEnum getPredefinedType() {
-        return (IfcSensorTypeEnum) eGet(Ifc4Package.Literals.IFC_SENSOR_TYPE__PREDEFINED_TYPE, true);
+        return (IfcSensorTypeEnum) eGet(Ifc4Package.eINSTANCE.getIfcSensorType_PredefinedType(), true);
     }
 
     /**
@@ -72,7 +72,7 @@ public class IfcSensorTypeImpl extends IfcDistributionControlElementTypeImpl imp
      */
     @Override
     public void setPredefinedType(IfcSensorTypeEnum newPredefinedType) {
-        eSet(Ifc4Package.Literals.IFC_SENSOR_TYPE__PREDEFINED_TYPE, newPredefinedType);
+        eSet(Ifc4Package.eINSTANCE.getIfcSensorType_PredefinedType(), newPredefinedType);
     }
 
 } //IfcSensorTypeImpl

@@ -38,10 +38,6 @@ public interface IfcLocalPlacement extends IfcObjectPlacement {
      * Returns the value of the '<em><b>Placement Rel To</b></em>' reference.
      * It is bidirectional and its opposite is '{@link org.bimserver.models.ifc4.IfcObjectPlacement#getReferencedByPlacements <em>Referenced By Placements</em>}'.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Placement Rel To</em>' reference isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Placement Rel To</em>' reference.
      * @see #isSetPlacementRelTo()
@@ -93,10 +89,6 @@ public interface IfcLocalPlacement extends IfcObjectPlacement {
     /**
      * Returns the value of the '<em><b>Relative Placement</b></em>' reference.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Relative Placement</em>' reference isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Relative Placement</em>' reference.
      * @see #setRelativePlacement(IfcAxis2Placement)

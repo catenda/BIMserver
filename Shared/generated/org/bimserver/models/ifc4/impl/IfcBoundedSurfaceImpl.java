@@ -45,7 +45,7 @@ public class IfcBoundedSurfaceImpl extends IfcSurfaceImpl implements IfcBoundedS
      */
     @Override
     protected EClass eStaticClass() {
-        return Ifc4Package.Literals.IFC_BOUNDED_SURFACE;
+        return Ifc4Package.eINSTANCE.getIfcBoundedSurface();
     }
 
 } //IfcBoundedSurfaceImpl

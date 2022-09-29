@@ -51,7 +51,7 @@ public class IfcContextDependentUnitImpl extends IfcNamedUnitImpl implements Ifc
      */
     @Override
     protected EClass eStaticClass() {
-        return Ifc2x3tc1Package.Literals.IFC_CONTEXT_DEPENDENT_UNIT;
+        return Ifc2x3tc1Package.eINSTANCE.getIfcContextDependentUnit();
     }
 
     /**
@@ -61,7 +61,7 @@ public class IfcContextDependentUnitImpl extends IfcNamedUnitImpl implements Ifc
      */
     @Override
     public String getName() {
-        return (String) eGet(Ifc2x3tc1Package.Literals.IFC_CONTEXT_DEPENDENT_UNIT__NAME, true);
+        return (String) eGet(Ifc2x3tc1Package.eINSTANCE.getIfcContextDependentUnit_Name(), true);
     }
 
     /**
@@ -71,7 +71,7 @@ public class IfcContextDependentUnitImpl extends IfcNamedUnitImpl implements Ifc
      */
     @Override
     public void setName(String newName) {
-        eSet(Ifc2x3tc1Package.Literals.IFC_CONTEXT_DEPENDENT_UNIT__NAME, newName);
+        eSet(Ifc2x3tc1Package.eINSTANCE.getIfcContextDependentUnit_Name(), newName);
     }
 
 } //IfcContextDependentUnitImpl

@@ -55,7 +55,7 @@ public class IfcSurfaceStyleLightingImpl extends IfcPresentationItemImpl impleme
      */
     @Override
     protected EClass eStaticClass() {
-        return Ifc4Package.Literals.IFC_SURFACE_STYLE_LIGHTING;
+        return Ifc4Package.eINSTANCE.getIfcSurfaceStyleLighting();
     }
 
     /**
@@ -65,7 +65,7 @@ public class IfcSurfaceStyleLightingImpl extends IfcPresentationItemImpl impleme
      */
     @Override
     public IfcColourRgb getDiffuseTransmissionColour() {
-        return (IfcColourRgb) eGet(Ifc4Package.Literals.IFC_SURFACE_STYLE_LIGHTING__DIFFUSE_TRANSMISSION_COLOUR, true);
+        return (IfcColourRgb) eGet(Ifc4Package.eINSTANCE.getIfcSurfaceStyleLighting_DiffuseTransmissionColour(), true);
     }
 
     /**
@@ -75,7 +75,7 @@ public class IfcSurfaceStyleLightingImpl extends IfcPresentationItemImpl impleme
      */
     @Override
     public void setDiffuseTransmissionColour(IfcColourRgb newDiffuseTransmissionColour) {
-        eSet(Ifc4Package.Literals.IFC_SURFACE_STYLE_LIGHTING__DIFFUSE_TRANSMISSION_COLOUR,
+        eSet(Ifc4Package.eINSTANCE.getIfcSurfaceStyleLighting_DiffuseTransmissionColour(),
                 newDiffuseTransmissionColour);
     }
 
@@ -86,7 +86,7 @@ public class IfcSurfaceStyleLightingImpl extends IfcPresentationItemImpl impleme
      */
     @Override
     public IfcColourRgb getDiffuseReflectionColour() {
-        return (IfcColourRgb) eGet(Ifc4Package.Literals.IFC_SURFACE_STYLE_LIGHTING__DIFFUSE_REFLECTION_COLOUR, true);
+        return (IfcColourRgb) eGet(Ifc4Package.eINSTANCE.getIfcSurfaceStyleLighting_DiffuseReflectionColour(), true);
     }
 
     /**
@@ -96,7 +96,7 @@ public class IfcSurfaceStyleLightingImpl extends IfcPresentationItemImpl impleme
      */
     @Override
     public void setDiffuseReflectionColour(IfcColourRgb newDiffuseReflectionColour) {
-        eSet(Ifc4Package.Literals.IFC_SURFACE_STYLE_LIGHTING__DIFFUSE_REFLECTION_COLOUR, newDiffuseReflectionColour);
+        eSet(Ifc4Package.eINSTANCE.getIfcSurfaceStyleLighting_DiffuseReflectionColour(), newDiffuseReflectionColour);
     }
 
     /**
@@ -106,7 +106,7 @@ public class IfcSurfaceStyleLightingImpl extends IfcPresentationItemImpl impleme
      */
     @Override
     public IfcColourRgb getTransmissionColour() {
-        return (IfcColourRgb) eGet(Ifc4Package.Literals.IFC_SURFACE_STYLE_LIGHTING__TRANSMISSION_COLOUR, true);
+        return (IfcColourRgb) eGet(Ifc4Package.eINSTANCE.getIfcSurfaceStyleLighting_TransmissionColour(), true);
     }
 
     /**
@@ -116,7 +116,7 @@ public class IfcSurfaceStyleLightingImpl extends IfcPresentationItemImpl impleme
      */
     @Override
     public void setTransmissionColour(IfcColourRgb newTransmissionColour) {
-        eSet(Ifc4Package.Literals.IFC_SURFACE_STYLE_LIGHTING__TRANSMISSION_COLOUR, newTransmissionColour);
+        eSet(Ifc4Package.eINSTANCE.getIfcSurfaceStyleLighting_TransmissionColour(), newTransmissionColour);
     }
 
     /**
@@ -126,7 +126,7 @@ public class IfcSurfaceStyleLightingImpl extends IfcPresentationItemImpl impleme
      */
     @Override
     public IfcColourRgb getReflectanceColour() {
-        return (IfcColourRgb) eGet(Ifc4Package.Literals.IFC_SURFACE_STYLE_LIGHTING__REFLECTANCE_COLOUR, true);
+        return (IfcColourRgb) eGet(Ifc4Package.eINSTANCE.getIfcSurfaceStyleLighting_ReflectanceColour(), true);
     }
 
     /**
@@ -136,7 +136,7 @@ public class IfcSurfaceStyleLightingImpl extends IfcPresentationItemImpl impleme
      */
     @Override
     public void setReflectanceColour(IfcColourRgb newReflectanceColour) {
-        eSet(Ifc4Package.Literals.IFC_SURFACE_STYLE_LIGHTING__REFLECTANCE_COLOUR, newReflectanceColour);
+        eSet(Ifc4Package.eINSTANCE.getIfcSurfaceStyleLighting_ReflectanceColour(), newReflectanceColour);
     }
 
 } //IfcSurfaceStyleLightingImpl

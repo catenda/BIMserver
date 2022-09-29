@@ -115,10 +115,6 @@ public enum IfcMedicalDeviceTypeEnum implements Enumerator {
     /**
      * The '<em><b>NULL</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>NULL</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #NULL
      * @model
@@ -130,10 +126,6 @@ public enum IfcMedicalDeviceTypeEnum implements Enumerator {
     /**
      * The '<em><b>NOTDEFINED</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>NOTDEFINED</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #NOTDEFINED
      * @model
@@ -145,10 +137,6 @@ public enum IfcMedicalDeviceTypeEnum implements Enumerator {
     /**
      * The '<em><b>FEEDAIRUNIT</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>FEEDAIRUNIT</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #FEEDAIRUNIT
      * @model
@@ -160,10 +148,6 @@ public enum IfcMedicalDeviceTypeEnum implements Enumerator {
     /**
      * The '<em><b>VACUUMSTATION</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>VACUUMSTATION</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #VACUUMSTATION
      * @model
@@ -175,10 +159,6 @@ public enum IfcMedicalDeviceTypeEnum implements Enumerator {
     /**
      * The '<em><b>OXYGENPLANT</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>OXYGENPLANT</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #OXYGENPLANT
      * @model
@@ -190,10 +170,6 @@ public enum IfcMedicalDeviceTypeEnum implements Enumerator {
     /**
      * The '<em><b>USERDEFINED</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>USERDEFINED</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #USERDEFINED
      * @model
@@ -205,10 +181,6 @@ public enum IfcMedicalDeviceTypeEnum implements Enumerator {
     /**
      * The '<em><b>AIRSTATION</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>AIRSTATION</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #AIRSTATION
      * @model
@@ -220,10 +192,6 @@ public enum IfcMedicalDeviceTypeEnum implements Enumerator {
     /**
      * The '<em><b>OXYGENGENERATOR</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>OXYGENGENERATOR</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #OXYGENGENERATOR
      * @model

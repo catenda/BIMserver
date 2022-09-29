@@ -95,10 +95,6 @@ public enum IfcCoolingTowerTypeEnum implements Enumerator {
     /**
      * The '<em><b>NULL</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>NULL</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #NULL
      * @model
@@ -110,10 +106,6 @@ public enum IfcCoolingTowerTypeEnum implements Enumerator {
     /**
      * The '<em><b>NOTDEFINED</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>NOTDEFINED</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #NOTDEFINED
      * @model
@@ -125,10 +117,6 @@ public enum IfcCoolingTowerTypeEnum implements Enumerator {
     /**
      * The '<em><b>MECHANICALFORCEDDRAFT</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>MECHANICALFORCEDDRAFT</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #MECHANICALFORCEDDRAFT
      * @model
@@ -140,10 +128,6 @@ public enum IfcCoolingTowerTypeEnum implements Enumerator {
     /**
      * The '<em><b>NATURALDRAFT</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>NATURALDRAFT</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #NATURALDRAFT
      * @model
@@ -155,10 +139,6 @@ public enum IfcCoolingTowerTypeEnum implements Enumerator {
     /**
      * The '<em><b>MECHANICALINDUCEDDRAFT</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>MECHANICALINDUCEDDRAFT</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #MECHANICALINDUCEDDRAFT
      * @model
@@ -170,10 +150,6 @@ public enum IfcCoolingTowerTypeEnum implements Enumerator {
     /**
      * The '<em><b>USERDEFINED</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>USERDEFINED</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #USERDEFINED
      * @model

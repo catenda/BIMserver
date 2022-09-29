@@ -45,7 +45,7 @@ public class IfcFaceOuterBoundImpl extends IfcFaceBoundImpl implements IfcFaceOu
      */
     @Override
     protected EClass eStaticClass() {
-        return Ifc4Package.Literals.IFC_FACE_OUTER_BOUND;
+        return Ifc4Package.eINSTANCE.getIfcFaceOuterBound();
     }
 
 } //IfcFaceOuterBoundImpl

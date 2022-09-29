@@ -57,7 +57,7 @@ public class IfcTypeObjectImpl extends IfcObjectDefinitionImpl implements IfcTyp
      */
     @Override
     protected EClass eStaticClass() {
-        return Ifc2x3tc1Package.Literals.IFC_TYPE_OBJECT;
+        return Ifc2x3tc1Package.eINSTANCE.getIfcTypeObject();
     }
 
     /**
@@ -67,7 +67,7 @@ public class IfcTypeObjectImpl extends IfcObjectDefinitionImpl implements IfcTyp
      */
     @Override
     public String getApplicableOccurrence() {
-        return (String) eGet(Ifc2x3tc1Package.Literals.IFC_TYPE_OBJECT__APPLICABLE_OCCURRENCE, true);
+        return (String) eGet(Ifc2x3tc1Package.eINSTANCE.getIfcTypeObject_ApplicableOccurrence(), true);
     }
 
     /**
@@ -77,7 +77,7 @@ public class IfcTypeObjectImpl extends IfcObjectDefinitionImpl implements IfcTyp
      */
     @Override
     public void setApplicableOccurrence(String newApplicableOccurrence) {
-        eSet(Ifc2x3tc1Package.Literals.IFC_TYPE_OBJECT__APPLICABLE_OCCURRENCE, newApplicableOccurrence);
+        eSet(Ifc2x3tc1Package.eINSTANCE.getIfcTypeObject_ApplicableOccurrence(), newApplicableOccurrence);
     }
 
     /**
@@ -87,7 +87,7 @@ public class IfcTypeObjectImpl extends IfcObjectDefinitionImpl implements IfcTyp
      */
     @Override
     public void unsetApplicableOccurrence() {
-        eUnset(Ifc2x3tc1Package.Literals.IFC_TYPE_OBJECT__APPLICABLE_OCCURRENCE);
+        eUnset(Ifc2x3tc1Package.eINSTANCE.getIfcTypeObject_ApplicableOccurrence());
     }
 
     /**
@@ -97,7 +97,7 @@ public class IfcTypeObjectImpl extends IfcObjectDefinitionImpl implements IfcTyp
      */
     @Override
     public boolean isSetApplicableOccurrence() {
-        return eIsSet(Ifc2x3tc1Package.Literals.IFC_TYPE_OBJECT__APPLICABLE_OCCURRENCE);
+        return eIsSet(Ifc2x3tc1Package.eINSTANCE.getIfcTypeObject_ApplicableOccurrence());
     }
 
     /**
@@ -108,7 +108,7 @@ public class IfcTypeObjectImpl extends IfcObjectDefinitionImpl implements IfcTyp
     @SuppressWarnings("unchecked")
     @Override
     public EList<IfcPropertySetDefinition> getHasPropertySets() {
-        return (EList<IfcPropertySetDefinition>) eGet(Ifc2x3tc1Package.Literals.IFC_TYPE_OBJECT__HAS_PROPERTY_SETS,
+        return (EList<IfcPropertySetDefinition>) eGet(Ifc2x3tc1Package.eINSTANCE.getIfcTypeObject_HasPropertySets(),
                 true);
     }
 
@@ -119,7 +119,7 @@ public class IfcTypeObjectImpl extends IfcObjectDefinitionImpl implements IfcTyp
      */
     @Override
     public void unsetHasPropertySets() {
-        eUnset(Ifc2x3tc1Package.Literals.IFC_TYPE_OBJECT__HAS_PROPERTY_SETS);
+        eUnset(Ifc2x3tc1Package.eINSTANCE.getIfcTypeObject_HasPropertySets());
     }
 
     /**
@@ -129,7 +129,7 @@ public class IfcTypeObjectImpl extends IfcObjectDefinitionImpl implements IfcTyp
      */
     @Override
     public boolean isSetHasPropertySets() {
-        return eIsSet(Ifc2x3tc1Package.Literals.IFC_TYPE_OBJECT__HAS_PROPERTY_SETS);
+        return eIsSet(Ifc2x3tc1Package.eINSTANCE.getIfcTypeObject_HasPropertySets());
     }
 
     /**
@@ -140,7 +140,7 @@ public class IfcTypeObjectImpl extends IfcObjectDefinitionImpl implements IfcTyp
     @SuppressWarnings("unchecked")
     @Override
     public EList<IfcRelDefinesByType> getObjectTypeOf() {
-        return (EList<IfcRelDefinesByType>) eGet(Ifc2x3tc1Package.Literals.IFC_TYPE_OBJECT__OBJECT_TYPE_OF, true);
+        return (EList<IfcRelDefinesByType>) eGet(Ifc2x3tc1Package.eINSTANCE.getIfcTypeObject_ObjectTypeOf(), true);
     }
 
     /**
@@ -150,7 +150,7 @@ public class IfcTypeObjectImpl extends IfcObjectDefinitionImpl implements IfcTyp
      */
     @Override
     public void unsetObjectTypeOf() {
-        eUnset(Ifc2x3tc1Package.Literals.IFC_TYPE_OBJECT__OBJECT_TYPE_OF);
+        eUnset(Ifc2x3tc1Package.eINSTANCE.getIfcTypeObject_ObjectTypeOf());
     }
 
     /**
@@ -160,7 +160,7 @@ public class IfcTypeObjectImpl extends IfcObjectDefinitionImpl implements IfcTyp
      */
     @Override
     public boolean isSetObjectTypeOf() {
-        return eIsSet(Ifc2x3tc1Package.Literals.IFC_TYPE_OBJECT__OBJECT_TYPE_OF);
+        return eIsSet(Ifc2x3tc1Package.eINSTANCE.getIfcTypeObject_ObjectTypeOf());
     }
 
 } //IfcTypeObjectImpl

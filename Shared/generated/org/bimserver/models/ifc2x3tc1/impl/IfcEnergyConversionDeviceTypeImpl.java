@@ -46,7 +46,7 @@ public class IfcEnergyConversionDeviceTypeImpl extends IfcDistributionFlowElemen
      */
     @Override
     protected EClass eStaticClass() {
-        return Ifc2x3tc1Package.Literals.IFC_ENERGY_CONVERSION_DEVICE_TYPE;
+        return Ifc2x3tc1Package.eINSTANCE.getIfcEnergyConversionDeviceType();
     }
 
 } //IfcEnergyConversionDeviceTypeImpl

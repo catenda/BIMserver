@@ -39,10 +39,6 @@ public interface IfcPointOnCurve extends IfcPoint {
     /**
      * Returns the value of the '<em><b>Basis Curve</b></em>' reference.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Basis Curve</em>' reference isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Basis Curve</em>' reference.
      * @see #setBasisCurve(IfcCurve)
@@ -65,10 +61,6 @@ public interface IfcPointOnCurve extends IfcPoint {
     /**
      * Returns the value of the '<em><b>Point Parameter</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Point Parameter</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Point Parameter</em>' attribute.
      * @see #setPointParameter(double)
@@ -91,10 +83,6 @@ public interface IfcPointOnCurve extends IfcPoint {
     /**
      * Returns the value of the '<em><b>Point Parameter As String</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Point Parameter As String</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Point Parameter As String</em>' attribute.
      * @see #setPointParameterAsString(String)
@@ -118,10 +106,6 @@ public interface IfcPointOnCurve extends IfcPoint {
     /**
      * Returns the value of the '<em><b>Dim</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Dim</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Dim</em>' attribute.
      * @see #isSetDim()

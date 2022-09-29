@@ -38,10 +38,6 @@ public interface IfcRelConnectsPortToElement extends IfcRelConnects {
      * Returns the value of the '<em><b>Relating Port</b></em>' reference.
      * It is bidirectional and its opposite is '{@link org.bimserver.models.ifc4.IfcPort#getContainedIn <em>Contained In</em>}'.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Relating Port</em>' reference isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Relating Port</em>' reference.
      * @see #setRelatingPort(IfcPort)
@@ -67,10 +63,6 @@ public interface IfcRelConnectsPortToElement extends IfcRelConnects {
      * Returns the value of the '<em><b>Related Element</b></em>' reference.
      * It is bidirectional and its opposite is '{@link org.bimserver.models.ifc4.IfcDistributionElement#getHasPorts <em>Has Ports</em>}'.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Related Element</em>' reference isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Related Element</em>' reference.
      * @see #setRelatedElement(IfcDistributionElement)

@@ -52,7 +52,7 @@ public class IfcValveImpl extends IfcFlowControllerImpl implements IfcValve {
      */
     @Override
     protected EClass eStaticClass() {
-        return Ifc4Package.Literals.IFC_VALVE;
+        return Ifc4Package.eINSTANCE.getIfcValve();
     }
 
     /**
@@ -62,7 +62,7 @@ public class IfcValveImpl extends IfcFlowControllerImpl implements IfcValve {
      */
     @Override
     public IfcValveTypeEnum getPredefinedType() {
-        return (IfcValveTypeEnum) eGet(Ifc4Package.Literals.IFC_VALVE__PREDEFINED_TYPE, true);
+        return (IfcValveTypeEnum) eGet(Ifc4Package.eINSTANCE.getIfcValve_PredefinedType(), true);
     }
 
     /**
@@ -72,7 +72,7 @@ public class IfcValveImpl extends IfcFlowControllerImpl implements IfcValve {
      */
     @Override
     public void setPredefinedType(IfcValveTypeEnum newPredefinedType) {
-        eSet(Ifc4Package.Literals.IFC_VALVE__PREDEFINED_TYPE, newPredefinedType);
+        eSet(Ifc4Package.eINSTANCE.getIfcValve_PredefinedType(), newPredefinedType);
     }
 
     /**
@@ -82,7 +82,7 @@ public class IfcValveImpl extends IfcFlowControllerImpl implements IfcValve {
      */
     @Override
     public void unsetPredefinedType() {
-        eUnset(Ifc4Package.Literals.IFC_VALVE__PREDEFINED_TYPE);
+        eUnset(Ifc4Package.eINSTANCE.getIfcValve_PredefinedType());
     }
 
     /**
@@ -92,7 +92,7 @@ public class IfcValveImpl extends IfcFlowControllerImpl implements IfcValve {
      */
     @Override
     public boolean isSetPredefinedType() {
-        return eIsSet(Ifc4Package.Literals.IFC_VALVE__PREDEFINED_TYPE);
+        return eIsSet(Ifc4Package.eINSTANCE.getIfcValve_PredefinedType());
     }
 
 } //IfcValveImpl

@@ -135,10 +135,6 @@ public enum IfcSpaceHeaterTypeEnum implements Enumerator {
     /**
      * The '<em><b>NULL</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>NULL</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #NULL
      * @model
@@ -150,10 +146,6 @@ public enum IfcSpaceHeaterTypeEnum implements Enumerator {
     /**
      * The '<em><b>NOTDEFINED</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>NOTDEFINED</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #NOTDEFINED
      * @model
@@ -165,10 +157,6 @@ public enum IfcSpaceHeaterTypeEnum implements Enumerator {
     /**
      * The '<em><b>PANELRADIATOR</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>PANELRADIATOR</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #PANELRADIATOR
      * @model
@@ -180,10 +168,6 @@ public enum IfcSpaceHeaterTypeEnum implements Enumerator {
     /**
      * The '<em><b>UNITHEATER</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>UNITHEATER</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #UNITHEATER
      * @model
@@ -195,10 +179,6 @@ public enum IfcSpaceHeaterTypeEnum implements Enumerator {
     /**
      * The '<em><b>SECTIONALRADIATOR</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>SECTIONALRADIATOR</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #SECTIONALRADIATOR
      * @model
@@ -210,10 +190,6 @@ public enum IfcSpaceHeaterTypeEnum implements Enumerator {
     /**
      * The '<em><b>FINNEDTUBEUNIT</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>FINNEDTUBEUNIT</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #FINNEDTUBEUNIT
      * @model
@@ -225,10 +201,6 @@ public enum IfcSpaceHeaterTypeEnum implements Enumerator {
     /**
      * The '<em><b>USERDEFINED</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>USERDEFINED</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #USERDEFINED
      * @model
@@ -240,10 +212,6 @@ public enum IfcSpaceHeaterTypeEnum implements Enumerator {
     /**
      * The '<em><b>TUBULARRADIATOR</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>TUBULARRADIATOR</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #TUBULARRADIATOR
      * @model
@@ -255,10 +223,6 @@ public enum IfcSpaceHeaterTypeEnum implements Enumerator {
     /**
      * The '<em><b>BASEBOARDHEATER</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>BASEBOARDHEATER</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #BASEBOARDHEATER
      * @model
@@ -270,10 +234,6 @@ public enum IfcSpaceHeaterTypeEnum implements Enumerator {
     /**
      * The '<em><b>CONVECTOR</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>CONVECTOR</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #CONVECTOR
      * @model

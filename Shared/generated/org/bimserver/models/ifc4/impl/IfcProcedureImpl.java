@@ -52,7 +52,7 @@ public class IfcProcedureImpl extends IfcProcessImpl implements IfcProcedure {
      */
     @Override
     protected EClass eStaticClass() {
-        return Ifc4Package.Literals.IFC_PROCEDURE;
+        return Ifc4Package.eINSTANCE.getIfcProcedure();
     }
 
     /**
@@ -62,7 +62,7 @@ public class IfcProcedureImpl extends IfcProcessImpl implements IfcProcedure {
      */
     @Override
     public IfcProcedureTypeEnum getPredefinedType() {
-        return (IfcProcedureTypeEnum) eGet(Ifc4Package.Literals.IFC_PROCEDURE__PREDEFINED_TYPE, true);
+        return (IfcProcedureTypeEnum) eGet(Ifc4Package.eINSTANCE.getIfcProcedure_PredefinedType(), true);
     }
 
     /**
@@ -72,7 +72,7 @@ public class IfcProcedureImpl extends IfcProcessImpl implements IfcProcedure {
      */
     @Override
     public void setPredefinedType(IfcProcedureTypeEnum newPredefinedType) {
-        eSet(Ifc4Package.Literals.IFC_PROCEDURE__PREDEFINED_TYPE, newPredefinedType);
+        eSet(Ifc4Package.eINSTANCE.getIfcProcedure_PredefinedType(), newPredefinedType);
     }
 
     /**
@@ -82,7 +82,7 @@ public class IfcProcedureImpl extends IfcProcessImpl implements IfcProcedure {
      */
     @Override
     public void unsetPredefinedType() {
-        eUnset(Ifc4Package.Literals.IFC_PROCEDURE__PREDEFINED_TYPE);
+        eUnset(Ifc4Package.eINSTANCE.getIfcProcedure_PredefinedType());
     }
 
     /**
@@ -92,7 +92,7 @@ public class IfcProcedureImpl extends IfcProcessImpl implements IfcProcedure {
      */
     @Override
     public boolean isSetPredefinedType() {
-        return eIsSet(Ifc4Package.Literals.IFC_PROCEDURE__PREDEFINED_TYPE);
+        return eIsSet(Ifc4Package.eINSTANCE.getIfcProcedure_PredefinedType());
     }
 
 } //IfcProcedureImpl

@@ -52,7 +52,7 @@ public class IfcLightSourceDirectionalImpl extends IfcLightSourceImpl implements
      */
     @Override
     protected EClass eStaticClass() {
-        return Ifc4Package.Literals.IFC_LIGHT_SOURCE_DIRECTIONAL;
+        return Ifc4Package.eINSTANCE.getIfcLightSourceDirectional();
     }
 
     /**
@@ -62,7 +62,7 @@ public class IfcLightSourceDirectionalImpl extends IfcLightSourceImpl implements
      */
     @Override
     public IfcDirection getOrientation() {
-        return (IfcDirection) eGet(Ifc4Package.Literals.IFC_LIGHT_SOURCE_DIRECTIONAL__ORIENTATION, true);
+        return (IfcDirection) eGet(Ifc4Package.eINSTANCE.getIfcLightSourceDirectional_Orientation(), true);
     }
 
     /**
@@ -72,7 +72,7 @@ public class IfcLightSourceDirectionalImpl extends IfcLightSourceImpl implements
      */
     @Override
     public void setOrientation(IfcDirection newOrientation) {
-        eSet(Ifc4Package.Literals.IFC_LIGHT_SOURCE_DIRECTIONAL__ORIENTATION, newOrientation);
+        eSet(Ifc4Package.eINSTANCE.getIfcLightSourceDirectional_Orientation(), newOrientation);
     }
 
 } //IfcLightSourceDirectionalImpl

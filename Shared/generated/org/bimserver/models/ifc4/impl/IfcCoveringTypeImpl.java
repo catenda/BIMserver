@@ -52,7 +52,7 @@ public class IfcCoveringTypeImpl extends IfcBuildingElementTypeImpl implements I
      */
     @Override
     protected EClass eStaticClass() {
-        return Ifc4Package.Literals.IFC_COVERING_TYPE;
+        return Ifc4Package.eINSTANCE.getIfcCoveringType();
     }
 
     /**
@@ -62,7 +62,7 @@ public class IfcCoveringTypeImpl extends IfcBuildingElementTypeImpl implements I
      */
     @Override
     public IfcCoveringTypeEnum getPredefinedType() {
-        return (IfcCoveringTypeEnum) eGet(Ifc4Package.Literals.IFC_COVERING_TYPE__PREDEFINED_TYPE, true);
+        return (IfcCoveringTypeEnum) eGet(Ifc4Package.eINSTANCE.getIfcCoveringType_PredefinedType(), true);
     }
 
     /**
@@ -72,7 +72,7 @@ public class IfcCoveringTypeImpl extends IfcBuildingElementTypeImpl implements I
      */
     @Override
     public void setPredefinedType(IfcCoveringTypeEnum newPredefinedType) {
-        eSet(Ifc4Package.Literals.IFC_COVERING_TYPE__PREDEFINED_TYPE, newPredefinedType);
+        eSet(Ifc4Package.eINSTANCE.getIfcCoveringType_PredefinedType(), newPredefinedType);
     }
 
 } //IfcCoveringTypeImpl

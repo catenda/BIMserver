@@ -60,7 +60,7 @@ public class IfcLightDistributionDataImpl extends IdEObjectImpl implements IfcLi
      */
     @Override
     protected EClass eStaticClass() {
-        return Ifc4Package.Literals.IFC_LIGHT_DISTRIBUTION_DATA;
+        return Ifc4Package.eINSTANCE.getIfcLightDistributionData();
     }
 
     /**
@@ -80,7 +80,7 @@ public class IfcLightDistributionDataImpl extends IdEObjectImpl implements IfcLi
      */
     @Override
     public double getMainPlaneAngle() {
-        return (Double) eGet(Ifc4Package.Literals.IFC_LIGHT_DISTRIBUTION_DATA__MAIN_PLANE_ANGLE, true);
+        return (Double) eGet(Ifc4Package.eINSTANCE.getIfcLightDistributionData_MainPlaneAngle(), true);
     }
 
     /**
@@ -90,7 +90,7 @@ public class IfcLightDistributionDataImpl extends IdEObjectImpl implements IfcLi
      */
     @Override
     public void setMainPlaneAngle(double newMainPlaneAngle) {
-        eSet(Ifc4Package.Literals.IFC_LIGHT_DISTRIBUTION_DATA__MAIN_PLANE_ANGLE, newMainPlaneAngle);
+        eSet(Ifc4Package.eINSTANCE.getIfcLightDistributionData_MainPlaneAngle(), newMainPlaneAngle);
     }
 
     /**
@@ -100,7 +100,7 @@ public class IfcLightDistributionDataImpl extends IdEObjectImpl implements IfcLi
      */
     @Override
     public String getMainPlaneAngleAsString() {
-        return (String) eGet(Ifc4Package.Literals.IFC_LIGHT_DISTRIBUTION_DATA__MAIN_PLANE_ANGLE_AS_STRING, true);
+        return (String) eGet(Ifc4Package.eINSTANCE.getIfcLightDistributionData_MainPlaneAngleAsString(), true);
     }
 
     /**
@@ -110,7 +110,7 @@ public class IfcLightDistributionDataImpl extends IdEObjectImpl implements IfcLi
      */
     @Override
     public void setMainPlaneAngleAsString(String newMainPlaneAngleAsString) {
-        eSet(Ifc4Package.Literals.IFC_LIGHT_DISTRIBUTION_DATA__MAIN_PLANE_ANGLE_AS_STRING, newMainPlaneAngleAsString);
+        eSet(Ifc4Package.eINSTANCE.getIfcLightDistributionData_MainPlaneAngleAsString(), newMainPlaneAngleAsString);
     }
 
     /**
@@ -121,7 +121,7 @@ public class IfcLightDistributionDataImpl extends IdEObjectImpl implements IfcLi
     @SuppressWarnings("unchecked")
     @Override
     public EList<Double> getSecondaryPlaneAngle() {
-        return (EList<Double>) eGet(Ifc4Package.Literals.IFC_LIGHT_DISTRIBUTION_DATA__SECONDARY_PLANE_ANGLE, true);
+        return (EList<Double>) eGet(Ifc4Package.eINSTANCE.getIfcLightDistributionData_SecondaryPlaneAngle(), true);
     }
 
     /**
@@ -132,7 +132,7 @@ public class IfcLightDistributionDataImpl extends IdEObjectImpl implements IfcLi
     @SuppressWarnings("unchecked")
     @Override
     public EList<String> getSecondaryPlaneAngleAsString() {
-        return (EList<String>) eGet(Ifc4Package.Literals.IFC_LIGHT_DISTRIBUTION_DATA__SECONDARY_PLANE_ANGLE_AS_STRING,
+        return (EList<String>) eGet(Ifc4Package.eINSTANCE.getIfcLightDistributionData_SecondaryPlaneAngleAsString(),
                 true);
     }
 
@@ -144,7 +144,7 @@ public class IfcLightDistributionDataImpl extends IdEObjectImpl implements IfcLi
     @SuppressWarnings("unchecked")
     @Override
     public EList<Double> getLuminousIntensity() {
-        return (EList<Double>) eGet(Ifc4Package.Literals.IFC_LIGHT_DISTRIBUTION_DATA__LUMINOUS_INTENSITY, true);
+        return (EList<Double>) eGet(Ifc4Package.eINSTANCE.getIfcLightDistributionData_LuminousIntensity(), true);
     }
 
     /**
@@ -155,7 +155,7 @@ public class IfcLightDistributionDataImpl extends IdEObjectImpl implements IfcLi
     @SuppressWarnings("unchecked")
     @Override
     public EList<String> getLuminousIntensityAsString() {
-        return (EList<String>) eGet(Ifc4Package.Literals.IFC_LIGHT_DISTRIBUTION_DATA__LUMINOUS_INTENSITY_AS_STRING,
+        return (EList<String>) eGet(Ifc4Package.eINSTANCE.getIfcLightDistributionData_LuminousIntensityAsString(),
                 true);
     }
 

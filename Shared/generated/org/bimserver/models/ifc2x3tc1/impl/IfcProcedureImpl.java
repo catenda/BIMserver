@@ -54,7 +54,7 @@ public class IfcProcedureImpl extends IfcProcessImpl implements IfcProcedure {
      */
     @Override
     protected EClass eStaticClass() {
-        return Ifc2x3tc1Package.Literals.IFC_PROCEDURE;
+        return Ifc2x3tc1Package.eINSTANCE.getIfcProcedure();
     }
 
     /**
@@ -64,7 +64,7 @@ public class IfcProcedureImpl extends IfcProcessImpl implements IfcProcedure {
      */
     @Override
     public String getProcedureID() {
-        return (String) eGet(Ifc2x3tc1Package.Literals.IFC_PROCEDURE__PROCEDURE_ID, true);
+        return (String) eGet(Ifc2x3tc1Package.eINSTANCE.getIfcProcedure_ProcedureID(), true);
     }
 
     /**
@@ -74,7 +74,7 @@ public class IfcProcedureImpl extends IfcProcessImpl implements IfcProcedure {
      */
     @Override
     public void setProcedureID(String newProcedureID) {
-        eSet(Ifc2x3tc1Package.Literals.IFC_PROCEDURE__PROCEDURE_ID, newProcedureID);
+        eSet(Ifc2x3tc1Package.eINSTANCE.getIfcProcedure_ProcedureID(), newProcedureID);
     }
 
     /**
@@ -84,7 +84,7 @@ public class IfcProcedureImpl extends IfcProcessImpl implements IfcProcedure {
      */
     @Override
     public IfcProcedureTypeEnum getProcedureType() {
-        return (IfcProcedureTypeEnum) eGet(Ifc2x3tc1Package.Literals.IFC_PROCEDURE__PROCEDURE_TYPE, true);
+        return (IfcProcedureTypeEnum) eGet(Ifc2x3tc1Package.eINSTANCE.getIfcProcedure_ProcedureType(), true);
     }
 
     /**
@@ -94,7 +94,7 @@ public class IfcProcedureImpl extends IfcProcessImpl implements IfcProcedure {
      */
     @Override
     public void setProcedureType(IfcProcedureTypeEnum newProcedureType) {
-        eSet(Ifc2x3tc1Package.Literals.IFC_PROCEDURE__PROCEDURE_TYPE, newProcedureType);
+        eSet(Ifc2x3tc1Package.eINSTANCE.getIfcProcedure_ProcedureType(), newProcedureType);
     }
 
     /**
@@ -104,7 +104,7 @@ public class IfcProcedureImpl extends IfcProcessImpl implements IfcProcedure {
      */
     @Override
     public String getUserDefinedProcedureType() {
-        return (String) eGet(Ifc2x3tc1Package.Literals.IFC_PROCEDURE__USER_DEFINED_PROCEDURE_TYPE, true);
+        return (String) eGet(Ifc2x3tc1Package.eINSTANCE.getIfcProcedure_UserDefinedProcedureType(), true);
     }
 
     /**
@@ -114,7 +114,7 @@ public class IfcProcedureImpl extends IfcProcessImpl implements IfcProcedure {
      */
     @Override
     public void setUserDefinedProcedureType(String newUserDefinedProcedureType) {
-        eSet(Ifc2x3tc1Package.Literals.IFC_PROCEDURE__USER_DEFINED_PROCEDURE_TYPE, newUserDefinedProcedureType);
+        eSet(Ifc2x3tc1Package.eINSTANCE.getIfcProcedure_UserDefinedProcedureType(), newUserDefinedProcedureType);
     }
 
     /**
@@ -124,7 +124,7 @@ public class IfcProcedureImpl extends IfcProcessImpl implements IfcProcedure {
      */
     @Override
     public void unsetUserDefinedProcedureType() {
-        eUnset(Ifc2x3tc1Package.Literals.IFC_PROCEDURE__USER_DEFINED_PROCEDURE_TYPE);
+        eUnset(Ifc2x3tc1Package.eINSTANCE.getIfcProcedure_UserDefinedProcedureType());
     }
 
     /**
@@ -134,7 +134,7 @@ public class IfcProcedureImpl extends IfcProcessImpl implements IfcProcedure {
      */
     @Override
     public boolean isSetUserDefinedProcedureType() {
-        return eIsSet(Ifc2x3tc1Package.Literals.IFC_PROCEDURE__USER_DEFINED_PROCEDURE_TYPE);
+        return eIsSet(Ifc2x3tc1Package.eINSTANCE.getIfcProcedure_UserDefinedProcedureType());
     }
 
 } //IfcProcedureImpl

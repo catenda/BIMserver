@@ -45,10 +45,6 @@ public interface IfcMechanicalMaterialProperties extends IfcMaterialProperties {
     /**
      * Returns the value of the '<em><b>Dynamic Viscosity</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Dynamic Viscosity</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Dynamic Viscosity</em>' attribute.
      * @see #isSetDynamicViscosity()
@@ -98,10 +94,6 @@ public interface IfcMechanicalMaterialProperties extends IfcMaterialProperties {
     /**
      * Returns the value of the '<em><b>Dynamic Viscosity As String</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Dynamic Viscosity As String</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Dynamic Viscosity As String</em>' attribute.
      * @see #isSetDynamicViscosityAsString()
@@ -153,10 +145,6 @@ public interface IfcMechanicalMaterialProperties extends IfcMaterialProperties {
     /**
      * Returns the value of the '<em><b>Young Modulus</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Young Modulus</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Young Modulus</em>' attribute.
      * @see #isSetYoungModulus()
@@ -206,10 +194,6 @@ public interface IfcMechanicalMaterialProperties extends IfcMaterialProperties {
     /**
      * Returns the value of the '<em><b>Young Modulus As String</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Young Modulus As String</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Young Modulus As String</em>' attribute.
      * @see #isSetYoungModulusAsString()
@@ -261,10 +245,6 @@ public interface IfcMechanicalMaterialProperties extends IfcMaterialProperties {
     /**
      * Returns the value of the '<em><b>Shear Modulus</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Shear Modulus</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Shear Modulus</em>' attribute.
      * @see #isSetShearModulus()
@@ -314,10 +294,6 @@ public interface IfcMechanicalMaterialProperties extends IfcMaterialProperties {
     /**
      * Returns the value of the '<em><b>Shear Modulus As String</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Shear Modulus As String</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Shear Modulus As String</em>' attribute.
      * @see #isSetShearModulusAsString()
@@ -369,10 +345,6 @@ public interface IfcMechanicalMaterialProperties extends IfcMaterialProperties {
     /**
      * Returns the value of the '<em><b>Poisson Ratio</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Poisson Ratio</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Poisson Ratio</em>' attribute.
      * @see #isSetPoissonRatio()
@@ -422,10 +394,6 @@ public interface IfcMechanicalMaterialProperties extends IfcMaterialProperties {
     /**
      * Returns the value of the '<em><b>Poisson Ratio As String</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Poisson Ratio As String</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Poisson Ratio As String</em>' attribute.
      * @see #isSetPoissonRatioAsString()
@@ -477,10 +445,6 @@ public interface IfcMechanicalMaterialProperties extends IfcMaterialProperties {
     /**
      * Returns the value of the '<em><b>Thermal Expansion Coefficient</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Thermal Expansion Coefficient</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Thermal Expansion Coefficient</em>' attribute.
      * @see #isSetThermalExpansionCoefficient()
@@ -530,10 +494,6 @@ public interface IfcMechanicalMaterialProperties extends IfcMaterialProperties {
     /**
      * Returns the value of the '<em><b>Thermal Expansion Coefficient As String</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Thermal Expansion Coefficient As String</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Thermal Expansion Coefficient As String</em>' attribute.
      * @see #isSetThermalExpansionCoefficientAsString()

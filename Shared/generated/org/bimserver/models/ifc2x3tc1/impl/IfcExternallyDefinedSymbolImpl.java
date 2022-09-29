@@ -45,7 +45,7 @@ public class IfcExternallyDefinedSymbolImpl extends IfcExternalReferenceImpl imp
      */
     @Override
     protected EClass eStaticClass() {
-        return Ifc2x3tc1Package.Literals.IFC_EXTERNALLY_DEFINED_SYMBOL;
+        return Ifc2x3tc1Package.eINSTANCE.getIfcExternallyDefinedSymbol();
     }
 
 } //IfcExternallyDefinedSymbolImpl

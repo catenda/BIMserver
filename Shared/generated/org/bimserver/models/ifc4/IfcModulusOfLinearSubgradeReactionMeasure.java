@@ -38,10 +38,6 @@ public interface IfcModulusOfLinearSubgradeReactionMeasure
     /**
      * Returns the value of the '<em><b>Wrapped Value</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Wrapped Value</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Wrapped Value</em>' attribute.
      * @see #isSetWrappedValue()
@@ -91,10 +87,6 @@ public interface IfcModulusOfLinearSubgradeReactionMeasure
     /**
      * Returns the value of the '<em><b>Wrapped Value As String</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Wrapped Value As String</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Wrapped Value As String</em>' attribute.
      * @see #isSetWrappedValueAsString()

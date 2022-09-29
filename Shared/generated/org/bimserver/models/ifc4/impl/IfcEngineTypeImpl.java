@@ -52,7 +52,7 @@ public class IfcEngineTypeImpl extends IfcEnergyConversionDeviceTypeImpl impleme
      */
     @Override
     protected EClass eStaticClass() {
-        return Ifc4Package.Literals.IFC_ENGINE_TYPE;
+        return Ifc4Package.eINSTANCE.getIfcEngineType();
     }
 
     /**
@@ -62,7 +62,7 @@ public class IfcEngineTypeImpl extends IfcEnergyConversionDeviceTypeImpl impleme
      */
     @Override
     public IfcEngineTypeEnum getPredefinedType() {
-        return (IfcEngineTypeEnum) eGet(Ifc4Package.Literals.IFC_ENGINE_TYPE__PREDEFINED_TYPE, true);
+        return (IfcEngineTypeEnum) eGet(Ifc4Package.eINSTANCE.getIfcEngineType_PredefinedType(), true);
     }
 
     /**
@@ -72,7 +72,7 @@ public class IfcEngineTypeImpl extends IfcEnergyConversionDeviceTypeImpl impleme
      */
     @Override
     public void setPredefinedType(IfcEngineTypeEnum newPredefinedType) {
-        eSet(Ifc4Package.Literals.IFC_ENGINE_TYPE__PREDEFINED_TYPE, newPredefinedType);
+        eSet(Ifc4Package.eINSTANCE.getIfcEngineType_PredefinedType(), newPredefinedType);
     }
 
 } //IfcEngineTypeImpl

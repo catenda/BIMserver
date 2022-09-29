@@ -45,10 +45,6 @@ public interface IfcLibraryInformation extends IfcExternalInformation, IfcLibrar
     /**
      * Returns the value of the '<em><b>Name</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Name</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Name</em>' attribute.
      * @see #setName(String)
@@ -71,10 +67,6 @@ public interface IfcLibraryInformation extends IfcExternalInformation, IfcLibrar
     /**
      * Returns the value of the '<em><b>Version</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Version</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Version</em>' attribute.
      * @see #isSetVersion()
@@ -124,10 +116,6 @@ public interface IfcLibraryInformation extends IfcExternalInformation, IfcLibrar
     /**
      * Returns the value of the '<em><b>Publisher</b></em>' reference.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Publisher</em>' reference isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Publisher</em>' reference.
      * @see #isSetPublisher()
@@ -177,10 +165,6 @@ public interface IfcLibraryInformation extends IfcExternalInformation, IfcLibrar
     /**
      * Returns the value of the '<em><b>Version Date</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Version Date</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Version Date</em>' attribute.
      * @see #isSetVersionDate()
@@ -230,10 +214,6 @@ public interface IfcLibraryInformation extends IfcExternalInformation, IfcLibrar
     /**
      * Returns the value of the '<em><b>Location</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Location</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Location</em>' attribute.
      * @see #isSetLocation()
@@ -283,10 +263,6 @@ public interface IfcLibraryInformation extends IfcExternalInformation, IfcLibrar
     /**
      * Returns the value of the '<em><b>Description</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Description</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Description</em>' attribute.
      * @see #isSetDescription()
@@ -337,10 +313,6 @@ public interface IfcLibraryInformation extends IfcExternalInformation, IfcLibrar
      * Returns the value of the '<em><b>Library Info For Objects</b></em>' reference list.
      * The list contents are of type {@link org.bimserver.models.ifc4.IfcRelAssociatesLibrary}.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Library Info For Objects</em>' reference list isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Library Info For Objects</em>' reference list.
      * @see #isSetLibraryInfoForObjects()
@@ -378,10 +350,6 @@ public interface IfcLibraryInformation extends IfcExternalInformation, IfcLibrar
      * The list contents are of type {@link org.bimserver.models.ifc4.IfcLibraryReference}.
      * It is bidirectional and its opposite is '{@link org.bimserver.models.ifc4.IfcLibraryReference#getReferencedLibrary <em>Referenced Library</em>}'.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Has Library References</em>' reference list isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Has Library References</em>' reference list.
      * @see #isSetHasLibraryReferences()

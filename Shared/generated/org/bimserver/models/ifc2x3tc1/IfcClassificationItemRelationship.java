@@ -43,10 +43,6 @@ public interface IfcClassificationItemRelationship extends IdEObject {
      * Returns the value of the '<em><b>Relating Item</b></em>' reference.
      * It is bidirectional and its opposite is '{@link org.bimserver.models.ifc2x3tc1.IfcClassificationItem#getIsClassifyingItemIn <em>Is Classifying Item In</em>}'.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Relating Item</em>' reference isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Relating Item</em>' reference.
      * @see #setRelatingItem(IfcClassificationItem)
@@ -73,10 +69,6 @@ public interface IfcClassificationItemRelationship extends IdEObject {
      * The list contents are of type {@link org.bimserver.models.ifc2x3tc1.IfcClassificationItem}.
      * It is bidirectional and its opposite is '{@link org.bimserver.models.ifc2x3tc1.IfcClassificationItem#getIsClassifiedItemIn <em>Is Classified Item In</em>}'.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Related Items</em>' reference list isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Related Items</em>' reference list.
      * @see org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package#getIfcClassificationItemRelationship_RelatedItems()

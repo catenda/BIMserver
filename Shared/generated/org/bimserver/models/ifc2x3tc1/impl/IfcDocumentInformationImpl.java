@@ -81,7 +81,7 @@ public class IfcDocumentInformationImpl extends IdEObjectImpl implements IfcDocu
      */
     @Override
     protected EClass eStaticClass() {
-        return Ifc2x3tc1Package.Literals.IFC_DOCUMENT_INFORMATION;
+        return Ifc2x3tc1Package.eINSTANCE.getIfcDocumentInformation();
     }
 
     /**
@@ -101,7 +101,7 @@ public class IfcDocumentInformationImpl extends IdEObjectImpl implements IfcDocu
      */
     @Override
     public String getDocumentId() {
-        return (String) eGet(Ifc2x3tc1Package.Literals.IFC_DOCUMENT_INFORMATION__DOCUMENT_ID, true);
+        return (String) eGet(Ifc2x3tc1Package.eINSTANCE.getIfcDocumentInformation_DocumentId(), true);
     }
 
     /**
@@ -111,7 +111,7 @@ public class IfcDocumentInformationImpl extends IdEObjectImpl implements IfcDocu
      */
     @Override
     public void setDocumentId(String newDocumentId) {
-        eSet(Ifc2x3tc1Package.Literals.IFC_DOCUMENT_INFORMATION__DOCUMENT_ID, newDocumentId);
+        eSet(Ifc2x3tc1Package.eINSTANCE.getIfcDocumentInformation_DocumentId(), newDocumentId);
     }
 
     /**
@@ -121,7 +121,7 @@ public class IfcDocumentInformationImpl extends IdEObjectImpl implements IfcDocu
      */
     @Override
     public String getName() {
-        return (String) eGet(Ifc2x3tc1Package.Literals.IFC_DOCUMENT_INFORMATION__NAME, true);
+        return (String) eGet(Ifc2x3tc1Package.eINSTANCE.getIfcDocumentInformation_Name(), true);
     }
 
     /**
@@ -131,7 +131,7 @@ public class IfcDocumentInformationImpl extends IdEObjectImpl implements IfcDocu
      */
     @Override
     public void setName(String newName) {
-        eSet(Ifc2x3tc1Package.Literals.IFC_DOCUMENT_INFORMATION__NAME, newName);
+        eSet(Ifc2x3tc1Package.eINSTANCE.getIfcDocumentInformation_Name(), newName);
     }
 
     /**
@@ -141,7 +141,7 @@ public class IfcDocumentInformationImpl extends IdEObjectImpl implements IfcDocu
      */
     @Override
     public String getDescription() {
-        return (String) eGet(Ifc2x3tc1Package.Literals.IFC_DOCUMENT_INFORMATION__DESCRIPTION, true);
+        return (String) eGet(Ifc2x3tc1Package.eINSTANCE.getIfcDocumentInformation_Description(), true);
     }
 
     /**
@@ -151,7 +151,7 @@ public class IfcDocumentInformationImpl extends IdEObjectImpl implements IfcDocu
      */
     @Override
     public void setDescription(String newDescription) {
-        eSet(Ifc2x3tc1Package.Literals.IFC_DOCUMENT_INFORMATION__DESCRIPTION, newDescription);
+        eSet(Ifc2x3tc1Package.eINSTANCE.getIfcDocumentInformation_Description(), newDescription);
     }
 
     /**
@@ -161,7 +161,7 @@ public class IfcDocumentInformationImpl extends IdEObjectImpl implements IfcDocu
      */
     @Override
     public void unsetDescription() {
-        eUnset(Ifc2x3tc1Package.Literals.IFC_DOCUMENT_INFORMATION__DESCRIPTION);
+        eUnset(Ifc2x3tc1Package.eINSTANCE.getIfcDocumentInformation_Description());
     }
 
     /**
@@ -171,7 +171,7 @@ public class IfcDocumentInformationImpl extends IdEObjectImpl implements IfcDocu
      */
     @Override
     public boolean isSetDescription() {
-        return eIsSet(Ifc2x3tc1Package.Literals.IFC_DOCUMENT_INFORMATION__DESCRIPTION);
+        return eIsSet(Ifc2x3tc1Package.eINSTANCE.getIfcDocumentInformation_Description());
     }
 
     /**
@@ -183,7 +183,7 @@ public class IfcDocumentInformationImpl extends IdEObjectImpl implements IfcDocu
     @Override
     public EList<IfcDocumentReference> getDocumentReferences() {
         return (EList<IfcDocumentReference>) eGet(
-                Ifc2x3tc1Package.Literals.IFC_DOCUMENT_INFORMATION__DOCUMENT_REFERENCES, true);
+                Ifc2x3tc1Package.eINSTANCE.getIfcDocumentInformation_DocumentReferences(), true);
     }
 
     /**
@@ -193,7 +193,7 @@ public class IfcDocumentInformationImpl extends IdEObjectImpl implements IfcDocu
      */
     @Override
     public void unsetDocumentReferences() {
-        eUnset(Ifc2x3tc1Package.Literals.IFC_DOCUMENT_INFORMATION__DOCUMENT_REFERENCES);
+        eUnset(Ifc2x3tc1Package.eINSTANCE.getIfcDocumentInformation_DocumentReferences());
     }
 
     /**
@@ -203,7 +203,7 @@ public class IfcDocumentInformationImpl extends IdEObjectImpl implements IfcDocu
      */
     @Override
     public boolean isSetDocumentReferences() {
-        return eIsSet(Ifc2x3tc1Package.Literals.IFC_DOCUMENT_INFORMATION__DOCUMENT_REFERENCES);
+        return eIsSet(Ifc2x3tc1Package.eINSTANCE.getIfcDocumentInformation_DocumentReferences());
     }
 
     /**
@@ -213,7 +213,7 @@ public class IfcDocumentInformationImpl extends IdEObjectImpl implements IfcDocu
      */
     @Override
     public String getPurpose() {
-        return (String) eGet(Ifc2x3tc1Package.Literals.IFC_DOCUMENT_INFORMATION__PURPOSE, true);
+        return (String) eGet(Ifc2x3tc1Package.eINSTANCE.getIfcDocumentInformation_Purpose(), true);
     }
 
     /**
@@ -223,7 +223,7 @@ public class IfcDocumentInformationImpl extends IdEObjectImpl implements IfcDocu
      */
     @Override
     public void setPurpose(String newPurpose) {
-        eSet(Ifc2x3tc1Package.Literals.IFC_DOCUMENT_INFORMATION__PURPOSE, newPurpose);
+        eSet(Ifc2x3tc1Package.eINSTANCE.getIfcDocumentInformation_Purpose(), newPurpose);
     }
 
     /**
@@ -233,7 +233,7 @@ public class IfcDocumentInformationImpl extends IdEObjectImpl implements IfcDocu
      */
     @Override
     public void unsetPurpose() {
-        eUnset(Ifc2x3tc1Package.Literals.IFC_DOCUMENT_INFORMATION__PURPOSE);
+        eUnset(Ifc2x3tc1Package.eINSTANCE.getIfcDocumentInformation_Purpose());
     }
 
     /**
@@ -243,7 +243,7 @@ public class IfcDocumentInformationImpl extends IdEObjectImpl implements IfcDocu
      */
     @Override
     public boolean isSetPurpose() {
-        return eIsSet(Ifc2x3tc1Package.Literals.IFC_DOCUMENT_INFORMATION__PURPOSE);
+        return eIsSet(Ifc2x3tc1Package.eINSTANCE.getIfcDocumentInformation_Purpose());
     }
 
     /**
@@ -253,7 +253,7 @@ public class IfcDocumentInformationImpl extends IdEObjectImpl implements IfcDocu
      */
     @Override
     public String getIntendedUse() {
-        return (String) eGet(Ifc2x3tc1Package.Literals.IFC_DOCUMENT_INFORMATION__INTENDED_USE, true);
+        return (String) eGet(Ifc2x3tc1Package.eINSTANCE.getIfcDocumentInformation_IntendedUse(), true);
     }
 
     /**
@@ -263,7 +263,7 @@ public class IfcDocumentInformationImpl extends IdEObjectImpl implements IfcDocu
      */
     @Override
     public void setIntendedUse(String newIntendedUse) {
-        eSet(Ifc2x3tc1Package.Literals.IFC_DOCUMENT_INFORMATION__INTENDED_USE, newIntendedUse);
+        eSet(Ifc2x3tc1Package.eINSTANCE.getIfcDocumentInformation_IntendedUse(), newIntendedUse);
     }
 
     /**
@@ -273,7 +273,7 @@ public class IfcDocumentInformationImpl extends IdEObjectImpl implements IfcDocu
      */
     @Override
     public void unsetIntendedUse() {
-        eUnset(Ifc2x3tc1Package.Literals.IFC_DOCUMENT_INFORMATION__INTENDED_USE);
+        eUnset(Ifc2x3tc1Package.eINSTANCE.getIfcDocumentInformation_IntendedUse());
     }
 
     /**
@@ -283,7 +283,7 @@ public class IfcDocumentInformationImpl extends IdEObjectImpl implements IfcDocu
      */
     @Override
     public boolean isSetIntendedUse() {
-        return eIsSet(Ifc2x3tc1Package.Literals.IFC_DOCUMENT_INFORMATION__INTENDED_USE);
+        return eIsSet(Ifc2x3tc1Package.eINSTANCE.getIfcDocumentInformation_IntendedUse());
     }
 
     /**
@@ -293,7 +293,7 @@ public class IfcDocumentInformationImpl extends IdEObjectImpl implements IfcDocu
      */
     @Override
     public String getScope() {
-        return (String) eGet(Ifc2x3tc1Package.Literals.IFC_DOCUMENT_INFORMATION__SCOPE, true);
+        return (String) eGet(Ifc2x3tc1Package.eINSTANCE.getIfcDocumentInformation_Scope(), true);
     }
 
     /**
@@ -303,7 +303,7 @@ public class IfcDocumentInformationImpl extends IdEObjectImpl implements IfcDocu
      */
     @Override
     public void setScope(String newScope) {
-        eSet(Ifc2x3tc1Package.Literals.IFC_DOCUMENT_INFORMATION__SCOPE, newScope);
+        eSet(Ifc2x3tc1Package.eINSTANCE.getIfcDocumentInformation_Scope(), newScope);
     }
 
     /**
@@ -313,7 +313,7 @@ public class IfcDocumentInformationImpl extends IdEObjectImpl implements IfcDocu
      */
     @Override
     public void unsetScope() {
-        eUnset(Ifc2x3tc1Package.Literals.IFC_DOCUMENT_INFORMATION__SCOPE);
+        eUnset(Ifc2x3tc1Package.eINSTANCE.getIfcDocumentInformation_Scope());
     }
 
     /**
@@ -323,7 +323,7 @@ public class IfcDocumentInformationImpl extends IdEObjectImpl implements IfcDocu
      */
     @Override
     public boolean isSetScope() {
-        return eIsSet(Ifc2x3tc1Package.Literals.IFC_DOCUMENT_INFORMATION__SCOPE);
+        return eIsSet(Ifc2x3tc1Package.eINSTANCE.getIfcDocumentInformation_Scope());
     }
 
     /**
@@ -333,7 +333,7 @@ public class IfcDocumentInformationImpl extends IdEObjectImpl implements IfcDocu
      */
     @Override
     public String getRevision() {
-        return (String) eGet(Ifc2x3tc1Package.Literals.IFC_DOCUMENT_INFORMATION__REVISION, true);
+        return (String) eGet(Ifc2x3tc1Package.eINSTANCE.getIfcDocumentInformation_Revision(), true);
     }
 
     /**
@@ -343,7 +343,7 @@ public class IfcDocumentInformationImpl extends IdEObjectImpl implements IfcDocu
      */
     @Override
     public void setRevision(String newRevision) {
-        eSet(Ifc2x3tc1Package.Literals.IFC_DOCUMENT_INFORMATION__REVISION, newRevision);
+        eSet(Ifc2x3tc1Package.eINSTANCE.getIfcDocumentInformation_Revision(), newRevision);
     }
 
     /**
@@ -353,7 +353,7 @@ public class IfcDocumentInformationImpl extends IdEObjectImpl implements IfcDocu
      */
     @Override
     public void unsetRevision() {
-        eUnset(Ifc2x3tc1Package.Literals.IFC_DOCUMENT_INFORMATION__REVISION);
+        eUnset(Ifc2x3tc1Package.eINSTANCE.getIfcDocumentInformation_Revision());
     }
 
     /**
@@ -363,7 +363,7 @@ public class IfcDocumentInformationImpl extends IdEObjectImpl implements IfcDocu
      */
     @Override
     public boolean isSetRevision() {
-        return eIsSet(Ifc2x3tc1Package.Literals.IFC_DOCUMENT_INFORMATION__REVISION);
+        return eIsSet(Ifc2x3tc1Package.eINSTANCE.getIfcDocumentInformation_Revision());
     }
 
     /**
@@ -373,7 +373,7 @@ public class IfcDocumentInformationImpl extends IdEObjectImpl implements IfcDocu
      */
     @Override
     public IfcActorSelect getDocumentOwner() {
-        return (IfcActorSelect) eGet(Ifc2x3tc1Package.Literals.IFC_DOCUMENT_INFORMATION__DOCUMENT_OWNER, true);
+        return (IfcActorSelect) eGet(Ifc2x3tc1Package.eINSTANCE.getIfcDocumentInformation_DocumentOwner(), true);
     }
 
     /**
@@ -383,7 +383,7 @@ public class IfcDocumentInformationImpl extends IdEObjectImpl implements IfcDocu
      */
     @Override
     public void setDocumentOwner(IfcActorSelect newDocumentOwner) {
-        eSet(Ifc2x3tc1Package.Literals.IFC_DOCUMENT_INFORMATION__DOCUMENT_OWNER, newDocumentOwner);
+        eSet(Ifc2x3tc1Package.eINSTANCE.getIfcDocumentInformation_DocumentOwner(), newDocumentOwner);
     }
 
     /**
@@ -393,7 +393,7 @@ public class IfcDocumentInformationImpl extends IdEObjectImpl implements IfcDocu
      */
     @Override
     public void unsetDocumentOwner() {
-        eUnset(Ifc2x3tc1Package.Literals.IFC_DOCUMENT_INFORMATION__DOCUMENT_OWNER);
+        eUnset(Ifc2x3tc1Package.eINSTANCE.getIfcDocumentInformation_DocumentOwner());
     }
 
     /**
@@ -403,7 +403,7 @@ public class IfcDocumentInformationImpl extends IdEObjectImpl implements IfcDocu
      */
     @Override
     public boolean isSetDocumentOwner() {
-        return eIsSet(Ifc2x3tc1Package.Literals.IFC_DOCUMENT_INFORMATION__DOCUMENT_OWNER);
+        return eIsSet(Ifc2x3tc1Package.eINSTANCE.getIfcDocumentInformation_DocumentOwner());
     }
 
     /**
@@ -414,7 +414,7 @@ public class IfcDocumentInformationImpl extends IdEObjectImpl implements IfcDocu
     @SuppressWarnings("unchecked")
     @Override
     public EList<IfcActorSelect> getEditors() {
-        return (EList<IfcActorSelect>) eGet(Ifc2x3tc1Package.Literals.IFC_DOCUMENT_INFORMATION__EDITORS, true);
+        return (EList<IfcActorSelect>) eGet(Ifc2x3tc1Package.eINSTANCE.getIfcDocumentInformation_Editors(), true);
     }
 
     /**
@@ -424,7 +424,7 @@ public class IfcDocumentInformationImpl extends IdEObjectImpl implements IfcDocu
      */
     @Override
     public void unsetEditors() {
-        eUnset(Ifc2x3tc1Package.Literals.IFC_DOCUMENT_INFORMATION__EDITORS);
+        eUnset(Ifc2x3tc1Package.eINSTANCE.getIfcDocumentInformation_Editors());
     }
 
     /**
@@ -434,7 +434,7 @@ public class IfcDocumentInformationImpl extends IdEObjectImpl implements IfcDocu
      */
     @Override
     public boolean isSetEditors() {
-        return eIsSet(Ifc2x3tc1Package.Literals.IFC_DOCUMENT_INFORMATION__EDITORS);
+        return eIsSet(Ifc2x3tc1Package.eINSTANCE.getIfcDocumentInformation_Editors());
     }
 
     /**
@@ -444,7 +444,7 @@ public class IfcDocumentInformationImpl extends IdEObjectImpl implements IfcDocu
      */
     @Override
     public IfcDateAndTime getCreationTime() {
-        return (IfcDateAndTime) eGet(Ifc2x3tc1Package.Literals.IFC_DOCUMENT_INFORMATION__CREATION_TIME, true);
+        return (IfcDateAndTime) eGet(Ifc2x3tc1Package.eINSTANCE.getIfcDocumentInformation_CreationTime(), true);
     }
 
     /**
@@ -454,7 +454,7 @@ public class IfcDocumentInformationImpl extends IdEObjectImpl implements IfcDocu
      */
     @Override
     public void setCreationTime(IfcDateAndTime newCreationTime) {
-        eSet(Ifc2x3tc1Package.Literals.IFC_DOCUMENT_INFORMATION__CREATION_TIME, newCreationTime);
+        eSet(Ifc2x3tc1Package.eINSTANCE.getIfcDocumentInformation_CreationTime(), newCreationTime);
     }
 
     /**
@@ -464,7 +464,7 @@ public class IfcDocumentInformationImpl extends IdEObjectImpl implements IfcDocu
      */
     @Override
     public void unsetCreationTime() {
-        eUnset(Ifc2x3tc1Package.Literals.IFC_DOCUMENT_INFORMATION__CREATION_TIME);
+        eUnset(Ifc2x3tc1Package.eINSTANCE.getIfcDocumentInformation_CreationTime());
     }
 
     /**
@@ -474,7 +474,7 @@ public class IfcDocumentInformationImpl extends IdEObjectImpl implements IfcDocu
      */
     @Override
     public boolean isSetCreationTime() {
-        return eIsSet(Ifc2x3tc1Package.Literals.IFC_DOCUMENT_INFORMATION__CREATION_TIME);
+        return eIsSet(Ifc2x3tc1Package.eINSTANCE.getIfcDocumentInformation_CreationTime());
     }
 
     /**
@@ -484,7 +484,7 @@ public class IfcDocumentInformationImpl extends IdEObjectImpl implements IfcDocu
      */
     @Override
     public IfcDateAndTime getLastRevisionTime() {
-        return (IfcDateAndTime) eGet(Ifc2x3tc1Package.Literals.IFC_DOCUMENT_INFORMATION__LAST_REVISION_TIME, true);
+        return (IfcDateAndTime) eGet(Ifc2x3tc1Package.eINSTANCE.getIfcDocumentInformation_LastRevisionTime(), true);
     }
 
     /**
@@ -494,7 +494,7 @@ public class IfcDocumentInformationImpl extends IdEObjectImpl implements IfcDocu
      */
     @Override
     public void setLastRevisionTime(IfcDateAndTime newLastRevisionTime) {
-        eSet(Ifc2x3tc1Package.Literals.IFC_DOCUMENT_INFORMATION__LAST_REVISION_TIME, newLastRevisionTime);
+        eSet(Ifc2x3tc1Package.eINSTANCE.getIfcDocumentInformation_LastRevisionTime(), newLastRevisionTime);
     }
 
     /**
@@ -504,7 +504,7 @@ public class IfcDocumentInformationImpl extends IdEObjectImpl implements IfcDocu
      */
     @Override
     public void unsetLastRevisionTime() {
-        eUnset(Ifc2x3tc1Package.Literals.IFC_DOCUMENT_INFORMATION__LAST_REVISION_TIME);
+        eUnset(Ifc2x3tc1Package.eINSTANCE.getIfcDocumentInformation_LastRevisionTime());
     }
 
     /**
@@ -514,7 +514,7 @@ public class IfcDocumentInformationImpl extends IdEObjectImpl implements IfcDocu
      */
     @Override
     public boolean isSetLastRevisionTime() {
-        return eIsSet(Ifc2x3tc1Package.Literals.IFC_DOCUMENT_INFORMATION__LAST_REVISION_TIME);
+        return eIsSet(Ifc2x3tc1Package.eINSTANCE.getIfcDocumentInformation_LastRevisionTime());
     }
 
     /**
@@ -524,8 +524,8 @@ public class IfcDocumentInformationImpl extends IdEObjectImpl implements IfcDocu
      */
     @Override
     public IfcDocumentElectronicFormat getElectronicFormat() {
-        return (IfcDocumentElectronicFormat) eGet(Ifc2x3tc1Package.Literals.IFC_DOCUMENT_INFORMATION__ELECTRONIC_FORMAT,
-                true);
+        return (IfcDocumentElectronicFormat) eGet(
+                Ifc2x3tc1Package.eINSTANCE.getIfcDocumentInformation_ElectronicFormat(), true);
     }
 
     /**
@@ -535,7 +535,7 @@ public class IfcDocumentInformationImpl extends IdEObjectImpl implements IfcDocu
      */
     @Override
     public void setElectronicFormat(IfcDocumentElectronicFormat newElectronicFormat) {
-        eSet(Ifc2x3tc1Package.Literals.IFC_DOCUMENT_INFORMATION__ELECTRONIC_FORMAT, newElectronicFormat);
+        eSet(Ifc2x3tc1Package.eINSTANCE.getIfcDocumentInformation_ElectronicFormat(), newElectronicFormat);
     }
 
     /**
@@ -545,7 +545,7 @@ public class IfcDocumentInformationImpl extends IdEObjectImpl implements IfcDocu
      */
     @Override
     public void unsetElectronicFormat() {
-        eUnset(Ifc2x3tc1Package.Literals.IFC_DOCUMENT_INFORMATION__ELECTRONIC_FORMAT);
+        eUnset(Ifc2x3tc1Package.eINSTANCE.getIfcDocumentInformation_ElectronicFormat());
     }
 
     /**
@@ -555,7 +555,7 @@ public class IfcDocumentInformationImpl extends IdEObjectImpl implements IfcDocu
      */
     @Override
     public boolean isSetElectronicFormat() {
-        return eIsSet(Ifc2x3tc1Package.Literals.IFC_DOCUMENT_INFORMATION__ELECTRONIC_FORMAT);
+        return eIsSet(Ifc2x3tc1Package.eINSTANCE.getIfcDocumentInformation_ElectronicFormat());
     }
 
     /**
@@ -565,7 +565,7 @@ public class IfcDocumentInformationImpl extends IdEObjectImpl implements IfcDocu
      */
     @Override
     public IfcCalendarDate getValidFrom() {
-        return (IfcCalendarDate) eGet(Ifc2x3tc1Package.Literals.IFC_DOCUMENT_INFORMATION__VALID_FROM, true);
+        return (IfcCalendarDate) eGet(Ifc2x3tc1Package.eINSTANCE.getIfcDocumentInformation_ValidFrom(), true);
     }
 
     /**
@@ -575,7 +575,7 @@ public class IfcDocumentInformationImpl extends IdEObjectImpl implements IfcDocu
      */
     @Override
     public void setValidFrom(IfcCalendarDate newValidFrom) {
-        eSet(Ifc2x3tc1Package.Literals.IFC_DOCUMENT_INFORMATION__VALID_FROM, newValidFrom);
+        eSet(Ifc2x3tc1Package.eINSTANCE.getIfcDocumentInformation_ValidFrom(), newValidFrom);
     }
 
     /**
@@ -585,7 +585,7 @@ public class IfcDocumentInformationImpl extends IdEObjectImpl implements IfcDocu
      */
     @Override
     public void unsetValidFrom() {
-        eUnset(Ifc2x3tc1Package.Literals.IFC_DOCUMENT_INFORMATION__VALID_FROM);
+        eUnset(Ifc2x3tc1Package.eINSTANCE.getIfcDocumentInformation_ValidFrom());
     }
 
     /**
@@ -595,7 +595,7 @@ public class IfcDocumentInformationImpl extends IdEObjectImpl implements IfcDocu
      */
     @Override
     public boolean isSetValidFrom() {
-        return eIsSet(Ifc2x3tc1Package.Literals.IFC_DOCUMENT_INFORMATION__VALID_FROM);
+        return eIsSet(Ifc2x3tc1Package.eINSTANCE.getIfcDocumentInformation_ValidFrom());
     }
 
     /**
@@ -605,7 +605,7 @@ public class IfcDocumentInformationImpl extends IdEObjectImpl implements IfcDocu
      */
     @Override
     public IfcCalendarDate getValidUntil() {
-        return (IfcCalendarDate) eGet(Ifc2x3tc1Package.Literals.IFC_DOCUMENT_INFORMATION__VALID_UNTIL, true);
+        return (IfcCalendarDate) eGet(Ifc2x3tc1Package.eINSTANCE.getIfcDocumentInformation_ValidUntil(), true);
     }
 
     /**
@@ -615,7 +615,7 @@ public class IfcDocumentInformationImpl extends IdEObjectImpl implements IfcDocu
      */
     @Override
     public void setValidUntil(IfcCalendarDate newValidUntil) {
-        eSet(Ifc2x3tc1Package.Literals.IFC_DOCUMENT_INFORMATION__VALID_UNTIL, newValidUntil);
+        eSet(Ifc2x3tc1Package.eINSTANCE.getIfcDocumentInformation_ValidUntil(), newValidUntil);
     }
 
     /**
@@ -625,7 +625,7 @@ public class IfcDocumentInformationImpl extends IdEObjectImpl implements IfcDocu
      */
     @Override
     public void unsetValidUntil() {
-        eUnset(Ifc2x3tc1Package.Literals.IFC_DOCUMENT_INFORMATION__VALID_UNTIL);
+        eUnset(Ifc2x3tc1Package.eINSTANCE.getIfcDocumentInformation_ValidUntil());
     }
 
     /**
@@ -635,7 +635,7 @@ public class IfcDocumentInformationImpl extends IdEObjectImpl implements IfcDocu
      */
     @Override
     public boolean isSetValidUntil() {
-        return eIsSet(Ifc2x3tc1Package.Literals.IFC_DOCUMENT_INFORMATION__VALID_UNTIL);
+        return eIsSet(Ifc2x3tc1Package.eINSTANCE.getIfcDocumentInformation_ValidUntil());
     }
 
     /**
@@ -646,7 +646,7 @@ public class IfcDocumentInformationImpl extends IdEObjectImpl implements IfcDocu
     @Override
     public IfcDocumentConfidentialityEnum getConfidentiality() {
         return (IfcDocumentConfidentialityEnum) eGet(
-                Ifc2x3tc1Package.Literals.IFC_DOCUMENT_INFORMATION__CONFIDENTIALITY, true);
+                Ifc2x3tc1Package.eINSTANCE.getIfcDocumentInformation_Confidentiality(), true);
     }
 
     /**
@@ -656,7 +656,7 @@ public class IfcDocumentInformationImpl extends IdEObjectImpl implements IfcDocu
      */
     @Override
     public void setConfidentiality(IfcDocumentConfidentialityEnum newConfidentiality) {
-        eSet(Ifc2x3tc1Package.Literals.IFC_DOCUMENT_INFORMATION__CONFIDENTIALITY, newConfidentiality);
+        eSet(Ifc2x3tc1Package.eINSTANCE.getIfcDocumentInformation_Confidentiality(), newConfidentiality);
     }
 
     /**
@@ -666,7 +666,7 @@ public class IfcDocumentInformationImpl extends IdEObjectImpl implements IfcDocu
      */
     @Override
     public void unsetConfidentiality() {
-        eUnset(Ifc2x3tc1Package.Literals.IFC_DOCUMENT_INFORMATION__CONFIDENTIALITY);
+        eUnset(Ifc2x3tc1Package.eINSTANCE.getIfcDocumentInformation_Confidentiality());
     }
 
     /**
@@ -676,7 +676,7 @@ public class IfcDocumentInformationImpl extends IdEObjectImpl implements IfcDocu
      */
     @Override
     public boolean isSetConfidentiality() {
-        return eIsSet(Ifc2x3tc1Package.Literals.IFC_DOCUMENT_INFORMATION__CONFIDENTIALITY);
+        return eIsSet(Ifc2x3tc1Package.eINSTANCE.getIfcDocumentInformation_Confidentiality());
     }
 
     /**
@@ -686,7 +686,7 @@ public class IfcDocumentInformationImpl extends IdEObjectImpl implements IfcDocu
      */
     @Override
     public IfcDocumentStatusEnum getStatus() {
-        return (IfcDocumentStatusEnum) eGet(Ifc2x3tc1Package.Literals.IFC_DOCUMENT_INFORMATION__STATUS, true);
+        return (IfcDocumentStatusEnum) eGet(Ifc2x3tc1Package.eINSTANCE.getIfcDocumentInformation_Status(), true);
     }
 
     /**
@@ -696,7 +696,7 @@ public class IfcDocumentInformationImpl extends IdEObjectImpl implements IfcDocu
      */
     @Override
     public void setStatus(IfcDocumentStatusEnum newStatus) {
-        eSet(Ifc2x3tc1Package.Literals.IFC_DOCUMENT_INFORMATION__STATUS, newStatus);
+        eSet(Ifc2x3tc1Package.eINSTANCE.getIfcDocumentInformation_Status(), newStatus);
     }
 
     /**
@@ -706,7 +706,7 @@ public class IfcDocumentInformationImpl extends IdEObjectImpl implements IfcDocu
      */
     @Override
     public void unsetStatus() {
-        eUnset(Ifc2x3tc1Package.Literals.IFC_DOCUMENT_INFORMATION__STATUS);
+        eUnset(Ifc2x3tc1Package.eINSTANCE.getIfcDocumentInformation_Status());
     }
 
     /**
@@ -716,7 +716,7 @@ public class IfcDocumentInformationImpl extends IdEObjectImpl implements IfcDocu
      */
     @Override
     public boolean isSetStatus() {
-        return eIsSet(Ifc2x3tc1Package.Literals.IFC_DOCUMENT_INFORMATION__STATUS);
+        return eIsSet(Ifc2x3tc1Package.eINSTANCE.getIfcDocumentInformation_Status());
     }
 
     /**
@@ -728,7 +728,7 @@ public class IfcDocumentInformationImpl extends IdEObjectImpl implements IfcDocu
     @Override
     public EList<IfcDocumentInformationRelationship> getIsPointedTo() {
         return (EList<IfcDocumentInformationRelationship>) eGet(
-                Ifc2x3tc1Package.Literals.IFC_DOCUMENT_INFORMATION__IS_POINTED_TO, true);
+                Ifc2x3tc1Package.eINSTANCE.getIfcDocumentInformation_IsPointedTo(), true);
     }
 
     /**
@@ -738,7 +738,7 @@ public class IfcDocumentInformationImpl extends IdEObjectImpl implements IfcDocu
      */
     @Override
     public void unsetIsPointedTo() {
-        eUnset(Ifc2x3tc1Package.Literals.IFC_DOCUMENT_INFORMATION__IS_POINTED_TO);
+        eUnset(Ifc2x3tc1Package.eINSTANCE.getIfcDocumentInformation_IsPointedTo());
     }
 
     /**
@@ -748,7 +748,7 @@ public class IfcDocumentInformationImpl extends IdEObjectImpl implements IfcDocu
      */
     @Override
     public boolean isSetIsPointedTo() {
-        return eIsSet(Ifc2x3tc1Package.Literals.IFC_DOCUMENT_INFORMATION__IS_POINTED_TO);
+        return eIsSet(Ifc2x3tc1Package.eINSTANCE.getIfcDocumentInformation_IsPointedTo());
     }
 
     /**
@@ -760,7 +760,7 @@ public class IfcDocumentInformationImpl extends IdEObjectImpl implements IfcDocu
     @Override
     public EList<IfcDocumentInformationRelationship> getIsPointer() {
         return (EList<IfcDocumentInformationRelationship>) eGet(
-                Ifc2x3tc1Package.Literals.IFC_DOCUMENT_INFORMATION__IS_POINTER, true);
+                Ifc2x3tc1Package.eINSTANCE.getIfcDocumentInformation_IsPointer(), true);
     }
 
     /**
@@ -770,7 +770,7 @@ public class IfcDocumentInformationImpl extends IdEObjectImpl implements IfcDocu
      */
     @Override
     public void unsetIsPointer() {
-        eUnset(Ifc2x3tc1Package.Literals.IFC_DOCUMENT_INFORMATION__IS_POINTER);
+        eUnset(Ifc2x3tc1Package.eINSTANCE.getIfcDocumentInformation_IsPointer());
     }
 
     /**
@@ -780,7 +780,7 @@ public class IfcDocumentInformationImpl extends IdEObjectImpl implements IfcDocu
      */
     @Override
     public boolean isSetIsPointer() {
-        return eIsSet(Ifc2x3tc1Package.Literals.IFC_DOCUMENT_INFORMATION__IS_POINTER);
+        return eIsSet(Ifc2x3tc1Package.eINSTANCE.getIfcDocumentInformation_IsPointer());
     }
 
 } //IfcDocumentInformationImpl

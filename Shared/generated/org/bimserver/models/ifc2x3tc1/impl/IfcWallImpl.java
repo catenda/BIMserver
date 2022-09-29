@@ -45,7 +45,7 @@ public class IfcWallImpl extends IfcBuildingElementImpl implements IfcWall {
      */
     @Override
     protected EClass eStaticClass() {
-        return Ifc2x3tc1Package.Literals.IFC_WALL;
+        return Ifc2x3tc1Package.eINSTANCE.getIfcWall();
     }
 
 } //IfcWallImpl

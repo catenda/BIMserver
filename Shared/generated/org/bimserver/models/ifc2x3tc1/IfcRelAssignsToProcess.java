@@ -38,10 +38,6 @@ public interface IfcRelAssignsToProcess extends IfcRelAssigns {
      * Returns the value of the '<em><b>Relating Process</b></em>' reference.
      * It is bidirectional and its opposite is '{@link org.bimserver.models.ifc2x3tc1.IfcProcess#getOperatesOn <em>Operates On</em>}'.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Relating Process</em>' reference isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Relating Process</em>' reference.
      * @see #setRelatingProcess(IfcProcess)
@@ -66,10 +62,6 @@ public interface IfcRelAssignsToProcess extends IfcRelAssigns {
     /**
      * Returns the value of the '<em><b>Quantity In Process</b></em>' reference.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Quantity In Process</em>' reference isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Quantity In Process</em>' reference.
      * @see #isSetQuantityInProcess()

@@ -41,10 +41,6 @@ public interface IfcRepresentationMap extends IfcProductRepresentationSelect {
     /**
      * Returns the value of the '<em><b>Mapping Origin</b></em>' reference.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Mapping Origin</em>' reference isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Mapping Origin</em>' reference.
      * @see #setMappingOrigin(IfcAxis2Placement)
@@ -68,10 +64,6 @@ public interface IfcRepresentationMap extends IfcProductRepresentationSelect {
      * Returns the value of the '<em><b>Mapped Representation</b></em>' reference.
      * It is bidirectional and its opposite is '{@link org.bimserver.models.ifc4.IfcRepresentation#getRepresentationMap <em>Representation Map</em>}'.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Mapped Representation</em>' reference isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Mapped Representation</em>' reference.
      * @see #setMappedRepresentation(IfcRepresentation)
@@ -97,10 +89,6 @@ public interface IfcRepresentationMap extends IfcProductRepresentationSelect {
      * Returns the value of the '<em><b>Has Shape Aspects</b></em>' reference list.
      * The list contents are of type {@link org.bimserver.models.ifc4.IfcShapeAspect}.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Has Shape Aspects</em>' reference list isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Has Shape Aspects</em>' reference list.
      * @see #isSetHasShapeAspects()
@@ -138,10 +126,6 @@ public interface IfcRepresentationMap extends IfcProductRepresentationSelect {
      * The list contents are of type {@link org.bimserver.models.ifc4.IfcMappedItem}.
      * It is bidirectional and its opposite is '{@link org.bimserver.models.ifc4.IfcMappedItem#getMappingSource <em>Mapping Source</em>}'.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Map Usage</em>' reference list isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Map Usage</em>' reference list.
      * @see #isSetMapUsage()

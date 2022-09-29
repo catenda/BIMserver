@@ -37,10 +37,6 @@ public interface IfcTextLiteralWithExtent extends IfcTextLiteral {
     /**
      * Returns the value of the '<em><b>Extent</b></em>' reference.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Extent</em>' reference isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Extent</em>' reference.
      * @see #setExtent(IfcPlanarExtent)
@@ -63,10 +59,6 @@ public interface IfcTextLiteralWithExtent extends IfcTextLiteral {
     /**
      * Returns the value of the '<em><b>Box Alignment</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Box Alignment</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Box Alignment</em>' attribute.
      * @see #setBoxAlignment(String)

@@ -39,10 +39,6 @@ public interface CompareItem extends IdEObject {
     /**
      * Returns the value of the '<em><b>Data Object</b></em>' reference.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Data Object</em>' reference isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Data Object</em>' reference.
      * @see #setDataObject(DataObject)

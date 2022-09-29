@@ -57,7 +57,7 @@ public class IfcCurveStyleFontAndScalingImpl extends IdEObjectImpl implements If
      */
     @Override
     protected EClass eStaticClass() {
-        return Ifc2x3tc1Package.Literals.IFC_CURVE_STYLE_FONT_AND_SCALING;
+        return Ifc2x3tc1Package.eINSTANCE.getIfcCurveStyleFontAndScaling();
     }
 
     /**
@@ -77,7 +77,7 @@ public class IfcCurveStyleFontAndScalingImpl extends IdEObjectImpl implements If
      */
     @Override
     public String getName() {
-        return (String) eGet(Ifc2x3tc1Package.Literals.IFC_CURVE_STYLE_FONT_AND_SCALING__NAME, true);
+        return (String) eGet(Ifc2x3tc1Package.eINSTANCE.getIfcCurveStyleFontAndScaling_Name(), true);
     }
 
     /**
@@ -87,7 +87,7 @@ public class IfcCurveStyleFontAndScalingImpl extends IdEObjectImpl implements If
      */
     @Override
     public void setName(String newName) {
-        eSet(Ifc2x3tc1Package.Literals.IFC_CURVE_STYLE_FONT_AND_SCALING__NAME, newName);
+        eSet(Ifc2x3tc1Package.eINSTANCE.getIfcCurveStyleFontAndScaling_Name(), newName);
     }
 
     /**
@@ -97,7 +97,7 @@ public class IfcCurveStyleFontAndScalingImpl extends IdEObjectImpl implements If
      */
     @Override
     public void unsetName() {
-        eUnset(Ifc2x3tc1Package.Literals.IFC_CURVE_STYLE_FONT_AND_SCALING__NAME);
+        eUnset(Ifc2x3tc1Package.eINSTANCE.getIfcCurveStyleFontAndScaling_Name());
     }
 
     /**
@@ -107,7 +107,7 @@ public class IfcCurveStyleFontAndScalingImpl extends IdEObjectImpl implements If
      */
     @Override
     public boolean isSetName() {
-        return eIsSet(Ifc2x3tc1Package.Literals.IFC_CURVE_STYLE_FONT_AND_SCALING__NAME);
+        return eIsSet(Ifc2x3tc1Package.eINSTANCE.getIfcCurveStyleFontAndScaling_Name());
     }
 
     /**
@@ -117,7 +117,7 @@ public class IfcCurveStyleFontAndScalingImpl extends IdEObjectImpl implements If
      */
     @Override
     public IfcCurveStyleFontSelect getCurveFont() {
-        return (IfcCurveStyleFontSelect) eGet(Ifc2x3tc1Package.Literals.IFC_CURVE_STYLE_FONT_AND_SCALING__CURVE_FONT,
+        return (IfcCurveStyleFontSelect) eGet(Ifc2x3tc1Package.eINSTANCE.getIfcCurveStyleFontAndScaling_CurveFont(),
                 true);
     }
 
@@ -128,7 +128,7 @@ public class IfcCurveStyleFontAndScalingImpl extends IdEObjectImpl implements If
      */
     @Override
     public void setCurveFont(IfcCurveStyleFontSelect newCurveFont) {
-        eSet(Ifc2x3tc1Package.Literals.IFC_CURVE_STYLE_FONT_AND_SCALING__CURVE_FONT, newCurveFont);
+        eSet(Ifc2x3tc1Package.eINSTANCE.getIfcCurveStyleFontAndScaling_CurveFont(), newCurveFont);
     }
 
     /**
@@ -138,7 +138,7 @@ public class IfcCurveStyleFontAndScalingImpl extends IdEObjectImpl implements If
      */
     @Override
     public double getCurveFontScaling() {
-        return (Double) eGet(Ifc2x3tc1Package.Literals.IFC_CURVE_STYLE_FONT_AND_SCALING__CURVE_FONT_SCALING, true);
+        return (Double) eGet(Ifc2x3tc1Package.eINSTANCE.getIfcCurveStyleFontAndScaling_CurveFontScaling(), true);
     }
 
     /**
@@ -148,7 +148,7 @@ public class IfcCurveStyleFontAndScalingImpl extends IdEObjectImpl implements If
      */
     @Override
     public void setCurveFontScaling(double newCurveFontScaling) {
-        eSet(Ifc2x3tc1Package.Literals.IFC_CURVE_STYLE_FONT_AND_SCALING__CURVE_FONT_SCALING, newCurveFontScaling);
+        eSet(Ifc2x3tc1Package.eINSTANCE.getIfcCurveStyleFontAndScaling_CurveFontScaling(), newCurveFontScaling);
     }
 
     /**
@@ -158,7 +158,7 @@ public class IfcCurveStyleFontAndScalingImpl extends IdEObjectImpl implements If
      */
     @Override
     public String getCurveFontScalingAsString() {
-        return (String) eGet(Ifc2x3tc1Package.Literals.IFC_CURVE_STYLE_FONT_AND_SCALING__CURVE_FONT_SCALING_AS_STRING,
+        return (String) eGet(Ifc2x3tc1Package.eINSTANCE.getIfcCurveStyleFontAndScaling_CurveFontScalingAsString(),
                 true);
     }
 
@@ -169,7 +169,7 @@ public class IfcCurveStyleFontAndScalingImpl extends IdEObjectImpl implements If
      */
     @Override
     public void setCurveFontScalingAsString(String newCurveFontScalingAsString) {
-        eSet(Ifc2x3tc1Package.Literals.IFC_CURVE_STYLE_FONT_AND_SCALING__CURVE_FONT_SCALING_AS_STRING,
+        eSet(Ifc2x3tc1Package.eINSTANCE.getIfcCurveStyleFontAndScaling_CurveFontScalingAsString(),
                 newCurveFontScalingAsString);
     }
 

@@ -52,7 +52,7 @@ public class IfcDuctSegmentTypeImpl extends IfcFlowSegmentTypeImpl implements If
      */
     @Override
     protected EClass eStaticClass() {
-        return Ifc4Package.Literals.IFC_DUCT_SEGMENT_TYPE;
+        return Ifc4Package.eINSTANCE.getIfcDuctSegmentType();
     }
 
     /**
@@ -62,7 +62,7 @@ public class IfcDuctSegmentTypeImpl extends IfcFlowSegmentTypeImpl implements If
      */
     @Override
     public IfcDuctSegmentTypeEnum getPredefinedType() {
-        return (IfcDuctSegmentTypeEnum) eGet(Ifc4Package.Literals.IFC_DUCT_SEGMENT_TYPE__PREDEFINED_TYPE, true);
+        return (IfcDuctSegmentTypeEnum) eGet(Ifc4Package.eINSTANCE.getIfcDuctSegmentType_PredefinedType(), true);
     }
 
     /**
@@ -72,7 +72,7 @@ public class IfcDuctSegmentTypeImpl extends IfcFlowSegmentTypeImpl implements If
      */
     @Override
     public void setPredefinedType(IfcDuctSegmentTypeEnum newPredefinedType) {
-        eSet(Ifc4Package.Literals.IFC_DUCT_SEGMENT_TYPE__PREDEFINED_TYPE, newPredefinedType);
+        eSet(Ifc4Package.eINSTANCE.getIfcDuctSegmentType_PredefinedType(), newPredefinedType);
     }
 
 } //IfcDuctSegmentTypeImpl

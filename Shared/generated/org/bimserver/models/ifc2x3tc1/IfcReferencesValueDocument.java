@@ -44,10 +44,6 @@ public interface IfcReferencesValueDocument extends IdEObject {
     /**
      * Returns the value of the '<em><b>Referenced Document</b></em>' reference.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Referenced Document</em>' reference isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Referenced Document</em>' reference.
      * @see #setReferencedDocument(IfcDocumentSelect)
@@ -72,10 +68,6 @@ public interface IfcReferencesValueDocument extends IdEObject {
      * The list contents are of type {@link org.bimserver.models.ifc2x3tc1.IfcAppliedValue}.
      * It is bidirectional and its opposite is '{@link org.bimserver.models.ifc2x3tc1.IfcAppliedValue#getValuesReferenced <em>Values Referenced</em>}'.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Referencing Values</em>' reference list isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Referencing Values</em>' reference list.
      * @see org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package#getIfcReferencesValueDocument_ReferencingValues()
@@ -89,10 +81,6 @@ public interface IfcReferencesValueDocument extends IdEObject {
     /**
      * Returns the value of the '<em><b>Name</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Name</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Name</em>' attribute.
      * @see #isSetName()
@@ -142,10 +130,6 @@ public interface IfcReferencesValueDocument extends IdEObject {
     /**
      * Returns the value of the '<em><b>Description</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Description</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Description</em>' attribute.
      * @see #isSetDescription()

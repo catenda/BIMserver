@@ -46,7 +46,7 @@ public class IfcDraughtingPreDefinedColourImpl extends IfcPreDefinedColourImpl
      */
     @Override
     protected EClass eStaticClass() {
-        return Ifc2x3tc1Package.Literals.IFC_DRAUGHTING_PRE_DEFINED_COLOUR;
+        return Ifc2x3tc1Package.eINSTANCE.getIfcDraughtingPreDefinedColour();
     }
 
 } //IfcDraughtingPreDefinedColourImpl

@@ -41,10 +41,6 @@ public interface IfcSchedulingTime extends IdEObject {
     /**
      * Returns the value of the '<em><b>Name</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Name</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Name</em>' attribute.
      * @see #isSetName()
@@ -95,10 +91,6 @@ public interface IfcSchedulingTime extends IdEObject {
      * Returns the value of the '<em><b>Data Origin</b></em>' attribute.
      * The literals are from the enumeration {@link org.bimserver.models.ifc4.IfcDataOriginEnum}.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Data Origin</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Data Origin</em>' attribute.
      * @see org.bimserver.models.ifc4.IfcDataOriginEnum
@@ -150,10 +142,6 @@ public interface IfcSchedulingTime extends IdEObject {
     /**
      * Returns the value of the '<em><b>User Defined Data Origin</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>User Defined Data Origin</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>User Defined Data Origin</em>' attribute.
      * @see #isSetUserDefinedDataOrigin()

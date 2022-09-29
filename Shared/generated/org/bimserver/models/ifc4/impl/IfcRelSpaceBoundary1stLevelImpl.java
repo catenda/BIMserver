@@ -54,7 +54,7 @@ public class IfcRelSpaceBoundary1stLevelImpl extends IfcRelSpaceBoundaryImpl imp
      */
     @Override
     protected EClass eStaticClass() {
-        return Ifc4Package.Literals.IFC_REL_SPACE_BOUNDARY1ST_LEVEL;
+        return Ifc4Package.eINSTANCE.getIfcRelSpaceBoundary1stLevel();
     }
 
     /**
@@ -64,7 +64,7 @@ public class IfcRelSpaceBoundary1stLevelImpl extends IfcRelSpaceBoundaryImpl imp
      */
     @Override
     public IfcRelSpaceBoundary1stLevel getParentBoundary() {
-        return (IfcRelSpaceBoundary1stLevel) eGet(Ifc4Package.Literals.IFC_REL_SPACE_BOUNDARY1ST_LEVEL__PARENT_BOUNDARY,
+        return (IfcRelSpaceBoundary1stLevel) eGet(Ifc4Package.eINSTANCE.getIfcRelSpaceBoundary1stLevel_ParentBoundary(),
                 true);
     }
 
@@ -75,7 +75,7 @@ public class IfcRelSpaceBoundary1stLevelImpl extends IfcRelSpaceBoundaryImpl imp
      */
     @Override
     public void setParentBoundary(IfcRelSpaceBoundary1stLevel newParentBoundary) {
-        eSet(Ifc4Package.Literals.IFC_REL_SPACE_BOUNDARY1ST_LEVEL__PARENT_BOUNDARY, newParentBoundary);
+        eSet(Ifc4Package.eINSTANCE.getIfcRelSpaceBoundary1stLevel_ParentBoundary(), newParentBoundary);
     }
 
     /**
@@ -85,7 +85,7 @@ public class IfcRelSpaceBoundary1stLevelImpl extends IfcRelSpaceBoundaryImpl imp
      */
     @Override
     public void unsetParentBoundary() {
-        eUnset(Ifc4Package.Literals.IFC_REL_SPACE_BOUNDARY1ST_LEVEL__PARENT_BOUNDARY);
+        eUnset(Ifc4Package.eINSTANCE.getIfcRelSpaceBoundary1stLevel_ParentBoundary());
     }
 
     /**
@@ -95,7 +95,7 @@ public class IfcRelSpaceBoundary1stLevelImpl extends IfcRelSpaceBoundaryImpl imp
      */
     @Override
     public boolean isSetParentBoundary() {
-        return eIsSet(Ifc4Package.Literals.IFC_REL_SPACE_BOUNDARY1ST_LEVEL__PARENT_BOUNDARY);
+        return eIsSet(Ifc4Package.eINSTANCE.getIfcRelSpaceBoundary1stLevel_ParentBoundary());
     }
 
     /**
@@ -107,7 +107,7 @@ public class IfcRelSpaceBoundary1stLevelImpl extends IfcRelSpaceBoundaryImpl imp
     @Override
     public EList<IfcRelSpaceBoundary1stLevel> getInnerBoundaries() {
         return (EList<IfcRelSpaceBoundary1stLevel>) eGet(
-                Ifc4Package.Literals.IFC_REL_SPACE_BOUNDARY1ST_LEVEL__INNER_BOUNDARIES, true);
+                Ifc4Package.eINSTANCE.getIfcRelSpaceBoundary1stLevel_InnerBoundaries(), true);
     }
 
     /**
@@ -117,7 +117,7 @@ public class IfcRelSpaceBoundary1stLevelImpl extends IfcRelSpaceBoundaryImpl imp
      */
     @Override
     public void unsetInnerBoundaries() {
-        eUnset(Ifc4Package.Literals.IFC_REL_SPACE_BOUNDARY1ST_LEVEL__INNER_BOUNDARIES);
+        eUnset(Ifc4Package.eINSTANCE.getIfcRelSpaceBoundary1stLevel_InnerBoundaries());
     }
 
     /**
@@ -127,7 +127,7 @@ public class IfcRelSpaceBoundary1stLevelImpl extends IfcRelSpaceBoundaryImpl imp
      */
     @Override
     public boolean isSetInnerBoundaries() {
-        return eIsSet(Ifc4Package.Literals.IFC_REL_SPACE_BOUNDARY1ST_LEVEL__INNER_BOUNDARIES);
+        return eIsSet(Ifc4Package.eINSTANCE.getIfcRelSpaceBoundary1stLevel_InnerBoundaries());
     }
 
 } //IfcRelSpaceBoundary1stLevelImpl

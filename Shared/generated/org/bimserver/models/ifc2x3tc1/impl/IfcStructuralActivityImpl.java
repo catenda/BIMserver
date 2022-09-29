@@ -56,7 +56,7 @@ public class IfcStructuralActivityImpl extends IfcProductImpl implements IfcStru
      */
     @Override
     protected EClass eStaticClass() {
-        return Ifc2x3tc1Package.Literals.IFC_STRUCTURAL_ACTIVITY;
+        return Ifc2x3tc1Package.eINSTANCE.getIfcStructuralActivity();
     }
 
     /**
@@ -66,7 +66,7 @@ public class IfcStructuralActivityImpl extends IfcProductImpl implements IfcStru
      */
     @Override
     public IfcStructuralLoad getAppliedLoad() {
-        return (IfcStructuralLoad) eGet(Ifc2x3tc1Package.Literals.IFC_STRUCTURAL_ACTIVITY__APPLIED_LOAD, true);
+        return (IfcStructuralLoad) eGet(Ifc2x3tc1Package.eINSTANCE.getIfcStructuralActivity_AppliedLoad(), true);
     }
 
     /**
@@ -76,7 +76,7 @@ public class IfcStructuralActivityImpl extends IfcProductImpl implements IfcStru
      */
     @Override
     public void setAppliedLoad(IfcStructuralLoad newAppliedLoad) {
-        eSet(Ifc2x3tc1Package.Literals.IFC_STRUCTURAL_ACTIVITY__APPLIED_LOAD, newAppliedLoad);
+        eSet(Ifc2x3tc1Package.eINSTANCE.getIfcStructuralActivity_AppliedLoad(), newAppliedLoad);
     }
 
     /**
@@ -86,7 +86,7 @@ public class IfcStructuralActivityImpl extends IfcProductImpl implements IfcStru
      */
     @Override
     public IfcGlobalOrLocalEnum getGlobalOrLocal() {
-        return (IfcGlobalOrLocalEnum) eGet(Ifc2x3tc1Package.Literals.IFC_STRUCTURAL_ACTIVITY__GLOBAL_OR_LOCAL, true);
+        return (IfcGlobalOrLocalEnum) eGet(Ifc2x3tc1Package.eINSTANCE.getIfcStructuralActivity_GlobalOrLocal(), true);
     }
 
     /**
@@ -96,7 +96,7 @@ public class IfcStructuralActivityImpl extends IfcProductImpl implements IfcStru
      */
     @Override
     public void setGlobalOrLocal(IfcGlobalOrLocalEnum newGlobalOrLocal) {
-        eSet(Ifc2x3tc1Package.Literals.IFC_STRUCTURAL_ACTIVITY__GLOBAL_OR_LOCAL, newGlobalOrLocal);
+        eSet(Ifc2x3tc1Package.eINSTANCE.getIfcStructuralActivity_GlobalOrLocal(), newGlobalOrLocal);
     }
 
     /**
@@ -107,7 +107,7 @@ public class IfcStructuralActivityImpl extends IfcProductImpl implements IfcStru
     @Override
     public IfcRelConnectsStructuralActivity getAssignedToStructuralItem() {
         return (IfcRelConnectsStructuralActivity) eGet(
-                Ifc2x3tc1Package.Literals.IFC_STRUCTURAL_ACTIVITY__ASSIGNED_TO_STRUCTURAL_ITEM, true);
+                Ifc2x3tc1Package.eINSTANCE.getIfcStructuralActivity_AssignedToStructuralItem(), true);
     }
 
     /**
@@ -117,7 +117,7 @@ public class IfcStructuralActivityImpl extends IfcProductImpl implements IfcStru
      */
     @Override
     public void setAssignedToStructuralItem(IfcRelConnectsStructuralActivity newAssignedToStructuralItem) {
-        eSet(Ifc2x3tc1Package.Literals.IFC_STRUCTURAL_ACTIVITY__ASSIGNED_TO_STRUCTURAL_ITEM,
+        eSet(Ifc2x3tc1Package.eINSTANCE.getIfcStructuralActivity_AssignedToStructuralItem(),
                 newAssignedToStructuralItem);
     }
 
@@ -128,7 +128,7 @@ public class IfcStructuralActivityImpl extends IfcProductImpl implements IfcStru
      */
     @Override
     public void unsetAssignedToStructuralItem() {
-        eUnset(Ifc2x3tc1Package.Literals.IFC_STRUCTURAL_ACTIVITY__ASSIGNED_TO_STRUCTURAL_ITEM);
+        eUnset(Ifc2x3tc1Package.eINSTANCE.getIfcStructuralActivity_AssignedToStructuralItem());
     }
 
     /**
@@ -138,7 +138,7 @@ public class IfcStructuralActivityImpl extends IfcProductImpl implements IfcStru
      */
     @Override
     public boolean isSetAssignedToStructuralItem() {
-        return eIsSet(Ifc2x3tc1Package.Literals.IFC_STRUCTURAL_ACTIVITY__ASSIGNED_TO_STRUCTURAL_ITEM);
+        return eIsSet(Ifc2x3tc1Package.eINSTANCE.getIfcStructuralActivity_AssignedToStructuralItem());
     }
 
 } //IfcStructuralActivityImpl

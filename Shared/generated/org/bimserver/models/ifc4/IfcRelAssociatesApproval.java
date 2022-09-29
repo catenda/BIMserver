@@ -37,10 +37,6 @@ public interface IfcRelAssociatesApproval extends IfcRelAssociates {
      * Returns the value of the '<em><b>Relating Approval</b></em>' reference.
      * It is bidirectional and its opposite is '{@link org.bimserver.models.ifc4.IfcApproval#getApprovedObjects <em>Approved Objects</em>}'.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Relating Approval</em>' reference isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Relating Approval</em>' reference.
      * @see #setRelatingApproval(IfcApproval)

@@ -45,7 +45,7 @@ public class IfcVertexImpl extends IfcTopologicalRepresentationItemImpl implemen
      */
     @Override
     protected EClass eStaticClass() {
-        return Ifc4Package.Literals.IFC_VERTEX;
+        return Ifc4Package.eINSTANCE.getIfcVertex();
     }
 
 } //IfcVertexImpl

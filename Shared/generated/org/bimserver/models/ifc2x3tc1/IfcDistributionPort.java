@@ -37,10 +37,6 @@ public interface IfcDistributionPort extends IfcPort {
      * Returns the value of the '<em><b>Flow Direction</b></em>' attribute.
      * The literals are from the enumeration {@link org.bimserver.models.ifc2x3tc1.IfcFlowDirectionEnum}.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Flow Direction</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Flow Direction</em>' attribute.
      * @see org.bimserver.models.ifc2x3tc1.IfcFlowDirectionEnum

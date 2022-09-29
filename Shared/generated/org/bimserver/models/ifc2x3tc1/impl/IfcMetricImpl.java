@@ -55,7 +55,7 @@ public class IfcMetricImpl extends IfcConstraintImpl implements IfcMetric {
      */
     @Override
     protected EClass eStaticClass() {
-        return Ifc2x3tc1Package.Literals.IFC_METRIC;
+        return Ifc2x3tc1Package.eINSTANCE.getIfcMetric();
     }
 
     /**
@@ -65,7 +65,7 @@ public class IfcMetricImpl extends IfcConstraintImpl implements IfcMetric {
      */
     @Override
     public IfcBenchmarkEnum getBenchmark() {
-        return (IfcBenchmarkEnum) eGet(Ifc2x3tc1Package.Literals.IFC_METRIC__BENCHMARK, true);
+        return (IfcBenchmarkEnum) eGet(Ifc2x3tc1Package.eINSTANCE.getIfcMetric_Benchmark(), true);
     }
 
     /**
@@ -75,7 +75,7 @@ public class IfcMetricImpl extends IfcConstraintImpl implements IfcMetric {
      */
     @Override
     public void setBenchmark(IfcBenchmarkEnum newBenchmark) {
-        eSet(Ifc2x3tc1Package.Literals.IFC_METRIC__BENCHMARK, newBenchmark);
+        eSet(Ifc2x3tc1Package.eINSTANCE.getIfcMetric_Benchmark(), newBenchmark);
     }
 
     /**
@@ -85,7 +85,7 @@ public class IfcMetricImpl extends IfcConstraintImpl implements IfcMetric {
      */
     @Override
     public String getValueSource() {
-        return (String) eGet(Ifc2x3tc1Package.Literals.IFC_METRIC__VALUE_SOURCE, true);
+        return (String) eGet(Ifc2x3tc1Package.eINSTANCE.getIfcMetric_ValueSource(), true);
     }
 
     /**
@@ -95,7 +95,7 @@ public class IfcMetricImpl extends IfcConstraintImpl implements IfcMetric {
      */
     @Override
     public void setValueSource(String newValueSource) {
-        eSet(Ifc2x3tc1Package.Literals.IFC_METRIC__VALUE_SOURCE, newValueSource);
+        eSet(Ifc2x3tc1Package.eINSTANCE.getIfcMetric_ValueSource(), newValueSource);
     }
 
     /**
@@ -105,7 +105,7 @@ public class IfcMetricImpl extends IfcConstraintImpl implements IfcMetric {
      */
     @Override
     public void unsetValueSource() {
-        eUnset(Ifc2x3tc1Package.Literals.IFC_METRIC__VALUE_SOURCE);
+        eUnset(Ifc2x3tc1Package.eINSTANCE.getIfcMetric_ValueSource());
     }
 
     /**
@@ -115,7 +115,7 @@ public class IfcMetricImpl extends IfcConstraintImpl implements IfcMetric {
      */
     @Override
     public boolean isSetValueSource() {
-        return eIsSet(Ifc2x3tc1Package.Literals.IFC_METRIC__VALUE_SOURCE);
+        return eIsSet(Ifc2x3tc1Package.eINSTANCE.getIfcMetric_ValueSource());
     }
 
     /**
@@ -125,7 +125,7 @@ public class IfcMetricImpl extends IfcConstraintImpl implements IfcMetric {
      */
     @Override
     public IfcMetricValueSelect getDataValue() {
-        return (IfcMetricValueSelect) eGet(Ifc2x3tc1Package.Literals.IFC_METRIC__DATA_VALUE, true);
+        return (IfcMetricValueSelect) eGet(Ifc2x3tc1Package.eINSTANCE.getIfcMetric_DataValue(), true);
     }
 
     /**
@@ -135,7 +135,7 @@ public class IfcMetricImpl extends IfcConstraintImpl implements IfcMetric {
      */
     @Override
     public void setDataValue(IfcMetricValueSelect newDataValue) {
-        eSet(Ifc2x3tc1Package.Literals.IFC_METRIC__DATA_VALUE, newDataValue);
+        eSet(Ifc2x3tc1Package.eINSTANCE.getIfcMetric_DataValue(), newDataValue);
     }
 
 } //IfcMetricImpl

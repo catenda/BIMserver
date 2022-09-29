@@ -47,10 +47,6 @@ public interface IfcBoundaryNodeCondition extends IfcBoundaryCondition {
     /**
      * Returns the value of the '<em><b>Linear Stiffness X</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Linear Stiffness X</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Linear Stiffness X</em>' attribute.
      * @see #isSetLinearStiffnessX()
@@ -100,10 +96,6 @@ public interface IfcBoundaryNodeCondition extends IfcBoundaryCondition {
     /**
      * Returns the value of the '<em><b>Linear Stiffness XAs String</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Linear Stiffness XAs String</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Linear Stiffness XAs String</em>' attribute.
      * @see #isSetLinearStiffnessXAsString()
@@ -155,10 +147,6 @@ public interface IfcBoundaryNodeCondition extends IfcBoundaryCondition {
     /**
      * Returns the value of the '<em><b>Linear Stiffness Y</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Linear Stiffness Y</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Linear Stiffness Y</em>' attribute.
      * @see #isSetLinearStiffnessY()
@@ -208,10 +196,6 @@ public interface IfcBoundaryNodeCondition extends IfcBoundaryCondition {
     /**
      * Returns the value of the '<em><b>Linear Stiffness YAs String</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Linear Stiffness YAs String</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Linear Stiffness YAs String</em>' attribute.
      * @see #isSetLinearStiffnessYAsString()
@@ -263,10 +247,6 @@ public interface IfcBoundaryNodeCondition extends IfcBoundaryCondition {
     /**
      * Returns the value of the '<em><b>Linear Stiffness Z</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Linear Stiffness Z</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Linear Stiffness Z</em>' attribute.
      * @see #isSetLinearStiffnessZ()
@@ -316,10 +296,6 @@ public interface IfcBoundaryNodeCondition extends IfcBoundaryCondition {
     /**
      * Returns the value of the '<em><b>Linear Stiffness ZAs String</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Linear Stiffness ZAs String</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Linear Stiffness ZAs String</em>' attribute.
      * @see #isSetLinearStiffnessZAsString()
@@ -371,10 +347,6 @@ public interface IfcBoundaryNodeCondition extends IfcBoundaryCondition {
     /**
      * Returns the value of the '<em><b>Rotational Stiffness X</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Rotational Stiffness X</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Rotational Stiffness X</em>' attribute.
      * @see #isSetRotationalStiffnessX()
@@ -424,10 +396,6 @@ public interface IfcBoundaryNodeCondition extends IfcBoundaryCondition {
     /**
      * Returns the value of the '<em><b>Rotational Stiffness XAs String</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Rotational Stiffness XAs String</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Rotational Stiffness XAs String</em>' attribute.
      * @see #isSetRotationalStiffnessXAsString()
@@ -479,10 +447,6 @@ public interface IfcBoundaryNodeCondition extends IfcBoundaryCondition {
     /**
      * Returns the value of the '<em><b>Rotational Stiffness Y</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Rotational Stiffness Y</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Rotational Stiffness Y</em>' attribute.
      * @see #isSetRotationalStiffnessY()
@@ -532,10 +496,6 @@ public interface IfcBoundaryNodeCondition extends IfcBoundaryCondition {
     /**
      * Returns the value of the '<em><b>Rotational Stiffness YAs String</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Rotational Stiffness YAs String</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Rotational Stiffness YAs String</em>' attribute.
      * @see #isSetRotationalStiffnessYAsString()
@@ -587,10 +547,6 @@ public interface IfcBoundaryNodeCondition extends IfcBoundaryCondition {
     /**
      * Returns the value of the '<em><b>Rotational Stiffness Z</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Rotational Stiffness Z</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Rotational Stiffness Z</em>' attribute.
      * @see #isSetRotationalStiffnessZ()
@@ -640,10 +596,6 @@ public interface IfcBoundaryNodeCondition extends IfcBoundaryCondition {
     /**
      * Returns the value of the '<em><b>Rotational Stiffness ZAs String</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Rotational Stiffness ZAs String</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Rotational Stiffness ZAs String</em>' attribute.
      * @see #isSetRotationalStiffnessZAsString()

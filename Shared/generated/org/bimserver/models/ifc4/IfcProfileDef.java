@@ -42,10 +42,6 @@ public interface IfcProfileDef extends IfcResourceObjectSelect {
      * Returns the value of the '<em><b>Profile Type</b></em>' attribute.
      * The literals are from the enumeration {@link org.bimserver.models.ifc4.IfcProfileTypeEnum}.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Profile Type</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Profile Type</em>' attribute.
      * @see org.bimserver.models.ifc4.IfcProfileTypeEnum
@@ -70,10 +66,6 @@ public interface IfcProfileDef extends IfcResourceObjectSelect {
     /**
      * Returns the value of the '<em><b>Profile Name</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Profile Name</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Profile Name</em>' attribute.
      * @see #isSetProfileName()
@@ -124,10 +116,6 @@ public interface IfcProfileDef extends IfcResourceObjectSelect {
      * Returns the value of the '<em><b>Has External Reference</b></em>' reference list.
      * The list contents are of type {@link org.bimserver.models.ifc4.IfcExternalReferenceRelationship}.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Has External Reference</em>' reference list isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Has External Reference</em>' reference list.
      * @see #isSetHasExternalReference()
@@ -165,10 +153,6 @@ public interface IfcProfileDef extends IfcResourceObjectSelect {
      * The list contents are of type {@link org.bimserver.models.ifc4.IfcProfileProperties}.
      * It is bidirectional and its opposite is '{@link org.bimserver.models.ifc4.IfcProfileProperties#getProfileDefinition <em>Profile Definition</em>}'.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Has Properties</em>' reference list isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Has Properties</em>' reference list.
      * @see #isSetHasProperties()

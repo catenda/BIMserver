@@ -55,7 +55,7 @@ public class Vector3fImpl extends IdEObjectImpl implements Vector3f {
      */
     @Override
     protected EClass eStaticClass() {
-        return Ifc2x3tc1Package.Literals.VECTOR3F;
+        return Ifc2x3tc1Package.eINSTANCE.getVector3f();
     }
 
     /**
@@ -75,7 +75,7 @@ public class Vector3fImpl extends IdEObjectImpl implements Vector3f {
      */
     @Override
     public float getX() {
-        return (Float) eGet(Ifc2x3tc1Package.Literals.VECTOR3F__X, true);
+        return (Float) eGet(Ifc2x3tc1Package.eINSTANCE.getVector3f_X(), true);
     }
 
     /**
@@ -85,7 +85,7 @@ public class Vector3fImpl extends IdEObjectImpl implements Vector3f {
      */
     @Override
     public void setX(float newX) {
-        eSet(Ifc2x3tc1Package.Literals.VECTOR3F__X, newX);
+        eSet(Ifc2x3tc1Package.eINSTANCE.getVector3f_X(), newX);
     }
 
     /**
@@ -95,7 +95,7 @@ public class Vector3fImpl extends IdEObjectImpl implements Vector3f {
      */
     @Override
     public float getY() {
-        return (Float) eGet(Ifc2x3tc1Package.Literals.VECTOR3F__Y, true);
+        return (Float) eGet(Ifc2x3tc1Package.eINSTANCE.getVector3f_Y(), true);
     }
 
     /**
@@ -105,7 +105,7 @@ public class Vector3fImpl extends IdEObjectImpl implements Vector3f {
      */
     @Override
     public void setY(float newY) {
-        eSet(Ifc2x3tc1Package.Literals.VECTOR3F__Y, newY);
+        eSet(Ifc2x3tc1Package.eINSTANCE.getVector3f_Y(), newY);
     }
 
     /**
@@ -115,7 +115,7 @@ public class Vector3fImpl extends IdEObjectImpl implements Vector3f {
      */
     @Override
     public float getZ() {
-        return (Float) eGet(Ifc2x3tc1Package.Literals.VECTOR3F__Z, true);
+        return (Float) eGet(Ifc2x3tc1Package.eINSTANCE.getVector3f_Z(), true);
     }
 
     /**
@@ -125,7 +125,7 @@ public class Vector3fImpl extends IdEObjectImpl implements Vector3f {
      */
     @Override
     public void setZ(float newZ) {
-        eSet(Ifc2x3tc1Package.Literals.VECTOR3F__Z, newZ);
+        eSet(Ifc2x3tc1Package.eINSTANCE.getVector3f_Z(), newZ);
     }
 
 } //Vector3fImpl

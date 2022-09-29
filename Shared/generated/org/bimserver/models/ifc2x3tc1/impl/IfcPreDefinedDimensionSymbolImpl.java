@@ -45,7 +45,7 @@ public class IfcPreDefinedDimensionSymbolImpl extends IfcPreDefinedSymbolImpl im
      */
     @Override
     protected EClass eStaticClass() {
-        return Ifc2x3tc1Package.Literals.IFC_PRE_DEFINED_DIMENSION_SYMBOL;
+        return Ifc2x3tc1Package.eINSTANCE.getIfcPreDefinedDimensionSymbol();
     }
 
 } //IfcPreDefinedDimensionSymbolImpl

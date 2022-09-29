@@ -145,10 +145,6 @@ public enum IfcReinforcingBarTypeEnum implements Enumerator {
     /**
      * The '<em><b>NULL</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>NULL</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #NULL
      * @model
@@ -160,10 +156,6 @@ public enum IfcReinforcingBarTypeEnum implements Enumerator {
     /**
      * The '<em><b>SHEAR</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>SHEAR</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #SHEAR
      * @model
@@ -175,10 +167,6 @@ public enum IfcReinforcingBarTypeEnum implements Enumerator {
     /**
      * The '<em><b>NOTDEFINED</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>NOTDEFINED</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #NOTDEFINED
      * @model
@@ -190,10 +178,6 @@ public enum IfcReinforcingBarTypeEnum implements Enumerator {
     /**
      * The '<em><b>ANCHORING</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>ANCHORING</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #ANCHORING
      * @model
@@ -205,10 +189,6 @@ public enum IfcReinforcingBarTypeEnum implements Enumerator {
     /**
      * The '<em><b>RING</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>RING</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #RING
      * @model
@@ -220,10 +200,6 @@ public enum IfcReinforcingBarTypeEnum implements Enumerator {
     /**
      * The '<em><b>STUD</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>STUD</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #STUD
      * @model
@@ -235,10 +211,6 @@ public enum IfcReinforcingBarTypeEnum implements Enumerator {
     /**
      * The '<em><b>LIGATURE</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>LIGATURE</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #LIGATURE
      * @model
@@ -250,10 +222,6 @@ public enum IfcReinforcingBarTypeEnum implements Enumerator {
     /**
      * The '<em><b>MAIN</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>MAIN</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #MAIN
      * @model
@@ -265,10 +233,6 @@ public enum IfcReinforcingBarTypeEnum implements Enumerator {
     /**
      * The '<em><b>USERDEFINED</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>USERDEFINED</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #USERDEFINED
      * @model
@@ -280,10 +244,6 @@ public enum IfcReinforcingBarTypeEnum implements Enumerator {
     /**
      * The '<em><b>EDGE</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>EDGE</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #EDGE
      * @model
@@ -295,10 +255,6 @@ public enum IfcReinforcingBarTypeEnum implements Enumerator {
     /**
      * The '<em><b>PUNCHING</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>PUNCHING</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #PUNCHING
      * @model

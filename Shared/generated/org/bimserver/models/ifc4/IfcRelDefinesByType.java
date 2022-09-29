@@ -41,10 +41,6 @@ public interface IfcRelDefinesByType extends IfcRelDefines {
      * The list contents are of type {@link org.bimserver.models.ifc4.IfcObject}.
      * It is bidirectional and its opposite is '{@link org.bimserver.models.ifc4.IfcObject#getIsTypedBy <em>Is Typed By</em>}'.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Related Objects</em>' reference list isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Related Objects</em>' reference list.
      * @see org.bimserver.models.ifc4.Ifc4Package#getIfcRelDefinesByType_RelatedObjects()
@@ -59,10 +55,6 @@ public interface IfcRelDefinesByType extends IfcRelDefines {
      * Returns the value of the '<em><b>Relating Type</b></em>' reference.
      * It is bidirectional and its opposite is '{@link org.bimserver.models.ifc4.IfcTypeObject#getTypes <em>Types</em>}'.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Relating Type</em>' reference isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Relating Type</em>' reference.
      * @see #setRelatingType(IfcTypeObject)

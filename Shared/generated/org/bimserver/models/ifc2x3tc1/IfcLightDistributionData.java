@@ -46,10 +46,6 @@ public interface IfcLightDistributionData extends IdEObject {
     /**
      * Returns the value of the '<em><b>Main Plane Angle</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Main Plane Angle</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Main Plane Angle</em>' attribute.
      * @see #setMainPlaneAngle(double)
@@ -72,10 +68,6 @@ public interface IfcLightDistributionData extends IdEObject {
     /**
      * Returns the value of the '<em><b>Main Plane Angle As String</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Main Plane Angle As String</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Main Plane Angle As String</em>' attribute.
      * @see #setMainPlaneAngleAsString(String)
@@ -100,10 +92,6 @@ public interface IfcLightDistributionData extends IdEObject {
      * Returns the value of the '<em><b>Secondary Plane Angle</b></em>' attribute list.
      * The list contents are of type {@link java.lang.Double}.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Secondary Plane Angle</em>' attribute list isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Secondary Plane Angle</em>' attribute list.
      * @see org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package#getIfcLightDistributionData_SecondaryPlaneAngle()
@@ -116,10 +104,6 @@ public interface IfcLightDistributionData extends IdEObject {
      * Returns the value of the '<em><b>Secondary Plane Angle As String</b></em>' attribute list.
      * The list contents are of type {@link java.lang.String}.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Secondary Plane Angle As String</em>' attribute list isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Secondary Plane Angle As String</em>' attribute list.
      * @see org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package#getIfcLightDistributionData_SecondaryPlaneAngleAsString()
@@ -134,10 +118,6 @@ public interface IfcLightDistributionData extends IdEObject {
      * Returns the value of the '<em><b>Luminous Intensity</b></em>' attribute list.
      * The list contents are of type {@link java.lang.Double}.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Luminous Intensity</em>' attribute list isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Luminous Intensity</em>' attribute list.
      * @see org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package#getIfcLightDistributionData_LuminousIntensity()
@@ -150,10 +130,6 @@ public interface IfcLightDistributionData extends IdEObject {
      * Returns the value of the '<em><b>Luminous Intensity As String</b></em>' attribute list.
      * The list contents are of type {@link java.lang.String}.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Luminous Intensity As String</em>' attribute list isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Luminous Intensity As String</em>' attribute list.
      * @see org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package#getIfcLightDistributionData_LuminousIntensityAsString()

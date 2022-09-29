@@ -41,10 +41,6 @@ public interface IfcApprovalActorRelationship extends IdEObject {
     /**
      * Returns the value of the '<em><b>Actor</b></em>' reference.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Actor</em>' reference isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Actor</em>' reference.
      * @see #setActor(IfcActorSelect)
@@ -68,10 +64,6 @@ public interface IfcApprovalActorRelationship extends IdEObject {
      * Returns the value of the '<em><b>Approval</b></em>' reference.
      * It is bidirectional and its opposite is '{@link org.bimserver.models.ifc2x3tc1.IfcApproval#getActors <em>Actors</em>}'.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Approval</em>' reference isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Approval</em>' reference.
      * @see #setApproval(IfcApproval)
@@ -96,10 +88,6 @@ public interface IfcApprovalActorRelationship extends IdEObject {
     /**
      * Returns the value of the '<em><b>Role</b></em>' reference.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Role</em>' reference isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Role</em>' reference.
      * @see #setRole(IfcActorRole)

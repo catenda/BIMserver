@@ -54,7 +54,7 @@ public class IfcDoorImpl extends IfcBuildingElementImpl implements IfcDoor {
      */
     @Override
     protected EClass eStaticClass() {
-        return Ifc2x3tc1Package.Literals.IFC_DOOR;
+        return Ifc2x3tc1Package.eINSTANCE.getIfcDoor();
     }
 
     /**
@@ -64,7 +64,7 @@ public class IfcDoorImpl extends IfcBuildingElementImpl implements IfcDoor {
      */
     @Override
     public double getOverallHeight() {
-        return (Double) eGet(Ifc2x3tc1Package.Literals.IFC_DOOR__OVERALL_HEIGHT, true);
+        return (Double) eGet(Ifc2x3tc1Package.eINSTANCE.getIfcDoor_OverallHeight(), true);
     }
 
     /**
@@ -74,7 +74,7 @@ public class IfcDoorImpl extends IfcBuildingElementImpl implements IfcDoor {
      */
     @Override
     public void setOverallHeight(double newOverallHeight) {
-        eSet(Ifc2x3tc1Package.Literals.IFC_DOOR__OVERALL_HEIGHT, newOverallHeight);
+        eSet(Ifc2x3tc1Package.eINSTANCE.getIfcDoor_OverallHeight(), newOverallHeight);
     }
 
     /**
@@ -84,7 +84,7 @@ public class IfcDoorImpl extends IfcBuildingElementImpl implements IfcDoor {
      */
     @Override
     public void unsetOverallHeight() {
-        eUnset(Ifc2x3tc1Package.Literals.IFC_DOOR__OVERALL_HEIGHT);
+        eUnset(Ifc2x3tc1Package.eINSTANCE.getIfcDoor_OverallHeight());
     }
 
     /**
@@ -94,7 +94,7 @@ public class IfcDoorImpl extends IfcBuildingElementImpl implements IfcDoor {
      */
     @Override
     public boolean isSetOverallHeight() {
-        return eIsSet(Ifc2x3tc1Package.Literals.IFC_DOOR__OVERALL_HEIGHT);
+        return eIsSet(Ifc2x3tc1Package.eINSTANCE.getIfcDoor_OverallHeight());
     }
 
     /**
@@ -104,7 +104,7 @@ public class IfcDoorImpl extends IfcBuildingElementImpl implements IfcDoor {
      */
     @Override
     public String getOverallHeightAsString() {
-        return (String) eGet(Ifc2x3tc1Package.Literals.IFC_DOOR__OVERALL_HEIGHT_AS_STRING, true);
+        return (String) eGet(Ifc2x3tc1Package.eINSTANCE.getIfcDoor_OverallHeightAsString(), true);
     }
 
     /**
@@ -114,7 +114,7 @@ public class IfcDoorImpl extends IfcBuildingElementImpl implements IfcDoor {
      */
     @Override
     public void setOverallHeightAsString(String newOverallHeightAsString) {
-        eSet(Ifc2x3tc1Package.Literals.IFC_DOOR__OVERALL_HEIGHT_AS_STRING, newOverallHeightAsString);
+        eSet(Ifc2x3tc1Package.eINSTANCE.getIfcDoor_OverallHeightAsString(), newOverallHeightAsString);
     }
 
     /**
@@ -124,7 +124,7 @@ public class IfcDoorImpl extends IfcBuildingElementImpl implements IfcDoor {
      */
     @Override
     public void unsetOverallHeightAsString() {
-        eUnset(Ifc2x3tc1Package.Literals.IFC_DOOR__OVERALL_HEIGHT_AS_STRING);
+        eUnset(Ifc2x3tc1Package.eINSTANCE.getIfcDoor_OverallHeightAsString());
     }
 
     /**
@@ -134,7 +134,7 @@ public class IfcDoorImpl extends IfcBuildingElementImpl implements IfcDoor {
      */
     @Override
     public boolean isSetOverallHeightAsString() {
-        return eIsSet(Ifc2x3tc1Package.Literals.IFC_DOOR__OVERALL_HEIGHT_AS_STRING);
+        return eIsSet(Ifc2x3tc1Package.eINSTANCE.getIfcDoor_OverallHeightAsString());
     }
 
     /**
@@ -144,7 +144,7 @@ public class IfcDoorImpl extends IfcBuildingElementImpl implements IfcDoor {
      */
     @Override
     public double getOverallWidth() {
-        return (Double) eGet(Ifc2x3tc1Package.Literals.IFC_DOOR__OVERALL_WIDTH, true);
+        return (Double) eGet(Ifc2x3tc1Package.eINSTANCE.getIfcDoor_OverallWidth(), true);
     }
 
     /**
@@ -154,7 +154,7 @@ public class IfcDoorImpl extends IfcBuildingElementImpl implements IfcDoor {
      */
     @Override
     public void setOverallWidth(double newOverallWidth) {
-        eSet(Ifc2x3tc1Package.Literals.IFC_DOOR__OVERALL_WIDTH, newOverallWidth);
+        eSet(Ifc2x3tc1Package.eINSTANCE.getIfcDoor_OverallWidth(), newOverallWidth);
     }
 
     /**
@@ -164,7 +164,7 @@ public class IfcDoorImpl extends IfcBuildingElementImpl implements IfcDoor {
      */
     @Override
     public void unsetOverallWidth() {
-        eUnset(Ifc2x3tc1Package.Literals.IFC_DOOR__OVERALL_WIDTH);
+        eUnset(Ifc2x3tc1Package.eINSTANCE.getIfcDoor_OverallWidth());
     }
 
     /**
@@ -174,7 +174,7 @@ public class IfcDoorImpl extends IfcBuildingElementImpl implements IfcDoor {
      */
     @Override
     public boolean isSetOverallWidth() {
-        return eIsSet(Ifc2x3tc1Package.Literals.IFC_DOOR__OVERALL_WIDTH);
+        return eIsSet(Ifc2x3tc1Package.eINSTANCE.getIfcDoor_OverallWidth());
     }
 
     /**
@@ -184,7 +184,7 @@ public class IfcDoorImpl extends IfcBuildingElementImpl implements IfcDoor {
      */
     @Override
     public String getOverallWidthAsString() {
-        return (String) eGet(Ifc2x3tc1Package.Literals.IFC_DOOR__OVERALL_WIDTH_AS_STRING, true);
+        return (String) eGet(Ifc2x3tc1Package.eINSTANCE.getIfcDoor_OverallWidthAsString(), true);
     }
 
     /**
@@ -194,7 +194,7 @@ public class IfcDoorImpl extends IfcBuildingElementImpl implements IfcDoor {
      */
     @Override
     public void setOverallWidthAsString(String newOverallWidthAsString) {
-        eSet(Ifc2x3tc1Package.Literals.IFC_DOOR__OVERALL_WIDTH_AS_STRING, newOverallWidthAsString);
+        eSet(Ifc2x3tc1Package.eINSTANCE.getIfcDoor_OverallWidthAsString(), newOverallWidthAsString);
     }
 
     /**
@@ -204,7 +204,7 @@ public class IfcDoorImpl extends IfcBuildingElementImpl implements IfcDoor {
      */
     @Override
     public void unsetOverallWidthAsString() {
-        eUnset(Ifc2x3tc1Package.Literals.IFC_DOOR__OVERALL_WIDTH_AS_STRING);
+        eUnset(Ifc2x3tc1Package.eINSTANCE.getIfcDoor_OverallWidthAsString());
     }
 
     /**
@@ -214,7 +214,7 @@ public class IfcDoorImpl extends IfcBuildingElementImpl implements IfcDoor {
      */
     @Override
     public boolean isSetOverallWidthAsString() {
-        return eIsSet(Ifc2x3tc1Package.Literals.IFC_DOOR__OVERALL_WIDTH_AS_STRING);
+        return eIsSet(Ifc2x3tc1Package.eINSTANCE.getIfcDoor_OverallWidthAsString());
     }
 
 } //IfcDoorImpl

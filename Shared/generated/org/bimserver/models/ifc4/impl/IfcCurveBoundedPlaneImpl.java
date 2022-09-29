@@ -57,7 +57,7 @@ public class IfcCurveBoundedPlaneImpl extends IfcBoundedSurfaceImpl implements I
      */
     @Override
     protected EClass eStaticClass() {
-        return Ifc4Package.Literals.IFC_CURVE_BOUNDED_PLANE;
+        return Ifc4Package.eINSTANCE.getIfcCurveBoundedPlane();
     }
 
     /**
@@ -67,7 +67,7 @@ public class IfcCurveBoundedPlaneImpl extends IfcBoundedSurfaceImpl implements I
      */
     @Override
     public IfcPlane getBasisSurface() {
-        return (IfcPlane) eGet(Ifc4Package.Literals.IFC_CURVE_BOUNDED_PLANE__BASIS_SURFACE, true);
+        return (IfcPlane) eGet(Ifc4Package.eINSTANCE.getIfcCurveBoundedPlane_BasisSurface(), true);
     }
 
     /**
@@ -77,7 +77,7 @@ public class IfcCurveBoundedPlaneImpl extends IfcBoundedSurfaceImpl implements I
      */
     @Override
     public void setBasisSurface(IfcPlane newBasisSurface) {
-        eSet(Ifc4Package.Literals.IFC_CURVE_BOUNDED_PLANE__BASIS_SURFACE, newBasisSurface);
+        eSet(Ifc4Package.eINSTANCE.getIfcCurveBoundedPlane_BasisSurface(), newBasisSurface);
     }
 
     /**
@@ -87,7 +87,7 @@ public class IfcCurveBoundedPlaneImpl extends IfcBoundedSurfaceImpl implements I
      */
     @Override
     public IfcCurve getOuterBoundary() {
-        return (IfcCurve) eGet(Ifc4Package.Literals.IFC_CURVE_BOUNDED_PLANE__OUTER_BOUNDARY, true);
+        return (IfcCurve) eGet(Ifc4Package.eINSTANCE.getIfcCurveBoundedPlane_OuterBoundary(), true);
     }
 
     /**
@@ -97,7 +97,7 @@ public class IfcCurveBoundedPlaneImpl extends IfcBoundedSurfaceImpl implements I
      */
     @Override
     public void setOuterBoundary(IfcCurve newOuterBoundary) {
-        eSet(Ifc4Package.Literals.IFC_CURVE_BOUNDED_PLANE__OUTER_BOUNDARY, newOuterBoundary);
+        eSet(Ifc4Package.eINSTANCE.getIfcCurveBoundedPlane_OuterBoundary(), newOuterBoundary);
     }
 
     /**
@@ -108,7 +108,7 @@ public class IfcCurveBoundedPlaneImpl extends IfcBoundedSurfaceImpl implements I
     @SuppressWarnings("unchecked")
     @Override
     public EList<IfcCurve> getInnerBoundaries() {
-        return (EList<IfcCurve>) eGet(Ifc4Package.Literals.IFC_CURVE_BOUNDED_PLANE__INNER_BOUNDARIES, true);
+        return (EList<IfcCurve>) eGet(Ifc4Package.eINSTANCE.getIfcCurveBoundedPlane_InnerBoundaries(), true);
     }
 
 } //IfcCurveBoundedPlaneImpl

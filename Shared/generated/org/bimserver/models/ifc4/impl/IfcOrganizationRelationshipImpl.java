@@ -56,7 +56,7 @@ public class IfcOrganizationRelationshipImpl extends IfcResourceLevelRelationshi
      */
     @Override
     protected EClass eStaticClass() {
-        return Ifc4Package.Literals.IFC_ORGANIZATION_RELATIONSHIP;
+        return Ifc4Package.eINSTANCE.getIfcOrganizationRelationship();
     }
 
     /**
@@ -66,7 +66,8 @@ public class IfcOrganizationRelationshipImpl extends IfcResourceLevelRelationshi
      */
     @Override
     public IfcOrganization getRelatingOrganization() {
-        return (IfcOrganization) eGet(Ifc4Package.Literals.IFC_ORGANIZATION_RELATIONSHIP__RELATING_ORGANIZATION, true);
+        return (IfcOrganization) eGet(Ifc4Package.eINSTANCE.getIfcOrganizationRelationship_RelatingOrganization(),
+                true);
     }
 
     /**
@@ -76,7 +77,7 @@ public class IfcOrganizationRelationshipImpl extends IfcResourceLevelRelationshi
      */
     @Override
     public void setRelatingOrganization(IfcOrganization newRelatingOrganization) {
-        eSet(Ifc4Package.Literals.IFC_ORGANIZATION_RELATIONSHIP__RELATING_ORGANIZATION, newRelatingOrganization);
+        eSet(Ifc4Package.eINSTANCE.getIfcOrganizationRelationship_RelatingOrganization(), newRelatingOrganization);
     }
 
     /**
@@ -87,8 +88,8 @@ public class IfcOrganizationRelationshipImpl extends IfcResourceLevelRelationshi
     @SuppressWarnings("unchecked")
     @Override
     public EList<IfcOrganization> getRelatedOrganizations() {
-        return (EList<IfcOrganization>) eGet(Ifc4Package.Literals.IFC_ORGANIZATION_RELATIONSHIP__RELATED_ORGANIZATIONS,
-                true);
+        return (EList<IfcOrganization>) eGet(
+                Ifc4Package.eINSTANCE.getIfcOrganizationRelationship_RelatedOrganizations(), true);
     }
 
 } //IfcOrganizationRelationshipImpl

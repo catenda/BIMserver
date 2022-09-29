@@ -45,7 +45,7 @@ public class IfcNormalisedRatioMeasureImpl extends IfcRatioMeasureImpl implement
      */
     @Override
     protected EClass eStaticClass() {
-        return Ifc4Package.Literals.IFC_NORMALISED_RATIO_MEASURE;
+        return Ifc4Package.eINSTANCE.getIfcNormalisedRatioMeasure();
     }
 
 } //IfcNormalisedRatioMeasureImpl

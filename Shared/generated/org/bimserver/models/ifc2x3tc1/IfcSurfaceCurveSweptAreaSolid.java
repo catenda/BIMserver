@@ -41,10 +41,6 @@ public interface IfcSurfaceCurveSweptAreaSolid extends IfcSweptAreaSolid {
     /**
      * Returns the value of the '<em><b>Directrix</b></em>' reference.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Directrix</em>' reference isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Directrix</em>' reference.
      * @see #setDirectrix(IfcCurve)
@@ -67,10 +63,6 @@ public interface IfcSurfaceCurveSweptAreaSolid extends IfcSweptAreaSolid {
     /**
      * Returns the value of the '<em><b>Start Param</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Start Param</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Start Param</em>' attribute.
      * @see #setStartParam(double)
@@ -93,10 +85,6 @@ public interface IfcSurfaceCurveSweptAreaSolid extends IfcSweptAreaSolid {
     /**
      * Returns the value of the '<em><b>Start Param As String</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Start Param As String</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Start Param As String</em>' attribute.
      * @see #setStartParamAsString(String)
@@ -120,10 +108,6 @@ public interface IfcSurfaceCurveSweptAreaSolid extends IfcSweptAreaSolid {
     /**
      * Returns the value of the '<em><b>End Param</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>End Param</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>End Param</em>' attribute.
      * @see #setEndParam(double)
@@ -146,10 +130,6 @@ public interface IfcSurfaceCurveSweptAreaSolid extends IfcSweptAreaSolid {
     /**
      * Returns the value of the '<em><b>End Param As String</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>End Param As String</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>End Param As String</em>' attribute.
      * @see #setEndParamAsString(String)
@@ -173,10 +153,6 @@ public interface IfcSurfaceCurveSweptAreaSolid extends IfcSweptAreaSolid {
     /**
      * Returns the value of the '<em><b>Reference Surface</b></em>' reference.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Reference Surface</em>' reference isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Reference Surface</em>' reference.
      * @see #setReferenceSurface(IfcSurface)

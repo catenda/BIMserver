@@ -53,7 +53,7 @@ public class IfcElectricDistributionBoardTypeImpl extends IfcFlowControllerTypeI
      */
     @Override
     protected EClass eStaticClass() {
-        return Ifc4Package.Literals.IFC_ELECTRIC_DISTRIBUTION_BOARD_TYPE;
+        return Ifc4Package.eINSTANCE.getIfcElectricDistributionBoardType();
     }
 
     /**
@@ -64,7 +64,7 @@ public class IfcElectricDistributionBoardTypeImpl extends IfcFlowControllerTypeI
     @Override
     public IfcElectricDistributionBoardTypeEnum getPredefinedType() {
         return (IfcElectricDistributionBoardTypeEnum) eGet(
-                Ifc4Package.Literals.IFC_ELECTRIC_DISTRIBUTION_BOARD_TYPE__PREDEFINED_TYPE, true);
+                Ifc4Package.eINSTANCE.getIfcElectricDistributionBoardType_PredefinedType(), true);
     }
 
     /**
@@ -74,7 +74,7 @@ public class IfcElectricDistributionBoardTypeImpl extends IfcFlowControllerTypeI
      */
     @Override
     public void setPredefinedType(IfcElectricDistributionBoardTypeEnum newPredefinedType) {
-        eSet(Ifc4Package.Literals.IFC_ELECTRIC_DISTRIBUTION_BOARD_TYPE__PREDEFINED_TYPE, newPredefinedType);
+        eSet(Ifc4Package.eINSTANCE.getIfcElectricDistributionBoardType_PredefinedType(), newPredefinedType);
     }
 
 } //IfcElectricDistributionBoardTypeImpl

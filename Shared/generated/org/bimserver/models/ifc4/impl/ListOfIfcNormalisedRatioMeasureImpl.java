@@ -56,7 +56,7 @@ public class ListOfIfcNormalisedRatioMeasureImpl extends IdEObjectImpl implement
      */
     @Override
     protected EClass eStaticClass() {
-        return Ifc4Package.Literals.LIST_OF_IFC_NORMALISED_RATIO_MEASURE;
+        return Ifc4Package.eINSTANCE.getListOfIfcNormalisedRatioMeasure();
     }
 
     /**
@@ -77,7 +77,7 @@ public class ListOfIfcNormalisedRatioMeasureImpl extends IdEObjectImpl implement
     @SuppressWarnings("unchecked")
     @Override
     public EList<IfcNormalisedRatioMeasure> getList() {
-        return (EList<IfcNormalisedRatioMeasure>) eGet(Ifc4Package.Literals.LIST_OF_IFC_NORMALISED_RATIO_MEASURE__LIST,
+        return (EList<IfcNormalisedRatioMeasure>) eGet(Ifc4Package.eINSTANCE.getListOfIfcNormalisedRatioMeasure_List(),
                 true);
     }
 

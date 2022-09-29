@@ -52,7 +52,7 @@ public class IfcOutletTypeImpl extends IfcFlowTerminalTypeImpl implements IfcOut
      */
     @Override
     protected EClass eStaticClass() {
-        return Ifc2x3tc1Package.Literals.IFC_OUTLET_TYPE;
+        return Ifc2x3tc1Package.eINSTANCE.getIfcOutletType();
     }
 
     /**
@@ -62,7 +62,7 @@ public class IfcOutletTypeImpl extends IfcFlowTerminalTypeImpl implements IfcOut
      */
     @Override
     public IfcOutletTypeEnum getPredefinedType() {
-        return (IfcOutletTypeEnum) eGet(Ifc2x3tc1Package.Literals.IFC_OUTLET_TYPE__PREDEFINED_TYPE, true);
+        return (IfcOutletTypeEnum) eGet(Ifc2x3tc1Package.eINSTANCE.getIfcOutletType_PredefinedType(), true);
     }
 
     /**
@@ -72,7 +72,7 @@ public class IfcOutletTypeImpl extends IfcFlowTerminalTypeImpl implements IfcOut
      */
     @Override
     public void setPredefinedType(IfcOutletTypeEnum newPredefinedType) {
-        eSet(Ifc2x3tc1Package.Literals.IFC_OUTLET_TYPE__PREDEFINED_TYPE, newPredefinedType);
+        eSet(Ifc2x3tc1Package.eINSTANCE.getIfcOutletType_PredefinedType(), newPredefinedType);
     }
 
 } //IfcOutletTypeImpl

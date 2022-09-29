@@ -56,7 +56,7 @@ public class IfcRelDefinesByTemplateImpl extends IfcRelDefinesImpl implements If
      */
     @Override
     protected EClass eStaticClass() {
-        return Ifc4Package.Literals.IFC_REL_DEFINES_BY_TEMPLATE;
+        return Ifc4Package.eINSTANCE.getIfcRelDefinesByTemplate();
     }
 
     /**
@@ -68,7 +68,7 @@ public class IfcRelDefinesByTemplateImpl extends IfcRelDefinesImpl implements If
     @Override
     public EList<IfcPropertySetDefinition> getRelatedPropertySets() {
         return (EList<IfcPropertySetDefinition>) eGet(
-                Ifc4Package.Literals.IFC_REL_DEFINES_BY_TEMPLATE__RELATED_PROPERTY_SETS, true);
+                Ifc4Package.eINSTANCE.getIfcRelDefinesByTemplate_RelatedPropertySets(), true);
     }
 
     /**
@@ -78,7 +78,7 @@ public class IfcRelDefinesByTemplateImpl extends IfcRelDefinesImpl implements If
      */
     @Override
     public IfcPropertySetTemplate getRelatingTemplate() {
-        return (IfcPropertySetTemplate) eGet(Ifc4Package.Literals.IFC_REL_DEFINES_BY_TEMPLATE__RELATING_TEMPLATE, true);
+        return (IfcPropertySetTemplate) eGet(Ifc4Package.eINSTANCE.getIfcRelDefinesByTemplate_RelatingTemplate(), true);
     }
 
     /**
@@ -88,7 +88,7 @@ public class IfcRelDefinesByTemplateImpl extends IfcRelDefinesImpl implements If
      */
     @Override
     public void setRelatingTemplate(IfcPropertySetTemplate newRelatingTemplate) {
-        eSet(Ifc4Package.Literals.IFC_REL_DEFINES_BY_TEMPLATE__RELATING_TEMPLATE, newRelatingTemplate);
+        eSet(Ifc4Package.eINSTANCE.getIfcRelDefinesByTemplate_RelatingTemplate(), newRelatingTemplate);
     }
 
 } //IfcRelDefinesByTemplateImpl

@@ -47,10 +47,6 @@ public interface IfcShapeAspect extends IdEObject {
      * The list contents are of type {@link org.bimserver.models.ifc4.IfcShapeModel}.
      * It is bidirectional and its opposite is '{@link org.bimserver.models.ifc4.IfcShapeModel#getOfShapeAspect <em>Of Shape Aspect</em>}'.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Shape Representations</em>' reference list isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Shape Representations</em>' reference list.
      * @see org.bimserver.models.ifc4.Ifc4Package#getIfcShapeAspect_ShapeRepresentations()
@@ -64,10 +60,6 @@ public interface IfcShapeAspect extends IdEObject {
     /**
      * Returns the value of the '<em><b>Name</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Name</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Name</em>' attribute.
      * @see #isSetName()
@@ -117,10 +109,6 @@ public interface IfcShapeAspect extends IdEObject {
     /**
      * Returns the value of the '<em><b>Description</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Description</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Description</em>' attribute.
      * @see #isSetDescription()
@@ -171,10 +159,6 @@ public interface IfcShapeAspect extends IdEObject {
      * Returns the value of the '<em><b>Product Definitional</b></em>' attribute.
      * The literals are from the enumeration {@link org.bimserver.models.ifc4.Tristate}.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Product Definitional</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Product Definitional</em>' attribute.
      * @see org.bimserver.models.ifc4.Tristate
@@ -199,10 +183,6 @@ public interface IfcShapeAspect extends IdEObject {
     /**
      * Returns the value of the '<em><b>Part Of Product Definition Shape</b></em>' reference.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Part Of Product Definition Shape</em>' reference isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Part Of Product Definition Shape</em>' reference.
      * @see #isSetPartOfProductDefinitionShape()

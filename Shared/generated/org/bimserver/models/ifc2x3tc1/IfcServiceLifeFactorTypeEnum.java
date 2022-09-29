@@ -135,10 +135,6 @@ public enum IfcServiceLifeFactorTypeEnum implements Enumerator {
     /**
      * The '<em><b>NULL</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>NULL</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #NULL
      * @model
@@ -150,10 +146,6 @@ public enum IfcServiceLifeFactorTypeEnum implements Enumerator {
     /**
      * The '<em><b>GMAINTENANCELEVEL</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>GMAINTENANCELEVEL</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #GMAINTENANCELEVEL
      * @model name="G_MAINTENANCELEVEL"
@@ -165,10 +157,6 @@ public enum IfcServiceLifeFactorTypeEnum implements Enumerator {
     /**
      * The '<em><b>BDESIGNLEVEL</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>BDESIGNLEVEL</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #BDESIGNLEVEL
      * @model name="B_DESIGNLEVEL"
@@ -180,10 +168,6 @@ public enum IfcServiceLifeFactorTypeEnum implements Enumerator {
     /**
      * The '<em><b>NOTDEFINED</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>NOTDEFINED</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #NOTDEFINED
      * @model
@@ -195,10 +179,6 @@ public enum IfcServiceLifeFactorTypeEnum implements Enumerator {
     /**
      * The '<em><b>EOUTDOORENVIRONMENT</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>EOUTDOORENVIRONMENT</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #EOUTDOORENVIRONMENT
      * @model name="E_OUTDOORENVIRONMENT"
@@ -210,10 +190,6 @@ public enum IfcServiceLifeFactorTypeEnum implements Enumerator {
     /**
      * The '<em><b>AQUALITYOFCOMPONENTS</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>AQUALITYOFCOMPONENTS</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #AQUALITYOFCOMPONENTS
      * @model name="A_QUALITYOFCOMPONENTS"
@@ -225,10 +201,6 @@ public enum IfcServiceLifeFactorTypeEnum implements Enumerator {
     /**
      * The '<em><b>FINUSECONDITIONS</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>FINUSECONDITIONS</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #FINUSECONDITIONS
      * @model name="F_INUSECONDITIONS"
@@ -240,10 +212,6 @@ public enum IfcServiceLifeFactorTypeEnum implements Enumerator {
     /**
      * The '<em><b>USERDEFINED</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>USERDEFINED</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #USERDEFINED
      * @model
@@ -255,10 +223,6 @@ public enum IfcServiceLifeFactorTypeEnum implements Enumerator {
     /**
      * The '<em><b>CWORKEXECUTIONLEVEL</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>CWORKEXECUTIONLEVEL</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #CWORKEXECUTIONLEVEL
      * @model name="C_WORKEXECUTIONLEVEL"
@@ -270,10 +234,6 @@ public enum IfcServiceLifeFactorTypeEnum implements Enumerator {
     /**
      * The '<em><b>DINDOORENVIRONMENT</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>DINDOORENVIRONMENT</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #DINDOORENVIRONMENT
      * @model name="D_INDOORENVIRONMENT"

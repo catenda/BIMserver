@@ -59,7 +59,7 @@ public class IfcMaterialImpl extends IdEObjectImpl implements IfcMaterial {
      */
     @Override
     protected EClass eStaticClass() {
-        return Ifc2x3tc1Package.Literals.IFC_MATERIAL;
+        return Ifc2x3tc1Package.eINSTANCE.getIfcMaterial();
     }
 
     /**
@@ -79,7 +79,7 @@ public class IfcMaterialImpl extends IdEObjectImpl implements IfcMaterial {
      */
     @Override
     public String getName() {
-        return (String) eGet(Ifc2x3tc1Package.Literals.IFC_MATERIAL__NAME, true);
+        return (String) eGet(Ifc2x3tc1Package.eINSTANCE.getIfcMaterial_Name(), true);
     }
 
     /**
@@ -89,7 +89,7 @@ public class IfcMaterialImpl extends IdEObjectImpl implements IfcMaterial {
      */
     @Override
     public void setName(String newName) {
-        eSet(Ifc2x3tc1Package.Literals.IFC_MATERIAL__NAME, newName);
+        eSet(Ifc2x3tc1Package.eINSTANCE.getIfcMaterial_Name(), newName);
     }
 
     /**
@@ -101,7 +101,7 @@ public class IfcMaterialImpl extends IdEObjectImpl implements IfcMaterial {
     @Override
     public EList<IfcMaterialDefinitionRepresentation> getHasRepresentation() {
         return (EList<IfcMaterialDefinitionRepresentation>) eGet(
-                Ifc2x3tc1Package.Literals.IFC_MATERIAL__HAS_REPRESENTATION, true);
+                Ifc2x3tc1Package.eINSTANCE.getIfcMaterial_HasRepresentation(), true);
     }
 
     /**
@@ -111,7 +111,7 @@ public class IfcMaterialImpl extends IdEObjectImpl implements IfcMaterial {
      */
     @Override
     public void unsetHasRepresentation() {
-        eUnset(Ifc2x3tc1Package.Literals.IFC_MATERIAL__HAS_REPRESENTATION);
+        eUnset(Ifc2x3tc1Package.eINSTANCE.getIfcMaterial_HasRepresentation());
     }
 
     /**
@@ -121,7 +121,7 @@ public class IfcMaterialImpl extends IdEObjectImpl implements IfcMaterial {
      */
     @Override
     public boolean isSetHasRepresentation() {
-        return eIsSet(Ifc2x3tc1Package.Literals.IFC_MATERIAL__HAS_REPRESENTATION);
+        return eIsSet(Ifc2x3tc1Package.eINSTANCE.getIfcMaterial_HasRepresentation());
     }
 
     /**
@@ -133,7 +133,7 @@ public class IfcMaterialImpl extends IdEObjectImpl implements IfcMaterial {
     @Override
     public EList<IfcMaterialClassificationRelationship> getClassifiedAs() {
         return (EList<IfcMaterialClassificationRelationship>) eGet(
-                Ifc2x3tc1Package.Literals.IFC_MATERIAL__CLASSIFIED_AS, true);
+                Ifc2x3tc1Package.eINSTANCE.getIfcMaterial_ClassifiedAs(), true);
     }
 
     /**
@@ -143,7 +143,7 @@ public class IfcMaterialImpl extends IdEObjectImpl implements IfcMaterial {
      */
     @Override
     public void unsetClassifiedAs() {
-        eUnset(Ifc2x3tc1Package.Literals.IFC_MATERIAL__CLASSIFIED_AS);
+        eUnset(Ifc2x3tc1Package.eINSTANCE.getIfcMaterial_ClassifiedAs());
     }
 
     /**
@@ -153,7 +153,7 @@ public class IfcMaterialImpl extends IdEObjectImpl implements IfcMaterial {
      */
     @Override
     public boolean isSetClassifiedAs() {
-        return eIsSet(Ifc2x3tc1Package.Literals.IFC_MATERIAL__CLASSIFIED_AS);
+        return eIsSet(Ifc2x3tc1Package.eINSTANCE.getIfcMaterial_ClassifiedAs());
     }
 
 } //IfcMaterialImpl

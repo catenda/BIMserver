@@ -45,7 +45,7 @@ public class IfcTopologyRepresentationImpl extends IfcShapeModelImpl implements 
      */
     @Override
     protected EClass eStaticClass() {
-        return Ifc2x3tc1Package.Literals.IFC_TOPOLOGY_REPRESENTATION;
+        return Ifc2x3tc1Package.eINSTANCE.getIfcTopologyRepresentation();
     }
 
 } //IfcTopologyRepresentationImpl

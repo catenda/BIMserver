@@ -43,10 +43,6 @@ public interface IfcThermalMaterialProperties extends IfcMaterialProperties {
     /**
      * Returns the value of the '<em><b>Specific Heat Capacity</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Specific Heat Capacity</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Specific Heat Capacity</em>' attribute.
      * @see #isSetSpecificHeatCapacity()
@@ -96,10 +92,6 @@ public interface IfcThermalMaterialProperties extends IfcMaterialProperties {
     /**
      * Returns the value of the '<em><b>Specific Heat Capacity As String</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Specific Heat Capacity As String</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Specific Heat Capacity As String</em>' attribute.
      * @see #isSetSpecificHeatCapacityAsString()
@@ -151,10 +143,6 @@ public interface IfcThermalMaterialProperties extends IfcMaterialProperties {
     /**
      * Returns the value of the '<em><b>Boiling Point</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Boiling Point</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Boiling Point</em>' attribute.
      * @see #isSetBoilingPoint()
@@ -204,10 +192,6 @@ public interface IfcThermalMaterialProperties extends IfcMaterialProperties {
     /**
      * Returns the value of the '<em><b>Boiling Point As String</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Boiling Point As String</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Boiling Point As String</em>' attribute.
      * @see #isSetBoilingPointAsString()
@@ -259,10 +243,6 @@ public interface IfcThermalMaterialProperties extends IfcMaterialProperties {
     /**
      * Returns the value of the '<em><b>Freezing Point</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Freezing Point</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Freezing Point</em>' attribute.
      * @see #isSetFreezingPoint()
@@ -312,10 +292,6 @@ public interface IfcThermalMaterialProperties extends IfcMaterialProperties {
     /**
      * Returns the value of the '<em><b>Freezing Point As String</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Freezing Point As String</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Freezing Point As String</em>' attribute.
      * @see #isSetFreezingPointAsString()
@@ -367,10 +343,6 @@ public interface IfcThermalMaterialProperties extends IfcMaterialProperties {
     /**
      * Returns the value of the '<em><b>Thermal Conductivity</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Thermal Conductivity</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Thermal Conductivity</em>' attribute.
      * @see #isSetThermalConductivity()
@@ -420,10 +392,6 @@ public interface IfcThermalMaterialProperties extends IfcMaterialProperties {
     /**
      * Returns the value of the '<em><b>Thermal Conductivity As String</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Thermal Conductivity As String</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Thermal Conductivity As String</em>' attribute.
      * @see #isSetThermalConductivityAsString()

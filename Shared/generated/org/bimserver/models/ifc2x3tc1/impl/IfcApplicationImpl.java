@@ -57,7 +57,7 @@ public class IfcApplicationImpl extends IdEObjectImpl implements IfcApplication 
      */
     @Override
     protected EClass eStaticClass() {
-        return Ifc2x3tc1Package.Literals.IFC_APPLICATION;
+        return Ifc2x3tc1Package.eINSTANCE.getIfcApplication();
     }
 
     /**
@@ -77,7 +77,7 @@ public class IfcApplicationImpl extends IdEObjectImpl implements IfcApplication 
      */
     @Override
     public IfcOrganization getApplicationDeveloper() {
-        return (IfcOrganization) eGet(Ifc2x3tc1Package.Literals.IFC_APPLICATION__APPLICATION_DEVELOPER, true);
+        return (IfcOrganization) eGet(Ifc2x3tc1Package.eINSTANCE.getIfcApplication_ApplicationDeveloper(), true);
     }
 
     /**
@@ -87,7 +87,7 @@ public class IfcApplicationImpl extends IdEObjectImpl implements IfcApplication 
      */
     @Override
     public void setApplicationDeveloper(IfcOrganization newApplicationDeveloper) {
-        eSet(Ifc2x3tc1Package.Literals.IFC_APPLICATION__APPLICATION_DEVELOPER, newApplicationDeveloper);
+        eSet(Ifc2x3tc1Package.eINSTANCE.getIfcApplication_ApplicationDeveloper(), newApplicationDeveloper);
     }
 
     /**
@@ -97,7 +97,7 @@ public class IfcApplicationImpl extends IdEObjectImpl implements IfcApplication 
      */
     @Override
     public String getVersion() {
-        return (String) eGet(Ifc2x3tc1Package.Literals.IFC_APPLICATION__VERSION, true);
+        return (String) eGet(Ifc2x3tc1Package.eINSTANCE.getIfcApplication_Version(), true);
     }
 
     /**
@@ -107,7 +107,7 @@ public class IfcApplicationImpl extends IdEObjectImpl implements IfcApplication 
      */
     @Override
     public void setVersion(String newVersion) {
-        eSet(Ifc2x3tc1Package.Literals.IFC_APPLICATION__VERSION, newVersion);
+        eSet(Ifc2x3tc1Package.eINSTANCE.getIfcApplication_Version(), newVersion);
     }
 
     /**
@@ -117,7 +117,7 @@ public class IfcApplicationImpl extends IdEObjectImpl implements IfcApplication 
      */
     @Override
     public String getApplicationFullName() {
-        return (String) eGet(Ifc2x3tc1Package.Literals.IFC_APPLICATION__APPLICATION_FULL_NAME, true);
+        return (String) eGet(Ifc2x3tc1Package.eINSTANCE.getIfcApplication_ApplicationFullName(), true);
     }
 
     /**
@@ -127,7 +127,7 @@ public class IfcApplicationImpl extends IdEObjectImpl implements IfcApplication 
      */
     @Override
     public void setApplicationFullName(String newApplicationFullName) {
-        eSet(Ifc2x3tc1Package.Literals.IFC_APPLICATION__APPLICATION_FULL_NAME, newApplicationFullName);
+        eSet(Ifc2x3tc1Package.eINSTANCE.getIfcApplication_ApplicationFullName(), newApplicationFullName);
     }
 
     /**
@@ -137,7 +137,7 @@ public class IfcApplicationImpl extends IdEObjectImpl implements IfcApplication 
      */
     @Override
     public String getApplicationIdentifier() {
-        return (String) eGet(Ifc2x3tc1Package.Literals.IFC_APPLICATION__APPLICATION_IDENTIFIER, true);
+        return (String) eGet(Ifc2x3tc1Package.eINSTANCE.getIfcApplication_ApplicationIdentifier(), true);
     }
 
     /**
@@ -147,7 +147,7 @@ public class IfcApplicationImpl extends IdEObjectImpl implements IfcApplication 
      */
     @Override
     public void setApplicationIdentifier(String newApplicationIdentifier) {
-        eSet(Ifc2x3tc1Package.Literals.IFC_APPLICATION__APPLICATION_IDENTIFIER, newApplicationIdentifier);
+        eSet(Ifc2x3tc1Package.eINSTANCE.getIfcApplication_ApplicationIdentifier(), newApplicationIdentifier);
     }
 
 } //IfcApplicationImpl

@@ -54,7 +54,7 @@ public class IfcPropertySetImpl extends IfcPropertySetDefinitionImpl implements 
      */
     @Override
     protected EClass eStaticClass() {
-        return Ifc2x3tc1Package.Literals.IFC_PROPERTY_SET;
+        return Ifc2x3tc1Package.eINSTANCE.getIfcPropertySet();
     }
 
     /**
@@ -65,7 +65,7 @@ public class IfcPropertySetImpl extends IfcPropertySetDefinitionImpl implements 
     @SuppressWarnings("unchecked")
     @Override
     public EList<IfcProperty> getHasProperties() {
-        return (EList<IfcProperty>) eGet(Ifc2x3tc1Package.Literals.IFC_PROPERTY_SET__HAS_PROPERTIES, true);
+        return (EList<IfcProperty>) eGet(Ifc2x3tc1Package.eINSTANCE.getIfcPropertySet_HasProperties(), true);
     }
 
 } //IfcPropertySetImpl

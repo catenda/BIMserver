@@ -45,7 +45,7 @@ public class IfcRelDecomposesImpl extends IfcRelationshipImpl implements IfcRelD
      */
     @Override
     protected EClass eStaticClass() {
-        return Ifc4Package.Literals.IFC_REL_DECOMPOSES;
+        return Ifc4Package.eINSTANCE.getIfcRelDecomposes();
     }
 
 } //IfcRelDecomposesImpl

@@ -62,7 +62,7 @@ public class IfcAddressImpl extends IdEObjectImpl implements IfcAddress {
      */
     @Override
     protected EClass eStaticClass() {
-        return Ifc2x3tc1Package.Literals.IFC_ADDRESS;
+        return Ifc2x3tc1Package.eINSTANCE.getIfcAddress();
     }
 
     /**
@@ -82,7 +82,7 @@ public class IfcAddressImpl extends IdEObjectImpl implements IfcAddress {
      */
     @Override
     public IfcAddressTypeEnum getPurpose() {
-        return (IfcAddressTypeEnum) eGet(Ifc2x3tc1Package.Literals.IFC_ADDRESS__PURPOSE, true);
+        return (IfcAddressTypeEnum) eGet(Ifc2x3tc1Package.eINSTANCE.getIfcAddress_Purpose(), true);
     }
 
     /**
@@ -92,7 +92,7 @@ public class IfcAddressImpl extends IdEObjectImpl implements IfcAddress {
      */
     @Override
     public void setPurpose(IfcAddressTypeEnum newPurpose) {
-        eSet(Ifc2x3tc1Package.Literals.IFC_ADDRESS__PURPOSE, newPurpose);
+        eSet(Ifc2x3tc1Package.eINSTANCE.getIfcAddress_Purpose(), newPurpose);
     }
 
     /**
@@ -102,7 +102,7 @@ public class IfcAddressImpl extends IdEObjectImpl implements IfcAddress {
      */
     @Override
     public void unsetPurpose() {
-        eUnset(Ifc2x3tc1Package.Literals.IFC_ADDRESS__PURPOSE);
+        eUnset(Ifc2x3tc1Package.eINSTANCE.getIfcAddress_Purpose());
     }
 
     /**
@@ -112,7 +112,7 @@ public class IfcAddressImpl extends IdEObjectImpl implements IfcAddress {
      */
     @Override
     public boolean isSetPurpose() {
-        return eIsSet(Ifc2x3tc1Package.Literals.IFC_ADDRESS__PURPOSE);
+        return eIsSet(Ifc2x3tc1Package.eINSTANCE.getIfcAddress_Purpose());
     }
 
     /**
@@ -122,7 +122,7 @@ public class IfcAddressImpl extends IdEObjectImpl implements IfcAddress {
      */
     @Override
     public String getDescription() {
-        return (String) eGet(Ifc2x3tc1Package.Literals.IFC_ADDRESS__DESCRIPTION, true);
+        return (String) eGet(Ifc2x3tc1Package.eINSTANCE.getIfcAddress_Description(), true);
     }
 
     /**
@@ -132,7 +132,7 @@ public class IfcAddressImpl extends IdEObjectImpl implements IfcAddress {
      */
     @Override
     public void setDescription(String newDescription) {
-        eSet(Ifc2x3tc1Package.Literals.IFC_ADDRESS__DESCRIPTION, newDescription);
+        eSet(Ifc2x3tc1Package.eINSTANCE.getIfcAddress_Description(), newDescription);
     }
 
     /**
@@ -142,7 +142,7 @@ public class IfcAddressImpl extends IdEObjectImpl implements IfcAddress {
      */
     @Override
     public void unsetDescription() {
-        eUnset(Ifc2x3tc1Package.Literals.IFC_ADDRESS__DESCRIPTION);
+        eUnset(Ifc2x3tc1Package.eINSTANCE.getIfcAddress_Description());
     }
 
     /**
@@ -152,7 +152,7 @@ public class IfcAddressImpl extends IdEObjectImpl implements IfcAddress {
      */
     @Override
     public boolean isSetDescription() {
-        return eIsSet(Ifc2x3tc1Package.Literals.IFC_ADDRESS__DESCRIPTION);
+        return eIsSet(Ifc2x3tc1Package.eINSTANCE.getIfcAddress_Description());
     }
 
     /**
@@ -162,7 +162,7 @@ public class IfcAddressImpl extends IdEObjectImpl implements IfcAddress {
      */
     @Override
     public String getUserDefinedPurpose() {
-        return (String) eGet(Ifc2x3tc1Package.Literals.IFC_ADDRESS__USER_DEFINED_PURPOSE, true);
+        return (String) eGet(Ifc2x3tc1Package.eINSTANCE.getIfcAddress_UserDefinedPurpose(), true);
     }
 
     /**
@@ -172,7 +172,7 @@ public class IfcAddressImpl extends IdEObjectImpl implements IfcAddress {
      */
     @Override
     public void setUserDefinedPurpose(String newUserDefinedPurpose) {
-        eSet(Ifc2x3tc1Package.Literals.IFC_ADDRESS__USER_DEFINED_PURPOSE, newUserDefinedPurpose);
+        eSet(Ifc2x3tc1Package.eINSTANCE.getIfcAddress_UserDefinedPurpose(), newUserDefinedPurpose);
     }
 
     /**
@@ -182,7 +182,7 @@ public class IfcAddressImpl extends IdEObjectImpl implements IfcAddress {
      */
     @Override
     public void unsetUserDefinedPurpose() {
-        eUnset(Ifc2x3tc1Package.Literals.IFC_ADDRESS__USER_DEFINED_PURPOSE);
+        eUnset(Ifc2x3tc1Package.eINSTANCE.getIfcAddress_UserDefinedPurpose());
     }
 
     /**
@@ -192,7 +192,7 @@ public class IfcAddressImpl extends IdEObjectImpl implements IfcAddress {
      */
     @Override
     public boolean isSetUserDefinedPurpose() {
-        return eIsSet(Ifc2x3tc1Package.Literals.IFC_ADDRESS__USER_DEFINED_PURPOSE);
+        return eIsSet(Ifc2x3tc1Package.eINSTANCE.getIfcAddress_UserDefinedPurpose());
     }
 
     /**
@@ -203,7 +203,7 @@ public class IfcAddressImpl extends IdEObjectImpl implements IfcAddress {
     @SuppressWarnings("unchecked")
     @Override
     public EList<IfcPerson> getOfPerson() {
-        return (EList<IfcPerson>) eGet(Ifc2x3tc1Package.Literals.IFC_ADDRESS__OF_PERSON, true);
+        return (EList<IfcPerson>) eGet(Ifc2x3tc1Package.eINSTANCE.getIfcAddress_OfPerson(), true);
     }
 
     /**
@@ -213,7 +213,7 @@ public class IfcAddressImpl extends IdEObjectImpl implements IfcAddress {
      */
     @Override
     public void unsetOfPerson() {
-        eUnset(Ifc2x3tc1Package.Literals.IFC_ADDRESS__OF_PERSON);
+        eUnset(Ifc2x3tc1Package.eINSTANCE.getIfcAddress_OfPerson());
     }
 
     /**
@@ -223,7 +223,7 @@ public class IfcAddressImpl extends IdEObjectImpl implements IfcAddress {
      */
     @Override
     public boolean isSetOfPerson() {
-        return eIsSet(Ifc2x3tc1Package.Literals.IFC_ADDRESS__OF_PERSON);
+        return eIsSet(Ifc2x3tc1Package.eINSTANCE.getIfcAddress_OfPerson());
     }
 
     /**
@@ -234,7 +234,7 @@ public class IfcAddressImpl extends IdEObjectImpl implements IfcAddress {
     @SuppressWarnings("unchecked")
     @Override
     public EList<IfcOrganization> getOfOrganization() {
-        return (EList<IfcOrganization>) eGet(Ifc2x3tc1Package.Literals.IFC_ADDRESS__OF_ORGANIZATION, true);
+        return (EList<IfcOrganization>) eGet(Ifc2x3tc1Package.eINSTANCE.getIfcAddress_OfOrganization(), true);
     }
 
     /**
@@ -244,7 +244,7 @@ public class IfcAddressImpl extends IdEObjectImpl implements IfcAddress {
      */
     @Override
     public void unsetOfOrganization() {
-        eUnset(Ifc2x3tc1Package.Literals.IFC_ADDRESS__OF_ORGANIZATION);
+        eUnset(Ifc2x3tc1Package.eINSTANCE.getIfcAddress_OfOrganization());
     }
 
     /**
@@ -254,7 +254,7 @@ public class IfcAddressImpl extends IdEObjectImpl implements IfcAddress {
      */
     @Override
     public boolean isSetOfOrganization() {
-        return eIsSet(Ifc2x3tc1Package.Literals.IFC_ADDRESS__OF_ORGANIZATION);
+        return eIsSet(Ifc2x3tc1Package.eINSTANCE.getIfcAddress_OfOrganization());
     }
 
 } //IfcAddressImpl

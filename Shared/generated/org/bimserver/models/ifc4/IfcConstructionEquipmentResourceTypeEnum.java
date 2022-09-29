@@ -145,10 +145,6 @@ public enum IfcConstructionEquipmentResourceTypeEnum implements Enumerator {
     /**
      * The '<em><b>NULL</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>NULL</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #NULL
      * @model
@@ -160,10 +156,6 @@ public enum IfcConstructionEquipmentResourceTypeEnum implements Enumerator {
     /**
      * The '<em><b>DEMOLISHING</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>DEMOLISHING</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #DEMOLISHING
      * @model
@@ -175,10 +167,6 @@ public enum IfcConstructionEquipmentResourceTypeEnum implements Enumerator {
     /**
      * The '<em><b>TRANSPORTING</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>TRANSPORTING</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #TRANSPORTING
      * @model
@@ -190,10 +178,6 @@ public enum IfcConstructionEquipmentResourceTypeEnum implements Enumerator {
     /**
      * The '<em><b>PAVING</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>PAVING</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #PAVING
      * @model
@@ -205,10 +189,6 @@ public enum IfcConstructionEquipmentResourceTypeEnum implements Enumerator {
     /**
      * The '<em><b>NOTDEFINED</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>NOTDEFINED</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #NOTDEFINED
      * @model
@@ -220,10 +200,6 @@ public enum IfcConstructionEquipmentResourceTypeEnum implements Enumerator {
     /**
      * The '<em><b>EARTHMOVING</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>EARTHMOVING</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #EARTHMOVING
      * @model
@@ -235,10 +211,6 @@ public enum IfcConstructionEquipmentResourceTypeEnum implements Enumerator {
     /**
      * The '<em><b>HEATING</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>HEATING</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #HEATING
      * @model
@@ -250,10 +222,6 @@ public enum IfcConstructionEquipmentResourceTypeEnum implements Enumerator {
     /**
      * The '<em><b>LIGHTING</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>LIGHTING</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #LIGHTING
      * @model
@@ -265,10 +233,6 @@ public enum IfcConstructionEquipmentResourceTypeEnum implements Enumerator {
     /**
      * The '<em><b>PUMPING</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>PUMPING</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #PUMPING
      * @model
@@ -280,10 +244,6 @@ public enum IfcConstructionEquipmentResourceTypeEnum implements Enumerator {
     /**
      * The '<em><b>USERDEFINED</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>USERDEFINED</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #USERDEFINED
      * @model
@@ -295,10 +255,6 @@ public enum IfcConstructionEquipmentResourceTypeEnum implements Enumerator {
     /**
      * The '<em><b>ERECTING</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>ERECTING</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #ERECTING
      * @model

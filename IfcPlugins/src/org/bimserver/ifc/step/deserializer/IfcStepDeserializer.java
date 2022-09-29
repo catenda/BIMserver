@@ -43,6 +43,8 @@ import org.bimserver.ifc.step.deserializer.buffered.StepStringDecoder;
 import org.bimserver.interfaces.objects.SIfcHeader;
 import org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package;
 import org.bimserver.models.ifc4.Ifc4Package;
+import org.bimserver.models.ifc4x3.Ifc4x3Package;
+import org.bimserver.models.ifc4x3rc4.Ifc4x3rc4Package;
 import org.bimserver.plugins.deserializers.DeserializeException;
 import org.bimserver.plugins.deserializers.EmfDeserializer;
 import org.bimserver.plugins.schema.Attribute;
@@ -109,6 +111,10 @@ public class IfcStepDeserializer extends EmfDeserializer {
 			ePackage = Ifc2x3tc1Package.eINSTANCE;
 		} else if ("IFC4".equals(name.toUpperCase())) {
 			ePackage = Ifc4Package.eINSTANCE;
+		} else if ("IFC4X3".equals(name.toUpperCase())) {
+			ePackage = Ifc4x3Package.eINSTANCE;
+		} else if (name.toUpperCase().startsWith("IFC4X3_RC")) {
+			ePackage = Ifc4x3rc4Package.eINSTANCE;
 		}
 		classes = initClasses(ePackage);
 	}
@@ -155,7 +161,7 @@ public class IfcStepDeserializer extends EmfDeserializer {
 			tokenizer.zoomOut();
 		}
 	}
-	
+
 	private IfcModelInterface read(InputStream inputStream, long fileSize) throws DeserializeException {
 		BufferedReader reader = new BufferedReader(new InputStreamReader(inputStream, Charsets.UTF_8));
 		int initialCapacity = (int) (fileSize / AVERAGE_LINE_LENGTH);
@@ -636,32 +642,32 @@ public class IfcStepDeserializer extends EmfDeserializer {
 			if (structuralFeature.getEType().getName().equals("Tristate")) {
 				object.eSet(structuralFeature, createEnumerator("Tristate", "TRUE"));
 			} else if (structuralFeature.getEType().getName().equals("IfcBoolean")) {
-				EClass eClass = (EClass) classes.get("IfcBoolean");
+				EClass eClass = (EClass) classes.get("IFCBOOLEAN");
 				EObject bool = create(eClass);
-				bool.eSet(eClass.getEStructuralFeature("WrappedValue"), createEnumerator("Tristate", "TRUE"));
+				bool.eSet(eClass.getEStructuralFeature(WRAPPED_VALUE), createEnumerator("Tristate", "TRUE"));
 				object.eSet(structuralFeature, bool);
 			} else if (structuralFeature.getEType() == EcorePackage.eINSTANCE.getEBoolean()) {
 				object.eSet(structuralFeature, true);
 			} else {
-				EClass eClass = (EClass) classes.get("IfcLogical");
+				EClass eClass = (EClass) classes.get("IFCLOGICAL");
 				EObject logical = create(eClass);
-				logical.eSet(eClass.getEStructuralFeature("WrappedValue"), createEnumerator("Tristate", "TRUE"));
+				logical.eSet(eClass.getEStructuralFeature(WRAPPED_VALUE), createEnumerator("Tristate", "TRUE"));
 				object.eSet(structuralFeature, logical);
 			}
 		} else if (val.equals(".F.")) {
 			if (structuralFeature.getEType().getName().equals("Tristate")) {
 				object.eSet(structuralFeature, createEnumerator("Tristate", "FALSE"));
 			} else if (structuralFeature.getEType().getName().equals("IfcBoolean")) {
-				EClass eClass = (EClass) classes.get("IfcBoolean");
+				EClass eClass = (EClass) classes.get("IFCBOOLEAN");
 				EObject bool = create(eClass);
-				bool.eSet(eClass.getEStructuralFeature("WrappedValue"), createEnumerator("Tristate", "FALSE"));
+				bool.eSet(eClass.getEStructuralFeature(WRAPPED_VALUE), createEnumerator("Tristate", "FALSE"));
 				object.eSet(structuralFeature, bool);
 			} else if (structuralFeature.getEType() == EcorePackage.eINSTANCE.getEBoolean()) {
 				object.eSet(structuralFeature, false);
 			} else {
-				EClass eClass = (EClass) classes.get("IfcLogical");
+				EClass eClass = (EClass) classes.get("IFCLOGICAL");
 				EObject logical = create(eClass);
-				logical.eSet(eClass.getEStructuralFeature("WrappedValue"), createEnumerator("Tristate", "FALSE"));
+				logical.eSet(eClass.getEStructuralFeature(WRAPPED_VALUE), createEnumerator("Tristate", "FALSE"));
 				object.eSet(structuralFeature, logical);
 			}
 		} else if (val.equals(".U.")) {
@@ -670,9 +676,9 @@ public class IfcStepDeserializer extends EmfDeserializer {
 			} else if (structuralFeature.getEType() == EcorePackage.eINSTANCE.getEBoolean()) {
 				object.eUnset(structuralFeature);
 			} else {
-				EClass eClass = (EClass) classes.get("IfcLogical");
+				EClass eClass = (EClass) classes.get("IFCLOGICAL");
 				EObject createIfcBoolean = create(eClass);
-				createIfcBoolean.eSet(eClass.getEStructuralFeature("WrappedValue"), createEnumerator("Tristate", "UNDEFINED"));
+				createIfcBoolean.eSet(eClass.getEStructuralFeature(WRAPPED_VALUE), createEnumerator("Tristate", "UNDEFINED"));
 				object.eSet(structuralFeature, createIfcBoolean);
 			}
 		} else {

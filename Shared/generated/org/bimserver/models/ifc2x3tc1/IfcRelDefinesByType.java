@@ -37,10 +37,6 @@ public interface IfcRelDefinesByType extends IfcRelDefines {
      * Returns the value of the '<em><b>Relating Type</b></em>' reference.
      * It is bidirectional and its opposite is '{@link org.bimserver.models.ifc2x3tc1.IfcTypeObject#getObjectTypeOf <em>Object Type Of</em>}'.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Relating Type</em>' reference isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Relating Type</em>' reference.
      * @see #setRelatingType(IfcTypeObject)

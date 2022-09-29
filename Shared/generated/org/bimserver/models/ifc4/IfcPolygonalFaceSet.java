@@ -41,10 +41,6 @@ public interface IfcPolygonalFaceSet extends IfcTessellatedFaceSet {
      * Returns the value of the '<em><b>Closed</b></em>' attribute.
      * The literals are from the enumeration {@link org.bimserver.models.ifc4.Tristate}.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Closed</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Closed</em>' attribute.
      * @see org.bimserver.models.ifc4.Tristate
@@ -98,10 +94,6 @@ public interface IfcPolygonalFaceSet extends IfcTessellatedFaceSet {
      * The list contents are of type {@link org.bimserver.models.ifc4.IfcIndexedPolygonalFace}.
      * It is bidirectional and its opposite is '{@link org.bimserver.models.ifc4.IfcIndexedPolygonalFace#getToFaceSet <em>To Face Set</em>}'.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Faces</em>' reference list isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Faces</em>' reference list.
      * @see org.bimserver.models.ifc4.Ifc4Package#getIfcPolygonalFaceSet_Faces()
@@ -116,10 +108,6 @@ public interface IfcPolygonalFaceSet extends IfcTessellatedFaceSet {
      * Returns the value of the '<em><b>Pn Index</b></em>' attribute list.
      * The list contents are of type {@link java.lang.Long}.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Pn Index</em>' attribute list isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Pn Index</em>' attribute list.
      * @see #isSetPnIndex()

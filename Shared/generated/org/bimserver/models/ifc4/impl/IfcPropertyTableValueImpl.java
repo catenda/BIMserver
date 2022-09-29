@@ -61,7 +61,7 @@ public class IfcPropertyTableValueImpl extends IfcSimplePropertyImpl implements 
      */
     @Override
     protected EClass eStaticClass() {
-        return Ifc4Package.Literals.IFC_PROPERTY_TABLE_VALUE;
+        return Ifc4Package.eINSTANCE.getIfcPropertyTableValue();
     }
 
     /**
@@ -72,7 +72,7 @@ public class IfcPropertyTableValueImpl extends IfcSimplePropertyImpl implements 
     @SuppressWarnings("unchecked")
     @Override
     public EList<IfcValue> getDefiningValues() {
-        return (EList<IfcValue>) eGet(Ifc4Package.Literals.IFC_PROPERTY_TABLE_VALUE__DEFINING_VALUES, true);
+        return (EList<IfcValue>) eGet(Ifc4Package.eINSTANCE.getIfcPropertyTableValue_DefiningValues(), true);
     }
 
     /**
@@ -82,7 +82,7 @@ public class IfcPropertyTableValueImpl extends IfcSimplePropertyImpl implements 
      */
     @Override
     public void unsetDefiningValues() {
-        eUnset(Ifc4Package.Literals.IFC_PROPERTY_TABLE_VALUE__DEFINING_VALUES);
+        eUnset(Ifc4Package.eINSTANCE.getIfcPropertyTableValue_DefiningValues());
     }
 
     /**
@@ -92,7 +92,7 @@ public class IfcPropertyTableValueImpl extends IfcSimplePropertyImpl implements 
      */
     @Override
     public boolean isSetDefiningValues() {
-        return eIsSet(Ifc4Package.Literals.IFC_PROPERTY_TABLE_VALUE__DEFINING_VALUES);
+        return eIsSet(Ifc4Package.eINSTANCE.getIfcPropertyTableValue_DefiningValues());
     }
 
     /**
@@ -103,7 +103,7 @@ public class IfcPropertyTableValueImpl extends IfcSimplePropertyImpl implements 
     @SuppressWarnings("unchecked")
     @Override
     public EList<IfcValue> getDefinedValues() {
-        return (EList<IfcValue>) eGet(Ifc4Package.Literals.IFC_PROPERTY_TABLE_VALUE__DEFINED_VALUES, true);
+        return (EList<IfcValue>) eGet(Ifc4Package.eINSTANCE.getIfcPropertyTableValue_DefinedValues(), true);
     }
 
     /**
@@ -113,7 +113,7 @@ public class IfcPropertyTableValueImpl extends IfcSimplePropertyImpl implements 
      */
     @Override
     public void unsetDefinedValues() {
-        eUnset(Ifc4Package.Literals.IFC_PROPERTY_TABLE_VALUE__DEFINED_VALUES);
+        eUnset(Ifc4Package.eINSTANCE.getIfcPropertyTableValue_DefinedValues());
     }
 
     /**
@@ -123,7 +123,7 @@ public class IfcPropertyTableValueImpl extends IfcSimplePropertyImpl implements 
      */
     @Override
     public boolean isSetDefinedValues() {
-        return eIsSet(Ifc4Package.Literals.IFC_PROPERTY_TABLE_VALUE__DEFINED_VALUES);
+        return eIsSet(Ifc4Package.eINSTANCE.getIfcPropertyTableValue_DefinedValues());
     }
 
     /**
@@ -133,7 +133,7 @@ public class IfcPropertyTableValueImpl extends IfcSimplePropertyImpl implements 
      */
     @Override
     public String getExpression() {
-        return (String) eGet(Ifc4Package.Literals.IFC_PROPERTY_TABLE_VALUE__EXPRESSION, true);
+        return (String) eGet(Ifc4Package.eINSTANCE.getIfcPropertyTableValue_Expression(), true);
     }
 
     /**
@@ -143,7 +143,7 @@ public class IfcPropertyTableValueImpl extends IfcSimplePropertyImpl implements 
      */
     @Override
     public void setExpression(String newExpression) {
-        eSet(Ifc4Package.Literals.IFC_PROPERTY_TABLE_VALUE__EXPRESSION, newExpression);
+        eSet(Ifc4Package.eINSTANCE.getIfcPropertyTableValue_Expression(), newExpression);
     }
 
     /**
@@ -153,7 +153,7 @@ public class IfcPropertyTableValueImpl extends IfcSimplePropertyImpl implements 
      */
     @Override
     public void unsetExpression() {
-        eUnset(Ifc4Package.Literals.IFC_PROPERTY_TABLE_VALUE__EXPRESSION);
+        eUnset(Ifc4Package.eINSTANCE.getIfcPropertyTableValue_Expression());
     }
 
     /**
@@ -163,7 +163,7 @@ public class IfcPropertyTableValueImpl extends IfcSimplePropertyImpl implements 
      */
     @Override
     public boolean isSetExpression() {
-        return eIsSet(Ifc4Package.Literals.IFC_PROPERTY_TABLE_VALUE__EXPRESSION);
+        return eIsSet(Ifc4Package.eINSTANCE.getIfcPropertyTableValue_Expression());
     }
 
     /**
@@ -173,7 +173,7 @@ public class IfcPropertyTableValueImpl extends IfcSimplePropertyImpl implements 
      */
     @Override
     public IfcUnit getDefiningUnit() {
-        return (IfcUnit) eGet(Ifc4Package.Literals.IFC_PROPERTY_TABLE_VALUE__DEFINING_UNIT, true);
+        return (IfcUnit) eGet(Ifc4Package.eINSTANCE.getIfcPropertyTableValue_DefiningUnit(), true);
     }
 
     /**
@@ -183,7 +183,7 @@ public class IfcPropertyTableValueImpl extends IfcSimplePropertyImpl implements 
      */
     @Override
     public void setDefiningUnit(IfcUnit newDefiningUnit) {
-        eSet(Ifc4Package.Literals.IFC_PROPERTY_TABLE_VALUE__DEFINING_UNIT, newDefiningUnit);
+        eSet(Ifc4Package.eINSTANCE.getIfcPropertyTableValue_DefiningUnit(), newDefiningUnit);
     }
 
     /**
@@ -193,7 +193,7 @@ public class IfcPropertyTableValueImpl extends IfcSimplePropertyImpl implements 
      */
     @Override
     public void unsetDefiningUnit() {
-        eUnset(Ifc4Package.Literals.IFC_PROPERTY_TABLE_VALUE__DEFINING_UNIT);
+        eUnset(Ifc4Package.eINSTANCE.getIfcPropertyTableValue_DefiningUnit());
     }
 
     /**
@@ -203,7 +203,7 @@ public class IfcPropertyTableValueImpl extends IfcSimplePropertyImpl implements 
      */
     @Override
     public boolean isSetDefiningUnit() {
-        return eIsSet(Ifc4Package.Literals.IFC_PROPERTY_TABLE_VALUE__DEFINING_UNIT);
+        return eIsSet(Ifc4Package.eINSTANCE.getIfcPropertyTableValue_DefiningUnit());
     }
 
     /**
@@ -213,7 +213,7 @@ public class IfcPropertyTableValueImpl extends IfcSimplePropertyImpl implements 
      */
     @Override
     public IfcUnit getDefinedUnit() {
-        return (IfcUnit) eGet(Ifc4Package.Literals.IFC_PROPERTY_TABLE_VALUE__DEFINED_UNIT, true);
+        return (IfcUnit) eGet(Ifc4Package.eINSTANCE.getIfcPropertyTableValue_DefinedUnit(), true);
     }
 
     /**
@@ -223,7 +223,7 @@ public class IfcPropertyTableValueImpl extends IfcSimplePropertyImpl implements 
      */
     @Override
     public void setDefinedUnit(IfcUnit newDefinedUnit) {
-        eSet(Ifc4Package.Literals.IFC_PROPERTY_TABLE_VALUE__DEFINED_UNIT, newDefinedUnit);
+        eSet(Ifc4Package.eINSTANCE.getIfcPropertyTableValue_DefinedUnit(), newDefinedUnit);
     }
 
     /**
@@ -233,7 +233,7 @@ public class IfcPropertyTableValueImpl extends IfcSimplePropertyImpl implements 
      */
     @Override
     public void unsetDefinedUnit() {
-        eUnset(Ifc4Package.Literals.IFC_PROPERTY_TABLE_VALUE__DEFINED_UNIT);
+        eUnset(Ifc4Package.eINSTANCE.getIfcPropertyTableValue_DefinedUnit());
     }
 
     /**
@@ -243,7 +243,7 @@ public class IfcPropertyTableValueImpl extends IfcSimplePropertyImpl implements 
      */
     @Override
     public boolean isSetDefinedUnit() {
-        return eIsSet(Ifc4Package.Literals.IFC_PROPERTY_TABLE_VALUE__DEFINED_UNIT);
+        return eIsSet(Ifc4Package.eINSTANCE.getIfcPropertyTableValue_DefinedUnit());
     }
 
     /**
@@ -253,7 +253,7 @@ public class IfcPropertyTableValueImpl extends IfcSimplePropertyImpl implements 
      */
     @Override
     public IfcCurveInterpolationEnum getCurveInterpolation() {
-        return (IfcCurveInterpolationEnum) eGet(Ifc4Package.Literals.IFC_PROPERTY_TABLE_VALUE__CURVE_INTERPOLATION,
+        return (IfcCurveInterpolationEnum) eGet(Ifc4Package.eINSTANCE.getIfcPropertyTableValue_CurveInterpolation(),
                 true);
     }
 
@@ -264,7 +264,7 @@ public class IfcPropertyTableValueImpl extends IfcSimplePropertyImpl implements 
      */
     @Override
     public void setCurveInterpolation(IfcCurveInterpolationEnum newCurveInterpolation) {
-        eSet(Ifc4Package.Literals.IFC_PROPERTY_TABLE_VALUE__CURVE_INTERPOLATION, newCurveInterpolation);
+        eSet(Ifc4Package.eINSTANCE.getIfcPropertyTableValue_CurveInterpolation(), newCurveInterpolation);
     }
 
     /**
@@ -274,7 +274,7 @@ public class IfcPropertyTableValueImpl extends IfcSimplePropertyImpl implements 
      */
     @Override
     public void unsetCurveInterpolation() {
-        eUnset(Ifc4Package.Literals.IFC_PROPERTY_TABLE_VALUE__CURVE_INTERPOLATION);
+        eUnset(Ifc4Package.eINSTANCE.getIfcPropertyTableValue_CurveInterpolation());
     }
 
     /**
@@ -284,7 +284,7 @@ public class IfcPropertyTableValueImpl extends IfcSimplePropertyImpl implements 
      */
     @Override
     public boolean isSetCurveInterpolation() {
-        return eIsSet(Ifc4Package.Literals.IFC_PROPERTY_TABLE_VALUE__CURVE_INTERPOLATION);
+        return eIsSet(Ifc4Package.eINSTANCE.getIfcPropertyTableValue_CurveInterpolation());
     }
 
 } //IfcPropertyTableValueImpl

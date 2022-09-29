@@ -52,7 +52,7 @@ public class IfcCylindricalSurfaceImpl extends IfcElementarySurfaceImpl implemen
      */
     @Override
     protected EClass eStaticClass() {
-        return Ifc4Package.Literals.IFC_CYLINDRICAL_SURFACE;
+        return Ifc4Package.eINSTANCE.getIfcCylindricalSurface();
     }
 
     /**
@@ -62,7 +62,7 @@ public class IfcCylindricalSurfaceImpl extends IfcElementarySurfaceImpl implemen
      */
     @Override
     public double getRadius() {
-        return (Double) eGet(Ifc4Package.Literals.IFC_CYLINDRICAL_SURFACE__RADIUS, true);
+        return (Double) eGet(Ifc4Package.eINSTANCE.getIfcCylindricalSurface_Radius(), true);
     }
 
     /**
@@ -72,7 +72,7 @@ public class IfcCylindricalSurfaceImpl extends IfcElementarySurfaceImpl implemen
      */
     @Override
     public void setRadius(double newRadius) {
-        eSet(Ifc4Package.Literals.IFC_CYLINDRICAL_SURFACE__RADIUS, newRadius);
+        eSet(Ifc4Package.eINSTANCE.getIfcCylindricalSurface_Radius(), newRadius);
     }
 
     /**
@@ -82,7 +82,7 @@ public class IfcCylindricalSurfaceImpl extends IfcElementarySurfaceImpl implemen
      */
     @Override
     public String getRadiusAsString() {
-        return (String) eGet(Ifc4Package.Literals.IFC_CYLINDRICAL_SURFACE__RADIUS_AS_STRING, true);
+        return (String) eGet(Ifc4Package.eINSTANCE.getIfcCylindricalSurface_RadiusAsString(), true);
     }
 
     /**
@@ -92,7 +92,7 @@ public class IfcCylindricalSurfaceImpl extends IfcElementarySurfaceImpl implemen
      */
     @Override
     public void setRadiusAsString(String newRadiusAsString) {
-        eSet(Ifc4Package.Literals.IFC_CYLINDRICAL_SURFACE__RADIUS_AS_STRING, newRadiusAsString);
+        eSet(Ifc4Package.eINSTANCE.getIfcCylindricalSurface_RadiusAsString(), newRadiusAsString);
     }
 
 } //IfcCylindricalSurfaceImpl

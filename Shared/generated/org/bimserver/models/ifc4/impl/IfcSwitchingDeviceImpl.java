@@ -52,7 +52,7 @@ public class IfcSwitchingDeviceImpl extends IfcFlowControllerImpl implements Ifc
      */
     @Override
     protected EClass eStaticClass() {
-        return Ifc4Package.Literals.IFC_SWITCHING_DEVICE;
+        return Ifc4Package.eINSTANCE.getIfcSwitchingDevice();
     }
 
     /**
@@ -62,7 +62,7 @@ public class IfcSwitchingDeviceImpl extends IfcFlowControllerImpl implements Ifc
      */
     @Override
     public IfcSwitchingDeviceTypeEnum getPredefinedType() {
-        return (IfcSwitchingDeviceTypeEnum) eGet(Ifc4Package.Literals.IFC_SWITCHING_DEVICE__PREDEFINED_TYPE, true);
+        return (IfcSwitchingDeviceTypeEnum) eGet(Ifc4Package.eINSTANCE.getIfcSwitchingDevice_PredefinedType(), true);
     }
 
     /**
@@ -72,7 +72,7 @@ public class IfcSwitchingDeviceImpl extends IfcFlowControllerImpl implements Ifc
      */
     @Override
     public void setPredefinedType(IfcSwitchingDeviceTypeEnum newPredefinedType) {
-        eSet(Ifc4Package.Literals.IFC_SWITCHING_DEVICE__PREDEFINED_TYPE, newPredefinedType);
+        eSet(Ifc4Package.eINSTANCE.getIfcSwitchingDevice_PredefinedType(), newPredefinedType);
     }
 
     /**
@@ -82,7 +82,7 @@ public class IfcSwitchingDeviceImpl extends IfcFlowControllerImpl implements Ifc
      */
     @Override
     public void unsetPredefinedType() {
-        eUnset(Ifc4Package.Literals.IFC_SWITCHING_DEVICE__PREDEFINED_TYPE);
+        eUnset(Ifc4Package.eINSTANCE.getIfcSwitchingDevice_PredefinedType());
     }
 
     /**
@@ -92,7 +92,7 @@ public class IfcSwitchingDeviceImpl extends IfcFlowControllerImpl implements Ifc
      */
     @Override
     public boolean isSetPredefinedType() {
-        return eIsSet(Ifc4Package.Literals.IFC_SWITCHING_DEVICE__PREDEFINED_TYPE);
+        return eIsSet(Ifc4Package.eINSTANCE.getIfcSwitchingDevice_PredefinedType());
     }
 
 } //IfcSwitchingDeviceImpl

@@ -43,10 +43,6 @@ public interface IfcBSplineCurve extends IfcBoundedCurve {
     /**
      * Returns the value of the '<em><b>Degree</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Degree</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Degree</em>' attribute.
      * @see #setDegree(long)
@@ -70,10 +66,6 @@ public interface IfcBSplineCurve extends IfcBoundedCurve {
      * Returns the value of the '<em><b>Control Points List</b></em>' reference list.
      * The list contents are of type {@link org.bimserver.models.ifc4.IfcCartesianPoint}.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Control Points List</em>' reference list isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Control Points List</em>' reference list.
      * @see org.bimserver.models.ifc4.Ifc4Package#getIfcBSplineCurve_ControlPointsList()
@@ -86,10 +78,6 @@ public interface IfcBSplineCurve extends IfcBoundedCurve {
      * Returns the value of the '<em><b>Curve Form</b></em>' attribute.
      * The literals are from the enumeration {@link org.bimserver.models.ifc4.IfcBSplineCurveForm}.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Curve Form</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Curve Form</em>' attribute.
      * @see org.bimserver.models.ifc4.IfcBSplineCurveForm
@@ -115,10 +103,6 @@ public interface IfcBSplineCurve extends IfcBoundedCurve {
      * Returns the value of the '<em><b>Closed Curve</b></em>' attribute.
      * The literals are from the enumeration {@link org.bimserver.models.ifc4.Tristate}.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Closed Curve</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Closed Curve</em>' attribute.
      * @see org.bimserver.models.ifc4.Tristate
@@ -144,10 +128,6 @@ public interface IfcBSplineCurve extends IfcBoundedCurve {
      * Returns the value of the '<em><b>Self Intersect</b></em>' attribute.
      * The literals are from the enumeration {@link org.bimserver.models.ifc4.Tristate}.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Self Intersect</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Self Intersect</em>' attribute.
      * @see org.bimserver.models.ifc4.Tristate
@@ -172,10 +152,6 @@ public interface IfcBSplineCurve extends IfcBoundedCurve {
     /**
      * Returns the value of the '<em><b>Upper Index On Control Points</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Upper Index On Control Points</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Upper Index On Control Points</em>' attribute.
      * @see #isSetUpperIndexOnControlPoints()

@@ -52,7 +52,7 @@ public class IfcSurfaceOfRevolutionImpl extends IfcSweptSurfaceImpl implements I
      */
     @Override
     protected EClass eStaticClass() {
-        return Ifc2x3tc1Package.Literals.IFC_SURFACE_OF_REVOLUTION;
+        return Ifc2x3tc1Package.eINSTANCE.getIfcSurfaceOfRevolution();
     }
 
     /**
@@ -62,7 +62,7 @@ public class IfcSurfaceOfRevolutionImpl extends IfcSweptSurfaceImpl implements I
      */
     @Override
     public IfcAxis1Placement getAxisPosition() {
-        return (IfcAxis1Placement) eGet(Ifc2x3tc1Package.Literals.IFC_SURFACE_OF_REVOLUTION__AXIS_POSITION, true);
+        return (IfcAxis1Placement) eGet(Ifc2x3tc1Package.eINSTANCE.getIfcSurfaceOfRevolution_AxisPosition(), true);
     }
 
     /**
@@ -72,7 +72,7 @@ public class IfcSurfaceOfRevolutionImpl extends IfcSweptSurfaceImpl implements I
      */
     @Override
     public void setAxisPosition(IfcAxis1Placement newAxisPosition) {
-        eSet(Ifc2x3tc1Package.Literals.IFC_SURFACE_OF_REVOLUTION__AXIS_POSITION, newAxisPosition);
+        eSet(Ifc2x3tc1Package.eINSTANCE.getIfcSurfaceOfRevolution_AxisPosition(), newAxisPosition);
     }
 
 } //IfcSurfaceOfRevolutionImpl

@@ -315,10 +315,6 @@ public enum IfcActionSourceTypeEnum implements Enumerator {
     /**
      * The '<em><b>NULL</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>NULL</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #NULL
      * @model
@@ -330,10 +326,6 @@ public enum IfcActionSourceTypeEnum implements Enumerator {
     /**
      * The '<em><b>SNOW S</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>SNOW S</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #SNOW_S
      * @model
@@ -345,10 +337,6 @@ public enum IfcActionSourceTypeEnum implements Enumerator {
     /**
      * The '<em><b>PRESTRESSING P</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>PRESTRESSING P</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #PRESTRESSING_P
      * @model
@@ -360,10 +348,6 @@ public enum IfcActionSourceTypeEnum implements Enumerator {
     /**
      * The '<em><b>USERDEFINED</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>USERDEFINED</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #USERDEFINED
      * @model
@@ -375,10 +359,6 @@ public enum IfcActionSourceTypeEnum implements Enumerator {
     /**
      * The '<em><b>EARTHQUAKE E</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>EARTHQUAKE E</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #EARTHQUAKE_E
      * @model
@@ -390,10 +370,6 @@ public enum IfcActionSourceTypeEnum implements Enumerator {
     /**
      * The '<em><b>IMPULSE</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>IMPULSE</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #IMPULSE
      * @model
@@ -405,10 +381,6 @@ public enum IfcActionSourceTypeEnum implements Enumerator {
     /**
      * The '<em><b>SYSTEM IMPERFECTION</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>SYSTEM IMPERFECTION</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #SYSTEM_IMPERFECTION
      * @model
@@ -420,10 +392,6 @@ public enum IfcActionSourceTypeEnum implements Enumerator {
     /**
      * The '<em><b>WAVE</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>WAVE</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #WAVE
      * @model
@@ -435,10 +403,6 @@ public enum IfcActionSourceTypeEnum implements Enumerator {
     /**
      * The '<em><b>TRANSPORT</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>TRANSPORT</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #TRANSPORT
      * @model
@@ -450,10 +414,6 @@ public enum IfcActionSourceTypeEnum implements Enumerator {
     /**
      * The '<em><b>NOTDEFINED</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>NOTDEFINED</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #NOTDEFINED
      * @model
@@ -465,10 +425,6 @@ public enum IfcActionSourceTypeEnum implements Enumerator {
     /**
      * The '<em><b>FIRE</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>FIRE</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #FIRE
      * @model
@@ -480,10 +436,6 @@ public enum IfcActionSourceTypeEnum implements Enumerator {
     /**
      * The '<em><b>ERECTION</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>ERECTION</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #ERECTION
      * @model
@@ -495,10 +447,6 @@ public enum IfcActionSourceTypeEnum implements Enumerator {
     /**
      * The '<em><b>LACK OF FIT</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>LACK OF FIT</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #LACK_OF_FIT
      * @model
@@ -510,10 +458,6 @@ public enum IfcActionSourceTypeEnum implements Enumerator {
     /**
      * The '<em><b>TEMPERATURE T</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>TEMPERATURE T</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #TEMPERATURE_T
      * @model
@@ -525,10 +469,6 @@ public enum IfcActionSourceTypeEnum implements Enumerator {
     /**
      * The '<em><b>ICE</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>ICE</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #ICE
      * @model
@@ -540,10 +480,6 @@ public enum IfcActionSourceTypeEnum implements Enumerator {
     /**
      * The '<em><b>BRAKES</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>BRAKES</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #BRAKES
      * @model
@@ -555,10 +491,6 @@ public enum IfcActionSourceTypeEnum implements Enumerator {
     /**
      * The '<em><b>PROPPING</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>PROPPING</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #PROPPING
      * @model
@@ -570,10 +502,6 @@ public enum IfcActionSourceTypeEnum implements Enumerator {
     /**
      * The '<em><b>CURRENT</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>CURRENT</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #CURRENT
      * @model
@@ -585,10 +513,6 @@ public enum IfcActionSourceTypeEnum implements Enumerator {
     /**
      * The '<em><b>IMPACT</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>IMPACT</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #IMPACT
      * @model
@@ -600,10 +524,6 @@ public enum IfcActionSourceTypeEnum implements Enumerator {
     /**
      * The '<em><b>BUOYANCY</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>BUOYANCY</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #BUOYANCY
      * @model
@@ -615,10 +535,6 @@ public enum IfcActionSourceTypeEnum implements Enumerator {
     /**
      * The '<em><b>RAIN</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>RAIN</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #RAIN
      * @model
@@ -630,10 +546,6 @@ public enum IfcActionSourceTypeEnum implements Enumerator {
     /**
      * The '<em><b>SHRINKAGE</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>SHRINKAGE</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #SHRINKAGE
      * @model
@@ -645,10 +557,6 @@ public enum IfcActionSourceTypeEnum implements Enumerator {
     /**
      * The '<em><b>LIVE LOAD Q</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>LIVE LOAD Q</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #LIVE_LOAD_Q
      * @model
@@ -660,10 +568,6 @@ public enum IfcActionSourceTypeEnum implements Enumerator {
     /**
      * The '<em><b>CREEP</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>CREEP</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #CREEP
      * @model
@@ -675,10 +579,6 @@ public enum IfcActionSourceTypeEnum implements Enumerator {
     /**
      * The '<em><b>SETTLEMENT U</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>SETTLEMENT U</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #SETTLEMENT_U
      * @model
@@ -690,10 +590,6 @@ public enum IfcActionSourceTypeEnum implements Enumerator {
     /**
      * The '<em><b>DEAD LOAD G</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>DEAD LOAD G</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #DEAD_LOAD_G
      * @model
@@ -705,10 +601,6 @@ public enum IfcActionSourceTypeEnum implements Enumerator {
     /**
      * The '<em><b>COMPLETION G1</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>COMPLETION G1</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #COMPLETION_G1
      * @model
@@ -720,10 +612,6 @@ public enum IfcActionSourceTypeEnum implements Enumerator {
     /**
      * The '<em><b>WIND W</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>WIND W</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #WIND_W
      * @model

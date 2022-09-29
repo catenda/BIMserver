@@ -39,10 +39,6 @@ public interface IfcRelConnectsPorts extends IfcRelConnects {
      * Returns the value of the '<em><b>Relating Port</b></em>' reference.
      * It is bidirectional and its opposite is '{@link org.bimserver.models.ifc4.IfcPort#getConnectedTo <em>Connected To</em>}'.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Relating Port</em>' reference isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Relating Port</em>' reference.
      * @see #setRelatingPort(IfcPort)
@@ -68,10 +64,6 @@ public interface IfcRelConnectsPorts extends IfcRelConnects {
      * Returns the value of the '<em><b>Related Port</b></em>' reference.
      * It is bidirectional and its opposite is '{@link org.bimserver.models.ifc4.IfcPort#getConnectedFrom <em>Connected From</em>}'.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Related Port</em>' reference isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Related Port</em>' reference.
      * @see #setRelatedPort(IfcPort)
@@ -96,10 +88,6 @@ public interface IfcRelConnectsPorts extends IfcRelConnects {
     /**
      * Returns the value of the '<em><b>Realizing Element</b></em>' reference.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Realizing Element</em>' reference isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Realizing Element</em>' reference.
      * @see #isSetRealizingElement()

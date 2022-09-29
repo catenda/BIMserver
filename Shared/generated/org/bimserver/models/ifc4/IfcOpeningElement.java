@@ -40,10 +40,6 @@ public interface IfcOpeningElement extends IfcFeatureElementSubtraction {
      * Returns the value of the '<em><b>Predefined Type</b></em>' attribute.
      * The literals are from the enumeration {@link org.bimserver.models.ifc4.IfcOpeningElementTypeEnum}.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Predefined Type</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Predefined Type</em>' attribute.
      * @see org.bimserver.models.ifc4.IfcOpeningElementTypeEnum
@@ -97,10 +93,6 @@ public interface IfcOpeningElement extends IfcFeatureElementSubtraction {
      * The list contents are of type {@link org.bimserver.models.ifc4.IfcRelFillsElement}.
      * It is bidirectional and its opposite is '{@link org.bimserver.models.ifc4.IfcRelFillsElement#getRelatingOpeningElement <em>Relating Opening Element</em>}'.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Has Fillings</em>' reference list isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Has Fillings</em>' reference list.
      * @see #isSetHasFillings()

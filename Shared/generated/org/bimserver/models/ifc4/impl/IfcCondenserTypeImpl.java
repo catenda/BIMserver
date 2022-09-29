@@ -52,7 +52,7 @@ public class IfcCondenserTypeImpl extends IfcEnergyConversionDeviceTypeImpl impl
      */
     @Override
     protected EClass eStaticClass() {
-        return Ifc4Package.Literals.IFC_CONDENSER_TYPE;
+        return Ifc4Package.eINSTANCE.getIfcCondenserType();
     }
 
     /**
@@ -62,7 +62,7 @@ public class IfcCondenserTypeImpl extends IfcEnergyConversionDeviceTypeImpl impl
      */
     @Override
     public IfcCondenserTypeEnum getPredefinedType() {
-        return (IfcCondenserTypeEnum) eGet(Ifc4Package.Literals.IFC_CONDENSER_TYPE__PREDEFINED_TYPE, true);
+        return (IfcCondenserTypeEnum) eGet(Ifc4Package.eINSTANCE.getIfcCondenserType_PredefinedType(), true);
     }
 
     /**
@@ -72,7 +72,7 @@ public class IfcCondenserTypeImpl extends IfcEnergyConversionDeviceTypeImpl impl
      */
     @Override
     public void setPredefinedType(IfcCondenserTypeEnum newPredefinedType) {
-        eSet(Ifc4Package.Literals.IFC_CONDENSER_TYPE__PREDEFINED_TYPE, newPredefinedType);
+        eSet(Ifc4Package.eINSTANCE.getIfcCondenserType_PredefinedType(), newPredefinedType);
     }
 
 } //IfcCondenserTypeImpl

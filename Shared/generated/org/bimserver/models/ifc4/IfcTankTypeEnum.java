@@ -135,10 +135,6 @@ public enum IfcTankTypeEnum implements Enumerator {
     /**
      * The '<em><b>NULL</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>NULL</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #NULL
      * @model
@@ -150,10 +146,6 @@ public enum IfcTankTypeEnum implements Enumerator {
     /**
      * The '<em><b>STORAGE</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>STORAGE</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #STORAGE
      * @model
@@ -165,10 +157,6 @@ public enum IfcTankTypeEnum implements Enumerator {
     /**
      * The '<em><b>PRESSUREVESSEL</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>PRESSUREVESSEL</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #PRESSUREVESSEL
      * @model
@@ -180,10 +168,6 @@ public enum IfcTankTypeEnum implements Enumerator {
     /**
      * The '<em><b>VESSEL</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>VESSEL</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #VESSEL
      * @model
@@ -195,10 +179,6 @@ public enum IfcTankTypeEnum implements Enumerator {
     /**
      * The '<em><b>NOTDEFINED</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>NOTDEFINED</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #NOTDEFINED
      * @model
@@ -210,10 +190,6 @@ public enum IfcTankTypeEnum implements Enumerator {
     /**
      * The '<em><b>EXPANSION</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>EXPANSION</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #EXPANSION
      * @model
@@ -225,10 +201,6 @@ public enum IfcTankTypeEnum implements Enumerator {
     /**
      * The '<em><b>BASIN</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>BASIN</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #BASIN
      * @model
@@ -240,10 +212,6 @@ public enum IfcTankTypeEnum implements Enumerator {
     /**
      * The '<em><b>FEEDANDEXPANSION</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>FEEDANDEXPANSION</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #FEEDANDEXPANSION
      * @model
@@ -255,10 +223,6 @@ public enum IfcTankTypeEnum implements Enumerator {
     /**
      * The '<em><b>USERDEFINED</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>USERDEFINED</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #USERDEFINED
      * @model
@@ -270,10 +234,6 @@ public enum IfcTankTypeEnum implements Enumerator {
     /**
      * The '<em><b>BREAKPRESSURE</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>BREAKPRESSURE</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #BREAKPRESSURE
      * @model

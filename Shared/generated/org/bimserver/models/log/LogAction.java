@@ -45,10 +45,6 @@ public interface LogAction extends IdEObject {
     /**
      * Returns the value of the '<em><b>Date</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Date</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Date</em>' attribute.
      * @see #setDate(Date)
@@ -71,10 +67,6 @@ public interface LogAction extends IdEObject {
     /**
      * Returns the value of the '<em><b>Executor</b></em>' reference.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Executor</em>' reference isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Executor</em>' reference.
      * @see #setExecutor(User)
@@ -98,10 +90,6 @@ public interface LogAction extends IdEObject {
      * Returns the value of the '<em><b>Access Method</b></em>' attribute.
      * The literals are from the enumeration {@link org.bimserver.models.log.AccessMethod}.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Access Method</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Access Method</em>' attribute.
      * @see org.bimserver.models.log.AccessMethod

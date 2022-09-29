@@ -157,19 +157,6 @@ public class Express2EMF {
 				ifcComplexNumber.getEStructuralFeature("wrappedValueAsString").setUpperBound(2);
 				attribute.setUpperBound(2);
 				ifcComplexNumber.getEAnnotations().add(createWrappedAnnotation());
-			} else if (type.getName().equals("IfcNullStyle")) {
-				// IfcNullStyle is a type of ENUMERATION OF NULL (http://www.steptools.com/support/stdev_docs/express/ifc2x3/html/t_ifcnu-02.html)
-				// We cannot simply make this an enum because it is defined as a subtype(select) of IfcPresentationStyleSelect, so we use a wrapper here, both the wrapper and
-				EClassifier ifcNullStyleEnum = schemaPack.getEClassifier("IfcNullStyle");
-				ifcNullStyleEnum.setName("IfcNullStyleEnum");
-				
-				EClass ifcNullStyleWrapper = getOrCreateEClass(type.getName());
-				
-				EAttribute wrappedValue = eFactory.createEAttribute();
-				wrappedValue.setName("wrappedValue");
-				wrappedValue.setEType(ifcNullStyleEnum);
-				ifcNullStyleWrapper.getEAnnotations().add(createWrappedAnnotation());
-				ifcNullStyleWrapper.getEStructuralFeatures().add(wrappedValue);
 			} else if (type.getName().equals("IfcLineIndex")) {
 				EClass ifcLineIndex = getOrCreateEClass(type.getName());
 				DefinedType realType = new DefinedType("IfcPositiveInteger");
@@ -437,7 +424,8 @@ public class Express2EMF {
 		BaseType domain = expAttrib.getDomain();
 		if (domain instanceof NamedType) {
 			NamedType nt = (NamedType) domain;
-			if (nt instanceof EnumerationType) {
+			EClassifier eClassifier = schemaPack.getEClassifier(nt.getName());
+			if (nt instanceof EnumerationType && eClassifier instanceof EEnum) {
 				EAttribute enumAttrib = eFactory.createEAttribute();
 				enumAttrib.setUnsettable(expAttrib.isOptional());
 				enumAttrib.setName(attrib.getName());
@@ -445,6 +433,13 @@ public class Express2EMF {
 				enumAttrib.setEType(eType);
 				EClass cls = (EClass) schemaPack.getEClassifier(ent.getName());
 				cls.getEStructuralFeatures().add(enumAttrib);
+			} else if (nt instanceof EnumerationType && eClassifier instanceof EClass) {
+				EReference eRef = eFactory.createEReference();
+				eRef.setName(attrib.getName());
+				eRef.setUnsettable(expAttrib.isOptional());
+				eRef.setEType(eClassifier);
+				EClass cls = (EClass) schemaPack.getEClassifier(ent.getName());
+				cls.getEStructuralFeatures().add(eRef);
 			} else {
 				EClass eType = (EClass) schemaPack.getEClassifier(nt.getName());
 				EClass cls = (EClass) schemaPack.getEClassifier(ent.getName());
@@ -681,6 +676,8 @@ public class Express2EMF {
 			finalType = schemaPack.getEClassifier("IfcParameterValue");
 		} else if (entityName.equals("IfcTriangulatedFaceSet") && attribName.equals("NormalIndex")) {
 			finalType = EcorePackage.eINSTANCE.getELong();
+		} else if (entityName.equals("IfcTextureCoordinateIndicesWithVoids") && attribName.equals("InnerTexCoordIndices")) {
+			finalType = EcorePackage.eINSTANCE.getELong();
 		} else {
 			throw new RuntimeException("Unimplemented " + entityName + "." + attribName);
 		}
@@ -694,21 +691,21 @@ public class Express2EMF {
 				finalAttribute.setName("List");
 				finalAttribute.setEType(finalType);
 				finalAttribute.setUpperBound(-1);
-				containerClass.getEAttributes().add(finalAttribute);
+				containerClass.getEStructuralFeatures().add(finalAttribute);
 				
 				if (finalType == EcorePackage.eINSTANCE.getEDouble()) {
 					EAttribute stringAttribute = EcoreFactory.eINSTANCE.createEAttribute();
 					stringAttribute.setName("ListAsString");
 					stringAttribute.setEType(EcorePackage.eINSTANCE.getEString());
 					stringAttribute.setUpperBound(-1);
-					containerClass.getEAttributes().add(stringAttribute);
+					containerClass.getEStructuralFeatures().add(stringAttribute);
 				}
 			} else {
 				EReference finalReference = EcoreFactory.eINSTANCE.createEReference();
 				finalReference.setName("List");
 				finalReference.setEType(finalType);
 				finalReference.setUpperBound(-1);
-				containerClass.getEReferences().add(finalReference);
+				containerClass.getEStructuralFeatures().add(finalReference);
 			}
 
 			schemaPack.getEClassifiers().add(containerClass);
@@ -784,8 +781,13 @@ public class Express2EMF {
 						choice.getESuperTypes().add(selectType);
 					} else if (nt instanceof DefinedType) {
 						UnderlyingType domain = ((DefinedType) nt).getDomain();
-						if (domain instanceof RealType || domain instanceof StringType || domain instanceof IntegerType || domain instanceof NumberType
-								|| domain instanceof LogicalType) {
+						if (
+							domain instanceof RealType ||
+							domain instanceof StringType ||
+							domain instanceof IntegerType ||
+							domain instanceof NumberType ||
+							domain instanceof LogicalType
+						) {
 							EClass choice = getOrCreateEClass(nt.getName());
 							choice.getESuperTypes().add(selectType);
 						} else if (domain instanceof DefinedType) {
@@ -795,8 +797,35 @@ public class Express2EMF {
 								choice.getESuperTypes().add(selectType);
 							}
 						} else if (nt instanceof SelectType) {
+						} else if (nt instanceof EnumerationType) {
+							String typeName = nt.getName();
+
+							EClassifier eClassifier = schemaPack.getEClassifier(typeName);
+							if (eClassifier instanceof EEnum) {
+								eClassifier.setName(typeName + "Enum");
+
+								EClass wrapper = getOrCreateEClass(typeName);
+
+								EAttribute wrappedAttribute = eFactory.createEAttribute();
+								wrappedAttribute.setName("wrappedValue");
+								wrappedAttribute.setEType(eClassifier);
+								wrapper.getEAnnotations().add(createWrappedAnnotation());
+								wrapper.getEStructuralFeatures().add(wrappedAttribute);
+
+								eClassifier = wrapper;
+							}
+							if (eClassifier instanceof EClass) {
+								((EClass) eClassifier).getESuperTypes().add(selectType);
+							}
 						} else {
-							if (nt.getName().equals("IfcComplexNumber") || nt.getName().equals("IfcCompoundPlaneAngleMeasure") || nt.getName().equals("IfcBoolean") || nt.getName().equals("IfcNullStyle") || nt.getName().equals("IfcArcIndex") || nt.getName().equals("IfcLineIndex") || nt.getName().equals("IfcBinary")) {
+							if (
+								nt.getName().equals("IfcComplexNumber") ||
+								nt.getName().equals("IfcCompoundPlaneAngleMeasure") ||
+								nt.getName().equals("IfcBoolean") ||
+								nt.getName().equals("IfcArcIndex") ||
+								nt.getName().equals("IfcLineIndex") ||
+								nt.getName().equals("IfcBinary")
+							) {
 								EClass choice = getOrCreateEClass(nt.getName());
 								choice.getESuperTypes().add(selectType);
 							} else {

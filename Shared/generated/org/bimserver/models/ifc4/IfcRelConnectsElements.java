@@ -38,10 +38,6 @@ public interface IfcRelConnectsElements extends IfcRelConnects {
     /**
      * Returns the value of the '<em><b>Connection Geometry</b></em>' reference.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Connection Geometry</em>' reference isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Connection Geometry</em>' reference.
      * @see #isSetConnectionGeometry()
@@ -92,10 +88,6 @@ public interface IfcRelConnectsElements extends IfcRelConnects {
      * Returns the value of the '<em><b>Relating Element</b></em>' reference.
      * It is bidirectional and its opposite is '{@link org.bimserver.models.ifc4.IfcElement#getConnectedTo <em>Connected To</em>}'.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Relating Element</em>' reference isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Relating Element</em>' reference.
      * @see #setRelatingElement(IfcElement)
@@ -121,10 +113,6 @@ public interface IfcRelConnectsElements extends IfcRelConnects {
      * Returns the value of the '<em><b>Related Element</b></em>' reference.
      * It is bidirectional and its opposite is '{@link org.bimserver.models.ifc4.IfcElement#getConnectedFrom <em>Connected From</em>}'.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Related Element</em>' reference isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Related Element</em>' reference.
      * @see #setRelatedElement(IfcElement)

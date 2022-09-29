@@ -37,10 +37,6 @@ public interface IfcRelAssignsTasks extends IfcRelAssignsToControl {
      * Returns the value of the '<em><b>Time For Task</b></em>' reference.
      * It is bidirectional and its opposite is '{@link org.bimserver.models.ifc2x3tc1.IfcScheduleTimeControl#getScheduleTimeControlAssigned <em>Schedule Time Control Assigned</em>}'.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Time For Task</em>' reference isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Time For Task</em>' reference.
      * @see #isSetTimeForTask()

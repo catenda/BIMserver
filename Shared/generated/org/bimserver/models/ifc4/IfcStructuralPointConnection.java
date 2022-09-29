@@ -36,10 +36,6 @@ public interface IfcStructuralPointConnection extends IfcStructuralConnection {
     /**
      * Returns the value of the '<em><b>Condition Coordinate System</b></em>' reference.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Condition Coordinate System</em>' reference isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Condition Coordinate System</em>' reference.
      * @see #isSetConditionCoordinateSystem()

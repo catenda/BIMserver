@@ -875,10 +875,6 @@ public enum IfcCurrencyEnum implements Enumerator {
     /**
      * The '<em><b>NULL</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>NULL</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #NULL
      * @model
@@ -890,10 +886,6 @@ public enum IfcCurrencyEnum implements Enumerator {
     /**
      * The '<em><b>ATS</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>ATS</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #ATS
      * @model
@@ -905,10 +897,6 @@ public enum IfcCurrencyEnum implements Enumerator {
     /**
      * The '<em><b>CHF</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>CHF</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #CHF
      * @model
@@ -920,10 +908,6 @@ public enum IfcCurrencyEnum implements Enumerator {
     /**
      * The '<em><b>ITL</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>ITL</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #ITL
      * @model
@@ -935,10 +919,6 @@ public enum IfcCurrencyEnum implements Enumerator {
     /**
      * The '<em><b>FJD</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>FJD</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #FJD
      * @model
@@ -950,10 +930,6 @@ public enum IfcCurrencyEnum implements Enumerator {
     /**
      * The '<em><b>MXN</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>MXN</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #MXN
      * @model
@@ -965,10 +941,6 @@ public enum IfcCurrencyEnum implements Enumerator {
     /**
      * The '<em><b>SCR</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>SCR</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #SCR
      * @model
@@ -980,10 +952,6 @@ public enum IfcCurrencyEnum implements Enumerator {
     /**
      * The '<em><b>MTL</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>MTL</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #MTL
      * @model
@@ -995,10 +963,6 @@ public enum IfcCurrencyEnum implements Enumerator {
     /**
      * The '<em><b>BBD</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>BBD</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #BBD
      * @model
@@ -1010,10 +974,6 @@ public enum IfcCurrencyEnum implements Enumerator {
     /**
      * The '<em><b>CLP</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>CLP</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #CLP
      * @model
@@ -1025,10 +985,6 @@ public enum IfcCurrencyEnum implements Enumerator {
     /**
      * The '<em><b>XEU</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>XEU</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #XEU
      * @model
@@ -1040,10 +996,6 @@ public enum IfcCurrencyEnum implements Enumerator {
     /**
      * The '<em><b>ZAR</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>ZAR</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #ZAR
      * @model
@@ -1055,10 +1007,6 @@ public enum IfcCurrencyEnum implements Enumerator {
     /**
      * The '<em><b>VND</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>VND</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #VND
      * @model
@@ -1070,10 +1018,6 @@ public enum IfcCurrencyEnum implements Enumerator {
     /**
      * The '<em><b>TRL</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>TRL</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #TRL
      * @model
@@ -1085,10 +1029,6 @@ public enum IfcCurrencyEnum implements Enumerator {
     /**
      * The '<em><b>AUD</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>AUD</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #AUD
      * @model
@@ -1100,10 +1040,6 @@ public enum IfcCurrencyEnum implements Enumerator {
     /**
      * The '<em><b>ILS</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>ILS</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #ILS
      * @model
@@ -1115,10 +1051,6 @@ public enum IfcCurrencyEnum implements Enumerator {
     /**
      * The '<em><b>BSD</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>BSD</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #BSD
      * @model
@@ -1130,10 +1062,6 @@ public enum IfcCurrencyEnum implements Enumerator {
     /**
      * The '<em><b>IDR</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>IDR</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #IDR
      * @model
@@ -1145,10 +1073,6 @@ public enum IfcCurrencyEnum implements Enumerator {
     /**
      * The '<em><b>KYD</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>KYD</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #KYD
      * @model
@@ -1160,10 +1084,6 @@ public enum IfcCurrencyEnum implements Enumerator {
     /**
      * The '<em><b>BWP</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>BWP</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #BWP
      * @model
@@ -1175,10 +1095,6 @@ public enum IfcCurrencyEnum implements Enumerator {
     /**
      * The '<em><b>CYS</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>CYS</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #CYS
      * @model
@@ -1190,10 +1106,6 @@ public enum IfcCurrencyEnum implements Enumerator {
     /**
      * The '<em><b>JOD</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>JOD</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #JOD
      * @model
@@ -1205,10 +1117,6 @@ public enum IfcCurrencyEnum implements Enumerator {
     /**
      * The '<em><b>GMD</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>GMD</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #GMD
      * @model
@@ -1220,10 +1128,6 @@ public enum IfcCurrencyEnum implements Enumerator {
     /**
      * The '<em><b>AED</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>AED</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #AED
      * @model
@@ -1235,10 +1139,6 @@ public enum IfcCurrencyEnum implements Enumerator {
     /**
      * The '<em><b>HKD</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>HKD</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #HKD
      * @model
@@ -1250,10 +1150,6 @@ public enum IfcCurrencyEnum implements Enumerator {
     /**
      * The '<em><b>TWD</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>TWD</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #TWD
      * @model
@@ -1265,10 +1161,6 @@ public enum IfcCurrencyEnum implements Enumerator {
     /**
      * The '<em><b>EUR</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>EUR</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #EUR
      * @model
@@ -1280,10 +1172,6 @@ public enum IfcCurrencyEnum implements Enumerator {
     /**
      * The '<em><b>DKK</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>DKK</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #DKK
      * @model
@@ -1295,10 +1183,6 @@ public enum IfcCurrencyEnum implements Enumerator {
     /**
      * The '<em><b>BGL</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>BGL</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #BGL
      * @model
@@ -1310,10 +1194,6 @@ public enum IfcCurrencyEnum implements Enumerator {
     /**
      * The '<em><b>ZWD</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>ZWD</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #ZWD
      * @model
@@ -1325,10 +1205,6 @@ public enum IfcCurrencyEnum implements Enumerator {
     /**
      * The '<em><b>CAD</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>CAD</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #CAD
      * @model
@@ -1340,10 +1216,6 @@ public enum IfcCurrencyEnum implements Enumerator {
     /**
      * The '<em><b>MYR</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>MYR</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #MYR
      * @model
@@ -1355,10 +1227,6 @@ public enum IfcCurrencyEnum implements Enumerator {
     /**
      * The '<em><b>FKP</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>FKP</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #FKP
      * @model
@@ -1370,10 +1238,6 @@ public enum IfcCurrencyEnum implements Enumerator {
     /**
      * The '<em><b>MUR</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>MUR</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #MUR
      * @model
@@ -1385,10 +1249,6 @@ public enum IfcCurrencyEnum implements Enumerator {
     /**
      * The '<em><b>NOK</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>NOK</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #NOK
      * @model
@@ -1400,10 +1260,6 @@ public enum IfcCurrencyEnum implements Enumerator {
     /**
      * The '<em><b>AES</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>AES</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #AES
      * @model
@@ -1415,10 +1271,6 @@ public enum IfcCurrencyEnum implements Enumerator {
     /**
      * The '<em><b>GIP</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>GIP</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #GIP
      * @model
@@ -1430,10 +1282,6 @@ public enum IfcCurrencyEnum implements Enumerator {
     /**
      * The '<em><b>LKR</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>LKR</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #LKR
      * @model
@@ -1445,10 +1293,6 @@ public enum IfcCurrencyEnum implements Enumerator {
     /**
      * The '<em><b>CZK</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>CZK</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #CZK
      * @model
@@ -1460,10 +1304,6 @@ public enum IfcCurrencyEnum implements Enumerator {
     /**
      * The '<em><b>OMR</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>OMR</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #OMR
      * @model
@@ -1475,10 +1315,6 @@ public enum IfcCurrencyEnum implements Enumerator {
     /**
      * The '<em><b>PGK</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>PGK</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #PGK
      * @model
@@ -1490,10 +1326,6 @@ public enum IfcCurrencyEnum implements Enumerator {
     /**
      * The '<em><b>PKR</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>PKR</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #PKR
      * @model
@@ -1505,10 +1337,6 @@ public enum IfcCurrencyEnum implements Enumerator {
     /**
      * The '<em><b>KES</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>KES</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #KES
      * @model
@@ -1520,10 +1348,6 @@ public enum IfcCurrencyEnum implements Enumerator {
     /**
      * The '<em><b>SEK</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>SEK</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #SEK
      * @model
@@ -1535,10 +1359,6 @@ public enum IfcCurrencyEnum implements Enumerator {
     /**
      * The '<em><b>BHD</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>BHD</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #BHD
      * @model
@@ -1550,10 +1370,6 @@ public enum IfcCurrencyEnum implements Enumerator {
     /**
      * The '<em><b>QAR</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>QAR</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #QAR
      * @model
@@ -1565,10 +1381,6 @@ public enum IfcCurrencyEnum implements Enumerator {
     /**
      * The '<em><b>CBD</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>CBD</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #CBD
      * @model
@@ -1580,10 +1392,6 @@ public enum IfcCurrencyEnum implements Enumerator {
     /**
      * The '<em><b>SAR</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>SAR</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #SAR
      * @model
@@ -1595,10 +1403,6 @@ public enum IfcCurrencyEnum implements Enumerator {
     /**
      * The '<em><b>TTD</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>TTD</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #TTD
      * @model
@@ -1610,10 +1414,6 @@ public enum IfcCurrencyEnum implements Enumerator {
     /**
      * The '<em><b>IRP</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>IRP</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #IRP
      * @model
@@ -1625,10 +1425,6 @@ public enum IfcCurrencyEnum implements Enumerator {
     /**
      * The '<em><b>NLG</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>NLG</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #NLG
      * @model
@@ -1640,10 +1436,6 @@ public enum IfcCurrencyEnum implements Enumerator {
     /**
      * The '<em><b>PTN</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>PTN</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #PTN
      * @model
@@ -1655,10 +1447,6 @@ public enum IfcCurrencyEnum implements Enumerator {
     /**
      * The '<em><b>GRX</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>GRX</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #GRX
      * @model
@@ -1670,10 +1458,6 @@ public enum IfcCurrencyEnum implements Enumerator {
     /**
      * The '<em><b>INR</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>INR</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #INR
      * @model
@@ -1685,10 +1469,6 @@ public enum IfcCurrencyEnum implements Enumerator {
     /**
      * The '<em><b>CNY</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>CNY</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #CNY
      * @model
@@ -1700,10 +1480,6 @@ public enum IfcCurrencyEnum implements Enumerator {
     /**
      * The '<em><b>THB</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>THB</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #THB
      * @model
@@ -1715,10 +1491,6 @@ public enum IfcCurrencyEnum implements Enumerator {
     /**
      * The '<em><b>DDP</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>DDP</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #DDP
      * @model
@@ -1730,10 +1502,6 @@ public enum IfcCurrencyEnum implements Enumerator {
     /**
      * The '<em><b>KRW</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>KRW</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #KRW
      * @model
@@ -1745,10 +1513,6 @@ public enum IfcCurrencyEnum implements Enumerator {
     /**
      * The '<em><b>JPY</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>JPY</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #JPY
      * @model
@@ -1760,10 +1524,6 @@ public enum IfcCurrencyEnum implements Enumerator {
     /**
      * The '<em><b>PLN</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>PLN</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #PLN
      * @model
@@ -1775,10 +1535,6 @@ public enum IfcCurrencyEnum implements Enumerator {
     /**
      * The '<em><b>GBP</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>GBP</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #GBP
      * @model
@@ -1790,10 +1546,6 @@ public enum IfcCurrencyEnum implements Enumerator {
     /**
      * The '<em><b>BMD</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>BMD</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #BMD
      * @model
@@ -1805,10 +1557,6 @@ public enum IfcCurrencyEnum implements Enumerator {
     /**
      * The '<em><b>HUF</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>HUF</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #HUF
      * @model
@@ -1820,10 +1568,6 @@ public enum IfcCurrencyEnum implements Enumerator {
     /**
      * The '<em><b>KWD</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>KWD</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #KWD
      * @model
@@ -1835,10 +1579,6 @@ public enum IfcCurrencyEnum implements Enumerator {
     /**
      * The '<em><b>PHP</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>PHP</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #PHP
      * @model
@@ -1850,10 +1590,6 @@ public enum IfcCurrencyEnum implements Enumerator {
     /**
      * The '<em><b>LUF</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>LUF</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #LUF
      * @model
@@ -1865,10 +1601,6 @@ public enum IfcCurrencyEnum implements Enumerator {
     /**
      * The '<em><b>JMD</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>JMD</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #JMD
      * @model
@@ -1880,10 +1612,6 @@ public enum IfcCurrencyEnum implements Enumerator {
     /**
      * The '<em><b>BEG</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>BEG</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #BEG
      * @model
@@ -1895,10 +1623,6 @@ public enum IfcCurrencyEnum implements Enumerator {
     /**
      * The '<em><b>EST</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>EST</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #EST
      * @model
@@ -1910,10 +1634,6 @@ public enum IfcCurrencyEnum implements Enumerator {
     /**
      * The '<em><b>USD</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>USD</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #USD
      * @model
@@ -1925,10 +1645,6 @@ public enum IfcCurrencyEnum implements Enumerator {
     /**
      * The '<em><b>EGL</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>EGL</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #EGL
      * @model
@@ -1940,10 +1656,6 @@ public enum IfcCurrencyEnum implements Enumerator {
     /**
      * The '<em><b>FIM</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>FIM</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #FIM
      * @model
@@ -1955,10 +1667,6 @@ public enum IfcCurrencyEnum implements Enumerator {
     /**
      * The '<em><b>BZD</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>BZD</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #BZD
      * @model
@@ -1970,10 +1678,6 @@ public enum IfcCurrencyEnum implements Enumerator {
     /**
      * The '<em><b>DEM</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>DEM</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #DEM
      * @model
@@ -1985,10 +1689,6 @@ public enum IfcCurrencyEnum implements Enumerator {
     /**
      * The '<em><b>RUR</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>RUR</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #RUR
      * @model
@@ -2000,10 +1700,6 @@ public enum IfcCurrencyEnum implements Enumerator {
     /**
      * The '<em><b>ICK</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>ICK</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #ICK
      * @model
@@ -2015,10 +1711,6 @@ public enum IfcCurrencyEnum implements Enumerator {
     /**
      * The '<em><b>FAK</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>FAK</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #FAK
      * @model
@@ -2030,10 +1722,6 @@ public enum IfcCurrencyEnum implements Enumerator {
     /**
      * The '<em><b>SGD</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>SGD</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #SGD
      * @model
@@ -2045,10 +1733,6 @@ public enum IfcCurrencyEnum implements Enumerator {
     /**
      * The '<em><b>VEB</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>VEB</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #VEB
      * @model
@@ -2060,10 +1744,6 @@ public enum IfcCurrencyEnum implements Enumerator {
     /**
      * The '<em><b>BND</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>BND</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #BND
      * @model
@@ -2075,10 +1755,6 @@ public enum IfcCurrencyEnum implements Enumerator {
     /**
      * The '<em><b>NZD</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>NZD</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #NZD
      * @model
@@ -2090,10 +1766,6 @@ public enum IfcCurrencyEnum implements Enumerator {
     /**
      * The '<em><b>SKP</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>SKP</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #SKP
      * @model
@@ -2105,10 +1777,6 @@ public enum IfcCurrencyEnum implements Enumerator {
     /**
      * The '<em><b>FRF</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>FRF</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #FRF
      * @model
@@ -2120,10 +1788,6 @@ public enum IfcCurrencyEnum implements Enumerator {
     /**
      * The '<em><b>BRL</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>BRL</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #BRL
      * @model

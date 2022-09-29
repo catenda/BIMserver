@@ -57,7 +57,7 @@ public class IfcRootImpl extends IdEObjectImpl implements IfcRoot {
      */
     @Override
     protected EClass eStaticClass() {
-        return Ifc2x3tc1Package.Literals.IFC_ROOT;
+        return Ifc2x3tc1Package.eINSTANCE.getIfcRoot();
     }
 
     /**
@@ -77,7 +77,7 @@ public class IfcRootImpl extends IdEObjectImpl implements IfcRoot {
      */
     @Override
     public String getGlobalId() {
-        return (String) eGet(Ifc2x3tc1Package.Literals.IFC_ROOT__GLOBAL_ID, true);
+        return (String) eGet(Ifc2x3tc1Package.eINSTANCE.getIfcRoot_GlobalId(), true);
     }
 
     /**
@@ -87,7 +87,7 @@ public class IfcRootImpl extends IdEObjectImpl implements IfcRoot {
      */
     @Override
     public void setGlobalId(String newGlobalId) {
-        eSet(Ifc2x3tc1Package.Literals.IFC_ROOT__GLOBAL_ID, newGlobalId);
+        eSet(Ifc2x3tc1Package.eINSTANCE.getIfcRoot_GlobalId(), newGlobalId);
     }
 
     /**
@@ -97,7 +97,7 @@ public class IfcRootImpl extends IdEObjectImpl implements IfcRoot {
      */
     @Override
     public IfcOwnerHistory getOwnerHistory() {
-        return (IfcOwnerHistory) eGet(Ifc2x3tc1Package.Literals.IFC_ROOT__OWNER_HISTORY, true);
+        return (IfcOwnerHistory) eGet(Ifc2x3tc1Package.eINSTANCE.getIfcRoot_OwnerHistory(), true);
     }
 
     /**
@@ -107,7 +107,7 @@ public class IfcRootImpl extends IdEObjectImpl implements IfcRoot {
      */
     @Override
     public void setOwnerHistory(IfcOwnerHistory newOwnerHistory) {
-        eSet(Ifc2x3tc1Package.Literals.IFC_ROOT__OWNER_HISTORY, newOwnerHistory);
+        eSet(Ifc2x3tc1Package.eINSTANCE.getIfcRoot_OwnerHistory(), newOwnerHistory);
     }
 
     /**
@@ -117,7 +117,7 @@ public class IfcRootImpl extends IdEObjectImpl implements IfcRoot {
      */
     @Override
     public String getName() {
-        return (String) eGet(Ifc2x3tc1Package.Literals.IFC_ROOT__NAME, true);
+        return (String) eGet(Ifc2x3tc1Package.eINSTANCE.getIfcRoot_Name(), true);
     }
 
     /**
@@ -127,7 +127,7 @@ public class IfcRootImpl extends IdEObjectImpl implements IfcRoot {
      */
     @Override
     public void setName(String newName) {
-        eSet(Ifc2x3tc1Package.Literals.IFC_ROOT__NAME, newName);
+        eSet(Ifc2x3tc1Package.eINSTANCE.getIfcRoot_Name(), newName);
     }
 
     /**
@@ -137,7 +137,7 @@ public class IfcRootImpl extends IdEObjectImpl implements IfcRoot {
      */
     @Override
     public void unsetName() {
-        eUnset(Ifc2x3tc1Package.Literals.IFC_ROOT__NAME);
+        eUnset(Ifc2x3tc1Package.eINSTANCE.getIfcRoot_Name());
     }
 
     /**
@@ -147,7 +147,7 @@ public class IfcRootImpl extends IdEObjectImpl implements IfcRoot {
      */
     @Override
     public boolean isSetName() {
-        return eIsSet(Ifc2x3tc1Package.Literals.IFC_ROOT__NAME);
+        return eIsSet(Ifc2x3tc1Package.eINSTANCE.getIfcRoot_Name());
     }
 
     /**
@@ -157,7 +157,7 @@ public class IfcRootImpl extends IdEObjectImpl implements IfcRoot {
      */
     @Override
     public String getDescription() {
-        return (String) eGet(Ifc2x3tc1Package.Literals.IFC_ROOT__DESCRIPTION, true);
+        return (String) eGet(Ifc2x3tc1Package.eINSTANCE.getIfcRoot_Description(), true);
     }
 
     /**
@@ -167,7 +167,7 @@ public class IfcRootImpl extends IdEObjectImpl implements IfcRoot {
      */
     @Override
     public void setDescription(String newDescription) {
-        eSet(Ifc2x3tc1Package.Literals.IFC_ROOT__DESCRIPTION, newDescription);
+        eSet(Ifc2x3tc1Package.eINSTANCE.getIfcRoot_Description(), newDescription);
     }
 
     /**
@@ -177,7 +177,7 @@ public class IfcRootImpl extends IdEObjectImpl implements IfcRoot {
      */
     @Override
     public void unsetDescription() {
-        eUnset(Ifc2x3tc1Package.Literals.IFC_ROOT__DESCRIPTION);
+        eUnset(Ifc2x3tc1Package.eINSTANCE.getIfcRoot_Description());
     }
 
     /**
@@ -187,7 +187,7 @@ public class IfcRootImpl extends IdEObjectImpl implements IfcRoot {
      */
     @Override
     public boolean isSetDescription() {
-        return eIsSet(Ifc2x3tc1Package.Literals.IFC_ROOT__DESCRIPTION);
+        return eIsSet(Ifc2x3tc1Package.eINSTANCE.getIfcRoot_Description());
     }
 
 } //IfcRootImpl

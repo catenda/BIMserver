@@ -56,7 +56,7 @@ public class IfcDistributionPortImpl extends IfcPortImpl implements IfcDistribut
      */
     @Override
     protected EClass eStaticClass() {
-        return Ifc4Package.Literals.IFC_DISTRIBUTION_PORT;
+        return Ifc4Package.eINSTANCE.getIfcDistributionPort();
     }
 
     /**
@@ -66,7 +66,7 @@ public class IfcDistributionPortImpl extends IfcPortImpl implements IfcDistribut
      */
     @Override
     public IfcFlowDirectionEnum getFlowDirection() {
-        return (IfcFlowDirectionEnum) eGet(Ifc4Package.Literals.IFC_DISTRIBUTION_PORT__FLOW_DIRECTION, true);
+        return (IfcFlowDirectionEnum) eGet(Ifc4Package.eINSTANCE.getIfcDistributionPort_FlowDirection(), true);
     }
 
     /**
@@ -76,7 +76,7 @@ public class IfcDistributionPortImpl extends IfcPortImpl implements IfcDistribut
      */
     @Override
     public void setFlowDirection(IfcFlowDirectionEnum newFlowDirection) {
-        eSet(Ifc4Package.Literals.IFC_DISTRIBUTION_PORT__FLOW_DIRECTION, newFlowDirection);
+        eSet(Ifc4Package.eINSTANCE.getIfcDistributionPort_FlowDirection(), newFlowDirection);
     }
 
     /**
@@ -86,7 +86,7 @@ public class IfcDistributionPortImpl extends IfcPortImpl implements IfcDistribut
      */
     @Override
     public void unsetFlowDirection() {
-        eUnset(Ifc4Package.Literals.IFC_DISTRIBUTION_PORT__FLOW_DIRECTION);
+        eUnset(Ifc4Package.eINSTANCE.getIfcDistributionPort_FlowDirection());
     }
 
     /**
@@ -96,7 +96,7 @@ public class IfcDistributionPortImpl extends IfcPortImpl implements IfcDistribut
      */
     @Override
     public boolean isSetFlowDirection() {
-        return eIsSet(Ifc4Package.Literals.IFC_DISTRIBUTION_PORT__FLOW_DIRECTION);
+        return eIsSet(Ifc4Package.eINSTANCE.getIfcDistributionPort_FlowDirection());
     }
 
     /**
@@ -106,7 +106,7 @@ public class IfcDistributionPortImpl extends IfcPortImpl implements IfcDistribut
      */
     @Override
     public IfcDistributionPortTypeEnum getPredefinedType() {
-        return (IfcDistributionPortTypeEnum) eGet(Ifc4Package.Literals.IFC_DISTRIBUTION_PORT__PREDEFINED_TYPE, true);
+        return (IfcDistributionPortTypeEnum) eGet(Ifc4Package.eINSTANCE.getIfcDistributionPort_PredefinedType(), true);
     }
 
     /**
@@ -116,7 +116,7 @@ public class IfcDistributionPortImpl extends IfcPortImpl implements IfcDistribut
      */
     @Override
     public void setPredefinedType(IfcDistributionPortTypeEnum newPredefinedType) {
-        eSet(Ifc4Package.Literals.IFC_DISTRIBUTION_PORT__PREDEFINED_TYPE, newPredefinedType);
+        eSet(Ifc4Package.eINSTANCE.getIfcDistributionPort_PredefinedType(), newPredefinedType);
     }
 
     /**
@@ -126,7 +126,7 @@ public class IfcDistributionPortImpl extends IfcPortImpl implements IfcDistribut
      */
     @Override
     public void unsetPredefinedType() {
-        eUnset(Ifc4Package.Literals.IFC_DISTRIBUTION_PORT__PREDEFINED_TYPE);
+        eUnset(Ifc4Package.eINSTANCE.getIfcDistributionPort_PredefinedType());
     }
 
     /**
@@ -136,7 +136,7 @@ public class IfcDistributionPortImpl extends IfcPortImpl implements IfcDistribut
      */
     @Override
     public boolean isSetPredefinedType() {
-        return eIsSet(Ifc4Package.Literals.IFC_DISTRIBUTION_PORT__PREDEFINED_TYPE);
+        return eIsSet(Ifc4Package.eINSTANCE.getIfcDistributionPort_PredefinedType());
     }
 
     /**
@@ -146,7 +146,7 @@ public class IfcDistributionPortImpl extends IfcPortImpl implements IfcDistribut
      */
     @Override
     public IfcDistributionSystemEnum getSystemType() {
-        return (IfcDistributionSystemEnum) eGet(Ifc4Package.Literals.IFC_DISTRIBUTION_PORT__SYSTEM_TYPE, true);
+        return (IfcDistributionSystemEnum) eGet(Ifc4Package.eINSTANCE.getIfcDistributionPort_SystemType(), true);
     }
 
     /**
@@ -156,7 +156,7 @@ public class IfcDistributionPortImpl extends IfcPortImpl implements IfcDistribut
      */
     @Override
     public void setSystemType(IfcDistributionSystemEnum newSystemType) {
-        eSet(Ifc4Package.Literals.IFC_DISTRIBUTION_PORT__SYSTEM_TYPE, newSystemType);
+        eSet(Ifc4Package.eINSTANCE.getIfcDistributionPort_SystemType(), newSystemType);
     }
 
     /**
@@ -166,7 +166,7 @@ public class IfcDistributionPortImpl extends IfcPortImpl implements IfcDistribut
      */
     @Override
     public void unsetSystemType() {
-        eUnset(Ifc4Package.Literals.IFC_DISTRIBUTION_PORT__SYSTEM_TYPE);
+        eUnset(Ifc4Package.eINSTANCE.getIfcDistributionPort_SystemType());
     }
 
     /**
@@ -176,7 +176,7 @@ public class IfcDistributionPortImpl extends IfcPortImpl implements IfcDistribut
      */
     @Override
     public boolean isSetSystemType() {
-        return eIsSet(Ifc4Package.Literals.IFC_DISTRIBUTION_PORT__SYSTEM_TYPE);
+        return eIsSet(Ifc4Package.eINSTANCE.getIfcDistributionPort_SystemType());
     }
 
 } //IfcDistributionPortImpl

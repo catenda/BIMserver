@@ -37,10 +37,6 @@ public interface IfcNamedUnit extends IfcUnit {
     /**
      * Returns the value of the '<em><b>Dimensions</b></em>' reference.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Dimensions</em>' reference isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Dimensions</em>' reference.
      * @see #setDimensions(IfcDimensionalExponents)
@@ -64,10 +60,6 @@ public interface IfcNamedUnit extends IfcUnit {
      * Returns the value of the '<em><b>Unit Type</b></em>' attribute.
      * The literals are from the enumeration {@link org.bimserver.models.ifc4.IfcUnitEnum}.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Unit Type</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Unit Type</em>' attribute.
      * @see org.bimserver.models.ifc4.IfcUnitEnum

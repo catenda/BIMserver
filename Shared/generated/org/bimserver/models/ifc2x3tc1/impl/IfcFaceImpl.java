@@ -54,7 +54,7 @@ public class IfcFaceImpl extends IfcTopologicalRepresentationItemImpl implements
      */
     @Override
     protected EClass eStaticClass() {
-        return Ifc2x3tc1Package.Literals.IFC_FACE;
+        return Ifc2x3tc1Package.eINSTANCE.getIfcFace();
     }
 
     /**
@@ -65,7 +65,7 @@ public class IfcFaceImpl extends IfcTopologicalRepresentationItemImpl implements
     @SuppressWarnings("unchecked")
     @Override
     public EList<IfcFaceBound> getBounds() {
-        return (EList<IfcFaceBound>) eGet(Ifc2x3tc1Package.Literals.IFC_FACE__BOUNDS, true);
+        return (EList<IfcFaceBound>) eGet(Ifc2x3tc1Package.eINSTANCE.getIfcFace_Bounds(), true);
     }
 
 } //IfcFaceImpl

@@ -37,10 +37,6 @@ public interface ReferenceDataValue extends DataValue {
     /**
      * Returns the value of the '<em><b>Type Name</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Type Name</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Type Name</em>' attribute.
      * @see #setTypeName(String)
@@ -63,10 +59,6 @@ public interface ReferenceDataValue extends DataValue {
     /**
      * Returns the value of the '<em><b>Guid</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Guid</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Guid</em>' attribute.
      * @see #setGuid(String)

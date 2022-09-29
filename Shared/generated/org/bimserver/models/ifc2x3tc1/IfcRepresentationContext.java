@@ -43,10 +43,6 @@ public interface IfcRepresentationContext extends IdEObject {
     /**
      * Returns the value of the '<em><b>Context Identifier</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Context Identifier</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Context Identifier</em>' attribute.
      * @see #isSetContextIdentifier()
@@ -96,10 +92,6 @@ public interface IfcRepresentationContext extends IdEObject {
     /**
      * Returns the value of the '<em><b>Context Type</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Context Type</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Context Type</em>' attribute.
      * @see #isSetContextType()
@@ -151,10 +143,6 @@ public interface IfcRepresentationContext extends IdEObject {
      * The list contents are of type {@link org.bimserver.models.ifc2x3tc1.IfcRepresentation}.
      * It is bidirectional and its opposite is '{@link org.bimserver.models.ifc2x3tc1.IfcRepresentation#getContextOfItems <em>Context Of Items</em>}'.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Representations In Context</em>' reference list isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Representations In Context</em>' reference list.
      * @see #isSetRepresentationsInContext()

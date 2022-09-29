@@ -52,7 +52,7 @@ public class IfcSlabTypeImpl extends IfcBuildingElementTypeImpl implements IfcSl
      */
     @Override
     protected EClass eStaticClass() {
-        return Ifc2x3tc1Package.Literals.IFC_SLAB_TYPE;
+        return Ifc2x3tc1Package.eINSTANCE.getIfcSlabType();
     }
 
     /**
@@ -62,7 +62,7 @@ public class IfcSlabTypeImpl extends IfcBuildingElementTypeImpl implements IfcSl
      */
     @Override
     public IfcSlabTypeEnum getPredefinedType() {
-        return (IfcSlabTypeEnum) eGet(Ifc2x3tc1Package.Literals.IFC_SLAB_TYPE__PREDEFINED_TYPE, true);
+        return (IfcSlabTypeEnum) eGet(Ifc2x3tc1Package.eINSTANCE.getIfcSlabType_PredefinedType(), true);
     }
 
     /**
@@ -72,7 +72,7 @@ public class IfcSlabTypeImpl extends IfcBuildingElementTypeImpl implements IfcSl
      */
     @Override
     public void setPredefinedType(IfcSlabTypeEnum newPredefinedType) {
-        eSet(Ifc2x3tc1Package.Literals.IFC_SLAB_TYPE__PREDEFINED_TYPE, newPredefinedType);
+        eSet(Ifc2x3tc1Package.eINSTANCE.getIfcSlabType_PredefinedType(), newPredefinedType);
     }
 
 } //IfcSlabTypeImpl

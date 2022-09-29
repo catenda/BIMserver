@@ -45,7 +45,7 @@ public class IfcConditionImpl extends IfcGroupImpl implements IfcCondition {
      */
     @Override
     protected EClass eStaticClass() {
-        return Ifc2x3tc1Package.Literals.IFC_CONDITION;
+        return Ifc2x3tc1Package.eINSTANCE.getIfcCondition();
     }
 
 } //IfcConditionImpl

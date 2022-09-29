@@ -42,10 +42,6 @@ public interface IfcDoorPanelProperties extends IfcPreDefinedPropertySet {
     /**
      * Returns the value of the '<em><b>Panel Depth</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Panel Depth</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Panel Depth</em>' attribute.
      * @see #isSetPanelDepth()
@@ -95,10 +91,6 @@ public interface IfcDoorPanelProperties extends IfcPreDefinedPropertySet {
     /**
      * Returns the value of the '<em><b>Panel Depth As String</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Panel Depth As String</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Panel Depth As String</em>' attribute.
      * @see #isSetPanelDepthAsString()
@@ -151,10 +143,6 @@ public interface IfcDoorPanelProperties extends IfcPreDefinedPropertySet {
      * Returns the value of the '<em><b>Panel Operation</b></em>' attribute.
      * The literals are from the enumeration {@link org.bimserver.models.ifc4.IfcDoorPanelOperationEnum}.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Panel Operation</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Panel Operation</em>' attribute.
      * @see org.bimserver.models.ifc4.IfcDoorPanelOperationEnum
@@ -179,10 +167,6 @@ public interface IfcDoorPanelProperties extends IfcPreDefinedPropertySet {
     /**
      * Returns the value of the '<em><b>Panel Width</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Panel Width</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Panel Width</em>' attribute.
      * @see #isSetPanelWidth()
@@ -232,10 +216,6 @@ public interface IfcDoorPanelProperties extends IfcPreDefinedPropertySet {
     /**
      * Returns the value of the '<em><b>Panel Width As String</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Panel Width As String</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Panel Width As String</em>' attribute.
      * @see #isSetPanelWidthAsString()
@@ -288,10 +268,6 @@ public interface IfcDoorPanelProperties extends IfcPreDefinedPropertySet {
      * Returns the value of the '<em><b>Panel Position</b></em>' attribute.
      * The literals are from the enumeration {@link org.bimserver.models.ifc4.IfcDoorPanelPositionEnum}.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Panel Position</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Panel Position</em>' attribute.
      * @see org.bimserver.models.ifc4.IfcDoorPanelPositionEnum
@@ -316,10 +292,6 @@ public interface IfcDoorPanelProperties extends IfcPreDefinedPropertySet {
     /**
      * Returns the value of the '<em><b>Shape Aspect Style</b></em>' reference.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Shape Aspect Style</em>' reference isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Shape Aspect Style</em>' reference.
      * @see #isSetShapeAspectStyle()

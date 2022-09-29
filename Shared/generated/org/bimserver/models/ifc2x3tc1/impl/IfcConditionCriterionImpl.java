@@ -54,7 +54,7 @@ public class IfcConditionCriterionImpl extends IfcControlImpl implements IfcCond
      */
     @Override
     protected EClass eStaticClass() {
-        return Ifc2x3tc1Package.Literals.IFC_CONDITION_CRITERION;
+        return Ifc2x3tc1Package.eINSTANCE.getIfcConditionCriterion();
     }
 
     /**
@@ -64,7 +64,8 @@ public class IfcConditionCriterionImpl extends IfcControlImpl implements IfcCond
      */
     @Override
     public IfcConditionCriterionSelect getCriterion() {
-        return (IfcConditionCriterionSelect) eGet(Ifc2x3tc1Package.Literals.IFC_CONDITION_CRITERION__CRITERION, true);
+        return (IfcConditionCriterionSelect) eGet(Ifc2x3tc1Package.eINSTANCE.getIfcConditionCriterion_Criterion(),
+                true);
     }
 
     /**
@@ -74,7 +75,7 @@ public class IfcConditionCriterionImpl extends IfcControlImpl implements IfcCond
      */
     @Override
     public void setCriterion(IfcConditionCriterionSelect newCriterion) {
-        eSet(Ifc2x3tc1Package.Literals.IFC_CONDITION_CRITERION__CRITERION, newCriterion);
+        eSet(Ifc2x3tc1Package.eINSTANCE.getIfcConditionCriterion_Criterion(), newCriterion);
     }
 
     /**
@@ -84,7 +85,7 @@ public class IfcConditionCriterionImpl extends IfcControlImpl implements IfcCond
      */
     @Override
     public IfcDateTimeSelect getCriterionDateTime() {
-        return (IfcDateTimeSelect) eGet(Ifc2x3tc1Package.Literals.IFC_CONDITION_CRITERION__CRITERION_DATE_TIME, true);
+        return (IfcDateTimeSelect) eGet(Ifc2x3tc1Package.eINSTANCE.getIfcConditionCriterion_CriterionDateTime(), true);
     }
 
     /**
@@ -94,7 +95,7 @@ public class IfcConditionCriterionImpl extends IfcControlImpl implements IfcCond
      */
     @Override
     public void setCriterionDateTime(IfcDateTimeSelect newCriterionDateTime) {
-        eSet(Ifc2x3tc1Package.Literals.IFC_CONDITION_CRITERION__CRITERION_DATE_TIME, newCriterionDateTime);
+        eSet(Ifc2x3tc1Package.eINSTANCE.getIfcConditionCriterion_CriterionDateTime(), newCriterionDateTime);
     }
 
 } //IfcConditionCriterionImpl

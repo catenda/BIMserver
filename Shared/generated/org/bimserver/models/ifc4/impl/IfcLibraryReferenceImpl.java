@@ -58,7 +58,7 @@ public class IfcLibraryReferenceImpl extends IfcExternalReferenceImpl implements
      */
     @Override
     protected EClass eStaticClass() {
-        return Ifc4Package.Literals.IFC_LIBRARY_REFERENCE;
+        return Ifc4Package.eINSTANCE.getIfcLibraryReference();
     }
 
     /**
@@ -68,7 +68,7 @@ public class IfcLibraryReferenceImpl extends IfcExternalReferenceImpl implements
      */
     @Override
     public String getDescription() {
-        return (String) eGet(Ifc4Package.Literals.IFC_LIBRARY_REFERENCE__DESCRIPTION, true);
+        return (String) eGet(Ifc4Package.eINSTANCE.getIfcLibraryReference_Description(), true);
     }
 
     /**
@@ -78,7 +78,7 @@ public class IfcLibraryReferenceImpl extends IfcExternalReferenceImpl implements
      */
     @Override
     public void setDescription(String newDescription) {
-        eSet(Ifc4Package.Literals.IFC_LIBRARY_REFERENCE__DESCRIPTION, newDescription);
+        eSet(Ifc4Package.eINSTANCE.getIfcLibraryReference_Description(), newDescription);
     }
 
     /**
@@ -88,7 +88,7 @@ public class IfcLibraryReferenceImpl extends IfcExternalReferenceImpl implements
      */
     @Override
     public void unsetDescription() {
-        eUnset(Ifc4Package.Literals.IFC_LIBRARY_REFERENCE__DESCRIPTION);
+        eUnset(Ifc4Package.eINSTANCE.getIfcLibraryReference_Description());
     }
 
     /**
@@ -98,7 +98,7 @@ public class IfcLibraryReferenceImpl extends IfcExternalReferenceImpl implements
      */
     @Override
     public boolean isSetDescription() {
-        return eIsSet(Ifc4Package.Literals.IFC_LIBRARY_REFERENCE__DESCRIPTION);
+        return eIsSet(Ifc4Package.eINSTANCE.getIfcLibraryReference_Description());
     }
 
     /**
@@ -108,7 +108,7 @@ public class IfcLibraryReferenceImpl extends IfcExternalReferenceImpl implements
      */
     @Override
     public String getLanguage() {
-        return (String) eGet(Ifc4Package.Literals.IFC_LIBRARY_REFERENCE__LANGUAGE, true);
+        return (String) eGet(Ifc4Package.eINSTANCE.getIfcLibraryReference_Language(), true);
     }
 
     /**
@@ -118,7 +118,7 @@ public class IfcLibraryReferenceImpl extends IfcExternalReferenceImpl implements
      */
     @Override
     public void setLanguage(String newLanguage) {
-        eSet(Ifc4Package.Literals.IFC_LIBRARY_REFERENCE__LANGUAGE, newLanguage);
+        eSet(Ifc4Package.eINSTANCE.getIfcLibraryReference_Language(), newLanguage);
     }
 
     /**
@@ -128,7 +128,7 @@ public class IfcLibraryReferenceImpl extends IfcExternalReferenceImpl implements
      */
     @Override
     public void unsetLanguage() {
-        eUnset(Ifc4Package.Literals.IFC_LIBRARY_REFERENCE__LANGUAGE);
+        eUnset(Ifc4Package.eINSTANCE.getIfcLibraryReference_Language());
     }
 
     /**
@@ -138,7 +138,7 @@ public class IfcLibraryReferenceImpl extends IfcExternalReferenceImpl implements
      */
     @Override
     public boolean isSetLanguage() {
-        return eIsSet(Ifc4Package.Literals.IFC_LIBRARY_REFERENCE__LANGUAGE);
+        return eIsSet(Ifc4Package.eINSTANCE.getIfcLibraryReference_Language());
     }
 
     /**
@@ -148,7 +148,7 @@ public class IfcLibraryReferenceImpl extends IfcExternalReferenceImpl implements
      */
     @Override
     public IfcLibraryInformation getReferencedLibrary() {
-        return (IfcLibraryInformation) eGet(Ifc4Package.Literals.IFC_LIBRARY_REFERENCE__REFERENCED_LIBRARY, true);
+        return (IfcLibraryInformation) eGet(Ifc4Package.eINSTANCE.getIfcLibraryReference_ReferencedLibrary(), true);
     }
 
     /**
@@ -158,7 +158,7 @@ public class IfcLibraryReferenceImpl extends IfcExternalReferenceImpl implements
      */
     @Override
     public void setReferencedLibrary(IfcLibraryInformation newReferencedLibrary) {
-        eSet(Ifc4Package.Literals.IFC_LIBRARY_REFERENCE__REFERENCED_LIBRARY, newReferencedLibrary);
+        eSet(Ifc4Package.eINSTANCE.getIfcLibraryReference_ReferencedLibrary(), newReferencedLibrary);
     }
 
     /**
@@ -168,7 +168,7 @@ public class IfcLibraryReferenceImpl extends IfcExternalReferenceImpl implements
      */
     @Override
     public void unsetReferencedLibrary() {
-        eUnset(Ifc4Package.Literals.IFC_LIBRARY_REFERENCE__REFERENCED_LIBRARY);
+        eUnset(Ifc4Package.eINSTANCE.getIfcLibraryReference_ReferencedLibrary());
     }
 
     /**
@@ -178,7 +178,7 @@ public class IfcLibraryReferenceImpl extends IfcExternalReferenceImpl implements
      */
     @Override
     public boolean isSetReferencedLibrary() {
-        return eIsSet(Ifc4Package.Literals.IFC_LIBRARY_REFERENCE__REFERENCED_LIBRARY);
+        return eIsSet(Ifc4Package.eINSTANCE.getIfcLibraryReference_ReferencedLibrary());
     }
 
     /**
@@ -190,7 +190,7 @@ public class IfcLibraryReferenceImpl extends IfcExternalReferenceImpl implements
     @Override
     public EList<IfcRelAssociatesLibrary> getLibraryRefForObjects() {
         return (EList<IfcRelAssociatesLibrary>) eGet(
-                Ifc4Package.Literals.IFC_LIBRARY_REFERENCE__LIBRARY_REF_FOR_OBJECTS, true);
+                Ifc4Package.eINSTANCE.getIfcLibraryReference_LibraryRefForObjects(), true);
     }
 
     /**
@@ -200,7 +200,7 @@ public class IfcLibraryReferenceImpl extends IfcExternalReferenceImpl implements
      */
     @Override
     public void unsetLibraryRefForObjects() {
-        eUnset(Ifc4Package.Literals.IFC_LIBRARY_REFERENCE__LIBRARY_REF_FOR_OBJECTS);
+        eUnset(Ifc4Package.eINSTANCE.getIfcLibraryReference_LibraryRefForObjects());
     }
 
     /**
@@ -210,7 +210,7 @@ public class IfcLibraryReferenceImpl extends IfcExternalReferenceImpl implements
      */
     @Override
     public boolean isSetLibraryRefForObjects() {
-        return eIsSet(Ifc4Package.Literals.IFC_LIBRARY_REFERENCE__LIBRARY_REF_FOR_OBJECTS);
+        return eIsSet(Ifc4Package.eINSTANCE.getIfcLibraryReference_LibraryRefForObjects());
     }
 
 } //IfcLibraryReferenceImpl

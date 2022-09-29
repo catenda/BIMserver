@@ -55,10 +55,6 @@ public interface IfcTShapeProfileDef extends IfcParameterizedProfileDef {
     /**
      * Returns the value of the '<em><b>Depth</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Depth</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Depth</em>' attribute.
      * @see #setDepth(double)
@@ -81,10 +77,6 @@ public interface IfcTShapeProfileDef extends IfcParameterizedProfileDef {
     /**
      * Returns the value of the '<em><b>Depth As String</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Depth As String</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Depth As String</em>' attribute.
      * @see #setDepthAsString(String)
@@ -108,10 +100,6 @@ public interface IfcTShapeProfileDef extends IfcParameterizedProfileDef {
     /**
      * Returns the value of the '<em><b>Flange Width</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Flange Width</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Flange Width</em>' attribute.
      * @see #setFlangeWidth(double)
@@ -134,10 +122,6 @@ public interface IfcTShapeProfileDef extends IfcParameterizedProfileDef {
     /**
      * Returns the value of the '<em><b>Flange Width As String</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Flange Width As String</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Flange Width As String</em>' attribute.
      * @see #setFlangeWidthAsString(String)
@@ -161,10 +145,6 @@ public interface IfcTShapeProfileDef extends IfcParameterizedProfileDef {
     /**
      * Returns the value of the '<em><b>Web Thickness</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Web Thickness</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Web Thickness</em>' attribute.
      * @see #setWebThickness(double)
@@ -187,10 +167,6 @@ public interface IfcTShapeProfileDef extends IfcParameterizedProfileDef {
     /**
      * Returns the value of the '<em><b>Web Thickness As String</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Web Thickness As String</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Web Thickness As String</em>' attribute.
      * @see #setWebThicknessAsString(String)
@@ -214,10 +190,6 @@ public interface IfcTShapeProfileDef extends IfcParameterizedProfileDef {
     /**
      * Returns the value of the '<em><b>Flange Thickness</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Flange Thickness</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Flange Thickness</em>' attribute.
      * @see #setFlangeThickness(double)
@@ -240,10 +212,6 @@ public interface IfcTShapeProfileDef extends IfcParameterizedProfileDef {
     /**
      * Returns the value of the '<em><b>Flange Thickness As String</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Flange Thickness As String</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Flange Thickness As String</em>' attribute.
      * @see #setFlangeThicknessAsString(String)
@@ -267,10 +235,6 @@ public interface IfcTShapeProfileDef extends IfcParameterizedProfileDef {
     /**
      * Returns the value of the '<em><b>Fillet Radius</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Fillet Radius</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Fillet Radius</em>' attribute.
      * @see #isSetFilletRadius()
@@ -320,10 +284,6 @@ public interface IfcTShapeProfileDef extends IfcParameterizedProfileDef {
     /**
      * Returns the value of the '<em><b>Fillet Radius As String</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Fillet Radius As String</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Fillet Radius As String</em>' attribute.
      * @see #isSetFilletRadiusAsString()
@@ -375,10 +335,6 @@ public interface IfcTShapeProfileDef extends IfcParameterizedProfileDef {
     /**
      * Returns the value of the '<em><b>Flange Edge Radius</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Flange Edge Radius</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Flange Edge Radius</em>' attribute.
      * @see #isSetFlangeEdgeRadius()
@@ -428,10 +384,6 @@ public interface IfcTShapeProfileDef extends IfcParameterizedProfileDef {
     /**
      * Returns the value of the '<em><b>Flange Edge Radius As String</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Flange Edge Radius As String</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Flange Edge Radius As String</em>' attribute.
      * @see #isSetFlangeEdgeRadiusAsString()
@@ -483,10 +435,6 @@ public interface IfcTShapeProfileDef extends IfcParameterizedProfileDef {
     /**
      * Returns the value of the '<em><b>Web Edge Radius</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Web Edge Radius</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Web Edge Radius</em>' attribute.
      * @see #isSetWebEdgeRadius()
@@ -536,10 +484,6 @@ public interface IfcTShapeProfileDef extends IfcParameterizedProfileDef {
     /**
      * Returns the value of the '<em><b>Web Edge Radius As String</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Web Edge Radius As String</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Web Edge Radius As String</em>' attribute.
      * @see #isSetWebEdgeRadiusAsString()
@@ -591,10 +535,6 @@ public interface IfcTShapeProfileDef extends IfcParameterizedProfileDef {
     /**
      * Returns the value of the '<em><b>Web Slope</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Web Slope</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Web Slope</em>' attribute.
      * @see #isSetWebSlope()
@@ -644,10 +584,6 @@ public interface IfcTShapeProfileDef extends IfcParameterizedProfileDef {
     /**
      * Returns the value of the '<em><b>Web Slope As String</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Web Slope As String</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Web Slope As String</em>' attribute.
      * @see #isSetWebSlopeAsString()
@@ -699,10 +635,6 @@ public interface IfcTShapeProfileDef extends IfcParameterizedProfileDef {
     /**
      * Returns the value of the '<em><b>Flange Slope</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Flange Slope</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Flange Slope</em>' attribute.
      * @see #isSetFlangeSlope()
@@ -752,10 +684,6 @@ public interface IfcTShapeProfileDef extends IfcParameterizedProfileDef {
     /**
      * Returns the value of the '<em><b>Flange Slope As String</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Flange Slope As String</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Flange Slope As String</em>' attribute.
      * @see #isSetFlangeSlopeAsString()
@@ -807,10 +735,6 @@ public interface IfcTShapeProfileDef extends IfcParameterizedProfileDef {
     /**
      * Returns the value of the '<em><b>Centre Of Gravity In Y</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Centre Of Gravity In Y</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Centre Of Gravity In Y</em>' attribute.
      * @see #isSetCentreOfGravityInY()
@@ -860,10 +784,6 @@ public interface IfcTShapeProfileDef extends IfcParameterizedProfileDef {
     /**
      * Returns the value of the '<em><b>Centre Of Gravity In YAs String</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Centre Of Gravity In YAs String</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Centre Of Gravity In YAs String</em>' attribute.
      * @see #isSetCentreOfGravityInYAsString()

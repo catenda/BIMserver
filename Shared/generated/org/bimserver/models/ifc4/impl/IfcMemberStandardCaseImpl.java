@@ -45,7 +45,7 @@ public class IfcMemberStandardCaseImpl extends IfcMemberImpl implements IfcMembe
      */
     @Override
     protected EClass eStaticClass() {
-        return Ifc4Package.Literals.IFC_MEMBER_STANDARD_CASE;
+        return Ifc4Package.eINSTANCE.getIfcMemberStandardCase();
     }
 
 } //IfcMemberStandardCaseImpl

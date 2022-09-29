@@ -52,7 +52,7 @@ public class IfcHumidifierTypeImpl extends IfcEnergyConversionDeviceTypeImpl imp
      */
     @Override
     protected EClass eStaticClass() {
-        return Ifc4Package.Literals.IFC_HUMIDIFIER_TYPE;
+        return Ifc4Package.eINSTANCE.getIfcHumidifierType();
     }
 
     /**
@@ -62,7 +62,7 @@ public class IfcHumidifierTypeImpl extends IfcEnergyConversionDeviceTypeImpl imp
      */
     @Override
     public IfcHumidifierTypeEnum getPredefinedType() {
-        return (IfcHumidifierTypeEnum) eGet(Ifc4Package.Literals.IFC_HUMIDIFIER_TYPE__PREDEFINED_TYPE, true);
+        return (IfcHumidifierTypeEnum) eGet(Ifc4Package.eINSTANCE.getIfcHumidifierType_PredefinedType(), true);
     }
 
     /**
@@ -72,7 +72,7 @@ public class IfcHumidifierTypeImpl extends IfcEnergyConversionDeviceTypeImpl imp
      */
     @Override
     public void setPredefinedType(IfcHumidifierTypeEnum newPredefinedType) {
-        eSet(Ifc4Package.Literals.IFC_HUMIDIFIER_TYPE__PREDEFINED_TYPE, newPredefinedType);
+        eSet(Ifc4Package.eINSTANCE.getIfcHumidifierType_PredefinedType(), newPredefinedType);
     }
 
 } //IfcHumidifierTypeImpl

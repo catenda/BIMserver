@@ -43,10 +43,6 @@ public interface IfcStructuralSurfaceMemberVarying extends IfcStructuralSurfaceM
      * Returns the value of the '<em><b>Subsequent Thickness</b></em>' attribute list.
      * The list contents are of type {@link java.lang.Double}.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Subsequent Thickness</em>' attribute list isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Subsequent Thickness</em>' attribute list.
      * @see org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package#getIfcStructuralSurfaceMemberVarying_SubsequentThickness()
@@ -59,10 +55,6 @@ public interface IfcStructuralSurfaceMemberVarying extends IfcStructuralSurfaceM
      * Returns the value of the '<em><b>Subsequent Thickness As String</b></em>' attribute list.
      * The list contents are of type {@link java.lang.String}.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Subsequent Thickness As String</em>' attribute list isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Subsequent Thickness As String</em>' attribute list.
      * @see org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package#getIfcStructuralSurfaceMemberVarying_SubsequentThicknessAsString()
@@ -76,10 +68,6 @@ public interface IfcStructuralSurfaceMemberVarying extends IfcStructuralSurfaceM
     /**
      * Returns the value of the '<em><b>Varying Thickness Location</b></em>' reference.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Varying Thickness Location</em>' reference isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Varying Thickness Location</em>' reference.
      * @see #setVaryingThicknessLocation(IfcShapeAspect)
@@ -102,10 +90,6 @@ public interface IfcStructuralSurfaceMemberVarying extends IfcStructuralSurfaceM
     /**
      * Returns the value of the '<em><b>Varying Thickness</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Varying Thickness</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Varying Thickness</em>' attribute.
      * @see #isSetVaryingThickness()
@@ -156,10 +140,6 @@ public interface IfcStructuralSurfaceMemberVarying extends IfcStructuralSurfaceM
     /**
      * Returns the value of the '<em><b>Varying Thickness As String</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Varying Thickness As String</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Varying Thickness As String</em>' attribute.
      * @see #isSetVaryingThicknessAsString()

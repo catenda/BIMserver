@@ -46,10 +46,6 @@ public interface RemoteServiceCalled extends LogAction {
     /**
      * Returns the value of the '<em><b>Service</b></em>' reference.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Service</em>' reference isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Service</em>' reference.
      * @see #setService(Service)
@@ -73,10 +69,6 @@ public interface RemoteServiceCalled extends LogAction {
      * Returns the value of the '<em><b>State</b></em>' attribute.
      * The literals are from the enumeration {@link org.bimserver.models.store.NotifictionResultEnum}.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>State</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>State</em>' attribute.
      * @see org.bimserver.models.store.NotifictionResultEnum
@@ -101,10 +93,6 @@ public interface RemoteServiceCalled extends LogAction {
     /**
      * Returns the value of the '<em><b>Percentage</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Percentage</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Percentage</em>' attribute.
      * @see #setPercentage(int)
@@ -128,10 +116,6 @@ public interface RemoteServiceCalled extends LogAction {
      * Returns the value of the '<em><b>Infos</b></em>' attribute list.
      * The list contents are of type {@link java.lang.String}.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Infos</em>' attribute list isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Infos</em>' attribute list.
      * @see org.bimserver.models.log.LogPackage#getRemoteServiceCalled_Infos()
@@ -144,10 +128,6 @@ public interface RemoteServiceCalled extends LogAction {
      * Returns the value of the '<em><b>Warnings</b></em>' attribute list.
      * The list contents are of type {@link java.lang.String}.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Warnings</em>' attribute list isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Warnings</em>' attribute list.
      * @see org.bimserver.models.log.LogPackage#getRemoteServiceCalled_Warnings()
@@ -160,10 +140,6 @@ public interface RemoteServiceCalled extends LogAction {
      * Returns the value of the '<em><b>Errors</b></em>' attribute list.
      * The list contents are of type {@link java.lang.String}.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Errors</em>' attribute list isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Errors</em>' attribute list.
      * @see org.bimserver.models.log.LogPackage#getRemoteServiceCalled_Errors()

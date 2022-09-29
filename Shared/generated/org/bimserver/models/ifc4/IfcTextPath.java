@@ -85,10 +85,6 @@ public enum IfcTextPath implements Enumerator {
     /**
      * The '<em><b>NULL</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>NULL</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #NULL
      * @model
@@ -100,10 +96,6 @@ public enum IfcTextPath implements Enumerator {
     /**
      * The '<em><b>DOWN</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>DOWN</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #DOWN
      * @model
@@ -115,10 +107,6 @@ public enum IfcTextPath implements Enumerator {
     /**
      * The '<em><b>LEFT</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>LEFT</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #LEFT
      * @model
@@ -130,10 +118,6 @@ public enum IfcTextPath implements Enumerator {
     /**
      * The '<em><b>RIGHT</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>RIGHT</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #RIGHT
      * @model
@@ -145,10 +129,6 @@ public enum IfcTextPath implements Enumerator {
     /**
      * The '<em><b>UP</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>UP</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #UP
      * @model

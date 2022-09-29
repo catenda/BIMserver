@@ -52,7 +52,7 @@ public class IfcJunctionBoxImpl extends IfcFlowFittingImpl implements IfcJunctio
      */
     @Override
     protected EClass eStaticClass() {
-        return Ifc4Package.Literals.IFC_JUNCTION_BOX;
+        return Ifc4Package.eINSTANCE.getIfcJunctionBox();
     }
 
     /**
@@ -62,7 +62,7 @@ public class IfcJunctionBoxImpl extends IfcFlowFittingImpl implements IfcJunctio
      */
     @Override
     public IfcJunctionBoxTypeEnum getPredefinedType() {
-        return (IfcJunctionBoxTypeEnum) eGet(Ifc4Package.Literals.IFC_JUNCTION_BOX__PREDEFINED_TYPE, true);
+        return (IfcJunctionBoxTypeEnum) eGet(Ifc4Package.eINSTANCE.getIfcJunctionBox_PredefinedType(), true);
     }
 
     /**
@@ -72,7 +72,7 @@ public class IfcJunctionBoxImpl extends IfcFlowFittingImpl implements IfcJunctio
      */
     @Override
     public void setPredefinedType(IfcJunctionBoxTypeEnum newPredefinedType) {
-        eSet(Ifc4Package.Literals.IFC_JUNCTION_BOX__PREDEFINED_TYPE, newPredefinedType);
+        eSet(Ifc4Package.eINSTANCE.getIfcJunctionBox_PredefinedType(), newPredefinedType);
     }
 
     /**
@@ -82,7 +82,7 @@ public class IfcJunctionBoxImpl extends IfcFlowFittingImpl implements IfcJunctio
      */
     @Override
     public void unsetPredefinedType() {
-        eUnset(Ifc4Package.Literals.IFC_JUNCTION_BOX__PREDEFINED_TYPE);
+        eUnset(Ifc4Package.eINSTANCE.getIfcJunctionBox_PredefinedType());
     }
 
     /**
@@ -92,7 +92,7 @@ public class IfcJunctionBoxImpl extends IfcFlowFittingImpl implements IfcJunctio
      */
     @Override
     public boolean isSetPredefinedType() {
-        return eIsSet(Ifc4Package.Literals.IFC_JUNCTION_BOX__PREDEFINED_TYPE);
+        return eIsSet(Ifc4Package.eINSTANCE.getIfcJunctionBox_PredefinedType());
     }
 
 } //IfcJunctionBoxImpl

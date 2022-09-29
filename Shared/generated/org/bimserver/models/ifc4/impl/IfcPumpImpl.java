@@ -52,7 +52,7 @@ public class IfcPumpImpl extends IfcFlowMovingDeviceImpl implements IfcPump {
      */
     @Override
     protected EClass eStaticClass() {
-        return Ifc4Package.Literals.IFC_PUMP;
+        return Ifc4Package.eINSTANCE.getIfcPump();
     }
 
     /**
@@ -62,7 +62,7 @@ public class IfcPumpImpl extends IfcFlowMovingDeviceImpl implements IfcPump {
      */
     @Override
     public IfcPumpTypeEnum getPredefinedType() {
-        return (IfcPumpTypeEnum) eGet(Ifc4Package.Literals.IFC_PUMP__PREDEFINED_TYPE, true);
+        return (IfcPumpTypeEnum) eGet(Ifc4Package.eINSTANCE.getIfcPump_PredefinedType(), true);
     }
 
     /**
@@ -72,7 +72,7 @@ public class IfcPumpImpl extends IfcFlowMovingDeviceImpl implements IfcPump {
      */
     @Override
     public void setPredefinedType(IfcPumpTypeEnum newPredefinedType) {
-        eSet(Ifc4Package.Literals.IFC_PUMP__PREDEFINED_TYPE, newPredefinedType);
+        eSet(Ifc4Package.eINSTANCE.getIfcPump_PredefinedType(), newPredefinedType);
     }
 
     /**
@@ -82,7 +82,7 @@ public class IfcPumpImpl extends IfcFlowMovingDeviceImpl implements IfcPump {
      */
     @Override
     public void unsetPredefinedType() {
-        eUnset(Ifc4Package.Literals.IFC_PUMP__PREDEFINED_TYPE);
+        eUnset(Ifc4Package.eINSTANCE.getIfcPump_PredefinedType());
     }
 
     /**
@@ -92,7 +92,7 @@ public class IfcPumpImpl extends IfcFlowMovingDeviceImpl implements IfcPump {
      */
     @Override
     public boolean isSetPredefinedType() {
-        return eIsSet(Ifc4Package.Literals.IFC_PUMP__PREDEFINED_TYPE);
+        return eIsSet(Ifc4Package.eINSTANCE.getIfcPump_PredefinedType());
     }
 
 } //IfcPumpImpl

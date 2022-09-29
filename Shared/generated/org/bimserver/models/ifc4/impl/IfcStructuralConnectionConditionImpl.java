@@ -53,7 +53,7 @@ public class IfcStructuralConnectionConditionImpl extends IdEObjectImpl implemen
      */
     @Override
     protected EClass eStaticClass() {
-        return Ifc4Package.Literals.IFC_STRUCTURAL_CONNECTION_CONDITION;
+        return Ifc4Package.eINSTANCE.getIfcStructuralConnectionCondition();
     }
 
     /**
@@ -73,7 +73,7 @@ public class IfcStructuralConnectionConditionImpl extends IdEObjectImpl implemen
      */
     @Override
     public String getName() {
-        return (String) eGet(Ifc4Package.Literals.IFC_STRUCTURAL_CONNECTION_CONDITION__NAME, true);
+        return (String) eGet(Ifc4Package.eINSTANCE.getIfcStructuralConnectionCondition_Name(), true);
     }
 
     /**
@@ -83,7 +83,7 @@ public class IfcStructuralConnectionConditionImpl extends IdEObjectImpl implemen
      */
     @Override
     public void setName(String newName) {
-        eSet(Ifc4Package.Literals.IFC_STRUCTURAL_CONNECTION_CONDITION__NAME, newName);
+        eSet(Ifc4Package.eINSTANCE.getIfcStructuralConnectionCondition_Name(), newName);
     }
 
     /**
@@ -93,7 +93,7 @@ public class IfcStructuralConnectionConditionImpl extends IdEObjectImpl implemen
      */
     @Override
     public void unsetName() {
-        eUnset(Ifc4Package.Literals.IFC_STRUCTURAL_CONNECTION_CONDITION__NAME);
+        eUnset(Ifc4Package.eINSTANCE.getIfcStructuralConnectionCondition_Name());
     }
 
     /**
@@ -103,7 +103,7 @@ public class IfcStructuralConnectionConditionImpl extends IdEObjectImpl implemen
      */
     @Override
     public boolean isSetName() {
-        return eIsSet(Ifc4Package.Literals.IFC_STRUCTURAL_CONNECTION_CONDITION__NAME);
+        return eIsSet(Ifc4Package.eINSTANCE.getIfcStructuralConnectionCondition_Name());
     }
 
 } //IfcStructuralConnectionConditionImpl

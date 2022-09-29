@@ -42,10 +42,6 @@ public interface IfcRationalBSplineCurveWithKnots extends IfcBSplineCurveWithKno
      * Returns the value of the '<em><b>Weights Data</b></em>' attribute list.
      * The list contents are of type {@link java.lang.Double}.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Weights Data</em>' attribute list isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Weights Data</em>' attribute list.
      * @see org.bimserver.models.ifc4.Ifc4Package#getIfcRationalBSplineCurveWithKnots_WeightsData()
@@ -58,10 +54,6 @@ public interface IfcRationalBSplineCurveWithKnots extends IfcBSplineCurveWithKno
      * Returns the value of the '<em><b>Weights Data As String</b></em>' attribute list.
      * The list contents are of type {@link java.lang.String}.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Weights Data As String</em>' attribute list isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Weights Data As String</em>' attribute list.
      * @see org.bimserver.models.ifc4.Ifc4Package#getIfcRationalBSplineCurveWithKnots_WeightsDataAsString()
@@ -75,10 +67,6 @@ public interface IfcRationalBSplineCurveWithKnots extends IfcBSplineCurveWithKno
     /**
      * Returns the value of the '<em><b>Weights</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Weights</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Weights</em>' attribute.
      * @see #isSetWeights()
@@ -129,10 +117,6 @@ public interface IfcRationalBSplineCurveWithKnots extends IfcBSplineCurveWithKno
     /**
      * Returns the value of the '<em><b>Weights As String</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Weights As String</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Weights As String</em>' attribute.
      * @see #isSetWeightsAsString()

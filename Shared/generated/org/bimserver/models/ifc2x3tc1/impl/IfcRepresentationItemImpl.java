@@ -58,7 +58,7 @@ public class IfcRepresentationItemImpl extends IdEObjectImpl implements IfcRepre
      */
     @Override
     protected EClass eStaticClass() {
-        return Ifc2x3tc1Package.Literals.IFC_REPRESENTATION_ITEM;
+        return Ifc2x3tc1Package.eINSTANCE.getIfcRepresentationItem();
     }
 
     /**
@@ -80,7 +80,7 @@ public class IfcRepresentationItemImpl extends IdEObjectImpl implements IfcRepre
     @Override
     public EList<IfcPresentationLayerAssignment> getLayerAssignments() {
         return (EList<IfcPresentationLayerAssignment>) eGet(
-                Ifc2x3tc1Package.Literals.IFC_REPRESENTATION_ITEM__LAYER_ASSIGNMENTS, true);
+                Ifc2x3tc1Package.eINSTANCE.getIfcRepresentationItem_LayerAssignments(), true);
     }
 
     /**
@@ -90,7 +90,7 @@ public class IfcRepresentationItemImpl extends IdEObjectImpl implements IfcRepre
      */
     @Override
     public void unsetLayerAssignments() {
-        eUnset(Ifc2x3tc1Package.Literals.IFC_REPRESENTATION_ITEM__LAYER_ASSIGNMENTS);
+        eUnset(Ifc2x3tc1Package.eINSTANCE.getIfcRepresentationItem_LayerAssignments());
     }
 
     /**
@@ -100,7 +100,7 @@ public class IfcRepresentationItemImpl extends IdEObjectImpl implements IfcRepre
      */
     @Override
     public boolean isSetLayerAssignments() {
-        return eIsSet(Ifc2x3tc1Package.Literals.IFC_REPRESENTATION_ITEM__LAYER_ASSIGNMENTS);
+        return eIsSet(Ifc2x3tc1Package.eINSTANCE.getIfcRepresentationItem_LayerAssignments());
     }
 
     /**
@@ -111,7 +111,7 @@ public class IfcRepresentationItemImpl extends IdEObjectImpl implements IfcRepre
     @SuppressWarnings("unchecked")
     @Override
     public EList<IfcStyledItem> getStyledByItem() {
-        return (EList<IfcStyledItem>) eGet(Ifc2x3tc1Package.Literals.IFC_REPRESENTATION_ITEM__STYLED_BY_ITEM, true);
+        return (EList<IfcStyledItem>) eGet(Ifc2x3tc1Package.eINSTANCE.getIfcRepresentationItem_StyledByItem(), true);
     }
 
     /**
@@ -121,7 +121,7 @@ public class IfcRepresentationItemImpl extends IdEObjectImpl implements IfcRepre
      */
     @Override
     public void unsetStyledByItem() {
-        eUnset(Ifc2x3tc1Package.Literals.IFC_REPRESENTATION_ITEM__STYLED_BY_ITEM);
+        eUnset(Ifc2x3tc1Package.eINSTANCE.getIfcRepresentationItem_StyledByItem());
     }
 
     /**
@@ -131,7 +131,7 @@ public class IfcRepresentationItemImpl extends IdEObjectImpl implements IfcRepre
      */
     @Override
     public boolean isSetStyledByItem() {
-        return eIsSet(Ifc2x3tc1Package.Literals.IFC_REPRESENTATION_ITEM__STYLED_BY_ITEM);
+        return eIsSet(Ifc2x3tc1Package.eINSTANCE.getIfcRepresentationItem_StyledByItem());
     }
 
 } //IfcRepresentationItemImpl

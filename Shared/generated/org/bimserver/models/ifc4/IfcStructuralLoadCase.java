@@ -40,10 +40,6 @@ public interface IfcStructuralLoadCase extends IfcStructuralLoadGroup {
      * Returns the value of the '<em><b>Self Weight Coefficients</b></em>' attribute list.
      * The list contents are of type {@link java.lang.Double}.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Self Weight Coefficients</em>' attribute list isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Self Weight Coefficients</em>' attribute list.
      * @see #isSetSelfWeightCoefficients()
@@ -79,10 +75,6 @@ public interface IfcStructuralLoadCase extends IfcStructuralLoadGroup {
      * Returns the value of the '<em><b>Self Weight Coefficients As String</b></em>' attribute list.
      * The list contents are of type {@link java.lang.String}.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Self Weight Coefficients As String</em>' attribute list isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Self Weight Coefficients As String</em>' attribute list.
      * @see #isSetSelfWeightCoefficientsAsString()

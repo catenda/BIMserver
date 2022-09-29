@@ -57,7 +57,7 @@ public class IfcWindowTypeImpl extends IfcBuildingElementTypeImpl implements Ifc
      */
     @Override
     protected EClass eStaticClass() {
-        return Ifc4Package.Literals.IFC_WINDOW_TYPE;
+        return Ifc4Package.eINSTANCE.getIfcWindowType();
     }
 
     /**
@@ -67,7 +67,7 @@ public class IfcWindowTypeImpl extends IfcBuildingElementTypeImpl implements Ifc
      */
     @Override
     public IfcWindowTypeEnum getPredefinedType() {
-        return (IfcWindowTypeEnum) eGet(Ifc4Package.Literals.IFC_WINDOW_TYPE__PREDEFINED_TYPE, true);
+        return (IfcWindowTypeEnum) eGet(Ifc4Package.eINSTANCE.getIfcWindowType_PredefinedType(), true);
     }
 
     /**
@@ -77,7 +77,7 @@ public class IfcWindowTypeImpl extends IfcBuildingElementTypeImpl implements Ifc
      */
     @Override
     public void setPredefinedType(IfcWindowTypeEnum newPredefinedType) {
-        eSet(Ifc4Package.Literals.IFC_WINDOW_TYPE__PREDEFINED_TYPE, newPredefinedType);
+        eSet(Ifc4Package.eINSTANCE.getIfcWindowType_PredefinedType(), newPredefinedType);
     }
 
     /**
@@ -87,7 +87,7 @@ public class IfcWindowTypeImpl extends IfcBuildingElementTypeImpl implements Ifc
      */
     @Override
     public IfcWindowTypePartitioningEnum getPartitioningType() {
-        return (IfcWindowTypePartitioningEnum) eGet(Ifc4Package.Literals.IFC_WINDOW_TYPE__PARTITIONING_TYPE, true);
+        return (IfcWindowTypePartitioningEnum) eGet(Ifc4Package.eINSTANCE.getIfcWindowType_PartitioningType(), true);
     }
 
     /**
@@ -97,7 +97,7 @@ public class IfcWindowTypeImpl extends IfcBuildingElementTypeImpl implements Ifc
      */
     @Override
     public void setPartitioningType(IfcWindowTypePartitioningEnum newPartitioningType) {
-        eSet(Ifc4Package.Literals.IFC_WINDOW_TYPE__PARTITIONING_TYPE, newPartitioningType);
+        eSet(Ifc4Package.eINSTANCE.getIfcWindowType_PartitioningType(), newPartitioningType);
     }
 
     /**
@@ -107,7 +107,7 @@ public class IfcWindowTypeImpl extends IfcBuildingElementTypeImpl implements Ifc
      */
     @Override
     public Tristate getParameterTakesPrecedence() {
-        return (Tristate) eGet(Ifc4Package.Literals.IFC_WINDOW_TYPE__PARAMETER_TAKES_PRECEDENCE, true);
+        return (Tristate) eGet(Ifc4Package.eINSTANCE.getIfcWindowType_ParameterTakesPrecedence(), true);
     }
 
     /**
@@ -117,7 +117,7 @@ public class IfcWindowTypeImpl extends IfcBuildingElementTypeImpl implements Ifc
      */
     @Override
     public void setParameterTakesPrecedence(Tristate newParameterTakesPrecedence) {
-        eSet(Ifc4Package.Literals.IFC_WINDOW_TYPE__PARAMETER_TAKES_PRECEDENCE, newParameterTakesPrecedence);
+        eSet(Ifc4Package.eINSTANCE.getIfcWindowType_ParameterTakesPrecedence(), newParameterTakesPrecedence);
     }
 
     /**
@@ -127,7 +127,7 @@ public class IfcWindowTypeImpl extends IfcBuildingElementTypeImpl implements Ifc
      */
     @Override
     public void unsetParameterTakesPrecedence() {
-        eUnset(Ifc4Package.Literals.IFC_WINDOW_TYPE__PARAMETER_TAKES_PRECEDENCE);
+        eUnset(Ifc4Package.eINSTANCE.getIfcWindowType_ParameterTakesPrecedence());
     }
 
     /**
@@ -137,7 +137,7 @@ public class IfcWindowTypeImpl extends IfcBuildingElementTypeImpl implements Ifc
      */
     @Override
     public boolean isSetParameterTakesPrecedence() {
-        return eIsSet(Ifc4Package.Literals.IFC_WINDOW_TYPE__PARAMETER_TAKES_PRECEDENCE);
+        return eIsSet(Ifc4Package.eINSTANCE.getIfcWindowType_ParameterTakesPrecedence());
     }
 
     /**
@@ -147,7 +147,7 @@ public class IfcWindowTypeImpl extends IfcBuildingElementTypeImpl implements Ifc
      */
     @Override
     public String getUserDefinedPartitioningType() {
-        return (String) eGet(Ifc4Package.Literals.IFC_WINDOW_TYPE__USER_DEFINED_PARTITIONING_TYPE, true);
+        return (String) eGet(Ifc4Package.eINSTANCE.getIfcWindowType_UserDefinedPartitioningType(), true);
     }
 
     /**
@@ -157,7 +157,7 @@ public class IfcWindowTypeImpl extends IfcBuildingElementTypeImpl implements Ifc
      */
     @Override
     public void setUserDefinedPartitioningType(String newUserDefinedPartitioningType) {
-        eSet(Ifc4Package.Literals.IFC_WINDOW_TYPE__USER_DEFINED_PARTITIONING_TYPE, newUserDefinedPartitioningType);
+        eSet(Ifc4Package.eINSTANCE.getIfcWindowType_UserDefinedPartitioningType(), newUserDefinedPartitioningType);
     }
 
     /**
@@ -167,7 +167,7 @@ public class IfcWindowTypeImpl extends IfcBuildingElementTypeImpl implements Ifc
      */
     @Override
     public void unsetUserDefinedPartitioningType() {
-        eUnset(Ifc4Package.Literals.IFC_WINDOW_TYPE__USER_DEFINED_PARTITIONING_TYPE);
+        eUnset(Ifc4Package.eINSTANCE.getIfcWindowType_UserDefinedPartitioningType());
     }
 
     /**
@@ -177,7 +177,7 @@ public class IfcWindowTypeImpl extends IfcBuildingElementTypeImpl implements Ifc
      */
     @Override
     public boolean isSetUserDefinedPartitioningType() {
-        return eIsSet(Ifc4Package.Literals.IFC_WINDOW_TYPE__USER_DEFINED_PARTITIONING_TYPE);
+        return eIsSet(Ifc4Package.eINSTANCE.getIfcWindowType_UserDefinedPartitioningType());
     }
 
 } //IfcWindowTypeImpl

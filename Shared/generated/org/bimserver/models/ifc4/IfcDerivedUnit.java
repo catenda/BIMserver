@@ -41,10 +41,6 @@ public interface IfcDerivedUnit extends IfcUnit {
      * Returns the value of the '<em><b>Elements</b></em>' reference list.
      * The list contents are of type {@link org.bimserver.models.ifc4.IfcDerivedUnitElement}.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Elements</em>' reference list isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Elements</em>' reference list.
      * @see org.bimserver.models.ifc4.Ifc4Package#getIfcDerivedUnit_Elements()
@@ -57,10 +53,6 @@ public interface IfcDerivedUnit extends IfcUnit {
      * Returns the value of the '<em><b>Unit Type</b></em>' attribute.
      * The literals are from the enumeration {@link org.bimserver.models.ifc4.IfcDerivedUnitEnum}.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Unit Type</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Unit Type</em>' attribute.
      * @see org.bimserver.models.ifc4.IfcDerivedUnitEnum
@@ -85,10 +77,6 @@ public interface IfcDerivedUnit extends IfcUnit {
     /**
      * Returns the value of the '<em><b>User Defined Type</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>User Defined Type</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>User Defined Type</em>' attribute.
      * @see #isSetUserDefinedType()

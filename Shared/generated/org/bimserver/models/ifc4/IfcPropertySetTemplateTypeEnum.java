@@ -125,10 +125,6 @@ public enum IfcPropertySetTemplateTypeEnum implements Enumerator {
     /**
      * The '<em><b>NULL</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>NULL</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #NULL
      * @model
@@ -140,10 +136,6 @@ public enum IfcPropertySetTemplateTypeEnum implements Enumerator {
     /**
      * The '<em><b>PSET OCCURRENCEDRIVEN</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>PSET OCCURRENCEDRIVEN</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #PSET_OCCURRENCEDRIVEN
      * @model
@@ -155,10 +147,6 @@ public enum IfcPropertySetTemplateTypeEnum implements Enumerator {
     /**
      * The '<em><b>NOTDEFINED</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>NOTDEFINED</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #NOTDEFINED
      * @model
@@ -170,10 +158,6 @@ public enum IfcPropertySetTemplateTypeEnum implements Enumerator {
     /**
      * The '<em><b>PSET TYPEDRIVENONLY</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>PSET TYPEDRIVENONLY</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #PSET_TYPEDRIVENONLY
      * @model
@@ -185,10 +169,6 @@ public enum IfcPropertySetTemplateTypeEnum implements Enumerator {
     /**
      * The '<em><b>QTO TYPEDRIVENONLY</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>QTO TYPEDRIVENONLY</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #QTO_TYPEDRIVENONLY
      * @model
@@ -200,10 +180,6 @@ public enum IfcPropertySetTemplateTypeEnum implements Enumerator {
     /**
      * The '<em><b>PSET TYPEDRIVENOVERRIDE</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>PSET TYPEDRIVENOVERRIDE</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #PSET_TYPEDRIVENOVERRIDE
      * @model
@@ -215,10 +191,6 @@ public enum IfcPropertySetTemplateTypeEnum implements Enumerator {
     /**
      * The '<em><b>QTO OCCURRENCEDRIVEN</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>QTO OCCURRENCEDRIVEN</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #QTO_OCCURRENCEDRIVEN
      * @model
@@ -230,10 +202,6 @@ public enum IfcPropertySetTemplateTypeEnum implements Enumerator {
     /**
      * The '<em><b>QTO TYPEDRIVENOVERRIDE</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>QTO TYPEDRIVENOVERRIDE</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #QTO_TYPEDRIVENOVERRIDE
      * @model
@@ -245,10 +213,6 @@ public enum IfcPropertySetTemplateTypeEnum implements Enumerator {
     /**
      * The '<em><b>PSET PERFORMANCEDRIVEN</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>PSET PERFORMANCEDRIVEN</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #PSET_PERFORMANCEDRIVEN
      * @model

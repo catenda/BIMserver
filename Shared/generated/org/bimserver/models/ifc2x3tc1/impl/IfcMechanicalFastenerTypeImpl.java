@@ -45,7 +45,7 @@ public class IfcMechanicalFastenerTypeImpl extends IfcFastenerTypeImpl implement
      */
     @Override
     protected EClass eStaticClass() {
-        return Ifc2x3tc1Package.Literals.IFC_MECHANICAL_FASTENER_TYPE;
+        return Ifc2x3tc1Package.eINSTANCE.getIfcMechanicalFastenerType();
     }
 
 } //IfcMechanicalFastenerTypeImpl

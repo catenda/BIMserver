@@ -54,7 +54,7 @@ public class IfcStructuralLoadCaseImpl extends IfcStructuralLoadGroupImpl implem
      */
     @Override
     protected EClass eStaticClass() {
-        return Ifc4Package.Literals.IFC_STRUCTURAL_LOAD_CASE;
+        return Ifc4Package.eINSTANCE.getIfcStructuralLoadCase();
     }
 
     /**
@@ -65,7 +65,7 @@ public class IfcStructuralLoadCaseImpl extends IfcStructuralLoadGroupImpl implem
     @SuppressWarnings("unchecked")
     @Override
     public EList<Double> getSelfWeightCoefficients() {
-        return (EList<Double>) eGet(Ifc4Package.Literals.IFC_STRUCTURAL_LOAD_CASE__SELF_WEIGHT_COEFFICIENTS, true);
+        return (EList<Double>) eGet(Ifc4Package.eINSTANCE.getIfcStructuralLoadCase_SelfWeightCoefficients(), true);
     }
 
     /**
@@ -75,7 +75,7 @@ public class IfcStructuralLoadCaseImpl extends IfcStructuralLoadGroupImpl implem
      */
     @Override
     public void unsetSelfWeightCoefficients() {
-        eUnset(Ifc4Package.Literals.IFC_STRUCTURAL_LOAD_CASE__SELF_WEIGHT_COEFFICIENTS);
+        eUnset(Ifc4Package.eINSTANCE.getIfcStructuralLoadCase_SelfWeightCoefficients());
     }
 
     /**
@@ -85,7 +85,7 @@ public class IfcStructuralLoadCaseImpl extends IfcStructuralLoadGroupImpl implem
      */
     @Override
     public boolean isSetSelfWeightCoefficients() {
-        return eIsSet(Ifc4Package.Literals.IFC_STRUCTURAL_LOAD_CASE__SELF_WEIGHT_COEFFICIENTS);
+        return eIsSet(Ifc4Package.eINSTANCE.getIfcStructuralLoadCase_SelfWeightCoefficients());
     }
 
     /**
@@ -96,7 +96,7 @@ public class IfcStructuralLoadCaseImpl extends IfcStructuralLoadGroupImpl implem
     @SuppressWarnings("unchecked")
     @Override
     public EList<String> getSelfWeightCoefficientsAsString() {
-        return (EList<String>) eGet(Ifc4Package.Literals.IFC_STRUCTURAL_LOAD_CASE__SELF_WEIGHT_COEFFICIENTS_AS_STRING,
+        return (EList<String>) eGet(Ifc4Package.eINSTANCE.getIfcStructuralLoadCase_SelfWeightCoefficientsAsString(),
                 true);
     }
 
@@ -107,7 +107,7 @@ public class IfcStructuralLoadCaseImpl extends IfcStructuralLoadGroupImpl implem
      */
     @Override
     public void unsetSelfWeightCoefficientsAsString() {
-        eUnset(Ifc4Package.Literals.IFC_STRUCTURAL_LOAD_CASE__SELF_WEIGHT_COEFFICIENTS_AS_STRING);
+        eUnset(Ifc4Package.eINSTANCE.getIfcStructuralLoadCase_SelfWeightCoefficientsAsString());
     }
 
     /**
@@ -117,7 +117,7 @@ public class IfcStructuralLoadCaseImpl extends IfcStructuralLoadGroupImpl implem
      */
     @Override
     public boolean isSetSelfWeightCoefficientsAsString() {
-        return eIsSet(Ifc4Package.Literals.IFC_STRUCTURAL_LOAD_CASE__SELF_WEIGHT_COEFFICIENTS_AS_STRING);
+        return eIsSet(Ifc4Package.eINSTANCE.getIfcStructuralLoadCase_SelfWeightCoefficientsAsString());
     }
 
 } //IfcStructuralLoadCaseImpl

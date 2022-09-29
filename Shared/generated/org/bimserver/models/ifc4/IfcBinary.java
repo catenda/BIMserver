@@ -16,8 +16,6 @@
  */
 package org.bimserver.models.ifc4;
 
-import org.bimserver.emf.IdEObject;
-
 /**
  * <!-- begin-user-doc -->
  * A representation of the model object '<em><b>Ifc Binary</b></em>'.
@@ -38,10 +36,6 @@ public interface IfcBinary extends IfcSimpleValue {
     /**
      * Returns the value of the '<em><b>Wrapped Value</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Wrapped Value</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Wrapped Value</em>' attribute.
      * @see #isSetWrappedValue()

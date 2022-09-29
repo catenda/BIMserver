@@ -63,7 +63,7 @@ public class IfcLibraryInformationImpl extends IfcExternalInformationImpl implem
      */
     @Override
     protected EClass eStaticClass() {
-        return Ifc4Package.Literals.IFC_LIBRARY_INFORMATION;
+        return Ifc4Package.eINSTANCE.getIfcLibraryInformation();
     }
 
     /**
@@ -73,7 +73,7 @@ public class IfcLibraryInformationImpl extends IfcExternalInformationImpl implem
      */
     @Override
     public String getName() {
-        return (String) eGet(Ifc4Package.Literals.IFC_LIBRARY_INFORMATION__NAME, true);
+        return (String) eGet(Ifc4Package.eINSTANCE.getIfcLibraryInformation_Name(), true);
     }
 
     /**
@@ -83,7 +83,7 @@ public class IfcLibraryInformationImpl extends IfcExternalInformationImpl implem
      */
     @Override
     public void setName(String newName) {
-        eSet(Ifc4Package.Literals.IFC_LIBRARY_INFORMATION__NAME, newName);
+        eSet(Ifc4Package.eINSTANCE.getIfcLibraryInformation_Name(), newName);
     }
 
     /**
@@ -93,7 +93,7 @@ public class IfcLibraryInformationImpl extends IfcExternalInformationImpl implem
      */
     @Override
     public String getVersion() {
-        return (String) eGet(Ifc4Package.Literals.IFC_LIBRARY_INFORMATION__VERSION, true);
+        return (String) eGet(Ifc4Package.eINSTANCE.getIfcLibraryInformation_Version(), true);
     }
 
     /**
@@ -103,7 +103,7 @@ public class IfcLibraryInformationImpl extends IfcExternalInformationImpl implem
      */
     @Override
     public void setVersion(String newVersion) {
-        eSet(Ifc4Package.Literals.IFC_LIBRARY_INFORMATION__VERSION, newVersion);
+        eSet(Ifc4Package.eINSTANCE.getIfcLibraryInformation_Version(), newVersion);
     }
 
     /**
@@ -113,7 +113,7 @@ public class IfcLibraryInformationImpl extends IfcExternalInformationImpl implem
      */
     @Override
     public void unsetVersion() {
-        eUnset(Ifc4Package.Literals.IFC_LIBRARY_INFORMATION__VERSION);
+        eUnset(Ifc4Package.eINSTANCE.getIfcLibraryInformation_Version());
     }
 
     /**
@@ -123,7 +123,7 @@ public class IfcLibraryInformationImpl extends IfcExternalInformationImpl implem
      */
     @Override
     public boolean isSetVersion() {
-        return eIsSet(Ifc4Package.Literals.IFC_LIBRARY_INFORMATION__VERSION);
+        return eIsSet(Ifc4Package.eINSTANCE.getIfcLibraryInformation_Version());
     }
 
     /**
@@ -133,7 +133,7 @@ public class IfcLibraryInformationImpl extends IfcExternalInformationImpl implem
      */
     @Override
     public IfcActorSelect getPublisher() {
-        return (IfcActorSelect) eGet(Ifc4Package.Literals.IFC_LIBRARY_INFORMATION__PUBLISHER, true);
+        return (IfcActorSelect) eGet(Ifc4Package.eINSTANCE.getIfcLibraryInformation_Publisher(), true);
     }
 
     /**
@@ -143,7 +143,7 @@ public class IfcLibraryInformationImpl extends IfcExternalInformationImpl implem
      */
     @Override
     public void setPublisher(IfcActorSelect newPublisher) {
-        eSet(Ifc4Package.Literals.IFC_LIBRARY_INFORMATION__PUBLISHER, newPublisher);
+        eSet(Ifc4Package.eINSTANCE.getIfcLibraryInformation_Publisher(), newPublisher);
     }
 
     /**
@@ -153,7 +153,7 @@ public class IfcLibraryInformationImpl extends IfcExternalInformationImpl implem
      */
     @Override
     public void unsetPublisher() {
-        eUnset(Ifc4Package.Literals.IFC_LIBRARY_INFORMATION__PUBLISHER);
+        eUnset(Ifc4Package.eINSTANCE.getIfcLibraryInformation_Publisher());
     }
 
     /**
@@ -163,7 +163,7 @@ public class IfcLibraryInformationImpl extends IfcExternalInformationImpl implem
      */
     @Override
     public boolean isSetPublisher() {
-        return eIsSet(Ifc4Package.Literals.IFC_LIBRARY_INFORMATION__PUBLISHER);
+        return eIsSet(Ifc4Package.eINSTANCE.getIfcLibraryInformation_Publisher());
     }
 
     /**
@@ -173,7 +173,7 @@ public class IfcLibraryInformationImpl extends IfcExternalInformationImpl implem
      */
     @Override
     public String getVersionDate() {
-        return (String) eGet(Ifc4Package.Literals.IFC_LIBRARY_INFORMATION__VERSION_DATE, true);
+        return (String) eGet(Ifc4Package.eINSTANCE.getIfcLibraryInformation_VersionDate(), true);
     }
 
     /**
@@ -183,7 +183,7 @@ public class IfcLibraryInformationImpl extends IfcExternalInformationImpl implem
      */
     @Override
     public void setVersionDate(String newVersionDate) {
-        eSet(Ifc4Package.Literals.IFC_LIBRARY_INFORMATION__VERSION_DATE, newVersionDate);
+        eSet(Ifc4Package.eINSTANCE.getIfcLibraryInformation_VersionDate(), newVersionDate);
     }
 
     /**
@@ -193,7 +193,7 @@ public class IfcLibraryInformationImpl extends IfcExternalInformationImpl implem
      */
     @Override
     public void unsetVersionDate() {
-        eUnset(Ifc4Package.Literals.IFC_LIBRARY_INFORMATION__VERSION_DATE);
+        eUnset(Ifc4Package.eINSTANCE.getIfcLibraryInformation_VersionDate());
     }
 
     /**
@@ -203,7 +203,7 @@ public class IfcLibraryInformationImpl extends IfcExternalInformationImpl implem
      */
     @Override
     public boolean isSetVersionDate() {
-        return eIsSet(Ifc4Package.Literals.IFC_LIBRARY_INFORMATION__VERSION_DATE);
+        return eIsSet(Ifc4Package.eINSTANCE.getIfcLibraryInformation_VersionDate());
     }
 
     /**
@@ -213,7 +213,7 @@ public class IfcLibraryInformationImpl extends IfcExternalInformationImpl implem
      */
     @Override
     public String getLocation() {
-        return (String) eGet(Ifc4Package.Literals.IFC_LIBRARY_INFORMATION__LOCATION, true);
+        return (String) eGet(Ifc4Package.eINSTANCE.getIfcLibraryInformation_Location(), true);
     }
 
     /**
@@ -223,7 +223,7 @@ public class IfcLibraryInformationImpl extends IfcExternalInformationImpl implem
      */
     @Override
     public void setLocation(String newLocation) {
-        eSet(Ifc4Package.Literals.IFC_LIBRARY_INFORMATION__LOCATION, newLocation);
+        eSet(Ifc4Package.eINSTANCE.getIfcLibraryInformation_Location(), newLocation);
     }
 
     /**
@@ -233,7 +233,7 @@ public class IfcLibraryInformationImpl extends IfcExternalInformationImpl implem
      */
     @Override
     public void unsetLocation() {
-        eUnset(Ifc4Package.Literals.IFC_LIBRARY_INFORMATION__LOCATION);
+        eUnset(Ifc4Package.eINSTANCE.getIfcLibraryInformation_Location());
     }
 
     /**
@@ -243,7 +243,7 @@ public class IfcLibraryInformationImpl extends IfcExternalInformationImpl implem
      */
     @Override
     public boolean isSetLocation() {
-        return eIsSet(Ifc4Package.Literals.IFC_LIBRARY_INFORMATION__LOCATION);
+        return eIsSet(Ifc4Package.eINSTANCE.getIfcLibraryInformation_Location());
     }
 
     /**
@@ -253,7 +253,7 @@ public class IfcLibraryInformationImpl extends IfcExternalInformationImpl implem
      */
     @Override
     public String getDescription() {
-        return (String) eGet(Ifc4Package.Literals.IFC_LIBRARY_INFORMATION__DESCRIPTION, true);
+        return (String) eGet(Ifc4Package.eINSTANCE.getIfcLibraryInformation_Description(), true);
     }
 
     /**
@@ -263,7 +263,7 @@ public class IfcLibraryInformationImpl extends IfcExternalInformationImpl implem
      */
     @Override
     public void setDescription(String newDescription) {
-        eSet(Ifc4Package.Literals.IFC_LIBRARY_INFORMATION__DESCRIPTION, newDescription);
+        eSet(Ifc4Package.eINSTANCE.getIfcLibraryInformation_Description(), newDescription);
     }
 
     /**
@@ -273,7 +273,7 @@ public class IfcLibraryInformationImpl extends IfcExternalInformationImpl implem
      */
     @Override
     public void unsetDescription() {
-        eUnset(Ifc4Package.Literals.IFC_LIBRARY_INFORMATION__DESCRIPTION);
+        eUnset(Ifc4Package.eINSTANCE.getIfcLibraryInformation_Description());
     }
 
     /**
@@ -283,7 +283,7 @@ public class IfcLibraryInformationImpl extends IfcExternalInformationImpl implem
      */
     @Override
     public boolean isSetDescription() {
-        return eIsSet(Ifc4Package.Literals.IFC_LIBRARY_INFORMATION__DESCRIPTION);
+        return eIsSet(Ifc4Package.eINSTANCE.getIfcLibraryInformation_Description());
     }
 
     /**
@@ -295,7 +295,7 @@ public class IfcLibraryInformationImpl extends IfcExternalInformationImpl implem
     @Override
     public EList<IfcRelAssociatesLibrary> getLibraryInfoForObjects() {
         return (EList<IfcRelAssociatesLibrary>) eGet(
-                Ifc4Package.Literals.IFC_LIBRARY_INFORMATION__LIBRARY_INFO_FOR_OBJECTS, true);
+                Ifc4Package.eINSTANCE.getIfcLibraryInformation_LibraryInfoForObjects(), true);
     }
 
     /**
@@ -305,7 +305,7 @@ public class IfcLibraryInformationImpl extends IfcExternalInformationImpl implem
      */
     @Override
     public void unsetLibraryInfoForObjects() {
-        eUnset(Ifc4Package.Literals.IFC_LIBRARY_INFORMATION__LIBRARY_INFO_FOR_OBJECTS);
+        eUnset(Ifc4Package.eINSTANCE.getIfcLibraryInformation_LibraryInfoForObjects());
     }
 
     /**
@@ -315,7 +315,7 @@ public class IfcLibraryInformationImpl extends IfcExternalInformationImpl implem
      */
     @Override
     public boolean isSetLibraryInfoForObjects() {
-        return eIsSet(Ifc4Package.Literals.IFC_LIBRARY_INFORMATION__LIBRARY_INFO_FOR_OBJECTS);
+        return eIsSet(Ifc4Package.eINSTANCE.getIfcLibraryInformation_LibraryInfoForObjects());
     }
 
     /**
@@ -326,7 +326,7 @@ public class IfcLibraryInformationImpl extends IfcExternalInformationImpl implem
     @SuppressWarnings("unchecked")
     @Override
     public EList<IfcLibraryReference> getHasLibraryReferences() {
-        return (EList<IfcLibraryReference>) eGet(Ifc4Package.Literals.IFC_LIBRARY_INFORMATION__HAS_LIBRARY_REFERENCES,
+        return (EList<IfcLibraryReference>) eGet(Ifc4Package.eINSTANCE.getIfcLibraryInformation_HasLibraryReferences(),
                 true);
     }
 
@@ -337,7 +337,7 @@ public class IfcLibraryInformationImpl extends IfcExternalInformationImpl implem
      */
     @Override
     public void unsetHasLibraryReferences() {
-        eUnset(Ifc4Package.Literals.IFC_LIBRARY_INFORMATION__HAS_LIBRARY_REFERENCES);
+        eUnset(Ifc4Package.eINSTANCE.getIfcLibraryInformation_HasLibraryReferences());
     }
 
     /**
@@ -347,7 +347,7 @@ public class IfcLibraryInformationImpl extends IfcExternalInformationImpl implem
      */
     @Override
     public boolean isSetHasLibraryReferences() {
-        return eIsSet(Ifc4Package.Literals.IFC_LIBRARY_INFORMATION__HAS_LIBRARY_REFERENCES);
+        return eIsSet(Ifc4Package.eINSTANCE.getIfcLibraryInformation_HasLibraryReferences());
     }
 
 } //IfcLibraryInformationImpl

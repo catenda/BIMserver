@@ -52,7 +52,7 @@ public class IfcCableCarrierFittingImpl extends IfcFlowFittingImpl implements If
      */
     @Override
     protected EClass eStaticClass() {
-        return Ifc4Package.Literals.IFC_CABLE_CARRIER_FITTING;
+        return Ifc4Package.eINSTANCE.getIfcCableCarrierFitting();
     }
 
     /**
@@ -62,7 +62,7 @@ public class IfcCableCarrierFittingImpl extends IfcFlowFittingImpl implements If
      */
     @Override
     public IfcCableCarrierFittingTypeEnum getPredefinedType() {
-        return (IfcCableCarrierFittingTypeEnum) eGet(Ifc4Package.Literals.IFC_CABLE_CARRIER_FITTING__PREDEFINED_TYPE,
+        return (IfcCableCarrierFittingTypeEnum) eGet(Ifc4Package.eINSTANCE.getIfcCableCarrierFitting_PredefinedType(),
                 true);
     }
 
@@ -73,7 +73,7 @@ public class IfcCableCarrierFittingImpl extends IfcFlowFittingImpl implements If
      */
     @Override
     public void setPredefinedType(IfcCableCarrierFittingTypeEnum newPredefinedType) {
-        eSet(Ifc4Package.Literals.IFC_CABLE_CARRIER_FITTING__PREDEFINED_TYPE, newPredefinedType);
+        eSet(Ifc4Package.eINSTANCE.getIfcCableCarrierFitting_PredefinedType(), newPredefinedType);
     }
 
     /**
@@ -83,7 +83,7 @@ public class IfcCableCarrierFittingImpl extends IfcFlowFittingImpl implements If
      */
     @Override
     public void unsetPredefinedType() {
-        eUnset(Ifc4Package.Literals.IFC_CABLE_CARRIER_FITTING__PREDEFINED_TYPE);
+        eUnset(Ifc4Package.eINSTANCE.getIfcCableCarrierFitting_PredefinedType());
     }
 
     /**
@@ -93,7 +93,7 @@ public class IfcCableCarrierFittingImpl extends IfcFlowFittingImpl implements If
      */
     @Override
     public boolean isSetPredefinedType() {
-        return eIsSet(Ifc4Package.Literals.IFC_CABLE_CARRIER_FITTING__PREDEFINED_TYPE);
+        return eIsSet(Ifc4Package.eINSTANCE.getIfcCableCarrierFitting_PredefinedType());
     }
 
 } //IfcCableCarrierFittingImpl

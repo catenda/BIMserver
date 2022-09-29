@@ -43,10 +43,6 @@ public interface DownloadResult extends IdEObject {
     /**
      * Returns the value of the '<em><b>Project Name</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Project Name</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Project Name</em>' attribute.
      * @see #setProjectName(String)
@@ -69,10 +65,6 @@ public interface DownloadResult extends IdEObject {
     /**
      * Returns the value of the '<em><b>Revision Nr</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Revision Nr</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Revision Nr</em>' attribute.
      * @see #setRevisionNr(Integer)
@@ -95,10 +87,6 @@ public interface DownloadResult extends IdEObject {
     /**
      * Returns the value of the '<em><b>File</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>File</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>File</em>' attribute.
      * @see #setFile(DataHandler)

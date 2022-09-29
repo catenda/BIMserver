@@ -43,10 +43,6 @@ public interface IfcBoundingBox extends IfcGeometricRepresentationItem {
     /**
      * Returns the value of the '<em><b>Corner</b></em>' reference.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Corner</em>' reference isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Corner</em>' reference.
      * @see #setCorner(IfcCartesianPoint)
@@ -69,10 +65,6 @@ public interface IfcBoundingBox extends IfcGeometricRepresentationItem {
     /**
      * Returns the value of the '<em><b>XDim</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>XDim</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>XDim</em>' attribute.
      * @see #setXDim(double)
@@ -95,10 +87,6 @@ public interface IfcBoundingBox extends IfcGeometricRepresentationItem {
     /**
      * Returns the value of the '<em><b>XDim As String</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>XDim As String</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>XDim As String</em>' attribute.
      * @see #setXDimAsString(String)
@@ -122,10 +110,6 @@ public interface IfcBoundingBox extends IfcGeometricRepresentationItem {
     /**
      * Returns the value of the '<em><b>YDim</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>YDim</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>YDim</em>' attribute.
      * @see #setYDim(double)
@@ -148,10 +132,6 @@ public interface IfcBoundingBox extends IfcGeometricRepresentationItem {
     /**
      * Returns the value of the '<em><b>YDim As String</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>YDim As String</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>YDim As String</em>' attribute.
      * @see #setYDimAsString(String)
@@ -175,10 +155,6 @@ public interface IfcBoundingBox extends IfcGeometricRepresentationItem {
     /**
      * Returns the value of the '<em><b>ZDim</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>ZDim</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>ZDim</em>' attribute.
      * @see #setZDim(double)
@@ -201,10 +177,6 @@ public interface IfcBoundingBox extends IfcGeometricRepresentationItem {
     /**
      * Returns the value of the '<em><b>ZDim As String</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>ZDim As String</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>ZDim As String</em>' attribute.
      * @see #setZDimAsString(String)
@@ -228,10 +200,6 @@ public interface IfcBoundingBox extends IfcGeometricRepresentationItem {
     /**
      * Returns the value of the '<em><b>Dim</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Dim</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Dim</em>' attribute.
      * @see #isSetDim()

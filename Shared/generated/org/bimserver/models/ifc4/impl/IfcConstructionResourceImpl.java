@@ -58,7 +58,7 @@ public class IfcConstructionResourceImpl extends IfcResourceImpl implements IfcC
      */
     @Override
     protected EClass eStaticClass() {
-        return Ifc4Package.Literals.IFC_CONSTRUCTION_RESOURCE;
+        return Ifc4Package.eINSTANCE.getIfcConstructionResource();
     }
 
     /**
@@ -68,7 +68,7 @@ public class IfcConstructionResourceImpl extends IfcResourceImpl implements IfcC
      */
     @Override
     public IfcResourceTime getUsage() {
-        return (IfcResourceTime) eGet(Ifc4Package.Literals.IFC_CONSTRUCTION_RESOURCE__USAGE, true);
+        return (IfcResourceTime) eGet(Ifc4Package.eINSTANCE.getIfcConstructionResource_Usage(), true);
     }
 
     /**
@@ -78,7 +78,7 @@ public class IfcConstructionResourceImpl extends IfcResourceImpl implements IfcC
      */
     @Override
     public void setUsage(IfcResourceTime newUsage) {
-        eSet(Ifc4Package.Literals.IFC_CONSTRUCTION_RESOURCE__USAGE, newUsage);
+        eSet(Ifc4Package.eINSTANCE.getIfcConstructionResource_Usage(), newUsage);
     }
 
     /**
@@ -88,7 +88,7 @@ public class IfcConstructionResourceImpl extends IfcResourceImpl implements IfcC
      */
     @Override
     public void unsetUsage() {
-        eUnset(Ifc4Package.Literals.IFC_CONSTRUCTION_RESOURCE__USAGE);
+        eUnset(Ifc4Package.eINSTANCE.getIfcConstructionResource_Usage());
     }
 
     /**
@@ -98,7 +98,7 @@ public class IfcConstructionResourceImpl extends IfcResourceImpl implements IfcC
      */
     @Override
     public boolean isSetUsage() {
-        return eIsSet(Ifc4Package.Literals.IFC_CONSTRUCTION_RESOURCE__USAGE);
+        return eIsSet(Ifc4Package.eINSTANCE.getIfcConstructionResource_Usage());
     }
 
     /**
@@ -109,7 +109,7 @@ public class IfcConstructionResourceImpl extends IfcResourceImpl implements IfcC
     @SuppressWarnings("unchecked")
     @Override
     public EList<IfcAppliedValue> getBaseCosts() {
-        return (EList<IfcAppliedValue>) eGet(Ifc4Package.Literals.IFC_CONSTRUCTION_RESOURCE__BASE_COSTS, true);
+        return (EList<IfcAppliedValue>) eGet(Ifc4Package.eINSTANCE.getIfcConstructionResource_BaseCosts(), true);
     }
 
     /**
@@ -119,7 +119,7 @@ public class IfcConstructionResourceImpl extends IfcResourceImpl implements IfcC
      */
     @Override
     public void unsetBaseCosts() {
-        eUnset(Ifc4Package.Literals.IFC_CONSTRUCTION_RESOURCE__BASE_COSTS);
+        eUnset(Ifc4Package.eINSTANCE.getIfcConstructionResource_BaseCosts());
     }
 
     /**
@@ -129,7 +129,7 @@ public class IfcConstructionResourceImpl extends IfcResourceImpl implements IfcC
      */
     @Override
     public boolean isSetBaseCosts() {
-        return eIsSet(Ifc4Package.Literals.IFC_CONSTRUCTION_RESOURCE__BASE_COSTS);
+        return eIsSet(Ifc4Package.eINSTANCE.getIfcConstructionResource_BaseCosts());
     }
 
     /**
@@ -139,7 +139,7 @@ public class IfcConstructionResourceImpl extends IfcResourceImpl implements IfcC
      */
     @Override
     public IfcPhysicalQuantity getBaseQuantity() {
-        return (IfcPhysicalQuantity) eGet(Ifc4Package.Literals.IFC_CONSTRUCTION_RESOURCE__BASE_QUANTITY, true);
+        return (IfcPhysicalQuantity) eGet(Ifc4Package.eINSTANCE.getIfcConstructionResource_BaseQuantity(), true);
     }
 
     /**
@@ -149,7 +149,7 @@ public class IfcConstructionResourceImpl extends IfcResourceImpl implements IfcC
      */
     @Override
     public void setBaseQuantity(IfcPhysicalQuantity newBaseQuantity) {
-        eSet(Ifc4Package.Literals.IFC_CONSTRUCTION_RESOURCE__BASE_QUANTITY, newBaseQuantity);
+        eSet(Ifc4Package.eINSTANCE.getIfcConstructionResource_BaseQuantity(), newBaseQuantity);
     }
 
     /**
@@ -159,7 +159,7 @@ public class IfcConstructionResourceImpl extends IfcResourceImpl implements IfcC
      */
     @Override
     public void unsetBaseQuantity() {
-        eUnset(Ifc4Package.Literals.IFC_CONSTRUCTION_RESOURCE__BASE_QUANTITY);
+        eUnset(Ifc4Package.eINSTANCE.getIfcConstructionResource_BaseQuantity());
     }
 
     /**
@@ -169,7 +169,7 @@ public class IfcConstructionResourceImpl extends IfcResourceImpl implements IfcC
      */
     @Override
     public boolean isSetBaseQuantity() {
-        return eIsSet(Ifc4Package.Literals.IFC_CONSTRUCTION_RESOURCE__BASE_QUANTITY);
+        return eIsSet(Ifc4Package.eINSTANCE.getIfcConstructionResource_BaseQuantity());
     }
 
 } //IfcConstructionResourceImpl

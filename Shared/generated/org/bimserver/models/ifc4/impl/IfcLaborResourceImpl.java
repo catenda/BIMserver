@@ -52,7 +52,7 @@ public class IfcLaborResourceImpl extends IfcConstructionResourceImpl implements
      */
     @Override
     protected EClass eStaticClass() {
-        return Ifc4Package.Literals.IFC_LABOR_RESOURCE;
+        return Ifc4Package.eINSTANCE.getIfcLaborResource();
     }
 
     /**
@@ -62,7 +62,7 @@ public class IfcLaborResourceImpl extends IfcConstructionResourceImpl implements
      */
     @Override
     public IfcLaborResourceTypeEnum getPredefinedType() {
-        return (IfcLaborResourceTypeEnum) eGet(Ifc4Package.Literals.IFC_LABOR_RESOURCE__PREDEFINED_TYPE, true);
+        return (IfcLaborResourceTypeEnum) eGet(Ifc4Package.eINSTANCE.getIfcLaborResource_PredefinedType(), true);
     }
 
     /**
@@ -72,7 +72,7 @@ public class IfcLaborResourceImpl extends IfcConstructionResourceImpl implements
      */
     @Override
     public void setPredefinedType(IfcLaborResourceTypeEnum newPredefinedType) {
-        eSet(Ifc4Package.Literals.IFC_LABOR_RESOURCE__PREDEFINED_TYPE, newPredefinedType);
+        eSet(Ifc4Package.eINSTANCE.getIfcLaborResource_PredefinedType(), newPredefinedType);
     }
 
     /**
@@ -82,7 +82,7 @@ public class IfcLaborResourceImpl extends IfcConstructionResourceImpl implements
      */
     @Override
     public void unsetPredefinedType() {
-        eUnset(Ifc4Package.Literals.IFC_LABOR_RESOURCE__PREDEFINED_TYPE);
+        eUnset(Ifc4Package.eINSTANCE.getIfcLaborResource_PredefinedType());
     }
 
     /**
@@ -92,7 +92,7 @@ public class IfcLaborResourceImpl extends IfcConstructionResourceImpl implements
      */
     @Override
     public boolean isSetPredefinedType() {
-        return eIsSet(Ifc4Package.Literals.IFC_LABOR_RESOURCE__PREDEFINED_TYPE);
+        return eIsSet(Ifc4Package.eINSTANCE.getIfcLaborResource_PredefinedType());
     }
 
 } //IfcLaborResourceImpl

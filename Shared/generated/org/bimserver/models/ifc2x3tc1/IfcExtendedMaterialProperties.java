@@ -41,10 +41,6 @@ public interface IfcExtendedMaterialProperties extends IfcMaterialProperties {
      * Returns the value of the '<em><b>Extended Properties</b></em>' reference list.
      * The list contents are of type {@link org.bimserver.models.ifc2x3tc1.IfcProperty}.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Extended Properties</em>' reference list isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Extended Properties</em>' reference list.
      * @see org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package#getIfcExtendedMaterialProperties_ExtendedProperties()
@@ -56,10 +52,6 @@ public interface IfcExtendedMaterialProperties extends IfcMaterialProperties {
     /**
      * Returns the value of the '<em><b>Description</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Description</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Description</em>' attribute.
      * @see #isSetDescription()
@@ -109,10 +101,6 @@ public interface IfcExtendedMaterialProperties extends IfcMaterialProperties {
     /**
      * Returns the value of the '<em><b>Name</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Name</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Name</em>' attribute.
      * @see #setName(String)

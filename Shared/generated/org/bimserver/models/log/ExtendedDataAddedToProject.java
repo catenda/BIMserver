@@ -40,10 +40,6 @@ public interface ExtendedDataAddedToProject extends LogAction {
     /**
      * Returns the value of the '<em><b>Project</b></em>' reference.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Project</em>' reference isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Project</em>' reference.
      * @see #setProject(Project)
@@ -66,10 +62,6 @@ public interface ExtendedDataAddedToProject extends LogAction {
     /**
      * Returns the value of the '<em><b>Extended Data</b></em>' reference.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Extended Data</em>' reference isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Extended Data</em>' reference.
      * @see #setExtendedData(ExtendedData)

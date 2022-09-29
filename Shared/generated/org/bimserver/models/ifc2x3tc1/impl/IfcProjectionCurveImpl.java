@@ -45,7 +45,7 @@ public class IfcProjectionCurveImpl extends IfcAnnotationCurveOccurrenceImpl imp
      */
     @Override
     protected EClass eStaticClass() {
-        return Ifc2x3tc1Package.Literals.IFC_PROJECTION_CURVE;
+        return Ifc2x3tc1Package.eINSTANCE.getIfcProjectionCurve();
     }
 
 } //IfcProjectionCurveImpl

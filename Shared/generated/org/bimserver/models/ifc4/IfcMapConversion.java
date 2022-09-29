@@ -47,10 +47,6 @@ public interface IfcMapConversion extends IfcCoordinateOperation {
     /**
      * Returns the value of the '<em><b>Eastings</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Eastings</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Eastings</em>' attribute.
      * @see #setEastings(double)
@@ -73,10 +69,6 @@ public interface IfcMapConversion extends IfcCoordinateOperation {
     /**
      * Returns the value of the '<em><b>Eastings As String</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Eastings As String</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Eastings As String</em>' attribute.
      * @see #setEastingsAsString(String)
@@ -100,10 +92,6 @@ public interface IfcMapConversion extends IfcCoordinateOperation {
     /**
      * Returns the value of the '<em><b>Northings</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Northings</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Northings</em>' attribute.
      * @see #setNorthings(double)
@@ -126,10 +114,6 @@ public interface IfcMapConversion extends IfcCoordinateOperation {
     /**
      * Returns the value of the '<em><b>Northings As String</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Northings As String</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Northings As String</em>' attribute.
      * @see #setNorthingsAsString(String)
@@ -153,10 +137,6 @@ public interface IfcMapConversion extends IfcCoordinateOperation {
     /**
      * Returns the value of the '<em><b>Orthogonal Height</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Orthogonal Height</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Orthogonal Height</em>' attribute.
      * @see #setOrthogonalHeight(double)
@@ -179,10 +159,6 @@ public interface IfcMapConversion extends IfcCoordinateOperation {
     /**
      * Returns the value of the '<em><b>Orthogonal Height As String</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Orthogonal Height As String</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Orthogonal Height As String</em>' attribute.
      * @see #setOrthogonalHeightAsString(String)
@@ -206,10 +182,6 @@ public interface IfcMapConversion extends IfcCoordinateOperation {
     /**
      * Returns the value of the '<em><b>XAxis Abscissa</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>XAxis Abscissa</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>XAxis Abscissa</em>' attribute.
      * @see #isSetXAxisAbscissa()
@@ -259,10 +231,6 @@ public interface IfcMapConversion extends IfcCoordinateOperation {
     /**
      * Returns the value of the '<em><b>XAxis Abscissa As String</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>XAxis Abscissa As String</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>XAxis Abscissa As String</em>' attribute.
      * @see #isSetXAxisAbscissaAsString()
@@ -314,10 +282,6 @@ public interface IfcMapConversion extends IfcCoordinateOperation {
     /**
      * Returns the value of the '<em><b>XAxis Ordinate</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>XAxis Ordinate</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>XAxis Ordinate</em>' attribute.
      * @see #isSetXAxisOrdinate()
@@ -367,10 +331,6 @@ public interface IfcMapConversion extends IfcCoordinateOperation {
     /**
      * Returns the value of the '<em><b>XAxis Ordinate As String</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>XAxis Ordinate As String</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>XAxis Ordinate As String</em>' attribute.
      * @see #isSetXAxisOrdinateAsString()
@@ -422,10 +382,6 @@ public interface IfcMapConversion extends IfcCoordinateOperation {
     /**
      * Returns the value of the '<em><b>Scale</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Scale</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Scale</em>' attribute.
      * @see #isSetScale()
@@ -475,10 +431,6 @@ public interface IfcMapConversion extends IfcCoordinateOperation {
     /**
      * Returns the value of the '<em><b>Scale As String</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Scale As String</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Scale As String</em>' attribute.
      * @see #isSetScaleAsString()

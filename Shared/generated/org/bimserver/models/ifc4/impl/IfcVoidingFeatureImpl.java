@@ -52,7 +52,7 @@ public class IfcVoidingFeatureImpl extends IfcFeatureElementSubtractionImpl impl
      */
     @Override
     protected EClass eStaticClass() {
-        return Ifc4Package.Literals.IFC_VOIDING_FEATURE;
+        return Ifc4Package.eINSTANCE.getIfcVoidingFeature();
     }
 
     /**
@@ -62,7 +62,7 @@ public class IfcVoidingFeatureImpl extends IfcFeatureElementSubtractionImpl impl
      */
     @Override
     public IfcVoidingFeatureTypeEnum getPredefinedType() {
-        return (IfcVoidingFeatureTypeEnum) eGet(Ifc4Package.Literals.IFC_VOIDING_FEATURE__PREDEFINED_TYPE, true);
+        return (IfcVoidingFeatureTypeEnum) eGet(Ifc4Package.eINSTANCE.getIfcVoidingFeature_PredefinedType(), true);
     }
 
     /**
@@ -72,7 +72,7 @@ public class IfcVoidingFeatureImpl extends IfcFeatureElementSubtractionImpl impl
      */
     @Override
     public void setPredefinedType(IfcVoidingFeatureTypeEnum newPredefinedType) {
-        eSet(Ifc4Package.Literals.IFC_VOIDING_FEATURE__PREDEFINED_TYPE, newPredefinedType);
+        eSet(Ifc4Package.eINSTANCE.getIfcVoidingFeature_PredefinedType(), newPredefinedType);
     }
 
     /**
@@ -82,7 +82,7 @@ public class IfcVoidingFeatureImpl extends IfcFeatureElementSubtractionImpl impl
      */
     @Override
     public void unsetPredefinedType() {
-        eUnset(Ifc4Package.Literals.IFC_VOIDING_FEATURE__PREDEFINED_TYPE);
+        eUnset(Ifc4Package.eINSTANCE.getIfcVoidingFeature_PredefinedType());
     }
 
     /**
@@ -92,7 +92,7 @@ public class IfcVoidingFeatureImpl extends IfcFeatureElementSubtractionImpl impl
      */
     @Override
     public boolean isSetPredefinedType() {
-        return eIsSet(Ifc4Package.Literals.IFC_VOIDING_FEATURE__PREDEFINED_TYPE);
+        return eIsSet(Ifc4Package.eINSTANCE.getIfcVoidingFeature_PredefinedType());
     }
 
 } //IfcVoidingFeatureImpl

@@ -45,7 +45,7 @@ public class IfcLanguageIdImpl extends IfcIdentifierImpl implements IfcLanguageI
      */
     @Override
     protected EClass eStaticClass() {
-        return Ifc4Package.Literals.IFC_LANGUAGE_ID;
+        return Ifc4Package.eINSTANCE.getIfcLanguageId();
     }
 
 } //IfcLanguageIdImpl

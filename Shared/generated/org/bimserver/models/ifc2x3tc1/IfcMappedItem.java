@@ -38,10 +38,6 @@ public interface IfcMappedItem extends IfcRepresentationItem {
      * Returns the value of the '<em><b>Mapping Source</b></em>' reference.
      * It is bidirectional and its opposite is '{@link org.bimserver.models.ifc2x3tc1.IfcRepresentationMap#getMapUsage <em>Map Usage</em>}'.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Mapping Source</em>' reference isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Mapping Source</em>' reference.
      * @see #setMappingSource(IfcRepresentationMap)
@@ -66,10 +62,6 @@ public interface IfcMappedItem extends IfcRepresentationItem {
     /**
      * Returns the value of the '<em><b>Mapping Target</b></em>' reference.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Mapping Target</em>' reference isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Mapping Target</em>' reference.
      * @see #setMappingTarget(IfcCartesianTransformationOperator)

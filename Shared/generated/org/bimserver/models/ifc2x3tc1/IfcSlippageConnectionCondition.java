@@ -41,10 +41,6 @@ public interface IfcSlippageConnectionCondition extends IfcStructuralConnectionC
     /**
      * Returns the value of the '<em><b>Slippage X</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Slippage X</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Slippage X</em>' attribute.
      * @see #isSetSlippageX()
@@ -94,10 +90,6 @@ public interface IfcSlippageConnectionCondition extends IfcStructuralConnectionC
     /**
      * Returns the value of the '<em><b>Slippage XAs String</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Slippage XAs String</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Slippage XAs String</em>' attribute.
      * @see #isSetSlippageXAsString()
@@ -149,10 +141,6 @@ public interface IfcSlippageConnectionCondition extends IfcStructuralConnectionC
     /**
      * Returns the value of the '<em><b>Slippage Y</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Slippage Y</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Slippage Y</em>' attribute.
      * @see #isSetSlippageY()
@@ -202,10 +190,6 @@ public interface IfcSlippageConnectionCondition extends IfcStructuralConnectionC
     /**
      * Returns the value of the '<em><b>Slippage YAs String</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Slippage YAs String</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Slippage YAs String</em>' attribute.
      * @see #isSetSlippageYAsString()
@@ -257,10 +241,6 @@ public interface IfcSlippageConnectionCondition extends IfcStructuralConnectionC
     /**
      * Returns the value of the '<em><b>Slippage Z</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Slippage Z</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Slippage Z</em>' attribute.
      * @see #isSetSlippageZ()
@@ -310,10 +290,6 @@ public interface IfcSlippageConnectionCondition extends IfcStructuralConnectionC
     /**
      * Returns the value of the '<em><b>Slippage ZAs String</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Slippage ZAs String</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Slippage ZAs String</em>' attribute.
      * @see #isSetSlippageZAsString()

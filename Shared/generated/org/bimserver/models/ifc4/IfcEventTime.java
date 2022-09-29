@@ -39,10 +39,6 @@ public interface IfcEventTime extends IfcSchedulingTime {
     /**
      * Returns the value of the '<em><b>Actual Date</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Actual Date</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Actual Date</em>' attribute.
      * @see #isSetActualDate()
@@ -92,10 +88,6 @@ public interface IfcEventTime extends IfcSchedulingTime {
     /**
      * Returns the value of the '<em><b>Early Date</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Early Date</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Early Date</em>' attribute.
      * @see #isSetEarlyDate()
@@ -145,10 +137,6 @@ public interface IfcEventTime extends IfcSchedulingTime {
     /**
      * Returns the value of the '<em><b>Late Date</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Late Date</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Late Date</em>' attribute.
      * @see #isSetLateDate()
@@ -198,10 +186,6 @@ public interface IfcEventTime extends IfcSchedulingTime {
     /**
      * Returns the value of the '<em><b>Schedule Date</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Schedule Date</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Schedule Date</em>' attribute.
      * @see #isSetScheduleDate()

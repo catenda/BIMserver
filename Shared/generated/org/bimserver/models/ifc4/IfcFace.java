@@ -40,10 +40,6 @@ public interface IfcFace extends IfcTopologicalRepresentationItem {
      * Returns the value of the '<em><b>Bounds</b></em>' reference list.
      * The list contents are of type {@link org.bimserver.models.ifc4.IfcFaceBound}.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Bounds</em>' reference list isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Bounds</em>' reference list.
      * @see org.bimserver.models.ifc4.Ifc4Package#getIfcFace_Bounds()
@@ -57,10 +53,6 @@ public interface IfcFace extends IfcTopologicalRepresentationItem {
      * The list contents are of type {@link org.bimserver.models.ifc4.IfcTextureMap}.
      * It is bidirectional and its opposite is '{@link org.bimserver.models.ifc4.IfcTextureMap#getMappedTo <em>Mapped To</em>}'.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Has Texture Maps</em>' reference list isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Has Texture Maps</em>' reference list.
      * @see #isSetHasTextureMaps()

@@ -75,10 +75,6 @@ public enum ProgressTopicType implements Enumerator {
     /**
      * The '<em><b>DOWNLOAD</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>DOWNLOAD</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #DOWNLOAD
      * @model
@@ -90,10 +86,6 @@ public enum ProgressTopicType implements Enumerator {
     /**
      * The '<em><b>UPLOAD</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>UPLOAD</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #UPLOAD
      * @model
@@ -105,10 +97,6 @@ public enum ProgressTopicType implements Enumerator {
     /**
      * The '<em><b>RUNNING SERVICE</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>RUNNING SERVICE</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #RUNNING_SERVICE
      * @model
@@ -120,10 +108,6 @@ public enum ProgressTopicType implements Enumerator {
     /**
      * The '<em><b>BRANCH</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>BRANCH</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #BRANCH
      * @model

@@ -45,7 +45,7 @@ public class IfcElectricalElementImpl extends IfcElementImpl implements IfcElect
      */
     @Override
     protected EClass eStaticClass() {
-        return Ifc2x3tc1Package.Literals.IFC_ELECTRICAL_ELEMENT;
+        return Ifc2x3tc1Package.eINSTANCE.getIfcElectricalElement();
     }
 
 } //IfcElectricalElementImpl

@@ -52,7 +52,7 @@ public class IfcFootingTypeImpl extends IfcBuildingElementTypeImpl implements If
      */
     @Override
     protected EClass eStaticClass() {
-        return Ifc4Package.Literals.IFC_FOOTING_TYPE;
+        return Ifc4Package.eINSTANCE.getIfcFootingType();
     }
 
     /**
@@ -62,7 +62,7 @@ public class IfcFootingTypeImpl extends IfcBuildingElementTypeImpl implements If
      */
     @Override
     public IfcFootingTypeEnum getPredefinedType() {
-        return (IfcFootingTypeEnum) eGet(Ifc4Package.Literals.IFC_FOOTING_TYPE__PREDEFINED_TYPE, true);
+        return (IfcFootingTypeEnum) eGet(Ifc4Package.eINSTANCE.getIfcFootingType_PredefinedType(), true);
     }
 
     /**
@@ -72,7 +72,7 @@ public class IfcFootingTypeImpl extends IfcBuildingElementTypeImpl implements If
      */
     @Override
     public void setPredefinedType(IfcFootingTypeEnum newPredefinedType) {
-        eSet(Ifc4Package.Literals.IFC_FOOTING_TYPE__PREDEFINED_TYPE, newPredefinedType);
+        eSet(Ifc4Package.eINSTANCE.getIfcFootingType_PredefinedType(), newPredefinedType);
     }
 
 } //IfcFootingTypeImpl

@@ -46,10 +46,6 @@ public interface IfcConstraint extends IfcResourceObjectSelect {
     /**
      * Returns the value of the '<em><b>Name</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Name</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Name</em>' attribute.
      * @see #setName(String)
@@ -72,10 +68,6 @@ public interface IfcConstraint extends IfcResourceObjectSelect {
     /**
      * Returns the value of the '<em><b>Description</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Description</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Description</em>' attribute.
      * @see #isSetDescription()
@@ -126,10 +118,6 @@ public interface IfcConstraint extends IfcResourceObjectSelect {
      * Returns the value of the '<em><b>Constraint Grade</b></em>' attribute.
      * The literals are from the enumeration {@link org.bimserver.models.ifc4.IfcConstraintEnum}.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Constraint Grade</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Constraint Grade</em>' attribute.
      * @see org.bimserver.models.ifc4.IfcConstraintEnum
@@ -154,10 +142,6 @@ public interface IfcConstraint extends IfcResourceObjectSelect {
     /**
      * Returns the value of the '<em><b>Constraint Source</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Constraint Source</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Constraint Source</em>' attribute.
      * @see #isSetConstraintSource()
@@ -207,10 +191,6 @@ public interface IfcConstraint extends IfcResourceObjectSelect {
     /**
      * Returns the value of the '<em><b>Creating Actor</b></em>' reference.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Creating Actor</em>' reference isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Creating Actor</em>' reference.
      * @see #isSetCreatingActor()
@@ -260,10 +240,6 @@ public interface IfcConstraint extends IfcResourceObjectSelect {
     /**
      * Returns the value of the '<em><b>Creation Time</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Creation Time</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Creation Time</em>' attribute.
      * @see #isSetCreationTime()
@@ -313,10 +289,6 @@ public interface IfcConstraint extends IfcResourceObjectSelect {
     /**
      * Returns the value of the '<em><b>User Defined Grade</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>User Defined Grade</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>User Defined Grade</em>' attribute.
      * @see #isSetUserDefinedGrade()
@@ -367,10 +339,6 @@ public interface IfcConstraint extends IfcResourceObjectSelect {
      * Returns the value of the '<em><b>Has External References</b></em>' reference list.
      * The list contents are of type {@link org.bimserver.models.ifc4.IfcExternalReferenceRelationship}.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Has External References</em>' reference list isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Has External References</em>' reference list.
      * @see #isSetHasExternalReferences()
@@ -408,10 +376,6 @@ public interface IfcConstraint extends IfcResourceObjectSelect {
      * The list contents are of type {@link org.bimserver.models.ifc4.IfcResourceConstraintRelationship}.
      * It is bidirectional and its opposite is '{@link org.bimserver.models.ifc4.IfcResourceConstraintRelationship#getRelatingConstraint <em>Relating Constraint</em>}'.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Properties For Constraint</em>' reference list isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Properties For Constraint</em>' reference list.
      * @see #isSetPropertiesForConstraint()

@@ -54,7 +54,7 @@ public class IfcToroidalSurfaceImpl extends IfcElementarySurfaceImpl implements 
      */
     @Override
     protected EClass eStaticClass() {
-        return Ifc4Package.Literals.IFC_TOROIDAL_SURFACE;
+        return Ifc4Package.eINSTANCE.getIfcToroidalSurface();
     }
 
     /**
@@ -64,7 +64,7 @@ public class IfcToroidalSurfaceImpl extends IfcElementarySurfaceImpl implements 
      */
     @Override
     public double getMajorRadius() {
-        return (Double) eGet(Ifc4Package.Literals.IFC_TOROIDAL_SURFACE__MAJOR_RADIUS, true);
+        return (Double) eGet(Ifc4Package.eINSTANCE.getIfcToroidalSurface_MajorRadius(), true);
     }
 
     /**
@@ -74,7 +74,7 @@ public class IfcToroidalSurfaceImpl extends IfcElementarySurfaceImpl implements 
      */
     @Override
     public void setMajorRadius(double newMajorRadius) {
-        eSet(Ifc4Package.Literals.IFC_TOROIDAL_SURFACE__MAJOR_RADIUS, newMajorRadius);
+        eSet(Ifc4Package.eINSTANCE.getIfcToroidalSurface_MajorRadius(), newMajorRadius);
     }
 
     /**
@@ -84,7 +84,7 @@ public class IfcToroidalSurfaceImpl extends IfcElementarySurfaceImpl implements 
      */
     @Override
     public String getMajorRadiusAsString() {
-        return (String) eGet(Ifc4Package.Literals.IFC_TOROIDAL_SURFACE__MAJOR_RADIUS_AS_STRING, true);
+        return (String) eGet(Ifc4Package.eINSTANCE.getIfcToroidalSurface_MajorRadiusAsString(), true);
     }
 
     /**
@@ -94,7 +94,7 @@ public class IfcToroidalSurfaceImpl extends IfcElementarySurfaceImpl implements 
      */
     @Override
     public void setMajorRadiusAsString(String newMajorRadiusAsString) {
-        eSet(Ifc4Package.Literals.IFC_TOROIDAL_SURFACE__MAJOR_RADIUS_AS_STRING, newMajorRadiusAsString);
+        eSet(Ifc4Package.eINSTANCE.getIfcToroidalSurface_MajorRadiusAsString(), newMajorRadiusAsString);
     }
 
     /**
@@ -104,7 +104,7 @@ public class IfcToroidalSurfaceImpl extends IfcElementarySurfaceImpl implements 
      */
     @Override
     public double getMinorRadius() {
-        return (Double) eGet(Ifc4Package.Literals.IFC_TOROIDAL_SURFACE__MINOR_RADIUS, true);
+        return (Double) eGet(Ifc4Package.eINSTANCE.getIfcToroidalSurface_MinorRadius(), true);
     }
 
     /**
@@ -114,7 +114,7 @@ public class IfcToroidalSurfaceImpl extends IfcElementarySurfaceImpl implements 
      */
     @Override
     public void setMinorRadius(double newMinorRadius) {
-        eSet(Ifc4Package.Literals.IFC_TOROIDAL_SURFACE__MINOR_RADIUS, newMinorRadius);
+        eSet(Ifc4Package.eINSTANCE.getIfcToroidalSurface_MinorRadius(), newMinorRadius);
     }
 
     /**
@@ -124,7 +124,7 @@ public class IfcToroidalSurfaceImpl extends IfcElementarySurfaceImpl implements 
      */
     @Override
     public String getMinorRadiusAsString() {
-        return (String) eGet(Ifc4Package.Literals.IFC_TOROIDAL_SURFACE__MINOR_RADIUS_AS_STRING, true);
+        return (String) eGet(Ifc4Package.eINSTANCE.getIfcToroidalSurface_MinorRadiusAsString(), true);
     }
 
     /**
@@ -134,7 +134,7 @@ public class IfcToroidalSurfaceImpl extends IfcElementarySurfaceImpl implements 
      */
     @Override
     public void setMinorRadiusAsString(String newMinorRadiusAsString) {
-        eSet(Ifc4Package.Literals.IFC_TOROIDAL_SURFACE__MINOR_RADIUS_AS_STRING, newMinorRadiusAsString);
+        eSet(Ifc4Package.eINSTANCE.getIfcToroidalSurface_MinorRadiusAsString(), newMinorRadiusAsString);
     }
 
 } //IfcToroidalSurfaceImpl

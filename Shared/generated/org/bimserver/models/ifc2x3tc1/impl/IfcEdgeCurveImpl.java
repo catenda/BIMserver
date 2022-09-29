@@ -54,7 +54,7 @@ public class IfcEdgeCurveImpl extends IfcEdgeImpl implements IfcEdgeCurve {
      */
     @Override
     protected EClass eStaticClass() {
-        return Ifc2x3tc1Package.Literals.IFC_EDGE_CURVE;
+        return Ifc2x3tc1Package.eINSTANCE.getIfcEdgeCurve();
     }
 
     /**
@@ -64,7 +64,7 @@ public class IfcEdgeCurveImpl extends IfcEdgeImpl implements IfcEdgeCurve {
      */
     @Override
     public IfcCurve getEdgeGeometry() {
-        return (IfcCurve) eGet(Ifc2x3tc1Package.Literals.IFC_EDGE_CURVE__EDGE_GEOMETRY, true);
+        return (IfcCurve) eGet(Ifc2x3tc1Package.eINSTANCE.getIfcEdgeCurve_EdgeGeometry(), true);
     }
 
     /**
@@ -74,7 +74,7 @@ public class IfcEdgeCurveImpl extends IfcEdgeImpl implements IfcEdgeCurve {
      */
     @Override
     public void setEdgeGeometry(IfcCurve newEdgeGeometry) {
-        eSet(Ifc2x3tc1Package.Literals.IFC_EDGE_CURVE__EDGE_GEOMETRY, newEdgeGeometry);
+        eSet(Ifc2x3tc1Package.eINSTANCE.getIfcEdgeCurve_EdgeGeometry(), newEdgeGeometry);
     }
 
     /**
@@ -84,7 +84,7 @@ public class IfcEdgeCurveImpl extends IfcEdgeImpl implements IfcEdgeCurve {
      */
     @Override
     public Tristate getSameSense() {
-        return (Tristate) eGet(Ifc2x3tc1Package.Literals.IFC_EDGE_CURVE__SAME_SENSE, true);
+        return (Tristate) eGet(Ifc2x3tc1Package.eINSTANCE.getIfcEdgeCurve_SameSense(), true);
     }
 
     /**
@@ -94,7 +94,7 @@ public class IfcEdgeCurveImpl extends IfcEdgeImpl implements IfcEdgeCurve {
      */
     @Override
     public void setSameSense(Tristate newSameSense) {
-        eSet(Ifc2x3tc1Package.Literals.IFC_EDGE_CURVE__SAME_SENSE, newSameSense);
+        eSet(Ifc2x3tc1Package.eINSTANCE.getIfcEdgeCurve_SameSense(), newSameSense);
     }
 
 } //IfcEdgeCurveImpl

@@ -38,10 +38,6 @@ public interface IfcRevolvedAreaSolid extends IfcSweptAreaSolid {
     /**
      * Returns the value of the '<em><b>Axis</b></em>' reference.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Axis</em>' reference isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Axis</em>' reference.
      * @see #setAxis(IfcAxis1Placement)
@@ -64,10 +60,6 @@ public interface IfcRevolvedAreaSolid extends IfcSweptAreaSolid {
     /**
      * Returns the value of the '<em><b>Angle</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Angle</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Angle</em>' attribute.
      * @see #setAngle(double)
@@ -90,10 +82,6 @@ public interface IfcRevolvedAreaSolid extends IfcSweptAreaSolid {
     /**
      * Returns the value of the '<em><b>Angle As String</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Angle As String</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Angle As String</em>' attribute.
      * @see #setAngleAsString(String)

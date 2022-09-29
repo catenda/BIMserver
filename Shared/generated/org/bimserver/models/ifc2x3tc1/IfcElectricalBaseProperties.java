@@ -50,10 +50,6 @@ public interface IfcElectricalBaseProperties extends IfcEnergyProperties {
      * Returns the value of the '<em><b>Electric Current Type</b></em>' attribute.
      * The literals are from the enumeration {@link org.bimserver.models.ifc2x3tc1.IfcElectricCurrentEnum}.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Electric Current Type</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Electric Current Type</em>' attribute.
      * @see org.bimserver.models.ifc2x3tc1.IfcElectricCurrentEnum
@@ -105,10 +101,6 @@ public interface IfcElectricalBaseProperties extends IfcEnergyProperties {
     /**
      * Returns the value of the '<em><b>Input Voltage</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Input Voltage</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Input Voltage</em>' attribute.
      * @see #setInputVoltage(double)
@@ -131,10 +123,6 @@ public interface IfcElectricalBaseProperties extends IfcEnergyProperties {
     /**
      * Returns the value of the '<em><b>Input Voltage As String</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Input Voltage As String</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Input Voltage As String</em>' attribute.
      * @see #setInputVoltageAsString(String)
@@ -158,10 +146,6 @@ public interface IfcElectricalBaseProperties extends IfcEnergyProperties {
     /**
      * Returns the value of the '<em><b>Input Frequency</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Input Frequency</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Input Frequency</em>' attribute.
      * @see #setInputFrequency(double)
@@ -184,10 +168,6 @@ public interface IfcElectricalBaseProperties extends IfcEnergyProperties {
     /**
      * Returns the value of the '<em><b>Input Frequency As String</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Input Frequency As String</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Input Frequency As String</em>' attribute.
      * @see #setInputFrequencyAsString(String)
@@ -211,10 +191,6 @@ public interface IfcElectricalBaseProperties extends IfcEnergyProperties {
     /**
      * Returns the value of the '<em><b>Full Load Current</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Full Load Current</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Full Load Current</em>' attribute.
      * @see #isSetFullLoadCurrent()
@@ -264,10 +240,6 @@ public interface IfcElectricalBaseProperties extends IfcEnergyProperties {
     /**
      * Returns the value of the '<em><b>Full Load Current As String</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Full Load Current As String</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Full Load Current As String</em>' attribute.
      * @see #isSetFullLoadCurrentAsString()
@@ -319,10 +291,6 @@ public interface IfcElectricalBaseProperties extends IfcEnergyProperties {
     /**
      * Returns the value of the '<em><b>Minimum Circuit Current</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Minimum Circuit Current</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Minimum Circuit Current</em>' attribute.
      * @see #isSetMinimumCircuitCurrent()
@@ -372,10 +340,6 @@ public interface IfcElectricalBaseProperties extends IfcEnergyProperties {
     /**
      * Returns the value of the '<em><b>Minimum Circuit Current As String</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Minimum Circuit Current As String</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Minimum Circuit Current As String</em>' attribute.
      * @see #isSetMinimumCircuitCurrentAsString()
@@ -427,10 +391,6 @@ public interface IfcElectricalBaseProperties extends IfcEnergyProperties {
     /**
      * Returns the value of the '<em><b>Maximum Power Input</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Maximum Power Input</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Maximum Power Input</em>' attribute.
      * @see #isSetMaximumPowerInput()
@@ -480,10 +440,6 @@ public interface IfcElectricalBaseProperties extends IfcEnergyProperties {
     /**
      * Returns the value of the '<em><b>Maximum Power Input As String</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Maximum Power Input As String</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Maximum Power Input As String</em>' attribute.
      * @see #isSetMaximumPowerInputAsString()
@@ -535,10 +491,6 @@ public interface IfcElectricalBaseProperties extends IfcEnergyProperties {
     /**
      * Returns the value of the '<em><b>Rated Power Input</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Rated Power Input</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Rated Power Input</em>' attribute.
      * @see #isSetRatedPowerInput()
@@ -588,10 +540,6 @@ public interface IfcElectricalBaseProperties extends IfcEnergyProperties {
     /**
      * Returns the value of the '<em><b>Rated Power Input As String</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Rated Power Input As String</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Rated Power Input As String</em>' attribute.
      * @see #isSetRatedPowerInputAsString()
@@ -643,10 +591,6 @@ public interface IfcElectricalBaseProperties extends IfcEnergyProperties {
     /**
      * Returns the value of the '<em><b>Input Phase</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Input Phase</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Input Phase</em>' attribute.
      * @see #setInputPhase(long)

@@ -55,7 +55,7 @@ public class ListOfELongImpl extends IdEObjectImpl implements ListOfELong {
      */
     @Override
     protected EClass eStaticClass() {
-        return Ifc4Package.Literals.LIST_OF_ELONG;
+        return Ifc4Package.eINSTANCE.getListOfELong();
     }
 
     /**
@@ -76,7 +76,7 @@ public class ListOfELongImpl extends IdEObjectImpl implements ListOfELong {
     @SuppressWarnings("unchecked")
     @Override
     public EList<Long> getList() {
-        return (EList<Long>) eGet(Ifc4Package.Literals.LIST_OF_ELONG__LIST, true);
+        return (EList<Long>) eGet(Ifc4Package.eINSTANCE.getListOfELong_List(), true);
     }
 
 } //ListOfELongImpl

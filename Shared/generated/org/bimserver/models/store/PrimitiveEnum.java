@@ -85,10 +85,6 @@ public enum PrimitiveEnum implements Enumerator {
     /**
      * The '<em><b>LONG</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>LONG</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #LONG
      * @model
@@ -100,10 +96,6 @@ public enum PrimitiveEnum implements Enumerator {
     /**
      * The '<em><b>DOUBLE</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>DOUBLE</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #DOUBLE
      * @model
@@ -115,10 +107,6 @@ public enum PrimitiveEnum implements Enumerator {
     /**
      * The '<em><b>BOOLEAN</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>BOOLEAN</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #BOOLEAN
      * @model
@@ -130,10 +118,6 @@ public enum PrimitiveEnum implements Enumerator {
     /**
      * The '<em><b>STRING</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>STRING</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #STRING
      * @model
@@ -145,10 +129,6 @@ public enum PrimitiveEnum implements Enumerator {
     /**
      * The '<em><b>BYTE ARRAY</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>BYTE ARRAY</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #BYTE_ARRAY
      * @model

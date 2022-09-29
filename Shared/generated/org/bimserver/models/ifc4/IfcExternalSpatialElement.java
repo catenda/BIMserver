@@ -40,10 +40,6 @@ public interface IfcExternalSpatialElement extends IfcExternalSpatialStructureEl
      * Returns the value of the '<em><b>Predefined Type</b></em>' attribute.
      * The literals are from the enumeration {@link org.bimserver.models.ifc4.IfcExternalSpatialElementTypeEnum}.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Predefined Type</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Predefined Type</em>' attribute.
      * @see org.bimserver.models.ifc4.IfcExternalSpatialElementTypeEnum
@@ -96,10 +92,6 @@ public interface IfcExternalSpatialElement extends IfcExternalSpatialStructureEl
      * Returns the value of the '<em><b>Bounded By</b></em>' reference list.
      * The list contents are of type {@link org.bimserver.models.ifc4.IfcRelSpaceBoundary}.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Bounded By</em>' reference list isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Bounded By</em>' reference list.
      * @see #isSetBoundedBy()

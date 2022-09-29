@@ -41,10 +41,6 @@ public interface IfcLightSource extends IfcGeometricRepresentationItem {
     /**
      * Returns the value of the '<em><b>Name</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Name</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Name</em>' attribute.
      * @see #isSetName()
@@ -94,10 +90,6 @@ public interface IfcLightSource extends IfcGeometricRepresentationItem {
     /**
      * Returns the value of the '<em><b>Light Colour</b></em>' reference.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Light Colour</em>' reference isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Light Colour</em>' reference.
      * @see #setLightColour(IfcColourRgb)
@@ -120,10 +112,6 @@ public interface IfcLightSource extends IfcGeometricRepresentationItem {
     /**
      * Returns the value of the '<em><b>Ambient Intensity</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Ambient Intensity</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Ambient Intensity</em>' attribute.
      * @see #isSetAmbientIntensity()
@@ -173,10 +161,6 @@ public interface IfcLightSource extends IfcGeometricRepresentationItem {
     /**
      * Returns the value of the '<em><b>Ambient Intensity As String</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Ambient Intensity As String</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Ambient Intensity As String</em>' attribute.
      * @see #isSetAmbientIntensityAsString()
@@ -228,10 +212,6 @@ public interface IfcLightSource extends IfcGeometricRepresentationItem {
     /**
      * Returns the value of the '<em><b>Intensity</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Intensity</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Intensity</em>' attribute.
      * @see #isSetIntensity()
@@ -281,10 +261,6 @@ public interface IfcLightSource extends IfcGeometricRepresentationItem {
     /**
      * Returns the value of the '<em><b>Intensity As String</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Intensity As String</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Intensity As String</em>' attribute.
      * @see #isSetIntensityAsString()

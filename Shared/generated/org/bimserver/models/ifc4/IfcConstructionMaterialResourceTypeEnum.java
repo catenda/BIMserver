@@ -155,10 +155,6 @@ public enum IfcConstructionMaterialResourceTypeEnum implements Enumerator {
     /**
      * The '<em><b>NULL</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>NULL</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #NULL
      * @model
@@ -170,10 +166,6 @@ public enum IfcConstructionMaterialResourceTypeEnum implements Enumerator {
     /**
      * The '<em><b>NOTDEFINED</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>NOTDEFINED</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #NOTDEFINED
      * @model
@@ -185,10 +177,6 @@ public enum IfcConstructionMaterialResourceTypeEnum implements Enumerator {
     /**
      * The '<em><b>MASONRY</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>MASONRY</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #MASONRY
      * @model
@@ -200,10 +188,6 @@ public enum IfcConstructionMaterialResourceTypeEnum implements Enumerator {
     /**
      * The '<em><b>WOOD</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>WOOD</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #WOOD
      * @model
@@ -215,10 +199,6 @@ public enum IfcConstructionMaterialResourceTypeEnum implements Enumerator {
     /**
      * The '<em><b>DRYWALL</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>DRYWALL</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #DRYWALL
      * @model
@@ -230,10 +210,6 @@ public enum IfcConstructionMaterialResourceTypeEnum implements Enumerator {
     /**
      * The '<em><b>FUEL</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>FUEL</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #FUEL
      * @model
@@ -245,10 +221,6 @@ public enum IfcConstructionMaterialResourceTypeEnum implements Enumerator {
     /**
      * The '<em><b>METAL</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>METAL</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #METAL
      * @model
@@ -260,10 +232,6 @@ public enum IfcConstructionMaterialResourceTypeEnum implements Enumerator {
     /**
      * The '<em><b>USERDEFINED</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>USERDEFINED</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #USERDEFINED
      * @model
@@ -275,10 +243,6 @@ public enum IfcConstructionMaterialResourceTypeEnum implements Enumerator {
     /**
      * The '<em><b>AGGREGATES</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>AGGREGATES</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #AGGREGATES
      * @model
@@ -290,10 +254,6 @@ public enum IfcConstructionMaterialResourceTypeEnum implements Enumerator {
     /**
      * The '<em><b>PLASTIC</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>PLASTIC</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #PLASTIC
      * @model
@@ -305,10 +265,6 @@ public enum IfcConstructionMaterialResourceTypeEnum implements Enumerator {
     /**
      * The '<em><b>CONCRETE</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>CONCRETE</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #CONCRETE
      * @model
@@ -320,10 +276,6 @@ public enum IfcConstructionMaterialResourceTypeEnum implements Enumerator {
     /**
      * The '<em><b>GYPSUM</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>GYPSUM</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #GYPSUM
      * @model

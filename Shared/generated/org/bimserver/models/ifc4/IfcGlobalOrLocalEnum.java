@@ -65,10 +65,6 @@ public enum IfcGlobalOrLocalEnum implements Enumerator {
     /**
      * The '<em><b>NULL</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>NULL</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #NULL
      * @model
@@ -80,10 +76,6 @@ public enum IfcGlobalOrLocalEnum implements Enumerator {
     /**
      * The '<em><b>LOCAL COORDS</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>LOCAL COORDS</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #LOCAL_COORDS
      * @model
@@ -95,10 +87,6 @@ public enum IfcGlobalOrLocalEnum implements Enumerator {
     /**
      * The '<em><b>GLOBAL COORDS</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>GLOBAL COORDS</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #GLOBAL_COORDS
      * @model
