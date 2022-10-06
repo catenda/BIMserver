@@ -49,6 +49,8 @@ class StepEStore implements EStore {
 	private final SchemaDefinition schema;
 	private final EPackage ePackage;
 
+	private static final String IFCBOOLEAN = "IFCBOOLEAN";
+	private static final String IFCLOGICAL = "IFCLOGICAL";
 	private static final String WRAPPED_VALUE = "wrappedValue";
 
 	private class Inverse {
@@ -486,8 +488,7 @@ class StepEStore implements EStore {
 		return isInverse;
 	}
 
-	private Object getInline(EStructuralFeature feature,
-				StepEntityInstance attribute) {
+	private Object getInline(EStructuralFeature feature, StepEntityInstance attribute) {
 		Object result = null;
 		{
 			String identifier = attribute.getIdentifier();
@@ -542,14 +543,14 @@ class StepEStore implements EStore {
 			if (eClassifier.getName().equals("Tristate")) {
 				result = createEnumerator("Tristate", "TRUE");
 			} else if (eClassifier.getName().equals("IfcBoolean")) {
-				EClass eClass = (EClass) eClasses.get("IFCBOOLEAN");
+				EClass eClass = (EClass) eClasses.get(IFCBOOLEAN);
 				EObject bool = create(eClass);
 				bool.eSet(eClass.getEStructuralFeature(WRAPPED_VALUE), createEnumerator("Tristate", "TRUE"));
 				result = bool;
 			} else if (eClassifier == EcorePackage.eINSTANCE.getEBoolean()) {
 				result = true;
 			} else {
-				EClass eClass = (EClass) eClasses.get("IFCLOGICAL");
+				EClass eClass = (EClass) eClasses.get(IFCLOGICAL);
 				EObject locical = create(eClass);
 				locical.eSet(eClass.getEStructuralFeature(WRAPPED_VALUE), createEnumerator("Tristate", "TRUE"));
 				result = locical;
@@ -565,7 +566,7 @@ class StepEStore implements EStore {
 			} else if (eClassifier == EcorePackage.eINSTANCE.getEBoolean()) {
 				result = false;
 			} else {
-				EClass eClass = (EClass) eClasses.get("IFCLOGICAL");
+				EClass eClass = (EClass) eClasses.get(IFCLOGICAL);
 				EObject locical = create(eClass);
 				locical.eSet(eClass.getEStructuralFeature(WRAPPED_VALUE), createEnumerator("Tristate", "FALSE"));
 				result = locical;
@@ -576,7 +577,7 @@ class StepEStore implements EStore {
 			} else if (eClassifier == EcorePackage.eINSTANCE.getEBoolean()) {
 				result = null;
 			} else {
-				EClass eClass = (EClass) eClasses.get("IFCLOGICAL");
+				EClass eClass = (EClass) eClasses.get(IFCLOGICAL);
 				EObject locical = create(eClass);
 				locical.eSet(eClass.getEStructuralFeature(WRAPPED_VALUE), createEnumerator("Tristate", "UNDEFINED"));
 				result = locical;

@@ -47,6 +47,8 @@ public class IfcStepDeserializer extends EmfDeserializer {
 
 	private SchemaDefinition schema;
 
+	private static final String IFCBOOLEAN = "IFCBOOLEAN";
+	private static final String IFCLOGICAL = "IFCLOGICAL";
 	private static final String WRAPPED_VALUE = "wrappedValue";
 
 	private final WaitingList<Long> waitingList = new WaitingList<Long>();
@@ -376,14 +378,14 @@ public class IfcStepDeserializer extends EmfDeserializer {
 			if (structuralFeature.getEType().getName().equals("Tristate")) {
 				enumValue = createEnumerator("Tristate", "TRUE");
 			} else if (structuralFeature.getEType().getName().equals("IfcBoolean")) {
-				EClass eClass = (EClass) classes.get("IFCBOOLEAN");
+				EClass eClass = (EClass) classes.get(IFCBOOLEAN);
 				EObject bool = create(eClass);
 				bool.eSet(eClass.getEStructuralFeature(WRAPPED_VALUE), createEnumerator("Tristate", "TRUE"));
 				enumValue = bool;
 			} else if (structuralFeature.getEType() == EcorePackage.eINSTANCE.getEBoolean()) {
 				enumValue = true;
 			} else {
-				EClass eClass = (EClass) classes.get("IFCLOGICAL");
+				EClass eClass = (EClass) classes.get(IFCLOGICAL);
 				EObject logical = create(eClass);
 				logical.eSet(eClass.getEStructuralFeature(WRAPPED_VALUE), createEnumerator("Tristate", "TRUE"));
 				enumValue = logical;
@@ -392,14 +394,14 @@ public class IfcStepDeserializer extends EmfDeserializer {
 			if (structuralFeature.getEType().getName().equals("Tristate")) {
 				enumValue = createEnumerator("Tristate", "FALSE");
 			} else if (structuralFeature.getEType().getName().equals("IfcBoolean")) {
-				EClass eClass = (EClass) classes.get("IFCBOOLEAN");
+				EClass eClass = (EClass) classes.get(IFCBOOLEAN);
 				EObject bool = create(eClass);
 				bool.eSet(eClass.getEStructuralFeature(WRAPPED_VALUE), createEnumerator("Tristate", "FALSE"));
 				enumValue = bool;
 			} else if (structuralFeature.getEType() == EcorePackage.eINSTANCE.getEBoolean()) {
 				enumValue = false;
 			} else {
-				EClass eClass = (EClass) classes.get("IFCLOGICAL");
+				EClass eClass = (EClass) classes.get(IFCLOGICAL);
 				EObject logical = create(eClass);
 				eClass.getEAllStructuralFeatures();
 				logical.eSet(eClass.getEStructuralFeature(WRAPPED_VALUE), createEnumerator("Tristate", "FALSE"));
@@ -411,7 +413,7 @@ public class IfcStepDeserializer extends EmfDeserializer {
 			} else if (structuralFeature.getEType() == EcorePackage.eINSTANCE.getEBoolean()) {
 				enumValue = null;
 			} else {
-				EClass eClass = (EClass) classes.get("IFCLOGICAL");
+				EClass eClass = (EClass) classes.get(IFCLOGICAL);
 				EObject logical = create(eClass);
 				logical.eSet(eClass.getEStructuralFeature(WRAPPED_VALUE), createEnumerator("Tristate", "UNDEFINED"));
 				enumValue = logical;
