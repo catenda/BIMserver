@@ -39,10 +39,6 @@ public interface IfcObject extends IfcObjectDefinition {
     /**
      * Returns the value of the '<em><b>Object Type</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Object Type</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Object Type</em>' attribute.
      * @see #isSetObjectType()
@@ -94,10 +90,6 @@ public interface IfcObject extends IfcObjectDefinition {
      * The list contents are of type {@link org.bimserver.models.ifc2x3tc1.IfcRelDefines}.
      * It is bidirectional and its opposite is '{@link org.bimserver.models.ifc2x3tc1.IfcRelDefines#getRelatedObjects <em>Related Objects</em>}'.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Is Defined By</em>' reference list isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Is Defined By</em>' reference list.
      * @see #isSetIsDefinedBy()

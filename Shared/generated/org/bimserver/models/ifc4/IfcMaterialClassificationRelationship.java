@@ -43,10 +43,6 @@ public interface IfcMaterialClassificationRelationship extends IdEObject {
      * Returns the value of the '<em><b>Material Classifications</b></em>' reference list.
      * The list contents are of type {@link org.bimserver.models.ifc4.IfcClassificationSelect}.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Material Classifications</em>' reference list isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Material Classifications</em>' reference list.
      * @see org.bimserver.models.ifc4.Ifc4Package#getIfcMaterialClassificationRelationship_MaterialClassifications()
@@ -58,10 +54,6 @@ public interface IfcMaterialClassificationRelationship extends IdEObject {
     /**
      * Returns the value of the '<em><b>Classified Material</b></em>' reference.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Classified Material</em>' reference isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Classified Material</em>' reference.
      * @see #setClassifiedMaterial(IfcMaterial)

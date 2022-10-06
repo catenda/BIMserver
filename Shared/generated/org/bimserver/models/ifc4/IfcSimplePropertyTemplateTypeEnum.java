@@ -165,10 +165,6 @@ public enum IfcSimplePropertyTemplateTypeEnum implements Enumerator {
     /**
      * The '<em><b>NULL</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>NULL</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #NULL
      * @model
@@ -180,10 +176,6 @@ public enum IfcSimplePropertyTemplateTypeEnum implements Enumerator {
     /**
      * The '<em><b>QTIME</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>QTIME</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #QTIME
      * @model name="Q_TIME"
@@ -195,10 +187,6 @@ public enum IfcSimplePropertyTemplateTypeEnum implements Enumerator {
     /**
      * The '<em><b>PLISTVALUE</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>PLISTVALUE</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #PLISTVALUE
      * @model name="P_LISTVALUE"
@@ -210,10 +198,6 @@ public enum IfcSimplePropertyTemplateTypeEnum implements Enumerator {
     /**
      * The '<em><b>QLENGTH</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>QLENGTH</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #QLENGTH
      * @model name="Q_LENGTH"
@@ -225,10 +209,6 @@ public enum IfcSimplePropertyTemplateTypeEnum implements Enumerator {
     /**
      * The '<em><b>QVOLUME</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>QVOLUME</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #QVOLUME
      * @model name="Q_VOLUME"
@@ -240,10 +220,6 @@ public enum IfcSimplePropertyTemplateTypeEnum implements Enumerator {
     /**
      * The '<em><b>QWEIGHT</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>QWEIGHT</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #QWEIGHT
      * @model name="Q_WEIGHT"
@@ -255,10 +231,6 @@ public enum IfcSimplePropertyTemplateTypeEnum implements Enumerator {
     /**
      * The '<em><b>PREFERENCEVALUE</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>PREFERENCEVALUE</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #PREFERENCEVALUE
      * @model name="P_REFERENCEVALUE"
@@ -270,10 +242,6 @@ public enum IfcSimplePropertyTemplateTypeEnum implements Enumerator {
     /**
      * The '<em><b>PTABLEVALUE</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>PTABLEVALUE</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #PTABLEVALUE
      * @model name="P_TABLEVALUE"
@@ -285,10 +253,6 @@ public enum IfcSimplePropertyTemplateTypeEnum implements Enumerator {
     /**
      * The '<em><b>QAREA</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>QAREA</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #QAREA
      * @model name="Q_AREA"
@@ -300,10 +264,6 @@ public enum IfcSimplePropertyTemplateTypeEnum implements Enumerator {
     /**
      * The '<em><b>QCOUNT</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>QCOUNT</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #QCOUNT
      * @model name="Q_COUNT"
@@ -315,10 +275,6 @@ public enum IfcSimplePropertyTemplateTypeEnum implements Enumerator {
     /**
      * The '<em><b>PSINGLEVALUE</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>PSINGLEVALUE</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #PSINGLEVALUE
      * @model name="P_SINGLEVALUE"
@@ -330,10 +286,6 @@ public enum IfcSimplePropertyTemplateTypeEnum implements Enumerator {
     /**
      * The '<em><b>PENUMERATEDVALUE</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>PENUMERATEDVALUE</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #PENUMERATEDVALUE
      * @model name="P_ENUMERATEDVALUE"
@@ -345,10 +297,6 @@ public enum IfcSimplePropertyTemplateTypeEnum implements Enumerator {
     /**
      * The '<em><b>PBOUNDEDVALUE</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>PBOUNDEDVALUE</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #PBOUNDEDVALUE
      * @model name="P_BOUNDEDVALUE"

@@ -57,7 +57,7 @@ public class IfcApprovalRelationshipImpl extends IdEObjectImpl implements IfcApp
      */
     @Override
     protected EClass eStaticClass() {
-        return Ifc2x3tc1Package.Literals.IFC_APPROVAL_RELATIONSHIP;
+        return Ifc2x3tc1Package.eINSTANCE.getIfcApprovalRelationship();
     }
 
     /**
@@ -77,7 +77,7 @@ public class IfcApprovalRelationshipImpl extends IdEObjectImpl implements IfcApp
      */
     @Override
     public IfcApproval getRelatedApproval() {
-        return (IfcApproval) eGet(Ifc2x3tc1Package.Literals.IFC_APPROVAL_RELATIONSHIP__RELATED_APPROVAL, true);
+        return (IfcApproval) eGet(Ifc2x3tc1Package.eINSTANCE.getIfcApprovalRelationship_RelatedApproval(), true);
     }
 
     /**
@@ -87,7 +87,7 @@ public class IfcApprovalRelationshipImpl extends IdEObjectImpl implements IfcApp
      */
     @Override
     public void setRelatedApproval(IfcApproval newRelatedApproval) {
-        eSet(Ifc2x3tc1Package.Literals.IFC_APPROVAL_RELATIONSHIP__RELATED_APPROVAL, newRelatedApproval);
+        eSet(Ifc2x3tc1Package.eINSTANCE.getIfcApprovalRelationship_RelatedApproval(), newRelatedApproval);
     }
 
     /**
@@ -97,7 +97,7 @@ public class IfcApprovalRelationshipImpl extends IdEObjectImpl implements IfcApp
      */
     @Override
     public IfcApproval getRelatingApproval() {
-        return (IfcApproval) eGet(Ifc2x3tc1Package.Literals.IFC_APPROVAL_RELATIONSHIP__RELATING_APPROVAL, true);
+        return (IfcApproval) eGet(Ifc2x3tc1Package.eINSTANCE.getIfcApprovalRelationship_RelatingApproval(), true);
     }
 
     /**
@@ -107,7 +107,7 @@ public class IfcApprovalRelationshipImpl extends IdEObjectImpl implements IfcApp
      */
     @Override
     public void setRelatingApproval(IfcApproval newRelatingApproval) {
-        eSet(Ifc2x3tc1Package.Literals.IFC_APPROVAL_RELATIONSHIP__RELATING_APPROVAL, newRelatingApproval);
+        eSet(Ifc2x3tc1Package.eINSTANCE.getIfcApprovalRelationship_RelatingApproval(), newRelatingApproval);
     }
 
     /**
@@ -117,7 +117,7 @@ public class IfcApprovalRelationshipImpl extends IdEObjectImpl implements IfcApp
      */
     @Override
     public String getDescription() {
-        return (String) eGet(Ifc2x3tc1Package.Literals.IFC_APPROVAL_RELATIONSHIP__DESCRIPTION, true);
+        return (String) eGet(Ifc2x3tc1Package.eINSTANCE.getIfcApprovalRelationship_Description(), true);
     }
 
     /**
@@ -127,7 +127,7 @@ public class IfcApprovalRelationshipImpl extends IdEObjectImpl implements IfcApp
      */
     @Override
     public void setDescription(String newDescription) {
-        eSet(Ifc2x3tc1Package.Literals.IFC_APPROVAL_RELATIONSHIP__DESCRIPTION, newDescription);
+        eSet(Ifc2x3tc1Package.eINSTANCE.getIfcApprovalRelationship_Description(), newDescription);
     }
 
     /**
@@ -137,7 +137,7 @@ public class IfcApprovalRelationshipImpl extends IdEObjectImpl implements IfcApp
      */
     @Override
     public void unsetDescription() {
-        eUnset(Ifc2x3tc1Package.Literals.IFC_APPROVAL_RELATIONSHIP__DESCRIPTION);
+        eUnset(Ifc2x3tc1Package.eINSTANCE.getIfcApprovalRelationship_Description());
     }
 
     /**
@@ -147,7 +147,7 @@ public class IfcApprovalRelationshipImpl extends IdEObjectImpl implements IfcApp
      */
     @Override
     public boolean isSetDescription() {
-        return eIsSet(Ifc2x3tc1Package.Literals.IFC_APPROVAL_RELATIONSHIP__DESCRIPTION);
+        return eIsSet(Ifc2x3tc1Package.eINSTANCE.getIfcApprovalRelationship_Description());
     }
 
     /**
@@ -157,7 +157,7 @@ public class IfcApprovalRelationshipImpl extends IdEObjectImpl implements IfcApp
      */
     @Override
     public String getName() {
-        return (String) eGet(Ifc2x3tc1Package.Literals.IFC_APPROVAL_RELATIONSHIP__NAME, true);
+        return (String) eGet(Ifc2x3tc1Package.eINSTANCE.getIfcApprovalRelationship_Name(), true);
     }
 
     /**
@@ -167,7 +167,7 @@ public class IfcApprovalRelationshipImpl extends IdEObjectImpl implements IfcApp
      */
     @Override
     public void setName(String newName) {
-        eSet(Ifc2x3tc1Package.Literals.IFC_APPROVAL_RELATIONSHIP__NAME, newName);
+        eSet(Ifc2x3tc1Package.eINSTANCE.getIfcApprovalRelationship_Name(), newName);
     }
 
 } //IfcApprovalRelationshipImpl

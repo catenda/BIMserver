@@ -54,7 +54,7 @@ public class IfcPileImpl extends IfcBuildingElementImpl implements IfcPile {
      */
     @Override
     protected EClass eStaticClass() {
-        return Ifc2x3tc1Package.Literals.IFC_PILE;
+        return Ifc2x3tc1Package.eINSTANCE.getIfcPile();
     }
 
     /**
@@ -64,7 +64,7 @@ public class IfcPileImpl extends IfcBuildingElementImpl implements IfcPile {
      */
     @Override
     public IfcPileTypeEnum getPredefinedType() {
-        return (IfcPileTypeEnum) eGet(Ifc2x3tc1Package.Literals.IFC_PILE__PREDEFINED_TYPE, true);
+        return (IfcPileTypeEnum) eGet(Ifc2x3tc1Package.eINSTANCE.getIfcPile_PredefinedType(), true);
     }
 
     /**
@@ -74,7 +74,7 @@ public class IfcPileImpl extends IfcBuildingElementImpl implements IfcPile {
      */
     @Override
     public void setPredefinedType(IfcPileTypeEnum newPredefinedType) {
-        eSet(Ifc2x3tc1Package.Literals.IFC_PILE__PREDEFINED_TYPE, newPredefinedType);
+        eSet(Ifc2x3tc1Package.eINSTANCE.getIfcPile_PredefinedType(), newPredefinedType);
     }
 
     /**
@@ -84,7 +84,7 @@ public class IfcPileImpl extends IfcBuildingElementImpl implements IfcPile {
      */
     @Override
     public IfcPileConstructionEnum getConstructionType() {
-        return (IfcPileConstructionEnum) eGet(Ifc2x3tc1Package.Literals.IFC_PILE__CONSTRUCTION_TYPE, true);
+        return (IfcPileConstructionEnum) eGet(Ifc2x3tc1Package.eINSTANCE.getIfcPile_ConstructionType(), true);
     }
 
     /**
@@ -94,7 +94,7 @@ public class IfcPileImpl extends IfcBuildingElementImpl implements IfcPile {
      */
     @Override
     public void setConstructionType(IfcPileConstructionEnum newConstructionType) {
-        eSet(Ifc2x3tc1Package.Literals.IFC_PILE__CONSTRUCTION_TYPE, newConstructionType);
+        eSet(Ifc2x3tc1Package.eINSTANCE.getIfcPile_ConstructionType(), newConstructionType);
     }
 
     /**
@@ -104,7 +104,7 @@ public class IfcPileImpl extends IfcBuildingElementImpl implements IfcPile {
      */
     @Override
     public void unsetConstructionType() {
-        eUnset(Ifc2x3tc1Package.Literals.IFC_PILE__CONSTRUCTION_TYPE);
+        eUnset(Ifc2x3tc1Package.eINSTANCE.getIfcPile_ConstructionType());
     }
 
     /**
@@ -114,7 +114,7 @@ public class IfcPileImpl extends IfcBuildingElementImpl implements IfcPile {
      */
     @Override
     public boolean isSetConstructionType() {
-        return eIsSet(Ifc2x3tc1Package.Literals.IFC_PILE__CONSTRUCTION_TYPE);
+        return eIsSet(Ifc2x3tc1Package.eINSTANCE.getIfcPile_ConstructionType());
     }
 
 } //IfcPileImpl

@@ -56,7 +56,7 @@ public class IfcCoordinateOperationImpl extends IdEObjectImpl implements IfcCoor
      */
     @Override
     protected EClass eStaticClass() {
-        return Ifc4Package.Literals.IFC_COORDINATE_OPERATION;
+        return Ifc4Package.eINSTANCE.getIfcCoordinateOperation();
     }
 
     /**
@@ -76,7 +76,7 @@ public class IfcCoordinateOperationImpl extends IdEObjectImpl implements IfcCoor
      */
     @Override
     public IfcCoordinateReferenceSystemSelect getSourceCRS() {
-        return (IfcCoordinateReferenceSystemSelect) eGet(Ifc4Package.Literals.IFC_COORDINATE_OPERATION__SOURCE_CRS,
+        return (IfcCoordinateReferenceSystemSelect) eGet(Ifc4Package.eINSTANCE.getIfcCoordinateOperation_SourceCRS(),
                 true);
     }
 
@@ -87,7 +87,7 @@ public class IfcCoordinateOperationImpl extends IdEObjectImpl implements IfcCoor
      */
     @Override
     public void setSourceCRS(IfcCoordinateReferenceSystemSelect newSourceCRS) {
-        eSet(Ifc4Package.Literals.IFC_COORDINATE_OPERATION__SOURCE_CRS, newSourceCRS);
+        eSet(Ifc4Package.eINSTANCE.getIfcCoordinateOperation_SourceCRS(), newSourceCRS);
     }
 
     /**
@@ -97,7 +97,7 @@ public class IfcCoordinateOperationImpl extends IdEObjectImpl implements IfcCoor
      */
     @Override
     public IfcCoordinateReferenceSystem getTargetCRS() {
-        return (IfcCoordinateReferenceSystem) eGet(Ifc4Package.Literals.IFC_COORDINATE_OPERATION__TARGET_CRS, true);
+        return (IfcCoordinateReferenceSystem) eGet(Ifc4Package.eINSTANCE.getIfcCoordinateOperation_TargetCRS(), true);
     }
 
     /**
@@ -107,7 +107,7 @@ public class IfcCoordinateOperationImpl extends IdEObjectImpl implements IfcCoor
      */
     @Override
     public void setTargetCRS(IfcCoordinateReferenceSystem newTargetCRS) {
-        eSet(Ifc4Package.Literals.IFC_COORDINATE_OPERATION__TARGET_CRS, newTargetCRS);
+        eSet(Ifc4Package.eINSTANCE.getIfcCoordinateOperation_TargetCRS(), newTargetCRS);
     }
 
 } //IfcCoordinateOperationImpl

@@ -45,7 +45,7 @@ public class IfcSeamCurveImpl extends IfcSurfaceCurveImpl implements IfcSeamCurv
      */
     @Override
     protected EClass eStaticClass() {
-        return Ifc4Package.Literals.IFC_SEAM_CURVE;
+        return Ifc4Package.eINSTANCE.getIfcSeamCurve();
     }
 
 } //IfcSeamCurveImpl

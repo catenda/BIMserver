@@ -135,10 +135,6 @@ public enum IfcAirTerminalTypeEnum implements Enumerator {
     /**
      * The '<em><b>NULL</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>NULL</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #NULL
      * @model
@@ -150,10 +146,6 @@ public enum IfcAirTerminalTypeEnum implements Enumerator {
     /**
      * The '<em><b>REGISTER</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>REGISTER</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #REGISTER
      * @model
@@ -165,10 +157,6 @@ public enum IfcAirTerminalTypeEnum implements Enumerator {
     /**
      * The '<em><b>IRIS</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>IRIS</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #IRIS
      * @model
@@ -180,10 +168,6 @@ public enum IfcAirTerminalTypeEnum implements Enumerator {
     /**
      * The '<em><b>NOTDEFINED</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>NOTDEFINED</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #NOTDEFINED
      * @model
@@ -195,10 +179,6 @@ public enum IfcAirTerminalTypeEnum implements Enumerator {
     /**
      * The '<em><b>LINEARGRILLE</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>LINEARGRILLE</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #LINEARGRILLE
      * @model
@@ -210,10 +190,6 @@ public enum IfcAirTerminalTypeEnum implements Enumerator {
     /**
      * The '<em><b>LINEARDIFFUSER</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>LINEARDIFFUSER</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #LINEARDIFFUSER
      * @model
@@ -225,10 +201,6 @@ public enum IfcAirTerminalTypeEnum implements Enumerator {
     /**
      * The '<em><b>EYEBALL</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>EYEBALL</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #EYEBALL
      * @model
@@ -240,10 +212,6 @@ public enum IfcAirTerminalTypeEnum implements Enumerator {
     /**
      * The '<em><b>GRILLE</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>GRILLE</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #GRILLE
      * @model
@@ -255,10 +223,6 @@ public enum IfcAirTerminalTypeEnum implements Enumerator {
     /**
      * The '<em><b>USERDEFINED</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>USERDEFINED</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #USERDEFINED
      * @model
@@ -270,10 +234,6 @@ public enum IfcAirTerminalTypeEnum implements Enumerator {
     /**
      * The '<em><b>DIFFUSER</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>DIFFUSER</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #DIFFUSER
      * @model

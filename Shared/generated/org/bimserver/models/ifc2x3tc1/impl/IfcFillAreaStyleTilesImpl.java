@@ -58,7 +58,7 @@ public class IfcFillAreaStyleTilesImpl extends IfcGeometricRepresentationItemImp
      */
     @Override
     protected EClass eStaticClass() {
-        return Ifc2x3tc1Package.Literals.IFC_FILL_AREA_STYLE_TILES;
+        return Ifc2x3tc1Package.eINSTANCE.getIfcFillAreaStyleTiles();
     }
 
     /**
@@ -68,7 +68,7 @@ public class IfcFillAreaStyleTilesImpl extends IfcGeometricRepresentationItemImp
      */
     @Override
     public IfcOneDirectionRepeatFactor getTilingPattern() {
-        return (IfcOneDirectionRepeatFactor) eGet(Ifc2x3tc1Package.Literals.IFC_FILL_AREA_STYLE_TILES__TILING_PATTERN,
+        return (IfcOneDirectionRepeatFactor) eGet(Ifc2x3tc1Package.eINSTANCE.getIfcFillAreaStyleTiles_TilingPattern(),
                 true);
     }
 
@@ -79,7 +79,7 @@ public class IfcFillAreaStyleTilesImpl extends IfcGeometricRepresentationItemImp
      */
     @Override
     public void setTilingPattern(IfcOneDirectionRepeatFactor newTilingPattern) {
-        eSet(Ifc2x3tc1Package.Literals.IFC_FILL_AREA_STYLE_TILES__TILING_PATTERN, newTilingPattern);
+        eSet(Ifc2x3tc1Package.eINSTANCE.getIfcFillAreaStyleTiles_TilingPattern(), newTilingPattern);
     }
 
     /**
@@ -90,8 +90,8 @@ public class IfcFillAreaStyleTilesImpl extends IfcGeometricRepresentationItemImp
     @SuppressWarnings("unchecked")
     @Override
     public EList<IfcFillAreaStyleTileShapeSelect> getTiles() {
-        return (EList<IfcFillAreaStyleTileShapeSelect>) eGet(Ifc2x3tc1Package.Literals.IFC_FILL_AREA_STYLE_TILES__TILES,
-                true);
+        return (EList<IfcFillAreaStyleTileShapeSelect>) eGet(
+                Ifc2x3tc1Package.eINSTANCE.getIfcFillAreaStyleTiles_Tiles(), true);
     }
 
     /**
@@ -101,7 +101,7 @@ public class IfcFillAreaStyleTilesImpl extends IfcGeometricRepresentationItemImp
      */
     @Override
     public double getTilingScale() {
-        return (Double) eGet(Ifc2x3tc1Package.Literals.IFC_FILL_AREA_STYLE_TILES__TILING_SCALE, true);
+        return (Double) eGet(Ifc2x3tc1Package.eINSTANCE.getIfcFillAreaStyleTiles_TilingScale(), true);
     }
 
     /**
@@ -111,7 +111,7 @@ public class IfcFillAreaStyleTilesImpl extends IfcGeometricRepresentationItemImp
      */
     @Override
     public void setTilingScale(double newTilingScale) {
-        eSet(Ifc2x3tc1Package.Literals.IFC_FILL_AREA_STYLE_TILES__TILING_SCALE, newTilingScale);
+        eSet(Ifc2x3tc1Package.eINSTANCE.getIfcFillAreaStyleTiles_TilingScale(), newTilingScale);
     }
 
     /**
@@ -121,7 +121,7 @@ public class IfcFillAreaStyleTilesImpl extends IfcGeometricRepresentationItemImp
      */
     @Override
     public String getTilingScaleAsString() {
-        return (String) eGet(Ifc2x3tc1Package.Literals.IFC_FILL_AREA_STYLE_TILES__TILING_SCALE_AS_STRING, true);
+        return (String) eGet(Ifc2x3tc1Package.eINSTANCE.getIfcFillAreaStyleTiles_TilingScaleAsString(), true);
     }
 
     /**
@@ -131,7 +131,7 @@ public class IfcFillAreaStyleTilesImpl extends IfcGeometricRepresentationItemImp
      */
     @Override
     public void setTilingScaleAsString(String newTilingScaleAsString) {
-        eSet(Ifc2x3tc1Package.Literals.IFC_FILL_AREA_STYLE_TILES__TILING_SCALE_AS_STRING, newTilingScaleAsString);
+        eSet(Ifc2x3tc1Package.eINSTANCE.getIfcFillAreaStyleTiles_TilingScaleAsString(), newTilingScaleAsString);
     }
 
 } //IfcFillAreaStyleTilesImpl

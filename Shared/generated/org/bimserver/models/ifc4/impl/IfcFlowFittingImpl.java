@@ -45,7 +45,7 @@ public class IfcFlowFittingImpl extends IfcDistributionFlowElementImpl implement
      */
     @Override
     protected EClass eStaticClass() {
-        return Ifc4Package.Literals.IFC_FLOW_FITTING;
+        return Ifc4Package.eINSTANCE.getIfcFlowFitting();
     }
 
 } //IfcFlowFittingImpl

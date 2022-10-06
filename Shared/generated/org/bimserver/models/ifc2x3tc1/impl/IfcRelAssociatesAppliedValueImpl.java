@@ -52,7 +52,7 @@ public class IfcRelAssociatesAppliedValueImpl extends IfcRelAssociatesImpl imple
      */
     @Override
     protected EClass eStaticClass() {
-        return Ifc2x3tc1Package.Literals.IFC_REL_ASSOCIATES_APPLIED_VALUE;
+        return Ifc2x3tc1Package.eINSTANCE.getIfcRelAssociatesAppliedValue();
     }
 
     /**
@@ -62,8 +62,8 @@ public class IfcRelAssociatesAppliedValueImpl extends IfcRelAssociatesImpl imple
      */
     @Override
     public IfcAppliedValue getRelatingAppliedValue() {
-        return (IfcAppliedValue) eGet(
-                Ifc2x3tc1Package.Literals.IFC_REL_ASSOCIATES_APPLIED_VALUE__RELATING_APPLIED_VALUE, true);
+        return (IfcAppliedValue) eGet(Ifc2x3tc1Package.eINSTANCE.getIfcRelAssociatesAppliedValue_RelatingAppliedValue(),
+                true);
     }
 
     /**
@@ -73,7 +73,7 @@ public class IfcRelAssociatesAppliedValueImpl extends IfcRelAssociatesImpl imple
      */
     @Override
     public void setRelatingAppliedValue(IfcAppliedValue newRelatingAppliedValue) {
-        eSet(Ifc2x3tc1Package.Literals.IFC_REL_ASSOCIATES_APPLIED_VALUE__RELATING_APPLIED_VALUE,
+        eSet(Ifc2x3tc1Package.eINSTANCE.getIfcRelAssociatesAppliedValue_RelatingAppliedValue(),
                 newRelatingAppliedValue);
     }
 

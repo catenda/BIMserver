@@ -37,10 +37,6 @@ public interface IfcMaterialDefinitionRepresentation extends IfcProductRepresent
      * Returns the value of the '<em><b>Represented Material</b></em>' reference.
      * It is bidirectional and its opposite is '{@link org.bimserver.models.ifc2x3tc1.IfcMaterial#getHasRepresentation <em>Has Representation</em>}'.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Represented Material</em>' reference isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Represented Material</em>' reference.
      * @see #setRepresentedMaterial(IfcMaterial)

@@ -60,7 +60,7 @@ public class IfcWindowPanelPropertiesImpl extends IfcPreDefinedPropertySetImpl i
      */
     @Override
     protected EClass eStaticClass() {
-        return Ifc4Package.Literals.IFC_WINDOW_PANEL_PROPERTIES;
+        return Ifc4Package.eINSTANCE.getIfcWindowPanelProperties();
     }
 
     /**
@@ -70,7 +70,7 @@ public class IfcWindowPanelPropertiesImpl extends IfcPreDefinedPropertySetImpl i
      */
     @Override
     public IfcWindowPanelOperationEnum getOperationType() {
-        return (IfcWindowPanelOperationEnum) eGet(Ifc4Package.Literals.IFC_WINDOW_PANEL_PROPERTIES__OPERATION_TYPE,
+        return (IfcWindowPanelOperationEnum) eGet(Ifc4Package.eINSTANCE.getIfcWindowPanelProperties_OperationType(),
                 true);
     }
 
@@ -81,7 +81,7 @@ public class IfcWindowPanelPropertiesImpl extends IfcPreDefinedPropertySetImpl i
      */
     @Override
     public void setOperationType(IfcWindowPanelOperationEnum newOperationType) {
-        eSet(Ifc4Package.Literals.IFC_WINDOW_PANEL_PROPERTIES__OPERATION_TYPE, newOperationType);
+        eSet(Ifc4Package.eINSTANCE.getIfcWindowPanelProperties_OperationType(), newOperationType);
     }
 
     /**
@@ -91,7 +91,7 @@ public class IfcWindowPanelPropertiesImpl extends IfcPreDefinedPropertySetImpl i
      */
     @Override
     public IfcWindowPanelPositionEnum getPanelPosition() {
-        return (IfcWindowPanelPositionEnum) eGet(Ifc4Package.Literals.IFC_WINDOW_PANEL_PROPERTIES__PANEL_POSITION,
+        return (IfcWindowPanelPositionEnum) eGet(Ifc4Package.eINSTANCE.getIfcWindowPanelProperties_PanelPosition(),
                 true);
     }
 
@@ -102,7 +102,7 @@ public class IfcWindowPanelPropertiesImpl extends IfcPreDefinedPropertySetImpl i
      */
     @Override
     public void setPanelPosition(IfcWindowPanelPositionEnum newPanelPosition) {
-        eSet(Ifc4Package.Literals.IFC_WINDOW_PANEL_PROPERTIES__PANEL_POSITION, newPanelPosition);
+        eSet(Ifc4Package.eINSTANCE.getIfcWindowPanelProperties_PanelPosition(), newPanelPosition);
     }
 
     /**
@@ -112,7 +112,7 @@ public class IfcWindowPanelPropertiesImpl extends IfcPreDefinedPropertySetImpl i
      */
     @Override
     public double getFrameDepth() {
-        return (Double) eGet(Ifc4Package.Literals.IFC_WINDOW_PANEL_PROPERTIES__FRAME_DEPTH, true);
+        return (Double) eGet(Ifc4Package.eINSTANCE.getIfcWindowPanelProperties_FrameDepth(), true);
     }
 
     /**
@@ -122,7 +122,7 @@ public class IfcWindowPanelPropertiesImpl extends IfcPreDefinedPropertySetImpl i
      */
     @Override
     public void setFrameDepth(double newFrameDepth) {
-        eSet(Ifc4Package.Literals.IFC_WINDOW_PANEL_PROPERTIES__FRAME_DEPTH, newFrameDepth);
+        eSet(Ifc4Package.eINSTANCE.getIfcWindowPanelProperties_FrameDepth(), newFrameDepth);
     }
 
     /**
@@ -132,7 +132,7 @@ public class IfcWindowPanelPropertiesImpl extends IfcPreDefinedPropertySetImpl i
      */
     @Override
     public void unsetFrameDepth() {
-        eUnset(Ifc4Package.Literals.IFC_WINDOW_PANEL_PROPERTIES__FRAME_DEPTH);
+        eUnset(Ifc4Package.eINSTANCE.getIfcWindowPanelProperties_FrameDepth());
     }
 
     /**
@@ -142,7 +142,7 @@ public class IfcWindowPanelPropertiesImpl extends IfcPreDefinedPropertySetImpl i
      */
     @Override
     public boolean isSetFrameDepth() {
-        return eIsSet(Ifc4Package.Literals.IFC_WINDOW_PANEL_PROPERTIES__FRAME_DEPTH);
+        return eIsSet(Ifc4Package.eINSTANCE.getIfcWindowPanelProperties_FrameDepth());
     }
 
     /**
@@ -152,7 +152,7 @@ public class IfcWindowPanelPropertiesImpl extends IfcPreDefinedPropertySetImpl i
      */
     @Override
     public String getFrameDepthAsString() {
-        return (String) eGet(Ifc4Package.Literals.IFC_WINDOW_PANEL_PROPERTIES__FRAME_DEPTH_AS_STRING, true);
+        return (String) eGet(Ifc4Package.eINSTANCE.getIfcWindowPanelProperties_FrameDepthAsString(), true);
     }
 
     /**
@@ -162,7 +162,7 @@ public class IfcWindowPanelPropertiesImpl extends IfcPreDefinedPropertySetImpl i
      */
     @Override
     public void setFrameDepthAsString(String newFrameDepthAsString) {
-        eSet(Ifc4Package.Literals.IFC_WINDOW_PANEL_PROPERTIES__FRAME_DEPTH_AS_STRING, newFrameDepthAsString);
+        eSet(Ifc4Package.eINSTANCE.getIfcWindowPanelProperties_FrameDepthAsString(), newFrameDepthAsString);
     }
 
     /**
@@ -172,7 +172,7 @@ public class IfcWindowPanelPropertiesImpl extends IfcPreDefinedPropertySetImpl i
      */
     @Override
     public void unsetFrameDepthAsString() {
-        eUnset(Ifc4Package.Literals.IFC_WINDOW_PANEL_PROPERTIES__FRAME_DEPTH_AS_STRING);
+        eUnset(Ifc4Package.eINSTANCE.getIfcWindowPanelProperties_FrameDepthAsString());
     }
 
     /**
@@ -182,7 +182,7 @@ public class IfcWindowPanelPropertiesImpl extends IfcPreDefinedPropertySetImpl i
      */
     @Override
     public boolean isSetFrameDepthAsString() {
-        return eIsSet(Ifc4Package.Literals.IFC_WINDOW_PANEL_PROPERTIES__FRAME_DEPTH_AS_STRING);
+        return eIsSet(Ifc4Package.eINSTANCE.getIfcWindowPanelProperties_FrameDepthAsString());
     }
 
     /**
@@ -192,7 +192,7 @@ public class IfcWindowPanelPropertiesImpl extends IfcPreDefinedPropertySetImpl i
      */
     @Override
     public double getFrameThickness() {
-        return (Double) eGet(Ifc4Package.Literals.IFC_WINDOW_PANEL_PROPERTIES__FRAME_THICKNESS, true);
+        return (Double) eGet(Ifc4Package.eINSTANCE.getIfcWindowPanelProperties_FrameThickness(), true);
     }
 
     /**
@@ -202,7 +202,7 @@ public class IfcWindowPanelPropertiesImpl extends IfcPreDefinedPropertySetImpl i
      */
     @Override
     public void setFrameThickness(double newFrameThickness) {
-        eSet(Ifc4Package.Literals.IFC_WINDOW_PANEL_PROPERTIES__FRAME_THICKNESS, newFrameThickness);
+        eSet(Ifc4Package.eINSTANCE.getIfcWindowPanelProperties_FrameThickness(), newFrameThickness);
     }
 
     /**
@@ -212,7 +212,7 @@ public class IfcWindowPanelPropertiesImpl extends IfcPreDefinedPropertySetImpl i
      */
     @Override
     public void unsetFrameThickness() {
-        eUnset(Ifc4Package.Literals.IFC_WINDOW_PANEL_PROPERTIES__FRAME_THICKNESS);
+        eUnset(Ifc4Package.eINSTANCE.getIfcWindowPanelProperties_FrameThickness());
     }
 
     /**
@@ -222,7 +222,7 @@ public class IfcWindowPanelPropertiesImpl extends IfcPreDefinedPropertySetImpl i
      */
     @Override
     public boolean isSetFrameThickness() {
-        return eIsSet(Ifc4Package.Literals.IFC_WINDOW_PANEL_PROPERTIES__FRAME_THICKNESS);
+        return eIsSet(Ifc4Package.eINSTANCE.getIfcWindowPanelProperties_FrameThickness());
     }
 
     /**
@@ -232,7 +232,7 @@ public class IfcWindowPanelPropertiesImpl extends IfcPreDefinedPropertySetImpl i
      */
     @Override
     public String getFrameThicknessAsString() {
-        return (String) eGet(Ifc4Package.Literals.IFC_WINDOW_PANEL_PROPERTIES__FRAME_THICKNESS_AS_STRING, true);
+        return (String) eGet(Ifc4Package.eINSTANCE.getIfcWindowPanelProperties_FrameThicknessAsString(), true);
     }
 
     /**
@@ -242,7 +242,7 @@ public class IfcWindowPanelPropertiesImpl extends IfcPreDefinedPropertySetImpl i
      */
     @Override
     public void setFrameThicknessAsString(String newFrameThicknessAsString) {
-        eSet(Ifc4Package.Literals.IFC_WINDOW_PANEL_PROPERTIES__FRAME_THICKNESS_AS_STRING, newFrameThicknessAsString);
+        eSet(Ifc4Package.eINSTANCE.getIfcWindowPanelProperties_FrameThicknessAsString(), newFrameThicknessAsString);
     }
 
     /**
@@ -252,7 +252,7 @@ public class IfcWindowPanelPropertiesImpl extends IfcPreDefinedPropertySetImpl i
      */
     @Override
     public void unsetFrameThicknessAsString() {
-        eUnset(Ifc4Package.Literals.IFC_WINDOW_PANEL_PROPERTIES__FRAME_THICKNESS_AS_STRING);
+        eUnset(Ifc4Package.eINSTANCE.getIfcWindowPanelProperties_FrameThicknessAsString());
     }
 
     /**
@@ -262,7 +262,7 @@ public class IfcWindowPanelPropertiesImpl extends IfcPreDefinedPropertySetImpl i
      */
     @Override
     public boolean isSetFrameThicknessAsString() {
-        return eIsSet(Ifc4Package.Literals.IFC_WINDOW_PANEL_PROPERTIES__FRAME_THICKNESS_AS_STRING);
+        return eIsSet(Ifc4Package.eINSTANCE.getIfcWindowPanelProperties_FrameThicknessAsString());
     }
 
     /**
@@ -272,7 +272,7 @@ public class IfcWindowPanelPropertiesImpl extends IfcPreDefinedPropertySetImpl i
      */
     @Override
     public IfcShapeAspect getShapeAspectStyle() {
-        return (IfcShapeAspect) eGet(Ifc4Package.Literals.IFC_WINDOW_PANEL_PROPERTIES__SHAPE_ASPECT_STYLE, true);
+        return (IfcShapeAspect) eGet(Ifc4Package.eINSTANCE.getIfcWindowPanelProperties_ShapeAspectStyle(), true);
     }
 
     /**
@@ -282,7 +282,7 @@ public class IfcWindowPanelPropertiesImpl extends IfcPreDefinedPropertySetImpl i
      */
     @Override
     public void setShapeAspectStyle(IfcShapeAspect newShapeAspectStyle) {
-        eSet(Ifc4Package.Literals.IFC_WINDOW_PANEL_PROPERTIES__SHAPE_ASPECT_STYLE, newShapeAspectStyle);
+        eSet(Ifc4Package.eINSTANCE.getIfcWindowPanelProperties_ShapeAspectStyle(), newShapeAspectStyle);
     }
 
     /**
@@ -292,7 +292,7 @@ public class IfcWindowPanelPropertiesImpl extends IfcPreDefinedPropertySetImpl i
      */
     @Override
     public void unsetShapeAspectStyle() {
-        eUnset(Ifc4Package.Literals.IFC_WINDOW_PANEL_PROPERTIES__SHAPE_ASPECT_STYLE);
+        eUnset(Ifc4Package.eINSTANCE.getIfcWindowPanelProperties_ShapeAspectStyle());
     }
 
     /**
@@ -302,7 +302,7 @@ public class IfcWindowPanelPropertiesImpl extends IfcPreDefinedPropertySetImpl i
      */
     @Override
     public boolean isSetShapeAspectStyle() {
-        return eIsSet(Ifc4Package.Literals.IFC_WINDOW_PANEL_PROPERTIES__SHAPE_ASPECT_STYLE);
+        return eIsSet(Ifc4Package.eINSTANCE.getIfcWindowPanelProperties_ShapeAspectStyle());
     }
 
 } //IfcWindowPanelPropertiesImpl

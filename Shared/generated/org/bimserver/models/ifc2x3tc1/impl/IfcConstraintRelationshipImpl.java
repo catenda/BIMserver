@@ -59,7 +59,7 @@ public class IfcConstraintRelationshipImpl extends IdEObjectImpl implements IfcC
      */
     @Override
     protected EClass eStaticClass() {
-        return Ifc2x3tc1Package.Literals.IFC_CONSTRAINT_RELATIONSHIP;
+        return Ifc2x3tc1Package.eINSTANCE.getIfcConstraintRelationship();
     }
 
     /**
@@ -79,7 +79,7 @@ public class IfcConstraintRelationshipImpl extends IdEObjectImpl implements IfcC
      */
     @Override
     public String getName() {
-        return (String) eGet(Ifc2x3tc1Package.Literals.IFC_CONSTRAINT_RELATIONSHIP__NAME, true);
+        return (String) eGet(Ifc2x3tc1Package.eINSTANCE.getIfcConstraintRelationship_Name(), true);
     }
 
     /**
@@ -89,7 +89,7 @@ public class IfcConstraintRelationshipImpl extends IdEObjectImpl implements IfcC
      */
     @Override
     public void setName(String newName) {
-        eSet(Ifc2x3tc1Package.Literals.IFC_CONSTRAINT_RELATIONSHIP__NAME, newName);
+        eSet(Ifc2x3tc1Package.eINSTANCE.getIfcConstraintRelationship_Name(), newName);
     }
 
     /**
@@ -99,7 +99,7 @@ public class IfcConstraintRelationshipImpl extends IdEObjectImpl implements IfcC
      */
     @Override
     public void unsetName() {
-        eUnset(Ifc2x3tc1Package.Literals.IFC_CONSTRAINT_RELATIONSHIP__NAME);
+        eUnset(Ifc2x3tc1Package.eINSTANCE.getIfcConstraintRelationship_Name());
     }
 
     /**
@@ -109,7 +109,7 @@ public class IfcConstraintRelationshipImpl extends IdEObjectImpl implements IfcC
      */
     @Override
     public boolean isSetName() {
-        return eIsSet(Ifc2x3tc1Package.Literals.IFC_CONSTRAINT_RELATIONSHIP__NAME);
+        return eIsSet(Ifc2x3tc1Package.eINSTANCE.getIfcConstraintRelationship_Name());
     }
 
     /**
@@ -119,7 +119,7 @@ public class IfcConstraintRelationshipImpl extends IdEObjectImpl implements IfcC
      */
     @Override
     public String getDescription() {
-        return (String) eGet(Ifc2x3tc1Package.Literals.IFC_CONSTRAINT_RELATIONSHIP__DESCRIPTION, true);
+        return (String) eGet(Ifc2x3tc1Package.eINSTANCE.getIfcConstraintRelationship_Description(), true);
     }
 
     /**
@@ -129,7 +129,7 @@ public class IfcConstraintRelationshipImpl extends IdEObjectImpl implements IfcC
      */
     @Override
     public void setDescription(String newDescription) {
-        eSet(Ifc2x3tc1Package.Literals.IFC_CONSTRAINT_RELATIONSHIP__DESCRIPTION, newDescription);
+        eSet(Ifc2x3tc1Package.eINSTANCE.getIfcConstraintRelationship_Description(), newDescription);
     }
 
     /**
@@ -139,7 +139,7 @@ public class IfcConstraintRelationshipImpl extends IdEObjectImpl implements IfcC
      */
     @Override
     public void unsetDescription() {
-        eUnset(Ifc2x3tc1Package.Literals.IFC_CONSTRAINT_RELATIONSHIP__DESCRIPTION);
+        eUnset(Ifc2x3tc1Package.eINSTANCE.getIfcConstraintRelationship_Description());
     }
 
     /**
@@ -149,7 +149,7 @@ public class IfcConstraintRelationshipImpl extends IdEObjectImpl implements IfcC
      */
     @Override
     public boolean isSetDescription() {
-        return eIsSet(Ifc2x3tc1Package.Literals.IFC_CONSTRAINT_RELATIONSHIP__DESCRIPTION);
+        return eIsSet(Ifc2x3tc1Package.eINSTANCE.getIfcConstraintRelationship_Description());
     }
 
     /**
@@ -159,7 +159,7 @@ public class IfcConstraintRelationshipImpl extends IdEObjectImpl implements IfcC
      */
     @Override
     public IfcConstraint getRelatingConstraint() {
-        return (IfcConstraint) eGet(Ifc2x3tc1Package.Literals.IFC_CONSTRAINT_RELATIONSHIP__RELATING_CONSTRAINT, true);
+        return (IfcConstraint) eGet(Ifc2x3tc1Package.eINSTANCE.getIfcConstraintRelationship_RelatingConstraint(), true);
     }
 
     /**
@@ -169,7 +169,7 @@ public class IfcConstraintRelationshipImpl extends IdEObjectImpl implements IfcC
      */
     @Override
     public void setRelatingConstraint(IfcConstraint newRelatingConstraint) {
-        eSet(Ifc2x3tc1Package.Literals.IFC_CONSTRAINT_RELATIONSHIP__RELATING_CONSTRAINT, newRelatingConstraint);
+        eSet(Ifc2x3tc1Package.eINSTANCE.getIfcConstraintRelationship_RelatingConstraint(), newRelatingConstraint);
     }
 
     /**
@@ -180,7 +180,7 @@ public class IfcConstraintRelationshipImpl extends IdEObjectImpl implements IfcC
     @SuppressWarnings("unchecked")
     @Override
     public EList<IfcConstraint> getRelatedConstraints() {
-        return (EList<IfcConstraint>) eGet(Ifc2x3tc1Package.Literals.IFC_CONSTRAINT_RELATIONSHIP__RELATED_CONSTRAINTS,
+        return (EList<IfcConstraint>) eGet(Ifc2x3tc1Package.eINSTANCE.getIfcConstraintRelationship_RelatedConstraints(),
                 true);
     }
 

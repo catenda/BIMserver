@@ -58,7 +58,7 @@ public class IfcProjectImpl extends IfcObjectImpl implements IfcProject {
      */
     @Override
     protected EClass eStaticClass() {
-        return Ifc2x3tc1Package.Literals.IFC_PROJECT;
+        return Ifc2x3tc1Package.eINSTANCE.getIfcProject();
     }
 
     /**
@@ -68,7 +68,7 @@ public class IfcProjectImpl extends IfcObjectImpl implements IfcProject {
      */
     @Override
     public String getLongName() {
-        return (String) eGet(Ifc2x3tc1Package.Literals.IFC_PROJECT__LONG_NAME, true);
+        return (String) eGet(Ifc2x3tc1Package.eINSTANCE.getIfcProject_LongName(), true);
     }
 
     /**
@@ -78,7 +78,7 @@ public class IfcProjectImpl extends IfcObjectImpl implements IfcProject {
      */
     @Override
     public void setLongName(String newLongName) {
-        eSet(Ifc2x3tc1Package.Literals.IFC_PROJECT__LONG_NAME, newLongName);
+        eSet(Ifc2x3tc1Package.eINSTANCE.getIfcProject_LongName(), newLongName);
     }
 
     /**
@@ -88,7 +88,7 @@ public class IfcProjectImpl extends IfcObjectImpl implements IfcProject {
      */
     @Override
     public void unsetLongName() {
-        eUnset(Ifc2x3tc1Package.Literals.IFC_PROJECT__LONG_NAME);
+        eUnset(Ifc2x3tc1Package.eINSTANCE.getIfcProject_LongName());
     }
 
     /**
@@ -98,7 +98,7 @@ public class IfcProjectImpl extends IfcObjectImpl implements IfcProject {
      */
     @Override
     public boolean isSetLongName() {
-        return eIsSet(Ifc2x3tc1Package.Literals.IFC_PROJECT__LONG_NAME);
+        return eIsSet(Ifc2x3tc1Package.eINSTANCE.getIfcProject_LongName());
     }
 
     /**
@@ -108,7 +108,7 @@ public class IfcProjectImpl extends IfcObjectImpl implements IfcProject {
      */
     @Override
     public String getPhase() {
-        return (String) eGet(Ifc2x3tc1Package.Literals.IFC_PROJECT__PHASE, true);
+        return (String) eGet(Ifc2x3tc1Package.eINSTANCE.getIfcProject_Phase(), true);
     }
 
     /**
@@ -118,7 +118,7 @@ public class IfcProjectImpl extends IfcObjectImpl implements IfcProject {
      */
     @Override
     public void setPhase(String newPhase) {
-        eSet(Ifc2x3tc1Package.Literals.IFC_PROJECT__PHASE, newPhase);
+        eSet(Ifc2x3tc1Package.eINSTANCE.getIfcProject_Phase(), newPhase);
     }
 
     /**
@@ -128,7 +128,7 @@ public class IfcProjectImpl extends IfcObjectImpl implements IfcProject {
      */
     @Override
     public void unsetPhase() {
-        eUnset(Ifc2x3tc1Package.Literals.IFC_PROJECT__PHASE);
+        eUnset(Ifc2x3tc1Package.eINSTANCE.getIfcProject_Phase());
     }
 
     /**
@@ -138,7 +138,7 @@ public class IfcProjectImpl extends IfcObjectImpl implements IfcProject {
      */
     @Override
     public boolean isSetPhase() {
-        return eIsSet(Ifc2x3tc1Package.Literals.IFC_PROJECT__PHASE);
+        return eIsSet(Ifc2x3tc1Package.eINSTANCE.getIfcProject_Phase());
     }
 
     /**
@@ -149,7 +149,7 @@ public class IfcProjectImpl extends IfcObjectImpl implements IfcProject {
     @SuppressWarnings("unchecked")
     @Override
     public EList<IfcRepresentationContext> getRepresentationContexts() {
-        return (EList<IfcRepresentationContext>) eGet(Ifc2x3tc1Package.Literals.IFC_PROJECT__REPRESENTATION_CONTEXTS,
+        return (EList<IfcRepresentationContext>) eGet(Ifc2x3tc1Package.eINSTANCE.getIfcProject_RepresentationContexts(),
                 true);
     }
 
@@ -160,7 +160,7 @@ public class IfcProjectImpl extends IfcObjectImpl implements IfcProject {
      */
     @Override
     public IfcUnitAssignment getUnitsInContext() {
-        return (IfcUnitAssignment) eGet(Ifc2x3tc1Package.Literals.IFC_PROJECT__UNITS_IN_CONTEXT, true);
+        return (IfcUnitAssignment) eGet(Ifc2x3tc1Package.eINSTANCE.getIfcProject_UnitsInContext(), true);
     }
 
     /**
@@ -170,7 +170,7 @@ public class IfcProjectImpl extends IfcObjectImpl implements IfcProject {
      */
     @Override
     public void setUnitsInContext(IfcUnitAssignment newUnitsInContext) {
-        eSet(Ifc2x3tc1Package.Literals.IFC_PROJECT__UNITS_IN_CONTEXT, newUnitsInContext);
+        eSet(Ifc2x3tc1Package.eINSTANCE.getIfcProject_UnitsInContext(), newUnitsInContext);
     }
 
 } //IfcProjectImpl

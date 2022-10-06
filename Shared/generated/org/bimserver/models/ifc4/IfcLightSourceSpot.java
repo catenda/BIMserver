@@ -42,10 +42,6 @@ public interface IfcLightSourceSpot extends IfcLightSourcePositional {
     /**
      * Returns the value of the '<em><b>Orientation</b></em>' reference.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Orientation</em>' reference isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Orientation</em>' reference.
      * @see #setOrientation(IfcDirection)
@@ -68,10 +64,6 @@ public interface IfcLightSourceSpot extends IfcLightSourcePositional {
     /**
      * Returns the value of the '<em><b>Concentration Exponent</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Concentration Exponent</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Concentration Exponent</em>' attribute.
      * @see #isSetConcentrationExponent()
@@ -121,10 +113,6 @@ public interface IfcLightSourceSpot extends IfcLightSourcePositional {
     /**
      * Returns the value of the '<em><b>Concentration Exponent As String</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Concentration Exponent As String</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Concentration Exponent As String</em>' attribute.
      * @see #isSetConcentrationExponentAsString()
@@ -176,10 +164,6 @@ public interface IfcLightSourceSpot extends IfcLightSourcePositional {
     /**
      * Returns the value of the '<em><b>Spread Angle</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Spread Angle</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Spread Angle</em>' attribute.
      * @see #setSpreadAngle(double)
@@ -202,10 +186,6 @@ public interface IfcLightSourceSpot extends IfcLightSourcePositional {
     /**
      * Returns the value of the '<em><b>Spread Angle As String</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Spread Angle As String</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Spread Angle As String</em>' attribute.
      * @see #setSpreadAngleAsString(String)
@@ -229,10 +209,6 @@ public interface IfcLightSourceSpot extends IfcLightSourcePositional {
     /**
      * Returns the value of the '<em><b>Beam Width Angle</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Beam Width Angle</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Beam Width Angle</em>' attribute.
      * @see #setBeamWidthAngle(double)
@@ -255,10 +231,6 @@ public interface IfcLightSourceSpot extends IfcLightSourcePositional {
     /**
      * Returns the value of the '<em><b>Beam Width Angle As String</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Beam Width Angle As String</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Beam Width Angle As String</em>' attribute.
      * @see #setBeamWidthAngleAsString(String)

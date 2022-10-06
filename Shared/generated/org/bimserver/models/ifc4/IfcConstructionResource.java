@@ -40,10 +40,6 @@ public interface IfcConstructionResource extends IfcResource {
     /**
      * Returns the value of the '<em><b>Usage</b></em>' reference.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Usage</em>' reference isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Usage</em>' reference.
      * @see #isSetUsage()
@@ -94,10 +90,6 @@ public interface IfcConstructionResource extends IfcResource {
      * Returns the value of the '<em><b>Base Costs</b></em>' reference list.
      * The list contents are of type {@link org.bimserver.models.ifc4.IfcAppliedValue}.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Base Costs</em>' reference list isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Base Costs</em>' reference list.
      * @see #isSetBaseCosts()
@@ -132,10 +124,6 @@ public interface IfcConstructionResource extends IfcResource {
     /**
      * Returns the value of the '<em><b>Base Quantity</b></em>' reference.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Base Quantity</em>' reference isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Base Quantity</em>' reference.
      * @see #isSetBaseQuantity()

@@ -38,10 +38,6 @@ public interface IfcCurveStyle extends IfcPresentationStyle, IfcPresentationStyl
     /**
      * Returns the value of the '<em><b>Curve Font</b></em>' reference.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Curve Font</em>' reference isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Curve Font</em>' reference.
      * @see #isSetCurveFont()
@@ -91,10 +87,6 @@ public interface IfcCurveStyle extends IfcPresentationStyle, IfcPresentationStyl
     /**
      * Returns the value of the '<em><b>Curve Width</b></em>' reference.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Curve Width</em>' reference isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Curve Width</em>' reference.
      * @see #isSetCurveWidth()
@@ -144,10 +136,6 @@ public interface IfcCurveStyle extends IfcPresentationStyle, IfcPresentationStyl
     /**
      * Returns the value of the '<em><b>Curve Colour</b></em>' reference.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Curve Colour</em>' reference isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Curve Colour</em>' reference.
      * @see #isSetCurveColour()

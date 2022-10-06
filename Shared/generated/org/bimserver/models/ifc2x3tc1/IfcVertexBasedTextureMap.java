@@ -43,10 +43,6 @@ public interface IfcVertexBasedTextureMap extends IdEObject {
      * Returns the value of the '<em><b>Texture Vertices</b></em>' reference list.
      * The list contents are of type {@link org.bimserver.models.ifc2x3tc1.IfcTextureVertex}.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Texture Vertices</em>' reference list isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Texture Vertices</em>' reference list.
      * @see org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package#getIfcVertexBasedTextureMap_TextureVertices()
@@ -59,10 +55,6 @@ public interface IfcVertexBasedTextureMap extends IdEObject {
      * Returns the value of the '<em><b>Texture Points</b></em>' reference list.
      * The list contents are of type {@link org.bimserver.models.ifc2x3tc1.IfcCartesianPoint}.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Texture Points</em>' reference list isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Texture Points</em>' reference list.
      * @see org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package#getIfcVertexBasedTextureMap_TexturePoints()

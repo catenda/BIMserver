@@ -75,10 +75,6 @@ public enum IfcBooleanOperator implements Enumerator {
     /**
      * The '<em><b>NULL</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>NULL</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #NULL
      * @model
@@ -90,10 +86,6 @@ public enum IfcBooleanOperator implements Enumerator {
     /**
      * The '<em><b>DIFFERENCE</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>DIFFERENCE</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #DIFFERENCE
      * @model
@@ -105,10 +97,6 @@ public enum IfcBooleanOperator implements Enumerator {
     /**
      * The '<em><b>INTERSECTION</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>INTERSECTION</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #INTERSECTION
      * @model
@@ -120,10 +108,6 @@ public enum IfcBooleanOperator implements Enumerator {
     /**
      * The '<em><b>UNION</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>UNION</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #UNION
      * @model

@@ -52,7 +52,7 @@ public class IfcRelAssignsToResourceImpl extends IfcRelAssignsImpl implements If
      */
     @Override
     protected EClass eStaticClass() {
-        return Ifc4Package.Literals.IFC_REL_ASSIGNS_TO_RESOURCE;
+        return Ifc4Package.eINSTANCE.getIfcRelAssignsToResource();
     }
 
     /**
@@ -62,7 +62,7 @@ public class IfcRelAssignsToResourceImpl extends IfcRelAssignsImpl implements If
      */
     @Override
     public IfcResourceSelect getRelatingResource() {
-        return (IfcResourceSelect) eGet(Ifc4Package.Literals.IFC_REL_ASSIGNS_TO_RESOURCE__RELATING_RESOURCE, true);
+        return (IfcResourceSelect) eGet(Ifc4Package.eINSTANCE.getIfcRelAssignsToResource_RelatingResource(), true);
     }
 
     /**
@@ -72,7 +72,7 @@ public class IfcRelAssignsToResourceImpl extends IfcRelAssignsImpl implements If
      */
     @Override
     public void setRelatingResource(IfcResourceSelect newRelatingResource) {
-        eSet(Ifc4Package.Literals.IFC_REL_ASSIGNS_TO_RESOURCE__RELATING_RESOURCE, newRelatingResource);
+        eSet(Ifc4Package.eINSTANCE.getIfcRelAssignsToResource_RelatingResource(), newRelatingResource);
     }
 
 } //IfcRelAssignsToResourceImpl

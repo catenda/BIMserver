@@ -54,7 +54,7 @@ public class IfcElementAssemblyImpl extends IfcElementImpl implements IfcElement
      */
     @Override
     protected EClass eStaticClass() {
-        return Ifc4Package.Literals.IFC_ELEMENT_ASSEMBLY;
+        return Ifc4Package.eINSTANCE.getIfcElementAssembly();
     }
 
     /**
@@ -64,7 +64,7 @@ public class IfcElementAssemblyImpl extends IfcElementImpl implements IfcElement
      */
     @Override
     public IfcAssemblyPlaceEnum getAssemblyPlace() {
-        return (IfcAssemblyPlaceEnum) eGet(Ifc4Package.Literals.IFC_ELEMENT_ASSEMBLY__ASSEMBLY_PLACE, true);
+        return (IfcAssemblyPlaceEnum) eGet(Ifc4Package.eINSTANCE.getIfcElementAssembly_AssemblyPlace(), true);
     }
 
     /**
@@ -74,7 +74,7 @@ public class IfcElementAssemblyImpl extends IfcElementImpl implements IfcElement
      */
     @Override
     public void setAssemblyPlace(IfcAssemblyPlaceEnum newAssemblyPlace) {
-        eSet(Ifc4Package.Literals.IFC_ELEMENT_ASSEMBLY__ASSEMBLY_PLACE, newAssemblyPlace);
+        eSet(Ifc4Package.eINSTANCE.getIfcElementAssembly_AssemblyPlace(), newAssemblyPlace);
     }
 
     /**
@@ -84,7 +84,7 @@ public class IfcElementAssemblyImpl extends IfcElementImpl implements IfcElement
      */
     @Override
     public void unsetAssemblyPlace() {
-        eUnset(Ifc4Package.Literals.IFC_ELEMENT_ASSEMBLY__ASSEMBLY_PLACE);
+        eUnset(Ifc4Package.eINSTANCE.getIfcElementAssembly_AssemblyPlace());
     }
 
     /**
@@ -94,7 +94,7 @@ public class IfcElementAssemblyImpl extends IfcElementImpl implements IfcElement
      */
     @Override
     public boolean isSetAssemblyPlace() {
-        return eIsSet(Ifc4Package.Literals.IFC_ELEMENT_ASSEMBLY__ASSEMBLY_PLACE);
+        return eIsSet(Ifc4Package.eINSTANCE.getIfcElementAssembly_AssemblyPlace());
     }
 
     /**
@@ -104,7 +104,7 @@ public class IfcElementAssemblyImpl extends IfcElementImpl implements IfcElement
      */
     @Override
     public IfcElementAssemblyTypeEnum getPredefinedType() {
-        return (IfcElementAssemblyTypeEnum) eGet(Ifc4Package.Literals.IFC_ELEMENT_ASSEMBLY__PREDEFINED_TYPE, true);
+        return (IfcElementAssemblyTypeEnum) eGet(Ifc4Package.eINSTANCE.getIfcElementAssembly_PredefinedType(), true);
     }
 
     /**
@@ -114,7 +114,7 @@ public class IfcElementAssemblyImpl extends IfcElementImpl implements IfcElement
      */
     @Override
     public void setPredefinedType(IfcElementAssemblyTypeEnum newPredefinedType) {
-        eSet(Ifc4Package.Literals.IFC_ELEMENT_ASSEMBLY__PREDEFINED_TYPE, newPredefinedType);
+        eSet(Ifc4Package.eINSTANCE.getIfcElementAssembly_PredefinedType(), newPredefinedType);
     }
 
     /**
@@ -124,7 +124,7 @@ public class IfcElementAssemblyImpl extends IfcElementImpl implements IfcElement
      */
     @Override
     public void unsetPredefinedType() {
-        eUnset(Ifc4Package.Literals.IFC_ELEMENT_ASSEMBLY__PREDEFINED_TYPE);
+        eUnset(Ifc4Package.eINSTANCE.getIfcElementAssembly_PredefinedType());
     }
 
     /**
@@ -134,7 +134,7 @@ public class IfcElementAssemblyImpl extends IfcElementImpl implements IfcElement
      */
     @Override
     public boolean isSetPredefinedType() {
-        return eIsSet(Ifc4Package.Literals.IFC_ELEMENT_ASSEMBLY__PREDEFINED_TYPE);
+        return eIsSet(Ifc4Package.eINSTANCE.getIfcElementAssembly_PredefinedType());
     }
 
 } //IfcElementAssemblyImpl

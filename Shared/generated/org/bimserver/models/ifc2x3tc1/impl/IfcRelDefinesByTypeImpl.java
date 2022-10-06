@@ -52,7 +52,7 @@ public class IfcRelDefinesByTypeImpl extends IfcRelDefinesImpl implements IfcRel
      */
     @Override
     protected EClass eStaticClass() {
-        return Ifc2x3tc1Package.Literals.IFC_REL_DEFINES_BY_TYPE;
+        return Ifc2x3tc1Package.eINSTANCE.getIfcRelDefinesByType();
     }
 
     /**
@@ -62,7 +62,7 @@ public class IfcRelDefinesByTypeImpl extends IfcRelDefinesImpl implements IfcRel
      */
     @Override
     public IfcTypeObject getRelatingType() {
-        return (IfcTypeObject) eGet(Ifc2x3tc1Package.Literals.IFC_REL_DEFINES_BY_TYPE__RELATING_TYPE, true);
+        return (IfcTypeObject) eGet(Ifc2x3tc1Package.eINSTANCE.getIfcRelDefinesByType_RelatingType(), true);
     }
 
     /**
@@ -72,7 +72,7 @@ public class IfcRelDefinesByTypeImpl extends IfcRelDefinesImpl implements IfcRel
      */
     @Override
     public void setRelatingType(IfcTypeObject newRelatingType) {
-        eSet(Ifc2x3tc1Package.Literals.IFC_REL_DEFINES_BY_TYPE__RELATING_TYPE, newRelatingType);
+        eSet(Ifc2x3tc1Package.eINSTANCE.getIfcRelDefinesByType_RelatingType(), newRelatingType);
     }
 
 } //IfcRelDefinesByTypeImpl

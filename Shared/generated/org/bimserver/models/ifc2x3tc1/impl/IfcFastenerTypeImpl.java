@@ -45,7 +45,7 @@ public class IfcFastenerTypeImpl extends IfcElementComponentTypeImpl implements 
      */
     @Override
     protected EClass eStaticClass() {
-        return Ifc2x3tc1Package.Literals.IFC_FASTENER_TYPE;
+        return Ifc2x3tc1Package.eINSTANCE.getIfcFastenerType();
     }
 
 } //IfcFastenerTypeImpl

@@ -37,10 +37,6 @@ public interface IfcStructuralLoadSingleDisplacementDistortion extends IfcStruct
     /**
      * Returns the value of the '<em><b>Distortion</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Distortion</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Distortion</em>' attribute.
      * @see #isSetDistortion()
@@ -90,10 +86,6 @@ public interface IfcStructuralLoadSingleDisplacementDistortion extends IfcStruct
     /**
      * Returns the value of the '<em><b>Distortion As String</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Distortion As String</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Distortion As String</em>' attribute.
      * @see #isSetDistortionAsString()

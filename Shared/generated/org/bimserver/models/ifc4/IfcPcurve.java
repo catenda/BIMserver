@@ -37,10 +37,6 @@ public interface IfcPcurve extends IfcCurve, IfcCurveOnSurface {
     /**
      * Returns the value of the '<em><b>Basis Surface</b></em>' reference.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Basis Surface</em>' reference isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Basis Surface</em>' reference.
      * @see #setBasisSurface(IfcSurface)
@@ -63,10 +59,6 @@ public interface IfcPcurve extends IfcCurve, IfcCurveOnSurface {
     /**
      * Returns the value of the '<em><b>Reference Curve</b></em>' reference.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Reference Curve</em>' reference isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Reference Curve</em>' reference.
      * @see #setReferenceCurve(IfcCurve)

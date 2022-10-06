@@ -43,10 +43,6 @@ public interface IfcAsymmetricIShapeProfileDef extends IfcIShapeProfileDef {
     /**
      * Returns the value of the '<em><b>Top Flange Width</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Top Flange Width</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Top Flange Width</em>' attribute.
      * @see #setTopFlangeWidth(double)
@@ -69,10 +65,6 @@ public interface IfcAsymmetricIShapeProfileDef extends IfcIShapeProfileDef {
     /**
      * Returns the value of the '<em><b>Top Flange Width As String</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Top Flange Width As String</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Top Flange Width As String</em>' attribute.
      * @see #setTopFlangeWidthAsString(String)
@@ -96,10 +88,6 @@ public interface IfcAsymmetricIShapeProfileDef extends IfcIShapeProfileDef {
     /**
      * Returns the value of the '<em><b>Top Flange Thickness</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Top Flange Thickness</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Top Flange Thickness</em>' attribute.
      * @see #isSetTopFlangeThickness()
@@ -149,10 +137,6 @@ public interface IfcAsymmetricIShapeProfileDef extends IfcIShapeProfileDef {
     /**
      * Returns the value of the '<em><b>Top Flange Thickness As String</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Top Flange Thickness As String</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Top Flange Thickness As String</em>' attribute.
      * @see #isSetTopFlangeThicknessAsString()
@@ -204,10 +188,6 @@ public interface IfcAsymmetricIShapeProfileDef extends IfcIShapeProfileDef {
     /**
      * Returns the value of the '<em><b>Top Flange Fillet Radius</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Top Flange Fillet Radius</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Top Flange Fillet Radius</em>' attribute.
      * @see #isSetTopFlangeFilletRadius()
@@ -257,10 +237,6 @@ public interface IfcAsymmetricIShapeProfileDef extends IfcIShapeProfileDef {
     /**
      * Returns the value of the '<em><b>Top Flange Fillet Radius As String</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Top Flange Fillet Radius As String</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Top Flange Fillet Radius As String</em>' attribute.
      * @see #isSetTopFlangeFilletRadiusAsString()
@@ -312,10 +288,6 @@ public interface IfcAsymmetricIShapeProfileDef extends IfcIShapeProfileDef {
     /**
      * Returns the value of the '<em><b>Centre Of Gravity In Y</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Centre Of Gravity In Y</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Centre Of Gravity In Y</em>' attribute.
      * @see #isSetCentreOfGravityInY()
@@ -365,10 +337,6 @@ public interface IfcAsymmetricIShapeProfileDef extends IfcIShapeProfileDef {
     /**
      * Returns the value of the '<em><b>Centre Of Gravity In YAs String</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Centre Of Gravity In YAs String</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Centre Of Gravity In YAs String</em>' attribute.
      * @see #isSetCentreOfGravityInYAsString()

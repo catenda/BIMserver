@@ -115,10 +115,6 @@ public enum IfcStructuralCurveMemberTypeEnum implements Enumerator {
     /**
      * The '<em><b>NULL</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>NULL</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #NULL
      * @model
@@ -130,10 +126,6 @@ public enum IfcStructuralCurveMemberTypeEnum implements Enumerator {
     /**
      * The '<em><b>PIN JOINED MEMBER</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>PIN JOINED MEMBER</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #PIN_JOINED_MEMBER
      * @model
@@ -145,10 +137,6 @@ public enum IfcStructuralCurveMemberTypeEnum implements Enumerator {
     /**
      * The '<em><b>NOTDEFINED</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>NOTDEFINED</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #NOTDEFINED
      * @model
@@ -160,10 +148,6 @@ public enum IfcStructuralCurveMemberTypeEnum implements Enumerator {
     /**
      * The '<em><b>CABLE</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>CABLE</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #CABLE
      * @model
@@ -175,10 +159,6 @@ public enum IfcStructuralCurveMemberTypeEnum implements Enumerator {
     /**
      * The '<em><b>RIGID JOINED MEMBER</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>RIGID JOINED MEMBER</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #RIGID_JOINED_MEMBER
      * @model
@@ -190,10 +170,6 @@ public enum IfcStructuralCurveMemberTypeEnum implements Enumerator {
     /**
      * The '<em><b>COMPRESSION MEMBER</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>COMPRESSION MEMBER</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #COMPRESSION_MEMBER
      * @model
@@ -205,10 +181,6 @@ public enum IfcStructuralCurveMemberTypeEnum implements Enumerator {
     /**
      * The '<em><b>TENSION MEMBER</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>TENSION MEMBER</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #TENSION_MEMBER
      * @model
@@ -220,10 +192,6 @@ public enum IfcStructuralCurveMemberTypeEnum implements Enumerator {
     /**
      * The '<em><b>USERDEFINED</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>USERDEFINED</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #USERDEFINED
      * @model

@@ -42,10 +42,6 @@ public interface IfcProcess extends IfcObject, IfcProcessSelect {
     /**
      * Returns the value of the '<em><b>Identification</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Identification</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Identification</em>' attribute.
      * @see #isSetIdentification()
@@ -95,10 +91,6 @@ public interface IfcProcess extends IfcObject, IfcProcessSelect {
     /**
      * Returns the value of the '<em><b>Long Description</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Long Description</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Long Description</em>' attribute.
      * @see #isSetLongDescription()
@@ -150,10 +142,6 @@ public interface IfcProcess extends IfcObject, IfcProcessSelect {
      * The list contents are of type {@link org.bimserver.models.ifc4.IfcRelSequence}.
      * It is bidirectional and its opposite is '{@link org.bimserver.models.ifc4.IfcRelSequence#getRelatingProcess <em>Relating Process</em>}'.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Is Predecessor To</em>' reference list isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Is Predecessor To</em>' reference list.
      * @see #isSetIsPredecessorTo()
@@ -192,10 +180,6 @@ public interface IfcProcess extends IfcObject, IfcProcessSelect {
      * The list contents are of type {@link org.bimserver.models.ifc4.IfcRelSequence}.
      * It is bidirectional and its opposite is '{@link org.bimserver.models.ifc4.IfcRelSequence#getRelatedProcess <em>Related Process</em>}'.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Is Successor From</em>' reference list isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Is Successor From</em>' reference list.
      * @see #isSetIsSuccessorFrom()
@@ -233,10 +217,6 @@ public interface IfcProcess extends IfcObject, IfcProcessSelect {
      * Returns the value of the '<em><b>Operates On</b></em>' reference list.
      * The list contents are of type {@link org.bimserver.models.ifc4.IfcRelAssignsToProcess}.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Operates On</em>' reference list isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Operates On</em>' reference list.
      * @see #isSetOperatesOn()

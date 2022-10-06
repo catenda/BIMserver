@@ -57,7 +57,7 @@ public class IfcClassificationItemRelationshipImpl extends IdEObjectImpl impleme
      */
     @Override
     protected EClass eStaticClass() {
-        return Ifc2x3tc1Package.Literals.IFC_CLASSIFICATION_ITEM_RELATIONSHIP;
+        return Ifc2x3tc1Package.eINSTANCE.getIfcClassificationItemRelationship();
     }
 
     /**
@@ -78,7 +78,7 @@ public class IfcClassificationItemRelationshipImpl extends IdEObjectImpl impleme
     @Override
     public IfcClassificationItem getRelatingItem() {
         return (IfcClassificationItem) eGet(
-                Ifc2x3tc1Package.Literals.IFC_CLASSIFICATION_ITEM_RELATIONSHIP__RELATING_ITEM, true);
+                Ifc2x3tc1Package.eINSTANCE.getIfcClassificationItemRelationship_RelatingItem(), true);
     }
 
     /**
@@ -88,7 +88,7 @@ public class IfcClassificationItemRelationshipImpl extends IdEObjectImpl impleme
      */
     @Override
     public void setRelatingItem(IfcClassificationItem newRelatingItem) {
-        eSet(Ifc2x3tc1Package.Literals.IFC_CLASSIFICATION_ITEM_RELATIONSHIP__RELATING_ITEM, newRelatingItem);
+        eSet(Ifc2x3tc1Package.eINSTANCE.getIfcClassificationItemRelationship_RelatingItem(), newRelatingItem);
     }
 
     /**
@@ -100,7 +100,7 @@ public class IfcClassificationItemRelationshipImpl extends IdEObjectImpl impleme
     @Override
     public EList<IfcClassificationItem> getRelatedItems() {
         return (EList<IfcClassificationItem>) eGet(
-                Ifc2x3tc1Package.Literals.IFC_CLASSIFICATION_ITEM_RELATIONSHIP__RELATED_ITEMS, true);
+                Ifc2x3tc1Package.eINSTANCE.getIfcClassificationItemRelationship_RelatedItems(), true);
     }
 
 } //IfcClassificationItemRelationshipImpl

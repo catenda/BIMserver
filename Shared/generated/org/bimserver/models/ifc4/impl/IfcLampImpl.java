@@ -52,7 +52,7 @@ public class IfcLampImpl extends IfcFlowTerminalImpl implements IfcLamp {
      */
     @Override
     protected EClass eStaticClass() {
-        return Ifc4Package.Literals.IFC_LAMP;
+        return Ifc4Package.eINSTANCE.getIfcLamp();
     }
 
     /**
@@ -62,7 +62,7 @@ public class IfcLampImpl extends IfcFlowTerminalImpl implements IfcLamp {
      */
     @Override
     public IfcLampTypeEnum getPredefinedType() {
-        return (IfcLampTypeEnum) eGet(Ifc4Package.Literals.IFC_LAMP__PREDEFINED_TYPE, true);
+        return (IfcLampTypeEnum) eGet(Ifc4Package.eINSTANCE.getIfcLamp_PredefinedType(), true);
     }
 
     /**
@@ -72,7 +72,7 @@ public class IfcLampImpl extends IfcFlowTerminalImpl implements IfcLamp {
      */
     @Override
     public void setPredefinedType(IfcLampTypeEnum newPredefinedType) {
-        eSet(Ifc4Package.Literals.IFC_LAMP__PREDEFINED_TYPE, newPredefinedType);
+        eSet(Ifc4Package.eINSTANCE.getIfcLamp_PredefinedType(), newPredefinedType);
     }
 
     /**
@@ -82,7 +82,7 @@ public class IfcLampImpl extends IfcFlowTerminalImpl implements IfcLamp {
      */
     @Override
     public void unsetPredefinedType() {
-        eUnset(Ifc4Package.Literals.IFC_LAMP__PREDEFINED_TYPE);
+        eUnset(Ifc4Package.eINSTANCE.getIfcLamp_PredefinedType());
     }
 
     /**
@@ -92,7 +92,7 @@ public class IfcLampImpl extends IfcFlowTerminalImpl implements IfcLamp {
      */
     @Override
     public boolean isSetPredefinedType() {
-        return eIsSet(Ifc4Package.Literals.IFC_LAMP__PREDEFINED_TYPE);
+        return eIsSet(Ifc4Package.eINSTANCE.getIfcLamp_PredefinedType());
     }
 
 } //IfcLampImpl

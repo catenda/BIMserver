@@ -45,7 +45,7 @@ public class IfcRelSchedulesCostItemsImpl extends IfcRelAssignsToControlImpl imp
      */
     @Override
     protected EClass eStaticClass() {
-        return Ifc2x3tc1Package.Literals.IFC_REL_SCHEDULES_COST_ITEMS;
+        return Ifc2x3tc1Package.eINSTANCE.getIfcRelSchedulesCostItems();
     }
 
 } //IfcRelSchedulesCostItemsImpl

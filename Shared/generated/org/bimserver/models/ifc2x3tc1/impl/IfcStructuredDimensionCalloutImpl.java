@@ -46,7 +46,7 @@ public class IfcStructuredDimensionCalloutImpl extends IfcDraughtingCalloutImpl
      */
     @Override
     protected EClass eStaticClass() {
-        return Ifc2x3tc1Package.Literals.IFC_STRUCTURED_DIMENSION_CALLOUT;
+        return Ifc2x3tc1Package.eINSTANCE.getIfcStructuredDimensionCallout();
     }
 
 } //IfcStructuredDimensionCalloutImpl

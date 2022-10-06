@@ -51,7 +51,7 @@ public class IfcElementTypeImpl extends IfcTypeProductImpl implements IfcElement
      */
     @Override
     protected EClass eStaticClass() {
-        return Ifc2x3tc1Package.Literals.IFC_ELEMENT_TYPE;
+        return Ifc2x3tc1Package.eINSTANCE.getIfcElementType();
     }
 
     /**
@@ -61,7 +61,7 @@ public class IfcElementTypeImpl extends IfcTypeProductImpl implements IfcElement
      */
     @Override
     public String getElementType() {
-        return (String) eGet(Ifc2x3tc1Package.Literals.IFC_ELEMENT_TYPE__ELEMENT_TYPE, true);
+        return (String) eGet(Ifc2x3tc1Package.eINSTANCE.getIfcElementType_ElementType(), true);
     }
 
     /**
@@ -71,7 +71,7 @@ public class IfcElementTypeImpl extends IfcTypeProductImpl implements IfcElement
      */
     @Override
     public void setElementType(String newElementType) {
-        eSet(Ifc2x3tc1Package.Literals.IFC_ELEMENT_TYPE__ELEMENT_TYPE, newElementType);
+        eSet(Ifc2x3tc1Package.eINSTANCE.getIfcElementType_ElementType(), newElementType);
     }
 
     /**
@@ -81,7 +81,7 @@ public class IfcElementTypeImpl extends IfcTypeProductImpl implements IfcElement
      */
     @Override
     public void unsetElementType() {
-        eUnset(Ifc2x3tc1Package.Literals.IFC_ELEMENT_TYPE__ELEMENT_TYPE);
+        eUnset(Ifc2x3tc1Package.eINSTANCE.getIfcElementType_ElementType());
     }
 
     /**
@@ -91,7 +91,7 @@ public class IfcElementTypeImpl extends IfcTypeProductImpl implements IfcElement
      */
     @Override
     public boolean isSetElementType() {
-        return eIsSet(Ifc2x3tc1Package.Literals.IFC_ELEMENT_TYPE__ELEMENT_TYPE);
+        return eIsSet(Ifc2x3tc1Package.eINSTANCE.getIfcElementType_ElementType());
     }
 
 } //IfcElementTypeImpl

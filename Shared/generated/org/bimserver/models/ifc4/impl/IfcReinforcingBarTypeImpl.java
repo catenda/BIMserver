@@ -65,7 +65,7 @@ public class IfcReinforcingBarTypeImpl extends IfcReinforcingElementTypeImpl imp
      */
     @Override
     protected EClass eStaticClass() {
-        return Ifc4Package.Literals.IFC_REINFORCING_BAR_TYPE;
+        return Ifc4Package.eINSTANCE.getIfcReinforcingBarType();
     }
 
     /**
@@ -75,7 +75,7 @@ public class IfcReinforcingBarTypeImpl extends IfcReinforcingElementTypeImpl imp
      */
     @Override
     public IfcReinforcingBarTypeEnum getPredefinedType() {
-        return (IfcReinforcingBarTypeEnum) eGet(Ifc4Package.Literals.IFC_REINFORCING_BAR_TYPE__PREDEFINED_TYPE, true);
+        return (IfcReinforcingBarTypeEnum) eGet(Ifc4Package.eINSTANCE.getIfcReinforcingBarType_PredefinedType(), true);
     }
 
     /**
@@ -85,7 +85,7 @@ public class IfcReinforcingBarTypeImpl extends IfcReinforcingElementTypeImpl imp
      */
     @Override
     public void setPredefinedType(IfcReinforcingBarTypeEnum newPredefinedType) {
-        eSet(Ifc4Package.Literals.IFC_REINFORCING_BAR_TYPE__PREDEFINED_TYPE, newPredefinedType);
+        eSet(Ifc4Package.eINSTANCE.getIfcReinforcingBarType_PredefinedType(), newPredefinedType);
     }
 
     /**
@@ -95,7 +95,7 @@ public class IfcReinforcingBarTypeImpl extends IfcReinforcingElementTypeImpl imp
      */
     @Override
     public double getNominalDiameter() {
-        return (Double) eGet(Ifc4Package.Literals.IFC_REINFORCING_BAR_TYPE__NOMINAL_DIAMETER, true);
+        return (Double) eGet(Ifc4Package.eINSTANCE.getIfcReinforcingBarType_NominalDiameter(), true);
     }
 
     /**
@@ -105,7 +105,7 @@ public class IfcReinforcingBarTypeImpl extends IfcReinforcingElementTypeImpl imp
      */
     @Override
     public void setNominalDiameter(double newNominalDiameter) {
-        eSet(Ifc4Package.Literals.IFC_REINFORCING_BAR_TYPE__NOMINAL_DIAMETER, newNominalDiameter);
+        eSet(Ifc4Package.eINSTANCE.getIfcReinforcingBarType_NominalDiameter(), newNominalDiameter);
     }
 
     /**
@@ -115,7 +115,7 @@ public class IfcReinforcingBarTypeImpl extends IfcReinforcingElementTypeImpl imp
      */
     @Override
     public void unsetNominalDiameter() {
-        eUnset(Ifc4Package.Literals.IFC_REINFORCING_BAR_TYPE__NOMINAL_DIAMETER);
+        eUnset(Ifc4Package.eINSTANCE.getIfcReinforcingBarType_NominalDiameter());
     }
 
     /**
@@ -125,7 +125,7 @@ public class IfcReinforcingBarTypeImpl extends IfcReinforcingElementTypeImpl imp
      */
     @Override
     public boolean isSetNominalDiameter() {
-        return eIsSet(Ifc4Package.Literals.IFC_REINFORCING_BAR_TYPE__NOMINAL_DIAMETER);
+        return eIsSet(Ifc4Package.eINSTANCE.getIfcReinforcingBarType_NominalDiameter());
     }
 
     /**
@@ -135,7 +135,7 @@ public class IfcReinforcingBarTypeImpl extends IfcReinforcingElementTypeImpl imp
      */
     @Override
     public String getNominalDiameterAsString() {
-        return (String) eGet(Ifc4Package.Literals.IFC_REINFORCING_BAR_TYPE__NOMINAL_DIAMETER_AS_STRING, true);
+        return (String) eGet(Ifc4Package.eINSTANCE.getIfcReinforcingBarType_NominalDiameterAsString(), true);
     }
 
     /**
@@ -145,7 +145,7 @@ public class IfcReinforcingBarTypeImpl extends IfcReinforcingElementTypeImpl imp
      */
     @Override
     public void setNominalDiameterAsString(String newNominalDiameterAsString) {
-        eSet(Ifc4Package.Literals.IFC_REINFORCING_BAR_TYPE__NOMINAL_DIAMETER_AS_STRING, newNominalDiameterAsString);
+        eSet(Ifc4Package.eINSTANCE.getIfcReinforcingBarType_NominalDiameterAsString(), newNominalDiameterAsString);
     }
 
     /**
@@ -155,7 +155,7 @@ public class IfcReinforcingBarTypeImpl extends IfcReinforcingElementTypeImpl imp
      */
     @Override
     public void unsetNominalDiameterAsString() {
-        eUnset(Ifc4Package.Literals.IFC_REINFORCING_BAR_TYPE__NOMINAL_DIAMETER_AS_STRING);
+        eUnset(Ifc4Package.eINSTANCE.getIfcReinforcingBarType_NominalDiameterAsString());
     }
 
     /**
@@ -165,7 +165,7 @@ public class IfcReinforcingBarTypeImpl extends IfcReinforcingElementTypeImpl imp
      */
     @Override
     public boolean isSetNominalDiameterAsString() {
-        return eIsSet(Ifc4Package.Literals.IFC_REINFORCING_BAR_TYPE__NOMINAL_DIAMETER_AS_STRING);
+        return eIsSet(Ifc4Package.eINSTANCE.getIfcReinforcingBarType_NominalDiameterAsString());
     }
 
     /**
@@ -175,7 +175,7 @@ public class IfcReinforcingBarTypeImpl extends IfcReinforcingElementTypeImpl imp
      */
     @Override
     public double getCrossSectionArea() {
-        return (Double) eGet(Ifc4Package.Literals.IFC_REINFORCING_BAR_TYPE__CROSS_SECTION_AREA, true);
+        return (Double) eGet(Ifc4Package.eINSTANCE.getIfcReinforcingBarType_CrossSectionArea(), true);
     }
 
     /**
@@ -185,7 +185,7 @@ public class IfcReinforcingBarTypeImpl extends IfcReinforcingElementTypeImpl imp
      */
     @Override
     public void setCrossSectionArea(double newCrossSectionArea) {
-        eSet(Ifc4Package.Literals.IFC_REINFORCING_BAR_TYPE__CROSS_SECTION_AREA, newCrossSectionArea);
+        eSet(Ifc4Package.eINSTANCE.getIfcReinforcingBarType_CrossSectionArea(), newCrossSectionArea);
     }
 
     /**
@@ -195,7 +195,7 @@ public class IfcReinforcingBarTypeImpl extends IfcReinforcingElementTypeImpl imp
      */
     @Override
     public void unsetCrossSectionArea() {
-        eUnset(Ifc4Package.Literals.IFC_REINFORCING_BAR_TYPE__CROSS_SECTION_AREA);
+        eUnset(Ifc4Package.eINSTANCE.getIfcReinforcingBarType_CrossSectionArea());
     }
 
     /**
@@ -205,7 +205,7 @@ public class IfcReinforcingBarTypeImpl extends IfcReinforcingElementTypeImpl imp
      */
     @Override
     public boolean isSetCrossSectionArea() {
-        return eIsSet(Ifc4Package.Literals.IFC_REINFORCING_BAR_TYPE__CROSS_SECTION_AREA);
+        return eIsSet(Ifc4Package.eINSTANCE.getIfcReinforcingBarType_CrossSectionArea());
     }
 
     /**
@@ -215,7 +215,7 @@ public class IfcReinforcingBarTypeImpl extends IfcReinforcingElementTypeImpl imp
      */
     @Override
     public String getCrossSectionAreaAsString() {
-        return (String) eGet(Ifc4Package.Literals.IFC_REINFORCING_BAR_TYPE__CROSS_SECTION_AREA_AS_STRING, true);
+        return (String) eGet(Ifc4Package.eINSTANCE.getIfcReinforcingBarType_CrossSectionAreaAsString(), true);
     }
 
     /**
@@ -225,7 +225,7 @@ public class IfcReinforcingBarTypeImpl extends IfcReinforcingElementTypeImpl imp
      */
     @Override
     public void setCrossSectionAreaAsString(String newCrossSectionAreaAsString) {
-        eSet(Ifc4Package.Literals.IFC_REINFORCING_BAR_TYPE__CROSS_SECTION_AREA_AS_STRING, newCrossSectionAreaAsString);
+        eSet(Ifc4Package.eINSTANCE.getIfcReinforcingBarType_CrossSectionAreaAsString(), newCrossSectionAreaAsString);
     }
 
     /**
@@ -235,7 +235,7 @@ public class IfcReinforcingBarTypeImpl extends IfcReinforcingElementTypeImpl imp
      */
     @Override
     public void unsetCrossSectionAreaAsString() {
-        eUnset(Ifc4Package.Literals.IFC_REINFORCING_BAR_TYPE__CROSS_SECTION_AREA_AS_STRING);
+        eUnset(Ifc4Package.eINSTANCE.getIfcReinforcingBarType_CrossSectionAreaAsString());
     }
 
     /**
@@ -245,7 +245,7 @@ public class IfcReinforcingBarTypeImpl extends IfcReinforcingElementTypeImpl imp
      */
     @Override
     public boolean isSetCrossSectionAreaAsString() {
-        return eIsSet(Ifc4Package.Literals.IFC_REINFORCING_BAR_TYPE__CROSS_SECTION_AREA_AS_STRING);
+        return eIsSet(Ifc4Package.eINSTANCE.getIfcReinforcingBarType_CrossSectionAreaAsString());
     }
 
     /**
@@ -255,7 +255,7 @@ public class IfcReinforcingBarTypeImpl extends IfcReinforcingElementTypeImpl imp
      */
     @Override
     public double getBarLength() {
-        return (Double) eGet(Ifc4Package.Literals.IFC_REINFORCING_BAR_TYPE__BAR_LENGTH, true);
+        return (Double) eGet(Ifc4Package.eINSTANCE.getIfcReinforcingBarType_BarLength(), true);
     }
 
     /**
@@ -265,7 +265,7 @@ public class IfcReinforcingBarTypeImpl extends IfcReinforcingElementTypeImpl imp
      */
     @Override
     public void setBarLength(double newBarLength) {
-        eSet(Ifc4Package.Literals.IFC_REINFORCING_BAR_TYPE__BAR_LENGTH, newBarLength);
+        eSet(Ifc4Package.eINSTANCE.getIfcReinforcingBarType_BarLength(), newBarLength);
     }
 
     /**
@@ -275,7 +275,7 @@ public class IfcReinforcingBarTypeImpl extends IfcReinforcingElementTypeImpl imp
      */
     @Override
     public void unsetBarLength() {
-        eUnset(Ifc4Package.Literals.IFC_REINFORCING_BAR_TYPE__BAR_LENGTH);
+        eUnset(Ifc4Package.eINSTANCE.getIfcReinforcingBarType_BarLength());
     }
 
     /**
@@ -285,7 +285,7 @@ public class IfcReinforcingBarTypeImpl extends IfcReinforcingElementTypeImpl imp
      */
     @Override
     public boolean isSetBarLength() {
-        return eIsSet(Ifc4Package.Literals.IFC_REINFORCING_BAR_TYPE__BAR_LENGTH);
+        return eIsSet(Ifc4Package.eINSTANCE.getIfcReinforcingBarType_BarLength());
     }
 
     /**
@@ -295,7 +295,7 @@ public class IfcReinforcingBarTypeImpl extends IfcReinforcingElementTypeImpl imp
      */
     @Override
     public String getBarLengthAsString() {
-        return (String) eGet(Ifc4Package.Literals.IFC_REINFORCING_BAR_TYPE__BAR_LENGTH_AS_STRING, true);
+        return (String) eGet(Ifc4Package.eINSTANCE.getIfcReinforcingBarType_BarLengthAsString(), true);
     }
 
     /**
@@ -305,7 +305,7 @@ public class IfcReinforcingBarTypeImpl extends IfcReinforcingElementTypeImpl imp
      */
     @Override
     public void setBarLengthAsString(String newBarLengthAsString) {
-        eSet(Ifc4Package.Literals.IFC_REINFORCING_BAR_TYPE__BAR_LENGTH_AS_STRING, newBarLengthAsString);
+        eSet(Ifc4Package.eINSTANCE.getIfcReinforcingBarType_BarLengthAsString(), newBarLengthAsString);
     }
 
     /**
@@ -315,7 +315,7 @@ public class IfcReinforcingBarTypeImpl extends IfcReinforcingElementTypeImpl imp
      */
     @Override
     public void unsetBarLengthAsString() {
-        eUnset(Ifc4Package.Literals.IFC_REINFORCING_BAR_TYPE__BAR_LENGTH_AS_STRING);
+        eUnset(Ifc4Package.eINSTANCE.getIfcReinforcingBarType_BarLengthAsString());
     }
 
     /**
@@ -325,7 +325,7 @@ public class IfcReinforcingBarTypeImpl extends IfcReinforcingElementTypeImpl imp
      */
     @Override
     public boolean isSetBarLengthAsString() {
-        return eIsSet(Ifc4Package.Literals.IFC_REINFORCING_BAR_TYPE__BAR_LENGTH_AS_STRING);
+        return eIsSet(Ifc4Package.eINSTANCE.getIfcReinforcingBarType_BarLengthAsString());
     }
 
     /**
@@ -335,7 +335,7 @@ public class IfcReinforcingBarTypeImpl extends IfcReinforcingElementTypeImpl imp
      */
     @Override
     public IfcReinforcingBarSurfaceEnum getBarSurface() {
-        return (IfcReinforcingBarSurfaceEnum) eGet(Ifc4Package.Literals.IFC_REINFORCING_BAR_TYPE__BAR_SURFACE, true);
+        return (IfcReinforcingBarSurfaceEnum) eGet(Ifc4Package.eINSTANCE.getIfcReinforcingBarType_BarSurface(), true);
     }
 
     /**
@@ -345,7 +345,7 @@ public class IfcReinforcingBarTypeImpl extends IfcReinforcingElementTypeImpl imp
      */
     @Override
     public void setBarSurface(IfcReinforcingBarSurfaceEnum newBarSurface) {
-        eSet(Ifc4Package.Literals.IFC_REINFORCING_BAR_TYPE__BAR_SURFACE, newBarSurface);
+        eSet(Ifc4Package.eINSTANCE.getIfcReinforcingBarType_BarSurface(), newBarSurface);
     }
 
     /**
@@ -355,7 +355,7 @@ public class IfcReinforcingBarTypeImpl extends IfcReinforcingElementTypeImpl imp
      */
     @Override
     public void unsetBarSurface() {
-        eUnset(Ifc4Package.Literals.IFC_REINFORCING_BAR_TYPE__BAR_SURFACE);
+        eUnset(Ifc4Package.eINSTANCE.getIfcReinforcingBarType_BarSurface());
     }
 
     /**
@@ -365,7 +365,7 @@ public class IfcReinforcingBarTypeImpl extends IfcReinforcingElementTypeImpl imp
      */
     @Override
     public boolean isSetBarSurface() {
-        return eIsSet(Ifc4Package.Literals.IFC_REINFORCING_BAR_TYPE__BAR_SURFACE);
+        return eIsSet(Ifc4Package.eINSTANCE.getIfcReinforcingBarType_BarSurface());
     }
 
     /**
@@ -375,7 +375,7 @@ public class IfcReinforcingBarTypeImpl extends IfcReinforcingElementTypeImpl imp
      */
     @Override
     public String getBendingShapeCode() {
-        return (String) eGet(Ifc4Package.Literals.IFC_REINFORCING_BAR_TYPE__BENDING_SHAPE_CODE, true);
+        return (String) eGet(Ifc4Package.eINSTANCE.getIfcReinforcingBarType_BendingShapeCode(), true);
     }
 
     /**
@@ -385,7 +385,7 @@ public class IfcReinforcingBarTypeImpl extends IfcReinforcingElementTypeImpl imp
      */
     @Override
     public void setBendingShapeCode(String newBendingShapeCode) {
-        eSet(Ifc4Package.Literals.IFC_REINFORCING_BAR_TYPE__BENDING_SHAPE_CODE, newBendingShapeCode);
+        eSet(Ifc4Package.eINSTANCE.getIfcReinforcingBarType_BendingShapeCode(), newBendingShapeCode);
     }
 
     /**
@@ -395,7 +395,7 @@ public class IfcReinforcingBarTypeImpl extends IfcReinforcingElementTypeImpl imp
      */
     @Override
     public void unsetBendingShapeCode() {
-        eUnset(Ifc4Package.Literals.IFC_REINFORCING_BAR_TYPE__BENDING_SHAPE_CODE);
+        eUnset(Ifc4Package.eINSTANCE.getIfcReinforcingBarType_BendingShapeCode());
     }
 
     /**
@@ -405,7 +405,7 @@ public class IfcReinforcingBarTypeImpl extends IfcReinforcingElementTypeImpl imp
      */
     @Override
     public boolean isSetBendingShapeCode() {
-        return eIsSet(Ifc4Package.Literals.IFC_REINFORCING_BAR_TYPE__BENDING_SHAPE_CODE);
+        return eIsSet(Ifc4Package.eINSTANCE.getIfcReinforcingBarType_BendingShapeCode());
     }
 
     /**
@@ -417,7 +417,7 @@ public class IfcReinforcingBarTypeImpl extends IfcReinforcingElementTypeImpl imp
     @Override
     public EList<IfcBendingParameterSelect> getBendingParameters() {
         return (EList<IfcBendingParameterSelect>) eGet(
-                Ifc4Package.Literals.IFC_REINFORCING_BAR_TYPE__BENDING_PARAMETERS, true);
+                Ifc4Package.eINSTANCE.getIfcReinforcingBarType_BendingParameters(), true);
     }
 
     /**
@@ -427,7 +427,7 @@ public class IfcReinforcingBarTypeImpl extends IfcReinforcingElementTypeImpl imp
      */
     @Override
     public void unsetBendingParameters() {
-        eUnset(Ifc4Package.Literals.IFC_REINFORCING_BAR_TYPE__BENDING_PARAMETERS);
+        eUnset(Ifc4Package.eINSTANCE.getIfcReinforcingBarType_BendingParameters());
     }
 
     /**
@@ -437,7 +437,7 @@ public class IfcReinforcingBarTypeImpl extends IfcReinforcingElementTypeImpl imp
      */
     @Override
     public boolean isSetBendingParameters() {
-        return eIsSet(Ifc4Package.Literals.IFC_REINFORCING_BAR_TYPE__BENDING_PARAMETERS);
+        return eIsSet(Ifc4Package.eINSTANCE.getIfcReinforcingBarType_BendingParameters());
     }
 
 } //IfcReinforcingBarTypeImpl

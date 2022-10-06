@@ -52,7 +52,7 @@ public class IfcSpaceHeaterTypeImpl extends IfcEnergyConversionDeviceTypeImpl im
      */
     @Override
     protected EClass eStaticClass() {
-        return Ifc2x3tc1Package.Literals.IFC_SPACE_HEATER_TYPE;
+        return Ifc2x3tc1Package.eINSTANCE.getIfcSpaceHeaterType();
     }
 
     /**
@@ -62,7 +62,7 @@ public class IfcSpaceHeaterTypeImpl extends IfcEnergyConversionDeviceTypeImpl im
      */
     @Override
     public IfcSpaceHeaterTypeEnum getPredefinedType() {
-        return (IfcSpaceHeaterTypeEnum) eGet(Ifc2x3tc1Package.Literals.IFC_SPACE_HEATER_TYPE__PREDEFINED_TYPE, true);
+        return (IfcSpaceHeaterTypeEnum) eGet(Ifc2x3tc1Package.eINSTANCE.getIfcSpaceHeaterType_PredefinedType(), true);
     }
 
     /**
@@ -72,7 +72,7 @@ public class IfcSpaceHeaterTypeImpl extends IfcEnergyConversionDeviceTypeImpl im
      */
     @Override
     public void setPredefinedType(IfcSpaceHeaterTypeEnum newPredefinedType) {
-        eSet(Ifc2x3tc1Package.Literals.IFC_SPACE_HEATER_TYPE__PREDEFINED_TYPE, newPredefinedType);
+        eSet(Ifc2x3tc1Package.eINSTANCE.getIfcSpaceHeaterType_PredefinedType(), newPredefinedType);
     }
 
 } //IfcSpaceHeaterTypeImpl

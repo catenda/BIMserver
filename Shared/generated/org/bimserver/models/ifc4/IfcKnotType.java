@@ -85,10 +85,6 @@ public enum IfcKnotType implements Enumerator {
     /**
      * The '<em><b>NULL</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>NULL</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #NULL
      * @model
@@ -100,10 +96,6 @@ public enum IfcKnotType implements Enumerator {
     /**
      * The '<em><b>UNSPECIFIED</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>UNSPECIFIED</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #UNSPECIFIED
      * @model
@@ -115,10 +107,6 @@ public enum IfcKnotType implements Enumerator {
     /**
      * The '<em><b>QUASI UNIFORM KNOTS</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>QUASI UNIFORM KNOTS</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #QUASI_UNIFORM_KNOTS
      * @model
@@ -130,10 +118,6 @@ public enum IfcKnotType implements Enumerator {
     /**
      * The '<em><b>UNIFORM KNOTS</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>UNIFORM KNOTS</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #UNIFORM_KNOTS
      * @model
@@ -145,10 +129,6 @@ public enum IfcKnotType implements Enumerator {
     /**
      * The '<em><b>PIECEWISE BEZIER KNOTS</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>PIECEWISE BEZIER KNOTS</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #PIECEWISE_BEZIER_KNOTS
      * @model

@@ -45,7 +45,7 @@ public class IfcClosedShellImpl extends IfcConnectedFaceSetImpl implements IfcCl
      */
     @Override
     protected EClass eStaticClass() {
-        return Ifc4Package.Literals.IFC_CLOSED_SHELL;
+        return Ifc4Package.eINSTANCE.getIfcClosedShell();
     }
 
 } //IfcClosedShellImpl

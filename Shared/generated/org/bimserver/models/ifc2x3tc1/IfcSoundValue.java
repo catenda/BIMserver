@@ -39,10 +39,6 @@ public interface IfcSoundValue extends IfcPropertySetDefinition {
     /**
      * Returns the value of the '<em><b>Sound Level Time Series</b></em>' reference.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Sound Level Time Series</em>' reference isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Sound Level Time Series</em>' reference.
      * @see #isSetSoundLevelTimeSeries()
@@ -92,10 +88,6 @@ public interface IfcSoundValue extends IfcPropertySetDefinition {
     /**
      * Returns the value of the '<em><b>Frequency</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Frequency</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Frequency</em>' attribute.
      * @see #setFrequency(double)
@@ -118,10 +110,6 @@ public interface IfcSoundValue extends IfcPropertySetDefinition {
     /**
      * Returns the value of the '<em><b>Frequency As String</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Frequency As String</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Frequency As String</em>' attribute.
      * @see #setFrequencyAsString(String)
@@ -145,10 +133,6 @@ public interface IfcSoundValue extends IfcPropertySetDefinition {
     /**
      * Returns the value of the '<em><b>Sound Level Single Value</b></em>' reference.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Sound Level Single Value</em>' reference isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Sound Level Single Value</em>' reference.
      * @see #isSetSoundLevelSingleValue()

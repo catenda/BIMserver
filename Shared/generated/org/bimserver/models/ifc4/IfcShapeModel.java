@@ -40,10 +40,6 @@ public interface IfcShapeModel extends IfcRepresentation {
      * The list contents are of type {@link org.bimserver.models.ifc4.IfcShapeAspect}.
      * It is bidirectional and its opposite is '{@link org.bimserver.models.ifc4.IfcShapeAspect#getShapeRepresentations <em>Shape Representations</em>}'.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Of Shape Aspect</em>' reference list isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Of Shape Aspect</em>' reference list.
      * @see #isSetOfShapeAspect()

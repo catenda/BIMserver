@@ -52,7 +52,7 @@ public class IfcAxis2Placement2DImpl extends IfcPlacementImpl implements IfcAxis
      */
     @Override
     protected EClass eStaticClass() {
-        return Ifc2x3tc1Package.Literals.IFC_AXIS2_PLACEMENT2_D;
+        return Ifc2x3tc1Package.eINSTANCE.getIfcAxis2Placement2D();
     }
 
     /**
@@ -62,7 +62,7 @@ public class IfcAxis2Placement2DImpl extends IfcPlacementImpl implements IfcAxis
      */
     @Override
     public IfcDirection getRefDirection() {
-        return (IfcDirection) eGet(Ifc2x3tc1Package.Literals.IFC_AXIS2_PLACEMENT2_D__REF_DIRECTION, true);
+        return (IfcDirection) eGet(Ifc2x3tc1Package.eINSTANCE.getIfcAxis2Placement2D_RefDirection(), true);
     }
 
     /**
@@ -72,7 +72,7 @@ public class IfcAxis2Placement2DImpl extends IfcPlacementImpl implements IfcAxis
      */
     @Override
     public void setRefDirection(IfcDirection newRefDirection) {
-        eSet(Ifc2x3tc1Package.Literals.IFC_AXIS2_PLACEMENT2_D__REF_DIRECTION, newRefDirection);
+        eSet(Ifc2x3tc1Package.eINSTANCE.getIfcAxis2Placement2D_RefDirection(), newRefDirection);
     }
 
     /**
@@ -82,7 +82,7 @@ public class IfcAxis2Placement2DImpl extends IfcPlacementImpl implements IfcAxis
      */
     @Override
     public void unsetRefDirection() {
-        eUnset(Ifc2x3tc1Package.Literals.IFC_AXIS2_PLACEMENT2_D__REF_DIRECTION);
+        eUnset(Ifc2x3tc1Package.eINSTANCE.getIfcAxis2Placement2D_RefDirection());
     }
 
     /**
@@ -92,7 +92,7 @@ public class IfcAxis2Placement2DImpl extends IfcPlacementImpl implements IfcAxis
      */
     @Override
     public boolean isSetRefDirection() {
-        return eIsSet(Ifc2x3tc1Package.Literals.IFC_AXIS2_PLACEMENT2_D__REF_DIRECTION);
+        return eIsSet(Ifc2x3tc1Package.eINSTANCE.getIfcAxis2Placement2D_RefDirection());
     }
 
 } //IfcAxis2Placement2DImpl

@@ -54,7 +54,7 @@ public class IfcRelConnectsStructuralElementImpl extends IfcRelConnectsImpl impl
      */
     @Override
     protected EClass eStaticClass() {
-        return Ifc2x3tc1Package.Literals.IFC_REL_CONNECTS_STRUCTURAL_ELEMENT;
+        return Ifc2x3tc1Package.eINSTANCE.getIfcRelConnectsStructuralElement();
     }
 
     /**
@@ -64,7 +64,7 @@ public class IfcRelConnectsStructuralElementImpl extends IfcRelConnectsImpl impl
      */
     @Override
     public IfcElement getRelatingElement() {
-        return (IfcElement) eGet(Ifc2x3tc1Package.Literals.IFC_REL_CONNECTS_STRUCTURAL_ELEMENT__RELATING_ELEMENT, true);
+        return (IfcElement) eGet(Ifc2x3tc1Package.eINSTANCE.getIfcRelConnectsStructuralElement_RelatingElement(), true);
     }
 
     /**
@@ -74,7 +74,7 @@ public class IfcRelConnectsStructuralElementImpl extends IfcRelConnectsImpl impl
      */
     @Override
     public void setRelatingElement(IfcElement newRelatingElement) {
-        eSet(Ifc2x3tc1Package.Literals.IFC_REL_CONNECTS_STRUCTURAL_ELEMENT__RELATING_ELEMENT, newRelatingElement);
+        eSet(Ifc2x3tc1Package.eINSTANCE.getIfcRelConnectsStructuralElement_RelatingElement(), newRelatingElement);
     }
 
     /**
@@ -85,7 +85,7 @@ public class IfcRelConnectsStructuralElementImpl extends IfcRelConnectsImpl impl
     @Override
     public IfcStructuralMember getRelatedStructuralMember() {
         return (IfcStructuralMember) eGet(
-                Ifc2x3tc1Package.Literals.IFC_REL_CONNECTS_STRUCTURAL_ELEMENT__RELATED_STRUCTURAL_MEMBER, true);
+                Ifc2x3tc1Package.eINSTANCE.getIfcRelConnectsStructuralElement_RelatedStructuralMember(), true);
     }
 
     /**
@@ -95,7 +95,7 @@ public class IfcRelConnectsStructuralElementImpl extends IfcRelConnectsImpl impl
      */
     @Override
     public void setRelatedStructuralMember(IfcStructuralMember newRelatedStructuralMember) {
-        eSet(Ifc2x3tc1Package.Literals.IFC_REL_CONNECTS_STRUCTURAL_ELEMENT__RELATED_STRUCTURAL_MEMBER,
+        eSet(Ifc2x3tc1Package.eINSTANCE.getIfcRelConnectsStructuralElement_RelatedStructuralMember(),
                 newRelatedStructuralMember);
     }
 

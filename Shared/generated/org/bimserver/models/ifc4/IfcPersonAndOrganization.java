@@ -41,10 +41,6 @@ public interface IfcPersonAndOrganization extends IfcActorSelect, IfcObjectRefer
      * Returns the value of the '<em><b>The Person</b></em>' reference.
      * It is bidirectional and its opposite is '{@link org.bimserver.models.ifc4.IfcPerson#getEngagedIn <em>Engaged In</em>}'.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>The Person</em>' reference isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>The Person</em>' reference.
      * @see #setThePerson(IfcPerson)
@@ -70,10 +66,6 @@ public interface IfcPersonAndOrganization extends IfcActorSelect, IfcObjectRefer
      * Returns the value of the '<em><b>The Organization</b></em>' reference.
      * It is bidirectional and its opposite is '{@link org.bimserver.models.ifc4.IfcOrganization#getEngages <em>Engages</em>}'.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>The Organization</em>' reference isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>The Organization</em>' reference.
      * @see #setTheOrganization(IfcOrganization)
@@ -99,10 +91,6 @@ public interface IfcPersonAndOrganization extends IfcActorSelect, IfcObjectRefer
      * Returns the value of the '<em><b>Roles</b></em>' reference list.
      * The list contents are of type {@link org.bimserver.models.ifc4.IfcActorRole}.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Roles</em>' reference list isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Roles</em>' reference list.
      * @see #isSetRoles()

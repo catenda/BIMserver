@@ -37,10 +37,6 @@ public interface IfcPropertySingleValue extends IfcSimpleProperty {
     /**
      * Returns the value of the '<em><b>Nominal Value</b></em>' reference.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Nominal Value</em>' reference isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Nominal Value</em>' reference.
      * @see #isSetNominalValue()
@@ -90,10 +86,6 @@ public interface IfcPropertySingleValue extends IfcSimpleProperty {
     /**
      * Returns the value of the '<em><b>Unit</b></em>' reference.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Unit</em>' reference isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Unit</em>' reference.
      * @see #isSetUnit()

@@ -59,7 +59,7 @@ public class IfcBoundingBoxImpl extends IfcGeometricRepresentationItemImpl imple
      */
     @Override
     protected EClass eStaticClass() {
-        return Ifc4Package.Literals.IFC_BOUNDING_BOX;
+        return Ifc4Package.eINSTANCE.getIfcBoundingBox();
     }
 
     /**
@@ -69,7 +69,7 @@ public class IfcBoundingBoxImpl extends IfcGeometricRepresentationItemImpl imple
      */
     @Override
     public IfcCartesianPoint getCorner() {
-        return (IfcCartesianPoint) eGet(Ifc4Package.Literals.IFC_BOUNDING_BOX__CORNER, true);
+        return (IfcCartesianPoint) eGet(Ifc4Package.eINSTANCE.getIfcBoundingBox_Corner(), true);
     }
 
     /**
@@ -79,7 +79,7 @@ public class IfcBoundingBoxImpl extends IfcGeometricRepresentationItemImpl imple
      */
     @Override
     public void setCorner(IfcCartesianPoint newCorner) {
-        eSet(Ifc4Package.Literals.IFC_BOUNDING_BOX__CORNER, newCorner);
+        eSet(Ifc4Package.eINSTANCE.getIfcBoundingBox_Corner(), newCorner);
     }
 
     /**
@@ -89,7 +89,7 @@ public class IfcBoundingBoxImpl extends IfcGeometricRepresentationItemImpl imple
      */
     @Override
     public double getXDim() {
-        return (Double) eGet(Ifc4Package.Literals.IFC_BOUNDING_BOX__XDIM, true);
+        return (Double) eGet(Ifc4Package.eINSTANCE.getIfcBoundingBox_XDim(), true);
     }
 
     /**
@@ -99,7 +99,7 @@ public class IfcBoundingBoxImpl extends IfcGeometricRepresentationItemImpl imple
      */
     @Override
     public void setXDim(double newXDim) {
-        eSet(Ifc4Package.Literals.IFC_BOUNDING_BOX__XDIM, newXDim);
+        eSet(Ifc4Package.eINSTANCE.getIfcBoundingBox_XDim(), newXDim);
     }
 
     /**
@@ -109,7 +109,7 @@ public class IfcBoundingBoxImpl extends IfcGeometricRepresentationItemImpl imple
      */
     @Override
     public String getXDimAsString() {
-        return (String) eGet(Ifc4Package.Literals.IFC_BOUNDING_BOX__XDIM_AS_STRING, true);
+        return (String) eGet(Ifc4Package.eINSTANCE.getIfcBoundingBox_XDimAsString(), true);
     }
 
     /**
@@ -119,7 +119,7 @@ public class IfcBoundingBoxImpl extends IfcGeometricRepresentationItemImpl imple
      */
     @Override
     public void setXDimAsString(String newXDimAsString) {
-        eSet(Ifc4Package.Literals.IFC_BOUNDING_BOX__XDIM_AS_STRING, newXDimAsString);
+        eSet(Ifc4Package.eINSTANCE.getIfcBoundingBox_XDimAsString(), newXDimAsString);
     }
 
     /**
@@ -129,7 +129,7 @@ public class IfcBoundingBoxImpl extends IfcGeometricRepresentationItemImpl imple
      */
     @Override
     public double getYDim() {
-        return (Double) eGet(Ifc4Package.Literals.IFC_BOUNDING_BOX__YDIM, true);
+        return (Double) eGet(Ifc4Package.eINSTANCE.getIfcBoundingBox_YDim(), true);
     }
 
     /**
@@ -139,7 +139,7 @@ public class IfcBoundingBoxImpl extends IfcGeometricRepresentationItemImpl imple
      */
     @Override
     public void setYDim(double newYDim) {
-        eSet(Ifc4Package.Literals.IFC_BOUNDING_BOX__YDIM, newYDim);
+        eSet(Ifc4Package.eINSTANCE.getIfcBoundingBox_YDim(), newYDim);
     }
 
     /**
@@ -149,7 +149,7 @@ public class IfcBoundingBoxImpl extends IfcGeometricRepresentationItemImpl imple
      */
     @Override
     public String getYDimAsString() {
-        return (String) eGet(Ifc4Package.Literals.IFC_BOUNDING_BOX__YDIM_AS_STRING, true);
+        return (String) eGet(Ifc4Package.eINSTANCE.getIfcBoundingBox_YDimAsString(), true);
     }
 
     /**
@@ -159,7 +159,7 @@ public class IfcBoundingBoxImpl extends IfcGeometricRepresentationItemImpl imple
      */
     @Override
     public void setYDimAsString(String newYDimAsString) {
-        eSet(Ifc4Package.Literals.IFC_BOUNDING_BOX__YDIM_AS_STRING, newYDimAsString);
+        eSet(Ifc4Package.eINSTANCE.getIfcBoundingBox_YDimAsString(), newYDimAsString);
     }
 
     /**
@@ -169,7 +169,7 @@ public class IfcBoundingBoxImpl extends IfcGeometricRepresentationItemImpl imple
      */
     @Override
     public double getZDim() {
-        return (Double) eGet(Ifc4Package.Literals.IFC_BOUNDING_BOX__ZDIM, true);
+        return (Double) eGet(Ifc4Package.eINSTANCE.getIfcBoundingBox_ZDim(), true);
     }
 
     /**
@@ -179,7 +179,7 @@ public class IfcBoundingBoxImpl extends IfcGeometricRepresentationItemImpl imple
      */
     @Override
     public void setZDim(double newZDim) {
-        eSet(Ifc4Package.Literals.IFC_BOUNDING_BOX__ZDIM, newZDim);
+        eSet(Ifc4Package.eINSTANCE.getIfcBoundingBox_ZDim(), newZDim);
     }
 
     /**
@@ -189,7 +189,7 @@ public class IfcBoundingBoxImpl extends IfcGeometricRepresentationItemImpl imple
      */
     @Override
     public String getZDimAsString() {
-        return (String) eGet(Ifc4Package.Literals.IFC_BOUNDING_BOX__ZDIM_AS_STRING, true);
+        return (String) eGet(Ifc4Package.eINSTANCE.getIfcBoundingBox_ZDimAsString(), true);
     }
 
     /**
@@ -199,7 +199,7 @@ public class IfcBoundingBoxImpl extends IfcGeometricRepresentationItemImpl imple
      */
     @Override
     public void setZDimAsString(String newZDimAsString) {
-        eSet(Ifc4Package.Literals.IFC_BOUNDING_BOX__ZDIM_AS_STRING, newZDimAsString);
+        eSet(Ifc4Package.eINSTANCE.getIfcBoundingBox_ZDimAsString(), newZDimAsString);
     }
 
     /**
@@ -209,7 +209,7 @@ public class IfcBoundingBoxImpl extends IfcGeometricRepresentationItemImpl imple
      */
     @Override
     public long getDim() {
-        return (Long) eGet(Ifc4Package.Literals.IFC_BOUNDING_BOX__DIM, true);
+        return (Long) eGet(Ifc4Package.eINSTANCE.getIfcBoundingBox_Dim(), true);
     }
 
     /**
@@ -219,7 +219,7 @@ public class IfcBoundingBoxImpl extends IfcGeometricRepresentationItemImpl imple
      */
     @Override
     public void setDim(long newDim) {
-        eSet(Ifc4Package.Literals.IFC_BOUNDING_BOX__DIM, newDim);
+        eSet(Ifc4Package.eINSTANCE.getIfcBoundingBox_Dim(), newDim);
     }
 
     /**
@@ -229,7 +229,7 @@ public class IfcBoundingBoxImpl extends IfcGeometricRepresentationItemImpl imple
      */
     @Override
     public void unsetDim() {
-        eUnset(Ifc4Package.Literals.IFC_BOUNDING_BOX__DIM);
+        eUnset(Ifc4Package.eINSTANCE.getIfcBoundingBox_Dim());
     }
 
     /**
@@ -239,7 +239,7 @@ public class IfcBoundingBoxImpl extends IfcGeometricRepresentationItemImpl imple
      */
     @Override
     public boolean isSetDim() {
-        return eIsSet(Ifc4Package.Literals.IFC_BOUNDING_BOX__DIM);
+        return eIsSet(Ifc4Package.eINSTANCE.getIfcBoundingBox_Dim());
     }
 
 } //IfcBoundingBoxImpl

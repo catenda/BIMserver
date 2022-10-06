@@ -45,7 +45,7 @@ public class IfcDistributionElementTypeImpl extends IfcElementTypeImpl implement
      */
     @Override
     protected EClass eStaticClass() {
-        return Ifc4Package.Literals.IFC_DISTRIBUTION_ELEMENT_TYPE;
+        return Ifc4Package.eINSTANCE.getIfcDistributionElementType();
     }
 
 } //IfcDistributionElementTypeImpl

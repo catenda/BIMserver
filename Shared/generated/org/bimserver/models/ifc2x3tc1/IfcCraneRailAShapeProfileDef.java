@@ -59,10 +59,6 @@ public interface IfcCraneRailAShapeProfileDef extends IfcParameterizedProfileDef
     /**
      * Returns the value of the '<em><b>Overall Height</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Overall Height</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Overall Height</em>' attribute.
      * @see #setOverallHeight(double)
@@ -85,10 +81,6 @@ public interface IfcCraneRailAShapeProfileDef extends IfcParameterizedProfileDef
     /**
      * Returns the value of the '<em><b>Overall Height As String</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Overall Height As String</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Overall Height As String</em>' attribute.
      * @see #setOverallHeightAsString(String)
@@ -112,10 +104,6 @@ public interface IfcCraneRailAShapeProfileDef extends IfcParameterizedProfileDef
     /**
      * Returns the value of the '<em><b>Base Width2</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Base Width2</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Base Width2</em>' attribute.
      * @see #setBaseWidth2(double)
@@ -138,10 +126,6 @@ public interface IfcCraneRailAShapeProfileDef extends IfcParameterizedProfileDef
     /**
      * Returns the value of the '<em><b>Base Width2 As String</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Base Width2 As String</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Base Width2 As String</em>' attribute.
      * @see #setBaseWidth2AsString(String)
@@ -165,10 +149,6 @@ public interface IfcCraneRailAShapeProfileDef extends IfcParameterizedProfileDef
     /**
      * Returns the value of the '<em><b>Radius</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Radius</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Radius</em>' attribute.
      * @see #isSetRadius()
@@ -218,10 +198,6 @@ public interface IfcCraneRailAShapeProfileDef extends IfcParameterizedProfileDef
     /**
      * Returns the value of the '<em><b>Radius As String</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Radius As String</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Radius As String</em>' attribute.
      * @see #isSetRadiusAsString()
@@ -273,10 +249,6 @@ public interface IfcCraneRailAShapeProfileDef extends IfcParameterizedProfileDef
     /**
      * Returns the value of the '<em><b>Head Width</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Head Width</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Head Width</em>' attribute.
      * @see #setHeadWidth(double)
@@ -299,10 +271,6 @@ public interface IfcCraneRailAShapeProfileDef extends IfcParameterizedProfileDef
     /**
      * Returns the value of the '<em><b>Head Width As String</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Head Width As String</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Head Width As String</em>' attribute.
      * @see #setHeadWidthAsString(String)
@@ -326,10 +294,6 @@ public interface IfcCraneRailAShapeProfileDef extends IfcParameterizedProfileDef
     /**
      * Returns the value of the '<em><b>Head Depth2</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Head Depth2</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Head Depth2</em>' attribute.
      * @see #setHeadDepth2(double)
@@ -352,10 +316,6 @@ public interface IfcCraneRailAShapeProfileDef extends IfcParameterizedProfileDef
     /**
      * Returns the value of the '<em><b>Head Depth2 As String</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Head Depth2 As String</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Head Depth2 As String</em>' attribute.
      * @see #setHeadDepth2AsString(String)
@@ -379,10 +339,6 @@ public interface IfcCraneRailAShapeProfileDef extends IfcParameterizedProfileDef
     /**
      * Returns the value of the '<em><b>Head Depth3</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Head Depth3</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Head Depth3</em>' attribute.
      * @see #setHeadDepth3(double)
@@ -405,10 +361,6 @@ public interface IfcCraneRailAShapeProfileDef extends IfcParameterizedProfileDef
     /**
      * Returns the value of the '<em><b>Head Depth3 As String</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Head Depth3 As String</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Head Depth3 As String</em>' attribute.
      * @see #setHeadDepth3AsString(String)
@@ -432,10 +384,6 @@ public interface IfcCraneRailAShapeProfileDef extends IfcParameterizedProfileDef
     /**
      * Returns the value of the '<em><b>Web Thickness</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Web Thickness</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Web Thickness</em>' attribute.
      * @see #setWebThickness(double)
@@ -458,10 +406,6 @@ public interface IfcCraneRailAShapeProfileDef extends IfcParameterizedProfileDef
     /**
      * Returns the value of the '<em><b>Web Thickness As String</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Web Thickness As String</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Web Thickness As String</em>' attribute.
      * @see #setWebThicknessAsString(String)
@@ -485,10 +429,6 @@ public interface IfcCraneRailAShapeProfileDef extends IfcParameterizedProfileDef
     /**
      * Returns the value of the '<em><b>Base Width4</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Base Width4</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Base Width4</em>' attribute.
      * @see #setBaseWidth4(double)
@@ -511,10 +451,6 @@ public interface IfcCraneRailAShapeProfileDef extends IfcParameterizedProfileDef
     /**
      * Returns the value of the '<em><b>Base Width4 As String</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Base Width4 As String</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Base Width4 As String</em>' attribute.
      * @see #setBaseWidth4AsString(String)
@@ -538,10 +474,6 @@ public interface IfcCraneRailAShapeProfileDef extends IfcParameterizedProfileDef
     /**
      * Returns the value of the '<em><b>Base Depth1</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Base Depth1</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Base Depth1</em>' attribute.
      * @see #setBaseDepth1(double)
@@ -564,10 +496,6 @@ public interface IfcCraneRailAShapeProfileDef extends IfcParameterizedProfileDef
     /**
      * Returns the value of the '<em><b>Base Depth1 As String</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Base Depth1 As String</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Base Depth1 As String</em>' attribute.
      * @see #setBaseDepth1AsString(String)
@@ -591,10 +519,6 @@ public interface IfcCraneRailAShapeProfileDef extends IfcParameterizedProfileDef
     /**
      * Returns the value of the '<em><b>Base Depth2</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Base Depth2</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Base Depth2</em>' attribute.
      * @see #setBaseDepth2(double)
@@ -617,10 +541,6 @@ public interface IfcCraneRailAShapeProfileDef extends IfcParameterizedProfileDef
     /**
      * Returns the value of the '<em><b>Base Depth2 As String</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Base Depth2 As String</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Base Depth2 As String</em>' attribute.
      * @see #setBaseDepth2AsString(String)
@@ -644,10 +564,6 @@ public interface IfcCraneRailAShapeProfileDef extends IfcParameterizedProfileDef
     /**
      * Returns the value of the '<em><b>Base Depth3</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Base Depth3</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Base Depth3</em>' attribute.
      * @see #setBaseDepth3(double)
@@ -670,10 +586,6 @@ public interface IfcCraneRailAShapeProfileDef extends IfcParameterizedProfileDef
     /**
      * Returns the value of the '<em><b>Base Depth3 As String</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Base Depth3 As String</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Base Depth3 As String</em>' attribute.
      * @see #setBaseDepth3AsString(String)
@@ -697,10 +609,6 @@ public interface IfcCraneRailAShapeProfileDef extends IfcParameterizedProfileDef
     /**
      * Returns the value of the '<em><b>Centre Of Gravity In Y</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Centre Of Gravity In Y</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Centre Of Gravity In Y</em>' attribute.
      * @see #isSetCentreOfGravityInY()
@@ -750,10 +658,6 @@ public interface IfcCraneRailAShapeProfileDef extends IfcParameterizedProfileDef
     /**
      * Returns the value of the '<em><b>Centre Of Gravity In YAs String</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Centre Of Gravity In YAs String</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Centre Of Gravity In YAs String</em>' attribute.
      * @see #isSetCentreOfGravityInYAsString()

@@ -38,10 +38,6 @@ public interface IfcDerivedProfileDef extends IfcProfileDef {
     /**
      * Returns the value of the '<em><b>Parent Profile</b></em>' reference.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Parent Profile</em>' reference isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Parent Profile</em>' reference.
      * @see #setParentProfile(IfcProfileDef)
@@ -64,10 +60,6 @@ public interface IfcDerivedProfileDef extends IfcProfileDef {
     /**
      * Returns the value of the '<em><b>Operator</b></em>' reference.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Operator</em>' reference isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Operator</em>' reference.
      * @see #setOperator(IfcCartesianTransformationOperator2D)
@@ -90,10 +82,6 @@ public interface IfcDerivedProfileDef extends IfcProfileDef {
     /**
      * Returns the value of the '<em><b>Label</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Label</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Label</em>' attribute.
      * @see #isSetLabel()

@@ -53,7 +53,7 @@ public class IfcPlacementImpl extends IfcGeometricRepresentationItemImpl impleme
      */
     @Override
     protected EClass eStaticClass() {
-        return Ifc2x3tc1Package.Literals.IFC_PLACEMENT;
+        return Ifc2x3tc1Package.eINSTANCE.getIfcPlacement();
     }
 
     /**
@@ -63,7 +63,7 @@ public class IfcPlacementImpl extends IfcGeometricRepresentationItemImpl impleme
      */
     @Override
     public IfcCartesianPoint getLocation() {
-        return (IfcCartesianPoint) eGet(Ifc2x3tc1Package.Literals.IFC_PLACEMENT__LOCATION, true);
+        return (IfcCartesianPoint) eGet(Ifc2x3tc1Package.eINSTANCE.getIfcPlacement_Location(), true);
     }
 
     /**
@@ -73,7 +73,7 @@ public class IfcPlacementImpl extends IfcGeometricRepresentationItemImpl impleme
      */
     @Override
     public void setLocation(IfcCartesianPoint newLocation) {
-        eSet(Ifc2x3tc1Package.Literals.IFC_PLACEMENT__LOCATION, newLocation);
+        eSet(Ifc2x3tc1Package.eINSTANCE.getIfcPlacement_Location(), newLocation);
     }
 
     /**
@@ -83,7 +83,7 @@ public class IfcPlacementImpl extends IfcGeometricRepresentationItemImpl impleme
      */
     @Override
     public long getDim() {
-        return (Long) eGet(Ifc2x3tc1Package.Literals.IFC_PLACEMENT__DIM, true);
+        return (Long) eGet(Ifc2x3tc1Package.eINSTANCE.getIfcPlacement_Dim(), true);
     }
 
     /**
@@ -93,7 +93,7 @@ public class IfcPlacementImpl extends IfcGeometricRepresentationItemImpl impleme
      */
     @Override
     public void setDim(long newDim) {
-        eSet(Ifc2x3tc1Package.Literals.IFC_PLACEMENT__DIM, newDim);
+        eSet(Ifc2x3tc1Package.eINSTANCE.getIfcPlacement_Dim(), newDim);
     }
 
     /**
@@ -103,7 +103,7 @@ public class IfcPlacementImpl extends IfcGeometricRepresentationItemImpl impleme
      */
     @Override
     public void unsetDim() {
-        eUnset(Ifc2x3tc1Package.Literals.IFC_PLACEMENT__DIM);
+        eUnset(Ifc2x3tc1Package.eINSTANCE.getIfcPlacement_Dim());
     }
 
     /**
@@ -113,7 +113,7 @@ public class IfcPlacementImpl extends IfcGeometricRepresentationItemImpl impleme
      */
     @Override
     public boolean isSetDim() {
-        return eIsSet(Ifc2x3tc1Package.Literals.IFC_PLACEMENT__DIM);
+        return eIsSet(Ifc2x3tc1Package.eINSTANCE.getIfcPlacement_Dim());
     }
 
 } //IfcPlacementImpl

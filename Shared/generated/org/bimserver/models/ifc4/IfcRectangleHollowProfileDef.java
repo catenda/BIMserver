@@ -41,10 +41,6 @@ public interface IfcRectangleHollowProfileDef extends IfcRectangleProfileDef {
     /**
      * Returns the value of the '<em><b>Wall Thickness</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Wall Thickness</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Wall Thickness</em>' attribute.
      * @see #setWallThickness(double)
@@ -67,10 +63,6 @@ public interface IfcRectangleHollowProfileDef extends IfcRectangleProfileDef {
     /**
      * Returns the value of the '<em><b>Wall Thickness As String</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Wall Thickness As String</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Wall Thickness As String</em>' attribute.
      * @see #setWallThicknessAsString(String)
@@ -94,10 +86,6 @@ public interface IfcRectangleHollowProfileDef extends IfcRectangleProfileDef {
     /**
      * Returns the value of the '<em><b>Inner Fillet Radius</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Inner Fillet Radius</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Inner Fillet Radius</em>' attribute.
      * @see #isSetInnerFilletRadius()
@@ -147,10 +135,6 @@ public interface IfcRectangleHollowProfileDef extends IfcRectangleProfileDef {
     /**
      * Returns the value of the '<em><b>Inner Fillet Radius As String</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Inner Fillet Radius As String</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Inner Fillet Radius As String</em>' attribute.
      * @see #isSetInnerFilletRadiusAsString()
@@ -202,10 +186,6 @@ public interface IfcRectangleHollowProfileDef extends IfcRectangleProfileDef {
     /**
      * Returns the value of the '<em><b>Outer Fillet Radius</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Outer Fillet Radius</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Outer Fillet Radius</em>' attribute.
      * @see #isSetOuterFilletRadius()
@@ -255,10 +235,6 @@ public interface IfcRectangleHollowProfileDef extends IfcRectangleProfileDef {
     /**
      * Returns the value of the '<em><b>Outer Fillet Radius As String</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Outer Fillet Radius As String</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Outer Fillet Radius As String</em>' attribute.
      * @see #isSetOuterFilletRadiusAsString()

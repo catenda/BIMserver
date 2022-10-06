@@ -125,10 +125,6 @@ public enum IfcObjectiveEnum implements Enumerator {
     /**
      * The '<em><b>NULL</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>NULL</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #NULL
      * @model
@@ -140,10 +136,6 @@ public enum IfcObjectiveEnum implements Enumerator {
     /**
      * The '<em><b>HEALTHANDSAFETY</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>HEALTHANDSAFETY</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #HEALTHANDSAFETY
      * @model
@@ -155,10 +147,6 @@ public enum IfcObjectiveEnum implements Enumerator {
     /**
      * The '<em><b>NOTDEFINED</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>NOTDEFINED</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #NOTDEFINED
      * @model
@@ -170,10 +158,6 @@ public enum IfcObjectiveEnum implements Enumerator {
     /**
      * The '<em><b>TRIGGERCONDITION</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>TRIGGERCONDITION</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #TRIGGERCONDITION
      * @model
@@ -185,10 +169,6 @@ public enum IfcObjectiveEnum implements Enumerator {
     /**
      * The '<em><b>USERDEFINED</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>USERDEFINED</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #USERDEFINED
      * @model
@@ -200,10 +180,6 @@ public enum IfcObjectiveEnum implements Enumerator {
     /**
      * The '<em><b>SPECIFICATION</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>SPECIFICATION</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #SPECIFICATION
      * @model
@@ -215,10 +191,6 @@ public enum IfcObjectiveEnum implements Enumerator {
     /**
      * The '<em><b>CODECOMPLIANCE</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>CODECOMPLIANCE</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #CODECOMPLIANCE
      * @model
@@ -230,10 +202,6 @@ public enum IfcObjectiveEnum implements Enumerator {
     /**
      * The '<em><b>DESIGNINTENT</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>DESIGNINTENT</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #DESIGNINTENT
      * @model
@@ -245,10 +213,6 @@ public enum IfcObjectiveEnum implements Enumerator {
     /**
      * The '<em><b>REQUIREMENT</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>REQUIREMENT</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #REQUIREMENT
      * @model

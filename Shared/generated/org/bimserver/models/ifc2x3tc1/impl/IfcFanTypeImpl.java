@@ -52,7 +52,7 @@ public class IfcFanTypeImpl extends IfcFlowMovingDeviceTypeImpl implements IfcFa
      */
     @Override
     protected EClass eStaticClass() {
-        return Ifc2x3tc1Package.Literals.IFC_FAN_TYPE;
+        return Ifc2x3tc1Package.eINSTANCE.getIfcFanType();
     }
 
     /**
@@ -62,7 +62,7 @@ public class IfcFanTypeImpl extends IfcFlowMovingDeviceTypeImpl implements IfcFa
      */
     @Override
     public IfcFanTypeEnum getPredefinedType() {
-        return (IfcFanTypeEnum) eGet(Ifc2x3tc1Package.Literals.IFC_FAN_TYPE__PREDEFINED_TYPE, true);
+        return (IfcFanTypeEnum) eGet(Ifc2x3tc1Package.eINSTANCE.getIfcFanType_PredefinedType(), true);
     }
 
     /**
@@ -72,7 +72,7 @@ public class IfcFanTypeImpl extends IfcFlowMovingDeviceTypeImpl implements IfcFa
      */
     @Override
     public void setPredefinedType(IfcFanTypeEnum newPredefinedType) {
-        eSet(Ifc2x3tc1Package.Literals.IFC_FAN_TYPE__PREDEFINED_TYPE, newPredefinedType);
+        eSet(Ifc2x3tc1Package.eINSTANCE.getIfcFanType_PredefinedType(), newPredefinedType);
     }
 
 } //IfcFanTypeImpl

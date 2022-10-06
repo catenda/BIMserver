@@ -54,7 +54,7 @@ public class IfcAnnotationImpl extends IfcProductImpl implements IfcAnnotation {
      */
     @Override
     protected EClass eStaticClass() {
-        return Ifc4Package.Literals.IFC_ANNOTATION;
+        return Ifc4Package.eINSTANCE.getIfcAnnotation();
     }
 
     /**
@@ -66,7 +66,7 @@ public class IfcAnnotationImpl extends IfcProductImpl implements IfcAnnotation {
     @Override
     public EList<IfcRelContainedInSpatialStructure> getContainedInStructure() {
         return (EList<IfcRelContainedInSpatialStructure>) eGet(
-                Ifc4Package.Literals.IFC_ANNOTATION__CONTAINED_IN_STRUCTURE, true);
+                Ifc4Package.eINSTANCE.getIfcAnnotation_ContainedInStructure(), true);
     }
 
     /**
@@ -76,7 +76,7 @@ public class IfcAnnotationImpl extends IfcProductImpl implements IfcAnnotation {
      */
     @Override
     public void unsetContainedInStructure() {
-        eUnset(Ifc4Package.Literals.IFC_ANNOTATION__CONTAINED_IN_STRUCTURE);
+        eUnset(Ifc4Package.eINSTANCE.getIfcAnnotation_ContainedInStructure());
     }
 
     /**
@@ -86,7 +86,7 @@ public class IfcAnnotationImpl extends IfcProductImpl implements IfcAnnotation {
      */
     @Override
     public boolean isSetContainedInStructure() {
-        return eIsSet(Ifc4Package.Literals.IFC_ANNOTATION__CONTAINED_IN_STRUCTURE);
+        return eIsSet(Ifc4Package.eINSTANCE.getIfcAnnotation_ContainedInStructure());
     }
 
 } //IfcAnnotationImpl

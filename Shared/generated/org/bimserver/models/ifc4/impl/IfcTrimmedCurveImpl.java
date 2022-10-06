@@ -61,7 +61,7 @@ public class IfcTrimmedCurveImpl extends IfcBoundedCurveImpl implements IfcTrimm
      */
     @Override
     protected EClass eStaticClass() {
-        return Ifc4Package.Literals.IFC_TRIMMED_CURVE;
+        return Ifc4Package.eINSTANCE.getIfcTrimmedCurve();
     }
 
     /**
@@ -71,7 +71,7 @@ public class IfcTrimmedCurveImpl extends IfcBoundedCurveImpl implements IfcTrimm
      */
     @Override
     public IfcCurve getBasisCurve() {
-        return (IfcCurve) eGet(Ifc4Package.Literals.IFC_TRIMMED_CURVE__BASIS_CURVE, true);
+        return (IfcCurve) eGet(Ifc4Package.eINSTANCE.getIfcTrimmedCurve_BasisCurve(), true);
     }
 
     /**
@@ -81,7 +81,7 @@ public class IfcTrimmedCurveImpl extends IfcBoundedCurveImpl implements IfcTrimm
      */
     @Override
     public void setBasisCurve(IfcCurve newBasisCurve) {
-        eSet(Ifc4Package.Literals.IFC_TRIMMED_CURVE__BASIS_CURVE, newBasisCurve);
+        eSet(Ifc4Package.eINSTANCE.getIfcTrimmedCurve_BasisCurve(), newBasisCurve);
     }
 
     /**
@@ -92,7 +92,7 @@ public class IfcTrimmedCurveImpl extends IfcBoundedCurveImpl implements IfcTrimm
     @SuppressWarnings("unchecked")
     @Override
     public EList<IfcTrimmingSelect> getTrim1() {
-        return (EList<IfcTrimmingSelect>) eGet(Ifc4Package.Literals.IFC_TRIMMED_CURVE__TRIM1, true);
+        return (EList<IfcTrimmingSelect>) eGet(Ifc4Package.eINSTANCE.getIfcTrimmedCurve_Trim1(), true);
     }
 
     /**
@@ -103,7 +103,7 @@ public class IfcTrimmedCurveImpl extends IfcBoundedCurveImpl implements IfcTrimm
     @SuppressWarnings("unchecked")
     @Override
     public EList<IfcTrimmingSelect> getTrim2() {
-        return (EList<IfcTrimmingSelect>) eGet(Ifc4Package.Literals.IFC_TRIMMED_CURVE__TRIM2, true);
+        return (EList<IfcTrimmingSelect>) eGet(Ifc4Package.eINSTANCE.getIfcTrimmedCurve_Trim2(), true);
     }
 
     /**
@@ -113,7 +113,7 @@ public class IfcTrimmedCurveImpl extends IfcBoundedCurveImpl implements IfcTrimm
      */
     @Override
     public Tristate getSenseAgreement() {
-        return (Tristate) eGet(Ifc4Package.Literals.IFC_TRIMMED_CURVE__SENSE_AGREEMENT, true);
+        return (Tristate) eGet(Ifc4Package.eINSTANCE.getIfcTrimmedCurve_SenseAgreement(), true);
     }
 
     /**
@@ -123,7 +123,7 @@ public class IfcTrimmedCurveImpl extends IfcBoundedCurveImpl implements IfcTrimm
      */
     @Override
     public void setSenseAgreement(Tristate newSenseAgreement) {
-        eSet(Ifc4Package.Literals.IFC_TRIMMED_CURVE__SENSE_AGREEMENT, newSenseAgreement);
+        eSet(Ifc4Package.eINSTANCE.getIfcTrimmedCurve_SenseAgreement(), newSenseAgreement);
     }
 
     /**
@@ -133,7 +133,7 @@ public class IfcTrimmedCurveImpl extends IfcBoundedCurveImpl implements IfcTrimm
      */
     @Override
     public IfcTrimmingPreference getMasterRepresentation() {
-        return (IfcTrimmingPreference) eGet(Ifc4Package.Literals.IFC_TRIMMED_CURVE__MASTER_REPRESENTATION, true);
+        return (IfcTrimmingPreference) eGet(Ifc4Package.eINSTANCE.getIfcTrimmedCurve_MasterRepresentation(), true);
     }
 
     /**
@@ -143,7 +143,7 @@ public class IfcTrimmedCurveImpl extends IfcBoundedCurveImpl implements IfcTrimm
      */
     @Override
     public void setMasterRepresentation(IfcTrimmingPreference newMasterRepresentation) {
-        eSet(Ifc4Package.Literals.IFC_TRIMMED_CURVE__MASTER_REPRESENTATION, newMasterRepresentation);
+        eSet(Ifc4Package.eINSTANCE.getIfcTrimmedCurve_MasterRepresentation(), newMasterRepresentation);
     }
 
 } //IfcTrimmedCurveImpl

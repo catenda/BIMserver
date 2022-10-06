@@ -59,7 +59,7 @@ public class IfcSiteImpl extends IfcSpatialStructureElementImpl implements IfcSi
      */
     @Override
     protected EClass eStaticClass() {
-        return Ifc4Package.Literals.IFC_SITE;
+        return Ifc4Package.eINSTANCE.getIfcSite();
     }
 
     /**
@@ -70,7 +70,7 @@ public class IfcSiteImpl extends IfcSpatialStructureElementImpl implements IfcSi
     @SuppressWarnings("unchecked")
     @Override
     public EList<Long> getRefLatitude() {
-        return (EList<Long>) eGet(Ifc4Package.Literals.IFC_SITE__REF_LATITUDE, true);
+        return (EList<Long>) eGet(Ifc4Package.eINSTANCE.getIfcSite_RefLatitude(), true);
     }
 
     /**
@@ -80,7 +80,7 @@ public class IfcSiteImpl extends IfcSpatialStructureElementImpl implements IfcSi
      */
     @Override
     public void unsetRefLatitude() {
-        eUnset(Ifc4Package.Literals.IFC_SITE__REF_LATITUDE);
+        eUnset(Ifc4Package.eINSTANCE.getIfcSite_RefLatitude());
     }
 
     /**
@@ -90,7 +90,7 @@ public class IfcSiteImpl extends IfcSpatialStructureElementImpl implements IfcSi
      */
     @Override
     public boolean isSetRefLatitude() {
-        return eIsSet(Ifc4Package.Literals.IFC_SITE__REF_LATITUDE);
+        return eIsSet(Ifc4Package.eINSTANCE.getIfcSite_RefLatitude());
     }
 
     /**
@@ -101,7 +101,7 @@ public class IfcSiteImpl extends IfcSpatialStructureElementImpl implements IfcSi
     @SuppressWarnings("unchecked")
     @Override
     public EList<Long> getRefLongitude() {
-        return (EList<Long>) eGet(Ifc4Package.Literals.IFC_SITE__REF_LONGITUDE, true);
+        return (EList<Long>) eGet(Ifc4Package.eINSTANCE.getIfcSite_RefLongitude(), true);
     }
 
     /**
@@ -111,7 +111,7 @@ public class IfcSiteImpl extends IfcSpatialStructureElementImpl implements IfcSi
      */
     @Override
     public void unsetRefLongitude() {
-        eUnset(Ifc4Package.Literals.IFC_SITE__REF_LONGITUDE);
+        eUnset(Ifc4Package.eINSTANCE.getIfcSite_RefLongitude());
     }
 
     /**
@@ -121,7 +121,7 @@ public class IfcSiteImpl extends IfcSpatialStructureElementImpl implements IfcSi
      */
     @Override
     public boolean isSetRefLongitude() {
-        return eIsSet(Ifc4Package.Literals.IFC_SITE__REF_LONGITUDE);
+        return eIsSet(Ifc4Package.eINSTANCE.getIfcSite_RefLongitude());
     }
 
     /**
@@ -131,7 +131,7 @@ public class IfcSiteImpl extends IfcSpatialStructureElementImpl implements IfcSi
      */
     @Override
     public double getRefElevation() {
-        return (Double) eGet(Ifc4Package.Literals.IFC_SITE__REF_ELEVATION, true);
+        return (Double) eGet(Ifc4Package.eINSTANCE.getIfcSite_RefElevation(), true);
     }
 
     /**
@@ -141,7 +141,7 @@ public class IfcSiteImpl extends IfcSpatialStructureElementImpl implements IfcSi
      */
     @Override
     public void setRefElevation(double newRefElevation) {
-        eSet(Ifc4Package.Literals.IFC_SITE__REF_ELEVATION, newRefElevation);
+        eSet(Ifc4Package.eINSTANCE.getIfcSite_RefElevation(), newRefElevation);
     }
 
     /**
@@ -151,7 +151,7 @@ public class IfcSiteImpl extends IfcSpatialStructureElementImpl implements IfcSi
      */
     @Override
     public void unsetRefElevation() {
-        eUnset(Ifc4Package.Literals.IFC_SITE__REF_ELEVATION);
+        eUnset(Ifc4Package.eINSTANCE.getIfcSite_RefElevation());
     }
 
     /**
@@ -161,7 +161,7 @@ public class IfcSiteImpl extends IfcSpatialStructureElementImpl implements IfcSi
      */
     @Override
     public boolean isSetRefElevation() {
-        return eIsSet(Ifc4Package.Literals.IFC_SITE__REF_ELEVATION);
+        return eIsSet(Ifc4Package.eINSTANCE.getIfcSite_RefElevation());
     }
 
     /**
@@ -171,7 +171,7 @@ public class IfcSiteImpl extends IfcSpatialStructureElementImpl implements IfcSi
      */
     @Override
     public String getRefElevationAsString() {
-        return (String) eGet(Ifc4Package.Literals.IFC_SITE__REF_ELEVATION_AS_STRING, true);
+        return (String) eGet(Ifc4Package.eINSTANCE.getIfcSite_RefElevationAsString(), true);
     }
 
     /**
@@ -181,7 +181,7 @@ public class IfcSiteImpl extends IfcSpatialStructureElementImpl implements IfcSi
      */
     @Override
     public void setRefElevationAsString(String newRefElevationAsString) {
-        eSet(Ifc4Package.Literals.IFC_SITE__REF_ELEVATION_AS_STRING, newRefElevationAsString);
+        eSet(Ifc4Package.eINSTANCE.getIfcSite_RefElevationAsString(), newRefElevationAsString);
     }
 
     /**
@@ -191,7 +191,7 @@ public class IfcSiteImpl extends IfcSpatialStructureElementImpl implements IfcSi
      */
     @Override
     public void unsetRefElevationAsString() {
-        eUnset(Ifc4Package.Literals.IFC_SITE__REF_ELEVATION_AS_STRING);
+        eUnset(Ifc4Package.eINSTANCE.getIfcSite_RefElevationAsString());
     }
 
     /**
@@ -201,7 +201,7 @@ public class IfcSiteImpl extends IfcSpatialStructureElementImpl implements IfcSi
      */
     @Override
     public boolean isSetRefElevationAsString() {
-        return eIsSet(Ifc4Package.Literals.IFC_SITE__REF_ELEVATION_AS_STRING);
+        return eIsSet(Ifc4Package.eINSTANCE.getIfcSite_RefElevationAsString());
     }
 
     /**
@@ -211,7 +211,7 @@ public class IfcSiteImpl extends IfcSpatialStructureElementImpl implements IfcSi
      */
     @Override
     public String getLandTitleNumber() {
-        return (String) eGet(Ifc4Package.Literals.IFC_SITE__LAND_TITLE_NUMBER, true);
+        return (String) eGet(Ifc4Package.eINSTANCE.getIfcSite_LandTitleNumber(), true);
     }
 
     /**
@@ -221,7 +221,7 @@ public class IfcSiteImpl extends IfcSpatialStructureElementImpl implements IfcSi
      */
     @Override
     public void setLandTitleNumber(String newLandTitleNumber) {
-        eSet(Ifc4Package.Literals.IFC_SITE__LAND_TITLE_NUMBER, newLandTitleNumber);
+        eSet(Ifc4Package.eINSTANCE.getIfcSite_LandTitleNumber(), newLandTitleNumber);
     }
 
     /**
@@ -231,7 +231,7 @@ public class IfcSiteImpl extends IfcSpatialStructureElementImpl implements IfcSi
      */
     @Override
     public void unsetLandTitleNumber() {
-        eUnset(Ifc4Package.Literals.IFC_SITE__LAND_TITLE_NUMBER);
+        eUnset(Ifc4Package.eINSTANCE.getIfcSite_LandTitleNumber());
     }
 
     /**
@@ -241,7 +241,7 @@ public class IfcSiteImpl extends IfcSpatialStructureElementImpl implements IfcSi
      */
     @Override
     public boolean isSetLandTitleNumber() {
-        return eIsSet(Ifc4Package.Literals.IFC_SITE__LAND_TITLE_NUMBER);
+        return eIsSet(Ifc4Package.eINSTANCE.getIfcSite_LandTitleNumber());
     }
 
     /**
@@ -251,7 +251,7 @@ public class IfcSiteImpl extends IfcSpatialStructureElementImpl implements IfcSi
      */
     @Override
     public IfcPostalAddress getSiteAddress() {
-        return (IfcPostalAddress) eGet(Ifc4Package.Literals.IFC_SITE__SITE_ADDRESS, true);
+        return (IfcPostalAddress) eGet(Ifc4Package.eINSTANCE.getIfcSite_SiteAddress(), true);
     }
 
     /**
@@ -261,7 +261,7 @@ public class IfcSiteImpl extends IfcSpatialStructureElementImpl implements IfcSi
      */
     @Override
     public void setSiteAddress(IfcPostalAddress newSiteAddress) {
-        eSet(Ifc4Package.Literals.IFC_SITE__SITE_ADDRESS, newSiteAddress);
+        eSet(Ifc4Package.eINSTANCE.getIfcSite_SiteAddress(), newSiteAddress);
     }
 
     /**
@@ -271,7 +271,7 @@ public class IfcSiteImpl extends IfcSpatialStructureElementImpl implements IfcSi
      */
     @Override
     public void unsetSiteAddress() {
-        eUnset(Ifc4Package.Literals.IFC_SITE__SITE_ADDRESS);
+        eUnset(Ifc4Package.eINSTANCE.getIfcSite_SiteAddress());
     }
 
     /**
@@ -281,7 +281,7 @@ public class IfcSiteImpl extends IfcSpatialStructureElementImpl implements IfcSi
      */
     @Override
     public boolean isSetSiteAddress() {
-        return eIsSet(Ifc4Package.Literals.IFC_SITE__SITE_ADDRESS);
+        return eIsSet(Ifc4Package.eINSTANCE.getIfcSite_SiteAddress());
     }
 
 } //IfcSiteImpl

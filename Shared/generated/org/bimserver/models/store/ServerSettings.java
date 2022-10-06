@@ -57,10 +57,6 @@ public interface ServerSettings extends IdEObject {
     /**
      * Returns the value of the '<em><b>Send Confirmation Email After Registration</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Send Confirmation Email After Registration</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Send Confirmation Email After Registration</em>' attribute.
      * @see #setSendConfirmationEmailAfterRegistration(boolean)
@@ -83,10 +79,6 @@ public interface ServerSettings extends IdEObject {
     /**
      * Returns the value of the '<em><b>Allow Self Registration</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Allow Self Registration</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Allow Self Registration</em>' attribute.
      * @see #setAllowSelfRegistration(Boolean)
@@ -109,10 +101,6 @@ public interface ServerSettings extends IdEObject {
     /**
      * Returns the value of the '<em><b>Allow Users To Create Top Level Projects</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Allow Users To Create Top Level Projects</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Allow Users To Create Top Level Projects</em>' attribute.
      * @see #setAllowUsersToCreateTopLevelProjects(boolean)
@@ -135,10 +123,6 @@ public interface ServerSettings extends IdEObject {
     /**
      * Returns the value of the '<em><b>Checkin Merging Enabled</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Checkin Merging Enabled</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Checkin Merging Enabled</em>' attribute.
      * @see #setCheckinMergingEnabled(Boolean)
@@ -161,10 +145,6 @@ public interface ServerSettings extends IdEObject {
     /**
      * Returns the value of the '<em><b>Smtp Server</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Smtp Server</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Smtp Server</em>' attribute.
      * @see #setSmtpServer(String)
@@ -187,10 +167,6 @@ public interface ServerSettings extends IdEObject {
     /**
      * Returns the value of the '<em><b>Email Sender Address</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Email Sender Address</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Email Sender Address</em>' attribute.
      * @see #setEmailSenderAddress(String)
@@ -213,10 +189,6 @@ public interface ServerSettings extends IdEObject {
     /**
      * Returns the value of the '<em><b>Email Sender Name</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Email Sender Name</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Email Sender Name</em>' attribute.
      * @see #setEmailSenderName(String)
@@ -239,10 +211,6 @@ public interface ServerSettings extends IdEObject {
     /**
      * Returns the value of the '<em><b>Site Address</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Site Address</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Site Address</em>' attribute.
      * @see #setSiteAddress(String)
@@ -265,10 +233,6 @@ public interface ServerSettings extends IdEObject {
     /**
      * Returns the value of the '<em><b>Generate Geometry On Checkin</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Generate Geometry On Checkin</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Generate Geometry On Checkin</em>' attribute.
      * @see #setGenerateGeometryOnCheckin(boolean)
@@ -291,10 +255,6 @@ public interface ServerSettings extends IdEObject {
     /**
      * Returns the value of the '<em><b>Allow Only Whitelisted</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Allow Only Whitelisted</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Allow Only Whitelisted</em>' attribute.
      * @see #setAllowOnlyWhitelisted(boolean)
@@ -318,10 +278,6 @@ public interface ServerSettings extends IdEObject {
      * Returns the value of the '<em><b>Whitelisted Domains</b></em>' attribute list.
      * The list contents are of type {@link java.lang.String}.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Whitelisted Domains</em>' attribute list isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Whitelisted Domains</em>' attribute list.
      * @see org.bimserver.models.store.StorePackage#getServerSettings_WhitelistedDomains()
@@ -333,10 +289,6 @@ public interface ServerSettings extends IdEObject {
     /**
      * Returns the value of the '<em><b>Hide User List For Non Admin</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Hide User List For Non Admin</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Hide User List For Non Admin</em>' attribute.
      * @see #setHideUserListForNonAdmin(Boolean)
@@ -359,10 +311,6 @@ public interface ServerSettings extends IdEObject {
     /**
      * Returns the value of the '<em><b>Protocol Buffers Port</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Protocol Buffers Port</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Protocol Buffers Port</em>' attribute.
      * @see #setProtocolBuffersPort(Integer)
@@ -385,10 +333,6 @@ public interface ServerSettings extends IdEObject {
     /**
      * Returns the value of the '<em><b>Cache Output Files</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Cache Output Files</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Cache Output Files</em>' attribute.
      * @see #setCacheOutputFiles(Boolean)
@@ -413,10 +357,6 @@ public interface ServerSettings extends IdEObject {
      * The list contents are of type {@link org.bimserver.models.store.WebModulePluginConfiguration}.
      * It is bidirectional and its opposite is '{@link org.bimserver.models.store.WebModulePluginConfiguration#getServerSettings <em>Server Settings</em>}'.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Web Modules</em>' reference list isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Web Modules</em>' reference list.
      * @see org.bimserver.models.store.StorePackage#getServerSettings_WebModules()
@@ -429,10 +369,6 @@ public interface ServerSettings extends IdEObject {
     /**
      * Returns the value of the '<em><b>Web Module</b></em>' reference.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Web Module</em>' reference isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Web Module</em>' reference.
      * @see #setWebModule(WebModulePluginConfiguration)
@@ -455,10 +391,6 @@ public interface ServerSettings extends IdEObject {
     /**
      * Returns the value of the '<em><b>Service Repository Url</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Service Repository Url</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Service Repository Url</em>' attribute.
      * @see #setServiceRepositoryUrl(String)

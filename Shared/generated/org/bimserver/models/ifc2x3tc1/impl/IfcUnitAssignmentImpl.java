@@ -56,7 +56,7 @@ public class IfcUnitAssignmentImpl extends IdEObjectImpl implements IfcUnitAssig
      */
     @Override
     protected EClass eStaticClass() {
-        return Ifc2x3tc1Package.Literals.IFC_UNIT_ASSIGNMENT;
+        return Ifc2x3tc1Package.eINSTANCE.getIfcUnitAssignment();
     }
 
     /**
@@ -77,7 +77,7 @@ public class IfcUnitAssignmentImpl extends IdEObjectImpl implements IfcUnitAssig
     @SuppressWarnings("unchecked")
     @Override
     public EList<IfcUnit> getUnits() {
-        return (EList<IfcUnit>) eGet(Ifc2x3tc1Package.Literals.IFC_UNIT_ASSIGNMENT__UNITS, true);
+        return (EList<IfcUnit>) eGet(Ifc2x3tc1Package.eINSTANCE.getIfcUnitAssignment_Units(), true);
     }
 
 } //IfcUnitAssignmentImpl

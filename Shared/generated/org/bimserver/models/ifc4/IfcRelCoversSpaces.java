@@ -40,10 +40,6 @@ public interface IfcRelCoversSpaces extends IfcRelConnects {
      * Returns the value of the '<em><b>Relating Space</b></em>' reference.
      * It is bidirectional and its opposite is '{@link org.bimserver.models.ifc4.IfcSpace#getHasCoverings <em>Has Coverings</em>}'.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Relating Space</em>' reference isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Relating Space</em>' reference.
      * @see #setRelatingSpace(IfcSpace)
@@ -70,10 +66,6 @@ public interface IfcRelCoversSpaces extends IfcRelConnects {
      * The list contents are of type {@link org.bimserver.models.ifc4.IfcCovering}.
      * It is bidirectional and its opposite is '{@link org.bimserver.models.ifc4.IfcCovering#getCoversSpaces <em>Covers Spaces</em>}'.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Related Coverings</em>' reference list isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Related Coverings</em>' reference list.
      * @see org.bimserver.models.ifc4.Ifc4Package#getIfcRelCoversSpaces_RelatedCoverings()

@@ -39,10 +39,6 @@ public interface IfcMaterialProfileSetUsage extends IfcMaterialUsageDefinition {
     /**
      * Returns the value of the '<em><b>For Profile Set</b></em>' reference.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>For Profile Set</em>' reference isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>For Profile Set</em>' reference.
      * @see #setForProfileSet(IfcMaterialProfileSet)
@@ -65,10 +61,6 @@ public interface IfcMaterialProfileSetUsage extends IfcMaterialUsageDefinition {
     /**
      * Returns the value of the '<em><b>Cardinal Point</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Cardinal Point</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Cardinal Point</em>' attribute.
      * @see #isSetCardinalPoint()
@@ -118,10 +110,6 @@ public interface IfcMaterialProfileSetUsage extends IfcMaterialUsageDefinition {
     /**
      * Returns the value of the '<em><b>Reference Extent</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Reference Extent</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Reference Extent</em>' attribute.
      * @see #isSetReferenceExtent()
@@ -171,10 +159,6 @@ public interface IfcMaterialProfileSetUsage extends IfcMaterialUsageDefinition {
     /**
      * Returns the value of the '<em><b>Reference Extent As String</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Reference Extent As String</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Reference Extent As String</em>' attribute.
      * @see #isSetReferenceExtentAsString()

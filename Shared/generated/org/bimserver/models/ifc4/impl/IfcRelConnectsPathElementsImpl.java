@@ -21,6 +21,7 @@ import org.bimserver.models.ifc4.IfcConnectionTypeEnum;
 import org.bimserver.models.ifc4.IfcRelConnectsPathElements;
 
 import org.eclipse.emf.common.util.EList;
+
 import org.eclipse.emf.ecore.EClass;
 
 /**
@@ -56,7 +57,7 @@ public class IfcRelConnectsPathElementsImpl extends IfcRelConnectsElementsImpl i
      */
     @Override
     protected EClass eStaticClass() {
-        return Ifc4Package.Literals.IFC_REL_CONNECTS_PATH_ELEMENTS;
+        return Ifc4Package.eINSTANCE.getIfcRelConnectsPathElements();
     }
 
     /**
@@ -67,7 +68,7 @@ public class IfcRelConnectsPathElementsImpl extends IfcRelConnectsElementsImpl i
     @SuppressWarnings("unchecked")
     @Override
     public EList<Long> getRelatingPriorities() {
-        return (EList<Long>) eGet(Ifc4Package.Literals.IFC_REL_CONNECTS_PATH_ELEMENTS__RELATING_PRIORITIES, true);
+        return (EList<Long>) eGet(Ifc4Package.eINSTANCE.getIfcRelConnectsPathElements_RelatingPriorities(), true);
     }
 
     /**
@@ -78,7 +79,7 @@ public class IfcRelConnectsPathElementsImpl extends IfcRelConnectsElementsImpl i
     @SuppressWarnings("unchecked")
     @Override
     public EList<Long> getRelatedPriorities() {
-        return (EList<Long>) eGet(Ifc4Package.Literals.IFC_REL_CONNECTS_PATH_ELEMENTS__RELATED_PRIORITIES, true);
+        return (EList<Long>) eGet(Ifc4Package.eINSTANCE.getIfcRelConnectsPathElements_RelatedPriorities(), true);
     }
 
     /**
@@ -88,8 +89,8 @@ public class IfcRelConnectsPathElementsImpl extends IfcRelConnectsElementsImpl i
      */
     @Override
     public IfcConnectionTypeEnum getRelatedConnectionType() {
-        return (IfcConnectionTypeEnum) eGet(
-                Ifc4Package.Literals.IFC_REL_CONNECTS_PATH_ELEMENTS__RELATED_CONNECTION_TYPE, true);
+        return (IfcConnectionTypeEnum) eGet(Ifc4Package.eINSTANCE.getIfcRelConnectsPathElements_RelatedConnectionType(),
+                true);
     }
 
     /**
@@ -99,7 +100,7 @@ public class IfcRelConnectsPathElementsImpl extends IfcRelConnectsElementsImpl i
      */
     @Override
     public void setRelatedConnectionType(IfcConnectionTypeEnum newRelatedConnectionType) {
-        eSet(Ifc4Package.Literals.IFC_REL_CONNECTS_PATH_ELEMENTS__RELATED_CONNECTION_TYPE, newRelatedConnectionType);
+        eSet(Ifc4Package.eINSTANCE.getIfcRelConnectsPathElements_RelatedConnectionType(), newRelatedConnectionType);
     }
 
     /**
@@ -110,7 +111,7 @@ public class IfcRelConnectsPathElementsImpl extends IfcRelConnectsElementsImpl i
     @Override
     public IfcConnectionTypeEnum getRelatingConnectionType() {
         return (IfcConnectionTypeEnum) eGet(
-                Ifc4Package.Literals.IFC_REL_CONNECTS_PATH_ELEMENTS__RELATING_CONNECTION_TYPE, true);
+                Ifc4Package.eINSTANCE.getIfcRelConnectsPathElements_RelatingConnectionType(), true);
     }
 
     /**
@@ -120,7 +121,7 @@ public class IfcRelConnectsPathElementsImpl extends IfcRelConnectsElementsImpl i
      */
     @Override
     public void setRelatingConnectionType(IfcConnectionTypeEnum newRelatingConnectionType) {
-        eSet(Ifc4Package.Literals.IFC_REL_CONNECTS_PATH_ELEMENTS__RELATING_CONNECTION_TYPE, newRelatingConnectionType);
+        eSet(Ifc4Package.eINSTANCE.getIfcRelConnectsPathElements_RelatingConnectionType(), newRelatingConnectionType);
     }
 
 } //IfcRelConnectsPathElementsImpl

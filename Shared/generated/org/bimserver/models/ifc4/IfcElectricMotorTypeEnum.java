@@ -115,10 +115,6 @@ public enum IfcElectricMotorTypeEnum implements Enumerator {
     /**
      * The '<em><b>NULL</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>NULL</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #NULL
      * @model
@@ -130,10 +126,6 @@ public enum IfcElectricMotorTypeEnum implements Enumerator {
     /**
      * The '<em><b>RELUCTANCESYNCHRONOUS</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>RELUCTANCESYNCHRONOUS</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #RELUCTANCESYNCHRONOUS
      * @model
@@ -145,10 +137,6 @@ public enum IfcElectricMotorTypeEnum implements Enumerator {
     /**
      * The '<em><b>NOTDEFINED</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>NOTDEFINED</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #NOTDEFINED
      * @model
@@ -160,10 +148,6 @@ public enum IfcElectricMotorTypeEnum implements Enumerator {
     /**
      * The '<em><b>USERDEFINED</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>USERDEFINED</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #USERDEFINED
      * @model
@@ -175,10 +159,6 @@ public enum IfcElectricMotorTypeEnum implements Enumerator {
     /**
      * The '<em><b>INDUCTION</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>INDUCTION</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #INDUCTION
      * @model
@@ -190,10 +170,6 @@ public enum IfcElectricMotorTypeEnum implements Enumerator {
     /**
      * The '<em><b>SYNCHRONOUS</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>SYNCHRONOUS</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #SYNCHRONOUS
      * @model
@@ -205,10 +181,6 @@ public enum IfcElectricMotorTypeEnum implements Enumerator {
     /**
      * The '<em><b>POLYPHASE</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>POLYPHASE</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #POLYPHASE
      * @model
@@ -220,10 +192,6 @@ public enum IfcElectricMotorTypeEnum implements Enumerator {
     /**
      * The '<em><b>DC</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>DC</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #DC
      * @model

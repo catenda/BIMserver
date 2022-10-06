@@ -19,7 +19,6 @@ package org.bimserver.models.ifc4.impl;
 import org.bimserver.emf.IdEObjectImpl;
 
 import org.bimserver.models.ifc4.Ifc4Package;
-import org.bimserver.models.ifc4.IfcTable;
 import org.bimserver.models.ifc4.IfcTableRow;
 import org.bimserver.models.ifc4.IfcValue;
 import org.bimserver.models.ifc4.Tristate;
@@ -59,7 +58,7 @@ public class IfcTableRowImpl extends IdEObjectImpl implements IfcTableRow {
      */
     @Override
     protected EClass eStaticClass() {
-        return Ifc4Package.Literals.IFC_TABLE_ROW;
+        return Ifc4Package.eINSTANCE.getIfcTableRow();
     }
 
     /**
@@ -80,7 +79,7 @@ public class IfcTableRowImpl extends IdEObjectImpl implements IfcTableRow {
     @SuppressWarnings("unchecked")
     @Override
     public EList<IfcValue> getRowCells() {
-        return (EList<IfcValue>) eGet(Ifc4Package.Literals.IFC_TABLE_ROW__ROW_CELLS, true);
+        return (EList<IfcValue>) eGet(Ifc4Package.eINSTANCE.getIfcTableRow_RowCells(), true);
     }
 
     /**
@@ -90,7 +89,7 @@ public class IfcTableRowImpl extends IdEObjectImpl implements IfcTableRow {
      */
     @Override
     public void unsetRowCells() {
-        eUnset(Ifc4Package.Literals.IFC_TABLE_ROW__ROW_CELLS);
+        eUnset(Ifc4Package.eINSTANCE.getIfcTableRow_RowCells());
     }
 
     /**
@@ -100,7 +99,7 @@ public class IfcTableRowImpl extends IdEObjectImpl implements IfcTableRow {
      */
     @Override
     public boolean isSetRowCells() {
-        return eIsSet(Ifc4Package.Literals.IFC_TABLE_ROW__ROW_CELLS);
+        return eIsSet(Ifc4Package.eINSTANCE.getIfcTableRow_RowCells());
     }
 
     /**
@@ -110,7 +109,7 @@ public class IfcTableRowImpl extends IdEObjectImpl implements IfcTableRow {
      */
     @Override
     public Tristate getIsHeading() {
-        return (Tristate) eGet(Ifc4Package.Literals.IFC_TABLE_ROW__IS_HEADING, true);
+        return (Tristate) eGet(Ifc4Package.eINSTANCE.getIfcTableRow_IsHeading(), true);
     }
 
     /**
@@ -120,7 +119,7 @@ public class IfcTableRowImpl extends IdEObjectImpl implements IfcTableRow {
      */
     @Override
     public void setIsHeading(Tristate newIsHeading) {
-        eSet(Ifc4Package.Literals.IFC_TABLE_ROW__IS_HEADING, newIsHeading);
+        eSet(Ifc4Package.eINSTANCE.getIfcTableRow_IsHeading(), newIsHeading);
     }
 
     /**
@@ -130,7 +129,7 @@ public class IfcTableRowImpl extends IdEObjectImpl implements IfcTableRow {
      */
     @Override
     public void unsetIsHeading() {
-        eUnset(Ifc4Package.Literals.IFC_TABLE_ROW__IS_HEADING);
+        eUnset(Ifc4Package.eINSTANCE.getIfcTableRow_IsHeading());
     }
 
     /**
@@ -140,7 +139,7 @@ public class IfcTableRowImpl extends IdEObjectImpl implements IfcTableRow {
      */
     @Override
     public boolean isSetIsHeading() {
-        return eIsSet(Ifc4Package.Literals.IFC_TABLE_ROW__IS_HEADING);
+        return eIsSet(Ifc4Package.eINSTANCE.getIfcTableRow_IsHeading());
     }
 
 } //IfcTableRowImpl

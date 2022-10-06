@@ -55,7 +55,7 @@ public class IfcCurveStyleFontImpl extends IfcPresentationItemImpl implements If
      */
     @Override
     protected EClass eStaticClass() {
-        return Ifc4Package.Literals.IFC_CURVE_STYLE_FONT;
+        return Ifc4Package.eINSTANCE.getIfcCurveStyleFont();
     }
 
     /**
@@ -65,7 +65,7 @@ public class IfcCurveStyleFontImpl extends IfcPresentationItemImpl implements If
      */
     @Override
     public String getName() {
-        return (String) eGet(Ifc4Package.Literals.IFC_CURVE_STYLE_FONT__NAME, true);
+        return (String) eGet(Ifc4Package.eINSTANCE.getIfcCurveStyleFont_Name(), true);
     }
 
     /**
@@ -75,7 +75,7 @@ public class IfcCurveStyleFontImpl extends IfcPresentationItemImpl implements If
      */
     @Override
     public void setName(String newName) {
-        eSet(Ifc4Package.Literals.IFC_CURVE_STYLE_FONT__NAME, newName);
+        eSet(Ifc4Package.eINSTANCE.getIfcCurveStyleFont_Name(), newName);
     }
 
     /**
@@ -85,7 +85,7 @@ public class IfcCurveStyleFontImpl extends IfcPresentationItemImpl implements If
      */
     @Override
     public void unsetName() {
-        eUnset(Ifc4Package.Literals.IFC_CURVE_STYLE_FONT__NAME);
+        eUnset(Ifc4Package.eINSTANCE.getIfcCurveStyleFont_Name());
     }
 
     /**
@@ -95,7 +95,7 @@ public class IfcCurveStyleFontImpl extends IfcPresentationItemImpl implements If
      */
     @Override
     public boolean isSetName() {
-        return eIsSet(Ifc4Package.Literals.IFC_CURVE_STYLE_FONT__NAME);
+        return eIsSet(Ifc4Package.eINSTANCE.getIfcCurveStyleFont_Name());
     }
 
     /**
@@ -106,7 +106,7 @@ public class IfcCurveStyleFontImpl extends IfcPresentationItemImpl implements If
     @SuppressWarnings("unchecked")
     @Override
     public EList<IfcCurveStyleFontPattern> getPatternList() {
-        return (EList<IfcCurveStyleFontPattern>) eGet(Ifc4Package.Literals.IFC_CURVE_STYLE_FONT__PATTERN_LIST, true);
+        return (EList<IfcCurveStyleFontPattern>) eGet(Ifc4Package.eINSTANCE.getIfcCurveStyleFont_PatternList(), true);
     }
 
 } //IfcCurveStyleFontImpl

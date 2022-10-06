@@ -38,10 +38,6 @@ public interface IfcFurnitureType extends IfcFurnishingElementType {
      * Returns the value of the '<em><b>Assembly Place</b></em>' attribute.
      * The literals are from the enumeration {@link org.bimserver.models.ifc4.IfcAssemblyPlaceEnum}.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Assembly Place</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Assembly Place</em>' attribute.
      * @see org.bimserver.models.ifc4.IfcAssemblyPlaceEnum
@@ -67,10 +63,6 @@ public interface IfcFurnitureType extends IfcFurnishingElementType {
      * Returns the value of the '<em><b>Predefined Type</b></em>' attribute.
      * The literals are from the enumeration {@link org.bimserver.models.ifc4.IfcFurnitureTypeEnum}.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Predefined Type</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Predefined Type</em>' attribute.
      * @see org.bimserver.models.ifc4.IfcFurnitureTypeEnum

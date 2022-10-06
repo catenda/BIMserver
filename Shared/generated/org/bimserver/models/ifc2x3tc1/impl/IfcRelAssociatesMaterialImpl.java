@@ -52,7 +52,7 @@ public class IfcRelAssociatesMaterialImpl extends IfcRelAssociatesImpl implement
      */
     @Override
     protected EClass eStaticClass() {
-        return Ifc2x3tc1Package.Literals.IFC_REL_ASSOCIATES_MATERIAL;
+        return Ifc2x3tc1Package.eINSTANCE.getIfcRelAssociatesMaterial();
     }
 
     /**
@@ -62,7 +62,8 @@ public class IfcRelAssociatesMaterialImpl extends IfcRelAssociatesImpl implement
      */
     @Override
     public IfcMaterialSelect getRelatingMaterial() {
-        return (IfcMaterialSelect) eGet(Ifc2x3tc1Package.Literals.IFC_REL_ASSOCIATES_MATERIAL__RELATING_MATERIAL, true);
+        return (IfcMaterialSelect) eGet(Ifc2x3tc1Package.eINSTANCE.getIfcRelAssociatesMaterial_RelatingMaterial(),
+                true);
     }
 
     /**
@@ -72,7 +73,7 @@ public class IfcRelAssociatesMaterialImpl extends IfcRelAssociatesImpl implement
      */
     @Override
     public void setRelatingMaterial(IfcMaterialSelect newRelatingMaterial) {
-        eSet(Ifc2x3tc1Package.Literals.IFC_REL_ASSOCIATES_MATERIAL__RELATING_MATERIAL, newRelatingMaterial);
+        eSet(Ifc2x3tc1Package.eINSTANCE.getIfcRelAssociatesMaterial_RelatingMaterial(), newRelatingMaterial);
     }
 
 } //IfcRelAssociatesMaterialImpl

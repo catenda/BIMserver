@@ -49,10 +49,6 @@ public interface IfcWaterProperties extends IfcMaterialProperties {
      * Returns the value of the '<em><b>Is Potable</b></em>' attribute.
      * The literals are from the enumeration {@link org.bimserver.models.ifc2x3tc1.Tristate}.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Is Potable</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Is Potable</em>' attribute.
      * @see org.bimserver.models.ifc2x3tc1.Tristate
@@ -104,10 +100,6 @@ public interface IfcWaterProperties extends IfcMaterialProperties {
     /**
      * Returns the value of the '<em><b>Hardness</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Hardness</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Hardness</em>' attribute.
      * @see #isSetHardness()
@@ -157,10 +149,6 @@ public interface IfcWaterProperties extends IfcMaterialProperties {
     /**
      * Returns the value of the '<em><b>Hardness As String</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Hardness As String</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Hardness As String</em>' attribute.
      * @see #isSetHardnessAsString()
@@ -212,10 +200,6 @@ public interface IfcWaterProperties extends IfcMaterialProperties {
     /**
      * Returns the value of the '<em><b>Alkalinity Concentration</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Alkalinity Concentration</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Alkalinity Concentration</em>' attribute.
      * @see #isSetAlkalinityConcentration()
@@ -265,10 +249,6 @@ public interface IfcWaterProperties extends IfcMaterialProperties {
     /**
      * Returns the value of the '<em><b>Alkalinity Concentration As String</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Alkalinity Concentration As String</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Alkalinity Concentration As String</em>' attribute.
      * @see #isSetAlkalinityConcentrationAsString()
@@ -320,10 +300,6 @@ public interface IfcWaterProperties extends IfcMaterialProperties {
     /**
      * Returns the value of the '<em><b>Acidity Concentration</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Acidity Concentration</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Acidity Concentration</em>' attribute.
      * @see #isSetAcidityConcentration()
@@ -373,10 +349,6 @@ public interface IfcWaterProperties extends IfcMaterialProperties {
     /**
      * Returns the value of the '<em><b>Acidity Concentration As String</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Acidity Concentration As String</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Acidity Concentration As String</em>' attribute.
      * @see #isSetAcidityConcentrationAsString()
@@ -428,10 +400,6 @@ public interface IfcWaterProperties extends IfcMaterialProperties {
     /**
      * Returns the value of the '<em><b>Impurities Content</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Impurities Content</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Impurities Content</em>' attribute.
      * @see #isSetImpuritiesContent()
@@ -481,10 +449,6 @@ public interface IfcWaterProperties extends IfcMaterialProperties {
     /**
      * Returns the value of the '<em><b>Impurities Content As String</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Impurities Content As String</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Impurities Content As String</em>' attribute.
      * @see #isSetImpuritiesContentAsString()
@@ -536,10 +500,6 @@ public interface IfcWaterProperties extends IfcMaterialProperties {
     /**
      * Returns the value of the '<em><b>PH Level</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>PH Level</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>PH Level</em>' attribute.
      * @see #isSetPHLevel()
@@ -589,10 +549,6 @@ public interface IfcWaterProperties extends IfcMaterialProperties {
     /**
      * Returns the value of the '<em><b>PH Level As String</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>PH Level As String</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>PH Level As String</em>' attribute.
      * @see #isSetPHLevelAsString()
@@ -644,10 +600,6 @@ public interface IfcWaterProperties extends IfcMaterialProperties {
     /**
      * Returns the value of the '<em><b>Dissolved Solids Content</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Dissolved Solids Content</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Dissolved Solids Content</em>' attribute.
      * @see #isSetDissolvedSolidsContent()
@@ -697,10 +649,6 @@ public interface IfcWaterProperties extends IfcMaterialProperties {
     /**
      * Returns the value of the '<em><b>Dissolved Solids Content As String</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Dissolved Solids Content As String</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Dissolved Solids Content As String</em>' attribute.
      * @see #isSetDissolvedSolidsContentAsString()

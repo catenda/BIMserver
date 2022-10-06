@@ -54,7 +54,7 @@ public class IfcGridPlacementImpl extends IfcObjectPlacementImpl implements IfcG
      */
     @Override
     protected EClass eStaticClass() {
-        return Ifc4Package.Literals.IFC_GRID_PLACEMENT;
+        return Ifc4Package.eINSTANCE.getIfcGridPlacement();
     }
 
     /**
@@ -64,7 +64,7 @@ public class IfcGridPlacementImpl extends IfcObjectPlacementImpl implements IfcG
      */
     @Override
     public IfcVirtualGridIntersection getPlacementLocation() {
-        return (IfcVirtualGridIntersection) eGet(Ifc4Package.Literals.IFC_GRID_PLACEMENT__PLACEMENT_LOCATION, true);
+        return (IfcVirtualGridIntersection) eGet(Ifc4Package.eINSTANCE.getIfcGridPlacement_PlacementLocation(), true);
     }
 
     /**
@@ -74,7 +74,7 @@ public class IfcGridPlacementImpl extends IfcObjectPlacementImpl implements IfcG
      */
     @Override
     public void setPlacementLocation(IfcVirtualGridIntersection newPlacementLocation) {
-        eSet(Ifc4Package.Literals.IFC_GRID_PLACEMENT__PLACEMENT_LOCATION, newPlacementLocation);
+        eSet(Ifc4Package.eINSTANCE.getIfcGridPlacement_PlacementLocation(), newPlacementLocation);
     }
 
     /**
@@ -84,7 +84,7 @@ public class IfcGridPlacementImpl extends IfcObjectPlacementImpl implements IfcG
      */
     @Override
     public IfcGridPlacementDirectionSelect getPlacementRefDirection() {
-        return (IfcGridPlacementDirectionSelect) eGet(Ifc4Package.Literals.IFC_GRID_PLACEMENT__PLACEMENT_REF_DIRECTION,
+        return (IfcGridPlacementDirectionSelect) eGet(Ifc4Package.eINSTANCE.getIfcGridPlacement_PlacementRefDirection(),
                 true);
     }
 
@@ -95,7 +95,7 @@ public class IfcGridPlacementImpl extends IfcObjectPlacementImpl implements IfcG
      */
     @Override
     public void setPlacementRefDirection(IfcGridPlacementDirectionSelect newPlacementRefDirection) {
-        eSet(Ifc4Package.Literals.IFC_GRID_PLACEMENT__PLACEMENT_REF_DIRECTION, newPlacementRefDirection);
+        eSet(Ifc4Package.eINSTANCE.getIfcGridPlacement_PlacementRefDirection(), newPlacementRefDirection);
     }
 
     /**
@@ -105,7 +105,7 @@ public class IfcGridPlacementImpl extends IfcObjectPlacementImpl implements IfcG
      */
     @Override
     public void unsetPlacementRefDirection() {
-        eUnset(Ifc4Package.Literals.IFC_GRID_PLACEMENT__PLACEMENT_REF_DIRECTION);
+        eUnset(Ifc4Package.eINSTANCE.getIfcGridPlacement_PlacementRefDirection());
     }
 
     /**
@@ -115,7 +115,7 @@ public class IfcGridPlacementImpl extends IfcObjectPlacementImpl implements IfcG
      */
     @Override
     public boolean isSetPlacementRefDirection() {
-        return eIsSet(Ifc4Package.Literals.IFC_GRID_PLACEMENT__PLACEMENT_REF_DIRECTION);
+        return eIsSet(Ifc4Package.eINSTANCE.getIfcGridPlacement_PlacementRefDirection());
     }
 
 } //IfcGridPlacementImpl

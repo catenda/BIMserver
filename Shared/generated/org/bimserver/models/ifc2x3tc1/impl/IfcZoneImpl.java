@@ -45,7 +45,7 @@ public class IfcZoneImpl extends IfcGroupImpl implements IfcZone {
      */
     @Override
     protected EClass eStaticClass() {
-        return Ifc2x3tc1Package.Literals.IFC_ZONE;
+        return Ifc2x3tc1Package.eINSTANCE.getIfcZone();
     }
 
 } //IfcZoneImpl

@@ -52,7 +52,7 @@ public class IfcElectricMotorTypeImpl extends IfcEnergyConversionDeviceTypeImpl 
      */
     @Override
     protected EClass eStaticClass() {
-        return Ifc4Package.Literals.IFC_ELECTRIC_MOTOR_TYPE;
+        return Ifc4Package.eINSTANCE.getIfcElectricMotorType();
     }
 
     /**
@@ -62,7 +62,7 @@ public class IfcElectricMotorTypeImpl extends IfcEnergyConversionDeviceTypeImpl 
      */
     @Override
     public IfcElectricMotorTypeEnum getPredefinedType() {
-        return (IfcElectricMotorTypeEnum) eGet(Ifc4Package.Literals.IFC_ELECTRIC_MOTOR_TYPE__PREDEFINED_TYPE, true);
+        return (IfcElectricMotorTypeEnum) eGet(Ifc4Package.eINSTANCE.getIfcElectricMotorType_PredefinedType(), true);
     }
 
     /**
@@ -72,7 +72,7 @@ public class IfcElectricMotorTypeImpl extends IfcEnergyConversionDeviceTypeImpl 
      */
     @Override
     public void setPredefinedType(IfcElectricMotorTypeEnum newPredefinedType) {
-        eSet(Ifc4Package.Literals.IFC_ELECTRIC_MOTOR_TYPE__PREDEFINED_TYPE, newPredefinedType);
+        eSet(Ifc4Package.eINSTANCE.getIfcElectricMotorType_PredefinedType(), newPredefinedType);
     }
 
 } //IfcElectricMotorTypeImpl

@@ -39,10 +39,6 @@ public interface IfcToroidalSurface extends IfcElementarySurface {
     /**
      * Returns the value of the '<em><b>Major Radius</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Major Radius</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Major Radius</em>' attribute.
      * @see #setMajorRadius(double)
@@ -65,10 +61,6 @@ public interface IfcToroidalSurface extends IfcElementarySurface {
     /**
      * Returns the value of the '<em><b>Major Radius As String</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Major Radius As String</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Major Radius As String</em>' attribute.
      * @see #setMajorRadiusAsString(String)
@@ -92,10 +84,6 @@ public interface IfcToroidalSurface extends IfcElementarySurface {
     /**
      * Returns the value of the '<em><b>Minor Radius</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Minor Radius</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Minor Radius</em>' attribute.
      * @see #setMinorRadius(double)
@@ -118,10 +106,6 @@ public interface IfcToroidalSurface extends IfcElementarySurface {
     /**
      * Returns the value of the '<em><b>Minor Radius As String</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Minor Radius As String</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Minor Radius As String</em>' attribute.
      * @see #setMinorRadiusAsString(String)

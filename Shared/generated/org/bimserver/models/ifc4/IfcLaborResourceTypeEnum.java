@@ -255,10 +255,6 @@ public enum IfcLaborResourceTypeEnum implements Enumerator {
     /**
      * The '<em><b>NULL</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>NULL</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #NULL
      * @model
@@ -270,10 +266,6 @@ public enum IfcLaborResourceTypeEnum implements Enumerator {
     /**
      * The '<em><b>SURVEYING</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>SURVEYING</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #SURVEYING
      * @model
@@ -285,10 +277,6 @@ public enum IfcLaborResourceTypeEnum implements Enumerator {
     /**
      * The '<em><b>PAVING</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>PAVING</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #PAVING
      * @model
@@ -300,10 +288,6 @@ public enum IfcLaborResourceTypeEnum implements Enumerator {
     /**
      * The '<em><b>ADMINISTRATION</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>ADMINISTRATION</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #ADMINISTRATION
      * @model
@@ -315,10 +299,6 @@ public enum IfcLaborResourceTypeEnum implements Enumerator {
     /**
      * The '<em><b>MASONRY</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>MASONRY</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #MASONRY
      * @model
@@ -330,10 +310,6 @@ public enum IfcLaborResourceTypeEnum implements Enumerator {
     /**
      * The '<em><b>CLEANING</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>CLEANING</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #CLEANING
      * @model
@@ -345,10 +321,6 @@ public enum IfcLaborResourceTypeEnum implements Enumerator {
     /**
      * The '<em><b>ROOFING</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>ROOFING</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #ROOFING
      * @model
@@ -360,10 +332,6 @@ public enum IfcLaborResourceTypeEnum implements Enumerator {
     /**
      * The '<em><b>STEELWORK</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>STEELWORK</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #STEELWORK
      * @model
@@ -375,10 +343,6 @@ public enum IfcLaborResourceTypeEnum implements Enumerator {
     /**
      * The '<em><b>USERDEFINED</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>USERDEFINED</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #USERDEFINED
      * @model
@@ -390,10 +354,6 @@ public enum IfcLaborResourceTypeEnum implements Enumerator {
     /**
      * The '<em><b>PLUMBING</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>PLUMBING</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #PLUMBING
      * @model
@@ -405,10 +365,6 @@ public enum IfcLaborResourceTypeEnum implements Enumerator {
     /**
      * The '<em><b>FLOORING</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>FLOORING</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #FLOORING
      * @model
@@ -420,10 +376,6 @@ public enum IfcLaborResourceTypeEnum implements Enumerator {
     /**
      * The '<em><b>GENERAL</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>GENERAL</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #GENERAL
      * @model
@@ -435,10 +387,6 @@ public enum IfcLaborResourceTypeEnum implements Enumerator {
     /**
      * The '<em><b>CONCRETE</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>CONCRETE</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #CONCRETE
      * @model
@@ -450,10 +398,6 @@ public enum IfcLaborResourceTypeEnum implements Enumerator {
     /**
      * The '<em><b>HVAC</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>HVAC</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #HVAC
      * @model
@@ -465,10 +409,6 @@ public enum IfcLaborResourceTypeEnum implements Enumerator {
     /**
      * The '<em><b>NOTDEFINED</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>NOTDEFINED</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #NOTDEFINED
      * @model
@@ -480,10 +420,6 @@ public enum IfcLaborResourceTypeEnum implements Enumerator {
     /**
      * The '<em><b>PAINTING</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>PAINTING</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #PAINTING
      * @model
@@ -495,10 +431,6 @@ public enum IfcLaborResourceTypeEnum implements Enumerator {
     /**
      * The '<em><b>SITEGRADING</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>SITEGRADING</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #SITEGRADING
      * @model
@@ -510,10 +442,6 @@ public enum IfcLaborResourceTypeEnum implements Enumerator {
     /**
      * The '<em><b>DRYWALL</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>DRYWALL</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #DRYWALL
      * @model
@@ -525,10 +453,6 @@ public enum IfcLaborResourceTypeEnum implements Enumerator {
     /**
      * The '<em><b>FINISHING</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>FINISHING</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #FINISHING
      * @model
@@ -540,10 +464,6 @@ public enum IfcLaborResourceTypeEnum implements Enumerator {
     /**
      * The '<em><b>ELECTRIC</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>ELECTRIC</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #ELECTRIC
      * @model
@@ -555,10 +475,6 @@ public enum IfcLaborResourceTypeEnum implements Enumerator {
     /**
      * The '<em><b>CARPENTRY</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>CARPENTRY</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #CARPENTRY
      * @model
@@ -570,10 +486,6 @@ public enum IfcLaborResourceTypeEnum implements Enumerator {
     /**
      * The '<em><b>LANDSCAPING</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>LANDSCAPING</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #LANDSCAPING
      * @model

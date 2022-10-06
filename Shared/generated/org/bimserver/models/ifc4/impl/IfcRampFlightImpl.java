@@ -52,7 +52,7 @@ public class IfcRampFlightImpl extends IfcBuildingElementImpl implements IfcRamp
      */
     @Override
     protected EClass eStaticClass() {
-        return Ifc4Package.Literals.IFC_RAMP_FLIGHT;
+        return Ifc4Package.eINSTANCE.getIfcRampFlight();
     }
 
     /**
@@ -62,7 +62,7 @@ public class IfcRampFlightImpl extends IfcBuildingElementImpl implements IfcRamp
      */
     @Override
     public IfcRampFlightTypeEnum getPredefinedType() {
-        return (IfcRampFlightTypeEnum) eGet(Ifc4Package.Literals.IFC_RAMP_FLIGHT__PREDEFINED_TYPE, true);
+        return (IfcRampFlightTypeEnum) eGet(Ifc4Package.eINSTANCE.getIfcRampFlight_PredefinedType(), true);
     }
 
     /**
@@ -72,7 +72,7 @@ public class IfcRampFlightImpl extends IfcBuildingElementImpl implements IfcRamp
      */
     @Override
     public void setPredefinedType(IfcRampFlightTypeEnum newPredefinedType) {
-        eSet(Ifc4Package.Literals.IFC_RAMP_FLIGHT__PREDEFINED_TYPE, newPredefinedType);
+        eSet(Ifc4Package.eINSTANCE.getIfcRampFlight_PredefinedType(), newPredefinedType);
     }
 
     /**
@@ -82,7 +82,7 @@ public class IfcRampFlightImpl extends IfcBuildingElementImpl implements IfcRamp
      */
     @Override
     public void unsetPredefinedType() {
-        eUnset(Ifc4Package.Literals.IFC_RAMP_FLIGHT__PREDEFINED_TYPE);
+        eUnset(Ifc4Package.eINSTANCE.getIfcRampFlight_PredefinedType());
     }
 
     /**
@@ -92,7 +92,7 @@ public class IfcRampFlightImpl extends IfcBuildingElementImpl implements IfcRamp
      */
     @Override
     public boolean isSetPredefinedType() {
-        return eIsSet(Ifc4Package.Literals.IFC_RAMP_FLIGHT__PREDEFINED_TYPE);
+        return eIsSet(Ifc4Package.eINSTANCE.getIfcRampFlight_PredefinedType());
     }
 
 } //IfcRampFlightImpl

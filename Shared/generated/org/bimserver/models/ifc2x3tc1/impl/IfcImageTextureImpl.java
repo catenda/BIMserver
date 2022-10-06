@@ -51,7 +51,7 @@ public class IfcImageTextureImpl extends IfcSurfaceTextureImpl implements IfcIma
      */
     @Override
     protected EClass eStaticClass() {
-        return Ifc2x3tc1Package.Literals.IFC_IMAGE_TEXTURE;
+        return Ifc2x3tc1Package.eINSTANCE.getIfcImageTexture();
     }
 
     /**
@@ -61,7 +61,7 @@ public class IfcImageTextureImpl extends IfcSurfaceTextureImpl implements IfcIma
      */
     @Override
     public String getUrlReference() {
-        return (String) eGet(Ifc2x3tc1Package.Literals.IFC_IMAGE_TEXTURE__URL_REFERENCE, true);
+        return (String) eGet(Ifc2x3tc1Package.eINSTANCE.getIfcImageTexture_UrlReference(), true);
     }
 
     /**
@@ -71,7 +71,7 @@ public class IfcImageTextureImpl extends IfcSurfaceTextureImpl implements IfcIma
      */
     @Override
     public void setUrlReference(String newUrlReference) {
-        eSet(Ifc2x3tc1Package.Literals.IFC_IMAGE_TEXTURE__URL_REFERENCE, newUrlReference);
+        eSet(Ifc2x3tc1Package.eINSTANCE.getIfcImageTexture_UrlReference(), newUrlReference);
     }
 
 } //IfcImageTextureImpl

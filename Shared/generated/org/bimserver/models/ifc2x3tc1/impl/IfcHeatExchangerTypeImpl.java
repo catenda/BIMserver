@@ -52,7 +52,7 @@ public class IfcHeatExchangerTypeImpl extends IfcEnergyConversionDeviceTypeImpl 
      */
     @Override
     protected EClass eStaticClass() {
-        return Ifc2x3tc1Package.Literals.IFC_HEAT_EXCHANGER_TYPE;
+        return Ifc2x3tc1Package.eINSTANCE.getIfcHeatExchangerType();
     }
 
     /**
@@ -62,7 +62,7 @@ public class IfcHeatExchangerTypeImpl extends IfcEnergyConversionDeviceTypeImpl 
      */
     @Override
     public IfcHeatExchangerTypeEnum getPredefinedType() {
-        return (IfcHeatExchangerTypeEnum) eGet(Ifc2x3tc1Package.Literals.IFC_HEAT_EXCHANGER_TYPE__PREDEFINED_TYPE,
+        return (IfcHeatExchangerTypeEnum) eGet(Ifc2x3tc1Package.eINSTANCE.getIfcHeatExchangerType_PredefinedType(),
                 true);
     }
 
@@ -73,7 +73,7 @@ public class IfcHeatExchangerTypeImpl extends IfcEnergyConversionDeviceTypeImpl 
      */
     @Override
     public void setPredefinedType(IfcHeatExchangerTypeEnum newPredefinedType) {
-        eSet(Ifc2x3tc1Package.Literals.IFC_HEAT_EXCHANGER_TYPE__PREDEFINED_TYPE, newPredefinedType);
+        eSet(Ifc2x3tc1Package.eINSTANCE.getIfcHeatExchangerType_PredefinedType(), newPredefinedType);
     }
 
 } //IfcHeatExchangerTypeImpl

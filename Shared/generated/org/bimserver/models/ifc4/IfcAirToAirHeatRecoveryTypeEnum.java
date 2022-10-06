@@ -156,10 +156,6 @@ public enum IfcAirToAirHeatRecoveryTypeEnum implements Enumerator {
     /**
      * The '<em><b>NULL</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>NULL</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #NULL
      * @model
@@ -171,10 +167,6 @@ public enum IfcAirToAirHeatRecoveryTypeEnum implements Enumerator {
     /**
      * The '<em><b>RUNAROUNDCOILLOOP</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>RUNAROUNDCOILLOOP</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #RUNAROUNDCOILLOOP
      * @model
@@ -186,10 +178,6 @@ public enum IfcAirToAirHeatRecoveryTypeEnum implements Enumerator {
     /**
      * The '<em><b>NOTDEFINED</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>NOTDEFINED</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #NOTDEFINED
      * @model
@@ -201,10 +189,6 @@ public enum IfcAirToAirHeatRecoveryTypeEnum implements Enumerator {
     /**
      * The '<em><b>FIXEDPLATECOUNTERFLOWEXCHANGER</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>FIXEDPLATECOUNTERFLOWEXCHANGER</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #FIXEDPLATECOUNTERFLOWEXCHANGER
      * @model
@@ -216,10 +200,6 @@ public enum IfcAirToAirHeatRecoveryTypeEnum implements Enumerator {
     /**
      * The '<em><b>THERMOSIPHONSEALEDTUBEHEATEXCHANGERS</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>THERMOSIPHONSEALEDTUBEHEATEXCHANGERS</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #THERMOSIPHONSEALEDTUBEHEATEXCHANGERS
      * @model
@@ -231,10 +211,6 @@ public enum IfcAirToAirHeatRecoveryTypeEnum implements Enumerator {
     /**
      * The '<em><b>FIXEDPLATECROSSFLOWEXCHANGER</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>FIXEDPLATECROSSFLOWEXCHANGER</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #FIXEDPLATECROSSFLOWEXCHANGER
      * @model
@@ -246,10 +222,6 @@ public enum IfcAirToAirHeatRecoveryTypeEnum implements Enumerator {
     /**
      * The '<em><b>USERDEFINED</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>USERDEFINED</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #USERDEFINED
      * @model
@@ -261,10 +233,6 @@ public enum IfcAirToAirHeatRecoveryTypeEnum implements Enumerator {
     /**
      * The '<em><b>TWINTOWERENTHALPYRECOVERYLOOPS</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>TWINTOWERENTHALPYRECOVERYLOOPS</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #TWINTOWERENTHALPYRECOVERYLOOPS
      * @model
@@ -276,10 +244,6 @@ public enum IfcAirToAirHeatRecoveryTypeEnum implements Enumerator {
     /**
      * The '<em><b>FIXEDPLATEPARALLELFLOWEXCHANGER</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>FIXEDPLATEPARALLELFLOWEXCHANGER</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #FIXEDPLATEPARALLELFLOWEXCHANGER
      * @model
@@ -291,10 +255,6 @@ public enum IfcAirToAirHeatRecoveryTypeEnum implements Enumerator {
     /**
      * The '<em><b>ROTARYWHEEL</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>ROTARYWHEEL</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #ROTARYWHEEL
      * @model
@@ -306,10 +266,6 @@ public enum IfcAirToAirHeatRecoveryTypeEnum implements Enumerator {
     /**
      * The '<em><b>HEATPIPE</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>HEATPIPE</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #HEATPIPE
      * @model
@@ -321,10 +277,6 @@ public enum IfcAirToAirHeatRecoveryTypeEnum implements Enumerator {
     /**
      * The '<em><b>THERMOSIPHONCOILTYPEHEATEXCHANGERS</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>THERMOSIPHONCOILTYPEHEATEXCHANGERS</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #THERMOSIPHONCOILTYPEHEATEXCHANGERS
      * @model

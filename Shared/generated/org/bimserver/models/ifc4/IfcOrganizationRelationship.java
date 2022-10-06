@@ -40,10 +40,6 @@ public interface IfcOrganizationRelationship extends IfcResourceLevelRelationshi
      * Returns the value of the '<em><b>Relating Organization</b></em>' reference.
      * It is bidirectional and its opposite is '{@link org.bimserver.models.ifc4.IfcOrganization#getRelates <em>Relates</em>}'.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Relating Organization</em>' reference isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Relating Organization</em>' reference.
      * @see #setRelatingOrganization(IfcOrganization)
@@ -70,10 +66,6 @@ public interface IfcOrganizationRelationship extends IfcResourceLevelRelationshi
      * The list contents are of type {@link org.bimserver.models.ifc4.IfcOrganization}.
      * It is bidirectional and its opposite is '{@link org.bimserver.models.ifc4.IfcOrganization#getIsRelatedBy <em>Is Related By</em>}'.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Related Organizations</em>' reference list isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Related Organizations</em>' reference list.
      * @see org.bimserver.models.ifc4.Ifc4Package#getIfcOrganizationRelationship_RelatedOrganizations()

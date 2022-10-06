@@ -52,7 +52,7 @@ public class IfcCableCarrierFittingTypeImpl extends IfcFlowFittingTypeImpl imple
      */
     @Override
     protected EClass eStaticClass() {
-        return Ifc4Package.Literals.IFC_CABLE_CARRIER_FITTING_TYPE;
+        return Ifc4Package.eINSTANCE.getIfcCableCarrierFittingType();
     }
 
     /**
@@ -63,7 +63,7 @@ public class IfcCableCarrierFittingTypeImpl extends IfcFlowFittingTypeImpl imple
     @Override
     public IfcCableCarrierFittingTypeEnum getPredefinedType() {
         return (IfcCableCarrierFittingTypeEnum) eGet(
-                Ifc4Package.Literals.IFC_CABLE_CARRIER_FITTING_TYPE__PREDEFINED_TYPE, true);
+                Ifc4Package.eINSTANCE.getIfcCableCarrierFittingType_PredefinedType(), true);
     }
 
     /**
@@ -73,7 +73,7 @@ public class IfcCableCarrierFittingTypeImpl extends IfcFlowFittingTypeImpl imple
      */
     @Override
     public void setPredefinedType(IfcCableCarrierFittingTypeEnum newPredefinedType) {
-        eSet(Ifc4Package.Literals.IFC_CABLE_CARRIER_FITTING_TYPE__PREDEFINED_TYPE, newPredefinedType);
+        eSet(Ifc4Package.eINSTANCE.getIfcCableCarrierFittingType_PredefinedType(), newPredefinedType);
     }
 
 } //IfcCableCarrierFittingTypeImpl

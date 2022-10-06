@@ -40,10 +40,6 @@ public interface IfcDerivedUnitElement extends IdEObject {
     /**
      * Returns the value of the '<em><b>Unit</b></em>' reference.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Unit</em>' reference isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Unit</em>' reference.
      * @see #setUnit(IfcNamedUnit)
@@ -66,10 +62,6 @@ public interface IfcDerivedUnitElement extends IdEObject {
     /**
      * Returns the value of the '<em><b>Exponent</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Exponent</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Exponent</em>' attribute.
      * @see #setExponent(long)

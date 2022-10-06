@@ -58,7 +58,7 @@ public class IfcVirtualGridIntersectionImpl extends IdEObjectImpl implements Ifc
      */
     @Override
     protected EClass eStaticClass() {
-        return Ifc4Package.Literals.IFC_VIRTUAL_GRID_INTERSECTION;
+        return Ifc4Package.eINSTANCE.getIfcVirtualGridIntersection();
     }
 
     /**
@@ -79,7 +79,7 @@ public class IfcVirtualGridIntersectionImpl extends IdEObjectImpl implements Ifc
     @SuppressWarnings("unchecked")
     @Override
     public EList<IfcGridAxis> getIntersectingAxes() {
-        return (EList<IfcGridAxis>) eGet(Ifc4Package.Literals.IFC_VIRTUAL_GRID_INTERSECTION__INTERSECTING_AXES, true);
+        return (EList<IfcGridAxis>) eGet(Ifc4Package.eINSTANCE.getIfcVirtualGridIntersection_IntersectingAxes(), true);
     }
 
     /**
@@ -90,7 +90,7 @@ public class IfcVirtualGridIntersectionImpl extends IdEObjectImpl implements Ifc
     @SuppressWarnings("unchecked")
     @Override
     public EList<Double> getOffsetDistances() {
-        return (EList<Double>) eGet(Ifc4Package.Literals.IFC_VIRTUAL_GRID_INTERSECTION__OFFSET_DISTANCES, true);
+        return (EList<Double>) eGet(Ifc4Package.eINSTANCE.getIfcVirtualGridIntersection_OffsetDistances(), true);
     }
 
     /**
@@ -101,7 +101,7 @@ public class IfcVirtualGridIntersectionImpl extends IdEObjectImpl implements Ifc
     @SuppressWarnings("unchecked")
     @Override
     public EList<String> getOffsetDistancesAsString() {
-        return (EList<String>) eGet(Ifc4Package.Literals.IFC_VIRTUAL_GRID_INTERSECTION__OFFSET_DISTANCES_AS_STRING,
+        return (EList<String>) eGet(Ifc4Package.eINSTANCE.getIfcVirtualGridIntersection_OffsetDistancesAsString(),
                 true);
     }
 

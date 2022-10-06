@@ -135,10 +135,6 @@ public enum IfcPipeFittingTypeEnum implements Enumerator {
     /**
      * The '<em><b>NULL</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>NULL</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #NULL
      * @model
@@ -150,10 +146,6 @@ public enum IfcPipeFittingTypeEnum implements Enumerator {
     /**
      * The '<em><b>TRANSITION</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>TRANSITION</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #TRANSITION
      * @model
@@ -165,10 +157,6 @@ public enum IfcPipeFittingTypeEnum implements Enumerator {
     /**
      * The '<em><b>NOTDEFINED</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>NOTDEFINED</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #NOTDEFINED
      * @model
@@ -180,10 +168,6 @@ public enum IfcPipeFittingTypeEnum implements Enumerator {
     /**
      * The '<em><b>ENTRY</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>ENTRY</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #ENTRY
      * @model
@@ -195,10 +179,6 @@ public enum IfcPipeFittingTypeEnum implements Enumerator {
     /**
      * The '<em><b>BEND</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>BEND</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #BEND
      * @model
@@ -210,10 +190,6 @@ public enum IfcPipeFittingTypeEnum implements Enumerator {
     /**
      * The '<em><b>OBSTRUCTION</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>OBSTRUCTION</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #OBSTRUCTION
      * @model
@@ -225,10 +201,6 @@ public enum IfcPipeFittingTypeEnum implements Enumerator {
     /**
      * The '<em><b>USERDEFINED</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>USERDEFINED</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #USERDEFINED
      * @model
@@ -240,10 +212,6 @@ public enum IfcPipeFittingTypeEnum implements Enumerator {
     /**
      * The '<em><b>EXIT</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>EXIT</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #EXIT
      * @model
@@ -255,10 +223,6 @@ public enum IfcPipeFittingTypeEnum implements Enumerator {
     /**
      * The '<em><b>JUNCTION</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>JUNCTION</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #JUNCTION
      * @model
@@ -270,10 +234,6 @@ public enum IfcPipeFittingTypeEnum implements Enumerator {
     /**
      * The '<em><b>CONNECTOR</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>CONNECTOR</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #CONNECTOR
      * @model

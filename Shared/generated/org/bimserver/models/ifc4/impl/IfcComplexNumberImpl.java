@@ -56,7 +56,7 @@ public class IfcComplexNumberImpl extends IdEObjectImpl implements IfcComplexNum
      */
     @Override
     protected EClass eStaticClass() {
-        return Ifc4Package.Literals.IFC_COMPLEX_NUMBER;
+        return Ifc4Package.eINSTANCE.getIfcComplexNumber();
     }
 
     /**
@@ -77,7 +77,7 @@ public class IfcComplexNumberImpl extends IdEObjectImpl implements IfcComplexNum
     @SuppressWarnings("unchecked")
     @Override
     public EList<Double> getWrappedValue() {
-        return (EList<Double>) eGet(Ifc4Package.Literals.IFC_COMPLEX_NUMBER__WRAPPED_VALUE, true);
+        return (EList<Double>) eGet(Ifc4Package.eINSTANCE.getIfcComplexNumber_WrappedValue(), true);
     }
 
     /**
@@ -87,7 +87,7 @@ public class IfcComplexNumberImpl extends IdEObjectImpl implements IfcComplexNum
      */
     @Override
     public void unsetWrappedValue() {
-        eUnset(Ifc4Package.Literals.IFC_COMPLEX_NUMBER__WRAPPED_VALUE);
+        eUnset(Ifc4Package.eINSTANCE.getIfcComplexNumber_WrappedValue());
     }
 
     /**
@@ -97,7 +97,7 @@ public class IfcComplexNumberImpl extends IdEObjectImpl implements IfcComplexNum
      */
     @Override
     public boolean isSetWrappedValue() {
-        return eIsSet(Ifc4Package.Literals.IFC_COMPLEX_NUMBER__WRAPPED_VALUE);
+        return eIsSet(Ifc4Package.eINSTANCE.getIfcComplexNumber_WrappedValue());
     }
 
     /**
@@ -108,7 +108,7 @@ public class IfcComplexNumberImpl extends IdEObjectImpl implements IfcComplexNum
     @SuppressWarnings("unchecked")
     @Override
     public EList<String> getWrappedValueAsString() {
-        return (EList<String>) eGet(Ifc4Package.Literals.IFC_COMPLEX_NUMBER__WRAPPED_VALUE_AS_STRING, true);
+        return (EList<String>) eGet(Ifc4Package.eINSTANCE.getIfcComplexNumber_WrappedValueAsString(), true);
     }
 
     /**
@@ -118,7 +118,7 @@ public class IfcComplexNumberImpl extends IdEObjectImpl implements IfcComplexNum
      */
     @Override
     public void unsetWrappedValueAsString() {
-        eUnset(Ifc4Package.Literals.IFC_COMPLEX_NUMBER__WRAPPED_VALUE_AS_STRING);
+        eUnset(Ifc4Package.eINSTANCE.getIfcComplexNumber_WrappedValueAsString());
     }
 
     /**
@@ -128,7 +128,7 @@ public class IfcComplexNumberImpl extends IdEObjectImpl implements IfcComplexNum
      */
     @Override
     public boolean isSetWrappedValueAsString() {
-        return eIsSet(Ifc4Package.Literals.IFC_COMPLEX_NUMBER__WRAPPED_VALUE_AS_STRING);
+        return eIsSet(Ifc4Package.eINSTANCE.getIfcComplexNumber_WrappedValueAsString());
     }
 
 } //IfcComplexNumberImpl

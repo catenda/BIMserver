@@ -58,7 +58,7 @@ public class IfcBSplineCurveWithKnotsImpl extends IfcBSplineCurveImpl implements
      */
     @Override
     protected EClass eStaticClass() {
-        return Ifc4Package.Literals.IFC_BSPLINE_CURVE_WITH_KNOTS;
+        return Ifc4Package.eINSTANCE.getIfcBSplineCurveWithKnots();
     }
 
     /**
@@ -69,7 +69,7 @@ public class IfcBSplineCurveWithKnotsImpl extends IfcBSplineCurveImpl implements
     @SuppressWarnings("unchecked")
     @Override
     public EList<Long> getKnotMultiplicities() {
-        return (EList<Long>) eGet(Ifc4Package.Literals.IFC_BSPLINE_CURVE_WITH_KNOTS__KNOT_MULTIPLICITIES, true);
+        return (EList<Long>) eGet(Ifc4Package.eINSTANCE.getIfcBSplineCurveWithKnots_KnotMultiplicities(), true);
     }
 
     /**
@@ -80,7 +80,7 @@ public class IfcBSplineCurveWithKnotsImpl extends IfcBSplineCurveImpl implements
     @SuppressWarnings("unchecked")
     @Override
     public EList<Double> getKnots() {
-        return (EList<Double>) eGet(Ifc4Package.Literals.IFC_BSPLINE_CURVE_WITH_KNOTS__KNOTS, true);
+        return (EList<Double>) eGet(Ifc4Package.eINSTANCE.getIfcBSplineCurveWithKnots_Knots(), true);
     }
 
     /**
@@ -91,7 +91,7 @@ public class IfcBSplineCurveWithKnotsImpl extends IfcBSplineCurveImpl implements
     @SuppressWarnings("unchecked")
     @Override
     public EList<String> getKnotsAsString() {
-        return (EList<String>) eGet(Ifc4Package.Literals.IFC_BSPLINE_CURVE_WITH_KNOTS__KNOTS_AS_STRING, true);
+        return (EList<String>) eGet(Ifc4Package.eINSTANCE.getIfcBSplineCurveWithKnots_KnotsAsString(), true);
     }
 
     /**
@@ -101,7 +101,7 @@ public class IfcBSplineCurveWithKnotsImpl extends IfcBSplineCurveImpl implements
      */
     @Override
     public IfcKnotType getKnotSpec() {
-        return (IfcKnotType) eGet(Ifc4Package.Literals.IFC_BSPLINE_CURVE_WITH_KNOTS__KNOT_SPEC, true);
+        return (IfcKnotType) eGet(Ifc4Package.eINSTANCE.getIfcBSplineCurveWithKnots_KnotSpec(), true);
     }
 
     /**
@@ -111,7 +111,7 @@ public class IfcBSplineCurveWithKnotsImpl extends IfcBSplineCurveImpl implements
      */
     @Override
     public void setKnotSpec(IfcKnotType newKnotSpec) {
-        eSet(Ifc4Package.Literals.IFC_BSPLINE_CURVE_WITH_KNOTS__KNOT_SPEC, newKnotSpec);
+        eSet(Ifc4Package.eINSTANCE.getIfcBSplineCurveWithKnots_KnotSpec(), newKnotSpec);
     }
 
     /**
@@ -121,7 +121,7 @@ public class IfcBSplineCurveWithKnotsImpl extends IfcBSplineCurveImpl implements
      */
     @Override
     public long getUpperIndexOnKnots() {
-        return (Long) eGet(Ifc4Package.Literals.IFC_BSPLINE_CURVE_WITH_KNOTS__UPPER_INDEX_ON_KNOTS, true);
+        return (Long) eGet(Ifc4Package.eINSTANCE.getIfcBSplineCurveWithKnots_UpperIndexOnKnots(), true);
     }
 
     /**
@@ -131,7 +131,7 @@ public class IfcBSplineCurveWithKnotsImpl extends IfcBSplineCurveImpl implements
      */
     @Override
     public void setUpperIndexOnKnots(long newUpperIndexOnKnots) {
-        eSet(Ifc4Package.Literals.IFC_BSPLINE_CURVE_WITH_KNOTS__UPPER_INDEX_ON_KNOTS, newUpperIndexOnKnots);
+        eSet(Ifc4Package.eINSTANCE.getIfcBSplineCurveWithKnots_UpperIndexOnKnots(), newUpperIndexOnKnots);
     }
 
     /**
@@ -141,7 +141,7 @@ public class IfcBSplineCurveWithKnotsImpl extends IfcBSplineCurveImpl implements
      */
     @Override
     public void unsetUpperIndexOnKnots() {
-        eUnset(Ifc4Package.Literals.IFC_BSPLINE_CURVE_WITH_KNOTS__UPPER_INDEX_ON_KNOTS);
+        eUnset(Ifc4Package.eINSTANCE.getIfcBSplineCurveWithKnots_UpperIndexOnKnots());
     }
 
     /**
@@ -151,7 +151,7 @@ public class IfcBSplineCurveWithKnotsImpl extends IfcBSplineCurveImpl implements
      */
     @Override
     public boolean isSetUpperIndexOnKnots() {
-        return eIsSet(Ifc4Package.Literals.IFC_BSPLINE_CURVE_WITH_KNOTS__UPPER_INDEX_ON_KNOTS);
+        return eIsSet(Ifc4Package.eINSTANCE.getIfcBSplineCurveWithKnots_UpperIndexOnKnots());
     }
 
 } //IfcBSplineCurveWithKnotsImpl

@@ -45,7 +45,7 @@ public class IfcFacetedBrepImpl extends IfcManifoldSolidBrepImpl implements IfcF
      */
     @Override
     protected EClass eStaticClass() {
-        return Ifc2x3tc1Package.Literals.IFC_FACETED_BREP;
+        return Ifc2x3tc1Package.eINSTANCE.getIfcFacetedBrep();
     }
 
 } //IfcFacetedBrepImpl

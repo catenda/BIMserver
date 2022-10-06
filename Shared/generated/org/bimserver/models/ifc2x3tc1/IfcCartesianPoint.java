@@ -41,10 +41,6 @@ public interface IfcCartesianPoint extends IfcPoint, IfcTrimmingSelect {
      * Returns the value of the '<em><b>Coordinates</b></em>' attribute list.
      * The list contents are of type {@link java.lang.Double}.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Coordinates</em>' attribute list isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Coordinates</em>' attribute list.
      * @see org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package#getIfcCartesianPoint_Coordinates()
@@ -57,10 +53,6 @@ public interface IfcCartesianPoint extends IfcPoint, IfcTrimmingSelect {
      * Returns the value of the '<em><b>Coordinates As String</b></em>' attribute list.
      * The list contents are of type {@link java.lang.String}.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Coordinates As String</em>' attribute list isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Coordinates As String</em>' attribute list.
      * @see org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package#getIfcCartesianPoint_CoordinatesAsString()
@@ -74,10 +66,6 @@ public interface IfcCartesianPoint extends IfcPoint, IfcTrimmingSelect {
     /**
      * Returns the value of the '<em><b>Dim</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Dim</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Dim</em>' attribute.
      * @see #isSetDim()

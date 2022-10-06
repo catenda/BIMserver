@@ -37,10 +37,6 @@ public interface IfcConnectionPointGeometry extends IfcConnectionGeometry {
     /**
      * Returns the value of the '<em><b>Point On Relating Element</b></em>' reference.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Point On Relating Element</em>' reference isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Point On Relating Element</em>' reference.
      * @see #setPointOnRelatingElement(IfcPointOrVertexPoint)
@@ -63,10 +59,6 @@ public interface IfcConnectionPointGeometry extends IfcConnectionGeometry {
     /**
      * Returns the value of the '<em><b>Point On Related Element</b></em>' reference.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Point On Related Element</em>' reference isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Point On Related Element</em>' reference.
      * @see #isSetPointOnRelatedElement()

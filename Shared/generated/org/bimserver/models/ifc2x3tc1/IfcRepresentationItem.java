@@ -40,10 +40,6 @@ public interface IfcRepresentationItem extends IfcLayeredItem {
      * Returns the value of the '<em><b>Layer Assignments</b></em>' reference list.
      * The list contents are of type {@link org.bimserver.models.ifc2x3tc1.IfcPresentationLayerAssignment}.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Layer Assignments</em>' reference list isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Layer Assignments</em>' reference list.
      * @see #isSetLayerAssignments()
@@ -81,10 +77,6 @@ public interface IfcRepresentationItem extends IfcLayeredItem {
      * The list contents are of type {@link org.bimserver.models.ifc2x3tc1.IfcStyledItem}.
      * It is bidirectional and its opposite is '{@link org.bimserver.models.ifc2x3tc1.IfcStyledItem#getItem <em>Item</em>}'.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Styled By Item</em>' reference list isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Styled By Item</em>' reference list.
      * @see #isSetStyledByItem()

@@ -43,10 +43,6 @@ public interface IfcPermeableCoveringProperties extends IfcPropertySetDefinition
      * Returns the value of the '<em><b>Operation Type</b></em>' attribute.
      * The literals are from the enumeration {@link org.bimserver.models.ifc2x3tc1.IfcPermeableCoveringOperationEnum}.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Operation Type</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Operation Type</em>' attribute.
      * @see org.bimserver.models.ifc2x3tc1.IfcPermeableCoveringOperationEnum
@@ -72,10 +68,6 @@ public interface IfcPermeableCoveringProperties extends IfcPropertySetDefinition
      * Returns the value of the '<em><b>Panel Position</b></em>' attribute.
      * The literals are from the enumeration {@link org.bimserver.models.ifc2x3tc1.IfcWindowPanelPositionEnum}.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Panel Position</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Panel Position</em>' attribute.
      * @see org.bimserver.models.ifc2x3tc1.IfcWindowPanelPositionEnum
@@ -100,10 +92,6 @@ public interface IfcPermeableCoveringProperties extends IfcPropertySetDefinition
     /**
      * Returns the value of the '<em><b>Frame Depth</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Frame Depth</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Frame Depth</em>' attribute.
      * @see #isSetFrameDepth()
@@ -153,10 +141,6 @@ public interface IfcPermeableCoveringProperties extends IfcPropertySetDefinition
     /**
      * Returns the value of the '<em><b>Frame Depth As String</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Frame Depth As String</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Frame Depth As String</em>' attribute.
      * @see #isSetFrameDepthAsString()
@@ -208,10 +192,6 @@ public interface IfcPermeableCoveringProperties extends IfcPropertySetDefinition
     /**
      * Returns the value of the '<em><b>Frame Thickness</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Frame Thickness</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Frame Thickness</em>' attribute.
      * @see #isSetFrameThickness()
@@ -261,10 +241,6 @@ public interface IfcPermeableCoveringProperties extends IfcPropertySetDefinition
     /**
      * Returns the value of the '<em><b>Frame Thickness As String</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Frame Thickness As String</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Frame Thickness As String</em>' attribute.
      * @see #isSetFrameThicknessAsString()
@@ -316,10 +292,6 @@ public interface IfcPermeableCoveringProperties extends IfcPropertySetDefinition
     /**
      * Returns the value of the '<em><b>Shape Aspect Style</b></em>' reference.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Shape Aspect Style</em>' reference isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Shape Aspect Style</em>' reference.
      * @see #isSetShapeAspectStyle()

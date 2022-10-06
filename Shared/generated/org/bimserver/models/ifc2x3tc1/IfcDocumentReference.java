@@ -40,10 +40,6 @@ public interface IfcDocumentReference extends IfcExternalReference, IfcDocumentS
      * The list contents are of type {@link org.bimserver.models.ifc2x3tc1.IfcDocumentInformation}.
      * It is bidirectional and its opposite is '{@link org.bimserver.models.ifc2x3tc1.IfcDocumentInformation#getDocumentReferences <em>Document References</em>}'.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Reference To Document</em>' reference list isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Reference To Document</em>' reference list.
      * @see #isSetReferenceToDocument()

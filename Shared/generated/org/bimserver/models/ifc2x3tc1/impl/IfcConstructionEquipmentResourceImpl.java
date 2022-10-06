@@ -46,7 +46,7 @@ public class IfcConstructionEquipmentResourceImpl extends IfcConstructionResourc
      */
     @Override
     protected EClass eStaticClass() {
-        return Ifc2x3tc1Package.Literals.IFC_CONSTRUCTION_EQUIPMENT_RESOURCE;
+        return Ifc2x3tc1Package.eINSTANCE.getIfcConstructionEquipmentResource();
     }
 
 } //IfcConstructionEquipmentResourceImpl

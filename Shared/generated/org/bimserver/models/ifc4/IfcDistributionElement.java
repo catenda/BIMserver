@@ -40,10 +40,6 @@ public interface IfcDistributionElement extends IfcElement {
      * The list contents are of type {@link org.bimserver.models.ifc4.IfcRelConnectsPortToElement}.
      * It is bidirectional and its opposite is '{@link org.bimserver.models.ifc4.IfcRelConnectsPortToElement#getRelatedElement <em>Related Element</em>}'.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Has Ports</em>' reference list isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Has Ports</em>' reference list.
      * @see #isSetHasPorts()

@@ -54,7 +54,7 @@ public class IfcProjectedCRSImpl extends IfcCoordinateReferenceSystemImpl implem
      */
     @Override
     protected EClass eStaticClass() {
-        return Ifc4Package.Literals.IFC_PROJECTED_CRS;
+        return Ifc4Package.eINSTANCE.getIfcProjectedCRS();
     }
 
     /**
@@ -64,7 +64,7 @@ public class IfcProjectedCRSImpl extends IfcCoordinateReferenceSystemImpl implem
      */
     @Override
     public String getMapProjection() {
-        return (String) eGet(Ifc4Package.Literals.IFC_PROJECTED_CRS__MAP_PROJECTION, true);
+        return (String) eGet(Ifc4Package.eINSTANCE.getIfcProjectedCRS_MapProjection(), true);
     }
 
     /**
@@ -74,7 +74,7 @@ public class IfcProjectedCRSImpl extends IfcCoordinateReferenceSystemImpl implem
      */
     @Override
     public void setMapProjection(String newMapProjection) {
-        eSet(Ifc4Package.Literals.IFC_PROJECTED_CRS__MAP_PROJECTION, newMapProjection);
+        eSet(Ifc4Package.eINSTANCE.getIfcProjectedCRS_MapProjection(), newMapProjection);
     }
 
     /**
@@ -84,7 +84,7 @@ public class IfcProjectedCRSImpl extends IfcCoordinateReferenceSystemImpl implem
      */
     @Override
     public void unsetMapProjection() {
-        eUnset(Ifc4Package.Literals.IFC_PROJECTED_CRS__MAP_PROJECTION);
+        eUnset(Ifc4Package.eINSTANCE.getIfcProjectedCRS_MapProjection());
     }
 
     /**
@@ -94,7 +94,7 @@ public class IfcProjectedCRSImpl extends IfcCoordinateReferenceSystemImpl implem
      */
     @Override
     public boolean isSetMapProjection() {
-        return eIsSet(Ifc4Package.Literals.IFC_PROJECTED_CRS__MAP_PROJECTION);
+        return eIsSet(Ifc4Package.eINSTANCE.getIfcProjectedCRS_MapProjection());
     }
 
     /**
@@ -104,7 +104,7 @@ public class IfcProjectedCRSImpl extends IfcCoordinateReferenceSystemImpl implem
      */
     @Override
     public String getMapZone() {
-        return (String) eGet(Ifc4Package.Literals.IFC_PROJECTED_CRS__MAP_ZONE, true);
+        return (String) eGet(Ifc4Package.eINSTANCE.getIfcProjectedCRS_MapZone(), true);
     }
 
     /**
@@ -114,7 +114,7 @@ public class IfcProjectedCRSImpl extends IfcCoordinateReferenceSystemImpl implem
      */
     @Override
     public void setMapZone(String newMapZone) {
-        eSet(Ifc4Package.Literals.IFC_PROJECTED_CRS__MAP_ZONE, newMapZone);
+        eSet(Ifc4Package.eINSTANCE.getIfcProjectedCRS_MapZone(), newMapZone);
     }
 
     /**
@@ -124,7 +124,7 @@ public class IfcProjectedCRSImpl extends IfcCoordinateReferenceSystemImpl implem
      */
     @Override
     public void unsetMapZone() {
-        eUnset(Ifc4Package.Literals.IFC_PROJECTED_CRS__MAP_ZONE);
+        eUnset(Ifc4Package.eINSTANCE.getIfcProjectedCRS_MapZone());
     }
 
     /**
@@ -134,7 +134,7 @@ public class IfcProjectedCRSImpl extends IfcCoordinateReferenceSystemImpl implem
      */
     @Override
     public boolean isSetMapZone() {
-        return eIsSet(Ifc4Package.Literals.IFC_PROJECTED_CRS__MAP_ZONE);
+        return eIsSet(Ifc4Package.eINSTANCE.getIfcProjectedCRS_MapZone());
     }
 
     /**
@@ -144,7 +144,7 @@ public class IfcProjectedCRSImpl extends IfcCoordinateReferenceSystemImpl implem
      */
     @Override
     public IfcNamedUnit getMapUnit() {
-        return (IfcNamedUnit) eGet(Ifc4Package.Literals.IFC_PROJECTED_CRS__MAP_UNIT, true);
+        return (IfcNamedUnit) eGet(Ifc4Package.eINSTANCE.getIfcProjectedCRS_MapUnit(), true);
     }
 
     /**
@@ -154,7 +154,7 @@ public class IfcProjectedCRSImpl extends IfcCoordinateReferenceSystemImpl implem
      */
     @Override
     public void setMapUnit(IfcNamedUnit newMapUnit) {
-        eSet(Ifc4Package.Literals.IFC_PROJECTED_CRS__MAP_UNIT, newMapUnit);
+        eSet(Ifc4Package.eINSTANCE.getIfcProjectedCRS_MapUnit(), newMapUnit);
     }
 
     /**
@@ -164,7 +164,7 @@ public class IfcProjectedCRSImpl extends IfcCoordinateReferenceSystemImpl implem
      */
     @Override
     public void unsetMapUnit() {
-        eUnset(Ifc4Package.Literals.IFC_PROJECTED_CRS__MAP_UNIT);
+        eUnset(Ifc4Package.eINSTANCE.getIfcProjectedCRS_MapUnit());
     }
 
     /**
@@ -174,7 +174,7 @@ public class IfcProjectedCRSImpl extends IfcCoordinateReferenceSystemImpl implem
      */
     @Override
     public boolean isSetMapUnit() {
-        return eIsSet(Ifc4Package.Literals.IFC_PROJECTED_CRS__MAP_UNIT);
+        return eIsSet(Ifc4Package.eINSTANCE.getIfcProjectedCRS_MapUnit());
     }
 
 } //IfcProjectedCRSImpl

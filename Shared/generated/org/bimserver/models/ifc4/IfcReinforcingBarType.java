@@ -48,10 +48,6 @@ public interface IfcReinforcingBarType extends IfcReinforcingElementType {
      * Returns the value of the '<em><b>Predefined Type</b></em>' attribute.
      * The literals are from the enumeration {@link org.bimserver.models.ifc4.IfcReinforcingBarTypeEnum}.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Predefined Type</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Predefined Type</em>' attribute.
      * @see org.bimserver.models.ifc4.IfcReinforcingBarTypeEnum
@@ -76,10 +72,6 @@ public interface IfcReinforcingBarType extends IfcReinforcingElementType {
     /**
      * Returns the value of the '<em><b>Nominal Diameter</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Nominal Diameter</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Nominal Diameter</em>' attribute.
      * @see #isSetNominalDiameter()
@@ -129,10 +121,6 @@ public interface IfcReinforcingBarType extends IfcReinforcingElementType {
     /**
      * Returns the value of the '<em><b>Nominal Diameter As String</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Nominal Diameter As String</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Nominal Diameter As String</em>' attribute.
      * @see #isSetNominalDiameterAsString()
@@ -184,10 +172,6 @@ public interface IfcReinforcingBarType extends IfcReinforcingElementType {
     /**
      * Returns the value of the '<em><b>Cross Section Area</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Cross Section Area</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Cross Section Area</em>' attribute.
      * @see #isSetCrossSectionArea()
@@ -237,10 +221,6 @@ public interface IfcReinforcingBarType extends IfcReinforcingElementType {
     /**
      * Returns the value of the '<em><b>Cross Section Area As String</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Cross Section Area As String</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Cross Section Area As String</em>' attribute.
      * @see #isSetCrossSectionAreaAsString()
@@ -292,10 +272,6 @@ public interface IfcReinforcingBarType extends IfcReinforcingElementType {
     /**
      * Returns the value of the '<em><b>Bar Length</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Bar Length</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Bar Length</em>' attribute.
      * @see #isSetBarLength()
@@ -345,10 +321,6 @@ public interface IfcReinforcingBarType extends IfcReinforcingElementType {
     /**
      * Returns the value of the '<em><b>Bar Length As String</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Bar Length As String</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Bar Length As String</em>' attribute.
      * @see #isSetBarLengthAsString()
@@ -401,10 +373,6 @@ public interface IfcReinforcingBarType extends IfcReinforcingElementType {
      * Returns the value of the '<em><b>Bar Surface</b></em>' attribute.
      * The literals are from the enumeration {@link org.bimserver.models.ifc4.IfcReinforcingBarSurfaceEnum}.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Bar Surface</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Bar Surface</em>' attribute.
      * @see org.bimserver.models.ifc4.IfcReinforcingBarSurfaceEnum
@@ -456,10 +424,6 @@ public interface IfcReinforcingBarType extends IfcReinforcingElementType {
     /**
      * Returns the value of the '<em><b>Bending Shape Code</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Bending Shape Code</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Bending Shape Code</em>' attribute.
      * @see #isSetBendingShapeCode()
@@ -510,10 +474,6 @@ public interface IfcReinforcingBarType extends IfcReinforcingElementType {
      * Returns the value of the '<em><b>Bending Parameters</b></em>' reference list.
      * The list contents are of type {@link org.bimserver.models.ifc4.IfcBendingParameterSelect}.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Bending Parameters</em>' reference list isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Bending Parameters</em>' reference list.
      * @see #isSetBendingParameters()

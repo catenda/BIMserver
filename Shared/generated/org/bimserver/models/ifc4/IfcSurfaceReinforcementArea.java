@@ -44,10 +44,6 @@ public interface IfcSurfaceReinforcementArea extends IfcStructuralLoadOrResult {
      * Returns the value of the '<em><b>Surface Reinforcement1</b></em>' attribute list.
      * The list contents are of type {@link java.lang.Double}.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Surface Reinforcement1</em>' attribute list isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Surface Reinforcement1</em>' attribute list.
      * @see #isSetSurfaceReinforcement1()
@@ -83,10 +79,6 @@ public interface IfcSurfaceReinforcementArea extends IfcStructuralLoadOrResult {
      * Returns the value of the '<em><b>Surface Reinforcement1 As String</b></em>' attribute list.
      * The list contents are of type {@link java.lang.String}.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Surface Reinforcement1 As String</em>' attribute list isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Surface Reinforcement1 As String</em>' attribute list.
      * @see #isSetSurfaceReinforcement1AsString()
@@ -124,10 +116,6 @@ public interface IfcSurfaceReinforcementArea extends IfcStructuralLoadOrResult {
      * Returns the value of the '<em><b>Surface Reinforcement2</b></em>' attribute list.
      * The list contents are of type {@link java.lang.Double}.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Surface Reinforcement2</em>' attribute list isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Surface Reinforcement2</em>' attribute list.
      * @see #isSetSurfaceReinforcement2()
@@ -163,10 +151,6 @@ public interface IfcSurfaceReinforcementArea extends IfcStructuralLoadOrResult {
      * Returns the value of the '<em><b>Surface Reinforcement2 As String</b></em>' attribute list.
      * The list contents are of type {@link java.lang.String}.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Surface Reinforcement2 As String</em>' attribute list isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Surface Reinforcement2 As String</em>' attribute list.
      * @see #isSetSurfaceReinforcement2AsString()
@@ -203,10 +187,6 @@ public interface IfcSurfaceReinforcementArea extends IfcStructuralLoadOrResult {
     /**
      * Returns the value of the '<em><b>Shear Reinforcement</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Shear Reinforcement</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Shear Reinforcement</em>' attribute.
      * @see #isSetShearReinforcement()
@@ -256,10 +236,6 @@ public interface IfcSurfaceReinforcementArea extends IfcStructuralLoadOrResult {
     /**
      * Returns the value of the '<em><b>Shear Reinforcement As String</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Shear Reinforcement As String</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Shear Reinforcement As String</em>' attribute.
      * @see #isSetShearReinforcementAsString()

@@ -55,7 +55,7 @@ public class IfcEdgeLoopImpl extends IfcLoopImpl implements IfcEdgeLoop {
      */
     @Override
     protected EClass eStaticClass() {
-        return Ifc4Package.Literals.IFC_EDGE_LOOP;
+        return Ifc4Package.eINSTANCE.getIfcEdgeLoop();
     }
 
     /**
@@ -66,7 +66,7 @@ public class IfcEdgeLoopImpl extends IfcLoopImpl implements IfcEdgeLoop {
     @SuppressWarnings("unchecked")
     @Override
     public EList<IfcOrientedEdge> getEdgeList() {
-        return (EList<IfcOrientedEdge>) eGet(Ifc4Package.Literals.IFC_EDGE_LOOP__EDGE_LIST, true);
+        return (EList<IfcOrientedEdge>) eGet(Ifc4Package.eINSTANCE.getIfcEdgeLoop_EdgeList(), true);
     }
 
     /**
@@ -76,7 +76,7 @@ public class IfcEdgeLoopImpl extends IfcLoopImpl implements IfcEdgeLoop {
      */
     @Override
     public long getNe() {
-        return (Long) eGet(Ifc4Package.Literals.IFC_EDGE_LOOP__NE, true);
+        return (Long) eGet(Ifc4Package.eINSTANCE.getIfcEdgeLoop_Ne(), true);
     }
 
     /**
@@ -86,7 +86,7 @@ public class IfcEdgeLoopImpl extends IfcLoopImpl implements IfcEdgeLoop {
      */
     @Override
     public void setNe(long newNe) {
-        eSet(Ifc4Package.Literals.IFC_EDGE_LOOP__NE, newNe);
+        eSet(Ifc4Package.eINSTANCE.getIfcEdgeLoop_Ne(), newNe);
     }
 
     /**
@@ -96,7 +96,7 @@ public class IfcEdgeLoopImpl extends IfcLoopImpl implements IfcEdgeLoop {
      */
     @Override
     public void unsetNe() {
-        eUnset(Ifc4Package.Literals.IFC_EDGE_LOOP__NE);
+        eUnset(Ifc4Package.eINSTANCE.getIfcEdgeLoop_Ne());
     }
 
     /**
@@ -106,7 +106,7 @@ public class IfcEdgeLoopImpl extends IfcLoopImpl implements IfcEdgeLoop {
      */
     @Override
     public boolean isSetNe() {
-        return eIsSet(Ifc4Package.Literals.IFC_EDGE_LOOP__NE);
+        return eIsSet(Ifc4Package.eINSTANCE.getIfcEdgeLoop_Ne());
     }
 
 } //IfcEdgeLoopImpl

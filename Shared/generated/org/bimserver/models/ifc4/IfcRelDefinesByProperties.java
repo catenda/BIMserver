@@ -40,10 +40,6 @@ public interface IfcRelDefinesByProperties extends IfcRelDefines {
      * Returns the value of the '<em><b>Related Objects</b></em>' reference list.
      * The list contents are of type {@link org.bimserver.models.ifc4.IfcObjectDefinition}.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Related Objects</em>' reference list isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Related Objects</em>' reference list.
      * @see org.bimserver.models.ifc4.Ifc4Package#getIfcRelDefinesByProperties_RelatedObjects()
@@ -56,10 +52,6 @@ public interface IfcRelDefinesByProperties extends IfcRelDefines {
     /**
      * Returns the value of the '<em><b>Relating Property Definition</b></em>' reference.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Relating Property Definition</em>' reference isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Relating Property Definition</em>' reference.
      * @see #setRelatingPropertyDefinition(IfcPropertySetDefinitionSelect)

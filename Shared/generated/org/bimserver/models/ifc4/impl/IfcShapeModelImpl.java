@@ -54,7 +54,7 @@ public class IfcShapeModelImpl extends IfcRepresentationImpl implements IfcShape
      */
     @Override
     protected EClass eStaticClass() {
-        return Ifc4Package.Literals.IFC_SHAPE_MODEL;
+        return Ifc4Package.eINSTANCE.getIfcShapeModel();
     }
 
     /**
@@ -65,7 +65,7 @@ public class IfcShapeModelImpl extends IfcRepresentationImpl implements IfcShape
     @SuppressWarnings("unchecked")
     @Override
     public EList<IfcShapeAspect> getOfShapeAspect() {
-        return (EList<IfcShapeAspect>) eGet(Ifc4Package.Literals.IFC_SHAPE_MODEL__OF_SHAPE_ASPECT, true);
+        return (EList<IfcShapeAspect>) eGet(Ifc4Package.eINSTANCE.getIfcShapeModel_OfShapeAspect(), true);
     }
 
     /**
@@ -75,7 +75,7 @@ public class IfcShapeModelImpl extends IfcRepresentationImpl implements IfcShape
      */
     @Override
     public void unsetOfShapeAspect() {
-        eUnset(Ifc4Package.Literals.IFC_SHAPE_MODEL__OF_SHAPE_ASPECT);
+        eUnset(Ifc4Package.eINSTANCE.getIfcShapeModel_OfShapeAspect());
     }
 
     /**
@@ -85,7 +85,7 @@ public class IfcShapeModelImpl extends IfcRepresentationImpl implements IfcShape
      */
     @Override
     public boolean isSetOfShapeAspect() {
-        return eIsSet(Ifc4Package.Literals.IFC_SHAPE_MODEL__OF_SHAPE_ASPECT);
+        return eIsSet(Ifc4Package.eINSTANCE.getIfcShapeModel_OfShapeAspect());
     }
 
 } //IfcShapeModelImpl

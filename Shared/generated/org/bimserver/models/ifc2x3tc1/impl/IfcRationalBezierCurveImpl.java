@@ -54,7 +54,7 @@ public class IfcRationalBezierCurveImpl extends IfcBezierCurveImpl implements If
      */
     @Override
     protected EClass eStaticClass() {
-        return Ifc2x3tc1Package.Literals.IFC_RATIONAL_BEZIER_CURVE;
+        return Ifc2x3tc1Package.eINSTANCE.getIfcRationalBezierCurve();
     }
 
     /**
@@ -65,7 +65,7 @@ public class IfcRationalBezierCurveImpl extends IfcBezierCurveImpl implements If
     @SuppressWarnings("unchecked")
     @Override
     public EList<Double> getWeightsData() {
-        return (EList<Double>) eGet(Ifc2x3tc1Package.Literals.IFC_RATIONAL_BEZIER_CURVE__WEIGHTS_DATA, true);
+        return (EList<Double>) eGet(Ifc2x3tc1Package.eINSTANCE.getIfcRationalBezierCurve_WeightsData(), true);
     }
 
     /**
@@ -76,7 +76,7 @@ public class IfcRationalBezierCurveImpl extends IfcBezierCurveImpl implements If
     @SuppressWarnings("unchecked")
     @Override
     public EList<String> getWeightsDataAsString() {
-        return (EList<String>) eGet(Ifc2x3tc1Package.Literals.IFC_RATIONAL_BEZIER_CURVE__WEIGHTS_DATA_AS_STRING, true);
+        return (EList<String>) eGet(Ifc2x3tc1Package.eINSTANCE.getIfcRationalBezierCurve_WeightsDataAsString(), true);
     }
 
 } //IfcRationalBezierCurveImpl

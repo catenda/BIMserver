@@ -52,7 +52,7 @@ public class IfcCableSegmentTypeImpl extends IfcFlowSegmentTypeImpl implements I
      */
     @Override
     protected EClass eStaticClass() {
-        return Ifc2x3tc1Package.Literals.IFC_CABLE_SEGMENT_TYPE;
+        return Ifc2x3tc1Package.eINSTANCE.getIfcCableSegmentType();
     }
 
     /**
@@ -62,7 +62,7 @@ public class IfcCableSegmentTypeImpl extends IfcFlowSegmentTypeImpl implements I
      */
     @Override
     public IfcCableSegmentTypeEnum getPredefinedType() {
-        return (IfcCableSegmentTypeEnum) eGet(Ifc2x3tc1Package.Literals.IFC_CABLE_SEGMENT_TYPE__PREDEFINED_TYPE, true);
+        return (IfcCableSegmentTypeEnum) eGet(Ifc2x3tc1Package.eINSTANCE.getIfcCableSegmentType_PredefinedType(), true);
     }
 
     /**
@@ -72,7 +72,7 @@ public class IfcCableSegmentTypeImpl extends IfcFlowSegmentTypeImpl implements I
      */
     @Override
     public void setPredefinedType(IfcCableSegmentTypeEnum newPredefinedType) {
-        eSet(Ifc2x3tc1Package.Literals.IFC_CABLE_SEGMENT_TYPE__PREDEFINED_TYPE, newPredefinedType);
+        eSet(Ifc2x3tc1Package.eINSTANCE.getIfcCableSegmentType_PredefinedType(), newPredefinedType);
     }
 
 } //IfcCableSegmentTypeImpl

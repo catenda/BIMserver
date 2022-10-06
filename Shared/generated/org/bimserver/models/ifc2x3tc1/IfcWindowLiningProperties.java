@@ -52,10 +52,6 @@ public interface IfcWindowLiningProperties extends IfcPropertySetDefinition {
     /**
      * Returns the value of the '<em><b>Lining Depth</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Lining Depth</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Lining Depth</em>' attribute.
      * @see #isSetLiningDepth()
@@ -105,10 +101,6 @@ public interface IfcWindowLiningProperties extends IfcPropertySetDefinition {
     /**
      * Returns the value of the '<em><b>Lining Depth As String</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Lining Depth As String</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Lining Depth As String</em>' attribute.
      * @see #isSetLiningDepthAsString()
@@ -160,10 +152,6 @@ public interface IfcWindowLiningProperties extends IfcPropertySetDefinition {
     /**
      * Returns the value of the '<em><b>Lining Thickness</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Lining Thickness</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Lining Thickness</em>' attribute.
      * @see #isSetLiningThickness()
@@ -213,10 +201,6 @@ public interface IfcWindowLiningProperties extends IfcPropertySetDefinition {
     /**
      * Returns the value of the '<em><b>Lining Thickness As String</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Lining Thickness As String</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Lining Thickness As String</em>' attribute.
      * @see #isSetLiningThicknessAsString()
@@ -268,10 +252,6 @@ public interface IfcWindowLiningProperties extends IfcPropertySetDefinition {
     /**
      * Returns the value of the '<em><b>Transom Thickness</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Transom Thickness</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Transom Thickness</em>' attribute.
      * @see #isSetTransomThickness()
@@ -321,10 +301,6 @@ public interface IfcWindowLiningProperties extends IfcPropertySetDefinition {
     /**
      * Returns the value of the '<em><b>Transom Thickness As String</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Transom Thickness As String</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Transom Thickness As String</em>' attribute.
      * @see #isSetTransomThicknessAsString()
@@ -376,10 +352,6 @@ public interface IfcWindowLiningProperties extends IfcPropertySetDefinition {
     /**
      * Returns the value of the '<em><b>Mullion Thickness</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Mullion Thickness</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Mullion Thickness</em>' attribute.
      * @see #isSetMullionThickness()
@@ -429,10 +401,6 @@ public interface IfcWindowLiningProperties extends IfcPropertySetDefinition {
     /**
      * Returns the value of the '<em><b>Mullion Thickness As String</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Mullion Thickness As String</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Mullion Thickness As String</em>' attribute.
      * @see #isSetMullionThicknessAsString()
@@ -484,10 +452,6 @@ public interface IfcWindowLiningProperties extends IfcPropertySetDefinition {
     /**
      * Returns the value of the '<em><b>First Transom Offset</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>First Transom Offset</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>First Transom Offset</em>' attribute.
      * @see #isSetFirstTransomOffset()
@@ -537,10 +501,6 @@ public interface IfcWindowLiningProperties extends IfcPropertySetDefinition {
     /**
      * Returns the value of the '<em><b>First Transom Offset As String</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>First Transom Offset As String</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>First Transom Offset As String</em>' attribute.
      * @see #isSetFirstTransomOffsetAsString()
@@ -592,10 +552,6 @@ public interface IfcWindowLiningProperties extends IfcPropertySetDefinition {
     /**
      * Returns the value of the '<em><b>Second Transom Offset</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Second Transom Offset</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Second Transom Offset</em>' attribute.
      * @see #isSetSecondTransomOffset()
@@ -645,10 +601,6 @@ public interface IfcWindowLiningProperties extends IfcPropertySetDefinition {
     /**
      * Returns the value of the '<em><b>Second Transom Offset As String</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Second Transom Offset As String</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Second Transom Offset As String</em>' attribute.
      * @see #isSetSecondTransomOffsetAsString()
@@ -700,10 +652,6 @@ public interface IfcWindowLiningProperties extends IfcPropertySetDefinition {
     /**
      * Returns the value of the '<em><b>First Mullion Offset</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>First Mullion Offset</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>First Mullion Offset</em>' attribute.
      * @see #isSetFirstMullionOffset()
@@ -753,10 +701,6 @@ public interface IfcWindowLiningProperties extends IfcPropertySetDefinition {
     /**
      * Returns the value of the '<em><b>First Mullion Offset As String</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>First Mullion Offset As String</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>First Mullion Offset As String</em>' attribute.
      * @see #isSetFirstMullionOffsetAsString()
@@ -808,10 +752,6 @@ public interface IfcWindowLiningProperties extends IfcPropertySetDefinition {
     /**
      * Returns the value of the '<em><b>Second Mullion Offset</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Second Mullion Offset</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Second Mullion Offset</em>' attribute.
      * @see #isSetSecondMullionOffset()
@@ -861,10 +801,6 @@ public interface IfcWindowLiningProperties extends IfcPropertySetDefinition {
     /**
      * Returns the value of the '<em><b>Second Mullion Offset As String</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Second Mullion Offset As String</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Second Mullion Offset As String</em>' attribute.
      * @see #isSetSecondMullionOffsetAsString()
@@ -916,10 +852,6 @@ public interface IfcWindowLiningProperties extends IfcPropertySetDefinition {
     /**
      * Returns the value of the '<em><b>Shape Aspect Style</b></em>' reference.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Shape Aspect Style</em>' reference isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Shape Aspect Style</em>' reference.
      * @see #isSetShapeAspectStyle()

@@ -111,19 +111,21 @@ public enum IfcSensorTypeEnum implements Enumerator {
      * @ordered
      */
     FROSTSENSOR(7, "FROSTSENSOR", "FROSTSENSOR"),
+
     /**
      * The '<em><b>IDENTIFIERSENSOR</b></em>' literal object.
      * <!-- begin-user-doc -->
-    * <!-- end-user-doc -->
+     * <!-- end-user-doc -->
      * @see #IDENTIFIERSENSOR_VALUE
      * @generated
      * @ordered
      */
     IDENTIFIERSENSOR(8, "IDENTIFIERSENSOR", "IDENTIFIERSENSOR"),
+
     /**
      * The '<em><b>LEVELSENSOR</b></em>' literal object.
      * <!-- begin-user-doc -->
-    * <!-- end-user-doc -->
+     * <!-- end-user-doc -->
      * @see #LEVELSENSOR_VALUE
      * @generated
      * @ordered
@@ -139,127 +141,141 @@ public enum IfcSensorTypeEnum implements Enumerator {
      * @ordered
      */
     FLOWSENSOR(10, "FLOWSENSOR", "FLOWSENSOR"),
+
     /**
      * The '<em><b>HUMIDITYSENSOR</b></em>' literal object.
      * <!-- begin-user-doc -->
-    * <!-- end-user-doc -->
+     * <!-- end-user-doc -->
      * @see #HUMIDITYSENSOR_VALUE
      * @generated
      * @ordered
      */
     HUMIDITYSENSOR(11, "HUMIDITYSENSOR", "HUMIDITYSENSOR"),
+
     /**
      * The '<em><b>PRESSURESENSOR</b></em>' literal object.
      * <!-- begin-user-doc -->
-    * <!-- end-user-doc -->
+     * <!-- end-user-doc -->
      * @see #PRESSURESENSOR_VALUE
      * @generated
      * @ordered
      */
     PRESSURESENSOR(12, "PRESSURESENSOR", "PRESSURESENSOR"),
+
     /**
      * The '<em><b>COSENSOR</b></em>' literal object.
      * <!-- begin-user-doc -->
-    * <!-- end-user-doc -->
+     * <!-- end-user-doc -->
      * @see #COSENSOR_VALUE
      * @generated
      * @ordered
      */
     COSENSOR(13, "COSENSOR", "COSENSOR"),
+
     /**
      * The '<em><b>RADIATIONSENSOR</b></em>' literal object.
      * <!-- begin-user-doc -->
-    * <!-- end-user-doc -->
+     * <!-- end-user-doc -->
      * @see #RADIATIONSENSOR_VALUE
      * @generated
      * @ordered
      */
     RADIATIONSENSOR(14, "RADIATIONSENSOR", "RADIATIONSENSOR"),
+
     /**
      * The '<em><b>FIRESENSOR</b></em>' literal object.
      * <!-- begin-user-doc -->
-    * <!-- end-user-doc -->
+     * <!-- end-user-doc -->
      * @see #FIRESENSOR_VALUE
      * @generated
      * @ordered
      */
     FIRESENSOR(15, "FIRESENSOR", "FIRESENSOR"),
+
     /**
      * The '<em><b>CONTACTSENSOR</b></em>' literal object.
      * <!-- begin-user-doc -->
-    * <!-- end-user-doc -->
+     * <!-- end-user-doc -->
      * @see #CONTACTSENSOR_VALUE
      * @generated
      * @ordered
      */
     CONTACTSENSOR(16, "CONTACTSENSOR", "CONTACTSENSOR"),
+
     /**
      * The '<em><b>GASSENSOR</b></em>' literal object.
      * <!-- begin-user-doc -->
-    * <!-- end-user-doc -->
+     * <!-- end-user-doc -->
      * @see #GASSENSOR_VALUE
      * @generated
      * @ordered
      */
     GASSENSOR(17, "GASSENSOR", "GASSENSOR"),
+
     /**
      * The '<em><b>IONCONCENTRATIONSENSOR</b></em>' literal object.
      * <!-- begin-user-doc -->
-    * <!-- end-user-doc -->
+     * <!-- end-user-doc -->
      * @see #IONCONCENTRATIONSENSOR_VALUE
      * @generated
      * @ordered
      */
     IONCONCENTRATIONSENSOR(18, "IONCONCENTRATIONSENSOR", "IONCONCENTRATIONSENSOR"),
+
     /**
      * The '<em><b>CO2SENSOR</b></em>' literal object.
      * <!-- begin-user-doc -->
-    * <!-- end-user-doc -->
+     * <!-- end-user-doc -->
      * @see #CO2SENSOR_VALUE
      * @generated
      * @ordered
      */
     CO2SENSOR(19, "CO2SENSOR", "CO2SENSOR"),
+
     /**
      * The '<em><b>RADIOACTIVITYSENSOR</b></em>' literal object.
      * <!-- begin-user-doc -->
-    * <!-- end-user-doc -->
+     * <!-- end-user-doc -->
      * @see #RADIOACTIVITYSENSOR_VALUE
      * @generated
      * @ordered
      */
     RADIOACTIVITYSENSOR(20, "RADIOACTIVITYSENSOR", "RADIOACTIVITYSENSOR"),
+
     /**
      * The '<em><b>LIGHTSENSOR</b></em>' literal object.
      * <!-- begin-user-doc -->
-    * <!-- end-user-doc -->
+     * <!-- end-user-doc -->
      * @see #LIGHTSENSOR_VALUE
      * @generated
      * @ordered
      */
     LIGHTSENSOR(21, "LIGHTSENSOR", "LIGHTSENSOR"),
+
     /**
      * The '<em><b>SOUNDSENSOR</b></em>' literal object.
      * <!-- begin-user-doc -->
-    * <!-- end-user-doc -->
+     * <!-- end-user-doc -->
      * @see #SOUNDSENSOR_VALUE
      * @generated
      * @ordered
      */
     SOUNDSENSOR(22, "SOUNDSENSOR", "SOUNDSENSOR"),
+
     /**
      * The '<em><b>TEMPERATURESENSOR</b></em>' literal object.
      * <!-- begin-user-doc -->
-    * <!-- end-user-doc -->
+     * <!-- end-user-doc -->
      * @see #TEMPERATURESENSOR_VALUE
      * @generated
      * @ordered
      */
     TEMPERATURESENSOR(23, "TEMPERATURESENSOR", "TEMPERATURESENSOR"),
+
     /**
      * The '<em><b>CONDUCTANCESENSOR</b></em>' literal object.
      * <!-- begin-user-doc -->
-    * <!-- end-user-doc -->
+     * <!-- end-user-doc -->
      * @see #CONDUCTANCESENSOR_VALUE
      * @generated
      * @ordered
@@ -289,10 +305,6 @@ public enum IfcSensorTypeEnum implements Enumerator {
     /**
      * The '<em><b>NULL</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>NULL</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #NULL
      * @model
@@ -304,10 +316,6 @@ public enum IfcSensorTypeEnum implements Enumerator {
     /**
      * The '<em><b>PHSENSOR</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>PHSENSOR</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #PHSENSOR
      * @model
@@ -319,10 +327,6 @@ public enum IfcSensorTypeEnum implements Enumerator {
     /**
      * The '<em><b>USERDEFINED</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>USERDEFINED</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #USERDEFINED
      * @model
@@ -334,10 +338,6 @@ public enum IfcSensorTypeEnum implements Enumerator {
     /**
      * The '<em><b>WINDSENSOR</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>WINDSENSOR</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #WINDSENSOR
      * @model
@@ -349,10 +349,6 @@ public enum IfcSensorTypeEnum implements Enumerator {
     /**
      * The '<em><b>HEATSENSOR</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>HEATSENSOR</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #HEATSENSOR
      * @model
@@ -364,10 +360,6 @@ public enum IfcSensorTypeEnum implements Enumerator {
     /**
      * The '<em><b>MOVEMENTSENSOR</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>MOVEMENTSENSOR</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #MOVEMENTSENSOR
      * @model
@@ -379,10 +371,6 @@ public enum IfcSensorTypeEnum implements Enumerator {
     /**
      * The '<em><b>NOTDEFINED</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>NOTDEFINED</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #NOTDEFINED
      * @model
@@ -394,10 +382,6 @@ public enum IfcSensorTypeEnum implements Enumerator {
     /**
      * The '<em><b>FROSTSENSOR</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>FROSTSENSOR</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #FROSTSENSOR
      * @model
@@ -409,10 +393,6 @@ public enum IfcSensorTypeEnum implements Enumerator {
     /**
      * The '<em><b>IDENTIFIERSENSOR</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>IDENTIFIERSENSOR</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #IDENTIFIERSENSOR
      * @model
@@ -424,10 +404,6 @@ public enum IfcSensorTypeEnum implements Enumerator {
     /**
      * The '<em><b>LEVELSENSOR</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>LEVELSENSOR</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #LEVELSENSOR
      * @model
@@ -439,10 +415,6 @@ public enum IfcSensorTypeEnum implements Enumerator {
     /**
      * The '<em><b>FLOWSENSOR</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>FLOWSENSOR</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #FLOWSENSOR
      * @model
@@ -454,10 +426,6 @@ public enum IfcSensorTypeEnum implements Enumerator {
     /**
      * The '<em><b>HUMIDITYSENSOR</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>HUMIDITYSENSOR</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #HUMIDITYSENSOR
      * @model
@@ -469,10 +437,6 @@ public enum IfcSensorTypeEnum implements Enumerator {
     /**
      * The '<em><b>PRESSURESENSOR</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>PRESSURESENSOR</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #PRESSURESENSOR
      * @model
@@ -484,10 +448,6 @@ public enum IfcSensorTypeEnum implements Enumerator {
     /**
      * The '<em><b>COSENSOR</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>COSENSOR</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #COSENSOR
      * @model
@@ -499,10 +459,6 @@ public enum IfcSensorTypeEnum implements Enumerator {
     /**
      * The '<em><b>RADIATIONSENSOR</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>RADIATIONSENSOR</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #RADIATIONSENSOR
      * @model
@@ -514,10 +470,6 @@ public enum IfcSensorTypeEnum implements Enumerator {
     /**
      * The '<em><b>FIRESENSOR</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>FIRESENSOR</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #FIRESENSOR
      * @model
@@ -529,10 +481,6 @@ public enum IfcSensorTypeEnum implements Enumerator {
     /**
      * The '<em><b>CONTACTSENSOR</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>CONTACTSENSOR</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #CONTACTSENSOR
      * @model
@@ -544,10 +492,6 @@ public enum IfcSensorTypeEnum implements Enumerator {
     /**
      * The '<em><b>GASSENSOR</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>GASSENSOR</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #GASSENSOR
      * @model
@@ -559,10 +503,6 @@ public enum IfcSensorTypeEnum implements Enumerator {
     /**
      * The '<em><b>IONCONCENTRATIONSENSOR</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>IONCONCENTRATIONSENSOR</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #IONCONCENTRATIONSENSOR
      * @model
@@ -574,10 +514,6 @@ public enum IfcSensorTypeEnum implements Enumerator {
     /**
      * The '<em><b>CO2SENSOR</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>CO2SENSOR</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #CO2SENSOR
      * @model
@@ -589,10 +525,6 @@ public enum IfcSensorTypeEnum implements Enumerator {
     /**
      * The '<em><b>RADIOACTIVITYSENSOR</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>RADIOACTIVITYSENSOR</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #RADIOACTIVITYSENSOR
      * @model
@@ -604,10 +536,6 @@ public enum IfcSensorTypeEnum implements Enumerator {
     /**
      * The '<em><b>LIGHTSENSOR</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>LIGHTSENSOR</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #LIGHTSENSOR
      * @model
@@ -619,10 +547,6 @@ public enum IfcSensorTypeEnum implements Enumerator {
     /**
      * The '<em><b>SOUNDSENSOR</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>SOUNDSENSOR</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #SOUNDSENSOR
      * @model
@@ -634,10 +558,6 @@ public enum IfcSensorTypeEnum implements Enumerator {
     /**
      * The '<em><b>TEMPERATURESENSOR</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>TEMPERATURESENSOR</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #TEMPERATURESENSOR
      * @model
@@ -649,10 +569,6 @@ public enum IfcSensorTypeEnum implements Enumerator {
     /**
      * The '<em><b>CONDUCTANCESENSOR</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>CONDUCTANCESENSOR</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #CONDUCTANCESENSOR
      * @model
@@ -664,10 +580,6 @@ public enum IfcSensorTypeEnum implements Enumerator {
     /**
      * The '<em><b>MOISTURESENSOR</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>MOISTURESENSOR</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #MOISTURESENSOR
      * @model
@@ -679,10 +591,6 @@ public enum IfcSensorTypeEnum implements Enumerator {
     /**
      * The '<em><b>SMOKESENSOR</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>SMOKESENSOR</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #SMOKESENSOR
      * @model

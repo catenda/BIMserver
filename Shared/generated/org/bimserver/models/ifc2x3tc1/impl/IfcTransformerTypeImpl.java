@@ -52,7 +52,7 @@ public class IfcTransformerTypeImpl extends IfcEnergyConversionDeviceTypeImpl im
      */
     @Override
     protected EClass eStaticClass() {
-        return Ifc2x3tc1Package.Literals.IFC_TRANSFORMER_TYPE;
+        return Ifc2x3tc1Package.eINSTANCE.getIfcTransformerType();
     }
 
     /**
@@ -62,7 +62,7 @@ public class IfcTransformerTypeImpl extends IfcEnergyConversionDeviceTypeImpl im
      */
     @Override
     public IfcTransformerTypeEnum getPredefinedType() {
-        return (IfcTransformerTypeEnum) eGet(Ifc2x3tc1Package.Literals.IFC_TRANSFORMER_TYPE__PREDEFINED_TYPE, true);
+        return (IfcTransformerTypeEnum) eGet(Ifc2x3tc1Package.eINSTANCE.getIfcTransformerType_PredefinedType(), true);
     }
 
     /**
@@ -72,7 +72,7 @@ public class IfcTransformerTypeImpl extends IfcEnergyConversionDeviceTypeImpl im
      */
     @Override
     public void setPredefinedType(IfcTransformerTypeEnum newPredefinedType) {
-        eSet(Ifc2x3tc1Package.Literals.IFC_TRANSFORMER_TYPE__PREDEFINED_TYPE, newPredefinedType);
+        eSet(Ifc2x3tc1Package.eINSTANCE.getIfcTransformerType_PredefinedType(), newPredefinedType);
     }
 
 } //IfcTransformerTypeImpl

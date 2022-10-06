@@ -44,10 +44,6 @@ public interface IfcRibPlateProfileProperties extends IfcProfileProperties {
     /**
      * Returns the value of the '<em><b>Thickness</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Thickness</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Thickness</em>' attribute.
      * @see #isSetThickness()
@@ -97,10 +93,6 @@ public interface IfcRibPlateProfileProperties extends IfcProfileProperties {
     /**
      * Returns the value of the '<em><b>Thickness As String</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Thickness As String</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Thickness As String</em>' attribute.
      * @see #isSetThicknessAsString()
@@ -152,10 +144,6 @@ public interface IfcRibPlateProfileProperties extends IfcProfileProperties {
     /**
      * Returns the value of the '<em><b>Rib Height</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Rib Height</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Rib Height</em>' attribute.
      * @see #isSetRibHeight()
@@ -205,10 +193,6 @@ public interface IfcRibPlateProfileProperties extends IfcProfileProperties {
     /**
      * Returns the value of the '<em><b>Rib Height As String</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Rib Height As String</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Rib Height As String</em>' attribute.
      * @see #isSetRibHeightAsString()
@@ -260,10 +244,6 @@ public interface IfcRibPlateProfileProperties extends IfcProfileProperties {
     /**
      * Returns the value of the '<em><b>Rib Width</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Rib Width</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Rib Width</em>' attribute.
      * @see #isSetRibWidth()
@@ -313,10 +293,6 @@ public interface IfcRibPlateProfileProperties extends IfcProfileProperties {
     /**
      * Returns the value of the '<em><b>Rib Width As String</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Rib Width As String</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Rib Width As String</em>' attribute.
      * @see #isSetRibWidthAsString()
@@ -368,10 +344,6 @@ public interface IfcRibPlateProfileProperties extends IfcProfileProperties {
     /**
      * Returns the value of the '<em><b>Rib Spacing</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Rib Spacing</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Rib Spacing</em>' attribute.
      * @see #isSetRibSpacing()
@@ -421,10 +393,6 @@ public interface IfcRibPlateProfileProperties extends IfcProfileProperties {
     /**
      * Returns the value of the '<em><b>Rib Spacing As String</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Rib Spacing As String</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Rib Spacing As String</em>' attribute.
      * @see #isSetRibSpacingAsString()
@@ -477,10 +445,6 @@ public interface IfcRibPlateProfileProperties extends IfcProfileProperties {
      * Returns the value of the '<em><b>Direction</b></em>' attribute.
      * The literals are from the enumeration {@link org.bimserver.models.ifc2x3tc1.IfcRibPlateDirectionEnum}.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Direction</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Direction</em>' attribute.
      * @see org.bimserver.models.ifc2x3tc1.IfcRibPlateDirectionEnum

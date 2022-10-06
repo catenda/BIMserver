@@ -42,10 +42,6 @@ public interface IfcActorRole extends IfcResourceObjectSelect {
      * Returns the value of the '<em><b>Role</b></em>' attribute.
      * The literals are from the enumeration {@link org.bimserver.models.ifc4.IfcRoleEnum}.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Role</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Role</em>' attribute.
      * @see org.bimserver.models.ifc4.IfcRoleEnum
@@ -70,10 +66,6 @@ public interface IfcActorRole extends IfcResourceObjectSelect {
     /**
      * Returns the value of the '<em><b>User Defined Role</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>User Defined Role</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>User Defined Role</em>' attribute.
      * @see #isSetUserDefinedRole()
@@ -123,10 +115,6 @@ public interface IfcActorRole extends IfcResourceObjectSelect {
     /**
      * Returns the value of the '<em><b>Description</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Description</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Description</em>' attribute.
      * @see #isSetDescription()
@@ -177,10 +165,6 @@ public interface IfcActorRole extends IfcResourceObjectSelect {
      * Returns the value of the '<em><b>Has External Reference</b></em>' reference list.
      * The list contents are of type {@link org.bimserver.models.ifc4.IfcExternalReferenceRelationship}.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Has External Reference</em>' reference list isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Has External Reference</em>' reference list.
      * @see #isSetHasExternalReference()

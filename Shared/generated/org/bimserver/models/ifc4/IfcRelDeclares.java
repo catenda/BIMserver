@@ -40,10 +40,6 @@ public interface IfcRelDeclares extends IfcRelationship {
      * Returns the value of the '<em><b>Relating Context</b></em>' reference.
      * It is bidirectional and its opposite is '{@link org.bimserver.models.ifc4.IfcContext#getDeclares <em>Declares</em>}'.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Relating Context</em>' reference isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Relating Context</em>' reference.
      * @see #setRelatingContext(IfcContext)
@@ -69,10 +65,6 @@ public interface IfcRelDeclares extends IfcRelationship {
      * Returns the value of the '<em><b>Related Definitions</b></em>' reference list.
      * The list contents are of type {@link org.bimserver.models.ifc4.IfcDefinitionSelect}.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Related Definitions</em>' reference list isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Related Definitions</em>' reference list.
      * @see org.bimserver.models.ifc4.Ifc4Package#getIfcRelDeclares_RelatedDefinitions()

@@ -52,10 +52,6 @@ public interface DatabaseInformation extends IdEObject {
     /**
      * Returns the value of the '<em><b>Number Of Projects</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Number Of Projects</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Number Of Projects</em>' attribute.
      * @see #setNumberOfProjects(Integer)
@@ -78,10 +74,6 @@ public interface DatabaseInformation extends IdEObject {
     /**
      * Returns the value of the '<em><b>Number Of Users</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Number Of Users</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Number Of Users</em>' attribute.
      * @see #setNumberOfUsers(Integer)
@@ -104,10 +96,6 @@ public interface DatabaseInformation extends IdEObject {
     /**
      * Returns the value of the '<em><b>Number Of Revisions</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Number Of Revisions</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Number Of Revisions</em>' attribute.
      * @see #setNumberOfRevisions(Integer)
@@ -130,10 +118,6 @@ public interface DatabaseInformation extends IdEObject {
     /**
      * Returns the value of the '<em><b>Number Of Checkouts</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Number Of Checkouts</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Number Of Checkouts</em>' attribute.
      * @see #setNumberOfCheckouts(Integer)
@@ -156,10 +140,6 @@ public interface DatabaseInformation extends IdEObject {
     /**
      * Returns the value of the '<em><b>Database Size In Bytes</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Database Size In Bytes</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Database Size In Bytes</em>' attribute.
      * @see #setDatabaseSizeInBytes(Long)
@@ -182,10 +162,6 @@ public interface DatabaseInformation extends IdEObject {
     /**
      * Returns the value of the '<em><b>Type</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Type</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Type</em>' attribute.
      * @see #setType(String)
@@ -208,10 +184,6 @@ public interface DatabaseInformation extends IdEObject {
     /**
      * Returns the value of the '<em><b>Created</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Created</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Created</em>' attribute.
      * @see #setCreated(Date)
@@ -234,10 +206,6 @@ public interface DatabaseInformation extends IdEObject {
     /**
      * Returns the value of the '<em><b>Location</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Location</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Location</em>' attribute.
      * @see #setLocation(String)
@@ -260,10 +228,6 @@ public interface DatabaseInformation extends IdEObject {
     /**
      * Returns the value of the '<em><b>Schema Version</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Schema Version</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Schema Version</em>' attribute.
      * @see #setSchemaVersion(Integer)
@@ -287,10 +251,6 @@ public interface DatabaseInformation extends IdEObject {
      * Returns the value of the '<em><b>Categories</b></em>' reference list.
      * The list contents are of type {@link org.bimserver.models.store.DatabaseInformationCategory}.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Categories</em>' reference list isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Categories</em>' reference list.
      * @see org.bimserver.models.store.StorePackage#getDatabaseInformation_Categories()

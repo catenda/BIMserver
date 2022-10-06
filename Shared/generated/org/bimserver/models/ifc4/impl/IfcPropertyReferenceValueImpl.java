@@ -53,7 +53,7 @@ public class IfcPropertyReferenceValueImpl extends IfcSimplePropertyImpl impleme
      */
     @Override
     protected EClass eStaticClass() {
-        return Ifc4Package.Literals.IFC_PROPERTY_REFERENCE_VALUE;
+        return Ifc4Package.eINSTANCE.getIfcPropertyReferenceValue();
     }
 
     /**
@@ -63,7 +63,7 @@ public class IfcPropertyReferenceValueImpl extends IfcSimplePropertyImpl impleme
      */
     @Override
     public String getUsageName() {
-        return (String) eGet(Ifc4Package.Literals.IFC_PROPERTY_REFERENCE_VALUE__USAGE_NAME, true);
+        return (String) eGet(Ifc4Package.eINSTANCE.getIfcPropertyReferenceValue_UsageName(), true);
     }
 
     /**
@@ -73,7 +73,7 @@ public class IfcPropertyReferenceValueImpl extends IfcSimplePropertyImpl impleme
      */
     @Override
     public void setUsageName(String newUsageName) {
-        eSet(Ifc4Package.Literals.IFC_PROPERTY_REFERENCE_VALUE__USAGE_NAME, newUsageName);
+        eSet(Ifc4Package.eINSTANCE.getIfcPropertyReferenceValue_UsageName(), newUsageName);
     }
 
     /**
@@ -83,7 +83,7 @@ public class IfcPropertyReferenceValueImpl extends IfcSimplePropertyImpl impleme
      */
     @Override
     public void unsetUsageName() {
-        eUnset(Ifc4Package.Literals.IFC_PROPERTY_REFERENCE_VALUE__USAGE_NAME);
+        eUnset(Ifc4Package.eINSTANCE.getIfcPropertyReferenceValue_UsageName());
     }
 
     /**
@@ -93,7 +93,7 @@ public class IfcPropertyReferenceValueImpl extends IfcSimplePropertyImpl impleme
      */
     @Override
     public boolean isSetUsageName() {
-        return eIsSet(Ifc4Package.Literals.IFC_PROPERTY_REFERENCE_VALUE__USAGE_NAME);
+        return eIsSet(Ifc4Package.eINSTANCE.getIfcPropertyReferenceValue_UsageName());
     }
 
     /**
@@ -103,7 +103,7 @@ public class IfcPropertyReferenceValueImpl extends IfcSimplePropertyImpl impleme
      */
     @Override
     public IfcObjectReferenceSelect getPropertyReference() {
-        return (IfcObjectReferenceSelect) eGet(Ifc4Package.Literals.IFC_PROPERTY_REFERENCE_VALUE__PROPERTY_REFERENCE,
+        return (IfcObjectReferenceSelect) eGet(Ifc4Package.eINSTANCE.getIfcPropertyReferenceValue_PropertyReference(),
                 true);
     }
 
@@ -114,7 +114,7 @@ public class IfcPropertyReferenceValueImpl extends IfcSimplePropertyImpl impleme
      */
     @Override
     public void setPropertyReference(IfcObjectReferenceSelect newPropertyReference) {
-        eSet(Ifc4Package.Literals.IFC_PROPERTY_REFERENCE_VALUE__PROPERTY_REFERENCE, newPropertyReference);
+        eSet(Ifc4Package.eINSTANCE.getIfcPropertyReferenceValue_PropertyReference(), newPropertyReference);
     }
 
     /**
@@ -124,7 +124,7 @@ public class IfcPropertyReferenceValueImpl extends IfcSimplePropertyImpl impleme
      */
     @Override
     public void unsetPropertyReference() {
-        eUnset(Ifc4Package.Literals.IFC_PROPERTY_REFERENCE_VALUE__PROPERTY_REFERENCE);
+        eUnset(Ifc4Package.eINSTANCE.getIfcPropertyReferenceValue_PropertyReference());
     }
 
     /**
@@ -134,7 +134,7 @@ public class IfcPropertyReferenceValueImpl extends IfcSimplePropertyImpl impleme
      */
     @Override
     public boolean isSetPropertyReference() {
-        return eIsSet(Ifc4Package.Literals.IFC_PROPERTY_REFERENCE_VALUE__PROPERTY_REFERENCE);
+        return eIsSet(Ifc4Package.eINSTANCE.getIfcPropertyReferenceValue_PropertyReference());
     }
 
 } //IfcPropertyReferenceValueImpl

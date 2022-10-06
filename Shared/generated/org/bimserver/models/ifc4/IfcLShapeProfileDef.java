@@ -47,10 +47,6 @@ public interface IfcLShapeProfileDef extends IfcParameterizedProfileDef {
     /**
      * Returns the value of the '<em><b>Depth</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Depth</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Depth</em>' attribute.
      * @see #setDepth(double)
@@ -73,10 +69,6 @@ public interface IfcLShapeProfileDef extends IfcParameterizedProfileDef {
     /**
      * Returns the value of the '<em><b>Depth As String</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Depth As String</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Depth As String</em>' attribute.
      * @see #setDepthAsString(String)
@@ -100,10 +92,6 @@ public interface IfcLShapeProfileDef extends IfcParameterizedProfileDef {
     /**
      * Returns the value of the '<em><b>Width</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Width</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Width</em>' attribute.
      * @see #isSetWidth()
@@ -153,10 +141,6 @@ public interface IfcLShapeProfileDef extends IfcParameterizedProfileDef {
     /**
      * Returns the value of the '<em><b>Width As String</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Width As String</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Width As String</em>' attribute.
      * @see #isSetWidthAsString()
@@ -208,10 +192,6 @@ public interface IfcLShapeProfileDef extends IfcParameterizedProfileDef {
     /**
      * Returns the value of the '<em><b>Thickness</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Thickness</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Thickness</em>' attribute.
      * @see #setThickness(double)
@@ -234,10 +214,6 @@ public interface IfcLShapeProfileDef extends IfcParameterizedProfileDef {
     /**
      * Returns the value of the '<em><b>Thickness As String</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Thickness As String</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Thickness As String</em>' attribute.
      * @see #setThicknessAsString(String)
@@ -261,10 +237,6 @@ public interface IfcLShapeProfileDef extends IfcParameterizedProfileDef {
     /**
      * Returns the value of the '<em><b>Fillet Radius</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Fillet Radius</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Fillet Radius</em>' attribute.
      * @see #isSetFilletRadius()
@@ -314,10 +286,6 @@ public interface IfcLShapeProfileDef extends IfcParameterizedProfileDef {
     /**
      * Returns the value of the '<em><b>Fillet Radius As String</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Fillet Radius As String</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Fillet Radius As String</em>' attribute.
      * @see #isSetFilletRadiusAsString()
@@ -369,10 +337,6 @@ public interface IfcLShapeProfileDef extends IfcParameterizedProfileDef {
     /**
      * Returns the value of the '<em><b>Edge Radius</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Edge Radius</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Edge Radius</em>' attribute.
      * @see #isSetEdgeRadius()
@@ -422,10 +386,6 @@ public interface IfcLShapeProfileDef extends IfcParameterizedProfileDef {
     /**
      * Returns the value of the '<em><b>Edge Radius As String</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Edge Radius As String</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Edge Radius As String</em>' attribute.
      * @see #isSetEdgeRadiusAsString()
@@ -477,10 +437,6 @@ public interface IfcLShapeProfileDef extends IfcParameterizedProfileDef {
     /**
      * Returns the value of the '<em><b>Leg Slope</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Leg Slope</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Leg Slope</em>' attribute.
      * @see #isSetLegSlope()
@@ -530,10 +486,6 @@ public interface IfcLShapeProfileDef extends IfcParameterizedProfileDef {
     /**
      * Returns the value of the '<em><b>Leg Slope As String</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Leg Slope As String</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Leg Slope As String</em>' attribute.
      * @see #isSetLegSlopeAsString()

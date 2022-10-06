@@ -53,7 +53,7 @@ public class IfcGloballyUniqueIdImpl extends IdEObjectImpl implements IfcGloball
      */
     @Override
     protected EClass eStaticClass() {
-        return Ifc4Package.Literals.IFC_GLOBALLY_UNIQUE_ID;
+        return Ifc4Package.eINSTANCE.getIfcGloballyUniqueId();
     }
 
     /**
@@ -73,7 +73,7 @@ public class IfcGloballyUniqueIdImpl extends IdEObjectImpl implements IfcGloball
      */
     @Override
     public String getWrappedValue() {
-        return (String) eGet(Ifc4Package.Literals.IFC_GLOBALLY_UNIQUE_ID__WRAPPED_VALUE, true);
+        return (String) eGet(Ifc4Package.eINSTANCE.getIfcGloballyUniqueId_WrappedValue(), true);
     }
 
     /**
@@ -83,7 +83,7 @@ public class IfcGloballyUniqueIdImpl extends IdEObjectImpl implements IfcGloball
      */
     @Override
     public void setWrappedValue(String newWrappedValue) {
-        eSet(Ifc4Package.Literals.IFC_GLOBALLY_UNIQUE_ID__WRAPPED_VALUE, newWrappedValue);
+        eSet(Ifc4Package.eINSTANCE.getIfcGloballyUniqueId_WrappedValue(), newWrappedValue);
     }
 
     /**
@@ -93,7 +93,7 @@ public class IfcGloballyUniqueIdImpl extends IdEObjectImpl implements IfcGloball
      */
     @Override
     public void unsetWrappedValue() {
-        eUnset(Ifc4Package.Literals.IFC_GLOBALLY_UNIQUE_ID__WRAPPED_VALUE);
+        eUnset(Ifc4Package.eINSTANCE.getIfcGloballyUniqueId_WrappedValue());
     }
 
     /**
@@ -103,7 +103,7 @@ public class IfcGloballyUniqueIdImpl extends IdEObjectImpl implements IfcGloball
      */
     @Override
     public boolean isSetWrappedValue() {
-        return eIsSet(Ifc4Package.Literals.IFC_GLOBALLY_UNIQUE_ID__WRAPPED_VALUE);
+        return eIsSet(Ifc4Package.eINSTANCE.getIfcGloballyUniqueId_WrappedValue());
     }
 
 } //IfcGloballyUniqueIdImpl

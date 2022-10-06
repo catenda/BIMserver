@@ -175,10 +175,6 @@ public enum IfcThermalLoadSourceEnum implements Enumerator {
     /**
      * The '<em><b>NULL</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>NULL</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #NULL
      * @model
@@ -190,10 +186,6 @@ public enum IfcThermalLoadSourceEnum implements Enumerator {
     /**
      * The '<em><b>EXHAUSTAIR</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>EXHAUSTAIR</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #EXHAUSTAIR
      * @model
@@ -205,10 +197,6 @@ public enum IfcThermalLoadSourceEnum implements Enumerator {
     /**
      * The '<em><b>DRYBULBTEMPERATURE</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>DRYBULBTEMPERATURE</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #DRYBULBTEMPERATURE
      * @model
@@ -220,10 +208,6 @@ public enum IfcThermalLoadSourceEnum implements Enumerator {
     /**
      * The '<em><b>LIGHTING</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>LIGHTING</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #LIGHTING
      * @model
@@ -235,10 +219,6 @@ public enum IfcThermalLoadSourceEnum implements Enumerator {
     /**
      * The '<em><b>USERDEFINED</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>USERDEFINED</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #USERDEFINED
      * @model
@@ -250,10 +230,6 @@ public enum IfcThermalLoadSourceEnum implements Enumerator {
     /**
      * The '<em><b>VENTILATIONINDOORAIR</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>VENTILATIONINDOORAIR</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #VENTILATIONINDOORAIR
      * @model
@@ -265,10 +241,6 @@ public enum IfcThermalLoadSourceEnum implements Enumerator {
     /**
      * The '<em><b>INFILTRATION</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>INFILTRATION</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #INFILTRATION
      * @model
@@ -280,10 +252,6 @@ public enum IfcThermalLoadSourceEnum implements Enumerator {
     /**
      * The '<em><b>EQUIPMENT</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>EQUIPMENT</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #EQUIPMENT
      * @model
@@ -295,10 +263,6 @@ public enum IfcThermalLoadSourceEnum implements Enumerator {
     /**
      * The '<em><b>RECIRCULATEDAIR</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>RECIRCULATEDAIR</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #RECIRCULATEDAIR
      * @model
@@ -310,10 +274,6 @@ public enum IfcThermalLoadSourceEnum implements Enumerator {
     /**
      * The '<em><b>NOTDEFINED</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>NOTDEFINED</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #NOTDEFINED
      * @model
@@ -325,10 +285,6 @@ public enum IfcThermalLoadSourceEnum implements Enumerator {
     /**
      * The '<em><b>RELATIVEHUMIDITY</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>RELATIVEHUMIDITY</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #RELATIVEHUMIDITY
      * @model
@@ -340,10 +296,6 @@ public enum IfcThermalLoadSourceEnum implements Enumerator {
     /**
      * The '<em><b>VENTILATIONOUTSIDEAIR</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>VENTILATIONOUTSIDEAIR</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #VENTILATIONOUTSIDEAIR
      * @model
@@ -355,10 +307,6 @@ public enum IfcThermalLoadSourceEnum implements Enumerator {
     /**
      * The '<em><b>PEOPLE</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>PEOPLE</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #PEOPLE
      * @model
@@ -370,10 +318,6 @@ public enum IfcThermalLoadSourceEnum implements Enumerator {
     /**
      * The '<em><b>AIREXCHANGERATE</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>AIREXCHANGERATE</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #AIREXCHANGERATE
      * @model

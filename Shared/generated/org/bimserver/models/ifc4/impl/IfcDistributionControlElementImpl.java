@@ -55,7 +55,7 @@ public class IfcDistributionControlElementImpl extends IfcDistributionElementImp
      */
     @Override
     protected EClass eStaticClass() {
-        return Ifc4Package.Literals.IFC_DISTRIBUTION_CONTROL_ELEMENT;
+        return Ifc4Package.eINSTANCE.getIfcDistributionControlElement();
     }
 
     /**
@@ -67,7 +67,7 @@ public class IfcDistributionControlElementImpl extends IfcDistributionElementImp
     @Override
     public EList<IfcRelFlowControlElements> getAssignedToFlowElement() {
         return (EList<IfcRelFlowControlElements>) eGet(
-                Ifc4Package.Literals.IFC_DISTRIBUTION_CONTROL_ELEMENT__ASSIGNED_TO_FLOW_ELEMENT, true);
+                Ifc4Package.eINSTANCE.getIfcDistributionControlElement_AssignedToFlowElement(), true);
     }
 
     /**
@@ -77,7 +77,7 @@ public class IfcDistributionControlElementImpl extends IfcDistributionElementImp
      */
     @Override
     public void unsetAssignedToFlowElement() {
-        eUnset(Ifc4Package.Literals.IFC_DISTRIBUTION_CONTROL_ELEMENT__ASSIGNED_TO_FLOW_ELEMENT);
+        eUnset(Ifc4Package.eINSTANCE.getIfcDistributionControlElement_AssignedToFlowElement());
     }
 
     /**
@@ -87,7 +87,7 @@ public class IfcDistributionControlElementImpl extends IfcDistributionElementImp
      */
     @Override
     public boolean isSetAssignedToFlowElement() {
-        return eIsSet(Ifc4Package.Literals.IFC_DISTRIBUTION_CONTROL_ELEMENT__ASSIGNED_TO_FLOW_ELEMENT);
+        return eIsSet(Ifc4Package.eINSTANCE.getIfcDistributionControlElement_AssignedToFlowElement());
     }
 
 } //IfcDistributionControlElementImpl

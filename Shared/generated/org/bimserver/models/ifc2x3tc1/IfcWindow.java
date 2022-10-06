@@ -39,10 +39,6 @@ public interface IfcWindow extends IfcBuildingElement {
     /**
      * Returns the value of the '<em><b>Overall Height</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Overall Height</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Overall Height</em>' attribute.
      * @see #isSetOverallHeight()
@@ -92,10 +88,6 @@ public interface IfcWindow extends IfcBuildingElement {
     /**
      * Returns the value of the '<em><b>Overall Height As String</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Overall Height As String</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Overall Height As String</em>' attribute.
      * @see #isSetOverallHeightAsString()
@@ -147,10 +139,6 @@ public interface IfcWindow extends IfcBuildingElement {
     /**
      * Returns the value of the '<em><b>Overall Width</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Overall Width</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Overall Width</em>' attribute.
      * @see #isSetOverallWidth()
@@ -200,10 +188,6 @@ public interface IfcWindow extends IfcBuildingElement {
     /**
      * Returns the value of the '<em><b>Overall Width As String</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Overall Width As String</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Overall Width As String</em>' attribute.
      * @see #isSetOverallWidthAsString()

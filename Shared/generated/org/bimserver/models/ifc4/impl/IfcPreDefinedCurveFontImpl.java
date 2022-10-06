@@ -45,7 +45,7 @@ public class IfcPreDefinedCurveFontImpl extends IfcPreDefinedItemImpl implements
      */
     @Override
     protected EClass eStaticClass() {
-        return Ifc4Package.Literals.IFC_PRE_DEFINED_CURVE_FONT;
+        return Ifc4Package.eINSTANCE.getIfcPreDefinedCurveFont();
     }
 
 } //IfcPreDefinedCurveFontImpl

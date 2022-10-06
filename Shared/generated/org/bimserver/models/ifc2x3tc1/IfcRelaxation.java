@@ -42,10 +42,6 @@ public interface IfcRelaxation extends IdEObject {
     /**
      * Returns the value of the '<em><b>Relaxation Value</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Relaxation Value</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Relaxation Value</em>' attribute.
      * @see #setRelaxationValue(double)
@@ -68,10 +64,6 @@ public interface IfcRelaxation extends IdEObject {
     /**
      * Returns the value of the '<em><b>Relaxation Value As String</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Relaxation Value As String</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Relaxation Value As String</em>' attribute.
      * @see #setRelaxationValueAsString(String)
@@ -95,10 +87,6 @@ public interface IfcRelaxation extends IdEObject {
     /**
      * Returns the value of the '<em><b>Initial Stress</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Initial Stress</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Initial Stress</em>' attribute.
      * @see #setInitialStress(double)
@@ -121,10 +109,6 @@ public interface IfcRelaxation extends IdEObject {
     /**
      * Returns the value of the '<em><b>Initial Stress As String</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Initial Stress As String</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Initial Stress As String</em>' attribute.
      * @see #setInitialStressAsString(String)

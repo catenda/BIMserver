@@ -38,10 +38,6 @@ public interface IfcSurfaceOfLinearExtrusion extends IfcSweptSurface {
     /**
      * Returns the value of the '<em><b>Extruded Direction</b></em>' reference.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Extruded Direction</em>' reference isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Extruded Direction</em>' reference.
      * @see #setExtrudedDirection(IfcDirection)
@@ -64,10 +60,6 @@ public interface IfcSurfaceOfLinearExtrusion extends IfcSweptSurface {
     /**
      * Returns the value of the '<em><b>Depth</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Depth</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Depth</em>' attribute.
      * @see #setDepth(double)
@@ -90,10 +82,6 @@ public interface IfcSurfaceOfLinearExtrusion extends IfcSweptSurface {
     /**
      * Returns the value of the '<em><b>Depth As String</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Depth As String</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Depth As String</em>' attribute.
      * @see #setDepthAsString(String)

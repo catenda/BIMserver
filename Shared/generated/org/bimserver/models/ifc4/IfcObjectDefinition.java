@@ -46,10 +46,6 @@ public interface IfcObjectDefinition extends IfcRoot, IfcDefinitionSelect {
      * The list contents are of type {@link org.bimserver.models.ifc4.IfcRelAssigns}.
      * It is bidirectional and its opposite is '{@link org.bimserver.models.ifc4.IfcRelAssigns#getRelatedObjects <em>Related Objects</em>}'.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Has Assignments</em>' reference list isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Has Assignments</em>' reference list.
      * @see #isSetHasAssignments()
@@ -88,10 +84,6 @@ public interface IfcObjectDefinition extends IfcRoot, IfcDefinitionSelect {
      * The list contents are of type {@link org.bimserver.models.ifc4.IfcRelNests}.
      * It is bidirectional and its opposite is '{@link org.bimserver.models.ifc4.IfcRelNests#getRelatedObjects <em>Related Objects</em>}'.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Nests</em>' reference list isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Nests</em>' reference list.
      * @see #isSetNests()
@@ -130,10 +122,6 @@ public interface IfcObjectDefinition extends IfcRoot, IfcDefinitionSelect {
      * The list contents are of type {@link org.bimserver.models.ifc4.IfcRelNests}.
      * It is bidirectional and its opposite is '{@link org.bimserver.models.ifc4.IfcRelNests#getRelatingObject <em>Relating Object</em>}'.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Is Nested By</em>' reference list isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Is Nested By</em>' reference list.
      * @see #isSetIsNestedBy()
@@ -171,10 +159,6 @@ public interface IfcObjectDefinition extends IfcRoot, IfcDefinitionSelect {
      * Returns the value of the '<em><b>Has Context</b></em>' reference list.
      * The list contents are of type {@link org.bimserver.models.ifc4.IfcRelDeclares}.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Has Context</em>' reference list isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Has Context</em>' reference list.
      * @see #isSetHasContext()
@@ -212,10 +196,6 @@ public interface IfcObjectDefinition extends IfcRoot, IfcDefinitionSelect {
      * The list contents are of type {@link org.bimserver.models.ifc4.IfcRelAggregates}.
      * It is bidirectional and its opposite is '{@link org.bimserver.models.ifc4.IfcRelAggregates#getRelatingObject <em>Relating Object</em>}'.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Is Decomposed By</em>' reference list isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Is Decomposed By</em>' reference list.
      * @see #isSetIsDecomposedBy()
@@ -254,10 +234,6 @@ public interface IfcObjectDefinition extends IfcRoot, IfcDefinitionSelect {
      * The list contents are of type {@link org.bimserver.models.ifc4.IfcRelAggregates}.
      * It is bidirectional and its opposite is '{@link org.bimserver.models.ifc4.IfcRelAggregates#getRelatedObjects <em>Related Objects</em>}'.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Decomposes</em>' reference list isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Decomposes</em>' reference list.
      * @see #isSetDecomposes()
@@ -295,10 +271,6 @@ public interface IfcObjectDefinition extends IfcRoot, IfcDefinitionSelect {
      * Returns the value of the '<em><b>Has Associations</b></em>' reference list.
      * The list contents are of type {@link org.bimserver.models.ifc4.IfcRelAssociates}.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Has Associations</em>' reference list isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Has Associations</em>' reference list.
      * @see #isSetHasAssociations()

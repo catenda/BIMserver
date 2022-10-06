@@ -39,10 +39,6 @@ public interface IfcMechanicalFastener extends IfcFastener {
     /**
      * Returns the value of the '<em><b>Nominal Diameter</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Nominal Diameter</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Nominal Diameter</em>' attribute.
      * @see #isSetNominalDiameter()
@@ -92,10 +88,6 @@ public interface IfcMechanicalFastener extends IfcFastener {
     /**
      * Returns the value of the '<em><b>Nominal Diameter As String</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Nominal Diameter As String</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Nominal Diameter As String</em>' attribute.
      * @see #isSetNominalDiameterAsString()
@@ -147,10 +139,6 @@ public interface IfcMechanicalFastener extends IfcFastener {
     /**
      * Returns the value of the '<em><b>Nominal Length</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Nominal Length</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Nominal Length</em>' attribute.
      * @see #isSetNominalLength()
@@ -200,10 +188,6 @@ public interface IfcMechanicalFastener extends IfcFastener {
     /**
      * Returns the value of the '<em><b>Nominal Length As String</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Nominal Length As String</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Nominal Length As String</em>' attribute.
      * @see #isSetNominalLengthAsString()

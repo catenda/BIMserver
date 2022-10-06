@@ -54,7 +54,7 @@ public class IfcFaceBoundImpl extends IfcTopologicalRepresentationItemImpl imple
      */
     @Override
     protected EClass eStaticClass() {
-        return Ifc2x3tc1Package.Literals.IFC_FACE_BOUND;
+        return Ifc2x3tc1Package.eINSTANCE.getIfcFaceBound();
     }
 
     /**
@@ -64,7 +64,7 @@ public class IfcFaceBoundImpl extends IfcTopologicalRepresentationItemImpl imple
      */
     @Override
     public IfcLoop getBound() {
-        return (IfcLoop) eGet(Ifc2x3tc1Package.Literals.IFC_FACE_BOUND__BOUND, true);
+        return (IfcLoop) eGet(Ifc2x3tc1Package.eINSTANCE.getIfcFaceBound_Bound(), true);
     }
 
     /**
@@ -74,7 +74,7 @@ public class IfcFaceBoundImpl extends IfcTopologicalRepresentationItemImpl imple
      */
     @Override
     public void setBound(IfcLoop newBound) {
-        eSet(Ifc2x3tc1Package.Literals.IFC_FACE_BOUND__BOUND, newBound);
+        eSet(Ifc2x3tc1Package.eINSTANCE.getIfcFaceBound_Bound(), newBound);
     }
 
     /**
@@ -84,7 +84,7 @@ public class IfcFaceBoundImpl extends IfcTopologicalRepresentationItemImpl imple
      */
     @Override
     public Tristate getOrientation() {
-        return (Tristate) eGet(Ifc2x3tc1Package.Literals.IFC_FACE_BOUND__ORIENTATION, true);
+        return (Tristate) eGet(Ifc2x3tc1Package.eINSTANCE.getIfcFaceBound_Orientation(), true);
     }
 
     /**
@@ -94,7 +94,7 @@ public class IfcFaceBoundImpl extends IfcTopologicalRepresentationItemImpl imple
      */
     @Override
     public void setOrientation(Tristate newOrientation) {
-        eSet(Ifc2x3tc1Package.Literals.IFC_FACE_BOUND__ORIENTATION, newOrientation);
+        eSet(Ifc2x3tc1Package.eINSTANCE.getIfcFaceBound_Orientation(), newOrientation);
     }
 
 } //IfcFaceBoundImpl

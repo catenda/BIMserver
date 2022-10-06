@@ -105,10 +105,6 @@ public enum IfcElectricDistributionBoardTypeEnum implements Enumerator {
     /**
      * The '<em><b>NULL</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>NULL</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #NULL
      * @model
@@ -120,10 +116,6 @@ public enum IfcElectricDistributionBoardTypeEnum implements Enumerator {
     /**
      * The '<em><b>NOTDEFINED</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>NOTDEFINED</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #NOTDEFINED
      * @model
@@ -135,10 +127,6 @@ public enum IfcElectricDistributionBoardTypeEnum implements Enumerator {
     /**
      * The '<em><b>DISTRIBUTIONBOARD</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>DISTRIBUTIONBOARD</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #DISTRIBUTIONBOARD
      * @model
@@ -150,10 +138,6 @@ public enum IfcElectricDistributionBoardTypeEnum implements Enumerator {
     /**
      * The '<em><b>CONSUMERUNIT</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>CONSUMERUNIT</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #CONSUMERUNIT
      * @model
@@ -165,10 +149,6 @@ public enum IfcElectricDistributionBoardTypeEnum implements Enumerator {
     /**
      * The '<em><b>SWITCHBOARD</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>SWITCHBOARD</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #SWITCHBOARD
      * @model
@@ -180,10 +160,6 @@ public enum IfcElectricDistributionBoardTypeEnum implements Enumerator {
     /**
      * The '<em><b>MOTORCONTROLCENTRE</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>MOTORCONTROLCENTRE</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #MOTORCONTROLCENTRE
      * @model
@@ -195,10 +171,6 @@ public enum IfcElectricDistributionBoardTypeEnum implements Enumerator {
     /**
      * The '<em><b>USERDEFINED</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>USERDEFINED</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #USERDEFINED
      * @model

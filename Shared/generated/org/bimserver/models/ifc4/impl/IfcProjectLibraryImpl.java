@@ -45,7 +45,7 @@ public class IfcProjectLibraryImpl extends IfcContextImpl implements IfcProjectL
      */
     @Override
     protected EClass eStaticClass() {
-        return Ifc4Package.Literals.IFC_PROJECT_LIBRARY;
+        return Ifc4Package.eINSTANCE.getIfcProjectLibrary();
     }
 
 } //IfcProjectLibraryImpl

@@ -95,10 +95,6 @@ public enum ServerState implements Enumerator {
     /**
      * The '<em><b>UNDEFINED</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>UNDEFINED</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #UNDEFINED
      * @model
@@ -110,10 +106,6 @@ public enum ServerState implements Enumerator {
     /**
      * The '<em><b>NOT SETUP</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>NOT SETUP</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #NOT_SETUP
      * @model
@@ -125,10 +117,6 @@ public enum ServerState implements Enumerator {
     /**
      * The '<em><b>MIGRATION REQUIRED</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>MIGRATION REQUIRED</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #MIGRATION_REQUIRED
      * @model
@@ -140,10 +128,6 @@ public enum ServerState implements Enumerator {
     /**
      * The '<em><b>MIGRATION IMPOSSIBLE</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>MIGRATION IMPOSSIBLE</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #MIGRATION_IMPOSSIBLE
      * @model
@@ -155,10 +139,6 @@ public enum ServerState implements Enumerator {
     /**
      * The '<em><b>FATAL ERROR</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>FATAL ERROR</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #FATAL_ERROR
      * @model
@@ -170,10 +150,6 @@ public enum ServerState implements Enumerator {
     /**
      * The '<em><b>RUNNING</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>RUNNING</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #RUNNING
      * @model

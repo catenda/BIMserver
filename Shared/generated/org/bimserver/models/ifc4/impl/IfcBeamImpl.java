@@ -52,7 +52,7 @@ public class IfcBeamImpl extends IfcBuildingElementImpl implements IfcBeam {
      */
     @Override
     protected EClass eStaticClass() {
-        return Ifc4Package.Literals.IFC_BEAM;
+        return Ifc4Package.eINSTANCE.getIfcBeam();
     }
 
     /**
@@ -62,7 +62,7 @@ public class IfcBeamImpl extends IfcBuildingElementImpl implements IfcBeam {
      */
     @Override
     public IfcBeamTypeEnum getPredefinedType() {
-        return (IfcBeamTypeEnum) eGet(Ifc4Package.Literals.IFC_BEAM__PREDEFINED_TYPE, true);
+        return (IfcBeamTypeEnum) eGet(Ifc4Package.eINSTANCE.getIfcBeam_PredefinedType(), true);
     }
 
     /**
@@ -72,7 +72,7 @@ public class IfcBeamImpl extends IfcBuildingElementImpl implements IfcBeam {
      */
     @Override
     public void setPredefinedType(IfcBeamTypeEnum newPredefinedType) {
-        eSet(Ifc4Package.Literals.IFC_BEAM__PREDEFINED_TYPE, newPredefinedType);
+        eSet(Ifc4Package.eINSTANCE.getIfcBeam_PredefinedType(), newPredefinedType);
     }
 
     /**
@@ -82,7 +82,7 @@ public class IfcBeamImpl extends IfcBuildingElementImpl implements IfcBeam {
      */
     @Override
     public void unsetPredefinedType() {
-        eUnset(Ifc4Package.Literals.IFC_BEAM__PREDEFINED_TYPE);
+        eUnset(Ifc4Package.eINSTANCE.getIfcBeam_PredefinedType());
     }
 
     /**
@@ -92,7 +92,7 @@ public class IfcBeamImpl extends IfcBuildingElementImpl implements IfcBeam {
      */
     @Override
     public boolean isSetPredefinedType() {
-        return eIsSet(Ifc4Package.Literals.IFC_BEAM__PREDEFINED_TYPE);
+        return eIsSet(Ifc4Package.eINSTANCE.getIfcBeam_PredefinedType());
     }
 
 } //IfcBeamImpl

@@ -36,10 +36,6 @@ public interface IfcTwoDirectionRepeatFactor extends IfcOneDirectionRepeatFactor
     /**
      * Returns the value of the '<em><b>Second Repeat Factor</b></em>' reference.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Second Repeat Factor</em>' reference isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Second Repeat Factor</em>' reference.
      * @see #setSecondRepeatFactor(IfcVector)

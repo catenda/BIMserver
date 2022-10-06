@@ -57,7 +57,7 @@ public class IfcDoorTypeImpl extends IfcBuildingElementTypeImpl implements IfcDo
      */
     @Override
     protected EClass eStaticClass() {
-        return Ifc4Package.Literals.IFC_DOOR_TYPE;
+        return Ifc4Package.eINSTANCE.getIfcDoorType();
     }
 
     /**
@@ -67,7 +67,7 @@ public class IfcDoorTypeImpl extends IfcBuildingElementTypeImpl implements IfcDo
      */
     @Override
     public IfcDoorTypeEnum getPredefinedType() {
-        return (IfcDoorTypeEnum) eGet(Ifc4Package.Literals.IFC_DOOR_TYPE__PREDEFINED_TYPE, true);
+        return (IfcDoorTypeEnum) eGet(Ifc4Package.eINSTANCE.getIfcDoorType_PredefinedType(), true);
     }
 
     /**
@@ -77,7 +77,7 @@ public class IfcDoorTypeImpl extends IfcBuildingElementTypeImpl implements IfcDo
      */
     @Override
     public void setPredefinedType(IfcDoorTypeEnum newPredefinedType) {
-        eSet(Ifc4Package.Literals.IFC_DOOR_TYPE__PREDEFINED_TYPE, newPredefinedType);
+        eSet(Ifc4Package.eINSTANCE.getIfcDoorType_PredefinedType(), newPredefinedType);
     }
 
     /**
@@ -87,7 +87,7 @@ public class IfcDoorTypeImpl extends IfcBuildingElementTypeImpl implements IfcDo
      */
     @Override
     public IfcDoorTypeOperationEnum getOperationType() {
-        return (IfcDoorTypeOperationEnum) eGet(Ifc4Package.Literals.IFC_DOOR_TYPE__OPERATION_TYPE, true);
+        return (IfcDoorTypeOperationEnum) eGet(Ifc4Package.eINSTANCE.getIfcDoorType_OperationType(), true);
     }
 
     /**
@@ -97,7 +97,7 @@ public class IfcDoorTypeImpl extends IfcBuildingElementTypeImpl implements IfcDo
      */
     @Override
     public void setOperationType(IfcDoorTypeOperationEnum newOperationType) {
-        eSet(Ifc4Package.Literals.IFC_DOOR_TYPE__OPERATION_TYPE, newOperationType);
+        eSet(Ifc4Package.eINSTANCE.getIfcDoorType_OperationType(), newOperationType);
     }
 
     /**
@@ -107,7 +107,7 @@ public class IfcDoorTypeImpl extends IfcBuildingElementTypeImpl implements IfcDo
      */
     @Override
     public Tristate getParameterTakesPrecedence() {
-        return (Tristate) eGet(Ifc4Package.Literals.IFC_DOOR_TYPE__PARAMETER_TAKES_PRECEDENCE, true);
+        return (Tristate) eGet(Ifc4Package.eINSTANCE.getIfcDoorType_ParameterTakesPrecedence(), true);
     }
 
     /**
@@ -117,7 +117,7 @@ public class IfcDoorTypeImpl extends IfcBuildingElementTypeImpl implements IfcDo
      */
     @Override
     public void setParameterTakesPrecedence(Tristate newParameterTakesPrecedence) {
-        eSet(Ifc4Package.Literals.IFC_DOOR_TYPE__PARAMETER_TAKES_PRECEDENCE, newParameterTakesPrecedence);
+        eSet(Ifc4Package.eINSTANCE.getIfcDoorType_ParameterTakesPrecedence(), newParameterTakesPrecedence);
     }
 
     /**
@@ -127,7 +127,7 @@ public class IfcDoorTypeImpl extends IfcBuildingElementTypeImpl implements IfcDo
      */
     @Override
     public void unsetParameterTakesPrecedence() {
-        eUnset(Ifc4Package.Literals.IFC_DOOR_TYPE__PARAMETER_TAKES_PRECEDENCE);
+        eUnset(Ifc4Package.eINSTANCE.getIfcDoorType_ParameterTakesPrecedence());
     }
 
     /**
@@ -137,7 +137,7 @@ public class IfcDoorTypeImpl extends IfcBuildingElementTypeImpl implements IfcDo
      */
     @Override
     public boolean isSetParameterTakesPrecedence() {
-        return eIsSet(Ifc4Package.Literals.IFC_DOOR_TYPE__PARAMETER_TAKES_PRECEDENCE);
+        return eIsSet(Ifc4Package.eINSTANCE.getIfcDoorType_ParameterTakesPrecedence());
     }
 
     /**
@@ -147,7 +147,7 @@ public class IfcDoorTypeImpl extends IfcBuildingElementTypeImpl implements IfcDo
      */
     @Override
     public String getUserDefinedOperationType() {
-        return (String) eGet(Ifc4Package.Literals.IFC_DOOR_TYPE__USER_DEFINED_OPERATION_TYPE, true);
+        return (String) eGet(Ifc4Package.eINSTANCE.getIfcDoorType_UserDefinedOperationType(), true);
     }
 
     /**
@@ -157,7 +157,7 @@ public class IfcDoorTypeImpl extends IfcBuildingElementTypeImpl implements IfcDo
      */
     @Override
     public void setUserDefinedOperationType(String newUserDefinedOperationType) {
-        eSet(Ifc4Package.Literals.IFC_DOOR_TYPE__USER_DEFINED_OPERATION_TYPE, newUserDefinedOperationType);
+        eSet(Ifc4Package.eINSTANCE.getIfcDoorType_UserDefinedOperationType(), newUserDefinedOperationType);
     }
 
     /**
@@ -167,7 +167,7 @@ public class IfcDoorTypeImpl extends IfcBuildingElementTypeImpl implements IfcDo
      */
     @Override
     public void unsetUserDefinedOperationType() {
-        eUnset(Ifc4Package.Literals.IFC_DOOR_TYPE__USER_DEFINED_OPERATION_TYPE);
+        eUnset(Ifc4Package.eINSTANCE.getIfcDoorType_UserDefinedOperationType());
     }
 
     /**
@@ -177,7 +177,7 @@ public class IfcDoorTypeImpl extends IfcBuildingElementTypeImpl implements IfcDo
      */
     @Override
     public boolean isSetUserDefinedOperationType() {
-        return eIsSet(Ifc4Package.Literals.IFC_DOOR_TYPE__USER_DEFINED_OPERATION_TYPE);
+        return eIsSet(Ifc4Package.eINSTANCE.getIfcDoorType_UserDefinedOperationType());
     }
 
 } //IfcDoorTypeImpl

@@ -55,7 +55,7 @@ public class IfcElementQuantityImpl extends IfcQuantitySetImpl implements IfcEle
      */
     @Override
     protected EClass eStaticClass() {
-        return Ifc4Package.Literals.IFC_ELEMENT_QUANTITY;
+        return Ifc4Package.eINSTANCE.getIfcElementQuantity();
     }
 
     /**
@@ -65,7 +65,7 @@ public class IfcElementQuantityImpl extends IfcQuantitySetImpl implements IfcEle
      */
     @Override
     public String getMethodOfMeasurement() {
-        return (String) eGet(Ifc4Package.Literals.IFC_ELEMENT_QUANTITY__METHOD_OF_MEASUREMENT, true);
+        return (String) eGet(Ifc4Package.eINSTANCE.getIfcElementQuantity_MethodOfMeasurement(), true);
     }
 
     /**
@@ -75,7 +75,7 @@ public class IfcElementQuantityImpl extends IfcQuantitySetImpl implements IfcEle
      */
     @Override
     public void setMethodOfMeasurement(String newMethodOfMeasurement) {
-        eSet(Ifc4Package.Literals.IFC_ELEMENT_QUANTITY__METHOD_OF_MEASUREMENT, newMethodOfMeasurement);
+        eSet(Ifc4Package.eINSTANCE.getIfcElementQuantity_MethodOfMeasurement(), newMethodOfMeasurement);
     }
 
     /**
@@ -85,7 +85,7 @@ public class IfcElementQuantityImpl extends IfcQuantitySetImpl implements IfcEle
      */
     @Override
     public void unsetMethodOfMeasurement() {
-        eUnset(Ifc4Package.Literals.IFC_ELEMENT_QUANTITY__METHOD_OF_MEASUREMENT);
+        eUnset(Ifc4Package.eINSTANCE.getIfcElementQuantity_MethodOfMeasurement());
     }
 
     /**
@@ -95,7 +95,7 @@ public class IfcElementQuantityImpl extends IfcQuantitySetImpl implements IfcEle
      */
     @Override
     public boolean isSetMethodOfMeasurement() {
-        return eIsSet(Ifc4Package.Literals.IFC_ELEMENT_QUANTITY__METHOD_OF_MEASUREMENT);
+        return eIsSet(Ifc4Package.eINSTANCE.getIfcElementQuantity_MethodOfMeasurement());
     }
 
     /**
@@ -106,7 +106,7 @@ public class IfcElementQuantityImpl extends IfcQuantitySetImpl implements IfcEle
     @SuppressWarnings("unchecked")
     @Override
     public EList<IfcPhysicalQuantity> getQuantities() {
-        return (EList<IfcPhysicalQuantity>) eGet(Ifc4Package.Literals.IFC_ELEMENT_QUANTITY__QUANTITIES, true);
+        return (EList<IfcPhysicalQuantity>) eGet(Ifc4Package.eINSTANCE.getIfcElementQuantity_Quantities(), true);
     }
 
 } //IfcElementQuantityImpl

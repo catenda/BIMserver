@@ -52,7 +52,7 @@ public class IfcProfilePropertiesImpl extends IfcExtendedPropertiesImpl implemen
      */
     @Override
     protected EClass eStaticClass() {
-        return Ifc4Package.Literals.IFC_PROFILE_PROPERTIES;
+        return Ifc4Package.eINSTANCE.getIfcProfileProperties();
     }
 
     /**
@@ -62,7 +62,7 @@ public class IfcProfilePropertiesImpl extends IfcExtendedPropertiesImpl implemen
      */
     @Override
     public IfcProfileDef getProfileDefinition() {
-        return (IfcProfileDef) eGet(Ifc4Package.Literals.IFC_PROFILE_PROPERTIES__PROFILE_DEFINITION, true);
+        return (IfcProfileDef) eGet(Ifc4Package.eINSTANCE.getIfcProfileProperties_ProfileDefinition(), true);
     }
 
     /**
@@ -72,7 +72,7 @@ public class IfcProfilePropertiesImpl extends IfcExtendedPropertiesImpl implemen
      */
     @Override
     public void setProfileDefinition(IfcProfileDef newProfileDefinition) {
-        eSet(Ifc4Package.Literals.IFC_PROFILE_PROPERTIES__PROFILE_DEFINITION, newProfileDefinition);
+        eSet(Ifc4Package.eINSTANCE.getIfcProfileProperties_ProfileDefinition(), newProfileDefinition);
     }
 
 } //IfcProfilePropertiesImpl

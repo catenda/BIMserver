@@ -37,10 +37,6 @@ public interface IfcRoundedRectangleProfileDef extends IfcRectangleProfileDef {
     /**
      * Returns the value of the '<em><b>Rounding Radius</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Rounding Radius</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Rounding Radius</em>' attribute.
      * @see #setRoundingRadius(double)
@@ -63,10 +59,6 @@ public interface IfcRoundedRectangleProfileDef extends IfcRectangleProfileDef {
     /**
      * Returns the value of the '<em><b>Rounding Radius As String</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Rounding Radius As String</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Rounding Radius As String</em>' attribute.
      * @see #setRoundingRadiusAsString(String)

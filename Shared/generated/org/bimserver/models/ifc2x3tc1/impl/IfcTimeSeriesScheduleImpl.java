@@ -58,7 +58,7 @@ public class IfcTimeSeriesScheduleImpl extends IfcControlImpl implements IfcTime
      */
     @Override
     protected EClass eStaticClass() {
-        return Ifc2x3tc1Package.Literals.IFC_TIME_SERIES_SCHEDULE;
+        return Ifc2x3tc1Package.eINSTANCE.getIfcTimeSeriesSchedule();
     }
 
     /**
@@ -69,7 +69,7 @@ public class IfcTimeSeriesScheduleImpl extends IfcControlImpl implements IfcTime
     @SuppressWarnings("unchecked")
     @Override
     public EList<IfcDateTimeSelect> getApplicableDates() {
-        return (EList<IfcDateTimeSelect>) eGet(Ifc2x3tc1Package.Literals.IFC_TIME_SERIES_SCHEDULE__APPLICABLE_DATES,
+        return (EList<IfcDateTimeSelect>) eGet(Ifc2x3tc1Package.eINSTANCE.getIfcTimeSeriesSchedule_ApplicableDates(),
                 true);
     }
 
@@ -80,7 +80,7 @@ public class IfcTimeSeriesScheduleImpl extends IfcControlImpl implements IfcTime
      */
     @Override
     public void unsetApplicableDates() {
-        eUnset(Ifc2x3tc1Package.Literals.IFC_TIME_SERIES_SCHEDULE__APPLICABLE_DATES);
+        eUnset(Ifc2x3tc1Package.eINSTANCE.getIfcTimeSeriesSchedule_ApplicableDates());
     }
 
     /**
@@ -90,7 +90,7 @@ public class IfcTimeSeriesScheduleImpl extends IfcControlImpl implements IfcTime
      */
     @Override
     public boolean isSetApplicableDates() {
-        return eIsSet(Ifc2x3tc1Package.Literals.IFC_TIME_SERIES_SCHEDULE__APPLICABLE_DATES);
+        return eIsSet(Ifc2x3tc1Package.eINSTANCE.getIfcTimeSeriesSchedule_ApplicableDates());
     }
 
     /**
@@ -101,7 +101,7 @@ public class IfcTimeSeriesScheduleImpl extends IfcControlImpl implements IfcTime
     @Override
     public IfcTimeSeriesScheduleTypeEnum getTimeSeriesScheduleType() {
         return (IfcTimeSeriesScheduleTypeEnum) eGet(
-                Ifc2x3tc1Package.Literals.IFC_TIME_SERIES_SCHEDULE__TIME_SERIES_SCHEDULE_TYPE, true);
+                Ifc2x3tc1Package.eINSTANCE.getIfcTimeSeriesSchedule_TimeSeriesScheduleType(), true);
     }
 
     /**
@@ -111,7 +111,7 @@ public class IfcTimeSeriesScheduleImpl extends IfcControlImpl implements IfcTime
      */
     @Override
     public void setTimeSeriesScheduleType(IfcTimeSeriesScheduleTypeEnum newTimeSeriesScheduleType) {
-        eSet(Ifc2x3tc1Package.Literals.IFC_TIME_SERIES_SCHEDULE__TIME_SERIES_SCHEDULE_TYPE, newTimeSeriesScheduleType);
+        eSet(Ifc2x3tc1Package.eINSTANCE.getIfcTimeSeriesSchedule_TimeSeriesScheduleType(), newTimeSeriesScheduleType);
     }
 
     /**
@@ -121,7 +121,7 @@ public class IfcTimeSeriesScheduleImpl extends IfcControlImpl implements IfcTime
      */
     @Override
     public IfcTimeSeries getTimeSeries() {
-        return (IfcTimeSeries) eGet(Ifc2x3tc1Package.Literals.IFC_TIME_SERIES_SCHEDULE__TIME_SERIES, true);
+        return (IfcTimeSeries) eGet(Ifc2x3tc1Package.eINSTANCE.getIfcTimeSeriesSchedule_TimeSeries(), true);
     }
 
     /**
@@ -131,7 +131,7 @@ public class IfcTimeSeriesScheduleImpl extends IfcControlImpl implements IfcTime
      */
     @Override
     public void setTimeSeries(IfcTimeSeries newTimeSeries) {
-        eSet(Ifc2x3tc1Package.Literals.IFC_TIME_SERIES_SCHEDULE__TIME_SERIES, newTimeSeries);
+        eSet(Ifc2x3tc1Package.eINSTANCE.getIfcTimeSeriesSchedule_TimeSeries(), newTimeSeries);
     }
 
 } //IfcTimeSeriesScheduleImpl

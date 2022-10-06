@@ -52,10 +52,6 @@ public interface IfcReinforcingMesh extends IfcReinforcingElement {
     /**
      * Returns the value of the '<em><b>Mesh Length</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Mesh Length</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Mesh Length</em>' attribute.
      * @see #isSetMeshLength()
@@ -105,10 +101,6 @@ public interface IfcReinforcingMesh extends IfcReinforcingElement {
     /**
      * Returns the value of the '<em><b>Mesh Length As String</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Mesh Length As String</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Mesh Length As String</em>' attribute.
      * @see #isSetMeshLengthAsString()
@@ -160,10 +152,6 @@ public interface IfcReinforcingMesh extends IfcReinforcingElement {
     /**
      * Returns the value of the '<em><b>Mesh Width</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Mesh Width</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Mesh Width</em>' attribute.
      * @see #isSetMeshWidth()
@@ -213,10 +201,6 @@ public interface IfcReinforcingMesh extends IfcReinforcingElement {
     /**
      * Returns the value of the '<em><b>Mesh Width As String</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Mesh Width As String</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Mesh Width As String</em>' attribute.
      * @see #isSetMeshWidthAsString()
@@ -268,10 +252,6 @@ public interface IfcReinforcingMesh extends IfcReinforcingElement {
     /**
      * Returns the value of the '<em><b>Longitudinal Bar Nominal Diameter</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Longitudinal Bar Nominal Diameter</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Longitudinal Bar Nominal Diameter</em>' attribute.
      * @see #isSetLongitudinalBarNominalDiameter()
@@ -321,10 +301,6 @@ public interface IfcReinforcingMesh extends IfcReinforcingElement {
     /**
      * Returns the value of the '<em><b>Longitudinal Bar Nominal Diameter As String</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Longitudinal Bar Nominal Diameter As String</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Longitudinal Bar Nominal Diameter As String</em>' attribute.
      * @see #isSetLongitudinalBarNominalDiameterAsString()
@@ -376,10 +352,6 @@ public interface IfcReinforcingMesh extends IfcReinforcingElement {
     /**
      * Returns the value of the '<em><b>Transverse Bar Nominal Diameter</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Transverse Bar Nominal Diameter</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Transverse Bar Nominal Diameter</em>' attribute.
      * @see #isSetTransverseBarNominalDiameter()
@@ -429,10 +401,6 @@ public interface IfcReinforcingMesh extends IfcReinforcingElement {
     /**
      * Returns the value of the '<em><b>Transverse Bar Nominal Diameter As String</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Transverse Bar Nominal Diameter As String</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Transverse Bar Nominal Diameter As String</em>' attribute.
      * @see #isSetTransverseBarNominalDiameterAsString()
@@ -484,10 +452,6 @@ public interface IfcReinforcingMesh extends IfcReinforcingElement {
     /**
      * Returns the value of the '<em><b>Longitudinal Bar Cross Section Area</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Longitudinal Bar Cross Section Area</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Longitudinal Bar Cross Section Area</em>' attribute.
      * @see #isSetLongitudinalBarCrossSectionArea()
@@ -537,10 +501,6 @@ public interface IfcReinforcingMesh extends IfcReinforcingElement {
     /**
      * Returns the value of the '<em><b>Longitudinal Bar Cross Section Area As String</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Longitudinal Bar Cross Section Area As String</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Longitudinal Bar Cross Section Area As String</em>' attribute.
      * @see #isSetLongitudinalBarCrossSectionAreaAsString()
@@ -592,10 +552,6 @@ public interface IfcReinforcingMesh extends IfcReinforcingElement {
     /**
      * Returns the value of the '<em><b>Transverse Bar Cross Section Area</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Transverse Bar Cross Section Area</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Transverse Bar Cross Section Area</em>' attribute.
      * @see #isSetTransverseBarCrossSectionArea()
@@ -645,10 +601,6 @@ public interface IfcReinforcingMesh extends IfcReinforcingElement {
     /**
      * Returns the value of the '<em><b>Transverse Bar Cross Section Area As String</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Transverse Bar Cross Section Area As String</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Transverse Bar Cross Section Area As String</em>' attribute.
      * @see #isSetTransverseBarCrossSectionAreaAsString()
@@ -700,10 +652,6 @@ public interface IfcReinforcingMesh extends IfcReinforcingElement {
     /**
      * Returns the value of the '<em><b>Longitudinal Bar Spacing</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Longitudinal Bar Spacing</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Longitudinal Bar Spacing</em>' attribute.
      * @see #isSetLongitudinalBarSpacing()
@@ -753,10 +701,6 @@ public interface IfcReinforcingMesh extends IfcReinforcingElement {
     /**
      * Returns the value of the '<em><b>Longitudinal Bar Spacing As String</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Longitudinal Bar Spacing As String</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Longitudinal Bar Spacing As String</em>' attribute.
      * @see #isSetLongitudinalBarSpacingAsString()
@@ -808,10 +752,6 @@ public interface IfcReinforcingMesh extends IfcReinforcingElement {
     /**
      * Returns the value of the '<em><b>Transverse Bar Spacing</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Transverse Bar Spacing</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Transverse Bar Spacing</em>' attribute.
      * @see #isSetTransverseBarSpacing()
@@ -861,10 +801,6 @@ public interface IfcReinforcingMesh extends IfcReinforcingElement {
     /**
      * Returns the value of the '<em><b>Transverse Bar Spacing As String</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Transverse Bar Spacing As String</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Transverse Bar Spacing As String</em>' attribute.
      * @see #isSetTransverseBarSpacingAsString()
@@ -917,10 +853,6 @@ public interface IfcReinforcingMesh extends IfcReinforcingElement {
      * Returns the value of the '<em><b>Predefined Type</b></em>' attribute.
      * The literals are from the enumeration {@link org.bimserver.models.ifc4.IfcReinforcingMeshTypeEnum}.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Predefined Type</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Predefined Type</em>' attribute.
      * @see org.bimserver.models.ifc4.IfcReinforcingMeshTypeEnum

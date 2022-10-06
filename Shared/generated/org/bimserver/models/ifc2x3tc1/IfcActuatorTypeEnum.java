@@ -115,10 +115,6 @@ public enum IfcActuatorTypeEnum implements Enumerator {
     /**
      * The '<em><b>NULL</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>NULL</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #NULL
      * @model
@@ -130,10 +126,6 @@ public enum IfcActuatorTypeEnum implements Enumerator {
     /**
      * The '<em><b>NOTDEFINED</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>NOTDEFINED</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #NOTDEFINED
      * @model
@@ -145,10 +137,6 @@ public enum IfcActuatorTypeEnum implements Enumerator {
     /**
      * The '<em><b>THERMOSTATICACTUATOR</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>THERMOSTATICACTUATOR</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #THERMOSTATICACTUATOR
      * @model
@@ -160,10 +148,6 @@ public enum IfcActuatorTypeEnum implements Enumerator {
     /**
      * The '<em><b>HANDOPERATEDACTUATOR</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>HANDOPERATEDACTUATOR</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #HANDOPERATEDACTUATOR
      * @model
@@ -175,10 +159,6 @@ public enum IfcActuatorTypeEnum implements Enumerator {
     /**
      * The '<em><b>USERDEFINED</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>USERDEFINED</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #USERDEFINED
      * @model
@@ -190,10 +170,6 @@ public enum IfcActuatorTypeEnum implements Enumerator {
     /**
      * The '<em><b>ELECTRICACTUATOR</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>ELECTRICACTUATOR</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #ELECTRICACTUATOR
      * @model
@@ -205,10 +181,6 @@ public enum IfcActuatorTypeEnum implements Enumerator {
     /**
      * The '<em><b>HYDRAULICACTUATOR</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>HYDRAULICACTUATOR</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #HYDRAULICACTUATOR
      * @model
@@ -220,10 +192,6 @@ public enum IfcActuatorTypeEnum implements Enumerator {
     /**
      * The '<em><b>PNEUMATICACTUATOR</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>PNEUMATICACTUATOR</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #PNEUMATICACTUATOR
      * @model

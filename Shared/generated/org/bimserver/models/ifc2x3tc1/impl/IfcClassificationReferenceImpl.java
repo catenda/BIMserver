@@ -52,7 +52,7 @@ public class IfcClassificationReferenceImpl extends IfcExternalReferenceImpl imp
      */
     @Override
     protected EClass eStaticClass() {
-        return Ifc2x3tc1Package.Literals.IFC_CLASSIFICATION_REFERENCE;
+        return Ifc2x3tc1Package.eINSTANCE.getIfcClassificationReference();
     }
 
     /**
@@ -62,7 +62,7 @@ public class IfcClassificationReferenceImpl extends IfcExternalReferenceImpl imp
      */
     @Override
     public IfcClassification getReferencedSource() {
-        return (IfcClassification) eGet(Ifc2x3tc1Package.Literals.IFC_CLASSIFICATION_REFERENCE__REFERENCED_SOURCE,
+        return (IfcClassification) eGet(Ifc2x3tc1Package.eINSTANCE.getIfcClassificationReference_ReferencedSource(),
                 true);
     }
 
@@ -73,7 +73,7 @@ public class IfcClassificationReferenceImpl extends IfcExternalReferenceImpl imp
      */
     @Override
     public void setReferencedSource(IfcClassification newReferencedSource) {
-        eSet(Ifc2x3tc1Package.Literals.IFC_CLASSIFICATION_REFERENCE__REFERENCED_SOURCE, newReferencedSource);
+        eSet(Ifc2x3tc1Package.eINSTANCE.getIfcClassificationReference_ReferencedSource(), newReferencedSource);
     }
 
     /**
@@ -83,7 +83,7 @@ public class IfcClassificationReferenceImpl extends IfcExternalReferenceImpl imp
      */
     @Override
     public void unsetReferencedSource() {
-        eUnset(Ifc2x3tc1Package.Literals.IFC_CLASSIFICATION_REFERENCE__REFERENCED_SOURCE);
+        eUnset(Ifc2x3tc1Package.eINSTANCE.getIfcClassificationReference_ReferencedSource());
     }
 
     /**
@@ -93,7 +93,7 @@ public class IfcClassificationReferenceImpl extends IfcExternalReferenceImpl imp
      */
     @Override
     public boolean isSetReferencedSource() {
-        return eIsSet(Ifc2x3tc1Package.Literals.IFC_CLASSIFICATION_REFERENCE__REFERENCED_SOURCE);
+        return eIsSet(Ifc2x3tc1Package.eINSTANCE.getIfcClassificationReference_ReferencedSource());
     }
 
 } //IfcClassificationReferenceImpl

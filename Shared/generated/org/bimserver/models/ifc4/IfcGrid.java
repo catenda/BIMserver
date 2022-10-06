@@ -44,10 +44,6 @@ public interface IfcGrid extends IfcProduct {
      * The list contents are of type {@link org.bimserver.models.ifc4.IfcGridAxis}.
      * It is bidirectional and its opposite is '{@link org.bimserver.models.ifc4.IfcGridAxis#getPartOfU <em>Part Of U</em>}'.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>UAxes</em>' reference list isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>UAxes</em>' reference list.
      * @see org.bimserver.models.ifc4.Ifc4Package#getIfcGrid_UAxes()
@@ -63,10 +59,6 @@ public interface IfcGrid extends IfcProduct {
      * The list contents are of type {@link org.bimserver.models.ifc4.IfcGridAxis}.
      * It is bidirectional and its opposite is '{@link org.bimserver.models.ifc4.IfcGridAxis#getPartOfV <em>Part Of V</em>}'.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>VAxes</em>' reference list isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>VAxes</em>' reference list.
      * @see org.bimserver.models.ifc4.Ifc4Package#getIfcGrid_VAxes()
@@ -82,10 +74,6 @@ public interface IfcGrid extends IfcProduct {
      * The list contents are of type {@link org.bimserver.models.ifc4.IfcGridAxis}.
      * It is bidirectional and its opposite is '{@link org.bimserver.models.ifc4.IfcGridAxis#getPartOfW <em>Part Of W</em>}'.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>WAxes</em>' reference list isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>WAxes</em>' reference list.
      * @see #isSetWAxes()
@@ -123,10 +111,6 @@ public interface IfcGrid extends IfcProduct {
      * Returns the value of the '<em><b>Predefined Type</b></em>' attribute.
      * The literals are from the enumeration {@link org.bimserver.models.ifc4.IfcGridTypeEnum}.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Predefined Type</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Predefined Type</em>' attribute.
      * @see org.bimserver.models.ifc4.IfcGridTypeEnum
@@ -179,10 +163,6 @@ public interface IfcGrid extends IfcProduct {
      * Returns the value of the '<em><b>Contained In Structure</b></em>' reference list.
      * The list contents are of type {@link org.bimserver.models.ifc4.IfcRelContainedInSpatialStructure}.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Contained In Structure</em>' reference list isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Contained In Structure</em>' reference list.
      * @see #isSetContainedInStructure()

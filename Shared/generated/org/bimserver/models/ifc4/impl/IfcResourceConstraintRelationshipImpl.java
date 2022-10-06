@@ -57,7 +57,7 @@ public class IfcResourceConstraintRelationshipImpl extends IfcResourceLevelRelat
      */
     @Override
     protected EClass eStaticClass() {
-        return Ifc4Package.Literals.IFC_RESOURCE_CONSTRAINT_RELATIONSHIP;
+        return Ifc4Package.eINSTANCE.getIfcResourceConstraintRelationship();
     }
 
     /**
@@ -67,7 +67,7 @@ public class IfcResourceConstraintRelationshipImpl extends IfcResourceLevelRelat
      */
     @Override
     public IfcConstraint getRelatingConstraint() {
-        return (IfcConstraint) eGet(Ifc4Package.Literals.IFC_RESOURCE_CONSTRAINT_RELATIONSHIP__RELATING_CONSTRAINT,
+        return (IfcConstraint) eGet(Ifc4Package.eINSTANCE.getIfcResourceConstraintRelationship_RelatingConstraint(),
                 true);
     }
 
@@ -78,7 +78,7 @@ public class IfcResourceConstraintRelationshipImpl extends IfcResourceLevelRelat
      */
     @Override
     public void setRelatingConstraint(IfcConstraint newRelatingConstraint) {
-        eSet(Ifc4Package.Literals.IFC_RESOURCE_CONSTRAINT_RELATIONSHIP__RELATING_CONSTRAINT, newRelatingConstraint);
+        eSet(Ifc4Package.eINSTANCE.getIfcResourceConstraintRelationship_RelatingConstraint(), newRelatingConstraint);
     }
 
     /**
@@ -90,7 +90,7 @@ public class IfcResourceConstraintRelationshipImpl extends IfcResourceLevelRelat
     @Override
     public EList<IfcResourceObjectSelect> getRelatedResourceObjects() {
         return (EList<IfcResourceObjectSelect>) eGet(
-                Ifc4Package.Literals.IFC_RESOURCE_CONSTRAINT_RELATIONSHIP__RELATED_RESOURCE_OBJECTS, true);
+                Ifc4Package.eINSTANCE.getIfcResourceConstraintRelationship_RelatedResourceObjects(), true);
     }
 
 } //IfcResourceConstraintRelationshipImpl

@@ -56,7 +56,7 @@ public class ListOfEDoubleImpl extends IdEObjectImpl implements ListOfEDouble {
      */
     @Override
     protected EClass eStaticClass() {
-        return Ifc4Package.Literals.LIST_OF_EDOUBLE;
+        return Ifc4Package.eINSTANCE.getListOfEDouble();
     }
 
     /**
@@ -77,7 +77,7 @@ public class ListOfEDoubleImpl extends IdEObjectImpl implements ListOfEDouble {
     @SuppressWarnings("unchecked")
     @Override
     public EList<Double> getList() {
-        return (EList<Double>) eGet(Ifc4Package.Literals.LIST_OF_EDOUBLE__LIST, true);
+        return (EList<Double>) eGet(Ifc4Package.eINSTANCE.getListOfEDouble_List(), true);
     }
 
     /**
@@ -88,7 +88,7 @@ public class ListOfEDoubleImpl extends IdEObjectImpl implements ListOfEDouble {
     @SuppressWarnings("unchecked")
     @Override
     public EList<String> getListAsString() {
-        return (EList<String>) eGet(Ifc4Package.Literals.LIST_OF_EDOUBLE__LIST_AS_STRING, true);
+        return (EList<String>) eGet(Ifc4Package.eINSTANCE.getListOfEDouble_ListAsString(), true);
     }
 
 } //ListOfEDoubleImpl

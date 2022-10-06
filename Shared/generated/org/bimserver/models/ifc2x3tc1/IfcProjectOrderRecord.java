@@ -40,10 +40,6 @@ public interface IfcProjectOrderRecord extends IfcControl {
      * Returns the value of the '<em><b>Records</b></em>' reference list.
      * The list contents are of type {@link org.bimserver.models.ifc2x3tc1.IfcRelAssignsToProjectOrder}.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Records</em>' reference list isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Records</em>' reference list.
      * @see org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package#getIfcProjectOrderRecord_Records()
@@ -56,10 +52,6 @@ public interface IfcProjectOrderRecord extends IfcControl {
      * Returns the value of the '<em><b>Predefined Type</b></em>' attribute.
      * The literals are from the enumeration {@link org.bimserver.models.ifc2x3tc1.IfcProjectOrderRecordTypeEnum}.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Predefined Type</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Predefined Type</em>' attribute.
      * @see org.bimserver.models.ifc2x3tc1.IfcProjectOrderRecordTypeEnum

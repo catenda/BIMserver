@@ -45,7 +45,7 @@ public class IfcOpenShellImpl extends IfcConnectedFaceSetImpl implements IfcOpen
      */
     @Override
     protected EClass eStaticClass() {
-        return Ifc2x3tc1Package.Literals.IFC_OPEN_SHELL;
+        return Ifc2x3tc1Package.eINSTANCE.getIfcOpenShell();
     }
 
 } //IfcOpenShellImpl

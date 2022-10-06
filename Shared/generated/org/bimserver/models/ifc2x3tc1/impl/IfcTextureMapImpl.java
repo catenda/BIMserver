@@ -54,7 +54,7 @@ public class IfcTextureMapImpl extends IfcTextureCoordinateImpl implements IfcTe
      */
     @Override
     protected EClass eStaticClass() {
-        return Ifc2x3tc1Package.Literals.IFC_TEXTURE_MAP;
+        return Ifc2x3tc1Package.eINSTANCE.getIfcTextureMap();
     }
 
     /**
@@ -65,7 +65,7 @@ public class IfcTextureMapImpl extends IfcTextureCoordinateImpl implements IfcTe
     @SuppressWarnings("unchecked")
     @Override
     public EList<IfcVertexBasedTextureMap> getTextureMaps() {
-        return (EList<IfcVertexBasedTextureMap>) eGet(Ifc2x3tc1Package.Literals.IFC_TEXTURE_MAP__TEXTURE_MAPS, true);
+        return (EList<IfcVertexBasedTextureMap>) eGet(Ifc2x3tc1Package.eINSTANCE.getIfcTextureMap_TextureMaps(), true);
     }
 
 } //IfcTextureMapImpl

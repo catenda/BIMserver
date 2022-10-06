@@ -37,10 +37,6 @@ public interface IfcAnnotationSurface extends IfcGeometricRepresentationItem {
     /**
      * Returns the value of the '<em><b>Item</b></em>' reference.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Item</em>' reference isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Item</em>' reference.
      * @see #setItem(IfcGeometricRepresentationItem)
@@ -64,10 +60,6 @@ public interface IfcAnnotationSurface extends IfcGeometricRepresentationItem {
      * Returns the value of the '<em><b>Texture Coordinates</b></em>' reference.
      * It is bidirectional and its opposite is '{@link org.bimserver.models.ifc2x3tc1.IfcTextureCoordinate#getAnnotatedSurface <em>Annotated Surface</em>}'.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Texture Coordinates</em>' reference isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Texture Coordinates</em>' reference.
      * @see #isSetTextureCoordinates()

@@ -125,10 +125,6 @@ public enum IfcAlarmTypeEnum implements Enumerator {
     /**
      * The '<em><b>NULL</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>NULL</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #NULL
      * @model
@@ -140,10 +136,6 @@ public enum IfcAlarmTypeEnum implements Enumerator {
     /**
      * The '<em><b>SIREN</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>SIREN</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #SIREN
      * @model
@@ -155,10 +147,6 @@ public enum IfcAlarmTypeEnum implements Enumerator {
     /**
      * The '<em><b>NOTDEFINED</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>NOTDEFINED</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #NOTDEFINED
      * @model
@@ -170,10 +158,6 @@ public enum IfcAlarmTypeEnum implements Enumerator {
     /**
      * The '<em><b>WHISTLE</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>WHISTLE</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #WHISTLE
      * @model
@@ -185,10 +169,6 @@ public enum IfcAlarmTypeEnum implements Enumerator {
     /**
      * The '<em><b>LIGHT</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>LIGHT</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #LIGHT
      * @model
@@ -200,10 +180,6 @@ public enum IfcAlarmTypeEnum implements Enumerator {
     /**
      * The '<em><b>USERDEFINED</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>USERDEFINED</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #USERDEFINED
      * @model
@@ -215,10 +191,6 @@ public enum IfcAlarmTypeEnum implements Enumerator {
     /**
      * The '<em><b>BELL</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>BELL</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #BELL
      * @model
@@ -230,10 +202,6 @@ public enum IfcAlarmTypeEnum implements Enumerator {
     /**
      * The '<em><b>BREAKGLASSBUTTON</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>BREAKGLASSBUTTON</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #BREAKGLASSBUTTON
      * @model
@@ -245,10 +213,6 @@ public enum IfcAlarmTypeEnum implements Enumerator {
     /**
      * The '<em><b>MANUALPULLBOX</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>MANUALPULLBOX</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #MANUALPULLBOX
      * @model

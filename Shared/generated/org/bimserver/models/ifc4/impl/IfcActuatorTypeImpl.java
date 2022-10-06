@@ -52,7 +52,7 @@ public class IfcActuatorTypeImpl extends IfcDistributionControlElementTypeImpl i
      */
     @Override
     protected EClass eStaticClass() {
-        return Ifc4Package.Literals.IFC_ACTUATOR_TYPE;
+        return Ifc4Package.eINSTANCE.getIfcActuatorType();
     }
 
     /**
@@ -62,7 +62,7 @@ public class IfcActuatorTypeImpl extends IfcDistributionControlElementTypeImpl i
      */
     @Override
     public IfcActuatorTypeEnum getPredefinedType() {
-        return (IfcActuatorTypeEnum) eGet(Ifc4Package.Literals.IFC_ACTUATOR_TYPE__PREDEFINED_TYPE, true);
+        return (IfcActuatorTypeEnum) eGet(Ifc4Package.eINSTANCE.getIfcActuatorType_PredefinedType(), true);
     }
 
     /**
@@ -72,7 +72,7 @@ public class IfcActuatorTypeImpl extends IfcDistributionControlElementTypeImpl i
      */
     @Override
     public void setPredefinedType(IfcActuatorTypeEnum newPredefinedType) {
-        eSet(Ifc4Package.Literals.IFC_ACTUATOR_TYPE__PREDEFINED_TYPE, newPredefinedType);
+        eSet(Ifc4Package.eINSTANCE.getIfcActuatorType_PredefinedType(), newPredefinedType);
     }
 
 } //IfcActuatorTypeImpl

@@ -39,10 +39,6 @@ public interface IfcCurveStyle extends IfcPresentationStyle, IfcPresentationStyl
     /**
      * Returns the value of the '<em><b>Curve Font</b></em>' reference.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Curve Font</em>' reference isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Curve Font</em>' reference.
      * @see #isSetCurveFont()
@@ -92,10 +88,6 @@ public interface IfcCurveStyle extends IfcPresentationStyle, IfcPresentationStyl
     /**
      * Returns the value of the '<em><b>Curve Width</b></em>' reference.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Curve Width</em>' reference isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Curve Width</em>' reference.
      * @see #isSetCurveWidth()
@@ -145,10 +137,6 @@ public interface IfcCurveStyle extends IfcPresentationStyle, IfcPresentationStyl
     /**
      * Returns the value of the '<em><b>Curve Colour</b></em>' reference.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Curve Colour</em>' reference isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Curve Colour</em>' reference.
      * @see #isSetCurveColour()
@@ -199,10 +187,6 @@ public interface IfcCurveStyle extends IfcPresentationStyle, IfcPresentationStyl
      * Returns the value of the '<em><b>Model Or Draughting</b></em>' attribute.
      * The literals are from the enumeration {@link org.bimserver.models.ifc4.Tristate}.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Model Or Draughting</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Model Or Draughting</em>' attribute.
      * @see org.bimserver.models.ifc4.Tristate

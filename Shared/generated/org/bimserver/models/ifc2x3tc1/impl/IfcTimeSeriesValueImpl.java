@@ -56,7 +56,7 @@ public class IfcTimeSeriesValueImpl extends IdEObjectImpl implements IfcTimeSeri
      */
     @Override
     protected EClass eStaticClass() {
-        return Ifc2x3tc1Package.Literals.IFC_TIME_SERIES_VALUE;
+        return Ifc2x3tc1Package.eINSTANCE.getIfcTimeSeriesValue();
     }
 
     /**
@@ -77,7 +77,7 @@ public class IfcTimeSeriesValueImpl extends IdEObjectImpl implements IfcTimeSeri
     @SuppressWarnings("unchecked")
     @Override
     public EList<IfcValue> getListValues() {
-        return (EList<IfcValue>) eGet(Ifc2x3tc1Package.Literals.IFC_TIME_SERIES_VALUE__LIST_VALUES, true);
+        return (EList<IfcValue>) eGet(Ifc2x3tc1Package.eINSTANCE.getIfcTimeSeriesValue_ListValues(), true);
     }
 
 } //IfcTimeSeriesValueImpl

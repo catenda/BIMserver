@@ -41,10 +41,6 @@ public interface IfcLibraryReference extends IfcExternalReference, IfcLibrarySel
     /**
      * Returns the value of the '<em><b>Description</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Description</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Description</em>' attribute.
      * @see #isSetDescription()
@@ -94,10 +90,6 @@ public interface IfcLibraryReference extends IfcExternalReference, IfcLibrarySel
     /**
      * Returns the value of the '<em><b>Language</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Language</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Language</em>' attribute.
      * @see #isSetLanguage()
@@ -148,10 +140,6 @@ public interface IfcLibraryReference extends IfcExternalReference, IfcLibrarySel
      * Returns the value of the '<em><b>Referenced Library</b></em>' reference.
      * It is bidirectional and its opposite is '{@link org.bimserver.models.ifc4.IfcLibraryInformation#getHasLibraryReferences <em>Has Library References</em>}'.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Referenced Library</em>' reference isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Referenced Library</em>' reference.
      * @see #isSetReferencedLibrary()
@@ -204,10 +192,6 @@ public interface IfcLibraryReference extends IfcExternalReference, IfcLibrarySel
      * Returns the value of the '<em><b>Library Ref For Objects</b></em>' reference list.
      * The list contents are of type {@link org.bimserver.models.ifc4.IfcRelAssociatesLibrary}.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Library Ref For Objects</em>' reference list isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Library Ref For Objects</em>' reference list.
      * @see #isSetLibraryRefForObjects()

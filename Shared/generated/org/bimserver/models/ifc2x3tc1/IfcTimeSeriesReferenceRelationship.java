@@ -43,10 +43,6 @@ public interface IfcTimeSeriesReferenceRelationship extends IdEObject {
      * Returns the value of the '<em><b>Referenced Time Series</b></em>' reference.
      * It is bidirectional and its opposite is '{@link org.bimserver.models.ifc2x3tc1.IfcTimeSeries#getDocumentedBy <em>Documented By</em>}'.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Referenced Time Series</em>' reference isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Referenced Time Series</em>' reference.
      * @see #setReferencedTimeSeries(IfcTimeSeries)
@@ -72,10 +68,6 @@ public interface IfcTimeSeriesReferenceRelationship extends IdEObject {
      * Returns the value of the '<em><b>Time Series References</b></em>' reference list.
      * The list contents are of type {@link org.bimserver.models.ifc2x3tc1.IfcDocumentSelect}.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Time Series References</em>' reference list isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Time Series References</em>' reference list.
      * @see org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package#getIfcTimeSeriesReferenceRelationship_TimeSeriesReferences()

@@ -43,10 +43,6 @@ public interface IfcReinforcingBar extends IfcReinforcingElement {
     /**
      * Returns the value of the '<em><b>Nominal Diameter</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Nominal Diameter</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Nominal Diameter</em>' attribute.
      * @see #setNominalDiameter(double)
@@ -69,10 +65,6 @@ public interface IfcReinforcingBar extends IfcReinforcingElement {
     /**
      * Returns the value of the '<em><b>Nominal Diameter As String</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Nominal Diameter As String</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Nominal Diameter As String</em>' attribute.
      * @see #setNominalDiameterAsString(String)
@@ -96,10 +88,6 @@ public interface IfcReinforcingBar extends IfcReinforcingElement {
     /**
      * Returns the value of the '<em><b>Cross Section Area</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Cross Section Area</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Cross Section Area</em>' attribute.
      * @see #setCrossSectionArea(double)
@@ -122,10 +110,6 @@ public interface IfcReinforcingBar extends IfcReinforcingElement {
     /**
      * Returns the value of the '<em><b>Cross Section Area As String</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Cross Section Area As String</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Cross Section Area As String</em>' attribute.
      * @see #setCrossSectionAreaAsString(String)
@@ -149,10 +133,6 @@ public interface IfcReinforcingBar extends IfcReinforcingElement {
     /**
      * Returns the value of the '<em><b>Bar Length</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Bar Length</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Bar Length</em>' attribute.
      * @see #isSetBarLength()
@@ -202,10 +182,6 @@ public interface IfcReinforcingBar extends IfcReinforcingElement {
     /**
      * Returns the value of the '<em><b>Bar Length As String</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Bar Length As String</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Bar Length As String</em>' attribute.
      * @see #isSetBarLengthAsString()
@@ -258,10 +234,6 @@ public interface IfcReinforcingBar extends IfcReinforcingElement {
      * Returns the value of the '<em><b>Bar Role</b></em>' attribute.
      * The literals are from the enumeration {@link org.bimserver.models.ifc2x3tc1.IfcReinforcingBarRoleEnum}.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Bar Role</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Bar Role</em>' attribute.
      * @see org.bimserver.models.ifc2x3tc1.IfcReinforcingBarRoleEnum
@@ -287,10 +259,6 @@ public interface IfcReinforcingBar extends IfcReinforcingElement {
      * Returns the value of the '<em><b>Bar Surface</b></em>' attribute.
      * The literals are from the enumeration {@link org.bimserver.models.ifc2x3tc1.IfcReinforcingBarSurfaceEnum}.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Bar Surface</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Bar Surface</em>' attribute.
      * @see org.bimserver.models.ifc2x3tc1.IfcReinforcingBarSurfaceEnum

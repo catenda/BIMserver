@@ -54,7 +54,7 @@ public class IfcServiceLifeImpl extends IfcControlImpl implements IfcServiceLife
      */
     @Override
     protected EClass eStaticClass() {
-        return Ifc2x3tc1Package.Literals.IFC_SERVICE_LIFE;
+        return Ifc2x3tc1Package.eINSTANCE.getIfcServiceLife();
     }
 
     /**
@@ -64,7 +64,7 @@ public class IfcServiceLifeImpl extends IfcControlImpl implements IfcServiceLife
      */
     @Override
     public IfcServiceLifeTypeEnum getServiceLifeType() {
-        return (IfcServiceLifeTypeEnum) eGet(Ifc2x3tc1Package.Literals.IFC_SERVICE_LIFE__SERVICE_LIFE_TYPE, true);
+        return (IfcServiceLifeTypeEnum) eGet(Ifc2x3tc1Package.eINSTANCE.getIfcServiceLife_ServiceLifeType(), true);
     }
 
     /**
@@ -74,7 +74,7 @@ public class IfcServiceLifeImpl extends IfcControlImpl implements IfcServiceLife
      */
     @Override
     public void setServiceLifeType(IfcServiceLifeTypeEnum newServiceLifeType) {
-        eSet(Ifc2x3tc1Package.Literals.IFC_SERVICE_LIFE__SERVICE_LIFE_TYPE, newServiceLifeType);
+        eSet(Ifc2x3tc1Package.eINSTANCE.getIfcServiceLife_ServiceLifeType(), newServiceLifeType);
     }
 
     /**
@@ -84,7 +84,7 @@ public class IfcServiceLifeImpl extends IfcControlImpl implements IfcServiceLife
      */
     @Override
     public double getServiceLifeDuration() {
-        return (Double) eGet(Ifc2x3tc1Package.Literals.IFC_SERVICE_LIFE__SERVICE_LIFE_DURATION, true);
+        return (Double) eGet(Ifc2x3tc1Package.eINSTANCE.getIfcServiceLife_ServiceLifeDuration(), true);
     }
 
     /**
@@ -94,7 +94,7 @@ public class IfcServiceLifeImpl extends IfcControlImpl implements IfcServiceLife
      */
     @Override
     public void setServiceLifeDuration(double newServiceLifeDuration) {
-        eSet(Ifc2x3tc1Package.Literals.IFC_SERVICE_LIFE__SERVICE_LIFE_DURATION, newServiceLifeDuration);
+        eSet(Ifc2x3tc1Package.eINSTANCE.getIfcServiceLife_ServiceLifeDuration(), newServiceLifeDuration);
     }
 
     /**
@@ -104,7 +104,7 @@ public class IfcServiceLifeImpl extends IfcControlImpl implements IfcServiceLife
      */
     @Override
     public String getServiceLifeDurationAsString() {
-        return (String) eGet(Ifc2x3tc1Package.Literals.IFC_SERVICE_LIFE__SERVICE_LIFE_DURATION_AS_STRING, true);
+        return (String) eGet(Ifc2x3tc1Package.eINSTANCE.getIfcServiceLife_ServiceLifeDurationAsString(), true);
     }
 
     /**
@@ -114,7 +114,7 @@ public class IfcServiceLifeImpl extends IfcControlImpl implements IfcServiceLife
      */
     @Override
     public void setServiceLifeDurationAsString(String newServiceLifeDurationAsString) {
-        eSet(Ifc2x3tc1Package.Literals.IFC_SERVICE_LIFE__SERVICE_LIFE_DURATION_AS_STRING,
+        eSet(Ifc2x3tc1Package.eINSTANCE.getIfcServiceLife_ServiceLifeDurationAsString(),
                 newServiceLifeDurationAsString);
     }
 

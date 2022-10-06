@@ -62,7 +62,7 @@ public class IfcInventoryImpl extends IfcGroupImpl implements IfcInventory {
      */
     @Override
     protected EClass eStaticClass() {
-        return Ifc4Package.Literals.IFC_INVENTORY;
+        return Ifc4Package.eINSTANCE.getIfcInventory();
     }
 
     /**
@@ -72,7 +72,7 @@ public class IfcInventoryImpl extends IfcGroupImpl implements IfcInventory {
      */
     @Override
     public IfcInventoryTypeEnum getPredefinedType() {
-        return (IfcInventoryTypeEnum) eGet(Ifc4Package.Literals.IFC_INVENTORY__PREDEFINED_TYPE, true);
+        return (IfcInventoryTypeEnum) eGet(Ifc4Package.eINSTANCE.getIfcInventory_PredefinedType(), true);
     }
 
     /**
@@ -82,7 +82,7 @@ public class IfcInventoryImpl extends IfcGroupImpl implements IfcInventory {
      */
     @Override
     public void setPredefinedType(IfcInventoryTypeEnum newPredefinedType) {
-        eSet(Ifc4Package.Literals.IFC_INVENTORY__PREDEFINED_TYPE, newPredefinedType);
+        eSet(Ifc4Package.eINSTANCE.getIfcInventory_PredefinedType(), newPredefinedType);
     }
 
     /**
@@ -92,7 +92,7 @@ public class IfcInventoryImpl extends IfcGroupImpl implements IfcInventory {
      */
     @Override
     public void unsetPredefinedType() {
-        eUnset(Ifc4Package.Literals.IFC_INVENTORY__PREDEFINED_TYPE);
+        eUnset(Ifc4Package.eINSTANCE.getIfcInventory_PredefinedType());
     }
 
     /**
@@ -102,7 +102,7 @@ public class IfcInventoryImpl extends IfcGroupImpl implements IfcInventory {
      */
     @Override
     public boolean isSetPredefinedType() {
-        return eIsSet(Ifc4Package.Literals.IFC_INVENTORY__PREDEFINED_TYPE);
+        return eIsSet(Ifc4Package.eINSTANCE.getIfcInventory_PredefinedType());
     }
 
     /**
@@ -112,7 +112,7 @@ public class IfcInventoryImpl extends IfcGroupImpl implements IfcInventory {
      */
     @Override
     public IfcActorSelect getJurisdiction() {
-        return (IfcActorSelect) eGet(Ifc4Package.Literals.IFC_INVENTORY__JURISDICTION, true);
+        return (IfcActorSelect) eGet(Ifc4Package.eINSTANCE.getIfcInventory_Jurisdiction(), true);
     }
 
     /**
@@ -122,7 +122,7 @@ public class IfcInventoryImpl extends IfcGroupImpl implements IfcInventory {
      */
     @Override
     public void setJurisdiction(IfcActorSelect newJurisdiction) {
-        eSet(Ifc4Package.Literals.IFC_INVENTORY__JURISDICTION, newJurisdiction);
+        eSet(Ifc4Package.eINSTANCE.getIfcInventory_Jurisdiction(), newJurisdiction);
     }
 
     /**
@@ -132,7 +132,7 @@ public class IfcInventoryImpl extends IfcGroupImpl implements IfcInventory {
      */
     @Override
     public void unsetJurisdiction() {
-        eUnset(Ifc4Package.Literals.IFC_INVENTORY__JURISDICTION);
+        eUnset(Ifc4Package.eINSTANCE.getIfcInventory_Jurisdiction());
     }
 
     /**
@@ -142,7 +142,7 @@ public class IfcInventoryImpl extends IfcGroupImpl implements IfcInventory {
      */
     @Override
     public boolean isSetJurisdiction() {
-        return eIsSet(Ifc4Package.Literals.IFC_INVENTORY__JURISDICTION);
+        return eIsSet(Ifc4Package.eINSTANCE.getIfcInventory_Jurisdiction());
     }
 
     /**
@@ -153,7 +153,7 @@ public class IfcInventoryImpl extends IfcGroupImpl implements IfcInventory {
     @SuppressWarnings("unchecked")
     @Override
     public EList<IfcPerson> getResponsiblePersons() {
-        return (EList<IfcPerson>) eGet(Ifc4Package.Literals.IFC_INVENTORY__RESPONSIBLE_PERSONS, true);
+        return (EList<IfcPerson>) eGet(Ifc4Package.eINSTANCE.getIfcInventory_ResponsiblePersons(), true);
     }
 
     /**
@@ -163,7 +163,7 @@ public class IfcInventoryImpl extends IfcGroupImpl implements IfcInventory {
      */
     @Override
     public void unsetResponsiblePersons() {
-        eUnset(Ifc4Package.Literals.IFC_INVENTORY__RESPONSIBLE_PERSONS);
+        eUnset(Ifc4Package.eINSTANCE.getIfcInventory_ResponsiblePersons());
     }
 
     /**
@@ -173,7 +173,7 @@ public class IfcInventoryImpl extends IfcGroupImpl implements IfcInventory {
      */
     @Override
     public boolean isSetResponsiblePersons() {
-        return eIsSet(Ifc4Package.Literals.IFC_INVENTORY__RESPONSIBLE_PERSONS);
+        return eIsSet(Ifc4Package.eINSTANCE.getIfcInventory_ResponsiblePersons());
     }
 
     /**
@@ -183,7 +183,7 @@ public class IfcInventoryImpl extends IfcGroupImpl implements IfcInventory {
      */
     @Override
     public String getLastUpdateDate() {
-        return (String) eGet(Ifc4Package.Literals.IFC_INVENTORY__LAST_UPDATE_DATE, true);
+        return (String) eGet(Ifc4Package.eINSTANCE.getIfcInventory_LastUpdateDate(), true);
     }
 
     /**
@@ -193,7 +193,7 @@ public class IfcInventoryImpl extends IfcGroupImpl implements IfcInventory {
      */
     @Override
     public void setLastUpdateDate(String newLastUpdateDate) {
-        eSet(Ifc4Package.Literals.IFC_INVENTORY__LAST_UPDATE_DATE, newLastUpdateDate);
+        eSet(Ifc4Package.eINSTANCE.getIfcInventory_LastUpdateDate(), newLastUpdateDate);
     }
 
     /**
@@ -203,7 +203,7 @@ public class IfcInventoryImpl extends IfcGroupImpl implements IfcInventory {
      */
     @Override
     public void unsetLastUpdateDate() {
-        eUnset(Ifc4Package.Literals.IFC_INVENTORY__LAST_UPDATE_DATE);
+        eUnset(Ifc4Package.eINSTANCE.getIfcInventory_LastUpdateDate());
     }
 
     /**
@@ -213,7 +213,7 @@ public class IfcInventoryImpl extends IfcGroupImpl implements IfcInventory {
      */
     @Override
     public boolean isSetLastUpdateDate() {
-        return eIsSet(Ifc4Package.Literals.IFC_INVENTORY__LAST_UPDATE_DATE);
+        return eIsSet(Ifc4Package.eINSTANCE.getIfcInventory_LastUpdateDate());
     }
 
     /**
@@ -223,7 +223,7 @@ public class IfcInventoryImpl extends IfcGroupImpl implements IfcInventory {
      */
     @Override
     public IfcCostValue getCurrentValue() {
-        return (IfcCostValue) eGet(Ifc4Package.Literals.IFC_INVENTORY__CURRENT_VALUE, true);
+        return (IfcCostValue) eGet(Ifc4Package.eINSTANCE.getIfcInventory_CurrentValue(), true);
     }
 
     /**
@@ -233,7 +233,7 @@ public class IfcInventoryImpl extends IfcGroupImpl implements IfcInventory {
      */
     @Override
     public void setCurrentValue(IfcCostValue newCurrentValue) {
-        eSet(Ifc4Package.Literals.IFC_INVENTORY__CURRENT_VALUE, newCurrentValue);
+        eSet(Ifc4Package.eINSTANCE.getIfcInventory_CurrentValue(), newCurrentValue);
     }
 
     /**
@@ -243,7 +243,7 @@ public class IfcInventoryImpl extends IfcGroupImpl implements IfcInventory {
      */
     @Override
     public void unsetCurrentValue() {
-        eUnset(Ifc4Package.Literals.IFC_INVENTORY__CURRENT_VALUE);
+        eUnset(Ifc4Package.eINSTANCE.getIfcInventory_CurrentValue());
     }
 
     /**
@@ -253,7 +253,7 @@ public class IfcInventoryImpl extends IfcGroupImpl implements IfcInventory {
      */
     @Override
     public boolean isSetCurrentValue() {
-        return eIsSet(Ifc4Package.Literals.IFC_INVENTORY__CURRENT_VALUE);
+        return eIsSet(Ifc4Package.eINSTANCE.getIfcInventory_CurrentValue());
     }
 
     /**
@@ -263,7 +263,7 @@ public class IfcInventoryImpl extends IfcGroupImpl implements IfcInventory {
      */
     @Override
     public IfcCostValue getOriginalValue() {
-        return (IfcCostValue) eGet(Ifc4Package.Literals.IFC_INVENTORY__ORIGINAL_VALUE, true);
+        return (IfcCostValue) eGet(Ifc4Package.eINSTANCE.getIfcInventory_OriginalValue(), true);
     }
 
     /**
@@ -273,7 +273,7 @@ public class IfcInventoryImpl extends IfcGroupImpl implements IfcInventory {
      */
     @Override
     public void setOriginalValue(IfcCostValue newOriginalValue) {
-        eSet(Ifc4Package.Literals.IFC_INVENTORY__ORIGINAL_VALUE, newOriginalValue);
+        eSet(Ifc4Package.eINSTANCE.getIfcInventory_OriginalValue(), newOriginalValue);
     }
 
     /**
@@ -283,7 +283,7 @@ public class IfcInventoryImpl extends IfcGroupImpl implements IfcInventory {
      */
     @Override
     public void unsetOriginalValue() {
-        eUnset(Ifc4Package.Literals.IFC_INVENTORY__ORIGINAL_VALUE);
+        eUnset(Ifc4Package.eINSTANCE.getIfcInventory_OriginalValue());
     }
 
     /**
@@ -293,7 +293,7 @@ public class IfcInventoryImpl extends IfcGroupImpl implements IfcInventory {
      */
     @Override
     public boolean isSetOriginalValue() {
-        return eIsSet(Ifc4Package.Literals.IFC_INVENTORY__ORIGINAL_VALUE);
+        return eIsSet(Ifc4Package.eINSTANCE.getIfcInventory_OriginalValue());
     }
 
 } //IfcInventoryImpl

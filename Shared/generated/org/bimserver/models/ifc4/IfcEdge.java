@@ -37,10 +37,6 @@ public interface IfcEdge extends IfcTopologicalRepresentationItem {
     /**
      * Returns the value of the '<em><b>Edge Start</b></em>' reference.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Edge Start</em>' reference isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Edge Start</em>' reference.
      * @see #setEdgeStart(IfcVertex)
@@ -63,10 +59,6 @@ public interface IfcEdge extends IfcTopologicalRepresentationItem {
     /**
      * Returns the value of the '<em><b>Edge End</b></em>' reference.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Edge End</em>' reference isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Edge End</em>' reference.
      * @see #setEdgeEnd(IfcVertex)

@@ -46,7 +46,7 @@ public class IfcAnnotationSymbolOccurrenceImpl extends IfcAnnotationOccurrenceIm
      */
     @Override
     protected EClass eStaticClass() {
-        return Ifc2x3tc1Package.Literals.IFC_ANNOTATION_SYMBOL_OCCURRENCE;
+        return Ifc2x3tc1Package.eINSTANCE.getIfcAnnotationSymbolOccurrence();
     }
 
 } //IfcAnnotationSymbolOccurrenceImpl

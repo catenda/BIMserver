@@ -57,7 +57,7 @@ public class IfcDocumentInformationRelationshipImpl extends IfcResourceLevelRela
      */
     @Override
     protected EClass eStaticClass() {
-        return Ifc4Package.Literals.IFC_DOCUMENT_INFORMATION_RELATIONSHIP;
+        return Ifc4Package.eINSTANCE.getIfcDocumentInformationRelationship();
     }
 
     /**
@@ -68,7 +68,7 @@ public class IfcDocumentInformationRelationshipImpl extends IfcResourceLevelRela
     @Override
     public IfcDocumentInformation getRelatingDocument() {
         return (IfcDocumentInformation) eGet(
-                Ifc4Package.Literals.IFC_DOCUMENT_INFORMATION_RELATIONSHIP__RELATING_DOCUMENT, true);
+                Ifc4Package.eINSTANCE.getIfcDocumentInformationRelationship_RelatingDocument(), true);
     }
 
     /**
@@ -78,7 +78,7 @@ public class IfcDocumentInformationRelationshipImpl extends IfcResourceLevelRela
      */
     @Override
     public void setRelatingDocument(IfcDocumentInformation newRelatingDocument) {
-        eSet(Ifc4Package.Literals.IFC_DOCUMENT_INFORMATION_RELATIONSHIP__RELATING_DOCUMENT, newRelatingDocument);
+        eSet(Ifc4Package.eINSTANCE.getIfcDocumentInformationRelationship_RelatingDocument(), newRelatingDocument);
     }
 
     /**
@@ -90,7 +90,7 @@ public class IfcDocumentInformationRelationshipImpl extends IfcResourceLevelRela
     @Override
     public EList<IfcDocumentInformation> getRelatedDocuments() {
         return (EList<IfcDocumentInformation>) eGet(
-                Ifc4Package.Literals.IFC_DOCUMENT_INFORMATION_RELATIONSHIP__RELATED_DOCUMENTS, true);
+                Ifc4Package.eINSTANCE.getIfcDocumentInformationRelationship_RelatedDocuments(), true);
     }
 
     /**
@@ -100,7 +100,7 @@ public class IfcDocumentInformationRelationshipImpl extends IfcResourceLevelRela
      */
     @Override
     public String getRelationshipType() {
-        return (String) eGet(Ifc4Package.Literals.IFC_DOCUMENT_INFORMATION_RELATIONSHIP__RELATIONSHIP_TYPE, true);
+        return (String) eGet(Ifc4Package.eINSTANCE.getIfcDocumentInformationRelationship_RelationshipType(), true);
     }
 
     /**
@@ -110,7 +110,7 @@ public class IfcDocumentInformationRelationshipImpl extends IfcResourceLevelRela
      */
     @Override
     public void setRelationshipType(String newRelationshipType) {
-        eSet(Ifc4Package.Literals.IFC_DOCUMENT_INFORMATION_RELATIONSHIP__RELATIONSHIP_TYPE, newRelationshipType);
+        eSet(Ifc4Package.eINSTANCE.getIfcDocumentInformationRelationship_RelationshipType(), newRelationshipType);
     }
 
     /**
@@ -120,7 +120,7 @@ public class IfcDocumentInformationRelationshipImpl extends IfcResourceLevelRela
      */
     @Override
     public void unsetRelationshipType() {
-        eUnset(Ifc4Package.Literals.IFC_DOCUMENT_INFORMATION_RELATIONSHIP__RELATIONSHIP_TYPE);
+        eUnset(Ifc4Package.eINSTANCE.getIfcDocumentInformationRelationship_RelationshipType());
     }
 
     /**
@@ -130,7 +130,7 @@ public class IfcDocumentInformationRelationshipImpl extends IfcResourceLevelRela
      */
     @Override
     public boolean isSetRelationshipType() {
-        return eIsSet(Ifc4Package.Literals.IFC_DOCUMENT_INFORMATION_RELATIONSHIP__RELATIONSHIP_TYPE);
+        return eIsSet(Ifc4Package.eINSTANCE.getIfcDocumentInformationRelationship_RelationshipType());
     }
 
 } //IfcDocumentInformationRelationshipImpl

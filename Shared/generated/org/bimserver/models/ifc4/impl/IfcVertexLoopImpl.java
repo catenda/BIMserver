@@ -52,7 +52,7 @@ public class IfcVertexLoopImpl extends IfcLoopImpl implements IfcVertexLoop {
      */
     @Override
     protected EClass eStaticClass() {
-        return Ifc4Package.Literals.IFC_VERTEX_LOOP;
+        return Ifc4Package.eINSTANCE.getIfcVertexLoop();
     }
 
     /**
@@ -62,7 +62,7 @@ public class IfcVertexLoopImpl extends IfcLoopImpl implements IfcVertexLoop {
      */
     @Override
     public IfcVertex getLoopVertex() {
-        return (IfcVertex) eGet(Ifc4Package.Literals.IFC_VERTEX_LOOP__LOOP_VERTEX, true);
+        return (IfcVertex) eGet(Ifc4Package.eINSTANCE.getIfcVertexLoop_LoopVertex(), true);
     }
 
     /**
@@ -72,7 +72,7 @@ public class IfcVertexLoopImpl extends IfcLoopImpl implements IfcVertexLoop {
      */
     @Override
     public void setLoopVertex(IfcVertex newLoopVertex) {
-        eSet(Ifc4Package.Literals.IFC_VERTEX_LOOP__LOOP_VERTEX, newLoopVertex);
+        eSet(Ifc4Package.eINSTANCE.getIfcVertexLoop_LoopVertex(), newLoopVertex);
     }
 
 } //IfcVertexLoopImpl

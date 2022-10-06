@@ -37,10 +37,6 @@ public interface IfcQuantityLength extends IfcPhysicalSimpleQuantity {
     /**
      * Returns the value of the '<em><b>Length Value</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Length Value</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Length Value</em>' attribute.
      * @see #setLengthValue(double)
@@ -63,10 +59,6 @@ public interface IfcQuantityLength extends IfcPhysicalSimpleQuantity {
     /**
      * Returns the value of the '<em><b>Length Value As String</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Length Value As String</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Length Value As String</em>' attribute.
      * @see #setLengthValueAsString(String)

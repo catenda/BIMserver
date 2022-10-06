@@ -52,7 +52,7 @@ public class IfcBurnerTypeImpl extends IfcEnergyConversionDeviceTypeImpl impleme
      */
     @Override
     protected EClass eStaticClass() {
-        return Ifc4Package.Literals.IFC_BURNER_TYPE;
+        return Ifc4Package.eINSTANCE.getIfcBurnerType();
     }
 
     /**
@@ -62,7 +62,7 @@ public class IfcBurnerTypeImpl extends IfcEnergyConversionDeviceTypeImpl impleme
      */
     @Override
     public IfcBurnerTypeEnum getPredefinedType() {
-        return (IfcBurnerTypeEnum) eGet(Ifc4Package.Literals.IFC_BURNER_TYPE__PREDEFINED_TYPE, true);
+        return (IfcBurnerTypeEnum) eGet(Ifc4Package.eINSTANCE.getIfcBurnerType_PredefinedType(), true);
     }
 
     /**
@@ -72,7 +72,7 @@ public class IfcBurnerTypeImpl extends IfcEnergyConversionDeviceTypeImpl impleme
      */
     @Override
     public void setPredefinedType(IfcBurnerTypeEnum newPredefinedType) {
-        eSet(Ifc4Package.Literals.IFC_BURNER_TYPE__PREDEFINED_TYPE, newPredefinedType);
+        eSet(Ifc4Package.eINSTANCE.getIfcBurnerType_PredefinedType(), newPredefinedType);
     }
 
 } //IfcBurnerTypeImpl

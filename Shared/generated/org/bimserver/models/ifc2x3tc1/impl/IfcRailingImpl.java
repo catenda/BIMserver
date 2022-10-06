@@ -52,7 +52,7 @@ public class IfcRailingImpl extends IfcBuildingElementImpl implements IfcRailing
      */
     @Override
     protected EClass eStaticClass() {
-        return Ifc2x3tc1Package.Literals.IFC_RAILING;
+        return Ifc2x3tc1Package.eINSTANCE.getIfcRailing();
     }
 
     /**
@@ -62,7 +62,7 @@ public class IfcRailingImpl extends IfcBuildingElementImpl implements IfcRailing
      */
     @Override
     public IfcRailingTypeEnum getPredefinedType() {
-        return (IfcRailingTypeEnum) eGet(Ifc2x3tc1Package.Literals.IFC_RAILING__PREDEFINED_TYPE, true);
+        return (IfcRailingTypeEnum) eGet(Ifc2x3tc1Package.eINSTANCE.getIfcRailing_PredefinedType(), true);
     }
 
     /**
@@ -72,7 +72,7 @@ public class IfcRailingImpl extends IfcBuildingElementImpl implements IfcRailing
      */
     @Override
     public void setPredefinedType(IfcRailingTypeEnum newPredefinedType) {
-        eSet(Ifc2x3tc1Package.Literals.IFC_RAILING__PREDEFINED_TYPE, newPredefinedType);
+        eSet(Ifc2x3tc1Package.eINSTANCE.getIfcRailing_PredefinedType(), newPredefinedType);
     }
 
     /**
@@ -82,7 +82,7 @@ public class IfcRailingImpl extends IfcBuildingElementImpl implements IfcRailing
      */
     @Override
     public void unsetPredefinedType() {
-        eUnset(Ifc2x3tc1Package.Literals.IFC_RAILING__PREDEFINED_TYPE);
+        eUnset(Ifc2x3tc1Package.eINSTANCE.getIfcRailing_PredefinedType());
     }
 
     /**
@@ -92,7 +92,7 @@ public class IfcRailingImpl extends IfcBuildingElementImpl implements IfcRailing
      */
     @Override
     public boolean isSetPredefinedType() {
-        return eIsSet(Ifc2x3tc1Package.Literals.IFC_RAILING__PREDEFINED_TYPE);
+        return eIsSet(Ifc2x3tc1Package.eINSTANCE.getIfcRailing_PredefinedType());
     }
 
 } //IfcRailingImpl

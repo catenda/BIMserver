@@ -47,10 +47,6 @@ public interface IfcStructuralLoadSingleForce extends IfcStructuralLoadStatic {
     /**
      * Returns the value of the '<em><b>Force X</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Force X</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Force X</em>' attribute.
      * @see #isSetForceX()
@@ -100,10 +96,6 @@ public interface IfcStructuralLoadSingleForce extends IfcStructuralLoadStatic {
     /**
      * Returns the value of the '<em><b>Force XAs String</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Force XAs String</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Force XAs String</em>' attribute.
      * @see #isSetForceXAsString()
@@ -155,10 +147,6 @@ public interface IfcStructuralLoadSingleForce extends IfcStructuralLoadStatic {
     /**
      * Returns the value of the '<em><b>Force Y</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Force Y</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Force Y</em>' attribute.
      * @see #isSetForceY()
@@ -208,10 +196,6 @@ public interface IfcStructuralLoadSingleForce extends IfcStructuralLoadStatic {
     /**
      * Returns the value of the '<em><b>Force YAs String</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Force YAs String</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Force YAs String</em>' attribute.
      * @see #isSetForceYAsString()
@@ -263,10 +247,6 @@ public interface IfcStructuralLoadSingleForce extends IfcStructuralLoadStatic {
     /**
      * Returns the value of the '<em><b>Force Z</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Force Z</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Force Z</em>' attribute.
      * @see #isSetForceZ()
@@ -316,10 +296,6 @@ public interface IfcStructuralLoadSingleForce extends IfcStructuralLoadStatic {
     /**
      * Returns the value of the '<em><b>Force ZAs String</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Force ZAs String</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Force ZAs String</em>' attribute.
      * @see #isSetForceZAsString()
@@ -371,10 +347,6 @@ public interface IfcStructuralLoadSingleForce extends IfcStructuralLoadStatic {
     /**
      * Returns the value of the '<em><b>Moment X</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Moment X</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Moment X</em>' attribute.
      * @see #isSetMomentX()
@@ -424,10 +396,6 @@ public interface IfcStructuralLoadSingleForce extends IfcStructuralLoadStatic {
     /**
      * Returns the value of the '<em><b>Moment XAs String</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Moment XAs String</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Moment XAs String</em>' attribute.
      * @see #isSetMomentXAsString()
@@ -479,10 +447,6 @@ public interface IfcStructuralLoadSingleForce extends IfcStructuralLoadStatic {
     /**
      * Returns the value of the '<em><b>Moment Y</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Moment Y</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Moment Y</em>' attribute.
      * @see #isSetMomentY()
@@ -532,10 +496,6 @@ public interface IfcStructuralLoadSingleForce extends IfcStructuralLoadStatic {
     /**
      * Returns the value of the '<em><b>Moment YAs String</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Moment YAs String</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Moment YAs String</em>' attribute.
      * @see #isSetMomentYAsString()
@@ -587,10 +547,6 @@ public interface IfcStructuralLoadSingleForce extends IfcStructuralLoadStatic {
     /**
      * Returns the value of the '<em><b>Moment Z</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Moment Z</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Moment Z</em>' attribute.
      * @see #isSetMomentZ()
@@ -640,10 +596,6 @@ public interface IfcStructuralLoadSingleForce extends IfcStructuralLoadStatic {
     /**
      * Returns the value of the '<em><b>Moment ZAs String</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Moment ZAs String</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Moment ZAs String</em>' attribute.
      * @see #isSetMomentZAsString()

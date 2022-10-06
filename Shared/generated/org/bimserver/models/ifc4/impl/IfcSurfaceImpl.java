@@ -51,7 +51,7 @@ public class IfcSurfaceImpl extends IfcGeometricRepresentationItemImpl implement
      */
     @Override
     protected EClass eStaticClass() {
-        return Ifc4Package.Literals.IFC_SURFACE;
+        return Ifc4Package.eINSTANCE.getIfcSurface();
     }
 
     /**
@@ -61,7 +61,7 @@ public class IfcSurfaceImpl extends IfcGeometricRepresentationItemImpl implement
      */
     @Override
     public long getDim() {
-        return (Long) eGet(Ifc4Package.Literals.IFC_SURFACE__DIM, true);
+        return (Long) eGet(Ifc4Package.eINSTANCE.getIfcSurface_Dim(), true);
     }
 
     /**
@@ -71,7 +71,7 @@ public class IfcSurfaceImpl extends IfcGeometricRepresentationItemImpl implement
      */
     @Override
     public void setDim(long newDim) {
-        eSet(Ifc4Package.Literals.IFC_SURFACE__DIM, newDim);
+        eSet(Ifc4Package.eINSTANCE.getIfcSurface_Dim(), newDim);
     }
 
     /**
@@ -81,7 +81,7 @@ public class IfcSurfaceImpl extends IfcGeometricRepresentationItemImpl implement
      */
     @Override
     public void unsetDim() {
-        eUnset(Ifc4Package.Literals.IFC_SURFACE__DIM);
+        eUnset(Ifc4Package.eINSTANCE.getIfcSurface_Dim());
     }
 
     /**
@@ -91,7 +91,7 @@ public class IfcSurfaceImpl extends IfcGeometricRepresentationItemImpl implement
      */
     @Override
     public boolean isSetDim() {
-        return eIsSet(Ifc4Package.Literals.IFC_SURFACE__DIM);
+        return eIsSet(Ifc4Package.eINSTANCE.getIfcSurface_Dim());
     }
 
 } //IfcSurfaceImpl

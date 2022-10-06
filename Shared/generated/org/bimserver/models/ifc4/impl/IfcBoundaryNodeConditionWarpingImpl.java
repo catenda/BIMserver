@@ -53,7 +53,7 @@ public class IfcBoundaryNodeConditionWarpingImpl extends IfcBoundaryNodeConditio
      */
     @Override
     protected EClass eStaticClass() {
-        return Ifc4Package.Literals.IFC_BOUNDARY_NODE_CONDITION_WARPING;
+        return Ifc4Package.eINSTANCE.getIfcBoundaryNodeConditionWarping();
     }
 
     /**
@@ -64,7 +64,7 @@ public class IfcBoundaryNodeConditionWarpingImpl extends IfcBoundaryNodeConditio
     @Override
     public IfcWarpingStiffnessSelect getWarpingStiffness() {
         return (IfcWarpingStiffnessSelect) eGet(
-                Ifc4Package.Literals.IFC_BOUNDARY_NODE_CONDITION_WARPING__WARPING_STIFFNESS, true);
+                Ifc4Package.eINSTANCE.getIfcBoundaryNodeConditionWarping_WarpingStiffness(), true);
     }
 
     /**
@@ -74,7 +74,7 @@ public class IfcBoundaryNodeConditionWarpingImpl extends IfcBoundaryNodeConditio
      */
     @Override
     public void setWarpingStiffness(IfcWarpingStiffnessSelect newWarpingStiffness) {
-        eSet(Ifc4Package.Literals.IFC_BOUNDARY_NODE_CONDITION_WARPING__WARPING_STIFFNESS, newWarpingStiffness);
+        eSet(Ifc4Package.eINSTANCE.getIfcBoundaryNodeConditionWarping_WarpingStiffness(), newWarpingStiffness);
     }
 
     /**
@@ -84,7 +84,7 @@ public class IfcBoundaryNodeConditionWarpingImpl extends IfcBoundaryNodeConditio
      */
     @Override
     public void unsetWarpingStiffness() {
-        eUnset(Ifc4Package.Literals.IFC_BOUNDARY_NODE_CONDITION_WARPING__WARPING_STIFFNESS);
+        eUnset(Ifc4Package.eINSTANCE.getIfcBoundaryNodeConditionWarping_WarpingStiffness());
     }
 
     /**
@@ -94,7 +94,7 @@ public class IfcBoundaryNodeConditionWarpingImpl extends IfcBoundaryNodeConditio
      */
     @Override
     public boolean isSetWarpingStiffness() {
-        return eIsSet(Ifc4Package.Literals.IFC_BOUNDARY_NODE_CONDITION_WARPING__WARPING_STIFFNESS);
+        return eIsSet(Ifc4Package.eINSTANCE.getIfcBoundaryNodeConditionWarping_WarpingStiffness());
     }
 
 } //IfcBoundaryNodeConditionWarpingImpl

@@ -45,7 +45,7 @@ public class IfcWorkScheduleImpl extends IfcWorkControlImpl implements IfcWorkSc
      */
     @Override
     protected EClass eStaticClass() {
-        return Ifc2x3tc1Package.Literals.IFC_WORK_SCHEDULE;
+        return Ifc2x3tc1Package.eINSTANCE.getIfcWorkSchedule();
     }
 
 } //IfcWorkScheduleImpl

@@ -55,7 +55,7 @@ public class IfcRelConnectsStructuralActivityImpl extends IfcRelConnectsImpl
      */
     @Override
     protected EClass eStaticClass() {
-        return Ifc4Package.Literals.IFC_REL_CONNECTS_STRUCTURAL_ACTIVITY;
+        return Ifc4Package.eINSTANCE.getIfcRelConnectsStructuralActivity();
     }
 
     /**
@@ -66,7 +66,7 @@ public class IfcRelConnectsStructuralActivityImpl extends IfcRelConnectsImpl
     @Override
     public IfcStructuralActivityAssignmentSelect getRelatingElement() {
         return (IfcStructuralActivityAssignmentSelect) eGet(
-                Ifc4Package.Literals.IFC_REL_CONNECTS_STRUCTURAL_ACTIVITY__RELATING_ELEMENT, true);
+                Ifc4Package.eINSTANCE.getIfcRelConnectsStructuralActivity_RelatingElement(), true);
     }
 
     /**
@@ -76,7 +76,7 @@ public class IfcRelConnectsStructuralActivityImpl extends IfcRelConnectsImpl
      */
     @Override
     public void setRelatingElement(IfcStructuralActivityAssignmentSelect newRelatingElement) {
-        eSet(Ifc4Package.Literals.IFC_REL_CONNECTS_STRUCTURAL_ACTIVITY__RELATING_ELEMENT, newRelatingElement);
+        eSet(Ifc4Package.eINSTANCE.getIfcRelConnectsStructuralActivity_RelatingElement(), newRelatingElement);
     }
 
     /**
@@ -87,7 +87,7 @@ public class IfcRelConnectsStructuralActivityImpl extends IfcRelConnectsImpl
     @Override
     public IfcStructuralActivity getRelatedStructuralActivity() {
         return (IfcStructuralActivity) eGet(
-                Ifc4Package.Literals.IFC_REL_CONNECTS_STRUCTURAL_ACTIVITY__RELATED_STRUCTURAL_ACTIVITY, true);
+                Ifc4Package.eINSTANCE.getIfcRelConnectsStructuralActivity_RelatedStructuralActivity(), true);
     }
 
     /**
@@ -97,7 +97,7 @@ public class IfcRelConnectsStructuralActivityImpl extends IfcRelConnectsImpl
      */
     @Override
     public void setRelatedStructuralActivity(IfcStructuralActivity newRelatedStructuralActivity) {
-        eSet(Ifc4Package.Literals.IFC_REL_CONNECTS_STRUCTURAL_ACTIVITY__RELATED_STRUCTURAL_ACTIVITY,
+        eSet(Ifc4Package.eINSTANCE.getIfcRelConnectsStructuralActivity_RelatedStructuralActivity(),
                 newRelatedStructuralActivity);
     }
 

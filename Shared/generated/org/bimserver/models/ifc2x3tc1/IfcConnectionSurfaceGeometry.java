@@ -37,10 +37,6 @@ public interface IfcConnectionSurfaceGeometry extends IfcConnectionGeometry {
     /**
      * Returns the value of the '<em><b>Surface On Relating Element</b></em>' reference.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Surface On Relating Element</em>' reference isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Surface On Relating Element</em>' reference.
      * @see #setSurfaceOnRelatingElement(IfcSurfaceOrFaceSurface)
@@ -63,10 +59,6 @@ public interface IfcConnectionSurfaceGeometry extends IfcConnectionGeometry {
     /**
      * Returns the value of the '<em><b>Surface On Related Element</b></em>' reference.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Surface On Related Element</em>' reference isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Surface On Related Element</em>' reference.
      * @see #isSetSurfaceOnRelatedElement()

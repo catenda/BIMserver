@@ -54,7 +54,7 @@ public class IfcStructuralItemImpl extends IfcProductImpl implements IfcStructur
      */
     @Override
     protected EClass eStaticClass() {
-        return Ifc2x3tc1Package.Literals.IFC_STRUCTURAL_ITEM;
+        return Ifc2x3tc1Package.eINSTANCE.getIfcStructuralItem();
     }
 
     /**
@@ -66,7 +66,7 @@ public class IfcStructuralItemImpl extends IfcProductImpl implements IfcStructur
     @Override
     public EList<IfcRelConnectsStructuralActivity> getAssignedStructuralActivity() {
         return (EList<IfcRelConnectsStructuralActivity>) eGet(
-                Ifc2x3tc1Package.Literals.IFC_STRUCTURAL_ITEM__ASSIGNED_STRUCTURAL_ACTIVITY, true);
+                Ifc2x3tc1Package.eINSTANCE.getIfcStructuralItem_AssignedStructuralActivity(), true);
     }
 
     /**
@@ -76,7 +76,7 @@ public class IfcStructuralItemImpl extends IfcProductImpl implements IfcStructur
      */
     @Override
     public void unsetAssignedStructuralActivity() {
-        eUnset(Ifc2x3tc1Package.Literals.IFC_STRUCTURAL_ITEM__ASSIGNED_STRUCTURAL_ACTIVITY);
+        eUnset(Ifc2x3tc1Package.eINSTANCE.getIfcStructuralItem_AssignedStructuralActivity());
     }
 
     /**
@@ -86,7 +86,7 @@ public class IfcStructuralItemImpl extends IfcProductImpl implements IfcStructur
      */
     @Override
     public boolean isSetAssignedStructuralActivity() {
-        return eIsSet(Ifc2x3tc1Package.Literals.IFC_STRUCTURAL_ITEM__ASSIGNED_STRUCTURAL_ACTIVITY);
+        return eIsSet(Ifc2x3tc1Package.eINSTANCE.getIfcStructuralItem_AssignedStructuralActivity());
     }
 
 } //IfcStructuralItemImpl

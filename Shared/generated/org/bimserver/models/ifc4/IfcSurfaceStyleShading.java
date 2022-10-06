@@ -38,10 +38,6 @@ public interface IfcSurfaceStyleShading extends IfcPresentationItem, IfcSurfaceS
     /**
      * Returns the value of the '<em><b>Surface Colour</b></em>' reference.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Surface Colour</em>' reference isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Surface Colour</em>' reference.
      * @see #setSurfaceColour(IfcColourRgb)
@@ -64,10 +60,6 @@ public interface IfcSurfaceStyleShading extends IfcPresentationItem, IfcSurfaceS
     /**
      * Returns the value of the '<em><b>Transparency</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Transparency</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Transparency</em>' attribute.
      * @see #isSetTransparency()
@@ -117,10 +109,6 @@ public interface IfcSurfaceStyleShading extends IfcPresentationItem, IfcSurfaceS
     /**
      * Returns the value of the '<em><b>Transparency As String</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Transparency As String</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Transparency As String</em>' attribute.
      * @see #isSetTransparencyAsString()

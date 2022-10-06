@@ -43,10 +43,6 @@ public interface IfcObjectDefinition extends IfcRoot {
      * The list contents are of type {@link org.bimserver.models.ifc2x3tc1.IfcRelAssigns}.
      * It is bidirectional and its opposite is '{@link org.bimserver.models.ifc2x3tc1.IfcRelAssigns#getRelatedObjects <em>Related Objects</em>}'.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Has Assignments</em>' reference list isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Has Assignments</em>' reference list.
      * @see #isSetHasAssignments()
@@ -85,10 +81,6 @@ public interface IfcObjectDefinition extends IfcRoot {
      * The list contents are of type {@link org.bimserver.models.ifc2x3tc1.IfcRelDecomposes}.
      * It is bidirectional and its opposite is '{@link org.bimserver.models.ifc2x3tc1.IfcRelDecomposes#getRelatingObject <em>Relating Object</em>}'.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Is Decomposed By</em>' reference list isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Is Decomposed By</em>' reference list.
      * @see #isSetIsDecomposedBy()
@@ -127,10 +119,6 @@ public interface IfcObjectDefinition extends IfcRoot {
      * The list contents are of type {@link org.bimserver.models.ifc2x3tc1.IfcRelDecomposes}.
      * It is bidirectional and its opposite is '{@link org.bimserver.models.ifc2x3tc1.IfcRelDecomposes#getRelatedObjects <em>Related Objects</em>}'.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Decomposes</em>' reference list isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Decomposes</em>' reference list.
      * @see #isSetDecomposes()
@@ -168,10 +156,6 @@ public interface IfcObjectDefinition extends IfcRoot {
      * Returns the value of the '<em><b>Has Associations</b></em>' reference list.
      * The list contents are of type {@link org.bimserver.models.ifc2x3tc1.IfcRelAssociates}.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Has Associations</em>' reference list isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Has Associations</em>' reference list.
      * @see #isSetHasAssociations()

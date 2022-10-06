@@ -41,10 +41,6 @@ public interface ImmediateNotificationResult extends IdEObject {
      * Returns the value of the '<em><b>Result</b></em>' attribute.
      * The literals are from the enumeration {@link org.bimserver.models.store.NotifictionResultEnum}.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Result</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Result</em>' attribute.
      * @see org.bimserver.models.store.NotifictionResultEnum
@@ -69,10 +65,6 @@ public interface ImmediateNotificationResult extends IdEObject {
     /**
      * Returns the value of the '<em><b>Description</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Description</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Description</em>' attribute.
      * @see #setDescription(String)

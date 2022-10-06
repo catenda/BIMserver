@@ -42,10 +42,6 @@ public interface IfcReference extends IfcAppliedValueSelect, IfcMetricValueSelec
     /**
      * Returns the value of the '<em><b>Type Identifier</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Type Identifier</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Type Identifier</em>' attribute.
      * @see #isSetTypeIdentifier()
@@ -95,10 +91,6 @@ public interface IfcReference extends IfcAppliedValueSelect, IfcMetricValueSelec
     /**
      * Returns the value of the '<em><b>Attribute Identifier</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Attribute Identifier</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Attribute Identifier</em>' attribute.
      * @see #isSetAttributeIdentifier()
@@ -148,10 +140,6 @@ public interface IfcReference extends IfcAppliedValueSelect, IfcMetricValueSelec
     /**
      * Returns the value of the '<em><b>Instance Name</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Instance Name</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Instance Name</em>' attribute.
      * @see #isSetInstanceName()
@@ -202,10 +190,6 @@ public interface IfcReference extends IfcAppliedValueSelect, IfcMetricValueSelec
      * Returns the value of the '<em><b>List Positions</b></em>' attribute list.
      * The list contents are of type {@link java.lang.Long}.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>List Positions</em>' attribute list isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>List Positions</em>' attribute list.
      * @see #isSetListPositions()
@@ -240,10 +224,6 @@ public interface IfcReference extends IfcAppliedValueSelect, IfcMetricValueSelec
     /**
      * Returns the value of the '<em><b>Inner Reference</b></em>' reference.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Inner Reference</em>' reference isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Inner Reference</em>' reference.
      * @see #isSetInnerReference()

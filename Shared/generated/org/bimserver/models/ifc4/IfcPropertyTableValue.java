@@ -44,10 +44,6 @@ public interface IfcPropertyTableValue extends IfcSimpleProperty {
      * Returns the value of the '<em><b>Defining Values</b></em>' reference list.
      * The list contents are of type {@link org.bimserver.models.ifc4.IfcValue}.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Defining Values</em>' reference list isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Defining Values</em>' reference list.
      * @see #isSetDefiningValues()
@@ -83,10 +79,6 @@ public interface IfcPropertyTableValue extends IfcSimpleProperty {
      * Returns the value of the '<em><b>Defined Values</b></em>' reference list.
      * The list contents are of type {@link org.bimserver.models.ifc4.IfcValue}.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Defined Values</em>' reference list isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Defined Values</em>' reference list.
      * @see #isSetDefinedValues()
@@ -121,10 +113,6 @@ public interface IfcPropertyTableValue extends IfcSimpleProperty {
     /**
      * Returns the value of the '<em><b>Expression</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Expression</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Expression</em>' attribute.
      * @see #isSetExpression()
@@ -174,10 +162,6 @@ public interface IfcPropertyTableValue extends IfcSimpleProperty {
     /**
      * Returns the value of the '<em><b>Defining Unit</b></em>' reference.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Defining Unit</em>' reference isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Defining Unit</em>' reference.
      * @see #isSetDefiningUnit()
@@ -227,10 +211,6 @@ public interface IfcPropertyTableValue extends IfcSimpleProperty {
     /**
      * Returns the value of the '<em><b>Defined Unit</b></em>' reference.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Defined Unit</em>' reference isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Defined Unit</em>' reference.
      * @see #isSetDefinedUnit()
@@ -281,10 +261,6 @@ public interface IfcPropertyTableValue extends IfcSimpleProperty {
      * Returns the value of the '<em><b>Curve Interpolation</b></em>' attribute.
      * The literals are from the enumeration {@link org.bimserver.models.ifc4.IfcCurveInterpolationEnum}.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Curve Interpolation</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Curve Interpolation</em>' attribute.
      * @see org.bimserver.models.ifc4.IfcCurveInterpolationEnum

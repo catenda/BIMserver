@@ -52,7 +52,7 @@ public class IfcQuantityAreaImpl extends IfcPhysicalSimpleQuantityImpl implement
      */
     @Override
     protected EClass eStaticClass() {
-        return Ifc2x3tc1Package.Literals.IFC_QUANTITY_AREA;
+        return Ifc2x3tc1Package.eINSTANCE.getIfcQuantityArea();
     }
 
     /**
@@ -62,7 +62,7 @@ public class IfcQuantityAreaImpl extends IfcPhysicalSimpleQuantityImpl implement
      */
     @Override
     public double getAreaValue() {
-        return (Double) eGet(Ifc2x3tc1Package.Literals.IFC_QUANTITY_AREA__AREA_VALUE, true);
+        return (Double) eGet(Ifc2x3tc1Package.eINSTANCE.getIfcQuantityArea_AreaValue(), true);
     }
 
     /**
@@ -72,7 +72,7 @@ public class IfcQuantityAreaImpl extends IfcPhysicalSimpleQuantityImpl implement
      */
     @Override
     public void setAreaValue(double newAreaValue) {
-        eSet(Ifc2x3tc1Package.Literals.IFC_QUANTITY_AREA__AREA_VALUE, newAreaValue);
+        eSet(Ifc2x3tc1Package.eINSTANCE.getIfcQuantityArea_AreaValue(), newAreaValue);
     }
 
     /**
@@ -82,7 +82,7 @@ public class IfcQuantityAreaImpl extends IfcPhysicalSimpleQuantityImpl implement
      */
     @Override
     public String getAreaValueAsString() {
-        return (String) eGet(Ifc2x3tc1Package.Literals.IFC_QUANTITY_AREA__AREA_VALUE_AS_STRING, true);
+        return (String) eGet(Ifc2x3tc1Package.eINSTANCE.getIfcQuantityArea_AreaValueAsString(), true);
     }
 
     /**
@@ -92,7 +92,7 @@ public class IfcQuantityAreaImpl extends IfcPhysicalSimpleQuantityImpl implement
      */
     @Override
     public void setAreaValueAsString(String newAreaValueAsString) {
-        eSet(Ifc2x3tc1Package.Literals.IFC_QUANTITY_AREA__AREA_VALUE_AS_STRING, newAreaValueAsString);
+        eSet(Ifc2x3tc1Package.eINSTANCE.getIfcQuantityArea_AreaValueAsString(), newAreaValueAsString);
     }
 
 } //IfcQuantityAreaImpl

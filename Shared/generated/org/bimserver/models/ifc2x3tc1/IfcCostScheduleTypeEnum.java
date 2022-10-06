@@ -135,10 +135,6 @@ public enum IfcCostScheduleTypeEnum implements Enumerator {
     /**
      * The '<em><b>NULL</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>NULL</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #NULL
      * @model
@@ -150,10 +146,6 @@ public enum IfcCostScheduleTypeEnum implements Enumerator {
     /**
      * The '<em><b>UNPRICEDBILLOFQUANTITIES</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>UNPRICEDBILLOFQUANTITIES</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #UNPRICEDBILLOFQUANTITIES
      * @model
@@ -165,10 +157,6 @@ public enum IfcCostScheduleTypeEnum implements Enumerator {
     /**
      * The '<em><b>NOTDEFINED</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>NOTDEFINED</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #NOTDEFINED
      * @model
@@ -180,10 +168,6 @@ public enum IfcCostScheduleTypeEnum implements Enumerator {
     /**
      * The '<em><b>TENDER</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>TENDER</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #TENDER
      * @model
@@ -195,10 +179,6 @@ public enum IfcCostScheduleTypeEnum implements Enumerator {
     /**
      * The '<em><b>COSTPLAN</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>COSTPLAN</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #COSTPLAN
      * @model
@@ -210,10 +190,6 @@ public enum IfcCostScheduleTypeEnum implements Enumerator {
     /**
      * The '<em><b>PRICEDBILLOFQUANTITIES</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>PRICEDBILLOFQUANTITIES</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #PRICEDBILLOFQUANTITIES
      * @model
@@ -225,10 +201,6 @@ public enum IfcCostScheduleTypeEnum implements Enumerator {
     /**
      * The '<em><b>SCHEDULEOFRATES</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>SCHEDULEOFRATES</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #SCHEDULEOFRATES
      * @model
@@ -240,10 +212,6 @@ public enum IfcCostScheduleTypeEnum implements Enumerator {
     /**
      * The '<em><b>BUDGET</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>BUDGET</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #BUDGET
      * @model
@@ -255,10 +223,6 @@ public enum IfcCostScheduleTypeEnum implements Enumerator {
     /**
      * The '<em><b>USERDEFINED</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>USERDEFINED</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #USERDEFINED
      * @model
@@ -270,10 +234,6 @@ public enum IfcCostScheduleTypeEnum implements Enumerator {
     /**
      * The '<em><b>ESTIMATE</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>ESTIMATE</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #ESTIMATE
      * @model

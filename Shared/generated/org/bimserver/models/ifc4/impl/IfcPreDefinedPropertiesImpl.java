@@ -45,7 +45,7 @@ public class IfcPreDefinedPropertiesImpl extends IfcPropertyAbstractionImpl impl
      */
     @Override
     protected EClass eStaticClass() {
-        return Ifc4Package.Literals.IFC_PRE_DEFINED_PROPERTIES;
+        return Ifc4Package.eINSTANCE.getIfcPreDefinedProperties();
     }
 
 } //IfcPreDefinedPropertiesImpl

@@ -55,7 +55,7 @@ public class IfcArcIndexImpl extends IdEObjectImpl implements IfcArcIndex {
      */
     @Override
     protected EClass eStaticClass() {
-        return Ifc4Package.Literals.IFC_ARC_INDEX;
+        return Ifc4Package.eINSTANCE.getIfcArcIndex();
     }
 
     /**
@@ -76,7 +76,7 @@ public class IfcArcIndexImpl extends IdEObjectImpl implements IfcArcIndex {
     @SuppressWarnings("unchecked")
     @Override
     public EList<Long> getWrappedValue() {
-        return (EList<Long>) eGet(Ifc4Package.Literals.IFC_ARC_INDEX__WRAPPED_VALUE, true);
+        return (EList<Long>) eGet(Ifc4Package.eINSTANCE.getIfcArcIndex_WrappedValue(), true);
     }
 
     /**
@@ -86,7 +86,7 @@ public class IfcArcIndexImpl extends IdEObjectImpl implements IfcArcIndex {
      */
     @Override
     public void unsetWrappedValue() {
-        eUnset(Ifc4Package.Literals.IFC_ARC_INDEX__WRAPPED_VALUE);
+        eUnset(Ifc4Package.eINSTANCE.getIfcArcIndex_WrappedValue());
     }
 
     /**
@@ -96,7 +96,7 @@ public class IfcArcIndexImpl extends IdEObjectImpl implements IfcArcIndex {
      */
     @Override
     public boolean isSetWrappedValue() {
-        return eIsSet(Ifc4Package.Literals.IFC_ARC_INDEX__WRAPPED_VALUE);
+        return eIsSet(Ifc4Package.eINSTANCE.getIfcArcIndex_WrappedValue());
     }
 
 } //IfcArcIndexImpl

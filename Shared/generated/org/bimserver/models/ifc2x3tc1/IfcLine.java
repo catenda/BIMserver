@@ -37,10 +37,6 @@ public interface IfcLine extends IfcCurve {
     /**
      * Returns the value of the '<em><b>Pnt</b></em>' reference.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Pnt</em>' reference isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Pnt</em>' reference.
      * @see #setPnt(IfcCartesianPoint)
@@ -63,10 +59,6 @@ public interface IfcLine extends IfcCurve {
     /**
      * Returns the value of the '<em><b>Dir</b></em>' reference.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Dir</em>' reference isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Dir</em>' reference.
      * @see #setDir(IfcVector)

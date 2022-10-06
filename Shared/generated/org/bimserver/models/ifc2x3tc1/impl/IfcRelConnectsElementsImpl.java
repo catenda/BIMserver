@@ -55,7 +55,7 @@ public class IfcRelConnectsElementsImpl extends IfcRelConnectsImpl implements If
      */
     @Override
     protected EClass eStaticClass() {
-        return Ifc2x3tc1Package.Literals.IFC_REL_CONNECTS_ELEMENTS;
+        return Ifc2x3tc1Package.eINSTANCE.getIfcRelConnectsElements();
     }
 
     /**
@@ -65,7 +65,7 @@ public class IfcRelConnectsElementsImpl extends IfcRelConnectsImpl implements If
      */
     @Override
     public IfcConnectionGeometry getConnectionGeometry() {
-        return (IfcConnectionGeometry) eGet(Ifc2x3tc1Package.Literals.IFC_REL_CONNECTS_ELEMENTS__CONNECTION_GEOMETRY,
+        return (IfcConnectionGeometry) eGet(Ifc2x3tc1Package.eINSTANCE.getIfcRelConnectsElements_ConnectionGeometry(),
                 true);
     }
 
@@ -76,7 +76,7 @@ public class IfcRelConnectsElementsImpl extends IfcRelConnectsImpl implements If
      */
     @Override
     public void setConnectionGeometry(IfcConnectionGeometry newConnectionGeometry) {
-        eSet(Ifc2x3tc1Package.Literals.IFC_REL_CONNECTS_ELEMENTS__CONNECTION_GEOMETRY, newConnectionGeometry);
+        eSet(Ifc2x3tc1Package.eINSTANCE.getIfcRelConnectsElements_ConnectionGeometry(), newConnectionGeometry);
     }
 
     /**
@@ -86,7 +86,7 @@ public class IfcRelConnectsElementsImpl extends IfcRelConnectsImpl implements If
      */
     @Override
     public void unsetConnectionGeometry() {
-        eUnset(Ifc2x3tc1Package.Literals.IFC_REL_CONNECTS_ELEMENTS__CONNECTION_GEOMETRY);
+        eUnset(Ifc2x3tc1Package.eINSTANCE.getIfcRelConnectsElements_ConnectionGeometry());
     }
 
     /**
@@ -96,7 +96,7 @@ public class IfcRelConnectsElementsImpl extends IfcRelConnectsImpl implements If
      */
     @Override
     public boolean isSetConnectionGeometry() {
-        return eIsSet(Ifc2x3tc1Package.Literals.IFC_REL_CONNECTS_ELEMENTS__CONNECTION_GEOMETRY);
+        return eIsSet(Ifc2x3tc1Package.eINSTANCE.getIfcRelConnectsElements_ConnectionGeometry());
     }
 
     /**
@@ -106,7 +106,7 @@ public class IfcRelConnectsElementsImpl extends IfcRelConnectsImpl implements If
      */
     @Override
     public IfcElement getRelatingElement() {
-        return (IfcElement) eGet(Ifc2x3tc1Package.Literals.IFC_REL_CONNECTS_ELEMENTS__RELATING_ELEMENT, true);
+        return (IfcElement) eGet(Ifc2x3tc1Package.eINSTANCE.getIfcRelConnectsElements_RelatingElement(), true);
     }
 
     /**
@@ -116,7 +116,7 @@ public class IfcRelConnectsElementsImpl extends IfcRelConnectsImpl implements If
      */
     @Override
     public void setRelatingElement(IfcElement newRelatingElement) {
-        eSet(Ifc2x3tc1Package.Literals.IFC_REL_CONNECTS_ELEMENTS__RELATING_ELEMENT, newRelatingElement);
+        eSet(Ifc2x3tc1Package.eINSTANCE.getIfcRelConnectsElements_RelatingElement(), newRelatingElement);
     }
 
     /**
@@ -126,7 +126,7 @@ public class IfcRelConnectsElementsImpl extends IfcRelConnectsImpl implements If
      */
     @Override
     public IfcElement getRelatedElement() {
-        return (IfcElement) eGet(Ifc2x3tc1Package.Literals.IFC_REL_CONNECTS_ELEMENTS__RELATED_ELEMENT, true);
+        return (IfcElement) eGet(Ifc2x3tc1Package.eINSTANCE.getIfcRelConnectsElements_RelatedElement(), true);
     }
 
     /**
@@ -136,7 +136,7 @@ public class IfcRelConnectsElementsImpl extends IfcRelConnectsImpl implements If
      */
     @Override
     public void setRelatedElement(IfcElement newRelatedElement) {
-        eSet(Ifc2x3tc1Package.Literals.IFC_REL_CONNECTS_ELEMENTS__RELATED_ELEMENT, newRelatedElement);
+        eSet(Ifc2x3tc1Package.eINSTANCE.getIfcRelConnectsElements_RelatedElement(), newRelatedElement);
     }
 
 } //IfcRelConnectsElementsImpl

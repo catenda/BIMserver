@@ -58,7 +58,7 @@ public class IfcTrapeziumProfileDefImpl extends IfcParameterizedProfileDefImpl i
      */
     @Override
     protected EClass eStaticClass() {
-        return Ifc4Package.Literals.IFC_TRAPEZIUM_PROFILE_DEF;
+        return Ifc4Package.eINSTANCE.getIfcTrapeziumProfileDef();
     }
 
     /**
@@ -68,7 +68,7 @@ public class IfcTrapeziumProfileDefImpl extends IfcParameterizedProfileDefImpl i
      */
     @Override
     public double getBottomXDim() {
-        return (Double) eGet(Ifc4Package.Literals.IFC_TRAPEZIUM_PROFILE_DEF__BOTTOM_XDIM, true);
+        return (Double) eGet(Ifc4Package.eINSTANCE.getIfcTrapeziumProfileDef_BottomXDim(), true);
     }
 
     /**
@@ -78,7 +78,7 @@ public class IfcTrapeziumProfileDefImpl extends IfcParameterizedProfileDefImpl i
      */
     @Override
     public void setBottomXDim(double newBottomXDim) {
-        eSet(Ifc4Package.Literals.IFC_TRAPEZIUM_PROFILE_DEF__BOTTOM_XDIM, newBottomXDim);
+        eSet(Ifc4Package.eINSTANCE.getIfcTrapeziumProfileDef_BottomXDim(), newBottomXDim);
     }
 
     /**
@@ -88,7 +88,7 @@ public class IfcTrapeziumProfileDefImpl extends IfcParameterizedProfileDefImpl i
      */
     @Override
     public String getBottomXDimAsString() {
-        return (String) eGet(Ifc4Package.Literals.IFC_TRAPEZIUM_PROFILE_DEF__BOTTOM_XDIM_AS_STRING, true);
+        return (String) eGet(Ifc4Package.eINSTANCE.getIfcTrapeziumProfileDef_BottomXDimAsString(), true);
     }
 
     /**
@@ -98,7 +98,7 @@ public class IfcTrapeziumProfileDefImpl extends IfcParameterizedProfileDefImpl i
      */
     @Override
     public void setBottomXDimAsString(String newBottomXDimAsString) {
-        eSet(Ifc4Package.Literals.IFC_TRAPEZIUM_PROFILE_DEF__BOTTOM_XDIM_AS_STRING, newBottomXDimAsString);
+        eSet(Ifc4Package.eINSTANCE.getIfcTrapeziumProfileDef_BottomXDimAsString(), newBottomXDimAsString);
     }
 
     /**
@@ -108,7 +108,7 @@ public class IfcTrapeziumProfileDefImpl extends IfcParameterizedProfileDefImpl i
      */
     @Override
     public double getTopXDim() {
-        return (Double) eGet(Ifc4Package.Literals.IFC_TRAPEZIUM_PROFILE_DEF__TOP_XDIM, true);
+        return (Double) eGet(Ifc4Package.eINSTANCE.getIfcTrapeziumProfileDef_TopXDim(), true);
     }
 
     /**
@@ -118,7 +118,7 @@ public class IfcTrapeziumProfileDefImpl extends IfcParameterizedProfileDefImpl i
      */
     @Override
     public void setTopXDim(double newTopXDim) {
-        eSet(Ifc4Package.Literals.IFC_TRAPEZIUM_PROFILE_DEF__TOP_XDIM, newTopXDim);
+        eSet(Ifc4Package.eINSTANCE.getIfcTrapeziumProfileDef_TopXDim(), newTopXDim);
     }
 
     /**
@@ -128,7 +128,7 @@ public class IfcTrapeziumProfileDefImpl extends IfcParameterizedProfileDefImpl i
      */
     @Override
     public String getTopXDimAsString() {
-        return (String) eGet(Ifc4Package.Literals.IFC_TRAPEZIUM_PROFILE_DEF__TOP_XDIM_AS_STRING, true);
+        return (String) eGet(Ifc4Package.eINSTANCE.getIfcTrapeziumProfileDef_TopXDimAsString(), true);
     }
 
     /**
@@ -138,7 +138,7 @@ public class IfcTrapeziumProfileDefImpl extends IfcParameterizedProfileDefImpl i
      */
     @Override
     public void setTopXDimAsString(String newTopXDimAsString) {
-        eSet(Ifc4Package.Literals.IFC_TRAPEZIUM_PROFILE_DEF__TOP_XDIM_AS_STRING, newTopXDimAsString);
+        eSet(Ifc4Package.eINSTANCE.getIfcTrapeziumProfileDef_TopXDimAsString(), newTopXDimAsString);
     }
 
     /**
@@ -148,7 +148,7 @@ public class IfcTrapeziumProfileDefImpl extends IfcParameterizedProfileDefImpl i
      */
     @Override
     public double getYDim() {
-        return (Double) eGet(Ifc4Package.Literals.IFC_TRAPEZIUM_PROFILE_DEF__YDIM, true);
+        return (Double) eGet(Ifc4Package.eINSTANCE.getIfcTrapeziumProfileDef_YDim(), true);
     }
 
     /**
@@ -158,7 +158,7 @@ public class IfcTrapeziumProfileDefImpl extends IfcParameterizedProfileDefImpl i
      */
     @Override
     public void setYDim(double newYDim) {
-        eSet(Ifc4Package.Literals.IFC_TRAPEZIUM_PROFILE_DEF__YDIM, newYDim);
+        eSet(Ifc4Package.eINSTANCE.getIfcTrapeziumProfileDef_YDim(), newYDim);
     }
 
     /**
@@ -168,7 +168,7 @@ public class IfcTrapeziumProfileDefImpl extends IfcParameterizedProfileDefImpl i
      */
     @Override
     public String getYDimAsString() {
-        return (String) eGet(Ifc4Package.Literals.IFC_TRAPEZIUM_PROFILE_DEF__YDIM_AS_STRING, true);
+        return (String) eGet(Ifc4Package.eINSTANCE.getIfcTrapeziumProfileDef_YDimAsString(), true);
     }
 
     /**
@@ -178,7 +178,7 @@ public class IfcTrapeziumProfileDefImpl extends IfcParameterizedProfileDefImpl i
      */
     @Override
     public void setYDimAsString(String newYDimAsString) {
-        eSet(Ifc4Package.Literals.IFC_TRAPEZIUM_PROFILE_DEF__YDIM_AS_STRING, newYDimAsString);
+        eSet(Ifc4Package.eINSTANCE.getIfcTrapeziumProfileDef_YDimAsString(), newYDimAsString);
     }
 
     /**
@@ -188,7 +188,7 @@ public class IfcTrapeziumProfileDefImpl extends IfcParameterizedProfileDefImpl i
      */
     @Override
     public double getTopXOffset() {
-        return (Double) eGet(Ifc4Package.Literals.IFC_TRAPEZIUM_PROFILE_DEF__TOP_XOFFSET, true);
+        return (Double) eGet(Ifc4Package.eINSTANCE.getIfcTrapeziumProfileDef_TopXOffset(), true);
     }
 
     /**
@@ -198,7 +198,7 @@ public class IfcTrapeziumProfileDefImpl extends IfcParameterizedProfileDefImpl i
      */
     @Override
     public void setTopXOffset(double newTopXOffset) {
-        eSet(Ifc4Package.Literals.IFC_TRAPEZIUM_PROFILE_DEF__TOP_XOFFSET, newTopXOffset);
+        eSet(Ifc4Package.eINSTANCE.getIfcTrapeziumProfileDef_TopXOffset(), newTopXOffset);
     }
 
     /**
@@ -208,7 +208,7 @@ public class IfcTrapeziumProfileDefImpl extends IfcParameterizedProfileDefImpl i
      */
     @Override
     public String getTopXOffsetAsString() {
-        return (String) eGet(Ifc4Package.Literals.IFC_TRAPEZIUM_PROFILE_DEF__TOP_XOFFSET_AS_STRING, true);
+        return (String) eGet(Ifc4Package.eINSTANCE.getIfcTrapeziumProfileDef_TopXOffsetAsString(), true);
     }
 
     /**
@@ -218,7 +218,7 @@ public class IfcTrapeziumProfileDefImpl extends IfcParameterizedProfileDefImpl i
      */
     @Override
     public void setTopXOffsetAsString(String newTopXOffsetAsString) {
-        eSet(Ifc4Package.Literals.IFC_TRAPEZIUM_PROFILE_DEF__TOP_XOFFSET_AS_STRING, newTopXOffsetAsString);
+        eSet(Ifc4Package.eINSTANCE.getIfcTrapeziumProfileDef_TopXOffsetAsString(), newTopXOffsetAsString);
     }
 
 } //IfcTrapeziumProfileDefImpl

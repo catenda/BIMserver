@@ -54,7 +54,7 @@ public class IfcFillAreaStyleImpl extends IfcPresentationStyleImpl implements If
      */
     @Override
     protected EClass eStaticClass() {
-        return Ifc2x3tc1Package.Literals.IFC_FILL_AREA_STYLE;
+        return Ifc2x3tc1Package.eINSTANCE.getIfcFillAreaStyle();
     }
 
     /**
@@ -65,7 +65,7 @@ public class IfcFillAreaStyleImpl extends IfcPresentationStyleImpl implements If
     @SuppressWarnings("unchecked")
     @Override
     public EList<IfcFillStyleSelect> getFillStyles() {
-        return (EList<IfcFillStyleSelect>) eGet(Ifc2x3tc1Package.Literals.IFC_FILL_AREA_STYLE__FILL_STYLES, true);
+        return (EList<IfcFillStyleSelect>) eGet(Ifc2x3tc1Package.eINSTANCE.getIfcFillAreaStyle_FillStyles(), true);
     }
 
 } //IfcFillAreaStyleImpl

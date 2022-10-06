@@ -52,7 +52,7 @@ public class IfcBlobTextureImpl extends IfcSurfaceTextureImpl implements IfcBlob
      */
     @Override
     protected EClass eStaticClass() {
-        return Ifc4Package.Literals.IFC_BLOB_TEXTURE;
+        return Ifc4Package.eINSTANCE.getIfcBlobTexture();
     }
 
     /**
@@ -62,7 +62,7 @@ public class IfcBlobTextureImpl extends IfcSurfaceTextureImpl implements IfcBlob
      */
     @Override
     public String getRasterFormat() {
-        return (String) eGet(Ifc4Package.Literals.IFC_BLOB_TEXTURE__RASTER_FORMAT, true);
+        return (String) eGet(Ifc4Package.eINSTANCE.getIfcBlobTexture_RasterFormat(), true);
     }
 
     /**
@@ -72,7 +72,7 @@ public class IfcBlobTextureImpl extends IfcSurfaceTextureImpl implements IfcBlob
      */
     @Override
     public void setRasterFormat(String newRasterFormat) {
-        eSet(Ifc4Package.Literals.IFC_BLOB_TEXTURE__RASTER_FORMAT, newRasterFormat);
+        eSet(Ifc4Package.eINSTANCE.getIfcBlobTexture_RasterFormat(), newRasterFormat);
     }
 
     /**
@@ -82,7 +82,7 @@ public class IfcBlobTextureImpl extends IfcSurfaceTextureImpl implements IfcBlob
      */
     @Override
     public byte[] getRasterCode() {
-        return (byte[]) eGet(Ifc4Package.Literals.IFC_BLOB_TEXTURE__RASTER_CODE, true);
+        return (byte[]) eGet(Ifc4Package.eINSTANCE.getIfcBlobTexture_RasterCode(), true);
     }
 
     /**
@@ -92,7 +92,7 @@ public class IfcBlobTextureImpl extends IfcSurfaceTextureImpl implements IfcBlob
      */
     @Override
     public void setRasterCode(byte[] newRasterCode) {
-        eSet(Ifc4Package.Literals.IFC_BLOB_TEXTURE__RASTER_CODE, newRasterCode);
+        eSet(Ifc4Package.eINSTANCE.getIfcBlobTexture_RasterCode(), newRasterCode);
     }
 
 } //IfcBlobTextureImpl

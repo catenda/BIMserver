@@ -58,7 +58,7 @@ public class IfcIrregularTimeSeriesValueImpl extends IdEObjectImpl implements If
      */
     @Override
     protected EClass eStaticClass() {
-        return Ifc2x3tc1Package.Literals.IFC_IRREGULAR_TIME_SERIES_VALUE;
+        return Ifc2x3tc1Package.eINSTANCE.getIfcIrregularTimeSeriesValue();
     }
 
     /**
@@ -78,7 +78,7 @@ public class IfcIrregularTimeSeriesValueImpl extends IdEObjectImpl implements If
      */
     @Override
     public IfcDateTimeSelect getTimeStamp() {
-        return (IfcDateTimeSelect) eGet(Ifc2x3tc1Package.Literals.IFC_IRREGULAR_TIME_SERIES_VALUE__TIME_STAMP, true);
+        return (IfcDateTimeSelect) eGet(Ifc2x3tc1Package.eINSTANCE.getIfcIrregularTimeSeriesValue_TimeStamp(), true);
     }
 
     /**
@@ -88,7 +88,7 @@ public class IfcIrregularTimeSeriesValueImpl extends IdEObjectImpl implements If
      */
     @Override
     public void setTimeStamp(IfcDateTimeSelect newTimeStamp) {
-        eSet(Ifc2x3tc1Package.Literals.IFC_IRREGULAR_TIME_SERIES_VALUE__TIME_STAMP, newTimeStamp);
+        eSet(Ifc2x3tc1Package.eINSTANCE.getIfcIrregularTimeSeriesValue_TimeStamp(), newTimeStamp);
     }
 
     /**
@@ -99,7 +99,7 @@ public class IfcIrregularTimeSeriesValueImpl extends IdEObjectImpl implements If
     @SuppressWarnings("unchecked")
     @Override
     public EList<IfcValue> getListValues() {
-        return (EList<IfcValue>) eGet(Ifc2x3tc1Package.Literals.IFC_IRREGULAR_TIME_SERIES_VALUE__LIST_VALUES, true);
+        return (EList<IfcValue>) eGet(Ifc2x3tc1Package.eINSTANCE.getIfcIrregularTimeSeriesValue_ListValues(), true);
     }
 
 } //IfcIrregularTimeSeriesValueImpl

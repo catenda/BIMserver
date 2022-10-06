@@ -42,10 +42,6 @@ public interface IfcDirection
      * Returns the value of the '<em><b>Direction Ratios</b></em>' attribute list.
      * The list contents are of type {@link java.lang.Double}.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Direction Ratios</em>' attribute list isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Direction Ratios</em>' attribute list.
      * @see org.bimserver.models.ifc4.Ifc4Package#getIfcDirection_DirectionRatios()
@@ -58,10 +54,6 @@ public interface IfcDirection
      * Returns the value of the '<em><b>Direction Ratios As String</b></em>' attribute list.
      * The list contents are of type {@link java.lang.String}.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Direction Ratios As String</em>' attribute list isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Direction Ratios As String</em>' attribute list.
      * @see org.bimserver.models.ifc4.Ifc4Package#getIfcDirection_DirectionRatiosAsString()
@@ -75,10 +67,6 @@ public interface IfcDirection
     /**
      * Returns the value of the '<em><b>Dim</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Dim</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Dim</em>' attribute.
      * @see #isSetDim()

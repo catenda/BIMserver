@@ -52,7 +52,7 @@ public class IfcAudioVisualApplianceImpl extends IfcFlowTerminalImpl implements 
      */
     @Override
     protected EClass eStaticClass() {
-        return Ifc4Package.Literals.IFC_AUDIO_VISUAL_APPLIANCE;
+        return Ifc4Package.eINSTANCE.getIfcAudioVisualAppliance();
     }
 
     /**
@@ -62,7 +62,7 @@ public class IfcAudioVisualApplianceImpl extends IfcFlowTerminalImpl implements 
      */
     @Override
     public IfcAudioVisualApplianceTypeEnum getPredefinedType() {
-        return (IfcAudioVisualApplianceTypeEnum) eGet(Ifc4Package.Literals.IFC_AUDIO_VISUAL_APPLIANCE__PREDEFINED_TYPE,
+        return (IfcAudioVisualApplianceTypeEnum) eGet(Ifc4Package.eINSTANCE.getIfcAudioVisualAppliance_PredefinedType(),
                 true);
     }
 
@@ -73,7 +73,7 @@ public class IfcAudioVisualApplianceImpl extends IfcFlowTerminalImpl implements 
      */
     @Override
     public void setPredefinedType(IfcAudioVisualApplianceTypeEnum newPredefinedType) {
-        eSet(Ifc4Package.Literals.IFC_AUDIO_VISUAL_APPLIANCE__PREDEFINED_TYPE, newPredefinedType);
+        eSet(Ifc4Package.eINSTANCE.getIfcAudioVisualAppliance_PredefinedType(), newPredefinedType);
     }
 
     /**
@@ -83,7 +83,7 @@ public class IfcAudioVisualApplianceImpl extends IfcFlowTerminalImpl implements 
      */
     @Override
     public void unsetPredefinedType() {
-        eUnset(Ifc4Package.Literals.IFC_AUDIO_VISUAL_APPLIANCE__PREDEFINED_TYPE);
+        eUnset(Ifc4Package.eINSTANCE.getIfcAudioVisualAppliance_PredefinedType());
     }
 
     /**
@@ -93,7 +93,7 @@ public class IfcAudioVisualApplianceImpl extends IfcFlowTerminalImpl implements 
      */
     @Override
     public boolean isSetPredefinedType() {
-        return eIsSet(Ifc4Package.Literals.IFC_AUDIO_VISUAL_APPLIANCE__PREDEFINED_TYPE);
+        return eIsSet(Ifc4Package.eINSTANCE.getIfcAudioVisualAppliance_PredefinedType());
     }
 
 } //IfcAudioVisualApplianceImpl

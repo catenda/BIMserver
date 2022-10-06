@@ -42,10 +42,6 @@ public interface IfcSpatialStructureElement extends IfcProduct {
     /**
      * Returns the value of the '<em><b>Long Name</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Long Name</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Long Name</em>' attribute.
      * @see #isSetLongName()
@@ -96,10 +92,6 @@ public interface IfcSpatialStructureElement extends IfcProduct {
      * Returns the value of the '<em><b>Composition Type</b></em>' attribute.
      * The literals are from the enumeration {@link org.bimserver.models.ifc2x3tc1.IfcElementCompositionEnum}.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Composition Type</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Composition Type</em>' attribute.
      * @see org.bimserver.models.ifc2x3tc1.IfcElementCompositionEnum
@@ -126,10 +118,6 @@ public interface IfcSpatialStructureElement extends IfcProduct {
      * The list contents are of type {@link org.bimserver.models.ifc2x3tc1.IfcRelReferencedInSpatialStructure}.
      * It is bidirectional and its opposite is '{@link org.bimserver.models.ifc2x3tc1.IfcRelReferencedInSpatialStructure#getRelatingStructure <em>Relating Structure</em>}'.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>References Elements</em>' reference list isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>References Elements</em>' reference list.
      * @see #isSetReferencesElements()
@@ -168,10 +156,6 @@ public interface IfcSpatialStructureElement extends IfcProduct {
      * The list contents are of type {@link org.bimserver.models.ifc2x3tc1.IfcRelServicesBuildings}.
      * It is bidirectional and its opposite is '{@link org.bimserver.models.ifc2x3tc1.IfcRelServicesBuildings#getRelatedBuildings <em>Related Buildings</em>}'.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Serviced By Systems</em>' reference list isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Serviced By Systems</em>' reference list.
      * @see #isSetServicedBySystems()
@@ -210,10 +194,6 @@ public interface IfcSpatialStructureElement extends IfcProduct {
      * The list contents are of type {@link org.bimserver.models.ifc2x3tc1.IfcRelContainedInSpatialStructure}.
      * It is bidirectional and its opposite is '{@link org.bimserver.models.ifc2x3tc1.IfcRelContainedInSpatialStructure#getRelatingStructure <em>Relating Structure</em>}'.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Contains Elements</em>' reference list isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Contains Elements</em>' reference list.
      * @see #isSetContainsElements()

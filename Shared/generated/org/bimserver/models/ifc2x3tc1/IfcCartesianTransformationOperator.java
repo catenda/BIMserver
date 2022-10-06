@@ -41,10 +41,6 @@ public interface IfcCartesianTransformationOperator extends IfcGeometricRepresen
     /**
      * Returns the value of the '<em><b>Axis1</b></em>' reference.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Axis1</em>' reference isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Axis1</em>' reference.
      * @see #isSetAxis1()
@@ -94,10 +90,6 @@ public interface IfcCartesianTransformationOperator extends IfcGeometricRepresen
     /**
      * Returns the value of the '<em><b>Axis2</b></em>' reference.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Axis2</em>' reference isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Axis2</em>' reference.
      * @see #isSetAxis2()
@@ -147,10 +139,6 @@ public interface IfcCartesianTransformationOperator extends IfcGeometricRepresen
     /**
      * Returns the value of the '<em><b>Local Origin</b></em>' reference.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Local Origin</em>' reference isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Local Origin</em>' reference.
      * @see #setLocalOrigin(IfcCartesianPoint)
@@ -173,10 +161,6 @@ public interface IfcCartesianTransformationOperator extends IfcGeometricRepresen
     /**
      * Returns the value of the '<em><b>Scale</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Scale</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Scale</em>' attribute.
      * @see #isSetScale()
@@ -226,10 +210,6 @@ public interface IfcCartesianTransformationOperator extends IfcGeometricRepresen
     /**
      * Returns the value of the '<em><b>Scale As String</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Scale As String</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Scale As String</em>' attribute.
      * @see #isSetScaleAsString()
@@ -281,10 +261,6 @@ public interface IfcCartesianTransformationOperator extends IfcGeometricRepresen
     /**
      * Returns the value of the '<em><b>Dim</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Dim</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Dim</em>' attribute.
      * @see #isSetDim()

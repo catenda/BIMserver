@@ -56,7 +56,7 @@ public class IfcRelFlowControlElementsImpl extends IfcRelConnectsImpl implements
      */
     @Override
     protected EClass eStaticClass() {
-        return Ifc2x3tc1Package.Literals.IFC_REL_FLOW_CONTROL_ELEMENTS;
+        return Ifc2x3tc1Package.eINSTANCE.getIfcRelFlowControlElements();
     }
 
     /**
@@ -68,7 +68,7 @@ public class IfcRelFlowControlElementsImpl extends IfcRelConnectsImpl implements
     @Override
     public EList<IfcDistributionControlElement> getRelatedControlElements() {
         return (EList<IfcDistributionControlElement>) eGet(
-                Ifc2x3tc1Package.Literals.IFC_REL_FLOW_CONTROL_ELEMENTS__RELATED_CONTROL_ELEMENTS, true);
+                Ifc2x3tc1Package.eINSTANCE.getIfcRelFlowControlElements_RelatedControlElements(), true);
     }
 
     /**
@@ -79,7 +79,7 @@ public class IfcRelFlowControlElementsImpl extends IfcRelConnectsImpl implements
     @Override
     public IfcDistributionFlowElement getRelatingFlowElement() {
         return (IfcDistributionFlowElement) eGet(
-                Ifc2x3tc1Package.Literals.IFC_REL_FLOW_CONTROL_ELEMENTS__RELATING_FLOW_ELEMENT, true);
+                Ifc2x3tc1Package.eINSTANCE.getIfcRelFlowControlElements_RelatingFlowElement(), true);
     }
 
     /**
@@ -89,7 +89,7 @@ public class IfcRelFlowControlElementsImpl extends IfcRelConnectsImpl implements
      */
     @Override
     public void setRelatingFlowElement(IfcDistributionFlowElement newRelatingFlowElement) {
-        eSet(Ifc2x3tc1Package.Literals.IFC_REL_FLOW_CONTROL_ELEMENTS__RELATING_FLOW_ELEMENT, newRelatingFlowElement);
+        eSet(Ifc2x3tc1Package.eINSTANCE.getIfcRelFlowControlElements_RelatingFlowElement(), newRelatingFlowElement);
     }
 
 } //IfcRelFlowControlElementsImpl

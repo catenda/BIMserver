@@ -45,7 +45,7 @@ public class IfcCrewResourceImpl extends IfcConstructionResourceImpl implements 
      */
     @Override
     protected EClass eStaticClass() {
-        return Ifc2x3tc1Package.Literals.IFC_CREW_RESOURCE;
+        return Ifc2x3tc1Package.eINSTANCE.getIfcCrewResource();
     }
 
 } //IfcCrewResourceImpl

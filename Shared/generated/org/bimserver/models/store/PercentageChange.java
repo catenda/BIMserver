@@ -36,10 +36,6 @@ public interface PercentageChange extends RemoteServiceUpdate {
     /**
      * Returns the value of the '<em><b>Percentage</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Percentage</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Percentage</em>' attribute.
      * @see #setPercentage(int)

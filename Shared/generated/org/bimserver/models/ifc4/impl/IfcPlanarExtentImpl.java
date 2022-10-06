@@ -54,7 +54,7 @@ public class IfcPlanarExtentImpl extends IfcGeometricRepresentationItemImpl impl
      */
     @Override
     protected EClass eStaticClass() {
-        return Ifc4Package.Literals.IFC_PLANAR_EXTENT;
+        return Ifc4Package.eINSTANCE.getIfcPlanarExtent();
     }
 
     /**
@@ -64,7 +64,7 @@ public class IfcPlanarExtentImpl extends IfcGeometricRepresentationItemImpl impl
      */
     @Override
     public double getSizeInX() {
-        return (Double) eGet(Ifc4Package.Literals.IFC_PLANAR_EXTENT__SIZE_IN_X, true);
+        return (Double) eGet(Ifc4Package.eINSTANCE.getIfcPlanarExtent_SizeInX(), true);
     }
 
     /**
@@ -74,7 +74,7 @@ public class IfcPlanarExtentImpl extends IfcGeometricRepresentationItemImpl impl
      */
     @Override
     public void setSizeInX(double newSizeInX) {
-        eSet(Ifc4Package.Literals.IFC_PLANAR_EXTENT__SIZE_IN_X, newSizeInX);
+        eSet(Ifc4Package.eINSTANCE.getIfcPlanarExtent_SizeInX(), newSizeInX);
     }
 
     /**
@@ -84,7 +84,7 @@ public class IfcPlanarExtentImpl extends IfcGeometricRepresentationItemImpl impl
      */
     @Override
     public String getSizeInXAsString() {
-        return (String) eGet(Ifc4Package.Literals.IFC_PLANAR_EXTENT__SIZE_IN_XAS_STRING, true);
+        return (String) eGet(Ifc4Package.eINSTANCE.getIfcPlanarExtent_SizeInXAsString(), true);
     }
 
     /**
@@ -94,7 +94,7 @@ public class IfcPlanarExtentImpl extends IfcGeometricRepresentationItemImpl impl
      */
     @Override
     public void setSizeInXAsString(String newSizeInXAsString) {
-        eSet(Ifc4Package.Literals.IFC_PLANAR_EXTENT__SIZE_IN_XAS_STRING, newSizeInXAsString);
+        eSet(Ifc4Package.eINSTANCE.getIfcPlanarExtent_SizeInXAsString(), newSizeInXAsString);
     }
 
     /**
@@ -104,7 +104,7 @@ public class IfcPlanarExtentImpl extends IfcGeometricRepresentationItemImpl impl
      */
     @Override
     public double getSizeInY() {
-        return (Double) eGet(Ifc4Package.Literals.IFC_PLANAR_EXTENT__SIZE_IN_Y, true);
+        return (Double) eGet(Ifc4Package.eINSTANCE.getIfcPlanarExtent_SizeInY(), true);
     }
 
     /**
@@ -114,7 +114,7 @@ public class IfcPlanarExtentImpl extends IfcGeometricRepresentationItemImpl impl
      */
     @Override
     public void setSizeInY(double newSizeInY) {
-        eSet(Ifc4Package.Literals.IFC_PLANAR_EXTENT__SIZE_IN_Y, newSizeInY);
+        eSet(Ifc4Package.eINSTANCE.getIfcPlanarExtent_SizeInY(), newSizeInY);
     }
 
     /**
@@ -124,7 +124,7 @@ public class IfcPlanarExtentImpl extends IfcGeometricRepresentationItemImpl impl
      */
     @Override
     public String getSizeInYAsString() {
-        return (String) eGet(Ifc4Package.Literals.IFC_PLANAR_EXTENT__SIZE_IN_YAS_STRING, true);
+        return (String) eGet(Ifc4Package.eINSTANCE.getIfcPlanarExtent_SizeInYAsString(), true);
     }
 
     /**
@@ -134,7 +134,7 @@ public class IfcPlanarExtentImpl extends IfcGeometricRepresentationItemImpl impl
      */
     @Override
     public void setSizeInYAsString(String newSizeInYAsString) {
-        eSet(Ifc4Package.Literals.IFC_PLANAR_EXTENT__SIZE_IN_YAS_STRING, newSizeInYAsString);
+        eSet(Ifc4Package.eINSTANCE.getIfcPlanarExtent_SizeInYAsString(), newSizeInYAsString);
     }
 
 } //IfcPlanarExtentImpl

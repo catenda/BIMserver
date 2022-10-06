@@ -53,7 +53,7 @@ public class IfcEnergyPropertiesImpl extends IfcPropertySetDefinitionImpl implem
      */
     @Override
     protected EClass eStaticClass() {
-        return Ifc2x3tc1Package.Literals.IFC_ENERGY_PROPERTIES;
+        return Ifc2x3tc1Package.eINSTANCE.getIfcEnergyProperties();
     }
 
     /**
@@ -63,7 +63,7 @@ public class IfcEnergyPropertiesImpl extends IfcPropertySetDefinitionImpl implem
      */
     @Override
     public IfcEnergySequenceEnum getEnergySequence() {
-        return (IfcEnergySequenceEnum) eGet(Ifc2x3tc1Package.Literals.IFC_ENERGY_PROPERTIES__ENERGY_SEQUENCE, true);
+        return (IfcEnergySequenceEnum) eGet(Ifc2x3tc1Package.eINSTANCE.getIfcEnergyProperties_EnergySequence(), true);
     }
 
     /**
@@ -73,7 +73,7 @@ public class IfcEnergyPropertiesImpl extends IfcPropertySetDefinitionImpl implem
      */
     @Override
     public void setEnergySequence(IfcEnergySequenceEnum newEnergySequence) {
-        eSet(Ifc2x3tc1Package.Literals.IFC_ENERGY_PROPERTIES__ENERGY_SEQUENCE, newEnergySequence);
+        eSet(Ifc2x3tc1Package.eINSTANCE.getIfcEnergyProperties_EnergySequence(), newEnergySequence);
     }
 
     /**
@@ -83,7 +83,7 @@ public class IfcEnergyPropertiesImpl extends IfcPropertySetDefinitionImpl implem
      */
     @Override
     public void unsetEnergySequence() {
-        eUnset(Ifc2x3tc1Package.Literals.IFC_ENERGY_PROPERTIES__ENERGY_SEQUENCE);
+        eUnset(Ifc2x3tc1Package.eINSTANCE.getIfcEnergyProperties_EnergySequence());
     }
 
     /**
@@ -93,7 +93,7 @@ public class IfcEnergyPropertiesImpl extends IfcPropertySetDefinitionImpl implem
      */
     @Override
     public boolean isSetEnergySequence() {
-        return eIsSet(Ifc2x3tc1Package.Literals.IFC_ENERGY_PROPERTIES__ENERGY_SEQUENCE);
+        return eIsSet(Ifc2x3tc1Package.eINSTANCE.getIfcEnergyProperties_EnergySequence());
     }
 
     /**
@@ -103,7 +103,7 @@ public class IfcEnergyPropertiesImpl extends IfcPropertySetDefinitionImpl implem
      */
     @Override
     public String getUserDefinedEnergySequence() {
-        return (String) eGet(Ifc2x3tc1Package.Literals.IFC_ENERGY_PROPERTIES__USER_DEFINED_ENERGY_SEQUENCE, true);
+        return (String) eGet(Ifc2x3tc1Package.eINSTANCE.getIfcEnergyProperties_UserDefinedEnergySequence(), true);
     }
 
     /**
@@ -113,7 +113,7 @@ public class IfcEnergyPropertiesImpl extends IfcPropertySetDefinitionImpl implem
      */
     @Override
     public void setUserDefinedEnergySequence(String newUserDefinedEnergySequence) {
-        eSet(Ifc2x3tc1Package.Literals.IFC_ENERGY_PROPERTIES__USER_DEFINED_ENERGY_SEQUENCE,
+        eSet(Ifc2x3tc1Package.eINSTANCE.getIfcEnergyProperties_UserDefinedEnergySequence(),
                 newUserDefinedEnergySequence);
     }
 
@@ -124,7 +124,7 @@ public class IfcEnergyPropertiesImpl extends IfcPropertySetDefinitionImpl implem
      */
     @Override
     public void unsetUserDefinedEnergySequence() {
-        eUnset(Ifc2x3tc1Package.Literals.IFC_ENERGY_PROPERTIES__USER_DEFINED_ENERGY_SEQUENCE);
+        eUnset(Ifc2x3tc1Package.eINSTANCE.getIfcEnergyProperties_UserDefinedEnergySequence());
     }
 
     /**
@@ -134,7 +134,7 @@ public class IfcEnergyPropertiesImpl extends IfcPropertySetDefinitionImpl implem
      */
     @Override
     public boolean isSetUserDefinedEnergySequence() {
-        return eIsSet(Ifc2x3tc1Package.Literals.IFC_ENERGY_PROPERTIES__USER_DEFINED_ENERGY_SEQUENCE);
+        return eIsSet(Ifc2x3tc1Package.eINSTANCE.getIfcEnergyProperties_UserDefinedEnergySequence());
     }
 
 } //IfcEnergyPropertiesImpl

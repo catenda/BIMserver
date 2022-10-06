@@ -53,7 +53,7 @@ public class IfcCardinalPointReferenceImpl extends IdEObjectImpl implements IfcC
      */
     @Override
     protected EClass eStaticClass() {
-        return Ifc4Package.Literals.IFC_CARDINAL_POINT_REFERENCE;
+        return Ifc4Package.eINSTANCE.getIfcCardinalPointReference();
     }
 
     /**
@@ -73,7 +73,7 @@ public class IfcCardinalPointReferenceImpl extends IdEObjectImpl implements IfcC
      */
     @Override
     public long getWrappedValue() {
-        return (Long) eGet(Ifc4Package.Literals.IFC_CARDINAL_POINT_REFERENCE__WRAPPED_VALUE, true);
+        return (Long) eGet(Ifc4Package.eINSTANCE.getIfcCardinalPointReference_WrappedValue(), true);
     }
 
     /**
@@ -83,7 +83,7 @@ public class IfcCardinalPointReferenceImpl extends IdEObjectImpl implements IfcC
      */
     @Override
     public void setWrappedValue(long newWrappedValue) {
-        eSet(Ifc4Package.Literals.IFC_CARDINAL_POINT_REFERENCE__WRAPPED_VALUE, newWrappedValue);
+        eSet(Ifc4Package.eINSTANCE.getIfcCardinalPointReference_WrappedValue(), newWrappedValue);
     }
 
     /**
@@ -93,7 +93,7 @@ public class IfcCardinalPointReferenceImpl extends IdEObjectImpl implements IfcC
      */
     @Override
     public void unsetWrappedValue() {
-        eUnset(Ifc4Package.Literals.IFC_CARDINAL_POINT_REFERENCE__WRAPPED_VALUE);
+        eUnset(Ifc4Package.eINSTANCE.getIfcCardinalPointReference_WrappedValue());
     }
 
     /**
@@ -103,7 +103,7 @@ public class IfcCardinalPointReferenceImpl extends IdEObjectImpl implements IfcC
      */
     @Override
     public boolean isSetWrappedValue() {
-        return eIsSet(Ifc4Package.Literals.IFC_CARDINAL_POINT_REFERENCE__WRAPPED_VALUE);
+        return eIsSet(Ifc4Package.eINSTANCE.getIfcCardinalPointReference_WrappedValue());
     }
 
 } //IfcCardinalPointReferenceImpl

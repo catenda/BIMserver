@@ -52,7 +52,7 @@ public class IfcWasteTerminalTypeImpl extends IfcFlowTerminalTypeImpl implements
      */
     @Override
     protected EClass eStaticClass() {
-        return Ifc4Package.Literals.IFC_WASTE_TERMINAL_TYPE;
+        return Ifc4Package.eINSTANCE.getIfcWasteTerminalType();
     }
 
     /**
@@ -62,7 +62,7 @@ public class IfcWasteTerminalTypeImpl extends IfcFlowTerminalTypeImpl implements
      */
     @Override
     public IfcWasteTerminalTypeEnum getPredefinedType() {
-        return (IfcWasteTerminalTypeEnum) eGet(Ifc4Package.Literals.IFC_WASTE_TERMINAL_TYPE__PREDEFINED_TYPE, true);
+        return (IfcWasteTerminalTypeEnum) eGet(Ifc4Package.eINSTANCE.getIfcWasteTerminalType_PredefinedType(), true);
     }
 
     /**
@@ -72,7 +72,7 @@ public class IfcWasteTerminalTypeImpl extends IfcFlowTerminalTypeImpl implements
      */
     @Override
     public void setPredefinedType(IfcWasteTerminalTypeEnum newPredefinedType) {
-        eSet(Ifc4Package.Literals.IFC_WASTE_TERMINAL_TYPE__PREDEFINED_TYPE, newPredefinedType);
+        eSet(Ifc4Package.eINSTANCE.getIfcWasteTerminalType_PredefinedType(), newPredefinedType);
     }
 
 } //IfcWasteTerminalTypeImpl

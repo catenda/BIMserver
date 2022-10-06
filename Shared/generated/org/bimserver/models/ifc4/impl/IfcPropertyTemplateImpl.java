@@ -56,7 +56,7 @@ public class IfcPropertyTemplateImpl extends IfcPropertyTemplateDefinitionImpl i
      */
     @Override
     protected EClass eStaticClass() {
-        return Ifc4Package.Literals.IFC_PROPERTY_TEMPLATE;
+        return Ifc4Package.eINSTANCE.getIfcPropertyTemplate();
     }
 
     /**
@@ -68,7 +68,7 @@ public class IfcPropertyTemplateImpl extends IfcPropertyTemplateDefinitionImpl i
     @Override
     public EList<IfcComplexPropertyTemplate> getPartOfComplexTemplate() {
         return (EList<IfcComplexPropertyTemplate>) eGet(
-                Ifc4Package.Literals.IFC_PROPERTY_TEMPLATE__PART_OF_COMPLEX_TEMPLATE, true);
+                Ifc4Package.eINSTANCE.getIfcPropertyTemplate_PartOfComplexTemplate(), true);
     }
 
     /**
@@ -78,7 +78,7 @@ public class IfcPropertyTemplateImpl extends IfcPropertyTemplateDefinitionImpl i
      */
     @Override
     public void unsetPartOfComplexTemplate() {
-        eUnset(Ifc4Package.Literals.IFC_PROPERTY_TEMPLATE__PART_OF_COMPLEX_TEMPLATE);
+        eUnset(Ifc4Package.eINSTANCE.getIfcPropertyTemplate_PartOfComplexTemplate());
     }
 
     /**
@@ -88,7 +88,7 @@ public class IfcPropertyTemplateImpl extends IfcPropertyTemplateDefinitionImpl i
      */
     @Override
     public boolean isSetPartOfComplexTemplate() {
-        return eIsSet(Ifc4Package.Literals.IFC_PROPERTY_TEMPLATE__PART_OF_COMPLEX_TEMPLATE);
+        return eIsSet(Ifc4Package.eINSTANCE.getIfcPropertyTemplate_PartOfComplexTemplate());
     }
 
     /**
@@ -99,7 +99,7 @@ public class IfcPropertyTemplateImpl extends IfcPropertyTemplateDefinitionImpl i
     @SuppressWarnings("unchecked")
     @Override
     public EList<IfcPropertySetTemplate> getPartOfPsetTemplate() {
-        return (EList<IfcPropertySetTemplate>) eGet(Ifc4Package.Literals.IFC_PROPERTY_TEMPLATE__PART_OF_PSET_TEMPLATE,
+        return (EList<IfcPropertySetTemplate>) eGet(Ifc4Package.eINSTANCE.getIfcPropertyTemplate_PartOfPsetTemplate(),
                 true);
     }
 
@@ -110,7 +110,7 @@ public class IfcPropertyTemplateImpl extends IfcPropertyTemplateDefinitionImpl i
      */
     @Override
     public void unsetPartOfPsetTemplate() {
-        eUnset(Ifc4Package.Literals.IFC_PROPERTY_TEMPLATE__PART_OF_PSET_TEMPLATE);
+        eUnset(Ifc4Package.eINSTANCE.getIfcPropertyTemplate_PartOfPsetTemplate());
     }
 
     /**
@@ -120,7 +120,7 @@ public class IfcPropertyTemplateImpl extends IfcPropertyTemplateDefinitionImpl i
      */
     @Override
     public boolean isSetPartOfPsetTemplate() {
-        return eIsSet(Ifc4Package.Literals.IFC_PROPERTY_TEMPLATE__PART_OF_PSET_TEMPLATE);
+        return eIsSet(Ifc4Package.eINSTANCE.getIfcPropertyTemplate_PartOfPsetTemplate());
     }
 
 } //IfcPropertyTemplateImpl

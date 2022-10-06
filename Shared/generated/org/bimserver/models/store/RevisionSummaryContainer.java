@@ -42,10 +42,6 @@ public interface RevisionSummaryContainer extends IdEObject {
     /**
      * Returns the value of the '<em><b>Name</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Name</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Name</em>' attribute.
      * @see #setName(String)
@@ -69,10 +65,6 @@ public interface RevisionSummaryContainer extends IdEObject {
      * Returns the value of the '<em><b>Types</b></em>' reference list.
      * The list contents are of type {@link org.bimserver.models.store.RevisionSummaryType}.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Types</em>' reference list isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Types</em>' reference list.
      * @see org.bimserver.models.store.StorePackage#getRevisionSummaryContainer_Types()

@@ -46,10 +46,6 @@ public interface IfcOwnerHistory extends IdEObject {
     /**
      * Returns the value of the '<em><b>Owning User</b></em>' reference.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Owning User</em>' reference isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Owning User</em>' reference.
      * @see #setOwningUser(IfcPersonAndOrganization)
@@ -72,10 +68,6 @@ public interface IfcOwnerHistory extends IdEObject {
     /**
      * Returns the value of the '<em><b>Owning Application</b></em>' reference.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Owning Application</em>' reference isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Owning Application</em>' reference.
      * @see #setOwningApplication(IfcApplication)
@@ -99,10 +91,6 @@ public interface IfcOwnerHistory extends IdEObject {
      * Returns the value of the '<em><b>State</b></em>' attribute.
      * The literals are from the enumeration {@link org.bimserver.models.ifc2x3tc1.IfcStateEnum}.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>State</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>State</em>' attribute.
      * @see org.bimserver.models.ifc2x3tc1.IfcStateEnum
@@ -155,10 +143,6 @@ public interface IfcOwnerHistory extends IdEObject {
      * Returns the value of the '<em><b>Change Action</b></em>' attribute.
      * The literals are from the enumeration {@link org.bimserver.models.ifc2x3tc1.IfcChangeActionEnum}.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Change Action</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Change Action</em>' attribute.
      * @see org.bimserver.models.ifc2x3tc1.IfcChangeActionEnum
@@ -183,10 +167,6 @@ public interface IfcOwnerHistory extends IdEObject {
     /**
      * Returns the value of the '<em><b>Last Modified Date</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Last Modified Date</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Last Modified Date</em>' attribute.
      * @see #isSetLastModifiedDate()
@@ -236,10 +216,6 @@ public interface IfcOwnerHistory extends IdEObject {
     /**
      * Returns the value of the '<em><b>Last Modifying User</b></em>' reference.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Last Modifying User</em>' reference isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Last Modifying User</em>' reference.
      * @see #isSetLastModifyingUser()
@@ -289,10 +265,6 @@ public interface IfcOwnerHistory extends IdEObject {
     /**
      * Returns the value of the '<em><b>Last Modifying Application</b></em>' reference.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Last Modifying Application</em>' reference isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Last Modifying Application</em>' reference.
      * @see #isSetLastModifyingApplication()
@@ -342,10 +314,6 @@ public interface IfcOwnerHistory extends IdEObject {
     /**
      * Returns the value of the '<em><b>Creation Date</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Creation Date</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Creation Date</em>' attribute.
      * @see #setCreationDate(long)

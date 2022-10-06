@@ -53,7 +53,7 @@ public class IfcConnectionVolumeGeometryImpl extends IfcConnectionGeometryImpl i
      */
     @Override
     protected EClass eStaticClass() {
-        return Ifc4Package.Literals.IFC_CONNECTION_VOLUME_GEOMETRY;
+        return Ifc4Package.eINSTANCE.getIfcConnectionVolumeGeometry();
     }
 
     /**
@@ -63,7 +63,7 @@ public class IfcConnectionVolumeGeometryImpl extends IfcConnectionGeometryImpl i
      */
     @Override
     public IfcSolidOrShell getVolumeOnRelatingElement() {
-        return (IfcSolidOrShell) eGet(Ifc4Package.Literals.IFC_CONNECTION_VOLUME_GEOMETRY__VOLUME_ON_RELATING_ELEMENT,
+        return (IfcSolidOrShell) eGet(Ifc4Package.eINSTANCE.getIfcConnectionVolumeGeometry_VolumeOnRelatingElement(),
                 true);
     }
 
@@ -74,7 +74,7 @@ public class IfcConnectionVolumeGeometryImpl extends IfcConnectionGeometryImpl i
      */
     @Override
     public void setVolumeOnRelatingElement(IfcSolidOrShell newVolumeOnRelatingElement) {
-        eSet(Ifc4Package.Literals.IFC_CONNECTION_VOLUME_GEOMETRY__VOLUME_ON_RELATING_ELEMENT,
+        eSet(Ifc4Package.eINSTANCE.getIfcConnectionVolumeGeometry_VolumeOnRelatingElement(),
                 newVolumeOnRelatingElement);
     }
 
@@ -85,7 +85,7 @@ public class IfcConnectionVolumeGeometryImpl extends IfcConnectionGeometryImpl i
      */
     @Override
     public IfcSolidOrShell getVolumeOnRelatedElement() {
-        return (IfcSolidOrShell) eGet(Ifc4Package.Literals.IFC_CONNECTION_VOLUME_GEOMETRY__VOLUME_ON_RELATED_ELEMENT,
+        return (IfcSolidOrShell) eGet(Ifc4Package.eINSTANCE.getIfcConnectionVolumeGeometry_VolumeOnRelatedElement(),
                 true);
     }
 
@@ -96,7 +96,7 @@ public class IfcConnectionVolumeGeometryImpl extends IfcConnectionGeometryImpl i
      */
     @Override
     public void setVolumeOnRelatedElement(IfcSolidOrShell newVolumeOnRelatedElement) {
-        eSet(Ifc4Package.Literals.IFC_CONNECTION_VOLUME_GEOMETRY__VOLUME_ON_RELATED_ELEMENT, newVolumeOnRelatedElement);
+        eSet(Ifc4Package.eINSTANCE.getIfcConnectionVolumeGeometry_VolumeOnRelatedElement(), newVolumeOnRelatedElement);
     }
 
     /**
@@ -106,7 +106,7 @@ public class IfcConnectionVolumeGeometryImpl extends IfcConnectionGeometryImpl i
      */
     @Override
     public void unsetVolumeOnRelatedElement() {
-        eUnset(Ifc4Package.Literals.IFC_CONNECTION_VOLUME_GEOMETRY__VOLUME_ON_RELATED_ELEMENT);
+        eUnset(Ifc4Package.eINSTANCE.getIfcConnectionVolumeGeometry_VolumeOnRelatedElement());
     }
 
     /**
@@ -116,7 +116,7 @@ public class IfcConnectionVolumeGeometryImpl extends IfcConnectionGeometryImpl i
      */
     @Override
     public boolean isSetVolumeOnRelatedElement() {
-        return eIsSet(Ifc4Package.Literals.IFC_CONNECTION_VOLUME_GEOMETRY__VOLUME_ON_RELATED_ELEMENT);
+        return eIsSet(Ifc4Package.eINSTANCE.getIfcConnectionVolumeGeometry_VolumeOnRelatedElement());
     }
 
 } //IfcConnectionVolumeGeometryImpl

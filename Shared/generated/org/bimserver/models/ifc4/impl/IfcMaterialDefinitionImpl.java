@@ -60,7 +60,7 @@ public class IfcMaterialDefinitionImpl extends IdEObjectImpl implements IfcMater
      */
     @Override
     protected EClass eStaticClass() {
-        return Ifc4Package.Literals.IFC_MATERIAL_DEFINITION;
+        return Ifc4Package.eINSTANCE.getIfcMaterialDefinition();
     }
 
     /**
@@ -81,7 +81,7 @@ public class IfcMaterialDefinitionImpl extends IdEObjectImpl implements IfcMater
     @SuppressWarnings("unchecked")
     @Override
     public EList<IfcRelAssociatesMaterial> getAssociatedTo() {
-        return (EList<IfcRelAssociatesMaterial>) eGet(Ifc4Package.Literals.IFC_MATERIAL_DEFINITION__ASSOCIATED_TO,
+        return (EList<IfcRelAssociatesMaterial>) eGet(Ifc4Package.eINSTANCE.getIfcMaterialDefinition_AssociatedTo(),
                 true);
     }
 
@@ -92,7 +92,7 @@ public class IfcMaterialDefinitionImpl extends IdEObjectImpl implements IfcMater
      */
     @Override
     public void unsetAssociatedTo() {
-        eUnset(Ifc4Package.Literals.IFC_MATERIAL_DEFINITION__ASSOCIATED_TO);
+        eUnset(Ifc4Package.eINSTANCE.getIfcMaterialDefinition_AssociatedTo());
     }
 
     /**
@@ -102,7 +102,7 @@ public class IfcMaterialDefinitionImpl extends IdEObjectImpl implements IfcMater
      */
     @Override
     public boolean isSetAssociatedTo() {
-        return eIsSet(Ifc4Package.Literals.IFC_MATERIAL_DEFINITION__ASSOCIATED_TO);
+        return eIsSet(Ifc4Package.eINSTANCE.getIfcMaterialDefinition_AssociatedTo());
     }
 
     /**
@@ -114,7 +114,7 @@ public class IfcMaterialDefinitionImpl extends IdEObjectImpl implements IfcMater
     @Override
     public EList<IfcExternalReferenceRelationship> getHasExternalReferences() {
         return (EList<IfcExternalReferenceRelationship>) eGet(
-                Ifc4Package.Literals.IFC_MATERIAL_DEFINITION__HAS_EXTERNAL_REFERENCES, true);
+                Ifc4Package.eINSTANCE.getIfcMaterialDefinition_HasExternalReferences(), true);
     }
 
     /**
@@ -124,7 +124,7 @@ public class IfcMaterialDefinitionImpl extends IdEObjectImpl implements IfcMater
      */
     @Override
     public void unsetHasExternalReferences() {
-        eUnset(Ifc4Package.Literals.IFC_MATERIAL_DEFINITION__HAS_EXTERNAL_REFERENCES);
+        eUnset(Ifc4Package.eINSTANCE.getIfcMaterialDefinition_HasExternalReferences());
     }
 
     /**
@@ -134,7 +134,7 @@ public class IfcMaterialDefinitionImpl extends IdEObjectImpl implements IfcMater
      */
     @Override
     public boolean isSetHasExternalReferences() {
-        return eIsSet(Ifc4Package.Literals.IFC_MATERIAL_DEFINITION__HAS_EXTERNAL_REFERENCES);
+        return eIsSet(Ifc4Package.eINSTANCE.getIfcMaterialDefinition_HasExternalReferences());
     }
 
     /**
@@ -145,7 +145,8 @@ public class IfcMaterialDefinitionImpl extends IdEObjectImpl implements IfcMater
     @SuppressWarnings("unchecked")
     @Override
     public EList<IfcMaterialProperties> getHasProperties() {
-        return (EList<IfcMaterialProperties>) eGet(Ifc4Package.Literals.IFC_MATERIAL_DEFINITION__HAS_PROPERTIES, true);
+        return (EList<IfcMaterialProperties>) eGet(Ifc4Package.eINSTANCE.getIfcMaterialDefinition_HasProperties(),
+                true);
     }
 
     /**
@@ -155,7 +156,7 @@ public class IfcMaterialDefinitionImpl extends IdEObjectImpl implements IfcMater
      */
     @Override
     public void unsetHasProperties() {
-        eUnset(Ifc4Package.Literals.IFC_MATERIAL_DEFINITION__HAS_PROPERTIES);
+        eUnset(Ifc4Package.eINSTANCE.getIfcMaterialDefinition_HasProperties());
     }
 
     /**
@@ -165,7 +166,7 @@ public class IfcMaterialDefinitionImpl extends IdEObjectImpl implements IfcMater
      */
     @Override
     public boolean isSetHasProperties() {
-        return eIsSet(Ifc4Package.Literals.IFC_MATERIAL_DEFINITION__HAS_PROPERTIES);
+        return eIsSet(Ifc4Package.eINSTANCE.getIfcMaterialDefinition_HasProperties());
     }
 
 } //IfcMaterialDefinitionImpl

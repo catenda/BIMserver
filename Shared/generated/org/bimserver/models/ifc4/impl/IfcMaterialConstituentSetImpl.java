@@ -56,7 +56,7 @@ public class IfcMaterialConstituentSetImpl extends IfcMaterialDefinitionImpl imp
      */
     @Override
     protected EClass eStaticClass() {
-        return Ifc4Package.Literals.IFC_MATERIAL_CONSTITUENT_SET;
+        return Ifc4Package.eINSTANCE.getIfcMaterialConstituentSet();
     }
 
     /**
@@ -66,7 +66,7 @@ public class IfcMaterialConstituentSetImpl extends IfcMaterialDefinitionImpl imp
      */
     @Override
     public String getName() {
-        return (String) eGet(Ifc4Package.Literals.IFC_MATERIAL_CONSTITUENT_SET__NAME, true);
+        return (String) eGet(Ifc4Package.eINSTANCE.getIfcMaterialConstituentSet_Name(), true);
     }
 
     /**
@@ -76,7 +76,7 @@ public class IfcMaterialConstituentSetImpl extends IfcMaterialDefinitionImpl imp
      */
     @Override
     public void setName(String newName) {
-        eSet(Ifc4Package.Literals.IFC_MATERIAL_CONSTITUENT_SET__NAME, newName);
+        eSet(Ifc4Package.eINSTANCE.getIfcMaterialConstituentSet_Name(), newName);
     }
 
     /**
@@ -86,7 +86,7 @@ public class IfcMaterialConstituentSetImpl extends IfcMaterialDefinitionImpl imp
      */
     @Override
     public void unsetName() {
-        eUnset(Ifc4Package.Literals.IFC_MATERIAL_CONSTITUENT_SET__NAME);
+        eUnset(Ifc4Package.eINSTANCE.getIfcMaterialConstituentSet_Name());
     }
 
     /**
@@ -96,7 +96,7 @@ public class IfcMaterialConstituentSetImpl extends IfcMaterialDefinitionImpl imp
      */
     @Override
     public boolean isSetName() {
-        return eIsSet(Ifc4Package.Literals.IFC_MATERIAL_CONSTITUENT_SET__NAME);
+        return eIsSet(Ifc4Package.eINSTANCE.getIfcMaterialConstituentSet_Name());
     }
 
     /**
@@ -106,7 +106,7 @@ public class IfcMaterialConstituentSetImpl extends IfcMaterialDefinitionImpl imp
      */
     @Override
     public String getDescription() {
-        return (String) eGet(Ifc4Package.Literals.IFC_MATERIAL_CONSTITUENT_SET__DESCRIPTION, true);
+        return (String) eGet(Ifc4Package.eINSTANCE.getIfcMaterialConstituentSet_Description(), true);
     }
 
     /**
@@ -116,7 +116,7 @@ public class IfcMaterialConstituentSetImpl extends IfcMaterialDefinitionImpl imp
      */
     @Override
     public void setDescription(String newDescription) {
-        eSet(Ifc4Package.Literals.IFC_MATERIAL_CONSTITUENT_SET__DESCRIPTION, newDescription);
+        eSet(Ifc4Package.eINSTANCE.getIfcMaterialConstituentSet_Description(), newDescription);
     }
 
     /**
@@ -126,7 +126,7 @@ public class IfcMaterialConstituentSetImpl extends IfcMaterialDefinitionImpl imp
      */
     @Override
     public void unsetDescription() {
-        eUnset(Ifc4Package.Literals.IFC_MATERIAL_CONSTITUENT_SET__DESCRIPTION);
+        eUnset(Ifc4Package.eINSTANCE.getIfcMaterialConstituentSet_Description());
     }
 
     /**
@@ -136,7 +136,7 @@ public class IfcMaterialConstituentSetImpl extends IfcMaterialDefinitionImpl imp
      */
     @Override
     public boolean isSetDescription() {
-        return eIsSet(Ifc4Package.Literals.IFC_MATERIAL_CONSTITUENT_SET__DESCRIPTION);
+        return eIsSet(Ifc4Package.eINSTANCE.getIfcMaterialConstituentSet_Description());
     }
 
     /**
@@ -148,7 +148,7 @@ public class IfcMaterialConstituentSetImpl extends IfcMaterialDefinitionImpl imp
     @Override
     public EList<IfcMaterialConstituent> getMaterialConstituents() {
         return (EList<IfcMaterialConstituent>) eGet(
-                Ifc4Package.Literals.IFC_MATERIAL_CONSTITUENT_SET__MATERIAL_CONSTITUENTS, true);
+                Ifc4Package.eINSTANCE.getIfcMaterialConstituentSet_MaterialConstituents(), true);
     }
 
     /**
@@ -158,7 +158,7 @@ public class IfcMaterialConstituentSetImpl extends IfcMaterialDefinitionImpl imp
      */
     @Override
     public void unsetMaterialConstituents() {
-        eUnset(Ifc4Package.Literals.IFC_MATERIAL_CONSTITUENT_SET__MATERIAL_CONSTITUENTS);
+        eUnset(Ifc4Package.eINSTANCE.getIfcMaterialConstituentSet_MaterialConstituents());
     }
 
     /**
@@ -168,7 +168,7 @@ public class IfcMaterialConstituentSetImpl extends IfcMaterialDefinitionImpl imp
      */
     @Override
     public boolean isSetMaterialConstituents() {
-        return eIsSet(Ifc4Package.Literals.IFC_MATERIAL_CONSTITUENT_SET__MATERIAL_CONSTITUENTS);
+        return eIsSet(Ifc4Package.eINSTANCE.getIfcMaterialConstituentSet_MaterialConstituents());
     }
 
 } //IfcMaterialConstituentSetImpl

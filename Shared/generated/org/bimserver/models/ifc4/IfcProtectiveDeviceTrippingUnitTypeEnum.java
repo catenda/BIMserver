@@ -105,10 +105,6 @@ public enum IfcProtectiveDeviceTrippingUnitTypeEnum implements Enumerator {
     /**
      * The '<em><b>NULL</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>NULL</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #NULL
      * @model
@@ -120,10 +116,6 @@ public enum IfcProtectiveDeviceTrippingUnitTypeEnum implements Enumerator {
     /**
      * The '<em><b>RESIDUALCURRENT</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>RESIDUALCURRENT</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #RESIDUALCURRENT
      * @model
@@ -135,10 +127,6 @@ public enum IfcProtectiveDeviceTrippingUnitTypeEnum implements Enumerator {
     /**
      * The '<em><b>ELECTRONIC</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>ELECTRONIC</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #ELECTRONIC
      * @model
@@ -150,10 +138,6 @@ public enum IfcProtectiveDeviceTrippingUnitTypeEnum implements Enumerator {
     /**
      * The '<em><b>NOTDEFINED</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>NOTDEFINED</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #NOTDEFINED
      * @model
@@ -165,10 +149,6 @@ public enum IfcProtectiveDeviceTrippingUnitTypeEnum implements Enumerator {
     /**
      * The '<em><b>USERDEFINED</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>USERDEFINED</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #USERDEFINED
      * @model
@@ -180,10 +160,6 @@ public enum IfcProtectiveDeviceTrippingUnitTypeEnum implements Enumerator {
     /**
      * The '<em><b>THERMAL</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>THERMAL</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #THERMAL
      * @model
@@ -195,10 +171,6 @@ public enum IfcProtectiveDeviceTrippingUnitTypeEnum implements Enumerator {
     /**
      * The '<em><b>ELECTROMAGNETIC</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>ELECTROMAGNETIC</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #ELECTROMAGNETIC
      * @model

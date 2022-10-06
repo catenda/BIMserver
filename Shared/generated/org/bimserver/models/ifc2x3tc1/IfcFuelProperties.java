@@ -43,10 +43,6 @@ public interface IfcFuelProperties extends IfcMaterialProperties {
     /**
      * Returns the value of the '<em><b>Combustion Temperature</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Combustion Temperature</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Combustion Temperature</em>' attribute.
      * @see #isSetCombustionTemperature()
@@ -96,10 +92,6 @@ public interface IfcFuelProperties extends IfcMaterialProperties {
     /**
      * Returns the value of the '<em><b>Combustion Temperature As String</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Combustion Temperature As String</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Combustion Temperature As String</em>' attribute.
      * @see #isSetCombustionTemperatureAsString()
@@ -151,10 +143,6 @@ public interface IfcFuelProperties extends IfcMaterialProperties {
     /**
      * Returns the value of the '<em><b>Carbon Content</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Carbon Content</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Carbon Content</em>' attribute.
      * @see #isSetCarbonContent()
@@ -204,10 +192,6 @@ public interface IfcFuelProperties extends IfcMaterialProperties {
     /**
      * Returns the value of the '<em><b>Carbon Content As String</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Carbon Content As String</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Carbon Content As String</em>' attribute.
      * @see #isSetCarbonContentAsString()
@@ -259,10 +243,6 @@ public interface IfcFuelProperties extends IfcMaterialProperties {
     /**
      * Returns the value of the '<em><b>Lower Heating Value</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Lower Heating Value</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Lower Heating Value</em>' attribute.
      * @see #isSetLowerHeatingValue()
@@ -312,10 +292,6 @@ public interface IfcFuelProperties extends IfcMaterialProperties {
     /**
      * Returns the value of the '<em><b>Lower Heating Value As String</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Lower Heating Value As String</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Lower Heating Value As String</em>' attribute.
      * @see #isSetLowerHeatingValueAsString()
@@ -367,10 +343,6 @@ public interface IfcFuelProperties extends IfcMaterialProperties {
     /**
      * Returns the value of the '<em><b>Higher Heating Value</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Higher Heating Value</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Higher Heating Value</em>' attribute.
      * @see #isSetHigherHeatingValue()
@@ -420,10 +392,6 @@ public interface IfcFuelProperties extends IfcMaterialProperties {
     /**
      * Returns the value of the '<em><b>Higher Heating Value As String</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Higher Heating Value As String</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Higher Heating Value As String</em>' attribute.
      * @see #isSetHigherHeatingValueAsString()

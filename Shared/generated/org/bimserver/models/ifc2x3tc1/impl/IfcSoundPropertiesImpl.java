@@ -58,7 +58,7 @@ public class IfcSoundPropertiesImpl extends IfcPropertySetDefinitionImpl impleme
      */
     @Override
     protected EClass eStaticClass() {
-        return Ifc2x3tc1Package.Literals.IFC_SOUND_PROPERTIES;
+        return Ifc2x3tc1Package.eINSTANCE.getIfcSoundProperties();
     }
 
     /**
@@ -68,7 +68,7 @@ public class IfcSoundPropertiesImpl extends IfcPropertySetDefinitionImpl impleme
      */
     @Override
     public Tristate getIsAttenuating() {
-        return (Tristate) eGet(Ifc2x3tc1Package.Literals.IFC_SOUND_PROPERTIES__IS_ATTENUATING, true);
+        return (Tristate) eGet(Ifc2x3tc1Package.eINSTANCE.getIfcSoundProperties_IsAttenuating(), true);
     }
 
     /**
@@ -78,7 +78,7 @@ public class IfcSoundPropertiesImpl extends IfcPropertySetDefinitionImpl impleme
      */
     @Override
     public void setIsAttenuating(Tristate newIsAttenuating) {
-        eSet(Ifc2x3tc1Package.Literals.IFC_SOUND_PROPERTIES__IS_ATTENUATING, newIsAttenuating);
+        eSet(Ifc2x3tc1Package.eINSTANCE.getIfcSoundProperties_IsAttenuating(), newIsAttenuating);
     }
 
     /**
@@ -88,7 +88,7 @@ public class IfcSoundPropertiesImpl extends IfcPropertySetDefinitionImpl impleme
      */
     @Override
     public IfcSoundScaleEnum getSoundScale() {
-        return (IfcSoundScaleEnum) eGet(Ifc2x3tc1Package.Literals.IFC_SOUND_PROPERTIES__SOUND_SCALE, true);
+        return (IfcSoundScaleEnum) eGet(Ifc2x3tc1Package.eINSTANCE.getIfcSoundProperties_SoundScale(), true);
     }
 
     /**
@@ -98,7 +98,7 @@ public class IfcSoundPropertiesImpl extends IfcPropertySetDefinitionImpl impleme
      */
     @Override
     public void setSoundScale(IfcSoundScaleEnum newSoundScale) {
-        eSet(Ifc2x3tc1Package.Literals.IFC_SOUND_PROPERTIES__SOUND_SCALE, newSoundScale);
+        eSet(Ifc2x3tc1Package.eINSTANCE.getIfcSoundProperties_SoundScale(), newSoundScale);
     }
 
     /**
@@ -108,7 +108,7 @@ public class IfcSoundPropertiesImpl extends IfcPropertySetDefinitionImpl impleme
      */
     @Override
     public void unsetSoundScale() {
-        eUnset(Ifc2x3tc1Package.Literals.IFC_SOUND_PROPERTIES__SOUND_SCALE);
+        eUnset(Ifc2x3tc1Package.eINSTANCE.getIfcSoundProperties_SoundScale());
     }
 
     /**
@@ -118,7 +118,7 @@ public class IfcSoundPropertiesImpl extends IfcPropertySetDefinitionImpl impleme
      */
     @Override
     public boolean isSetSoundScale() {
-        return eIsSet(Ifc2x3tc1Package.Literals.IFC_SOUND_PROPERTIES__SOUND_SCALE);
+        return eIsSet(Ifc2x3tc1Package.eINSTANCE.getIfcSoundProperties_SoundScale());
     }
 
     /**
@@ -129,7 +129,7 @@ public class IfcSoundPropertiesImpl extends IfcPropertySetDefinitionImpl impleme
     @SuppressWarnings("unchecked")
     @Override
     public EList<IfcSoundValue> getSoundValues() {
-        return (EList<IfcSoundValue>) eGet(Ifc2x3tc1Package.Literals.IFC_SOUND_PROPERTIES__SOUND_VALUES, true);
+        return (EList<IfcSoundValue>) eGet(Ifc2x3tc1Package.eINSTANCE.getIfcSoundProperties_SoundValues(), true);
     }
 
 } //IfcSoundPropertiesImpl

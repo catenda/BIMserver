@@ -135,10 +135,6 @@ public enum IfcCoilTypeEnum implements Enumerator {
     /**
      * The '<em><b>NULL</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>NULL</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #NULL
      * @model
@@ -150,10 +146,6 @@ public enum IfcCoilTypeEnum implements Enumerator {
     /**
      * The '<em><b>GASHEATINGCOIL</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>GASHEATINGCOIL</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #GASHEATINGCOIL
      * @model
@@ -165,10 +157,6 @@ public enum IfcCoilTypeEnum implements Enumerator {
     /**
      * The '<em><b>NOTDEFINED</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>NOTDEFINED</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #NOTDEFINED
      * @model
@@ -180,10 +168,6 @@ public enum IfcCoilTypeEnum implements Enumerator {
     /**
      * The '<em><b>DXCOOLINGCOIL</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>DXCOOLINGCOIL</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #DXCOOLINGCOIL
      * @model
@@ -195,10 +179,6 @@ public enum IfcCoilTypeEnum implements Enumerator {
     /**
      * The '<em><b>WATERCOOLINGCOIL</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>WATERCOOLINGCOIL</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #WATERCOOLINGCOIL
      * @model
@@ -210,10 +190,6 @@ public enum IfcCoilTypeEnum implements Enumerator {
     /**
      * The '<em><b>WATERHEATINGCOIL</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>WATERHEATINGCOIL</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #WATERHEATINGCOIL
      * @model
@@ -225,10 +201,6 @@ public enum IfcCoilTypeEnum implements Enumerator {
     /**
      * The '<em><b>USERDEFINED</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>USERDEFINED</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #USERDEFINED
      * @model
@@ -240,10 +212,6 @@ public enum IfcCoilTypeEnum implements Enumerator {
     /**
      * The '<em><b>ELECTRICHEATINGCOIL</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>ELECTRICHEATINGCOIL</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #ELECTRICHEATINGCOIL
      * @model
@@ -255,10 +223,6 @@ public enum IfcCoilTypeEnum implements Enumerator {
     /**
      * The '<em><b>HYDRONICCOIL</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>HYDRONICCOIL</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #HYDRONICCOIL
      * @model
@@ -270,10 +234,6 @@ public enum IfcCoilTypeEnum implements Enumerator {
     /**
      * The '<em><b>STEAMHEATINGCOIL</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>STEAMHEATINGCOIL</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #STEAMHEATINGCOIL
      * @model

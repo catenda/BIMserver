@@ -57,7 +57,7 @@ public class IfcRelAssociatesProfilePropertiesImpl extends IfcRelAssociatesImpl
      */
     @Override
     protected EClass eStaticClass() {
-        return Ifc2x3tc1Package.Literals.IFC_REL_ASSOCIATES_PROFILE_PROPERTIES;
+        return Ifc2x3tc1Package.eINSTANCE.getIfcRelAssociatesProfileProperties();
     }
 
     /**
@@ -68,7 +68,7 @@ public class IfcRelAssociatesProfilePropertiesImpl extends IfcRelAssociatesImpl
     @Override
     public IfcProfileProperties getRelatingProfileProperties() {
         return (IfcProfileProperties) eGet(
-                Ifc2x3tc1Package.Literals.IFC_REL_ASSOCIATES_PROFILE_PROPERTIES__RELATING_PROFILE_PROPERTIES, true);
+                Ifc2x3tc1Package.eINSTANCE.getIfcRelAssociatesProfileProperties_RelatingProfileProperties(), true);
     }
 
     /**
@@ -78,7 +78,7 @@ public class IfcRelAssociatesProfilePropertiesImpl extends IfcRelAssociatesImpl
      */
     @Override
     public void setRelatingProfileProperties(IfcProfileProperties newRelatingProfileProperties) {
-        eSet(Ifc2x3tc1Package.Literals.IFC_REL_ASSOCIATES_PROFILE_PROPERTIES__RELATING_PROFILE_PROPERTIES,
+        eSet(Ifc2x3tc1Package.eINSTANCE.getIfcRelAssociatesProfileProperties_RelatingProfileProperties(),
                 newRelatingProfileProperties);
     }
 
@@ -90,7 +90,7 @@ public class IfcRelAssociatesProfilePropertiesImpl extends IfcRelAssociatesImpl
     @Override
     public IfcShapeAspect getProfileSectionLocation() {
         return (IfcShapeAspect) eGet(
-                Ifc2x3tc1Package.Literals.IFC_REL_ASSOCIATES_PROFILE_PROPERTIES__PROFILE_SECTION_LOCATION, true);
+                Ifc2x3tc1Package.eINSTANCE.getIfcRelAssociatesProfileProperties_ProfileSectionLocation(), true);
     }
 
     /**
@@ -100,7 +100,7 @@ public class IfcRelAssociatesProfilePropertiesImpl extends IfcRelAssociatesImpl
      */
     @Override
     public void setProfileSectionLocation(IfcShapeAspect newProfileSectionLocation) {
-        eSet(Ifc2x3tc1Package.Literals.IFC_REL_ASSOCIATES_PROFILE_PROPERTIES__PROFILE_SECTION_LOCATION,
+        eSet(Ifc2x3tc1Package.eINSTANCE.getIfcRelAssociatesProfileProperties_ProfileSectionLocation(),
                 newProfileSectionLocation);
     }
 
@@ -111,7 +111,7 @@ public class IfcRelAssociatesProfilePropertiesImpl extends IfcRelAssociatesImpl
      */
     @Override
     public void unsetProfileSectionLocation() {
-        eUnset(Ifc2x3tc1Package.Literals.IFC_REL_ASSOCIATES_PROFILE_PROPERTIES__PROFILE_SECTION_LOCATION);
+        eUnset(Ifc2x3tc1Package.eINSTANCE.getIfcRelAssociatesProfileProperties_ProfileSectionLocation());
     }
 
     /**
@@ -121,7 +121,7 @@ public class IfcRelAssociatesProfilePropertiesImpl extends IfcRelAssociatesImpl
      */
     @Override
     public boolean isSetProfileSectionLocation() {
-        return eIsSet(Ifc2x3tc1Package.Literals.IFC_REL_ASSOCIATES_PROFILE_PROPERTIES__PROFILE_SECTION_LOCATION);
+        return eIsSet(Ifc2x3tc1Package.eINSTANCE.getIfcRelAssociatesProfileProperties_ProfileSectionLocation());
     }
 
     /**
@@ -132,7 +132,7 @@ public class IfcRelAssociatesProfilePropertiesImpl extends IfcRelAssociatesImpl
     @Override
     public IfcOrientationSelect getProfileOrientation() {
         return (IfcOrientationSelect) eGet(
-                Ifc2x3tc1Package.Literals.IFC_REL_ASSOCIATES_PROFILE_PROPERTIES__PROFILE_ORIENTATION, true);
+                Ifc2x3tc1Package.eINSTANCE.getIfcRelAssociatesProfileProperties_ProfileOrientation(), true);
     }
 
     /**
@@ -142,7 +142,7 @@ public class IfcRelAssociatesProfilePropertiesImpl extends IfcRelAssociatesImpl
      */
     @Override
     public void setProfileOrientation(IfcOrientationSelect newProfileOrientation) {
-        eSet(Ifc2x3tc1Package.Literals.IFC_REL_ASSOCIATES_PROFILE_PROPERTIES__PROFILE_ORIENTATION,
+        eSet(Ifc2x3tc1Package.eINSTANCE.getIfcRelAssociatesProfileProperties_ProfileOrientation(),
                 newProfileOrientation);
     }
 
@@ -153,7 +153,7 @@ public class IfcRelAssociatesProfilePropertiesImpl extends IfcRelAssociatesImpl
      */
     @Override
     public void unsetProfileOrientation() {
-        eUnset(Ifc2x3tc1Package.Literals.IFC_REL_ASSOCIATES_PROFILE_PROPERTIES__PROFILE_ORIENTATION);
+        eUnset(Ifc2x3tc1Package.eINSTANCE.getIfcRelAssociatesProfileProperties_ProfileOrientation());
     }
 
     /**
@@ -163,7 +163,7 @@ public class IfcRelAssociatesProfilePropertiesImpl extends IfcRelAssociatesImpl
      */
     @Override
     public boolean isSetProfileOrientation() {
-        return eIsSet(Ifc2x3tc1Package.Literals.IFC_REL_ASSOCIATES_PROFILE_PROPERTIES__PROFILE_ORIENTATION);
+        return eIsSet(Ifc2x3tc1Package.eINSTANCE.getIfcRelAssociatesProfileProperties_ProfileOrientation());
     }
 
 } //IfcRelAssociatesProfilePropertiesImpl

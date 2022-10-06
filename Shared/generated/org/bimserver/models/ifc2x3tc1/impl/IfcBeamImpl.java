@@ -45,7 +45,7 @@ public class IfcBeamImpl extends IfcBuildingElementImpl implements IfcBeam {
      */
     @Override
     protected EClass eStaticClass() {
-        return Ifc2x3tc1Package.Literals.IFC_BEAM;
+        return Ifc2x3tc1Package.eINSTANCE.getIfcBeam();
     }
 
 } //IfcBeamImpl

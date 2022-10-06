@@ -45,7 +45,7 @@ public class IfcPlaneImpl extends IfcElementarySurfaceImpl implements IfcPlane {
      */
     @Override
     protected EClass eStaticClass() {
-        return Ifc2x3tc1Package.Literals.IFC_PLANE;
+        return Ifc2x3tc1Package.eINSTANCE.getIfcPlane();
     }
 
 } //IfcPlaneImpl

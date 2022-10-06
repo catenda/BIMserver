@@ -70,7 +70,7 @@ public class IfcTaskTimeImpl extends IfcSchedulingTimeImpl implements IfcTaskTim
      */
     @Override
     protected EClass eStaticClass() {
-        return Ifc4Package.Literals.IFC_TASK_TIME;
+        return Ifc4Package.eINSTANCE.getIfcTaskTime();
     }
 
     /**
@@ -80,7 +80,7 @@ public class IfcTaskTimeImpl extends IfcSchedulingTimeImpl implements IfcTaskTim
      */
     @Override
     public IfcTaskDurationEnum getDurationType() {
-        return (IfcTaskDurationEnum) eGet(Ifc4Package.Literals.IFC_TASK_TIME__DURATION_TYPE, true);
+        return (IfcTaskDurationEnum) eGet(Ifc4Package.eINSTANCE.getIfcTaskTime_DurationType(), true);
     }
 
     /**
@@ -90,7 +90,7 @@ public class IfcTaskTimeImpl extends IfcSchedulingTimeImpl implements IfcTaskTim
      */
     @Override
     public void setDurationType(IfcTaskDurationEnum newDurationType) {
-        eSet(Ifc4Package.Literals.IFC_TASK_TIME__DURATION_TYPE, newDurationType);
+        eSet(Ifc4Package.eINSTANCE.getIfcTaskTime_DurationType(), newDurationType);
     }
 
     /**
@@ -100,7 +100,7 @@ public class IfcTaskTimeImpl extends IfcSchedulingTimeImpl implements IfcTaskTim
      */
     @Override
     public void unsetDurationType() {
-        eUnset(Ifc4Package.Literals.IFC_TASK_TIME__DURATION_TYPE);
+        eUnset(Ifc4Package.eINSTANCE.getIfcTaskTime_DurationType());
     }
 
     /**
@@ -110,7 +110,7 @@ public class IfcTaskTimeImpl extends IfcSchedulingTimeImpl implements IfcTaskTim
      */
     @Override
     public boolean isSetDurationType() {
-        return eIsSet(Ifc4Package.Literals.IFC_TASK_TIME__DURATION_TYPE);
+        return eIsSet(Ifc4Package.eINSTANCE.getIfcTaskTime_DurationType());
     }
 
     /**
@@ -120,7 +120,7 @@ public class IfcTaskTimeImpl extends IfcSchedulingTimeImpl implements IfcTaskTim
      */
     @Override
     public String getScheduleDuration() {
-        return (String) eGet(Ifc4Package.Literals.IFC_TASK_TIME__SCHEDULE_DURATION, true);
+        return (String) eGet(Ifc4Package.eINSTANCE.getIfcTaskTime_ScheduleDuration(), true);
     }
 
     /**
@@ -130,7 +130,7 @@ public class IfcTaskTimeImpl extends IfcSchedulingTimeImpl implements IfcTaskTim
      */
     @Override
     public void setScheduleDuration(String newScheduleDuration) {
-        eSet(Ifc4Package.Literals.IFC_TASK_TIME__SCHEDULE_DURATION, newScheduleDuration);
+        eSet(Ifc4Package.eINSTANCE.getIfcTaskTime_ScheduleDuration(), newScheduleDuration);
     }
 
     /**
@@ -140,7 +140,7 @@ public class IfcTaskTimeImpl extends IfcSchedulingTimeImpl implements IfcTaskTim
      */
     @Override
     public void unsetScheduleDuration() {
-        eUnset(Ifc4Package.Literals.IFC_TASK_TIME__SCHEDULE_DURATION);
+        eUnset(Ifc4Package.eINSTANCE.getIfcTaskTime_ScheduleDuration());
     }
 
     /**
@@ -150,7 +150,7 @@ public class IfcTaskTimeImpl extends IfcSchedulingTimeImpl implements IfcTaskTim
      */
     @Override
     public boolean isSetScheduleDuration() {
-        return eIsSet(Ifc4Package.Literals.IFC_TASK_TIME__SCHEDULE_DURATION);
+        return eIsSet(Ifc4Package.eINSTANCE.getIfcTaskTime_ScheduleDuration());
     }
 
     /**
@@ -160,7 +160,7 @@ public class IfcTaskTimeImpl extends IfcSchedulingTimeImpl implements IfcTaskTim
      */
     @Override
     public String getScheduleStart() {
-        return (String) eGet(Ifc4Package.Literals.IFC_TASK_TIME__SCHEDULE_START, true);
+        return (String) eGet(Ifc4Package.eINSTANCE.getIfcTaskTime_ScheduleStart(), true);
     }
 
     /**
@@ -170,7 +170,7 @@ public class IfcTaskTimeImpl extends IfcSchedulingTimeImpl implements IfcTaskTim
      */
     @Override
     public void setScheduleStart(String newScheduleStart) {
-        eSet(Ifc4Package.Literals.IFC_TASK_TIME__SCHEDULE_START, newScheduleStart);
+        eSet(Ifc4Package.eINSTANCE.getIfcTaskTime_ScheduleStart(), newScheduleStart);
     }
 
     /**
@@ -180,7 +180,7 @@ public class IfcTaskTimeImpl extends IfcSchedulingTimeImpl implements IfcTaskTim
      */
     @Override
     public void unsetScheduleStart() {
-        eUnset(Ifc4Package.Literals.IFC_TASK_TIME__SCHEDULE_START);
+        eUnset(Ifc4Package.eINSTANCE.getIfcTaskTime_ScheduleStart());
     }
 
     /**
@@ -190,7 +190,7 @@ public class IfcTaskTimeImpl extends IfcSchedulingTimeImpl implements IfcTaskTim
      */
     @Override
     public boolean isSetScheduleStart() {
-        return eIsSet(Ifc4Package.Literals.IFC_TASK_TIME__SCHEDULE_START);
+        return eIsSet(Ifc4Package.eINSTANCE.getIfcTaskTime_ScheduleStart());
     }
 
     /**
@@ -200,7 +200,7 @@ public class IfcTaskTimeImpl extends IfcSchedulingTimeImpl implements IfcTaskTim
      */
     @Override
     public String getScheduleFinish() {
-        return (String) eGet(Ifc4Package.Literals.IFC_TASK_TIME__SCHEDULE_FINISH, true);
+        return (String) eGet(Ifc4Package.eINSTANCE.getIfcTaskTime_ScheduleFinish(), true);
     }
 
     /**
@@ -210,7 +210,7 @@ public class IfcTaskTimeImpl extends IfcSchedulingTimeImpl implements IfcTaskTim
      */
     @Override
     public void setScheduleFinish(String newScheduleFinish) {
-        eSet(Ifc4Package.Literals.IFC_TASK_TIME__SCHEDULE_FINISH, newScheduleFinish);
+        eSet(Ifc4Package.eINSTANCE.getIfcTaskTime_ScheduleFinish(), newScheduleFinish);
     }
 
     /**
@@ -220,7 +220,7 @@ public class IfcTaskTimeImpl extends IfcSchedulingTimeImpl implements IfcTaskTim
      */
     @Override
     public void unsetScheduleFinish() {
-        eUnset(Ifc4Package.Literals.IFC_TASK_TIME__SCHEDULE_FINISH);
+        eUnset(Ifc4Package.eINSTANCE.getIfcTaskTime_ScheduleFinish());
     }
 
     /**
@@ -230,7 +230,7 @@ public class IfcTaskTimeImpl extends IfcSchedulingTimeImpl implements IfcTaskTim
      */
     @Override
     public boolean isSetScheduleFinish() {
-        return eIsSet(Ifc4Package.Literals.IFC_TASK_TIME__SCHEDULE_FINISH);
+        return eIsSet(Ifc4Package.eINSTANCE.getIfcTaskTime_ScheduleFinish());
     }
 
     /**
@@ -240,7 +240,7 @@ public class IfcTaskTimeImpl extends IfcSchedulingTimeImpl implements IfcTaskTim
      */
     @Override
     public String getEarlyStart() {
-        return (String) eGet(Ifc4Package.Literals.IFC_TASK_TIME__EARLY_START, true);
+        return (String) eGet(Ifc4Package.eINSTANCE.getIfcTaskTime_EarlyStart(), true);
     }
 
     /**
@@ -250,7 +250,7 @@ public class IfcTaskTimeImpl extends IfcSchedulingTimeImpl implements IfcTaskTim
      */
     @Override
     public void setEarlyStart(String newEarlyStart) {
-        eSet(Ifc4Package.Literals.IFC_TASK_TIME__EARLY_START, newEarlyStart);
+        eSet(Ifc4Package.eINSTANCE.getIfcTaskTime_EarlyStart(), newEarlyStart);
     }
 
     /**
@@ -260,7 +260,7 @@ public class IfcTaskTimeImpl extends IfcSchedulingTimeImpl implements IfcTaskTim
      */
     @Override
     public void unsetEarlyStart() {
-        eUnset(Ifc4Package.Literals.IFC_TASK_TIME__EARLY_START);
+        eUnset(Ifc4Package.eINSTANCE.getIfcTaskTime_EarlyStart());
     }
 
     /**
@@ -270,7 +270,7 @@ public class IfcTaskTimeImpl extends IfcSchedulingTimeImpl implements IfcTaskTim
      */
     @Override
     public boolean isSetEarlyStart() {
-        return eIsSet(Ifc4Package.Literals.IFC_TASK_TIME__EARLY_START);
+        return eIsSet(Ifc4Package.eINSTANCE.getIfcTaskTime_EarlyStart());
     }
 
     /**
@@ -280,7 +280,7 @@ public class IfcTaskTimeImpl extends IfcSchedulingTimeImpl implements IfcTaskTim
      */
     @Override
     public String getEarlyFinish() {
-        return (String) eGet(Ifc4Package.Literals.IFC_TASK_TIME__EARLY_FINISH, true);
+        return (String) eGet(Ifc4Package.eINSTANCE.getIfcTaskTime_EarlyFinish(), true);
     }
 
     /**
@@ -290,7 +290,7 @@ public class IfcTaskTimeImpl extends IfcSchedulingTimeImpl implements IfcTaskTim
      */
     @Override
     public void setEarlyFinish(String newEarlyFinish) {
-        eSet(Ifc4Package.Literals.IFC_TASK_TIME__EARLY_FINISH, newEarlyFinish);
+        eSet(Ifc4Package.eINSTANCE.getIfcTaskTime_EarlyFinish(), newEarlyFinish);
     }
 
     /**
@@ -300,7 +300,7 @@ public class IfcTaskTimeImpl extends IfcSchedulingTimeImpl implements IfcTaskTim
      */
     @Override
     public void unsetEarlyFinish() {
-        eUnset(Ifc4Package.Literals.IFC_TASK_TIME__EARLY_FINISH);
+        eUnset(Ifc4Package.eINSTANCE.getIfcTaskTime_EarlyFinish());
     }
 
     /**
@@ -310,7 +310,7 @@ public class IfcTaskTimeImpl extends IfcSchedulingTimeImpl implements IfcTaskTim
      */
     @Override
     public boolean isSetEarlyFinish() {
-        return eIsSet(Ifc4Package.Literals.IFC_TASK_TIME__EARLY_FINISH);
+        return eIsSet(Ifc4Package.eINSTANCE.getIfcTaskTime_EarlyFinish());
     }
 
     /**
@@ -320,7 +320,7 @@ public class IfcTaskTimeImpl extends IfcSchedulingTimeImpl implements IfcTaskTim
      */
     @Override
     public String getLateStart() {
-        return (String) eGet(Ifc4Package.Literals.IFC_TASK_TIME__LATE_START, true);
+        return (String) eGet(Ifc4Package.eINSTANCE.getIfcTaskTime_LateStart(), true);
     }
 
     /**
@@ -330,7 +330,7 @@ public class IfcTaskTimeImpl extends IfcSchedulingTimeImpl implements IfcTaskTim
      */
     @Override
     public void setLateStart(String newLateStart) {
-        eSet(Ifc4Package.Literals.IFC_TASK_TIME__LATE_START, newLateStart);
+        eSet(Ifc4Package.eINSTANCE.getIfcTaskTime_LateStart(), newLateStart);
     }
 
     /**
@@ -340,7 +340,7 @@ public class IfcTaskTimeImpl extends IfcSchedulingTimeImpl implements IfcTaskTim
      */
     @Override
     public void unsetLateStart() {
-        eUnset(Ifc4Package.Literals.IFC_TASK_TIME__LATE_START);
+        eUnset(Ifc4Package.eINSTANCE.getIfcTaskTime_LateStart());
     }
 
     /**
@@ -350,7 +350,7 @@ public class IfcTaskTimeImpl extends IfcSchedulingTimeImpl implements IfcTaskTim
      */
     @Override
     public boolean isSetLateStart() {
-        return eIsSet(Ifc4Package.Literals.IFC_TASK_TIME__LATE_START);
+        return eIsSet(Ifc4Package.eINSTANCE.getIfcTaskTime_LateStart());
     }
 
     /**
@@ -360,7 +360,7 @@ public class IfcTaskTimeImpl extends IfcSchedulingTimeImpl implements IfcTaskTim
      */
     @Override
     public String getLateFinish() {
-        return (String) eGet(Ifc4Package.Literals.IFC_TASK_TIME__LATE_FINISH, true);
+        return (String) eGet(Ifc4Package.eINSTANCE.getIfcTaskTime_LateFinish(), true);
     }
 
     /**
@@ -370,7 +370,7 @@ public class IfcTaskTimeImpl extends IfcSchedulingTimeImpl implements IfcTaskTim
      */
     @Override
     public void setLateFinish(String newLateFinish) {
-        eSet(Ifc4Package.Literals.IFC_TASK_TIME__LATE_FINISH, newLateFinish);
+        eSet(Ifc4Package.eINSTANCE.getIfcTaskTime_LateFinish(), newLateFinish);
     }
 
     /**
@@ -380,7 +380,7 @@ public class IfcTaskTimeImpl extends IfcSchedulingTimeImpl implements IfcTaskTim
      */
     @Override
     public void unsetLateFinish() {
-        eUnset(Ifc4Package.Literals.IFC_TASK_TIME__LATE_FINISH);
+        eUnset(Ifc4Package.eINSTANCE.getIfcTaskTime_LateFinish());
     }
 
     /**
@@ -390,7 +390,7 @@ public class IfcTaskTimeImpl extends IfcSchedulingTimeImpl implements IfcTaskTim
      */
     @Override
     public boolean isSetLateFinish() {
-        return eIsSet(Ifc4Package.Literals.IFC_TASK_TIME__LATE_FINISH);
+        return eIsSet(Ifc4Package.eINSTANCE.getIfcTaskTime_LateFinish());
     }
 
     /**
@@ -400,7 +400,7 @@ public class IfcTaskTimeImpl extends IfcSchedulingTimeImpl implements IfcTaskTim
      */
     @Override
     public String getFreeFloat() {
-        return (String) eGet(Ifc4Package.Literals.IFC_TASK_TIME__FREE_FLOAT, true);
+        return (String) eGet(Ifc4Package.eINSTANCE.getIfcTaskTime_FreeFloat(), true);
     }
 
     /**
@@ -410,7 +410,7 @@ public class IfcTaskTimeImpl extends IfcSchedulingTimeImpl implements IfcTaskTim
      */
     @Override
     public void setFreeFloat(String newFreeFloat) {
-        eSet(Ifc4Package.Literals.IFC_TASK_TIME__FREE_FLOAT, newFreeFloat);
+        eSet(Ifc4Package.eINSTANCE.getIfcTaskTime_FreeFloat(), newFreeFloat);
     }
 
     /**
@@ -420,7 +420,7 @@ public class IfcTaskTimeImpl extends IfcSchedulingTimeImpl implements IfcTaskTim
      */
     @Override
     public void unsetFreeFloat() {
-        eUnset(Ifc4Package.Literals.IFC_TASK_TIME__FREE_FLOAT);
+        eUnset(Ifc4Package.eINSTANCE.getIfcTaskTime_FreeFloat());
     }
 
     /**
@@ -430,7 +430,7 @@ public class IfcTaskTimeImpl extends IfcSchedulingTimeImpl implements IfcTaskTim
      */
     @Override
     public boolean isSetFreeFloat() {
-        return eIsSet(Ifc4Package.Literals.IFC_TASK_TIME__FREE_FLOAT);
+        return eIsSet(Ifc4Package.eINSTANCE.getIfcTaskTime_FreeFloat());
     }
 
     /**
@@ -440,7 +440,7 @@ public class IfcTaskTimeImpl extends IfcSchedulingTimeImpl implements IfcTaskTim
      */
     @Override
     public String getTotalFloat() {
-        return (String) eGet(Ifc4Package.Literals.IFC_TASK_TIME__TOTAL_FLOAT, true);
+        return (String) eGet(Ifc4Package.eINSTANCE.getIfcTaskTime_TotalFloat(), true);
     }
 
     /**
@@ -450,7 +450,7 @@ public class IfcTaskTimeImpl extends IfcSchedulingTimeImpl implements IfcTaskTim
      */
     @Override
     public void setTotalFloat(String newTotalFloat) {
-        eSet(Ifc4Package.Literals.IFC_TASK_TIME__TOTAL_FLOAT, newTotalFloat);
+        eSet(Ifc4Package.eINSTANCE.getIfcTaskTime_TotalFloat(), newTotalFloat);
     }
 
     /**
@@ -460,7 +460,7 @@ public class IfcTaskTimeImpl extends IfcSchedulingTimeImpl implements IfcTaskTim
      */
     @Override
     public void unsetTotalFloat() {
-        eUnset(Ifc4Package.Literals.IFC_TASK_TIME__TOTAL_FLOAT);
+        eUnset(Ifc4Package.eINSTANCE.getIfcTaskTime_TotalFloat());
     }
 
     /**
@@ -470,7 +470,7 @@ public class IfcTaskTimeImpl extends IfcSchedulingTimeImpl implements IfcTaskTim
      */
     @Override
     public boolean isSetTotalFloat() {
-        return eIsSet(Ifc4Package.Literals.IFC_TASK_TIME__TOTAL_FLOAT);
+        return eIsSet(Ifc4Package.eINSTANCE.getIfcTaskTime_TotalFloat());
     }
 
     /**
@@ -480,7 +480,7 @@ public class IfcTaskTimeImpl extends IfcSchedulingTimeImpl implements IfcTaskTim
      */
     @Override
     public Tristate getIsCritical() {
-        return (Tristate) eGet(Ifc4Package.Literals.IFC_TASK_TIME__IS_CRITICAL, true);
+        return (Tristate) eGet(Ifc4Package.eINSTANCE.getIfcTaskTime_IsCritical(), true);
     }
 
     /**
@@ -490,7 +490,7 @@ public class IfcTaskTimeImpl extends IfcSchedulingTimeImpl implements IfcTaskTim
      */
     @Override
     public void setIsCritical(Tristate newIsCritical) {
-        eSet(Ifc4Package.Literals.IFC_TASK_TIME__IS_CRITICAL, newIsCritical);
+        eSet(Ifc4Package.eINSTANCE.getIfcTaskTime_IsCritical(), newIsCritical);
     }
 
     /**
@@ -500,7 +500,7 @@ public class IfcTaskTimeImpl extends IfcSchedulingTimeImpl implements IfcTaskTim
      */
     @Override
     public void unsetIsCritical() {
-        eUnset(Ifc4Package.Literals.IFC_TASK_TIME__IS_CRITICAL);
+        eUnset(Ifc4Package.eINSTANCE.getIfcTaskTime_IsCritical());
     }
 
     /**
@@ -510,7 +510,7 @@ public class IfcTaskTimeImpl extends IfcSchedulingTimeImpl implements IfcTaskTim
      */
     @Override
     public boolean isSetIsCritical() {
-        return eIsSet(Ifc4Package.Literals.IFC_TASK_TIME__IS_CRITICAL);
+        return eIsSet(Ifc4Package.eINSTANCE.getIfcTaskTime_IsCritical());
     }
 
     /**
@@ -520,7 +520,7 @@ public class IfcTaskTimeImpl extends IfcSchedulingTimeImpl implements IfcTaskTim
      */
     @Override
     public String getStatusTime() {
-        return (String) eGet(Ifc4Package.Literals.IFC_TASK_TIME__STATUS_TIME, true);
+        return (String) eGet(Ifc4Package.eINSTANCE.getIfcTaskTime_StatusTime(), true);
     }
 
     /**
@@ -530,7 +530,7 @@ public class IfcTaskTimeImpl extends IfcSchedulingTimeImpl implements IfcTaskTim
      */
     @Override
     public void setStatusTime(String newStatusTime) {
-        eSet(Ifc4Package.Literals.IFC_TASK_TIME__STATUS_TIME, newStatusTime);
+        eSet(Ifc4Package.eINSTANCE.getIfcTaskTime_StatusTime(), newStatusTime);
     }
 
     /**
@@ -540,7 +540,7 @@ public class IfcTaskTimeImpl extends IfcSchedulingTimeImpl implements IfcTaskTim
      */
     @Override
     public void unsetStatusTime() {
-        eUnset(Ifc4Package.Literals.IFC_TASK_TIME__STATUS_TIME);
+        eUnset(Ifc4Package.eINSTANCE.getIfcTaskTime_StatusTime());
     }
 
     /**
@@ -550,7 +550,7 @@ public class IfcTaskTimeImpl extends IfcSchedulingTimeImpl implements IfcTaskTim
      */
     @Override
     public boolean isSetStatusTime() {
-        return eIsSet(Ifc4Package.Literals.IFC_TASK_TIME__STATUS_TIME);
+        return eIsSet(Ifc4Package.eINSTANCE.getIfcTaskTime_StatusTime());
     }
 
     /**
@@ -560,7 +560,7 @@ public class IfcTaskTimeImpl extends IfcSchedulingTimeImpl implements IfcTaskTim
      */
     @Override
     public String getActualDuration() {
-        return (String) eGet(Ifc4Package.Literals.IFC_TASK_TIME__ACTUAL_DURATION, true);
+        return (String) eGet(Ifc4Package.eINSTANCE.getIfcTaskTime_ActualDuration(), true);
     }
 
     /**
@@ -570,7 +570,7 @@ public class IfcTaskTimeImpl extends IfcSchedulingTimeImpl implements IfcTaskTim
      */
     @Override
     public void setActualDuration(String newActualDuration) {
-        eSet(Ifc4Package.Literals.IFC_TASK_TIME__ACTUAL_DURATION, newActualDuration);
+        eSet(Ifc4Package.eINSTANCE.getIfcTaskTime_ActualDuration(), newActualDuration);
     }
 
     /**
@@ -580,7 +580,7 @@ public class IfcTaskTimeImpl extends IfcSchedulingTimeImpl implements IfcTaskTim
      */
     @Override
     public void unsetActualDuration() {
-        eUnset(Ifc4Package.Literals.IFC_TASK_TIME__ACTUAL_DURATION);
+        eUnset(Ifc4Package.eINSTANCE.getIfcTaskTime_ActualDuration());
     }
 
     /**
@@ -590,7 +590,7 @@ public class IfcTaskTimeImpl extends IfcSchedulingTimeImpl implements IfcTaskTim
      */
     @Override
     public boolean isSetActualDuration() {
-        return eIsSet(Ifc4Package.Literals.IFC_TASK_TIME__ACTUAL_DURATION);
+        return eIsSet(Ifc4Package.eINSTANCE.getIfcTaskTime_ActualDuration());
     }
 
     /**
@@ -600,7 +600,7 @@ public class IfcTaskTimeImpl extends IfcSchedulingTimeImpl implements IfcTaskTim
      */
     @Override
     public String getActualStart() {
-        return (String) eGet(Ifc4Package.Literals.IFC_TASK_TIME__ACTUAL_START, true);
+        return (String) eGet(Ifc4Package.eINSTANCE.getIfcTaskTime_ActualStart(), true);
     }
 
     /**
@@ -610,7 +610,7 @@ public class IfcTaskTimeImpl extends IfcSchedulingTimeImpl implements IfcTaskTim
      */
     @Override
     public void setActualStart(String newActualStart) {
-        eSet(Ifc4Package.Literals.IFC_TASK_TIME__ACTUAL_START, newActualStart);
+        eSet(Ifc4Package.eINSTANCE.getIfcTaskTime_ActualStart(), newActualStart);
     }
 
     /**
@@ -620,7 +620,7 @@ public class IfcTaskTimeImpl extends IfcSchedulingTimeImpl implements IfcTaskTim
      */
     @Override
     public void unsetActualStart() {
-        eUnset(Ifc4Package.Literals.IFC_TASK_TIME__ACTUAL_START);
+        eUnset(Ifc4Package.eINSTANCE.getIfcTaskTime_ActualStart());
     }
 
     /**
@@ -630,7 +630,7 @@ public class IfcTaskTimeImpl extends IfcSchedulingTimeImpl implements IfcTaskTim
      */
     @Override
     public boolean isSetActualStart() {
-        return eIsSet(Ifc4Package.Literals.IFC_TASK_TIME__ACTUAL_START);
+        return eIsSet(Ifc4Package.eINSTANCE.getIfcTaskTime_ActualStart());
     }
 
     /**
@@ -640,7 +640,7 @@ public class IfcTaskTimeImpl extends IfcSchedulingTimeImpl implements IfcTaskTim
      */
     @Override
     public String getActualFinish() {
-        return (String) eGet(Ifc4Package.Literals.IFC_TASK_TIME__ACTUAL_FINISH, true);
+        return (String) eGet(Ifc4Package.eINSTANCE.getIfcTaskTime_ActualFinish(), true);
     }
 
     /**
@@ -650,7 +650,7 @@ public class IfcTaskTimeImpl extends IfcSchedulingTimeImpl implements IfcTaskTim
      */
     @Override
     public void setActualFinish(String newActualFinish) {
-        eSet(Ifc4Package.Literals.IFC_TASK_TIME__ACTUAL_FINISH, newActualFinish);
+        eSet(Ifc4Package.eINSTANCE.getIfcTaskTime_ActualFinish(), newActualFinish);
     }
 
     /**
@@ -660,7 +660,7 @@ public class IfcTaskTimeImpl extends IfcSchedulingTimeImpl implements IfcTaskTim
      */
     @Override
     public void unsetActualFinish() {
-        eUnset(Ifc4Package.Literals.IFC_TASK_TIME__ACTUAL_FINISH);
+        eUnset(Ifc4Package.eINSTANCE.getIfcTaskTime_ActualFinish());
     }
 
     /**
@@ -670,7 +670,7 @@ public class IfcTaskTimeImpl extends IfcSchedulingTimeImpl implements IfcTaskTim
      */
     @Override
     public boolean isSetActualFinish() {
-        return eIsSet(Ifc4Package.Literals.IFC_TASK_TIME__ACTUAL_FINISH);
+        return eIsSet(Ifc4Package.eINSTANCE.getIfcTaskTime_ActualFinish());
     }
 
     /**
@@ -680,7 +680,7 @@ public class IfcTaskTimeImpl extends IfcSchedulingTimeImpl implements IfcTaskTim
      */
     @Override
     public String getRemainingTime() {
-        return (String) eGet(Ifc4Package.Literals.IFC_TASK_TIME__REMAINING_TIME, true);
+        return (String) eGet(Ifc4Package.eINSTANCE.getIfcTaskTime_RemainingTime(), true);
     }
 
     /**
@@ -690,7 +690,7 @@ public class IfcTaskTimeImpl extends IfcSchedulingTimeImpl implements IfcTaskTim
      */
     @Override
     public void setRemainingTime(String newRemainingTime) {
-        eSet(Ifc4Package.Literals.IFC_TASK_TIME__REMAINING_TIME, newRemainingTime);
+        eSet(Ifc4Package.eINSTANCE.getIfcTaskTime_RemainingTime(), newRemainingTime);
     }
 
     /**
@@ -700,7 +700,7 @@ public class IfcTaskTimeImpl extends IfcSchedulingTimeImpl implements IfcTaskTim
      */
     @Override
     public void unsetRemainingTime() {
-        eUnset(Ifc4Package.Literals.IFC_TASK_TIME__REMAINING_TIME);
+        eUnset(Ifc4Package.eINSTANCE.getIfcTaskTime_RemainingTime());
     }
 
     /**
@@ -710,7 +710,7 @@ public class IfcTaskTimeImpl extends IfcSchedulingTimeImpl implements IfcTaskTim
      */
     @Override
     public boolean isSetRemainingTime() {
-        return eIsSet(Ifc4Package.Literals.IFC_TASK_TIME__REMAINING_TIME);
+        return eIsSet(Ifc4Package.eINSTANCE.getIfcTaskTime_RemainingTime());
     }
 
     /**
@@ -720,7 +720,7 @@ public class IfcTaskTimeImpl extends IfcSchedulingTimeImpl implements IfcTaskTim
      */
     @Override
     public double getCompletion() {
-        return (Double) eGet(Ifc4Package.Literals.IFC_TASK_TIME__COMPLETION, true);
+        return (Double) eGet(Ifc4Package.eINSTANCE.getIfcTaskTime_Completion(), true);
     }
 
     /**
@@ -730,7 +730,7 @@ public class IfcTaskTimeImpl extends IfcSchedulingTimeImpl implements IfcTaskTim
      */
     @Override
     public void setCompletion(double newCompletion) {
-        eSet(Ifc4Package.Literals.IFC_TASK_TIME__COMPLETION, newCompletion);
+        eSet(Ifc4Package.eINSTANCE.getIfcTaskTime_Completion(), newCompletion);
     }
 
     /**
@@ -740,7 +740,7 @@ public class IfcTaskTimeImpl extends IfcSchedulingTimeImpl implements IfcTaskTim
      */
     @Override
     public void unsetCompletion() {
-        eUnset(Ifc4Package.Literals.IFC_TASK_TIME__COMPLETION);
+        eUnset(Ifc4Package.eINSTANCE.getIfcTaskTime_Completion());
     }
 
     /**
@@ -750,7 +750,7 @@ public class IfcTaskTimeImpl extends IfcSchedulingTimeImpl implements IfcTaskTim
      */
     @Override
     public boolean isSetCompletion() {
-        return eIsSet(Ifc4Package.Literals.IFC_TASK_TIME__COMPLETION);
+        return eIsSet(Ifc4Package.eINSTANCE.getIfcTaskTime_Completion());
     }
 
     /**
@@ -760,7 +760,7 @@ public class IfcTaskTimeImpl extends IfcSchedulingTimeImpl implements IfcTaskTim
      */
     @Override
     public String getCompletionAsString() {
-        return (String) eGet(Ifc4Package.Literals.IFC_TASK_TIME__COMPLETION_AS_STRING, true);
+        return (String) eGet(Ifc4Package.eINSTANCE.getIfcTaskTime_CompletionAsString(), true);
     }
 
     /**
@@ -770,7 +770,7 @@ public class IfcTaskTimeImpl extends IfcSchedulingTimeImpl implements IfcTaskTim
      */
     @Override
     public void setCompletionAsString(String newCompletionAsString) {
-        eSet(Ifc4Package.Literals.IFC_TASK_TIME__COMPLETION_AS_STRING, newCompletionAsString);
+        eSet(Ifc4Package.eINSTANCE.getIfcTaskTime_CompletionAsString(), newCompletionAsString);
     }
 
     /**
@@ -780,7 +780,7 @@ public class IfcTaskTimeImpl extends IfcSchedulingTimeImpl implements IfcTaskTim
      */
     @Override
     public void unsetCompletionAsString() {
-        eUnset(Ifc4Package.Literals.IFC_TASK_TIME__COMPLETION_AS_STRING);
+        eUnset(Ifc4Package.eINSTANCE.getIfcTaskTime_CompletionAsString());
     }
 
     /**
@@ -790,7 +790,7 @@ public class IfcTaskTimeImpl extends IfcSchedulingTimeImpl implements IfcTaskTim
      */
     @Override
     public boolean isSetCompletionAsString() {
-        return eIsSet(Ifc4Package.Literals.IFC_TASK_TIME__COMPLETION_AS_STRING);
+        return eIsSet(Ifc4Package.eINSTANCE.getIfcTaskTime_CompletionAsString());
     }
 
 } //IfcTaskTimeImpl

@@ -55,7 +55,7 @@ public class IfcDerivedUnitElementImpl extends IdEObjectImpl implements IfcDeriv
      */
     @Override
     protected EClass eStaticClass() {
-        return Ifc2x3tc1Package.Literals.IFC_DERIVED_UNIT_ELEMENT;
+        return Ifc2x3tc1Package.eINSTANCE.getIfcDerivedUnitElement();
     }
 
     /**
@@ -75,7 +75,7 @@ public class IfcDerivedUnitElementImpl extends IdEObjectImpl implements IfcDeriv
      */
     @Override
     public IfcNamedUnit getUnit() {
-        return (IfcNamedUnit) eGet(Ifc2x3tc1Package.Literals.IFC_DERIVED_UNIT_ELEMENT__UNIT, true);
+        return (IfcNamedUnit) eGet(Ifc2x3tc1Package.eINSTANCE.getIfcDerivedUnitElement_Unit(), true);
     }
 
     /**
@@ -85,7 +85,7 @@ public class IfcDerivedUnitElementImpl extends IdEObjectImpl implements IfcDeriv
      */
     @Override
     public void setUnit(IfcNamedUnit newUnit) {
-        eSet(Ifc2x3tc1Package.Literals.IFC_DERIVED_UNIT_ELEMENT__UNIT, newUnit);
+        eSet(Ifc2x3tc1Package.eINSTANCE.getIfcDerivedUnitElement_Unit(), newUnit);
     }
 
     /**
@@ -95,7 +95,7 @@ public class IfcDerivedUnitElementImpl extends IdEObjectImpl implements IfcDeriv
      */
     @Override
     public long getExponent() {
-        return (Long) eGet(Ifc2x3tc1Package.Literals.IFC_DERIVED_UNIT_ELEMENT__EXPONENT, true);
+        return (Long) eGet(Ifc2x3tc1Package.eINSTANCE.getIfcDerivedUnitElement_Exponent(), true);
     }
 
     /**
@@ -105,7 +105,7 @@ public class IfcDerivedUnitElementImpl extends IdEObjectImpl implements IfcDeriv
      */
     @Override
     public void setExponent(long newExponent) {
-        eSet(Ifc2x3tc1Package.Literals.IFC_DERIVED_UNIT_ELEMENT__EXPONENT, newExponent);
+        eSet(Ifc2x3tc1Package.eINSTANCE.getIfcDerivedUnitElement_Exponent(), newExponent);
     }
 
 } //IfcDerivedUnitElementImpl

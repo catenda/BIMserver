@@ -54,7 +54,7 @@ public class IfcRelDefinesImpl extends IfcRelationshipImpl implements IfcRelDefi
      */
     @Override
     protected EClass eStaticClass() {
-        return Ifc2x3tc1Package.Literals.IFC_REL_DEFINES;
+        return Ifc2x3tc1Package.eINSTANCE.getIfcRelDefines();
     }
 
     /**
@@ -65,7 +65,7 @@ public class IfcRelDefinesImpl extends IfcRelationshipImpl implements IfcRelDefi
     @SuppressWarnings("unchecked")
     @Override
     public EList<IfcObject> getRelatedObjects() {
-        return (EList<IfcObject>) eGet(Ifc2x3tc1Package.Literals.IFC_REL_DEFINES__RELATED_OBJECTS, true);
+        return (EList<IfcObject>) eGet(Ifc2x3tc1Package.eINSTANCE.getIfcRelDefines_RelatedObjects(), true);
     }
 
 } //IfcRelDefinesImpl

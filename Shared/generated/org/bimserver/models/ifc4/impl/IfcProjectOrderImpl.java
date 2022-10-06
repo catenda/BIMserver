@@ -54,7 +54,7 @@ public class IfcProjectOrderImpl extends IfcControlImpl implements IfcProjectOrd
      */
     @Override
     protected EClass eStaticClass() {
-        return Ifc4Package.Literals.IFC_PROJECT_ORDER;
+        return Ifc4Package.eINSTANCE.getIfcProjectOrder();
     }
 
     /**
@@ -64,7 +64,7 @@ public class IfcProjectOrderImpl extends IfcControlImpl implements IfcProjectOrd
      */
     @Override
     public IfcProjectOrderTypeEnum getPredefinedType() {
-        return (IfcProjectOrderTypeEnum) eGet(Ifc4Package.Literals.IFC_PROJECT_ORDER__PREDEFINED_TYPE, true);
+        return (IfcProjectOrderTypeEnum) eGet(Ifc4Package.eINSTANCE.getIfcProjectOrder_PredefinedType(), true);
     }
 
     /**
@@ -74,7 +74,7 @@ public class IfcProjectOrderImpl extends IfcControlImpl implements IfcProjectOrd
      */
     @Override
     public void setPredefinedType(IfcProjectOrderTypeEnum newPredefinedType) {
-        eSet(Ifc4Package.Literals.IFC_PROJECT_ORDER__PREDEFINED_TYPE, newPredefinedType);
+        eSet(Ifc4Package.eINSTANCE.getIfcProjectOrder_PredefinedType(), newPredefinedType);
     }
 
     /**
@@ -84,7 +84,7 @@ public class IfcProjectOrderImpl extends IfcControlImpl implements IfcProjectOrd
      */
     @Override
     public void unsetPredefinedType() {
-        eUnset(Ifc4Package.Literals.IFC_PROJECT_ORDER__PREDEFINED_TYPE);
+        eUnset(Ifc4Package.eINSTANCE.getIfcProjectOrder_PredefinedType());
     }
 
     /**
@@ -94,7 +94,7 @@ public class IfcProjectOrderImpl extends IfcControlImpl implements IfcProjectOrd
      */
     @Override
     public boolean isSetPredefinedType() {
-        return eIsSet(Ifc4Package.Literals.IFC_PROJECT_ORDER__PREDEFINED_TYPE);
+        return eIsSet(Ifc4Package.eINSTANCE.getIfcProjectOrder_PredefinedType());
     }
 
     /**
@@ -104,7 +104,7 @@ public class IfcProjectOrderImpl extends IfcControlImpl implements IfcProjectOrd
      */
     @Override
     public String getStatus() {
-        return (String) eGet(Ifc4Package.Literals.IFC_PROJECT_ORDER__STATUS, true);
+        return (String) eGet(Ifc4Package.eINSTANCE.getIfcProjectOrder_Status(), true);
     }
 
     /**
@@ -114,7 +114,7 @@ public class IfcProjectOrderImpl extends IfcControlImpl implements IfcProjectOrd
      */
     @Override
     public void setStatus(String newStatus) {
-        eSet(Ifc4Package.Literals.IFC_PROJECT_ORDER__STATUS, newStatus);
+        eSet(Ifc4Package.eINSTANCE.getIfcProjectOrder_Status(), newStatus);
     }
 
     /**
@@ -124,7 +124,7 @@ public class IfcProjectOrderImpl extends IfcControlImpl implements IfcProjectOrd
      */
     @Override
     public void unsetStatus() {
-        eUnset(Ifc4Package.Literals.IFC_PROJECT_ORDER__STATUS);
+        eUnset(Ifc4Package.eINSTANCE.getIfcProjectOrder_Status());
     }
 
     /**
@@ -134,7 +134,7 @@ public class IfcProjectOrderImpl extends IfcControlImpl implements IfcProjectOrd
      */
     @Override
     public boolean isSetStatus() {
-        return eIsSet(Ifc4Package.Literals.IFC_PROJECT_ORDER__STATUS);
+        return eIsSet(Ifc4Package.eINSTANCE.getIfcProjectOrder_Status());
     }
 
     /**
@@ -144,7 +144,7 @@ public class IfcProjectOrderImpl extends IfcControlImpl implements IfcProjectOrd
      */
     @Override
     public String getLongDescription() {
-        return (String) eGet(Ifc4Package.Literals.IFC_PROJECT_ORDER__LONG_DESCRIPTION, true);
+        return (String) eGet(Ifc4Package.eINSTANCE.getIfcProjectOrder_LongDescription(), true);
     }
 
     /**
@@ -154,7 +154,7 @@ public class IfcProjectOrderImpl extends IfcControlImpl implements IfcProjectOrd
      */
     @Override
     public void setLongDescription(String newLongDescription) {
-        eSet(Ifc4Package.Literals.IFC_PROJECT_ORDER__LONG_DESCRIPTION, newLongDescription);
+        eSet(Ifc4Package.eINSTANCE.getIfcProjectOrder_LongDescription(), newLongDescription);
     }
 
     /**
@@ -164,7 +164,7 @@ public class IfcProjectOrderImpl extends IfcControlImpl implements IfcProjectOrd
      */
     @Override
     public void unsetLongDescription() {
-        eUnset(Ifc4Package.Literals.IFC_PROJECT_ORDER__LONG_DESCRIPTION);
+        eUnset(Ifc4Package.eINSTANCE.getIfcProjectOrder_LongDescription());
     }
 
     /**
@@ -174,7 +174,7 @@ public class IfcProjectOrderImpl extends IfcControlImpl implements IfcProjectOrd
      */
     @Override
     public boolean isSetLongDescription() {
-        return eIsSet(Ifc4Package.Literals.IFC_PROJECT_ORDER__LONG_DESCRIPTION);
+        return eIsSet(Ifc4Package.eINSTANCE.getIfcProjectOrder_LongDescription());
     }
 
 } //IfcProjectOrderImpl

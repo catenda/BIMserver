@@ -56,7 +56,7 @@ public class IfcReinforcementDefinitionPropertiesImpl extends IfcPreDefinedPrope
      */
     @Override
     protected EClass eStaticClass() {
-        return Ifc4Package.Literals.IFC_REINFORCEMENT_DEFINITION_PROPERTIES;
+        return Ifc4Package.eINSTANCE.getIfcReinforcementDefinitionProperties();
     }
 
     /**
@@ -66,7 +66,7 @@ public class IfcReinforcementDefinitionPropertiesImpl extends IfcPreDefinedPrope
      */
     @Override
     public String getDefinitionType() {
-        return (String) eGet(Ifc4Package.Literals.IFC_REINFORCEMENT_DEFINITION_PROPERTIES__DEFINITION_TYPE, true);
+        return (String) eGet(Ifc4Package.eINSTANCE.getIfcReinforcementDefinitionProperties_DefinitionType(), true);
     }
 
     /**
@@ -76,7 +76,7 @@ public class IfcReinforcementDefinitionPropertiesImpl extends IfcPreDefinedPrope
      */
     @Override
     public void setDefinitionType(String newDefinitionType) {
-        eSet(Ifc4Package.Literals.IFC_REINFORCEMENT_DEFINITION_PROPERTIES__DEFINITION_TYPE, newDefinitionType);
+        eSet(Ifc4Package.eINSTANCE.getIfcReinforcementDefinitionProperties_DefinitionType(), newDefinitionType);
     }
 
     /**
@@ -86,7 +86,7 @@ public class IfcReinforcementDefinitionPropertiesImpl extends IfcPreDefinedPrope
      */
     @Override
     public void unsetDefinitionType() {
-        eUnset(Ifc4Package.Literals.IFC_REINFORCEMENT_DEFINITION_PROPERTIES__DEFINITION_TYPE);
+        eUnset(Ifc4Package.eINSTANCE.getIfcReinforcementDefinitionProperties_DefinitionType());
     }
 
     /**
@@ -96,7 +96,7 @@ public class IfcReinforcementDefinitionPropertiesImpl extends IfcPreDefinedPrope
      */
     @Override
     public boolean isSetDefinitionType() {
-        return eIsSet(Ifc4Package.Literals.IFC_REINFORCEMENT_DEFINITION_PROPERTIES__DEFINITION_TYPE);
+        return eIsSet(Ifc4Package.eINSTANCE.getIfcReinforcementDefinitionProperties_DefinitionType());
     }
 
     /**
@@ -108,7 +108,7 @@ public class IfcReinforcementDefinitionPropertiesImpl extends IfcPreDefinedPrope
     @Override
     public EList<IfcSectionReinforcementProperties> getReinforcementSectionDefinitions() {
         return (EList<IfcSectionReinforcementProperties>) eGet(
-                Ifc4Package.Literals.IFC_REINFORCEMENT_DEFINITION_PROPERTIES__REINFORCEMENT_SECTION_DEFINITIONS, true);
+                Ifc4Package.eINSTANCE.getIfcReinforcementDefinitionProperties_ReinforcementSectionDefinitions(), true);
     }
 
 } //IfcReinforcementDefinitionPropertiesImpl

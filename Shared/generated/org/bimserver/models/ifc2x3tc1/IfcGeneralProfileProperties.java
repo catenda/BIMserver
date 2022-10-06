@@ -45,10 +45,6 @@ public interface IfcGeneralProfileProperties extends IfcProfileProperties {
     /**
      * Returns the value of the '<em><b>Physical Weight</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Physical Weight</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Physical Weight</em>' attribute.
      * @see #isSetPhysicalWeight()
@@ -98,10 +94,6 @@ public interface IfcGeneralProfileProperties extends IfcProfileProperties {
     /**
      * Returns the value of the '<em><b>Physical Weight As String</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Physical Weight As String</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Physical Weight As String</em>' attribute.
      * @see #isSetPhysicalWeightAsString()
@@ -153,10 +145,6 @@ public interface IfcGeneralProfileProperties extends IfcProfileProperties {
     /**
      * Returns the value of the '<em><b>Perimeter</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Perimeter</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Perimeter</em>' attribute.
      * @see #isSetPerimeter()
@@ -206,10 +194,6 @@ public interface IfcGeneralProfileProperties extends IfcProfileProperties {
     /**
      * Returns the value of the '<em><b>Perimeter As String</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Perimeter As String</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Perimeter As String</em>' attribute.
      * @see #isSetPerimeterAsString()
@@ -261,10 +245,6 @@ public interface IfcGeneralProfileProperties extends IfcProfileProperties {
     /**
      * Returns the value of the '<em><b>Minimum Plate Thickness</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Minimum Plate Thickness</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Minimum Plate Thickness</em>' attribute.
      * @see #isSetMinimumPlateThickness()
@@ -314,10 +294,6 @@ public interface IfcGeneralProfileProperties extends IfcProfileProperties {
     /**
      * Returns the value of the '<em><b>Minimum Plate Thickness As String</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Minimum Plate Thickness As String</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Minimum Plate Thickness As String</em>' attribute.
      * @see #isSetMinimumPlateThicknessAsString()
@@ -369,10 +345,6 @@ public interface IfcGeneralProfileProperties extends IfcProfileProperties {
     /**
      * Returns the value of the '<em><b>Maximum Plate Thickness</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Maximum Plate Thickness</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Maximum Plate Thickness</em>' attribute.
      * @see #isSetMaximumPlateThickness()
@@ -422,10 +394,6 @@ public interface IfcGeneralProfileProperties extends IfcProfileProperties {
     /**
      * Returns the value of the '<em><b>Maximum Plate Thickness As String</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Maximum Plate Thickness As String</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Maximum Plate Thickness As String</em>' attribute.
      * @see #isSetMaximumPlateThicknessAsString()
@@ -477,10 +445,6 @@ public interface IfcGeneralProfileProperties extends IfcProfileProperties {
     /**
      * Returns the value of the '<em><b>Cross Section Area</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Cross Section Area</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Cross Section Area</em>' attribute.
      * @see #isSetCrossSectionArea()
@@ -530,10 +494,6 @@ public interface IfcGeneralProfileProperties extends IfcProfileProperties {
     /**
      * Returns the value of the '<em><b>Cross Section Area As String</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Cross Section Area As String</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Cross Section Area As String</em>' attribute.
      * @see #isSetCrossSectionAreaAsString()

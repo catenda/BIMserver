@@ -19,7 +19,6 @@ package org.bimserver.models.ifc4.impl;
 import org.bimserver.models.ifc4.Ifc4Package;
 import org.bimserver.models.ifc4.IfcColourRgbList;
 import org.bimserver.models.ifc4.IfcIndexedColourMap;
-import org.bimserver.models.ifc4.IfcSurfaceStyleShading;
 import org.bimserver.models.ifc4.IfcTessellatedFaceSet;
 
 import org.eclipse.emf.common.util.EList;
@@ -60,7 +59,7 @@ public class IfcIndexedColourMapImpl extends IfcPresentationItemImpl implements 
      */
     @Override
     protected EClass eStaticClass() {
-        return Ifc4Package.Literals.IFC_INDEXED_COLOUR_MAP;
+        return Ifc4Package.eINSTANCE.getIfcIndexedColourMap();
     }
 
     /**
@@ -70,7 +69,7 @@ public class IfcIndexedColourMapImpl extends IfcPresentationItemImpl implements 
      */
     @Override
     public IfcTessellatedFaceSet getMappedTo() {
-        return (IfcTessellatedFaceSet) eGet(Ifc4Package.Literals.IFC_INDEXED_COLOUR_MAP__MAPPED_TO, true);
+        return (IfcTessellatedFaceSet) eGet(Ifc4Package.eINSTANCE.getIfcIndexedColourMap_MappedTo(), true);
     }
 
     /**
@@ -80,7 +79,7 @@ public class IfcIndexedColourMapImpl extends IfcPresentationItemImpl implements 
      */
     @Override
     public void setMappedTo(IfcTessellatedFaceSet newMappedTo) {
-        eSet(Ifc4Package.Literals.IFC_INDEXED_COLOUR_MAP__MAPPED_TO, newMappedTo);
+        eSet(Ifc4Package.eINSTANCE.getIfcIndexedColourMap_MappedTo(), newMappedTo);
     }
 
     /**
@@ -90,7 +89,7 @@ public class IfcIndexedColourMapImpl extends IfcPresentationItemImpl implements 
      */
     @Override
     public double getOpacity() {
-        return (Double) eGet(Ifc4Package.Literals.IFC_INDEXED_COLOUR_MAP__OPACITY, true);
+        return (Double) eGet(Ifc4Package.eINSTANCE.getIfcIndexedColourMap_Opacity(), true);
     }
 
     /**
@@ -100,7 +99,7 @@ public class IfcIndexedColourMapImpl extends IfcPresentationItemImpl implements 
      */
     @Override
     public void setOpacity(double newOpacity) {
-        eSet(Ifc4Package.Literals.IFC_INDEXED_COLOUR_MAP__OPACITY, newOpacity);
+        eSet(Ifc4Package.eINSTANCE.getIfcIndexedColourMap_Opacity(), newOpacity);
     }
 
     /**
@@ -110,7 +109,7 @@ public class IfcIndexedColourMapImpl extends IfcPresentationItemImpl implements 
      */
     @Override
     public void unsetOpacity() {
-        eUnset(Ifc4Package.Literals.IFC_INDEXED_COLOUR_MAP__OPACITY);
+        eUnset(Ifc4Package.eINSTANCE.getIfcIndexedColourMap_Opacity());
     }
 
     /**
@@ -120,7 +119,7 @@ public class IfcIndexedColourMapImpl extends IfcPresentationItemImpl implements 
      */
     @Override
     public boolean isSetOpacity() {
-        return eIsSet(Ifc4Package.Literals.IFC_INDEXED_COLOUR_MAP__OPACITY);
+        return eIsSet(Ifc4Package.eINSTANCE.getIfcIndexedColourMap_Opacity());
     }
 
     /**
@@ -130,7 +129,7 @@ public class IfcIndexedColourMapImpl extends IfcPresentationItemImpl implements 
      */
     @Override
     public String getOpacityAsString() {
-        return (String) eGet(Ifc4Package.Literals.IFC_INDEXED_COLOUR_MAP__OPACITY_AS_STRING, true);
+        return (String) eGet(Ifc4Package.eINSTANCE.getIfcIndexedColourMap_OpacityAsString(), true);
     }
 
     /**
@@ -140,7 +139,7 @@ public class IfcIndexedColourMapImpl extends IfcPresentationItemImpl implements 
      */
     @Override
     public void setOpacityAsString(String newOpacityAsString) {
-        eSet(Ifc4Package.Literals.IFC_INDEXED_COLOUR_MAP__OPACITY_AS_STRING, newOpacityAsString);
+        eSet(Ifc4Package.eINSTANCE.getIfcIndexedColourMap_OpacityAsString(), newOpacityAsString);
     }
 
     /**
@@ -150,7 +149,7 @@ public class IfcIndexedColourMapImpl extends IfcPresentationItemImpl implements 
      */
     @Override
     public void unsetOpacityAsString() {
-        eUnset(Ifc4Package.Literals.IFC_INDEXED_COLOUR_MAP__OPACITY_AS_STRING);
+        eUnset(Ifc4Package.eINSTANCE.getIfcIndexedColourMap_OpacityAsString());
     }
 
     /**
@@ -160,7 +159,7 @@ public class IfcIndexedColourMapImpl extends IfcPresentationItemImpl implements 
      */
     @Override
     public boolean isSetOpacityAsString() {
-        return eIsSet(Ifc4Package.Literals.IFC_INDEXED_COLOUR_MAP__OPACITY_AS_STRING);
+        return eIsSet(Ifc4Package.eINSTANCE.getIfcIndexedColourMap_OpacityAsString());
     }
 
     /**
@@ -170,7 +169,7 @@ public class IfcIndexedColourMapImpl extends IfcPresentationItemImpl implements 
      */
     @Override
     public IfcColourRgbList getColours() {
-        return (IfcColourRgbList) eGet(Ifc4Package.Literals.IFC_INDEXED_COLOUR_MAP__COLOURS, true);
+        return (IfcColourRgbList) eGet(Ifc4Package.eINSTANCE.getIfcIndexedColourMap_Colours(), true);
     }
 
     /**
@@ -180,7 +179,7 @@ public class IfcIndexedColourMapImpl extends IfcPresentationItemImpl implements 
      */
     @Override
     public void setColours(IfcColourRgbList newColours) {
-        eSet(Ifc4Package.Literals.IFC_INDEXED_COLOUR_MAP__COLOURS, newColours);
+        eSet(Ifc4Package.eINSTANCE.getIfcIndexedColourMap_Colours(), newColours);
     }
 
     /**
@@ -191,7 +190,7 @@ public class IfcIndexedColourMapImpl extends IfcPresentationItemImpl implements 
     @SuppressWarnings("unchecked")
     @Override
     public EList<Long> getColourIndex() {
-        return (EList<Long>) eGet(Ifc4Package.Literals.IFC_INDEXED_COLOUR_MAP__COLOUR_INDEX, true);
+        return (EList<Long>) eGet(Ifc4Package.eINSTANCE.getIfcIndexedColourMap_ColourIndex(), true);
     }
 
 } //IfcIndexedColourMapImpl

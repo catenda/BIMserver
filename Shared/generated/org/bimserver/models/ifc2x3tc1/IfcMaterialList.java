@@ -39,10 +39,6 @@ public interface IfcMaterialList extends IfcMaterialSelect, IfcObjectReferenceSe
      * Returns the value of the '<em><b>Materials</b></em>' reference list.
      * The list contents are of type {@link org.bimserver.models.ifc2x3tc1.IfcMaterial}.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Materials</em>' reference list isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Materials</em>' reference list.
      * @see org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package#getIfcMaterialList_Materials()

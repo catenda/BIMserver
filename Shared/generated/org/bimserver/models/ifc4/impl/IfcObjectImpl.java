@@ -60,7 +60,7 @@ public class IfcObjectImpl extends IfcObjectDefinitionImpl implements IfcObject 
      */
     @Override
     protected EClass eStaticClass() {
-        return Ifc4Package.Literals.IFC_OBJECT;
+        return Ifc4Package.eINSTANCE.getIfcObject();
     }
 
     /**
@@ -70,7 +70,7 @@ public class IfcObjectImpl extends IfcObjectDefinitionImpl implements IfcObject 
      */
     @Override
     public String getObjectType() {
-        return (String) eGet(Ifc4Package.Literals.IFC_OBJECT__OBJECT_TYPE, true);
+        return (String) eGet(Ifc4Package.eINSTANCE.getIfcObject_ObjectType(), true);
     }
 
     /**
@@ -80,7 +80,7 @@ public class IfcObjectImpl extends IfcObjectDefinitionImpl implements IfcObject 
      */
     @Override
     public void setObjectType(String newObjectType) {
-        eSet(Ifc4Package.Literals.IFC_OBJECT__OBJECT_TYPE, newObjectType);
+        eSet(Ifc4Package.eINSTANCE.getIfcObject_ObjectType(), newObjectType);
     }
 
     /**
@@ -90,7 +90,7 @@ public class IfcObjectImpl extends IfcObjectDefinitionImpl implements IfcObject 
      */
     @Override
     public void unsetObjectType() {
-        eUnset(Ifc4Package.Literals.IFC_OBJECT__OBJECT_TYPE);
+        eUnset(Ifc4Package.eINSTANCE.getIfcObject_ObjectType());
     }
 
     /**
@@ -100,7 +100,7 @@ public class IfcObjectImpl extends IfcObjectDefinitionImpl implements IfcObject 
      */
     @Override
     public boolean isSetObjectType() {
-        return eIsSet(Ifc4Package.Literals.IFC_OBJECT__OBJECT_TYPE);
+        return eIsSet(Ifc4Package.eINSTANCE.getIfcObject_ObjectType());
     }
 
     /**
@@ -111,7 +111,7 @@ public class IfcObjectImpl extends IfcObjectDefinitionImpl implements IfcObject 
     @SuppressWarnings("unchecked")
     @Override
     public EList<IfcRelDefinesByObject> getIsDeclaredBy() {
-        return (EList<IfcRelDefinesByObject>) eGet(Ifc4Package.Literals.IFC_OBJECT__IS_DECLARED_BY, true);
+        return (EList<IfcRelDefinesByObject>) eGet(Ifc4Package.eINSTANCE.getIfcObject_IsDeclaredBy(), true);
     }
 
     /**
@@ -121,7 +121,7 @@ public class IfcObjectImpl extends IfcObjectDefinitionImpl implements IfcObject 
      */
     @Override
     public void unsetIsDeclaredBy() {
-        eUnset(Ifc4Package.Literals.IFC_OBJECT__IS_DECLARED_BY);
+        eUnset(Ifc4Package.eINSTANCE.getIfcObject_IsDeclaredBy());
     }
 
     /**
@@ -131,7 +131,7 @@ public class IfcObjectImpl extends IfcObjectDefinitionImpl implements IfcObject 
      */
     @Override
     public boolean isSetIsDeclaredBy() {
-        return eIsSet(Ifc4Package.Literals.IFC_OBJECT__IS_DECLARED_BY);
+        return eIsSet(Ifc4Package.eINSTANCE.getIfcObject_IsDeclaredBy());
     }
 
     /**
@@ -142,7 +142,7 @@ public class IfcObjectImpl extends IfcObjectDefinitionImpl implements IfcObject 
     @SuppressWarnings("unchecked")
     @Override
     public EList<IfcRelDefinesByObject> getDeclares() {
-        return (EList<IfcRelDefinesByObject>) eGet(Ifc4Package.Literals.IFC_OBJECT__DECLARES, true);
+        return (EList<IfcRelDefinesByObject>) eGet(Ifc4Package.eINSTANCE.getIfcObject_Declares(), true);
     }
 
     /**
@@ -152,7 +152,7 @@ public class IfcObjectImpl extends IfcObjectDefinitionImpl implements IfcObject 
      */
     @Override
     public void unsetDeclares() {
-        eUnset(Ifc4Package.Literals.IFC_OBJECT__DECLARES);
+        eUnset(Ifc4Package.eINSTANCE.getIfcObject_Declares());
     }
 
     /**
@@ -162,7 +162,7 @@ public class IfcObjectImpl extends IfcObjectDefinitionImpl implements IfcObject 
      */
     @Override
     public boolean isSetDeclares() {
-        return eIsSet(Ifc4Package.Literals.IFC_OBJECT__DECLARES);
+        return eIsSet(Ifc4Package.eINSTANCE.getIfcObject_Declares());
     }
 
     /**
@@ -173,7 +173,7 @@ public class IfcObjectImpl extends IfcObjectDefinitionImpl implements IfcObject 
     @SuppressWarnings("unchecked")
     @Override
     public EList<IfcRelDefinesByType> getIsTypedBy() {
-        return (EList<IfcRelDefinesByType>) eGet(Ifc4Package.Literals.IFC_OBJECT__IS_TYPED_BY, true);
+        return (EList<IfcRelDefinesByType>) eGet(Ifc4Package.eINSTANCE.getIfcObject_IsTypedBy(), true);
     }
 
     /**
@@ -183,7 +183,7 @@ public class IfcObjectImpl extends IfcObjectDefinitionImpl implements IfcObject 
      */
     @Override
     public void unsetIsTypedBy() {
-        eUnset(Ifc4Package.Literals.IFC_OBJECT__IS_TYPED_BY);
+        eUnset(Ifc4Package.eINSTANCE.getIfcObject_IsTypedBy());
     }
 
     /**
@@ -193,7 +193,7 @@ public class IfcObjectImpl extends IfcObjectDefinitionImpl implements IfcObject 
      */
     @Override
     public boolean isSetIsTypedBy() {
-        return eIsSet(Ifc4Package.Literals.IFC_OBJECT__IS_TYPED_BY);
+        return eIsSet(Ifc4Package.eINSTANCE.getIfcObject_IsTypedBy());
     }
 
     /**
@@ -204,7 +204,7 @@ public class IfcObjectImpl extends IfcObjectDefinitionImpl implements IfcObject 
     @SuppressWarnings("unchecked")
     @Override
     public EList<IfcRelDefinesByProperties> getIsDefinedBy() {
-        return (EList<IfcRelDefinesByProperties>) eGet(Ifc4Package.Literals.IFC_OBJECT__IS_DEFINED_BY, true);
+        return (EList<IfcRelDefinesByProperties>) eGet(Ifc4Package.eINSTANCE.getIfcObject_IsDefinedBy(), true);
     }
 
     /**
@@ -214,7 +214,7 @@ public class IfcObjectImpl extends IfcObjectDefinitionImpl implements IfcObject 
      */
     @Override
     public void unsetIsDefinedBy() {
-        eUnset(Ifc4Package.Literals.IFC_OBJECT__IS_DEFINED_BY);
+        eUnset(Ifc4Package.eINSTANCE.getIfcObject_IsDefinedBy());
     }
 
     /**
@@ -224,7 +224,7 @@ public class IfcObjectImpl extends IfcObjectDefinitionImpl implements IfcObject 
      */
     @Override
     public boolean isSetIsDefinedBy() {
-        return eIsSet(Ifc4Package.Literals.IFC_OBJECT__IS_DEFINED_BY);
+        return eIsSet(Ifc4Package.eINSTANCE.getIfcObject_IsDefinedBy());
     }
 
 } //IfcObjectImpl

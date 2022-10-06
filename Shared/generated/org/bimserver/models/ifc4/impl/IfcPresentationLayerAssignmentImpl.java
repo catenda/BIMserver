@@ -59,7 +59,7 @@ public class IfcPresentationLayerAssignmentImpl extends IdEObjectImpl implements
      */
     @Override
     protected EClass eStaticClass() {
-        return Ifc4Package.Literals.IFC_PRESENTATION_LAYER_ASSIGNMENT;
+        return Ifc4Package.eINSTANCE.getIfcPresentationLayerAssignment();
     }
 
     /**
@@ -79,7 +79,7 @@ public class IfcPresentationLayerAssignmentImpl extends IdEObjectImpl implements
      */
     @Override
     public String getName() {
-        return (String) eGet(Ifc4Package.Literals.IFC_PRESENTATION_LAYER_ASSIGNMENT__NAME, true);
+        return (String) eGet(Ifc4Package.eINSTANCE.getIfcPresentationLayerAssignment_Name(), true);
     }
 
     /**
@@ -89,7 +89,7 @@ public class IfcPresentationLayerAssignmentImpl extends IdEObjectImpl implements
      */
     @Override
     public void setName(String newName) {
-        eSet(Ifc4Package.Literals.IFC_PRESENTATION_LAYER_ASSIGNMENT__NAME, newName);
+        eSet(Ifc4Package.eINSTANCE.getIfcPresentationLayerAssignment_Name(), newName);
     }
 
     /**
@@ -99,7 +99,7 @@ public class IfcPresentationLayerAssignmentImpl extends IdEObjectImpl implements
      */
     @Override
     public String getDescription() {
-        return (String) eGet(Ifc4Package.Literals.IFC_PRESENTATION_LAYER_ASSIGNMENT__DESCRIPTION, true);
+        return (String) eGet(Ifc4Package.eINSTANCE.getIfcPresentationLayerAssignment_Description(), true);
     }
 
     /**
@@ -109,7 +109,7 @@ public class IfcPresentationLayerAssignmentImpl extends IdEObjectImpl implements
      */
     @Override
     public void setDescription(String newDescription) {
-        eSet(Ifc4Package.Literals.IFC_PRESENTATION_LAYER_ASSIGNMENT__DESCRIPTION, newDescription);
+        eSet(Ifc4Package.eINSTANCE.getIfcPresentationLayerAssignment_Description(), newDescription);
     }
 
     /**
@@ -119,7 +119,7 @@ public class IfcPresentationLayerAssignmentImpl extends IdEObjectImpl implements
      */
     @Override
     public void unsetDescription() {
-        eUnset(Ifc4Package.Literals.IFC_PRESENTATION_LAYER_ASSIGNMENT__DESCRIPTION);
+        eUnset(Ifc4Package.eINSTANCE.getIfcPresentationLayerAssignment_Description());
     }
 
     /**
@@ -129,7 +129,7 @@ public class IfcPresentationLayerAssignmentImpl extends IdEObjectImpl implements
      */
     @Override
     public boolean isSetDescription() {
-        return eIsSet(Ifc4Package.Literals.IFC_PRESENTATION_LAYER_ASSIGNMENT__DESCRIPTION);
+        return eIsSet(Ifc4Package.eINSTANCE.getIfcPresentationLayerAssignment_Description());
     }
 
     /**
@@ -140,7 +140,7 @@ public class IfcPresentationLayerAssignmentImpl extends IdEObjectImpl implements
     @SuppressWarnings("unchecked")
     @Override
     public EList<IfcLayeredItem> getAssignedItems() {
-        return (EList<IfcLayeredItem>) eGet(Ifc4Package.Literals.IFC_PRESENTATION_LAYER_ASSIGNMENT__ASSIGNED_ITEMS,
+        return (EList<IfcLayeredItem>) eGet(Ifc4Package.eINSTANCE.getIfcPresentationLayerAssignment_AssignedItems(),
                 true);
     }
 
@@ -151,7 +151,7 @@ public class IfcPresentationLayerAssignmentImpl extends IdEObjectImpl implements
      */
     @Override
     public String getIdentifier() {
-        return (String) eGet(Ifc4Package.Literals.IFC_PRESENTATION_LAYER_ASSIGNMENT__IDENTIFIER, true);
+        return (String) eGet(Ifc4Package.eINSTANCE.getIfcPresentationLayerAssignment_Identifier(), true);
     }
 
     /**
@@ -161,7 +161,7 @@ public class IfcPresentationLayerAssignmentImpl extends IdEObjectImpl implements
      */
     @Override
     public void setIdentifier(String newIdentifier) {
-        eSet(Ifc4Package.Literals.IFC_PRESENTATION_LAYER_ASSIGNMENT__IDENTIFIER, newIdentifier);
+        eSet(Ifc4Package.eINSTANCE.getIfcPresentationLayerAssignment_Identifier(), newIdentifier);
     }
 
     /**
@@ -171,7 +171,7 @@ public class IfcPresentationLayerAssignmentImpl extends IdEObjectImpl implements
      */
     @Override
     public void unsetIdentifier() {
-        eUnset(Ifc4Package.Literals.IFC_PRESENTATION_LAYER_ASSIGNMENT__IDENTIFIER);
+        eUnset(Ifc4Package.eINSTANCE.getIfcPresentationLayerAssignment_Identifier());
     }
 
     /**
@@ -181,7 +181,7 @@ public class IfcPresentationLayerAssignmentImpl extends IdEObjectImpl implements
      */
     @Override
     public boolean isSetIdentifier() {
-        return eIsSet(Ifc4Package.Literals.IFC_PRESENTATION_LAYER_ASSIGNMENT__IDENTIFIER);
+        return eIsSet(Ifc4Package.eINSTANCE.getIfcPresentationLayerAssignment_Identifier());
     }
 
 } //IfcPresentationLayerAssignmentImpl

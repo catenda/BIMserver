@@ -41,10 +41,6 @@ public interface Migration extends IdEObject {
     /**
      * Returns the value of the '<em><b>Number</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Number</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Number</em>' attribute.
      * @see #setNumber(Integer)
@@ -67,10 +63,6 @@ public interface Migration extends IdEObject {
     /**
      * Returns the value of the '<em><b>Description</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Description</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Description</em>' attribute.
      * @see #setDescription(String)
@@ -93,10 +85,6 @@ public interface Migration extends IdEObject {
     /**
      * Returns the value of the '<em><b>Executed</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Executed</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Executed</em>' attribute.
      * @see #setExecuted(Boolean)

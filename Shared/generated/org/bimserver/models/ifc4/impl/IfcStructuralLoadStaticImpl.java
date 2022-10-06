@@ -45,7 +45,7 @@ public class IfcStructuralLoadStaticImpl extends IfcStructuralLoadOrResultImpl i
      */
     @Override
     protected EClass eStaticClass() {
-        return Ifc4Package.Literals.IFC_STRUCTURAL_LOAD_STATIC;
+        return Ifc4Package.eINSTANCE.getIfcStructuralLoadStatic();
     }
 
 } //IfcStructuralLoadStaticImpl

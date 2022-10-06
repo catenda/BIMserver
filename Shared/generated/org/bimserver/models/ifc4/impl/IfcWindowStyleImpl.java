@@ -57,7 +57,7 @@ public class IfcWindowStyleImpl extends IfcTypeProductImpl implements IfcWindowS
      */
     @Override
     protected EClass eStaticClass() {
-        return Ifc4Package.Literals.IFC_WINDOW_STYLE;
+        return Ifc4Package.eINSTANCE.getIfcWindowStyle();
     }
 
     /**
@@ -67,7 +67,7 @@ public class IfcWindowStyleImpl extends IfcTypeProductImpl implements IfcWindowS
      */
     @Override
     public IfcWindowStyleConstructionEnum getConstructionType() {
-        return (IfcWindowStyleConstructionEnum) eGet(Ifc4Package.Literals.IFC_WINDOW_STYLE__CONSTRUCTION_TYPE, true);
+        return (IfcWindowStyleConstructionEnum) eGet(Ifc4Package.eINSTANCE.getIfcWindowStyle_ConstructionType(), true);
     }
 
     /**
@@ -77,7 +77,7 @@ public class IfcWindowStyleImpl extends IfcTypeProductImpl implements IfcWindowS
      */
     @Override
     public void setConstructionType(IfcWindowStyleConstructionEnum newConstructionType) {
-        eSet(Ifc4Package.Literals.IFC_WINDOW_STYLE__CONSTRUCTION_TYPE, newConstructionType);
+        eSet(Ifc4Package.eINSTANCE.getIfcWindowStyle_ConstructionType(), newConstructionType);
     }
 
     /**
@@ -87,7 +87,7 @@ public class IfcWindowStyleImpl extends IfcTypeProductImpl implements IfcWindowS
      */
     @Override
     public IfcWindowStyleOperationEnum getOperationType() {
-        return (IfcWindowStyleOperationEnum) eGet(Ifc4Package.Literals.IFC_WINDOW_STYLE__OPERATION_TYPE, true);
+        return (IfcWindowStyleOperationEnum) eGet(Ifc4Package.eINSTANCE.getIfcWindowStyle_OperationType(), true);
     }
 
     /**
@@ -97,7 +97,7 @@ public class IfcWindowStyleImpl extends IfcTypeProductImpl implements IfcWindowS
      */
     @Override
     public void setOperationType(IfcWindowStyleOperationEnum newOperationType) {
-        eSet(Ifc4Package.Literals.IFC_WINDOW_STYLE__OPERATION_TYPE, newOperationType);
+        eSet(Ifc4Package.eINSTANCE.getIfcWindowStyle_OperationType(), newOperationType);
     }
 
     /**
@@ -107,7 +107,7 @@ public class IfcWindowStyleImpl extends IfcTypeProductImpl implements IfcWindowS
      */
     @Override
     public Tristate getParameterTakesPrecedence() {
-        return (Tristate) eGet(Ifc4Package.Literals.IFC_WINDOW_STYLE__PARAMETER_TAKES_PRECEDENCE, true);
+        return (Tristate) eGet(Ifc4Package.eINSTANCE.getIfcWindowStyle_ParameterTakesPrecedence(), true);
     }
 
     /**
@@ -117,7 +117,7 @@ public class IfcWindowStyleImpl extends IfcTypeProductImpl implements IfcWindowS
      */
     @Override
     public void setParameterTakesPrecedence(Tristate newParameterTakesPrecedence) {
-        eSet(Ifc4Package.Literals.IFC_WINDOW_STYLE__PARAMETER_TAKES_PRECEDENCE, newParameterTakesPrecedence);
+        eSet(Ifc4Package.eINSTANCE.getIfcWindowStyle_ParameterTakesPrecedence(), newParameterTakesPrecedence);
     }
 
     /**
@@ -127,7 +127,7 @@ public class IfcWindowStyleImpl extends IfcTypeProductImpl implements IfcWindowS
      */
     @Override
     public Tristate getSizeable() {
-        return (Tristate) eGet(Ifc4Package.Literals.IFC_WINDOW_STYLE__SIZEABLE, true);
+        return (Tristate) eGet(Ifc4Package.eINSTANCE.getIfcWindowStyle_Sizeable(), true);
     }
 
     /**
@@ -137,7 +137,7 @@ public class IfcWindowStyleImpl extends IfcTypeProductImpl implements IfcWindowS
      */
     @Override
     public void setSizeable(Tristate newSizeable) {
-        eSet(Ifc4Package.Literals.IFC_WINDOW_STYLE__SIZEABLE, newSizeable);
+        eSet(Ifc4Package.eINSTANCE.getIfcWindowStyle_Sizeable(), newSizeable);
     }
 
 } //IfcWindowStyleImpl

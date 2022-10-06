@@ -52,7 +52,7 @@ public class IfcFastenerImpl extends IfcElementComponentImpl implements IfcFaste
      */
     @Override
     protected EClass eStaticClass() {
-        return Ifc4Package.Literals.IFC_FASTENER;
+        return Ifc4Package.eINSTANCE.getIfcFastener();
     }
 
     /**
@@ -62,7 +62,7 @@ public class IfcFastenerImpl extends IfcElementComponentImpl implements IfcFaste
      */
     @Override
     public IfcFastenerTypeEnum getPredefinedType() {
-        return (IfcFastenerTypeEnum) eGet(Ifc4Package.Literals.IFC_FASTENER__PREDEFINED_TYPE, true);
+        return (IfcFastenerTypeEnum) eGet(Ifc4Package.eINSTANCE.getIfcFastener_PredefinedType(), true);
     }
 
     /**
@@ -72,7 +72,7 @@ public class IfcFastenerImpl extends IfcElementComponentImpl implements IfcFaste
      */
     @Override
     public void setPredefinedType(IfcFastenerTypeEnum newPredefinedType) {
-        eSet(Ifc4Package.Literals.IFC_FASTENER__PREDEFINED_TYPE, newPredefinedType);
+        eSet(Ifc4Package.eINSTANCE.getIfcFastener_PredefinedType(), newPredefinedType);
     }
 
     /**
@@ -82,7 +82,7 @@ public class IfcFastenerImpl extends IfcElementComponentImpl implements IfcFaste
      */
     @Override
     public void unsetPredefinedType() {
-        eUnset(Ifc4Package.Literals.IFC_FASTENER__PREDEFINED_TYPE);
+        eUnset(Ifc4Package.eINSTANCE.getIfcFastener_PredefinedType());
     }
 
     /**
@@ -92,7 +92,7 @@ public class IfcFastenerImpl extends IfcElementComponentImpl implements IfcFaste
      */
     @Override
     public boolean isSetPredefinedType() {
-        return eIsSet(Ifc4Package.Literals.IFC_FASTENER__PREDEFINED_TYPE);
+        return eIsSet(Ifc4Package.eINSTANCE.getIfcFastener_PredefinedType());
     }
 
 } //IfcFastenerImpl

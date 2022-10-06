@@ -52,7 +52,7 @@ public class IfcSpaceHeaterImpl extends IfcFlowTerminalImpl implements IfcSpaceH
      */
     @Override
     protected EClass eStaticClass() {
-        return Ifc4Package.Literals.IFC_SPACE_HEATER;
+        return Ifc4Package.eINSTANCE.getIfcSpaceHeater();
     }
 
     /**
@@ -62,7 +62,7 @@ public class IfcSpaceHeaterImpl extends IfcFlowTerminalImpl implements IfcSpaceH
      */
     @Override
     public IfcSpaceHeaterTypeEnum getPredefinedType() {
-        return (IfcSpaceHeaterTypeEnum) eGet(Ifc4Package.Literals.IFC_SPACE_HEATER__PREDEFINED_TYPE, true);
+        return (IfcSpaceHeaterTypeEnum) eGet(Ifc4Package.eINSTANCE.getIfcSpaceHeater_PredefinedType(), true);
     }
 
     /**
@@ -72,7 +72,7 @@ public class IfcSpaceHeaterImpl extends IfcFlowTerminalImpl implements IfcSpaceH
      */
     @Override
     public void setPredefinedType(IfcSpaceHeaterTypeEnum newPredefinedType) {
-        eSet(Ifc4Package.Literals.IFC_SPACE_HEATER__PREDEFINED_TYPE, newPredefinedType);
+        eSet(Ifc4Package.eINSTANCE.getIfcSpaceHeater_PredefinedType(), newPredefinedType);
     }
 
     /**
@@ -82,7 +82,7 @@ public class IfcSpaceHeaterImpl extends IfcFlowTerminalImpl implements IfcSpaceH
      */
     @Override
     public void unsetPredefinedType() {
-        eUnset(Ifc4Package.Literals.IFC_SPACE_HEATER__PREDEFINED_TYPE);
+        eUnset(Ifc4Package.eINSTANCE.getIfcSpaceHeater_PredefinedType());
     }
 
     /**
@@ -92,7 +92,7 @@ public class IfcSpaceHeaterImpl extends IfcFlowTerminalImpl implements IfcSpaceH
      */
     @Override
     public boolean isSetPredefinedType() {
-        return eIsSet(Ifc4Package.Literals.IFC_SPACE_HEATER__PREDEFINED_TYPE);
+        return eIsSet(Ifc4Package.eINSTANCE.getIfcSpaceHeater_PredefinedType());
     }
 
 } //IfcSpaceHeaterImpl

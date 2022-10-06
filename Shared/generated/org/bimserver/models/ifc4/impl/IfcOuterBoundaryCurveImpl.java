@@ -45,7 +45,7 @@ public class IfcOuterBoundaryCurveImpl extends IfcBoundaryCurveImpl implements I
      */
     @Override
     protected EClass eStaticClass() {
-        return Ifc4Package.Literals.IFC_OUTER_BOUNDARY_CURVE;
+        return Ifc4Package.eINSTANCE.getIfcOuterBoundaryCurve();
     }
 
 } //IfcOuterBoundaryCurveImpl

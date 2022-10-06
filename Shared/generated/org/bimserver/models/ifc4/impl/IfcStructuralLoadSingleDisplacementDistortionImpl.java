@@ -53,7 +53,7 @@ public class IfcStructuralLoadSingleDisplacementDistortionImpl extends IfcStruct
      */
     @Override
     protected EClass eStaticClass() {
-        return Ifc4Package.Literals.IFC_STRUCTURAL_LOAD_SINGLE_DISPLACEMENT_DISTORTION;
+        return Ifc4Package.eINSTANCE.getIfcStructuralLoadSingleDisplacementDistortion();
     }
 
     /**
@@ -63,7 +63,7 @@ public class IfcStructuralLoadSingleDisplacementDistortionImpl extends IfcStruct
      */
     @Override
     public double getDistortion() {
-        return (Double) eGet(Ifc4Package.Literals.IFC_STRUCTURAL_LOAD_SINGLE_DISPLACEMENT_DISTORTION__DISTORTION, true);
+        return (Double) eGet(Ifc4Package.eINSTANCE.getIfcStructuralLoadSingleDisplacementDistortion_Distortion(), true);
     }
 
     /**
@@ -73,7 +73,7 @@ public class IfcStructuralLoadSingleDisplacementDistortionImpl extends IfcStruct
      */
     @Override
     public void setDistortion(double newDistortion) {
-        eSet(Ifc4Package.Literals.IFC_STRUCTURAL_LOAD_SINGLE_DISPLACEMENT_DISTORTION__DISTORTION, newDistortion);
+        eSet(Ifc4Package.eINSTANCE.getIfcStructuralLoadSingleDisplacementDistortion_Distortion(), newDistortion);
     }
 
     /**
@@ -83,7 +83,7 @@ public class IfcStructuralLoadSingleDisplacementDistortionImpl extends IfcStruct
      */
     @Override
     public void unsetDistortion() {
-        eUnset(Ifc4Package.Literals.IFC_STRUCTURAL_LOAD_SINGLE_DISPLACEMENT_DISTORTION__DISTORTION);
+        eUnset(Ifc4Package.eINSTANCE.getIfcStructuralLoadSingleDisplacementDistortion_Distortion());
     }
 
     /**
@@ -93,7 +93,7 @@ public class IfcStructuralLoadSingleDisplacementDistortionImpl extends IfcStruct
      */
     @Override
     public boolean isSetDistortion() {
-        return eIsSet(Ifc4Package.Literals.IFC_STRUCTURAL_LOAD_SINGLE_DISPLACEMENT_DISTORTION__DISTORTION);
+        return eIsSet(Ifc4Package.eINSTANCE.getIfcStructuralLoadSingleDisplacementDistortion_Distortion());
     }
 
     /**
@@ -104,7 +104,7 @@ public class IfcStructuralLoadSingleDisplacementDistortionImpl extends IfcStruct
     @Override
     public String getDistortionAsString() {
         return (String) eGet(
-                Ifc4Package.Literals.IFC_STRUCTURAL_LOAD_SINGLE_DISPLACEMENT_DISTORTION__DISTORTION_AS_STRING, true);
+                Ifc4Package.eINSTANCE.getIfcStructuralLoadSingleDisplacementDistortion_DistortionAsString(), true);
     }
 
     /**
@@ -114,7 +114,7 @@ public class IfcStructuralLoadSingleDisplacementDistortionImpl extends IfcStruct
      */
     @Override
     public void setDistortionAsString(String newDistortionAsString) {
-        eSet(Ifc4Package.Literals.IFC_STRUCTURAL_LOAD_SINGLE_DISPLACEMENT_DISTORTION__DISTORTION_AS_STRING,
+        eSet(Ifc4Package.eINSTANCE.getIfcStructuralLoadSingleDisplacementDistortion_DistortionAsString(),
                 newDistortionAsString);
     }
 
@@ -125,7 +125,7 @@ public class IfcStructuralLoadSingleDisplacementDistortionImpl extends IfcStruct
      */
     @Override
     public void unsetDistortionAsString() {
-        eUnset(Ifc4Package.Literals.IFC_STRUCTURAL_LOAD_SINGLE_DISPLACEMENT_DISTORTION__DISTORTION_AS_STRING);
+        eUnset(Ifc4Package.eINSTANCE.getIfcStructuralLoadSingleDisplacementDistortion_DistortionAsString());
     }
 
     /**
@@ -135,7 +135,7 @@ public class IfcStructuralLoadSingleDisplacementDistortionImpl extends IfcStruct
      */
     @Override
     public boolean isSetDistortionAsString() {
-        return eIsSet(Ifc4Package.Literals.IFC_STRUCTURAL_LOAD_SINGLE_DISPLACEMENT_DISTORTION__DISTORTION_AS_STRING);
+        return eIsSet(Ifc4Package.eINSTANCE.getIfcStructuralLoadSingleDisplacementDistortion_DistortionAsString());
     }
 
 } //IfcStructuralLoadSingleDisplacementDistortionImpl

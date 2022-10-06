@@ -66,7 +66,7 @@ public class IfcPersonImpl extends IdEObjectImpl implements IfcPerson {
      */
     @Override
     protected EClass eStaticClass() {
-        return Ifc2x3tc1Package.Literals.IFC_PERSON;
+        return Ifc2x3tc1Package.eINSTANCE.getIfcPerson();
     }
 
     /**
@@ -86,7 +86,7 @@ public class IfcPersonImpl extends IdEObjectImpl implements IfcPerson {
      */
     @Override
     public String getId() {
-        return (String) eGet(Ifc2x3tc1Package.Literals.IFC_PERSON__ID, true);
+        return (String) eGet(Ifc2x3tc1Package.eINSTANCE.getIfcPerson_Id(), true);
     }
 
     /**
@@ -96,7 +96,7 @@ public class IfcPersonImpl extends IdEObjectImpl implements IfcPerson {
      */
     @Override
     public void setId(String newId) {
-        eSet(Ifc2x3tc1Package.Literals.IFC_PERSON__ID, newId);
+        eSet(Ifc2x3tc1Package.eINSTANCE.getIfcPerson_Id(), newId);
     }
 
     /**
@@ -106,7 +106,7 @@ public class IfcPersonImpl extends IdEObjectImpl implements IfcPerson {
      */
     @Override
     public void unsetId() {
-        eUnset(Ifc2x3tc1Package.Literals.IFC_PERSON__ID);
+        eUnset(Ifc2x3tc1Package.eINSTANCE.getIfcPerson_Id());
     }
 
     /**
@@ -116,7 +116,7 @@ public class IfcPersonImpl extends IdEObjectImpl implements IfcPerson {
      */
     @Override
     public boolean isSetId() {
-        return eIsSet(Ifc2x3tc1Package.Literals.IFC_PERSON__ID);
+        return eIsSet(Ifc2x3tc1Package.eINSTANCE.getIfcPerson_Id());
     }
 
     /**
@@ -126,7 +126,7 @@ public class IfcPersonImpl extends IdEObjectImpl implements IfcPerson {
      */
     @Override
     public String getFamilyName() {
-        return (String) eGet(Ifc2x3tc1Package.Literals.IFC_PERSON__FAMILY_NAME, true);
+        return (String) eGet(Ifc2x3tc1Package.eINSTANCE.getIfcPerson_FamilyName(), true);
     }
 
     /**
@@ -136,7 +136,7 @@ public class IfcPersonImpl extends IdEObjectImpl implements IfcPerson {
      */
     @Override
     public void setFamilyName(String newFamilyName) {
-        eSet(Ifc2x3tc1Package.Literals.IFC_PERSON__FAMILY_NAME, newFamilyName);
+        eSet(Ifc2x3tc1Package.eINSTANCE.getIfcPerson_FamilyName(), newFamilyName);
     }
 
     /**
@@ -146,7 +146,7 @@ public class IfcPersonImpl extends IdEObjectImpl implements IfcPerson {
      */
     @Override
     public void unsetFamilyName() {
-        eUnset(Ifc2x3tc1Package.Literals.IFC_PERSON__FAMILY_NAME);
+        eUnset(Ifc2x3tc1Package.eINSTANCE.getIfcPerson_FamilyName());
     }
 
     /**
@@ -156,7 +156,7 @@ public class IfcPersonImpl extends IdEObjectImpl implements IfcPerson {
      */
     @Override
     public boolean isSetFamilyName() {
-        return eIsSet(Ifc2x3tc1Package.Literals.IFC_PERSON__FAMILY_NAME);
+        return eIsSet(Ifc2x3tc1Package.eINSTANCE.getIfcPerson_FamilyName());
     }
 
     /**
@@ -166,7 +166,7 @@ public class IfcPersonImpl extends IdEObjectImpl implements IfcPerson {
      */
     @Override
     public String getGivenName() {
-        return (String) eGet(Ifc2x3tc1Package.Literals.IFC_PERSON__GIVEN_NAME, true);
+        return (String) eGet(Ifc2x3tc1Package.eINSTANCE.getIfcPerson_GivenName(), true);
     }
 
     /**
@@ -176,7 +176,7 @@ public class IfcPersonImpl extends IdEObjectImpl implements IfcPerson {
      */
     @Override
     public void setGivenName(String newGivenName) {
-        eSet(Ifc2x3tc1Package.Literals.IFC_PERSON__GIVEN_NAME, newGivenName);
+        eSet(Ifc2x3tc1Package.eINSTANCE.getIfcPerson_GivenName(), newGivenName);
     }
 
     /**
@@ -186,7 +186,7 @@ public class IfcPersonImpl extends IdEObjectImpl implements IfcPerson {
      */
     @Override
     public void unsetGivenName() {
-        eUnset(Ifc2x3tc1Package.Literals.IFC_PERSON__GIVEN_NAME);
+        eUnset(Ifc2x3tc1Package.eINSTANCE.getIfcPerson_GivenName());
     }
 
     /**
@@ -196,7 +196,7 @@ public class IfcPersonImpl extends IdEObjectImpl implements IfcPerson {
      */
     @Override
     public boolean isSetGivenName() {
-        return eIsSet(Ifc2x3tc1Package.Literals.IFC_PERSON__GIVEN_NAME);
+        return eIsSet(Ifc2x3tc1Package.eINSTANCE.getIfcPerson_GivenName());
     }
 
     /**
@@ -207,7 +207,7 @@ public class IfcPersonImpl extends IdEObjectImpl implements IfcPerson {
     @SuppressWarnings("unchecked")
     @Override
     public EList<String> getMiddleNames() {
-        return (EList<String>) eGet(Ifc2x3tc1Package.Literals.IFC_PERSON__MIDDLE_NAMES, true);
+        return (EList<String>) eGet(Ifc2x3tc1Package.eINSTANCE.getIfcPerson_MiddleNames(), true);
     }
 
     /**
@@ -217,7 +217,7 @@ public class IfcPersonImpl extends IdEObjectImpl implements IfcPerson {
      */
     @Override
     public void unsetMiddleNames() {
-        eUnset(Ifc2x3tc1Package.Literals.IFC_PERSON__MIDDLE_NAMES);
+        eUnset(Ifc2x3tc1Package.eINSTANCE.getIfcPerson_MiddleNames());
     }
 
     /**
@@ -227,7 +227,7 @@ public class IfcPersonImpl extends IdEObjectImpl implements IfcPerson {
      */
     @Override
     public boolean isSetMiddleNames() {
-        return eIsSet(Ifc2x3tc1Package.Literals.IFC_PERSON__MIDDLE_NAMES);
+        return eIsSet(Ifc2x3tc1Package.eINSTANCE.getIfcPerson_MiddleNames());
     }
 
     /**
@@ -238,7 +238,7 @@ public class IfcPersonImpl extends IdEObjectImpl implements IfcPerson {
     @SuppressWarnings("unchecked")
     @Override
     public EList<String> getPrefixTitles() {
-        return (EList<String>) eGet(Ifc2x3tc1Package.Literals.IFC_PERSON__PREFIX_TITLES, true);
+        return (EList<String>) eGet(Ifc2x3tc1Package.eINSTANCE.getIfcPerson_PrefixTitles(), true);
     }
 
     /**
@@ -248,7 +248,7 @@ public class IfcPersonImpl extends IdEObjectImpl implements IfcPerson {
      */
     @Override
     public void unsetPrefixTitles() {
-        eUnset(Ifc2x3tc1Package.Literals.IFC_PERSON__PREFIX_TITLES);
+        eUnset(Ifc2x3tc1Package.eINSTANCE.getIfcPerson_PrefixTitles());
     }
 
     /**
@@ -258,7 +258,7 @@ public class IfcPersonImpl extends IdEObjectImpl implements IfcPerson {
      */
     @Override
     public boolean isSetPrefixTitles() {
-        return eIsSet(Ifc2x3tc1Package.Literals.IFC_PERSON__PREFIX_TITLES);
+        return eIsSet(Ifc2x3tc1Package.eINSTANCE.getIfcPerson_PrefixTitles());
     }
 
     /**
@@ -269,7 +269,7 @@ public class IfcPersonImpl extends IdEObjectImpl implements IfcPerson {
     @SuppressWarnings("unchecked")
     @Override
     public EList<String> getSuffixTitles() {
-        return (EList<String>) eGet(Ifc2x3tc1Package.Literals.IFC_PERSON__SUFFIX_TITLES, true);
+        return (EList<String>) eGet(Ifc2x3tc1Package.eINSTANCE.getIfcPerson_SuffixTitles(), true);
     }
 
     /**
@@ -279,7 +279,7 @@ public class IfcPersonImpl extends IdEObjectImpl implements IfcPerson {
      */
     @Override
     public void unsetSuffixTitles() {
-        eUnset(Ifc2x3tc1Package.Literals.IFC_PERSON__SUFFIX_TITLES);
+        eUnset(Ifc2x3tc1Package.eINSTANCE.getIfcPerson_SuffixTitles());
     }
 
     /**
@@ -289,7 +289,7 @@ public class IfcPersonImpl extends IdEObjectImpl implements IfcPerson {
      */
     @Override
     public boolean isSetSuffixTitles() {
-        return eIsSet(Ifc2x3tc1Package.Literals.IFC_PERSON__SUFFIX_TITLES);
+        return eIsSet(Ifc2x3tc1Package.eINSTANCE.getIfcPerson_SuffixTitles());
     }
 
     /**
@@ -300,7 +300,7 @@ public class IfcPersonImpl extends IdEObjectImpl implements IfcPerson {
     @SuppressWarnings("unchecked")
     @Override
     public EList<IfcActorRole> getRoles() {
-        return (EList<IfcActorRole>) eGet(Ifc2x3tc1Package.Literals.IFC_PERSON__ROLES, true);
+        return (EList<IfcActorRole>) eGet(Ifc2x3tc1Package.eINSTANCE.getIfcPerson_Roles(), true);
     }
 
     /**
@@ -310,7 +310,7 @@ public class IfcPersonImpl extends IdEObjectImpl implements IfcPerson {
      */
     @Override
     public void unsetRoles() {
-        eUnset(Ifc2x3tc1Package.Literals.IFC_PERSON__ROLES);
+        eUnset(Ifc2x3tc1Package.eINSTANCE.getIfcPerson_Roles());
     }
 
     /**
@@ -320,7 +320,7 @@ public class IfcPersonImpl extends IdEObjectImpl implements IfcPerson {
      */
     @Override
     public boolean isSetRoles() {
-        return eIsSet(Ifc2x3tc1Package.Literals.IFC_PERSON__ROLES);
+        return eIsSet(Ifc2x3tc1Package.eINSTANCE.getIfcPerson_Roles());
     }
 
     /**
@@ -331,7 +331,7 @@ public class IfcPersonImpl extends IdEObjectImpl implements IfcPerson {
     @SuppressWarnings("unchecked")
     @Override
     public EList<IfcAddress> getAddresses() {
-        return (EList<IfcAddress>) eGet(Ifc2x3tc1Package.Literals.IFC_PERSON__ADDRESSES, true);
+        return (EList<IfcAddress>) eGet(Ifc2x3tc1Package.eINSTANCE.getIfcPerson_Addresses(), true);
     }
 
     /**
@@ -341,7 +341,7 @@ public class IfcPersonImpl extends IdEObjectImpl implements IfcPerson {
      */
     @Override
     public void unsetAddresses() {
-        eUnset(Ifc2x3tc1Package.Literals.IFC_PERSON__ADDRESSES);
+        eUnset(Ifc2x3tc1Package.eINSTANCE.getIfcPerson_Addresses());
     }
 
     /**
@@ -351,7 +351,7 @@ public class IfcPersonImpl extends IdEObjectImpl implements IfcPerson {
      */
     @Override
     public boolean isSetAddresses() {
-        return eIsSet(Ifc2x3tc1Package.Literals.IFC_PERSON__ADDRESSES);
+        return eIsSet(Ifc2x3tc1Package.eINSTANCE.getIfcPerson_Addresses());
     }
 
     /**
@@ -362,7 +362,7 @@ public class IfcPersonImpl extends IdEObjectImpl implements IfcPerson {
     @SuppressWarnings("unchecked")
     @Override
     public EList<IfcPersonAndOrganization> getEngagedIn() {
-        return (EList<IfcPersonAndOrganization>) eGet(Ifc2x3tc1Package.Literals.IFC_PERSON__ENGAGED_IN, true);
+        return (EList<IfcPersonAndOrganization>) eGet(Ifc2x3tc1Package.eINSTANCE.getIfcPerson_EngagedIn(), true);
     }
 
     /**
@@ -372,7 +372,7 @@ public class IfcPersonImpl extends IdEObjectImpl implements IfcPerson {
      */
     @Override
     public void unsetEngagedIn() {
-        eUnset(Ifc2x3tc1Package.Literals.IFC_PERSON__ENGAGED_IN);
+        eUnset(Ifc2x3tc1Package.eINSTANCE.getIfcPerson_EngagedIn());
     }
 
     /**
@@ -382,7 +382,7 @@ public class IfcPersonImpl extends IdEObjectImpl implements IfcPerson {
      */
     @Override
     public boolean isSetEngagedIn() {
-        return eIsSet(Ifc2x3tc1Package.Literals.IFC_PERSON__ENGAGED_IN);
+        return eIsSet(Ifc2x3tc1Package.eINSTANCE.getIfcPerson_EngagedIn());
     }
 
 } //IfcPersonImpl

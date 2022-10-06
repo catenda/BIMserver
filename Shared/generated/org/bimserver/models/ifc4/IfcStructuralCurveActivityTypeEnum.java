@@ -135,10 +135,6 @@ public enum IfcStructuralCurveActivityTypeEnum implements Enumerator {
     /**
      * The '<em><b>NULL</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>NULL</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #NULL
      * @model
@@ -150,10 +146,6 @@ public enum IfcStructuralCurveActivityTypeEnum implements Enumerator {
     /**
      * The '<em><b>EQUIDISTANT</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>EQUIDISTANT</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #EQUIDISTANT
      * @model
@@ -165,10 +157,6 @@ public enum IfcStructuralCurveActivityTypeEnum implements Enumerator {
     /**
      * The '<em><b>PARABOLA</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>PARABOLA</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #PARABOLA
      * @model
@@ -180,10 +168,6 @@ public enum IfcStructuralCurveActivityTypeEnum implements Enumerator {
     /**
      * The '<em><b>NOTDEFINED</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>NOTDEFINED</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #NOTDEFINED
      * @model
@@ -195,10 +179,6 @@ public enum IfcStructuralCurveActivityTypeEnum implements Enumerator {
     /**
      * The '<em><b>POLYGONAL</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>POLYGONAL</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #POLYGONAL
      * @model
@@ -210,10 +190,6 @@ public enum IfcStructuralCurveActivityTypeEnum implements Enumerator {
     /**
      * The '<em><b>SINUS</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>SINUS</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #SINUS
      * @model
@@ -225,10 +201,6 @@ public enum IfcStructuralCurveActivityTypeEnum implements Enumerator {
     /**
      * The '<em><b>CONST</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>CONST</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #CONST
      * @model
@@ -240,10 +212,6 @@ public enum IfcStructuralCurveActivityTypeEnum implements Enumerator {
     /**
      * The '<em><b>DISCRETE</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>DISCRETE</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #DISCRETE
      * @model
@@ -255,10 +223,6 @@ public enum IfcStructuralCurveActivityTypeEnum implements Enumerator {
     /**
      * The '<em><b>USERDEFINED</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>USERDEFINED</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #USERDEFINED
      * @model
@@ -270,10 +234,6 @@ public enum IfcStructuralCurveActivityTypeEnum implements Enumerator {
     /**
      * The '<em><b>LINEAR</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>LINEAR</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #LINEAR
      * @model

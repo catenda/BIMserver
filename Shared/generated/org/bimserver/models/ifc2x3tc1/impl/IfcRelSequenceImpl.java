@@ -57,7 +57,7 @@ public class IfcRelSequenceImpl extends IfcRelConnectsImpl implements IfcRelSequ
      */
     @Override
     protected EClass eStaticClass() {
-        return Ifc2x3tc1Package.Literals.IFC_REL_SEQUENCE;
+        return Ifc2x3tc1Package.eINSTANCE.getIfcRelSequence();
     }
 
     /**
@@ -67,7 +67,7 @@ public class IfcRelSequenceImpl extends IfcRelConnectsImpl implements IfcRelSequ
      */
     @Override
     public IfcProcess getRelatingProcess() {
-        return (IfcProcess) eGet(Ifc2x3tc1Package.Literals.IFC_REL_SEQUENCE__RELATING_PROCESS, true);
+        return (IfcProcess) eGet(Ifc2x3tc1Package.eINSTANCE.getIfcRelSequence_RelatingProcess(), true);
     }
 
     /**
@@ -77,7 +77,7 @@ public class IfcRelSequenceImpl extends IfcRelConnectsImpl implements IfcRelSequ
      */
     @Override
     public void setRelatingProcess(IfcProcess newRelatingProcess) {
-        eSet(Ifc2x3tc1Package.Literals.IFC_REL_SEQUENCE__RELATING_PROCESS, newRelatingProcess);
+        eSet(Ifc2x3tc1Package.eINSTANCE.getIfcRelSequence_RelatingProcess(), newRelatingProcess);
     }
 
     /**
@@ -87,7 +87,7 @@ public class IfcRelSequenceImpl extends IfcRelConnectsImpl implements IfcRelSequ
      */
     @Override
     public IfcProcess getRelatedProcess() {
-        return (IfcProcess) eGet(Ifc2x3tc1Package.Literals.IFC_REL_SEQUENCE__RELATED_PROCESS, true);
+        return (IfcProcess) eGet(Ifc2x3tc1Package.eINSTANCE.getIfcRelSequence_RelatedProcess(), true);
     }
 
     /**
@@ -97,7 +97,7 @@ public class IfcRelSequenceImpl extends IfcRelConnectsImpl implements IfcRelSequ
      */
     @Override
     public void setRelatedProcess(IfcProcess newRelatedProcess) {
-        eSet(Ifc2x3tc1Package.Literals.IFC_REL_SEQUENCE__RELATED_PROCESS, newRelatedProcess);
+        eSet(Ifc2x3tc1Package.eINSTANCE.getIfcRelSequence_RelatedProcess(), newRelatedProcess);
     }
 
     /**
@@ -107,7 +107,7 @@ public class IfcRelSequenceImpl extends IfcRelConnectsImpl implements IfcRelSequ
      */
     @Override
     public double getTimeLag() {
-        return (Double) eGet(Ifc2x3tc1Package.Literals.IFC_REL_SEQUENCE__TIME_LAG, true);
+        return (Double) eGet(Ifc2x3tc1Package.eINSTANCE.getIfcRelSequence_TimeLag(), true);
     }
 
     /**
@@ -117,7 +117,7 @@ public class IfcRelSequenceImpl extends IfcRelConnectsImpl implements IfcRelSequ
      */
     @Override
     public void setTimeLag(double newTimeLag) {
-        eSet(Ifc2x3tc1Package.Literals.IFC_REL_SEQUENCE__TIME_LAG, newTimeLag);
+        eSet(Ifc2x3tc1Package.eINSTANCE.getIfcRelSequence_TimeLag(), newTimeLag);
     }
 
     /**
@@ -127,7 +127,7 @@ public class IfcRelSequenceImpl extends IfcRelConnectsImpl implements IfcRelSequ
      */
     @Override
     public String getTimeLagAsString() {
-        return (String) eGet(Ifc2x3tc1Package.Literals.IFC_REL_SEQUENCE__TIME_LAG_AS_STRING, true);
+        return (String) eGet(Ifc2x3tc1Package.eINSTANCE.getIfcRelSequence_TimeLagAsString(), true);
     }
 
     /**
@@ -137,7 +137,7 @@ public class IfcRelSequenceImpl extends IfcRelConnectsImpl implements IfcRelSequ
      */
     @Override
     public void setTimeLagAsString(String newTimeLagAsString) {
-        eSet(Ifc2x3tc1Package.Literals.IFC_REL_SEQUENCE__TIME_LAG_AS_STRING, newTimeLagAsString);
+        eSet(Ifc2x3tc1Package.eINSTANCE.getIfcRelSequence_TimeLagAsString(), newTimeLagAsString);
     }
 
     /**
@@ -147,7 +147,7 @@ public class IfcRelSequenceImpl extends IfcRelConnectsImpl implements IfcRelSequ
      */
     @Override
     public IfcSequenceEnum getSequenceType() {
-        return (IfcSequenceEnum) eGet(Ifc2x3tc1Package.Literals.IFC_REL_SEQUENCE__SEQUENCE_TYPE, true);
+        return (IfcSequenceEnum) eGet(Ifc2x3tc1Package.eINSTANCE.getIfcRelSequence_SequenceType(), true);
     }
 
     /**
@@ -157,7 +157,7 @@ public class IfcRelSequenceImpl extends IfcRelConnectsImpl implements IfcRelSequ
      */
     @Override
     public void setSequenceType(IfcSequenceEnum newSequenceType) {
-        eSet(Ifc2x3tc1Package.Literals.IFC_REL_SEQUENCE__SEQUENCE_TYPE, newSequenceType);
+        eSet(Ifc2x3tc1Package.eINSTANCE.getIfcRelSequence_SequenceType(), newSequenceType);
     }
 
 } //IfcRelSequenceImpl

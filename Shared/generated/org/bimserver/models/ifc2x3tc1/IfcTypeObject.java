@@ -40,10 +40,6 @@ public interface IfcTypeObject extends IfcObjectDefinition {
     /**
      * Returns the value of the '<em><b>Applicable Occurrence</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Applicable Occurrence</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Applicable Occurrence</em>' attribute.
      * @see #isSetApplicableOccurrence()
@@ -95,10 +91,6 @@ public interface IfcTypeObject extends IfcObjectDefinition {
      * The list contents are of type {@link org.bimserver.models.ifc2x3tc1.IfcPropertySetDefinition}.
      * It is bidirectional and its opposite is '{@link org.bimserver.models.ifc2x3tc1.IfcPropertySetDefinition#getDefinesType <em>Defines Type</em>}'.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Has Property Sets</em>' reference list isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Has Property Sets</em>' reference list.
      * @see #isSetHasPropertySets()
@@ -137,10 +129,6 @@ public interface IfcTypeObject extends IfcObjectDefinition {
      * The list contents are of type {@link org.bimserver.models.ifc2x3tc1.IfcRelDefinesByType}.
      * It is bidirectional and its opposite is '{@link org.bimserver.models.ifc2x3tc1.IfcRelDefinesByType#getRelatingType <em>Relating Type</em>}'.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Object Type Of</em>' reference list isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Object Type Of</em>' reference list.
      * @see #isSetObjectTypeOf()

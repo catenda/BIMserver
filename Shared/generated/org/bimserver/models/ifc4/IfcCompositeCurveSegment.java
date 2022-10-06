@@ -43,10 +43,6 @@ public interface IfcCompositeCurveSegment extends IfcGeometricRepresentationItem
      * Returns the value of the '<em><b>Transition</b></em>' attribute.
      * The literals are from the enumeration {@link org.bimserver.models.ifc4.IfcTransitionCode}.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Transition</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Transition</em>' attribute.
      * @see org.bimserver.models.ifc4.IfcTransitionCode
@@ -72,10 +68,6 @@ public interface IfcCompositeCurveSegment extends IfcGeometricRepresentationItem
      * Returns the value of the '<em><b>Same Sense</b></em>' attribute.
      * The literals are from the enumeration {@link org.bimserver.models.ifc4.Tristate}.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Same Sense</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Same Sense</em>' attribute.
      * @see org.bimserver.models.ifc4.Tristate
@@ -100,10 +92,6 @@ public interface IfcCompositeCurveSegment extends IfcGeometricRepresentationItem
     /**
      * Returns the value of the '<em><b>Parent Curve</b></em>' reference.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Parent Curve</em>' reference isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Parent Curve</em>' reference.
      * @see #setParentCurve(IfcCurve)
@@ -128,10 +116,6 @@ public interface IfcCompositeCurveSegment extends IfcGeometricRepresentationItem
      * The list contents are of type {@link org.bimserver.models.ifc4.IfcCompositeCurve}.
      * It is bidirectional and its opposite is '{@link org.bimserver.models.ifc4.IfcCompositeCurve#getSegments <em>Segments</em>}'.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Using Curves</em>' reference list isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Using Curves</em>' reference list.
      * @see #isSetUsingCurves()
@@ -168,10 +152,6 @@ public interface IfcCompositeCurveSegment extends IfcGeometricRepresentationItem
     /**
      * Returns the value of the '<em><b>Dim</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Dim</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Dim</em>' attribute.
      * @see #isSetDim()

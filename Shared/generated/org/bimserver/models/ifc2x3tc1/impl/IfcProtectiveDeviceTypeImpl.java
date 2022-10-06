@@ -52,7 +52,7 @@ public class IfcProtectiveDeviceTypeImpl extends IfcFlowControllerTypeImpl imple
      */
     @Override
     protected EClass eStaticClass() {
-        return Ifc2x3tc1Package.Literals.IFC_PROTECTIVE_DEVICE_TYPE;
+        return Ifc2x3tc1Package.eINSTANCE.getIfcProtectiveDeviceType();
     }
 
     /**
@@ -62,8 +62,8 @@ public class IfcProtectiveDeviceTypeImpl extends IfcFlowControllerTypeImpl imple
      */
     @Override
     public IfcProtectiveDeviceTypeEnum getPredefinedType() {
-        return (IfcProtectiveDeviceTypeEnum) eGet(Ifc2x3tc1Package.Literals.IFC_PROTECTIVE_DEVICE_TYPE__PREDEFINED_TYPE,
-                true);
+        return (IfcProtectiveDeviceTypeEnum) eGet(
+                Ifc2x3tc1Package.eINSTANCE.getIfcProtectiveDeviceType_PredefinedType(), true);
     }
 
     /**
@@ -73,7 +73,7 @@ public class IfcProtectiveDeviceTypeImpl extends IfcFlowControllerTypeImpl imple
      */
     @Override
     public void setPredefinedType(IfcProtectiveDeviceTypeEnum newPredefinedType) {
-        eSet(Ifc2x3tc1Package.Literals.IFC_PROTECTIVE_DEVICE_TYPE__PREDEFINED_TYPE, newPredefinedType);
+        eSet(Ifc2x3tc1Package.eINSTANCE.getIfcProtectiveDeviceType_PredefinedType(), newPredefinedType);
     }
 
 } //IfcProtectiveDeviceTypeImpl

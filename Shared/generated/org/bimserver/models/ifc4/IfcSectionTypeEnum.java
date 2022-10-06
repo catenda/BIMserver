@@ -65,10 +65,6 @@ public enum IfcSectionTypeEnum implements Enumerator {
     /**
      * The '<em><b>NULL</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>NULL</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #NULL
      * @model
@@ -80,10 +76,6 @@ public enum IfcSectionTypeEnum implements Enumerator {
     /**
      * The '<em><b>TAPERED</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>TAPERED</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #TAPERED
      * @model
@@ -95,10 +87,6 @@ public enum IfcSectionTypeEnum implements Enumerator {
     /**
      * The '<em><b>UNIFORM</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>UNIFORM</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #UNIFORM
      * @model

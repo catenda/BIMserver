@@ -56,7 +56,7 @@ public class IfcMoveImpl extends IfcTaskImpl implements IfcMove {
      */
     @Override
     protected EClass eStaticClass() {
-        return Ifc2x3tc1Package.Literals.IFC_MOVE;
+        return Ifc2x3tc1Package.eINSTANCE.getIfcMove();
     }
 
     /**
@@ -66,7 +66,7 @@ public class IfcMoveImpl extends IfcTaskImpl implements IfcMove {
      */
     @Override
     public IfcSpatialStructureElement getMoveFrom() {
-        return (IfcSpatialStructureElement) eGet(Ifc2x3tc1Package.Literals.IFC_MOVE__MOVE_FROM, true);
+        return (IfcSpatialStructureElement) eGet(Ifc2x3tc1Package.eINSTANCE.getIfcMove_MoveFrom(), true);
     }
 
     /**
@@ -76,7 +76,7 @@ public class IfcMoveImpl extends IfcTaskImpl implements IfcMove {
      */
     @Override
     public void setMoveFrom(IfcSpatialStructureElement newMoveFrom) {
-        eSet(Ifc2x3tc1Package.Literals.IFC_MOVE__MOVE_FROM, newMoveFrom);
+        eSet(Ifc2x3tc1Package.eINSTANCE.getIfcMove_MoveFrom(), newMoveFrom);
     }
 
     /**
@@ -86,7 +86,7 @@ public class IfcMoveImpl extends IfcTaskImpl implements IfcMove {
      */
     @Override
     public IfcSpatialStructureElement getMoveTo() {
-        return (IfcSpatialStructureElement) eGet(Ifc2x3tc1Package.Literals.IFC_MOVE__MOVE_TO, true);
+        return (IfcSpatialStructureElement) eGet(Ifc2x3tc1Package.eINSTANCE.getIfcMove_MoveTo(), true);
     }
 
     /**
@@ -96,7 +96,7 @@ public class IfcMoveImpl extends IfcTaskImpl implements IfcMove {
      */
     @Override
     public void setMoveTo(IfcSpatialStructureElement newMoveTo) {
-        eSet(Ifc2x3tc1Package.Literals.IFC_MOVE__MOVE_TO, newMoveTo);
+        eSet(Ifc2x3tc1Package.eINSTANCE.getIfcMove_MoveTo(), newMoveTo);
     }
 
     /**
@@ -107,7 +107,7 @@ public class IfcMoveImpl extends IfcTaskImpl implements IfcMove {
     @SuppressWarnings("unchecked")
     @Override
     public EList<String> getPunchList() {
-        return (EList<String>) eGet(Ifc2x3tc1Package.Literals.IFC_MOVE__PUNCH_LIST, true);
+        return (EList<String>) eGet(Ifc2x3tc1Package.eINSTANCE.getIfcMove_PunchList(), true);
     }
 
     /**
@@ -117,7 +117,7 @@ public class IfcMoveImpl extends IfcTaskImpl implements IfcMove {
      */
     @Override
     public void unsetPunchList() {
-        eUnset(Ifc2x3tc1Package.Literals.IFC_MOVE__PUNCH_LIST);
+        eUnset(Ifc2x3tc1Package.eINSTANCE.getIfcMove_PunchList());
     }
 
     /**
@@ -127,7 +127,7 @@ public class IfcMoveImpl extends IfcTaskImpl implements IfcMove {
      */
     @Override
     public boolean isSetPunchList() {
-        return eIsSet(Ifc2x3tc1Package.Literals.IFC_MOVE__PUNCH_LIST);
+        return eIsSet(Ifc2x3tc1Package.eINSTANCE.getIfcMove_PunchList());
     }
 
 } //IfcMoveImpl

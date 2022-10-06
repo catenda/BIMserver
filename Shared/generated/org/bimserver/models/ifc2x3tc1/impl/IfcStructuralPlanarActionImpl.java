@@ -52,7 +52,7 @@ public class IfcStructuralPlanarActionImpl extends IfcStructuralActionImpl imple
      */
     @Override
     protected EClass eStaticClass() {
-        return Ifc2x3tc1Package.Literals.IFC_STRUCTURAL_PLANAR_ACTION;
+        return Ifc2x3tc1Package.eINSTANCE.getIfcStructuralPlanarAction();
     }
 
     /**
@@ -63,7 +63,7 @@ public class IfcStructuralPlanarActionImpl extends IfcStructuralActionImpl imple
     @Override
     public IfcProjectedOrTrueLengthEnum getProjectedOrTrue() {
         return (IfcProjectedOrTrueLengthEnum) eGet(
-                Ifc2x3tc1Package.Literals.IFC_STRUCTURAL_PLANAR_ACTION__PROJECTED_OR_TRUE, true);
+                Ifc2x3tc1Package.eINSTANCE.getIfcStructuralPlanarAction_ProjectedOrTrue(), true);
     }
 
     /**
@@ -73,7 +73,7 @@ public class IfcStructuralPlanarActionImpl extends IfcStructuralActionImpl imple
      */
     @Override
     public void setProjectedOrTrue(IfcProjectedOrTrueLengthEnum newProjectedOrTrue) {
-        eSet(Ifc2x3tc1Package.Literals.IFC_STRUCTURAL_PLANAR_ACTION__PROJECTED_OR_TRUE, newProjectedOrTrue);
+        eSet(Ifc2x3tc1Package.eINSTANCE.getIfcStructuralPlanarAction_ProjectedOrTrue(), newProjectedOrTrue);
     }
 
 } //IfcStructuralPlanarActionImpl

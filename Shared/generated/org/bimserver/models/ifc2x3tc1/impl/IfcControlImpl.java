@@ -54,7 +54,7 @@ public class IfcControlImpl extends IfcObjectImpl implements IfcControl {
      */
     @Override
     protected EClass eStaticClass() {
-        return Ifc2x3tc1Package.Literals.IFC_CONTROL;
+        return Ifc2x3tc1Package.eINSTANCE.getIfcControl();
     }
 
     /**
@@ -65,7 +65,7 @@ public class IfcControlImpl extends IfcObjectImpl implements IfcControl {
     @SuppressWarnings("unchecked")
     @Override
     public EList<IfcRelAssignsToControl> getControls() {
-        return (EList<IfcRelAssignsToControl>) eGet(Ifc2x3tc1Package.Literals.IFC_CONTROL__CONTROLS, true);
+        return (EList<IfcRelAssignsToControl>) eGet(Ifc2x3tc1Package.eINSTANCE.getIfcControl_Controls(), true);
     }
 
     /**
@@ -75,7 +75,7 @@ public class IfcControlImpl extends IfcObjectImpl implements IfcControl {
      */
     @Override
     public void unsetControls() {
-        eUnset(Ifc2x3tc1Package.Literals.IFC_CONTROL__CONTROLS);
+        eUnset(Ifc2x3tc1Package.eINSTANCE.getIfcControl_Controls());
     }
 
     /**
@@ -85,7 +85,7 @@ public class IfcControlImpl extends IfcObjectImpl implements IfcControl {
      */
     @Override
     public boolean isSetControls() {
-        return eIsSet(Ifc2x3tc1Package.Literals.IFC_CONTROL__CONTROLS);
+        return eIsSet(Ifc2x3tc1Package.eINSTANCE.getIfcControl_Controls());
     }
 
 } //IfcControlImpl

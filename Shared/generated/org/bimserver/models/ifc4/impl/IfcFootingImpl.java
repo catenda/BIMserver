@@ -52,7 +52,7 @@ public class IfcFootingImpl extends IfcBuildingElementImpl implements IfcFooting
      */
     @Override
     protected EClass eStaticClass() {
-        return Ifc4Package.Literals.IFC_FOOTING;
+        return Ifc4Package.eINSTANCE.getIfcFooting();
     }
 
     /**
@@ -62,7 +62,7 @@ public class IfcFootingImpl extends IfcBuildingElementImpl implements IfcFooting
      */
     @Override
     public IfcFootingTypeEnum getPredefinedType() {
-        return (IfcFootingTypeEnum) eGet(Ifc4Package.Literals.IFC_FOOTING__PREDEFINED_TYPE, true);
+        return (IfcFootingTypeEnum) eGet(Ifc4Package.eINSTANCE.getIfcFooting_PredefinedType(), true);
     }
 
     /**
@@ -72,7 +72,7 @@ public class IfcFootingImpl extends IfcBuildingElementImpl implements IfcFooting
      */
     @Override
     public void setPredefinedType(IfcFootingTypeEnum newPredefinedType) {
-        eSet(Ifc4Package.Literals.IFC_FOOTING__PREDEFINED_TYPE, newPredefinedType);
+        eSet(Ifc4Package.eINSTANCE.getIfcFooting_PredefinedType(), newPredefinedType);
     }
 
     /**
@@ -82,7 +82,7 @@ public class IfcFootingImpl extends IfcBuildingElementImpl implements IfcFooting
      */
     @Override
     public void unsetPredefinedType() {
-        eUnset(Ifc4Package.Literals.IFC_FOOTING__PREDEFINED_TYPE);
+        eUnset(Ifc4Package.eINSTANCE.getIfcFooting_PredefinedType());
     }
 
     /**
@@ -92,7 +92,7 @@ public class IfcFootingImpl extends IfcBuildingElementImpl implements IfcFooting
      */
     @Override
     public boolean isSetPredefinedType() {
-        return eIsSet(Ifc4Package.Literals.IFC_FOOTING__PREDEFINED_TYPE);
+        return eIsSet(Ifc4Package.eINSTANCE.getIfcFooting_PredefinedType());
     }
 
 } //IfcFootingImpl

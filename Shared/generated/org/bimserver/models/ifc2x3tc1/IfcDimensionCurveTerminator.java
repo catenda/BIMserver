@@ -37,10 +37,6 @@ public interface IfcDimensionCurveTerminator extends IfcTerminatorSymbol {
      * Returns the value of the '<em><b>Role</b></em>' attribute.
      * The literals are from the enumeration {@link org.bimserver.models.ifc2x3tc1.IfcDimensionExtentUsage}.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Role</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Role</em>' attribute.
      * @see org.bimserver.models.ifc2x3tc1.IfcDimensionExtentUsage

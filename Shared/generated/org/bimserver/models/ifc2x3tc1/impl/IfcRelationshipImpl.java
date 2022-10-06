@@ -45,7 +45,7 @@ public class IfcRelationshipImpl extends IfcRootImpl implements IfcRelationship 
      */
     @Override
     protected EClass eStaticClass() {
-        return Ifc2x3tc1Package.Literals.IFC_RELATIONSHIP;
+        return Ifc2x3tc1Package.eINSTANCE.getIfcRelationship();
     }
 
 } //IfcRelationshipImpl

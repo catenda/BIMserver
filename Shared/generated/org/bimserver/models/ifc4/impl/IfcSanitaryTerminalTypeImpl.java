@@ -52,7 +52,7 @@ public class IfcSanitaryTerminalTypeImpl extends IfcFlowTerminalTypeImpl impleme
      */
     @Override
     protected EClass eStaticClass() {
-        return Ifc4Package.Literals.IFC_SANITARY_TERMINAL_TYPE;
+        return Ifc4Package.eINSTANCE.getIfcSanitaryTerminalType();
     }
 
     /**
@@ -62,7 +62,7 @@ public class IfcSanitaryTerminalTypeImpl extends IfcFlowTerminalTypeImpl impleme
      */
     @Override
     public IfcSanitaryTerminalTypeEnum getPredefinedType() {
-        return (IfcSanitaryTerminalTypeEnum) eGet(Ifc4Package.Literals.IFC_SANITARY_TERMINAL_TYPE__PREDEFINED_TYPE,
+        return (IfcSanitaryTerminalTypeEnum) eGet(Ifc4Package.eINSTANCE.getIfcSanitaryTerminalType_PredefinedType(),
                 true);
     }
 
@@ -73,7 +73,7 @@ public class IfcSanitaryTerminalTypeImpl extends IfcFlowTerminalTypeImpl impleme
      */
     @Override
     public void setPredefinedType(IfcSanitaryTerminalTypeEnum newPredefinedType) {
-        eSet(Ifc4Package.Literals.IFC_SANITARY_TERMINAL_TYPE__PREDEFINED_TYPE, newPredefinedType);
+        eSet(Ifc4Package.eINSTANCE.getIfcSanitaryTerminalType_PredefinedType(), newPredefinedType);
     }
 
 } //IfcSanitaryTerminalTypeImpl

@@ -52,7 +52,7 @@ public class IfcCenterLineProfileDefImpl extends IfcArbitraryOpenProfileDefImpl 
      */
     @Override
     protected EClass eStaticClass() {
-        return Ifc2x3tc1Package.Literals.IFC_CENTER_LINE_PROFILE_DEF;
+        return Ifc2x3tc1Package.eINSTANCE.getIfcCenterLineProfileDef();
     }
 
     /**
@@ -62,7 +62,7 @@ public class IfcCenterLineProfileDefImpl extends IfcArbitraryOpenProfileDefImpl 
      */
     @Override
     public double getThickness() {
-        return (Double) eGet(Ifc2x3tc1Package.Literals.IFC_CENTER_LINE_PROFILE_DEF__THICKNESS, true);
+        return (Double) eGet(Ifc2x3tc1Package.eINSTANCE.getIfcCenterLineProfileDef_Thickness(), true);
     }
 
     /**
@@ -72,7 +72,7 @@ public class IfcCenterLineProfileDefImpl extends IfcArbitraryOpenProfileDefImpl 
      */
     @Override
     public void setThickness(double newThickness) {
-        eSet(Ifc2x3tc1Package.Literals.IFC_CENTER_LINE_PROFILE_DEF__THICKNESS, newThickness);
+        eSet(Ifc2x3tc1Package.eINSTANCE.getIfcCenterLineProfileDef_Thickness(), newThickness);
     }
 
     /**
@@ -82,7 +82,7 @@ public class IfcCenterLineProfileDefImpl extends IfcArbitraryOpenProfileDefImpl 
      */
     @Override
     public String getThicknessAsString() {
-        return (String) eGet(Ifc2x3tc1Package.Literals.IFC_CENTER_LINE_PROFILE_DEF__THICKNESS_AS_STRING, true);
+        return (String) eGet(Ifc2x3tc1Package.eINSTANCE.getIfcCenterLineProfileDef_ThicknessAsString(), true);
     }
 
     /**
@@ -92,7 +92,7 @@ public class IfcCenterLineProfileDefImpl extends IfcArbitraryOpenProfileDefImpl 
      */
     @Override
     public void setThicknessAsString(String newThicknessAsString) {
-        eSet(Ifc2x3tc1Package.Literals.IFC_CENTER_LINE_PROFILE_DEF__THICKNESS_AS_STRING, newThicknessAsString);
+        eSet(Ifc2x3tc1Package.eINSTANCE.getIfcCenterLineProfileDef_ThicknessAsString(), newThicknessAsString);
     }
 
 } //IfcCenterLineProfileDefImpl

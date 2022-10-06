@@ -53,7 +53,7 @@ public class IfcPerformanceHistoryImpl extends IfcControlImpl implements IfcPerf
      */
     @Override
     protected EClass eStaticClass() {
-        return Ifc4Package.Literals.IFC_PERFORMANCE_HISTORY;
+        return Ifc4Package.eINSTANCE.getIfcPerformanceHistory();
     }
 
     /**
@@ -63,7 +63,7 @@ public class IfcPerformanceHistoryImpl extends IfcControlImpl implements IfcPerf
      */
     @Override
     public String getLifeCyclePhase() {
-        return (String) eGet(Ifc4Package.Literals.IFC_PERFORMANCE_HISTORY__LIFE_CYCLE_PHASE, true);
+        return (String) eGet(Ifc4Package.eINSTANCE.getIfcPerformanceHistory_LifeCyclePhase(), true);
     }
 
     /**
@@ -73,7 +73,7 @@ public class IfcPerformanceHistoryImpl extends IfcControlImpl implements IfcPerf
      */
     @Override
     public void setLifeCyclePhase(String newLifeCyclePhase) {
-        eSet(Ifc4Package.Literals.IFC_PERFORMANCE_HISTORY__LIFE_CYCLE_PHASE, newLifeCyclePhase);
+        eSet(Ifc4Package.eINSTANCE.getIfcPerformanceHistory_LifeCyclePhase(), newLifeCyclePhase);
     }
 
     /**
@@ -83,7 +83,7 @@ public class IfcPerformanceHistoryImpl extends IfcControlImpl implements IfcPerf
      */
     @Override
     public IfcPerformanceHistoryTypeEnum getPredefinedType() {
-        return (IfcPerformanceHistoryTypeEnum) eGet(Ifc4Package.Literals.IFC_PERFORMANCE_HISTORY__PREDEFINED_TYPE,
+        return (IfcPerformanceHistoryTypeEnum) eGet(Ifc4Package.eINSTANCE.getIfcPerformanceHistory_PredefinedType(),
                 true);
     }
 
@@ -94,7 +94,7 @@ public class IfcPerformanceHistoryImpl extends IfcControlImpl implements IfcPerf
      */
     @Override
     public void setPredefinedType(IfcPerformanceHistoryTypeEnum newPredefinedType) {
-        eSet(Ifc4Package.Literals.IFC_PERFORMANCE_HISTORY__PREDEFINED_TYPE, newPredefinedType);
+        eSet(Ifc4Package.eINSTANCE.getIfcPerformanceHistory_PredefinedType(), newPredefinedType);
     }
 
     /**
@@ -104,7 +104,7 @@ public class IfcPerformanceHistoryImpl extends IfcControlImpl implements IfcPerf
      */
     @Override
     public void unsetPredefinedType() {
-        eUnset(Ifc4Package.Literals.IFC_PERFORMANCE_HISTORY__PREDEFINED_TYPE);
+        eUnset(Ifc4Package.eINSTANCE.getIfcPerformanceHistory_PredefinedType());
     }
 
     /**
@@ -114,7 +114,7 @@ public class IfcPerformanceHistoryImpl extends IfcControlImpl implements IfcPerf
      */
     @Override
     public boolean isSetPredefinedType() {
-        return eIsSet(Ifc4Package.Literals.IFC_PERFORMANCE_HISTORY__PREDEFINED_TYPE);
+        return eIsSet(Ifc4Package.eINSTANCE.getIfcPerformanceHistory_PredefinedType());
     }
 
 } //IfcPerformanceHistoryImpl

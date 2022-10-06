@@ -57,7 +57,7 @@ public class IfcPointOnSurfaceImpl extends IfcPointImpl implements IfcPointOnSur
      */
     @Override
     protected EClass eStaticClass() {
-        return Ifc2x3tc1Package.Literals.IFC_POINT_ON_SURFACE;
+        return Ifc2x3tc1Package.eINSTANCE.getIfcPointOnSurface();
     }
 
     /**
@@ -67,7 +67,7 @@ public class IfcPointOnSurfaceImpl extends IfcPointImpl implements IfcPointOnSur
      */
     @Override
     public IfcSurface getBasisSurface() {
-        return (IfcSurface) eGet(Ifc2x3tc1Package.Literals.IFC_POINT_ON_SURFACE__BASIS_SURFACE, true);
+        return (IfcSurface) eGet(Ifc2x3tc1Package.eINSTANCE.getIfcPointOnSurface_BasisSurface(), true);
     }
 
     /**
@@ -77,7 +77,7 @@ public class IfcPointOnSurfaceImpl extends IfcPointImpl implements IfcPointOnSur
      */
     @Override
     public void setBasisSurface(IfcSurface newBasisSurface) {
-        eSet(Ifc2x3tc1Package.Literals.IFC_POINT_ON_SURFACE__BASIS_SURFACE, newBasisSurface);
+        eSet(Ifc2x3tc1Package.eINSTANCE.getIfcPointOnSurface_BasisSurface(), newBasisSurface);
     }
 
     /**
@@ -87,7 +87,7 @@ public class IfcPointOnSurfaceImpl extends IfcPointImpl implements IfcPointOnSur
      */
     @Override
     public double getPointParameterU() {
-        return (Double) eGet(Ifc2x3tc1Package.Literals.IFC_POINT_ON_SURFACE__POINT_PARAMETER_U, true);
+        return (Double) eGet(Ifc2x3tc1Package.eINSTANCE.getIfcPointOnSurface_PointParameterU(), true);
     }
 
     /**
@@ -97,7 +97,7 @@ public class IfcPointOnSurfaceImpl extends IfcPointImpl implements IfcPointOnSur
      */
     @Override
     public void setPointParameterU(double newPointParameterU) {
-        eSet(Ifc2x3tc1Package.Literals.IFC_POINT_ON_SURFACE__POINT_PARAMETER_U, newPointParameterU);
+        eSet(Ifc2x3tc1Package.eINSTANCE.getIfcPointOnSurface_PointParameterU(), newPointParameterU);
     }
 
     /**
@@ -107,7 +107,7 @@ public class IfcPointOnSurfaceImpl extends IfcPointImpl implements IfcPointOnSur
      */
     @Override
     public String getPointParameterUAsString() {
-        return (String) eGet(Ifc2x3tc1Package.Literals.IFC_POINT_ON_SURFACE__POINT_PARAMETER_UAS_STRING, true);
+        return (String) eGet(Ifc2x3tc1Package.eINSTANCE.getIfcPointOnSurface_PointParameterUAsString(), true);
     }
 
     /**
@@ -117,7 +117,7 @@ public class IfcPointOnSurfaceImpl extends IfcPointImpl implements IfcPointOnSur
      */
     @Override
     public void setPointParameterUAsString(String newPointParameterUAsString) {
-        eSet(Ifc2x3tc1Package.Literals.IFC_POINT_ON_SURFACE__POINT_PARAMETER_UAS_STRING, newPointParameterUAsString);
+        eSet(Ifc2x3tc1Package.eINSTANCE.getIfcPointOnSurface_PointParameterUAsString(), newPointParameterUAsString);
     }
 
     /**
@@ -127,7 +127,7 @@ public class IfcPointOnSurfaceImpl extends IfcPointImpl implements IfcPointOnSur
      */
     @Override
     public double getPointParameterV() {
-        return (Double) eGet(Ifc2x3tc1Package.Literals.IFC_POINT_ON_SURFACE__POINT_PARAMETER_V, true);
+        return (Double) eGet(Ifc2x3tc1Package.eINSTANCE.getIfcPointOnSurface_PointParameterV(), true);
     }
 
     /**
@@ -137,7 +137,7 @@ public class IfcPointOnSurfaceImpl extends IfcPointImpl implements IfcPointOnSur
      */
     @Override
     public void setPointParameterV(double newPointParameterV) {
-        eSet(Ifc2x3tc1Package.Literals.IFC_POINT_ON_SURFACE__POINT_PARAMETER_V, newPointParameterV);
+        eSet(Ifc2x3tc1Package.eINSTANCE.getIfcPointOnSurface_PointParameterV(), newPointParameterV);
     }
 
     /**
@@ -147,7 +147,7 @@ public class IfcPointOnSurfaceImpl extends IfcPointImpl implements IfcPointOnSur
      */
     @Override
     public String getPointParameterVAsString() {
-        return (String) eGet(Ifc2x3tc1Package.Literals.IFC_POINT_ON_SURFACE__POINT_PARAMETER_VAS_STRING, true);
+        return (String) eGet(Ifc2x3tc1Package.eINSTANCE.getIfcPointOnSurface_PointParameterVAsString(), true);
     }
 
     /**
@@ -157,7 +157,7 @@ public class IfcPointOnSurfaceImpl extends IfcPointImpl implements IfcPointOnSur
      */
     @Override
     public void setPointParameterVAsString(String newPointParameterVAsString) {
-        eSet(Ifc2x3tc1Package.Literals.IFC_POINT_ON_SURFACE__POINT_PARAMETER_VAS_STRING, newPointParameterVAsString);
+        eSet(Ifc2x3tc1Package.eINSTANCE.getIfcPointOnSurface_PointParameterVAsString(), newPointParameterVAsString);
     }
 
     /**
@@ -167,7 +167,7 @@ public class IfcPointOnSurfaceImpl extends IfcPointImpl implements IfcPointOnSur
      */
     @Override
     public long getDim() {
-        return (Long) eGet(Ifc2x3tc1Package.Literals.IFC_POINT_ON_SURFACE__DIM, true);
+        return (Long) eGet(Ifc2x3tc1Package.eINSTANCE.getIfcPointOnSurface_Dim(), true);
     }
 
     /**
@@ -177,7 +177,7 @@ public class IfcPointOnSurfaceImpl extends IfcPointImpl implements IfcPointOnSur
      */
     @Override
     public void setDim(long newDim) {
-        eSet(Ifc2x3tc1Package.Literals.IFC_POINT_ON_SURFACE__DIM, newDim);
+        eSet(Ifc2x3tc1Package.eINSTANCE.getIfcPointOnSurface_Dim(), newDim);
     }
 
     /**
@@ -187,7 +187,7 @@ public class IfcPointOnSurfaceImpl extends IfcPointImpl implements IfcPointOnSur
      */
     @Override
     public void unsetDim() {
-        eUnset(Ifc2x3tc1Package.Literals.IFC_POINT_ON_SURFACE__DIM);
+        eUnset(Ifc2x3tc1Package.eINSTANCE.getIfcPointOnSurface_Dim());
     }
 
     /**
@@ -197,7 +197,7 @@ public class IfcPointOnSurfaceImpl extends IfcPointImpl implements IfcPointOnSur
      */
     @Override
     public boolean isSetDim() {
-        return eIsSet(Ifc2x3tc1Package.Literals.IFC_POINT_ON_SURFACE__DIM);
+        return eIsSet(Ifc2x3tc1Package.eINSTANCE.getIfcPointOnSurface_Dim());
     }
 
 } //IfcPointOnSurfaceImpl

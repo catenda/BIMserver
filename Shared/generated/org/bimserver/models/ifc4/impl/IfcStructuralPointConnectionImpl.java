@@ -53,7 +53,7 @@ public class IfcStructuralPointConnectionImpl extends IfcStructuralConnectionImp
      */
     @Override
     protected EClass eStaticClass() {
-        return Ifc4Package.Literals.IFC_STRUCTURAL_POINT_CONNECTION;
+        return Ifc4Package.eINSTANCE.getIfcStructuralPointConnection();
     }
 
     /**
@@ -64,7 +64,7 @@ public class IfcStructuralPointConnectionImpl extends IfcStructuralConnectionImp
     @Override
     public IfcAxis2Placement3D getConditionCoordinateSystem() {
         return (IfcAxis2Placement3D) eGet(
-                Ifc4Package.Literals.IFC_STRUCTURAL_POINT_CONNECTION__CONDITION_COORDINATE_SYSTEM, true);
+                Ifc4Package.eINSTANCE.getIfcStructuralPointConnection_ConditionCoordinateSystem(), true);
     }
 
     /**
@@ -74,7 +74,7 @@ public class IfcStructuralPointConnectionImpl extends IfcStructuralConnectionImp
      */
     @Override
     public void setConditionCoordinateSystem(IfcAxis2Placement3D newConditionCoordinateSystem) {
-        eSet(Ifc4Package.Literals.IFC_STRUCTURAL_POINT_CONNECTION__CONDITION_COORDINATE_SYSTEM,
+        eSet(Ifc4Package.eINSTANCE.getIfcStructuralPointConnection_ConditionCoordinateSystem(),
                 newConditionCoordinateSystem);
     }
 
@@ -85,7 +85,7 @@ public class IfcStructuralPointConnectionImpl extends IfcStructuralConnectionImp
      */
     @Override
     public void unsetConditionCoordinateSystem() {
-        eUnset(Ifc4Package.Literals.IFC_STRUCTURAL_POINT_CONNECTION__CONDITION_COORDINATE_SYSTEM);
+        eUnset(Ifc4Package.eINSTANCE.getIfcStructuralPointConnection_ConditionCoordinateSystem());
     }
 
     /**
@@ -95,7 +95,7 @@ public class IfcStructuralPointConnectionImpl extends IfcStructuralConnectionImp
      */
     @Override
     public boolean isSetConditionCoordinateSystem() {
-        return eIsSet(Ifc4Package.Literals.IFC_STRUCTURAL_POINT_CONNECTION__CONDITION_COORDINATE_SYSTEM);
+        return eIsSet(Ifc4Package.eINSTANCE.getIfcStructuralPointConnection_ConditionCoordinateSystem());
     }
 
 } //IfcStructuralPointConnectionImpl

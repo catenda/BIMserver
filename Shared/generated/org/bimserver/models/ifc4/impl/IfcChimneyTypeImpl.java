@@ -52,7 +52,7 @@ public class IfcChimneyTypeImpl extends IfcBuildingElementTypeImpl implements If
      */
     @Override
     protected EClass eStaticClass() {
-        return Ifc4Package.Literals.IFC_CHIMNEY_TYPE;
+        return Ifc4Package.eINSTANCE.getIfcChimneyType();
     }
 
     /**
@@ -62,7 +62,7 @@ public class IfcChimneyTypeImpl extends IfcBuildingElementTypeImpl implements If
      */
     @Override
     public IfcChimneyTypeEnum getPredefinedType() {
-        return (IfcChimneyTypeEnum) eGet(Ifc4Package.Literals.IFC_CHIMNEY_TYPE__PREDEFINED_TYPE, true);
+        return (IfcChimneyTypeEnum) eGet(Ifc4Package.eINSTANCE.getIfcChimneyType_PredefinedType(), true);
     }
 
     /**
@@ -72,7 +72,7 @@ public class IfcChimneyTypeImpl extends IfcBuildingElementTypeImpl implements If
      */
     @Override
     public void setPredefinedType(IfcChimneyTypeEnum newPredefinedType) {
-        eSet(Ifc4Package.Literals.IFC_CHIMNEY_TYPE__PREDEFINED_TYPE, newPredefinedType);
+        eSet(Ifc4Package.eINSTANCE.getIfcChimneyType_PredefinedType(), newPredefinedType);
     }
 
 } //IfcChimneyTypeImpl

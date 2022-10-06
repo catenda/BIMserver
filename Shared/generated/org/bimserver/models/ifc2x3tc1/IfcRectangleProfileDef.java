@@ -39,10 +39,6 @@ public interface IfcRectangleProfileDef extends IfcParameterizedProfileDef {
     /**
      * Returns the value of the '<em><b>XDim</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>XDim</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>XDim</em>' attribute.
      * @see #setXDim(double)
@@ -65,10 +61,6 @@ public interface IfcRectangleProfileDef extends IfcParameterizedProfileDef {
     /**
      * Returns the value of the '<em><b>XDim As String</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>XDim As String</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>XDim As String</em>' attribute.
      * @see #setXDimAsString(String)
@@ -92,10 +84,6 @@ public interface IfcRectangleProfileDef extends IfcParameterizedProfileDef {
     /**
      * Returns the value of the '<em><b>YDim</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>YDim</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>YDim</em>' attribute.
      * @see #setYDim(double)
@@ -118,10 +106,6 @@ public interface IfcRectangleProfileDef extends IfcParameterizedProfileDef {
     /**
      * Returns the value of the '<em><b>YDim As String</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>YDim As String</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>YDim As String</em>' attribute.
      * @see #setYDimAsString(String)

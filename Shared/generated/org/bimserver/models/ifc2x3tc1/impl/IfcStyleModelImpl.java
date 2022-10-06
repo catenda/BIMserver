@@ -45,7 +45,7 @@ public class IfcStyleModelImpl extends IfcRepresentationImpl implements IfcStyle
      */
     @Override
     protected EClass eStaticClass() {
-        return Ifc2x3tc1Package.Literals.IFC_STYLE_MODEL;
+        return Ifc2x3tc1Package.eINSTANCE.getIfcStyleModel();
     }
 
 } //IfcStyleModelImpl

@@ -52,7 +52,7 @@ public class IfcCircleImpl extends IfcConicImpl implements IfcCircle {
      */
     @Override
     protected EClass eStaticClass() {
-        return Ifc4Package.Literals.IFC_CIRCLE;
+        return Ifc4Package.eINSTANCE.getIfcCircle();
     }
 
     /**
@@ -62,7 +62,7 @@ public class IfcCircleImpl extends IfcConicImpl implements IfcCircle {
      */
     @Override
     public double getRadius() {
-        return (Double) eGet(Ifc4Package.Literals.IFC_CIRCLE__RADIUS, true);
+        return (Double) eGet(Ifc4Package.eINSTANCE.getIfcCircle_Radius(), true);
     }
 
     /**
@@ -72,7 +72,7 @@ public class IfcCircleImpl extends IfcConicImpl implements IfcCircle {
      */
     @Override
     public void setRadius(double newRadius) {
-        eSet(Ifc4Package.Literals.IFC_CIRCLE__RADIUS, newRadius);
+        eSet(Ifc4Package.eINSTANCE.getIfcCircle_Radius(), newRadius);
     }
 
     /**
@@ -82,7 +82,7 @@ public class IfcCircleImpl extends IfcConicImpl implements IfcCircle {
      */
     @Override
     public String getRadiusAsString() {
-        return (String) eGet(Ifc4Package.Literals.IFC_CIRCLE__RADIUS_AS_STRING, true);
+        return (String) eGet(Ifc4Package.eINSTANCE.getIfcCircle_RadiusAsString(), true);
     }
 
     /**
@@ -92,7 +92,7 @@ public class IfcCircleImpl extends IfcConicImpl implements IfcCircle {
      */
     @Override
     public void setRadiusAsString(String newRadiusAsString) {
-        eSet(Ifc4Package.Literals.IFC_CIRCLE__RADIUS_AS_STRING, newRadiusAsString);
+        eSet(Ifc4Package.eINSTANCE.getIfcCircle_RadiusAsString(), newRadiusAsString);
     }
 
 } //IfcCircleImpl

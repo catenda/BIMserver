@@ -51,10 +51,6 @@ public interface IfcTendon extends IfcReinforcingElement {
      * Returns the value of the '<em><b>Predefined Type</b></em>' attribute.
      * The literals are from the enumeration {@link org.bimserver.models.ifc4.IfcTendonTypeEnum}.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Predefined Type</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Predefined Type</em>' attribute.
      * @see org.bimserver.models.ifc4.IfcTendonTypeEnum
@@ -106,10 +102,6 @@ public interface IfcTendon extends IfcReinforcingElement {
     /**
      * Returns the value of the '<em><b>Nominal Diameter</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Nominal Diameter</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Nominal Diameter</em>' attribute.
      * @see #isSetNominalDiameter()
@@ -159,10 +151,6 @@ public interface IfcTendon extends IfcReinforcingElement {
     /**
      * Returns the value of the '<em><b>Nominal Diameter As String</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Nominal Diameter As String</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Nominal Diameter As String</em>' attribute.
      * @see #isSetNominalDiameterAsString()
@@ -214,10 +202,6 @@ public interface IfcTendon extends IfcReinforcingElement {
     /**
      * Returns the value of the '<em><b>Cross Section Area</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Cross Section Area</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Cross Section Area</em>' attribute.
      * @see #isSetCrossSectionArea()
@@ -267,10 +251,6 @@ public interface IfcTendon extends IfcReinforcingElement {
     /**
      * Returns the value of the '<em><b>Cross Section Area As String</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Cross Section Area As String</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Cross Section Area As String</em>' attribute.
      * @see #isSetCrossSectionAreaAsString()
@@ -322,10 +302,6 @@ public interface IfcTendon extends IfcReinforcingElement {
     /**
      * Returns the value of the '<em><b>Tension Force</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Tension Force</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Tension Force</em>' attribute.
      * @see #isSetTensionForce()
@@ -375,10 +351,6 @@ public interface IfcTendon extends IfcReinforcingElement {
     /**
      * Returns the value of the '<em><b>Tension Force As String</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Tension Force As String</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Tension Force As String</em>' attribute.
      * @see #isSetTensionForceAsString()
@@ -430,10 +402,6 @@ public interface IfcTendon extends IfcReinforcingElement {
     /**
      * Returns the value of the '<em><b>Pre Stress</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Pre Stress</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Pre Stress</em>' attribute.
      * @see #isSetPreStress()
@@ -483,10 +451,6 @@ public interface IfcTendon extends IfcReinforcingElement {
     /**
      * Returns the value of the '<em><b>Pre Stress As String</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Pre Stress As String</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Pre Stress As String</em>' attribute.
      * @see #isSetPreStressAsString()
@@ -538,10 +502,6 @@ public interface IfcTendon extends IfcReinforcingElement {
     /**
      * Returns the value of the '<em><b>Friction Coefficient</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Friction Coefficient</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Friction Coefficient</em>' attribute.
      * @see #isSetFrictionCoefficient()
@@ -591,10 +551,6 @@ public interface IfcTendon extends IfcReinforcingElement {
     /**
      * Returns the value of the '<em><b>Friction Coefficient As String</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Friction Coefficient As String</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Friction Coefficient As String</em>' attribute.
      * @see #isSetFrictionCoefficientAsString()
@@ -646,10 +602,6 @@ public interface IfcTendon extends IfcReinforcingElement {
     /**
      * Returns the value of the '<em><b>Anchorage Slip</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Anchorage Slip</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Anchorage Slip</em>' attribute.
      * @see #isSetAnchorageSlip()
@@ -699,10 +651,6 @@ public interface IfcTendon extends IfcReinforcingElement {
     /**
      * Returns the value of the '<em><b>Anchorage Slip As String</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Anchorage Slip As String</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Anchorage Slip As String</em>' attribute.
      * @see #isSetAnchorageSlipAsString()
@@ -754,10 +702,6 @@ public interface IfcTendon extends IfcReinforcingElement {
     /**
      * Returns the value of the '<em><b>Min Curvature Radius</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Min Curvature Radius</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Min Curvature Radius</em>' attribute.
      * @see #isSetMinCurvatureRadius()
@@ -807,10 +751,6 @@ public interface IfcTendon extends IfcReinforcingElement {
     /**
      * Returns the value of the '<em><b>Min Curvature Radius As String</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Min Curvature Radius As String</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Min Curvature Radius As String</em>' attribute.
      * @see #isSetMinCurvatureRadiusAsString()

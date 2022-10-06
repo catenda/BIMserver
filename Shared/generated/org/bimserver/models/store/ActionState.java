@@ -75,10 +75,6 @@ public enum ActionState implements Enumerator {
     /**
      * The '<em><b>UNKNOWN</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>UNKNOWN</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #UNKNOWN
      * @model
@@ -90,10 +86,6 @@ public enum ActionState implements Enumerator {
     /**
      * The '<em><b>STARTED</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>STARTED</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #STARTED
      * @model
@@ -105,10 +97,6 @@ public enum ActionState implements Enumerator {
     /**
      * The '<em><b>AS ERROR</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>AS ERROR</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #AS_ERROR
      * @model
@@ -120,10 +108,6 @@ public enum ActionState implements Enumerator {
     /**
      * The '<em><b>FINISHED</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>FINISHED</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #FINISHED
      * @model

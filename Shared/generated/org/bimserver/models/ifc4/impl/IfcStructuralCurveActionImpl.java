@@ -54,7 +54,7 @@ public class IfcStructuralCurveActionImpl extends IfcStructuralActionImpl implem
      */
     @Override
     protected EClass eStaticClass() {
-        return Ifc4Package.Literals.IFC_STRUCTURAL_CURVE_ACTION;
+        return Ifc4Package.eINSTANCE.getIfcStructuralCurveAction();
     }
 
     /**
@@ -64,7 +64,7 @@ public class IfcStructuralCurveActionImpl extends IfcStructuralActionImpl implem
      */
     @Override
     public IfcProjectedOrTrueLengthEnum getProjectedOrTrue() {
-        return (IfcProjectedOrTrueLengthEnum) eGet(Ifc4Package.Literals.IFC_STRUCTURAL_CURVE_ACTION__PROJECTED_OR_TRUE,
+        return (IfcProjectedOrTrueLengthEnum) eGet(Ifc4Package.eINSTANCE.getIfcStructuralCurveAction_ProjectedOrTrue(),
                 true);
     }
 
@@ -75,7 +75,7 @@ public class IfcStructuralCurveActionImpl extends IfcStructuralActionImpl implem
      */
     @Override
     public void setProjectedOrTrue(IfcProjectedOrTrueLengthEnum newProjectedOrTrue) {
-        eSet(Ifc4Package.Literals.IFC_STRUCTURAL_CURVE_ACTION__PROJECTED_OR_TRUE, newProjectedOrTrue);
+        eSet(Ifc4Package.eINSTANCE.getIfcStructuralCurveAction_ProjectedOrTrue(), newProjectedOrTrue);
     }
 
     /**
@@ -85,7 +85,7 @@ public class IfcStructuralCurveActionImpl extends IfcStructuralActionImpl implem
      */
     @Override
     public void unsetProjectedOrTrue() {
-        eUnset(Ifc4Package.Literals.IFC_STRUCTURAL_CURVE_ACTION__PROJECTED_OR_TRUE);
+        eUnset(Ifc4Package.eINSTANCE.getIfcStructuralCurveAction_ProjectedOrTrue());
     }
 
     /**
@@ -95,7 +95,7 @@ public class IfcStructuralCurveActionImpl extends IfcStructuralActionImpl implem
      */
     @Override
     public boolean isSetProjectedOrTrue() {
-        return eIsSet(Ifc4Package.Literals.IFC_STRUCTURAL_CURVE_ACTION__PROJECTED_OR_TRUE);
+        return eIsSet(Ifc4Package.eINSTANCE.getIfcStructuralCurveAction_ProjectedOrTrue());
     }
 
     /**
@@ -106,7 +106,7 @@ public class IfcStructuralCurveActionImpl extends IfcStructuralActionImpl implem
     @Override
     public IfcStructuralCurveActivityTypeEnum getPredefinedType() {
         return (IfcStructuralCurveActivityTypeEnum) eGet(
-                Ifc4Package.Literals.IFC_STRUCTURAL_CURVE_ACTION__PREDEFINED_TYPE, true);
+                Ifc4Package.eINSTANCE.getIfcStructuralCurveAction_PredefinedType(), true);
     }
 
     /**
@@ -116,7 +116,7 @@ public class IfcStructuralCurveActionImpl extends IfcStructuralActionImpl implem
      */
     @Override
     public void setPredefinedType(IfcStructuralCurveActivityTypeEnum newPredefinedType) {
-        eSet(Ifc4Package.Literals.IFC_STRUCTURAL_CURVE_ACTION__PREDEFINED_TYPE, newPredefinedType);
+        eSet(Ifc4Package.eINSTANCE.getIfcStructuralCurveAction_PredefinedType(), newPredefinedType);
     }
 
 } //IfcStructuralCurveActionImpl

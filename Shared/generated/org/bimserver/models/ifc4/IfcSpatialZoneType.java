@@ -38,10 +38,6 @@ public interface IfcSpatialZoneType extends IfcSpatialElementType {
      * Returns the value of the '<em><b>Predefined Type</b></em>' attribute.
      * The literals are from the enumeration {@link org.bimserver.models.ifc4.IfcSpatialZoneTypeEnum}.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Predefined Type</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Predefined Type</em>' attribute.
      * @see org.bimserver.models.ifc4.IfcSpatialZoneTypeEnum
@@ -66,10 +62,6 @@ public interface IfcSpatialZoneType extends IfcSpatialElementType {
     /**
      * Returns the value of the '<em><b>Long Name</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Long Name</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Long Name</em>' attribute.
      * @see #isSetLongName()

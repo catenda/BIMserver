@@ -54,7 +54,7 @@ public class IfcSurfaceStyleShadingImpl extends IdEObjectImpl implements IfcSurf
      */
     @Override
     protected EClass eStaticClass() {
-        return Ifc2x3tc1Package.Literals.IFC_SURFACE_STYLE_SHADING;
+        return Ifc2x3tc1Package.eINSTANCE.getIfcSurfaceStyleShading();
     }
 
     /**
@@ -74,7 +74,7 @@ public class IfcSurfaceStyleShadingImpl extends IdEObjectImpl implements IfcSurf
      */
     @Override
     public IfcColourRgb getSurfaceColour() {
-        return (IfcColourRgb) eGet(Ifc2x3tc1Package.Literals.IFC_SURFACE_STYLE_SHADING__SURFACE_COLOUR, true);
+        return (IfcColourRgb) eGet(Ifc2x3tc1Package.eINSTANCE.getIfcSurfaceStyleShading_SurfaceColour(), true);
     }
 
     /**
@@ -84,7 +84,7 @@ public class IfcSurfaceStyleShadingImpl extends IdEObjectImpl implements IfcSurf
      */
     @Override
     public void setSurfaceColour(IfcColourRgb newSurfaceColour) {
-        eSet(Ifc2x3tc1Package.Literals.IFC_SURFACE_STYLE_SHADING__SURFACE_COLOUR, newSurfaceColour);
+        eSet(Ifc2x3tc1Package.eINSTANCE.getIfcSurfaceStyleShading_SurfaceColour(), newSurfaceColour);
     }
 
 } //IfcSurfaceStyleShadingImpl

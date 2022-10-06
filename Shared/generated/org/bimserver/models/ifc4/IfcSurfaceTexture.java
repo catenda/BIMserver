@@ -45,10 +45,6 @@ public interface IfcSurfaceTexture extends IfcPresentationItem {
      * Returns the value of the '<em><b>Repeat S</b></em>' attribute.
      * The literals are from the enumeration {@link org.bimserver.models.ifc4.Tristate}.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Repeat S</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Repeat S</em>' attribute.
      * @see org.bimserver.models.ifc4.Tristate
@@ -74,10 +70,6 @@ public interface IfcSurfaceTexture extends IfcPresentationItem {
      * Returns the value of the '<em><b>Repeat T</b></em>' attribute.
      * The literals are from the enumeration {@link org.bimserver.models.ifc4.Tristate}.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Repeat T</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Repeat T</em>' attribute.
      * @see org.bimserver.models.ifc4.Tristate
@@ -102,10 +94,6 @@ public interface IfcSurfaceTexture extends IfcPresentationItem {
     /**
      * Returns the value of the '<em><b>Mode</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Mode</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Mode</em>' attribute.
      * @see #isSetMode()
@@ -155,10 +143,6 @@ public interface IfcSurfaceTexture extends IfcPresentationItem {
     /**
      * Returns the value of the '<em><b>Texture Transform</b></em>' reference.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Texture Transform</em>' reference isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Texture Transform</em>' reference.
      * @see #isSetTextureTransform()
@@ -209,10 +193,6 @@ public interface IfcSurfaceTexture extends IfcPresentationItem {
      * Returns the value of the '<em><b>Parameter</b></em>' attribute list.
      * The list contents are of type {@link java.lang.String}.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Parameter</em>' attribute list isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Parameter</em>' attribute list.
      * @see #isSetParameter()
@@ -249,10 +229,6 @@ public interface IfcSurfaceTexture extends IfcPresentationItem {
      * The list contents are of type {@link org.bimserver.models.ifc4.IfcTextureCoordinate}.
      * It is bidirectional and its opposite is '{@link org.bimserver.models.ifc4.IfcTextureCoordinate#getMaps <em>Maps</em>}'.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Is Mapped By</em>' reference list isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Is Mapped By</em>' reference list.
      * @see #isSetIsMappedBy()
@@ -291,10 +267,6 @@ public interface IfcSurfaceTexture extends IfcPresentationItem {
      * The list contents are of type {@link org.bimserver.models.ifc4.IfcSurfaceStyleWithTextures}.
      * It is bidirectional and its opposite is '{@link org.bimserver.models.ifc4.IfcSurfaceStyleWithTextures#getTextures <em>Textures</em>}'.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Used In Styles</em>' reference list isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Used In Styles</em>' reference list.
      * @see #isSetUsedInStyles()

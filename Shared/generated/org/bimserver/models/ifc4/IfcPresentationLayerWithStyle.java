@@ -42,10 +42,6 @@ public interface IfcPresentationLayerWithStyle extends IfcPresentationLayerAssig
      * Returns the value of the '<em><b>Layer On</b></em>' attribute.
      * The literals are from the enumeration {@link org.bimserver.models.ifc4.Tristate}.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Layer On</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Layer On</em>' attribute.
      * @see org.bimserver.models.ifc4.Tristate
@@ -71,10 +67,6 @@ public interface IfcPresentationLayerWithStyle extends IfcPresentationLayerAssig
      * Returns the value of the '<em><b>Layer Frozen</b></em>' attribute.
      * The literals are from the enumeration {@link org.bimserver.models.ifc4.Tristate}.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Layer Frozen</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Layer Frozen</em>' attribute.
      * @see org.bimserver.models.ifc4.Tristate
@@ -100,10 +92,6 @@ public interface IfcPresentationLayerWithStyle extends IfcPresentationLayerAssig
      * Returns the value of the '<em><b>Layer Blocked</b></em>' attribute.
      * The literals are from the enumeration {@link org.bimserver.models.ifc4.Tristate}.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Layer Blocked</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Layer Blocked</em>' attribute.
      * @see org.bimserver.models.ifc4.Tristate
@@ -129,10 +117,6 @@ public interface IfcPresentationLayerWithStyle extends IfcPresentationLayerAssig
      * Returns the value of the '<em><b>Layer Styles</b></em>' reference list.
      * The list contents are of type {@link org.bimserver.models.ifc4.IfcPresentationStyle}.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Layer Styles</em>' reference list isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Layer Styles</em>' reference list.
      * @see org.bimserver.models.ifc4.Ifc4Package#getIfcPresentationLayerWithStyle_LayerStyles()

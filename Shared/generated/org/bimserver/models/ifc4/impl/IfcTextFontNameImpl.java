@@ -53,7 +53,7 @@ public class IfcTextFontNameImpl extends IdEObjectImpl implements IfcTextFontNam
      */
     @Override
     protected EClass eStaticClass() {
-        return Ifc4Package.Literals.IFC_TEXT_FONT_NAME;
+        return Ifc4Package.eINSTANCE.getIfcTextFontName();
     }
 
     /**
@@ -73,7 +73,7 @@ public class IfcTextFontNameImpl extends IdEObjectImpl implements IfcTextFontNam
      */
     @Override
     public String getWrappedValue() {
-        return (String) eGet(Ifc4Package.Literals.IFC_TEXT_FONT_NAME__WRAPPED_VALUE, true);
+        return (String) eGet(Ifc4Package.eINSTANCE.getIfcTextFontName_WrappedValue(), true);
     }
 
     /**
@@ -83,7 +83,7 @@ public class IfcTextFontNameImpl extends IdEObjectImpl implements IfcTextFontNam
      */
     @Override
     public void setWrappedValue(String newWrappedValue) {
-        eSet(Ifc4Package.Literals.IFC_TEXT_FONT_NAME__WRAPPED_VALUE, newWrappedValue);
+        eSet(Ifc4Package.eINSTANCE.getIfcTextFontName_WrappedValue(), newWrappedValue);
     }
 
     /**
@@ -93,7 +93,7 @@ public class IfcTextFontNameImpl extends IdEObjectImpl implements IfcTextFontNam
      */
     @Override
     public void unsetWrappedValue() {
-        eUnset(Ifc4Package.Literals.IFC_TEXT_FONT_NAME__WRAPPED_VALUE);
+        eUnset(Ifc4Package.eINSTANCE.getIfcTextFontName_WrappedValue());
     }
 
     /**
@@ -103,7 +103,7 @@ public class IfcTextFontNameImpl extends IdEObjectImpl implements IfcTextFontNam
      */
     @Override
     public boolean isSetWrappedValue() {
-        return eIsSet(Ifc4Package.Literals.IFC_TEXT_FONT_NAME__WRAPPED_VALUE);
+        return eIsSet(Ifc4Package.eINSTANCE.getIfcTextFontName_WrappedValue());
     }
 
 } //IfcTextFontNameImpl

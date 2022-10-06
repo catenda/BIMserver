@@ -41,10 +41,6 @@ public interface IfcSectionedSpine extends IfcGeometricRepresentationItem {
     /**
      * Returns the value of the '<em><b>Spine Curve</b></em>' reference.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Spine Curve</em>' reference isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Spine Curve</em>' reference.
      * @see #setSpineCurve(IfcCompositeCurve)
@@ -68,10 +64,6 @@ public interface IfcSectionedSpine extends IfcGeometricRepresentationItem {
      * Returns the value of the '<em><b>Cross Sections</b></em>' reference list.
      * The list contents are of type {@link org.bimserver.models.ifc4.IfcProfileDef}.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Cross Sections</em>' reference list isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Cross Sections</em>' reference list.
      * @see org.bimserver.models.ifc4.Ifc4Package#getIfcSectionedSpine_CrossSections()
@@ -84,10 +76,6 @@ public interface IfcSectionedSpine extends IfcGeometricRepresentationItem {
      * Returns the value of the '<em><b>Cross Section Positions</b></em>' reference list.
      * The list contents are of type {@link org.bimserver.models.ifc4.IfcAxis2Placement3D}.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Cross Section Positions</em>' reference list isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Cross Section Positions</em>' reference list.
      * @see org.bimserver.models.ifc4.Ifc4Package#getIfcSectionedSpine_CrossSectionPositions()
@@ -99,10 +87,6 @@ public interface IfcSectionedSpine extends IfcGeometricRepresentationItem {
     /**
      * Returns the value of the '<em><b>Dim</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Dim</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Dim</em>' attribute.
      * @see #isSetDim()

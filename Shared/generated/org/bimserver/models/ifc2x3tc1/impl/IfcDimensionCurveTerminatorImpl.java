@@ -52,7 +52,7 @@ public class IfcDimensionCurveTerminatorImpl extends IfcTerminatorSymbolImpl imp
      */
     @Override
     protected EClass eStaticClass() {
-        return Ifc2x3tc1Package.Literals.IFC_DIMENSION_CURVE_TERMINATOR;
+        return Ifc2x3tc1Package.eINSTANCE.getIfcDimensionCurveTerminator();
     }
 
     /**
@@ -62,7 +62,7 @@ public class IfcDimensionCurveTerminatorImpl extends IfcTerminatorSymbolImpl imp
      */
     @Override
     public IfcDimensionExtentUsage getRole() {
-        return (IfcDimensionExtentUsage) eGet(Ifc2x3tc1Package.Literals.IFC_DIMENSION_CURVE_TERMINATOR__ROLE, true);
+        return (IfcDimensionExtentUsage) eGet(Ifc2x3tc1Package.eINSTANCE.getIfcDimensionCurveTerminator_Role(), true);
     }
 
     /**
@@ -72,7 +72,7 @@ public class IfcDimensionCurveTerminatorImpl extends IfcTerminatorSymbolImpl imp
      */
     @Override
     public void setRole(IfcDimensionExtentUsage newRole) {
-        eSet(Ifc2x3tc1Package.Literals.IFC_DIMENSION_CURVE_TERMINATOR__ROLE, newRole);
+        eSet(Ifc2x3tc1Package.eINSTANCE.getIfcDimensionCurveTerminator_Role(), newRole);
     }
 
 } //IfcDimensionCurveTerminatorImpl

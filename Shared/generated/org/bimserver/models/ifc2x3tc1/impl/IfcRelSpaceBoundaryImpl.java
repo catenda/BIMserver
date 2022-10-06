@@ -60,7 +60,7 @@ public class IfcRelSpaceBoundaryImpl extends IfcRelConnectsImpl implements IfcRe
      */
     @Override
     protected EClass eStaticClass() {
-        return Ifc2x3tc1Package.Literals.IFC_REL_SPACE_BOUNDARY;
+        return Ifc2x3tc1Package.eINSTANCE.getIfcRelSpaceBoundary();
     }
 
     /**
@@ -70,7 +70,7 @@ public class IfcRelSpaceBoundaryImpl extends IfcRelConnectsImpl implements IfcRe
      */
     @Override
     public IfcSpace getRelatingSpace() {
-        return (IfcSpace) eGet(Ifc2x3tc1Package.Literals.IFC_REL_SPACE_BOUNDARY__RELATING_SPACE, true);
+        return (IfcSpace) eGet(Ifc2x3tc1Package.eINSTANCE.getIfcRelSpaceBoundary_RelatingSpace(), true);
     }
 
     /**
@@ -80,7 +80,7 @@ public class IfcRelSpaceBoundaryImpl extends IfcRelConnectsImpl implements IfcRe
      */
     @Override
     public void setRelatingSpace(IfcSpace newRelatingSpace) {
-        eSet(Ifc2x3tc1Package.Literals.IFC_REL_SPACE_BOUNDARY__RELATING_SPACE, newRelatingSpace);
+        eSet(Ifc2x3tc1Package.eINSTANCE.getIfcRelSpaceBoundary_RelatingSpace(), newRelatingSpace);
     }
 
     /**
@@ -90,7 +90,7 @@ public class IfcRelSpaceBoundaryImpl extends IfcRelConnectsImpl implements IfcRe
      */
     @Override
     public IfcElement getRelatedBuildingElement() {
-        return (IfcElement) eGet(Ifc2x3tc1Package.Literals.IFC_REL_SPACE_BOUNDARY__RELATED_BUILDING_ELEMENT, true);
+        return (IfcElement) eGet(Ifc2x3tc1Package.eINSTANCE.getIfcRelSpaceBoundary_RelatedBuildingElement(), true);
     }
 
     /**
@@ -100,7 +100,7 @@ public class IfcRelSpaceBoundaryImpl extends IfcRelConnectsImpl implements IfcRe
      */
     @Override
     public void setRelatedBuildingElement(IfcElement newRelatedBuildingElement) {
-        eSet(Ifc2x3tc1Package.Literals.IFC_REL_SPACE_BOUNDARY__RELATED_BUILDING_ELEMENT, newRelatedBuildingElement);
+        eSet(Ifc2x3tc1Package.eINSTANCE.getIfcRelSpaceBoundary_RelatedBuildingElement(), newRelatedBuildingElement);
     }
 
     /**
@@ -110,7 +110,7 @@ public class IfcRelSpaceBoundaryImpl extends IfcRelConnectsImpl implements IfcRe
      */
     @Override
     public void unsetRelatedBuildingElement() {
-        eUnset(Ifc2x3tc1Package.Literals.IFC_REL_SPACE_BOUNDARY__RELATED_BUILDING_ELEMENT);
+        eUnset(Ifc2x3tc1Package.eINSTANCE.getIfcRelSpaceBoundary_RelatedBuildingElement());
     }
 
     /**
@@ -120,7 +120,7 @@ public class IfcRelSpaceBoundaryImpl extends IfcRelConnectsImpl implements IfcRe
      */
     @Override
     public boolean isSetRelatedBuildingElement() {
-        return eIsSet(Ifc2x3tc1Package.Literals.IFC_REL_SPACE_BOUNDARY__RELATED_BUILDING_ELEMENT);
+        return eIsSet(Ifc2x3tc1Package.eINSTANCE.getIfcRelSpaceBoundary_RelatedBuildingElement());
     }
 
     /**
@@ -130,7 +130,7 @@ public class IfcRelSpaceBoundaryImpl extends IfcRelConnectsImpl implements IfcRe
      */
     @Override
     public IfcConnectionGeometry getConnectionGeometry() {
-        return (IfcConnectionGeometry) eGet(Ifc2x3tc1Package.Literals.IFC_REL_SPACE_BOUNDARY__CONNECTION_GEOMETRY,
+        return (IfcConnectionGeometry) eGet(Ifc2x3tc1Package.eINSTANCE.getIfcRelSpaceBoundary_ConnectionGeometry(),
                 true);
     }
 
@@ -141,7 +141,7 @@ public class IfcRelSpaceBoundaryImpl extends IfcRelConnectsImpl implements IfcRe
      */
     @Override
     public void setConnectionGeometry(IfcConnectionGeometry newConnectionGeometry) {
-        eSet(Ifc2x3tc1Package.Literals.IFC_REL_SPACE_BOUNDARY__CONNECTION_GEOMETRY, newConnectionGeometry);
+        eSet(Ifc2x3tc1Package.eINSTANCE.getIfcRelSpaceBoundary_ConnectionGeometry(), newConnectionGeometry);
     }
 
     /**
@@ -151,7 +151,7 @@ public class IfcRelSpaceBoundaryImpl extends IfcRelConnectsImpl implements IfcRe
      */
     @Override
     public void unsetConnectionGeometry() {
-        eUnset(Ifc2x3tc1Package.Literals.IFC_REL_SPACE_BOUNDARY__CONNECTION_GEOMETRY);
+        eUnset(Ifc2x3tc1Package.eINSTANCE.getIfcRelSpaceBoundary_ConnectionGeometry());
     }
 
     /**
@@ -161,7 +161,7 @@ public class IfcRelSpaceBoundaryImpl extends IfcRelConnectsImpl implements IfcRe
      */
     @Override
     public boolean isSetConnectionGeometry() {
-        return eIsSet(Ifc2x3tc1Package.Literals.IFC_REL_SPACE_BOUNDARY__CONNECTION_GEOMETRY);
+        return eIsSet(Ifc2x3tc1Package.eINSTANCE.getIfcRelSpaceBoundary_ConnectionGeometry());
     }
 
     /**
@@ -172,7 +172,7 @@ public class IfcRelSpaceBoundaryImpl extends IfcRelConnectsImpl implements IfcRe
     @Override
     public IfcPhysicalOrVirtualEnum getPhysicalOrVirtualBoundary() {
         return (IfcPhysicalOrVirtualEnum) eGet(
-                Ifc2x3tc1Package.Literals.IFC_REL_SPACE_BOUNDARY__PHYSICAL_OR_VIRTUAL_BOUNDARY, true);
+                Ifc2x3tc1Package.eINSTANCE.getIfcRelSpaceBoundary_PhysicalOrVirtualBoundary(), true);
     }
 
     /**
@@ -182,7 +182,7 @@ public class IfcRelSpaceBoundaryImpl extends IfcRelConnectsImpl implements IfcRe
      */
     @Override
     public void setPhysicalOrVirtualBoundary(IfcPhysicalOrVirtualEnum newPhysicalOrVirtualBoundary) {
-        eSet(Ifc2x3tc1Package.Literals.IFC_REL_SPACE_BOUNDARY__PHYSICAL_OR_VIRTUAL_BOUNDARY,
+        eSet(Ifc2x3tc1Package.eINSTANCE.getIfcRelSpaceBoundary_PhysicalOrVirtualBoundary(),
                 newPhysicalOrVirtualBoundary);
     }
 
@@ -194,7 +194,7 @@ public class IfcRelSpaceBoundaryImpl extends IfcRelConnectsImpl implements IfcRe
     @Override
     public IfcInternalOrExternalEnum getInternalOrExternalBoundary() {
         return (IfcInternalOrExternalEnum) eGet(
-                Ifc2x3tc1Package.Literals.IFC_REL_SPACE_BOUNDARY__INTERNAL_OR_EXTERNAL_BOUNDARY, true);
+                Ifc2x3tc1Package.eINSTANCE.getIfcRelSpaceBoundary_InternalOrExternalBoundary(), true);
     }
 
     /**
@@ -204,7 +204,7 @@ public class IfcRelSpaceBoundaryImpl extends IfcRelConnectsImpl implements IfcRe
      */
     @Override
     public void setInternalOrExternalBoundary(IfcInternalOrExternalEnum newInternalOrExternalBoundary) {
-        eSet(Ifc2x3tc1Package.Literals.IFC_REL_SPACE_BOUNDARY__INTERNAL_OR_EXTERNAL_BOUNDARY,
+        eSet(Ifc2x3tc1Package.eINSTANCE.getIfcRelSpaceBoundary_InternalOrExternalBoundary(),
                 newInternalOrExternalBoundary);
     }
 

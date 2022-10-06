@@ -42,10 +42,6 @@ public interface IfcMaterialConstituent extends IfcMaterialDefinition {
     /**
      * Returns the value of the '<em><b>Name</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Name</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Name</em>' attribute.
      * @see #isSetName()
@@ -95,10 +91,6 @@ public interface IfcMaterialConstituent extends IfcMaterialDefinition {
     /**
      * Returns the value of the '<em><b>Description</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Description</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Description</em>' attribute.
      * @see #isSetDescription()
@@ -148,10 +140,6 @@ public interface IfcMaterialConstituent extends IfcMaterialDefinition {
     /**
      * Returns the value of the '<em><b>Material</b></em>' reference.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Material</em>' reference isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Material</em>' reference.
      * @see #setMaterial(IfcMaterial)
@@ -174,10 +162,6 @@ public interface IfcMaterialConstituent extends IfcMaterialDefinition {
     /**
      * Returns the value of the '<em><b>Fraction</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Fraction</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Fraction</em>' attribute.
      * @see #isSetFraction()
@@ -227,10 +211,6 @@ public interface IfcMaterialConstituent extends IfcMaterialDefinition {
     /**
      * Returns the value of the '<em><b>Fraction As String</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Fraction As String</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Fraction As String</em>' attribute.
      * @see #isSetFractionAsString()
@@ -282,10 +262,6 @@ public interface IfcMaterialConstituent extends IfcMaterialDefinition {
     /**
      * Returns the value of the '<em><b>Category</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Category</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Category</em>' attribute.
      * @see #isSetCategory()
@@ -336,10 +312,6 @@ public interface IfcMaterialConstituent extends IfcMaterialDefinition {
      * Returns the value of the '<em><b>To Material Constituent Set</b></em>' reference.
      * It is bidirectional and its opposite is '{@link org.bimserver.models.ifc4.IfcMaterialConstituentSet#getMaterialConstituents <em>Material Constituents</em>}'.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>To Material Constituent Set</em>' reference isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>To Material Constituent Set</em>' reference.
      * @see #isSetToMaterialConstituentSet()

@@ -42,10 +42,6 @@ public interface IfcRelInteractionRequirements extends IfcRelConnects {
     /**
      * Returns the value of the '<em><b>Daily Interaction</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Daily Interaction</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Daily Interaction</em>' attribute.
      * @see #isSetDailyInteraction()
@@ -95,10 +91,6 @@ public interface IfcRelInteractionRequirements extends IfcRelConnects {
     /**
      * Returns the value of the '<em><b>Daily Interaction As String</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Daily Interaction As String</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Daily Interaction As String</em>' attribute.
      * @see #isSetDailyInteractionAsString()
@@ -150,10 +142,6 @@ public interface IfcRelInteractionRequirements extends IfcRelConnects {
     /**
      * Returns the value of the '<em><b>Importance Rating</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Importance Rating</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Importance Rating</em>' attribute.
      * @see #isSetImportanceRating()
@@ -203,10 +191,6 @@ public interface IfcRelInteractionRequirements extends IfcRelConnects {
     /**
      * Returns the value of the '<em><b>Importance Rating As String</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Importance Rating As String</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Importance Rating As String</em>' attribute.
      * @see #isSetImportanceRatingAsString()
@@ -258,10 +242,6 @@ public interface IfcRelInteractionRequirements extends IfcRelConnects {
     /**
      * Returns the value of the '<em><b>Location Of Interaction</b></em>' reference.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Location Of Interaction</em>' reference isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Location Of Interaction</em>' reference.
      * @see #isSetLocationOfInteraction()
@@ -312,10 +292,6 @@ public interface IfcRelInteractionRequirements extends IfcRelConnects {
      * Returns the value of the '<em><b>Related Space Program</b></em>' reference.
      * It is bidirectional and its opposite is '{@link org.bimserver.models.ifc2x3tc1.IfcSpaceProgram#getHasInteractionReqsFrom <em>Has Interaction Reqs From</em>}'.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Related Space Program</em>' reference isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Related Space Program</em>' reference.
      * @see #setRelatedSpaceProgram(IfcSpaceProgram)
@@ -341,10 +317,6 @@ public interface IfcRelInteractionRequirements extends IfcRelConnects {
      * Returns the value of the '<em><b>Relating Space Program</b></em>' reference.
      * It is bidirectional and its opposite is '{@link org.bimserver.models.ifc2x3tc1.IfcSpaceProgram#getHasInteractionReqsTo <em>Has Interaction Reqs To</em>}'.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Relating Space Program</em>' reference isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Relating Space Program</em>' reference.
      * @see #setRelatingSpaceProgram(IfcSpaceProgram)

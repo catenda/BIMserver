@@ -125,10 +125,6 @@ public enum IfcBuildingSystemTypeEnum implements Enumerator {
     /**
      * The '<em><b>NULL</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>NULL</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #NULL
      * @model
@@ -140,10 +136,6 @@ public enum IfcBuildingSystemTypeEnum implements Enumerator {
     /**
      * The '<em><b>OUTERSHELL</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>OUTERSHELL</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #OUTERSHELL
      * @model
@@ -155,10 +147,6 @@ public enum IfcBuildingSystemTypeEnum implements Enumerator {
     /**
      * The '<em><b>FOUNDATION</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>FOUNDATION</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #FOUNDATION
      * @model
@@ -170,10 +158,6 @@ public enum IfcBuildingSystemTypeEnum implements Enumerator {
     /**
      * The '<em><b>TRANSPORT</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>TRANSPORT</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #TRANSPORT
      * @model
@@ -185,10 +169,6 @@ public enum IfcBuildingSystemTypeEnum implements Enumerator {
     /**
      * The '<em><b>NOTDEFINED</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>NOTDEFINED</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #NOTDEFINED
      * @model
@@ -200,10 +180,6 @@ public enum IfcBuildingSystemTypeEnum implements Enumerator {
     /**
      * The '<em><b>FENESTRATION</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>FENESTRATION</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #FENESTRATION
      * @model
@@ -215,10 +191,6 @@ public enum IfcBuildingSystemTypeEnum implements Enumerator {
     /**
      * The '<em><b>USERDEFINED</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>USERDEFINED</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #USERDEFINED
      * @model
@@ -230,10 +202,6 @@ public enum IfcBuildingSystemTypeEnum implements Enumerator {
     /**
      * The '<em><b>LOADBEARING</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>LOADBEARING</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #LOADBEARING
      * @model
@@ -245,10 +213,6 @@ public enum IfcBuildingSystemTypeEnum implements Enumerator {
     /**
      * The '<em><b>SHADING</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>SHADING</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #SHADING
      * @model

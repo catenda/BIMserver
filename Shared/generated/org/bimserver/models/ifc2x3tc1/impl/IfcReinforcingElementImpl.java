@@ -51,7 +51,7 @@ public class IfcReinforcingElementImpl extends IfcBuildingElementComponentImpl i
      */
     @Override
     protected EClass eStaticClass() {
-        return Ifc2x3tc1Package.Literals.IFC_REINFORCING_ELEMENT;
+        return Ifc2x3tc1Package.eINSTANCE.getIfcReinforcingElement();
     }
 
     /**
@@ -61,7 +61,7 @@ public class IfcReinforcingElementImpl extends IfcBuildingElementComponentImpl i
      */
     @Override
     public String getSteelGrade() {
-        return (String) eGet(Ifc2x3tc1Package.Literals.IFC_REINFORCING_ELEMENT__STEEL_GRADE, true);
+        return (String) eGet(Ifc2x3tc1Package.eINSTANCE.getIfcReinforcingElement_SteelGrade(), true);
     }
 
     /**
@@ -71,7 +71,7 @@ public class IfcReinforcingElementImpl extends IfcBuildingElementComponentImpl i
      */
     @Override
     public void setSteelGrade(String newSteelGrade) {
-        eSet(Ifc2x3tc1Package.Literals.IFC_REINFORCING_ELEMENT__STEEL_GRADE, newSteelGrade);
+        eSet(Ifc2x3tc1Package.eINSTANCE.getIfcReinforcingElement_SteelGrade(), newSteelGrade);
     }
 
     /**
@@ -81,7 +81,7 @@ public class IfcReinforcingElementImpl extends IfcBuildingElementComponentImpl i
      */
     @Override
     public void unsetSteelGrade() {
-        eUnset(Ifc2x3tc1Package.Literals.IFC_REINFORCING_ELEMENT__STEEL_GRADE);
+        eUnset(Ifc2x3tc1Package.eINSTANCE.getIfcReinforcingElement_SteelGrade());
     }
 
     /**
@@ -91,7 +91,7 @@ public class IfcReinforcingElementImpl extends IfcBuildingElementComponentImpl i
      */
     @Override
     public boolean isSetSteelGrade() {
-        return eIsSet(Ifc2x3tc1Package.Literals.IFC_REINFORCING_ELEMENT__STEEL_GRADE);
+        return eIsSet(Ifc2x3tc1Package.eINSTANCE.getIfcReinforcingElement_SteelGrade());
     }
 
 } //IfcReinforcingElementImpl

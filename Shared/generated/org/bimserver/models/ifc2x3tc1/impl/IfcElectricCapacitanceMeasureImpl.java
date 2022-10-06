@@ -54,7 +54,7 @@ public class IfcElectricCapacitanceMeasureImpl extends IdEObjectImpl implements 
      */
     @Override
     protected EClass eStaticClass() {
-        return Ifc2x3tc1Package.Literals.IFC_ELECTRIC_CAPACITANCE_MEASURE;
+        return Ifc2x3tc1Package.eINSTANCE.getIfcElectricCapacitanceMeasure();
     }
 
     /**
@@ -74,7 +74,7 @@ public class IfcElectricCapacitanceMeasureImpl extends IdEObjectImpl implements 
      */
     @Override
     public double getWrappedValue() {
-        return (Double) eGet(Ifc2x3tc1Package.Literals.IFC_ELECTRIC_CAPACITANCE_MEASURE__WRAPPED_VALUE, true);
+        return (Double) eGet(Ifc2x3tc1Package.eINSTANCE.getIfcElectricCapacitanceMeasure_WrappedValue(), true);
     }
 
     /**
@@ -84,7 +84,7 @@ public class IfcElectricCapacitanceMeasureImpl extends IdEObjectImpl implements 
      */
     @Override
     public void setWrappedValue(double newWrappedValue) {
-        eSet(Ifc2x3tc1Package.Literals.IFC_ELECTRIC_CAPACITANCE_MEASURE__WRAPPED_VALUE, newWrappedValue);
+        eSet(Ifc2x3tc1Package.eINSTANCE.getIfcElectricCapacitanceMeasure_WrappedValue(), newWrappedValue);
     }
 
     /**
@@ -94,7 +94,7 @@ public class IfcElectricCapacitanceMeasureImpl extends IdEObjectImpl implements 
      */
     @Override
     public void unsetWrappedValue() {
-        eUnset(Ifc2x3tc1Package.Literals.IFC_ELECTRIC_CAPACITANCE_MEASURE__WRAPPED_VALUE);
+        eUnset(Ifc2x3tc1Package.eINSTANCE.getIfcElectricCapacitanceMeasure_WrappedValue());
     }
 
     /**
@@ -104,7 +104,7 @@ public class IfcElectricCapacitanceMeasureImpl extends IdEObjectImpl implements 
      */
     @Override
     public boolean isSetWrappedValue() {
-        return eIsSet(Ifc2x3tc1Package.Literals.IFC_ELECTRIC_CAPACITANCE_MEASURE__WRAPPED_VALUE);
+        return eIsSet(Ifc2x3tc1Package.eINSTANCE.getIfcElectricCapacitanceMeasure_WrappedValue());
     }
 
     /**
@@ -114,7 +114,7 @@ public class IfcElectricCapacitanceMeasureImpl extends IdEObjectImpl implements 
      */
     @Override
     public String getWrappedValueAsString() {
-        return (String) eGet(Ifc2x3tc1Package.Literals.IFC_ELECTRIC_CAPACITANCE_MEASURE__WRAPPED_VALUE_AS_STRING, true);
+        return (String) eGet(Ifc2x3tc1Package.eINSTANCE.getIfcElectricCapacitanceMeasure_WrappedValueAsString(), true);
     }
 
     /**
@@ -124,7 +124,7 @@ public class IfcElectricCapacitanceMeasureImpl extends IdEObjectImpl implements 
      */
     @Override
     public void setWrappedValueAsString(String newWrappedValueAsString) {
-        eSet(Ifc2x3tc1Package.Literals.IFC_ELECTRIC_CAPACITANCE_MEASURE__WRAPPED_VALUE_AS_STRING,
+        eSet(Ifc2x3tc1Package.eINSTANCE.getIfcElectricCapacitanceMeasure_WrappedValueAsString(),
                 newWrappedValueAsString);
     }
 
@@ -135,7 +135,7 @@ public class IfcElectricCapacitanceMeasureImpl extends IdEObjectImpl implements 
      */
     @Override
     public void unsetWrappedValueAsString() {
-        eUnset(Ifc2x3tc1Package.Literals.IFC_ELECTRIC_CAPACITANCE_MEASURE__WRAPPED_VALUE_AS_STRING);
+        eUnset(Ifc2x3tc1Package.eINSTANCE.getIfcElectricCapacitanceMeasure_WrappedValueAsString());
     }
 
     /**
@@ -145,7 +145,7 @@ public class IfcElectricCapacitanceMeasureImpl extends IdEObjectImpl implements 
      */
     @Override
     public boolean isSetWrappedValueAsString() {
-        return eIsSet(Ifc2x3tc1Package.Literals.IFC_ELECTRIC_CAPACITANCE_MEASURE__WRAPPED_VALUE_AS_STRING);
+        return eIsSet(Ifc2x3tc1Package.eINSTANCE.getIfcElectricCapacitanceMeasure_WrappedValueAsString());
     }
 
 } //IfcElectricCapacitanceMeasureImpl

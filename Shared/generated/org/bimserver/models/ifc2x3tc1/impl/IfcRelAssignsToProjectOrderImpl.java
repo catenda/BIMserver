@@ -45,7 +45,7 @@ public class IfcRelAssignsToProjectOrderImpl extends IfcRelAssignsToControlImpl 
      */
     @Override
     protected EClass eStaticClass() {
-        return Ifc2x3tc1Package.Literals.IFC_REL_ASSIGNS_TO_PROJECT_ORDER;
+        return Ifc2x3tc1Package.eINSTANCE.getIfcRelAssignsToProjectOrder();
     }
 
 } //IfcRelAssignsToProjectOrderImpl

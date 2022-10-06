@@ -56,7 +56,7 @@ public class IfcFaceBasedSurfaceModelImpl extends IfcGeometricRepresentationItem
      */
     @Override
     protected EClass eStaticClass() {
-        return Ifc2x3tc1Package.Literals.IFC_FACE_BASED_SURFACE_MODEL;
+        return Ifc2x3tc1Package.eINSTANCE.getIfcFaceBasedSurfaceModel();
     }
 
     /**
@@ -67,7 +67,7 @@ public class IfcFaceBasedSurfaceModelImpl extends IfcGeometricRepresentationItem
     @SuppressWarnings("unchecked")
     @Override
     public EList<IfcConnectedFaceSet> getFbsmFaces() {
-        return (EList<IfcConnectedFaceSet>) eGet(Ifc2x3tc1Package.Literals.IFC_FACE_BASED_SURFACE_MODEL__FBSM_FACES,
+        return (EList<IfcConnectedFaceSet>) eGet(Ifc2x3tc1Package.eINSTANCE.getIfcFaceBasedSurfaceModel_FbsmFaces(),
                 true);
     }
 
@@ -78,7 +78,7 @@ public class IfcFaceBasedSurfaceModelImpl extends IfcGeometricRepresentationItem
      */
     @Override
     public long getDim() {
-        return (Long) eGet(Ifc2x3tc1Package.Literals.IFC_FACE_BASED_SURFACE_MODEL__DIM, true);
+        return (Long) eGet(Ifc2x3tc1Package.eINSTANCE.getIfcFaceBasedSurfaceModel_Dim(), true);
     }
 
     /**
@@ -88,7 +88,7 @@ public class IfcFaceBasedSurfaceModelImpl extends IfcGeometricRepresentationItem
      */
     @Override
     public void setDim(long newDim) {
-        eSet(Ifc2x3tc1Package.Literals.IFC_FACE_BASED_SURFACE_MODEL__DIM, newDim);
+        eSet(Ifc2x3tc1Package.eINSTANCE.getIfcFaceBasedSurfaceModel_Dim(), newDim);
     }
 
     /**
@@ -98,7 +98,7 @@ public class IfcFaceBasedSurfaceModelImpl extends IfcGeometricRepresentationItem
      */
     @Override
     public void unsetDim() {
-        eUnset(Ifc2x3tc1Package.Literals.IFC_FACE_BASED_SURFACE_MODEL__DIM);
+        eUnset(Ifc2x3tc1Package.eINSTANCE.getIfcFaceBasedSurfaceModel_Dim());
     }
 
     /**
@@ -108,7 +108,7 @@ public class IfcFaceBasedSurfaceModelImpl extends IfcGeometricRepresentationItem
      */
     @Override
     public boolean isSetDim() {
-        return eIsSet(Ifc2x3tc1Package.Literals.IFC_FACE_BASED_SURFACE_MODEL__DIM);
+        return eIsSet(Ifc2x3tc1Package.eINSTANCE.getIfcFaceBasedSurfaceModel_Dim());
     }
 
 } //IfcFaceBasedSurfaceModelImpl

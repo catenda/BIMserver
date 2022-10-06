@@ -49,10 +49,6 @@ public interface IfcRecurrencePattern extends IdEObject {
      * Returns the value of the '<em><b>Recurrence Type</b></em>' attribute.
      * The literals are from the enumeration {@link org.bimserver.models.ifc4.IfcRecurrenceTypeEnum}.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Recurrence Type</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Recurrence Type</em>' attribute.
      * @see org.bimserver.models.ifc4.IfcRecurrenceTypeEnum
@@ -78,10 +74,6 @@ public interface IfcRecurrencePattern extends IdEObject {
      * Returns the value of the '<em><b>Day Component</b></em>' attribute list.
      * The list contents are of type {@link java.lang.Long}.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Day Component</em>' attribute list isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Day Component</em>' attribute list.
      * @see #isSetDayComponent()
@@ -117,10 +109,6 @@ public interface IfcRecurrencePattern extends IdEObject {
      * Returns the value of the '<em><b>Weekday Component</b></em>' attribute list.
      * The list contents are of type {@link java.lang.Long}.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Weekday Component</em>' attribute list isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Weekday Component</em>' attribute list.
      * @see #isSetWeekdayComponent()
@@ -156,10 +144,6 @@ public interface IfcRecurrencePattern extends IdEObject {
      * Returns the value of the '<em><b>Month Component</b></em>' attribute list.
      * The list contents are of type {@link java.lang.Long}.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Month Component</em>' attribute list isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Month Component</em>' attribute list.
      * @see #isSetMonthComponent()
@@ -194,10 +178,6 @@ public interface IfcRecurrencePattern extends IdEObject {
     /**
      * Returns the value of the '<em><b>Position</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Position</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Position</em>' attribute.
      * @see #isSetPosition()
@@ -247,10 +227,6 @@ public interface IfcRecurrencePattern extends IdEObject {
     /**
      * Returns the value of the '<em><b>Interval</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Interval</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Interval</em>' attribute.
      * @see #isSetInterval()
@@ -300,10 +276,6 @@ public interface IfcRecurrencePattern extends IdEObject {
     /**
      * Returns the value of the '<em><b>Occurrences</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Occurrences</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Occurrences</em>' attribute.
      * @see #isSetOccurrences()
@@ -354,10 +326,6 @@ public interface IfcRecurrencePattern extends IdEObject {
      * Returns the value of the '<em><b>Time Periods</b></em>' reference list.
      * The list contents are of type {@link org.bimserver.models.ifc4.IfcTimePeriod}.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Time Periods</em>' reference list isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Time Periods</em>' reference list.
      * @see #isSetTimePeriods()

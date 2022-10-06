@@ -42,10 +42,6 @@ public interface IfcPropertySetTemplate extends IfcPropertyTemplateDefinition {
      * Returns the value of the '<em><b>Template Type</b></em>' attribute.
      * The literals are from the enumeration {@link org.bimserver.models.ifc4.IfcPropertySetTemplateTypeEnum}.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Template Type</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Template Type</em>' attribute.
      * @see org.bimserver.models.ifc4.IfcPropertySetTemplateTypeEnum
@@ -97,10 +93,6 @@ public interface IfcPropertySetTemplate extends IfcPropertyTemplateDefinition {
     /**
      * Returns the value of the '<em><b>Applicable Entity</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Applicable Entity</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Applicable Entity</em>' attribute.
      * @see #isSetApplicableEntity()
@@ -152,10 +144,6 @@ public interface IfcPropertySetTemplate extends IfcPropertyTemplateDefinition {
      * The list contents are of type {@link org.bimserver.models.ifc4.IfcPropertyTemplate}.
      * It is bidirectional and its opposite is '{@link org.bimserver.models.ifc4.IfcPropertyTemplate#getPartOfPsetTemplate <em>Part Of Pset Template</em>}'.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Has Property Templates</em>' reference list isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Has Property Templates</em>' reference list.
      * @see org.bimserver.models.ifc4.Ifc4Package#getIfcPropertySetTemplate_HasPropertyTemplates()
@@ -171,10 +159,6 @@ public interface IfcPropertySetTemplate extends IfcPropertyTemplateDefinition {
      * The list contents are of type {@link org.bimserver.models.ifc4.IfcRelDefinesByTemplate}.
      * It is bidirectional and its opposite is '{@link org.bimserver.models.ifc4.IfcRelDefinesByTemplate#getRelatingTemplate <em>Relating Template</em>}'.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Defines</em>' reference list isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Defines</em>' reference list.
      * @see #isSetDefines()

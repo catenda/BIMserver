@@ -39,10 +39,6 @@ public interface IfcRightCircularCone extends IfcCsgPrimitive3D {
     /**
      * Returns the value of the '<em><b>Height</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Height</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Height</em>' attribute.
      * @see #setHeight(double)
@@ -65,10 +61,6 @@ public interface IfcRightCircularCone extends IfcCsgPrimitive3D {
     /**
      * Returns the value of the '<em><b>Height As String</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Height As String</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Height As String</em>' attribute.
      * @see #setHeightAsString(String)
@@ -92,10 +84,6 @@ public interface IfcRightCircularCone extends IfcCsgPrimitive3D {
     /**
      * Returns the value of the '<em><b>Bottom Radius</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Bottom Radius</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Bottom Radius</em>' attribute.
      * @see #setBottomRadius(double)
@@ -118,10 +106,6 @@ public interface IfcRightCircularCone extends IfcCsgPrimitive3D {
     /**
      * Returns the value of the '<em><b>Bottom Radius As String</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Bottom Radius As String</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Bottom Radius As String</em>' attribute.
      * @see #setBottomRadiusAsString(String)

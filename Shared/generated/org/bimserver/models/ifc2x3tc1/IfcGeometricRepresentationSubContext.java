@@ -41,10 +41,6 @@ public interface IfcGeometricRepresentationSubContext extends IfcGeometricRepres
      * Returns the value of the '<em><b>Parent Context</b></em>' reference.
      * It is bidirectional and its opposite is '{@link org.bimserver.models.ifc2x3tc1.IfcGeometricRepresentationContext#getHasSubContexts <em>Has Sub Contexts</em>}'.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Parent Context</em>' reference isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Parent Context</em>' reference.
      * @see #setParentContext(IfcGeometricRepresentationContext)
@@ -69,10 +65,6 @@ public interface IfcGeometricRepresentationSubContext extends IfcGeometricRepres
     /**
      * Returns the value of the '<em><b>Target Scale</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Target Scale</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Target Scale</em>' attribute.
      * @see #isSetTargetScale()
@@ -122,10 +114,6 @@ public interface IfcGeometricRepresentationSubContext extends IfcGeometricRepres
     /**
      * Returns the value of the '<em><b>Target Scale As String</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Target Scale As String</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Target Scale As String</em>' attribute.
      * @see #isSetTargetScaleAsString()
@@ -178,10 +166,6 @@ public interface IfcGeometricRepresentationSubContext extends IfcGeometricRepres
      * Returns the value of the '<em><b>Target View</b></em>' attribute.
      * The literals are from the enumeration {@link org.bimserver.models.ifc2x3tc1.IfcGeometricProjectionEnum}.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Target View</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Target View</em>' attribute.
      * @see org.bimserver.models.ifc2x3tc1.IfcGeometricProjectionEnum
@@ -206,10 +190,6 @@ public interface IfcGeometricRepresentationSubContext extends IfcGeometricRepres
     /**
      * Returns the value of the '<em><b>User Defined Target View</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>User Defined Target View</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>User Defined Target View</em>' attribute.
      * @see #isSetUserDefinedTargetView()

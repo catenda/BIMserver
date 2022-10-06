@@ -46,7 +46,7 @@ public class IfcPreDefinedTerminatorSymbolImpl extends IfcPreDefinedSymbolImpl
      */
     @Override
     protected EClass eStaticClass() {
-        return Ifc2x3tc1Package.Literals.IFC_PRE_DEFINED_TERMINATOR_SYMBOL;
+        return Ifc2x3tc1Package.eINSTANCE.getIfcPreDefinedTerminatorSymbol();
     }
 
 } //IfcPreDefinedTerminatorSymbolImpl

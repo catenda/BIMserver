@@ -53,7 +53,7 @@ public class IfcPresentationStyleImpl extends IdEObjectImpl implements IfcPresen
      */
     @Override
     protected EClass eStaticClass() {
-        return Ifc4Package.Literals.IFC_PRESENTATION_STYLE;
+        return Ifc4Package.eINSTANCE.getIfcPresentationStyle();
     }
 
     /**
@@ -73,7 +73,7 @@ public class IfcPresentationStyleImpl extends IdEObjectImpl implements IfcPresen
      */
     @Override
     public String getName() {
-        return (String) eGet(Ifc4Package.Literals.IFC_PRESENTATION_STYLE__NAME, true);
+        return (String) eGet(Ifc4Package.eINSTANCE.getIfcPresentationStyle_Name(), true);
     }
 
     /**
@@ -83,7 +83,7 @@ public class IfcPresentationStyleImpl extends IdEObjectImpl implements IfcPresen
      */
     @Override
     public void setName(String newName) {
-        eSet(Ifc4Package.Literals.IFC_PRESENTATION_STYLE__NAME, newName);
+        eSet(Ifc4Package.eINSTANCE.getIfcPresentationStyle_Name(), newName);
     }
 
     /**
@@ -93,7 +93,7 @@ public class IfcPresentationStyleImpl extends IdEObjectImpl implements IfcPresen
      */
     @Override
     public void unsetName() {
-        eUnset(Ifc4Package.Literals.IFC_PRESENTATION_STYLE__NAME);
+        eUnset(Ifc4Package.eINSTANCE.getIfcPresentationStyle_Name());
     }
 
     /**
@@ -103,7 +103,7 @@ public class IfcPresentationStyleImpl extends IdEObjectImpl implements IfcPresen
      */
     @Override
     public boolean isSetName() {
-        return eIsSet(Ifc4Package.Literals.IFC_PRESENTATION_STYLE__NAME);
+        return eIsSet(Ifc4Package.eINSTANCE.getIfcPresentationStyle_Name());
     }
 
 } //IfcPresentationStyleImpl

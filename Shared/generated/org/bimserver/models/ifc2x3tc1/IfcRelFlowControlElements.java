@@ -41,10 +41,6 @@ public interface IfcRelFlowControlElements extends IfcRelConnects {
      * The list contents are of type {@link org.bimserver.models.ifc2x3tc1.IfcDistributionControlElement}.
      * It is bidirectional and its opposite is '{@link org.bimserver.models.ifc2x3tc1.IfcDistributionControlElement#getAssignedToFlowElement <em>Assigned To Flow Element</em>}'.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Related Control Elements</em>' reference list isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Related Control Elements</em>' reference list.
      * @see org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package#getIfcRelFlowControlElements_RelatedControlElements()
@@ -59,10 +55,6 @@ public interface IfcRelFlowControlElements extends IfcRelConnects {
      * Returns the value of the '<em><b>Relating Flow Element</b></em>' reference.
      * It is bidirectional and its opposite is '{@link org.bimserver.models.ifc2x3tc1.IfcDistributionFlowElement#getHasControlElements <em>Has Control Elements</em>}'.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Relating Flow Element</em>' reference isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Relating Flow Element</em>' reference.
      * @see #setRelatingFlowElement(IfcDistributionFlowElement)

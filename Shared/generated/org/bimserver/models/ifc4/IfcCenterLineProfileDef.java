@@ -37,10 +37,6 @@ public interface IfcCenterLineProfileDef extends IfcArbitraryOpenProfileDef {
     /**
      * Returns the value of the '<em><b>Thickness</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Thickness</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Thickness</em>' attribute.
      * @see #setThickness(double)
@@ -63,10 +59,6 @@ public interface IfcCenterLineProfileDef extends IfcArbitraryOpenProfileDef {
     /**
      * Returns the value of the '<em><b>Thickness As String</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Thickness As String</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Thickness As String</em>' attribute.
      * @see #setThicknessAsString(String)

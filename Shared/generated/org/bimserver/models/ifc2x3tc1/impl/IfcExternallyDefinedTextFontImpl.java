@@ -45,7 +45,7 @@ public class IfcExternallyDefinedTextFontImpl extends IfcExternalReferenceImpl i
      */
     @Override
     protected EClass eStaticClass() {
-        return Ifc2x3tc1Package.Literals.IFC_EXTERNALLY_DEFINED_TEXT_FONT;
+        return Ifc2x3tc1Package.eINSTANCE.getIfcExternallyDefinedTextFont();
     }
 
 } //IfcExternallyDefinedTextFontImpl

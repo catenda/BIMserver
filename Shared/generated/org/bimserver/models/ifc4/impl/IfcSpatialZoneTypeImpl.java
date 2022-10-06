@@ -53,7 +53,7 @@ public class IfcSpatialZoneTypeImpl extends IfcSpatialElementTypeImpl implements
      */
     @Override
     protected EClass eStaticClass() {
-        return Ifc4Package.Literals.IFC_SPATIAL_ZONE_TYPE;
+        return Ifc4Package.eINSTANCE.getIfcSpatialZoneType();
     }
 
     /**
@@ -63,7 +63,7 @@ public class IfcSpatialZoneTypeImpl extends IfcSpatialElementTypeImpl implements
      */
     @Override
     public IfcSpatialZoneTypeEnum getPredefinedType() {
-        return (IfcSpatialZoneTypeEnum) eGet(Ifc4Package.Literals.IFC_SPATIAL_ZONE_TYPE__PREDEFINED_TYPE, true);
+        return (IfcSpatialZoneTypeEnum) eGet(Ifc4Package.eINSTANCE.getIfcSpatialZoneType_PredefinedType(), true);
     }
 
     /**
@@ -73,7 +73,7 @@ public class IfcSpatialZoneTypeImpl extends IfcSpatialElementTypeImpl implements
      */
     @Override
     public void setPredefinedType(IfcSpatialZoneTypeEnum newPredefinedType) {
-        eSet(Ifc4Package.Literals.IFC_SPATIAL_ZONE_TYPE__PREDEFINED_TYPE, newPredefinedType);
+        eSet(Ifc4Package.eINSTANCE.getIfcSpatialZoneType_PredefinedType(), newPredefinedType);
     }
 
     /**
@@ -83,7 +83,7 @@ public class IfcSpatialZoneTypeImpl extends IfcSpatialElementTypeImpl implements
      */
     @Override
     public String getLongName() {
-        return (String) eGet(Ifc4Package.Literals.IFC_SPATIAL_ZONE_TYPE__LONG_NAME, true);
+        return (String) eGet(Ifc4Package.eINSTANCE.getIfcSpatialZoneType_LongName(), true);
     }
 
     /**
@@ -93,7 +93,7 @@ public class IfcSpatialZoneTypeImpl extends IfcSpatialElementTypeImpl implements
      */
     @Override
     public void setLongName(String newLongName) {
-        eSet(Ifc4Package.Literals.IFC_SPATIAL_ZONE_TYPE__LONG_NAME, newLongName);
+        eSet(Ifc4Package.eINSTANCE.getIfcSpatialZoneType_LongName(), newLongName);
     }
 
     /**
@@ -103,7 +103,7 @@ public class IfcSpatialZoneTypeImpl extends IfcSpatialElementTypeImpl implements
      */
     @Override
     public void unsetLongName() {
-        eUnset(Ifc4Package.Literals.IFC_SPATIAL_ZONE_TYPE__LONG_NAME);
+        eUnset(Ifc4Package.eINSTANCE.getIfcSpatialZoneType_LongName());
     }
 
     /**
@@ -113,7 +113,7 @@ public class IfcSpatialZoneTypeImpl extends IfcSpatialElementTypeImpl implements
      */
     @Override
     public boolean isSetLongName() {
-        return eIsSet(Ifc4Package.Literals.IFC_SPATIAL_ZONE_TYPE__LONG_NAME);
+        return eIsSet(Ifc4Package.eINSTANCE.getIfcSpatialZoneType_LongName());
     }
 
 } //IfcSpatialZoneTypeImpl

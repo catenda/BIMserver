@@ -52,7 +52,7 @@ public class IfcFeatureElementAdditionImpl extends IfcFeatureElementImpl impleme
      */
     @Override
     protected EClass eStaticClass() {
-        return Ifc2x3tc1Package.Literals.IFC_FEATURE_ELEMENT_ADDITION;
+        return Ifc2x3tc1Package.eINSTANCE.getIfcFeatureElementAddition();
     }
 
     /**
@@ -62,7 +62,7 @@ public class IfcFeatureElementAdditionImpl extends IfcFeatureElementImpl impleme
      */
     @Override
     public IfcRelProjectsElement getProjectsElements() {
-        return (IfcRelProjectsElement) eGet(Ifc2x3tc1Package.Literals.IFC_FEATURE_ELEMENT_ADDITION__PROJECTS_ELEMENTS,
+        return (IfcRelProjectsElement) eGet(Ifc2x3tc1Package.eINSTANCE.getIfcFeatureElementAddition_ProjectsElements(),
                 true);
     }
 
@@ -73,7 +73,7 @@ public class IfcFeatureElementAdditionImpl extends IfcFeatureElementImpl impleme
      */
     @Override
     public void setProjectsElements(IfcRelProjectsElement newProjectsElements) {
-        eSet(Ifc2x3tc1Package.Literals.IFC_FEATURE_ELEMENT_ADDITION__PROJECTS_ELEMENTS, newProjectsElements);
+        eSet(Ifc2x3tc1Package.eINSTANCE.getIfcFeatureElementAddition_ProjectsElements(), newProjectsElements);
     }
 
     /**
@@ -83,7 +83,7 @@ public class IfcFeatureElementAdditionImpl extends IfcFeatureElementImpl impleme
      */
     @Override
     public void unsetProjectsElements() {
-        eUnset(Ifc2x3tc1Package.Literals.IFC_FEATURE_ELEMENT_ADDITION__PROJECTS_ELEMENTS);
+        eUnset(Ifc2x3tc1Package.eINSTANCE.getIfcFeatureElementAddition_ProjectsElements());
     }
 
     /**
@@ -93,7 +93,7 @@ public class IfcFeatureElementAdditionImpl extends IfcFeatureElementImpl impleme
      */
     @Override
     public boolean isSetProjectsElements() {
-        return eIsSet(Ifc2x3tc1Package.Literals.IFC_FEATURE_ELEMENT_ADDITION__PROJECTS_ELEMENTS);
+        return eIsSet(Ifc2x3tc1Package.eINSTANCE.getIfcFeatureElementAddition_ProjectsElements());
     }
 
 } //IfcFeatureElementAdditionImpl

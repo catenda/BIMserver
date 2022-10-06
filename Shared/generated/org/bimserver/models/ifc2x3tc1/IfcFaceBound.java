@@ -37,10 +37,6 @@ public interface IfcFaceBound extends IfcTopologicalRepresentationItem {
     /**
      * Returns the value of the '<em><b>Bound</b></em>' reference.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Bound</em>' reference isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Bound</em>' reference.
      * @see #setBound(IfcLoop)
@@ -64,10 +60,6 @@ public interface IfcFaceBound extends IfcTopologicalRepresentationItem {
      * Returns the value of the '<em><b>Orientation</b></em>' attribute.
      * The literals are from the enumeration {@link org.bimserver.models.ifc2x3tc1.Tristate}.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Orientation</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Orientation</em>' attribute.
      * @see org.bimserver.models.ifc2x3tc1.Tristate

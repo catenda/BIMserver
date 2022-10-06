@@ -59,7 +59,7 @@ public class IfcWindowImpl extends IfcBuildingElementImpl implements IfcWindow {
      */
     @Override
     protected EClass eStaticClass() {
-        return Ifc4Package.Literals.IFC_WINDOW;
+        return Ifc4Package.eINSTANCE.getIfcWindow();
     }
 
     /**
@@ -69,7 +69,7 @@ public class IfcWindowImpl extends IfcBuildingElementImpl implements IfcWindow {
      */
     @Override
     public double getOverallHeight() {
-        return (Double) eGet(Ifc4Package.Literals.IFC_WINDOW__OVERALL_HEIGHT, true);
+        return (Double) eGet(Ifc4Package.eINSTANCE.getIfcWindow_OverallHeight(), true);
     }
 
     /**
@@ -79,7 +79,7 @@ public class IfcWindowImpl extends IfcBuildingElementImpl implements IfcWindow {
      */
     @Override
     public void setOverallHeight(double newOverallHeight) {
-        eSet(Ifc4Package.Literals.IFC_WINDOW__OVERALL_HEIGHT, newOverallHeight);
+        eSet(Ifc4Package.eINSTANCE.getIfcWindow_OverallHeight(), newOverallHeight);
     }
 
     /**
@@ -89,7 +89,7 @@ public class IfcWindowImpl extends IfcBuildingElementImpl implements IfcWindow {
      */
     @Override
     public void unsetOverallHeight() {
-        eUnset(Ifc4Package.Literals.IFC_WINDOW__OVERALL_HEIGHT);
+        eUnset(Ifc4Package.eINSTANCE.getIfcWindow_OverallHeight());
     }
 
     /**
@@ -99,7 +99,7 @@ public class IfcWindowImpl extends IfcBuildingElementImpl implements IfcWindow {
      */
     @Override
     public boolean isSetOverallHeight() {
-        return eIsSet(Ifc4Package.Literals.IFC_WINDOW__OVERALL_HEIGHT);
+        return eIsSet(Ifc4Package.eINSTANCE.getIfcWindow_OverallHeight());
     }
 
     /**
@@ -109,7 +109,7 @@ public class IfcWindowImpl extends IfcBuildingElementImpl implements IfcWindow {
      */
     @Override
     public String getOverallHeightAsString() {
-        return (String) eGet(Ifc4Package.Literals.IFC_WINDOW__OVERALL_HEIGHT_AS_STRING, true);
+        return (String) eGet(Ifc4Package.eINSTANCE.getIfcWindow_OverallHeightAsString(), true);
     }
 
     /**
@@ -119,7 +119,7 @@ public class IfcWindowImpl extends IfcBuildingElementImpl implements IfcWindow {
      */
     @Override
     public void setOverallHeightAsString(String newOverallHeightAsString) {
-        eSet(Ifc4Package.Literals.IFC_WINDOW__OVERALL_HEIGHT_AS_STRING, newOverallHeightAsString);
+        eSet(Ifc4Package.eINSTANCE.getIfcWindow_OverallHeightAsString(), newOverallHeightAsString);
     }
 
     /**
@@ -129,7 +129,7 @@ public class IfcWindowImpl extends IfcBuildingElementImpl implements IfcWindow {
      */
     @Override
     public void unsetOverallHeightAsString() {
-        eUnset(Ifc4Package.Literals.IFC_WINDOW__OVERALL_HEIGHT_AS_STRING);
+        eUnset(Ifc4Package.eINSTANCE.getIfcWindow_OverallHeightAsString());
     }
 
     /**
@@ -139,7 +139,7 @@ public class IfcWindowImpl extends IfcBuildingElementImpl implements IfcWindow {
      */
     @Override
     public boolean isSetOverallHeightAsString() {
-        return eIsSet(Ifc4Package.Literals.IFC_WINDOW__OVERALL_HEIGHT_AS_STRING);
+        return eIsSet(Ifc4Package.eINSTANCE.getIfcWindow_OverallHeightAsString());
     }
 
     /**
@@ -149,7 +149,7 @@ public class IfcWindowImpl extends IfcBuildingElementImpl implements IfcWindow {
      */
     @Override
     public double getOverallWidth() {
-        return (Double) eGet(Ifc4Package.Literals.IFC_WINDOW__OVERALL_WIDTH, true);
+        return (Double) eGet(Ifc4Package.eINSTANCE.getIfcWindow_OverallWidth(), true);
     }
 
     /**
@@ -159,7 +159,7 @@ public class IfcWindowImpl extends IfcBuildingElementImpl implements IfcWindow {
      */
     @Override
     public void setOverallWidth(double newOverallWidth) {
-        eSet(Ifc4Package.Literals.IFC_WINDOW__OVERALL_WIDTH, newOverallWidth);
+        eSet(Ifc4Package.eINSTANCE.getIfcWindow_OverallWidth(), newOverallWidth);
     }
 
     /**
@@ -169,7 +169,7 @@ public class IfcWindowImpl extends IfcBuildingElementImpl implements IfcWindow {
      */
     @Override
     public void unsetOverallWidth() {
-        eUnset(Ifc4Package.Literals.IFC_WINDOW__OVERALL_WIDTH);
+        eUnset(Ifc4Package.eINSTANCE.getIfcWindow_OverallWidth());
     }
 
     /**
@@ -179,7 +179,7 @@ public class IfcWindowImpl extends IfcBuildingElementImpl implements IfcWindow {
      */
     @Override
     public boolean isSetOverallWidth() {
-        return eIsSet(Ifc4Package.Literals.IFC_WINDOW__OVERALL_WIDTH);
+        return eIsSet(Ifc4Package.eINSTANCE.getIfcWindow_OverallWidth());
     }
 
     /**
@@ -189,7 +189,7 @@ public class IfcWindowImpl extends IfcBuildingElementImpl implements IfcWindow {
      */
     @Override
     public String getOverallWidthAsString() {
-        return (String) eGet(Ifc4Package.Literals.IFC_WINDOW__OVERALL_WIDTH_AS_STRING, true);
+        return (String) eGet(Ifc4Package.eINSTANCE.getIfcWindow_OverallWidthAsString(), true);
     }
 
     /**
@@ -199,7 +199,7 @@ public class IfcWindowImpl extends IfcBuildingElementImpl implements IfcWindow {
      */
     @Override
     public void setOverallWidthAsString(String newOverallWidthAsString) {
-        eSet(Ifc4Package.Literals.IFC_WINDOW__OVERALL_WIDTH_AS_STRING, newOverallWidthAsString);
+        eSet(Ifc4Package.eINSTANCE.getIfcWindow_OverallWidthAsString(), newOverallWidthAsString);
     }
 
     /**
@@ -209,7 +209,7 @@ public class IfcWindowImpl extends IfcBuildingElementImpl implements IfcWindow {
      */
     @Override
     public void unsetOverallWidthAsString() {
-        eUnset(Ifc4Package.Literals.IFC_WINDOW__OVERALL_WIDTH_AS_STRING);
+        eUnset(Ifc4Package.eINSTANCE.getIfcWindow_OverallWidthAsString());
     }
 
     /**
@@ -219,7 +219,7 @@ public class IfcWindowImpl extends IfcBuildingElementImpl implements IfcWindow {
      */
     @Override
     public boolean isSetOverallWidthAsString() {
-        return eIsSet(Ifc4Package.Literals.IFC_WINDOW__OVERALL_WIDTH_AS_STRING);
+        return eIsSet(Ifc4Package.eINSTANCE.getIfcWindow_OverallWidthAsString());
     }
 
     /**
@@ -229,7 +229,7 @@ public class IfcWindowImpl extends IfcBuildingElementImpl implements IfcWindow {
      */
     @Override
     public IfcWindowTypeEnum getPredefinedType() {
-        return (IfcWindowTypeEnum) eGet(Ifc4Package.Literals.IFC_WINDOW__PREDEFINED_TYPE, true);
+        return (IfcWindowTypeEnum) eGet(Ifc4Package.eINSTANCE.getIfcWindow_PredefinedType(), true);
     }
 
     /**
@@ -239,7 +239,7 @@ public class IfcWindowImpl extends IfcBuildingElementImpl implements IfcWindow {
      */
     @Override
     public void setPredefinedType(IfcWindowTypeEnum newPredefinedType) {
-        eSet(Ifc4Package.Literals.IFC_WINDOW__PREDEFINED_TYPE, newPredefinedType);
+        eSet(Ifc4Package.eINSTANCE.getIfcWindow_PredefinedType(), newPredefinedType);
     }
 
     /**
@@ -249,7 +249,7 @@ public class IfcWindowImpl extends IfcBuildingElementImpl implements IfcWindow {
      */
     @Override
     public void unsetPredefinedType() {
-        eUnset(Ifc4Package.Literals.IFC_WINDOW__PREDEFINED_TYPE);
+        eUnset(Ifc4Package.eINSTANCE.getIfcWindow_PredefinedType());
     }
 
     /**
@@ -259,7 +259,7 @@ public class IfcWindowImpl extends IfcBuildingElementImpl implements IfcWindow {
      */
     @Override
     public boolean isSetPredefinedType() {
-        return eIsSet(Ifc4Package.Literals.IFC_WINDOW__PREDEFINED_TYPE);
+        return eIsSet(Ifc4Package.eINSTANCE.getIfcWindow_PredefinedType());
     }
 
     /**
@@ -269,7 +269,7 @@ public class IfcWindowImpl extends IfcBuildingElementImpl implements IfcWindow {
      */
     @Override
     public IfcWindowTypePartitioningEnum getPartitioningType() {
-        return (IfcWindowTypePartitioningEnum) eGet(Ifc4Package.Literals.IFC_WINDOW__PARTITIONING_TYPE, true);
+        return (IfcWindowTypePartitioningEnum) eGet(Ifc4Package.eINSTANCE.getIfcWindow_PartitioningType(), true);
     }
 
     /**
@@ -279,7 +279,7 @@ public class IfcWindowImpl extends IfcBuildingElementImpl implements IfcWindow {
      */
     @Override
     public void setPartitioningType(IfcWindowTypePartitioningEnum newPartitioningType) {
-        eSet(Ifc4Package.Literals.IFC_WINDOW__PARTITIONING_TYPE, newPartitioningType);
+        eSet(Ifc4Package.eINSTANCE.getIfcWindow_PartitioningType(), newPartitioningType);
     }
 
     /**
@@ -289,7 +289,7 @@ public class IfcWindowImpl extends IfcBuildingElementImpl implements IfcWindow {
      */
     @Override
     public void unsetPartitioningType() {
-        eUnset(Ifc4Package.Literals.IFC_WINDOW__PARTITIONING_TYPE);
+        eUnset(Ifc4Package.eINSTANCE.getIfcWindow_PartitioningType());
     }
 
     /**
@@ -299,7 +299,7 @@ public class IfcWindowImpl extends IfcBuildingElementImpl implements IfcWindow {
      */
     @Override
     public boolean isSetPartitioningType() {
-        return eIsSet(Ifc4Package.Literals.IFC_WINDOW__PARTITIONING_TYPE);
+        return eIsSet(Ifc4Package.eINSTANCE.getIfcWindow_PartitioningType());
     }
 
     /**
@@ -309,7 +309,7 @@ public class IfcWindowImpl extends IfcBuildingElementImpl implements IfcWindow {
      */
     @Override
     public String getUserDefinedPartitioningType() {
-        return (String) eGet(Ifc4Package.Literals.IFC_WINDOW__USER_DEFINED_PARTITIONING_TYPE, true);
+        return (String) eGet(Ifc4Package.eINSTANCE.getIfcWindow_UserDefinedPartitioningType(), true);
     }
 
     /**
@@ -319,7 +319,7 @@ public class IfcWindowImpl extends IfcBuildingElementImpl implements IfcWindow {
      */
     @Override
     public void setUserDefinedPartitioningType(String newUserDefinedPartitioningType) {
-        eSet(Ifc4Package.Literals.IFC_WINDOW__USER_DEFINED_PARTITIONING_TYPE, newUserDefinedPartitioningType);
+        eSet(Ifc4Package.eINSTANCE.getIfcWindow_UserDefinedPartitioningType(), newUserDefinedPartitioningType);
     }
 
     /**
@@ -329,7 +329,7 @@ public class IfcWindowImpl extends IfcBuildingElementImpl implements IfcWindow {
      */
     @Override
     public void unsetUserDefinedPartitioningType() {
-        eUnset(Ifc4Package.Literals.IFC_WINDOW__USER_DEFINED_PARTITIONING_TYPE);
+        eUnset(Ifc4Package.eINSTANCE.getIfcWindow_UserDefinedPartitioningType());
     }
 
     /**
@@ -339,7 +339,7 @@ public class IfcWindowImpl extends IfcBuildingElementImpl implements IfcWindow {
      */
     @Override
     public boolean isSetUserDefinedPartitioningType() {
-        return eIsSet(Ifc4Package.Literals.IFC_WINDOW__USER_DEFINED_PARTITIONING_TYPE);
+        return eIsSet(Ifc4Package.eINSTANCE.getIfcWindow_UserDefinedPartitioningType());
     }
 
 } //IfcWindowImpl

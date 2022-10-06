@@ -52,7 +52,7 @@ public class IfcCommunicationsApplianceImpl extends IfcFlowTerminalImpl implemen
      */
     @Override
     protected EClass eStaticClass() {
-        return Ifc4Package.Literals.IFC_COMMUNICATIONS_APPLIANCE;
+        return Ifc4Package.eINSTANCE.getIfcCommunicationsAppliance();
     }
 
     /**
@@ -63,7 +63,7 @@ public class IfcCommunicationsApplianceImpl extends IfcFlowTerminalImpl implemen
     @Override
     public IfcCommunicationsApplianceTypeEnum getPredefinedType() {
         return (IfcCommunicationsApplianceTypeEnum) eGet(
-                Ifc4Package.Literals.IFC_COMMUNICATIONS_APPLIANCE__PREDEFINED_TYPE, true);
+                Ifc4Package.eINSTANCE.getIfcCommunicationsAppliance_PredefinedType(), true);
     }
 
     /**
@@ -73,7 +73,7 @@ public class IfcCommunicationsApplianceImpl extends IfcFlowTerminalImpl implemen
      */
     @Override
     public void setPredefinedType(IfcCommunicationsApplianceTypeEnum newPredefinedType) {
-        eSet(Ifc4Package.Literals.IFC_COMMUNICATIONS_APPLIANCE__PREDEFINED_TYPE, newPredefinedType);
+        eSet(Ifc4Package.eINSTANCE.getIfcCommunicationsAppliance_PredefinedType(), newPredefinedType);
     }
 
     /**
@@ -83,7 +83,7 @@ public class IfcCommunicationsApplianceImpl extends IfcFlowTerminalImpl implemen
      */
     @Override
     public void unsetPredefinedType() {
-        eUnset(Ifc4Package.Literals.IFC_COMMUNICATIONS_APPLIANCE__PREDEFINED_TYPE);
+        eUnset(Ifc4Package.eINSTANCE.getIfcCommunicationsAppliance_PredefinedType());
     }
 
     /**
@@ -93,7 +93,7 @@ public class IfcCommunicationsApplianceImpl extends IfcFlowTerminalImpl implemen
      */
     @Override
     public boolean isSetPredefinedType() {
-        return eIsSet(Ifc4Package.Literals.IFC_COMMUNICATIONS_APPLIANCE__PREDEFINED_TYPE);
+        return eIsSet(Ifc4Package.eINSTANCE.getIfcCommunicationsAppliance_PredefinedType());
     }
 
 } //IfcCommunicationsApplianceImpl

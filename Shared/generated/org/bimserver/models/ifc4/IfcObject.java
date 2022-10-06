@@ -42,10 +42,6 @@ public interface IfcObject extends IfcObjectDefinition {
     /**
      * Returns the value of the '<em><b>Object Type</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Object Type</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Object Type</em>' attribute.
      * @see #isSetObjectType()
@@ -97,10 +93,6 @@ public interface IfcObject extends IfcObjectDefinition {
      * The list contents are of type {@link org.bimserver.models.ifc4.IfcRelDefinesByObject}.
      * It is bidirectional and its opposite is '{@link org.bimserver.models.ifc4.IfcRelDefinesByObject#getRelatedObjects <em>Related Objects</em>}'.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Is Declared By</em>' reference list isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Is Declared By</em>' reference list.
      * @see #isSetIsDeclaredBy()
@@ -139,10 +131,6 @@ public interface IfcObject extends IfcObjectDefinition {
      * The list contents are of type {@link org.bimserver.models.ifc4.IfcRelDefinesByObject}.
      * It is bidirectional and its opposite is '{@link org.bimserver.models.ifc4.IfcRelDefinesByObject#getRelatingObject <em>Relating Object</em>}'.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Declares</em>' reference list isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Declares</em>' reference list.
      * @see #isSetDeclares()
@@ -181,10 +169,6 @@ public interface IfcObject extends IfcObjectDefinition {
      * The list contents are of type {@link org.bimserver.models.ifc4.IfcRelDefinesByType}.
      * It is bidirectional and its opposite is '{@link org.bimserver.models.ifc4.IfcRelDefinesByType#getRelatedObjects <em>Related Objects</em>}'.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Is Typed By</em>' reference list isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Is Typed By</em>' reference list.
      * @see #isSetIsTypedBy()
@@ -222,10 +206,6 @@ public interface IfcObject extends IfcObjectDefinition {
      * Returns the value of the '<em><b>Is Defined By</b></em>' reference list.
      * The list contents are of type {@link org.bimserver.models.ifc4.IfcRelDefinesByProperties}.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Is Defined By</em>' reference list isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Is Defined By</em>' reference list.
      * @see #isSetIsDefinedBy()

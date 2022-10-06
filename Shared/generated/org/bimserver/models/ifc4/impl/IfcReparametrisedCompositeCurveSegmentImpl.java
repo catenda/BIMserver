@@ -53,7 +53,7 @@ public class IfcReparametrisedCompositeCurveSegmentImpl extends IfcCompositeCurv
      */
     @Override
     protected EClass eStaticClass() {
-        return Ifc4Package.Literals.IFC_REPARAMETRISED_COMPOSITE_CURVE_SEGMENT;
+        return Ifc4Package.eINSTANCE.getIfcReparametrisedCompositeCurveSegment();
     }
 
     /**
@@ -63,7 +63,7 @@ public class IfcReparametrisedCompositeCurveSegmentImpl extends IfcCompositeCurv
      */
     @Override
     public double getParamLength() {
-        return (Double) eGet(Ifc4Package.Literals.IFC_REPARAMETRISED_COMPOSITE_CURVE_SEGMENT__PARAM_LENGTH, true);
+        return (Double) eGet(Ifc4Package.eINSTANCE.getIfcReparametrisedCompositeCurveSegment_ParamLength(), true);
     }
 
     /**
@@ -73,7 +73,7 @@ public class IfcReparametrisedCompositeCurveSegmentImpl extends IfcCompositeCurv
      */
     @Override
     public void setParamLength(double newParamLength) {
-        eSet(Ifc4Package.Literals.IFC_REPARAMETRISED_COMPOSITE_CURVE_SEGMENT__PARAM_LENGTH, newParamLength);
+        eSet(Ifc4Package.eINSTANCE.getIfcReparametrisedCompositeCurveSegment_ParamLength(), newParamLength);
     }
 
     /**
@@ -83,7 +83,7 @@ public class IfcReparametrisedCompositeCurveSegmentImpl extends IfcCompositeCurv
      */
     @Override
     public String getParamLengthAsString() {
-        return (String) eGet(Ifc4Package.Literals.IFC_REPARAMETRISED_COMPOSITE_CURVE_SEGMENT__PARAM_LENGTH_AS_STRING,
+        return (String) eGet(Ifc4Package.eINSTANCE.getIfcReparametrisedCompositeCurveSegment_ParamLengthAsString(),
                 true);
     }
 
@@ -94,7 +94,7 @@ public class IfcReparametrisedCompositeCurveSegmentImpl extends IfcCompositeCurv
      */
     @Override
     public void setParamLengthAsString(String newParamLengthAsString) {
-        eSet(Ifc4Package.Literals.IFC_REPARAMETRISED_COMPOSITE_CURVE_SEGMENT__PARAM_LENGTH_AS_STRING,
+        eSet(Ifc4Package.eINSTANCE.getIfcReparametrisedCompositeCurveSegment_ParamLengthAsString(),
                 newParamLengthAsString);
     }
 

@@ -46,10 +46,6 @@ public interface IfcStructuralLoadGroup extends IfcGroup {
      * Returns the value of the '<em><b>Predefined Type</b></em>' attribute.
      * The literals are from the enumeration {@link org.bimserver.models.ifc4.IfcLoadGroupTypeEnum}.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Predefined Type</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Predefined Type</em>' attribute.
      * @see org.bimserver.models.ifc4.IfcLoadGroupTypeEnum
@@ -75,10 +71,6 @@ public interface IfcStructuralLoadGroup extends IfcGroup {
      * Returns the value of the '<em><b>Action Type</b></em>' attribute.
      * The literals are from the enumeration {@link org.bimserver.models.ifc4.IfcActionTypeEnum}.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Action Type</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Action Type</em>' attribute.
      * @see org.bimserver.models.ifc4.IfcActionTypeEnum
@@ -104,10 +96,6 @@ public interface IfcStructuralLoadGroup extends IfcGroup {
      * Returns the value of the '<em><b>Action Source</b></em>' attribute.
      * The literals are from the enumeration {@link org.bimserver.models.ifc4.IfcActionSourceTypeEnum}.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Action Source</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Action Source</em>' attribute.
      * @see org.bimserver.models.ifc4.IfcActionSourceTypeEnum
@@ -132,10 +120,6 @@ public interface IfcStructuralLoadGroup extends IfcGroup {
     /**
      * Returns the value of the '<em><b>Coefficient</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Coefficient</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Coefficient</em>' attribute.
      * @see #isSetCoefficient()
@@ -185,10 +169,6 @@ public interface IfcStructuralLoadGroup extends IfcGroup {
     /**
      * Returns the value of the '<em><b>Coefficient As String</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Coefficient As String</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Coefficient As String</em>' attribute.
      * @see #isSetCoefficientAsString()
@@ -240,10 +220,6 @@ public interface IfcStructuralLoadGroup extends IfcGroup {
     /**
      * Returns the value of the '<em><b>Purpose</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Purpose</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Purpose</em>' attribute.
      * @see #isSetPurpose()
@@ -295,10 +271,6 @@ public interface IfcStructuralLoadGroup extends IfcGroup {
      * The list contents are of type {@link org.bimserver.models.ifc4.IfcStructuralResultGroup}.
      * It is bidirectional and its opposite is '{@link org.bimserver.models.ifc4.IfcStructuralResultGroup#getResultForLoadGroup <em>Result For Load Group</em>}'.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Source Of Result Group</em>' reference list isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Source Of Result Group</em>' reference list.
      * @see #isSetSourceOfResultGroup()
@@ -337,10 +309,6 @@ public interface IfcStructuralLoadGroup extends IfcGroup {
      * The list contents are of type {@link org.bimserver.models.ifc4.IfcStructuralAnalysisModel}.
      * It is bidirectional and its opposite is '{@link org.bimserver.models.ifc4.IfcStructuralAnalysisModel#getLoadedBy <em>Loaded By</em>}'.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Load Group For</em>' reference list isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Load Group For</em>' reference list.
      * @see #isSetLoadGroupFor()

@@ -75,10 +75,6 @@ public enum UserType implements Enumerator {
     /**
      * The '<em><b>SYSTEM</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>SYSTEM</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #SYSTEM
      * @model
@@ -90,10 +86,6 @@ public enum UserType implements Enumerator {
     /**
      * The '<em><b>ADMIN</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>ADMIN</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #ADMIN
      * @model
@@ -105,10 +97,6 @@ public enum UserType implements Enumerator {
     /**
      * The '<em><b>USER</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>USER</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #USER
      * @model
@@ -120,10 +108,6 @@ public enum UserType implements Enumerator {
     /**
      * The '<em><b>READ ONLY</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>READ ONLY</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #READ_ONLY
      * @model

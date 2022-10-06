@@ -55,7 +55,7 @@ public class IfcContextDependentUnitImpl extends IfcNamedUnitImpl implements Ifc
      */
     @Override
     protected EClass eStaticClass() {
-        return Ifc4Package.Literals.IFC_CONTEXT_DEPENDENT_UNIT;
+        return Ifc4Package.eINSTANCE.getIfcContextDependentUnit();
     }
 
     /**
@@ -65,7 +65,7 @@ public class IfcContextDependentUnitImpl extends IfcNamedUnitImpl implements Ifc
      */
     @Override
     public String getName() {
-        return (String) eGet(Ifc4Package.Literals.IFC_CONTEXT_DEPENDENT_UNIT__NAME, true);
+        return (String) eGet(Ifc4Package.eINSTANCE.getIfcContextDependentUnit_Name(), true);
     }
 
     /**
@@ -75,7 +75,7 @@ public class IfcContextDependentUnitImpl extends IfcNamedUnitImpl implements Ifc
      */
     @Override
     public void setName(String newName) {
-        eSet(Ifc4Package.Literals.IFC_CONTEXT_DEPENDENT_UNIT__NAME, newName);
+        eSet(Ifc4Package.eINSTANCE.getIfcContextDependentUnit_Name(), newName);
     }
 
     /**
@@ -87,7 +87,7 @@ public class IfcContextDependentUnitImpl extends IfcNamedUnitImpl implements Ifc
     @Override
     public EList<IfcExternalReferenceRelationship> getHasExternalReference() {
         return (EList<IfcExternalReferenceRelationship>) eGet(
-                Ifc4Package.Literals.IFC_CONTEXT_DEPENDENT_UNIT__HAS_EXTERNAL_REFERENCE, true);
+                Ifc4Package.eINSTANCE.getIfcContextDependentUnit_HasExternalReference(), true);
     }
 
     /**
@@ -97,7 +97,7 @@ public class IfcContextDependentUnitImpl extends IfcNamedUnitImpl implements Ifc
      */
     @Override
     public void unsetHasExternalReference() {
-        eUnset(Ifc4Package.Literals.IFC_CONTEXT_DEPENDENT_UNIT__HAS_EXTERNAL_REFERENCE);
+        eUnset(Ifc4Package.eINSTANCE.getIfcContextDependentUnit_HasExternalReference());
     }
 
     /**
@@ -107,7 +107,7 @@ public class IfcContextDependentUnitImpl extends IfcNamedUnitImpl implements Ifc
      */
     @Override
     public boolean isSetHasExternalReference() {
-        return eIsSet(Ifc4Package.Literals.IFC_CONTEXT_DEPENDENT_UNIT__HAS_EXTERNAL_REFERENCE);
+        return eIsSet(Ifc4Package.eINSTANCE.getIfcContextDependentUnit_HasExternalReference());
     }
 
 } //IfcContextDependentUnitImpl

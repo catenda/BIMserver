@@ -52,7 +52,7 @@ public class IfcCurtainWallImpl extends IfcBuildingElementImpl implements IfcCur
      */
     @Override
     protected EClass eStaticClass() {
-        return Ifc4Package.Literals.IFC_CURTAIN_WALL;
+        return Ifc4Package.eINSTANCE.getIfcCurtainWall();
     }
 
     /**
@@ -62,7 +62,7 @@ public class IfcCurtainWallImpl extends IfcBuildingElementImpl implements IfcCur
      */
     @Override
     public IfcCurtainWallTypeEnum getPredefinedType() {
-        return (IfcCurtainWallTypeEnum) eGet(Ifc4Package.Literals.IFC_CURTAIN_WALL__PREDEFINED_TYPE, true);
+        return (IfcCurtainWallTypeEnum) eGet(Ifc4Package.eINSTANCE.getIfcCurtainWall_PredefinedType(), true);
     }
 
     /**
@@ -72,7 +72,7 @@ public class IfcCurtainWallImpl extends IfcBuildingElementImpl implements IfcCur
      */
     @Override
     public void setPredefinedType(IfcCurtainWallTypeEnum newPredefinedType) {
-        eSet(Ifc4Package.Literals.IFC_CURTAIN_WALL__PREDEFINED_TYPE, newPredefinedType);
+        eSet(Ifc4Package.eINSTANCE.getIfcCurtainWall_PredefinedType(), newPredefinedType);
     }
 
     /**
@@ -82,7 +82,7 @@ public class IfcCurtainWallImpl extends IfcBuildingElementImpl implements IfcCur
      */
     @Override
     public void unsetPredefinedType() {
-        eUnset(Ifc4Package.Literals.IFC_CURTAIN_WALL__PREDEFINED_TYPE);
+        eUnset(Ifc4Package.eINSTANCE.getIfcCurtainWall_PredefinedType());
     }
 
     /**
@@ -92,7 +92,7 @@ public class IfcCurtainWallImpl extends IfcBuildingElementImpl implements IfcCur
      */
     @Override
     public boolean isSetPredefinedType() {
-        return eIsSet(Ifc4Package.Literals.IFC_CURTAIN_WALL__PREDEFINED_TYPE);
+        return eIsSet(Ifc4Package.eINSTANCE.getIfcCurtainWall_PredefinedType());
     }
 
 } //IfcCurtainWallImpl

@@ -53,7 +53,7 @@ public class IfcUnitaryControlElementImpl extends IfcDistributionControlElementI
      */
     @Override
     protected EClass eStaticClass() {
-        return Ifc4Package.Literals.IFC_UNITARY_CONTROL_ELEMENT;
+        return Ifc4Package.eINSTANCE.getIfcUnitaryControlElement();
     }
 
     /**
@@ -64,7 +64,7 @@ public class IfcUnitaryControlElementImpl extends IfcDistributionControlElementI
     @Override
     public IfcUnitaryControlElementTypeEnum getPredefinedType() {
         return (IfcUnitaryControlElementTypeEnum) eGet(
-                Ifc4Package.Literals.IFC_UNITARY_CONTROL_ELEMENT__PREDEFINED_TYPE, true);
+                Ifc4Package.eINSTANCE.getIfcUnitaryControlElement_PredefinedType(), true);
     }
 
     /**
@@ -74,7 +74,7 @@ public class IfcUnitaryControlElementImpl extends IfcDistributionControlElementI
      */
     @Override
     public void setPredefinedType(IfcUnitaryControlElementTypeEnum newPredefinedType) {
-        eSet(Ifc4Package.Literals.IFC_UNITARY_CONTROL_ELEMENT__PREDEFINED_TYPE, newPredefinedType);
+        eSet(Ifc4Package.eINSTANCE.getIfcUnitaryControlElement_PredefinedType(), newPredefinedType);
     }
 
     /**
@@ -84,7 +84,7 @@ public class IfcUnitaryControlElementImpl extends IfcDistributionControlElementI
      */
     @Override
     public void unsetPredefinedType() {
-        eUnset(Ifc4Package.Literals.IFC_UNITARY_CONTROL_ELEMENT__PREDEFINED_TYPE);
+        eUnset(Ifc4Package.eINSTANCE.getIfcUnitaryControlElement_PredefinedType());
     }
 
     /**
@@ -94,7 +94,7 @@ public class IfcUnitaryControlElementImpl extends IfcDistributionControlElementI
      */
     @Override
     public boolean isSetPredefinedType() {
-        return eIsSet(Ifc4Package.Literals.IFC_UNITARY_CONTROL_ELEMENT__PREDEFINED_TYPE);
+        return eIsSet(Ifc4Package.eINSTANCE.getIfcUnitaryControlElement_PredefinedType());
     }
 
 } //IfcUnitaryControlElementImpl

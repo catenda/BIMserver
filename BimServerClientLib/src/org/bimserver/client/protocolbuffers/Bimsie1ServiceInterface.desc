@@ -150,9 +150,9 @@ ActualTypeM
 
 revisionNr (R
 revisionNr
-oid (Roid 
-projectName (	RprojectName
-rid (Rrid"v
+oid (Roid
+rid (Rrid 
+projectName (	RprojectName"v
 GetDownloadDataResponse"
 errorMessage (	RerrorMessage7
 value (2!.org.bimserver.pb.SDownloadResultRvalue"*

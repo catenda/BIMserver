@@ -45,7 +45,7 @@ public class IfcEquipmentElementImpl extends IfcElementImpl implements IfcEquipm
      */
     @Override
     protected EClass eStaticClass() {
-        return Ifc2x3tc1Package.Literals.IFC_EQUIPMENT_ELEMENT;
+        return Ifc2x3tc1Package.eINSTANCE.getIfcEquipmentElement();
     }
 
 } //IfcEquipmentElementImpl

@@ -53,7 +53,7 @@ public class IfcColourSpecificationImpl extends IdEObjectImpl implements IfcColo
      */
     @Override
     protected EClass eStaticClass() {
-        return Ifc2x3tc1Package.Literals.IFC_COLOUR_SPECIFICATION;
+        return Ifc2x3tc1Package.eINSTANCE.getIfcColourSpecification();
     }
 
     /**
@@ -73,7 +73,7 @@ public class IfcColourSpecificationImpl extends IdEObjectImpl implements IfcColo
      */
     @Override
     public String getName() {
-        return (String) eGet(Ifc2x3tc1Package.Literals.IFC_COLOUR_SPECIFICATION__NAME, true);
+        return (String) eGet(Ifc2x3tc1Package.eINSTANCE.getIfcColourSpecification_Name(), true);
     }
 
     /**
@@ -83,7 +83,7 @@ public class IfcColourSpecificationImpl extends IdEObjectImpl implements IfcColo
      */
     @Override
     public void setName(String newName) {
-        eSet(Ifc2x3tc1Package.Literals.IFC_COLOUR_SPECIFICATION__NAME, newName);
+        eSet(Ifc2x3tc1Package.eINSTANCE.getIfcColourSpecification_Name(), newName);
     }
 
     /**
@@ -93,7 +93,7 @@ public class IfcColourSpecificationImpl extends IdEObjectImpl implements IfcColo
      */
     @Override
     public void unsetName() {
-        eUnset(Ifc2x3tc1Package.Literals.IFC_COLOUR_SPECIFICATION__NAME);
+        eUnset(Ifc2x3tc1Package.eINSTANCE.getIfcColourSpecification_Name());
     }
 
     /**
@@ -103,7 +103,7 @@ public class IfcColourSpecificationImpl extends IdEObjectImpl implements IfcColo
      */
     @Override
     public boolean isSetName() {
-        return eIsSet(Ifc2x3tc1Package.Literals.IFC_COLOUR_SPECIFICATION__NAME);
+        return eIsSet(Ifc2x3tc1Package.eINSTANCE.getIfcColourSpecification_Name());
     }
 
 } //IfcColourSpecificationImpl

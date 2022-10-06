@@ -18,9 +18,10 @@ package org.bimserver.models.ifc4.impl;
 
 import org.bimserver.models.ifc4.Ifc4Package;
 import org.bimserver.models.ifc4.IfcIndexedPolygonalFaceWithVoids;
-
 import org.bimserver.models.ifc4.ListOfELong;
+
 import org.eclipse.emf.common.util.EList;
+
 import org.eclipse.emf.ecore.EClass;
 
 /**
@@ -54,7 +55,7 @@ public class IfcIndexedPolygonalFaceWithVoidsImpl extends IfcIndexedPolygonalFac
      */
     @Override
     protected EClass eStaticClass() {
-        return Ifc4Package.Literals.IFC_INDEXED_POLYGONAL_FACE_WITH_VOIDS;
+        return Ifc4Package.eINSTANCE.getIfcIndexedPolygonalFaceWithVoids();
     }
 
     /**
@@ -65,8 +66,8 @@ public class IfcIndexedPolygonalFaceWithVoidsImpl extends IfcIndexedPolygonalFac
     @SuppressWarnings("unchecked")
     @Override
     public EList<ListOfELong> getInnerCoordIndices() {
-        return (EList<ListOfELong>) eGet(
-                Ifc4Package.Literals.IFC_INDEXED_POLYGONAL_FACE_WITH_VOIDS__INNER_COORD_INDICES, true);
+        return (EList<ListOfELong>) eGet(Ifc4Package.eINSTANCE.getIfcIndexedPolygonalFaceWithVoids_InnerCoordIndices(),
+                true);
     }
 
 } //IfcIndexedPolygonalFaceWithVoidsImpl

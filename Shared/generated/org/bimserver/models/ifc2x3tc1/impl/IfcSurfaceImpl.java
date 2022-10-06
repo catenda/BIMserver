@@ -45,7 +45,7 @@ public class IfcSurfaceImpl extends IfcGeometricRepresentationItemImpl implement
      */
     @Override
     protected EClass eStaticClass() {
-        return Ifc2x3tc1Package.Literals.IFC_SURFACE;
+        return Ifc2x3tc1Package.eINSTANCE.getIfcSurface();
     }
 
 } //IfcSurfaceImpl

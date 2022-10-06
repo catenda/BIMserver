@@ -60,7 +60,7 @@ public class IfcMaterialImpl extends IfcMaterialDefinitionImpl implements IfcMat
      */
     @Override
     protected EClass eStaticClass() {
-        return Ifc4Package.Literals.IFC_MATERIAL;
+        return Ifc4Package.eINSTANCE.getIfcMaterial();
     }
 
     /**
@@ -70,7 +70,7 @@ public class IfcMaterialImpl extends IfcMaterialDefinitionImpl implements IfcMat
      */
     @Override
     public String getName() {
-        return (String) eGet(Ifc4Package.Literals.IFC_MATERIAL__NAME, true);
+        return (String) eGet(Ifc4Package.eINSTANCE.getIfcMaterial_Name(), true);
     }
 
     /**
@@ -80,7 +80,7 @@ public class IfcMaterialImpl extends IfcMaterialDefinitionImpl implements IfcMat
      */
     @Override
     public void setName(String newName) {
-        eSet(Ifc4Package.Literals.IFC_MATERIAL__NAME, newName);
+        eSet(Ifc4Package.eINSTANCE.getIfcMaterial_Name(), newName);
     }
 
     /**
@@ -90,7 +90,7 @@ public class IfcMaterialImpl extends IfcMaterialDefinitionImpl implements IfcMat
      */
     @Override
     public String getDescription() {
-        return (String) eGet(Ifc4Package.Literals.IFC_MATERIAL__DESCRIPTION, true);
+        return (String) eGet(Ifc4Package.eINSTANCE.getIfcMaterial_Description(), true);
     }
 
     /**
@@ -100,7 +100,7 @@ public class IfcMaterialImpl extends IfcMaterialDefinitionImpl implements IfcMat
      */
     @Override
     public void setDescription(String newDescription) {
-        eSet(Ifc4Package.Literals.IFC_MATERIAL__DESCRIPTION, newDescription);
+        eSet(Ifc4Package.eINSTANCE.getIfcMaterial_Description(), newDescription);
     }
 
     /**
@@ -110,7 +110,7 @@ public class IfcMaterialImpl extends IfcMaterialDefinitionImpl implements IfcMat
      */
     @Override
     public void unsetDescription() {
-        eUnset(Ifc4Package.Literals.IFC_MATERIAL__DESCRIPTION);
+        eUnset(Ifc4Package.eINSTANCE.getIfcMaterial_Description());
     }
 
     /**
@@ -120,7 +120,7 @@ public class IfcMaterialImpl extends IfcMaterialDefinitionImpl implements IfcMat
      */
     @Override
     public boolean isSetDescription() {
-        return eIsSet(Ifc4Package.Literals.IFC_MATERIAL__DESCRIPTION);
+        return eIsSet(Ifc4Package.eINSTANCE.getIfcMaterial_Description());
     }
 
     /**
@@ -130,7 +130,7 @@ public class IfcMaterialImpl extends IfcMaterialDefinitionImpl implements IfcMat
      */
     @Override
     public String getCategory() {
-        return (String) eGet(Ifc4Package.Literals.IFC_MATERIAL__CATEGORY, true);
+        return (String) eGet(Ifc4Package.eINSTANCE.getIfcMaterial_Category(), true);
     }
 
     /**
@@ -140,7 +140,7 @@ public class IfcMaterialImpl extends IfcMaterialDefinitionImpl implements IfcMat
      */
     @Override
     public void setCategory(String newCategory) {
-        eSet(Ifc4Package.Literals.IFC_MATERIAL__CATEGORY, newCategory);
+        eSet(Ifc4Package.eINSTANCE.getIfcMaterial_Category(), newCategory);
     }
 
     /**
@@ -150,7 +150,7 @@ public class IfcMaterialImpl extends IfcMaterialDefinitionImpl implements IfcMat
      */
     @Override
     public void unsetCategory() {
-        eUnset(Ifc4Package.Literals.IFC_MATERIAL__CATEGORY);
+        eUnset(Ifc4Package.eINSTANCE.getIfcMaterial_Category());
     }
 
     /**
@@ -160,7 +160,7 @@ public class IfcMaterialImpl extends IfcMaterialDefinitionImpl implements IfcMat
      */
     @Override
     public boolean isSetCategory() {
-        return eIsSet(Ifc4Package.Literals.IFC_MATERIAL__CATEGORY);
+        return eIsSet(Ifc4Package.eINSTANCE.getIfcMaterial_Category());
     }
 
     /**
@@ -171,8 +171,8 @@ public class IfcMaterialImpl extends IfcMaterialDefinitionImpl implements IfcMat
     @SuppressWarnings("unchecked")
     @Override
     public EList<IfcMaterialDefinitionRepresentation> getHasRepresentation() {
-        return (EList<IfcMaterialDefinitionRepresentation>) eGet(Ifc4Package.Literals.IFC_MATERIAL__HAS_REPRESENTATION,
-                true);
+        return (EList<IfcMaterialDefinitionRepresentation>) eGet(
+                Ifc4Package.eINSTANCE.getIfcMaterial_HasRepresentation(), true);
     }
 
     /**
@@ -182,7 +182,7 @@ public class IfcMaterialImpl extends IfcMaterialDefinitionImpl implements IfcMat
      */
     @Override
     public void unsetHasRepresentation() {
-        eUnset(Ifc4Package.Literals.IFC_MATERIAL__HAS_REPRESENTATION);
+        eUnset(Ifc4Package.eINSTANCE.getIfcMaterial_HasRepresentation());
     }
 
     /**
@@ -192,7 +192,7 @@ public class IfcMaterialImpl extends IfcMaterialDefinitionImpl implements IfcMat
      */
     @Override
     public boolean isSetHasRepresentation() {
-        return eIsSet(Ifc4Package.Literals.IFC_MATERIAL__HAS_REPRESENTATION);
+        return eIsSet(Ifc4Package.eINSTANCE.getIfcMaterial_HasRepresentation());
     }
 
     /**
@@ -203,7 +203,7 @@ public class IfcMaterialImpl extends IfcMaterialDefinitionImpl implements IfcMat
     @SuppressWarnings("unchecked")
     @Override
     public EList<IfcMaterialRelationship> getIsRelatedWith() {
-        return (EList<IfcMaterialRelationship>) eGet(Ifc4Package.Literals.IFC_MATERIAL__IS_RELATED_WITH, true);
+        return (EList<IfcMaterialRelationship>) eGet(Ifc4Package.eINSTANCE.getIfcMaterial_IsRelatedWith(), true);
     }
 
     /**
@@ -213,7 +213,7 @@ public class IfcMaterialImpl extends IfcMaterialDefinitionImpl implements IfcMat
      */
     @Override
     public void unsetIsRelatedWith() {
-        eUnset(Ifc4Package.Literals.IFC_MATERIAL__IS_RELATED_WITH);
+        eUnset(Ifc4Package.eINSTANCE.getIfcMaterial_IsRelatedWith());
     }
 
     /**
@@ -223,7 +223,7 @@ public class IfcMaterialImpl extends IfcMaterialDefinitionImpl implements IfcMat
      */
     @Override
     public boolean isSetIsRelatedWith() {
-        return eIsSet(Ifc4Package.Literals.IFC_MATERIAL__IS_RELATED_WITH);
+        return eIsSet(Ifc4Package.eINSTANCE.getIfcMaterial_IsRelatedWith());
     }
 
     /**
@@ -234,7 +234,7 @@ public class IfcMaterialImpl extends IfcMaterialDefinitionImpl implements IfcMat
     @SuppressWarnings("unchecked")
     @Override
     public EList<IfcMaterialRelationship> getRelatesTo() {
-        return (EList<IfcMaterialRelationship>) eGet(Ifc4Package.Literals.IFC_MATERIAL__RELATES_TO, true);
+        return (EList<IfcMaterialRelationship>) eGet(Ifc4Package.eINSTANCE.getIfcMaterial_RelatesTo(), true);
     }
 
     /**
@@ -244,7 +244,7 @@ public class IfcMaterialImpl extends IfcMaterialDefinitionImpl implements IfcMat
      */
     @Override
     public void unsetRelatesTo() {
-        eUnset(Ifc4Package.Literals.IFC_MATERIAL__RELATES_TO);
+        eUnset(Ifc4Package.eINSTANCE.getIfcMaterial_RelatesTo());
     }
 
     /**
@@ -254,7 +254,7 @@ public class IfcMaterialImpl extends IfcMaterialDefinitionImpl implements IfcMat
      */
     @Override
     public boolean isSetRelatesTo() {
-        return eIsSet(Ifc4Package.Literals.IFC_MATERIAL__RELATES_TO);
+        return eIsSet(Ifc4Package.eINSTANCE.getIfcMaterial_RelatesTo());
     }
 
 } //IfcMaterialImpl

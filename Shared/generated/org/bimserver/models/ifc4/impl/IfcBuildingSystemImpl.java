@@ -53,7 +53,7 @@ public class IfcBuildingSystemImpl extends IfcSystemImpl implements IfcBuildingS
      */
     @Override
     protected EClass eStaticClass() {
-        return Ifc4Package.Literals.IFC_BUILDING_SYSTEM;
+        return Ifc4Package.eINSTANCE.getIfcBuildingSystem();
     }
 
     /**
@@ -63,7 +63,7 @@ public class IfcBuildingSystemImpl extends IfcSystemImpl implements IfcBuildingS
      */
     @Override
     public IfcBuildingSystemTypeEnum getPredefinedType() {
-        return (IfcBuildingSystemTypeEnum) eGet(Ifc4Package.Literals.IFC_BUILDING_SYSTEM__PREDEFINED_TYPE, true);
+        return (IfcBuildingSystemTypeEnum) eGet(Ifc4Package.eINSTANCE.getIfcBuildingSystem_PredefinedType(), true);
     }
 
     /**
@@ -73,7 +73,7 @@ public class IfcBuildingSystemImpl extends IfcSystemImpl implements IfcBuildingS
      */
     @Override
     public void setPredefinedType(IfcBuildingSystemTypeEnum newPredefinedType) {
-        eSet(Ifc4Package.Literals.IFC_BUILDING_SYSTEM__PREDEFINED_TYPE, newPredefinedType);
+        eSet(Ifc4Package.eINSTANCE.getIfcBuildingSystem_PredefinedType(), newPredefinedType);
     }
 
     /**
@@ -83,7 +83,7 @@ public class IfcBuildingSystemImpl extends IfcSystemImpl implements IfcBuildingS
      */
     @Override
     public void unsetPredefinedType() {
-        eUnset(Ifc4Package.Literals.IFC_BUILDING_SYSTEM__PREDEFINED_TYPE);
+        eUnset(Ifc4Package.eINSTANCE.getIfcBuildingSystem_PredefinedType());
     }
 
     /**
@@ -93,7 +93,7 @@ public class IfcBuildingSystemImpl extends IfcSystemImpl implements IfcBuildingS
      */
     @Override
     public boolean isSetPredefinedType() {
-        return eIsSet(Ifc4Package.Literals.IFC_BUILDING_SYSTEM__PREDEFINED_TYPE);
+        return eIsSet(Ifc4Package.eINSTANCE.getIfcBuildingSystem_PredefinedType());
     }
 
     /**
@@ -103,7 +103,7 @@ public class IfcBuildingSystemImpl extends IfcSystemImpl implements IfcBuildingS
      */
     @Override
     public String getLongName() {
-        return (String) eGet(Ifc4Package.Literals.IFC_BUILDING_SYSTEM__LONG_NAME, true);
+        return (String) eGet(Ifc4Package.eINSTANCE.getIfcBuildingSystem_LongName(), true);
     }
 
     /**
@@ -113,7 +113,7 @@ public class IfcBuildingSystemImpl extends IfcSystemImpl implements IfcBuildingS
      */
     @Override
     public void setLongName(String newLongName) {
-        eSet(Ifc4Package.Literals.IFC_BUILDING_SYSTEM__LONG_NAME, newLongName);
+        eSet(Ifc4Package.eINSTANCE.getIfcBuildingSystem_LongName(), newLongName);
     }
 
     /**
@@ -123,7 +123,7 @@ public class IfcBuildingSystemImpl extends IfcSystemImpl implements IfcBuildingS
      */
     @Override
     public void unsetLongName() {
-        eUnset(Ifc4Package.Literals.IFC_BUILDING_SYSTEM__LONG_NAME);
+        eUnset(Ifc4Package.eINSTANCE.getIfcBuildingSystem_LongName());
     }
 
     /**
@@ -133,7 +133,7 @@ public class IfcBuildingSystemImpl extends IfcSystemImpl implements IfcBuildingS
      */
     @Override
     public boolean isSetLongName() {
-        return eIsSet(Ifc4Package.Literals.IFC_BUILDING_SYSTEM__LONG_NAME);
+        return eIsSet(Ifc4Package.eINSTANCE.getIfcBuildingSystem_LongName());
     }
 
 } //IfcBuildingSystemImpl

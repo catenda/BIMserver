@@ -46,7 +46,7 @@ public class IfcStructuralSurfaceConnectionImpl extends IfcStructuralConnectionI
      */
     @Override
     protected EClass eStaticClass() {
-        return Ifc4Package.Literals.IFC_STRUCTURAL_SURFACE_CONNECTION;
+        return Ifc4Package.eINSTANCE.getIfcStructuralSurfaceConnection();
     }
 
 } //IfcStructuralSurfaceConnectionImpl

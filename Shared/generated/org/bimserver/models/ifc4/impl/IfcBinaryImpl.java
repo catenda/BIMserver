@@ -53,7 +53,7 @@ public class IfcBinaryImpl extends IdEObjectImpl implements IfcBinary {
      */
     @Override
     protected EClass eStaticClass() {
-        return Ifc4Package.Literals.IFC_BINARY;
+        return Ifc4Package.eINSTANCE.getIfcBinary();
     }
 
     /**
@@ -73,7 +73,7 @@ public class IfcBinaryImpl extends IdEObjectImpl implements IfcBinary {
      */
     @Override
     public byte[] getWrappedValue() {
-        return (byte[]) eGet(Ifc4Package.Literals.IFC_BINARY__WRAPPED_VALUE, true);
+        return (byte[]) eGet(Ifc4Package.eINSTANCE.getIfcBinary_WrappedValue(), true);
     }
 
     /**
@@ -83,7 +83,7 @@ public class IfcBinaryImpl extends IdEObjectImpl implements IfcBinary {
      */
     @Override
     public void setWrappedValue(byte[] newWrappedValue) {
-        eSet(Ifc4Package.Literals.IFC_BINARY__WRAPPED_VALUE, newWrappedValue);
+        eSet(Ifc4Package.eINSTANCE.getIfcBinary_WrappedValue(), newWrappedValue);
     }
 
     /**
@@ -93,7 +93,7 @@ public class IfcBinaryImpl extends IdEObjectImpl implements IfcBinary {
      */
     @Override
     public void unsetWrappedValue() {
-        eUnset(Ifc4Package.Literals.IFC_BINARY__WRAPPED_VALUE);
+        eUnset(Ifc4Package.eINSTANCE.getIfcBinary_WrappedValue());
     }
 
     /**
@@ -103,7 +103,7 @@ public class IfcBinaryImpl extends IdEObjectImpl implements IfcBinary {
      */
     @Override
     public boolean isSetWrappedValue() {
-        return eIsSet(Ifc4Package.Literals.IFC_BINARY__WRAPPED_VALUE);
+        return eIsSet(Ifc4Package.eINSTANCE.getIfcBinary_WrappedValue());
     }
 
 } //IfcBinaryImpl

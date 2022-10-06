@@ -45,10 +45,6 @@ public interface IfcVirtualGridIntersection extends IdEObject {
      * The list contents are of type {@link org.bimserver.models.ifc2x3tc1.IfcGridAxis}.
      * It is bidirectional and its opposite is '{@link org.bimserver.models.ifc2x3tc1.IfcGridAxis#getHasIntersections <em>Has Intersections</em>}'.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Intersecting Axes</em>' reference list isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Intersecting Axes</em>' reference list.
      * @see org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package#getIfcVirtualGridIntersection_IntersectingAxes()
@@ -63,10 +59,6 @@ public interface IfcVirtualGridIntersection extends IdEObject {
      * Returns the value of the '<em><b>Offset Distances</b></em>' attribute list.
      * The list contents are of type {@link java.lang.Double}.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Offset Distances</em>' attribute list isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Offset Distances</em>' attribute list.
      * @see org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package#getIfcVirtualGridIntersection_OffsetDistances()
@@ -79,10 +71,6 @@ public interface IfcVirtualGridIntersection extends IdEObject {
      * Returns the value of the '<em><b>Offset Distances As String</b></em>' attribute list.
      * The list contents are of type {@link java.lang.String}.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Offset Distances As String</em>' attribute list isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Offset Distances As String</em>' attribute list.
      * @see org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package#getIfcVirtualGridIntersection_OffsetDistancesAsString()

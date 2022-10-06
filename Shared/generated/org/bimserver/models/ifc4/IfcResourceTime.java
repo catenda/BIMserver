@@ -54,10 +54,6 @@ public interface IfcResourceTime extends IfcSchedulingTime {
     /**
      * Returns the value of the '<em><b>Schedule Work</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Schedule Work</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Schedule Work</em>' attribute.
      * @see #isSetScheduleWork()
@@ -107,10 +103,6 @@ public interface IfcResourceTime extends IfcSchedulingTime {
     /**
      * Returns the value of the '<em><b>Schedule Usage</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Schedule Usage</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Schedule Usage</em>' attribute.
      * @see #isSetScheduleUsage()
@@ -160,10 +152,6 @@ public interface IfcResourceTime extends IfcSchedulingTime {
     /**
      * Returns the value of the '<em><b>Schedule Usage As String</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Schedule Usage As String</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Schedule Usage As String</em>' attribute.
      * @see #isSetScheduleUsageAsString()
@@ -215,10 +203,6 @@ public interface IfcResourceTime extends IfcSchedulingTime {
     /**
      * Returns the value of the '<em><b>Schedule Start</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Schedule Start</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Schedule Start</em>' attribute.
      * @see #isSetScheduleStart()
@@ -268,10 +252,6 @@ public interface IfcResourceTime extends IfcSchedulingTime {
     /**
      * Returns the value of the '<em><b>Schedule Finish</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Schedule Finish</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Schedule Finish</em>' attribute.
      * @see #isSetScheduleFinish()
@@ -321,10 +301,6 @@ public interface IfcResourceTime extends IfcSchedulingTime {
     /**
      * Returns the value of the '<em><b>Schedule Contour</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Schedule Contour</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Schedule Contour</em>' attribute.
      * @see #isSetScheduleContour()
@@ -374,10 +350,6 @@ public interface IfcResourceTime extends IfcSchedulingTime {
     /**
      * Returns the value of the '<em><b>Leveling Delay</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Leveling Delay</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Leveling Delay</em>' attribute.
      * @see #isSetLevelingDelay()
@@ -428,10 +400,6 @@ public interface IfcResourceTime extends IfcSchedulingTime {
      * Returns the value of the '<em><b>Is Over Allocated</b></em>' attribute.
      * The literals are from the enumeration {@link org.bimserver.models.ifc4.Tristate}.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Is Over Allocated</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Is Over Allocated</em>' attribute.
      * @see org.bimserver.models.ifc4.Tristate
@@ -483,10 +451,6 @@ public interface IfcResourceTime extends IfcSchedulingTime {
     /**
      * Returns the value of the '<em><b>Status Time</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Status Time</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Status Time</em>' attribute.
      * @see #isSetStatusTime()
@@ -536,10 +500,6 @@ public interface IfcResourceTime extends IfcSchedulingTime {
     /**
      * Returns the value of the '<em><b>Actual Work</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Actual Work</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Actual Work</em>' attribute.
      * @see #isSetActualWork()
@@ -589,10 +549,6 @@ public interface IfcResourceTime extends IfcSchedulingTime {
     /**
      * Returns the value of the '<em><b>Actual Usage</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Actual Usage</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Actual Usage</em>' attribute.
      * @see #isSetActualUsage()
@@ -642,10 +598,6 @@ public interface IfcResourceTime extends IfcSchedulingTime {
     /**
      * Returns the value of the '<em><b>Actual Usage As String</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Actual Usage As String</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Actual Usage As String</em>' attribute.
      * @see #isSetActualUsageAsString()
@@ -697,10 +649,6 @@ public interface IfcResourceTime extends IfcSchedulingTime {
     /**
      * Returns the value of the '<em><b>Actual Start</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Actual Start</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Actual Start</em>' attribute.
      * @see #isSetActualStart()
@@ -750,10 +698,6 @@ public interface IfcResourceTime extends IfcSchedulingTime {
     /**
      * Returns the value of the '<em><b>Actual Finish</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Actual Finish</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Actual Finish</em>' attribute.
      * @see #isSetActualFinish()
@@ -803,10 +747,6 @@ public interface IfcResourceTime extends IfcSchedulingTime {
     /**
      * Returns the value of the '<em><b>Remaining Work</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Remaining Work</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Remaining Work</em>' attribute.
      * @see #isSetRemainingWork()
@@ -856,10 +796,6 @@ public interface IfcResourceTime extends IfcSchedulingTime {
     /**
      * Returns the value of the '<em><b>Remaining Usage</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Remaining Usage</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Remaining Usage</em>' attribute.
      * @see #isSetRemainingUsage()
@@ -909,10 +845,6 @@ public interface IfcResourceTime extends IfcSchedulingTime {
     /**
      * Returns the value of the '<em><b>Remaining Usage As String</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Remaining Usage As String</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Remaining Usage As String</em>' attribute.
      * @see #isSetRemainingUsageAsString()
@@ -964,10 +896,6 @@ public interface IfcResourceTime extends IfcSchedulingTime {
     /**
      * Returns the value of the '<em><b>Completion</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Completion</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Completion</em>' attribute.
      * @see #isSetCompletion()
@@ -1017,10 +945,6 @@ public interface IfcResourceTime extends IfcSchedulingTime {
     /**
      * Returns the value of the '<em><b>Completion As String</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Completion As String</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Completion As String</em>' attribute.
      * @see #isSetCompletionAsString()

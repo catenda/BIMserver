@@ -41,10 +41,6 @@ public interface IfcLocalTime extends IfcDateTimeSelect, IfcObjectReferenceSelec
     /**
      * Returns the value of the '<em><b>Hour Component</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Hour Component</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Hour Component</em>' attribute.
      * @see #setHourComponent(long)
@@ -67,10 +63,6 @@ public interface IfcLocalTime extends IfcDateTimeSelect, IfcObjectReferenceSelec
     /**
      * Returns the value of the '<em><b>Minute Component</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Minute Component</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Minute Component</em>' attribute.
      * @see #isSetMinuteComponent()
@@ -120,10 +112,6 @@ public interface IfcLocalTime extends IfcDateTimeSelect, IfcObjectReferenceSelec
     /**
      * Returns the value of the '<em><b>Second Component</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Second Component</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Second Component</em>' attribute.
      * @see #isSetSecondComponent()
@@ -173,10 +161,6 @@ public interface IfcLocalTime extends IfcDateTimeSelect, IfcObjectReferenceSelec
     /**
      * Returns the value of the '<em><b>Second Component As String</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Second Component As String</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Second Component As String</em>' attribute.
      * @see #isSetSecondComponentAsString()
@@ -228,10 +212,6 @@ public interface IfcLocalTime extends IfcDateTimeSelect, IfcObjectReferenceSelec
     /**
      * Returns the value of the '<em><b>Zone</b></em>' reference.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Zone</em>' reference isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Zone</em>' reference.
      * @see #isSetZone()
@@ -281,10 +261,6 @@ public interface IfcLocalTime extends IfcDateTimeSelect, IfcObjectReferenceSelec
     /**
      * Returns the value of the '<em><b>Daylight Saving Offset</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Daylight Saving Offset</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Daylight Saving Offset</em>' attribute.
      * @see #isSetDaylightSavingOffset()

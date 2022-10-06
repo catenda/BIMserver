@@ -54,7 +54,7 @@ public class IfcPileImpl extends IfcBuildingElementImpl implements IfcPile {
      */
     @Override
     protected EClass eStaticClass() {
-        return Ifc4Package.Literals.IFC_PILE;
+        return Ifc4Package.eINSTANCE.getIfcPile();
     }
 
     /**
@@ -64,7 +64,7 @@ public class IfcPileImpl extends IfcBuildingElementImpl implements IfcPile {
      */
     @Override
     public IfcPileTypeEnum getPredefinedType() {
-        return (IfcPileTypeEnum) eGet(Ifc4Package.Literals.IFC_PILE__PREDEFINED_TYPE, true);
+        return (IfcPileTypeEnum) eGet(Ifc4Package.eINSTANCE.getIfcPile_PredefinedType(), true);
     }
 
     /**
@@ -74,7 +74,7 @@ public class IfcPileImpl extends IfcBuildingElementImpl implements IfcPile {
      */
     @Override
     public void setPredefinedType(IfcPileTypeEnum newPredefinedType) {
-        eSet(Ifc4Package.Literals.IFC_PILE__PREDEFINED_TYPE, newPredefinedType);
+        eSet(Ifc4Package.eINSTANCE.getIfcPile_PredefinedType(), newPredefinedType);
     }
 
     /**
@@ -84,7 +84,7 @@ public class IfcPileImpl extends IfcBuildingElementImpl implements IfcPile {
      */
     @Override
     public void unsetPredefinedType() {
-        eUnset(Ifc4Package.Literals.IFC_PILE__PREDEFINED_TYPE);
+        eUnset(Ifc4Package.eINSTANCE.getIfcPile_PredefinedType());
     }
 
     /**
@@ -94,7 +94,7 @@ public class IfcPileImpl extends IfcBuildingElementImpl implements IfcPile {
      */
     @Override
     public boolean isSetPredefinedType() {
-        return eIsSet(Ifc4Package.Literals.IFC_PILE__PREDEFINED_TYPE);
+        return eIsSet(Ifc4Package.eINSTANCE.getIfcPile_PredefinedType());
     }
 
     /**
@@ -104,7 +104,7 @@ public class IfcPileImpl extends IfcBuildingElementImpl implements IfcPile {
      */
     @Override
     public IfcPileConstructionEnum getConstructionType() {
-        return (IfcPileConstructionEnum) eGet(Ifc4Package.Literals.IFC_PILE__CONSTRUCTION_TYPE, true);
+        return (IfcPileConstructionEnum) eGet(Ifc4Package.eINSTANCE.getIfcPile_ConstructionType(), true);
     }
 
     /**
@@ -114,7 +114,7 @@ public class IfcPileImpl extends IfcBuildingElementImpl implements IfcPile {
      */
     @Override
     public void setConstructionType(IfcPileConstructionEnum newConstructionType) {
-        eSet(Ifc4Package.Literals.IFC_PILE__CONSTRUCTION_TYPE, newConstructionType);
+        eSet(Ifc4Package.eINSTANCE.getIfcPile_ConstructionType(), newConstructionType);
     }
 
     /**
@@ -124,7 +124,7 @@ public class IfcPileImpl extends IfcBuildingElementImpl implements IfcPile {
      */
     @Override
     public void unsetConstructionType() {
-        eUnset(Ifc4Package.Literals.IFC_PILE__CONSTRUCTION_TYPE);
+        eUnset(Ifc4Package.eINSTANCE.getIfcPile_ConstructionType());
     }
 
     /**
@@ -134,7 +134,7 @@ public class IfcPileImpl extends IfcBuildingElementImpl implements IfcPile {
      */
     @Override
     public boolean isSetConstructionType() {
-        return eIsSet(Ifc4Package.Literals.IFC_PILE__CONSTRUCTION_TYPE);
+        return eIsSet(Ifc4Package.eINSTANCE.getIfcPile_ConstructionType());
     }
 
 } //IfcPileImpl

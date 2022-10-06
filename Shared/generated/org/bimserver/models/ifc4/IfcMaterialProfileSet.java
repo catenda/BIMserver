@@ -41,10 +41,6 @@ public interface IfcMaterialProfileSet extends IfcMaterialDefinition {
     /**
      * Returns the value of the '<em><b>Name</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Name</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Name</em>' attribute.
      * @see #isSetName()
@@ -94,10 +90,6 @@ public interface IfcMaterialProfileSet extends IfcMaterialDefinition {
     /**
      * Returns the value of the '<em><b>Description</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Description</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Description</em>' attribute.
      * @see #isSetDescription()
@@ -149,10 +141,6 @@ public interface IfcMaterialProfileSet extends IfcMaterialDefinition {
      * The list contents are of type {@link org.bimserver.models.ifc4.IfcMaterialProfile}.
      * It is bidirectional and its opposite is '{@link org.bimserver.models.ifc4.IfcMaterialProfile#getToMaterialProfileSet <em>To Material Profile Set</em>}'.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Material Profiles</em>' reference list isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Material Profiles</em>' reference list.
      * @see org.bimserver.models.ifc4.Ifc4Package#getIfcMaterialProfileSet_MaterialProfiles()
@@ -166,10 +154,6 @@ public interface IfcMaterialProfileSet extends IfcMaterialDefinition {
     /**
      * Returns the value of the '<em><b>Composite Profile</b></em>' reference.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Composite Profile</em>' reference isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Composite Profile</em>' reference.
      * @see #isSetCompositeProfile()

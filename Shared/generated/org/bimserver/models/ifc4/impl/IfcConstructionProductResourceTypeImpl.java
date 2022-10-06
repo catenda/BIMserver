@@ -53,7 +53,7 @@ public class IfcConstructionProductResourceTypeImpl extends IfcConstructionResou
      */
     @Override
     protected EClass eStaticClass() {
-        return Ifc4Package.Literals.IFC_CONSTRUCTION_PRODUCT_RESOURCE_TYPE;
+        return Ifc4Package.eINSTANCE.getIfcConstructionProductResourceType();
     }
 
     /**
@@ -64,7 +64,7 @@ public class IfcConstructionProductResourceTypeImpl extends IfcConstructionResou
     @Override
     public IfcConstructionProductResourceTypeEnum getPredefinedType() {
         return (IfcConstructionProductResourceTypeEnum) eGet(
-                Ifc4Package.Literals.IFC_CONSTRUCTION_PRODUCT_RESOURCE_TYPE__PREDEFINED_TYPE, true);
+                Ifc4Package.eINSTANCE.getIfcConstructionProductResourceType_PredefinedType(), true);
     }
 
     /**
@@ -74,7 +74,7 @@ public class IfcConstructionProductResourceTypeImpl extends IfcConstructionResou
      */
     @Override
     public void setPredefinedType(IfcConstructionProductResourceTypeEnum newPredefinedType) {
-        eSet(Ifc4Package.Literals.IFC_CONSTRUCTION_PRODUCT_RESOURCE_TYPE__PREDEFINED_TYPE, newPredefinedType);
+        eSet(Ifc4Package.eINSTANCE.getIfcConstructionProductResourceType_PredefinedType(), newPredefinedType);
     }
 
 } //IfcConstructionProductResourceTypeImpl

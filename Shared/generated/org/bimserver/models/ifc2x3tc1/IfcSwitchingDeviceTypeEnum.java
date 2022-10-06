@@ -115,10 +115,6 @@ public enum IfcSwitchingDeviceTypeEnum implements Enumerator {
     /**
      * The '<em><b>NULL</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>NULL</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #NULL
      * @model
@@ -130,10 +126,6 @@ public enum IfcSwitchingDeviceTypeEnum implements Enumerator {
     /**
      * The '<em><b>NOTDEFINED</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>NOTDEFINED</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #NOTDEFINED
      * @model
@@ -145,10 +137,6 @@ public enum IfcSwitchingDeviceTypeEnum implements Enumerator {
     /**
      * The '<em><b>TOGGLESWITCH</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>TOGGLESWITCH</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #TOGGLESWITCH
      * @model
@@ -160,10 +148,6 @@ public enum IfcSwitchingDeviceTypeEnum implements Enumerator {
     /**
      * The '<em><b>CONTACTOR</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>CONTACTOR</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #CONTACTOR
      * @model
@@ -175,10 +159,6 @@ public enum IfcSwitchingDeviceTypeEnum implements Enumerator {
     /**
      * The '<em><b>STARTER</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>STARTER</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #STARTER
      * @model
@@ -190,10 +170,6 @@ public enum IfcSwitchingDeviceTypeEnum implements Enumerator {
     /**
      * The '<em><b>USERDEFINED</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>USERDEFINED</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #USERDEFINED
      * @model
@@ -205,10 +181,6 @@ public enum IfcSwitchingDeviceTypeEnum implements Enumerator {
     /**
      * The '<em><b>EMERGENCYSTOP</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>EMERGENCYSTOP</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #EMERGENCYSTOP
      * @model
@@ -220,10 +192,6 @@ public enum IfcSwitchingDeviceTypeEnum implements Enumerator {
     /**
      * The '<em><b>SWITCHDISCONNECTOR</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>SWITCHDISCONNECTOR</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #SWITCHDISCONNECTOR
      * @model

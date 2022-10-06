@@ -45,7 +45,7 @@ public class IfcAdvancedBrepImpl extends IfcManifoldSolidBrepImpl implements Ifc
      */
     @Override
     protected EClass eStaticClass() {
-        return Ifc4Package.Literals.IFC_ADVANCED_BREP;
+        return Ifc4Package.eINSTANCE.getIfcAdvancedBrep();
     }
 
 } //IfcAdvancedBrepImpl

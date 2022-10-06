@@ -125,10 +125,6 @@ public enum IfcEnvironmentalImpactCategoryEnum implements Enumerator {
     /**
      * The '<em><b>NULL</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>NULL</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #NULL
      * @model
@@ -140,10 +136,6 @@ public enum IfcEnvironmentalImpactCategoryEnum implements Enumerator {
     /**
      * The '<em><b>EXTRACTION</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>EXTRACTION</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #EXTRACTION
      * @model
@@ -155,10 +147,6 @@ public enum IfcEnvironmentalImpactCategoryEnum implements Enumerator {
     /**
      * The '<em><b>NOTDEFINED</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>NOTDEFINED</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #NOTDEFINED
      * @model
@@ -170,10 +158,6 @@ public enum IfcEnvironmentalImpactCategoryEnum implements Enumerator {
     /**
      * The '<em><b>DISPOSAL</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>DISPOSAL</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #DISPOSAL
      * @model
@@ -185,10 +169,6 @@ public enum IfcEnvironmentalImpactCategoryEnum implements Enumerator {
     /**
      * The '<em><b>TRANSPORTATION</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>TRANSPORTATION</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #TRANSPORTATION
      * @model
@@ -200,10 +180,6 @@ public enum IfcEnvironmentalImpactCategoryEnum implements Enumerator {
     /**
      * The '<em><b>MANUFACTURE</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>MANUFACTURE</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #MANUFACTURE
      * @model
@@ -215,10 +191,6 @@ public enum IfcEnvironmentalImpactCategoryEnum implements Enumerator {
     /**
      * The '<em><b>INSTALLATION</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>INSTALLATION</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #INSTALLATION
      * @model
@@ -230,10 +202,6 @@ public enum IfcEnvironmentalImpactCategoryEnum implements Enumerator {
     /**
      * The '<em><b>USERDEFINED</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>USERDEFINED</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #USERDEFINED
      * @model
@@ -245,10 +213,6 @@ public enum IfcEnvironmentalImpactCategoryEnum implements Enumerator {
     /**
      * The '<em><b>COMBINEDVALUE</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>COMBINEDVALUE</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #COMBINEDVALUE
      * @model

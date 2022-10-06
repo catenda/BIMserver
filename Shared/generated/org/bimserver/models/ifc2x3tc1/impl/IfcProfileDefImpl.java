@@ -55,7 +55,7 @@ public class IfcProfileDefImpl extends IdEObjectImpl implements IfcProfileDef {
      */
     @Override
     protected EClass eStaticClass() {
-        return Ifc2x3tc1Package.Literals.IFC_PROFILE_DEF;
+        return Ifc2x3tc1Package.eINSTANCE.getIfcProfileDef();
     }
 
     /**
@@ -75,7 +75,7 @@ public class IfcProfileDefImpl extends IdEObjectImpl implements IfcProfileDef {
      */
     @Override
     public IfcProfileTypeEnum getProfileType() {
-        return (IfcProfileTypeEnum) eGet(Ifc2x3tc1Package.Literals.IFC_PROFILE_DEF__PROFILE_TYPE, true);
+        return (IfcProfileTypeEnum) eGet(Ifc2x3tc1Package.eINSTANCE.getIfcProfileDef_ProfileType(), true);
     }
 
     /**
@@ -85,7 +85,7 @@ public class IfcProfileDefImpl extends IdEObjectImpl implements IfcProfileDef {
      */
     @Override
     public void setProfileType(IfcProfileTypeEnum newProfileType) {
-        eSet(Ifc2x3tc1Package.Literals.IFC_PROFILE_DEF__PROFILE_TYPE, newProfileType);
+        eSet(Ifc2x3tc1Package.eINSTANCE.getIfcProfileDef_ProfileType(), newProfileType);
     }
 
     /**
@@ -95,7 +95,7 @@ public class IfcProfileDefImpl extends IdEObjectImpl implements IfcProfileDef {
      */
     @Override
     public String getProfileName() {
-        return (String) eGet(Ifc2x3tc1Package.Literals.IFC_PROFILE_DEF__PROFILE_NAME, true);
+        return (String) eGet(Ifc2x3tc1Package.eINSTANCE.getIfcProfileDef_ProfileName(), true);
     }
 
     /**
@@ -105,7 +105,7 @@ public class IfcProfileDefImpl extends IdEObjectImpl implements IfcProfileDef {
      */
     @Override
     public void setProfileName(String newProfileName) {
-        eSet(Ifc2x3tc1Package.Literals.IFC_PROFILE_DEF__PROFILE_NAME, newProfileName);
+        eSet(Ifc2x3tc1Package.eINSTANCE.getIfcProfileDef_ProfileName(), newProfileName);
     }
 
     /**
@@ -115,7 +115,7 @@ public class IfcProfileDefImpl extends IdEObjectImpl implements IfcProfileDef {
      */
     @Override
     public void unsetProfileName() {
-        eUnset(Ifc2x3tc1Package.Literals.IFC_PROFILE_DEF__PROFILE_NAME);
+        eUnset(Ifc2x3tc1Package.eINSTANCE.getIfcProfileDef_ProfileName());
     }
 
     /**
@@ -125,7 +125,7 @@ public class IfcProfileDefImpl extends IdEObjectImpl implements IfcProfileDef {
      */
     @Override
     public boolean isSetProfileName() {
-        return eIsSet(Ifc2x3tc1Package.Literals.IFC_PROFILE_DEF__PROFILE_NAME);
+        return eIsSet(Ifc2x3tc1Package.eINSTANCE.getIfcProfileDef_ProfileName());
     }
 
 } //IfcProfileDefImpl

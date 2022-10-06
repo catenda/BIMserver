@@ -57,7 +57,7 @@ public class IfcStructuralLoadPlanarForceImpl extends IfcStructuralLoadStaticImp
      */
     @Override
     protected EClass eStaticClass() {
-        return Ifc4Package.Literals.IFC_STRUCTURAL_LOAD_PLANAR_FORCE;
+        return Ifc4Package.eINSTANCE.getIfcStructuralLoadPlanarForce();
     }
 
     /**
@@ -67,7 +67,7 @@ public class IfcStructuralLoadPlanarForceImpl extends IfcStructuralLoadStaticImp
      */
     @Override
     public double getPlanarForceX() {
-        return (Double) eGet(Ifc4Package.Literals.IFC_STRUCTURAL_LOAD_PLANAR_FORCE__PLANAR_FORCE_X, true);
+        return (Double) eGet(Ifc4Package.eINSTANCE.getIfcStructuralLoadPlanarForce_PlanarForceX(), true);
     }
 
     /**
@@ -77,7 +77,7 @@ public class IfcStructuralLoadPlanarForceImpl extends IfcStructuralLoadStaticImp
      */
     @Override
     public void setPlanarForceX(double newPlanarForceX) {
-        eSet(Ifc4Package.Literals.IFC_STRUCTURAL_LOAD_PLANAR_FORCE__PLANAR_FORCE_X, newPlanarForceX);
+        eSet(Ifc4Package.eINSTANCE.getIfcStructuralLoadPlanarForce_PlanarForceX(), newPlanarForceX);
     }
 
     /**
@@ -87,7 +87,7 @@ public class IfcStructuralLoadPlanarForceImpl extends IfcStructuralLoadStaticImp
      */
     @Override
     public void unsetPlanarForceX() {
-        eUnset(Ifc4Package.Literals.IFC_STRUCTURAL_LOAD_PLANAR_FORCE__PLANAR_FORCE_X);
+        eUnset(Ifc4Package.eINSTANCE.getIfcStructuralLoadPlanarForce_PlanarForceX());
     }
 
     /**
@@ -97,7 +97,7 @@ public class IfcStructuralLoadPlanarForceImpl extends IfcStructuralLoadStaticImp
      */
     @Override
     public boolean isSetPlanarForceX() {
-        return eIsSet(Ifc4Package.Literals.IFC_STRUCTURAL_LOAD_PLANAR_FORCE__PLANAR_FORCE_X);
+        return eIsSet(Ifc4Package.eINSTANCE.getIfcStructuralLoadPlanarForce_PlanarForceX());
     }
 
     /**
@@ -107,7 +107,7 @@ public class IfcStructuralLoadPlanarForceImpl extends IfcStructuralLoadStaticImp
      */
     @Override
     public String getPlanarForceXAsString() {
-        return (String) eGet(Ifc4Package.Literals.IFC_STRUCTURAL_LOAD_PLANAR_FORCE__PLANAR_FORCE_XAS_STRING, true);
+        return (String) eGet(Ifc4Package.eINSTANCE.getIfcStructuralLoadPlanarForce_PlanarForceXAsString(), true);
     }
 
     /**
@@ -117,7 +117,7 @@ public class IfcStructuralLoadPlanarForceImpl extends IfcStructuralLoadStaticImp
      */
     @Override
     public void setPlanarForceXAsString(String newPlanarForceXAsString) {
-        eSet(Ifc4Package.Literals.IFC_STRUCTURAL_LOAD_PLANAR_FORCE__PLANAR_FORCE_XAS_STRING, newPlanarForceXAsString);
+        eSet(Ifc4Package.eINSTANCE.getIfcStructuralLoadPlanarForce_PlanarForceXAsString(), newPlanarForceXAsString);
     }
 
     /**
@@ -127,7 +127,7 @@ public class IfcStructuralLoadPlanarForceImpl extends IfcStructuralLoadStaticImp
      */
     @Override
     public void unsetPlanarForceXAsString() {
-        eUnset(Ifc4Package.Literals.IFC_STRUCTURAL_LOAD_PLANAR_FORCE__PLANAR_FORCE_XAS_STRING);
+        eUnset(Ifc4Package.eINSTANCE.getIfcStructuralLoadPlanarForce_PlanarForceXAsString());
     }
 
     /**
@@ -137,7 +137,7 @@ public class IfcStructuralLoadPlanarForceImpl extends IfcStructuralLoadStaticImp
      */
     @Override
     public boolean isSetPlanarForceXAsString() {
-        return eIsSet(Ifc4Package.Literals.IFC_STRUCTURAL_LOAD_PLANAR_FORCE__PLANAR_FORCE_XAS_STRING);
+        return eIsSet(Ifc4Package.eINSTANCE.getIfcStructuralLoadPlanarForce_PlanarForceXAsString());
     }
 
     /**
@@ -147,7 +147,7 @@ public class IfcStructuralLoadPlanarForceImpl extends IfcStructuralLoadStaticImp
      */
     @Override
     public double getPlanarForceY() {
-        return (Double) eGet(Ifc4Package.Literals.IFC_STRUCTURAL_LOAD_PLANAR_FORCE__PLANAR_FORCE_Y, true);
+        return (Double) eGet(Ifc4Package.eINSTANCE.getIfcStructuralLoadPlanarForce_PlanarForceY(), true);
     }
 
     /**
@@ -157,7 +157,7 @@ public class IfcStructuralLoadPlanarForceImpl extends IfcStructuralLoadStaticImp
      */
     @Override
     public void setPlanarForceY(double newPlanarForceY) {
-        eSet(Ifc4Package.Literals.IFC_STRUCTURAL_LOAD_PLANAR_FORCE__PLANAR_FORCE_Y, newPlanarForceY);
+        eSet(Ifc4Package.eINSTANCE.getIfcStructuralLoadPlanarForce_PlanarForceY(), newPlanarForceY);
     }
 
     /**
@@ -167,7 +167,7 @@ public class IfcStructuralLoadPlanarForceImpl extends IfcStructuralLoadStaticImp
      */
     @Override
     public void unsetPlanarForceY() {
-        eUnset(Ifc4Package.Literals.IFC_STRUCTURAL_LOAD_PLANAR_FORCE__PLANAR_FORCE_Y);
+        eUnset(Ifc4Package.eINSTANCE.getIfcStructuralLoadPlanarForce_PlanarForceY());
     }
 
     /**
@@ -177,7 +177,7 @@ public class IfcStructuralLoadPlanarForceImpl extends IfcStructuralLoadStaticImp
      */
     @Override
     public boolean isSetPlanarForceY() {
-        return eIsSet(Ifc4Package.Literals.IFC_STRUCTURAL_LOAD_PLANAR_FORCE__PLANAR_FORCE_Y);
+        return eIsSet(Ifc4Package.eINSTANCE.getIfcStructuralLoadPlanarForce_PlanarForceY());
     }
 
     /**
@@ -187,7 +187,7 @@ public class IfcStructuralLoadPlanarForceImpl extends IfcStructuralLoadStaticImp
      */
     @Override
     public String getPlanarForceYAsString() {
-        return (String) eGet(Ifc4Package.Literals.IFC_STRUCTURAL_LOAD_PLANAR_FORCE__PLANAR_FORCE_YAS_STRING, true);
+        return (String) eGet(Ifc4Package.eINSTANCE.getIfcStructuralLoadPlanarForce_PlanarForceYAsString(), true);
     }
 
     /**
@@ -197,7 +197,7 @@ public class IfcStructuralLoadPlanarForceImpl extends IfcStructuralLoadStaticImp
      */
     @Override
     public void setPlanarForceYAsString(String newPlanarForceYAsString) {
-        eSet(Ifc4Package.Literals.IFC_STRUCTURAL_LOAD_PLANAR_FORCE__PLANAR_FORCE_YAS_STRING, newPlanarForceYAsString);
+        eSet(Ifc4Package.eINSTANCE.getIfcStructuralLoadPlanarForce_PlanarForceYAsString(), newPlanarForceYAsString);
     }
 
     /**
@@ -207,7 +207,7 @@ public class IfcStructuralLoadPlanarForceImpl extends IfcStructuralLoadStaticImp
      */
     @Override
     public void unsetPlanarForceYAsString() {
-        eUnset(Ifc4Package.Literals.IFC_STRUCTURAL_LOAD_PLANAR_FORCE__PLANAR_FORCE_YAS_STRING);
+        eUnset(Ifc4Package.eINSTANCE.getIfcStructuralLoadPlanarForce_PlanarForceYAsString());
     }
 
     /**
@@ -217,7 +217,7 @@ public class IfcStructuralLoadPlanarForceImpl extends IfcStructuralLoadStaticImp
      */
     @Override
     public boolean isSetPlanarForceYAsString() {
-        return eIsSet(Ifc4Package.Literals.IFC_STRUCTURAL_LOAD_PLANAR_FORCE__PLANAR_FORCE_YAS_STRING);
+        return eIsSet(Ifc4Package.eINSTANCE.getIfcStructuralLoadPlanarForce_PlanarForceYAsString());
     }
 
     /**
@@ -227,7 +227,7 @@ public class IfcStructuralLoadPlanarForceImpl extends IfcStructuralLoadStaticImp
      */
     @Override
     public double getPlanarForceZ() {
-        return (Double) eGet(Ifc4Package.Literals.IFC_STRUCTURAL_LOAD_PLANAR_FORCE__PLANAR_FORCE_Z, true);
+        return (Double) eGet(Ifc4Package.eINSTANCE.getIfcStructuralLoadPlanarForce_PlanarForceZ(), true);
     }
 
     /**
@@ -237,7 +237,7 @@ public class IfcStructuralLoadPlanarForceImpl extends IfcStructuralLoadStaticImp
      */
     @Override
     public void setPlanarForceZ(double newPlanarForceZ) {
-        eSet(Ifc4Package.Literals.IFC_STRUCTURAL_LOAD_PLANAR_FORCE__PLANAR_FORCE_Z, newPlanarForceZ);
+        eSet(Ifc4Package.eINSTANCE.getIfcStructuralLoadPlanarForce_PlanarForceZ(), newPlanarForceZ);
     }
 
     /**
@@ -247,7 +247,7 @@ public class IfcStructuralLoadPlanarForceImpl extends IfcStructuralLoadStaticImp
      */
     @Override
     public void unsetPlanarForceZ() {
-        eUnset(Ifc4Package.Literals.IFC_STRUCTURAL_LOAD_PLANAR_FORCE__PLANAR_FORCE_Z);
+        eUnset(Ifc4Package.eINSTANCE.getIfcStructuralLoadPlanarForce_PlanarForceZ());
     }
 
     /**
@@ -257,7 +257,7 @@ public class IfcStructuralLoadPlanarForceImpl extends IfcStructuralLoadStaticImp
      */
     @Override
     public boolean isSetPlanarForceZ() {
-        return eIsSet(Ifc4Package.Literals.IFC_STRUCTURAL_LOAD_PLANAR_FORCE__PLANAR_FORCE_Z);
+        return eIsSet(Ifc4Package.eINSTANCE.getIfcStructuralLoadPlanarForce_PlanarForceZ());
     }
 
     /**
@@ -267,7 +267,7 @@ public class IfcStructuralLoadPlanarForceImpl extends IfcStructuralLoadStaticImp
      */
     @Override
     public String getPlanarForceZAsString() {
-        return (String) eGet(Ifc4Package.Literals.IFC_STRUCTURAL_LOAD_PLANAR_FORCE__PLANAR_FORCE_ZAS_STRING, true);
+        return (String) eGet(Ifc4Package.eINSTANCE.getIfcStructuralLoadPlanarForce_PlanarForceZAsString(), true);
     }
 
     /**
@@ -277,7 +277,7 @@ public class IfcStructuralLoadPlanarForceImpl extends IfcStructuralLoadStaticImp
      */
     @Override
     public void setPlanarForceZAsString(String newPlanarForceZAsString) {
-        eSet(Ifc4Package.Literals.IFC_STRUCTURAL_LOAD_PLANAR_FORCE__PLANAR_FORCE_ZAS_STRING, newPlanarForceZAsString);
+        eSet(Ifc4Package.eINSTANCE.getIfcStructuralLoadPlanarForce_PlanarForceZAsString(), newPlanarForceZAsString);
     }
 
     /**
@@ -287,7 +287,7 @@ public class IfcStructuralLoadPlanarForceImpl extends IfcStructuralLoadStaticImp
      */
     @Override
     public void unsetPlanarForceZAsString() {
-        eUnset(Ifc4Package.Literals.IFC_STRUCTURAL_LOAD_PLANAR_FORCE__PLANAR_FORCE_ZAS_STRING);
+        eUnset(Ifc4Package.eINSTANCE.getIfcStructuralLoadPlanarForce_PlanarForceZAsString());
     }
 
     /**
@@ -297,7 +297,7 @@ public class IfcStructuralLoadPlanarForceImpl extends IfcStructuralLoadStaticImp
      */
     @Override
     public boolean isSetPlanarForceZAsString() {
-        return eIsSet(Ifc4Package.Literals.IFC_STRUCTURAL_LOAD_PLANAR_FORCE__PLANAR_FORCE_ZAS_STRING);
+        return eIsSet(Ifc4Package.eINSTANCE.getIfcStructuralLoadPlanarForce_PlanarForceZAsString());
     }
 
 } //IfcStructuralLoadPlanarForceImpl

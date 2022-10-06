@@ -67,10 +67,6 @@ public interface IfcStructuralProfileProperties extends IfcGeneralProfilePropert
     /**
      * Returns the value of the '<em><b>Torsional Constant X</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Torsional Constant X</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Torsional Constant X</em>' attribute.
      * @see #isSetTorsionalConstantX()
@@ -120,10 +116,6 @@ public interface IfcStructuralProfileProperties extends IfcGeneralProfilePropert
     /**
      * Returns the value of the '<em><b>Torsional Constant XAs String</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Torsional Constant XAs String</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Torsional Constant XAs String</em>' attribute.
      * @see #isSetTorsionalConstantXAsString()
@@ -175,10 +167,6 @@ public interface IfcStructuralProfileProperties extends IfcGeneralProfilePropert
     /**
      * Returns the value of the '<em><b>Moment Of Inertia YZ</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Moment Of Inertia YZ</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Moment Of Inertia YZ</em>' attribute.
      * @see #isSetMomentOfInertiaYZ()
@@ -228,10 +216,6 @@ public interface IfcStructuralProfileProperties extends IfcGeneralProfilePropert
     /**
      * Returns the value of the '<em><b>Moment Of Inertia YZ As String</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Moment Of Inertia YZ As String</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Moment Of Inertia YZ As String</em>' attribute.
      * @see #isSetMomentOfInertiaYZAsString()
@@ -283,10 +267,6 @@ public interface IfcStructuralProfileProperties extends IfcGeneralProfilePropert
     /**
      * Returns the value of the '<em><b>Moment Of Inertia Y</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Moment Of Inertia Y</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Moment Of Inertia Y</em>' attribute.
      * @see #isSetMomentOfInertiaY()
@@ -336,10 +316,6 @@ public interface IfcStructuralProfileProperties extends IfcGeneralProfilePropert
     /**
      * Returns the value of the '<em><b>Moment Of Inertia YAs String</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Moment Of Inertia YAs String</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Moment Of Inertia YAs String</em>' attribute.
      * @see #isSetMomentOfInertiaYAsString()
@@ -391,10 +367,6 @@ public interface IfcStructuralProfileProperties extends IfcGeneralProfilePropert
     /**
      * Returns the value of the '<em><b>Moment Of Inertia Z</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Moment Of Inertia Z</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Moment Of Inertia Z</em>' attribute.
      * @see #isSetMomentOfInertiaZ()
@@ -444,10 +416,6 @@ public interface IfcStructuralProfileProperties extends IfcGeneralProfilePropert
     /**
      * Returns the value of the '<em><b>Moment Of Inertia ZAs String</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Moment Of Inertia ZAs String</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Moment Of Inertia ZAs String</em>' attribute.
      * @see #isSetMomentOfInertiaZAsString()
@@ -499,10 +467,6 @@ public interface IfcStructuralProfileProperties extends IfcGeneralProfilePropert
     /**
      * Returns the value of the '<em><b>Warping Constant</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Warping Constant</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Warping Constant</em>' attribute.
      * @see #isSetWarpingConstant()
@@ -552,10 +516,6 @@ public interface IfcStructuralProfileProperties extends IfcGeneralProfilePropert
     /**
      * Returns the value of the '<em><b>Warping Constant As String</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Warping Constant As String</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Warping Constant As String</em>' attribute.
      * @see #isSetWarpingConstantAsString()
@@ -607,10 +567,6 @@ public interface IfcStructuralProfileProperties extends IfcGeneralProfilePropert
     /**
      * Returns the value of the '<em><b>Shear Centre Z</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Shear Centre Z</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Shear Centre Z</em>' attribute.
      * @see #isSetShearCentreZ()
@@ -660,10 +616,6 @@ public interface IfcStructuralProfileProperties extends IfcGeneralProfilePropert
     /**
      * Returns the value of the '<em><b>Shear Centre ZAs String</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Shear Centre ZAs String</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Shear Centre ZAs String</em>' attribute.
      * @see #isSetShearCentreZAsString()
@@ -715,10 +667,6 @@ public interface IfcStructuralProfileProperties extends IfcGeneralProfilePropert
     /**
      * Returns the value of the '<em><b>Shear Centre Y</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Shear Centre Y</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Shear Centre Y</em>' attribute.
      * @see #isSetShearCentreY()
@@ -768,10 +716,6 @@ public interface IfcStructuralProfileProperties extends IfcGeneralProfilePropert
     /**
      * Returns the value of the '<em><b>Shear Centre YAs String</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Shear Centre YAs String</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Shear Centre YAs String</em>' attribute.
      * @see #isSetShearCentreYAsString()
@@ -823,10 +767,6 @@ public interface IfcStructuralProfileProperties extends IfcGeneralProfilePropert
     /**
      * Returns the value of the '<em><b>Shear Deformation Area Z</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Shear Deformation Area Z</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Shear Deformation Area Z</em>' attribute.
      * @see #isSetShearDeformationAreaZ()
@@ -876,10 +816,6 @@ public interface IfcStructuralProfileProperties extends IfcGeneralProfilePropert
     /**
      * Returns the value of the '<em><b>Shear Deformation Area ZAs String</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Shear Deformation Area ZAs String</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Shear Deformation Area ZAs String</em>' attribute.
      * @see #isSetShearDeformationAreaZAsString()
@@ -931,10 +867,6 @@ public interface IfcStructuralProfileProperties extends IfcGeneralProfilePropert
     /**
      * Returns the value of the '<em><b>Shear Deformation Area Y</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Shear Deformation Area Y</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Shear Deformation Area Y</em>' attribute.
      * @see #isSetShearDeformationAreaY()
@@ -984,10 +916,6 @@ public interface IfcStructuralProfileProperties extends IfcGeneralProfilePropert
     /**
      * Returns the value of the '<em><b>Shear Deformation Area YAs String</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Shear Deformation Area YAs String</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Shear Deformation Area YAs String</em>' attribute.
      * @see #isSetShearDeformationAreaYAsString()
@@ -1039,10 +967,6 @@ public interface IfcStructuralProfileProperties extends IfcGeneralProfilePropert
     /**
      * Returns the value of the '<em><b>Maximum Section Modulus Y</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Maximum Section Modulus Y</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Maximum Section Modulus Y</em>' attribute.
      * @see #isSetMaximumSectionModulusY()
@@ -1092,10 +1016,6 @@ public interface IfcStructuralProfileProperties extends IfcGeneralProfilePropert
     /**
      * Returns the value of the '<em><b>Maximum Section Modulus YAs String</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Maximum Section Modulus YAs String</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Maximum Section Modulus YAs String</em>' attribute.
      * @see #isSetMaximumSectionModulusYAsString()
@@ -1147,10 +1067,6 @@ public interface IfcStructuralProfileProperties extends IfcGeneralProfilePropert
     /**
      * Returns the value of the '<em><b>Minimum Section Modulus Y</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Minimum Section Modulus Y</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Minimum Section Modulus Y</em>' attribute.
      * @see #isSetMinimumSectionModulusY()
@@ -1200,10 +1116,6 @@ public interface IfcStructuralProfileProperties extends IfcGeneralProfilePropert
     /**
      * Returns the value of the '<em><b>Minimum Section Modulus YAs String</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Minimum Section Modulus YAs String</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Minimum Section Modulus YAs String</em>' attribute.
      * @see #isSetMinimumSectionModulusYAsString()
@@ -1255,10 +1167,6 @@ public interface IfcStructuralProfileProperties extends IfcGeneralProfilePropert
     /**
      * Returns the value of the '<em><b>Maximum Section Modulus Z</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Maximum Section Modulus Z</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Maximum Section Modulus Z</em>' attribute.
      * @see #isSetMaximumSectionModulusZ()
@@ -1308,10 +1216,6 @@ public interface IfcStructuralProfileProperties extends IfcGeneralProfilePropert
     /**
      * Returns the value of the '<em><b>Maximum Section Modulus ZAs String</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Maximum Section Modulus ZAs String</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Maximum Section Modulus ZAs String</em>' attribute.
      * @see #isSetMaximumSectionModulusZAsString()
@@ -1363,10 +1267,6 @@ public interface IfcStructuralProfileProperties extends IfcGeneralProfilePropert
     /**
      * Returns the value of the '<em><b>Minimum Section Modulus Z</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Minimum Section Modulus Z</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Minimum Section Modulus Z</em>' attribute.
      * @see #isSetMinimumSectionModulusZ()
@@ -1416,10 +1316,6 @@ public interface IfcStructuralProfileProperties extends IfcGeneralProfilePropert
     /**
      * Returns the value of the '<em><b>Minimum Section Modulus ZAs String</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Minimum Section Modulus ZAs String</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Minimum Section Modulus ZAs String</em>' attribute.
      * @see #isSetMinimumSectionModulusZAsString()
@@ -1471,10 +1367,6 @@ public interface IfcStructuralProfileProperties extends IfcGeneralProfilePropert
     /**
      * Returns the value of the '<em><b>Torsional Section Modulus</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Torsional Section Modulus</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Torsional Section Modulus</em>' attribute.
      * @see #isSetTorsionalSectionModulus()
@@ -1524,10 +1416,6 @@ public interface IfcStructuralProfileProperties extends IfcGeneralProfilePropert
     /**
      * Returns the value of the '<em><b>Torsional Section Modulus As String</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Torsional Section Modulus As String</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Torsional Section Modulus As String</em>' attribute.
      * @see #isSetTorsionalSectionModulusAsString()
@@ -1579,10 +1467,6 @@ public interface IfcStructuralProfileProperties extends IfcGeneralProfilePropert
     /**
      * Returns the value of the '<em><b>Centre Of Gravity In X</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Centre Of Gravity In X</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Centre Of Gravity In X</em>' attribute.
      * @see #isSetCentreOfGravityInX()
@@ -1632,10 +1516,6 @@ public interface IfcStructuralProfileProperties extends IfcGeneralProfilePropert
     /**
      * Returns the value of the '<em><b>Centre Of Gravity In XAs String</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Centre Of Gravity In XAs String</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Centre Of Gravity In XAs String</em>' attribute.
      * @see #isSetCentreOfGravityInXAsString()
@@ -1687,10 +1567,6 @@ public interface IfcStructuralProfileProperties extends IfcGeneralProfilePropert
     /**
      * Returns the value of the '<em><b>Centre Of Gravity In Y</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Centre Of Gravity In Y</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Centre Of Gravity In Y</em>' attribute.
      * @see #isSetCentreOfGravityInY()
@@ -1740,10 +1616,6 @@ public interface IfcStructuralProfileProperties extends IfcGeneralProfilePropert
     /**
      * Returns the value of the '<em><b>Centre Of Gravity In YAs String</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Centre Of Gravity In YAs String</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Centre Of Gravity In YAs String</em>' attribute.
      * @see #isSetCentreOfGravityInYAsString()

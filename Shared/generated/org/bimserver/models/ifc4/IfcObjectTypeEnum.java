@@ -125,10 +125,6 @@ public enum IfcObjectTypeEnum implements Enumerator {
     /**
      * The '<em><b>NULL</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>NULL</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #NULL
      * @model
@@ -140,10 +136,6 @@ public enum IfcObjectTypeEnum implements Enumerator {
     /**
      * The '<em><b>GROUP</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>GROUP</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #GROUP
      * @model
@@ -155,10 +147,6 @@ public enum IfcObjectTypeEnum implements Enumerator {
     /**
      * The '<em><b>PROJECT</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>PROJECT</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #PROJECT
      * @model
@@ -170,10 +158,6 @@ public enum IfcObjectTypeEnum implements Enumerator {
     /**
      * The '<em><b>NOTDEFINED</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>NOTDEFINED</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #NOTDEFINED
      * @model
@@ -185,10 +169,6 @@ public enum IfcObjectTypeEnum implements Enumerator {
     /**
      * The '<em><b>PRODUCT</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>PRODUCT</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #PRODUCT
      * @model
@@ -200,10 +180,6 @@ public enum IfcObjectTypeEnum implements Enumerator {
     /**
      * The '<em><b>ACTOR</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>ACTOR</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #ACTOR
      * @model
@@ -215,10 +191,6 @@ public enum IfcObjectTypeEnum implements Enumerator {
     /**
      * The '<em><b>PROCESS</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>PROCESS</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #PROCESS
      * @model
@@ -230,10 +202,6 @@ public enum IfcObjectTypeEnum implements Enumerator {
     /**
      * The '<em><b>CONTROL</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>CONTROL</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #CONTROL
      * @model
@@ -245,10 +213,6 @@ public enum IfcObjectTypeEnum implements Enumerator {
     /**
      * The '<em><b>RESOURCE</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>RESOURCE</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #RESOURCE
      * @model

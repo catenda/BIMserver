@@ -43,10 +43,6 @@ public interface IfcSpace extends IfcSpatialStructureElement, IfcSpaceBoundarySe
      * Returns the value of the '<em><b>Predefined Type</b></em>' attribute.
      * The literals are from the enumeration {@link org.bimserver.models.ifc4.IfcSpaceTypeEnum}.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Predefined Type</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Predefined Type</em>' attribute.
      * @see org.bimserver.models.ifc4.IfcSpaceTypeEnum
@@ -98,10 +94,6 @@ public interface IfcSpace extends IfcSpatialStructureElement, IfcSpaceBoundarySe
     /**
      * Returns the value of the '<em><b>Elevation With Flooring</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Elevation With Flooring</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Elevation With Flooring</em>' attribute.
      * @see #isSetElevationWithFlooring()
@@ -151,10 +143,6 @@ public interface IfcSpace extends IfcSpatialStructureElement, IfcSpaceBoundarySe
     /**
      * Returns the value of the '<em><b>Elevation With Flooring As String</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Elevation With Flooring As String</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Elevation With Flooring As String</em>' attribute.
      * @see #isSetElevationWithFlooringAsString()
@@ -208,10 +196,6 @@ public interface IfcSpace extends IfcSpatialStructureElement, IfcSpaceBoundarySe
      * The list contents are of type {@link org.bimserver.models.ifc4.IfcRelCoversSpaces}.
      * It is bidirectional and its opposite is '{@link org.bimserver.models.ifc4.IfcRelCoversSpaces#getRelatingSpace <em>Relating Space</em>}'.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Has Coverings</em>' reference list isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Has Coverings</em>' reference list.
      * @see #isSetHasCoverings()
@@ -249,10 +233,6 @@ public interface IfcSpace extends IfcSpatialStructureElement, IfcSpaceBoundarySe
      * Returns the value of the '<em><b>Bounded By</b></em>' reference list.
      * The list contents are of type {@link org.bimserver.models.ifc4.IfcRelSpaceBoundary}.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Bounded By</em>' reference list isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Bounded By</em>' reference list.
      * @see #isSetBoundedBy()

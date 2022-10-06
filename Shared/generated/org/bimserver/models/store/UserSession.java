@@ -50,10 +50,6 @@ public interface UserSession extends IdEObject {
     /**
      * Returns the value of the '<em><b>User</b></em>' reference.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>User</em>' reference isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>User</em>' reference.
      * @see #setUser(User)
@@ -76,10 +72,6 @@ public interface UserSession extends IdEObject {
     /**
      * Returns the value of the '<em><b>Username</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Username</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Username</em>' attribute.
      * @see #setUsername(String)
@@ -102,10 +94,6 @@ public interface UserSession extends IdEObject {
     /**
      * Returns the value of the '<em><b>Name</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Name</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Name</em>' attribute.
      * @see #setName(String)
@@ -129,10 +117,6 @@ public interface UserSession extends IdEObject {
      * Returns the value of the '<em><b>Type</b></em>' attribute.
      * The literals are from the enumeration {@link org.bimserver.models.store.UserType}.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Type</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Type</em>' attribute.
      * @see org.bimserver.models.store.UserType
@@ -157,10 +141,6 @@ public interface UserSession extends IdEObject {
     /**
      * Returns the value of the '<em><b>Remote Address</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Remote Address</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Remote Address</em>' attribute.
      * @see #setRemoteAddress(String)
@@ -183,10 +163,6 @@ public interface UserSession extends IdEObject {
     /**
      * Returns the value of the '<em><b>Active Since</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Active Since</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Active Since</em>' attribute.
      * @see #setActiveSince(Date)
@@ -209,10 +185,6 @@ public interface UserSession extends IdEObject {
     /**
      * Returns the value of the '<em><b>Last Active</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Last Active</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Last Active</em>' attribute.
      * @see #setLastActive(Date)
@@ -236,10 +208,6 @@ public interface UserSession extends IdEObject {
      * Returns the value of the '<em><b>Access Method</b></em>' attribute.
      * The literals are from the enumeration {@link org.bimserver.models.log.AccessMethod}.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Access Method</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Access Method</em>' attribute.
      * @see org.bimserver.models.log.AccessMethod

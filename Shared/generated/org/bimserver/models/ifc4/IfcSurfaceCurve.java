@@ -40,10 +40,6 @@ public interface IfcSurfaceCurve extends IfcCurve, IfcCurveOnSurface {
     /**
      * Returns the value of the '<em><b>Curve3 D</b></em>' reference.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Curve3 D</em>' reference isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Curve3 D</em>' reference.
      * @see #setCurve3D(IfcCurve)
@@ -67,10 +63,6 @@ public interface IfcSurfaceCurve extends IfcCurve, IfcCurveOnSurface {
      * Returns the value of the '<em><b>Associated Geometry</b></em>' reference list.
      * The list contents are of type {@link org.bimserver.models.ifc4.IfcPcurve}.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Associated Geometry</em>' reference list isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Associated Geometry</em>' reference list.
      * @see org.bimserver.models.ifc4.Ifc4Package#getIfcSurfaceCurve_AssociatedGeometry()
@@ -83,10 +75,6 @@ public interface IfcSurfaceCurve extends IfcCurve, IfcCurveOnSurface {
      * Returns the value of the '<em><b>Master Representation</b></em>' attribute.
      * The literals are from the enumeration {@link org.bimserver.models.ifc4.IfcPreferredSurfaceCurveRepresentation}.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Master Representation</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Master Representation</em>' attribute.
      * @see org.bimserver.models.ifc4.IfcPreferredSurfaceCurveRepresentation

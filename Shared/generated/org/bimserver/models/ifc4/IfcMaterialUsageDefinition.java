@@ -39,10 +39,6 @@ public interface IfcMaterialUsageDefinition extends IfcMaterialSelect {
      * Returns the value of the '<em><b>Associated To</b></em>' reference list.
      * The list contents are of type {@link org.bimserver.models.ifc4.IfcRelAssociatesMaterial}.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Associated To</em>' reference list isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Associated To</em>' reference list.
      * @see #isSetAssociatedTo()

@@ -39,10 +39,6 @@ public interface IfcConstructionResource extends IfcResource {
     /**
      * Returns the value of the '<em><b>Resource Identifier</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Resource Identifier</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Resource Identifier</em>' attribute.
      * @see #isSetResourceIdentifier()
@@ -92,10 +88,6 @@ public interface IfcConstructionResource extends IfcResource {
     /**
      * Returns the value of the '<em><b>Resource Group</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Resource Group</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Resource Group</em>' attribute.
      * @see #isSetResourceGroup()
@@ -146,10 +138,6 @@ public interface IfcConstructionResource extends IfcResource {
      * Returns the value of the '<em><b>Resource Consumption</b></em>' attribute.
      * The literals are from the enumeration {@link org.bimserver.models.ifc2x3tc1.IfcResourceConsumptionEnum}.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Resource Consumption</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Resource Consumption</em>' attribute.
      * @see org.bimserver.models.ifc2x3tc1.IfcResourceConsumptionEnum
@@ -201,10 +189,6 @@ public interface IfcConstructionResource extends IfcResource {
     /**
      * Returns the value of the '<em><b>Base Quantity</b></em>' reference.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Base Quantity</em>' reference isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Base Quantity</em>' reference.
      * @see #isSetBaseQuantity()

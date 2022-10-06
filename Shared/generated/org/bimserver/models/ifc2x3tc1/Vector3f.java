@@ -41,10 +41,6 @@ public interface Vector3f extends IdEObject {
     /**
      * Returns the value of the '<em><b>X</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>X</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>X</em>' attribute.
      * @see #setX(float)
@@ -67,10 +63,6 @@ public interface Vector3f extends IdEObject {
     /**
      * Returns the value of the '<em><b>Y</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Y</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Y</em>' attribute.
      * @see #setY(float)
@@ -93,10 +85,6 @@ public interface Vector3f extends IdEObject {
     /**
      * Returns the value of the '<em><b>Z</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Z</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Z</em>' attribute.
      * @see #setZ(float)

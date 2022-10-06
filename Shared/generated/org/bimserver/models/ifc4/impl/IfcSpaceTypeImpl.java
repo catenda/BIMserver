@@ -53,7 +53,7 @@ public class IfcSpaceTypeImpl extends IfcSpatialStructureElementTypeImpl impleme
      */
     @Override
     protected EClass eStaticClass() {
-        return Ifc4Package.Literals.IFC_SPACE_TYPE;
+        return Ifc4Package.eINSTANCE.getIfcSpaceType();
     }
 
     /**
@@ -63,7 +63,7 @@ public class IfcSpaceTypeImpl extends IfcSpatialStructureElementTypeImpl impleme
      */
     @Override
     public IfcSpaceTypeEnum getPredefinedType() {
-        return (IfcSpaceTypeEnum) eGet(Ifc4Package.Literals.IFC_SPACE_TYPE__PREDEFINED_TYPE, true);
+        return (IfcSpaceTypeEnum) eGet(Ifc4Package.eINSTANCE.getIfcSpaceType_PredefinedType(), true);
     }
 
     /**
@@ -73,7 +73,7 @@ public class IfcSpaceTypeImpl extends IfcSpatialStructureElementTypeImpl impleme
      */
     @Override
     public void setPredefinedType(IfcSpaceTypeEnum newPredefinedType) {
-        eSet(Ifc4Package.Literals.IFC_SPACE_TYPE__PREDEFINED_TYPE, newPredefinedType);
+        eSet(Ifc4Package.eINSTANCE.getIfcSpaceType_PredefinedType(), newPredefinedType);
     }
 
     /**
@@ -83,7 +83,7 @@ public class IfcSpaceTypeImpl extends IfcSpatialStructureElementTypeImpl impleme
      */
     @Override
     public String getLongName() {
-        return (String) eGet(Ifc4Package.Literals.IFC_SPACE_TYPE__LONG_NAME, true);
+        return (String) eGet(Ifc4Package.eINSTANCE.getIfcSpaceType_LongName(), true);
     }
 
     /**
@@ -93,7 +93,7 @@ public class IfcSpaceTypeImpl extends IfcSpatialStructureElementTypeImpl impleme
      */
     @Override
     public void setLongName(String newLongName) {
-        eSet(Ifc4Package.Literals.IFC_SPACE_TYPE__LONG_NAME, newLongName);
+        eSet(Ifc4Package.eINSTANCE.getIfcSpaceType_LongName(), newLongName);
     }
 
     /**
@@ -103,7 +103,7 @@ public class IfcSpaceTypeImpl extends IfcSpatialStructureElementTypeImpl impleme
      */
     @Override
     public void unsetLongName() {
-        eUnset(Ifc4Package.Literals.IFC_SPACE_TYPE__LONG_NAME);
+        eUnset(Ifc4Package.eINSTANCE.getIfcSpaceType_LongName());
     }
 
     /**
@@ -113,7 +113,7 @@ public class IfcSpaceTypeImpl extends IfcSpatialStructureElementTypeImpl impleme
      */
     @Override
     public boolean isSetLongName() {
-        return eIsSet(Ifc4Package.Literals.IFC_SPACE_TYPE__LONG_NAME);
+        return eIsSet(Ifc4Package.eINSTANCE.getIfcSpaceType_LongName());
     }
 
 } //IfcSpaceTypeImpl

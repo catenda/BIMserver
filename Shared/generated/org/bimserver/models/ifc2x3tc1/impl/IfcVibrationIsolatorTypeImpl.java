@@ -52,7 +52,7 @@ public class IfcVibrationIsolatorTypeImpl extends IfcDiscreteAccessoryTypeImpl i
      */
     @Override
     protected EClass eStaticClass() {
-        return Ifc2x3tc1Package.Literals.IFC_VIBRATION_ISOLATOR_TYPE;
+        return Ifc2x3tc1Package.eINSTANCE.getIfcVibrationIsolatorType();
     }
 
     /**
@@ -63,7 +63,7 @@ public class IfcVibrationIsolatorTypeImpl extends IfcDiscreteAccessoryTypeImpl i
     @Override
     public IfcVibrationIsolatorTypeEnum getPredefinedType() {
         return (IfcVibrationIsolatorTypeEnum) eGet(
-                Ifc2x3tc1Package.Literals.IFC_VIBRATION_ISOLATOR_TYPE__PREDEFINED_TYPE, true);
+                Ifc2x3tc1Package.eINSTANCE.getIfcVibrationIsolatorType_PredefinedType(), true);
     }
 
     /**
@@ -73,7 +73,7 @@ public class IfcVibrationIsolatorTypeImpl extends IfcDiscreteAccessoryTypeImpl i
      */
     @Override
     public void setPredefinedType(IfcVibrationIsolatorTypeEnum newPredefinedType) {
-        eSet(Ifc2x3tc1Package.Literals.IFC_VIBRATION_ISOLATOR_TYPE__PREDEFINED_TYPE, newPredefinedType);
+        eSet(Ifc2x3tc1Package.eINSTANCE.getIfcVibrationIsolatorType_PredefinedType(), newPredefinedType);
     }
 
 } //IfcVibrationIsolatorTypeImpl

@@ -45,10 +45,6 @@ public interface IfcPropertyConstraintRelationship extends IdEObject {
      * Returns the value of the '<em><b>Relating Constraint</b></em>' reference.
      * It is bidirectional and its opposite is '{@link org.bimserver.models.ifc2x3tc1.IfcConstraint#getPropertiesForConstraint <em>Properties For Constraint</em>}'.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Relating Constraint</em>' reference isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Relating Constraint</em>' reference.
      * @see #setRelatingConstraint(IfcConstraint)
@@ -74,10 +70,6 @@ public interface IfcPropertyConstraintRelationship extends IdEObject {
      * Returns the value of the '<em><b>Related Properties</b></em>' reference list.
      * The list contents are of type {@link org.bimserver.models.ifc2x3tc1.IfcProperty}.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Related Properties</em>' reference list isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Related Properties</em>' reference list.
      * @see org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package#getIfcPropertyConstraintRelationship_RelatedProperties()
@@ -89,10 +81,6 @@ public interface IfcPropertyConstraintRelationship extends IdEObject {
     /**
      * Returns the value of the '<em><b>Name</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Name</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Name</em>' attribute.
      * @see #isSetName()
@@ -142,10 +130,6 @@ public interface IfcPropertyConstraintRelationship extends IdEObject {
     /**
      * Returns the value of the '<em><b>Description</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Description</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Description</em>' attribute.
      * @see #isSetDescription()

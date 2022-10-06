@@ -75,10 +75,6 @@ public enum IfcLayerSetDirectionEnum implements Enumerator {
     /**
      * The '<em><b>NULL</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>NULL</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #NULL
      * @model
@@ -90,10 +86,6 @@ public enum IfcLayerSetDirectionEnum implements Enumerator {
     /**
      * The '<em><b>AXIS2</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>AXIS2</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #AXIS2
      * @model
@@ -105,10 +97,6 @@ public enum IfcLayerSetDirectionEnum implements Enumerator {
     /**
      * The '<em><b>AXIS1</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>AXIS1</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #AXIS1
      * @model
@@ -120,10 +108,6 @@ public enum IfcLayerSetDirectionEnum implements Enumerator {
     /**
      * The '<em><b>AXIS3</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>AXIS3</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #AXIS3
      * @model

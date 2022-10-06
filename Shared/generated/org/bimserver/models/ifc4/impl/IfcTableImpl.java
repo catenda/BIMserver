@@ -62,7 +62,7 @@ public class IfcTableImpl extends IdEObjectImpl implements IfcTable {
      */
     @Override
     protected EClass eStaticClass() {
-        return Ifc4Package.Literals.IFC_TABLE;
+        return Ifc4Package.eINSTANCE.getIfcTable();
     }
 
     /**
@@ -82,7 +82,7 @@ public class IfcTableImpl extends IdEObjectImpl implements IfcTable {
      */
     @Override
     public String getName() {
-        return (String) eGet(Ifc4Package.Literals.IFC_TABLE__NAME, true);
+        return (String) eGet(Ifc4Package.eINSTANCE.getIfcTable_Name(), true);
     }
 
     /**
@@ -92,7 +92,7 @@ public class IfcTableImpl extends IdEObjectImpl implements IfcTable {
      */
     @Override
     public void setName(String newName) {
-        eSet(Ifc4Package.Literals.IFC_TABLE__NAME, newName);
+        eSet(Ifc4Package.eINSTANCE.getIfcTable_Name(), newName);
     }
 
     /**
@@ -102,7 +102,7 @@ public class IfcTableImpl extends IdEObjectImpl implements IfcTable {
      */
     @Override
     public void unsetName() {
-        eUnset(Ifc4Package.Literals.IFC_TABLE__NAME);
+        eUnset(Ifc4Package.eINSTANCE.getIfcTable_Name());
     }
 
     /**
@@ -112,7 +112,7 @@ public class IfcTableImpl extends IdEObjectImpl implements IfcTable {
      */
     @Override
     public boolean isSetName() {
-        return eIsSet(Ifc4Package.Literals.IFC_TABLE__NAME);
+        return eIsSet(Ifc4Package.eINSTANCE.getIfcTable_Name());
     }
 
     /**
@@ -123,7 +123,7 @@ public class IfcTableImpl extends IdEObjectImpl implements IfcTable {
     @SuppressWarnings("unchecked")
     @Override
     public EList<IfcTableRow> getRows() {
-        return (EList<IfcTableRow>) eGet(Ifc4Package.Literals.IFC_TABLE__ROWS, true);
+        return (EList<IfcTableRow>) eGet(Ifc4Package.eINSTANCE.getIfcTable_Rows(), true);
     }
 
     /**
@@ -133,7 +133,7 @@ public class IfcTableImpl extends IdEObjectImpl implements IfcTable {
      */
     @Override
     public void unsetRows() {
-        eUnset(Ifc4Package.Literals.IFC_TABLE__ROWS);
+        eUnset(Ifc4Package.eINSTANCE.getIfcTable_Rows());
     }
 
     /**
@@ -143,7 +143,7 @@ public class IfcTableImpl extends IdEObjectImpl implements IfcTable {
      */
     @Override
     public boolean isSetRows() {
-        return eIsSet(Ifc4Package.Literals.IFC_TABLE__ROWS);
+        return eIsSet(Ifc4Package.eINSTANCE.getIfcTable_Rows());
     }
 
     /**
@@ -154,7 +154,7 @@ public class IfcTableImpl extends IdEObjectImpl implements IfcTable {
     @SuppressWarnings("unchecked")
     @Override
     public EList<IfcTableColumn> getColumns() {
-        return (EList<IfcTableColumn>) eGet(Ifc4Package.Literals.IFC_TABLE__COLUMNS, true);
+        return (EList<IfcTableColumn>) eGet(Ifc4Package.eINSTANCE.getIfcTable_Columns(), true);
     }
 
     /**
@@ -164,7 +164,7 @@ public class IfcTableImpl extends IdEObjectImpl implements IfcTable {
      */
     @Override
     public void unsetColumns() {
-        eUnset(Ifc4Package.Literals.IFC_TABLE__COLUMNS);
+        eUnset(Ifc4Package.eINSTANCE.getIfcTable_Columns());
     }
 
     /**
@@ -174,7 +174,7 @@ public class IfcTableImpl extends IdEObjectImpl implements IfcTable {
      */
     @Override
     public boolean isSetColumns() {
-        return eIsSet(Ifc4Package.Literals.IFC_TABLE__COLUMNS);
+        return eIsSet(Ifc4Package.eINSTANCE.getIfcTable_Columns());
     }
 
     /**
@@ -184,7 +184,7 @@ public class IfcTableImpl extends IdEObjectImpl implements IfcTable {
      */
     @Override
     public long getNumberOfCellsInRow() {
-        return (Long) eGet(Ifc4Package.Literals.IFC_TABLE__NUMBER_OF_CELLS_IN_ROW, true);
+        return (Long) eGet(Ifc4Package.eINSTANCE.getIfcTable_NumberOfCellsInRow(), true);
     }
 
     /**
@@ -194,7 +194,7 @@ public class IfcTableImpl extends IdEObjectImpl implements IfcTable {
      */
     @Override
     public void setNumberOfCellsInRow(long newNumberOfCellsInRow) {
-        eSet(Ifc4Package.Literals.IFC_TABLE__NUMBER_OF_CELLS_IN_ROW, newNumberOfCellsInRow);
+        eSet(Ifc4Package.eINSTANCE.getIfcTable_NumberOfCellsInRow(), newNumberOfCellsInRow);
     }
 
     /**
@@ -204,7 +204,7 @@ public class IfcTableImpl extends IdEObjectImpl implements IfcTable {
      */
     @Override
     public void unsetNumberOfCellsInRow() {
-        eUnset(Ifc4Package.Literals.IFC_TABLE__NUMBER_OF_CELLS_IN_ROW);
+        eUnset(Ifc4Package.eINSTANCE.getIfcTable_NumberOfCellsInRow());
     }
 
     /**
@@ -214,7 +214,7 @@ public class IfcTableImpl extends IdEObjectImpl implements IfcTable {
      */
     @Override
     public boolean isSetNumberOfCellsInRow() {
-        return eIsSet(Ifc4Package.Literals.IFC_TABLE__NUMBER_OF_CELLS_IN_ROW);
+        return eIsSet(Ifc4Package.eINSTANCE.getIfcTable_NumberOfCellsInRow());
     }
 
     /**
@@ -224,7 +224,7 @@ public class IfcTableImpl extends IdEObjectImpl implements IfcTable {
      */
     @Override
     public long getNumberOfDataRows() {
-        return (Long) eGet(Ifc4Package.Literals.IFC_TABLE__NUMBER_OF_DATA_ROWS, true);
+        return (Long) eGet(Ifc4Package.eINSTANCE.getIfcTable_NumberOfDataRows(), true);
     }
 
     /**
@@ -234,7 +234,7 @@ public class IfcTableImpl extends IdEObjectImpl implements IfcTable {
      */
     @Override
     public void setNumberOfDataRows(long newNumberOfDataRows) {
-        eSet(Ifc4Package.Literals.IFC_TABLE__NUMBER_OF_DATA_ROWS, newNumberOfDataRows);
+        eSet(Ifc4Package.eINSTANCE.getIfcTable_NumberOfDataRows(), newNumberOfDataRows);
     }
 
     /**
@@ -244,7 +244,7 @@ public class IfcTableImpl extends IdEObjectImpl implements IfcTable {
      */
     @Override
     public void unsetNumberOfDataRows() {
-        eUnset(Ifc4Package.Literals.IFC_TABLE__NUMBER_OF_DATA_ROWS);
+        eUnset(Ifc4Package.eINSTANCE.getIfcTable_NumberOfDataRows());
     }
 
     /**
@@ -254,7 +254,7 @@ public class IfcTableImpl extends IdEObjectImpl implements IfcTable {
      */
     @Override
     public boolean isSetNumberOfDataRows() {
-        return eIsSet(Ifc4Package.Literals.IFC_TABLE__NUMBER_OF_DATA_ROWS);
+        return eIsSet(Ifc4Package.eINSTANCE.getIfcTable_NumberOfDataRows());
     }
 
     /**
@@ -264,7 +264,7 @@ public class IfcTableImpl extends IdEObjectImpl implements IfcTable {
      */
     @Override
     public long getNumberOfHeadings() {
-        return (Long) eGet(Ifc4Package.Literals.IFC_TABLE__NUMBER_OF_HEADINGS, true);
+        return (Long) eGet(Ifc4Package.eINSTANCE.getIfcTable_NumberOfHeadings(), true);
     }
 
     /**
@@ -274,7 +274,7 @@ public class IfcTableImpl extends IdEObjectImpl implements IfcTable {
      */
     @Override
     public void setNumberOfHeadings(long newNumberOfHeadings) {
-        eSet(Ifc4Package.Literals.IFC_TABLE__NUMBER_OF_HEADINGS, newNumberOfHeadings);
+        eSet(Ifc4Package.eINSTANCE.getIfcTable_NumberOfHeadings(), newNumberOfHeadings);
     }
 
     /**
@@ -284,7 +284,7 @@ public class IfcTableImpl extends IdEObjectImpl implements IfcTable {
      */
     @Override
     public void unsetNumberOfHeadings() {
-        eUnset(Ifc4Package.Literals.IFC_TABLE__NUMBER_OF_HEADINGS);
+        eUnset(Ifc4Package.eINSTANCE.getIfcTable_NumberOfHeadings());
     }
 
     /**
@@ -294,7 +294,7 @@ public class IfcTableImpl extends IdEObjectImpl implements IfcTable {
      */
     @Override
     public boolean isSetNumberOfHeadings() {
-        return eIsSet(Ifc4Package.Literals.IFC_TABLE__NUMBER_OF_HEADINGS);
+        return eIsSet(Ifc4Package.eINSTANCE.getIfcTable_NumberOfHeadings());
     }
 
 } //IfcTableImpl

@@ -52,7 +52,7 @@ public class IfcRelAssignsToGroupImpl extends IfcRelAssignsImpl implements IfcRe
      */
     @Override
     protected EClass eStaticClass() {
-        return Ifc4Package.Literals.IFC_REL_ASSIGNS_TO_GROUP;
+        return Ifc4Package.eINSTANCE.getIfcRelAssignsToGroup();
     }
 
     /**
@@ -62,7 +62,7 @@ public class IfcRelAssignsToGroupImpl extends IfcRelAssignsImpl implements IfcRe
      */
     @Override
     public IfcGroup getRelatingGroup() {
-        return (IfcGroup) eGet(Ifc4Package.Literals.IFC_REL_ASSIGNS_TO_GROUP__RELATING_GROUP, true);
+        return (IfcGroup) eGet(Ifc4Package.eINSTANCE.getIfcRelAssignsToGroup_RelatingGroup(), true);
     }
 
     /**
@@ -72,7 +72,7 @@ public class IfcRelAssignsToGroupImpl extends IfcRelAssignsImpl implements IfcRe
      */
     @Override
     public void setRelatingGroup(IfcGroup newRelatingGroup) {
-        eSet(Ifc4Package.Literals.IFC_REL_ASSIGNS_TO_GROUP__RELATING_GROUP, newRelatingGroup);
+        eSet(Ifc4Package.eINSTANCE.getIfcRelAssignsToGroup_RelatingGroup(), newRelatingGroup);
     }
 
 } //IfcRelAssignsToGroupImpl

@@ -52,7 +52,7 @@ public class IfcSpatialStructureElementImpl extends IfcSpatialElementImpl implem
      */
     @Override
     protected EClass eStaticClass() {
-        return Ifc4Package.Literals.IFC_SPATIAL_STRUCTURE_ELEMENT;
+        return Ifc4Package.eINSTANCE.getIfcSpatialStructureElement();
     }
 
     /**
@@ -62,7 +62,7 @@ public class IfcSpatialStructureElementImpl extends IfcSpatialElementImpl implem
      */
     @Override
     public IfcElementCompositionEnum getCompositionType() {
-        return (IfcElementCompositionEnum) eGet(Ifc4Package.Literals.IFC_SPATIAL_STRUCTURE_ELEMENT__COMPOSITION_TYPE,
+        return (IfcElementCompositionEnum) eGet(Ifc4Package.eINSTANCE.getIfcSpatialStructureElement_CompositionType(),
                 true);
     }
 
@@ -73,7 +73,7 @@ public class IfcSpatialStructureElementImpl extends IfcSpatialElementImpl implem
      */
     @Override
     public void setCompositionType(IfcElementCompositionEnum newCompositionType) {
-        eSet(Ifc4Package.Literals.IFC_SPATIAL_STRUCTURE_ELEMENT__COMPOSITION_TYPE, newCompositionType);
+        eSet(Ifc4Package.eINSTANCE.getIfcSpatialStructureElement_CompositionType(), newCompositionType);
     }
 
     /**
@@ -83,7 +83,7 @@ public class IfcSpatialStructureElementImpl extends IfcSpatialElementImpl implem
      */
     @Override
     public void unsetCompositionType() {
-        eUnset(Ifc4Package.Literals.IFC_SPATIAL_STRUCTURE_ELEMENT__COMPOSITION_TYPE);
+        eUnset(Ifc4Package.eINSTANCE.getIfcSpatialStructureElement_CompositionType());
     }
 
     /**
@@ -93,7 +93,7 @@ public class IfcSpatialStructureElementImpl extends IfcSpatialElementImpl implem
      */
     @Override
     public boolean isSetCompositionType() {
-        return eIsSet(Ifc4Package.Literals.IFC_SPATIAL_STRUCTURE_ELEMENT__COMPOSITION_TYPE);
+        return eIsSet(Ifc4Package.eINSTANCE.getIfcSpatialStructureElement_CompositionType());
     }
 
 } //IfcSpatialStructureElementImpl

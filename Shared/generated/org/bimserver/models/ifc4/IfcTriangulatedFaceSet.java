@@ -39,15 +39,10 @@ import org.eclipse.emf.common.util.EList;
  * @generated
  */
 public interface IfcTriangulatedFaceSet extends IfcTessellatedFaceSet {
-
     /**
      * Returns the value of the '<em><b>Normals</b></em>' reference list.
      * The list contents are of type {@link org.bimserver.models.ifc4.ListOfIfcParameterValue}.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Normals</em>' reference list isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Normals</em>' reference list.
      * @see org.bimserver.models.ifc4.Ifc4Package#getIfcTriangulatedFaceSet_Normals()
@@ -60,10 +55,6 @@ public interface IfcTriangulatedFaceSet extends IfcTessellatedFaceSet {
      * Returns the value of the '<em><b>Closed</b></em>' attribute.
      * The literals are from the enumeration {@link org.bimserver.models.ifc4.Tristate}.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Closed</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Closed</em>' attribute.
      * @see org.bimserver.models.ifc4.Tristate
@@ -116,10 +107,6 @@ public interface IfcTriangulatedFaceSet extends IfcTessellatedFaceSet {
      * Returns the value of the '<em><b>Coord Index</b></em>' reference list.
      * The list contents are of type {@link org.bimserver.models.ifc4.ListOfELong}.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Coord Index</em>' reference list isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Coord Index</em>' reference list.
      * @see org.bimserver.models.ifc4.Ifc4Package#getIfcTriangulatedFaceSet_CoordIndex()
@@ -132,10 +119,6 @@ public interface IfcTriangulatedFaceSet extends IfcTessellatedFaceSet {
      * Returns the value of the '<em><b>Pn Index</b></em>' attribute list.
      * The list contents are of type {@link java.lang.Long}.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Pn Index</em>' attribute list isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Pn Index</em>' attribute list.
      * @see #isSetPnIndex()
@@ -170,10 +153,6 @@ public interface IfcTriangulatedFaceSet extends IfcTessellatedFaceSet {
     /**
      * Returns the value of the '<em><b>Number Of Triangles</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Number Of Triangles</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Number Of Triangles</em>' attribute.
      * @see #isSetNumberOfTriangles()
@@ -220,4 +199,5 @@ public interface IfcTriangulatedFaceSet extends IfcTessellatedFaceSet {
      * @generated
      */
     boolean isSetNumberOfTriangles();
+
 } // IfcTriangulatedFaceSet

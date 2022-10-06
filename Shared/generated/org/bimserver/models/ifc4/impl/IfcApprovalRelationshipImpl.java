@@ -55,7 +55,7 @@ public class IfcApprovalRelationshipImpl extends IfcResourceLevelRelationshipImp
      */
     @Override
     protected EClass eStaticClass() {
-        return Ifc4Package.Literals.IFC_APPROVAL_RELATIONSHIP;
+        return Ifc4Package.eINSTANCE.getIfcApprovalRelationship();
     }
 
     /**
@@ -65,7 +65,7 @@ public class IfcApprovalRelationshipImpl extends IfcResourceLevelRelationshipImp
      */
     @Override
     public IfcApproval getRelatingApproval() {
-        return (IfcApproval) eGet(Ifc4Package.Literals.IFC_APPROVAL_RELATIONSHIP__RELATING_APPROVAL, true);
+        return (IfcApproval) eGet(Ifc4Package.eINSTANCE.getIfcApprovalRelationship_RelatingApproval(), true);
     }
 
     /**
@@ -75,7 +75,7 @@ public class IfcApprovalRelationshipImpl extends IfcResourceLevelRelationshipImp
      */
     @Override
     public void setRelatingApproval(IfcApproval newRelatingApproval) {
-        eSet(Ifc4Package.Literals.IFC_APPROVAL_RELATIONSHIP__RELATING_APPROVAL, newRelatingApproval);
+        eSet(Ifc4Package.eINSTANCE.getIfcApprovalRelationship_RelatingApproval(), newRelatingApproval);
     }
 
     /**
@@ -86,7 +86,7 @@ public class IfcApprovalRelationshipImpl extends IfcResourceLevelRelationshipImp
     @SuppressWarnings("unchecked")
     @Override
     public EList<IfcApproval> getRelatedApprovals() {
-        return (EList<IfcApproval>) eGet(Ifc4Package.Literals.IFC_APPROVAL_RELATIONSHIP__RELATED_APPROVALS, true);
+        return (EList<IfcApproval>) eGet(Ifc4Package.eINSTANCE.getIfcApprovalRelationship_RelatedApprovals(), true);
     }
 
 } //IfcApprovalRelationshipImpl

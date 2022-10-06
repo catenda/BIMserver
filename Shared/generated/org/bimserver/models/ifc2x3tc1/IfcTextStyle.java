@@ -38,10 +38,6 @@ public interface IfcTextStyle extends IfcPresentationStyle, IfcPresentationStyle
     /**
      * Returns the value of the '<em><b>Text Character Appearance</b></em>' reference.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Text Character Appearance</em>' reference isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Text Character Appearance</em>' reference.
      * @see #isSetTextCharacterAppearance()
@@ -91,10 +87,6 @@ public interface IfcTextStyle extends IfcPresentationStyle, IfcPresentationStyle
     /**
      * Returns the value of the '<em><b>Text Style</b></em>' reference.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Text Style</em>' reference isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Text Style</em>' reference.
      * @see #isSetTextStyle()
@@ -144,10 +136,6 @@ public interface IfcTextStyle extends IfcPresentationStyle, IfcPresentationStyle
     /**
      * Returns the value of the '<em><b>Text Font Style</b></em>' reference.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Text Font Style</em>' reference isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Text Font Style</em>' reference.
      * @see #setTextFontStyle(IfcTextFontSelect)

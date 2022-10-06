@@ -56,7 +56,7 @@ public class IfcClassificationNotationImpl extends IdEObjectImpl implements IfcC
      */
     @Override
     protected EClass eStaticClass() {
-        return Ifc2x3tc1Package.Literals.IFC_CLASSIFICATION_NOTATION;
+        return Ifc2x3tc1Package.eINSTANCE.getIfcClassificationNotation();
     }
 
     /**
@@ -78,7 +78,7 @@ public class IfcClassificationNotationImpl extends IdEObjectImpl implements IfcC
     @Override
     public EList<IfcClassificationNotationFacet> getNotationFacets() {
         return (EList<IfcClassificationNotationFacet>) eGet(
-                Ifc2x3tc1Package.Literals.IFC_CLASSIFICATION_NOTATION__NOTATION_FACETS, true);
+                Ifc2x3tc1Package.eINSTANCE.getIfcClassificationNotation_NotationFacets(), true);
     }
 
 } //IfcClassificationNotationImpl

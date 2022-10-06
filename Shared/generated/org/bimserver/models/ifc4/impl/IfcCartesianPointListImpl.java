@@ -51,7 +51,7 @@ public class IfcCartesianPointListImpl extends IfcGeometricRepresentationItemImp
      */
     @Override
     protected EClass eStaticClass() {
-        return Ifc4Package.Literals.IFC_CARTESIAN_POINT_LIST;
+        return Ifc4Package.eINSTANCE.getIfcCartesianPointList();
     }
 
     /**
@@ -61,7 +61,7 @@ public class IfcCartesianPointListImpl extends IfcGeometricRepresentationItemImp
      */
     @Override
     public long getDim() {
-        return (Long) eGet(Ifc4Package.Literals.IFC_CARTESIAN_POINT_LIST__DIM, true);
+        return (Long) eGet(Ifc4Package.eINSTANCE.getIfcCartesianPointList_Dim(), true);
     }
 
     /**
@@ -71,7 +71,7 @@ public class IfcCartesianPointListImpl extends IfcGeometricRepresentationItemImp
      */
     @Override
     public void setDim(long newDim) {
-        eSet(Ifc4Package.Literals.IFC_CARTESIAN_POINT_LIST__DIM, newDim);
+        eSet(Ifc4Package.eINSTANCE.getIfcCartesianPointList_Dim(), newDim);
     }
 
     /**
@@ -81,7 +81,7 @@ public class IfcCartesianPointListImpl extends IfcGeometricRepresentationItemImp
      */
     @Override
     public void unsetDim() {
-        eUnset(Ifc4Package.Literals.IFC_CARTESIAN_POINT_LIST__DIM);
+        eUnset(Ifc4Package.eINSTANCE.getIfcCartesianPointList_Dim());
     }
 
     /**
@@ -91,7 +91,7 @@ public class IfcCartesianPointListImpl extends IfcGeometricRepresentationItemImp
      */
     @Override
     public boolean isSetDim() {
-        return eIsSet(Ifc4Package.Literals.IFC_CARTESIAN_POINT_LIST__DIM);
+        return eIsSet(Ifc4Package.eINSTANCE.getIfcCartesianPointList_Dim());
     }
 
 } //IfcCartesianPointListImpl

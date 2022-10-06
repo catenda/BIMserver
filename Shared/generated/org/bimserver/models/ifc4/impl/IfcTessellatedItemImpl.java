@@ -45,7 +45,7 @@ public class IfcTessellatedItemImpl extends IfcGeometricRepresentationItemImpl i
      */
     @Override
     protected EClass eStaticClass() {
-        return Ifc4Package.Literals.IFC_TESSELLATED_ITEM;
+        return Ifc4Package.eINSTANCE.getIfcTessellatedItem();
     }
 
 } //IfcTessellatedItemImpl

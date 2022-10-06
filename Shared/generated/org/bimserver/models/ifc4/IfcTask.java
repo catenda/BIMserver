@@ -41,10 +41,6 @@ public interface IfcTask extends IfcProcess {
     /**
      * Returns the value of the '<em><b>Status</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Status</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Status</em>' attribute.
      * @see #isSetStatus()
@@ -94,10 +90,6 @@ public interface IfcTask extends IfcProcess {
     /**
      * Returns the value of the '<em><b>Work Method</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Work Method</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Work Method</em>' attribute.
      * @see #isSetWorkMethod()
@@ -148,10 +140,6 @@ public interface IfcTask extends IfcProcess {
      * Returns the value of the '<em><b>Is Milestone</b></em>' attribute.
      * The literals are from the enumeration {@link org.bimserver.models.ifc4.Tristate}.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Is Milestone</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Is Milestone</em>' attribute.
      * @see org.bimserver.models.ifc4.Tristate
@@ -176,10 +164,6 @@ public interface IfcTask extends IfcProcess {
     /**
      * Returns the value of the '<em><b>Priority</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Priority</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Priority</em>' attribute.
      * @see #isSetPriority()
@@ -229,10 +213,6 @@ public interface IfcTask extends IfcProcess {
     /**
      * Returns the value of the '<em><b>Task Time</b></em>' reference.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Task Time</em>' reference isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Task Time</em>' reference.
      * @see #isSetTaskTime()
@@ -283,10 +263,6 @@ public interface IfcTask extends IfcProcess {
      * Returns the value of the '<em><b>Predefined Type</b></em>' attribute.
      * The literals are from the enumeration {@link org.bimserver.models.ifc4.IfcTaskTypeEnum}.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Predefined Type</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Predefined Type</em>' attribute.
      * @see org.bimserver.models.ifc4.IfcTaskTypeEnum

@@ -57,7 +57,7 @@ public class IfcRelInterferesElementsImpl extends IfcRelConnectsImpl implements 
      */
     @Override
     protected EClass eStaticClass() {
-        return Ifc4Package.Literals.IFC_REL_INTERFERES_ELEMENTS;
+        return Ifc4Package.eINSTANCE.getIfcRelInterferesElements();
     }
 
     /**
@@ -67,7 +67,7 @@ public class IfcRelInterferesElementsImpl extends IfcRelConnectsImpl implements 
      */
     @Override
     public IfcElement getRelatingElement() {
-        return (IfcElement) eGet(Ifc4Package.Literals.IFC_REL_INTERFERES_ELEMENTS__RELATING_ELEMENT, true);
+        return (IfcElement) eGet(Ifc4Package.eINSTANCE.getIfcRelInterferesElements_RelatingElement(), true);
     }
 
     /**
@@ -77,7 +77,7 @@ public class IfcRelInterferesElementsImpl extends IfcRelConnectsImpl implements 
      */
     @Override
     public void setRelatingElement(IfcElement newRelatingElement) {
-        eSet(Ifc4Package.Literals.IFC_REL_INTERFERES_ELEMENTS__RELATING_ELEMENT, newRelatingElement);
+        eSet(Ifc4Package.eINSTANCE.getIfcRelInterferesElements_RelatingElement(), newRelatingElement);
     }
 
     /**
@@ -87,7 +87,7 @@ public class IfcRelInterferesElementsImpl extends IfcRelConnectsImpl implements 
      */
     @Override
     public IfcElement getRelatedElement() {
-        return (IfcElement) eGet(Ifc4Package.Literals.IFC_REL_INTERFERES_ELEMENTS__RELATED_ELEMENT, true);
+        return (IfcElement) eGet(Ifc4Package.eINSTANCE.getIfcRelInterferesElements_RelatedElement(), true);
     }
 
     /**
@@ -97,7 +97,7 @@ public class IfcRelInterferesElementsImpl extends IfcRelConnectsImpl implements 
      */
     @Override
     public void setRelatedElement(IfcElement newRelatedElement) {
-        eSet(Ifc4Package.Literals.IFC_REL_INTERFERES_ELEMENTS__RELATED_ELEMENT, newRelatedElement);
+        eSet(Ifc4Package.eINSTANCE.getIfcRelInterferesElements_RelatedElement(), newRelatedElement);
     }
 
     /**
@@ -107,7 +107,7 @@ public class IfcRelInterferesElementsImpl extends IfcRelConnectsImpl implements 
      */
     @Override
     public IfcConnectionGeometry getInterferenceGeometry() {
-        return (IfcConnectionGeometry) eGet(Ifc4Package.Literals.IFC_REL_INTERFERES_ELEMENTS__INTERFERENCE_GEOMETRY,
+        return (IfcConnectionGeometry) eGet(Ifc4Package.eINSTANCE.getIfcRelInterferesElements_InterferenceGeometry(),
                 true);
     }
 
@@ -118,7 +118,7 @@ public class IfcRelInterferesElementsImpl extends IfcRelConnectsImpl implements 
      */
     @Override
     public void setInterferenceGeometry(IfcConnectionGeometry newInterferenceGeometry) {
-        eSet(Ifc4Package.Literals.IFC_REL_INTERFERES_ELEMENTS__INTERFERENCE_GEOMETRY, newInterferenceGeometry);
+        eSet(Ifc4Package.eINSTANCE.getIfcRelInterferesElements_InterferenceGeometry(), newInterferenceGeometry);
     }
 
     /**
@@ -128,7 +128,7 @@ public class IfcRelInterferesElementsImpl extends IfcRelConnectsImpl implements 
      */
     @Override
     public void unsetInterferenceGeometry() {
-        eUnset(Ifc4Package.Literals.IFC_REL_INTERFERES_ELEMENTS__INTERFERENCE_GEOMETRY);
+        eUnset(Ifc4Package.eINSTANCE.getIfcRelInterferesElements_InterferenceGeometry());
     }
 
     /**
@@ -138,7 +138,7 @@ public class IfcRelInterferesElementsImpl extends IfcRelConnectsImpl implements 
      */
     @Override
     public boolean isSetInterferenceGeometry() {
-        return eIsSet(Ifc4Package.Literals.IFC_REL_INTERFERES_ELEMENTS__INTERFERENCE_GEOMETRY);
+        return eIsSet(Ifc4Package.eINSTANCE.getIfcRelInterferesElements_InterferenceGeometry());
     }
 
     /**
@@ -148,7 +148,7 @@ public class IfcRelInterferesElementsImpl extends IfcRelConnectsImpl implements 
      */
     @Override
     public String getInterferenceType() {
-        return (String) eGet(Ifc4Package.Literals.IFC_REL_INTERFERES_ELEMENTS__INTERFERENCE_TYPE, true);
+        return (String) eGet(Ifc4Package.eINSTANCE.getIfcRelInterferesElements_InterferenceType(), true);
     }
 
     /**
@@ -158,7 +158,7 @@ public class IfcRelInterferesElementsImpl extends IfcRelConnectsImpl implements 
      */
     @Override
     public void setInterferenceType(String newInterferenceType) {
-        eSet(Ifc4Package.Literals.IFC_REL_INTERFERES_ELEMENTS__INTERFERENCE_TYPE, newInterferenceType);
+        eSet(Ifc4Package.eINSTANCE.getIfcRelInterferesElements_InterferenceType(), newInterferenceType);
     }
 
     /**
@@ -168,7 +168,7 @@ public class IfcRelInterferesElementsImpl extends IfcRelConnectsImpl implements 
      */
     @Override
     public void unsetInterferenceType() {
-        eUnset(Ifc4Package.Literals.IFC_REL_INTERFERES_ELEMENTS__INTERFERENCE_TYPE);
+        eUnset(Ifc4Package.eINSTANCE.getIfcRelInterferesElements_InterferenceType());
     }
 
     /**
@@ -178,7 +178,7 @@ public class IfcRelInterferesElementsImpl extends IfcRelConnectsImpl implements 
      */
     @Override
     public boolean isSetInterferenceType() {
-        return eIsSet(Ifc4Package.Literals.IFC_REL_INTERFERES_ELEMENTS__INTERFERENCE_TYPE);
+        return eIsSet(Ifc4Package.eINSTANCE.getIfcRelInterferesElements_InterferenceType());
     }
 
     /**
@@ -188,7 +188,7 @@ public class IfcRelInterferesElementsImpl extends IfcRelConnectsImpl implements 
      */
     @Override
     public boolean isImpliedOrder() {
-        return (Boolean) eGet(Ifc4Package.Literals.IFC_REL_INTERFERES_ELEMENTS__IMPLIED_ORDER, true);
+        return (Boolean) eGet(Ifc4Package.eINSTANCE.getIfcRelInterferesElements_ImpliedOrder(), true);
     }
 
     /**
@@ -198,7 +198,7 @@ public class IfcRelInterferesElementsImpl extends IfcRelConnectsImpl implements 
      */
     @Override
     public void setImpliedOrder(boolean newImpliedOrder) {
-        eSet(Ifc4Package.Literals.IFC_REL_INTERFERES_ELEMENTS__IMPLIED_ORDER, newImpliedOrder);
+        eSet(Ifc4Package.eINSTANCE.getIfcRelInterferesElements_ImpliedOrder(), newImpliedOrder);
     }
 
 } //IfcRelInterferesElementsImpl

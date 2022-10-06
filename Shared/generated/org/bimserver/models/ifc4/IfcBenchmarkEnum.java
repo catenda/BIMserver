@@ -145,10 +145,6 @@ public enum IfcBenchmarkEnum implements Enumerator {
     /**
      * The '<em><b>NULL</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>NULL</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #NULL
      * @model
@@ -160,10 +156,6 @@ public enum IfcBenchmarkEnum implements Enumerator {
     /**
      * The '<em><b>LESSTHANOREQUALTO</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>LESSTHANOREQUALTO</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #LESSTHANOREQUALTO
      * @model
@@ -175,10 +167,6 @@ public enum IfcBenchmarkEnum implements Enumerator {
     /**
      * The '<em><b>NOTINCLUDEDIN</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>NOTINCLUDEDIN</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #NOTINCLUDEDIN
      * @model
@@ -190,10 +178,6 @@ public enum IfcBenchmarkEnum implements Enumerator {
     /**
      * The '<em><b>LESSTHAN</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>LESSTHAN</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #LESSTHAN
      * @model
@@ -205,10 +189,6 @@ public enum IfcBenchmarkEnum implements Enumerator {
     /**
      * The '<em><b>NOTEQUALTO</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>NOTEQUALTO</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #NOTEQUALTO
      * @model
@@ -220,10 +200,6 @@ public enum IfcBenchmarkEnum implements Enumerator {
     /**
      * The '<em><b>EQUALTO</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>EQUALTO</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #EQUALTO
      * @model
@@ -235,10 +211,6 @@ public enum IfcBenchmarkEnum implements Enumerator {
     /**
      * The '<em><b>INCLUDES</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>INCLUDES</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #INCLUDES
      * @model
@@ -250,10 +222,6 @@ public enum IfcBenchmarkEnum implements Enumerator {
     /**
      * The '<em><b>INCLUDEDIN</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>INCLUDEDIN</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #INCLUDEDIN
      * @model
@@ -265,10 +233,6 @@ public enum IfcBenchmarkEnum implements Enumerator {
     /**
      * The '<em><b>GREATERTHAN</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>GREATERTHAN</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #GREATERTHAN
      * @model
@@ -280,10 +244,6 @@ public enum IfcBenchmarkEnum implements Enumerator {
     /**
      * The '<em><b>GREATERTHANOREQUALTO</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>GREATERTHANOREQUALTO</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #GREATERTHANOREQUALTO
      * @model
@@ -295,10 +255,6 @@ public enum IfcBenchmarkEnum implements Enumerator {
     /**
      * The '<em><b>NOTINCLUDES</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>NOTINCLUDES</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #NOTINCLUDES
      * @model

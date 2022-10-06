@@ -54,7 +54,7 @@ public class IfcPermitImpl extends IfcControlImpl implements IfcPermit {
      */
     @Override
     protected EClass eStaticClass() {
-        return Ifc4Package.Literals.IFC_PERMIT;
+        return Ifc4Package.eINSTANCE.getIfcPermit();
     }
 
     /**
@@ -64,7 +64,7 @@ public class IfcPermitImpl extends IfcControlImpl implements IfcPermit {
      */
     @Override
     public IfcPermitTypeEnum getPredefinedType() {
-        return (IfcPermitTypeEnum) eGet(Ifc4Package.Literals.IFC_PERMIT__PREDEFINED_TYPE, true);
+        return (IfcPermitTypeEnum) eGet(Ifc4Package.eINSTANCE.getIfcPermit_PredefinedType(), true);
     }
 
     /**
@@ -74,7 +74,7 @@ public class IfcPermitImpl extends IfcControlImpl implements IfcPermit {
      */
     @Override
     public void setPredefinedType(IfcPermitTypeEnum newPredefinedType) {
-        eSet(Ifc4Package.Literals.IFC_PERMIT__PREDEFINED_TYPE, newPredefinedType);
+        eSet(Ifc4Package.eINSTANCE.getIfcPermit_PredefinedType(), newPredefinedType);
     }
 
     /**
@@ -84,7 +84,7 @@ public class IfcPermitImpl extends IfcControlImpl implements IfcPermit {
      */
     @Override
     public void unsetPredefinedType() {
-        eUnset(Ifc4Package.Literals.IFC_PERMIT__PREDEFINED_TYPE);
+        eUnset(Ifc4Package.eINSTANCE.getIfcPermit_PredefinedType());
     }
 
     /**
@@ -94,7 +94,7 @@ public class IfcPermitImpl extends IfcControlImpl implements IfcPermit {
      */
     @Override
     public boolean isSetPredefinedType() {
-        return eIsSet(Ifc4Package.Literals.IFC_PERMIT__PREDEFINED_TYPE);
+        return eIsSet(Ifc4Package.eINSTANCE.getIfcPermit_PredefinedType());
     }
 
     /**
@@ -104,7 +104,7 @@ public class IfcPermitImpl extends IfcControlImpl implements IfcPermit {
      */
     @Override
     public String getStatus() {
-        return (String) eGet(Ifc4Package.Literals.IFC_PERMIT__STATUS, true);
+        return (String) eGet(Ifc4Package.eINSTANCE.getIfcPermit_Status(), true);
     }
 
     /**
@@ -114,7 +114,7 @@ public class IfcPermitImpl extends IfcControlImpl implements IfcPermit {
      */
     @Override
     public void setStatus(String newStatus) {
-        eSet(Ifc4Package.Literals.IFC_PERMIT__STATUS, newStatus);
+        eSet(Ifc4Package.eINSTANCE.getIfcPermit_Status(), newStatus);
     }
 
     /**
@@ -124,7 +124,7 @@ public class IfcPermitImpl extends IfcControlImpl implements IfcPermit {
      */
     @Override
     public void unsetStatus() {
-        eUnset(Ifc4Package.Literals.IFC_PERMIT__STATUS);
+        eUnset(Ifc4Package.eINSTANCE.getIfcPermit_Status());
     }
 
     /**
@@ -134,7 +134,7 @@ public class IfcPermitImpl extends IfcControlImpl implements IfcPermit {
      */
     @Override
     public boolean isSetStatus() {
-        return eIsSet(Ifc4Package.Literals.IFC_PERMIT__STATUS);
+        return eIsSet(Ifc4Package.eINSTANCE.getIfcPermit_Status());
     }
 
     /**
@@ -144,7 +144,7 @@ public class IfcPermitImpl extends IfcControlImpl implements IfcPermit {
      */
     @Override
     public String getLongDescription() {
-        return (String) eGet(Ifc4Package.Literals.IFC_PERMIT__LONG_DESCRIPTION, true);
+        return (String) eGet(Ifc4Package.eINSTANCE.getIfcPermit_LongDescription(), true);
     }
 
     /**
@@ -154,7 +154,7 @@ public class IfcPermitImpl extends IfcControlImpl implements IfcPermit {
      */
     @Override
     public void setLongDescription(String newLongDescription) {
-        eSet(Ifc4Package.Literals.IFC_PERMIT__LONG_DESCRIPTION, newLongDescription);
+        eSet(Ifc4Package.eINSTANCE.getIfcPermit_LongDescription(), newLongDescription);
     }
 
     /**
@@ -164,7 +164,7 @@ public class IfcPermitImpl extends IfcControlImpl implements IfcPermit {
      */
     @Override
     public void unsetLongDescription() {
-        eUnset(Ifc4Package.Literals.IFC_PERMIT__LONG_DESCRIPTION);
+        eUnset(Ifc4Package.eINSTANCE.getIfcPermit_LongDescription());
     }
 
     /**
@@ -174,7 +174,7 @@ public class IfcPermitImpl extends IfcControlImpl implements IfcPermit {
      */
     @Override
     public boolean isSetLongDescription() {
-        return eIsSet(Ifc4Package.Literals.IFC_PERMIT__LONG_DESCRIPTION);
+        return eIsSet(Ifc4Package.eINSTANCE.getIfcPermit_LongDescription());
     }
 
 } //IfcPermitImpl

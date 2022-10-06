@@ -37,10 +37,6 @@ public interface IfcSubContractResource extends IfcConstructionResource {
     /**
      * Returns the value of the '<em><b>Sub Contractor</b></em>' reference.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Sub Contractor</em>' reference isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Sub Contractor</em>' reference.
      * @see #isSetSubContractor()
@@ -90,10 +86,6 @@ public interface IfcSubContractResource extends IfcConstructionResource {
     /**
      * Returns the value of the '<em><b>Job Description</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Job Description</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Job Description</em>' attribute.
      * @see #isSetJobDescription()

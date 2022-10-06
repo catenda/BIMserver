@@ -52,7 +52,7 @@ public class IfcJunctionBoxTypeImpl extends IfcFlowFittingTypeImpl implements If
      */
     @Override
     protected EClass eStaticClass() {
-        return Ifc2x3tc1Package.Literals.IFC_JUNCTION_BOX_TYPE;
+        return Ifc2x3tc1Package.eINSTANCE.getIfcJunctionBoxType();
     }
 
     /**
@@ -62,7 +62,7 @@ public class IfcJunctionBoxTypeImpl extends IfcFlowFittingTypeImpl implements If
      */
     @Override
     public IfcJunctionBoxTypeEnum getPredefinedType() {
-        return (IfcJunctionBoxTypeEnum) eGet(Ifc2x3tc1Package.Literals.IFC_JUNCTION_BOX_TYPE__PREDEFINED_TYPE, true);
+        return (IfcJunctionBoxTypeEnum) eGet(Ifc2x3tc1Package.eINSTANCE.getIfcJunctionBoxType_PredefinedType(), true);
     }
 
     /**
@@ -72,7 +72,7 @@ public class IfcJunctionBoxTypeImpl extends IfcFlowFittingTypeImpl implements If
      */
     @Override
     public void setPredefinedType(IfcJunctionBoxTypeEnum newPredefinedType) {
-        eSet(Ifc2x3tc1Package.Literals.IFC_JUNCTION_BOX_TYPE__PREDEFINED_TYPE, newPredefinedType);
+        eSet(Ifc2x3tc1Package.eINSTANCE.getIfcJunctionBoxType_PredefinedType(), newPredefinedType);
     }
 
 } //IfcJunctionBoxTypeImpl

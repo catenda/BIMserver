@@ -46,7 +46,7 @@ public class IfcExternallyDefinedSurfaceStyleImpl extends IfcExternalReferenceIm
      */
     @Override
     protected EClass eStaticClass() {
-        return Ifc2x3tc1Package.Literals.IFC_EXTERNALLY_DEFINED_SURFACE_STYLE;
+        return Ifc2x3tc1Package.eINSTANCE.getIfcExternallyDefinedSurfaceStyle();
     }
 
 } //IfcExternallyDefinedSurfaceStyleImpl

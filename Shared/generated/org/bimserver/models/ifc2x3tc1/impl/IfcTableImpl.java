@@ -57,7 +57,7 @@ public class IfcTableImpl extends IdEObjectImpl implements IfcTable {
      */
     @Override
     protected EClass eStaticClass() {
-        return Ifc2x3tc1Package.Literals.IFC_TABLE;
+        return Ifc2x3tc1Package.eINSTANCE.getIfcTable();
     }
 
     /**
@@ -77,7 +77,7 @@ public class IfcTableImpl extends IdEObjectImpl implements IfcTable {
      */
     @Override
     public String getName() {
-        return (String) eGet(Ifc2x3tc1Package.Literals.IFC_TABLE__NAME, true);
+        return (String) eGet(Ifc2x3tc1Package.eINSTANCE.getIfcTable_Name(), true);
     }
 
     /**
@@ -87,7 +87,7 @@ public class IfcTableImpl extends IdEObjectImpl implements IfcTable {
      */
     @Override
     public void setName(String newName) {
-        eSet(Ifc2x3tc1Package.Literals.IFC_TABLE__NAME, newName);
+        eSet(Ifc2x3tc1Package.eINSTANCE.getIfcTable_Name(), newName);
     }
 
     /**
@@ -98,7 +98,7 @@ public class IfcTableImpl extends IdEObjectImpl implements IfcTable {
     @SuppressWarnings("unchecked")
     @Override
     public EList<IfcTableRow> getRows() {
-        return (EList<IfcTableRow>) eGet(Ifc2x3tc1Package.Literals.IFC_TABLE__ROWS, true);
+        return (EList<IfcTableRow>) eGet(Ifc2x3tc1Package.eINSTANCE.getIfcTable_Rows(), true);
     }
 
 } //IfcTableImpl

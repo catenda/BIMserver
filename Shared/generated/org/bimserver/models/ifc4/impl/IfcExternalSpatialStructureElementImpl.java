@@ -46,7 +46,7 @@ public class IfcExternalSpatialStructureElementImpl extends IfcSpatialElementImp
      */
     @Override
     protected EClass eStaticClass() {
-        return Ifc4Package.Literals.IFC_EXTERNAL_SPATIAL_STRUCTURE_ELEMENT;
+        return Ifc4Package.eINSTANCE.getIfcExternalSpatialStructureElement();
     }
 
 } //IfcExternalSpatialStructureElementImpl

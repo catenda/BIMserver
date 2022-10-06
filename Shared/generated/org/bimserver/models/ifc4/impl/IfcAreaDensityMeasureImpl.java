@@ -54,7 +54,7 @@ public class IfcAreaDensityMeasureImpl extends IdEObjectImpl implements IfcAreaD
      */
     @Override
     protected EClass eStaticClass() {
-        return Ifc4Package.Literals.IFC_AREA_DENSITY_MEASURE;
+        return Ifc4Package.eINSTANCE.getIfcAreaDensityMeasure();
     }
 
     /**
@@ -74,7 +74,7 @@ public class IfcAreaDensityMeasureImpl extends IdEObjectImpl implements IfcAreaD
      */
     @Override
     public double getWrappedValue() {
-        return (Double) eGet(Ifc4Package.Literals.IFC_AREA_DENSITY_MEASURE__WRAPPED_VALUE, true);
+        return (Double) eGet(Ifc4Package.eINSTANCE.getIfcAreaDensityMeasure_WrappedValue(), true);
     }
 
     /**
@@ -84,7 +84,7 @@ public class IfcAreaDensityMeasureImpl extends IdEObjectImpl implements IfcAreaD
      */
     @Override
     public void setWrappedValue(double newWrappedValue) {
-        eSet(Ifc4Package.Literals.IFC_AREA_DENSITY_MEASURE__WRAPPED_VALUE, newWrappedValue);
+        eSet(Ifc4Package.eINSTANCE.getIfcAreaDensityMeasure_WrappedValue(), newWrappedValue);
     }
 
     /**
@@ -94,7 +94,7 @@ public class IfcAreaDensityMeasureImpl extends IdEObjectImpl implements IfcAreaD
      */
     @Override
     public void unsetWrappedValue() {
-        eUnset(Ifc4Package.Literals.IFC_AREA_DENSITY_MEASURE__WRAPPED_VALUE);
+        eUnset(Ifc4Package.eINSTANCE.getIfcAreaDensityMeasure_WrappedValue());
     }
 
     /**
@@ -104,7 +104,7 @@ public class IfcAreaDensityMeasureImpl extends IdEObjectImpl implements IfcAreaD
      */
     @Override
     public boolean isSetWrappedValue() {
-        return eIsSet(Ifc4Package.Literals.IFC_AREA_DENSITY_MEASURE__WRAPPED_VALUE);
+        return eIsSet(Ifc4Package.eINSTANCE.getIfcAreaDensityMeasure_WrappedValue());
     }
 
     /**
@@ -114,7 +114,7 @@ public class IfcAreaDensityMeasureImpl extends IdEObjectImpl implements IfcAreaD
      */
     @Override
     public String getWrappedValueAsString() {
-        return (String) eGet(Ifc4Package.Literals.IFC_AREA_DENSITY_MEASURE__WRAPPED_VALUE_AS_STRING, true);
+        return (String) eGet(Ifc4Package.eINSTANCE.getIfcAreaDensityMeasure_WrappedValueAsString(), true);
     }
 
     /**
@@ -124,7 +124,7 @@ public class IfcAreaDensityMeasureImpl extends IdEObjectImpl implements IfcAreaD
      */
     @Override
     public void setWrappedValueAsString(String newWrappedValueAsString) {
-        eSet(Ifc4Package.Literals.IFC_AREA_DENSITY_MEASURE__WRAPPED_VALUE_AS_STRING, newWrappedValueAsString);
+        eSet(Ifc4Package.eINSTANCE.getIfcAreaDensityMeasure_WrappedValueAsString(), newWrappedValueAsString);
     }
 
     /**
@@ -134,7 +134,7 @@ public class IfcAreaDensityMeasureImpl extends IdEObjectImpl implements IfcAreaD
      */
     @Override
     public void unsetWrappedValueAsString() {
-        eUnset(Ifc4Package.Literals.IFC_AREA_DENSITY_MEASURE__WRAPPED_VALUE_AS_STRING);
+        eUnset(Ifc4Package.eINSTANCE.getIfcAreaDensityMeasure_WrappedValueAsString());
     }
 
     /**
@@ -144,7 +144,7 @@ public class IfcAreaDensityMeasureImpl extends IdEObjectImpl implements IfcAreaD
      */
     @Override
     public boolean isSetWrappedValueAsString() {
-        return eIsSet(Ifc4Package.Literals.IFC_AREA_DENSITY_MEASURE__WRAPPED_VALUE_AS_STRING);
+        return eIsSet(Ifc4Package.eINSTANCE.getIfcAreaDensityMeasure_WrappedValueAsString());
     }
 
 } //IfcAreaDensityMeasureImpl

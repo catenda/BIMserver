@@ -52,7 +52,7 @@ public class IfcEvaporatorImpl extends IfcEnergyConversionDeviceImpl implements 
      */
     @Override
     protected EClass eStaticClass() {
-        return Ifc4Package.Literals.IFC_EVAPORATOR;
+        return Ifc4Package.eINSTANCE.getIfcEvaporator();
     }
 
     /**
@@ -62,7 +62,7 @@ public class IfcEvaporatorImpl extends IfcEnergyConversionDeviceImpl implements 
      */
     @Override
     public IfcEvaporatorTypeEnum getPredefinedType() {
-        return (IfcEvaporatorTypeEnum) eGet(Ifc4Package.Literals.IFC_EVAPORATOR__PREDEFINED_TYPE, true);
+        return (IfcEvaporatorTypeEnum) eGet(Ifc4Package.eINSTANCE.getIfcEvaporator_PredefinedType(), true);
     }
 
     /**
@@ -72,7 +72,7 @@ public class IfcEvaporatorImpl extends IfcEnergyConversionDeviceImpl implements 
      */
     @Override
     public void setPredefinedType(IfcEvaporatorTypeEnum newPredefinedType) {
-        eSet(Ifc4Package.Literals.IFC_EVAPORATOR__PREDEFINED_TYPE, newPredefinedType);
+        eSet(Ifc4Package.eINSTANCE.getIfcEvaporator_PredefinedType(), newPredefinedType);
     }
 
     /**
@@ -82,7 +82,7 @@ public class IfcEvaporatorImpl extends IfcEnergyConversionDeviceImpl implements 
      */
     @Override
     public void unsetPredefinedType() {
-        eUnset(Ifc4Package.Literals.IFC_EVAPORATOR__PREDEFINED_TYPE);
+        eUnset(Ifc4Package.eINSTANCE.getIfcEvaporator_PredefinedType());
     }
 
     /**
@@ -92,7 +92,7 @@ public class IfcEvaporatorImpl extends IfcEnergyConversionDeviceImpl implements 
      */
     @Override
     public boolean isSetPredefinedType() {
-        return eIsSet(Ifc4Package.Literals.IFC_EVAPORATOR__PREDEFINED_TYPE);
+        return eIsSet(Ifc4Package.eINSTANCE.getIfcEvaporator_PredefinedType());
     }
 
 } //IfcEvaporatorImpl

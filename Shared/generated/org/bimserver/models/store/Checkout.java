@@ -51,10 +51,6 @@ public interface Checkout extends IdEObject {
     /**
      * Returns the value of the '<em><b>User</b></em>' reference.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>User</em>' reference isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>User</em>' reference.
      * @see #setUser(User)
@@ -78,10 +74,6 @@ public interface Checkout extends IdEObject {
      * Returns the value of the '<em><b>Revision</b></em>' reference.
      * It is bidirectional and its opposite is '{@link org.bimserver.models.store.Revision#getCheckouts <em>Checkouts</em>}'.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Revision</em>' reference isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Revision</em>' reference.
      * @see #setRevision(Revision)
@@ -107,10 +99,6 @@ public interface Checkout extends IdEObject {
      * Returns the value of the '<em><b>Project</b></em>' reference.
      * It is bidirectional and its opposite is '{@link org.bimserver.models.store.Project#getCheckouts <em>Checkouts</em>}'.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Project</em>' reference isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Project</em>' reference.
      * @see #setProject(Project)
@@ -134,10 +122,6 @@ public interface Checkout extends IdEObject {
     /**
      * Returns the value of the '<em><b>Date</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Date</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Date</em>' attribute.
      * @see #setDate(Date)
@@ -160,10 +144,6 @@ public interface Checkout extends IdEObject {
     /**
      * Returns the value of the '<em><b>Checkin</b></em>' reference.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Checkin</em>' reference isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Checkin</em>' reference.
      * @see #setCheckin(Revision)
@@ -186,10 +166,6 @@ public interface Checkout extends IdEObject {
     /**
      * Returns the value of the '<em><b>Active</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Active</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Active</em>' attribute.
      * @see #setActive(Boolean)
@@ -214,10 +190,6 @@ public interface Checkout extends IdEObject {
      * The list contents are of type {@link org.bimserver.models.log.CheckoutRelated}.
      * It is bidirectional and its opposite is '{@link org.bimserver.models.log.CheckoutRelated#getCheckout <em>Checkout</em>}'.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Logs</em>' reference list isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Logs</em>' reference list.
      * @see org.bimserver.models.store.StorePackage#getCheckout_Logs()

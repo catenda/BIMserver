@@ -46,7 +46,7 @@ public class IfcStructuralCurveMemberVaryingImpl extends IfcStructuralCurveMembe
      */
     @Override
     protected EClass eStaticClass() {
-        return Ifc2x3tc1Package.Literals.IFC_STRUCTURAL_CURVE_MEMBER_VARYING;
+        return Ifc2x3tc1Package.eINSTANCE.getIfcStructuralCurveMemberVarying();
     }
 
 } //IfcStructuralCurveMemberVaryingImpl

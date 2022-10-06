@@ -55,7 +55,7 @@ public class IfcTypeProductImpl extends IfcTypeObjectImpl implements IfcTypeProd
      */
     @Override
     protected EClass eStaticClass() {
-        return Ifc2x3tc1Package.Literals.IFC_TYPE_PRODUCT;
+        return Ifc2x3tc1Package.eINSTANCE.getIfcTypeProduct();
     }
 
     /**
@@ -66,7 +66,7 @@ public class IfcTypeProductImpl extends IfcTypeObjectImpl implements IfcTypeProd
     @SuppressWarnings("unchecked")
     @Override
     public EList<IfcRepresentationMap> getRepresentationMaps() {
-        return (EList<IfcRepresentationMap>) eGet(Ifc2x3tc1Package.Literals.IFC_TYPE_PRODUCT__REPRESENTATION_MAPS,
+        return (EList<IfcRepresentationMap>) eGet(Ifc2x3tc1Package.eINSTANCE.getIfcTypeProduct_RepresentationMaps(),
                 true);
     }
 
@@ -77,7 +77,7 @@ public class IfcTypeProductImpl extends IfcTypeObjectImpl implements IfcTypeProd
      */
     @Override
     public void unsetRepresentationMaps() {
-        eUnset(Ifc2x3tc1Package.Literals.IFC_TYPE_PRODUCT__REPRESENTATION_MAPS);
+        eUnset(Ifc2x3tc1Package.eINSTANCE.getIfcTypeProduct_RepresentationMaps());
     }
 
     /**
@@ -87,7 +87,7 @@ public class IfcTypeProductImpl extends IfcTypeObjectImpl implements IfcTypeProd
      */
     @Override
     public boolean isSetRepresentationMaps() {
-        return eIsSet(Ifc2x3tc1Package.Literals.IFC_TYPE_PRODUCT__REPRESENTATION_MAPS);
+        return eIsSet(Ifc2x3tc1Package.eINSTANCE.getIfcTypeProduct_RepresentationMaps());
     }
 
     /**
@@ -97,7 +97,7 @@ public class IfcTypeProductImpl extends IfcTypeObjectImpl implements IfcTypeProd
      */
     @Override
     public String getTag() {
-        return (String) eGet(Ifc2x3tc1Package.Literals.IFC_TYPE_PRODUCT__TAG, true);
+        return (String) eGet(Ifc2x3tc1Package.eINSTANCE.getIfcTypeProduct_Tag(), true);
     }
 
     /**
@@ -107,7 +107,7 @@ public class IfcTypeProductImpl extends IfcTypeObjectImpl implements IfcTypeProd
      */
     @Override
     public void setTag(String newTag) {
-        eSet(Ifc2x3tc1Package.Literals.IFC_TYPE_PRODUCT__TAG, newTag);
+        eSet(Ifc2x3tc1Package.eINSTANCE.getIfcTypeProduct_Tag(), newTag);
     }
 
     /**
@@ -117,7 +117,7 @@ public class IfcTypeProductImpl extends IfcTypeObjectImpl implements IfcTypeProd
      */
     @Override
     public void unsetTag() {
-        eUnset(Ifc2x3tc1Package.Literals.IFC_TYPE_PRODUCT__TAG);
+        eUnset(Ifc2x3tc1Package.eINSTANCE.getIfcTypeProduct_Tag());
     }
 
     /**
@@ -127,7 +127,7 @@ public class IfcTypeProductImpl extends IfcTypeObjectImpl implements IfcTypeProd
      */
     @Override
     public boolean isSetTag() {
-        return eIsSet(Ifc2x3tc1Package.Literals.IFC_TYPE_PRODUCT__TAG);
+        return eIsSet(Ifc2x3tc1Package.eINSTANCE.getIfcTypeProduct_Tag());
     }
 
 } //IfcTypeProductImpl

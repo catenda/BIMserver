@@ -55,7 +55,7 @@ public class IfcRelConnectsPortsImpl extends IfcRelConnectsImpl implements IfcRe
      */
     @Override
     protected EClass eStaticClass() {
-        return Ifc2x3tc1Package.Literals.IFC_REL_CONNECTS_PORTS;
+        return Ifc2x3tc1Package.eINSTANCE.getIfcRelConnectsPorts();
     }
 
     /**
@@ -65,7 +65,7 @@ public class IfcRelConnectsPortsImpl extends IfcRelConnectsImpl implements IfcRe
      */
     @Override
     public IfcPort getRelatingPort() {
-        return (IfcPort) eGet(Ifc2x3tc1Package.Literals.IFC_REL_CONNECTS_PORTS__RELATING_PORT, true);
+        return (IfcPort) eGet(Ifc2x3tc1Package.eINSTANCE.getIfcRelConnectsPorts_RelatingPort(), true);
     }
 
     /**
@@ -75,7 +75,7 @@ public class IfcRelConnectsPortsImpl extends IfcRelConnectsImpl implements IfcRe
      */
     @Override
     public void setRelatingPort(IfcPort newRelatingPort) {
-        eSet(Ifc2x3tc1Package.Literals.IFC_REL_CONNECTS_PORTS__RELATING_PORT, newRelatingPort);
+        eSet(Ifc2x3tc1Package.eINSTANCE.getIfcRelConnectsPorts_RelatingPort(), newRelatingPort);
     }
 
     /**
@@ -85,7 +85,7 @@ public class IfcRelConnectsPortsImpl extends IfcRelConnectsImpl implements IfcRe
      */
     @Override
     public IfcPort getRelatedPort() {
-        return (IfcPort) eGet(Ifc2x3tc1Package.Literals.IFC_REL_CONNECTS_PORTS__RELATED_PORT, true);
+        return (IfcPort) eGet(Ifc2x3tc1Package.eINSTANCE.getIfcRelConnectsPorts_RelatedPort(), true);
     }
 
     /**
@@ -95,7 +95,7 @@ public class IfcRelConnectsPortsImpl extends IfcRelConnectsImpl implements IfcRe
      */
     @Override
     public void setRelatedPort(IfcPort newRelatedPort) {
-        eSet(Ifc2x3tc1Package.Literals.IFC_REL_CONNECTS_PORTS__RELATED_PORT, newRelatedPort);
+        eSet(Ifc2x3tc1Package.eINSTANCE.getIfcRelConnectsPorts_RelatedPort(), newRelatedPort);
     }
 
     /**
@@ -105,7 +105,7 @@ public class IfcRelConnectsPortsImpl extends IfcRelConnectsImpl implements IfcRe
      */
     @Override
     public IfcElement getRealizingElement() {
-        return (IfcElement) eGet(Ifc2x3tc1Package.Literals.IFC_REL_CONNECTS_PORTS__REALIZING_ELEMENT, true);
+        return (IfcElement) eGet(Ifc2x3tc1Package.eINSTANCE.getIfcRelConnectsPorts_RealizingElement(), true);
     }
 
     /**
@@ -115,7 +115,7 @@ public class IfcRelConnectsPortsImpl extends IfcRelConnectsImpl implements IfcRe
      */
     @Override
     public void setRealizingElement(IfcElement newRealizingElement) {
-        eSet(Ifc2x3tc1Package.Literals.IFC_REL_CONNECTS_PORTS__REALIZING_ELEMENT, newRealizingElement);
+        eSet(Ifc2x3tc1Package.eINSTANCE.getIfcRelConnectsPorts_RealizingElement(), newRealizingElement);
     }
 
     /**
@@ -125,7 +125,7 @@ public class IfcRelConnectsPortsImpl extends IfcRelConnectsImpl implements IfcRe
      */
     @Override
     public void unsetRealizingElement() {
-        eUnset(Ifc2x3tc1Package.Literals.IFC_REL_CONNECTS_PORTS__REALIZING_ELEMENT);
+        eUnset(Ifc2x3tc1Package.eINSTANCE.getIfcRelConnectsPorts_RealizingElement());
     }
 
     /**
@@ -135,7 +135,7 @@ public class IfcRelConnectsPortsImpl extends IfcRelConnectsImpl implements IfcRe
      */
     @Override
     public boolean isSetRealizingElement() {
-        return eIsSet(Ifc2x3tc1Package.Literals.IFC_REL_CONNECTS_PORTS__REALIZING_ELEMENT);
+        return eIsSet(Ifc2x3tc1Package.eINSTANCE.getIfcRelConnectsPorts_RealizingElement());
     }
 
 } //IfcRelConnectsPortsImpl

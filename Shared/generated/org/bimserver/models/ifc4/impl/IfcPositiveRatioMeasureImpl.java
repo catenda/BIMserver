@@ -45,7 +45,7 @@ public class IfcPositiveRatioMeasureImpl extends IfcRatioMeasureImpl implements 
      */
     @Override
     protected EClass eStaticClass() {
-        return Ifc4Package.Literals.IFC_POSITIVE_RATIO_MEASURE;
+        return Ifc4Package.eINSTANCE.getIfcPositiveRatioMeasure();
     }
 
 } //IfcPositiveRatioMeasureImpl

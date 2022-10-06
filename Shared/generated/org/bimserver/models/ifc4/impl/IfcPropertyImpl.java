@@ -21,9 +21,9 @@ import org.bimserver.models.ifc4.IfcComplexProperty;
 import org.bimserver.models.ifc4.IfcProperty;
 import org.bimserver.models.ifc4.IfcPropertyDependencyRelationship;
 import org.bimserver.models.ifc4.IfcPropertySet;
-
 import org.bimserver.models.ifc4.IfcResourceApprovalRelationship;
 import org.bimserver.models.ifc4.IfcResourceConstraintRelationship;
+
 import org.eclipse.emf.common.util.EList;
 
 import org.eclipse.emf.ecore.EClass;
@@ -65,7 +65,7 @@ public class IfcPropertyImpl extends IfcPropertyAbstractionImpl implements IfcPr
      */
     @Override
     protected EClass eStaticClass() {
-        return Ifc4Package.Literals.IFC_PROPERTY;
+        return Ifc4Package.eINSTANCE.getIfcProperty();
     }
 
     /**
@@ -75,7 +75,7 @@ public class IfcPropertyImpl extends IfcPropertyAbstractionImpl implements IfcPr
      */
     @Override
     public String getName() {
-        return (String) eGet(Ifc4Package.Literals.IFC_PROPERTY__NAME, true);
+        return (String) eGet(Ifc4Package.eINSTANCE.getIfcProperty_Name(), true);
     }
 
     /**
@@ -85,7 +85,7 @@ public class IfcPropertyImpl extends IfcPropertyAbstractionImpl implements IfcPr
      */
     @Override
     public void setName(String newName) {
-        eSet(Ifc4Package.Literals.IFC_PROPERTY__NAME, newName);
+        eSet(Ifc4Package.eINSTANCE.getIfcProperty_Name(), newName);
     }
 
     /**
@@ -95,7 +95,7 @@ public class IfcPropertyImpl extends IfcPropertyAbstractionImpl implements IfcPr
      */
     @Override
     public String getDescription() {
-        return (String) eGet(Ifc4Package.Literals.IFC_PROPERTY__DESCRIPTION, true);
+        return (String) eGet(Ifc4Package.eINSTANCE.getIfcProperty_Description(), true);
     }
 
     /**
@@ -105,7 +105,7 @@ public class IfcPropertyImpl extends IfcPropertyAbstractionImpl implements IfcPr
      */
     @Override
     public void setDescription(String newDescription) {
-        eSet(Ifc4Package.Literals.IFC_PROPERTY__DESCRIPTION, newDescription);
+        eSet(Ifc4Package.eINSTANCE.getIfcProperty_Description(), newDescription);
     }
 
     /**
@@ -115,7 +115,7 @@ public class IfcPropertyImpl extends IfcPropertyAbstractionImpl implements IfcPr
      */
     @Override
     public void unsetDescription() {
-        eUnset(Ifc4Package.Literals.IFC_PROPERTY__DESCRIPTION);
+        eUnset(Ifc4Package.eINSTANCE.getIfcProperty_Description());
     }
 
     /**
@@ -125,7 +125,7 @@ public class IfcPropertyImpl extends IfcPropertyAbstractionImpl implements IfcPr
      */
     @Override
     public boolean isSetDescription() {
-        return eIsSet(Ifc4Package.Literals.IFC_PROPERTY__DESCRIPTION);
+        return eIsSet(Ifc4Package.eINSTANCE.getIfcProperty_Description());
     }
 
     /**
@@ -136,7 +136,7 @@ public class IfcPropertyImpl extends IfcPropertyAbstractionImpl implements IfcPr
     @SuppressWarnings("unchecked")
     @Override
     public EList<IfcPropertySet> getPartOfPset() {
-        return (EList<IfcPropertySet>) eGet(Ifc4Package.Literals.IFC_PROPERTY__PART_OF_PSET, true);
+        return (EList<IfcPropertySet>) eGet(Ifc4Package.eINSTANCE.getIfcProperty_PartOfPset(), true);
     }
 
     /**
@@ -146,7 +146,7 @@ public class IfcPropertyImpl extends IfcPropertyAbstractionImpl implements IfcPr
      */
     @Override
     public void unsetPartOfPset() {
-        eUnset(Ifc4Package.Literals.IFC_PROPERTY__PART_OF_PSET);
+        eUnset(Ifc4Package.eINSTANCE.getIfcProperty_PartOfPset());
     }
 
     /**
@@ -156,7 +156,7 @@ public class IfcPropertyImpl extends IfcPropertyAbstractionImpl implements IfcPr
      */
     @Override
     public boolean isSetPartOfPset() {
-        return eIsSet(Ifc4Package.Literals.IFC_PROPERTY__PART_OF_PSET);
+        return eIsSet(Ifc4Package.eINSTANCE.getIfcProperty_PartOfPset());
     }
 
     /**
@@ -168,7 +168,7 @@ public class IfcPropertyImpl extends IfcPropertyAbstractionImpl implements IfcPr
     @Override
     public EList<IfcPropertyDependencyRelationship> getPropertyForDependance() {
         return (EList<IfcPropertyDependencyRelationship>) eGet(
-                Ifc4Package.Literals.IFC_PROPERTY__PROPERTY_FOR_DEPENDANCE, true);
+                Ifc4Package.eINSTANCE.getIfcProperty_PropertyForDependance(), true);
     }
 
     /**
@@ -178,7 +178,7 @@ public class IfcPropertyImpl extends IfcPropertyAbstractionImpl implements IfcPr
      */
     @Override
     public void unsetPropertyForDependance() {
-        eUnset(Ifc4Package.Literals.IFC_PROPERTY__PROPERTY_FOR_DEPENDANCE);
+        eUnset(Ifc4Package.eINSTANCE.getIfcProperty_PropertyForDependance());
     }
 
     /**
@@ -188,7 +188,7 @@ public class IfcPropertyImpl extends IfcPropertyAbstractionImpl implements IfcPr
      */
     @Override
     public boolean isSetPropertyForDependance() {
-        return eIsSet(Ifc4Package.Literals.IFC_PROPERTY__PROPERTY_FOR_DEPENDANCE);
+        return eIsSet(Ifc4Package.eINSTANCE.getIfcProperty_PropertyForDependance());
     }
 
     /**
@@ -199,7 +199,7 @@ public class IfcPropertyImpl extends IfcPropertyAbstractionImpl implements IfcPr
     @SuppressWarnings("unchecked")
     @Override
     public EList<IfcPropertyDependencyRelationship> getPropertyDependsOn() {
-        return (EList<IfcPropertyDependencyRelationship>) eGet(Ifc4Package.Literals.IFC_PROPERTY__PROPERTY_DEPENDS_ON,
+        return (EList<IfcPropertyDependencyRelationship>) eGet(Ifc4Package.eINSTANCE.getIfcProperty_PropertyDependsOn(),
                 true);
     }
 
@@ -210,7 +210,7 @@ public class IfcPropertyImpl extends IfcPropertyAbstractionImpl implements IfcPr
      */
     @Override
     public void unsetPropertyDependsOn() {
-        eUnset(Ifc4Package.Literals.IFC_PROPERTY__PROPERTY_DEPENDS_ON);
+        eUnset(Ifc4Package.eINSTANCE.getIfcProperty_PropertyDependsOn());
     }
 
     /**
@@ -220,7 +220,7 @@ public class IfcPropertyImpl extends IfcPropertyAbstractionImpl implements IfcPr
      */
     @Override
     public boolean isSetPropertyDependsOn() {
-        return eIsSet(Ifc4Package.Literals.IFC_PROPERTY__PROPERTY_DEPENDS_ON);
+        return eIsSet(Ifc4Package.eINSTANCE.getIfcProperty_PropertyDependsOn());
     }
 
     /**
@@ -231,7 +231,7 @@ public class IfcPropertyImpl extends IfcPropertyAbstractionImpl implements IfcPr
     @SuppressWarnings("unchecked")
     @Override
     public EList<IfcComplexProperty> getPartOfComplex() {
-        return (EList<IfcComplexProperty>) eGet(Ifc4Package.Literals.IFC_PROPERTY__PART_OF_COMPLEX, true);
+        return (EList<IfcComplexProperty>) eGet(Ifc4Package.eINSTANCE.getIfcProperty_PartOfComplex(), true);
     }
 
     /**
@@ -241,7 +241,7 @@ public class IfcPropertyImpl extends IfcPropertyAbstractionImpl implements IfcPr
      */
     @Override
     public void unsetPartOfComplex() {
-        eUnset(Ifc4Package.Literals.IFC_PROPERTY__PART_OF_COMPLEX);
+        eUnset(Ifc4Package.eINSTANCE.getIfcProperty_PartOfComplex());
     }
 
     /**
@@ -251,7 +251,7 @@ public class IfcPropertyImpl extends IfcPropertyAbstractionImpl implements IfcPr
      */
     @Override
     public boolean isSetPartOfComplex() {
-        return eIsSet(Ifc4Package.Literals.IFC_PROPERTY__PART_OF_COMPLEX);
+        return eIsSet(Ifc4Package.eINSTANCE.getIfcProperty_PartOfComplex());
     }
 
     /**
@@ -262,7 +262,7 @@ public class IfcPropertyImpl extends IfcPropertyAbstractionImpl implements IfcPr
     @SuppressWarnings("unchecked")
     @Override
     public EList<IfcResourceConstraintRelationship> getHasConstraints() {
-        return (EList<IfcResourceConstraintRelationship>) eGet(Ifc4Package.Literals.IFC_PROPERTY__HAS_CONSTRAINTS,
+        return (EList<IfcResourceConstraintRelationship>) eGet(Ifc4Package.eINSTANCE.getIfcProperty_HasConstraints(),
                 true);
     }
 
@@ -273,7 +273,7 @@ public class IfcPropertyImpl extends IfcPropertyAbstractionImpl implements IfcPr
      */
     @Override
     public void unsetHasConstraints() {
-        eUnset(Ifc4Package.Literals.IFC_PROPERTY__HAS_CONSTRAINTS);
+        eUnset(Ifc4Package.eINSTANCE.getIfcProperty_HasConstraints());
     }
 
     /**
@@ -283,7 +283,7 @@ public class IfcPropertyImpl extends IfcPropertyAbstractionImpl implements IfcPr
      */
     @Override
     public boolean isSetHasConstraints() {
-        return eIsSet(Ifc4Package.Literals.IFC_PROPERTY__HAS_CONSTRAINTS);
+        return eIsSet(Ifc4Package.eINSTANCE.getIfcProperty_HasConstraints());
     }
 
     /**
@@ -294,7 +294,7 @@ public class IfcPropertyImpl extends IfcPropertyAbstractionImpl implements IfcPr
     @SuppressWarnings("unchecked")
     @Override
     public EList<IfcResourceApprovalRelationship> getHasApprovals() {
-        return (EList<IfcResourceApprovalRelationship>) eGet(Ifc4Package.Literals.IFC_PROPERTY__HAS_APPROVALS, true);
+        return (EList<IfcResourceApprovalRelationship>) eGet(Ifc4Package.eINSTANCE.getIfcProperty_HasApprovals(), true);
     }
 
     /**
@@ -304,7 +304,7 @@ public class IfcPropertyImpl extends IfcPropertyAbstractionImpl implements IfcPr
      */
     @Override
     public void unsetHasApprovals() {
-        eUnset(Ifc4Package.Literals.IFC_PROPERTY__HAS_APPROVALS);
+        eUnset(Ifc4Package.eINSTANCE.getIfcProperty_HasApprovals());
     }
 
     /**
@@ -314,7 +314,7 @@ public class IfcPropertyImpl extends IfcPropertyAbstractionImpl implements IfcPr
      */
     @Override
     public boolean isSetHasApprovals() {
-        return eIsSet(Ifc4Package.Literals.IFC_PROPERTY__HAS_APPROVALS);
+        return eIsSet(Ifc4Package.eINSTANCE.getIfcProperty_HasApprovals());
     }
 
 } //IfcPropertyImpl

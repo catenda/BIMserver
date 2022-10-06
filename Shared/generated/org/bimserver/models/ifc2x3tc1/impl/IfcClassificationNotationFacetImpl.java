@@ -53,7 +53,7 @@ public class IfcClassificationNotationFacetImpl extends IdEObjectImpl implements
      */
     @Override
     protected EClass eStaticClass() {
-        return Ifc2x3tc1Package.Literals.IFC_CLASSIFICATION_NOTATION_FACET;
+        return Ifc2x3tc1Package.eINSTANCE.getIfcClassificationNotationFacet();
     }
 
     /**
@@ -73,7 +73,7 @@ public class IfcClassificationNotationFacetImpl extends IdEObjectImpl implements
      */
     @Override
     public String getNotationValue() {
-        return (String) eGet(Ifc2x3tc1Package.Literals.IFC_CLASSIFICATION_NOTATION_FACET__NOTATION_VALUE, true);
+        return (String) eGet(Ifc2x3tc1Package.eINSTANCE.getIfcClassificationNotationFacet_NotationValue(), true);
     }
 
     /**
@@ -83,7 +83,7 @@ public class IfcClassificationNotationFacetImpl extends IdEObjectImpl implements
      */
     @Override
     public void setNotationValue(String newNotationValue) {
-        eSet(Ifc2x3tc1Package.Literals.IFC_CLASSIFICATION_NOTATION_FACET__NOTATION_VALUE, newNotationValue);
+        eSet(Ifc2x3tc1Package.eINSTANCE.getIfcClassificationNotationFacet_NotationValue(), newNotationValue);
     }
 
 } //IfcClassificationNotationFacetImpl

@@ -42,10 +42,6 @@ public interface IfcObjective extends IfcConstraint {
      * Returns the value of the '<em><b>Benchmark Values</b></em>' reference list.
      * The list contents are of type {@link org.bimserver.models.ifc4.IfcConstraint}.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Benchmark Values</em>' reference list isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Benchmark Values</em>' reference list.
      * @see #isSetBenchmarkValues()
@@ -81,10 +77,6 @@ public interface IfcObjective extends IfcConstraint {
      * Returns the value of the '<em><b>Logical Aggregator</b></em>' attribute.
      * The literals are from the enumeration {@link org.bimserver.models.ifc4.IfcLogicalOperatorEnum}.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Logical Aggregator</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Logical Aggregator</em>' attribute.
      * @see org.bimserver.models.ifc4.IfcLogicalOperatorEnum
@@ -137,10 +129,6 @@ public interface IfcObjective extends IfcConstraint {
      * Returns the value of the '<em><b>Objective Qualifier</b></em>' attribute.
      * The literals are from the enumeration {@link org.bimserver.models.ifc4.IfcObjectiveEnum}.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Objective Qualifier</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Objective Qualifier</em>' attribute.
      * @see org.bimserver.models.ifc4.IfcObjectiveEnum
@@ -165,10 +153,6 @@ public interface IfcObjective extends IfcConstraint {
     /**
      * Returns the value of the '<em><b>User Defined Qualifier</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>User Defined Qualifier</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>User Defined Qualifier</em>' attribute.
      * @see #isSetUserDefinedQualifier()

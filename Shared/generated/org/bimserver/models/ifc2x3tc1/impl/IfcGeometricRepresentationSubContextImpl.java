@@ -58,7 +58,7 @@ public class IfcGeometricRepresentationSubContextImpl extends IfcGeometricRepres
      */
     @Override
     protected EClass eStaticClass() {
-        return Ifc2x3tc1Package.Literals.IFC_GEOMETRIC_REPRESENTATION_SUB_CONTEXT;
+        return Ifc2x3tc1Package.eINSTANCE.getIfcGeometricRepresentationSubContext();
     }
 
     /**
@@ -69,7 +69,7 @@ public class IfcGeometricRepresentationSubContextImpl extends IfcGeometricRepres
     @Override
     public IfcGeometricRepresentationContext getParentContext() {
         return (IfcGeometricRepresentationContext) eGet(
-                Ifc2x3tc1Package.Literals.IFC_GEOMETRIC_REPRESENTATION_SUB_CONTEXT__PARENT_CONTEXT, true);
+                Ifc2x3tc1Package.eINSTANCE.getIfcGeometricRepresentationSubContext_ParentContext(), true);
     }
 
     /**
@@ -79,7 +79,7 @@ public class IfcGeometricRepresentationSubContextImpl extends IfcGeometricRepres
      */
     @Override
     public void setParentContext(IfcGeometricRepresentationContext newParentContext) {
-        eSet(Ifc2x3tc1Package.Literals.IFC_GEOMETRIC_REPRESENTATION_SUB_CONTEXT__PARENT_CONTEXT, newParentContext);
+        eSet(Ifc2x3tc1Package.eINSTANCE.getIfcGeometricRepresentationSubContext_ParentContext(), newParentContext);
     }
 
     /**
@@ -89,7 +89,7 @@ public class IfcGeometricRepresentationSubContextImpl extends IfcGeometricRepres
      */
     @Override
     public double getTargetScale() {
-        return (Double) eGet(Ifc2x3tc1Package.Literals.IFC_GEOMETRIC_REPRESENTATION_SUB_CONTEXT__TARGET_SCALE, true);
+        return (Double) eGet(Ifc2x3tc1Package.eINSTANCE.getIfcGeometricRepresentationSubContext_TargetScale(), true);
     }
 
     /**
@@ -99,7 +99,7 @@ public class IfcGeometricRepresentationSubContextImpl extends IfcGeometricRepres
      */
     @Override
     public void setTargetScale(double newTargetScale) {
-        eSet(Ifc2x3tc1Package.Literals.IFC_GEOMETRIC_REPRESENTATION_SUB_CONTEXT__TARGET_SCALE, newTargetScale);
+        eSet(Ifc2x3tc1Package.eINSTANCE.getIfcGeometricRepresentationSubContext_TargetScale(), newTargetScale);
     }
 
     /**
@@ -109,7 +109,7 @@ public class IfcGeometricRepresentationSubContextImpl extends IfcGeometricRepres
      */
     @Override
     public void unsetTargetScale() {
-        eUnset(Ifc2x3tc1Package.Literals.IFC_GEOMETRIC_REPRESENTATION_SUB_CONTEXT__TARGET_SCALE);
+        eUnset(Ifc2x3tc1Package.eINSTANCE.getIfcGeometricRepresentationSubContext_TargetScale());
     }
 
     /**
@@ -119,7 +119,7 @@ public class IfcGeometricRepresentationSubContextImpl extends IfcGeometricRepres
      */
     @Override
     public boolean isSetTargetScale() {
-        return eIsSet(Ifc2x3tc1Package.Literals.IFC_GEOMETRIC_REPRESENTATION_SUB_CONTEXT__TARGET_SCALE);
+        return eIsSet(Ifc2x3tc1Package.eINSTANCE.getIfcGeometricRepresentationSubContext_TargetScale());
     }
 
     /**
@@ -129,7 +129,7 @@ public class IfcGeometricRepresentationSubContextImpl extends IfcGeometricRepres
      */
     @Override
     public String getTargetScaleAsString() {
-        return (String) eGet(Ifc2x3tc1Package.Literals.IFC_GEOMETRIC_REPRESENTATION_SUB_CONTEXT__TARGET_SCALE_AS_STRING,
+        return (String) eGet(Ifc2x3tc1Package.eINSTANCE.getIfcGeometricRepresentationSubContext_TargetScaleAsString(),
                 true);
     }
 
@@ -140,7 +140,7 @@ public class IfcGeometricRepresentationSubContextImpl extends IfcGeometricRepres
      */
     @Override
     public void setTargetScaleAsString(String newTargetScaleAsString) {
-        eSet(Ifc2x3tc1Package.Literals.IFC_GEOMETRIC_REPRESENTATION_SUB_CONTEXT__TARGET_SCALE_AS_STRING,
+        eSet(Ifc2x3tc1Package.eINSTANCE.getIfcGeometricRepresentationSubContext_TargetScaleAsString(),
                 newTargetScaleAsString);
     }
 
@@ -151,7 +151,7 @@ public class IfcGeometricRepresentationSubContextImpl extends IfcGeometricRepres
      */
     @Override
     public void unsetTargetScaleAsString() {
-        eUnset(Ifc2x3tc1Package.Literals.IFC_GEOMETRIC_REPRESENTATION_SUB_CONTEXT__TARGET_SCALE_AS_STRING);
+        eUnset(Ifc2x3tc1Package.eINSTANCE.getIfcGeometricRepresentationSubContext_TargetScaleAsString());
     }
 
     /**
@@ -161,7 +161,7 @@ public class IfcGeometricRepresentationSubContextImpl extends IfcGeometricRepres
      */
     @Override
     public boolean isSetTargetScaleAsString() {
-        return eIsSet(Ifc2x3tc1Package.Literals.IFC_GEOMETRIC_REPRESENTATION_SUB_CONTEXT__TARGET_SCALE_AS_STRING);
+        return eIsSet(Ifc2x3tc1Package.eINSTANCE.getIfcGeometricRepresentationSubContext_TargetScaleAsString());
     }
 
     /**
@@ -172,7 +172,7 @@ public class IfcGeometricRepresentationSubContextImpl extends IfcGeometricRepres
     @Override
     public IfcGeometricProjectionEnum getTargetView() {
         return (IfcGeometricProjectionEnum) eGet(
-                Ifc2x3tc1Package.Literals.IFC_GEOMETRIC_REPRESENTATION_SUB_CONTEXT__TARGET_VIEW, true);
+                Ifc2x3tc1Package.eINSTANCE.getIfcGeometricRepresentationSubContext_TargetView(), true);
     }
 
     /**
@@ -182,7 +182,7 @@ public class IfcGeometricRepresentationSubContextImpl extends IfcGeometricRepres
      */
     @Override
     public void setTargetView(IfcGeometricProjectionEnum newTargetView) {
-        eSet(Ifc2x3tc1Package.Literals.IFC_GEOMETRIC_REPRESENTATION_SUB_CONTEXT__TARGET_VIEW, newTargetView);
+        eSet(Ifc2x3tc1Package.eINSTANCE.getIfcGeometricRepresentationSubContext_TargetView(), newTargetView);
     }
 
     /**
@@ -192,8 +192,8 @@ public class IfcGeometricRepresentationSubContextImpl extends IfcGeometricRepres
      */
     @Override
     public String getUserDefinedTargetView() {
-        return (String) eGet(
-                Ifc2x3tc1Package.Literals.IFC_GEOMETRIC_REPRESENTATION_SUB_CONTEXT__USER_DEFINED_TARGET_VIEW, true);
+        return (String) eGet(Ifc2x3tc1Package.eINSTANCE.getIfcGeometricRepresentationSubContext_UserDefinedTargetView(),
+                true);
     }
 
     /**
@@ -203,7 +203,7 @@ public class IfcGeometricRepresentationSubContextImpl extends IfcGeometricRepres
      */
     @Override
     public void setUserDefinedTargetView(String newUserDefinedTargetView) {
-        eSet(Ifc2x3tc1Package.Literals.IFC_GEOMETRIC_REPRESENTATION_SUB_CONTEXT__USER_DEFINED_TARGET_VIEW,
+        eSet(Ifc2x3tc1Package.eINSTANCE.getIfcGeometricRepresentationSubContext_UserDefinedTargetView(),
                 newUserDefinedTargetView);
     }
 
@@ -214,7 +214,7 @@ public class IfcGeometricRepresentationSubContextImpl extends IfcGeometricRepres
      */
     @Override
     public void unsetUserDefinedTargetView() {
-        eUnset(Ifc2x3tc1Package.Literals.IFC_GEOMETRIC_REPRESENTATION_SUB_CONTEXT__USER_DEFINED_TARGET_VIEW);
+        eUnset(Ifc2x3tc1Package.eINSTANCE.getIfcGeometricRepresentationSubContext_UserDefinedTargetView());
     }
 
     /**
@@ -224,7 +224,7 @@ public class IfcGeometricRepresentationSubContextImpl extends IfcGeometricRepres
      */
     @Override
     public boolean isSetUserDefinedTargetView() {
-        return eIsSet(Ifc2x3tc1Package.Literals.IFC_GEOMETRIC_REPRESENTATION_SUB_CONTEXT__USER_DEFINED_TARGET_VIEW);
+        return eIsSet(Ifc2x3tc1Package.eINSTANCE.getIfcGeometricRepresentationSubContext_UserDefinedTargetView());
     }
 
 } //IfcGeometricRepresentationSubContextImpl

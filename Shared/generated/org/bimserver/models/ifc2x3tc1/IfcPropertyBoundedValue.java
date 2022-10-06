@@ -38,10 +38,6 @@ public interface IfcPropertyBoundedValue extends IfcSimpleProperty {
     /**
      * Returns the value of the '<em><b>Upper Bound Value</b></em>' reference.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Upper Bound Value</em>' reference isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Upper Bound Value</em>' reference.
      * @see #isSetUpperBoundValue()
@@ -91,10 +87,6 @@ public interface IfcPropertyBoundedValue extends IfcSimpleProperty {
     /**
      * Returns the value of the '<em><b>Lower Bound Value</b></em>' reference.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Lower Bound Value</em>' reference isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Lower Bound Value</em>' reference.
      * @see #isSetLowerBoundValue()
@@ -144,10 +136,6 @@ public interface IfcPropertyBoundedValue extends IfcSimpleProperty {
     /**
      * Returns the value of the '<em><b>Unit</b></em>' reference.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Unit</em>' reference isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Unit</em>' reference.
      * @see #isSetUnit()

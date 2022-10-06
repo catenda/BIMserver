@@ -41,10 +41,6 @@ public interface IfcPresentationLayerWithStyle extends IfcPresentationLayerAssig
     /**
      * Returns the value of the '<em><b>Layer On</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Layer On</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Layer On</em>' attribute.
      * @see #setLayerOn(boolean)
@@ -67,10 +63,6 @@ public interface IfcPresentationLayerWithStyle extends IfcPresentationLayerAssig
     /**
      * Returns the value of the '<em><b>Layer Frozen</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Layer Frozen</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Layer Frozen</em>' attribute.
      * @see #setLayerFrozen(boolean)
@@ -93,10 +85,6 @@ public interface IfcPresentationLayerWithStyle extends IfcPresentationLayerAssig
     /**
      * Returns the value of the '<em><b>Layer Blocked</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Layer Blocked</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Layer Blocked</em>' attribute.
      * @see #setLayerBlocked(boolean)
@@ -120,10 +108,6 @@ public interface IfcPresentationLayerWithStyle extends IfcPresentationLayerAssig
      * Returns the value of the '<em><b>Layer Styles</b></em>' reference list.
      * The list contents are of type {@link org.bimserver.models.ifc2x3tc1.IfcPresentationStyleSelect}.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Layer Styles</em>' reference list isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Layer Styles</em>' reference list.
      * @see org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package#getIfcPresentationLayerWithStyle_LayerStyles()

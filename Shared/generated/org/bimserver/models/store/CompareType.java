@@ -75,10 +75,6 @@ public enum CompareType implements Enumerator {
     /**
      * The '<em><b>ALL</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>ALL</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #ALL
      * @model
@@ -90,10 +86,6 @@ public enum CompareType implements Enumerator {
     /**
      * The '<em><b>ADD</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>ADD</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #ADD
      * @model
@@ -105,10 +97,6 @@ public enum CompareType implements Enumerator {
     /**
      * The '<em><b>MODIFY</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>MODIFY</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #MODIFY
      * @model
@@ -120,10 +108,6 @@ public enum CompareType implements Enumerator {
     /**
      * The '<em><b>DELETE</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>DELETE</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #DELETE
      * @model

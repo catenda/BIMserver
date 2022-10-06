@@ -54,7 +54,7 @@ public class IfcAdvancedBrepWithVoidsImpl extends IfcAdvancedBrepImpl implements
      */
     @Override
     protected EClass eStaticClass() {
-        return Ifc4Package.Literals.IFC_ADVANCED_BREP_WITH_VOIDS;
+        return Ifc4Package.eINSTANCE.getIfcAdvancedBrepWithVoids();
     }
 
     /**
@@ -65,7 +65,7 @@ public class IfcAdvancedBrepWithVoidsImpl extends IfcAdvancedBrepImpl implements
     @SuppressWarnings("unchecked")
     @Override
     public EList<IfcClosedShell> getVoids() {
-        return (EList<IfcClosedShell>) eGet(Ifc4Package.Literals.IFC_ADVANCED_BREP_WITH_VOIDS__VOIDS, true);
+        return (EList<IfcClosedShell>) eGet(Ifc4Package.eINSTANCE.getIfcAdvancedBrepWithVoids_Voids(), true);
     }
 
 } //IfcAdvancedBrepWithVoidsImpl

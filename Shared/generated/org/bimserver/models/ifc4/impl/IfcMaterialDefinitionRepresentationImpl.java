@@ -53,7 +53,7 @@ public class IfcMaterialDefinitionRepresentationImpl extends IfcProductRepresent
      */
     @Override
     protected EClass eStaticClass() {
-        return Ifc4Package.Literals.IFC_MATERIAL_DEFINITION_REPRESENTATION;
+        return Ifc4Package.eINSTANCE.getIfcMaterialDefinitionRepresentation();
     }
 
     /**
@@ -63,7 +63,7 @@ public class IfcMaterialDefinitionRepresentationImpl extends IfcProductRepresent
      */
     @Override
     public IfcMaterial getRepresentedMaterial() {
-        return (IfcMaterial) eGet(Ifc4Package.Literals.IFC_MATERIAL_DEFINITION_REPRESENTATION__REPRESENTED_MATERIAL,
+        return (IfcMaterial) eGet(Ifc4Package.eINSTANCE.getIfcMaterialDefinitionRepresentation_RepresentedMaterial(),
                 true);
     }
 
@@ -74,7 +74,8 @@ public class IfcMaterialDefinitionRepresentationImpl extends IfcProductRepresent
      */
     @Override
     public void setRepresentedMaterial(IfcMaterial newRepresentedMaterial) {
-        eSet(Ifc4Package.Literals.IFC_MATERIAL_DEFINITION_REPRESENTATION__REPRESENTED_MATERIAL, newRepresentedMaterial);
+        eSet(Ifc4Package.eINSTANCE.getIfcMaterialDefinitionRepresentation_RepresentedMaterial(),
+                newRepresentedMaterial);
     }
 
 } //IfcMaterialDefinitionRepresentationImpl

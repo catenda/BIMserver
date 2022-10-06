@@ -54,7 +54,7 @@ public class IfcRelProjectsElementImpl extends IfcRelConnectsImpl implements Ifc
      */
     @Override
     protected EClass eStaticClass() {
-        return Ifc2x3tc1Package.Literals.IFC_REL_PROJECTS_ELEMENT;
+        return Ifc2x3tc1Package.eINSTANCE.getIfcRelProjectsElement();
     }
 
     /**
@@ -64,7 +64,7 @@ public class IfcRelProjectsElementImpl extends IfcRelConnectsImpl implements Ifc
      */
     @Override
     public IfcElement getRelatingElement() {
-        return (IfcElement) eGet(Ifc2x3tc1Package.Literals.IFC_REL_PROJECTS_ELEMENT__RELATING_ELEMENT, true);
+        return (IfcElement) eGet(Ifc2x3tc1Package.eINSTANCE.getIfcRelProjectsElement_RelatingElement(), true);
     }
 
     /**
@@ -74,7 +74,7 @@ public class IfcRelProjectsElementImpl extends IfcRelConnectsImpl implements Ifc
      */
     @Override
     public void setRelatingElement(IfcElement newRelatingElement) {
-        eSet(Ifc2x3tc1Package.Literals.IFC_REL_PROJECTS_ELEMENT__RELATING_ELEMENT, newRelatingElement);
+        eSet(Ifc2x3tc1Package.eINSTANCE.getIfcRelProjectsElement_RelatingElement(), newRelatingElement);
     }
 
     /**
@@ -85,7 +85,7 @@ public class IfcRelProjectsElementImpl extends IfcRelConnectsImpl implements Ifc
     @Override
     public IfcFeatureElementAddition getRelatedFeatureElement() {
         return (IfcFeatureElementAddition) eGet(
-                Ifc2x3tc1Package.Literals.IFC_REL_PROJECTS_ELEMENT__RELATED_FEATURE_ELEMENT, true);
+                Ifc2x3tc1Package.eINSTANCE.getIfcRelProjectsElement_RelatedFeatureElement(), true);
     }
 
     /**
@@ -95,7 +95,7 @@ public class IfcRelProjectsElementImpl extends IfcRelConnectsImpl implements Ifc
      */
     @Override
     public void setRelatedFeatureElement(IfcFeatureElementAddition newRelatedFeatureElement) {
-        eSet(Ifc2x3tc1Package.Literals.IFC_REL_PROJECTS_ELEMENT__RELATED_FEATURE_ELEMENT, newRelatedFeatureElement);
+        eSet(Ifc2x3tc1Package.eINSTANCE.getIfcRelProjectsElement_RelatedFeatureElement(), newRelatedFeatureElement);
     }
 
 } //IfcRelProjectsElementImpl

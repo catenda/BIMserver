@@ -52,7 +52,7 @@ public class IfcStructuralCurveMemberImpl extends IfcStructuralMemberImpl implem
      */
     @Override
     protected EClass eStaticClass() {
-        return Ifc2x3tc1Package.Literals.IFC_STRUCTURAL_CURVE_MEMBER;
+        return Ifc2x3tc1Package.eINSTANCE.getIfcStructuralCurveMember();
     }
 
     /**
@@ -62,8 +62,8 @@ public class IfcStructuralCurveMemberImpl extends IfcStructuralMemberImpl implem
      */
     @Override
     public IfcStructuralCurveTypeEnum getPredefinedType() {
-        return (IfcStructuralCurveTypeEnum) eGet(Ifc2x3tc1Package.Literals.IFC_STRUCTURAL_CURVE_MEMBER__PREDEFINED_TYPE,
-                true);
+        return (IfcStructuralCurveTypeEnum) eGet(
+                Ifc2x3tc1Package.eINSTANCE.getIfcStructuralCurveMember_PredefinedType(), true);
     }
 
     /**
@@ -73,7 +73,7 @@ public class IfcStructuralCurveMemberImpl extends IfcStructuralMemberImpl implem
      */
     @Override
     public void setPredefinedType(IfcStructuralCurveTypeEnum newPredefinedType) {
-        eSet(Ifc2x3tc1Package.Literals.IFC_STRUCTURAL_CURVE_MEMBER__PREDEFINED_TYPE, newPredefinedType);
+        eSet(Ifc2x3tc1Package.eINSTANCE.getIfcStructuralCurveMember_PredefinedType(), newPredefinedType);
     }
 
 } //IfcStructuralCurveMemberImpl

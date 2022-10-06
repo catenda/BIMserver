@@ -40,10 +40,6 @@ public interface IfcPropertySet extends IfcPropertySetDefinition {
      * The list contents are of type {@link org.bimserver.models.ifc4.IfcProperty}.
      * It is bidirectional and its opposite is '{@link org.bimserver.models.ifc4.IfcProperty#getPartOfPset <em>Part Of Pset</em>}'.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Has Properties</em>' reference list isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Has Properties</em>' reference list.
      * @see org.bimserver.models.ifc4.Ifc4Package#getIfcPropertySet_HasProperties()

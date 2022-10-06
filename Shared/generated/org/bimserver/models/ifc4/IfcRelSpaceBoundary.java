@@ -40,10 +40,6 @@ public interface IfcRelSpaceBoundary extends IfcRelConnects {
     /**
      * Returns the value of the '<em><b>Relating Space</b></em>' reference.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Relating Space</em>' reference isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Relating Space</em>' reference.
      * @see #setRelatingSpace(IfcSpaceBoundarySelect)
@@ -68,10 +64,6 @@ public interface IfcRelSpaceBoundary extends IfcRelConnects {
      * Returns the value of the '<em><b>Related Building Element</b></em>' reference.
      * It is bidirectional and its opposite is '{@link org.bimserver.models.ifc4.IfcElement#getProvidesBoundaries <em>Provides Boundaries</em>}'.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Related Building Element</em>' reference isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Related Building Element</em>' reference.
      * @see #setRelatedBuildingElement(IfcElement)
@@ -96,10 +88,6 @@ public interface IfcRelSpaceBoundary extends IfcRelConnects {
     /**
      * Returns the value of the '<em><b>Connection Geometry</b></em>' reference.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Connection Geometry</em>' reference isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Connection Geometry</em>' reference.
      * @see #isSetConnectionGeometry()
@@ -150,10 +138,6 @@ public interface IfcRelSpaceBoundary extends IfcRelConnects {
      * Returns the value of the '<em><b>Physical Or Virtual Boundary</b></em>' attribute.
      * The literals are from the enumeration {@link org.bimserver.models.ifc4.IfcPhysicalOrVirtualEnum}.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Physical Or Virtual Boundary</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Physical Or Virtual Boundary</em>' attribute.
      * @see org.bimserver.models.ifc4.IfcPhysicalOrVirtualEnum
@@ -179,10 +163,6 @@ public interface IfcRelSpaceBoundary extends IfcRelConnects {
      * Returns the value of the '<em><b>Internal Or External Boundary</b></em>' attribute.
      * The literals are from the enumeration {@link org.bimserver.models.ifc4.IfcInternalOrExternalEnum}.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Internal Or External Boundary</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Internal Or External Boundary</em>' attribute.
      * @see org.bimserver.models.ifc4.IfcInternalOrExternalEnum

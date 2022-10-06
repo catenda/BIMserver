@@ -45,7 +45,7 @@ public class IfcAnnotationOccurrenceImpl extends IfcStyledItemImpl implements If
      */
     @Override
     protected EClass eStaticClass() {
-        return Ifc2x3tc1Package.Literals.IFC_ANNOTATION_OCCURRENCE;
+        return Ifc2x3tc1Package.eINSTANCE.getIfcAnnotationOccurrence();
     }
 
 } //IfcAnnotationOccurrenceImpl

@@ -27,6 +27,14 @@ import org.bimserver.models.ifc2x3tc1.impl.Ifc2x3tc1PackageImpl;
 import org.bimserver.models.ifc4.Ifc4Factory;
 import org.bimserver.models.ifc4.Ifc4Package;
 
+import org.bimserver.models.ifc4x3.Ifc4x3Package;
+
+import org.bimserver.models.ifc4x3.impl.Ifc4x3PackageImpl;
+
+import org.bimserver.models.ifc4x3rc4.Ifc4x3rc4Package;
+
+import org.bimserver.models.ifc4x3rc4.impl.Ifc4x3rc4PackageImpl;
+
 import org.bimserver.models.log.LogPackage;
 
 import org.bimserver.models.log.impl.LogPackageImpl;
@@ -8378,6 +8386,14 @@ public class Ifc4PackageImpl extends EPackageImpl implements Ifc4Package {
         Ifc2x3tc1PackageImpl theIfc2x3tc1Package = (Ifc2x3tc1PackageImpl) (registeredPackage instanceof Ifc2x3tc1PackageImpl
                 ? registeredPackage
                 : Ifc2x3tc1Package.eINSTANCE);
+        registeredPackage = EPackage.Registry.INSTANCE.getEPackage(Ifc4x3Package.eNS_URI);
+        Ifc4x3PackageImpl theIfc4x3Package = (Ifc4x3PackageImpl) (registeredPackage instanceof Ifc4x3PackageImpl
+                ? registeredPackage
+                : Ifc4x3Package.eINSTANCE);
+        registeredPackage = EPackage.Registry.INSTANCE.getEPackage(Ifc4x3rc4Package.eNS_URI);
+        Ifc4x3rc4PackageImpl theIfc4x3rc4Package = (Ifc4x3rc4PackageImpl) (registeredPackage instanceof Ifc4x3rc4PackageImpl
+                ? registeredPackage
+                : Ifc4x3rc4Package.eINSTANCE);
         registeredPackage = EPackage.Registry.INSTANCE.getEPackage(LogPackage.eNS_URI);
         LogPackageImpl theLogPackage = (LogPackageImpl) (registeredPackage instanceof LogPackageImpl ? registeredPackage
                 : LogPackage.eINSTANCE);
@@ -8389,14 +8405,22 @@ public class Ifc4PackageImpl extends EPackageImpl implements Ifc4Package {
         // Load packages
         theIfc4Package.loadPackage();
         theIfc2x3tc1Package.loadPackage();
-        theLogPackage.loadPackage();
-        theStorePackage.loadPackage();
+        theIfc4x3Package.loadPackage();
+        theIfc4x3rc4Package.loadPackage();
+
+        // Create package meta-data objects
+        theLogPackage.createPackageContents();
+        theStorePackage.createPackageContents();
+
+        // Initialize created meta-data
+        theLogPackage.initializePackageContents();
+        theStorePackage.initializePackageContents();
 
         // Fix loaded packages
         theIfc4Package.fixPackageContents();
         theIfc2x3tc1Package.fixPackageContents();
-        theLogPackage.fixPackageContents();
-        theStorePackage.fixPackageContents();
+        theIfc4x3Package.fixPackageContents();
+        theIfc4x3rc4Package.fixPackageContents();
 
         // Mark meta-data to indicate it can't be changed
         theIfc4Package.freeze();

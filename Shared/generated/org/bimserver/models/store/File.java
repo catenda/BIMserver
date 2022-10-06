@@ -41,10 +41,6 @@ public interface File extends IdEObject {
     /**
      * Returns the value of the '<em><b>Data</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Data</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Data</em>' attribute.
      * @see #setData(byte[])
@@ -67,10 +63,6 @@ public interface File extends IdEObject {
     /**
      * Returns the value of the '<em><b>Filename</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Filename</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Filename</em>' attribute.
      * @see #setFilename(String)
@@ -93,10 +85,6 @@ public interface File extends IdEObject {
     /**
      * Returns the value of the '<em><b>Mime</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Mime</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Mime</em>' attribute.
      * @see #setMime(String)

@@ -175,10 +175,6 @@ public enum IfcDamperTypeEnum implements Enumerator {
     /**
      * The '<em><b>NULL</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>NULL</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #NULL
      * @model
@@ -190,10 +186,6 @@ public enum IfcDamperTypeEnum implements Enumerator {
     /**
      * The '<em><b>CONTROLDAMPER</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>CONTROLDAMPER</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #CONTROLDAMPER
      * @model
@@ -205,10 +197,6 @@ public enum IfcDamperTypeEnum implements Enumerator {
     /**
      * The '<em><b>FUMEHOODEXHAUST</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>FUMEHOODEXHAUST</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #FUMEHOODEXHAUST
      * @model
@@ -220,10 +208,6 @@ public enum IfcDamperTypeEnum implements Enumerator {
     /**
      * The '<em><b>BALANCINGDAMPER</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>BALANCINGDAMPER</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #BALANCINGDAMPER
      * @model
@@ -235,10 +219,6 @@ public enum IfcDamperTypeEnum implements Enumerator {
     /**
      * The '<em><b>GRAVITYRELIEFDAMPER</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>GRAVITYRELIEFDAMPER</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #GRAVITYRELIEFDAMPER
      * @model
@@ -250,10 +230,6 @@ public enum IfcDamperTypeEnum implements Enumerator {
     /**
      * The '<em><b>USERDEFINED</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>USERDEFINED</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #USERDEFINED
      * @model
@@ -265,10 +241,6 @@ public enum IfcDamperTypeEnum implements Enumerator {
     /**
      * The '<em><b>FIREDAMPER</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>FIREDAMPER</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #FIREDAMPER
      * @model
@@ -280,10 +252,6 @@ public enum IfcDamperTypeEnum implements Enumerator {
     /**
      * The '<em><b>NOTDEFINED</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>NOTDEFINED</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #NOTDEFINED
      * @model
@@ -295,10 +263,6 @@ public enum IfcDamperTypeEnum implements Enumerator {
     /**
      * The '<em><b>GRAVITYDAMPER</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>GRAVITYDAMPER</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #GRAVITYDAMPER
      * @model
@@ -310,10 +274,6 @@ public enum IfcDamperTypeEnum implements Enumerator {
     /**
      * The '<em><b>BLASTDAMPER</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>BLASTDAMPER</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #BLASTDAMPER
      * @model
@@ -325,10 +285,6 @@ public enum IfcDamperTypeEnum implements Enumerator {
     /**
      * The '<em><b>BACKDRAFTDAMPER</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>BACKDRAFTDAMPER</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #BACKDRAFTDAMPER
      * @model
@@ -340,10 +296,6 @@ public enum IfcDamperTypeEnum implements Enumerator {
     /**
      * The '<em><b>FIRESMOKEDAMPER</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>FIRESMOKEDAMPER</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #FIRESMOKEDAMPER
      * @model
@@ -355,10 +307,6 @@ public enum IfcDamperTypeEnum implements Enumerator {
     /**
      * The '<em><b>RELIEFDAMPER</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>RELIEFDAMPER</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #RELIEFDAMPER
      * @model
@@ -370,10 +318,6 @@ public enum IfcDamperTypeEnum implements Enumerator {
     /**
      * The '<em><b>SMOKEDAMPER</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>SMOKEDAMPER</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #SMOKEDAMPER
      * @model

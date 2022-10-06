@@ -46,10 +46,6 @@ public interface IfcRectangularTrimmedSurface extends IfcBoundedSurface {
     /**
      * Returns the value of the '<em><b>Basis Surface</b></em>' reference.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Basis Surface</em>' reference isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Basis Surface</em>' reference.
      * @see #setBasisSurface(IfcSurface)
@@ -72,10 +68,6 @@ public interface IfcRectangularTrimmedSurface extends IfcBoundedSurface {
     /**
      * Returns the value of the '<em><b>U1</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>U1</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>U1</em>' attribute.
      * @see #setU1(double)
@@ -98,10 +90,6 @@ public interface IfcRectangularTrimmedSurface extends IfcBoundedSurface {
     /**
      * Returns the value of the '<em><b>U1 As String</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>U1 As String</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>U1 As String</em>' attribute.
      * @see #setU1AsString(String)
@@ -125,10 +113,6 @@ public interface IfcRectangularTrimmedSurface extends IfcBoundedSurface {
     /**
      * Returns the value of the '<em><b>V1</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>V1</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>V1</em>' attribute.
      * @see #setV1(double)
@@ -151,10 +135,6 @@ public interface IfcRectangularTrimmedSurface extends IfcBoundedSurface {
     /**
      * Returns the value of the '<em><b>V1 As String</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>V1 As String</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>V1 As String</em>' attribute.
      * @see #setV1AsString(String)
@@ -178,10 +158,6 @@ public interface IfcRectangularTrimmedSurface extends IfcBoundedSurface {
     /**
      * Returns the value of the '<em><b>U2</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>U2</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>U2</em>' attribute.
      * @see #setU2(double)
@@ -204,10 +180,6 @@ public interface IfcRectangularTrimmedSurface extends IfcBoundedSurface {
     /**
      * Returns the value of the '<em><b>U2 As String</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>U2 As String</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>U2 As String</em>' attribute.
      * @see #setU2AsString(String)
@@ -231,10 +203,6 @@ public interface IfcRectangularTrimmedSurface extends IfcBoundedSurface {
     /**
      * Returns the value of the '<em><b>V2</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>V2</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>V2</em>' attribute.
      * @see #setV2(double)
@@ -257,10 +225,6 @@ public interface IfcRectangularTrimmedSurface extends IfcBoundedSurface {
     /**
      * Returns the value of the '<em><b>V2 As String</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>V2 As String</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>V2 As String</em>' attribute.
      * @see #setV2AsString(String)
@@ -285,10 +249,6 @@ public interface IfcRectangularTrimmedSurface extends IfcBoundedSurface {
      * Returns the value of the '<em><b>Usense</b></em>' attribute.
      * The literals are from the enumeration {@link org.bimserver.models.ifc4.Tristate}.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Usense</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Usense</em>' attribute.
      * @see org.bimserver.models.ifc4.Tristate
@@ -314,10 +274,6 @@ public interface IfcRectangularTrimmedSurface extends IfcBoundedSurface {
      * Returns the value of the '<em><b>Vsense</b></em>' attribute.
      * The literals are from the enumeration {@link org.bimserver.models.ifc4.Tristate}.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Vsense</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Vsense</em>' attribute.
      * @see org.bimserver.models.ifc4.Tristate

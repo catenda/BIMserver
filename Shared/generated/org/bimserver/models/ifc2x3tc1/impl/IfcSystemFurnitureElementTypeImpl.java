@@ -46,7 +46,7 @@ public class IfcSystemFurnitureElementTypeImpl extends IfcFurnishingElementTypeI
      */
     @Override
     protected EClass eStaticClass() {
-        return Ifc2x3tc1Package.Literals.IFC_SYSTEM_FURNITURE_ELEMENT_TYPE;
+        return Ifc2x3tc1Package.eINSTANCE.getIfcSystemFurnitureElementType();
     }
 
 } //IfcSystemFurnitureElementTypeImpl

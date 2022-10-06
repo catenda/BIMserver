@@ -53,7 +53,7 @@ public class IfcConstructionEquipmentResourceImpl extends IfcConstructionResourc
      */
     @Override
     protected EClass eStaticClass() {
-        return Ifc4Package.Literals.IFC_CONSTRUCTION_EQUIPMENT_RESOURCE;
+        return Ifc4Package.eINSTANCE.getIfcConstructionEquipmentResource();
     }
 
     /**
@@ -64,7 +64,7 @@ public class IfcConstructionEquipmentResourceImpl extends IfcConstructionResourc
     @Override
     public IfcConstructionEquipmentResourceTypeEnum getPredefinedType() {
         return (IfcConstructionEquipmentResourceTypeEnum) eGet(
-                Ifc4Package.Literals.IFC_CONSTRUCTION_EQUIPMENT_RESOURCE__PREDEFINED_TYPE, true);
+                Ifc4Package.eINSTANCE.getIfcConstructionEquipmentResource_PredefinedType(), true);
     }
 
     /**
@@ -74,7 +74,7 @@ public class IfcConstructionEquipmentResourceImpl extends IfcConstructionResourc
      */
     @Override
     public void setPredefinedType(IfcConstructionEquipmentResourceTypeEnum newPredefinedType) {
-        eSet(Ifc4Package.Literals.IFC_CONSTRUCTION_EQUIPMENT_RESOURCE__PREDEFINED_TYPE, newPredefinedType);
+        eSet(Ifc4Package.eINSTANCE.getIfcConstructionEquipmentResource_PredefinedType(), newPredefinedType);
     }
 
     /**
@@ -84,7 +84,7 @@ public class IfcConstructionEquipmentResourceImpl extends IfcConstructionResourc
      */
     @Override
     public void unsetPredefinedType() {
-        eUnset(Ifc4Package.Literals.IFC_CONSTRUCTION_EQUIPMENT_RESOURCE__PREDEFINED_TYPE);
+        eUnset(Ifc4Package.eINSTANCE.getIfcConstructionEquipmentResource_PredefinedType());
     }
 
     /**
@@ -94,7 +94,7 @@ public class IfcConstructionEquipmentResourceImpl extends IfcConstructionResourc
      */
     @Override
     public boolean isSetPredefinedType() {
-        return eIsSet(Ifc4Package.Literals.IFC_CONSTRUCTION_EQUIPMENT_RESOURCE__PREDEFINED_TYPE);
+        return eIsSet(Ifc4Package.eINSTANCE.getIfcConstructionEquipmentResource_PredefinedType());
     }
 
 } //IfcConstructionEquipmentResourceImpl

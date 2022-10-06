@@ -56,7 +56,7 @@ public class IfcTextureCoordinateImpl extends IdEObjectImpl implements IfcTextur
      */
     @Override
     protected EClass eStaticClass() {
-        return Ifc2x3tc1Package.Literals.IFC_TEXTURE_COORDINATE;
+        return Ifc2x3tc1Package.eINSTANCE.getIfcTextureCoordinate();
     }
 
     /**
@@ -77,7 +77,7 @@ public class IfcTextureCoordinateImpl extends IdEObjectImpl implements IfcTextur
     @SuppressWarnings("unchecked")
     @Override
     public EList<IfcAnnotationSurface> getAnnotatedSurface() {
-        return (EList<IfcAnnotationSurface>) eGet(Ifc2x3tc1Package.Literals.IFC_TEXTURE_COORDINATE__ANNOTATED_SURFACE,
+        return (EList<IfcAnnotationSurface>) eGet(Ifc2x3tc1Package.eINSTANCE.getIfcTextureCoordinate_AnnotatedSurface(),
                 true);
     }
 
@@ -88,7 +88,7 @@ public class IfcTextureCoordinateImpl extends IdEObjectImpl implements IfcTextur
      */
     @Override
     public void unsetAnnotatedSurface() {
-        eUnset(Ifc2x3tc1Package.Literals.IFC_TEXTURE_COORDINATE__ANNOTATED_SURFACE);
+        eUnset(Ifc2x3tc1Package.eINSTANCE.getIfcTextureCoordinate_AnnotatedSurface());
     }
 
     /**
@@ -98,7 +98,7 @@ public class IfcTextureCoordinateImpl extends IdEObjectImpl implements IfcTextur
      */
     @Override
     public boolean isSetAnnotatedSurface() {
-        return eIsSet(Ifc2x3tc1Package.Literals.IFC_TEXTURE_COORDINATE__ANNOTATED_SURFACE);
+        return eIsSet(Ifc2x3tc1Package.eINSTANCE.getIfcTextureCoordinate_AnnotatedSurface());
     }
 
 } //IfcTextureCoordinateImpl

@@ -57,7 +57,7 @@ public class IfcTypeResourceImpl extends IfcTypeObjectImpl implements IfcTypeRes
      */
     @Override
     protected EClass eStaticClass() {
-        return Ifc4Package.Literals.IFC_TYPE_RESOURCE;
+        return Ifc4Package.eINSTANCE.getIfcTypeResource();
     }
 
     /**
@@ -67,7 +67,7 @@ public class IfcTypeResourceImpl extends IfcTypeObjectImpl implements IfcTypeRes
      */
     @Override
     public String getIdentification() {
-        return (String) eGet(Ifc4Package.Literals.IFC_TYPE_RESOURCE__IDENTIFICATION, true);
+        return (String) eGet(Ifc4Package.eINSTANCE.getIfcTypeResource_Identification(), true);
     }
 
     /**
@@ -77,7 +77,7 @@ public class IfcTypeResourceImpl extends IfcTypeObjectImpl implements IfcTypeRes
      */
     @Override
     public void setIdentification(String newIdentification) {
-        eSet(Ifc4Package.Literals.IFC_TYPE_RESOURCE__IDENTIFICATION, newIdentification);
+        eSet(Ifc4Package.eINSTANCE.getIfcTypeResource_Identification(), newIdentification);
     }
 
     /**
@@ -87,7 +87,7 @@ public class IfcTypeResourceImpl extends IfcTypeObjectImpl implements IfcTypeRes
      */
     @Override
     public void unsetIdentification() {
-        eUnset(Ifc4Package.Literals.IFC_TYPE_RESOURCE__IDENTIFICATION);
+        eUnset(Ifc4Package.eINSTANCE.getIfcTypeResource_Identification());
     }
 
     /**
@@ -97,7 +97,7 @@ public class IfcTypeResourceImpl extends IfcTypeObjectImpl implements IfcTypeRes
      */
     @Override
     public boolean isSetIdentification() {
-        return eIsSet(Ifc4Package.Literals.IFC_TYPE_RESOURCE__IDENTIFICATION);
+        return eIsSet(Ifc4Package.eINSTANCE.getIfcTypeResource_Identification());
     }
 
     /**
@@ -107,7 +107,7 @@ public class IfcTypeResourceImpl extends IfcTypeObjectImpl implements IfcTypeRes
      */
     @Override
     public String getLongDescription() {
-        return (String) eGet(Ifc4Package.Literals.IFC_TYPE_RESOURCE__LONG_DESCRIPTION, true);
+        return (String) eGet(Ifc4Package.eINSTANCE.getIfcTypeResource_LongDescription(), true);
     }
 
     /**
@@ -117,7 +117,7 @@ public class IfcTypeResourceImpl extends IfcTypeObjectImpl implements IfcTypeRes
      */
     @Override
     public void setLongDescription(String newLongDescription) {
-        eSet(Ifc4Package.Literals.IFC_TYPE_RESOURCE__LONG_DESCRIPTION, newLongDescription);
+        eSet(Ifc4Package.eINSTANCE.getIfcTypeResource_LongDescription(), newLongDescription);
     }
 
     /**
@@ -127,7 +127,7 @@ public class IfcTypeResourceImpl extends IfcTypeObjectImpl implements IfcTypeRes
      */
     @Override
     public void unsetLongDescription() {
-        eUnset(Ifc4Package.Literals.IFC_TYPE_RESOURCE__LONG_DESCRIPTION);
+        eUnset(Ifc4Package.eINSTANCE.getIfcTypeResource_LongDescription());
     }
 
     /**
@@ -137,7 +137,7 @@ public class IfcTypeResourceImpl extends IfcTypeObjectImpl implements IfcTypeRes
      */
     @Override
     public boolean isSetLongDescription() {
-        return eIsSet(Ifc4Package.Literals.IFC_TYPE_RESOURCE__LONG_DESCRIPTION);
+        return eIsSet(Ifc4Package.eINSTANCE.getIfcTypeResource_LongDescription());
     }
 
     /**
@@ -147,7 +147,7 @@ public class IfcTypeResourceImpl extends IfcTypeObjectImpl implements IfcTypeRes
      */
     @Override
     public String getResourceType() {
-        return (String) eGet(Ifc4Package.Literals.IFC_TYPE_RESOURCE__RESOURCE_TYPE, true);
+        return (String) eGet(Ifc4Package.eINSTANCE.getIfcTypeResource_ResourceType(), true);
     }
 
     /**
@@ -157,7 +157,7 @@ public class IfcTypeResourceImpl extends IfcTypeObjectImpl implements IfcTypeRes
      */
     @Override
     public void setResourceType(String newResourceType) {
-        eSet(Ifc4Package.Literals.IFC_TYPE_RESOURCE__RESOURCE_TYPE, newResourceType);
+        eSet(Ifc4Package.eINSTANCE.getIfcTypeResource_ResourceType(), newResourceType);
     }
 
     /**
@@ -167,7 +167,7 @@ public class IfcTypeResourceImpl extends IfcTypeObjectImpl implements IfcTypeRes
      */
     @Override
     public void unsetResourceType() {
-        eUnset(Ifc4Package.Literals.IFC_TYPE_RESOURCE__RESOURCE_TYPE);
+        eUnset(Ifc4Package.eINSTANCE.getIfcTypeResource_ResourceType());
     }
 
     /**
@@ -177,7 +177,7 @@ public class IfcTypeResourceImpl extends IfcTypeObjectImpl implements IfcTypeRes
      */
     @Override
     public boolean isSetResourceType() {
-        return eIsSet(Ifc4Package.Literals.IFC_TYPE_RESOURCE__RESOURCE_TYPE);
+        return eIsSet(Ifc4Package.eINSTANCE.getIfcTypeResource_ResourceType());
     }
 
     /**
@@ -188,7 +188,7 @@ public class IfcTypeResourceImpl extends IfcTypeObjectImpl implements IfcTypeRes
     @SuppressWarnings("unchecked")
     @Override
     public EList<IfcRelAssignsToResource> getResourceOf() {
-        return (EList<IfcRelAssignsToResource>) eGet(Ifc4Package.Literals.IFC_TYPE_RESOURCE__RESOURCE_OF, true);
+        return (EList<IfcRelAssignsToResource>) eGet(Ifc4Package.eINSTANCE.getIfcTypeResource_ResourceOf(), true);
     }
 
     /**
@@ -198,7 +198,7 @@ public class IfcTypeResourceImpl extends IfcTypeObjectImpl implements IfcTypeRes
      */
     @Override
     public void unsetResourceOf() {
-        eUnset(Ifc4Package.Literals.IFC_TYPE_RESOURCE__RESOURCE_OF);
+        eUnset(Ifc4Package.eINSTANCE.getIfcTypeResource_ResourceOf());
     }
 
     /**
@@ -208,7 +208,7 @@ public class IfcTypeResourceImpl extends IfcTypeObjectImpl implements IfcTypeRes
      */
     @Override
     public boolean isSetResourceOf() {
-        return eIsSet(Ifc4Package.Literals.IFC_TYPE_RESOURCE__RESOURCE_OF);
+        return eIsSet(Ifc4Package.eINSTANCE.getIfcTypeResource_ResourceOf());
     }
 
 } //IfcTypeResourceImpl

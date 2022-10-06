@@ -56,7 +56,7 @@ public class IfcExtendedPropertiesImpl extends IfcPropertyAbstractionImpl implem
      */
     @Override
     protected EClass eStaticClass() {
-        return Ifc4Package.Literals.IFC_EXTENDED_PROPERTIES;
+        return Ifc4Package.eINSTANCE.getIfcExtendedProperties();
     }
 
     /**
@@ -66,7 +66,7 @@ public class IfcExtendedPropertiesImpl extends IfcPropertyAbstractionImpl implem
      */
     @Override
     public String getName() {
-        return (String) eGet(Ifc4Package.Literals.IFC_EXTENDED_PROPERTIES__NAME, true);
+        return (String) eGet(Ifc4Package.eINSTANCE.getIfcExtendedProperties_Name(), true);
     }
 
     /**
@@ -76,7 +76,7 @@ public class IfcExtendedPropertiesImpl extends IfcPropertyAbstractionImpl implem
      */
     @Override
     public void setName(String newName) {
-        eSet(Ifc4Package.Literals.IFC_EXTENDED_PROPERTIES__NAME, newName);
+        eSet(Ifc4Package.eINSTANCE.getIfcExtendedProperties_Name(), newName);
     }
 
     /**
@@ -86,7 +86,7 @@ public class IfcExtendedPropertiesImpl extends IfcPropertyAbstractionImpl implem
      */
     @Override
     public void unsetName() {
-        eUnset(Ifc4Package.Literals.IFC_EXTENDED_PROPERTIES__NAME);
+        eUnset(Ifc4Package.eINSTANCE.getIfcExtendedProperties_Name());
     }
 
     /**
@@ -96,7 +96,7 @@ public class IfcExtendedPropertiesImpl extends IfcPropertyAbstractionImpl implem
      */
     @Override
     public boolean isSetName() {
-        return eIsSet(Ifc4Package.Literals.IFC_EXTENDED_PROPERTIES__NAME);
+        return eIsSet(Ifc4Package.eINSTANCE.getIfcExtendedProperties_Name());
     }
 
     /**
@@ -106,7 +106,7 @@ public class IfcExtendedPropertiesImpl extends IfcPropertyAbstractionImpl implem
      */
     @Override
     public String getDescription() {
-        return (String) eGet(Ifc4Package.Literals.IFC_EXTENDED_PROPERTIES__DESCRIPTION, true);
+        return (String) eGet(Ifc4Package.eINSTANCE.getIfcExtendedProperties_Description(), true);
     }
 
     /**
@@ -116,7 +116,7 @@ public class IfcExtendedPropertiesImpl extends IfcPropertyAbstractionImpl implem
      */
     @Override
     public void setDescription(String newDescription) {
-        eSet(Ifc4Package.Literals.IFC_EXTENDED_PROPERTIES__DESCRIPTION, newDescription);
+        eSet(Ifc4Package.eINSTANCE.getIfcExtendedProperties_Description(), newDescription);
     }
 
     /**
@@ -126,7 +126,7 @@ public class IfcExtendedPropertiesImpl extends IfcPropertyAbstractionImpl implem
      */
     @Override
     public void unsetDescription() {
-        eUnset(Ifc4Package.Literals.IFC_EXTENDED_PROPERTIES__DESCRIPTION);
+        eUnset(Ifc4Package.eINSTANCE.getIfcExtendedProperties_Description());
     }
 
     /**
@@ -136,7 +136,7 @@ public class IfcExtendedPropertiesImpl extends IfcPropertyAbstractionImpl implem
      */
     @Override
     public boolean isSetDescription() {
-        return eIsSet(Ifc4Package.Literals.IFC_EXTENDED_PROPERTIES__DESCRIPTION);
+        return eIsSet(Ifc4Package.eINSTANCE.getIfcExtendedProperties_Description());
     }
 
     /**
@@ -147,7 +147,7 @@ public class IfcExtendedPropertiesImpl extends IfcPropertyAbstractionImpl implem
     @SuppressWarnings("unchecked")
     @Override
     public EList<IfcProperty> getProperties() {
-        return (EList<IfcProperty>) eGet(Ifc4Package.Literals.IFC_EXTENDED_PROPERTIES__PROPERTIES, true);
+        return (EList<IfcProperty>) eGet(Ifc4Package.eINSTANCE.getIfcExtendedProperties_Properties(), true);
     }
 
 } //IfcExtendedPropertiesImpl

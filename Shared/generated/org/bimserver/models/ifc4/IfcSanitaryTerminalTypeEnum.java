@@ -165,10 +165,6 @@ public enum IfcSanitaryTerminalTypeEnum implements Enumerator {
     /**
      * The '<em><b>NULL</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>NULL</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #NULL
      * @model
@@ -180,10 +176,6 @@ public enum IfcSanitaryTerminalTypeEnum implements Enumerator {
     /**
      * The '<em><b>NOTDEFINED</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>NOTDEFINED</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #NOTDEFINED
      * @model
@@ -195,10 +187,6 @@ public enum IfcSanitaryTerminalTypeEnum implements Enumerator {
     /**
      * The '<em><b>SHOWER</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>SHOWER</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #SHOWER
      * @model
@@ -210,10 +198,6 @@ public enum IfcSanitaryTerminalTypeEnum implements Enumerator {
     /**
      * The '<em><b>SINK</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>SINK</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #SINK
      * @model
@@ -225,10 +209,6 @@ public enum IfcSanitaryTerminalTypeEnum implements Enumerator {
     /**
      * The '<em><b>CISTERN</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>CISTERN</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #CISTERN
      * @model
@@ -240,10 +220,6 @@ public enum IfcSanitaryTerminalTypeEnum implements Enumerator {
     /**
      * The '<em><b>WASHHANDBASIN</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>WASHHANDBASIN</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #WASHHANDBASIN
      * @model
@@ -255,10 +231,6 @@ public enum IfcSanitaryTerminalTypeEnum implements Enumerator {
     /**
      * The '<em><b>BIDET</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>BIDET</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #BIDET
      * @model
@@ -270,10 +242,6 @@ public enum IfcSanitaryTerminalTypeEnum implements Enumerator {
     /**
      * The '<em><b>USERDEFINED</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>USERDEFINED</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #USERDEFINED
      * @model
@@ -285,10 +253,6 @@ public enum IfcSanitaryTerminalTypeEnum implements Enumerator {
     /**
      * The '<em><b>SANITARYFOUNTAIN</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>SANITARYFOUNTAIN</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #SANITARYFOUNTAIN
      * @model
@@ -300,10 +264,6 @@ public enum IfcSanitaryTerminalTypeEnum implements Enumerator {
     /**
      * The '<em><b>TOILETPAN</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>TOILETPAN</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #TOILETPAN
      * @model
@@ -315,10 +275,6 @@ public enum IfcSanitaryTerminalTypeEnum implements Enumerator {
     /**
      * The '<em><b>URINAL</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>URINAL</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #URINAL
      * @model
@@ -330,10 +286,6 @@ public enum IfcSanitaryTerminalTypeEnum implements Enumerator {
     /**
      * The '<em><b>BATH</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>BATH</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #BATH
      * @model
@@ -345,10 +297,6 @@ public enum IfcSanitaryTerminalTypeEnum implements Enumerator {
     /**
      * The '<em><b>WCSEAT</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>WCSEAT</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #WCSEAT
      * @model

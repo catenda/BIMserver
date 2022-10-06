@@ -55,7 +55,7 @@ public class IfcComplexPropertyImpl extends IfcPropertyImpl implements IfcComple
      */
     @Override
     protected EClass eStaticClass() {
-        return Ifc2x3tc1Package.Literals.IFC_COMPLEX_PROPERTY;
+        return Ifc2x3tc1Package.eINSTANCE.getIfcComplexProperty();
     }
 
     /**
@@ -65,7 +65,7 @@ public class IfcComplexPropertyImpl extends IfcPropertyImpl implements IfcComple
      */
     @Override
     public String getUsageName() {
-        return (String) eGet(Ifc2x3tc1Package.Literals.IFC_COMPLEX_PROPERTY__USAGE_NAME, true);
+        return (String) eGet(Ifc2x3tc1Package.eINSTANCE.getIfcComplexProperty_UsageName(), true);
     }
 
     /**
@@ -75,7 +75,7 @@ public class IfcComplexPropertyImpl extends IfcPropertyImpl implements IfcComple
      */
     @Override
     public void setUsageName(String newUsageName) {
-        eSet(Ifc2x3tc1Package.Literals.IFC_COMPLEX_PROPERTY__USAGE_NAME, newUsageName);
+        eSet(Ifc2x3tc1Package.eINSTANCE.getIfcComplexProperty_UsageName(), newUsageName);
     }
 
     /**
@@ -86,7 +86,7 @@ public class IfcComplexPropertyImpl extends IfcPropertyImpl implements IfcComple
     @SuppressWarnings("unchecked")
     @Override
     public EList<IfcProperty> getHasProperties() {
-        return (EList<IfcProperty>) eGet(Ifc2x3tc1Package.Literals.IFC_COMPLEX_PROPERTY__HAS_PROPERTIES, true);
+        return (EList<IfcProperty>) eGet(Ifc2x3tc1Package.eINSTANCE.getIfcComplexProperty_HasProperties(), true);
     }
 
 } //IfcComplexPropertyImpl

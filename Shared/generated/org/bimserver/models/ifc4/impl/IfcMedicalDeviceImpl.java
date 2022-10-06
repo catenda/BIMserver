@@ -52,7 +52,7 @@ public class IfcMedicalDeviceImpl extends IfcFlowTerminalImpl implements IfcMedi
      */
     @Override
     protected EClass eStaticClass() {
-        return Ifc4Package.Literals.IFC_MEDICAL_DEVICE;
+        return Ifc4Package.eINSTANCE.getIfcMedicalDevice();
     }
 
     /**
@@ -62,7 +62,7 @@ public class IfcMedicalDeviceImpl extends IfcFlowTerminalImpl implements IfcMedi
      */
     @Override
     public IfcMedicalDeviceTypeEnum getPredefinedType() {
-        return (IfcMedicalDeviceTypeEnum) eGet(Ifc4Package.Literals.IFC_MEDICAL_DEVICE__PREDEFINED_TYPE, true);
+        return (IfcMedicalDeviceTypeEnum) eGet(Ifc4Package.eINSTANCE.getIfcMedicalDevice_PredefinedType(), true);
     }
 
     /**
@@ -72,7 +72,7 @@ public class IfcMedicalDeviceImpl extends IfcFlowTerminalImpl implements IfcMedi
      */
     @Override
     public void setPredefinedType(IfcMedicalDeviceTypeEnum newPredefinedType) {
-        eSet(Ifc4Package.Literals.IFC_MEDICAL_DEVICE__PREDEFINED_TYPE, newPredefinedType);
+        eSet(Ifc4Package.eINSTANCE.getIfcMedicalDevice_PredefinedType(), newPredefinedType);
     }
 
     /**
@@ -82,7 +82,7 @@ public class IfcMedicalDeviceImpl extends IfcFlowTerminalImpl implements IfcMedi
      */
     @Override
     public void unsetPredefinedType() {
-        eUnset(Ifc4Package.Literals.IFC_MEDICAL_DEVICE__PREDEFINED_TYPE);
+        eUnset(Ifc4Package.eINSTANCE.getIfcMedicalDevice_PredefinedType());
     }
 
     /**
@@ -92,7 +92,7 @@ public class IfcMedicalDeviceImpl extends IfcFlowTerminalImpl implements IfcMedi
      */
     @Override
     public boolean isSetPredefinedType() {
-        return eIsSet(Ifc4Package.Literals.IFC_MEDICAL_DEVICE__PREDEFINED_TYPE);
+        return eIsSet(Ifc4Package.eINSTANCE.getIfcMedicalDevice_PredefinedType());
     }
 
 } //IfcMedicalDeviceImpl

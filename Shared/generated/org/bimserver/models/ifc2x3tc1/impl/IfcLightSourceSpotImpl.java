@@ -58,7 +58,7 @@ public class IfcLightSourceSpotImpl extends IfcLightSourcePositionalImpl impleme
      */
     @Override
     protected EClass eStaticClass() {
-        return Ifc2x3tc1Package.Literals.IFC_LIGHT_SOURCE_SPOT;
+        return Ifc2x3tc1Package.eINSTANCE.getIfcLightSourceSpot();
     }
 
     /**
@@ -68,7 +68,7 @@ public class IfcLightSourceSpotImpl extends IfcLightSourcePositionalImpl impleme
      */
     @Override
     public IfcDirection getOrientation() {
-        return (IfcDirection) eGet(Ifc2x3tc1Package.Literals.IFC_LIGHT_SOURCE_SPOT__ORIENTATION, true);
+        return (IfcDirection) eGet(Ifc2x3tc1Package.eINSTANCE.getIfcLightSourceSpot_Orientation(), true);
     }
 
     /**
@@ -78,7 +78,7 @@ public class IfcLightSourceSpotImpl extends IfcLightSourcePositionalImpl impleme
      */
     @Override
     public void setOrientation(IfcDirection newOrientation) {
-        eSet(Ifc2x3tc1Package.Literals.IFC_LIGHT_SOURCE_SPOT__ORIENTATION, newOrientation);
+        eSet(Ifc2x3tc1Package.eINSTANCE.getIfcLightSourceSpot_Orientation(), newOrientation);
     }
 
     /**
@@ -88,7 +88,7 @@ public class IfcLightSourceSpotImpl extends IfcLightSourcePositionalImpl impleme
      */
     @Override
     public double getConcentrationExponent() {
-        return (Double) eGet(Ifc2x3tc1Package.Literals.IFC_LIGHT_SOURCE_SPOT__CONCENTRATION_EXPONENT, true);
+        return (Double) eGet(Ifc2x3tc1Package.eINSTANCE.getIfcLightSourceSpot_ConcentrationExponent(), true);
     }
 
     /**
@@ -98,7 +98,7 @@ public class IfcLightSourceSpotImpl extends IfcLightSourcePositionalImpl impleme
      */
     @Override
     public void setConcentrationExponent(double newConcentrationExponent) {
-        eSet(Ifc2x3tc1Package.Literals.IFC_LIGHT_SOURCE_SPOT__CONCENTRATION_EXPONENT, newConcentrationExponent);
+        eSet(Ifc2x3tc1Package.eINSTANCE.getIfcLightSourceSpot_ConcentrationExponent(), newConcentrationExponent);
     }
 
     /**
@@ -108,7 +108,7 @@ public class IfcLightSourceSpotImpl extends IfcLightSourcePositionalImpl impleme
      */
     @Override
     public void unsetConcentrationExponent() {
-        eUnset(Ifc2x3tc1Package.Literals.IFC_LIGHT_SOURCE_SPOT__CONCENTRATION_EXPONENT);
+        eUnset(Ifc2x3tc1Package.eINSTANCE.getIfcLightSourceSpot_ConcentrationExponent());
     }
 
     /**
@@ -118,7 +118,7 @@ public class IfcLightSourceSpotImpl extends IfcLightSourcePositionalImpl impleme
      */
     @Override
     public boolean isSetConcentrationExponent() {
-        return eIsSet(Ifc2x3tc1Package.Literals.IFC_LIGHT_SOURCE_SPOT__CONCENTRATION_EXPONENT);
+        return eIsSet(Ifc2x3tc1Package.eINSTANCE.getIfcLightSourceSpot_ConcentrationExponent());
     }
 
     /**
@@ -128,7 +128,7 @@ public class IfcLightSourceSpotImpl extends IfcLightSourcePositionalImpl impleme
      */
     @Override
     public String getConcentrationExponentAsString() {
-        return (String) eGet(Ifc2x3tc1Package.Literals.IFC_LIGHT_SOURCE_SPOT__CONCENTRATION_EXPONENT_AS_STRING, true);
+        return (String) eGet(Ifc2x3tc1Package.eINSTANCE.getIfcLightSourceSpot_ConcentrationExponentAsString(), true);
     }
 
     /**
@@ -138,7 +138,7 @@ public class IfcLightSourceSpotImpl extends IfcLightSourcePositionalImpl impleme
      */
     @Override
     public void setConcentrationExponentAsString(String newConcentrationExponentAsString) {
-        eSet(Ifc2x3tc1Package.Literals.IFC_LIGHT_SOURCE_SPOT__CONCENTRATION_EXPONENT_AS_STRING,
+        eSet(Ifc2x3tc1Package.eINSTANCE.getIfcLightSourceSpot_ConcentrationExponentAsString(),
                 newConcentrationExponentAsString);
     }
 
@@ -149,7 +149,7 @@ public class IfcLightSourceSpotImpl extends IfcLightSourcePositionalImpl impleme
      */
     @Override
     public void unsetConcentrationExponentAsString() {
-        eUnset(Ifc2x3tc1Package.Literals.IFC_LIGHT_SOURCE_SPOT__CONCENTRATION_EXPONENT_AS_STRING);
+        eUnset(Ifc2x3tc1Package.eINSTANCE.getIfcLightSourceSpot_ConcentrationExponentAsString());
     }
 
     /**
@@ -159,7 +159,7 @@ public class IfcLightSourceSpotImpl extends IfcLightSourcePositionalImpl impleme
      */
     @Override
     public boolean isSetConcentrationExponentAsString() {
-        return eIsSet(Ifc2x3tc1Package.Literals.IFC_LIGHT_SOURCE_SPOT__CONCENTRATION_EXPONENT_AS_STRING);
+        return eIsSet(Ifc2x3tc1Package.eINSTANCE.getIfcLightSourceSpot_ConcentrationExponentAsString());
     }
 
     /**
@@ -169,7 +169,7 @@ public class IfcLightSourceSpotImpl extends IfcLightSourcePositionalImpl impleme
      */
     @Override
     public double getSpreadAngle() {
-        return (Double) eGet(Ifc2x3tc1Package.Literals.IFC_LIGHT_SOURCE_SPOT__SPREAD_ANGLE, true);
+        return (Double) eGet(Ifc2x3tc1Package.eINSTANCE.getIfcLightSourceSpot_SpreadAngle(), true);
     }
 
     /**
@@ -179,7 +179,7 @@ public class IfcLightSourceSpotImpl extends IfcLightSourcePositionalImpl impleme
      */
     @Override
     public void setSpreadAngle(double newSpreadAngle) {
-        eSet(Ifc2x3tc1Package.Literals.IFC_LIGHT_SOURCE_SPOT__SPREAD_ANGLE, newSpreadAngle);
+        eSet(Ifc2x3tc1Package.eINSTANCE.getIfcLightSourceSpot_SpreadAngle(), newSpreadAngle);
     }
 
     /**
@@ -189,7 +189,7 @@ public class IfcLightSourceSpotImpl extends IfcLightSourcePositionalImpl impleme
      */
     @Override
     public String getSpreadAngleAsString() {
-        return (String) eGet(Ifc2x3tc1Package.Literals.IFC_LIGHT_SOURCE_SPOT__SPREAD_ANGLE_AS_STRING, true);
+        return (String) eGet(Ifc2x3tc1Package.eINSTANCE.getIfcLightSourceSpot_SpreadAngleAsString(), true);
     }
 
     /**
@@ -199,7 +199,7 @@ public class IfcLightSourceSpotImpl extends IfcLightSourcePositionalImpl impleme
      */
     @Override
     public void setSpreadAngleAsString(String newSpreadAngleAsString) {
-        eSet(Ifc2x3tc1Package.Literals.IFC_LIGHT_SOURCE_SPOT__SPREAD_ANGLE_AS_STRING, newSpreadAngleAsString);
+        eSet(Ifc2x3tc1Package.eINSTANCE.getIfcLightSourceSpot_SpreadAngleAsString(), newSpreadAngleAsString);
     }
 
     /**
@@ -209,7 +209,7 @@ public class IfcLightSourceSpotImpl extends IfcLightSourcePositionalImpl impleme
      */
     @Override
     public double getBeamWidthAngle() {
-        return (Double) eGet(Ifc2x3tc1Package.Literals.IFC_LIGHT_SOURCE_SPOT__BEAM_WIDTH_ANGLE, true);
+        return (Double) eGet(Ifc2x3tc1Package.eINSTANCE.getIfcLightSourceSpot_BeamWidthAngle(), true);
     }
 
     /**
@@ -219,7 +219,7 @@ public class IfcLightSourceSpotImpl extends IfcLightSourcePositionalImpl impleme
      */
     @Override
     public void setBeamWidthAngle(double newBeamWidthAngle) {
-        eSet(Ifc2x3tc1Package.Literals.IFC_LIGHT_SOURCE_SPOT__BEAM_WIDTH_ANGLE, newBeamWidthAngle);
+        eSet(Ifc2x3tc1Package.eINSTANCE.getIfcLightSourceSpot_BeamWidthAngle(), newBeamWidthAngle);
     }
 
     /**
@@ -229,7 +229,7 @@ public class IfcLightSourceSpotImpl extends IfcLightSourcePositionalImpl impleme
      */
     @Override
     public String getBeamWidthAngleAsString() {
-        return (String) eGet(Ifc2x3tc1Package.Literals.IFC_LIGHT_SOURCE_SPOT__BEAM_WIDTH_ANGLE_AS_STRING, true);
+        return (String) eGet(Ifc2x3tc1Package.eINSTANCE.getIfcLightSourceSpot_BeamWidthAngleAsString(), true);
     }
 
     /**
@@ -239,7 +239,7 @@ public class IfcLightSourceSpotImpl extends IfcLightSourcePositionalImpl impleme
      */
     @Override
     public void setBeamWidthAngleAsString(String newBeamWidthAngleAsString) {
-        eSet(Ifc2x3tc1Package.Literals.IFC_LIGHT_SOURCE_SPOT__BEAM_WIDTH_ANGLE_AS_STRING, newBeamWidthAngleAsString);
+        eSet(Ifc2x3tc1Package.eINSTANCE.getIfcLightSourceSpot_BeamWidthAngleAsString(), newBeamWidthAngleAsString);
     }
 
 } //IfcLightSourceSpotImpl

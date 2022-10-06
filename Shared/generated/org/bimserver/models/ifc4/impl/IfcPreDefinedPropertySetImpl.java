@@ -45,7 +45,7 @@ public class IfcPreDefinedPropertySetImpl extends IfcPropertySetDefinitionImpl i
      */
     @Override
     protected EClass eStaticClass() {
-        return Ifc4Package.Literals.IFC_PRE_DEFINED_PROPERTY_SET;
+        return Ifc4Package.eINSTANCE.getIfcPreDefinedPropertySet();
     }
 
 } //IfcPreDefinedPropertySetImpl

@@ -53,7 +53,7 @@ public class IfcTextDecorationImpl extends IdEObjectImpl implements IfcTextDecor
      */
     @Override
     protected EClass eStaticClass() {
-        return Ifc2x3tc1Package.Literals.IFC_TEXT_DECORATION;
+        return Ifc2x3tc1Package.eINSTANCE.getIfcTextDecoration();
     }
 
     /**
@@ -73,7 +73,7 @@ public class IfcTextDecorationImpl extends IdEObjectImpl implements IfcTextDecor
      */
     @Override
     public String getWrappedValue() {
-        return (String) eGet(Ifc2x3tc1Package.Literals.IFC_TEXT_DECORATION__WRAPPED_VALUE, true);
+        return (String) eGet(Ifc2x3tc1Package.eINSTANCE.getIfcTextDecoration_WrappedValue(), true);
     }
 
     /**
@@ -83,7 +83,7 @@ public class IfcTextDecorationImpl extends IdEObjectImpl implements IfcTextDecor
      */
     @Override
     public void setWrappedValue(String newWrappedValue) {
-        eSet(Ifc2x3tc1Package.Literals.IFC_TEXT_DECORATION__WRAPPED_VALUE, newWrappedValue);
+        eSet(Ifc2x3tc1Package.eINSTANCE.getIfcTextDecoration_WrappedValue(), newWrappedValue);
     }
 
     /**
@@ -93,7 +93,7 @@ public class IfcTextDecorationImpl extends IdEObjectImpl implements IfcTextDecor
      */
     @Override
     public void unsetWrappedValue() {
-        eUnset(Ifc2x3tc1Package.Literals.IFC_TEXT_DECORATION__WRAPPED_VALUE);
+        eUnset(Ifc2x3tc1Package.eINSTANCE.getIfcTextDecoration_WrappedValue());
     }
 
     /**
@@ -103,7 +103,7 @@ public class IfcTextDecorationImpl extends IdEObjectImpl implements IfcTextDecor
      */
     @Override
     public boolean isSetWrappedValue() {
-        return eIsSet(Ifc2x3tc1Package.Literals.IFC_TEXT_DECORATION__WRAPPED_VALUE);
+        return eIsSet(Ifc2x3tc1Package.eINSTANCE.getIfcTextDecoration_WrappedValue());
     }
 
 } //IfcTextDecorationImpl

@@ -57,7 +57,7 @@ public class IfcPortImpl extends IfcProductImpl implements IfcPort {
      */
     @Override
     protected EClass eStaticClass() {
-        return Ifc2x3tc1Package.Literals.IFC_PORT;
+        return Ifc2x3tc1Package.eINSTANCE.getIfcPort();
     }
 
     /**
@@ -67,7 +67,7 @@ public class IfcPortImpl extends IfcProductImpl implements IfcPort {
      */
     @Override
     public IfcRelConnectsPortToElement getContainedIn() {
-        return (IfcRelConnectsPortToElement) eGet(Ifc2x3tc1Package.Literals.IFC_PORT__CONTAINED_IN, true);
+        return (IfcRelConnectsPortToElement) eGet(Ifc2x3tc1Package.eINSTANCE.getIfcPort_ContainedIn(), true);
     }
 
     /**
@@ -77,7 +77,7 @@ public class IfcPortImpl extends IfcProductImpl implements IfcPort {
      */
     @Override
     public void setContainedIn(IfcRelConnectsPortToElement newContainedIn) {
-        eSet(Ifc2x3tc1Package.Literals.IFC_PORT__CONTAINED_IN, newContainedIn);
+        eSet(Ifc2x3tc1Package.eINSTANCE.getIfcPort_ContainedIn(), newContainedIn);
     }
 
     /**
@@ -87,7 +87,7 @@ public class IfcPortImpl extends IfcProductImpl implements IfcPort {
      */
     @Override
     public void unsetContainedIn() {
-        eUnset(Ifc2x3tc1Package.Literals.IFC_PORT__CONTAINED_IN);
+        eUnset(Ifc2x3tc1Package.eINSTANCE.getIfcPort_ContainedIn());
     }
 
     /**
@@ -97,7 +97,7 @@ public class IfcPortImpl extends IfcProductImpl implements IfcPort {
      */
     @Override
     public boolean isSetContainedIn() {
-        return eIsSet(Ifc2x3tc1Package.Literals.IFC_PORT__CONTAINED_IN);
+        return eIsSet(Ifc2x3tc1Package.eINSTANCE.getIfcPort_ContainedIn());
     }
 
     /**
@@ -108,7 +108,7 @@ public class IfcPortImpl extends IfcProductImpl implements IfcPort {
     @SuppressWarnings("unchecked")
     @Override
     public EList<IfcRelConnectsPorts> getConnectedFrom() {
-        return (EList<IfcRelConnectsPorts>) eGet(Ifc2x3tc1Package.Literals.IFC_PORT__CONNECTED_FROM, true);
+        return (EList<IfcRelConnectsPorts>) eGet(Ifc2x3tc1Package.eINSTANCE.getIfcPort_ConnectedFrom(), true);
     }
 
     /**
@@ -118,7 +118,7 @@ public class IfcPortImpl extends IfcProductImpl implements IfcPort {
      */
     @Override
     public void unsetConnectedFrom() {
-        eUnset(Ifc2x3tc1Package.Literals.IFC_PORT__CONNECTED_FROM);
+        eUnset(Ifc2x3tc1Package.eINSTANCE.getIfcPort_ConnectedFrom());
     }
 
     /**
@@ -128,7 +128,7 @@ public class IfcPortImpl extends IfcProductImpl implements IfcPort {
      */
     @Override
     public boolean isSetConnectedFrom() {
-        return eIsSet(Ifc2x3tc1Package.Literals.IFC_PORT__CONNECTED_FROM);
+        return eIsSet(Ifc2x3tc1Package.eINSTANCE.getIfcPort_ConnectedFrom());
     }
 
     /**
@@ -139,7 +139,7 @@ public class IfcPortImpl extends IfcProductImpl implements IfcPort {
     @SuppressWarnings("unchecked")
     @Override
     public EList<IfcRelConnectsPorts> getConnectedTo() {
-        return (EList<IfcRelConnectsPorts>) eGet(Ifc2x3tc1Package.Literals.IFC_PORT__CONNECTED_TO, true);
+        return (EList<IfcRelConnectsPorts>) eGet(Ifc2x3tc1Package.eINSTANCE.getIfcPort_ConnectedTo(), true);
     }
 
     /**
@@ -149,7 +149,7 @@ public class IfcPortImpl extends IfcProductImpl implements IfcPort {
      */
     @Override
     public void unsetConnectedTo() {
-        eUnset(Ifc2x3tc1Package.Literals.IFC_PORT__CONNECTED_TO);
+        eUnset(Ifc2x3tc1Package.eINSTANCE.getIfcPort_ConnectedTo());
     }
 
     /**
@@ -159,7 +159,7 @@ public class IfcPortImpl extends IfcProductImpl implements IfcPort {
      */
     @Override
     public boolean isSetConnectedTo() {
-        return eIsSet(Ifc2x3tc1Package.Literals.IFC_PORT__CONNECTED_TO);
+        return eIsSet(Ifc2x3tc1Package.eINSTANCE.getIfcPort_ConnectedTo());
     }
 
 } //IfcPortImpl

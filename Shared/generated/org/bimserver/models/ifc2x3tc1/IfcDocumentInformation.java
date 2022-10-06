@@ -56,10 +56,6 @@ public interface IfcDocumentInformation extends IfcDocumentSelect {
     /**
      * Returns the value of the '<em><b>Document Id</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Document Id</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Document Id</em>' attribute.
      * @see #setDocumentId(String)
@@ -82,10 +78,6 @@ public interface IfcDocumentInformation extends IfcDocumentSelect {
     /**
      * Returns the value of the '<em><b>Name</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Name</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Name</em>' attribute.
      * @see #setName(String)
@@ -108,10 +100,6 @@ public interface IfcDocumentInformation extends IfcDocumentSelect {
     /**
      * Returns the value of the '<em><b>Description</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Description</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Description</em>' attribute.
      * @see #isSetDescription()
@@ -163,10 +151,6 @@ public interface IfcDocumentInformation extends IfcDocumentSelect {
      * The list contents are of type {@link org.bimserver.models.ifc2x3tc1.IfcDocumentReference}.
      * It is bidirectional and its opposite is '{@link org.bimserver.models.ifc2x3tc1.IfcDocumentReference#getReferenceToDocument <em>Reference To Document</em>}'.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Document References</em>' reference list isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Document References</em>' reference list.
      * @see #isSetDocumentReferences()
@@ -203,10 +187,6 @@ public interface IfcDocumentInformation extends IfcDocumentSelect {
     /**
      * Returns the value of the '<em><b>Purpose</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Purpose</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Purpose</em>' attribute.
      * @see #isSetPurpose()
@@ -256,10 +236,6 @@ public interface IfcDocumentInformation extends IfcDocumentSelect {
     /**
      * Returns the value of the '<em><b>Intended Use</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Intended Use</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Intended Use</em>' attribute.
      * @see #isSetIntendedUse()
@@ -309,10 +285,6 @@ public interface IfcDocumentInformation extends IfcDocumentSelect {
     /**
      * Returns the value of the '<em><b>Scope</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Scope</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Scope</em>' attribute.
      * @see #isSetScope()
@@ -362,10 +334,6 @@ public interface IfcDocumentInformation extends IfcDocumentSelect {
     /**
      * Returns the value of the '<em><b>Revision</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Revision</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Revision</em>' attribute.
      * @see #isSetRevision()
@@ -415,10 +383,6 @@ public interface IfcDocumentInformation extends IfcDocumentSelect {
     /**
      * Returns the value of the '<em><b>Document Owner</b></em>' reference.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Document Owner</em>' reference isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Document Owner</em>' reference.
      * @see #isSetDocumentOwner()
@@ -469,10 +433,6 @@ public interface IfcDocumentInformation extends IfcDocumentSelect {
      * Returns the value of the '<em><b>Editors</b></em>' reference list.
      * The list contents are of type {@link org.bimserver.models.ifc2x3tc1.IfcActorSelect}.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Editors</em>' reference list isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Editors</em>' reference list.
      * @see #isSetEditors()
@@ -507,10 +467,6 @@ public interface IfcDocumentInformation extends IfcDocumentSelect {
     /**
      * Returns the value of the '<em><b>Creation Time</b></em>' reference.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Creation Time</em>' reference isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Creation Time</em>' reference.
      * @see #isSetCreationTime()
@@ -560,10 +516,6 @@ public interface IfcDocumentInformation extends IfcDocumentSelect {
     /**
      * Returns the value of the '<em><b>Last Revision Time</b></em>' reference.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Last Revision Time</em>' reference isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Last Revision Time</em>' reference.
      * @see #isSetLastRevisionTime()
@@ -613,10 +565,6 @@ public interface IfcDocumentInformation extends IfcDocumentSelect {
     /**
      * Returns the value of the '<em><b>Electronic Format</b></em>' reference.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Electronic Format</em>' reference isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Electronic Format</em>' reference.
      * @see #isSetElectronicFormat()
@@ -666,10 +614,6 @@ public interface IfcDocumentInformation extends IfcDocumentSelect {
     /**
      * Returns the value of the '<em><b>Valid From</b></em>' reference.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Valid From</em>' reference isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Valid From</em>' reference.
      * @see #isSetValidFrom()
@@ -719,10 +663,6 @@ public interface IfcDocumentInformation extends IfcDocumentSelect {
     /**
      * Returns the value of the '<em><b>Valid Until</b></em>' reference.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Valid Until</em>' reference isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Valid Until</em>' reference.
      * @see #isSetValidUntil()
@@ -773,10 +713,6 @@ public interface IfcDocumentInformation extends IfcDocumentSelect {
      * Returns the value of the '<em><b>Confidentiality</b></em>' attribute.
      * The literals are from the enumeration {@link org.bimserver.models.ifc2x3tc1.IfcDocumentConfidentialityEnum}.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Confidentiality</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Confidentiality</em>' attribute.
      * @see org.bimserver.models.ifc2x3tc1.IfcDocumentConfidentialityEnum
@@ -829,10 +765,6 @@ public interface IfcDocumentInformation extends IfcDocumentSelect {
      * Returns the value of the '<em><b>Status</b></em>' attribute.
      * The literals are from the enumeration {@link org.bimserver.models.ifc2x3tc1.IfcDocumentStatusEnum}.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Status</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Status</em>' attribute.
      * @see org.bimserver.models.ifc2x3tc1.IfcDocumentStatusEnum
@@ -886,10 +818,6 @@ public interface IfcDocumentInformation extends IfcDocumentSelect {
      * The list contents are of type {@link org.bimserver.models.ifc2x3tc1.IfcDocumentInformationRelationship}.
      * It is bidirectional and its opposite is '{@link org.bimserver.models.ifc2x3tc1.IfcDocumentInformationRelationship#getRelatedDocuments <em>Related Documents</em>}'.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Is Pointed To</em>' reference list isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Is Pointed To</em>' reference list.
      * @see #isSetIsPointedTo()
@@ -928,10 +856,6 @@ public interface IfcDocumentInformation extends IfcDocumentSelect {
      * The list contents are of type {@link org.bimserver.models.ifc2x3tc1.IfcDocumentInformationRelationship}.
      * It is bidirectional and its opposite is '{@link org.bimserver.models.ifc2x3tc1.IfcDocumentInformationRelationship#getRelatingDocument <em>Relating Document</em>}'.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Is Pointer</em>' reference list isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Is Pointer</em>' reference list.
      * @see #isSetIsPointer()

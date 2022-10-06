@@ -56,7 +56,7 @@ public class IfcMaterialUsageDefinitionImpl extends IdEObjectImpl implements Ifc
      */
     @Override
     protected EClass eStaticClass() {
-        return Ifc4Package.Literals.IFC_MATERIAL_USAGE_DEFINITION;
+        return Ifc4Package.eINSTANCE.getIfcMaterialUsageDefinition();
     }
 
     /**
@@ -77,8 +77,8 @@ public class IfcMaterialUsageDefinitionImpl extends IdEObjectImpl implements Ifc
     @SuppressWarnings("unchecked")
     @Override
     public EList<IfcRelAssociatesMaterial> getAssociatedTo() {
-        return (EList<IfcRelAssociatesMaterial>) eGet(Ifc4Package.Literals.IFC_MATERIAL_USAGE_DEFINITION__ASSOCIATED_TO,
-                true);
+        return (EList<IfcRelAssociatesMaterial>) eGet(
+                Ifc4Package.eINSTANCE.getIfcMaterialUsageDefinition_AssociatedTo(), true);
     }
 
     /**
@@ -88,7 +88,7 @@ public class IfcMaterialUsageDefinitionImpl extends IdEObjectImpl implements Ifc
      */
     @Override
     public void unsetAssociatedTo() {
-        eUnset(Ifc4Package.Literals.IFC_MATERIAL_USAGE_DEFINITION__ASSOCIATED_TO);
+        eUnset(Ifc4Package.eINSTANCE.getIfcMaterialUsageDefinition_AssociatedTo());
     }
 
     /**
@@ -98,7 +98,7 @@ public class IfcMaterialUsageDefinitionImpl extends IdEObjectImpl implements Ifc
      */
     @Override
     public boolean isSetAssociatedTo() {
-        return eIsSet(Ifc4Package.Literals.IFC_MATERIAL_USAGE_DEFINITION__ASSOCIATED_TO);
+        return eIsSet(Ifc4Package.eINSTANCE.getIfcMaterialUsageDefinition_AssociatedTo());
     }
 
 } //IfcMaterialUsageDefinitionImpl

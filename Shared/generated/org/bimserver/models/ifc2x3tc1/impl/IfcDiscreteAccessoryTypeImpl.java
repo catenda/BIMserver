@@ -45,7 +45,7 @@ public class IfcDiscreteAccessoryTypeImpl extends IfcElementComponentTypeImpl im
      */
     @Override
     protected EClass eStaticClass() {
-        return Ifc2x3tc1Package.Literals.IFC_DISCRETE_ACCESSORY_TYPE;
+        return Ifc2x3tc1Package.eINSTANCE.getIfcDiscreteAccessoryType();
     }
 
 } //IfcDiscreteAccessoryTypeImpl

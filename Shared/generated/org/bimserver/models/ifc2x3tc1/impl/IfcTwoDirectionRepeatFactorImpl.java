@@ -53,7 +53,7 @@ public class IfcTwoDirectionRepeatFactorImpl extends IfcOneDirectionRepeatFactor
      */
     @Override
     protected EClass eStaticClass() {
-        return Ifc2x3tc1Package.Literals.IFC_TWO_DIRECTION_REPEAT_FACTOR;
+        return Ifc2x3tc1Package.eINSTANCE.getIfcTwoDirectionRepeatFactor();
     }
 
     /**
@@ -63,7 +63,7 @@ public class IfcTwoDirectionRepeatFactorImpl extends IfcOneDirectionRepeatFactor
      */
     @Override
     public IfcVector getSecondRepeatFactor() {
-        return (IfcVector) eGet(Ifc2x3tc1Package.Literals.IFC_TWO_DIRECTION_REPEAT_FACTOR__SECOND_REPEAT_FACTOR, true);
+        return (IfcVector) eGet(Ifc2x3tc1Package.eINSTANCE.getIfcTwoDirectionRepeatFactor_SecondRepeatFactor(), true);
     }
 
     /**
@@ -73,7 +73,7 @@ public class IfcTwoDirectionRepeatFactorImpl extends IfcOneDirectionRepeatFactor
      */
     @Override
     public void setSecondRepeatFactor(IfcVector newSecondRepeatFactor) {
-        eSet(Ifc2x3tc1Package.Literals.IFC_TWO_DIRECTION_REPEAT_FACTOR__SECOND_REPEAT_FACTOR, newSecondRepeatFactor);
+        eSet(Ifc2x3tc1Package.eINSTANCE.getIfcTwoDirectionRepeatFactor_SecondRepeatFactor(), newSecondRepeatFactor);
     }
 
 } //IfcTwoDirectionRepeatFactorImpl

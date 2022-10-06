@@ -54,7 +54,7 @@ public class IfcDimensionCurveImpl extends IfcAnnotationCurveOccurrenceImpl impl
      */
     @Override
     protected EClass eStaticClass() {
-        return Ifc2x3tc1Package.Literals.IFC_DIMENSION_CURVE;
+        return Ifc2x3tc1Package.eINSTANCE.getIfcDimensionCurve();
     }
 
     /**
@@ -65,7 +65,7 @@ public class IfcDimensionCurveImpl extends IfcAnnotationCurveOccurrenceImpl impl
     @SuppressWarnings("unchecked")
     @Override
     public EList<IfcTerminatorSymbol> getAnnotatedBySymbols() {
-        return (EList<IfcTerminatorSymbol>) eGet(Ifc2x3tc1Package.Literals.IFC_DIMENSION_CURVE__ANNOTATED_BY_SYMBOLS,
+        return (EList<IfcTerminatorSymbol>) eGet(Ifc2x3tc1Package.eINSTANCE.getIfcDimensionCurve_AnnotatedBySymbols(),
                 true);
     }
 
@@ -76,7 +76,7 @@ public class IfcDimensionCurveImpl extends IfcAnnotationCurveOccurrenceImpl impl
      */
     @Override
     public void unsetAnnotatedBySymbols() {
-        eUnset(Ifc2x3tc1Package.Literals.IFC_DIMENSION_CURVE__ANNOTATED_BY_SYMBOLS);
+        eUnset(Ifc2x3tc1Package.eINSTANCE.getIfcDimensionCurve_AnnotatedBySymbols());
     }
 
     /**
@@ -86,7 +86,7 @@ public class IfcDimensionCurveImpl extends IfcAnnotationCurveOccurrenceImpl impl
      */
     @Override
     public boolean isSetAnnotatedBySymbols() {
-        return eIsSet(Ifc2x3tc1Package.Literals.IFC_DIMENSION_CURVE__ANNOTATED_BY_SYMBOLS);
+        return eIsSet(Ifc2x3tc1Package.eINSTANCE.getIfcDimensionCurve_AnnotatedBySymbols());
     }
 
 } //IfcDimensionCurveImpl

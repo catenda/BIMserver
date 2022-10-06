@@ -45,7 +45,7 @@ public class IfcCostValueImpl extends IfcAppliedValueImpl implements IfcCostValu
      */
     @Override
     protected EClass eStaticClass() {
-        return Ifc4Package.Literals.IFC_COST_VALUE;
+        return Ifc4Package.eINSTANCE.getIfcCostValue();
     }
 
 } //IfcCostValueImpl

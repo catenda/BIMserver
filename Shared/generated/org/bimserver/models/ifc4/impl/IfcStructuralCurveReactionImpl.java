@@ -52,7 +52,7 @@ public class IfcStructuralCurveReactionImpl extends IfcStructuralReactionImpl im
      */
     @Override
     protected EClass eStaticClass() {
-        return Ifc4Package.Literals.IFC_STRUCTURAL_CURVE_REACTION;
+        return Ifc4Package.eINSTANCE.getIfcStructuralCurveReaction();
     }
 
     /**
@@ -63,7 +63,7 @@ public class IfcStructuralCurveReactionImpl extends IfcStructuralReactionImpl im
     @Override
     public IfcStructuralCurveActivityTypeEnum getPredefinedType() {
         return (IfcStructuralCurveActivityTypeEnum) eGet(
-                Ifc4Package.Literals.IFC_STRUCTURAL_CURVE_REACTION__PREDEFINED_TYPE, true);
+                Ifc4Package.eINSTANCE.getIfcStructuralCurveReaction_PredefinedType(), true);
     }
 
     /**
@@ -73,7 +73,7 @@ public class IfcStructuralCurveReactionImpl extends IfcStructuralReactionImpl im
      */
     @Override
     public void setPredefinedType(IfcStructuralCurveActivityTypeEnum newPredefinedType) {
-        eSet(Ifc4Package.Literals.IFC_STRUCTURAL_CURVE_REACTION__PREDEFINED_TYPE, newPredefinedType);
+        eSet(Ifc4Package.eINSTANCE.getIfcStructuralCurveReaction_PredefinedType(), newPredefinedType);
     }
 
 } //IfcStructuralCurveReactionImpl

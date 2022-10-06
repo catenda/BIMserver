@@ -56,7 +56,7 @@ public class IfcSurfaceStyleImpl extends IfcPresentationStyleImpl implements Ifc
      */
     @Override
     protected EClass eStaticClass() {
-        return Ifc2x3tc1Package.Literals.IFC_SURFACE_STYLE;
+        return Ifc2x3tc1Package.eINSTANCE.getIfcSurfaceStyle();
     }
 
     /**
@@ -66,7 +66,7 @@ public class IfcSurfaceStyleImpl extends IfcPresentationStyleImpl implements Ifc
      */
     @Override
     public IfcSurfaceSide getSide() {
-        return (IfcSurfaceSide) eGet(Ifc2x3tc1Package.Literals.IFC_SURFACE_STYLE__SIDE, true);
+        return (IfcSurfaceSide) eGet(Ifc2x3tc1Package.eINSTANCE.getIfcSurfaceStyle_Side(), true);
     }
 
     /**
@@ -76,7 +76,7 @@ public class IfcSurfaceStyleImpl extends IfcPresentationStyleImpl implements Ifc
      */
     @Override
     public void setSide(IfcSurfaceSide newSide) {
-        eSet(Ifc2x3tc1Package.Literals.IFC_SURFACE_STYLE__SIDE, newSide);
+        eSet(Ifc2x3tc1Package.eINSTANCE.getIfcSurfaceStyle_Side(), newSide);
     }
 
     /**
@@ -87,7 +87,7 @@ public class IfcSurfaceStyleImpl extends IfcPresentationStyleImpl implements Ifc
     @SuppressWarnings("unchecked")
     @Override
     public EList<IfcSurfaceStyleElementSelect> getStyles() {
-        return (EList<IfcSurfaceStyleElementSelect>) eGet(Ifc2x3tc1Package.Literals.IFC_SURFACE_STYLE__STYLES, true);
+        return (EList<IfcSurfaceStyleElementSelect>) eGet(Ifc2x3tc1Package.eINSTANCE.getIfcSurfaceStyle_Styles(), true);
     }
 
 } //IfcSurfaceStyleImpl

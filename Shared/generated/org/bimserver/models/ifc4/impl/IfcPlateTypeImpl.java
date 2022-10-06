@@ -52,7 +52,7 @@ public class IfcPlateTypeImpl extends IfcBuildingElementTypeImpl implements IfcP
      */
     @Override
     protected EClass eStaticClass() {
-        return Ifc4Package.Literals.IFC_PLATE_TYPE;
+        return Ifc4Package.eINSTANCE.getIfcPlateType();
     }
 
     /**
@@ -62,7 +62,7 @@ public class IfcPlateTypeImpl extends IfcBuildingElementTypeImpl implements IfcP
      */
     @Override
     public IfcPlateTypeEnum getPredefinedType() {
-        return (IfcPlateTypeEnum) eGet(Ifc4Package.Literals.IFC_PLATE_TYPE__PREDEFINED_TYPE, true);
+        return (IfcPlateTypeEnum) eGet(Ifc4Package.eINSTANCE.getIfcPlateType_PredefinedType(), true);
     }
 
     /**
@@ -72,7 +72,7 @@ public class IfcPlateTypeImpl extends IfcBuildingElementTypeImpl implements IfcP
      */
     @Override
     public void setPredefinedType(IfcPlateTypeEnum newPredefinedType) {
-        eSet(Ifc4Package.Literals.IFC_PLATE_TYPE__PREDEFINED_TYPE, newPredefinedType);
+        eSet(Ifc4Package.eINSTANCE.getIfcPlateType_PredefinedType(), newPredefinedType);
     }
 
 } //IfcPlateTypeImpl

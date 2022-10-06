@@ -52,7 +52,7 @@ public class IfcPipeFittingImpl extends IfcFlowFittingImpl implements IfcPipeFit
      */
     @Override
     protected EClass eStaticClass() {
-        return Ifc4Package.Literals.IFC_PIPE_FITTING;
+        return Ifc4Package.eINSTANCE.getIfcPipeFitting();
     }
 
     /**
@@ -62,7 +62,7 @@ public class IfcPipeFittingImpl extends IfcFlowFittingImpl implements IfcPipeFit
      */
     @Override
     public IfcPipeFittingTypeEnum getPredefinedType() {
-        return (IfcPipeFittingTypeEnum) eGet(Ifc4Package.Literals.IFC_PIPE_FITTING__PREDEFINED_TYPE, true);
+        return (IfcPipeFittingTypeEnum) eGet(Ifc4Package.eINSTANCE.getIfcPipeFitting_PredefinedType(), true);
     }
 
     /**
@@ -72,7 +72,7 @@ public class IfcPipeFittingImpl extends IfcFlowFittingImpl implements IfcPipeFit
      */
     @Override
     public void setPredefinedType(IfcPipeFittingTypeEnum newPredefinedType) {
-        eSet(Ifc4Package.Literals.IFC_PIPE_FITTING__PREDEFINED_TYPE, newPredefinedType);
+        eSet(Ifc4Package.eINSTANCE.getIfcPipeFitting_PredefinedType(), newPredefinedType);
     }
 
     /**
@@ -82,7 +82,7 @@ public class IfcPipeFittingImpl extends IfcFlowFittingImpl implements IfcPipeFit
      */
     @Override
     public void unsetPredefinedType() {
-        eUnset(Ifc4Package.Literals.IFC_PIPE_FITTING__PREDEFINED_TYPE);
+        eUnset(Ifc4Package.eINSTANCE.getIfcPipeFitting_PredefinedType());
     }
 
     /**
@@ -92,7 +92,7 @@ public class IfcPipeFittingImpl extends IfcFlowFittingImpl implements IfcPipeFit
      */
     @Override
     public boolean isSetPredefinedType() {
-        return eIsSet(Ifc4Package.Literals.IFC_PIPE_FITTING__PREDEFINED_TYPE);
+        return eIsSet(Ifc4Package.eINSTANCE.getIfcPipeFitting_PredefinedType());
     }
 
 } //IfcPipeFittingImpl

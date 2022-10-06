@@ -55,7 +55,7 @@ public class IfcSectionPropertiesImpl extends IfcPreDefinedPropertiesImpl implem
      */
     @Override
     protected EClass eStaticClass() {
-        return Ifc4Package.Literals.IFC_SECTION_PROPERTIES;
+        return Ifc4Package.eINSTANCE.getIfcSectionProperties();
     }
 
     /**
@@ -65,7 +65,7 @@ public class IfcSectionPropertiesImpl extends IfcPreDefinedPropertiesImpl implem
      */
     @Override
     public IfcSectionTypeEnum getSectionType() {
-        return (IfcSectionTypeEnum) eGet(Ifc4Package.Literals.IFC_SECTION_PROPERTIES__SECTION_TYPE, true);
+        return (IfcSectionTypeEnum) eGet(Ifc4Package.eINSTANCE.getIfcSectionProperties_SectionType(), true);
     }
 
     /**
@@ -75,7 +75,7 @@ public class IfcSectionPropertiesImpl extends IfcPreDefinedPropertiesImpl implem
      */
     @Override
     public void setSectionType(IfcSectionTypeEnum newSectionType) {
-        eSet(Ifc4Package.Literals.IFC_SECTION_PROPERTIES__SECTION_TYPE, newSectionType);
+        eSet(Ifc4Package.eINSTANCE.getIfcSectionProperties_SectionType(), newSectionType);
     }
 
     /**
@@ -85,7 +85,7 @@ public class IfcSectionPropertiesImpl extends IfcPreDefinedPropertiesImpl implem
      */
     @Override
     public IfcProfileDef getStartProfile() {
-        return (IfcProfileDef) eGet(Ifc4Package.Literals.IFC_SECTION_PROPERTIES__START_PROFILE, true);
+        return (IfcProfileDef) eGet(Ifc4Package.eINSTANCE.getIfcSectionProperties_StartProfile(), true);
     }
 
     /**
@@ -95,7 +95,7 @@ public class IfcSectionPropertiesImpl extends IfcPreDefinedPropertiesImpl implem
      */
     @Override
     public void setStartProfile(IfcProfileDef newStartProfile) {
-        eSet(Ifc4Package.Literals.IFC_SECTION_PROPERTIES__START_PROFILE, newStartProfile);
+        eSet(Ifc4Package.eINSTANCE.getIfcSectionProperties_StartProfile(), newStartProfile);
     }
 
     /**
@@ -105,7 +105,7 @@ public class IfcSectionPropertiesImpl extends IfcPreDefinedPropertiesImpl implem
      */
     @Override
     public IfcProfileDef getEndProfile() {
-        return (IfcProfileDef) eGet(Ifc4Package.Literals.IFC_SECTION_PROPERTIES__END_PROFILE, true);
+        return (IfcProfileDef) eGet(Ifc4Package.eINSTANCE.getIfcSectionProperties_EndProfile(), true);
     }
 
     /**
@@ -115,7 +115,7 @@ public class IfcSectionPropertiesImpl extends IfcPreDefinedPropertiesImpl implem
      */
     @Override
     public void setEndProfile(IfcProfileDef newEndProfile) {
-        eSet(Ifc4Package.Literals.IFC_SECTION_PROPERTIES__END_PROFILE, newEndProfile);
+        eSet(Ifc4Package.eINSTANCE.getIfcSectionProperties_EndProfile(), newEndProfile);
     }
 
     /**
@@ -125,7 +125,7 @@ public class IfcSectionPropertiesImpl extends IfcPreDefinedPropertiesImpl implem
      */
     @Override
     public void unsetEndProfile() {
-        eUnset(Ifc4Package.Literals.IFC_SECTION_PROPERTIES__END_PROFILE);
+        eUnset(Ifc4Package.eINSTANCE.getIfcSectionProperties_EndProfile());
     }
 
     /**
@@ -135,7 +135,7 @@ public class IfcSectionPropertiesImpl extends IfcPreDefinedPropertiesImpl implem
      */
     @Override
     public boolean isSetEndProfile() {
-        return eIsSet(Ifc4Package.Literals.IFC_SECTION_PROPERTIES__END_PROFILE);
+        return eIsSet(Ifc4Package.eINSTANCE.getIfcSectionProperties_EndProfile());
     }
 
 } //IfcSectionPropertiesImpl

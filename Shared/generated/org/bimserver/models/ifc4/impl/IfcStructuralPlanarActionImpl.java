@@ -45,7 +45,7 @@ public class IfcStructuralPlanarActionImpl extends IfcStructuralSurfaceActionImp
      */
     @Override
     protected EClass eStaticClass() {
-        return Ifc4Package.Literals.IFC_STRUCTURAL_PLANAR_ACTION;
+        return Ifc4Package.eINSTANCE.getIfcStructuralPlanarAction();
     }
 
 } //IfcStructuralPlanarActionImpl

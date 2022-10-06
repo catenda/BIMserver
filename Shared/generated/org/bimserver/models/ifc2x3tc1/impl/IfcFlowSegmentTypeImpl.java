@@ -45,7 +45,7 @@ public class IfcFlowSegmentTypeImpl extends IfcDistributionFlowElementTypeImpl i
      */
     @Override
     protected EClass eStaticClass() {
-        return Ifc2x3tc1Package.Literals.IFC_FLOW_SEGMENT_TYPE;
+        return Ifc2x3tc1Package.eINSTANCE.getIfcFlowSegmentType();
     }
 
 } //IfcFlowSegmentTypeImpl

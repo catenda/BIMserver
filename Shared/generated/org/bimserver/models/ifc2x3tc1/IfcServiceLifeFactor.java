@@ -40,10 +40,6 @@ public interface IfcServiceLifeFactor extends IfcPropertySetDefinition {
      * Returns the value of the '<em><b>Predefined Type</b></em>' attribute.
      * The literals are from the enumeration {@link org.bimserver.models.ifc2x3tc1.IfcServiceLifeFactorTypeEnum}.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Predefined Type</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Predefined Type</em>' attribute.
      * @see org.bimserver.models.ifc2x3tc1.IfcServiceLifeFactorTypeEnum
@@ -68,10 +64,6 @@ public interface IfcServiceLifeFactor extends IfcPropertySetDefinition {
     /**
      * Returns the value of the '<em><b>Upper Value</b></em>' reference.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Upper Value</em>' reference isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Upper Value</em>' reference.
      * @see #isSetUpperValue()
@@ -121,10 +113,6 @@ public interface IfcServiceLifeFactor extends IfcPropertySetDefinition {
     /**
      * Returns the value of the '<em><b>Most Used Value</b></em>' reference.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Most Used Value</em>' reference isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Most Used Value</em>' reference.
      * @see #setMostUsedValue(IfcMeasureValue)
@@ -147,10 +135,6 @@ public interface IfcServiceLifeFactor extends IfcPropertySetDefinition {
     /**
      * Returns the value of the '<em><b>Lower Value</b></em>' reference.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Lower Value</em>' reference isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Lower Value</em>' reference.
      * @see #isSetLowerValue()

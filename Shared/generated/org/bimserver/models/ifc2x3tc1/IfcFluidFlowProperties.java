@@ -56,10 +56,6 @@ public interface IfcFluidFlowProperties extends IfcPropertySetDefinition {
      * Returns the value of the '<em><b>Property Source</b></em>' attribute.
      * The literals are from the enumeration {@link org.bimserver.models.ifc2x3tc1.IfcPropertySourceEnum}.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Property Source</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Property Source</em>' attribute.
      * @see org.bimserver.models.ifc2x3tc1.IfcPropertySourceEnum
@@ -84,10 +80,6 @@ public interface IfcFluidFlowProperties extends IfcPropertySetDefinition {
     /**
      * Returns the value of the '<em><b>Flow Condition Time Series</b></em>' reference.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Flow Condition Time Series</em>' reference isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Flow Condition Time Series</em>' reference.
      * @see #isSetFlowConditionTimeSeries()
@@ -137,10 +129,6 @@ public interface IfcFluidFlowProperties extends IfcPropertySetDefinition {
     /**
      * Returns the value of the '<em><b>Velocity Time Series</b></em>' reference.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Velocity Time Series</em>' reference isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Velocity Time Series</em>' reference.
      * @see #isSetVelocityTimeSeries()
@@ -190,10 +178,6 @@ public interface IfcFluidFlowProperties extends IfcPropertySetDefinition {
     /**
      * Returns the value of the '<em><b>Flowrate Time Series</b></em>' reference.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Flowrate Time Series</em>' reference isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Flowrate Time Series</em>' reference.
      * @see #isSetFlowrateTimeSeries()
@@ -243,10 +227,6 @@ public interface IfcFluidFlowProperties extends IfcPropertySetDefinition {
     /**
      * Returns the value of the '<em><b>Fluid</b></em>' reference.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Fluid</em>' reference isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Fluid</em>' reference.
      * @see #setFluid(IfcMaterial)
@@ -269,10 +249,6 @@ public interface IfcFluidFlowProperties extends IfcPropertySetDefinition {
     /**
      * Returns the value of the '<em><b>Pressure Time Series</b></em>' reference.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Pressure Time Series</em>' reference isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Pressure Time Series</em>' reference.
      * @see #isSetPressureTimeSeries()
@@ -322,10 +298,6 @@ public interface IfcFluidFlowProperties extends IfcPropertySetDefinition {
     /**
      * Returns the value of the '<em><b>User Defined Property Source</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>User Defined Property Source</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>User Defined Property Source</em>' attribute.
      * @see #isSetUserDefinedPropertySource()
@@ -375,10 +347,6 @@ public interface IfcFluidFlowProperties extends IfcPropertySetDefinition {
     /**
      * Returns the value of the '<em><b>Temperature Single Value</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Temperature Single Value</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Temperature Single Value</em>' attribute.
      * @see #isSetTemperatureSingleValue()
@@ -428,10 +396,6 @@ public interface IfcFluidFlowProperties extends IfcPropertySetDefinition {
     /**
      * Returns the value of the '<em><b>Temperature Single Value As String</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Temperature Single Value As String</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Temperature Single Value As String</em>' attribute.
      * @see #isSetTemperatureSingleValueAsString()
@@ -483,10 +447,6 @@ public interface IfcFluidFlowProperties extends IfcPropertySetDefinition {
     /**
      * Returns the value of the '<em><b>Wet Bulb Temperature Single Value</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Wet Bulb Temperature Single Value</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Wet Bulb Temperature Single Value</em>' attribute.
      * @see #isSetWetBulbTemperatureSingleValue()
@@ -536,10 +496,6 @@ public interface IfcFluidFlowProperties extends IfcPropertySetDefinition {
     /**
      * Returns the value of the '<em><b>Wet Bulb Temperature Single Value As String</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Wet Bulb Temperature Single Value As String</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Wet Bulb Temperature Single Value As String</em>' attribute.
      * @see #isSetWetBulbTemperatureSingleValueAsString()
@@ -591,10 +547,6 @@ public interface IfcFluidFlowProperties extends IfcPropertySetDefinition {
     /**
      * Returns the value of the '<em><b>Wet Bulb Temperature Time Series</b></em>' reference.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Wet Bulb Temperature Time Series</em>' reference isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Wet Bulb Temperature Time Series</em>' reference.
      * @see #isSetWetBulbTemperatureTimeSeries()
@@ -644,10 +596,6 @@ public interface IfcFluidFlowProperties extends IfcPropertySetDefinition {
     /**
      * Returns the value of the '<em><b>Temperature Time Series</b></em>' reference.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Temperature Time Series</em>' reference isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Temperature Time Series</em>' reference.
      * @see #isSetTemperatureTimeSeries()
@@ -697,10 +645,6 @@ public interface IfcFluidFlowProperties extends IfcPropertySetDefinition {
     /**
      * Returns the value of the '<em><b>Flowrate Single Value</b></em>' reference.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Flowrate Single Value</em>' reference isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Flowrate Single Value</em>' reference.
      * @see #isSetFlowrateSingleValue()
@@ -750,10 +694,6 @@ public interface IfcFluidFlowProperties extends IfcPropertySetDefinition {
     /**
      * Returns the value of the '<em><b>Flow Condition Single Value</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Flow Condition Single Value</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Flow Condition Single Value</em>' attribute.
      * @see #isSetFlowConditionSingleValue()
@@ -803,10 +743,6 @@ public interface IfcFluidFlowProperties extends IfcPropertySetDefinition {
     /**
      * Returns the value of the '<em><b>Flow Condition Single Value As String</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Flow Condition Single Value As String</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Flow Condition Single Value As String</em>' attribute.
      * @see #isSetFlowConditionSingleValueAsString()
@@ -858,10 +794,6 @@ public interface IfcFluidFlowProperties extends IfcPropertySetDefinition {
     /**
      * Returns the value of the '<em><b>Velocity Single Value</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Velocity Single Value</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Velocity Single Value</em>' attribute.
      * @see #isSetVelocitySingleValue()
@@ -911,10 +843,6 @@ public interface IfcFluidFlowProperties extends IfcPropertySetDefinition {
     /**
      * Returns the value of the '<em><b>Velocity Single Value As String</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Velocity Single Value As String</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Velocity Single Value As String</em>' attribute.
      * @see #isSetVelocitySingleValueAsString()
@@ -966,10 +894,6 @@ public interface IfcFluidFlowProperties extends IfcPropertySetDefinition {
     /**
      * Returns the value of the '<em><b>Pressure Single Value</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Pressure Single Value</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Pressure Single Value</em>' attribute.
      * @see #isSetPressureSingleValue()
@@ -1019,10 +943,6 @@ public interface IfcFluidFlowProperties extends IfcPropertySetDefinition {
     /**
      * Returns the value of the '<em><b>Pressure Single Value As String</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Pressure Single Value As String</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Pressure Single Value As String</em>' attribute.
      * @see #isSetPressureSingleValueAsString()

@@ -52,7 +52,7 @@ public class IfcRelAssociatesClassificationImpl extends IfcRelAssociatesImpl imp
      */
     @Override
     protected EClass eStaticClass() {
-        return Ifc2x3tc1Package.Literals.IFC_REL_ASSOCIATES_CLASSIFICATION;
+        return Ifc2x3tc1Package.eINSTANCE.getIfcRelAssociatesClassification();
     }
 
     /**
@@ -63,7 +63,7 @@ public class IfcRelAssociatesClassificationImpl extends IfcRelAssociatesImpl imp
     @Override
     public IfcClassificationNotationSelect getRelatingClassification() {
         return (IfcClassificationNotationSelect) eGet(
-                Ifc2x3tc1Package.Literals.IFC_REL_ASSOCIATES_CLASSIFICATION__RELATING_CLASSIFICATION, true);
+                Ifc2x3tc1Package.eINSTANCE.getIfcRelAssociatesClassification_RelatingClassification(), true);
     }
 
     /**
@@ -73,7 +73,7 @@ public class IfcRelAssociatesClassificationImpl extends IfcRelAssociatesImpl imp
      */
     @Override
     public void setRelatingClassification(IfcClassificationNotationSelect newRelatingClassification) {
-        eSet(Ifc2x3tc1Package.Literals.IFC_REL_ASSOCIATES_CLASSIFICATION__RELATING_CLASSIFICATION,
+        eSet(Ifc2x3tc1Package.eINSTANCE.getIfcRelAssociatesClassification_RelatingClassification(),
                 newRelatingClassification);
     }
 

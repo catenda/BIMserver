@@ -52,7 +52,7 @@ public class IfcVertexPointImpl extends IfcVertexImpl implements IfcVertexPoint 
      */
     @Override
     protected EClass eStaticClass() {
-        return Ifc2x3tc1Package.Literals.IFC_VERTEX_POINT;
+        return Ifc2x3tc1Package.eINSTANCE.getIfcVertexPoint();
     }
 
     /**
@@ -62,7 +62,7 @@ public class IfcVertexPointImpl extends IfcVertexImpl implements IfcVertexPoint 
      */
     @Override
     public IfcPoint getVertexGeometry() {
-        return (IfcPoint) eGet(Ifc2x3tc1Package.Literals.IFC_VERTEX_POINT__VERTEX_GEOMETRY, true);
+        return (IfcPoint) eGet(Ifc2x3tc1Package.eINSTANCE.getIfcVertexPoint_VertexGeometry(), true);
     }
 
     /**
@@ -72,7 +72,7 @@ public class IfcVertexPointImpl extends IfcVertexImpl implements IfcVertexPoint 
      */
     @Override
     public void setVertexGeometry(IfcPoint newVertexGeometry) {
-        eSet(Ifc2x3tc1Package.Literals.IFC_VERTEX_POINT__VERTEX_GEOMETRY, newVertexGeometry);
+        eSet(Ifc2x3tc1Package.eINSTANCE.getIfcVertexPoint_VertexGeometry(), newVertexGeometry);
     }
 
 } //IfcVertexPointImpl

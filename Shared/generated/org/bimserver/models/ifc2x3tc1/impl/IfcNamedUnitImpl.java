@@ -56,7 +56,7 @@ public class IfcNamedUnitImpl extends IdEObjectImpl implements IfcNamedUnit {
      */
     @Override
     protected EClass eStaticClass() {
-        return Ifc2x3tc1Package.Literals.IFC_NAMED_UNIT;
+        return Ifc2x3tc1Package.eINSTANCE.getIfcNamedUnit();
     }
 
     /**
@@ -76,7 +76,7 @@ public class IfcNamedUnitImpl extends IdEObjectImpl implements IfcNamedUnit {
      */
     @Override
     public IfcDimensionalExponents getDimensions() {
-        return (IfcDimensionalExponents) eGet(Ifc2x3tc1Package.Literals.IFC_NAMED_UNIT__DIMENSIONS, true);
+        return (IfcDimensionalExponents) eGet(Ifc2x3tc1Package.eINSTANCE.getIfcNamedUnit_Dimensions(), true);
     }
 
     /**
@@ -86,7 +86,7 @@ public class IfcNamedUnitImpl extends IdEObjectImpl implements IfcNamedUnit {
      */
     @Override
     public void setDimensions(IfcDimensionalExponents newDimensions) {
-        eSet(Ifc2x3tc1Package.Literals.IFC_NAMED_UNIT__DIMENSIONS, newDimensions);
+        eSet(Ifc2x3tc1Package.eINSTANCE.getIfcNamedUnit_Dimensions(), newDimensions);
     }
 
     /**
@@ -96,7 +96,7 @@ public class IfcNamedUnitImpl extends IdEObjectImpl implements IfcNamedUnit {
      */
     @Override
     public IfcUnitEnum getUnitType() {
-        return (IfcUnitEnum) eGet(Ifc2x3tc1Package.Literals.IFC_NAMED_UNIT__UNIT_TYPE, true);
+        return (IfcUnitEnum) eGet(Ifc2x3tc1Package.eINSTANCE.getIfcNamedUnit_UnitType(), true);
     }
 
     /**
@@ -106,7 +106,7 @@ public class IfcNamedUnitImpl extends IdEObjectImpl implements IfcNamedUnit {
      */
     @Override
     public void setUnitType(IfcUnitEnum newUnitType) {
-        eSet(Ifc2x3tc1Package.Literals.IFC_NAMED_UNIT__UNIT_TYPE, newUnitType);
+        eSet(Ifc2x3tc1Package.eINSTANCE.getIfcNamedUnit_UnitType(), newUnitType);
     }
 
 } //IfcNamedUnitImpl

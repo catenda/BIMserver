@@ -40,10 +40,6 @@ public interface IfcResourceConstraintRelationship extends IfcResourceLevelRelat
      * Returns the value of the '<em><b>Relating Constraint</b></em>' reference.
      * It is bidirectional and its opposite is '{@link org.bimserver.models.ifc4.IfcConstraint#getPropertiesForConstraint <em>Properties For Constraint</em>}'.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Relating Constraint</em>' reference isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Relating Constraint</em>' reference.
      * @see #setRelatingConstraint(IfcConstraint)
@@ -69,10 +65,6 @@ public interface IfcResourceConstraintRelationship extends IfcResourceLevelRelat
      * Returns the value of the '<em><b>Related Resource Objects</b></em>' reference list.
      * The list contents are of type {@link org.bimserver.models.ifc4.IfcResourceObjectSelect}.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Related Resource Objects</em>' reference list isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Related Resource Objects</em>' reference list.
      * @see org.bimserver.models.ifc4.Ifc4Package#getIfcResourceConstraintRelationship_RelatedResourceObjects()

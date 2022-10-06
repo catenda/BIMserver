@@ -57,7 +57,7 @@ public class IfcPolygonalFaceSetImpl extends IfcTessellatedFaceSetImpl implement
      */
     @Override
     protected EClass eStaticClass() {
-        return Ifc4Package.Literals.IFC_POLYGONAL_FACE_SET;
+        return Ifc4Package.eINSTANCE.getIfcPolygonalFaceSet();
     }
 
     /**
@@ -67,7 +67,7 @@ public class IfcPolygonalFaceSetImpl extends IfcTessellatedFaceSetImpl implement
      */
     @Override
     public Tristate getClosed() {
-        return (Tristate) eGet(Ifc4Package.Literals.IFC_POLYGONAL_FACE_SET__CLOSED, true);
+        return (Tristate) eGet(Ifc4Package.eINSTANCE.getIfcPolygonalFaceSet_Closed(), true);
     }
 
     /**
@@ -77,7 +77,7 @@ public class IfcPolygonalFaceSetImpl extends IfcTessellatedFaceSetImpl implement
      */
     @Override
     public void setClosed(Tristate newClosed) {
-        eSet(Ifc4Package.Literals.IFC_POLYGONAL_FACE_SET__CLOSED, newClosed);
+        eSet(Ifc4Package.eINSTANCE.getIfcPolygonalFaceSet_Closed(), newClosed);
     }
 
     /**
@@ -87,7 +87,7 @@ public class IfcPolygonalFaceSetImpl extends IfcTessellatedFaceSetImpl implement
      */
     @Override
     public void unsetClosed() {
-        eUnset(Ifc4Package.Literals.IFC_POLYGONAL_FACE_SET__CLOSED);
+        eUnset(Ifc4Package.eINSTANCE.getIfcPolygonalFaceSet_Closed());
     }
 
     /**
@@ -97,7 +97,7 @@ public class IfcPolygonalFaceSetImpl extends IfcTessellatedFaceSetImpl implement
      */
     @Override
     public boolean isSetClosed() {
-        return eIsSet(Ifc4Package.Literals.IFC_POLYGONAL_FACE_SET__CLOSED);
+        return eIsSet(Ifc4Package.eINSTANCE.getIfcPolygonalFaceSet_Closed());
     }
 
     /**
@@ -108,7 +108,7 @@ public class IfcPolygonalFaceSetImpl extends IfcTessellatedFaceSetImpl implement
     @SuppressWarnings("unchecked")
     @Override
     public EList<IfcIndexedPolygonalFace> getFaces() {
-        return (EList<IfcIndexedPolygonalFace>) eGet(Ifc4Package.Literals.IFC_POLYGONAL_FACE_SET__FACES, true);
+        return (EList<IfcIndexedPolygonalFace>) eGet(Ifc4Package.eINSTANCE.getIfcPolygonalFaceSet_Faces(), true);
     }
 
     /**
@@ -119,7 +119,7 @@ public class IfcPolygonalFaceSetImpl extends IfcTessellatedFaceSetImpl implement
     @SuppressWarnings("unchecked")
     @Override
     public EList<Long> getPnIndex() {
-        return (EList<Long>) eGet(Ifc4Package.Literals.IFC_POLYGONAL_FACE_SET__PN_INDEX, true);
+        return (EList<Long>) eGet(Ifc4Package.eINSTANCE.getIfcPolygonalFaceSet_PnIndex(), true);
     }
 
     /**
@@ -129,7 +129,7 @@ public class IfcPolygonalFaceSetImpl extends IfcTessellatedFaceSetImpl implement
      */
     @Override
     public void unsetPnIndex() {
-        eUnset(Ifc4Package.Literals.IFC_POLYGONAL_FACE_SET__PN_INDEX);
+        eUnset(Ifc4Package.eINSTANCE.getIfcPolygonalFaceSet_PnIndex());
     }
 
     /**
@@ -139,7 +139,7 @@ public class IfcPolygonalFaceSetImpl extends IfcTessellatedFaceSetImpl implement
      */
     @Override
     public boolean isSetPnIndex() {
-        return eIsSet(Ifc4Package.Literals.IFC_POLYGONAL_FACE_SET__PN_INDEX);
+        return eIsSet(Ifc4Package.eINSTANCE.getIfcPolygonalFaceSet_PnIndex());
     }
 
 } //IfcPolygonalFaceSetImpl

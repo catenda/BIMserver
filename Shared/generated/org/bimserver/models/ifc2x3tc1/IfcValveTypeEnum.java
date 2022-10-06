@@ -275,10 +275,6 @@ public enum IfcValveTypeEnum implements Enumerator {
     /**
      * The '<em><b>NULL</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>NULL</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #NULL
      * @model
@@ -290,10 +286,6 @@ public enum IfcValveTypeEnum implements Enumerator {
     /**
      * The '<em><b>COMMISSIONING</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>COMMISSIONING</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #COMMISSIONING
      * @model
@@ -305,10 +297,6 @@ public enum IfcValveTypeEnum implements Enumerator {
     /**
      * The '<em><b>CHANGEOVER</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>CHANGEOVER</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #CHANGEOVER
      * @model
@@ -320,10 +308,6 @@ public enum IfcValveTypeEnum implements Enumerator {
     /**
      * The '<em><b>DIVERTING</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>DIVERTING</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #DIVERTING
      * @model
@@ -335,10 +319,6 @@ public enum IfcValveTypeEnum implements Enumerator {
     /**
      * The '<em><b>GASTAP</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>GASTAP</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #GASTAP
      * @model
@@ -350,10 +330,6 @@ public enum IfcValveTypeEnum implements Enumerator {
     /**
      * The '<em><b>ANTIVACUUM</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>ANTIVACUUM</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #ANTIVACUUM
      * @model
@@ -365,10 +341,6 @@ public enum IfcValveTypeEnum implements Enumerator {
     /**
      * The '<em><b>USERDEFINED</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>USERDEFINED</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #USERDEFINED
      * @model
@@ -380,10 +352,6 @@ public enum IfcValveTypeEnum implements Enumerator {
     /**
      * The '<em><b>AIRRELEASE</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>AIRRELEASE</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #AIRRELEASE
      * @model
@@ -395,10 +363,6 @@ public enum IfcValveTypeEnum implements Enumerator {
     /**
      * The '<em><b>REGULATING</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>REGULATING</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #REGULATING
      * @model
@@ -410,10 +374,6 @@ public enum IfcValveTypeEnum implements Enumerator {
     /**
      * The '<em><b>PRESSUREREDUCING</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>PRESSUREREDUCING</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #PRESSUREREDUCING
      * @model
@@ -425,10 +385,6 @@ public enum IfcValveTypeEnum implements Enumerator {
     /**
      * The '<em><b>STEAMTRAP</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>STEAMTRAP</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #STEAMTRAP
      * @model
@@ -440,10 +396,6 @@ public enum IfcValveTypeEnum implements Enumerator {
     /**
      * The '<em><b>DOUBLECHECK</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>DOUBLECHECK</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #DOUBLECHECK
      * @model
@@ -455,10 +407,6 @@ public enum IfcValveTypeEnum implements Enumerator {
     /**
      * The '<em><b>NOTDEFINED</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>NOTDEFINED</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #NOTDEFINED
      * @model
@@ -470,10 +418,6 @@ public enum IfcValveTypeEnum implements Enumerator {
     /**
      * The '<em><b>MIXING</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>MIXING</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #MIXING
      * @model
@@ -485,10 +429,6 @@ public enum IfcValveTypeEnum implements Enumerator {
     /**
      * The '<em><b>PRESSURERELIEF</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>PRESSURERELIEF</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #PRESSURERELIEF
      * @model
@@ -500,10 +440,6 @@ public enum IfcValveTypeEnum implements Enumerator {
     /**
      * The '<em><b>STOPCOCK</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>STOPCOCK</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #STOPCOCK
      * @model
@@ -515,10 +451,6 @@ public enum IfcValveTypeEnum implements Enumerator {
     /**
      * The '<em><b>FLUSHING</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>FLUSHING</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #FLUSHING
      * @model
@@ -530,10 +462,6 @@ public enum IfcValveTypeEnum implements Enumerator {
     /**
      * The '<em><b>ISOLATING</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>ISOLATING</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #ISOLATING
      * @model
@@ -545,10 +473,6 @@ public enum IfcValveTypeEnum implements Enumerator {
     /**
      * The '<em><b>FAUCET</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>FAUCET</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #FAUCET
      * @model
@@ -560,10 +484,6 @@ public enum IfcValveTypeEnum implements Enumerator {
     /**
      * The '<em><b>SAFETYCUTOFF</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>SAFETYCUTOFF</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #SAFETYCUTOFF
      * @model
@@ -575,10 +495,6 @@ public enum IfcValveTypeEnum implements Enumerator {
     /**
      * The '<em><b>CHECK</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>CHECK</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #CHECK
      * @model
@@ -590,10 +506,6 @@ public enum IfcValveTypeEnum implements Enumerator {
     /**
      * The '<em><b>DRAWOFFCOCK</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>DRAWOFFCOCK</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #DRAWOFFCOCK
      * @model
@@ -605,10 +517,6 @@ public enum IfcValveTypeEnum implements Enumerator {
     /**
      * The '<em><b>GASCOCK</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>GASCOCK</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #GASCOCK
      * @model
@@ -620,10 +528,6 @@ public enum IfcValveTypeEnum implements Enumerator {
     /**
      * The '<em><b>DOUBLEREGULATING</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>DOUBLEREGULATING</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #DOUBLEREGULATING
      * @model

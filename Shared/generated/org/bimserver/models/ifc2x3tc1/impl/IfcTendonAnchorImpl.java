@@ -45,7 +45,7 @@ public class IfcTendonAnchorImpl extends IfcReinforcingElementImpl implements If
      */
     @Override
     protected EClass eStaticClass() {
-        return Ifc2x3tc1Package.Literals.IFC_TENDON_ANCHOR;
+        return Ifc2x3tc1Package.eINSTANCE.getIfcTendonAnchor();
     }
 
 } //IfcTendonAnchorImpl

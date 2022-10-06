@@ -60,7 +60,7 @@ public class GeometryInfoImpl extends IdEObjectImpl implements GeometryInfo {
      */
     @Override
     protected EClass eStaticClass() {
-        return Ifc2x3tc1Package.Literals.GEOMETRY_INFO;
+        return Ifc2x3tc1Package.eINSTANCE.getGeometryInfo();
     }
 
     /**
@@ -80,7 +80,7 @@ public class GeometryInfoImpl extends IdEObjectImpl implements GeometryInfo {
      */
     @Override
     public Vector3f getMinBounds() {
-        return (Vector3f) eGet(Ifc2x3tc1Package.Literals.GEOMETRY_INFO__MIN_BOUNDS, true);
+        return (Vector3f) eGet(Ifc2x3tc1Package.eINSTANCE.getGeometryInfo_MinBounds(), true);
     }
 
     /**
@@ -90,7 +90,7 @@ public class GeometryInfoImpl extends IdEObjectImpl implements GeometryInfo {
      */
     @Override
     public void setMinBounds(Vector3f newMinBounds) {
-        eSet(Ifc2x3tc1Package.Literals.GEOMETRY_INFO__MIN_BOUNDS, newMinBounds);
+        eSet(Ifc2x3tc1Package.eINSTANCE.getGeometryInfo_MinBounds(), newMinBounds);
     }
 
     /**
@@ -100,7 +100,7 @@ public class GeometryInfoImpl extends IdEObjectImpl implements GeometryInfo {
      */
     @Override
     public Vector3f getMaxBounds() {
-        return (Vector3f) eGet(Ifc2x3tc1Package.Literals.GEOMETRY_INFO__MAX_BOUNDS, true);
+        return (Vector3f) eGet(Ifc2x3tc1Package.eINSTANCE.getGeometryInfo_MaxBounds(), true);
     }
 
     /**
@@ -110,7 +110,7 @@ public class GeometryInfoImpl extends IdEObjectImpl implements GeometryInfo {
      */
     @Override
     public void setMaxBounds(Vector3f newMaxBounds) {
-        eSet(Ifc2x3tc1Package.Literals.GEOMETRY_INFO__MAX_BOUNDS, newMaxBounds);
+        eSet(Ifc2x3tc1Package.eINSTANCE.getGeometryInfo_MaxBounds(), newMaxBounds);
     }
 
     /**
@@ -120,7 +120,7 @@ public class GeometryInfoImpl extends IdEObjectImpl implements GeometryInfo {
      */
     @Override
     public Integer getStartVertex() {
-        return (Integer) eGet(Ifc2x3tc1Package.Literals.GEOMETRY_INFO__START_VERTEX, true);
+        return (Integer) eGet(Ifc2x3tc1Package.eINSTANCE.getGeometryInfo_StartVertex(), true);
     }
 
     /**
@@ -130,7 +130,7 @@ public class GeometryInfoImpl extends IdEObjectImpl implements GeometryInfo {
      */
     @Override
     public void setStartVertex(Integer newStartVertex) {
-        eSet(Ifc2x3tc1Package.Literals.GEOMETRY_INFO__START_VERTEX, newStartVertex);
+        eSet(Ifc2x3tc1Package.eINSTANCE.getGeometryInfo_StartVertex(), newStartVertex);
     }
 
     /**
@@ -140,7 +140,7 @@ public class GeometryInfoImpl extends IdEObjectImpl implements GeometryInfo {
      */
     @Override
     public Integer getStartIndex() {
-        return (Integer) eGet(Ifc2x3tc1Package.Literals.GEOMETRY_INFO__START_INDEX, true);
+        return (Integer) eGet(Ifc2x3tc1Package.eINSTANCE.getGeometryInfo_StartIndex(), true);
     }
 
     /**
@@ -150,7 +150,7 @@ public class GeometryInfoImpl extends IdEObjectImpl implements GeometryInfo {
      */
     @Override
     public void setStartIndex(Integer newStartIndex) {
-        eSet(Ifc2x3tc1Package.Literals.GEOMETRY_INFO__START_INDEX, newStartIndex);
+        eSet(Ifc2x3tc1Package.eINSTANCE.getGeometryInfo_StartIndex(), newStartIndex);
     }
 
     /**
@@ -160,7 +160,7 @@ public class GeometryInfoImpl extends IdEObjectImpl implements GeometryInfo {
      */
     @Override
     public Integer getPrimitiveCount() {
-        return (Integer) eGet(Ifc2x3tc1Package.Literals.GEOMETRY_INFO__PRIMITIVE_COUNT, true);
+        return (Integer) eGet(Ifc2x3tc1Package.eINSTANCE.getGeometryInfo_PrimitiveCount(), true);
     }
 
     /**
@@ -170,7 +170,7 @@ public class GeometryInfoImpl extends IdEObjectImpl implements GeometryInfo {
      */
     @Override
     public void setPrimitiveCount(Integer newPrimitiveCount) {
-        eSet(Ifc2x3tc1Package.Literals.GEOMETRY_INFO__PRIMITIVE_COUNT, newPrimitiveCount);
+        eSet(Ifc2x3tc1Package.eINSTANCE.getGeometryInfo_PrimitiveCount(), newPrimitiveCount);
     }
 
     /**
@@ -180,7 +180,7 @@ public class GeometryInfoImpl extends IdEObjectImpl implements GeometryInfo {
      */
     @Override
     public GeometryData getData() {
-        return (GeometryData) eGet(Ifc2x3tc1Package.Literals.GEOMETRY_INFO__DATA, true);
+        return (GeometryData) eGet(Ifc2x3tc1Package.eINSTANCE.getGeometryInfo_Data(), true);
     }
 
     /**
@@ -190,7 +190,7 @@ public class GeometryInfoImpl extends IdEObjectImpl implements GeometryInfo {
      */
     @Override
     public void setData(GeometryData newData) {
-        eSet(Ifc2x3tc1Package.Literals.GEOMETRY_INFO__DATA, newData);
+        eSet(Ifc2x3tc1Package.eINSTANCE.getGeometryInfo_Data(), newData);
     }
 
 } //GeometryInfoImpl

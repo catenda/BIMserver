@@ -45,7 +45,7 @@ public class IfcStructuralReactionImpl extends IfcStructuralActivityImpl impleme
      */
     @Override
     protected EClass eStaticClass() {
-        return Ifc4Package.Literals.IFC_STRUCTURAL_REACTION;
+        return Ifc4Package.eINSTANCE.getIfcStructuralReaction();
     }
 
 } //IfcStructuralReactionImpl

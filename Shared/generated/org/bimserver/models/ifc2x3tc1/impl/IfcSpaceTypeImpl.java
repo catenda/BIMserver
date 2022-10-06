@@ -52,7 +52,7 @@ public class IfcSpaceTypeImpl extends IfcSpatialStructureElementTypeImpl impleme
      */
     @Override
     protected EClass eStaticClass() {
-        return Ifc2x3tc1Package.Literals.IFC_SPACE_TYPE;
+        return Ifc2x3tc1Package.eINSTANCE.getIfcSpaceType();
     }
 
     /**
@@ -62,7 +62,7 @@ public class IfcSpaceTypeImpl extends IfcSpatialStructureElementTypeImpl impleme
      */
     @Override
     public IfcSpaceTypeEnum getPredefinedType() {
-        return (IfcSpaceTypeEnum) eGet(Ifc2x3tc1Package.Literals.IFC_SPACE_TYPE__PREDEFINED_TYPE, true);
+        return (IfcSpaceTypeEnum) eGet(Ifc2x3tc1Package.eINSTANCE.getIfcSpaceType_PredefinedType(), true);
     }
 
     /**
@@ -72,7 +72,7 @@ public class IfcSpaceTypeImpl extends IfcSpatialStructureElementTypeImpl impleme
      */
     @Override
     public void setPredefinedType(IfcSpaceTypeEnum newPredefinedType) {
-        eSet(Ifc2x3tc1Package.Literals.IFC_SPACE_TYPE__PREDEFINED_TYPE, newPredefinedType);
+        eSet(Ifc2x3tc1Package.eINSTANCE.getIfcSpaceType_PredefinedType(), newPredefinedType);
     }
 
 } //IfcSpaceTypeImpl

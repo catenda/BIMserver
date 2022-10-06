@@ -56,7 +56,7 @@ public class IfcPropertyBoundedValueImpl extends IfcSimplePropertyImpl implement
      */
     @Override
     protected EClass eStaticClass() {
-        return Ifc4Package.Literals.IFC_PROPERTY_BOUNDED_VALUE;
+        return Ifc4Package.eINSTANCE.getIfcPropertyBoundedValue();
     }
 
     /**
@@ -66,7 +66,7 @@ public class IfcPropertyBoundedValueImpl extends IfcSimplePropertyImpl implement
      */
     @Override
     public IfcValue getUpperBoundValue() {
-        return (IfcValue) eGet(Ifc4Package.Literals.IFC_PROPERTY_BOUNDED_VALUE__UPPER_BOUND_VALUE, true);
+        return (IfcValue) eGet(Ifc4Package.eINSTANCE.getIfcPropertyBoundedValue_UpperBoundValue(), true);
     }
 
     /**
@@ -76,7 +76,7 @@ public class IfcPropertyBoundedValueImpl extends IfcSimplePropertyImpl implement
      */
     @Override
     public void setUpperBoundValue(IfcValue newUpperBoundValue) {
-        eSet(Ifc4Package.Literals.IFC_PROPERTY_BOUNDED_VALUE__UPPER_BOUND_VALUE, newUpperBoundValue);
+        eSet(Ifc4Package.eINSTANCE.getIfcPropertyBoundedValue_UpperBoundValue(), newUpperBoundValue);
     }
 
     /**
@@ -86,7 +86,7 @@ public class IfcPropertyBoundedValueImpl extends IfcSimplePropertyImpl implement
      */
     @Override
     public void unsetUpperBoundValue() {
-        eUnset(Ifc4Package.Literals.IFC_PROPERTY_BOUNDED_VALUE__UPPER_BOUND_VALUE);
+        eUnset(Ifc4Package.eINSTANCE.getIfcPropertyBoundedValue_UpperBoundValue());
     }
 
     /**
@@ -96,7 +96,7 @@ public class IfcPropertyBoundedValueImpl extends IfcSimplePropertyImpl implement
      */
     @Override
     public boolean isSetUpperBoundValue() {
-        return eIsSet(Ifc4Package.Literals.IFC_PROPERTY_BOUNDED_VALUE__UPPER_BOUND_VALUE);
+        return eIsSet(Ifc4Package.eINSTANCE.getIfcPropertyBoundedValue_UpperBoundValue());
     }
 
     /**
@@ -106,7 +106,7 @@ public class IfcPropertyBoundedValueImpl extends IfcSimplePropertyImpl implement
      */
     @Override
     public IfcValue getLowerBoundValue() {
-        return (IfcValue) eGet(Ifc4Package.Literals.IFC_PROPERTY_BOUNDED_VALUE__LOWER_BOUND_VALUE, true);
+        return (IfcValue) eGet(Ifc4Package.eINSTANCE.getIfcPropertyBoundedValue_LowerBoundValue(), true);
     }
 
     /**
@@ -116,7 +116,7 @@ public class IfcPropertyBoundedValueImpl extends IfcSimplePropertyImpl implement
      */
     @Override
     public void setLowerBoundValue(IfcValue newLowerBoundValue) {
-        eSet(Ifc4Package.Literals.IFC_PROPERTY_BOUNDED_VALUE__LOWER_BOUND_VALUE, newLowerBoundValue);
+        eSet(Ifc4Package.eINSTANCE.getIfcPropertyBoundedValue_LowerBoundValue(), newLowerBoundValue);
     }
 
     /**
@@ -126,7 +126,7 @@ public class IfcPropertyBoundedValueImpl extends IfcSimplePropertyImpl implement
      */
     @Override
     public void unsetLowerBoundValue() {
-        eUnset(Ifc4Package.Literals.IFC_PROPERTY_BOUNDED_VALUE__LOWER_BOUND_VALUE);
+        eUnset(Ifc4Package.eINSTANCE.getIfcPropertyBoundedValue_LowerBoundValue());
     }
 
     /**
@@ -136,7 +136,7 @@ public class IfcPropertyBoundedValueImpl extends IfcSimplePropertyImpl implement
      */
     @Override
     public boolean isSetLowerBoundValue() {
-        return eIsSet(Ifc4Package.Literals.IFC_PROPERTY_BOUNDED_VALUE__LOWER_BOUND_VALUE);
+        return eIsSet(Ifc4Package.eINSTANCE.getIfcPropertyBoundedValue_LowerBoundValue());
     }
 
     /**
@@ -146,7 +146,7 @@ public class IfcPropertyBoundedValueImpl extends IfcSimplePropertyImpl implement
      */
     @Override
     public IfcUnit getUnit() {
-        return (IfcUnit) eGet(Ifc4Package.Literals.IFC_PROPERTY_BOUNDED_VALUE__UNIT, true);
+        return (IfcUnit) eGet(Ifc4Package.eINSTANCE.getIfcPropertyBoundedValue_Unit(), true);
     }
 
     /**
@@ -156,7 +156,7 @@ public class IfcPropertyBoundedValueImpl extends IfcSimplePropertyImpl implement
      */
     @Override
     public void setUnit(IfcUnit newUnit) {
-        eSet(Ifc4Package.Literals.IFC_PROPERTY_BOUNDED_VALUE__UNIT, newUnit);
+        eSet(Ifc4Package.eINSTANCE.getIfcPropertyBoundedValue_Unit(), newUnit);
     }
 
     /**
@@ -166,7 +166,7 @@ public class IfcPropertyBoundedValueImpl extends IfcSimplePropertyImpl implement
      */
     @Override
     public void unsetUnit() {
-        eUnset(Ifc4Package.Literals.IFC_PROPERTY_BOUNDED_VALUE__UNIT);
+        eUnset(Ifc4Package.eINSTANCE.getIfcPropertyBoundedValue_Unit());
     }
 
     /**
@@ -176,7 +176,7 @@ public class IfcPropertyBoundedValueImpl extends IfcSimplePropertyImpl implement
      */
     @Override
     public boolean isSetUnit() {
-        return eIsSet(Ifc4Package.Literals.IFC_PROPERTY_BOUNDED_VALUE__UNIT);
+        return eIsSet(Ifc4Package.eINSTANCE.getIfcPropertyBoundedValue_Unit());
     }
 
     /**
@@ -186,7 +186,7 @@ public class IfcPropertyBoundedValueImpl extends IfcSimplePropertyImpl implement
      */
     @Override
     public IfcValue getSetPointValue() {
-        return (IfcValue) eGet(Ifc4Package.Literals.IFC_PROPERTY_BOUNDED_VALUE__SET_POINT_VALUE, true);
+        return (IfcValue) eGet(Ifc4Package.eINSTANCE.getIfcPropertyBoundedValue_SetPointValue(), true);
     }
 
     /**
@@ -196,7 +196,7 @@ public class IfcPropertyBoundedValueImpl extends IfcSimplePropertyImpl implement
      */
     @Override
     public void setSetPointValue(IfcValue newSetPointValue) {
-        eSet(Ifc4Package.Literals.IFC_PROPERTY_BOUNDED_VALUE__SET_POINT_VALUE, newSetPointValue);
+        eSet(Ifc4Package.eINSTANCE.getIfcPropertyBoundedValue_SetPointValue(), newSetPointValue);
     }
 
     /**
@@ -206,7 +206,7 @@ public class IfcPropertyBoundedValueImpl extends IfcSimplePropertyImpl implement
      */
     @Override
     public void unsetSetPointValue() {
-        eUnset(Ifc4Package.Literals.IFC_PROPERTY_BOUNDED_VALUE__SET_POINT_VALUE);
+        eUnset(Ifc4Package.eINSTANCE.getIfcPropertyBoundedValue_SetPointValue());
     }
 
     /**
@@ -216,7 +216,7 @@ public class IfcPropertyBoundedValueImpl extends IfcSimplePropertyImpl implement
      */
     @Override
     public boolean isSetSetPointValue() {
-        return eIsSet(Ifc4Package.Literals.IFC_PROPERTY_BOUNDED_VALUE__SET_POINT_VALUE);
+        return eIsSet(Ifc4Package.eINSTANCE.getIfcPropertyBoundedValue_SetPointValue());
     }
 
 } //IfcPropertyBoundedValueImpl

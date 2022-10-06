@@ -52,7 +52,7 @@ public class IfcSweptDiskSolidPolygonalImpl extends IfcSweptDiskSolidImpl implem
      */
     @Override
     protected EClass eStaticClass() {
-        return Ifc4Package.Literals.IFC_SWEPT_DISK_SOLID_POLYGONAL;
+        return Ifc4Package.eINSTANCE.getIfcSweptDiskSolidPolygonal();
     }
 
     /**
@@ -62,7 +62,7 @@ public class IfcSweptDiskSolidPolygonalImpl extends IfcSweptDiskSolidImpl implem
      */
     @Override
     public double getFilletRadius() {
-        return (Double) eGet(Ifc4Package.Literals.IFC_SWEPT_DISK_SOLID_POLYGONAL__FILLET_RADIUS, true);
+        return (Double) eGet(Ifc4Package.eINSTANCE.getIfcSweptDiskSolidPolygonal_FilletRadius(), true);
     }
 
     /**
@@ -72,7 +72,7 @@ public class IfcSweptDiskSolidPolygonalImpl extends IfcSweptDiskSolidImpl implem
      */
     @Override
     public void setFilletRadius(double newFilletRadius) {
-        eSet(Ifc4Package.Literals.IFC_SWEPT_DISK_SOLID_POLYGONAL__FILLET_RADIUS, newFilletRadius);
+        eSet(Ifc4Package.eINSTANCE.getIfcSweptDiskSolidPolygonal_FilletRadius(), newFilletRadius);
     }
 
     /**
@@ -82,7 +82,7 @@ public class IfcSweptDiskSolidPolygonalImpl extends IfcSweptDiskSolidImpl implem
      */
     @Override
     public void unsetFilletRadius() {
-        eUnset(Ifc4Package.Literals.IFC_SWEPT_DISK_SOLID_POLYGONAL__FILLET_RADIUS);
+        eUnset(Ifc4Package.eINSTANCE.getIfcSweptDiskSolidPolygonal_FilletRadius());
     }
 
     /**
@@ -92,7 +92,7 @@ public class IfcSweptDiskSolidPolygonalImpl extends IfcSweptDiskSolidImpl implem
      */
     @Override
     public boolean isSetFilletRadius() {
-        return eIsSet(Ifc4Package.Literals.IFC_SWEPT_DISK_SOLID_POLYGONAL__FILLET_RADIUS);
+        return eIsSet(Ifc4Package.eINSTANCE.getIfcSweptDiskSolidPolygonal_FilletRadius());
     }
 
     /**
@@ -102,7 +102,7 @@ public class IfcSweptDiskSolidPolygonalImpl extends IfcSweptDiskSolidImpl implem
      */
     @Override
     public String getFilletRadiusAsString() {
-        return (String) eGet(Ifc4Package.Literals.IFC_SWEPT_DISK_SOLID_POLYGONAL__FILLET_RADIUS_AS_STRING, true);
+        return (String) eGet(Ifc4Package.eINSTANCE.getIfcSweptDiskSolidPolygonal_FilletRadiusAsString(), true);
     }
 
     /**
@@ -112,7 +112,7 @@ public class IfcSweptDiskSolidPolygonalImpl extends IfcSweptDiskSolidImpl implem
      */
     @Override
     public void setFilletRadiusAsString(String newFilletRadiusAsString) {
-        eSet(Ifc4Package.Literals.IFC_SWEPT_DISK_SOLID_POLYGONAL__FILLET_RADIUS_AS_STRING, newFilletRadiusAsString);
+        eSet(Ifc4Package.eINSTANCE.getIfcSweptDiskSolidPolygonal_FilletRadiusAsString(), newFilletRadiusAsString);
     }
 
     /**
@@ -122,7 +122,7 @@ public class IfcSweptDiskSolidPolygonalImpl extends IfcSweptDiskSolidImpl implem
      */
     @Override
     public void unsetFilletRadiusAsString() {
-        eUnset(Ifc4Package.Literals.IFC_SWEPT_DISK_SOLID_POLYGONAL__FILLET_RADIUS_AS_STRING);
+        eUnset(Ifc4Package.eINSTANCE.getIfcSweptDiskSolidPolygonal_FilletRadiusAsString());
     }
 
     /**
@@ -132,7 +132,7 @@ public class IfcSweptDiskSolidPolygonalImpl extends IfcSweptDiskSolidImpl implem
      */
     @Override
     public boolean isSetFilletRadiusAsString() {
-        return eIsSet(Ifc4Package.Literals.IFC_SWEPT_DISK_SOLID_POLYGONAL__FILLET_RADIUS_AS_STRING);
+        return eIsSet(Ifc4Package.eINSTANCE.getIfcSweptDiskSolidPolygonal_FilletRadiusAsString());
     }
 
 } //IfcSweptDiskSolidPolygonalImpl

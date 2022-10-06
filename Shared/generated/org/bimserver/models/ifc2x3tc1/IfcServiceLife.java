@@ -39,10 +39,6 @@ public interface IfcServiceLife extends IfcControl {
      * Returns the value of the '<em><b>Service Life Type</b></em>' attribute.
      * The literals are from the enumeration {@link org.bimserver.models.ifc2x3tc1.IfcServiceLifeTypeEnum}.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Service Life Type</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Service Life Type</em>' attribute.
      * @see org.bimserver.models.ifc2x3tc1.IfcServiceLifeTypeEnum
@@ -67,10 +63,6 @@ public interface IfcServiceLife extends IfcControl {
     /**
      * Returns the value of the '<em><b>Service Life Duration</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Service Life Duration</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Service Life Duration</em>' attribute.
      * @see #setServiceLifeDuration(double)
@@ -93,10 +85,6 @@ public interface IfcServiceLife extends IfcControl {
     /**
      * Returns the value of the '<em><b>Service Life Duration As String</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Service Life Duration As String</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Service Life Duration As String</em>' attribute.
      * @see #setServiceLifeDurationAsString(String)

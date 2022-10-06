@@ -52,7 +52,7 @@ public class IfcElementarySurfaceImpl extends IfcSurfaceImpl implements IfcEleme
      */
     @Override
     protected EClass eStaticClass() {
-        return Ifc4Package.Literals.IFC_ELEMENTARY_SURFACE;
+        return Ifc4Package.eINSTANCE.getIfcElementarySurface();
     }
 
     /**
@@ -62,7 +62,7 @@ public class IfcElementarySurfaceImpl extends IfcSurfaceImpl implements IfcEleme
      */
     @Override
     public IfcAxis2Placement3D getPosition() {
-        return (IfcAxis2Placement3D) eGet(Ifc4Package.Literals.IFC_ELEMENTARY_SURFACE__POSITION, true);
+        return (IfcAxis2Placement3D) eGet(Ifc4Package.eINSTANCE.getIfcElementarySurface_Position(), true);
     }
 
     /**
@@ -72,7 +72,7 @@ public class IfcElementarySurfaceImpl extends IfcSurfaceImpl implements IfcEleme
      */
     @Override
     public void setPosition(IfcAxis2Placement3D newPosition) {
-        eSet(Ifc4Package.Literals.IFC_ELEMENTARY_SURFACE__POSITION, newPosition);
+        eSet(Ifc4Package.eINSTANCE.getIfcElementarySurface_Position(), newPosition);
     }
 
 } //IfcElementarySurfaceImpl

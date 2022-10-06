@@ -53,7 +53,7 @@ public class IfcAirToAirHeatRecoveryTypeImpl extends IfcEnergyConversionDeviceTy
      */
     @Override
     protected EClass eStaticClass() {
-        return Ifc4Package.Literals.IFC_AIR_TO_AIR_HEAT_RECOVERY_TYPE;
+        return Ifc4Package.eINSTANCE.getIfcAirToAirHeatRecoveryType();
     }
 
     /**
@@ -64,7 +64,7 @@ public class IfcAirToAirHeatRecoveryTypeImpl extends IfcEnergyConversionDeviceTy
     @Override
     public IfcAirToAirHeatRecoveryTypeEnum getPredefinedType() {
         return (IfcAirToAirHeatRecoveryTypeEnum) eGet(
-                Ifc4Package.Literals.IFC_AIR_TO_AIR_HEAT_RECOVERY_TYPE__PREDEFINED_TYPE, true);
+                Ifc4Package.eINSTANCE.getIfcAirToAirHeatRecoveryType_PredefinedType(), true);
     }
 
     /**
@@ -74,7 +74,7 @@ public class IfcAirToAirHeatRecoveryTypeImpl extends IfcEnergyConversionDeviceTy
      */
     @Override
     public void setPredefinedType(IfcAirToAirHeatRecoveryTypeEnum newPredefinedType) {
-        eSet(Ifc4Package.Literals.IFC_AIR_TO_AIR_HEAT_RECOVERY_TYPE__PREDEFINED_TYPE, newPredefinedType);
+        eSet(Ifc4Package.eINSTANCE.getIfcAirToAirHeatRecoveryType_PredefinedType(), newPredefinedType);
     }
 
 } //IfcAirToAirHeatRecoveryTypeImpl

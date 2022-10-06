@@ -54,7 +54,7 @@ public class IfcPolyLoopImpl extends IfcLoopImpl implements IfcPolyLoop {
      */
     @Override
     protected EClass eStaticClass() {
-        return Ifc2x3tc1Package.Literals.IFC_POLY_LOOP;
+        return Ifc2x3tc1Package.eINSTANCE.getIfcPolyLoop();
     }
 
     /**
@@ -65,7 +65,7 @@ public class IfcPolyLoopImpl extends IfcLoopImpl implements IfcPolyLoop {
     @SuppressWarnings("unchecked")
     @Override
     public EList<IfcCartesianPoint> getPolygon() {
-        return (EList<IfcCartesianPoint>) eGet(Ifc2x3tc1Package.Literals.IFC_POLY_LOOP__POLYGON, true);
+        return (EList<IfcCartesianPoint>) eGet(Ifc2x3tc1Package.eINSTANCE.getIfcPolyLoop_Polygon(), true);
     }
 
 } //IfcPolyLoopImpl

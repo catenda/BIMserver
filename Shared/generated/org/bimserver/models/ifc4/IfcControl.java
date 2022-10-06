@@ -39,10 +39,6 @@ public interface IfcControl extends IfcObject {
     /**
      * Returns the value of the '<em><b>Identification</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Identification</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Identification</em>' attribute.
      * @see #isSetIdentification()
@@ -94,10 +90,6 @@ public interface IfcControl extends IfcObject {
      * The list contents are of type {@link org.bimserver.models.ifc4.IfcRelAssignsToControl}.
      * It is bidirectional and its opposite is '{@link org.bimserver.models.ifc4.IfcRelAssignsToControl#getRelatingControl <em>Relating Control</em>}'.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Controls</em>' reference list isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Controls</em>' reference list.
      * @see #isSetControls()

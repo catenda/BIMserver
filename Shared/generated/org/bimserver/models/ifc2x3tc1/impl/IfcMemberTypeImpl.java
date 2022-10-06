@@ -52,7 +52,7 @@ public class IfcMemberTypeImpl extends IfcBuildingElementTypeImpl implements Ifc
      */
     @Override
     protected EClass eStaticClass() {
-        return Ifc2x3tc1Package.Literals.IFC_MEMBER_TYPE;
+        return Ifc2x3tc1Package.eINSTANCE.getIfcMemberType();
     }
 
     /**
@@ -62,7 +62,7 @@ public class IfcMemberTypeImpl extends IfcBuildingElementTypeImpl implements Ifc
      */
     @Override
     public IfcMemberTypeEnum getPredefinedType() {
-        return (IfcMemberTypeEnum) eGet(Ifc2x3tc1Package.Literals.IFC_MEMBER_TYPE__PREDEFINED_TYPE, true);
+        return (IfcMemberTypeEnum) eGet(Ifc2x3tc1Package.eINSTANCE.getIfcMemberType_PredefinedType(), true);
     }
 
     /**
@@ -72,7 +72,7 @@ public class IfcMemberTypeImpl extends IfcBuildingElementTypeImpl implements Ifc
      */
     @Override
     public void setPredefinedType(IfcMemberTypeEnum newPredefinedType) {
-        eSet(Ifc2x3tc1Package.Literals.IFC_MEMBER_TYPE__PREDEFINED_TYPE, newPredefinedType);
+        eSet(Ifc2x3tc1Package.eINSTANCE.getIfcMemberType_PredefinedType(), newPredefinedType);
     }
 
 } //IfcMemberTypeImpl

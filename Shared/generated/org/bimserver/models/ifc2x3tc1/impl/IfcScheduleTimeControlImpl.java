@@ -80,7 +80,7 @@ public class IfcScheduleTimeControlImpl extends IfcControlImpl implements IfcSch
      */
     @Override
     protected EClass eStaticClass() {
-        return Ifc2x3tc1Package.Literals.IFC_SCHEDULE_TIME_CONTROL;
+        return Ifc2x3tc1Package.eINSTANCE.getIfcScheduleTimeControl();
     }
 
     /**
@@ -90,7 +90,7 @@ public class IfcScheduleTimeControlImpl extends IfcControlImpl implements IfcSch
      */
     @Override
     public IfcDateTimeSelect getActualStart() {
-        return (IfcDateTimeSelect) eGet(Ifc2x3tc1Package.Literals.IFC_SCHEDULE_TIME_CONTROL__ACTUAL_START, true);
+        return (IfcDateTimeSelect) eGet(Ifc2x3tc1Package.eINSTANCE.getIfcScheduleTimeControl_ActualStart(), true);
     }
 
     /**
@@ -100,7 +100,7 @@ public class IfcScheduleTimeControlImpl extends IfcControlImpl implements IfcSch
      */
     @Override
     public void setActualStart(IfcDateTimeSelect newActualStart) {
-        eSet(Ifc2x3tc1Package.Literals.IFC_SCHEDULE_TIME_CONTROL__ACTUAL_START, newActualStart);
+        eSet(Ifc2x3tc1Package.eINSTANCE.getIfcScheduleTimeControl_ActualStart(), newActualStart);
     }
 
     /**
@@ -110,7 +110,7 @@ public class IfcScheduleTimeControlImpl extends IfcControlImpl implements IfcSch
      */
     @Override
     public void unsetActualStart() {
-        eUnset(Ifc2x3tc1Package.Literals.IFC_SCHEDULE_TIME_CONTROL__ACTUAL_START);
+        eUnset(Ifc2x3tc1Package.eINSTANCE.getIfcScheduleTimeControl_ActualStart());
     }
 
     /**
@@ -120,7 +120,7 @@ public class IfcScheduleTimeControlImpl extends IfcControlImpl implements IfcSch
      */
     @Override
     public boolean isSetActualStart() {
-        return eIsSet(Ifc2x3tc1Package.Literals.IFC_SCHEDULE_TIME_CONTROL__ACTUAL_START);
+        return eIsSet(Ifc2x3tc1Package.eINSTANCE.getIfcScheduleTimeControl_ActualStart());
     }
 
     /**
@@ -130,7 +130,7 @@ public class IfcScheduleTimeControlImpl extends IfcControlImpl implements IfcSch
      */
     @Override
     public IfcDateTimeSelect getEarlyStart() {
-        return (IfcDateTimeSelect) eGet(Ifc2x3tc1Package.Literals.IFC_SCHEDULE_TIME_CONTROL__EARLY_START, true);
+        return (IfcDateTimeSelect) eGet(Ifc2x3tc1Package.eINSTANCE.getIfcScheduleTimeControl_EarlyStart(), true);
     }
 
     /**
@@ -140,7 +140,7 @@ public class IfcScheduleTimeControlImpl extends IfcControlImpl implements IfcSch
      */
     @Override
     public void setEarlyStart(IfcDateTimeSelect newEarlyStart) {
-        eSet(Ifc2x3tc1Package.Literals.IFC_SCHEDULE_TIME_CONTROL__EARLY_START, newEarlyStart);
+        eSet(Ifc2x3tc1Package.eINSTANCE.getIfcScheduleTimeControl_EarlyStart(), newEarlyStart);
     }
 
     /**
@@ -150,7 +150,7 @@ public class IfcScheduleTimeControlImpl extends IfcControlImpl implements IfcSch
      */
     @Override
     public void unsetEarlyStart() {
-        eUnset(Ifc2x3tc1Package.Literals.IFC_SCHEDULE_TIME_CONTROL__EARLY_START);
+        eUnset(Ifc2x3tc1Package.eINSTANCE.getIfcScheduleTimeControl_EarlyStart());
     }
 
     /**
@@ -160,7 +160,7 @@ public class IfcScheduleTimeControlImpl extends IfcControlImpl implements IfcSch
      */
     @Override
     public boolean isSetEarlyStart() {
-        return eIsSet(Ifc2x3tc1Package.Literals.IFC_SCHEDULE_TIME_CONTROL__EARLY_START);
+        return eIsSet(Ifc2x3tc1Package.eINSTANCE.getIfcScheduleTimeControl_EarlyStart());
     }
 
     /**
@@ -170,7 +170,7 @@ public class IfcScheduleTimeControlImpl extends IfcControlImpl implements IfcSch
      */
     @Override
     public IfcDateTimeSelect getLateStart() {
-        return (IfcDateTimeSelect) eGet(Ifc2x3tc1Package.Literals.IFC_SCHEDULE_TIME_CONTROL__LATE_START, true);
+        return (IfcDateTimeSelect) eGet(Ifc2x3tc1Package.eINSTANCE.getIfcScheduleTimeControl_LateStart(), true);
     }
 
     /**
@@ -180,7 +180,7 @@ public class IfcScheduleTimeControlImpl extends IfcControlImpl implements IfcSch
      */
     @Override
     public void setLateStart(IfcDateTimeSelect newLateStart) {
-        eSet(Ifc2x3tc1Package.Literals.IFC_SCHEDULE_TIME_CONTROL__LATE_START, newLateStart);
+        eSet(Ifc2x3tc1Package.eINSTANCE.getIfcScheduleTimeControl_LateStart(), newLateStart);
     }
 
     /**
@@ -190,7 +190,7 @@ public class IfcScheduleTimeControlImpl extends IfcControlImpl implements IfcSch
      */
     @Override
     public void unsetLateStart() {
-        eUnset(Ifc2x3tc1Package.Literals.IFC_SCHEDULE_TIME_CONTROL__LATE_START);
+        eUnset(Ifc2x3tc1Package.eINSTANCE.getIfcScheduleTimeControl_LateStart());
     }
 
     /**
@@ -200,7 +200,7 @@ public class IfcScheduleTimeControlImpl extends IfcControlImpl implements IfcSch
      */
     @Override
     public boolean isSetLateStart() {
-        return eIsSet(Ifc2x3tc1Package.Literals.IFC_SCHEDULE_TIME_CONTROL__LATE_START);
+        return eIsSet(Ifc2x3tc1Package.eINSTANCE.getIfcScheduleTimeControl_LateStart());
     }
 
     /**
@@ -210,7 +210,7 @@ public class IfcScheduleTimeControlImpl extends IfcControlImpl implements IfcSch
      */
     @Override
     public IfcDateTimeSelect getScheduleStart() {
-        return (IfcDateTimeSelect) eGet(Ifc2x3tc1Package.Literals.IFC_SCHEDULE_TIME_CONTROL__SCHEDULE_START, true);
+        return (IfcDateTimeSelect) eGet(Ifc2x3tc1Package.eINSTANCE.getIfcScheduleTimeControl_ScheduleStart(), true);
     }
 
     /**
@@ -220,7 +220,7 @@ public class IfcScheduleTimeControlImpl extends IfcControlImpl implements IfcSch
      */
     @Override
     public void setScheduleStart(IfcDateTimeSelect newScheduleStart) {
-        eSet(Ifc2x3tc1Package.Literals.IFC_SCHEDULE_TIME_CONTROL__SCHEDULE_START, newScheduleStart);
+        eSet(Ifc2x3tc1Package.eINSTANCE.getIfcScheduleTimeControl_ScheduleStart(), newScheduleStart);
     }
 
     /**
@@ -230,7 +230,7 @@ public class IfcScheduleTimeControlImpl extends IfcControlImpl implements IfcSch
      */
     @Override
     public void unsetScheduleStart() {
-        eUnset(Ifc2x3tc1Package.Literals.IFC_SCHEDULE_TIME_CONTROL__SCHEDULE_START);
+        eUnset(Ifc2x3tc1Package.eINSTANCE.getIfcScheduleTimeControl_ScheduleStart());
     }
 
     /**
@@ -240,7 +240,7 @@ public class IfcScheduleTimeControlImpl extends IfcControlImpl implements IfcSch
      */
     @Override
     public boolean isSetScheduleStart() {
-        return eIsSet(Ifc2x3tc1Package.Literals.IFC_SCHEDULE_TIME_CONTROL__SCHEDULE_START);
+        return eIsSet(Ifc2x3tc1Package.eINSTANCE.getIfcScheduleTimeControl_ScheduleStart());
     }
 
     /**
@@ -250,7 +250,7 @@ public class IfcScheduleTimeControlImpl extends IfcControlImpl implements IfcSch
      */
     @Override
     public IfcDateTimeSelect getActualFinish() {
-        return (IfcDateTimeSelect) eGet(Ifc2x3tc1Package.Literals.IFC_SCHEDULE_TIME_CONTROL__ACTUAL_FINISH, true);
+        return (IfcDateTimeSelect) eGet(Ifc2x3tc1Package.eINSTANCE.getIfcScheduleTimeControl_ActualFinish(), true);
     }
 
     /**
@@ -260,7 +260,7 @@ public class IfcScheduleTimeControlImpl extends IfcControlImpl implements IfcSch
      */
     @Override
     public void setActualFinish(IfcDateTimeSelect newActualFinish) {
-        eSet(Ifc2x3tc1Package.Literals.IFC_SCHEDULE_TIME_CONTROL__ACTUAL_FINISH, newActualFinish);
+        eSet(Ifc2x3tc1Package.eINSTANCE.getIfcScheduleTimeControl_ActualFinish(), newActualFinish);
     }
 
     /**
@@ -270,7 +270,7 @@ public class IfcScheduleTimeControlImpl extends IfcControlImpl implements IfcSch
      */
     @Override
     public void unsetActualFinish() {
-        eUnset(Ifc2x3tc1Package.Literals.IFC_SCHEDULE_TIME_CONTROL__ACTUAL_FINISH);
+        eUnset(Ifc2x3tc1Package.eINSTANCE.getIfcScheduleTimeControl_ActualFinish());
     }
 
     /**
@@ -280,7 +280,7 @@ public class IfcScheduleTimeControlImpl extends IfcControlImpl implements IfcSch
      */
     @Override
     public boolean isSetActualFinish() {
-        return eIsSet(Ifc2x3tc1Package.Literals.IFC_SCHEDULE_TIME_CONTROL__ACTUAL_FINISH);
+        return eIsSet(Ifc2x3tc1Package.eINSTANCE.getIfcScheduleTimeControl_ActualFinish());
     }
 
     /**
@@ -290,7 +290,7 @@ public class IfcScheduleTimeControlImpl extends IfcControlImpl implements IfcSch
      */
     @Override
     public IfcDateTimeSelect getEarlyFinish() {
-        return (IfcDateTimeSelect) eGet(Ifc2x3tc1Package.Literals.IFC_SCHEDULE_TIME_CONTROL__EARLY_FINISH, true);
+        return (IfcDateTimeSelect) eGet(Ifc2x3tc1Package.eINSTANCE.getIfcScheduleTimeControl_EarlyFinish(), true);
     }
 
     /**
@@ -300,7 +300,7 @@ public class IfcScheduleTimeControlImpl extends IfcControlImpl implements IfcSch
      */
     @Override
     public void setEarlyFinish(IfcDateTimeSelect newEarlyFinish) {
-        eSet(Ifc2x3tc1Package.Literals.IFC_SCHEDULE_TIME_CONTROL__EARLY_FINISH, newEarlyFinish);
+        eSet(Ifc2x3tc1Package.eINSTANCE.getIfcScheduleTimeControl_EarlyFinish(), newEarlyFinish);
     }
 
     /**
@@ -310,7 +310,7 @@ public class IfcScheduleTimeControlImpl extends IfcControlImpl implements IfcSch
      */
     @Override
     public void unsetEarlyFinish() {
-        eUnset(Ifc2x3tc1Package.Literals.IFC_SCHEDULE_TIME_CONTROL__EARLY_FINISH);
+        eUnset(Ifc2x3tc1Package.eINSTANCE.getIfcScheduleTimeControl_EarlyFinish());
     }
 
     /**
@@ -320,7 +320,7 @@ public class IfcScheduleTimeControlImpl extends IfcControlImpl implements IfcSch
      */
     @Override
     public boolean isSetEarlyFinish() {
-        return eIsSet(Ifc2x3tc1Package.Literals.IFC_SCHEDULE_TIME_CONTROL__EARLY_FINISH);
+        return eIsSet(Ifc2x3tc1Package.eINSTANCE.getIfcScheduleTimeControl_EarlyFinish());
     }
 
     /**
@@ -330,7 +330,7 @@ public class IfcScheduleTimeControlImpl extends IfcControlImpl implements IfcSch
      */
     @Override
     public IfcDateTimeSelect getLateFinish() {
-        return (IfcDateTimeSelect) eGet(Ifc2x3tc1Package.Literals.IFC_SCHEDULE_TIME_CONTROL__LATE_FINISH, true);
+        return (IfcDateTimeSelect) eGet(Ifc2x3tc1Package.eINSTANCE.getIfcScheduleTimeControl_LateFinish(), true);
     }
 
     /**
@@ -340,7 +340,7 @@ public class IfcScheduleTimeControlImpl extends IfcControlImpl implements IfcSch
      */
     @Override
     public void setLateFinish(IfcDateTimeSelect newLateFinish) {
-        eSet(Ifc2x3tc1Package.Literals.IFC_SCHEDULE_TIME_CONTROL__LATE_FINISH, newLateFinish);
+        eSet(Ifc2x3tc1Package.eINSTANCE.getIfcScheduleTimeControl_LateFinish(), newLateFinish);
     }
 
     /**
@@ -350,7 +350,7 @@ public class IfcScheduleTimeControlImpl extends IfcControlImpl implements IfcSch
      */
     @Override
     public void unsetLateFinish() {
-        eUnset(Ifc2x3tc1Package.Literals.IFC_SCHEDULE_TIME_CONTROL__LATE_FINISH);
+        eUnset(Ifc2x3tc1Package.eINSTANCE.getIfcScheduleTimeControl_LateFinish());
     }
 
     /**
@@ -360,7 +360,7 @@ public class IfcScheduleTimeControlImpl extends IfcControlImpl implements IfcSch
      */
     @Override
     public boolean isSetLateFinish() {
-        return eIsSet(Ifc2x3tc1Package.Literals.IFC_SCHEDULE_TIME_CONTROL__LATE_FINISH);
+        return eIsSet(Ifc2x3tc1Package.eINSTANCE.getIfcScheduleTimeControl_LateFinish());
     }
 
     /**
@@ -370,7 +370,7 @@ public class IfcScheduleTimeControlImpl extends IfcControlImpl implements IfcSch
      */
     @Override
     public IfcDateTimeSelect getScheduleFinish() {
-        return (IfcDateTimeSelect) eGet(Ifc2x3tc1Package.Literals.IFC_SCHEDULE_TIME_CONTROL__SCHEDULE_FINISH, true);
+        return (IfcDateTimeSelect) eGet(Ifc2x3tc1Package.eINSTANCE.getIfcScheduleTimeControl_ScheduleFinish(), true);
     }
 
     /**
@@ -380,7 +380,7 @@ public class IfcScheduleTimeControlImpl extends IfcControlImpl implements IfcSch
      */
     @Override
     public void setScheduleFinish(IfcDateTimeSelect newScheduleFinish) {
-        eSet(Ifc2x3tc1Package.Literals.IFC_SCHEDULE_TIME_CONTROL__SCHEDULE_FINISH, newScheduleFinish);
+        eSet(Ifc2x3tc1Package.eINSTANCE.getIfcScheduleTimeControl_ScheduleFinish(), newScheduleFinish);
     }
 
     /**
@@ -390,7 +390,7 @@ public class IfcScheduleTimeControlImpl extends IfcControlImpl implements IfcSch
      */
     @Override
     public void unsetScheduleFinish() {
-        eUnset(Ifc2x3tc1Package.Literals.IFC_SCHEDULE_TIME_CONTROL__SCHEDULE_FINISH);
+        eUnset(Ifc2x3tc1Package.eINSTANCE.getIfcScheduleTimeControl_ScheduleFinish());
     }
 
     /**
@@ -400,7 +400,7 @@ public class IfcScheduleTimeControlImpl extends IfcControlImpl implements IfcSch
      */
     @Override
     public boolean isSetScheduleFinish() {
-        return eIsSet(Ifc2x3tc1Package.Literals.IFC_SCHEDULE_TIME_CONTROL__SCHEDULE_FINISH);
+        return eIsSet(Ifc2x3tc1Package.eINSTANCE.getIfcScheduleTimeControl_ScheduleFinish());
     }
 
     /**
@@ -410,7 +410,7 @@ public class IfcScheduleTimeControlImpl extends IfcControlImpl implements IfcSch
      */
     @Override
     public double getScheduleDuration() {
-        return (Double) eGet(Ifc2x3tc1Package.Literals.IFC_SCHEDULE_TIME_CONTROL__SCHEDULE_DURATION, true);
+        return (Double) eGet(Ifc2x3tc1Package.eINSTANCE.getIfcScheduleTimeControl_ScheduleDuration(), true);
     }
 
     /**
@@ -420,7 +420,7 @@ public class IfcScheduleTimeControlImpl extends IfcControlImpl implements IfcSch
      */
     @Override
     public void setScheduleDuration(double newScheduleDuration) {
-        eSet(Ifc2x3tc1Package.Literals.IFC_SCHEDULE_TIME_CONTROL__SCHEDULE_DURATION, newScheduleDuration);
+        eSet(Ifc2x3tc1Package.eINSTANCE.getIfcScheduleTimeControl_ScheduleDuration(), newScheduleDuration);
     }
 
     /**
@@ -430,7 +430,7 @@ public class IfcScheduleTimeControlImpl extends IfcControlImpl implements IfcSch
      */
     @Override
     public void unsetScheduleDuration() {
-        eUnset(Ifc2x3tc1Package.Literals.IFC_SCHEDULE_TIME_CONTROL__SCHEDULE_DURATION);
+        eUnset(Ifc2x3tc1Package.eINSTANCE.getIfcScheduleTimeControl_ScheduleDuration());
     }
 
     /**
@@ -440,7 +440,7 @@ public class IfcScheduleTimeControlImpl extends IfcControlImpl implements IfcSch
      */
     @Override
     public boolean isSetScheduleDuration() {
-        return eIsSet(Ifc2x3tc1Package.Literals.IFC_SCHEDULE_TIME_CONTROL__SCHEDULE_DURATION);
+        return eIsSet(Ifc2x3tc1Package.eINSTANCE.getIfcScheduleTimeControl_ScheduleDuration());
     }
 
     /**
@@ -450,7 +450,7 @@ public class IfcScheduleTimeControlImpl extends IfcControlImpl implements IfcSch
      */
     @Override
     public String getScheduleDurationAsString() {
-        return (String) eGet(Ifc2x3tc1Package.Literals.IFC_SCHEDULE_TIME_CONTROL__SCHEDULE_DURATION_AS_STRING, true);
+        return (String) eGet(Ifc2x3tc1Package.eINSTANCE.getIfcScheduleTimeControl_ScheduleDurationAsString(), true);
     }
 
     /**
@@ -460,7 +460,7 @@ public class IfcScheduleTimeControlImpl extends IfcControlImpl implements IfcSch
      */
     @Override
     public void setScheduleDurationAsString(String newScheduleDurationAsString) {
-        eSet(Ifc2x3tc1Package.Literals.IFC_SCHEDULE_TIME_CONTROL__SCHEDULE_DURATION_AS_STRING,
+        eSet(Ifc2x3tc1Package.eINSTANCE.getIfcScheduleTimeControl_ScheduleDurationAsString(),
                 newScheduleDurationAsString);
     }
 
@@ -471,7 +471,7 @@ public class IfcScheduleTimeControlImpl extends IfcControlImpl implements IfcSch
      */
     @Override
     public void unsetScheduleDurationAsString() {
-        eUnset(Ifc2x3tc1Package.Literals.IFC_SCHEDULE_TIME_CONTROL__SCHEDULE_DURATION_AS_STRING);
+        eUnset(Ifc2x3tc1Package.eINSTANCE.getIfcScheduleTimeControl_ScheduleDurationAsString());
     }
 
     /**
@@ -481,7 +481,7 @@ public class IfcScheduleTimeControlImpl extends IfcControlImpl implements IfcSch
      */
     @Override
     public boolean isSetScheduleDurationAsString() {
-        return eIsSet(Ifc2x3tc1Package.Literals.IFC_SCHEDULE_TIME_CONTROL__SCHEDULE_DURATION_AS_STRING);
+        return eIsSet(Ifc2x3tc1Package.eINSTANCE.getIfcScheduleTimeControl_ScheduleDurationAsString());
     }
 
     /**
@@ -491,7 +491,7 @@ public class IfcScheduleTimeControlImpl extends IfcControlImpl implements IfcSch
      */
     @Override
     public double getActualDuration() {
-        return (Double) eGet(Ifc2x3tc1Package.Literals.IFC_SCHEDULE_TIME_CONTROL__ACTUAL_DURATION, true);
+        return (Double) eGet(Ifc2x3tc1Package.eINSTANCE.getIfcScheduleTimeControl_ActualDuration(), true);
     }
 
     /**
@@ -501,7 +501,7 @@ public class IfcScheduleTimeControlImpl extends IfcControlImpl implements IfcSch
      */
     @Override
     public void setActualDuration(double newActualDuration) {
-        eSet(Ifc2x3tc1Package.Literals.IFC_SCHEDULE_TIME_CONTROL__ACTUAL_DURATION, newActualDuration);
+        eSet(Ifc2x3tc1Package.eINSTANCE.getIfcScheduleTimeControl_ActualDuration(), newActualDuration);
     }
 
     /**
@@ -511,7 +511,7 @@ public class IfcScheduleTimeControlImpl extends IfcControlImpl implements IfcSch
      */
     @Override
     public void unsetActualDuration() {
-        eUnset(Ifc2x3tc1Package.Literals.IFC_SCHEDULE_TIME_CONTROL__ACTUAL_DURATION);
+        eUnset(Ifc2x3tc1Package.eINSTANCE.getIfcScheduleTimeControl_ActualDuration());
     }
 
     /**
@@ -521,7 +521,7 @@ public class IfcScheduleTimeControlImpl extends IfcControlImpl implements IfcSch
      */
     @Override
     public boolean isSetActualDuration() {
-        return eIsSet(Ifc2x3tc1Package.Literals.IFC_SCHEDULE_TIME_CONTROL__ACTUAL_DURATION);
+        return eIsSet(Ifc2x3tc1Package.eINSTANCE.getIfcScheduleTimeControl_ActualDuration());
     }
 
     /**
@@ -531,7 +531,7 @@ public class IfcScheduleTimeControlImpl extends IfcControlImpl implements IfcSch
      */
     @Override
     public String getActualDurationAsString() {
-        return (String) eGet(Ifc2x3tc1Package.Literals.IFC_SCHEDULE_TIME_CONTROL__ACTUAL_DURATION_AS_STRING, true);
+        return (String) eGet(Ifc2x3tc1Package.eINSTANCE.getIfcScheduleTimeControl_ActualDurationAsString(), true);
     }
 
     /**
@@ -541,7 +541,7 @@ public class IfcScheduleTimeControlImpl extends IfcControlImpl implements IfcSch
      */
     @Override
     public void setActualDurationAsString(String newActualDurationAsString) {
-        eSet(Ifc2x3tc1Package.Literals.IFC_SCHEDULE_TIME_CONTROL__ACTUAL_DURATION_AS_STRING, newActualDurationAsString);
+        eSet(Ifc2x3tc1Package.eINSTANCE.getIfcScheduleTimeControl_ActualDurationAsString(), newActualDurationAsString);
     }
 
     /**
@@ -551,7 +551,7 @@ public class IfcScheduleTimeControlImpl extends IfcControlImpl implements IfcSch
      */
     @Override
     public void unsetActualDurationAsString() {
-        eUnset(Ifc2x3tc1Package.Literals.IFC_SCHEDULE_TIME_CONTROL__ACTUAL_DURATION_AS_STRING);
+        eUnset(Ifc2x3tc1Package.eINSTANCE.getIfcScheduleTimeControl_ActualDurationAsString());
     }
 
     /**
@@ -561,7 +561,7 @@ public class IfcScheduleTimeControlImpl extends IfcControlImpl implements IfcSch
      */
     @Override
     public boolean isSetActualDurationAsString() {
-        return eIsSet(Ifc2x3tc1Package.Literals.IFC_SCHEDULE_TIME_CONTROL__ACTUAL_DURATION_AS_STRING);
+        return eIsSet(Ifc2x3tc1Package.eINSTANCE.getIfcScheduleTimeControl_ActualDurationAsString());
     }
 
     /**
@@ -571,7 +571,7 @@ public class IfcScheduleTimeControlImpl extends IfcControlImpl implements IfcSch
      */
     @Override
     public double getRemainingTime() {
-        return (Double) eGet(Ifc2x3tc1Package.Literals.IFC_SCHEDULE_TIME_CONTROL__REMAINING_TIME, true);
+        return (Double) eGet(Ifc2x3tc1Package.eINSTANCE.getIfcScheduleTimeControl_RemainingTime(), true);
     }
 
     /**
@@ -581,7 +581,7 @@ public class IfcScheduleTimeControlImpl extends IfcControlImpl implements IfcSch
      */
     @Override
     public void setRemainingTime(double newRemainingTime) {
-        eSet(Ifc2x3tc1Package.Literals.IFC_SCHEDULE_TIME_CONTROL__REMAINING_TIME, newRemainingTime);
+        eSet(Ifc2x3tc1Package.eINSTANCE.getIfcScheduleTimeControl_RemainingTime(), newRemainingTime);
     }
 
     /**
@@ -591,7 +591,7 @@ public class IfcScheduleTimeControlImpl extends IfcControlImpl implements IfcSch
      */
     @Override
     public void unsetRemainingTime() {
-        eUnset(Ifc2x3tc1Package.Literals.IFC_SCHEDULE_TIME_CONTROL__REMAINING_TIME);
+        eUnset(Ifc2x3tc1Package.eINSTANCE.getIfcScheduleTimeControl_RemainingTime());
     }
 
     /**
@@ -601,7 +601,7 @@ public class IfcScheduleTimeControlImpl extends IfcControlImpl implements IfcSch
      */
     @Override
     public boolean isSetRemainingTime() {
-        return eIsSet(Ifc2x3tc1Package.Literals.IFC_SCHEDULE_TIME_CONTROL__REMAINING_TIME);
+        return eIsSet(Ifc2x3tc1Package.eINSTANCE.getIfcScheduleTimeControl_RemainingTime());
     }
 
     /**
@@ -611,7 +611,7 @@ public class IfcScheduleTimeControlImpl extends IfcControlImpl implements IfcSch
      */
     @Override
     public String getRemainingTimeAsString() {
-        return (String) eGet(Ifc2x3tc1Package.Literals.IFC_SCHEDULE_TIME_CONTROL__REMAINING_TIME_AS_STRING, true);
+        return (String) eGet(Ifc2x3tc1Package.eINSTANCE.getIfcScheduleTimeControl_RemainingTimeAsString(), true);
     }
 
     /**
@@ -621,7 +621,7 @@ public class IfcScheduleTimeControlImpl extends IfcControlImpl implements IfcSch
      */
     @Override
     public void setRemainingTimeAsString(String newRemainingTimeAsString) {
-        eSet(Ifc2x3tc1Package.Literals.IFC_SCHEDULE_TIME_CONTROL__REMAINING_TIME_AS_STRING, newRemainingTimeAsString);
+        eSet(Ifc2x3tc1Package.eINSTANCE.getIfcScheduleTimeControl_RemainingTimeAsString(), newRemainingTimeAsString);
     }
 
     /**
@@ -631,7 +631,7 @@ public class IfcScheduleTimeControlImpl extends IfcControlImpl implements IfcSch
      */
     @Override
     public void unsetRemainingTimeAsString() {
-        eUnset(Ifc2x3tc1Package.Literals.IFC_SCHEDULE_TIME_CONTROL__REMAINING_TIME_AS_STRING);
+        eUnset(Ifc2x3tc1Package.eINSTANCE.getIfcScheduleTimeControl_RemainingTimeAsString());
     }
 
     /**
@@ -641,7 +641,7 @@ public class IfcScheduleTimeControlImpl extends IfcControlImpl implements IfcSch
      */
     @Override
     public boolean isSetRemainingTimeAsString() {
-        return eIsSet(Ifc2x3tc1Package.Literals.IFC_SCHEDULE_TIME_CONTROL__REMAINING_TIME_AS_STRING);
+        return eIsSet(Ifc2x3tc1Package.eINSTANCE.getIfcScheduleTimeControl_RemainingTimeAsString());
     }
 
     /**
@@ -651,7 +651,7 @@ public class IfcScheduleTimeControlImpl extends IfcControlImpl implements IfcSch
      */
     @Override
     public double getFreeFloat() {
-        return (Double) eGet(Ifc2x3tc1Package.Literals.IFC_SCHEDULE_TIME_CONTROL__FREE_FLOAT, true);
+        return (Double) eGet(Ifc2x3tc1Package.eINSTANCE.getIfcScheduleTimeControl_FreeFloat(), true);
     }
 
     /**
@@ -661,7 +661,7 @@ public class IfcScheduleTimeControlImpl extends IfcControlImpl implements IfcSch
      */
     @Override
     public void setFreeFloat(double newFreeFloat) {
-        eSet(Ifc2x3tc1Package.Literals.IFC_SCHEDULE_TIME_CONTROL__FREE_FLOAT, newFreeFloat);
+        eSet(Ifc2x3tc1Package.eINSTANCE.getIfcScheduleTimeControl_FreeFloat(), newFreeFloat);
     }
 
     /**
@@ -671,7 +671,7 @@ public class IfcScheduleTimeControlImpl extends IfcControlImpl implements IfcSch
      */
     @Override
     public void unsetFreeFloat() {
-        eUnset(Ifc2x3tc1Package.Literals.IFC_SCHEDULE_TIME_CONTROL__FREE_FLOAT);
+        eUnset(Ifc2x3tc1Package.eINSTANCE.getIfcScheduleTimeControl_FreeFloat());
     }
 
     /**
@@ -681,7 +681,7 @@ public class IfcScheduleTimeControlImpl extends IfcControlImpl implements IfcSch
      */
     @Override
     public boolean isSetFreeFloat() {
-        return eIsSet(Ifc2x3tc1Package.Literals.IFC_SCHEDULE_TIME_CONTROL__FREE_FLOAT);
+        return eIsSet(Ifc2x3tc1Package.eINSTANCE.getIfcScheduleTimeControl_FreeFloat());
     }
 
     /**
@@ -691,7 +691,7 @@ public class IfcScheduleTimeControlImpl extends IfcControlImpl implements IfcSch
      */
     @Override
     public String getFreeFloatAsString() {
-        return (String) eGet(Ifc2x3tc1Package.Literals.IFC_SCHEDULE_TIME_CONTROL__FREE_FLOAT_AS_STRING, true);
+        return (String) eGet(Ifc2x3tc1Package.eINSTANCE.getIfcScheduleTimeControl_FreeFloatAsString(), true);
     }
 
     /**
@@ -701,7 +701,7 @@ public class IfcScheduleTimeControlImpl extends IfcControlImpl implements IfcSch
      */
     @Override
     public void setFreeFloatAsString(String newFreeFloatAsString) {
-        eSet(Ifc2x3tc1Package.Literals.IFC_SCHEDULE_TIME_CONTROL__FREE_FLOAT_AS_STRING, newFreeFloatAsString);
+        eSet(Ifc2x3tc1Package.eINSTANCE.getIfcScheduleTimeControl_FreeFloatAsString(), newFreeFloatAsString);
     }
 
     /**
@@ -711,7 +711,7 @@ public class IfcScheduleTimeControlImpl extends IfcControlImpl implements IfcSch
      */
     @Override
     public void unsetFreeFloatAsString() {
-        eUnset(Ifc2x3tc1Package.Literals.IFC_SCHEDULE_TIME_CONTROL__FREE_FLOAT_AS_STRING);
+        eUnset(Ifc2x3tc1Package.eINSTANCE.getIfcScheduleTimeControl_FreeFloatAsString());
     }
 
     /**
@@ -721,7 +721,7 @@ public class IfcScheduleTimeControlImpl extends IfcControlImpl implements IfcSch
      */
     @Override
     public boolean isSetFreeFloatAsString() {
-        return eIsSet(Ifc2x3tc1Package.Literals.IFC_SCHEDULE_TIME_CONTROL__FREE_FLOAT_AS_STRING);
+        return eIsSet(Ifc2x3tc1Package.eINSTANCE.getIfcScheduleTimeControl_FreeFloatAsString());
     }
 
     /**
@@ -731,7 +731,7 @@ public class IfcScheduleTimeControlImpl extends IfcControlImpl implements IfcSch
      */
     @Override
     public double getTotalFloat() {
-        return (Double) eGet(Ifc2x3tc1Package.Literals.IFC_SCHEDULE_TIME_CONTROL__TOTAL_FLOAT, true);
+        return (Double) eGet(Ifc2x3tc1Package.eINSTANCE.getIfcScheduleTimeControl_TotalFloat(), true);
     }
 
     /**
@@ -741,7 +741,7 @@ public class IfcScheduleTimeControlImpl extends IfcControlImpl implements IfcSch
      */
     @Override
     public void setTotalFloat(double newTotalFloat) {
-        eSet(Ifc2x3tc1Package.Literals.IFC_SCHEDULE_TIME_CONTROL__TOTAL_FLOAT, newTotalFloat);
+        eSet(Ifc2x3tc1Package.eINSTANCE.getIfcScheduleTimeControl_TotalFloat(), newTotalFloat);
     }
 
     /**
@@ -751,7 +751,7 @@ public class IfcScheduleTimeControlImpl extends IfcControlImpl implements IfcSch
      */
     @Override
     public void unsetTotalFloat() {
-        eUnset(Ifc2x3tc1Package.Literals.IFC_SCHEDULE_TIME_CONTROL__TOTAL_FLOAT);
+        eUnset(Ifc2x3tc1Package.eINSTANCE.getIfcScheduleTimeControl_TotalFloat());
     }
 
     /**
@@ -761,7 +761,7 @@ public class IfcScheduleTimeControlImpl extends IfcControlImpl implements IfcSch
      */
     @Override
     public boolean isSetTotalFloat() {
-        return eIsSet(Ifc2x3tc1Package.Literals.IFC_SCHEDULE_TIME_CONTROL__TOTAL_FLOAT);
+        return eIsSet(Ifc2x3tc1Package.eINSTANCE.getIfcScheduleTimeControl_TotalFloat());
     }
 
     /**
@@ -771,7 +771,7 @@ public class IfcScheduleTimeControlImpl extends IfcControlImpl implements IfcSch
      */
     @Override
     public String getTotalFloatAsString() {
-        return (String) eGet(Ifc2x3tc1Package.Literals.IFC_SCHEDULE_TIME_CONTROL__TOTAL_FLOAT_AS_STRING, true);
+        return (String) eGet(Ifc2x3tc1Package.eINSTANCE.getIfcScheduleTimeControl_TotalFloatAsString(), true);
     }
 
     /**
@@ -781,7 +781,7 @@ public class IfcScheduleTimeControlImpl extends IfcControlImpl implements IfcSch
      */
     @Override
     public void setTotalFloatAsString(String newTotalFloatAsString) {
-        eSet(Ifc2x3tc1Package.Literals.IFC_SCHEDULE_TIME_CONTROL__TOTAL_FLOAT_AS_STRING, newTotalFloatAsString);
+        eSet(Ifc2x3tc1Package.eINSTANCE.getIfcScheduleTimeControl_TotalFloatAsString(), newTotalFloatAsString);
     }
 
     /**
@@ -791,7 +791,7 @@ public class IfcScheduleTimeControlImpl extends IfcControlImpl implements IfcSch
      */
     @Override
     public void unsetTotalFloatAsString() {
-        eUnset(Ifc2x3tc1Package.Literals.IFC_SCHEDULE_TIME_CONTROL__TOTAL_FLOAT_AS_STRING);
+        eUnset(Ifc2x3tc1Package.eINSTANCE.getIfcScheduleTimeControl_TotalFloatAsString());
     }
 
     /**
@@ -801,7 +801,7 @@ public class IfcScheduleTimeControlImpl extends IfcControlImpl implements IfcSch
      */
     @Override
     public boolean isSetTotalFloatAsString() {
-        return eIsSet(Ifc2x3tc1Package.Literals.IFC_SCHEDULE_TIME_CONTROL__TOTAL_FLOAT_AS_STRING);
+        return eIsSet(Ifc2x3tc1Package.eINSTANCE.getIfcScheduleTimeControl_TotalFloatAsString());
     }
 
     /**
@@ -811,7 +811,7 @@ public class IfcScheduleTimeControlImpl extends IfcControlImpl implements IfcSch
      */
     @Override
     public Tristate getIsCritical() {
-        return (Tristate) eGet(Ifc2x3tc1Package.Literals.IFC_SCHEDULE_TIME_CONTROL__IS_CRITICAL, true);
+        return (Tristate) eGet(Ifc2x3tc1Package.eINSTANCE.getIfcScheduleTimeControl_IsCritical(), true);
     }
 
     /**
@@ -821,7 +821,7 @@ public class IfcScheduleTimeControlImpl extends IfcControlImpl implements IfcSch
      */
     @Override
     public void setIsCritical(Tristate newIsCritical) {
-        eSet(Ifc2x3tc1Package.Literals.IFC_SCHEDULE_TIME_CONTROL__IS_CRITICAL, newIsCritical);
+        eSet(Ifc2x3tc1Package.eINSTANCE.getIfcScheduleTimeControl_IsCritical(), newIsCritical);
     }
 
     /**
@@ -831,7 +831,7 @@ public class IfcScheduleTimeControlImpl extends IfcControlImpl implements IfcSch
      */
     @Override
     public void unsetIsCritical() {
-        eUnset(Ifc2x3tc1Package.Literals.IFC_SCHEDULE_TIME_CONTROL__IS_CRITICAL);
+        eUnset(Ifc2x3tc1Package.eINSTANCE.getIfcScheduleTimeControl_IsCritical());
     }
 
     /**
@@ -841,7 +841,7 @@ public class IfcScheduleTimeControlImpl extends IfcControlImpl implements IfcSch
      */
     @Override
     public boolean isSetIsCritical() {
-        return eIsSet(Ifc2x3tc1Package.Literals.IFC_SCHEDULE_TIME_CONTROL__IS_CRITICAL);
+        return eIsSet(Ifc2x3tc1Package.eINSTANCE.getIfcScheduleTimeControl_IsCritical());
     }
 
     /**
@@ -851,7 +851,7 @@ public class IfcScheduleTimeControlImpl extends IfcControlImpl implements IfcSch
      */
     @Override
     public IfcDateTimeSelect getStatusTime() {
-        return (IfcDateTimeSelect) eGet(Ifc2x3tc1Package.Literals.IFC_SCHEDULE_TIME_CONTROL__STATUS_TIME, true);
+        return (IfcDateTimeSelect) eGet(Ifc2x3tc1Package.eINSTANCE.getIfcScheduleTimeControl_StatusTime(), true);
     }
 
     /**
@@ -861,7 +861,7 @@ public class IfcScheduleTimeControlImpl extends IfcControlImpl implements IfcSch
      */
     @Override
     public void setStatusTime(IfcDateTimeSelect newStatusTime) {
-        eSet(Ifc2x3tc1Package.Literals.IFC_SCHEDULE_TIME_CONTROL__STATUS_TIME, newStatusTime);
+        eSet(Ifc2x3tc1Package.eINSTANCE.getIfcScheduleTimeControl_StatusTime(), newStatusTime);
     }
 
     /**
@@ -871,7 +871,7 @@ public class IfcScheduleTimeControlImpl extends IfcControlImpl implements IfcSch
      */
     @Override
     public void unsetStatusTime() {
-        eUnset(Ifc2x3tc1Package.Literals.IFC_SCHEDULE_TIME_CONTROL__STATUS_TIME);
+        eUnset(Ifc2x3tc1Package.eINSTANCE.getIfcScheduleTimeControl_StatusTime());
     }
 
     /**
@@ -881,7 +881,7 @@ public class IfcScheduleTimeControlImpl extends IfcControlImpl implements IfcSch
      */
     @Override
     public boolean isSetStatusTime() {
-        return eIsSet(Ifc2x3tc1Package.Literals.IFC_SCHEDULE_TIME_CONTROL__STATUS_TIME);
+        return eIsSet(Ifc2x3tc1Package.eINSTANCE.getIfcScheduleTimeControl_StatusTime());
     }
 
     /**
@@ -891,7 +891,7 @@ public class IfcScheduleTimeControlImpl extends IfcControlImpl implements IfcSch
      */
     @Override
     public double getStartFloat() {
-        return (Double) eGet(Ifc2x3tc1Package.Literals.IFC_SCHEDULE_TIME_CONTROL__START_FLOAT, true);
+        return (Double) eGet(Ifc2x3tc1Package.eINSTANCE.getIfcScheduleTimeControl_StartFloat(), true);
     }
 
     /**
@@ -901,7 +901,7 @@ public class IfcScheduleTimeControlImpl extends IfcControlImpl implements IfcSch
      */
     @Override
     public void setStartFloat(double newStartFloat) {
-        eSet(Ifc2x3tc1Package.Literals.IFC_SCHEDULE_TIME_CONTROL__START_FLOAT, newStartFloat);
+        eSet(Ifc2x3tc1Package.eINSTANCE.getIfcScheduleTimeControl_StartFloat(), newStartFloat);
     }
 
     /**
@@ -911,7 +911,7 @@ public class IfcScheduleTimeControlImpl extends IfcControlImpl implements IfcSch
      */
     @Override
     public void unsetStartFloat() {
-        eUnset(Ifc2x3tc1Package.Literals.IFC_SCHEDULE_TIME_CONTROL__START_FLOAT);
+        eUnset(Ifc2x3tc1Package.eINSTANCE.getIfcScheduleTimeControl_StartFloat());
     }
 
     /**
@@ -921,7 +921,7 @@ public class IfcScheduleTimeControlImpl extends IfcControlImpl implements IfcSch
      */
     @Override
     public boolean isSetStartFloat() {
-        return eIsSet(Ifc2x3tc1Package.Literals.IFC_SCHEDULE_TIME_CONTROL__START_FLOAT);
+        return eIsSet(Ifc2x3tc1Package.eINSTANCE.getIfcScheduleTimeControl_StartFloat());
     }
 
     /**
@@ -931,7 +931,7 @@ public class IfcScheduleTimeControlImpl extends IfcControlImpl implements IfcSch
      */
     @Override
     public String getStartFloatAsString() {
-        return (String) eGet(Ifc2x3tc1Package.Literals.IFC_SCHEDULE_TIME_CONTROL__START_FLOAT_AS_STRING, true);
+        return (String) eGet(Ifc2x3tc1Package.eINSTANCE.getIfcScheduleTimeControl_StartFloatAsString(), true);
     }
 
     /**
@@ -941,7 +941,7 @@ public class IfcScheduleTimeControlImpl extends IfcControlImpl implements IfcSch
      */
     @Override
     public void setStartFloatAsString(String newStartFloatAsString) {
-        eSet(Ifc2x3tc1Package.Literals.IFC_SCHEDULE_TIME_CONTROL__START_FLOAT_AS_STRING, newStartFloatAsString);
+        eSet(Ifc2x3tc1Package.eINSTANCE.getIfcScheduleTimeControl_StartFloatAsString(), newStartFloatAsString);
     }
 
     /**
@@ -951,7 +951,7 @@ public class IfcScheduleTimeControlImpl extends IfcControlImpl implements IfcSch
      */
     @Override
     public void unsetStartFloatAsString() {
-        eUnset(Ifc2x3tc1Package.Literals.IFC_SCHEDULE_TIME_CONTROL__START_FLOAT_AS_STRING);
+        eUnset(Ifc2x3tc1Package.eINSTANCE.getIfcScheduleTimeControl_StartFloatAsString());
     }
 
     /**
@@ -961,7 +961,7 @@ public class IfcScheduleTimeControlImpl extends IfcControlImpl implements IfcSch
      */
     @Override
     public boolean isSetStartFloatAsString() {
-        return eIsSet(Ifc2x3tc1Package.Literals.IFC_SCHEDULE_TIME_CONTROL__START_FLOAT_AS_STRING);
+        return eIsSet(Ifc2x3tc1Package.eINSTANCE.getIfcScheduleTimeControl_StartFloatAsString());
     }
 
     /**
@@ -971,7 +971,7 @@ public class IfcScheduleTimeControlImpl extends IfcControlImpl implements IfcSch
      */
     @Override
     public double getFinishFloat() {
-        return (Double) eGet(Ifc2x3tc1Package.Literals.IFC_SCHEDULE_TIME_CONTROL__FINISH_FLOAT, true);
+        return (Double) eGet(Ifc2x3tc1Package.eINSTANCE.getIfcScheduleTimeControl_FinishFloat(), true);
     }
 
     /**
@@ -981,7 +981,7 @@ public class IfcScheduleTimeControlImpl extends IfcControlImpl implements IfcSch
      */
     @Override
     public void setFinishFloat(double newFinishFloat) {
-        eSet(Ifc2x3tc1Package.Literals.IFC_SCHEDULE_TIME_CONTROL__FINISH_FLOAT, newFinishFloat);
+        eSet(Ifc2x3tc1Package.eINSTANCE.getIfcScheduleTimeControl_FinishFloat(), newFinishFloat);
     }
 
     /**
@@ -991,7 +991,7 @@ public class IfcScheduleTimeControlImpl extends IfcControlImpl implements IfcSch
      */
     @Override
     public void unsetFinishFloat() {
-        eUnset(Ifc2x3tc1Package.Literals.IFC_SCHEDULE_TIME_CONTROL__FINISH_FLOAT);
+        eUnset(Ifc2x3tc1Package.eINSTANCE.getIfcScheduleTimeControl_FinishFloat());
     }
 
     /**
@@ -1001,7 +1001,7 @@ public class IfcScheduleTimeControlImpl extends IfcControlImpl implements IfcSch
      */
     @Override
     public boolean isSetFinishFloat() {
-        return eIsSet(Ifc2x3tc1Package.Literals.IFC_SCHEDULE_TIME_CONTROL__FINISH_FLOAT);
+        return eIsSet(Ifc2x3tc1Package.eINSTANCE.getIfcScheduleTimeControl_FinishFloat());
     }
 
     /**
@@ -1011,7 +1011,7 @@ public class IfcScheduleTimeControlImpl extends IfcControlImpl implements IfcSch
      */
     @Override
     public String getFinishFloatAsString() {
-        return (String) eGet(Ifc2x3tc1Package.Literals.IFC_SCHEDULE_TIME_CONTROL__FINISH_FLOAT_AS_STRING, true);
+        return (String) eGet(Ifc2x3tc1Package.eINSTANCE.getIfcScheduleTimeControl_FinishFloatAsString(), true);
     }
 
     /**
@@ -1021,7 +1021,7 @@ public class IfcScheduleTimeControlImpl extends IfcControlImpl implements IfcSch
      */
     @Override
     public void setFinishFloatAsString(String newFinishFloatAsString) {
-        eSet(Ifc2x3tc1Package.Literals.IFC_SCHEDULE_TIME_CONTROL__FINISH_FLOAT_AS_STRING, newFinishFloatAsString);
+        eSet(Ifc2x3tc1Package.eINSTANCE.getIfcScheduleTimeControl_FinishFloatAsString(), newFinishFloatAsString);
     }
 
     /**
@@ -1031,7 +1031,7 @@ public class IfcScheduleTimeControlImpl extends IfcControlImpl implements IfcSch
      */
     @Override
     public void unsetFinishFloatAsString() {
-        eUnset(Ifc2x3tc1Package.Literals.IFC_SCHEDULE_TIME_CONTROL__FINISH_FLOAT_AS_STRING);
+        eUnset(Ifc2x3tc1Package.eINSTANCE.getIfcScheduleTimeControl_FinishFloatAsString());
     }
 
     /**
@@ -1041,7 +1041,7 @@ public class IfcScheduleTimeControlImpl extends IfcControlImpl implements IfcSch
      */
     @Override
     public boolean isSetFinishFloatAsString() {
-        return eIsSet(Ifc2x3tc1Package.Literals.IFC_SCHEDULE_TIME_CONTROL__FINISH_FLOAT_AS_STRING);
+        return eIsSet(Ifc2x3tc1Package.eINSTANCE.getIfcScheduleTimeControl_FinishFloatAsString());
     }
 
     /**
@@ -1051,7 +1051,7 @@ public class IfcScheduleTimeControlImpl extends IfcControlImpl implements IfcSch
      */
     @Override
     public double getCompletion() {
-        return (Double) eGet(Ifc2x3tc1Package.Literals.IFC_SCHEDULE_TIME_CONTROL__COMPLETION, true);
+        return (Double) eGet(Ifc2x3tc1Package.eINSTANCE.getIfcScheduleTimeControl_Completion(), true);
     }
 
     /**
@@ -1061,7 +1061,7 @@ public class IfcScheduleTimeControlImpl extends IfcControlImpl implements IfcSch
      */
     @Override
     public void setCompletion(double newCompletion) {
-        eSet(Ifc2x3tc1Package.Literals.IFC_SCHEDULE_TIME_CONTROL__COMPLETION, newCompletion);
+        eSet(Ifc2x3tc1Package.eINSTANCE.getIfcScheduleTimeControl_Completion(), newCompletion);
     }
 
     /**
@@ -1071,7 +1071,7 @@ public class IfcScheduleTimeControlImpl extends IfcControlImpl implements IfcSch
      */
     @Override
     public void unsetCompletion() {
-        eUnset(Ifc2x3tc1Package.Literals.IFC_SCHEDULE_TIME_CONTROL__COMPLETION);
+        eUnset(Ifc2x3tc1Package.eINSTANCE.getIfcScheduleTimeControl_Completion());
     }
 
     /**
@@ -1081,7 +1081,7 @@ public class IfcScheduleTimeControlImpl extends IfcControlImpl implements IfcSch
      */
     @Override
     public boolean isSetCompletion() {
-        return eIsSet(Ifc2x3tc1Package.Literals.IFC_SCHEDULE_TIME_CONTROL__COMPLETION);
+        return eIsSet(Ifc2x3tc1Package.eINSTANCE.getIfcScheduleTimeControl_Completion());
     }
 
     /**
@@ -1091,7 +1091,7 @@ public class IfcScheduleTimeControlImpl extends IfcControlImpl implements IfcSch
      */
     @Override
     public String getCompletionAsString() {
-        return (String) eGet(Ifc2x3tc1Package.Literals.IFC_SCHEDULE_TIME_CONTROL__COMPLETION_AS_STRING, true);
+        return (String) eGet(Ifc2x3tc1Package.eINSTANCE.getIfcScheduleTimeControl_CompletionAsString(), true);
     }
 
     /**
@@ -1101,7 +1101,7 @@ public class IfcScheduleTimeControlImpl extends IfcControlImpl implements IfcSch
      */
     @Override
     public void setCompletionAsString(String newCompletionAsString) {
-        eSet(Ifc2x3tc1Package.Literals.IFC_SCHEDULE_TIME_CONTROL__COMPLETION_AS_STRING, newCompletionAsString);
+        eSet(Ifc2x3tc1Package.eINSTANCE.getIfcScheduleTimeControl_CompletionAsString(), newCompletionAsString);
     }
 
     /**
@@ -1111,7 +1111,7 @@ public class IfcScheduleTimeControlImpl extends IfcControlImpl implements IfcSch
      */
     @Override
     public void unsetCompletionAsString() {
-        eUnset(Ifc2x3tc1Package.Literals.IFC_SCHEDULE_TIME_CONTROL__COMPLETION_AS_STRING);
+        eUnset(Ifc2x3tc1Package.eINSTANCE.getIfcScheduleTimeControl_CompletionAsString());
     }
 
     /**
@@ -1121,7 +1121,7 @@ public class IfcScheduleTimeControlImpl extends IfcControlImpl implements IfcSch
      */
     @Override
     public boolean isSetCompletionAsString() {
-        return eIsSet(Ifc2x3tc1Package.Literals.IFC_SCHEDULE_TIME_CONTROL__COMPLETION_AS_STRING);
+        return eIsSet(Ifc2x3tc1Package.eINSTANCE.getIfcScheduleTimeControl_CompletionAsString());
     }
 
     /**
@@ -1132,7 +1132,7 @@ public class IfcScheduleTimeControlImpl extends IfcControlImpl implements IfcSch
     @Override
     public IfcRelAssignsTasks getScheduleTimeControlAssigned() {
         return (IfcRelAssignsTasks) eGet(
-                Ifc2x3tc1Package.Literals.IFC_SCHEDULE_TIME_CONTROL__SCHEDULE_TIME_CONTROL_ASSIGNED, true);
+                Ifc2x3tc1Package.eINSTANCE.getIfcScheduleTimeControl_ScheduleTimeControlAssigned(), true);
     }
 
     /**
@@ -1142,7 +1142,7 @@ public class IfcScheduleTimeControlImpl extends IfcControlImpl implements IfcSch
      */
     @Override
     public void setScheduleTimeControlAssigned(IfcRelAssignsTasks newScheduleTimeControlAssigned) {
-        eSet(Ifc2x3tc1Package.Literals.IFC_SCHEDULE_TIME_CONTROL__SCHEDULE_TIME_CONTROL_ASSIGNED,
+        eSet(Ifc2x3tc1Package.eINSTANCE.getIfcScheduleTimeControl_ScheduleTimeControlAssigned(),
                 newScheduleTimeControlAssigned);
     }
 
@@ -1153,7 +1153,7 @@ public class IfcScheduleTimeControlImpl extends IfcControlImpl implements IfcSch
      */
     @Override
     public void unsetScheduleTimeControlAssigned() {
-        eUnset(Ifc2x3tc1Package.Literals.IFC_SCHEDULE_TIME_CONTROL__SCHEDULE_TIME_CONTROL_ASSIGNED);
+        eUnset(Ifc2x3tc1Package.eINSTANCE.getIfcScheduleTimeControl_ScheduleTimeControlAssigned());
     }
 
     /**
@@ -1163,7 +1163,7 @@ public class IfcScheduleTimeControlImpl extends IfcControlImpl implements IfcSch
      */
     @Override
     public boolean isSetScheduleTimeControlAssigned() {
-        return eIsSet(Ifc2x3tc1Package.Literals.IFC_SCHEDULE_TIME_CONTROL__SCHEDULE_TIME_CONTROL_ASSIGNED);
+        return eIsSet(Ifc2x3tc1Package.eINSTANCE.getIfcScheduleTimeControl_ScheduleTimeControlAssigned());
     }
 
 } //IfcScheduleTimeControlImpl

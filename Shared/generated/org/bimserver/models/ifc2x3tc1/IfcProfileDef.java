@@ -41,10 +41,6 @@ public interface IfcProfileDef extends IdEObject {
      * Returns the value of the '<em><b>Profile Type</b></em>' attribute.
      * The literals are from the enumeration {@link org.bimserver.models.ifc2x3tc1.IfcProfileTypeEnum}.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Profile Type</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Profile Type</em>' attribute.
      * @see org.bimserver.models.ifc2x3tc1.IfcProfileTypeEnum
@@ -69,10 +65,6 @@ public interface IfcProfileDef extends IdEObject {
     /**
      * Returns the value of the '<em><b>Profile Name</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Profile Name</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Profile Name</em>' attribute.
      * @see #isSetProfileName()

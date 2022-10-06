@@ -53,7 +53,7 @@ public class IfcStructuralLoadImpl extends IdEObjectImpl implements IfcStructura
      */
     @Override
     protected EClass eStaticClass() {
-        return Ifc2x3tc1Package.Literals.IFC_STRUCTURAL_LOAD;
+        return Ifc2x3tc1Package.eINSTANCE.getIfcStructuralLoad();
     }
 
     /**
@@ -73,7 +73,7 @@ public class IfcStructuralLoadImpl extends IdEObjectImpl implements IfcStructura
      */
     @Override
     public String getName() {
-        return (String) eGet(Ifc2x3tc1Package.Literals.IFC_STRUCTURAL_LOAD__NAME, true);
+        return (String) eGet(Ifc2x3tc1Package.eINSTANCE.getIfcStructuralLoad_Name(), true);
     }
 
     /**
@@ -83,7 +83,7 @@ public class IfcStructuralLoadImpl extends IdEObjectImpl implements IfcStructura
      */
     @Override
     public void setName(String newName) {
-        eSet(Ifc2x3tc1Package.Literals.IFC_STRUCTURAL_LOAD__NAME, newName);
+        eSet(Ifc2x3tc1Package.eINSTANCE.getIfcStructuralLoad_Name(), newName);
     }
 
     /**
@@ -93,7 +93,7 @@ public class IfcStructuralLoadImpl extends IdEObjectImpl implements IfcStructura
      */
     @Override
     public void unsetName() {
-        eUnset(Ifc2x3tc1Package.Literals.IFC_STRUCTURAL_LOAD__NAME);
+        eUnset(Ifc2x3tc1Package.eINSTANCE.getIfcStructuralLoad_Name());
     }
 
     /**
@@ -103,7 +103,7 @@ public class IfcStructuralLoadImpl extends IdEObjectImpl implements IfcStructura
      */
     @Override
     public boolean isSetName() {
-        return eIsSet(Ifc2x3tc1Package.Literals.IFC_STRUCTURAL_LOAD__NAME);
+        return eIsSet(Ifc2x3tc1Package.eINSTANCE.getIfcStructuralLoad_Name());
     }
 
 } //IfcStructuralLoadImpl

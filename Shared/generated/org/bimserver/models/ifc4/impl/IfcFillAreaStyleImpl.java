@@ -56,7 +56,7 @@ public class IfcFillAreaStyleImpl extends IfcPresentationStyleImpl implements If
      */
     @Override
     protected EClass eStaticClass() {
-        return Ifc4Package.Literals.IFC_FILL_AREA_STYLE;
+        return Ifc4Package.eINSTANCE.getIfcFillAreaStyle();
     }
 
     /**
@@ -67,7 +67,7 @@ public class IfcFillAreaStyleImpl extends IfcPresentationStyleImpl implements If
     @SuppressWarnings("unchecked")
     @Override
     public EList<IfcFillStyleSelect> getFillStyles() {
-        return (EList<IfcFillStyleSelect>) eGet(Ifc4Package.Literals.IFC_FILL_AREA_STYLE__FILL_STYLES, true);
+        return (EList<IfcFillStyleSelect>) eGet(Ifc4Package.eINSTANCE.getIfcFillAreaStyle_FillStyles(), true);
     }
 
     /**
@@ -77,7 +77,7 @@ public class IfcFillAreaStyleImpl extends IfcPresentationStyleImpl implements If
      */
     @Override
     public Tristate getModelorDraughting() {
-        return (Tristate) eGet(Ifc4Package.Literals.IFC_FILL_AREA_STYLE__MODELOR_DRAUGHTING, true);
+        return (Tristate) eGet(Ifc4Package.eINSTANCE.getIfcFillAreaStyle_ModelorDraughting(), true);
     }
 
     /**
@@ -87,7 +87,7 @@ public class IfcFillAreaStyleImpl extends IfcPresentationStyleImpl implements If
      */
     @Override
     public void setModelorDraughting(Tristate newModelorDraughting) {
-        eSet(Ifc4Package.Literals.IFC_FILL_AREA_STYLE__MODELOR_DRAUGHTING, newModelorDraughting);
+        eSet(Ifc4Package.eINSTANCE.getIfcFillAreaStyle_ModelorDraughting(), newModelorDraughting);
     }
 
     /**
@@ -97,7 +97,7 @@ public class IfcFillAreaStyleImpl extends IfcPresentationStyleImpl implements If
      */
     @Override
     public void unsetModelorDraughting() {
-        eUnset(Ifc4Package.Literals.IFC_FILL_AREA_STYLE__MODELOR_DRAUGHTING);
+        eUnset(Ifc4Package.eINSTANCE.getIfcFillAreaStyle_ModelorDraughting());
     }
 
     /**
@@ -107,7 +107,7 @@ public class IfcFillAreaStyleImpl extends IfcPresentationStyleImpl implements If
      */
     @Override
     public boolean isSetModelorDraughting() {
-        return eIsSet(Ifc4Package.Literals.IFC_FILL_AREA_STYLE__MODELOR_DRAUGHTING);
+        return eIsSet(Ifc4Package.eINSTANCE.getIfcFillAreaStyle_ModelorDraughting());
     }
 
 } //IfcFillAreaStyleImpl

@@ -45,7 +45,7 @@ public class IfcBoxAlignmentImpl extends IfcLabelImpl implements IfcBoxAlignment
      */
     @Override
     protected EClass eStaticClass() {
-        return Ifc2x3tc1Package.Literals.IFC_BOX_ALIGNMENT;
+        return Ifc2x3tc1Package.eINSTANCE.getIfcBoxAlignment();
     }
 
 } //IfcBoxAlignmentImpl

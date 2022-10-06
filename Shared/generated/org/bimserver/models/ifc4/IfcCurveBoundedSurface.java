@@ -40,10 +40,6 @@ public interface IfcCurveBoundedSurface extends IfcBoundedSurface {
     /**
      * Returns the value of the '<em><b>Basis Surface</b></em>' reference.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Basis Surface</em>' reference isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Basis Surface</em>' reference.
      * @see #setBasisSurface(IfcSurface)
@@ -67,10 +63,6 @@ public interface IfcCurveBoundedSurface extends IfcBoundedSurface {
      * Returns the value of the '<em><b>Boundaries</b></em>' reference list.
      * The list contents are of type {@link org.bimserver.models.ifc4.IfcBoundaryCurve}.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Boundaries</em>' reference list isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Boundaries</em>' reference list.
      * @see org.bimserver.models.ifc4.Ifc4Package#getIfcCurveBoundedSurface_Boundaries()
@@ -83,10 +75,6 @@ public interface IfcCurveBoundedSurface extends IfcBoundedSurface {
      * Returns the value of the '<em><b>Implicit Outer</b></em>' attribute.
      * The literals are from the enumeration {@link org.bimserver.models.ifc4.Tristate}.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Implicit Outer</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Implicit Outer</em>' attribute.
      * @see org.bimserver.models.ifc4.Tristate

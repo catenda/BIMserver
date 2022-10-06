@@ -59,7 +59,7 @@ public class IfcSurfaceTextureImpl extends IdEObjectImpl implements IfcSurfaceTe
      */
     @Override
     protected EClass eStaticClass() {
-        return Ifc2x3tc1Package.Literals.IFC_SURFACE_TEXTURE;
+        return Ifc2x3tc1Package.eINSTANCE.getIfcSurfaceTexture();
     }
 
     /**
@@ -79,7 +79,7 @@ public class IfcSurfaceTextureImpl extends IdEObjectImpl implements IfcSurfaceTe
      */
     @Override
     public Tristate getRepeatS() {
-        return (Tristate) eGet(Ifc2x3tc1Package.Literals.IFC_SURFACE_TEXTURE__REPEAT_S, true);
+        return (Tristate) eGet(Ifc2x3tc1Package.eINSTANCE.getIfcSurfaceTexture_RepeatS(), true);
     }
 
     /**
@@ -89,7 +89,7 @@ public class IfcSurfaceTextureImpl extends IdEObjectImpl implements IfcSurfaceTe
      */
     @Override
     public void setRepeatS(Tristate newRepeatS) {
-        eSet(Ifc2x3tc1Package.Literals.IFC_SURFACE_TEXTURE__REPEAT_S, newRepeatS);
+        eSet(Ifc2x3tc1Package.eINSTANCE.getIfcSurfaceTexture_RepeatS(), newRepeatS);
     }
 
     /**
@@ -99,7 +99,7 @@ public class IfcSurfaceTextureImpl extends IdEObjectImpl implements IfcSurfaceTe
      */
     @Override
     public Tristate getRepeatT() {
-        return (Tristate) eGet(Ifc2x3tc1Package.Literals.IFC_SURFACE_TEXTURE__REPEAT_T, true);
+        return (Tristate) eGet(Ifc2x3tc1Package.eINSTANCE.getIfcSurfaceTexture_RepeatT(), true);
     }
 
     /**
@@ -109,7 +109,7 @@ public class IfcSurfaceTextureImpl extends IdEObjectImpl implements IfcSurfaceTe
      */
     @Override
     public void setRepeatT(Tristate newRepeatT) {
-        eSet(Ifc2x3tc1Package.Literals.IFC_SURFACE_TEXTURE__REPEAT_T, newRepeatT);
+        eSet(Ifc2x3tc1Package.eINSTANCE.getIfcSurfaceTexture_RepeatT(), newRepeatT);
     }
 
     /**
@@ -119,7 +119,7 @@ public class IfcSurfaceTextureImpl extends IdEObjectImpl implements IfcSurfaceTe
      */
     @Override
     public IfcSurfaceTextureEnum getTextureType() {
-        return (IfcSurfaceTextureEnum) eGet(Ifc2x3tc1Package.Literals.IFC_SURFACE_TEXTURE__TEXTURE_TYPE, true);
+        return (IfcSurfaceTextureEnum) eGet(Ifc2x3tc1Package.eINSTANCE.getIfcSurfaceTexture_TextureType(), true);
     }
 
     /**
@@ -129,7 +129,7 @@ public class IfcSurfaceTextureImpl extends IdEObjectImpl implements IfcSurfaceTe
      */
     @Override
     public void setTextureType(IfcSurfaceTextureEnum newTextureType) {
-        eSet(Ifc2x3tc1Package.Literals.IFC_SURFACE_TEXTURE__TEXTURE_TYPE, newTextureType);
+        eSet(Ifc2x3tc1Package.eINSTANCE.getIfcSurfaceTexture_TextureType(), newTextureType);
     }
 
     /**
@@ -140,7 +140,7 @@ public class IfcSurfaceTextureImpl extends IdEObjectImpl implements IfcSurfaceTe
     @Override
     public IfcCartesianTransformationOperator2D getTextureTransform() {
         return (IfcCartesianTransformationOperator2D) eGet(
-                Ifc2x3tc1Package.Literals.IFC_SURFACE_TEXTURE__TEXTURE_TRANSFORM, true);
+                Ifc2x3tc1Package.eINSTANCE.getIfcSurfaceTexture_TextureTransform(), true);
     }
 
     /**
@@ -150,7 +150,7 @@ public class IfcSurfaceTextureImpl extends IdEObjectImpl implements IfcSurfaceTe
      */
     @Override
     public void setTextureTransform(IfcCartesianTransformationOperator2D newTextureTransform) {
-        eSet(Ifc2x3tc1Package.Literals.IFC_SURFACE_TEXTURE__TEXTURE_TRANSFORM, newTextureTransform);
+        eSet(Ifc2x3tc1Package.eINSTANCE.getIfcSurfaceTexture_TextureTransform(), newTextureTransform);
     }
 
     /**
@@ -160,7 +160,7 @@ public class IfcSurfaceTextureImpl extends IdEObjectImpl implements IfcSurfaceTe
      */
     @Override
     public void unsetTextureTransform() {
-        eUnset(Ifc2x3tc1Package.Literals.IFC_SURFACE_TEXTURE__TEXTURE_TRANSFORM);
+        eUnset(Ifc2x3tc1Package.eINSTANCE.getIfcSurfaceTexture_TextureTransform());
     }
 
     /**
@@ -170,7 +170,7 @@ public class IfcSurfaceTextureImpl extends IdEObjectImpl implements IfcSurfaceTe
      */
     @Override
     public boolean isSetTextureTransform() {
-        return eIsSet(Ifc2x3tc1Package.Literals.IFC_SURFACE_TEXTURE__TEXTURE_TRANSFORM);
+        return eIsSet(Ifc2x3tc1Package.eINSTANCE.getIfcSurfaceTexture_TextureTransform());
     }
 
 } //IfcSurfaceTextureImpl

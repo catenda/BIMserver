@@ -53,7 +53,7 @@ public class IfcRoundedRectangleProfileDefImpl extends IfcRectangleProfileDefImp
      */
     @Override
     protected EClass eStaticClass() {
-        return Ifc2x3tc1Package.Literals.IFC_ROUNDED_RECTANGLE_PROFILE_DEF;
+        return Ifc2x3tc1Package.eINSTANCE.getIfcRoundedRectangleProfileDef();
     }
 
     /**
@@ -63,7 +63,7 @@ public class IfcRoundedRectangleProfileDefImpl extends IfcRectangleProfileDefImp
      */
     @Override
     public double getRoundingRadius() {
-        return (Double) eGet(Ifc2x3tc1Package.Literals.IFC_ROUNDED_RECTANGLE_PROFILE_DEF__ROUNDING_RADIUS, true);
+        return (Double) eGet(Ifc2x3tc1Package.eINSTANCE.getIfcRoundedRectangleProfileDef_RoundingRadius(), true);
     }
 
     /**
@@ -73,7 +73,7 @@ public class IfcRoundedRectangleProfileDefImpl extends IfcRectangleProfileDefImp
      */
     @Override
     public void setRoundingRadius(double newRoundingRadius) {
-        eSet(Ifc2x3tc1Package.Literals.IFC_ROUNDED_RECTANGLE_PROFILE_DEF__ROUNDING_RADIUS, newRoundingRadius);
+        eSet(Ifc2x3tc1Package.eINSTANCE.getIfcRoundedRectangleProfileDef_RoundingRadius(), newRoundingRadius);
     }
 
     /**
@@ -83,7 +83,7 @@ public class IfcRoundedRectangleProfileDefImpl extends IfcRectangleProfileDefImp
      */
     @Override
     public String getRoundingRadiusAsString() {
-        return (String) eGet(Ifc2x3tc1Package.Literals.IFC_ROUNDED_RECTANGLE_PROFILE_DEF__ROUNDING_RADIUS_AS_STRING,
+        return (String) eGet(Ifc2x3tc1Package.eINSTANCE.getIfcRoundedRectangleProfileDef_RoundingRadiusAsString(),
                 true);
     }
 
@@ -94,7 +94,7 @@ public class IfcRoundedRectangleProfileDefImpl extends IfcRectangleProfileDefImp
      */
     @Override
     public void setRoundingRadiusAsString(String newRoundingRadiusAsString) {
-        eSet(Ifc2x3tc1Package.Literals.IFC_ROUNDED_RECTANGLE_PROFILE_DEF__ROUNDING_RADIUS_AS_STRING,
+        eSet(Ifc2x3tc1Package.eINSTANCE.getIfcRoundedRectangleProfileDef_RoundingRadiusAsString(),
                 newRoundingRadiusAsString);
     }
 

@@ -47,7 +47,7 @@ public class IfcExternalInformationImpl extends IdEObjectImpl implements IfcExte
      */
     @Override
     protected EClass eStaticClass() {
-        return Ifc4Package.Literals.IFC_EXTERNAL_INFORMATION;
+        return Ifc4Package.eINSTANCE.getIfcExternalInformation();
     }
 
     /**

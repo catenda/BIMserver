@@ -55,7 +55,7 @@ public class IfcConnectionPortGeometryImpl extends IfcConnectionGeometryImpl imp
      */
     @Override
     protected EClass eStaticClass() {
-        return Ifc2x3tc1Package.Literals.IFC_CONNECTION_PORT_GEOMETRY;
+        return Ifc2x3tc1Package.eINSTANCE.getIfcConnectionPortGeometry();
     }
 
     /**
@@ -66,7 +66,7 @@ public class IfcConnectionPortGeometryImpl extends IfcConnectionGeometryImpl imp
     @Override
     public IfcAxis2Placement getLocationAtRelatingElement() {
         return (IfcAxis2Placement) eGet(
-                Ifc2x3tc1Package.Literals.IFC_CONNECTION_PORT_GEOMETRY__LOCATION_AT_RELATING_ELEMENT, true);
+                Ifc2x3tc1Package.eINSTANCE.getIfcConnectionPortGeometry_LocationAtRelatingElement(), true);
     }
 
     /**
@@ -76,7 +76,7 @@ public class IfcConnectionPortGeometryImpl extends IfcConnectionGeometryImpl imp
      */
     @Override
     public void setLocationAtRelatingElement(IfcAxis2Placement newLocationAtRelatingElement) {
-        eSet(Ifc2x3tc1Package.Literals.IFC_CONNECTION_PORT_GEOMETRY__LOCATION_AT_RELATING_ELEMENT,
+        eSet(Ifc2x3tc1Package.eINSTANCE.getIfcConnectionPortGeometry_LocationAtRelatingElement(),
                 newLocationAtRelatingElement);
     }
 
@@ -88,7 +88,7 @@ public class IfcConnectionPortGeometryImpl extends IfcConnectionGeometryImpl imp
     @Override
     public IfcAxis2Placement getLocationAtRelatedElement() {
         return (IfcAxis2Placement) eGet(
-                Ifc2x3tc1Package.Literals.IFC_CONNECTION_PORT_GEOMETRY__LOCATION_AT_RELATED_ELEMENT, true);
+                Ifc2x3tc1Package.eINSTANCE.getIfcConnectionPortGeometry_LocationAtRelatedElement(), true);
     }
 
     /**
@@ -98,7 +98,7 @@ public class IfcConnectionPortGeometryImpl extends IfcConnectionGeometryImpl imp
      */
     @Override
     public void setLocationAtRelatedElement(IfcAxis2Placement newLocationAtRelatedElement) {
-        eSet(Ifc2x3tc1Package.Literals.IFC_CONNECTION_PORT_GEOMETRY__LOCATION_AT_RELATED_ELEMENT,
+        eSet(Ifc2x3tc1Package.eINSTANCE.getIfcConnectionPortGeometry_LocationAtRelatedElement(),
                 newLocationAtRelatedElement);
     }
 
@@ -109,7 +109,7 @@ public class IfcConnectionPortGeometryImpl extends IfcConnectionGeometryImpl imp
      */
     @Override
     public void unsetLocationAtRelatedElement() {
-        eUnset(Ifc2x3tc1Package.Literals.IFC_CONNECTION_PORT_GEOMETRY__LOCATION_AT_RELATED_ELEMENT);
+        eUnset(Ifc2x3tc1Package.eINSTANCE.getIfcConnectionPortGeometry_LocationAtRelatedElement());
     }
 
     /**
@@ -119,7 +119,7 @@ public class IfcConnectionPortGeometryImpl extends IfcConnectionGeometryImpl imp
      */
     @Override
     public boolean isSetLocationAtRelatedElement() {
-        return eIsSet(Ifc2x3tc1Package.Literals.IFC_CONNECTION_PORT_GEOMETRY__LOCATION_AT_RELATED_ELEMENT);
+        return eIsSet(Ifc2x3tc1Package.eINSTANCE.getIfcConnectionPortGeometry_LocationAtRelatedElement());
     }
 
     /**
@@ -129,7 +129,7 @@ public class IfcConnectionPortGeometryImpl extends IfcConnectionGeometryImpl imp
      */
     @Override
     public IfcProfileDef getProfileOfPort() {
-        return (IfcProfileDef) eGet(Ifc2x3tc1Package.Literals.IFC_CONNECTION_PORT_GEOMETRY__PROFILE_OF_PORT, true);
+        return (IfcProfileDef) eGet(Ifc2x3tc1Package.eINSTANCE.getIfcConnectionPortGeometry_ProfileOfPort(), true);
     }
 
     /**
@@ -139,7 +139,7 @@ public class IfcConnectionPortGeometryImpl extends IfcConnectionGeometryImpl imp
      */
     @Override
     public void setProfileOfPort(IfcProfileDef newProfileOfPort) {
-        eSet(Ifc2x3tc1Package.Literals.IFC_CONNECTION_PORT_GEOMETRY__PROFILE_OF_PORT, newProfileOfPort);
+        eSet(Ifc2x3tc1Package.eINSTANCE.getIfcConnectionPortGeometry_ProfileOfPort(), newProfileOfPort);
     }
 
 } //IfcConnectionPortGeometryImpl

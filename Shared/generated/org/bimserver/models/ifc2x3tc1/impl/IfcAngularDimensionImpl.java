@@ -45,7 +45,7 @@ public class IfcAngularDimensionImpl extends IfcDimensionCurveDirectedCalloutImp
      */
     @Override
     protected EClass eStaticClass() {
-        return Ifc2x3tc1Package.Literals.IFC_ANGULAR_DIMENSION;
+        return Ifc2x3tc1Package.eINSTANCE.getIfcAngularDimension();
     }
 
 } //IfcAngularDimensionImpl

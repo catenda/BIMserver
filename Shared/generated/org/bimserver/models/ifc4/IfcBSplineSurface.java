@@ -46,10 +46,6 @@ public interface IfcBSplineSurface extends IfcBoundedSurface {
     /**
      * Returns the value of the '<em><b>UDegree</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>UDegree</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>UDegree</em>' attribute.
      * @see #setUDegree(long)
@@ -72,10 +68,6 @@ public interface IfcBSplineSurface extends IfcBoundedSurface {
     /**
      * Returns the value of the '<em><b>VDegree</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>VDegree</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>VDegree</em>' attribute.
      * @see #setVDegree(long)
@@ -99,10 +91,6 @@ public interface IfcBSplineSurface extends IfcBoundedSurface {
      * Returns the value of the '<em><b>Control Points List</b></em>' reference list.
      * The list contents are of type {@link org.bimserver.models.ifc4.ListOfIfcCartesianPoint}.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Control Points List</em>' reference list isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Control Points List</em>' reference list.
      * @see org.bimserver.models.ifc4.Ifc4Package#getIfcBSplineSurface_ControlPointsList()
@@ -115,10 +103,6 @@ public interface IfcBSplineSurface extends IfcBoundedSurface {
      * Returns the value of the '<em><b>Surface Form</b></em>' attribute.
      * The literals are from the enumeration {@link org.bimserver.models.ifc4.IfcBSplineSurfaceForm}.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Surface Form</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Surface Form</em>' attribute.
      * @see org.bimserver.models.ifc4.IfcBSplineSurfaceForm
@@ -144,10 +128,6 @@ public interface IfcBSplineSurface extends IfcBoundedSurface {
      * Returns the value of the '<em><b>UClosed</b></em>' attribute.
      * The literals are from the enumeration {@link org.bimserver.models.ifc4.Tristate}.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>UClosed</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>UClosed</em>' attribute.
      * @see org.bimserver.models.ifc4.Tristate
@@ -173,10 +153,6 @@ public interface IfcBSplineSurface extends IfcBoundedSurface {
      * Returns the value of the '<em><b>VClosed</b></em>' attribute.
      * The literals are from the enumeration {@link org.bimserver.models.ifc4.Tristate}.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>VClosed</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>VClosed</em>' attribute.
      * @see org.bimserver.models.ifc4.Tristate
@@ -202,10 +178,6 @@ public interface IfcBSplineSurface extends IfcBoundedSurface {
      * Returns the value of the '<em><b>Self Intersect</b></em>' attribute.
      * The literals are from the enumeration {@link org.bimserver.models.ifc4.Tristate}.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Self Intersect</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Self Intersect</em>' attribute.
      * @see org.bimserver.models.ifc4.Tristate
@@ -230,10 +202,6 @@ public interface IfcBSplineSurface extends IfcBoundedSurface {
     /**
      * Returns the value of the '<em><b>UUpper</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>UUpper</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>UUpper</em>' attribute.
      * @see #isSetUUpper()
@@ -284,10 +252,6 @@ public interface IfcBSplineSurface extends IfcBoundedSurface {
     /**
      * Returns the value of the '<em><b>VUpper</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>VUpper</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>VUpper</em>' attribute.
      * @see #isSetVUpper()

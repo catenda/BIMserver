@@ -37,10 +37,6 @@ public interface IfcPolygonalBoundedHalfSpace extends IfcHalfSpaceSolid {
     /**
      * Returns the value of the '<em><b>Position</b></em>' reference.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Position</em>' reference isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Position</em>' reference.
      * @see #setPosition(IfcAxis2Placement3D)
@@ -63,10 +59,6 @@ public interface IfcPolygonalBoundedHalfSpace extends IfcHalfSpaceSolid {
     /**
      * Returns the value of the '<em><b>Polygonal Boundary</b></em>' reference.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Polygonal Boundary</em>' reference isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Polygonal Boundary</em>' reference.
      * @see #setPolygonalBoundary(IfcBoundedCurve)

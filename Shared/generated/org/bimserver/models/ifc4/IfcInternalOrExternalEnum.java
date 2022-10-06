@@ -105,10 +105,6 @@ public enum IfcInternalOrExternalEnum implements Enumerator {
     /**
      * The '<em><b>NULL</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>NULL</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #NULL
      * @model
@@ -120,10 +116,6 @@ public enum IfcInternalOrExternalEnum implements Enumerator {
     /**
      * The '<em><b>NOTDEFINED</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>NOTDEFINED</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #NOTDEFINED
      * @model
@@ -135,10 +127,6 @@ public enum IfcInternalOrExternalEnum implements Enumerator {
     /**
      * The '<em><b>EXTERNAL</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>EXTERNAL</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #EXTERNAL
      * @model
@@ -150,10 +138,6 @@ public enum IfcInternalOrExternalEnum implements Enumerator {
     /**
      * The '<em><b>EXTERNAL FIRE</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>EXTERNAL FIRE</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #EXTERNAL_FIRE
      * @model
@@ -165,10 +149,6 @@ public enum IfcInternalOrExternalEnum implements Enumerator {
     /**
      * The '<em><b>INTERNAL</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>INTERNAL</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #INTERNAL
      * @model
@@ -180,10 +160,6 @@ public enum IfcInternalOrExternalEnum implements Enumerator {
     /**
      * The '<em><b>EXTERNAL WATER</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>EXTERNAL WATER</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #EXTERNAL_WATER
      * @model
@@ -195,10 +171,6 @@ public enum IfcInternalOrExternalEnum implements Enumerator {
     /**
      * The '<em><b>EXTERNAL EARTH</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>EXTERNAL EARTH</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #EXTERNAL_EARTH
      * @model

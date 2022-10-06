@@ -54,7 +54,7 @@ public class IfcTextureCoordinateImpl extends IfcPresentationItemImpl implements
      */
     @Override
     protected EClass eStaticClass() {
-        return Ifc4Package.Literals.IFC_TEXTURE_COORDINATE;
+        return Ifc4Package.eINSTANCE.getIfcTextureCoordinate();
     }
 
     /**
@@ -65,7 +65,7 @@ public class IfcTextureCoordinateImpl extends IfcPresentationItemImpl implements
     @SuppressWarnings("unchecked")
     @Override
     public EList<IfcSurfaceTexture> getMaps() {
-        return (EList<IfcSurfaceTexture>) eGet(Ifc4Package.Literals.IFC_TEXTURE_COORDINATE__MAPS, true);
+        return (EList<IfcSurfaceTexture>) eGet(Ifc4Package.eINSTANCE.getIfcTextureCoordinate_Maps(), true);
     }
 
 } //IfcTextureCoordinateImpl

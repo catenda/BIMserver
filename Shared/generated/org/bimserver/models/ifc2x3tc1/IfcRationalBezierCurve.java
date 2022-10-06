@@ -40,10 +40,6 @@ public interface IfcRationalBezierCurve extends IfcBezierCurve {
      * Returns the value of the '<em><b>Weights Data</b></em>' attribute list.
      * The list contents are of type {@link java.lang.Double}.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Weights Data</em>' attribute list isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Weights Data</em>' attribute list.
      * @see org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package#getIfcRationalBezierCurve_WeightsData()
@@ -56,10 +52,6 @@ public interface IfcRationalBezierCurve extends IfcBezierCurve {
      * Returns the value of the '<em><b>Weights Data As String</b></em>' attribute list.
      * The list contents are of type {@link java.lang.String}.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Weights Data As String</em>' attribute list isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Weights Data As String</em>' attribute list.
      * @see org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package#getIfcRationalBezierCurve_WeightsDataAsString()

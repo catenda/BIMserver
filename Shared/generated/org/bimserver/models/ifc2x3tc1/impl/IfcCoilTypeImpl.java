@@ -52,7 +52,7 @@ public class IfcCoilTypeImpl extends IfcEnergyConversionDeviceTypeImpl implement
      */
     @Override
     protected EClass eStaticClass() {
-        return Ifc2x3tc1Package.Literals.IFC_COIL_TYPE;
+        return Ifc2x3tc1Package.eINSTANCE.getIfcCoilType();
     }
 
     /**
@@ -62,7 +62,7 @@ public class IfcCoilTypeImpl extends IfcEnergyConversionDeviceTypeImpl implement
      */
     @Override
     public IfcCoilTypeEnum getPredefinedType() {
-        return (IfcCoilTypeEnum) eGet(Ifc2x3tc1Package.Literals.IFC_COIL_TYPE__PREDEFINED_TYPE, true);
+        return (IfcCoilTypeEnum) eGet(Ifc2x3tc1Package.eINSTANCE.getIfcCoilType_PredefinedType(), true);
     }
 
     /**
@@ -72,7 +72,7 @@ public class IfcCoilTypeImpl extends IfcEnergyConversionDeviceTypeImpl implement
      */
     @Override
     public void setPredefinedType(IfcCoilTypeEnum newPredefinedType) {
-        eSet(Ifc2x3tc1Package.Literals.IFC_COIL_TYPE__PREDEFINED_TYPE, newPredefinedType);
+        eSet(Ifc2x3tc1Package.eINSTANCE.getIfcCoilType_PredefinedType(), newPredefinedType);
     }
 
 } //IfcCoilTypeImpl

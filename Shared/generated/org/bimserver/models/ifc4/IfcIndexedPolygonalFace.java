@@ -40,10 +40,6 @@ public interface IfcIndexedPolygonalFace extends IfcTessellatedItem {
      * Returns the value of the '<em><b>Coord Index</b></em>' attribute list.
      * The list contents are of type {@link java.lang.Long}.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Coord Index</em>' attribute list isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Coord Index</em>' attribute list.
      * @see org.bimserver.models.ifc4.Ifc4Package#getIfcIndexedPolygonalFace_CoordIndex()
@@ -57,10 +53,6 @@ public interface IfcIndexedPolygonalFace extends IfcTessellatedItem {
      * The list contents are of type {@link org.bimserver.models.ifc4.IfcPolygonalFaceSet}.
      * It is bidirectional and its opposite is '{@link org.bimserver.models.ifc4.IfcPolygonalFaceSet#getFaces <em>Faces</em>}'.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>To Face Set</em>' reference list isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>To Face Set</em>' reference list.
      * @see #isSetToFaceSet()

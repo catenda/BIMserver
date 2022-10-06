@@ -105,10 +105,6 @@ public enum IfcWindowPanelPositionEnum implements Enumerator {
     /**
      * The '<em><b>NULL</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>NULL</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #NULL
      * @model
@@ -120,10 +116,6 @@ public enum IfcWindowPanelPositionEnum implements Enumerator {
     /**
      * The '<em><b>NOTDEFINED</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>NOTDEFINED</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #NOTDEFINED
      * @model
@@ -135,10 +127,6 @@ public enum IfcWindowPanelPositionEnum implements Enumerator {
     /**
      * The '<em><b>LEFT</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>LEFT</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #LEFT
      * @model
@@ -150,10 +138,6 @@ public enum IfcWindowPanelPositionEnum implements Enumerator {
     /**
      * The '<em><b>TOP</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>TOP</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #TOP
      * @model
@@ -165,10 +149,6 @@ public enum IfcWindowPanelPositionEnum implements Enumerator {
     /**
      * The '<em><b>RIGHT</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>RIGHT</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #RIGHT
      * @model
@@ -180,10 +160,6 @@ public enum IfcWindowPanelPositionEnum implements Enumerator {
     /**
      * The '<em><b>BOTTOM</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>BOTTOM</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #BOTTOM
      * @model
@@ -195,10 +171,6 @@ public enum IfcWindowPanelPositionEnum implements Enumerator {
     /**
      * The '<em><b>MIDDLE</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>MIDDLE</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #MIDDLE
      * @model

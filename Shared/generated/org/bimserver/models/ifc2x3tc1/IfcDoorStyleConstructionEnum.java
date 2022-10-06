@@ -135,10 +135,6 @@ public enum IfcDoorStyleConstructionEnum implements Enumerator {
     /**
      * The '<em><b>NULL</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>NULL</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #NULL
      * @model
@@ -150,10 +146,6 @@ public enum IfcDoorStyleConstructionEnum implements Enumerator {
     /**
      * The '<em><b>ALUMINIUM</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>ALUMINIUM</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #ALUMINIUM
      * @model
@@ -165,10 +157,6 @@ public enum IfcDoorStyleConstructionEnum implements Enumerator {
     /**
      * The '<em><b>HIGH GRADE STEEL</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>HIGH GRADE STEEL</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #HIGH_GRADE_STEEL
      * @model
@@ -180,10 +168,6 @@ public enum IfcDoorStyleConstructionEnum implements Enumerator {
     /**
      * The '<em><b>ALUMINIUM PLASTIC</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>ALUMINIUM PLASTIC</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #ALUMINIUM_PLASTIC
      * @model
@@ -195,10 +179,6 @@ public enum IfcDoorStyleConstructionEnum implements Enumerator {
     /**
      * The '<em><b>NOTDEFINED</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>NOTDEFINED</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #NOTDEFINED
      * @model
@@ -210,10 +190,6 @@ public enum IfcDoorStyleConstructionEnum implements Enumerator {
     /**
      * The '<em><b>STEEL</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>STEEL</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #STEEL
      * @model
@@ -225,10 +201,6 @@ public enum IfcDoorStyleConstructionEnum implements Enumerator {
     /**
      * The '<em><b>WOOD</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>WOOD</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #WOOD
      * @model
@@ -240,10 +212,6 @@ public enum IfcDoorStyleConstructionEnum implements Enumerator {
     /**
      * The '<em><b>ALUMINIUM WOOD</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>ALUMINIUM WOOD</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #ALUMINIUM_WOOD
      * @model
@@ -255,10 +223,6 @@ public enum IfcDoorStyleConstructionEnum implements Enumerator {
     /**
      * The '<em><b>USERDEFINED</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>USERDEFINED</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #USERDEFINED
      * @model
@@ -270,10 +234,6 @@ public enum IfcDoorStyleConstructionEnum implements Enumerator {
     /**
      * The '<em><b>PLASTIC</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>PLASTIC</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #PLASTIC
      * @model

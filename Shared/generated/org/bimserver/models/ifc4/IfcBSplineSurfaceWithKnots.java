@@ -47,10 +47,6 @@ public interface IfcBSplineSurfaceWithKnots extends IfcBSplineSurface {
      * Returns the value of the '<em><b>UMultiplicities</b></em>' attribute list.
      * The list contents are of type {@link java.lang.Long}.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>UMultiplicities</em>' attribute list isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>UMultiplicities</em>' attribute list.
      * @see org.bimserver.models.ifc4.Ifc4Package#getIfcBSplineSurfaceWithKnots_UMultiplicities()
@@ -63,10 +59,6 @@ public interface IfcBSplineSurfaceWithKnots extends IfcBSplineSurface {
      * Returns the value of the '<em><b>VMultiplicities</b></em>' attribute list.
      * The list contents are of type {@link java.lang.Long}.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>VMultiplicities</em>' attribute list isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>VMultiplicities</em>' attribute list.
      * @see org.bimserver.models.ifc4.Ifc4Package#getIfcBSplineSurfaceWithKnots_VMultiplicities()
@@ -79,10 +71,6 @@ public interface IfcBSplineSurfaceWithKnots extends IfcBSplineSurface {
      * Returns the value of the '<em><b>UKnots</b></em>' attribute list.
      * The list contents are of type {@link java.lang.Double}.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>UKnots</em>' attribute list isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>UKnots</em>' attribute list.
      * @see org.bimserver.models.ifc4.Ifc4Package#getIfcBSplineSurfaceWithKnots_UKnots()
@@ -95,10 +83,6 @@ public interface IfcBSplineSurfaceWithKnots extends IfcBSplineSurface {
      * Returns the value of the '<em><b>UKnots As String</b></em>' attribute list.
      * The list contents are of type {@link java.lang.String}.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>UKnots As String</em>' attribute list isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>UKnots As String</em>' attribute list.
      * @see org.bimserver.models.ifc4.Ifc4Package#getIfcBSplineSurfaceWithKnots_UKnotsAsString()
@@ -113,10 +97,6 @@ public interface IfcBSplineSurfaceWithKnots extends IfcBSplineSurface {
      * Returns the value of the '<em><b>VKnots</b></em>' attribute list.
      * The list contents are of type {@link java.lang.Double}.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>VKnots</em>' attribute list isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>VKnots</em>' attribute list.
      * @see org.bimserver.models.ifc4.Ifc4Package#getIfcBSplineSurfaceWithKnots_VKnots()
@@ -129,10 +109,6 @@ public interface IfcBSplineSurfaceWithKnots extends IfcBSplineSurface {
      * Returns the value of the '<em><b>VKnots As String</b></em>' attribute list.
      * The list contents are of type {@link java.lang.String}.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>VKnots As String</em>' attribute list isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>VKnots As String</em>' attribute list.
      * @see org.bimserver.models.ifc4.Ifc4Package#getIfcBSplineSurfaceWithKnots_VKnotsAsString()
@@ -147,10 +123,6 @@ public interface IfcBSplineSurfaceWithKnots extends IfcBSplineSurface {
      * Returns the value of the '<em><b>Knot Spec</b></em>' attribute.
      * The literals are from the enumeration {@link org.bimserver.models.ifc4.IfcKnotType}.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Knot Spec</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Knot Spec</em>' attribute.
      * @see org.bimserver.models.ifc4.IfcKnotType
@@ -175,10 +147,6 @@ public interface IfcBSplineSurfaceWithKnots extends IfcBSplineSurface {
     /**
      * Returns the value of the '<em><b>Knot VUpper</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Knot VUpper</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Knot VUpper</em>' attribute.
      * @see #isSetKnotVUpper()
@@ -229,10 +197,6 @@ public interface IfcBSplineSurfaceWithKnots extends IfcBSplineSurface {
     /**
      * Returns the value of the '<em><b>Knot UUpper</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Knot UUpper</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Knot UUpper</em>' attribute.
      * @see #isSetKnotUUpper()

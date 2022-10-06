@@ -45,7 +45,7 @@ public class IfcReinforcingElementTypeImpl extends IfcElementComponentTypeImpl i
      */
     @Override
     protected EClass eStaticClass() {
-        return Ifc4Package.Literals.IFC_REINFORCING_ELEMENT_TYPE;
+        return Ifc4Package.eINSTANCE.getIfcReinforcingElementType();
     }
 
 } //IfcReinforcingElementTypeImpl

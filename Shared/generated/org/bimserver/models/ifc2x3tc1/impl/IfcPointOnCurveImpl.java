@@ -55,7 +55,7 @@ public class IfcPointOnCurveImpl extends IfcPointImpl implements IfcPointOnCurve
      */
     @Override
     protected EClass eStaticClass() {
-        return Ifc2x3tc1Package.Literals.IFC_POINT_ON_CURVE;
+        return Ifc2x3tc1Package.eINSTANCE.getIfcPointOnCurve();
     }
 
     /**
@@ -65,7 +65,7 @@ public class IfcPointOnCurveImpl extends IfcPointImpl implements IfcPointOnCurve
      */
     @Override
     public IfcCurve getBasisCurve() {
-        return (IfcCurve) eGet(Ifc2x3tc1Package.Literals.IFC_POINT_ON_CURVE__BASIS_CURVE, true);
+        return (IfcCurve) eGet(Ifc2x3tc1Package.eINSTANCE.getIfcPointOnCurve_BasisCurve(), true);
     }
 
     /**
@@ -75,7 +75,7 @@ public class IfcPointOnCurveImpl extends IfcPointImpl implements IfcPointOnCurve
      */
     @Override
     public void setBasisCurve(IfcCurve newBasisCurve) {
-        eSet(Ifc2x3tc1Package.Literals.IFC_POINT_ON_CURVE__BASIS_CURVE, newBasisCurve);
+        eSet(Ifc2x3tc1Package.eINSTANCE.getIfcPointOnCurve_BasisCurve(), newBasisCurve);
     }
 
     /**
@@ -85,7 +85,7 @@ public class IfcPointOnCurveImpl extends IfcPointImpl implements IfcPointOnCurve
      */
     @Override
     public double getPointParameter() {
-        return (Double) eGet(Ifc2x3tc1Package.Literals.IFC_POINT_ON_CURVE__POINT_PARAMETER, true);
+        return (Double) eGet(Ifc2x3tc1Package.eINSTANCE.getIfcPointOnCurve_PointParameter(), true);
     }
 
     /**
@@ -95,7 +95,7 @@ public class IfcPointOnCurveImpl extends IfcPointImpl implements IfcPointOnCurve
      */
     @Override
     public void setPointParameter(double newPointParameter) {
-        eSet(Ifc2x3tc1Package.Literals.IFC_POINT_ON_CURVE__POINT_PARAMETER, newPointParameter);
+        eSet(Ifc2x3tc1Package.eINSTANCE.getIfcPointOnCurve_PointParameter(), newPointParameter);
     }
 
     /**
@@ -105,7 +105,7 @@ public class IfcPointOnCurveImpl extends IfcPointImpl implements IfcPointOnCurve
      */
     @Override
     public String getPointParameterAsString() {
-        return (String) eGet(Ifc2x3tc1Package.Literals.IFC_POINT_ON_CURVE__POINT_PARAMETER_AS_STRING, true);
+        return (String) eGet(Ifc2x3tc1Package.eINSTANCE.getIfcPointOnCurve_PointParameterAsString(), true);
     }
 
     /**
@@ -115,7 +115,7 @@ public class IfcPointOnCurveImpl extends IfcPointImpl implements IfcPointOnCurve
      */
     @Override
     public void setPointParameterAsString(String newPointParameterAsString) {
-        eSet(Ifc2x3tc1Package.Literals.IFC_POINT_ON_CURVE__POINT_PARAMETER_AS_STRING, newPointParameterAsString);
+        eSet(Ifc2x3tc1Package.eINSTANCE.getIfcPointOnCurve_PointParameterAsString(), newPointParameterAsString);
     }
 
     /**
@@ -125,7 +125,7 @@ public class IfcPointOnCurveImpl extends IfcPointImpl implements IfcPointOnCurve
      */
     @Override
     public long getDim() {
-        return (Long) eGet(Ifc2x3tc1Package.Literals.IFC_POINT_ON_CURVE__DIM, true);
+        return (Long) eGet(Ifc2x3tc1Package.eINSTANCE.getIfcPointOnCurve_Dim(), true);
     }
 
     /**
@@ -135,7 +135,7 @@ public class IfcPointOnCurveImpl extends IfcPointImpl implements IfcPointOnCurve
      */
     @Override
     public void setDim(long newDim) {
-        eSet(Ifc2x3tc1Package.Literals.IFC_POINT_ON_CURVE__DIM, newDim);
+        eSet(Ifc2x3tc1Package.eINSTANCE.getIfcPointOnCurve_Dim(), newDim);
     }
 
     /**
@@ -145,7 +145,7 @@ public class IfcPointOnCurveImpl extends IfcPointImpl implements IfcPointOnCurve
      */
     @Override
     public void unsetDim() {
-        eUnset(Ifc2x3tc1Package.Literals.IFC_POINT_ON_CURVE__DIM);
+        eUnset(Ifc2x3tc1Package.eINSTANCE.getIfcPointOnCurve_Dim());
     }
 
     /**
@@ -155,7 +155,7 @@ public class IfcPointOnCurveImpl extends IfcPointImpl implements IfcPointOnCurve
      */
     @Override
     public boolean isSetDim() {
-        return eIsSet(Ifc2x3tc1Package.Literals.IFC_POINT_ON_CURVE__DIM);
+        return eIsSet(Ifc2x3tc1Package.eINSTANCE.getIfcPointOnCurve_Dim());
     }
 
 } //IfcPointOnCurveImpl

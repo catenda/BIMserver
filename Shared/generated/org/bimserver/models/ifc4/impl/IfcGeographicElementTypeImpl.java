@@ -52,7 +52,7 @@ public class IfcGeographicElementTypeImpl extends IfcElementTypeImpl implements 
      */
     @Override
     protected EClass eStaticClass() {
-        return Ifc4Package.Literals.IFC_GEOGRAPHIC_ELEMENT_TYPE;
+        return Ifc4Package.eINSTANCE.getIfcGeographicElementType();
     }
 
     /**
@@ -62,7 +62,7 @@ public class IfcGeographicElementTypeImpl extends IfcElementTypeImpl implements 
      */
     @Override
     public IfcGeographicElementTypeEnum getPredefinedType() {
-        return (IfcGeographicElementTypeEnum) eGet(Ifc4Package.Literals.IFC_GEOGRAPHIC_ELEMENT_TYPE__PREDEFINED_TYPE,
+        return (IfcGeographicElementTypeEnum) eGet(Ifc4Package.eINSTANCE.getIfcGeographicElementType_PredefinedType(),
                 true);
     }
 
@@ -73,7 +73,7 @@ public class IfcGeographicElementTypeImpl extends IfcElementTypeImpl implements 
      */
     @Override
     public void setPredefinedType(IfcGeographicElementTypeEnum newPredefinedType) {
-        eSet(Ifc4Package.Literals.IFC_GEOGRAPHIC_ELEMENT_TYPE__PREDEFINED_TYPE, newPredefinedType);
+        eSet(Ifc4Package.eINSTANCE.getIfcGeographicElementType_PredefinedType(), newPredefinedType);
     }
 
 } //IfcGeographicElementTypeImpl

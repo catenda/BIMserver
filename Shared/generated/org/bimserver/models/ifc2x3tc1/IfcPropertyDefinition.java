@@ -39,10 +39,6 @@ public interface IfcPropertyDefinition extends IfcRoot {
      * Returns the value of the '<em><b>Has Associations</b></em>' reference list.
      * The list contents are of type {@link org.bimserver.models.ifc2x3tc1.IfcRelAssociates}.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Has Associations</em>' reference list isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Has Associations</em>' reference list.
      * @see #isSetHasAssociations()

@@ -43,10 +43,6 @@ public interface IfcPhysicalComplexQuantity extends IfcPhysicalQuantity {
      * The list contents are of type {@link org.bimserver.models.ifc2x3tc1.IfcPhysicalQuantity}.
      * It is bidirectional and its opposite is '{@link org.bimserver.models.ifc2x3tc1.IfcPhysicalQuantity#getPartOfComplex <em>Part Of Complex</em>}'.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Has Quantities</em>' reference list isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Has Quantities</em>' reference list.
      * @see org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package#getIfcPhysicalComplexQuantity_HasQuantities()
@@ -60,10 +56,6 @@ public interface IfcPhysicalComplexQuantity extends IfcPhysicalQuantity {
     /**
      * Returns the value of the '<em><b>Discrimination</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Discrimination</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Discrimination</em>' attribute.
      * @see #setDiscrimination(String)
@@ -86,10 +78,6 @@ public interface IfcPhysicalComplexQuantity extends IfcPhysicalQuantity {
     /**
      * Returns the value of the '<em><b>Quality</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Quality</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Quality</em>' attribute.
      * @see #isSetQuality()
@@ -139,10 +127,6 @@ public interface IfcPhysicalComplexQuantity extends IfcPhysicalQuantity {
     /**
      * Returns the value of the '<em><b>Usage</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Usage</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Usage</em>' attribute.
      * @see #isSetUsage()

@@ -101,10 +101,11 @@ public enum IfcBuildingElementProxyTypeEnum implements Enumerator {
      * @ordered
      */
     USERDEFINED(6, "USERDEFINED", "USERDEFINED"),
+
     /**
      * The '<em><b>PROVISIONFORSPACE</b></em>' literal object.
      * <!-- begin-user-doc -->
-    * <!-- end-user-doc -->
+     * <!-- end-user-doc -->
      * @see #PROVISIONFORSPACE_VALUE
      * @generated
      * @ordered
@@ -114,10 +115,6 @@ public enum IfcBuildingElementProxyTypeEnum implements Enumerator {
     /**
      * The '<em><b>NULL</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>NULL</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #NULL
      * @model
@@ -129,10 +126,6 @@ public enum IfcBuildingElementProxyTypeEnum implements Enumerator {
     /**
      * The '<em><b>COMPLEX</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>COMPLEX</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #COMPLEX
      * @model
@@ -144,10 +137,6 @@ public enum IfcBuildingElementProxyTypeEnum implements Enumerator {
     /**
      * The '<em><b>ELEMENT</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>ELEMENT</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #ELEMENT
      * @model
@@ -159,10 +148,6 @@ public enum IfcBuildingElementProxyTypeEnum implements Enumerator {
     /**
      * The '<em><b>PROVISIONFORVOID</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>PROVISIONFORVOID</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #PROVISIONFORVOID
      * @model
@@ -174,10 +159,6 @@ public enum IfcBuildingElementProxyTypeEnum implements Enumerator {
     /**
      * The '<em><b>NOTDEFINED</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>NOTDEFINED</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #NOTDEFINED
      * @model
@@ -189,10 +170,6 @@ public enum IfcBuildingElementProxyTypeEnum implements Enumerator {
     /**
      * The '<em><b>PARTIAL</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>PARTIAL</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #PARTIAL
      * @model
@@ -204,10 +181,6 @@ public enum IfcBuildingElementProxyTypeEnum implements Enumerator {
     /**
      * The '<em><b>USERDEFINED</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>USERDEFINED</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #USERDEFINED
      * @model
@@ -219,10 +192,6 @@ public enum IfcBuildingElementProxyTypeEnum implements Enumerator {
     /**
      * The '<em><b>PROVISIONFORSPACE</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>PROVISIONFORSPACE</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #PROVISIONFORSPACE
      * @model

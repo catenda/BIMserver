@@ -40,10 +40,6 @@ public interface IfcResource extends IfcObject, IfcResourceSelect {
     /**
      * Returns the value of the '<em><b>Identification</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Identification</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Identification</em>' attribute.
      * @see #isSetIdentification()
@@ -93,10 +89,6 @@ public interface IfcResource extends IfcObject, IfcResourceSelect {
     /**
      * Returns the value of the '<em><b>Long Description</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Long Description</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Long Description</em>' attribute.
      * @see #isSetLongDescription()
@@ -147,10 +139,6 @@ public interface IfcResource extends IfcObject, IfcResourceSelect {
      * Returns the value of the '<em><b>Resource Of</b></em>' reference list.
      * The list contents are of type {@link org.bimserver.models.ifc4.IfcRelAssignsToResource}.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Resource Of</em>' reference list isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Resource Of</em>' reference list.
      * @see #isSetResourceOf()

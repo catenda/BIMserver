@@ -18,9 +18,6 @@ package org.bimserver.models.ifc4.impl;
 
 import org.bimserver.models.ifc4.Ifc4Package;
 import org.bimserver.models.ifc4.IfcBuildingElement;
-import org.bimserver.models.ifc4.IfcRelCoversBldgElements;
-
-import org.eclipse.emf.common.util.EList;
 
 import org.eclipse.emf.ecore.EClass;
 
@@ -48,7 +45,7 @@ public class IfcBuildingElementImpl extends IfcElementImpl implements IfcBuildin
      */
     @Override
     protected EClass eStaticClass() {
-        return Ifc4Package.Literals.IFC_BUILDING_ELEMENT;
+        return Ifc4Package.eINSTANCE.getIfcBuildingElement();
     }
 
 } //IfcBuildingElementImpl

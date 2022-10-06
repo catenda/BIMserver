@@ -45,10 +45,6 @@ public interface IfcClassificationItem extends IdEObject {
     /**
      * Returns the value of the '<em><b>Notation</b></em>' reference.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Notation</em>' reference isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Notation</em>' reference.
      * @see #setNotation(IfcClassificationNotationFacet)
@@ -72,10 +68,6 @@ public interface IfcClassificationItem extends IdEObject {
      * Returns the value of the '<em><b>Item Of</b></em>' reference.
      * It is bidirectional and its opposite is '{@link org.bimserver.models.ifc2x3tc1.IfcClassification#getContains <em>Contains</em>}'.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Item Of</em>' reference isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Item Of</em>' reference.
      * @see #isSetItemOf()
@@ -127,10 +119,6 @@ public interface IfcClassificationItem extends IdEObject {
     /**
      * Returns the value of the '<em><b>Title</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Title</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Title</em>' attribute.
      * @see #setTitle(String)
@@ -155,10 +143,6 @@ public interface IfcClassificationItem extends IdEObject {
      * The list contents are of type {@link org.bimserver.models.ifc2x3tc1.IfcClassificationItemRelationship}.
      * It is bidirectional and its opposite is '{@link org.bimserver.models.ifc2x3tc1.IfcClassificationItemRelationship#getRelatedItems <em>Related Items</em>}'.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Is Classified Item In</em>' reference list isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Is Classified Item In</em>' reference list.
      * @see #isSetIsClassifiedItemIn()
@@ -197,10 +181,6 @@ public interface IfcClassificationItem extends IdEObject {
      * The list contents are of type {@link org.bimserver.models.ifc2x3tc1.IfcClassificationItemRelationship}.
      * It is bidirectional and its opposite is '{@link org.bimserver.models.ifc2x3tc1.IfcClassificationItemRelationship#getRelatingItem <em>Relating Item</em>}'.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Is Classifying Item In</em>' reference list isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Is Classifying Item In</em>' reference list.
      * @see #isSetIsClassifyingItemIn()

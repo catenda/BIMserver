@@ -55,7 +55,7 @@ public class IfcLineIndexImpl extends IdEObjectImpl implements IfcLineIndex {
      */
     @Override
     protected EClass eStaticClass() {
-        return Ifc4Package.Literals.IFC_LINE_INDEX;
+        return Ifc4Package.eINSTANCE.getIfcLineIndex();
     }
 
     /**
@@ -76,7 +76,7 @@ public class IfcLineIndexImpl extends IdEObjectImpl implements IfcLineIndex {
     @SuppressWarnings("unchecked")
     @Override
     public EList<Long> getWrappedValue() {
-        return (EList<Long>) eGet(Ifc4Package.Literals.IFC_LINE_INDEX__WRAPPED_VALUE, true);
+        return (EList<Long>) eGet(Ifc4Package.eINSTANCE.getIfcLineIndex_WrappedValue(), true);
     }
 
     /**
@@ -86,7 +86,7 @@ public class IfcLineIndexImpl extends IdEObjectImpl implements IfcLineIndex {
      */
     @Override
     public void unsetWrappedValue() {
-        eUnset(Ifc4Package.Literals.IFC_LINE_INDEX__WRAPPED_VALUE);
+        eUnset(Ifc4Package.eINSTANCE.getIfcLineIndex_WrappedValue());
     }
 
     /**
@@ -96,7 +96,7 @@ public class IfcLineIndexImpl extends IdEObjectImpl implements IfcLineIndex {
      */
     @Override
     public boolean isSetWrappedValue() {
-        return eIsSet(Ifc4Package.Literals.IFC_LINE_INDEX__WRAPPED_VALUE);
+        return eIsSet(Ifc4Package.eINSTANCE.getIfcLineIndex_WrappedValue());
     }
 
 } //IfcLineIndexImpl

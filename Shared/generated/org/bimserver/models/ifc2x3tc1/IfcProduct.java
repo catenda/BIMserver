@@ -42,10 +42,6 @@ public interface IfcProduct extends IfcObject {
      * Returns the value of the '<em><b>Object Placement</b></em>' reference.
      * It is bidirectional and its opposite is '{@link org.bimserver.models.ifc2x3tc1.IfcObjectPlacement#getPlacesObject <em>Places Object</em>}'.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Object Placement</em>' reference isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Object Placement</em>' reference.
      * @see #isSetObjectPlacement()
@@ -97,10 +93,6 @@ public interface IfcProduct extends IfcObject {
     /**
      * Returns the value of the '<em><b>Representation</b></em>' reference.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Representation</em>' reference isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Representation</em>' reference.
      * @see #isSetRepresentation()
@@ -153,10 +145,6 @@ public interface IfcProduct extends IfcObject {
      * The list contents are of type {@link org.bimserver.models.ifc2x3tc1.IfcRelAssignsToProduct}.
      * It is bidirectional and its opposite is '{@link org.bimserver.models.ifc2x3tc1.IfcRelAssignsToProduct#getRelatingProduct <em>Relating Product</em>}'.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Referenced By</em>' reference list isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Referenced By</em>' reference list.
      * @see #isSetReferencedBy()
@@ -193,10 +181,6 @@ public interface IfcProduct extends IfcObject {
     /**
      * Returns the value of the '<em><b>Geometry</b></em>' reference.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Geometry</em>' reference isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Geometry</em>' reference.
      * @see #setGeometry(GeometryInfo)

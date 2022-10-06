@@ -41,10 +41,6 @@ public interface IfcRelInterferesElements extends IfcRelConnects {
      * Returns the value of the '<em><b>Relating Element</b></em>' reference.
      * It is bidirectional and its opposite is '{@link org.bimserver.models.ifc4.IfcElement#getInterferesElements <em>Interferes Elements</em>}'.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Relating Element</em>' reference isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Relating Element</em>' reference.
      * @see #setRelatingElement(IfcElement)
@@ -70,10 +66,6 @@ public interface IfcRelInterferesElements extends IfcRelConnects {
      * Returns the value of the '<em><b>Related Element</b></em>' reference.
      * It is bidirectional and its opposite is '{@link org.bimserver.models.ifc4.IfcElement#getIsInterferedByElements <em>Is Interfered By Elements</em>}'.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Related Element</em>' reference isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Related Element</em>' reference.
      * @see #setRelatedElement(IfcElement)
@@ -98,10 +90,6 @@ public interface IfcRelInterferesElements extends IfcRelConnects {
     /**
      * Returns the value of the '<em><b>Interference Geometry</b></em>' reference.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Interference Geometry</em>' reference isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Interference Geometry</em>' reference.
      * @see #isSetInterferenceGeometry()
@@ -151,10 +139,6 @@ public interface IfcRelInterferesElements extends IfcRelConnects {
     /**
      * Returns the value of the '<em><b>Interference Type</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Interference Type</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Interference Type</em>' attribute.
      * @see #isSetInterferenceType()
@@ -204,10 +188,6 @@ public interface IfcRelInterferesElements extends IfcRelConnects {
     /**
      * Returns the value of the '<em><b>Implied Order</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Implied Order</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Implied Order</em>' attribute.
      * @see #setImpliedOrder(boolean)

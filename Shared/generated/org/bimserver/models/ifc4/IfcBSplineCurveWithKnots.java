@@ -43,10 +43,6 @@ public interface IfcBSplineCurveWithKnots extends IfcBSplineCurve {
      * Returns the value of the '<em><b>Knot Multiplicities</b></em>' attribute list.
      * The list contents are of type {@link java.lang.Long}.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Knot Multiplicities</em>' attribute list isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Knot Multiplicities</em>' attribute list.
      * @see org.bimserver.models.ifc4.Ifc4Package#getIfcBSplineCurveWithKnots_KnotMultiplicities()
@@ -59,10 +55,6 @@ public interface IfcBSplineCurveWithKnots extends IfcBSplineCurve {
      * Returns the value of the '<em><b>Knots</b></em>' attribute list.
      * The list contents are of type {@link java.lang.Double}.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Knots</em>' attribute list isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Knots</em>' attribute list.
      * @see org.bimserver.models.ifc4.Ifc4Package#getIfcBSplineCurveWithKnots_Knots()
@@ -75,10 +67,6 @@ public interface IfcBSplineCurveWithKnots extends IfcBSplineCurve {
      * Returns the value of the '<em><b>Knots As String</b></em>' attribute list.
      * The list contents are of type {@link java.lang.String}.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Knots As String</em>' attribute list isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Knots As String</em>' attribute list.
      * @see org.bimserver.models.ifc4.Ifc4Package#getIfcBSplineCurveWithKnots_KnotsAsString()
@@ -93,10 +81,6 @@ public interface IfcBSplineCurveWithKnots extends IfcBSplineCurve {
      * Returns the value of the '<em><b>Knot Spec</b></em>' attribute.
      * The literals are from the enumeration {@link org.bimserver.models.ifc4.IfcKnotType}.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Knot Spec</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Knot Spec</em>' attribute.
      * @see org.bimserver.models.ifc4.IfcKnotType
@@ -121,10 +105,6 @@ public interface IfcBSplineCurveWithKnots extends IfcBSplineCurve {
     /**
      * Returns the value of the '<em><b>Upper Index On Knots</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Upper Index On Knots</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Upper Index On Knots</em>' attribute.
      * @see #isSetUpperIndexOnKnots()

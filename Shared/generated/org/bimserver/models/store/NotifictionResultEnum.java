@@ -75,10 +75,6 @@ public enum NotifictionResultEnum implements Enumerator {
     /**
      * The '<em><b>NR ERROR</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>NR ERROR</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #NR_ERROR
      * @model
@@ -90,10 +86,6 @@ public enum NotifictionResultEnum implements Enumerator {
     /**
      * The '<em><b>SUCCESS</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>SUCCESS</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #SUCCESS
      * @model
@@ -105,10 +97,6 @@ public enum NotifictionResultEnum implements Enumerator {
     /**
      * The '<em><b>PROGRESS UNKNOWN</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>PROGRESS UNKNOWN</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #PROGRESS_UNKNOWN
      * @model
@@ -120,10 +108,6 @@ public enum NotifictionResultEnum implements Enumerator {
     /**
      * The '<em><b>PROGRESS PERCENTAGE</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>PROGRESS PERCENTAGE</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #PROGRESS_PERCENTAGE
      * @model

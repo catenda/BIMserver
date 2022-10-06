@@ -47,10 +47,6 @@ public interface GeoTag extends IdEObject {
     /**
      * Returns the value of the '<em><b>Enabled</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Enabled</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Enabled</em>' attribute.
      * @see #setEnabled(Boolean)
@@ -75,10 +71,6 @@ public interface GeoTag extends IdEObject {
      * The list contents are of type {@link org.bimserver.models.store.Project}.
      * It is bidirectional and its opposite is '{@link org.bimserver.models.store.Project#getGeoTag <em>Geo Tag</em>}'.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Projects</em>' reference list isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Projects</em>' reference list.
      * @see org.bimserver.models.store.StorePackage#getGeoTag_Projects()
@@ -91,10 +83,6 @@ public interface GeoTag extends IdEObject {
     /**
      * Returns the value of the '<em><b>X</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>X</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>X</em>' attribute.
      * @see #setX(Double)
@@ -117,10 +105,6 @@ public interface GeoTag extends IdEObject {
     /**
      * Returns the value of the '<em><b>Y</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Y</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Y</em>' attribute.
      * @see #setY(Double)
@@ -143,10 +127,6 @@ public interface GeoTag extends IdEObject {
     /**
      * Returns the value of the '<em><b>Z</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Z</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Z</em>' attribute.
      * @see #setZ(Double)
@@ -169,10 +149,6 @@ public interface GeoTag extends IdEObject {
     /**
      * Returns the value of the '<em><b>Epsg</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Epsg</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Epsg</em>' attribute.
      * @see #setEpsg(Integer)
@@ -195,10 +171,6 @@ public interface GeoTag extends IdEObject {
     /**
      * Returns the value of the '<em><b>Direction Angle</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Direction Angle</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Direction Angle</em>' attribute.
      * @see #setDirectionAngle(Double)

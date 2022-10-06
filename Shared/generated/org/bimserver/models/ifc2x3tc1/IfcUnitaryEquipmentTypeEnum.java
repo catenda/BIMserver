@@ -105,10 +105,6 @@ public enum IfcUnitaryEquipmentTypeEnum implements Enumerator {
     /**
      * The '<em><b>NULL</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>NULL</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #NULL
      * @model
@@ -120,10 +116,6 @@ public enum IfcUnitaryEquipmentTypeEnum implements Enumerator {
     /**
      * The '<em><b>AIRHANDLER</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>AIRHANDLER</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #AIRHANDLER
      * @model
@@ -135,10 +127,6 @@ public enum IfcUnitaryEquipmentTypeEnum implements Enumerator {
     /**
      * The '<em><b>ROOFTOPUNIT</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>ROOFTOPUNIT</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #ROOFTOPUNIT
      * @model
@@ -150,10 +138,6 @@ public enum IfcUnitaryEquipmentTypeEnum implements Enumerator {
     /**
      * The '<em><b>NOTDEFINED</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>NOTDEFINED</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #NOTDEFINED
      * @model
@@ -165,10 +149,6 @@ public enum IfcUnitaryEquipmentTypeEnum implements Enumerator {
     /**
      * The '<em><b>SPLITSYSTEM</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>SPLITSYSTEM</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #SPLITSYSTEM
      * @model
@@ -180,10 +160,6 @@ public enum IfcUnitaryEquipmentTypeEnum implements Enumerator {
     /**
      * The '<em><b>USERDEFINED</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>USERDEFINED</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #USERDEFINED
      * @model
@@ -195,10 +171,6 @@ public enum IfcUnitaryEquipmentTypeEnum implements Enumerator {
     /**
      * The '<em><b>AIRCONDITIONINGUNIT</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>AIRCONDITIONINGUNIT</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #AIRCONDITIONINGUNIT
      * @model

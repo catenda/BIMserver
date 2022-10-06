@@ -38,10 +38,6 @@ public interface IfcProjectedCRS extends IfcCoordinateReferenceSystem {
     /**
      * Returns the value of the '<em><b>Map Projection</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Map Projection</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Map Projection</em>' attribute.
      * @see #isSetMapProjection()
@@ -91,10 +87,6 @@ public interface IfcProjectedCRS extends IfcCoordinateReferenceSystem {
     /**
      * Returns the value of the '<em><b>Map Zone</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Map Zone</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Map Zone</em>' attribute.
      * @see #isSetMapZone()
@@ -144,10 +136,6 @@ public interface IfcProjectedCRS extends IfcCoordinateReferenceSystem {
     /**
      * Returns the value of the '<em><b>Map Unit</b></em>' reference.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Map Unit</em>' reference isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Map Unit</em>' reference.
      * @see #isSetMapUnit()

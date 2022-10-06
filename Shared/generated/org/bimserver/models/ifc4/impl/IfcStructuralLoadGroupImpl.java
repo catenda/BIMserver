@@ -65,7 +65,7 @@ public class IfcStructuralLoadGroupImpl extends IfcGroupImpl implements IfcStruc
      */
     @Override
     protected EClass eStaticClass() {
-        return Ifc4Package.Literals.IFC_STRUCTURAL_LOAD_GROUP;
+        return Ifc4Package.eINSTANCE.getIfcStructuralLoadGroup();
     }
 
     /**
@@ -75,7 +75,7 @@ public class IfcStructuralLoadGroupImpl extends IfcGroupImpl implements IfcStruc
      */
     @Override
     public IfcLoadGroupTypeEnum getPredefinedType() {
-        return (IfcLoadGroupTypeEnum) eGet(Ifc4Package.Literals.IFC_STRUCTURAL_LOAD_GROUP__PREDEFINED_TYPE, true);
+        return (IfcLoadGroupTypeEnum) eGet(Ifc4Package.eINSTANCE.getIfcStructuralLoadGroup_PredefinedType(), true);
     }
 
     /**
@@ -85,7 +85,7 @@ public class IfcStructuralLoadGroupImpl extends IfcGroupImpl implements IfcStruc
      */
     @Override
     public void setPredefinedType(IfcLoadGroupTypeEnum newPredefinedType) {
-        eSet(Ifc4Package.Literals.IFC_STRUCTURAL_LOAD_GROUP__PREDEFINED_TYPE, newPredefinedType);
+        eSet(Ifc4Package.eINSTANCE.getIfcStructuralLoadGroup_PredefinedType(), newPredefinedType);
     }
 
     /**
@@ -95,7 +95,7 @@ public class IfcStructuralLoadGroupImpl extends IfcGroupImpl implements IfcStruc
      */
     @Override
     public IfcActionTypeEnum getActionType() {
-        return (IfcActionTypeEnum) eGet(Ifc4Package.Literals.IFC_STRUCTURAL_LOAD_GROUP__ACTION_TYPE, true);
+        return (IfcActionTypeEnum) eGet(Ifc4Package.eINSTANCE.getIfcStructuralLoadGroup_ActionType(), true);
     }
 
     /**
@@ -105,7 +105,7 @@ public class IfcStructuralLoadGroupImpl extends IfcGroupImpl implements IfcStruc
      */
     @Override
     public void setActionType(IfcActionTypeEnum newActionType) {
-        eSet(Ifc4Package.Literals.IFC_STRUCTURAL_LOAD_GROUP__ACTION_TYPE, newActionType);
+        eSet(Ifc4Package.eINSTANCE.getIfcStructuralLoadGroup_ActionType(), newActionType);
     }
 
     /**
@@ -115,7 +115,7 @@ public class IfcStructuralLoadGroupImpl extends IfcGroupImpl implements IfcStruc
      */
     @Override
     public IfcActionSourceTypeEnum getActionSource() {
-        return (IfcActionSourceTypeEnum) eGet(Ifc4Package.Literals.IFC_STRUCTURAL_LOAD_GROUP__ACTION_SOURCE, true);
+        return (IfcActionSourceTypeEnum) eGet(Ifc4Package.eINSTANCE.getIfcStructuralLoadGroup_ActionSource(), true);
     }
 
     /**
@@ -125,7 +125,7 @@ public class IfcStructuralLoadGroupImpl extends IfcGroupImpl implements IfcStruc
      */
     @Override
     public void setActionSource(IfcActionSourceTypeEnum newActionSource) {
-        eSet(Ifc4Package.Literals.IFC_STRUCTURAL_LOAD_GROUP__ACTION_SOURCE, newActionSource);
+        eSet(Ifc4Package.eINSTANCE.getIfcStructuralLoadGroup_ActionSource(), newActionSource);
     }
 
     /**
@@ -135,7 +135,7 @@ public class IfcStructuralLoadGroupImpl extends IfcGroupImpl implements IfcStruc
      */
     @Override
     public double getCoefficient() {
-        return (Double) eGet(Ifc4Package.Literals.IFC_STRUCTURAL_LOAD_GROUP__COEFFICIENT, true);
+        return (Double) eGet(Ifc4Package.eINSTANCE.getIfcStructuralLoadGroup_Coefficient(), true);
     }
 
     /**
@@ -145,7 +145,7 @@ public class IfcStructuralLoadGroupImpl extends IfcGroupImpl implements IfcStruc
      */
     @Override
     public void setCoefficient(double newCoefficient) {
-        eSet(Ifc4Package.Literals.IFC_STRUCTURAL_LOAD_GROUP__COEFFICIENT, newCoefficient);
+        eSet(Ifc4Package.eINSTANCE.getIfcStructuralLoadGroup_Coefficient(), newCoefficient);
     }
 
     /**
@@ -155,7 +155,7 @@ public class IfcStructuralLoadGroupImpl extends IfcGroupImpl implements IfcStruc
      */
     @Override
     public void unsetCoefficient() {
-        eUnset(Ifc4Package.Literals.IFC_STRUCTURAL_LOAD_GROUP__COEFFICIENT);
+        eUnset(Ifc4Package.eINSTANCE.getIfcStructuralLoadGroup_Coefficient());
     }
 
     /**
@@ -165,7 +165,7 @@ public class IfcStructuralLoadGroupImpl extends IfcGroupImpl implements IfcStruc
      */
     @Override
     public boolean isSetCoefficient() {
-        return eIsSet(Ifc4Package.Literals.IFC_STRUCTURAL_LOAD_GROUP__COEFFICIENT);
+        return eIsSet(Ifc4Package.eINSTANCE.getIfcStructuralLoadGroup_Coefficient());
     }
 
     /**
@@ -175,7 +175,7 @@ public class IfcStructuralLoadGroupImpl extends IfcGroupImpl implements IfcStruc
      */
     @Override
     public String getCoefficientAsString() {
-        return (String) eGet(Ifc4Package.Literals.IFC_STRUCTURAL_LOAD_GROUP__COEFFICIENT_AS_STRING, true);
+        return (String) eGet(Ifc4Package.eINSTANCE.getIfcStructuralLoadGroup_CoefficientAsString(), true);
     }
 
     /**
@@ -185,7 +185,7 @@ public class IfcStructuralLoadGroupImpl extends IfcGroupImpl implements IfcStruc
      */
     @Override
     public void setCoefficientAsString(String newCoefficientAsString) {
-        eSet(Ifc4Package.Literals.IFC_STRUCTURAL_LOAD_GROUP__COEFFICIENT_AS_STRING, newCoefficientAsString);
+        eSet(Ifc4Package.eINSTANCE.getIfcStructuralLoadGroup_CoefficientAsString(), newCoefficientAsString);
     }
 
     /**
@@ -195,7 +195,7 @@ public class IfcStructuralLoadGroupImpl extends IfcGroupImpl implements IfcStruc
      */
     @Override
     public void unsetCoefficientAsString() {
-        eUnset(Ifc4Package.Literals.IFC_STRUCTURAL_LOAD_GROUP__COEFFICIENT_AS_STRING);
+        eUnset(Ifc4Package.eINSTANCE.getIfcStructuralLoadGroup_CoefficientAsString());
     }
 
     /**
@@ -205,7 +205,7 @@ public class IfcStructuralLoadGroupImpl extends IfcGroupImpl implements IfcStruc
      */
     @Override
     public boolean isSetCoefficientAsString() {
-        return eIsSet(Ifc4Package.Literals.IFC_STRUCTURAL_LOAD_GROUP__COEFFICIENT_AS_STRING);
+        return eIsSet(Ifc4Package.eINSTANCE.getIfcStructuralLoadGroup_CoefficientAsString());
     }
 
     /**
@@ -215,7 +215,7 @@ public class IfcStructuralLoadGroupImpl extends IfcGroupImpl implements IfcStruc
      */
     @Override
     public String getPurpose() {
-        return (String) eGet(Ifc4Package.Literals.IFC_STRUCTURAL_LOAD_GROUP__PURPOSE, true);
+        return (String) eGet(Ifc4Package.eINSTANCE.getIfcStructuralLoadGroup_Purpose(), true);
     }
 
     /**
@@ -225,7 +225,7 @@ public class IfcStructuralLoadGroupImpl extends IfcGroupImpl implements IfcStruc
      */
     @Override
     public void setPurpose(String newPurpose) {
-        eSet(Ifc4Package.Literals.IFC_STRUCTURAL_LOAD_GROUP__PURPOSE, newPurpose);
+        eSet(Ifc4Package.eINSTANCE.getIfcStructuralLoadGroup_Purpose(), newPurpose);
     }
 
     /**
@@ -235,7 +235,7 @@ public class IfcStructuralLoadGroupImpl extends IfcGroupImpl implements IfcStruc
      */
     @Override
     public void unsetPurpose() {
-        eUnset(Ifc4Package.Literals.IFC_STRUCTURAL_LOAD_GROUP__PURPOSE);
+        eUnset(Ifc4Package.eINSTANCE.getIfcStructuralLoadGroup_Purpose());
     }
 
     /**
@@ -245,7 +245,7 @@ public class IfcStructuralLoadGroupImpl extends IfcGroupImpl implements IfcStruc
      */
     @Override
     public boolean isSetPurpose() {
-        return eIsSet(Ifc4Package.Literals.IFC_STRUCTURAL_LOAD_GROUP__PURPOSE);
+        return eIsSet(Ifc4Package.eINSTANCE.getIfcStructuralLoadGroup_Purpose());
     }
 
     /**
@@ -257,7 +257,7 @@ public class IfcStructuralLoadGroupImpl extends IfcGroupImpl implements IfcStruc
     @Override
     public EList<IfcStructuralResultGroup> getSourceOfResultGroup() {
         return (EList<IfcStructuralResultGroup>) eGet(
-                Ifc4Package.Literals.IFC_STRUCTURAL_LOAD_GROUP__SOURCE_OF_RESULT_GROUP, true);
+                Ifc4Package.eINSTANCE.getIfcStructuralLoadGroup_SourceOfResultGroup(), true);
     }
 
     /**
@@ -267,7 +267,7 @@ public class IfcStructuralLoadGroupImpl extends IfcGroupImpl implements IfcStruc
      */
     @Override
     public void unsetSourceOfResultGroup() {
-        eUnset(Ifc4Package.Literals.IFC_STRUCTURAL_LOAD_GROUP__SOURCE_OF_RESULT_GROUP);
+        eUnset(Ifc4Package.eINSTANCE.getIfcStructuralLoadGroup_SourceOfResultGroup());
     }
 
     /**
@@ -277,7 +277,7 @@ public class IfcStructuralLoadGroupImpl extends IfcGroupImpl implements IfcStruc
      */
     @Override
     public boolean isSetSourceOfResultGroup() {
-        return eIsSet(Ifc4Package.Literals.IFC_STRUCTURAL_LOAD_GROUP__SOURCE_OF_RESULT_GROUP);
+        return eIsSet(Ifc4Package.eINSTANCE.getIfcStructuralLoadGroup_SourceOfResultGroup());
     }
 
     /**
@@ -288,7 +288,7 @@ public class IfcStructuralLoadGroupImpl extends IfcGroupImpl implements IfcStruc
     @SuppressWarnings("unchecked")
     @Override
     public EList<IfcStructuralAnalysisModel> getLoadGroupFor() {
-        return (EList<IfcStructuralAnalysisModel>) eGet(Ifc4Package.Literals.IFC_STRUCTURAL_LOAD_GROUP__LOAD_GROUP_FOR,
+        return (EList<IfcStructuralAnalysisModel>) eGet(Ifc4Package.eINSTANCE.getIfcStructuralLoadGroup_LoadGroupFor(),
                 true);
     }
 
@@ -299,7 +299,7 @@ public class IfcStructuralLoadGroupImpl extends IfcGroupImpl implements IfcStruc
      */
     @Override
     public void unsetLoadGroupFor() {
-        eUnset(Ifc4Package.Literals.IFC_STRUCTURAL_LOAD_GROUP__LOAD_GROUP_FOR);
+        eUnset(Ifc4Package.eINSTANCE.getIfcStructuralLoadGroup_LoadGroupFor());
     }
 
     /**
@@ -309,7 +309,7 @@ public class IfcStructuralLoadGroupImpl extends IfcGroupImpl implements IfcStruc
      */
     @Override
     public boolean isSetLoadGroupFor() {
-        return eIsSet(Ifc4Package.Literals.IFC_STRUCTURAL_LOAD_GROUP__LOAD_GROUP_FOR);
+        return eIsSet(Ifc4Package.eINSTANCE.getIfcStructuralLoadGroup_LoadGroupFor());
     }
 
 } //IfcStructuralLoadGroupImpl

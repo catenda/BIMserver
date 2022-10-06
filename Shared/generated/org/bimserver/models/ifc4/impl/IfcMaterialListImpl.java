@@ -56,7 +56,7 @@ public class IfcMaterialListImpl extends IdEObjectImpl implements IfcMaterialLis
      */
     @Override
     protected EClass eStaticClass() {
-        return Ifc4Package.Literals.IFC_MATERIAL_LIST;
+        return Ifc4Package.eINSTANCE.getIfcMaterialList();
     }
 
     /**
@@ -77,7 +77,7 @@ public class IfcMaterialListImpl extends IdEObjectImpl implements IfcMaterialLis
     @SuppressWarnings("unchecked")
     @Override
     public EList<IfcMaterial> getMaterials() {
-        return (EList<IfcMaterial>) eGet(Ifc4Package.Literals.IFC_MATERIAL_LIST__MATERIALS, true);
+        return (EList<IfcMaterial>) eGet(Ifc4Package.eINSTANCE.getIfcMaterialList_Materials(), true);
     }
 
 } //IfcMaterialListImpl

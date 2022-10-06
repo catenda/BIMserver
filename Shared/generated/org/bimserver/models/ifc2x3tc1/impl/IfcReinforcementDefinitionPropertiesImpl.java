@@ -56,7 +56,7 @@ public class IfcReinforcementDefinitionPropertiesImpl extends IfcPropertySetDefi
      */
     @Override
     protected EClass eStaticClass() {
-        return Ifc2x3tc1Package.Literals.IFC_REINFORCEMENT_DEFINITION_PROPERTIES;
+        return Ifc2x3tc1Package.eINSTANCE.getIfcReinforcementDefinitionProperties();
     }
 
     /**
@@ -66,7 +66,7 @@ public class IfcReinforcementDefinitionPropertiesImpl extends IfcPropertySetDefi
      */
     @Override
     public String getDefinitionType() {
-        return (String) eGet(Ifc2x3tc1Package.Literals.IFC_REINFORCEMENT_DEFINITION_PROPERTIES__DEFINITION_TYPE, true);
+        return (String) eGet(Ifc2x3tc1Package.eINSTANCE.getIfcReinforcementDefinitionProperties_DefinitionType(), true);
     }
 
     /**
@@ -76,7 +76,7 @@ public class IfcReinforcementDefinitionPropertiesImpl extends IfcPropertySetDefi
      */
     @Override
     public void setDefinitionType(String newDefinitionType) {
-        eSet(Ifc2x3tc1Package.Literals.IFC_REINFORCEMENT_DEFINITION_PROPERTIES__DEFINITION_TYPE, newDefinitionType);
+        eSet(Ifc2x3tc1Package.eINSTANCE.getIfcReinforcementDefinitionProperties_DefinitionType(), newDefinitionType);
     }
 
     /**
@@ -86,7 +86,7 @@ public class IfcReinforcementDefinitionPropertiesImpl extends IfcPropertySetDefi
      */
     @Override
     public void unsetDefinitionType() {
-        eUnset(Ifc2x3tc1Package.Literals.IFC_REINFORCEMENT_DEFINITION_PROPERTIES__DEFINITION_TYPE);
+        eUnset(Ifc2x3tc1Package.eINSTANCE.getIfcReinforcementDefinitionProperties_DefinitionType());
     }
 
     /**
@@ -96,7 +96,7 @@ public class IfcReinforcementDefinitionPropertiesImpl extends IfcPropertySetDefi
      */
     @Override
     public boolean isSetDefinitionType() {
-        return eIsSet(Ifc2x3tc1Package.Literals.IFC_REINFORCEMENT_DEFINITION_PROPERTIES__DEFINITION_TYPE);
+        return eIsSet(Ifc2x3tc1Package.eINSTANCE.getIfcReinforcementDefinitionProperties_DefinitionType());
     }
 
     /**
@@ -108,7 +108,7 @@ public class IfcReinforcementDefinitionPropertiesImpl extends IfcPropertySetDefi
     @Override
     public EList<IfcSectionReinforcementProperties> getReinforcementSectionDefinitions() {
         return (EList<IfcSectionReinforcementProperties>) eGet(
-                Ifc2x3tc1Package.Literals.IFC_REINFORCEMENT_DEFINITION_PROPERTIES__REINFORCEMENT_SECTION_DEFINITIONS,
+                Ifc2x3tc1Package.eINSTANCE.getIfcReinforcementDefinitionProperties_ReinforcementSectionDefinitions(),
                 true);
     }
 

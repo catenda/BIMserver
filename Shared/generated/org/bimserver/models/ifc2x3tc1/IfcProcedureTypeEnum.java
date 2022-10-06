@@ -135,10 +135,6 @@ public enum IfcProcedureTypeEnum implements Enumerator {
     /**
      * The '<em><b>NULL</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>NULL</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #NULL
      * @model
@@ -150,10 +146,6 @@ public enum IfcProcedureTypeEnum implements Enumerator {
     /**
      * The '<em><b>CALIBRATION</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>CALIBRATION</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #CALIBRATION
      * @model
@@ -165,10 +157,6 @@ public enum IfcProcedureTypeEnum implements Enumerator {
     /**
      * The '<em><b>DIAGNOSTIC</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>DIAGNOSTIC</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #DIAGNOSTIC
      * @model
@@ -180,10 +168,6 @@ public enum IfcProcedureTypeEnum implements Enumerator {
     /**
      * The '<em><b>NOTDEFINED</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>NOTDEFINED</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #NOTDEFINED
      * @model
@@ -195,10 +179,6 @@ public enum IfcProcedureTypeEnum implements Enumerator {
     /**
      * The '<em><b>ADVICE WARNING</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>ADVICE WARNING</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #ADVICE_WARNING
      * @model
@@ -210,10 +190,6 @@ public enum IfcProcedureTypeEnum implements Enumerator {
     /**
      * The '<em><b>ADVICE CAUTION</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>ADVICE CAUTION</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #ADVICE_CAUTION
      * @model
@@ -225,10 +201,6 @@ public enum IfcProcedureTypeEnum implements Enumerator {
     /**
      * The '<em><b>USERDEFINED</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>USERDEFINED</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #USERDEFINED
      * @model
@@ -240,10 +212,6 @@ public enum IfcProcedureTypeEnum implements Enumerator {
     /**
      * The '<em><b>SHUTDOWN</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>SHUTDOWN</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #SHUTDOWN
      * @model
@@ -255,10 +223,6 @@ public enum IfcProcedureTypeEnum implements Enumerator {
     /**
      * The '<em><b>STARTUP</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>STARTUP</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #STARTUP
      * @model
@@ -270,10 +234,6 @@ public enum IfcProcedureTypeEnum implements Enumerator {
     /**
      * The '<em><b>ADVICE NOTE</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>ADVICE NOTE</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #ADVICE_NOTE
      * @model

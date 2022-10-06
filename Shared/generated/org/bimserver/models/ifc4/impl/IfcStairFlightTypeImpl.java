@@ -52,7 +52,7 @@ public class IfcStairFlightTypeImpl extends IfcBuildingElementTypeImpl implement
      */
     @Override
     protected EClass eStaticClass() {
-        return Ifc4Package.Literals.IFC_STAIR_FLIGHT_TYPE;
+        return Ifc4Package.eINSTANCE.getIfcStairFlightType();
     }
 
     /**
@@ -62,7 +62,7 @@ public class IfcStairFlightTypeImpl extends IfcBuildingElementTypeImpl implement
      */
     @Override
     public IfcStairFlightTypeEnum getPredefinedType() {
-        return (IfcStairFlightTypeEnum) eGet(Ifc4Package.Literals.IFC_STAIR_FLIGHT_TYPE__PREDEFINED_TYPE, true);
+        return (IfcStairFlightTypeEnum) eGet(Ifc4Package.eINSTANCE.getIfcStairFlightType_PredefinedType(), true);
     }
 
     /**
@@ -72,7 +72,7 @@ public class IfcStairFlightTypeImpl extends IfcBuildingElementTypeImpl implement
      */
     @Override
     public void setPredefinedType(IfcStairFlightTypeEnum newPredefinedType) {
-        eSet(Ifc4Package.Literals.IFC_STAIR_FLIGHT_TYPE__PREDEFINED_TYPE, newPredefinedType);
+        eSet(Ifc4Package.eINSTANCE.getIfcStairFlightType_PredefinedType(), newPredefinedType);
     }
 
 } //IfcStairFlightTypeImpl

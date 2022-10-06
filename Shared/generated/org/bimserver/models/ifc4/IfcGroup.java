@@ -40,10 +40,6 @@ public interface IfcGroup extends IfcObject {
      * The list contents are of type {@link org.bimserver.models.ifc4.IfcRelAssignsToGroup}.
      * It is bidirectional and its opposite is '{@link org.bimserver.models.ifc4.IfcRelAssignsToGroup#getRelatingGroup <em>Relating Group</em>}'.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Is Grouped By</em>' reference list isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Is Grouped By</em>' reference list.
      * @see #isSetIsGroupedBy()

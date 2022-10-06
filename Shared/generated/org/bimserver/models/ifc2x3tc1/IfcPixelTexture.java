@@ -38,10 +38,6 @@ public interface IfcPixelTexture extends IfcSurfaceTexture {
     /**
      * Returns the value of the '<em><b>Width</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Width</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Width</em>' attribute.
      * @see #setWidth(long)
@@ -64,10 +60,6 @@ public interface IfcPixelTexture extends IfcSurfaceTexture {
     /**
      * Returns the value of the '<em><b>Height</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Height</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Height</em>' attribute.
      * @see #setHeight(long)
@@ -90,10 +82,6 @@ public interface IfcPixelTexture extends IfcSurfaceTexture {
     /**
      * Returns the value of the '<em><b>Colour Components</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Colour Components</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Colour Components</em>' attribute.
      * @see #setColourComponents(long)

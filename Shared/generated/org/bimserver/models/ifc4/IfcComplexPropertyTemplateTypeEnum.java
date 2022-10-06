@@ -65,10 +65,6 @@ public enum IfcComplexPropertyTemplateTypeEnum implements Enumerator {
     /**
      * The '<em><b>NULL</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>NULL</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #NULL
      * @model
@@ -80,10 +76,6 @@ public enum IfcComplexPropertyTemplateTypeEnum implements Enumerator {
     /**
      * The '<em><b>PCOMPLEX</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>PCOMPLEX</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #PCOMPLEX
      * @model name="P_COMPLEX"
@@ -95,10 +87,6 @@ public enum IfcComplexPropertyTemplateTypeEnum implements Enumerator {
     /**
      * The '<em><b>QCOMPLEX</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>QCOMPLEX</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #QCOMPLEX
      * @model name="Q_COMPLEX"

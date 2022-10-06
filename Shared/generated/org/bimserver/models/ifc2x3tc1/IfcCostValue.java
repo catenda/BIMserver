@@ -37,10 +37,6 @@ public interface IfcCostValue extends IfcAppliedValue, IfcMetricValueSelect {
     /**
      * Returns the value of the '<em><b>Cost Type</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Cost Type</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Cost Type</em>' attribute.
      * @see #setCostType(String)
@@ -63,10 +59,6 @@ public interface IfcCostValue extends IfcAppliedValue, IfcMetricValueSelect {
     /**
      * Returns the value of the '<em><b>Condition</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Condition</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Condition</em>' attribute.
      * @see #isSetCondition()

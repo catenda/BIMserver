@@ -52,7 +52,7 @@ public class IfcRevolvedAreaSolidTaperedImpl extends IfcRevolvedAreaSolidImpl im
      */
     @Override
     protected EClass eStaticClass() {
-        return Ifc4Package.Literals.IFC_REVOLVED_AREA_SOLID_TAPERED;
+        return Ifc4Package.eINSTANCE.getIfcRevolvedAreaSolidTapered();
     }
 
     /**
@@ -62,7 +62,7 @@ public class IfcRevolvedAreaSolidTaperedImpl extends IfcRevolvedAreaSolidImpl im
      */
     @Override
     public IfcProfileDef getEndSweptArea() {
-        return (IfcProfileDef) eGet(Ifc4Package.Literals.IFC_REVOLVED_AREA_SOLID_TAPERED__END_SWEPT_AREA, true);
+        return (IfcProfileDef) eGet(Ifc4Package.eINSTANCE.getIfcRevolvedAreaSolidTapered_EndSweptArea(), true);
     }
 
     /**
@@ -72,7 +72,7 @@ public class IfcRevolvedAreaSolidTaperedImpl extends IfcRevolvedAreaSolidImpl im
      */
     @Override
     public void setEndSweptArea(IfcProfileDef newEndSweptArea) {
-        eSet(Ifc4Package.Literals.IFC_REVOLVED_AREA_SOLID_TAPERED__END_SWEPT_AREA, newEndSweptArea);
+        eSet(Ifc4Package.eINSTANCE.getIfcRevolvedAreaSolidTapered_EndSweptArea(), newEndSweptArea);
     }
 
 } //IfcRevolvedAreaSolidTaperedImpl

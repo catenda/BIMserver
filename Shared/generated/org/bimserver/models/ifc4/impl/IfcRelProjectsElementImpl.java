@@ -54,7 +54,7 @@ public class IfcRelProjectsElementImpl extends IfcRelDecomposesImpl implements I
      */
     @Override
     protected EClass eStaticClass() {
-        return Ifc4Package.Literals.IFC_REL_PROJECTS_ELEMENT;
+        return Ifc4Package.eINSTANCE.getIfcRelProjectsElement();
     }
 
     /**
@@ -64,7 +64,7 @@ public class IfcRelProjectsElementImpl extends IfcRelDecomposesImpl implements I
      */
     @Override
     public IfcElement getRelatingElement() {
-        return (IfcElement) eGet(Ifc4Package.Literals.IFC_REL_PROJECTS_ELEMENT__RELATING_ELEMENT, true);
+        return (IfcElement) eGet(Ifc4Package.eINSTANCE.getIfcRelProjectsElement_RelatingElement(), true);
     }
 
     /**
@@ -74,7 +74,7 @@ public class IfcRelProjectsElementImpl extends IfcRelDecomposesImpl implements I
      */
     @Override
     public void setRelatingElement(IfcElement newRelatingElement) {
-        eSet(Ifc4Package.Literals.IFC_REL_PROJECTS_ELEMENT__RELATING_ELEMENT, newRelatingElement);
+        eSet(Ifc4Package.eINSTANCE.getIfcRelProjectsElement_RelatingElement(), newRelatingElement);
     }
 
     /**
@@ -84,7 +84,7 @@ public class IfcRelProjectsElementImpl extends IfcRelDecomposesImpl implements I
      */
     @Override
     public IfcFeatureElementAddition getRelatedFeatureElement() {
-        return (IfcFeatureElementAddition) eGet(Ifc4Package.Literals.IFC_REL_PROJECTS_ELEMENT__RELATED_FEATURE_ELEMENT,
+        return (IfcFeatureElementAddition) eGet(Ifc4Package.eINSTANCE.getIfcRelProjectsElement_RelatedFeatureElement(),
                 true);
     }
 
@@ -95,7 +95,7 @@ public class IfcRelProjectsElementImpl extends IfcRelDecomposesImpl implements I
      */
     @Override
     public void setRelatedFeatureElement(IfcFeatureElementAddition newRelatedFeatureElement) {
-        eSet(Ifc4Package.Literals.IFC_REL_PROJECTS_ELEMENT__RELATED_FEATURE_ELEMENT, newRelatedFeatureElement);
+        eSet(Ifc4Package.eINSTANCE.getIfcRelProjectsElement_RelatedFeatureElement(), newRelatedFeatureElement);
     }
 
 } //IfcRelProjectsElementImpl

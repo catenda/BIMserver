@@ -57,7 +57,7 @@ public class IfcResourceApprovalRelationshipImpl extends IfcResourceLevelRelatio
      */
     @Override
     protected EClass eStaticClass() {
-        return Ifc4Package.Literals.IFC_RESOURCE_APPROVAL_RELATIONSHIP;
+        return Ifc4Package.eINSTANCE.getIfcResourceApprovalRelationship();
     }
 
     /**
@@ -69,7 +69,7 @@ public class IfcResourceApprovalRelationshipImpl extends IfcResourceLevelRelatio
     @Override
     public EList<IfcResourceObjectSelect> getRelatedResourceObjects() {
         return (EList<IfcResourceObjectSelect>) eGet(
-                Ifc4Package.Literals.IFC_RESOURCE_APPROVAL_RELATIONSHIP__RELATED_RESOURCE_OBJECTS, true);
+                Ifc4Package.eINSTANCE.getIfcResourceApprovalRelationship_RelatedResourceObjects(), true);
     }
 
     /**
@@ -79,7 +79,7 @@ public class IfcResourceApprovalRelationshipImpl extends IfcResourceLevelRelatio
      */
     @Override
     public IfcApproval getRelatingApproval() {
-        return (IfcApproval) eGet(Ifc4Package.Literals.IFC_RESOURCE_APPROVAL_RELATIONSHIP__RELATING_APPROVAL, true);
+        return (IfcApproval) eGet(Ifc4Package.eINSTANCE.getIfcResourceApprovalRelationship_RelatingApproval(), true);
     }
 
     /**
@@ -89,7 +89,7 @@ public class IfcResourceApprovalRelationshipImpl extends IfcResourceLevelRelatio
      */
     @Override
     public void setRelatingApproval(IfcApproval newRelatingApproval) {
-        eSet(Ifc4Package.Literals.IFC_RESOURCE_APPROVAL_RELATIONSHIP__RELATING_APPROVAL, newRelatingApproval);
+        eSet(Ifc4Package.eINSTANCE.getIfcResourceApprovalRelationship_RelatingApproval(), newRelatingApproval);
     }
 
 } //IfcResourceApprovalRelationshipImpl

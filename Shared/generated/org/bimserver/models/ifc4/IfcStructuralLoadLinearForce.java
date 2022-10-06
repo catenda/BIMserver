@@ -47,10 +47,6 @@ public interface IfcStructuralLoadLinearForce extends IfcStructuralLoadStatic {
     /**
      * Returns the value of the '<em><b>Linear Force X</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Linear Force X</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Linear Force X</em>' attribute.
      * @see #isSetLinearForceX()
@@ -100,10 +96,6 @@ public interface IfcStructuralLoadLinearForce extends IfcStructuralLoadStatic {
     /**
      * Returns the value of the '<em><b>Linear Force XAs String</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Linear Force XAs String</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Linear Force XAs String</em>' attribute.
      * @see #isSetLinearForceXAsString()
@@ -155,10 +147,6 @@ public interface IfcStructuralLoadLinearForce extends IfcStructuralLoadStatic {
     /**
      * Returns the value of the '<em><b>Linear Force Y</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Linear Force Y</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Linear Force Y</em>' attribute.
      * @see #isSetLinearForceY()
@@ -208,10 +196,6 @@ public interface IfcStructuralLoadLinearForce extends IfcStructuralLoadStatic {
     /**
      * Returns the value of the '<em><b>Linear Force YAs String</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Linear Force YAs String</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Linear Force YAs String</em>' attribute.
      * @see #isSetLinearForceYAsString()
@@ -263,10 +247,6 @@ public interface IfcStructuralLoadLinearForce extends IfcStructuralLoadStatic {
     /**
      * Returns the value of the '<em><b>Linear Force Z</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Linear Force Z</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Linear Force Z</em>' attribute.
      * @see #isSetLinearForceZ()
@@ -316,10 +296,6 @@ public interface IfcStructuralLoadLinearForce extends IfcStructuralLoadStatic {
     /**
      * Returns the value of the '<em><b>Linear Force ZAs String</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Linear Force ZAs String</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Linear Force ZAs String</em>' attribute.
      * @see #isSetLinearForceZAsString()
@@ -371,10 +347,6 @@ public interface IfcStructuralLoadLinearForce extends IfcStructuralLoadStatic {
     /**
      * Returns the value of the '<em><b>Linear Moment X</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Linear Moment X</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Linear Moment X</em>' attribute.
      * @see #isSetLinearMomentX()
@@ -424,10 +396,6 @@ public interface IfcStructuralLoadLinearForce extends IfcStructuralLoadStatic {
     /**
      * Returns the value of the '<em><b>Linear Moment XAs String</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Linear Moment XAs String</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Linear Moment XAs String</em>' attribute.
      * @see #isSetLinearMomentXAsString()
@@ -479,10 +447,6 @@ public interface IfcStructuralLoadLinearForce extends IfcStructuralLoadStatic {
     /**
      * Returns the value of the '<em><b>Linear Moment Y</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Linear Moment Y</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Linear Moment Y</em>' attribute.
      * @see #isSetLinearMomentY()
@@ -532,10 +496,6 @@ public interface IfcStructuralLoadLinearForce extends IfcStructuralLoadStatic {
     /**
      * Returns the value of the '<em><b>Linear Moment YAs String</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Linear Moment YAs String</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Linear Moment YAs String</em>' attribute.
      * @see #isSetLinearMomentYAsString()
@@ -587,10 +547,6 @@ public interface IfcStructuralLoadLinearForce extends IfcStructuralLoadStatic {
     /**
      * Returns the value of the '<em><b>Linear Moment Z</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Linear Moment Z</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Linear Moment Z</em>' attribute.
      * @see #isSetLinearMomentZ()
@@ -640,10 +596,6 @@ public interface IfcStructuralLoadLinearForce extends IfcStructuralLoadStatic {
     /**
      * Returns the value of the '<em><b>Linear Moment ZAs String</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Linear Moment ZAs String</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Linear Moment ZAs String</em>' attribute.
      * @see #isSetLinearMomentZAsString()

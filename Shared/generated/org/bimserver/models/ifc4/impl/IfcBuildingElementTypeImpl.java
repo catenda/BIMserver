@@ -45,7 +45,7 @@ public class IfcBuildingElementTypeImpl extends IfcElementTypeImpl implements If
      */
     @Override
     protected EClass eStaticClass() {
-        return Ifc4Package.Literals.IFC_BUILDING_ELEMENT_TYPE;
+        return Ifc4Package.eINSTANCE.getIfcBuildingElementType();
     }
 
 } //IfcBuildingElementTypeImpl

@@ -53,7 +53,7 @@ public class IfcSubContractResourceTypeImpl extends IfcConstructionResourceTypeI
      */
     @Override
     protected EClass eStaticClass() {
-        return Ifc4Package.Literals.IFC_SUB_CONTRACT_RESOURCE_TYPE;
+        return Ifc4Package.eINSTANCE.getIfcSubContractResourceType();
     }
 
     /**
@@ -64,7 +64,7 @@ public class IfcSubContractResourceTypeImpl extends IfcConstructionResourceTypeI
     @Override
     public IfcSubContractResourceTypeEnum getPredefinedType() {
         return (IfcSubContractResourceTypeEnum) eGet(
-                Ifc4Package.Literals.IFC_SUB_CONTRACT_RESOURCE_TYPE__PREDEFINED_TYPE, true);
+                Ifc4Package.eINSTANCE.getIfcSubContractResourceType_PredefinedType(), true);
     }
 
     /**
@@ -74,7 +74,7 @@ public class IfcSubContractResourceTypeImpl extends IfcConstructionResourceTypeI
      */
     @Override
     public void setPredefinedType(IfcSubContractResourceTypeEnum newPredefinedType) {
-        eSet(Ifc4Package.Literals.IFC_SUB_CONTRACT_RESOURCE_TYPE__PREDEFINED_TYPE, newPredefinedType);
+        eSet(Ifc4Package.eINSTANCE.getIfcSubContractResourceType_PredefinedType(), newPredefinedType);
     }
 
 } //IfcSubContractResourceTypeImpl

@@ -47,10 +47,6 @@ public interface IfcBoundaryEdgeCondition extends IfcBoundaryCondition {
     /**
      * Returns the value of the '<em><b>Linear Stiffness By Length X</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Linear Stiffness By Length X</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Linear Stiffness By Length X</em>' attribute.
      * @see #isSetLinearStiffnessByLengthX()
@@ -100,10 +96,6 @@ public interface IfcBoundaryEdgeCondition extends IfcBoundaryCondition {
     /**
      * Returns the value of the '<em><b>Linear Stiffness By Length XAs String</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Linear Stiffness By Length XAs String</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Linear Stiffness By Length XAs String</em>' attribute.
      * @see #isSetLinearStiffnessByLengthXAsString()
@@ -155,10 +147,6 @@ public interface IfcBoundaryEdgeCondition extends IfcBoundaryCondition {
     /**
      * Returns the value of the '<em><b>Linear Stiffness By Length Y</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Linear Stiffness By Length Y</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Linear Stiffness By Length Y</em>' attribute.
      * @see #isSetLinearStiffnessByLengthY()
@@ -208,10 +196,6 @@ public interface IfcBoundaryEdgeCondition extends IfcBoundaryCondition {
     /**
      * Returns the value of the '<em><b>Linear Stiffness By Length YAs String</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Linear Stiffness By Length YAs String</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Linear Stiffness By Length YAs String</em>' attribute.
      * @see #isSetLinearStiffnessByLengthYAsString()
@@ -263,10 +247,6 @@ public interface IfcBoundaryEdgeCondition extends IfcBoundaryCondition {
     /**
      * Returns the value of the '<em><b>Linear Stiffness By Length Z</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Linear Stiffness By Length Z</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Linear Stiffness By Length Z</em>' attribute.
      * @see #isSetLinearStiffnessByLengthZ()
@@ -316,10 +296,6 @@ public interface IfcBoundaryEdgeCondition extends IfcBoundaryCondition {
     /**
      * Returns the value of the '<em><b>Linear Stiffness By Length ZAs String</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Linear Stiffness By Length ZAs String</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Linear Stiffness By Length ZAs String</em>' attribute.
      * @see #isSetLinearStiffnessByLengthZAsString()
@@ -371,10 +347,6 @@ public interface IfcBoundaryEdgeCondition extends IfcBoundaryCondition {
     /**
      * Returns the value of the '<em><b>Rotational Stiffness By Length X</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Rotational Stiffness By Length X</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Rotational Stiffness By Length X</em>' attribute.
      * @see #isSetRotationalStiffnessByLengthX()
@@ -424,10 +396,6 @@ public interface IfcBoundaryEdgeCondition extends IfcBoundaryCondition {
     /**
      * Returns the value of the '<em><b>Rotational Stiffness By Length XAs String</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Rotational Stiffness By Length XAs String</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Rotational Stiffness By Length XAs String</em>' attribute.
      * @see #isSetRotationalStiffnessByLengthXAsString()
@@ -479,10 +447,6 @@ public interface IfcBoundaryEdgeCondition extends IfcBoundaryCondition {
     /**
      * Returns the value of the '<em><b>Rotational Stiffness By Length Y</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Rotational Stiffness By Length Y</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Rotational Stiffness By Length Y</em>' attribute.
      * @see #isSetRotationalStiffnessByLengthY()
@@ -532,10 +496,6 @@ public interface IfcBoundaryEdgeCondition extends IfcBoundaryCondition {
     /**
      * Returns the value of the '<em><b>Rotational Stiffness By Length YAs String</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Rotational Stiffness By Length YAs String</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Rotational Stiffness By Length YAs String</em>' attribute.
      * @see #isSetRotationalStiffnessByLengthYAsString()
@@ -587,10 +547,6 @@ public interface IfcBoundaryEdgeCondition extends IfcBoundaryCondition {
     /**
      * Returns the value of the '<em><b>Rotational Stiffness By Length Z</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Rotational Stiffness By Length Z</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Rotational Stiffness By Length Z</em>' attribute.
      * @see #isSetRotationalStiffnessByLengthZ()
@@ -640,10 +596,6 @@ public interface IfcBoundaryEdgeCondition extends IfcBoundaryCondition {
     /**
      * Returns the value of the '<em><b>Rotational Stiffness By Length ZAs String</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Rotational Stiffness By Length ZAs String</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Rotational Stiffness By Length ZAs String</em>' attribute.
      * @see #isSetRotationalStiffnessByLengthZAsString()

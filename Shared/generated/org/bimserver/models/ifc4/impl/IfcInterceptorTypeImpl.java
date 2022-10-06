@@ -52,7 +52,7 @@ public class IfcInterceptorTypeImpl extends IfcFlowTreatmentDeviceTypeImpl imple
      */
     @Override
     protected EClass eStaticClass() {
-        return Ifc4Package.Literals.IFC_INTERCEPTOR_TYPE;
+        return Ifc4Package.eINSTANCE.getIfcInterceptorType();
     }
 
     /**
@@ -62,7 +62,7 @@ public class IfcInterceptorTypeImpl extends IfcFlowTreatmentDeviceTypeImpl imple
      */
     @Override
     public IfcInterceptorTypeEnum getPredefinedType() {
-        return (IfcInterceptorTypeEnum) eGet(Ifc4Package.Literals.IFC_INTERCEPTOR_TYPE__PREDEFINED_TYPE, true);
+        return (IfcInterceptorTypeEnum) eGet(Ifc4Package.eINSTANCE.getIfcInterceptorType_PredefinedType(), true);
     }
 
     /**
@@ -72,7 +72,7 @@ public class IfcInterceptorTypeImpl extends IfcFlowTreatmentDeviceTypeImpl imple
      */
     @Override
     public void setPredefinedType(IfcInterceptorTypeEnum newPredefinedType) {
-        eSet(Ifc4Package.Literals.IFC_INTERCEPTOR_TYPE__PREDEFINED_TYPE, newPredefinedType);
+        eSet(Ifc4Package.eINSTANCE.getIfcInterceptorType_PredefinedType(), newPredefinedType);
     }
 
 } //IfcInterceptorTypeImpl

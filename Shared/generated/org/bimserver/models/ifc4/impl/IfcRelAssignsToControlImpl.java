@@ -52,7 +52,7 @@ public class IfcRelAssignsToControlImpl extends IfcRelAssignsImpl implements Ifc
      */
     @Override
     protected EClass eStaticClass() {
-        return Ifc4Package.Literals.IFC_REL_ASSIGNS_TO_CONTROL;
+        return Ifc4Package.eINSTANCE.getIfcRelAssignsToControl();
     }
 
     /**
@@ -62,7 +62,7 @@ public class IfcRelAssignsToControlImpl extends IfcRelAssignsImpl implements Ifc
      */
     @Override
     public IfcControl getRelatingControl() {
-        return (IfcControl) eGet(Ifc4Package.Literals.IFC_REL_ASSIGNS_TO_CONTROL__RELATING_CONTROL, true);
+        return (IfcControl) eGet(Ifc4Package.eINSTANCE.getIfcRelAssignsToControl_RelatingControl(), true);
     }
 
     /**
@@ -72,7 +72,7 @@ public class IfcRelAssignsToControlImpl extends IfcRelAssignsImpl implements Ifc
      */
     @Override
     public void setRelatingControl(IfcControl newRelatingControl) {
-        eSet(Ifc4Package.Literals.IFC_REL_ASSIGNS_TO_CONTROL__RELATING_CONTROL, newRelatingControl);
+        eSet(Ifc4Package.eINSTANCE.getIfcRelAssignsToControl_RelatingControl(), newRelatingControl);
     }
 
 } //IfcRelAssignsToControlImpl

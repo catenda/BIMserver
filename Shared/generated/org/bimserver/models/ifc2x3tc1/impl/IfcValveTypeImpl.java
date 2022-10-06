@@ -52,7 +52,7 @@ public class IfcValveTypeImpl extends IfcFlowControllerTypeImpl implements IfcVa
      */
     @Override
     protected EClass eStaticClass() {
-        return Ifc2x3tc1Package.Literals.IFC_VALVE_TYPE;
+        return Ifc2x3tc1Package.eINSTANCE.getIfcValveType();
     }
 
     /**
@@ -62,7 +62,7 @@ public class IfcValveTypeImpl extends IfcFlowControllerTypeImpl implements IfcVa
      */
     @Override
     public IfcValveTypeEnum getPredefinedType() {
-        return (IfcValveTypeEnum) eGet(Ifc2x3tc1Package.Literals.IFC_VALVE_TYPE__PREDEFINED_TYPE, true);
+        return (IfcValveTypeEnum) eGet(Ifc2x3tc1Package.eINSTANCE.getIfcValveType_PredefinedType(), true);
     }
 
     /**
@@ -72,7 +72,7 @@ public class IfcValveTypeImpl extends IfcFlowControllerTypeImpl implements IfcVa
      */
     @Override
     public void setPredefinedType(IfcValveTypeEnum newPredefinedType) {
-        eSet(Ifc2x3tc1Package.Literals.IFC_VALVE_TYPE__PREDEFINED_TYPE, newPredefinedType);
+        eSet(Ifc2x3tc1Package.eINSTANCE.getIfcValveType_PredefinedType(), newPredefinedType);
     }
 
 } //IfcValveTypeImpl

@@ -56,7 +56,7 @@ public class IfcSurfaceStyleWithTexturesImpl extends IdEObjectImpl implements If
      */
     @Override
     protected EClass eStaticClass() {
-        return Ifc2x3tc1Package.Literals.IFC_SURFACE_STYLE_WITH_TEXTURES;
+        return Ifc2x3tc1Package.eINSTANCE.getIfcSurfaceStyleWithTextures();
     }
 
     /**
@@ -77,7 +77,7 @@ public class IfcSurfaceStyleWithTexturesImpl extends IdEObjectImpl implements If
     @SuppressWarnings("unchecked")
     @Override
     public EList<IfcSurfaceTexture> getTextures() {
-        return (EList<IfcSurfaceTexture>) eGet(Ifc2x3tc1Package.Literals.IFC_SURFACE_STYLE_WITH_TEXTURES__TEXTURES,
+        return (EList<IfcSurfaceTexture>) eGet(Ifc2x3tc1Package.eINSTANCE.getIfcSurfaceStyleWithTextures_Textures(),
                 true);
     }
 

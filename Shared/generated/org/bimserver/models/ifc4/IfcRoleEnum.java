@@ -275,10 +275,6 @@ public enum IfcRoleEnum implements Enumerator {
     /**
      * The '<em><b>NULL</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>NULL</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #NULL
      * @model
@@ -290,10 +286,6 @@ public enum IfcRoleEnum implements Enumerator {
     /**
      * The '<em><b>CONSTRUCTIONMANAGER</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>CONSTRUCTIONMANAGER</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #CONSTRUCTIONMANAGER
      * @model
@@ -305,10 +297,6 @@ public enum IfcRoleEnum implements Enumerator {
     /**
      * The '<em><b>COSTENGINEER</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>COSTENGINEER</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #COSTENGINEER
      * @model
@@ -320,10 +308,6 @@ public enum IfcRoleEnum implements Enumerator {
     /**
      * The '<em><b>CONSULTANT</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>CONSULTANT</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #CONSULTANT
      * @model
@@ -335,10 +319,6 @@ public enum IfcRoleEnum implements Enumerator {
     /**
      * The '<em><b>BUILDINGOWNER</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>BUILDINGOWNER</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #BUILDINGOWNER
      * @model
@@ -350,10 +330,6 @@ public enum IfcRoleEnum implements Enumerator {
     /**
      * The '<em><b>COMMISSIONINGENGINEER</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>COMMISSIONINGENGINEER</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #COMMISSIONINGENGINEER
      * @model
@@ -365,10 +341,6 @@ public enum IfcRoleEnum implements Enumerator {
     /**
      * The '<em><b>ENGINEER</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>ENGINEER</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #ENGINEER
      * @model
@@ -380,10 +352,6 @@ public enum IfcRoleEnum implements Enumerator {
     /**
      * The '<em><b>CONTRACTOR</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>CONTRACTOR</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #CONTRACTOR
      * @model
@@ -395,10 +363,6 @@ public enum IfcRoleEnum implements Enumerator {
     /**
      * The '<em><b>ELECTRICALENGINEER</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>ELECTRICALENGINEER</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #ELECTRICALENGINEER
      * @model
@@ -410,10 +374,6 @@ public enum IfcRoleEnum implements Enumerator {
     /**
      * The '<em><b>USERDEFINED</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>USERDEFINED</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #USERDEFINED
      * @model
@@ -425,10 +385,6 @@ public enum IfcRoleEnum implements Enumerator {
     /**
      * The '<em><b>MANUFACTURER</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>MANUFACTURER</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #MANUFACTURER
      * @model
@@ -440,10 +396,6 @@ public enum IfcRoleEnum implements Enumerator {
     /**
      * The '<em><b>SUPPLIER</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>SUPPLIER</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #SUPPLIER
      * @model
@@ -455,10 +407,6 @@ public enum IfcRoleEnum implements Enumerator {
     /**
      * The '<em><b>STRUCTURALENGINEER</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>STRUCTURALENGINEER</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #STRUCTURALENGINEER
      * @model
@@ -470,10 +418,6 @@ public enum IfcRoleEnum implements Enumerator {
     /**
      * The '<em><b>CLIENT</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>CLIENT</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #CLIENT
      * @model
@@ -485,10 +429,6 @@ public enum IfcRoleEnum implements Enumerator {
     /**
      * The '<em><b>OWNER</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>OWNER</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #OWNER
      * @model
@@ -500,10 +440,6 @@ public enum IfcRoleEnum implements Enumerator {
     /**
      * The '<em><b>RESELLER</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>RESELLER</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #RESELLER
      * @model
@@ -515,10 +451,6 @@ public enum IfcRoleEnum implements Enumerator {
     /**
      * The '<em><b>CIVILENGINEER</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>CIVILENGINEER</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #CIVILENGINEER
      * @model
@@ -530,10 +462,6 @@ public enum IfcRoleEnum implements Enumerator {
     /**
      * The '<em><b>BUILDINGOPERATOR</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>BUILDINGOPERATOR</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #BUILDINGOPERATOR
      * @model
@@ -545,10 +473,6 @@ public enum IfcRoleEnum implements Enumerator {
     /**
      * The '<em><b>PROJECTMANAGER</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>PROJECTMANAGER</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #PROJECTMANAGER
      * @model
@@ -560,10 +484,6 @@ public enum IfcRoleEnum implements Enumerator {
     /**
      * The '<em><b>MECHANICALENGINEER</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>MECHANICALENGINEER</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #MECHANICALENGINEER
      * @model
@@ -575,10 +495,6 @@ public enum IfcRoleEnum implements Enumerator {
     /**
      * The '<em><b>FACILITIESMANAGER</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>FACILITIESMANAGER</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #FACILITIESMANAGER
      * @model
@@ -590,10 +506,6 @@ public enum IfcRoleEnum implements Enumerator {
     /**
      * The '<em><b>SUBCONTRACTOR</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>SUBCONTRACTOR</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #SUBCONTRACTOR
      * @model
@@ -605,10 +517,6 @@ public enum IfcRoleEnum implements Enumerator {
     /**
      * The '<em><b>FIELDCONSTRUCTIONMANAGER</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>FIELDCONSTRUCTIONMANAGER</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #FIELDCONSTRUCTIONMANAGER
      * @model
@@ -620,10 +528,6 @@ public enum IfcRoleEnum implements Enumerator {
     /**
      * The '<em><b>ARCHITECT</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>ARCHITECT</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #ARCHITECT
      * @model

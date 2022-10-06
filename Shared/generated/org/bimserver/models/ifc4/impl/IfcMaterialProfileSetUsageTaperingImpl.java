@@ -54,7 +54,7 @@ public class IfcMaterialProfileSetUsageTaperingImpl extends IfcMaterialProfileSe
      */
     @Override
     protected EClass eStaticClass() {
-        return Ifc4Package.Literals.IFC_MATERIAL_PROFILE_SET_USAGE_TAPERING;
+        return Ifc4Package.eINSTANCE.getIfcMaterialProfileSetUsageTapering();
     }
 
     /**
@@ -65,7 +65,7 @@ public class IfcMaterialProfileSetUsageTaperingImpl extends IfcMaterialProfileSe
     @Override
     public IfcMaterialProfileSet getForProfileEndSet() {
         return (IfcMaterialProfileSet) eGet(
-                Ifc4Package.Literals.IFC_MATERIAL_PROFILE_SET_USAGE_TAPERING__FOR_PROFILE_END_SET, true);
+                Ifc4Package.eINSTANCE.getIfcMaterialProfileSetUsageTapering_ForProfileEndSet(), true);
     }
 
     /**
@@ -75,7 +75,7 @@ public class IfcMaterialProfileSetUsageTaperingImpl extends IfcMaterialProfileSe
      */
     @Override
     public void setForProfileEndSet(IfcMaterialProfileSet newForProfileEndSet) {
-        eSet(Ifc4Package.Literals.IFC_MATERIAL_PROFILE_SET_USAGE_TAPERING__FOR_PROFILE_END_SET, newForProfileEndSet);
+        eSet(Ifc4Package.eINSTANCE.getIfcMaterialProfileSetUsageTapering_ForProfileEndSet(), newForProfileEndSet);
     }
 
     /**
@@ -85,7 +85,7 @@ public class IfcMaterialProfileSetUsageTaperingImpl extends IfcMaterialProfileSe
      */
     @Override
     public long getCardinalEndPoint() {
-        return (Long) eGet(Ifc4Package.Literals.IFC_MATERIAL_PROFILE_SET_USAGE_TAPERING__CARDINAL_END_POINT, true);
+        return (Long) eGet(Ifc4Package.eINSTANCE.getIfcMaterialProfileSetUsageTapering_CardinalEndPoint(), true);
     }
 
     /**
@@ -95,7 +95,7 @@ public class IfcMaterialProfileSetUsageTaperingImpl extends IfcMaterialProfileSe
      */
     @Override
     public void setCardinalEndPoint(long newCardinalEndPoint) {
-        eSet(Ifc4Package.Literals.IFC_MATERIAL_PROFILE_SET_USAGE_TAPERING__CARDINAL_END_POINT, newCardinalEndPoint);
+        eSet(Ifc4Package.eINSTANCE.getIfcMaterialProfileSetUsageTapering_CardinalEndPoint(), newCardinalEndPoint);
     }
 
     /**
@@ -105,7 +105,7 @@ public class IfcMaterialProfileSetUsageTaperingImpl extends IfcMaterialProfileSe
      */
     @Override
     public void unsetCardinalEndPoint() {
-        eUnset(Ifc4Package.Literals.IFC_MATERIAL_PROFILE_SET_USAGE_TAPERING__CARDINAL_END_POINT);
+        eUnset(Ifc4Package.eINSTANCE.getIfcMaterialProfileSetUsageTapering_CardinalEndPoint());
     }
 
     /**
@@ -115,7 +115,7 @@ public class IfcMaterialProfileSetUsageTaperingImpl extends IfcMaterialProfileSe
      */
     @Override
     public boolean isSetCardinalEndPoint() {
-        return eIsSet(Ifc4Package.Literals.IFC_MATERIAL_PROFILE_SET_USAGE_TAPERING__CARDINAL_END_POINT);
+        return eIsSet(Ifc4Package.eINSTANCE.getIfcMaterialProfileSetUsageTapering_CardinalEndPoint());
     }
 
 } //IfcMaterialProfileSetUsageTaperingImpl

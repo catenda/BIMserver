@@ -54,7 +54,7 @@ public class IfcSystemImpl extends IfcGroupImpl implements IfcSystem {
      */
     @Override
     protected EClass eStaticClass() {
-        return Ifc4Package.Literals.IFC_SYSTEM;
+        return Ifc4Package.eINSTANCE.getIfcSystem();
     }
 
     /**
@@ -65,7 +65,7 @@ public class IfcSystemImpl extends IfcGroupImpl implements IfcSystem {
     @SuppressWarnings("unchecked")
     @Override
     public EList<IfcRelServicesBuildings> getServicesBuildings() {
-        return (EList<IfcRelServicesBuildings>) eGet(Ifc4Package.Literals.IFC_SYSTEM__SERVICES_BUILDINGS, true);
+        return (EList<IfcRelServicesBuildings>) eGet(Ifc4Package.eINSTANCE.getIfcSystem_ServicesBuildings(), true);
     }
 
     /**
@@ -75,7 +75,7 @@ public class IfcSystemImpl extends IfcGroupImpl implements IfcSystem {
      */
     @Override
     public void unsetServicesBuildings() {
-        eUnset(Ifc4Package.Literals.IFC_SYSTEM__SERVICES_BUILDINGS);
+        eUnset(Ifc4Package.eINSTANCE.getIfcSystem_ServicesBuildings());
     }
 
     /**
@@ -85,7 +85,7 @@ public class IfcSystemImpl extends IfcGroupImpl implements IfcSystem {
      */
     @Override
     public boolean isSetServicesBuildings() {
-        return eIsSet(Ifc4Package.Literals.IFC_SYSTEM__SERVICES_BUILDINGS);
+        return eIsSet(Ifc4Package.eINSTANCE.getIfcSystem_ServicesBuildings());
     }
 
 } //IfcSystemImpl

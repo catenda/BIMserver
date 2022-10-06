@@ -39,10 +39,6 @@ public interface IfcReinforcementDefinitionProperties extends IfcPropertySetDefi
     /**
      * Returns the value of the '<em><b>Definition Type</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Definition Type</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Definition Type</em>' attribute.
      * @see #isSetDefinitionType()
@@ -93,10 +89,6 @@ public interface IfcReinforcementDefinitionProperties extends IfcPropertySetDefi
      * Returns the value of the '<em><b>Reinforcement Section Definitions</b></em>' reference list.
      * The list contents are of type {@link org.bimserver.models.ifc2x3tc1.IfcSectionReinforcementProperties}.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Reinforcement Section Definitions</em>' reference list isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Reinforcement Section Definitions</em>' reference list.
      * @see org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package#getIfcReinforcementDefinitionProperties_ReinforcementSectionDefinitions()

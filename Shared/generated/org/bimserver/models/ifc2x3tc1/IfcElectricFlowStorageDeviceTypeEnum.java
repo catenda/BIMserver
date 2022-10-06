@@ -115,10 +115,6 @@ public enum IfcElectricFlowStorageDeviceTypeEnum implements Enumerator {
     /**
      * The '<em><b>NULL</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>NULL</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #NULL
      * @model
@@ -130,10 +126,6 @@ public enum IfcElectricFlowStorageDeviceTypeEnum implements Enumerator {
     /**
      * The '<em><b>BATTERY</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>BATTERY</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #BATTERY
      * @model
@@ -145,10 +137,6 @@ public enum IfcElectricFlowStorageDeviceTypeEnum implements Enumerator {
     /**
      * The '<em><b>CAPACITORBANK</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>CAPACITORBANK</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #CAPACITORBANK
      * @model
@@ -160,10 +148,6 @@ public enum IfcElectricFlowStorageDeviceTypeEnum implements Enumerator {
     /**
      * The '<em><b>NOTDEFINED</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>NOTDEFINED</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #NOTDEFINED
      * @model
@@ -175,10 +159,6 @@ public enum IfcElectricFlowStorageDeviceTypeEnum implements Enumerator {
     /**
      * The '<em><b>HARMONICFILTER</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>HARMONICFILTER</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #HARMONICFILTER
      * @model
@@ -190,10 +170,6 @@ public enum IfcElectricFlowStorageDeviceTypeEnum implements Enumerator {
     /**
      * The '<em><b>UPS</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>UPS</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #UPS
      * @model
@@ -205,10 +181,6 @@ public enum IfcElectricFlowStorageDeviceTypeEnum implements Enumerator {
     /**
      * The '<em><b>USERDEFINED</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>USERDEFINED</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #USERDEFINED
      * @model
@@ -220,10 +192,6 @@ public enum IfcElectricFlowStorageDeviceTypeEnum implements Enumerator {
     /**
      * The '<em><b>INDUCTORBANK</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>INDUCTORBANK</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #INDUCTORBANK
      * @model

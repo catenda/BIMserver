@@ -53,7 +53,7 @@ public class IfcMonetaryUnitImpl extends IdEObjectImpl implements IfcMonetaryUni
      */
     @Override
     protected EClass eStaticClass() {
-        return Ifc4Package.Literals.IFC_MONETARY_UNIT;
+        return Ifc4Package.eINSTANCE.getIfcMonetaryUnit();
     }
 
     /**
@@ -73,7 +73,7 @@ public class IfcMonetaryUnitImpl extends IdEObjectImpl implements IfcMonetaryUni
      */
     @Override
     public String getCurrency() {
-        return (String) eGet(Ifc4Package.Literals.IFC_MONETARY_UNIT__CURRENCY, true);
+        return (String) eGet(Ifc4Package.eINSTANCE.getIfcMonetaryUnit_Currency(), true);
     }
 
     /**
@@ -83,7 +83,7 @@ public class IfcMonetaryUnitImpl extends IdEObjectImpl implements IfcMonetaryUni
      */
     @Override
     public void setCurrency(String newCurrency) {
-        eSet(Ifc4Package.Literals.IFC_MONETARY_UNIT__CURRENCY, newCurrency);
+        eSet(Ifc4Package.eINSTANCE.getIfcMonetaryUnit_Currency(), newCurrency);
     }
 
 } //IfcMonetaryUnitImpl

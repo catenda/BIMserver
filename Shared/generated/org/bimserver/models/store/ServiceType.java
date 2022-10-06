@@ -44,10 +44,6 @@ public interface ServiceType extends IdEObject {
     /**
      * Returns the value of the '<em><b>Name</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Name</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Name</em>' attribute.
      * @see #setName(String)
@@ -70,10 +66,6 @@ public interface ServiceType extends IdEObject {
     /**
      * Returns the value of the '<em><b>Simple Name</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Simple Name</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Simple Name</em>' attribute.
      * @see #setSimpleName(String)
@@ -97,10 +89,6 @@ public interface ServiceType extends IdEObject {
      * Returns the value of the '<em><b>Fields</b></em>' reference list.
      * The list contents are of type {@link org.bimserver.models.store.ServiceField}.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Fields</em>' reference list isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Fields</em>' reference list.
      * @see org.bimserver.models.store.StorePackage#getServiceType_Fields()
@@ -113,10 +101,6 @@ public interface ServiceType extends IdEObject {
      * Returns the value of the '<em><b>Simple Type</b></em>' attribute.
      * The literals are from the enumeration {@link org.bimserver.models.store.ServiceSimpleType}.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Simple Type</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Simple Type</em>' attribute.
      * @see org.bimserver.models.store.ServiceSimpleType

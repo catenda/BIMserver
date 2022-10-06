@@ -59,7 +59,7 @@ public class IfcPropertyEnumerationImpl extends IdEObjectImpl implements IfcProp
      */
     @Override
     protected EClass eStaticClass() {
-        return Ifc2x3tc1Package.Literals.IFC_PROPERTY_ENUMERATION;
+        return Ifc2x3tc1Package.eINSTANCE.getIfcPropertyEnumeration();
     }
 
     /**
@@ -79,7 +79,7 @@ public class IfcPropertyEnumerationImpl extends IdEObjectImpl implements IfcProp
      */
     @Override
     public String getName() {
-        return (String) eGet(Ifc2x3tc1Package.Literals.IFC_PROPERTY_ENUMERATION__NAME, true);
+        return (String) eGet(Ifc2x3tc1Package.eINSTANCE.getIfcPropertyEnumeration_Name(), true);
     }
 
     /**
@@ -89,7 +89,7 @@ public class IfcPropertyEnumerationImpl extends IdEObjectImpl implements IfcProp
      */
     @Override
     public void setName(String newName) {
-        eSet(Ifc2x3tc1Package.Literals.IFC_PROPERTY_ENUMERATION__NAME, newName);
+        eSet(Ifc2x3tc1Package.eINSTANCE.getIfcPropertyEnumeration_Name(), newName);
     }
 
     /**
@@ -100,7 +100,7 @@ public class IfcPropertyEnumerationImpl extends IdEObjectImpl implements IfcProp
     @SuppressWarnings("unchecked")
     @Override
     public EList<IfcValue> getEnumerationValues() {
-        return (EList<IfcValue>) eGet(Ifc2x3tc1Package.Literals.IFC_PROPERTY_ENUMERATION__ENUMERATION_VALUES, true);
+        return (EList<IfcValue>) eGet(Ifc2x3tc1Package.eINSTANCE.getIfcPropertyEnumeration_EnumerationValues(), true);
     }
 
     /**
@@ -110,7 +110,7 @@ public class IfcPropertyEnumerationImpl extends IdEObjectImpl implements IfcProp
      */
     @Override
     public IfcUnit getUnit() {
-        return (IfcUnit) eGet(Ifc2x3tc1Package.Literals.IFC_PROPERTY_ENUMERATION__UNIT, true);
+        return (IfcUnit) eGet(Ifc2x3tc1Package.eINSTANCE.getIfcPropertyEnumeration_Unit(), true);
     }
 
     /**
@@ -120,7 +120,7 @@ public class IfcPropertyEnumerationImpl extends IdEObjectImpl implements IfcProp
      */
     @Override
     public void setUnit(IfcUnit newUnit) {
-        eSet(Ifc2x3tc1Package.Literals.IFC_PROPERTY_ENUMERATION__UNIT, newUnit);
+        eSet(Ifc2x3tc1Package.eINSTANCE.getIfcPropertyEnumeration_Unit(), newUnit);
     }
 
     /**
@@ -130,7 +130,7 @@ public class IfcPropertyEnumerationImpl extends IdEObjectImpl implements IfcProp
      */
     @Override
     public void unsetUnit() {
-        eUnset(Ifc2x3tc1Package.Literals.IFC_PROPERTY_ENUMERATION__UNIT);
+        eUnset(Ifc2x3tc1Package.eINSTANCE.getIfcPropertyEnumeration_Unit());
     }
 
     /**
@@ -140,7 +140,7 @@ public class IfcPropertyEnumerationImpl extends IdEObjectImpl implements IfcProp
      */
     @Override
     public boolean isSetUnit() {
-        return eIsSet(Ifc2x3tc1Package.Literals.IFC_PROPERTY_ENUMERATION__UNIT);
+        return eIsSet(Ifc2x3tc1Package.eINSTANCE.getIfcPropertyEnumeration_Unit());
     }
 
 } //IfcPropertyEnumerationImpl

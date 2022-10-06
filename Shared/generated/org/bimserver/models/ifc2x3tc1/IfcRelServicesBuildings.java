@@ -40,10 +40,6 @@ public interface IfcRelServicesBuildings extends IfcRelConnects {
      * Returns the value of the '<em><b>Relating System</b></em>' reference.
      * It is bidirectional and its opposite is '{@link org.bimserver.models.ifc2x3tc1.IfcSystem#getServicesBuildings <em>Services Buildings</em>}'.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Relating System</em>' reference isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Relating System</em>' reference.
      * @see #setRelatingSystem(IfcSystem)
@@ -70,10 +66,6 @@ public interface IfcRelServicesBuildings extends IfcRelConnects {
      * The list contents are of type {@link org.bimserver.models.ifc2x3tc1.IfcSpatialStructureElement}.
      * It is bidirectional and its opposite is '{@link org.bimserver.models.ifc2x3tc1.IfcSpatialStructureElement#getServicedBySystems <em>Serviced By Systems</em>}'.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Related Buildings</em>' reference list isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Related Buildings</em>' reference list.
      * @see org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package#getIfcRelServicesBuildings_RelatedBuildings()

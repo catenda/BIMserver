@@ -52,7 +52,7 @@ public class IfcBoxedHalfSpaceImpl extends IfcHalfSpaceSolidImpl implements IfcB
      */
     @Override
     protected EClass eStaticClass() {
-        return Ifc2x3tc1Package.Literals.IFC_BOXED_HALF_SPACE;
+        return Ifc2x3tc1Package.eINSTANCE.getIfcBoxedHalfSpace();
     }
 
     /**
@@ -62,7 +62,7 @@ public class IfcBoxedHalfSpaceImpl extends IfcHalfSpaceSolidImpl implements IfcB
      */
     @Override
     public IfcBoundingBox getEnclosure() {
-        return (IfcBoundingBox) eGet(Ifc2x3tc1Package.Literals.IFC_BOXED_HALF_SPACE__ENCLOSURE, true);
+        return (IfcBoundingBox) eGet(Ifc2x3tc1Package.eINSTANCE.getIfcBoxedHalfSpace_Enclosure(), true);
     }
 
     /**
@@ -72,7 +72,7 @@ public class IfcBoxedHalfSpaceImpl extends IfcHalfSpaceSolidImpl implements IfcB
      */
     @Override
     public void setEnclosure(IfcBoundingBox newEnclosure) {
-        eSet(Ifc2x3tc1Package.Literals.IFC_BOXED_HALF_SPACE__ENCLOSURE, newEnclosure);
+        eSet(Ifc2x3tc1Package.eINSTANCE.getIfcBoxedHalfSpace_Enclosure(), newEnclosure);
     }
 
 } //IfcBoxedHalfSpaceImpl

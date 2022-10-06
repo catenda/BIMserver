@@ -47,10 +47,6 @@ public interface IfcSpaceProgram extends IfcControl {
     /**
      * Returns the value of the '<em><b>Space Program Identifier</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Space Program Identifier</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Space Program Identifier</em>' attribute.
      * @see #setSpaceProgramIdentifier(String)
@@ -73,10 +69,6 @@ public interface IfcSpaceProgram extends IfcControl {
     /**
      * Returns the value of the '<em><b>Max Required Area</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Max Required Area</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Max Required Area</em>' attribute.
      * @see #isSetMaxRequiredArea()
@@ -126,10 +118,6 @@ public interface IfcSpaceProgram extends IfcControl {
     /**
      * Returns the value of the '<em><b>Max Required Area As String</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Max Required Area As String</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Max Required Area As String</em>' attribute.
      * @see #isSetMaxRequiredAreaAsString()
@@ -181,10 +169,6 @@ public interface IfcSpaceProgram extends IfcControl {
     /**
      * Returns the value of the '<em><b>Min Required Area</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Min Required Area</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Min Required Area</em>' attribute.
      * @see #isSetMinRequiredArea()
@@ -234,10 +218,6 @@ public interface IfcSpaceProgram extends IfcControl {
     /**
      * Returns the value of the '<em><b>Min Required Area As String</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Min Required Area As String</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Min Required Area As String</em>' attribute.
      * @see #isSetMinRequiredAreaAsString()
@@ -289,10 +269,6 @@ public interface IfcSpaceProgram extends IfcControl {
     /**
      * Returns the value of the '<em><b>Requested Location</b></em>' reference.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Requested Location</em>' reference isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Requested Location</em>' reference.
      * @see #isSetRequestedLocation()
@@ -342,10 +318,6 @@ public interface IfcSpaceProgram extends IfcControl {
     /**
      * Returns the value of the '<em><b>Standard Required Area</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Standard Required Area</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Standard Required Area</em>' attribute.
      * @see #setStandardRequiredArea(double)
@@ -368,10 +340,6 @@ public interface IfcSpaceProgram extends IfcControl {
     /**
      * Returns the value of the '<em><b>Standard Required Area As String</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Standard Required Area As String</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Standard Required Area As String</em>' attribute.
      * @see #setStandardRequiredAreaAsString(String)
@@ -397,10 +365,6 @@ public interface IfcSpaceProgram extends IfcControl {
      * The list contents are of type {@link org.bimserver.models.ifc2x3tc1.IfcRelInteractionRequirements}.
      * It is bidirectional and its opposite is '{@link org.bimserver.models.ifc2x3tc1.IfcRelInteractionRequirements#getRelatedSpaceProgram <em>Related Space Program</em>}'.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Has Interaction Reqs From</em>' reference list isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Has Interaction Reqs From</em>' reference list.
      * @see #isSetHasInteractionReqsFrom()
@@ -439,10 +403,6 @@ public interface IfcSpaceProgram extends IfcControl {
      * The list contents are of type {@link org.bimserver.models.ifc2x3tc1.IfcRelInteractionRequirements}.
      * It is bidirectional and its opposite is '{@link org.bimserver.models.ifc2x3tc1.IfcRelInteractionRequirements#getRelatingSpaceProgram <em>Relating Space Program</em>}'.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Has Interaction Reqs To</em>' reference list isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Has Interaction Reqs To</em>' reference list.
      * @see #isSetHasInteractionReqsTo()

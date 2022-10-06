@@ -51,7 +51,7 @@ public class IfcPerformanceHistoryImpl extends IfcControlImpl implements IfcPerf
      */
     @Override
     protected EClass eStaticClass() {
-        return Ifc2x3tc1Package.Literals.IFC_PERFORMANCE_HISTORY;
+        return Ifc2x3tc1Package.eINSTANCE.getIfcPerformanceHistory();
     }
 
     /**
@@ -61,7 +61,7 @@ public class IfcPerformanceHistoryImpl extends IfcControlImpl implements IfcPerf
      */
     @Override
     public String getLifeCyclePhase() {
-        return (String) eGet(Ifc2x3tc1Package.Literals.IFC_PERFORMANCE_HISTORY__LIFE_CYCLE_PHASE, true);
+        return (String) eGet(Ifc2x3tc1Package.eINSTANCE.getIfcPerformanceHistory_LifeCyclePhase(), true);
     }
 
     /**
@@ -71,7 +71,7 @@ public class IfcPerformanceHistoryImpl extends IfcControlImpl implements IfcPerf
      */
     @Override
     public void setLifeCyclePhase(String newLifeCyclePhase) {
-        eSet(Ifc2x3tc1Package.Literals.IFC_PERFORMANCE_HISTORY__LIFE_CYCLE_PHASE, newLifeCyclePhase);
+        eSet(Ifc2x3tc1Package.eINSTANCE.getIfcPerformanceHistory_LifeCyclePhase(), newLifeCyclePhase);
     }
 
 } //IfcPerformanceHistoryImpl

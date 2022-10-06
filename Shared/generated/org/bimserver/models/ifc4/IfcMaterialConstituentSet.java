@@ -40,10 +40,6 @@ public interface IfcMaterialConstituentSet extends IfcMaterialDefinition {
     /**
      * Returns the value of the '<em><b>Name</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Name</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Name</em>' attribute.
      * @see #isSetName()
@@ -93,10 +89,6 @@ public interface IfcMaterialConstituentSet extends IfcMaterialDefinition {
     /**
      * Returns the value of the '<em><b>Description</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Description</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Description</em>' attribute.
      * @see #isSetDescription()
@@ -148,10 +140,6 @@ public interface IfcMaterialConstituentSet extends IfcMaterialDefinition {
      * The list contents are of type {@link org.bimserver.models.ifc4.IfcMaterialConstituent}.
      * It is bidirectional and its opposite is '{@link org.bimserver.models.ifc4.IfcMaterialConstituent#getToMaterialConstituentSet <em>To Material Constituent Set</em>}'.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Material Constituents</em>' reference list isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Material Constituents</em>' reference list.
      * @see #isSetMaterialConstituents()

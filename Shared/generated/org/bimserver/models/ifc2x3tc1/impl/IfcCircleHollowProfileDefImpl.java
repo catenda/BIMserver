@@ -52,7 +52,7 @@ public class IfcCircleHollowProfileDefImpl extends IfcCircleProfileDefImpl imple
      */
     @Override
     protected EClass eStaticClass() {
-        return Ifc2x3tc1Package.Literals.IFC_CIRCLE_HOLLOW_PROFILE_DEF;
+        return Ifc2x3tc1Package.eINSTANCE.getIfcCircleHollowProfileDef();
     }
 
     /**
@@ -62,7 +62,7 @@ public class IfcCircleHollowProfileDefImpl extends IfcCircleProfileDefImpl imple
      */
     @Override
     public double getWallThickness() {
-        return (Double) eGet(Ifc2x3tc1Package.Literals.IFC_CIRCLE_HOLLOW_PROFILE_DEF__WALL_THICKNESS, true);
+        return (Double) eGet(Ifc2x3tc1Package.eINSTANCE.getIfcCircleHollowProfileDef_WallThickness(), true);
     }
 
     /**
@@ -72,7 +72,7 @@ public class IfcCircleHollowProfileDefImpl extends IfcCircleProfileDefImpl imple
      */
     @Override
     public void setWallThickness(double newWallThickness) {
-        eSet(Ifc2x3tc1Package.Literals.IFC_CIRCLE_HOLLOW_PROFILE_DEF__WALL_THICKNESS, newWallThickness);
+        eSet(Ifc2x3tc1Package.eINSTANCE.getIfcCircleHollowProfileDef_WallThickness(), newWallThickness);
     }
 
     /**
@@ -82,7 +82,7 @@ public class IfcCircleHollowProfileDefImpl extends IfcCircleProfileDefImpl imple
      */
     @Override
     public String getWallThicknessAsString() {
-        return (String) eGet(Ifc2x3tc1Package.Literals.IFC_CIRCLE_HOLLOW_PROFILE_DEF__WALL_THICKNESS_AS_STRING, true);
+        return (String) eGet(Ifc2x3tc1Package.eINSTANCE.getIfcCircleHollowProfileDef_WallThicknessAsString(), true);
     }
 
     /**
@@ -92,8 +92,7 @@ public class IfcCircleHollowProfileDefImpl extends IfcCircleProfileDefImpl imple
      */
     @Override
     public void setWallThicknessAsString(String newWallThicknessAsString) {
-        eSet(Ifc2x3tc1Package.Literals.IFC_CIRCLE_HOLLOW_PROFILE_DEF__WALL_THICKNESS_AS_STRING,
-                newWallThicknessAsString);
+        eSet(Ifc2x3tc1Package.eINSTANCE.getIfcCircleHollowProfileDef_WallThicknessAsString(), newWallThicknessAsString);
     }
 
 } //IfcCircleHollowProfileDefImpl

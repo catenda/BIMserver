@@ -60,7 +60,7 @@ public class IfcMaterialLayerSetUsageImpl extends IfcMaterialUsageDefinitionImpl
      */
     @Override
     protected EClass eStaticClass() {
-        return Ifc4Package.Literals.IFC_MATERIAL_LAYER_SET_USAGE;
+        return Ifc4Package.eINSTANCE.getIfcMaterialLayerSetUsage();
     }
 
     /**
@@ -70,7 +70,7 @@ public class IfcMaterialLayerSetUsageImpl extends IfcMaterialUsageDefinitionImpl
      */
     @Override
     public IfcMaterialLayerSet getForLayerSet() {
-        return (IfcMaterialLayerSet) eGet(Ifc4Package.Literals.IFC_MATERIAL_LAYER_SET_USAGE__FOR_LAYER_SET, true);
+        return (IfcMaterialLayerSet) eGet(Ifc4Package.eINSTANCE.getIfcMaterialLayerSetUsage_ForLayerSet(), true);
     }
 
     /**
@@ -80,7 +80,7 @@ public class IfcMaterialLayerSetUsageImpl extends IfcMaterialUsageDefinitionImpl
      */
     @Override
     public void setForLayerSet(IfcMaterialLayerSet newForLayerSet) {
-        eSet(Ifc4Package.Literals.IFC_MATERIAL_LAYER_SET_USAGE__FOR_LAYER_SET, newForLayerSet);
+        eSet(Ifc4Package.eINSTANCE.getIfcMaterialLayerSetUsage_ForLayerSet(), newForLayerSet);
     }
 
     /**
@@ -90,7 +90,7 @@ public class IfcMaterialLayerSetUsageImpl extends IfcMaterialUsageDefinitionImpl
      */
     @Override
     public IfcLayerSetDirectionEnum getLayerSetDirection() {
-        return (IfcLayerSetDirectionEnum) eGet(Ifc4Package.Literals.IFC_MATERIAL_LAYER_SET_USAGE__LAYER_SET_DIRECTION,
+        return (IfcLayerSetDirectionEnum) eGet(Ifc4Package.eINSTANCE.getIfcMaterialLayerSetUsage_LayerSetDirection(),
                 true);
     }
 
@@ -101,7 +101,7 @@ public class IfcMaterialLayerSetUsageImpl extends IfcMaterialUsageDefinitionImpl
      */
     @Override
     public void setLayerSetDirection(IfcLayerSetDirectionEnum newLayerSetDirection) {
-        eSet(Ifc4Package.Literals.IFC_MATERIAL_LAYER_SET_USAGE__LAYER_SET_DIRECTION, newLayerSetDirection);
+        eSet(Ifc4Package.eINSTANCE.getIfcMaterialLayerSetUsage_LayerSetDirection(), newLayerSetDirection);
     }
 
     /**
@@ -111,7 +111,7 @@ public class IfcMaterialLayerSetUsageImpl extends IfcMaterialUsageDefinitionImpl
      */
     @Override
     public IfcDirectionSenseEnum getDirectionSense() {
-        return (IfcDirectionSenseEnum) eGet(Ifc4Package.Literals.IFC_MATERIAL_LAYER_SET_USAGE__DIRECTION_SENSE, true);
+        return (IfcDirectionSenseEnum) eGet(Ifc4Package.eINSTANCE.getIfcMaterialLayerSetUsage_DirectionSense(), true);
     }
 
     /**
@@ -121,7 +121,7 @@ public class IfcMaterialLayerSetUsageImpl extends IfcMaterialUsageDefinitionImpl
      */
     @Override
     public void setDirectionSense(IfcDirectionSenseEnum newDirectionSense) {
-        eSet(Ifc4Package.Literals.IFC_MATERIAL_LAYER_SET_USAGE__DIRECTION_SENSE, newDirectionSense);
+        eSet(Ifc4Package.eINSTANCE.getIfcMaterialLayerSetUsage_DirectionSense(), newDirectionSense);
     }
 
     /**
@@ -131,7 +131,7 @@ public class IfcMaterialLayerSetUsageImpl extends IfcMaterialUsageDefinitionImpl
      */
     @Override
     public double getOffsetFromReferenceLine() {
-        return (Double) eGet(Ifc4Package.Literals.IFC_MATERIAL_LAYER_SET_USAGE__OFFSET_FROM_REFERENCE_LINE, true);
+        return (Double) eGet(Ifc4Package.eINSTANCE.getIfcMaterialLayerSetUsage_OffsetFromReferenceLine(), true);
     }
 
     /**
@@ -141,7 +141,7 @@ public class IfcMaterialLayerSetUsageImpl extends IfcMaterialUsageDefinitionImpl
      */
     @Override
     public void setOffsetFromReferenceLine(double newOffsetFromReferenceLine) {
-        eSet(Ifc4Package.Literals.IFC_MATERIAL_LAYER_SET_USAGE__OFFSET_FROM_REFERENCE_LINE, newOffsetFromReferenceLine);
+        eSet(Ifc4Package.eINSTANCE.getIfcMaterialLayerSetUsage_OffsetFromReferenceLine(), newOffsetFromReferenceLine);
     }
 
     /**
@@ -151,8 +151,7 @@ public class IfcMaterialLayerSetUsageImpl extends IfcMaterialUsageDefinitionImpl
      */
     @Override
     public String getOffsetFromReferenceLineAsString() {
-        return (String) eGet(Ifc4Package.Literals.IFC_MATERIAL_LAYER_SET_USAGE__OFFSET_FROM_REFERENCE_LINE_AS_STRING,
-                true);
+        return (String) eGet(Ifc4Package.eINSTANCE.getIfcMaterialLayerSetUsage_OffsetFromReferenceLineAsString(), true);
     }
 
     /**
@@ -162,7 +161,7 @@ public class IfcMaterialLayerSetUsageImpl extends IfcMaterialUsageDefinitionImpl
      */
     @Override
     public void setOffsetFromReferenceLineAsString(String newOffsetFromReferenceLineAsString) {
-        eSet(Ifc4Package.Literals.IFC_MATERIAL_LAYER_SET_USAGE__OFFSET_FROM_REFERENCE_LINE_AS_STRING,
+        eSet(Ifc4Package.eINSTANCE.getIfcMaterialLayerSetUsage_OffsetFromReferenceLineAsString(),
                 newOffsetFromReferenceLineAsString);
     }
 
@@ -173,7 +172,7 @@ public class IfcMaterialLayerSetUsageImpl extends IfcMaterialUsageDefinitionImpl
      */
     @Override
     public double getReferenceExtent() {
-        return (Double) eGet(Ifc4Package.Literals.IFC_MATERIAL_LAYER_SET_USAGE__REFERENCE_EXTENT, true);
+        return (Double) eGet(Ifc4Package.eINSTANCE.getIfcMaterialLayerSetUsage_ReferenceExtent(), true);
     }
 
     /**
@@ -183,7 +182,7 @@ public class IfcMaterialLayerSetUsageImpl extends IfcMaterialUsageDefinitionImpl
      */
     @Override
     public void setReferenceExtent(double newReferenceExtent) {
-        eSet(Ifc4Package.Literals.IFC_MATERIAL_LAYER_SET_USAGE__REFERENCE_EXTENT, newReferenceExtent);
+        eSet(Ifc4Package.eINSTANCE.getIfcMaterialLayerSetUsage_ReferenceExtent(), newReferenceExtent);
     }
 
     /**
@@ -193,7 +192,7 @@ public class IfcMaterialLayerSetUsageImpl extends IfcMaterialUsageDefinitionImpl
      */
     @Override
     public void unsetReferenceExtent() {
-        eUnset(Ifc4Package.Literals.IFC_MATERIAL_LAYER_SET_USAGE__REFERENCE_EXTENT);
+        eUnset(Ifc4Package.eINSTANCE.getIfcMaterialLayerSetUsage_ReferenceExtent());
     }
 
     /**
@@ -203,7 +202,7 @@ public class IfcMaterialLayerSetUsageImpl extends IfcMaterialUsageDefinitionImpl
      */
     @Override
     public boolean isSetReferenceExtent() {
-        return eIsSet(Ifc4Package.Literals.IFC_MATERIAL_LAYER_SET_USAGE__REFERENCE_EXTENT);
+        return eIsSet(Ifc4Package.eINSTANCE.getIfcMaterialLayerSetUsage_ReferenceExtent());
     }
 
     /**
@@ -213,7 +212,7 @@ public class IfcMaterialLayerSetUsageImpl extends IfcMaterialUsageDefinitionImpl
      */
     @Override
     public String getReferenceExtentAsString() {
-        return (String) eGet(Ifc4Package.Literals.IFC_MATERIAL_LAYER_SET_USAGE__REFERENCE_EXTENT_AS_STRING, true);
+        return (String) eGet(Ifc4Package.eINSTANCE.getIfcMaterialLayerSetUsage_ReferenceExtentAsString(), true);
     }
 
     /**
@@ -223,7 +222,7 @@ public class IfcMaterialLayerSetUsageImpl extends IfcMaterialUsageDefinitionImpl
      */
     @Override
     public void setReferenceExtentAsString(String newReferenceExtentAsString) {
-        eSet(Ifc4Package.Literals.IFC_MATERIAL_LAYER_SET_USAGE__REFERENCE_EXTENT_AS_STRING, newReferenceExtentAsString);
+        eSet(Ifc4Package.eINSTANCE.getIfcMaterialLayerSetUsage_ReferenceExtentAsString(), newReferenceExtentAsString);
     }
 
     /**
@@ -233,7 +232,7 @@ public class IfcMaterialLayerSetUsageImpl extends IfcMaterialUsageDefinitionImpl
      */
     @Override
     public void unsetReferenceExtentAsString() {
-        eUnset(Ifc4Package.Literals.IFC_MATERIAL_LAYER_SET_USAGE__REFERENCE_EXTENT_AS_STRING);
+        eUnset(Ifc4Package.eINSTANCE.getIfcMaterialLayerSetUsage_ReferenceExtentAsString());
     }
 
     /**
@@ -243,7 +242,7 @@ public class IfcMaterialLayerSetUsageImpl extends IfcMaterialUsageDefinitionImpl
      */
     @Override
     public boolean isSetReferenceExtentAsString() {
-        return eIsSet(Ifc4Package.Literals.IFC_MATERIAL_LAYER_SET_USAGE__REFERENCE_EXTENT_AS_STRING);
+        return eIsSet(Ifc4Package.eINSTANCE.getIfcMaterialLayerSetUsage_ReferenceExtentAsString());
     }
 
 } //IfcMaterialLayerSetUsageImpl

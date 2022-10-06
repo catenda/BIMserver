@@ -52,7 +52,7 @@ public class IfcCoilImpl extends IfcEnergyConversionDeviceImpl implements IfcCoi
      */
     @Override
     protected EClass eStaticClass() {
-        return Ifc4Package.Literals.IFC_COIL;
+        return Ifc4Package.eINSTANCE.getIfcCoil();
     }
 
     /**
@@ -62,7 +62,7 @@ public class IfcCoilImpl extends IfcEnergyConversionDeviceImpl implements IfcCoi
      */
     @Override
     public IfcCoilTypeEnum getPredefinedType() {
-        return (IfcCoilTypeEnum) eGet(Ifc4Package.Literals.IFC_COIL__PREDEFINED_TYPE, true);
+        return (IfcCoilTypeEnum) eGet(Ifc4Package.eINSTANCE.getIfcCoil_PredefinedType(), true);
     }
 
     /**
@@ -72,7 +72,7 @@ public class IfcCoilImpl extends IfcEnergyConversionDeviceImpl implements IfcCoi
      */
     @Override
     public void setPredefinedType(IfcCoilTypeEnum newPredefinedType) {
-        eSet(Ifc4Package.Literals.IFC_COIL__PREDEFINED_TYPE, newPredefinedType);
+        eSet(Ifc4Package.eINSTANCE.getIfcCoil_PredefinedType(), newPredefinedType);
     }
 
     /**
@@ -82,7 +82,7 @@ public class IfcCoilImpl extends IfcEnergyConversionDeviceImpl implements IfcCoi
      */
     @Override
     public void unsetPredefinedType() {
-        eUnset(Ifc4Package.Literals.IFC_COIL__PREDEFINED_TYPE);
+        eUnset(Ifc4Package.eINSTANCE.getIfcCoil_PredefinedType());
     }
 
     /**
@@ -92,7 +92,7 @@ public class IfcCoilImpl extends IfcEnergyConversionDeviceImpl implements IfcCoi
      */
     @Override
     public boolean isSetPredefinedType() {
-        return eIsSet(Ifc4Package.Literals.IFC_COIL__PREDEFINED_TYPE);
+        return eIsSet(Ifc4Package.eINSTANCE.getIfcCoil_PredefinedType());
     }
 
 } //IfcCoilImpl

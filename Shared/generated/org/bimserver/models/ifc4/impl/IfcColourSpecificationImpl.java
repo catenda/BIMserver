@@ -51,7 +51,7 @@ public class IfcColourSpecificationImpl extends IfcPresentationItemImpl implemen
      */
     @Override
     protected EClass eStaticClass() {
-        return Ifc4Package.Literals.IFC_COLOUR_SPECIFICATION;
+        return Ifc4Package.eINSTANCE.getIfcColourSpecification();
     }
 
     /**
@@ -61,7 +61,7 @@ public class IfcColourSpecificationImpl extends IfcPresentationItemImpl implemen
      */
     @Override
     public String getName() {
-        return (String) eGet(Ifc4Package.Literals.IFC_COLOUR_SPECIFICATION__NAME, true);
+        return (String) eGet(Ifc4Package.eINSTANCE.getIfcColourSpecification_Name(), true);
     }
 
     /**
@@ -71,7 +71,7 @@ public class IfcColourSpecificationImpl extends IfcPresentationItemImpl implemen
      */
     @Override
     public void setName(String newName) {
-        eSet(Ifc4Package.Literals.IFC_COLOUR_SPECIFICATION__NAME, newName);
+        eSet(Ifc4Package.eINSTANCE.getIfcColourSpecification_Name(), newName);
     }
 
     /**
@@ -81,7 +81,7 @@ public class IfcColourSpecificationImpl extends IfcPresentationItemImpl implemen
      */
     @Override
     public void unsetName() {
-        eUnset(Ifc4Package.Literals.IFC_COLOUR_SPECIFICATION__NAME);
+        eUnset(Ifc4Package.eINSTANCE.getIfcColourSpecification_Name());
     }
 
     /**
@@ -91,7 +91,7 @@ public class IfcColourSpecificationImpl extends IfcPresentationItemImpl implemen
      */
     @Override
     public boolean isSetName() {
-        return eIsSet(Ifc4Package.Literals.IFC_COLOUR_SPECIFICATION__NAME);
+        return eIsSet(Ifc4Package.eINSTANCE.getIfcColourSpecification_Name());
     }
 
 } //IfcColourSpecificationImpl

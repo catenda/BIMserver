@@ -37,10 +37,6 @@ public interface IfcMeasureWithUnit extends IfcAppliedValueSelect, IfcConditionC
     /**
      * Returns the value of the '<em><b>Value Component</b></em>' reference.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Value Component</em>' reference isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Value Component</em>' reference.
      * @see #setValueComponent(IfcValue)
@@ -63,10 +59,6 @@ public interface IfcMeasureWithUnit extends IfcAppliedValueSelect, IfcConditionC
     /**
      * Returns the value of the '<em><b>Unit Component</b></em>' reference.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Unit Component</em>' reference isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Unit Component</em>' reference.
      * @see #setUnitComponent(IfcUnit)

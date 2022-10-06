@@ -46,7 +46,7 @@ public class IfcDimensionCurveDirectedCalloutImpl extends IfcDraughtingCalloutIm
      */
     @Override
     protected EClass eStaticClass() {
-        return Ifc2x3tc1Package.Literals.IFC_DIMENSION_CURVE_DIRECTED_CALLOUT;
+        return Ifc2x3tc1Package.eINSTANCE.getIfcDimensionCurveDirectedCallout();
     }
 
 } //IfcDimensionCurveDirectedCalloutImpl

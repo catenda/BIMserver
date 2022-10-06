@@ -52,7 +52,7 @@ public class IfcRelAssociatesApprovalImpl extends IfcRelAssociatesImpl implement
      */
     @Override
     protected EClass eStaticClass() {
-        return Ifc2x3tc1Package.Literals.IFC_REL_ASSOCIATES_APPROVAL;
+        return Ifc2x3tc1Package.eINSTANCE.getIfcRelAssociatesApproval();
     }
 
     /**
@@ -62,7 +62,7 @@ public class IfcRelAssociatesApprovalImpl extends IfcRelAssociatesImpl implement
      */
     @Override
     public IfcApproval getRelatingApproval() {
-        return (IfcApproval) eGet(Ifc2x3tc1Package.Literals.IFC_REL_ASSOCIATES_APPROVAL__RELATING_APPROVAL, true);
+        return (IfcApproval) eGet(Ifc2x3tc1Package.eINSTANCE.getIfcRelAssociatesApproval_RelatingApproval(), true);
     }
 
     /**
@@ -72,7 +72,7 @@ public class IfcRelAssociatesApprovalImpl extends IfcRelAssociatesImpl implement
      */
     @Override
     public void setRelatingApproval(IfcApproval newRelatingApproval) {
-        eSet(Ifc2x3tc1Package.Literals.IFC_REL_ASSOCIATES_APPROVAL__RELATING_APPROVAL, newRelatingApproval);
+        eSet(Ifc2x3tc1Package.eINSTANCE.getIfcRelAssociatesApproval_RelatingApproval(), newRelatingApproval);
     }
 
 } //IfcRelAssociatesApprovalImpl

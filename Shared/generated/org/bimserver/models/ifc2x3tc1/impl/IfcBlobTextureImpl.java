@@ -53,7 +53,7 @@ public class IfcBlobTextureImpl extends IfcSurfaceTextureImpl implements IfcBlob
      */
     @Override
     protected EClass eStaticClass() {
-        return Ifc2x3tc1Package.Literals.IFC_BLOB_TEXTURE;
+        return Ifc2x3tc1Package.eINSTANCE.getIfcBlobTexture();
     }
 
     /**
@@ -63,7 +63,7 @@ public class IfcBlobTextureImpl extends IfcSurfaceTextureImpl implements IfcBlob
      */
     @Override
     public String getRasterFormat() {
-        return (String) eGet(Ifc2x3tc1Package.Literals.IFC_BLOB_TEXTURE__RASTER_FORMAT, true);
+        return (String) eGet(Ifc2x3tc1Package.eINSTANCE.getIfcBlobTexture_RasterFormat(), true);
     }
 
     /**
@@ -73,7 +73,7 @@ public class IfcBlobTextureImpl extends IfcSurfaceTextureImpl implements IfcBlob
      */
     @Override
     public void setRasterFormat(String newRasterFormat) {
-        eSet(Ifc2x3tc1Package.Literals.IFC_BLOB_TEXTURE__RASTER_FORMAT, newRasterFormat);
+        eSet(Ifc2x3tc1Package.eINSTANCE.getIfcBlobTexture_RasterFormat(), newRasterFormat);
     }
 
     /**
@@ -83,7 +83,7 @@ public class IfcBlobTextureImpl extends IfcSurfaceTextureImpl implements IfcBlob
      */
     @Override
     public Tristate getRasterCode() {
-        return (Tristate) eGet(Ifc2x3tc1Package.Literals.IFC_BLOB_TEXTURE__RASTER_CODE, true);
+        return (Tristate) eGet(Ifc2x3tc1Package.eINSTANCE.getIfcBlobTexture_RasterCode(), true);
     }
 
     /**
@@ -93,7 +93,7 @@ public class IfcBlobTextureImpl extends IfcSurfaceTextureImpl implements IfcBlob
      */
     @Override
     public void setRasterCode(Tristate newRasterCode) {
-        eSet(Ifc2x3tc1Package.Literals.IFC_BLOB_TEXTURE__RASTER_CODE, newRasterCode);
+        eSet(Ifc2x3tc1Package.eINSTANCE.getIfcBlobTexture_RasterCode(), newRasterCode);
     }
 
 } //IfcBlobTextureImpl

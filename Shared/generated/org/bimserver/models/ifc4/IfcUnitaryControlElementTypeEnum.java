@@ -145,10 +145,6 @@ public enum IfcUnitaryControlElementTypeEnum implements Enumerator {
     /**
      * The '<em><b>NULL</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>NULL</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #NULL
      * @model
@@ -160,10 +156,6 @@ public enum IfcUnitaryControlElementTypeEnum implements Enumerator {
     /**
      * The '<em><b>NOTDEFINED</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>NOTDEFINED</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #NOTDEFINED
      * @model
@@ -175,10 +167,6 @@ public enum IfcUnitaryControlElementTypeEnum implements Enumerator {
     /**
      * The '<em><b>HUMIDISTAT</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>HUMIDISTAT</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #HUMIDISTAT
      * @model
@@ -190,10 +178,6 @@ public enum IfcUnitaryControlElementTypeEnum implements Enumerator {
     /**
      * The '<em><b>WEATHERSTATION</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>WEATHERSTATION</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #WEATHERSTATION
      * @model
@@ -205,10 +189,6 @@ public enum IfcUnitaryControlElementTypeEnum implements Enumerator {
     /**
      * The '<em><b>GASDETECTIONPANEL</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>GASDETECTIONPANEL</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #GASDETECTIONPANEL
      * @model
@@ -220,10 +200,6 @@ public enum IfcUnitaryControlElementTypeEnum implements Enumerator {
     /**
      * The '<em><b>INDICATORPANEL</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>INDICATORPANEL</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #INDICATORPANEL
      * @model
@@ -235,10 +211,6 @@ public enum IfcUnitaryControlElementTypeEnum implements Enumerator {
     /**
      * The '<em><b>THERMOSTAT</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>THERMOSTAT</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #THERMOSTAT
      * @model
@@ -250,10 +222,6 @@ public enum IfcUnitaryControlElementTypeEnum implements Enumerator {
     /**
      * The '<em><b>USERDEFINED</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>USERDEFINED</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #USERDEFINED
      * @model
@@ -265,10 +233,6 @@ public enum IfcUnitaryControlElementTypeEnum implements Enumerator {
     /**
      * The '<em><b>ALARMPANEL</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>ALARMPANEL</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #ALARMPANEL
      * @model
@@ -280,10 +244,6 @@ public enum IfcUnitaryControlElementTypeEnum implements Enumerator {
     /**
      * The '<em><b>CONTROLPANEL</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>CONTROLPANEL</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #CONTROLPANEL
      * @model
@@ -295,10 +255,6 @@ public enum IfcUnitaryControlElementTypeEnum implements Enumerator {
     /**
      * The '<em><b>MIMICPANEL</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>MIMICPANEL</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #MIMICPANEL
      * @model

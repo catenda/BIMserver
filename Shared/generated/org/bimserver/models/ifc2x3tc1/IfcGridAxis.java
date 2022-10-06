@@ -47,10 +47,6 @@ public interface IfcGridAxis extends IdEObject {
     /**
      * Returns the value of the '<em><b>Axis Tag</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Axis Tag</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Axis Tag</em>' attribute.
      * @see #isSetAxisTag()
@@ -100,10 +96,6 @@ public interface IfcGridAxis extends IdEObject {
     /**
      * Returns the value of the '<em><b>Axis Curve</b></em>' reference.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Axis Curve</em>' reference isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Axis Curve</em>' reference.
      * @see #setAxisCurve(IfcCurve)
@@ -127,10 +119,6 @@ public interface IfcGridAxis extends IdEObject {
      * Returns the value of the '<em><b>Same Sense</b></em>' attribute.
      * The literals are from the enumeration {@link org.bimserver.models.ifc2x3tc1.Tristate}.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Same Sense</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Same Sense</em>' attribute.
      * @see org.bimserver.models.ifc2x3tc1.Tristate
@@ -157,10 +145,6 @@ public interface IfcGridAxis extends IdEObject {
      * The list contents are of type {@link org.bimserver.models.ifc2x3tc1.IfcGrid}.
      * It is bidirectional and its opposite is '{@link org.bimserver.models.ifc2x3tc1.IfcGrid#getWAxes <em>WAxes</em>}'.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Part Of W</em>' reference list isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Part Of W</em>' reference list.
      * @see #isSetPartOfW()
@@ -199,10 +183,6 @@ public interface IfcGridAxis extends IdEObject {
      * The list contents are of type {@link org.bimserver.models.ifc2x3tc1.IfcGrid}.
      * It is bidirectional and its opposite is '{@link org.bimserver.models.ifc2x3tc1.IfcGrid#getVAxes <em>VAxes</em>}'.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Part Of V</em>' reference list isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Part Of V</em>' reference list.
      * @see #isSetPartOfV()
@@ -241,10 +221,6 @@ public interface IfcGridAxis extends IdEObject {
      * The list contents are of type {@link org.bimserver.models.ifc2x3tc1.IfcGrid}.
      * It is bidirectional and its opposite is '{@link org.bimserver.models.ifc2x3tc1.IfcGrid#getUAxes <em>UAxes</em>}'.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Part Of U</em>' reference list isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Part Of U</em>' reference list.
      * @see #isSetPartOfU()
@@ -283,10 +259,6 @@ public interface IfcGridAxis extends IdEObject {
      * The list contents are of type {@link org.bimserver.models.ifc2x3tc1.IfcVirtualGridIntersection}.
      * It is bidirectional and its opposite is '{@link org.bimserver.models.ifc2x3tc1.IfcVirtualGridIntersection#getIntersectingAxes <em>Intersecting Axes</em>}'.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Has Intersections</em>' reference list isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Has Intersections</em>' reference list.
      * @see #isSetHasIntersections()

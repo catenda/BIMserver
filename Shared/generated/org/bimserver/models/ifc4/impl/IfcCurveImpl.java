@@ -51,7 +51,7 @@ public class IfcCurveImpl extends IfcGeometricRepresentationItemImpl implements 
      */
     @Override
     protected EClass eStaticClass() {
-        return Ifc4Package.Literals.IFC_CURVE;
+        return Ifc4Package.eINSTANCE.getIfcCurve();
     }
 
     /**
@@ -61,7 +61,7 @@ public class IfcCurveImpl extends IfcGeometricRepresentationItemImpl implements 
      */
     @Override
     public long getDim() {
-        return (Long) eGet(Ifc4Package.Literals.IFC_CURVE__DIM, true);
+        return (Long) eGet(Ifc4Package.eINSTANCE.getIfcCurve_Dim(), true);
     }
 
     /**
@@ -71,7 +71,7 @@ public class IfcCurveImpl extends IfcGeometricRepresentationItemImpl implements 
      */
     @Override
     public void setDim(long newDim) {
-        eSet(Ifc4Package.Literals.IFC_CURVE__DIM, newDim);
+        eSet(Ifc4Package.eINSTANCE.getIfcCurve_Dim(), newDim);
     }
 
     /**
@@ -81,7 +81,7 @@ public class IfcCurveImpl extends IfcGeometricRepresentationItemImpl implements 
      */
     @Override
     public void unsetDim() {
-        eUnset(Ifc4Package.Literals.IFC_CURVE__DIM);
+        eUnset(Ifc4Package.eINSTANCE.getIfcCurve_Dim());
     }
 
     /**
@@ -91,7 +91,7 @@ public class IfcCurveImpl extends IfcGeometricRepresentationItemImpl implements 
      */
     @Override
     public boolean isSetDim() {
-        return eIsSet(Ifc4Package.Literals.IFC_CURVE__DIM);
+        return eIsSet(Ifc4Package.eINSTANCE.getIfcCurve_Dim());
     }
 
 } //IfcCurveImpl

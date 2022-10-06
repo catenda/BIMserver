@@ -39,10 +39,6 @@ public interface IfcEllipseProfileDef extends IfcParameterizedProfileDef {
     /**
      * Returns the value of the '<em><b>Semi Axis1</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Semi Axis1</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Semi Axis1</em>' attribute.
      * @see #setSemiAxis1(double)
@@ -65,10 +61,6 @@ public interface IfcEllipseProfileDef extends IfcParameterizedProfileDef {
     /**
      * Returns the value of the '<em><b>Semi Axis1 As String</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Semi Axis1 As String</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Semi Axis1 As String</em>' attribute.
      * @see #setSemiAxis1AsString(String)
@@ -92,10 +84,6 @@ public interface IfcEllipseProfileDef extends IfcParameterizedProfileDef {
     /**
      * Returns the value of the '<em><b>Semi Axis2</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Semi Axis2</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Semi Axis2</em>' attribute.
      * @see #setSemiAxis2(double)
@@ -118,10 +106,6 @@ public interface IfcEllipseProfileDef extends IfcParameterizedProfileDef {
     /**
      * Returns the value of the '<em><b>Semi Axis2 As String</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Semi Axis2 As String</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Semi Axis2 As String</em>' attribute.
      * @see #setSemiAxis2AsString(String)

@@ -58,7 +58,7 @@ public class IfcApprovalActorRelationshipImpl extends IdEObjectImpl implements I
      */
     @Override
     protected EClass eStaticClass() {
-        return Ifc2x3tc1Package.Literals.IFC_APPROVAL_ACTOR_RELATIONSHIP;
+        return Ifc2x3tc1Package.eINSTANCE.getIfcApprovalActorRelationship();
     }
 
     /**
@@ -78,7 +78,7 @@ public class IfcApprovalActorRelationshipImpl extends IdEObjectImpl implements I
      */
     @Override
     public IfcActorSelect getActor() {
-        return (IfcActorSelect) eGet(Ifc2x3tc1Package.Literals.IFC_APPROVAL_ACTOR_RELATIONSHIP__ACTOR, true);
+        return (IfcActorSelect) eGet(Ifc2x3tc1Package.eINSTANCE.getIfcApprovalActorRelationship_Actor(), true);
     }
 
     /**
@@ -88,7 +88,7 @@ public class IfcApprovalActorRelationshipImpl extends IdEObjectImpl implements I
      */
     @Override
     public void setActor(IfcActorSelect newActor) {
-        eSet(Ifc2x3tc1Package.Literals.IFC_APPROVAL_ACTOR_RELATIONSHIP__ACTOR, newActor);
+        eSet(Ifc2x3tc1Package.eINSTANCE.getIfcApprovalActorRelationship_Actor(), newActor);
     }
 
     /**
@@ -98,7 +98,7 @@ public class IfcApprovalActorRelationshipImpl extends IdEObjectImpl implements I
      */
     @Override
     public IfcApproval getApproval() {
-        return (IfcApproval) eGet(Ifc2x3tc1Package.Literals.IFC_APPROVAL_ACTOR_RELATIONSHIP__APPROVAL, true);
+        return (IfcApproval) eGet(Ifc2x3tc1Package.eINSTANCE.getIfcApprovalActorRelationship_Approval(), true);
     }
 
     /**
@@ -108,7 +108,7 @@ public class IfcApprovalActorRelationshipImpl extends IdEObjectImpl implements I
      */
     @Override
     public void setApproval(IfcApproval newApproval) {
-        eSet(Ifc2x3tc1Package.Literals.IFC_APPROVAL_ACTOR_RELATIONSHIP__APPROVAL, newApproval);
+        eSet(Ifc2x3tc1Package.eINSTANCE.getIfcApprovalActorRelationship_Approval(), newApproval);
     }
 
     /**
@@ -118,7 +118,7 @@ public class IfcApprovalActorRelationshipImpl extends IdEObjectImpl implements I
      */
     @Override
     public IfcActorRole getRole() {
-        return (IfcActorRole) eGet(Ifc2x3tc1Package.Literals.IFC_APPROVAL_ACTOR_RELATIONSHIP__ROLE, true);
+        return (IfcActorRole) eGet(Ifc2x3tc1Package.eINSTANCE.getIfcApprovalActorRelationship_Role(), true);
     }
 
     /**
@@ -128,7 +128,7 @@ public class IfcApprovalActorRelationshipImpl extends IdEObjectImpl implements I
      */
     @Override
     public void setRole(IfcActorRole newRole) {
-        eSet(Ifc2x3tc1Package.Literals.IFC_APPROVAL_ACTOR_RELATIONSHIP__ROLE, newRole);
+        eSet(Ifc2x3tc1Package.eINSTANCE.getIfcApprovalActorRelationship_Role(), newRole);
     }
 
 } //IfcApprovalActorRelationshipImpl

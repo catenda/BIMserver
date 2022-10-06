@@ -41,10 +41,6 @@ public interface IfcPropertyTemplate extends IfcPropertyTemplateDefinition {
      * The list contents are of type {@link org.bimserver.models.ifc4.IfcComplexPropertyTemplate}.
      * It is bidirectional and its opposite is '{@link org.bimserver.models.ifc4.IfcComplexPropertyTemplate#getHasPropertyTemplates <em>Has Property Templates</em>}'.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Part Of Complex Template</em>' reference list isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Part Of Complex Template</em>' reference list.
      * @see #isSetPartOfComplexTemplate()
@@ -83,10 +79,6 @@ public interface IfcPropertyTemplate extends IfcPropertyTemplateDefinition {
      * The list contents are of type {@link org.bimserver.models.ifc4.IfcPropertySetTemplate}.
      * It is bidirectional and its opposite is '{@link org.bimserver.models.ifc4.IfcPropertySetTemplate#getHasPropertyTemplates <em>Has Property Templates</em>}'.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Part Of Pset Template</em>' reference list isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Part Of Pset Template</em>' reference list.
      * @see #isSetPartOfPsetTemplate()

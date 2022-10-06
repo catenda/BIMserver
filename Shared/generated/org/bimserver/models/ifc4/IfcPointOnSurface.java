@@ -41,10 +41,6 @@ public interface IfcPointOnSurface extends IfcPoint {
     /**
      * Returns the value of the '<em><b>Basis Surface</b></em>' reference.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Basis Surface</em>' reference isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Basis Surface</em>' reference.
      * @see #setBasisSurface(IfcSurface)
@@ -67,10 +63,6 @@ public interface IfcPointOnSurface extends IfcPoint {
     /**
      * Returns the value of the '<em><b>Point Parameter U</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Point Parameter U</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Point Parameter U</em>' attribute.
      * @see #setPointParameterU(double)
@@ -93,10 +85,6 @@ public interface IfcPointOnSurface extends IfcPoint {
     /**
      * Returns the value of the '<em><b>Point Parameter UAs String</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Point Parameter UAs String</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Point Parameter UAs String</em>' attribute.
      * @see #setPointParameterUAsString(String)
@@ -120,10 +108,6 @@ public interface IfcPointOnSurface extends IfcPoint {
     /**
      * Returns the value of the '<em><b>Point Parameter V</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Point Parameter V</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Point Parameter V</em>' attribute.
      * @see #setPointParameterV(double)
@@ -146,10 +130,6 @@ public interface IfcPointOnSurface extends IfcPoint {
     /**
      * Returns the value of the '<em><b>Point Parameter VAs String</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Point Parameter VAs String</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Point Parameter VAs String</em>' attribute.
      * @see #setPointParameterVAsString(String)
@@ -173,10 +153,6 @@ public interface IfcPointOnSurface extends IfcPoint {
     /**
      * Returns the value of the '<em><b>Dim</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Dim</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Dim</em>' attribute.
      * @see #isSetDim()

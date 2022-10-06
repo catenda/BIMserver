@@ -46,7 +46,7 @@ public class IfcDistributionFlowElementTypeImpl extends IfcDistributionElementTy
      */
     @Override
     protected EClass eStaticClass() {
-        return Ifc4Package.Literals.IFC_DISTRIBUTION_FLOW_ELEMENT_TYPE;
+        return Ifc4Package.eINSTANCE.getIfcDistributionFlowElementType();
     }
 
 } //IfcDistributionFlowElementTypeImpl

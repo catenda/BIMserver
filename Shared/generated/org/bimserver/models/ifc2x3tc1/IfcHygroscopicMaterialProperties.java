@@ -45,10 +45,6 @@ public interface IfcHygroscopicMaterialProperties extends IfcMaterialProperties 
     /**
      * Returns the value of the '<em><b>Upper Vapor Resistance Factor</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Upper Vapor Resistance Factor</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Upper Vapor Resistance Factor</em>' attribute.
      * @see #isSetUpperVaporResistanceFactor()
@@ -98,10 +94,6 @@ public interface IfcHygroscopicMaterialProperties extends IfcMaterialProperties 
     /**
      * Returns the value of the '<em><b>Upper Vapor Resistance Factor As String</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Upper Vapor Resistance Factor As String</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Upper Vapor Resistance Factor As String</em>' attribute.
      * @see #isSetUpperVaporResistanceFactorAsString()
@@ -153,10 +145,6 @@ public interface IfcHygroscopicMaterialProperties extends IfcMaterialProperties 
     /**
      * Returns the value of the '<em><b>Lower Vapor Resistance Factor</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Lower Vapor Resistance Factor</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Lower Vapor Resistance Factor</em>' attribute.
      * @see #isSetLowerVaporResistanceFactor()
@@ -206,10 +194,6 @@ public interface IfcHygroscopicMaterialProperties extends IfcMaterialProperties 
     /**
      * Returns the value of the '<em><b>Lower Vapor Resistance Factor As String</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Lower Vapor Resistance Factor As String</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Lower Vapor Resistance Factor As String</em>' attribute.
      * @see #isSetLowerVaporResistanceFactorAsString()
@@ -261,10 +245,6 @@ public interface IfcHygroscopicMaterialProperties extends IfcMaterialProperties 
     /**
      * Returns the value of the '<em><b>Isothermal Moisture Capacity</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Isothermal Moisture Capacity</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Isothermal Moisture Capacity</em>' attribute.
      * @see #isSetIsothermalMoistureCapacity()
@@ -314,10 +294,6 @@ public interface IfcHygroscopicMaterialProperties extends IfcMaterialProperties 
     /**
      * Returns the value of the '<em><b>Isothermal Moisture Capacity As String</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Isothermal Moisture Capacity As String</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Isothermal Moisture Capacity As String</em>' attribute.
      * @see #isSetIsothermalMoistureCapacityAsString()
@@ -369,10 +345,6 @@ public interface IfcHygroscopicMaterialProperties extends IfcMaterialProperties 
     /**
      * Returns the value of the '<em><b>Vapor Permeability</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Vapor Permeability</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Vapor Permeability</em>' attribute.
      * @see #isSetVaporPermeability()
@@ -422,10 +394,6 @@ public interface IfcHygroscopicMaterialProperties extends IfcMaterialProperties 
     /**
      * Returns the value of the '<em><b>Vapor Permeability As String</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Vapor Permeability As String</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Vapor Permeability As String</em>' attribute.
      * @see #isSetVaporPermeabilityAsString()
@@ -477,10 +445,6 @@ public interface IfcHygroscopicMaterialProperties extends IfcMaterialProperties 
     /**
      * Returns the value of the '<em><b>Moisture Diffusivity</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Moisture Diffusivity</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Moisture Diffusivity</em>' attribute.
      * @see #isSetMoistureDiffusivity()
@@ -530,10 +494,6 @@ public interface IfcHygroscopicMaterialProperties extends IfcMaterialProperties 
     /**
      * Returns the value of the '<em><b>Moisture Diffusivity As String</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Moisture Diffusivity As String</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Moisture Diffusivity As String</em>' attribute.
      * @see #isSetMoistureDiffusivityAsString()

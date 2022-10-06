@@ -52,7 +52,7 @@ public class IfcEdgeFeatureImpl extends IfcFeatureElementSubtractionImpl impleme
      */
     @Override
     protected EClass eStaticClass() {
-        return Ifc2x3tc1Package.Literals.IFC_EDGE_FEATURE;
+        return Ifc2x3tc1Package.eINSTANCE.getIfcEdgeFeature();
     }
 
     /**
@@ -62,7 +62,7 @@ public class IfcEdgeFeatureImpl extends IfcFeatureElementSubtractionImpl impleme
      */
     @Override
     public double getFeatureLength() {
-        return (Double) eGet(Ifc2x3tc1Package.Literals.IFC_EDGE_FEATURE__FEATURE_LENGTH, true);
+        return (Double) eGet(Ifc2x3tc1Package.eINSTANCE.getIfcEdgeFeature_FeatureLength(), true);
     }
 
     /**
@@ -72,7 +72,7 @@ public class IfcEdgeFeatureImpl extends IfcFeatureElementSubtractionImpl impleme
      */
     @Override
     public void setFeatureLength(double newFeatureLength) {
-        eSet(Ifc2x3tc1Package.Literals.IFC_EDGE_FEATURE__FEATURE_LENGTH, newFeatureLength);
+        eSet(Ifc2x3tc1Package.eINSTANCE.getIfcEdgeFeature_FeatureLength(), newFeatureLength);
     }
 
     /**
@@ -82,7 +82,7 @@ public class IfcEdgeFeatureImpl extends IfcFeatureElementSubtractionImpl impleme
      */
     @Override
     public void unsetFeatureLength() {
-        eUnset(Ifc2x3tc1Package.Literals.IFC_EDGE_FEATURE__FEATURE_LENGTH);
+        eUnset(Ifc2x3tc1Package.eINSTANCE.getIfcEdgeFeature_FeatureLength());
     }
 
     /**
@@ -92,7 +92,7 @@ public class IfcEdgeFeatureImpl extends IfcFeatureElementSubtractionImpl impleme
      */
     @Override
     public boolean isSetFeatureLength() {
-        return eIsSet(Ifc2x3tc1Package.Literals.IFC_EDGE_FEATURE__FEATURE_LENGTH);
+        return eIsSet(Ifc2x3tc1Package.eINSTANCE.getIfcEdgeFeature_FeatureLength());
     }
 
     /**
@@ -102,7 +102,7 @@ public class IfcEdgeFeatureImpl extends IfcFeatureElementSubtractionImpl impleme
      */
     @Override
     public String getFeatureLengthAsString() {
-        return (String) eGet(Ifc2x3tc1Package.Literals.IFC_EDGE_FEATURE__FEATURE_LENGTH_AS_STRING, true);
+        return (String) eGet(Ifc2x3tc1Package.eINSTANCE.getIfcEdgeFeature_FeatureLengthAsString(), true);
     }
 
     /**
@@ -112,7 +112,7 @@ public class IfcEdgeFeatureImpl extends IfcFeatureElementSubtractionImpl impleme
      */
     @Override
     public void setFeatureLengthAsString(String newFeatureLengthAsString) {
-        eSet(Ifc2x3tc1Package.Literals.IFC_EDGE_FEATURE__FEATURE_LENGTH_AS_STRING, newFeatureLengthAsString);
+        eSet(Ifc2x3tc1Package.eINSTANCE.getIfcEdgeFeature_FeatureLengthAsString(), newFeatureLengthAsString);
     }
 
     /**
@@ -122,7 +122,7 @@ public class IfcEdgeFeatureImpl extends IfcFeatureElementSubtractionImpl impleme
      */
     @Override
     public void unsetFeatureLengthAsString() {
-        eUnset(Ifc2x3tc1Package.Literals.IFC_EDGE_FEATURE__FEATURE_LENGTH_AS_STRING);
+        eUnset(Ifc2x3tc1Package.eINSTANCE.getIfcEdgeFeature_FeatureLengthAsString());
     }
 
     /**
@@ -132,7 +132,7 @@ public class IfcEdgeFeatureImpl extends IfcFeatureElementSubtractionImpl impleme
      */
     @Override
     public boolean isSetFeatureLengthAsString() {
-        return eIsSet(Ifc2x3tc1Package.Literals.IFC_EDGE_FEATURE__FEATURE_LENGTH_AS_STRING);
+        return eIsSet(Ifc2x3tc1Package.eINSTANCE.getIfcEdgeFeature_FeatureLengthAsString());
     }
 
 } //IfcEdgeFeatureImpl

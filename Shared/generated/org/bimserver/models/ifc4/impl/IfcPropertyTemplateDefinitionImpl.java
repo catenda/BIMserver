@@ -46,7 +46,7 @@ public class IfcPropertyTemplateDefinitionImpl extends IfcPropertyDefinitionImpl
      */
     @Override
     protected EClass eStaticClass() {
-        return Ifc4Package.Literals.IFC_PROPERTY_TEMPLATE_DEFINITION;
+        return Ifc4Package.eINSTANCE.getIfcPropertyTemplateDefinition();
     }
 
 } //IfcPropertyTemplateDefinitionImpl

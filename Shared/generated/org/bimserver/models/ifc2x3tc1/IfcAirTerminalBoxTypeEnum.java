@@ -95,10 +95,6 @@ public enum IfcAirTerminalBoxTypeEnum implements Enumerator {
     /**
      * The '<em><b>NULL</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>NULL</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #NULL
      * @model
@@ -110,10 +106,6 @@ public enum IfcAirTerminalBoxTypeEnum implements Enumerator {
     /**
      * The '<em><b>NOTDEFINED</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>NOTDEFINED</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #NOTDEFINED
      * @model
@@ -125,10 +117,6 @@ public enum IfcAirTerminalBoxTypeEnum implements Enumerator {
     /**
      * The '<em><b>VARIABLEFLOWPRESSUREDEPENDANT</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>VARIABLEFLOWPRESSUREDEPENDANT</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #VARIABLEFLOWPRESSUREDEPENDANT
      * @model
@@ -140,10 +128,6 @@ public enum IfcAirTerminalBoxTypeEnum implements Enumerator {
     /**
      * The '<em><b>VARIABLEFLOWPRESSUREINDEPENDANT</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>VARIABLEFLOWPRESSUREINDEPENDANT</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #VARIABLEFLOWPRESSUREINDEPENDANT
      * @model
@@ -155,10 +139,6 @@ public enum IfcAirTerminalBoxTypeEnum implements Enumerator {
     /**
      * The '<em><b>CONSTANTFLOW</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>CONSTANTFLOW</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #CONSTANTFLOW
      * @model
@@ -170,10 +150,6 @@ public enum IfcAirTerminalBoxTypeEnum implements Enumerator {
     /**
      * The '<em><b>USERDEFINED</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>USERDEFINED</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #USERDEFINED
      * @model

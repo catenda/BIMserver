@@ -52,7 +52,7 @@ public class IfcAirTerminalImpl extends IfcFlowTerminalImpl implements IfcAirTer
      */
     @Override
     protected EClass eStaticClass() {
-        return Ifc4Package.Literals.IFC_AIR_TERMINAL;
+        return Ifc4Package.eINSTANCE.getIfcAirTerminal();
     }
 
     /**
@@ -62,7 +62,7 @@ public class IfcAirTerminalImpl extends IfcFlowTerminalImpl implements IfcAirTer
      */
     @Override
     public IfcAirTerminalTypeEnum getPredefinedType() {
-        return (IfcAirTerminalTypeEnum) eGet(Ifc4Package.Literals.IFC_AIR_TERMINAL__PREDEFINED_TYPE, true);
+        return (IfcAirTerminalTypeEnum) eGet(Ifc4Package.eINSTANCE.getIfcAirTerminal_PredefinedType(), true);
     }
 
     /**
@@ -72,7 +72,7 @@ public class IfcAirTerminalImpl extends IfcFlowTerminalImpl implements IfcAirTer
      */
     @Override
     public void setPredefinedType(IfcAirTerminalTypeEnum newPredefinedType) {
-        eSet(Ifc4Package.Literals.IFC_AIR_TERMINAL__PREDEFINED_TYPE, newPredefinedType);
+        eSet(Ifc4Package.eINSTANCE.getIfcAirTerminal_PredefinedType(), newPredefinedType);
     }
 
     /**
@@ -82,7 +82,7 @@ public class IfcAirTerminalImpl extends IfcFlowTerminalImpl implements IfcAirTer
      */
     @Override
     public void unsetPredefinedType() {
-        eUnset(Ifc4Package.Literals.IFC_AIR_TERMINAL__PREDEFINED_TYPE);
+        eUnset(Ifc4Package.eINSTANCE.getIfcAirTerminal_PredefinedType());
     }
 
     /**
@@ -92,7 +92,7 @@ public class IfcAirTerminalImpl extends IfcFlowTerminalImpl implements IfcAirTer
      */
     @Override
     public boolean isSetPredefinedType() {
-        return eIsSet(Ifc4Package.Literals.IFC_AIR_TERMINAL__PREDEFINED_TYPE);
+        return eIsSet(Ifc4Package.eINSTANCE.getIfcAirTerminal_PredefinedType());
     }
 
 } //IfcAirTerminalImpl

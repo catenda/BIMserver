@@ -41,10 +41,6 @@ public interface IfcRelDefinesByTemplate extends IfcRelDefines {
      * The list contents are of type {@link org.bimserver.models.ifc4.IfcPropertySetDefinition}.
      * It is bidirectional and its opposite is '{@link org.bimserver.models.ifc4.IfcPropertySetDefinition#getIsDefinedBy <em>Is Defined By</em>}'.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Related Property Sets</em>' reference list isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Related Property Sets</em>' reference list.
      * @see org.bimserver.models.ifc4.Ifc4Package#getIfcRelDefinesByTemplate_RelatedPropertySets()
@@ -59,10 +55,6 @@ public interface IfcRelDefinesByTemplate extends IfcRelDefines {
      * Returns the value of the '<em><b>Relating Template</b></em>' reference.
      * It is bidirectional and its opposite is '{@link org.bimserver.models.ifc4.IfcPropertySetTemplate#getDefines <em>Defines</em>}'.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Relating Template</em>' reference isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Relating Template</em>' reference.
      * @see #setRelatingTemplate(IfcPropertySetTemplate)

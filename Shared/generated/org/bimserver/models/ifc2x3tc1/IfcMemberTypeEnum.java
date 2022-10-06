@@ -185,10 +185,6 @@ public enum IfcMemberTypeEnum implements Enumerator {
     /**
      * The '<em><b>NULL</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>NULL</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #NULL
      * @model
@@ -200,10 +196,6 @@ public enum IfcMemberTypeEnum implements Enumerator {
     /**
      * The '<em><b>POST</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>POST</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #POST
      * @model
@@ -215,10 +207,6 @@ public enum IfcMemberTypeEnum implements Enumerator {
     /**
      * The '<em><b>RAFTER</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>RAFTER</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #RAFTER
      * @model
@@ -230,10 +218,6 @@ public enum IfcMemberTypeEnum implements Enumerator {
     /**
      * The '<em><b>STRUT</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>STRUT</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #STRUT
      * @model
@@ -245,10 +229,6 @@ public enum IfcMemberTypeEnum implements Enumerator {
     /**
      * The '<em><b>USERDEFINED</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>USERDEFINED</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #USERDEFINED
      * @model
@@ -260,10 +240,6 @@ public enum IfcMemberTypeEnum implements Enumerator {
     /**
      * The '<em><b>COLLAR</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>COLLAR</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #COLLAR
      * @model
@@ -275,10 +251,6 @@ public enum IfcMemberTypeEnum implements Enumerator {
     /**
      * The '<em><b>CHORD</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>CHORD</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #CHORD
      * @model
@@ -290,10 +262,6 @@ public enum IfcMemberTypeEnum implements Enumerator {
     /**
      * The '<em><b>MEMBER</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>MEMBER</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #MEMBER
      * @model
@@ -305,10 +273,6 @@ public enum IfcMemberTypeEnum implements Enumerator {
     /**
      * The '<em><b>NOTDEFINED</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>NOTDEFINED</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #NOTDEFINED
      * @model
@@ -320,10 +284,6 @@ public enum IfcMemberTypeEnum implements Enumerator {
     /**
      * The '<em><b>PURLIN</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>PURLIN</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #PURLIN
      * @model
@@ -335,10 +295,6 @@ public enum IfcMemberTypeEnum implements Enumerator {
     /**
      * The '<em><b>STUD</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>STUD</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #STUD
      * @model
@@ -350,10 +306,6 @@ public enum IfcMemberTypeEnum implements Enumerator {
     /**
      * The '<em><b>BRACE</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>BRACE</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #BRACE
      * @model
@@ -365,10 +317,6 @@ public enum IfcMemberTypeEnum implements Enumerator {
     /**
      * The '<em><b>PLATE</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>PLATE</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #PLATE
      * @model
@@ -380,10 +328,6 @@ public enum IfcMemberTypeEnum implements Enumerator {
     /**
      * The '<em><b>STRINGER</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>STRINGER</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #STRINGER
      * @model
@@ -395,10 +339,6 @@ public enum IfcMemberTypeEnum implements Enumerator {
     /**
      * The '<em><b>MULLION</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>MULLION</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #MULLION
      * @model

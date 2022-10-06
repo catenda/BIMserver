@@ -59,7 +59,7 @@ public class IfcDerivedUnitImpl extends IdEObjectImpl implements IfcDerivedUnit 
      */
     @Override
     protected EClass eStaticClass() {
-        return Ifc2x3tc1Package.Literals.IFC_DERIVED_UNIT;
+        return Ifc2x3tc1Package.eINSTANCE.getIfcDerivedUnit();
     }
 
     /**
@@ -80,7 +80,7 @@ public class IfcDerivedUnitImpl extends IdEObjectImpl implements IfcDerivedUnit 
     @SuppressWarnings("unchecked")
     @Override
     public EList<IfcDerivedUnitElement> getElements() {
-        return (EList<IfcDerivedUnitElement>) eGet(Ifc2x3tc1Package.Literals.IFC_DERIVED_UNIT__ELEMENTS, true);
+        return (EList<IfcDerivedUnitElement>) eGet(Ifc2x3tc1Package.eINSTANCE.getIfcDerivedUnit_Elements(), true);
     }
 
     /**
@@ -90,7 +90,7 @@ public class IfcDerivedUnitImpl extends IdEObjectImpl implements IfcDerivedUnit 
      */
     @Override
     public IfcDerivedUnitEnum getUnitType() {
-        return (IfcDerivedUnitEnum) eGet(Ifc2x3tc1Package.Literals.IFC_DERIVED_UNIT__UNIT_TYPE, true);
+        return (IfcDerivedUnitEnum) eGet(Ifc2x3tc1Package.eINSTANCE.getIfcDerivedUnit_UnitType(), true);
     }
 
     /**
@@ -100,7 +100,7 @@ public class IfcDerivedUnitImpl extends IdEObjectImpl implements IfcDerivedUnit 
      */
     @Override
     public void setUnitType(IfcDerivedUnitEnum newUnitType) {
-        eSet(Ifc2x3tc1Package.Literals.IFC_DERIVED_UNIT__UNIT_TYPE, newUnitType);
+        eSet(Ifc2x3tc1Package.eINSTANCE.getIfcDerivedUnit_UnitType(), newUnitType);
     }
 
     /**
@@ -110,7 +110,7 @@ public class IfcDerivedUnitImpl extends IdEObjectImpl implements IfcDerivedUnit 
      */
     @Override
     public String getUserDefinedType() {
-        return (String) eGet(Ifc2x3tc1Package.Literals.IFC_DERIVED_UNIT__USER_DEFINED_TYPE, true);
+        return (String) eGet(Ifc2x3tc1Package.eINSTANCE.getIfcDerivedUnit_UserDefinedType(), true);
     }
 
     /**
@@ -120,7 +120,7 @@ public class IfcDerivedUnitImpl extends IdEObjectImpl implements IfcDerivedUnit 
      */
     @Override
     public void setUserDefinedType(String newUserDefinedType) {
-        eSet(Ifc2x3tc1Package.Literals.IFC_DERIVED_UNIT__USER_DEFINED_TYPE, newUserDefinedType);
+        eSet(Ifc2x3tc1Package.eINSTANCE.getIfcDerivedUnit_UserDefinedType(), newUserDefinedType);
     }
 
     /**
@@ -130,7 +130,7 @@ public class IfcDerivedUnitImpl extends IdEObjectImpl implements IfcDerivedUnit 
      */
     @Override
     public void unsetUserDefinedType() {
-        eUnset(Ifc2x3tc1Package.Literals.IFC_DERIVED_UNIT__USER_DEFINED_TYPE);
+        eUnset(Ifc2x3tc1Package.eINSTANCE.getIfcDerivedUnit_UserDefinedType());
     }
 
     /**
@@ -140,7 +140,7 @@ public class IfcDerivedUnitImpl extends IdEObjectImpl implements IfcDerivedUnit 
      */
     @Override
     public boolean isSetUserDefinedType() {
-        return eIsSet(Ifc2x3tc1Package.Literals.IFC_DERIVED_UNIT__USER_DEFINED_TYPE);
+        return eIsSet(Ifc2x3tc1Package.eINSTANCE.getIfcDerivedUnit_UserDefinedType());
     }
 
 } //IfcDerivedUnitImpl

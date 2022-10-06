@@ -155,10 +155,6 @@ public enum IfcLampTypeEnum implements Enumerator {
     /**
      * The '<em><b>NULL</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>NULL</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #NULL
      * @model
@@ -170,10 +166,6 @@ public enum IfcLampTypeEnum implements Enumerator {
     /**
      * The '<em><b>TUNGSTENFILAMENT</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>TUNGSTENFILAMENT</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #TUNGSTENFILAMENT
      * @model
@@ -185,10 +177,6 @@ public enum IfcLampTypeEnum implements Enumerator {
     /**
      * The '<em><b>FLUORESCENT</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>FLUORESCENT</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #FLUORESCENT
      * @model
@@ -200,10 +188,6 @@ public enum IfcLampTypeEnum implements Enumerator {
     /**
      * The '<em><b>NOTDEFINED</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>NOTDEFINED</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #NOTDEFINED
      * @model
@@ -215,10 +199,6 @@ public enum IfcLampTypeEnum implements Enumerator {
     /**
      * The '<em><b>HIGHPRESSURESODIUM</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>HIGHPRESSURESODIUM</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #HIGHPRESSURESODIUM
      * @model
@@ -230,10 +210,6 @@ public enum IfcLampTypeEnum implements Enumerator {
     /**
      * The '<em><b>OLED</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>OLED</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #OLED
      * @model
@@ -245,10 +221,6 @@ public enum IfcLampTypeEnum implements Enumerator {
     /**
      * The '<em><b>LED</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>LED</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #LED
      * @model
@@ -260,10 +232,6 @@ public enum IfcLampTypeEnum implements Enumerator {
     /**
      * The '<em><b>METALHALIDE</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>METALHALIDE</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #METALHALIDE
      * @model
@@ -275,10 +243,6 @@ public enum IfcLampTypeEnum implements Enumerator {
     /**
      * The '<em><b>USERDEFINED</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>USERDEFINED</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #USERDEFINED
      * @model
@@ -290,10 +254,6 @@ public enum IfcLampTypeEnum implements Enumerator {
     /**
      * The '<em><b>HALOGEN</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>HALOGEN</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #HALOGEN
      * @model
@@ -305,10 +265,6 @@ public enum IfcLampTypeEnum implements Enumerator {
     /**
      * The '<em><b>COMPACTFLUORESCENT</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>COMPACTFLUORESCENT</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #COMPACTFLUORESCENT
      * @model
@@ -320,10 +276,6 @@ public enum IfcLampTypeEnum implements Enumerator {
     /**
      * The '<em><b>HIGHPRESSUREMERCURY</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>HIGHPRESSUREMERCURY</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #HIGHPRESSUREMERCURY
      * @model

@@ -59,7 +59,7 @@ public class IfcSectionedSpineImpl extends IfcGeometricRepresentationItemImpl im
      */
     @Override
     protected EClass eStaticClass() {
-        return Ifc4Package.Literals.IFC_SECTIONED_SPINE;
+        return Ifc4Package.eINSTANCE.getIfcSectionedSpine();
     }
 
     /**
@@ -69,7 +69,7 @@ public class IfcSectionedSpineImpl extends IfcGeometricRepresentationItemImpl im
      */
     @Override
     public IfcCompositeCurve getSpineCurve() {
-        return (IfcCompositeCurve) eGet(Ifc4Package.Literals.IFC_SECTIONED_SPINE__SPINE_CURVE, true);
+        return (IfcCompositeCurve) eGet(Ifc4Package.eINSTANCE.getIfcSectionedSpine_SpineCurve(), true);
     }
 
     /**
@@ -79,7 +79,7 @@ public class IfcSectionedSpineImpl extends IfcGeometricRepresentationItemImpl im
      */
     @Override
     public void setSpineCurve(IfcCompositeCurve newSpineCurve) {
-        eSet(Ifc4Package.Literals.IFC_SECTIONED_SPINE__SPINE_CURVE, newSpineCurve);
+        eSet(Ifc4Package.eINSTANCE.getIfcSectionedSpine_SpineCurve(), newSpineCurve);
     }
 
     /**
@@ -90,7 +90,7 @@ public class IfcSectionedSpineImpl extends IfcGeometricRepresentationItemImpl im
     @SuppressWarnings("unchecked")
     @Override
     public EList<IfcProfileDef> getCrossSections() {
-        return (EList<IfcProfileDef>) eGet(Ifc4Package.Literals.IFC_SECTIONED_SPINE__CROSS_SECTIONS, true);
+        return (EList<IfcProfileDef>) eGet(Ifc4Package.eINSTANCE.getIfcSectionedSpine_CrossSections(), true);
     }
 
     /**
@@ -101,7 +101,7 @@ public class IfcSectionedSpineImpl extends IfcGeometricRepresentationItemImpl im
     @SuppressWarnings("unchecked")
     @Override
     public EList<IfcAxis2Placement3D> getCrossSectionPositions() {
-        return (EList<IfcAxis2Placement3D>) eGet(Ifc4Package.Literals.IFC_SECTIONED_SPINE__CROSS_SECTION_POSITIONS,
+        return (EList<IfcAxis2Placement3D>) eGet(Ifc4Package.eINSTANCE.getIfcSectionedSpine_CrossSectionPositions(),
                 true);
     }
 
@@ -112,7 +112,7 @@ public class IfcSectionedSpineImpl extends IfcGeometricRepresentationItemImpl im
      */
     @Override
     public long getDim() {
-        return (Long) eGet(Ifc4Package.Literals.IFC_SECTIONED_SPINE__DIM, true);
+        return (Long) eGet(Ifc4Package.eINSTANCE.getIfcSectionedSpine_Dim(), true);
     }
 
     /**
@@ -122,7 +122,7 @@ public class IfcSectionedSpineImpl extends IfcGeometricRepresentationItemImpl im
      */
     @Override
     public void setDim(long newDim) {
-        eSet(Ifc4Package.Literals.IFC_SECTIONED_SPINE__DIM, newDim);
+        eSet(Ifc4Package.eINSTANCE.getIfcSectionedSpine_Dim(), newDim);
     }
 
     /**
@@ -132,7 +132,7 @@ public class IfcSectionedSpineImpl extends IfcGeometricRepresentationItemImpl im
      */
     @Override
     public void unsetDim() {
-        eUnset(Ifc4Package.Literals.IFC_SECTIONED_SPINE__DIM);
+        eUnset(Ifc4Package.eINSTANCE.getIfcSectionedSpine_Dim());
     }
 
     /**
@@ -142,7 +142,7 @@ public class IfcSectionedSpineImpl extends IfcGeometricRepresentationItemImpl im
      */
     @Override
     public boolean isSetDim() {
-        return eIsSet(Ifc4Package.Literals.IFC_SECTIONED_SPINE__DIM);
+        return eIsSet(Ifc4Package.eINSTANCE.getIfcSectionedSpine_Dim());
     }
 
 } //IfcSectionedSpineImpl

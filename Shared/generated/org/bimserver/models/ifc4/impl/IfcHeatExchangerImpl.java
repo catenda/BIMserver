@@ -52,7 +52,7 @@ public class IfcHeatExchangerImpl extends IfcEnergyConversionDeviceImpl implemen
      */
     @Override
     protected EClass eStaticClass() {
-        return Ifc4Package.Literals.IFC_HEAT_EXCHANGER;
+        return Ifc4Package.eINSTANCE.getIfcHeatExchanger();
     }
 
     /**
@@ -62,7 +62,7 @@ public class IfcHeatExchangerImpl extends IfcEnergyConversionDeviceImpl implemen
      */
     @Override
     public IfcHeatExchangerTypeEnum getPredefinedType() {
-        return (IfcHeatExchangerTypeEnum) eGet(Ifc4Package.Literals.IFC_HEAT_EXCHANGER__PREDEFINED_TYPE, true);
+        return (IfcHeatExchangerTypeEnum) eGet(Ifc4Package.eINSTANCE.getIfcHeatExchanger_PredefinedType(), true);
     }
 
     /**
@@ -72,7 +72,7 @@ public class IfcHeatExchangerImpl extends IfcEnergyConversionDeviceImpl implemen
      */
     @Override
     public void setPredefinedType(IfcHeatExchangerTypeEnum newPredefinedType) {
-        eSet(Ifc4Package.Literals.IFC_HEAT_EXCHANGER__PREDEFINED_TYPE, newPredefinedType);
+        eSet(Ifc4Package.eINSTANCE.getIfcHeatExchanger_PredefinedType(), newPredefinedType);
     }
 
     /**
@@ -82,7 +82,7 @@ public class IfcHeatExchangerImpl extends IfcEnergyConversionDeviceImpl implemen
      */
     @Override
     public void unsetPredefinedType() {
-        eUnset(Ifc4Package.Literals.IFC_HEAT_EXCHANGER__PREDEFINED_TYPE);
+        eUnset(Ifc4Package.eINSTANCE.getIfcHeatExchanger_PredefinedType());
     }
 
     /**
@@ -92,7 +92,7 @@ public class IfcHeatExchangerImpl extends IfcEnergyConversionDeviceImpl implemen
      */
     @Override
     public boolean isSetPredefinedType() {
-        return eIsSet(Ifc4Package.Literals.IFC_HEAT_EXCHANGER__PREDEFINED_TYPE);
+        return eIsSet(Ifc4Package.eINSTANCE.getIfcHeatExchanger_PredefinedType());
     }
 
 } //IfcHeatExchangerImpl

@@ -38,10 +38,6 @@ public interface IfcHalfSpaceSolid extends IfcGeometricRepresentationItem, IfcBo
     /**
      * Returns the value of the '<em><b>Base Surface</b></em>' reference.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Base Surface</em>' reference isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Base Surface</em>' reference.
      * @see #setBaseSurface(IfcSurface)
@@ -65,10 +61,6 @@ public interface IfcHalfSpaceSolid extends IfcGeometricRepresentationItem, IfcBo
      * Returns the value of the '<em><b>Agreement Flag</b></em>' attribute.
      * The literals are from the enumeration {@link org.bimserver.models.ifc2x3tc1.Tristate}.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Agreement Flag</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Agreement Flag</em>' attribute.
      * @see org.bimserver.models.ifc2x3tc1.Tristate
@@ -93,10 +85,6 @@ public interface IfcHalfSpaceSolid extends IfcGeometricRepresentationItem, IfcBo
     /**
      * Returns the value of the '<em><b>Dim</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Dim</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Dim</em>' attribute.
      * @see #isSetDim()

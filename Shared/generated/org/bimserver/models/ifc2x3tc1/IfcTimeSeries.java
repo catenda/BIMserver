@@ -46,10 +46,6 @@ public interface IfcTimeSeries extends IfcMetricValueSelect, IfcObjectReferenceS
     /**
      * Returns the value of the '<em><b>Name</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Name</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Name</em>' attribute.
      * @see #setName(String)
@@ -72,10 +68,6 @@ public interface IfcTimeSeries extends IfcMetricValueSelect, IfcObjectReferenceS
     /**
      * Returns the value of the '<em><b>Description</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Description</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Description</em>' attribute.
      * @see #isSetDescription()
@@ -125,10 +117,6 @@ public interface IfcTimeSeries extends IfcMetricValueSelect, IfcObjectReferenceS
     /**
      * Returns the value of the '<em><b>Start Time</b></em>' reference.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Start Time</em>' reference isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Start Time</em>' reference.
      * @see #setStartTime(IfcDateTimeSelect)
@@ -151,10 +139,6 @@ public interface IfcTimeSeries extends IfcMetricValueSelect, IfcObjectReferenceS
     /**
      * Returns the value of the '<em><b>End Time</b></em>' reference.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>End Time</em>' reference isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>End Time</em>' reference.
      * @see #setEndTime(IfcDateTimeSelect)
@@ -178,10 +162,6 @@ public interface IfcTimeSeries extends IfcMetricValueSelect, IfcObjectReferenceS
      * Returns the value of the '<em><b>Time Series Data Type</b></em>' attribute.
      * The literals are from the enumeration {@link org.bimserver.models.ifc2x3tc1.IfcTimeSeriesDataTypeEnum}.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Time Series Data Type</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Time Series Data Type</em>' attribute.
      * @see org.bimserver.models.ifc2x3tc1.IfcTimeSeriesDataTypeEnum
@@ -207,10 +187,6 @@ public interface IfcTimeSeries extends IfcMetricValueSelect, IfcObjectReferenceS
      * Returns the value of the '<em><b>Data Origin</b></em>' attribute.
      * The literals are from the enumeration {@link org.bimserver.models.ifc2x3tc1.IfcDataOriginEnum}.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Data Origin</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Data Origin</em>' attribute.
      * @see org.bimserver.models.ifc2x3tc1.IfcDataOriginEnum
@@ -235,10 +211,6 @@ public interface IfcTimeSeries extends IfcMetricValueSelect, IfcObjectReferenceS
     /**
      * Returns the value of the '<em><b>User Defined Data Origin</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>User Defined Data Origin</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>User Defined Data Origin</em>' attribute.
      * @see #isSetUserDefinedDataOrigin()
@@ -288,10 +260,6 @@ public interface IfcTimeSeries extends IfcMetricValueSelect, IfcObjectReferenceS
     /**
      * Returns the value of the '<em><b>Unit</b></em>' reference.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Unit</em>' reference isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Unit</em>' reference.
      * @see #isSetUnit()
@@ -343,10 +311,6 @@ public interface IfcTimeSeries extends IfcMetricValueSelect, IfcObjectReferenceS
      * The list contents are of type {@link org.bimserver.models.ifc2x3tc1.IfcTimeSeriesReferenceRelationship}.
      * It is bidirectional and its opposite is '{@link org.bimserver.models.ifc2x3tc1.IfcTimeSeriesReferenceRelationship#getReferencedTimeSeries <em>Referenced Time Series</em>}'.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Documented By</em>' reference list isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Documented By</em>' reference list.
      * @see #isSetDocumentedBy()

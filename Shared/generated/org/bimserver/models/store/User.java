@@ -63,10 +63,6 @@ public interface User extends IdEObject {
     /**
      * Returns the value of the '<em><b>Name</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Name</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Name</em>' attribute.
      * @see #setName(String)
@@ -89,10 +85,6 @@ public interface User extends IdEObject {
     /**
      * Returns the value of the '<em><b>Password Hash</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Password Hash</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Password Hash</em>' attribute.
      * @see #setPasswordHash(byte[])
@@ -115,10 +107,6 @@ public interface User extends IdEObject {
     /**
      * Returns the value of the '<em><b>Password Salt</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Password Salt</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Password Salt</em>' attribute.
      * @see #setPasswordSalt(byte[])
@@ -143,10 +131,6 @@ public interface User extends IdEObject {
      * The list contents are of type {@link org.bimserver.models.store.Project}.
      * It is bidirectional and its opposite is '{@link org.bimserver.models.store.Project#getHasAuthorizedUsers <em>Has Authorized Users</em>}'.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Has Rights On</em>' reference list isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Has Rights On</em>' reference list.
      * @see org.bimserver.models.store.StorePackage#getUser_HasRightsOn()
@@ -161,10 +145,6 @@ public interface User extends IdEObject {
      * The list contents are of type {@link org.bimserver.models.store.Revision}.
      * It is bidirectional and its opposite is '{@link org.bimserver.models.store.Revision#getUser <em>User</em>}'.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Revisions</em>' reference list isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Revisions</em>' reference list.
      * @see org.bimserver.models.store.StorePackage#getUser_Revisions()
@@ -178,10 +158,6 @@ public interface User extends IdEObject {
      * Returns the value of the '<em><b>State</b></em>' attribute.
      * The literals are from the enumeration {@link org.bimserver.models.store.ObjectState}.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>State</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>State</em>' attribute.
      * @see org.bimserver.models.store.ObjectState
@@ -206,10 +182,6 @@ public interface User extends IdEObject {
     /**
      * Returns the value of the '<em><b>Created On</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Created On</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Created On</em>' attribute.
      * @see #setCreatedOn(Date)
@@ -232,10 +204,6 @@ public interface User extends IdEObject {
     /**
      * Returns the value of the '<em><b>Created By</b></em>' reference.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Created By</em>' reference isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Created By</em>' reference.
      * @see #setCreatedBy(User)
@@ -259,10 +227,6 @@ public interface User extends IdEObject {
      * Returns the value of the '<em><b>User Type</b></em>' attribute.
      * The literals are from the enumeration {@link org.bimserver.models.store.UserType}.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>User Type</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>User Type</em>' attribute.
      * @see org.bimserver.models.store.UserType
@@ -287,10 +251,6 @@ public interface User extends IdEObject {
     /**
      * Returns the value of the '<em><b>Username</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Username</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Username</em>' attribute.
      * @see #setUsername(String)
@@ -313,10 +273,6 @@ public interface User extends IdEObject {
     /**
      * Returns the value of the '<em><b>Last Seen</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Last Seen</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Last Seen</em>' attribute.
      * @see #setLastSeen(Date)
@@ -339,10 +295,6 @@ public interface User extends IdEObject {
     /**
      * Returns the value of the '<em><b>Token</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Token</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Token</em>' attribute.
      * @see #setToken(String)
@@ -365,10 +317,6 @@ public interface User extends IdEObject {
     /**
      * Returns the value of the '<em><b>Validation Token</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Validation Token</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Validation Token</em>' attribute.
      * @see #setValidationToken(byte[])
@@ -391,10 +339,6 @@ public interface User extends IdEObject {
     /**
      * Returns the value of the '<em><b>Validation Token Created</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Validation Token Created</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Validation Token Created</em>' attribute.
      * @see #setValidationTokenCreated(Date)
@@ -417,10 +361,6 @@ public interface User extends IdEObject {
     /**
      * Returns the value of the '<em><b>User Settings</b></em>' reference.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>User Settings</em>' reference isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>User Settings</em>' reference.
      * @see #setUserSettings(UserSettings)
@@ -445,10 +385,6 @@ public interface User extends IdEObject {
      * The list contents are of type {@link org.bimserver.models.store.ExtendedDataSchema}.
      * It is bidirectional and its opposite is '{@link org.bimserver.models.store.ExtendedDataSchema#getUsers <em>Users</em>}'.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Schemas</em>' reference list isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Schemas</em>' reference list.
      * @see org.bimserver.models.store.StorePackage#getUser_Schemas()
@@ -463,10 +399,6 @@ public interface User extends IdEObject {
      * The list contents are of type {@link org.bimserver.models.store.ExtendedData}.
      * It is bidirectional and its opposite is '{@link org.bimserver.models.store.ExtendedData#getUser <em>User</em>}'.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Extended Data</em>' reference list isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Extended Data</em>' reference list.
      * @see org.bimserver.models.store.StorePackage#getUser_ExtendedData()
@@ -481,10 +413,6 @@ public interface User extends IdEObject {
      * The list contents are of type {@link org.bimserver.models.store.Service}.
      * It is bidirectional and its opposite is '{@link org.bimserver.models.store.Service#getUser <em>User</em>}'.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Services</em>' reference list isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Services</em>' reference list.
      * @see org.bimserver.models.store.StorePackage#getUser_Services()
@@ -499,10 +427,6 @@ public interface User extends IdEObject {
      * The list contents are of type {@link org.bimserver.models.log.UserRelated}.
      * It is bidirectional and its opposite is '{@link org.bimserver.models.log.UserRelated#getUser <em>User</em>}'.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Logs</em>' reference list isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Logs</em>' reference list.
      * @see org.bimserver.models.store.StorePackage#getUser_Logs()

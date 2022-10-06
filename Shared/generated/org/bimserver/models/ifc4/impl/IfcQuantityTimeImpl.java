@@ -53,7 +53,7 @@ public class IfcQuantityTimeImpl extends IfcPhysicalSimpleQuantityImpl implement
      */
     @Override
     protected EClass eStaticClass() {
-        return Ifc4Package.Literals.IFC_QUANTITY_TIME;
+        return Ifc4Package.eINSTANCE.getIfcQuantityTime();
     }
 
     /**
@@ -63,7 +63,7 @@ public class IfcQuantityTimeImpl extends IfcPhysicalSimpleQuantityImpl implement
      */
     @Override
     public double getTimeValue() {
-        return (Double) eGet(Ifc4Package.Literals.IFC_QUANTITY_TIME__TIME_VALUE, true);
+        return (Double) eGet(Ifc4Package.eINSTANCE.getIfcQuantityTime_TimeValue(), true);
     }
 
     /**
@@ -73,7 +73,7 @@ public class IfcQuantityTimeImpl extends IfcPhysicalSimpleQuantityImpl implement
      */
     @Override
     public void setTimeValue(double newTimeValue) {
-        eSet(Ifc4Package.Literals.IFC_QUANTITY_TIME__TIME_VALUE, newTimeValue);
+        eSet(Ifc4Package.eINSTANCE.getIfcQuantityTime_TimeValue(), newTimeValue);
     }
 
     /**
@@ -83,7 +83,7 @@ public class IfcQuantityTimeImpl extends IfcPhysicalSimpleQuantityImpl implement
      */
     @Override
     public String getTimeValueAsString() {
-        return (String) eGet(Ifc4Package.Literals.IFC_QUANTITY_TIME__TIME_VALUE_AS_STRING, true);
+        return (String) eGet(Ifc4Package.eINSTANCE.getIfcQuantityTime_TimeValueAsString(), true);
     }
 
     /**
@@ -93,7 +93,7 @@ public class IfcQuantityTimeImpl extends IfcPhysicalSimpleQuantityImpl implement
      */
     @Override
     public void setTimeValueAsString(String newTimeValueAsString) {
-        eSet(Ifc4Package.Literals.IFC_QUANTITY_TIME__TIME_VALUE_AS_STRING, newTimeValueAsString);
+        eSet(Ifc4Package.eINSTANCE.getIfcQuantityTime_TimeValueAsString(), newTimeValueAsString);
     }
 
     /**
@@ -103,7 +103,7 @@ public class IfcQuantityTimeImpl extends IfcPhysicalSimpleQuantityImpl implement
      */
     @Override
     public String getFormula() {
-        return (String) eGet(Ifc4Package.Literals.IFC_QUANTITY_TIME__FORMULA, true);
+        return (String) eGet(Ifc4Package.eINSTANCE.getIfcQuantityTime_Formula(), true);
     }
 
     /**
@@ -113,7 +113,7 @@ public class IfcQuantityTimeImpl extends IfcPhysicalSimpleQuantityImpl implement
      */
     @Override
     public void setFormula(String newFormula) {
-        eSet(Ifc4Package.Literals.IFC_QUANTITY_TIME__FORMULA, newFormula);
+        eSet(Ifc4Package.eINSTANCE.getIfcQuantityTime_Formula(), newFormula);
     }
 
     /**
@@ -123,7 +123,7 @@ public class IfcQuantityTimeImpl extends IfcPhysicalSimpleQuantityImpl implement
      */
     @Override
     public void unsetFormula() {
-        eUnset(Ifc4Package.Literals.IFC_QUANTITY_TIME__FORMULA);
+        eUnset(Ifc4Package.eINSTANCE.getIfcQuantityTime_Formula());
     }
 
     /**
@@ -133,7 +133,7 @@ public class IfcQuantityTimeImpl extends IfcPhysicalSimpleQuantityImpl implement
      */
     @Override
     public boolean isSetFormula() {
-        return eIsSet(Ifc4Package.Literals.IFC_QUANTITY_TIME__FORMULA);
+        return eIsSet(Ifc4Package.eINSTANCE.getIfcQuantityTime_Formula());
     }
 
 } //IfcQuantityTimeImpl

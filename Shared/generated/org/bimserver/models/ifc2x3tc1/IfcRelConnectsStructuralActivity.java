@@ -37,10 +37,6 @@ public interface IfcRelConnectsStructuralActivity extends IfcRelConnects {
     /**
      * Returns the value of the '<em><b>Relating Element</b></em>' reference.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Relating Element</em>' reference isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Relating Element</em>' reference.
      * @see #setRelatingElement(IfcStructuralActivityAssignmentSelect)
@@ -64,10 +60,6 @@ public interface IfcRelConnectsStructuralActivity extends IfcRelConnects {
      * Returns the value of the '<em><b>Related Structural Activity</b></em>' reference.
      * It is bidirectional and its opposite is '{@link org.bimserver.models.ifc2x3tc1.IfcStructuralActivity#getAssignedToStructuralItem <em>Assigned To Structural Item</em>}'.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Related Structural Activity</em>' reference isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Related Structural Activity</em>' reference.
      * @see #setRelatedStructuralActivity(IfcStructuralActivity)

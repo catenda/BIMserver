@@ -53,7 +53,7 @@ public class IfcQuantityLengthImpl extends IfcPhysicalSimpleQuantityImpl impleme
      */
     @Override
     protected EClass eStaticClass() {
-        return Ifc4Package.Literals.IFC_QUANTITY_LENGTH;
+        return Ifc4Package.eINSTANCE.getIfcQuantityLength();
     }
 
     /**
@@ -63,7 +63,7 @@ public class IfcQuantityLengthImpl extends IfcPhysicalSimpleQuantityImpl impleme
      */
     @Override
     public double getLengthValue() {
-        return (Double) eGet(Ifc4Package.Literals.IFC_QUANTITY_LENGTH__LENGTH_VALUE, true);
+        return (Double) eGet(Ifc4Package.eINSTANCE.getIfcQuantityLength_LengthValue(), true);
     }
 
     /**
@@ -73,7 +73,7 @@ public class IfcQuantityLengthImpl extends IfcPhysicalSimpleQuantityImpl impleme
      */
     @Override
     public void setLengthValue(double newLengthValue) {
-        eSet(Ifc4Package.Literals.IFC_QUANTITY_LENGTH__LENGTH_VALUE, newLengthValue);
+        eSet(Ifc4Package.eINSTANCE.getIfcQuantityLength_LengthValue(), newLengthValue);
     }
 
     /**
@@ -83,7 +83,7 @@ public class IfcQuantityLengthImpl extends IfcPhysicalSimpleQuantityImpl impleme
      */
     @Override
     public String getLengthValueAsString() {
-        return (String) eGet(Ifc4Package.Literals.IFC_QUANTITY_LENGTH__LENGTH_VALUE_AS_STRING, true);
+        return (String) eGet(Ifc4Package.eINSTANCE.getIfcQuantityLength_LengthValueAsString(), true);
     }
 
     /**
@@ -93,7 +93,7 @@ public class IfcQuantityLengthImpl extends IfcPhysicalSimpleQuantityImpl impleme
      */
     @Override
     public void setLengthValueAsString(String newLengthValueAsString) {
-        eSet(Ifc4Package.Literals.IFC_QUANTITY_LENGTH__LENGTH_VALUE_AS_STRING, newLengthValueAsString);
+        eSet(Ifc4Package.eINSTANCE.getIfcQuantityLength_LengthValueAsString(), newLengthValueAsString);
     }
 
     /**
@@ -103,7 +103,7 @@ public class IfcQuantityLengthImpl extends IfcPhysicalSimpleQuantityImpl impleme
      */
     @Override
     public String getFormula() {
-        return (String) eGet(Ifc4Package.Literals.IFC_QUANTITY_LENGTH__FORMULA, true);
+        return (String) eGet(Ifc4Package.eINSTANCE.getIfcQuantityLength_Formula(), true);
     }
 
     /**
@@ -113,7 +113,7 @@ public class IfcQuantityLengthImpl extends IfcPhysicalSimpleQuantityImpl impleme
      */
     @Override
     public void setFormula(String newFormula) {
-        eSet(Ifc4Package.Literals.IFC_QUANTITY_LENGTH__FORMULA, newFormula);
+        eSet(Ifc4Package.eINSTANCE.getIfcQuantityLength_Formula(), newFormula);
     }
 
     /**
@@ -123,7 +123,7 @@ public class IfcQuantityLengthImpl extends IfcPhysicalSimpleQuantityImpl impleme
      */
     @Override
     public void unsetFormula() {
-        eUnset(Ifc4Package.Literals.IFC_QUANTITY_LENGTH__FORMULA);
+        eUnset(Ifc4Package.eINSTANCE.getIfcQuantityLength_Formula());
     }
 
     /**
@@ -133,7 +133,7 @@ public class IfcQuantityLengthImpl extends IfcPhysicalSimpleQuantityImpl impleme
      */
     @Override
     public boolean isSetFormula() {
-        return eIsSet(Ifc4Package.Literals.IFC_QUANTITY_LENGTH__FORMULA);
+        return eIsSet(Ifc4Package.eINSTANCE.getIfcQuantityLength_Formula());
     }
 
 } //IfcQuantityLengthImpl

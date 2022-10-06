@@ -41,10 +41,6 @@ public interface IfcBoundaryFaceCondition extends IfcBoundaryCondition {
     /**
      * Returns the value of the '<em><b>Linear Stiffness By Area X</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Linear Stiffness By Area X</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Linear Stiffness By Area X</em>' attribute.
      * @see #isSetLinearStiffnessByAreaX()
@@ -94,10 +90,6 @@ public interface IfcBoundaryFaceCondition extends IfcBoundaryCondition {
     /**
      * Returns the value of the '<em><b>Linear Stiffness By Area XAs String</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Linear Stiffness By Area XAs String</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Linear Stiffness By Area XAs String</em>' attribute.
      * @see #isSetLinearStiffnessByAreaXAsString()
@@ -149,10 +141,6 @@ public interface IfcBoundaryFaceCondition extends IfcBoundaryCondition {
     /**
      * Returns the value of the '<em><b>Linear Stiffness By Area Y</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Linear Stiffness By Area Y</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Linear Stiffness By Area Y</em>' attribute.
      * @see #isSetLinearStiffnessByAreaY()
@@ -202,10 +190,6 @@ public interface IfcBoundaryFaceCondition extends IfcBoundaryCondition {
     /**
      * Returns the value of the '<em><b>Linear Stiffness By Area YAs String</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Linear Stiffness By Area YAs String</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Linear Stiffness By Area YAs String</em>' attribute.
      * @see #isSetLinearStiffnessByAreaYAsString()
@@ -257,10 +241,6 @@ public interface IfcBoundaryFaceCondition extends IfcBoundaryCondition {
     /**
      * Returns the value of the '<em><b>Linear Stiffness By Area Z</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Linear Stiffness By Area Z</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Linear Stiffness By Area Z</em>' attribute.
      * @see #isSetLinearStiffnessByAreaZ()
@@ -310,10 +290,6 @@ public interface IfcBoundaryFaceCondition extends IfcBoundaryCondition {
     /**
      * Returns the value of the '<em><b>Linear Stiffness By Area ZAs String</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Linear Stiffness By Area ZAs String</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Linear Stiffness By Area ZAs String</em>' attribute.
      * @see #isSetLinearStiffnessByAreaZAsString()

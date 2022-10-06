@@ -43,10 +43,6 @@ public interface IfcCompositeCurve extends IfcBoundedCurve {
      * The list contents are of type {@link org.bimserver.models.ifc4.IfcCompositeCurveSegment}.
      * It is bidirectional and its opposite is '{@link org.bimserver.models.ifc4.IfcCompositeCurveSegment#getUsingCurves <em>Using Curves</em>}'.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Segments</em>' reference list isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Segments</em>' reference list.
      * @see org.bimserver.models.ifc4.Ifc4Package#getIfcCompositeCurve_Segments()
@@ -61,10 +57,6 @@ public interface IfcCompositeCurve extends IfcBoundedCurve {
      * Returns the value of the '<em><b>Self Intersect</b></em>' attribute.
      * The literals are from the enumeration {@link org.bimserver.models.ifc4.Tristate}.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Self Intersect</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Self Intersect</em>' attribute.
      * @see org.bimserver.models.ifc4.Tristate
@@ -90,10 +82,6 @@ public interface IfcCompositeCurve extends IfcBoundedCurve {
      * Returns the value of the '<em><b>Closed Curve</b></em>' attribute.
      * The literals are from the enumeration {@link org.bimserver.models.ifc4.Tristate}.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Closed Curve</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Closed Curve</em>' attribute.
      * @see org.bimserver.models.ifc4.Tristate
@@ -146,10 +134,6 @@ public interface IfcCompositeCurve extends IfcBoundedCurve {
     /**
      * Returns the value of the '<em><b>NSegments</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>NSegments</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>NSegments</em>' attribute.
      * @see #isSetNSegments()

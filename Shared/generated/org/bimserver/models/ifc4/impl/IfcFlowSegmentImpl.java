@@ -45,7 +45,7 @@ public class IfcFlowSegmentImpl extends IfcDistributionFlowElementImpl implement
      */
     @Override
     protected EClass eStaticClass() {
-        return Ifc4Package.Literals.IFC_FLOW_SEGMENT;
+        return Ifc4Package.eINSTANCE.getIfcFlowSegment();
     }
 
 } //IfcFlowSegmentImpl

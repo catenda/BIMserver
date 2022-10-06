@@ -22,8 +22,8 @@ import org.bimserver.models.ifc4.Ifc4Package;
 import org.bimserver.models.ifc4.IfcProductRepresentationSelect;
 import org.bimserver.models.ifc4.IfcShapeAspect;
 import org.bimserver.models.ifc4.IfcShapeModel;
-
 import org.bimserver.models.ifc4.Tristate;
+
 import org.eclipse.emf.common.util.EList;
 
 import org.eclipse.emf.ecore.EClass;
@@ -62,7 +62,7 @@ public class IfcShapeAspectImpl extends IdEObjectImpl implements IfcShapeAspect 
      */
     @Override
     protected EClass eStaticClass() {
-        return Ifc4Package.Literals.IFC_SHAPE_ASPECT;
+        return Ifc4Package.eINSTANCE.getIfcShapeAspect();
     }
 
     /**
@@ -83,7 +83,7 @@ public class IfcShapeAspectImpl extends IdEObjectImpl implements IfcShapeAspect 
     @SuppressWarnings("unchecked")
     @Override
     public EList<IfcShapeModel> getShapeRepresentations() {
-        return (EList<IfcShapeModel>) eGet(Ifc4Package.Literals.IFC_SHAPE_ASPECT__SHAPE_REPRESENTATIONS, true);
+        return (EList<IfcShapeModel>) eGet(Ifc4Package.eINSTANCE.getIfcShapeAspect_ShapeRepresentations(), true);
     }
 
     /**
@@ -93,7 +93,7 @@ public class IfcShapeAspectImpl extends IdEObjectImpl implements IfcShapeAspect 
      */
     @Override
     public String getName() {
-        return (String) eGet(Ifc4Package.Literals.IFC_SHAPE_ASPECT__NAME, true);
+        return (String) eGet(Ifc4Package.eINSTANCE.getIfcShapeAspect_Name(), true);
     }
 
     /**
@@ -103,7 +103,7 @@ public class IfcShapeAspectImpl extends IdEObjectImpl implements IfcShapeAspect 
      */
     @Override
     public void setName(String newName) {
-        eSet(Ifc4Package.Literals.IFC_SHAPE_ASPECT__NAME, newName);
+        eSet(Ifc4Package.eINSTANCE.getIfcShapeAspect_Name(), newName);
     }
 
     /**
@@ -113,7 +113,7 @@ public class IfcShapeAspectImpl extends IdEObjectImpl implements IfcShapeAspect 
      */
     @Override
     public void unsetName() {
-        eUnset(Ifc4Package.Literals.IFC_SHAPE_ASPECT__NAME);
+        eUnset(Ifc4Package.eINSTANCE.getIfcShapeAspect_Name());
     }
 
     /**
@@ -123,7 +123,7 @@ public class IfcShapeAspectImpl extends IdEObjectImpl implements IfcShapeAspect 
      */
     @Override
     public boolean isSetName() {
-        return eIsSet(Ifc4Package.Literals.IFC_SHAPE_ASPECT__NAME);
+        return eIsSet(Ifc4Package.eINSTANCE.getIfcShapeAspect_Name());
     }
 
     /**
@@ -133,7 +133,7 @@ public class IfcShapeAspectImpl extends IdEObjectImpl implements IfcShapeAspect 
      */
     @Override
     public String getDescription() {
-        return (String) eGet(Ifc4Package.Literals.IFC_SHAPE_ASPECT__DESCRIPTION, true);
+        return (String) eGet(Ifc4Package.eINSTANCE.getIfcShapeAspect_Description(), true);
     }
 
     /**
@@ -143,7 +143,7 @@ public class IfcShapeAspectImpl extends IdEObjectImpl implements IfcShapeAspect 
      */
     @Override
     public void setDescription(String newDescription) {
-        eSet(Ifc4Package.Literals.IFC_SHAPE_ASPECT__DESCRIPTION, newDescription);
+        eSet(Ifc4Package.eINSTANCE.getIfcShapeAspect_Description(), newDescription);
     }
 
     /**
@@ -153,7 +153,7 @@ public class IfcShapeAspectImpl extends IdEObjectImpl implements IfcShapeAspect 
      */
     @Override
     public void unsetDescription() {
-        eUnset(Ifc4Package.Literals.IFC_SHAPE_ASPECT__DESCRIPTION);
+        eUnset(Ifc4Package.eINSTANCE.getIfcShapeAspect_Description());
     }
 
     /**
@@ -163,7 +163,7 @@ public class IfcShapeAspectImpl extends IdEObjectImpl implements IfcShapeAspect 
      */
     @Override
     public boolean isSetDescription() {
-        return eIsSet(Ifc4Package.Literals.IFC_SHAPE_ASPECT__DESCRIPTION);
+        return eIsSet(Ifc4Package.eINSTANCE.getIfcShapeAspect_Description());
     }
 
     /**
@@ -173,7 +173,7 @@ public class IfcShapeAspectImpl extends IdEObjectImpl implements IfcShapeAspect 
      */
     @Override
     public Tristate getProductDefinitional() {
-        return (Tristate) eGet(Ifc4Package.Literals.IFC_SHAPE_ASPECT__PRODUCT_DEFINITIONAL, true);
+        return (Tristate) eGet(Ifc4Package.eINSTANCE.getIfcShapeAspect_ProductDefinitional(), true);
     }
 
     /**
@@ -183,7 +183,7 @@ public class IfcShapeAspectImpl extends IdEObjectImpl implements IfcShapeAspect 
      */
     @Override
     public void setProductDefinitional(Tristate newProductDefinitional) {
-        eSet(Ifc4Package.Literals.IFC_SHAPE_ASPECT__PRODUCT_DEFINITIONAL, newProductDefinitional);
+        eSet(Ifc4Package.eINSTANCE.getIfcShapeAspect_ProductDefinitional(), newProductDefinitional);
     }
 
     /**
@@ -194,7 +194,7 @@ public class IfcShapeAspectImpl extends IdEObjectImpl implements IfcShapeAspect 
     @Override
     public IfcProductRepresentationSelect getPartOfProductDefinitionShape() {
         return (IfcProductRepresentationSelect) eGet(
-                Ifc4Package.Literals.IFC_SHAPE_ASPECT__PART_OF_PRODUCT_DEFINITION_SHAPE, true);
+                Ifc4Package.eINSTANCE.getIfcShapeAspect_PartOfProductDefinitionShape(), true);
     }
 
     /**
@@ -204,7 +204,7 @@ public class IfcShapeAspectImpl extends IdEObjectImpl implements IfcShapeAspect 
      */
     @Override
     public void setPartOfProductDefinitionShape(IfcProductRepresentationSelect newPartOfProductDefinitionShape) {
-        eSet(Ifc4Package.Literals.IFC_SHAPE_ASPECT__PART_OF_PRODUCT_DEFINITION_SHAPE, newPartOfProductDefinitionShape);
+        eSet(Ifc4Package.eINSTANCE.getIfcShapeAspect_PartOfProductDefinitionShape(), newPartOfProductDefinitionShape);
     }
 
     /**
@@ -214,7 +214,7 @@ public class IfcShapeAspectImpl extends IdEObjectImpl implements IfcShapeAspect 
      */
     @Override
     public void unsetPartOfProductDefinitionShape() {
-        eUnset(Ifc4Package.Literals.IFC_SHAPE_ASPECT__PART_OF_PRODUCT_DEFINITION_SHAPE);
+        eUnset(Ifc4Package.eINSTANCE.getIfcShapeAspect_PartOfProductDefinitionShape());
     }
 
     /**
@@ -224,7 +224,7 @@ public class IfcShapeAspectImpl extends IdEObjectImpl implements IfcShapeAspect 
      */
     @Override
     public boolean isSetPartOfProductDefinitionShape() {
-        return eIsSet(Ifc4Package.Literals.IFC_SHAPE_ASPECT__PART_OF_PRODUCT_DEFINITION_SHAPE);
+        return eIsSet(Ifc4Package.eINSTANCE.getIfcShapeAspect_PartOfProductDefinitionShape());
     }
 
 } //IfcShapeAspectImpl

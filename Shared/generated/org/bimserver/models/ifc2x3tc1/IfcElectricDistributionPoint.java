@@ -38,10 +38,6 @@ public interface IfcElectricDistributionPoint extends IfcFlowController {
      * Returns the value of the '<em><b>Distribution Point Function</b></em>' attribute.
      * The literals are from the enumeration {@link org.bimserver.models.ifc2x3tc1.IfcElectricDistributionPointFunctionEnum}.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Distribution Point Function</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Distribution Point Function</em>' attribute.
      * @see org.bimserver.models.ifc2x3tc1.IfcElectricDistributionPointFunctionEnum
@@ -66,10 +62,6 @@ public interface IfcElectricDistributionPoint extends IfcFlowController {
     /**
      * Returns the value of the '<em><b>User Defined Function</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>User Defined Function</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>User Defined Function</em>' attribute.
      * @see #isSetUserDefinedFunction()

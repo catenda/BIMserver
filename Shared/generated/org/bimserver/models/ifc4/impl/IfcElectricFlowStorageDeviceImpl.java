@@ -52,7 +52,7 @@ public class IfcElectricFlowStorageDeviceImpl extends IfcFlowStorageDeviceImpl i
      */
     @Override
     protected EClass eStaticClass() {
-        return Ifc4Package.Literals.IFC_ELECTRIC_FLOW_STORAGE_DEVICE;
+        return Ifc4Package.eINSTANCE.getIfcElectricFlowStorageDevice();
     }
 
     /**
@@ -63,7 +63,7 @@ public class IfcElectricFlowStorageDeviceImpl extends IfcFlowStorageDeviceImpl i
     @Override
     public IfcElectricFlowStorageDeviceTypeEnum getPredefinedType() {
         return (IfcElectricFlowStorageDeviceTypeEnum) eGet(
-                Ifc4Package.Literals.IFC_ELECTRIC_FLOW_STORAGE_DEVICE__PREDEFINED_TYPE, true);
+                Ifc4Package.eINSTANCE.getIfcElectricFlowStorageDevice_PredefinedType(), true);
     }
 
     /**
@@ -73,7 +73,7 @@ public class IfcElectricFlowStorageDeviceImpl extends IfcFlowStorageDeviceImpl i
      */
     @Override
     public void setPredefinedType(IfcElectricFlowStorageDeviceTypeEnum newPredefinedType) {
-        eSet(Ifc4Package.Literals.IFC_ELECTRIC_FLOW_STORAGE_DEVICE__PREDEFINED_TYPE, newPredefinedType);
+        eSet(Ifc4Package.eINSTANCE.getIfcElectricFlowStorageDevice_PredefinedType(), newPredefinedType);
     }
 
     /**
@@ -83,7 +83,7 @@ public class IfcElectricFlowStorageDeviceImpl extends IfcFlowStorageDeviceImpl i
      */
     @Override
     public void unsetPredefinedType() {
-        eUnset(Ifc4Package.Literals.IFC_ELECTRIC_FLOW_STORAGE_DEVICE__PREDEFINED_TYPE);
+        eUnset(Ifc4Package.eINSTANCE.getIfcElectricFlowStorageDevice_PredefinedType());
     }
 
     /**
@@ -93,7 +93,7 @@ public class IfcElectricFlowStorageDeviceImpl extends IfcFlowStorageDeviceImpl i
      */
     @Override
     public boolean isSetPredefinedType() {
-        return eIsSet(Ifc4Package.Literals.IFC_ELECTRIC_FLOW_STORAGE_DEVICE__PREDEFINED_TYPE);
+        return eIsSet(Ifc4Package.eINSTANCE.getIfcElectricFlowStorageDevice_PredefinedType());
     }
 
 } //IfcElectricFlowStorageDeviceImpl

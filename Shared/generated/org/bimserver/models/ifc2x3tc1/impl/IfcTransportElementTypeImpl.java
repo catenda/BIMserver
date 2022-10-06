@@ -52,7 +52,7 @@ public class IfcTransportElementTypeImpl extends IfcElementTypeImpl implements I
      */
     @Override
     protected EClass eStaticClass() {
-        return Ifc2x3tc1Package.Literals.IFC_TRANSPORT_ELEMENT_TYPE;
+        return Ifc2x3tc1Package.eINSTANCE.getIfcTransportElementType();
     }
 
     /**
@@ -62,8 +62,8 @@ public class IfcTransportElementTypeImpl extends IfcElementTypeImpl implements I
      */
     @Override
     public IfcTransportElementTypeEnum getPredefinedType() {
-        return (IfcTransportElementTypeEnum) eGet(Ifc2x3tc1Package.Literals.IFC_TRANSPORT_ELEMENT_TYPE__PREDEFINED_TYPE,
-                true);
+        return (IfcTransportElementTypeEnum) eGet(
+                Ifc2x3tc1Package.eINSTANCE.getIfcTransportElementType_PredefinedType(), true);
     }
 
     /**
@@ -73,7 +73,7 @@ public class IfcTransportElementTypeImpl extends IfcElementTypeImpl implements I
      */
     @Override
     public void setPredefinedType(IfcTransportElementTypeEnum newPredefinedType) {
-        eSet(Ifc2x3tc1Package.Literals.IFC_TRANSPORT_ELEMENT_TYPE__PREDEFINED_TYPE, newPredefinedType);
+        eSet(Ifc2x3tc1Package.eINSTANCE.getIfcTransportElementType_PredefinedType(), newPredefinedType);
     }
 
 } //IfcTransportElementTypeImpl

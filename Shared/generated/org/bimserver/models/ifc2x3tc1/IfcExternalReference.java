@@ -38,10 +38,6 @@ public interface IfcExternalReference extends IfcLightDistributionDataSourceSele
     /**
      * Returns the value of the '<em><b>Location</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Location</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Location</em>' attribute.
      * @see #isSetLocation()
@@ -91,10 +87,6 @@ public interface IfcExternalReference extends IfcLightDistributionDataSourceSele
     /**
      * Returns the value of the '<em><b>Item Reference</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Item Reference</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Item Reference</em>' attribute.
      * @see #isSetItemReference()
@@ -144,10 +136,6 @@ public interface IfcExternalReference extends IfcLightDistributionDataSourceSele
     /**
      * Returns the value of the '<em><b>Name</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Name</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Name</em>' attribute.
      * @see #isSetName()

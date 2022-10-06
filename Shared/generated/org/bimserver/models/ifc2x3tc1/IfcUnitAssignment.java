@@ -42,10 +42,6 @@ public interface IfcUnitAssignment extends IdEObject {
      * Returns the value of the '<em><b>Units</b></em>' reference list.
      * The list contents are of type {@link org.bimserver.models.ifc2x3tc1.IfcUnit}.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Units</em>' reference list isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Units</em>' reference list.
      * @see org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package#getIfcUnitAssignment_Units()

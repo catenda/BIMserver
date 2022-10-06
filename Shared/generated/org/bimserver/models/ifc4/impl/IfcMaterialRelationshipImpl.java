@@ -56,7 +56,7 @@ public class IfcMaterialRelationshipImpl extends IfcResourceLevelRelationshipImp
      */
     @Override
     protected EClass eStaticClass() {
-        return Ifc4Package.Literals.IFC_MATERIAL_RELATIONSHIP;
+        return Ifc4Package.eINSTANCE.getIfcMaterialRelationship();
     }
 
     /**
@@ -66,7 +66,7 @@ public class IfcMaterialRelationshipImpl extends IfcResourceLevelRelationshipImp
      */
     @Override
     public IfcMaterial getRelatingMaterial() {
-        return (IfcMaterial) eGet(Ifc4Package.Literals.IFC_MATERIAL_RELATIONSHIP__RELATING_MATERIAL, true);
+        return (IfcMaterial) eGet(Ifc4Package.eINSTANCE.getIfcMaterialRelationship_RelatingMaterial(), true);
     }
 
     /**
@@ -76,7 +76,7 @@ public class IfcMaterialRelationshipImpl extends IfcResourceLevelRelationshipImp
      */
     @Override
     public void setRelatingMaterial(IfcMaterial newRelatingMaterial) {
-        eSet(Ifc4Package.Literals.IFC_MATERIAL_RELATIONSHIP__RELATING_MATERIAL, newRelatingMaterial);
+        eSet(Ifc4Package.eINSTANCE.getIfcMaterialRelationship_RelatingMaterial(), newRelatingMaterial);
     }
 
     /**
@@ -87,7 +87,7 @@ public class IfcMaterialRelationshipImpl extends IfcResourceLevelRelationshipImp
     @SuppressWarnings("unchecked")
     @Override
     public EList<IfcMaterial> getRelatedMaterials() {
-        return (EList<IfcMaterial>) eGet(Ifc4Package.Literals.IFC_MATERIAL_RELATIONSHIP__RELATED_MATERIALS, true);
+        return (EList<IfcMaterial>) eGet(Ifc4Package.eINSTANCE.getIfcMaterialRelationship_RelatedMaterials(), true);
     }
 
     /**
@@ -97,7 +97,7 @@ public class IfcMaterialRelationshipImpl extends IfcResourceLevelRelationshipImp
      */
     @Override
     public String getExpression() {
-        return (String) eGet(Ifc4Package.Literals.IFC_MATERIAL_RELATIONSHIP__EXPRESSION, true);
+        return (String) eGet(Ifc4Package.eINSTANCE.getIfcMaterialRelationship_Expression(), true);
     }
 
     /**
@@ -107,7 +107,7 @@ public class IfcMaterialRelationshipImpl extends IfcResourceLevelRelationshipImp
      */
     @Override
     public void setExpression(String newExpression) {
-        eSet(Ifc4Package.Literals.IFC_MATERIAL_RELATIONSHIP__EXPRESSION, newExpression);
+        eSet(Ifc4Package.eINSTANCE.getIfcMaterialRelationship_Expression(), newExpression);
     }
 
     /**
@@ -117,7 +117,7 @@ public class IfcMaterialRelationshipImpl extends IfcResourceLevelRelationshipImp
      */
     @Override
     public void unsetExpression() {
-        eUnset(Ifc4Package.Literals.IFC_MATERIAL_RELATIONSHIP__EXPRESSION);
+        eUnset(Ifc4Package.eINSTANCE.getIfcMaterialRelationship_Expression());
     }
 
     /**
@@ -127,7 +127,7 @@ public class IfcMaterialRelationshipImpl extends IfcResourceLevelRelationshipImp
      */
     @Override
     public boolean isSetExpression() {
-        return eIsSet(Ifc4Package.Literals.IFC_MATERIAL_RELATIONSHIP__EXPRESSION);
+        return eIsSet(Ifc4Package.eINSTANCE.getIfcMaterialRelationship_Expression());
     }
 
 } //IfcMaterialRelationshipImpl

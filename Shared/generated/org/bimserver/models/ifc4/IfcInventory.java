@@ -44,10 +44,6 @@ public interface IfcInventory extends IfcGroup {
      * Returns the value of the '<em><b>Predefined Type</b></em>' attribute.
      * The literals are from the enumeration {@link org.bimserver.models.ifc4.IfcInventoryTypeEnum}.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Predefined Type</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Predefined Type</em>' attribute.
      * @see org.bimserver.models.ifc4.IfcInventoryTypeEnum
@@ -99,10 +95,6 @@ public interface IfcInventory extends IfcGroup {
     /**
      * Returns the value of the '<em><b>Jurisdiction</b></em>' reference.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Jurisdiction</em>' reference isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Jurisdiction</em>' reference.
      * @see #isSetJurisdiction()
@@ -153,10 +145,6 @@ public interface IfcInventory extends IfcGroup {
      * Returns the value of the '<em><b>Responsible Persons</b></em>' reference list.
      * The list contents are of type {@link org.bimserver.models.ifc4.IfcPerson}.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Responsible Persons</em>' reference list isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Responsible Persons</em>' reference list.
      * @see #isSetResponsiblePersons()
@@ -191,10 +179,6 @@ public interface IfcInventory extends IfcGroup {
     /**
      * Returns the value of the '<em><b>Last Update Date</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Last Update Date</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Last Update Date</em>' attribute.
      * @see #isSetLastUpdateDate()
@@ -244,10 +228,6 @@ public interface IfcInventory extends IfcGroup {
     /**
      * Returns the value of the '<em><b>Current Value</b></em>' reference.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Current Value</em>' reference isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Current Value</em>' reference.
      * @see #isSetCurrentValue()
@@ -297,10 +277,6 @@ public interface IfcInventory extends IfcGroup {
     /**
      * Returns the value of the '<em><b>Original Value</b></em>' reference.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Original Value</em>' reference isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Original Value</em>' reference.
      * @see #isSetOriginalValue()

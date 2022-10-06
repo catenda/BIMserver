@@ -37,10 +37,6 @@ public interface IfcCartesianTransformationOperator2DnonUniform extends IfcCarte
     /**
      * Returns the value of the '<em><b>Scale2</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Scale2</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Scale2</em>' attribute.
      * @see #isSetScale2()
@@ -90,10 +86,6 @@ public interface IfcCartesianTransformationOperator2DnonUniform extends IfcCarte
     /**
      * Returns the value of the '<em><b>Scale2 As String</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Scale2 As String</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Scale2 As String</em>' attribute.
      * @see #isSetScale2AsString()

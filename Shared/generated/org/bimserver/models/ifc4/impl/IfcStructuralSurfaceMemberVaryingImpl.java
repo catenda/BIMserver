@@ -46,7 +46,7 @@ public class IfcStructuralSurfaceMemberVaryingImpl extends IfcStructuralSurfaceM
      */
     @Override
     protected EClass eStaticClass() {
-        return Ifc4Package.Literals.IFC_STRUCTURAL_SURFACE_MEMBER_VARYING;
+        return Ifc4Package.eINSTANCE.getIfcStructuralSurfaceMemberVarying();
     }
 
 } //IfcStructuralSurfaceMemberVaryingImpl

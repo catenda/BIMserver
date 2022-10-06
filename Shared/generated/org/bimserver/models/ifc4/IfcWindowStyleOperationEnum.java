@@ -155,10 +155,6 @@ public enum IfcWindowStyleOperationEnum implements Enumerator {
     /**
      * The '<em><b>NULL</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>NULL</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #NULL
      * @model
@@ -170,10 +166,6 @@ public enum IfcWindowStyleOperationEnum implements Enumerator {
     /**
      * The '<em><b>NOTDEFINED</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>NOTDEFINED</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #NOTDEFINED
      * @model
@@ -185,10 +177,6 @@ public enum IfcWindowStyleOperationEnum implements Enumerator {
     /**
      * The '<em><b>DOUBLE PANEL HORIZONTAL</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>DOUBLE PANEL HORIZONTAL</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #DOUBLE_PANEL_HORIZONTAL
      * @model
@@ -200,10 +188,6 @@ public enum IfcWindowStyleOperationEnum implements Enumerator {
     /**
      * The '<em><b>TRIPLE PANEL BOTTOM</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>TRIPLE PANEL BOTTOM</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #TRIPLE_PANEL_BOTTOM
      * @model
@@ -215,10 +199,6 @@ public enum IfcWindowStyleOperationEnum implements Enumerator {
     /**
      * The '<em><b>TRIPLE PANEL LEFT</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>TRIPLE PANEL LEFT</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #TRIPLE_PANEL_LEFT
      * @model
@@ -230,10 +210,6 @@ public enum IfcWindowStyleOperationEnum implements Enumerator {
     /**
      * The '<em><b>DOUBLE PANEL VERTICAL</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>DOUBLE PANEL VERTICAL</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #DOUBLE_PANEL_VERTICAL
      * @model
@@ -245,10 +221,6 @@ public enum IfcWindowStyleOperationEnum implements Enumerator {
     /**
      * The '<em><b>TRIPLE PANEL HORIZONTAL</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>TRIPLE PANEL HORIZONTAL</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #TRIPLE_PANEL_HORIZONTAL
      * @model
@@ -260,10 +232,6 @@ public enum IfcWindowStyleOperationEnum implements Enumerator {
     /**
      * The '<em><b>SINGLE PANEL</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>SINGLE PANEL</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #SINGLE_PANEL
      * @model
@@ -275,10 +243,6 @@ public enum IfcWindowStyleOperationEnum implements Enumerator {
     /**
      * The '<em><b>TRIPLE PANEL RIGHT</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>TRIPLE PANEL RIGHT</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #TRIPLE_PANEL_RIGHT
      * @model
@@ -290,10 +254,6 @@ public enum IfcWindowStyleOperationEnum implements Enumerator {
     /**
      * The '<em><b>USERDEFINED</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>USERDEFINED</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #USERDEFINED
      * @model
@@ -305,10 +265,6 @@ public enum IfcWindowStyleOperationEnum implements Enumerator {
     /**
      * The '<em><b>TRIPLE PANEL VERTICAL</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>TRIPLE PANEL VERTICAL</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #TRIPLE_PANEL_VERTICAL
      * @model
@@ -320,10 +276,6 @@ public enum IfcWindowStyleOperationEnum implements Enumerator {
     /**
      * The '<em><b>TRIPLE PANEL TOP</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>TRIPLE PANEL TOP</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #TRIPLE_PANEL_TOP
      * @model

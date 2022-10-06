@@ -52,7 +52,7 @@ public class IfcTaskTimeRecurringImpl extends IfcTaskTimeImpl implements IfcTask
      */
     @Override
     protected EClass eStaticClass() {
-        return Ifc4Package.Literals.IFC_TASK_TIME_RECURRING;
+        return Ifc4Package.eINSTANCE.getIfcTaskTimeRecurring();
     }
 
     /**
@@ -62,7 +62,7 @@ public class IfcTaskTimeRecurringImpl extends IfcTaskTimeImpl implements IfcTask
      */
     @Override
     public IfcRecurrencePattern getRecurrence() {
-        return (IfcRecurrencePattern) eGet(Ifc4Package.Literals.IFC_TASK_TIME_RECURRING__RECURRENCE, true);
+        return (IfcRecurrencePattern) eGet(Ifc4Package.eINSTANCE.getIfcTaskTimeRecurring_Recurrence(), true);
     }
 
     /**
@@ -72,7 +72,7 @@ public class IfcTaskTimeRecurringImpl extends IfcTaskTimeImpl implements IfcTask
      */
     @Override
     public void setRecurrence(IfcRecurrencePattern newRecurrence) {
-        eSet(Ifc4Package.Literals.IFC_TASK_TIME_RECURRING__RECURRENCE, newRecurrence);
+        eSet(Ifc4Package.eINSTANCE.getIfcTaskTimeRecurring_Recurrence(), newRecurrence);
     }
 
 } //IfcTaskTimeRecurringImpl

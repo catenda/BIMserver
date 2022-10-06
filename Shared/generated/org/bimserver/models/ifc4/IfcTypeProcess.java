@@ -41,10 +41,6 @@ public interface IfcTypeProcess extends IfcTypeObject, IfcProcessSelect {
     /**
      * Returns the value of the '<em><b>Identification</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Identification</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Identification</em>' attribute.
      * @see #isSetIdentification()
@@ -94,10 +90,6 @@ public interface IfcTypeProcess extends IfcTypeObject, IfcProcessSelect {
     /**
      * Returns the value of the '<em><b>Long Description</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Long Description</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Long Description</em>' attribute.
      * @see #isSetLongDescription()
@@ -147,10 +139,6 @@ public interface IfcTypeProcess extends IfcTypeObject, IfcProcessSelect {
     /**
      * Returns the value of the '<em><b>Process Type</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Process Type</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Process Type</em>' attribute.
      * @see #isSetProcessType()
@@ -201,10 +189,6 @@ public interface IfcTypeProcess extends IfcTypeObject, IfcProcessSelect {
      * Returns the value of the '<em><b>Operates On</b></em>' reference list.
      * The list contents are of type {@link org.bimserver.models.ifc4.IfcRelAssignsToProcess}.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Operates On</em>' reference list isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Operates On</em>' reference list.
      * @see #isSetOperatesOn()

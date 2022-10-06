@@ -40,10 +40,6 @@ public interface IfcCostSchedule extends IfcControl {
      * Returns the value of the '<em><b>Predefined Type</b></em>' attribute.
      * The literals are from the enumeration {@link org.bimserver.models.ifc4.IfcCostScheduleTypeEnum}.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Predefined Type</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Predefined Type</em>' attribute.
      * @see org.bimserver.models.ifc4.IfcCostScheduleTypeEnum
@@ -95,10 +91,6 @@ public interface IfcCostSchedule extends IfcControl {
     /**
      * Returns the value of the '<em><b>Status</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Status</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Status</em>' attribute.
      * @see #isSetStatus()
@@ -148,10 +140,6 @@ public interface IfcCostSchedule extends IfcControl {
     /**
      * Returns the value of the '<em><b>Submitted On</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Submitted On</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Submitted On</em>' attribute.
      * @see #isSetSubmittedOn()
@@ -201,10 +189,6 @@ public interface IfcCostSchedule extends IfcControl {
     /**
      * Returns the value of the '<em><b>Update Date</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Update Date</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Update Date</em>' attribute.
      * @see #isSetUpdateDate()

@@ -55,7 +55,7 @@ public class IfcDirectionImpl extends IfcGeometricRepresentationItemImpl impleme
      */
     @Override
     protected EClass eStaticClass() {
-        return Ifc4Package.Literals.IFC_DIRECTION;
+        return Ifc4Package.eINSTANCE.getIfcDirection();
     }
 
     /**
@@ -66,7 +66,7 @@ public class IfcDirectionImpl extends IfcGeometricRepresentationItemImpl impleme
     @SuppressWarnings("unchecked")
     @Override
     public EList<Double> getDirectionRatios() {
-        return (EList<Double>) eGet(Ifc4Package.Literals.IFC_DIRECTION__DIRECTION_RATIOS, true);
+        return (EList<Double>) eGet(Ifc4Package.eINSTANCE.getIfcDirection_DirectionRatios(), true);
     }
 
     /**
@@ -77,7 +77,7 @@ public class IfcDirectionImpl extends IfcGeometricRepresentationItemImpl impleme
     @SuppressWarnings("unchecked")
     @Override
     public EList<String> getDirectionRatiosAsString() {
-        return (EList<String>) eGet(Ifc4Package.Literals.IFC_DIRECTION__DIRECTION_RATIOS_AS_STRING, true);
+        return (EList<String>) eGet(Ifc4Package.eINSTANCE.getIfcDirection_DirectionRatiosAsString(), true);
     }
 
     /**
@@ -87,7 +87,7 @@ public class IfcDirectionImpl extends IfcGeometricRepresentationItemImpl impleme
      */
     @Override
     public long getDim() {
-        return (Long) eGet(Ifc4Package.Literals.IFC_DIRECTION__DIM, true);
+        return (Long) eGet(Ifc4Package.eINSTANCE.getIfcDirection_Dim(), true);
     }
 
     /**
@@ -97,7 +97,7 @@ public class IfcDirectionImpl extends IfcGeometricRepresentationItemImpl impleme
      */
     @Override
     public void setDim(long newDim) {
-        eSet(Ifc4Package.Literals.IFC_DIRECTION__DIM, newDim);
+        eSet(Ifc4Package.eINSTANCE.getIfcDirection_Dim(), newDim);
     }
 
     /**
@@ -107,7 +107,7 @@ public class IfcDirectionImpl extends IfcGeometricRepresentationItemImpl impleme
      */
     @Override
     public void unsetDim() {
-        eUnset(Ifc4Package.Literals.IFC_DIRECTION__DIM);
+        eUnset(Ifc4Package.eINSTANCE.getIfcDirection_Dim());
     }
 
     /**
@@ -117,7 +117,7 @@ public class IfcDirectionImpl extends IfcGeometricRepresentationItemImpl impleme
      */
     @Override
     public boolean isSetDim() {
-        return eIsSet(Ifc4Package.Literals.IFC_DIRECTION__DIM);
+        return eIsSet(Ifc4Package.eINSTANCE.getIfcDirection_Dim());
     }
 
 } //IfcDirectionImpl

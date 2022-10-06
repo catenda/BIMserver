@@ -56,7 +56,7 @@ public class IfcPresentationStyleAssignmentImpl extends IdEObjectImpl implements
      */
     @Override
     protected EClass eStaticClass() {
-        return Ifc4Package.Literals.IFC_PRESENTATION_STYLE_ASSIGNMENT;
+        return Ifc4Package.eINSTANCE.getIfcPresentationStyleAssignment();
     }
 
     /**
@@ -77,8 +77,8 @@ public class IfcPresentationStyleAssignmentImpl extends IdEObjectImpl implements
     @SuppressWarnings("unchecked")
     @Override
     public EList<IfcPresentationStyleSelect> getStyles() {
-        return (EList<IfcPresentationStyleSelect>) eGet(Ifc4Package.Literals.IFC_PRESENTATION_STYLE_ASSIGNMENT__STYLES,
-                true);
+        return (EList<IfcPresentationStyleSelect>) eGet(
+                Ifc4Package.eINSTANCE.getIfcPresentationStyleAssignment_Styles(), true);
     }
 
 } //IfcPresentationStyleAssignmentImpl

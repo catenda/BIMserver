@@ -52,7 +52,7 @@ public class IfcRelAssignsToProductImpl extends IfcRelAssignsImpl implements Ifc
      */
     @Override
     protected EClass eStaticClass() {
-        return Ifc2x3tc1Package.Literals.IFC_REL_ASSIGNS_TO_PRODUCT;
+        return Ifc2x3tc1Package.eINSTANCE.getIfcRelAssignsToProduct();
     }
 
     /**
@@ -62,7 +62,7 @@ public class IfcRelAssignsToProductImpl extends IfcRelAssignsImpl implements Ifc
      */
     @Override
     public IfcProduct getRelatingProduct() {
-        return (IfcProduct) eGet(Ifc2x3tc1Package.Literals.IFC_REL_ASSIGNS_TO_PRODUCT__RELATING_PRODUCT, true);
+        return (IfcProduct) eGet(Ifc2x3tc1Package.eINSTANCE.getIfcRelAssignsToProduct_RelatingProduct(), true);
     }
 
     /**
@@ -72,7 +72,7 @@ public class IfcRelAssignsToProductImpl extends IfcRelAssignsImpl implements Ifc
      */
     @Override
     public void setRelatingProduct(IfcProduct newRelatingProduct) {
-        eSet(Ifc2x3tc1Package.Literals.IFC_REL_ASSIGNS_TO_PRODUCT__RELATING_PRODUCT, newRelatingProduct);
+        eSet(Ifc2x3tc1Package.eINSTANCE.getIfcRelAssignsToProduct_RelatingProduct(), newRelatingProduct);
     }
 
 } //IfcRelAssignsToProductImpl

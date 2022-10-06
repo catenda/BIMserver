@@ -59,7 +59,7 @@ public class IfcConstraintClassificationRelationshipImpl extends IdEObjectImpl
      */
     @Override
     protected EClass eStaticClass() {
-        return Ifc2x3tc1Package.Literals.IFC_CONSTRAINT_CLASSIFICATION_RELATIONSHIP;
+        return Ifc2x3tc1Package.eINSTANCE.getIfcConstraintClassificationRelationship();
     }
 
     /**
@@ -80,7 +80,7 @@ public class IfcConstraintClassificationRelationshipImpl extends IdEObjectImpl
     @Override
     public IfcConstraint getClassifiedConstraint() {
         return (IfcConstraint) eGet(
-                Ifc2x3tc1Package.Literals.IFC_CONSTRAINT_CLASSIFICATION_RELATIONSHIP__CLASSIFIED_CONSTRAINT, true);
+                Ifc2x3tc1Package.eINSTANCE.getIfcConstraintClassificationRelationship_ClassifiedConstraint(), true);
     }
 
     /**
@@ -90,7 +90,7 @@ public class IfcConstraintClassificationRelationshipImpl extends IdEObjectImpl
      */
     @Override
     public void setClassifiedConstraint(IfcConstraint newClassifiedConstraint) {
-        eSet(Ifc2x3tc1Package.Literals.IFC_CONSTRAINT_CLASSIFICATION_RELATIONSHIP__CLASSIFIED_CONSTRAINT,
+        eSet(Ifc2x3tc1Package.eINSTANCE.getIfcConstraintClassificationRelationship_ClassifiedConstraint(),
                 newClassifiedConstraint);
     }
 
@@ -103,7 +103,7 @@ public class IfcConstraintClassificationRelationshipImpl extends IdEObjectImpl
     @Override
     public EList<IfcClassificationNotationSelect> getRelatedClassifications() {
         return (EList<IfcClassificationNotationSelect>) eGet(
-                Ifc2x3tc1Package.Literals.IFC_CONSTRAINT_CLASSIFICATION_RELATIONSHIP__RELATED_CLASSIFICATIONS, true);
+                Ifc2x3tc1Package.eINSTANCE.getIfcConstraintClassificationRelationship_RelatedClassifications(), true);
     }
 
 } //IfcConstraintClassificationRelationshipImpl

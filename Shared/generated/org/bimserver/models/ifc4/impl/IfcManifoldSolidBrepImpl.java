@@ -52,7 +52,7 @@ public class IfcManifoldSolidBrepImpl extends IfcSolidModelImpl implements IfcMa
      */
     @Override
     protected EClass eStaticClass() {
-        return Ifc4Package.Literals.IFC_MANIFOLD_SOLID_BREP;
+        return Ifc4Package.eINSTANCE.getIfcManifoldSolidBrep();
     }
 
     /**
@@ -62,7 +62,7 @@ public class IfcManifoldSolidBrepImpl extends IfcSolidModelImpl implements IfcMa
      */
     @Override
     public IfcClosedShell getOuter() {
-        return (IfcClosedShell) eGet(Ifc4Package.Literals.IFC_MANIFOLD_SOLID_BREP__OUTER, true);
+        return (IfcClosedShell) eGet(Ifc4Package.eINSTANCE.getIfcManifoldSolidBrep_Outer(), true);
     }
 
     /**
@@ -72,7 +72,7 @@ public class IfcManifoldSolidBrepImpl extends IfcSolidModelImpl implements IfcMa
      */
     @Override
     public void setOuter(IfcClosedShell newOuter) {
-        eSet(Ifc4Package.Literals.IFC_MANIFOLD_SOLID_BREP__OUTER, newOuter);
+        eSet(Ifc4Package.eINSTANCE.getIfcManifoldSolidBrep_Outer(), newOuter);
     }
 
 } //IfcManifoldSolidBrepImpl

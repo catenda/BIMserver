@@ -47,7 +47,7 @@ public class IfcConnectionGeometryImpl extends IdEObjectImpl implements IfcConne
      */
     @Override
     protected EClass eStaticClass() {
-        return Ifc4Package.Literals.IFC_CONNECTION_GEOMETRY;
+        return Ifc4Package.eINSTANCE.getIfcConnectionGeometry();
     }
 
     /**

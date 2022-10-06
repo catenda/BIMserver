@@ -38,10 +38,6 @@ public interface IfcWorkTime extends IfcSchedulingTime {
     /**
      * Returns the value of the '<em><b>Recurrence Pattern</b></em>' reference.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Recurrence Pattern</em>' reference isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Recurrence Pattern</em>' reference.
      * @see #isSetRecurrencePattern()
@@ -91,10 +87,6 @@ public interface IfcWorkTime extends IfcSchedulingTime {
     /**
      * Returns the value of the '<em><b>Start</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Start</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Start</em>' attribute.
      * @see #isSetStart()
@@ -144,10 +136,6 @@ public interface IfcWorkTime extends IfcSchedulingTime {
     /**
      * Returns the value of the '<em><b>Finish</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Finish</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Finish</em>' attribute.
      * @see #isSetFinish()

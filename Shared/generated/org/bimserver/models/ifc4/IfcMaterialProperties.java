@@ -37,10 +37,6 @@ public interface IfcMaterialProperties extends IfcExtendedProperties {
      * Returns the value of the '<em><b>Material</b></em>' reference.
      * It is bidirectional and its opposite is '{@link org.bimserver.models.ifc4.IfcMaterialDefinition#getHasProperties <em>Has Properties</em>}'.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Material</em>' reference isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Material</em>' reference.
      * @see #setMaterial(IfcMaterialDefinition)

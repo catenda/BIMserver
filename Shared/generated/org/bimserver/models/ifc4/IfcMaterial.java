@@ -43,10 +43,6 @@ public interface IfcMaterial extends IfcMaterialDefinition {
     /**
      * Returns the value of the '<em><b>Name</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Name</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Name</em>' attribute.
      * @see #setName(String)
@@ -69,10 +65,6 @@ public interface IfcMaterial extends IfcMaterialDefinition {
     /**
      * Returns the value of the '<em><b>Description</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Description</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Description</em>' attribute.
      * @see #isSetDescription()
@@ -122,10 +114,6 @@ public interface IfcMaterial extends IfcMaterialDefinition {
     /**
      * Returns the value of the '<em><b>Category</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Category</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Category</em>' attribute.
      * @see #isSetCategory()
@@ -177,10 +165,6 @@ public interface IfcMaterial extends IfcMaterialDefinition {
      * The list contents are of type {@link org.bimserver.models.ifc4.IfcMaterialDefinitionRepresentation}.
      * It is bidirectional and its opposite is '{@link org.bimserver.models.ifc4.IfcMaterialDefinitionRepresentation#getRepresentedMaterial <em>Represented Material</em>}'.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Has Representation</em>' reference list isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Has Representation</em>' reference list.
      * @see #isSetHasRepresentation()
@@ -219,10 +203,6 @@ public interface IfcMaterial extends IfcMaterialDefinition {
      * The list contents are of type {@link org.bimserver.models.ifc4.IfcMaterialRelationship}.
      * It is bidirectional and its opposite is '{@link org.bimserver.models.ifc4.IfcMaterialRelationship#getRelatedMaterials <em>Related Materials</em>}'.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Is Related With</em>' reference list isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Is Related With</em>' reference list.
      * @see #isSetIsRelatedWith()
@@ -261,10 +241,6 @@ public interface IfcMaterial extends IfcMaterialDefinition {
      * The list contents are of type {@link org.bimserver.models.ifc4.IfcMaterialRelationship}.
      * It is bidirectional and its opposite is '{@link org.bimserver.models.ifc4.IfcMaterialRelationship#getRelatingMaterial <em>Relating Material</em>}'.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Relates To</em>' reference list isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Relates To</em>' reference list.
      * @see #isSetRelatesTo()

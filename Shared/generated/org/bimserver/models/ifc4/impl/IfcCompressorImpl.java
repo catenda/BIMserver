@@ -52,7 +52,7 @@ public class IfcCompressorImpl extends IfcFlowMovingDeviceImpl implements IfcCom
      */
     @Override
     protected EClass eStaticClass() {
-        return Ifc4Package.Literals.IFC_COMPRESSOR;
+        return Ifc4Package.eINSTANCE.getIfcCompressor();
     }
 
     /**
@@ -62,7 +62,7 @@ public class IfcCompressorImpl extends IfcFlowMovingDeviceImpl implements IfcCom
      */
     @Override
     public IfcCompressorTypeEnum getPredefinedType() {
-        return (IfcCompressorTypeEnum) eGet(Ifc4Package.Literals.IFC_COMPRESSOR__PREDEFINED_TYPE, true);
+        return (IfcCompressorTypeEnum) eGet(Ifc4Package.eINSTANCE.getIfcCompressor_PredefinedType(), true);
     }
 
     /**
@@ -72,7 +72,7 @@ public class IfcCompressorImpl extends IfcFlowMovingDeviceImpl implements IfcCom
      */
     @Override
     public void setPredefinedType(IfcCompressorTypeEnum newPredefinedType) {
-        eSet(Ifc4Package.Literals.IFC_COMPRESSOR__PREDEFINED_TYPE, newPredefinedType);
+        eSet(Ifc4Package.eINSTANCE.getIfcCompressor_PredefinedType(), newPredefinedType);
     }
 
     /**
@@ -82,7 +82,7 @@ public class IfcCompressorImpl extends IfcFlowMovingDeviceImpl implements IfcCom
      */
     @Override
     public void unsetPredefinedType() {
-        eUnset(Ifc4Package.Literals.IFC_COMPRESSOR__PREDEFINED_TYPE);
+        eUnset(Ifc4Package.eINSTANCE.getIfcCompressor_PredefinedType());
     }
 
     /**
@@ -92,7 +92,7 @@ public class IfcCompressorImpl extends IfcFlowMovingDeviceImpl implements IfcCom
      */
     @Override
     public boolean isSetPredefinedType() {
-        return eIsSet(Ifc4Package.Literals.IFC_COMPRESSOR__PREDEFINED_TYPE);
+        return eIsSet(Ifc4Package.eINSTANCE.getIfcCompressor_PredefinedType());
     }
 
 } //IfcCompressorImpl

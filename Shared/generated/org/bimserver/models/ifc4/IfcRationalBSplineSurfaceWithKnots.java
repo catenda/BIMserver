@@ -37,15 +37,10 @@ import org.eclipse.emf.common.util.EList;
  * @generated
  */
 public interface IfcRationalBSplineSurfaceWithKnots extends IfcBSplineSurfaceWithKnots {
-
     /**
      * Returns the value of the '<em><b>Weights Data</b></em>' reference list.
      * The list contents are of type {@link org.bimserver.models.ifc4.ListOfEDouble}.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Weights Data</em>' reference list isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Weights Data</em>' reference list.
      * @see org.bimserver.models.ifc4.Ifc4Package#getIfcRationalBSplineSurfaceWithKnots_WeightsData()
@@ -57,10 +52,6 @@ public interface IfcRationalBSplineSurfaceWithKnots extends IfcBSplineSurfaceWit
     /**
      * Returns the value of the '<em><b>Weights</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Weights</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Weights</em>' attribute.
      * @see #isSetWeights()
@@ -111,10 +102,6 @@ public interface IfcRationalBSplineSurfaceWithKnots extends IfcBSplineSurfaceWit
     /**
      * Returns the value of the '<em><b>Weights As String</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Weights As String</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Weights As String</em>' attribute.
      * @see #isSetWeightsAsString()
@@ -162,4 +149,5 @@ public interface IfcRationalBSplineSurfaceWithKnots extends IfcBSplineSurfaceWit
      * @generated
      */
     boolean isSetWeightsAsString();
+
 } // IfcRationalBSplineSurfaceWithKnots

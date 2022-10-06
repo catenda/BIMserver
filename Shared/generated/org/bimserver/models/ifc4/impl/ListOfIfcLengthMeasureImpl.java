@@ -56,7 +56,7 @@ public class ListOfIfcLengthMeasureImpl extends IdEObjectImpl implements ListOfI
      */
     @Override
     protected EClass eStaticClass() {
-        return Ifc4Package.Literals.LIST_OF_IFC_LENGTH_MEASURE;
+        return Ifc4Package.eINSTANCE.getListOfIfcLengthMeasure();
     }
 
     /**
@@ -77,7 +77,7 @@ public class ListOfIfcLengthMeasureImpl extends IdEObjectImpl implements ListOfI
     @SuppressWarnings("unchecked")
     @Override
     public EList<IfcLengthMeasure> getList() {
-        return (EList<IfcLengthMeasure>) eGet(Ifc4Package.Literals.LIST_OF_IFC_LENGTH_MEASURE__LIST, true);
+        return (EList<IfcLengthMeasure>) eGet(Ifc4Package.eINSTANCE.getListOfIfcLengthMeasure_List(), true);
     }
 
 } //ListOfIfcLengthMeasureImpl

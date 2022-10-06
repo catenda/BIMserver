@@ -43,10 +43,6 @@ public interface IfcClassificationReference
     /**
      * Returns the value of the '<em><b>Referenced Source</b></em>' reference.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Referenced Source</em>' reference isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Referenced Source</em>' reference.
      * @see #isSetReferencedSource()
@@ -98,10 +94,6 @@ public interface IfcClassificationReference
     /**
      * Returns the value of the '<em><b>Description</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Description</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Description</em>' attribute.
      * @see #isSetDescription()
@@ -151,10 +143,6 @@ public interface IfcClassificationReference
     /**
      * Returns the value of the '<em><b>Sort</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Sort</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Sort</em>' attribute.
      * @see #isSetSort()
@@ -205,10 +193,6 @@ public interface IfcClassificationReference
      * Returns the value of the '<em><b>Classification Ref For Objects</b></em>' reference list.
      * The list contents are of type {@link org.bimserver.models.ifc4.IfcRelAssociatesClassification}.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Classification Ref For Objects</em>' reference list isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Classification Ref For Objects</em>' reference list.
      * @see #isSetClassificationRefForObjects()
@@ -245,10 +229,6 @@ public interface IfcClassificationReference
      * Returns the value of the '<em><b>Has References</b></em>' reference list.
      * The list contents are of type {@link org.bimserver.models.ifc4.IfcClassificationReference}.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Has References</em>' reference list isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Has References</em>' reference list.
      * @see #isSetHasReferences()

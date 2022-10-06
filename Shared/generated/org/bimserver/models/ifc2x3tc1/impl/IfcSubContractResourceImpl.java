@@ -53,7 +53,7 @@ public class IfcSubContractResourceImpl extends IfcConstructionResourceImpl impl
      */
     @Override
     protected EClass eStaticClass() {
-        return Ifc2x3tc1Package.Literals.IFC_SUB_CONTRACT_RESOURCE;
+        return Ifc2x3tc1Package.eINSTANCE.getIfcSubContractResource();
     }
 
     /**
@@ -63,7 +63,7 @@ public class IfcSubContractResourceImpl extends IfcConstructionResourceImpl impl
      */
     @Override
     public IfcActorSelect getSubContractor() {
-        return (IfcActorSelect) eGet(Ifc2x3tc1Package.Literals.IFC_SUB_CONTRACT_RESOURCE__SUB_CONTRACTOR, true);
+        return (IfcActorSelect) eGet(Ifc2x3tc1Package.eINSTANCE.getIfcSubContractResource_SubContractor(), true);
     }
 
     /**
@@ -73,7 +73,7 @@ public class IfcSubContractResourceImpl extends IfcConstructionResourceImpl impl
      */
     @Override
     public void setSubContractor(IfcActorSelect newSubContractor) {
-        eSet(Ifc2x3tc1Package.Literals.IFC_SUB_CONTRACT_RESOURCE__SUB_CONTRACTOR, newSubContractor);
+        eSet(Ifc2x3tc1Package.eINSTANCE.getIfcSubContractResource_SubContractor(), newSubContractor);
     }
 
     /**
@@ -83,7 +83,7 @@ public class IfcSubContractResourceImpl extends IfcConstructionResourceImpl impl
      */
     @Override
     public void unsetSubContractor() {
-        eUnset(Ifc2x3tc1Package.Literals.IFC_SUB_CONTRACT_RESOURCE__SUB_CONTRACTOR);
+        eUnset(Ifc2x3tc1Package.eINSTANCE.getIfcSubContractResource_SubContractor());
     }
 
     /**
@@ -93,7 +93,7 @@ public class IfcSubContractResourceImpl extends IfcConstructionResourceImpl impl
      */
     @Override
     public boolean isSetSubContractor() {
-        return eIsSet(Ifc2x3tc1Package.Literals.IFC_SUB_CONTRACT_RESOURCE__SUB_CONTRACTOR);
+        return eIsSet(Ifc2x3tc1Package.eINSTANCE.getIfcSubContractResource_SubContractor());
     }
 
     /**
@@ -103,7 +103,7 @@ public class IfcSubContractResourceImpl extends IfcConstructionResourceImpl impl
      */
     @Override
     public String getJobDescription() {
-        return (String) eGet(Ifc2x3tc1Package.Literals.IFC_SUB_CONTRACT_RESOURCE__JOB_DESCRIPTION, true);
+        return (String) eGet(Ifc2x3tc1Package.eINSTANCE.getIfcSubContractResource_JobDescription(), true);
     }
 
     /**
@@ -113,7 +113,7 @@ public class IfcSubContractResourceImpl extends IfcConstructionResourceImpl impl
      */
     @Override
     public void setJobDescription(String newJobDescription) {
-        eSet(Ifc2x3tc1Package.Literals.IFC_SUB_CONTRACT_RESOURCE__JOB_DESCRIPTION, newJobDescription);
+        eSet(Ifc2x3tc1Package.eINSTANCE.getIfcSubContractResource_JobDescription(), newJobDescription);
     }
 
     /**
@@ -123,7 +123,7 @@ public class IfcSubContractResourceImpl extends IfcConstructionResourceImpl impl
      */
     @Override
     public void unsetJobDescription() {
-        eUnset(Ifc2x3tc1Package.Literals.IFC_SUB_CONTRACT_RESOURCE__JOB_DESCRIPTION);
+        eUnset(Ifc2x3tc1Package.eINSTANCE.getIfcSubContractResource_JobDescription());
     }
 
     /**
@@ -133,7 +133,7 @@ public class IfcSubContractResourceImpl extends IfcConstructionResourceImpl impl
      */
     @Override
     public boolean isSetJobDescription() {
-        return eIsSet(Ifc2x3tc1Package.Literals.IFC_SUB_CONTRACT_RESOURCE__JOB_DESCRIPTION);
+        return eIsSet(Ifc2x3tc1Package.eINSTANCE.getIfcSubContractResource_JobDescription());
     }
 
 } //IfcSubContractResourceImpl

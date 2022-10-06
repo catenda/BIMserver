@@ -56,10 +56,6 @@ public interface IfcDoorLiningProperties extends IfcPropertySetDefinition {
     /**
      * Returns the value of the '<em><b>Lining Depth</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Lining Depth</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Lining Depth</em>' attribute.
      * @see #isSetLiningDepth()
@@ -109,10 +105,6 @@ public interface IfcDoorLiningProperties extends IfcPropertySetDefinition {
     /**
      * Returns the value of the '<em><b>Lining Depth As String</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Lining Depth As String</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Lining Depth As String</em>' attribute.
      * @see #isSetLiningDepthAsString()
@@ -164,10 +156,6 @@ public interface IfcDoorLiningProperties extends IfcPropertySetDefinition {
     /**
      * Returns the value of the '<em><b>Lining Thickness</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Lining Thickness</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Lining Thickness</em>' attribute.
      * @see #isSetLiningThickness()
@@ -217,10 +205,6 @@ public interface IfcDoorLiningProperties extends IfcPropertySetDefinition {
     /**
      * Returns the value of the '<em><b>Lining Thickness As String</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Lining Thickness As String</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Lining Thickness As String</em>' attribute.
      * @see #isSetLiningThicknessAsString()
@@ -272,10 +256,6 @@ public interface IfcDoorLiningProperties extends IfcPropertySetDefinition {
     /**
      * Returns the value of the '<em><b>Threshold Depth</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Threshold Depth</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Threshold Depth</em>' attribute.
      * @see #isSetThresholdDepth()
@@ -325,10 +305,6 @@ public interface IfcDoorLiningProperties extends IfcPropertySetDefinition {
     /**
      * Returns the value of the '<em><b>Threshold Depth As String</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Threshold Depth As String</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Threshold Depth As String</em>' attribute.
      * @see #isSetThresholdDepthAsString()
@@ -380,10 +356,6 @@ public interface IfcDoorLiningProperties extends IfcPropertySetDefinition {
     /**
      * Returns the value of the '<em><b>Threshold Thickness</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Threshold Thickness</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Threshold Thickness</em>' attribute.
      * @see #isSetThresholdThickness()
@@ -433,10 +405,6 @@ public interface IfcDoorLiningProperties extends IfcPropertySetDefinition {
     /**
      * Returns the value of the '<em><b>Threshold Thickness As String</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Threshold Thickness As String</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Threshold Thickness As String</em>' attribute.
      * @see #isSetThresholdThicknessAsString()
@@ -488,10 +456,6 @@ public interface IfcDoorLiningProperties extends IfcPropertySetDefinition {
     /**
      * Returns the value of the '<em><b>Transom Thickness</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Transom Thickness</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Transom Thickness</em>' attribute.
      * @see #isSetTransomThickness()
@@ -541,10 +505,6 @@ public interface IfcDoorLiningProperties extends IfcPropertySetDefinition {
     /**
      * Returns the value of the '<em><b>Transom Thickness As String</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Transom Thickness As String</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Transom Thickness As String</em>' attribute.
      * @see #isSetTransomThicknessAsString()
@@ -596,10 +556,6 @@ public interface IfcDoorLiningProperties extends IfcPropertySetDefinition {
     /**
      * Returns the value of the '<em><b>Transom Offset</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Transom Offset</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Transom Offset</em>' attribute.
      * @see #isSetTransomOffset()
@@ -649,10 +605,6 @@ public interface IfcDoorLiningProperties extends IfcPropertySetDefinition {
     /**
      * Returns the value of the '<em><b>Transom Offset As String</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Transom Offset As String</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Transom Offset As String</em>' attribute.
      * @see #isSetTransomOffsetAsString()
@@ -704,10 +656,6 @@ public interface IfcDoorLiningProperties extends IfcPropertySetDefinition {
     /**
      * Returns the value of the '<em><b>Lining Offset</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Lining Offset</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Lining Offset</em>' attribute.
      * @see #isSetLiningOffset()
@@ -757,10 +705,6 @@ public interface IfcDoorLiningProperties extends IfcPropertySetDefinition {
     /**
      * Returns the value of the '<em><b>Lining Offset As String</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Lining Offset As String</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Lining Offset As String</em>' attribute.
      * @see #isSetLiningOffsetAsString()
@@ -812,10 +756,6 @@ public interface IfcDoorLiningProperties extends IfcPropertySetDefinition {
     /**
      * Returns the value of the '<em><b>Threshold Offset</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Threshold Offset</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Threshold Offset</em>' attribute.
      * @see #isSetThresholdOffset()
@@ -865,10 +805,6 @@ public interface IfcDoorLiningProperties extends IfcPropertySetDefinition {
     /**
      * Returns the value of the '<em><b>Threshold Offset As String</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Threshold Offset As String</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Threshold Offset As String</em>' attribute.
      * @see #isSetThresholdOffsetAsString()
@@ -920,10 +856,6 @@ public interface IfcDoorLiningProperties extends IfcPropertySetDefinition {
     /**
      * Returns the value of the '<em><b>Casing Thickness</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Casing Thickness</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Casing Thickness</em>' attribute.
      * @see #isSetCasingThickness()
@@ -973,10 +905,6 @@ public interface IfcDoorLiningProperties extends IfcPropertySetDefinition {
     /**
      * Returns the value of the '<em><b>Casing Thickness As String</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Casing Thickness As String</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Casing Thickness As String</em>' attribute.
      * @see #isSetCasingThicknessAsString()
@@ -1028,10 +956,6 @@ public interface IfcDoorLiningProperties extends IfcPropertySetDefinition {
     /**
      * Returns the value of the '<em><b>Casing Depth</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Casing Depth</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Casing Depth</em>' attribute.
      * @see #isSetCasingDepth()
@@ -1081,10 +1005,6 @@ public interface IfcDoorLiningProperties extends IfcPropertySetDefinition {
     /**
      * Returns the value of the '<em><b>Casing Depth As String</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Casing Depth As String</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Casing Depth As String</em>' attribute.
      * @see #isSetCasingDepthAsString()
@@ -1136,10 +1056,6 @@ public interface IfcDoorLiningProperties extends IfcPropertySetDefinition {
     /**
      * Returns the value of the '<em><b>Shape Aspect Style</b></em>' reference.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Shape Aspect Style</em>' reference isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Shape Aspect Style</em>' reference.
      * @see #isSetShapeAspectStyle()

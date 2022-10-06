@@ -125,10 +125,6 @@ public enum IfcCondenserTypeEnum implements Enumerator {
     /**
      * The '<em><b>NULL</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>NULL</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #NULL
      * @model
@@ -140,10 +136,6 @@ public enum IfcCondenserTypeEnum implements Enumerator {
     /**
      * The '<em><b>EVAPORATIVECOOLED</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>EVAPORATIVECOOLED</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #EVAPORATIVECOOLED
      * @model
@@ -155,10 +147,6 @@ public enum IfcCondenserTypeEnum implements Enumerator {
     /**
      * The '<em><b>NOTDEFINED</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>NOTDEFINED</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #NOTDEFINED
      * @model
@@ -170,10 +158,6 @@ public enum IfcCondenserTypeEnum implements Enumerator {
     /**
      * The '<em><b>WATERCOOLEDSHELLCOIL</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>WATERCOOLEDSHELLCOIL</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #WATERCOOLEDSHELLCOIL
      * @model
@@ -185,10 +169,6 @@ public enum IfcCondenserTypeEnum implements Enumerator {
     /**
      * The '<em><b>AIRCOOLED</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>AIRCOOLED</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #AIRCOOLED
      * @model
@@ -200,10 +180,6 @@ public enum IfcCondenserTypeEnum implements Enumerator {
     /**
      * The '<em><b>WATERCOOLEDBRAZEDPLATE</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>WATERCOOLEDBRAZEDPLATE</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #WATERCOOLEDBRAZEDPLATE
      * @model
@@ -215,10 +191,6 @@ public enum IfcCondenserTypeEnum implements Enumerator {
     /**
      * The '<em><b>WATERCOOLEDSHELLTUBE</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>WATERCOOLEDSHELLTUBE</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #WATERCOOLEDSHELLTUBE
      * @model
@@ -230,10 +202,6 @@ public enum IfcCondenserTypeEnum implements Enumerator {
     /**
      * The '<em><b>USERDEFINED</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>USERDEFINED</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #USERDEFINED
      * @model
@@ -245,10 +213,6 @@ public enum IfcCondenserTypeEnum implements Enumerator {
     /**
      * The '<em><b>WATERCOOLEDTUBEINTUBE</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>WATERCOOLEDTUBEINTUBE</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #WATERCOOLEDTUBEINTUBE
      * @model

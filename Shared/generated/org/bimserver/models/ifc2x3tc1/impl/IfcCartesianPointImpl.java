@@ -55,7 +55,7 @@ public class IfcCartesianPointImpl extends IfcPointImpl implements IfcCartesianP
      */
     @Override
     protected EClass eStaticClass() {
-        return Ifc2x3tc1Package.Literals.IFC_CARTESIAN_POINT;
+        return Ifc2x3tc1Package.eINSTANCE.getIfcCartesianPoint();
     }
 
     /**
@@ -66,7 +66,7 @@ public class IfcCartesianPointImpl extends IfcPointImpl implements IfcCartesianP
     @SuppressWarnings("unchecked")
     @Override
     public EList<Double> getCoordinates() {
-        return (EList<Double>) eGet(Ifc2x3tc1Package.Literals.IFC_CARTESIAN_POINT__COORDINATES, true);
+        return (EList<Double>) eGet(Ifc2x3tc1Package.eINSTANCE.getIfcCartesianPoint_Coordinates(), true);
     }
 
     /**
@@ -77,7 +77,7 @@ public class IfcCartesianPointImpl extends IfcPointImpl implements IfcCartesianP
     @SuppressWarnings("unchecked")
     @Override
     public EList<String> getCoordinatesAsString() {
-        return (EList<String>) eGet(Ifc2x3tc1Package.Literals.IFC_CARTESIAN_POINT__COORDINATES_AS_STRING, true);
+        return (EList<String>) eGet(Ifc2x3tc1Package.eINSTANCE.getIfcCartesianPoint_CoordinatesAsString(), true);
     }
 
     /**
@@ -87,7 +87,7 @@ public class IfcCartesianPointImpl extends IfcPointImpl implements IfcCartesianP
      */
     @Override
     public long getDim() {
-        return (Long) eGet(Ifc2x3tc1Package.Literals.IFC_CARTESIAN_POINT__DIM, true);
+        return (Long) eGet(Ifc2x3tc1Package.eINSTANCE.getIfcCartesianPoint_Dim(), true);
     }
 
     /**
@@ -97,7 +97,7 @@ public class IfcCartesianPointImpl extends IfcPointImpl implements IfcCartesianP
      */
     @Override
     public void setDim(long newDim) {
-        eSet(Ifc2x3tc1Package.Literals.IFC_CARTESIAN_POINT__DIM, newDim);
+        eSet(Ifc2x3tc1Package.eINSTANCE.getIfcCartesianPoint_Dim(), newDim);
     }
 
     /**
@@ -107,7 +107,7 @@ public class IfcCartesianPointImpl extends IfcPointImpl implements IfcCartesianP
      */
     @Override
     public void unsetDim() {
-        eUnset(Ifc2x3tc1Package.Literals.IFC_CARTESIAN_POINT__DIM);
+        eUnset(Ifc2x3tc1Package.eINSTANCE.getIfcCartesianPoint_Dim());
     }
 
     /**
@@ -117,7 +117,7 @@ public class IfcCartesianPointImpl extends IfcPointImpl implements IfcCartesianP
      */
     @Override
     public boolean isSetDim() {
-        return eIsSet(Ifc2x3tc1Package.Literals.IFC_CARTESIAN_POINT__DIM);
+        return eIsSet(Ifc2x3tc1Package.eINSTANCE.getIfcCartesianPoint_Dim());
     }
 
 } //IfcCartesianPointImpl

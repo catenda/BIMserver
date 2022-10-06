@@ -54,7 +54,7 @@ public class IfcWorkTimeImpl extends IfcSchedulingTimeImpl implements IfcWorkTim
      */
     @Override
     protected EClass eStaticClass() {
-        return Ifc4Package.Literals.IFC_WORK_TIME;
+        return Ifc4Package.eINSTANCE.getIfcWorkTime();
     }
 
     /**
@@ -64,7 +64,7 @@ public class IfcWorkTimeImpl extends IfcSchedulingTimeImpl implements IfcWorkTim
      */
     @Override
     public IfcRecurrencePattern getRecurrencePattern() {
-        return (IfcRecurrencePattern) eGet(Ifc4Package.Literals.IFC_WORK_TIME__RECURRENCE_PATTERN, true);
+        return (IfcRecurrencePattern) eGet(Ifc4Package.eINSTANCE.getIfcWorkTime_RecurrencePattern(), true);
     }
 
     /**
@@ -74,7 +74,7 @@ public class IfcWorkTimeImpl extends IfcSchedulingTimeImpl implements IfcWorkTim
      */
     @Override
     public void setRecurrencePattern(IfcRecurrencePattern newRecurrencePattern) {
-        eSet(Ifc4Package.Literals.IFC_WORK_TIME__RECURRENCE_PATTERN, newRecurrencePattern);
+        eSet(Ifc4Package.eINSTANCE.getIfcWorkTime_RecurrencePattern(), newRecurrencePattern);
     }
 
     /**
@@ -84,7 +84,7 @@ public class IfcWorkTimeImpl extends IfcSchedulingTimeImpl implements IfcWorkTim
      */
     @Override
     public void unsetRecurrencePattern() {
-        eUnset(Ifc4Package.Literals.IFC_WORK_TIME__RECURRENCE_PATTERN);
+        eUnset(Ifc4Package.eINSTANCE.getIfcWorkTime_RecurrencePattern());
     }
 
     /**
@@ -94,7 +94,7 @@ public class IfcWorkTimeImpl extends IfcSchedulingTimeImpl implements IfcWorkTim
      */
     @Override
     public boolean isSetRecurrencePattern() {
-        return eIsSet(Ifc4Package.Literals.IFC_WORK_TIME__RECURRENCE_PATTERN);
+        return eIsSet(Ifc4Package.eINSTANCE.getIfcWorkTime_RecurrencePattern());
     }
 
     /**
@@ -104,7 +104,7 @@ public class IfcWorkTimeImpl extends IfcSchedulingTimeImpl implements IfcWorkTim
      */
     @Override
     public String getStart() {
-        return (String) eGet(Ifc4Package.Literals.IFC_WORK_TIME__START, true);
+        return (String) eGet(Ifc4Package.eINSTANCE.getIfcWorkTime_Start(), true);
     }
 
     /**
@@ -114,7 +114,7 @@ public class IfcWorkTimeImpl extends IfcSchedulingTimeImpl implements IfcWorkTim
      */
     @Override
     public void setStart(String newStart) {
-        eSet(Ifc4Package.Literals.IFC_WORK_TIME__START, newStart);
+        eSet(Ifc4Package.eINSTANCE.getIfcWorkTime_Start(), newStart);
     }
 
     /**
@@ -124,7 +124,7 @@ public class IfcWorkTimeImpl extends IfcSchedulingTimeImpl implements IfcWorkTim
      */
     @Override
     public void unsetStart() {
-        eUnset(Ifc4Package.Literals.IFC_WORK_TIME__START);
+        eUnset(Ifc4Package.eINSTANCE.getIfcWorkTime_Start());
     }
 
     /**
@@ -134,7 +134,7 @@ public class IfcWorkTimeImpl extends IfcSchedulingTimeImpl implements IfcWorkTim
      */
     @Override
     public boolean isSetStart() {
-        return eIsSet(Ifc4Package.Literals.IFC_WORK_TIME__START);
+        return eIsSet(Ifc4Package.eINSTANCE.getIfcWorkTime_Start());
     }
 
     /**
@@ -144,7 +144,7 @@ public class IfcWorkTimeImpl extends IfcSchedulingTimeImpl implements IfcWorkTim
      */
     @Override
     public String getFinish() {
-        return (String) eGet(Ifc4Package.Literals.IFC_WORK_TIME__FINISH, true);
+        return (String) eGet(Ifc4Package.eINSTANCE.getIfcWorkTime_Finish(), true);
     }
 
     /**
@@ -154,7 +154,7 @@ public class IfcWorkTimeImpl extends IfcSchedulingTimeImpl implements IfcWorkTim
      */
     @Override
     public void setFinish(String newFinish) {
-        eSet(Ifc4Package.Literals.IFC_WORK_TIME__FINISH, newFinish);
+        eSet(Ifc4Package.eINSTANCE.getIfcWorkTime_Finish(), newFinish);
     }
 
     /**
@@ -164,7 +164,7 @@ public class IfcWorkTimeImpl extends IfcSchedulingTimeImpl implements IfcWorkTim
      */
     @Override
     public void unsetFinish() {
-        eUnset(Ifc4Package.Literals.IFC_WORK_TIME__FINISH);
+        eUnset(Ifc4Package.eINSTANCE.getIfcWorkTime_Finish());
     }
 
     /**
@@ -174,7 +174,7 @@ public class IfcWorkTimeImpl extends IfcSchedulingTimeImpl implements IfcWorkTim
      */
     @Override
     public boolean isSetFinish() {
-        return eIsSet(Ifc4Package.Literals.IFC_WORK_TIME__FINISH);
+        return eIsSet(Ifc4Package.eINSTANCE.getIfcWorkTime_Finish());
     }
 
 } //IfcWorkTimeImpl

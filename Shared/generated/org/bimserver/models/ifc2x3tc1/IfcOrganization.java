@@ -45,10 +45,6 @@ public interface IfcOrganization extends IfcActorSelect, IfcObjectReferenceSelec
     /**
      * Returns the value of the '<em><b>Id</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Id</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Id</em>' attribute.
      * @see #isSetId()
@@ -98,10 +94,6 @@ public interface IfcOrganization extends IfcActorSelect, IfcObjectReferenceSelec
     /**
      * Returns the value of the '<em><b>Name</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Name</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Name</em>' attribute.
      * @see #setName(String)
@@ -124,10 +116,6 @@ public interface IfcOrganization extends IfcActorSelect, IfcObjectReferenceSelec
     /**
      * Returns the value of the '<em><b>Description</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Description</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Description</em>' attribute.
      * @see #isSetDescription()
@@ -178,10 +166,6 @@ public interface IfcOrganization extends IfcActorSelect, IfcObjectReferenceSelec
      * Returns the value of the '<em><b>Roles</b></em>' reference list.
      * The list contents are of type {@link org.bimserver.models.ifc2x3tc1.IfcActorRole}.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Roles</em>' reference list isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Roles</em>' reference list.
      * @see #isSetRoles()
@@ -218,10 +202,6 @@ public interface IfcOrganization extends IfcActorSelect, IfcObjectReferenceSelec
      * The list contents are of type {@link org.bimserver.models.ifc2x3tc1.IfcAddress}.
      * It is bidirectional and its opposite is '{@link org.bimserver.models.ifc2x3tc1.IfcAddress#getOfOrganization <em>Of Organization</em>}'.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Addresses</em>' reference list isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Addresses</em>' reference list.
      * @see #isSetAddresses()
@@ -260,10 +240,6 @@ public interface IfcOrganization extends IfcActorSelect, IfcObjectReferenceSelec
      * The list contents are of type {@link org.bimserver.models.ifc2x3tc1.IfcOrganizationRelationship}.
      * It is bidirectional and its opposite is '{@link org.bimserver.models.ifc2x3tc1.IfcOrganizationRelationship#getRelatedOrganizations <em>Related Organizations</em>}'.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Is Related By</em>' reference list isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Is Related By</em>' reference list.
      * @see #isSetIsRelatedBy()
@@ -302,10 +278,6 @@ public interface IfcOrganization extends IfcActorSelect, IfcObjectReferenceSelec
      * The list contents are of type {@link org.bimserver.models.ifc2x3tc1.IfcOrganizationRelationship}.
      * It is bidirectional and its opposite is '{@link org.bimserver.models.ifc2x3tc1.IfcOrganizationRelationship#getRelatingOrganization <em>Relating Organization</em>}'.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Relates</em>' reference list isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Relates</em>' reference list.
      * @see #isSetRelates()
@@ -344,10 +316,6 @@ public interface IfcOrganization extends IfcActorSelect, IfcObjectReferenceSelec
      * The list contents are of type {@link org.bimserver.models.ifc2x3tc1.IfcPersonAndOrganization}.
      * It is bidirectional and its opposite is '{@link org.bimserver.models.ifc2x3tc1.IfcPersonAndOrganization#getTheOrganization <em>The Organization</em>}'.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Engages</em>' reference list isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Engages</em>' reference list.
      * @see #isSetEngages()

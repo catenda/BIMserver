@@ -165,10 +165,6 @@ public enum IfcMechanicalFastenerTypeEnum implements Enumerator {
     /**
      * The '<em><b>NULL</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>NULL</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #NULL
      * @model
@@ -180,10 +176,6 @@ public enum IfcMechanicalFastenerTypeEnum implements Enumerator {
     /**
      * The '<em><b>DOWEL</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>DOWEL</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #DOWEL
      * @model
@@ -195,10 +187,6 @@ public enum IfcMechanicalFastenerTypeEnum implements Enumerator {
     /**
      * The '<em><b>SHEARCONNECTOR</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>SHEARCONNECTOR</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #SHEARCONNECTOR
      * @model
@@ -210,10 +198,6 @@ public enum IfcMechanicalFastenerTypeEnum implements Enumerator {
     /**
      * The '<em><b>STUDSHEARCONNECTOR</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>STUDSHEARCONNECTOR</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #STUDSHEARCONNECTOR
      * @model
@@ -225,10 +209,6 @@ public enum IfcMechanicalFastenerTypeEnum implements Enumerator {
     /**
      * The '<em><b>NAIL</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>NAIL</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #NAIL
      * @model
@@ -240,10 +220,6 @@ public enum IfcMechanicalFastenerTypeEnum implements Enumerator {
     /**
      * The '<em><b>NOTDEFINED</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>NOTDEFINED</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #NOTDEFINED
      * @model
@@ -255,10 +231,6 @@ public enum IfcMechanicalFastenerTypeEnum implements Enumerator {
     /**
      * The '<em><b>SCREW</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>SCREW</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #SCREW
      * @model
@@ -270,10 +242,6 @@ public enum IfcMechanicalFastenerTypeEnum implements Enumerator {
     /**
      * The '<em><b>NAILPLATE</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>NAILPLATE</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #NAILPLATE
      * @model
@@ -285,10 +253,6 @@ public enum IfcMechanicalFastenerTypeEnum implements Enumerator {
     /**
      * The '<em><b>RIVET</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>RIVET</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #RIVET
      * @model
@@ -300,10 +264,6 @@ public enum IfcMechanicalFastenerTypeEnum implements Enumerator {
     /**
      * The '<em><b>STAPLE</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>STAPLE</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #STAPLE
      * @model
@@ -315,10 +275,6 @@ public enum IfcMechanicalFastenerTypeEnum implements Enumerator {
     /**
      * The '<em><b>ANCHORBOLT</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>ANCHORBOLT</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #ANCHORBOLT
      * @model
@@ -330,10 +286,6 @@ public enum IfcMechanicalFastenerTypeEnum implements Enumerator {
     /**
      * The '<em><b>BOLT</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>BOLT</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #BOLT
      * @model
@@ -345,10 +297,6 @@ public enum IfcMechanicalFastenerTypeEnum implements Enumerator {
     /**
      * The '<em><b>USERDEFINED</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>USERDEFINED</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #USERDEFINED
      * @model

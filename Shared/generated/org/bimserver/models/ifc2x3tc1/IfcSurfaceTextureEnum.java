@@ -135,10 +135,6 @@ public enum IfcSurfaceTextureEnum implements Enumerator {
     /**
      * The '<em><b>NULL</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>NULL</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #NULL
      * @model
@@ -150,10 +146,6 @@ public enum IfcSurfaceTextureEnum implements Enumerator {
     /**
      * The '<em><b>REFLECTION</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>REFLECTION</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #REFLECTION
      * @model
@@ -165,10 +157,6 @@ public enum IfcSurfaceTextureEnum implements Enumerator {
     /**
      * The '<em><b>TEXTURE</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>TEXTURE</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #TEXTURE
      * @model
@@ -180,10 +168,6 @@ public enum IfcSurfaceTextureEnum implements Enumerator {
     /**
      * The '<em><b>NOTDEFINED</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>NOTDEFINED</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #NOTDEFINED
      * @model
@@ -195,10 +179,6 @@ public enum IfcSurfaceTextureEnum implements Enumerator {
     /**
      * The '<em><b>OPACITY</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>OPACITY</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #OPACITY
      * @model
@@ -210,10 +190,6 @@ public enum IfcSurfaceTextureEnum implements Enumerator {
     /**
      * The '<em><b>SHININESS</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>SHININESS</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #SHININESS
      * @model
@@ -225,10 +201,6 @@ public enum IfcSurfaceTextureEnum implements Enumerator {
     /**
      * The '<em><b>BUMP</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>BUMP</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #BUMP
      * @model
@@ -240,10 +212,6 @@ public enum IfcSurfaceTextureEnum implements Enumerator {
     /**
      * The '<em><b>SPECULAR</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>SPECULAR</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #SPECULAR
      * @model
@@ -255,10 +223,6 @@ public enum IfcSurfaceTextureEnum implements Enumerator {
     /**
      * The '<em><b>TRANSPARENCYMAP</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>TRANSPARENCYMAP</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #TRANSPARENCYMAP
      * @model
@@ -270,10 +234,6 @@ public enum IfcSurfaceTextureEnum implements Enumerator {
     /**
      * The '<em><b>SELFILLUMINATION</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>SELFILLUMINATION</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #SELFILLUMINATION
      * @model

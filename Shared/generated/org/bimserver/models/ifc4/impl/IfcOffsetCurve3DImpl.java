@@ -20,8 +20,8 @@ import org.bimserver.models.ifc4.Ifc4Package;
 import org.bimserver.models.ifc4.IfcCurve;
 import org.bimserver.models.ifc4.IfcDirection;
 import org.bimserver.models.ifc4.IfcOffsetCurve3D;
-
 import org.bimserver.models.ifc4.Tristate;
+
 import org.eclipse.emf.ecore.EClass;
 
 /**
@@ -58,7 +58,7 @@ public class IfcOffsetCurve3DImpl extends IfcCurveImpl implements IfcOffsetCurve
      */
     @Override
     protected EClass eStaticClass() {
-        return Ifc4Package.Literals.IFC_OFFSET_CURVE3_D;
+        return Ifc4Package.eINSTANCE.getIfcOffsetCurve3D();
     }
 
     /**
@@ -68,7 +68,7 @@ public class IfcOffsetCurve3DImpl extends IfcCurveImpl implements IfcOffsetCurve
      */
     @Override
     public IfcCurve getBasisCurve() {
-        return (IfcCurve) eGet(Ifc4Package.Literals.IFC_OFFSET_CURVE3_D__BASIS_CURVE, true);
+        return (IfcCurve) eGet(Ifc4Package.eINSTANCE.getIfcOffsetCurve3D_BasisCurve(), true);
     }
 
     /**
@@ -78,7 +78,7 @@ public class IfcOffsetCurve3DImpl extends IfcCurveImpl implements IfcOffsetCurve
      */
     @Override
     public void setBasisCurve(IfcCurve newBasisCurve) {
-        eSet(Ifc4Package.Literals.IFC_OFFSET_CURVE3_D__BASIS_CURVE, newBasisCurve);
+        eSet(Ifc4Package.eINSTANCE.getIfcOffsetCurve3D_BasisCurve(), newBasisCurve);
     }
 
     /**
@@ -88,7 +88,7 @@ public class IfcOffsetCurve3DImpl extends IfcCurveImpl implements IfcOffsetCurve
      */
     @Override
     public double getDistance() {
-        return (Double) eGet(Ifc4Package.Literals.IFC_OFFSET_CURVE3_D__DISTANCE, true);
+        return (Double) eGet(Ifc4Package.eINSTANCE.getIfcOffsetCurve3D_Distance(), true);
     }
 
     /**
@@ -98,7 +98,7 @@ public class IfcOffsetCurve3DImpl extends IfcCurveImpl implements IfcOffsetCurve
      */
     @Override
     public void setDistance(double newDistance) {
-        eSet(Ifc4Package.Literals.IFC_OFFSET_CURVE3_D__DISTANCE, newDistance);
+        eSet(Ifc4Package.eINSTANCE.getIfcOffsetCurve3D_Distance(), newDistance);
     }
 
     /**
@@ -108,7 +108,7 @@ public class IfcOffsetCurve3DImpl extends IfcCurveImpl implements IfcOffsetCurve
      */
     @Override
     public String getDistanceAsString() {
-        return (String) eGet(Ifc4Package.Literals.IFC_OFFSET_CURVE3_D__DISTANCE_AS_STRING, true);
+        return (String) eGet(Ifc4Package.eINSTANCE.getIfcOffsetCurve3D_DistanceAsString(), true);
     }
 
     /**
@@ -118,7 +118,7 @@ public class IfcOffsetCurve3DImpl extends IfcCurveImpl implements IfcOffsetCurve
      */
     @Override
     public void setDistanceAsString(String newDistanceAsString) {
-        eSet(Ifc4Package.Literals.IFC_OFFSET_CURVE3_D__DISTANCE_AS_STRING, newDistanceAsString);
+        eSet(Ifc4Package.eINSTANCE.getIfcOffsetCurve3D_DistanceAsString(), newDistanceAsString);
     }
 
     /**
@@ -128,7 +128,7 @@ public class IfcOffsetCurve3DImpl extends IfcCurveImpl implements IfcOffsetCurve
      */
     @Override
     public Tristate getSelfIntersect() {
-        return (Tristate) eGet(Ifc4Package.Literals.IFC_OFFSET_CURVE3_D__SELF_INTERSECT, true);
+        return (Tristate) eGet(Ifc4Package.eINSTANCE.getIfcOffsetCurve3D_SelfIntersect(), true);
     }
 
     /**
@@ -138,7 +138,7 @@ public class IfcOffsetCurve3DImpl extends IfcCurveImpl implements IfcOffsetCurve
      */
     @Override
     public void setSelfIntersect(Tristate newSelfIntersect) {
-        eSet(Ifc4Package.Literals.IFC_OFFSET_CURVE3_D__SELF_INTERSECT, newSelfIntersect);
+        eSet(Ifc4Package.eINSTANCE.getIfcOffsetCurve3D_SelfIntersect(), newSelfIntersect);
     }
 
     /**
@@ -148,7 +148,7 @@ public class IfcOffsetCurve3DImpl extends IfcCurveImpl implements IfcOffsetCurve
      */
     @Override
     public IfcDirection getRefDirection() {
-        return (IfcDirection) eGet(Ifc4Package.Literals.IFC_OFFSET_CURVE3_D__REF_DIRECTION, true);
+        return (IfcDirection) eGet(Ifc4Package.eINSTANCE.getIfcOffsetCurve3D_RefDirection(), true);
     }
 
     /**
@@ -158,7 +158,7 @@ public class IfcOffsetCurve3DImpl extends IfcCurveImpl implements IfcOffsetCurve
      */
     @Override
     public void setRefDirection(IfcDirection newRefDirection) {
-        eSet(Ifc4Package.Literals.IFC_OFFSET_CURVE3_D__REF_DIRECTION, newRefDirection);
+        eSet(Ifc4Package.eINSTANCE.getIfcOffsetCurve3D_RefDirection(), newRefDirection);
     }
 
 } //IfcOffsetCurve3DImpl

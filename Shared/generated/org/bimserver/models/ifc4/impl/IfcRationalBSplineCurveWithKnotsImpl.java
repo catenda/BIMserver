@@ -57,7 +57,7 @@ public class IfcRationalBSplineCurveWithKnotsImpl extends IfcBSplineCurveWithKno
      */
     @Override
     protected EClass eStaticClass() {
-        return Ifc4Package.Literals.IFC_RATIONAL_BSPLINE_CURVE_WITH_KNOTS;
+        return Ifc4Package.eINSTANCE.getIfcRationalBSplineCurveWithKnots();
     }
 
     /**
@@ -68,7 +68,7 @@ public class IfcRationalBSplineCurveWithKnotsImpl extends IfcBSplineCurveWithKno
     @SuppressWarnings("unchecked")
     @Override
     public EList<Double> getWeightsData() {
-        return (EList<Double>) eGet(Ifc4Package.Literals.IFC_RATIONAL_BSPLINE_CURVE_WITH_KNOTS__WEIGHTS_DATA, true);
+        return (EList<Double>) eGet(Ifc4Package.eINSTANCE.getIfcRationalBSplineCurveWithKnots_WeightsData(), true);
     }
 
     /**
@@ -79,7 +79,7 @@ public class IfcRationalBSplineCurveWithKnotsImpl extends IfcBSplineCurveWithKno
     @SuppressWarnings("unchecked")
     @Override
     public EList<String> getWeightsDataAsString() {
-        return (EList<String>) eGet(Ifc4Package.Literals.IFC_RATIONAL_BSPLINE_CURVE_WITH_KNOTS__WEIGHTS_DATA_AS_STRING,
+        return (EList<String>) eGet(Ifc4Package.eINSTANCE.getIfcRationalBSplineCurveWithKnots_WeightsDataAsString(),
                 true);
     }
 
@@ -90,7 +90,7 @@ public class IfcRationalBSplineCurveWithKnotsImpl extends IfcBSplineCurveWithKno
      */
     @Override
     public double getWeights() {
-        return (Double) eGet(Ifc4Package.Literals.IFC_RATIONAL_BSPLINE_CURVE_WITH_KNOTS__WEIGHTS, true);
+        return (Double) eGet(Ifc4Package.eINSTANCE.getIfcRationalBSplineCurveWithKnots_Weights(), true);
     }
 
     /**
@@ -100,7 +100,7 @@ public class IfcRationalBSplineCurveWithKnotsImpl extends IfcBSplineCurveWithKno
      */
     @Override
     public void setWeights(double newWeights) {
-        eSet(Ifc4Package.Literals.IFC_RATIONAL_BSPLINE_CURVE_WITH_KNOTS__WEIGHTS, newWeights);
+        eSet(Ifc4Package.eINSTANCE.getIfcRationalBSplineCurveWithKnots_Weights(), newWeights);
     }
 
     /**
@@ -110,7 +110,7 @@ public class IfcRationalBSplineCurveWithKnotsImpl extends IfcBSplineCurveWithKno
      */
     @Override
     public void unsetWeights() {
-        eUnset(Ifc4Package.Literals.IFC_RATIONAL_BSPLINE_CURVE_WITH_KNOTS__WEIGHTS);
+        eUnset(Ifc4Package.eINSTANCE.getIfcRationalBSplineCurveWithKnots_Weights());
     }
 
     /**
@@ -120,7 +120,7 @@ public class IfcRationalBSplineCurveWithKnotsImpl extends IfcBSplineCurveWithKno
      */
     @Override
     public boolean isSetWeights() {
-        return eIsSet(Ifc4Package.Literals.IFC_RATIONAL_BSPLINE_CURVE_WITH_KNOTS__WEIGHTS);
+        return eIsSet(Ifc4Package.eINSTANCE.getIfcRationalBSplineCurveWithKnots_Weights());
     }
 
     /**
@@ -130,7 +130,7 @@ public class IfcRationalBSplineCurveWithKnotsImpl extends IfcBSplineCurveWithKno
      */
     @Override
     public String getWeightsAsString() {
-        return (String) eGet(Ifc4Package.Literals.IFC_RATIONAL_BSPLINE_CURVE_WITH_KNOTS__WEIGHTS_AS_STRING, true);
+        return (String) eGet(Ifc4Package.eINSTANCE.getIfcRationalBSplineCurveWithKnots_WeightsAsString(), true);
     }
 
     /**
@@ -140,7 +140,7 @@ public class IfcRationalBSplineCurveWithKnotsImpl extends IfcBSplineCurveWithKno
      */
     @Override
     public void setWeightsAsString(String newWeightsAsString) {
-        eSet(Ifc4Package.Literals.IFC_RATIONAL_BSPLINE_CURVE_WITH_KNOTS__WEIGHTS_AS_STRING, newWeightsAsString);
+        eSet(Ifc4Package.eINSTANCE.getIfcRationalBSplineCurveWithKnots_WeightsAsString(), newWeightsAsString);
     }
 
     /**
@@ -150,7 +150,7 @@ public class IfcRationalBSplineCurveWithKnotsImpl extends IfcBSplineCurveWithKno
      */
     @Override
     public void unsetWeightsAsString() {
-        eUnset(Ifc4Package.Literals.IFC_RATIONAL_BSPLINE_CURVE_WITH_KNOTS__WEIGHTS_AS_STRING);
+        eUnset(Ifc4Package.eINSTANCE.getIfcRationalBSplineCurveWithKnots_WeightsAsString());
     }
 
     /**
@@ -160,7 +160,7 @@ public class IfcRationalBSplineCurveWithKnotsImpl extends IfcBSplineCurveWithKno
      */
     @Override
     public boolean isSetWeightsAsString() {
-        return eIsSet(Ifc4Package.Literals.IFC_RATIONAL_BSPLINE_CURVE_WITH_KNOTS__WEIGHTS_AS_STRING);
+        return eIsSet(Ifc4Package.eINSTANCE.getIfcRationalBSplineCurveWithKnots_WeightsAsString());
     }
 
 } //IfcRationalBSplineCurveWithKnotsImpl

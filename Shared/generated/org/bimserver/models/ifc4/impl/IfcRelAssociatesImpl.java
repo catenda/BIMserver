@@ -54,7 +54,7 @@ public class IfcRelAssociatesImpl extends IfcRelationshipImpl implements IfcRelA
      */
     @Override
     protected EClass eStaticClass() {
-        return Ifc4Package.Literals.IFC_REL_ASSOCIATES;
+        return Ifc4Package.eINSTANCE.getIfcRelAssociates();
     }
 
     /**
@@ -65,7 +65,7 @@ public class IfcRelAssociatesImpl extends IfcRelationshipImpl implements IfcRelA
     @SuppressWarnings("unchecked")
     @Override
     public EList<IfcDefinitionSelect> getRelatedObjects() {
-        return (EList<IfcDefinitionSelect>) eGet(Ifc4Package.Literals.IFC_REL_ASSOCIATES__RELATED_OBJECTS, true);
+        return (EList<IfcDefinitionSelect>) eGet(Ifc4Package.eINSTANCE.getIfcRelAssociates_RelatedObjects(), true);
     }
 
 } //IfcRelAssociatesImpl

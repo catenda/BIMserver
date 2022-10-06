@@ -41,10 +41,6 @@ public interface IfcColourRgb extends IfcColourSpecification, IfcColourOrFactor 
     /**
      * Returns the value of the '<em><b>Red</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Red</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Red</em>' attribute.
      * @see #setRed(double)
@@ -67,10 +63,6 @@ public interface IfcColourRgb extends IfcColourSpecification, IfcColourOrFactor 
     /**
      * Returns the value of the '<em><b>Red As String</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Red As String</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Red As String</em>' attribute.
      * @see #setRedAsString(String)
@@ -94,10 +86,6 @@ public interface IfcColourRgb extends IfcColourSpecification, IfcColourOrFactor 
     /**
      * Returns the value of the '<em><b>Green</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Green</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Green</em>' attribute.
      * @see #setGreen(double)
@@ -120,10 +108,6 @@ public interface IfcColourRgb extends IfcColourSpecification, IfcColourOrFactor 
     /**
      * Returns the value of the '<em><b>Green As String</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Green As String</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Green As String</em>' attribute.
      * @see #setGreenAsString(String)
@@ -147,10 +131,6 @@ public interface IfcColourRgb extends IfcColourSpecification, IfcColourOrFactor 
     /**
      * Returns the value of the '<em><b>Blue</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Blue</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Blue</em>' attribute.
      * @see #setBlue(double)
@@ -173,10 +153,6 @@ public interface IfcColourRgb extends IfcColourSpecification, IfcColourOrFactor 
     /**
      * Returns the value of the '<em><b>Blue As String</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Blue As String</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Blue As String</em>' attribute.
      * @see #setBlueAsString(String)

@@ -345,10 +345,6 @@ public enum IfcSIUnitName implements Enumerator {
     /**
      * The '<em><b>NULL</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>NULL</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #NULL
      * @model
@@ -360,10 +356,6 @@ public enum IfcSIUnitName implements Enumerator {
     /**
      * The '<em><b>RADIAN</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>RADIAN</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #RADIAN
      * @model
@@ -375,10 +367,6 @@ public enum IfcSIUnitName implements Enumerator {
     /**
      * The '<em><b>GRAY</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>GRAY</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #GRAY
      * @model
@@ -390,10 +378,6 @@ public enum IfcSIUnitName implements Enumerator {
     /**
      * The '<em><b>BECQUEREL</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>BECQUEREL</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #BECQUEREL
      * @model
@@ -405,10 +389,6 @@ public enum IfcSIUnitName implements Enumerator {
     /**
      * The '<em><b>DEGREE CELSIUS</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>DEGREE CELSIUS</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #DEGREE_CELSIUS
      * @model
@@ -420,10 +400,6 @@ public enum IfcSIUnitName implements Enumerator {
     /**
      * The '<em><b>CUBIC METRE</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>CUBIC METRE</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #CUBIC_METRE
      * @model
@@ -435,10 +411,6 @@ public enum IfcSIUnitName implements Enumerator {
     /**
      * The '<em><b>SIEVERT</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>SIEVERT</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #SIEVERT
      * @model
@@ -450,10 +422,6 @@ public enum IfcSIUnitName implements Enumerator {
     /**
      * The '<em><b>WEBER</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>WEBER</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #WEBER
      * @model
@@ -465,10 +433,6 @@ public enum IfcSIUnitName implements Enumerator {
     /**
      * The '<em><b>PASCAL</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>PASCAL</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #PASCAL
      * @model
@@ -480,10 +444,6 @@ public enum IfcSIUnitName implements Enumerator {
     /**
      * The '<em><b>OHM</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>OHM</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #OHM
      * @model
@@ -495,10 +455,6 @@ public enum IfcSIUnitName implements Enumerator {
     /**
      * The '<em><b>AMPERE</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>AMPERE</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #AMPERE
      * @model
@@ -510,10 +466,6 @@ public enum IfcSIUnitName implements Enumerator {
     /**
      * The '<em><b>LUMEN</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>LUMEN</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #LUMEN
      * @model
@@ -525,10 +477,6 @@ public enum IfcSIUnitName implements Enumerator {
     /**
      * The '<em><b>JOULE</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>JOULE</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #JOULE
      * @model
@@ -540,10 +488,6 @@ public enum IfcSIUnitName implements Enumerator {
     /**
      * The '<em><b>COULOMB</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>COULOMB</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #COULOMB
      * @model
@@ -555,10 +499,6 @@ public enum IfcSIUnitName implements Enumerator {
     /**
      * The '<em><b>KELVIN</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>KELVIN</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #KELVIN
      * @model
@@ -570,10 +510,6 @@ public enum IfcSIUnitName implements Enumerator {
     /**
      * The '<em><b>WATT</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>WATT</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #WATT
      * @model
@@ -585,10 +521,6 @@ public enum IfcSIUnitName implements Enumerator {
     /**
      * The '<em><b>FARAD</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>FARAD</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #FARAD
      * @model
@@ -600,10 +532,6 @@ public enum IfcSIUnitName implements Enumerator {
     /**
      * The '<em><b>STERADIAN</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>STERADIAN</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #STERADIAN
      * @model
@@ -615,10 +543,6 @@ public enum IfcSIUnitName implements Enumerator {
     /**
      * The '<em><b>VOLT</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>VOLT</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #VOLT
      * @model
@@ -630,10 +554,6 @@ public enum IfcSIUnitName implements Enumerator {
     /**
      * The '<em><b>SIEMENS</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>SIEMENS</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #SIEMENS
      * @model
@@ -645,10 +565,6 @@ public enum IfcSIUnitName implements Enumerator {
     /**
      * The '<em><b>HERTZ</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>HERTZ</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #HERTZ
      * @model
@@ -660,10 +576,6 @@ public enum IfcSIUnitName implements Enumerator {
     /**
      * The '<em><b>SQUARE METRE</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>SQUARE METRE</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #SQUARE_METRE
      * @model
@@ -675,10 +587,6 @@ public enum IfcSIUnitName implements Enumerator {
     /**
      * The '<em><b>LUX</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>LUX</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #LUX
      * @model
@@ -690,10 +598,6 @@ public enum IfcSIUnitName implements Enumerator {
     /**
      * The '<em><b>HENRY</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>HENRY</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #HENRY
      * @model
@@ -705,10 +609,6 @@ public enum IfcSIUnitName implements Enumerator {
     /**
      * The '<em><b>CANDELA</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>CANDELA</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #CANDELA
      * @model
@@ -720,10 +620,6 @@ public enum IfcSIUnitName implements Enumerator {
     /**
      * The '<em><b>METRE</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>METRE</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #METRE
      * @model
@@ -735,10 +631,6 @@ public enum IfcSIUnitName implements Enumerator {
     /**
      * The '<em><b>GRAM</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>GRAM</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #GRAM
      * @model
@@ -750,10 +642,6 @@ public enum IfcSIUnitName implements Enumerator {
     /**
      * The '<em><b>TESLA</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>TESLA</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #TESLA
      * @model
@@ -765,10 +653,6 @@ public enum IfcSIUnitName implements Enumerator {
     /**
      * The '<em><b>SECOND</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>SECOND</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #SECOND
      * @model
@@ -780,10 +664,6 @@ public enum IfcSIUnitName implements Enumerator {
     /**
      * The '<em><b>NEWTON</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>NEWTON</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #NEWTON
      * @model
@@ -795,10 +675,6 @@ public enum IfcSIUnitName implements Enumerator {
     /**
      * The '<em><b>MOLE</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>MOLE</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #MOLE
      * @model

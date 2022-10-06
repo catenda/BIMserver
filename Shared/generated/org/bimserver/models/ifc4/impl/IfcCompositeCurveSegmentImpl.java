@@ -62,7 +62,7 @@ public class IfcCompositeCurveSegmentImpl extends IfcGeometricRepresentationItem
      */
     @Override
     protected EClass eStaticClass() {
-        return Ifc4Package.Literals.IFC_COMPOSITE_CURVE_SEGMENT;
+        return Ifc4Package.eINSTANCE.getIfcCompositeCurveSegment();
     }
 
     /**
@@ -72,7 +72,7 @@ public class IfcCompositeCurveSegmentImpl extends IfcGeometricRepresentationItem
      */
     @Override
     public IfcTransitionCode getTransition() {
-        return (IfcTransitionCode) eGet(Ifc4Package.Literals.IFC_COMPOSITE_CURVE_SEGMENT__TRANSITION, true);
+        return (IfcTransitionCode) eGet(Ifc4Package.eINSTANCE.getIfcCompositeCurveSegment_Transition(), true);
     }
 
     /**
@@ -82,7 +82,7 @@ public class IfcCompositeCurveSegmentImpl extends IfcGeometricRepresentationItem
      */
     @Override
     public void setTransition(IfcTransitionCode newTransition) {
-        eSet(Ifc4Package.Literals.IFC_COMPOSITE_CURVE_SEGMENT__TRANSITION, newTransition);
+        eSet(Ifc4Package.eINSTANCE.getIfcCompositeCurveSegment_Transition(), newTransition);
     }
 
     /**
@@ -92,7 +92,7 @@ public class IfcCompositeCurveSegmentImpl extends IfcGeometricRepresentationItem
      */
     @Override
     public Tristate getSameSense() {
-        return (Tristate) eGet(Ifc4Package.Literals.IFC_COMPOSITE_CURVE_SEGMENT__SAME_SENSE, true);
+        return (Tristate) eGet(Ifc4Package.eINSTANCE.getIfcCompositeCurveSegment_SameSense(), true);
     }
 
     /**
@@ -102,7 +102,7 @@ public class IfcCompositeCurveSegmentImpl extends IfcGeometricRepresentationItem
      */
     @Override
     public void setSameSense(Tristate newSameSense) {
-        eSet(Ifc4Package.Literals.IFC_COMPOSITE_CURVE_SEGMENT__SAME_SENSE, newSameSense);
+        eSet(Ifc4Package.eINSTANCE.getIfcCompositeCurveSegment_SameSense(), newSameSense);
     }
 
     /**
@@ -112,7 +112,7 @@ public class IfcCompositeCurveSegmentImpl extends IfcGeometricRepresentationItem
      */
     @Override
     public IfcCurve getParentCurve() {
-        return (IfcCurve) eGet(Ifc4Package.Literals.IFC_COMPOSITE_CURVE_SEGMENT__PARENT_CURVE, true);
+        return (IfcCurve) eGet(Ifc4Package.eINSTANCE.getIfcCompositeCurveSegment_ParentCurve(), true);
     }
 
     /**
@@ -122,7 +122,7 @@ public class IfcCompositeCurveSegmentImpl extends IfcGeometricRepresentationItem
      */
     @Override
     public void setParentCurve(IfcCurve newParentCurve) {
-        eSet(Ifc4Package.Literals.IFC_COMPOSITE_CURVE_SEGMENT__PARENT_CURVE, newParentCurve);
+        eSet(Ifc4Package.eINSTANCE.getIfcCompositeCurveSegment_ParentCurve(), newParentCurve);
     }
 
     /**
@@ -133,7 +133,7 @@ public class IfcCompositeCurveSegmentImpl extends IfcGeometricRepresentationItem
     @SuppressWarnings("unchecked")
     @Override
     public EList<IfcCompositeCurve> getUsingCurves() {
-        return (EList<IfcCompositeCurve>) eGet(Ifc4Package.Literals.IFC_COMPOSITE_CURVE_SEGMENT__USING_CURVES, true);
+        return (EList<IfcCompositeCurve>) eGet(Ifc4Package.eINSTANCE.getIfcCompositeCurveSegment_UsingCurves(), true);
     }
 
     /**
@@ -143,7 +143,7 @@ public class IfcCompositeCurveSegmentImpl extends IfcGeometricRepresentationItem
      */
     @Override
     public void unsetUsingCurves() {
-        eUnset(Ifc4Package.Literals.IFC_COMPOSITE_CURVE_SEGMENT__USING_CURVES);
+        eUnset(Ifc4Package.eINSTANCE.getIfcCompositeCurveSegment_UsingCurves());
     }
 
     /**
@@ -153,7 +153,7 @@ public class IfcCompositeCurveSegmentImpl extends IfcGeometricRepresentationItem
      */
     @Override
     public boolean isSetUsingCurves() {
-        return eIsSet(Ifc4Package.Literals.IFC_COMPOSITE_CURVE_SEGMENT__USING_CURVES);
+        return eIsSet(Ifc4Package.eINSTANCE.getIfcCompositeCurveSegment_UsingCurves());
     }
 
     /**
@@ -163,7 +163,7 @@ public class IfcCompositeCurveSegmentImpl extends IfcGeometricRepresentationItem
      */
     @Override
     public long getDim() {
-        return (Long) eGet(Ifc4Package.Literals.IFC_COMPOSITE_CURVE_SEGMENT__DIM, true);
+        return (Long) eGet(Ifc4Package.eINSTANCE.getIfcCompositeCurveSegment_Dim(), true);
     }
 
     /**
@@ -173,7 +173,7 @@ public class IfcCompositeCurveSegmentImpl extends IfcGeometricRepresentationItem
      */
     @Override
     public void setDim(long newDim) {
-        eSet(Ifc4Package.Literals.IFC_COMPOSITE_CURVE_SEGMENT__DIM, newDim);
+        eSet(Ifc4Package.eINSTANCE.getIfcCompositeCurveSegment_Dim(), newDim);
     }
 
     /**
@@ -183,7 +183,7 @@ public class IfcCompositeCurveSegmentImpl extends IfcGeometricRepresentationItem
      */
     @Override
     public void unsetDim() {
-        eUnset(Ifc4Package.Literals.IFC_COMPOSITE_CURVE_SEGMENT__DIM);
+        eUnset(Ifc4Package.eINSTANCE.getIfcCompositeCurveSegment_Dim());
     }
 
     /**
@@ -193,7 +193,7 @@ public class IfcCompositeCurveSegmentImpl extends IfcGeometricRepresentationItem
      */
     @Override
     public boolean isSetDim() {
-        return eIsSet(Ifc4Package.Literals.IFC_COMPOSITE_CURVE_SEGMENT__DIM);
+        return eIsSet(Ifc4Package.eINSTANCE.getIfcCompositeCurveSegment_Dim());
     }
 
 } //IfcCompositeCurveSegmentImpl

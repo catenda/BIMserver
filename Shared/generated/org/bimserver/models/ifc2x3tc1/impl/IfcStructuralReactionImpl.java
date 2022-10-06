@@ -54,7 +54,7 @@ public class IfcStructuralReactionImpl extends IfcStructuralActivityImpl impleme
      */
     @Override
     protected EClass eStaticClass() {
-        return Ifc2x3tc1Package.Literals.IFC_STRUCTURAL_REACTION;
+        return Ifc2x3tc1Package.eINSTANCE.getIfcStructuralReaction();
     }
 
     /**
@@ -65,7 +65,7 @@ public class IfcStructuralReactionImpl extends IfcStructuralActivityImpl impleme
     @SuppressWarnings("unchecked")
     @Override
     public EList<IfcStructuralAction> getCauses() {
-        return (EList<IfcStructuralAction>) eGet(Ifc2x3tc1Package.Literals.IFC_STRUCTURAL_REACTION__CAUSES, true);
+        return (EList<IfcStructuralAction>) eGet(Ifc2x3tc1Package.eINSTANCE.getIfcStructuralReaction_Causes(), true);
     }
 
     /**
@@ -75,7 +75,7 @@ public class IfcStructuralReactionImpl extends IfcStructuralActivityImpl impleme
      */
     @Override
     public void unsetCauses() {
-        eUnset(Ifc2x3tc1Package.Literals.IFC_STRUCTURAL_REACTION__CAUSES);
+        eUnset(Ifc2x3tc1Package.eINSTANCE.getIfcStructuralReaction_Causes());
     }
 
     /**
@@ -85,7 +85,7 @@ public class IfcStructuralReactionImpl extends IfcStructuralActivityImpl impleme
      */
     @Override
     public boolean isSetCauses() {
-        return eIsSet(Ifc2x3tc1Package.Literals.IFC_STRUCTURAL_REACTION__CAUSES);
+        return eIsSet(Ifc2x3tc1Package.eINSTANCE.getIfcStructuralReaction_Causes());
     }
 
 } //IfcStructuralReactionImpl

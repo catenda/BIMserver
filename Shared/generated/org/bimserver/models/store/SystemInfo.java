@@ -47,10 +47,6 @@ public interface SystemInfo extends IdEObject {
     /**
      * Returns the value of the '<em><b>Cpucores</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Cpucores</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Cpucores</em>' attribute.
      * @see #setCpucores(int)
@@ -73,10 +69,6 @@ public interface SystemInfo extends IdEObject {
     /**
      * Returns the value of the '<em><b>Datetime</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Datetime</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Datetime</em>' attribute.
      * @see #setDatetime(Date)
@@ -99,10 +91,6 @@ public interface SystemInfo extends IdEObject {
     /**
      * Returns the value of the '<em><b>Osname</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Osname</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Osname</em>' attribute.
      * @see #setOsname(String)
@@ -125,10 +113,6 @@ public interface SystemInfo extends IdEObject {
     /**
      * Returns the value of the '<em><b>Osversion</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Osversion</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Osversion</em>' attribute.
      * @see #setOsversion(String)
@@ -151,10 +135,6 @@ public interface SystemInfo extends IdEObject {
     /**
      * Returns the value of the '<em><b>User Name</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>User Name</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>User Name</em>' attribute.
      * @see #setUserName(String)
@@ -177,10 +157,6 @@ public interface SystemInfo extends IdEObject {
     /**
      * Returns the value of the '<em><b>User Home</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>User Home</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>User Home</em>' attribute.
      * @see #setUserHome(String)
@@ -203,10 +179,6 @@ public interface SystemInfo extends IdEObject {
     /**
      * Returns the value of the '<em><b>User Dir</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>User Dir</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>User Dir</em>' attribute.
      * @see #setUserDir(String)

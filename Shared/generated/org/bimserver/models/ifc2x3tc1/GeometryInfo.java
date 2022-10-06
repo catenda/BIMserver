@@ -44,10 +44,6 @@ public interface GeometryInfo extends IdEObject {
     /**
      * Returns the value of the '<em><b>Min Bounds</b></em>' reference.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Min Bounds</em>' reference isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Min Bounds</em>' reference.
      * @see #setMinBounds(Vector3f)
@@ -71,10 +67,6 @@ public interface GeometryInfo extends IdEObject {
     /**
      * Returns the value of the '<em><b>Max Bounds</b></em>' reference.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Max Bounds</em>' reference isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Max Bounds</em>' reference.
      * @see #setMaxBounds(Vector3f)
@@ -98,10 +90,6 @@ public interface GeometryInfo extends IdEObject {
     /**
      * Returns the value of the '<em><b>Start Vertex</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Start Vertex</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Start Vertex</em>' attribute.
      * @see #setStartVertex(Integer)
@@ -124,10 +112,6 @@ public interface GeometryInfo extends IdEObject {
     /**
      * Returns the value of the '<em><b>Start Index</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Start Index</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Start Index</em>' attribute.
      * @see #setStartIndex(Integer)
@@ -150,10 +134,6 @@ public interface GeometryInfo extends IdEObject {
     /**
      * Returns the value of the '<em><b>Primitive Count</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Primitive Count</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Primitive Count</em>' attribute.
      * @see #setPrimitiveCount(Integer)
@@ -176,10 +156,6 @@ public interface GeometryInfo extends IdEObject {
     /**
      * Returns the value of the '<em><b>Data</b></em>' reference.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Data</em>' reference isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Data</em>' reference.
      * @see #setData(GeometryData)

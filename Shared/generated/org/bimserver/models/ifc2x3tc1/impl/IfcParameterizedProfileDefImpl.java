@@ -52,7 +52,7 @@ public class IfcParameterizedProfileDefImpl extends IfcProfileDefImpl implements
      */
     @Override
     protected EClass eStaticClass() {
-        return Ifc2x3tc1Package.Literals.IFC_PARAMETERIZED_PROFILE_DEF;
+        return Ifc2x3tc1Package.eINSTANCE.getIfcParameterizedProfileDef();
     }
 
     /**
@@ -62,7 +62,7 @@ public class IfcParameterizedProfileDefImpl extends IfcProfileDefImpl implements
      */
     @Override
     public IfcAxis2Placement2D getPosition() {
-        return (IfcAxis2Placement2D) eGet(Ifc2x3tc1Package.Literals.IFC_PARAMETERIZED_PROFILE_DEF__POSITION, true);
+        return (IfcAxis2Placement2D) eGet(Ifc2x3tc1Package.eINSTANCE.getIfcParameterizedProfileDef_Position(), true);
     }
 
     /**
@@ -72,7 +72,7 @@ public class IfcParameterizedProfileDefImpl extends IfcProfileDefImpl implements
      */
     @Override
     public void setPosition(IfcAxis2Placement2D newPosition) {
-        eSet(Ifc2x3tc1Package.Literals.IFC_PARAMETERIZED_PROFILE_DEF__POSITION, newPosition);
+        eSet(Ifc2x3tc1Package.eINSTANCE.getIfcParameterizedProfileDef_Position(), newPosition);
     }
 
 } //IfcParameterizedProfileDefImpl

@@ -40,10 +40,6 @@ public interface IfcWindowType extends IfcBuildingElementType {
      * Returns the value of the '<em><b>Predefined Type</b></em>' attribute.
      * The literals are from the enumeration {@link org.bimserver.models.ifc4.IfcWindowTypeEnum}.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Predefined Type</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Predefined Type</em>' attribute.
      * @see org.bimserver.models.ifc4.IfcWindowTypeEnum
@@ -69,10 +65,6 @@ public interface IfcWindowType extends IfcBuildingElementType {
      * Returns the value of the '<em><b>Partitioning Type</b></em>' attribute.
      * The literals are from the enumeration {@link org.bimserver.models.ifc4.IfcWindowTypePartitioningEnum}.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Partitioning Type</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Partitioning Type</em>' attribute.
      * @see org.bimserver.models.ifc4.IfcWindowTypePartitioningEnum
@@ -98,10 +90,6 @@ public interface IfcWindowType extends IfcBuildingElementType {
      * Returns the value of the '<em><b>Parameter Takes Precedence</b></em>' attribute.
      * The literals are from the enumeration {@link org.bimserver.models.ifc4.Tristate}.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Parameter Takes Precedence</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Parameter Takes Precedence</em>' attribute.
      * @see org.bimserver.models.ifc4.Tristate
@@ -153,10 +141,6 @@ public interface IfcWindowType extends IfcBuildingElementType {
     /**
      * Returns the value of the '<em><b>User Defined Partitioning Type</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>User Defined Partitioning Type</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>User Defined Partitioning Type</em>' attribute.
      * @see #isSetUserDefinedPartitioningType()

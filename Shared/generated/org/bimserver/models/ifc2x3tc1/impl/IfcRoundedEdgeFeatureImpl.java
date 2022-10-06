@@ -52,7 +52,7 @@ public class IfcRoundedEdgeFeatureImpl extends IfcEdgeFeatureImpl implements Ifc
      */
     @Override
     protected EClass eStaticClass() {
-        return Ifc2x3tc1Package.Literals.IFC_ROUNDED_EDGE_FEATURE;
+        return Ifc2x3tc1Package.eINSTANCE.getIfcRoundedEdgeFeature();
     }
 
     /**
@@ -62,7 +62,7 @@ public class IfcRoundedEdgeFeatureImpl extends IfcEdgeFeatureImpl implements Ifc
      */
     @Override
     public double getRadius() {
-        return (Double) eGet(Ifc2x3tc1Package.Literals.IFC_ROUNDED_EDGE_FEATURE__RADIUS, true);
+        return (Double) eGet(Ifc2x3tc1Package.eINSTANCE.getIfcRoundedEdgeFeature_Radius(), true);
     }
 
     /**
@@ -72,7 +72,7 @@ public class IfcRoundedEdgeFeatureImpl extends IfcEdgeFeatureImpl implements Ifc
      */
     @Override
     public void setRadius(double newRadius) {
-        eSet(Ifc2x3tc1Package.Literals.IFC_ROUNDED_EDGE_FEATURE__RADIUS, newRadius);
+        eSet(Ifc2x3tc1Package.eINSTANCE.getIfcRoundedEdgeFeature_Radius(), newRadius);
     }
 
     /**
@@ -82,7 +82,7 @@ public class IfcRoundedEdgeFeatureImpl extends IfcEdgeFeatureImpl implements Ifc
      */
     @Override
     public void unsetRadius() {
-        eUnset(Ifc2x3tc1Package.Literals.IFC_ROUNDED_EDGE_FEATURE__RADIUS);
+        eUnset(Ifc2x3tc1Package.eINSTANCE.getIfcRoundedEdgeFeature_Radius());
     }
 
     /**
@@ -92,7 +92,7 @@ public class IfcRoundedEdgeFeatureImpl extends IfcEdgeFeatureImpl implements Ifc
      */
     @Override
     public boolean isSetRadius() {
-        return eIsSet(Ifc2x3tc1Package.Literals.IFC_ROUNDED_EDGE_FEATURE__RADIUS);
+        return eIsSet(Ifc2x3tc1Package.eINSTANCE.getIfcRoundedEdgeFeature_Radius());
     }
 
     /**
@@ -102,7 +102,7 @@ public class IfcRoundedEdgeFeatureImpl extends IfcEdgeFeatureImpl implements Ifc
      */
     @Override
     public String getRadiusAsString() {
-        return (String) eGet(Ifc2x3tc1Package.Literals.IFC_ROUNDED_EDGE_FEATURE__RADIUS_AS_STRING, true);
+        return (String) eGet(Ifc2x3tc1Package.eINSTANCE.getIfcRoundedEdgeFeature_RadiusAsString(), true);
     }
 
     /**
@@ -112,7 +112,7 @@ public class IfcRoundedEdgeFeatureImpl extends IfcEdgeFeatureImpl implements Ifc
      */
     @Override
     public void setRadiusAsString(String newRadiusAsString) {
-        eSet(Ifc2x3tc1Package.Literals.IFC_ROUNDED_EDGE_FEATURE__RADIUS_AS_STRING, newRadiusAsString);
+        eSet(Ifc2x3tc1Package.eINSTANCE.getIfcRoundedEdgeFeature_RadiusAsString(), newRadiusAsString);
     }
 
     /**
@@ -122,7 +122,7 @@ public class IfcRoundedEdgeFeatureImpl extends IfcEdgeFeatureImpl implements Ifc
      */
     @Override
     public void unsetRadiusAsString() {
-        eUnset(Ifc2x3tc1Package.Literals.IFC_ROUNDED_EDGE_FEATURE__RADIUS_AS_STRING);
+        eUnset(Ifc2x3tc1Package.eINSTANCE.getIfcRoundedEdgeFeature_RadiusAsString());
     }
 
     /**
@@ -132,7 +132,7 @@ public class IfcRoundedEdgeFeatureImpl extends IfcEdgeFeatureImpl implements Ifc
      */
     @Override
     public boolean isSetRadiusAsString() {
-        return eIsSet(Ifc2x3tc1Package.Literals.IFC_ROUNDED_EDGE_FEATURE__RADIUS_AS_STRING);
+        return eIsSet(Ifc2x3tc1Package.eINSTANCE.getIfcRoundedEdgeFeature_RadiusAsString());
     }
 
 } //IfcRoundedEdgeFeatureImpl

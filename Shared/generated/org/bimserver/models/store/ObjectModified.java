@@ -38,10 +38,6 @@ public interface ObjectModified extends CompareItem {
     /**
      * Returns the value of the '<em><b>Field Name</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Field Name</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Field Name</em>' attribute.
      * @see #setFieldName(String)
@@ -64,10 +60,6 @@ public interface ObjectModified extends CompareItem {
     /**
      * Returns the value of the '<em><b>Old Value</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Old Value</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Old Value</em>' attribute.
      * @see #setOldValue(String)
@@ -90,10 +82,6 @@ public interface ObjectModified extends CompareItem {
     /**
      * Returns the value of the '<em><b>New Value</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>New Value</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>New Value</em>' attribute.
      * @see #setNewValue(String)

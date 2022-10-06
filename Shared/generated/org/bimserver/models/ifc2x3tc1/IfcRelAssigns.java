@@ -41,10 +41,6 @@ public interface IfcRelAssigns extends IfcRelationship {
      * The list contents are of type {@link org.bimserver.models.ifc2x3tc1.IfcObjectDefinition}.
      * It is bidirectional and its opposite is '{@link org.bimserver.models.ifc2x3tc1.IfcObjectDefinition#getHasAssignments <em>Has Assignments</em>}'.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Related Objects</em>' reference list isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Related Objects</em>' reference list.
      * @see org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package#getIfcRelAssigns_RelatedObjects()
@@ -59,10 +55,6 @@ public interface IfcRelAssigns extends IfcRelationship {
      * Returns the value of the '<em><b>Related Objects Type</b></em>' attribute.
      * The literals are from the enumeration {@link org.bimserver.models.ifc2x3tc1.IfcObjectTypeEnum}.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Related Objects Type</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Related Objects Type</em>' attribute.
      * @see org.bimserver.models.ifc2x3tc1.IfcObjectTypeEnum

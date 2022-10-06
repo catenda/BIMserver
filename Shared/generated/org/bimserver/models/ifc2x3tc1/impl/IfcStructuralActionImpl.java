@@ -54,7 +54,7 @@ public class IfcStructuralActionImpl extends IfcStructuralActivityImpl implement
      */
     @Override
     protected EClass eStaticClass() {
-        return Ifc2x3tc1Package.Literals.IFC_STRUCTURAL_ACTION;
+        return Ifc2x3tc1Package.eINSTANCE.getIfcStructuralAction();
     }
 
     /**
@@ -64,7 +64,7 @@ public class IfcStructuralActionImpl extends IfcStructuralActivityImpl implement
      */
     @Override
     public Tristate getDestabilizingLoad() {
-        return (Tristate) eGet(Ifc2x3tc1Package.Literals.IFC_STRUCTURAL_ACTION__DESTABILIZING_LOAD, true);
+        return (Tristate) eGet(Ifc2x3tc1Package.eINSTANCE.getIfcStructuralAction_DestabilizingLoad(), true);
     }
 
     /**
@@ -74,7 +74,7 @@ public class IfcStructuralActionImpl extends IfcStructuralActivityImpl implement
      */
     @Override
     public void setDestabilizingLoad(Tristate newDestabilizingLoad) {
-        eSet(Ifc2x3tc1Package.Literals.IFC_STRUCTURAL_ACTION__DESTABILIZING_LOAD, newDestabilizingLoad);
+        eSet(Ifc2x3tc1Package.eINSTANCE.getIfcStructuralAction_DestabilizingLoad(), newDestabilizingLoad);
     }
 
     /**
@@ -84,7 +84,7 @@ public class IfcStructuralActionImpl extends IfcStructuralActivityImpl implement
      */
     @Override
     public IfcStructuralReaction getCausedBy() {
-        return (IfcStructuralReaction) eGet(Ifc2x3tc1Package.Literals.IFC_STRUCTURAL_ACTION__CAUSED_BY, true);
+        return (IfcStructuralReaction) eGet(Ifc2x3tc1Package.eINSTANCE.getIfcStructuralAction_CausedBy(), true);
     }
 
     /**
@@ -94,7 +94,7 @@ public class IfcStructuralActionImpl extends IfcStructuralActivityImpl implement
      */
     @Override
     public void setCausedBy(IfcStructuralReaction newCausedBy) {
-        eSet(Ifc2x3tc1Package.Literals.IFC_STRUCTURAL_ACTION__CAUSED_BY, newCausedBy);
+        eSet(Ifc2x3tc1Package.eINSTANCE.getIfcStructuralAction_CausedBy(), newCausedBy);
     }
 
     /**
@@ -104,7 +104,7 @@ public class IfcStructuralActionImpl extends IfcStructuralActivityImpl implement
      */
     @Override
     public void unsetCausedBy() {
-        eUnset(Ifc2x3tc1Package.Literals.IFC_STRUCTURAL_ACTION__CAUSED_BY);
+        eUnset(Ifc2x3tc1Package.eINSTANCE.getIfcStructuralAction_CausedBy());
     }
 
     /**
@@ -114,7 +114,7 @@ public class IfcStructuralActionImpl extends IfcStructuralActivityImpl implement
      */
     @Override
     public boolean isSetCausedBy() {
-        return eIsSet(Ifc2x3tc1Package.Literals.IFC_STRUCTURAL_ACTION__CAUSED_BY);
+        return eIsSet(Ifc2x3tc1Package.eINSTANCE.getIfcStructuralAction_CausedBy());
     }
 
 } //IfcStructuralActionImpl

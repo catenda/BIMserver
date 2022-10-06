@@ -75,7 +75,7 @@ public class IfcAsymmetricIShapeProfileDefImpl extends IfcParameterizedProfileDe
      */
     @Override
     protected EClass eStaticClass() {
-        return Ifc4Package.Literals.IFC_ASYMMETRIC_ISHAPE_PROFILE_DEF;
+        return Ifc4Package.eINSTANCE.getIfcAsymmetricIShapeProfileDef();
     }
 
     /**
@@ -85,7 +85,7 @@ public class IfcAsymmetricIShapeProfileDefImpl extends IfcParameterizedProfileDe
      */
     @Override
     public double getBottomFlangeWidth() {
-        return (Double) eGet(Ifc4Package.Literals.IFC_ASYMMETRIC_ISHAPE_PROFILE_DEF__BOTTOM_FLANGE_WIDTH, true);
+        return (Double) eGet(Ifc4Package.eINSTANCE.getIfcAsymmetricIShapeProfileDef_BottomFlangeWidth(), true);
     }
 
     /**
@@ -95,7 +95,7 @@ public class IfcAsymmetricIShapeProfileDefImpl extends IfcParameterizedProfileDe
      */
     @Override
     public void setBottomFlangeWidth(double newBottomFlangeWidth) {
-        eSet(Ifc4Package.Literals.IFC_ASYMMETRIC_ISHAPE_PROFILE_DEF__BOTTOM_FLANGE_WIDTH, newBottomFlangeWidth);
+        eSet(Ifc4Package.eINSTANCE.getIfcAsymmetricIShapeProfileDef_BottomFlangeWidth(), newBottomFlangeWidth);
     }
 
     /**
@@ -105,8 +105,7 @@ public class IfcAsymmetricIShapeProfileDefImpl extends IfcParameterizedProfileDe
      */
     @Override
     public String getBottomFlangeWidthAsString() {
-        return (String) eGet(Ifc4Package.Literals.IFC_ASYMMETRIC_ISHAPE_PROFILE_DEF__BOTTOM_FLANGE_WIDTH_AS_STRING,
-                true);
+        return (String) eGet(Ifc4Package.eINSTANCE.getIfcAsymmetricIShapeProfileDef_BottomFlangeWidthAsString(), true);
     }
 
     /**
@@ -116,7 +115,7 @@ public class IfcAsymmetricIShapeProfileDefImpl extends IfcParameterizedProfileDe
      */
     @Override
     public void setBottomFlangeWidthAsString(String newBottomFlangeWidthAsString) {
-        eSet(Ifc4Package.Literals.IFC_ASYMMETRIC_ISHAPE_PROFILE_DEF__BOTTOM_FLANGE_WIDTH_AS_STRING,
+        eSet(Ifc4Package.eINSTANCE.getIfcAsymmetricIShapeProfileDef_BottomFlangeWidthAsString(),
                 newBottomFlangeWidthAsString);
     }
 
@@ -127,7 +126,7 @@ public class IfcAsymmetricIShapeProfileDefImpl extends IfcParameterizedProfileDe
      */
     @Override
     public double getOverallDepth() {
-        return (Double) eGet(Ifc4Package.Literals.IFC_ASYMMETRIC_ISHAPE_PROFILE_DEF__OVERALL_DEPTH, true);
+        return (Double) eGet(Ifc4Package.eINSTANCE.getIfcAsymmetricIShapeProfileDef_OverallDepth(), true);
     }
 
     /**
@@ -137,7 +136,7 @@ public class IfcAsymmetricIShapeProfileDefImpl extends IfcParameterizedProfileDe
      */
     @Override
     public void setOverallDepth(double newOverallDepth) {
-        eSet(Ifc4Package.Literals.IFC_ASYMMETRIC_ISHAPE_PROFILE_DEF__OVERALL_DEPTH, newOverallDepth);
+        eSet(Ifc4Package.eINSTANCE.getIfcAsymmetricIShapeProfileDef_OverallDepth(), newOverallDepth);
     }
 
     /**
@@ -147,7 +146,7 @@ public class IfcAsymmetricIShapeProfileDefImpl extends IfcParameterizedProfileDe
      */
     @Override
     public String getOverallDepthAsString() {
-        return (String) eGet(Ifc4Package.Literals.IFC_ASYMMETRIC_ISHAPE_PROFILE_DEF__OVERALL_DEPTH_AS_STRING, true);
+        return (String) eGet(Ifc4Package.eINSTANCE.getIfcAsymmetricIShapeProfileDef_OverallDepthAsString(), true);
     }
 
     /**
@@ -157,7 +156,7 @@ public class IfcAsymmetricIShapeProfileDefImpl extends IfcParameterizedProfileDe
      */
     @Override
     public void setOverallDepthAsString(String newOverallDepthAsString) {
-        eSet(Ifc4Package.Literals.IFC_ASYMMETRIC_ISHAPE_PROFILE_DEF__OVERALL_DEPTH_AS_STRING, newOverallDepthAsString);
+        eSet(Ifc4Package.eINSTANCE.getIfcAsymmetricIShapeProfileDef_OverallDepthAsString(), newOverallDepthAsString);
     }
 
     /**
@@ -167,7 +166,7 @@ public class IfcAsymmetricIShapeProfileDefImpl extends IfcParameterizedProfileDe
      */
     @Override
     public double getWebThickness() {
-        return (Double) eGet(Ifc4Package.Literals.IFC_ASYMMETRIC_ISHAPE_PROFILE_DEF__WEB_THICKNESS, true);
+        return (Double) eGet(Ifc4Package.eINSTANCE.getIfcAsymmetricIShapeProfileDef_WebThickness(), true);
     }
 
     /**
@@ -177,7 +176,7 @@ public class IfcAsymmetricIShapeProfileDefImpl extends IfcParameterizedProfileDe
      */
     @Override
     public void setWebThickness(double newWebThickness) {
-        eSet(Ifc4Package.Literals.IFC_ASYMMETRIC_ISHAPE_PROFILE_DEF__WEB_THICKNESS, newWebThickness);
+        eSet(Ifc4Package.eINSTANCE.getIfcAsymmetricIShapeProfileDef_WebThickness(), newWebThickness);
     }
 
     /**
@@ -187,7 +186,7 @@ public class IfcAsymmetricIShapeProfileDefImpl extends IfcParameterizedProfileDe
      */
     @Override
     public String getWebThicknessAsString() {
-        return (String) eGet(Ifc4Package.Literals.IFC_ASYMMETRIC_ISHAPE_PROFILE_DEF__WEB_THICKNESS_AS_STRING, true);
+        return (String) eGet(Ifc4Package.eINSTANCE.getIfcAsymmetricIShapeProfileDef_WebThicknessAsString(), true);
     }
 
     /**
@@ -197,7 +196,7 @@ public class IfcAsymmetricIShapeProfileDefImpl extends IfcParameterizedProfileDe
      */
     @Override
     public void setWebThicknessAsString(String newWebThicknessAsString) {
-        eSet(Ifc4Package.Literals.IFC_ASYMMETRIC_ISHAPE_PROFILE_DEF__WEB_THICKNESS_AS_STRING, newWebThicknessAsString);
+        eSet(Ifc4Package.eINSTANCE.getIfcAsymmetricIShapeProfileDef_WebThicknessAsString(), newWebThicknessAsString);
     }
 
     /**
@@ -207,7 +206,7 @@ public class IfcAsymmetricIShapeProfileDefImpl extends IfcParameterizedProfileDe
      */
     @Override
     public double getBottomFlangeThickness() {
-        return (Double) eGet(Ifc4Package.Literals.IFC_ASYMMETRIC_ISHAPE_PROFILE_DEF__BOTTOM_FLANGE_THICKNESS, true);
+        return (Double) eGet(Ifc4Package.eINSTANCE.getIfcAsymmetricIShapeProfileDef_BottomFlangeThickness(), true);
     }
 
     /**
@@ -217,7 +216,7 @@ public class IfcAsymmetricIShapeProfileDefImpl extends IfcParameterizedProfileDe
      */
     @Override
     public void setBottomFlangeThickness(double newBottomFlangeThickness) {
-        eSet(Ifc4Package.Literals.IFC_ASYMMETRIC_ISHAPE_PROFILE_DEF__BOTTOM_FLANGE_THICKNESS, newBottomFlangeThickness);
+        eSet(Ifc4Package.eINSTANCE.getIfcAsymmetricIShapeProfileDef_BottomFlangeThickness(), newBottomFlangeThickness);
     }
 
     /**
@@ -227,7 +226,7 @@ public class IfcAsymmetricIShapeProfileDefImpl extends IfcParameterizedProfileDe
      */
     @Override
     public String getBottomFlangeThicknessAsString() {
-        return (String) eGet(Ifc4Package.Literals.IFC_ASYMMETRIC_ISHAPE_PROFILE_DEF__BOTTOM_FLANGE_THICKNESS_AS_STRING,
+        return (String) eGet(Ifc4Package.eINSTANCE.getIfcAsymmetricIShapeProfileDef_BottomFlangeThicknessAsString(),
                 true);
     }
 
@@ -238,7 +237,7 @@ public class IfcAsymmetricIShapeProfileDefImpl extends IfcParameterizedProfileDe
      */
     @Override
     public void setBottomFlangeThicknessAsString(String newBottomFlangeThicknessAsString) {
-        eSet(Ifc4Package.Literals.IFC_ASYMMETRIC_ISHAPE_PROFILE_DEF__BOTTOM_FLANGE_THICKNESS_AS_STRING,
+        eSet(Ifc4Package.eINSTANCE.getIfcAsymmetricIShapeProfileDef_BottomFlangeThicknessAsString(),
                 newBottomFlangeThicknessAsString);
     }
 
@@ -249,7 +248,7 @@ public class IfcAsymmetricIShapeProfileDefImpl extends IfcParameterizedProfileDe
      */
     @Override
     public double getBottomFlangeFilletRadius() {
-        return (Double) eGet(Ifc4Package.Literals.IFC_ASYMMETRIC_ISHAPE_PROFILE_DEF__BOTTOM_FLANGE_FILLET_RADIUS, true);
+        return (Double) eGet(Ifc4Package.eINSTANCE.getIfcAsymmetricIShapeProfileDef_BottomFlangeFilletRadius(), true);
     }
 
     /**
@@ -259,7 +258,7 @@ public class IfcAsymmetricIShapeProfileDefImpl extends IfcParameterizedProfileDe
      */
     @Override
     public void setBottomFlangeFilletRadius(double newBottomFlangeFilletRadius) {
-        eSet(Ifc4Package.Literals.IFC_ASYMMETRIC_ISHAPE_PROFILE_DEF__BOTTOM_FLANGE_FILLET_RADIUS,
+        eSet(Ifc4Package.eINSTANCE.getIfcAsymmetricIShapeProfileDef_BottomFlangeFilletRadius(),
                 newBottomFlangeFilletRadius);
     }
 
@@ -270,7 +269,7 @@ public class IfcAsymmetricIShapeProfileDefImpl extends IfcParameterizedProfileDe
      */
     @Override
     public void unsetBottomFlangeFilletRadius() {
-        eUnset(Ifc4Package.Literals.IFC_ASYMMETRIC_ISHAPE_PROFILE_DEF__BOTTOM_FLANGE_FILLET_RADIUS);
+        eUnset(Ifc4Package.eINSTANCE.getIfcAsymmetricIShapeProfileDef_BottomFlangeFilletRadius());
     }
 
     /**
@@ -280,7 +279,7 @@ public class IfcAsymmetricIShapeProfileDefImpl extends IfcParameterizedProfileDe
      */
     @Override
     public boolean isSetBottomFlangeFilletRadius() {
-        return eIsSet(Ifc4Package.Literals.IFC_ASYMMETRIC_ISHAPE_PROFILE_DEF__BOTTOM_FLANGE_FILLET_RADIUS);
+        return eIsSet(Ifc4Package.eINSTANCE.getIfcAsymmetricIShapeProfileDef_BottomFlangeFilletRadius());
     }
 
     /**
@@ -290,8 +289,8 @@ public class IfcAsymmetricIShapeProfileDefImpl extends IfcParameterizedProfileDe
      */
     @Override
     public String getBottomFlangeFilletRadiusAsString() {
-        return (String) eGet(
-                Ifc4Package.Literals.IFC_ASYMMETRIC_ISHAPE_PROFILE_DEF__BOTTOM_FLANGE_FILLET_RADIUS_AS_STRING, true);
+        return (String) eGet(Ifc4Package.eINSTANCE.getIfcAsymmetricIShapeProfileDef_BottomFlangeFilletRadiusAsString(),
+                true);
     }
 
     /**
@@ -301,7 +300,7 @@ public class IfcAsymmetricIShapeProfileDefImpl extends IfcParameterizedProfileDe
      */
     @Override
     public void setBottomFlangeFilletRadiusAsString(String newBottomFlangeFilletRadiusAsString) {
-        eSet(Ifc4Package.Literals.IFC_ASYMMETRIC_ISHAPE_PROFILE_DEF__BOTTOM_FLANGE_FILLET_RADIUS_AS_STRING,
+        eSet(Ifc4Package.eINSTANCE.getIfcAsymmetricIShapeProfileDef_BottomFlangeFilletRadiusAsString(),
                 newBottomFlangeFilletRadiusAsString);
     }
 
@@ -312,7 +311,7 @@ public class IfcAsymmetricIShapeProfileDefImpl extends IfcParameterizedProfileDe
      */
     @Override
     public void unsetBottomFlangeFilletRadiusAsString() {
-        eUnset(Ifc4Package.Literals.IFC_ASYMMETRIC_ISHAPE_PROFILE_DEF__BOTTOM_FLANGE_FILLET_RADIUS_AS_STRING);
+        eUnset(Ifc4Package.eINSTANCE.getIfcAsymmetricIShapeProfileDef_BottomFlangeFilletRadiusAsString());
     }
 
     /**
@@ -322,7 +321,7 @@ public class IfcAsymmetricIShapeProfileDefImpl extends IfcParameterizedProfileDe
      */
     @Override
     public boolean isSetBottomFlangeFilletRadiusAsString() {
-        return eIsSet(Ifc4Package.Literals.IFC_ASYMMETRIC_ISHAPE_PROFILE_DEF__BOTTOM_FLANGE_FILLET_RADIUS_AS_STRING);
+        return eIsSet(Ifc4Package.eINSTANCE.getIfcAsymmetricIShapeProfileDef_BottomFlangeFilletRadiusAsString());
     }
 
     /**
@@ -332,7 +331,7 @@ public class IfcAsymmetricIShapeProfileDefImpl extends IfcParameterizedProfileDe
      */
     @Override
     public double getTopFlangeWidth() {
-        return (Double) eGet(Ifc4Package.Literals.IFC_ASYMMETRIC_ISHAPE_PROFILE_DEF__TOP_FLANGE_WIDTH, true);
+        return (Double) eGet(Ifc4Package.eINSTANCE.getIfcAsymmetricIShapeProfileDef_TopFlangeWidth(), true);
     }
 
     /**
@@ -342,7 +341,7 @@ public class IfcAsymmetricIShapeProfileDefImpl extends IfcParameterizedProfileDe
      */
     @Override
     public void setTopFlangeWidth(double newTopFlangeWidth) {
-        eSet(Ifc4Package.Literals.IFC_ASYMMETRIC_ISHAPE_PROFILE_DEF__TOP_FLANGE_WIDTH, newTopFlangeWidth);
+        eSet(Ifc4Package.eINSTANCE.getIfcAsymmetricIShapeProfileDef_TopFlangeWidth(), newTopFlangeWidth);
     }
 
     /**
@@ -352,7 +351,7 @@ public class IfcAsymmetricIShapeProfileDefImpl extends IfcParameterizedProfileDe
      */
     @Override
     public String getTopFlangeWidthAsString() {
-        return (String) eGet(Ifc4Package.Literals.IFC_ASYMMETRIC_ISHAPE_PROFILE_DEF__TOP_FLANGE_WIDTH_AS_STRING, true);
+        return (String) eGet(Ifc4Package.eINSTANCE.getIfcAsymmetricIShapeProfileDef_TopFlangeWidthAsString(), true);
     }
 
     /**
@@ -362,7 +361,7 @@ public class IfcAsymmetricIShapeProfileDefImpl extends IfcParameterizedProfileDe
      */
     @Override
     public void setTopFlangeWidthAsString(String newTopFlangeWidthAsString) {
-        eSet(Ifc4Package.Literals.IFC_ASYMMETRIC_ISHAPE_PROFILE_DEF__TOP_FLANGE_WIDTH_AS_STRING,
+        eSet(Ifc4Package.eINSTANCE.getIfcAsymmetricIShapeProfileDef_TopFlangeWidthAsString(),
                 newTopFlangeWidthAsString);
     }
 
@@ -373,7 +372,7 @@ public class IfcAsymmetricIShapeProfileDefImpl extends IfcParameterizedProfileDe
      */
     @Override
     public double getTopFlangeThickness() {
-        return (Double) eGet(Ifc4Package.Literals.IFC_ASYMMETRIC_ISHAPE_PROFILE_DEF__TOP_FLANGE_THICKNESS, true);
+        return (Double) eGet(Ifc4Package.eINSTANCE.getIfcAsymmetricIShapeProfileDef_TopFlangeThickness(), true);
     }
 
     /**
@@ -383,7 +382,7 @@ public class IfcAsymmetricIShapeProfileDefImpl extends IfcParameterizedProfileDe
      */
     @Override
     public void setTopFlangeThickness(double newTopFlangeThickness) {
-        eSet(Ifc4Package.Literals.IFC_ASYMMETRIC_ISHAPE_PROFILE_DEF__TOP_FLANGE_THICKNESS, newTopFlangeThickness);
+        eSet(Ifc4Package.eINSTANCE.getIfcAsymmetricIShapeProfileDef_TopFlangeThickness(), newTopFlangeThickness);
     }
 
     /**
@@ -393,7 +392,7 @@ public class IfcAsymmetricIShapeProfileDefImpl extends IfcParameterizedProfileDe
      */
     @Override
     public void unsetTopFlangeThickness() {
-        eUnset(Ifc4Package.Literals.IFC_ASYMMETRIC_ISHAPE_PROFILE_DEF__TOP_FLANGE_THICKNESS);
+        eUnset(Ifc4Package.eINSTANCE.getIfcAsymmetricIShapeProfileDef_TopFlangeThickness());
     }
 
     /**
@@ -403,7 +402,7 @@ public class IfcAsymmetricIShapeProfileDefImpl extends IfcParameterizedProfileDe
      */
     @Override
     public boolean isSetTopFlangeThickness() {
-        return eIsSet(Ifc4Package.Literals.IFC_ASYMMETRIC_ISHAPE_PROFILE_DEF__TOP_FLANGE_THICKNESS);
+        return eIsSet(Ifc4Package.eINSTANCE.getIfcAsymmetricIShapeProfileDef_TopFlangeThickness());
     }
 
     /**
@@ -413,8 +412,7 @@ public class IfcAsymmetricIShapeProfileDefImpl extends IfcParameterizedProfileDe
      */
     @Override
     public String getTopFlangeThicknessAsString() {
-        return (String) eGet(Ifc4Package.Literals.IFC_ASYMMETRIC_ISHAPE_PROFILE_DEF__TOP_FLANGE_THICKNESS_AS_STRING,
-                true);
+        return (String) eGet(Ifc4Package.eINSTANCE.getIfcAsymmetricIShapeProfileDef_TopFlangeThicknessAsString(), true);
     }
 
     /**
@@ -424,7 +422,7 @@ public class IfcAsymmetricIShapeProfileDefImpl extends IfcParameterizedProfileDe
      */
     @Override
     public void setTopFlangeThicknessAsString(String newTopFlangeThicknessAsString) {
-        eSet(Ifc4Package.Literals.IFC_ASYMMETRIC_ISHAPE_PROFILE_DEF__TOP_FLANGE_THICKNESS_AS_STRING,
+        eSet(Ifc4Package.eINSTANCE.getIfcAsymmetricIShapeProfileDef_TopFlangeThicknessAsString(),
                 newTopFlangeThicknessAsString);
     }
 
@@ -435,7 +433,7 @@ public class IfcAsymmetricIShapeProfileDefImpl extends IfcParameterizedProfileDe
      */
     @Override
     public void unsetTopFlangeThicknessAsString() {
-        eUnset(Ifc4Package.Literals.IFC_ASYMMETRIC_ISHAPE_PROFILE_DEF__TOP_FLANGE_THICKNESS_AS_STRING);
+        eUnset(Ifc4Package.eINSTANCE.getIfcAsymmetricIShapeProfileDef_TopFlangeThicknessAsString());
     }
 
     /**
@@ -445,7 +443,7 @@ public class IfcAsymmetricIShapeProfileDefImpl extends IfcParameterizedProfileDe
      */
     @Override
     public boolean isSetTopFlangeThicknessAsString() {
-        return eIsSet(Ifc4Package.Literals.IFC_ASYMMETRIC_ISHAPE_PROFILE_DEF__TOP_FLANGE_THICKNESS_AS_STRING);
+        return eIsSet(Ifc4Package.eINSTANCE.getIfcAsymmetricIShapeProfileDef_TopFlangeThicknessAsString());
     }
 
     /**
@@ -455,7 +453,7 @@ public class IfcAsymmetricIShapeProfileDefImpl extends IfcParameterizedProfileDe
      */
     @Override
     public double getTopFlangeFilletRadius() {
-        return (Double) eGet(Ifc4Package.Literals.IFC_ASYMMETRIC_ISHAPE_PROFILE_DEF__TOP_FLANGE_FILLET_RADIUS, true);
+        return (Double) eGet(Ifc4Package.eINSTANCE.getIfcAsymmetricIShapeProfileDef_TopFlangeFilletRadius(), true);
     }
 
     /**
@@ -465,8 +463,7 @@ public class IfcAsymmetricIShapeProfileDefImpl extends IfcParameterizedProfileDe
      */
     @Override
     public void setTopFlangeFilletRadius(double newTopFlangeFilletRadius) {
-        eSet(Ifc4Package.Literals.IFC_ASYMMETRIC_ISHAPE_PROFILE_DEF__TOP_FLANGE_FILLET_RADIUS,
-                newTopFlangeFilletRadius);
+        eSet(Ifc4Package.eINSTANCE.getIfcAsymmetricIShapeProfileDef_TopFlangeFilletRadius(), newTopFlangeFilletRadius);
     }
 
     /**
@@ -476,7 +473,7 @@ public class IfcAsymmetricIShapeProfileDefImpl extends IfcParameterizedProfileDe
      */
     @Override
     public void unsetTopFlangeFilletRadius() {
-        eUnset(Ifc4Package.Literals.IFC_ASYMMETRIC_ISHAPE_PROFILE_DEF__TOP_FLANGE_FILLET_RADIUS);
+        eUnset(Ifc4Package.eINSTANCE.getIfcAsymmetricIShapeProfileDef_TopFlangeFilletRadius());
     }
 
     /**
@@ -486,7 +483,7 @@ public class IfcAsymmetricIShapeProfileDefImpl extends IfcParameterizedProfileDe
      */
     @Override
     public boolean isSetTopFlangeFilletRadius() {
-        return eIsSet(Ifc4Package.Literals.IFC_ASYMMETRIC_ISHAPE_PROFILE_DEF__TOP_FLANGE_FILLET_RADIUS);
+        return eIsSet(Ifc4Package.eINSTANCE.getIfcAsymmetricIShapeProfileDef_TopFlangeFilletRadius());
     }
 
     /**
@@ -496,7 +493,7 @@ public class IfcAsymmetricIShapeProfileDefImpl extends IfcParameterizedProfileDe
      */
     @Override
     public String getTopFlangeFilletRadiusAsString() {
-        return (String) eGet(Ifc4Package.Literals.IFC_ASYMMETRIC_ISHAPE_PROFILE_DEF__TOP_FLANGE_FILLET_RADIUS_AS_STRING,
+        return (String) eGet(Ifc4Package.eINSTANCE.getIfcAsymmetricIShapeProfileDef_TopFlangeFilletRadiusAsString(),
                 true);
     }
 
@@ -507,7 +504,7 @@ public class IfcAsymmetricIShapeProfileDefImpl extends IfcParameterizedProfileDe
      */
     @Override
     public void setTopFlangeFilletRadiusAsString(String newTopFlangeFilletRadiusAsString) {
-        eSet(Ifc4Package.Literals.IFC_ASYMMETRIC_ISHAPE_PROFILE_DEF__TOP_FLANGE_FILLET_RADIUS_AS_STRING,
+        eSet(Ifc4Package.eINSTANCE.getIfcAsymmetricIShapeProfileDef_TopFlangeFilletRadiusAsString(),
                 newTopFlangeFilletRadiusAsString);
     }
 
@@ -518,7 +515,7 @@ public class IfcAsymmetricIShapeProfileDefImpl extends IfcParameterizedProfileDe
      */
     @Override
     public void unsetTopFlangeFilletRadiusAsString() {
-        eUnset(Ifc4Package.Literals.IFC_ASYMMETRIC_ISHAPE_PROFILE_DEF__TOP_FLANGE_FILLET_RADIUS_AS_STRING);
+        eUnset(Ifc4Package.eINSTANCE.getIfcAsymmetricIShapeProfileDef_TopFlangeFilletRadiusAsString());
     }
 
     /**
@@ -528,7 +525,7 @@ public class IfcAsymmetricIShapeProfileDefImpl extends IfcParameterizedProfileDe
      */
     @Override
     public boolean isSetTopFlangeFilletRadiusAsString() {
-        return eIsSet(Ifc4Package.Literals.IFC_ASYMMETRIC_ISHAPE_PROFILE_DEF__TOP_FLANGE_FILLET_RADIUS_AS_STRING);
+        return eIsSet(Ifc4Package.eINSTANCE.getIfcAsymmetricIShapeProfileDef_TopFlangeFilletRadiusAsString());
     }
 
     /**
@@ -538,7 +535,7 @@ public class IfcAsymmetricIShapeProfileDefImpl extends IfcParameterizedProfileDe
      */
     @Override
     public double getBottomFlangeEdgeRadius() {
-        return (Double) eGet(Ifc4Package.Literals.IFC_ASYMMETRIC_ISHAPE_PROFILE_DEF__BOTTOM_FLANGE_EDGE_RADIUS, true);
+        return (Double) eGet(Ifc4Package.eINSTANCE.getIfcAsymmetricIShapeProfileDef_BottomFlangeEdgeRadius(), true);
     }
 
     /**
@@ -548,7 +545,7 @@ public class IfcAsymmetricIShapeProfileDefImpl extends IfcParameterizedProfileDe
      */
     @Override
     public void setBottomFlangeEdgeRadius(double newBottomFlangeEdgeRadius) {
-        eSet(Ifc4Package.Literals.IFC_ASYMMETRIC_ISHAPE_PROFILE_DEF__BOTTOM_FLANGE_EDGE_RADIUS,
+        eSet(Ifc4Package.eINSTANCE.getIfcAsymmetricIShapeProfileDef_BottomFlangeEdgeRadius(),
                 newBottomFlangeEdgeRadius);
     }
 
@@ -559,7 +556,7 @@ public class IfcAsymmetricIShapeProfileDefImpl extends IfcParameterizedProfileDe
      */
     @Override
     public void unsetBottomFlangeEdgeRadius() {
-        eUnset(Ifc4Package.Literals.IFC_ASYMMETRIC_ISHAPE_PROFILE_DEF__BOTTOM_FLANGE_EDGE_RADIUS);
+        eUnset(Ifc4Package.eINSTANCE.getIfcAsymmetricIShapeProfileDef_BottomFlangeEdgeRadius());
     }
 
     /**
@@ -569,7 +566,7 @@ public class IfcAsymmetricIShapeProfileDefImpl extends IfcParameterizedProfileDe
      */
     @Override
     public boolean isSetBottomFlangeEdgeRadius() {
-        return eIsSet(Ifc4Package.Literals.IFC_ASYMMETRIC_ISHAPE_PROFILE_DEF__BOTTOM_FLANGE_EDGE_RADIUS);
+        return eIsSet(Ifc4Package.eINSTANCE.getIfcAsymmetricIShapeProfileDef_BottomFlangeEdgeRadius());
     }
 
     /**
@@ -579,8 +576,8 @@ public class IfcAsymmetricIShapeProfileDefImpl extends IfcParameterizedProfileDe
      */
     @Override
     public String getBottomFlangeEdgeRadiusAsString() {
-        return (String) eGet(
-                Ifc4Package.Literals.IFC_ASYMMETRIC_ISHAPE_PROFILE_DEF__BOTTOM_FLANGE_EDGE_RADIUS_AS_STRING, true);
+        return (String) eGet(Ifc4Package.eINSTANCE.getIfcAsymmetricIShapeProfileDef_BottomFlangeEdgeRadiusAsString(),
+                true);
     }
 
     /**
@@ -590,7 +587,7 @@ public class IfcAsymmetricIShapeProfileDefImpl extends IfcParameterizedProfileDe
      */
     @Override
     public void setBottomFlangeEdgeRadiusAsString(String newBottomFlangeEdgeRadiusAsString) {
-        eSet(Ifc4Package.Literals.IFC_ASYMMETRIC_ISHAPE_PROFILE_DEF__BOTTOM_FLANGE_EDGE_RADIUS_AS_STRING,
+        eSet(Ifc4Package.eINSTANCE.getIfcAsymmetricIShapeProfileDef_BottomFlangeEdgeRadiusAsString(),
                 newBottomFlangeEdgeRadiusAsString);
     }
 
@@ -601,7 +598,7 @@ public class IfcAsymmetricIShapeProfileDefImpl extends IfcParameterizedProfileDe
      */
     @Override
     public void unsetBottomFlangeEdgeRadiusAsString() {
-        eUnset(Ifc4Package.Literals.IFC_ASYMMETRIC_ISHAPE_PROFILE_DEF__BOTTOM_FLANGE_EDGE_RADIUS_AS_STRING);
+        eUnset(Ifc4Package.eINSTANCE.getIfcAsymmetricIShapeProfileDef_BottomFlangeEdgeRadiusAsString());
     }
 
     /**
@@ -611,7 +608,7 @@ public class IfcAsymmetricIShapeProfileDefImpl extends IfcParameterizedProfileDe
      */
     @Override
     public boolean isSetBottomFlangeEdgeRadiusAsString() {
-        return eIsSet(Ifc4Package.Literals.IFC_ASYMMETRIC_ISHAPE_PROFILE_DEF__BOTTOM_FLANGE_EDGE_RADIUS_AS_STRING);
+        return eIsSet(Ifc4Package.eINSTANCE.getIfcAsymmetricIShapeProfileDef_BottomFlangeEdgeRadiusAsString());
     }
 
     /**
@@ -621,7 +618,7 @@ public class IfcAsymmetricIShapeProfileDefImpl extends IfcParameterizedProfileDe
      */
     @Override
     public double getBottomFlangeSlope() {
-        return (Double) eGet(Ifc4Package.Literals.IFC_ASYMMETRIC_ISHAPE_PROFILE_DEF__BOTTOM_FLANGE_SLOPE, true);
+        return (Double) eGet(Ifc4Package.eINSTANCE.getIfcAsymmetricIShapeProfileDef_BottomFlangeSlope(), true);
     }
 
     /**
@@ -631,7 +628,7 @@ public class IfcAsymmetricIShapeProfileDefImpl extends IfcParameterizedProfileDe
      */
     @Override
     public void setBottomFlangeSlope(double newBottomFlangeSlope) {
-        eSet(Ifc4Package.Literals.IFC_ASYMMETRIC_ISHAPE_PROFILE_DEF__BOTTOM_FLANGE_SLOPE, newBottomFlangeSlope);
+        eSet(Ifc4Package.eINSTANCE.getIfcAsymmetricIShapeProfileDef_BottomFlangeSlope(), newBottomFlangeSlope);
     }
 
     /**
@@ -641,7 +638,7 @@ public class IfcAsymmetricIShapeProfileDefImpl extends IfcParameterizedProfileDe
      */
     @Override
     public void unsetBottomFlangeSlope() {
-        eUnset(Ifc4Package.Literals.IFC_ASYMMETRIC_ISHAPE_PROFILE_DEF__BOTTOM_FLANGE_SLOPE);
+        eUnset(Ifc4Package.eINSTANCE.getIfcAsymmetricIShapeProfileDef_BottomFlangeSlope());
     }
 
     /**
@@ -651,7 +648,7 @@ public class IfcAsymmetricIShapeProfileDefImpl extends IfcParameterizedProfileDe
      */
     @Override
     public boolean isSetBottomFlangeSlope() {
-        return eIsSet(Ifc4Package.Literals.IFC_ASYMMETRIC_ISHAPE_PROFILE_DEF__BOTTOM_FLANGE_SLOPE);
+        return eIsSet(Ifc4Package.eINSTANCE.getIfcAsymmetricIShapeProfileDef_BottomFlangeSlope());
     }
 
     /**
@@ -661,8 +658,7 @@ public class IfcAsymmetricIShapeProfileDefImpl extends IfcParameterizedProfileDe
      */
     @Override
     public String getBottomFlangeSlopeAsString() {
-        return (String) eGet(Ifc4Package.Literals.IFC_ASYMMETRIC_ISHAPE_PROFILE_DEF__BOTTOM_FLANGE_SLOPE_AS_STRING,
-                true);
+        return (String) eGet(Ifc4Package.eINSTANCE.getIfcAsymmetricIShapeProfileDef_BottomFlangeSlopeAsString(), true);
     }
 
     /**
@@ -672,7 +668,7 @@ public class IfcAsymmetricIShapeProfileDefImpl extends IfcParameterizedProfileDe
      */
     @Override
     public void setBottomFlangeSlopeAsString(String newBottomFlangeSlopeAsString) {
-        eSet(Ifc4Package.Literals.IFC_ASYMMETRIC_ISHAPE_PROFILE_DEF__BOTTOM_FLANGE_SLOPE_AS_STRING,
+        eSet(Ifc4Package.eINSTANCE.getIfcAsymmetricIShapeProfileDef_BottomFlangeSlopeAsString(),
                 newBottomFlangeSlopeAsString);
     }
 
@@ -683,7 +679,7 @@ public class IfcAsymmetricIShapeProfileDefImpl extends IfcParameterizedProfileDe
      */
     @Override
     public void unsetBottomFlangeSlopeAsString() {
-        eUnset(Ifc4Package.Literals.IFC_ASYMMETRIC_ISHAPE_PROFILE_DEF__BOTTOM_FLANGE_SLOPE_AS_STRING);
+        eUnset(Ifc4Package.eINSTANCE.getIfcAsymmetricIShapeProfileDef_BottomFlangeSlopeAsString());
     }
 
     /**
@@ -693,7 +689,7 @@ public class IfcAsymmetricIShapeProfileDefImpl extends IfcParameterizedProfileDe
      */
     @Override
     public boolean isSetBottomFlangeSlopeAsString() {
-        return eIsSet(Ifc4Package.Literals.IFC_ASYMMETRIC_ISHAPE_PROFILE_DEF__BOTTOM_FLANGE_SLOPE_AS_STRING);
+        return eIsSet(Ifc4Package.eINSTANCE.getIfcAsymmetricIShapeProfileDef_BottomFlangeSlopeAsString());
     }
 
     /**
@@ -703,7 +699,7 @@ public class IfcAsymmetricIShapeProfileDefImpl extends IfcParameterizedProfileDe
      */
     @Override
     public double getTopFlangeEdgeRadius() {
-        return (Double) eGet(Ifc4Package.Literals.IFC_ASYMMETRIC_ISHAPE_PROFILE_DEF__TOP_FLANGE_EDGE_RADIUS, true);
+        return (Double) eGet(Ifc4Package.eINSTANCE.getIfcAsymmetricIShapeProfileDef_TopFlangeEdgeRadius(), true);
     }
 
     /**
@@ -713,7 +709,7 @@ public class IfcAsymmetricIShapeProfileDefImpl extends IfcParameterizedProfileDe
      */
     @Override
     public void setTopFlangeEdgeRadius(double newTopFlangeEdgeRadius) {
-        eSet(Ifc4Package.Literals.IFC_ASYMMETRIC_ISHAPE_PROFILE_DEF__TOP_FLANGE_EDGE_RADIUS, newTopFlangeEdgeRadius);
+        eSet(Ifc4Package.eINSTANCE.getIfcAsymmetricIShapeProfileDef_TopFlangeEdgeRadius(), newTopFlangeEdgeRadius);
     }
 
     /**
@@ -723,7 +719,7 @@ public class IfcAsymmetricIShapeProfileDefImpl extends IfcParameterizedProfileDe
      */
     @Override
     public void unsetTopFlangeEdgeRadius() {
-        eUnset(Ifc4Package.Literals.IFC_ASYMMETRIC_ISHAPE_PROFILE_DEF__TOP_FLANGE_EDGE_RADIUS);
+        eUnset(Ifc4Package.eINSTANCE.getIfcAsymmetricIShapeProfileDef_TopFlangeEdgeRadius());
     }
 
     /**
@@ -733,7 +729,7 @@ public class IfcAsymmetricIShapeProfileDefImpl extends IfcParameterizedProfileDe
      */
     @Override
     public boolean isSetTopFlangeEdgeRadius() {
-        return eIsSet(Ifc4Package.Literals.IFC_ASYMMETRIC_ISHAPE_PROFILE_DEF__TOP_FLANGE_EDGE_RADIUS);
+        return eIsSet(Ifc4Package.eINSTANCE.getIfcAsymmetricIShapeProfileDef_TopFlangeEdgeRadius());
     }
 
     /**
@@ -743,7 +739,7 @@ public class IfcAsymmetricIShapeProfileDefImpl extends IfcParameterizedProfileDe
      */
     @Override
     public String getTopFlangeEdgeRadiusAsString() {
-        return (String) eGet(Ifc4Package.Literals.IFC_ASYMMETRIC_ISHAPE_PROFILE_DEF__TOP_FLANGE_EDGE_RADIUS_AS_STRING,
+        return (String) eGet(Ifc4Package.eINSTANCE.getIfcAsymmetricIShapeProfileDef_TopFlangeEdgeRadiusAsString(),
                 true);
     }
 
@@ -754,7 +750,7 @@ public class IfcAsymmetricIShapeProfileDefImpl extends IfcParameterizedProfileDe
      */
     @Override
     public void setTopFlangeEdgeRadiusAsString(String newTopFlangeEdgeRadiusAsString) {
-        eSet(Ifc4Package.Literals.IFC_ASYMMETRIC_ISHAPE_PROFILE_DEF__TOP_FLANGE_EDGE_RADIUS_AS_STRING,
+        eSet(Ifc4Package.eINSTANCE.getIfcAsymmetricIShapeProfileDef_TopFlangeEdgeRadiusAsString(),
                 newTopFlangeEdgeRadiusAsString);
     }
 
@@ -765,7 +761,7 @@ public class IfcAsymmetricIShapeProfileDefImpl extends IfcParameterizedProfileDe
      */
     @Override
     public void unsetTopFlangeEdgeRadiusAsString() {
-        eUnset(Ifc4Package.Literals.IFC_ASYMMETRIC_ISHAPE_PROFILE_DEF__TOP_FLANGE_EDGE_RADIUS_AS_STRING);
+        eUnset(Ifc4Package.eINSTANCE.getIfcAsymmetricIShapeProfileDef_TopFlangeEdgeRadiusAsString());
     }
 
     /**
@@ -775,7 +771,7 @@ public class IfcAsymmetricIShapeProfileDefImpl extends IfcParameterizedProfileDe
      */
     @Override
     public boolean isSetTopFlangeEdgeRadiusAsString() {
-        return eIsSet(Ifc4Package.Literals.IFC_ASYMMETRIC_ISHAPE_PROFILE_DEF__TOP_FLANGE_EDGE_RADIUS_AS_STRING);
+        return eIsSet(Ifc4Package.eINSTANCE.getIfcAsymmetricIShapeProfileDef_TopFlangeEdgeRadiusAsString());
     }
 
     /**
@@ -785,7 +781,7 @@ public class IfcAsymmetricIShapeProfileDefImpl extends IfcParameterizedProfileDe
      */
     @Override
     public double getTopFlangeSlope() {
-        return (Double) eGet(Ifc4Package.Literals.IFC_ASYMMETRIC_ISHAPE_PROFILE_DEF__TOP_FLANGE_SLOPE, true);
+        return (Double) eGet(Ifc4Package.eINSTANCE.getIfcAsymmetricIShapeProfileDef_TopFlangeSlope(), true);
     }
 
     /**
@@ -795,7 +791,7 @@ public class IfcAsymmetricIShapeProfileDefImpl extends IfcParameterizedProfileDe
      */
     @Override
     public void setTopFlangeSlope(double newTopFlangeSlope) {
-        eSet(Ifc4Package.Literals.IFC_ASYMMETRIC_ISHAPE_PROFILE_DEF__TOP_FLANGE_SLOPE, newTopFlangeSlope);
+        eSet(Ifc4Package.eINSTANCE.getIfcAsymmetricIShapeProfileDef_TopFlangeSlope(), newTopFlangeSlope);
     }
 
     /**
@@ -805,7 +801,7 @@ public class IfcAsymmetricIShapeProfileDefImpl extends IfcParameterizedProfileDe
      */
     @Override
     public void unsetTopFlangeSlope() {
-        eUnset(Ifc4Package.Literals.IFC_ASYMMETRIC_ISHAPE_PROFILE_DEF__TOP_FLANGE_SLOPE);
+        eUnset(Ifc4Package.eINSTANCE.getIfcAsymmetricIShapeProfileDef_TopFlangeSlope());
     }
 
     /**
@@ -815,7 +811,7 @@ public class IfcAsymmetricIShapeProfileDefImpl extends IfcParameterizedProfileDe
      */
     @Override
     public boolean isSetTopFlangeSlope() {
-        return eIsSet(Ifc4Package.Literals.IFC_ASYMMETRIC_ISHAPE_PROFILE_DEF__TOP_FLANGE_SLOPE);
+        return eIsSet(Ifc4Package.eINSTANCE.getIfcAsymmetricIShapeProfileDef_TopFlangeSlope());
     }
 
     /**
@@ -825,7 +821,7 @@ public class IfcAsymmetricIShapeProfileDefImpl extends IfcParameterizedProfileDe
      */
     @Override
     public String getTopFlangeSlopeAsString() {
-        return (String) eGet(Ifc4Package.Literals.IFC_ASYMMETRIC_ISHAPE_PROFILE_DEF__TOP_FLANGE_SLOPE_AS_STRING, true);
+        return (String) eGet(Ifc4Package.eINSTANCE.getIfcAsymmetricIShapeProfileDef_TopFlangeSlopeAsString(), true);
     }
 
     /**
@@ -835,7 +831,7 @@ public class IfcAsymmetricIShapeProfileDefImpl extends IfcParameterizedProfileDe
      */
     @Override
     public void setTopFlangeSlopeAsString(String newTopFlangeSlopeAsString) {
-        eSet(Ifc4Package.Literals.IFC_ASYMMETRIC_ISHAPE_PROFILE_DEF__TOP_FLANGE_SLOPE_AS_STRING,
+        eSet(Ifc4Package.eINSTANCE.getIfcAsymmetricIShapeProfileDef_TopFlangeSlopeAsString(),
                 newTopFlangeSlopeAsString);
     }
 
@@ -846,7 +842,7 @@ public class IfcAsymmetricIShapeProfileDefImpl extends IfcParameterizedProfileDe
      */
     @Override
     public void unsetTopFlangeSlopeAsString() {
-        eUnset(Ifc4Package.Literals.IFC_ASYMMETRIC_ISHAPE_PROFILE_DEF__TOP_FLANGE_SLOPE_AS_STRING);
+        eUnset(Ifc4Package.eINSTANCE.getIfcAsymmetricIShapeProfileDef_TopFlangeSlopeAsString());
     }
 
     /**
@@ -856,7 +852,7 @@ public class IfcAsymmetricIShapeProfileDefImpl extends IfcParameterizedProfileDe
      */
     @Override
     public boolean isSetTopFlangeSlopeAsString() {
-        return eIsSet(Ifc4Package.Literals.IFC_ASYMMETRIC_ISHAPE_PROFILE_DEF__TOP_FLANGE_SLOPE_AS_STRING);
+        return eIsSet(Ifc4Package.eINSTANCE.getIfcAsymmetricIShapeProfileDef_TopFlangeSlopeAsString());
     }
 
 } //IfcAsymmetricIShapeProfileDefImpl

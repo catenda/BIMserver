@@ -54,7 +54,7 @@ public class IfcPathImpl extends IfcTopologicalRepresentationItemImpl implements
      */
     @Override
     protected EClass eStaticClass() {
-        return Ifc4Package.Literals.IFC_PATH;
+        return Ifc4Package.eINSTANCE.getIfcPath();
     }
 
     /**
@@ -65,7 +65,7 @@ public class IfcPathImpl extends IfcTopologicalRepresentationItemImpl implements
     @SuppressWarnings("unchecked")
     @Override
     public EList<IfcOrientedEdge> getEdgeList() {
-        return (EList<IfcOrientedEdge>) eGet(Ifc4Package.Literals.IFC_PATH__EDGE_LIST, true);
+        return (EList<IfcOrientedEdge>) eGet(Ifc4Package.eINSTANCE.getIfcPath_EdgeList(), true);
     }
 
 } //IfcPathImpl

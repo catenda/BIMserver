@@ -40,10 +40,6 @@ public interface IfcDocumentReference extends IfcExternalReference, IfcDocumentS
     /**
      * Returns the value of the '<em><b>Description</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Description</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Description</em>' attribute.
      * @see #isSetDescription()
@@ -94,10 +90,6 @@ public interface IfcDocumentReference extends IfcExternalReference, IfcDocumentS
      * Returns the value of the '<em><b>Referenced Document</b></em>' reference.
      * It is bidirectional and its opposite is '{@link org.bimserver.models.ifc4.IfcDocumentInformation#getHasDocumentReferences <em>Has Document References</em>}'.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Referenced Document</em>' reference isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Referenced Document</em>' reference.
      * @see #isSetReferencedDocument()
@@ -150,10 +142,6 @@ public interface IfcDocumentReference extends IfcExternalReference, IfcDocumentS
      * Returns the value of the '<em><b>Document Ref For Objects</b></em>' reference list.
      * The list contents are of type {@link org.bimserver.models.ifc4.IfcRelAssociatesDocument}.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Document Ref For Objects</em>' reference list isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Document Ref For Objects</em>' reference list.
      * @see #isSetDocumentRefForObjects()

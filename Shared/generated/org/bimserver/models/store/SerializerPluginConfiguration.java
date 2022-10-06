@@ -39,10 +39,6 @@ public interface SerializerPluginConfiguration extends PluginConfiguration {
      * Returns the value of the '<em><b>Object IDM</b></em>' reference.
      * It is bidirectional and its opposite is '{@link org.bimserver.models.store.ObjectIDMPluginConfiguration#getSerializers <em>Serializers</em>}'.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Object IDM</em>' reference isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Object IDM</em>' reference.
      * @see #setObjectIDM(ObjectIDMPluginConfiguration)
@@ -67,10 +63,6 @@ public interface SerializerPluginConfiguration extends PluginConfiguration {
      * Returns the value of the '<em><b>User Settings</b></em>' reference.
      * It is bidirectional and its opposite is '{@link org.bimserver.models.store.UserSettings#getSerializers <em>Serializers</em>}'.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>User Settings</em>' reference isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>User Settings</em>' reference.
      * @see #setUserSettings(UserSettings)
@@ -95,10 +87,6 @@ public interface SerializerPluginConfiguration extends PluginConfiguration {
      * Returns the value of the '<em><b>Render Engine</b></em>' reference.
      * It is bidirectional and its opposite is '{@link org.bimserver.models.store.RenderEnginePluginConfiguration#getSerializers <em>Serializers</em>}'.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Render Engine</em>' reference isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Render Engine</em>' reference.
      * @see #setRenderEngine(RenderEnginePluginConfiguration)

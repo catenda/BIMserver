@@ -55,7 +55,7 @@ public class IfcIndexedPolygonalFaceImpl extends IfcTessellatedItemImpl implemen
      */
     @Override
     protected EClass eStaticClass() {
-        return Ifc4Package.Literals.IFC_INDEXED_POLYGONAL_FACE;
+        return Ifc4Package.eINSTANCE.getIfcIndexedPolygonalFace();
     }
 
     /**
@@ -66,7 +66,7 @@ public class IfcIndexedPolygonalFaceImpl extends IfcTessellatedItemImpl implemen
     @SuppressWarnings("unchecked")
     @Override
     public EList<Long> getCoordIndex() {
-        return (EList<Long>) eGet(Ifc4Package.Literals.IFC_INDEXED_POLYGONAL_FACE__COORD_INDEX, true);
+        return (EList<Long>) eGet(Ifc4Package.eINSTANCE.getIfcIndexedPolygonalFace_CoordIndex(), true);
     }
 
     /**
@@ -77,7 +77,7 @@ public class IfcIndexedPolygonalFaceImpl extends IfcTessellatedItemImpl implemen
     @SuppressWarnings("unchecked")
     @Override
     public EList<IfcPolygonalFaceSet> getToFaceSet() {
-        return (EList<IfcPolygonalFaceSet>) eGet(Ifc4Package.Literals.IFC_INDEXED_POLYGONAL_FACE__TO_FACE_SET, true);
+        return (EList<IfcPolygonalFaceSet>) eGet(Ifc4Package.eINSTANCE.getIfcIndexedPolygonalFace_ToFaceSet(), true);
     }
 
     /**
@@ -87,7 +87,7 @@ public class IfcIndexedPolygonalFaceImpl extends IfcTessellatedItemImpl implemen
      */
     @Override
     public void unsetToFaceSet() {
-        eUnset(Ifc4Package.Literals.IFC_INDEXED_POLYGONAL_FACE__TO_FACE_SET);
+        eUnset(Ifc4Package.eINSTANCE.getIfcIndexedPolygonalFace_ToFaceSet());
     }
 
     /**
@@ -97,7 +97,7 @@ public class IfcIndexedPolygonalFaceImpl extends IfcTessellatedItemImpl implemen
      */
     @Override
     public boolean isSetToFaceSet() {
-        return eIsSet(Ifc4Package.Literals.IFC_INDEXED_POLYGONAL_FACE__TO_FACE_SET);
+        return eIsSet(Ifc4Package.eINSTANCE.getIfcIndexedPolygonalFace_ToFaceSet());
     }
 
 } //IfcIndexedPolygonalFaceImpl

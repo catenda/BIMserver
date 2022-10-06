@@ -57,7 +57,7 @@ public class IfcExternalReferenceRelationshipImpl extends IfcResourceLevelRelati
      */
     @Override
     protected EClass eStaticClass() {
-        return Ifc4Package.Literals.IFC_EXTERNAL_REFERENCE_RELATIONSHIP;
+        return Ifc4Package.eINSTANCE.getIfcExternalReferenceRelationship();
     }
 
     /**
@@ -67,8 +67,8 @@ public class IfcExternalReferenceRelationshipImpl extends IfcResourceLevelRelati
      */
     @Override
     public IfcExternalReference getRelatingReference() {
-        return (IfcExternalReference) eGet(Ifc4Package.Literals.IFC_EXTERNAL_REFERENCE_RELATIONSHIP__RELATING_REFERENCE,
-                true);
+        return (IfcExternalReference) eGet(
+                Ifc4Package.eINSTANCE.getIfcExternalReferenceRelationship_RelatingReference(), true);
     }
 
     /**
@@ -78,7 +78,7 @@ public class IfcExternalReferenceRelationshipImpl extends IfcResourceLevelRelati
      */
     @Override
     public void setRelatingReference(IfcExternalReference newRelatingReference) {
-        eSet(Ifc4Package.Literals.IFC_EXTERNAL_REFERENCE_RELATIONSHIP__RELATING_REFERENCE, newRelatingReference);
+        eSet(Ifc4Package.eINSTANCE.getIfcExternalReferenceRelationship_RelatingReference(), newRelatingReference);
     }
 
     /**
@@ -90,7 +90,7 @@ public class IfcExternalReferenceRelationshipImpl extends IfcResourceLevelRelati
     @Override
     public EList<IfcResourceObjectSelect> getRelatedResourceObjects() {
         return (EList<IfcResourceObjectSelect>) eGet(
-                Ifc4Package.Literals.IFC_EXTERNAL_REFERENCE_RELATIONSHIP__RELATED_RESOURCE_OBJECTS, true);
+                Ifc4Package.eINSTANCE.getIfcExternalReferenceRelationship_RelatedResourceObjects(), true);
     }
 
 } //IfcExternalReferenceRelationshipImpl

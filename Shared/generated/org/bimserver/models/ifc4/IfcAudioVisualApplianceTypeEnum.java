@@ -175,10 +175,6 @@ public enum IfcAudioVisualApplianceTypeEnum implements Enumerator {
     /**
      * The '<em><b>NULL</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>NULL</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #NULL
      * @model
@@ -190,10 +186,6 @@ public enum IfcAudioVisualApplianceTypeEnum implements Enumerator {
     /**
      * The '<em><b>TELEPHONE</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>TELEPHONE</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #TELEPHONE
      * @model
@@ -205,10 +197,6 @@ public enum IfcAudioVisualApplianceTypeEnum implements Enumerator {
     /**
      * The '<em><b>CAMERA</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>CAMERA</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #CAMERA
      * @model
@@ -220,10 +208,6 @@ public enum IfcAudioVisualApplianceTypeEnum implements Enumerator {
     /**
      * The '<em><b>MICROPHONE</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>MICROPHONE</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #MICROPHONE
      * @model
@@ -235,10 +219,6 @@ public enum IfcAudioVisualApplianceTypeEnum implements Enumerator {
     /**
      * The '<em><b>USERDEFINED</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>USERDEFINED</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #USERDEFINED
      * @model
@@ -250,10 +230,6 @@ public enum IfcAudioVisualApplianceTypeEnum implements Enumerator {
     /**
      * The '<em><b>SPEAKER</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>SPEAKER</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #SPEAKER
      * @model
@@ -265,10 +241,6 @@ public enum IfcAudioVisualApplianceTypeEnum implements Enumerator {
     /**
      * The '<em><b>PLAYER</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>PLAYER</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #PLAYER
      * @model
@@ -280,10 +252,6 @@ public enum IfcAudioVisualApplianceTypeEnum implements Enumerator {
     /**
      * The '<em><b>SWITCHER</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>SWITCHER</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #SWITCHER
      * @model
@@ -295,10 +263,6 @@ public enum IfcAudioVisualApplianceTypeEnum implements Enumerator {
     /**
      * The '<em><b>AMPLIFIER</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>AMPLIFIER</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #AMPLIFIER
      * @model
@@ -310,10 +274,6 @@ public enum IfcAudioVisualApplianceTypeEnum implements Enumerator {
     /**
      * The '<em><b>DISPLAY</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>DISPLAY</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #DISPLAY
      * @model
@@ -325,10 +285,6 @@ public enum IfcAudioVisualApplianceTypeEnum implements Enumerator {
     /**
      * The '<em><b>NOTDEFINED</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>NOTDEFINED</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #NOTDEFINED
      * @model
@@ -340,10 +296,6 @@ public enum IfcAudioVisualApplianceTypeEnum implements Enumerator {
     /**
      * The '<em><b>TUNER</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>TUNER</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #TUNER
      * @model
@@ -355,10 +307,6 @@ public enum IfcAudioVisualApplianceTypeEnum implements Enumerator {
     /**
      * The '<em><b>PROJECTOR</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>PROJECTOR</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #PROJECTOR
      * @model
@@ -370,10 +318,6 @@ public enum IfcAudioVisualApplianceTypeEnum implements Enumerator {
     /**
      * The '<em><b>RECEIVER</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>RECEIVER</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #RECEIVER
      * @model

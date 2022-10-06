@@ -56,7 +56,7 @@ public class IfcMeasureWithUnitImpl extends IdEObjectImpl implements IfcMeasureW
      */
     @Override
     protected EClass eStaticClass() {
-        return Ifc4Package.Literals.IFC_MEASURE_WITH_UNIT;
+        return Ifc4Package.eINSTANCE.getIfcMeasureWithUnit();
     }
 
     /**
@@ -76,7 +76,7 @@ public class IfcMeasureWithUnitImpl extends IdEObjectImpl implements IfcMeasureW
      */
     @Override
     public IfcValue getValueComponent() {
-        return (IfcValue) eGet(Ifc4Package.Literals.IFC_MEASURE_WITH_UNIT__VALUE_COMPONENT, true);
+        return (IfcValue) eGet(Ifc4Package.eINSTANCE.getIfcMeasureWithUnit_ValueComponent(), true);
     }
 
     /**
@@ -86,7 +86,7 @@ public class IfcMeasureWithUnitImpl extends IdEObjectImpl implements IfcMeasureW
      */
     @Override
     public void setValueComponent(IfcValue newValueComponent) {
-        eSet(Ifc4Package.Literals.IFC_MEASURE_WITH_UNIT__VALUE_COMPONENT, newValueComponent);
+        eSet(Ifc4Package.eINSTANCE.getIfcMeasureWithUnit_ValueComponent(), newValueComponent);
     }
 
     /**
@@ -96,7 +96,7 @@ public class IfcMeasureWithUnitImpl extends IdEObjectImpl implements IfcMeasureW
      */
     @Override
     public IfcUnit getUnitComponent() {
-        return (IfcUnit) eGet(Ifc4Package.Literals.IFC_MEASURE_WITH_UNIT__UNIT_COMPONENT, true);
+        return (IfcUnit) eGet(Ifc4Package.eINSTANCE.getIfcMeasureWithUnit_UnitComponent(), true);
     }
 
     /**
@@ -106,7 +106,7 @@ public class IfcMeasureWithUnitImpl extends IdEObjectImpl implements IfcMeasureW
      */
     @Override
     public void setUnitComponent(IfcUnit newUnitComponent) {
-        eSet(Ifc4Package.Literals.IFC_MEASURE_WITH_UNIT__UNIT_COMPONENT, newUnitComponent);
+        eSet(Ifc4Package.eINSTANCE.getIfcMeasureWithUnit_UnitComponent(), newUnitComponent);
     }
 
 } //IfcMeasureWithUnitImpl

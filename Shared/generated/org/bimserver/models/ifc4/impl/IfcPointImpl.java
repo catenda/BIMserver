@@ -45,7 +45,7 @@ public class IfcPointImpl extends IfcGeometricRepresentationItemImpl implements 
      */
     @Override
     protected EClass eStaticClass() {
-        return Ifc4Package.Literals.IFC_POINT;
+        return Ifc4Package.eINSTANCE.getIfcPoint();
     }
 
 } //IfcPointImpl

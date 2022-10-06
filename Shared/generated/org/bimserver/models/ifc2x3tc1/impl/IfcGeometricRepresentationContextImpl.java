@@ -62,7 +62,7 @@ public class IfcGeometricRepresentationContextImpl extends IfcRepresentationCont
      */
     @Override
     protected EClass eStaticClass() {
-        return Ifc2x3tc1Package.Literals.IFC_GEOMETRIC_REPRESENTATION_CONTEXT;
+        return Ifc2x3tc1Package.eINSTANCE.getIfcGeometricRepresentationContext();
     }
 
     /**
@@ -72,7 +72,7 @@ public class IfcGeometricRepresentationContextImpl extends IfcRepresentationCont
      */
     @Override
     public long getCoordinateSpaceDimension() {
-        return (Long) eGet(Ifc2x3tc1Package.Literals.IFC_GEOMETRIC_REPRESENTATION_CONTEXT__COORDINATE_SPACE_DIMENSION,
+        return (Long) eGet(Ifc2x3tc1Package.eINSTANCE.getIfcGeometricRepresentationContext_CoordinateSpaceDimension(),
                 true);
     }
 
@@ -83,7 +83,7 @@ public class IfcGeometricRepresentationContextImpl extends IfcRepresentationCont
      */
     @Override
     public void setCoordinateSpaceDimension(long newCoordinateSpaceDimension) {
-        eSet(Ifc2x3tc1Package.Literals.IFC_GEOMETRIC_REPRESENTATION_CONTEXT__COORDINATE_SPACE_DIMENSION,
+        eSet(Ifc2x3tc1Package.eINSTANCE.getIfcGeometricRepresentationContext_CoordinateSpaceDimension(),
                 newCoordinateSpaceDimension);
     }
 
@@ -94,7 +94,7 @@ public class IfcGeometricRepresentationContextImpl extends IfcRepresentationCont
      */
     @Override
     public double getPrecision() {
-        return (Double) eGet(Ifc2x3tc1Package.Literals.IFC_GEOMETRIC_REPRESENTATION_CONTEXT__PRECISION, true);
+        return (Double) eGet(Ifc2x3tc1Package.eINSTANCE.getIfcGeometricRepresentationContext_Precision(), true);
     }
 
     /**
@@ -104,7 +104,7 @@ public class IfcGeometricRepresentationContextImpl extends IfcRepresentationCont
      */
     @Override
     public void setPrecision(double newPrecision) {
-        eSet(Ifc2x3tc1Package.Literals.IFC_GEOMETRIC_REPRESENTATION_CONTEXT__PRECISION, newPrecision);
+        eSet(Ifc2x3tc1Package.eINSTANCE.getIfcGeometricRepresentationContext_Precision(), newPrecision);
     }
 
     /**
@@ -114,7 +114,7 @@ public class IfcGeometricRepresentationContextImpl extends IfcRepresentationCont
      */
     @Override
     public void unsetPrecision() {
-        eUnset(Ifc2x3tc1Package.Literals.IFC_GEOMETRIC_REPRESENTATION_CONTEXT__PRECISION);
+        eUnset(Ifc2x3tc1Package.eINSTANCE.getIfcGeometricRepresentationContext_Precision());
     }
 
     /**
@@ -124,7 +124,7 @@ public class IfcGeometricRepresentationContextImpl extends IfcRepresentationCont
      */
     @Override
     public boolean isSetPrecision() {
-        return eIsSet(Ifc2x3tc1Package.Literals.IFC_GEOMETRIC_REPRESENTATION_CONTEXT__PRECISION);
+        return eIsSet(Ifc2x3tc1Package.eINSTANCE.getIfcGeometricRepresentationContext_Precision());
     }
 
     /**
@@ -134,7 +134,7 @@ public class IfcGeometricRepresentationContextImpl extends IfcRepresentationCont
      */
     @Override
     public String getPrecisionAsString() {
-        return (String) eGet(Ifc2x3tc1Package.Literals.IFC_GEOMETRIC_REPRESENTATION_CONTEXT__PRECISION_AS_STRING, true);
+        return (String) eGet(Ifc2x3tc1Package.eINSTANCE.getIfcGeometricRepresentationContext_PrecisionAsString(), true);
     }
 
     /**
@@ -144,7 +144,7 @@ public class IfcGeometricRepresentationContextImpl extends IfcRepresentationCont
      */
     @Override
     public void setPrecisionAsString(String newPrecisionAsString) {
-        eSet(Ifc2x3tc1Package.Literals.IFC_GEOMETRIC_REPRESENTATION_CONTEXT__PRECISION_AS_STRING, newPrecisionAsString);
+        eSet(Ifc2x3tc1Package.eINSTANCE.getIfcGeometricRepresentationContext_PrecisionAsString(), newPrecisionAsString);
     }
 
     /**
@@ -154,7 +154,7 @@ public class IfcGeometricRepresentationContextImpl extends IfcRepresentationCont
      */
     @Override
     public void unsetPrecisionAsString() {
-        eUnset(Ifc2x3tc1Package.Literals.IFC_GEOMETRIC_REPRESENTATION_CONTEXT__PRECISION_AS_STRING);
+        eUnset(Ifc2x3tc1Package.eINSTANCE.getIfcGeometricRepresentationContext_PrecisionAsString());
     }
 
     /**
@@ -164,7 +164,7 @@ public class IfcGeometricRepresentationContextImpl extends IfcRepresentationCont
      */
     @Override
     public boolean isSetPrecisionAsString() {
-        return eIsSet(Ifc2x3tc1Package.Literals.IFC_GEOMETRIC_REPRESENTATION_CONTEXT__PRECISION_AS_STRING);
+        return eIsSet(Ifc2x3tc1Package.eINSTANCE.getIfcGeometricRepresentationContext_PrecisionAsString());
     }
 
     /**
@@ -175,7 +175,7 @@ public class IfcGeometricRepresentationContextImpl extends IfcRepresentationCont
     @Override
     public IfcAxis2Placement getWorldCoordinateSystem() {
         return (IfcAxis2Placement) eGet(
-                Ifc2x3tc1Package.Literals.IFC_GEOMETRIC_REPRESENTATION_CONTEXT__WORLD_COORDINATE_SYSTEM, true);
+                Ifc2x3tc1Package.eINSTANCE.getIfcGeometricRepresentationContext_WorldCoordinateSystem(), true);
     }
 
     /**
@@ -185,7 +185,7 @@ public class IfcGeometricRepresentationContextImpl extends IfcRepresentationCont
      */
     @Override
     public void setWorldCoordinateSystem(IfcAxis2Placement newWorldCoordinateSystem) {
-        eSet(Ifc2x3tc1Package.Literals.IFC_GEOMETRIC_REPRESENTATION_CONTEXT__WORLD_COORDINATE_SYSTEM,
+        eSet(Ifc2x3tc1Package.eINSTANCE.getIfcGeometricRepresentationContext_WorldCoordinateSystem(),
                 newWorldCoordinateSystem);
     }
 
@@ -196,7 +196,7 @@ public class IfcGeometricRepresentationContextImpl extends IfcRepresentationCont
      */
     @Override
     public IfcDirection getTrueNorth() {
-        return (IfcDirection) eGet(Ifc2x3tc1Package.Literals.IFC_GEOMETRIC_REPRESENTATION_CONTEXT__TRUE_NORTH, true);
+        return (IfcDirection) eGet(Ifc2x3tc1Package.eINSTANCE.getIfcGeometricRepresentationContext_TrueNorth(), true);
     }
 
     /**
@@ -206,7 +206,7 @@ public class IfcGeometricRepresentationContextImpl extends IfcRepresentationCont
      */
     @Override
     public void setTrueNorth(IfcDirection newTrueNorth) {
-        eSet(Ifc2x3tc1Package.Literals.IFC_GEOMETRIC_REPRESENTATION_CONTEXT__TRUE_NORTH, newTrueNorth);
+        eSet(Ifc2x3tc1Package.eINSTANCE.getIfcGeometricRepresentationContext_TrueNorth(), newTrueNorth);
     }
 
     /**
@@ -216,7 +216,7 @@ public class IfcGeometricRepresentationContextImpl extends IfcRepresentationCont
      */
     @Override
     public void unsetTrueNorth() {
-        eUnset(Ifc2x3tc1Package.Literals.IFC_GEOMETRIC_REPRESENTATION_CONTEXT__TRUE_NORTH);
+        eUnset(Ifc2x3tc1Package.eINSTANCE.getIfcGeometricRepresentationContext_TrueNorth());
     }
 
     /**
@@ -226,7 +226,7 @@ public class IfcGeometricRepresentationContextImpl extends IfcRepresentationCont
      */
     @Override
     public boolean isSetTrueNorth() {
-        return eIsSet(Ifc2x3tc1Package.Literals.IFC_GEOMETRIC_REPRESENTATION_CONTEXT__TRUE_NORTH);
+        return eIsSet(Ifc2x3tc1Package.eINSTANCE.getIfcGeometricRepresentationContext_TrueNorth());
     }
 
     /**
@@ -238,7 +238,7 @@ public class IfcGeometricRepresentationContextImpl extends IfcRepresentationCont
     @Override
     public EList<IfcGeometricRepresentationSubContext> getHasSubContexts() {
         return (EList<IfcGeometricRepresentationSubContext>) eGet(
-                Ifc2x3tc1Package.Literals.IFC_GEOMETRIC_REPRESENTATION_CONTEXT__HAS_SUB_CONTEXTS, true);
+                Ifc2x3tc1Package.eINSTANCE.getIfcGeometricRepresentationContext_HasSubContexts(), true);
     }
 
     /**
@@ -248,7 +248,7 @@ public class IfcGeometricRepresentationContextImpl extends IfcRepresentationCont
      */
     @Override
     public void unsetHasSubContexts() {
-        eUnset(Ifc2x3tc1Package.Literals.IFC_GEOMETRIC_REPRESENTATION_CONTEXT__HAS_SUB_CONTEXTS);
+        eUnset(Ifc2x3tc1Package.eINSTANCE.getIfcGeometricRepresentationContext_HasSubContexts());
     }
 
     /**
@@ -258,7 +258,7 @@ public class IfcGeometricRepresentationContextImpl extends IfcRepresentationCont
      */
     @Override
     public boolean isSetHasSubContexts() {
-        return eIsSet(Ifc2x3tc1Package.Literals.IFC_GEOMETRIC_REPRESENTATION_CONTEXT__HAS_SUB_CONTEXTS);
+        return eIsSet(Ifc2x3tc1Package.eINSTANCE.getIfcGeometricRepresentationContext_HasSubContexts());
     }
 
 } //IfcGeometricRepresentationContextImpl

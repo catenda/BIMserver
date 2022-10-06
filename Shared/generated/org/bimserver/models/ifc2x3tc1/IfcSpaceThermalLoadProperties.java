@@ -48,10 +48,6 @@ public interface IfcSpaceThermalLoadProperties extends IfcPropertySetDefinition 
     /**
      * Returns the value of the '<em><b>Applicable Value Ratio</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Applicable Value Ratio</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Applicable Value Ratio</em>' attribute.
      * @see #isSetApplicableValueRatio()
@@ -101,10 +97,6 @@ public interface IfcSpaceThermalLoadProperties extends IfcPropertySetDefinition 
     /**
      * Returns the value of the '<em><b>Applicable Value Ratio As String</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Applicable Value Ratio As String</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Applicable Value Ratio As String</em>' attribute.
      * @see #isSetApplicableValueRatioAsString()
@@ -157,10 +149,6 @@ public interface IfcSpaceThermalLoadProperties extends IfcPropertySetDefinition 
      * Returns the value of the '<em><b>Thermal Load Source</b></em>' attribute.
      * The literals are from the enumeration {@link org.bimserver.models.ifc2x3tc1.IfcThermalLoadSourceEnum}.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Thermal Load Source</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Thermal Load Source</em>' attribute.
      * @see org.bimserver.models.ifc2x3tc1.IfcThermalLoadSourceEnum
@@ -186,10 +174,6 @@ public interface IfcSpaceThermalLoadProperties extends IfcPropertySetDefinition 
      * Returns the value of the '<em><b>Property Source</b></em>' attribute.
      * The literals are from the enumeration {@link org.bimserver.models.ifc2x3tc1.IfcPropertySourceEnum}.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Property Source</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Property Source</em>' attribute.
      * @see org.bimserver.models.ifc2x3tc1.IfcPropertySourceEnum
@@ -214,10 +198,6 @@ public interface IfcSpaceThermalLoadProperties extends IfcPropertySetDefinition 
     /**
      * Returns the value of the '<em><b>Source Description</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Source Description</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Source Description</em>' attribute.
      * @see #isSetSourceDescription()
@@ -267,10 +247,6 @@ public interface IfcSpaceThermalLoadProperties extends IfcPropertySetDefinition 
     /**
      * Returns the value of the '<em><b>Maximum Value</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Maximum Value</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Maximum Value</em>' attribute.
      * @see #setMaximumValue(double)
@@ -293,10 +269,6 @@ public interface IfcSpaceThermalLoadProperties extends IfcPropertySetDefinition 
     /**
      * Returns the value of the '<em><b>Maximum Value As String</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Maximum Value As String</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Maximum Value As String</em>' attribute.
      * @see #setMaximumValueAsString(String)
@@ -320,10 +292,6 @@ public interface IfcSpaceThermalLoadProperties extends IfcPropertySetDefinition 
     /**
      * Returns the value of the '<em><b>Minimum Value</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Minimum Value</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Minimum Value</em>' attribute.
      * @see #isSetMinimumValue()
@@ -373,10 +341,6 @@ public interface IfcSpaceThermalLoadProperties extends IfcPropertySetDefinition 
     /**
      * Returns the value of the '<em><b>Minimum Value As String</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Minimum Value As String</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Minimum Value As String</em>' attribute.
      * @see #isSetMinimumValueAsString()
@@ -428,10 +392,6 @@ public interface IfcSpaceThermalLoadProperties extends IfcPropertySetDefinition 
     /**
      * Returns the value of the '<em><b>Thermal Load Time Series Values</b></em>' reference.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Thermal Load Time Series Values</em>' reference isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Thermal Load Time Series Values</em>' reference.
      * @see #isSetThermalLoadTimeSeriesValues()
@@ -481,10 +441,6 @@ public interface IfcSpaceThermalLoadProperties extends IfcPropertySetDefinition 
     /**
      * Returns the value of the '<em><b>User Defined Thermal Load Source</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>User Defined Thermal Load Source</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>User Defined Thermal Load Source</em>' attribute.
      * @see #isSetUserDefinedThermalLoadSource()
@@ -534,10 +490,6 @@ public interface IfcSpaceThermalLoadProperties extends IfcPropertySetDefinition 
     /**
      * Returns the value of the '<em><b>User Defined Property Source</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>User Defined Property Source</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>User Defined Property Source</em>' attribute.
      * @see #isSetUserDefinedPropertySource()
@@ -588,10 +540,6 @@ public interface IfcSpaceThermalLoadProperties extends IfcPropertySetDefinition 
      * Returns the value of the '<em><b>Thermal Load Type</b></em>' attribute.
      * The literals are from the enumeration {@link org.bimserver.models.ifc2x3tc1.IfcThermalLoadTypeEnum}.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Thermal Load Type</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Thermal Load Type</em>' attribute.
      * @see org.bimserver.models.ifc2x3tc1.IfcThermalLoadTypeEnum

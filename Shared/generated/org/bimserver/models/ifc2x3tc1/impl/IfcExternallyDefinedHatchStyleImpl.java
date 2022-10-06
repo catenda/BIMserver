@@ -46,7 +46,7 @@ public class IfcExternallyDefinedHatchStyleImpl extends IfcExternalReferenceImpl
      */
     @Override
     protected EClass eStaticClass() {
-        return Ifc2x3tc1Package.Literals.IFC_EXTERNALLY_DEFINED_HATCH_STYLE;
+        return Ifc2x3tc1Package.eINSTANCE.getIfcExternallyDefinedHatchStyle();
     }
 
 } //IfcExternallyDefinedHatchStyleImpl

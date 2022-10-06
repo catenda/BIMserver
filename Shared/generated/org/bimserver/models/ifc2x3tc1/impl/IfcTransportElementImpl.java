@@ -56,7 +56,7 @@ public class IfcTransportElementImpl extends IfcElementImpl implements IfcTransp
      */
     @Override
     protected EClass eStaticClass() {
-        return Ifc2x3tc1Package.Literals.IFC_TRANSPORT_ELEMENT;
+        return Ifc2x3tc1Package.eINSTANCE.getIfcTransportElement();
     }
 
     /**
@@ -66,7 +66,7 @@ public class IfcTransportElementImpl extends IfcElementImpl implements IfcTransp
      */
     @Override
     public IfcTransportElementTypeEnum getOperationType() {
-        return (IfcTransportElementTypeEnum) eGet(Ifc2x3tc1Package.Literals.IFC_TRANSPORT_ELEMENT__OPERATION_TYPE,
+        return (IfcTransportElementTypeEnum) eGet(Ifc2x3tc1Package.eINSTANCE.getIfcTransportElement_OperationType(),
                 true);
     }
 
@@ -77,7 +77,7 @@ public class IfcTransportElementImpl extends IfcElementImpl implements IfcTransp
      */
     @Override
     public void setOperationType(IfcTransportElementTypeEnum newOperationType) {
-        eSet(Ifc2x3tc1Package.Literals.IFC_TRANSPORT_ELEMENT__OPERATION_TYPE, newOperationType);
+        eSet(Ifc2x3tc1Package.eINSTANCE.getIfcTransportElement_OperationType(), newOperationType);
     }
 
     /**
@@ -87,7 +87,7 @@ public class IfcTransportElementImpl extends IfcElementImpl implements IfcTransp
      */
     @Override
     public void unsetOperationType() {
-        eUnset(Ifc2x3tc1Package.Literals.IFC_TRANSPORT_ELEMENT__OPERATION_TYPE);
+        eUnset(Ifc2x3tc1Package.eINSTANCE.getIfcTransportElement_OperationType());
     }
 
     /**
@@ -97,7 +97,7 @@ public class IfcTransportElementImpl extends IfcElementImpl implements IfcTransp
      */
     @Override
     public boolean isSetOperationType() {
-        return eIsSet(Ifc2x3tc1Package.Literals.IFC_TRANSPORT_ELEMENT__OPERATION_TYPE);
+        return eIsSet(Ifc2x3tc1Package.eINSTANCE.getIfcTransportElement_OperationType());
     }
 
     /**
@@ -107,7 +107,7 @@ public class IfcTransportElementImpl extends IfcElementImpl implements IfcTransp
      */
     @Override
     public double getCapacityByWeight() {
-        return (Double) eGet(Ifc2x3tc1Package.Literals.IFC_TRANSPORT_ELEMENT__CAPACITY_BY_WEIGHT, true);
+        return (Double) eGet(Ifc2x3tc1Package.eINSTANCE.getIfcTransportElement_CapacityByWeight(), true);
     }
 
     /**
@@ -117,7 +117,7 @@ public class IfcTransportElementImpl extends IfcElementImpl implements IfcTransp
      */
     @Override
     public void setCapacityByWeight(double newCapacityByWeight) {
-        eSet(Ifc2x3tc1Package.Literals.IFC_TRANSPORT_ELEMENT__CAPACITY_BY_WEIGHT, newCapacityByWeight);
+        eSet(Ifc2x3tc1Package.eINSTANCE.getIfcTransportElement_CapacityByWeight(), newCapacityByWeight);
     }
 
     /**
@@ -127,7 +127,7 @@ public class IfcTransportElementImpl extends IfcElementImpl implements IfcTransp
      */
     @Override
     public void unsetCapacityByWeight() {
-        eUnset(Ifc2x3tc1Package.Literals.IFC_TRANSPORT_ELEMENT__CAPACITY_BY_WEIGHT);
+        eUnset(Ifc2x3tc1Package.eINSTANCE.getIfcTransportElement_CapacityByWeight());
     }
 
     /**
@@ -137,7 +137,7 @@ public class IfcTransportElementImpl extends IfcElementImpl implements IfcTransp
      */
     @Override
     public boolean isSetCapacityByWeight() {
-        return eIsSet(Ifc2x3tc1Package.Literals.IFC_TRANSPORT_ELEMENT__CAPACITY_BY_WEIGHT);
+        return eIsSet(Ifc2x3tc1Package.eINSTANCE.getIfcTransportElement_CapacityByWeight());
     }
 
     /**
@@ -147,7 +147,7 @@ public class IfcTransportElementImpl extends IfcElementImpl implements IfcTransp
      */
     @Override
     public String getCapacityByWeightAsString() {
-        return (String) eGet(Ifc2x3tc1Package.Literals.IFC_TRANSPORT_ELEMENT__CAPACITY_BY_WEIGHT_AS_STRING, true);
+        return (String) eGet(Ifc2x3tc1Package.eINSTANCE.getIfcTransportElement_CapacityByWeightAsString(), true);
     }
 
     /**
@@ -157,8 +157,7 @@ public class IfcTransportElementImpl extends IfcElementImpl implements IfcTransp
      */
     @Override
     public void setCapacityByWeightAsString(String newCapacityByWeightAsString) {
-        eSet(Ifc2x3tc1Package.Literals.IFC_TRANSPORT_ELEMENT__CAPACITY_BY_WEIGHT_AS_STRING,
-                newCapacityByWeightAsString);
+        eSet(Ifc2x3tc1Package.eINSTANCE.getIfcTransportElement_CapacityByWeightAsString(), newCapacityByWeightAsString);
     }
 
     /**
@@ -168,7 +167,7 @@ public class IfcTransportElementImpl extends IfcElementImpl implements IfcTransp
      */
     @Override
     public void unsetCapacityByWeightAsString() {
-        eUnset(Ifc2x3tc1Package.Literals.IFC_TRANSPORT_ELEMENT__CAPACITY_BY_WEIGHT_AS_STRING);
+        eUnset(Ifc2x3tc1Package.eINSTANCE.getIfcTransportElement_CapacityByWeightAsString());
     }
 
     /**
@@ -178,7 +177,7 @@ public class IfcTransportElementImpl extends IfcElementImpl implements IfcTransp
      */
     @Override
     public boolean isSetCapacityByWeightAsString() {
-        return eIsSet(Ifc2x3tc1Package.Literals.IFC_TRANSPORT_ELEMENT__CAPACITY_BY_WEIGHT_AS_STRING);
+        return eIsSet(Ifc2x3tc1Package.eINSTANCE.getIfcTransportElement_CapacityByWeightAsString());
     }
 
     /**
@@ -188,7 +187,7 @@ public class IfcTransportElementImpl extends IfcElementImpl implements IfcTransp
      */
     @Override
     public double getCapacityByNumber() {
-        return (Double) eGet(Ifc2x3tc1Package.Literals.IFC_TRANSPORT_ELEMENT__CAPACITY_BY_NUMBER, true);
+        return (Double) eGet(Ifc2x3tc1Package.eINSTANCE.getIfcTransportElement_CapacityByNumber(), true);
     }
 
     /**
@@ -198,7 +197,7 @@ public class IfcTransportElementImpl extends IfcElementImpl implements IfcTransp
      */
     @Override
     public void setCapacityByNumber(double newCapacityByNumber) {
-        eSet(Ifc2x3tc1Package.Literals.IFC_TRANSPORT_ELEMENT__CAPACITY_BY_NUMBER, newCapacityByNumber);
+        eSet(Ifc2x3tc1Package.eINSTANCE.getIfcTransportElement_CapacityByNumber(), newCapacityByNumber);
     }
 
     /**
@@ -208,7 +207,7 @@ public class IfcTransportElementImpl extends IfcElementImpl implements IfcTransp
      */
     @Override
     public void unsetCapacityByNumber() {
-        eUnset(Ifc2x3tc1Package.Literals.IFC_TRANSPORT_ELEMENT__CAPACITY_BY_NUMBER);
+        eUnset(Ifc2x3tc1Package.eINSTANCE.getIfcTransportElement_CapacityByNumber());
     }
 
     /**
@@ -218,7 +217,7 @@ public class IfcTransportElementImpl extends IfcElementImpl implements IfcTransp
      */
     @Override
     public boolean isSetCapacityByNumber() {
-        return eIsSet(Ifc2x3tc1Package.Literals.IFC_TRANSPORT_ELEMENT__CAPACITY_BY_NUMBER);
+        return eIsSet(Ifc2x3tc1Package.eINSTANCE.getIfcTransportElement_CapacityByNumber());
     }
 
     /**
@@ -228,7 +227,7 @@ public class IfcTransportElementImpl extends IfcElementImpl implements IfcTransp
      */
     @Override
     public String getCapacityByNumberAsString() {
-        return (String) eGet(Ifc2x3tc1Package.Literals.IFC_TRANSPORT_ELEMENT__CAPACITY_BY_NUMBER_AS_STRING, true);
+        return (String) eGet(Ifc2x3tc1Package.eINSTANCE.getIfcTransportElement_CapacityByNumberAsString(), true);
     }
 
     /**
@@ -238,8 +237,7 @@ public class IfcTransportElementImpl extends IfcElementImpl implements IfcTransp
      */
     @Override
     public void setCapacityByNumberAsString(String newCapacityByNumberAsString) {
-        eSet(Ifc2x3tc1Package.Literals.IFC_TRANSPORT_ELEMENT__CAPACITY_BY_NUMBER_AS_STRING,
-                newCapacityByNumberAsString);
+        eSet(Ifc2x3tc1Package.eINSTANCE.getIfcTransportElement_CapacityByNumberAsString(), newCapacityByNumberAsString);
     }
 
     /**
@@ -249,7 +247,7 @@ public class IfcTransportElementImpl extends IfcElementImpl implements IfcTransp
      */
     @Override
     public void unsetCapacityByNumberAsString() {
-        eUnset(Ifc2x3tc1Package.Literals.IFC_TRANSPORT_ELEMENT__CAPACITY_BY_NUMBER_AS_STRING);
+        eUnset(Ifc2x3tc1Package.eINSTANCE.getIfcTransportElement_CapacityByNumberAsString());
     }
 
     /**
@@ -259,7 +257,7 @@ public class IfcTransportElementImpl extends IfcElementImpl implements IfcTransp
      */
     @Override
     public boolean isSetCapacityByNumberAsString() {
-        return eIsSet(Ifc2x3tc1Package.Literals.IFC_TRANSPORT_ELEMENT__CAPACITY_BY_NUMBER_AS_STRING);
+        return eIsSet(Ifc2x3tc1Package.eINSTANCE.getIfcTransportElement_CapacityByNumberAsString());
     }
 
 } //IfcTransportElementImpl

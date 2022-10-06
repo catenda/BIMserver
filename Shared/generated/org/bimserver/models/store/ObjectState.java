@@ -55,10 +55,6 @@ public enum ObjectState implements Enumerator {
     /**
      * The '<em><b>ACTIVE</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>ACTIVE</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #ACTIVE
      * @model
@@ -70,10 +66,6 @@ public enum ObjectState implements Enumerator {
     /**
      * The '<em><b>DELETED</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>DELETED</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #DELETED
      * @model

@@ -45,7 +45,7 @@ public class IfcColumnStandardCaseImpl extends IfcColumnImpl implements IfcColum
      */
     @Override
     protected EClass eStaticClass() {
-        return Ifc4Package.Literals.IFC_COLUMN_STANDARD_CASE;
+        return Ifc4Package.eINSTANCE.getIfcColumnStandardCase();
     }
 
 } //IfcColumnStandardCaseImpl

@@ -37,10 +37,6 @@ public interface IfcSweptDiskSolidPolygonal extends IfcSweptDiskSolid {
     /**
      * Returns the value of the '<em><b>Fillet Radius</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Fillet Radius</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Fillet Radius</em>' attribute.
      * @see #isSetFilletRadius()
@@ -90,10 +86,6 @@ public interface IfcSweptDiskSolidPolygonal extends IfcSweptDiskSolid {
     /**
      * Returns the value of the '<em><b>Fillet Radius As String</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Fillet Radius As String</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Fillet Radius As String</em>' attribute.
      * @see #isSetFilletRadiusAsString()

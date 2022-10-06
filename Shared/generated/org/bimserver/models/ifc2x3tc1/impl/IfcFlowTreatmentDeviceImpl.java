@@ -45,7 +45,7 @@ public class IfcFlowTreatmentDeviceImpl extends IfcDistributionFlowElementImpl i
      */
     @Override
     protected EClass eStaticClass() {
-        return Ifc2x3tc1Package.Literals.IFC_FLOW_TREATMENT_DEVICE;
+        return Ifc2x3tc1Package.eINSTANCE.getIfcFlowTreatmentDevice();
     }
 
 } //IfcFlowTreatmentDeviceImpl

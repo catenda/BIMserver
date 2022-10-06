@@ -53,7 +53,7 @@ public class IfcBoundaryConditionImpl extends IdEObjectImpl implements IfcBounda
      */
     @Override
     protected EClass eStaticClass() {
-        return Ifc2x3tc1Package.Literals.IFC_BOUNDARY_CONDITION;
+        return Ifc2x3tc1Package.eINSTANCE.getIfcBoundaryCondition();
     }
 
     /**
@@ -73,7 +73,7 @@ public class IfcBoundaryConditionImpl extends IdEObjectImpl implements IfcBounda
      */
     @Override
     public String getName() {
-        return (String) eGet(Ifc2x3tc1Package.Literals.IFC_BOUNDARY_CONDITION__NAME, true);
+        return (String) eGet(Ifc2x3tc1Package.eINSTANCE.getIfcBoundaryCondition_Name(), true);
     }
 
     /**
@@ -83,7 +83,7 @@ public class IfcBoundaryConditionImpl extends IdEObjectImpl implements IfcBounda
      */
     @Override
     public void setName(String newName) {
-        eSet(Ifc2x3tc1Package.Literals.IFC_BOUNDARY_CONDITION__NAME, newName);
+        eSet(Ifc2x3tc1Package.eINSTANCE.getIfcBoundaryCondition_Name(), newName);
     }
 
     /**
@@ -93,7 +93,7 @@ public class IfcBoundaryConditionImpl extends IdEObjectImpl implements IfcBounda
      */
     @Override
     public void unsetName() {
-        eUnset(Ifc2x3tc1Package.Literals.IFC_BOUNDARY_CONDITION__NAME);
+        eUnset(Ifc2x3tc1Package.eINSTANCE.getIfcBoundaryCondition_Name());
     }
 
     /**
@@ -103,7 +103,7 @@ public class IfcBoundaryConditionImpl extends IdEObjectImpl implements IfcBounda
      */
     @Override
     public boolean isSetName() {
-        return eIsSet(Ifc2x3tc1Package.Literals.IFC_BOUNDARY_CONDITION__NAME);
+        return eIsSet(Ifc2x3tc1Package.eINSTANCE.getIfcBoundaryCondition_Name());
     }
 
 } //IfcBoundaryConditionImpl

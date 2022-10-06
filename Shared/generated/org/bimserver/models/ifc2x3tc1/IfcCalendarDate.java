@@ -38,10 +38,6 @@ public interface IfcCalendarDate extends IfcDateTimeSelect, IfcObjectReferenceSe
     /**
      * Returns the value of the '<em><b>Day Component</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Day Component</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Day Component</em>' attribute.
      * @see #setDayComponent(long)
@@ -64,10 +60,6 @@ public interface IfcCalendarDate extends IfcDateTimeSelect, IfcObjectReferenceSe
     /**
      * Returns the value of the '<em><b>Month Component</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Month Component</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Month Component</em>' attribute.
      * @see #setMonthComponent(long)
@@ -90,10 +82,6 @@ public interface IfcCalendarDate extends IfcDateTimeSelect, IfcObjectReferenceSe
     /**
      * Returns the value of the '<em><b>Year Component</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Year Component</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Year Component</em>' attribute.
      * @see #setYearComponent(long)

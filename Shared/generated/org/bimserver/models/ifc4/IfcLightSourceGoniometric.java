@@ -43,10 +43,6 @@ public interface IfcLightSourceGoniometric extends IfcLightSource {
     /**
      * Returns the value of the '<em><b>Position</b></em>' reference.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Position</em>' reference isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Position</em>' reference.
      * @see #setPosition(IfcAxis2Placement3D)
@@ -69,10 +65,6 @@ public interface IfcLightSourceGoniometric extends IfcLightSource {
     /**
      * Returns the value of the '<em><b>Colour Appearance</b></em>' reference.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Colour Appearance</em>' reference isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Colour Appearance</em>' reference.
      * @see #isSetColourAppearance()
@@ -122,10 +114,6 @@ public interface IfcLightSourceGoniometric extends IfcLightSource {
     /**
      * Returns the value of the '<em><b>Colour Temperature</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Colour Temperature</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Colour Temperature</em>' attribute.
      * @see #setColourTemperature(double)
@@ -148,10 +136,6 @@ public interface IfcLightSourceGoniometric extends IfcLightSource {
     /**
      * Returns the value of the '<em><b>Colour Temperature As String</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Colour Temperature As String</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Colour Temperature As String</em>' attribute.
      * @see #setColourTemperatureAsString(String)
@@ -175,10 +159,6 @@ public interface IfcLightSourceGoniometric extends IfcLightSource {
     /**
      * Returns the value of the '<em><b>Luminous Flux</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Luminous Flux</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Luminous Flux</em>' attribute.
      * @see #setLuminousFlux(double)
@@ -201,10 +181,6 @@ public interface IfcLightSourceGoniometric extends IfcLightSource {
     /**
      * Returns the value of the '<em><b>Luminous Flux As String</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Luminous Flux As String</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Luminous Flux As String</em>' attribute.
      * @see #setLuminousFluxAsString(String)
@@ -229,10 +205,6 @@ public interface IfcLightSourceGoniometric extends IfcLightSource {
      * Returns the value of the '<em><b>Light Emission Source</b></em>' attribute.
      * The literals are from the enumeration {@link org.bimserver.models.ifc4.IfcLightEmissionSourceEnum}.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Light Emission Source</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Light Emission Source</em>' attribute.
      * @see org.bimserver.models.ifc4.IfcLightEmissionSourceEnum
@@ -257,10 +229,6 @@ public interface IfcLightSourceGoniometric extends IfcLightSource {
     /**
      * Returns the value of the '<em><b>Light Distribution Data Source</b></em>' reference.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Light Distribution Data Source</em>' reference isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Light Distribution Data Source</em>' reference.
      * @see #setLightDistributionDataSource(IfcLightDistributionDataSourceSelect)

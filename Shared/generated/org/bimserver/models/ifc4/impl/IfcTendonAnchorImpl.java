@@ -52,7 +52,7 @@ public class IfcTendonAnchorImpl extends IfcReinforcingElementImpl implements If
      */
     @Override
     protected EClass eStaticClass() {
-        return Ifc4Package.Literals.IFC_TENDON_ANCHOR;
+        return Ifc4Package.eINSTANCE.getIfcTendonAnchor();
     }
 
     /**
@@ -62,7 +62,7 @@ public class IfcTendonAnchorImpl extends IfcReinforcingElementImpl implements If
      */
     @Override
     public IfcTendonAnchorTypeEnum getPredefinedType() {
-        return (IfcTendonAnchorTypeEnum) eGet(Ifc4Package.Literals.IFC_TENDON_ANCHOR__PREDEFINED_TYPE, true);
+        return (IfcTendonAnchorTypeEnum) eGet(Ifc4Package.eINSTANCE.getIfcTendonAnchor_PredefinedType(), true);
     }
 
     /**
@@ -72,7 +72,7 @@ public class IfcTendonAnchorImpl extends IfcReinforcingElementImpl implements If
      */
     @Override
     public void setPredefinedType(IfcTendonAnchorTypeEnum newPredefinedType) {
-        eSet(Ifc4Package.Literals.IFC_TENDON_ANCHOR__PREDEFINED_TYPE, newPredefinedType);
+        eSet(Ifc4Package.eINSTANCE.getIfcTendonAnchor_PredefinedType(), newPredefinedType);
     }
 
     /**
@@ -82,7 +82,7 @@ public class IfcTendonAnchorImpl extends IfcReinforcingElementImpl implements If
      */
     @Override
     public void unsetPredefinedType() {
-        eUnset(Ifc4Package.Literals.IFC_TENDON_ANCHOR__PREDEFINED_TYPE);
+        eUnset(Ifc4Package.eINSTANCE.getIfcTendonAnchor_PredefinedType());
     }
 
     /**
@@ -92,7 +92,7 @@ public class IfcTendonAnchorImpl extends IfcReinforcingElementImpl implements If
      */
     @Override
     public boolean isSetPredefinedType() {
-        return eIsSet(Ifc4Package.Literals.IFC_TENDON_ANCHOR__PREDEFINED_TYPE);
+        return eIsSet(Ifc4Package.eINSTANCE.getIfcTendonAnchor_PredefinedType());
     }
 
 } //IfcTendonAnchorImpl

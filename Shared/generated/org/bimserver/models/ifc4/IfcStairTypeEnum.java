@@ -205,10 +205,6 @@ public enum IfcStairTypeEnum implements Enumerator {
     /**
      * The '<em><b>NULL</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>NULL</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #NULL
      * @model
@@ -220,10 +216,6 @@ public enum IfcStairTypeEnum implements Enumerator {
     /**
      * The '<em><b>QUARTER WINDING STAIR</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>QUARTER WINDING STAIR</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #QUARTER_WINDING_STAIR
      * @model
@@ -235,10 +227,6 @@ public enum IfcStairTypeEnum implements Enumerator {
     /**
      * The '<em><b>TWO STRAIGHT RUN STAIR</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>TWO STRAIGHT RUN STAIR</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #TWO_STRAIGHT_RUN_STAIR
      * @model
@@ -250,10 +238,6 @@ public enum IfcStairTypeEnum implements Enumerator {
     /**
      * The '<em><b>DOUBLE RETURN STAIR</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>DOUBLE RETURN STAIR</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #DOUBLE_RETURN_STAIR
      * @model
@@ -265,10 +249,6 @@ public enum IfcStairTypeEnum implements Enumerator {
     /**
      * The '<em><b>CURVED RUN STAIR</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>CURVED RUN STAIR</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #CURVED_RUN_STAIR
      * @model
@@ -280,10 +260,6 @@ public enum IfcStairTypeEnum implements Enumerator {
     /**
      * The '<em><b>STRAIGHT RUN STAIR</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>STRAIGHT RUN STAIR</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #STRAIGHT_RUN_STAIR
      * @model
@@ -295,10 +271,6 @@ public enum IfcStairTypeEnum implements Enumerator {
     /**
      * The '<em><b>HALF WINDING STAIR</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>HALF WINDING STAIR</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #HALF_WINDING_STAIR
      * @model
@@ -310,10 +282,6 @@ public enum IfcStairTypeEnum implements Enumerator {
     /**
      * The '<em><b>USERDEFINED</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>USERDEFINED</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #USERDEFINED
      * @model
@@ -325,10 +293,6 @@ public enum IfcStairTypeEnum implements Enumerator {
     /**
      * The '<em><b>TWO CURVED RUN STAIR</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>TWO CURVED RUN STAIR</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #TWO_CURVED_RUN_STAIR
      * @model
@@ -340,10 +304,6 @@ public enum IfcStairTypeEnum implements Enumerator {
     /**
      * The '<em><b>QUARTER TURN STAIR</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>QUARTER TURN STAIR</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #QUARTER_TURN_STAIR
      * @model
@@ -355,10 +315,6 @@ public enum IfcStairTypeEnum implements Enumerator {
     /**
      * The '<em><b>THREE QUARTER TURN STAIR</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>THREE QUARTER TURN STAIR</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #THREE_QUARTER_TURN_STAIR
      * @model
@@ -370,10 +326,6 @@ public enum IfcStairTypeEnum implements Enumerator {
     /**
      * The '<em><b>NOTDEFINED</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>NOTDEFINED</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #NOTDEFINED
      * @model
@@ -385,10 +337,6 @@ public enum IfcStairTypeEnum implements Enumerator {
     /**
      * The '<em><b>SPIRAL STAIR</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>SPIRAL STAIR</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #SPIRAL_STAIR
      * @model
@@ -400,10 +348,6 @@ public enum IfcStairTypeEnum implements Enumerator {
     /**
      * The '<em><b>HALF TURN STAIR</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>HALF TURN STAIR</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #HALF_TURN_STAIR
      * @model
@@ -415,10 +359,6 @@ public enum IfcStairTypeEnum implements Enumerator {
     /**
      * The '<em><b>THREE QUARTER WINDING STAIR</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>THREE QUARTER WINDING STAIR</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #THREE_QUARTER_WINDING_STAIR
      * @model
@@ -430,10 +370,6 @@ public enum IfcStairTypeEnum implements Enumerator {
     /**
      * The '<em><b>TWO QUARTER WINDING STAIR</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>TWO QUARTER WINDING STAIR</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #TWO_QUARTER_WINDING_STAIR
      * @model
@@ -445,10 +381,6 @@ public enum IfcStairTypeEnum implements Enumerator {
     /**
      * The '<em><b>TWO QUARTER TURN STAIR</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>TWO QUARTER TURN STAIR</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #TWO_QUARTER_TURN_STAIR
      * @model

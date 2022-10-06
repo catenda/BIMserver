@@ -58,7 +58,7 @@ public class IfcProductRepresentationImpl extends IdEObjectImpl implements IfcPr
      */
     @Override
     protected EClass eStaticClass() {
-        return Ifc4Package.Literals.IFC_PRODUCT_REPRESENTATION;
+        return Ifc4Package.eINSTANCE.getIfcProductRepresentation();
     }
 
     /**
@@ -78,7 +78,7 @@ public class IfcProductRepresentationImpl extends IdEObjectImpl implements IfcPr
      */
     @Override
     public String getName() {
-        return (String) eGet(Ifc4Package.Literals.IFC_PRODUCT_REPRESENTATION__NAME, true);
+        return (String) eGet(Ifc4Package.eINSTANCE.getIfcProductRepresentation_Name(), true);
     }
 
     /**
@@ -88,7 +88,7 @@ public class IfcProductRepresentationImpl extends IdEObjectImpl implements IfcPr
      */
     @Override
     public void setName(String newName) {
-        eSet(Ifc4Package.Literals.IFC_PRODUCT_REPRESENTATION__NAME, newName);
+        eSet(Ifc4Package.eINSTANCE.getIfcProductRepresentation_Name(), newName);
     }
 
     /**
@@ -98,7 +98,7 @@ public class IfcProductRepresentationImpl extends IdEObjectImpl implements IfcPr
      */
     @Override
     public void unsetName() {
-        eUnset(Ifc4Package.Literals.IFC_PRODUCT_REPRESENTATION__NAME);
+        eUnset(Ifc4Package.eINSTANCE.getIfcProductRepresentation_Name());
     }
 
     /**
@@ -108,7 +108,7 @@ public class IfcProductRepresentationImpl extends IdEObjectImpl implements IfcPr
      */
     @Override
     public boolean isSetName() {
-        return eIsSet(Ifc4Package.Literals.IFC_PRODUCT_REPRESENTATION__NAME);
+        return eIsSet(Ifc4Package.eINSTANCE.getIfcProductRepresentation_Name());
     }
 
     /**
@@ -118,7 +118,7 @@ public class IfcProductRepresentationImpl extends IdEObjectImpl implements IfcPr
      */
     @Override
     public String getDescription() {
-        return (String) eGet(Ifc4Package.Literals.IFC_PRODUCT_REPRESENTATION__DESCRIPTION, true);
+        return (String) eGet(Ifc4Package.eINSTANCE.getIfcProductRepresentation_Description(), true);
     }
 
     /**
@@ -128,7 +128,7 @@ public class IfcProductRepresentationImpl extends IdEObjectImpl implements IfcPr
      */
     @Override
     public void setDescription(String newDescription) {
-        eSet(Ifc4Package.Literals.IFC_PRODUCT_REPRESENTATION__DESCRIPTION, newDescription);
+        eSet(Ifc4Package.eINSTANCE.getIfcProductRepresentation_Description(), newDescription);
     }
 
     /**
@@ -138,7 +138,7 @@ public class IfcProductRepresentationImpl extends IdEObjectImpl implements IfcPr
      */
     @Override
     public void unsetDescription() {
-        eUnset(Ifc4Package.Literals.IFC_PRODUCT_REPRESENTATION__DESCRIPTION);
+        eUnset(Ifc4Package.eINSTANCE.getIfcProductRepresentation_Description());
     }
 
     /**
@@ -148,7 +148,7 @@ public class IfcProductRepresentationImpl extends IdEObjectImpl implements IfcPr
      */
     @Override
     public boolean isSetDescription() {
-        return eIsSet(Ifc4Package.Literals.IFC_PRODUCT_REPRESENTATION__DESCRIPTION);
+        return eIsSet(Ifc4Package.eINSTANCE.getIfcProductRepresentation_Description());
     }
 
     /**
@@ -159,7 +159,8 @@ public class IfcProductRepresentationImpl extends IdEObjectImpl implements IfcPr
     @SuppressWarnings("unchecked")
     @Override
     public EList<IfcRepresentation> getRepresentations() {
-        return (EList<IfcRepresentation>) eGet(Ifc4Package.Literals.IFC_PRODUCT_REPRESENTATION__REPRESENTATIONS, true);
+        return (EList<IfcRepresentation>) eGet(Ifc4Package.eINSTANCE.getIfcProductRepresentation_Representations(),
+                true);
     }
 
 } //IfcProductRepresentationImpl

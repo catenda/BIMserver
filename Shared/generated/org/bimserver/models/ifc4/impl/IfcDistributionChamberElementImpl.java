@@ -53,7 +53,7 @@ public class IfcDistributionChamberElementImpl extends IfcDistributionFlowElemen
      */
     @Override
     protected EClass eStaticClass() {
-        return Ifc4Package.Literals.IFC_DISTRIBUTION_CHAMBER_ELEMENT;
+        return Ifc4Package.eINSTANCE.getIfcDistributionChamberElement();
     }
 
     /**
@@ -64,7 +64,7 @@ public class IfcDistributionChamberElementImpl extends IfcDistributionFlowElemen
     @Override
     public IfcDistributionChamberElementTypeEnum getPredefinedType() {
         return (IfcDistributionChamberElementTypeEnum) eGet(
-                Ifc4Package.Literals.IFC_DISTRIBUTION_CHAMBER_ELEMENT__PREDEFINED_TYPE, true);
+                Ifc4Package.eINSTANCE.getIfcDistributionChamberElement_PredefinedType(), true);
     }
 
     /**
@@ -74,7 +74,7 @@ public class IfcDistributionChamberElementImpl extends IfcDistributionFlowElemen
      */
     @Override
     public void setPredefinedType(IfcDistributionChamberElementTypeEnum newPredefinedType) {
-        eSet(Ifc4Package.Literals.IFC_DISTRIBUTION_CHAMBER_ELEMENT__PREDEFINED_TYPE, newPredefinedType);
+        eSet(Ifc4Package.eINSTANCE.getIfcDistributionChamberElement_PredefinedType(), newPredefinedType);
     }
 
     /**
@@ -84,7 +84,7 @@ public class IfcDistributionChamberElementImpl extends IfcDistributionFlowElemen
      */
     @Override
     public void unsetPredefinedType() {
-        eUnset(Ifc4Package.Literals.IFC_DISTRIBUTION_CHAMBER_ELEMENT__PREDEFINED_TYPE);
+        eUnset(Ifc4Package.eINSTANCE.getIfcDistributionChamberElement_PredefinedType());
     }
 
     /**
@@ -94,7 +94,7 @@ public class IfcDistributionChamberElementImpl extends IfcDistributionFlowElemen
      */
     @Override
     public boolean isSetPredefinedType() {
-        return eIsSet(Ifc4Package.Literals.IFC_DISTRIBUTION_CHAMBER_ELEMENT__PREDEFINED_TYPE);
+        return eIsSet(Ifc4Package.eINSTANCE.getIfcDistributionChamberElement_PredefinedType());
     }
 
 } //IfcDistributionChamberElementImpl

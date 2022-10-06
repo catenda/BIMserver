@@ -58,7 +58,7 @@ public class IfcSurfaceCurveImpl extends IfcCurveImpl implements IfcSurfaceCurve
      */
     @Override
     protected EClass eStaticClass() {
-        return Ifc4Package.Literals.IFC_SURFACE_CURVE;
+        return Ifc4Package.eINSTANCE.getIfcSurfaceCurve();
     }
 
     /**
@@ -68,7 +68,7 @@ public class IfcSurfaceCurveImpl extends IfcCurveImpl implements IfcSurfaceCurve
      */
     @Override
     public IfcCurve getCurve3D() {
-        return (IfcCurve) eGet(Ifc4Package.Literals.IFC_SURFACE_CURVE__CURVE3_D, true);
+        return (IfcCurve) eGet(Ifc4Package.eINSTANCE.getIfcSurfaceCurve_Curve3D(), true);
     }
 
     /**
@@ -78,7 +78,7 @@ public class IfcSurfaceCurveImpl extends IfcCurveImpl implements IfcSurfaceCurve
      */
     @Override
     public void setCurve3D(IfcCurve newCurve3D) {
-        eSet(Ifc4Package.Literals.IFC_SURFACE_CURVE__CURVE3_D, newCurve3D);
+        eSet(Ifc4Package.eINSTANCE.getIfcSurfaceCurve_Curve3D(), newCurve3D);
     }
 
     /**
@@ -89,7 +89,7 @@ public class IfcSurfaceCurveImpl extends IfcCurveImpl implements IfcSurfaceCurve
     @SuppressWarnings("unchecked")
     @Override
     public EList<IfcPcurve> getAssociatedGeometry() {
-        return (EList<IfcPcurve>) eGet(Ifc4Package.Literals.IFC_SURFACE_CURVE__ASSOCIATED_GEOMETRY, true);
+        return (EList<IfcPcurve>) eGet(Ifc4Package.eINSTANCE.getIfcSurfaceCurve_AssociatedGeometry(), true);
     }
 
     /**
@@ -100,7 +100,7 @@ public class IfcSurfaceCurveImpl extends IfcCurveImpl implements IfcSurfaceCurve
     @Override
     public IfcPreferredSurfaceCurveRepresentation getMasterRepresentation() {
         return (IfcPreferredSurfaceCurveRepresentation) eGet(
-                Ifc4Package.Literals.IFC_SURFACE_CURVE__MASTER_REPRESENTATION, true);
+                Ifc4Package.eINSTANCE.getIfcSurfaceCurve_MasterRepresentation(), true);
     }
 
     /**
@@ -110,7 +110,7 @@ public class IfcSurfaceCurveImpl extends IfcCurveImpl implements IfcSurfaceCurve
      */
     @Override
     public void setMasterRepresentation(IfcPreferredSurfaceCurveRepresentation newMasterRepresentation) {
-        eSet(Ifc4Package.Literals.IFC_SURFACE_CURVE__MASTER_REPRESENTATION, newMasterRepresentation);
+        eSet(Ifc4Package.eINSTANCE.getIfcSurfaceCurve_MasterRepresentation(), newMasterRepresentation);
     }
 
 } //IfcSurfaceCurveImpl

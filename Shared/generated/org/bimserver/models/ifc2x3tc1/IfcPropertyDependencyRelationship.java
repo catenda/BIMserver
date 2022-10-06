@@ -44,10 +44,6 @@ public interface IfcPropertyDependencyRelationship extends IdEObject {
      * Returns the value of the '<em><b>Depending Property</b></em>' reference.
      * It is bidirectional and its opposite is '{@link org.bimserver.models.ifc2x3tc1.IfcProperty#getPropertyForDependance <em>Property For Dependance</em>}'.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Depending Property</em>' reference isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Depending Property</em>' reference.
      * @see #setDependingProperty(IfcProperty)
@@ -73,10 +69,6 @@ public interface IfcPropertyDependencyRelationship extends IdEObject {
      * Returns the value of the '<em><b>Dependant Property</b></em>' reference.
      * It is bidirectional and its opposite is '{@link org.bimserver.models.ifc2x3tc1.IfcProperty#getPropertyDependsOn <em>Property Depends On</em>}'.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Dependant Property</em>' reference isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Dependant Property</em>' reference.
      * @see #setDependantProperty(IfcProperty)
@@ -101,10 +93,6 @@ public interface IfcPropertyDependencyRelationship extends IdEObject {
     /**
      * Returns the value of the '<em><b>Name</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Name</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Name</em>' attribute.
      * @see #isSetName()
@@ -154,10 +142,6 @@ public interface IfcPropertyDependencyRelationship extends IdEObject {
     /**
      * Returns the value of the '<em><b>Description</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Description</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Description</em>' attribute.
      * @see #isSetDescription()
@@ -207,10 +191,6 @@ public interface IfcPropertyDependencyRelationship extends IdEObject {
     /**
      * Returns the value of the '<em><b>Expression</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Expression</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Expression</em>' attribute.
      * @see #isSetExpression()

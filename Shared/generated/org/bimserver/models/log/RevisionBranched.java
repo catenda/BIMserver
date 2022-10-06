@@ -39,10 +39,6 @@ public interface RevisionBranched extends LogAction {
     /**
      * Returns the value of the '<em><b>Oldrevision</b></em>' reference.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Oldrevision</em>' reference isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Oldrevision</em>' reference.
      * @see #setOldrevision(Revision)
@@ -65,10 +61,6 @@ public interface RevisionBranched extends LogAction {
     /**
      * Returns the value of the '<em><b>Newrevision</b></em>' reference.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Newrevision</em>' reference isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Newrevision</em>' reference.
      * @see #setNewrevision(Revision)

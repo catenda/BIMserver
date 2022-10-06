@@ -56,7 +56,7 @@ public class IfcConstructionResourceTypeImpl extends IfcTypeResourceImpl impleme
      */
     @Override
     protected EClass eStaticClass() {
-        return Ifc4Package.Literals.IFC_CONSTRUCTION_RESOURCE_TYPE;
+        return Ifc4Package.eINSTANCE.getIfcConstructionResourceType();
     }
 
     /**
@@ -67,7 +67,7 @@ public class IfcConstructionResourceTypeImpl extends IfcTypeResourceImpl impleme
     @SuppressWarnings("unchecked")
     @Override
     public EList<IfcAppliedValue> getBaseCosts() {
-        return (EList<IfcAppliedValue>) eGet(Ifc4Package.Literals.IFC_CONSTRUCTION_RESOURCE_TYPE__BASE_COSTS, true);
+        return (EList<IfcAppliedValue>) eGet(Ifc4Package.eINSTANCE.getIfcConstructionResourceType_BaseCosts(), true);
     }
 
     /**
@@ -77,7 +77,7 @@ public class IfcConstructionResourceTypeImpl extends IfcTypeResourceImpl impleme
      */
     @Override
     public void unsetBaseCosts() {
-        eUnset(Ifc4Package.Literals.IFC_CONSTRUCTION_RESOURCE_TYPE__BASE_COSTS);
+        eUnset(Ifc4Package.eINSTANCE.getIfcConstructionResourceType_BaseCosts());
     }
 
     /**
@@ -87,7 +87,7 @@ public class IfcConstructionResourceTypeImpl extends IfcTypeResourceImpl impleme
      */
     @Override
     public boolean isSetBaseCosts() {
-        return eIsSet(Ifc4Package.Literals.IFC_CONSTRUCTION_RESOURCE_TYPE__BASE_COSTS);
+        return eIsSet(Ifc4Package.eINSTANCE.getIfcConstructionResourceType_BaseCosts());
     }
 
     /**
@@ -97,7 +97,7 @@ public class IfcConstructionResourceTypeImpl extends IfcTypeResourceImpl impleme
      */
     @Override
     public IfcPhysicalQuantity getBaseQuantity() {
-        return (IfcPhysicalQuantity) eGet(Ifc4Package.Literals.IFC_CONSTRUCTION_RESOURCE_TYPE__BASE_QUANTITY, true);
+        return (IfcPhysicalQuantity) eGet(Ifc4Package.eINSTANCE.getIfcConstructionResourceType_BaseQuantity(), true);
     }
 
     /**
@@ -107,7 +107,7 @@ public class IfcConstructionResourceTypeImpl extends IfcTypeResourceImpl impleme
      */
     @Override
     public void setBaseQuantity(IfcPhysicalQuantity newBaseQuantity) {
-        eSet(Ifc4Package.Literals.IFC_CONSTRUCTION_RESOURCE_TYPE__BASE_QUANTITY, newBaseQuantity);
+        eSet(Ifc4Package.eINSTANCE.getIfcConstructionResourceType_BaseQuantity(), newBaseQuantity);
     }
 
     /**
@@ -117,7 +117,7 @@ public class IfcConstructionResourceTypeImpl extends IfcTypeResourceImpl impleme
      */
     @Override
     public void unsetBaseQuantity() {
-        eUnset(Ifc4Package.Literals.IFC_CONSTRUCTION_RESOURCE_TYPE__BASE_QUANTITY);
+        eUnset(Ifc4Package.eINSTANCE.getIfcConstructionResourceType_BaseQuantity());
     }
 
     /**
@@ -127,7 +127,7 @@ public class IfcConstructionResourceTypeImpl extends IfcTypeResourceImpl impleme
      */
     @Override
     public boolean isSetBaseQuantity() {
-        return eIsSet(Ifc4Package.Literals.IFC_CONSTRUCTION_RESOURCE_TYPE__BASE_QUANTITY);
+        return eIsSet(Ifc4Package.eINSTANCE.getIfcConstructionResourceType_BaseQuantity());
     }
 
 } //IfcConstructionResourceTypeImpl

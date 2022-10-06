@@ -43,10 +43,6 @@ public interface IfcTable extends IfcMetricValueSelect, IfcObjectReferenceSelect
     /**
      * Returns the value of the '<em><b>Name</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Name</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Name</em>' attribute.
      * @see #isSetName()
@@ -97,10 +93,6 @@ public interface IfcTable extends IfcMetricValueSelect, IfcObjectReferenceSelect
      * Returns the value of the '<em><b>Rows</b></em>' reference list.
      * The list contents are of type {@link org.bimserver.models.ifc4.IfcTableRow}.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Rows</em>' reference list isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Rows</em>' reference list.
      * @see #isSetRows()
@@ -136,10 +128,6 @@ public interface IfcTable extends IfcMetricValueSelect, IfcObjectReferenceSelect
      * Returns the value of the '<em><b>Columns</b></em>' reference list.
      * The list contents are of type {@link org.bimserver.models.ifc4.IfcTableColumn}.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Columns</em>' reference list isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Columns</em>' reference list.
      * @see #isSetColumns()
@@ -174,10 +162,6 @@ public interface IfcTable extends IfcMetricValueSelect, IfcObjectReferenceSelect
     /**
      * Returns the value of the '<em><b>Number Of Cells In Row</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Number Of Cells In Row</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Number Of Cells In Row</em>' attribute.
      * @see #isSetNumberOfCellsInRow()
@@ -228,10 +212,6 @@ public interface IfcTable extends IfcMetricValueSelect, IfcObjectReferenceSelect
     /**
      * Returns the value of the '<em><b>Number Of Data Rows</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Number Of Data Rows</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Number Of Data Rows</em>' attribute.
      * @see #isSetNumberOfDataRows()
@@ -282,10 +262,6 @@ public interface IfcTable extends IfcMetricValueSelect, IfcObjectReferenceSelect
     /**
      * Returns the value of the '<em><b>Number Of Headings</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Number Of Headings</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Number Of Headings</em>' attribute.
      * @see #isSetNumberOfHeadings()

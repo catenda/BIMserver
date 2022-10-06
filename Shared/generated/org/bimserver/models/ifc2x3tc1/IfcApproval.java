@@ -50,10 +50,6 @@ public interface IfcApproval extends IdEObject {
     /**
      * Returns the value of the '<em><b>Description</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Description</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Description</em>' attribute.
      * @see #isSetDescription()
@@ -103,10 +99,6 @@ public interface IfcApproval extends IdEObject {
     /**
      * Returns the value of the '<em><b>Approval Date Time</b></em>' reference.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Approval Date Time</em>' reference isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Approval Date Time</em>' reference.
      * @see #setApprovalDateTime(IfcDateTimeSelect)
@@ -129,10 +121,6 @@ public interface IfcApproval extends IdEObject {
     /**
      * Returns the value of the '<em><b>Approval Status</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Approval Status</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Approval Status</em>' attribute.
      * @see #isSetApprovalStatus()
@@ -182,10 +170,6 @@ public interface IfcApproval extends IdEObject {
     /**
      * Returns the value of the '<em><b>Approval Level</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Approval Level</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Approval Level</em>' attribute.
      * @see #isSetApprovalLevel()
@@ -235,10 +219,6 @@ public interface IfcApproval extends IdEObject {
     /**
      * Returns the value of the '<em><b>Approval Qualifier</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Approval Qualifier</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Approval Qualifier</em>' attribute.
      * @see #isSetApprovalQualifier()
@@ -288,10 +268,6 @@ public interface IfcApproval extends IdEObject {
     /**
      * Returns the value of the '<em><b>Name</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Name</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Name</em>' attribute.
      * @see #setName(String)
@@ -314,10 +290,6 @@ public interface IfcApproval extends IdEObject {
     /**
      * Returns the value of the '<em><b>Identifier</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Identifier</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Identifier</em>' attribute.
      * @see #setIdentifier(String)
@@ -342,10 +314,6 @@ public interface IfcApproval extends IdEObject {
      * The list contents are of type {@link org.bimserver.models.ifc2x3tc1.IfcApprovalActorRelationship}.
      * It is bidirectional and its opposite is '{@link org.bimserver.models.ifc2x3tc1.IfcApprovalActorRelationship#getApproval <em>Approval</em>}'.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Actors</em>' reference list isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Actors</em>' reference list.
      * @see #isSetActors()
@@ -384,10 +352,6 @@ public interface IfcApproval extends IdEObject {
      * The list contents are of type {@link org.bimserver.models.ifc2x3tc1.IfcApprovalRelationship}.
      * It is bidirectional and its opposite is '{@link org.bimserver.models.ifc2x3tc1.IfcApprovalRelationship#getRelatedApproval <em>Related Approval</em>}'.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Is Related With</em>' reference list isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Is Related With</em>' reference list.
      * @see #isSetIsRelatedWith()
@@ -426,10 +390,6 @@ public interface IfcApproval extends IdEObject {
      * The list contents are of type {@link org.bimserver.models.ifc2x3tc1.IfcApprovalRelationship}.
      * It is bidirectional and its opposite is '{@link org.bimserver.models.ifc2x3tc1.IfcApprovalRelationship#getRelatingApproval <em>Relating Approval</em>}'.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Relates</em>' reference list isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Relates</em>' reference list.
      * @see #isSetRelates()

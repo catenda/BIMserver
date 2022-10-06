@@ -54,7 +54,7 @@ public class IfcRelVoidsElementImpl extends IfcRelConnectsImpl implements IfcRel
      */
     @Override
     protected EClass eStaticClass() {
-        return Ifc2x3tc1Package.Literals.IFC_REL_VOIDS_ELEMENT;
+        return Ifc2x3tc1Package.eINSTANCE.getIfcRelVoidsElement();
     }
 
     /**
@@ -64,7 +64,7 @@ public class IfcRelVoidsElementImpl extends IfcRelConnectsImpl implements IfcRel
      */
     @Override
     public IfcElement getRelatingBuildingElement() {
-        return (IfcElement) eGet(Ifc2x3tc1Package.Literals.IFC_REL_VOIDS_ELEMENT__RELATING_BUILDING_ELEMENT, true);
+        return (IfcElement) eGet(Ifc2x3tc1Package.eINSTANCE.getIfcRelVoidsElement_RelatingBuildingElement(), true);
     }
 
     /**
@@ -74,7 +74,7 @@ public class IfcRelVoidsElementImpl extends IfcRelConnectsImpl implements IfcRel
      */
     @Override
     public void setRelatingBuildingElement(IfcElement newRelatingBuildingElement) {
-        eSet(Ifc2x3tc1Package.Literals.IFC_REL_VOIDS_ELEMENT__RELATING_BUILDING_ELEMENT, newRelatingBuildingElement);
+        eSet(Ifc2x3tc1Package.eINSTANCE.getIfcRelVoidsElement_RelatingBuildingElement(), newRelatingBuildingElement);
     }
 
     /**
@@ -85,7 +85,7 @@ public class IfcRelVoidsElementImpl extends IfcRelConnectsImpl implements IfcRel
     @Override
     public IfcFeatureElementSubtraction getRelatedOpeningElement() {
         return (IfcFeatureElementSubtraction) eGet(
-                Ifc2x3tc1Package.Literals.IFC_REL_VOIDS_ELEMENT__RELATED_OPENING_ELEMENT, true);
+                Ifc2x3tc1Package.eINSTANCE.getIfcRelVoidsElement_RelatedOpeningElement(), true);
     }
 
     /**
@@ -95,7 +95,7 @@ public class IfcRelVoidsElementImpl extends IfcRelConnectsImpl implements IfcRel
      */
     @Override
     public void setRelatedOpeningElement(IfcFeatureElementSubtraction newRelatedOpeningElement) {
-        eSet(Ifc2x3tc1Package.Literals.IFC_REL_VOIDS_ELEMENT__RELATED_OPENING_ELEMENT, newRelatedOpeningElement);
+        eSet(Ifc2x3tc1Package.eINSTANCE.getIfcRelVoidsElement_RelatedOpeningElement(), newRelatedOpeningElement);
     }
 
 } //IfcRelVoidsElementImpl

@@ -60,7 +60,7 @@ public class IfcPersonAndOrganizationImpl extends IdEObjectImpl implements IfcPe
      */
     @Override
     protected EClass eStaticClass() {
-        return Ifc2x3tc1Package.Literals.IFC_PERSON_AND_ORGANIZATION;
+        return Ifc2x3tc1Package.eINSTANCE.getIfcPersonAndOrganization();
     }
 
     /**
@@ -80,7 +80,7 @@ public class IfcPersonAndOrganizationImpl extends IdEObjectImpl implements IfcPe
      */
     @Override
     public IfcPerson getThePerson() {
-        return (IfcPerson) eGet(Ifc2x3tc1Package.Literals.IFC_PERSON_AND_ORGANIZATION__THE_PERSON, true);
+        return (IfcPerson) eGet(Ifc2x3tc1Package.eINSTANCE.getIfcPersonAndOrganization_ThePerson(), true);
     }
 
     /**
@@ -90,7 +90,7 @@ public class IfcPersonAndOrganizationImpl extends IdEObjectImpl implements IfcPe
      */
     @Override
     public void setThePerson(IfcPerson newThePerson) {
-        eSet(Ifc2x3tc1Package.Literals.IFC_PERSON_AND_ORGANIZATION__THE_PERSON, newThePerson);
+        eSet(Ifc2x3tc1Package.eINSTANCE.getIfcPersonAndOrganization_ThePerson(), newThePerson);
     }
 
     /**
@@ -100,7 +100,7 @@ public class IfcPersonAndOrganizationImpl extends IdEObjectImpl implements IfcPe
      */
     @Override
     public IfcOrganization getTheOrganization() {
-        return (IfcOrganization) eGet(Ifc2x3tc1Package.Literals.IFC_PERSON_AND_ORGANIZATION__THE_ORGANIZATION, true);
+        return (IfcOrganization) eGet(Ifc2x3tc1Package.eINSTANCE.getIfcPersonAndOrganization_TheOrganization(), true);
     }
 
     /**
@@ -110,7 +110,7 @@ public class IfcPersonAndOrganizationImpl extends IdEObjectImpl implements IfcPe
      */
     @Override
     public void setTheOrganization(IfcOrganization newTheOrganization) {
-        eSet(Ifc2x3tc1Package.Literals.IFC_PERSON_AND_ORGANIZATION__THE_ORGANIZATION, newTheOrganization);
+        eSet(Ifc2x3tc1Package.eINSTANCE.getIfcPersonAndOrganization_TheOrganization(), newTheOrganization);
     }
 
     /**
@@ -121,7 +121,7 @@ public class IfcPersonAndOrganizationImpl extends IdEObjectImpl implements IfcPe
     @SuppressWarnings("unchecked")
     @Override
     public EList<IfcActorRole> getRoles() {
-        return (EList<IfcActorRole>) eGet(Ifc2x3tc1Package.Literals.IFC_PERSON_AND_ORGANIZATION__ROLES, true);
+        return (EList<IfcActorRole>) eGet(Ifc2x3tc1Package.eINSTANCE.getIfcPersonAndOrganization_Roles(), true);
     }
 
     /**
@@ -131,7 +131,7 @@ public class IfcPersonAndOrganizationImpl extends IdEObjectImpl implements IfcPe
      */
     @Override
     public void unsetRoles() {
-        eUnset(Ifc2x3tc1Package.Literals.IFC_PERSON_AND_ORGANIZATION__ROLES);
+        eUnset(Ifc2x3tc1Package.eINSTANCE.getIfcPersonAndOrganization_Roles());
     }
 
     /**
@@ -141,7 +141,7 @@ public class IfcPersonAndOrganizationImpl extends IdEObjectImpl implements IfcPe
      */
     @Override
     public boolean isSetRoles() {
-        return eIsSet(Ifc2x3tc1Package.Literals.IFC_PERSON_AND_ORGANIZATION__ROLES);
+        return eIsSet(Ifc2x3tc1Package.eINSTANCE.getIfcPersonAndOrganization_Roles());
     }
 
 } //IfcPersonAndOrganizationImpl

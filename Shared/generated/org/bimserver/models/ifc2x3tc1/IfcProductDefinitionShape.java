@@ -40,10 +40,6 @@ public interface IfcProductDefinitionShape extends IfcProductRepresentation {
      * Returns the value of the '<em><b>Shape Of Product</b></em>' reference list.
      * The list contents are of type {@link org.bimserver.models.ifc2x3tc1.IfcProduct}.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Shape Of Product</em>' reference list isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Shape Of Product</em>' reference list.
      * @see #isSetShapeOfProduct()
@@ -81,10 +77,6 @@ public interface IfcProductDefinitionShape extends IfcProductRepresentation {
      * The list contents are of type {@link org.bimserver.models.ifc2x3tc1.IfcShapeAspect}.
      * It is bidirectional and its opposite is '{@link org.bimserver.models.ifc2x3tc1.IfcShapeAspect#getPartOfProductDefinitionShape <em>Part Of Product Definition Shape</em>}'.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Has Shape Aspects</em>' reference list isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Has Shape Aspects</em>' reference list.
      * @see #isSetHasShapeAspects()

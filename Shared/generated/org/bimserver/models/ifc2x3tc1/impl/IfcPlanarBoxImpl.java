@@ -52,7 +52,7 @@ public class IfcPlanarBoxImpl extends IfcPlanarExtentImpl implements IfcPlanarBo
      */
     @Override
     protected EClass eStaticClass() {
-        return Ifc2x3tc1Package.Literals.IFC_PLANAR_BOX;
+        return Ifc2x3tc1Package.eINSTANCE.getIfcPlanarBox();
     }
 
     /**
@@ -62,7 +62,7 @@ public class IfcPlanarBoxImpl extends IfcPlanarExtentImpl implements IfcPlanarBo
      */
     @Override
     public IfcAxis2Placement getPlacement() {
-        return (IfcAxis2Placement) eGet(Ifc2x3tc1Package.Literals.IFC_PLANAR_BOX__PLACEMENT, true);
+        return (IfcAxis2Placement) eGet(Ifc2x3tc1Package.eINSTANCE.getIfcPlanarBox_Placement(), true);
     }
 
     /**
@@ -72,7 +72,7 @@ public class IfcPlanarBoxImpl extends IfcPlanarExtentImpl implements IfcPlanarBo
      */
     @Override
     public void setPlacement(IfcAxis2Placement newPlacement) {
-        eSet(Ifc2x3tc1Package.Literals.IFC_PLANAR_BOX__PLACEMENT, newPlacement);
+        eSet(Ifc2x3tc1Package.eINSTANCE.getIfcPlanarBox_Placement(), newPlacement);
     }
 
 } //IfcPlanarBoxImpl

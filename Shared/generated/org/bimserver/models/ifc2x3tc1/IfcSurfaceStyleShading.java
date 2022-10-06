@@ -36,10 +36,6 @@ public interface IfcSurfaceStyleShading extends IfcSurfaceStyleElementSelect {
     /**
      * Returns the value of the '<em><b>Surface Colour</b></em>' reference.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Surface Colour</em>' reference isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Surface Colour</em>' reference.
      * @see #setSurfaceColour(IfcColourRgb)

@@ -45,7 +45,7 @@ public class IfcBuildingElementPartImpl extends IfcBuildingElementComponentImpl 
      */
     @Override
     protected EClass eStaticClass() {
-        return Ifc2x3tc1Package.Literals.IFC_BUILDING_ELEMENT_PART;
+        return Ifc2x3tc1Package.eINSTANCE.getIfcBuildingElementPart();
     }
 
 } //IfcBuildingElementPartImpl

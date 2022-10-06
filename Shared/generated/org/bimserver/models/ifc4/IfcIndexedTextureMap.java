@@ -38,10 +38,6 @@ public interface IfcIndexedTextureMap extends IfcTextureCoordinate {
      * Returns the value of the '<em><b>Mapped To</b></em>' reference.
      * It is bidirectional and its opposite is '{@link org.bimserver.models.ifc4.IfcTessellatedFaceSet#getHasTextures <em>Has Textures</em>}'.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Mapped To</em>' reference isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Mapped To</em>' reference.
      * @see #setMappedTo(IfcTessellatedFaceSet)
@@ -66,10 +62,6 @@ public interface IfcIndexedTextureMap extends IfcTextureCoordinate {
     /**
      * Returns the value of the '<em><b>Tex Coords</b></em>' reference.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Tex Coords</em>' reference isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Tex Coords</em>' reference.
      * @see #setTexCoords(IfcTextureVertexList)

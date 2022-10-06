@@ -37,10 +37,6 @@ public interface IfcLagTime extends IfcSchedulingTime {
     /**
      * Returns the value of the '<em><b>Lag Value</b></em>' reference.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Lag Value</em>' reference isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Lag Value</em>' reference.
      * @see #setLagValue(IfcTimeOrRatioSelect)
@@ -64,10 +60,6 @@ public interface IfcLagTime extends IfcSchedulingTime {
      * Returns the value of the '<em><b>Duration Type</b></em>' attribute.
      * The literals are from the enumeration {@link org.bimserver.models.ifc4.IfcTaskDurationEnum}.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Duration Type</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Duration Type</em>' attribute.
      * @see org.bimserver.models.ifc4.IfcTaskDurationEnum

@@ -54,7 +54,7 @@ public class IfcNullStyleImpl extends IdEObjectImpl implements IfcNullStyle {
      */
     @Override
     protected EClass eStaticClass() {
-        return Ifc2x3tc1Package.Literals.IFC_NULL_STYLE;
+        return Ifc2x3tc1Package.eINSTANCE.getIfcNullStyle();
     }
 
     /**
@@ -74,7 +74,7 @@ public class IfcNullStyleImpl extends IdEObjectImpl implements IfcNullStyle {
      */
     @Override
     public IfcNullStyleEnum getWrappedValue() {
-        return (IfcNullStyleEnum) eGet(Ifc2x3tc1Package.Literals.IFC_NULL_STYLE__WRAPPED_VALUE, true);
+        return (IfcNullStyleEnum) eGet(Ifc2x3tc1Package.eINSTANCE.getIfcNullStyle_WrappedValue(), true);
     }
 
     /**
@@ -84,7 +84,7 @@ public class IfcNullStyleImpl extends IdEObjectImpl implements IfcNullStyle {
      */
     @Override
     public void setWrappedValue(IfcNullStyleEnum newWrappedValue) {
-        eSet(Ifc2x3tc1Package.Literals.IFC_NULL_STYLE__WRAPPED_VALUE, newWrappedValue);
+        eSet(Ifc2x3tc1Package.eINSTANCE.getIfcNullStyle_WrappedValue(), newWrappedValue);
     }
 
 } //IfcNullStyleImpl

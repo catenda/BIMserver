@@ -52,7 +52,7 @@ public class IfcDuctSilencerImpl extends IfcFlowTreatmentDeviceImpl implements I
      */
     @Override
     protected EClass eStaticClass() {
-        return Ifc4Package.Literals.IFC_DUCT_SILENCER;
+        return Ifc4Package.eINSTANCE.getIfcDuctSilencer();
     }
 
     /**
@@ -62,7 +62,7 @@ public class IfcDuctSilencerImpl extends IfcFlowTreatmentDeviceImpl implements I
      */
     @Override
     public IfcDuctSilencerTypeEnum getPredefinedType() {
-        return (IfcDuctSilencerTypeEnum) eGet(Ifc4Package.Literals.IFC_DUCT_SILENCER__PREDEFINED_TYPE, true);
+        return (IfcDuctSilencerTypeEnum) eGet(Ifc4Package.eINSTANCE.getIfcDuctSilencer_PredefinedType(), true);
     }
 
     /**
@@ -72,7 +72,7 @@ public class IfcDuctSilencerImpl extends IfcFlowTreatmentDeviceImpl implements I
      */
     @Override
     public void setPredefinedType(IfcDuctSilencerTypeEnum newPredefinedType) {
-        eSet(Ifc4Package.Literals.IFC_DUCT_SILENCER__PREDEFINED_TYPE, newPredefinedType);
+        eSet(Ifc4Package.eINSTANCE.getIfcDuctSilencer_PredefinedType(), newPredefinedType);
     }
 
     /**
@@ -82,7 +82,7 @@ public class IfcDuctSilencerImpl extends IfcFlowTreatmentDeviceImpl implements I
      */
     @Override
     public void unsetPredefinedType() {
-        eUnset(Ifc4Package.Literals.IFC_DUCT_SILENCER__PREDEFINED_TYPE);
+        eUnset(Ifc4Package.eINSTANCE.getIfcDuctSilencer_PredefinedType());
     }
 
     /**
@@ -92,7 +92,7 @@ public class IfcDuctSilencerImpl extends IfcFlowTreatmentDeviceImpl implements I
      */
     @Override
     public boolean isSetPredefinedType() {
-        return eIsSet(Ifc4Package.Literals.IFC_DUCT_SILENCER__PREDEFINED_TYPE);
+        return eIsSet(Ifc4Package.eINSTANCE.getIfcDuctSilencer_PredefinedType());
     }
 
 } //IfcDuctSilencerImpl

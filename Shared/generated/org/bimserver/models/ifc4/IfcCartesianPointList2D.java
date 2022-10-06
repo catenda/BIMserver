@@ -35,15 +35,10 @@ import org.eclipse.emf.common.util.EList;
  * @generated
  */
 public interface IfcCartesianPointList2D extends IfcCartesianPointList {
-
     /**
      * Returns the value of the '<em><b>Coord List</b></em>' reference list.
      * The list contents are of type {@link org.bimserver.models.ifc4.ListOfIfcLengthMeasure}.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Coord List</em>' reference list isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Coord List</em>' reference list.
      * @see org.bimserver.models.ifc4.Ifc4Package#getIfcCartesianPointList2D_CoordList()
@@ -51,4 +46,5 @@ public interface IfcCartesianPointList2D extends IfcCartesianPointList {
      * @generated
      */
     EList<ListOfIfcLengthMeasure> getCoordList();
+
 } // IfcCartesianPointList2D

@@ -41,10 +41,6 @@ public interface IfcCompositeCurve extends IfcBoundedCurve {
      * The list contents are of type {@link org.bimserver.models.ifc2x3tc1.IfcCompositeCurveSegment}.
      * It is bidirectional and its opposite is '{@link org.bimserver.models.ifc2x3tc1.IfcCompositeCurveSegment#getUsingCurves <em>Using Curves</em>}'.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Segments</em>' reference list isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Segments</em>' reference list.
      * @see org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package#getIfcCompositeCurve_Segments()
@@ -58,10 +54,6 @@ public interface IfcCompositeCurve extends IfcBoundedCurve {
     /**
      * Returns the value of the '<em><b>Self Intersect</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Self Intersect</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Self Intersect</em>' attribute.
      * @see #setSelfIntersect(boolean)

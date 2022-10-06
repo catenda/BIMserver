@@ -45,7 +45,7 @@ public class IfcCivilElementImpl extends IfcElementImpl implements IfcCivilEleme
      */
     @Override
     protected EClass eStaticClass() {
-        return Ifc4Package.Literals.IFC_CIVIL_ELEMENT;
+        return Ifc4Package.eINSTANCE.getIfcCivilElement();
     }
 
 } //IfcCivilElementImpl

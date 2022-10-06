@@ -56,7 +56,7 @@ public class IfcStructuralMemberImpl extends IfcStructuralItemImpl implements If
      */
     @Override
     protected EClass eStaticClass() {
-        return Ifc2x3tc1Package.Literals.IFC_STRUCTURAL_MEMBER;
+        return Ifc2x3tc1Package.eINSTANCE.getIfcStructuralMember();
     }
 
     /**
@@ -68,7 +68,7 @@ public class IfcStructuralMemberImpl extends IfcStructuralItemImpl implements If
     @Override
     public EList<IfcRelConnectsStructuralElement> getReferencesElement() {
         return (EList<IfcRelConnectsStructuralElement>) eGet(
-                Ifc2x3tc1Package.Literals.IFC_STRUCTURAL_MEMBER__REFERENCES_ELEMENT, true);
+                Ifc2x3tc1Package.eINSTANCE.getIfcStructuralMember_ReferencesElement(), true);
     }
 
     /**
@@ -78,7 +78,7 @@ public class IfcStructuralMemberImpl extends IfcStructuralItemImpl implements If
      */
     @Override
     public void unsetReferencesElement() {
-        eUnset(Ifc2x3tc1Package.Literals.IFC_STRUCTURAL_MEMBER__REFERENCES_ELEMENT);
+        eUnset(Ifc2x3tc1Package.eINSTANCE.getIfcStructuralMember_ReferencesElement());
     }
 
     /**
@@ -88,7 +88,7 @@ public class IfcStructuralMemberImpl extends IfcStructuralItemImpl implements If
      */
     @Override
     public boolean isSetReferencesElement() {
-        return eIsSet(Ifc2x3tc1Package.Literals.IFC_STRUCTURAL_MEMBER__REFERENCES_ELEMENT);
+        return eIsSet(Ifc2x3tc1Package.eINSTANCE.getIfcStructuralMember_ReferencesElement());
     }
 
     /**
@@ -100,7 +100,7 @@ public class IfcStructuralMemberImpl extends IfcStructuralItemImpl implements If
     @Override
     public EList<IfcRelConnectsStructuralMember> getConnectedBy() {
         return (EList<IfcRelConnectsStructuralMember>) eGet(
-                Ifc2x3tc1Package.Literals.IFC_STRUCTURAL_MEMBER__CONNECTED_BY, true);
+                Ifc2x3tc1Package.eINSTANCE.getIfcStructuralMember_ConnectedBy(), true);
     }
 
     /**
@@ -110,7 +110,7 @@ public class IfcStructuralMemberImpl extends IfcStructuralItemImpl implements If
      */
     @Override
     public void unsetConnectedBy() {
-        eUnset(Ifc2x3tc1Package.Literals.IFC_STRUCTURAL_MEMBER__CONNECTED_BY);
+        eUnset(Ifc2x3tc1Package.eINSTANCE.getIfcStructuralMember_ConnectedBy());
     }
 
     /**
@@ -120,7 +120,7 @@ public class IfcStructuralMemberImpl extends IfcStructuralItemImpl implements If
      */
     @Override
     public boolean isSetConnectedBy() {
-        return eIsSet(Ifc2x3tc1Package.Literals.IFC_STRUCTURAL_MEMBER__CONNECTED_BY);
+        return eIsSet(Ifc2x3tc1Package.eINSTANCE.getIfcStructuralMember_ConnectedBy());
     }
 
 } //IfcStructuralMemberImpl

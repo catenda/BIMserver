@@ -59,7 +59,7 @@ public class IfcFixedReferenceSweptAreaSolidImpl extends IfcSweptAreaSolidImpl
      */
     @Override
     protected EClass eStaticClass() {
-        return Ifc4Package.Literals.IFC_FIXED_REFERENCE_SWEPT_AREA_SOLID;
+        return Ifc4Package.eINSTANCE.getIfcFixedReferenceSweptAreaSolid();
     }
 
     /**
@@ -69,7 +69,7 @@ public class IfcFixedReferenceSweptAreaSolidImpl extends IfcSweptAreaSolidImpl
      */
     @Override
     public IfcCurve getDirectrix() {
-        return (IfcCurve) eGet(Ifc4Package.Literals.IFC_FIXED_REFERENCE_SWEPT_AREA_SOLID__DIRECTRIX, true);
+        return (IfcCurve) eGet(Ifc4Package.eINSTANCE.getIfcFixedReferenceSweptAreaSolid_Directrix(), true);
     }
 
     /**
@@ -79,7 +79,7 @@ public class IfcFixedReferenceSweptAreaSolidImpl extends IfcSweptAreaSolidImpl
      */
     @Override
     public void setDirectrix(IfcCurve newDirectrix) {
-        eSet(Ifc4Package.Literals.IFC_FIXED_REFERENCE_SWEPT_AREA_SOLID__DIRECTRIX, newDirectrix);
+        eSet(Ifc4Package.eINSTANCE.getIfcFixedReferenceSweptAreaSolid_Directrix(), newDirectrix);
     }
 
     /**
@@ -89,7 +89,7 @@ public class IfcFixedReferenceSweptAreaSolidImpl extends IfcSweptAreaSolidImpl
      */
     @Override
     public double getStartParam() {
-        return (Double) eGet(Ifc4Package.Literals.IFC_FIXED_REFERENCE_SWEPT_AREA_SOLID__START_PARAM, true);
+        return (Double) eGet(Ifc4Package.eINSTANCE.getIfcFixedReferenceSweptAreaSolid_StartParam(), true);
     }
 
     /**
@@ -99,7 +99,7 @@ public class IfcFixedReferenceSweptAreaSolidImpl extends IfcSweptAreaSolidImpl
      */
     @Override
     public void setStartParam(double newStartParam) {
-        eSet(Ifc4Package.Literals.IFC_FIXED_REFERENCE_SWEPT_AREA_SOLID__START_PARAM, newStartParam);
+        eSet(Ifc4Package.eINSTANCE.getIfcFixedReferenceSweptAreaSolid_StartParam(), newStartParam);
     }
 
     /**
@@ -109,7 +109,7 @@ public class IfcFixedReferenceSweptAreaSolidImpl extends IfcSweptAreaSolidImpl
      */
     @Override
     public void unsetStartParam() {
-        eUnset(Ifc4Package.Literals.IFC_FIXED_REFERENCE_SWEPT_AREA_SOLID__START_PARAM);
+        eUnset(Ifc4Package.eINSTANCE.getIfcFixedReferenceSweptAreaSolid_StartParam());
     }
 
     /**
@@ -119,7 +119,7 @@ public class IfcFixedReferenceSweptAreaSolidImpl extends IfcSweptAreaSolidImpl
      */
     @Override
     public boolean isSetStartParam() {
-        return eIsSet(Ifc4Package.Literals.IFC_FIXED_REFERENCE_SWEPT_AREA_SOLID__START_PARAM);
+        return eIsSet(Ifc4Package.eINSTANCE.getIfcFixedReferenceSweptAreaSolid_StartParam());
     }
 
     /**
@@ -129,7 +129,7 @@ public class IfcFixedReferenceSweptAreaSolidImpl extends IfcSweptAreaSolidImpl
      */
     @Override
     public String getStartParamAsString() {
-        return (String) eGet(Ifc4Package.Literals.IFC_FIXED_REFERENCE_SWEPT_AREA_SOLID__START_PARAM_AS_STRING, true);
+        return (String) eGet(Ifc4Package.eINSTANCE.getIfcFixedReferenceSweptAreaSolid_StartParamAsString(), true);
     }
 
     /**
@@ -139,7 +139,7 @@ public class IfcFixedReferenceSweptAreaSolidImpl extends IfcSweptAreaSolidImpl
      */
     @Override
     public void setStartParamAsString(String newStartParamAsString) {
-        eSet(Ifc4Package.Literals.IFC_FIXED_REFERENCE_SWEPT_AREA_SOLID__START_PARAM_AS_STRING, newStartParamAsString);
+        eSet(Ifc4Package.eINSTANCE.getIfcFixedReferenceSweptAreaSolid_StartParamAsString(), newStartParamAsString);
     }
 
     /**
@@ -149,7 +149,7 @@ public class IfcFixedReferenceSweptAreaSolidImpl extends IfcSweptAreaSolidImpl
      */
     @Override
     public void unsetStartParamAsString() {
-        eUnset(Ifc4Package.Literals.IFC_FIXED_REFERENCE_SWEPT_AREA_SOLID__START_PARAM_AS_STRING);
+        eUnset(Ifc4Package.eINSTANCE.getIfcFixedReferenceSweptAreaSolid_StartParamAsString());
     }
 
     /**
@@ -159,7 +159,7 @@ public class IfcFixedReferenceSweptAreaSolidImpl extends IfcSweptAreaSolidImpl
      */
     @Override
     public boolean isSetStartParamAsString() {
-        return eIsSet(Ifc4Package.Literals.IFC_FIXED_REFERENCE_SWEPT_AREA_SOLID__START_PARAM_AS_STRING);
+        return eIsSet(Ifc4Package.eINSTANCE.getIfcFixedReferenceSweptAreaSolid_StartParamAsString());
     }
 
     /**
@@ -169,7 +169,7 @@ public class IfcFixedReferenceSweptAreaSolidImpl extends IfcSweptAreaSolidImpl
      */
     @Override
     public double getEndParam() {
-        return (Double) eGet(Ifc4Package.Literals.IFC_FIXED_REFERENCE_SWEPT_AREA_SOLID__END_PARAM, true);
+        return (Double) eGet(Ifc4Package.eINSTANCE.getIfcFixedReferenceSweptAreaSolid_EndParam(), true);
     }
 
     /**
@@ -179,7 +179,7 @@ public class IfcFixedReferenceSweptAreaSolidImpl extends IfcSweptAreaSolidImpl
      */
     @Override
     public void setEndParam(double newEndParam) {
-        eSet(Ifc4Package.Literals.IFC_FIXED_REFERENCE_SWEPT_AREA_SOLID__END_PARAM, newEndParam);
+        eSet(Ifc4Package.eINSTANCE.getIfcFixedReferenceSweptAreaSolid_EndParam(), newEndParam);
     }
 
     /**
@@ -189,7 +189,7 @@ public class IfcFixedReferenceSweptAreaSolidImpl extends IfcSweptAreaSolidImpl
      */
     @Override
     public void unsetEndParam() {
-        eUnset(Ifc4Package.Literals.IFC_FIXED_REFERENCE_SWEPT_AREA_SOLID__END_PARAM);
+        eUnset(Ifc4Package.eINSTANCE.getIfcFixedReferenceSweptAreaSolid_EndParam());
     }
 
     /**
@@ -199,7 +199,7 @@ public class IfcFixedReferenceSweptAreaSolidImpl extends IfcSweptAreaSolidImpl
      */
     @Override
     public boolean isSetEndParam() {
-        return eIsSet(Ifc4Package.Literals.IFC_FIXED_REFERENCE_SWEPT_AREA_SOLID__END_PARAM);
+        return eIsSet(Ifc4Package.eINSTANCE.getIfcFixedReferenceSweptAreaSolid_EndParam());
     }
 
     /**
@@ -209,7 +209,7 @@ public class IfcFixedReferenceSweptAreaSolidImpl extends IfcSweptAreaSolidImpl
      */
     @Override
     public String getEndParamAsString() {
-        return (String) eGet(Ifc4Package.Literals.IFC_FIXED_REFERENCE_SWEPT_AREA_SOLID__END_PARAM_AS_STRING, true);
+        return (String) eGet(Ifc4Package.eINSTANCE.getIfcFixedReferenceSweptAreaSolid_EndParamAsString(), true);
     }
 
     /**
@@ -219,7 +219,7 @@ public class IfcFixedReferenceSweptAreaSolidImpl extends IfcSweptAreaSolidImpl
      */
     @Override
     public void setEndParamAsString(String newEndParamAsString) {
-        eSet(Ifc4Package.Literals.IFC_FIXED_REFERENCE_SWEPT_AREA_SOLID__END_PARAM_AS_STRING, newEndParamAsString);
+        eSet(Ifc4Package.eINSTANCE.getIfcFixedReferenceSweptAreaSolid_EndParamAsString(), newEndParamAsString);
     }
 
     /**
@@ -229,7 +229,7 @@ public class IfcFixedReferenceSweptAreaSolidImpl extends IfcSweptAreaSolidImpl
      */
     @Override
     public void unsetEndParamAsString() {
-        eUnset(Ifc4Package.Literals.IFC_FIXED_REFERENCE_SWEPT_AREA_SOLID__END_PARAM_AS_STRING);
+        eUnset(Ifc4Package.eINSTANCE.getIfcFixedReferenceSweptAreaSolid_EndParamAsString());
     }
 
     /**
@@ -239,7 +239,7 @@ public class IfcFixedReferenceSweptAreaSolidImpl extends IfcSweptAreaSolidImpl
      */
     @Override
     public boolean isSetEndParamAsString() {
-        return eIsSet(Ifc4Package.Literals.IFC_FIXED_REFERENCE_SWEPT_AREA_SOLID__END_PARAM_AS_STRING);
+        return eIsSet(Ifc4Package.eINSTANCE.getIfcFixedReferenceSweptAreaSolid_EndParamAsString());
     }
 
     /**
@@ -249,7 +249,7 @@ public class IfcFixedReferenceSweptAreaSolidImpl extends IfcSweptAreaSolidImpl
      */
     @Override
     public IfcDirection getFixedReference() {
-        return (IfcDirection) eGet(Ifc4Package.Literals.IFC_FIXED_REFERENCE_SWEPT_AREA_SOLID__FIXED_REFERENCE, true);
+        return (IfcDirection) eGet(Ifc4Package.eINSTANCE.getIfcFixedReferenceSweptAreaSolid_FixedReference(), true);
     }
 
     /**
@@ -259,7 +259,7 @@ public class IfcFixedReferenceSweptAreaSolidImpl extends IfcSweptAreaSolidImpl
      */
     @Override
     public void setFixedReference(IfcDirection newFixedReference) {
-        eSet(Ifc4Package.Literals.IFC_FIXED_REFERENCE_SWEPT_AREA_SOLID__FIXED_REFERENCE, newFixedReference);
+        eSet(Ifc4Package.eINSTANCE.getIfcFixedReferenceSweptAreaSolid_FixedReference(), newFixedReference);
     }
 
 } //IfcFixedReferenceSweptAreaSolidImpl

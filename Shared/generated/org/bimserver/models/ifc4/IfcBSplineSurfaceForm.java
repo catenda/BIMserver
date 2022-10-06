@@ -155,10 +155,6 @@ public enum IfcBSplineSurfaceForm implements Enumerator {
     /**
      * The '<em><b>NULL</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>NULL</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #NULL
      * @model
@@ -170,10 +166,6 @@ public enum IfcBSplineSurfaceForm implements Enumerator {
     /**
      * The '<em><b>SURF OF REVOLUTION</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>SURF OF REVOLUTION</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #SURF_OF_REVOLUTION
      * @model
@@ -185,10 +177,6 @@ public enum IfcBSplineSurfaceForm implements Enumerator {
     /**
      * The '<em><b>UNSPECIFIED</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>UNSPECIFIED</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #UNSPECIFIED
      * @model
@@ -200,10 +188,6 @@ public enum IfcBSplineSurfaceForm implements Enumerator {
     /**
      * The '<em><b>TOROIDAL SURF</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>TOROIDAL SURF</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #TOROIDAL_SURF
      * @model
@@ -215,10 +199,6 @@ public enum IfcBSplineSurfaceForm implements Enumerator {
     /**
      * The '<em><b>CONICAL SURF</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>CONICAL SURF</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #CONICAL_SURF
      * @model
@@ -230,10 +210,6 @@ public enum IfcBSplineSurfaceForm implements Enumerator {
     /**
      * The '<em><b>QUADRIC SURF</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>QUADRIC SURF</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #QUADRIC_SURF
      * @model
@@ -245,10 +221,6 @@ public enum IfcBSplineSurfaceForm implements Enumerator {
     /**
      * The '<em><b>SURF OF LINEAR EXTRUSION</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>SURF OF LINEAR EXTRUSION</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #SURF_OF_LINEAR_EXTRUSION
      * @model
@@ -260,10 +232,6 @@ public enum IfcBSplineSurfaceForm implements Enumerator {
     /**
      * The '<em><b>GENERALISED CONE</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>GENERALISED CONE</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #GENERALISED_CONE
      * @model
@@ -275,10 +243,6 @@ public enum IfcBSplineSurfaceForm implements Enumerator {
     /**
      * The '<em><b>SPHERICAL SURF</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>SPHERICAL SURF</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #SPHERICAL_SURF
      * @model
@@ -290,10 +254,6 @@ public enum IfcBSplineSurfaceForm implements Enumerator {
     /**
      * The '<em><b>RULED SURF</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>RULED SURF</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #RULED_SURF
      * @model
@@ -305,10 +265,6 @@ public enum IfcBSplineSurfaceForm implements Enumerator {
     /**
      * The '<em><b>CYLINDRICAL SURF</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>CYLINDRICAL SURF</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #CYLINDRICAL_SURF
      * @model
@@ -320,10 +276,6 @@ public enum IfcBSplineSurfaceForm implements Enumerator {
     /**
      * The '<em><b>PLANE SURF</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>PLANE SURF</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #PLANE_SURF
      * @model

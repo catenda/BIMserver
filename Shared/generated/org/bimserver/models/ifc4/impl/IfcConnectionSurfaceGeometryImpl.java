@@ -54,7 +54,7 @@ public class IfcConnectionSurfaceGeometryImpl extends IfcConnectionGeometryImpl
      */
     @Override
     protected EClass eStaticClass() {
-        return Ifc4Package.Literals.IFC_CONNECTION_SURFACE_GEOMETRY;
+        return Ifc4Package.eINSTANCE.getIfcConnectionSurfaceGeometry();
     }
 
     /**
@@ -65,7 +65,7 @@ public class IfcConnectionSurfaceGeometryImpl extends IfcConnectionGeometryImpl
     @Override
     public IfcSurfaceOrFaceSurface getSurfaceOnRelatingElement() {
         return (IfcSurfaceOrFaceSurface) eGet(
-                Ifc4Package.Literals.IFC_CONNECTION_SURFACE_GEOMETRY__SURFACE_ON_RELATING_ELEMENT, true);
+                Ifc4Package.eINSTANCE.getIfcConnectionSurfaceGeometry_SurfaceOnRelatingElement(), true);
     }
 
     /**
@@ -75,7 +75,7 @@ public class IfcConnectionSurfaceGeometryImpl extends IfcConnectionGeometryImpl
      */
     @Override
     public void setSurfaceOnRelatingElement(IfcSurfaceOrFaceSurface newSurfaceOnRelatingElement) {
-        eSet(Ifc4Package.Literals.IFC_CONNECTION_SURFACE_GEOMETRY__SURFACE_ON_RELATING_ELEMENT,
+        eSet(Ifc4Package.eINSTANCE.getIfcConnectionSurfaceGeometry_SurfaceOnRelatingElement(),
                 newSurfaceOnRelatingElement);
     }
 
@@ -87,7 +87,7 @@ public class IfcConnectionSurfaceGeometryImpl extends IfcConnectionGeometryImpl
     @Override
     public IfcSurfaceOrFaceSurface getSurfaceOnRelatedElement() {
         return (IfcSurfaceOrFaceSurface) eGet(
-                Ifc4Package.Literals.IFC_CONNECTION_SURFACE_GEOMETRY__SURFACE_ON_RELATED_ELEMENT, true);
+                Ifc4Package.eINSTANCE.getIfcConnectionSurfaceGeometry_SurfaceOnRelatedElement(), true);
     }
 
     /**
@@ -97,7 +97,7 @@ public class IfcConnectionSurfaceGeometryImpl extends IfcConnectionGeometryImpl
      */
     @Override
     public void setSurfaceOnRelatedElement(IfcSurfaceOrFaceSurface newSurfaceOnRelatedElement) {
-        eSet(Ifc4Package.Literals.IFC_CONNECTION_SURFACE_GEOMETRY__SURFACE_ON_RELATED_ELEMENT,
+        eSet(Ifc4Package.eINSTANCE.getIfcConnectionSurfaceGeometry_SurfaceOnRelatedElement(),
                 newSurfaceOnRelatedElement);
     }
 
@@ -108,7 +108,7 @@ public class IfcConnectionSurfaceGeometryImpl extends IfcConnectionGeometryImpl
      */
     @Override
     public void unsetSurfaceOnRelatedElement() {
-        eUnset(Ifc4Package.Literals.IFC_CONNECTION_SURFACE_GEOMETRY__SURFACE_ON_RELATED_ELEMENT);
+        eUnset(Ifc4Package.eINSTANCE.getIfcConnectionSurfaceGeometry_SurfaceOnRelatedElement());
     }
 
     /**
@@ -118,7 +118,7 @@ public class IfcConnectionSurfaceGeometryImpl extends IfcConnectionGeometryImpl
      */
     @Override
     public boolean isSetSurfaceOnRelatedElement() {
-        return eIsSet(Ifc4Package.Literals.IFC_CONNECTION_SURFACE_GEOMETRY__SURFACE_ON_RELATED_ELEMENT);
+        return eIsSet(Ifc4Package.eINSTANCE.getIfcConnectionSurfaceGeometry_SurfaceOnRelatedElement());
     }
 
 } //IfcConnectionSurfaceGeometryImpl

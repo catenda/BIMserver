@@ -57,7 +57,7 @@ public class IfcProcessImpl extends IfcObjectImpl implements IfcProcess {
      */
     @Override
     protected EClass eStaticClass() {
-        return Ifc2x3tc1Package.Literals.IFC_PROCESS;
+        return Ifc2x3tc1Package.eINSTANCE.getIfcProcess();
     }
 
     /**
@@ -68,7 +68,7 @@ public class IfcProcessImpl extends IfcObjectImpl implements IfcProcess {
     @SuppressWarnings("unchecked")
     @Override
     public EList<IfcRelAssignsToProcess> getOperatesOn() {
-        return (EList<IfcRelAssignsToProcess>) eGet(Ifc2x3tc1Package.Literals.IFC_PROCESS__OPERATES_ON, true);
+        return (EList<IfcRelAssignsToProcess>) eGet(Ifc2x3tc1Package.eINSTANCE.getIfcProcess_OperatesOn(), true);
     }
 
     /**
@@ -78,7 +78,7 @@ public class IfcProcessImpl extends IfcObjectImpl implements IfcProcess {
      */
     @Override
     public void unsetOperatesOn() {
-        eUnset(Ifc2x3tc1Package.Literals.IFC_PROCESS__OPERATES_ON);
+        eUnset(Ifc2x3tc1Package.eINSTANCE.getIfcProcess_OperatesOn());
     }
 
     /**
@@ -88,7 +88,7 @@ public class IfcProcessImpl extends IfcObjectImpl implements IfcProcess {
      */
     @Override
     public boolean isSetOperatesOn() {
-        return eIsSet(Ifc2x3tc1Package.Literals.IFC_PROCESS__OPERATES_ON);
+        return eIsSet(Ifc2x3tc1Package.eINSTANCE.getIfcProcess_OperatesOn());
     }
 
     /**
@@ -99,7 +99,7 @@ public class IfcProcessImpl extends IfcObjectImpl implements IfcProcess {
     @SuppressWarnings("unchecked")
     @Override
     public EList<IfcRelSequence> getIsSuccessorFrom() {
-        return (EList<IfcRelSequence>) eGet(Ifc2x3tc1Package.Literals.IFC_PROCESS__IS_SUCCESSOR_FROM, true);
+        return (EList<IfcRelSequence>) eGet(Ifc2x3tc1Package.eINSTANCE.getIfcProcess_IsSuccessorFrom(), true);
     }
 
     /**
@@ -109,7 +109,7 @@ public class IfcProcessImpl extends IfcObjectImpl implements IfcProcess {
      */
     @Override
     public void unsetIsSuccessorFrom() {
-        eUnset(Ifc2x3tc1Package.Literals.IFC_PROCESS__IS_SUCCESSOR_FROM);
+        eUnset(Ifc2x3tc1Package.eINSTANCE.getIfcProcess_IsSuccessorFrom());
     }
 
     /**
@@ -119,7 +119,7 @@ public class IfcProcessImpl extends IfcObjectImpl implements IfcProcess {
      */
     @Override
     public boolean isSetIsSuccessorFrom() {
-        return eIsSet(Ifc2x3tc1Package.Literals.IFC_PROCESS__IS_SUCCESSOR_FROM);
+        return eIsSet(Ifc2x3tc1Package.eINSTANCE.getIfcProcess_IsSuccessorFrom());
     }
 
     /**
@@ -130,7 +130,7 @@ public class IfcProcessImpl extends IfcObjectImpl implements IfcProcess {
     @SuppressWarnings("unchecked")
     @Override
     public EList<IfcRelSequence> getIsPredecessorTo() {
-        return (EList<IfcRelSequence>) eGet(Ifc2x3tc1Package.Literals.IFC_PROCESS__IS_PREDECESSOR_TO, true);
+        return (EList<IfcRelSequence>) eGet(Ifc2x3tc1Package.eINSTANCE.getIfcProcess_IsPredecessorTo(), true);
     }
 
     /**
@@ -140,7 +140,7 @@ public class IfcProcessImpl extends IfcObjectImpl implements IfcProcess {
      */
     @Override
     public void unsetIsPredecessorTo() {
-        eUnset(Ifc2x3tc1Package.Literals.IFC_PROCESS__IS_PREDECESSOR_TO);
+        eUnset(Ifc2x3tc1Package.eINSTANCE.getIfcProcess_IsPredecessorTo());
     }
 
     /**
@@ -150,7 +150,7 @@ public class IfcProcessImpl extends IfcObjectImpl implements IfcProcess {
      */
     @Override
     public boolean isSetIsPredecessorTo() {
-        return eIsSet(Ifc2x3tc1Package.Literals.IFC_PROCESS__IS_PREDECESSOR_TO);
+        return eIsSet(Ifc2x3tc1Package.eINSTANCE.getIfcProcess_IsPredecessorTo());
     }
 
 } //IfcProcessImpl

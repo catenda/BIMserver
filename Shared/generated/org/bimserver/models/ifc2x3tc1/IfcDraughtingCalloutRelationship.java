@@ -42,10 +42,6 @@ public interface IfcDraughtingCalloutRelationship extends IdEObject {
     /**
      * Returns the value of the '<em><b>Name</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Name</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Name</em>' attribute.
      * @see #isSetName()
@@ -95,10 +91,6 @@ public interface IfcDraughtingCalloutRelationship extends IdEObject {
     /**
      * Returns the value of the '<em><b>Description</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Description</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Description</em>' attribute.
      * @see #isSetDescription()
@@ -149,10 +141,6 @@ public interface IfcDraughtingCalloutRelationship extends IdEObject {
      * Returns the value of the '<em><b>Relating Draughting Callout</b></em>' reference.
      * It is bidirectional and its opposite is '{@link org.bimserver.models.ifc2x3tc1.IfcDraughtingCallout#getIsRelatedToCallout <em>Is Related To Callout</em>}'.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Relating Draughting Callout</em>' reference isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Relating Draughting Callout</em>' reference.
      * @see #setRelatingDraughtingCallout(IfcDraughtingCallout)
@@ -178,10 +166,6 @@ public interface IfcDraughtingCalloutRelationship extends IdEObject {
      * Returns the value of the '<em><b>Related Draughting Callout</b></em>' reference.
      * It is bidirectional and its opposite is '{@link org.bimserver.models.ifc2x3tc1.IfcDraughtingCallout#getIsRelatedFromCallout <em>Is Related From Callout</em>}'.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Related Draughting Callout</em>' reference isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Related Draughting Callout</em>' reference.
      * @see #setRelatedDraughtingCallout(IfcDraughtingCallout)

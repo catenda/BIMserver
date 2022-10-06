@@ -65,7 +65,7 @@ public class IfcGridAxisImpl extends IdEObjectImpl implements IfcGridAxis {
      */
     @Override
     protected EClass eStaticClass() {
-        return Ifc4Package.Literals.IFC_GRID_AXIS;
+        return Ifc4Package.eINSTANCE.getIfcGridAxis();
     }
 
     /**
@@ -85,7 +85,7 @@ public class IfcGridAxisImpl extends IdEObjectImpl implements IfcGridAxis {
      */
     @Override
     public String getAxisTag() {
-        return (String) eGet(Ifc4Package.Literals.IFC_GRID_AXIS__AXIS_TAG, true);
+        return (String) eGet(Ifc4Package.eINSTANCE.getIfcGridAxis_AxisTag(), true);
     }
 
     /**
@@ -95,7 +95,7 @@ public class IfcGridAxisImpl extends IdEObjectImpl implements IfcGridAxis {
      */
     @Override
     public void setAxisTag(String newAxisTag) {
-        eSet(Ifc4Package.Literals.IFC_GRID_AXIS__AXIS_TAG, newAxisTag);
+        eSet(Ifc4Package.eINSTANCE.getIfcGridAxis_AxisTag(), newAxisTag);
     }
 
     /**
@@ -105,7 +105,7 @@ public class IfcGridAxisImpl extends IdEObjectImpl implements IfcGridAxis {
      */
     @Override
     public void unsetAxisTag() {
-        eUnset(Ifc4Package.Literals.IFC_GRID_AXIS__AXIS_TAG);
+        eUnset(Ifc4Package.eINSTANCE.getIfcGridAxis_AxisTag());
     }
 
     /**
@@ -115,7 +115,7 @@ public class IfcGridAxisImpl extends IdEObjectImpl implements IfcGridAxis {
      */
     @Override
     public boolean isSetAxisTag() {
-        return eIsSet(Ifc4Package.Literals.IFC_GRID_AXIS__AXIS_TAG);
+        return eIsSet(Ifc4Package.eINSTANCE.getIfcGridAxis_AxisTag());
     }
 
     /**
@@ -125,7 +125,7 @@ public class IfcGridAxisImpl extends IdEObjectImpl implements IfcGridAxis {
      */
     @Override
     public IfcCurve getAxisCurve() {
-        return (IfcCurve) eGet(Ifc4Package.Literals.IFC_GRID_AXIS__AXIS_CURVE, true);
+        return (IfcCurve) eGet(Ifc4Package.eINSTANCE.getIfcGridAxis_AxisCurve(), true);
     }
 
     /**
@@ -135,7 +135,7 @@ public class IfcGridAxisImpl extends IdEObjectImpl implements IfcGridAxis {
      */
     @Override
     public void setAxisCurve(IfcCurve newAxisCurve) {
-        eSet(Ifc4Package.Literals.IFC_GRID_AXIS__AXIS_CURVE, newAxisCurve);
+        eSet(Ifc4Package.eINSTANCE.getIfcGridAxis_AxisCurve(), newAxisCurve);
     }
 
     /**
@@ -145,7 +145,7 @@ public class IfcGridAxisImpl extends IdEObjectImpl implements IfcGridAxis {
      */
     @Override
     public Tristate getSameSense() {
-        return (Tristate) eGet(Ifc4Package.Literals.IFC_GRID_AXIS__SAME_SENSE, true);
+        return (Tristate) eGet(Ifc4Package.eINSTANCE.getIfcGridAxis_SameSense(), true);
     }
 
     /**
@@ -155,7 +155,7 @@ public class IfcGridAxisImpl extends IdEObjectImpl implements IfcGridAxis {
      */
     @Override
     public void setSameSense(Tristate newSameSense) {
-        eSet(Ifc4Package.Literals.IFC_GRID_AXIS__SAME_SENSE, newSameSense);
+        eSet(Ifc4Package.eINSTANCE.getIfcGridAxis_SameSense(), newSameSense);
     }
 
     /**
@@ -166,7 +166,7 @@ public class IfcGridAxisImpl extends IdEObjectImpl implements IfcGridAxis {
     @SuppressWarnings("unchecked")
     @Override
     public EList<IfcGrid> getPartOfW() {
-        return (EList<IfcGrid>) eGet(Ifc4Package.Literals.IFC_GRID_AXIS__PART_OF_W, true);
+        return (EList<IfcGrid>) eGet(Ifc4Package.eINSTANCE.getIfcGridAxis_PartOfW(), true);
     }
 
     /**
@@ -176,7 +176,7 @@ public class IfcGridAxisImpl extends IdEObjectImpl implements IfcGridAxis {
      */
     @Override
     public void unsetPartOfW() {
-        eUnset(Ifc4Package.Literals.IFC_GRID_AXIS__PART_OF_W);
+        eUnset(Ifc4Package.eINSTANCE.getIfcGridAxis_PartOfW());
     }
 
     /**
@@ -186,7 +186,7 @@ public class IfcGridAxisImpl extends IdEObjectImpl implements IfcGridAxis {
      */
     @Override
     public boolean isSetPartOfW() {
-        return eIsSet(Ifc4Package.Literals.IFC_GRID_AXIS__PART_OF_W);
+        return eIsSet(Ifc4Package.eINSTANCE.getIfcGridAxis_PartOfW());
     }
 
     /**
@@ -197,7 +197,7 @@ public class IfcGridAxisImpl extends IdEObjectImpl implements IfcGridAxis {
     @SuppressWarnings("unchecked")
     @Override
     public EList<IfcGrid> getPartOfV() {
-        return (EList<IfcGrid>) eGet(Ifc4Package.Literals.IFC_GRID_AXIS__PART_OF_V, true);
+        return (EList<IfcGrid>) eGet(Ifc4Package.eINSTANCE.getIfcGridAxis_PartOfV(), true);
     }
 
     /**
@@ -207,7 +207,7 @@ public class IfcGridAxisImpl extends IdEObjectImpl implements IfcGridAxis {
      */
     @Override
     public void unsetPartOfV() {
-        eUnset(Ifc4Package.Literals.IFC_GRID_AXIS__PART_OF_V);
+        eUnset(Ifc4Package.eINSTANCE.getIfcGridAxis_PartOfV());
     }
 
     /**
@@ -217,7 +217,7 @@ public class IfcGridAxisImpl extends IdEObjectImpl implements IfcGridAxis {
      */
     @Override
     public boolean isSetPartOfV() {
-        return eIsSet(Ifc4Package.Literals.IFC_GRID_AXIS__PART_OF_V);
+        return eIsSet(Ifc4Package.eINSTANCE.getIfcGridAxis_PartOfV());
     }
 
     /**
@@ -228,7 +228,7 @@ public class IfcGridAxisImpl extends IdEObjectImpl implements IfcGridAxis {
     @SuppressWarnings("unchecked")
     @Override
     public EList<IfcGrid> getPartOfU() {
-        return (EList<IfcGrid>) eGet(Ifc4Package.Literals.IFC_GRID_AXIS__PART_OF_U, true);
+        return (EList<IfcGrid>) eGet(Ifc4Package.eINSTANCE.getIfcGridAxis_PartOfU(), true);
     }
 
     /**
@@ -238,7 +238,7 @@ public class IfcGridAxisImpl extends IdEObjectImpl implements IfcGridAxis {
      */
     @Override
     public void unsetPartOfU() {
-        eUnset(Ifc4Package.Literals.IFC_GRID_AXIS__PART_OF_U);
+        eUnset(Ifc4Package.eINSTANCE.getIfcGridAxis_PartOfU());
     }
 
     /**
@@ -248,7 +248,7 @@ public class IfcGridAxisImpl extends IdEObjectImpl implements IfcGridAxis {
      */
     @Override
     public boolean isSetPartOfU() {
-        return eIsSet(Ifc4Package.Literals.IFC_GRID_AXIS__PART_OF_U);
+        return eIsSet(Ifc4Package.eINSTANCE.getIfcGridAxis_PartOfU());
     }
 
     /**
@@ -259,7 +259,7 @@ public class IfcGridAxisImpl extends IdEObjectImpl implements IfcGridAxis {
     @SuppressWarnings("unchecked")
     @Override
     public EList<IfcVirtualGridIntersection> getHasIntersections() {
-        return (EList<IfcVirtualGridIntersection>) eGet(Ifc4Package.Literals.IFC_GRID_AXIS__HAS_INTERSECTIONS, true);
+        return (EList<IfcVirtualGridIntersection>) eGet(Ifc4Package.eINSTANCE.getIfcGridAxis_HasIntersections(), true);
     }
 
     /**
@@ -269,7 +269,7 @@ public class IfcGridAxisImpl extends IdEObjectImpl implements IfcGridAxis {
      */
     @Override
     public void unsetHasIntersections() {
-        eUnset(Ifc4Package.Literals.IFC_GRID_AXIS__HAS_INTERSECTIONS);
+        eUnset(Ifc4Package.eINSTANCE.getIfcGridAxis_HasIntersections());
     }
 
     /**
@@ -279,7 +279,7 @@ public class IfcGridAxisImpl extends IdEObjectImpl implements IfcGridAxis {
      */
     @Override
     public boolean isSetHasIntersections() {
-        return eIsSet(Ifc4Package.Literals.IFC_GRID_AXIS__HAS_INTERSECTIONS);
+        return eIsSet(Ifc4Package.eINSTANCE.getIfcGridAxis_HasIntersections());
     }
 
 } //IfcGridAxisImpl

@@ -56,7 +56,7 @@ public class IfcRelCoversBldgElementsImpl extends IfcRelConnectsImpl implements 
      */
     @Override
     protected EClass eStaticClass() {
-        return Ifc2x3tc1Package.Literals.IFC_REL_COVERS_BLDG_ELEMENTS;
+        return Ifc2x3tc1Package.eINSTANCE.getIfcRelCoversBldgElements();
     }
 
     /**
@@ -66,7 +66,7 @@ public class IfcRelCoversBldgElementsImpl extends IfcRelConnectsImpl implements 
      */
     @Override
     public IfcElement getRelatingBuildingElement() {
-        return (IfcElement) eGet(Ifc2x3tc1Package.Literals.IFC_REL_COVERS_BLDG_ELEMENTS__RELATING_BUILDING_ELEMENT,
+        return (IfcElement) eGet(Ifc2x3tc1Package.eINSTANCE.getIfcRelCoversBldgElements_RelatingBuildingElement(),
                 true);
     }
 
@@ -77,7 +77,7 @@ public class IfcRelCoversBldgElementsImpl extends IfcRelConnectsImpl implements 
      */
     @Override
     public void setRelatingBuildingElement(IfcElement newRelatingBuildingElement) {
-        eSet(Ifc2x3tc1Package.Literals.IFC_REL_COVERS_BLDG_ELEMENTS__RELATING_BUILDING_ELEMENT,
+        eSet(Ifc2x3tc1Package.eINSTANCE.getIfcRelCoversBldgElements_RelatingBuildingElement(),
                 newRelatingBuildingElement);
     }
 
@@ -89,7 +89,7 @@ public class IfcRelCoversBldgElementsImpl extends IfcRelConnectsImpl implements 
     @SuppressWarnings("unchecked")
     @Override
     public EList<IfcCovering> getRelatedCoverings() {
-        return (EList<IfcCovering>) eGet(Ifc2x3tc1Package.Literals.IFC_REL_COVERS_BLDG_ELEMENTS__RELATED_COVERINGS,
+        return (EList<IfcCovering>) eGet(Ifc2x3tc1Package.eINSTANCE.getIfcRelCoversBldgElements_RelatedCoverings(),
                 true);
     }
 

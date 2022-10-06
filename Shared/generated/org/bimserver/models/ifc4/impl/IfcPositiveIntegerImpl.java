@@ -45,7 +45,7 @@ public class IfcPositiveIntegerImpl extends IfcIntegerImpl implements IfcPositiv
      */
     @Override
     protected EClass eStaticClass() {
-        return Ifc4Package.Literals.IFC_POSITIVE_INTEGER;
+        return Ifc4Package.eINSTANCE.getIfcPositiveInteger();
     }
 
 } //IfcPositiveIntegerImpl

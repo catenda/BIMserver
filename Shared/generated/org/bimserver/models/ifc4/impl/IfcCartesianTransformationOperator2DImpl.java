@@ -46,7 +46,7 @@ public class IfcCartesianTransformationOperator2DImpl extends IfcCartesianTransf
      */
     @Override
     protected EClass eStaticClass() {
-        return Ifc4Package.Literals.IFC_CARTESIAN_TRANSFORMATION_OPERATOR2_D;
+        return Ifc4Package.eINSTANCE.getIfcCartesianTransformationOperator2D();
     }
 
 } //IfcCartesianTransformationOperator2DImpl

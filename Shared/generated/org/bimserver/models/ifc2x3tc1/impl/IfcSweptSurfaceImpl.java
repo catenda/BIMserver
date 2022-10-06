@@ -55,7 +55,7 @@ public class IfcSweptSurfaceImpl extends IfcSurfaceImpl implements IfcSweptSurfa
      */
     @Override
     protected EClass eStaticClass() {
-        return Ifc2x3tc1Package.Literals.IFC_SWEPT_SURFACE;
+        return Ifc2x3tc1Package.eINSTANCE.getIfcSweptSurface();
     }
 
     /**
@@ -65,7 +65,7 @@ public class IfcSweptSurfaceImpl extends IfcSurfaceImpl implements IfcSweptSurfa
      */
     @Override
     public IfcProfileDef getSweptCurve() {
-        return (IfcProfileDef) eGet(Ifc2x3tc1Package.Literals.IFC_SWEPT_SURFACE__SWEPT_CURVE, true);
+        return (IfcProfileDef) eGet(Ifc2x3tc1Package.eINSTANCE.getIfcSweptSurface_SweptCurve(), true);
     }
 
     /**
@@ -75,7 +75,7 @@ public class IfcSweptSurfaceImpl extends IfcSurfaceImpl implements IfcSweptSurfa
      */
     @Override
     public void setSweptCurve(IfcProfileDef newSweptCurve) {
-        eSet(Ifc2x3tc1Package.Literals.IFC_SWEPT_SURFACE__SWEPT_CURVE, newSweptCurve);
+        eSet(Ifc2x3tc1Package.eINSTANCE.getIfcSweptSurface_SweptCurve(), newSweptCurve);
     }
 
     /**
@@ -85,7 +85,7 @@ public class IfcSweptSurfaceImpl extends IfcSurfaceImpl implements IfcSweptSurfa
      */
     @Override
     public IfcAxis2Placement3D getPosition() {
-        return (IfcAxis2Placement3D) eGet(Ifc2x3tc1Package.Literals.IFC_SWEPT_SURFACE__POSITION, true);
+        return (IfcAxis2Placement3D) eGet(Ifc2x3tc1Package.eINSTANCE.getIfcSweptSurface_Position(), true);
     }
 
     /**
@@ -95,7 +95,7 @@ public class IfcSweptSurfaceImpl extends IfcSurfaceImpl implements IfcSweptSurfa
      */
     @Override
     public void setPosition(IfcAxis2Placement3D newPosition) {
-        eSet(Ifc2x3tc1Package.Literals.IFC_SWEPT_SURFACE__POSITION, newPosition);
+        eSet(Ifc2x3tc1Package.eINSTANCE.getIfcSweptSurface_Position(), newPosition);
     }
 
     /**
@@ -105,7 +105,7 @@ public class IfcSweptSurfaceImpl extends IfcSurfaceImpl implements IfcSweptSurfa
      */
     @Override
     public long getDim() {
-        return (Long) eGet(Ifc2x3tc1Package.Literals.IFC_SWEPT_SURFACE__DIM, true);
+        return (Long) eGet(Ifc2x3tc1Package.eINSTANCE.getIfcSweptSurface_Dim(), true);
     }
 
     /**
@@ -115,7 +115,7 @@ public class IfcSweptSurfaceImpl extends IfcSurfaceImpl implements IfcSweptSurfa
      */
     @Override
     public void setDim(long newDim) {
-        eSet(Ifc2x3tc1Package.Literals.IFC_SWEPT_SURFACE__DIM, newDim);
+        eSet(Ifc2x3tc1Package.eINSTANCE.getIfcSweptSurface_Dim(), newDim);
     }
 
     /**
@@ -125,7 +125,7 @@ public class IfcSweptSurfaceImpl extends IfcSurfaceImpl implements IfcSweptSurfa
      */
     @Override
     public void unsetDim() {
-        eUnset(Ifc2x3tc1Package.Literals.IFC_SWEPT_SURFACE__DIM);
+        eUnset(Ifc2x3tc1Package.eINSTANCE.getIfcSweptSurface_Dim());
     }
 
     /**
@@ -135,7 +135,7 @@ public class IfcSweptSurfaceImpl extends IfcSurfaceImpl implements IfcSweptSurfa
      */
     @Override
     public boolean isSetDim() {
-        return eIsSet(Ifc2x3tc1Package.Literals.IFC_SWEPT_SURFACE__DIM);
+        return eIsSet(Ifc2x3tc1Package.eINSTANCE.getIfcSweptSurface_Dim());
     }
 
 } //IfcSweptSurfaceImpl

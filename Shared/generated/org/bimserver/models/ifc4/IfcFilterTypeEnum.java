@@ -125,10 +125,6 @@ public enum IfcFilterTypeEnum implements Enumerator {
     /**
      * The '<em><b>NULL</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>NULL</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #NULL
      * @model
@@ -140,10 +136,6 @@ public enum IfcFilterTypeEnum implements Enumerator {
     /**
      * The '<em><b>WATERFILTER</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>WATERFILTER</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #WATERFILTER
      * @model
@@ -155,10 +147,6 @@ public enum IfcFilterTypeEnum implements Enumerator {
     /**
      * The '<em><b>COMPRESSEDAIRFILTER</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>COMPRESSEDAIRFILTER</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #COMPRESSEDAIRFILTER
      * @model
@@ -170,10 +158,6 @@ public enum IfcFilterTypeEnum implements Enumerator {
     /**
      * The '<em><b>STRAINER</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>STRAINER</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #STRAINER
      * @model
@@ -185,10 +169,6 @@ public enum IfcFilterTypeEnum implements Enumerator {
     /**
      * The '<em><b>NOTDEFINED</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>NOTDEFINED</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #NOTDEFINED
      * @model
@@ -200,10 +180,6 @@ public enum IfcFilterTypeEnum implements Enumerator {
     /**
      * The '<em><b>OILFILTER</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>OILFILTER</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #OILFILTER
      * @model
@@ -215,10 +191,6 @@ public enum IfcFilterTypeEnum implements Enumerator {
     /**
      * The '<em><b>USERDEFINED</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>USERDEFINED</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #USERDEFINED
      * @model
@@ -230,10 +202,6 @@ public enum IfcFilterTypeEnum implements Enumerator {
     /**
      * The '<em><b>AIRPARTICLEFILTER</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>AIRPARTICLEFILTER</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #AIRPARTICLEFILTER
      * @model
@@ -245,10 +213,6 @@ public enum IfcFilterTypeEnum implements Enumerator {
     /**
      * The '<em><b>ODORFILTER</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>ODORFILTER</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #ODORFILTER
      * @model

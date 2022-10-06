@@ -47,10 +47,6 @@ public interface IfcClassification
     /**
      * Returns the value of the '<em><b>Source</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Source</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Source</em>' attribute.
      * @see #isSetSource()
@@ -100,10 +96,6 @@ public interface IfcClassification
     /**
      * Returns the value of the '<em><b>Edition</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Edition</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Edition</em>' attribute.
      * @see #isSetEdition()
@@ -153,10 +145,6 @@ public interface IfcClassification
     /**
      * Returns the value of the '<em><b>Edition Date</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Edition Date</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Edition Date</em>' attribute.
      * @see #isSetEditionDate()
@@ -206,10 +194,6 @@ public interface IfcClassification
     /**
      * Returns the value of the '<em><b>Name</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Name</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Name</em>' attribute.
      * @see #setName(String)
@@ -232,10 +216,6 @@ public interface IfcClassification
     /**
      * Returns the value of the '<em><b>Description</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Description</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Description</em>' attribute.
      * @see #isSetDescription()
@@ -285,10 +265,6 @@ public interface IfcClassification
     /**
      * Returns the value of the '<em><b>Location</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Location</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Location</em>' attribute.
      * @see #isSetLocation()
@@ -339,10 +315,6 @@ public interface IfcClassification
      * Returns the value of the '<em><b>Reference Tokens</b></em>' attribute list.
      * The list contents are of type {@link java.lang.String}.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Reference Tokens</em>' attribute list isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Reference Tokens</em>' attribute list.
      * @see #isSetReferenceTokens()
@@ -378,10 +350,6 @@ public interface IfcClassification
      * Returns the value of the '<em><b>Classification For Objects</b></em>' reference list.
      * The list contents are of type {@link org.bimserver.models.ifc4.IfcRelAssociatesClassification}.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Classification For Objects</em>' reference list isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Classification For Objects</em>' reference list.
      * @see #isSetClassificationForObjects()
@@ -418,10 +386,6 @@ public interface IfcClassification
      * Returns the value of the '<em><b>Has References</b></em>' reference list.
      * The list contents are of type {@link org.bimserver.models.ifc4.IfcClassificationReference}.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Has References</em>' reference list isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Has References</em>' reference list.
      * @see #isSetHasReferences()

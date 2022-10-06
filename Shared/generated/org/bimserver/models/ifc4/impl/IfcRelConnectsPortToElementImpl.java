@@ -54,7 +54,7 @@ public class IfcRelConnectsPortToElementImpl extends IfcRelConnectsImpl implemen
      */
     @Override
     protected EClass eStaticClass() {
-        return Ifc4Package.Literals.IFC_REL_CONNECTS_PORT_TO_ELEMENT;
+        return Ifc4Package.eINSTANCE.getIfcRelConnectsPortToElement();
     }
 
     /**
@@ -64,7 +64,7 @@ public class IfcRelConnectsPortToElementImpl extends IfcRelConnectsImpl implemen
      */
     @Override
     public IfcPort getRelatingPort() {
-        return (IfcPort) eGet(Ifc4Package.Literals.IFC_REL_CONNECTS_PORT_TO_ELEMENT__RELATING_PORT, true);
+        return (IfcPort) eGet(Ifc4Package.eINSTANCE.getIfcRelConnectsPortToElement_RelatingPort(), true);
     }
 
     /**
@@ -74,7 +74,7 @@ public class IfcRelConnectsPortToElementImpl extends IfcRelConnectsImpl implemen
      */
     @Override
     public void setRelatingPort(IfcPort newRelatingPort) {
-        eSet(Ifc4Package.Literals.IFC_REL_CONNECTS_PORT_TO_ELEMENT__RELATING_PORT, newRelatingPort);
+        eSet(Ifc4Package.eINSTANCE.getIfcRelConnectsPortToElement_RelatingPort(), newRelatingPort);
     }
 
     /**
@@ -84,7 +84,7 @@ public class IfcRelConnectsPortToElementImpl extends IfcRelConnectsImpl implemen
      */
     @Override
     public IfcDistributionElement getRelatedElement() {
-        return (IfcDistributionElement) eGet(Ifc4Package.Literals.IFC_REL_CONNECTS_PORT_TO_ELEMENT__RELATED_ELEMENT,
+        return (IfcDistributionElement) eGet(Ifc4Package.eINSTANCE.getIfcRelConnectsPortToElement_RelatedElement(),
                 true);
     }
 
@@ -95,7 +95,7 @@ public class IfcRelConnectsPortToElementImpl extends IfcRelConnectsImpl implemen
      */
     @Override
     public void setRelatedElement(IfcDistributionElement newRelatedElement) {
-        eSet(Ifc4Package.Literals.IFC_REL_CONNECTS_PORT_TO_ELEMENT__RELATED_ELEMENT, newRelatedElement);
+        eSet(Ifc4Package.eINSTANCE.getIfcRelConnectsPortToElement_RelatedElement(), newRelatedElement);
     }
 
 } //IfcRelConnectsPortToElementImpl

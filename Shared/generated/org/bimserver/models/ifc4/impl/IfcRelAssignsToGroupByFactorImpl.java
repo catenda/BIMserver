@@ -52,7 +52,7 @@ public class IfcRelAssignsToGroupByFactorImpl extends IfcRelAssignsToGroupImpl i
      */
     @Override
     protected EClass eStaticClass() {
-        return Ifc4Package.Literals.IFC_REL_ASSIGNS_TO_GROUP_BY_FACTOR;
+        return Ifc4Package.eINSTANCE.getIfcRelAssignsToGroupByFactor();
     }
 
     /**
@@ -62,7 +62,7 @@ public class IfcRelAssignsToGroupByFactorImpl extends IfcRelAssignsToGroupImpl i
      */
     @Override
     public double getFactor() {
-        return (Double) eGet(Ifc4Package.Literals.IFC_REL_ASSIGNS_TO_GROUP_BY_FACTOR__FACTOR, true);
+        return (Double) eGet(Ifc4Package.eINSTANCE.getIfcRelAssignsToGroupByFactor_Factor(), true);
     }
 
     /**
@@ -72,7 +72,7 @@ public class IfcRelAssignsToGroupByFactorImpl extends IfcRelAssignsToGroupImpl i
      */
     @Override
     public void setFactor(double newFactor) {
-        eSet(Ifc4Package.Literals.IFC_REL_ASSIGNS_TO_GROUP_BY_FACTOR__FACTOR, newFactor);
+        eSet(Ifc4Package.eINSTANCE.getIfcRelAssignsToGroupByFactor_Factor(), newFactor);
     }
 
     /**
@@ -82,7 +82,7 @@ public class IfcRelAssignsToGroupByFactorImpl extends IfcRelAssignsToGroupImpl i
      */
     @Override
     public String getFactorAsString() {
-        return (String) eGet(Ifc4Package.Literals.IFC_REL_ASSIGNS_TO_GROUP_BY_FACTOR__FACTOR_AS_STRING, true);
+        return (String) eGet(Ifc4Package.eINSTANCE.getIfcRelAssignsToGroupByFactor_FactorAsString(), true);
     }
 
     /**
@@ -92,7 +92,7 @@ public class IfcRelAssignsToGroupByFactorImpl extends IfcRelAssignsToGroupImpl i
      */
     @Override
     public void setFactorAsString(String newFactorAsString) {
-        eSet(Ifc4Package.Literals.IFC_REL_ASSIGNS_TO_GROUP_BY_FACTOR__FACTOR_AS_STRING, newFactorAsString);
+        eSet(Ifc4Package.eINSTANCE.getIfcRelAssignsToGroupByFactor_FactorAsString(), newFactorAsString);
     }
 
 } //IfcRelAssignsToGroupByFactorImpl

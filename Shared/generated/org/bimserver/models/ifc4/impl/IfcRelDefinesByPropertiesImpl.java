@@ -56,7 +56,7 @@ public class IfcRelDefinesByPropertiesImpl extends IfcRelDefinesImpl implements 
      */
     @Override
     protected EClass eStaticClass() {
-        return Ifc4Package.Literals.IFC_REL_DEFINES_BY_PROPERTIES;
+        return Ifc4Package.eINSTANCE.getIfcRelDefinesByProperties();
     }
 
     /**
@@ -67,7 +67,7 @@ public class IfcRelDefinesByPropertiesImpl extends IfcRelDefinesImpl implements 
     @SuppressWarnings("unchecked")
     @Override
     public EList<IfcObjectDefinition> getRelatedObjects() {
-        return (EList<IfcObjectDefinition>) eGet(Ifc4Package.Literals.IFC_REL_DEFINES_BY_PROPERTIES__RELATED_OBJECTS,
+        return (EList<IfcObjectDefinition>) eGet(Ifc4Package.eINSTANCE.getIfcRelDefinesByProperties_RelatedObjects(),
                 true);
     }
 
@@ -79,7 +79,7 @@ public class IfcRelDefinesByPropertiesImpl extends IfcRelDefinesImpl implements 
     @Override
     public IfcPropertySetDefinitionSelect getRelatingPropertyDefinition() {
         return (IfcPropertySetDefinitionSelect) eGet(
-                Ifc4Package.Literals.IFC_REL_DEFINES_BY_PROPERTIES__RELATING_PROPERTY_DEFINITION, true);
+                Ifc4Package.eINSTANCE.getIfcRelDefinesByProperties_RelatingPropertyDefinition(), true);
     }
 
     /**
@@ -89,7 +89,7 @@ public class IfcRelDefinesByPropertiesImpl extends IfcRelDefinesImpl implements 
      */
     @Override
     public void setRelatingPropertyDefinition(IfcPropertySetDefinitionSelect newRelatingPropertyDefinition) {
-        eSet(Ifc4Package.Literals.IFC_REL_DEFINES_BY_PROPERTIES__RELATING_PROPERTY_DEFINITION,
+        eSet(Ifc4Package.eINSTANCE.getIfcRelDefinesByProperties_RelatingPropertyDefinition(),
                 newRelatingPropertyDefinition);
     }
 

@@ -46,10 +46,6 @@ public interface IfcAppliedValue extends IfcObjectReferenceSelect {
     /**
      * Returns the value of the '<em><b>Name</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Name</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Name</em>' attribute.
      * @see #isSetName()
@@ -99,10 +95,6 @@ public interface IfcAppliedValue extends IfcObjectReferenceSelect {
     /**
      * Returns the value of the '<em><b>Description</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Description</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Description</em>' attribute.
      * @see #isSetDescription()
@@ -152,10 +144,6 @@ public interface IfcAppliedValue extends IfcObjectReferenceSelect {
     /**
      * Returns the value of the '<em><b>Applied Value</b></em>' reference.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Applied Value</em>' reference isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Applied Value</em>' reference.
      * @see #isSetAppliedValue()
@@ -205,10 +193,6 @@ public interface IfcAppliedValue extends IfcObjectReferenceSelect {
     /**
      * Returns the value of the '<em><b>Unit Basis</b></em>' reference.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Unit Basis</em>' reference isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Unit Basis</em>' reference.
      * @see #isSetUnitBasis()
@@ -258,10 +242,6 @@ public interface IfcAppliedValue extends IfcObjectReferenceSelect {
     /**
      * Returns the value of the '<em><b>Applicable Date</b></em>' reference.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Applicable Date</em>' reference isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Applicable Date</em>' reference.
      * @see #isSetApplicableDate()
@@ -311,10 +291,6 @@ public interface IfcAppliedValue extends IfcObjectReferenceSelect {
     /**
      * Returns the value of the '<em><b>Fixed Until Date</b></em>' reference.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Fixed Until Date</em>' reference isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Fixed Until Date</em>' reference.
      * @see #isSetFixedUntilDate()
@@ -366,10 +342,6 @@ public interface IfcAppliedValue extends IfcObjectReferenceSelect {
      * The list contents are of type {@link org.bimserver.models.ifc2x3tc1.IfcReferencesValueDocument}.
      * It is bidirectional and its opposite is '{@link org.bimserver.models.ifc2x3tc1.IfcReferencesValueDocument#getReferencingValues <em>Referencing Values</em>}'.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Values Referenced</em>' reference list isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Values Referenced</em>' reference list.
      * @see #isSetValuesReferenced()
@@ -408,10 +380,6 @@ public interface IfcAppliedValue extends IfcObjectReferenceSelect {
      * The list contents are of type {@link org.bimserver.models.ifc2x3tc1.IfcAppliedValueRelationship}.
      * It is bidirectional and its opposite is '{@link org.bimserver.models.ifc2x3tc1.IfcAppliedValueRelationship#getComponentOfTotal <em>Component Of Total</em>}'.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Value Of Components</em>' reference list isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Value Of Components</em>' reference list.
      * @see #isSetValueOfComponents()
@@ -450,10 +418,6 @@ public interface IfcAppliedValue extends IfcObjectReferenceSelect {
      * The list contents are of type {@link org.bimserver.models.ifc2x3tc1.IfcAppliedValueRelationship}.
      * It is bidirectional and its opposite is '{@link org.bimserver.models.ifc2x3tc1.IfcAppliedValueRelationship#getComponents <em>Components</em>}'.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Is Component In</em>' reference list isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Is Component In</em>' reference list.
      * @see #isSetIsComponentIn()

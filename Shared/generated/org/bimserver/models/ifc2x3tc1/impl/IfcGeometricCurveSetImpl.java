@@ -45,7 +45,7 @@ public class IfcGeometricCurveSetImpl extends IfcGeometricSetImpl implements Ifc
      */
     @Override
     protected EClass eStaticClass() {
-        return Ifc2x3tc1Package.Literals.IFC_GEOMETRIC_CURVE_SET;
+        return Ifc2x3tc1Package.eINSTANCE.getIfcGeometricCurveSet();
     }
 
 } //IfcGeometricCurveSetImpl

@@ -45,7 +45,7 @@ public class IfcSlabElementedCaseImpl extends IfcSlabImpl implements IfcSlabElem
      */
     @Override
     protected EClass eStaticClass() {
-        return Ifc4Package.Literals.IFC_SLAB_ELEMENTED_CASE;
+        return Ifc4Package.eINSTANCE.getIfcSlabElementedCase();
     }
 
 } //IfcSlabElementedCaseImpl

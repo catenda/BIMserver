@@ -23,6 +23,7 @@ import org.bimserver.models.ifc4.IfcCoordinateOperation;
 import org.bimserver.models.ifc4.IfcCoordinateReferenceSystem;
 
 import org.eclipse.emf.common.util.EList;
+
 import org.eclipse.emf.ecore.EClass;
 
 /**
@@ -59,7 +60,7 @@ public class IfcCoordinateReferenceSystemImpl extends IdEObjectImpl implements I
      */
     @Override
     protected EClass eStaticClass() {
-        return Ifc4Package.Literals.IFC_COORDINATE_REFERENCE_SYSTEM;
+        return Ifc4Package.eINSTANCE.getIfcCoordinateReferenceSystem();
     }
 
     /**
@@ -79,7 +80,7 @@ public class IfcCoordinateReferenceSystemImpl extends IdEObjectImpl implements I
      */
     @Override
     public String getName() {
-        return (String) eGet(Ifc4Package.Literals.IFC_COORDINATE_REFERENCE_SYSTEM__NAME, true);
+        return (String) eGet(Ifc4Package.eINSTANCE.getIfcCoordinateReferenceSystem_Name(), true);
     }
 
     /**
@@ -89,7 +90,7 @@ public class IfcCoordinateReferenceSystemImpl extends IdEObjectImpl implements I
      */
     @Override
     public void setName(String newName) {
-        eSet(Ifc4Package.Literals.IFC_COORDINATE_REFERENCE_SYSTEM__NAME, newName);
+        eSet(Ifc4Package.eINSTANCE.getIfcCoordinateReferenceSystem_Name(), newName);
     }
 
     /**
@@ -99,7 +100,7 @@ public class IfcCoordinateReferenceSystemImpl extends IdEObjectImpl implements I
      */
     @Override
     public String getDescription() {
-        return (String) eGet(Ifc4Package.Literals.IFC_COORDINATE_REFERENCE_SYSTEM__DESCRIPTION, true);
+        return (String) eGet(Ifc4Package.eINSTANCE.getIfcCoordinateReferenceSystem_Description(), true);
     }
 
     /**
@@ -109,7 +110,7 @@ public class IfcCoordinateReferenceSystemImpl extends IdEObjectImpl implements I
      */
     @Override
     public void setDescription(String newDescription) {
-        eSet(Ifc4Package.Literals.IFC_COORDINATE_REFERENCE_SYSTEM__DESCRIPTION, newDescription);
+        eSet(Ifc4Package.eINSTANCE.getIfcCoordinateReferenceSystem_Description(), newDescription);
     }
 
     /**
@@ -119,7 +120,7 @@ public class IfcCoordinateReferenceSystemImpl extends IdEObjectImpl implements I
      */
     @Override
     public void unsetDescription() {
-        eUnset(Ifc4Package.Literals.IFC_COORDINATE_REFERENCE_SYSTEM__DESCRIPTION);
+        eUnset(Ifc4Package.eINSTANCE.getIfcCoordinateReferenceSystem_Description());
     }
 
     /**
@@ -129,7 +130,7 @@ public class IfcCoordinateReferenceSystemImpl extends IdEObjectImpl implements I
      */
     @Override
     public boolean isSetDescription() {
-        return eIsSet(Ifc4Package.Literals.IFC_COORDINATE_REFERENCE_SYSTEM__DESCRIPTION);
+        return eIsSet(Ifc4Package.eINSTANCE.getIfcCoordinateReferenceSystem_Description());
     }
 
     /**
@@ -139,7 +140,7 @@ public class IfcCoordinateReferenceSystemImpl extends IdEObjectImpl implements I
      */
     @Override
     public String getGeodeticDatum() {
-        return (String) eGet(Ifc4Package.Literals.IFC_COORDINATE_REFERENCE_SYSTEM__GEODETIC_DATUM, true);
+        return (String) eGet(Ifc4Package.eINSTANCE.getIfcCoordinateReferenceSystem_GeodeticDatum(), true);
     }
 
     /**
@@ -149,7 +150,7 @@ public class IfcCoordinateReferenceSystemImpl extends IdEObjectImpl implements I
      */
     @Override
     public void setGeodeticDatum(String newGeodeticDatum) {
-        eSet(Ifc4Package.Literals.IFC_COORDINATE_REFERENCE_SYSTEM__GEODETIC_DATUM, newGeodeticDatum);
+        eSet(Ifc4Package.eINSTANCE.getIfcCoordinateReferenceSystem_GeodeticDatum(), newGeodeticDatum);
     }
 
     /**
@@ -159,7 +160,7 @@ public class IfcCoordinateReferenceSystemImpl extends IdEObjectImpl implements I
      */
     @Override
     public void unsetGeodeticDatum() {
-        eUnset(Ifc4Package.Literals.IFC_COORDINATE_REFERENCE_SYSTEM__GEODETIC_DATUM);
+        eUnset(Ifc4Package.eINSTANCE.getIfcCoordinateReferenceSystem_GeodeticDatum());
     }
 
     /**
@@ -169,7 +170,7 @@ public class IfcCoordinateReferenceSystemImpl extends IdEObjectImpl implements I
      */
     @Override
     public boolean isSetGeodeticDatum() {
-        return eIsSet(Ifc4Package.Literals.IFC_COORDINATE_REFERENCE_SYSTEM__GEODETIC_DATUM);
+        return eIsSet(Ifc4Package.eINSTANCE.getIfcCoordinateReferenceSystem_GeodeticDatum());
     }
 
     /**
@@ -179,7 +180,7 @@ public class IfcCoordinateReferenceSystemImpl extends IdEObjectImpl implements I
      */
     @Override
     public String getVerticalDatum() {
-        return (String) eGet(Ifc4Package.Literals.IFC_COORDINATE_REFERENCE_SYSTEM__VERTICAL_DATUM, true);
+        return (String) eGet(Ifc4Package.eINSTANCE.getIfcCoordinateReferenceSystem_VerticalDatum(), true);
     }
 
     /**
@@ -189,7 +190,7 @@ public class IfcCoordinateReferenceSystemImpl extends IdEObjectImpl implements I
      */
     @Override
     public void setVerticalDatum(String newVerticalDatum) {
-        eSet(Ifc4Package.Literals.IFC_COORDINATE_REFERENCE_SYSTEM__VERTICAL_DATUM, newVerticalDatum);
+        eSet(Ifc4Package.eINSTANCE.getIfcCoordinateReferenceSystem_VerticalDatum(), newVerticalDatum);
     }
 
     /**
@@ -199,7 +200,7 @@ public class IfcCoordinateReferenceSystemImpl extends IdEObjectImpl implements I
      */
     @Override
     public void unsetVerticalDatum() {
-        eUnset(Ifc4Package.Literals.IFC_COORDINATE_REFERENCE_SYSTEM__VERTICAL_DATUM);
+        eUnset(Ifc4Package.eINSTANCE.getIfcCoordinateReferenceSystem_VerticalDatum());
     }
 
     /**
@@ -209,7 +210,7 @@ public class IfcCoordinateReferenceSystemImpl extends IdEObjectImpl implements I
      */
     @Override
     public boolean isSetVerticalDatum() {
-        return eIsSet(Ifc4Package.Literals.IFC_COORDINATE_REFERENCE_SYSTEM__VERTICAL_DATUM);
+        return eIsSet(Ifc4Package.eINSTANCE.getIfcCoordinateReferenceSystem_VerticalDatum());
     }
 
     /**
@@ -221,7 +222,7 @@ public class IfcCoordinateReferenceSystemImpl extends IdEObjectImpl implements I
     @Override
     public EList<IfcCoordinateOperation> getHasCoordinateOperation() {
         return (EList<IfcCoordinateOperation>) eGet(
-                Ifc4Package.Literals.IFC_COORDINATE_REFERENCE_SYSTEM__HAS_COORDINATE_OPERATION, true);
+                Ifc4Package.eINSTANCE.getIfcCoordinateReferenceSystem_HasCoordinateOperation(), true);
     }
 
     /**
@@ -231,7 +232,7 @@ public class IfcCoordinateReferenceSystemImpl extends IdEObjectImpl implements I
      */
     @Override
     public void unsetHasCoordinateOperation() {
-        eUnset(Ifc4Package.Literals.IFC_COORDINATE_REFERENCE_SYSTEM__HAS_COORDINATE_OPERATION);
+        eUnset(Ifc4Package.eINSTANCE.getIfcCoordinateReferenceSystem_HasCoordinateOperation());
     }
 
     /**
@@ -241,7 +242,7 @@ public class IfcCoordinateReferenceSystemImpl extends IdEObjectImpl implements I
      */
     @Override
     public boolean isSetHasCoordinateOperation() {
-        return eIsSet(Ifc4Package.Literals.IFC_COORDINATE_REFERENCE_SYSTEM__HAS_COORDINATE_OPERATION);
+        return eIsSet(Ifc4Package.eINSTANCE.getIfcCoordinateReferenceSystem_HasCoordinateOperation());
     }
 
 } //IfcCoordinateReferenceSystemImpl

@@ -50,10 +50,6 @@ public interface ExtendedDataSchema extends IdEObject {
     /**
      * Returns the value of the '<em><b>Name</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Name</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Name</em>' attribute.
      * @see #setName(String)
@@ -76,10 +72,6 @@ public interface ExtendedDataSchema extends IdEObject {
     /**
      * Returns the value of the '<em><b>Url</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Url</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Url</em>' attribute.
      * @see #setUrl(String)
@@ -102,10 +94,6 @@ public interface ExtendedDataSchema extends IdEObject {
     /**
      * Returns the value of the '<em><b>Namespace</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Namespace</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Namespace</em>' attribute.
      * @see #setNamespace(String)
@@ -128,10 +116,6 @@ public interface ExtendedDataSchema extends IdEObject {
     /**
      * Returns the value of the '<em><b>Description</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Description</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Description</em>' attribute.
      * @see #setDescription(String)
@@ -154,10 +138,6 @@ public interface ExtendedDataSchema extends IdEObject {
     /**
      * Returns the value of the '<em><b>File</b></em>' reference.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>File</em>' reference isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>File</em>' reference.
      * @see #setFile(File)
@@ -180,10 +160,6 @@ public interface ExtendedDataSchema extends IdEObject {
     /**
      * Returns the value of the '<em><b>Size</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Size</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Size</em>' attribute.
      * @see #setSize(long)
@@ -206,10 +182,6 @@ public interface ExtendedDataSchema extends IdEObject {
     /**
      * Returns the value of the '<em><b>Validate</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Validate</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Validate</em>' attribute.
      * @see #setValidate(boolean)
@@ -233,10 +205,6 @@ public interface ExtendedDataSchema extends IdEObject {
      * Returns the value of the '<em><b>Type</b></em>' attribute.
      * The literals are from the enumeration {@link org.bimserver.models.store.ExtendedDataSchemaType}.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Type</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Type</em>' attribute.
      * @see org.bimserver.models.store.ExtendedDataSchemaType
@@ -263,10 +231,6 @@ public interface ExtendedDataSchema extends IdEObject {
      * The list contents are of type {@link org.bimserver.models.store.User}.
      * It is bidirectional and its opposite is '{@link org.bimserver.models.store.User#getSchemas <em>Schemas</em>}'.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Users</em>' reference list isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Users</em>' reference list.
      * @see org.bimserver.models.store.StorePackage#getExtendedDataSchema_Users()
@@ -281,10 +245,6 @@ public interface ExtendedDataSchema extends IdEObject {
      * The list contents are of type {@link org.bimserver.models.store.ExtendedData}.
      * It is bidirectional and its opposite is '{@link org.bimserver.models.store.ExtendedData#getSchema <em>Schema</em>}'.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Extended Data</em>' reference list isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Extended Data</em>' reference list.
      * @see org.bimserver.models.store.StorePackage#getExtendedDataSchema_ExtendedData()

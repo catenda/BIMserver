@@ -54,7 +54,7 @@ public class IfcPHMeasureImpl extends IdEObjectImpl implements IfcPHMeasure {
      */
     @Override
     protected EClass eStaticClass() {
-        return Ifc2x3tc1Package.Literals.IFC_PH_MEASURE;
+        return Ifc2x3tc1Package.eINSTANCE.getIfcPHMeasure();
     }
 
     /**
@@ -74,7 +74,7 @@ public class IfcPHMeasureImpl extends IdEObjectImpl implements IfcPHMeasure {
      */
     @Override
     public double getWrappedValue() {
-        return (Double) eGet(Ifc2x3tc1Package.Literals.IFC_PH_MEASURE__WRAPPED_VALUE, true);
+        return (Double) eGet(Ifc2x3tc1Package.eINSTANCE.getIfcPHMeasure_WrappedValue(), true);
     }
 
     /**
@@ -84,7 +84,7 @@ public class IfcPHMeasureImpl extends IdEObjectImpl implements IfcPHMeasure {
      */
     @Override
     public void setWrappedValue(double newWrappedValue) {
-        eSet(Ifc2x3tc1Package.Literals.IFC_PH_MEASURE__WRAPPED_VALUE, newWrappedValue);
+        eSet(Ifc2x3tc1Package.eINSTANCE.getIfcPHMeasure_WrappedValue(), newWrappedValue);
     }
 
     /**
@@ -94,7 +94,7 @@ public class IfcPHMeasureImpl extends IdEObjectImpl implements IfcPHMeasure {
      */
     @Override
     public void unsetWrappedValue() {
-        eUnset(Ifc2x3tc1Package.Literals.IFC_PH_MEASURE__WRAPPED_VALUE);
+        eUnset(Ifc2x3tc1Package.eINSTANCE.getIfcPHMeasure_WrappedValue());
     }
 
     /**
@@ -104,7 +104,7 @@ public class IfcPHMeasureImpl extends IdEObjectImpl implements IfcPHMeasure {
      */
     @Override
     public boolean isSetWrappedValue() {
-        return eIsSet(Ifc2x3tc1Package.Literals.IFC_PH_MEASURE__WRAPPED_VALUE);
+        return eIsSet(Ifc2x3tc1Package.eINSTANCE.getIfcPHMeasure_WrappedValue());
     }
 
     /**
@@ -114,7 +114,7 @@ public class IfcPHMeasureImpl extends IdEObjectImpl implements IfcPHMeasure {
      */
     @Override
     public String getWrappedValueAsString() {
-        return (String) eGet(Ifc2x3tc1Package.Literals.IFC_PH_MEASURE__WRAPPED_VALUE_AS_STRING, true);
+        return (String) eGet(Ifc2x3tc1Package.eINSTANCE.getIfcPHMeasure_WrappedValueAsString(), true);
     }
 
     /**
@@ -124,7 +124,7 @@ public class IfcPHMeasureImpl extends IdEObjectImpl implements IfcPHMeasure {
      */
     @Override
     public void setWrappedValueAsString(String newWrappedValueAsString) {
-        eSet(Ifc2x3tc1Package.Literals.IFC_PH_MEASURE__WRAPPED_VALUE_AS_STRING, newWrappedValueAsString);
+        eSet(Ifc2x3tc1Package.eINSTANCE.getIfcPHMeasure_WrappedValueAsString(), newWrappedValueAsString);
     }
 
     /**
@@ -134,7 +134,7 @@ public class IfcPHMeasureImpl extends IdEObjectImpl implements IfcPHMeasure {
      */
     @Override
     public void unsetWrappedValueAsString() {
-        eUnset(Ifc2x3tc1Package.Literals.IFC_PH_MEASURE__WRAPPED_VALUE_AS_STRING);
+        eUnset(Ifc2x3tc1Package.eINSTANCE.getIfcPHMeasure_WrappedValueAsString());
     }
 
     /**
@@ -144,7 +144,7 @@ public class IfcPHMeasureImpl extends IdEObjectImpl implements IfcPHMeasure {
      */
     @Override
     public boolean isSetWrappedValueAsString() {
-        return eIsSet(Ifc2x3tc1Package.Literals.IFC_PH_MEASURE__WRAPPED_VALUE_AS_STRING);
+        return eIsSet(Ifc2x3tc1Package.eINSTANCE.getIfcPHMeasure_WrappedValueAsString());
     }
 
 } //IfcPHMeasureImpl

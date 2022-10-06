@@ -54,7 +54,7 @@ public class IfcRelFillsElementImpl extends IfcRelConnectsImpl implements IfcRel
      */
     @Override
     protected EClass eStaticClass() {
-        return Ifc2x3tc1Package.Literals.IFC_REL_FILLS_ELEMENT;
+        return Ifc2x3tc1Package.eINSTANCE.getIfcRelFillsElement();
     }
 
     /**
@@ -64,7 +64,7 @@ public class IfcRelFillsElementImpl extends IfcRelConnectsImpl implements IfcRel
      */
     @Override
     public IfcOpeningElement getRelatingOpeningElement() {
-        return (IfcOpeningElement) eGet(Ifc2x3tc1Package.Literals.IFC_REL_FILLS_ELEMENT__RELATING_OPENING_ELEMENT,
+        return (IfcOpeningElement) eGet(Ifc2x3tc1Package.eINSTANCE.getIfcRelFillsElement_RelatingOpeningElement(),
                 true);
     }
 
@@ -75,7 +75,7 @@ public class IfcRelFillsElementImpl extends IfcRelConnectsImpl implements IfcRel
      */
     @Override
     public void setRelatingOpeningElement(IfcOpeningElement newRelatingOpeningElement) {
-        eSet(Ifc2x3tc1Package.Literals.IFC_REL_FILLS_ELEMENT__RELATING_OPENING_ELEMENT, newRelatingOpeningElement);
+        eSet(Ifc2x3tc1Package.eINSTANCE.getIfcRelFillsElement_RelatingOpeningElement(), newRelatingOpeningElement);
     }
 
     /**
@@ -85,7 +85,7 @@ public class IfcRelFillsElementImpl extends IfcRelConnectsImpl implements IfcRel
      */
     @Override
     public IfcElement getRelatedBuildingElement() {
-        return (IfcElement) eGet(Ifc2x3tc1Package.Literals.IFC_REL_FILLS_ELEMENT__RELATED_BUILDING_ELEMENT, true);
+        return (IfcElement) eGet(Ifc2x3tc1Package.eINSTANCE.getIfcRelFillsElement_RelatedBuildingElement(), true);
     }
 
     /**
@@ -95,7 +95,7 @@ public class IfcRelFillsElementImpl extends IfcRelConnectsImpl implements IfcRel
      */
     @Override
     public void setRelatedBuildingElement(IfcElement newRelatedBuildingElement) {
-        eSet(Ifc2x3tc1Package.Literals.IFC_REL_FILLS_ELEMENT__RELATED_BUILDING_ELEMENT, newRelatedBuildingElement);
+        eSet(Ifc2x3tc1Package.eINSTANCE.getIfcRelFillsElement_RelatedBuildingElement(), newRelatedBuildingElement);
     }
 
 } //IfcRelFillsElementImpl

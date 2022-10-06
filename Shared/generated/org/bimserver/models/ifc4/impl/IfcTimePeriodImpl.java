@@ -54,7 +54,7 @@ public class IfcTimePeriodImpl extends IdEObjectImpl implements IfcTimePeriod {
      */
     @Override
     protected EClass eStaticClass() {
-        return Ifc4Package.Literals.IFC_TIME_PERIOD;
+        return Ifc4Package.eINSTANCE.getIfcTimePeriod();
     }
 
     /**
@@ -74,7 +74,7 @@ public class IfcTimePeriodImpl extends IdEObjectImpl implements IfcTimePeriod {
      */
     @Override
     public String getStartTime() {
-        return (String) eGet(Ifc4Package.Literals.IFC_TIME_PERIOD__START_TIME, true);
+        return (String) eGet(Ifc4Package.eINSTANCE.getIfcTimePeriod_StartTime(), true);
     }
 
     /**
@@ -84,7 +84,7 @@ public class IfcTimePeriodImpl extends IdEObjectImpl implements IfcTimePeriod {
      */
     @Override
     public void setStartTime(String newStartTime) {
-        eSet(Ifc4Package.Literals.IFC_TIME_PERIOD__START_TIME, newStartTime);
+        eSet(Ifc4Package.eINSTANCE.getIfcTimePeriod_StartTime(), newStartTime);
     }
 
     /**
@@ -94,7 +94,7 @@ public class IfcTimePeriodImpl extends IdEObjectImpl implements IfcTimePeriod {
      */
     @Override
     public String getEndTime() {
-        return (String) eGet(Ifc4Package.Literals.IFC_TIME_PERIOD__END_TIME, true);
+        return (String) eGet(Ifc4Package.eINSTANCE.getIfcTimePeriod_EndTime(), true);
     }
 
     /**
@@ -104,7 +104,7 @@ public class IfcTimePeriodImpl extends IdEObjectImpl implements IfcTimePeriod {
      */
     @Override
     public void setEndTime(String newEndTime) {
-        eSet(Ifc4Package.Literals.IFC_TIME_PERIOD__END_TIME, newEndTime);
+        eSet(Ifc4Package.eINSTANCE.getIfcTimePeriod_EndTime(), newEndTime);
     }
 
 } //IfcTimePeriodImpl

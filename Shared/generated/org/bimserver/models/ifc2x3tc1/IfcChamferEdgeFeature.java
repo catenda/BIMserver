@@ -39,10 +39,6 @@ public interface IfcChamferEdgeFeature extends IfcEdgeFeature {
     /**
      * Returns the value of the '<em><b>Width</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Width</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Width</em>' attribute.
      * @see #isSetWidth()
@@ -92,10 +88,6 @@ public interface IfcChamferEdgeFeature extends IfcEdgeFeature {
     /**
      * Returns the value of the '<em><b>Width As String</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Width As String</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Width As String</em>' attribute.
      * @see #isSetWidthAsString()
@@ -147,10 +139,6 @@ public interface IfcChamferEdgeFeature extends IfcEdgeFeature {
     /**
      * Returns the value of the '<em><b>Height</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Height</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Height</em>' attribute.
      * @see #isSetHeight()
@@ -200,10 +188,6 @@ public interface IfcChamferEdgeFeature extends IfcEdgeFeature {
     /**
      * Returns the value of the '<em><b>Height As String</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Height As String</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Height As String</em>' attribute.
      * @see #isSetHeightAsString()

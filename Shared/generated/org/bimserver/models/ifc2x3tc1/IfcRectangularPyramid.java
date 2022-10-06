@@ -41,10 +41,6 @@ public interface IfcRectangularPyramid extends IfcCsgPrimitive3D {
     /**
      * Returns the value of the '<em><b>XLength</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>XLength</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>XLength</em>' attribute.
      * @see #setXLength(double)
@@ -67,10 +63,6 @@ public interface IfcRectangularPyramid extends IfcCsgPrimitive3D {
     /**
      * Returns the value of the '<em><b>XLength As String</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>XLength As String</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>XLength As String</em>' attribute.
      * @see #setXLengthAsString(String)
@@ -94,10 +86,6 @@ public interface IfcRectangularPyramid extends IfcCsgPrimitive3D {
     /**
      * Returns the value of the '<em><b>YLength</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>YLength</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>YLength</em>' attribute.
      * @see #setYLength(double)
@@ -120,10 +108,6 @@ public interface IfcRectangularPyramid extends IfcCsgPrimitive3D {
     /**
      * Returns the value of the '<em><b>YLength As String</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>YLength As String</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>YLength As String</em>' attribute.
      * @see #setYLengthAsString(String)
@@ -147,10 +131,6 @@ public interface IfcRectangularPyramid extends IfcCsgPrimitive3D {
     /**
      * Returns the value of the '<em><b>Height</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Height</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Height</em>' attribute.
      * @see #setHeight(double)
@@ -173,10 +153,6 @@ public interface IfcRectangularPyramid extends IfcCsgPrimitive3D {
     /**
      * Returns the value of the '<em><b>Height As String</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Height As String</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Height As String</em>' attribute.
      * @see #setHeightAsString(String)

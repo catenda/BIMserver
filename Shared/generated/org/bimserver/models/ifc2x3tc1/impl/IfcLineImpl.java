@@ -54,7 +54,7 @@ public class IfcLineImpl extends IfcCurveImpl implements IfcLine {
      */
     @Override
     protected EClass eStaticClass() {
-        return Ifc2x3tc1Package.Literals.IFC_LINE;
+        return Ifc2x3tc1Package.eINSTANCE.getIfcLine();
     }
 
     /**
@@ -64,7 +64,7 @@ public class IfcLineImpl extends IfcCurveImpl implements IfcLine {
      */
     @Override
     public IfcCartesianPoint getPnt() {
-        return (IfcCartesianPoint) eGet(Ifc2x3tc1Package.Literals.IFC_LINE__PNT, true);
+        return (IfcCartesianPoint) eGet(Ifc2x3tc1Package.eINSTANCE.getIfcLine_Pnt(), true);
     }
 
     /**
@@ -74,7 +74,7 @@ public class IfcLineImpl extends IfcCurveImpl implements IfcLine {
      */
     @Override
     public void setPnt(IfcCartesianPoint newPnt) {
-        eSet(Ifc2x3tc1Package.Literals.IFC_LINE__PNT, newPnt);
+        eSet(Ifc2x3tc1Package.eINSTANCE.getIfcLine_Pnt(), newPnt);
     }
 
     /**
@@ -84,7 +84,7 @@ public class IfcLineImpl extends IfcCurveImpl implements IfcLine {
      */
     @Override
     public IfcVector getDir() {
-        return (IfcVector) eGet(Ifc2x3tc1Package.Literals.IFC_LINE__DIR, true);
+        return (IfcVector) eGet(Ifc2x3tc1Package.eINSTANCE.getIfcLine_Dir(), true);
     }
 
     /**
@@ -94,7 +94,7 @@ public class IfcLineImpl extends IfcCurveImpl implements IfcLine {
      */
     @Override
     public void setDir(IfcVector newDir) {
-        eSet(Ifc2x3tc1Package.Literals.IFC_LINE__DIR, newDir);
+        eSet(Ifc2x3tc1Package.eINSTANCE.getIfcLine_Dir(), newDir);
     }
 
 } //IfcLineImpl

@@ -54,7 +54,7 @@ public class IfcResourceLevelRelationshipImpl extends IdEObjectImpl implements I
      */
     @Override
     protected EClass eStaticClass() {
-        return Ifc4Package.Literals.IFC_RESOURCE_LEVEL_RELATIONSHIP;
+        return Ifc4Package.eINSTANCE.getIfcResourceLevelRelationship();
     }
 
     /**
@@ -74,7 +74,7 @@ public class IfcResourceLevelRelationshipImpl extends IdEObjectImpl implements I
      */
     @Override
     public String getName() {
-        return (String) eGet(Ifc4Package.Literals.IFC_RESOURCE_LEVEL_RELATIONSHIP__NAME, true);
+        return (String) eGet(Ifc4Package.eINSTANCE.getIfcResourceLevelRelationship_Name(), true);
     }
 
     /**
@@ -84,7 +84,7 @@ public class IfcResourceLevelRelationshipImpl extends IdEObjectImpl implements I
      */
     @Override
     public void setName(String newName) {
-        eSet(Ifc4Package.Literals.IFC_RESOURCE_LEVEL_RELATIONSHIP__NAME, newName);
+        eSet(Ifc4Package.eINSTANCE.getIfcResourceLevelRelationship_Name(), newName);
     }
 
     /**
@@ -94,7 +94,7 @@ public class IfcResourceLevelRelationshipImpl extends IdEObjectImpl implements I
      */
     @Override
     public void unsetName() {
-        eUnset(Ifc4Package.Literals.IFC_RESOURCE_LEVEL_RELATIONSHIP__NAME);
+        eUnset(Ifc4Package.eINSTANCE.getIfcResourceLevelRelationship_Name());
     }
 
     /**
@@ -104,7 +104,7 @@ public class IfcResourceLevelRelationshipImpl extends IdEObjectImpl implements I
      */
     @Override
     public boolean isSetName() {
-        return eIsSet(Ifc4Package.Literals.IFC_RESOURCE_LEVEL_RELATIONSHIP__NAME);
+        return eIsSet(Ifc4Package.eINSTANCE.getIfcResourceLevelRelationship_Name());
     }
 
     /**
@@ -114,7 +114,7 @@ public class IfcResourceLevelRelationshipImpl extends IdEObjectImpl implements I
      */
     @Override
     public String getDescription() {
-        return (String) eGet(Ifc4Package.Literals.IFC_RESOURCE_LEVEL_RELATIONSHIP__DESCRIPTION, true);
+        return (String) eGet(Ifc4Package.eINSTANCE.getIfcResourceLevelRelationship_Description(), true);
     }
 
     /**
@@ -124,7 +124,7 @@ public class IfcResourceLevelRelationshipImpl extends IdEObjectImpl implements I
      */
     @Override
     public void setDescription(String newDescription) {
-        eSet(Ifc4Package.Literals.IFC_RESOURCE_LEVEL_RELATIONSHIP__DESCRIPTION, newDescription);
+        eSet(Ifc4Package.eINSTANCE.getIfcResourceLevelRelationship_Description(), newDescription);
     }
 
     /**
@@ -134,7 +134,7 @@ public class IfcResourceLevelRelationshipImpl extends IdEObjectImpl implements I
      */
     @Override
     public void unsetDescription() {
-        eUnset(Ifc4Package.Literals.IFC_RESOURCE_LEVEL_RELATIONSHIP__DESCRIPTION);
+        eUnset(Ifc4Package.eINSTANCE.getIfcResourceLevelRelationship_Description());
     }
 
     /**
@@ -144,7 +144,7 @@ public class IfcResourceLevelRelationshipImpl extends IdEObjectImpl implements I
      */
     @Override
     public boolean isSetDescription() {
-        return eIsSet(Ifc4Package.Literals.IFC_RESOURCE_LEVEL_RELATIONSHIP__DESCRIPTION);
+        return eIsSet(Ifc4Package.eINSTANCE.getIfcResourceLevelRelationship_Description());
     }
 
 } //IfcResourceLevelRelationshipImpl

@@ -41,10 +41,6 @@ public interface ServiceInterface extends IdEObject {
     /**
      * Returns the value of the '<em><b>Name</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Name</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Name</em>' attribute.
      * @see #setName(String)
@@ -67,10 +63,6 @@ public interface ServiceInterface extends IdEObject {
     /**
      * Returns the value of the '<em><b>Name Space</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Name Space</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Name Space</em>' attribute.
      * @see #setNameSpace(String)
@@ -93,10 +85,6 @@ public interface ServiceInterface extends IdEObject {
     /**
      * Returns the value of the '<em><b>Simple Name</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Simple Name</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Simple Name</em>' attribute.
      * @see #setSimpleName(String)

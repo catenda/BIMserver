@@ -39,10 +39,6 @@ public interface IfcVector extends IfcGeometricRepresentationItem, IfcVectorOrDi
     /**
      * Returns the value of the '<em><b>Orientation</b></em>' reference.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Orientation</em>' reference isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Orientation</em>' reference.
      * @see #setOrientation(IfcDirection)
@@ -65,10 +61,6 @@ public interface IfcVector extends IfcGeometricRepresentationItem, IfcVectorOrDi
     /**
      * Returns the value of the '<em><b>Magnitude</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Magnitude</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Magnitude</em>' attribute.
      * @see #setMagnitude(double)
@@ -91,10 +83,6 @@ public interface IfcVector extends IfcGeometricRepresentationItem, IfcVectorOrDi
     /**
      * Returns the value of the '<em><b>Magnitude As String</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Magnitude As String</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Magnitude As String</em>' attribute.
      * @see #setMagnitudeAsString(String)
@@ -118,10 +106,6 @@ public interface IfcVector extends IfcGeometricRepresentationItem, IfcVectorOrDi
     /**
      * Returns the value of the '<em><b>Dim</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Dim</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Dim</em>' attribute.
      * @see #isSetDim()

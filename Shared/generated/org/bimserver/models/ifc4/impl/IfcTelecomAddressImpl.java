@@ -58,7 +58,7 @@ public class IfcTelecomAddressImpl extends IfcAddressImpl implements IfcTelecomA
      */
     @Override
     protected EClass eStaticClass() {
-        return Ifc4Package.Literals.IFC_TELECOM_ADDRESS;
+        return Ifc4Package.eINSTANCE.getIfcTelecomAddress();
     }
 
     /**
@@ -69,7 +69,7 @@ public class IfcTelecomAddressImpl extends IfcAddressImpl implements IfcTelecomA
     @SuppressWarnings("unchecked")
     @Override
     public EList<String> getTelephoneNumbers() {
-        return (EList<String>) eGet(Ifc4Package.Literals.IFC_TELECOM_ADDRESS__TELEPHONE_NUMBERS, true);
+        return (EList<String>) eGet(Ifc4Package.eINSTANCE.getIfcTelecomAddress_TelephoneNumbers(), true);
     }
 
     /**
@@ -79,7 +79,7 @@ public class IfcTelecomAddressImpl extends IfcAddressImpl implements IfcTelecomA
      */
     @Override
     public void unsetTelephoneNumbers() {
-        eUnset(Ifc4Package.Literals.IFC_TELECOM_ADDRESS__TELEPHONE_NUMBERS);
+        eUnset(Ifc4Package.eINSTANCE.getIfcTelecomAddress_TelephoneNumbers());
     }
 
     /**
@@ -89,7 +89,7 @@ public class IfcTelecomAddressImpl extends IfcAddressImpl implements IfcTelecomA
      */
     @Override
     public boolean isSetTelephoneNumbers() {
-        return eIsSet(Ifc4Package.Literals.IFC_TELECOM_ADDRESS__TELEPHONE_NUMBERS);
+        return eIsSet(Ifc4Package.eINSTANCE.getIfcTelecomAddress_TelephoneNumbers());
     }
 
     /**
@@ -100,7 +100,7 @@ public class IfcTelecomAddressImpl extends IfcAddressImpl implements IfcTelecomA
     @SuppressWarnings("unchecked")
     @Override
     public EList<String> getFacsimileNumbers() {
-        return (EList<String>) eGet(Ifc4Package.Literals.IFC_TELECOM_ADDRESS__FACSIMILE_NUMBERS, true);
+        return (EList<String>) eGet(Ifc4Package.eINSTANCE.getIfcTelecomAddress_FacsimileNumbers(), true);
     }
 
     /**
@@ -110,7 +110,7 @@ public class IfcTelecomAddressImpl extends IfcAddressImpl implements IfcTelecomA
      */
     @Override
     public void unsetFacsimileNumbers() {
-        eUnset(Ifc4Package.Literals.IFC_TELECOM_ADDRESS__FACSIMILE_NUMBERS);
+        eUnset(Ifc4Package.eINSTANCE.getIfcTelecomAddress_FacsimileNumbers());
     }
 
     /**
@@ -120,7 +120,7 @@ public class IfcTelecomAddressImpl extends IfcAddressImpl implements IfcTelecomA
      */
     @Override
     public boolean isSetFacsimileNumbers() {
-        return eIsSet(Ifc4Package.Literals.IFC_TELECOM_ADDRESS__FACSIMILE_NUMBERS);
+        return eIsSet(Ifc4Package.eINSTANCE.getIfcTelecomAddress_FacsimileNumbers());
     }
 
     /**
@@ -130,7 +130,7 @@ public class IfcTelecomAddressImpl extends IfcAddressImpl implements IfcTelecomA
      */
     @Override
     public String getPagerNumber() {
-        return (String) eGet(Ifc4Package.Literals.IFC_TELECOM_ADDRESS__PAGER_NUMBER, true);
+        return (String) eGet(Ifc4Package.eINSTANCE.getIfcTelecomAddress_PagerNumber(), true);
     }
 
     /**
@@ -140,7 +140,7 @@ public class IfcTelecomAddressImpl extends IfcAddressImpl implements IfcTelecomA
      */
     @Override
     public void setPagerNumber(String newPagerNumber) {
-        eSet(Ifc4Package.Literals.IFC_TELECOM_ADDRESS__PAGER_NUMBER, newPagerNumber);
+        eSet(Ifc4Package.eINSTANCE.getIfcTelecomAddress_PagerNumber(), newPagerNumber);
     }
 
     /**
@@ -150,7 +150,7 @@ public class IfcTelecomAddressImpl extends IfcAddressImpl implements IfcTelecomA
      */
     @Override
     public void unsetPagerNumber() {
-        eUnset(Ifc4Package.Literals.IFC_TELECOM_ADDRESS__PAGER_NUMBER);
+        eUnset(Ifc4Package.eINSTANCE.getIfcTelecomAddress_PagerNumber());
     }
 
     /**
@@ -160,7 +160,7 @@ public class IfcTelecomAddressImpl extends IfcAddressImpl implements IfcTelecomA
      */
     @Override
     public boolean isSetPagerNumber() {
-        return eIsSet(Ifc4Package.Literals.IFC_TELECOM_ADDRESS__PAGER_NUMBER);
+        return eIsSet(Ifc4Package.eINSTANCE.getIfcTelecomAddress_PagerNumber());
     }
 
     /**
@@ -171,7 +171,7 @@ public class IfcTelecomAddressImpl extends IfcAddressImpl implements IfcTelecomA
     @SuppressWarnings("unchecked")
     @Override
     public EList<String> getElectronicMailAddresses() {
-        return (EList<String>) eGet(Ifc4Package.Literals.IFC_TELECOM_ADDRESS__ELECTRONIC_MAIL_ADDRESSES, true);
+        return (EList<String>) eGet(Ifc4Package.eINSTANCE.getIfcTelecomAddress_ElectronicMailAddresses(), true);
     }
 
     /**
@@ -181,7 +181,7 @@ public class IfcTelecomAddressImpl extends IfcAddressImpl implements IfcTelecomA
      */
     @Override
     public void unsetElectronicMailAddresses() {
-        eUnset(Ifc4Package.Literals.IFC_TELECOM_ADDRESS__ELECTRONIC_MAIL_ADDRESSES);
+        eUnset(Ifc4Package.eINSTANCE.getIfcTelecomAddress_ElectronicMailAddresses());
     }
 
     /**
@@ -191,7 +191,7 @@ public class IfcTelecomAddressImpl extends IfcAddressImpl implements IfcTelecomA
      */
     @Override
     public boolean isSetElectronicMailAddresses() {
-        return eIsSet(Ifc4Package.Literals.IFC_TELECOM_ADDRESS__ELECTRONIC_MAIL_ADDRESSES);
+        return eIsSet(Ifc4Package.eINSTANCE.getIfcTelecomAddress_ElectronicMailAddresses());
     }
 
     /**
@@ -201,7 +201,7 @@ public class IfcTelecomAddressImpl extends IfcAddressImpl implements IfcTelecomA
      */
     @Override
     public String getWWWHomePageURL() {
-        return (String) eGet(Ifc4Package.Literals.IFC_TELECOM_ADDRESS__WWW_HOME_PAGE_URL, true);
+        return (String) eGet(Ifc4Package.eINSTANCE.getIfcTelecomAddress_WWWHomePageURL(), true);
     }
 
     /**
@@ -211,7 +211,7 @@ public class IfcTelecomAddressImpl extends IfcAddressImpl implements IfcTelecomA
      */
     @Override
     public void setWWWHomePageURL(String newWWWHomePageURL) {
-        eSet(Ifc4Package.Literals.IFC_TELECOM_ADDRESS__WWW_HOME_PAGE_URL, newWWWHomePageURL);
+        eSet(Ifc4Package.eINSTANCE.getIfcTelecomAddress_WWWHomePageURL(), newWWWHomePageURL);
     }
 
     /**
@@ -221,7 +221,7 @@ public class IfcTelecomAddressImpl extends IfcAddressImpl implements IfcTelecomA
      */
     @Override
     public void unsetWWWHomePageURL() {
-        eUnset(Ifc4Package.Literals.IFC_TELECOM_ADDRESS__WWW_HOME_PAGE_URL);
+        eUnset(Ifc4Package.eINSTANCE.getIfcTelecomAddress_WWWHomePageURL());
     }
 
     /**
@@ -231,7 +231,7 @@ public class IfcTelecomAddressImpl extends IfcAddressImpl implements IfcTelecomA
      */
     @Override
     public boolean isSetWWWHomePageURL() {
-        return eIsSet(Ifc4Package.Literals.IFC_TELECOM_ADDRESS__WWW_HOME_PAGE_URL);
+        return eIsSet(Ifc4Package.eINSTANCE.getIfcTelecomAddress_WWWHomePageURL());
     }
 
     /**
@@ -242,7 +242,7 @@ public class IfcTelecomAddressImpl extends IfcAddressImpl implements IfcTelecomA
     @SuppressWarnings("unchecked")
     @Override
     public EList<String> getMessagingIDs() {
-        return (EList<String>) eGet(Ifc4Package.Literals.IFC_TELECOM_ADDRESS__MESSAGING_IDS, true);
+        return (EList<String>) eGet(Ifc4Package.eINSTANCE.getIfcTelecomAddress_MessagingIDs(), true);
     }
 
     /**
@@ -252,7 +252,7 @@ public class IfcTelecomAddressImpl extends IfcAddressImpl implements IfcTelecomA
      */
     @Override
     public void unsetMessagingIDs() {
-        eUnset(Ifc4Package.Literals.IFC_TELECOM_ADDRESS__MESSAGING_IDS);
+        eUnset(Ifc4Package.eINSTANCE.getIfcTelecomAddress_MessagingIDs());
     }
 
     /**
@@ -262,7 +262,7 @@ public class IfcTelecomAddressImpl extends IfcAddressImpl implements IfcTelecomA
      */
     @Override
     public boolean isSetMessagingIDs() {
-        return eIsSet(Ifc4Package.Literals.IFC_TELECOM_ADDRESS__MESSAGING_IDS);
+        return eIsSet(Ifc4Package.eINSTANCE.getIfcTelecomAddress_MessagingIDs());
     }
 
 } //IfcTelecomAddressImpl

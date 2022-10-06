@@ -41,10 +41,6 @@ public interface IfcCovering extends IfcBuildingElement {
      * Returns the value of the '<em><b>Predefined Type</b></em>' attribute.
      * The literals are from the enumeration {@link org.bimserver.models.ifc4.IfcCoveringTypeEnum}.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Predefined Type</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Predefined Type</em>' attribute.
      * @see org.bimserver.models.ifc4.IfcCoveringTypeEnum
@@ -98,10 +94,6 @@ public interface IfcCovering extends IfcBuildingElement {
      * The list contents are of type {@link org.bimserver.models.ifc4.IfcRelCoversSpaces}.
      * It is bidirectional and its opposite is '{@link org.bimserver.models.ifc4.IfcRelCoversSpaces#getRelatedCoverings <em>Related Coverings</em>}'.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Covers Spaces</em>' reference list isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Covers Spaces</em>' reference list.
      * @see #isSetCoversSpaces()
@@ -140,10 +132,6 @@ public interface IfcCovering extends IfcBuildingElement {
      * The list contents are of type {@link org.bimserver.models.ifc4.IfcRelCoversBldgElements}.
      * It is bidirectional and its opposite is '{@link org.bimserver.models.ifc4.IfcRelCoversBldgElements#getRelatedCoverings <em>Related Coverings</em>}'.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Covers Elements</em>' reference list isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Covers Elements</em>' reference list.
      * @see #isSetCoversElements()

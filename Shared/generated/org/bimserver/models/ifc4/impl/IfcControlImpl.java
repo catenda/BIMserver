@@ -55,7 +55,7 @@ public class IfcControlImpl extends IfcObjectImpl implements IfcControl {
      */
     @Override
     protected EClass eStaticClass() {
-        return Ifc4Package.Literals.IFC_CONTROL;
+        return Ifc4Package.eINSTANCE.getIfcControl();
     }
 
     /**
@@ -65,7 +65,7 @@ public class IfcControlImpl extends IfcObjectImpl implements IfcControl {
      */
     @Override
     public String getIdentification() {
-        return (String) eGet(Ifc4Package.Literals.IFC_CONTROL__IDENTIFICATION, true);
+        return (String) eGet(Ifc4Package.eINSTANCE.getIfcControl_Identification(), true);
     }
 
     /**
@@ -75,7 +75,7 @@ public class IfcControlImpl extends IfcObjectImpl implements IfcControl {
      */
     @Override
     public void setIdentification(String newIdentification) {
-        eSet(Ifc4Package.Literals.IFC_CONTROL__IDENTIFICATION, newIdentification);
+        eSet(Ifc4Package.eINSTANCE.getIfcControl_Identification(), newIdentification);
     }
 
     /**
@@ -85,7 +85,7 @@ public class IfcControlImpl extends IfcObjectImpl implements IfcControl {
      */
     @Override
     public void unsetIdentification() {
-        eUnset(Ifc4Package.Literals.IFC_CONTROL__IDENTIFICATION);
+        eUnset(Ifc4Package.eINSTANCE.getIfcControl_Identification());
     }
 
     /**
@@ -95,7 +95,7 @@ public class IfcControlImpl extends IfcObjectImpl implements IfcControl {
      */
     @Override
     public boolean isSetIdentification() {
-        return eIsSet(Ifc4Package.Literals.IFC_CONTROL__IDENTIFICATION);
+        return eIsSet(Ifc4Package.eINSTANCE.getIfcControl_Identification());
     }
 
     /**
@@ -106,7 +106,7 @@ public class IfcControlImpl extends IfcObjectImpl implements IfcControl {
     @SuppressWarnings("unchecked")
     @Override
     public EList<IfcRelAssignsToControl> getControls() {
-        return (EList<IfcRelAssignsToControl>) eGet(Ifc4Package.Literals.IFC_CONTROL__CONTROLS, true);
+        return (EList<IfcRelAssignsToControl>) eGet(Ifc4Package.eINSTANCE.getIfcControl_Controls(), true);
     }
 
     /**
@@ -116,7 +116,7 @@ public class IfcControlImpl extends IfcObjectImpl implements IfcControl {
      */
     @Override
     public void unsetControls() {
-        eUnset(Ifc4Package.Literals.IFC_CONTROL__CONTROLS);
+        eUnset(Ifc4Package.eINSTANCE.getIfcControl_Controls());
     }
 
     /**
@@ -126,7 +126,7 @@ public class IfcControlImpl extends IfcObjectImpl implements IfcControl {
      */
     @Override
     public boolean isSetControls() {
-        return eIsSet(Ifc4Package.Literals.IFC_CONTROL__CONTROLS);
+        return eIsSet(Ifc4Package.eINSTANCE.getIfcControl_Controls());
     }
 
 } //IfcControlImpl

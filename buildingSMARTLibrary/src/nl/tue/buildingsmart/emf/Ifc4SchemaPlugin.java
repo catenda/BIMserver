@@ -46,7 +46,7 @@ public class Ifc4SchemaPlugin implements SchemaPlugin {
 
 	@Override
 	public String getDescription() {
-		return "BuildingSmartLibrarySchemaPlugin";
+		return "Ifc4SchemaPlugin";
 	}
 
 	@Override

@@ -54,7 +54,7 @@ public class IfcFacetedBrepWithVoidsImpl extends IfcManifoldSolidBrepImpl implem
      */
     @Override
     protected EClass eStaticClass() {
-        return Ifc2x3tc1Package.Literals.IFC_FACETED_BREP_WITH_VOIDS;
+        return Ifc2x3tc1Package.eINSTANCE.getIfcFacetedBrepWithVoids();
     }
 
     /**
@@ -65,7 +65,7 @@ public class IfcFacetedBrepWithVoidsImpl extends IfcManifoldSolidBrepImpl implem
     @SuppressWarnings("unchecked")
     @Override
     public EList<IfcClosedShell> getVoids() {
-        return (EList<IfcClosedShell>) eGet(Ifc2x3tc1Package.Literals.IFC_FACETED_BREP_WITH_VOIDS__VOIDS, true);
+        return (EList<IfcClosedShell>) eGet(Ifc2x3tc1Package.eINSTANCE.getIfcFacetedBrepWithVoids_Voids(), true);
     }
 
 } //IfcFacetedBrepWithVoidsImpl

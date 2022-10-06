@@ -51,7 +51,7 @@ public class IfcZoneImpl extends IfcSystemImpl implements IfcZone {
      */
     @Override
     protected EClass eStaticClass() {
-        return Ifc4Package.Literals.IFC_ZONE;
+        return Ifc4Package.eINSTANCE.getIfcZone();
     }
 
     /**
@@ -61,7 +61,7 @@ public class IfcZoneImpl extends IfcSystemImpl implements IfcZone {
      */
     @Override
     public String getLongName() {
-        return (String) eGet(Ifc4Package.Literals.IFC_ZONE__LONG_NAME, true);
+        return (String) eGet(Ifc4Package.eINSTANCE.getIfcZone_LongName(), true);
     }
 
     /**
@@ -71,7 +71,7 @@ public class IfcZoneImpl extends IfcSystemImpl implements IfcZone {
      */
     @Override
     public void setLongName(String newLongName) {
-        eSet(Ifc4Package.Literals.IFC_ZONE__LONG_NAME, newLongName);
+        eSet(Ifc4Package.eINSTANCE.getIfcZone_LongName(), newLongName);
     }
 
     /**
@@ -81,7 +81,7 @@ public class IfcZoneImpl extends IfcSystemImpl implements IfcZone {
      */
     @Override
     public void unsetLongName() {
-        eUnset(Ifc4Package.Literals.IFC_ZONE__LONG_NAME);
+        eUnset(Ifc4Package.eINSTANCE.getIfcZone_LongName());
     }
 
     /**
@@ -91,7 +91,7 @@ public class IfcZoneImpl extends IfcSystemImpl implements IfcZone {
      */
     @Override
     public boolean isSetLongName() {
-        return eIsSet(Ifc4Package.Literals.IFC_ZONE__LONG_NAME);
+        return eIsSet(Ifc4Package.eINSTANCE.getIfcZone_LongName());
     }
 
 } //IfcZoneImpl

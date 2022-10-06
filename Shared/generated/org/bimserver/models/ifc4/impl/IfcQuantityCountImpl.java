@@ -53,7 +53,7 @@ public class IfcQuantityCountImpl extends IfcPhysicalSimpleQuantityImpl implemen
      */
     @Override
     protected EClass eStaticClass() {
-        return Ifc4Package.Literals.IFC_QUANTITY_COUNT;
+        return Ifc4Package.eINSTANCE.getIfcQuantityCount();
     }
 
     /**
@@ -63,7 +63,7 @@ public class IfcQuantityCountImpl extends IfcPhysicalSimpleQuantityImpl implemen
      */
     @Override
     public double getCountValue() {
-        return (Double) eGet(Ifc4Package.Literals.IFC_QUANTITY_COUNT__COUNT_VALUE, true);
+        return (Double) eGet(Ifc4Package.eINSTANCE.getIfcQuantityCount_CountValue(), true);
     }
 
     /**
@@ -73,7 +73,7 @@ public class IfcQuantityCountImpl extends IfcPhysicalSimpleQuantityImpl implemen
      */
     @Override
     public void setCountValue(double newCountValue) {
-        eSet(Ifc4Package.Literals.IFC_QUANTITY_COUNT__COUNT_VALUE, newCountValue);
+        eSet(Ifc4Package.eINSTANCE.getIfcQuantityCount_CountValue(), newCountValue);
     }
 
     /**
@@ -83,7 +83,7 @@ public class IfcQuantityCountImpl extends IfcPhysicalSimpleQuantityImpl implemen
      */
     @Override
     public String getCountValueAsString() {
-        return (String) eGet(Ifc4Package.Literals.IFC_QUANTITY_COUNT__COUNT_VALUE_AS_STRING, true);
+        return (String) eGet(Ifc4Package.eINSTANCE.getIfcQuantityCount_CountValueAsString(), true);
     }
 
     /**
@@ -93,7 +93,7 @@ public class IfcQuantityCountImpl extends IfcPhysicalSimpleQuantityImpl implemen
      */
     @Override
     public void setCountValueAsString(String newCountValueAsString) {
-        eSet(Ifc4Package.Literals.IFC_QUANTITY_COUNT__COUNT_VALUE_AS_STRING, newCountValueAsString);
+        eSet(Ifc4Package.eINSTANCE.getIfcQuantityCount_CountValueAsString(), newCountValueAsString);
     }
 
     /**
@@ -103,7 +103,7 @@ public class IfcQuantityCountImpl extends IfcPhysicalSimpleQuantityImpl implemen
      */
     @Override
     public String getFormula() {
-        return (String) eGet(Ifc4Package.Literals.IFC_QUANTITY_COUNT__FORMULA, true);
+        return (String) eGet(Ifc4Package.eINSTANCE.getIfcQuantityCount_Formula(), true);
     }
 
     /**
@@ -113,7 +113,7 @@ public class IfcQuantityCountImpl extends IfcPhysicalSimpleQuantityImpl implemen
      */
     @Override
     public void setFormula(String newFormula) {
-        eSet(Ifc4Package.Literals.IFC_QUANTITY_COUNT__FORMULA, newFormula);
+        eSet(Ifc4Package.eINSTANCE.getIfcQuantityCount_Formula(), newFormula);
     }
 
     /**
@@ -123,7 +123,7 @@ public class IfcQuantityCountImpl extends IfcPhysicalSimpleQuantityImpl implemen
      */
     @Override
     public void unsetFormula() {
-        eUnset(Ifc4Package.Literals.IFC_QUANTITY_COUNT__FORMULA);
+        eUnset(Ifc4Package.eINSTANCE.getIfcQuantityCount_Formula());
     }
 
     /**
@@ -133,7 +133,7 @@ public class IfcQuantityCountImpl extends IfcPhysicalSimpleQuantityImpl implemen
      */
     @Override
     public boolean isSetFormula() {
-        return eIsSet(Ifc4Package.Literals.IFC_QUANTITY_COUNT__FORMULA);
+        return eIsSet(Ifc4Package.eINSTANCE.getIfcQuantityCount_Formula());
     }
 
 } //IfcQuantityCountImpl

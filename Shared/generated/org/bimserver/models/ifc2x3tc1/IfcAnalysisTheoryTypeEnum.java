@@ -105,10 +105,6 @@ public enum IfcAnalysisTheoryTypeEnum implements Enumerator {
     /**
      * The '<em><b>NULL</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>NULL</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #NULL
      * @model
@@ -120,10 +116,6 @@ public enum IfcAnalysisTheoryTypeEnum implements Enumerator {
     /**
      * The '<em><b>SECOND ORDER THEORY</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>SECOND ORDER THEORY</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #SECOND_ORDER_THEORY
      * @model
@@ -135,10 +127,6 @@ public enum IfcAnalysisTheoryTypeEnum implements Enumerator {
     /**
      * The '<em><b>NOTDEFINED</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>NOTDEFINED</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #NOTDEFINED
      * @model
@@ -150,10 +138,6 @@ public enum IfcAnalysisTheoryTypeEnum implements Enumerator {
     /**
      * The '<em><b>FIRST ORDER THEORY</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>FIRST ORDER THEORY</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #FIRST_ORDER_THEORY
      * @model
@@ -165,10 +149,6 @@ public enum IfcAnalysisTheoryTypeEnum implements Enumerator {
     /**
      * The '<em><b>USERDEFINED</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>USERDEFINED</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #USERDEFINED
      * @model
@@ -180,10 +160,6 @@ public enum IfcAnalysisTheoryTypeEnum implements Enumerator {
     /**
      * The '<em><b>FULL NONLINEAR THEORY</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>FULL NONLINEAR THEORY</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #FULL_NONLINEAR_THEORY
      * @model
@@ -195,10 +171,6 @@ public enum IfcAnalysisTheoryTypeEnum implements Enumerator {
     /**
      * The '<em><b>THIRD ORDER THEORY</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>THIRD ORDER THEORY</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #THIRD_ORDER_THEORY
      * @model

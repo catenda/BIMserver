@@ -135,10 +135,6 @@ public enum IfcDoorPanelOperationEnum implements Enumerator {
     /**
      * The '<em><b>NULL</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>NULL</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #NULL
      * @model
@@ -150,10 +146,6 @@ public enum IfcDoorPanelOperationEnum implements Enumerator {
     /**
      * The '<em><b>NOTDEFINED</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>NOTDEFINED</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #NOTDEFINED
      * @model
@@ -165,10 +157,6 @@ public enum IfcDoorPanelOperationEnum implements Enumerator {
     /**
      * The '<em><b>FOLDING</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>FOLDING</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #FOLDING
      * @model
@@ -180,10 +168,6 @@ public enum IfcDoorPanelOperationEnum implements Enumerator {
     /**
      * The '<em><b>SLIDING</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>SLIDING</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #SLIDING
      * @model
@@ -195,10 +179,6 @@ public enum IfcDoorPanelOperationEnum implements Enumerator {
     /**
      * The '<em><b>REVOLVING</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>REVOLVING</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #REVOLVING
      * @model
@@ -210,10 +190,6 @@ public enum IfcDoorPanelOperationEnum implements Enumerator {
     /**
      * The '<em><b>SWINGING</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>SWINGING</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #SWINGING
      * @model
@@ -225,10 +201,6 @@ public enum IfcDoorPanelOperationEnum implements Enumerator {
     /**
      * The '<em><b>USERDEFINED</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>USERDEFINED</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #USERDEFINED
      * @model
@@ -240,10 +212,6 @@ public enum IfcDoorPanelOperationEnum implements Enumerator {
     /**
      * The '<em><b>ROLLINGUP</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>ROLLINGUP</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #ROLLINGUP
      * @model
@@ -255,10 +223,6 @@ public enum IfcDoorPanelOperationEnum implements Enumerator {
     /**
      * The '<em><b>DOUBLE ACTING</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>DOUBLE ACTING</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #DOUBLE_ACTING
      * @model
@@ -270,10 +234,6 @@ public enum IfcDoorPanelOperationEnum implements Enumerator {
     /**
      * The '<em><b>FIXEDPANEL</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>FIXEDPANEL</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #FIXEDPANEL
      * @model

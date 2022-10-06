@@ -56,7 +56,7 @@ public class IfcMaterialLayerWithOffsetsImpl extends IfcMaterialLayerImpl implem
      */
     @Override
     protected EClass eStaticClass() {
-        return Ifc4Package.Literals.IFC_MATERIAL_LAYER_WITH_OFFSETS;
+        return Ifc4Package.eINSTANCE.getIfcMaterialLayerWithOffsets();
     }
 
     /**
@@ -66,7 +66,7 @@ public class IfcMaterialLayerWithOffsetsImpl extends IfcMaterialLayerImpl implem
      */
     @Override
     public IfcLayerSetDirectionEnum getOffsetDirection() {
-        return (IfcLayerSetDirectionEnum) eGet(Ifc4Package.Literals.IFC_MATERIAL_LAYER_WITH_OFFSETS__OFFSET_DIRECTION,
+        return (IfcLayerSetDirectionEnum) eGet(Ifc4Package.eINSTANCE.getIfcMaterialLayerWithOffsets_OffsetDirection(),
                 true);
     }
 
@@ -77,7 +77,7 @@ public class IfcMaterialLayerWithOffsetsImpl extends IfcMaterialLayerImpl implem
      */
     @Override
     public void setOffsetDirection(IfcLayerSetDirectionEnum newOffsetDirection) {
-        eSet(Ifc4Package.Literals.IFC_MATERIAL_LAYER_WITH_OFFSETS__OFFSET_DIRECTION, newOffsetDirection);
+        eSet(Ifc4Package.eINSTANCE.getIfcMaterialLayerWithOffsets_OffsetDirection(), newOffsetDirection);
     }
 
     /**
@@ -88,7 +88,7 @@ public class IfcMaterialLayerWithOffsetsImpl extends IfcMaterialLayerImpl implem
     @SuppressWarnings("unchecked")
     @Override
     public EList<Double> getOffsetValues() {
-        return (EList<Double>) eGet(Ifc4Package.Literals.IFC_MATERIAL_LAYER_WITH_OFFSETS__OFFSET_VALUES, true);
+        return (EList<Double>) eGet(Ifc4Package.eINSTANCE.getIfcMaterialLayerWithOffsets_OffsetValues(), true);
     }
 
     /**
@@ -99,8 +99,7 @@ public class IfcMaterialLayerWithOffsetsImpl extends IfcMaterialLayerImpl implem
     @SuppressWarnings("unchecked")
     @Override
     public EList<String> getOffsetValuesAsString() {
-        return (EList<String>) eGet(Ifc4Package.Literals.IFC_MATERIAL_LAYER_WITH_OFFSETS__OFFSET_VALUES_AS_STRING,
-                true);
+        return (EList<String>) eGet(Ifc4Package.eINSTANCE.getIfcMaterialLayerWithOffsets_OffsetValuesAsString(), true);
     }
 
 } //IfcMaterialLayerWithOffsetsImpl

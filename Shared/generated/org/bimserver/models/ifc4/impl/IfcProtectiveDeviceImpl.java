@@ -52,7 +52,7 @@ public class IfcProtectiveDeviceImpl extends IfcFlowControllerImpl implements If
      */
     @Override
     protected EClass eStaticClass() {
-        return Ifc4Package.Literals.IFC_PROTECTIVE_DEVICE;
+        return Ifc4Package.eINSTANCE.getIfcProtectiveDevice();
     }
 
     /**
@@ -62,7 +62,7 @@ public class IfcProtectiveDeviceImpl extends IfcFlowControllerImpl implements If
      */
     @Override
     public IfcProtectiveDeviceTypeEnum getPredefinedType() {
-        return (IfcProtectiveDeviceTypeEnum) eGet(Ifc4Package.Literals.IFC_PROTECTIVE_DEVICE__PREDEFINED_TYPE, true);
+        return (IfcProtectiveDeviceTypeEnum) eGet(Ifc4Package.eINSTANCE.getIfcProtectiveDevice_PredefinedType(), true);
     }
 
     /**
@@ -72,7 +72,7 @@ public class IfcProtectiveDeviceImpl extends IfcFlowControllerImpl implements If
      */
     @Override
     public void setPredefinedType(IfcProtectiveDeviceTypeEnum newPredefinedType) {
-        eSet(Ifc4Package.Literals.IFC_PROTECTIVE_DEVICE__PREDEFINED_TYPE, newPredefinedType);
+        eSet(Ifc4Package.eINSTANCE.getIfcProtectiveDevice_PredefinedType(), newPredefinedType);
     }
 
     /**
@@ -82,7 +82,7 @@ public class IfcProtectiveDeviceImpl extends IfcFlowControllerImpl implements If
      */
     @Override
     public void unsetPredefinedType() {
-        eUnset(Ifc4Package.Literals.IFC_PROTECTIVE_DEVICE__PREDEFINED_TYPE);
+        eUnset(Ifc4Package.eINSTANCE.getIfcProtectiveDevice_PredefinedType());
     }
 
     /**
@@ -92,7 +92,7 @@ public class IfcProtectiveDeviceImpl extends IfcFlowControllerImpl implements If
      */
     @Override
     public boolean isSetPredefinedType() {
-        return eIsSet(Ifc4Package.Literals.IFC_PROTECTIVE_DEVICE__PREDEFINED_TYPE);
+        return eIsSet(Ifc4Package.eINSTANCE.getIfcProtectiveDevice_PredefinedType());
     }
 
 } //IfcProtectiveDeviceImpl

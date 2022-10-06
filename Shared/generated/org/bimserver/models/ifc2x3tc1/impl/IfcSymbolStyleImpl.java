@@ -52,7 +52,7 @@ public class IfcSymbolStyleImpl extends IfcPresentationStyleImpl implements IfcS
      */
     @Override
     protected EClass eStaticClass() {
-        return Ifc2x3tc1Package.Literals.IFC_SYMBOL_STYLE;
+        return Ifc2x3tc1Package.eINSTANCE.getIfcSymbolStyle();
     }
 
     /**
@@ -62,7 +62,7 @@ public class IfcSymbolStyleImpl extends IfcPresentationStyleImpl implements IfcS
      */
     @Override
     public IfcSymbolStyleSelect getStyleOfSymbol() {
-        return (IfcSymbolStyleSelect) eGet(Ifc2x3tc1Package.Literals.IFC_SYMBOL_STYLE__STYLE_OF_SYMBOL, true);
+        return (IfcSymbolStyleSelect) eGet(Ifc2x3tc1Package.eINSTANCE.getIfcSymbolStyle_StyleOfSymbol(), true);
     }
 
     /**
@@ -72,7 +72,7 @@ public class IfcSymbolStyleImpl extends IfcPresentationStyleImpl implements IfcS
      */
     @Override
     public void setStyleOfSymbol(IfcSymbolStyleSelect newStyleOfSymbol) {
-        eSet(Ifc2x3tc1Package.Literals.IFC_SYMBOL_STYLE__STYLE_OF_SYMBOL, newStyleOfSymbol);
+        eSet(Ifc2x3tc1Package.eINSTANCE.getIfcSymbolStyle_StyleOfSymbol(), newStyleOfSymbol);
     }
 
 } //IfcSymbolStyleImpl

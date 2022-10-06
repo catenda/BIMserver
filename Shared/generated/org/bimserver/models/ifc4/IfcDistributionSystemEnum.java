@@ -485,10 +485,6 @@ public enum IfcDistributionSystemEnum implements Enumerator {
     /**
      * The '<em><b>NULL</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>NULL</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #NULL
      * @model
@@ -500,10 +496,6 @@ public enum IfcDistributionSystemEnum implements Enumerator {
     /**
      * The '<em><b>VACUUM</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>VACUUM</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #VACUUM
      * @model
@@ -515,10 +507,6 @@ public enum IfcDistributionSystemEnum implements Enumerator {
     /**
      * The '<em><b>TV</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>TV</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #TV
      * @model
@@ -530,10 +518,6 @@ public enum IfcDistributionSystemEnum implements Enumerator {
     /**
      * The '<em><b>ELECTRICAL</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>ELECTRICAL</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #ELECTRICAL
      * @model
@@ -545,10 +529,6 @@ public enum IfcDistributionSystemEnum implements Enumerator {
     /**
      * The '<em><b>STORMWATER</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>STORMWATER</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #STORMWATER
      * @model
@@ -560,10 +540,6 @@ public enum IfcDistributionSystemEnum implements Enumerator {
     /**
      * The '<em><b>FIREPROTECTION</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>FIREPROTECTION</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #FIREPROTECTION
      * @model
@@ -575,10 +551,6 @@ public enum IfcDistributionSystemEnum implements Enumerator {
     /**
      * The '<em><b>EXHAUST</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>EXHAUST</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #EXHAUST
      * @model
@@ -590,10 +562,6 @@ public enum IfcDistributionSystemEnum implements Enumerator {
     /**
      * The '<em><b>LIGHTNINGPROTECTION</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>LIGHTNINGPROTECTION</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #LIGHTNINGPROTECTION
      * @model
@@ -605,10 +573,6 @@ public enum IfcDistributionSystemEnum implements Enumerator {
     /**
      * The '<em><b>LIGHTING</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>LIGHTING</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #LIGHTING
      * @model
@@ -620,10 +584,6 @@ public enum IfcDistributionSystemEnum implements Enumerator {
     /**
      * The '<em><b>USERDEFINED</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>USERDEFINED</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #USERDEFINED
      * @model
@@ -635,10 +595,6 @@ public enum IfcDistributionSystemEnum implements Enumerator {
     /**
      * The '<em><b>AIRCONDITIONING</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>AIRCONDITIONING</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #AIRCONDITIONING
      * @model
@@ -650,10 +606,6 @@ public enum IfcDistributionSystemEnum implements Enumerator {
     /**
      * The '<em><b>EARTHING</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>EARTHING</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #EARTHING
      * @model
@@ -665,10 +617,6 @@ public enum IfcDistributionSystemEnum implements Enumerator {
     /**
      * The '<em><b>DOMESTICHOTWATER</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>DOMESTICHOTWATER</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #DOMESTICHOTWATER
      * @model
@@ -680,10 +628,6 @@ public enum IfcDistributionSystemEnum implements Enumerator {
     /**
      * The '<em><b>NOTDEFINED</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>NOTDEFINED</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #NOTDEFINED
      * @model
@@ -695,10 +639,6 @@ public enum IfcDistributionSystemEnum implements Enumerator {
     /**
      * The '<em><b>VENTILATION</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>VENTILATION</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #VENTILATION
      * @model
@@ -710,10 +650,6 @@ public enum IfcDistributionSystemEnum implements Enumerator {
     /**
      * The '<em><b>DISPOSAL</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>DISPOSAL</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #DISPOSAL
      * @model
@@ -725,10 +661,6 @@ public enum IfcDistributionSystemEnum implements Enumerator {
     /**
      * The '<em><b>FUEL</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>FUEL</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #FUEL
      * @model
@@ -740,10 +672,6 @@ public enum IfcDistributionSystemEnum implements Enumerator {
     /**
      * The '<em><b>CHILLEDWATER</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>CHILLEDWATER</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #CHILLEDWATER
      * @model
@@ -755,10 +683,6 @@ public enum IfcDistributionSystemEnum implements Enumerator {
     /**
      * The '<em><b>CONVEYING</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>CONVEYING</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #CONVEYING
      * @model
@@ -770,10 +694,6 @@ public enum IfcDistributionSystemEnum implements Enumerator {
     /**
      * The '<em><b>REFRIGERATION</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>REFRIGERATION</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #REFRIGERATION
      * @model
@@ -785,10 +705,6 @@ public enum IfcDistributionSystemEnum implements Enumerator {
     /**
      * The '<em><b>VENT</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>VENT</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #VENT
      * @model
@@ -800,10 +716,6 @@ public enum IfcDistributionSystemEnum implements Enumerator {
     /**
      * The '<em><b>WATERSUPPLY</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>WATERSUPPLY</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #WATERSUPPLY
      * @model
@@ -815,10 +727,6 @@ public enum IfcDistributionSystemEnum implements Enumerator {
     /**
      * The '<em><b>CHEMICAL</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>CHEMICAL</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #CHEMICAL
      * @model
@@ -830,10 +738,6 @@ public enum IfcDistributionSystemEnum implements Enumerator {
     /**
      * The '<em><b>SIGNAL</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>SIGNAL</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #SIGNAL
      * @model
@@ -845,10 +749,6 @@ public enum IfcDistributionSystemEnum implements Enumerator {
     /**
      * The '<em><b>RAINWATER</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>RAINWATER</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #RAINWATER
      * @model
@@ -860,10 +760,6 @@ public enum IfcDistributionSystemEnum implements Enumerator {
     /**
      * The '<em><b>TELEPHONE</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>TELEPHONE</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #TELEPHONE
      * @model
@@ -875,10 +771,6 @@ public enum IfcDistributionSystemEnum implements Enumerator {
     /**
      * The '<em><b>COMPRESSEDAIR</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>COMPRESSEDAIR</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #COMPRESSEDAIR
      * @model
@@ -890,10 +782,6 @@ public enum IfcDistributionSystemEnum implements Enumerator {
     /**
      * The '<em><b>DRAINAGE</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>DRAINAGE</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #DRAINAGE
      * @model
@@ -905,10 +793,6 @@ public enum IfcDistributionSystemEnum implements Enumerator {
     /**
      * The '<em><b>ELECTROACOUSTIC</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>ELECTROACOUSTIC</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #ELECTROACOUSTIC
      * @model
@@ -920,10 +804,6 @@ public enum IfcDistributionSystemEnum implements Enumerator {
     /**
      * The '<em><b>MUNICIPALSOLIDWASTE</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>MUNICIPALSOLIDWASTE</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #MUNICIPALSOLIDWASTE
      * @model
@@ -935,10 +815,6 @@ public enum IfcDistributionSystemEnum implements Enumerator {
     /**
      * The '<em><b>CONDENSERWATER</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>CONDENSERWATER</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #CONDENSERWATER
      * @model
@@ -950,10 +826,6 @@ public enum IfcDistributionSystemEnum implements Enumerator {
     /**
      * The '<em><b>HEATING</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>HEATING</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #HEATING
      * @model
@@ -965,10 +837,6 @@ public enum IfcDistributionSystemEnum implements Enumerator {
     /**
      * The '<em><b>SEWAGE</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>SEWAGE</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #SEWAGE
      * @model
@@ -980,10 +848,6 @@ public enum IfcDistributionSystemEnum implements Enumerator {
     /**
      * The '<em><b>HAZARDOUS</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>HAZARDOUS</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #HAZARDOUS
      * @model
@@ -995,10 +859,6 @@ public enum IfcDistributionSystemEnum implements Enumerator {
     /**
      * The '<em><b>POWERGENERATION</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>POWERGENERATION</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #POWERGENERATION
      * @model
@@ -1010,10 +870,6 @@ public enum IfcDistributionSystemEnum implements Enumerator {
     /**
      * The '<em><b>OIL</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>OIL</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #OIL
      * @model
@@ -1025,10 +881,6 @@ public enum IfcDistributionSystemEnum implements Enumerator {
     /**
      * The '<em><b>WASTEWATER</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>WASTEWATER</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #WASTEWATER
      * @model
@@ -1040,10 +892,6 @@ public enum IfcDistributionSystemEnum implements Enumerator {
     /**
      * The '<em><b>DATA</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>DATA</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #DATA
      * @model
@@ -1055,10 +903,6 @@ public enum IfcDistributionSystemEnum implements Enumerator {
     /**
      * The '<em><b>GAS</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>GAS</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #GAS
      * @model
@@ -1070,10 +914,6 @@ public enum IfcDistributionSystemEnum implements Enumerator {
     /**
      * The '<em><b>SECURITY</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>SECURITY</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #SECURITY
      * @model
@@ -1085,10 +925,6 @@ public enum IfcDistributionSystemEnum implements Enumerator {
     /**
      * The '<em><b>AUDIOVISUAL</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>AUDIOVISUAL</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #AUDIOVISUAL
      * @model
@@ -1100,10 +936,6 @@ public enum IfcDistributionSystemEnum implements Enumerator {
     /**
      * The '<em><b>DOMESTICCOLDWATER</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>DOMESTICCOLDWATER</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #DOMESTICCOLDWATER
      * @model
@@ -1115,10 +947,6 @@ public enum IfcDistributionSystemEnum implements Enumerator {
     /**
      * The '<em><b>OPERATIONAL</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>OPERATIONAL</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #OPERATIONAL
      * @model
@@ -1130,10 +958,6 @@ public enum IfcDistributionSystemEnum implements Enumerator {
     /**
      * The '<em><b>COMMUNICATION</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>COMMUNICATION</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #COMMUNICATION
      * @model
@@ -1145,10 +969,6 @@ public enum IfcDistributionSystemEnum implements Enumerator {
     /**
      * The '<em><b>CONTROL</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>CONTROL</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #CONTROL
      * @model

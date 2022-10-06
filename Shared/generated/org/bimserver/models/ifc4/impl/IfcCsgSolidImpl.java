@@ -52,7 +52,7 @@ public class IfcCsgSolidImpl extends IfcSolidModelImpl implements IfcCsgSolid {
      */
     @Override
     protected EClass eStaticClass() {
-        return Ifc4Package.Literals.IFC_CSG_SOLID;
+        return Ifc4Package.eINSTANCE.getIfcCsgSolid();
     }
 
     /**
@@ -62,7 +62,7 @@ public class IfcCsgSolidImpl extends IfcSolidModelImpl implements IfcCsgSolid {
      */
     @Override
     public IfcCsgSelect getTreeRootExpression() {
-        return (IfcCsgSelect) eGet(Ifc4Package.Literals.IFC_CSG_SOLID__TREE_ROOT_EXPRESSION, true);
+        return (IfcCsgSelect) eGet(Ifc4Package.eINSTANCE.getIfcCsgSolid_TreeRootExpression(), true);
     }
 
     /**
@@ -72,7 +72,7 @@ public class IfcCsgSolidImpl extends IfcSolidModelImpl implements IfcCsgSolid {
      */
     @Override
     public void setTreeRootExpression(IfcCsgSelect newTreeRootExpression) {
-        eSet(Ifc4Package.Literals.IFC_CSG_SOLID__TREE_ROOT_EXPRESSION, newTreeRootExpression);
+        eSet(Ifc4Package.eINSTANCE.getIfcCsgSolid_TreeRootExpression(), newTreeRootExpression);
     }
 
 } //IfcCsgSolidImpl

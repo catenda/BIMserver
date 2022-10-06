@@ -60,7 +60,7 @@ public class IfcStructuralResultGroupImpl extends IfcGroupImpl implements IfcStr
      */
     @Override
     protected EClass eStaticClass() {
-        return Ifc4Package.Literals.IFC_STRUCTURAL_RESULT_GROUP;
+        return Ifc4Package.eINSTANCE.getIfcStructuralResultGroup();
     }
 
     /**
@@ -70,7 +70,7 @@ public class IfcStructuralResultGroupImpl extends IfcGroupImpl implements IfcStr
      */
     @Override
     public IfcAnalysisTheoryTypeEnum getTheoryType() {
-        return (IfcAnalysisTheoryTypeEnum) eGet(Ifc4Package.Literals.IFC_STRUCTURAL_RESULT_GROUP__THEORY_TYPE, true);
+        return (IfcAnalysisTheoryTypeEnum) eGet(Ifc4Package.eINSTANCE.getIfcStructuralResultGroup_TheoryType(), true);
     }
 
     /**
@@ -80,7 +80,7 @@ public class IfcStructuralResultGroupImpl extends IfcGroupImpl implements IfcStr
      */
     @Override
     public void setTheoryType(IfcAnalysisTheoryTypeEnum newTheoryType) {
-        eSet(Ifc4Package.Literals.IFC_STRUCTURAL_RESULT_GROUP__THEORY_TYPE, newTheoryType);
+        eSet(Ifc4Package.eINSTANCE.getIfcStructuralResultGroup_TheoryType(), newTheoryType);
     }
 
     /**
@@ -90,7 +90,7 @@ public class IfcStructuralResultGroupImpl extends IfcGroupImpl implements IfcStr
      */
     @Override
     public IfcStructuralLoadGroup getResultForLoadGroup() {
-        return (IfcStructuralLoadGroup) eGet(Ifc4Package.Literals.IFC_STRUCTURAL_RESULT_GROUP__RESULT_FOR_LOAD_GROUP,
+        return (IfcStructuralLoadGroup) eGet(Ifc4Package.eINSTANCE.getIfcStructuralResultGroup_ResultForLoadGroup(),
                 true);
     }
 
@@ -101,7 +101,7 @@ public class IfcStructuralResultGroupImpl extends IfcGroupImpl implements IfcStr
      */
     @Override
     public void setResultForLoadGroup(IfcStructuralLoadGroup newResultForLoadGroup) {
-        eSet(Ifc4Package.Literals.IFC_STRUCTURAL_RESULT_GROUP__RESULT_FOR_LOAD_GROUP, newResultForLoadGroup);
+        eSet(Ifc4Package.eINSTANCE.getIfcStructuralResultGroup_ResultForLoadGroup(), newResultForLoadGroup);
     }
 
     /**
@@ -111,7 +111,7 @@ public class IfcStructuralResultGroupImpl extends IfcGroupImpl implements IfcStr
      */
     @Override
     public void unsetResultForLoadGroup() {
-        eUnset(Ifc4Package.Literals.IFC_STRUCTURAL_RESULT_GROUP__RESULT_FOR_LOAD_GROUP);
+        eUnset(Ifc4Package.eINSTANCE.getIfcStructuralResultGroup_ResultForLoadGroup());
     }
 
     /**
@@ -121,7 +121,7 @@ public class IfcStructuralResultGroupImpl extends IfcGroupImpl implements IfcStr
      */
     @Override
     public boolean isSetResultForLoadGroup() {
-        return eIsSet(Ifc4Package.Literals.IFC_STRUCTURAL_RESULT_GROUP__RESULT_FOR_LOAD_GROUP);
+        return eIsSet(Ifc4Package.eINSTANCE.getIfcStructuralResultGroup_ResultForLoadGroup());
     }
 
     /**
@@ -131,7 +131,7 @@ public class IfcStructuralResultGroupImpl extends IfcGroupImpl implements IfcStr
      */
     @Override
     public Tristate getIsLinear() {
-        return (Tristate) eGet(Ifc4Package.Literals.IFC_STRUCTURAL_RESULT_GROUP__IS_LINEAR, true);
+        return (Tristate) eGet(Ifc4Package.eINSTANCE.getIfcStructuralResultGroup_IsLinear(), true);
     }
 
     /**
@@ -141,7 +141,7 @@ public class IfcStructuralResultGroupImpl extends IfcGroupImpl implements IfcStr
      */
     @Override
     public void setIsLinear(Tristate newIsLinear) {
-        eSet(Ifc4Package.Literals.IFC_STRUCTURAL_RESULT_GROUP__IS_LINEAR, newIsLinear);
+        eSet(Ifc4Package.eINSTANCE.getIfcStructuralResultGroup_IsLinear(), newIsLinear);
     }
 
     /**
@@ -153,7 +153,7 @@ public class IfcStructuralResultGroupImpl extends IfcGroupImpl implements IfcStr
     @Override
     public EList<IfcStructuralAnalysisModel> getResultGroupFor() {
         return (EList<IfcStructuralAnalysisModel>) eGet(
-                Ifc4Package.Literals.IFC_STRUCTURAL_RESULT_GROUP__RESULT_GROUP_FOR, true);
+                Ifc4Package.eINSTANCE.getIfcStructuralResultGroup_ResultGroupFor(), true);
     }
 
     /**
@@ -163,7 +163,7 @@ public class IfcStructuralResultGroupImpl extends IfcGroupImpl implements IfcStr
      */
     @Override
     public void unsetResultGroupFor() {
-        eUnset(Ifc4Package.Literals.IFC_STRUCTURAL_RESULT_GROUP__RESULT_GROUP_FOR);
+        eUnset(Ifc4Package.eINSTANCE.getIfcStructuralResultGroup_ResultGroupFor());
     }
 
     /**
@@ -173,7 +173,7 @@ public class IfcStructuralResultGroupImpl extends IfcGroupImpl implements IfcStr
      */
     @Override
     public boolean isSetResultGroupFor() {
-        return eIsSet(Ifc4Package.Literals.IFC_STRUCTURAL_RESULT_GROUP__RESULT_GROUP_FOR);
+        return eIsSet(Ifc4Package.eINSTANCE.getIfcStructuralResultGroup_ResultGroupFor());
     }
 
 } //IfcStructuralResultGroupImpl

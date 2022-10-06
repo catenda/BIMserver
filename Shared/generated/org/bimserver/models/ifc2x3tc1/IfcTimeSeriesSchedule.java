@@ -41,10 +41,6 @@ public interface IfcTimeSeriesSchedule extends IfcControl {
      * Returns the value of the '<em><b>Applicable Dates</b></em>' reference list.
      * The list contents are of type {@link org.bimserver.models.ifc2x3tc1.IfcDateTimeSelect}.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Applicable Dates</em>' reference list isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Applicable Dates</em>' reference list.
      * @see #isSetApplicableDates()
@@ -80,10 +76,6 @@ public interface IfcTimeSeriesSchedule extends IfcControl {
      * Returns the value of the '<em><b>Time Series Schedule Type</b></em>' attribute.
      * The literals are from the enumeration {@link org.bimserver.models.ifc2x3tc1.IfcTimeSeriesScheduleTypeEnum}.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Time Series Schedule Type</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Time Series Schedule Type</em>' attribute.
      * @see org.bimserver.models.ifc2x3tc1.IfcTimeSeriesScheduleTypeEnum
@@ -108,10 +100,6 @@ public interface IfcTimeSeriesSchedule extends IfcControl {
     /**
      * Returns the value of the '<em><b>Time Series</b></em>' reference.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Time Series</em>' reference isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Time Series</em>' reference.
      * @see #setTimeSeries(IfcTimeSeries)

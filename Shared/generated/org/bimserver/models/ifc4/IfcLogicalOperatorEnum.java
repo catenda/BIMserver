@@ -95,10 +95,6 @@ public enum IfcLogicalOperatorEnum implements Enumerator {
     /**
      * The '<em><b>NULL</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>NULL</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #NULL
      * @model
@@ -110,10 +106,6 @@ public enum IfcLogicalOperatorEnum implements Enumerator {
     /**
      * The '<em><b>LOGICALXOR</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>LOGICALXOR</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #LOGICALXOR
      * @model
@@ -125,10 +117,6 @@ public enum IfcLogicalOperatorEnum implements Enumerator {
     /**
      * The '<em><b>LOGICALOR</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>LOGICALOR</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #LOGICALOR
      * @model
@@ -140,10 +128,6 @@ public enum IfcLogicalOperatorEnum implements Enumerator {
     /**
      * The '<em><b>LOGICALNOTOR</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>LOGICALNOTOR</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #LOGICALNOTOR
      * @model
@@ -155,10 +139,6 @@ public enum IfcLogicalOperatorEnum implements Enumerator {
     /**
      * The '<em><b>LOGICALAND</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>LOGICALAND</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #LOGICALAND
      * @model
@@ -170,10 +150,6 @@ public enum IfcLogicalOperatorEnum implements Enumerator {
     /**
      * The '<em><b>LOGICALNOTAND</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>LOGICALNOTAND</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #LOGICALNOTAND
      * @model

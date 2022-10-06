@@ -57,7 +57,7 @@ public class IfcPhysicalComplexQuantityImpl extends IfcPhysicalQuantityImpl impl
      */
     @Override
     protected EClass eStaticClass() {
-        return Ifc2x3tc1Package.Literals.IFC_PHYSICAL_COMPLEX_QUANTITY;
+        return Ifc2x3tc1Package.eINSTANCE.getIfcPhysicalComplexQuantity();
     }
 
     /**
@@ -69,7 +69,7 @@ public class IfcPhysicalComplexQuantityImpl extends IfcPhysicalQuantityImpl impl
     @Override
     public EList<IfcPhysicalQuantity> getHasQuantities() {
         return (EList<IfcPhysicalQuantity>) eGet(
-                Ifc2x3tc1Package.Literals.IFC_PHYSICAL_COMPLEX_QUANTITY__HAS_QUANTITIES, true);
+                Ifc2x3tc1Package.eINSTANCE.getIfcPhysicalComplexQuantity_HasQuantities(), true);
     }
 
     /**
@@ -79,7 +79,7 @@ public class IfcPhysicalComplexQuantityImpl extends IfcPhysicalQuantityImpl impl
      */
     @Override
     public String getDiscrimination() {
-        return (String) eGet(Ifc2x3tc1Package.Literals.IFC_PHYSICAL_COMPLEX_QUANTITY__DISCRIMINATION, true);
+        return (String) eGet(Ifc2x3tc1Package.eINSTANCE.getIfcPhysicalComplexQuantity_Discrimination(), true);
     }
 
     /**
@@ -89,7 +89,7 @@ public class IfcPhysicalComplexQuantityImpl extends IfcPhysicalQuantityImpl impl
      */
     @Override
     public void setDiscrimination(String newDiscrimination) {
-        eSet(Ifc2x3tc1Package.Literals.IFC_PHYSICAL_COMPLEX_QUANTITY__DISCRIMINATION, newDiscrimination);
+        eSet(Ifc2x3tc1Package.eINSTANCE.getIfcPhysicalComplexQuantity_Discrimination(), newDiscrimination);
     }
 
     /**
@@ -99,7 +99,7 @@ public class IfcPhysicalComplexQuantityImpl extends IfcPhysicalQuantityImpl impl
      */
     @Override
     public String getQuality() {
-        return (String) eGet(Ifc2x3tc1Package.Literals.IFC_PHYSICAL_COMPLEX_QUANTITY__QUALITY, true);
+        return (String) eGet(Ifc2x3tc1Package.eINSTANCE.getIfcPhysicalComplexQuantity_Quality(), true);
     }
 
     /**
@@ -109,7 +109,7 @@ public class IfcPhysicalComplexQuantityImpl extends IfcPhysicalQuantityImpl impl
      */
     @Override
     public void setQuality(String newQuality) {
-        eSet(Ifc2x3tc1Package.Literals.IFC_PHYSICAL_COMPLEX_QUANTITY__QUALITY, newQuality);
+        eSet(Ifc2x3tc1Package.eINSTANCE.getIfcPhysicalComplexQuantity_Quality(), newQuality);
     }
 
     /**
@@ -119,7 +119,7 @@ public class IfcPhysicalComplexQuantityImpl extends IfcPhysicalQuantityImpl impl
      */
     @Override
     public void unsetQuality() {
-        eUnset(Ifc2x3tc1Package.Literals.IFC_PHYSICAL_COMPLEX_QUANTITY__QUALITY);
+        eUnset(Ifc2x3tc1Package.eINSTANCE.getIfcPhysicalComplexQuantity_Quality());
     }
 
     /**
@@ -129,7 +129,7 @@ public class IfcPhysicalComplexQuantityImpl extends IfcPhysicalQuantityImpl impl
      */
     @Override
     public boolean isSetQuality() {
-        return eIsSet(Ifc2x3tc1Package.Literals.IFC_PHYSICAL_COMPLEX_QUANTITY__QUALITY);
+        return eIsSet(Ifc2x3tc1Package.eINSTANCE.getIfcPhysicalComplexQuantity_Quality());
     }
 
     /**
@@ -139,7 +139,7 @@ public class IfcPhysicalComplexQuantityImpl extends IfcPhysicalQuantityImpl impl
      */
     @Override
     public String getUsage() {
-        return (String) eGet(Ifc2x3tc1Package.Literals.IFC_PHYSICAL_COMPLEX_QUANTITY__USAGE, true);
+        return (String) eGet(Ifc2x3tc1Package.eINSTANCE.getIfcPhysicalComplexQuantity_Usage(), true);
     }
 
     /**
@@ -149,7 +149,7 @@ public class IfcPhysicalComplexQuantityImpl extends IfcPhysicalQuantityImpl impl
      */
     @Override
     public void setUsage(String newUsage) {
-        eSet(Ifc2x3tc1Package.Literals.IFC_PHYSICAL_COMPLEX_QUANTITY__USAGE, newUsage);
+        eSet(Ifc2x3tc1Package.eINSTANCE.getIfcPhysicalComplexQuantity_Usage(), newUsage);
     }
 
     /**
@@ -159,7 +159,7 @@ public class IfcPhysicalComplexQuantityImpl extends IfcPhysicalQuantityImpl impl
      */
     @Override
     public void unsetUsage() {
-        eUnset(Ifc2x3tc1Package.Literals.IFC_PHYSICAL_COMPLEX_QUANTITY__USAGE);
+        eUnset(Ifc2x3tc1Package.eINSTANCE.getIfcPhysicalComplexQuantity_Usage());
     }
 
     /**
@@ -169,7 +169,7 @@ public class IfcPhysicalComplexQuantityImpl extends IfcPhysicalQuantityImpl impl
      */
     @Override
     public boolean isSetUsage() {
-        return eIsSet(Ifc2x3tc1Package.Literals.IFC_PHYSICAL_COMPLEX_QUANTITY__USAGE);
+        return eIsSet(Ifc2x3tc1Package.eINSTANCE.getIfcPhysicalComplexQuantity_Usage());
     }
 
 } //IfcPhysicalComplexQuantityImpl

@@ -125,10 +125,6 @@ public enum IfcResourceConsumptionEnum implements Enumerator {
     /**
      * The '<em><b>NULL</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>NULL</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #NULL
      * @model
@@ -140,10 +136,6 @@ public enum IfcResourceConsumptionEnum implements Enumerator {
     /**
      * The '<em><b>NOTCONSUMED</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>NOTCONSUMED</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #NOTCONSUMED
      * @model
@@ -155,10 +147,6 @@ public enum IfcResourceConsumptionEnum implements Enumerator {
     /**
      * The '<em><b>NOTOCCUPIED</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>NOTOCCUPIED</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #NOTOCCUPIED
      * @model
@@ -170,10 +158,6 @@ public enum IfcResourceConsumptionEnum implements Enumerator {
     /**
      * The '<em><b>NOTDEFINED</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>NOTDEFINED</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #NOTDEFINED
      * @model
@@ -185,10 +169,6 @@ public enum IfcResourceConsumptionEnum implements Enumerator {
     /**
      * The '<em><b>PARTIALLYOCCUPIED</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>PARTIALLYOCCUPIED</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #PARTIALLYOCCUPIED
      * @model
@@ -200,10 +180,6 @@ public enum IfcResourceConsumptionEnum implements Enumerator {
     /**
      * The '<em><b>CONSUMED</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>CONSUMED</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #CONSUMED
      * @model
@@ -215,10 +191,6 @@ public enum IfcResourceConsumptionEnum implements Enumerator {
     /**
      * The '<em><b>PARTIALLYCONSUMED</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>PARTIALLYCONSUMED</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #PARTIALLYCONSUMED
      * @model
@@ -230,10 +202,6 @@ public enum IfcResourceConsumptionEnum implements Enumerator {
     /**
      * The '<em><b>OCCUPIED</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>OCCUPIED</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #OCCUPIED
      * @model
@@ -245,10 +213,6 @@ public enum IfcResourceConsumptionEnum implements Enumerator {
     /**
      * The '<em><b>USERDEFINED</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>USERDEFINED</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #USERDEFINED
      * @model

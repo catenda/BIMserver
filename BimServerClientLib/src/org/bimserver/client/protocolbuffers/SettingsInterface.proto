@@ -110,8 +110,8 @@ message SServerSettings {
 	optional bool checkinMergingEnabled = 6;
 	optional bool allowOnlyWhitelisted = 7;
 	optional int64 webModuleId = 8;
-	repeated int64 webModules = 9;
-	optional int64 oid = 10;
+	optional int64 oid = 9;
+	repeated int64 webModules = 10;
 	optional int32 rid = 11;
 	optional string emailSenderAddress = 12;
 	optional string smtpServer = 13;

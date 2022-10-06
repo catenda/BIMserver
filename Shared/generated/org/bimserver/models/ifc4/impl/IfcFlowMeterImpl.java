@@ -52,7 +52,7 @@ public class IfcFlowMeterImpl extends IfcFlowControllerImpl implements IfcFlowMe
      */
     @Override
     protected EClass eStaticClass() {
-        return Ifc4Package.Literals.IFC_FLOW_METER;
+        return Ifc4Package.eINSTANCE.getIfcFlowMeter();
     }
 
     /**
@@ -62,7 +62,7 @@ public class IfcFlowMeterImpl extends IfcFlowControllerImpl implements IfcFlowMe
      */
     @Override
     public IfcFlowMeterTypeEnum getPredefinedType() {
-        return (IfcFlowMeterTypeEnum) eGet(Ifc4Package.Literals.IFC_FLOW_METER__PREDEFINED_TYPE, true);
+        return (IfcFlowMeterTypeEnum) eGet(Ifc4Package.eINSTANCE.getIfcFlowMeter_PredefinedType(), true);
     }
 
     /**
@@ -72,7 +72,7 @@ public class IfcFlowMeterImpl extends IfcFlowControllerImpl implements IfcFlowMe
      */
     @Override
     public void setPredefinedType(IfcFlowMeterTypeEnum newPredefinedType) {
-        eSet(Ifc4Package.Literals.IFC_FLOW_METER__PREDEFINED_TYPE, newPredefinedType);
+        eSet(Ifc4Package.eINSTANCE.getIfcFlowMeter_PredefinedType(), newPredefinedType);
     }
 
     /**
@@ -82,7 +82,7 @@ public class IfcFlowMeterImpl extends IfcFlowControllerImpl implements IfcFlowMe
      */
     @Override
     public void unsetPredefinedType() {
-        eUnset(Ifc4Package.Literals.IFC_FLOW_METER__PREDEFINED_TYPE);
+        eUnset(Ifc4Package.eINSTANCE.getIfcFlowMeter_PredefinedType());
     }
 
     /**
@@ -92,7 +92,7 @@ public class IfcFlowMeterImpl extends IfcFlowControllerImpl implements IfcFlowMe
      */
     @Override
     public boolean isSetPredefinedType() {
-        return eIsSet(Ifc4Package.Literals.IFC_FLOW_METER__PREDEFINED_TYPE);
+        return eIsSet(Ifc4Package.eINSTANCE.getIfcFlowMeter_PredefinedType());
     }
 
 } //IfcFlowMeterImpl

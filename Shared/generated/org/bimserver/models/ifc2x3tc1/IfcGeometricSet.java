@@ -40,10 +40,6 @@ public interface IfcGeometricSet extends IfcGeometricRepresentationItem {
      * Returns the value of the '<em><b>Elements</b></em>' reference list.
      * The list contents are of type {@link org.bimserver.models.ifc2x3tc1.IfcGeometricSetSelect}.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Elements</em>' reference list isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Elements</em>' reference list.
      * @see org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package#getIfcGeometricSet_Elements()
@@ -55,10 +51,6 @@ public interface IfcGeometricSet extends IfcGeometricRepresentationItem {
     /**
      * Returns the value of the '<em><b>Dim</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Dim</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Dim</em>' attribute.
      * @see #isSetDim()

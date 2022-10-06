@@ -60,7 +60,7 @@ public class IfcGridImpl extends IfcProductImpl implements IfcGrid {
      */
     @Override
     protected EClass eStaticClass() {
-        return Ifc4Package.Literals.IFC_GRID;
+        return Ifc4Package.eINSTANCE.getIfcGrid();
     }
 
     /**
@@ -71,7 +71,7 @@ public class IfcGridImpl extends IfcProductImpl implements IfcGrid {
     @SuppressWarnings("unchecked")
     @Override
     public EList<IfcGridAxis> getUAxes() {
-        return (EList<IfcGridAxis>) eGet(Ifc4Package.Literals.IFC_GRID__UAXES, true);
+        return (EList<IfcGridAxis>) eGet(Ifc4Package.eINSTANCE.getIfcGrid_UAxes(), true);
     }
 
     /**
@@ -82,7 +82,7 @@ public class IfcGridImpl extends IfcProductImpl implements IfcGrid {
     @SuppressWarnings("unchecked")
     @Override
     public EList<IfcGridAxis> getVAxes() {
-        return (EList<IfcGridAxis>) eGet(Ifc4Package.Literals.IFC_GRID__VAXES, true);
+        return (EList<IfcGridAxis>) eGet(Ifc4Package.eINSTANCE.getIfcGrid_VAxes(), true);
     }
 
     /**
@@ -93,7 +93,7 @@ public class IfcGridImpl extends IfcProductImpl implements IfcGrid {
     @SuppressWarnings("unchecked")
     @Override
     public EList<IfcGridAxis> getWAxes() {
-        return (EList<IfcGridAxis>) eGet(Ifc4Package.Literals.IFC_GRID__WAXES, true);
+        return (EList<IfcGridAxis>) eGet(Ifc4Package.eINSTANCE.getIfcGrid_WAxes(), true);
     }
 
     /**
@@ -103,7 +103,7 @@ public class IfcGridImpl extends IfcProductImpl implements IfcGrid {
      */
     @Override
     public void unsetWAxes() {
-        eUnset(Ifc4Package.Literals.IFC_GRID__WAXES);
+        eUnset(Ifc4Package.eINSTANCE.getIfcGrid_WAxes());
     }
 
     /**
@@ -113,7 +113,7 @@ public class IfcGridImpl extends IfcProductImpl implements IfcGrid {
      */
     @Override
     public boolean isSetWAxes() {
-        return eIsSet(Ifc4Package.Literals.IFC_GRID__WAXES);
+        return eIsSet(Ifc4Package.eINSTANCE.getIfcGrid_WAxes());
     }
 
     /**
@@ -123,7 +123,7 @@ public class IfcGridImpl extends IfcProductImpl implements IfcGrid {
      */
     @Override
     public IfcGridTypeEnum getPredefinedType() {
-        return (IfcGridTypeEnum) eGet(Ifc4Package.Literals.IFC_GRID__PREDEFINED_TYPE, true);
+        return (IfcGridTypeEnum) eGet(Ifc4Package.eINSTANCE.getIfcGrid_PredefinedType(), true);
     }
 
     /**
@@ -133,7 +133,7 @@ public class IfcGridImpl extends IfcProductImpl implements IfcGrid {
      */
     @Override
     public void setPredefinedType(IfcGridTypeEnum newPredefinedType) {
-        eSet(Ifc4Package.Literals.IFC_GRID__PREDEFINED_TYPE, newPredefinedType);
+        eSet(Ifc4Package.eINSTANCE.getIfcGrid_PredefinedType(), newPredefinedType);
     }
 
     /**
@@ -143,7 +143,7 @@ public class IfcGridImpl extends IfcProductImpl implements IfcGrid {
      */
     @Override
     public void unsetPredefinedType() {
-        eUnset(Ifc4Package.Literals.IFC_GRID__PREDEFINED_TYPE);
+        eUnset(Ifc4Package.eINSTANCE.getIfcGrid_PredefinedType());
     }
 
     /**
@@ -153,7 +153,7 @@ public class IfcGridImpl extends IfcProductImpl implements IfcGrid {
      */
     @Override
     public boolean isSetPredefinedType() {
-        return eIsSet(Ifc4Package.Literals.IFC_GRID__PREDEFINED_TYPE);
+        return eIsSet(Ifc4Package.eINSTANCE.getIfcGrid_PredefinedType());
     }
 
     /**
@@ -164,7 +164,7 @@ public class IfcGridImpl extends IfcProductImpl implements IfcGrid {
     @SuppressWarnings("unchecked")
     @Override
     public EList<IfcRelContainedInSpatialStructure> getContainedInStructure() {
-        return (EList<IfcRelContainedInSpatialStructure>) eGet(Ifc4Package.Literals.IFC_GRID__CONTAINED_IN_STRUCTURE,
+        return (EList<IfcRelContainedInSpatialStructure>) eGet(Ifc4Package.eINSTANCE.getIfcGrid_ContainedInStructure(),
                 true);
     }
 
@@ -175,7 +175,7 @@ public class IfcGridImpl extends IfcProductImpl implements IfcGrid {
      */
     @Override
     public void unsetContainedInStructure() {
-        eUnset(Ifc4Package.Literals.IFC_GRID__CONTAINED_IN_STRUCTURE);
+        eUnset(Ifc4Package.eINSTANCE.getIfcGrid_ContainedInStructure());
     }
 
     /**
@@ -185,7 +185,7 @@ public class IfcGridImpl extends IfcProductImpl implements IfcGrid {
      */
     @Override
     public boolean isSetContainedInStructure() {
-        return eIsSet(Ifc4Package.Literals.IFC_GRID__CONTAINED_IN_STRUCTURE);
+        return eIsSet(Ifc4Package.eINSTANCE.getIfcGrid_ContainedInStructure());
     }
 
 } //IfcGridImpl

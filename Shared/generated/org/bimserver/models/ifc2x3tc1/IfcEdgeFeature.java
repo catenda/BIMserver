@@ -37,10 +37,6 @@ public interface IfcEdgeFeature extends IfcFeatureElementSubtraction {
     /**
      * Returns the value of the '<em><b>Feature Length</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Feature Length</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Feature Length</em>' attribute.
      * @see #isSetFeatureLength()
@@ -90,10 +86,6 @@ public interface IfcEdgeFeature extends IfcFeatureElementSubtraction {
     /**
      * Returns the value of the '<em><b>Feature Length As String</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Feature Length As String</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Feature Length As String</em>' attribute.
      * @see #isSetFeatureLengthAsString()

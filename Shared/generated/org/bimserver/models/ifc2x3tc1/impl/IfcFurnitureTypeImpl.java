@@ -52,7 +52,7 @@ public class IfcFurnitureTypeImpl extends IfcFurnishingElementTypeImpl implement
      */
     @Override
     protected EClass eStaticClass() {
-        return Ifc2x3tc1Package.Literals.IFC_FURNITURE_TYPE;
+        return Ifc2x3tc1Package.eINSTANCE.getIfcFurnitureType();
     }
 
     /**
@@ -62,7 +62,7 @@ public class IfcFurnitureTypeImpl extends IfcFurnishingElementTypeImpl implement
      */
     @Override
     public IfcAssemblyPlaceEnum getAssemblyPlace() {
-        return (IfcAssemblyPlaceEnum) eGet(Ifc2x3tc1Package.Literals.IFC_FURNITURE_TYPE__ASSEMBLY_PLACE, true);
+        return (IfcAssemblyPlaceEnum) eGet(Ifc2x3tc1Package.eINSTANCE.getIfcFurnitureType_AssemblyPlace(), true);
     }
 
     /**
@@ -72,7 +72,7 @@ public class IfcFurnitureTypeImpl extends IfcFurnishingElementTypeImpl implement
      */
     @Override
     public void setAssemblyPlace(IfcAssemblyPlaceEnum newAssemblyPlace) {
-        eSet(Ifc2x3tc1Package.Literals.IFC_FURNITURE_TYPE__ASSEMBLY_PLACE, newAssemblyPlace);
+        eSet(Ifc2x3tc1Package.eINSTANCE.getIfcFurnitureType_AssemblyPlace(), newAssemblyPlace);
     }
 
 } //IfcFurnitureTypeImpl

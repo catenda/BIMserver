@@ -45,7 +45,7 @@ public class IfcEquipmentStandardImpl extends IfcControlImpl implements IfcEquip
      */
     @Override
     protected EClass eStaticClass() {
-        return Ifc2x3tc1Package.Literals.IFC_EQUIPMENT_STANDARD;
+        return Ifc2x3tc1Package.eINSTANCE.getIfcEquipmentStandard();
     }
 
 } //IfcEquipmentStandardImpl

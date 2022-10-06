@@ -54,7 +54,7 @@ public class IfcSurfaceStyleWithTexturesImpl extends IfcPresentationItemImpl imp
      */
     @Override
     protected EClass eStaticClass() {
-        return Ifc4Package.Literals.IFC_SURFACE_STYLE_WITH_TEXTURES;
+        return Ifc4Package.eINSTANCE.getIfcSurfaceStyleWithTextures();
     }
 
     /**
@@ -65,7 +65,7 @@ public class IfcSurfaceStyleWithTexturesImpl extends IfcPresentationItemImpl imp
     @SuppressWarnings("unchecked")
     @Override
     public EList<IfcSurfaceTexture> getTextures() {
-        return (EList<IfcSurfaceTexture>) eGet(Ifc4Package.Literals.IFC_SURFACE_STYLE_WITH_TEXTURES__TEXTURES, true);
+        return (EList<IfcSurfaceTexture>) eGet(Ifc4Package.eINSTANCE.getIfcSurfaceStyleWithTextures_Textures(), true);
     }
 
 } //IfcSurfaceStyleWithTexturesImpl

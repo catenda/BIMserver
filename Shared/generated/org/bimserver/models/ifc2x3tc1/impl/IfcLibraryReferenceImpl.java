@@ -54,7 +54,7 @@ public class IfcLibraryReferenceImpl extends IfcExternalReferenceImpl implements
      */
     @Override
     protected EClass eStaticClass() {
-        return Ifc2x3tc1Package.Literals.IFC_LIBRARY_REFERENCE;
+        return Ifc2x3tc1Package.eINSTANCE.getIfcLibraryReference();
     }
 
     /**
@@ -66,7 +66,7 @@ public class IfcLibraryReferenceImpl extends IfcExternalReferenceImpl implements
     @Override
     public EList<IfcLibraryInformation> getReferenceIntoLibrary() {
         return (EList<IfcLibraryInformation>) eGet(
-                Ifc2x3tc1Package.Literals.IFC_LIBRARY_REFERENCE__REFERENCE_INTO_LIBRARY, true);
+                Ifc2x3tc1Package.eINSTANCE.getIfcLibraryReference_ReferenceIntoLibrary(), true);
     }
 
     /**
@@ -76,7 +76,7 @@ public class IfcLibraryReferenceImpl extends IfcExternalReferenceImpl implements
      */
     @Override
     public void unsetReferenceIntoLibrary() {
-        eUnset(Ifc2x3tc1Package.Literals.IFC_LIBRARY_REFERENCE__REFERENCE_INTO_LIBRARY);
+        eUnset(Ifc2x3tc1Package.eINSTANCE.getIfcLibraryReference_ReferenceIntoLibrary());
     }
 
     /**
@@ -86,7 +86,7 @@ public class IfcLibraryReferenceImpl extends IfcExternalReferenceImpl implements
      */
     @Override
     public boolean isSetReferenceIntoLibrary() {
-        return eIsSet(Ifc2x3tc1Package.Literals.IFC_LIBRARY_REFERENCE__REFERENCE_INTO_LIBRARY);
+        return eIsSet(Ifc2x3tc1Package.eINSTANCE.getIfcLibraryReference_ReferenceIntoLibrary());
     }
 
 } //IfcLibraryReferenceImpl

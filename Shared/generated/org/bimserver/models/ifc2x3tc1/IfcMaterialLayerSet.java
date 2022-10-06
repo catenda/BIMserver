@@ -43,10 +43,6 @@ public interface IfcMaterialLayerSet extends IfcMaterialSelect {
      * The list contents are of type {@link org.bimserver.models.ifc2x3tc1.IfcMaterialLayer}.
      * It is bidirectional and its opposite is '{@link org.bimserver.models.ifc2x3tc1.IfcMaterialLayer#getToMaterialLayerSet <em>To Material Layer Set</em>}'.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Material Layers</em>' reference list isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Material Layers</em>' reference list.
      * @see org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package#getIfcMaterialLayerSet_MaterialLayers()
@@ -60,10 +56,6 @@ public interface IfcMaterialLayerSet extends IfcMaterialSelect {
     /**
      * Returns the value of the '<em><b>Layer Set Name</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Layer Set Name</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Layer Set Name</em>' attribute.
      * @see #isSetLayerSetName()
@@ -113,10 +105,6 @@ public interface IfcMaterialLayerSet extends IfcMaterialSelect {
     /**
      * Returns the value of the '<em><b>Total Thickness</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Total Thickness</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Total Thickness</em>' attribute.
      * @see #isSetTotalThickness()
@@ -167,10 +155,6 @@ public interface IfcMaterialLayerSet extends IfcMaterialSelect {
     /**
      * Returns the value of the '<em><b>Total Thickness As String</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Total Thickness As String</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Total Thickness As String</em>' attribute.
      * @see #isSetTotalThicknessAsString()

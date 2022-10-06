@@ -60,10 +60,6 @@ public interface Service extends IdEObject {
     /**
      * Returns the value of the '<em><b>Name</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Name</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Name</em>' attribute.
      * @see #setName(String)
@@ -86,10 +82,6 @@ public interface Service extends IdEObject {
     /**
      * Returns the value of the '<em><b>Service Name</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Service Name</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Service Name</em>' attribute.
      * @see #setServiceName(String)
@@ -112,10 +104,6 @@ public interface Service extends IdEObject {
     /**
      * Returns the value of the '<em><b>Service Identifier</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Service Identifier</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Service Identifier</em>' attribute.
      * @see #setServiceIdentifier(String)
@@ -138,10 +126,6 @@ public interface Service extends IdEObject {
     /**
      * Returns the value of the '<em><b>Provider Name</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Provider Name</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Provider Name</em>' attribute.
      * @see #setProviderName(String)
@@ -164,10 +148,6 @@ public interface Service extends IdEObject {
     /**
      * Returns the value of the '<em><b>Url</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Url</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Url</em>' attribute.
      * @see #setUrl(String)
@@ -190,10 +170,6 @@ public interface Service extends IdEObject {
     /**
      * Returns the value of the '<em><b>Token</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Token</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Token</em>' attribute.
      * @see #setToken(String)
@@ -217,10 +193,6 @@ public interface Service extends IdEObject {
      * Returns the value of the '<em><b>Notification Protocol</b></em>' attribute.
      * The literals are from the enumeration {@link org.bimserver.models.log.AccessMethod}.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Notification Protocol</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Notification Protocol</em>' attribute.
      * @see org.bimserver.models.log.AccessMethod
@@ -245,10 +217,6 @@ public interface Service extends IdEObject {
     /**
      * Returns the value of the '<em><b>Description</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Description</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Description</em>' attribute.
      * @see #setDescription(String)
@@ -272,10 +240,6 @@ public interface Service extends IdEObject {
      * Returns the value of the '<em><b>Trigger</b></em>' attribute.
      * The literals are from the enumeration {@link org.bimserver.models.store.Trigger}.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Trigger</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Trigger</em>' attribute.
      * @see org.bimserver.models.store.Trigger
@@ -300,10 +264,6 @@ public interface Service extends IdEObject {
     /**
      * Returns the value of the '<em><b>Read Revision</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Read Revision</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Read Revision</em>' attribute.
      * @see #setReadRevision(boolean)
@@ -326,10 +286,6 @@ public interface Service extends IdEObject {
     /**
      * Returns the value of the '<em><b>Read Extended Data</b></em>' reference.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Read Extended Data</em>' reference isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Read Extended Data</em>' reference.
      * @see #setReadExtendedData(ExtendedDataSchema)
@@ -352,10 +308,6 @@ public interface Service extends IdEObject {
     /**
      * Returns the value of the '<em><b>Write Revision</b></em>' reference.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Write Revision</em>' reference isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Write Revision</em>' reference.
      * @see #setWriteRevision(Project)
@@ -378,10 +330,6 @@ public interface Service extends IdEObject {
     /**
      * Returns the value of the '<em><b>Write Extended Data</b></em>' reference.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Write Extended Data</em>' reference isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Write Extended Data</em>' reference.
      * @see #setWriteExtendedData(ExtendedDataSchema)
@@ -404,10 +352,6 @@ public interface Service extends IdEObject {
     /**
      * Returns the value of the '<em><b>Profile Identifier</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Profile Identifier</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Profile Identifier</em>' attribute.
      * @see #setProfileIdentifier(String)
@@ -430,10 +374,6 @@ public interface Service extends IdEObject {
     /**
      * Returns the value of the '<em><b>Profile Name</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Profile Name</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Profile Name</em>' attribute.
      * @see #setProfileName(String)
@@ -456,10 +396,6 @@ public interface Service extends IdEObject {
     /**
      * Returns the value of the '<em><b>Profile Description</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Profile Description</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Profile Description</em>' attribute.
      * @see #setProfileDescription(String)
@@ -482,10 +418,6 @@ public interface Service extends IdEObject {
     /**
      * Returns the value of the '<em><b>Profile Public</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Profile Public</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Profile Public</em>' attribute.
      * @see #setProfilePublic(boolean)
@@ -509,10 +441,6 @@ public interface Service extends IdEObject {
      * Returns the value of the '<em><b>Project</b></em>' reference.
      * It is bidirectional and its opposite is '{@link org.bimserver.models.store.Project#getServices <em>Services</em>}'.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Project</em>' reference isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Project</em>' reference.
      * @see #setProject(Project)
@@ -537,10 +465,6 @@ public interface Service extends IdEObject {
      * Returns the value of the '<em><b>User</b></em>' reference.
      * It is bidirectional and its opposite is '{@link org.bimserver.models.store.User#getServices <em>Services</em>}'.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>User</em>' reference isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>User</em>' reference.
      * @see #setUser(User)
@@ -564,10 +488,6 @@ public interface Service extends IdEObject {
     /**
      * Returns the value of the '<em><b>Internal Service</b></em>' reference.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Internal Service</em>' reference isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Internal Service</em>' reference.
      * @see #setInternalService(InternalServicePluginConfiguration)

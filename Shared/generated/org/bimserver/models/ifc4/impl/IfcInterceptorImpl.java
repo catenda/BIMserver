@@ -52,7 +52,7 @@ public class IfcInterceptorImpl extends IfcFlowTreatmentDeviceImpl implements If
      */
     @Override
     protected EClass eStaticClass() {
-        return Ifc4Package.Literals.IFC_INTERCEPTOR;
+        return Ifc4Package.eINSTANCE.getIfcInterceptor();
     }
 
     /**
@@ -62,7 +62,7 @@ public class IfcInterceptorImpl extends IfcFlowTreatmentDeviceImpl implements If
      */
     @Override
     public IfcInterceptorTypeEnum getPredefinedType() {
-        return (IfcInterceptorTypeEnum) eGet(Ifc4Package.Literals.IFC_INTERCEPTOR__PREDEFINED_TYPE, true);
+        return (IfcInterceptorTypeEnum) eGet(Ifc4Package.eINSTANCE.getIfcInterceptor_PredefinedType(), true);
     }
 
     /**
@@ -72,7 +72,7 @@ public class IfcInterceptorImpl extends IfcFlowTreatmentDeviceImpl implements If
      */
     @Override
     public void setPredefinedType(IfcInterceptorTypeEnum newPredefinedType) {
-        eSet(Ifc4Package.Literals.IFC_INTERCEPTOR__PREDEFINED_TYPE, newPredefinedType);
+        eSet(Ifc4Package.eINSTANCE.getIfcInterceptor_PredefinedType(), newPredefinedType);
     }
 
     /**
@@ -82,7 +82,7 @@ public class IfcInterceptorImpl extends IfcFlowTreatmentDeviceImpl implements If
      */
     @Override
     public void unsetPredefinedType() {
-        eUnset(Ifc4Package.Literals.IFC_INTERCEPTOR__PREDEFINED_TYPE);
+        eUnset(Ifc4Package.eINSTANCE.getIfcInterceptor_PredefinedType());
     }
 
     /**
@@ -92,7 +92,7 @@ public class IfcInterceptorImpl extends IfcFlowTreatmentDeviceImpl implements If
      */
     @Override
     public boolean isSetPredefinedType() {
-        return eIsSet(Ifc4Package.Literals.IFC_INTERCEPTOR__PREDEFINED_TYPE);
+        return eIsSet(Ifc4Package.eINSTANCE.getIfcInterceptor_PredefinedType());
     }
 
 } //IfcInterceptorImpl

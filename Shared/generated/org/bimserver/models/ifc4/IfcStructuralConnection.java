@@ -39,10 +39,6 @@ public interface IfcStructuralConnection extends IfcStructuralItem {
     /**
      * Returns the value of the '<em><b>Applied Condition</b></em>' reference.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Applied Condition</em>' reference isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Applied Condition</em>' reference.
      * @see #isSetAppliedCondition()
@@ -94,10 +90,6 @@ public interface IfcStructuralConnection extends IfcStructuralItem {
      * The list contents are of type {@link org.bimserver.models.ifc4.IfcRelConnectsStructuralMember}.
      * It is bidirectional and its opposite is '{@link org.bimserver.models.ifc4.IfcRelConnectsStructuralMember#getRelatedStructuralConnection <em>Related Structural Connection</em>}'.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Connects Structural Members</em>' reference list isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Connects Structural Members</em>' reference list.
      * @see #isSetConnectsStructuralMembers()

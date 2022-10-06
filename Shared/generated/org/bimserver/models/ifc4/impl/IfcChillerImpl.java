@@ -52,7 +52,7 @@ public class IfcChillerImpl extends IfcEnergyConversionDeviceImpl implements Ifc
      */
     @Override
     protected EClass eStaticClass() {
-        return Ifc4Package.Literals.IFC_CHILLER;
+        return Ifc4Package.eINSTANCE.getIfcChiller();
     }
 
     /**
@@ -62,7 +62,7 @@ public class IfcChillerImpl extends IfcEnergyConversionDeviceImpl implements Ifc
      */
     @Override
     public IfcChillerTypeEnum getPredefinedType() {
-        return (IfcChillerTypeEnum) eGet(Ifc4Package.Literals.IFC_CHILLER__PREDEFINED_TYPE, true);
+        return (IfcChillerTypeEnum) eGet(Ifc4Package.eINSTANCE.getIfcChiller_PredefinedType(), true);
     }
 
     /**
@@ -72,7 +72,7 @@ public class IfcChillerImpl extends IfcEnergyConversionDeviceImpl implements Ifc
      */
     @Override
     public void setPredefinedType(IfcChillerTypeEnum newPredefinedType) {
-        eSet(Ifc4Package.Literals.IFC_CHILLER__PREDEFINED_TYPE, newPredefinedType);
+        eSet(Ifc4Package.eINSTANCE.getIfcChiller_PredefinedType(), newPredefinedType);
     }
 
     /**
@@ -82,7 +82,7 @@ public class IfcChillerImpl extends IfcEnergyConversionDeviceImpl implements Ifc
      */
     @Override
     public void unsetPredefinedType() {
-        eUnset(Ifc4Package.Literals.IFC_CHILLER__PREDEFINED_TYPE);
+        eUnset(Ifc4Package.eINSTANCE.getIfcChiller_PredefinedType());
     }
 
     /**
@@ -92,7 +92,7 @@ public class IfcChillerImpl extends IfcEnergyConversionDeviceImpl implements Ifc
      */
     @Override
     public boolean isSetPredefinedType() {
-        return eIsSet(Ifc4Package.Literals.IFC_CHILLER__PREDEFINED_TYPE);
+        return eIsSet(Ifc4Package.eINSTANCE.getIfcChiller_PredefinedType());
     }
 
 } //IfcChillerImpl

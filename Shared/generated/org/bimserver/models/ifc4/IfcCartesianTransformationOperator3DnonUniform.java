@@ -43,10 +43,6 @@ public interface IfcCartesianTransformationOperator3DnonUniform extends IfcCarte
     /**
      * Returns the value of the '<em><b>Scale2</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Scale2</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Scale2</em>' attribute.
      * @see #isSetScale2()
@@ -96,10 +92,6 @@ public interface IfcCartesianTransformationOperator3DnonUniform extends IfcCarte
     /**
      * Returns the value of the '<em><b>Scale2 As String</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Scale2 As String</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Scale2 As String</em>' attribute.
      * @see #isSetScale2AsString()
@@ -151,10 +143,6 @@ public interface IfcCartesianTransformationOperator3DnonUniform extends IfcCarte
     /**
      * Returns the value of the '<em><b>Scale3</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Scale3</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Scale3</em>' attribute.
      * @see #isSetScale3()
@@ -204,10 +192,6 @@ public interface IfcCartesianTransformationOperator3DnonUniform extends IfcCarte
     /**
      * Returns the value of the '<em><b>Scale3 As String</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Scale3 As String</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Scale3 As String</em>' attribute.
      * @see #isSetScale3AsString()
@@ -259,10 +243,6 @@ public interface IfcCartesianTransformationOperator3DnonUniform extends IfcCarte
     /**
      * Returns the value of the '<em><b>Scl3</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Scl3</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Scl3</em>' attribute.
      * @see #isSetScl3()
@@ -313,10 +293,6 @@ public interface IfcCartesianTransformationOperator3DnonUniform extends IfcCarte
     /**
      * Returns the value of the '<em><b>Scl3 As String</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Scl3 As String</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Scl3 As String</em>' attribute.
      * @see #isSetScl3AsString()
@@ -368,10 +344,6 @@ public interface IfcCartesianTransformationOperator3DnonUniform extends IfcCarte
     /**
      * Returns the value of the '<em><b>Scl2</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Scl2</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Scl2</em>' attribute.
      * @see #isSetScl2()
@@ -422,10 +394,6 @@ public interface IfcCartesianTransformationOperator3DnonUniform extends IfcCarte
     /**
      * Returns the value of the '<em><b>Scl2 As String</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Scl2 As String</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Scl2 As String</em>' attribute.
      * @see #isSetScl2AsString()

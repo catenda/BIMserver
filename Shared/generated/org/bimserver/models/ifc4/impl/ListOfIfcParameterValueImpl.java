@@ -56,7 +56,7 @@ public class ListOfIfcParameterValueImpl extends IdEObjectImpl implements ListOf
      */
     @Override
     protected EClass eStaticClass() {
-        return Ifc4Package.Literals.LIST_OF_IFC_PARAMETER_VALUE;
+        return Ifc4Package.eINSTANCE.getListOfIfcParameterValue();
     }
 
     /**
@@ -77,7 +77,7 @@ public class ListOfIfcParameterValueImpl extends IdEObjectImpl implements ListOf
     @SuppressWarnings("unchecked")
     @Override
     public EList<IfcParameterValue> getList() {
-        return (EList<IfcParameterValue>) eGet(Ifc4Package.Literals.LIST_OF_IFC_PARAMETER_VALUE__LIST, true);
+        return (EList<IfcParameterValue>) eGet(Ifc4Package.eINSTANCE.getListOfIfcParameterValue_List(), true);
     }
 
 } //ListOfIfcParameterValueImpl

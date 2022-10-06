@@ -45,7 +45,7 @@ public class IfcRelAggregatesImpl extends IfcRelDecomposesImpl implements IfcRel
      */
     @Override
     protected EClass eStaticClass() {
-        return Ifc2x3tc1Package.Literals.IFC_REL_AGGREGATES;
+        return Ifc2x3tc1Package.eINSTANCE.getIfcRelAggregates();
     }
 
 } //IfcRelAggregatesImpl

@@ -52,7 +52,7 @@ public class IfcMotorConnectionTypeImpl extends IfcEnergyConversionDeviceTypeImp
      */
     @Override
     protected EClass eStaticClass() {
-        return Ifc2x3tc1Package.Literals.IFC_MOTOR_CONNECTION_TYPE;
+        return Ifc2x3tc1Package.eINSTANCE.getIfcMotorConnectionType();
     }
 
     /**
@@ -62,7 +62,7 @@ public class IfcMotorConnectionTypeImpl extends IfcEnergyConversionDeviceTypeImp
      */
     @Override
     public IfcMotorConnectionTypeEnum getPredefinedType() {
-        return (IfcMotorConnectionTypeEnum) eGet(Ifc2x3tc1Package.Literals.IFC_MOTOR_CONNECTION_TYPE__PREDEFINED_TYPE,
+        return (IfcMotorConnectionTypeEnum) eGet(Ifc2x3tc1Package.eINSTANCE.getIfcMotorConnectionType_PredefinedType(),
                 true);
     }
 
@@ -73,7 +73,7 @@ public class IfcMotorConnectionTypeImpl extends IfcEnergyConversionDeviceTypeImp
      */
     @Override
     public void setPredefinedType(IfcMotorConnectionTypeEnum newPredefinedType) {
-        eSet(Ifc2x3tc1Package.Literals.IFC_MOTOR_CONNECTION_TYPE__PREDEFINED_TYPE, newPredefinedType);
+        eSet(Ifc2x3tc1Package.eINSTANCE.getIfcMotorConnectionType_PredefinedType(), newPredefinedType);
     }
 
 } //IfcMotorConnectionTypeImpl

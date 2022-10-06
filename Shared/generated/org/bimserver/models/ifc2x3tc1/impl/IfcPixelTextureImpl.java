@@ -53,7 +53,7 @@ public class IfcPixelTextureImpl extends IfcSurfaceTextureImpl implements IfcPix
      */
     @Override
     protected EClass eStaticClass() {
-        return Ifc2x3tc1Package.Literals.IFC_PIXEL_TEXTURE;
+        return Ifc2x3tc1Package.eINSTANCE.getIfcPixelTexture();
     }
 
     /**
@@ -63,7 +63,7 @@ public class IfcPixelTextureImpl extends IfcSurfaceTextureImpl implements IfcPix
      */
     @Override
     public long getWidth() {
-        return (Long) eGet(Ifc2x3tc1Package.Literals.IFC_PIXEL_TEXTURE__WIDTH, true);
+        return (Long) eGet(Ifc2x3tc1Package.eINSTANCE.getIfcPixelTexture_Width(), true);
     }
 
     /**
@@ -73,7 +73,7 @@ public class IfcPixelTextureImpl extends IfcSurfaceTextureImpl implements IfcPix
      */
     @Override
     public void setWidth(long newWidth) {
-        eSet(Ifc2x3tc1Package.Literals.IFC_PIXEL_TEXTURE__WIDTH, newWidth);
+        eSet(Ifc2x3tc1Package.eINSTANCE.getIfcPixelTexture_Width(), newWidth);
     }
 
     /**
@@ -83,7 +83,7 @@ public class IfcPixelTextureImpl extends IfcSurfaceTextureImpl implements IfcPix
      */
     @Override
     public long getHeight() {
-        return (Long) eGet(Ifc2x3tc1Package.Literals.IFC_PIXEL_TEXTURE__HEIGHT, true);
+        return (Long) eGet(Ifc2x3tc1Package.eINSTANCE.getIfcPixelTexture_Height(), true);
     }
 
     /**
@@ -93,7 +93,7 @@ public class IfcPixelTextureImpl extends IfcSurfaceTextureImpl implements IfcPix
      */
     @Override
     public void setHeight(long newHeight) {
-        eSet(Ifc2x3tc1Package.Literals.IFC_PIXEL_TEXTURE__HEIGHT, newHeight);
+        eSet(Ifc2x3tc1Package.eINSTANCE.getIfcPixelTexture_Height(), newHeight);
     }
 
     /**
@@ -103,7 +103,7 @@ public class IfcPixelTextureImpl extends IfcSurfaceTextureImpl implements IfcPix
      */
     @Override
     public long getColourComponents() {
-        return (Long) eGet(Ifc2x3tc1Package.Literals.IFC_PIXEL_TEXTURE__COLOUR_COMPONENTS, true);
+        return (Long) eGet(Ifc2x3tc1Package.eINSTANCE.getIfcPixelTexture_ColourComponents(), true);
     }
 
     /**
@@ -113,7 +113,7 @@ public class IfcPixelTextureImpl extends IfcSurfaceTextureImpl implements IfcPix
      */
     @Override
     public void setColourComponents(long newColourComponents) {
-        eSet(Ifc2x3tc1Package.Literals.IFC_PIXEL_TEXTURE__COLOUR_COMPONENTS, newColourComponents);
+        eSet(Ifc2x3tc1Package.eINSTANCE.getIfcPixelTexture_ColourComponents(), newColourComponents);
     }
 
 } //IfcPixelTextureImpl

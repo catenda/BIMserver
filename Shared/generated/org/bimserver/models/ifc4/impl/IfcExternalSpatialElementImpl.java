@@ -57,7 +57,7 @@ public class IfcExternalSpatialElementImpl extends IfcExternalSpatialStructureEl
      */
     @Override
     protected EClass eStaticClass() {
-        return Ifc4Package.Literals.IFC_EXTERNAL_SPATIAL_ELEMENT;
+        return Ifc4Package.eINSTANCE.getIfcExternalSpatialElement();
     }
 
     /**
@@ -68,7 +68,7 @@ public class IfcExternalSpatialElementImpl extends IfcExternalSpatialStructureEl
     @Override
     public IfcExternalSpatialElementTypeEnum getPredefinedType() {
         return (IfcExternalSpatialElementTypeEnum) eGet(
-                Ifc4Package.Literals.IFC_EXTERNAL_SPATIAL_ELEMENT__PREDEFINED_TYPE, true);
+                Ifc4Package.eINSTANCE.getIfcExternalSpatialElement_PredefinedType(), true);
     }
 
     /**
@@ -78,7 +78,7 @@ public class IfcExternalSpatialElementImpl extends IfcExternalSpatialStructureEl
      */
     @Override
     public void setPredefinedType(IfcExternalSpatialElementTypeEnum newPredefinedType) {
-        eSet(Ifc4Package.Literals.IFC_EXTERNAL_SPATIAL_ELEMENT__PREDEFINED_TYPE, newPredefinedType);
+        eSet(Ifc4Package.eINSTANCE.getIfcExternalSpatialElement_PredefinedType(), newPredefinedType);
     }
 
     /**
@@ -88,7 +88,7 @@ public class IfcExternalSpatialElementImpl extends IfcExternalSpatialStructureEl
      */
     @Override
     public void unsetPredefinedType() {
-        eUnset(Ifc4Package.Literals.IFC_EXTERNAL_SPATIAL_ELEMENT__PREDEFINED_TYPE);
+        eUnset(Ifc4Package.eINSTANCE.getIfcExternalSpatialElement_PredefinedType());
     }
 
     /**
@@ -98,7 +98,7 @@ public class IfcExternalSpatialElementImpl extends IfcExternalSpatialStructureEl
      */
     @Override
     public boolean isSetPredefinedType() {
-        return eIsSet(Ifc4Package.Literals.IFC_EXTERNAL_SPATIAL_ELEMENT__PREDEFINED_TYPE);
+        return eIsSet(Ifc4Package.eINSTANCE.getIfcExternalSpatialElement_PredefinedType());
     }
 
     /**
@@ -109,7 +109,7 @@ public class IfcExternalSpatialElementImpl extends IfcExternalSpatialStructureEl
     @SuppressWarnings("unchecked")
     @Override
     public EList<IfcRelSpaceBoundary> getBoundedBy() {
-        return (EList<IfcRelSpaceBoundary>) eGet(Ifc4Package.Literals.IFC_EXTERNAL_SPATIAL_ELEMENT__BOUNDED_BY, true);
+        return (EList<IfcRelSpaceBoundary>) eGet(Ifc4Package.eINSTANCE.getIfcExternalSpatialElement_BoundedBy(), true);
     }
 
     /**
@@ -119,7 +119,7 @@ public class IfcExternalSpatialElementImpl extends IfcExternalSpatialStructureEl
      */
     @Override
     public void unsetBoundedBy() {
-        eUnset(Ifc4Package.Literals.IFC_EXTERNAL_SPATIAL_ELEMENT__BOUNDED_BY);
+        eUnset(Ifc4Package.eINSTANCE.getIfcExternalSpatialElement_BoundedBy());
     }
 
     /**
@@ -129,7 +129,7 @@ public class IfcExternalSpatialElementImpl extends IfcExternalSpatialStructureEl
      */
     @Override
     public boolean isSetBoundedBy() {
-        return eIsSet(Ifc4Package.Literals.IFC_EXTERNAL_SPATIAL_ELEMENT__BOUNDED_BY);
+        return eIsSet(Ifc4Package.eINSTANCE.getIfcExternalSpatialElement_BoundedBy());
     }
 
 } //IfcExternalSpatialElementImpl

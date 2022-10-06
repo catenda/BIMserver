@@ -40,10 +40,6 @@ public interface IfcStructuralReaction extends IfcStructuralActivity {
      * The list contents are of type {@link org.bimserver.models.ifc2x3tc1.IfcStructuralAction}.
      * It is bidirectional and its opposite is '{@link org.bimserver.models.ifc2x3tc1.IfcStructuralAction#getCausedBy <em>Caused By</em>}'.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Causes</em>' reference list isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Causes</em>' reference list.
      * @see #isSetCauses()

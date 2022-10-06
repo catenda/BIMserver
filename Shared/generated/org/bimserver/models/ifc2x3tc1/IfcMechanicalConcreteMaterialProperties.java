@@ -44,10 +44,6 @@ public interface IfcMechanicalConcreteMaterialProperties extends IfcMechanicalMa
     /**
      * Returns the value of the '<em><b>Compressive Strength</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Compressive Strength</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Compressive Strength</em>' attribute.
      * @see #isSetCompressiveStrength()
@@ -97,10 +93,6 @@ public interface IfcMechanicalConcreteMaterialProperties extends IfcMechanicalMa
     /**
      * Returns the value of the '<em><b>Compressive Strength As String</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Compressive Strength As String</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Compressive Strength As String</em>' attribute.
      * @see #isSetCompressiveStrengthAsString()
@@ -152,10 +144,6 @@ public interface IfcMechanicalConcreteMaterialProperties extends IfcMechanicalMa
     /**
      * Returns the value of the '<em><b>Max Aggregate Size</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Max Aggregate Size</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Max Aggregate Size</em>' attribute.
      * @see #isSetMaxAggregateSize()
@@ -205,10 +193,6 @@ public interface IfcMechanicalConcreteMaterialProperties extends IfcMechanicalMa
     /**
      * Returns the value of the '<em><b>Max Aggregate Size As String</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Max Aggregate Size As String</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Max Aggregate Size As String</em>' attribute.
      * @see #isSetMaxAggregateSizeAsString()
@@ -260,10 +244,6 @@ public interface IfcMechanicalConcreteMaterialProperties extends IfcMechanicalMa
     /**
      * Returns the value of the '<em><b>Admixtures Description</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Admixtures Description</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Admixtures Description</em>' attribute.
      * @see #isSetAdmixturesDescription()
@@ -313,10 +293,6 @@ public interface IfcMechanicalConcreteMaterialProperties extends IfcMechanicalMa
     /**
      * Returns the value of the '<em><b>Workability</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Workability</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Workability</em>' attribute.
      * @see #isSetWorkability()
@@ -366,10 +342,6 @@ public interface IfcMechanicalConcreteMaterialProperties extends IfcMechanicalMa
     /**
      * Returns the value of the '<em><b>Protective Pore Ratio</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Protective Pore Ratio</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Protective Pore Ratio</em>' attribute.
      * @see #isSetProtectivePoreRatio()
@@ -419,10 +391,6 @@ public interface IfcMechanicalConcreteMaterialProperties extends IfcMechanicalMa
     /**
      * Returns the value of the '<em><b>Protective Pore Ratio As String</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Protective Pore Ratio As String</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Protective Pore Ratio As String</em>' attribute.
      * @see #isSetProtectivePoreRatioAsString()
@@ -474,10 +442,6 @@ public interface IfcMechanicalConcreteMaterialProperties extends IfcMechanicalMa
     /**
      * Returns the value of the '<em><b>Water Impermeability</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Water Impermeability</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Water Impermeability</em>' attribute.
      * @see #isSetWaterImpermeability()

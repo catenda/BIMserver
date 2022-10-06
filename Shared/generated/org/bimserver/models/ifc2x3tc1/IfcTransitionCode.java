@@ -85,10 +85,6 @@ public enum IfcTransitionCode implements Enumerator {
     /**
      * The '<em><b>NULL</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>NULL</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #NULL
      * @model
@@ -100,10 +96,6 @@ public enum IfcTransitionCode implements Enumerator {
     /**
      * The '<em><b>DISCONTINUOUS</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>DISCONTINUOUS</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #DISCONTINUOUS
      * @model
@@ -115,10 +107,6 @@ public enum IfcTransitionCode implements Enumerator {
     /**
      * The '<em><b>CONTSAMEGRADIENTSAMECURVATURE</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>CONTSAMEGRADIENTSAMECURVATURE</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #CONTSAMEGRADIENTSAMECURVATURE
      * @model
@@ -130,10 +118,6 @@ public enum IfcTransitionCode implements Enumerator {
     /**
      * The '<em><b>CONTINUOUS</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>CONTINUOUS</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #CONTINUOUS
      * @model
@@ -145,10 +129,6 @@ public enum IfcTransitionCode implements Enumerator {
     /**
      * The '<em><b>CONTSAMEGRADIENT</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>CONTSAMEGRADIENT</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #CONTSAMEGRADIENT
      * @model

@@ -46,10 +46,6 @@ public interface IfcSectionReinforcementProperties extends IfcPreDefinedProperti
     /**
      * Returns the value of the '<em><b>Longitudinal Start Position</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Longitudinal Start Position</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Longitudinal Start Position</em>' attribute.
      * @see #setLongitudinalStartPosition(double)
@@ -72,10 +68,6 @@ public interface IfcSectionReinforcementProperties extends IfcPreDefinedProperti
     /**
      * Returns the value of the '<em><b>Longitudinal Start Position As String</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Longitudinal Start Position As String</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Longitudinal Start Position As String</em>' attribute.
      * @see #setLongitudinalStartPositionAsString(String)
@@ -99,10 +91,6 @@ public interface IfcSectionReinforcementProperties extends IfcPreDefinedProperti
     /**
      * Returns the value of the '<em><b>Longitudinal End Position</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Longitudinal End Position</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Longitudinal End Position</em>' attribute.
      * @see #setLongitudinalEndPosition(double)
@@ -125,10 +113,6 @@ public interface IfcSectionReinforcementProperties extends IfcPreDefinedProperti
     /**
      * Returns the value of the '<em><b>Longitudinal End Position As String</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Longitudinal End Position As String</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Longitudinal End Position As String</em>' attribute.
      * @see #setLongitudinalEndPositionAsString(String)
@@ -152,10 +136,6 @@ public interface IfcSectionReinforcementProperties extends IfcPreDefinedProperti
     /**
      * Returns the value of the '<em><b>Transverse Position</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Transverse Position</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Transverse Position</em>' attribute.
      * @see #isSetTransversePosition()
@@ -205,10 +185,6 @@ public interface IfcSectionReinforcementProperties extends IfcPreDefinedProperti
     /**
      * Returns the value of the '<em><b>Transverse Position As String</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Transverse Position As String</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Transverse Position As String</em>' attribute.
      * @see #isSetTransversePositionAsString()
@@ -261,10 +237,6 @@ public interface IfcSectionReinforcementProperties extends IfcPreDefinedProperti
      * Returns the value of the '<em><b>Reinforcement Role</b></em>' attribute.
      * The literals are from the enumeration {@link org.bimserver.models.ifc4.IfcReinforcingBarRoleEnum}.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Reinforcement Role</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Reinforcement Role</em>' attribute.
      * @see org.bimserver.models.ifc4.IfcReinforcingBarRoleEnum
@@ -289,10 +261,6 @@ public interface IfcSectionReinforcementProperties extends IfcPreDefinedProperti
     /**
      * Returns the value of the '<em><b>Section Definition</b></em>' reference.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Section Definition</em>' reference isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Section Definition</em>' reference.
      * @see #setSectionDefinition(IfcSectionProperties)
@@ -316,10 +284,6 @@ public interface IfcSectionReinforcementProperties extends IfcPreDefinedProperti
      * Returns the value of the '<em><b>Cross Section Reinforcement Definitions</b></em>' reference list.
      * The list contents are of type {@link org.bimserver.models.ifc4.IfcReinforcementBarProperties}.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Cross Section Reinforcement Definitions</em>' reference list isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Cross Section Reinforcement Definitions</em>' reference list.
      * @see org.bimserver.models.ifc4.Ifc4Package#getIfcSectionReinforcementProperties_CrossSectionReinforcementDefinitions()

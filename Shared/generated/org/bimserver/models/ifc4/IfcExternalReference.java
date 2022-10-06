@@ -42,10 +42,6 @@ public interface IfcExternalReference
     /**
      * Returns the value of the '<em><b>Location</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Location</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Location</em>' attribute.
      * @see #isSetLocation()
@@ -95,10 +91,6 @@ public interface IfcExternalReference
     /**
      * Returns the value of the '<em><b>Identification</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Identification</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Identification</em>' attribute.
      * @see #isSetIdentification()
@@ -148,10 +140,6 @@ public interface IfcExternalReference
     /**
      * Returns the value of the '<em><b>Name</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Name</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Name</em>' attribute.
      * @see #isSetName()
@@ -203,10 +191,6 @@ public interface IfcExternalReference
      * The list contents are of type {@link org.bimserver.models.ifc4.IfcExternalReferenceRelationship}.
      * It is bidirectional and its opposite is '{@link org.bimserver.models.ifc4.IfcExternalReferenceRelationship#getRelatingReference <em>Relating Reference</em>}'.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>External Reference For Resources</em>' reference list isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>External Reference For Resources</em>' reference list.
      * @see #isSetExternalReferenceForResources()

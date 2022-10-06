@@ -52,7 +52,7 @@ public class IfcQuantityVolumeImpl extends IfcPhysicalSimpleQuantityImpl impleme
      */
     @Override
     protected EClass eStaticClass() {
-        return Ifc2x3tc1Package.Literals.IFC_QUANTITY_VOLUME;
+        return Ifc2x3tc1Package.eINSTANCE.getIfcQuantityVolume();
     }
 
     /**
@@ -62,7 +62,7 @@ public class IfcQuantityVolumeImpl extends IfcPhysicalSimpleQuantityImpl impleme
      */
     @Override
     public double getVolumeValue() {
-        return (Double) eGet(Ifc2x3tc1Package.Literals.IFC_QUANTITY_VOLUME__VOLUME_VALUE, true);
+        return (Double) eGet(Ifc2x3tc1Package.eINSTANCE.getIfcQuantityVolume_VolumeValue(), true);
     }
 
     /**
@@ -72,7 +72,7 @@ public class IfcQuantityVolumeImpl extends IfcPhysicalSimpleQuantityImpl impleme
      */
     @Override
     public void setVolumeValue(double newVolumeValue) {
-        eSet(Ifc2x3tc1Package.Literals.IFC_QUANTITY_VOLUME__VOLUME_VALUE, newVolumeValue);
+        eSet(Ifc2x3tc1Package.eINSTANCE.getIfcQuantityVolume_VolumeValue(), newVolumeValue);
     }
 
     /**
@@ -82,7 +82,7 @@ public class IfcQuantityVolumeImpl extends IfcPhysicalSimpleQuantityImpl impleme
      */
     @Override
     public String getVolumeValueAsString() {
-        return (String) eGet(Ifc2x3tc1Package.Literals.IFC_QUANTITY_VOLUME__VOLUME_VALUE_AS_STRING, true);
+        return (String) eGet(Ifc2x3tc1Package.eINSTANCE.getIfcQuantityVolume_VolumeValueAsString(), true);
     }
 
     /**
@@ -92,7 +92,7 @@ public class IfcQuantityVolumeImpl extends IfcPhysicalSimpleQuantityImpl impleme
      */
     @Override
     public void setVolumeValueAsString(String newVolumeValueAsString) {
-        eSet(Ifc2x3tc1Package.Literals.IFC_QUANTITY_VOLUME__VOLUME_VALUE_AS_STRING, newVolumeValueAsString);
+        eSet(Ifc2x3tc1Package.eINSTANCE.getIfcQuantityVolume_VolumeValueAsString(), newVolumeValueAsString);
     }
 
 } //IfcQuantityVolumeImpl

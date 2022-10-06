@@ -105,10 +105,6 @@ public enum IfcBSplineCurveForm implements Enumerator {
     /**
      * The '<em><b>NULL</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>NULL</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #NULL
      * @model
@@ -120,10 +116,6 @@ public enum IfcBSplineCurveForm implements Enumerator {
     /**
      * The '<em><b>PARABOLIC ARC</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>PARABOLIC ARC</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #PARABOLIC_ARC
      * @model
@@ -135,10 +127,6 @@ public enum IfcBSplineCurveForm implements Enumerator {
     /**
      * The '<em><b>UNSPECIFIED</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>UNSPECIFIED</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #UNSPECIFIED
      * @model
@@ -150,10 +138,6 @@ public enum IfcBSplineCurveForm implements Enumerator {
     /**
      * The '<em><b>HYPERBOLIC ARC</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>HYPERBOLIC ARC</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #HYPERBOLIC_ARC
      * @model
@@ -165,10 +149,6 @@ public enum IfcBSplineCurveForm implements Enumerator {
     /**
      * The '<em><b>ELLIPTIC ARC</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>ELLIPTIC ARC</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #ELLIPTIC_ARC
      * @model
@@ -180,10 +160,6 @@ public enum IfcBSplineCurveForm implements Enumerator {
     /**
      * The '<em><b>POLYLINE FORM</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>POLYLINE FORM</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #POLYLINE_FORM
      * @model
@@ -195,10 +171,6 @@ public enum IfcBSplineCurveForm implements Enumerator {
     /**
      * The '<em><b>CIRCULAR ARC</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>CIRCULAR ARC</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #CIRCULAR_ARC
      * @model

@@ -52,7 +52,7 @@ public class IfcElectricApplianceImpl extends IfcFlowTerminalImpl implements Ifc
      */
     @Override
     protected EClass eStaticClass() {
-        return Ifc4Package.Literals.IFC_ELECTRIC_APPLIANCE;
+        return Ifc4Package.eINSTANCE.getIfcElectricAppliance();
     }
 
     /**
@@ -62,7 +62,8 @@ public class IfcElectricApplianceImpl extends IfcFlowTerminalImpl implements Ifc
      */
     @Override
     public IfcElectricApplianceTypeEnum getPredefinedType() {
-        return (IfcElectricApplianceTypeEnum) eGet(Ifc4Package.Literals.IFC_ELECTRIC_APPLIANCE__PREDEFINED_TYPE, true);
+        return (IfcElectricApplianceTypeEnum) eGet(Ifc4Package.eINSTANCE.getIfcElectricAppliance_PredefinedType(),
+                true);
     }
 
     /**
@@ -72,7 +73,7 @@ public class IfcElectricApplianceImpl extends IfcFlowTerminalImpl implements Ifc
      */
     @Override
     public void setPredefinedType(IfcElectricApplianceTypeEnum newPredefinedType) {
-        eSet(Ifc4Package.Literals.IFC_ELECTRIC_APPLIANCE__PREDEFINED_TYPE, newPredefinedType);
+        eSet(Ifc4Package.eINSTANCE.getIfcElectricAppliance_PredefinedType(), newPredefinedType);
     }
 
     /**
@@ -82,7 +83,7 @@ public class IfcElectricApplianceImpl extends IfcFlowTerminalImpl implements Ifc
      */
     @Override
     public void unsetPredefinedType() {
-        eUnset(Ifc4Package.Literals.IFC_ELECTRIC_APPLIANCE__PREDEFINED_TYPE);
+        eUnset(Ifc4Package.eINSTANCE.getIfcElectricAppliance_PredefinedType());
     }
 
     /**
@@ -92,7 +93,7 @@ public class IfcElectricApplianceImpl extends IfcFlowTerminalImpl implements Ifc
      */
     @Override
     public boolean isSetPredefinedType() {
-        return eIsSet(Ifc4Package.Literals.IFC_ELECTRIC_APPLIANCE__PREDEFINED_TYPE);
+        return eIsSet(Ifc4Package.eINSTANCE.getIfcElectricAppliance_PredefinedType());
     }
 
 } //IfcElectricApplianceImpl

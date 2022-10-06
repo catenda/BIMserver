@@ -115,10 +115,6 @@ public enum IfcTimeSeriesDataTypeEnum implements Enumerator {
     /**
      * The '<em><b>NULL</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>NULL</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #NULL
      * @model
@@ -130,10 +126,6 @@ public enum IfcTimeSeriesDataTypeEnum implements Enumerator {
     /**
      * The '<em><b>DISCRETEBINARY</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>DISCRETEBINARY</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #DISCRETEBINARY
      * @model
@@ -145,10 +137,6 @@ public enum IfcTimeSeriesDataTypeEnum implements Enumerator {
     /**
      * The '<em><b>NOTDEFINED</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>NOTDEFINED</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #NOTDEFINED
      * @model
@@ -160,10 +148,6 @@ public enum IfcTimeSeriesDataTypeEnum implements Enumerator {
     /**
      * The '<em><b>PIECEWISECONSTANT</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>PIECEWISECONSTANT</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #PIECEWISECONSTANT
      * @model
@@ -175,10 +159,6 @@ public enum IfcTimeSeriesDataTypeEnum implements Enumerator {
     /**
      * The '<em><b>DISCRETE</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>DISCRETE</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #DISCRETE
      * @model
@@ -190,10 +170,6 @@ public enum IfcTimeSeriesDataTypeEnum implements Enumerator {
     /**
      * The '<em><b>PIECEWISEBINARY</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>PIECEWISEBINARY</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #PIECEWISEBINARY
      * @model
@@ -205,10 +181,6 @@ public enum IfcTimeSeriesDataTypeEnum implements Enumerator {
     /**
      * The '<em><b>PIECEWISECONTINUOUS</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>PIECEWISECONTINUOUS</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #PIECEWISECONTINUOUS
      * @model
@@ -220,10 +192,6 @@ public enum IfcTimeSeriesDataTypeEnum implements Enumerator {
     /**
      * The '<em><b>CONTINUOUS</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>CONTINUOUS</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #CONTINUOUS
      * @model

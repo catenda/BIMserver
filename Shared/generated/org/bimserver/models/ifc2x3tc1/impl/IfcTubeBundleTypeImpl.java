@@ -52,7 +52,7 @@ public class IfcTubeBundleTypeImpl extends IfcEnergyConversionDeviceTypeImpl imp
      */
     @Override
     protected EClass eStaticClass() {
-        return Ifc2x3tc1Package.Literals.IFC_TUBE_BUNDLE_TYPE;
+        return Ifc2x3tc1Package.eINSTANCE.getIfcTubeBundleType();
     }
 
     /**
@@ -62,7 +62,7 @@ public class IfcTubeBundleTypeImpl extends IfcEnergyConversionDeviceTypeImpl imp
      */
     @Override
     public IfcTubeBundleTypeEnum getPredefinedType() {
-        return (IfcTubeBundleTypeEnum) eGet(Ifc2x3tc1Package.Literals.IFC_TUBE_BUNDLE_TYPE__PREDEFINED_TYPE, true);
+        return (IfcTubeBundleTypeEnum) eGet(Ifc2x3tc1Package.eINSTANCE.getIfcTubeBundleType_PredefinedType(), true);
     }
 
     /**
@@ -72,7 +72,7 @@ public class IfcTubeBundleTypeImpl extends IfcEnergyConversionDeviceTypeImpl imp
      */
     @Override
     public void setPredefinedType(IfcTubeBundleTypeEnum newPredefinedType) {
-        eSet(Ifc2x3tc1Package.Literals.IFC_TUBE_BUNDLE_TYPE__PREDEFINED_TYPE, newPredefinedType);
+        eSet(Ifc2x3tc1Package.eINSTANCE.getIfcTubeBundleType_PredefinedType(), newPredefinedType);
     }
 
 } //IfcTubeBundleTypeImpl

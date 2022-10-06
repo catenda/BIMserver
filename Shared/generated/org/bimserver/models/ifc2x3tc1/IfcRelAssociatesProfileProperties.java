@@ -38,10 +38,6 @@ public interface IfcRelAssociatesProfileProperties extends IfcRelAssociates {
     /**
      * Returns the value of the '<em><b>Relating Profile Properties</b></em>' reference.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Relating Profile Properties</em>' reference isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Relating Profile Properties</em>' reference.
      * @see #setRelatingProfileProperties(IfcProfileProperties)
@@ -64,10 +60,6 @@ public interface IfcRelAssociatesProfileProperties extends IfcRelAssociates {
     /**
      * Returns the value of the '<em><b>Profile Section Location</b></em>' reference.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Profile Section Location</em>' reference isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Profile Section Location</em>' reference.
      * @see #isSetProfileSectionLocation()
@@ -117,10 +109,6 @@ public interface IfcRelAssociatesProfileProperties extends IfcRelAssociates {
     /**
      * Returns the value of the '<em><b>Profile Orientation</b></em>' reference.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Profile Orientation</em>' reference isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Profile Orientation</em>' reference.
      * @see #isSetProfileOrientation()

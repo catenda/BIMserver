@@ -56,7 +56,7 @@ public class IfcShellBasedSurfaceModelImpl extends IfcGeometricRepresentationIte
      */
     @Override
     protected EClass eStaticClass() {
-        return Ifc2x3tc1Package.Literals.IFC_SHELL_BASED_SURFACE_MODEL;
+        return Ifc2x3tc1Package.eINSTANCE.getIfcShellBasedSurfaceModel();
     }
 
     /**
@@ -67,7 +67,7 @@ public class IfcShellBasedSurfaceModelImpl extends IfcGeometricRepresentationIte
     @SuppressWarnings("unchecked")
     @Override
     public EList<IfcShell> getSbsmBoundary() {
-        return (EList<IfcShell>) eGet(Ifc2x3tc1Package.Literals.IFC_SHELL_BASED_SURFACE_MODEL__SBSM_BOUNDARY, true);
+        return (EList<IfcShell>) eGet(Ifc2x3tc1Package.eINSTANCE.getIfcShellBasedSurfaceModel_SbsmBoundary(), true);
     }
 
     /**
@@ -77,7 +77,7 @@ public class IfcShellBasedSurfaceModelImpl extends IfcGeometricRepresentationIte
      */
     @Override
     public long getDim() {
-        return (Long) eGet(Ifc2x3tc1Package.Literals.IFC_SHELL_BASED_SURFACE_MODEL__DIM, true);
+        return (Long) eGet(Ifc2x3tc1Package.eINSTANCE.getIfcShellBasedSurfaceModel_Dim(), true);
     }
 
     /**
@@ -87,7 +87,7 @@ public class IfcShellBasedSurfaceModelImpl extends IfcGeometricRepresentationIte
      */
     @Override
     public void setDim(long newDim) {
-        eSet(Ifc2x3tc1Package.Literals.IFC_SHELL_BASED_SURFACE_MODEL__DIM, newDim);
+        eSet(Ifc2x3tc1Package.eINSTANCE.getIfcShellBasedSurfaceModel_Dim(), newDim);
     }
 
     /**
@@ -97,7 +97,7 @@ public class IfcShellBasedSurfaceModelImpl extends IfcGeometricRepresentationIte
      */
     @Override
     public void unsetDim() {
-        eUnset(Ifc2x3tc1Package.Literals.IFC_SHELL_BASED_SURFACE_MODEL__DIM);
+        eUnset(Ifc2x3tc1Package.eINSTANCE.getIfcShellBasedSurfaceModel_Dim());
     }
 
     /**
@@ -107,7 +107,7 @@ public class IfcShellBasedSurfaceModelImpl extends IfcGeometricRepresentationIte
      */
     @Override
     public boolean isSetDim() {
-        return eIsSet(Ifc2x3tc1Package.Literals.IFC_SHELL_BASED_SURFACE_MODEL__DIM);
+        return eIsSet(Ifc2x3tc1Package.eINSTANCE.getIfcShellBasedSurfaceModel_Dim());
     }
 
 } //IfcShellBasedSurfaceModelImpl

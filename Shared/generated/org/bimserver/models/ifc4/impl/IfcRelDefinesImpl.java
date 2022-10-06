@@ -45,7 +45,7 @@ public class IfcRelDefinesImpl extends IfcRelationshipImpl implements IfcRelDefi
      */
     @Override
     protected EClass eStaticClass() {
-        return Ifc4Package.Literals.IFC_REL_DEFINES;
+        return Ifc4Package.eINSTANCE.getIfcRelDefines();
     }
 
 } //IfcRelDefinesImpl

@@ -42,10 +42,6 @@ public interface IfcSurfaceStyleRendering extends IfcSurfaceStyleShading {
     /**
      * Returns the value of the '<em><b>Diffuse Colour</b></em>' reference.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Diffuse Colour</em>' reference isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Diffuse Colour</em>' reference.
      * @see #isSetDiffuseColour()
@@ -95,10 +91,6 @@ public interface IfcSurfaceStyleRendering extends IfcSurfaceStyleShading {
     /**
      * Returns the value of the '<em><b>Transmission Colour</b></em>' reference.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Transmission Colour</em>' reference isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Transmission Colour</em>' reference.
      * @see #isSetTransmissionColour()
@@ -148,10 +140,6 @@ public interface IfcSurfaceStyleRendering extends IfcSurfaceStyleShading {
     /**
      * Returns the value of the '<em><b>Diffuse Transmission Colour</b></em>' reference.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Diffuse Transmission Colour</em>' reference isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Diffuse Transmission Colour</em>' reference.
      * @see #isSetDiffuseTransmissionColour()
@@ -201,10 +189,6 @@ public interface IfcSurfaceStyleRendering extends IfcSurfaceStyleShading {
     /**
      * Returns the value of the '<em><b>Reflection Colour</b></em>' reference.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Reflection Colour</em>' reference isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Reflection Colour</em>' reference.
      * @see #isSetReflectionColour()
@@ -254,10 +238,6 @@ public interface IfcSurfaceStyleRendering extends IfcSurfaceStyleShading {
     /**
      * Returns the value of the '<em><b>Specular Colour</b></em>' reference.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Specular Colour</em>' reference isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Specular Colour</em>' reference.
      * @see #isSetSpecularColour()
@@ -307,10 +287,6 @@ public interface IfcSurfaceStyleRendering extends IfcSurfaceStyleShading {
     /**
      * Returns the value of the '<em><b>Specular Highlight</b></em>' reference.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Specular Highlight</em>' reference isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Specular Highlight</em>' reference.
      * @see #isSetSpecularHighlight()
@@ -361,10 +337,6 @@ public interface IfcSurfaceStyleRendering extends IfcSurfaceStyleShading {
      * Returns the value of the '<em><b>Reflectance Method</b></em>' attribute.
      * The literals are from the enumeration {@link org.bimserver.models.ifc4.IfcReflectanceMethodEnum}.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Reflectance Method</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Reflectance Method</em>' attribute.
      * @see org.bimserver.models.ifc4.IfcReflectanceMethodEnum

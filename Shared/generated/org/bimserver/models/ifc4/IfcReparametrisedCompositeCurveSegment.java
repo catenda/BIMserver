@@ -37,10 +37,6 @@ public interface IfcReparametrisedCompositeCurveSegment extends IfcCompositeCurv
     /**
      * Returns the value of the '<em><b>Param Length</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Param Length</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Param Length</em>' attribute.
      * @see #setParamLength(double)
@@ -63,10 +59,6 @@ public interface IfcReparametrisedCompositeCurveSegment extends IfcCompositeCurv
     /**
      * Returns the value of the '<em><b>Param Length As String</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Param Length As String</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Param Length As String</em>' attribute.
      * @see #setParamLengthAsString(String)

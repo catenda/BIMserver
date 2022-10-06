@@ -52,7 +52,7 @@ public class IfcCableCarrierSegmentTypeImpl extends IfcFlowSegmentTypeImpl imple
      */
     @Override
     protected EClass eStaticClass() {
-        return Ifc4Package.Literals.IFC_CABLE_CARRIER_SEGMENT_TYPE;
+        return Ifc4Package.eINSTANCE.getIfcCableCarrierSegmentType();
     }
 
     /**
@@ -63,7 +63,7 @@ public class IfcCableCarrierSegmentTypeImpl extends IfcFlowSegmentTypeImpl imple
     @Override
     public IfcCableCarrierSegmentTypeEnum getPredefinedType() {
         return (IfcCableCarrierSegmentTypeEnum) eGet(
-                Ifc4Package.Literals.IFC_CABLE_CARRIER_SEGMENT_TYPE__PREDEFINED_TYPE, true);
+                Ifc4Package.eINSTANCE.getIfcCableCarrierSegmentType_PredefinedType(), true);
     }
 
     /**
@@ -73,7 +73,7 @@ public class IfcCableCarrierSegmentTypeImpl extends IfcFlowSegmentTypeImpl imple
      */
     @Override
     public void setPredefinedType(IfcCableCarrierSegmentTypeEnum newPredefinedType) {
-        eSet(Ifc4Package.Literals.IFC_CABLE_CARRIER_SEGMENT_TYPE__PREDEFINED_TYPE, newPredefinedType);
+        eSet(Ifc4Package.eINSTANCE.getIfcCableCarrierSegmentType_PredefinedType(), newPredefinedType);
     }
 
 } //IfcCableCarrierSegmentTypeImpl

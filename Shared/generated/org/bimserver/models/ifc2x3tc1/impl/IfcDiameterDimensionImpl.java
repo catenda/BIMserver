@@ -45,7 +45,7 @@ public class IfcDiameterDimensionImpl extends IfcDimensionCurveDirectedCalloutIm
      */
     @Override
     protected EClass eStaticClass() {
-        return Ifc2x3tc1Package.Literals.IFC_DIAMETER_DIMENSION;
+        return Ifc2x3tc1Package.eINSTANCE.getIfcDiameterDimension();
     }
 
 } //IfcDiameterDimensionImpl

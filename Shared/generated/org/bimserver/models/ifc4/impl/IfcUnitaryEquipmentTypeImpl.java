@@ -52,7 +52,7 @@ public class IfcUnitaryEquipmentTypeImpl extends IfcEnergyConversionDeviceTypeIm
      */
     @Override
     protected EClass eStaticClass() {
-        return Ifc4Package.Literals.IFC_UNITARY_EQUIPMENT_TYPE;
+        return Ifc4Package.eINSTANCE.getIfcUnitaryEquipmentType();
     }
 
     /**
@@ -62,7 +62,7 @@ public class IfcUnitaryEquipmentTypeImpl extends IfcEnergyConversionDeviceTypeIm
      */
     @Override
     public IfcUnitaryEquipmentTypeEnum getPredefinedType() {
-        return (IfcUnitaryEquipmentTypeEnum) eGet(Ifc4Package.Literals.IFC_UNITARY_EQUIPMENT_TYPE__PREDEFINED_TYPE,
+        return (IfcUnitaryEquipmentTypeEnum) eGet(Ifc4Package.eINSTANCE.getIfcUnitaryEquipmentType_PredefinedType(),
                 true);
     }
 
@@ -73,7 +73,7 @@ public class IfcUnitaryEquipmentTypeImpl extends IfcEnergyConversionDeviceTypeIm
      */
     @Override
     public void setPredefinedType(IfcUnitaryEquipmentTypeEnum newPredefinedType) {
-        eSet(Ifc4Package.Literals.IFC_UNITARY_EQUIPMENT_TYPE__PREDEFINED_TYPE, newPredefinedType);
+        eSet(Ifc4Package.eINSTANCE.getIfcUnitaryEquipmentType_PredefinedType(), newPredefinedType);
     }
 
 } //IfcUnitaryEquipmentTypeImpl

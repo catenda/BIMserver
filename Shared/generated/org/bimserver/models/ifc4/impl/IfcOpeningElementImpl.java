@@ -56,7 +56,7 @@ public class IfcOpeningElementImpl extends IfcFeatureElementSubtractionImpl impl
      */
     @Override
     protected EClass eStaticClass() {
-        return Ifc4Package.Literals.IFC_OPENING_ELEMENT;
+        return Ifc4Package.eINSTANCE.getIfcOpeningElement();
     }
 
     /**
@@ -66,7 +66,7 @@ public class IfcOpeningElementImpl extends IfcFeatureElementSubtractionImpl impl
      */
     @Override
     public IfcOpeningElementTypeEnum getPredefinedType() {
-        return (IfcOpeningElementTypeEnum) eGet(Ifc4Package.Literals.IFC_OPENING_ELEMENT__PREDEFINED_TYPE, true);
+        return (IfcOpeningElementTypeEnum) eGet(Ifc4Package.eINSTANCE.getIfcOpeningElement_PredefinedType(), true);
     }
 
     /**
@@ -76,7 +76,7 @@ public class IfcOpeningElementImpl extends IfcFeatureElementSubtractionImpl impl
      */
     @Override
     public void setPredefinedType(IfcOpeningElementTypeEnum newPredefinedType) {
-        eSet(Ifc4Package.Literals.IFC_OPENING_ELEMENT__PREDEFINED_TYPE, newPredefinedType);
+        eSet(Ifc4Package.eINSTANCE.getIfcOpeningElement_PredefinedType(), newPredefinedType);
     }
 
     /**
@@ -86,7 +86,7 @@ public class IfcOpeningElementImpl extends IfcFeatureElementSubtractionImpl impl
      */
     @Override
     public void unsetPredefinedType() {
-        eUnset(Ifc4Package.Literals.IFC_OPENING_ELEMENT__PREDEFINED_TYPE);
+        eUnset(Ifc4Package.eINSTANCE.getIfcOpeningElement_PredefinedType());
     }
 
     /**
@@ -96,7 +96,7 @@ public class IfcOpeningElementImpl extends IfcFeatureElementSubtractionImpl impl
      */
     @Override
     public boolean isSetPredefinedType() {
-        return eIsSet(Ifc4Package.Literals.IFC_OPENING_ELEMENT__PREDEFINED_TYPE);
+        return eIsSet(Ifc4Package.eINSTANCE.getIfcOpeningElement_PredefinedType());
     }
 
     /**
@@ -107,7 +107,7 @@ public class IfcOpeningElementImpl extends IfcFeatureElementSubtractionImpl impl
     @SuppressWarnings("unchecked")
     @Override
     public EList<IfcRelFillsElement> getHasFillings() {
-        return (EList<IfcRelFillsElement>) eGet(Ifc4Package.Literals.IFC_OPENING_ELEMENT__HAS_FILLINGS, true);
+        return (EList<IfcRelFillsElement>) eGet(Ifc4Package.eINSTANCE.getIfcOpeningElement_HasFillings(), true);
     }
 
     /**
@@ -117,7 +117,7 @@ public class IfcOpeningElementImpl extends IfcFeatureElementSubtractionImpl impl
      */
     @Override
     public void unsetHasFillings() {
-        eUnset(Ifc4Package.Literals.IFC_OPENING_ELEMENT__HAS_FILLINGS);
+        eUnset(Ifc4Package.eINSTANCE.getIfcOpeningElement_HasFillings());
     }
 
     /**
@@ -127,7 +127,7 @@ public class IfcOpeningElementImpl extends IfcFeatureElementSubtractionImpl impl
      */
     @Override
     public boolean isSetHasFillings() {
-        return eIsSet(Ifc4Package.Literals.IFC_OPENING_ELEMENT__HAS_FILLINGS);
+        return eIsSet(Ifc4Package.eINSTANCE.getIfcOpeningElement_HasFillings());
     }
 
 } //IfcOpeningElementImpl

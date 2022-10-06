@@ -38,10 +38,6 @@ public interface IfcEnvironmentalImpactValue extends IfcAppliedValue {
     /**
      * Returns the value of the '<em><b>Impact Type</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Impact Type</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Impact Type</em>' attribute.
      * @see #setImpactType(String)
@@ -65,10 +61,6 @@ public interface IfcEnvironmentalImpactValue extends IfcAppliedValue {
      * Returns the value of the '<em><b>Category</b></em>' attribute.
      * The literals are from the enumeration {@link org.bimserver.models.ifc2x3tc1.IfcEnvironmentalImpactCategoryEnum}.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Category</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Category</em>' attribute.
      * @see org.bimserver.models.ifc2x3tc1.IfcEnvironmentalImpactCategoryEnum
@@ -93,10 +85,6 @@ public interface IfcEnvironmentalImpactValue extends IfcAppliedValue {
     /**
      * Returns the value of the '<em><b>User Defined Category</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>User Defined Category</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>User Defined Category</em>' attribute.
      * @see #isSetUserDefinedCategory()

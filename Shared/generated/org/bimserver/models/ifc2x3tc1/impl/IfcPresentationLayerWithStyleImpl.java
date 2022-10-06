@@ -58,7 +58,7 @@ public class IfcPresentationLayerWithStyleImpl extends IfcPresentationLayerAssig
      */
     @Override
     protected EClass eStaticClass() {
-        return Ifc2x3tc1Package.Literals.IFC_PRESENTATION_LAYER_WITH_STYLE;
+        return Ifc2x3tc1Package.eINSTANCE.getIfcPresentationLayerWithStyle();
     }
 
     /**
@@ -68,7 +68,7 @@ public class IfcPresentationLayerWithStyleImpl extends IfcPresentationLayerAssig
      */
     @Override
     public boolean isLayerOn() {
-        return (Boolean) eGet(Ifc2x3tc1Package.Literals.IFC_PRESENTATION_LAYER_WITH_STYLE__LAYER_ON, true);
+        return (Boolean) eGet(Ifc2x3tc1Package.eINSTANCE.getIfcPresentationLayerWithStyle_LayerOn(), true);
     }
 
     /**
@@ -78,7 +78,7 @@ public class IfcPresentationLayerWithStyleImpl extends IfcPresentationLayerAssig
      */
     @Override
     public void setLayerOn(boolean newLayerOn) {
-        eSet(Ifc2x3tc1Package.Literals.IFC_PRESENTATION_LAYER_WITH_STYLE__LAYER_ON, newLayerOn);
+        eSet(Ifc2x3tc1Package.eINSTANCE.getIfcPresentationLayerWithStyle_LayerOn(), newLayerOn);
     }
 
     /**
@@ -88,7 +88,7 @@ public class IfcPresentationLayerWithStyleImpl extends IfcPresentationLayerAssig
      */
     @Override
     public boolean isLayerFrozen() {
-        return (Boolean) eGet(Ifc2x3tc1Package.Literals.IFC_PRESENTATION_LAYER_WITH_STYLE__LAYER_FROZEN, true);
+        return (Boolean) eGet(Ifc2x3tc1Package.eINSTANCE.getIfcPresentationLayerWithStyle_LayerFrozen(), true);
     }
 
     /**
@@ -98,7 +98,7 @@ public class IfcPresentationLayerWithStyleImpl extends IfcPresentationLayerAssig
      */
     @Override
     public void setLayerFrozen(boolean newLayerFrozen) {
-        eSet(Ifc2x3tc1Package.Literals.IFC_PRESENTATION_LAYER_WITH_STYLE__LAYER_FROZEN, newLayerFrozen);
+        eSet(Ifc2x3tc1Package.eINSTANCE.getIfcPresentationLayerWithStyle_LayerFrozen(), newLayerFrozen);
     }
 
     /**
@@ -108,7 +108,7 @@ public class IfcPresentationLayerWithStyleImpl extends IfcPresentationLayerAssig
      */
     @Override
     public boolean isLayerBlocked() {
-        return (Boolean) eGet(Ifc2x3tc1Package.Literals.IFC_PRESENTATION_LAYER_WITH_STYLE__LAYER_BLOCKED, true);
+        return (Boolean) eGet(Ifc2x3tc1Package.eINSTANCE.getIfcPresentationLayerWithStyle_LayerBlocked(), true);
     }
 
     /**
@@ -118,7 +118,7 @@ public class IfcPresentationLayerWithStyleImpl extends IfcPresentationLayerAssig
      */
     @Override
     public void setLayerBlocked(boolean newLayerBlocked) {
-        eSet(Ifc2x3tc1Package.Literals.IFC_PRESENTATION_LAYER_WITH_STYLE__LAYER_BLOCKED, newLayerBlocked);
+        eSet(Ifc2x3tc1Package.eINSTANCE.getIfcPresentationLayerWithStyle_LayerBlocked(), newLayerBlocked);
     }
 
     /**
@@ -130,7 +130,7 @@ public class IfcPresentationLayerWithStyleImpl extends IfcPresentationLayerAssig
     @Override
     public EList<IfcPresentationStyleSelect> getLayerStyles() {
         return (EList<IfcPresentationStyleSelect>) eGet(
-                Ifc2x3tc1Package.Literals.IFC_PRESENTATION_LAYER_WITH_STYLE__LAYER_STYLES, true);
+                Ifc2x3tc1Package.eINSTANCE.getIfcPresentationLayerWithStyle_LayerStyles(), true);
     }
 
 } //IfcPresentationLayerWithStyleImpl

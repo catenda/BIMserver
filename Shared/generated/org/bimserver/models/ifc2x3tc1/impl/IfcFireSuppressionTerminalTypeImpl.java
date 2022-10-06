@@ -53,7 +53,7 @@ public class IfcFireSuppressionTerminalTypeImpl extends IfcFlowTerminalTypeImpl
      */
     @Override
     protected EClass eStaticClass() {
-        return Ifc2x3tc1Package.Literals.IFC_FIRE_SUPPRESSION_TERMINAL_TYPE;
+        return Ifc2x3tc1Package.eINSTANCE.getIfcFireSuppressionTerminalType();
     }
 
     /**
@@ -64,7 +64,7 @@ public class IfcFireSuppressionTerminalTypeImpl extends IfcFlowTerminalTypeImpl
     @Override
     public IfcFireSuppressionTerminalTypeEnum getPredefinedType() {
         return (IfcFireSuppressionTerminalTypeEnum) eGet(
-                Ifc2x3tc1Package.Literals.IFC_FIRE_SUPPRESSION_TERMINAL_TYPE__PREDEFINED_TYPE, true);
+                Ifc2x3tc1Package.eINSTANCE.getIfcFireSuppressionTerminalType_PredefinedType(), true);
     }
 
     /**
@@ -74,7 +74,7 @@ public class IfcFireSuppressionTerminalTypeImpl extends IfcFlowTerminalTypeImpl
      */
     @Override
     public void setPredefinedType(IfcFireSuppressionTerminalTypeEnum newPredefinedType) {
-        eSet(Ifc2x3tc1Package.Literals.IFC_FIRE_SUPPRESSION_TERMINAL_TYPE__PREDEFINED_TYPE, newPredefinedType);
+        eSet(Ifc2x3tc1Package.eINSTANCE.getIfcFireSuppressionTerminalType_PredefinedType(), newPredefinedType);
     }
 
 } //IfcFireSuppressionTerminalTypeImpl

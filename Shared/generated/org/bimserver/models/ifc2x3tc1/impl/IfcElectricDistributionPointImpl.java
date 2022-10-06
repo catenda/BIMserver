@@ -53,7 +53,7 @@ public class IfcElectricDistributionPointImpl extends IfcFlowControllerImpl impl
      */
     @Override
     protected EClass eStaticClass() {
-        return Ifc2x3tc1Package.Literals.IFC_ELECTRIC_DISTRIBUTION_POINT;
+        return Ifc2x3tc1Package.eINSTANCE.getIfcElectricDistributionPoint();
     }
 
     /**
@@ -64,7 +64,7 @@ public class IfcElectricDistributionPointImpl extends IfcFlowControllerImpl impl
     @Override
     public IfcElectricDistributionPointFunctionEnum getDistributionPointFunction() {
         return (IfcElectricDistributionPointFunctionEnum) eGet(
-                Ifc2x3tc1Package.Literals.IFC_ELECTRIC_DISTRIBUTION_POINT__DISTRIBUTION_POINT_FUNCTION, true);
+                Ifc2x3tc1Package.eINSTANCE.getIfcElectricDistributionPoint_DistributionPointFunction(), true);
     }
 
     /**
@@ -74,7 +74,7 @@ public class IfcElectricDistributionPointImpl extends IfcFlowControllerImpl impl
      */
     @Override
     public void setDistributionPointFunction(IfcElectricDistributionPointFunctionEnum newDistributionPointFunction) {
-        eSet(Ifc2x3tc1Package.Literals.IFC_ELECTRIC_DISTRIBUTION_POINT__DISTRIBUTION_POINT_FUNCTION,
+        eSet(Ifc2x3tc1Package.eINSTANCE.getIfcElectricDistributionPoint_DistributionPointFunction(),
                 newDistributionPointFunction);
     }
 
@@ -85,7 +85,7 @@ public class IfcElectricDistributionPointImpl extends IfcFlowControllerImpl impl
      */
     @Override
     public String getUserDefinedFunction() {
-        return (String) eGet(Ifc2x3tc1Package.Literals.IFC_ELECTRIC_DISTRIBUTION_POINT__USER_DEFINED_FUNCTION, true);
+        return (String) eGet(Ifc2x3tc1Package.eINSTANCE.getIfcElectricDistributionPoint_UserDefinedFunction(), true);
     }
 
     /**
@@ -95,7 +95,7 @@ public class IfcElectricDistributionPointImpl extends IfcFlowControllerImpl impl
      */
     @Override
     public void setUserDefinedFunction(String newUserDefinedFunction) {
-        eSet(Ifc2x3tc1Package.Literals.IFC_ELECTRIC_DISTRIBUTION_POINT__USER_DEFINED_FUNCTION, newUserDefinedFunction);
+        eSet(Ifc2x3tc1Package.eINSTANCE.getIfcElectricDistributionPoint_UserDefinedFunction(), newUserDefinedFunction);
     }
 
     /**
@@ -105,7 +105,7 @@ public class IfcElectricDistributionPointImpl extends IfcFlowControllerImpl impl
      */
     @Override
     public void unsetUserDefinedFunction() {
-        eUnset(Ifc2x3tc1Package.Literals.IFC_ELECTRIC_DISTRIBUTION_POINT__USER_DEFINED_FUNCTION);
+        eUnset(Ifc2x3tc1Package.eINSTANCE.getIfcElectricDistributionPoint_UserDefinedFunction());
     }
 
     /**
@@ -115,7 +115,7 @@ public class IfcElectricDistributionPointImpl extends IfcFlowControllerImpl impl
      */
     @Override
     public boolean isSetUserDefinedFunction() {
-        return eIsSet(Ifc2x3tc1Package.Literals.IFC_ELECTRIC_DISTRIBUTION_POINT__USER_DEFINED_FUNCTION);
+        return eIsSet(Ifc2x3tc1Package.eINSTANCE.getIfcElectricDistributionPoint_UserDefinedFunction());
     }
 
 } //IfcElectricDistributionPointImpl

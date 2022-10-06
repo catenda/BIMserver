@@ -56,7 +56,7 @@ public class IfcRelConnectsWithRealizingElementsImpl extends IfcRelConnectsEleme
      */
     @Override
     protected EClass eStaticClass() {
-        return Ifc4Package.Literals.IFC_REL_CONNECTS_WITH_REALIZING_ELEMENTS;
+        return Ifc4Package.eINSTANCE.getIfcRelConnectsWithRealizingElements();
     }
 
     /**
@@ -68,7 +68,7 @@ public class IfcRelConnectsWithRealizingElementsImpl extends IfcRelConnectsEleme
     @Override
     public EList<IfcElement> getRealizingElements() {
         return (EList<IfcElement>) eGet(
-                Ifc4Package.Literals.IFC_REL_CONNECTS_WITH_REALIZING_ELEMENTS__REALIZING_ELEMENTS, true);
+                Ifc4Package.eINSTANCE.getIfcRelConnectsWithRealizingElements_RealizingElements(), true);
     }
 
     /**
@@ -78,7 +78,7 @@ public class IfcRelConnectsWithRealizingElementsImpl extends IfcRelConnectsEleme
      */
     @Override
     public String getConnectionType() {
-        return (String) eGet(Ifc4Package.Literals.IFC_REL_CONNECTS_WITH_REALIZING_ELEMENTS__CONNECTION_TYPE, true);
+        return (String) eGet(Ifc4Package.eINSTANCE.getIfcRelConnectsWithRealizingElements_ConnectionType(), true);
     }
 
     /**
@@ -88,7 +88,7 @@ public class IfcRelConnectsWithRealizingElementsImpl extends IfcRelConnectsEleme
      */
     @Override
     public void setConnectionType(String newConnectionType) {
-        eSet(Ifc4Package.Literals.IFC_REL_CONNECTS_WITH_REALIZING_ELEMENTS__CONNECTION_TYPE, newConnectionType);
+        eSet(Ifc4Package.eINSTANCE.getIfcRelConnectsWithRealizingElements_ConnectionType(), newConnectionType);
     }
 
     /**
@@ -98,7 +98,7 @@ public class IfcRelConnectsWithRealizingElementsImpl extends IfcRelConnectsEleme
      */
     @Override
     public void unsetConnectionType() {
-        eUnset(Ifc4Package.Literals.IFC_REL_CONNECTS_WITH_REALIZING_ELEMENTS__CONNECTION_TYPE);
+        eUnset(Ifc4Package.eINSTANCE.getIfcRelConnectsWithRealizingElements_ConnectionType());
     }
 
     /**
@@ -108,7 +108,7 @@ public class IfcRelConnectsWithRealizingElementsImpl extends IfcRelConnectsEleme
      */
     @Override
     public boolean isSetConnectionType() {
-        return eIsSet(Ifc4Package.Literals.IFC_REL_CONNECTS_WITH_REALIZING_ELEMENTS__CONNECTION_TYPE);
+        return eIsSet(Ifc4Package.eINSTANCE.getIfcRelConnectsWithRealizingElements_ConnectionType());
     }
 
 } //IfcRelConnectsWithRealizingElementsImpl

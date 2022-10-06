@@ -135,10 +135,6 @@ public enum IfcProtectiveDeviceTypeEnum implements Enumerator {
     /**
      * The '<em><b>NULL</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>NULL</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #NULL
      * @model
@@ -150,10 +146,6 @@ public enum IfcProtectiveDeviceTypeEnum implements Enumerator {
     /**
      * The '<em><b>EARTHINGSWITCH</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>EARTHINGSWITCH</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #EARTHINGSWITCH
      * @model
@@ -165,10 +157,6 @@ public enum IfcProtectiveDeviceTypeEnum implements Enumerator {
     /**
      * The '<em><b>RESIDUALCURRENTCIRCUITBREAKER</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>RESIDUALCURRENTCIRCUITBREAKER</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #RESIDUALCURRENTCIRCUITBREAKER
      * @model
@@ -180,10 +168,6 @@ public enum IfcProtectiveDeviceTypeEnum implements Enumerator {
     /**
      * The '<em><b>NOTDEFINED</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>NOTDEFINED</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #NOTDEFINED
      * @model
@@ -195,10 +179,6 @@ public enum IfcProtectiveDeviceTypeEnum implements Enumerator {
     /**
      * The '<em><b>EARTHLEAKAGECIRCUITBREAKER</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>EARTHLEAKAGECIRCUITBREAKER</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #EARTHLEAKAGECIRCUITBREAKER
      * @model
@@ -210,10 +190,6 @@ public enum IfcProtectiveDeviceTypeEnum implements Enumerator {
     /**
      * The '<em><b>CIRCUITBREAKER</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>CIRCUITBREAKER</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #CIRCUITBREAKER
      * @model
@@ -225,10 +201,6 @@ public enum IfcProtectiveDeviceTypeEnum implements Enumerator {
     /**
      * The '<em><b>VARISTOR</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>VARISTOR</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #VARISTOR
      * @model
@@ -240,10 +212,6 @@ public enum IfcProtectiveDeviceTypeEnum implements Enumerator {
     /**
      * The '<em><b>USERDEFINED</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>USERDEFINED</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #USERDEFINED
      * @model
@@ -255,10 +223,6 @@ public enum IfcProtectiveDeviceTypeEnum implements Enumerator {
     /**
      * The '<em><b>RESIDUALCURRENTSWITCH</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>RESIDUALCURRENTSWITCH</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #RESIDUALCURRENTSWITCH
      * @model
@@ -270,10 +234,6 @@ public enum IfcProtectiveDeviceTypeEnum implements Enumerator {
     /**
      * The '<em><b>FUSEDISCONNECTOR</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>FUSEDISCONNECTOR</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #FUSEDISCONNECTOR
      * @model

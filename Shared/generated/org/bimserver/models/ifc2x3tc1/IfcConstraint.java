@@ -53,10 +53,6 @@ public interface IfcConstraint extends IdEObject {
     /**
      * Returns the value of the '<em><b>Name</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Name</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Name</em>' attribute.
      * @see #setName(String)
@@ -79,10 +75,6 @@ public interface IfcConstraint extends IdEObject {
     /**
      * Returns the value of the '<em><b>Description</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Description</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Description</em>' attribute.
      * @see #isSetDescription()
@@ -133,10 +125,6 @@ public interface IfcConstraint extends IdEObject {
      * Returns the value of the '<em><b>Constraint Grade</b></em>' attribute.
      * The literals are from the enumeration {@link org.bimserver.models.ifc2x3tc1.IfcConstraintEnum}.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Constraint Grade</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Constraint Grade</em>' attribute.
      * @see org.bimserver.models.ifc2x3tc1.IfcConstraintEnum
@@ -161,10 +149,6 @@ public interface IfcConstraint extends IdEObject {
     /**
      * Returns the value of the '<em><b>Constraint Source</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Constraint Source</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Constraint Source</em>' attribute.
      * @see #isSetConstraintSource()
@@ -214,10 +198,6 @@ public interface IfcConstraint extends IdEObject {
     /**
      * Returns the value of the '<em><b>Creating Actor</b></em>' reference.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Creating Actor</em>' reference isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Creating Actor</em>' reference.
      * @see #isSetCreatingActor()
@@ -267,10 +247,6 @@ public interface IfcConstraint extends IdEObject {
     /**
      * Returns the value of the '<em><b>Creation Time</b></em>' reference.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Creation Time</em>' reference isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Creation Time</em>' reference.
      * @see #isSetCreationTime()
@@ -320,10 +296,6 @@ public interface IfcConstraint extends IdEObject {
     /**
      * Returns the value of the '<em><b>User Defined Grade</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>User Defined Grade</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>User Defined Grade</em>' attribute.
      * @see #isSetUserDefinedGrade()
@@ -375,10 +347,6 @@ public interface IfcConstraint extends IdEObject {
      * The list contents are of type {@link org.bimserver.models.ifc2x3tc1.IfcConstraintClassificationRelationship}.
      * It is bidirectional and its opposite is '{@link org.bimserver.models.ifc2x3tc1.IfcConstraintClassificationRelationship#getClassifiedConstraint <em>Classified Constraint</em>}'.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Classified As</em>' reference list isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Classified As</em>' reference list.
      * @see #isSetClassifiedAs()
@@ -417,10 +385,6 @@ public interface IfcConstraint extends IdEObject {
      * The list contents are of type {@link org.bimserver.models.ifc2x3tc1.IfcConstraintRelationship}.
      * It is bidirectional and its opposite is '{@link org.bimserver.models.ifc2x3tc1.IfcConstraintRelationship#getRelatingConstraint <em>Relating Constraint</em>}'.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Relates Constraints</em>' reference list isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Relates Constraints</em>' reference list.
      * @see #isSetRelatesConstraints()
@@ -459,10 +423,6 @@ public interface IfcConstraint extends IdEObject {
      * The list contents are of type {@link org.bimserver.models.ifc2x3tc1.IfcConstraintRelationship}.
      * It is bidirectional and its opposite is '{@link org.bimserver.models.ifc2x3tc1.IfcConstraintRelationship#getRelatedConstraints <em>Related Constraints</em>}'.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Is Related With</em>' reference list isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Is Related With</em>' reference list.
      * @see #isSetIsRelatedWith()
@@ -501,10 +461,6 @@ public interface IfcConstraint extends IdEObject {
      * The list contents are of type {@link org.bimserver.models.ifc2x3tc1.IfcPropertyConstraintRelationship}.
      * It is bidirectional and its opposite is '{@link org.bimserver.models.ifc2x3tc1.IfcPropertyConstraintRelationship#getRelatingConstraint <em>Relating Constraint</em>}'.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Properties For Constraint</em>' reference list isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Properties For Constraint</em>' reference list.
      * @see #isSetPropertiesForConstraint()
@@ -543,10 +499,6 @@ public interface IfcConstraint extends IdEObject {
      * The list contents are of type {@link org.bimserver.models.ifc2x3tc1.IfcConstraintAggregationRelationship}.
      * It is bidirectional and its opposite is '{@link org.bimserver.models.ifc2x3tc1.IfcConstraintAggregationRelationship#getRelatingConstraint <em>Relating Constraint</em>}'.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Aggregates</em>' reference list isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Aggregates</em>' reference list.
      * @see #isSetAggregates()
@@ -585,10 +537,6 @@ public interface IfcConstraint extends IdEObject {
      * The list contents are of type {@link org.bimserver.models.ifc2x3tc1.IfcConstraintAggregationRelationship}.
      * It is bidirectional and its opposite is '{@link org.bimserver.models.ifc2x3tc1.IfcConstraintAggregationRelationship#getRelatedConstraints <em>Related Constraints</em>}'.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Is Aggregated In</em>' reference list isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Is Aggregated In</em>' reference list.
      * @see #isSetIsAggregatedIn()

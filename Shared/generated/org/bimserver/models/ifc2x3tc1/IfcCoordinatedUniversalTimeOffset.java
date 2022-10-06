@@ -41,10 +41,6 @@ public interface IfcCoordinatedUniversalTimeOffset extends IdEObject {
     /**
      * Returns the value of the '<em><b>Hour Offset</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Hour Offset</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Hour Offset</em>' attribute.
      * @see #setHourOffset(long)
@@ -67,10 +63,6 @@ public interface IfcCoordinatedUniversalTimeOffset extends IdEObject {
     /**
      * Returns the value of the '<em><b>Minute Offset</b></em>' attribute.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Minute Offset</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Minute Offset</em>' attribute.
      * @see #isSetMinuteOffset()
@@ -121,10 +113,6 @@ public interface IfcCoordinatedUniversalTimeOffset extends IdEObject {
      * Returns the value of the '<em><b>Sense</b></em>' attribute.
      * The literals are from the enumeration {@link org.bimserver.models.ifc2x3tc1.IfcAheadOrBehind}.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Sense</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Sense</em>' attribute.
      * @see org.bimserver.models.ifc2x3tc1.IfcAheadOrBehind

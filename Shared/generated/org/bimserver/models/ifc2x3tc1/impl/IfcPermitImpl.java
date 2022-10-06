@@ -51,7 +51,7 @@ public class IfcPermitImpl extends IfcControlImpl implements IfcPermit {
      */
     @Override
     protected EClass eStaticClass() {
-        return Ifc2x3tc1Package.Literals.IFC_PERMIT;
+        return Ifc2x3tc1Package.eINSTANCE.getIfcPermit();
     }
 
     /**
@@ -61,7 +61,7 @@ public class IfcPermitImpl extends IfcControlImpl implements IfcPermit {
      */
     @Override
     public String getPermitID() {
-        return (String) eGet(Ifc2x3tc1Package.Literals.IFC_PERMIT__PERMIT_ID, true);
+        return (String) eGet(Ifc2x3tc1Package.eINSTANCE.getIfcPermit_PermitID(), true);
     }
 
     /**
@@ -71,7 +71,7 @@ public class IfcPermitImpl extends IfcControlImpl implements IfcPermit {
      */
     @Override
     public void setPermitID(String newPermitID) {
-        eSet(Ifc2x3tc1Package.Literals.IFC_PERMIT__PERMIT_ID, newPermitID);
+        eSet(Ifc2x3tc1Package.eINSTANCE.getIfcPermit_PermitID(), newPermitID);
     }
 
 } //IfcPermitImpl

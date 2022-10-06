@@ -56,7 +56,7 @@ public class ListOfIfcCartesianPointImpl extends IdEObjectImpl implements ListOf
      */
     @Override
     protected EClass eStaticClass() {
-        return Ifc4Package.Literals.LIST_OF_IFC_CARTESIAN_POINT;
+        return Ifc4Package.eINSTANCE.getListOfIfcCartesianPoint();
     }
 
     /**
@@ -77,7 +77,7 @@ public class ListOfIfcCartesianPointImpl extends IdEObjectImpl implements ListOf
     @SuppressWarnings("unchecked")
     @Override
     public EList<IfcCartesianPoint> getList() {
-        return (EList<IfcCartesianPoint>) eGet(Ifc4Package.Literals.LIST_OF_IFC_CARTESIAN_POINT__LIST, true);
+        return (EList<IfcCartesianPoint>) eGet(Ifc4Package.eINSTANCE.getListOfIfcCartesianPoint_List(), true);
     }
 
 } //ListOfIfcCartesianPointImpl

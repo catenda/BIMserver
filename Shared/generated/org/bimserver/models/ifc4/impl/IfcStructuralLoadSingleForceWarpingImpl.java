@@ -53,7 +53,7 @@ public class IfcStructuralLoadSingleForceWarpingImpl extends IfcStructuralLoadSi
      */
     @Override
     protected EClass eStaticClass() {
-        return Ifc4Package.Literals.IFC_STRUCTURAL_LOAD_SINGLE_FORCE_WARPING;
+        return Ifc4Package.eINSTANCE.getIfcStructuralLoadSingleForceWarping();
     }
 
     /**
@@ -63,7 +63,7 @@ public class IfcStructuralLoadSingleForceWarpingImpl extends IfcStructuralLoadSi
      */
     @Override
     public double getWarpingMoment() {
-        return (Double) eGet(Ifc4Package.Literals.IFC_STRUCTURAL_LOAD_SINGLE_FORCE_WARPING__WARPING_MOMENT, true);
+        return (Double) eGet(Ifc4Package.eINSTANCE.getIfcStructuralLoadSingleForceWarping_WarpingMoment(), true);
     }
 
     /**
@@ -73,7 +73,7 @@ public class IfcStructuralLoadSingleForceWarpingImpl extends IfcStructuralLoadSi
      */
     @Override
     public void setWarpingMoment(double newWarpingMoment) {
-        eSet(Ifc4Package.Literals.IFC_STRUCTURAL_LOAD_SINGLE_FORCE_WARPING__WARPING_MOMENT, newWarpingMoment);
+        eSet(Ifc4Package.eINSTANCE.getIfcStructuralLoadSingleForceWarping_WarpingMoment(), newWarpingMoment);
     }
 
     /**
@@ -83,7 +83,7 @@ public class IfcStructuralLoadSingleForceWarpingImpl extends IfcStructuralLoadSi
      */
     @Override
     public void unsetWarpingMoment() {
-        eUnset(Ifc4Package.Literals.IFC_STRUCTURAL_LOAD_SINGLE_FORCE_WARPING__WARPING_MOMENT);
+        eUnset(Ifc4Package.eINSTANCE.getIfcStructuralLoadSingleForceWarping_WarpingMoment());
     }
 
     /**
@@ -93,7 +93,7 @@ public class IfcStructuralLoadSingleForceWarpingImpl extends IfcStructuralLoadSi
      */
     @Override
     public boolean isSetWarpingMoment() {
-        return eIsSet(Ifc4Package.Literals.IFC_STRUCTURAL_LOAD_SINGLE_FORCE_WARPING__WARPING_MOMENT);
+        return eIsSet(Ifc4Package.eINSTANCE.getIfcStructuralLoadSingleForceWarping_WarpingMoment());
     }
 
     /**
@@ -103,7 +103,7 @@ public class IfcStructuralLoadSingleForceWarpingImpl extends IfcStructuralLoadSi
      */
     @Override
     public String getWarpingMomentAsString() {
-        return (String) eGet(Ifc4Package.Literals.IFC_STRUCTURAL_LOAD_SINGLE_FORCE_WARPING__WARPING_MOMENT_AS_STRING,
+        return (String) eGet(Ifc4Package.eINSTANCE.getIfcStructuralLoadSingleForceWarping_WarpingMomentAsString(),
                 true);
     }
 
@@ -114,7 +114,7 @@ public class IfcStructuralLoadSingleForceWarpingImpl extends IfcStructuralLoadSi
      */
     @Override
     public void setWarpingMomentAsString(String newWarpingMomentAsString) {
-        eSet(Ifc4Package.Literals.IFC_STRUCTURAL_LOAD_SINGLE_FORCE_WARPING__WARPING_MOMENT_AS_STRING,
+        eSet(Ifc4Package.eINSTANCE.getIfcStructuralLoadSingleForceWarping_WarpingMomentAsString(),
                 newWarpingMomentAsString);
     }
 
@@ -125,7 +125,7 @@ public class IfcStructuralLoadSingleForceWarpingImpl extends IfcStructuralLoadSi
      */
     @Override
     public void unsetWarpingMomentAsString() {
-        eUnset(Ifc4Package.Literals.IFC_STRUCTURAL_LOAD_SINGLE_FORCE_WARPING__WARPING_MOMENT_AS_STRING);
+        eUnset(Ifc4Package.eINSTANCE.getIfcStructuralLoadSingleForceWarping_WarpingMomentAsString());
     }
 
     /**
@@ -135,7 +135,7 @@ public class IfcStructuralLoadSingleForceWarpingImpl extends IfcStructuralLoadSi
      */
     @Override
     public boolean isSetWarpingMomentAsString() {
-        return eIsSet(Ifc4Package.Literals.IFC_STRUCTURAL_LOAD_SINGLE_FORCE_WARPING__WARPING_MOMENT_AS_STRING);
+        return eIsSet(Ifc4Package.eINSTANCE.getIfcStructuralLoadSingleForceWarping_WarpingMomentAsString());
     }
 
 } //IfcStructuralLoadSingleForceWarpingImpl

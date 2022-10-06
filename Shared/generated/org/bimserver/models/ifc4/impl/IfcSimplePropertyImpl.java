@@ -45,7 +45,7 @@ public class IfcSimplePropertyImpl extends IfcPropertyImpl implements IfcSimpleP
      */
     @Override
     protected EClass eStaticClass() {
-        return Ifc4Package.Literals.IFC_SIMPLE_PROPERTY;
+        return Ifc4Package.eINSTANCE.getIfcSimpleProperty();
     }
 
 } //IfcSimplePropertyImpl

@@ -18,6 +18,8 @@ import org.bimserver.emf.IfcModelInterfaceException;
 import org.bimserver.ifc.IfcModel;
 import org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package;
 import org.bimserver.models.ifc4.Ifc4Package;
+import org.bimserver.models.ifc4x3.Ifc4x3Package;
+import org.bimserver.models.ifc4x3rc4.Ifc4x3rc4Package;
 import org.bimserver.plugins.deserializers.DeserializeException;
 import org.bimserver.plugins.deserializers.EmfDeserializer;
 import org.bimserver.plugins.schema.Attribute;
@@ -44,18 +46,24 @@ import org.eclipse.emf.ecore.impl.EEnumImpl;
 public class IfcStepDeserializer extends EmfDeserializer {
 
 	private SchemaDefinition schema;
-	
+
+	private static final String IFCBOOLEAN = "IFCBOOLEAN";
+	private static final String IFCLOGICAL = "IFCLOGICAL";
 	private static final String WRAPPED_VALUE = "wrappedValue";
-	
+
 	private final WaitingList<Long> waitingList = new WaitingList<Long>();
-	
+
 	private Map<String, EClassifier> classes;
 	private EPackage ePackage;
-	
+
 	public void init(SchemaDefinition schema) {
 		this.schema = schema;
 		String name = this.schema.getName();
-		if ("IFC4".equals(name.toUpperCase())) {
+		if ("IFC4X3".equals(name.toUpperCase())) {
+			ePackage = Ifc4x3Package.eINSTANCE;
+		} else if (name.toUpperCase().startsWith("IFC4X3_RC")) {
+			ePackage = Ifc4x3rc4Package.eINSTANCE;
+		} else if ("IFC4".equals(name.toUpperCase())) {
 			ePackage = Ifc4Package.eINSTANCE;
 		} else {
 			ePackage = Ifc2x3tc1Package.eINSTANCE;
@@ -72,13 +80,15 @@ public class IfcStepDeserializer extends EmfDeserializer {
 	}
 
 	public IfcModelInterface read(InputStream in, String filename, long fileSize) throws DeserializeException {
-		if (filename != null && (filename.toUpperCase().endsWith(".ZIP") || filename.toUpperCase().endsWith(".IFCZIP"))) {
+		if (filename != null
+				&& (filename.toUpperCase().endsWith(".ZIP") || filename.toUpperCase().endsWith(".IFCZIP"))) {
 			ZipInputStream zipInputStream = new ZipInputStream(in);
 			ZipEntry nextEntry;
 			try {
 				nextEntry = zipInputStream.getNextEntry();
 				if (nextEntry == null) {
-					throw new DeserializeException("Zip files must contain exactly one IFC-file, this zip-file looks empty");
+					throw new DeserializeException(
+							"Zip files must contain exactly one IFC-file, this zip-file looks empty");
 				}
 				if (nextEntry.getName().toUpperCase().endsWith(".IFC")) {
 					IfcModelInterface model = null;
@@ -89,13 +99,15 @@ public class IfcStepDeserializer extends EmfDeserializer {
 					}
 					if (zipInputStream.getNextEntry() != null) {
 						zipInputStream.close();
-						throw new DeserializeException("Zip files may only contain one IFC-file, this zip-file contains more files");
+						throw new DeserializeException(
+								"Zip files may only contain one IFC-file, this zip-file contains more files");
 					} else {
 						zipInputStream.close();
 						return model;
 					}
 				} else {
-					throw new DeserializeException("Zip files must contain exactly one IFC-file, this zip-file seems to have one or more non-IFC files");
+					throw new DeserializeException(
+							"Zip files must contain exactly one IFC-file, this zip-file seems to have one or more non-IFC files");
 				}
 			} catch (IOException e) {
 				throw new DeserializeException(e);
@@ -138,20 +150,22 @@ public class IfcStepDeserializer extends EmfDeserializer {
 		}
 		return model;
 	}
-	
+
 	private Object createEntityOrTypeInstance(StepEntityInstance instance, IfcModel model) throws DeserializeException {
 		String identifier = instance.getIdentifier();
-		EClass classifier = (EClass) classes.get(identifier);
-		if (classifier != null) {
+		EClassifier classifier = classes.get(identifier);
+		if (classifier != null && classifier instanceof EClass) {
 			if (null != ((EClassImpl) classifier).getEStructuralFeature(WRAPPED_VALUE)) {
 				IdEObject object = (IdEObject) ePackage.getEFactoryInstance().create((EClass) classifier);
-				Class<?> instanceClass = object.eClass().getEStructuralFeature(WRAPPED_VALUE).getEType().getInstanceClass();
+				Class<?> instanceClass = object.eClass().getEStructuralFeature(WRAPPED_VALUE).getEType()
+						.getInstanceClass();
 				StepAttributeIterator attributeIterator = instance.getAttributeIterator();
 				if (attributeIterator.hasNext()) {
 					StepAttribute stepAttribute = attributeIterator.next();
 					Object value;
 					if (stepAttribute.isEnum()) {
-						value = createEnumValue((String) stepAttribute.getValue(), object.eClass().getEStructuralFeature(WRAPPED_VALUE));
+						value = createEnumValue((String) stepAttribute.getValue(),
+								object.eClass().getEStructuralFeature(WRAPPED_VALUE));
 					} else {
 						value = stepAttribute.getValue();
 					}
@@ -171,7 +185,8 @@ public class IfcStepDeserializer extends EmfDeserializer {
 
 					object.eSet(object.eClass().getEStructuralFeature(WRAPPED_VALUE), value);
 					if (instanceClass == Double.class || instanceClass == double.class) {
-						object.eSet(object.eClass().getEStructuralFeature(WRAPPED_VALUE + "AsString"), stepAttribute.getTokenValue());
+						object.eSet(object.eClass().getEStructuralFeature(WRAPPED_VALUE + "AsString"),
+								stepAttribute.getTokenValue());
 					}
 				}
 				return object;
@@ -235,7 +250,8 @@ public class IfcStepDeserializer extends EmfDeserializer {
 						expected++;
 					}
 				}
-				throw new DeserializeException(classifier.getName() + " expects " + expected + " fields, but less found");
+				throw new DeserializeException(
+						classifier.getName() + " expects " + expected + " fields, but less found");
 			}
 
 			StepAttribute stepAttribute = attributeIterator.next();
@@ -243,7 +259,7 @@ public class IfcStepDeserializer extends EmfDeserializer {
 			} else if (stepAttribute.isUnset()) {
 				object.eUnset(structuralFeature);
 				if (structuralFeature.getEType() == EcorePackage.eINSTANCE.getEDouble()) {
-					object.eSet(classifier.getEStructuralFeature(attribute.getName() + "AsString"), null);
+					object.eUnset(classifier.getEStructuralFeature(attribute.getName() + "AsString"));
 				}
 			} else if (stepAttribute.isInstanceName()) {
 				Long value = (Long) stepAttribute.getValue();
@@ -268,11 +284,12 @@ public class IfcStepDeserializer extends EmfDeserializer {
 				Object value = stepAttribute.getValue();
 				object.eSet(structuralFeature, value);
 				if (structuralFeature.getEType() == EcorePackage.eINSTANCE.getEDouble()) {
-					object.eSet(classifier.getEStructuralFeature(attribute.getName() + "AsString"), stepAttribute.getTokenValue());
+					object.eSet(classifier.getEStructuralFeature(attribute.getName() + "AsString"),
+							stepAttribute.getTokenValue());
 				}
 			}
 		}
-		
+
 		if (waitingList.containsKey(instance.getInstanceName())) {
 			waitingList.updateNode(instance.getInstanceName(), classifier, object);
 		}
@@ -281,9 +298,11 @@ public class IfcStepDeserializer extends EmfDeserializer {
 	}
 
 	@SuppressWarnings({ "unchecked", "rawtypes" })
-	private void setListAttribute(StepAttributeList stepList, IdEObject object, EStructuralFeature structuralFeature, IfcModel model) throws DeserializeException {
+	private void setListAttribute(StepAttributeList stepList, IdEObject object, EStructuralFeature structuralFeature,
+			IfcModel model) throws DeserializeException {
 		if (!structuralFeature.isMany()) {
-			throw new DeserializeException("Field " + structuralFeature.getName() + " of " + structuralFeature.getEContainingClass().getName() + " is no aggregation");
+			throw new DeserializeException("Field " + structuralFeature.getName() + " of "
+					+ structuralFeature.getEContainingClass().getName() + " is no aggregation");
 		}
 		if (stepList == null) {
 			return;
@@ -292,7 +311,8 @@ public class IfcStepDeserializer extends EmfDeserializer {
 		AbstractEList list = (AbstractEList) object.eGet(structuralFeature);
 		AbstractEList doubleStringList = null;
 		if (structuralFeature.getEType() == EcorePackage.eINSTANCE.getEDouble()) {
-			EStructuralFeature doubleStringFeature = structuralFeature.getEContainingClass().getEStructuralFeature(structuralFeature.getName() + "AsString");
+			EStructuralFeature doubleStringFeature = structuralFeature.getEContainingClass()
+					.getEStructuralFeature(structuralFeature.getName() + "AsString");
 			if (doubleStringFeature == null) {
 				throw new DeserializeException("Field not found: " + structuralFeature.getName() + "AsString");
 			}
@@ -320,7 +340,8 @@ public class IfcStepDeserializer extends EmfDeserializer {
 							}
 							list.setUnique(index, referencedObject);
 						} else {
-							throw new DeserializeException(referenceEClass.getName() + " cannot be stored in " + structuralFeature.getName());
+							throw new DeserializeException(
+									referenceEClass.getName() + " cannot be stored in " + structuralFeature.getName());
 						}
 					}
 				} else {
@@ -357,32 +378,33 @@ public class IfcStepDeserializer extends EmfDeserializer {
 			if (structuralFeature.getEType().getName().equals("Tristate")) {
 				enumValue = createEnumerator("Tristate", "TRUE");
 			} else if (structuralFeature.getEType().getName().equals("IfcBoolean")) {
-				EClass eClass = (EClass) classes.get("IfcBoolean");
+				EClass eClass = (EClass) classes.get(IFCBOOLEAN);
 				EObject bool = create(eClass);
-				bool.eSet(eClass.getEStructuralFeature("WrappedValue"), createEnumerator("Tristate", "TRUE"));
+				bool.eSet(eClass.getEStructuralFeature(WRAPPED_VALUE), createEnumerator("Tristate", "TRUE"));
 				enumValue = bool;
 			} else if (structuralFeature.getEType() == EcorePackage.eINSTANCE.getEBoolean()) {
 				enumValue = true;
 			} else {
-				EClass eClass = (EClass) classes.get("IfcLogical");
+				EClass eClass = (EClass) classes.get(IFCLOGICAL);
 				EObject logical = create(eClass);
-				logical.eSet(eClass.getEStructuralFeature("WrappedValue"), createEnumerator("Tristate", "TRUE"));
+				logical.eSet(eClass.getEStructuralFeature(WRAPPED_VALUE), createEnumerator("Tristate", "TRUE"));
 				enumValue = logical;
 			}
 		} else if (value.equals("F")) {
 			if (structuralFeature.getEType().getName().equals("Tristate")) {
 				enumValue = createEnumerator("Tristate", "FALSE");
 			} else if (structuralFeature.getEType().getName().equals("IfcBoolean")) {
-				EClass eClass = (EClass) classes.get("IfcBoolean");
+				EClass eClass = (EClass) classes.get(IFCBOOLEAN);
 				EObject bool = create(eClass);
-				bool.eSet(eClass.getEStructuralFeature("WrappedValue"), createEnumerator("Tristate", "FALSE"));
+				bool.eSet(eClass.getEStructuralFeature(WRAPPED_VALUE), createEnumerator("Tristate", "FALSE"));
 				enumValue = bool;
 			} else if (structuralFeature.getEType() == EcorePackage.eINSTANCE.getEBoolean()) {
 				enumValue = false;
 			} else {
-				EClass eClass = (EClass) classes.get("IfcLogical");
+				EClass eClass = (EClass) classes.get(IFCLOGICAL);
 				EObject logical = create(eClass);
-				logical.eSet(eClass.getEStructuralFeature("WrappedValue"), createEnumerator("Tristate", "FALSE"));
+				eClass.getEAllStructuralFeatures();
+				logical.eSet(eClass.getEStructuralFeature(WRAPPED_VALUE), createEnumerator("Tristate", "FALSE"));
 				enumValue = logical;
 			}
 		} else if (value.equals("U")) {
@@ -391,9 +413,9 @@ public class IfcStepDeserializer extends EmfDeserializer {
 			} else if (structuralFeature.getEType() == EcorePackage.eINSTANCE.getEBoolean()) {
 				enumValue = null;
 			} else {
-				EClass eClass = (EClass) classes.get("IfcLogical");
+				EClass eClass = (EClass) classes.get(IFCLOGICAL);
 				EObject logical = create(eClass);
-				logical.eSet(eClass.getEStructuralFeature("WrappedValue"), createEnumerator("Tristate", "UNDEFINED"));
+				logical.eSet(eClass.getEStructuralFeature(WRAPPED_VALUE), createEnumerator("Tristate", "UNDEFINED"));
 				enumValue = logical;
 			}
 		} else {
@@ -401,18 +423,20 @@ public class IfcStepDeserializer extends EmfDeserializer {
 				EEnumLiteral enumLiteral = (((EEnumImpl) structuralFeature.getEType()).getEEnumLiteral(value));
 				if (enumLiteral == null) {
 					/*
-					 *  Workaround for supporting IFC files from Revit.
+					 * Workaround for supporting IFC files from Revit.
 					 */
 					if ("NOTDEFINED".equals(value)) {
 						enumValue = null;
 					} else {
-						throw new DeserializeException("Enum type " + structuralFeature.getEType().getName() + " has no literal value '" + value + "'");
+						throw new DeserializeException("Enum type " + structuralFeature.getEType().getName()
+								+ " has no literal value '" + value + "'");
 					}
 				} else {
 					enumValue = enumLiteral.getInstance();
 				}
 			} else {
-				throw new DeserializeException("Value " + value + " indicates enum type but " + structuralFeature.getEType().getName() + " expected");
+				throw new DeserializeException("Value " + value + " indicates enum type but "
+						+ structuralFeature.getEType().getName() + " expected");
 			}
 		}
 		return enumValue;
@@ -420,7 +444,7 @@ public class IfcStepDeserializer extends EmfDeserializer {
 
 	public <T extends IdEObject> T create(EClass eClass) {
 		if (eClass.getEPackage() == ePackage) {
-		return (T) ePackage.getEFactoryInstance().create(eClass);
+			return (T) ePackage.getEFactoryInstance().create(eClass);
 		}
 		throw new RuntimeException("Mismatch");
 	}
@@ -431,10 +455,11 @@ public class IfcStepDeserializer extends EmfDeserializer {
 			throw new RuntimeException("Classifier " + enumName + " not found in package " + ePackage.getName());
 		}
 		if (eClassifier instanceof EEnum) {
-			EEnum eEnum = (EEnum)eClassifier;
+			EEnum eEnum = (EEnum) eClassifier;
 			Object enumerator = ePackage.getEFactoryInstance().createFromString(eEnum, literalName);
 			if (enumerator == null) {
-				throw new RuntimeException("No enum literal " + literalName + " found on " + ePackage.getName() + "." + enumName);
+				throw new RuntimeException(
+						"No enum literal " + literalName + " found on " + ePackage.getName() + "." + enumName);
 			}
 			return enumerator;
 		} else {

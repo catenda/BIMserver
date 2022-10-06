@@ -55,7 +55,7 @@ public class IfcVectorImpl extends IfcGeometricRepresentationItemImpl implements
      */
     @Override
     protected EClass eStaticClass() {
-        return Ifc2x3tc1Package.Literals.IFC_VECTOR;
+        return Ifc2x3tc1Package.eINSTANCE.getIfcVector();
     }
 
     /**
@@ -65,7 +65,7 @@ public class IfcVectorImpl extends IfcGeometricRepresentationItemImpl implements
      */
     @Override
     public IfcDirection getOrientation() {
-        return (IfcDirection) eGet(Ifc2x3tc1Package.Literals.IFC_VECTOR__ORIENTATION, true);
+        return (IfcDirection) eGet(Ifc2x3tc1Package.eINSTANCE.getIfcVector_Orientation(), true);
     }
 
     /**
@@ -75,7 +75,7 @@ public class IfcVectorImpl extends IfcGeometricRepresentationItemImpl implements
      */
     @Override
     public void setOrientation(IfcDirection newOrientation) {
-        eSet(Ifc2x3tc1Package.Literals.IFC_VECTOR__ORIENTATION, newOrientation);
+        eSet(Ifc2x3tc1Package.eINSTANCE.getIfcVector_Orientation(), newOrientation);
     }
 
     /**
@@ -85,7 +85,7 @@ public class IfcVectorImpl extends IfcGeometricRepresentationItemImpl implements
      */
     @Override
     public double getMagnitude() {
-        return (Double) eGet(Ifc2x3tc1Package.Literals.IFC_VECTOR__MAGNITUDE, true);
+        return (Double) eGet(Ifc2x3tc1Package.eINSTANCE.getIfcVector_Magnitude(), true);
     }
 
     /**
@@ -95,7 +95,7 @@ public class IfcVectorImpl extends IfcGeometricRepresentationItemImpl implements
      */
     @Override
     public void setMagnitude(double newMagnitude) {
-        eSet(Ifc2x3tc1Package.Literals.IFC_VECTOR__MAGNITUDE, newMagnitude);
+        eSet(Ifc2x3tc1Package.eINSTANCE.getIfcVector_Magnitude(), newMagnitude);
     }
 
     /**
@@ -105,7 +105,7 @@ public class IfcVectorImpl extends IfcGeometricRepresentationItemImpl implements
      */
     @Override
     public String getMagnitudeAsString() {
-        return (String) eGet(Ifc2x3tc1Package.Literals.IFC_VECTOR__MAGNITUDE_AS_STRING, true);
+        return (String) eGet(Ifc2x3tc1Package.eINSTANCE.getIfcVector_MagnitudeAsString(), true);
     }
 
     /**
@@ -115,7 +115,7 @@ public class IfcVectorImpl extends IfcGeometricRepresentationItemImpl implements
      */
     @Override
     public void setMagnitudeAsString(String newMagnitudeAsString) {
-        eSet(Ifc2x3tc1Package.Literals.IFC_VECTOR__MAGNITUDE_AS_STRING, newMagnitudeAsString);
+        eSet(Ifc2x3tc1Package.eINSTANCE.getIfcVector_MagnitudeAsString(), newMagnitudeAsString);
     }
 
     /**
@@ -125,7 +125,7 @@ public class IfcVectorImpl extends IfcGeometricRepresentationItemImpl implements
      */
     @Override
     public long getDim() {
-        return (Long) eGet(Ifc2x3tc1Package.Literals.IFC_VECTOR__DIM, true);
+        return (Long) eGet(Ifc2x3tc1Package.eINSTANCE.getIfcVector_Dim(), true);
     }
 
     /**
@@ -135,7 +135,7 @@ public class IfcVectorImpl extends IfcGeometricRepresentationItemImpl implements
      */
     @Override
     public void setDim(long newDim) {
-        eSet(Ifc2x3tc1Package.Literals.IFC_VECTOR__DIM, newDim);
+        eSet(Ifc2x3tc1Package.eINSTANCE.getIfcVector_Dim(), newDim);
     }
 
     /**
@@ -145,7 +145,7 @@ public class IfcVectorImpl extends IfcGeometricRepresentationItemImpl implements
      */
     @Override
     public void unsetDim() {
-        eUnset(Ifc2x3tc1Package.Literals.IFC_VECTOR__DIM);
+        eUnset(Ifc2x3tc1Package.eINSTANCE.getIfcVector_Dim());
     }
 
     /**
@@ -155,7 +155,7 @@ public class IfcVectorImpl extends IfcGeometricRepresentationItemImpl implements
      */
     @Override
     public boolean isSetDim() {
-        return eIsSet(Ifc2x3tc1Package.Literals.IFC_VECTOR__DIM);
+        return eIsSet(Ifc2x3tc1Package.eINSTANCE.getIfcVector_Dim());
     }
 
 } //IfcVectorImpl

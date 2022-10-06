@@ -41,10 +41,6 @@ public interface IfcDraughtingCallout extends IfcGeometricRepresentationItem {
      * Returns the value of the '<em><b>Contents</b></em>' reference list.
      * The list contents are of type {@link org.bimserver.models.ifc2x3tc1.IfcDraughtingCalloutElement}.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Contents</em>' reference list isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Contents</em>' reference list.
      * @see org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package#getIfcDraughtingCallout_Contents()
@@ -58,10 +54,6 @@ public interface IfcDraughtingCallout extends IfcGeometricRepresentationItem {
      * The list contents are of type {@link org.bimserver.models.ifc2x3tc1.IfcDraughtingCalloutRelationship}.
      * It is bidirectional and its opposite is '{@link org.bimserver.models.ifc2x3tc1.IfcDraughtingCalloutRelationship#getRelatedDraughtingCallout <em>Related Draughting Callout</em>}'.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Is Related From Callout</em>' reference list isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Is Related From Callout</em>' reference list.
      * @see #isSetIsRelatedFromCallout()
@@ -100,10 +92,6 @@ public interface IfcDraughtingCallout extends IfcGeometricRepresentationItem {
      * The list contents are of type {@link org.bimserver.models.ifc2x3tc1.IfcDraughtingCalloutRelationship}.
      * It is bidirectional and its opposite is '{@link org.bimserver.models.ifc2x3tc1.IfcDraughtingCalloutRelationship#getRelatingDraughtingCallout <em>Relating Draughting Callout</em>}'.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Is Related To Callout</em>' reference list isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Is Related To Callout</em>' reference list.
      * @see #isSetIsRelatedToCallout()

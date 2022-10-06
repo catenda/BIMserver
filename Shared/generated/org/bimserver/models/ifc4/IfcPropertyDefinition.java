@@ -40,10 +40,6 @@ public interface IfcPropertyDefinition extends IfcRoot, IfcDefinitionSelect {
      * Returns the value of the '<em><b>Has Context</b></em>' reference list.
      * The list contents are of type {@link org.bimserver.models.ifc4.IfcRelDeclares}.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Has Context</em>' reference list isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Has Context</em>' reference list.
      * @see #isSetHasContext()
@@ -80,10 +76,6 @@ public interface IfcPropertyDefinition extends IfcRoot, IfcDefinitionSelect {
      * Returns the value of the '<em><b>Has Associations</b></em>' reference list.
      * The list contents are of type {@link org.bimserver.models.ifc4.IfcRelAssociates}.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Has Associations</em>' reference list isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @return the value of the '<em>Has Associations</em>' reference list.
      * @see #isSetHasAssociations()

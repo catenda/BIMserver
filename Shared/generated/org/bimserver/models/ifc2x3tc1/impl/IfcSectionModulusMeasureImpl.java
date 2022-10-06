@@ -54,7 +54,7 @@ public class IfcSectionModulusMeasureImpl extends IdEObjectImpl implements IfcSe
      */
     @Override
     protected EClass eStaticClass() {
-        return Ifc2x3tc1Package.Literals.IFC_SECTION_MODULUS_MEASURE;
+        return Ifc2x3tc1Package.eINSTANCE.getIfcSectionModulusMeasure();
     }
 
     /**
@@ -74,7 +74,7 @@ public class IfcSectionModulusMeasureImpl extends IdEObjectImpl implements IfcSe
      */
     @Override
     public double getWrappedValue() {
-        return (Double) eGet(Ifc2x3tc1Package.Literals.IFC_SECTION_MODULUS_MEASURE__WRAPPED_VALUE, true);
+        return (Double) eGet(Ifc2x3tc1Package.eINSTANCE.getIfcSectionModulusMeasure_WrappedValue(), true);
     }
 
     /**
@@ -84,7 +84,7 @@ public class IfcSectionModulusMeasureImpl extends IdEObjectImpl implements IfcSe
      */
     @Override
     public void setWrappedValue(double newWrappedValue) {
-        eSet(Ifc2x3tc1Package.Literals.IFC_SECTION_MODULUS_MEASURE__WRAPPED_VALUE, newWrappedValue);
+        eSet(Ifc2x3tc1Package.eINSTANCE.getIfcSectionModulusMeasure_WrappedValue(), newWrappedValue);
     }
 
     /**
@@ -94,7 +94,7 @@ public class IfcSectionModulusMeasureImpl extends IdEObjectImpl implements IfcSe
      */
     @Override
     public void unsetWrappedValue() {
-        eUnset(Ifc2x3tc1Package.Literals.IFC_SECTION_MODULUS_MEASURE__WRAPPED_VALUE);
+        eUnset(Ifc2x3tc1Package.eINSTANCE.getIfcSectionModulusMeasure_WrappedValue());
     }
 
     /**
@@ -104,7 +104,7 @@ public class IfcSectionModulusMeasureImpl extends IdEObjectImpl implements IfcSe
      */
     @Override
     public boolean isSetWrappedValue() {
-        return eIsSet(Ifc2x3tc1Package.Literals.IFC_SECTION_MODULUS_MEASURE__WRAPPED_VALUE);
+        return eIsSet(Ifc2x3tc1Package.eINSTANCE.getIfcSectionModulusMeasure_WrappedValue());
     }
 
     /**
@@ -114,7 +114,7 @@ public class IfcSectionModulusMeasureImpl extends IdEObjectImpl implements IfcSe
      */
     @Override
     public String getWrappedValueAsString() {
-        return (String) eGet(Ifc2x3tc1Package.Literals.IFC_SECTION_MODULUS_MEASURE__WRAPPED_VALUE_AS_STRING, true);
+        return (String) eGet(Ifc2x3tc1Package.eINSTANCE.getIfcSectionModulusMeasure_WrappedValueAsString(), true);
     }
 
     /**
@@ -124,7 +124,7 @@ public class IfcSectionModulusMeasureImpl extends IdEObjectImpl implements IfcSe
      */
     @Override
     public void setWrappedValueAsString(String newWrappedValueAsString) {
-        eSet(Ifc2x3tc1Package.Literals.IFC_SECTION_MODULUS_MEASURE__WRAPPED_VALUE_AS_STRING, newWrappedValueAsString);
+        eSet(Ifc2x3tc1Package.eINSTANCE.getIfcSectionModulusMeasure_WrappedValueAsString(), newWrappedValueAsString);
     }
 
     /**
@@ -134,7 +134,7 @@ public class IfcSectionModulusMeasureImpl extends IdEObjectImpl implements IfcSe
      */
     @Override
     public void unsetWrappedValueAsString() {
-        eUnset(Ifc2x3tc1Package.Literals.IFC_SECTION_MODULUS_MEASURE__WRAPPED_VALUE_AS_STRING);
+        eUnset(Ifc2x3tc1Package.eINSTANCE.getIfcSectionModulusMeasure_WrappedValueAsString());
     }
 
     /**
@@ -144,7 +144,7 @@ public class IfcSectionModulusMeasureImpl extends IdEObjectImpl implements IfcSe
      */
     @Override
     public boolean isSetWrappedValueAsString() {
-        return eIsSet(Ifc2x3tc1Package.Literals.IFC_SECTION_MODULUS_MEASURE__WRAPPED_VALUE_AS_STRING);
+        return eIsSet(Ifc2x3tc1Package.eINSTANCE.getIfcSectionModulusMeasure_WrappedValueAsString());
     }
 
 } //IfcSectionModulusMeasureImpl

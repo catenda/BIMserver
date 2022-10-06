@@ -57,7 +57,7 @@ public class IfcDraughtingCalloutImpl extends IfcGeometricRepresentationItemImpl
      */
     @Override
     protected EClass eStaticClass() {
-        return Ifc2x3tc1Package.Literals.IFC_DRAUGHTING_CALLOUT;
+        return Ifc2x3tc1Package.eINSTANCE.getIfcDraughtingCallout();
     }
 
     /**
@@ -68,7 +68,7 @@ public class IfcDraughtingCalloutImpl extends IfcGeometricRepresentationItemImpl
     @SuppressWarnings("unchecked")
     @Override
     public EList<IfcDraughtingCalloutElement> getContents() {
-        return (EList<IfcDraughtingCalloutElement>) eGet(Ifc2x3tc1Package.Literals.IFC_DRAUGHTING_CALLOUT__CONTENTS,
+        return (EList<IfcDraughtingCalloutElement>) eGet(Ifc2x3tc1Package.eINSTANCE.getIfcDraughtingCallout_Contents(),
                 true);
     }
 
@@ -81,7 +81,7 @@ public class IfcDraughtingCalloutImpl extends IfcGeometricRepresentationItemImpl
     @Override
     public EList<IfcDraughtingCalloutRelationship> getIsRelatedFromCallout() {
         return (EList<IfcDraughtingCalloutRelationship>) eGet(
-                Ifc2x3tc1Package.Literals.IFC_DRAUGHTING_CALLOUT__IS_RELATED_FROM_CALLOUT, true);
+                Ifc2x3tc1Package.eINSTANCE.getIfcDraughtingCallout_IsRelatedFromCallout(), true);
     }
 
     /**
@@ -91,7 +91,7 @@ public class IfcDraughtingCalloutImpl extends IfcGeometricRepresentationItemImpl
      */
     @Override
     public void unsetIsRelatedFromCallout() {
-        eUnset(Ifc2x3tc1Package.Literals.IFC_DRAUGHTING_CALLOUT__IS_RELATED_FROM_CALLOUT);
+        eUnset(Ifc2x3tc1Package.eINSTANCE.getIfcDraughtingCallout_IsRelatedFromCallout());
     }
 
     /**
@@ -101,7 +101,7 @@ public class IfcDraughtingCalloutImpl extends IfcGeometricRepresentationItemImpl
      */
     @Override
     public boolean isSetIsRelatedFromCallout() {
-        return eIsSet(Ifc2x3tc1Package.Literals.IFC_DRAUGHTING_CALLOUT__IS_RELATED_FROM_CALLOUT);
+        return eIsSet(Ifc2x3tc1Package.eINSTANCE.getIfcDraughtingCallout_IsRelatedFromCallout());
     }
 
     /**
@@ -113,7 +113,7 @@ public class IfcDraughtingCalloutImpl extends IfcGeometricRepresentationItemImpl
     @Override
     public EList<IfcDraughtingCalloutRelationship> getIsRelatedToCallout() {
         return (EList<IfcDraughtingCalloutRelationship>) eGet(
-                Ifc2x3tc1Package.Literals.IFC_DRAUGHTING_CALLOUT__IS_RELATED_TO_CALLOUT, true);
+                Ifc2x3tc1Package.eINSTANCE.getIfcDraughtingCallout_IsRelatedToCallout(), true);
     }
 
     /**
@@ -123,7 +123,7 @@ public class IfcDraughtingCalloutImpl extends IfcGeometricRepresentationItemImpl
      */
     @Override
     public void unsetIsRelatedToCallout() {
-        eUnset(Ifc2x3tc1Package.Literals.IFC_DRAUGHTING_CALLOUT__IS_RELATED_TO_CALLOUT);
+        eUnset(Ifc2x3tc1Package.eINSTANCE.getIfcDraughtingCallout_IsRelatedToCallout());
     }
 
     /**
@@ -133,7 +133,7 @@ public class IfcDraughtingCalloutImpl extends IfcGeometricRepresentationItemImpl
      */
     @Override
     public boolean isSetIsRelatedToCallout() {
-        return eIsSet(Ifc2x3tc1Package.Literals.IFC_DRAUGHTING_CALLOUT__IS_RELATED_TO_CALLOUT);
+        return eIsSet(Ifc2x3tc1Package.eINSTANCE.getIfcDraughtingCallout_IsRelatedToCallout());
     }
 
 } //IfcDraughtingCalloutImpl

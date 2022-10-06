@@ -135,10 +135,6 @@ public enum IfcFanTypeEnum implements Enumerator {
     /**
      * The '<em><b>NULL</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>NULL</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #NULL
      * @model
@@ -150,10 +146,6 @@ public enum IfcFanTypeEnum implements Enumerator {
     /**
      * The '<em><b>VANEAXIAL</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>VANEAXIAL</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #VANEAXIAL
      * @model
@@ -165,10 +157,6 @@ public enum IfcFanTypeEnum implements Enumerator {
     /**
      * The '<em><b>NOTDEFINED</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>NOTDEFINED</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #NOTDEFINED
      * @model
@@ -180,10 +168,6 @@ public enum IfcFanTypeEnum implements Enumerator {
     /**
      * The '<em><b>CENTRIFUGALBACKWARDINCLINEDCURVED</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>CENTRIFUGALBACKWARDINCLINEDCURVED</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #CENTRIFUGALBACKWARDINCLINEDCURVED
      * @model
@@ -195,10 +179,6 @@ public enum IfcFanTypeEnum implements Enumerator {
     /**
      * The '<em><b>PROPELLORAXIAL</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>PROPELLORAXIAL</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #PROPELLORAXIAL
      * @model
@@ -210,10 +190,6 @@ public enum IfcFanTypeEnum implements Enumerator {
     /**
      * The '<em><b>CENTRIFUGALAIRFOIL</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>CENTRIFUGALAIRFOIL</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #CENTRIFUGALAIRFOIL
      * @model
@@ -225,10 +201,6 @@ public enum IfcFanTypeEnum implements Enumerator {
     /**
      * The '<em><b>TUBEAXIAL</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>TUBEAXIAL</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #TUBEAXIAL
      * @model
@@ -240,10 +212,6 @@ public enum IfcFanTypeEnum implements Enumerator {
     /**
      * The '<em><b>CENTRIFUGALRADIAL</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>CENTRIFUGALRADIAL</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #CENTRIFUGALRADIAL
      * @model
@@ -255,10 +223,6 @@ public enum IfcFanTypeEnum implements Enumerator {
     /**
      * The '<em><b>USERDEFINED</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>USERDEFINED</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #USERDEFINED
      * @model
@@ -270,10 +234,6 @@ public enum IfcFanTypeEnum implements Enumerator {
     /**
      * The '<em><b>CENTRIFUGALFORWARDCURVED</b></em>' literal value.
      * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>CENTRIFUGALFORWARDCURVED</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
      * <!-- end-user-doc -->
      * @see #CENTRIFUGALFORWARDCURVED
      * @model
