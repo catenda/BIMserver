@@ -20,7 +20,7 @@ class StepAttributeImpl implements StepAttribute {
 	@Override
 	public Object getValue() {
 		long token = tokenBuffer.tokenAt(index);
-		int offset = StepTokenizer.tokenPosition(token);
+		long offset = StepTokenizer.tokenPosition(token);
 		int length = StepTokenizer.tokenLength(token);
 		switch (StepTokenizer.tokenType(token)) {
 		case StepTokenizer.TOKEN_INTEGER:
@@ -84,7 +84,7 @@ class StepAttributeImpl implements StepAttribute {
 
 	public String getTokenValue() {
 		long token = tokenBuffer.tokenAt(index);
-		int offset = StepTokenizer.tokenPosition(token);
+		long offset = StepTokenizer.tokenPosition(token);
 		int length = StepTokenizer.tokenLength(token);
 		byte[] buffer = new byte[length];
 		dataBuffer.bytesAt(buffer, offset, length);
