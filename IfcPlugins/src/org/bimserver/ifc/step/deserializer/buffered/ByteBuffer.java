@@ -6,10 +6,10 @@ class ByteBuffer {
 	private ByteBufferPage readPage = first;
 	private int writePageIndex = 0;
 	private int readPageIndex = 0;
-	private int length;
+	private long length;
 
 	public void append(byte[] values, int offset, int length) {
-		int pageIndex = this.length >> 20;
+		int pageIndex = (int) (this.length >> 20);
 		ByteBufferPage page = writePage;
 		if (writePageIndex != pageIndex) {
 			int i = writePageIndex;
@@ -46,11 +46,11 @@ class ByteBuffer {
 		}
 	}
 
-	public byte byteAt(int index) {
+	public byte byteAt(long index) {
 		if (index >= length) {
 			throw new IndexOutOfBoundsException();
 		}
-		int pageIndex = index >> 20;
+		int pageIndex = (int) (index >> 20);
 		ByteBufferPage page = readPage;
 		if (readPageIndex != pageIndex) {
 			int i = readPageIndex;
@@ -64,14 +64,14 @@ class ByteBuffer {
 			readPage = page;
 			readPageIndex = pageIndex;
 		}
-		return page.buffer[index & 0xFFFFF];
+		return page.buffer[(int) (index & 0xFFFFF)];
 	}
 
-	public int bytesAt(byte[] buffer, int offset, int length) {
+	public int bytesAt(byte[] buffer, long offset, int length) {
 		if (offset >= this.length || offset + length > this.length) {
 			throw new IndexOutOfBoundsException();
 		}
-		int pageIndex = offset >> 20;
+		int pageIndex = (int) (offset >> 20);
 		ByteBufferPage page = readPage;
 		if (readPageIndex != pageIndex) {
 			int i = readPageIndex;
@@ -86,9 +86,9 @@ class ByteBuffer {
 			readPageIndex = pageIndex;
 		}
 		int bytesCopied = 0;
-		int position = offset - (pageIndex * 1 << 20);
+		int position = (int) (offset - (pageIndex * 1 << 20));
 		while (true) {
-			int sourceLength = Math.min(page.buffer.length - position, length
+			int sourceLength = (int) Math.min(page.buffer.length - position, length
 					- bytesCopied);
 			System.arraycopy(page.buffer, position, buffer, bytesCopied,
 					sourceLength);
@@ -107,7 +107,7 @@ class ByteBuffer {
 		return bytesCopied;
 	}
 
-	public int length() {
+	public long length() {
 		return length;
 	}
 }

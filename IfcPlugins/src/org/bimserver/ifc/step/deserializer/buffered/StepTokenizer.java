@@ -39,7 +39,7 @@ class StepTokenizer {
 	private ByteBuffer dataBuffer;
 	private TokenBuffer tokenBuffer;
 
-	private int dataPosition;
+	private long dataPosition;
 	private long token;
 
 	private static class ListElement {
@@ -250,7 +250,7 @@ class StepTokenizer {
 	}
 
 	private void parseInstanceName() {
-		int i = dataPosition + 1;
+		long i = dataPosition + 1;
 		for (;; i++) {
 			if (i >= dataBuffer.length()) {
 				break;
@@ -266,7 +266,7 @@ class StepTokenizer {
 
 	private void parseNumber() {
 		byte c = 0;
-		int i = dataPosition + 1;
+		long i = dataPosition + 1;
 		for (;; i++) {
 			if (i >= dataBuffer.length()) {
 				break;
@@ -314,7 +314,7 @@ class StepTokenizer {
 	}
 
 	private void parseString() throws EOFException, StepParseException {
-		int i = dataPosition + 1;
+		long i = dataPosition + 1;
 		for (;; i++) {
 			if (i >= dataBuffer.length()) {
 				throw new EOFException();
@@ -342,98 +342,90 @@ class StepTokenizer {
 				- dataPosition - 1)));
 	}
 
-	private void validateControlCodes(int position, int length) throws StepParseException {
-	    int index = position;
-        while (index - position < length) {
+	private void validateControlCodes(long position, long length) throws StepParseException {
+		long index = position;
+		while (index - position < length) {
+			char c = (char) dataBuffer.byteAt(index);
 
-            char c = (char) dataBuffer.byteAt(index);
-            switch (c) {
+			switch (c) {
 
-            case '\'':
+			case '\'':
+				switch ((char) dataBuffer.byteAt(index + 1)) {
+					case '\'':
+						index += 2;
+						break;
+					default:
+						throw new StepParseException("Invalid string");
+				}
+				break;
 
-                switch ((char) dataBuffer.byteAt(index + 1)) {
+			case '\\':
+				switch ((char) dataBuffer.byteAt(index + 1)) {
+					case '\\':
+						index += 2;
+						break;
 
-                case '\'':
-                    index += 2;
-                    break;
+					case 'S':
+						if ((char) dataBuffer.byteAt(index + 2) == '\\') {
+							index += 4;
+						} else {
+							index++;
+						}
+						break;
 
-                default:
-                    throw new StepParseException("Invalid string");
+					case 'P':
+						index += 4;
+						break;
 
-                }
+					case 'X':
+						switch ((char) dataBuffer.byteAt(index + 2)) {
+							case '\\': {
+								index += 5;
+							}
+							break;
 
-                break;
+							case '2': {
+								if ((char) dataBuffer.byteAt(index + 3) != '\\') {
+									throw new StepParseException("Expected \\");
+								}
+								long i = index + 4;
+								do {
+									i += 4;
+								} while ((char) dataBuffer.byteAt(i) != '\\');
+								index = i + 4;
+							}
+							break;
 
-            case '\\':
+							case '4': {
+								if ((char) dataBuffer.byteAt(index + 3) != '\\') {
+									throw new StepParseException("Expected \\");
+								}
+								long i = index + 4;
+								do {
+									i += 8;
+								} while ((char) dataBuffer.byteAt(i) != '\\');
+								index = i + 4;
+							}
+							break;
+						}
+						break;
 
-                switch ((char) dataBuffer.byteAt(index + 1)) {
+					default:
+						throw new StepParseException("Unknown control code \\" + (char) dataBuffer.byteAt(index + 1));
+			}
+			break;
 
-                case '\\':
-                    index += 2;
-                    break;
+			default:
+				index++;
+				break;
+			}
+		}
+	}
 
-                case 'S':
-                    if ((char) dataBuffer.byteAt(index + 2) == '\\') {
-                        index += 4;
-                    } else {
-                        index++;
-                    }
-                    break;
-
-                case 'P':
-                    index += 4;
-                    break;
-
-                case 'X':
-                    switch ((char) dataBuffer.byteAt(index + 2)) {
-
-                    case '\\': {
-                        index += 5;
-                    }
-                        break;
-                    case '2': {
-                        if ((char) dataBuffer.byteAt(index + 3) != '\\') {
-                            throw new StepParseException("Expected \\");
-                        }
-                        int i = index + 4;
-                        do {
-                            i += 4;
-                        } while ((char) dataBuffer.byteAt(i) != '\\');
-                        index = i + 4;
-                    }
-                        break;
-                    case '4': {
-                        if ((char) dataBuffer.byteAt(index + 3) != '\\') {
-                            throw new StepParseException("Expected \\");
-                        }
-                        int i = index + 4;
-                        do {
-                            i += 8;
-                        } while ((char) dataBuffer.byteAt(i) != '\\');
-                        index = i + 4;
-                    }
-                        break;
-                    }
-
-                    break;
-
-                default:
-                    throw new StepParseException("Unknown control code \\" + (char) dataBuffer.byteAt(index + 1));
-
-                }
-
-                break;
-            default:
-                index++;
-                break;
-            }
-        }
-    }
-
-    private boolean parseIdentifier() {
+	private boolean parseIdentifier() {
 		byte c = dataBuffer.byteAt(dataPosition);
 		if (c >= 'A' && c <= 'Z') {
-			int i = dataPosition + 1;
+			long i = dataPosition + 1;
 			for (;; i++) {
 				if (i >= dataBuffer.length()) {
 					break;
@@ -452,7 +444,7 @@ class StepTokenizer {
 	}
 
 	private void parseEnum() throws EOFException {
-		int i = dataPosition + 1;
+		long i = dataPosition + 1;
 		for (;; i++) {
 			if (i >= dataBuffer.length()) {
 				throw new EOFException();
@@ -466,12 +458,12 @@ class StepTokenizer {
 				- 1)));
 	}
 
-	private long token(byte type, int length) {
+	private long token(byte type, long length) {
 		return token(type, dataPosition, length);
 	}
 
-	static long token(byte type, int position, int length) {
-		return ((long) position << POSITION_BITS) | (length << TYPE_BITS)
+	static long token(byte type, long position, long length) {
+		return (position << POSITION_BITS) | (length << TYPE_BITS)
 				| (type & ((1 << TYPE_BITS) - 1));
 	}
 
@@ -483,12 +475,12 @@ class StepTokenizer {
 		return (byte) (token & ((1 << TYPE_BITS) - 1));
 	}
 
-	public int tokenPosition() {
+	public long tokenPosition() {
 		return tokenPosition(token);
 	}
 
-	public static int tokenPosition(long token) {
-		return (int) (token >> POSITION_BITS);
+	public static long tokenPosition(long token) {
+		return (token >> POSITION_BITS) & ((1L << POSITION_BITS) - 1L);
 	}
 
 	public int tokenLength() {

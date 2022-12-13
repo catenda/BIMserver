@@ -75,7 +75,7 @@ class StepEntityInstanceImpl implements StepEntityInstance {
 			throw new RuntimeException();
 		}
 
-		int offset = StepTokenizer.tokenPosition(token);
+		long offset = StepTokenizer.tokenPosition(token);
 		int length = StepTokenizer.tokenLength(token);
 		byte[] buffer = new byte[length];
 		dataBuffer.bytesAt(buffer, offset, length);
@@ -88,7 +88,7 @@ class StepEntityInstanceImpl implements StepEntityInstance {
 		if (StepTokenizer.tokenType(token) != StepTokenizer.TOKEN_INSTANCE_NAME) {
 			return -1;
 		}
-		int offset = StepTokenizer.tokenPosition(token);
+		long offset = StepTokenizer.tokenPosition(token);
 		int length = StepTokenizer.tokenLength(token);
 		byte[] buffer = new byte[length];
 		dataBuffer.bytesAt(buffer, offset, length);
