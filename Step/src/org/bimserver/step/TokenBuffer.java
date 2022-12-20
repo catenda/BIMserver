@@ -1,4 +1,4 @@
-package org.bimserver.ifc.step.deserializer.buffered;
+package org.bimserver.step;
 
 class TokenBuffer {
 	private TokenBufferPage first = new TokenBufferPage(1 << 20);

@@ -13,6 +13,8 @@ import org.bimserver.emf.IfcModelInterface;
 import org.bimserver.plugins.deserializers.DeserializeException;
 import org.bimserver.plugins.deserializers.EmfDeserializer;
 import org.bimserver.plugins.schema.SchemaDefinition;
+import org.bimserver.step.StepExchange;
+import org.bimserver.step.StepParser;
 import org.bimserver.utils.FakeClosingInputStream;
 
 public class IfcStepReadOnlyDeserializer extends EmfDeserializer {

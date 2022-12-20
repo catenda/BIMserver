@@ -1,4 +1,4 @@
-package org.bimserver.ifc.step.deserializer.buffered;
+package org.bimserver.step;
 
 class ByteBufferPage {
 	byte[] buffer;

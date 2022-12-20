@@ -1,4 +1,4 @@
-package org.bimserver.ifc.step.deserializer.buffered;
+package org.bimserver.step;
 
 import java.nio.charset.CharacterCodingException;
 import java.nio.charset.Charset;
@@ -22,15 +22,16 @@ public class StepStringDecoder {
 			Charset.forName("ISO-8859-9").newDecoder() };
 
 	public static String decode(String str) {
-		return decode(str.getBytes());
+		byte[] bytes = str.getBytes();
+		return decode(bytes, 0, bytes.length);
 	}
 
-	public static String decode(byte[] bytes) {
+	public static String decode(byte[] bytes, int offset, int length) {
 		CharsetDecoder decoder = null;
 
 		StringBuilder sb = new StringBuilder();
-		int index = 0;
-		while (index < bytes.length) {
+		int index = offset;
+		while (index < bytes.length && (index - offset) < length) {
 
 			char c = (char) bytes[index];
 			switch (c) {
