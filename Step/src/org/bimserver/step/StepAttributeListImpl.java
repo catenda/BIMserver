@@ -2,7 +2,6 @@ package org.bimserver.step;
 
 import java.util.ArrayList;
 
-import org.apache.commons.lang.builder.EqualsBuilder;
 
 public class StepAttributeListImpl implements StepAttributeList {
 
@@ -17,63 +16,52 @@ public class StepAttributeListImpl implements StepAttributeList {
 		this.index = index;
 	}
 
-	@Override
-	public boolean equals(Object obj) {
-		if (!(obj instanceof StepAttributeListImpl))
-			return false;
-		if (obj == this)
-			return true;
-		StepAttributeListImpl other = (StepAttributeListImpl) obj;
-		return new EqualsBuilder().append(dataBuffer, other.dataBuffer)
-				.append(tokenBuffer, other.tokenBuffer)
-				.append(index, other.index).isEquals();
-	}
-
 	public int tokenLength() {
 		int length = 0;
 		int i = index;
-		long token = tokenBuffer.tokenAt(i++);
-		if (StepTokenizer.tokenType(token) != StepTokenizer.TOKEN_LPAREN) {
+		StepToken token = tokenBuffer.tokenAt(i++);
+		if (token.getType() != StepToken.TOKEN_LPAREN) {
 			throw new RuntimeException("Invalid state");
 		}
 		length++;
 		token = tokenBuffer.tokenAt(i);
-		if (StepTokenizer.tokenType(token) == StepTokenizer.TOKEN_RPAREN) {
+		if (token.getType() == StepToken.TOKEN_RPAREN) {
 			length++;
 			return length;
 		}
 		while (true) {
 			token = tokenBuffer.tokenAt(i++);
-			switch (StepTokenizer.tokenType(token)) {
-			case StepTokenizer.TOKEN_INTEGER:
-			case StepTokenizer.TOKEN_REAL:
-			case StepTokenizer.TOKEN_STRING:
-			case StepTokenizer.TOKEN_UNSET:
-			case StepTokenizer.TOKEN_REDECLARED:
-			case StepTokenizer.TOKEN_INSTANCE_NAME:
-			case StepTokenizer.TOKEN_ENUM:
-				length++;
-				break;
-			case StepTokenizer.TOKEN_IDENTIFIER:
-				length++;
-				if (StepTokenizer.tokenType(tokenBuffer.tokenAt(i)) == StepTokenizer.TOKEN_LPAREN) {
+			switch (token.getType()) {
+				case StepToken.TOKEN_INTEGER:
+				case StepToken.TOKEN_REAL:
+				case StepToken.TOKEN_STRING:
+				case StepToken.TOKEN_UNSET:
+				case StepToken.TOKEN_REDECLARED:
+				case StepToken.TOKEN_INSTANCE_NAME:
+				case StepToken.TOKEN_ENUM:
+				case StepToken.TOKEN_BINARY:
+					length++;
+					break;
+				case StepToken.TOKEN_IDENTIFIER:
+					length++;
+					if (tokenBuffer.tokenAt(i).getType() == StepToken.TOKEN_LPAREN) {
+						int listLength = new StepAttributeListImpl(dataBuffer,
+								tokenBuffer, i).tokenLength();
+						i += listLength;
+						length += listLength;
+					}
+					break;
+				case StepToken.TOKEN_LPAREN:
 					int listLength = new StepAttributeListImpl(dataBuffer,
-							tokenBuffer, i).tokenLength();
-					i += listLength;
+							tokenBuffer, i - 1).tokenLength();
+					i += listLength - 1;
 					length += listLength;
-				}
-				break;
-			case StepTokenizer.TOKEN_LPAREN:
-				int listLength = new StepAttributeListImpl(dataBuffer,
-						tokenBuffer, i - 1).tokenLength();
-				i += listLength - 1;
-				length += listLength;
-				break;
-			case StepTokenizer.TOKEN_RPAREN:
-				length++;
-				return length;
-			default:
-				throw new RuntimeException("Unkonwn token");
+					break;
+				case StepToken.TOKEN_RPAREN:
+					length++;
+					return length;
+				default:
+					throw new RuntimeException("Unknown token");
 			}
 		}
 	}
@@ -81,47 +69,48 @@ public class StepAttributeListImpl implements StepAttributeList {
 	@Override
 	public StepAttribute get(int attributeIndex) {
 		int i = index;
-		long token = tokenBuffer.tokenAt(i++);
-		if (StepTokenizer.tokenType(token) != StepTokenizer.TOKEN_LPAREN) {
+		StepToken token = tokenBuffer.tokenAt(i++);
+		if (token.getType() != StepToken.TOKEN_LPAREN) {
 			throw new RuntimeException("Invalid state");
 		}
 		token = tokenBuffer.tokenAt(i);
-		if (StepTokenizer.tokenType(token) == StepTokenizer.TOKEN_RPAREN) {
+		if (token.getType() == StepToken.TOKEN_RPAREN) {
 			throw new IndexOutOfBoundsException();
 		}
 		int currentAttributeIndex = 0;
 		StepAttribute attribute = null;
 		while (true) {
 			token = tokenBuffer.tokenAt(i);
-			switch (StepTokenizer.tokenType(token)) {
-			case StepTokenizer.TOKEN_INTEGER:
-			case StepTokenizer.TOKEN_REAL:
-			case StepTokenizer.TOKEN_STRING:
-			case StepTokenizer.TOKEN_UNSET:
-			case StepTokenizer.TOKEN_REDECLARED:
-			case StepTokenizer.TOKEN_INSTANCE_NAME:
-			case StepTokenizer.TOKEN_ENUM:
-				attribute = new StepAttributeImpl(dataBuffer, tokenBuffer, i);
-				i++;
-				break;
-			case StepTokenizer.TOKEN_IDENTIFIER:
-				attribute = new StepAttributeImpl(dataBuffer, tokenBuffer, i);
-				if (StepTokenizer.tokenType(tokenBuffer.tokenAt(i + 1)) == StepTokenizer.TOKEN_LPAREN) {
-					int listLength = new StepAttributeListImpl(dataBuffer,
-							tokenBuffer, i + 1).tokenLength();
-					i += listLength;
-				}
-				break;
-			case StepTokenizer.TOKEN_LPAREN:
-				StepAttributeListImpl list = new StepAttributeListImpl(
-						dataBuffer, tokenBuffer, i);
-				i += list.tokenLength() - 1;
-				attribute = list;
-				break;
-			case StepTokenizer.TOKEN_RPAREN:
-				throw new IndexOutOfBoundsException();
-			default:
-				throw new RuntimeException("Unkown token");
+			switch (token.getType()) {
+				case StepToken.TOKEN_INTEGER:
+				case StepToken.TOKEN_REAL:
+				case StepToken.TOKEN_STRING:
+				case StepToken.TOKEN_UNSET:
+				case StepToken.TOKEN_REDECLARED:
+				case StepToken.TOKEN_INSTANCE_NAME:
+				case StepToken.TOKEN_ENUM:
+				case StepToken.TOKEN_BINARY:
+					attribute = new StepAttributeImpl(dataBuffer, tokenBuffer, i);
+					i++;
+					break;
+				case StepToken.TOKEN_IDENTIFIER:
+					attribute = new StepAttributeImpl(dataBuffer, tokenBuffer, i);
+					if (tokenBuffer.tokenAt(i + 1).getType() == StepToken.TOKEN_LPAREN) {
+						int listLength = new StepAttributeListImpl(dataBuffer,
+								tokenBuffer, i + 1).tokenLength();
+						i += listLength;
+					}
+					break;
+				case StepToken.TOKEN_LPAREN:
+					StepAttributeListImpl list = new StepAttributeListImpl(
+							dataBuffer, tokenBuffer, i);
+					i += list.tokenLength() - 1;
+					attribute = list;
+					break;
+				case StepToken.TOKEN_RPAREN:
+					throw new IndexOutOfBoundsException();
+				default:
+					throw new RuntimeException("Unknown token");
 			}
 			if (currentAttributeIndex == attributeIndex) {
 				return attribute;
@@ -141,16 +130,16 @@ public class StepAttributeListImpl implements StepAttributeList {
 	}
 
 	public int rawLength() {
-		long token = tokenBuffer.tokenAt(index);
-		if (StepTokenizer.tokenType(token) != StepTokenizer.TOKEN_LPAREN) {
+		StepToken token = tokenBuffer.tokenAt(index);
+		if (token.getType() != StepToken.TOKEN_LPAREN) {
 			throw new RuntimeException("Invalid state");
 		}
-		return StepTokenizer.tokenLength(token);
+		return token.getLength();
 	}
 
 	public void setRawLength(int length) {
-		long token = tokenBuffer.tokenAt(index);
-		tokenBuffer.set(index, StepTokenizer.token(StepTokenizer.tokenType(token), StepTokenizer.tokenPosition(token), length));
+		StepToken token = tokenBuffer.tokenAt(index);
+		tokenBuffer.set(index, new StepToken(token.getType(), token.getPosition(), length));
 	}
 
 	@Override
@@ -166,7 +155,7 @@ public class StepAttributeListImpl implements StepAttributeList {
 	public String getTokenValue() {
 		return null;
 	}
-	
+
 	@Override
 	public boolean isUnset() {
 		return false;
@@ -194,6 +183,26 @@ public class StepAttributeListImpl implements StepAttributeList {
 
 	@Override
 	public boolean isInline() {
+		return false;
+	}
+
+	@Override
+	public boolean isString() {
+		return false;
+	}
+
+	@Override
+	public boolean isInteger() {
+		return false;
+	}
+
+	@Override
+	public boolean isReal() {
+		return false;
+	}
+
+	@Override
+	public boolean isBinary() {
 		return false;
 	}
 

@@ -17,40 +17,41 @@ public class StepAttributeIterator implements Iterator<StepAttribute> {
 
 	@Override
 	public boolean hasNext() {
-		int tokenType = StepTokenizer.tokenType(tokenBuffer.tokenAt(index));
-		return tokenType != StepTokenizer.TOKEN_RPAREN;
+		int tokenType = tokenBuffer.tokenAt(index).getType();
+		return tokenType != StepToken.TOKEN_RPAREN;
 	}
 
 	@Override
 	public StepAttribute next() {
-		long token = tokenBuffer.tokenAt(index);
+		StepToken token = tokenBuffer.tokenAt(index);
 		StepAttribute attribute = null;
-		switch (StepTokenizer.tokenType(token)) {
-		case StepTokenizer.TOKEN_INTEGER:
-		case StepTokenizer.TOKEN_REAL:
-		case StepTokenizer.TOKEN_STRING:
-		case StepTokenizer.TOKEN_UNSET:
-		case StepTokenizer.TOKEN_REDECLARED:
-		case StepTokenizer.TOKEN_INSTANCE_NAME:
-		case StepTokenizer.TOKEN_ENUM:
-			attribute = new StepAttributeImpl(dataBuffer, tokenBuffer, index);
-			break;
-		case StepTokenizer.TOKEN_IDENTIFIER:
-			attribute = new StepAttributeImpl(dataBuffer, tokenBuffer, index);
-			if (StepTokenizer.tokenType(tokenBuffer.tokenAt(index + 1)) == StepTokenizer.TOKEN_LPAREN) {
-				int listLength = new StepAttributeListImpl(dataBuffer,
-						tokenBuffer, index + 1).tokenLength();
-				index += listLength;
-			}
-			break;
-		case StepTokenizer.TOKEN_LPAREN:
-			StepAttributeListImpl list = new StepAttributeListImpl(
-					dataBuffer, tokenBuffer, index);
-			index += list.tokenLength() - 1;
-			attribute = list;
-			break;
-		default:
-			throw new RuntimeException();
+		switch (token.getType()) {
+			case StepToken.TOKEN_INTEGER:
+			case StepToken.TOKEN_REAL:
+			case StepToken.TOKEN_STRING:
+			case StepToken.TOKEN_UNSET:
+			case StepToken.TOKEN_REDECLARED:
+			case StepToken.TOKEN_INSTANCE_NAME:
+			case StepToken.TOKEN_ENUM:
+			case StepToken.TOKEN_BINARY:
+				attribute = new StepAttributeImpl(dataBuffer, tokenBuffer, index);
+				break;
+			case StepToken.TOKEN_IDENTIFIER:
+				attribute = new StepAttributeImpl(dataBuffer, tokenBuffer, index);
+				if (tokenBuffer.tokenAt(index + 1).getType() == StepToken.TOKEN_LPAREN) {
+					int listLength = new StepAttributeListImpl(dataBuffer,
+							tokenBuffer, index + 1).tokenLength();
+					index += listLength;
+				}
+				break;
+			case StepToken.TOKEN_LPAREN:
+				StepAttributeListImpl list = new StepAttributeListImpl(
+						dataBuffer, tokenBuffer, index);
+				index += list.tokenLength() - 1;
+				attribute = list;
+				break;
+			default:
+				throw new RuntimeException();
 		}
 		index++;
 		return attribute;
@@ -59,6 +60,5 @@ public class StepAttributeIterator implements Iterator<StepAttribute> {
 	@Override
 	public void remove() {
 	}
-
 
 }

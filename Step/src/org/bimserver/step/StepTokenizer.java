@@ -1,34 +1,8 @@
 package org.bimserver.step;
 
 import java.io.EOFException;
-import java.io.IOException;
-import java.util.ArrayDeque;
-import java.util.Deque;
 
 class StepTokenizer {
-	public static final byte POSITION_BITS = 32;
-	public static final byte LENGTH_BITS = 27;
-	public static final byte TYPE_BITS = 5;
-
-	public static final byte TOKEN_BEGIN_EXCHANGE = 0;
-	public static final byte TOKEN_END_EXCHANGE = 1;
-	public static final byte TOKEN_HEADER = 2;
-	public static final byte TOKEN_DATA = 3;
-	public static final byte TOKEN_ENDSEC = 4;
-	public static final byte TOKEN_IDENTIFIER = 5;
-	public static final byte TOKEN_ENUM = 6;
-	public static final byte TOKEN_INSTANCE_NAME = 7;
-	public static final byte TOKEN_INTEGER = 8;
-	public static final byte TOKEN_REAL= 9;
-	public static final byte TOKEN_STRING = 10;
-	public static final byte TOKEN_UNSET = 11;
-	public static final byte TOKEN_REDECLARED = 12;
-	public static final byte TOKEN_EQUAL = 13;
-	public static final byte TOKEN_LPAREN = 14;
-	public static final byte TOKEN_RPAREN = 15;
-	public static final byte TOKEN_COMMA = 16;
-	public static final byte TOKEN_SEMICOLON = 17;
-	public static final byte TOKEN_EOF = 18;
 
 	public static byte[] BEGIN_EXCHANGE = "ISO-10303-21".getBytes();
 	public static byte[] END_EXCHANGE = "END-ISO-10303-21".getBytes();
@@ -37,159 +11,152 @@ class StepTokenizer {
 	public static byte[] ENDSEC = "ENDSEC".getBytes();
 
 	private ByteBuffer dataBuffer;
-	private TokenBuffer tokenBuffer;
-
 	private long dataPosition;
-	private long token;
+	private long line = 1;
 
-	private static class ListElement {
-		public int index;
-		public int length;
-	}
+	private final static StepToken SENTINEL_TOKEN = new StepToken((byte) 0, 0L, 0);
 
-	private Deque<ListElement> listStack = new ArrayDeque<ListElement>();
-
-	public StepTokenizer(ByteBuffer dataBuffer, TokenBuffer tokenBuffer) {
+	public StepTokenizer(ByteBuffer dataBuffer) {
 		this.dataBuffer = dataBuffer;
-		this.tokenBuffer = tokenBuffer;
 	}
 
-	public ByteBuffer getDataBuffer() {
-		return dataBuffer;
+	public long getLine() {
+		return line;
 	}
 
-	public TokenBuffer getTokenBuffer() {
-		return tokenBuffer;
+	private byte peek(int i) {
+		if (dataPosition + i >= dataBuffer.length()) {
+			return 0;
+		}
+		return dataBuffer.byteAt(dataPosition + i);
 	}
 
-	public void parseToken() throws IOException {
-		boolean parsed = false;
+	private boolean atEnd() {
+		return dataPosition >= dataBuffer.length();
+	}
+
+	private StepParseException unexpectedCharacter(byte c, String message) {
+		String prefix;
+		if (Character.isValidCodePoint(c)) {
+			prefix = String.format("Unexpected character %c", c);
+		} else {
+			prefix = String.format("Unexpected character %#x", c);
+		}
+
+		return new StepParseException(prefix + ". " + message);
+	}
+
+	private static boolean isLower(byte c) {
+		return (c >= 'a' && c <= 'z');
+	}
+
+	private static boolean isUpper(byte c) {
+		return (c >= 'A' && c <= 'Z') || c == '_';
+	}
+
+	private static boolean isDigit(byte c) {
+		return c >= '0' && c <= '9';
+	}
+
+	private boolean isHex(byte c) {
+		return isDigit(c) || (c >= 'A' && c <= 'F') || (c >= 'a' && c <= 'f');
+	}
+
+	private static boolean isUpperOrDigit(byte c) {
+		return isUpper(c) || isDigit(c);
+	}
+
+	public StepToken parseToken() throws EOFException, StepParseException {
+		StepToken token = lex();
+		if (token == SENTINEL_TOKEN) {
+			return SENTINEL_TOKEN;
+		}
+		switch (token.getType()) {
+			case StepToken.TOKEN_INSTANCE_NAME:
+				dataPosition += token.getLength();
+				break;
+			case StepToken.TOKEN_BINARY:
+			case StepToken.TOKEN_ENUM:
+			case StepToken.TOKEN_STRING:
+				dataPosition += token.getLength();
+				break;
+			default:
+				dataPosition += token.getLength();
+				break;
+		}
+		return token;
+	}
+
+	private StepToken lex() throws EOFException, StepParseException {
 		skipWhitespace();
-		byte c = dataBuffer.byteAt(dataPosition);
+
+		if (atEnd()) {
+			return makeToken(StepToken.TOKEN_EOF, 0);
+		}
+
+		byte c = peek(0);
+
 		switch (c) {
-		case '+':
-		case '-':
-			parseNumber();
-			parsed = true;
-			break;
-		case '0':
-		case '1':
-		case '2':
-		case '3':
-		case '4':
-		case '5':
-		case '6':
-		case '7':
-		case '8':
-		case '9':
-			parseNumber();
-			parsed = true;
-			break;
-		case '(':
-		{
-			ListElement elmt = new ListElement();
-			elmt.index = tokenBuffer.length();
-			elmt.length = 0;
-			listStack.push(elmt);
-
-			tokenBuffer.append((token = token(TOKEN_LPAREN, 1)));
-			parsed = true;
-			break;
-		}
-		case ')':
-		{
-			if (listStack.isEmpty()) {
-				throw new StepParseException("Unexpected character )");
-			}
-			ListElement elmt = listStack.pop();
-			if (elmt.index != tokenBuffer.length() - 1) {
-				elmt.length++;
-			}
-			tokenBuffer.set(elmt.index, token(TOKEN_LPAREN, elmt.length << 1));
-
-			tokenBuffer.append((token = token(TOKEN_RPAREN, 1)));
-			parsed = true;
-			break;
-		}
-		case ',':
-			if (listStack.isEmpty()) {
-				throw new StepParseException("Unexpected character ,");
-			}
-			listStack.peek().length++;
-			token = token(TOKEN_COMMA, 1);
-			parsed = true;
-			break;
-		case '\'':
-			parseString();
-			parsed = true;
-			break;
-		case '.':
-			parseEnum();
-			parsed = true;
-			break;
-		case '#':
-			parseInstanceName();
-			parsed = true;
-			break;
-		case '$':
-			tokenBuffer.append((token = token(TOKEN_UNSET, 1)));
-			parsed = true;
-			break;
-		case '*':
-			tokenBuffer.append((token = token(TOKEN_REDECLARED, 1)));
-			parsed = true;
-			break;
-		case '=':
-			tokenBuffer.append((token = token(TOKEN_EQUAL, 1)));
-			parsed = true;
-			break;
-		case ';':
-			token = token(TOKEN_SEMICOLON, 1);
-			parsed = true;
-			break;
-		case 'I':
-			parsed = parseKeyword(BEGIN_EXCHANGE, TOKEN_BEGIN_EXCHANGE);
-			break;
-		case 'E':
-			parsed = parseKeyword(ENDSEC, TOKEN_ENDSEC)
-					|| parseKeyword(END_EXCHANGE, TOKEN_END_EXCHANGE);
-			break;
-		case 'H':
-			parsed = parseKeyword(HEADER, TOKEN_HEADER);
-			break;
-		case 'D':
-			parsed = parseKeyword(DATA, TOKEN_DATA);
-			break;
-		default:
-			break;
-		}
-		if (!parsed) {
-			if (!parseIdentifier()) {
-				throw new StepParseException(String.format(
-						"Unexpected character %c", c));
-			}
+			case '+':
+			case '-':
+			case '0':
+			case '1':
+			case '2':
+			case '3':
+			case '4':
+			case '5':
+			case '6':
+			case '7':
+			case '8':
+			case '9':
+				return parseNumber();
+			case '(':
+				return makeToken(StepToken.TOKEN_LPAREN, 1);
+			case ')':
+				return makeToken(StepToken.TOKEN_RPAREN, 1);
+			case ',':
+				return makeToken(StepToken.TOKEN_COMMA, 1);
+			case '\'':
+				return parseString();
+			case '.':
+				return parseEnum();
+			case '"':
+				return parseBinary();
+			case '#':
+				return parseInstanceName();
+			case '$':
+				return makeToken(StepToken.TOKEN_UNSET, 1);
+			case '*':
+				return makeToken(StepToken.TOKEN_REDECLARED, 1);
+			case '=':
+				return makeToken(StepToken.TOKEN_EQUAL, 1);
+			case ';':
+				return makeToken(StepToken.TOKEN_SEMICOLON, 1);
+			default:
+				return parseKeywordOrIdentifier();
 		}
 	}
 
 	private void skipWhitespace() {
 		while (true) {
-			byte c = dataBuffer.byteAt(dataPosition);
+			byte c = peek(0);
 			switch (c) {
-			case '/':
-				if (dataBuffer.byteAt(dataPosition + 1) == '*') {
-					skipComment();
-				} else {
+				case '/':
+					if (peek(1) == '*') {
+						skipComment();
+					} else {
+						return;
+					}
+					break;
+				case '\n':
+					line++;
+				case 13:
+				case '\t':
+				case ' ':
+					dataPosition++;
+					continue;
+				default:
 					return;
-				}
-				break;
-			case '\n':
-			case 13:
-			case '\t':
-			case ' ':
-				dataPosition++;
-				continue;
-			default:
-				return;
 			}
 		}
 	}
@@ -197,319 +164,476 @@ class StepTokenizer {
 	private void skipComment() {
 		dataPosition += 2;
 		while (true) {
-			byte c = dataBuffer.byteAt(dataPosition);
+			byte c = peek(0);
 			switch (c) {
-			case '*':
-				if (dataBuffer.byteAt(dataPosition + 1) == '/') {
-					dataPosition += 2;
+				case 0:
 					return;
-				} else {
+				case '*':
+					if (peek(1) == '/') {
+						dataPosition += 2;
+						return;
+					} else {
+						dataPosition++;
+					}
+					break;
+				case '/':
+					if (peek(1) == '*') {
+						skipComment();
+					} else {
+						dataPosition++;
+					}
+					break;
+				case '\n':
+					line++;
+				default:
 					dataPosition++;
-				}
-				break;
-			case '/':
-				if (dataBuffer.byteAt(dataPosition + 1) == '*') {
-					skipComment();
-				} else {
-					dataPosition++;
-				}
-				break;
-			default:
-				dataPosition++;
-				break;
+					break;
 			}
 		}
-		
 	}
 
-	private boolean parseKeyword(byte[] keyword, byte keywordToken) {
+	private StepToken parseKeywordOrIdentifier() throws StepParseException {
+		StepToken token;
+
+		byte c = peek(0);
+
+		switch (c) {
+			case 'I':
+				token = parseKeyword(BEGIN_EXCHANGE, StepToken.TOKEN_BEGIN_EXCHANGE);
+				if (token != SENTINEL_TOKEN) {
+					return token;
+				}
+				break;
+			case 'E':
+				token = parseKeyword(ENDSEC, StepToken.TOKEN_ENDSEC);
+				if (token == SENTINEL_TOKEN) {
+					token = parseKeyword(END_EXCHANGE, StepToken.TOKEN_END_EXCHANGE);
+				}
+				if (token != SENTINEL_TOKEN) {
+					return token;
+				}
+				break;
+			case 'H':
+				token = parseKeyword(HEADER, StepToken.TOKEN_HEADER);
+				if (token != SENTINEL_TOKEN) {
+					return token;
+				}
+				break;
+			case 'D':
+				token = parseKeyword(DATA, StepToken.TOKEN_DATA);
+				if (token != SENTINEL_TOKEN) {
+					return token;
+				}
+				break;
+		}
+
+		token = parseIdentifier();
+		if (token == SENTINEL_TOKEN) {
+			throw unexpectedCharacter(c, "Unexpected identifier");
+		} else {
+			return token;
+		}
+	}
+
+	private StepToken parseKeyword(byte[] keyword, byte keywordToken) {
 		if (dataBuffer.length() < dataPosition + keyword.length) {
-			return false;
+			return SENTINEL_TOKEN;
 		}
 		for (int i = 0; i < keyword.length; i++) {
-			if (keyword[i] != dataBuffer.byteAt(dataPosition + i)) {
-				return false;
+			if (keyword[i] != peek(i)) {
+				return SENTINEL_TOKEN;
 			}
 		}
 		if (dataBuffer.length() == dataPosition + keyword.length) {
-			tokenBuffer.append((token = token(keywordToken, keyword.length)));
-			return true;
+			return makeToken(keywordToken, keyword.length);
 		} else {
-			byte c = dataBuffer.byteAt(dataPosition + keyword.length);
+			byte c = peek(keyword.length);
 			switch (c) {
-			case ';':
-			case '\t':
-			case '\n':
-			case ' ':
-				tokenBuffer.append((token = token(keywordToken, keyword.length)));
-				return true;
-			default:
-				return false;
+				case '\n':
+					line++;
+				case ';':
+				case '\t':
+				case ' ':
+					return makeToken(keywordToken, keyword.length);
+				default:
+					return SENTINEL_TOKEN;
 			}
 		}
 	}
 
-	private void parseInstanceName() {
-		long i = dataPosition + 1;
-		for (;; i++) {
-			if (i >= dataBuffer.length()) {
-				break;
+	private StepToken parseIdentifier() {
+		byte c = peek(0);
+		if (isUpper(c)) {
+			int i = 1;
+			for (;; i++) {
+				c = peek(i);
+				if (!(isUpperOrDigit(c))) {
+					break;
+				}
 			}
-			byte c = dataBuffer.byteAt(i);
-			if (c < '0' || c > '9') {
+			return makeToken(StepToken.TOKEN_IDENTIFIER, i);
+		} else {
+			return SENTINEL_TOKEN;
+		}
+	}
+
+	private StepToken parseInstanceName() throws EOFException, StepParseException {
+		byte c = peek(1);
+
+		if (c == 0) {
+			throw new EOFException();
+		} else if (!isDigit(c)) {
+			throw unexpectedCharacter(c, "Expected digit");
+		}
+
+		int i = 2;
+		for (;; i++) {
+			c = peek(i);
+			if (!isDigit(c)) {
 				break;
 			}
 		}
-		tokenBuffer.append((token = token(TOKEN_INSTANCE_NAME, dataPosition + 1, i
-				- dataPosition - 1)));
+		return makeToken(StepToken.TOKEN_INSTANCE_NAME, i);
 	}
 
-	private void parseNumber() {
-		byte c = 0;
-		long i = dataPosition + 1;
-		for (;; i++) {
-			if (i >= dataBuffer.length()) {
+	private StepToken parseNumber() throws EOFException, StepParseException {
+		int i = 0;
+
+		byte c = peek(i);
+		if (c == '-' || c == '+') {
+			i++;
+		}
+
+		c = peek(i);
+		if (!isDigit(c)) {
+			throw unexpectedCharacter(c, "Expected digit");
+		}
+
+		for (i++;; i++) {
+			c = peek(i);
+			if (!isDigit(c)) {
 				break;
 			}
-			c = dataBuffer.byteAt(i);
-			if (c < '0' || c > '9') {
-				break;
-			}
+		}
+
+		if (c != '.' && c != 'E' && c != 'e') {
+			return makeToken(StepToken.TOKEN_INTEGER, i);
 		}
 		if (c == '.') {
-			for (i++;; i++) {
-				if (i >= dataBuffer.length()) {
-					break;
-				}
-				c = dataBuffer.byteAt(i);
-				if (c < '0' || c > '9') {
-					break;
-				}
-			}
-			if (c == 'E') {
-				for (i++;;) {
-					if (i >= dataBuffer.length()) {
-						break;
-					}
-					c = dataBuffer.byteAt(i);
-					if (c == '-' || c == '+') {
-						i++;
-					}
-					for (;; i++) {
-						if (i >= dataBuffer.length()) {
-							break;
-						}
-						c = dataBuffer.byteAt(i);
-						if (c < '0' || c > '9') {
-							break;
-						}
-					}
-					break;
-				}
-			}
-			tokenBuffer.append((token = token(TOKEN_REAL, i - dataPosition)));
-		} else {
-			tokenBuffer.append((token = token(TOKEN_INTEGER, i - dataPosition)));
+			i++;
 		}
+
+		if (peek(i) == '#') {
+			for (i++;; i++) {
+				c = peek(i);
+				if (!isUpper(c)) {
+					break;
+				}
+			}
+			return makeToken(StepToken.TOKEN_REAL, i);
+		}
+
+		i = parseFraction(i);
+
+		return makeToken(StepToken.TOKEN_REAL, i);
 	}
 
-	private void parseString() throws EOFException, StepParseException {
-		long i = dataPosition + 1;
+	private int parseFraction(int i) throws StepParseException {
+		byte c;
 		for (;; i++) {
-			if (i >= dataBuffer.length()) {
-				throw new EOFException();
+			c = peek(i);
+			if (!isDigit(c)) {
+				break;
 			}
-			byte c = dataBuffer.byteAt(i);
-			if (c == '\'') {
-				if (dataBuffer.byteAt(i + 1) == '\'') {
+		}
+
+		if (c == 'E') {
+			i++;
+
+			c = peek(i);
+			if (c == '-' || c == '+') {
+				i++;
+			}
+
+			c = peek(i);
+			if (!isDigit(c)) {
+				throw unexpectedCharacter(c, "Expected digit");
+			}
+			for (i++;; i++) {
+				c = peek(i);
+				if (!isDigit(c)) {
+					break;
+				}
+			}
+		}
+		return i;
+	}
+
+	private StepToken parseString() throws EOFException, StepParseException {
+		int i = 1;
+		for (;; i++) {
+			byte c = peek(i);
+			if (c == '\n') {
+				line++;
+			} else if (c == 0) {
+				throw new EOFException();
+			} else if (c == '\'') {
+				if (peek(i + 1) == '\'') {
 					i++;
 				} else {
 					break;
 				}
 			} else if (c == '\\') {
-				if (i + 3 >= dataBuffer.length()) {
-					throw new EOFException();
-				}
-				// Ignore testing for end-of-string in \S control code to
-				// support the character § encoded as \S\'
-				if (dataBuffer.byteAt(i + 1) == 'S' && dataBuffer.byteAt(i + 2) == '\\') {
-					i += 3;
+				if (peek(i + 1) == '\\') {
+					i++;
+				} else {
+					i = parseControlDirective(i);
 				}
 			}
 		}
-		validateControlCodes(dataPosition + 1, i - dataPosition - 1);
-		tokenBuffer.append((token = token(TOKEN_STRING, dataPosition + 1, i
-				- dataPosition - 1)));
+		return makeToken(StepToken.TOKEN_STRING, i + 1);
 	}
 
-	private void validateControlCodes(long position, long length) throws StepParseException {
-		long index = position;
-		while (index - position < length) {
-			char c = (char) dataBuffer.byteAt(index);
+	private int parseControlDirective(int i) throws EOFException, StepParseException {
+		i++;
 
-			switch (c) {
+		byte c = peek(i);
 
-			case '\'':
-				switch ((char) dataBuffer.byteAt(index + 1)) {
-					case '\'':
-						index += 2;
-						break;
-					default:
-						throw new StepParseException("Invalid string");
-				}
-				break;
-
-			case '\\':
-				switch ((char) dataBuffer.byteAt(index + 1)) {
+		switch (c) {
+			case 'S':
+				return parsePageControlDirective(i);
+			case 'P':
+				return parseAlphabetControlDirective(i);
+			case 'X': {
+				switch (peek(i + 1)) {
 					case '\\':
-						index += 2;
-						break;
-
-					case 'S':
-						if ((char) dataBuffer.byteAt(index + 2) == '\\') {
-							index += 4;
-						} else {
-							index++;
-						}
-						break;
-
-					case 'P':
-						index += 4;
-						break;
-
-					case 'X':
-						switch ((char) dataBuffer.byteAt(index + 2)) {
-							case '\\': {
-								index += 5;
-							}
-							break;
-
-							case '2': {
-								if ((char) dataBuffer.byteAt(index + 3) != '\\') {
-									throw new StepParseException("Expected \\");
-								}
-								long i = index + 4;
-								do {
-									i += 4;
-								} while ((char) dataBuffer.byteAt(i) != '\\');
-								index = i + 4;
-							}
-							break;
-
-							case '4': {
-								if ((char) dataBuffer.byteAt(index + 3) != '\\') {
-									throw new StepParseException("Expected \\");
-								}
-								long i = index + 4;
-								do {
-									i += 8;
-								} while ((char) dataBuffer.byteAt(i) != '\\');
-								index = i + 4;
-							}
-							break;
-						}
-						break;
-
+						return parseArbitraryControlDirective(i);
+					case '2':
+						return parseExtended2ControlDirective(i);
+					case '4':
+						return parseExtended4ControlDirective(i);
 					default:
-						throw new StepParseException("Unknown control code \\" + (char) dataBuffer.byteAt(index + 1));
+						throw unexpectedCharacter(c, "Expected control directive");
+				}
 			}
-			break;
-
 			default:
-				index++;
-				break;
-			}
+				throw unexpectedCharacter(c, "Expected control directive");
 		}
 	}
 
-	private boolean parseIdentifier() {
-		byte c = dataBuffer.byteAt(dataPosition);
-		if (c >= 'A' && c <= 'Z') {
-			long i = dataPosition + 1;
-			for (;; i++) {
-				if (i >= dataBuffer.length()) {
-					break;
-				}
-				c = dataBuffer.byteAt(i);
-				if (!((c >= 'A' && c <= 'Z') || (c >= '0' && c <= '9') || c == '_')) {
-					break;
-				}
-			}
-			tokenBuffer.append((token = token(TOKEN_IDENTIFIER, dataPosition, i
-					- dataPosition)));
-			return true;
-		} else {
-			return false;
-		}
-	}
+	private int parseExtended4ControlDirective(int i) throws StepParseException, EOFException {
+		i += 2;
 
-	private void parseEnum() throws EOFException {
-		long i = dataPosition + 1;
-		for (;; i++) {
-			if (i >= dataBuffer.length()) {
+		byte c = peek(i);
+		if (c != '\\') {
+			throw unexpectedCharacter(c, "Expected '\'");
+		}
+		i++;
+
+		i = parseHexFour(i);
+
+		while (true) {
+			i++;
+			c = peek(i);
+			if (c == 0) {
 				throw new EOFException();
-			}
-			byte c = dataBuffer.byteAt(i);
-			if (c == '.') {
+			} else if (c == '\\') {
 				break;
-			}
-		}
-		tokenBuffer.append((token = token(TOKEN_ENUM, dataPosition + 1, i - dataPosition
-				- 1)));
-	}
-
-	private long token(byte type, long length) {
-		return token(type, dataPosition, length);
-	}
-
-	static long token(byte type, long position, long length) {
-		return (position << POSITION_BITS) | (length << TYPE_BITS)
-				| (type & ((1 << TYPE_BITS) - 1));
-	}
-
-	public byte tokenType() {
-		return tokenType(token);
-	}
-
-	public static byte tokenType(long token) {
-		return (byte) (token & ((1 << TYPE_BITS) - 1));
-	}
-
-	public long tokenPosition() {
-		return tokenPosition(token);
-	}
-
-	public static long tokenPosition(long token) {
-		return (token >> POSITION_BITS) & ((1L << POSITION_BITS) - 1L);
-	}
-
-	public int tokenLength() {
-		return tokenLength(token);
-	}
-
-	public static int tokenLength(long token) {
-		return (int) ((token >> TYPE_BITS) & ((1 << LENGTH_BITS) - 1));
-	}
-
-	public void tokenValue(byte[] buffer) {
-		dataBuffer.bytesAt(buffer, tokenPosition(), tokenLength());
-	}
-
-	public boolean nextToken() {
-		if (tokenBuffer.length() > 0) {
-			switch (tokenType()) {
-			case TOKEN_INSTANCE_NAME:
-				dataPosition += tokenLength() + 1;
-				break;
-			case TOKEN_ENUM:
-			case TOKEN_STRING:
-				dataPosition += tokenLength() + 2;
-				break;
-			default:
-				dataPosition += tokenLength();
-				break;
+			} else {
+				i = parseHexFour(i);
 			}
 		}
-		return dataPosition < dataBuffer.length();
+
+		return parseEndExtended(i);
+	}
+
+	private int parseExtended2ControlDirective(int i) throws StepParseException, EOFException {
+		i += 2;
+
+		byte c = peek(i);
+		if (c != '\\') {
+			throw unexpectedCharacter(c, "Expected '\'");
+		}
+		i++;
+
+		i = parseHexTwo(i);
+
+		while (true) {
+			i++;
+			c = peek(i);
+			if (c == 0) {
+				throw new EOFException();
+			} else if (c == '\\') {
+				break;
+			} else {
+				i = parseHexTwo(i);
+			}
+		}
+
+		return parseEndExtended(i);
+	}
+
+	private int parseEndExtended(int i) throws StepParseException {
+		byte c = peek(i);
+		if (c != '\\') {
+			throw unexpectedCharacter(c, "Expected '\'");
+		}
+		i++;
+
+		c = peek(i);
+		if (c != 'X') {
+			throw unexpectedCharacter(c, "Expected 'X'");
+		}
+		i++;
+
+		c = peek(i);
+		if (c != '0') {
+			throw unexpectedCharacter(c, "Expected '0'");
+		}
+		i++;
+
+		c = peek(i);
+		if (c != '\\') {
+			throw unexpectedCharacter(c, "Expected '\'");
+		}
+
+		return i;
+	}
+
+	private int parseHexFour(int i) throws StepParseException {
+		for (int n = 0; n < 2; n++) {
+			i = parseHexTwo(i);
+			if (n == 0) {
+				i++;
+			}
+		}
+		return i;
+	}
+
+	private int parseHexTwo(int i) throws StepParseException {
+		for (int n = 0; n < 2; n++) {
+			i = parseHexOne(i);
+			if (n == 0) {
+				i++;
+			}
+		}
+		return i;
+	}
+
+
+	private int parseHexOne(int i) throws StepParseException {
+		for (int n = 0; n < 2; n++) {
+			byte c = peek(i);
+			if (!isHex(peek(i))) {
+				throw unexpectedCharacter(c, "Expected hex");
+			}
+			if (n == 0) {
+				i ++;
+			}
+		}
+		return i;
+	}
+
+	private int parseArbitraryControlDirective(int i) throws StepParseException {
+		i += 2;
+
+		i = parseHexOne(i);
+
+		return i;
+	}
+
+	private int parseAlphabetControlDirective(int i) throws StepParseException {
+		i++;
+
+		byte c = peek(i);
+		if (!isUpper(c)) {
+			throw unexpectedCharacter(c, "Expected alpha");
+		}
+		i++;
+
+		c = peek(i);
+		if (c != '\\') {
+			throw unexpectedCharacter(c, "Expected '\'");
+		}
+
+		return i;
+	}
+
+	private int parsePageControlDirective(int i) throws StepParseException, EOFException {
+		i++;
+
+		byte c = peek(i);
+		if (c != '\\') {
+			throw unexpectedCharacter(c, "Expected '\'");
+		}
+		i++;
+
+		c = peek(i);
+		if (c == 0) {
+			throw new EOFException();
+		}
+
+		return i;
+	}
+
+	private StepToken parseEnum() throws EOFException, StepParseException {
+		byte c = peek(1);
+
+		if (c == 0) {
+			throw new EOFException();
+		} else if (isDigit(c)) {
+			int i = parseFraction(1);
+			return makeToken(StepToken.TOKEN_REAL, i);
+		} else if (!isUpper(c)) {
+			throw unexpectedCharacter(c, "Expected alpha");
+		}
+
+		int i = 2;
+
+
+		for (;; i++) {
+			c = peek(i);
+			if (isUpperOrDigit(c)) {
+				continue;
+			} else if (c == 0) {
+				throw new EOFException();
+			} else if (c == '.') {
+				break;
+			} else if (isLower(c) || c == ' ') {
+				continue;
+			} else {
+				throw unexpectedCharacter(c, "Expected alphanumeric");
+			}
+		}
+
+		return makeToken(StepToken.TOKEN_ENUM, i + 1);
+	}
+
+	private StepToken parseBinary() throws EOFException, StepParseException {
+		byte c = peek(1);
+		if (c == 0) {
+			throw new EOFException();
+		} else if (!(c >= '0' || c >= '3')) {
+			throw unexpectedCharacter(c, "Expected digit between 0 and 3");
+		}
+
+		int i = 2;
+		for (;; i++) {
+			c = peek(i);
+			if (isHex(c)) {
+				continue;
+			} else if (c == 0) {
+				throw new EOFException();
+			} else if (c == '"') {
+				break;
+			} else {
+				throw unexpectedCharacter(c, "Expected hex");
+			}
+		}
+		return makeToken(StepToken.TOKEN_BINARY, i + 1);
+	}
+
+	private StepToken makeToken(byte type, int length) {
+		return new StepToken(type, dataPosition, length);
 	}
 }

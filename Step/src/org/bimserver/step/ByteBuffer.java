@@ -1,12 +1,39 @@
 package org.bimserver.step;
 
+import java.io.IOException;
+import java.io.InputStream;
+
 class ByteBuffer {
+
 	private ByteBufferPage first = new ByteBufferPage(1 << 20);
 	private ByteBufferPage writePage = first;
 	private ByteBufferPage readPage = first;
 	private int writePageIndex = 0;
 	private int readPageIndex = 0;
 	private long length;
+
+	public ByteBuffer() {
+	}
+
+	public ByteBuffer(byte[] content) {
+		append(content, 0, content.length);
+	}
+
+	public ByteBuffer(String content) {
+		this(content.getBytes());
+	}
+
+	public ByteBuffer(InputStream in) throws IOException {
+		append(in);
+	}
+
+	public void append(InputStream in) throws IOException {
+		byte[] buffer = new byte[4096];
+		int length = 0;
+		while ((length = in.read(buffer, 0, buffer.length)) > 0) {
+			append(buffer, 0, length);
+		}
+	}
 
 	public void append(byte[] values, int offset, int length) {
 		int pageIndex = (int) (this.length >> 20);

@@ -5,8 +5,12 @@ public interface StepAttribute {
 	String getTokenValue();
 	boolean isUnset();
 	boolean isRedeclared();
+	boolean isBinary();
 	boolean isEnum();
-	boolean isList();
-	boolean isInstanceName();
 	boolean isInline();
+	boolean isInstanceName();
+	boolean isList();
+	boolean isInteger();
+	boolean isReal();
+	boolean isString();
 }
