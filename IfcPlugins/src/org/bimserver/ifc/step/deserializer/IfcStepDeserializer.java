@@ -39,7 +39,7 @@ import org.bimserver.emf.IdEObjectImpl;
 import org.bimserver.emf.IfcModelInterface;
 import org.bimserver.emf.IfcModelInterfaceException;
 import org.bimserver.ifc.IfcModel;
-import org.bimserver.ifc.step.deserializer.buffered.StepStringDecoder;
+import org.bimserver.step.StepStringDecoder;
 import org.bimserver.interfaces.objects.SIfcHeader;
 import org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package;
 import org.bimserver.models.ifc4.Ifc4Package;

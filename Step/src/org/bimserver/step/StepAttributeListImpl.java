@@ -1,10 +1,10 @@
-package org.bimserver.ifc.step.deserializer.buffered;
+package org.bimserver.step;
 
 import java.util.ArrayList;
 
 import org.apache.commons.lang.builder.EqualsBuilder;
 
-class StepAttributeListImpl implements StepAttributeList {
+public class StepAttributeListImpl implements StepAttributeList {
 
 	private final ByteBuffer dataBuffer;
 	private final TokenBuffer tokenBuffer;

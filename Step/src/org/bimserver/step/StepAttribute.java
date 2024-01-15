@@ -1,6 +1,6 @@
-package org.bimserver.ifc.step.deserializer.buffered;
+package org.bimserver.step;
 
-interface StepAttribute {
+public interface StepAttribute {
 	Object getValue();
 	String getTokenValue();
 	boolean isUnset();

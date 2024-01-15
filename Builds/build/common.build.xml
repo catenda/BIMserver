@@ -13,6 +13,7 @@
 		<antcall target="Utils" />
 		<antcall target="Shared" />
 		<antcall target="Ifc" />
+		<antcall target="Step" />
 		<antcall target="BimServerClientLib" />
 		<antcall target="XsltSerializer" />
 		<antcall target="BimServer" />
@@ -377,6 +378,21 @@
 		</copy>
 		<jar destfile="builds/lib/bimserver-${version}-shared.jar">
 			<fileset dir="builds/shared"/>
+		</jar>
+	</target>
+	<target name="Step">
+		<mkdir dir="builds/step" />
+		<javac destdir="builds/step" debug="on" includeantruntime="false" target="1.8" source="1.8">
+			<src path="../../Step/src" />
+			<classpath>
+				<path>
+					<fileset refid="lib" />
+					<fileset refid="buildlib" />
+				</path>
+			</classpath>
+		</javac>
+		<jar destfile="builds/lib/bimserver-${version}-step.jar">
+			<fileset dir="builds/step"/>
 		</jar>
 	</target>
 

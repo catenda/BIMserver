@@ -1,10 +1,10 @@
-package org.bimserver.ifc.step.deserializer.buffered;
+package org.bimserver.step;
 
 import java.io.EOFException;
 import java.io.IOException;
 import java.io.InputStream;
 
-class StepParser {
+public class StepParser {
 	public static final byte POSITION_BITS = 32;
 	public static final byte DATA_BITS = 27;
 	public static final byte TYPE_BITS = 5;

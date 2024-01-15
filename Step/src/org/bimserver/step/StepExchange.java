@@ -1,6 +1,6 @@
-package org.bimserver.ifc.step.deserializer.buffered;
+package org.bimserver.step;
 
-interface StepExchange {
+public interface StepExchange {
 	StepEntityInstanceIterator getHeaderEntityIterator();
 	StepEntityInstanceIterator getDataEntityIterator();
 	StepEntityInstance getDataEntity(int index);

@@ -1,8 +1,8 @@
-package org.bimserver.ifc.step.deserializer.buffered;
+package org.bimserver.step;
 
 import java.util.Iterator;
 
-class StepAttributeIterator implements Iterator<StepAttribute> {
+public class StepAttributeIterator implements Iterator<StepAttribute> {
 
 	private ByteBuffer dataBuffer;
 	private TokenBuffer tokenBuffer;

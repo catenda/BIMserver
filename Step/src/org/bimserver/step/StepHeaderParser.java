@@ -1,11 +1,11 @@
-package org.bimserver.ifc.step.deserializer.buffered;
+package org.bimserver.step;
 
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
 
 import org.bimserver.interfaces.objects.SIfcHeader;
 
-abstract class StepHeaderParser {
+public abstract class StepHeaderParser {
 
 	public static SIfcHeader parseIfcHeader(StepEntityInstanceIterator it) {
 		SIfcHeader ifcHeader = new SIfcHeader();

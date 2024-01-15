@@ -15,6 +15,8 @@ import org.bimserver.plugins.schema.SchemaDefinition;
 import org.bimserver.shared.PublicInterfaceNotFoundException;
 import org.bimserver.shared.exceptions.ServerException;
 import org.bimserver.shared.exceptions.UserException;
+import org.bimserver.step.StepExchange;
+import org.bimserver.step.StepParseException;
 import org.eclipse.emf.ecore.EClass;
 
 import com.google.common.collect.BiMap;

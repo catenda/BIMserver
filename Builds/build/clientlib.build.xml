@@ -12,6 +12,7 @@
 			<fileset file="builds/lib/bimserver-${version}-shared.jar"/>
 			<fileset file="builds/lib/bimserver-${version}-plugins.jar"/>
 			<fileset file="builds/lib/bimserver-${version}-ifc.jar"/>
+			<fileset file="builds/lib/bimserver-${version}-step.jar"/>
 			<fileset file="builds/pluginlibs/bimserver-${version}-buildingSMARTLibrary.jar"/>
 			<fileset file="builds/pluginlibs/bimserver-${version}-ifcplugins.jar"/>
 		</copy>

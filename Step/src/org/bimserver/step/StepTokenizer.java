@@ -1,4 +1,4 @@
-package org.bimserver.ifc.step.deserializer.buffered;
+package org.bimserver.step;
 
 import java.io.EOFException;
 import java.io.IOException;
@@ -327,7 +327,7 @@ class StepTokenizer {
 					break;
 				}
 			} else if (c == '\\') {
-				if (i  + 3 >= dataBuffer.length()) {
+				if (i + 3 >= dataBuffer.length()) {
 					throw new EOFException();
 				}
 				// Ignore testing for end-of-string in \S control code to

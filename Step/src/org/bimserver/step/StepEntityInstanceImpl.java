@@ -1,10 +1,12 @@
-package org.bimserver.ifc.step.deserializer.buffered;
+package org.bimserver.step;
 
 class StepEntityInstanceImpl implements StepEntityInstance {
 
 	private final ByteBuffer dataBuffer;
 	private final TokenBuffer tokenBuffer;
 	private final int index;
+
+	private static byte[] buffer = new byte[0];
 
 	public StepEntityInstanceImpl(ByteBuffer dataBuffer,
 			TokenBuffer tokenBuffer, int index) {
@@ -77,9 +79,11 @@ class StepEntityInstanceImpl implements StepEntityInstance {
 
 		long offset = StepTokenizer.tokenPosition(token);
 		int length = StepTokenizer.tokenLength(token);
-		byte[] buffer = new byte[length];
+		if (buffer.length < length) {
+			buffer = new byte[length];
+		}
 		dataBuffer.bytesAt(buffer, offset, length);
-		return new String(buffer);
+		return new String(buffer, 0, length);
 	}
 
 	@Override
@@ -90,9 +94,11 @@ class StepEntityInstanceImpl implements StepEntityInstance {
 		}
 		long offset = StepTokenizer.tokenPosition(token);
 		int length = StepTokenizer.tokenLength(token);
-		byte[] buffer = new byte[length];
+		if (buffer.length < length) {
+			buffer = new byte[length];
+		}
 		dataBuffer.bytesAt(buffer, offset, length);
-		return Long.parseLong(new String(buffer));
+		return Long.parseLong(new String(buffer, 0, length));
 	}
 
 }
