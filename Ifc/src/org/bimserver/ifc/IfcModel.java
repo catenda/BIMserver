@@ -39,25 +39,20 @@ import org.bimserver.emf.IfcModelInterfaceException;
 import org.bimserver.emf.ModelMetaData;
 import org.bimserver.emf.OidProvider;
 import org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package;
-import org.bimserver.models.ifc2x3tc1.IfcRoot;
 import org.bimserver.models.ifc4.Ifc4Package;
 import org.bimserver.models.ifc4x3.Ifc4x3Package;
 import org.bimserver.models.ifc4x3rc4.Ifc4x3rc4Package;
 import org.bimserver.models.log.LogPackage;
 import org.bimserver.models.store.StorePackage;
-import org.bimserver.plugins.objectidms.ObjectIDM;
 import org.bimserver.shared.PublicInterfaceNotFoundException;
 import org.bimserver.shared.exceptions.ServerException;
 import org.bimserver.shared.exceptions.UserException;
-import org.eclipse.emf.common.util.ECollections;
-import org.eclipse.emf.common.util.EList;
 import org.eclipse.emf.ecore.EAttribute;
 import org.eclipse.emf.ecore.EClass;
 import org.eclipse.emf.ecore.EClassifier;
 import org.eclipse.emf.ecore.EPackage;
 import org.eclipse.emf.ecore.EReference;
 import org.eclipse.emf.ecore.EStructuralFeature;
-import org.eclipse.emf.ecore.EcorePackage;
 
 import com.google.common.collect.BiMap;
 import com.google.common.collect.HashBiMap;
@@ -65,6 +60,7 @@ import com.google.common.collect.HashBiMap;
 public class IfcModel implements IfcModelInterface {
 
 	private static final BiMap<EClass, Class<?>> eClassClassMap = initEClassClassMap();
+	private static Map<EClass, EClass> eClassIfcRootMap;
 
 	private final ModelMetaData modelMetaData = new ModelMetaData();
 	private final Set<IfcModelChangeListener> changeListeners = new LinkedHashSet<IfcModelChangeListener>();
@@ -75,7 +71,7 @@ public class IfcModel implements IfcModelInterface {
 	// Objects without oid, usually embedded when serialized
 	private final Set<IdEObject> unidentifiedObjects = new HashSet<IdEObject>();
 
-	private Map<String, IfcRoot> guidIndexed;
+	private Map<String, IdEObject> guidIndexed;
 	private Map<EClass, List<? extends IdEObject>> indexPerClass;
 	private Map<EClass, List<? extends IdEObject>> indexPerClassWithSubTypes;
 	private Map<EClass, Map<String, IdEObject>> guidIndex;
@@ -85,15 +81,33 @@ public class IfcModel implements IfcModelInterface {
 
 	private static BiMap<EClass, Class<?>> initEClassClassMap() {
 		BiMap<EClass, Class<?>> eClassClassMap = HashBiMap.create();
+		eClassIfcRootMap = new HashMap<EClass, EClass>();
 		for (EPackage ePackage : new EPackage[] { Ifc2x3tc1Package.eINSTANCE, Ifc4Package.eINSTANCE, Ifc4x3rc4Package.eINSTANCE, Ifc4x3Package.eINSTANCE, StorePackage.eINSTANCE, LogPackage.eINSTANCE }) {
 			for (EClassifier eClassifier : ePackage.getEClassifiers()) {
 				if (eClassifier instanceof EClass) {
 					EClass eClass = (EClass) eClassifier;
 					eClassClassMap.put(eClass, eClass.getInstanceClass());
+					EClass root = getIfcRoot(eClass);
+					if (root != null) {
+						eClassIfcRootMap.put(eClass, root);
+					}
 				}
 			}
 		}
 		return eClassClassMap;
+	}
+
+	private static EClass getIfcRoot(EClass eClass) {
+		if (eClass.getName().equals("IfcRoot")) {
+			return eClass;
+		}
+		for (EClass superClass : eClass.getESuperTypes()) {
+			EClass result = getIfcRoot(superClass);
+			if (result != null) {
+				return result;
+			}
+		}
+		return null;
 	}
 
 	public IfcModel() {
@@ -168,9 +182,13 @@ public class IfcModel implements IfcModelInterface {
 		}
 		for (Long key : objects.keySet()) {
 			IdEObject value = objects.get((Long) key);
-			if (value instanceof IfcRoot) {
-				IfcRoot ifcRoot = (IfcRoot) value;
-				guidIndex.get(value.eClass()).put(ifcRoot.getGlobalId(), value);
+			EClass ifcRootEclass = eClassIfcRootMap.get(value.eClass());
+			if (ifcRootEclass != null) {
+				EStructuralFeature guidFeature = ifcRootEclass.getEStructuralFeature("GlobalId");
+				Object guid = value.eGet(guidFeature);
+				if (guid != null) {
+					guidIndex.get(value.eClass()).put((String) guid, value);
+				}
 			}
 		}
 	}
@@ -185,82 +203,14 @@ public class IfcModel implements IfcModelInterface {
 		}
 		for (Long key : objects.keySet()) {
 			IdEObject value = objects.get((Long) key);
-			if (value instanceof IfcRoot) {
-				IfcRoot ifcRoot = (IfcRoot) value;
-				if (ifcRoot.getName() != null) {
-					nameIndex.get(value.eClass()).put(ifcRoot.getName(), value);
+			EClass ifcRootEclass = eClassIfcRootMap.get(value.eClass());
+			if (ifcRootEclass != null) {
+				EStructuralFeature nameFeature = ifcRootEclass.getEStructuralFeature("Name");
+				Object name = value.eGet(nameFeature);
+				if (name != null) {
+					nameIndex.get(value.eClass()).put((String)name, value);
 				}
 			}
-		}
-	}
-
-	@SuppressWarnings("unchecked")
-	public void sortAllAggregates(ObjectIDM objectIDM, IfcRoot ifcRoot) {
-		for (EStructuralFeature eStructuralFeature : ifcRoot.eClass().getEAllStructuralFeatures()) {
-			if (objectIDM.shouldFollowReference(ifcRoot.eClass(), ifcRoot.eClass(), eStructuralFeature)) {
-				if (eStructuralFeature.getUpperBound() == -1 || eStructuralFeature.getUpperBound() > 1) {
-					if (eStructuralFeature.getEType() instanceof EClass) {
-						if (eStructuralFeature.getEType().getEAnnotation("wrapped") != null) {
-							EList<IdEObject> list = (EList<IdEObject>) ifcRoot.eGet(eStructuralFeature);
-							sortPrimitiveList(list);
-						} else {
-							EList<IdEObject> list = (EList<IdEObject>) ifcRoot.eGet(eStructuralFeature);
-							sortComplexList(objectIDM, ifcRoot.eClass(), list, eStructuralFeature);
-						}
-					}
-				}
-			}
-		}
-	}
-
-	private void sortPrimitiveList(EList<IdEObject> list) {
-		ECollections.sort(list, new Comparator<IdEObject>() {
-			@Override
-			public int compare(IdEObject o1, IdEObject o2) {
-				return comparePrimitives(o1, o2);
-			}
-		});
-	}
-
-	private void sortComplexList(final ObjectIDM objectIDM, final EClass originalQueryClass, EList<IdEObject> list, EStructuralFeature eStructuralFeature) {
-		final EClass type = (EClass) eStructuralFeature.getEType();
-		ECollections.sort(list, new Comparator<IdEObject>() {
-			@Override
-			public int compare(IdEObject o1, IdEObject o2) {
-				int i = 1;
-				for (EStructuralFeature eStructuralFeature : type.getEAllStructuralFeatures()) {
-					if (objectIDM.shouldFollowReference(originalQueryClass, type, eStructuralFeature)) {
-						Object val1 = o1.eGet(eStructuralFeature);
-						Object val2 = o2.eGet(eStructuralFeature);
-						if (val1 != null && val2 != null) {
-							if (eStructuralFeature.getEType() instanceof EClass) {
-								if (eStructuralFeature.getEType().getEAnnotation("wrapped") != null) {
-									int compare = comparePrimitives((IdEObject) val1, (IdEObject) val2);
-									if (compare != 0) {
-										return compare * i;
-									}
-								}
-							}
-						}
-						i++;
-					}
-				}
-				return 0;
-			}
-		});
-	}
-
-	private int comparePrimitives(IdEObject o1, IdEObject o2) {
-		EClass eClass = o1.eClass();
-		EStructuralFeature eStructuralFeature = eClass.getEStructuralFeature("wrappedValue");
-		Object val1 = o1.eGet(eStructuralFeature);
-		Object val2 = o2.eGet(eStructuralFeature);
-		if (eStructuralFeature.getEType() == EcorePackage.eINSTANCE.getEString()) {
-			return ((String) val1).compareTo((String) val2);
-		} else if (eStructuralFeature.getEType() == EcorePackage.eINSTANCE.getEInt()) {
-			return ((Integer) val1).compareTo((Integer) val2);
-		} else {
-			throw new RuntimeException("ni");
 		}
 	}
 
@@ -392,17 +342,19 @@ public class IfcModel implements IfcModelInterface {
 	}
 
 	public void indexGuids() {
-		guidIndexed = new HashMap<String, IfcRoot>();
+		guidIndexed = new HashMap<String, IdEObject>();
 		for (IdEObject idEObject : objects.values()) {
 			indexGuid(idEObject);
 		}
 	}
 
 	private void indexGuid(IdEObject idEObject) {
-		if (idEObject instanceof IfcRoot) {
-			IfcRoot ifcRoot = (IfcRoot) idEObject;
-			if (ifcRoot.getGlobalId() != null) {
-				guidIndexed.put(ifcRoot.getGlobalId(), ifcRoot);
+		EClass ifcRootEclass = eClassIfcRootMap.get(idEObject.eClass());
+		if (ifcRootEclass != null) {
+			EStructuralFeature guidFeature = ifcRootEclass.getEStructuralFeature("GlobalId");
+			Object guid = idEObject.eGet(guidFeature);
+			if (guid != null) {
+				guidIndexed.put((String)guid, idEObject);
 			}
 		}
 	}
@@ -593,7 +545,7 @@ public class IfcModel implements IfcModelInterface {
 		objects.put(object.getOid(), object);
 	}
 	
-	public IfcRoot getByGuid(String guid) {
+	public IdEObject getByGuid(String guid) {
 		if (guidIndexed == null) {
 			indexGuids();
 		}

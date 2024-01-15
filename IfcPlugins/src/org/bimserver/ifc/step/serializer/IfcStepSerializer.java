@@ -32,12 +32,8 @@ import org.apache.geronimo.mail.util.Hex;
 import org.bimserver.emf.IdEObject;
 import org.bimserver.ifc.IfcSerializer;
 import org.bimserver.interfaces.objects.SIfcHeader;
-import org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package;
-import org.bimserver.models.ifc2x3tc1.Tristate;
 import org.bimserver.plugins.PluginConfiguration;
-import org.bimserver.plugins.PluginException;
 import org.bimserver.plugins.schema.EntityDefinition;
-import org.bimserver.plugins.schema.SchemaDefinition;
 import org.bimserver.plugins.serializers.SerializerException;
 import org.bimserver.utils.StringUtils;
 import org.bimserver.utils.UTF8PrintWriter;
@@ -81,7 +77,6 @@ public class IfcStepSerializer extends IfcSerializer {
 	
 	private Iterator<IdEObject> iterator;
 	private UTF8PrintWriter out;
-	private SchemaDefinition schema;
 
 	public IfcStepSerializer(PluginConfiguration pluginConfiguration) {
 	}
@@ -98,11 +93,6 @@ public class IfcStepSerializer extends IfcSerializer {
 		}
 		if (getMode() == Mode.HEADER) {
 			writeHeader(out);
-			try {
-				schema = getPluginManager().requireSchemaDefinition();
-			} catch (PluginException e) {
-					throw new SerializerException(e);
-			}
 			setMode(Mode.BODY);
 			iterator = model.iterator();
 			out.flush();
@@ -141,16 +131,13 @@ public class IfcStepSerializer extends IfcSerializer {
 			Date date = new Date();
 			out.println("FILE_DESCRIPTION ((''), '2;1');");
 			out.println("FILE_NAME ('', '" + dateFormatter.format(date) + "', (''), (''), '', 'BIMserver', '');");
-			out.println("FILE_SCHEMA (('IFC2X3'));");
+			out.println("FILE_SCHEMA (('" + schema.getName().toUpperCase() + "'));");
 		} else {
 			String implementationLevel = ifcHeader.getImplementationLevel() != null ? ifcHeader.getImplementationLevel() : "2;1";
 			out.print("FILE_DESCRIPTION ((");out.print(StringUtils.concat(encodeStringList(ifcHeader.getDescription()), "'", ", "));
 			out.println("), '" + encodeString(implementationLevel) + "');");
 			out.println("FILE_NAME ('" + encodeString(ifcHeader.getFilename()) + "', '" + dateFormatter.format(ifcHeader.getTimeStamp()) + "', (" + StringUtils.concat(encodeStringList(ifcHeader.getAuthor()), "'", ", ") + "), (" + StringUtils.concat(encodeStringList(ifcHeader.getOrganization()), "'", ", ") + "), '" + encodeString(ifcHeader.getPreProcessorVersion()) + "', '" + encodeString(ifcHeader.getOriginatingSystem()) + "', '"	+ encodeString(ifcHeader.getAuthorization()) + "');");
-
-			// TODO For now forcing IFC2x3, maybe make this a setting?
-			//	out.println("FILE_SCHEMA (('" + ifcHeader.getIfcSchemaVersion() + "'));");
-			out.println("FILE_SCHEMA (('IFC2X3'));");
+			out.println("FILE_SCHEMA (('" + schema.getName().toUpperCase() + "'));");
 		}
 		out.println("ENDSEC;");
 		out.println("DATA;");
@@ -159,13 +146,12 @@ public class IfcStepSerializer extends IfcSerializer {
 	}
 
 	private void writePrimitive(PrintWriter out, Object val) throws SerializerException {
-		if (val instanceof Tristate) {
-			Tristate bool = (Tristate) val;
-			if (bool == Tristate.TRUE) {
+		if (val.getClass().getSimpleName().equals("Tristate")) {
+			if (val.toString().equals("TRUE")) {
 				out.print(BOOLEAN_TRUE);
-			} else if (bool == Tristate.FALSE) {
+			} else if (val.toString().equals("FALSE")) {
 				out.print(BOOLEAN_FALSE);
-			} else if (bool == Tristate.UNDEFINED) {
+			} else if (val.toString().equals("UNDEFINED")) {
 				out.print(BOOLEAN_UNDEFINED);
 			}
 		} else if (val instanceof Double) {
@@ -497,7 +483,7 @@ public class IfcStepSerializer extends IfcSerializer {
 		} else {
 			if (get == null) {
 				EClassifier type = structuralFeature.getEType();
-				if (type == IFC_PACKAGE_INSTANCE.getIfcBoolean() || type == IFC_PACKAGE_INSTANCE.getIfcLogical() || type == ECORE_PACKAGE_INSTANCE.getEBoolean()) {
+				if (type.getName().equals("IfcBoolean") || type.getName().equals("IfcLogical") || type == ECORE_PACKAGE_INSTANCE.getEBoolean()) {
 					out.print(BOOLEAN_UNDEFINED);
 				} else {
 					EntityDefinition entityBN = schema.getEntityBN(object.eClass().getName());
@@ -513,7 +499,7 @@ public class IfcStepSerializer extends IfcSerializer {
 
 	private void writeEnum(PrintWriter out, EObject object, EStructuralFeature feature) throws SerializerException {
 		Object val = object.eGet(feature);
-		if (feature.getEType() == Ifc2x3tc1Package.eINSTANCE.getTristate()) {
+		if (feature.getEType().getName().equals("Tristate")) {
 			writePrimitive(out, val);
 		} else {
 			if (val == null) {

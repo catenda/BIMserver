@@ -29,7 +29,6 @@ import org.apache.commons.lang.StringEscapeUtils;
 import org.bimserver.emf.IfcModelInterface;
 import org.bimserver.ifc.IfcSerializer;
 import org.bimserver.models.ifc2x3tc1.Tristate;
-import org.bimserver.plugins.PluginException;
 import org.bimserver.plugins.PluginManager;
 import org.bimserver.plugins.renderengine.RenderEnginePlugin;
 import org.bimserver.plugins.schema.Attribute;
@@ -70,11 +69,6 @@ public class IfcXmlSerializer extends IfcSerializer {
 		objectToOidMap = new HashMap<EObject, Long>((int) model.size());
 		for (Long key : model.keySet()) {
 			objectToOidMap.put(model.get(key), key);
-		}
-		try {
-			schema = getPluginManager().requireSchemaDefinition();
-		} catch (PluginException e) {
-			throw new SerializerException(e);
 		}
 	}
 
