@@ -61,7 +61,7 @@ public class IfcStepSerializerPlugin extends AbstractSerializerPlugin {
 
 	@Override
 	public String getDefaultName() {
-		return "Ifc2x3";
+		return "IfcStepSerializer";
 	}
 
 	@Override

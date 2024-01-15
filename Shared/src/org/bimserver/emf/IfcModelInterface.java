@@ -21,7 +21,6 @@ import java.util.Collection;
 import java.util.List;
 import java.util.Set;
 
-import org.bimserver.models.ifc2x3tc1.IfcRoot;
 import org.bimserver.shared.PublicInterfaceNotFoundException;
 import org.bimserver.shared.exceptions.ServerException;
 import org.bimserver.shared.exceptions.UserException;
@@ -41,7 +40,7 @@ public interface IfcModelInterface extends Iterable<IdEObject> {
 	 * @param guid
 	 * @return An object of a subclass of IfcRoot, or null if the object does not exist in this model
 	 */
-	IfcRoot getByGuid(String guid);
+	IdEObject getByGuid(String guid);
 
 	/**
 	 * Retrieve an object by its name

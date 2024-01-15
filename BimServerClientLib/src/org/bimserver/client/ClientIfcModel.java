@@ -43,7 +43,6 @@ import org.bimserver.interfaces.objects.SSerializerPluginConfiguration;
 import org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Factory;
 import org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package;
 import org.bimserver.models.ifc2x3tc1.IfcProduct;
-import org.bimserver.models.ifc2x3tc1.IfcRoot;
 import org.bimserver.plugins.deserializers.DeserializeException;
 import org.bimserver.plugins.serializers.SerializerException;
 import org.bimserver.plugins.serializers.SerializerInputstream;
@@ -600,8 +599,8 @@ public class ClientIfcModel extends IfcModel {
 	}
 
 	@Override
-	public IfcRoot getByGuid(String guid) {
-		IfcRoot idEObject = super.getByGuid(guid);
+	public IdEObject getByGuid(String guid) {
+	    IdEObject idEObject = super.getByGuid(guid);
 		if (idEObject == null) {
 			try {
 				modelState = ModelState.LOADING;
