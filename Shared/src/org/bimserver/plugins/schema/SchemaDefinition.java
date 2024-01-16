@@ -175,6 +175,8 @@ public class SchemaDefinition implements Schema {
 			return new BinaryType();
 		if (bt == null && name.equalsIgnoreCase("string"))
 			return new StringType();
+		if (bt == null && name.equalsIgnoreCase("boolean"))
+			return new BooleanType();
 		if (bt == null && name.equalsIgnoreCase("logical"))
 			return new LogicalType();
 
