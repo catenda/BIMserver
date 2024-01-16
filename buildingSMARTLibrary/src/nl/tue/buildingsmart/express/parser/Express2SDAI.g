@@ -36,6 +36,7 @@ options {
 	static boolean unlimited_bound=false;
 	// stores the last INTEGER_LITERAL that was parsed. Is used in bounds
 	String nextInt;
+	boolean nextIntNegative;
 	private static final Logger LOGGER = LoggerFactory.getLogger(Express2DictWalker.class);
 	
 	public SchemaDefinition getSchema(){
@@ -495,7 +496,7 @@ explicit_attr [String forClass]
 		    			IntegerBound ub = new IntegerBound (new Integer(ubs));
 		    			if (aggr instanceof VariableSizeAggregationType){
 		    				
-		    				((VariableSizeAggregationType)aggr).setUpper_bound(ub);
+		    				((VariableSizeAggregationType)aggr).setUpper_bound(lb);
 		    				((VariableSizeAggregationType)aggr).setLower_bound(ub);
 		    			}
 		    			else if (aggr instanceof ArrayType){
