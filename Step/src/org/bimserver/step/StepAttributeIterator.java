@@ -17,15 +17,15 @@ public class StepAttributeIterator implements Iterator<StepAttribute> {
 
 	@Override
 	public boolean hasNext() {
-		int tokenType = StepTokenizer.tokenType(tokenBuffer.tokenAt(index));
+		int tokenType = tokenBuffer.tokenAt(index).getType();
 		return tokenType != StepTokenizer.TOKEN_RPAREN;
 	}
 
 	@Override
 	public StepAttribute next() {
-		long token = tokenBuffer.tokenAt(index);
+		StepToken token = tokenBuffer.tokenAt(index);
 		StepAttribute attribute = null;
-		switch (StepTokenizer.tokenType(token)) {
+		switch (token.getType()) {
 		case StepTokenizer.TOKEN_INTEGER:
 		case StepTokenizer.TOKEN_REAL:
 		case StepTokenizer.TOKEN_STRING:
@@ -37,7 +37,7 @@ public class StepAttributeIterator implements Iterator<StepAttribute> {
 			break;
 		case StepTokenizer.TOKEN_IDENTIFIER:
 			attribute = new StepAttributeImpl(dataBuffer, tokenBuffer, index);
-			if (StepTokenizer.tokenType(tokenBuffer.tokenAt(index + 1)) == StepTokenizer.TOKEN_LPAREN) {
+			if (tokenBuffer.tokenAt(index + 1).getType() == StepTokenizer.TOKEN_LPAREN) {
 				int listLength = new StepAttributeListImpl(dataBuffer,
 						tokenBuffer, index + 1).tokenLength();
 				index += listLength;

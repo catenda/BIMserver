@@ -6,10 +6,6 @@ import java.util.ArrayDeque;
 import java.util.Deque;
 
 class StepTokenizer {
-	public static final byte POSITION_BITS = 32;
-	public static final byte LENGTH_BITS = 27;
-	public static final byte TYPE_BITS = 5;
-
 	public static final byte TOKEN_BEGIN_EXCHANGE = 0;
 	public static final byte TOKEN_END_EXCHANGE = 1;
 	public static final byte TOKEN_HEADER = 2;
@@ -40,7 +36,7 @@ class StepTokenizer {
 	private TokenBuffer tokenBuffer;
 
 	private long dataPosition;
-	private long token;
+	private StepToken token;
 
 	private static class ListElement {
 		public int index;
@@ -454,59 +450,44 @@ class StepTokenizer {
 				break;
 			}
 		}
-		tokenBuffer.append((token = token(TOKEN_ENUM, dataPosition + 1, i - dataPosition
-				- 1)));
+		tokenBuffer.append((token = token(TOKEN_ENUM, dataPosition + 1, i - dataPosition - 1)));
 	}
 
-	private long token(byte type, long length) {
+	private StepToken token(byte type, long length) {
 		return token(type, dataPosition, length);
 	}
 
-	static long token(byte type, long position, long length) {
-		return (position << POSITION_BITS) | (length << TYPE_BITS)
-				| (type & ((1 << TYPE_BITS) - 1));
+	private StepToken token(byte type, long position, long length) {
+		return new StepToken(type, position, (int) length);
 	}
-
 	public byte tokenType() {
-		return tokenType(token);
-	}
-
-	public static byte tokenType(long token) {
-		return (byte) (token & ((1 << TYPE_BITS) - 1));
+		return token.getType();
 	}
 
 	public long tokenPosition() {
-		return tokenPosition(token);
-	}
-
-	public static long tokenPosition(long token) {
-		return (token >> POSITION_BITS) & ((1L << POSITION_BITS) - 1L);
+		return token.getPosition();
 	}
 
 	public int tokenLength() {
-		return tokenLength(token);
-	}
-
-	public static int tokenLength(long token) {
-		return (int) ((token >> TYPE_BITS) & ((1 << LENGTH_BITS) - 1));
+		return token.getLength();
 	}
 
 	public void tokenValue(byte[] buffer) {
-		dataBuffer.bytesAt(buffer, tokenPosition(), tokenLength());
+		dataBuffer.bytesAt(buffer, token.getPosition(), token.getLength());
 	}
 
 	public boolean nextToken() {
 		if (tokenBuffer.length() > 0) {
-			switch (tokenType()) {
+			switch (token.getType()) {
 			case TOKEN_INSTANCE_NAME:
-				dataPosition += tokenLength() + 1;
+				dataPosition += token.getLength() + 1;
 				break;
 			case TOKEN_ENUM:
 			case TOKEN_STRING:
-				dataPosition += tokenLength() + 2;
+				dataPosition += token.getLength() + 2;
 				break;
 			default:
-				dataPosition += tokenLength();
+				dataPosition += token.getLength();
 				break;
 			}
 		}

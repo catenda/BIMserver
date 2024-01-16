@@ -5,7 +5,7 @@ public class StepAttributeImpl implements StepAttribute {
 	private final ByteBuffer dataBuffer;
 	private final TokenBuffer tokenBuffer;
 	private final int index;
-	private long token;
+	private StepToken token;
 
 	private static byte[] buffer = new byte[0];
 
@@ -23,9 +23,9 @@ public class StepAttributeImpl implements StepAttribute {
 
 	@Override
 	public Object getValue() {
-		long offset = StepTokenizer.tokenPosition(token);
-		int length = StepTokenizer.tokenLength(token);
-		switch (StepTokenizer.tokenType(token)) {
+		long offset = token.getPosition();
+		int length = token.getLength();
+		switch (token.getType()) {
 		case StepTokenizer.TOKEN_INTEGER:
 		{
 			if (buffer.length < length) {
@@ -82,7 +82,7 @@ public class StepAttributeImpl implements StepAttribute {
 			return StepStringDecoder.decode(buffer, 0, length);
 		}
 		case StepTokenizer.TOKEN_IDENTIFIER:
-			if (StepTokenizer.tokenType(tokenBuffer.tokenAt(index + 1)) == StepTokenizer.TOKEN_LPAREN) {
+			if (tokenBuffer.tokenAt(index + 1).getType() == StepTokenizer.TOKEN_LPAREN) {
 				return new StepEntityInstanceImpl(dataBuffer, tokenBuffer, index);
 			} else {
 				throw new RuntimeException("Missing attribute list for inline instance");
@@ -96,8 +96,8 @@ public class StepAttributeImpl implements StepAttribute {
 	}
 
 	public String getTokenValue() {
-		long offset = StepTokenizer.tokenPosition(token);
-		int length = StepTokenizer.tokenLength(token);
+		long offset = token.getPosition();
+		int length = token.getLength();
 		if (buffer.length < length) {
 			buffer = new byte[length];
 		}
@@ -107,17 +107,17 @@ public class StepAttributeImpl implements StepAttribute {
 
 	@Override
 	public boolean isUnset() {
-		return StepTokenizer.tokenType(token) == StepTokenizer.TOKEN_UNSET;
+		return token.getType() == StepTokenizer.TOKEN_UNSET;
 	}
 
 	public void markAsUnset() {
-		token = StepTokenizer.token(StepTokenizer.tokenType(StepTokenizer.TOKEN_UNSET), StepTokenizer.tokenPosition(token), StepTokenizer.tokenLength(token));
+		token = new StepToken(StepTokenizer.TOKEN_UNSET, token.getPosition(), token.getLength());
 		tokenBuffer.set(index, token);
 	}
 
 	@Override
 	public boolean isRedeclared() {
-		return StepTokenizer.tokenType(token) == StepTokenizer.TOKEN_REDECLARED;
+		return token.getType() == StepTokenizer.TOKEN_REDECLARED;
 	}
 
 	@Override
@@ -127,18 +127,18 @@ public class StepAttributeImpl implements StepAttribute {
 
 	@Override
 	public boolean isInstanceName() {
-		return StepTokenizer.tokenType(token) == StepTokenizer.TOKEN_INSTANCE_NAME;
+		return token.getType() == StepTokenizer.TOKEN_INSTANCE_NAME;
 	}
 
 	@Override
 	public boolean isEnum() {
-		return StepTokenizer.tokenType(token) == StepTokenizer.TOKEN_ENUM;
+		return token.getType() == StepTokenizer.TOKEN_ENUM;
 	}
 
 	@Override
 	public boolean isInline() {
-		return StepTokenizer.tokenType(token) == StepTokenizer.TOKEN_IDENTIFIER &&
-			StepTokenizer.tokenType(tokenBuffer.tokenAt(index + 1)) == StepTokenizer.TOKEN_LPAREN;
+		return token.getType() == StepTokenizer.TOKEN_IDENTIFIER &&
+			tokenBuffer.tokenAt(index + 1).getType() == StepTokenizer.TOKEN_LPAREN;
 	}
 
 }
