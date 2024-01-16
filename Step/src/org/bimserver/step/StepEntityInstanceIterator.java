@@ -17,7 +17,7 @@ public class StepEntityInstanceIterator implements Iterator<StepEntityInstance> 
 
 	@Override
 	public boolean hasNext() {
-		return StepTokenizer.tokenType(tokenBuffer.tokenAt(index)) != StepTokenizer.TOKEN_ENDSEC;
+		return tokenBuffer.tokenAt(index).getType() != StepTokenizer.TOKEN_ENDSEC;
 	}
 
 	@Override

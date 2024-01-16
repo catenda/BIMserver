@@ -23,15 +23,15 @@ class StepEntityInstanceImpl implements StepEntityInstance {
 	@Override
 	public StepAttributeIterator getAttributeIterator() {
 		int i = index;
-		long token = tokenBuffer.tokenAt(i++);
-		if (StepTokenizer.tokenType(token) == StepTokenizer.TOKEN_INSTANCE_NAME) {
+		StepToken token = tokenBuffer.tokenAt(i++);
+		if (token.getType() == StepTokenizer.TOKEN_INSTANCE_NAME) {
 			token = tokenBuffer.tokenAt(i++);
-			if (StepTokenizer.tokenType(token) != StepTokenizer.TOKEN_EQUAL) {
+			if (token.getType() != StepTokenizer.TOKEN_EQUAL) {
 				throw new RuntimeException();
 			}
 			token = tokenBuffer.tokenAt(i++);
 		}
-		if (StepTokenizer.tokenType(token) != StepTokenizer.TOKEN_IDENTIFIER) {
+		if (token.getType() != StepTokenizer.TOKEN_IDENTIFIER) {
 			throw new RuntimeException();
 		}
 		return new StepAttributeIterator(dataBuffer, tokenBuffer, i);
@@ -40,17 +40,17 @@ class StepEntityInstanceImpl implements StepEntityInstance {
 	public int tokenLength() {
 		int length = 0;
 		int i = index;
-		long token = tokenBuffer.tokenAt(i++);
-		if (StepTokenizer.tokenType(token) == StepTokenizer.TOKEN_INSTANCE_NAME) {
+		StepToken token = tokenBuffer.tokenAt(i++);
+		if (token.getType() == StepTokenizer.TOKEN_INSTANCE_NAME) {
 			length++;
 			token = tokenBuffer.tokenAt(i++);
-			if (StepTokenizer.tokenType(token) != StepTokenizer.TOKEN_EQUAL) {
+			if (token.getType() != StepTokenizer.TOKEN_EQUAL) {
 				throw new RuntimeException();
 			}
 			length++;
 			token = tokenBuffer.tokenAt(i++);
 		}
-		if (StepTokenizer.tokenType(token) != StepTokenizer.TOKEN_IDENTIFIER) {
+		if (token.getType() != StepTokenizer.TOKEN_IDENTIFIER) {
 			throw new RuntimeException();
 		}
 		length++;
@@ -65,20 +65,20 @@ class StepEntityInstanceImpl implements StepEntityInstance {
 	@Override
 	public String getIdentifier() {
 		int i = index;
-		long token = tokenBuffer.tokenAt(i++);
-		if (StepTokenizer.tokenType(token) == StepTokenizer.TOKEN_INSTANCE_NAME) {
+		StepToken token = tokenBuffer.tokenAt(i++);
+		if (token.getType() == StepTokenizer.TOKEN_INSTANCE_NAME) {
 			token = tokenBuffer.tokenAt(i++);
-			if (StepTokenizer.tokenType(token) != StepTokenizer.TOKEN_EQUAL) {
+			if (token.getType() != StepTokenizer.TOKEN_EQUAL) {
 				throw new RuntimeException();
 			}
 			token = tokenBuffer.tokenAt(i++);
 		}
-		if (StepTokenizer.tokenType(token) != StepTokenizer.TOKEN_IDENTIFIER) {
+		if (token.getType() != StepTokenizer.TOKEN_IDENTIFIER) {
 			throw new RuntimeException();
 		}
 
-		long offset = StepTokenizer.tokenPosition(token);
-		int length = StepTokenizer.tokenLength(token);
+		long offset = token.getPosition();
+		int length = token.getLength();
 		if (buffer.length < length) {
 			buffer = new byte[length];
 		}
@@ -88,12 +88,12 @@ class StepEntityInstanceImpl implements StepEntityInstance {
 
 	@Override
 	public long getInstanceName() {
-		long token = tokenBuffer.tokenAt(index);
-		if (StepTokenizer.tokenType(token) != StepTokenizer.TOKEN_INSTANCE_NAME) {
+		StepToken token = tokenBuffer.tokenAt(index);
+		if (token.getType() != StepTokenizer.TOKEN_INSTANCE_NAME) {
 			return -1;
 		}
-		long offset = StepTokenizer.tokenPosition(token);
-		int length = StepTokenizer.tokenLength(token);
+		long offset = token.getPosition();
+		int length = token.getLength();
 		if (buffer.length < length) {
 			buffer = new byte[length];
 		}
