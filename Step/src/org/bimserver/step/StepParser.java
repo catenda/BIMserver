@@ -1,175 +1,285 @@
 package org.bimserver.step;
 
-import java.io.EOFException;
 import java.io.IOException;
 import java.io.InputStream;
+import java.util.Optional;
 
 public class StepParser {
-	public static final byte POSITION_BITS = 32;
-	public static final byte DATA_BITS = 27;
-	public static final byte TYPE_BITS = 5;
+	private final InputStream in;
+	private final ByteBuffer dataBuffer = new ByteBuffer();
+	private final TokenBuffer tokenBuffer = new TokenBuffer();
+	private final StepTokenizer tokenizer = new StepTokenizer(dataBuffer);
 
-	public static final byte ELEMENT_ENTITY_INSTANCE = 0;
-	public static final byte ELEMENT_INSTANCE_NAME = 1;
-	public static final byte ELEMENT_LIST = 2;
-	public static final byte ELEMENT_STRING = 3;
-	public static final byte ELEMENT_INTEGER = 4;
-	public static final byte ELEMENT_REAL = 5;
-	public static final byte ELEMENT_ENUM = 6;
-
-	private InputStream in;
+	private StepToken token;
+	private byte tokenType;
 
 	public StepParser(InputStream in) {
 		this.in = in;
 	}
 
-	public StepExchange parse() throws IOException {
-		ByteBuffer dataBuffer = new ByteBuffer();
-		TokenBuffer tokenBuffer = new TokenBuffer();
-		read(in, dataBuffer);
-		StepTokenizer tokenizer = new StepTokenizer(dataBuffer, tokenBuffer);
-		expectNextTokenType(tokenizer, StepTokenizer.TOKEN_BEGIN_EXCHANGE,
-				"Expected 'ISO-10303-21'");
-		expectNextTokenType(tokenizer, StepTokenizer.TOKEN_SEMICOLON,
-				"Expected ';'");
-		int headerIndex = parseHeader(tokenizer);
-		int dataIndex = parseData(tokenizer);
-		expectNextTokenType(tokenizer, StepTokenizer.TOKEN_END_EXCHANGE,
-				"Expected 'END-ISO-10303-21'");
-		expectNextTokenType(tokenizer, StepTokenizer.TOKEN_SEMICOLON,
-				"Expected ';'");
+	private void insertLocationToken() {
+		StepToken token = tokenBuffer.tokenAt(tokenBuffer.length() - 1);
+		tokenBuffer.set(tokenBuffer.length() - 1, TokenBuffer.location(StepToken.TOKEN_LOC, tokenizer.getLine()));
+		tokenBuffer.append(token);
+	}
+
+	private void next() throws IOException, StepParseException {
+		token = tokenizer.parseToken();
+		tokenType = token.getType();
+
+		if (tokenType != StepToken.TOKEN_EOF &&
+				tokenType != StepToken.TOKEN_COMMA &&
+				tokenType != StepToken.TOKEN_SEMICOLON) {
+			tokenBuffer.append(token);
+		}
+	}
+
+
+
+	private boolean match(byte type) {
+		return tokenType == type;
+	}
+
+	private void fail(StepParseException cause) throws StepParseException, IOException {
+		throw cause;
+	}
+
+	private void fail(String message) throws StepParseException, IOException {
+		throw new StepParseException(message);
+	}
+
+	private void failIfFalse(boolean condition, String message) throws StepParseException, IOException {
+		if (!condition) {
+			fail(message);
+		}
+	}
+
+	private String unexpectedTokenMessage(String message) {
+		Optional<String> tokenValue = tokenValue(token);
+		if (tokenValue.isPresent()) {
+			return "Unexpected token '" + tokenValue.get() + "'. " + message;
+		} else {
+			return "Unexpected token. " + message;
+		}
+	}
+
+	private Optional<String> tokenValue(StepToken token) {
+		byte[] buffer = new byte[token.getLength()];
+		if (buffer.length > 0) {
+			dataBuffer.bytesAt(buffer, token.getPosition(), token.getLength());
+			return Optional.of(new String(buffer));
+		}
+		return Optional.empty();
+	}
+
+	public StepExchange parse() throws IOException, StepParseException {
+		dataBuffer.append(in);
+		next();
+		failIfFalse(
+				match(StepToken.TOKEN_BEGIN_EXCHANGE),
+				unexpectedTokenMessage("Expected 'ISO-10303-21'"));
+
+		next();
+		failIfFalse(
+				match(StepToken.TOKEN_SEMICOLON),
+				unexpectedTokenMessage("Expected ';'"));
+
+		int headerIndex = parseHeader();
+		int dataIndex = parseData();
+
+		next();
+		failIfFalse(
+				match(StepToken.TOKEN_END_EXCHANGE),
+				unexpectedTokenMessage("Expected 'END-ISO-10303-21'"));
+
+		next();
+		failIfFalse(
+				match(StepToken.TOKEN_SEMICOLON),
+				unexpectedTokenMessage("Expected ';'"));
 		return new StepExchangeImpl(dataBuffer, tokenBuffer, headerIndex,
 				dataIndex);
 	}
 
-	private static void expectNextTokenType(StepTokenizer tokenizer,
-			byte tokenType, String missingMessage) throws IOException {
-		if (tokenizer.nextToken()) {
-			tokenizer.parseToken();
-			expectTokenType(tokenizer, tokenType, missingMessage);
-		} else {
-			throw new EOFException();
-		}
-	}
+	private int parseHeader() throws IOException, StepParseException {
+		next();
+		failIfFalse(
+				match(StepToken.TOKEN_HEADER),
+				unexpectedTokenMessage("Expected 'HEADER'"));
 
-	private static void expectTokenType(StepTokenizer tokenizer,
-			byte tokenType, String missingMessage) throws StepParseException {
-		if (tokenizer.tokenType() != tokenType) {
-			byte[] buffer = new byte[tokenizer.tokenLength()];
-			tokenizer.tokenValue(buffer);
-			throw new StepParseException("Unexpected token '"
-					+ new String(buffer) + "'. " + missingMessage);
-		}
-	}
+		next();
+		failIfFalse(
+				match(StepToken.TOKEN_SEMICOLON),
+				unexpectedTokenMessage("Expected ';'"));
 
-	private static void expectTokenType(StepTokenizer tokenizer, byte tokenType)
-			throws StepParseException {
-		if (tokenizer.tokenType() != tokenType) {
-			byte[] buffer = new byte[tokenizer.tokenLength()];
-			tokenizer.tokenValue(buffer);
-			throw new StepParseException("Unexpected token '"
-					+ new String(buffer) + "'");
-		}
-	}
+		int index = tokenBuffer.length();
 
-	private static int parseHeader(StepTokenizer tokenizer) throws IOException {
-		expectNextTokenType(tokenizer, StepTokenizer.TOKEN_HEADER,
-				"Expected 'HEADER'");
-		expectNextTokenType(tokenizer, StepTokenizer.TOKEN_SEMICOLON,
-				"Expected ';'");
-		int index = tokenizer.getTokenBuffer().length();
-		while (tokenizer.nextToken()) {
-			tokenizer.parseToken();
-			switch (tokenizer.tokenType()) {
-			case StepTokenizer.TOKEN_ENDSEC:
-				expectNextTokenType(tokenizer, StepTokenizer.TOKEN_SEMICOLON,
-						"Expected ';'");
-				return index;
-			default:
-				parseEntityInstance(tokenizer);
-				break;
-			}
-		}
-		return -1;
-	}
-
-	private static void parseEntityInstance(StepTokenizer tokenizer)
-			throws IOException {
-		expectTokenType(tokenizer, StepTokenizer.TOKEN_IDENTIFIER);
-		expectNextTokenType(tokenizer, StepTokenizer.TOKEN_LPAREN,
-				"Expected '('");
-		parseList(tokenizer);
-		expectNextTokenType(tokenizer, StepTokenizer.TOKEN_SEMICOLON,
-				"Expected ';'");
-	}
-
-	private static void parseList(StepTokenizer tokenizer) throws IOException {
-		while (tokenizer.nextToken()) {
-			tokenizer.parseToken();
-			switch (tokenizer.tokenType()) {
-			case StepTokenizer.TOKEN_RPAREN:
-				return;
-			case StepTokenizer.TOKEN_COMMA:
-				break;
-			default:
-				parseAttribute(tokenizer);
-				break;
+		while (true) {
+			next();
+			switch (tokenType) {
+				case StepToken.TOKEN_EOF: {
+					fail("Unexpected end of file");
+				}
+				case StepToken.TOKEN_ENDSEC:
+					next();
+					failIfFalse(
+							match(StepToken.TOKEN_SEMICOLON),
+							unexpectedTokenMessage("Expected ';'"));
+					return index;
+				default:
+					parseEntityInstance();
+					break;
 			}
 		}
 	}
 
-	private static void parseAttribute(StepTokenizer tokenizer)
-			throws IOException {
-		switch (tokenizer.tokenType()) {
-		case StepTokenizer.TOKEN_LPAREN:
-			parseList(tokenizer);
-			break;
-		default:
-			break;
-		}
-	}
+	private int parseData() throws IOException, StepParseException {
+		next();
+		failIfFalse(
+				match(StepToken.TOKEN_DATA),
+				unexpectedTokenMessage("Expected 'DATA'"));
+		next();
+		failIfFalse(
+				match(StepToken.TOKEN_SEMICOLON),
+				unexpectedTokenMessage("Expected ';'"));
 
-	private static int parseData(StepTokenizer tokenizer) throws IOException {
-		expectNextTokenType(tokenizer, StepTokenizer.TOKEN_DATA,
-				"Expected 'DATA'");
-		expectNextTokenType(tokenizer, StepTokenizer.TOKEN_SEMICOLON,
-				"Expected ';'");
-		int index = tokenizer.getTokenBuffer().length();
-		while (tokenizer.nextToken()) {
-			tokenizer.parseToken();
-			switch (tokenizer.tokenType()) {
-			case StepTokenizer.TOKEN_ENDSEC:
-				expectNextTokenType(tokenizer, StepTokenizer.TOKEN_SEMICOLON,
-						"Expected ';'");
-				return index;
-			default:
-				parseNamedEntityInstance(tokenizer);
-				break;
+
+		int index = tokenBuffer.length();
+
+		while (true) {
+			next();
+			switch (tokenType) {
+				case StepToken.TOKEN_EOF: {
+					fail("Unexpected end of file");
+				}
+				case StepToken.TOKEN_ENDSEC:
+					next();
+					failIfFalse(
+							match(StepToken.TOKEN_SEMICOLON),
+							unexpectedTokenMessage("Expected ';'"));
+					return index;
+				default:
+					parseNamedEntityInstance();
+					break;
 			}
 		}
-		return -1;
 	}
 
-	private static void parseNamedEntityInstance(StepTokenizer tokenizer)
-			throws IOException {
-		expectTokenType(tokenizer, StepTokenizer.TOKEN_INSTANCE_NAME);
-		expectNextTokenType(tokenizer, StepTokenizer.TOKEN_EQUAL,
+	private void parseEntityInstance()
+			throws IOException, StepParseException {
+		insertLocationToken();
+
+		failIfFalse(
+				match(StepToken.TOKEN_IDENTIFIER),
+				"Expected entity type");
+
+		next();
+		failIfFalse(
+				match(StepToken.TOKEN_LPAREN),
+				unexpectedTokenMessage("Expected '('"));
+
+		parseParameterList();
+
+		next();
+		failIfFalse(
+				match(StepToken.TOKEN_SEMICOLON),
+				unexpectedTokenMessage("Expected ';'"));
+	}
+
+	private void parseNamedEntityInstance()
+			throws IOException, StepParseException {
+		insertLocationToken();
+
+		failIfFalse(
+				match(StepToken.TOKEN_INSTANCE_NAME),
+				"Expected instance name");
+
+		next();
+		failIfFalse(
+				match(StepToken.TOKEN_EQUAL),
 				"Expected '='");
-		expectNextTokenType(tokenizer, StepTokenizer.TOKEN_IDENTIFIER,
-				"Expected identifier");
-		expectNextTokenType(tokenizer, StepTokenizer.TOKEN_LPAREN,
-				"Expected '('");
-		parseList(tokenizer);
-		expectNextTokenType(tokenizer, StepTokenizer.TOKEN_SEMICOLON,
-				"Expected ';'");
+
+		next();
+		failIfFalse(
+				match(StepToken.TOKEN_IDENTIFIER),
+				"Expected entity type");
+
+		next();
+		failIfFalse(
+				match(StepToken.TOKEN_LPAREN),
+				unexpectedTokenMessage("Expected '('"));
+
+		parseParameterList();
+
+		next();
+		failIfFalse(
+				match(StepToken.TOKEN_SEMICOLON),
+				unexpectedTokenMessage("Expected ';'"));
 	}
 
-	private static void read(InputStream in, ByteBuffer dataBuffer)
-			throws IOException {
-		byte[] buffer = new byte[4096];
+	private void parseParameterList() throws IOException, StepParseException {
+		int index = this.tokenBuffer.length() - 1;
 		int length = 0;
-		while ((length = in.read(buffer, 0, buffer.length)) > 0) {
-			dataBuffer.append(buffer, 0, length);
+
+		next();
+
+		if (match(StepToken.TOKEN_RPAREN)) {
+			return;
+		}
+
+		parseParameter();
+		length = 1;
+		next();
+
+		while (match(StepToken.TOKEN_COMMA)) {
+			next();
+
+			if (match(StepToken.TOKEN_RPAREN)) {
+				break;
+			}
+
+			parseParameter();
+			length++;
+			next();
+
+			if (match(StepToken.TOKEN_RPAREN)) {
+				break;
+			}
+		}
+
+		tokenBuffer.set(index, new StepToken(StepToken.TOKEN_LPAREN, tokenBuffer.tokenAt(index).getPosition(), length << 1));
+
+		failIfFalse(
+				match(StepToken.TOKEN_RPAREN),
+				unexpectedTokenMessage("Expected ')'"));
+	}
+
+	private void parseParameter()
+			throws IOException, StepParseException {
+		switch (tokenType) {
+			case StepToken.TOKEN_LPAREN:
+				parseParameterList();
+				break;
+			case StepToken.TOKEN_IDENTIFIER:
+				next();
+				failIfFalse(
+						match(StepToken.TOKEN_LPAREN),
+						unexpectedTokenMessage("Expected '('"));
+
+				parseParameterList();
+				break;
+			case StepToken.TOKEN_BINARY:
+			case StepToken.TOKEN_ENUM:
+			case StepToken.TOKEN_INSTANCE_NAME:
+			case StepToken.TOKEN_INTEGER:
+			case StepToken.TOKEN_REAL:
+			case StepToken.TOKEN_REDECLARED:
+			case StepToken.TOKEN_STRING:
+			case StepToken.TOKEN_UNSET:
+				break;
+			default:
+				fail(unexpectedTokenMessage("Expected valid parameter"));
+				break;
 		}
 	}
+
 }

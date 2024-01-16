@@ -5,7 +5,7 @@ public class StepAttributeImpl implements StepAttribute {
 	private final ByteBuffer dataBuffer;
 	private final TokenBuffer tokenBuffer;
 	private final int index;
-	private long token;
+	private StepToken token;
 
 	private static byte[] buffer = new byte[0];
 
@@ -23,81 +23,92 @@ public class StepAttributeImpl implements StepAttribute {
 
 	@Override
 	public Object getValue() {
-		long offset = StepTokenizer.tokenPosition(token);
-		int length = StepTokenizer.tokenLength(token);
-		switch (StepTokenizer.tokenType(token)) {
-		case StepTokenizer.TOKEN_INTEGER:
-		{
-			if (buffer.length < length) {
-				buffer = new byte[length];
+		long offset = token.getPosition();
+		int length = token.getLength();
+		switch (token.getType()) {
+			case StepToken.TOKEN_INTEGER: {
+				if (buffer.length < length) {
+					buffer = new byte[length];
+				}
+				dataBuffer.bytesAt(buffer, offset, length);
+				String str = new String(buffer, 0, length);
+				try {
+					return Long.valueOf(str);
+				} catch (NumberFormatException e) {
+				}
+				throw new RuntimeException("Invalid integer " + new String(buffer));
 			}
-			dataBuffer.bytesAt(buffer, offset, length);
-			String str = new String(buffer, 0, length);
-			try {
-				return Long.valueOf(str);
-			} catch (NumberFormatException e) {
+			case StepToken.TOKEN_REAL: {
+				if (buffer.length < length) {
+					buffer = new byte[length];
+				}
+				dataBuffer.bytesAt(buffer, offset, length);
+				String str = new String(buffer, 0, length);
+				try {
+					return Double.valueOf(str);
+				} catch (NumberFormatException e) {
+				}
+				throw new RuntimeException("Invalid real " + new String(buffer));
 			}
-			throw new RuntimeException("Invalid integer " + new String(buffer));
-		}
-		case StepTokenizer.TOKEN_REAL:
-		{
-			if (buffer.length < length) {
-				buffer = new byte[length];
+			case StepToken.TOKEN_INSTANCE_NAME: {
+				offset++;
+				length--;
+				if (buffer.length < length) {
+					buffer = new byte[length];
+				}
+				dataBuffer.bytesAt(buffer, offset, length);
+				String str = new String(buffer, 0, length);
+				try {
+					return Long.valueOf(str);
+				} catch (NumberFormatException e) {
+				}
+				throw new RuntimeException("Invalid instance id " + new String(buffer));
 			}
-			dataBuffer.bytesAt(buffer, offset, length);
-			String str = new String(buffer, 0, length);
-			try {
-				return Double.valueOf(str);
-			} catch (NumberFormatException e) {
+			case StepToken.TOKEN_ENUM: {
+				offset++;
+				length -= 2;
+				if (buffer.length < length) {
+					buffer = new byte[length];
+				}
+				dataBuffer.bytesAt(buffer, offset, length);
+				return new String(buffer, 0, length);
 			}
-			throw new RuntimeException("Invalid real " + new String(buffer));
-		}
-		case StepTokenizer.TOKEN_INSTANCE_NAME:
-		{
-			if (buffer.length < length) {
-				buffer = new byte[length];
+			case StepToken.TOKEN_BINARY: {
+				offset++;
+				length -= 2;
+				if (buffer.length < length) {
+					buffer = new byte[length];
+				}
+				dataBuffer.bytesAt(buffer, offset, length);
+				return new String(buffer, 0, length);
 			}
-			dataBuffer.bytesAt(buffer, offset, length);
-			String str = new String(buffer, 0, length);
-			try {
-				return Long.valueOf(str);
-			} catch (NumberFormatException e) {
+			case StepToken.TOKEN_STRING: {
+				offset++;
+				length -= 2;
+				if (buffer.length < length) {
+					buffer = new byte[length];
+				}
+				dataBuffer.bytesAt(buffer, offset, length);
+				return StepStringDecoder.decode(buffer, 0, length);
 			}
-			throw new RuntimeException("Invalid instance id " + new String(buffer));
-		}
-		case StepTokenizer.TOKEN_ENUM:
-		{
-			if (buffer.length < length) {
-				buffer = new byte[length];
-			}
-			dataBuffer.bytesAt(buffer, offset, length);
-			return new String(buffer, 0, length);
-		}
-		case StepTokenizer.TOKEN_STRING:
-		{
-			if (buffer.length < length) {
-				buffer = new byte[length];
-			}
-			dataBuffer.bytesAt(buffer, offset, length);
-			return StepStringDecoder.decode(buffer, 0, length);
-		}
-		case StepTokenizer.TOKEN_IDENTIFIER:
-			if (StepTokenizer.tokenType(tokenBuffer.tokenAt(index + 1)) == StepTokenizer.TOKEN_LPAREN) {
-				return new StepEntityInstanceImpl(dataBuffer, tokenBuffer, index);
-			} else {
-				throw new RuntimeException("Missing attribute list for inline instance");
-			}
-		case StepTokenizer.TOKEN_UNSET:
-		case StepTokenizer.TOKEN_REDECLARED:
-			return null;
-		default:
-			throw new RuntimeException("Unknown token");
+			case StepToken.TOKEN_IDENTIFIER:
+				if (tokenBuffer.tokenAt(index + 1).getType() == StepToken.TOKEN_LPAREN) {
+					return new StepEntityInstanceImpl(dataBuffer, tokenBuffer, index);
+				} else {
+					throw new RuntimeException("Missing attribute list for inline instance");
+				}
+			case StepToken.TOKEN_UNSET:
+			case StepToken.TOKEN_REDECLARED:
+				return null;
+			default:
+				throw new RuntimeException("Unknown token");
 		}
 	}
 
+	@Override
 	public String getTokenValue() {
-		long offset = StepTokenizer.tokenPosition(token);
-		int length = StepTokenizer.tokenLength(token);
+		long offset = token.getPosition();
+		int length = token.getLength();
 		if (buffer.length < length) {
 			buffer = new byte[length];
 		}
@@ -107,17 +118,17 @@ public class StepAttributeImpl implements StepAttribute {
 
 	@Override
 	public boolean isUnset() {
-		return StepTokenizer.tokenType(token) == StepTokenizer.TOKEN_UNSET;
+		return token.getType() == StepToken.TOKEN_UNSET;
 	}
 
 	public void markAsUnset() {
-		token = StepTokenizer.token(StepTokenizer.tokenType(StepTokenizer.TOKEN_UNSET), StepTokenizer.tokenPosition(token), StepTokenizer.tokenLength(token));
+		token = new StepToken(StepToken.TOKEN_UNSET, token.getPosition(), token.getLength());
 		tokenBuffer.set(index, token);
 	}
 
 	@Override
 	public boolean isRedeclared() {
-		return StepTokenizer.tokenType(token) == StepTokenizer.TOKEN_REDECLARED;
+		return token.getType() == StepToken.TOKEN_REDECLARED;
 	}
 
 	@Override
@@ -127,18 +138,37 @@ public class StepAttributeImpl implements StepAttribute {
 
 	@Override
 	public boolean isInstanceName() {
-		return StepTokenizer.tokenType(token) == StepTokenizer.TOKEN_INSTANCE_NAME;
+		return token.getType() == StepToken.TOKEN_INSTANCE_NAME;
 	}
 
 	@Override
 	public boolean isEnum() {
-		return StepTokenizer.tokenType(token) == StepTokenizer.TOKEN_ENUM;
+		return token.getType() == StepToken.TOKEN_ENUM;
 	}
 
 	@Override
 	public boolean isInline() {
-		return StepTokenizer.tokenType(token) == StepTokenizer.TOKEN_IDENTIFIER &&
-			StepTokenizer.tokenType(tokenBuffer.tokenAt(index + 1)) == StepTokenizer.TOKEN_LPAREN;
+		return token.getType() == StepToken.TOKEN_IDENTIFIER &&
+				tokenBuffer.tokenAt(index + 1).getType() == StepToken.TOKEN_LPAREN;
 	}
 
+	@Override
+	public boolean isString() {
+		return token.getType() == StepToken.TOKEN_STRING;
+	}
+
+	@Override
+	public boolean isInteger() {
+		return token.getType() == StepToken.TOKEN_INTEGER;
+	}
+
+	@Override
+	public boolean isReal() {
+		return token.getType() == StepToken.TOKEN_REAL;
+	}
+
+	@Override
+	public boolean isBinary() {
+		return token.getType() == StepToken.TOKEN_BINARY;
+	}
 }
