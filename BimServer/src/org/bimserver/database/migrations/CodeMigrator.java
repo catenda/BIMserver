@@ -81,7 +81,8 @@ public class CodeMigrator {
 			if (!(ePackage.getName().equals("ifc2x3tc1") ||
 			        ePackage.getName().equals("ifc4") ||
 			        ePackage.getName().equals("ifc4x3rc4") ||
-			        ePackage.getName().equals("ifc4x3"))) {
+			        ePackage.getName().equals("ifc4x3") ||
+			        ePackage.getName().equals("ifc4x3add2"))) {
 				ePackages.add(ePackage);
 			}
 		}

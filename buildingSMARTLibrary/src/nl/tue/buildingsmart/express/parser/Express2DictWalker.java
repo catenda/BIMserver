@@ -74,6 +74,7 @@ public class Express2DictWalker extends antlr.TreeParser {
 	 * stores the last INTEGER that was parsed. Is used in bounds
 	 */
 	private String nextInt;
+	private boolean nextIntNegative;
 
 	public SchemaDefinition getSchema() {
 		return this.schema;
@@ -4090,7 +4091,7 @@ public class Express2DictWalker extends antlr.TreeParser {
 						IntegerBound ub = new IntegerBound(new Integer(ubs));
 						if (aggr instanceof VariableSizeAggregationType) {
 
-							((VariableSizeAggregationType) aggr).setUpper_bound(ub);
+							((VariableSizeAggregationType) aggr).setUpper_bound(lb);
 							((VariableSizeAggregationType) aggr).setLower_bound(ub);
 						} else if (aggr instanceof ArrayType) {
 							((ArrayType) aggr).setLower_index(lb);
@@ -6198,6 +6199,7 @@ public class Express2DictWalker extends antlr.TreeParser {
 
 	public final void simple_factor(AST _t) throws RecognitionException {
 
+		nextIntNegative = false;
 		AST simple_factor_AST_in = handleNullTree(_t);
 		returnAST = null;
 		ASTPair currentAST = new ASTPair();
@@ -8267,7 +8269,7 @@ public class Express2DictWalker extends antlr.TreeParser {
 			_t = __t322;
 			_t = _t.getNextSibling();
 
-			nextInt = i.getText();
+			nextInt = (nextIntNegative ? "-" : "") + i.getText();
 
 			integer_AST = (AST) currentAST.root;
 		} catch (RecognitionException ex) {
@@ -10513,6 +10515,7 @@ public class Express2DictWalker extends antlr.TreeParser {
 					astFactory.addASTChild(currentAST, tmp263_AST);
 					match(_t, Express2DictWalkerTokenTypes.MINUS);
 					_t = _t.getNextSibling();
+					nextIntNegative = true;
 					break;
 				}
 				case LITERAL_or: {
