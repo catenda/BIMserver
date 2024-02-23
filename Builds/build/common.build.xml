@@ -365,6 +365,7 @@
 		<copy todir="builds/shared">
 			<fileset dir="../../Shared/genclasses"></fileset>
 		</copy>
+		<copy file="../../Shared/generated/org/bimserver/models/ifc4x3add2/impl/ifc4x3add2.ecore" todir="builds/shared/org/bimserver/models/ifc4x3add2/impl" />
 		<copy file="../../Shared/generated/org/bimserver/models/ifc4x3/impl/ifc4x3.ecore" todir="builds/shared/org/bimserver/models/ifc4x3/impl" />
 		<copy file="../../Shared/generated/org/bimserver/models/ifc4x3rc4/impl/ifc4x3rc4.ecore" todir="builds/shared/org/bimserver/models/ifc4x3rc4/impl" />
 		<copy file="../../Shared/generated/org/bimserver/models/ifc4/impl/ifc4.ecore" todir="builds/shared/org/bimserver/models/ifc4/impl" />
