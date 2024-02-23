@@ -4091,8 +4091,8 @@ public class Express2DictWalker extends antlr.TreeParser {
 						IntegerBound ub = new IntegerBound(new Integer(ubs));
 						if (aggr instanceof VariableSizeAggregationType) {
 
-							((VariableSizeAggregationType) aggr).setUpper_bound(lb);
-							((VariableSizeAggregationType) aggr).setLower_bound(ub);
+							((VariableSizeAggregationType) aggr).setUpper_bound(ub);
+							((VariableSizeAggregationType) aggr).setLower_bound(lb);
 						} else if (aggr instanceof ArrayType) {
 							((ArrayType) aggr).setLower_index(lb);
 							((ArrayType) aggr).setUpper_index(ub);
@@ -10598,6 +10598,7 @@ public class Express2DictWalker extends antlr.TreeParser {
 					astFactory.addASTChild(currentAST, tmp268_AST);
 					match(_t, Express2DictWalkerTokenTypes.MINUS);
 					_t = _t.getNextSibling();
+					nextIntNegative = true;
 					break;
 				}
 				case LITERAL_not: {
