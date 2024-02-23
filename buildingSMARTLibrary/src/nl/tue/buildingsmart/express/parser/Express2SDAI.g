@@ -496,8 +496,8 @@ explicit_attr [String forClass]
 		    			IntegerBound ub = new IntegerBound (new Integer(ubs));
 		    			if (aggr instanceof VariableSizeAggregationType){
 		    				
-		    				((VariableSizeAggregationType)aggr).setUpper_bound(lb);
-		    				((VariableSizeAggregationType)aggr).setLower_bound(ub);
+		    				((VariableSizeAggregationType)aggr).setUpper_bound(ub);
+		    				((VariableSizeAggregationType)aggr).setLower_bound(lb);
 		    			}
 		    			else if (aggr instanceof ArrayType){
 		    				((ArrayType)aggr).setLower_index(lb);
