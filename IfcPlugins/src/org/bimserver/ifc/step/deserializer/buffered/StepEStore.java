@@ -16,6 +16,7 @@ import org.bimserver.interfaces.objects.SIfcHeader;
 import org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package;
 import org.bimserver.models.ifc4.Ifc4Package;
 import org.bimserver.models.ifc4x3.Ifc4x3Package;
+import org.bimserver.models.ifc4x3add2.Ifc4x3add2Package;
 import org.bimserver.models.ifc4x3rc4.Ifc4x3rc4Package;
 import org.bimserver.models.log.LogPackage;
 import org.bimserver.models.store.StorePackage;
@@ -98,7 +99,9 @@ class StepEStore implements EStore {
 		this.exchange = exchange;
 		this.schema = schema;
 		String name = this.schema.getName();
-		if ("IFC4X3".equals(name.toUpperCase())) {
+		if ("IFC4X3_ADD2".equals(name.toUpperCase())) {
+			ePackage = Ifc4x3add2Package.eINSTANCE;
+		} else if ("IFC4X3".equals(name.toUpperCase())) {
 			ePackage = Ifc4x3Package.eINSTANCE;
 		} else if (name.toUpperCase().startsWith("IFC4X3_RC")) {
 			ePackage = Ifc4x3rc4Package.eINSTANCE;
