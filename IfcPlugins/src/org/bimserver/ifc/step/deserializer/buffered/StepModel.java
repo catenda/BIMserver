@@ -94,7 +94,7 @@ class StepModel implements IfcModelInterface {
 
 	@Override
 	public Set<Long> keySet() {
-		throw new UnsupportedOperationException();
+		return eStore.keySet();
 	}
 
 	@Override
