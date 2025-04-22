@@ -27,6 +27,7 @@ import org.bimserver.interfaces.objects.SIfcHeader;
 import org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package;
 import org.bimserver.models.ifc4.Ifc4Package;
 import org.bimserver.models.ifc4x3.Ifc4x3Package;
+import org.bimserver.models.ifc4x3add2.Ifc4x3add2Package;
 import org.bimserver.models.ifc4x3rc4.Ifc4x3rc4Package;
 import org.bimserver.plugins.PluginConfiguration;
 import org.bimserver.plugins.PluginException;
@@ -66,6 +67,8 @@ public abstract class IfcSerializer extends EmfSerializer {
 			return Ifc4Package.eINSTANCE;
 		} else if ("IFC4X3".equals(schema.getName().toUpperCase())) {
 			return Ifc4x3Package.eINSTANCE;
+		} else if ("IFC4X3_ADD2".equals(schema.getName().toUpperCase())) {
+			return Ifc4x3add2Package.eINSTANCE;
 		} else if (schema.getName().toUpperCase().startsWith("IFC4X3_RC")) {
 			return Ifc4x3rc4Package.eINSTANCE;
 		} else {

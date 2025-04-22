@@ -16,4 +16,8 @@
 		<interfaceClass>org.bimserver.plugins.schema.SchemaPlugin</interfaceClass>
 		<implementationClass>nl.tue.buildingsmart.emf.Ifc4x3SchemaPlugin</implementationClass>
 	</PluginImplementation>
+	<PluginImplementation>
+		<interfaceClass>org.bimserver.plugins.schema.SchemaPlugin</interfaceClass>
+		<implementationClass>nl.tue.buildingsmart.emf.Ifc4x3add2SchemaPlugin</implementationClass>
+	</PluginImplementation>
 </PluginDescriptor>

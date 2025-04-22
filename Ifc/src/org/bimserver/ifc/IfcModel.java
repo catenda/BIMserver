@@ -42,6 +42,7 @@ import org.bimserver.models.ifc2x3tc1.Ifc2x3tc1Package;
 import org.bimserver.models.ifc4.Ifc4Package;
 import org.bimserver.models.ifc4x3.Ifc4x3Package;
 import org.bimserver.models.ifc4x3rc4.Ifc4x3rc4Package;
+import org.bimserver.models.ifc4x3add2.Ifc4x3add2Package;
 import org.bimserver.models.log.LogPackage;
 import org.bimserver.models.store.StorePackage;
 import org.bimserver.shared.PublicInterfaceNotFoundException;
@@ -82,7 +83,7 @@ public class IfcModel implements IfcModelInterface {
 	private static BiMap<EClass, Class<?>> initEClassClassMap() {
 		BiMap<EClass, Class<?>> eClassClassMap = HashBiMap.create();
 		eClassIfcRootMap = new HashMap<EClass, EClass>();
-		for (EPackage ePackage : new EPackage[] { Ifc2x3tc1Package.eINSTANCE, Ifc4Package.eINSTANCE, Ifc4x3rc4Package.eINSTANCE, Ifc4x3Package.eINSTANCE, StorePackage.eINSTANCE, LogPackage.eINSTANCE }) {
+		for (EPackage ePackage : new EPackage[] { Ifc2x3tc1Package.eINSTANCE, Ifc4Package.eINSTANCE, Ifc4x3rc4Package.eINSTANCE, Ifc4x3Package.eINSTANCE, Ifc4x3add2Package.eINSTANCE, StorePackage.eINSTANCE, LogPackage.eINSTANCE }) {
 			for (EClassifier eClassifier : ePackage.getEClassifiers()) {
 				if (eClassifier instanceof EClass) {
 					EClass eClass = (EClass) eClassifier;
