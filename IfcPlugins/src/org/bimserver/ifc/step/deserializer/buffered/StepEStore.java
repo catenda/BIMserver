@@ -115,6 +115,10 @@ class StepEStore implements EStore {
 		this.buildIndex();
 	}
 
+	public Set<Long> keySet() {
+		return instances.keySet();
+	}
+
 	private void buildIfcHeader() {
 		ifcHeader = StepHeaderParser.parseIfcHeader(exchange.getHeaderEntityIterator());
 	}
