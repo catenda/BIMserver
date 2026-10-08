@@ -9,6 +9,7 @@ import java.util.List;
 import java.util.Map;
 import java.util.Map.Entry;
 import java.util.Set;
+import java.util.WeakHashMap;
 
 import org.bimserver.emf.IdEObject;
 import org.bimserver.emf.IdEObjectImpl;
@@ -80,6 +81,9 @@ class StepEStore implements EStore {
 	private final Set<EStructuralFeature> inverseCache = Sets.newHashSet();
 	private final Map<EStructuralFeature, Integer> attributeIndexCache = Maps.newHashMap();
 
+	// Inline entity instances (no #id) are found again by object identity. Weak keys: an entry
+	// must live exactly as long as the caller holds the object, or every attribute read leaks one.
+	private final Map<IdEObject, Integer> inlineInstances = new WeakHashMap<>();
 	private final Map<String, EClassifier> eClasses;
 	private final Map<EClass, List<EClass>> eClassSubTypes;
 	private final BiMap<EClass, Class<?>> eClassClassMap;
@@ -452,7 +456,10 @@ class StepEStore implements EStore {
 		}
 
 		long oid = ((IdEObjectImpl) object).getOid();
-		Integer instanceIndex = isInlineOid(oid) ? inlineInstanceIndex(oid) : instances.get(oid);
+		Integer instanceIndex = instances.get(oid);
+		if (instanceIndex == null) {
+			instanceIndex = inlineInstances.get(object);
+		}
 		if (instanceIndex == null) {
 			return null;
 		}
@@ -514,11 +521,11 @@ class StepEStore implements EStore {
 				result = (IdEObject) create((EClass) eClassifier);
 				long instanceName = attribute.getInstanceName();
 				((IdEObjectImpl) result).setExpressId(instanceName);
+				((IdEObjectImpl) result).setOid(instanceName);
 				if (instanceName > 0) {
-					((IdEObjectImpl) result).setOid(instanceName);
 					instances.put(instanceName, attribute.getIndex());
 				} else {
-					((IdEObjectImpl) result).setOid(inlineOid(attribute.getIndex()));
+					inlineInstances.put((IdEObject) result, attribute.getIndex());
 				}
 			} else if (eClassifier instanceof EEnum) {
 				Iterator<StepAttribute> attributeIterator = attribute.getAttributeIterator();
@@ -835,30 +842,13 @@ class StepEStore implements EStore {
 		IdEObject object = (IdEObject) create((EClass) eClass);
 		long instanceName = instance.getInstanceName();
 		((IdEObjectImpl) object).setExpressId(instanceName);
+		((IdEObjectImpl) object).setOid(instanceName);
 		if (instanceName > 0) {
-			((IdEObjectImpl) object).setOid(instanceName);
 			instances.put(instanceName, instance.getIndex());
 		} else {
-			((IdEObjectImpl) object).setOid(inlineOid(instance.getIndex()));
+			inlineInstances.put(object, instance.getIndex());
 		}
 		return object;
-	}
-
-	// Inline entity instances (no #id) are keyed by the position of their keyword token. The
-	// position is stored in the otherwise unused oid, offset so it never collides with a real
-	// instance name (> 0) or with the unassigned oid (-1).
-	private static final long INLINE_OID_BASE = -2;
-
-	private static long inlineOid(int instanceIndex) {
-		return INLINE_OID_BASE - instanceIndex;
-	}
-
-	private static boolean isInlineOid(long oid) {
-		return oid <= INLINE_OID_BASE;
-	}
-
-	private static int inlineInstanceIndex(long oid) {
-		return (int) (INLINE_OID_BASE - oid);
 	}
 
 	public Iterator<IdEObject> iterator() {
