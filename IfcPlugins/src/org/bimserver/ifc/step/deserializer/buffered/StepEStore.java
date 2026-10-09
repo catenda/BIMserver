@@ -81,8 +81,6 @@ class StepEStore implements EStore {
 	private final Set<EStructuralFeature> inverseCache = Sets.newHashSet();
 	private final Map<EStructuralFeature, Integer> attributeIndexCache = Maps.newHashMap();
 
-	// Inline entity instances (no #id) are found again by object identity. Weak keys: an entry
-	// must live exactly as long as the caller holds the object, or every attribute read leaks one.
 	private final Map<IdEObject, Integer> inlineInstances = new WeakHashMap<>();
 	private final Map<String, EClassifier> eClasses;
 	private final Map<EClass, List<EClass>> eClassSubTypes;
