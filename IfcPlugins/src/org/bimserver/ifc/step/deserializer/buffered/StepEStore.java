@@ -9,6 +9,7 @@ import java.util.List;
 import java.util.Map;
 import java.util.Map.Entry;
 import java.util.Set;
+import java.util.WeakHashMap;
 
 import org.bimserver.emf.IdEObject;
 import org.bimserver.emf.IdEObjectImpl;
@@ -80,7 +81,7 @@ class StepEStore implements EStore {
 	private final Set<EStructuralFeature> inverseCache = Sets.newHashSet();
 	private final Map<EStructuralFeature, Integer> attributeIndexCache = Maps.newHashMap();
 
-	private final Map<IdEObject, Integer> inlineInstances = Maps.newHashMap();
+	private final Map<IdEObject, Integer> inlineInstances = new WeakHashMap<>();
 	private final Map<String, EClassifier> eClasses;
 	private final Map<EClass, List<EClass>> eClassSubTypes;
 	private final BiMap<EClass, Class<?>> eClassClassMap;
